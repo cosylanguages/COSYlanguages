@@ -2,262 +2,256 @@
  * js/games/word_linker.js
  * Game logic for word_linker.js.
  */
-const WordLinkerGame = {
-  buildExplanation(item, reason) {
-    return `
-      <div style="background:#e8f0e9;border-radius:10px;padding:12px 14px;font-family:'Nunito',sans-serif;margin-top:8px;border-left:3px solid #6b8f71;">
-        <div style="font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:.05em;color:#4a6b50;margin-bottom:4px">Why it's different:</div>
-        <div style="font-size:.88rem;color:#2e4a33;line-height:1.55">${reason || item.explanation || "This word belongs to a different logical group."}</div>
-      </div>
-    `;
-  }
-};
-window.WordLinkerGame = WordLinkerGame;
+(function() {
+    'use strict';
+    const WordLinkerGame = {
+      buildExplanation(item, reason) {
+        return `
+          <div style="background:#e8f0e9;border-radius:10px;padding:12px 14px;font-family:'Nunito',sans-serif;margin-top:8px;border-left:3px solid #6b8f71;">
+            <div style="font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:.05em;color:#4a6b50;margin-bottom:4px">Why it's different:</div>
+            <div style="font-size:.88rem;color:#2e4a33;line-height:1.55">${reason || item.explanation || "This word belongs to a different logical group."}</div>
+          </div>
+        `;
+      }
+    };
+    window.WordLinkerGame = WordLinkerGame;
 
-document.addEventListener('DOMContentLoaded', () => {
-    const { getLang, t, speak, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
+    document.addEventListener('DOMContentLoaded', () => {
+        const { getLang, t, speak, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
 
-    const initWordLinker = () => {
-        const modal = document.getElementById('linker-modal');
-        if (!modal) return;
+        const initWordLinker = () => {
+            const modal = document.getElementById('linker-modal');
+            if (!modal) return;
 
-        const openBtn = document.getElementById('open-linker-btn');
-        const closeBtn = document.getElementById('close-linker-btn');
-        const startBtn = document.getElementById('start-linker-game-btn');
-        const setupArea = document.getElementById('linker-setup');
-        const gameArea = document.getElementById('linker-gameplay');
-        const cluesArea = document.getElementById('linker-clues');
-        const optionsGrid = document.getElementById('linker-options');
-        const feedback = document.getElementById('linker-feedback');
-        const levelSelect = document.getElementById('linker-level');
-        const langSelect = document.getElementById('linker-lang');
-        const themeSelect = document.getElementById('linker-theme');
+            const openBtn = document.getElementById('open-linker-btn');
+            const closeBtn = document.getElementById('close-linker-btn');
+            const startBtn = document.getElementById('start-linker-game-btn');
+            const setupArea = document.getElementById('linker-setup');
+            const gameArea = document.getElementById('linker-gameplay');
+            const cluesArea = document.getElementById('linker-clues');
+            const optionsGrid = document.getElementById('linker-options');
+            const feedback = document.getElementById('linker-feedback');
+            const levelSelect = document.getElementById('linker-level');
+            const langSelect = document.getElementById('linker-lang');
+            const themeSelect = document.getElementById('linker-theme');
 
-        const populateThemesLocal = () => {
-            if (!themeSelect || !levelSelect || !langSelect) return;
-            populateThemes(themeSelect, levelSelect, langSelect.value);
-        };
+            const populateThemesLocal = () => {
+                if (!themeSelect || !levelSelect || !langSelect) return;
+                populateThemes(themeSelect, levelSelect, langSelect.value);
+            };
 
-        const api = {
-            open: () => {
-                modal.style.display = 'flex';
-                setupArea.style.display = 'block';
-                gameArea.style.display = 'none';
-                populateThemesLocal();
-            },
-            start: () => startBtn.click()
-        };
-        window.wordLinkerGame = api;
+            const api = {
+                open: () => {
+                    modal.style.display = 'flex';
+                    setupArea.style.display = 'block';
+                    gameArea.style.display = 'none';
+                    populateThemesLocal();
+                },
+                start: () => startBtn.click()
+            };
+            window.wordLinkerGame = api;
 
-        let pool = [];
-        let currentGameMode = 'association';
+            let pool = [];
+            let currentGameMode = 'association';
 
-        const levelsOrder = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
+            const levelsOrder = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
 
-        const showNext = () => {
-            if (pool.length === 0) {
-                cluesArea.innerHTML = '🏁';
-                optionsGrid.innerHTML = '';
-                feedback.textContent = t('game_over');
-                return;
-            }
+            const showNext = () => {
+                if (pool.length === 0) {
+                    cluesArea.innerHTML = '🏁';
+                    optionsGrid.innerHTML = '';
+                    feedback.textContent = t('game_over');
+                    return;
+                }
 
-            const current = pool.pop();
-            const lang = document.getElementById('linker-lang').value;
-            const level = document.getElementById('linker-level').value;
-            let vocabSource = window.vocabularyData[lang] || [];
+                const current = pool.pop();
+                const lang = document.getElementById('linker-lang').value;
+                const level = document.getElementById('linker-level').value;
+                let vocabSource = window.vocabularyData[lang] || [];
 
-            // Clear explanation area
-            const expl = document.getElementById('wl-explanation-area');
-            if (expl) expl.innerHTML = '';
+                const expl = document.getElementById('wl-explanation-area');
+                if (expl) expl.innerHTML = '';
 
-            // For clues and distractors, we include words at or below the current level
-            let accessibleVocab = vocabSource;
-            if (level !== 'all') {
-                const levelIndex = levelsOrder.indexOf(level);
-                accessibleVocab = vocabSource.filter(v => {
-                    const vIndex = levelsOrder.indexOf(v.level);
-                    return vIndex !== -1 && vIndex <= levelIndex;
-                });
-            }
+                let accessibleVocab = vocabSource;
+                if (level !== 'all') {
+                    const levelIndex = levelsOrder.indexOf(level);
+                    accessibleVocab = vocabSource.filter(v => {
+                        const vIndex = levelsOrder.indexOf(v.level);
+                        return vIndex !== -1 && vIndex <= levelIndex;
+                    });
+                }
 
-            if (currentGameMode === 'association') {
-                // Find clues (words in same theme) from accessible vocab
-                let clues = accessibleVocab
-                    .filter(v => v.theme === current.theme && v.word !== current.word)
-                    .sort(() => Math.random() - 0.5)
-                    .slice(0, 3)
-                    .map(v => v.word);
-
-                if (clues.length < 3) {
-                    // Fallback to any level clues within the theme if not enough found in current level
-                    const themeClues = vocabSource
+                if (currentGameMode === 'association') {
+                    let clues = accessibleVocab
                         .filter(v => v.theme === current.theme && v.word !== current.word)
                         .sort(() => Math.random() - 0.5)
                         .slice(0, 3)
                         .map(v => v.word);
 
-                    if (themeClues.length >= 3) {
-                        clues = themeClues;
-                    } else if (clues.length === 0 && themeClues.length === 0) {
-                        // Total failure for this word, skip to next
-                        showNext();
-                        return;
-                    } else if (themeClues.length > 0) {
-                        clues = themeClues; // use what we have even if < 3
+                    if (clues.length < 3) {
+                        const themeClues = vocabSource
+                            .filter(v => v.theme === current.theme && v.word !== current.word)
+                            .sort(() => Math.random() - 0.5)
+                            .slice(0, 3)
+                            .map(v => v.word);
+
+                        if (themeClues.length >= 3) {
+                            clues = themeClues;
+                        } else if (clues.length === 0 && themeClues.length === 0) {
+                            showNext();
+                            return;
+                        } else if (themeClues.length > 0) {
+                            clues = themeClues;
+                        }
                     }
-                }
 
-                cluesArea.innerHTML = '';
-                clues.forEach(clue => {
-                    const badge = document.createElement('span');
-                    badge.className = 'badge glass';
-                    badge.style.padding = '10px 20px';
-                    badge.style.borderRadius = '30px';
-                    badge.style.fontSize = '1.2rem';
-                    badge.style.fontWeight = '700';
-                    badge.style.color = 'var(--primary-color)';
-                    badge.style.boxShadow = '0 4px 10px rgba(0,0,0,0.05)';
-                    badge.textContent = clue;
-                    cluesArea.appendChild(badge);
-                });
+                    cluesArea.innerHTML = '';
+                    clues.forEach(clue => {
+                        const badge = document.createElement('span');
+                        badge.className = 'badge glass';
+                        badge.style.padding = '10px 20px';
+                        badge.style.borderRadius = '30px';
+                        badge.style.fontSize = '1.2rem';
+                        badge.style.fontWeight = '700';
+                        badge.style.color = 'var(--primary-color)';
+                        badge.style.boxShadow = '0 4px 10px rgba(0,0,0,0.05)';
+                        badge.textContent = clue;
+                        cluesArea.appendChild(badge);
+                    });
 
-                feedback.textContent = '';
+                    feedback.textContent = '';
 
-                let distractors = accessibleVocab
-                    .filter(v => v.word !== current.word && v.theme !== current.theme)
-                    .sort(() => Math.random() - 0.5)
-                    .slice(0, 3)
-                    .map(v => v.word);
-
-                // distractor fallback
-                if (distractors.length < 3) {
-                    distractors = vocabSource
+                    let distractors = accessibleVocab
                         .filter(v => v.word !== current.word && v.theme !== current.theme)
                         .sort(() => Math.random() - 0.5)
                         .slice(0, 3)
                         .map(v => v.word);
+
+                    if (distractors.length < 3) {
+                        distractors = vocabSource
+                            .filter(v => v.word !== current.word && v.theme !== current.theme)
+                            .sort(() => Math.random() - 0.5)
+                            .slice(0, 3)
+                            .map(v => v.word);
+                    }
+
+                    let options = [current.word, ...distractors].sort(() => Math.random() - 0.5);
+
+                    optionsGrid.innerHTML = '';
+                    options.forEach(opt => {
+                        const btn = document.createElement('button');
+                        btn.className = 'choice-btn pill-input';
+                        btn.style.fontSize = '1.1rem';
+                        btn.style.fontWeight = '700';
+                        btn.textContent = opt;
+                        btn.onclick = () => {
+                            if (opt === current.word) {
+                                feedback.textContent = t('correct');
+                                feedback.style.color = 'var(--primary-color)';
+                                if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(5);
+                                speak(opt, lang);
+
+                                document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current, null);
+
+                                setTimeout(showNext, 3000);
+                            } else {
+                                feedback.textContent = t('incorrect');
+                                feedback.style.color = 'var(--accent-color)';
+                            }
+                        };
+                        optionsGrid.appendChild(btn);
+                    });
+                } else {
+                    const otherThemes = [...new Set(accessibleVocab.map(v => v.theme))].filter(th => th && th !== current.theme);
+
+                    if (otherThemes.length === 0) {
+                        showNext();
+                        return;
+                    }
+
+                    const targetTheme = otherThemes[Math.floor(Math.random() * otherThemes.length)];
+                    const belongingWords = accessibleVocab
+                        .filter(v => v.theme === targetTheme)
+                        .sort(() => Math.random() - 0.5)
+                        .slice(0, 3)
+                        .map(v => v.word);
+
+                    if (belongingWords.length < 3) {
+                        showNext();
+                        return;
+                    }
+
+                    cluesArea.innerHTML = `<span class="badge glass" style="padding: 15px 25px; border-radius: 30px; font-weight: 700; color: var(--accent-color);">${t('linker_odd_one_prompt')}</span>`;
+                    feedback.textContent = '';
+
+                    let options = [current.word, ...belongingWords].sort(() => Math.random() - 0.5);
+
+                    optionsGrid.innerHTML = '';
+                    options.forEach(opt => {
+                        const btn = document.createElement('button');
+                        btn.className = 'choice-btn pill-input';
+                        btn.style.fontSize = '1.1rem';
+                        btn.style.fontWeight = '700';
+                        btn.textContent = opt;
+                        btn.onclick = () => {
+                            if (opt === current.word) {
+                                feedback.textContent = t('correct');
+                                feedback.style.color = 'var(--primary-color)';
+                                if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(5);
+                                speak(opt, lang);
+
+                                document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current, current.explanation);
+
+                                setTimeout(showNext, 3000);
+                            } else {
+                                feedback.textContent = t('incorrect');
+                                feedback.style.color = 'var(--accent-color)';
+                            }
+                        };
+                        optionsGrid.appendChild(btn);
+                    });
                 }
+            };
 
-                let options = [current.word, ...distractors].sort(() => Math.random() - 0.5);
+            openBtn?.addEventListener('click', () => api.open());
+            levelSelect?.addEventListener('change', populateThemesLocal);
+            langSelect?.addEventListener('change', populateThemesLocal);
 
-                optionsGrid.innerHTML = '';
-                options.forEach(opt => {
-                    const btn = document.createElement('button');
-                    btn.className = 'choice-btn pill-input';
-                    btn.style.fontSize = '1.1rem';
-                    btn.style.fontWeight = '700';
-                    btn.textContent = opt;
-                    btn.onclick = () => {
-                        if (opt === current.word) {
-                            feedback.textContent = t('correct');
-                            feedback.style.color = 'var(--primary-color)';
-                            if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(5);
-                            speak(opt, lang);
+            closeBtn?.addEventListener('click', () => modal.style.display = 'none');
 
-                            // Improvements: WordLinkerGame.buildExplanation
-                            document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current, null);
+            startBtn?.addEventListener('click', () => {
+                const lang = document.getElementById('linker-lang').value;
+                const level = document.getElementById('linker-level').value;
+                const theme = themeSelect.value;
+                currentGameMode = document.getElementById('linker-mode')?.value || 'association';
 
-                            setTimeout(showNext, 3000);
-                        } else {
-                            feedback.textContent = t('incorrect');
-                            feedback.style.color = 'var(--accent-color)';
-                        }
-                    };
-                    optionsGrid.appendChild(btn);
-                });
-            } else {
-                // Odd One Out mode
-                const otherThemes = [...new Set(accessibleVocab.map(v => v.theme))].filter(th => th && th !== current.theme);
+                let allVocab = window.gameUtils.getVocabPool(lang, level, theme)
+                    .filter(v => v.theme !== 'famous_people');
 
-                if (otherThemes.length === 0) {
-                    showNext();
+                pool = allVocab.filter(v => v.theme);
+                const seed = setupArea.querySelector(".game-seed")?.value;
+                if (seed) window.gameUtils.seededShuffle(pool, parseInt(seed));
+                else pool.sort(() => Math.random() - 0.5);
+                pool = pool.slice(0, 10);
+
+                if (pool.length === 0) {
+                    showGameMessage(setupArea, t('alert_no_vocab_level'), 'error');
                     return;
                 }
+                setupArea.style.display = 'none';
+                gameArea.style.display = 'block';
+                showNext();
+            });
 
-                const targetTheme = otherThemes[Math.floor(Math.random() * otherThemes.length)];
-                const belongingWords = accessibleVocab
-                    .filter(v => v.theme === targetTheme)
-                    .sort(() => Math.random() - 0.5)
-                    .slice(0, 3)
-                    .map(v => v.word);
-
-                if (belongingWords.length < 3) {
-                    showNext();
-                    return;
-                }
-
-                cluesArea.innerHTML = `<span class="badge glass" style="padding: 15px 25px; border-radius: 30px; font-weight: 700; color: var(--accent-color);">${t('linker_odd_one_prompt')}</span>`;
-                feedback.textContent = '';
-
-                let options = [current.word, ...belongingWords].sort(() => Math.random() - 0.5);
-
-                optionsGrid.innerHTML = '';
-                options.forEach(opt => {
-                    const btn = document.createElement('button');
-                    btn.className = 'choice-btn pill-input';
-                    btn.style.fontSize = '1.1rem';
-                    btn.style.fontWeight = '700';
-                    btn.textContent = opt;
-                    btn.onclick = () => {
-                        if (opt === current.word) {
-                            feedback.textContent = t('correct');
-                            feedback.style.color = 'var(--primary-color)';
-                            if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(5);
-                            speak(opt, lang);
-
-                            // Improvements: WordLinkerGame.buildExplanation
-                            document.getElementById('wl-explanation-area').innerHTML = WordLinkerGame.buildExplanation(current, current.explanation);
-
-                            setTimeout(showNext, 3000);
-                        } else {
-                            feedback.textContent = t('incorrect');
-                            feedback.style.color = 'var(--accent-color)';
-                        }
-                    };
-                    optionsGrid.appendChild(btn);
-                });
-            }
+            window.gameUtils.handleShare('share-linker-btn', {
+                game: 'word_linker',
+                lang: () => document.getElementById('linker-lang').value,
+                level: () => document.getElementById('linker-level').value,
+                theme: () => document.getElementById('linker-theme').value,
+                mode: () => document.getElementById('linker-mode')?.value || 'association'
+            });
         };
 
-        openBtn?.addEventListener('click', () => api.open());
-        levelSelect?.addEventListener('change', populateThemesLocal);
-        langSelect?.addEventListener('change', populateThemesLocal);
-
-        closeBtn?.addEventListener('click', () => modal.style.display = 'none');
-
-        startBtn?.addEventListener('click', () => {
-            const lang = document.getElementById('linker-lang').value;
-            const level = document.getElementById('linker-level').value;
-            const theme = themeSelect.value;
-            currentGameMode = document.getElementById('linker-mode')?.value || 'association';
-
-            let allVocab = window.gameUtils.getVocabPool(lang, level, theme)
-                .filter(v => v.theme !== 'famous_people'); // Exclude names from Word Linker
-
-            pool = allVocab.filter(v => v.theme);
-            const seed = setupArea.querySelector(".game-seed")?.value;
-            if (seed) window.gameUtils.seededShuffle(pool, parseInt(seed));
-            else pool.sort(() => Math.random() - 0.5);
-            pool = pool.slice(0, 10);
-
-            if (pool.length === 0) {
-                showGameMessage(setupArea, t('alert_no_vocab_level'), 'error');
-                return;
-            }
-            setupArea.style.display = 'none';
-            gameArea.style.display = 'block';
-            showNext();
-        });
-
-        window.gameUtils.handleShare('share-linker-btn', {
-            game: 'word_linker',
-            lang: () => document.getElementById('linker-lang').value,
-            level: () => document.getElementById('linker-level').value,
-            theme: () => document.getElementById('linker-theme').value,
-            mode: () => document.getElementById('linker-mode')?.value || 'association'
-        });
-    };
-
-    initWordLinker();
-});
+        initWordLinker();
+    });
+})();
