@@ -395,11 +395,14 @@ async function loadVocabFile(path) {
     const langMatch = path.match(/vocabulary\/([^/]+)\//);
     const lang = langMatch ? langMatch[1] : 'en';
 
-    // Ensure vocabularyData exists so files can push to it (especially people.js)
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = window.vocabularyData[lang] || [];
+    const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements'];
+    const beforeCounts = {};
 
-    const beforeCount = window.vocabularyData[lang].length;
+    keys.forEach(key => {
+        window[key] = window[key] || {};
+        window[key][lang] = window[key][lang] || [];
+        beforeCounts[key] = window[key][lang].length;
+    });
 
     await new Promise((resolve) => {
         const s = document.createElement('script');
@@ -413,8 +416,12 @@ async function loadVocabFile(path) {
         document.head.appendChild(s);
     });
 
-    const after = window.vocabularyData[lang];
-    return after.slice(beforeCount);
+    const newlyLoaded = [];
+    keys.forEach(key => {
+        const after = window[key][lang];
+        newlyLoaded.push(...after.slice(beforeCounts[key]));
+    });
+    return newlyLoaded;
 }
 
 let STATE = readState();
@@ -523,23 +530,30 @@ window.COSY = {
     },
 
     async loadLanguageData(lang, levelId) {
-        // 1. Convert level ID to folder short code
-        const folderCode = window.getLevelDir(levelId);
+        const levelsToLoad = (levelId === 'all')
+            ? window.COSY_LEVELS.map(l => l.id)
+            : [levelId];
 
-        // 2. Build the path to the level folder
-        const basePath = `vocabulary/${lang}/${folderCode}/`;
-
-        // 3. Get the list of .js files in that folder
-        const files = await getVocabFileList(lang, folderCode);
-
-        // 4. Load each file and collect all entries
         const allEntries = [];
-        for (const file of files) {
-            try {
-                const entries = await loadVocabFile(basePath + file);
-                if (entries) allEntries.push(...entries);
-            } catch (e) {
-                console.warn('[COSY] Error loading vocab file:', file, e);
+
+        for (const lid of levelsToLoad) {
+            // 1. Convert level ID to folder short code
+            const folderCode = window.getLevelDir(lid);
+
+            // 2. Build the path to the level folder
+            const basePath = lid === 'all' ? `vocabulary/${lang}/` : `vocabulary/${lang}/${folderCode}/`;
+
+            // 3. Get the list of .js files in that folder
+            const files = await getVocabFileList(lang, folderCode);
+
+            // 4. Load each file and collect all entries
+            for (const file of files) {
+                try {
+                    const entries = await loadVocabFile(basePath + file);
+                    if (entries) allEntries.push(...entries);
+                } catch (e) {
+                    console.warn('[COSY] Error loading vocab file:', file, e);
+                }
             }
         }
 

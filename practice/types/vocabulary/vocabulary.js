@@ -119,6 +119,7 @@
     ══════════════════════════════════════ */
     function beginSession(lang, catInput, level, theme, isChallenge, customQs, subTheme) {
         const cat = catInput || 'Vocabulary';
+        console.log('[COSY Practice] beginSession', { lang, cat, level, theme, subTheme });
 
         if (customQs) {
             window.cosyPracticeEngine.startSession(lang, cat, level, theme, isChallenge, customQs);
@@ -128,12 +129,36 @@
         let pool = [];
         const l = lang.toLowerCase();
 
-        const norm = v => v.toLowerCase().replace(/-/g, '_');
+        const norm = v => (v || '').toLowerCase().replace(/-/g, '_');
         const normalizedLevel = level !== 'all' ? norm(level) : 'all';
 
-        if (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar') {
-            const uiCat = (cat === 'vocab' || cat === 'Vocabulary') ? 'Vocabulary' : 'Grammar';
+        if (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar' || cat === 'vocabulary') {
+            const uiCat = (cat === 'vocab' || cat === 'Vocabulary' || cat === 'vocabulary') ? 'Vocabulary' : 'Grammar';
             pool = window.gameUtils.getVocabPool(l, level, theme, subTheme || 'all');
+            console.log('[COSY Practice] getVocabPool result count:', pool.length);
+
+            // Fallback to aggregated window.*Data if getVocabPool is empty
+            if (pool.length === 0) {
+                const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements'];
+                let aggregatedPool = [];
+                keys.forEach(key => {
+                    if (window[key] && window[key][l]) aggregatedPool = aggregatedPool.concat(window[key][l]);
+                });
+
+                if (aggregatedPool.length > 0) {
+                    pool = window.gameUtils.filterVocabulary(aggregatedPool, { lang: l, level, theme, subTheme, category: uiCat });
+                    console.log('[COSY Practice] fallback filterVocabulary count:', pool.length);
+
+                    // SECOND FALLBACK: If still empty, try to get ALL vocab for this language regardless of form filter
+                    if (pool.length === 0) {
+                        pool = aggregatedPool.filter(item => {
+                            const itemLevel = norm(item.level || 'starter');
+                            return (normalizedLevel === 'all' || itemLevel === normalizedLevel);
+                        });
+                        console.log('[COSY Practice] second fallback count:', pool.length);
+                    }
+                }
+            }
 
             if (window.phrasesData && window.phrasesData[l]) {
                 const phrases = [];
@@ -214,7 +239,8 @@
         let qs = [];
         if (pool.length > 0) {
             qs = pool.map(item => {
-                if (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar') {
+                const isVocabOrGrammar = (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar' || cat === 'vocabulary');
+                if (isVocabOrGrammar) {
                     let types = ['mc', 'tf', 'type', 'sc'];
                     let type = types[Math.floor(Math.random() * types.length)];
 
@@ -226,8 +252,8 @@
 
                     if (type === 'type' && !item.word) type = 'mc';
 
-                    let qText, ans, opts = null;
-                    const definition = item.definitions?.[0]?.text || "the correct meaning";
+                    let qText = '', ans = null, opts = null;
+                    const definition = item.definitions?.[0]?.text || item.definition || "the correct meaning";
 
                     if (type === 'mc') {
                         const mcQ = buildMCQuestion(item, pool);
@@ -244,8 +270,8 @@
                         qText = `"${item.word}" means "${displayDef}".`;
                         ans = isTrue;
                     } else if (type === 'sc') {
-                        // FIX 3 — Guard the sentence scramble answer generation
-                        const ex = item.examples[Math.floor(Math.random() * item.examples.length)];
+                        const examplesArr = (item.examples && item.examples.length > 0) ? item.examples : (item.definitions?.[0]?.examples || []);
+                        const ex = examplesArr[Math.floor(Math.random() * examplesArr.length)];
                         if (!ex?.text) {
                             type = 'type';
                         } else {
@@ -255,12 +281,16 @@
                     }
 
                     if (type === 'type') {
-                        // FIX 2a — For 'type' questions, show the definition AND emoji
-                        qText = `${item.emoji || ''} ${item.definitions?.[0]?.text || 'Type the word:'}`.trim();
+                        qText = `${item.emoji || ''} ${definition || 'Type the word:'}`.trim();
+                        if (qText === item.emoji || !qText) qText = 'Type the word:';
                         ans = item.word;
                     }
 
-                    // Use rich format fields: word for q, translation for evaluation where possible
+                    if (!qText) {
+                        console.warn('[COSY Practice] qText still empty for item:', item, 'type:', type);
+                        qText = `Practice: ${item.word}`;
+                    }
+
                     return {
                         form: type,
                         q: qText,
