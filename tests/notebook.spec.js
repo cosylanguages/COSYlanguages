@@ -10,19 +10,19 @@ test.describe('Notebook Page', () => {
 
   test('should display empty state when no words are saved', async ({ page }) => {
     await expect(page.locator('.empty-state')).toBeVisible();
-    await expect(page.locator('#vocab-count')).toHaveText('0');
+    await expect(page.locator('#stat-words')).toHaveText('0');
   });
 
   test('should add a custom word and persist it', async ({ page }) => {
     await page.fill('#manual-word', 'TestWord');
     await page.fill('#manual-def', 'Test Definition');
-    await page.click('button:has-text("+ Save Word")');
+    await page.click('button:has-text("+ Save")');
 
     // Check if word is added to the grid
     await expect(page.locator('.vocab-card')).toHaveCount(1);
     await expect(page.locator('.vocab-word')).toHaveText('TestWord');
     await expect(page.locator('.vocab-def')).toHaveText('Test Definition');
-    await expect(page.locator('#vocab-count')).toHaveText('1');
+    await expect(page.locator('#stat-words')).toHaveText('1');
 
     // Verify persistence after reload
     await page.reload();
@@ -34,7 +34,7 @@ test.describe('Notebook Page', () => {
     // Add a word first
     await page.fill('#manual-word', 'RemoveMe');
     await page.fill('#manual-def', 'To be removed');
-    await page.click('button:has-text("+ Save Word")');
+    await page.click('button:has-text("+ Save")');
     await expect(page.locator('.vocab-card')).toHaveCount(1);
 
     // Click remove button and handle confirm dialog
@@ -43,13 +43,13 @@ test.describe('Notebook Page', () => {
 
     // Check if word is removed
     await expect(page.locator('.empty-state')).toBeVisible();
-    await expect(page.locator('#vocab-count')).toHaveText('0');
+    await expect(page.locator('#stat-words')).toHaveText('0');
   });
 
   test('should export dictionary', async ({ page }) => {
     await page.fill('#manual-word', 'ExportWord');
     await page.fill('#manual-def', 'Export Def');
-    await page.click('button:has-text("+ Save Word")');
+    await page.click('button:has-text("+ Save")');
 
     // Trigger export
     const [ download ] = await Promise.all([
@@ -63,7 +63,7 @@ test.describe('Notebook Page', () => {
   test('visual check - capture screenshot', async ({ page }) => {
     await page.fill('#manual-word', 'VisualWord');
     await page.fill('#manual-def', 'A word for visual testing with a slightly longer definition to see how it wraps in the card.');
-    await page.click('button:has-text("+ Save Word")');
+    await page.click('button:has-text("+ Save")');
 
     // Wait for animation
     await page.waitForTimeout(500);
