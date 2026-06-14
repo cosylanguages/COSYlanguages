@@ -559,9 +559,11 @@ window.COSY = {
 
         // 5. Validate: warn about entries with missing required fields
         allEntries.forEach(entry => {
-            if (!entry.id || !entry.word || !entry.translation ||
-                !entry.level || !entry.theme || !entry.language) {
-                console.warn('[COSY] Entry missing required field:', entry);
+            if (entry && Object.keys(entry).length > 0) {
+                if (!entry.id || !entry.word || !entry.translation ||
+                    !entry.level || !entry.theme || !entry.language) {
+                    console.warn('[COSY] Entry missing required field:', entry);
+                }
             }
         });
 
@@ -572,8 +574,13 @@ window.COSY = {
         if (!lang || !level) return [];
 
         const prefix = getPrefix();
-        const v2Path = `${prefix}curriculum/${lang}/general/${level.toUpperCase()}_v2.json`;
-        const legacyPath = `${prefix}js/data/curriculum/${lang.toLowerCase()}_${level.toLowerCase()}.js`;
+        const levelUp = level.toUpperCase();
+        const levelLow = level.toLowerCase();
+        const langLow = lang.toLowerCase();
+
+        const v2Path = `${prefix}curriculum/${lang}/general/${levelUp}_v2.json`;
+        const standardPath = `${prefix}curriculum/${lang}/general/${levelUp}.json`;
+        const legacyPath = `${prefix}js/data/curriculum/${langLow}_${levelLow}.js`;
 
         // 1. Load legacy script (contains richer data like pronunciation)
         const legacyLoad = new Promise((resolve) => {
@@ -585,14 +592,14 @@ window.COSY = {
             document.head.appendChild(script);
         });
 
-        // 2. Load v2 JSON (modern curriculum structure)
+        // 2. Load v2 JSON (modern curriculum structure) or fallback to standard .json
         const v2Load = fetch(v2Path)
-            .then(res => res.ok ? res.json() : null)
+            .then(res => res.ok ? res.json() : fetch(standardPath).then(r => r.ok ? r.json() : null))
             .then(v2Data => {
                 if (v2Data && v2Data.units) {
                     const units = v2Data.units;
                     window.curriculumData = window.curriculumData || {};
-                    const key = `${lang.toLowerCase()}_${level.toLowerCase()}`;
+                    const key = `${langLow}_${levelLow}`;
                     // Prefer legacy data if already loaded (usually more task-specific info)
                     if (!window.curriculumData[key]) {
                         window.curriculumData[key] = units;
@@ -606,7 +613,7 @@ window.COSY = {
 
         await Promise.all([legacyLoad, v2Load]);
 
-        const key = `${lang.toLowerCase()}_${level.toLowerCase()}`;
+        const key = `${langLow}_${levelLow}`;
         return (window.curriculumData && window.curriculumData[key]) || [];
     },
 
