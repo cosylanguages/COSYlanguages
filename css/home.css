@@ -17,7 +17,7 @@
 
 .hstat .hs-num { color: #ffe09a; }
 .hs-num { font-size: 1.5rem; font-weight: 600; display: block; line-height: 1.2; }
-.hs-lbl { font-size: .75rem; color: rgba(255,255,255,.7); font-weight: 600; text-transform: uppercase; }
+.hs-lbl { font-size: .75rem; color: rgba(255,255,255,.85); font-weight: 600; text-transform: uppercase; }
 
 /* ── Content Blocks ────────────────────────────────── */
 .step h3 { font-size: 1.25rem; margin-bottom: .8rem; }
@@ -55,7 +55,7 @@
 .events-row { background: var(--gold-light); border-radius: var(--r-xl); padding: 2rem 2.5rem; display: flex; align-items: center; gap: 2rem; margin-top: 1.5rem; border: 1px solid rgba(176,125,43,.1); text-align: left; }
 .er-icon { font-size: 2.5rem; }
 .er-body h4 { font-size: 1.15rem; margin-bottom: .4rem; }
-.er-body p { font-size: .92rem; color: var(--gold); line-height: 1.6; }
+.er-body p { font-size: .92rem; color: var(--honey-dark); line-height: 1.6; }
 .er-link { background: var(--gold); color: #fff; font-weight: 700; padding: 10px 24px; border-radius: 100px; font-size: .88rem; }
 
 /* ── Calculator Specifics ───────────────────────────── */
@@ -66,7 +66,7 @@
 .cr-detail { font-size: 1.1rem; font-weight: 600; color: var(--ink-muted); margin-top: .2rem; }
 .cr-note { font-size: .8rem; font-weight: 700; color: var(--teal); margin-top: .4rem; text-transform: uppercase; }
 .original-price { text-decoration: line-through; opacity: .4; font-size: 1.5rem; margin-right: 12px; vertical-align: middle; color: var(--ink); }
-.calc-note { text-align: center; margin-top: 1.5rem; font-size: .85rem; color: var(--ink-faint); }
+.calc-note { text-align: center; margin-top: 1.5rem; font-size: .85rem; color: var(--ink-muted); }
 .calc-note a { text-decoration: underline; }
 
 /* ── Final CTA Specifics ────────────────────────────── */

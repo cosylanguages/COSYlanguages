@@ -180,14 +180,14 @@
   text-transform: uppercase;
 }
 
-.tool-pill { font-size: .72rem; font-weight: 600; padding: 4px 10px; border-radius: 100px; background: var(--cream); color: var(--ink-muted); border: 1px solid var(--border); }
+.tool-pill { font-size: .72rem; font-weight: 700; padding: 4px 10px; border-radius: 100px; background: var(--cream); color: var(--ink-muted); border: 1px solid var(--border); }
 
 .sec-tag {
     font-size: .75rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1em;
-    color: var(--ink-faint);
+    color: var(--ink-muted);
     margin-bottom: .6rem;
     display: block;
     text-align: center;
