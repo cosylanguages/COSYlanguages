@@ -392,21 +392,11 @@ async function getVocabFileList(lang, folderCode) {
 async function loadVocabFile(path) {
     const prefix = getPrefix();
     const fullPath = prefix + path;
-    const langMatch = path.match(/vocabulary\/([^/]+)\//);
-    const lang = langMatch ? langMatch[1] : 'en';
 
-    const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements'];
-    const beforeCounts = {};
-
-    keys.forEach(key => {
-        window[key] = window[key] || {};
-        window[key][lang] = window[key][lang] || [];
-        beforeCounts[key] = window[key][lang].length;
-    });
-
-    await new Promise((resolve) => {
+    return new Promise((resolve) => {
         const s = document.createElement('script');
-        s.src = fullPath + '?v=' + Date.now();
+        // Removed cache-buster to allow browser/SW caching
+        s.src = fullPath;
         s.onload = () => { s.remove(); resolve(); };
         s.onerror = () => {
             console.warn('[COSY] vocab file not found:', fullPath);
@@ -415,13 +405,6 @@ async function loadVocabFile(path) {
         };
         document.head.appendChild(s);
     });
-
-    const newlyLoaded = [];
-    keys.forEach(key => {
-        const after = window[key][lang];
-        newlyLoaded.push(...after.slice(beforeCounts[key]));
-    });
-    return newlyLoaded;
 }
 
 let STATE = readState();
@@ -535,6 +518,17 @@ window.COSY = {
             : [levelId];
 
         const allEntries = [];
+        const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements'];
+        const beforeCounts = {};
+
+        // Track state before parallel loading
+        keys.forEach(key => {
+            window[key] = window[key] || {};
+            window[key][lang] = window[key][lang] || [];
+            beforeCounts[key] = window[key][lang].length;
+        });
+
+        const loadPromises = [];
 
         for (const lid of levelsToLoad) {
             // 1. Convert level ID to folder short code
@@ -546,16 +540,20 @@ window.COSY = {
             // 3. Get the list of .js files in that folder
             const files = await getVocabFileList(lang, folderCode);
 
-            // 4. Load each file and collect all entries
+            // 4. Queue each file for parallel loading
             for (const file of files) {
-                try {
-                    const entries = await loadVocabFile(basePath + file);
-                    if (entries) allEntries.push(...entries);
-                } catch (e) {
-                    console.warn('[COSY] Error loading vocab file:', file, e);
-                }
+                loadPromises.push(loadVocabFile(basePath + file));
             }
         }
+
+        // Wait for all queued files to load in parallel
+        await Promise.all(loadPromises);
+
+        // Collect all newly loaded entries
+        keys.forEach(key => {
+            const after = window[key][lang];
+            allEntries.push(...after.slice(beforeCounts[key]));
+        });
 
         // 5. Validate: warn about entries with missing required fields
         allEntries.forEach(entry => {

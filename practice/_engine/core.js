@@ -238,7 +238,7 @@
 
             const container = document.getElementById('pe-body-content');
             if (container && window.cosyRenderers) {
-                container.innerHTML = window.cosyRenderers.renderQuestion(q, this.session, this.session.lang);
+                container.innerHTML = `<div class="pe-body-content-wrap">${window.cosyRenderers.renderQuestion(q, this.session, this.session.lang)}</div>`;
                 const typeIn = document.getElementById('type-in');
                 if (typeIn) {
                     typeIn.value = '';
