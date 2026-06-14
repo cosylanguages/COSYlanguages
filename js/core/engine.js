@@ -238,13 +238,9 @@ function getDictKey() {
   return `cosy_dict_free_guest`;
 }
 
-function saveWordLocally(word, definition, language) {
-  dictionary[word] = {
-    word: word,
-    definition: definition || '',
-    language: language || 'en',
-    addedAt: Date.now()
-  };
+function saveWordLocally(word, data) {
+  if (data && !data.addedAt) data.addedAt = Date.now();
+  dictionary[word] = data;
   saveDict();
 }
 
@@ -474,8 +470,7 @@ window.COSY = {
             return;
         }
 
-        dictionary[word] = data;
-        saveWordLocally(word, data.definition, data.lang);
+        saveWordLocally(word, data);
 
         if (btn && btn instanceof HTMLElement) {
             btn.textContent = '✓ Saved';

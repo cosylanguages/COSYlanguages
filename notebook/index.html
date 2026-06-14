@@ -13,6 +13,28 @@
     <link rel="stylesheet" href="../css/portal.css">
 
     <style>
+        .content {
+            padding: 0 !important;
+        }
+        .notebook-hero {
+            padding: 4rem 3rem;
+            background: linear-gradient(135deg, var(--sage-deep), var(--sage-dark));
+            color: #fff;
+        }
+        .notebook-hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+        .notebook-hero p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .notebook-body {
+            padding: 3rem;
+        }
+
         .vocab-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -22,22 +44,24 @@
         .vocab-card {
             background: #fff;
             border: 1.5px solid var(--border);
-            border-radius: 20px;
-            padding: 1.5rem;
-            transition: all 0.2s ease;
+            border-radius: 24px;
+            padding: 1.75rem;
+            transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
             position: relative;
             display: flex;
             flex-direction: column;
+            overflow: hidden;
         }
         .vocab-card:hover {
-            box-shadow: var(--shadow-sm);
-            border-color: var(--cosy-green);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow);
+            border-color: var(--sage);
         }
         .vocab-word {
             font-family: 'Fraunces', serif;
-            font-size: 1.4rem;
+            font-size: 1.6rem;
             font-weight: 600;
-            color: var(--cosy-green-dark);
+            color: var(--sage-deep);
             margin-bottom: 0.5rem;
         }
         .vocab-def {
@@ -130,9 +154,9 @@
 
     <nav id="cosy-nav"></nav>
 
-    <div id="area" style="display: flex;">
+    <div id="area" style="display: flex; min-height: 100vh;">
         <aside class="sidebar">
-            <div class="profile-card">
+            <div class="profile-card" style="background: linear-gradient(135deg, var(--sage-dark), var(--sage-deep));">
                 <div style="font-size: 1.5rem; margin-bottom: 5px;">📓</div>
                 <div style="font-weight: 900; font-size: 1.1rem;">My Notebook</div>
                 <div style="font-size: 0.65rem; opacity: 0.8; margin-top: 3px; font-weight: 700;">Personal Collection</div>
@@ -145,28 +169,35 @@
             </div>
             <nav class="nav-menu">
                 <a href="../practice/index.html" class="nav-item"><span>💡</span> Practice</a>
-                <a href="../vocabulary/index.html" class="nav-item"><span>📖</span> Vocabulary</a>
-                <a href="../grammar/index.html" class="nav-item"><span>📐</span> Grammar</a>
+                <a href="../vocabulary/index.html" class="nav-item"><span>📖</span> Vocabulary Library</a>
+                <a href="../grammar/index.html" class="nav-item"><span>📐</span> Grammar Tables</a>
+                <a href="../games/index.html" class="nav-item"><span>🎮</span> Language Games</a>
             </nav>
-            <div style="margin-top: 2rem; padding: 1rem; background: var(--warm-white); border-radius: 12px; border: 1px solid var(--border);">
-              <h4 style="font-size: 0.75rem; text-transform: uppercase; margin-bottom: 0.8rem; color: var(--ink-muted);">Add Custom Word</h4>
-              <input type="text" id="manual-word" placeholder="Word" style="width: 100%; margin-bottom: 0.5rem; padding: 0.5rem; border-radius: 6px; border: 1px solid var(--border);">
-              <input type="text" id="manual-def" placeholder="Definition" style="width: 100%; margin-bottom: 0.8rem; padding: 0.5rem; border-radius: 6px; border: 1px solid var(--border);">
-              <button onclick="addManualWord()" class="btn-primary-new" style="width: 100%; font-size: 0.8rem;">+ Save Word</button>
+            <div style="margin-top: 2rem; padding: 1.5rem; background: var(--warm-white); border-radius: 20px; border: 1px solid var(--border);">
+              <h4 style="font-size: 0.75rem; text-transform: uppercase; margin-bottom: 1rem; color: var(--ink-muted); letter-spacing: 0.05em;">Add Custom Word</h4>
+              <div class="input-group" style="display: flex; flex-direction: column; gap: 0.8rem;">
+                  <input type="text" id="manual-word" placeholder="Word" class="styled-sel" style="background: #fff;">
+                  <textarea id="manual-def" placeholder="Definition or notes" class="styled-sel" style="background: #fff; min-height: 80px; resize: none; font-family: inherit;"></textarea>
+                  <button onclick="addManualWord()" class="btn-primary-new" style="width: 100%;">+ Save Word</button>
+              </div>
             </div>
         </aside>
 
         <main class="content">
-            <div class="vocab-header-row">
-                <div>
-                    <h1 style="font-family: 'Fraunces', serif;">My Personal Vocabulary</h1>
-                    <p style="color: #666;">Expanding your linguistic horizons, one word at a time.</p>
+            <header class="notebook-hero">
+                <div class="vocab-header-row" style="margin-bottom: 0;">
+                    <div>
+                        <h1 data-translate-key="notebook_h1">My Personal Vocabulary</h1>
+                        <p data-translate-key="notebook_sub">Expanding your linguistic horizons, one word at a time.</p>
+                    </div>
+                    <button class="btn-primary-new" onclick="COSY.exportDict()" style="background: rgba(255,255,255,0.15); border: 1.5px solid rgba(255,255,255,0.3); backdrop-filter: blur(5px);">Export Data 📥</button>
                 </div>
-                <button class="btn-primary-new" onclick="COSY.exportDict()">Export Data 📥</button>
-            </div>
+            </header>
 
-            <div id="vocab-container" class="vocab-grid">
-                <!-- Loaded via JS -->
+            <div class="notebook-body">
+                <div id="vocab-container" class="vocab-grid">
+                    <!-- Loaded via JS -->
+                </div>
             </div>
         </main>
     </div>

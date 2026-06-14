@@ -1,0 +1,230 @@
+/* ── Portal Variables ──────────────────────────────── */
+:root {
+    --cosy-green: #6b8f71;
+    --cosy-green-dark: #4a6b50;
+    --sidebar-width: 260px;
+    --bg-muted: #f8f6f0;
+}
+
+.student-portal-pro {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* ── Gate ────────────────────────────────────────── */
+#gate {
+    position: fixed; inset: 0; background: #fdfcf8;
+    display: flex; align-items: center; justify-content: center; z-index: 2000;
+}
+.gate-card {
+    background: #fff; padding: 3rem; border-radius: 30px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+    max-width: 420px; width: 90%; text-align: center;
+}
+.gate-icon { font-size: 3rem; margin-bottom: 1rem; }
+.gate-subtitle { color: var(--ink-soft); margin-bottom: 1.5rem; }
+.gate-input-section {
+    background: var(--cream); padding: 1.5rem; border-radius: var(--r-lg);
+    margin-bottom: 1.5rem; border: 1px solid var(--border);
+}
+.gate-input { width: 100%; font-size: 1.1rem; margin-bottom: 0.8rem; padding: 0.8rem; }
+.gate-btn-unlock { width: 100%; justify-content: center; background: var(--ink); color: #fff; }
+.gate-error { color: var(--rose); font-size: 0.8rem; margin-top: 0.5rem; display: none; }
+.gate-preview-section { border-top: 1px solid var(--border); padding-top: 1.5rem; }
+.gate-preview-label {
+    font-size: 0.8rem; font-weight: 800; color: var(--ink-faint);
+    text-transform: uppercase; margin-bottom: 0.8rem;
+}
+.gate-preview-controls { display: flex; gap: 8px; margin-bottom: 0.8rem; }
+.gate-preview-sel { flex: 1; }
+.gate-btn-free { width: 100%; justify-content: center; background: var(--sage); color: #fff; }
+.gate-footer { font-size: 0.8rem; color: var(--ink-faint); margin-top: 1.5rem; }
+.gate-footer a { color: var(--sage-dark); font-weight: 800; }
+
+/* ── Main Layout ─────────────────────────────────── */
+#area { display: flex; width: 100%; height: 100%; flex: 1; }
+
+/* Sidebar */
+aside.sidebar {
+    width: var(--sidebar-width);
+    background: #fff;
+    border-right: 1.5px solid #eee;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    z-index: 100;
+    flex-shrink: 0;
+}
+.profile-card {
+    background: var(--cosy-green-dark);
+    color: #fff;
+    padding: 1.25rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+.stats-mini {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 1rem;
+}
+.stat-mini-item {
+    text-align: center; background: rgba(255,255,255,0.1); padding: 5px; border-radius: 10px;
+}
+.stat-mini-val { font-weight: 900; font-size: 0.9rem; display: block; }
+.stat-mini-lbl { font-size: 0.55rem; opacity: 0.8; text-transform: uppercase; }
+
+.nav-menu { flex: 1; }
+.nav-item {
+    display: flex; align-items: center; gap: 12px;
+    padding: 0.9rem 1rem; margin-bottom: 0.4rem;
+    border-radius: 12px; cursor: pointer;
+    font-weight: 700; color: #666; transition: all 0.2s;
+}
+.nav-item:hover { background: #f5f5f5; color: var(--cosy-green-dark); }
+.nav-item.active { background: var(--cosy-green-dark); color: #fff; }
+
+/* Main Content */
+main.content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem 3rem;
+    background: #fdfcf8;
+}
+
+.header-row {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    margin-bottom: 2.5rem;
+}
+.welcome-msg h1 { font-family: 'Lora', serif; font-size: 2.2rem; margin: 0; color: var(--cosy-green-dark); }
+.welcome-msg p { margin: 5px 0 0; color: #888; }
+
+/* Widgets */
+.widgets-grid {
+    display: grid; grid-template-columns: 1.5fr 1fr; gap: 1.5rem; margin-bottom: 2.5rem;
+}
+.widget-card {
+    background: #fff; border-radius: 24px; padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03); border: 1px solid #f0f0f0;
+}
+.prep-card {
+    background: #4a6b50; color: #fff;
+}
+.prep-word {
+    background: rgba(255,255,255,0.15); padding: 4px 10px; border-radius: 8px; font-size: 0.85rem; font-weight: 700;
+}
+
+/* Roadmap Path */
+.roadmap-path {
+    position: relative; padding: 2rem 0;
+    display: flex; flex-direction: column; align-items: center;
+}
+.roadmap-path::before {
+    content: ''; position: absolute; top: 0; bottom: 0; left: 50%;
+    width: 4px; background: #eee; transform: translateX(-50%);
+}
+.chapter-node {
+    width: 60px; height: 60px; border-radius: 50%; background: #fff;
+    border: 4px solid #eee; margin: 1.5rem 0;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 900; z-index: 2; cursor: pointer; transition: all 0.3s;
+    position: relative;
+}
+.chapter-node.done { border-color: var(--cosy-green); background: var(--cosy-green); color: #fff; }
+.chapter-node.current {
+    border-color: #e8a838; background: #e8a838; color: #fff;
+    box-shadow: 0 0 0 10px rgba(232,168,56,0.15);
+}
+.chapter-node:hover { transform: scale(1.1); }
+
+/* Zig-zag offset */
+.chapter-node:nth-child(even) { margin-left: 100px; }
+.chapter-node:nth-child(odd) { margin-right: 100px; }
+
+/* Panels */
+.panel { display: none; }
+.panel.active { display: block; }
+
+/* Utility */
+.badge-new {
+    background: #fff8e7; color: #a06b10; padding: 3px 10px; border-radius: 20px; font-size: 0.7rem; font-weight: 800; border: none; cursor: pointer;
+}
+
+/* ── Lesson Stripes ──────────────────────────────── */
+.stripe-vocab { background: #3b82f6; }
+.stripe-grammar { background: #8b5cf6; }
+.stripe-gv { background: #10b981; }
+.stripe-spoken { background: #f59e0b; }
+.stripe-srev { background: #ec4899; }
+.stripe-exam { background: #1a1714; }
+
+.lesson-type-pill {
+    font-size: 0.65rem; font-weight: 800; text-transform: uppercase;
+    padding: 2px 8px; border-radius: 6px; color: #fff;
+}
+.t-vocab { background: #3b82f6; }
+.t-grammar { background: #8b5cf6; }
+.t-gv { background: #10b981; }
+.t-spoken { background: #f59e0b; }
+.t-srev { background: #ec4899; }
+.t-exam { background: #1a1714; }
+.btn-primary-new {
+    background: var(--cosy-green-dark); color: #fff; border: none; padding: 12px 24px; border-radius: 12px;
+    font-weight: 800; cursor: pointer; font-family: inherit; transition: opacity 0.2s;
+}
+.btn-primary-new:hover { opacity: 0.9; }
+
+/* LD (Lesson Detail) Panel */
+#ld {
+    position: fixed; right: -400px; top: 0; bottom: 0; width: 380px;
+    background: #fff; box-shadow: -10px 0 40px rgba(0,0,0,0.1);
+    padding: 2.5rem; transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 500; overflow-y: auto;
+}
+#ld.open { right: 0; }
+.ld-close { position: absolute; top: 1.5rem; left: 1.5rem; cursor: pointer; font-size: 1.2rem; }
+
+#ls { display: flex; flex-direction: column; gap: 1rem; }
+.notes-ta { width: 100%; height: 100px; padding: 15px; border-radius: 20px; margin-bottom: 10px; border: 1px solid #eee; font-family: inherit; }
+
+@media (max-width: 800px) {
+    aside.sidebar { display: none; }
+    main.content { padding: 1.5rem; }
+}
+
+/* Homework Items & Status */
+.hw-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 12px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    border-left: 4px solid var(--honey-dark);
+}
+.hw-item.hw-overdue {
+    border-left-color: var(--rose);
+    background: var(--rose-light);
+}
+.hw-unit {
+    font-size: 0.75rem;
+    color: var(--ink-faint);
+    background: #eee;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+.hw-due {
+    font-size: 0.75rem;
+    color: var(--ink-soft);
+    margin-left: auto;
+    margin-right: 15px;
+}
+.hw-status {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--honey-dark);
+}
+.hw-overdue .hw-status {
+    color: var(--rose);
+}
