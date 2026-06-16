@@ -1398,7 +1398,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "квартиры",
-        "subtext": "flat, жить в квартире",
+        "subtext": "квартира, жить в квартире",
         "transcription": "/kvaʁˈtiʁə/"
     },
     {

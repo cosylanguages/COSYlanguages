@@ -1,13 +1,13 @@
 (function() {
     const data = [
     {
-        "word": "garden",
+        "word": "liorzh",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }]},
+        "definitions": [{ "text": "Ul liorzh foran pe ur bastell-vro c'hlas vras en ur gêr evit an holl.", "examples": [] }]},
 {
         "word": "medisin",
         "level": "starter",

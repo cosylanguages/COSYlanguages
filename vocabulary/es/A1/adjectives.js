@@ -639,7 +639,7 @@
         "theme": "food_drink",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "unhealthy",
+        "opposite": "poco saludable",
         "oppositeEmoji": "🍔",
         "subtext": "",
         "synonyms": [
@@ -670,7 +670,7 @@
         "theme": "health_medicine",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "well",
+        "opposite": "bien",
         "oppositeEmoji": "💪",
         "subtext": "enfermo",
         "synonyms": [
@@ -789,7 +789,7 @@
         "oppositeEmoji": "😌",
         "subtext": "",
         "synonyms": [
-            "anxious"
+            "ansioso"
         ],
         "definitions": [
             {

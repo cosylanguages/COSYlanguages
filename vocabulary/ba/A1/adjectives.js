@@ -40,7 +40,7 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ҡыҫҡа сәйәхәт", "ҡыҫҡа сәс", "бик ҡыҫҡա"],
+        "synonyms": ["ҡыҫҡа сәйәхәт", "ҡыҫҡа сәс", "бик ҡыҫҡа"],
         "comparative": null,
         "superlative": null,
         "feminine": "тәпәш",
@@ -234,7 +234,7 @@
         "opposite": "осһоҙ",
         "oppositeEmoji": "🏷️",
         "subtext": "",
-        "synonyms": ["ҡиммәтле", "бик ҡиммәտ"],
+        "synonyms": ["ҡиммәтле", "бик ҡиммәт"],
         "definitions": [
             {
                 "text": "Күп аҡса торған нәмә.",

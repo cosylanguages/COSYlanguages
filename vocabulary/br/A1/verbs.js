@@ -1201,7 +1201,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
-        "subtext": "prenañ boued / prenañ un tikeդ / prenañ enlinenn",
+        "subtext": "prenañ boued / prenañ un tiked / prenañ enlinenn",
         "opposite": "gwerzhañ",
         "oppositeEmoji": "🏷️",
         "form": "verb",
@@ -2616,7 +2616,7 @@
         "aspect": "action",
         "v2": "reas sport",
         "v3": "graet sport",
-        "subtext": "ober sport / ober sport ingալ",
+        "subtext": "ober sport / ober sport ingal",
         "group": "añ",
         "auxiliary": "ober"
     },
@@ -2812,7 +2812,7 @@
         ],
         "subtext": "",
         "synonyms": [
-            "disկouez un danevell",
+            "diskouez un danevell",
             "kinnig mennozhioù"
         ],
         "classification": "regular",

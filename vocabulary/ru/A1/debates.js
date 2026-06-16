@@ -18,7 +18,7 @@
         "sideB": "Чай",
         "ideasA": [
             "Энергия",
-            "Smells great"
+            "Приятно пахнет"
         ],
         "ideasB": [
             "Здоровье",
@@ -92,7 +92,7 @@
         "sideA": "Вода",
         "sideB": "Сок",
         "ideasA": [
-            "No calories",
+            "Без калорий",
             "Натурально"
         ],
         "ideasB": [
@@ -277,18 +277,18 @@
     },
     {
         "id": "ru_starter_travel_001",
-        "word": "Машина или Автобус — which is better to travel in?",
+        "word": "Машина или Автобус — на чем лучше путешествовать?",
         "lang": "ru",
         "level": "starter",
         "theme": "travel",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Машина или Автобус — which is better to travel in?",
+                "text": "Машина или Автобус — на чем лучше путешествовать?",
                 "examples": []
             }
         ],
-        "topic": "Машина или Автобус — which is better to travel in?",
+        "topic": "Машина или Автобус — на чем лучше путешествовать?",
         "sideA": "Машина",
         "sideB": "Автобус",
         "ideasA": [
@@ -317,12 +317,12 @@
         "sideA": "Пешком",
         "sideB": "Машина",
         "ideasA": [
-            "Free",
-            "Exercise"
+            "Бесплатно",
+            "Упражнения"
         ],
         "ideasB": [
-            "No rain",
-            "Comfortable"
+            "Без дождя",
+            "Удобно"
         ]
     },
     {
@@ -343,7 +343,7 @@
         "sideB": "Дом",
         "ideasA": [
             "Фокус",
-            "Colleagues"
+            "Коллеги"
         ],
         "ideasB": [
             "Не надо ехать",
@@ -392,12 +392,12 @@
         "sideA": "Лето",
         "sideB": "Зима",
         "ideasA": [
-            "Sunny",
-            "Beach"
+            "Солнечно",
+            "Пляж"
         ],
         "ideasB": [
-            "Snow",
-            "Skiing"
+            "Снег",
+            "Лыжи"
         ]
     },
     {
@@ -1402,18 +1402,18 @@
     },
     {
         "id": "ru_starter_food_drink_009",
-        "word": "Завтрак или Ужин — which meal is more important?",
+        "word": "Завтрак или Ужин — какой прием пищи важнее?",
         "lang": "ru",
         "level": "starter",
         "theme": "food_drink",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Завтрак или Ужин — which meal is more important?",
+                "text": "Завтрак или Ужин — какой прием пищи важнее?",
                 "examples": []
             }
         ],
-        "topic": "Завтрак или Ужин — which meal is more important?",
+        "topic": "Завтрак или Ужин — какой прием пищи важнее?",
         "sideA": "Завтрак",
         "sideB": "Ужин",
         "ideasA": [
@@ -1527,18 +1527,18 @@
     },
     {
         "id": "ru_starter_time_002",
-        "word": "Утро или Вечер — which part of the day is nicer?",
+        "word": "Утро или Вечер — какое время дня приятнее?",
         "lang": "ru",
         "level": "starter",
         "theme": "time",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Утро или Вечер — which part of the day is nicer?",
+                "text": "Утро или Вечер — какое время дня приятнее?",
                 "examples": []
             }
         ],
-        "topic": "Утро или Вечер — which part of the day is nicer?",
+        "topic": "Утро или Вечер — какое время дня приятнее?",
         "sideA": "Утро",
         "sideB": "Вечер",
         "ideasA": [
@@ -1677,18 +1677,18 @@
     },
     {
         "id": "ru_starter_social_010",
-        "word": "Рисование или Пение — which hobby is better?",
+        "word": "Рисование или Пение — какое хобби лучше?",
         "lang": "ru",
         "level": "starter",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Рисование или Пение — which hobby is better?",
+                "text": "Рисование или Пение — какое хобби лучше?",
                 "examples": []
             }
         ],
-        "topic": "Рисование или Пение — which hobby is better?",
+        "topic": "Рисование или Пение — какое хобби лучше?",
         "sideA": "Рисование",
         "sideB": "Пение",
         "ideasA": [
@@ -1702,18 +1702,18 @@
     },
     {
         "id": "ru_starter_social_011",
-        "word": "Одному или Друзья — which is more fun?",
+        "word": "Одному или Друзья — что веселее?",
         "lang": "ru",
         "level": "starter",
         "theme": "social",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Одному или Друзья — which is more fun?",
+                "text": "Одному или Друзья — что веселее?",
                 "examples": []
             }
         ],
-        "topic": "Одному или Друзья — which is more fun?",
+        "topic": "Одному или Друзья — что веселее?",
         "sideA": "Одному",
         "sideB": "Друзья",
         "ideasA": [
@@ -1727,18 +1727,18 @@
     },
     {
         "id": "ru_starter_health_medicine_001",
-        "word": "Плавание или Бег — which sport do you prefer?",
+        "word": "Плавание или Бег — какой спорт вы предпочитаете?",
         "lang": "ru",
         "level": "starter",
         "theme": "health_medicine",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Плавание или Бег — which sport do you prefer?",
+                "text": "Плавание или Бег — какой спорт вы предпочитаете?",
                 "examples": []
             }
         ],
-        "topic": "Плавание или Бег — which sport do you prefer?",
+        "topic": "Плавание или Бег — какой спорт вы предпочитаете?",
         "sideA": "Плавание",
         "sideB": "Бег",
         "ideasA": [
@@ -1892,12 +1892,12 @@
         "sideA": "Пешком",
         "sideB": "Велосипед",
         "ideasA": [
-            "Free",
-            "Simple"
+            "Бесплатно",
+            "Просто"
         ],
         "ideasB": [
-            "Fast",
-            "Fun"
+            "Быстро",
+            "Весело"
         ]
     },
     {
@@ -2052,18 +2052,18 @@
     },
     {
         "id": "ru_starter_animals_007",
-        "word": "Кошки или Собаки — which pet is more annoying?",
+        "word": "Кошки или Собаки — какой питомец более надоедливый?",
         "lang": "ru",
         "level": "starter",
         "theme": "animals",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Кошки или Собаки — which pet is more annoying?",
+                "text": "Кошки или Собаки — какой питомец более надоедливый?",
                 "examples": []
             }
         ],
-        "topic": "Кошки или Собаки — which pet is more annoying?",
+        "topic": "Кошки или Собаки — какой питомец более надоедливый?",
         "sideA": "Кошки",
         "sideB": "Собаки",
         "ideasA": [
@@ -2172,7 +2172,7 @@
         ],
         "ideasB": [
             "Дом",
-            "No problems"
+            "Без проблем"
         ]
     },
     {
@@ -2222,7 +2222,7 @@
         ],
         "ideasB": [
             "Свободное время",
-            "Travel"
+            "Путешествия"
         ]
     },
     {
@@ -2293,11 +2293,11 @@
         "sideB": "Меньше",
         "ideasA": [
             "Здоровье",
-            "Rested"
+            "Отдохнувший"
         ],
         "ideasB": [
-            "More work",
-            "Play"
+            "Больше работы",
+            "Играть"
         ]
     },
     {
@@ -2321,8 +2321,8 @@
             "Быстро"
         ],
         "ideasB": [
-            "See items",
-            "Try"
+            "Видеть товары",
+            "Пробовать"
         ]
     },
     {
@@ -2342,12 +2342,12 @@
         "sideA": "Дорогие",
         "sideB": "Дешевые",
         "ideasA": [
-            "Quality",
-            "Lasts"
+            "Качество",
+            "Долговечно"
         ],
         "ideasB": [
-            "Money",
-            "Many things"
+            "Деньги",
+            "Много вещей"
         ]
     },
     {
@@ -2393,7 +2393,7 @@
         "sideB": "Друзья",
         "ideasA": [
             "Безопасно",
-            "No cost"
+            "Без затрат"
         ],
         "ideasB": [
             "Захватывающе",
@@ -2446,7 +2446,7 @@
             "Профессионально"
         ],
         "ideasB": [
-            "Think",
+            "Думать",
             "Без спешки"
         ]
     },
@@ -2627,18 +2627,18 @@
     },
     {
         "id": "ru_starter_food_drink_018",
-        "word": "Мороженое или Торт — which is a better dessert?",
+        "word": "Мороженое или Торт — какой десерт лучше?",
         "lang": "ru",
         "level": "starter",
         "theme": "food_drink",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Мороженое или Торт — which is a better dessert?",
+                "text": "Мороженое или Торт — какой десерт лучше?",
                 "examples": []
             }
         ],
-        "topic": "Мороженое или Торт — which is a better dessert?",
+        "topic": "Мороженое или Торт — какой десерт лучше?",
         "sideA": "Мороженое",
         "sideB": "Торт",
         "ideasA": [
@@ -2667,28 +2667,28 @@
         "sideA": "Короткие дни",
         "sideB": "Длинные дни",
         "ideasA": [
-            "Cozy nights",
-            "Sleep more"
+            "Уютные вечера",
+            "Больше спать"
         ],
         "ideasB": [
-            "More sun",
-            "Play outside"
+            "Больше солнца",
+            "Играть outside"
         ]
     },
     {
         "id": "ru_starter_travel_006",
-        "word": "Самолет или Поезд — which is more fun?",
+        "word": "Самолет или Поезд — что веселее?",
         "lang": "ru",
         "level": "starter",
         "theme": "travel",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Самолет или Поезд — which is more fun?",
+                "text": "Самолет или Поезд — что веселее?",
                 "examples": []
             }
         ],
-        "topic": "Самолет или Поезд — which is more fun?",
+        "topic": "Самолет или Поезд — что веселее?",
         "sideA": "Самолет",
         "sideB": "Поезд",
         "ideasA": [
@@ -2702,20 +2702,20 @@
     },
     {
         "id": "ru_starter_food_drink_019",
-        "word": "Завтрак или No breakfast — что лучше для тебя?",
+        "word": "Завтрак или Без завтрака — что лучше для тебя?",
         "lang": "ru",
         "level": "starter",
         "theme": "food_drink",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Завтрак или No breakfast — что лучше для тебя?",
+                "text": "Завтрак или Без завтрака — что лучше для тебя?",
                 "examples": []
             }
         ],
-        "topic": "Завтрак или No breakfast — что лучше для тебя?",
+        "topic": "Завтрак или Без завтрака — что лучше для тебя?",
         "sideA": "Завтрак",
-        "sideB": "No breakfast",
+        "sideB": "Без завтрака",
         "ideasA": [
             "Энергия утром",
             "Хорошее начало"
@@ -2747,7 +2747,7 @@
         ],
         "ideasB": [
             "Творчество",
-            "No noise"
+            "Без шума"
         ]
     },
     {
@@ -2767,30 +2767,30 @@
         "sideA": "Короткий",
         "sideB": "Долгий",
         "ideasA": [
-            "Easy planning",
-            "Many trips"
+            "Легкое планирование",
+            "Много поездок"
         ],
         "ideasB": [
-            "Relax more",
+            "Больше отдыхать",
             "Увидеть больше"
         ]
     },
     {
         "id": "ru_starter_technology_004",
-        "word": "Call или Message — что лучше?",
+        "word": "Звонок или Сообщение — что лучше?",
         "lang": "ru",
         "level": "starter",
         "theme": "technology",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Call или Message — что лучше?",
+                "text": "Звонок или Сообщение — что лучше?",
                 "examples": []
             }
         ],
-        "topic": "Call или Message — что лучше?",
-        "sideA": "Call",
-        "sideB": "Message",
+        "topic": "Звонок или Сообщение — что лучше?",
+        "sideA": "Звонок",
+        "sideB": "Сообщение",
         "ideasA": [
             "Слышать голос",
             "Быстро"
@@ -2802,20 +2802,20 @@
     },
     {
         "id": "ru_starter_time_005",
-        "word": "Monday или Friday — какой день лучше?",
+        "word": "Понедельник или Пятница — какой день лучше?",
         "lang": "ru",
         "level": "starter",
         "theme": "time",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Monday или Friday — какой день лучше?",
+                "text": "Понедельник или Пятница — какой день лучше?",
                 "examples": []
             }
         ],
-        "topic": "Monday или Friday — какой день лучше?",
-        "sideA": "Monday",
-        "sideB": "Friday",
+        "topic": "Понедельник или Пятница — какой день лучше?",
+        "sideA": "Понедельник",
+        "sideB": "Пятница",
         "ideasA": [
             "Проекты",
             "Новая неделя"
@@ -2827,20 +2827,20 @@
     },
     {
         "id": "ru_starter_nature_008",
-        "word": "Too hot или Too cold — что хуже?",
+        "word": "Слишком жарко или Слишком холодно — что хуже?",
         "lang": "ru",
         "level": "starter",
         "theme": "nature",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Too hot или Too cold — что хуже?",
+                "text": "Слишком жарко или Слишком холодно — что хуже?",
                 "examples": []
             }
         ],
-        "topic": "Too hot или Too cold — что хуже?",
-        "sideA": "Too hot",
-        "sideB": "Too cold",
+        "topic": "Слишком жарко или Слишком холодно — что хуже?",
+        "sideA": "Слишком жарко",
+        "sideB": "Слишком холодно",
         "ideasA": [
             "Нельзя спать",
             "Солнце"
@@ -2852,20 +2852,20 @@
     },
     {
         "id": "ru_starter_travel_008",
-        "word": "Window или Aisle — что лучше в самолете?",
+        "word": "Окно или Проход — что лучше в самолете?",
         "lang": "ru",
         "level": "starter",
         "theme": "travel",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Window или Aisle — что лучше в самолете?",
+                "text": "Окно или Проход — что лучше в самолете?",
                 "examples": []
             }
         ],
-        "topic": "Window или Aisle — что лучше в самолете?",
-        "sideA": "Window",
-        "sideB": "Aisle",
+        "topic": "Окно или Проход — что лучше в самолете?",
+        "sideA": "Окно",
+        "sideB": "Проход",
         "ideasA": [
             "Облака",
             "Фото"
@@ -2917,11 +2917,11 @@
         "sideA": "Big city",
         "sideB": "Small town",
         "ideasA": [
-            "Jobs",
-            "Culture"
+            "Рабочие места",
+            "Культура"
         ],
         "ideasB": [
-            "Friendly",
+            "Дружелюбно",
             "Дешево"
         ]
     },
@@ -2947,7 +2947,7 @@
         ],
         "ideasB": [
             "Экономит время",
-            "No mess"
+            "Без беспорядка"
         ]
     },
     {
@@ -2968,7 +2968,7 @@
         "sideB": "Купить",
         "ideasA": [
             "Дешевле",
-            "No responsibility"
+            "Никакой ответственности"
         ],
         "ideasB": [
             "Инвестиция",
@@ -2992,11 +2992,11 @@
         "sideA": "Зарядка",
         "sideB": "Отдых",
         "ideasA": [
-            "Strong body",
+            "Крепкое тело",
             "Энергия"
         ],
         "ideasB": [
-            "Recovery",
+            "Восстановление",
             "Отдых"
         ]
     },
@@ -3017,11 +3017,11 @@
         "sideA": "Врач",
         "sideB": "Ждать",
         "ideasA": [
-            "Fast help",
+            "Быстрая помощь",
             "Безопасно"
         ],
         "ideasB": [
-            "Save money",
+            "Экономить деньги",
             "Натурально"
         ]
     },
@@ -3042,12 +3042,12 @@
         "sideA": "Пешком",
         "sideB": "Машина",
         "ideasA": [
-            "Exercise",
-            "Fresh air"
+            "Упражнения",
+            "Свежий воздух"
         ],
         "ideasB": [
-            "Comfortable",
-            "Fast"
+            "Удобно",
+            "Быстро"
         ]
     },
     {
@@ -3072,7 +3072,7 @@
         ],
         "ideasB": [
             "Друзья",
-            "New places"
+            "Новые места"
         ]
     },
     {
@@ -3093,11 +3093,11 @@
         "sideB": "За границу",
         "ideasA": [
             "Просто",
-            "No plane"
+            "Без самолета"
         ],
         "ideasB": [
-            "Culture",
-            "Adventure"
+            "Культура",
+            "Приключения"
         ]
     },
     {
@@ -3118,7 +3118,7 @@
         "sideB": "Чтение",
         "ideasA": [
             "Здоровье",
-            "Active"
+            "Активно"
         ],
         "ideasB": [
             "Отдых",
@@ -3227,22 +3227,22 @@
     },
     {
         "id": "ru_starter_travel_011",
-        "word": "Зарядка или Велосипед — which is better to get around?",
+        "word": "Зарядка или Велосипед — на чем лучше передвигаться?",
         "lang": "ru",
         "level": "starter",
         "theme": "travel",
         "form": "phrase",
         "definitions": [
             {
-                "text": "Зарядка или Велосипед — which is better to get around?",
+                "text": "Зарядка или Велосипед — на чем лучше передвигаться?",
                 "examples": []
             }
         ],
-        "topic": "Зарядка или Велосипед — which is better to get around?",
+        "topic": "Зарядка или Велосипед — на чем лучше передвигаться?",
         "sideA": "Зарядка",
         "sideB": "Велосипед",
         "ideasA": [
-            "Free",
+            "Бесплатно",
             "Просто"
         ],
         "ideasB": [
@@ -3317,7 +3317,7 @@
         "sideA": "Зарядка",
         "sideB": "Машина",
         "ideasA": [
-            "Free",
+            "Бесплатно",
             "Зарядка"
         ],
         "ideasB": [
@@ -3367,7 +3367,7 @@
         "sideA": "Офис",
         "sideB": "Дом",
         "ideasA": [
-            "Colleagues",
+            "Коллеги",
             "Фокус"
         ],
         "ideasB": [
@@ -3418,11 +3418,11 @@
         "sideB": "Напарник",
         "ideasA": [
             "Покой",
-            "Rules"
+            "Правила"
         ],
         "ideasB": [
-            "Share life",
-            "Help"
+            "Делить жизнь",
+            "Помощь"
         ]
     },
     {
@@ -3467,11 +3467,11 @@
         "sideA": "Копить",
         "sideB": "Тратить",
         "ideasA": [
-            "Security",
+            "Безопасность",
             "Покой"
         ],
         "ideasB": [
-            "Happy today",
+            "Счастлив сегодня",
             "Воспоминания"
         ]
     },

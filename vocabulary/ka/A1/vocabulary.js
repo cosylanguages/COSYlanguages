@@ -1,13 +1,13 @@
 (function() {
     const data = [
     {
-        "word": "garden",
+        "word": "ბაღი",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }]},
+        "definitions": [{ "text": "საჯარო ბაღი ან დიდი გამწვანებული ადგილი ქალაქში, რომელიც ყველასთვის ხელმისაწვდომია.", "examples": [] }]},
 {
         "word": "ექიმი",
         "level": "starter",

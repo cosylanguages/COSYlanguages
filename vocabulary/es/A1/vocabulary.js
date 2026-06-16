@@ -2,7 +2,7 @@
 (function() {
     const data = [
     {
-        "word": "garden",
+        "word": "jardín",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
         "theme": "places",
@@ -1759,7 +1759,7 @@
         "emoji": "☕",
         "definitions": [
             {
-                "text": "Término para cup.",
+                "text": "Término para taza.",
                 "examples": []
             }
         ],
@@ -1778,7 +1778,7 @@
         "emoji": "🍷",
         "definitions": [
             {
-                "text": "Término para glass.",
+                "text": "Término para vaso.",
                 "examples": []
             }
         ],

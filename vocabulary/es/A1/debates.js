@@ -873,7 +873,7 @@
             "Muy rápido"
         ],
         "lang": "es",
-        "sub_theme": "wellbeing",
+        "sub_theme": "bienbeing",
         "word": "Caminar vs correr — ¿qué es mejor?",
         "definitions": [
             {

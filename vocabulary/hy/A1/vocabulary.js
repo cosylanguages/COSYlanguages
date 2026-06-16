@@ -1,13 +1,13 @@
 (function() {
     const data = [
     {
-        "word": "garden",
+        "word": "այգի",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }]},
+        "definitions": [{ "text": "Հանրային այգի կամ մեծ կանաչ տարածք քաղաքում, որը հասանելի է բոլորին:", "examples": [] }]},
 {
         "word": "բժիշկ",
         "level": "starter",

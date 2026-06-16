@@ -252,7 +252,7 @@
     },
     {
         "id": "fr_starter_time_001",
-        "word": "Matin vs Soir — which part of the day is nicer?",
+        "word": "Matin vs Soir — quelle partie de la journée est la plus agréable ?",
         "lang": "fr",
         "level": "starter",
         "theme": "time",
@@ -260,7 +260,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Matin vs Soir — which part of the day is nicer?",
+                "text": "Matin vs Soir — quelle partie de la journée est la plus agréable ?",
                 "examples": []
             }
         ],
@@ -277,7 +277,7 @@
     },
     {
         "id": "fr_starter_travel_001",
-        "word": "Voiture vs Bus — which is better to travel in?",
+        "word": "Voiture vs Bus — quel est le meilleur moyen de voyager ?",
         "lang": "fr",
         "level": "starter",
         "theme": "travel",
@@ -285,7 +285,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Voiture vs Bus — which is better to travel in?",
+                "text": "Voiture vs Bus — quel est le meilleur moyen de voyager ?",
                 "examples": []
             }
         ],
@@ -1377,7 +1377,7 @@
     },
     {
         "id": "fr_starter_food_drink_009",
-        "word": "Petit-déjeuner vs Dîner — which meal is more important?",
+        "word": "Petit-déjeuner vs Dîner — quel repas est le plus important ?",
         "lang": "fr",
         "level": "starter",
         "theme": "food_drink",
@@ -1385,7 +1385,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Petit-déjeuner vs Dîner — which meal is more important?",
+                "text": "Petit-déjeuner vs Dîner — quel repas est le plus important ?",
                 "examples": []
             }
         ],
@@ -1627,7 +1627,7 @@
     },
     {
         "id": "fr_starter_social_017",
-        "word": "Dessiner vs Chanter — which hobby is better?",
+        "word": "Dessiner vs Chanter — quel passe-temps est le meilleur ?",
         "lang": "fr",
         "level": "starter",
         "theme": "social",
@@ -1635,7 +1635,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Dessiner vs Chanter — which hobby is better?",
+                "text": "Dessiner vs Chanter — quel passe-temps est le meilleur ?",
                 "examples": []
             }
         ],
@@ -1652,7 +1652,7 @@
     },
     {
         "id": "fr_starter_social_018",
-        "word": "Seul vs Amis — which is more fun?",
+        "word": "Seul vs Amis — qu'est-ce qui est le plus amusant ?",
         "lang": "fr",
         "level": "starter",
         "theme": "social",
@@ -1660,7 +1660,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Seul vs Amis — which is more fun?",
+                "text": "Seul vs Amis — qu'est-ce qui est le plus amusant ?",
                 "examples": []
             }
         ],
@@ -1677,7 +1677,7 @@
     },
     {
         "id": "fr_starter_health_medicine_001",
-        "word": "Nager vs Courir — which sport do you prefer?",
+        "word": "Nager vs Courir — quel sport préférez-vous ?",
         "lang": "fr",
         "level": "starter",
         "theme": "health_medicine",
@@ -1685,7 +1685,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Nager vs Courir — which sport do you prefer?",
+                "text": "Nager vs Courir — quel sport préférez-vous ?",
                 "examples": []
             }
         ],
@@ -1827,7 +1827,7 @@
     },
     {
         "id": "fr_starter_travel_004",
-        "word": "Marcher vs Vélo — which is better to get around?",
+        "word": "Marcher vs Vélo — quel est le meilleur moyen de se déplacer ?",
         "lang": "fr",
         "level": "starter",
         "theme": "travel",
@@ -1835,7 +1835,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Marcher vs Vélo — which is better to get around?",
+                "text": "Marcher vs Vélo — quel est le meilleur moyen de se déplacer ?",
                 "examples": []
             }
         ],
@@ -2002,7 +2002,7 @@
     },
     {
         "id": "fr_starter_animals_007",
-        "word": "Chats vs Chiens — which pet is more annoying?",
+        "word": "Chats vs Chiens — quel animal de compagnie est le plus agaçant ?",
         "lang": "fr",
         "level": "starter",
         "theme": "animals",
@@ -2010,7 +2010,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Chats vs Chiens — which pet is more annoying?",
+                "text": "Chats vs Chiens — quel animal de compagnie est le plus agaçant ?",
                 "examples": []
             }
         ],
@@ -2552,7 +2552,7 @@
     },
     {
         "id": "fr_starter_food_drink_018",
-        "word": "Glace vs Gâteau — which is a better dessert?",
+        "word": "Glace vs Gâteau — quel est le meilleur dessert ?",
         "lang": "fr",
         "level": "starter",
         "theme": "food_drink",
@@ -2560,7 +2560,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Glace vs Gâteau — which is a better dessert?",
+                "text": "Glace vs Gâteau — quel est le meilleur dessert ?",
                 "examples": []
             }
         ],
@@ -2602,7 +2602,7 @@
     },
     {
         "id": "fr_starter_travel_007",
-        "word": "Avion vs Train — which is more fun?",
+        "word": "Avion vs Train — qu'est-ce qui est le plus amusant ?",
         "lang": "fr",
         "level": "starter",
         "theme": "travel",
@@ -2610,7 +2610,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Avion vs Train — which is more fun?",
+                "text": "Avion vs Train — qu'est-ce qui est le plus amusant ?",
                 "examples": []
             }
         ],
@@ -3152,7 +3152,7 @@
     },
     {
         "id": "fr_starter_health_medicine_005",
-        "word": "Nager vs Course — which sport do you prefer?",
+        "word": "Nager vs Course — quel sport préférez-vous ?",
         "lang": "fr",
         "level": "starter",
         "theme": "health_medicine",
@@ -3160,7 +3160,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Nager vs Course — which sport do you prefer?",
+                "text": "Nager vs Course — quel sport préférez-vous ?",
                 "examples": []
             }
         ],

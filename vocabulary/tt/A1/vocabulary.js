@@ -1,13 +1,13 @@
 (function() {
     const data = [
     {
-        "word": "garden",
+        "word": "бакча",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }]},
+        "definitions": [{ "text": "Шәһәрдә һәркем өчен кулланыла торган җәмәгать бакчасы яки зур яшел мәйдан.", "examples": [] }]},
 {
         "word": "врач",
         "image": "images/vocabulary/jobs/doctor.png",

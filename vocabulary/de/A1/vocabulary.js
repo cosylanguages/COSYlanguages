@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "word": "garden",
+        "word": "Garten",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
