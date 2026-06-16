@@ -1253,7 +1253,7 @@
             {
                 "text": "Маленький по размеру; небольшое количество.",
                 "examples": [
-                    "He drives a little car to save on fuel."
+                    "Он водит маленькую машину, чтобы сэкономить на топливе."
                 ]
             }
         ],
@@ -1839,7 +1839,7 @@
             {
                 "text": "Вызывающий большое удивление или восхищение.",
                 "examples": [
-                    "She gave an amazing presentation."
+                    "Она выступила с потрясающей презентацией."
                 ]
             }
         ],
@@ -2200,7 +2200,7 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Not different; identical.",
+                "text": "Не отличается; идентично.",
                 "examples": [
                     "Они получают одинаковую зарплату."
                 ]
@@ -2622,7 +2622,7 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Pleasant to look at; quite attractive.",
+                "text": "Приятно смотреть; довольно привлекательно.",
                 "examples": [
                     "Новая переговорная очень красивая."
                 ]
@@ -2811,7 +2811,7 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "True or right; without errors.",
+                "text": "Верно или правильно; без ошибок.",
                 "examples": [
                     "Пожалуйста, проверьте правильность цифр."
                 ]

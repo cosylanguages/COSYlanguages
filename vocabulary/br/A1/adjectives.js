@@ -1045,7 +1045,7 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["wet weather", "wet clothes", "get wet"],
+        "synonyms": ["amzer c'hleb", "dilhad gleb", "glebiañ"],
         "definitions": [
             {
                 "text": "Gant dour.",
@@ -1066,7 +1066,7 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["dry weather", "dry skin", "keep dry"],
+        "synonyms": ["amzer sec'h", "kroc'hen sec'h", "mirout sec'h"],
         "definitions": [
             {
                 "text": "Hep dour.",
@@ -1309,7 +1309,7 @@
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["terrible weather", "a terrible mistake", "terrible news"],
+        "synonyms": ["amzer spontus", "ur fazi spontus", "keleier spontus"],
         "definitions": [
             {
                 "text": "Fall-tre.",
@@ -1894,7 +1894,7 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["beautiful view", "beautiful city", "absolutely beautiful"],
+        "synonyms": ["gwel brav", "kêr vrav", "brav-meurbet"],
         "comparative": "bravoc'h",
         "superlative": "bravañ",
         "feminine": null,
@@ -1908,7 +1908,7 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Pleasant to look at; quite attractive.",
+                "text": "Plijus da welet; brav a-walc'h.",
                 "examples": [
                     "Kaer-tre eo ar sal-emvod nevez."
                 ]
@@ -2130,8 +2130,8 @@
                 ]
             }
         ],
-        "subtext": "as soon as possible",
-        "synonyms": ["it is possible", "make possible"],
+        "subtext": "ken buan hag ar gwellañ",
+        "synonyms": ["posupl eo", "lakaat da vezañ posupl"],
         "comparative": "posuploc'h",
         "superlative": "posuplañ",
         "feminine": null,

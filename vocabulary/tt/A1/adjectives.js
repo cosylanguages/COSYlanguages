@@ -257,7 +257,7 @@
         "form": "adjective",
         "opposite": "начар",
         "oppositeEmoji": "👎",
-        "subtext": "яхшы идеյա",
+        "subtext": "яхшы идея",
         "synonyms": ["уңышлар"],
         "definitions": [
             {

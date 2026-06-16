@@ -261,7 +261,7 @@
             "id": "it_starter_work_003"
         },
         {
-            "topic": "Mattino vs Sera — which part of the day is nicer?",
+            "topic": "Mattino vs Sera — quale parte della giornata è più piacevole?",
             "sideA": "Mattino",
             "sideB": "Sera",
             "level": "starter",
@@ -274,10 +274,10 @@
                 "Puoi riposare",
                 "Guarda film"
             ],
-            "word": "Mattino vs Sera — which part of the day is nicer?",
+            "word": "Mattino vs Sera — quale parte della giornata è più piacevole?",
             "definitions": [
                 {
-                    "text": "Mattino vs Sera — which part of the day is nicer?",
+                    "text": "Mattino vs Sera — quale parte della giornata è più piacevole?",
                     "examples": []
                 }
             ],
@@ -287,7 +287,7 @@
             "id": "it_starter_time_001"
         },
         {
-            "topic": "Auto vs Autobus — which is better to travel in?",
+            "topic": "Auto vs Autobus — con quale è meglio viaggiare?",
             "sideA": "Auto",
             "sideB": "Autobus",
             "level": "starter",
@@ -300,10 +300,10 @@
                 "Economico",
                 "Sociale"
             ],
-            "word": "Auto vs Autobus — which is better to travel in?",
+            "word": "Auto vs Autobus — con quale è meglio viaggiare?",
             "definitions": [
                 {
-                    "text": "Auto vs Autobus — which is better to travel in?",
+                    "text": "Auto vs Autobus — con quale è meglio viaggiare?",
                     "examples": []
                 }
             ],
@@ -1431,7 +1431,7 @@
             "id": "it_starter_technology_002"
         },
         {
-            "topic": "Colazione vs Cena — which meal is more important?",
+            "topic": "Colazione vs Cena — quale pasto è più importante?",
             "sideA": "Colazione",
             "sideB": "Cena",
             "level": "starter",
@@ -1444,10 +1444,10 @@
                 "Tempo in famiglia",
                 "Pasto abbondante"
             ],
-            "word": "Colazione vs Cena — which meal is more important?",
+            "word": "Colazione vs Cena — quale pasto è più importante?",
             "definitions": [
                 {
-                    "text": "Colazione vs Cena — which meal is more important?",
+                    "text": "Colazione vs Cena — quale pasto è più importante?",
                     "examples": []
                 }
             ],
@@ -1717,7 +1717,7 @@
             "id": "it_starter_social_008"
         },
         {
-            "topic": "Disegnare vs Cantare — which hobby is better?",
+            "topic": "Disegnare vs Cantare — quale hobby è migliore?",
             "sideA": "Disegnare",
             "sideB": "Cantare",
             "level": "starter",
@@ -1730,10 +1730,10 @@
                 "Usa la voce",
                 "Musica"
             ],
-            "word": "Disegnare vs Cantare — which hobby is better?",
+            "word": "Disegnare vs Cantare — quale hobby è migliore?",
             "definitions": [
                 {
-                    "text": "Disegnare vs Cantare — which hobby is better?",
+                    "text": "Disegnare vs Cantare — quale hobby è migliore?",
                     "examples": []
                 }
             ],
@@ -1743,7 +1743,7 @@
             "id": "it_starter_social_009"
         },
         {
-            "topic": "Da soli vs Amici — which is more fun?",
+            "topic": "Da soli vs Amici — quale è più divertente?",
             "sideA": "Da soli",
             "sideB": "Amici",
             "level": "starter",
@@ -1756,10 +1756,10 @@
                 "Condividi",
                 "Ridi"
             ],
-            "word": "Da soli vs Amici — which is more fun?",
+            "word": "Da soli vs Amici — quale è più divertente?",
             "definitions": [
                 {
-                    "text": "Da soli vs Amici — which is more fun?",
+                    "text": "Da soli vs Amici — quale è più divertente?",
                     "examples": []
                 }
             ],
@@ -1769,7 +1769,7 @@
             "id": "it_starter_social_010"
         },
         {
-            "topic": "Nuotare vs Correre — which sport do you prefer?",
+            "topic": "Nuotare vs Correre — quale sport preferisci?",
             "sideA": "Nuotare",
             "sideB": "Correre",
             "level": "starter",
@@ -1782,10 +1782,10 @@
                 "Aria fresca",
                 "Facile"
             ],
-            "word": "Nuotare vs Correre — which sport do you prefer?",
+            "word": "Nuotare vs Correre — quale sport preferisci?",
             "definitions": [
                 {
-                    "text": "Nuotare vs Correre — which sport do you prefer?",
+                    "text": "Nuotare vs Correre — quale sport preferisci?",
                     "examples": []
                 }
             ],
@@ -2107,7 +2107,7 @@
             "id": "it_starter_nature_006"
         },
         {
-            "topic": "Gatti vs Cani — which pet is more annoying?",
+            "topic": "Gatti vs Cani — quale animale domestico è più fastidioso?",
             "sideA": "Gatti",
             "sideB": "Cani",
             "level": "starter",
@@ -2120,10 +2120,10 @@
                 "No scarpe",
                 "Costoso"
             ],
-            "word": "Gatti vs Cani — which pet is more annoying?",
+            "word": "Gatti vs Cani — quale animale domestico è più fastidioso?",
             "definitions": [
                 {
-                    "text": "Gatti vs Cani — which pet is more annoying?",
+                    "text": "Gatti vs Cani — quale animale domestico è più fastidioso?",
                     "examples": []
                 }
             ],
@@ -2731,7 +2731,7 @@
             "id": "it_starter_food_drink_017"
         },
         {
-            "topic": "Gelato vs Torta — which is a better dessert?",
+            "topic": "Gelato vs Torta — quale è il dessert migliore?",
             "sideA": "Gelato",
             "sideB": "Torta",
             "level": "starter",
@@ -2744,10 +2744,10 @@
                 "Calda",
                 "Compleanno"
             ],
-            "word": "Gelato vs Torta — which is a better dessert?",
+            "word": "Gelato vs Torta — quale è il dessert migliore?",
             "definitions": [
                 {
-                    "text": "Gelato vs Torta — which is a better dessert?",
+                    "text": "Gelato vs Torta — quale è il dessert migliore?",
                     "examples": []
                 }
             ],
@@ -2783,7 +2783,7 @@
             "id": "it_starter_nature_007"
         },
         {
-            "topic": "Aereo vs Treno — which is more fun?",
+            "topic": "Aereo vs Treno — quale è più divertente?",
             "sideA": "Aereo",
             "sideB": "Treno",
             "level": "starter",
@@ -2796,10 +2796,10 @@
                 "Natura",
                 "Spazio"
             ],
-            "word": "Aereo vs Treno — which is more fun?",
+            "word": "Aereo vs Treno — quale è più divertente?",
             "definitions": [
                 {
-                    "text": "Aereo vs Treno — which is more fun?",
+                    "text": "Aereo vs Treno — quale è più divertente?",
                     "examples": []
                 }
             ],
@@ -3225,7 +3225,7 @@
             "id": "it_starter_food_drink_021"
         },
         {
-            "topic": "Nuotare vs Corsa — which sport do you prefer?",
+            "topic": "Nuotare vs Corsa — quale sport preferisci?",
             "sideA": "Nuotare",
             "sideB": "Corsa",
             "level": "starter",
@@ -3238,10 +3238,10 @@
                 "Aria fresca",
                 "Facile"
             ],
-            "word": "Nuotare vs Corsa — which sport do you prefer?",
+            "word": "Nuotare vs Corsa — quale sport preferisci?",
             "definitions": [
                 {
-                    "text": "Nuotare vs Corsa — which sport do you prefer?",
+                    "text": "Nuotare vs Corsa — quale sport preferisci?",
                     "examples": []
                 }
             ],
@@ -3251,7 +3251,7 @@
             "id": "it_starter_health_medicine_005"
         },
         {
-            "topic": "Cammini facile vs Bicicletta — which is better to get around?",
+            "topic": "Cammini facile vs Bicicletta — quale è meglio per spostarsi?",
             "sideA": "Cammini facile",
             "sideB": "Bicicletta",
             "level": "starter",
@@ -3264,10 +3264,10 @@
                 "Veloce",
                 "Divertente"
             ],
-            "word": "Cammini facile vs Bicicletta — which is better to get around?",
+            "word": "Cammini facile vs Bicicletta — quale è meglio per spostarsi?",
             "definitions": [
                 {
-                    "text": "Cammini facile vs Bicicletta — which is better to get around?",
+                    "text": "Cammini facile vs Bicicletta — quale è meglio per spostarsi?",
                     "examples": []
                 }
             ],

@@ -1,13 +1,13 @@
 (function() {
     const data = [
     {
-        "word": "garden",
+        "word": "баҡса",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }]},
+        "definitions": [{ "text": "Ҡалала һәр кем өсөн ҡулланылған йәмәғәт баҡсаһы йәки ҙур йәшел майҙан.", "examples": [] }]},
 {
         "word": "врач",
         "image": "images/vocabulary/jobs/doctor.png",
@@ -23,14 +23,14 @@
         ]
     },
 {
-        "word": "аяк",
+        "word": "аяҡ",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦶",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
-                "text": "Кәүҙәнең аяк аҫтындағы өлешө.",
+                "text": "Кәүҙәнең аяҡ аҫтындағы өлешө.",
                 "examples": ["Аяғым ауырта."]
             }
         ]
@@ -226,7 +226,7 @@
         ]
     },
 {
-        "word": "аяк киеме",
+        "word": "аяҡ киеме",
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👞",
@@ -247,7 +247,7 @@
         "definitions": [
             {
                 "text": "Башҡа кейелә торған нәмә.",
-                "examples": ["Ул ҡოяштан кәლәпә кейә."]
+                "examples": ["Ул ҡояштан кәләпә кейә."]
             }
         ]
     },
@@ -272,7 +272,7 @@
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
-                "text": "Дүрт аяклы йыһаз.",
+                "text": "Дүрт аяҡлы йыһаз.",
                 "examples": ["Китап өҫтәлдә."]
             }
         ]
@@ -338,7 +338,7 @@
         "definitions": [
             {
                 "text": "Әйберҙәр ташыу өсөн һауыт.",
-                "examples": ["Мин әйберҙәремդе сумкала йөрөтәм."]
+                "examples": ["Мин әйберҙәремде сумкала йөрөтәм."]
             }
         ]
     },
@@ -399,7 +399,7 @@
         }
     },
 {
-        "word": "аяк",
+        "word": "аяҡ",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦵",
@@ -407,7 +407,7 @@
         "definitions": [
             {
                 "text": "Кәүҙәнең йөрөү өсөн өлешө.",
-                "examples": ["Անىڭ аяҡтары оҙон."]
+                "examples": ["Уның аяҡтары оҙон."]
             }
         ]
     },
@@ -437,7 +437,7 @@
         "definitions": [
             {
                 "text": "Йөҙҙөң еҫ һиҙеү өсөн өлешө.",
-                "examples": ["Беҙ بորონ менән һулыш алабыҙ."]
+                "examples": ["Беҙ بоо менән һулыш алабыҙ."]
             }
         ]
     },
@@ -450,7 +450,7 @@
         "definitions": [
             {
                 "text": "Йөҙҙөң ашау һәм һөйләшеү өсөн өлешө.",
-                "examples": ["Ауыҙыңды ას."]
+                "examples": ["Ауыҙыңды ас."]
             }
         ]
     },
@@ -624,7 +624,7 @@
         ]
     },
 {
-        "word": "атна",
+        "word": "аҙна",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
@@ -702,7 +702,7 @@
         ]
     },
 {
-        "word": "кич",
+        "word": "кис",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌆",
@@ -814,7 +814,7 @@
         }
     },
 {
-        "word": "яңгыр",
+        "word": "яңғыр",
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🌧️",

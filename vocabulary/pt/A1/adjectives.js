@@ -587,7 +587,7 @@
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "well",
+        "opposite": "bem",
         "oppositeEmoji": "💪",
         "subtext": "doente",
         "synonyms": [
@@ -694,7 +694,7 @@
         "oppositeEmoji": "😌",
         "subtext": "",
         "synonyms": [
-            "anxious"
+            "ansioso"
         ],
         "definitions": [
             {

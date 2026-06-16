@@ -723,7 +723,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
-        "subtext": "երաժշტություն լսել / ուսուցչին լսել",
+        "subtext": "երաժշություն լսել / ուսուցչին լսել",
         "form": "verb",
         "definitions": [
             {
