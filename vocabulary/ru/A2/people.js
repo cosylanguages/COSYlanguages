@@ -13,7 +13,9 @@
                 "text": "Лев Толстой",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "ru_elementary_people_024",
@@ -27,7 +29,9 @@
                 "text": "Виктор Цой",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     }
 ];
     const lang = "ru";

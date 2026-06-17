@@ -20,7 +20,9 @@
             "Que ferais-tu avec un week-end de trois jours ?",
             "Travailles-tu ou étudies-tu le week-end ?",
             "Quel est le week-end parfait pour toi ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_157",
@@ -42,7 +44,9 @@
             "Est-ce acceptable d'avoir 10 minutes de retard ?",
             "La ponctualité est-elle importante dans ta culture ?",
             "Que fais-tu quand quelqu'un est très en retard ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_158",
@@ -64,7 +68,9 @@
             "Est-ce que les gens parlent aux inconnus là où tu habites ?",
             "As-tu déjà vécu dans un type de lieu différent ?",
             "Qu'est-ce qui rend un endroit accueillant ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_159",
@@ -86,7 +92,9 @@
             "Les animaux coûtent-ils cher ?",
             "Un animal peut-il être un ami ?",
             "Que faut-il faire pour bien s'occuper d'un animal ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_020",
@@ -108,7 +116,9 @@
             "La mode est-elle importante pour toi ?",
             "Peux-tu juger une personne par son apparence ?",
             "Qu'est-ce qui en dit plus sur le caractère d'une personne ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_160",
@@ -130,7 +140,9 @@
             "La nourriture est-elle meilleure avec d'autres personnes ?",
             "Vois-tu beaucoup de gens manger seuls ?",
             "Que fais-tu quand tu manges seul ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_language_001",
@@ -152,7 +164,9 @@
             "Quelle est la partie la plus difficile de l'apprentissage d'une langue ?",
             "Connais-tu quelqu'un qui a appris une langue à l'âge adulte ?",
             "Qu'est-ce qui t'aide le plus quand tu étudies ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_161",
@@ -174,7 +188,9 @@
             "Quels sont les problèmes liés à la possession d'une voiture ?",
             "Est-ce cher de voyager en transports en commun ?",
             "Que changerais-tu aux transports dans ta ville ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_technology_008",
@@ -196,7 +212,9 @@
             "T'ennuyais-tu avant les smartphones ?",
             "L'ennui est-il parfois une bonne chose ?",
             "Pourrais-tu laisser ton téléphone à la maison pendant une journée ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_162",
@@ -218,7 +236,9 @@
             "Manger au restaurant coûte-t-il cher là où tu habites ?",
             "Quel est ton restaurant préféré ?",
             "Quel est ton meilleur plat fait maison ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_travel_001",
@@ -240,7 +260,9 @@
             "Qu'est-ce qui serait excitant ?",
             "Quel pays choisirais-tu ?",
             "Vivre à l'étranger change-t-il une personne ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_163",
@@ -262,7 +284,9 @@
             "Qu'est-ce qui fait de quelqu'un un héros ?",
             "Pourquoi les gens aiment-ils les super-héros ?",
             "Les vrais héros sont-ils plus importants ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_164",
@@ -284,7 +308,9 @@
             "Est-ce important ou non ?",
             "Quelle est ta routine matinale ?",
             "Quelles petites habitudes as-tu ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_165",
@@ -306,7 +332,9 @@
             "Combien de temps passes-tu à faire du shopping ?",
             "Le shopping est-il relaxant ?",
             "Qu'achètes-tu le plus souvent ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_travel_002",
@@ -328,7 +356,9 @@
             "Qu'est-ce qui est bien dans le fait de voyager avec d'autres ?",
             "Te sens-tu seul quand tu voyages seul ?",
             "Quel est le meilleur voyage que tu as fait ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     }
 ];
     const lang = "fr";

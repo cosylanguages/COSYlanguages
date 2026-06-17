@@ -4,7 +4,7 @@
     {
         "word": "чистить зубы",
         "level": "elementary",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🪥",
         "form": "verb",
         "subtext": "чистить зубы дважды в день",
@@ -21,12 +21,15 @@
         "v2": "чистил зубы",
         "v3": "чистила зубы",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_furniture_007"
     },
     {
         "word": "принимать душ",
         "level": "elementary",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🚿",
         "form": "verb",
         "subtext": "",
@@ -46,12 +49,15 @@
         "v2": "принимал душ",
         "v3": "принимала душ",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_furniture_008"
     },
     {
         "word": "казаться",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤔",
         "form": "verb",
         "subtext": "казаться счастливым / это кажется хорошей идеей",
@@ -69,12 +75,15 @@
         "v3": "казалась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_people_044"
     },
     {
         "word": "становиться",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🦋",
         "form": "verb",
         "subtext": "",
@@ -96,12 +105,15 @@
         "v3": "стала",
         "group": "2nd_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_people_045"
     },
     {
         "word": "верить",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🙏",
         "form": "verb",
         "subtext": "верить в успех / верить кому-то",
@@ -118,12 +130,15 @@
         "v2": "верил",
         "v3": "верила",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_035"
     },
     {
         "word": "случаться",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "⚡",
         "form": "verb",
         "subtext": "",
@@ -145,12 +160,15 @@
         "v3": "случилась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_036"
     },
     {
         "word": "включать",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "➕",
         "form": "verb",
         "subtext": "включать в себя",
@@ -170,12 +188,15 @@
         "v2": "включал",
         "v3": "включала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_037"
     },
     {
         "word": "продолжать",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "➡️",
         "form": "verb",
         "subtext": "продолжать работать / продолжать делать",
@@ -192,12 +213,15 @@
         "v2": "продолжал",
         "v3": "продолжала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_038"
     },
     {
         "word": "устанавливать",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "⚙️",
         "form": "verb",
         "subtext": "",
@@ -218,12 +242,15 @@
         "v2": "установил",
         "v3": "установила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_039"
     },
     {
         "word": "вести",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "👑",
         "form": "verb",
         "subtext": "вести команду / вести за собой",
@@ -240,12 +267,15 @@
         "v2": "вел",
         "v3": "вела",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_people_046"
     },
     {
         "word": "следовать",
         "level": "elementary",
-        "theme": "directions_navigation_A1",
+        "theme": "describing",
         "emoji": "👣",
         "form": "verb",
         "subtext": "следовать правилам / следовать за кем-то",
@@ -262,12 +292,15 @@
         "v2": "следовал",
         "v3": "следовала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_040"
     },
     {
         "word": "создавать",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "✨",
         "form": "verb",
         "subtext": "",
@@ -288,12 +321,15 @@
         "v2": "создал",
         "v3": "создала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_social_032"
     },
     {
         "word": "разрешать",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "✅",
         "form": "verb",
         "subtext": "разрешать кому-то делать",
@@ -313,12 +349,15 @@
         "v2": "разрешил",
         "v3": "разрешила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_people_047"
     },
     {
         "word": "расти",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌱",
         "form": "verb",
         "subtext": "расти быстро",
@@ -338,12 +377,15 @@
         "v2": "рос",
         "v3": "росла",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_environment_008"
     },
     {
         "word": "предлагать",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤲",
         "form": "verb",
         "subtext": "",
@@ -364,12 +406,15 @@
         "v2": "предложил",
         "v3": "предложила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_people_048"
     },
     {
         "word": "рассматривать",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🤔",
         "form": "verb",
         "subtext": "рассматривать кандидатуру",
@@ -389,12 +434,15 @@
         "v2": "рассматривал",
         "v3": "рассматривала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_041"
     },
     {
         "word": "появляться",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "👻",
         "form": "verb",
         "subtext": "",
@@ -416,12 +464,15 @@
         "v3": "появилась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_people_049"
     },
     {
         "word": "служить",
         "level": "elementary",
-        "theme": "restaurants_ordering_A2",
+        "theme": "food_drink",
         "emoji": "🍽️",
         "form": "verb",
         "subtext": "служить цели",
@@ -441,12 +492,15 @@
         "v2": "служил",
         "v3": "служила",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_food_drink_042"
     },
     {
         "word": "ожидать",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💭",
         "form": "verb",
         "subtext": "ожидать ребенка / ожидать прибытия",
@@ -463,12 +517,15 @@
         "v2": "ожидал",
         "v3": "ожидала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_042"
     },
     {
         "word": "строить",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "describing",
         "emoji": "🏗️",
         "form": "verb",
         "subtext": "строить дом / строить отношения",
@@ -485,12 +542,15 @@
         "v2": "строил",
         "v3": "строила",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_043"
     },
     {
         "word": "достигать",
         "level": "elementary",
-        "theme": "booking_planning_a_trip_A2",
+        "theme": "travel",
         "emoji": "🏁",
         "form": "verb",
         "subtext": "",
@@ -511,12 +571,15 @@
         "v2": "достиг",
         "v3": "достигла",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_travel_033"
     },
     {
         "word": "убивать",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "⚔️",
         "form": "verb",
         "subtext": "убивать время",
@@ -536,12 +599,15 @@
         "v2": "убил",
         "v3": "убила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_psychology_001"
     },
     {
         "word": "оставаться",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "⏳",
         "form": "verb",
         "subtext": "оставаться спокойным / оставаться дома",
@@ -559,12 +625,15 @@
         "v3": "оставалась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_044"
     },
     {
         "word": "предлагать",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💡",
         "form": "verb",
         "subtext": "",
@@ -585,12 +654,15 @@
         "v2": "предложил",
         "v3": "предложила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_045"
     },
     {
         "word": "поднимать",
         "level": "elementary",
-        "theme": "family_life_A1",
+        "theme": "describing",
         "emoji": "🙋",
         "form": "verb",
         "subtext": "",
@@ -611,12 +683,15 @@
         "v2": "поднял",
         "v3": "подняла",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_046"
     },
     {
         "word": "требовать",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "📜",
         "form": "verb",
         "subtext": "требовать помощи / требовать паспорт",
@@ -633,12 +708,15 @@
         "v2": "требовал",
         "v3": "требовала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_047"
     },
     {
         "word": "сообщать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📋",
         "form": "verb",
         "subtext": "",
@@ -659,12 +737,15 @@
         "v2": "сообщил",
         "v3": "сообщила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_060"
     },
     {
         "word": "объяснять",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👨‍🏫",
         "form": "verb",
         "subtext": "",
@@ -685,12 +766,15 @@
         "v2": "объяснил",
         "v3": "объяснила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_061"
     },
     {
         "word": "развивать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "💻",
         "form": "verb",
         "subtext": "развивать навык",
@@ -710,12 +794,15 @@
         "v2": "развивал",
         "v3": "развивала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_062"
     },
     {
         "word": "уходить на пенсию",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👴",
         "form": "verb",
         "subtext": "досрочный выход на пенсию",
@@ -735,12 +822,15 @@
         "v2": "ушел на пенсию",
         "v3": "ушла на пенсию",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_063"
     },
     {
         "word": "позволить себе",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💰",
         "form": "verb",
         "subtext": "",
@@ -761,12 +851,15 @@
         "v2": "позволил себе",
         "v3": "позволила себе",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_numbers_015"
     },
     {
         "word": "перерабатывать",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "♻️",
         "form": "verb",
         "subtext": "перерабатывать бумагу",
@@ -786,12 +879,15 @@
         "v2": "перерабатывал",
         "v3": "перерабатывала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_environment_009"
     },
     {
         "word": "ударить",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "🥊",
         "form": "verb",
         "subtext": "ударить по мячу",
@@ -811,12 +907,15 @@
         "v2": "ударил",
         "v3": "ударила",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_social_033"
     },
     {
         "word": "производить",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏭",
         "form": "verb",
         "subtext": "производить энергию",
@@ -836,12 +935,15 @@
         "v2": "производил",
         "v3": "производила",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_064"
     },
     {
         "word": "сталкиваться",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "👤",
         "form": "verb",
         "subtext": "смотреть правде в глаза",
@@ -862,12 +964,15 @@
         "v3": "столкнулась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_people_050"
     },
     {
         "word": "покрывать",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "describing",
         "emoji": "🧥",
         "form": "verb",
         "subtext": "",
@@ -888,12 +993,15 @@
         "v2": "покрывал",
         "v3": "покрывала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_048"
     },
     {
         "word": "описывать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📝",
         "form": "verb",
         "subtext": "",
@@ -914,12 +1022,15 @@
         "v2": "описывал",
         "v3": "описывала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_065"
     },
     {
         "word": "ловить",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "🎣",
         "form": "verb",
         "subtext": "ловить мяч",
@@ -940,12 +1051,15 @@
         "v2": "ловил",
         "v3": "ловила",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_social_034"
     },
     {
         "word": "подавать заявление на",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "📝",
         "form": "verb",
         "subtext": "подать заявку на работу",
@@ -965,12 +1079,15 @@
         "v2": "подал заявление",
         "v3": "подала заявление",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_066"
     },
     {
         "word": "нанимать",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "",
@@ -991,12 +1108,15 @@
         "v2": "нанял",
         "v3": "наняла",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_067"
     },
     {
         "word": "повышать в должности",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "verb",
         "subtext": "",
@@ -1017,12 +1137,15 @@
         "v2": "повысил",
         "v3": "повысила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_068"
     },
     {
         "word": "увольняться",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🚪",
         "form": "verb",
         "subtext": "",
@@ -1044,12 +1167,15 @@
         "v3": "уволилась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_069"
     },
     {
         "word": "увольнять",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "❌",
         "form": "verb",
         "subtext": "",
@@ -1070,12 +1196,15 @@
         "v2": "уволил",
         "v3": "уволила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_070"
     },
     {
         "word": "делегировать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📋",
         "form": "verb",
         "subtext": "делегировать задачу",
@@ -1095,12 +1224,15 @@
         "v2": "делегировал",
         "v3": "делегировала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_071"
     },
     {
         "word": "вести переговоры",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "",
@@ -1121,12 +1253,15 @@
         "v2": "вел переговоры",
         "v3": "вела переговоры",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_072"
     },
     {
         "word": "оценивать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📊",
         "form": "verb",
         "subtext": "оценивать результаты / оценивать работу",
@@ -1143,12 +1278,15 @@
         "v2": "оценивал",
         "v3": "оценивала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_073"
     },
     {
         "word": "сотрудничать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👥",
         "form": "verb",
         "subtext": "сотрудничать с кем-то",
@@ -1168,12 +1306,15 @@
         "v2": "сотрудничал",
         "v3": "сотрудничала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_074"
     },
     {
         "word": "планировать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📅",
         "form": "verb",
         "subtext": "планировать время",
@@ -1193,12 +1334,15 @@
         "v2": "планировал",
         "v3": "планировала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_075"
     },
     {
         "word": "инвестировать",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📈",
         "form": "verb",
         "subtext": "инвестировать в недвижимость",
@@ -1218,12 +1362,15 @@
         "v2": "инвестировал",
         "v3": "инвестировала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_numbers_016"
     },
     {
         "word": "занимать",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💸",
         "form": "verb",
         "subtext": "занимать деньги",
@@ -1243,12 +1390,15 @@
         "v2": "занимал",
         "v3": "занимала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_numbers_017"
     },
     {
         "word": "давать в долг",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "",
@@ -1269,12 +1419,15 @@
         "v2": "давал в долг",
         "v3": "давала в долг",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_numbers_018"
     },
     {
         "word": "планировать бюджет",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📊",
         "form": "verb",
         "subtext": "",
@@ -1295,12 +1448,15 @@
         "v2": "планировал бюджет",
         "v3": "планировала бюджет",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_numbers_019"
     },
     {
         "word": "снимать деньги",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "🏧",
         "form": "verb",
         "subtext": "",
@@ -1321,12 +1477,15 @@
         "v2": "снимал деньги",
         "v3": "снимала деньги",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_numbers_020"
     },
     {
         "word": "переводить",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "📲",
         "form": "verb",
         "subtext": "переводить деньги",
@@ -1346,12 +1505,15 @@
         "v2": "переводил",
         "v3": "переводила",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_numbers_021"
     },
     {
         "word": "назначать цену",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💳",
         "form": "verb",
         "subtext": "",
@@ -1372,12 +1534,15 @@
         "v2": "назначил цену",
         "v3": "назначила цену",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_numbers_022"
     },
     {
         "word": "требовать",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📜",
         "form": "verb",
         "subtext": "требовать страховку / требовать возмещение",
@@ -1394,12 +1559,15 @@
         "v2": "требовал",
         "v3": "требовала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_numbers_023"
     },
     {
         "word": "спорить",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "спорить о чем-то / спорить с кем-то",
@@ -1416,12 +1584,15 @@
         "v2": "спорил",
         "v3": "спорила",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_049"
     },
     {
         "word": "доверять",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "доверять кому-то / доверять инстинктам",
@@ -1438,12 +1609,15 @@
         "v2": "доверял",
         "v3": "доверяла",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_050"
     },
     {
         "word": "поддерживать",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "поддерживать кого-то / поддерживать решение",
@@ -1460,12 +1634,15 @@
         "v2": "поддерживал",
         "v3": "поддерживала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_051"
     },
     {
         "word": "не соглашаться",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "👎",
         "form": "verb",
         "subtext": "не соглашаться с кем-то",
@@ -1486,12 +1663,15 @@
         "v3": "не согласилась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_052"
     },
     {
         "word": "извиняться",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🙏",
         "form": "verb",
         "subtext": "извиняться за / извиняться перед кем-то",
@@ -1509,12 +1689,15 @@
         "v3": "извинялась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_053"
     },
     {
         "word": "прощать",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "",
@@ -1535,12 +1718,15 @@
         "v2": "простил",
         "v3": "простила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_054"
     },
     {
         "word": "идти на компромисс",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "быть готовым к компромиссу",
@@ -1560,12 +1746,15 @@
         "v2": "пошел на компромисс",
         "v3": "пошла на компромисс",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_055"
     },
     {
         "word": "диагностировать",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🩺",
         "form": "verb",
         "subtext": "диагностировать болезнь",
@@ -1585,12 +1774,15 @@
         "v2": "диагностировал",
         "v3": "диагностировала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_food_drink_043"
     },
     {
         "word": "лечить",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🩹",
         "form": "verb",
         "subtext": "лечить пациента / лечить болезнь",
@@ -1607,12 +1799,15 @@
         "v2": "лечил",
         "v3": "лечила",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_food_drink_044"
     },
     {
         "word": "предотвращать",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🛡️",
         "form": "verb",
         "subtext": "предотвращать болезнь",
@@ -1632,12 +1827,15 @@
         "v2": "предотвращал",
         "v3": "предотвращала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_food_drink_045"
     },
     {
         "word": "страдать",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🤕",
         "form": "verb",
         "subtext": "страдать от чего-то / страдать от боли",
@@ -1654,12 +1852,15 @@
         "v2": "страдал",
         "v3": "страдала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_056"
     },
     {
         "word": "рекомендовать",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💡",
         "form": "verb",
         "subtext": "рекомендовать лечение / рекомендовать отдых",
@@ -1676,12 +1877,15 @@
         "v2": "рекомендовал",
         "v3": "рекомендовала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_057"
     },
     {
         "word": "улучшать",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "📈",
         "form": "verb",
         "subtext": "улучшать здоровье / улучшать форму",
@@ -1698,12 +1902,15 @@
         "v2": "улучшал",
         "v3": "улучшала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_food_drink_046"
     },
     {
         "word": "арендовать",
         "level": "elementary",
-        "theme": "renting_landlords_A2",
+        "theme": "describing",
         "emoji": "🏠",
         "form": "verb",
         "subtext": "арендовать квартиру / арендовать комнату",
@@ -1720,12 +1927,15 @@
         "v2": "арендовал",
         "v3": "арендовала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_058"
     },
     {
         "word": "владеть",
         "level": "elementary",
-        "theme": "renting_landlords_A2",
+        "theme": "describing",
         "emoji": "🏡",
         "form": "verb",
         "subtext": "владеть недвижимостью / владеть машиной",
@@ -1742,12 +1952,15 @@
         "v2": "владел",
         "v3": "владела",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_059"
     },
     {
         "word": "ремонтировать",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "describing",
         "emoji": "🔧",
         "form": "verb",
         "subtext": "ремонтировать что-то",
@@ -1767,12 +1980,15 @@
         "v2": "ремонтировал",
         "v3": "ремонтировала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_060"
     },
     {
         "word": "переезжать",
         "level": "elementary",
-        "theme": "moving_home_A2",
+        "theme": "furniture",
         "emoji": "📦",
         "form": "verb",
         "subtext": "переезжать в новое место",
@@ -1792,12 +2008,15 @@
         "v2": "переехал",
         "v3": "переехала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_furniture_009"
     },
     {
         "word": "украшать",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "emoji": "🎨",
         "form": "verb",
         "subtext": "украшать комнату",
@@ -1817,12 +2036,15 @@
         "v2": "украшал",
         "v3": "украшала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_furniture_010"
     },
     {
         "word": "основывать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏗️",
         "form": "verb",
         "subtext": "",
@@ -1843,12 +2065,15 @@
         "v2": "основал",
         "v3": "основала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_076"
     },
     {
         "word": "выяснять",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "🔎",
         "form": "verb",
         "subtext": "",
@@ -1869,12 +2094,15 @@
         "v2": "выяснил",
         "v3": "выяснила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_061"
     },
     {
         "word": "продолжать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⏩",
         "form": "verb",
         "subtext": "продолжать работать / продолжать несмотря ни на что",
@@ -1891,12 +2119,15 @@
         "v2": "продолжал",
         "v3": "продолжала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_077"
     },
     {
         "word": "сдаваться",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏳️",
         "form": "verb",
         "subtext": "",
@@ -1918,12 +2149,15 @@
         "v3": "сдалась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_078"
     },
     {
         "word": "улаживать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🔧",
         "form": "verb",
         "subtext": "",
@@ -1944,12 +2178,15 @@
         "v2": "уладил",
         "v3": "уладила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_079"
     },
     {
         "word": "присматривать за",
         "level": "elementary",
-        "theme": "relationships_family_A2",
+        "theme": "people",
         "emoji": "👶",
         "form": "verb",
         "subtext": "присматривать за кем-то / присматривать за ребенком",
@@ -1966,12 +2203,15 @@
         "v2": "присматривал",
         "v3": "присматривала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_people_051"
     },
     {
         "word": "сокращать",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "📉",
         "form": "verb",
         "subtext": "",
@@ -1992,12 +2232,15 @@
         "v2": "сократил",
         "v3": "сократила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_food_drink_047"
     },
     {
         "word": "брать на себя",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "💪",
         "form": "verb",
         "subtext": "",
@@ -2018,12 +2261,15 @@
         "v2": "взял на себя",
         "v3": "взяла на себя",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_080"
     },
     {
         "word": "отклонять",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "👎",
         "form": "verb",
         "subtext": "",
@@ -2044,12 +2290,15 @@
         "v2": "отклонил",
         "v3": "отклонила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_081"
     },
     {
         "word": "откладывать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⏳",
         "form": "verb",
         "subtext": "",
@@ -2070,12 +2319,15 @@
         "v2": "откладывал",
         "v3": "откладывала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_082"
     },
     {
         "word": "быть должным",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💸",
         "form": "verb",
         "subtext": "быть должным деньги / быть должным кому-то",
@@ -2092,12 +2344,15 @@
         "v2": "был должен",
         "v3": "была должна",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_numbers_024"
     },
     {
         "word": "приглашать",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "📩",
         "form": "verb",
         "subtext": "",
@@ -2118,12 +2373,15 @@
         "v2": "пригласил",
         "v3": "пригласила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_062"
     },
     {
         "word": "подтверждать",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "✅",
         "form": "verb",
         "subtext": "",
@@ -2144,12 +2402,15 @@
         "v2": "подтвердил",
         "v3": "подтвердила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_063"
     },
     {
         "word": "связываться",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "📞",
         "form": "verb",
         "subtext": "",
@@ -2171,12 +2432,15 @@
         "v3": "связалась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_technology_011"
     },
     {
         "word": "жаловаться",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "😠",
         "form": "verb",
         "subtext": "жаловаться на",
@@ -2197,12 +2461,15 @@
         "v3": "жаловалась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_064"
     },
     {
         "word": "обсуждать",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "обсуждать тему / обсуждать детально",
@@ -2219,12 +2486,15 @@
         "v2": "обсуждал",
         "v3": "обсуждала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_065"
     },
     {
         "word": "представлять",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📊",
         "form": "verb",
         "subtext": "представлять данные",
@@ -2244,12 +2514,15 @@
         "v2": "представлял",
         "v3": "представляла",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_083"
     },
     {
         "word": "принимать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "✅",
         "form": "verb",
         "subtext": "",
@@ -2270,12 +2543,15 @@
         "v2": "принял",
         "v3": "приняла",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_084"
     },
     {
         "word": "отказываться",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "❌",
         "form": "verb",
         "subtext": "",
@@ -2297,12 +2573,15 @@
         "v3": "отказалась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_085"
     },
     {
         "word": "худеть",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "⚖️",
         "form": "verb",
         "subtext": "",
@@ -2323,12 +2602,15 @@
         "v2": "худел",
         "v3": "худела",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_food_drink_048"
     },
     {
         "word": "увеличивать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "verb",
         "subtext": "",
@@ -2349,12 +2631,15 @@
         "v2": "увеличивал",
         "v3": "увеличивала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_086"
     },
     {
         "word": "уменьшать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📉",
         "form": "verb",
         "subtext": "уменьшать стресс",
@@ -2374,12 +2659,15 @@
         "v2": "уменьшал",
         "v3": "уменьшала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_087"
     },
     {
         "word": "улучшать навыки",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "verb",
         "subtext": "",
@@ -2400,12 +2688,15 @@
         "v2": "улучшал навыки",
         "v3": "улучшала навыки",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_088"
     },
     {
         "word": "предоставлять",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🤲",
         "form": "verb",
         "subtext": "предоставлять поддержку / предоставлять услугу",
@@ -2422,12 +2713,15 @@
         "v2": "предоставил",
         "v3": "предоставила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_089"
     },
     {
         "word": "решать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🧩",
         "form": "verb",
         "subtext": "",
@@ -2448,12 +2742,15 @@
         "v2": "решил",
         "v3": "решила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_090"
     },
     {
         "word": "делиться",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "делиться информацией / делиться идеями",
@@ -2474,12 +2771,15 @@
         "v3": "делилась",
         "group": "2nd_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_091"
     },
     {
         "word": "присоединяться",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "➕",
         "form": "verb",
         "subtext": "",
@@ -2501,12 +2801,15 @@
         "v3": "присоединилась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_092"
     },
     {
         "word": "получать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📩",
         "form": "verb",
         "subtext": "",
@@ -2528,12 +2831,15 @@
         "v2": "получил",
         "v3": "получила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_093"
     },
     {
         "word": "содержать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📦",
         "form": "verb",
         "subtext": "содержать информацию",
@@ -2554,12 +2860,15 @@
         "v2": "содержал",
         "v3": "содержала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_094"
     },
     {
         "word": "планировать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📅",
         "form": "verb",
         "subtext": "планировать поездку / планировать заранее",
@@ -2576,12 +2885,15 @@
         "v2": "планировал",
         "v3": "планировала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_095"
     },
     {
         "word": "готовиться",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📝",
         "form": "verb",
         "subtext": "готовиться к встрече",
@@ -2602,12 +2914,15 @@
         "v3": "готовилась",
         "group": "2nd_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_096"
     },
     {
         "word": "потерпеть неудачу",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "❌",
         "form": "verb",
         "subtext": "",
@@ -2628,12 +2943,15 @@
         "v2": "потерпел неудачу",
         "v3": "потерпела неудачу",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_097"
     },
     {
         "word": "преуспевать",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏆",
         "form": "verb",
         "subtext": "",
@@ -2654,12 +2972,15 @@
         "v2": "преуспевал",
         "v3": "преуспевала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_098"
     },
     {
         "word": "соглашаться",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "соглашаться с кем-то / соглашаться на условия",
@@ -2677,12 +2998,15 @@
         "v3": "согласилась",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_describing_066"
     },
     {
         "word": "заменять",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🔄",
         "form": "verb",
         "subtext": "",
@@ -2703,12 +3027,15 @@
         "v2": "заменил",
         "v3": "заменила",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_099"
     },
     {
         "word": "искать",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "🔍",
         "form": "verb",
         "subtext": "искать работу / искать решение",
@@ -2725,12 +3052,15 @@
         "v2": "искал",
         "v3": "искала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_work_100"
     },
     {
         "word": "выходить из системы",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🚪",
         "form": "verb",
         "subtext": "",
@@ -2750,7 +3080,10 @@
         "v2": "вышел из системы",
         "v3": "вышла из системы",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "transcription": "",
+        "id": "ru_elementary_technology_012"
     }
 ];
     const lang = "ru";

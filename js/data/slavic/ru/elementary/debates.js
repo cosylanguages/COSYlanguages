@@ -6,6 +6,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -13,7 +14,6 @@
                 "examples": []
             }
         ],
-        "topic": "Высокая зарплата или короткий путь до работы — что важнее?",
         "sideA": "Высокая зарплата",
         "sideB": "Короткий путь",
         "ideasA": [
@@ -31,6 +31,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -38,7 +39,6 @@
                 "examples": []
             }
         ],
-        "topic": "Частая смена работы или преданность одной компании — что лучше для карьеры?",
         "sideA": "Частая смена",
         "sideB": "Одна компания",
         "ideasA": [
@@ -56,6 +56,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -63,7 +64,6 @@
                 "examples": []
             }
         ],
-        "topic": "Работа сверхурочно или уход вовремя каждый день — какая привычка лучше?",
         "sideA": "Сверхурочно",
         "sideB": "Вовремя",
         "ideasA": [
@@ -81,6 +81,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -88,7 +89,6 @@
                 "examples": []
             }
         ],
-        "topic": "Строгий босс или мягкий босс — с кем лучше работать?",
         "sideA": "Строгий",
         "sideB": "Мягкий",
         "ideasA": [
@@ -106,6 +106,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -113,7 +114,6 @@
                 "examples": []
             }
         ],
-        "topic": "Работа в большой компании или в маленькой — что лучше?",
         "sideA": "Большая",
         "sideB": "Маленькая",
         "ideasA": [
@@ -131,6 +131,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -138,7 +139,6 @@
                 "examples": []
             }
         ],
-        "topic": "Получить повышение или получить больше свободного времени — что бы вы выбрали?",
         "sideA": "Повышение",
         "sideB": "Свободное время",
         "ideasA": [
@@ -156,6 +156,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -163,7 +164,6 @@
                 "examples": []
             }
         ],
-        "topic": "Покупка дома или аренда на всю жизнь — какое финансовое решение умнее?",
         "sideA": "Покупка",
         "sideB": "Аренда",
         "ideasA": [
@@ -181,6 +181,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -188,7 +189,6 @@
                 "examples": []
             }
         ],
-        "topic": "Жизнь в центре города или в пригороде — что лучше?",
         "sideA": "Центр города",
         "sideB": "Пригород",
         "ideasA": [
@@ -206,6 +206,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -213,7 +214,6 @@
                 "examples": []
             }
         ],
-        "topic": "Тратить деньги на впечатления или на вещи — что делает вас счастливее?",
         "sideA": "Впечатления",
         "sideB": "Вещи",
         "ideasA": [
@@ -231,6 +231,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -238,7 +239,6 @@
                 "examples": []
             }
         ],
-        "topic": "Готовить каждый день или готовить на неделю вперед — что практичнее?",
         "sideA": "Каждый день",
         "sideB": "На неделю",
         "ideasA": [
@@ -256,6 +256,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -263,7 +264,6 @@
                 "examples": []
             }
         ],
-        "topic": "Нанять клинера или делать уборку самому — какой выбор лучше?",
         "sideA": "Клинер",
         "sideB": "Самому",
         "ideasA": [
@@ -281,6 +281,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -288,7 +289,6 @@
                 "examples": []
             }
         ],
-        "topic": "Жить с партнером или жить одному — что лучше для взрослых людей?",
         "sideA": "С партнером",
         "sideB": "Одному",
         "ideasA": [
@@ -306,6 +306,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -313,7 +314,6 @@
                 "examples": []
             }
         ],
-        "topic": "Рожать детей рано или позже в жизни — что лучше?",
         "sideA": "Рано",
         "sideB": "Позже",
         "ideasA": [
@@ -331,6 +331,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -338,7 +339,6 @@
                 "examples": []
             }
         ],
-        "topic": "Близкие отношения с семьей или независимость от нее — что важнее во взрослом возрасте?",
         "sideA": "Близкие отношения",
         "sideB": "Независимость",
         "ideasA": [
@@ -356,6 +356,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -363,7 +364,6 @@
                 "examples": []
             }
         ],
-        "topic": "Знакомство с новыми людьми или сохранение старых друзей — что ценнее?",
         "sideA": "Новые люди",
         "sideB": "Старые друзья",
         "ideasA": [
@@ -381,6 +381,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -388,7 +389,6 @@
                 "examples": []
             }
         ],
-        "topic": "Общение с коллегами после работы или поход прямо домой — что лучше для рабочих отношений?",
         "sideA": "Общение",
         "sideB": "Домой",
         "ideasA": [
@@ -406,6 +406,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "body",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -413,7 +414,6 @@
                 "examples": []
             }
         ],
-        "topic": "Ходить в спортзал или тренироваться на улице — что лучше для взрослых?",
         "sideA": "Спортзал",
         "sideB": "Улица",
         "ideasA": [
@@ -431,6 +431,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "body",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -438,7 +439,6 @@
                 "examples": []
             }
         ],
-        "topic": "Строгая диета или умеренность во всем — что здоровее?",
         "sideA": "Строгая диета",
         "sideB": "Умеренность",
         "ideasA": [
@@ -456,6 +456,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "body",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -463,7 +464,6 @@
                 "examples": []
             }
         ],
-        "topic": "Идти к врачу сразу или ждать, пока само пройдет — что мудрее?",
         "sideA": "Сразу",
         "sideB": "Ждать",
         "ideasA": [
@@ -481,6 +481,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "body",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -488,7 +489,6 @@
                 "examples": []
             }
         ],
-        "topic": "Спать по восемь часов или шесть, но заниматься спортом — что лучше для энергии?",
         "sideA": "8 часов",
         "sideB": "6 часов + спорт",
         "ideasA": [
@@ -506,6 +506,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "body",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -513,7 +514,6 @@
                 "examples": []
             }
         ],
-        "topic": "Снимать стресс спортом или релаксацией — что работает лучше?",
         "sideA": "Спорт",
         "sideB": "Релаксация",
         "ideasA": [
@@ -531,6 +531,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -538,7 +539,6 @@
                 "examples": []
             }
         ],
-        "topic": "Смартфоны или живое общение — чем мы пользуемся больше, и проблема ли это?",
         "sideA": "Смартфоны",
         "sideB": "Общение",
         "ideasA": [
@@ -556,6 +556,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -563,7 +564,6 @@
                 "examples": []
             }
         ],
-        "topic": "Онлайн-банкинг или поход в банк — что лучше?",
         "sideA": "Онлайн",
         "sideB": "Поход в банк",
         "ideasA": [
@@ -581,6 +581,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -588,7 +589,6 @@
                 "examples": []
             }
         ],
-        "topic": "Работа с бумагой или работа в цифровом виде — что эффективнее?",
         "sideA": "Бумага",
         "sideB": "Цифра",
         "ideasA": [
@@ -606,6 +606,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -613,7 +614,6 @@
                 "examples": []
             }
         ],
-        "topic": "Соцсети для нетворкинга или личные встречи — что полезнее для карьеры?",
         "sideA": "Соцсети",
         "sideB": "Личные встречи",
         "ideasA": [
@@ -631,6 +631,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -638,7 +639,6 @@
                 "examples": []
             }
         ],
-        "topic": "Пакетный тур или самостоятельное путешествие — что лучше для взрослых?",
         "sideA": "Пакетный тур",
         "sideB": "Самостоятельно",
         "ideasA": [
@@ -656,6 +656,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -663,7 +664,6 @@
                 "examples": []
             }
         ],
-        "topic": "Поездка в город или отдых на пляже — как лучше расслабиться?",
         "sideA": "Город",
         "sideB": "Пляж",
         "ideasA": [
@@ -681,6 +681,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -688,7 +689,6 @@
                 "examples": []
             }
         ],
-        "topic": "Один длинный отпуск в году или несколько коротких — что лучше?",
         "sideA": "Один длинный",
         "sideB": "Несколько коротких",
         "ideasA": [
@@ -706,6 +706,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -713,7 +714,6 @@
                 "examples": []
             }
         ],
-        "topic": "Путешествие парой или в одиночку — что приносит больше удовольствия?",
         "sideA": "Парой",
         "sideB": "В одиночку",
         "ideasA": [
@@ -731,6 +731,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -738,7 +739,6 @@
                 "examples": []
             }
         ],
-        "topic": "Рассказывать партнеру о каждой мелочи или держать все в себе — что здоровее?",
         "sideA": "Все рассказывать",
         "sideB": "Держать в себе",
         "ideasA": [
@@ -756,6 +756,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -763,7 +764,6 @@
                 "examples": []
             }
         ],
-        "topic": "Проверять телефон первым делом утром или после завтрака — какая привычка лучше?",
         "sideA": "Сразу",
         "sideB": "После завтрака",
         "ideasA": [
@@ -781,6 +781,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -788,7 +789,6 @@
                 "examples": []
             }
         ],
-        "topic": "Знать имена соседей или не знать их — что сейчас считается нормой для взрослого?",
         "sideA": "Знать имена",
         "sideB": "Не знать",
         "ideasA": [
@@ -806,6 +806,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -813,7 +814,6 @@
                 "examples": []
             }
         ],
-        "topic": "Поход за продуктами со списком или без него — у кого жизнь лучше?",
         "sideA": "Со списком",
         "sideB": "Без списка",
         "ideasA": [
@@ -831,6 +831,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -838,7 +839,6 @@
                 "examples": []
             }
         ],
-        "topic": "Сказать боссу, что заболел, или идти на работу больным — какой выбор смелее?",
         "sideA": "Сказать боссу",
         "sideB": "Идти больным",
         "ideasA": [
@@ -856,6 +856,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -863,7 +864,6 @@
                 "examples": []
             }
         ],
-        "topic": "Полный рабочий день или частичная занятость — что лучше?",
         "sideA": "Полный день",
         "sideB": "Частичная",
         "ideasA": [
@@ -881,6 +881,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -888,7 +889,6 @@
                 "examples": []
             }
         ],
-        "topic": "Работа в офисе или работа из дома — что лучше?",
         "sideA": "Офис",
         "sideB": "Дом",
         "ideasA": [
@@ -906,6 +906,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -913,7 +914,6 @@
                 "examples": []
             }
         ],
-        "topic": "Работа, которую вы любите, или работа, которая хорошо оплачивается — что важнее?",
         "sideA": "Любимая работа",
         "sideB": "Хорошая оплата",
         "ideasA": [
@@ -931,6 +931,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -938,7 +939,6 @@
                 "examples": []
             }
         ],
-        "topic": "Работа с другими людьми или работа в одиночку — что лучше?",
         "sideA": "С людьми",
         "sideB": "В одиночку",
         "ideasA": [
@@ -956,6 +956,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -963,7 +964,6 @@
                 "examples": []
             }
         ],
-        "topic": "Короткий путь на работу или длинный — что более приемлемо?",
         "sideA": "Короткий",
         "sideB": "Длинный",
         "ideasA": [
@@ -981,6 +981,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -988,7 +989,6 @@
                 "examples": []
             }
         ],
-        "topic": "Жить одному или жить с партнером — что лучше?",
         "sideA": "Одному",
         "sideB": "С партнером",
         "ideasA": [
@@ -1006,6 +1006,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1013,7 +1014,6 @@
                 "examples": []
             }
         ],
-        "topic": "Большой город или маленький городок — где лучше жить взрослому человеку?",
         "sideA": "Большой город",
         "sideB": "Маленький городок",
         "ideasA": [
@@ -1031,6 +1031,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1038,7 +1039,6 @@
                 "examples": []
             }
         ],
-        "topic": "Готовить дома или есть вне дома — что лучше для повседневной жизни?",
         "sideA": "Дома",
         "sideB": "Вне дома",
         "ideasA": [
@@ -1056,6 +1056,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1063,7 +1064,6 @@
                 "examples": []
             }
         ],
-        "topic": "Иметь детей или не иметь — какая жизнь лучше?",
         "sideA": "С детьми",
         "sideB": "Без детей",
         "ideasA": [
@@ -1081,6 +1081,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1088,7 +1089,6 @@
                 "examples": []
             }
         ],
-        "topic": "Снимать квартиру или покупать дом — что лучше для молодых людей?",
         "sideA": "Снимать",
         "sideB": "Покупать",
         "ideasA": [
@@ -1106,6 +1106,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "body",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1113,7 +1114,6 @@
                 "examples": []
             }
         ],
-        "topic": "Физкультура каждый день или отдых — что лучше для здоровья?",
         "sideA": "Упражнения",
         "sideB": "Отдых",
         "ideasA": [
@@ -1131,6 +1131,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "body",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1138,7 +1139,6 @@
                 "examples": []
             }
         ],
-        "topic": "Идти к врачу или ждать — что лучше, когда вы чувствуете себя больным?",
         "sideA": "Врач",
         "sideB": "Ждать",
         "ideasA": [
@@ -1156,6 +1156,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "body",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1163,7 +1164,6 @@
                 "examples": []
             }
         ],
-        "topic": "Спать по восемь часов или меньше — что более реально для взрослых?",
         "sideA": "8 часов",
         "sideB": "Меньше",
         "ideasA": [
@@ -1181,6 +1181,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "body",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1188,7 +1189,6 @@
                 "examples": []
             }
         ],
-        "topic": "Ходить на работу пешком или ездить на машине — что лучше для здоровья?",
         "sideA": "Пешком",
         "sideB": "Машина",
         "ideasA": [
@@ -1206,6 +1206,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1213,7 +1214,6 @@
                 "examples": []
             }
         ],
-        "topic": "Онлайн-покупки или покупки в магазине — что лучше?",
         "sideA": "Онлайн",
         "sideB": "Магазин",
         "ideasA": [
@@ -1231,6 +1231,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1238,7 +1239,6 @@
                 "examples": []
             }
         ],
-        "topic": "Копить на будущее или наслаждаться деньгами сейчас — что мудрее?",
         "sideA": "Копить",
         "sideB": "Наслаждаться сейчас",
         "ideasA": [
@@ -1256,6 +1256,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1263,7 +1264,6 @@
                 "examples": []
             }
         ],
-        "topic": "Дорогие вещи или дешевые — что выгоднее?",
         "sideA": "Дорогие",
         "sideB": "Дешевые",
         "ideasA": [
@@ -1281,6 +1281,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1288,7 +1289,6 @@
                 "examples": []
             }
         ],
-        "topic": "Покупка нового или покупка подержанного — что лучше?",
         "sideA": "Новое",
         "sideB": "Подержанное",
         "ideasA": [
@@ -1306,6 +1306,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1313,7 +1314,6 @@
                 "examples": []
             }
         ],
-        "topic": "Смотреть телевизор дома или гулять — какой вечер лучше?",
         "sideA": "ТВ",
         "sideB": "Гулять",
         "ideasA": [
@@ -1331,6 +1331,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1338,7 +1339,6 @@
                 "examples": []
             }
         ],
-        "topic": "Отпуск с семьей или отпуск с друзьями — что лучше?",
         "sideA": "С семьей",
         "sideB": "С друзьями",
         "ideasA": [
@@ -1356,6 +1356,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1363,7 +1364,6 @@
                 "examples": []
             }
         ],
-        "topic": "Оставаться в своей стране или путешествовать за границу — какой отдых лучше?",
         "sideA": "Своя страна",
         "sideB": "За границу",
         "ideasA": [
@@ -1381,6 +1381,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1388,7 +1389,6 @@
                 "examples": []
             }
         ],
-        "topic": "Спорт или чтение — какое хобби лучше для взрослых?",
         "sideA": "Спорт",
         "sideB": "Чтение",
         "ideasA": [
@@ -1406,6 +1406,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1413,7 +1414,6 @@
                 "examples": []
             }
         ],
-        "topic": "Часто видеться с друзьями или проводить время в одиночестве — что важнее?",
         "sideA": "Друзья",
         "sideB": "Одиночество",
         "ideasA": [
@@ -1431,6 +1431,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1438,7 +1439,6 @@
                 "examples": []
             }
         ],
-        "topic": "Отвечать на электронные письма сразу или оставлять их на потом — что более профессионально?",
         "sideA": "Сразу",
         "sideB": "Потом",
         "ideasA": [
@@ -1456,6 +1456,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1463,7 +1464,6 @@
                 "examples": []
             }
         ],
-        "topic": "Мыть посуду сразу или оставить до завтра — что лучше?",
         "sideA": "Сразу",
         "sideB": "До завтра",
         "ideasA": [
@@ -1481,6 +1481,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1488,7 +1489,6 @@
                 "examples": []
             }
         ],
-        "topic": "Всегда приходить заранее или всегда опаздывать на пять минут — что хуже на работе?",
         "sideA": "Заранее",
         "sideB": "Опоздание",
         "ideasA": [
@@ -1506,6 +1506,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1513,7 +1514,6 @@
                 "examples": []
             }
         ],
-        "topic": "Очень организованный стол или беспорядок на столе — какой человек более продуктивен?",
         "sideA": "Организованный",
         "sideB": "Беспорядок",
         "ideasA": [
@@ -1531,6 +1531,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1538,7 +1539,6 @@
                 "examples": []
             }
         ],
-        "topic": "Разговоры о работе за ужином или никаких разговоров о работе — какое правило лучше?",
         "sideA": "О работе",
         "sideB": "Без работы",
         "ideasA": [
@@ -1556,6 +1556,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1563,7 +1564,6 @@
                 "examples": []
             }
         ],
-        "topic": "Жить с семьей против одного — что лучше?",
         "sideA": "С семьей",
         "sideB": "Один",
         "ideasA": [
@@ -1581,6 +1581,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1588,7 +1589,6 @@
                 "examples": []
             }
         ],
-        "topic": "Иметь брата против сестры — что лучше?",
         "sideA": "Брат",
         "sideB": "Сестра",
         "ideasA": [
@@ -1606,6 +1606,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1613,7 +1614,6 @@
                 "examples": []
             }
         ],
-        "topic": "Большая против маленькой семьи — какая лучше?",
         "sideA": "Большая",
         "sideB": "Маленькая",
         "ideasA": [
@@ -1631,6 +1631,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1638,7 +1639,6 @@
                 "examples": []
             }
         ],
-        "topic": "Старший против младшего ребенка — что лучше?",
         "sideA": "Старший",
         "sideB": "Младший",
         "ideasA": [
@@ -1656,6 +1656,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1663,7 +1664,6 @@
                 "examples": []
             }
         ],
-        "topic": "Утренняя против дневной школы — что лучше?",
         "sideA": "Утро",
         "sideB": "День",
         "ideasA": [
@@ -1681,6 +1681,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1688,7 +1689,6 @@
                 "examples": []
             }
         ],
-        "topic": "Чтение против математики — что веселее?",
         "sideA": "Чтение",
         "sideB": "Математика",
         "ideasA": [
@@ -1706,6 +1706,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1713,7 +1714,6 @@
                 "examples": []
             }
         ],
-        "topic": "Школа против обучения дома — что лучше?",
         "sideA": "Школа",
         "sideB": "Дом",
         "ideasA": [
@@ -1731,6 +1731,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1738,7 +1739,6 @@
                 "examples": []
             }
         ],
-        "topic": "Домашка против ее отсутствия — что больше помогает?",
         "sideA": "Домашка",
         "sideB": "Нет",
         "ideasA": [
@@ -1756,6 +1756,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1763,7 +1764,6 @@
                 "examples": []
             }
         ],
-        "topic": "Один против работы в паре — что лучше?",
         "sideA": "Один",
         "sideB": "Пара",
         "ideasA": [
@@ -1781,6 +1781,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1788,7 +1789,6 @@
                 "examples": []
             }
         ],
-        "topic": "Бумага против компьютера — что лучше?",
         "sideA": "Бумага",
         "sideB": "Компьютер",
         "ideasA": [
@@ -1806,6 +1806,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1813,7 +1814,6 @@
                 "examples": []
             }
         ],
-        "topic": "Завтрак против ужина — какой прием пищи важнее?",
         "sideA": "Завтрак",
         "sideB": "Ужин",
         "ideasA": [
@@ -1831,6 +1831,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1838,7 +1839,6 @@
                 "examples": []
             }
         ],
-        "topic": "Горячая против холодной еды — что лучше?",
         "sideA": "Горячая",
         "sideB": "Холодная",
         "ideasA": [
@@ -1856,6 +1856,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1863,7 +1864,6 @@
                 "examples": []
             }
         ],
-        "topic": "Дом против ресторана — что лучше?",
         "sideA": "Дом",
         "sideB": "Ресторан",
         "ideasA": [
@@ -1881,6 +1881,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1888,7 +1889,6 @@
                 "examples": []
             }
         ],
-        "topic": "Сладкое против соленого — что лучше?",
         "sideA": "Сладкое",
         "sideB": "Соленое",
         "ideasA": [
@@ -1906,6 +1906,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1913,7 +1914,6 @@
                 "examples": []
             }
         ],
-        "topic": "Готовить против покупать еду — что приятнее?",
         "sideA": "Готовить",
         "sideB": "Покупать",
         "ideasA": [
@@ -1931,6 +1931,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1938,7 +1939,6 @@
                 "examples": []
             }
         ],
-        "topic": "Рано против поздно вставать — что лучше?",
         "sideA": "Рано",
         "sideB": "Поздно",
         "ideasA": [
@@ -1956,6 +1956,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1963,7 +1964,6 @@
                 "examples": []
             }
         ],
-        "topic": "Утро против вечера — какое время суток приятнее?",
         "sideA": "Утро",
         "sideB": "Вечер",
         "ideasA": [
@@ -1981,6 +1981,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -1988,7 +1989,6 @@
                 "examples": []
             }
         ],
-        "topic": "Будни против выходных — что лучше?",
         "sideA": "Будни",
         "sideB": "Выходные",
         "ideasA": [
@@ -2006,6 +2006,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "environment",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2013,7 +2014,6 @@
                 "examples": []
             }
         ],
-        "topic": "Лето против зимы — какое время года лучше?",
         "sideA": "Лето",
         "sideB": "Зима",
         "ideasA": [
@@ -2031,6 +2031,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2038,7 +2039,6 @@
                 "examples": []
             }
         ],
-        "topic": "Рано против поздно ложиться — что здоровее?",
         "sideA": "Рано",
         "sideB": "Поздно",
         "ideasA": [
@@ -2056,6 +2056,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2063,7 +2064,6 @@
                 "examples": []
             }
         ],
-        "topic": "Дом против квартиры — что лучше?",
         "sideA": "Дом",
         "sideB": "Квартира",
         "ideasA": [
@@ -2081,6 +2081,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2088,7 +2089,6 @@
                 "examples": []
             }
         ],
-        "topic": "Город против деревни — где лучше жить?",
         "sideA": "Город",
         "sideB": "Деревня",
         "ideasA": [
@@ -2106,6 +2106,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2113,7 +2114,6 @@
                 "examples": []
             }
         ],
-        "topic": "Спальня против гостиной — какая комната вам больше нравится?",
         "sideA": "Спальня",
         "sideB": "Гостиная",
         "ideasA": [
@@ -2131,6 +2131,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2138,7 +2139,6 @@
                 "examples": []
             }
         ],
-        "topic": "Игры дома против улицы — какие веселее?",
         "sideA": "Дома",
         "sideB": "Улица",
         "ideasA": [
@@ -2156,6 +2156,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2163,7 +2164,6 @@
                 "examples": []
             }
         ],
-        "topic": "ТВ против книги — что лучше?",
         "sideA": "ТВ",
         "sideB": "Книга",
         "ideasA": [
@@ -2181,6 +2181,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2188,7 +2189,6 @@
                 "examples": []
             }
         ],
-        "topic": "Спорт против видеоигр — что веселее?",
         "sideA": "Спорт",
         "sideB": "Видеоигры",
         "ideasA": [
@@ -2206,6 +2206,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2213,7 +2214,6 @@
                 "examples": []
             }
         ],
-        "topic": "Рисование против пения — какое хобби лучше?",
         "sideA": "Рисование",
         "sideB": "Пение",
         "ideasA": [
@@ -2231,6 +2231,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2238,7 +2239,6 @@
                 "examples": []
             }
         ],
-        "topic": "Играть одному против друзей — что веселее?",
         "sideA": "Один",
         "sideB": "Друзья",
         "ideasA": [
@@ -2256,6 +2256,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2263,7 +2264,6 @@
                 "examples": []
             }
         ],
-        "topic": "Плавание против бега — что лучше?",
         "sideA": "Плавание",
         "sideB": "Бег",
         "ideasA": [
@@ -2281,6 +2281,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2288,7 +2289,6 @@
                 "examples": []
             }
         ],
-        "topic": "Музыка против спорта — какое хобби лучше?",
         "sideA": "Музыка",
         "sideB": "Спорт",
         "ideasA": [
@@ -2306,6 +2306,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "animals",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2313,7 +2314,6 @@
                 "examples": []
             }
         ],
-        "topic": "Домашние против диких животных — кто интереснее?",
         "sideA": "Домашние",
         "sideB": "Дикие",
         "ideasA": [
@@ -2331,6 +2331,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "environment",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2338,7 +2339,6 @@
                 "examples": []
             }
         ],
-        "topic": "Дождь против солнца — что лучше?",
         "sideA": "Дождь",
         "sideB": "Солнце",
         "ideasA": [
@@ -2356,6 +2356,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2363,7 +2364,6 @@
                 "examples": []
             }
         ],
-        "topic": "Море против гор — что лучше для отпуска?",
         "sideA": "Море",
         "sideB": "Горы",
         "ideasA": [
@@ -2381,6 +2381,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "environment",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2388,7 +2389,6 @@
                 "examples": []
             }
         ],
-        "topic": "Цветы против деревьев — что красивее?",
         "sideA": "Цветы",
         "sideB": "Деревья",
         "ideasA": [
@@ -2406,6 +2406,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2413,7 +2414,6 @@
                 "examples": []
             }
         ],
-        "topic": "Машина против автобуса — что лучше?",
         "sideA": "Машина",
         "sideB": "Автобус",
         "ideasA": [
@@ -2431,6 +2431,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2438,7 +2439,6 @@
                 "examples": []
             }
         ],
-        "topic": "Пешком против велосипеда — как лучше передвигаться?",
         "sideA": "Пешком",
         "sideB": "Велосипед",
         "ideasA": [
@@ -2456,6 +2456,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2463,7 +2464,6 @@
                 "examples": []
             }
         ],
-        "topic": "Короткий против долгого отпуска — что лучше?",
         "sideA": "Короткий",
         "sideB": "Долгий",
         "ideasA": [
@@ -2481,6 +2481,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2488,7 +2489,6 @@
                 "examples": []
             }
         ],
-        "topic": "Один против поездки с семьей — что веселее?",
         "sideA": "Один",
         "sideB": "Семья",
         "ideasA": [
@@ -2506,6 +2506,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2513,7 +2514,6 @@
                 "examples": []
             }
         ],
-        "topic": "Онлайн-шопинг против покупок в магазине",
         "sideA": "Онлайн",
         "sideB": "Лично",
         "ideasA": [
@@ -2531,6 +2531,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2538,7 +2539,6 @@
                 "examples": []
             }
         ],
-        "topic": "Бумажные книги против электронных",
         "sideA": "Бумажные",
         "sideB": "Электронные",
         "ideasA": [
@@ -2556,6 +2556,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2563,7 +2564,6 @@
                 "examples": []
             }
         ],
-        "topic": "Учиться утром или учиться вечером — когда лучше?",
         "sideA": "Утром",
         "sideB": "Вечером",
         "ideasA": [
@@ -2581,6 +2581,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2588,7 +2589,6 @@
                 "examples": []
             }
         ],
-        "topic": "Строгие учителя или добрые учителя — кто больше помогает ученикам?",
         "sideA": "Строгие",
         "sideB": "Добрые",
         "ideasA": [
@@ -2606,6 +2606,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2613,7 +2614,6 @@
                 "examples": []
             }
         ],
-        "topic": "Учиться по учебнику или учиться по видео — что эффективнее?",
         "sideA": "Учебник",
         "sideB": "Видео",
         "ideasA": [
@@ -2631,6 +2631,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2638,7 +2639,6 @@
                 "examples": []
             }
         ],
-        "topic": "Короткие уроки или длинные уроки — какие помогают учиться лучше?",
         "sideA": "Короткие",
         "sideB": "Длинные",
         "ideasA": [
@@ -2656,6 +2656,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2663,7 +2664,6 @@
                 "examples": []
             }
         ],
-        "topic": "Групповые проекты или индивидуальные задания — что лучше?",
         "sideA": "Группа",
         "sideB": "Индивидуально",
         "ideasA": [
@@ -2681,6 +2681,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2688,7 +2689,6 @@
                 "examples": []
             }
         ],
-        "topic": "Школьная форма или повседневная одежда в школе — что лучше?",
         "sideA": "Форма",
         "sideB": "Повседневная",
         "ideasA": [
@@ -2706,6 +2706,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2713,7 +2714,6 @@
                 "examples": []
             }
         ],
-        "topic": "Домашняя еда или фастфуд — что лучше?",
         "sideA": "Домашняя",
         "sideB": "Фастфуд",
         "ideasA": [
@@ -2731,6 +2731,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2738,7 +2739,6 @@
                 "examples": []
             }
         ],
-        "topic": "Три больших приема пищи или много маленьких перекусов — что здоровее?",
         "sideA": "Три раза",
         "sideB": "Перекусы",
         "ideasA": [
@@ -2756,6 +2756,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2763,7 +2764,6 @@
                 "examples": []
             }
         ],
-        "topic": "Вегетарианская еда или мясо — какая диета лучше?",
         "sideA": "Вегетарианская",
         "sideB": "Мясо",
         "ideasA": [
@@ -2781,6 +2781,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2788,7 +2789,6 @@
                 "examples": []
             }
         ],
-        "topic": "Пить чай или пить кофе — что лучше?",
         "sideA": "Чай",
         "sideB": "Кофе",
         "ideasA": [
@@ -2806,6 +2806,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2813,7 +2814,6 @@
                 "examples": []
             }
         ],
-        "topic": "Есть в одиночестве или есть с другими — что лучше?",
         "sideA": "Один",
         "sideB": "С другими",
         "ideasA": [
@@ -2831,6 +2831,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2838,7 +2839,6 @@
                 "examples": []
             }
         ],
-        "topic": "Заниматься командным спортом или индивидуальным — что лучше?",
         "sideA": "Командный",
         "sideB": "Индивидуальный",
         "ideasA": [
@@ -2856,6 +2856,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2863,7 +2864,6 @@
                 "examples": []
             }
         ],
-        "topic": "Проводить свободное время дома или на улице — что лучше?",
         "sideA": "Дома",
         "sideB": "На улице",
         "ideasA": [
@@ -2881,6 +2881,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2888,7 +2889,6 @@
                 "examples": []
             }
         ],
-        "topic": "Кино или театр — куда лучше сходить вечером?",
         "sideA": "Кино",
         "sideB": "Театр",
         "ideasA": [
@@ -2906,6 +2906,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2913,7 +2914,6 @@
                 "examples": []
             }
         ],
-        "topic": "Слушать музыку или играть на инструменте — что приятнее?",
         "sideA": "Слушать",
         "sideB": "Играть",
         "ideasA": [
@@ -2931,6 +2931,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2938,7 +2939,6 @@
                 "examples": []
             }
         ],
-        "topic": "Видеоигры или настольные игры — что веселее?",
         "sideA": "Видеоигры",
         "sideB": "Настольные",
         "ideasA": [
@@ -2956,6 +2956,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2963,7 +2964,6 @@
                 "examples": []
             }
         ],
-        "topic": "Ходить по магазинам или оставаться дома — как лучше провести выходные?",
         "sideA": "Магазины",
         "sideB": "Дома",
         "ideasA": [
@@ -2981,6 +2981,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -2988,7 +2989,6 @@
                 "examples": []
             }
         ],
-        "topic": "Мобильный телефон или компьютер — что полезнее в повседневной жизни?",
         "sideA": "Телефон",
         "sideB": "Компьютер",
         "ideasA": [
@@ -3006,6 +3006,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3013,7 +3014,6 @@
                 "examples": []
             }
         ],
-        "topic": "Отправить сообщение или позвонить по телефону — что лучше?",
         "sideA": "Сообщение",
         "sideB": "Звонок",
         "ideasA": [
@@ -3031,6 +3031,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3038,7 +3039,6 @@
                 "examples": []
             }
         ],
-        "topic": "Электронная книга или бумажная — что лучше читать?",
         "sideA": "Э-книга",
         "sideB": "Бумажная",
         "ideasA": [
@@ -3056,6 +3056,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3063,7 +3064,6 @@
                 "examples": []
             }
         ],
-        "topic": "Фотографировать на телефон или на камеру — что дает лучший результат?",
         "sideA": "Телефон",
         "sideB": "Камера",
         "ideasA": [
@@ -3081,6 +3081,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3088,7 +3089,6 @@
                 "examples": []
             }
         ],
-        "topic": "Отпуск на пляже или отпуск в горах — что лучше?",
         "sideA": "Пляж",
         "sideB": "Горы",
         "ideasA": [
@@ -3106,6 +3106,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3113,7 +3114,6 @@
                 "examples": []
             }
         ],
-        "topic": "Путешествовать на поезде или на самолете — что лучше?",
         "sideA": "Поезд",
         "sideB": "Самолет",
         "ideasA": [
@@ -3131,6 +3131,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3138,7 +3139,6 @@
                 "examples": []
             }
         ],
-        "topic": "Посетить знаменитый город или маленькую деревню — что интереснее?",
         "sideA": "Город",
         "sideB": "Деревня",
         "ideasA": [
@@ -3156,6 +3156,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3163,7 +3164,6 @@
                 "examples": []
             }
         ],
-        "topic": "Остановиться в отеле или в местной семье — что лучше?",
         "sideA": "Отель",
         "sideB": "В семье",
         "ideasA": [
@@ -3181,6 +3181,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3188,7 +3189,6 @@
                 "examples": []
             }
         ],
-        "topic": "Путешествовать за границу или изучать свою страну — что более стоящее?",
         "sideA": "За границу",
         "sideB": "Своя страна",
         "ideasA": [
@@ -3206,6 +3206,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3213,7 +3214,6 @@
                 "examples": []
             }
         ],
-        "topic": "Иметь много друзей или несколько близких друзей — что лучше?",
         "sideA": "Много друзей",
         "sideB": "Близкие друзья",
         "ideasA": [
@@ -3231,6 +3231,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3238,7 +3239,6 @@
                 "examples": []
             }
         ],
-        "topic": "Встречаться с друзьями лично или общаться онлайн — что приносит больше удовольствия?",
         "sideA": "Лично",
         "sideB": "Онлайн",
         "ideasA": [
@@ -3256,6 +3256,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3263,7 +3264,6 @@
                 "examples": []
             }
         ],
-        "topic": "Жить с родителями или в студенческой квартире — что лучше для молодежи?",
         "sideA": "С родителями",
         "sideB": "Студ. квартира",
         "ideasA": [
@@ -3281,6 +3281,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3288,7 +3289,6 @@
                 "examples": []
             }
         ],
-        "topic": "Праздновать день рождения дома или куда-то сходить — что приятнее?",
         "sideA": "Дома",
         "sideB": "Вне дома",
         "ideasA": [
@@ -3306,6 +3306,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3313,7 +3314,6 @@
                 "examples": []
             }
         ],
-        "topic": "Копить деньги или тратить их — что мудрее?",
         "sideA": "Копить",
         "sideB": "Тратить",
         "ideasA": [
@@ -3331,6 +3331,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3338,7 +3339,6 @@
                 "examples": []
             }
         ],
-        "topic": "Работать неполный рабочий день во время учебы или сосредоточиться только на школе — что лучше?",
         "sideA": "Подработка",
         "sideB": "Только учеба",
         "ideasA": [
@@ -3356,6 +3356,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3363,7 +3364,6 @@
                 "examples": []
             }
         ],
-        "topic": "Зарабатывать много денег или иметь свободное время — что важнее?",
         "sideA": "Деньги",
         "sideB": "Свободное время",
         "ideasA": [
@@ -3381,6 +3381,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3388,7 +3389,6 @@
                 "examples": []
             }
         ],
-        "topic": "Жить с бабушкой и дедушкой против жизни без них — что приятнее?",
         "sideA": "С бабушкой и дедушкой",
         "sideB": "Без них",
         "ideasA": [
@@ -3406,6 +3406,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3413,7 +3414,6 @@
                 "examples": []
             }
         ],
-        "topic": "Мамина еда против папиной — что лучше?",
         "sideA": "Мамина",
         "sideB": "Папина",
         "ideasA": [
@@ -3431,6 +3431,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3438,7 +3439,6 @@
                 "examples": []
             }
         ],
-        "topic": "Математика против рисования — какой предмет веселее?",
         "sideA": "Математика",
         "sideB": "Рисование",
         "ideasA": [
@@ -3456,6 +3456,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3463,7 +3464,6 @@
                 "examples": []
             }
         ],
-        "topic": "Писать на бумаге против печати на планшете — что лучше?",
         "sideA": "Бумага",
         "sideB": "Планшет",
         "ideasA": [
@@ -3481,6 +3481,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3488,7 +3489,6 @@
                 "examples": []
             }
         ],
-        "topic": "Пицца против пасты — что вкуснее?",
         "sideA": "Пицца",
         "sideB": "Паста",
         "ideasA": [
@@ -3506,6 +3506,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3513,7 +3514,6 @@
                 "examples": []
             }
         ],
-        "topic": "Мороженое против торта — какой десерт лучше?",
         "sideA": "Мороженое",
         "sideB": "Торт",
         "ideasA": [
@@ -3531,6 +3531,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "environment",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3538,7 +3539,6 @@
                 "examples": []
             }
         ],
-        "topic": "Короткие дни против длинных — что лучше?",
         "sideA": "Короткие дни",
         "sideB": "Длинные",
         "ideasA": [
@@ -3556,6 +3556,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3563,7 +3564,6 @@
                 "examples": []
             }
         ],
-        "topic": "День в парке против дня на пляже — что лучше?",
         "sideA": "Парк",
         "sideB": "Пляж",
         "ideasA": [
@@ -3581,6 +3581,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3588,7 +3589,6 @@
                 "examples": []
             }
         ],
-        "topic": "Самолет против поезда — что веселее?",
         "sideA": "Самолет",
         "sideB": "Поезд",
         "ideasA": [
@@ -3606,6 +3606,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3613,7 +3614,6 @@
                 "examples": []
             }
         ],
-        "topic": "Душ утром против душа вечером — что лучше?",
         "sideA": "Утром",
         "sideB": "Вечером",
         "ideasA": [
@@ -3631,6 +3631,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "animals",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3638,7 +3639,6 @@
                 "examples": []
             }
         ],
-        "topic": "Кошки, сбрасывающие вещи со столов, против собак, грызущих обувь — какой питомец больше раздражает?",
         "sideA": "Кошки",
         "sideB": "Собаки",
         "ideasA": [
@@ -3656,6 +3656,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3663,7 +3664,6 @@
                 "examples": []
             }
         ],
-        "topic": "Есть пиццу вилкой против того, чтобы есть ее руками — как правильно?",
         "sideA": "Вилкой",
         "sideB": "Руками",
         "ideasA": [
@@ -3681,6 +3681,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3688,7 +3689,6 @@
                 "examples": []
             }
         ],
-        "topic": "Спать в носках против того, чтобы спать без носков — что лучше?",
         "sideA": "В носках",
         "sideB": "Без носков",
         "ideasA": [
@@ -3706,6 +3706,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3713,7 +3714,6 @@
                 "examples": []
             }
         ],
-        "topic": "Замок из песка против снеговика — что веселее строить?",
         "sideA": "Замок из песка",
         "sideB": "Снеговик",
         "ideasA": [
@@ -3731,6 +3731,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3738,7 +3739,6 @@
                 "examples": []
             }
         ],
-        "topic": "Много экзаменов против очень малого количества — что справедливее?",
         "sideA": "Много экзаменов",
         "sideB": "Мало экзаменов",
         "ideasA": [
@@ -3756,6 +3756,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3763,7 +3764,6 @@
                 "examples": []
             }
         ],
-        "topic": "Начало школы в 7 лет против начала в 5 лет — что лучше для детей?",
         "sideA": "В 7 лет",
         "sideB": "В 5 лет",
         "ideasA": [
@@ -3781,6 +3781,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "body",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3788,7 +3789,6 @@
                 "examples": []
             }
         ],
-        "topic": "Есть медленно против того, чтобы есть быстро — что лучше для вас?",
         "sideA": "Медленно",
         "sideB": "Быстро",
         "ideasA": [
@@ -3806,6 +3806,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3813,7 +3814,6 @@
                 "examples": []
             }
         ],
-        "topic": "Готовить дома против заказа еды онлайн — что лучше?",
         "sideA": "Готовить дома",
         "sideB": "Заказывать онлайн",
         "ideasA": [
@@ -3831,6 +3831,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3838,7 +3839,6 @@
                 "examples": []
             }
         ],
-        "topic": "Готовка еды против выпечки — что веселее как хобби?",
         "sideA": "Готовка",
         "sideB": "Выпечка",
         "ideasA": [
@@ -3856,6 +3856,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "body",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3863,7 +3864,6 @@
                 "examples": []
             }
         ],
-        "topic": "Ходить в спортзал против тренировок на улице — что лучше?",
         "sideA": "Спортзал",
         "sideB": "Улица",
         "ideasA": [
@@ -3881,6 +3881,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3888,7 +3889,6 @@
                 "examples": []
             }
         ],
-        "topic": "Фото в телефоне против распечатанных фото — что лучше?",
         "sideA": "В телефоне",
         "sideB": "Распечатанные",
         "ideasA": [
@@ -3906,6 +3906,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3913,7 +3914,6 @@
                 "examples": []
             }
         ],
-        "topic": "Смарт-ТВ против компьютерного монитора — на чем лучше смотреть фильмы?",
         "sideA": "Смарт-ТВ",
         "sideB": "Компьютер",
         "ideasA": [
@@ -3931,6 +3931,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3938,7 +3939,6 @@
                 "examples": []
             }
         ],
-        "topic": "Жаркая страна против холодной страны — где лучше отдыхать?",
         "sideA": "Жаркая",
         "sideB": "Холодная",
         "ideasA": [
@@ -3956,6 +3956,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3963,7 +3964,6 @@
                 "examples": []
             }
         ],
-        "topic": "Дарить подарки против того, чтобы их получать — что лучше?",
         "sideA": "Дарить",
         "sideB": "Получать",
         "ideasA": [
@@ -3981,6 +3981,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -3988,7 +3989,6 @@
                 "examples": []
             }
         ],
-        "topic": "Работа в помещении против работы на улице — что лучше?",
         "sideA": "В помещении",
         "sideB": "На улице",
         "ideasA": [
@@ -4006,6 +4006,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -4013,7 +4014,6 @@
                 "examples": []
             }
         ],
-        "topic": "Ананас в пицце против отсутствия ананаса — как правильно?",
         "sideA": "Ананас",
         "sideB": "Без ананаса",
         "ideasA": [
@@ -4031,6 +4031,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -4038,7 +4039,6 @@
                 "examples": []
             }
         ],
-        "topic": "Наливать сначала молоко против того, чтобы наливать сначала чай — как лучше?",
         "sideA": "Сначала молоко",
         "sideB": "Сначала чай",
         "ideasA": [
@@ -4056,6 +4056,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -4063,7 +4064,6 @@
                 "examples": []
             }
         ],
-        "topic": "Понедельник против пятницы — какой день на самом деле хуже?",
         "sideA": "Понедельник",
         "sideB": "Пятница",
         "ideasA": [
@@ -4081,6 +4081,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -4088,7 +4089,6 @@
                 "examples": []
             }
         ],
-        "topic": "Проснуться за пять минут до будильника против сна до самого будильника — что больше раздражает?",
         "sideA": "До будильника",
         "sideB": "До конца",
         "ideasA": [
@@ -4106,6 +4106,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "animals",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -4113,7 +4114,6 @@
                 "examples": []
             }
         ],
-        "topic": "Кошки против собак — кто из них на самом деле хозяин в доме?",
         "sideA": "Кошки",
         "sideB": "Собаки",
         "ideasA": [
@@ -4131,6 +4131,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "environment",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -4138,7 +4139,6 @@
                 "examples": []
             }
         ],
-        "topic": "Когда слишком жарко против того, когда слишком холодно — что хуже?",
         "sideA": "Слишком жарко",
         "sideB": "Слишком холодно",
         "ideasA": [

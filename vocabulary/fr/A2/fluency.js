@@ -20,7 +20,9 @@
             "Qu'avez-vous fait là-bas ?",
             "Quel temps faisait-il ?",
             "Quel a été le meilleur moment ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_137",
@@ -42,7 +44,9 @@
             "Pourquoi l'aimez-vous ?",
             "Avec qui y allez-vous ?",
             "C'était quand la dernière fois que vous y êtes allé ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_138",
@@ -64,7 +68,9 @@
             "Appréciez-vous le trajet ?",
             "Est-ce cher ?",
             "Que faites-vous en chemin ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_139",
@@ -86,7 +92,9 @@
             "À quelle fréquence vous détendez-vous vraiment ?",
             "Avez-vous un endroit préféré pour vous détendre ?",
             "Est-ce facile de se détendre ou trouvez-vous cela difficile ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_140",
@@ -108,7 +116,9 @@
             "L'avez-vous aimé ?",
             "Qui jouait dedans ?",
             "Le recommanderiez-vous ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_141",
@@ -130,7 +140,9 @@
             "Voyageriez-vous quelque part ?",
             "Avec qui passeriez-vous du temps ?",
             "Que mangeriez-vous ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_142",
@@ -152,7 +164,9 @@
             "Pourquoi l'admirez-vous ?",
             "L'avez-vous déjà rencontrée ?",
             "Que pouvez-vous apprendre d'elle ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_143",
@@ -174,7 +188,9 @@
             "Avec qui iriez-vous ?",
             "Que feriez-vous là-bas ?",
             "Combien de temps resteriez-vous ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_144",
@@ -196,7 +212,9 @@
             "Pourriez-vous vivre sans pendant une semaine ?",
             "Est-ce qu'il vous aide ou vous distrait ?",
             "Le consultez-vous dès le matin ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_145",
@@ -218,7 +236,9 @@
             "Avec qui étiez-vous ?",
             "Que s'est-il passé exactement ?",
             "En riez-vous encore maintenant ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_146",
@@ -240,7 +260,9 @@
             "Le faites-vous seul ou avec d'autres ?",
             "Est-ce cher ?",
             "Qu'est-ce que vous aimez là-dedans ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_147",
@@ -262,7 +284,9 @@
             "Le temps affecte-t-il votre humeur ?",
             "Quel est le pire temps dont vous vous souvenez ?",
             "Que faites-vous les jours de pluie ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_148",
@@ -284,7 +308,9 @@
             "Qu'avez-vous fait ?",
             "Y avait-il une surprise ?",
             "Qu'est-ce qui l'a rendu spécial ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_149",
@@ -306,7 +332,9 @@
             "Qu'y a-t-il à faire ?",
             "Que changeriez-vous ?",
             "Le recommanderiez-vous à un ami ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_150",
@@ -328,7 +356,9 @@
             "Cuisinez-vous un grand repas ?",
             "Vous reposez-vous ou restez-vous occupé ?",
             "Le dimanche est-il votre jour préféré ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_151",
@@ -350,7 +380,9 @@
             "Quand est-ce que les gens le mangent ?",
             "Est-ce difficile à faire ?",
             "Le recommanderiez-vous à un étranger ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_152",
@@ -372,7 +404,9 @@
             "Était-ce cher ?",
             "En aviez-vous besoin ou en aviez-vous juste envie ?",
             "Êtes-vous content de l'achat ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_153",
@@ -394,7 +428,9 @@
             "Quand avez-vous commencé à l'utiliser ?",
             "La recommanderiez-vous ?",
             "Pourriez-vous vivre sans ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_154",
@@ -416,7 +452,9 @@
             "Avec qui étiez-vous ?",
             "Que s'est-il passé ?",
             "Pourquoi vous en souvenez-vous ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_155",
@@ -438,7 +476,9 @@
             "Avez-vous cuisiné ou mangé à l'extérieur ?",
             "Était-ce une journée typique au niveau alimentaire ?",
             "Quelle a été la meilleure chose que vous avez mangée ?"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     }
 ];
     const lang = "fr";

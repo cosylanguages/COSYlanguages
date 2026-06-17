@@ -4,7 +4,7 @@ const data = [
     {
         "word": "se brosser les dents",
         "level": "elementary",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🪥",
         "form": "verb",
         "group": "er",
@@ -22,12 +22,15 @@ const data = [
         "v3": "brossé les dents",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "se brosser les denant"
+        "v4": "se brosser les denant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_furniture_007"
     },
     {
         "word": "se doucher",
         "level": "elementary",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🚿",
         "form": "verb",
         "group": "er",
@@ -48,12 +51,15 @@ const data = [
         "v3": "douché",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "se douchant"
+        "v4": "se douchant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_furniture_008"
     },
     {
         "word": "sembler",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤔",
         "form": "verb",
         "group": "er",
@@ -70,12 +76,15 @@ const data = [
         ],
         "v3": "semblé",
         "auxiliary": "avoir",
-        "v4": "semblant"
+        "v4": "semblant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_people_042"
     },
     {
         "word": "devenir",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🦋",
         "form": "verb",
         "group": "ir",
@@ -91,12 +100,15 @@ const data = [
             }
         ],
         "v3": "devenu",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_people_043"
     },
     {
         "word": "croire",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🙏",
         "form": "verb",
         "group": "re",
@@ -112,12 +124,15 @@ const data = [
             }
         ],
         "v3": "cru",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_036"
     },
     {
         "word": "se passer",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "⚡",
         "form": "verb",
         "group": "er",
@@ -135,12 +150,15 @@ const data = [
         "v3": "passé",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "se passant"
+        "v4": "se passant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_037"
     },
     {
         "word": "inclure",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "➕",
         "form": "verb",
         "group": "re",
@@ -156,12 +174,15 @@ const data = [
             }
         ],
         "v3": "inclus",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_038"
     },
     {
         "word": "continuer",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "➡️",
         "form": "verb",
         "group": "er",
@@ -178,12 +199,15 @@ const data = [
         ],
         "v3": "continué",
         "auxiliary": "avoir",
-        "v4": "continuant"
+        "v4": "continuant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_039"
     },
     {
         "word": "régler",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "⚙️",
         "form": "verb",
         "group": "er",
@@ -200,12 +224,15 @@ const data = [
         ],
         "v3": "réglé",
         "auxiliary": "avoir",
-        "v4": "réglant"
+        "v4": "réglant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_040"
     },
     {
         "word": "mener",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "👑",
         "form": "verb",
         "group": "er",
@@ -222,12 +249,15 @@ const data = [
         ],
         "v3": "mené",
         "auxiliary": "avoir",
-        "v4": "menant"
+        "v4": "menant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_people_044"
     },
     {
         "word": "suivre",
         "level": "elementary",
-        "theme": "directions_navigation_A1",
+        "theme": "describing",
         "emoji": "👣",
         "form": "verb",
         "group": "re",
@@ -243,12 +273,15 @@ const data = [
             }
         ],
         "v3": "suivi",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_041"
     },
     {
         "word": "créer",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "✨",
         "form": "verb",
         "group": "er",
@@ -265,12 +298,15 @@ const data = [
         ],
         "v3": "créé",
         "auxiliary": "avoir",
-        "v4": "créant"
+        "v4": "créant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_social_167"
     },
     {
         "word": "permettre",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "✅",
         "form": "verb",
         "group": "re",
@@ -286,12 +322,15 @@ const data = [
             }
         ],
         "v3": "permis",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_people_045"
     },
     {
         "word": "grandir",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌱",
         "form": "verb",
         "group": "ir",
@@ -308,12 +347,15 @@ const data = [
         ],
         "v3": "grandi",
         "auxiliary": "avoir",
-        "v4": "grandissant"
+        "v4": "grandissant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_environment_008"
     },
     {
         "word": "offrir",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤲",
         "form": "verb",
         "group": "ir",
@@ -329,12 +371,15 @@ const data = [
             }
         ],
         "v3": "offert",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_people_046"
     },
     {
         "word": "considérer",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🤔",
         "form": "verb",
         "group": "er",
@@ -351,12 +396,15 @@ const data = [
         ],
         "v3": "considéré",
         "auxiliary": "avoir",
-        "v4": "considérant"
+        "v4": "considérant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_042"
     },
     {
         "word": "apparaître",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "👻",
         "form": "verb",
         "group": "re",
@@ -372,12 +420,15 @@ const data = [
             }
         ],
         "v3": "apparu",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_people_047"
     },
     {
         "word": "servir",
         "level": "elementary",
-        "theme": "restaurants_ordering_A2",
+        "theme": "food_drink",
         "emoji": "🍽️",
         "form": "verb",
         "group": "ir",
@@ -393,12 +444,15 @@ const data = [
             }
         ],
         "v3": "servi",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_food_drink_019"
     },
     {
         "word": "attendre",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💭",
         "form": "verb",
         "group": "re",
@@ -415,12 +469,15 @@ const data = [
         ],
         "v3": "attendu",
         "auxiliary": "avoir",
-        "v4": "attendant"
+        "v4": "attendant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_043"
     },
     {
         "word": "construire",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "describing",
         "emoji": "🏗️",
         "form": "verb",
         "group": "re",
@@ -436,12 +493,15 @@ const data = [
             }
         ],
         "v3": "construit",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_044"
     },
     {
         "word": "atteindre",
         "level": "elementary",
-        "theme": "booking_planning_a_trip_A2",
+        "theme": "travel",
         "emoji": "🏁",
         "form": "verb",
         "group": "re",
@@ -457,12 +517,15 @@ const data = [
             }
         ],
         "v3": "atteint",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_travel_008"
     },
     {
         "word": "tuer",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "⚔️",
         "form": "verb",
         "group": "er",
@@ -479,12 +542,15 @@ const data = [
         ],
         "v3": "tué",
         "auxiliary": "avoir",
-        "v4": "tuant"
+        "v4": "tuant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_psychology_001"
     },
     {
         "word": "rester",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "⏳",
         "form": "verb",
         "group": "er",
@@ -505,12 +571,15 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "restare"
-        }
+        },
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_045"
     },
     {
         "word": "suggérer",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💡",
         "form": "verb",
         "group": "er",
@@ -527,12 +596,15 @@ const data = [
         ],
         "v3": "suggéré",
         "auxiliary": "avoir",
-        "v4": "suggérant"
+        "v4": "suggérant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_046"
     },
     {
         "word": "lever",
         "level": "elementary",
-        "theme": "family_life_A1",
+        "theme": "describing",
         "emoji": "🙋",
         "form": "verb",
         "group": "er",
@@ -552,12 +624,15 @@ const data = [
         ],
         "v3": "levé",
         "auxiliary": "avoir",
-        "v4": "levant"
+        "v4": "levant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_047"
     },
     {
         "word": "exiger",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "📜",
         "form": "verb",
         "group": "er",
@@ -574,12 +649,15 @@ const data = [
         ],
         "v3": "exigé",
         "auxiliary": "avoir",
-        "v4": "exigant"
+        "v4": "exigant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_048"
     },
     {
         "word": "rapporter",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📋",
         "form": "verb",
         "group": "er",
@@ -599,12 +677,15 @@ const data = [
         ],
         "v3": "rapporté",
         "auxiliary": "avoir",
-        "v4": "rapportant"
+        "v4": "rapportant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_020"
     },
     {
         "word": "expliquer",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👨‍🏫",
         "form": "verb",
         "group": "er",
@@ -621,12 +702,15 @@ const data = [
         ],
         "v3": "expliqué",
         "auxiliary": "avoir",
-        "v4": "expliquant"
+        "v4": "expliquant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_021"
     },
     {
         "word": "développer",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "💻",
         "form": "verb",
         "group": "er",
@@ -643,12 +727,15 @@ const data = [
         ],
         "v3": "développé",
         "auxiliary": "avoir",
-        "v4": "développant"
+        "v4": "développant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_022"
     },
     {
         "word": "prendre sa retraite",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👴",
         "form": "verb",
         "group": "re",
@@ -667,12 +754,15 @@ const data = [
             }
         ],
         "v3": "pris sa retraite",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_023"
     },
     {
         "word": "avoir les moyens",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💰",
         "form": "verb",
         "group": "ir",
@@ -691,12 +781,15 @@ const data = [
             }
         ],
         "v3": "eu les moyens",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_numbers_015"
     },
     {
         "word": "recycler",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "♻️",
         "form": "verb",
         "group": "er",
@@ -716,12 +809,15 @@ const data = [
         ],
         "v3": "recyclé",
         "auxiliary": "avoir",
-        "v4": "recyclant"
+        "v4": "recyclant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_environment_009"
     },
     {
         "word": "frapper",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "🥊",
         "form": "verb",
         "group": "er",
@@ -738,12 +834,15 @@ const data = [
         ],
         "v3": "frappé",
         "auxiliary": "avoir",
-        "v4": "frappant"
+        "v4": "frappant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_social_168"
     },
     {
         "word": "produire",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏭",
         "form": "verb",
         "group": "re",
@@ -759,12 +858,15 @@ const data = [
             }
         ],
         "v3": "produit",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_024"
     },
     {
         "word": "faire face",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "👤",
         "form": "verb",
         "group": "re",
@@ -780,12 +882,15 @@ const data = [
             }
         ],
         "v3": "fait face",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_people_048"
     },
     {
         "word": "couvrir",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "describing",
         "emoji": "🧥",
         "form": "verb",
         "group": "ir",
@@ -801,12 +906,15 @@ const data = [
             }
         ],
         "v3": "couvert",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_049"
     },
     {
         "word": "décrire",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📝",
         "form": "verb",
         "group": "re",
@@ -822,12 +930,15 @@ const data = [
             }
         ],
         "v3": "décrit",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_025"
     },
     {
         "word": "attraper",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "🎣",
         "form": "verb",
         "group": "er",
@@ -844,12 +955,15 @@ const data = [
         ],
         "v3": "attrapé",
         "auxiliary": "avoir",
-        "v4": "attrapant"
+        "v4": "attrapant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_social_169"
     },
     {
         "word": "postuler",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "📝",
         "form": "verb",
         "group": "er",
@@ -866,12 +980,15 @@ const data = [
         ],
         "v3": "postulé",
         "auxiliary": "avoir",
-        "v4": "postulant"
+        "v4": "postulant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_026"
     },
     {
         "word": "embaucher",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "verb",
         "group": "er",
@@ -891,12 +1008,15 @@ const data = [
         ],
         "v3": "embauché",
         "auxiliary": "avoir",
-        "v4": "embauchant"
+        "v4": "embauchant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_027"
     },
     {
         "word": "promouvoir",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "verb",
         "group": "ir",
@@ -916,12 +1036,15 @@ const data = [
             }
         ],
         "v3": "promu",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_028"
     },
     {
         "word": "démissionner",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🚪",
         "form": "verb",
         "group": "er",
@@ -941,12 +1064,15 @@ const data = [
         ],
         "v3": "démissionné",
         "auxiliary": "avoir",
-        "v4": "démissionnant"
+        "v4": "démissionnant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_029"
     },
     {
         "word": "licencier",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "❌",
         "form": "verb",
         "group": "er",
@@ -966,12 +1092,15 @@ const data = [
         ],
         "v3": "licencié",
         "auxiliary": "avoir",
-        "v4": "licenciant"
+        "v4": "licenciant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_030"
     },
     {
         "word": "déléguer",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📋",
         "form": "verb",
         "group": "er",
@@ -988,12 +1117,15 @@ const data = [
         ],
         "v3": "délégué",
         "auxiliary": "avoir",
-        "v4": "déléguant"
+        "v4": "déléguant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_031"
     },
     {
         "word": "négocier",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "verb",
         "group": "er",
@@ -1010,12 +1142,15 @@ const data = [
         ],
         "v3": "négocié",
         "auxiliary": "avoir",
-        "v4": "négociant"
+        "v4": "négociant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_032"
     },
     {
         "word": "évaluer",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📊",
         "form": "verb",
         "group": "er",
@@ -1032,12 +1167,15 @@ const data = [
         ],
         "v3": "évalué",
         "auxiliary": "avoir",
-        "v4": "évaluant"
+        "v4": "évaluant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_033"
     },
     {
         "word": "collaborer",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👥",
         "form": "verb",
         "group": "er",
@@ -1054,12 +1192,15 @@ const data = [
         ],
         "v3": "collaboré",
         "auxiliary": "avoir",
-        "v4": "collaborant"
+        "v4": "collaborant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_034"
     },
     {
         "word": "planifier",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📅",
         "form": "verb",
         "group": "er",
@@ -1076,12 +1217,15 @@ const data = [
         ],
         "v3": "planifié",
         "auxiliary": "avoir",
-        "v4": "planifiant"
+        "v4": "planifiant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_035"
     },
     {
         "word": "investir",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📈",
         "form": "verb",
         "group": "ir",
@@ -1098,12 +1242,15 @@ const data = [
         ],
         "v3": "investi",
         "auxiliary": "avoir",
-        "v4": "investissant"
+        "v4": "investissant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_numbers_016"
     },
     {
         "word": "emprunter",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💸",
         "form": "verb",
         "group": "er",
@@ -1120,12 +1267,15 @@ const data = [
         ],
         "v3": "emprunté",
         "auxiliary": "avoir",
-        "v4": "empruntant"
+        "v4": "empruntant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_numbers_017"
     },
     {
         "word": "prêter",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "🤝",
         "form": "verb",
         "group": "er",
@@ -1142,12 +1292,15 @@ const data = [
         ],
         "v3": "prêté",
         "auxiliary": "avoir",
-        "v4": "prêtant"
+        "v4": "prêtant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_numbers_018"
     },
     {
         "word": "budgétiser",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📊",
         "form": "verb",
         "group": "er",
@@ -1164,12 +1317,15 @@ const data = [
         ],
         "v3": "budgétisé",
         "auxiliary": "avoir",
-        "v4": "budgétisant"
+        "v4": "budgétisant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_numbers_019"
     },
     {
         "word": "retirer",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "🏧",
         "form": "verb",
         "group": "er",
@@ -1186,12 +1342,15 @@ const data = [
         ],
         "v3": "retiré",
         "auxiliary": "avoir",
-        "v4": "retirant"
+        "v4": "retirant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_numbers_020"
     },
     {
         "word": "transférer",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "📲",
         "form": "verb",
         "group": "er",
@@ -1211,12 +1370,15 @@ const data = [
         ],
         "v3": "transféré",
         "auxiliary": "avoir",
-        "v4": "transférant"
+        "v4": "transférant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_numbers_021"
     },
     {
         "word": "facturer",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💳",
         "form": "verb",
         "group": "er",
@@ -1233,12 +1395,15 @@ const data = [
         ],
         "v3": "facturé",
         "auxiliary": "avoir",
-        "v4": "facturant"
+        "v4": "facturant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_numbers_022"
     },
     {
         "word": "réclamer",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📜",
         "form": "verb",
         "group": "er",
@@ -1255,12 +1420,15 @@ const data = [
         ],
         "v3": "réclamé",
         "auxiliary": "avoir",
-        "v4": "réclamant"
+        "v4": "réclamant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_numbers_023"
     },
     {
         "word": "se disputer",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🗣️",
         "form": "verb",
         "group": "er",
@@ -1278,12 +1446,15 @@ const data = [
         "v3": "disputé",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "se disputant"
+        "v4": "se disputant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_050"
     },
     {
         "word": "faire confiance",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "group": "re",
@@ -1299,12 +1470,15 @@ const data = [
             }
         ],
         "v3": "fait confiance",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_051"
     },
     {
         "word": "soutenir",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "group": "ir",
@@ -1320,12 +1494,15 @@ const data = [
             }
         ],
         "v3": "soutenu",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_052"
     },
     {
         "word": "ne pas être d'accord",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "👎",
         "form": "verb",
         "group": "er",
@@ -1341,12 +1518,15 @@ const data = [
             }
         ],
         "v3": "pas été d'accord",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_053"
     },
     {
         "word": "s'excuser",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🙏",
         "form": "verb",
         "group": "er",
@@ -1364,12 +1544,15 @@ const data = [
         "v3": "excusé",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "s'excusant"
+        "v4": "s'excusant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_054"
     },
     {
         "word": "pardonner",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "group": "er",
@@ -1386,12 +1569,15 @@ const data = [
         ],
         "v3": "pardonné",
         "auxiliary": "avoir",
-        "v4": "pardonnant"
+        "v4": "pardonnant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_055"
     },
     {
         "word": "faire un compromis",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "group": "re",
@@ -1411,12 +1597,15 @@ const data = [
             }
         ],
         "v3": "fait un compromis",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_056"
     },
     {
         "word": "diagnostiquer",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🩺",
         "form": "verb",
         "group": "er",
@@ -1433,12 +1622,15 @@ const data = [
         ],
         "v3": "diagnostiqué",
         "auxiliary": "avoir",
-        "v4": "diagnostiquant"
+        "v4": "diagnostiquant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_food_drink_020"
     },
     {
         "word": "traiter",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🩹",
         "form": "verb",
         "group": "er",
@@ -1455,12 +1647,15 @@ const data = [
         ],
         "v3": "traité",
         "auxiliary": "avoir",
-        "v4": "traitant"
+        "v4": "traitant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_food_drink_021"
     },
     {
         "word": "prévenir",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🛡️",
         "form": "verb",
         "group": "ir",
@@ -1476,12 +1671,15 @@ const data = [
             }
         ],
         "v3": "prévenu",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_food_drink_022"
     },
     {
         "word": "souffrir",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🤕",
         "form": "verb",
         "group": "ir",
@@ -1497,12 +1695,15 @@ const data = [
             }
         ],
         "v3": "souffert",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_057"
     },
     {
         "word": "recommander",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💡",
         "form": "verb",
         "group": "er",
@@ -1519,12 +1720,15 @@ const data = [
         ],
         "v3": "recommandé",
         "auxiliary": "avoir",
-        "v4": "recommandant"
+        "v4": "recommandant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_058"
     },
     {
         "word": "améliorer",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "📈",
         "form": "verb",
         "group": "er",
@@ -1541,12 +1745,15 @@ const data = [
         ],
         "v3": "amélioré",
         "auxiliary": "avoir",
-        "v4": "améliorant"
+        "v4": "améliorant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_food_drink_023"
     },
     {
         "word": "louer",
         "level": "elementary",
-        "theme": "renting_landlords_A2",
+        "theme": "describing",
         "emoji": "🏠",
         "form": "verb",
         "group": "er",
@@ -1563,12 +1770,15 @@ const data = [
         ],
         "v3": "loué",
         "auxiliary": "avoir",
-        "v4": "louant"
+        "v4": "louant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_059"
     },
     {
         "word": "posséder",
         "level": "elementary",
-        "theme": "renting_landlords_A2",
+        "theme": "describing",
         "emoji": "🏡",
         "form": "verb",
         "group": "er",
@@ -1585,12 +1795,15 @@ const data = [
         ],
         "v3": "possédé",
         "auxiliary": "avoir",
-        "v4": "possédant"
+        "v4": "possédant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_060"
     },
     {
         "word": "réparer",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "describing",
         "emoji": "🔧",
         "form": "verb",
         "group": "er",
@@ -1610,12 +1823,15 @@ const data = [
         ],
         "v3": "réparé",
         "auxiliary": "avoir",
-        "v4": "réparant"
+        "v4": "réparant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_061"
     },
     {
         "word": "déménager",
         "level": "elementary",
-        "theme": "moving_home_A2",
+        "theme": "furniture",
         "emoji": "📦",
         "form": "verb",
         "group": "er",
@@ -1635,12 +1851,15 @@ const data = [
         ],
         "v3": "déménagé",
         "auxiliary": "avoir",
-        "v4": "déménagant"
+        "v4": "déménagant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_furniture_009"
     },
     {
         "word": "décorer",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "emoji": "🎨",
         "form": "verb",
         "group": "er",
@@ -1660,12 +1879,15 @@ const data = [
         ],
         "v3": "décoré",
         "auxiliary": "avoir",
-        "v4": "décorant"
+        "v4": "décorant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_furniture_010"
     },
     {
         "word": "monter",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏗️",
         "form": "verb",
         "group": "er",
@@ -1682,12 +1904,15 @@ const data = [
         ],
         "v3": "monté",
         "auxiliary": "être",
-        "v4": "montant"
+        "v4": "montant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_036"
     },
     {
         "word": "découvrir",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "🔎",
         "form": "verb",
         "group": "ir",
@@ -1703,12 +1928,15 @@ const data = [
             }
         ],
         "v3": "découvert",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_062"
     },
     {
         "word": "poursuivre",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⏩",
         "form": "verb",
         "group": "re",
@@ -1724,12 +1952,15 @@ const data = [
             }
         ],
         "v3": "poursuivi",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_037"
     },
     {
         "word": "abandonner",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏳️",
         "form": "verb",
         "group": "er",
@@ -1749,12 +1980,15 @@ const data = [
         ],
         "v3": "abandonné",
         "auxiliary": "avoir",
-        "v4": "abandonnant"
+        "v4": "abandonnant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_038"
     },
     {
         "word": "résoudre",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🔧",
         "form": "verb",
         "group": "re",
@@ -1773,12 +2007,15 @@ const data = [
             }
         ],
         "v3": "résolu",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_039"
     },
     {
         "word": "s'occuper de",
         "level": "elementary",
-        "theme": "relationships_family_A2",
+        "theme": "people",
         "emoji": "👶",
         "form": "verb",
         "group": "er",
@@ -1798,12 +2035,15 @@ const data = [
         ],
         "v3": "occupé de",
         "auxiliary": "être",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_people_049"
     },
     {
         "word": "limiter",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "📉",
         "form": "verb",
         "group": "er",
@@ -1820,12 +2060,15 @@ const data = [
         ],
         "v3": "limité",
         "auxiliary": "avoir",
-        "v4": "limitant"
+        "v4": "limitant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_food_drink_024"
     },
     {
         "word": "assumer",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "💪",
         "form": "verb",
         "group": "er",
@@ -1842,12 +2085,15 @@ const data = [
         ],
         "v3": "assumé",
         "auxiliary": "avoir",
-        "v4": "assumant"
+        "v4": "assumant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_040"
     },
     {
         "word": "rejeter",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "👎",
         "form": "verb",
         "group": "er",
@@ -1867,12 +2113,15 @@ const data = [
         ],
         "v3": "rejeté",
         "auxiliary": "avoir",
-        "v4": "rejetant"
+        "v4": "rejetant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_041"
     },
     {
         "word": "remettre à plus tard",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⏳",
         "form": "verb",
         "group": "re",
@@ -1892,12 +2141,15 @@ const data = [
             }
         ],
         "v3": "remis à plus tard",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_042"
     },
     {
         "word": "devoir",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💸",
         "form": "verb",
         "group": "ir",
@@ -1925,12 +2177,15 @@ const data = [
                     "doivent"
                 ]
             }
-        }
+        },
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_numbers_024"
     },
     {
         "word": "inviter",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "📩",
         "form": "verb",
         "group": "er",
@@ -1947,12 +2202,15 @@ const data = [
         ],
         "v3": "invité",
         "auxiliary": "avoir",
-        "v4": "invitant"
+        "v4": "invitant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_063"
     },
     {
         "word": "confirmer",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "✅",
         "form": "verb",
         "group": "er",
@@ -1969,12 +2227,15 @@ const data = [
         ],
         "v3": "confirmé",
         "auxiliary": "avoir",
-        "v4": "confirmant"
+        "v4": "confirmant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_064"
     },
     {
         "word": "contacter",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "📞",
         "form": "verb",
         "group": "er",
@@ -1991,12 +2252,15 @@ const data = [
         ],
         "v3": "contacté",
         "auxiliary": "avoir",
-        "v4": "contactant"
+        "v4": "contactant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_technology_009"
     },
     {
         "word": "se plaindre",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "😠",
         "form": "verb",
         "group": "er",
@@ -2016,12 +2280,15 @@ const data = [
         ],
         "v3": "plaint",
         "auxiliary": "être",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_065"
     },
     {
         "word": "discuter",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🗣️",
         "form": "verb",
         "group": "er",
@@ -2038,12 +2305,15 @@ const data = [
         ],
         "v3": "discuté",
         "auxiliary": "avoir",
-        "v4": "discutant"
+        "v4": "discutant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_066"
     },
     {
         "word": "présenter",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📊",
         "form": "verb",
         "group": "er",
@@ -2060,12 +2330,15 @@ const data = [
         ],
         "v3": "présenté",
         "auxiliary": "avoir",
-        "v4": "présentant"
+        "v4": "présentant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_043"
     },
     {
         "word": "accepter",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "✅",
         "form": "verb",
         "group": "er",
@@ -2082,12 +2355,15 @@ const data = [
         ],
         "v3": "accepté",
         "auxiliary": "avoir",
-        "v4": "acceptant"
+        "v4": "acceptant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_044"
     },
     {
         "word": "refuser",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "❌",
         "form": "verb",
         "group": "er",
@@ -2104,12 +2380,15 @@ const data = [
         ],
         "v3": "refusé",
         "auxiliary": "avoir",
-        "v4": "refusant"
+        "v4": "refusant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_045"
     },
     {
         "word": "perdre du poids",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "⚖️",
         "form": "verb",
         "group": "re",
@@ -2128,12 +2407,15 @@ const data = [
             }
         ],
         "v3": "perdu du poids",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_food_drink_025"
     },
     {
         "word": "augmenter",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "verb",
         "group": "er",
@@ -2150,12 +2432,15 @@ const data = [
         ],
         "v3": "augmenté",
         "auxiliary": "avoir",
-        "v4": "augmentant"
+        "v4": "augmentant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_046"
     },
     {
         "word": "réduire",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📉",
         "form": "verb",
         "group": "re",
@@ -2171,12 +2456,15 @@ const data = [
             }
         ],
         "v3": "réduit",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_047"
     },
     {
         "word": "améliorer ses compétences",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "verb",
         "group": "er",
@@ -2196,12 +2484,15 @@ const data = [
             }
         ],
         "v3": "amélioré ses compétences",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_048"
     },
     {
         "word": "fournir",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🤲",
         "form": "verb",
         "group": "ir",
@@ -2218,12 +2509,15 @@ const data = [
         ],
         "v3": "fourni",
         "auxiliary": "avoir",
-        "v4": "fournissant"
+        "v4": "fournissant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_049"
     },
     {
         "word": "résoudre",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🧩",
         "form": "verb",
         "group": "re",
@@ -2242,12 +2536,15 @@ const data = [
             }
         ],
         "v3": "résolu",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_050"
     },
     {
         "word": "partager",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "verb",
         "group": "er",
@@ -2264,12 +2561,15 @@ const data = [
         ],
         "v3": "partagé",
         "auxiliary": "avoir",
-        "v4": "partagant"
+        "v4": "partagant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_051"
     },
     {
         "word": "rejoindre",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "➕",
         "form": "verb",
         "group": "re",
@@ -2285,12 +2585,15 @@ const data = [
             }
         ],
         "v3": "rejoint",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_052"
     },
     {
         "word": "recevoir",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📩",
         "form": "verb",
         "group": "ir",
@@ -2306,12 +2609,15 @@ const data = [
             }
         ],
         "v3": "reçu",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_053"
     },
     {
         "word": "contenir",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📦",
         "form": "verb",
         "group": "ir",
@@ -2330,12 +2636,15 @@ const data = [
             }
         ],
         "v3": "contenu",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_054"
     },
     {
         "word": "prévoir",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📅",
         "form": "verb",
         "group": "ir",
@@ -2351,12 +2660,15 @@ const data = [
             }
         ],
         "v3": "prévu",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_055"
     },
     {
         "word": "préparer",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📝",
         "form": "verb",
         "group": "er",
@@ -2373,12 +2685,15 @@ const data = [
         ],
         "v3": "préparé",
         "auxiliary": "avoir",
-        "v4": "préparant"
+        "v4": "préparant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_056"
     },
     {
         "word": "échouer",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "❌",
         "form": "verb",
         "group": "er",
@@ -2395,12 +2710,15 @@ const data = [
         ],
         "v3": "échoué",
         "auxiliary": "avoir",
-        "v4": "échouant"
+        "v4": "échouant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_057"
     },
     {
         "word": "réussir",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏆",
         "form": "verb",
         "group": "ir",
@@ -2417,12 +2735,15 @@ const data = [
         ],
         "v3": "réussi",
         "auxiliary": "avoir",
-        "v4": "réussissant"
+        "v4": "réussissant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_058"
     },
     {
         "word": "être d'accord",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "group": "re",
@@ -2438,12 +2759,15 @@ const data = [
             }
         ],
         "v3": "été d'accord",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_describing_067"
     },
     {
         "word": "remplacer",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🔄",
         "form": "verb",
         "group": "er",
@@ -2463,12 +2787,15 @@ const data = [
         ],
         "v3": "remplacé",
         "auxiliary": "avoir",
-        "v4": "remplacant"
+        "v4": "remplacant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_059"
     },
     {
         "word": "chercher",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "🔍",
         "form": "verb",
         "group": "er",
@@ -2485,12 +2812,15 @@ const data = [
         ],
         "v3": "cherché",
         "auxiliary": "avoir",
-        "v4": "cherchant"
+        "v4": "cherchant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_work_060"
     },
     {
         "word": "se déconnecter",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🚪",
         "form": "verb",
         "group": "er",
@@ -2508,7 +2838,10 @@ const data = [
         "v3": "déconnecté",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "se déconnectant"
+        "v4": "se déconnectant",
+        "lang": "fr",
+        "transcription": "",
+        "id": "fr_elementary_technology_010"
     }
 ];
     const lang = "fr";

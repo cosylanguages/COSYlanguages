@@ -21,7 +21,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_008"
+        "id": "pt_elementary_social_008",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "É falta de educação chegar atrasado.",
@@ -44,7 +46,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_009"
+        "id": "pt_elementary_social_009",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "As pessoas são mais simpáticas nas cidades pequenas.",
@@ -67,7 +71,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_010"
+        "id": "pt_elementary_social_010",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Ter um animal de estimação torna-o mais feliz.",
@@ -90,7 +96,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_011"
+        "id": "pt_elementary_social_011",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Pode-se dizer muito sobre alguém pelos seus sapatos.",
@@ -113,7 +121,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_people_002"
+        "id": "pt_elementary_people_002",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Não há problema em comer sozinho num restaurante.",
@@ -136,7 +146,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_012"
+        "id": "pt_elementary_social_012",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Aprender uma língua é mais fácil quando se é jovem.",
@@ -159,7 +171,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_language_001"
+        "id": "pt_elementary_language_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "O transporte público é melhor do que ter um carro.",
@@ -182,7 +196,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_013"
+        "id": "pt_elementary_social_013",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "É difícil ficar entediado quando se tem um telemóvel.",
@@ -205,7 +221,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_technology_003"
+        "id": "pt_elementary_technology_003",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Cozinhar em casa é sempre melhor do que comer fora.",
@@ -228,7 +246,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_food_drink_001"
+        "id": "pt_elementary_food_drink_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Todos deveriam tentar viver no estrangeiro durante um ano.",
@@ -251,7 +271,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_travel_004"
+        "id": "pt_elementary_travel_004",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Os super-heróis são mais interessantes do que os heróis reais.",
@@ -274,7 +296,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_art_culture_001"
+        "id": "pt_elementary_art_culture_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "É importante fazer a cama todas as manhãs.",
@@ -297,7 +321,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_014"
+        "id": "pt_elementary_social_014",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Fazer compras é um passatempo.",
@@ -320,7 +346,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_015"
+        "id": "pt_elementary_social_015",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Viajar sozinho é melhor do que viajar com amigos.",
@@ -343,7 +371,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_travel_005"
+        "id": "pt_elementary_travel_005",
+        "transcription": "",
+        "emoji": "💬"
     }
 ];
     const lang = "pt";

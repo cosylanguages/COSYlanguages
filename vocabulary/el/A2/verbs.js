@@ -4,7 +4,7 @@ const data = [
     {
         "word": "βουρτσίζω τα δόντια",
         "level": "elementary",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🪥",
         "form": "verb",
         "subtext": "βουρτσίζω τα δόντια μου δύο φορές την ημέρα",
@@ -20,12 +20,15 @@ const data = [
         "aspect": "action",
         "v3": "βουρτσισμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_furniture_007"
     },
     {
         "word": "κάνω ντους",
         "level": "elementary",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🚿",
         "form": "verb",
         "subtext": "κάνω ένα γρήγορο ντους",
@@ -41,12 +44,15 @@ const data = [
         "aspect": "action",
         "v3": "κάνει ντους",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_furniture_008"
     },
     {
         "word": "φαίνομαι",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤔",
         "form": "verb",
         "subtext": "φαίνομαι χαρούμενος",
@@ -65,12 +71,15 @@ const data = [
         "aspect": "stative",
         "v3": "φανεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_people_044"
     },
     {
         "word": "γίνομαι",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🦋",
         "form": "verb",
         "subtext": "γίνομαι γιατρός / γίνομαι διάσημος",
@@ -86,12 +95,15 @@ const data = [
         "aspect": "action",
         "v3": "γίνει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_people_045"
     },
     {
         "word": "πιστεύω",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🙏",
         "form": "verb",
         "subtext": "πιστεύω σε κάτι / πιστεύω κάποιον",
@@ -108,12 +120,15 @@ const data = [
         "v3": "πιστέψει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_060"
     },
     {
         "word": "συμβαίνω",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "⚡",
         "form": "verb",
         "subtext": "",
@@ -133,12 +148,15 @@ const data = [
         "aspect": "action",
         "v3": "συμβεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_061"
     },
     {
         "word": "περιλαμβάνω",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "➕",
         "form": "verb",
         "subtext": "η τιμή περιλαμβάνει φόρο",
@@ -158,12 +176,15 @@ const data = [
         "v3": "περιλάβει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_062"
     },
     {
         "word": "συνεχίζω",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "➡️",
         "form": "verb",
         "subtext": "συνεχίζω να δουλεύω / συνεχίζω κάτι",
@@ -180,12 +201,15 @@ const data = [
         "v3": "συνεχίσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_063"
     },
     {
         "word": "ρυθμίζω",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "⚙️",
         "form": "verb",
         "subtext": "ρυθμίζω το τραπέζι",
@@ -205,12 +229,15 @@ const data = [
         "v3": "ρυθμίσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_064"
     },
     {
         "word": "οδηγώ",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "👑",
         "form": "verb",
         "subtext": "οδηγώ μια ομάδα",
@@ -229,12 +256,15 @@ const data = [
         "aspect": "action",
         "v3": "οδηγήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_people_046"
     },
     {
         "word": "ακολουθώ",
         "level": "elementary",
-        "theme": "directions_navigation_A1",
+        "theme": "describing",
         "emoji": "👣",
         "form": "verb",
         "subtext": "ακολουθώ τους κανόνες / ακολουθώ κάποιον",
@@ -250,12 +280,15 @@ const data = [
         "aspect": "action",
         "v3": "ακολουθήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_065"
     },
     {
         "word": "δημιουργώ",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "✨",
         "form": "verb",
         "subtext": "δημιουργώ μια ιστοσελίδα / δημιουργώ ανακατωσούρα",
@@ -271,12 +304,15 @@ const data = [
         "aspect": "action",
         "v3": "δημιουργήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_social_024"
     },
     {
         "word": "επιτρέπω",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "✅",
         "form": "verb",
         "subtext": "επιτρέπω σε κάποιον να κάνει",
@@ -296,12 +332,15 @@ const data = [
         "v3": "επιτρέψει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_people_047"
     },
     {
         "word": "μεγαλώνω",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌱",
         "form": "verb",
         "subtext": "μεγαλώνω φυτά / μεγαλώνω γρήγορα",
@@ -318,12 +357,15 @@ const data = [
         "v3": "μεγαλώσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_environment_008"
     },
     {
         "word": "προσφέρω",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤲",
         "form": "verb",
         "subtext": "προσφέρω μια δουλειά / προσφέρω βοήθεια",
@@ -339,12 +381,15 @@ const data = [
         "aspect": "action",
         "v3": "προσφέρει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_people_048"
     },
     {
         "word": "εξετάζω",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🤔",
         "form": "verb",
         "subtext": "εξετάζω μια επιλογή / εξετάζω κάποιον για δουλειά",
@@ -361,12 +406,15 @@ const data = [
         "v3": "εξετάσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_066"
     },
     {
         "word": "εμφανίζομαι",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "👻",
         "form": "verb",
         "subtext": "εμφανίζομαι στην τηλεόραση / εμφανίζομαι ξαφνικά",
@@ -382,12 +430,15 @@ const data = [
         "aspect": "stative",
         "v3": "εμφανιστεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_people_049"
     },
     {
         "word": "σερβίρω",
         "level": "elementary",
-        "theme": "restaurants_ordering_A2",
+        "theme": "food_drink",
         "emoji": "🍽️",
         "form": "verb",
         "subtext": "σερβίρω φαγητό",
@@ -407,12 +458,15 @@ const data = [
         "v3": "σερβίρει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_040"
     },
     {
         "word": "περιμένω",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💭",
         "form": "verb",
         "subtext": "περιμένω μωρό / περιμένω κάποιον να φτάσει",
@@ -429,12 +483,15 @@ const data = [
         "v3": "περιμένει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_067"
     },
     {
         "word": "χτίζω",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "describing",
         "emoji": "🏗️",
         "form": "verb",
         "subtext": "χτίζω ένα σπίτι / χτίζω μια σχέση",
@@ -451,12 +508,15 @@ const data = [
         "v3": "χτίσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_068"
     },
     {
         "word": "φτάνω",
         "level": "elementary",
-        "theme": "booking_planning_a_trip_A2",
+        "theme": "travel",
         "emoji": "🏁",
         "form": "verb",
         "subtext": "φτάνω στην κορυφή / φτάνω σε συμφωνία",
@@ -473,12 +533,15 @@ const data = [
         "v3": "φτάσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_travel_031"
     },
     {
         "word": "σκοτώνω",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "⚔️",
         "form": "verb",
         "subtext": "σκοτώνω την ώρα μου / σκοτώνω ένα έντομο",
@@ -495,12 +558,15 @@ const data = [
         "v3": "σκοτώσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_psychology_001"
     },
     {
         "word": "παραμένω",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "⏳",
         "form": "verb",
         "subtext": "παραμένω ήρεμος / παραμένω στο σπίτι",
@@ -517,12 +583,15 @@ const data = [
         "v3": "παραμείνει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_069"
     },
     {
         "word": "προτείνω",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💡",
         "form": "verb",
         "subtext": "προτείνω ένα σχέδιο / προτείνω να κάνουμε κάτι",
@@ -539,12 +608,15 @@ const data = [
         "v3": "προτείνει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_070"
     },
     {
         "word": "σηκώνω",
         "level": "elementary",
-        "theme": "family_life_A1",
+        "theme": "describing",
         "emoji": "🙋",
         "form": "verb",
         "subtext": "σηκώνω το χέρι",
@@ -564,12 +636,15 @@ const data = [
         "v3": "σηκώσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_071"
     },
     {
         "word": "απαιτώ",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "📜",
         "form": "verb",
         "subtext": "απαιτώ βοήθεια",
@@ -588,12 +663,15 @@ const data = [
         "aspect": "stative",
         "v3": "απαιτήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_072"
     },
     {
         "word": "αναφέρω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📋",
         "form": "verb",
         "subtext": "αναφέρω ένα έγκλημα / αναφέρω ένα πρόβλημα",
@@ -610,12 +688,15 @@ const data = [
         "v3": "αναφέρει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_059"
     },
     {
         "word": "εξηγώ",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👨‍🏫",
         "form": "verb",
         "subtext": "εξηγώ τους κανόνες / εξηγώ το γιατί",
@@ -631,12 +712,15 @@ const data = [
         "aspect": "action",
         "v3": "εξηγήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_060"
     },
     {
         "word": "αναπτύσσω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "💻",
         "form": "verb",
         "subtext": "αναπτύσσω μια δεξιότητα / αναπτύσσω ένα προϊόν",
@@ -653,12 +737,15 @@ const data = [
         "v3": "αναπτύξει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_061"
     },
     {
         "word": "συνταξιοδοτούμαι",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👴",
         "form": "verb",
         "subtext": "",
@@ -678,12 +765,15 @@ const data = [
         "aspect": "action",
         "v3": "συνταξιοδοτηθεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_062"
     },
     {
         "word": "έχω την οικονομική δυνατότητα",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💰",
         "form": "verb",
         "subtext": "δεν έχω την οικονομική δυνατότητα",
@@ -702,12 +792,15 @@ const data = [
         "aspect": "stative",
         "v3": "έχει την οικονομική δυνατότητα",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_015"
     },
     {
         "word": "ανακυκλώνω",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "♻️",
         "form": "verb",
         "subtext": "ανακυκλώνω χαρτί",
@@ -727,12 +820,15 @@ const data = [
         "v3": "ανακυκλώσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_environment_009"
     },
     {
         "word": "χτυπώ",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "🥊",
         "form": "verb",
         "subtext": "χτυπώ την μπάλα / χτυπώ έναν στόχο",
@@ -748,12 +844,15 @@ const data = [
         "aspect": "action",
         "v3": "χτυπήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_social_025"
     },
     {
         "word": "παράγω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏭",
         "form": "verb",
         "subtext": "παράγω ενέργεια / παράγω μια ταινία",
@@ -769,12 +868,15 @@ const data = [
         "aspect": "action",
         "v3": "παραγάγει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_063"
     },
     {
         "word": "αντιμετωπίζω",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "👤",
         "form": "verb",
         "subtext": "αντιμετωπίζω ένα πρόβλημα / αντιμετωπίζω την πραγματικότητα",
@@ -791,12 +893,15 @@ const data = [
         "v3": "αντιμετωπίσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_people_050"
     },
     {
         "word": "καλύπτω",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "describing",
         "emoji": "🧥",
         "form": "verb",
         "subtext": "καλύπτω με μια κουβέρτα / καλύπτω μια ιστορία",
@@ -813,12 +918,15 @@ const data = [
         "v3": "καλύψει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_073"
     },
     {
         "word": "περιγράφω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📝",
         "form": "verb",
         "subtext": "περιγράφω κάποιον / περιγράφω μια κατάσταση",
@@ -835,12 +943,15 @@ const data = [
         "v3": "περιγράψει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_064"
     },
     {
         "word": "πιάνω",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "🎣",
         "form": "verb",
         "subtext": "πιάνω μια μπάλα",
@@ -860,12 +971,15 @@ const data = [
         "aspect": "action",
         "v3": "πιάσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_social_026"
     },
     {
         "word": "κάνω αίτηση για",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "📝",
         "form": "verb",
         "subtext": "κάνω αίτηση για δουλειά",
@@ -884,12 +998,15 @@ const data = [
         "aspect": "action",
         "v3": "κάνει αίτηση για",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_065"
     },
     {
         "word": "προσλαμβάνω",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "προσλαμβάνω κάποιον / προσλαμβάνω μια ομάδα",
@@ -906,12 +1023,15 @@ const data = [
         "v3": "προσλάβει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_066"
     },
     {
         "word": "προάγω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "verb",
         "subtext": "προάγω κάποιον",
@@ -931,12 +1051,15 @@ const data = [
         "v3": "προαγάγει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_067"
     },
     {
         "word": "παραιτούμαι",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🚪",
         "form": "verb",
         "subtext": "παραιτούμαι από μια δουλειά",
@@ -955,12 +1078,15 @@ const data = [
         "aspect": "action",
         "v3": "παραιτηθεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_068"
     },
     {
         "word": "απολύω",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "❌",
         "form": "verb",
         "subtext": "απολύω έναν υπάλληλο",
@@ -980,12 +1106,15 @@ const data = [
         "v3": "απολύσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_069"
     },
     {
         "word": "αναθέτω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📋",
         "form": "verb",
         "subtext": "αναθέτω μια εργασία / αναθέτω ευθύνες",
@@ -1002,12 +1131,15 @@ const data = [
         "v3": "αναθέσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_070"
     },
     {
         "word": "διαπραγματεύομαι",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "διαπραγματεύομαι μισθό / διαπραγματεύομαι όρους",
@@ -1023,12 +1155,15 @@ const data = [
         "aspect": "action",
         "v3": "διαπραγματευτεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_071"
     },
     {
         "word": "αξιολογώ",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📊",
         "form": "verb",
         "subtext": "αξιολογώ την απόδοση / αξιολογώ τα αποτελέσματα",
@@ -1044,12 +1179,15 @@ const data = [
         "aspect": "action",
         "v3": "αξιολογήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_072"
     },
     {
         "word": "συνεργάζομαι",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👥",
         "form": "verb",
         "subtext": "συνεργάζομαι με / συνεργάζομαι σε ένα έργο",
@@ -1065,12 +1203,15 @@ const data = [
         "aspect": "action",
         "v3": "συνεργαστεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_073"
     },
     {
         "word": "προγραμματίζω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📅",
         "form": "verb",
         "subtext": "προγραμματίζω μια συνάντηση / προγραμματίζω χρόνο",
@@ -1087,12 +1228,15 @@ const data = [
         "v3": "προγραμματίσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_074"
     },
     {
         "word": "επενδύω",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📈",
         "form": "verb",
         "subtext": "επενδύω χρήματα / επενδύω σε ακίνητα",
@@ -1109,12 +1253,15 @@ const data = [
         "v3": "επενδύσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_016"
     },
     {
         "word": "δανείζομαι",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💸",
         "form": "verb",
         "subtext": "δανείζομαι χρήματα / δανείζομαι από τράπεζα",
@@ -1130,12 +1277,15 @@ const data = [
         "aspect": "action",
         "v3": "δανειστεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_017"
     },
     {
         "word": "δανείζω",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "δανείζω χρήματα / δανείζω ένα χέρι βοηθείας",
@@ -1152,12 +1302,15 @@ const data = [
         "v3": "δανείσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_018"
     },
     {
         "word": "προϋπολογίζω",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📊",
         "form": "verb",
         "subtext": "προϋπολογίζω προσεκτικά",
@@ -1177,12 +1330,15 @@ const data = [
         "v3": "προϋπολογίσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_019"
     },
     {
         "word": "κάνω ανάληψη",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "🏧",
         "form": "verb",
         "subtext": "κάνω ανάληψη μετρητών / κάνω ανάληψη από λογαριασμό",
@@ -1198,12 +1354,15 @@ const data = [
         "aspect": "action",
         "v3": "κάνει ανάληψη",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_020"
     },
     {
         "word": "μεταφέρω",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "📲",
         "form": "verb",
         "subtext": "μεταφέρω χρήματα",
@@ -1222,12 +1381,15 @@ const data = [
         "aspect": "action",
         "v3": "μεταφέρει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_021"
     },
     {
         "word": "χρεώνω",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💳",
         "form": "verb",
         "subtext": "χρεώνω μια αμοιβή / χρεώνω επιπλέον",
@@ -1244,12 +1406,15 @@ const data = [
         "v3": "χρεώσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_022"
     },
     {
         "word": "διεκδικώ",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📜",
         "form": "verb",
         "subtext": "διεκδικώ ασφάλεια / διεκδικώ αποζημίωση",
@@ -1265,12 +1430,15 @@ const data = [
         "aspect": "action",
         "v3": "διεκδικήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_023"
     },
     {
         "word": "μαλώνω",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "μαλώνω για / μαλώνω με κάποιον",
@@ -1287,12 +1455,15 @@ const data = [
         "v3": "μαλώσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_074"
     },
     {
         "word": "εμπιστεύομαι",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "εμπιστεύομαι κάποιον / εμπιστεύομαι το ένστικτό μου",
@@ -1308,12 +1479,15 @@ const data = [
         "aspect": "stative",
         "v3": "εμπιστευτεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_075"
     },
     {
         "word": "υποστηρίζω",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "υποστηρίζω κάποιον / υποστηρίζω μια απόφαση",
@@ -1330,12 +1504,15 @@ const data = [
         "v3": "υποστηρίξει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_076"
     },
     {
         "word": "διαφωνώ",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "👎",
         "form": "verb",
         "subtext": "διαφωνώ με κάποιον / διαφωνώ σε κάτι",
@@ -1351,12 +1528,15 @@ const data = [
         "aspect": "action",
         "v3": "διαφωνήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_077"
     },
     {
         "word": "ζητώ συγγνώμη",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🙏",
         "form": "verb",
         "subtext": "ζητώ συγγνώμη για / ζητώ συγγνώμη από κάποιον",
@@ -1372,12 +1552,15 @@ const data = [
         "aspect": "action",
         "v3": "ζητήσει συγγνώμη",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_078"
     },
     {
         "word": "συγχωρώ",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "συγχωρώ κάποιον / συγχωρώ ένα λάθος",
@@ -1393,12 +1576,15 @@ const data = [
         "aspect": "action",
         "v3": "συγχωρέσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_079"
     },
     {
         "word": "συμβιβάζομαι",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "είμαι πρόθυμος να συμβιβαστώ",
@@ -1417,12 +1603,15 @@ const data = [
         "aspect": "action",
         "v3": "συμβιβαστεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_080"
     },
     {
         "word": "διαγιγνώσκω",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🩺",
         "form": "verb",
         "subtext": "διαγιγνώσκω μια ασθένεια / διαγιγνώσκω έγκαιρα",
@@ -1438,12 +1627,15 @@ const data = [
         "aspect": "action",
         "v3": "διαγνώσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_041"
     },
     {
         "word": "θεραπεύω",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🩹",
         "form": "verb",
         "subtext": "θεραπεύω έναν ασθενή / θεραπεύω μια ασθένεια",
@@ -1460,12 +1652,15 @@ const data = [
         "v3": "θεραπεύσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_042"
     },
     {
         "word": "προλαμβάνω",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🛡️",
         "form": "verb",
         "subtext": "προλαμβάνω την ασθένεια",
@@ -1484,12 +1679,15 @@ const data = [
         "aspect": "action",
         "v3": "προλάβει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_043"
     },
     {
         "word": "υποφέρω",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🤕",
         "form": "verb",
         "subtext": "υποφέρω από / υποφέρω από πόνο",
@@ -1506,12 +1704,15 @@ const data = [
         "v3": "υποφέρει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_081"
     },
     {
         "word": "συνιστώ",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💡",
         "form": "verb",
         "subtext": "συνιστώ θεραπεία / συνιστώ ξεκούραση",
@@ -1527,12 +1728,15 @@ const data = [
         "aspect": "action",
         "v3": "συστήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_082"
     },
     {
         "word": "βελτιώνω",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "📈",
         "form": "verb",
         "subtext": "βελτιώνω την υγεία / βελτιώνω τη φυσική κατάσταση",
@@ -1549,12 +1753,15 @@ const data = [
         "v3": "βελτιώσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_044"
     },
     {
         "word": "νοικιάζω",
         "level": "elementary",
-        "theme": "renting_landlords_A2",
+        "theme": "describing",
         "emoji": "🏠",
         "form": "verb",
         "subtext": "νοικιάζω ένα διαμέρισμα / νοικιάζω ένα δωμάτιο",
@@ -1571,12 +1778,15 @@ const data = [
         "v3": "νοικιάσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_083"
     },
     {
         "word": "κατέχω",
         "level": "elementary",
-        "theme": "renting_landlords_A2",
+        "theme": "describing",
         "emoji": "🏡",
         "form": "verb",
         "subtext": "κατέχω μια ιδιοκτησία / κατέχω ένα αυτοκίνητο",
@@ -1593,12 +1803,15 @@ const data = [
         "v3": "κατέχει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_084"
     },
     {
         "word": "επισκευάζω",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "describing",
         "emoji": "🔧",
         "form": "verb",
         "subtext": "επισκευάζω κάτι",
@@ -1618,12 +1831,15 @@ const data = [
         "v3": "επισκευάσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_085"
     },
     {
         "word": "μετακομίζω",
         "level": "elementary",
-        "theme": "moving_home_A2",
+        "theme": "furniture",
         "emoji": "📦",
         "form": "verb",
         "subtext": "μετακομίζω σε νέο μέρος / μετακομίζω σπίτι",
@@ -1640,12 +1856,15 @@ const data = [
         "v3": "μετακομίσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_furniture_009"
     },
     {
         "word": "διακοσμώ",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "emoji": "🎨",
         "form": "verb",
         "subtext": "διακοσμώ ένα δωμάτιο",
@@ -1664,12 +1883,15 @@ const data = [
         "aspect": "action",
         "v3": "διακοσμήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_furniture_010"
     },
     {
         "word": "ιδρύω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏗️",
         "form": "verb",
         "subtext": "ιδρύω μια επιχείρηση / ιδρύω μια εταιρεία",
@@ -1686,12 +1908,15 @@ const data = [
         "v3": "ιδρύσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_075"
     },
     {
         "word": "ανακαλύπτω",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "🔎",
         "form": "verb",
         "subtext": "ανακαλύπτω την αλήθεια / ανακαλύπτω αργότερα",
@@ -1708,12 +1933,15 @@ const data = [
         "v3": "ανακαλύψει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_086"
     },
     {
         "word": "συνεχίζω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⏩",
         "form": "verb",
         "subtext": "συνεχίζω να δουλεύω / συνεχίζω παρ' όλα αυτά",
@@ -1730,12 +1958,15 @@ const data = [
         "v3": "συνεχίσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_076"
     },
     {
         "word": "παρατάω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏳️",
         "form": "verb",
         "subtext": "παρατάω μια δουλειά",
@@ -1755,12 +1986,15 @@ const data = [
         "v3": "παρατήσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_077"
     },
     {
         "word": "διευθετώ",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🔧",
         "form": "verb",
         "subtext": "διευθετώ ένα πρόβλημα",
@@ -1779,12 +2013,15 @@ const data = [
         "aspect": "action",
         "v3": "διευθετήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_078"
     },
     {
         "word": "φροντίζω",
         "level": "elementary",
-        "theme": "relationships_family_A2",
+        "theme": "people",
         "emoji": "👶",
         "form": "verb",
         "subtext": "φροντίζω κάποιον / φροντίζω τον εαυτό μου",
@@ -1801,12 +2038,15 @@ const data = [
         "v3": "φροντίσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_people_051"
     },
     {
         "word": "περιορίζω",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "📉",
         "form": "verb",
         "subtext": "περιορίζω τα έξοδα / περιορίζω τη ζάχαρη",
@@ -1823,12 +2063,15 @@ const data = [
         "v3": "περιορίσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_045"
     },
     {
         "word": "αναλαμβάνω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "💪",
         "form": "verb",
         "subtext": "αναλαμβάνω ευθύνη / αναλαμβάνω επιπλέον δουλειά",
@@ -1844,12 +2087,15 @@ const data = [
         "aspect": "action",
         "v3": "αναλάβει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_079"
     },
     {
         "word": "απορρίπτω",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "👎",
         "form": "verb",
         "subtext": "απορρίπτω μια προσφορά / απορρίπτω ένα αίτημα",
@@ -1865,12 +2111,15 @@ const data = [
         "aspect": "action",
         "v3": "απορρίψει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_080"
     },
     {
         "word": "αναβάλλω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⏳",
         "form": "verb",
         "subtext": "αναβάλλω μια συνάντηση / αναβάλλω μια απόφαση",
@@ -1886,12 +2135,15 @@ const data = [
         "aspect": "action",
         "v3": "αναβάλει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_081"
     },
     {
         "word": "χρωστάω",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💸",
         "form": "verb",
         "subtext": "χρωστάω χρήματα / χρωστάω σε κάποιον",
@@ -1908,12 +2160,15 @@ const data = [
         "v3": "χρωστάει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_024"
     },
     {
         "word": "προσκαλώ",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "📩",
         "form": "verb",
         "subtext": "προσκαλώ σε δείπνο / προσκαλώ σε πάρτι",
@@ -1929,12 +2184,15 @@ const data = [
         "aspect": "action",
         "v3": "προσκαλέσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_087"
     },
     {
         "word": "επιβεβαιώνω",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "✅",
         "form": "verb",
         "subtext": "επιβεβαιώνω μια κράτηση / επιβεβαιώνω γραπτώς",
@@ -1951,12 +2209,15 @@ const data = [
         "v3": "επιβεβαιώσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_088"
     },
     {
         "word": "επικοινωνώ",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "📞",
         "form": "verb",
         "subtext": "επικοινωνώ μέσω email",
@@ -1975,12 +2236,15 @@ const data = [
         "aspect": "action",
         "v3": "επικοινωνήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_technology_010"
     },
     {
         "word": "παραπονιέμαι",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "😠",
         "form": "verb",
         "subtext": "παραπονιέμαι για",
@@ -1999,12 +2263,15 @@ const data = [
         "aspect": "action",
         "v3": "παραπονεθεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_089"
     },
     {
         "word": "συζητώ",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "συζητώ ένα θέμα / συζητώ λεπτομερώς",
@@ -2020,12 +2287,15 @@ const data = [
         "aspect": "action",
         "v3": "συζητήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_090"
     },
     {
         "word": "παρουσιάζω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📊",
         "form": "verb",
         "subtext": "παρουσιάζω δεδομένα / παρουσιάζω σε πελάτη",
@@ -2042,12 +2312,15 @@ const data = [
         "v3": "παρουσιάσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_082"
     },
     {
         "word": "αποδέχομαι",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "✅",
         "form": "verb",
         "subtext": "αποδέχομαι μια προσφορά / αποδέχομαι μια πρόκληση",
@@ -2063,12 +2336,15 @@ const data = [
         "aspect": "action",
         "v3": "αποδεχτεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_083"
     },
     {
         "word": "αρνούμαι",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "❌",
         "form": "verb",
         "subtext": "αρνούμαι μια προσφορά / αρνούμαι την άδεια",
@@ -2084,12 +2360,15 @@ const data = [
         "aspect": "action",
         "v3": "αρνηθεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_084"
     },
     {
         "word": "χάνω βάρος",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "⚖️",
         "form": "verb",
         "subtext": "προσπαθώ να χάσω βάρος",
@@ -2108,12 +2387,15 @@ const data = [
         "aspect": "action",
         "v3": "χάσει βάρος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_046"
     },
     {
         "word": "αυξάνω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "verb",
         "subtext": "αυξάνω κατά",
@@ -2133,12 +2415,15 @@ const data = [
         "v3": "αυξήσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_085"
     },
     {
         "word": "μειώνω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📉",
         "form": "verb",
         "subtext": "μειώνω το κόστος / μειώνω το άγχος",
@@ -2155,12 +2440,15 @@ const data = [
         "v3": "μειώσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_086"
     },
     {
         "word": "βελτιώνω τις δεξιότητες",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "verb",
         "subtext": "",
@@ -2180,12 +2468,15 @@ const data = [
         "aspect": "action",
         "v3": "βελτιώσει τις δεξιότητες",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_087"
     },
     {
         "word": "παρέχω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🤲",
         "form": "verb",
         "subtext": "παρέχω υποστήριξη / παρέχω μια υπηρεσία",
@@ -2201,12 +2492,15 @@ const data = [
         "aspect": "action",
         "v3": "παράσχει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_088"
     },
     {
         "word": "λύνω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🧩",
         "form": "verb",
         "subtext": "λύνω ένα μυστήριο",
@@ -2226,12 +2520,15 @@ const data = [
         "v3": "λύσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_089"
     },
     {
         "word": "μοιράζομαι",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "μοιράζομαι πληροφορίες / μοιράζομαι ένα γεύμα / μοιράζομαι ιδέες",
@@ -2247,12 +2544,15 @@ const data = [
         "aspect": "action",
         "v3": "μοιραστεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_090"
     },
     {
         "word": "συμμετέχω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "➕",
         "form": "verb",
         "subtext": "μπαίνω σε μια εταιρεία / γίνομαι μέλος μιας ομάδας",
@@ -2268,12 +2568,15 @@ const data = [
         "aspect": "action",
         "v3": "συμμετάσχει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_091"
     },
     {
         "word": "λαμβάνω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📩",
         "form": "verb",
         "subtext": "λαμβάνω ένα γράμμα / λαμβάνω πληρωμή / λαμβάνω σχόλια",
@@ -2289,12 +2592,15 @@ const data = [
         "aspect": "action",
         "v3": "λάβει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_092"
     },
     {
         "word": "περιέχω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📦",
         "form": "verb",
         "subtext": "",
@@ -2314,12 +2620,15 @@ const data = [
         "aspect": "stative",
         "v3": "περιέχει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_093"
     },
     {
         "word": "σχεδιάζω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📅",
         "form": "verb",
         "subtext": "σχεδιάζω ένα ταξίδι / σχεδιάζω μια συνάντηση",
@@ -2336,12 +2645,15 @@ const data = [
         "v3": "σχεδιάσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_094"
     },
     {
         "word": "προετοιμάζω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📝",
         "form": "verb",
         "subtext": "προετοιμάζομαι για μια συνάντηση",
@@ -2361,12 +2673,15 @@ const data = [
         "v3": "προετοιμάσει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_095"
     },
     {
         "word": "αποτυγχάνω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "❌",
         "form": "verb",
         "subtext": "αποτυγχάνω σε μια εξέταση / αποτυγχάνω να κάνω",
@@ -2382,12 +2697,15 @@ const data = [
         "aspect": "action",
         "v3": "αποτύχει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_096"
     },
     {
         "word": "πετυχαίνω",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏆",
         "form": "verb",
         "subtext": "πετυχαίνω να κάνω / πετυχαίνω σε κάτι",
@@ -2404,12 +2722,15 @@ const data = [
         "v3": "πετύχει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_097"
     },
     {
         "word": "συμφωνώ",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "συμφωνώ με κάποιον / συμφωνώ σε κάτι",
@@ -2425,12 +2746,15 @@ const data = [
         "aspect": "action",
         "v3": "συμφωνήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_describing_091"
     },
     {
         "word": "αντικαθιστώ",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🔄",
         "form": "verb",
         "subtext": "αντικαθιστώ κάτι",
@@ -2449,12 +2773,15 @@ const data = [
         "aspect": "action",
         "v3": "αντικαταστήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_098"
     },
     {
         "word": "ψάχνω",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "🔍",
         "form": "verb",
         "subtext": "ψάχνω για δουλειά / ψάχνω για μια λύση",
@@ -2471,12 +2798,15 @@ const data = [
         "v3": "ψάξει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_099"
     },
     {
         "word": "αποσυνδέομαι",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🚪",
         "form": "verb",
         "subtext": "",
@@ -2495,7 +2825,10 @@ const data = [
         "aspect": "action",
         "v3": "αποσυνδεθεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_technology_011"
     }
 ];
     const lang = "el";

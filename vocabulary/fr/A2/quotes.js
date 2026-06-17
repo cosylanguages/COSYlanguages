@@ -14,7 +14,9 @@
                 "examples": []
             }
         ],
-        "author": "John Lennon"
+        "author": "John Lennon",
+        "transcription": "",
+        "emoji": "💬"
     }
 ];
     const lang = "fr";

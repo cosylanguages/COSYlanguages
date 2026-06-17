@@ -3,9 +3,8 @@
     const data = [
     {
         "word": "garden",
-        "image": "images/vocabulary/places/garden.png",
         "level": "elementary",
-        "theme": "local_places_services_A1",
+        "theme": "furniture",
         "emoji": "🌳",
         "form": "noun",
         "classification": "regular",
@@ -16,13 +15,15 @@
             }
         ],
         "countability": "countable",
-        "translation": "park",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "transcription": "",
+        "id": "en_elementary_places_077"
     },
     {
         "word": "abroad",
         "level": "elementary",
-        "theme": "holiday_types_A2",
+        "theme": "travel",
         "emoji": "✈️",
         "form": "adverb",
         "transcription": "əˈbrɔːd",
@@ -38,13 +39,14 @@
         "synonyms": [
             "overseas"
         ],
-        "translation": "overseas",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_023"
     },
     {
         "word": "account",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "🏦",
         "form": "noun",
         "classification": "regular",
@@ -60,13 +62,14 @@
         ],
         "subtext": "bank account / open an account",
         "countability": "countable",
-        "translation": "bank record",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_001"
     },
     {
         "word": "achievement",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏆",
         "form": "noun",
         "classification": "regular",
@@ -91,13 +94,14 @@
             "origin_meaning": "completion",
             "entered_via": "Middle English"
         },
-        "translation": "success",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_040"
     },
     {
         "word": "addition",
         "level": "elementary",
-        "theme": "basic_arithmetic_A2",
+        "theme": "numbers",
         "emoji": "➕",
         "form": "noun",
         "classification": "regular",
@@ -120,13 +124,14 @@
             "origin_word": "additio",
             "origin_meaning": "an adding to"
         },
-        "translation": "adding",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_002"
     },
     {
         "word": "advantage",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "➕",
         "form": "noun",
         "classification": "regular",
@@ -145,19 +150,19 @@
             "plus point"
         ],
         "countability": "countable",
-        "opposite": "disadvantage",
         "etymology": {
             "origin_lang": "Old French",
             "origin_word": "avantage",
             "origin_meaning": "profit, superiority"
         },
-        "translation": "benefit",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_001"
     },
     {
         "word": "advertisement",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "📺",
         "form": "noun",
         "classification": "regular",
@@ -182,13 +187,14 @@
             "origin_word": "avertissement",
             "origin_meaning": "notifying, warning"
         },
-        "translation": "ad",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_002"
     },
     {
         "word": "agreement",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -206,20 +212,20 @@
             "pact"
         ],
         "countability": "countable",
-        "opposite": "disagreement",
         "transcription": "əˈɡriːmənt",
         "etymology": {
             "origin_lang": "Old French",
             "origin_word": "agrement",
             "origin_meaning": "approval, pleasure"
         },
-        "translation": "deal",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_003"
     },
     {
         "word": "aisle",
         "level": "elementary",
-        "theme": "shopping_for_food_A2",
+        "theme": "shopping",
         "emoji": "🛒",
         "form": "noun",
         "classification": "regular",
@@ -235,13 +241,14 @@
         "subtext": "passage in a shop",
         "countability": "countable",
         "transcription": "aɪl",
-        "translation": "passage",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_shopping_002"
     },
     {
         "word": "application",
         "level": "elementary",
-        "theme": "school_life_routines_A2",
+        "theme": "describing",
         "emoji": "📝",
         "form": "noun",
         "classification": "regular",
@@ -262,13 +269,14 @@
             "origin_word": "applicatio",
             "origin_meaning": "a joining, attachment"
         },
-        "translation": "request",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_004"
     },
     {
         "word": "appointment",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "📅",
         "form": "noun",
         "classification": "regular",
@@ -284,13 +292,14 @@
         ],
         "countability": "countable",
         "transcription": "əˈpɔɪntmənt",
-        "translation": "meeting",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_005"
     },
     {
         "word": "article",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "📄",
         "form": "noun",
         "classification": "regular",
@@ -315,13 +324,14 @@
             "origin_word": "articulus",
             "origin_meaning": "joint, member"
         },
-        "translation": "story",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_006"
     },
     {
         "word": "artist",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🎨",
         "form": "noun",
         "classification": "regular",
@@ -337,13 +347,14 @@
         "countability": "countable",
         "subtext": "related to job titles professions",
         "transcription": "ˈɑːrtɪst",
-        "translation": "painter",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_041"
     },
     {
         "word": "atmosphere",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🌍",
         "form": "noun",
         "classification": "regular",
@@ -367,13 +378,14 @@
             "origin_word": "atmos + sphaira",
             "origin_meaning": "vapor + ball"
         },
-        "translation": "air",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_002"
     },
     {
         "word": "balcony",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "emoji": "🏘️",
         "form": "noun",
         "classification": "regular",
@@ -394,13 +406,14 @@
             "origin_word": "balcone",
             "origin_meaning": "scaffold"
         },
-        "translation": "terrace",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_furniture_001"
     },
     {
         "word": "benefit",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🎁",
         "form": "noun",
         "classification": "regular",
@@ -424,13 +437,14 @@
             "origin_word": "beneficium",
             "origin_meaning": "kind service"
         },
-        "translation": "advantage",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_007"
     },
     {
         "word": "bill",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💵",
         "form": "noun",
         "classification": "regular",
@@ -446,13 +460,14 @@
         ],
         "countability": "countable",
         "transcription": "bɪl",
-        "translation": "check",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_003"
     },
     {
         "word": "biodiversity",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌿",
         "form": "noun",
         "classification": "regular",
@@ -475,13 +490,14 @@
             "origin_word": "bios + diversitas",
             "origin_meaning": "life + variety"
         },
-        "translation": "nature variety",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_012"
     },
     {
         "word": "biology",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🧬",
         "form": "noun",
         "classification": "regular",
@@ -504,13 +520,14 @@
             "origin_word": "biologia",
             "origin_meaning": "study of life"
         },
-        "translation": "life science",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_003"
     },
     {
         "word": "blood",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🩸",
         "form": "noun",
         "classification": "regular",
@@ -528,13 +545,14 @@
         ],
         "countability": "uncountable",
         "transcription": "blʌd",
-        "translation": "body liquid",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_008"
     },
     {
         "word": "boarding pass",
         "level": "elementary",
-        "theme": "at_the_airport_A2",
+        "theme": "travel",
         "emoji": "🎫",
         "form": "noun",
         "classification": "regular",
@@ -554,13 +572,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈbɔːrdɪŋ pæs",
-        "translation": "flight ticket",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_024"
     },
     {
         "word": "bone",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🦴",
         "form": "noun",
         "classification": "regular",
@@ -579,13 +598,14 @@
         ],
         "countability": "countable",
         "transcription": "boʊn",
-        "translation": "body part",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_009"
     },
     {
         "word": "border",
         "level": "elementary",
-        "theme": "places_geography_A2",
+        "theme": "furniture",
         "emoji": "🚧",
         "form": "noun",
         "classification": "regular",
@@ -605,13 +625,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈbɔːrdər",
-        "translation": "boundary",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_places_078"
     },
     {
         "word": "brain",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🧠",
         "form": "noun",
         "classification": "regular",
@@ -630,13 +651,14 @@
         ],
         "countability": "countable",
         "transcription": "breɪn",
-        "translation": "mind organ",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_010"
     },
     {
         "word": "browser",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🌐",
         "form": "noun",
         "classification": "regular",
@@ -661,13 +683,14 @@
             "origin_meaning": "to feed on leaves, browse",
             "entered_via": "Middle English"
         },
-        "translation": "web program",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_008"
     },
     {
         "word": "budget",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📊",
         "form": "noun",
         "classification": "regular",
@@ -691,13 +714,14 @@
             "origin_word": "bougette",
             "origin_meaning": "leather bag, wallet"
         },
-        "translation": "financial plan",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_004"
     },
     {
         "word": "burger",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "emoji": "🍔",
         "form": "noun",
         "classification": "regular",
@@ -724,13 +748,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈbɜːrɡər",
-        "translation": "hamburger",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_020"
     },
     {
         "word": "candidate",
         "level": "elementary",
-        "theme": "society_politics_A2",
+        "theme": "social",
         "emoji": "🙋",
         "form": "noun",
         "classification": "regular",
@@ -754,13 +779,14 @@
             "origin_word": "candidatus",
             "origin_meaning": "clothed in white"
         },
-        "translation": "applicant",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_020"
     },
     {
         "word": "capital",
         "level": "elementary",
-        "theme": "places_geography_A2",
+        "theme": "furniture",
         "emoji": "🏛️",
         "form": "noun",
         "classification": "regular",
@@ -785,13 +811,14 @@
             "origin_word": "capitalis",
             "origin_meaning": "of the head"
         },
-        "translation": "main city",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_places_079"
     },
     {
         "word": "carbon footprint",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "👣",
         "form": "noun",
         "classification": "regular",
@@ -809,13 +836,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈkɑːrbən ˈfʊtprɪnt",
-        "translation": "eco impact",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_013"
     },
     {
         "word": "cash machine",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "🏧",
         "form": "noun",
         "classification": "regular",
@@ -834,13 +862,14 @@
         ],
         "countability": "countable",
         "transcription": "kæʃ məˈʃiːn",
-        "translation": "ATM",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_005"
     },
     {
         "word": "ceiling",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "emoji": "🏠",
         "form": "noun",
         "classification": "regular",
@@ -856,13 +885,14 @@
         "countability": "countable",
         "subtext": "related to rooms of a home",
         "transcription": "ˈsiːlɪŋ",
-        "translation": "room top",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_furniture_002"
     },
     {
         "word": "cell",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🦠",
         "form": "noun",
         "classification": "regular",
@@ -880,13 +910,14 @@
         ],
         "countability": "countable",
         "transcription": "sɛl",
-        "translation": "living unit",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_004"
     },
     {
         "word": "character",
         "level": "elementary",
-        "theme": "personality_character_A2",
+        "theme": "people",
         "emoji": "🎭",
         "form": "noun",
         "classification": "regular",
@@ -910,13 +941,14 @@
             "origin_word": "kharakter",
             "origin_meaning": "engraved mark, symbol, or imprint on a coin"
         },
-        "translation": "personality",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_people_020"
     },
     {
         "word": "chemistry",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🧪",
         "form": "noun",
         "classification": "regular",
@@ -940,13 +972,14 @@
             "origin_meaning": "the art of transformation",
             "entered_via": "Greek"
         },
-        "translation": "chemical science",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_005"
     },
     {
         "word": "client",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👤",
         "form": "noun",
         "classification": "regular",
@@ -965,13 +998,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈklaɪənt",
-        "translation": "customer",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_042"
     },
     {
         "word": "climate",
         "level": "elementary",
-        "theme": "weather_climate_A2",
+        "theme": "nature",
         "emoji": "🌍",
         "form": "noun",
         "classification": "regular",
@@ -996,13 +1030,14 @@
             "origin_word": "klima",
             "origin_meaning": "region, zone"
         },
-        "translation": "weather patterns",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_006"
     },
     {
         "word": "climate change",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌍",
         "form": "noun",
         "classification": "regular",
@@ -1020,13 +1055,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈklaɪmət tʃeɪndʒ",
-        "translation": "global warming",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_014"
     },
     {
         "word": "coast",
         "level": "elementary",
-        "theme": "landscape_geography_A2",
+        "theme": "nature",
         "emoji": "🏖️",
         "form": "noun",
         "classification": "regular",
@@ -1046,13 +1082,14 @@
         ],
         "countability": "countable",
         "transcription": "koʊst",
-        "translation": "seashore",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_007"
     },
     {
         "word": "communication",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🗣️",
         "form": "noun",
         "classification": "regular",
@@ -1075,13 +1112,14 @@
             "origin_word": "communicatio",
             "origin_meaning": "sharing, imparting"
         },
-        "translation": "sharing info",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_009"
     },
     {
         "word": "community",
         "level": "elementary",
-        "theme": "community_neighbourhood_local_A2",
+        "theme": "furniture",
         "emoji": "👥",
         "form": "noun",
         "classification": "regular",
@@ -1100,13 +1138,14 @@
         ],
         "countability": "countable",
         "transcription": "kəˈmjuːnəti",
-        "translation": "group",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_places_080"
     },
     {
         "word": "competition",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "🏆",
         "form": "noun",
         "classification": "regular",
@@ -1125,13 +1164,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ˌkɒmpəˈtɪʃn | 🇺🇸 ˌkɑːmpəˈtɪʃn",
-        "translation": "contest",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_021"
     },
     {
         "word": "compromise",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -1150,13 +1190,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ˈkɒmprəmaɪz | 🇺🇸 ˈkɑːmprəmaɪz",
-        "translation": "middle ground",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_people_021"
     },
     {
         "word": "conservation",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🐼",
         "form": "noun",
         "classification": "regular",
@@ -1175,13 +1216,14 @@
         ],
         "countability": "uncountable",
         "transcription": "🇬🇧 ˌkɒnsərˈveɪʃn | 🇺🇸 ˌkɑːnsərˈveɪʃn",
-        "translation": "protection",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_015"
     },
     {
         "word": "contract",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📄",
         "form": "noun",
         "classification": "regular",
@@ -1200,13 +1242,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ˈkɒntrækt | 🇺🇸 ˈkɑːntrækt",
-        "translation": "legal document",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_043"
     },
     {
         "word": "credit card",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💳",
         "form": "noun",
         "classification": "regular",
@@ -1225,13 +1268,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈkrɛdɪt kɑːrd",
-        "translation": "payment card",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_006"
     },
     {
         "word": "currency",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💶",
         "form": "noun",
         "classification": "regular",
@@ -1250,13 +1294,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈkʌrənsi",
-        "translation": "money type",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_007"
     },
     {
         "word": "curtain",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "emoji": "🏘️",
         "form": "noun",
         "classification": "regular",
@@ -1272,13 +1317,14 @@
         "countability": "countable",
         "subtext": "related to household items",
         "transcription": "ˈkɜːrtn",
-        "translation": "window cloth",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_furniture_003"
     },
     {
         "word": "custom",
         "level": "elementary",
-        "theme": "customs_traditions_A2",
+        "theme": "describing",
         "emoji": "🎎",
         "form": "noun",
         "classification": "regular",
@@ -1297,13 +1343,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈkʌstəm",
-        "translation": "tradition",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_011"
     },
     {
         "word": "data",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "📊",
         "form": "noun",
         "classification": "regular",
@@ -1322,13 +1369,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈdeɪtə",
-        "translation": "information",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_010"
     },
     {
         "word": "database",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🗄️",
         "form": "noun",
         "classification": "regular",
@@ -1347,13 +1395,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈdeɪtəbeɪs",
-        "translation": "data storage",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_011"
     },
     {
         "word": "deadline",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⏳",
         "form": "noun",
         "classification": "regular",
@@ -1372,13 +1421,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈdɛdlaɪn",
-        "translation": "due date",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_044"
     },
     {
         "word": "debt",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💸",
         "form": "noun",
         "classification": "regular",
@@ -1397,13 +1447,14 @@
         ],
         "countability": "uncountable",
         "transcription": "dɛt",
-        "translation": "owing money",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_008"
     },
     {
         "word": "decimal point",
         "level": "elementary",
-        "theme": "decimals_A2",
+        "theme": "numbers",
         "emoji": "🔢",
         "form": "noun",
         "classification": "regular",
@@ -1422,13 +1473,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈdɛsɪml pɔɪnt",
-        "translation": "dot",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_009"
     },
     {
         "word": "decision",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🤔",
         "form": "noun",
         "classification": "regular",
@@ -1446,13 +1498,14 @@
         ],
         "countability": "countable",
         "transcription": "dɪˈsɪʒn",
-        "translation": "choice",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_012"
     },
     {
         "word": "degree",
         "level": "elementary",
-        "theme": "qualifications_exams_A2",
+        "theme": "school",
         "emoji": "🎓",
         "form": "noun",
         "classification": "regular",
@@ -1471,13 +1524,14 @@
         ],
         "countability": "countable",
         "transcription": "dɪˈɡriː",
-        "translation": "qualification",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_school_008"
     },
     {
         "word": "deposit",
         "level": "elementary",
-        "theme": "renting_landlords_A2",
+        "theme": "describing",
         "emoji": "💰",
         "form": "noun",
         "classification": "regular",
@@ -1497,13 +1551,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 dɪˈpɒzɪt | 🇺🇸 dɪˈpɑːzɪt",
-        "translation": "down payment",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_013"
     },
     {
         "word": "destination",
         "level": "elementary",
-        "theme": "holiday_types_A2",
+        "theme": "travel",
         "emoji": "📍",
         "form": "noun",
         "classification": "regular",
@@ -1519,13 +1574,14 @@
         "subtext": "final destination / reach your destination",
         "countability": "countable",
         "transcription": "ˌdɛstɪˈneɪʃn",
-        "translation": "goal",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_028"
     },
     {
         "word": "detail",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "📝",
         "form": "noun",
         "classification": "regular",
@@ -1543,13 +1599,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈdiːteɪl",
-        "translation": "small part",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_014"
     },
     {
         "word": "diet",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "emoji": "🥗",
         "form": "noun",
         "classification": "regular",
@@ -1565,13 +1622,14 @@
         "subtext": "healthy diet / on a diet",
         "countability": "countable",
         "transcription": "ˈdaɪət",
-        "translation": "eating plan",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_021"
     },
     {
         "word": "disadvantage",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "➖",
         "form": "noun",
         "classification": "regular",
@@ -1589,15 +1647,15 @@
             "minus point"
         ],
         "countability": "countable",
-        "opposite": "advantage",
         "transcription": "ˌdɪsədˈvɑːntɪdʒ",
-        "translation": "drawback",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_015"
     },
     {
         "word": "discovery",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "💡",
         "form": "noun",
         "classification": "regular",
@@ -1616,13 +1674,14 @@
         ],
         "countability": "countable",
         "transcription": "dɪˈskʌvəri",
-        "translation": "breakthrough",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_008"
     },
     {
         "word": "dishwasher",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "emoji": "🧼",
         "form": "noun",
         "classification": "regular",
@@ -1638,13 +1697,14 @@
         "countability": "countable",
         "subtext": "related to household items",
         "transcription": "🇬🇧 ˈdɪʃwɒʃər | 🇺🇸 ˈdɪʃwɑːʃər",
-        "translation": "washing machine",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_furniture_004"
     },
     {
         "word": "division",
         "level": "elementary",
-        "theme": "basic_arithmetic_A2",
+        "theme": "numbers",
         "emoji": "➗",
         "form": "noun",
         "classification": "regular",
@@ -1662,13 +1722,14 @@
         ],
         "countability": "uncountable",
         "transcription": "dɪˈvɪʒn",
-        "translation": "math process",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_010"
     },
     {
         "word": "download",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "📥",
         "form": "noun",
         "classification": "regular",
@@ -1686,15 +1747,15 @@
             "receive data"
         ],
         "countability": "countable",
-        "opposite": "upload",
         "transcription": "ˌdaʊnˈloʊd",
-        "translation": "receive data",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_012"
     },
     {
         "word": "driving license",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "travel",
         "emoji": "🪪",
         "form": "noun",
         "classification": "regular",
@@ -1714,13 +1775,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈdraɪvɪŋ ˈlaɪsns",
-        "translation": "permit",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_029"
     },
     {
         "word": "duty",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👮",
         "form": "noun",
         "classification": "regular",
@@ -1739,13 +1801,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈdjuːti",
-        "translation": "responsibility",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_045"
     },
     {
         "word": "earthquake",
         "level": "elementary",
-        "theme": "landscape_geography_A2",
+        "theme": "nature",
         "emoji": "🌋",
         "form": "noun",
         "classification": "regular",
@@ -1766,13 +1829,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈɜːrθkweɪk",
-        "translation": "ground shaking",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_009"
     },
     {
         "word": "ecology",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌳",
         "form": "noun",
         "classification": "regular",
@@ -1790,13 +1854,14 @@
         ],
         "countability": "uncountable",
         "transcription": "🇬🇧 iˈkɒlədʒi | 🇺🇸 iˈkɑːlədʒi",
-        "translation": "nature science",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_016"
     },
     {
         "word": "economy",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📉",
         "form": "noun",
         "classification": "regular",
@@ -1814,13 +1879,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ɪˈkɒnəmi | 🇺🇸 ɪˈkɑːnəmi",
-        "translation": "financial system",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_011"
     },
     {
         "word": "election",
         "level": "elementary",
-        "theme": "society_politics_A2",
+        "theme": "social",
         "emoji": "🗳️",
         "form": "noun",
         "classification": "regular",
@@ -1839,13 +1905,14 @@
         ],
         "countability": "countable",
         "transcription": "ɪˈlɛkʃn",
-        "translation": "voting",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_022"
     },
     {
         "word": "employee",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👷",
         "form": "noun",
         "classification": "regular",
@@ -1863,15 +1930,15 @@
             "worker"
         ],
         "countability": "countable",
-        "opposite": "employer",
         "transcription": "ɪmˈplɔɪiː",
-        "translation": "worker",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_046"
     },
     {
         "word": "employer",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏢",
         "form": "noun",
         "classification": "regular",
@@ -1890,15 +1957,15 @@
             "company"
         ],
         "countability": "countable",
-        "opposite": "employee",
         "transcription": "ɪmˈplɔɪər",
-        "translation": "boss",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_047"
     },
     {
         "word": "energy",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "⚡",
         "form": "noun",
         "classification": "regular",
@@ -1918,13 +1985,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈɛnərdʒi",
-        "translation": "power",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_017"
     },
     {
         "word": "environment",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌳",
         "form": "noun",
         "classification": "regular",
@@ -1944,13 +2012,14 @@
         ],
         "countability": "countable",
         "transcription": "ɪnˈvaɪrənmənt",
-        "translation": "nature",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_018"
     },
     {
         "word": "evidence",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "🔎",
         "form": "noun",
         "classification": "regular",
@@ -1968,13 +2037,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈɛvɪdəns",
-        "translation": "proof",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_psychology_001"
     },
     {
         "word": "exchange rate",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💱",
         "form": "noun",
         "classification": "regular",
@@ -1993,13 +2063,14 @@
         ],
         "countability": "countable",
         "transcription": "ɪksˈtʃeɪndʒ reɪt",
-        "translation": "value",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_012"
     },
     {
         "word": "experience",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🧠",
         "form": "noun",
         "classification": "regular",
@@ -2014,13 +2085,14 @@
         "subtext": "work experience / past experience",
         "countability": "uncountable",
         "transcription": "ɪkˈspɪəriəns",
-        "translation": "knowledge",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_048"
     },
     {
         "word": "experiment",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🧪",
         "form": "noun",
         "classification": "regular",
@@ -2039,13 +2111,14 @@
         ],
         "countability": "countable",
         "transcription": "ɪkˈspɛrɪmənt",
-        "translation": "test",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_010"
     },
     {
         "word": "fact",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "📑",
         "form": "noun",
         "classification": "regular",
@@ -2064,13 +2137,14 @@
         ],
         "countability": "countable",
         "transcription": "fækt",
-        "translation": "truth",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_016"
     },
     {
         "word": "flight",
         "level": "elementary",
-        "theme": "at_the_airport_A2",
+        "theme": "travel",
         "emoji": "✈️",
         "form": "noun",
         "classification": "regular",
@@ -2089,13 +2163,14 @@
         ],
         "countability": "countable",
         "transcription": "flaɪt",
-        "translation": "trip",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_030"
     },
     {
         "word": "flood",
         "level": "elementary",
-        "theme": "landscape_geography_A2",
+        "theme": "nature",
         "emoji": "🌊",
         "form": "noun",
         "classification": "regular",
@@ -2116,13 +2191,14 @@
         ],
         "countability": "countable",
         "transcription": "flʌd",
-        "translation": "overflow",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_011"
     },
     {
         "word": "formula",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "📝",
         "form": "noun",
         "classification": "regular",
@@ -2140,13 +2216,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈfɔːrmjulə",
-        "translation": "code",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_012"
     },
     {
         "word": "fossil",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🦴",
         "form": "noun",
         "classification": "regular",
@@ -2165,13 +2242,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ˈfɒsl | 🇺🇸 ˈfɑːsl",
-        "translation": "remains",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_013"
     },
     {
         "word": "freedom",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "🕊️",
         "form": "noun",
         "classification": "regular",
@@ -2189,13 +2267,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈfriːdəm",
-        "translation": "liberty",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_psychology_002"
     },
     {
         "word": "galaxy",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🌌",
         "form": "noun",
         "classification": "regular",
@@ -2214,13 +2293,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈɡæləksi",
-        "translation": "stars",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_014"
     },
     {
         "word": "garage",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "emoji": "🚗",
         "form": "noun",
         "classification": "regular",
@@ -2236,13 +2316,14 @@
         "countability": "countable",
         "subtext": "related to rooms of a home",
         "transcription": "ˈɡærɑːʒ",
-        "translation": "car house",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_furniture_005"
     },
     {
         "word": "global warming",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌡️",
         "form": "noun",
         "classification": "regular",
@@ -2261,13 +2342,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈɡloʊbl ˈwɔːrmɪŋ",
-        "translation": "climate warming",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_019"
     },
     {
         "word": "goal",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🎯",
         "form": "noun",
         "classification": "regular",
@@ -2286,13 +2368,14 @@
         ],
         "countability": "countable",
         "transcription": "ɡoʊl",
-        "translation": "target",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_049"
     },
     {
         "word": "government",
         "level": "elementary",
-        "theme": "society_politics_A2",
+        "theme": "social",
         "emoji": "🏛️",
         "form": "noun",
         "classification": "regular",
@@ -2310,13 +2393,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈɡʌvərnmənt",
-        "translation": "authorities",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_023"
     },
     {
         "word": "gravity",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🍎",
         "form": "noun",
         "classification": "regular",
@@ -2335,13 +2419,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈɡrævəti",
-        "translation": "pull",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_015"
     },
     {
         "word": "guidebook",
         "level": "elementary",
-        "theme": "holiday_types_A2",
+        "theme": "travel",
         "emoji": "📕",
         "form": "noun",
         "classification": "regular",
@@ -2360,13 +2445,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈɡaɪdbʊk",
-        "translation": "travel book",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_031"
     },
     {
         "word": "habitat",
         "level": "elementary",
-        "theme": "animals_nature_A2",
+        "theme": "animals",
         "emoji": "🏡",
         "form": "noun",
         "classification": "regular",
@@ -2385,13 +2471,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈhæbɪtæt",
-        "translation": "home",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_animals_007"
     },
     {
         "word": "half",
         "level": "elementary",
-        "theme": "fractions_A2",
+        "theme": "numbers",
         "emoji": "½",
         "form": "noun",
         "classification": "regular",
@@ -2410,13 +2497,14 @@
         ],
         "countability": "countable",
         "transcription": "hɑːf",
-        "translation": "part",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_013"
     },
     {
         "word": "hardware",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🖱️",
         "form": "noun",
         "classification": "regular",
@@ -2434,15 +2522,15 @@
             "computer parts"
         ],
         "countability": "uncountable",
-        "opposite": "software",
         "transcription": "ˈhɑːrdwɛər",
-        "translation": "parts",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_013"
     },
     {
         "word": "headline",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "📰",
         "form": "noun",
         "classification": "regular",
@@ -2461,13 +2549,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈhɛdlaɪn",
-        "translation": "title",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_017"
     },
     {
         "word": "highway",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "travel",
         "emoji": "🛣️",
         "form": "noun",
         "classification": "regular",
@@ -2487,13 +2576,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈhaɪweɪ",
-        "translation": "road",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_032"
     },
     {
         "word": "identity",
         "level": "elementary",
-        "theme": "personality_character_A2",
+        "theme": "people",
         "emoji": "🪪",
         "form": "noun",
         "classification": "regular",
@@ -2512,13 +2602,14 @@
         ],
         "countability": "uncountable",
         "transcription": "aɪˈdɛntəti",
-        "translation": "who you are",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_people_022"
     },
     {
         "word": "impact",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💥",
         "form": "noun",
         "classification": "regular",
@@ -2537,13 +2628,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈɪmpækt",
-        "translation": "effect",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_018"
     },
     {
         "word": "income",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💰",
         "form": "noun",
         "classification": "regular",
@@ -2562,13 +2654,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈɪnkʌm",
-        "translation": "earnings",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_014"
     },
     {
         "word": "industry",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏭",
         "form": "noun",
         "classification": "regular",
@@ -2587,13 +2680,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈɪndəstri",
-        "translation": "sector",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_050"
     },
     {
         "word": "ingredient",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "emoji": "🥕",
         "form": "noun",
         "classification": "regular",
@@ -2612,13 +2706,14 @@
         ],
         "countability": "countable",
         "transcription": "ɪnˈɡriːdiənt",
-        "translation": "part",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_022"
     },
     {
         "word": "innovation",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "💡",
         "form": "noun",
         "classification": "regular",
@@ -2636,13 +2731,14 @@
         ],
         "countability": "countable",
         "transcription": "ˌɪnəˈveɪʃn",
-        "translation": "new idea",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_014"
     },
     {
         "word": "instrument",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "🎸",
         "form": "noun",
         "classification": "regular",
@@ -2661,13 +2757,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈɪnstrumənt",
-        "translation": "tool",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_024"
     },
     {
         "word": "insurance",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "🛡️",
         "form": "noun",
         "classification": "regular",
@@ -2687,13 +2784,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ɪnˈʃʊərəns",
-        "translation": "protection",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_015"
     },
     {
         "word": "interest",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💹",
         "form": "noun",
         "classification": "regular",
@@ -2711,13 +2809,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈɪntrəst",
-        "translation": "profit",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_016"
     },
     {
         "word": "interest rate",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "📈",
         "form": "noun",
         "classification": "regular",
@@ -2736,13 +2835,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈɪntrəst reɪt",
-        "translation": "percentage",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_017"
     },
     {
         "word": "interview",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -2758,13 +2858,14 @@
         "subtext": "job interview / attend an interview",
         "countability": "countable",
         "transcription": "ˈɪntərvjuː",
-        "translation": "meeting",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_051"
     },
     {
         "word": "invention",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "⚙️",
         "form": "noun",
         "classification": "regular",
@@ -2782,13 +2883,14 @@
         ],
         "countability": "countable",
         "transcription": "ɪnˈvɛnʃn",
-        "translation": "creation",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_016"
     },
     {
         "word": "investment",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📈",
         "form": "noun",
         "classification": "regular",
@@ -2807,13 +2909,14 @@
         ],
         "countability": "countable",
         "transcription": "ɪnˈvɛstmənt",
-        "translation": "asset",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_018"
     },
     {
         "word": "joint",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🦵",
         "form": "noun",
         "classification": "regular",
@@ -2832,13 +2935,14 @@
         ],
         "countability": "countable",
         "transcription": "dʒɔɪnt",
-        "translation": "connection",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_019"
     },
     {
         "word": "journalist",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "📰",
         "form": "noun",
         "classification": "regular",
@@ -2864,13 +2968,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈdʒɜːrnəlɪst",
-        "translation": "reporter",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_020"
     },
     {
         "word": "journey",
         "level": "elementary",
-        "theme": "holiday_types_A2",
+        "theme": "travel",
         "emoji": "🛤️",
         "form": "noun",
         "classification": "regular",
@@ -2889,13 +2994,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈdʒɜːrni",
-        "translation": "travel",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_033"
     },
     {
         "word": "justice",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "⚖️",
         "form": "noun",
         "classification": "regular",
@@ -2910,15 +3016,15 @@
         ],
         "subtext": "legal justice / court of justice",
         "countability": "uncountable",
-        "opposite": "injustice",
         "transcription": "ˈdʒʌstɪs",
-        "translation": "fairness",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_psychology_003"
     },
     {
         "word": "kidney",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🫘",
         "form": "noun",
         "classification": "regular",
@@ -2937,13 +3043,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈkɪdni",
-        "translation": "organ",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_021"
     },
     {
         "word": "laboratory",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🔬",
         "form": "noun",
         "classification": "regular",
@@ -2962,13 +3069,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ləˈbɒrətri | 🇺🇸 ləˈbɑːrətri",
-        "translation": "lab",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_017"
     },
     {
         "word": "landfill",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🗑️",
         "form": "noun",
         "classification": "regular",
@@ -2987,13 +3095,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈlændfɪl",
-        "translation": "dump",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_020"
     },
     {
         "word": "law",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "⚖️",
         "form": "noun",
         "classification": "regular",
@@ -3011,13 +3120,14 @@
         ],
         "countability": "countable",
         "transcription": "lɔː",
-        "translation": "rules",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_psychology_004"
     },
     {
         "word": "lawyer",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "⚖️",
         "form": "noun",
         "classification": "regular",
@@ -3037,13 +3147,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈlɔɪər",
-        "translation": "attorney",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_psychology_005"
     },
     {
         "word": "leader",
         "level": "elementary",
-        "theme": "society_politics_A2",
+        "theme": "social",
         "emoji": "👑",
         "form": "noun",
         "classification": "regular",
@@ -3062,13 +3173,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈliːdər",
-        "translation": "head",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_025"
     },
     {
         "word": "literature",
         "level": "elementary",
-        "theme": "art_design_A2",
+        "theme": "art_culture",
         "emoji": "📚",
         "form": "noun",
         "classification": "regular",
@@ -3086,13 +3198,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈlɪtrətʃər",
-        "translation": "books",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_art_culture_001"
     },
     {
         "word": "liver",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🧪",
         "form": "noun",
         "classification": "regular",
@@ -3111,13 +3224,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈlɪvər",
-        "translation": "organ",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_022"
     },
     {
         "word": "loan",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "💰",
         "form": "noun",
         "classification": "regular",
@@ -3133,13 +3247,14 @@
         "subtext": "bank loan / take a loan",
         "countability": "countable",
         "transcription": "loʊn",
-        "translation": "debt",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_019"
     },
     {
         "word": "local cuisine",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "emoji": "🍜",
         "form": "noun",
         "classification": "regular",
@@ -3166,13 +3281,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈloʊkl kwɪˈziːn",
-        "translation": "food",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_023"
     },
     {
         "word": "luggage",
         "level": "elementary",
-        "theme": "at_the_airport_A2",
+        "theme": "travel",
         "emoji": "🧳",
         "form": "noun",
         "classification": "regular",
@@ -3190,13 +3306,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈlʌɡɪdʒ",
-        "translation": "baggage",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_034"
     },
     {
         "word": "lung",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🫁",
         "form": "noun",
         "classification": "regular",
@@ -3215,13 +3332,14 @@
         ],
         "countability": "countable",
         "transcription": "lʌŋ",
-        "translation": "organ",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_023"
     },
     {
         "word": "management",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👔",
         "form": "noun",
         "classification": "regular",
@@ -3241,13 +3359,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈmænɪdʒmənt",
-        "translation": "leaders",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_052"
     },
     {
         "word": "mathematics",
         "level": "elementary",
-        "theme": "basic_arithmetic_A2",
+        "theme": "numbers",
         "emoji": "🧮",
         "form": "noun",
         "classification": "regular",
@@ -3265,13 +3384,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˌmæθəˈmætɪks",
-        "translation": "maths",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_020"
     },
     {
         "word": "mayor",
         "level": "elementary",
-        "theme": "society_politics_A2",
+        "theme": "social",
         "emoji": "🏛️",
         "form": "noun",
         "classification": "regular",
@@ -3290,13 +3410,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈmeɪər",
-        "translation": "head",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_026"
     },
     {
         "word": "mechanic",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🧑‍🔧",
         "form": "noun",
         "classification": "regular",
@@ -3312,13 +3433,14 @@
         "countability": "countable",
         "subtext": "related to job titles professions",
         "transcription": "məˈkænɪk",
-        "translation": "repairman",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_053"
     },
     {
         "word": "media",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "📺",
         "form": "noun",
         "classification": "regular",
@@ -3336,13 +3458,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈmiːdiə",
-        "translation": "news",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_024"
     },
     {
         "word": "microscope",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🔬",
         "form": "noun",
         "classification": "regular",
@@ -3361,13 +3484,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈmaɪkrəskoʊp",
-        "translation": "magnifier",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_018"
     },
     {
         "word": "microwave",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "emoji": "🔥",
         "form": "noun",
         "classification": "regular",
@@ -3383,13 +3507,14 @@
         "countability": "countable",
         "subtext": "related to household items",
         "transcription": "ˈmaɪkrəweɪv",
-        "translation": "oven",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_furniture_006"
     },
     {
         "word": "minus",
         "level": "elementary",
-        "theme": "basic_arithmetic_A2",
+        "theme": "numbers",
         "emoji": "➖",
         "form": "preposition",
         "definitions": [
@@ -3407,13 +3532,14 @@
             "less"
         ],
         "transcription": "ˈmaɪnəs",
-        "translation": "less",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_021"
     },
     {
         "word": "monitor",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🖥️",
         "form": "noun",
         "classification": "regular",
@@ -3432,13 +3558,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ˈmɒnɪtər | 🇺🇸 ˈmɑːnɪtər",
-        "translation": "screen",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_015"
     },
     {
         "word": "mortgage",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "🏠",
         "form": "noun",
         "classification": "regular",
@@ -3457,13 +3584,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈmɔːrɡɪdʒ",
-        "translation": "loan",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_022"
     },
     {
         "word": "multiplication",
         "level": "elementary",
-        "theme": "basic_arithmetic_A2",
+        "theme": "numbers",
         "emoji": "✖️",
         "form": "noun",
         "classification": "regular",
@@ -3481,13 +3609,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˌmʌltɪplɪˈkeɪʃn",
-        "translation": "math",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_023"
     },
     {
         "word": "muscle",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "💪",
         "form": "noun",
         "classification": "regular",
@@ -3506,13 +3635,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈmʌsl",
-        "translation": "part",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_025"
     },
     {
         "word": "nature reserve",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🏞️",
         "form": "noun",
         "classification": "regular",
@@ -3531,13 +3661,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈneɪtʃər rɪˈzɜːrv",
-        "translation": "area",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_021"
     },
     {
         "word": "neighbourhood",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "furniture",
         "emoji": "🏘️",
         "form": "noun",
         "classification": "regular",
@@ -3556,13 +3687,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈneɪbərhʊd",
-        "translation": "area",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_places_081"
     },
     {
         "word": "network",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🌐",
         "form": "noun",
         "classification": "regular",
@@ -3582,13 +3714,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈnɛtwɜːrk",
-        "translation": "system",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_016"
     },
     {
         "word": "organism",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🌿",
         "form": "noun",
         "classification": "regular",
@@ -3606,13 +3739,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈɔːrɡənɪzəm",
-        "translation": "thing",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_019"
     },
     {
         "word": "overtime",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⏰",
         "form": "noun",
         "classification": "regular",
@@ -3631,13 +3765,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈoʊvərtaɪm",
-        "translation": "extra hours",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_054"
     },
     {
         "word": "parking lot",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "travel",
         "emoji": "🅿️",
         "form": "noun",
         "classification": "regular",
@@ -3657,13 +3792,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ˈpɑːrkɪŋ lɒt | 🇺🇸 ˈpɑːrkɪŋ lɑːt",
-        "translation": "car park",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_035"
     },
     {
         "word": "password",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🔑",
         "form": "noun",
         "classification": "regular",
@@ -3682,13 +3818,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈpæswɜːrd",
-        "translation": "code",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_017"
     },
     {
         "word": "pension",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "👴",
         "form": "noun",
         "classification": "regular",
@@ -3708,13 +3845,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈpɛnʃn",
-        "translation": "fund",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_024"
     },
     {
         "word": "percent",
         "level": "elementary",
-        "theme": "percentages_A2",
+        "theme": "numbers",
         "emoji": "%",
         "form": "noun",
         "classification": "regular",
@@ -3734,13 +3872,14 @@
         ],
         "countability": "uncountable",
         "transcription": "pərˈsɛnt",
-        "translation": "percentage",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_025"
     },
     {
         "word": "perspective",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🔭",
         "form": "noun",
         "classification": "regular",
@@ -3758,13 +3897,14 @@
         ],
         "countability": "countable",
         "transcription": "pərˈspɛktɪv",
-        "translation": "view",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_026"
     },
     {
         "word": "pharmacy",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "furniture",
         "emoji": "💊",
         "form": "noun",
         "classification": "regular",
@@ -3783,13 +3923,14 @@
         "countability": "countable",
         "subtext": "related to local places services",
         "transcription": "ˈfɑːrməsi",
-        "translation": "chemist",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_places_082"
     },
     {
         "word": "philosophy",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🤔",
         "form": "noun",
         "classification": "regular",
@@ -3807,13 +3948,14 @@
         ],
         "countability": "uncountable",
         "transcription": "🇬🇧 fəˈlɒsəfi | 🇺🇸 fəˈlɑːsəfi",
-        "translation": "thinking",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_027"
     },
     {
         "word": "physics",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🔭",
         "form": "noun",
         "classification": "regular",
@@ -3831,13 +3973,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈfɪzɪks",
-        "translation": "science",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_020"
     },
     {
         "word": "plus",
         "level": "elementary",
-        "theme": "basic_arithmetic_A2",
+        "theme": "numbers",
         "emoji": "➕",
         "form": "preposition",
         "definitions": [
@@ -3855,13 +3998,14 @@
             "and"
         ],
         "transcription": "plʌs",
-        "translation": "and",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_026"
     },
     {
         "word": "podcast",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "🎙️",
         "form": "noun",
         "classification": "regular",
@@ -3881,13 +4025,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ˈpɒdkæst | 🇺🇸 ˈpɑːdkæst",
-        "translation": "audio",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_028"
     },
     {
         "word": "policy",
         "level": "elementary",
-        "theme": "society_politics_A2",
+        "theme": "social",
         "emoji": "📜",
         "form": "noun",
         "classification": "regular",
@@ -3906,13 +4051,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ˈpɒləsi | 🇺🇸 ˈpɑːləsi",
-        "translation": "rules",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_027"
     },
     {
         "word": "pollution",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🏭",
         "form": "noun",
         "classification": "regular",
@@ -3927,13 +4073,14 @@
         "subtext": "environmental pollution / air pollution",
         "countability": "uncountable",
         "transcription": "pəˈluːʃn",
-        "translation": "waste",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_022"
     },
     {
         "word": "population",
         "level": "elementary",
-        "theme": "society_politics_A2",
+        "theme": "social",
         "emoji": "👨‍👩‍👧‍👦",
         "form": "noun",
         "classification": "regular",
@@ -3953,13 +4100,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ˌpɒpjuˈneɪʃn | 🇺🇸 ˌpɑːpjuˈneɪʃn",
-        "translation": "people",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_028"
     },
     {
         "word": "privacy",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🔒",
         "form": "noun",
         "classification": "regular",
@@ -3979,13 +4127,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈpraɪvəsi",
-        "translation": "secrecy",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_018"
     },
     {
         "word": "promotion",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "noun",
         "classification": "regular",
@@ -4003,15 +4152,15 @@
             "career advancement"
         ],
         "countability": "countable",
-        "opposite": "demotion",
         "transcription": "prəˈmoʊʃn",
-        "translation": "advancement",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_055"
     },
     {
         "word": "proof",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "📑",
         "form": "noun",
         "classification": "regular",
@@ -4029,13 +4178,14 @@
         ],
         "countability": "uncountable",
         "transcription": "pruːf",
-        "translation": "evidence",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_psychology_006"
     },
     {
         "word": "psychology",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🧠",
         "form": "noun",
         "classification": "regular",
@@ -4053,13 +4203,14 @@
         ],
         "countability": "uncountable",
         "transcription": "🇬🇧 saɪˈkɒlədʒi | 🇺🇸 saɪˈkɑːlədʒi",
-        "translation": "mind science",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_029"
     },
     {
         "word": "quarter",
         "level": "elementary",
-        "theme": "fractions_A2",
+        "theme": "numbers",
         "emoji": "¼",
         "form": "noun",
         "classification": "regular",
@@ -4078,13 +4229,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈkwɔːrtər",
-        "translation": "part",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_027"
     },
     {
         "word": "reality",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "👓",
         "form": "noun",
         "classification": "regular",
@@ -4103,13 +4255,14 @@
         ],
         "countability": "uncountable",
         "transcription": "riˈæləti",
-        "translation": "truth",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_030"
     },
     {
         "word": "receipt",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "🧾",
         "form": "noun",
         "classification": "regular",
@@ -4125,13 +4278,14 @@
         ],
         "countability": "countable",
         "transcription": "rɪˈsiːt",
-        "translation": "proof",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_028"
     },
     {
         "word": "reception",
         "level": "elementary",
-        "theme": "accommodation_A2",
+        "theme": "describing",
         "emoji": "🛎️",
         "form": "noun",
         "classification": "regular",
@@ -4150,13 +4304,14 @@
         ],
         "countability": "uncountable",
         "transcription": "rɪˈsɛpʃn",
-        "translation": "desk",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_031"
     },
     {
         "word": "recipe",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "emoji": "📖",
         "form": "noun",
         "classification": "regular",
@@ -4175,13 +4330,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈrɛsəpi",
-        "translation": "instructions",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_024"
     },
     {
         "word": "recycling",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "♻️",
         "form": "noun",
         "classification": "regular",
@@ -4201,13 +4357,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˌriːˈsaɪklɪŋ",
-        "translation": "reuse",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_023"
     },
     {
         "word": "recycling bin",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "♻️",
         "form": "noun",
         "classification": "regular",
@@ -4225,13 +4382,14 @@
         ],
         "countability": "countable",
         "transcription": "ˌriːˈsaɪklɪŋ bɪn",
-        "translation": "bin",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_024"
     },
     {
         "word": "region",
         "level": "elementary",
-        "theme": "places_geography_A2",
+        "theme": "furniture",
         "emoji": "🗺️",
         "form": "noun",
         "classification": "regular",
@@ -4251,13 +4409,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈriːdʒən",
-        "translation": "area",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_places_083"
     },
     {
         "word": "relationship",
         "level": "elementary",
-        "theme": "relationships_family_A2",
+        "theme": "people",
         "emoji": "👫",
         "form": "noun",
         "classification": "regular",
@@ -4273,13 +4432,14 @@
         "countability": "countable",
         "subtext": "related to family life",
         "transcription": "rɪˈleɪʃnʃɪp",
-        "translation": "connection",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_people_084"
     },
     {
         "word": "renewable energy",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "♻️",
         "form": "noun",
         "classification": "regular",
@@ -4297,13 +4457,14 @@
         ],
         "countability": "uncountable",
         "transcription": "rɪˈnjuːəbl ˈɛnərdʒi",
-        "translation": "green energy",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_025"
     },
     {
         "word": "research",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🔍",
         "form": "noun",
         "classification": "regular",
@@ -4321,13 +4482,14 @@
         ],
         "countability": "uncountable",
         "transcription": "rɪˈsɜːrtʃ",
-        "translation": "study",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_021"
     },
     {
         "word": "resource",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌲",
         "form": "noun",
         "classification": "regular",
@@ -4346,13 +4508,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈriːsɔːrs",
-        "translation": "asset",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_026"
     },
     {
         "word": "roundabout",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "travel",
         "emoji": "🔄",
         "form": "noun",
         "classification": "regular",
@@ -4372,13 +4535,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈraʊndəbaʊt",
-        "translation": "circle",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_036"
     },
     {
         "word": "safety",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "🦺",
         "form": "noun",
         "classification": "regular",
@@ -4395,15 +4559,15 @@
             "security"
         ],
         "countability": "uncountable",
-        "opposite": "danger",
         "transcription": "ˈseɪfti",
-        "translation": "security",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_psychology_007"
     },
     {
         "word": "salary",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💸",
         "form": "noun",
         "classification": "regular",
@@ -4424,13 +4588,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈsæləri",
-        "translation": "pay",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_029"
     },
     {
         "word": "satellite",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🛰️",
         "form": "noun",
         "classification": "regular",
@@ -4449,13 +4614,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈsætəlaɪt",
-        "translation": "machine",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_022"
     },
     {
         "word": "savings",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💰",
         "form": "noun",
         "classification": "regular",
@@ -4473,13 +4639,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈseɪvɪŋz",
-        "translation": "money",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_030"
     },
     {
         "word": "scientist",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "👨‍🔬",
         "form": "noun",
         "classification": "regular",
@@ -4497,13 +4664,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈsaɪəntɪst",
-        "translation": "expert",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_023"
     },
     {
         "word": "security",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "🛡️",
         "form": "noun",
         "classification": "regular",
@@ -4522,13 +4690,14 @@
         ],
         "countability": "uncountable",
         "transcription": "sɪˈkjʊərəti",
-        "translation": "safety",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_psychology_008"
     },
     {
         "word": "sightseeing",
         "level": "elementary",
-        "theme": "holiday_types_A2",
+        "theme": "travel",
         "emoji": "🏛️",
         "form": "noun",
         "classification": "regular",
@@ -4547,13 +4716,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈsaɪtˌsiːɪŋ",
-        "translation": "visiting",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_037"
     },
     {
         "word": "skeleton",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "💀",
         "form": "noun",
         "classification": "regular",
@@ -4572,13 +4742,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈskɛlɪtn",
-        "translation": "bones",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_032"
     },
     {
         "word": "skin",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🧴",
         "form": "noun",
         "classification": "regular",
@@ -4596,13 +4767,14 @@
         ],
         "countability": "uncountable",
         "transcription": "skɪn",
-        "translation": "surface",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_033"
     },
     {
         "word": "society",
         "level": "elementary",
-        "theme": "society_politics_A2",
+        "theme": "social",
         "emoji": "👥",
         "form": "noun",
         "classification": "regular",
@@ -4621,13 +4793,14 @@
         ],
         "countability": "uncountable",
         "transcription": "səˈsaɪəti",
-        "translation": "people",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_029"
     },
     {
         "word": "software",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "💾",
         "form": "noun",
         "classification": "regular",
@@ -4645,15 +4818,15 @@
             "computer programs"
         ],
         "countability": "uncountable",
-        "opposite": "hardware",
         "transcription": "🇬🇧 ˈsɒftwɛər | 🇺🇸 ˈsɑːftwɛər",
-        "translation": "programs",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_019"
     },
     {
         "word": "solar energy",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "noun",
         "classification": "regular",
@@ -4671,13 +4844,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈsoʊlər ˈɛnərdʒi",
-        "translation": "power",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_027"
     },
     {
         "word": "solar panel",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "noun",
         "classification": "regular",
@@ -4695,13 +4869,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈsoʊlər ˈpænl",
-        "translation": "tool",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_028"
     },
     {
         "word": "solar power",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "noun",
         "classification": "regular",
@@ -4720,13 +4895,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈsoʊlər ˈpaʊər",
-        "translation": "energy",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_029"
     },
     {
         "word": "solution",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💡",
         "form": "noun",
         "classification": "regular",
@@ -4744,13 +4920,14 @@
         ],
         "countability": "countable",
         "transcription": "səˈluːʃn",
-        "translation": "answer",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_034"
     },
     {
         "word": "souvenir",
         "level": "elementary",
-        "theme": "holiday_types_A2",
+        "theme": "travel",
         "emoji": "🎁",
         "form": "noun",
         "classification": "regular",
@@ -4776,13 +4953,14 @@
         ],
         "countability": "countable",
         "transcription": "ˌsuːvəˈnɪər",
-        "translation": "gift",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_038"
     },
     {
         "word": "spine",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🦴",
         "form": "noun",
         "classification": "regular",
@@ -4801,13 +4979,14 @@
         ],
         "countability": "countable",
         "transcription": "spaɪn",
-        "translation": "backbone",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_035"
     },
     {
         "word": "stadium",
         "level": "elementary",
-        "theme": "holiday_types_A2",
+        "theme": "travel",
         "emoji": "🏟️",
         "form": "noun",
         "classification": "regular",
@@ -4823,13 +5002,14 @@
         "countability": "countable",
         "subtext": "related to places culture leisure",
         "transcription": "ˈsteɪdiəm",
-        "translation": "arena",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_039"
     },
     {
         "word": "streaming",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "📺",
         "form": "noun",
         "classification": "regular",
@@ -4848,13 +5028,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈstriːmɪŋ",
-        "translation": "online media",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_020"
     },
     {
         "word": "substance",
         "level": "elementary",
-        "theme": "basic_science_A2",
+        "theme": "nature",
         "emoji": "🧪",
         "form": "noun",
         "classification": "regular",
@@ -4872,13 +5053,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈsʌbstəns",
-        "translation": "material",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_024"
     },
     {
         "word": "subtraction",
         "level": "elementary",
-        "theme": "basic_arithmetic_A2",
+        "theme": "numbers",
         "emoji": "➖",
         "form": "noun",
         "classification": "regular",
@@ -4896,13 +5078,14 @@
         ],
         "countability": "uncountable",
         "transcription": "səbˈtrækʃn",
-        "translation": "taking away",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_031"
     },
     {
         "word": "support",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -4920,13 +5103,14 @@
         ],
         "countability": "uncountable",
         "transcription": "səˈpɔːrt",
-        "translation": "help",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_people_085"
     },
     {
         "word": "sustainability",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "♻️",
         "form": "noun",
         "classification": "regular",
@@ -4945,13 +5129,14 @@
         ],
         "countability": "uncountable",
         "transcription": "səˌsteɪnəˈbɪləti",
-        "translation": "eco-friendliness",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_030"
     },
     {
         "word": "taco",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "emoji": "🌮",
         "form": "noun",
         "classification": "regular",
@@ -4977,13 +5162,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈtɑːkoʊ",
-        "translation": "dish",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_025"
     },
     {
         "word": "target",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🎯",
         "form": "noun",
         "classification": "regular",
@@ -5002,13 +5188,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈtɑːrɡɪt",
-        "translation": "goal",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_056"
     },
     {
         "word": "tax",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💸",
         "form": "noun",
         "classification": "regular",
@@ -5028,13 +5215,14 @@
         ],
         "countability": "countable",
         "transcription": "tæks",
-        "translation": "levy",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_032"
     },
     {
         "word": "technology",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "💻",
         "form": "noun",
         "classification": "regular",
@@ -5054,13 +5242,14 @@
         ],
         "countability": "uncountable",
         "transcription": "🇬🇧 tɛkˈnɒlədʒi | 🇺🇸 tɛkˈnɑːlədʒi",
-        "translation": "tech",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_021"
     },
     {
         "word": "tenant",
         "level": "elementary",
-        "theme": "renting_landlords_A2",
+        "theme": "describing",
         "emoji": "🔑",
         "form": "noun",
         "classification": "regular",
@@ -5078,15 +5267,15 @@
             "renter"
         ],
         "countability": "countable",
-        "opposite": "landlord",
         "transcription": "ˈtɛnənt",
-        "translation": "renter",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_036"
     },
     {
         "word": "terminal",
         "level": "elementary",
-        "theme": "at_the_airport_A2",
+        "theme": "travel",
         "emoji": "🏢",
         "form": "noun",
         "classification": "regular",
@@ -5105,13 +5294,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈtɜːrmɪnl",
-        "translation": "building",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_040"
     },
     {
         "word": "threat",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "⚠️",
         "form": "noun",
         "classification": "regular",
@@ -5130,13 +5320,14 @@
         ],
         "countability": "countable",
         "transcription": "θrɛt",
-        "translation": "danger",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_psychology_009"
     },
     {
         "word": "tiger",
         "level": "elementary",
-        "theme": "animals_nature_A2",
+        "theme": "animals",
         "emoji": "🐅",
         "form": "noun",
         "classification": "regular",
@@ -5152,13 +5343,14 @@
         "countability": "countable",
         "subtext": "related to animals",
         "transcription": "ˈtaɪɡər",
-        "translation": "animal",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_animals_008"
     },
     {
         "word": "total",
         "level": "elementary",
-        "theme": "basic_arithmetic_A2",
+        "theme": "numbers",
         "emoji": "🟰",
         "form": "noun",
         "classification": "regular",
@@ -5178,13 +5370,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈtoʊtl",
-        "translation": "sum",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_033"
     },
     {
         "word": "tourist",
         "level": "elementary",
-        "theme": "holiday_types_A2",
+        "theme": "travel",
         "emoji": "📸",
         "form": "noun",
         "classification": "regular",
@@ -5204,13 +5397,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈtʊərɪst",
-        "translation": "traveler",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_041"
     },
     {
         "word": "traffic jam",
         "level": "elementary",
-        "theme": "transport_travel_A2",
+        "theme": "travel",
         "emoji": "🚗🚙🚕",
         "form": "noun",
         "classification": "regular",
@@ -5230,13 +5424,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈtræfɪk dʒæm",
-        "translation": "congestion",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_042"
     },
     {
         "word": "trial",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "⚖️",
         "form": "noun",
         "classification": "regular",
@@ -5255,13 +5450,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈtraɪəl",
-        "translation": "case",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_psychology_010"
     },
     {
         "word": "trolley",
         "level": "elementary",
-        "theme": "shopping_for_food_A2",
+        "theme": "shopping",
         "emoji": "🛒",
         "form": "noun",
         "classification": "regular",
@@ -5280,13 +5476,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ˈtrɒli | 🇺🇸 ˈtrɑːli",
-        "translation": "cart",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_shopping_003"
     },
     {
         "word": "trust",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -5304,13 +5501,14 @@
         ],
         "countability": "uncountable",
         "transcription": "trʌst",
-        "translation": "faith",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_people_086"
     },
     {
         "word": "truth",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "📑",
         "form": "noun",
         "classification": "regular",
@@ -5328,15 +5526,15 @@
             "facts"
         ],
         "countability": "uncountable",
-        "opposite": "lie",
         "transcription": "truːθ",
-        "translation": "facts",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_037"
     },
     {
         "word": "upload",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "📤",
         "form": "noun",
         "classification": "regular",
@@ -5354,15 +5552,15 @@
             "send data"
         ],
         "countability": "countable",
-        "opposite": "download",
         "transcription": "ˌʌpˈloʊd",
-        "translation": "send data",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_022"
     },
     {
         "word": "vacuum cleaner",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "emoji": "🧹",
         "form": "noun",
         "classification": "regular",
@@ -5378,13 +5576,14 @@
         "countability": "countable",
         "subtext": "related to household items",
         "transcription": "ˈvækjuːm ˈkliːnər",
-        "translation": "cleaner",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_furniture_007"
     },
     {
         "word": "valley",
         "level": "elementary",
-        "theme": "landscape_geography_A2",
+        "theme": "nature",
         "emoji": "🏞️",
         "form": "noun",
         "classification": "regular",
@@ -5404,13 +5603,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈvæli",
-        "translation": "low land",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_025"
     },
     {
         "word": "value",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💎",
         "form": "noun",
         "classification": "regular",
@@ -5429,13 +5629,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈvæljuː",
-        "translation": "worth",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_034"
     },
     {
         "word": "virus",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🦠",
         "form": "noun",
         "classification": "regular",
@@ -5454,13 +5655,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈvaɪrəs",
-        "translation": "infection",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_023"
     },
     {
         "word": "vitamin",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "emoji": "💊",
         "form": "noun",
         "classification": "regular",
@@ -5479,13 +5681,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈvaɪtəmɪn",
-        "translation": "supplement",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_026"
     },
     {
         "word": "vote",
         "level": "elementary",
-        "theme": "society_politics_A2",
+        "theme": "social",
         "emoji": "🗳️",
         "form": "noun",
         "classification": "regular",
@@ -5504,13 +5707,14 @@
         ],
         "countability": "countable",
         "transcription": "voʊt",
-        "translation": "choice",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_030"
     },
     {
         "word": "wallet",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "👛",
         "form": "noun",
         "classification": "regular",
@@ -5526,13 +5730,14 @@
         "countability": "countable",
         "subtext": "related to everyday shopping",
         "transcription": "🇬🇧 ˈwɒlɪt | 🇺🇸 ˈwɑːlɪt",
-        "translation": "purse",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_035"
     },
     {
         "word": "waste",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🗑️",
         "form": "noun",
         "classification": "regular",
@@ -5550,13 +5755,14 @@
         ],
         "countability": "uncountable",
         "transcription": "weɪst",
-        "translation": "rubbish",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_031"
     },
     {
         "word": "wedding",
         "level": "elementary",
-        "theme": "marriage_partnership_A2",
+        "theme": "people",
         "emoji": "💒",
         "form": "noun",
         "classification": "regular",
@@ -5575,13 +5781,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈwɛdɪŋ",
-        "translation": "marriage",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_people_087"
     },
     {
         "word": "wildlife",
         "level": "elementary",
-        "theme": "animals_nature_A2",
+        "theme": "animals",
         "emoji": "🦁",
         "form": "noun",
         "classification": "regular",
@@ -5600,13 +5807,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈwaɪldlaɪf",
-        "translation": "animals",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_animals_009"
     },
     {
         "word": "wind farm",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌬️",
         "form": "noun",
         "classification": "regular",
@@ -5625,13 +5833,14 @@
         ],
         "countability": "countable",
         "transcription": "wɪnd fɑːrm",
-        "translation": "site",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_032"
     },
     {
         "word": "wind turbine",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌬️",
         "form": "noun",
         "classification": "regular",
@@ -5649,13 +5858,14 @@
         ],
         "countability": "countable",
         "transcription": "wɪnd ˈtɜːrbaɪn",
-        "translation": "generator",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_environment_033"
     },
     {
         "word": "witness",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "👁️",
         "form": "noun",
         "classification": "regular",
@@ -5674,13 +5884,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈwɪtnəs",
-        "translation": "observer",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_psychology_011"
     },
     {
         "word": "workout",
         "level": "elementary",
-        "theme": "exercise_fitness_A2",
+        "theme": "sports",
         "emoji": "💪",
         "form": "noun",
         "classification": "regular",
@@ -5700,13 +5911,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈwɜːrkaʊt",
-        "translation": "exercise",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_sports_002"
     },
     {
         "word": "yoga",
         "level": "elementary",
-        "theme": "exercise_fitness_A2",
+        "theme": "sports",
         "emoji": "🧘",
         "form": "noun",
         "classification": "regular",
@@ -5725,13 +5937,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈjoʊɡə",
-        "translation": "stretching",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_sports_003"
     },
     {
         "word": "accident",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🚗💥",
         "form": "noun",
         "classification": "regular",
@@ -5752,13 +5965,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈæksɪdənt",
-        "translation": "mishap",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_038"
     },
     {
         "word": "adventure",
         "level": "elementary",
-        "theme": "holiday_types_A2",
+        "theme": "travel",
         "emoji": "🎒",
         "form": "noun",
         "classification": "regular",
@@ -5779,13 +5993,14 @@
         ],
         "countability": "countable",
         "transcription": "ədˈvɛntʃər",
-        "translation": "quest",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_043"
     },
     {
         "word": "ambulance",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🚑",
         "form": "noun",
         "classification": "regular",
@@ -5804,13 +6019,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈæmbjələns",
-        "translation": "vehicle",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_039"
     },
     {
         "word": "anniversary",
         "level": "elementary",
-        "theme": "customs_traditions_A2",
+        "theme": "describing",
         "emoji": "🎉",
         "form": "noun",
         "classification": "regular",
@@ -5829,13 +6045,14 @@
         ],
         "countability": "countable",
         "transcription": "ˌænɪˈvɜːrsəri",
-        "translation": "celebration",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_040"
     },
     {
         "word": "audience",
         "level": "elementary",
-        "theme": "art_design_A2",
+        "theme": "art_culture",
         "emoji": "🎭",
         "form": "noun",
         "classification": "regular",
@@ -5855,13 +6072,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈɔːdiəns",
-        "translation": "spectators",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_art_culture_002"
     },
     {
         "word": "behavior",
         "level": "elementary",
-        "theme": "personality_character_A2",
+        "theme": "people",
         "emoji": "😇",
         "form": "noun",
         "classification": "regular",
@@ -5882,13 +6100,14 @@
         ],
         "countability": "uncountable",
         "transcription": "bɪˈheɪvjər",
-        "translation": "conduct",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_people_088"
     },
     {
         "word": "belief",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🙏",
         "form": "noun",
         "classification": "regular",
@@ -5907,13 +6126,14 @@
         ],
         "countability": "countable",
         "transcription": "bɪˈliːf",
-        "translation": "faith",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_041"
     },
     {
         "word": "celebrity",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "🌟",
         "form": "noun",
         "classification": "regular",
@@ -5932,13 +6152,14 @@
         ],
         "countability": "countable",
         "transcription": "səˈlɛbrəti",
-        "translation": "famous person",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_042"
     },
     {
         "word": "ceremony",
         "level": "elementary",
-        "theme": "customs_traditions_A2",
+        "theme": "describing",
         "emoji": "🤵",
         "form": "noun",
         "classification": "regular",
@@ -5957,13 +6178,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈsɛrəməni",
-        "translation": "event",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_043"
     },
     {
         "word": "challenge",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏔️",
         "form": "noun",
         "classification": "regular",
@@ -5984,13 +6206,14 @@
         ],
         "countability": "countable",
         "transcription": "ˈtʃælɪndʒ",
-        "translation": "test",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_057"
     },
     {
         "word": "charity",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -6011,13 +6234,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈtʃærəti",
-        "translation": "aid",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_044"
     },
     {
         "word": "clue",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🔎",
         "form": "noun",
         "classification": "regular",
@@ -6037,13 +6261,14 @@
         ],
         "countability": "countable",
         "transcription": "kluː",
-        "translation": "hint",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_045"
     },
     {
         "word": "collection",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "📦",
         "form": "noun",
         "classification": "regular",
@@ -6062,13 +6287,14 @@
         ],
         "countability": "countable",
         "transcription": "kəˈlɛkʃn",
-        "translation": "set",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_031"
     },
     {
         "word": "comfort",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "emoji": "🛋️",
         "form": "noun",
         "classification": "regular",
@@ -6088,13 +6314,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈkʌmfərt",
-        "translation": "ease",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_furniture_008"
     },
     {
         "word": "complaint",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "😠",
         "form": "noun",
         "classification": "regular",
@@ -6113,13 +6340,14 @@
         ],
         "countability": "countable",
         "transcription": "kəmˈpleɪnt",
-        "translation": "protest",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_046"
     },
     {
         "word": "confidence",
         "level": "elementary",
-        "theme": "personality_character_A2",
+        "theme": "people",
         "emoji": "✨",
         "form": "noun",
         "classification": "regular",
@@ -6138,13 +6366,14 @@
         ],
         "countability": "uncountable",
         "transcription": "🇬🇧 ˈkɒnfɪdəns | 🇺🇸 ˈkɑːnfɪdəns",
-        "translation": "faith",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_people_089"
     },
     {
         "word": "conflict",
         "level": "elementary",
-        "theme": "society_politics_A2",
+        "theme": "social",
         "emoji": "⚔️",
         "form": "noun",
         "classification": "regular",
@@ -6164,13 +6393,14 @@
         ],
         "countability": "uncountable",
         "transcription": "🇬🇧 ˈkɒnflɪkt | 🇺🇸 ˈkɑːnflɪkt",
-        "translation": "clash",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_032"
     },
     {
         "word": "connection",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🔗",
         "form": "noun",
         "classification": "regular",
@@ -6190,13 +6420,14 @@
         ],
         "countability": "countable",
         "transcription": "kəˈnɛkʃn",
-        "translation": "link",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_technology_024"
     },
     {
         "word": "consequence",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "📉",
         "form": "noun",
         "classification": "regular",
@@ -6216,13 +6447,14 @@
         ],
         "countability": "countable",
         "transcription": "🇬🇧 ˈkɒnsɪkwəns | 🇺🇸 ˈkɑːnsɪkwəns",
-        "translation": "result",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_047"
     },
     {
         "word": "context",
         "level": "elementary",
-        "theme": "language_communication_A2",
+        "theme": "language",
         "emoji": "📖",
         "form": "noun",
         "classification": "regular",
@@ -6242,13 +6474,14 @@
         ],
         "countability": "uncountable",
         "transcription": "🇬🇧 ˈkɒntɛkst | 🇺🇸 ˈkɑːntɛkst",
-        "translation": "setting",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_language_005"
     },
     {
         "word": "cooperation",
         "level": "elementary",
-        "theme": "society_politics_A2",
+        "theme": "social",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -6267,13 +6500,14 @@
         ],
         "countability": "uncountable",
         "transcription": "🇬🇧 koʊˌɒpəˈreɪʃn | 🇺🇸 koʊˌɑːpəˈreɪʃn",
-        "translation": "teamwork",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_033"
     },
     {
         "word": "courage",
         "level": "elementary",
-        "theme": "personality_character_A2",
+        "theme": "people",
         "emoji": "🦁",
         "form": "noun",
         "classification": "regular",
@@ -6292,13 +6526,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈkʌrɪdʒ",
-        "translation": "bravery",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_people_090"
     },
     {
         "word": "creativity",
         "level": "elementary",
-        "theme": "art_design_A2",
+        "theme": "art_culture",
         "emoji": "🎨",
         "form": "noun",
         "classification": "regular",
@@ -6319,13 +6554,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˌkriːeɪˈtɪvəti",
-        "translation": "imagination",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_art_culture_003"
     },
     {
         "word": "credit",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💳",
         "form": "noun",
         "classification": "regular",
@@ -6344,13 +6580,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈkrɛdɪt",
-        "translation": "trust",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_036"
     },
     {
         "word": "crime",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "🚫",
         "form": "noun",
         "classification": "regular",
@@ -6369,13 +6606,14 @@
         ],
         "countability": "countable",
         "transcription": "kraɪm",
-        "translation": "illegal act",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_psychology_012"
     },
     {
         "word": "culture",
         "level": "elementary",
-        "theme": "society_politics_A2",
+        "theme": "social",
         "emoji": "🎨",
         "form": "noun",
         "classification": "regular",
@@ -6396,13 +6634,14 @@
         ],
         "countability": "uncountable",
         "transcription": "ˈkʌltʃər",
-        "translation": "way of life",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_social_034"
     },
     {
         "word": "drought",
         "level": "elementary",
-        "theme": "weather_climate_A2",
+        "theme": "nature",
         "emoji": "🌵",
         "form": "noun",
         "classification": "regular",
@@ -6423,13 +6662,14 @@
             "lack of rain"
         ],
         "transcription": "draʊt",
-        "translation": "dry spell",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_026"
     },
     {
         "word": "forecast",
         "level": "elementary",
-        "theme": "weather_climate_A2",
+        "theme": "nature",
         "emoji": "📺",
         "form": "noun",
         "classification": "regular",
@@ -6450,13 +6690,14 @@
             "weather report"
         ],
         "transcription": "ˈfɔːrkæst",
-        "translation": "prediction",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_027"
     },
     {
         "word": "humidity",
         "level": "elementary",
-        "theme": "weather_climate_A2",
+        "theme": "nature",
         "emoji": "💦",
         "form": "noun",
         "classification": "regular",
@@ -6473,13 +6714,14 @@
         ],
         "subtext": "moisture in the air",
         "transcription": "hjuːˈmɪdəti",
-        "translation": "moisture",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_nature_028"
     },
     {
         "word": "stage",
         "level": "elementary",
-        "theme": "theatre_performance_A2",
+        "theme": "art_culture",
         "emoji": "🎭",
         "form": "noun",
         "classification": "regular",
@@ -6500,13 +6742,14 @@
             "platform"
         ],
         "transcription": "steɪdʒ",
-        "translation": "platform",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_art_culture_004"
     },
     {
         "word": "script",
         "level": "elementary",
-        "theme": "theatre_performance_A2",
+        "theme": "art_culture",
         "emoji": "📜",
         "form": "noun",
         "classification": "regular",
@@ -6527,13 +6770,14 @@
             "play text"
         ],
         "transcription": "skrɪpt",
-        "translation": "text",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_art_culture_005"
     },
     {
         "word": "rehearsal",
         "level": "elementary",
-        "theme": "theatre_performance_A2",
+        "theme": "art_culture",
         "emoji": "🎭",
         "form": "noun",
         "classification": "regular",
@@ -6554,13 +6798,14 @@
             "preparation"
         ],
         "transcription": "rɪˈhɜːrsl",
-        "translation": "practice",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_art_culture_006"
     },
     {
         "word": "reservation",
         "level": "elementary",
-        "theme": "restaurants_ordering_A2",
+        "theme": "food_drink",
         "emoji": "📅",
         "form": "noun",
         "classification": "regular",
@@ -6581,13 +6826,14 @@
             "advance arrangement"
         ],
         "transcription": "ˌrɛzərˈveɪʃn",
-        "translation": "booking",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_027"
     },
     {
         "word": "main course",
         "level": "elementary",
-        "theme": "restaurants_ordering_A2",
+        "theme": "food_drink",
         "emoji": "🍽️",
         "form": "noun",
         "classification": "regular",
@@ -6608,13 +6854,14 @@
             "primary dish"
         ],
         "transcription": "meɪn kɔːrs",
-        "translation": "dish",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_028"
     },
     {
         "word": "buffet",
         "level": "elementary",
-        "theme": "restaurants_ordering_A2",
+        "theme": "food_drink",
         "emoji": "🍲",
         "form": "noun",
         "classification": "regular",
@@ -6634,13 +6881,14 @@
             "self-service meal"
         ],
         "transcription": "ˈbʊfeɪ",
-        "translation": "self-service",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_029"
     },
     {
         "word": "tip",
         "level": "elementary",
-        "theme": "restaurants_ordering_A2",
+        "theme": "food_drink",
         "emoji": "💸",
         "form": "noun",
         "classification": "regular",
@@ -6661,13 +6909,14 @@
             "service charge"
         ],
         "transcription": "tɪp",
-        "translation": "gratuity",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_030"
     },
     {
         "word": "fitting room",
         "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
+        "theme": "shopping",
         "emoji": "👗",
         "form": "noun",
         "classification": "regular",
@@ -6688,13 +6937,14 @@
             "try-on room"
         ],
         "transcription": "ˈfɪtɪŋ ruːm",
-        "translation": "changing room",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_shopping_004"
     },
     {
         "word": "discount",
         "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
+        "theme": "shopping",
         "emoji": "🏷️",
         "form": "noun",
         "classification": "regular",
@@ -6715,13 +6965,14 @@
             "price cut"
         ],
         "transcription": "ˈdɪskaʊnt",
-        "translation": "reduction",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_shopping_005"
     },
     {
         "word": "refund",
         "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
+        "theme": "shopping",
         "emoji": "💵",
         "form": "noun",
         "classification": "regular",
@@ -6742,13 +6993,14 @@
             "repayment"
         ],
         "transcription": "ˈriːfʌnd",
-        "translation": "money back",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_shopping_006"
     },
     {
         "word": "departure",
         "level": "elementary",
-        "theme": "at_the_airport_A2",
+        "theme": "travel",
         "emoji": "🛫",
         "form": "noun",
         "classification": "regular",
@@ -6768,15 +7020,15 @@
             "leaving",
             "setting off"
         ],
-        "opposite": "arrival",
         "transcription": "dɪˈpɑːrtʃər",
-        "translation": "leaving",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_044"
     },
     {
         "word": "arrival",
         "level": "elementary",
-        "theme": "at_the_airport_A2",
+        "theme": "travel",
         "emoji": "🛬",
         "form": "noun",
         "classification": "regular",
@@ -6796,15 +7048,15 @@
             "coming",
             "reaching"
         ],
-        "opposite": "departure",
         "transcription": "əˈraɪvl",
-        "translation": "coming",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_045"
     },
     {
         "word": "junction",
         "level": "elementary",
-        "theme": "driving_roads_A2",
+        "theme": "travel",
         "emoji": "🛣️",
         "form": "noun",
         "classification": "regular",
@@ -6825,13 +7077,14 @@
             "road crossing"
         ],
         "transcription": "ˈdʒʌŋkʃn",
-        "translation": "intersection",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_046"
     },
     {
         "word": "traffic lights",
         "level": "elementary",
-        "theme": "driving_roads_A2",
+        "theme": "travel",
         "emoji": "🚦",
         "form": "noun",
         "classification": "regular",
@@ -6852,13 +7105,14 @@
             "signal"
         ],
         "transcription": "ˈtræfɪk laɪts",
-        "translation": "signals",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_047"
     },
     {
         "word": "removal company",
         "level": "elementary",
-        "theme": "moving_home_A2",
+        "theme": "furniture",
         "emoji": "🚚",
         "form": "noun",
         "classification": "regular",
@@ -6879,13 +7133,14 @@
             "movers"
         ],
         "transcription": "rɪˈmuːvl ˈkʌmpəni",
-        "translation": "movers",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_furniture_009"
     },
     {
         "word": "roughly",
         "level": "elementary",
-        "theme": "approximation_A2",
+        "theme": "numbers",
         "emoji": "📏",
         "form": "adverb",
         "definitions": [
@@ -6903,13 +7158,14 @@
             "approximately"
         ],
         "transcription": "ˈrʌfli",
-        "translation": "about",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_037"
     },
     {
         "word": "extremely",
         "level": "elementary",
-        "theme": "degree_adverbs_A2",
+        "theme": "language",
         "emoji": "🔥",
         "form": "adverb",
         "definitions": [
@@ -6926,15 +7182,15 @@
             "very",
             "incredibly"
         ],
-        "opposite": "slightly",
         "transcription": "ɪkˈstriːmli",
-        "translation": "very",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_language_006"
     },
     {
         "word": "fairly",
         "level": "elementary",
-        "theme": "degree_adverbs_A2",
+        "theme": "language",
         "emoji": "⚖️",
         "form": "adverb",
         "definitions": [
@@ -6951,15 +7207,15 @@
             "quite",
             "moderately"
         ],
-        "opposite": "extremely",
         "transcription": "ˈfɛərli",
-        "translation": "quite",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_language_007"
     },
     {
         "word": "certificate",
         "level": "elementary",
-        "theme": "qualifications_exams_A2",
+        "theme": "school",
         "emoji": "📜",
         "form": "noun",
         "classification": "regular",
@@ -6980,13 +7236,14 @@
             "diploma"
         ],
         "transcription": "sərˈtɪfɪkət",
-        "translation": "diploma",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_school_009"
     },
     {
         "word": "grade",
         "level": "elementary",
-        "theme": "qualifications_exams_A2",
+        "theme": "school",
         "emoji": "🅰️",
         "form": "noun",
         "classification": "regular",
@@ -7007,13 +7264,14 @@
             "score"
         ],
         "transcription": "ɡreɪd",
-        "translation": "mark",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_school_010"
     },
     {
         "word": "citizen",
         "level": "elementary",
-        "theme": "community_neighbourhood_local_A2",
+        "theme": "furniture",
         "emoji": "👤",
         "form": "noun",
         "classification": "regular",
@@ -7034,13 +7292,14 @@
             "inhabitant"
         ],
         "transcription": "ˈsɪtɪzn",
-        "translation": "national",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_places_084"
     },
     {
         "word": "facility",
         "level": "elementary",
-        "theme": "community_neighbourhood_local_A2",
+        "theme": "furniture",
         "emoji": "🏢",
         "form": "noun",
         "classification": "regular",
@@ -7061,13 +7320,14 @@
             "service"
         ],
         "transcription": "fəˈsɪləti",
-        "translation": "amenity",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_places_085"
     },
     {
         "word": "volunteer",
         "level": "elementary",
-        "theme": "community_neighbourhood_local_A2",
+        "theme": "furniture",
         "emoji": "🙋",
         "form": "noun",
         "classification": "regular",
@@ -7087,13 +7347,14 @@
             "unpaid worker"
         ],
         "transcription": "🇬🇧 ˌvɒlənˈtɪər | 🇺🇸 ˌvɑːlənˈtɪər",
-        "translation": "helper",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_places_086"
     },
     {
         "word": "exhibition",
         "level": "elementary",
-        "theme": "art_design_A2",
+        "theme": "art_culture",
         "emoji": "🖼️",
         "form": "noun",
         "classification": "regular",
@@ -7114,13 +7375,14 @@
             "display"
         ],
         "transcription": "ˌɛksɪˈbɪʃn",
-        "translation": "display",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_art_culture_007"
     },
     {
         "word": "gallery",
         "level": "elementary",
-        "theme": "art_design_A2",
+        "theme": "art_culture",
         "emoji": "🏛️",
         "form": "noun",
         "classification": "regular",
@@ -7140,13 +7402,14 @@
             "art museum"
         ],
         "transcription": "ˈɡæləri",
-        "translation": "showroom",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_art_culture_008"
     },
     {
         "word": "portrait",
         "level": "elementary",
-        "theme": "art_design_A2",
+        "theme": "art_culture",
         "emoji": "👤",
         "form": "noun",
         "classification": "regular",
@@ -7163,13 +7426,14 @@
         ],
         "subtext": "picture of a person",
         "transcription": "ˈpɔːrtrət",
-        "translation": "picture",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_art_culture_009"
     },
     {
         "word": "couple",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "👫",
         "form": "noun",
         "classification": "regular",
@@ -7189,13 +7453,14 @@
             "pair of people"
         ],
         "transcription": "ˈkʌpl",
-        "translation": "pair",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_people_091"
     },
     {
         "word": "comedy",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "😂",
         "form": "noun",
         "classification": "regular",
@@ -7216,13 +7481,14 @@
             "funny movie"
         ],
         "transcription": "🇬🇧 ˈkɒmədi | 🇺🇸 ˈkɑːmədi",
-        "translation": "funny show",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_048"
     },
     {
         "word": "documentary",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "📹",
         "form": "noun",
         "classification": "regular",
@@ -7243,13 +7509,14 @@
             "non-fiction film"
         ],
         "transcription": "🇬🇧 ˌdɒkjuˈmɛntri | 🇺🇸 ˌdɑːkjuˈmɛntri",
-        "translation": "factual film",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_049"
     },
     {
         "word": "drama",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "🎭",
         "form": "noun",
         "classification": "regular",
@@ -7270,13 +7537,14 @@
             "theatrical work"
         ],
         "transcription": "ˈdrɑːmə",
-        "translation": "serious show",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_050"
     },
     {
         "word": "entertainment",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "🎉",
         "form": "noun",
         "classification": "regular",
@@ -7297,13 +7565,14 @@
             "leisure activity"
         ],
         "transcription": "ˌɛntərˈteɪnmənt",
-        "translation": "fun",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_051"
     },
     {
         "word": "lately",
         "level": "elementary",
-        "theme": "past_time_A2",
+        "theme": "time",
         "emoji": "🕒",
         "form": "adverb",
         "definitions": [
@@ -7321,13 +7590,14 @@
             "in recent times"
         ],
         "transcription": "ˈleɪtli",
-        "translation": "recently",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_time_006"
     },
     {
         "word": "shortly",
         "level": "elementary",
-        "theme": "future_time_A2",
+        "theme": "time",
         "emoji": "⏱️",
         "form": "adverb",
         "definitions": [
@@ -7345,13 +7615,14 @@
             "in a moment"
         ],
         "transcription": "ˈʃɔːrtli",
-        "translation": "soon",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_time_007"
     },
     {
         "word": "eventually",
         "level": "elementary",
-        "theme": "future_time_A2",
+        "theme": "time",
         "emoji": "🏁",
         "form": "adverb",
         "definitions": [
@@ -7369,13 +7640,14 @@
             "in the end"
         ],
         "transcription": "ɪˈvɛntʃuəli",
-        "translation": "finally",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_time_008"
     },
     {
         "word": "firstly",
         "level": "elementary",
-        "theme": "sequence_order_A2",
+        "theme": "time",
         "emoji": "1️⃣",
         "form": "adverb",
         "definitions": [
@@ -7393,13 +7665,14 @@
             "to begin with"
         ],
         "transcription": "ˈfɜːrstli",
-        "translation": "first",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_time_009"
     },
     {
         "word": "secondly",
         "level": "elementary",
-        "theme": "sequence_order_A2",
+        "theme": "time",
         "emoji": "2️⃣",
         "form": "adverb",
         "definitions": [
@@ -7417,13 +7690,14 @@
             "furthermore"
         ],
         "transcription": "ˈsɛkəndli",
-        "translation": "second",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_time_010"
     },
     {
         "word": "finally",
         "level": "elementary",
-        "theme": "sequence_order_A2",
+        "theme": "time",
         "emoji": "🏁",
         "form": "adverb",
         "definitions": [
@@ -7441,13 +7715,14 @@
             "in the end"
         ],
         "transcription": "ˈfaɪnəli",
-        "translation": "last",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_time_011"
     },
     {
         "word": "hostel",
         "level": "elementary",
-        "theme": "accommodation_A2",
+        "theme": "describing",
         "emoji": "🛌",
         "form": "noun",
         "classification": "regular",
@@ -7467,13 +7742,14 @@
             "cheap hotel"
         ],
         "transcription": "🇬🇧 ˈhɒstl | 🇺🇸 ˈhɑːstl",
-        "translation": "hotel",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_052"
     },
     {
         "word": "campsite",
         "level": "elementary",
-        "theme": "accommodation_A2",
+        "theme": "describing",
         "emoji": "⛺",
         "form": "noun",
         "classification": "regular",
@@ -7494,13 +7770,14 @@
             "tent site"
         ],
         "transcription": "ˈkæmpsaɪt",
-        "translation": "camp ground",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_053"
     },
     {
         "word": "balanced diet",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🥗",
         "form": "noun",
         "classification": "regular",
@@ -7520,13 +7797,14 @@
             "nutritious diet"
         ],
         "transcription": "ˈbælənst ˈdaɪət",
-        "translation": "healthy eating",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_031"
     },
     {
         "word": "calorie",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🔥",
         "form": "noun",
         "classification": "regular",
@@ -7547,13 +7825,14 @@
             "food energy"
         ],
         "transcription": "ˈkæləri",
-        "translation": "unit",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_food_drink_032"
     },
     {
         "word": "cover letter",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "📧",
         "form": "noun",
         "classification": "regular",
@@ -7574,13 +7853,14 @@
             "job letter"
         ],
         "transcription": "ˈkʌvər ˈlɛtər",
-        "translation": "letter",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_work_058"
     },
     {
         "word": "estate agent",
         "level": "elementary",
-        "theme": "moving_home_A2",
+        "theme": "furniture",
         "emoji": "🏠",
         "form": "noun",
         "classification": "regular",
@@ -7601,13 +7881,14 @@
             "property agent"
         ],
         "transcription": "ɪˈsteɪt ˈeɪdʒənt",
-        "translation": "realtor",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_furniture_010"
     },
     {
         "word": "window shopping",
         "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
+        "theme": "shopping",
         "emoji": "🛍️",
         "form": "noun",
         "classification": "regular",
@@ -7627,13 +7908,14 @@
             "looking only"
         ],
         "transcription": "🇬🇧 ˈwɪndoʊ ˈʃɒpɪŋ | 🇺🇸 ˈwɪndoʊ ˈʃɑːpɪŋ",
-        "translation": "browsing",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_shopping_007"
     },
     {
         "word": "painkiller",
         "level": "elementary",
-        "theme": "health_body_A2",
+        "theme": "health_medicine",
         "emoji": "💊",
         "form": "noun",
         "classification": "regular",
@@ -7654,13 +7936,14 @@
             "analgesic"
         ],
         "transcription": "ˈpeɪnkɪlər",
-        "translation": "medicine",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_health_medicine_001"
     },
     {
         "word": "bandage",
         "level": "elementary",
-        "theme": "health_body_A2",
+        "theme": "health_medicine",
         "emoji": "🩹",
         "form": "noun",
         "classification": "regular",
@@ -7681,13 +7964,14 @@
             "medical wrap"
         ],
         "transcription": "ˈbændɪdʒ",
-        "translation": "dressing",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_health_medicine_002"
     },
     {
         "word": "prescription",
         "level": "elementary",
-        "theme": "health_body_A2",
+        "theme": "health_medicine",
         "emoji": "📄",
         "form": "noun",
         "classification": "regular",
@@ -7708,13 +7992,14 @@
             "medicine order"
         ],
         "transcription": "prɪˈskrɪpʃn",
-        "translation": "order",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_health_medicine_003"
     },
     {
         "word": "symptom",
         "level": "elementary",
-        "theme": "health_body_A2",
+        "theme": "health_medicine",
         "emoji": "🤒",
         "form": "noun",
         "classification": "regular",
@@ -7734,13 +8019,14 @@
             "sign of illness"
         ],
         "transcription": "ˈsɪmptəm",
-        "translation": "sign",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_health_medicine_004"
     },
     {
         "word": "landmark",
         "level": "elementary",
-        "theme": "directions_location_A2",
+        "theme": "travel",
         "emoji": "🏛️",
         "form": "noun",
         "classification": "regular",
@@ -7761,13 +8047,14 @@
             "recognizable place"
         ],
         "transcription": "ˈlændmɑːrk",
-        "translation": "monument",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_048"
     },
     {
         "word": "crossroads",
         "level": "elementary",
-        "theme": "directions_location_A2",
+        "theme": "travel",
         "emoji": "✖️",
         "form": "noun",
         "classification": "regular",
@@ -7788,13 +8075,14 @@
             "crossing"
         ],
         "transcription": "🇬🇧 ˈkrɒsroʊdz | 🇺🇸 ˈkrɑːsroʊdz",
-        "translation": "crossing",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_049"
     },
     {
         "word": "single room",
         "level": "elementary",
-        "theme": "accommodation_A2",
+        "theme": "describing",
         "emoji": "🛌",
         "form": "noun",
         "classification": "regular",
@@ -7814,13 +8102,14 @@
             "one-person room"
         ],
         "transcription": "ˈsɪŋɡl ruːm",
-        "translation": "room",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_054"
     },
     {
         "word": "double room",
         "level": "elementary",
-        "theme": "accommodation_A2",
+        "theme": "describing",
         "emoji": "🛌🛌",
         "form": "noun",
         "classification": "regular",
@@ -7840,13 +8129,14 @@
             "two-person room"
         ],
         "transcription": "ˈdʌbl ruːm",
-        "translation": "room",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_055"
     },
     {
         "word": "point of view",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "👁️",
         "form": "noun",
         "classification": "regular",
@@ -7867,13 +8157,14 @@
             "perspective"
         ],
         "transcription": "pɔɪnt əv vjuː",
-        "translation": "perspective",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_describing_056"
     },
     {
         "word": "itinerary",
         "level": "elementary",
-        "theme": "booking_planning_a_trip_A2",
+        "theme": "travel",
         "emoji": "🗺️",
         "form": "noun",
         "classification": "regular",
@@ -7894,13 +8185,14 @@
             "schedule"
         ],
         "transcription": "aɪˈtɪnərəri",
-        "translation": "plan",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_050"
     },
     {
         "word": "travel agent",
         "level": "elementary",
-        "theme": "booking_planning_a_trip_A2",
+        "theme": "travel",
         "emoji": "🏢",
         "form": "noun",
         "classification": "regular",
@@ -7921,13 +8213,14 @@
             "travel consultant"
         ],
         "transcription": "ˈtrævl ˈeɪdʒənt",
-        "translation": "consultant",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_travel_051"
     },
     {
         "word": "overdraft",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "📉",
         "form": "noun",
         "classification": "regular",
@@ -7948,13 +8241,14 @@
             "negative balance"
         ],
         "transcription": "ˈoʊvərdræft",
-        "translation": "debt",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_038"
     },
     {
         "word": "statement",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "📄",
         "form": "noun",
         "classification": "regular",
@@ -7975,13 +8269,14 @@
             "account summary"
         ],
         "transcription": "ˈsteɪtmənt",
-        "translation": "record",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_numbers_039"
     },
     {
         "word": "partially",
         "level": "elementary",
-        "theme": "degree_adverbs_A2",
+        "theme": "language",
         "emoji": "🌓",
         "form": "adverb",
         "definitions": [
@@ -7998,15 +8293,15 @@
             "partly",
             "in part"
         ],
-        "opposite": "completely",
         "transcription": "ˈpɑːrʃəli",
-        "translation": "partly",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_language_008"
     },
     {
         "word": "strongly",
         "level": "elementary",
-        "theme": "degree_adverbs_A2",
+        "theme": "language",
         "emoji": "💪",
         "form": "adverb",
         "definitions": [
@@ -8023,10 +8318,10 @@
             "firmly",
             "powerfully"
         ],
-        "opposite": "weakly",
         "transcription": "🇬🇧 ˈstrɒŋli | 🇺🇸 ˈstrɑːŋli",
-        "translation": "firmly",
-        "language": "en"
+        "language": "en",
+        "lang": "en",
+        "id": "en_elementary_language_009"
     }
 ];
 })();

@@ -4,7 +4,7 @@ const data = [
     {
         "word": "lavarsi i denti",
         "level": "elementary",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🪥",
         "form": "verb",
         "group": "are",
@@ -21,12 +21,15 @@ const data = [
         ],
         "v3": "lavato i denti",
         "auxiliary": "essere",
-        "v4": "lavarsi i deando"
+        "v4": "lavarsi i deando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_furniture_007"
     },
     {
         "word": "farsi la doccia",
         "level": "elementary",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🚿",
         "form": "verb",
         "group": "are",
@@ -43,12 +46,15 @@ const data = [
         ],
         "v3": "fatto la doccia",
         "auxiliary": "essere",
-        "v4": "farsi la docando"
+        "v4": "farsi la docando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_furniture_008"
     },
     {
         "word": "sembrare",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤔",
         "form": "verb",
         "group": "are",
@@ -65,12 +71,15 @@ const data = [
         ],
         "v3": "sembrato",
         "auxiliary": "essere",
-        "v4": "sembrando"
+        "v4": "sembrando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_042"
     },
     {
         "word": "diventare",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🦋",
         "form": "verb",
         "group": "are",
@@ -87,12 +96,15 @@ const data = [
         ],
         "v3": "diventato",
         "auxiliary": "essere",
-        "v4": "diventando"
+        "v4": "diventando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_043"
     },
     {
         "word": "credere",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🙏",
         "form": "verb",
         "group": "ere",
@@ -109,12 +121,15 @@ const data = [
         ],
         "v3": "creduto",
         "auxiliary": "avere",
-        "v4": "credendo"
+        "v4": "credendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_036"
     },
     {
         "word": "succedere",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "⚡",
         "form": "verb",
         "group": "ere",
@@ -134,12 +149,15 @@ const data = [
         ],
         "v3": "successo",
         "auxiliary": "essere",
-        "v4": "succedendo"
+        "v4": "succedendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_037"
     },
     {
         "word": "includere",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "➕",
         "form": "verb",
         "group": "ere",
@@ -155,12 +173,15 @@ const data = [
             }
         ],
         "v3": "incluso",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_038"
     },
     {
         "word": "continuare",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "➡️",
         "form": "verb",
         "group": "are",
@@ -177,12 +198,15 @@ const data = [
         ],
         "v3": "continuato",
         "auxiliary": "avere",
-        "v4": "continuando"
+        "v4": "continuando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_039"
     },
     {
         "word": "impostare",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "⚙️",
         "form": "verb",
         "group": "are",
@@ -199,12 +223,15 @@ const data = [
         ],
         "v3": "impostato",
         "auxiliary": "avere",
-        "v4": "impostando"
+        "v4": "impostando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_040"
     },
     {
         "word": "guidare",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "👑",
         "form": "verb",
         "group": "are",
@@ -221,12 +248,15 @@ const data = [
         ],
         "v3": "guidato",
         "auxiliary": "avere",
-        "v4": "guidando"
+        "v4": "guidando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_044"
     },
     {
         "word": "seguire",
         "level": "elementary",
-        "theme": "directions_navigation_A1",
+        "theme": "describing",
         "emoji": "👣",
         "form": "verb",
         "group": "ire",
@@ -243,12 +273,15 @@ const data = [
         ],
         "v3": "seguito",
         "auxiliary": "avere",
-        "v4": "seguendo"
+        "v4": "seguendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_041"
     },
     {
         "word": "creare",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "✨",
         "form": "verb",
         "group": "are",
@@ -265,12 +298,15 @@ const data = [
         ],
         "v3": "creato",
         "auxiliary": "avere",
-        "v4": "creando"
+        "v4": "creando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_social_042"
     },
     {
         "word": "permettere",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "✅",
         "form": "verb",
         "group": "ere",
@@ -289,12 +325,15 @@ const data = [
             }
         ],
         "v3": "permesso",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_045"
     },
     {
         "word": "crescere",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌱",
         "form": "verb",
         "group": "ere",
@@ -310,12 +349,15 @@ const data = [
             }
         ],
         "v3": "cresciuto",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_environment_008"
     },
     {
         "word": "offrire",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤲",
         "form": "verb",
         "group": "ire",
@@ -332,12 +374,15 @@ const data = [
         ],
         "v3": "offerto",
         "auxiliary": "avere",
-        "v4": "offrendo"
+        "v4": "offrendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_046"
     },
     {
         "word": "considerare",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🤔",
         "form": "verb",
         "group": "are",
@@ -354,12 +399,15 @@ const data = [
         ],
         "v3": "considerato",
         "auxiliary": "avere",
-        "v4": "considerando"
+        "v4": "considerando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_042"
     },
     {
         "word": "apparire",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "👻",
         "form": "verb",
         "group": "ire",
@@ -375,12 +423,15 @@ const data = [
             }
         ],
         "v3": "apparso",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_047"
     },
     {
         "word": "servire",
         "level": "elementary",
-        "theme": "restaurants_ordering_A2",
+        "theme": "food_drink",
         "emoji": "🍽️",
         "form": "verb",
         "group": "ire",
@@ -397,12 +448,15 @@ const data = [
         ],
         "v3": "servito",
         "auxiliary": "avere",
-        "v4": "servendo"
+        "v4": "servendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_food_drink_040"
     },
     {
         "word": "aspettarsi",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💭",
         "form": "verb",
         "group": "are",
@@ -420,12 +474,15 @@ const data = [
         "v3": "aspettato",
         "auxiliary": "essere",
         "reflexive": true,
-        "v4": "aspettaando"
+        "v4": "aspettaando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_043"
     },
     {
         "word": "costruire",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "describing",
         "emoji": "🏗️",
         "form": "verb",
         "group": "ire_isco",
@@ -442,12 +499,15 @@ const data = [
         ],
         "v3": "costruito",
         "auxiliary": "avere",
-        "v4": "costruendo"
+        "v4": "costruendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_044"
     },
     {
         "word": "raggiungere",
         "level": "elementary",
-        "theme": "booking_planning_a_trip_A2",
+        "theme": "travel",
         "emoji": "🏁",
         "form": "verb",
         "group": "ere",
@@ -463,12 +523,15 @@ const data = [
             }
         ],
         "v3": "raggiunto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_travel_031"
     },
     {
         "word": "uccidere",
         "level": "elementary",
-        "theme": "right_wrong_basic_A2",
+        "theme": "psychology",
         "emoji": "⚔️",
         "form": "verb",
         "group": "ere",
@@ -484,12 +547,15 @@ const data = [
             }
         ],
         "v3": "ucciso",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_psychology_001"
     },
     {
         "word": "rimanere",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "⏳",
         "form": "verb",
         "group": "ere",
@@ -505,12 +571,15 @@ const data = [
             }
         ],
         "v3": "rimasto",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_045"
     },
     {
         "word": "suggerire",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💡",
         "form": "verb",
         "group": "ire_isco",
@@ -527,12 +596,15 @@ const data = [
         ],
         "v3": "suggerito",
         "auxiliary": "avere",
-        "v4": "suggerendo"
+        "v4": "suggerendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_046"
     },
     {
         "word": "alzare",
         "level": "elementary",
-        "theme": "family_life_A1",
+        "theme": "describing",
         "emoji": "🙋",
         "form": "verb",
         "group": "are",
@@ -552,12 +624,15 @@ const data = [
         ],
         "v3": "alzato",
         "auxiliary": "avere",
-        "v4": "alzando"
+        "v4": "alzando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_047"
     },
     {
         "word": "richiedere",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "📜",
         "form": "verb",
         "group": "ere",
@@ -573,12 +648,15 @@ const data = [
             }
         ],
         "v3": "richiesto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_048"
     },
     {
         "word": "riferire",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📋",
         "form": "verb",
         "group": "ire_isco",
@@ -595,12 +673,15 @@ const data = [
         ],
         "v3": "riferito",
         "auxiliary": "avere",
-        "v4": "riferendo"
+        "v4": "riferendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_021"
     },
     {
         "word": "spiegare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👨‍🏫",
         "form": "verb",
         "group": "are",
@@ -617,12 +698,15 @@ const data = [
         ],
         "v3": "spiegato",
         "auxiliary": "avere",
-        "v4": "spiegando"
+        "v4": "spiegando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_022"
     },
     {
         "word": "sviluppare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "💻",
         "form": "verb",
         "group": "are",
@@ -639,12 +723,15 @@ const data = [
         ],
         "v3": "sviluppato",
         "auxiliary": "avere",
-        "v4": "sviluppando"
+        "v4": "sviluppando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_023"
     },
     {
         "word": "andare in pensione",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👴",
         "form": "verb",
         "group": "are",
@@ -663,12 +750,15 @@ const data = [
             }
         ],
         "v3": "andato in pensione",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_024"
     },
     {
         "word": "permettersi",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💰",
         "form": "verb",
         "group": "are",
@@ -688,12 +778,15 @@ const data = [
         ],
         "v3": "permesso",
         "auxiliary": "essere",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_015"
     },
     {
         "word": "riciclare",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "♻️",
         "form": "verb",
         "group": "are",
@@ -713,12 +806,15 @@ const data = [
         ],
         "v3": "riciclato",
         "auxiliary": "avere",
-        "v4": "riciclando"
+        "v4": "riciclando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_environment_009"
     },
     {
         "word": "colpire",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "🥊",
         "form": "verb",
         "group": "ire_isco",
@@ -735,12 +831,15 @@ const data = [
         ],
         "v3": "colpito",
         "auxiliary": "avere",
-        "v4": "colpendo"
+        "v4": "colpendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_social_043"
     },
     {
         "word": "produrre",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏭",
         "form": "verb",
         "group": "are",
@@ -756,12 +855,15 @@ const data = [
             }
         ],
         "v3": "prodotto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_025"
     },
     {
         "word": "affrontare",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "👤",
         "form": "verb",
         "group": "are",
@@ -778,12 +880,15 @@ const data = [
         ],
         "v3": "affrontato",
         "auxiliary": "avere",
-        "v4": "affrontando"
+        "v4": "affrontando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_048"
     },
     {
         "word": "coprire",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "describing",
         "emoji": "🧥",
         "form": "verb",
         "group": "ire",
@@ -800,12 +905,15 @@ const data = [
         ],
         "v3": "coperto",
         "auxiliary": "avere",
-        "v4": "coprendo"
+        "v4": "coprendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_049"
     },
     {
         "word": "descrivere",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📝",
         "form": "verb",
         "group": "ere",
@@ -821,12 +929,15 @@ const data = [
             }
         ],
         "v3": "descritto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_026"
     },
     {
         "word": "prendere",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "🎣",
         "form": "verb",
         "group": "ere",
@@ -846,12 +957,15 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "prehendere"
-        }
+        },
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_social_044"
     },
     {
         "word": "fare domanda per",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "📝",
         "form": "verb",
         "group": "are",
@@ -870,12 +984,15 @@ const data = [
             }
         ],
         "v3": "fatto domanda per",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_027"
     },
     {
         "word": "assumere",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "verb",
         "group": "ere",
@@ -891,12 +1008,15 @@ const data = [
             }
         ],
         "v3": "assunto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_028"
     },
     {
         "word": "promuovere",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "verb",
         "group": "ere",
@@ -916,12 +1036,15 @@ const data = [
             }
         ],
         "v3": "promosso",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_029"
     },
     {
         "word": "dimettersi",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🚪",
         "form": "verb",
         "group": "are",
@@ -941,12 +1064,15 @@ const data = [
         ],
         "v3": "dimesso",
         "auxiliary": "essere",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_030"
     },
     {
         "word": "licenziare",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "❌",
         "form": "verb",
         "group": "are",
@@ -966,12 +1092,15 @@ const data = [
         ],
         "v3": "licenziato",
         "auxiliary": "avere",
-        "v4": "licenziando"
+        "v4": "licenziando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_031"
     },
     {
         "word": "delegare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📋",
         "form": "verb",
         "group": "are",
@@ -988,12 +1117,15 @@ const data = [
         ],
         "v3": "delegato",
         "auxiliary": "avere",
-        "v4": "delegando"
+        "v4": "delegando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_032"
     },
     {
         "word": "negoziare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "verb",
         "group": "are",
@@ -1010,12 +1142,15 @@ const data = [
         ],
         "v3": "negoziato",
         "auxiliary": "avere",
-        "v4": "negoziando"
+        "v4": "negoziando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_033"
     },
     {
         "word": "valutare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📊",
         "form": "verb",
         "group": "are",
@@ -1032,12 +1167,15 @@ const data = [
         ],
         "v3": "valutato",
         "auxiliary": "avere",
-        "v4": "valutando"
+        "v4": "valutando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_034"
     },
     {
         "word": "collaborare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👥",
         "form": "verb",
         "group": "are",
@@ -1054,12 +1192,15 @@ const data = [
         ],
         "v3": "collaborato",
         "auxiliary": "avere",
-        "v4": "collaborando"
+        "v4": "collaborando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_035"
     },
     {
         "word": "pianificare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📅",
         "form": "verb",
         "group": "are",
@@ -1076,12 +1217,15 @@ const data = [
         ],
         "v3": "pianificato",
         "auxiliary": "avere",
-        "v4": "pianificando"
+        "v4": "pianificando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_036"
     },
     {
         "word": "investire",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📈",
         "form": "verb",
         "group": "ire",
@@ -1098,12 +1242,15 @@ const data = [
         ],
         "v3": "investito",
         "auxiliary": "avere",
-        "v4": "investendo"
+        "v4": "investendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_016"
     },
     {
         "word": "prendere in prestito",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💸",
         "form": "verb",
         "group": "ere",
@@ -1123,12 +1270,15 @@ const data = [
             }
         ],
         "v3": "preso in prestito",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_017"
     },
     {
         "word": "prestare",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "🤝",
         "form": "verb",
         "group": "are",
@@ -1145,12 +1295,15 @@ const data = [
         ],
         "v3": "prestato",
         "auxiliary": "avere",
-        "v4": "prestando"
+        "v4": "prestando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_018"
     },
     {
         "word": "preventivare",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📊",
         "form": "verb",
         "group": "are",
@@ -1170,12 +1323,15 @@ const data = [
         ],
         "v3": "preventivato",
         "auxiliary": "avere",
-        "v4": "preventivando"
+        "v4": "preventivando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_019"
     },
     {
         "word": "prelevare",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "🏧",
         "form": "verb",
         "group": "are",
@@ -1192,12 +1348,15 @@ const data = [
         ],
         "v3": "prelevato",
         "auxiliary": "avere",
-        "v4": "prelevando"
+        "v4": "prelevando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_020"
     },
     {
         "word": "trasferire",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "📲",
         "form": "verb",
         "group": "ire",
@@ -1217,12 +1376,15 @@ const data = [
         ],
         "v3": "trasferito",
         "auxiliary": "avere",
-        "v4": "trasferendo"
+        "v4": "trasferendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_021"
     },
     {
         "word": "addebitare",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💳",
         "form": "verb",
         "group": "are",
@@ -1239,12 +1401,15 @@ const data = [
         ],
         "v3": "addebitato",
         "auxiliary": "avere",
-        "v4": "addebitando"
+        "v4": "addebitando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_022"
     },
     {
         "word": "richiedere",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📜",
         "form": "verb",
         "group": "ere",
@@ -1260,12 +1425,15 @@ const data = [
             }
         ],
         "v3": "richiesto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_023"
     },
     {
         "word": "litigare",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🗣️",
         "form": "verb",
         "group": "are",
@@ -1282,12 +1450,15 @@ const data = [
         ],
         "v3": "litigato",
         "auxiliary": "avere",
-        "v4": "litigando"
+        "v4": "litigando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_050"
     },
     {
         "word": "fidarsi",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "group": "are",
@@ -1305,12 +1476,15 @@ const data = [
         "v3": "fidato",
         "auxiliary": "essere",
         "reflexive": true,
-        "v4": "fidaando"
+        "v4": "fidaando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_051"
     },
     {
         "word": "sostenere",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "group": "ere",
@@ -1326,12 +1500,15 @@ const data = [
             }
         ],
         "v3": "sostenuto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_052"
     },
     {
         "word": "non essere d'accordo",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "👎",
         "form": "verb",
         "group": "are",
@@ -1351,12 +1528,15 @@ const data = [
             }
         ],
         "v3": "stato in disaccordo",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_053"
     },
     {
         "word": "scusarsi",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🙏",
         "form": "verb",
         "group": "are",
@@ -1374,12 +1554,15 @@ const data = [
         "v3": "scusato",
         "auxiliary": "essere",
         "reflexive": true,
-        "v4": "scusaando"
+        "v4": "scusaando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_054"
     },
     {
         "word": "perdonare",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "group": "are",
@@ -1396,12 +1579,15 @@ const data = [
         ],
         "v3": "perdonato",
         "auxiliary": "avere",
-        "v4": "perdonando"
+        "v4": "perdonando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_055"
     },
     {
         "word": "scendere a compromessi",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "group": "ere",
@@ -1422,12 +1608,15 @@ const data = [
         ],
         "v3": "sceso a compromessi",
         "auxiliary": "essere",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_056"
     },
     {
         "word": "diagnosticare",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🩺",
         "form": "verb",
         "group": "are",
@@ -1444,12 +1633,15 @@ const data = [
         ],
         "v3": "diagnosticato",
         "auxiliary": "avere",
-        "v4": "diagnosticando"
+        "v4": "diagnosticando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_food_drink_041"
     },
     {
         "word": "trattare",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🩹",
         "form": "verb",
         "group": "are",
@@ -1466,12 +1658,15 @@ const data = [
         ],
         "v3": "trattato",
         "auxiliary": "avere",
-        "v4": "trattando"
+        "v4": "trattando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_food_drink_042"
     },
     {
         "word": "prevenire",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🛡️",
         "form": "verb",
         "group": "ire",
@@ -1490,12 +1685,15 @@ const data = [
             }
         ],
         "v3": "prevenuto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_food_drink_043"
     },
     {
         "word": "soffrire",
         "level": "elementary",
-        "theme": "human_body_A2",
+        "theme": "describing",
         "emoji": "🤕",
         "form": "verb",
         "group": "ire",
@@ -1511,12 +1709,15 @@ const data = [
             }
         ],
         "v3": "sofferto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_057"
     },
     {
         "word": "raccomandare",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "💡",
         "form": "verb",
         "group": "are",
@@ -1533,12 +1734,15 @@ const data = [
         ],
         "v3": "raccomandato",
         "auxiliary": "avere",
-        "v4": "raccomandando"
+        "v4": "raccomandando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_058"
     },
     {
         "word": "migliorare",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "📈",
         "form": "verb",
         "group": "are",
@@ -1555,12 +1759,15 @@ const data = [
         ],
         "v3": "migliorato",
         "auxiliary": "avere",
-        "v4": "migliorando"
+        "v4": "migliorando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_food_drink_044"
     },
     {
         "word": "affittare",
         "level": "elementary",
-        "theme": "renting_landlords_A2",
+        "theme": "describing",
         "emoji": "🏠",
         "form": "verb",
         "group": "are",
@@ -1577,12 +1784,15 @@ const data = [
         ],
         "v3": "affittato",
         "auxiliary": "avere",
-        "v4": "affittando"
+        "v4": "affittando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_059"
     },
     {
         "word": "possedere",
         "level": "elementary",
-        "theme": "renting_landlords_A2",
+        "theme": "describing",
         "emoji": "🏡",
         "form": "verb",
         "group": "ere",
@@ -1599,12 +1809,15 @@ const data = [
         ],
         "v3": "posseduto",
         "auxiliary": "avere",
-        "v4": "possedendo"
+        "v4": "possedendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_060"
     },
     {
         "word": "riparare",
         "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
+        "theme": "describing",
         "emoji": "🔧",
         "form": "verb",
         "group": "are",
@@ -1624,12 +1837,15 @@ const data = [
         ],
         "v3": "riparato",
         "auxiliary": "avere",
-        "v4": "riparando"
+        "v4": "riparando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_061"
     },
     {
         "word": "traslocare",
         "level": "elementary",
-        "theme": "moving_home_A2",
+        "theme": "furniture",
         "emoji": "📦",
         "form": "verb",
         "group": "are",
@@ -1650,12 +1866,15 @@ const data = [
         ],
         "v3": "traslocato",
         "auxiliary": "avere",
-        "v4": "traslocando"
+        "v4": "traslocando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_furniture_009"
     },
     {
         "word": "decorare",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "emoji": "🎨",
         "form": "verb",
         "group": "are",
@@ -1675,12 +1894,15 @@ const data = [
         ],
         "v3": "decorato",
         "auxiliary": "avere",
-        "v4": "decorando"
+        "v4": "decorando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_furniture_010"
     },
     {
         "word": "avviare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏗️",
         "form": "verb",
         "group": "are",
@@ -1697,12 +1919,15 @@ const data = [
         ],
         "v3": "avviato",
         "auxiliary": "avere",
-        "v4": "avviando"
+        "v4": "avviando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_037"
     },
     {
         "word": "scoprire",
         "level": "elementary",
-        "theme": "news_media_A2",
+        "theme": "describing",
         "emoji": "🔎",
         "form": "verb",
         "group": "ire",
@@ -1718,12 +1943,15 @@ const data = [
             }
         ],
         "v3": "scoperto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_062"
     },
     {
         "word": "continuare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⏩",
         "form": "verb",
         "group": "are",
@@ -1740,12 +1968,15 @@ const data = [
         ],
         "v3": "continuato",
         "auxiliary": "avere",
-        "v4": "continuando"
+        "v4": "continuando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_038"
     },
     {
         "word": "arrendersi",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏳️",
         "form": "verb",
         "group": "are",
@@ -1765,12 +1996,15 @@ const data = [
         ],
         "v3": "arreso",
         "auxiliary": "essere",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_039"
     },
     {
         "word": "risolvere",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🔧",
         "form": "verb",
         "group": "ere",
@@ -1786,12 +2020,15 @@ const data = [
             }
         ],
         "v3": "risolto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_040"
     },
     {
         "word": "prendersi cura di",
         "level": "elementary",
-        "theme": "relationships_family_A2",
+        "theme": "people",
         "emoji": "👶",
         "form": "verb",
         "group": "are",
@@ -1810,12 +2047,15 @@ const data = [
             }
         ],
         "v3": "preso cura di",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_049"
     },
     {
         "word": "ridurre",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "📉",
         "form": "verb",
         "group": "are",
@@ -1831,12 +2071,15 @@ const data = [
             }
         ],
         "v3": "ridotto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_food_drink_045"
     },
     {
         "word": "assumere",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "💪",
         "form": "verb",
         "group": "ere",
@@ -1856,12 +2099,15 @@ const data = [
             }
         ],
         "v3": "assunto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_041"
     },
     {
         "word": "rifiutare",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "👎",
         "form": "verb",
         "group": "are",
@@ -1878,12 +2124,15 @@ const data = [
         ],
         "v3": "rifiutato",
         "auxiliary": "avere",
-        "v4": "rifiutando"
+        "v4": "rifiutando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_042"
     },
     {
         "word": "rimandare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⏳",
         "form": "verb",
         "group": "are",
@@ -1900,12 +2149,15 @@ const data = [
         ],
         "v3": "rimandato",
         "auxiliary": "avere",
-        "v4": "rimandando"
+        "v4": "rimandando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_043"
     },
     {
         "word": "dovere",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💸",
         "form": "verb",
         "group": "ere",
@@ -1933,12 +2185,15 @@ const data = [
                     "devono"
                 ]
             }
-        }
+        },
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_024"
     },
     {
         "word": "invitare",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "📩",
         "form": "verb",
         "group": "are",
@@ -1955,12 +2210,15 @@ const data = [
         ],
         "v3": "invitato",
         "auxiliary": "avere",
-        "v4": "invitando"
+        "v4": "invitando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_063"
     },
     {
         "word": "confermare",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "✅",
         "form": "verb",
         "group": "are",
@@ -1977,12 +2235,15 @@ const data = [
         ],
         "v3": "confermato",
         "auxiliary": "avere",
-        "v4": "confermando"
+        "v4": "confermando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_064"
     },
     {
         "word": "contattare",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "📞",
         "form": "verb",
         "group": "are",
@@ -2002,12 +2263,15 @@ const data = [
         ],
         "v3": "contattato",
         "auxiliary": "avere",
-        "v4": "contattando"
+        "v4": "contattando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_technology_010"
     },
     {
         "word": "lamentarsi",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "😠",
         "form": "verb",
         "group": "are",
@@ -2028,12 +2292,15 @@ const data = [
         "v3": "lamentato",
         "auxiliary": "essere",
         "reflexive": true,
-        "v4": "lamentaando"
+        "v4": "lamentaando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_065"
     },
     {
         "word": "discutere",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🗣️",
         "form": "verb",
         "group": "ere",
@@ -2049,12 +2316,15 @@ const data = [
             }
         ],
         "v3": "discusso",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_066"
     },
     {
         "word": "presentare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📊",
         "form": "verb",
         "group": "are",
@@ -2071,12 +2341,15 @@ const data = [
         ],
         "v3": "presentato",
         "auxiliary": "avere",
-        "v4": "presentando"
+        "v4": "presentando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_044"
     },
     {
         "word": "accettare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "✅",
         "form": "verb",
         "group": "are",
@@ -2093,12 +2366,15 @@ const data = [
         ],
         "v3": "accettato",
         "auxiliary": "avere",
-        "v4": "accettando"
+        "v4": "accettando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_045"
     },
     {
         "word": "rifiutare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "❌",
         "form": "verb",
         "group": "are",
@@ -2115,12 +2391,15 @@ const data = [
         ],
         "v3": "rifiutato",
         "auxiliary": "avere",
-        "v4": "rifiutando"
+        "v4": "rifiutando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_046"
     },
     {
         "word": "perdere peso",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "⚖️",
         "form": "verb",
         "group": "ere",
@@ -2139,12 +2418,15 @@ const data = [
             }
         ],
         "v3": "perso peso",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_food_drink_046"
     },
     {
         "word": "aumentare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "verb",
         "group": "are",
@@ -2161,12 +2443,15 @@ const data = [
         ],
         "v3": "aumentato",
         "auxiliary": "avere",
-        "v4": "aumentando"
+        "v4": "aumentando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_047"
     },
     {
         "word": "ridurre",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📉",
         "form": "verb",
         "group": "are",
@@ -2182,12 +2467,15 @@ const data = [
             }
         ],
         "v3": "ridotto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_048"
     },
     {
         "word": "migliorare le competenze",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "verb",
         "group": "are",
@@ -2207,12 +2495,15 @@ const data = [
             }
         ],
         "v3": "migliorato le competenze",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_049"
     },
     {
         "word": "fornire",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🤲",
         "form": "verb",
         "group": "ire_isco",
@@ -2229,12 +2520,15 @@ const data = [
         ],
         "v3": "fornito",
         "auxiliary": "avere",
-        "v4": "fornendo"
+        "v4": "fornendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_050"
     },
     {
         "word": "risolvere",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🧩",
         "form": "verb",
         "group": "ere",
@@ -2253,12 +2547,15 @@ const data = [
             }
         ],
         "v3": "risolto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_051"
     },
     {
         "word": "condividere",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "verb",
         "group": "ere",
@@ -2275,12 +2572,15 @@ const data = [
         ],
         "v3": "condiviso",
         "auxiliary": "avere",
-        "v4": "condividendo"
+        "v4": "condividendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_052"
     },
     {
         "word": "unirsi",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "➕",
         "form": "verb",
         "group": "are",
@@ -2301,12 +2601,15 @@ const data = [
         "v3": "unito",
         "auxiliary": "essere",
         "reflexive": true,
-        "v4": "uniando"
+        "v4": "uniando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_053"
     },
     {
         "word": "ricevere",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📩",
         "form": "verb",
         "group": "ere",
@@ -2323,12 +2626,15 @@ const data = [
         ],
         "v3": "ricevuto",
         "auxiliary": "avere",
-        "v4": "ricevendo"
+        "v4": "ricevendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_054"
     },
     {
         "word": "contenere",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📦",
         "form": "verb",
         "group": "ere",
@@ -2347,12 +2653,15 @@ const data = [
             }
         ],
         "v3": "contenuto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_055"
     },
     {
         "word": "pianificare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📅",
         "form": "verb",
         "group": "are",
@@ -2369,12 +2678,15 @@ const data = [
         ],
         "v3": "pianificato",
         "auxiliary": "avere",
-        "v4": "pianificando"
+        "v4": "pianificando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_056"
     },
     {
         "word": "preparare",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📝",
         "form": "verb",
         "group": "are",
@@ -2391,12 +2703,15 @@ const data = [
         ],
         "v3": "preparato",
         "auxiliary": "avere",
-        "v4": "preparando"
+        "v4": "preparando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_057"
     },
     {
         "word": "fallire",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "❌",
         "form": "verb",
         "group": "ire_isco",
@@ -2416,12 +2731,15 @@ const data = [
         ],
         "v3": "fallito",
         "auxiliary": "avere",
-        "v4": "fallendo"
+        "v4": "fallendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_058"
     },
     {
         "word": "avere successo",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏆",
         "form": "verb",
         "group": "ere",
@@ -2440,12 +2758,15 @@ const data = [
             }
         ],
         "v3": "avuto successo",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_059"
     },
     {
         "word": "essere d'accordo",
         "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
+        "theme": "describing",
         "emoji": "🤝",
         "form": "verb",
         "group": "ere",
@@ -2464,12 +2785,15 @@ const data = [
             }
         ],
         "v3": "stato d'accordo",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_067"
     },
     {
         "word": "sostituire",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🔄",
         "form": "verb",
         "group": "ire_isco",
@@ -2489,12 +2813,15 @@ const data = [
         ],
         "v3": "sostituito",
         "auxiliary": "avere",
-        "v4": "sostituendo"
+        "v4": "sostituendo",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_060"
     },
     {
         "word": "cercare",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "🔍",
         "form": "verb",
         "group": "are",
@@ -2511,12 +2838,15 @@ const data = [
         ],
         "v3": "cercato",
         "auxiliary": "avere",
-        "v4": "cercando"
+        "v4": "cercando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_061"
     },
     {
         "word": "disconnettersi",
         "level": "elementary",
-        "theme": "internet_social_media_A2",
+        "theme": "technology",
         "emoji": "🚪",
         "form": "verb",
         "group": "are",
@@ -2534,7 +2864,10 @@ const data = [
         "v3": "disconnesso",
         "auxiliary": "essere",
         "reflexive": true,
-        "v4": "disconnetteando"
+        "v4": "disconnetteando",
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_technology_011"
     }
 ];
     const lang = "it";

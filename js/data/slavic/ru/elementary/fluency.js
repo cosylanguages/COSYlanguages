@@ -6,6 +6,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -13,7 +14,6 @@
                 "examples": []
             }
         ],
-        "t": "Отпуск, который вы помните",
         "h": [
             "Куда вы ездили?",
             "С кем вы ездили?",
@@ -28,6 +28,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -35,7 +36,6 @@
                 "examples": []
             }
         ],
-        "t": "Ваш любимый ресторан или кафе",
         "h": [
             "Где оно находится?",
             "Какую еду там подают?",
@@ -50,6 +50,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -57,7 +58,6 @@
                 "examples": []
             }
         ],
-        "t": "Как вы добираетесь до работы или учебы",
         "h": [
             "Как вы ездите — на автобусе, машине или велосипеде?",
             "Сколько времени это занимает?",
@@ -72,6 +72,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -79,7 +80,6 @@
                 "examples": []
             }
         ],
-        "t": "Что вы делаете, чтобы расслабиться",
         "h": [
             "Что помогает вам расслабиться?",
             "Вы предпочитаете быть в одиночестве или с людьми?",
@@ -94,6 +94,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -101,7 +102,6 @@
                 "examples": []
             }
         ],
-        "t": "Фильм, который вы недавно смотрели",
         "h": [
             "Как назывался фильм?",
             "О чем он был?",
@@ -116,6 +116,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -123,7 +124,6 @@
                 "examples": []
             }
         ],
-        "t": "Ваши идеальные выходные",
         "h": [
             "Что бы вы сделали в пятницу вечером?",
             "Вы бы пошли куда-нибудь или остались дома?",
@@ -138,6 +138,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -145,7 +146,6 @@
                 "examples": []
             }
         ],
-        "t": "Человек, которым вы восхищаетесь",
         "h": [
             "Кто этот человек?",
             "Чем он занимается?",
@@ -160,6 +160,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "travel",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -167,7 +168,6 @@
                 "examples": []
             }
         ],
-        "t": "Место вашего отпуска мечты",
         "h": [
             "Куда бы вы поехали?",
             "Почему именно это место?",
@@ -182,6 +182,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -189,7 +190,6 @@
                 "examples": []
             }
         ],
-        "t": "Ваши отношения с телефоном",
         "h": [
             "Сколько часов в день вы пользуетесь телефоном?",
             "Для чего вы используете его чаще всего?",
@@ -204,6 +204,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "emotions",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -211,7 +212,6 @@
                 "examples": []
             }
         ],
-        "t": "Что-то смешное, что с вами случилось",
         "h": [
             "Когда это произошло?",
             "Где вы были?",
@@ -226,6 +226,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "social",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -233,7 +234,6 @@
                 "examples": []
             }
         ],
-        "t": "Ваши хобби",
         "h": [
             "Что вы делаете в свободное время?",
             "Когда вы начали это хобби?",
@@ -248,6 +248,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "nature",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -255,7 +256,6 @@
                 "examples": []
             }
         ],
-        "t": "Погода там, где вы живете",
         "h": [
             "Какая обычно погода?",
             "Какой ваш любимый вид погоды?",
@@ -270,6 +270,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "art_culture",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -277,7 +278,6 @@
                 "examples": []
             }
         ],
-        "t": "День рождения, который вы помните",
         "h": [
             "Чей это был день рождения?",
             "Где проходило празднование?",
@@ -292,6 +292,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "places",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -299,7 +300,6 @@
                 "examples": []
             }
         ],
-        "t": "Что вам нравится в месте, где вы живете",
         "h": [
             "Что вам больше всего нравится в вашем городе?",
             "Хорошее ли это место для семей?",
@@ -314,6 +314,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "work",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -321,7 +322,6 @@
                 "examples": []
             }
         ],
-        "t": "Типичное воскресенье",
         "h": [
             "Во сколько вы просыпаетесь в воскресенье?",
             "Есть ли у вас распорядок?",
@@ -336,6 +336,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "art_culture",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -343,7 +344,6 @@
                 "examples": []
             }
         ],
-        "t": "Еда вашей страны",
         "h": [
             "Какое блюдо является традиционным?",
             "Готовите ли вы его дома?",
@@ -358,6 +358,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "shopping",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -365,7 +366,6 @@
                 "examples": []
             }
         ],
-        "t": "Что-то, что вы недавно купили",
         "h": [
             "Что вы купили?",
             "Где вы это купили?",
@@ -380,6 +380,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "technology",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -387,7 +388,6 @@
                 "examples": []
             }
         ],
-        "t": "Ваше любимое приложение",
         "h": [
             " Каким приложением вы пользуетесь чаще всего?",
             "Для чего вы его используете?",
@@ -402,6 +402,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "emotions",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -409,7 +410,6 @@
                 "examples": []
             }
         ],
-        "t": "Воспоминание из детства",
         "h": [
             "Сколько вам было лет?",
             "Где вы были?",
@@ -424,6 +424,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "food_drink",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -431,7 +432,6 @@
                 "examples": []
             }
         ],
-        "t": "Что вы ели вчера",
         "h": [
             "Что у вас было на завтрак?",
             "Что вы ели на обед?",

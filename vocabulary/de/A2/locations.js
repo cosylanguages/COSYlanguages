@@ -3,83 +3,259 @@
     const data = [
     {
         "word": "Deutschland",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Deutschland",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_002"
     },
     {
         "word": "Kanada",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Kanada",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_003"
     },
     {
         "word": "Mexiko",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Mexiko",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_004"
     },
     {
         "word": "Ägypten",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Ägypten",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_005"
     },
     {
         "word": "Türkei",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Türkei",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_006"
     },
     {
         "word": "Portugal",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Portugal",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_007"
     },
     {
         "word": "Armenien",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Armenien",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_008"
     },
     {
         "word": "Georgien",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Georgien",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_009"
     },
     {
         "word": "Berlin",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Berlin",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_010"
     },
     {
         "word": "Madrid",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Madrid",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_011"
     },
     {
         "word": "Toronto",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Toronto",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_012"
     },
     {
         "word": "Istanbul",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Istanbul",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_013"
     },
     {
         "word": "Lissabon",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Lissabon",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_014"
     },
     {
         "word": "Eriwan",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Eriwan",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_015"
     },
     {
         "word": "Tiflis",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Tiflis",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_016"
     },
     {
         "word": "Kasan",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "de",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Kasan",
+                "examples": []
+            }
+        ],
+        "id": "de_elementary_places_017"
     }
 ];
     const lang = "de";

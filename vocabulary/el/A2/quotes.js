@@ -1,10 +1,24 @@
 (function() {
-    const data = [{
+    const data = [
+    {
+        "text": "Ζωή είναι αυτό που σου συμβαίνει ενώ είσαι απασχολημένος κάνοντας άλλα σχέδια.",
+        "author": "John Lennon",
+        "level": "elementary",
+        "theme": "people",
+        "lang": "el",
+        "form": "phrase",
+        "transcription": "",
+        "emoji": "💬",
+        "definitions": [
+            {
                 "text": "Ζωή είναι αυτό που σου συμβαίνει ενώ είσαι απασχολημένος κάνοντας άλλα σχέδια.",
-                "author": "John Lennon",
-                "level": "elementary",
-                "theme": "relationships_dating_A2"
-            }];
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_people_043",
+        "word": "Ζωή είναι αυτό που σου συμβαίνει ενώ είσαι απασχολημένος κάνοντας άλλα σχέδια."
+    }
+];
     const lang = "el";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

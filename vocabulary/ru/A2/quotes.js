@@ -14,7 +14,9 @@
             }
         ],
         "text": "Жизнь — это то, что происходит с тобой, пока ты оживленно строишь другие планы.",
-        "author": "John Lennon"
+        "author": "John Lennon",
+        "transcription": "",
+        "emoji": "💬"
     }
 ];
     const lang = "ru";

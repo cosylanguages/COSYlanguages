@@ -6,6 +6,7 @@
         "lang": "ru",
         "level": "elementary",
         "theme": "people",
+        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
