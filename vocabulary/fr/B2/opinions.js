@@ -374,7 +374,7 @@
             "Pouvez-vous penser à quelque chose de précieux qui est complètement improductif ?"
         ]
     }
-];
+    ];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

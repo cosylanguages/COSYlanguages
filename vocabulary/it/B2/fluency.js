@@ -1,6 +1,6 @@
 (function() {
     const data = [
-        {
+    {
             "t": "Il futuro del mondo tra 50 anni",
             "h": [
                 "Quali cambiamenti tecnologici ti aspetti?",
@@ -29,7 +29,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_001"
         },
-        {
+    {
             "t": "L'impatto del cambiamento climatico sulle comunità locali",
             "h": [
                 "Come è cambiata la tua zona?",
@@ -58,7 +58,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_002"
         },
-        {
+    {
             "t": "Una convinzione che hai e che la maggior parte delle persone intorno a te non condivide",
             "h": [
                 "Qual è questa convinzione?",
@@ -87,7 +87,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_003"
         },
-        {
+    {
             "t": "Cosa faresti se non avessi paura",
             "h": [
                 "Qual è una cosa che la paura ti impedisce di fare?",
@@ -116,7 +116,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_004"
         },
-        {
+    {
             "t": "La cosa migliore e peggiore del luogo in cui sei cresciuto",
             "h": [
                 "Cosa ti ha plasmato di più di quel posto?",
@@ -145,7 +145,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_005"
         },
-        {
+    {
             "t": "Come gestisci lo stress",
             "h": [
                 "Quali sono le tue strategie principali?",
@@ -174,7 +174,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_006"
         },
-        {
+    {
             "t": "Qualcosa che un tempo giudicavi e che ora capisci",
             "h": [
                 "Di cosa si trattava?",
@@ -203,7 +203,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_007"
         },
-        {
+    {
             "t": "Cosa significa per te l'amicizia da adulto",
             "h": [
                 "L'amicizia tra adulti è diversa da quella infantile?",
@@ -232,7 +232,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_008"
         },
-        {
+    {
             "t": "Una volta in cui hai sbagliato completamente qualcosa",
             "h": [
                 "Cosa è successo?",
@@ -261,7 +261,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_009"
         },
-        {
+    {
             "t": "Il tuo rapporto complicato con i social media",
             "h": [
                 "Li ami, li odi o entrambi?",
@@ -290,7 +290,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_010"
         },
-        {
+    {
             "t": "La cosa più sopravvalutata della vita moderna",
             "h": [
                 "Cos'è?",
@@ -319,7 +319,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_011"
         },
-        {
+    {
             "t": "Un momento che ha cambiato il modo in cui vedi te stesso",
             "h": [
                 "Cosa è successo?",
@@ -348,7 +348,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_012"
         },
-        {
+    {
             "t": "Qualcosa di cui sei silenziosamente orgoglioso",
             "h": [
                 "Cos'è?",
@@ -377,7 +377,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_013"
         },
-        {
+    {
             "t": "La tua teoria personale sul perché le persone sono come sono",
             "h": [
                 "È natura, educazione o qualcos'altro?",
@@ -406,7 +406,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_014"
         },
-        {
+    {
             "t": "Cosa pensi dell'ambizione",
             "h": [
                 "Sei una persona ambiziosa?",
@@ -435,7 +435,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_015"
         },
-        {
+    {
             "t": "La versione di te stesso di cinque anni fa",
             "h": [
                 "Cosa stavi facendo?",
@@ -464,7 +464,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_016"
         },
-        {
+    {
             "t": "Come prendi decisioni difficili",
             "h": [
                 "Segui la testa o l'istinto?",
@@ -493,7 +493,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_017"
         },
-        {
+    {
             "t": "La nostalgia e cosa ti provoca",
             "h": [
                 "Di cosa provi nostalgia?",
@@ -522,7 +522,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_018"
         },
-        {
+    {
             "t": "Fama — punizione o ricompensa?",
             "h": [
                 "Vorresti essere famoso?",
@@ -551,7 +551,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_019"
         },
-        {
+    {
             "t": "Cosa ti annoia e cosa ti affascina",
             "h": [
                 "Di quale argomento o attività potresti parlare per ore?",
@@ -580,7 +580,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_020"
         },
-        {
+    {
             "t": "Una volta in cui hai dovuto ricominciare da capo",
             "h": [
                 "Cosa è successo prima del nuovo inizio?",
@@ -609,7 +609,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_social_021"
         },
-        {
+    {
             "t": "Cosa le persone capiscono male di te",
             "h": [
                 "Qual è l'idea errata più comune?",

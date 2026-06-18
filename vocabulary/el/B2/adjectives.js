@@ -1,10 +1,11 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
+        "id": "el_upper_intermediate_environment_policy_001",
+        "lang": "el",
         "word": "βιώσιμος",
         "level": "upper_intermediate",
-        "theme": "environment_policy_B2",
+        "theme": "environment_policy",
         "emoji": "🌱",
         "form": "adjective",
         "definitions": [
@@ -17,9 +18,11 @@
         ]
     },
     {
+        "id": "el_upper_intermediate_politics_governance_001",
+        "lang": "el",
         "word": "πολιτικός",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "emoji": "🏛️",
         "form": "adjective",
         "subtext": "",
@@ -34,13 +37,15 @@
         ]
     },
     {
+        "id": "el_upper_intermediate_serious_illness_treatment_001",
+        "lang": "el",
         "word": "χρόνιος",
         "level": "upper_intermediate",
-        "theme": "serious_illness_treatment_B2",
+        "theme": "serious_illness_treatment",
         "emoji": "⏳🤒",
         "form": "adjective",
         "subtext": "χρόνιος πόνος",
-        "opposite": "οξύς",
+        "antonyms": ["οξύς"],
         "definitions": [
             {
                 "text": "Που διαρκεί πολύ χρόνο. Για μια κατάσταση υγείας που είναι επίμονη.",
@@ -51,9 +56,11 @@
         ]
     },
     {
+        "id": "el_upper_intermediate_serious_illness_treatment_002",
+        "lang": "el",
         "word": "προληπτικός",
         "level": "upper_intermediate",
-        "theme": "serious_illness_treatment_B2",
+        "theme": "serious_illness_treatment",
         "emoji": "🛡️",
         "form": "adjective",
         "subtext": "",
@@ -68,9 +75,11 @@
         ]
     },
     {
+        "id": "el_upper_intermediate_ethical_dilemmas_001",
+        "lang": "el",
         "word": "ηθικός",
         "level": "upper_intermediate",
-        "theme": "ethical_dilemmas_B2",
+        "theme": "ethical_dilemmas",
         "emoji": "⚖️",
         "form": "adjective",
         "definitions": [
@@ -83,9 +92,11 @@
         ]
     },
     {
+        "id": "el_upper_intermediate_ethical_dilemmas_002",
+        "lang": "el",
         "word": "δεοντολογικός",
         "level": "upper_intermediate",
-        "theme": "ethical_dilemmas_B2",
+        "theme": "ethical_dilemmas",
         "emoji": "🤔⚖️",
         "form": "adjective",
         "subtext": "",
@@ -99,7 +110,7 @@
             }
         ]
     }
-];
+    ];
     const lang = "el";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

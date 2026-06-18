@@ -1,6 +1,6 @@
 (function() {
     const data = [
-        {
+    {
                 "t": "Die Zukunft der Welt in 50 Jahren",
                 "h": [
                         "Welche technologischen Veränderungen erwartest du?",
@@ -30,7 +30,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_001"
         },
-        {
+    {
                 "t": "Die Auswirkungen des Klimawandels auf lokale Gemeinschaften",
                 "h": [
                         "Wie hat sich deine Region verändert?",
@@ -60,7 +60,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_002"
         },
-        {
+    {
                 "t": "Eine Überzeugung, die du hast, die die meisten Menschen um dich herum nicht teilen",
                 "h": [
                         "Was ist diese Überzeugung?",
@@ -90,7 +90,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_003"
         },
-        {
+    {
                 "t": "Was du tun würdest, wenn du keine Angst hättest",
                 "h": [
                         "Was ist eine Sache, die dich die Angst daran hindert zu tun?",
@@ -120,7 +120,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_004"
         },
-        {
+    {
                 "t": "Das Beste und das Schlimmste an dem Ort, an dem du aufgewachsen bist",
                 "h": [
                         "Was hat dich an diesem Ort am meisten geprägt?",
@@ -150,7 +150,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_005"
         },
-        {
+    {
                 "t": "Wie du mit Stress umgehst",
                 "h": [
                         "Was sind deine bevorzugten Strategien?",
@@ -180,7 +180,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_006"
         },
-        {
+    {
                 "t": "Etwas, das du früher verurteilt hast und jetzt verstehst",
                 "h": [
                         "Was war das?",
@@ -210,7 +210,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_007"
         },
-        {
+    {
                 "t": "Was Freundschaft für dich als Erwachsener bedeutet",
                 "h": [
                         "Unterscheidet sich Freundschaft unter Erwachsenen von Kindheitsfreundschaften?",
@@ -240,7 +240,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_008"
         },
-        {
+    {
                 "t": "Ein Mal, als du etwas völlig falsch eingeschätzt hast",
                 "h": [
                         "Was ist passiert?",
@@ -270,7 +270,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_009"
         },
-        {
+    {
                 "t": "Deine komplizierte Beziehung zu sozialen Medien",
                 "h": [
                         "Liebst du sie, hasst du sie oder beides?",
@@ -300,7 +300,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_010"
         },
-        {
+    {
                 "t": "Das am meisten überbewertete Ding im modernen Leben",
                 "h": [
                         "Was ist es?",
@@ -330,7 +330,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_011"
         },
-        {
+    {
                 "t": "Ein Moment, der deine Sicht auf dich selbst verändert hat",
                 "h": [
                         "Was ist passiert?",
@@ -360,7 +360,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_012"
         },
-        {
+    {
                 "t": "Etwas, worauf du im Stillen stolz bist",
                 "h": [
                         "Was ist es?",
@@ -390,7 +390,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_013"
         },
-        {
+    {
                 "t": "Deine persönliche Theorie darüber, warum Menschen so sind, wie sie sind",
                 "h": [
                         "Ist es die Natur, die Erziehung oder etwas anderes?",
@@ -420,7 +420,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_014"
         },
-        {
+    {
                 "t": "Was du über Ehrgeiz denkst",
                 "h": [
                         "Bist du ein ehrgeiziger Mensch?",
@@ -450,7 +450,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_015"
         },
-        {
+    {
                 "t": "Die Version deiner selbst vor fünf Jahren",
                 "h": [
                         "Was hast du gemacht?",
@@ -480,7 +480,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_016"
         },
-        {
+    {
                 "t": "Wie du schwierige Entscheidungen triffst",
                 "h": [
                         "Folgst du deinem Kopf oder deinem Bauchgefühl?",
@@ -510,7 +510,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_017"
         },
-        {
+    {
                 "t": "Nostalgie und was sie mit dir macht",
                 "h": [
                         "Wobei fühlst du Nostalgie?",
@@ -540,7 +540,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_018"
         },
-        {
+    {
                 "t": "Ruhm — Strafe oder Belohnung?",
                 "h": [
                         "Möchtest du berühmt sein?",
@@ -570,7 +570,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_019"
         },
-        {
+    {
                 "t": "Was dich langweilt und was dich fasziniert",
                 "h": [
                         "Über welches Thema oder welche Aktivität könntest du stundenlang reden?",
@@ -600,7 +600,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_020"
         },
-        {
+    {
                 "t": "Ein Mal, als du von vorne anfangen musstest",
                 "h": [
                         "Was ist vor dem Neustart passiert?",
@@ -630,7 +630,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_021"
         },
-        {
+    {
                 "t": "Was die Leute an dir falsch verstehen",
                 "h": [
                         "Was ist das häufigste Missverständnis?",
@@ -660,7 +660,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_022"
         }
-];
+    ];
     const lang = "de";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

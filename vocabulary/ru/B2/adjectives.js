@@ -1,4 +1,3 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
@@ -136,7 +135,7 @@
             "экологически чистый"
         ]
     }
-];
+    ];
     const lang = "ru";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

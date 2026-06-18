@@ -1900,7 +1900,7 @@
             "Croire que le changement est possible est un prérequis à l'effort soutenu requis pour construire un avenir durable."
         ]
     }
-];
+    ];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

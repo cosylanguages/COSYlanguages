@@ -1,10 +1,11 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
+        "id": "fr_upper_intermediate_formal_debate_vocab_001",
+        "lang": "fr",
         "word": "soutenir que",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "",
@@ -26,7 +27,7 @@
         "group": "ir",
         "auxiliary": "avoir"
     }
-];
+    ];
     const lang = "fr";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);

@@ -1107,7 +1107,7 @@
             }
         ]
     }
-];
+    ];
     const lang = "en";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

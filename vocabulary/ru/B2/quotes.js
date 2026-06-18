@@ -1066,7 +1066,7 @@
         ],
         "task": "Защитите суеверия. Приведите лучший аргумент в пользу того, почему небольшая доля магического мышления на самом деле полезна для людей."
     }
-];
+    ];
     const lang = "ru";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

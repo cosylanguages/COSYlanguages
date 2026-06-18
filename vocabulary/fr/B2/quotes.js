@@ -1066,7 +1066,7 @@
         ],
         "task": "Défendez la superstition. Présentez les meilleurs arguments possibles pour expliquer pourquoi un peu de pensée magique est en fait bon pour les humains."
     }
-];
+    ];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

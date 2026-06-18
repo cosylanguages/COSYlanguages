@@ -511,7 +511,7 @@
             }
         ]
     }
-];
+    ];
 
     const psychData = [
     {

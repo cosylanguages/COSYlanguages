@@ -1,4 +1,3 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
@@ -31,7 +30,7 @@
         "theme": "people",
         "sub_theme": null
     }
-];
+    ];
     const lang = "en";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];

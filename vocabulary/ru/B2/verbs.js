@@ -1,10 +1,11 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
+        "id": "ru_upper_intermediate_formal_debate_vocab_001",
+        "lang": "ru",
         "word": "утверждать, что",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "",
@@ -27,7 +28,7 @@
         "group": "1st_conj",
         "auxiliary": "быть"
     }
-];
+    ];
     const lang = "ru";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);

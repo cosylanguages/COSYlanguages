@@ -1,10 +1,11 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
+        "id": "it_upper_intermediate_formal_debate_vocab_001",
+        "lang": "it",
         "word": "sostenere che",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "",
@@ -26,7 +27,7 @@
         "group": "ere",
         "auxiliary": "avere"
     }
-];
+    ];
     const lang = "it";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);

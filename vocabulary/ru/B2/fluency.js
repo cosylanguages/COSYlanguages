@@ -484,7 +484,7 @@
             "Есть ли в этом хоть доля правды?"
         ]
     }
-];
+    ];
     const lang = "ru";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

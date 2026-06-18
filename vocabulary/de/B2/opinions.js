@@ -1,6 +1,6 @@
 (function() {
     const data = [
-        {
+    {
                 "t": "Zerstören soziale Medien unsere sozialen Kompetenzen?",
                 "tag": "Technologie",
                 "h": [
@@ -31,7 +31,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_technology_001"
         },
-        {
+    {
                 "t": "Sollte der öffentliche Nahverkehr kostenlos sein?",
                 "tag": "Gesellschaft",
                 "h": [
@@ -62,7 +62,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_023"
         },
-        {
+    {
                 "t": "Nostalgie ist meist nur eine Lüge, die wir uns selbst erzählen.",
                 "tag": "Psychologie",
                 "h": [
@@ -93,7 +93,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_psychology_001"
         },
-        {
+    {
                 "t": "Die meisten Menschen wollen kein ehrliches Feedback — sie wollen Bestätigung.",
                 "tag": "Menschliche Natur",
                 "h": [
@@ -124,7 +124,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_psychology_002"
         },
-        {
+    {
                 "t": "Es ist möglich, süchtig danach zu sein, beschäftigt zu sein.",
                 "tag": "Modernes Leben",
                 "h": [
@@ -155,7 +155,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_024"
         },
-        {
+    {
                 "t": "Ruhm sieht wie eine Strafe aus, nicht wie eine Belohnung.",
                 "tag": "Gesellschaft",
                 "h": [
@@ -186,7 +186,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_025"
         },
-        {
+    {
                 "t": "Das Schulsystem erstickt die Kreativität mehr, als es sie fördert.",
                 "tag": "Bildung",
                 "h": [
@@ -217,7 +217,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_school_001"
         },
-        {
+    {
                 "t": "Es gibt kein wirklich uneigennütziges Verhalten.",
                 "tag": "Philosophie",
                 "h": [
@@ -248,7 +248,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_art_culture_001"
         },
-        {
+    {
                 "t": "Die meisten Erwachsenen improvisieren nur.",
                 "tag": "Menschliche Natur",
                 "h": [
@@ -279,7 +279,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_psychology_003"
         },
-        {
+    {
                 "t": "Die interessantesten Menschen sind immer ein wenig schwierig.",
                 "tag": "Persönlichkeit",
                 "h": [
@@ -310,7 +310,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_people_001"
         },
-        {
+    {
                 "t": "Wir verzeihen Menschen, die wir lieben, Dinge, die wir Fremden nie verzeihen würden.",
                 "tag": "Beziehungen",
                 "h": [
@@ -341,7 +341,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_people_002"
         },
-        {
+    {
                 "t": "Komfortzonen werden überbewertet — Wachstum findet eigentlich in der Unbequemlichkeit statt.",
                 "tag": "Selbstentwicklung",
                 "h": [
@@ -372,7 +372,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_psychology_004"
         },
-        {
+    {
                 "t": "Wut ist eine unterschätzte Emotion — manchmal bewirkt sie etwas.",
                 "tag": "Psychologie",
                 "h": [
@@ -403,7 +403,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_psychology_005"
         },
-        {
+    {
                 "t": "Haustiere haben für viele Menschen die Gemeinschaft ersetzt.",
                 "tag": "Gesellschaft",
                 "h": [
@@ -434,7 +434,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_026"
         },
-        {
+    {
                 "t": "Alleine zu reisen ist der einzige Weg, sich selbst wirklich zu entdecken.",
                 "tag": "Reisen",
                 "h": [
@@ -465,7 +465,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_travel_001"
         },
-        {
+    {
                 "t": "Eine Zeit, in der man von vorne anfangen musste, ist nie ganz verschwendet.",
                 "tag": "Resilienz",
                 "h": [
@@ -496,7 +496,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_psychology_006"
         },
-        {
+    {
                 "t": "Die Besessenheit von Produktivität ist nur Kapitalismus im Gewand der Selbstverbesserung.",
                 "tag": "Modernes Leben",
                 "h": [
@@ -527,7 +527,7 @@
                 "emoji": "💬",
                 "id": "de_upper_intermediate_social_027"
         }
-];
+    ];
     const lang = "de";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

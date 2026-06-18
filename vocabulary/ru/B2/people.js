@@ -1,4 +1,3 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
@@ -29,7 +28,7 @@
             }
         ]
     }
-];
+    ];
     const lang = "ru";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
