@@ -1,55 +1,11 @@
-// TODO: verify level classification
 (function() {
     const data = [
-    // level corrected from "starter" — was in B2 folder
     {
-        "word": "сад",
-        "image": "images/vocabulary/places/garden.png",
-        "level": "upper_intermediate",
-        "theme": "local_places_services_A1",
-        "emoji": "🌳",
-        "form": "noun", "classification": "regular",
-        "definitions": [{ "text": "Общественный сад или парк.", "examples": [] }],
-        "countability": "countable"
-    },
-{
-        "word": "юрист",
-        "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
-        "gender": "masculine",
-        "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
-        "plural": "юристы",
-        "definitions": [
-            {
-                "text": "Человек, который дает юридические советы и представляет людей в суде.",
-                "examples": [
-                    "Мне нужно поговорить с моим юристом."
-                ]
-            }
-        ]
-    },
-{
-        "word": "аптека",
-        "level": "upper_intermediate",
-        "theme": "places_shops_A1",
-        "gender": "feminine",
-        "emoji": "💊",
-        "form": "noun", "classification": "regular",
-        "plural": "аптеки",
-        "definitions": [
-            {
-                "text": "Магазин, в котором продаются лекарства.",
-                "examples": [
-                    "Мне нужно зайти в аптеку."
-                ]
-            }
-        ]
-    },
-{
+        "id": "ru_upper_intermediate_health_society_001",
+        "lang": "ru",
         "word": "психолог",
         "level": "upper_intermediate",
-        "theme": "health_society_B2",
+        "theme": "health_society",
         "gender": "masculine",
         "emoji": "🧠",
         "form": "noun", "classification": "regular",
@@ -63,10 +19,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_politics_governance_002",
+        "lang": "ru",
         "word": "подотчётность",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "gender": "feminine",
         "emoji": "📑",
         "form": "noun", "classification": "regular",
@@ -82,10 +40,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_economy_labour_market_001",
+        "lang": "ru",
         "word": "стимул",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market_B2",
+        "theme": "economy_labour_market",
         "gender": "masculine",
         "emoji": "🥕",
         "form": "noun", "classification": "regular",
@@ -100,17 +60,19 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_employment_law_rights_001",
+        "lang": "ru",
         "word": "автономия",
         "level": "upper_intermediate",
-        "theme": "employment_law_rights_B2",
+        "theme": "employment_law_rights",
         "gender": "feminine",
         "emoji": "🔓",
         "form": "noun", "classification": "regular",
         "plural": "автономии",
         "subtext": "",
         "synonyms": ["независимость", "самостоятельность"],
-        "opposite": "зависимость",
+        "antonyms": ["зависимость"],
         "definitions": [
             {
                 "text": "Право или способность действовать независимо.",
@@ -120,17 +82,19 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_economy_labour_market_002",
+        "lang": "ru",
         "word": "прекаритет",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market_B2",
+        "theme": "economy_labour_market",
         "gender": "masculine",
         "emoji": "🧗",
         "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["неустойчивая занятость"],
-        "opposite": "стабильность",
+        "antonyms": ["стабильность"],
         "definitions": [
             {
                 "text": "Состояние нестабильности и неопределенности в трудовых или жизненных условиях.",
@@ -140,10 +104,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_gender_equality_001",
+        "lang": "ru",
         "word": "разрыв в оплате труда",
         "level": "upper_intermediate",
-        "theme": "gender_equality_B2",
+        "theme": "gender_equality",
         "gender": "masculine",
         "emoji": "⚖️📉",
         "form": "noun phrase",
@@ -158,10 +124,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_employment_law_rights_002",
+        "lang": "ru",
         "word": "компенсационный пакет",
         "level": "upper_intermediate",
-        "theme": "employment_law_rights_B2",
+        "theme": "employment_law_rights",
         "gender": "masculine",
         "emoji": "📦",
         "form": "noun phrase",
@@ -177,10 +145,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_economy_labour_market_003",
+        "lang": "ru",
         "word": "предпринимательство",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market_B2",
+        "theme": "economy_labour_market",
         "gender": "neuter",
         "emoji": "💡",
         "form": "noun", "classification": "regular",
@@ -196,10 +166,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_economy_labour_market_004",
+        "lang": "ru",
         "word": "производительность",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market_B2",
+        "theme": "economy_labour_market",
         "gender": "feminine",
         "emoji": "⚡",
         "form": "noun", "classification": "regular",
@@ -215,10 +187,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_globalisation_trade_001",
+        "lang": "ru",
         "word": "аутсорсинг",
         "level": "upper_intermediate",
-        "theme": "globalisation_trade_B2",
+        "theme": "globalisation_trade",
         "gender": "masculine",
         "emoji": "🌐",
         "form": "noun", "classification": "regular",
@@ -234,10 +208,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_applied_sciences_engineering_001",
+        "lang": "ru",
         "word": "автоматизация",
         "level": "upper_intermediate",
-        "theme": "applied_sciences_engineering_B2",
+        "theme": "applied_sciences_engineering",
         "gender": "feminine",
         "emoji": "🤖",
         "form": "noun", "classification": "regular",
@@ -252,10 +228,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_housing_society_001",
+        "lang": "ru",
         "word": "джентрификация",
         "level": "upper_intermediate",
-        "theme": "housing_society_B2",
+        "theme": "housing_society",
         "gender": "feminine",
         "emoji": "🏘️📈",
         "form": "noun", "classification": "regular",
@@ -271,10 +249,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_housing_society_002",
+        "lang": "ru",
         "word": "доступное жильё",
         "level": "upper_intermediate",
-        "theme": "housing_society_B2",
+        "theme": "housing_society",
         "gender": "neuter",
         "emoji": "🏠💰",
         "form": "noun phrase",
@@ -290,10 +270,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_housing_society_003",
+        "lang": "ru",
         "word": "разрастание городов",
         "level": "upper_intermediate",
-        "theme": "housing_society_B2",
+        "theme": "housing_society",
         "gender": "neuter",
         "emoji": "🏙️↔️",
         "form": "noun phrase",
@@ -309,10 +291,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_politics_governance_003",
+        "lang": "ru",
         "word": "инфраструктура",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "gender": "feminine",
         "emoji": "🏗️",
         "form": "noun", "classification": "regular",
@@ -327,10 +311,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_politics_governance_004",
+        "lang": "ru",
         "word": "государство всеобщего благосостояния",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "gender": "neuter",
         "emoji": "🛡️🏛️",
         "form": "noun phrase",
@@ -346,10 +332,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_politics_governance_005",
+        "lang": "ru",
         "word": "поляризация",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "gender": "feminine",
         "emoji": "↔️❌",
         "form": "noun", "classification": "regular",
@@ -364,10 +352,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_formal_debate_vocab_002",
+        "lang": "ru",
         "word": "дискурс",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "gender": "masculine",
         "emoji": "🗣️",
         "form": "noun", "classification": "regular",
@@ -382,10 +372,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_politics_governance_006",
+        "lang": "ru",
         "word": "тщательная проверка",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "gender": "feminine",
         "emoji": "🔍",
         "form": "noun phrase",
@@ -401,10 +393,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_formal_debate_vocab_003",
+        "lang": "ru",
         "word": "консенсус",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "gender": "masculine",
         "emoji": "🤝",
         "form": "noun", "classification": "regular",
@@ -420,10 +414,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_politics_governance_007",
+        "lang": "ru",
         "word": "законодательство",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "gender": "neuter",
         "emoji": "📜",
         "form": "noun", "classification": "regular",
@@ -439,17 +435,19 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_formal_debate_vocab_004",
+        "lang": "ru",
         "word": "предвзятость",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "gender": "feminine",
         "emoji": "⚖️❌",
         "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["необъективность", "предубеждение"],
-        "opposite": "беспристрастность",
+        "antonyms": ["беспристрастность"],
         "definitions": [
             {
                 "text": "Несправедливая склонность поддерживать или выступать против кого-то или чего-то.",
@@ -459,10 +457,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_health_society_002",
+        "lang": "ru",
         "word": "ожирение",
         "level": "upper_intermediate",
-        "theme": "health_society_B2",
+        "theme": "health_society",
         "gender": "neuter",
         "emoji": "⚖️⬆️",
         "form": "noun", "classification": "regular",
@@ -478,10 +478,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_health_society_003",
+        "lang": "ru",
         "word": "продолжительность жизни",
         "level": "upper_intermediate",
-        "theme": "health_society_B2",
+        "theme": "health_society",
         "gender": "feminine",
         "emoji": "⏳👴",
         "form": "noun phrase",
@@ -496,16 +498,18 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_politics_governance_008",
+        "lang": "ru",
         "word": "справедливость",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "gender": "feminine",
         "emoji": "⚖️",
         "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "социальная справедливость, правосудие",
-        "opposite": "несправедливость",
+        "antonyms": ["несправедливость"],
         "definitions": [
             {
                 "text": "Честное обращение и качество бытия справедливым.",
@@ -515,10 +519,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_crime_punishment_001",
+        "lang": "ru",
         "word": "реабилитация",
         "level": "upper_intermediate",
-        "theme": "crime_punishment_B2",
+        "theme": "crime_punishment",
         "gender": "feminine",
         "emoji": "🔄🏢",
         "form": "noun", "classification": "regular",
@@ -533,17 +539,19 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_politics_governance_009",
+        "lang": "ru",
         "word": "прозрачность",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "gender": "feminine",
         "emoji": "🪟",
         "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["открытость", "честность"],
-        "opposite": "непрозрачность",
+        "antonyms": ["непрозрачность"],
         "definitions": [
             {
                 "text": "Открытость и честность в отношении действий и решений.",
@@ -553,10 +561,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_technology_privacy_001",
+        "lang": "ru",
         "word": "алгоритм",
         "level": "upper_intermediate",
-        "theme": "technology_privacy_B2",
+        "theme": "technology_privacy",
         "gender": "masculine",
         "emoji": "💻",
         "form": "noun", "classification": "regular",
@@ -571,10 +581,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_technology_privacy_002",
+        "lang": "ru",
         "word": "конфиденциальность данных",
         "level": "upper_intermediate",
-        "theme": "technology_privacy_B2",
+        "theme": "technology_privacy",
         "gender": "feminine",
         "emoji": "🔒",
         "form": "noun phrase",
@@ -590,10 +602,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_media_misinformation_001",
+        "lang": "ru",
         "word": "дезинформация",
         "level": "upper_intermediate",
-        "theme": "media_misinformation_B2",
+        "theme": "media_misinformation",
         "gender": "feminine",
         "emoji": "🤥",
         "form": "noun", "classification": "regular",
@@ -608,10 +622,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_technology_privacy_003",
+        "lang": "ru",
         "word": "слежка",
         "level": "upper_intermediate",
-        "theme": "technology_privacy_B2",
+        "theme": "technology_privacy",
         "gender": "feminine",
         "emoji": "📹",
         "form": "noun", "classification": "regular",
@@ -627,10 +643,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_formal_debate_vocab_005",
+        "lang": "ru",
         "word": "тогда как",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "⚖️",
         "form": "conjunction",
         "subtext": "в то время как",
@@ -643,10 +661,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_formal_debate_vocab_006",
+        "lang": "ru",
         "word": "тем не менее",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "🏃‍♂️",
         "form": "adverb",
         "subtext": "",
@@ -660,10 +680,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_formal_debate_vocab_007",
+        "lang": "ru",
         "word": "в какой степени",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "📏",
         "form": "phrase",
         "definitions": [
@@ -675,10 +697,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_formal_debate_vocab_008",
+        "lang": "ru",
         "word": "напротив",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "🌓",
         "form": "phrase",
         "subtext": "в отличие от этого",
@@ -691,10 +715,12 @@
             }
         ]
     },
-{
+    {
+        "id": "ru_upper_intermediate_technology_privacy_004",
+        "lang": "ru",
         "word": "искусственный интеллект",
         "level": "upper_intermediate",
-        "theme": "technology_privacy_B2",
+        "theme": "technology_privacy",
         "gender": "masculine",
         "emoji": "🤖",
         "form": "noun phrase",
@@ -707,7 +733,9 @@
                 ]
             }
         ]
-    },
-{}
-];
+    }
+    ];
+    const lang = "ru";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

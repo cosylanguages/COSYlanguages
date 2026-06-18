@@ -1,10 +1,11 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
+        "id": "it_upper_intermediate_environment_policy_001",
+        "lang": "it",
         "word": "sostenibile",
         "level": "upper_intermediate",
-        "theme": "environment_policy_B2",
+        "theme": "environment_policy",
         "emoji": "🌱",
         "form": "adjective",
         "definitions": [
@@ -17,9 +18,11 @@
         ]
     },
     {
+        "id": "it_upper_intermediate_politics_governance_001",
+        "lang": "it",
         "word": "civico",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "emoji": "🏛️",
         "form": "adjective",
         "subtext": "senso civico, dovere civico",
@@ -33,13 +36,15 @@
         ]
     },
     {
+        "id": "it_upper_intermediate_serious_illness_treatment_001",
+        "lang": "it",
         "word": "cronico",
         "level": "upper_intermediate",
-        "theme": "serious_illness_treatment_B2",
+        "theme": "serious_illness_treatment",
         "emoji": "⏳🤒",
         "form": "adjective",
         "subtext": "dolore cronico, persistente",
-        "opposite": "acuto",
+        "antonyms": ["acuto"],
         "definitions": [
             {
                 "text": "Che dura a lungo; di una condizione di salute che è persistente.",
@@ -50,9 +55,11 @@
         ]
     },
     {
+        "id": "it_upper_intermediate_serious_illness_treatment_002",
+        "lang": "it",
         "word": "preventivo",
         "level": "upper_intermediate",
-        "theme": "serious_illness_treatment_B2",
+        "theme": "serious_illness_treatment",
         "emoji": "🛡️",
         "form": "adjective",
         "subtext": "medicina preventiva, misura precauzionale",
@@ -66,9 +73,11 @@
         ]
     },
     {
+        "id": "it_upper_intermediate_ethical_dilemmas_001",
+        "lang": "it",
         "word": "morale",
         "level": "upper_intermediate",
-        "theme": "ethical_dilemmas_B2",
+        "theme": "ethical_dilemmas",
         "emoji": "⚖️",
         "form": "adjective",
         "subtext": "decisione morale, etica",
@@ -82,9 +91,11 @@
         ]
     },
     {
+        "id": "it_upper_intermediate_ethical_dilemmas_002",
+        "lang": "it",
         "word": "etico",
         "level": "upper_intermediate",
-        "theme": "ethical_dilemmas_B2",
+        "theme": "ethical_dilemmas",
         "emoji": "🤔⚖️",
         "form": "adjective",
         "subtext": "comportamento etico",
@@ -97,7 +108,7 @@
             }
         ]
     }
-];
+    ];
     const lang = "it";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

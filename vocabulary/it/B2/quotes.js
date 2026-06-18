@@ -1,6 +1,6 @@
 (function() {
     const data = [
-        {
+    {
             "q": "Lo scopo della nostra vita è essere felici.",
             "a": "Dalai Lama",
             "o": "Leader spirituale tibetano",
@@ -27,7 +27,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_001"
         },
-        {
+    {
             "q": "La vita è ciò che ti accade mentre sei impegnato a fare altri progetti.",
             "a": "John Lennon",
             "o": "Beautiful Boy, 1980",
@@ -54,7 +54,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_002"
         },
-        {
+    {
             "q": "Non tutti quelli che vagano sono persi.",
             "a": "J.R.R. Tolkien",
             "o": "La Compagnia dell'Anello, 1954",
@@ -81,7 +81,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_003"
         },
-        {
+    {
             "q": "Si vive una volta sola, ma se lo fai bene, una volta è abbastanza.",
             "a": "Mae West",
             "o": "Attrice e comica americana",
@@ -108,7 +108,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_004"
         },
-        {
+    {
             "q": "Sii te stesso; tutti gli altri sono già occupati.",
             "a": "Oscar Wilde",
             "o": "Poeta e drammaturgo irlandese",
@@ -135,7 +135,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_people_001"
         },
-        {
+    {
             "q": "Ci vuole coraggio per crescere e diventare chi sei veramente.",
             "a": "E.E. Cummings",
             "o": "Poeta americano",
@@ -162,7 +162,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_people_002"
         },
-        {
+    {
             "q": "Sappiamo ciò che siamo, ma non sappiamo ciò che potremmo essere.",
             "a": "William Shakespeare",
             "o": "Amleto",
@@ -189,7 +189,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_people_003"
         },
-        {
+    {
             "q": "La forma più comune di disperazione è non essere chi sei.",
             "a": "Søren Kierkegaard",
             "o": "Filosofo danese",
@@ -216,7 +216,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_people_004"
         },
-        {
+    {
             "q": "Non ho fallito. Ho solo trovato 10.000 modi che non funzionano.",
             "a": "Thomas Edison",
             "o": "Inventore americano",
@@ -243,7 +243,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_005"
         },
-        {
+    {
             "q": "Cadi sette volte, rialzati otto.",
             "a": "Proverbio giapponese",
             "o": "Detto tradizionale",
@@ -270,7 +270,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_006"
         },
-        {
+    {
             "q": "Il successo è l'abilità di passare da un fallimento all'altro senza perdere l'entusiasmo.",
             "a": "Winston Churchill",
             "o": "Primo Ministro britannico",
@@ -297,7 +297,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_007"
         },
-        {
+    {
             "q": "È impossibile vivere senza fallire in qualcosa, a meno che non si viva così cautamente da non aver vissuto affatto.",
             "a": "J.K. Rowling",
             "o": "Discorso ad Harvard, 2008",
@@ -324,7 +324,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_008"
         },
-        {
+    {
             "q": "L'unico modo per fare un ottimo lavoro è amare quello che fai.",
             "a": "Steve Jobs",
             "o": "Discorso a Stanford, 2005",
@@ -351,7 +351,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_033"
         },
-        {
+    {
             "q": "Nel mezzo di ogni difficoltà risiede l'opportunità.",
             "a": "Albert Einstein",
             "o": "Fisico teorico",
@@ -378,7 +378,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_009"
         },
-        {
+    {
             "q": "Due cose sono infinite: l'universo e la stupidità umana; e non sono sicuro dell'universo.",
             "a": "Albert Einstein",
             "o": "Attribuita",
@@ -405,7 +405,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_034"
         },
-        {
+    {
             "q": "Nessun uomo è un'isola, intero in se stesso.",
             "a": "John Donne",
             "o": "Meditazione XVII, 1624",
@@ -432,7 +432,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_035"
         },
-        {
+    {
             "q": "L'oscurità non può scacciare l'oscurità; solo la luce può farlo. L'odio non può scacciare l'odio; solo l'amore può farlo.",
             "a": "Martin Luther King Jr.",
             "o": "Strength to Love, 1963",
@@ -459,7 +459,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_036"
         },
-        {
+    {
             "q": "La creatività è l'intelligenza che si diverte.",
             "a": "Albert Einstein",
             "o": "Attribuita",
@@ -486,7 +486,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_010"
         },
-        {
+    {
             "q": "L'arte non è ciò che vedi, ma ciò che rendi visibile agli altri.",
             "a": "Edgar Degas",
             "o": "Pittore impressionista francese",
@@ -513,7 +513,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_011"
         },
-        {
+    {
             "q": "Il mondo sembra sempre più luminoso quando hai appena creato qualcosa che prima non c'era.",
             "a": "Neil Gaiman",
             "o": "Autore di Coraline, Good Omens",
@@ -540,7 +540,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_012"
         },
-        {
+    {
             "q": "La cosa migliore a cui aggrapparsi nella vita è l'un l'altro.",
             "a": "Audrey Hepburn",
             "o": "Attrice e umanitaria",
@@ -567,7 +567,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_emotions_001"
         },
-        {
+    {
             "q": "Devi danzare come se nessuno ti stesse guardando, amare come se non dovessi mai essere ferito.",
             "a": "William W. Purkey",
             "o": "Autore e professore",
@@ -594,7 +594,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_emotions_002"
         },
-        {
+    {
             "q": "Accettiamo l'amore che pensiamo di meritare.",
             "a": "Stephen Chbosky",
             "o": "Noi siamo infinito, 1999",
@@ -621,7 +621,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_emotions_003"
         },
-        {
+    {
             "q": "L'ingiustizia ovunque è una minaccia alla giustizia ovunque.",
             "a": "Martin Luther King Jr.",
             "o": "Lettera dal carcere di Birmingham, 1963",
@@ -648,7 +648,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_037"
         },
-        {
+    {
             "q": "La libertà non vale la pena di essere avuta se non include la libertà di sbagliare.",
             "a": "Mahatma Gandhi",
             "o": "Leader dell'indipendenza indiana",
@@ -675,7 +675,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_038"
         },
-        {
+    {
             "q": "La verità vi renderà liberi, ma prima vi renderà miserabili.",
             "a": "James A. Garfield",
             "o": "20° Presidente USA, attribuita",
@@ -702,7 +702,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_039"
         },
-        {
+    {
             "q": "Ieri è storia, domani è un mistero, oggi è un dono — ecco perché si chiama presente.",
             "a": "Eleanor Roosevelt",
             "o": "Diplomatica e attivista, attribuita",
@@ -729,7 +729,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_time_001"
         },
-        {
+    {
             "q": "La misura dell'intelligenza è la capacità di cambiare.",
             "a": "Albert Einstein",
             "o": "Fisico teorico, attribuita",
@@ -756,7 +756,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_time_002"
         },
-        {
+    {
             "q": "Dicono sempre che il tempo cambia le cose, ma in realtà devi cambiarle tu stesso.",
             "a": "Andy Warhol",
             "o": "Artista pop americano",
@@ -783,7 +783,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_time_003"
         },
-        {
+    {
             "q": "Perché così serio?",
             "a": "Il Joker",
             "o": "Il Cavaliere Oscuro, 2008",
@@ -810,7 +810,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_013"
         },
-        {
+    {
             "q": "Verso l'infinito e oltre.",
             "a": "Buzz Lightyear",
             "o": "Toy Story, 1995",
@@ -837,7 +837,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_014"
         },
-        {
+    {
             "q": "Da un grande potere derivano grandi responsabilità.",
             "a": "Zio Ben / Voltaire",
             "o": "Spider-Man / Attribuita a Voltaire",
@@ -864,7 +864,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_015"
         },
-        {
+    {
             "q": "Dopo tutto questo tempo? Sempre.",
             "a": "Severus Piton",
             "o": "Harry Potter e i Doni della Morte, 2007",
@@ -891,7 +891,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_016"
         },
-        {
+    {
             "q": "Tu sei gentile, tu sei intelligente, tu sei importante.",
             "a": "Aibileen Clark",
             "o": "The Help, 2011",
@@ -918,7 +918,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_017"
         },
-        {
+    {
             "q": "Non è chi sono sotto, ma quello che faccio che mi definisce.",
             "a": "Bruce Wayne / Batman",
             "o": "Batman Begins, 2005",
@@ -945,7 +945,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_018"
         },
-        {
+    {
             "q": "Zitto e nuota.",
             "a": "Dory",
             "o": "Alla ricerca di Nemo, 2003",
@@ -972,7 +972,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_019"
         },
-        {
+    {
             "q": "L'inverno sta arrivando.",
             "a": "Casata Stark",
             "o": "Il Trono di Spade",
@@ -999,7 +999,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_020"
         },
-        {
+    {
             "q": "Sono così intelligente che a volte non capisco una singola parola di quello che dico.",
             "a": "Oscar Wilde",
             "o": "Il principe felice e altri racconti, 1888",
@@ -1026,7 +1026,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_021"
         },
-        {
+    {
             "q": "Ho passato una serata perfettamente meravigliosa, ma non è stata questa.",
             "a": "Groucho Marx",
             "o": "Comico americano",
@@ -1053,7 +1053,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_022"
         },
-        {
+    {
             "q": "Le donne ben educate raramente fanno la storia.",
             "a": "Laurel Thatcher Ulrich",
             "o": "Storica americana, 1976",
@@ -1080,7 +1080,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_art_culture_023"
         },
-        {
+    {
             "q": "Non sono superstizioso, ma sono un po' stizioso.",
             "a": "Michael Scott",
             "o": "The Office (US), 2007",

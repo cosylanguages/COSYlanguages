@@ -1,6 +1,6 @@
 (function() {
     const data = [
-        {
+    {
             "topic": "La settimana lavorativa di quattro giorni vs la settimana di cinque giorni — quale modello avvantaggia maggiormente lavoratori e datori di lavoro?",
             "sideA": "Settimana di 4 giorni",
             "sideB": "Settimana di 5 giorni",
@@ -26,7 +26,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_001"
         },
-        {
+    {
             "topic": "Reddito di base universale vs welfare mirato — quale è la rete di sicurezza più efficace per gli adulti che lavorano?",
             "sideA": "UBI",
             "sideB": "Welfare mirato",
@@ -52,7 +52,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_001"
         },
-        {
+    {
             "topic": "La gig economy vs l'impiego a tempo indeterminato — quale modello serve meglio i lavoratori nel lungo periodo?",
             "sideA": "Gig economy",
             "sideB": "Tempo indeterminato",
@@ -78,7 +78,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_002"
         },
-        {
+    {
             "topic": "Meritocrazia vs vantaggio strutturale — cosa spiega più accuratamente il successo professionale?",
             "sideA": "Meritocrazia",
             "sideB": "Vantaggio strutturale",
@@ -104,7 +104,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_003"
         },
-        {
+    {
             "topic": "Trasparenza retributiva vs privacy salariale — cosa crea un luogo di lavoro più equo?",
             "sideA": "Trasparenza",
             "sideB": "Privacy",
@@ -130,7 +130,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_004"
         },
-        {
+    {
             "topic": "Automazione vs lavoro umano — quale è la maggiore minaccia a lungo termine per l'occupazione adulta?",
             "sideA": "Automazione",
             "sideB": "Lavoro umano",
@@ -156,7 +156,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_technology_001"
         },
-        {
+    {
             "topic": "Lavoro a distanza vs presenza in ufficio — cosa è meglio per la progressione di carriera e la cultura del team?",
             "sideA": "Lavoro a distanza",
             "sideB": "Presenza in ufficio",
@@ -182,7 +182,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_005"
         },
-        {
+    {
             "topic": "Congedo parentale paritario per uomini e donne vs congedo di maternità più lungo — quale politica è più equa?",
             "sideA": "Congedo paritario",
             "sideB": "Maternità più lunga",
@@ -208,7 +208,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_002"
         },
-        {
+    {
             "topic": "Scegliere di non avere figli vs pressione sociale per avere una famiglia — cosa merita più rispetto?",
             "sideA": "Senza figli",
             "sideB": "Pressione familiare",
@@ -234,7 +234,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_003"
         },
-        {
+    {
             "topic": "Il matrimonio come istituzione vs la convivenza senza matrimonio — cosa è più rilevante oggi?",
             "sideA": "Matrimonio",
             "sideB": "Convivenza",
@@ -260,7 +260,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_004"
         },
-        {
+    {
             "topic": "Famiglie a doppio reddito vs un partner che resta a casa — quale modello è migliore per bambini e adulti?",
             "sideA": "Doppio reddito",
             "sideB": "Partner a casa",
@@ -286,7 +286,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_005"
         },
-        {
+    {
             "topic": "Il divario retributivo di genere come problema strutturale vs una questione di scelte individuali — quale spiegazione ha più peso?",
             "sideA": "Problema strutturale",
             "sideB": "Scelte individuali",
@@ -312,7 +312,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_006"
         },
-        {
+    {
             "topic": "La proprietà della casa come obiettivo vs un mercato degli affitti professionale — quale modello abitativo si adatta meglio agli adulti moderni?",
             "sideA": "Proprietà",
             "sideB": "Affitto professionale",
@@ -338,7 +338,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_007"
         },
-        {
+    {
             "topic": "La gentrificazione come miglioramento vs la gentrificazione come spostamento — quale inquadramento è più onesto?",
             "sideA": "Miglioramento",
             "sideB": "Spostamento",
@@ -364,7 +364,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_008"
         },
-        {
+    {
             "topic": "Densità urbana vs espansione suburbana — quale è il modello migliore per città vivibili?",
             "sideA": "Densità urbana",
             "sideB": "Espansione suburbana",
@@ -390,7 +390,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_009"
         },
-        {
+    {
             "topic": "Vivere vicino alla famiglia vs allontanarsi per opportunità — quale scelta produce un migliore benessere a lungo termine?",
             "sideA": "Vivere vicino",
             "sideB": "Allontanarsi",
@@ -416,7 +416,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_010"
         },
-        {
+    {
             "topic": "Una popolazione che invecchia come crisi vs come risorsa — quale inquadramento è più produttivo?",
             "sideA": "Crisi",
             "sideB": "Risorsa",
@@ -442,7 +442,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_011"
         },
-        {
+    {
             "topic": "Responsabilità personale per la salute vs fattori sistemici — cosa ha più peso nello spiegare i risultati sanitari?",
             "sideA": "Responsabilità personale",
             "sideB": "Fattori sistemici",
@@ -468,7 +468,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_health_medicine_001"
         },
-        {
+    {
             "topic": "Giornate per la salute mentale come legittimo diritto sul posto di lavoro vs fonte di abusi — dove dovrebbero tracciare il limite i datori di lavoro?",
             "sideA": "Diritto legittimo",
             "sideB": "Fonte di abusi",
@@ -494,7 +494,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_006"
         },
-        {
+    {
             "topic": "Medicina preventiva vs medicina curativa — quale dovrebbe ricevere più finanziamenti pubblici?",
             "sideA": "Preventiva",
             "sideB": "Curativa",
@@ -520,7 +520,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_health_medicine_002"
         },
-        {
+    {
             "topic": "Medicina anti-invecchiamento vs invecchiare con grazia — quale atteggiamento è più coerente?",
             "sideA": "Anti-age",
             "sideB": "Invecchiare con grazia",
@@ -546,7 +546,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_health_medicine_003"
         },
-        {
+    {
             "topic": "Tecnologia di sorveglianza per la sicurezza pubblica vs diritto alla privacy — dove dovrebbe risiedere l'equilibrio?",
             "sideA": "Sicurezza pubblica",
             "sideB": "Privacy",
@@ -572,7 +572,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_technology_002"
         },
-        {
+    {
             "topic": "I social media come strumento di impegno civile vs come motore di polarizzazione — quale effetto domina?",
             "sideA": "Impegno civile",
             "sideB": "Polarizzazione",
@@ -598,7 +598,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_technology_003"
         },
-        {
+    {
             "topic": "L'IA nel reclutamento vs giudizio umano — cosa produce decisioni di assunzione più eque?",
             "sideA": "IA",
             "sideB": "Giudizio umano",
@@ -624,7 +624,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_technology_004"
         },
-        {
+    {
             "topic": "Il diritto all'oblio online vs il diritto all'informazione del pubblico — cosa dovrebbe avere la precedenza?",
             "sideA": "Diritto all'oblio",
             "sideB": "Diritto info",
@@ -650,7 +650,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_technology_005"
         },
-        {
+    {
             "topic": "Voto obbligatorio vs voto volontario — cosa produce democrazie più sane?",
             "sideA": "Obbligatorio",
             "sideB": "Volontario",
@@ -676,7 +676,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_012"
         },
-        {
+    {
             "topic": "Impegno politico attraverso la protesta vs attraverso i canali istituzionali — cosa è più efficace per gli adulti di oggi?",
             "sideA": "Protesta",
             "sideB": "Istituzionale",
@@ -702,7 +702,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_013"
         },
-        {
+    {
             "topic": "Identità nazionale vs identità europea o globale — cosa è più significativo per gli adulti nel 2026?",
             "sideA": "Identità nazionale",
             "sideB": "Identità globale",
@@ -728,7 +728,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_014"
         },
-        {
+    {
             "topic": "Aumento delle tasse per finanziare i servizi pubblici vs tagli alla spesa — quale è la scelta politica più difendibile?",
             "sideA": "Aumento tasse",
             "sideB": "Tagli alla spesa",
@@ -754,7 +754,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_015"
         },
-        {
+    {
             "topic": "Ammettere di non avere idea di come funzioni la propria pensione vs fingere con sicurezza di saperlo — quale è l'esperienza adulta più universale?",
             "sideA": "Ammettere ignoranza",
             "sideB": "Fingere",
@@ -780,7 +780,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_016"
         },
-        {
+    {
             "topic": "Essere la persona che pianifica sempre gli eventi sociali vs essere sempre quella che si limita a presentarsi — quale ruolo è più estenuante?",
             "sideA": "L'organizzatore",
             "sideB": "L'ospite",
@@ -806,7 +806,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_017"
         },
-        {
+    {
             "topic": "Avere una forte opinione sulle abitudini culinarie dei colleghi vs non importarsene affatto — quale persona è più tollerabile?",
             "sideA": "Opinione forte",
             "sideB": "Indifferenza",
@@ -832,7 +832,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_007"
         },
-        {
+    {
             "topic": "Partecipare a ogni evento sociale facoltativo di lavoro vs non partecipare mai a nessuno — quale strategia è migliore per la carriera e la salute mentale?",
             "sideA": "Tutti",
             "sideB": "Nessuno",
@@ -858,7 +858,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_008"
         },
-        {
+    {
             "topic": "Adulti che sono ancora confusi dalla loro dichiarazione dei redditi vs adulti che si divertono a farla — quale gruppo è più affidabile?",
             "sideA": "Confusi",
             "sideB": "Divertiti",
@@ -884,7 +884,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_018"
         },
-        {
+    {
             "topic": "Lamentarsi del costo della vita con gli amici vs fingere che tutto vada bene — quale è la risposta adulta più onesta?",
             "sideA": "Lamentarsi",
             "sideB": "Fingere tutto bene",
@@ -910,7 +910,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_019"
         },
-        {
+    {
             "topic": "Social media vs interazioni faccia a faccia — cosa è meglio per costruire relazioni?",
             "sideA": "Social media",
             "sideB": "Faccia a faccia",
@@ -936,7 +936,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_020"
         },
-        {
+    {
             "topic": "Vita urbana vs vita rurale — quale offre una migliore qualità della vita?",
             "sideA": "Urbana",
             "sideB": "Rurale",
@@ -962,7 +962,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_021"
         },
-        {
+    {
             "topic": "Apprendimento online vs aula tradizionale — quale è il futuro dell'istruzione?",
             "sideA": "Online",
             "sideB": "Aula",
@@ -988,7 +988,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_009"
         },
-        {
+    {
             "topic": "Energia rinnovabile vs energia nucleare — quale è la soluzione migliore per il clima?",
             "sideA": "Rinnovabile",
             "sideB": "Nucleare",
@@ -1014,7 +1014,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_environment_001"
         },
-        {
+    {
             "topic": "Fast fashion vs abbigliamento sostenibile — possiamo permetterci di essere etici?",
             "sideA": "Fast fashion",
             "sideB": "Sostenibile",
@@ -1040,7 +1040,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_environment_002"
         },
-        {
+    {
             "topic": "Specializzarsi presto vs un'istruzione generale ampia — cosa prepara meglio gli studenti alla vita?",
             "sideA": "Specializzazione",
             "sideB": "Istruzione ampia",
@@ -1066,7 +1066,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_010"
         },
-        {
+    {
             "topic": "Capacità di pensiero critico vs conoscenza della materia — a cosa dovrebbero dare priorità le scuole?",
             "sideA": "Pensiero critico",
             "sideB": "Conoscenza della materia",
@@ -1092,7 +1092,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_011"
         },
-        {
+    {
             "topic": "Tasse universitarie vs università gratuita — quale modello è più equo?",
             "sideA": "Tasse universitarie",
             "sideB": "Università gratuita",
@@ -1118,7 +1118,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_022"
         },
-        {
+    {
             "topic": "Test standardizzati vs valutazione del portfolio — cosa riflette più accuratamente le capacità?",
             "sideA": "Test standardizzati",
             "sideB": "Valutazione portfolio",
@@ -1144,7 +1144,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_012"
         },
-        {
+    {
             "topic": "Intelligenza accademica vs intelligenza emotiva — cosa conta di più per il successo?",
             "sideA": "Intelligenza accademica",
             "sideB": "Intelligenza emotiva",
@@ -1170,7 +1170,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_013"
         },
-        {
+    {
             "topic": "Insegnare la creatività vs insegnare la disciplina — quale dovrebbe essere il focus dell'istruzione moderna?",
             "sideA": "Creatività",
             "sideB": "Disciplina",
@@ -1196,7 +1196,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_014"
         },
-        {
+    {
             "topic": "Regolamentazione dei social media vs libertà di espressione — a cosa dovrebbe essere data la priorità?",
             "sideA": "Regolamentazione",
             "sideB": "Libertà di espressione",
@@ -1222,7 +1222,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_technology_006"
         },
-        {
+    {
             "topic": "Curatela algoritmica vs selezione editoriale — quale è il modo più affidabile di fornire notizie?",
             "sideA": "Algoritmi",
             "sideB": "Selezione editoriale",
@@ -1248,7 +1248,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_technology_007"
         },
-        {
+    {
             "topic": "Crescita economica vs protezione ambientale — possono coesistere o una deve cedere il passo?",
             "sideA": "Crescita economica",
             "sideB": "Protezione ambientale",
@@ -1274,7 +1274,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_environment_003"
         },
-        {
+    {
             "topic": "Tasse sul carbonio vs sussidi verdi — quale è la politica climatica più efficace?",
             "sideA": "Tasse sul carbonio",
             "sideB": "Sussidi verdi",
@@ -1300,7 +1300,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_environment_004"
         },
-        {
+    {
             "topic": "Decrescita vs crescita sostenibile — quale è la risposta giusta alla crisi climatica?",
             "sideA": "Decrescita",
             "sideB": "Crescita sostenibile",
@@ -1326,7 +1326,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_environment_005"
         },
-        {
+    {
             "topic": "Responsabilità individuale vs responsabilità aziendale — chi è più colpevole per i danni ambientali?",
             "sideA": "Responsabilità individuale",
             "sideB": "Responsabilità aziendale",
@@ -1352,7 +1352,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_environment_006"
         },
-        {
+    {
             "topic": "Democrazia diretta vs democrazia rappresentativa — quale è più efficace?",
             "sideA": "Democrazia diretta",
             "sideB": "Democrazia rappresentativa",
@@ -1378,7 +1378,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_023"
         },
-        {
+    {
             "topic": "Forte governo centrale vs autonomia regionale — cosa serve meglio i cittadini?",
             "sideA": "Governo centrale",
             "sideB": "Autonomia regionale",
@@ -1404,7 +1404,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_024"
         },
-        {
+    {
             "topic": "Meritocrazia vs azioni positive — quale è la base più equa per l'opportunità?",
             "sideA": "Meritocrazia",
             "sideB": "Azioni positive",
@@ -1430,7 +1430,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_025"
         },
-        {
+    {
             "topic": "Frontiere aperte vs immigrazione controllata — cosa serve meglio sia le comunità ospitanti che quelle migranti?",
             "sideA": "Frontiere aperte",
             "sideB": "Immigrazione controllata",
@@ -1456,7 +1456,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_026"
         },
-        {
+    {
             "topic": "Utilitarismo vs etica deontologica — quale offre un quadro morale migliore?",
             "sideA": "Utilitarismo",
             "sideB": "Deontologia",
@@ -1482,7 +1482,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_015"
         },
-        {
+    {
             "topic": "Libertà di parola vs protezione dal danno — dove dovrebbe essere tracciato il limite?",
             "sideA": "Libertà di parola",
             "sideB": "Protezione dal danno",
@@ -1508,7 +1508,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_027"
         },
-        {
+    {
             "topic": "Relativismo culturale vs diritti umani universali — quale è la posizione più forte?",
             "sideA": "Relativismo culturale",
             "sideB": "Diritti universali",
@@ -1534,7 +1534,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_028"
         },
-        {
+    {
             "topic": "Punizione vs riabilitazione — quale dovrebbe essere l'obiettivo del sistema giudiziario?",
             "sideA": "Punizione",
             "sideB": "Riabilitazione",
@@ -1560,7 +1560,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_029"
         },
-        {
+    {
             "topic": "Sapere troppo vs sapere troppo poco — quale condizione è più pericolosa per l'adulto moderno?",
             "sideA": "Sapere troppo",
             "sideB": "Sapere troppo poco",
@@ -1586,7 +1586,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_016"
         },
-        {
+    {
             "topic": "Essere in anticipo ovunque vs essere sempre leggermente in ritardo — quale è il peggior crimine sociale?",
             "sideA": "Essere in anticipo",
             "sideB": "Essere in ritardo",
@@ -1612,7 +1612,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_017"
         },
-        {
+    {
             "topic": "Piegare il bucato immediatamente vs vivere con una montagna di panni — quale scelta di vita è più difendibile?",
             "sideA": "Piegare subito",
             "sideB": "Montagna di panni",
@@ -1638,7 +1638,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_018"
         },
-        {
+    {
             "topic": "L'invenzione della sveglia vs l'invenzione del tasto 'snooze' — quale ha fatto più danni all'umanità?",
             "sideA": "Sveglia",
             "sideB": "Tasto snooze",
@@ -1664,7 +1664,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_019"
         },
-        {
+    {
             "topic": "Fantasmi vs alieni — quale sarebbe una scoperta più dirompente per la società moderna?",
             "sideA": "Fantasmi",
             "sideB": "Alieni",
@@ -1690,7 +1690,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_020"
         },
-        {
+    {
             "topic": "Cereali prima del latte vs latte prima dei cereali — è una questione di preferenza o di fatto oggettivo?",
             "sideA": "Cereali prima",
             "sideB": "Latte prima",
@@ -1716,7 +1716,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_021"
         },
-        {
+    {
             "topic": "Whistleblowing vs lealtà istituzionale — quale è la scelta più etica?",
             "sideA": "Whistleblowing",
             "sideB": "Lealtà",
@@ -1742,7 +1742,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_030"
         },
-        {
+    {
             "topic": "Ottimismo vs realismo — quale è la visione del mondo più produttiva per la carriera?",
             "sideA": "Ottimismo",
             "sideB": "Realismo",
@@ -1768,7 +1768,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_022"
         },
-        {
+    {
             "topic": "Imprenditorialità vs lavoro dipendente — cosa contribuisce di più alla società?",
             "sideA": "Imprenditorialità",
             "sideB": "Lavoro dipendente",
@@ -1794,7 +1794,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_031"
         },
-        {
+    {
             "topic": "Nazionalismo vs globalismo — quale è il quadro più coerente per il XXI secolo?",
             "sideA": "Nazionalismo",
             "sideB": "Globalismo",
@@ -1820,7 +1820,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_work_032"
         },
-        {
+    {
             "topic": "Istruzione domiciliare vs scuola tradizionale — cosa produce individui più equilibrati?",
             "sideA": "Istruzione domiciliare",
             "sideB": "Scuola tradizionale",
@@ -1846,7 +1846,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_023"
         },
-        {
+    {
             "topic": "Sistemi di votazione vs feedback descrittivo — cosa motiva gli studenti in modo più efficace?",
             "sideA": "Voti",
             "sideB": "Feedback descrittivo",
@@ -1872,7 +1872,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_language_024"
         },
-        {
+    {
             "topic": "Intelligenza artificiale vs giudizio umano — cosa dovrebbe guidare le decisioni chiave nel business?",
             "sideA": "Intelligenza artificiale",
             "sideB": "Giudizio umano",
@@ -1898,7 +1898,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_technology_008"
         },
-        {
+    {
             "topic": "Ottimismo tecnologico vs scetticismo tecnologico — quale è la posizione predefinita più razionale oggi?",
             "sideA": "Ottimismo tech",
             "sideB": "Scetticismo tech",
@@ -1924,7 +1924,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_technology_009"
         },
-        {
+    {
             "topic": "Identità digitale vs identità nel mondo reale — cosa ci definisce di più oggi?",
             "sideA": "Identità digitale",
             "sideB": "Identità reale",
@@ -1950,7 +1950,7 @@
             "sub_theme": null,
             "id": "it_upper_intermediate_technology_010"
         },
-        {
+    {
             "topic": "Eco-ansia vs ottimismo climatico — quale è la risposta più costruttiva alla crisi?",
             "sideA": "Eco-ansia",
             "sideB": "Ottimismo climatico",

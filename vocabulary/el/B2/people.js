@@ -1,17 +1,20 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
+        "id": "el_upper_intermediate_identity_self_001",
+        "lang": "el",
         "word": "Μαρία Κάλλας",
         "level": "upper_intermediate",
-        "theme": "identity_self_C1"
+        "theme": "identity_self"
     },
     {
+        "id": "el_upper_intermediate_identity_self_002",
+        "lang": "el",
         "word": "Οδυσσέας Ελύτης",
         "level": "upper_intermediate",
-        "theme": "identity_self_C1"
+        "theme": "identity_self"
     }
-];
+    ];
     const lang = "el";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];

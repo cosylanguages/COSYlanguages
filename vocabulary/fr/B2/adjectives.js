@@ -1,10 +1,11 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
+        "id": "fr_upper_intermediate_politics_governance_001",
+        "lang": "fr",
         "word": "civique",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "emoji": "🏛️",
         "form": "adjective",
         "subtext": "devoir civique, engagement citoyen",
@@ -18,13 +19,15 @@
         ]
     },
     {
+        "id": "fr_upper_intermediate_serious_illness_treatment_001",
+        "lang": "fr",
         "word": "chronique",
         "level": "upper_intermediate",
-        "theme": "serious_illness_treatment_B2",
+        "theme": "serious_illness_treatment",
         "emoji": "⏳🤒",
         "form": "adjective",
         "subtext": "douleur chronique, maladie de longue durée",
-        "opposite": "aigu",
+        "antonyms": ["aigu"],
         "definitions": [
             {
                 "text": "Qui dure longtemps ou revient souvent.",
@@ -35,9 +38,11 @@
         ]
     },
     {
+        "id": "fr_upper_intermediate_serious_illness_treatment_002",
+        "lang": "fr",
         "word": "préventif",
         "level": "upper_intermediate",
-        "theme": "serious_illness_treatment_B2",
+        "theme": "serious_illness_treatment",
         "emoji": "🛡️",
         "form": "adjective",
         "subtext": "médecine préventive, mesure de précaution",
@@ -51,9 +56,11 @@
         ]
     },
     {
+        "id": "fr_upper_intermediate_ethical_dilemmas_001",
+        "lang": "fr",
         "word": "moral",
         "level": "upper_intermediate",
-        "theme": "ethical_dilemmas_B2",
+        "theme": "ethical_dilemmas",
         "emoji": "⚖️",
         "form": "adjective",
         "subtext": "",
@@ -68,9 +75,11 @@
         ]
     },
     {
+        "id": "fr_upper_intermediate_ethical_dilemmas_002",
+        "lang": "fr",
         "word": "éthique",
         "level": "upper_intermediate",
-        "theme": "ethical_dilemmas_B2",
+        "theme": "ethical_dilemmas",
         "emoji": "🤔⚖️",
         "form": "adjective",
         "subtext": "conduite éthique, déontologie",
@@ -84,9 +93,11 @@
         ]
     },
     {
+        "id": "fr_upper_intermediate_environment_policy_001",
+        "lang": "fr",
         "word": "durable",
         "level": "upper_intermediate",
-        "theme": "environment_policy_B2",
+        "theme": "environment_policy",
         "emoji": "🌱",
         "form": "adjective",
         "definitions": [
@@ -98,7 +109,7 @@
             }
         ]
     }
-];
+    ];
     const lang = "fr";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

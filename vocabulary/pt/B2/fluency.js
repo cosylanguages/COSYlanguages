@@ -506,7 +506,7 @@
         ],
         "id": "pt_upper_intermediate_social_022"
     }
-];
+    ];
     const lang = "pt";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

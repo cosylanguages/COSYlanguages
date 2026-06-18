@@ -1,39 +1,12 @@
-// TODO: verify level classification
 (function() {
     const data = [
-    // level corrected from "starter" — was in B2 folder
     {
-        "word": "jardin",
-        "image": "images/vocabulary/places/garden.png",
+        "id": "fr_upper_intermediate_health_society_001",
+        "lang": "fr",
+
+        "transcription": "psikɔlɔɡ",
         "level": "upper_intermediate",
-        "theme": "local_places_services_A1",
-        "emoji": "🌳",
-        "form": "noun", "classification": "regular",
-        "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }],
-        "countability": "countable"
-    },
-{
-        "word": "avocat",
-        "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
-        "article": "l'",
-        "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
-        "plural": "avocats",
-        "definitions": [
-            {
-                "text": "Une personne qui donne des conseils juridiques et représente les gens au tribunal.",
-                "examples": [
-                    "Je dois parler à mon avocat.",
-                    "L'avocat est au tribunal."
-                ]
-            }
-        ]
-    },
-{
-        "word": "psychologue",
-        "level": "upper_intermediate",
-        "theme": "health_society_B2",
+        "theme": "health_society",
         "article": "le",
         "emoji": "🧠",
         "form": "noun", "classification": "regular",
@@ -47,10 +20,13 @@
             }
         ]
     },
-{
-        "word": "responsabilité",
+    {
+        "id": "fr_upper_intermediate_politics_governance_003",
+        "lang": "fr",
+
+        "transcription": "ʁɛspɔ̃sabilite",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "la",
         "emoji": "📑",
         "form": "noun", "classification": "regular",
@@ -65,10 +41,13 @@
             }
         ]
     },
-{
-        "word": "incitation",
+    {
+        "id": "fr_upper_intermediate_economy_labour_market_001",
+        "lang": "fr",
+
+        "transcription": "ɛ̃sitasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market_B2",
+        "theme": "economy_labour_market",
         "article": "l'",
         "emoji": "🥕",
         "form": "noun", "classification": "regular",
@@ -83,17 +62,20 @@
             }
         ]
     },
-{
-        "word": "autonomie",
+    {
+        "id": "fr_upper_intermediate_employment_law_rights_001",
+        "lang": "fr",
+
+        "transcription": "otɔnɔmi",
         "level": "upper_intermediate",
-        "theme": "employment_law_rights_B2",
+        "theme": "employment_law_rights",
         "article": "l'",
         "emoji": "🔓",
         "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["indépendance", "liberté d'action"],
-        "opposite": "dépendance",
+        "antonyms": ["dépendance"],
         "definitions": [
             {
                 "text": "Le droit ou la capacité d'agir de manière indépendante.",
@@ -103,16 +85,19 @@
             }
         ]
     },
-{
-        "word": "précarité",
+    {
+        "id": "fr_upper_intermediate_economy_labour_market_002",
+        "lang": "fr",
+
+        "transcription": "pʁekaʁite",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market_B2",
+        "theme": "economy_labour_market",
         "article": "la",
         "emoji": "🧗",
         "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "instabilité d'emploi, fragilité sociale",
-        "opposite": "stabilité",
+        "antonyms": ["stabilité"],
         "definitions": [
             {
                 "text": "Un état d'insécurité et d'incertitude quant à l'emploi ou aux conditions de vie.",
@@ -122,10 +107,13 @@
             }
         ]
     },
-{
-        "word": "écart de rémunération",
+    {
+        "id": "fr_upper_intermediate_gender_equality_001",
+        "lang": "fr",
+
+        "transcription": "ekaʁ də ʁemyneʁasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "gender_equality_B2",
+        "theme": "gender_equality",
         "article": "l'",
         "emoji": "⚖️📉",
         "form": "noun phrase",
@@ -140,10 +128,13 @@
             }
         ]
     },
-{
-        "word": "prime de licenciement",
+    {
+        "id": "fr_upper_intermediate_employment_law_rights_002",
+        "lang": "fr",
+
+        "transcription": "pʁim də lisɑ̃sijmɑ̃",
         "level": "upper_intermediate",
-        "theme": "employment_law_rights_B2",
+        "theme": "employment_law_rights",
         "article": "la",
         "emoji": "📦",
         "form": "noun phrase",
@@ -159,10 +150,13 @@
             }
         ]
     },
-{
-        "word": "entrepreneuriat",
+    {
+        "id": "fr_upper_intermediate_economy_labour_market_003",
+        "lang": "fr",
+
+        "transcription": "ɑ̃tʁəpʁənəʁija",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market_B2",
+        "theme": "economy_labour_market",
         "article": "l'",
         "emoji": "💡",
         "form": "noun", "classification": "regular",
@@ -177,10 +171,13 @@
             }
         ]
     },
-{
-        "word": "productivité",
+    {
+        "id": "fr_upper_intermediate_economy_labour_market_004",
+        "lang": "fr",
+
+        "transcription": "pʁɔdyktivite",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market_B2",
+        "theme": "economy_labour_market",
         "article": "la",
         "emoji": "⚡",
         "form": "noun", "classification": "regular",
@@ -196,10 +193,13 @@
             }
         ]
     },
-{
-        "word": "externalisation",
+    {
+        "id": "fr_upper_intermediate_globalisation_trade_001",
+        "lang": "fr",
+
+        "transcription": "ɛkstɛʁnalizasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "globalisation_trade_B2",
+        "theme": "globalisation_trade",
         "article": "l'",
         "emoji": "🌐",
         "form": "noun", "classification": "regular",
@@ -215,10 +215,13 @@
             }
         ]
     },
-{
-        "word": "automatisation",
+    {
+        "id": "fr_upper_intermediate_applied_sciences_engineering_001",
+        "lang": "fr",
+
+        "transcription": "ɔtɔmatizasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "applied_sciences_engineering_B2",
+        "theme": "applied_sciences_engineering",
         "article": "l'",
         "emoji": "🤖",
         "form": "noun", "classification": "regular",
@@ -233,10 +236,13 @@
             }
         ]
     },
-{
-        "word": "gentrification",
+    {
+        "id": "fr_upper_intermediate_housing_society_001",
+        "lang": "fr",
+
+        "transcription": "dʒɛntʁifikasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "housing_society_B2",
+        "theme": "housing_society",
         "article": "la",
         "emoji": "🏘️📈",
         "form": "noun", "classification": "regular",
@@ -252,10 +258,13 @@
             }
         ]
     },
-{
-        "word": "logement abordable",
+    {
+        "id": "fr_upper_intermediate_housing_society_002",
+        "lang": "fr",
+
+        "transcription": "lɔʒmɑ̃ abɔʁdabl",
         "level": "upper_intermediate",
-        "theme": "housing_society_B2",
+        "theme": "housing_society",
         "article": "le",
         "emoji": "🏠💰",
         "form": "noun phrase",
@@ -271,10 +280,13 @@
             }
         ]
     },
-{
-        "word": "étalement urbain",
+    {
+        "id": "fr_upper_intermediate_housing_society_003",
+        "lang": "fr",
+
+        "transcription": "etalmɑ̃ yʁbɛ̃",
         "level": "upper_intermediate",
-        "theme": "housing_society_B2",
+        "theme": "housing_society",
         "article": "l'",
         "emoji": "🏙️↔️",
         "form": "noun phrase",
@@ -290,10 +302,13 @@
             }
         ]
     },
-{
-        "word": "infrastructure",
+    {
+        "id": "fr_upper_intermediate_politics_governance_004",
+        "lang": "fr",
+
+        "transcription": "ɛ̃fʁastʁyktyʁ",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "l'",
         "emoji": "🏗️",
         "form": "noun", "classification": "regular",
@@ -308,10 +323,13 @@
             }
         ]
     },
-{
-        "word": "État-providence",
+    {
+        "id": "fr_upper_intermediate_politics_governance_005",
+        "lang": "fr",
+
+        "transcription": "eta pʁɔvidɑ̃s",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "l'",
         "emoji": "🛡️🏛️",
         "form": "noun phrase",
@@ -327,10 +345,13 @@
             }
         ]
     },
-{
-        "word": "polarisation",
+    {
+        "id": "fr_upper_intermediate_politics_governance_006",
+        "lang": "fr",
+
+        "transcription": "pɔlaʁizasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "la",
         "emoji": "↔️❌",
         "form": "noun", "classification": "regular",
@@ -345,10 +366,13 @@
             }
         ]
     },
-{
-        "word": "discours",
+    {
+        "id": "fr_upper_intermediate_formal_debate_vocab_002",
+        "lang": "fr",
+
+        "transcription": "diskuʁ",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "article": "le",
         "emoji": "🗣️",
         "form": "noun", "classification": "regular",
@@ -363,10 +387,13 @@
             }
         ]
     },
-{
-        "word": "examen approfondi",
+    {
+        "id": "fr_upper_intermediate_politics_governance_007",
+        "lang": "fr",
+
+        "transcription": "ɛɡzamɛ̃ apʁɔfɔ̃di",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "l'",
         "emoji": "🔍",
         "form": "noun phrase",
@@ -382,10 +409,13 @@
             }
         ]
     },
-{
-        "word": "consensus",
+    {
+        "id": "fr_upper_intermediate_formal_debate_vocab_003",
+        "lang": "fr",
+
+        "transcription": "kɔ̃sɛ̃sys",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "article": "le",
         "emoji": "🤝",
         "form": "noun", "classification": "regular",
@@ -401,10 +431,13 @@
             }
         ]
     },
-{
-        "word": "législation",
+    {
+        "id": "fr_upper_intermediate_politics_governance_008",
+        "lang": "fr",
+
+        "transcription": "leʒislasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "la",
         "emoji": "📜",
         "form": "noun", "classification": "regular",
@@ -420,17 +453,20 @@
             }
         ]
     },
-{
-        "word": "parti pris",
+    {
+        "id": "fr_upper_intermediate_formal_debate_vocab_004",
+        "lang": "fr",
+
+        "transcription": "paʁti pʁi",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "article": "le",
         "emoji": "⚖️❌",
         "form": "noun phrase",
         "plural": "partis pris",
         "subtext": "",
         "synonyms": ["biais", "préjugé"],
-        "opposite": "impartialité",
+        "antonyms": ["impartialité"],
         "definitions": [
             {
                 "text": "Tendance injuste à favoriser ou à s'opposer à quelqu'un ou à quelque chose.",
@@ -440,10 +476,13 @@
             }
         ]
     },
-{
-        "word": "obésité",
+    {
+        "id": "fr_upper_intermediate_health_society_002",
+        "lang": "fr",
+
+        "transcription": "ɔbezite",
         "level": "upper_intermediate",
-        "theme": "health_society_B2",
+        "theme": "health_society",
         "article": "l'",
         "emoji": "⚖️⬆️",
         "form": "noun", "classification": "regular",
@@ -459,10 +498,13 @@
             }
         ]
     },
-{
-        "word": "espérance de vie",
+    {
+        "id": "fr_upper_intermediate_health_society_003",
+        "lang": "fr",
+
+        "transcription": "ɛspeʁɑ̃s də vi",
         "level": "upper_intermediate",
-        "theme": "health_society_B2",
+        "theme": "health_society",
         "article": "l'",
         "emoji": "⏳👴",
         "form": "noun phrase",
@@ -477,16 +519,19 @@
             }
         ]
     },
-{
-        "word": "justice",
+    {
+        "id": "fr_upper_intermediate_politics_governance_009",
+        "lang": "fr",
+
+        "transcription": "ʒystis",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "la",
         "emoji": "⚖️",
         "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "justice sociale, système judiciaire",
-        "opposite": "injustice",
+        "antonyms": ["injustice"],
         "definitions": [
             {
                 "text": "Traitement juste et qualité de ce qui est conforme au droit.",
@@ -496,10 +541,13 @@
             }
         ]
     },
-{
-        "word": "réinsertion",
+    {
+        "id": "fr_upper_intermediate_crime_punishment_001",
+        "lang": "fr",
+
+        "transcription": "ʁeɛ̃sɛʁsjɔ̃",
         "level": "upper_intermediate",
-        "theme": "crime_punishment_B2",
+        "theme": "crime_punishment",
         "article": "la",
         "emoji": "🔄🏢",
         "form": "noun", "classification": "regular",
@@ -514,16 +562,19 @@
             }
         ]
     },
-{
-        "word": "transparence",
+    {
+        "id": "fr_upper_intermediate_politics_governance_010",
+        "lang": "fr",
+
+        "transcription": "tʁɑ̃spaʁɑ̃s",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "la",
         "emoji": "🪟",
         "form": "noun", "classification": "regular",
         "plural": "transparences",
         "subtext": "plus de transparence, honnêteté",
-        "opposite": "opacité",
+        "antonyms": ["opacité"],
         "definitions": [
             {
                 "text": "Fait d'être ouvert et honnête sur les actions et les décisions.",
@@ -533,10 +584,13 @@
             }
         ]
     },
-{
-        "word": "algorithme",
+    {
+        "id": "fr_upper_intermediate_technology_privacy_001",
+        "lang": "fr",
+
+        "transcription": "alɡɔʁitm",
         "level": "upper_intermediate",
-        "theme": "technology_privacy_B2",
+        "theme": "technology_privacy",
         "article": "l'",
         "emoji": "💻",
         "form": "noun", "classification": "regular",
@@ -551,10 +605,13 @@
             }
         ]
     },
-{
-        "word": "confidentialité des données",
+    {
+        "id": "fr_upper_intermediate_technology_privacy_002",
+        "lang": "fr",
+
+        "transcription": "kɔ̃fidɑ̃sijalite de dɔne",
         "level": "upper_intermediate",
-        "theme": "technology_privacy_B2",
+        "theme": "technology_privacy",
         "article": "la",
         "emoji": "🔒",
         "form": "noun phrase",
@@ -570,10 +627,13 @@
             }
         ]
     },
-{
-        "word": "désinformation",
+    {
+        "id": "fr_upper_intermediate_media_misinformation_001",
+        "lang": "fr",
+
+        "transcription": "dezɛ̃fɔʁmasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "media_misinformation_B2",
+        "theme": "media_misinformation",
         "article": "la",
         "emoji": "🤥",
         "form": "noun", "classification": "regular",
@@ -588,10 +648,13 @@
             }
         ]
     },
-{
-        "word": "surveillance",
+    {
+        "id": "fr_upper_intermediate_technology_privacy_003",
+        "lang": "fr",
+
+        "transcription": "syʁvɛjɑ̃s",
         "level": "upper_intermediate",
-        "theme": "technology_privacy_B2",
+        "theme": "technology_privacy",
         "article": "la",
         "emoji": "📹",
         "form": "noun", "classification": "regular",
@@ -606,10 +669,13 @@
             }
         ]
     },
-{
-        "word": "alors que",
+    {
+        "id": "fr_upper_intermediate_formal_debate_vocab_005",
+        "lang": "fr",
+
+        "transcription": "alɔʁ kə",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "⚖️",
         "form": "conjunction",
         "subtext": "",
@@ -623,10 +689,13 @@
             }
         ]
     },
-{
-        "word": "néanmoins",
+    {
+        "id": "fr_upper_intermediate_formal_debate_vocab_006",
+        "lang": "fr",
+
+        "transcription": "neɑ̃mwɛ̃",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "🏃‍♂️",
         "form": "adverb",
         "subtext": "",
@@ -640,10 +709,13 @@
             }
         ]
     },
-{
-        "word": "dans quelle mesure",
+    {
+        "id": "fr_upper_intermediate_formal_debate_vocab_007",
+        "lang": "fr",
+
+        "transcription": "dɑ̃ kɛl məzyʁ",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "📏",
         "form": "phrase",
         "definitions": [
@@ -655,10 +727,13 @@
             }
         ]
     },
-{
-        "word": "par contre",
+    {
+        "id": "fr_upper_intermediate_formal_debate_vocab_008",
+        "lang": "fr",
+
+        "transcription": "paʁ kɔ̃tʁ",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "🌓",
         "form": "phrase",
         "subtext": "",
@@ -672,10 +747,13 @@
             }
         ]
     },
-{
-        "word": "intelligence artificielle",
+    {
+        "id": "fr_upper_intermediate_technology_privacy_004",
+        "lang": "fr",
+
+        "transcription": "ɛ̃tɛliʒɑ̃s aʁtifisjɛl",
         "level": "upper_intermediate",
-        "theme": "technology_privacy_B2",
+        "theme": "technology_privacy",
         "article": "l'",
         "emoji": "🤖",
         "form": "noun phrase",
@@ -688,7 +766,9 @@
                 ]
             }
         ]
-    },
-{}
-];
+    }
+    ];
+    const lang = "fr";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

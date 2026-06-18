@@ -1,38 +1,11 @@
-// TODO: verify level classification
 (function() {
     const data = [
-    // level corrected from "starter" — was in B2 folder
     {
-        "word": "κήπος",
-        "image": "images/vocabulary/places/garden.png",
-        "level": "upper_intermediate",
-        "theme": "local_places_services_A1",
-        "emoji": "🌳",
-        "form": "noun", "classification": "regular",
-        "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }],
-        "countability": "countable"
-    },
-{
-        "word": "δικηγόρος",
-        "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
-        "article": "ο",
-        "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
-        "plural": "δικηγόροι",
-        "definitions": [
-            {
-                "text": "Ένα άτομο που δίνει συμβουλές για το νόμο και εκπροσωπεί ανθρώπους στο δικαστήριο.",
-                "examples": [
-                    "Πρέπει να μιλήσω με τον δικηγόρο μου."
-                ]
-            }
-        ]
-    },
-{
+        "id": "el_upper_intermediate_places_shops_001",
+        "lang": "el",
         "word": "φαρμακείο",
         "level": "upper_intermediate",
-        "theme": "places_shops_A1",
+        "theme": "places_shops",
         "article": "το",
         "emoji": "💊",
         "form": "noun", "classification": "regular",
@@ -46,10 +19,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_health_society_001",
+        "lang": "el",
         "word": "ψυχολόγος",
         "level": "upper_intermediate",
-        "theme": "health_society_B2",
+        "theme": "health_society",
         "article": "ο",
         "emoji": "🧠",
         "form": "noun", "classification": "regular",
@@ -63,10 +38,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_politics_governance_029",
+        "lang": "el",
         "word": "λογοδοσία",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "η",
         "emoji": "📑",
         "form": "noun", "classification": "regular",
@@ -82,10 +59,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_economy_labour_market_005",
+        "lang": "el",
         "word": "κίνητρο",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market_B2",
+        "theme": "economy_labour_market",
         "article": "το",
         "emoji": "🥕",
         "form": "noun", "classification": "regular",
@@ -100,17 +79,19 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_employment_law_rights_001",
+        "lang": "el",
         "word": "αυτονομία",
         "level": "upper_intermediate",
-        "theme": "employment_law_rights_B2",
+        "theme": "employment_law_rights",
         "article": "η",
         "emoji": "🔓",
         "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["ανεξαρτησία"],
-        "opposite": "εξάρτηση",
+        "antonyms": ["εξάρτηση"],
         "definitions": [
             {
                 "text": "Το δικαίωμα ή η ικανότητα να ενεργεί κανείς ανεξάρτητα.",
@@ -120,17 +101,19 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_economy_labour_market_006",
+        "lang": "el",
         "word": "επισφάλεια",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market_B2",
+        "theme": "economy_labour_market",
         "article": "η",
         "emoji": "🧗",
         "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["αβεβαιότητα στην εργασία"],
-        "opposite": "σταθερότητα",
+        "antonyms": ["σταθερότητα"],
         "definitions": [
             {
                 "text": "Μια ανασφαλής και αβέβαιη κατάσταση απασχόλησης ή συνθηκών διαβίωσης.",
@@ -140,10 +123,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_gender_equality_001",
+        "lang": "el",
         "word": "μισθολογικό χάσμα",
         "level": "upper_intermediate",
-        "theme": "gender_equality_B2",
+        "theme": "gender_equality",
         "article": "το",
         "emoji": "⚖️📉",
         "form": "noun phrase",
@@ -159,10 +144,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_employment_law_rights_002",
+        "lang": "el",
         "word": "πακέτο απόλυσης",
         "level": "upper_intermediate",
-        "theme": "employment_law_rights_B2",
+        "theme": "employment_law_rights",
         "article": "το",
         "emoji": "📦",
         "form": "noun phrase",
@@ -178,10 +165,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_economy_labour_market_007",
+        "lang": "el",
         "word": "επιχειρηματικότητα",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market_B2",
+        "theme": "economy_labour_market",
         "article": "η",
         "emoji": "💡",
         "form": "noun", "classification": "regular",
@@ -195,10 +184,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_economy_labour_market_008",
+        "lang": "el",
         "word": "παραγωγικότητα",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market_B2",
+        "theme": "economy_labour_market",
         "article": "η",
         "emoji": "⚡",
         "form": "noun", "classification": "regular",
@@ -214,10 +205,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_globalisation_trade_003",
+        "lang": "el",
         "word": "εξωτερική ανάθεση",
         "level": "upper_intermediate",
-        "theme": "globalisation_trade_B2",
+        "theme": "globalisation_trade",
         "article": "η",
         "emoji": "🌐",
         "form": "noun", "classification": "regular",
@@ -233,10 +226,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_applied_sciences_engineering_001",
+        "lang": "el",
         "word": "αυτοματοποίηση",
         "level": "upper_intermediate",
-        "theme": "applied_sciences_engineering_B2",
+        "theme": "applied_sciences_engineering",
         "article": "η",
         "emoji": "🤖",
         "form": "noun", "classification": "regular",
@@ -250,10 +245,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_housing_society_001",
+        "lang": "el",
         "word": "εξευγενισμός",
         "level": "upper_intermediate",
-        "theme": "housing_society_B2",
+        "theme": "housing_society",
         "article": "ο",
         "emoji": "🏘️📈",
         "form": "noun", "classification": "regular",
@@ -269,10 +266,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_housing_society_002",
+        "lang": "el",
         "word": "προσιτή στέγαση",
         "level": "upper_intermediate",
-        "theme": "housing_society_B2",
+        "theme": "housing_society",
         "article": "η",
         "emoji": "🏠💰",
         "form": "noun phrase",
@@ -288,10 +287,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_housing_society_003",
+        "lang": "el",
         "word": "αστική εξάπλωση",
         "level": "upper_intermediate",
-        "theme": "housing_society_B2",
+        "theme": "housing_society",
         "article": "η",
         "emoji": "🏙️↔️",
         "form": "noun phrase",
@@ -305,10 +306,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_politics_governance_030",
+        "lang": "el",
         "word": "υποδομή",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "η",
         "emoji": "🏗️",
         "form": "noun", "classification": "regular",
@@ -322,10 +325,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_politics_governance_031",
+        "lang": "el",
         "word": "κράτος πρόνοιας",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "το",
         "emoji": "🛡️🏛️",
         "form": "noun phrase",
@@ -339,10 +344,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_politics_governance_032",
+        "lang": "el",
         "word": "πόλωση",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "η",
         "emoji": "↔️❌",
         "form": "noun", "classification": "regular",
@@ -357,10 +364,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_formal_debate_vocab_002",
+        "lang": "el",
         "word": "λόγος",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "article": "ο",
         "emoji": "🗣️",
         "form": "noun", "classification": "regular",
@@ -376,10 +385,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_politics_governance_033",
+        "lang": "el",
         "word": "έλεγχος",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "ο",
         "emoji": "🔍",
         "form": "noun", "classification": "regular",
@@ -394,10 +405,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_formal_debate_vocab_003",
+        "lang": "el",
         "word": "συναίνεση",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "article": "η",
         "emoji": "🤝",
         "form": "noun", "classification": "regular",
@@ -413,10 +426,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_politics_governance_034",
+        "lang": "el",
         "word": "νομοθεσία",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "η",
         "emoji": "📜",
         "form": "noun", "classification": "regular",
@@ -430,17 +445,19 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_formal_debate_vocab_004",
+        "lang": "el",
         "word": "προκατάληψη",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "article": "η",
         "emoji": "⚖️❌",
         "form": "noun", "classification": "regular",
         "plural": "προκαταλήψεις",
         "subtext": "",
         "synonyms": ["μεροληψία"],
-        "opposite": "αμεροληψία",
+        "antonyms": ["αμεροληψία"],
         "definitions": [
             {
                 "text": "Μια άδικη τάση να ευνοεί ή να αντιτίθεται κανείς σε κάποιον ή κάτι.",
@@ -450,10 +467,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_health_society_002",
+        "lang": "el",
         "word": "παχυσαρκία",
         "level": "upper_intermediate",
-        "theme": "health_society_B2",
+        "theme": "health_society",
         "article": "η",
         "emoji": "⚖️⬆️",
         "form": "noun", "classification": "regular",
@@ -467,10 +486,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_health_society_003",
+        "lang": "el",
         "word": "προσδόκιμο ζωής",
         "level": "upper_intermediate",
-        "theme": "health_society_B2",
+        "theme": "health_society",
         "article": "το",
         "emoji": "⏳👴",
         "form": "noun phrase",
@@ -484,16 +505,18 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_politics_governance_035",
+        "lang": "el",
         "word": "δικαιοσύνη",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "η",
         "emoji": "⚖️",
         "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "κοινωνική δικαιοσύνη",
-        "opposite": "αδικία",
+        "antonyms": ["αδικία"],
         "definitions": [
             {
                 "text": "Δίκαιη μεταχείριση και η ιδιότητα του να είσαι δίκαιος.",
@@ -503,10 +526,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_crime_punishment_001",
+        "lang": "el",
         "word": "επανένταξη",
         "level": "upper_intermediate",
-        "theme": "crime_punishment_B2",
+        "theme": "crime_punishment",
         "article": "η",
         "emoji": "🔄🏢",
         "form": "noun", "classification": "regular",
@@ -522,15 +547,17 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_politics_governance_036",
+        "lang": "el",
         "word": "διαφάνεια",
         "level": "upper_intermediate",
-        "theme": "politics_governance_B2",
+        "theme": "politics_governance",
         "article": "η",
         "emoji": "🪟",
         "form": "noun", "classification": "regular",
         "plural": null,
-        "opposite": "αδιαφάνεια",
+        "antonyms": ["αδιαφάνεια"],
         "definitions": [
             {
                 "text": "Το να είναι κανείς ανοιχτός και ειλικρινής σχετικά με τις ενέργειες και τις αποφάσεις.",
@@ -540,10 +567,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_technology_privacy_011",
+        "lang": "el",
         "word": "αλγόριθμος",
         "level": "upper_intermediate",
-        "theme": "technology_privacy_B2",
+        "theme": "technology_privacy",
         "article": "ο",
         "emoji": "💻",
         "form": "noun", "classification": "regular",
@@ -557,10 +586,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_technology_privacy_012",
+        "lang": "el",
         "word": "απόρρητο δεδομένων",
         "level": "upper_intermediate",
-        "theme": "technology_privacy_B2",
+        "theme": "technology_privacy",
         "article": "το",
         "emoji": "🔒",
         "form": "noun phrase",
@@ -576,10 +607,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_media_misinformation_001",
+        "lang": "el",
         "word": "παραπληροφόρηση",
         "level": "upper_intermediate",
-        "theme": "media_misinformation_B2",
+        "theme": "media_misinformation",
         "article": "η",
         "emoji": "🤥",
         "form": "noun", "classification": "regular",
@@ -595,10 +628,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_technology_privacy_013",
+        "lang": "el",
         "word": "επιτήρηση",
         "level": "upper_intermediate",
-        "theme": "technology_privacy_B2",
+        "theme": "technology_privacy",
         "article": "η",
         "emoji": "📹",
         "form": "noun", "classification": "regular",
@@ -614,10 +649,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_formal_debate_vocab_005",
+        "lang": "el",
         "word": "ενώ",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "⚖️",
         "form": "conjunction",
         "definitions": [
@@ -629,10 +666,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_formal_debate_vocab_006",
+        "lang": "el",
         "word": "παρόλα αυτά",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "🏃‍♂️",
         "form": "adverb",
         "subtext": "εντούτοις, παρόλα αυτά",
@@ -645,10 +684,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_formal_debate_vocab_007",
+        "lang": "el",
         "word": "σε ποιο βαθμό",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "📏",
         "form": "phrase",
         "definitions": [
@@ -660,10 +701,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_formal_debate_vocab_008",
+        "lang": "el",
         "word": "αντίθετα",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab_B2",
+        "theme": "formal_debate_vocab",
         "emoji": "🌓",
         "form": "phrase",
         "definitions": [
@@ -675,10 +718,12 @@
             }
         ]
     },
-{
+    {
+        "id": "el_upper_intermediate_technology_privacy_014",
+        "lang": "el",
         "word": "τεχνητή νοημοσύνη",
         "level": "upper_intermediate",
-        "theme": "technology_privacy_B2",
+        "theme": "technology_privacy",
         "article": "η",
         "emoji": "🤖",
         "form": "noun phrase",
@@ -691,7 +736,9 @@
                 ]
             }
         ]
-    },
-{}
-];
+    }
+    ];
+    const lang = "el";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

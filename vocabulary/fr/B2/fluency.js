@@ -484,7 +484,7 @@
             "Y a-t-il une part de vérité malgré tout ?"
         ]
     }
-];
+    ];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

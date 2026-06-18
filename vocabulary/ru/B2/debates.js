@@ -1900,7 +1900,7 @@
             "Вера в то, что изменения возможны — необходимое условие для усилий по созданию устойчивого будущего."
         ]
     }
-];
+    ];
     const lang = "ru";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
