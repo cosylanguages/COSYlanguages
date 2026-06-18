@@ -21,7 +21,9 @@
                 "text": "A holiday you remember",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_food_drink_001",
@@ -44,7 +46,9 @@
                 "text": "Your favourite restaurant or café",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_travel_002",
@@ -67,7 +71,9 @@
                 "text": "How you get to work or school",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_001",
@@ -90,7 +96,9 @@
                 "text": "What you do to relax",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_002",
@@ -113,7 +121,9 @@
                 "text": "A film you watched recently",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_003",
@@ -136,7 +146,9 @@
                 "text": "Your ideal weekend",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_people_001",
@@ -159,7 +171,9 @@
                 "text": "A person you admire",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_travel_003",
@@ -182,7 +196,9 @@
                 "text": "Your dream holiday destination",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_004",
@@ -205,7 +221,9 @@
                 "text": "Your relationship with your phone",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_emotions_001",
@@ -228,7 +246,9 @@
                 "text": "Something funny that happened to you",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_005",
@@ -251,7 +271,9 @@
                 "text": "Your hobbies",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_nature_001",
@@ -274,7 +296,9 @@
                 "text": "The weather where you live",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_006",
@@ -297,7 +321,9 @@
                 "text": "A birthday you remember",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_places_001",
@@ -311,7 +337,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null,
         "word": "Things you love about where you live",
         "form": "other",
@@ -320,7 +346,9 @@
                 "text": "Things you love about where you live",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_work_001",
@@ -334,7 +362,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "sub_theme": null,
         "word": "A typical Sunday",
         "form": "other",
@@ -343,7 +371,9 @@
                 "text": "A typical Sunday",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_007",
@@ -366,7 +396,9 @@
                 "text": "Food from your country",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_shopping_001",
@@ -389,7 +421,9 @@
                 "text": "Something you bought recently",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_008",
@@ -412,7 +446,9 @@
                 "text": "Your favourite app",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_emotions_002",
@@ -435,7 +471,9 @@
                 "text": "A childhood memory",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_food_drink_002",
@@ -458,7 +496,9 @@
                 "text": "What you ate yesterday",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     }
 ];
     const lang = "en";

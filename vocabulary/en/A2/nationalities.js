@@ -17,12 +17,11 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -41,12 +40,11 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -65,12 +63,11 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -89,12 +86,11 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -113,12 +109,11 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -137,12 +132,11 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -161,12 +155,11 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -185,12 +178,11 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     }
 ];

@@ -4,7 +4,7 @@
     {
         "word": "Alemania",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -14,12 +14,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_002"
+        "id": "es_elementary_places_002",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Canadá",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -29,12 +31,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_003"
+        "id": "es_elementary_places_003",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "México",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -44,12 +48,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_004"
+        "id": "es_elementary_places_004",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Egipto",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -59,12 +65,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_005"
+        "id": "es_elementary_places_005",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Turquía",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -74,12 +82,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_006"
+        "id": "es_elementary_places_006",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Portugal",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -89,12 +99,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_007"
+        "id": "es_elementary_places_007",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Armenia",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -104,12 +116,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_008"
+        "id": "es_elementary_places_008",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Georgia",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -119,12 +133,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_009"
+        "id": "es_elementary_places_009",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Berlín",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -134,12 +150,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_010"
+        "id": "es_elementary_places_010",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Madrid",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -149,12 +167,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_011"
+        "id": "es_elementary_places_011",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Toronto",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -164,12 +184,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_012"
+        "id": "es_elementary_places_012",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Estambul",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -179,12 +201,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_013"
+        "id": "es_elementary_places_013",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Lisboa",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -194,12 +218,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_014"
+        "id": "es_elementary_places_014",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Ereván",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -209,12 +235,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_015"
+        "id": "es_elementary_places_015",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Tiflis",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -224,12 +252,14 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_016"
+        "id": "es_elementary_places_016",
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "word": "Kazán",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -239,7 +269,9 @@
             }
         ],
         "form": "other",
-        "id": "es_elementary_places_017"
+        "id": "es_elementary_places_017",
+        "transcription": "",
+        "emoji": "❓"
     }
 ];
     const lang = "es";

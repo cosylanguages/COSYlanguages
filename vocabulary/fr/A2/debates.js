@@ -23,7 +23,9 @@
         "ideasB": [
             "Réduire le stress des trajets quotidiens",
             "Plus de temps pour la vie personnelle"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_002",
@@ -48,7 +50,9 @@
         "ideasB": [
             "Construire une confiance professionnelle à long terme",
             "Opportunités de promotion interne"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_003",
@@ -73,7 +77,9 @@
         "ideasB": [
             "Prévenir le burnout professionnel",
             "Maintenir un bon équilibre vie-travail"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_004",
@@ -98,7 +104,9 @@
         "ideasB": [
             "Encourager la pensée créative",
             "Moins de pression au travail"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_005",
@@ -123,7 +131,9 @@
         "ideasB": [
             "Atmosphère amicale et proche",
             "Responsabilités plus variées"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_006",
@@ -148,7 +158,9 @@
         "ideasB": [
             "Se concentrer sur les activités familiales",
             "Développer des loisirs personnels"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_007",
@@ -173,7 +185,9 @@
         "ideasB": [
             "Plus grande flexibilité pour déménager",
             "Aucune responsabilité pour les réparations"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_008",
@@ -198,7 +212,9 @@
         "ideasB": [
             "Environnement plus calme et sûr",
             "Plus d'espace pour les familles"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_009",
@@ -223,7 +239,9 @@
         "ideasB": [
             "Utilisation pratique quotidienne",
             "Valeur physique durable"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_010",
@@ -248,7 +266,9 @@
         "ideasB": [
             "Gagner un temps considérable",
             "Meilleure organisation de la cuisine"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_011",
@@ -273,7 +293,9 @@
         "ideasB": [
             "Économiser de l'argent",
             "Garder un contrôle total"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_001",
@@ -298,7 +320,9 @@
         "ideasB": [
             "Indépendance personnelle totale",
             "Paix et tranquillité"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_002",
@@ -323,7 +347,9 @@
         "ideasB": [
             "Meilleure stabilité financière",
             "Plus d'expérience de vie à partager"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_003",
@@ -348,7 +374,9 @@
         "ideasB": [
             "Liberté personnelle",
             "Prendre des décisions indépendantes"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_004",
@@ -373,7 +401,9 @@
         "ideasB": [
             "Histoire personnelle partagée",
             "Niveau de confiance plus élevé"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_012",
@@ -398,7 +428,9 @@
         "ideasB": [
             "Récupérer de l'énergie mentale",
             "Temps de qualité avec la famille"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_013",
@@ -423,7 +455,9 @@
         "ideasB": [
             "Profiter de l'air frais",
             "Pas de frais d'adhésion mensuels"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_014",
@@ -448,7 +482,9 @@
         "ideasB": [
             "Équilibre durable à long terme",
             "Profiter de différents aliments"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_015",
@@ -473,7 +509,9 @@
         "ideasB": [
             "Laisser la récupération naturelle",
             "Éviter les médicaments inutiles"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_016",
@@ -498,7 +536,9 @@
         "ideasB": [
             "Meilleure forme physique",
             "Maintenir le corps actif"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_017",
@@ -523,7 +563,9 @@
         "ideasB": [
             "Paix mentale",
             "Calmer l'esprit"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_technology_001",
@@ -548,7 +590,9 @@
         "ideasB": [
             "Exprimer de réelles émotions",
             "Meilleure concentration personnelle"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_technology_002",
@@ -573,7 +617,9 @@
         "ideasB": [
             "Conseils d'experts personnels",
             "Sécurité physique"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_018",
@@ -598,7 +644,9 @@
         "ideasB": [
             "Stockage numérique efficace",
             "Recherche rapide d'informations"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_019",
@@ -623,7 +671,9 @@
         "ideasB": [
             "Construire une confiance plus forte",
             "Avoir un impact personnel"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_020",
@@ -648,7 +698,9 @@
         "ideasB": [
             "Aventure authentique",
             "Expériences locales uniques"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_021",
@@ -673,7 +725,9 @@
         "ideasB": [
             "Brise marine relaxante",
             "Détente physique complète"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_022",
@@ -698,7 +752,9 @@
         "ideasB": [
             "Pauses régulières du travail",
             "Visiter plus de destinations"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_023",
@@ -723,7 +779,9 @@
         "ideasB": [
             "Choix personnel complet",
             "Rencontrer plus de locaux"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_005",
@@ -748,7 +806,9 @@
         "ideasB": [
             "Éviter les drames inutiles",
             "Paix mentale intérieure"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_024",
@@ -773,7 +833,9 @@
         "ideasB": [
             "Début de journée tranquille",
             "Pratiquer l'alimentation consciente"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_006",
@@ -798,7 +860,9 @@
         "ideasB": [
             "Garder une vie privée totale",
             "Éviter les commérages"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_025",
@@ -823,7 +887,9 @@
         "ideasB": [
             "Choix spontanés",
             "Idées de cuisine créatives"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_026",
@@ -848,7 +914,9 @@
         "ideasB": [
             "Montrer son engagement",
             "Respecter les délais importants"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_027",
@@ -873,7 +941,9 @@
         "ideasB": [
             "Meilleur équilibre de vie",
             "Plus de temps pour étudier"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_028",
@@ -898,7 +968,9 @@
         "ideasB": [
             "Pas de temps de trajet",
             "Horaires flexibles"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_029",
@@ -923,7 +995,9 @@
         "ideasB": [
             "Grande liberté financière",
             "Qualité de vie supérieure"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_030",
@@ -948,7 +1022,9 @@
         "ideasB": [
             "Concentration mentale calme",
             "Style de travail indépendant"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_031",
@@ -973,7 +1049,9 @@
         "ideasB": [
             "Logement moins cher",
             "Temps pour les podcasts"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_007",
@@ -998,7 +1076,9 @@
         "ideasB": [
             "Vie quotidienne partagée",
             "Soutien dans les problèmes"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_032",
@@ -1023,7 +1103,9 @@
         "ideasB": [
             "Coût de la vie moins élevé",
             "Air pur et frais"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_033",
@@ -1048,7 +1130,9 @@
         "ideasB": [
             "Pas de nettoyage de cuisine",
             "Goûter de la cuisine pro"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_008",
@@ -1073,7 +1157,9 @@
         "ideasB": [
             "Liberté totale de voyager",
             "Forte concentration sur la carrière"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_034",
@@ -1098,7 +1184,9 @@
         "ideasB": [
             "Se constituer un capital",
             "Espace pour un jardin"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_035",
@@ -1123,7 +1211,9 @@
         "ideasB": [
             "Récupération musculaire essentielle",
             "Soutenir la santé mentale"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_036",
@@ -1148,7 +1238,9 @@
         "ideasB": [
             "Éviter les cliniques bondées",
             "Favoriser la guérison naturelle"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_037",
@@ -1173,7 +1265,9 @@
         "ideasB": [
             "Faire face à la réalité",
             "Temps pour les loisirs"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_038",
@@ -1198,7 +1292,9 @@
         "ideasB": [
             "Protection contre la météo",
             "Économiser son énergie"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_039",
@@ -1223,7 +1319,9 @@
         "ideasB": [
             "Essayer les vêtements",
             "Soutenir les commerces locaux"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_040",
@@ -1248,7 +1346,9 @@
         "ideasB": [
             "Augmenter le bonheur mental",
             "Vivre pleinement sa vie"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_041",
@@ -1273,7 +1373,9 @@
         "ideasB": [
             "Faible risque financier",
             "Économiser plus d'argent"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_042",
@@ -1298,7 +1400,9 @@
         "ideasB": [
             "Choix écologique",
             "Prix très bas"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_043",
@@ -1323,7 +1427,9 @@
         "ideasB": [
             "Contact social",
             "Atmosphère vibrante"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_044",
@@ -1348,7 +1454,9 @@
         "ideasB": [
             "Partager les mêmes loisirs",
             "Niveaux d'énergie dynamiques"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_045",
@@ -1373,7 +1481,9 @@
         "ideasB": [
             "Découvrir d'autres cultures",
             "Pratiquer de nouvelles langues"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_046",
@@ -1398,7 +1508,9 @@
         "ideasB": [
             "Stimuler la croissance mentale",
             "Détente mentale profonde"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_009",
@@ -1423,7 +1535,9 @@
         "ideasB": [
             "Espace de réflexion",
             "Paix mentale totale"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_047",
@@ -1448,7 +1562,9 @@
         "ideasB": [
             "Préparer des réponses réfléchies",
             "Garder sa concentration"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_048",
@@ -1473,7 +1589,9 @@
         "ideasB": [
             "Profiter du repos du soir",
             "Passer du temps en famille"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_049",
@@ -1498,7 +1616,9 @@
         "ideasB": [
             "Manque de professionnalisme",
             "Rater le début des réunions"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_050",
@@ -1523,7 +1643,9 @@
         "ideasB": [
             "Favorise le chaos créatif",
             "Accès rapide aux outils"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_051",
@@ -1548,7 +1670,9 @@
         "ideasB": [
             "Se déconnecter",
             "Repos de qualité"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_010",
@@ -1573,7 +1697,9 @@
         "ideasB": [
             "Indépendance totale",
             "Vie privée absolue"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_011",
@@ -1598,7 +1724,9 @@
         "ideasB": [
             "Discussions profondes",
             "Partager des secrets"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_012",
@@ -1623,7 +1751,9 @@
         "ideasB": [
             "Vie tranquille",
             "Liens émotionnels forts"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_013",
@@ -1648,7 +1778,9 @@
         "ideasB": [
             "Plus d'attention",
             "Règles plus souples"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_052",
@@ -1673,7 +1805,9 @@
         "ideasB": [
             "Dormir plus tard",
             "Début de journée calme"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_053",
@@ -1698,7 +1832,9 @@
         "ideasB": [
             "Résolution de problèmes",
             "Pensée logique"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_054",
@@ -1723,7 +1859,9 @@
         "ideasB": [
             "Confort",
             "Horaires flexibles"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_055",
@@ -1748,7 +1886,9 @@
         "ideasB": [
             "Temps libre",
             "Période de repos mental"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_056",
@@ -1773,7 +1913,9 @@
         "ideasB": [
             "Partager le savoir",
             "Amusement collaboratif"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_057",
@@ -1798,7 +1940,9 @@
         "ideasB": [
             "Vitesse de frappe",
             "Recherche numérique"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_058",
@@ -1823,7 +1967,9 @@
         "ideasB": [
             "Moment familial",
             "Repas principal"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_059",
@@ -1848,7 +1994,9 @@
         "ideasB": [
             "Frais pour l'été",
             "Variété de salades"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_060",
@@ -1873,7 +2021,9 @@
         "ideasB": [
             "Chefs professionnels",
             "Pas de ménage"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_061",
@@ -1898,7 +2048,9 @@
         "ideasB": [
             "Valeur nutritionnelle",
             "Rassasié plus longtemps"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_062",
@@ -1923,7 +2075,9 @@
         "ideasB": [
             "Grande praticité",
             "Gagner du temps"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_063",
@@ -1948,7 +2102,9 @@
         "ideasB": [
             "Repos complet",
             "Énergie nocturne"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_064",
@@ -1973,7 +2129,9 @@
         "ideasB": [
             "Moment social",
             "Relaxation totale"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_065",
@@ -1998,14 +2156,16 @@
         "ideasB": [
             "Liberté totale",
             "Temps pour les loisirs"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_environment_001",
         "word": "Été vs Hiver — quelle saison est la meilleure ?",
         "lang": "fr",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "nature",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -2023,7 +2183,9 @@
         "ideasB": [
             "Activités de neige",
             "Ambiance cosy"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_066",
@@ -2048,7 +2210,9 @@
         "ideasB": [
             "Créativité du soir",
             "Temps pour les films"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_067",
@@ -2073,7 +2237,9 @@
         "ideasB": [
             "Ménage facile",
             "Position centrale"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_068",
@@ -2098,7 +2264,9 @@
         "ideasB": [
             "Air pur",
             "Nature calme"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_069",
@@ -2123,7 +2291,9 @@
         "ideasB": [
             "Espace familial",
             "Grand écran TV"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_070",
@@ -2148,7 +2318,9 @@
         "ideasB": [
             "Mouvement",
             "Bienfaits du soleil"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_071",
@@ -2173,7 +2345,9 @@
         "ideasB": [
             "Imagination profonde",
             "Vocabulaire"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_072",
@@ -2198,7 +2372,9 @@
         "ideasB": [
             "Compétences strat.",
             "Mondes digitaux"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_073",
@@ -2223,7 +2399,9 @@
         "ideasB": [
             "Libération émotionnelle",
             "Expression"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_074",
@@ -2248,7 +2426,9 @@
         "ideasB": [
             "Rires partagés",
             "Jeu collaboratif"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_075",
@@ -2273,7 +2453,9 @@
         "ideasB": [
             "Facile à commencer",
             "Vues extérieures"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_076",
@@ -2298,7 +2480,9 @@
         "ideasB": [
             "Santé physique",
             "Succès d'équipe"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_077",
@@ -2323,14 +2507,16 @@
         "ideasB": [
             "Biomes exotiques",
             "Mystère naturel"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_environment_002",
         "word": "Pluie vs Soleil — quel temps préférez-vous ?",
         "lang": "fr",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "nature",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -2348,7 +2534,9 @@
         "ideasB": [
             "Temps de plage",
             "Vitamine D"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_078",
@@ -2373,14 +2561,16 @@
         "ideasB": [
             "Air pur",
             "Vues magnifiques"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_environment_003",
         "word": "Fleurs vs Arbres — lesquels sont les plus beaux ?",
         "lang": "fr",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "nature",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -2398,7 +2588,9 @@
         "ideasB": [
             "Hauteur majestueuse",
             "Fournissent de l'oxygène"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_079",
@@ -2423,7 +2615,9 @@
         "ideasB": [
             "Coûts réduits",
             "Écologique"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_080",
@@ -2448,7 +2642,9 @@
         "ideasB": [
             "Vitesse",
             "Plus longue distance"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_081",
@@ -2473,7 +2669,9 @@
         "ideasB": [
             "Réinitialisation",
             "Immersion culturelle"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_082",
@@ -2498,7 +2696,9 @@
         "ideasB": [
             "Joie partagée",
             "Soutien financier"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_083",
@@ -2523,7 +2723,9 @@
         "ideasB": [
             "Essayer",
             "Gratification instantanée"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_084",
@@ -2548,7 +2750,9 @@
         "ideasB": [
             "Portabilité",
             "Gain de place"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_085",
@@ -2573,7 +2777,9 @@
         "ideasB": [
             "Calme nocturne",
             "Révision du jour"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_086",
@@ -2598,7 +2804,9 @@
         "ideasB": [
             "Motivation",
             "Questions ouvertes"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_087",
@@ -2623,7 +2831,9 @@
         "ideasB": [
             "Bases visuelles",
             "Contenu dynamique"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_088",
@@ -2648,7 +2858,9 @@
         "ideasB": [
             "Immersion profonde",
             "Étude détaillée"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_089",
@@ -2673,7 +2885,9 @@
         "ideasB": [
             "Autosuffisance",
             "Focus personnel"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_090",
@@ -2698,7 +2912,9 @@
         "ideasB": [
             "Expression de soi",
             "Confort"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_091",
@@ -2723,7 +2939,9 @@
         "ideasB": [
             "Service instantané",
             "Pratique"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_092",
@@ -2748,7 +2966,9 @@
         "ideasB": [
             "Énergie stable",
             "Métabolisme"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_093",
@@ -2773,7 +2993,9 @@
         "ideasB": [
             "Protéines",
             "Gout traditionnel"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_094",
@@ -2798,7 +3020,9 @@
         "ideasB": [
             "Énergie",
             "Culture sociale"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_095",
@@ -2823,7 +3047,9 @@
         "ideasB": [
             "Lien social",
             "Partager la joie"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_096",
@@ -2848,7 +3074,9 @@
         "ideasB": [
             "Objectifs persos",
             "Autonomie"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_097",
@@ -2873,7 +3101,9 @@
         "ideasB": [
             "Santé",
             "Mouvement physique"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_098",
@@ -2898,7 +3128,9 @@
         "ideasB": [
             "Jeu en direct",
             "Tradition culturelle"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_099",
@@ -2923,7 +3155,9 @@
         "ideasB": [
             "Développement",
             "Expression créative"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_100",
@@ -2948,7 +3182,9 @@
         "ideasB": [
             "Face-à-face",
             "Pièces tactiles"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_101",
@@ -2973,7 +3209,9 @@
         "ideasB": [
             "Détente mentale",
             "Récupération physique"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_technology_003",
@@ -2998,7 +3236,9 @@
         "ideasB": [
             "Grand écran",
             "Outils de travail"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_technology_004",
@@ -3023,7 +3263,9 @@
         "ideasB": [
             "Émotion vocale",
             "Résultats directs"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_102",
@@ -3048,7 +3290,9 @@
         "ideasB": [
             "Toucher tactile",
             "Pas de batterie"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_technology_005",
@@ -3073,7 +3317,9 @@
         "ideasB": [
             "Qualité optique",
             "Contrôle manuel"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_103",
@@ -3098,7 +3344,9 @@
         "ideasB": [
             "Randonnée",
             "Vues panoramiques"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_104",
@@ -3123,7 +3371,9 @@
         "ideasB": [
             "Vitesse",
             "Longue distance"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_105",
@@ -3148,7 +3398,9 @@
         "ideasB": [
             "Traditions",
             "Charme tranquille"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_106",
@@ -3173,7 +3425,9 @@
         "ideasB": [
             "Échange culturel",
             "Pratique langue"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_107",
@@ -3198,7 +3452,9 @@
         "ideasB": [
             "Trésors cachés",
             "Planification"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_014",
@@ -3223,7 +3479,9 @@
         "ideasB": [
             "Loyauté profonde",
             "Lien de confiance"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_015",
@@ -3248,7 +3506,9 @@
         "ideasB": [
             "Efficacité",
             "Rester connecté"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_016",
@@ -3273,7 +3533,9 @@
         "ideasB": [
             "Vie sociale",
             "Autosuffisance"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_017",
@@ -3298,7 +3560,9 @@
         "ideasB": [
             "Pas de ménage",
             "Cuisine pro"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_108",
@@ -3323,7 +3587,9 @@
         "ideasB": [
             "Joie instantanée",
             "Santé économique"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_109",
@@ -3348,7 +3614,9 @@
         "ideasB": [
             "Excellence",
             "Moins de stress"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_110",
@@ -3373,7 +3641,9 @@
         "ideasB": [
             "Santé mentale",
             "Famille et loisirs"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_018",
@@ -3398,7 +3668,9 @@
         "ideasB": [
             "Plus d'intimité",
             "Calme"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_111",
@@ -3423,7 +3695,9 @@
         "ideasB": [
             "Nouvelles recettes",
             "Douceurs du week-end"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_112",
@@ -3448,7 +3722,9 @@
         "ideasB": [
             "Expression de soi",
             "Libération"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_113",
@@ -3473,7 +3749,9 @@
         "ideasB": [
             "Rangement",
             "Correction auto"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_114",
@@ -3498,7 +3776,9 @@
         "ideasB": [
             "Formes de pâtes",
             "Sauces riches"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_115",
@@ -3523,14 +3803,16 @@
         "ideasB": [
             "Réconfort chaud",
             "Célébration"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_environment_004",
         "word": "Jours courts vs jours longs — qu'est-ce qui est mieux ?",
         "lang": "fr",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "nature",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -3548,7 +3830,9 @@
         "ideasB": [
             "Vitamine D",
             "Plus d'extérieur"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_116",
@@ -3573,7 +3857,9 @@
         "ideasB": [
             "Brise marine",
             "Activités nautiques"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_117",
@@ -3598,7 +3884,9 @@
         "ideasB": [
             "Paysages",
             "Espace pour marcher"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_118",
@@ -3623,7 +3911,9 @@
         "ideasB": [
             "Détente totale",
             "Draps propres"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_119",
@@ -3648,7 +3938,9 @@
         "ideasB": [
             "Dégâts matériels",
             "Réparation de chaussures"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_120",
@@ -3673,7 +3965,9 @@
         "ideasB": [
             "Plaisir direct",
             "Style authentique"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_121",
@@ -3698,7 +3992,9 @@
         "ideasB": [
             "Refroidissement",
             "Sensation naturelle"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_122",
@@ -3723,7 +4019,9 @@
         "ideasB": [
             "Magie hivernale",
             "Amusement collectif"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_123",
@@ -3748,7 +4046,9 @@
         "ideasB": [
             "Focus projets",
             "Moins de stress"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_124",
@@ -3773,7 +4073,9 @@
         "ideasB": [
             "Alphabétisation précoce",
             "Début structuré"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_125",
@@ -3798,7 +4100,9 @@
         "ideasB": [
             "Gain de temps",
             "Habitudes efficaces"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_126",
@@ -3823,7 +4127,9 @@
         "ideasB": [
             "Grande facilité",
             "Zéro effort physique"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_127",
@@ -3848,7 +4154,9 @@
         "ideasB": [
             "Précision scientifique",
             "Récompenses sucrées"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_128",
@@ -3873,7 +4181,9 @@
         "ideasB": [
             "Air frais",
             "Terrain changeant"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_technology_006",
@@ -3898,7 +4208,9 @@
         "ideasB": [
             "Histoire tactile",
             "Valeur déco"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_technology_007",
@@ -3923,7 +4235,9 @@
         "ideasB": [
             "Intimité",
             "Vision de près"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_129",
@@ -3948,7 +4262,9 @@
         "ideasB": [
             "Bienfaits du ski",
             "Aurores boréales"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_people_019",
@@ -3973,7 +4289,9 @@
         "ideasB": [
             "Surprise excitante",
             "Se sentir apprécié"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_130",
@@ -3998,7 +4316,9 @@
         "ideasB": [
             "Santé physique",
             "Vues changeantes"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_131",
@@ -4023,7 +4343,9 @@
         "ideasB": [
             "Règles traditionnelles",
             "Éviter les chocs"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_132",
@@ -4048,7 +4370,9 @@
         "ideasB": [
             "Processus d'infusion",
             "Goût intense"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_133",
@@ -4073,7 +4397,9 @@
         "ideasB": [
             "Attente du week-end",
             "Fatigue du travail"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_134",
@@ -4098,7 +4424,9 @@
         "ideasB": [
             "Choc",
             "Pas de préparation"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_social_135",
@@ -4123,14 +4451,16 @@
         "ideasB": [
             "Énergie physique",
             "Loyauté manifeste"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "id": "fr_elementary_environment_005",
         "word": "Avoir trop chaud vs avoir trop froid — qu'est-ce qui est le pire ?",
         "lang": "fr",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "nature",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -4148,7 +4478,9 @@
         "ideasB": [
             "Frissons",
             "Vêtements d'hiver lourds"
-        ]
+        ],
+        "transcription": "",
+        "emoji": "💬"
     }
 ];
     const lang = "fr";

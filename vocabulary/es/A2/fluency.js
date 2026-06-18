@@ -21,7 +21,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_travel_001"
+        "id": "es_elementary_travel_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Tu restaurante o café favorito",
@@ -44,7 +46,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_food_drink_001"
+        "id": "es_elementary_food_drink_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Cómo vas al trabajo o a la escuela",
@@ -67,7 +71,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_travel_002"
+        "id": "es_elementary_travel_002",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Lo que haces para relajarte",
@@ -90,7 +96,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_001"
+        "id": "es_elementary_social_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Una película que viste hace poco",
@@ -113,7 +121,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_002"
+        "id": "es_elementary_social_002",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Tu fin de semana ideal",
@@ -136,7 +146,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_003"
+        "id": "es_elementary_social_003",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Una persona a la que admiras",
@@ -159,7 +171,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_people_001"
+        "id": "es_elementary_people_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "El destino de vacaciones de tus sueños",
@@ -182,7 +196,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_travel_003"
+        "id": "es_elementary_travel_003",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Tu relación con tu teléfono",
@@ -205,7 +221,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_technology_001"
+        "id": "es_elementary_technology_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Algo divertido que te pasó",
@@ -228,7 +246,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_emotions_001"
+        "id": "es_elementary_emotions_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Tus aficiones",
@@ -251,7 +271,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_004"
+        "id": "es_elementary_social_004",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "El clima donde vives",
@@ -274,7 +296,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_nature_001"
+        "id": "es_elementary_nature_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Un cumpleaños que recuerdas",
@@ -297,7 +321,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_005"
+        "id": "es_elementary_social_005",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Cosas que te gustan de donde vives",
@@ -309,7 +335,7 @@
             "¿Se lo recomendarías a un amigo?"
         ],
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "lang": "es",
         "sub_theme": "city",
         "word": "Cosas que te gustan de donde vives",
@@ -320,7 +346,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_places_001"
+        "id": "es_elementary_places_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Un domingo típico",
@@ -332,7 +360,7 @@
             "¿Es el domingo tu día favorito?"
         ],
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "lang": "es",
         "sub_theme": "office",
         "word": "Un domingo típico",
@@ -343,7 +371,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_work_001"
+        "id": "es_elementary_work_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Comida de tu país",
@@ -366,7 +396,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_006"
+        "id": "es_elementary_social_006",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Algo que compraste hace poco",
@@ -389,7 +421,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_shopping_001"
+        "id": "es_elementary_shopping_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Tu aplicación favorita",
@@ -412,7 +446,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_technology_002"
+        "id": "es_elementary_technology_002",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Un recuerdo de la infancia",
@@ -435,7 +471,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_emotions_002"
+        "id": "es_elementary_emotions_002",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Lo que comiste ayer",
@@ -458,7 +496,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_food_drink_002"
+        "id": "es_elementary_food_drink_002",
+        "transcription": "",
+        "emoji": "💬"
     }
 ];
     const lang = "es";

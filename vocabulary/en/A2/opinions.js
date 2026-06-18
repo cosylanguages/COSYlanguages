@@ -22,7 +22,9 @@
                 "text": "Weekends are too short.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_002",
@@ -46,7 +48,9 @@
                 "text": "It is rude to be late.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_people_001",
@@ -70,7 +74,9 @@
                 "text": "People are nicer in small towns.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_003",
@@ -94,7 +100,9 @@
                 "text": "Having a pet makes you happier.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_004",
@@ -118,7 +126,9 @@
                 "text": "You can tell a lot about someone by their shoes.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_food_drink_001",
@@ -142,7 +152,9 @@
                 "text": "It is okay to eat alone in a restaurant.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_language_001",
@@ -166,7 +178,9 @@
                 "text": "Learning a language is easier when you are young.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_sports_001",
@@ -190,7 +204,9 @@
                 "text": "Public transport is better than having a car.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_technology_001",
@@ -214,7 +230,9 @@
                 "text": "It is hard to be bored when you have a phone.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_food_drink_002",
@@ -238,7 +256,9 @@
                 "text": "Cooking at home is always better than eating out.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_travel_001",
@@ -262,7 +282,9 @@
                 "text": "Everyone should try living abroad for a year.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_005",
@@ -286,7 +308,9 @@
                 "text": "Superheroes are more interesting than real heroes.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_social_006",
@@ -310,7 +334,9 @@
                 "text": "It is important to make your bed every morning.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_shopping_001",
@@ -334,7 +360,9 @@
                 "text": "Shopping is a hobby.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     },
     {
         "id": "en_elementary_travel_002",
@@ -358,7 +386,9 @@
                 "text": "Travelling alone is better than travelling with friends.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "❓"
     }
 ];
     const lang = "en";

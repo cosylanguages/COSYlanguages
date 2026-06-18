@@ -3,83 +3,259 @@
     const data = [
     {
         "word": "გერმანია",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "გერმანია",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_002"
     },
     {
         "word": "კანადა",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "კანადა",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_003"
     },
     {
         "word": "მექსიკა",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "მექსიკა",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_004"
     },
     {
         "word": "ეგვიპტე",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "ეგვიპტე",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_005"
     },
     {
         "word": "თურქეთი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "თურქეთი",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_006"
     },
     {
         "word": "პორტუგალია",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "პორტუგალია",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_007"
     },
     {
         "word": "სომხეთი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "სომხეთი",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_008"
     },
     {
         "word": "საქართველო",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "საქართველო",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_009"
     },
     {
         "word": "ბერლინი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "ბერლინი",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_010"
     },
     {
         "word": "მადრიდი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "მადრიდი",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_011"
     },
     {
         "word": "ტორონტო",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "ტორონტო",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_012"
     },
     {
         "word": "სტამბოლი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "სტამბოლი",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_013"
     },
     {
         "word": "ლისაბონი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "ლისაბონი",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_014"
     },
     {
         "word": "ერევანი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "ერევანი",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_015"
     },
     {
         "word": "თბილისი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "თბილისი",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_016"
     },
     {
         "word": "ყაზანი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "furniture",
+        "lang": "ka",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "ყაზანი",
+                "examples": []
+            }
+        ],
+        "id": "ka_elementary_places_017"
     }
 ];
     const lang = "ka";

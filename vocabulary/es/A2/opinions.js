@@ -21,7 +21,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_007"
+        "id": "es_elementary_social_007",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Es de mala educación llegar tarde.",
@@ -44,7 +46,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_008"
+        "id": "es_elementary_social_008",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "La gente es más amable en los pueblos pequeños.",
@@ -67,7 +71,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_009"
+        "id": "es_elementary_social_009",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Tener una mascota te hace más feliz.",
@@ -90,7 +96,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_010"
+        "id": "es_elementary_social_010",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Se puede saber mucho de alguien por sus zapatos.",
@@ -113,7 +121,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_people_002"
+        "id": "es_elementary_people_002",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Está bien comer solo en un restaurante.",
@@ -136,7 +146,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_011"
+        "id": "es_elementary_social_011",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Aprender un idioma es más fácil cuando eres joven.",
@@ -159,7 +171,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_language_001"
+        "id": "es_elementary_language_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "El transporte público es mejor que tener un coche.",
@@ -182,7 +196,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_012"
+        "id": "es_elementary_social_012",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Es difícil aburrirse cuando tienes un teléfono.",
@@ -205,7 +221,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_technology_003"
+        "id": "es_elementary_technology_003",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Cocinar en casa siempre es mejor que comer fuera.",
@@ -228,7 +246,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_food_drink_003"
+        "id": "es_elementary_food_drink_003",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Todo el mundo debería intentar vivir en el extranjero durante un año.",
@@ -251,7 +271,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_travel_004"
+        "id": "es_elementary_travel_004",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Los superhéroes son más interesantes que los héroes reales.",
@@ -274,7 +296,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_art_culture_001"
+        "id": "es_elementary_art_culture_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Es importante hacer la cama todas las mañanas.",
@@ -297,7 +321,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_013"
+        "id": "es_elementary_social_013",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Ir de compras es un pasatiempo.",
@@ -320,7 +346,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_social_014"
+        "id": "es_elementary_social_014",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Viajar solo es mejor que viajar con amigos.",
@@ -343,7 +371,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_elementary_travel_005"
+        "id": "es_elementary_travel_005",
+        "transcription": "",
+        "emoji": "💬"
     }
 ];
     const lang = "es";

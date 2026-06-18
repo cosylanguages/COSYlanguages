@@ -4,7 +4,18 @@
     {
         "word": "Marie Curie",
         "level": "elementary",
-        "theme": "identity_self_C1"
+        "theme": "describing",
+        "lang": "fr",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Marie Curie",
+                "examples": []
+            }
+        ],
+        "id": "fr_elementary_describing_008"
     }
 ];
     const lang = "fr";

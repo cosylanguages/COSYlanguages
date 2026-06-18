@@ -3,9 +3,8 @@
     const data = [
     {
         "word": "κήπος",
-        "image": "images/vocabulary/places/garden.png",
         "level": "elementary",
-        "theme": "local_places_services_A1",
+        "theme": "furniture",
         "emoji": "🌳",
         "form": "noun",
         "classification": "regular",
@@ -16,13 +15,15 @@
             }
         ],
         "countability": "countable",
-        "translation": "garden",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_places_023"
     },
     {
         "word": "καλλιτέχνης",
         "level": "elementary",
-        "theme": "art_design_A2",
+        "theme": "art_culture",
         "article": "ο",
         "emoji": "🎨",
         "form": "noun",
@@ -43,13 +44,15 @@
                 ]
             }
         ],
-        "translation": "artist",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_art_culture_001"
     },
     {
         "word": "σεφ",
         "level": "elementary",
-        "theme": "restaurants_ordering_A2",
+        "theme": "food_drink",
         "article": "ο",
         "emoji": "👨‍🍳",
         "form": "noun",
@@ -70,13 +73,15 @@
                 ]
             }
         ],
-        "translation": "chef",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_020"
     },
     {
         "word": "χωριάτικη σαλάτα",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "article": "η",
         "form": "noun",
         "classification": "regular",
@@ -96,13 +101,16 @@
                 ]
             }
         ],
-        "translation": "Greek salad",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "emoji": "❓",
+        "id": "el_elementary_food_drink_021"
     },
     {
         "word": "γεμιστά",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "article": "τα",
         "form": "noun",
         "classification": "regular",
@@ -122,13 +130,16 @@
                 ]
             }
         ],
-        "translation": "stuffed vegetables",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "emoji": "❓",
+        "id": "el_elementary_food_drink_022"
     },
     {
         "word": "τυρί",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "article": "το",
         "emoji": "🧀",
         "form": "noun",
@@ -149,13 +160,15 @@
                 ]
             }
         ],
-        "translation": "cheese",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_023"
     },
     {
         "word": "ρύζι",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "article": "το",
         "emoji": "🍚",
         "form": "noun",
@@ -176,13 +189,15 @@
                 ]
             }
         ],
-        "translation": "rice",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_024"
     },
     {
         "word": "ντομάτα",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "article": "η",
         "emoji": "🍅",
         "form": "noun",
@@ -203,13 +218,15 @@
                 ]
             }
         ],
-        "translation": "tomato",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_025"
     },
     {
         "word": "πατάτα",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "article": "η",
         "emoji": "🥔",
         "form": "noun",
@@ -230,13 +247,15 @@
                 ]
             }
         ],
-        "translation": "potato",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_026"
     },
     {
         "word": "κρασί",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "article": "το",
         "baseWord": "κρασί",
         "emoji": "🍷",
@@ -258,13 +277,15 @@
                 ]
             }
         ],
-        "translation": "wine",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_027"
     },
     {
         "word": "μπίρα",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "article": "η",
         "baseWord": "μπίρα",
         "emoji": "🍺",
@@ -286,13 +307,15 @@
                 ]
             }
         ],
-        "translation": "beer",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_028"
     },
     {
         "word": "νοσοκομείο",
         "level": "elementary",
-        "theme": "medical_appointments_A1",
+        "theme": "health_medicine",
         "article": "το",
         "emoji": "🏥",
         "form": "noun",
@@ -313,13 +336,15 @@
                 ]
             }
         ],
-        "translation": "hospital",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_health_medicine_012"
     },
     {
         "word": "κινηματογράφος",
         "level": "elementary",
-        "theme": "theatre_performance_A2",
+        "theme": "art_culture",
         "article": "ο",
         "emoji": "🎬",
         "form": "noun",
@@ -340,13 +365,15 @@
                 ]
             }
         ],
-        "translation": "cinema",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_art_culture_002"
     },
     {
         "word": "εστιατόριο",
         "level": "elementary",
-        "theme": "restaurants_ordering_A2",
+        "theme": "food_drink",
         "article": "το",
         "emoji": "🍴",
         "form": "noun",
@@ -367,13 +394,15 @@
                 ]
             }
         ],
-        "translation": "restaurant",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_029"
     },
     {
         "word": "σούπερ μάρκετ",
         "level": "elementary",
-        "theme": "shopping_for_food_A2",
+        "theme": "shopping",
         "article": "το",
         "emoji": "🛒",
         "form": "noun",
@@ -394,116 +423,191 @@
                 ]
             }
         ],
-        "translation": "supermarket",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_shopping_001"
     },
     {
         "word": "φόρεμα",
         "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
+        "theme": "shopping",
         "article": "το",
         "emoji": "👗",
         "form": "noun",
         "classification": "regular",
         "plural": "φορέματα",
-        "translation": "dress",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "φόρεμα",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_shopping_002"
     },
     {
         "word": "σακάκι",
         "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
+        "theme": "shopping",
         "article": "το",
         "emoji": "🧥",
         "form": "noun",
         "classification": "regular",
         "plural": "σακάκια",
-        "translation": "jacket",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "σακάκι",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_shopping_003"
     },
     {
         "word": "φούστα",
         "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
+        "theme": "shopping",
         "article": "η",
         "emoji": "👗",
         "form": "noun",
         "classification": "regular",
         "plural": "φούστες",
-        "translation": "skirt",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "φούστα",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_shopping_004"
     },
     {
         "word": "καναπές",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "article": "ο",
         "emoji": "🛋️",
         "form": "noun",
         "classification": "regular",
         "plural": "καναπέδες",
-        "translation": "sofa",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "καναπές",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_furniture_001"
     },
     {
         "word": "λάμπα",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "article": "η",
         "emoji": "💡",
         "form": "noun",
         "classification": "regular",
         "plural": "λάμπες",
-        "translation": "lamp",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "λάμπα",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_furniture_002"
     },
     {
         "word": "γραφείο",
         "level": "elementary",
-        "theme": "home_furnishings_A2",
+        "theme": "furniture",
         "article": "το",
         "emoji": "⌨️",
         "form": "noun",
         "classification": "regular",
         "plural": "γραφεία",
-        "translation": "desk",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "γραφείο",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_furniture_003"
     },
     {
         "word": "πλένω τα δόντια",
         "level": "elementary",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🪥",
         "form": "noun",
         "classification": "regular",
-        "translation": "brush teeth",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "πλένω τα δόντια",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_furniture_004"
     },
     {
         "word": "κάνω ντους",
         "level": "elementary",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🚿",
         "form": "noun",
         "classification": "regular",
-        "translation": "take a shower",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "κάνω ντους",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_furniture_005"
     },
     {
         "word": "ρολόι",
         "level": "elementary",
-        "theme": "accessories_A1",
+        "theme": "clothes",
         "article": "το",
         "form": "noun",
         "classification": "regular",
         "plural": "ρολόγια",
-        "translation": "watch",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "ρολόι",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_clothes_001"
     },
     {
         "word": "πορτοφόλι",
         "level": "elementary",
-        "theme": "accessories_A1",
+        "theme": "clothes",
         "article": "το",
         "emoji": "👛",
         "form": "noun",
@@ -518,13 +622,15 @@
                 ]
             }
         ],
-        "translation": "wallet",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_clothes_002"
     },
     {
         "word": "γυαλιά",
         "level": "elementary",
-        "theme": "accessories_A1",
+        "theme": "clothes",
         "article": "τα",
         "emoji": "👓",
         "form": "noun",
@@ -546,13 +652,15 @@
                 ]
             }
         ],
-        "translation": "glasses",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_clothes_003"
     },
     {
         "word": "λιοντάρι",
         "level": "elementary",
-        "theme": "animals_nature_A2",
+        "theme": "animals",
         "article": "το",
         "emoji": "🦁",
         "form": "noun",
@@ -567,58 +675,95 @@
                 ]
             }
         ],
-        "translation": "lion",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_animals_004"
     },
     {
         "word": "τίγρης",
         "level": "elementary",
-        "theme": "animals_nature_A2",
+        "theme": "animals",
         "article": "ο",
         "emoji": "🐯",
         "form": "noun",
         "classification": "regular",
         "plural": "τίγρεις",
-        "translation": "tiger",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "τίγρης",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_animals_005"
     },
     {
         "word": "ζωγραφική",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "article": "η",
         "form": "noun",
         "classification": "regular",
         "plural": "ζωγραφικές",
-        "translation": "painting",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "ζωγραφική",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_social_020"
     },
     {
         "word": "μαγειρική",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "article": "η",
         "form": "noun",
         "classification": "regular",
         "plural": "μαγειρικές",
-        "translation": "cooking",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "μαγειρική",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_social_021"
     },
     {
         "word": "ώμος",
         "level": "elementary",
-        "theme": "body_parts_A1",
+        "theme": "health_medicine",
         "article": "ο",
         "form": "noun",
         "classification": "regular",
         "plural": "ώμοι",
-        "translation": "shoulder",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "ώμος",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_body_001"
     },
     {
         "word": "πανεπιστήμιο",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🎓",
         "form": "noun",
         "classification": "regular",
@@ -632,13 +777,15 @@
                 ]
             }
         ],
-        "translation": "university",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_040"
     },
     {
         "word": "τοπική κουζίνα",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "article": "η",
         "emoji": "🍜",
         "form": "noun",
@@ -658,157 +805,287 @@
                 ]
             }
         ],
-        "translation": "local cuisine",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_030"
     },
     {
         "word": "φαίνομαι",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "🤔",
         "form": "verb",
-        "translation": "seem",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "φαίνομαι",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_people_020"
     },
     {
         "word": "γίνομαι",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "🦋",
         "form": "verb",
-        "translation": "become",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "γίνομαι",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_people_021"
     },
     {
         "word": "κουνώ",
         "level": "elementary",
-        "theme": "moving_home_A2",
+        "theme": "furniture",
         "emoji": "📦",
         "form": "verb",
-        "translation": "move",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "κουνώ",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_furniture_006"
     },
     {
         "word": "πιστεύω",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "🙏",
         "form": "verb",
-        "translation": "believe",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "πιστεύω",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_describing_001"
     },
     {
         "word": "συμβαίνω",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "⚡",
         "form": "verb",
-        "translation": "συμβαίνω",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "συμβαίνω",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_describing_002"
     },
     {
         "word": "περιλαμβάνω",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "➕",
         "form": "verb",
-        "translation": "include",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "περιλαμβάνω",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_describing_003"
     },
     {
         "word": "συνεχίζω",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "➡️",
         "form": "verb",
-        "translation": "continue",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "συνεχίζω",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_describing_004"
     },
     {
         "word": "θέτω",
         "level": "elementary",
-        "theme": "daily_work_routines_A1",
+        "theme": "describing",
         "emoji": "⚙️",
         "form": "verb",
-        "translation": "set",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "θέτω",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_describing_005"
     },
     {
         "word": "οδηγώ",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👑",
         "form": "verb",
-        "translation": "lead",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "οδηγώ",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_work_041"
     },
     {
         "word": "ακολουθώ",
         "level": "elementary",
-        "theme": "directions_navigation_A1",
+        "theme": "describing",
         "emoji": "👣",
         "form": "verb",
-        "translation": "follow",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "ακολουθώ",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_describing_006"
     },
     {
         "word": "δημιουργώ",
         "level": "elementary",
-        "theme": "interests_hobbies_A2",
+        "theme": "social",
         "emoji": "✨",
         "form": "verb",
-        "translation": "create",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "δημιουργώ",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_social_022"
     },
     {
         "word": "επιτρέπω",
         "level": "elementary",
-        "theme": "giving_reasons_A2",
+        "theme": "describing",
         "emoji": "✅",
         "form": "verb",
-        "translation": "allow",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "επιτρέπω",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_describing_007"
     },
     {
         "word": "μεγαλώνω",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🌱",
         "form": "verb",
-        "translation": "grow",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "μεγαλώνω",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_environment_006"
     },
     {
         "word": "προσφέρω",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤲",
         "form": "verb",
-        "translation": "offer",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "προσφέρω",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_people_022"
     },
     {
         "word": "θεωρώ",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "🤔",
         "form": "verb",
-        "translation": "consider",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "θεωρώ",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_people_023"
     },
     {
         "word": "εμφανίζομαι",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "👻",
         "form": "verb",
-        "translation": "appear",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "εμφανίζομαι",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_people_024"
     },
     {
         "word": "υπερωρίες",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⏰",
         "form": "noun",
         "classification": "regular",
@@ -822,13 +1099,15 @@
                 ]
             }
         ],
-        "translation": "overtime",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_042"
     },
     {
         "word": "προαγωγή",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📈",
         "form": "noun",
         "classification": "regular",
@@ -842,13 +1121,15 @@
                 ]
             }
         ],
-        "translation": "promotion",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_043"
     },
     {
         "word": "συνέντευξη",
         "level": "elementary",
-        "theme": "job_apps_interviews_A2",
+        "theme": "jobs",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -862,13 +1143,15 @@
                 ]
             }
         ],
-        "translation": "interview",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_044"
     },
     {
         "word": "συμβόλαιο",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📄",
         "form": "noun",
         "classification": "regular",
@@ -882,13 +1165,15 @@
                 ]
             }
         ],
-        "translation": "contract",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_045"
     },
     {
         "word": "προθεσμία",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⏳",
         "form": "noun",
         "classification": "regular",
@@ -902,13 +1187,15 @@
                 ]
             }
         ],
-        "translation": "deadline",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_046"
     },
     {
         "word": "εμπειρία",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🧠",
         "form": "noun",
         "classification": "regular",
@@ -922,13 +1209,15 @@
                 ]
             }
         ],
-        "translation": "experience",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_work_047"
     },
     {
         "word": "στεγαστικό δάνειο",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "🏠",
         "form": "noun",
         "classification": "regular",
@@ -942,13 +1231,15 @@
                 ]
             }
         ],
-        "translation": "mortgage",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_001"
     },
     {
         "word": "δάνειο",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "💰",
         "form": "noun",
         "classification": "regular",
@@ -962,13 +1253,15 @@
                 ]
             }
         ],
-        "translation": "loan",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_002"
     },
     {
         "word": "λογαριασμός",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "🧾",
         "form": "noun",
         "classification": "regular",
@@ -982,13 +1275,15 @@
                 ]
             }
         ],
-        "translation": "bill",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_003"
     },
     {
         "word": "χρέος",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💸",
         "form": "noun",
         "classification": "regular",
@@ -1002,15 +1297,17 @@
                 ]
             }
         ],
-        "translation": "debt",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_004"
     },
     {
         "word": "τραπεζικός λογαριασμός",
         "level": "elementary",
-        "theme": "banking_A2",
+        "theme": "numbers",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "phrase",
         "classification": "regular",
         "article": "ο",
         "plural": "τραπεζικοί λογαριασμοί",
@@ -1022,13 +1319,15 @@
                 ]
             }
         ],
-        "translation": "bank account",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_005"
     },
     {
         "word": "προϋπολογισμός",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📊",
         "form": "noun",
         "classification": "regular",
@@ -1042,13 +1341,15 @@
                 ]
             }
         ],
-        "translation": "budget",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_numbers_006"
     },
     {
         "word": "διατροφή",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "emoji": "🥗",
         "form": "noun",
         "classification": "regular",
@@ -1062,13 +1363,15 @@
                 ]
             }
         ],
-        "translation": "diet",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_031"
     },
     {
         "word": "ραντεβού",
         "level": "elementary",
-        "theme": "medical_appointments_A1",
+        "theme": "health_medicine",
         "emoji": "📅",
         "form": "noun",
         "classification": "regular",
@@ -1082,13 +1385,15 @@
                 ]
             }
         ],
-        "translation": "appointment",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_health_medicine_013"
     },
     {
         "word": "βιταμίνη",
         "level": "elementary",
-        "theme": "diet_nutrition_A2",
+        "theme": "food_drink",
         "emoji": "💊",
         "form": "noun",
         "classification": "regular",
@@ -1102,13 +1407,15 @@
                 ]
             }
         ],
-        "translation": "vitamin",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_food_drink_032"
     },
     {
         "word": "πόνος",
         "level": "elementary",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤕",
         "form": "noun",
         "classification": "regular",
@@ -1122,13 +1429,15 @@
                 ]
             }
         ],
-        "translation": "pain",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_health_medicine_014"
     },
     {
         "word": "υποστήριξη",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -1141,13 +1450,15 @@
                 ]
             }
         ],
-        "translation": "support",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_people_025"
     },
     {
         "word": "εμπιστοσύνη",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -1160,13 +1471,15 @@
                 ]
             }
         ],
-        "translation": "trust",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_people_026"
     },
     {
         "word": "συμβιβασμός",
         "level": "elementary",
-        "theme": "relationships_dating_A2",
+        "theme": "people",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -1180,13 +1493,15 @@
                 ]
             }
         ],
-        "translation": "compromise",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_people_027"
     },
     {
         "word": "ταξίδι",
         "level": "elementary",
-        "theme": "holiday_types_A2",
+        "theme": "travel",
         "emoji": "🛤️",
         "form": "noun",
         "classification": "regular",
@@ -1200,13 +1515,15 @@
                 ]
             }
         ],
-        "translation": "journey",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_travel_023"
     },
     {
         "word": "στο εξωτερικό",
         "level": "elementary",
-        "theme": "holiday_types_A2",
+        "theme": "travel",
         "emoji": "✈️",
         "form": "adverb",
         "definitions": [
@@ -1217,13 +1534,15 @@
                 ]
             }
         ],
-        "translation": "abroad",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_travel_024"
     },
     {
         "word": "προορισμός",
         "level": "elementary",
-        "theme": "holiday_types_A2",
+        "theme": "travel",
         "emoji": "📍",
         "form": "noun",
         "classification": "regular",
@@ -1237,13 +1556,15 @@
                 ]
             }
         ],
-        "translation": "destination",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_travel_025"
     },
     {
         "word": "πτήση",
         "level": "elementary",
-        "theme": "at_the_airport_A2",
+        "theme": "travel",
         "emoji": "✈️",
         "form": "noun",
         "classification": "regular",
@@ -1257,13 +1578,15 @@
                 ]
             }
         ],
-        "translation": "flight",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_travel_026"
     },
     {
         "word": "αποσκευές",
         "level": "elementary",
-        "theme": "at_the_airport_A2",
+        "theme": "travel",
         "emoji": "🧳",
         "form": "noun",
         "classification": "regular",
@@ -1277,13 +1600,15 @@
                 ]
             }
         ],
-        "translation": "luggage",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_travel_027"
     },
     {
         "word": "γειτονιά",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "furniture",
         "emoji": "🏘️",
         "form": "noun",
         "classification": "regular",
@@ -1297,13 +1622,15 @@
                 ]
             }
         ],
-        "translation": "neighbourhood",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_places_024"
     },
     {
         "word": "κοινότητα",
         "level": "elementary",
-        "theme": "community_neighbourhood_local_A2",
+        "theme": "furniture",
         "emoji": "👥",
         "form": "noun",
         "classification": "regular",
@@ -1317,13 +1644,15 @@
                 ]
             }
         ],
-        "translation": "community",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_places_025"
     },
     {
         "word": "ρύπανση",
         "level": "elementary",
-        "theme": "environmental_protection_A2",
+        "theme": "nature",
         "emoji": "🏭",
         "form": "noun",
         "classification": "regular",
@@ -1336,8 +1665,10 @@
                 ]
             }
         ],
-        "translation": "pollution",
-        "language": "el"
+        "language": "el",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_elementary_environment_007"
     }
 ];
 })();

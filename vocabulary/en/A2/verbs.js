@@ -26,12 +26,11 @@ const data = [
         "aspect": "action",
         "v2": "accepted",
         "v3": "accepted",
-        "opposite": "refuse",
         "auxiliary": "have",
         "v4": "accepting",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Latin",
@@ -65,12 +64,11 @@ const data = [
         "aspect": "action",
         "v2": "achieved",
         "v3": "achieved",
-        "opposite": "fail",
         "auxiliary": "have",
         "v4": "achieving",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Old French",
@@ -102,7 +100,6 @@ const data = [
         "aspect": "action",
         "v2": "admired",
         "v3": "admired",
-        "opposite": "despise",
         "auxiliary": "have",
         "v4": "admiring",
         "lang": "en",
@@ -138,13 +135,12 @@ const data = [
         "aspect": "action",
         "v2": "admitted",
         "v3": "admitted",
-        "opposite": "deny",
         "group": "regular",
         "auxiliary": "have",
         "v4": "admiting",
         "lang": "en",
         "level": "elementary",
-        "theme": "agreeing_disagreeing",
+        "theme": "describing",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Latin",
@@ -176,13 +172,12 @@ const data = [
         "aspect": "action",
         "v2": "advised",
         "v3": "advised",
-        "opposite": "mislead",
         "group": "regular",
         "auxiliary": "have",
         "v4": "advising",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Old French",
@@ -208,7 +203,6 @@ const data = [
         "aspect": "stative",
         "v2": "afforded",
         "v3": "afforded",
-        "opposite": "lack",
         "transcription": "əˈfɔːrd",
         "synonyms": [
             "pay for"
@@ -218,7 +212,7 @@ const data = [
         "v4": "affording",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -243,7 +237,6 @@ const data = [
         "aspect": "action",
         "v2": "allowed",
         "v3": "allowed",
-        "opposite": "forbid",
         "transcription": "əˈlaʊ",
         "group": "regular",
         "auxiliary": "have",
@@ -280,14 +273,13 @@ const data = [
         "aspect": "action",
         "v2": "analyzed",
         "v3": "analyzed",
-        "opposite": "ignore",
         "transcription": "ˈænəlaɪz",
         "group": "regular",
         "auxiliary": "have",
         "v4": "analyzing",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_science",
+        "theme": "nature",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Greek",
@@ -317,14 +309,13 @@ const data = [
         "aspect": "action",
         "v2": "announced",
         "v3": "announced",
-        "opposite": "hide",
         "transcription": "əˈnaʊns",
         "group": "regular",
         "auxiliary": "have",
         "v4": "announcing",
         "lang": "en",
         "level": "elementary",
-        "theme": "news_media",
+        "theme": "describing",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Latin",
@@ -353,7 +344,6 @@ const data = [
         "aspect": "action",
         "v2": "apologised",
         "v3": "apologised",
-        "opposite": "offend",
         "transcription": "🇬🇧 əˈpɒlədʒaɪz | 🇺🇸 əˈpɑːlədʒaɪz",
         "group": "regular",
         "auxiliary": "have",
@@ -384,14 +374,13 @@ const data = [
         "aspect": "stative",
         "v2": "appeared",
         "v3": "appeared",
-        "opposite": "disappear",
         "transcription": "əˈpɪər",
         "group": "regular",
         "auxiliary": "have",
         "v4": "appearing",
         "lang": "en",
         "level": "elementary",
-        "theme": "personal_qualities",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -412,7 +401,6 @@ const data = [
         "aspect": "action",
         "v2": "applied",
         "v3": "applied",
-        "opposite": "resign",
         "transcription": "əˈplaɪ",
         "synonyms": [
             "request"
@@ -422,7 +410,7 @@ const data = [
         "v4": "applying",
         "lang": "en",
         "level": "elementary",
-        "theme": "job_apps_interviews",
+        "theme": "jobs",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Latin",
@@ -451,14 +439,13 @@ const data = [
         "aspect": "action",
         "v2": "applied for",
         "v3": "applied for",
-        "opposite": "resign",
         "transcription": "əˈplaɪ fɔːr",
         "group": "regular",
         "auxiliary": "have",
         "v4": "apply foring",
         "lang": "en",
         "level": "elementary",
-        "theme": "job_apps_interviews",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -483,7 +470,6 @@ const data = [
         "aspect": "stative",
         "v2": "appreciated",
         "v3": "appreciated",
-        "opposite": "ignore",
         "transcription": "əˈpriːʃieɪt",
         "group": "regular",
         "auxiliary": "have",
@@ -515,14 +501,13 @@ const data = [
         "aspect": "action",
         "v2": "argued",
         "v3": "argued",
-        "opposite": "agree",
         "transcription": "ˈɑːrɡjuː",
         "group": "regular",
         "auxiliary": "have",
         "v4": "arguing",
         "lang": "en",
         "level": "elementary",
-        "theme": "agreeing_disagreeing",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -547,14 +532,13 @@ const data = [
         "aspect": "action",
         "v2": "arranged",
         "v3": "arranged",
-        "opposite": "disorganize",
         "transcription": "əˈreɪndʒ",
         "group": "regular",
         "auxiliary": "have",
         "v4": "arranging",
         "lang": "en",
         "level": "elementary",
-        "theme": "booking_planning_a_trip",
+        "theme": "travel",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Old French",
@@ -583,14 +567,13 @@ const data = [
         "aspect": "action",
         "v2": "arrested",
         "v3": "arrested",
-        "opposite": "release",
         "transcription": "əˈrɛst",
         "group": "regular",
         "auxiliary": "have",
         "v4": "arresting",
         "lang": "en",
         "level": "elementary",
-        "theme": "right_wrong_basic",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -616,14 +599,13 @@ const data = [
         "aspect": "action",
         "v2": "assisted",
         "v3": "assisted",
-        "opposite": "hinder",
         "transcription": "əˈsɪst",
         "group": "regular",
         "auxiliary": "have",
         "v4": "assisting",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Latin",
@@ -654,7 +636,6 @@ const data = [
         "aspect": "action",
         "v2": "attached",
         "v3": "attached",
-        "opposite": "detach",
         "transcription": "əˈtætʃ",
         "group": "regular",
         "auxiliary": "have",
@@ -688,7 +669,6 @@ const data = [
         "aspect": "action",
         "v2": "attracted",
         "v3": "attracted",
-        "opposite": "repel",
         "transcription": "əˈtrækt",
         "group": "regular",
         "auxiliary": "have",
@@ -722,7 +702,6 @@ const data = [
         "aspect": "action",
         "v2": "avoided",
         "v3": "avoided",
-        "opposite": "confront",
         "transcription": "əˈvɔɪd",
         "synonyms": [
             "keep away from"
@@ -753,7 +732,6 @@ const data = [
         "aspect": "action",
         "v2": "beat",
         "v3": "beaten",
-        "opposite": "lose",
         "transcription": "biːt",
         "synonyms": [
             "win against",
@@ -763,7 +741,7 @@ const data = [
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "exercise_fitness",
+        "theme": "sports",
         "sub_theme": null
     },
     {
@@ -785,7 +763,6 @@ const data = [
         "aspect": "action",
         "v2": "behaved",
         "v3": "behaved",
-        "opposite": "misbehave",
         "transcription": "bɪˈheɪv",
         "synonyms": [
             "act"
@@ -816,7 +793,6 @@ const data = [
         "aspect": "action",
         "v2": "bit",
         "v3": "bitten",
-        "opposite": "lick",
         "transcription": "baɪt",
         "group": "regular",
         "auxiliary": "have",
@@ -843,20 +819,18 @@ const data = [
         "aspect": "action",
         "v2": "blamed",
         "v3": "blamed",
-        "opposite": "praise",
         "transcription": "bleɪm",
         "group": "regular",
         "auxiliary": "have",
         "v4": "blaming",
         "lang": "en",
         "level": "elementary",
-        "theme": "right_wrong_basic",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
         "id": "en_elementary_home_repairs_maintenance_001",
         "word": "brush teeth",
-        "image": "images/vocabulary/actions/to brush teeth.png",
         "emoji": "🪥",
         "form": "verb",
         "subtext": "brush my teeth, brush twice a day",
@@ -872,14 +846,13 @@ const data = [
         "aspect": "action",
         "v2": "brushed teeth",
         "v3": "brushed teeth",
-        "opposite": "mess up",
         "transcription": "brʌʃ tiːθ",
         "group": "regular",
         "auxiliary": "have",
         "v4": "brush teething",
         "lang": "en",
         "level": "elementary",
-        "theme": "home_repairs_maintenance",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -900,14 +873,13 @@ const data = [
         "aspect": "action",
         "v2": "budgeted",
         "v3": "budgeted",
-        "opposite": "waste",
         "transcription": "ˈbʌdʒɪt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "budgeting",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -929,13 +901,12 @@ const data = [
         "aspect": "action",
         "v2": "built",
         "v3": "built",
-        "opposite": "destroy",
         "transcription": "bɪld",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -957,7 +928,6 @@ const data = [
         "aspect": "action",
         "v2": "calculated",
         "v3": "calculated",
-        "opposite": "guess",
         "transcription": "ˈkælkjuleɪt",
         "synonyms": [
             "count",
@@ -968,7 +938,7 @@ const data = [
         "v4": "calculating",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_arithmetic",
+        "theme": "numbers",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Latin",
@@ -994,14 +964,13 @@ const data = [
         "aspect": "action",
         "v2": "carried on",
         "v3": "carried on",
-        "opposite": "stop",
         "transcription": "🇬🇧 ˈkæri ɒn | 🇺🇸 ˈkæri ɑːn",
         "group": "regular",
         "auxiliary": "have",
         "v4": "carry oning",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -1022,14 +991,13 @@ const data = [
         "aspect": "action",
         "v2": "challenged",
         "v3": "challenged",
-        "opposite": "comfort",
         "transcription": "ˈtʃælɪndʒ",
         "group": "regular",
         "auxiliary": "have",
         "v4": "challenging",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -1051,7 +1019,6 @@ const data = [
         "aspect": "action",
         "v2": "charged",
         "v3": "charged",
-        "opposite": "pay",
         "transcription": "tʃɑːrdʒ",
         "synonyms": [
             "bill"
@@ -1061,7 +1028,7 @@ const data = [
         "v4": "charging",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -1082,14 +1049,13 @@ const data = [
         "aspect": "action",
         "v2": "claimed",
         "v3": "claimed",
-        "opposite": "give up",
         "transcription": "kleɪm",
         "group": "regular",
         "auxiliary": "have",
         "v4": "claiming",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -1113,14 +1079,13 @@ const data = [
         "aspect": "action",
         "v2": "collaborated",
         "v3": "collaborated",
-        "opposite": "work alone",
         "transcription": "kəˈlæbəreɪt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "collaborating",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Latin",
@@ -1146,7 +1111,6 @@ const data = [
         "aspect": "action",
         "v2": "communicated",
         "v3": "communicated",
-        "opposite": "be silent",
         "transcription": "kəˈmjuːnɪkeɪt",
         "group": "regular",
         "auxiliary": "have",
@@ -1183,14 +1147,13 @@ const data = [
         "aspect": "action",
         "v2": "compared",
         "v3": "compared",
-        "opposite": "differentiate",
         "transcription": "kəmˈpeər",
         "group": "regular",
         "auxiliary": "have",
         "v4": "comparing",
         "lang": "en",
         "level": "elementary",
-        "theme": "comparison",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1214,14 +1177,13 @@ const data = [
         "aspect": "action",
         "v2": "competed",
         "v3": "competed",
-        "opposite": "cooperate",
         "transcription": "kəmˈpiːt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "competing",
         "lang": "en",
         "level": "elementary",
-        "theme": "exercise_fitness",
+        "theme": "sports",
         "sub_theme": null
     },
     {
@@ -1246,14 +1208,13 @@ const data = [
         "aspect": "action",
         "v2": "complained",
         "v3": "complained",
-        "opposite": "praise",
         "transcription": "kəmˈpleɪn",
         "group": "regular",
         "auxiliary": "have",
         "v4": "complaining",
         "lang": "en",
         "level": "elementary",
-        "theme": "agreeing_disagreeing",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1278,7 +1239,6 @@ const data = [
         "aspect": "action",
         "v2": "completed",
         "v3": "completed",
-        "opposite": "start",
         "transcription": "kəmˈpliːt",
         "group": "regular",
         "auxiliary": "have",
@@ -1306,14 +1266,13 @@ const data = [
         "aspect": "action",
         "v2": "compromised",
         "v3": "compromised",
-        "opposite": "demand",
         "transcription": "🇬🇧 ˈkɒmprəmaɪz | 🇺🇸 ˈkɑːmprəmaɪz",
         "group": "regular",
         "auxiliary": "have",
         "v4": "compromising",
         "lang": "en",
         "level": "elementary",
-        "theme": "agreeing_disagreeing",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1334,14 +1293,13 @@ const data = [
         "aspect": "action",
         "v2": "concentrated",
         "v3": "concentrated",
-        "opposite": "distract",
         "transcription": "🇬🇧 ˈkɒnsəntreɪt | 🇺🇸 ˈkɑːnsəntreɪt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "concentrating",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1362,7 +1320,6 @@ const data = [
         "aspect": "action",
         "v2": "confirmed",
         "v3": "confirmed",
-        "opposite": "cancel",
         "transcription": "kənˈfɜːrm",
         "synonyms": [
             "verify",
@@ -1373,7 +1330,7 @@ const data = [
         "v4": "confirming",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1397,14 +1354,13 @@ const data = [
         "aspect": "action",
         "v2": "confused",
         "v3": "confused",
-        "opposite": "clarify",
         "transcription": "kənˈfjuːz",
         "group": "regular",
         "auxiliary": "have",
         "v4": "confusing",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1426,7 +1382,6 @@ const data = [
         "aspect": "action",
         "v2": "connected",
         "v3": "connected",
-        "opposite": "disconnect",
         "transcription": "kənˈnɛkt",
         "synonyms": [
             "join",
@@ -1458,7 +1413,6 @@ const data = [
         "aspect": "action",
         "v2": "conserved",
         "v3": "conserved",
-        "opposite": "waste",
         "synonyms": [
             "save",
             "protect"
@@ -1469,7 +1423,7 @@ const data = [
         "v4": "conserving",
         "lang": "en",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -1490,7 +1444,6 @@ const data = [
         "aspect": "both",
         "v2": "considered",
         "v3": "considered",
-        "opposite": "ignore",
         "transcription": "kənˈsɪdər",
         "synonyms": [
             "think about"
@@ -1500,7 +1453,7 @@ const data = [
         "v4": "considering",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1521,7 +1474,6 @@ const data = [
         "aspect": "action",
         "v2": "contacted",
         "v3": "contacted",
-        "opposite": "ignore",
         "synonyms": [
             "call",
             "message"
@@ -1554,7 +1506,6 @@ const data = [
         "aspect": "stative",
         "v2": "contained",
         "v3": "contained",
-        "opposite": "exclude",
         "transcription": "kənˈteɪn",
         "synonyms": [
             "include",
@@ -1565,7 +1516,7 @@ const data = [
         "v4": "containing",
         "lang": "en",
         "level": "elementary",
-        "theme": "diet_nutrition",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1591,7 +1542,6 @@ const data = [
         "aspect": "both",
         "v2": "continued",
         "v3": "continued",
-        "opposite": "stop",
         "transcription": "kənˈtɪnjuː",
         "group": "regular",
         "auxiliary": "have",
@@ -1622,14 +1572,13 @@ const data = [
         "aspect": "action",
         "v2": "contracted",
         "v3": "contracted",
-        "opposite": "cancel",
         "transcription": "🇬🇧 ˈkɒntrækt | 🇺🇸 ˈkɑːntrækt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "contracting",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -1650,7 +1599,6 @@ const data = [
         "aspect": "action",
         "v2": "controlled",
         "v3": "controlled",
-        "opposite": "release",
         "transcription": "kənˈtroʊl",
         "synonyms": [
             "manage",
@@ -1661,7 +1609,7 @@ const data = [
         "v4": "controling",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1683,7 +1631,6 @@ const data = [
         "aspect": "action",
         "v2": "convinced",
         "v3": "convinced",
-        "opposite": "dissuade",
         "synonyms": [
             "persuade"
         ],
@@ -1693,7 +1640,7 @@ const data = [
         "v4": "convincing",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1717,14 +1664,13 @@ const data = [
         "aspect": "action",
         "v2": "created",
         "v3": "created",
-        "opposite": "destroy",
         "transcription": "kriˈeɪt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "creating",
         "lang": "en",
         "level": "elementary",
-        "theme": "art_design",
+        "theme": "art_culture",
         "sub_theme": null
     },
     {
@@ -1745,7 +1691,6 @@ const data = [
         "aspect": "action",
         "v2": "cured",
         "v3": "cured",
-        "opposite": "infect",
         "synonyms": [
             "heal"
         ],
@@ -1755,7 +1700,7 @@ const data = [
         "v4": "curing",
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -1779,13 +1724,12 @@ const data = [
         "aspect": "action",
         "v2": "cut down on",
         "v3": "cut down on",
-        "opposite": "increase",
         "transcription": "🇬🇧 kʌt daʊn ɒn | 🇺🇸 kʌt daʊn ɑːn",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "diet_healthy_eating",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1806,7 +1750,6 @@ const data = [
         "aspect": "action",
         "v2": "damaged",
         "v3": "damaged",
-        "opposite": "repair",
         "transcription": "ˈdæmɪdʒ",
         "synonyms": [
             "hurt",
@@ -1817,7 +1760,7 @@ const data = [
         "v4": "damaging",
         "lang": "en",
         "level": "elementary",
-        "theme": "home_repairs_maintenance",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1842,14 +1785,13 @@ const data = [
         "aspect": "action",
         "v2": "decorated",
         "v3": "decorated",
-        "opposite": "damage",
         "transcription": "ˈdɛkəreɪt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "decorating",
         "lang": "en",
         "level": "elementary",
-        "theme": "home_furnishings",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1871,7 +1813,6 @@ const data = [
         "aspect": "both",
         "v2": "decreased",
         "v3": "decreased",
-        "opposite": "increase",
         "synonyms": [
             "reduce",
             "go down"
@@ -1882,7 +1823,7 @@ const data = [
         "v4": "decreasing",
         "lang": "en",
         "level": "elementary",
-        "theme": "quantity_degree",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1903,14 +1844,13 @@ const data = [
         "aspect": "action",
         "v2": "delegated",
         "v3": "delegated",
-        "opposite": "do yourself",
         "transcription": "ˈdɛlɪɡeɪt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "delegating",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -1932,7 +1872,6 @@ const data = [
         "aspect": "action",
         "v2": "delivered",
         "v3": "delivered",
-        "opposite": "collect",
         "transcription": "dɪˈlɪvər",
         "synonyms": [
             "bring",
@@ -1943,7 +1882,7 @@ const data = [
         "v4": "delivering",
         "lang": "en",
         "level": "elementary",
-        "theme": "restaurants_ordering",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1965,7 +1904,6 @@ const data = [
         "aspect": "action",
         "v2": "deposited",
         "v3": "deposited",
-        "opposite": "withdraw",
         "synonyms": [
             "put in"
         ],
@@ -1975,7 +1913,7 @@ const data = [
         "v4": "depositing",
         "lang": "en",
         "level": "elementary",
-        "theme": "banking",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -1996,7 +1934,6 @@ const data = [
         "aspect": "action",
         "v2": "designed",
         "v3": "designed",
-        "opposite": "copy",
         "transcription": "dɪˈzaɪn",
         "synonyms": [
             "plan",
@@ -2007,7 +1944,7 @@ const data = [
         "v4": "designing",
         "lang": "en",
         "level": "elementary",
-        "theme": "art_design",
+        "theme": "art_culture",
         "sub_theme": null
     },
     {
@@ -2031,14 +1968,13 @@ const data = [
         "aspect": "action",
         "v2": "destroyed",
         "v3": "destroyed",
-        "opposite": "build",
         "transcription": "dɪˈstrɔɪ",
         "group": "regular",
         "auxiliary": "have",
         "v4": "destroying",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -2063,14 +1999,13 @@ const data = [
         "aspect": "action",
         "v2": "developed",
         "v3": "developed",
-        "opposite": "regress",
         "transcription": "dɪˈvɛləp",
         "group": "regular",
         "auxiliary": "have",
         "v4": "developing",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -2094,14 +2029,13 @@ const data = [
         "aspect": "action",
         "v2": "diagnosed",
         "v3": "diagnosed",
-        "opposite": "ignore",
         "transcription": "ˌdaɪəɡˈnoʊs",
         "group": "regular",
         "auxiliary": "have",
         "v4": "diagnosing",
         "lang": "en",
         "level": "elementary",
-        "theme": "diet_healthy_eating",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -2122,7 +2056,6 @@ const data = [
         "aspect": "stative",
         "v2": "disagreed",
         "v3": "disagreed",
-        "opposite": "agree",
         "transcription": "ˌdɪsəˈɡriː",
         "synonyms": [
             "differ",
@@ -2133,7 +2066,7 @@ const data = [
         "v4": "disagreeing",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2157,14 +2090,13 @@ const data = [
         "aspect": "action",
         "v2": "discovered",
         "v3": "discovered",
-        "opposite": "hide",
         "transcription": "dɪˈskʌvər",
         "group": "regular",
         "auxiliary": "have",
         "v4": "discovering",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_science",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -2185,7 +2117,6 @@ const data = [
         "aspect": "action",
         "v2": "discussed",
         "v3": "discussed",
-        "opposite": "be silent",
         "transcription": "dɪˈskʌs",
         "synonyms": [
             "talk about"
@@ -2195,7 +2126,7 @@ const data = [
         "v4": "discussing",
         "lang": "en",
         "level": "elementary",
-        "theme": "agreeing_disagreeing",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2220,14 +2151,13 @@ const data = [
         "aspect": "action",
         "v2": "dismissed",
         "v3": "dismissed",
-        "opposite": "hire",
         "transcription": "dɪsˈmɪs",
         "group": "regular",
         "auxiliary": "have",
         "v4": "dismissing",
         "lang": "en",
         "level": "elementary",
-        "theme": "job_apps_interviews",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -2251,14 +2181,13 @@ const data = [
         "aspect": "action",
         "v2": "divided",
         "v3": "divided",
-        "opposite": "multiply",
         "transcription": "dɪˈvaɪd",
         "group": "regular",
         "auxiliary": "have",
         "v4": "dividing",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_arithmetic",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -2282,14 +2211,13 @@ const data = [
         "aspect": "stative",
         "v2": "doubted",
         "v3": "doubted",
-        "opposite": "believe",
         "transcription": "daʊt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "doubting",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2310,7 +2238,6 @@ const data = [
         "aspect": "action",
         "v2": "dreamed / dreamt",
         "v3": "dreamed / dreamt",
-        "opposite": "wake up",
         "transcription": "driːm",
         "synonyms": [
             "imagine"
@@ -2319,7 +2246,7 @@ const data = [
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -2343,7 +2270,6 @@ const data = [
         "aspect": "action",
         "v2": "encouraged",
         "v3": "encouraged",
-        "opposite": "discourage",
         "transcription": "ɪnˈkʌrɪdʒ",
         "group": "regular",
         "auxiliary": "have",
@@ -2374,14 +2300,13 @@ const data = [
         "aspect": "action",
         "v2": "entertained",
         "v3": "entertained",
-        "opposite": "bore",
         "transcription": "ˌɛntərˈteɪn",
         "group": "regular",
         "auxiliary": "have",
         "v4": "entertaining",
         "lang": "en",
         "level": "elementary",
-        "theme": "theatre_performance",
+        "theme": "art_culture",
         "sub_theme": null
     },
     {
@@ -2402,14 +2327,13 @@ const data = [
         "aspect": "action",
         "v2": "escaped",
         "v3": "escaped",
-        "opposite": "capture",
         "transcription": "ɪˈskeɪp",
         "group": "regular",
         "auxiliary": "have",
         "v4": "escaping",
         "lang": "en",
         "level": "elementary",
-        "theme": "right_wrong_basic",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -2430,14 +2354,13 @@ const data = [
         "aspect": "action",
         "v2": "evaluated",
         "v3": "evaluated",
-        "opposite": "ignore",
         "transcription": "ɪˈvæljueɪt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "evaluating",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -2458,14 +2381,13 @@ const data = [
         "aspect": "action",
         "v2": "evolved",
         "v3": "evolved",
-        "opposite": "stagnate",
         "transcription": "🇬🇧 ɪˈvɒlv | 🇺🇸 ɪˈvɑːlv",
         "group": "regular",
         "auxiliary": "have",
         "v4": "evolving",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_science",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -2491,14 +2413,13 @@ const data = [
         "aspect": "action",
         "v2": "examined",
         "v3": "examined",
-        "opposite": "ignore",
         "transcription": "ɪɡˈzæmɪn",
         "group": "regular",
         "auxiliary": "have",
         "v4": "examining",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_science",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -2522,7 +2443,6 @@ const data = [
         "aspect": "action",
         "v2": "excited",
         "v3": "excited",
-        "opposite": "bore",
         "transcription": "ɪkˈsaɪt",
         "group": "regular",
         "auxiliary": "have",
@@ -2550,14 +2470,13 @@ const data = [
         "aspect": "action",
         "v2": "exhaled",
         "v3": "exhaled",
-        "opposite": "inhale",
         "transcription": "ɛksˈheɪl",
         "group": "regular",
         "auxiliary": "have",
         "v4": "exhaling",
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -2578,14 +2497,13 @@ const data = [
         "aspect": "action",
         "v2": "expanded",
         "v3": "expanded",
-        "opposite": "shrink",
         "transcription": "ɪkˈspænd",
         "group": "regular",
         "auxiliary": "have",
         "v4": "expanding",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2606,7 +2524,6 @@ const data = [
         "aspect": "stative",
         "v2": "expected",
         "v3": "expected",
-        "opposite": "doubt",
         "transcription": "ɪkˈspɛkt",
         "synonyms": [
             "wait for",
@@ -2617,7 +2534,7 @@ const data = [
         "v4": "expecting",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2639,7 +2556,6 @@ const data = [
         "aspect": "action",
         "v2": "explored",
         "v3": "explored",
-        "opposite": "ignore",
         "transcription": "ɪkˈsplɔːr",
         "synonyms": [
             "travel",
@@ -2650,7 +2566,7 @@ const data = [
         "v4": "exploring",
         "lang": "en",
         "level": "elementary",
-        "theme": "holiday_types",
+        "theme": "travel",
         "sub_theme": null
     },
     {
@@ -2672,7 +2588,6 @@ const data = [
         "aspect": "action",
         "v2": "failed",
         "v3": "failed",
-        "opposite": "succeed",
         "transcription": "feɪl",
         "synonyms": [
             "not pass"
@@ -2703,13 +2618,12 @@ const data = [
         "aspect": "action",
         "v2": "found out",
         "v3": "found out",
-        "opposite": "hide",
         "transcription": "faɪnd aʊt",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "news_media",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2730,7 +2644,6 @@ const data = [
         "aspect": "action",
         "v2": "forgave",
         "v3": "forgiven",
-        "opposite": "blame",
         "transcription": "fərˈɡɪv",
         "synonyms": [
             "pardon"
@@ -2763,13 +2676,12 @@ const data = [
         "aspect": "action",
         "v2": "froze",
         "v3": "frozen",
-        "opposite": "melt",
         "transcription": "friːz",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "weather_climate",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -2790,13 +2702,12 @@ const data = [
         "aspect": "action",
         "v2": "gave up",
         "v3": "given up",
-        "opposite": "continue",
         "transcription": "ɡɪv ʌp",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -2818,14 +2729,13 @@ const data = [
         "aspect": "action",
         "v2": "graduated",
         "v3": "graduated",
-        "opposite": "drop out",
         "transcription": "ˈɡrædʒueɪt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "graduating",
         "lang": "en",
         "level": "elementary",
-        "theme": "qualifications_exams",
+        "theme": "school",
         "sub_theme": null
     },
     {
@@ -2850,14 +2760,13 @@ const data = [
         "aspect": "action",
         "v2": "greeted",
         "v3": "greeted",
-        "opposite": "ignore",
         "transcription": "ɡriːt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "greeting",
         "lang": "en",
         "level": "elementary",
-        "theme": "customs_traditions",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2879,7 +2788,6 @@ const data = [
         "aspect": "both",
         "v2": "guessed",
         "v3": "guessed",
-        "opposite": "know",
         "transcription": "ɡɛs",
         "synonyms": [
             "estimate"
@@ -2889,7 +2797,7 @@ const data = [
         "v4": "guessing",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2914,14 +2822,13 @@ const data = [
         "aspect": "action",
         "v2": "happened",
         "v3": "happened",
-        "opposite": "stop",
         "transcription": "ˈhæpən",
         "group": "regular",
         "auxiliary": "have",
         "v4": "happening",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2942,7 +2849,6 @@ const data = [
         "aspect": "action",
         "v2": "hired",
         "v3": "hired",
-        "opposite": "fire",
         "transcription": "ˈhaɪər",
         "synonyms": [
             "rent",
@@ -2953,7 +2859,7 @@ const data = [
         "v4": "hiring",
         "lang": "en",
         "level": "elementary",
-        "theme": "job_apps_interviews",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -2975,7 +2881,6 @@ const data = [
         "aspect": "action",
         "v2": "identified",
         "v3": "identified",
-        "opposite": "ignore",
         "transcription": "aɪˈdɛntɪfaɪ",
         "synonyms": [
             "recognize"
@@ -3006,7 +2911,6 @@ const data = [
         "aspect": "action",
         "v2": "ignored",
         "v3": "ignored",
-        "opposite": "notice",
         "transcription": "ɪɡˈnɔːr",
         "synonyms": [
             "not listen to"
@@ -3016,7 +2920,7 @@ const data = [
         "v4": "ignoring",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3037,7 +2941,6 @@ const data = [
         "aspect": "stative",
         "v2": "imagined",
         "v3": "imagined",
-        "opposite": "know",
         "transcription": "ɪˈmædʒɪn",
         "synonyms": [
             "think of"
@@ -3047,7 +2950,7 @@ const data = [
         "v4": "imagining",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3071,7 +2974,6 @@ const data = [
         "aspect": "action",
         "v2": "impressed",
         "v3": "impressed",
-        "opposite": "disappoint",
         "transcription": "ɪmˈprɛs",
         "group": "regular",
         "auxiliary": "have",
@@ -3103,7 +3005,6 @@ const data = [
         "aspect": "both",
         "v2": "improved",
         "v3": "improved",
-        "opposite": "worsen",
         "transcription": "ɪmˈpruːv",
         "group": "regular",
         "auxiliary": "have",
@@ -3115,7 +3016,7 @@ const data = [
     },
     {
         "id": "en_elementary_career_development_067",
-        "word": "improve skills",
+        "word": "improve",
         "emoji": "📈",
         "form": "verb",
         "subtext": "improve performance, improve health, room for improvement",
@@ -3134,16 +3035,15 @@ const data = [
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "improved skills",
-        "v3": "improved skills",
-        "opposite": "lose skills",
-        "transcription": "ɪmˈpruːv skɪlz",
+        "v2": "improved",
+        "v3": "improved",
+        "transcription": "ɪmˈpruːv",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "improve skillsing",
+        "v4": "improving",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -3167,14 +3067,13 @@ const data = [
         "aspect": "stative",
         "v2": "included",
         "v3": "included",
-        "opposite": "exclude",
         "transcription": "ɪnˈkluːd",
         "group": "regular",
         "auxiliary": "have",
         "v4": "including",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -3196,7 +3095,6 @@ const data = [
         "aspect": "both",
         "v2": "increased",
         "v3": "increased",
-        "opposite": "decrease",
         "transcription": "ɪnˈkriːs",
         "synonyms": [
             "grow",
@@ -3207,7 +3105,7 @@ const data = [
         "v4": "increasing",
         "lang": "en",
         "level": "elementary",
-        "theme": "quantity_degree",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3232,14 +3130,13 @@ const data = [
         "aspect": "action",
         "v2": "informed",
         "v3": "informed",
-        "opposite": "mislead",
         "transcription": "ɪnˈfɔːrm",
         "group": "regular",
         "auxiliary": "have",
         "v4": "informing",
         "lang": "en",
         "level": "elementary",
-        "theme": "news_media",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3260,14 +3157,13 @@ const data = [
         "aspect": "action",
         "v2": "inhaled",
         "v3": "inhaled",
-        "opposite": "exhale",
         "transcription": "ɪnˈheɪl",
         "group": "regular",
         "auxiliary": "have",
         "v4": "inhaling",
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -3292,14 +3188,13 @@ const data = [
         "aspect": "action",
         "v2": "injured",
         "v3": "injured",
-        "opposite": "heal",
         "transcription": "ˈɪndʒər",
         "group": "regular",
         "auxiliary": "have",
         "v4": "injuring",
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -3320,7 +3215,6 @@ const data = [
         "aspect": "stative",
         "v2": "intended",
         "v3": "intended",
-        "opposite": "improvise",
         "transcription": "ɪnˈtɛnd",
         "synonyms": [
             "plan",
@@ -3331,7 +3225,7 @@ const data = [
         "v4": "intending",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3355,14 +3249,13 @@ const data = [
         "aspect": "action",
         "v2": "interviewed",
         "v3": "interviewed",
-        "opposite": "ignore",
         "transcription": "ˈɪntərvjuː",
         "group": "regular",
         "auxiliary": "have",
         "v4": "interviewing",
         "lang": "en",
         "level": "elementary",
-        "theme": "job_apps_interviews",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -3387,14 +3280,13 @@ const data = [
         "aspect": "action",
         "v2": "invented",
         "v3": "invented",
-        "opposite": "copy",
         "transcription": "ɪnˈvɛnt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "inventing",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_science",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -3415,7 +3307,6 @@ const data = [
         "aspect": "action",
         "v2": "invested",
         "v3": "invested",
-        "opposite": "spend",
         "transcription": "ɪnˈvɛst",
         "synonyms": [
             "put money in"
@@ -3425,7 +3316,7 @@ const data = [
         "v4": "investing",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -3446,7 +3337,6 @@ const data = [
         "aspect": "action",
         "v2": "killed",
         "v3": "killed",
-        "opposite": "save",
         "transcription": "kɪl",
         "synonyms": [
             "die"
@@ -3456,7 +3346,7 @@ const data = [
         "v4": "killing",
         "lang": "en",
         "level": "elementary",
-        "theme": "right_wrong_basic",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -3477,7 +3367,6 @@ const data = [
         "aspect": "action",
         "v2": "lent",
         "v3": "lent",
-        "opposite": "borrow",
         "transcription": "lɛnd",
         "synonyms": [
             "give"
@@ -3486,7 +3375,7 @@ const data = [
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -3507,7 +3396,6 @@ const data = [
         "aspect": "action",
         "v2": "logged out",
         "v3": "logged out",
-        "opposite": "log in",
         "transcription": "🇬🇧 lɒɡ aʊt | 🇺🇸 lɑːɡ aʊt",
         "group": "regular",
         "auxiliary": "have",
@@ -3535,14 +3423,13 @@ const data = [
         "aspect": "action",
         "v2": "looked after",
         "v3": "looked after",
-        "opposite": "neglect",
         "transcription": "lʊk ˈɑːftər",
         "group": "regular",
         "auxiliary": "have",
         "v4": "look aftering",
         "lang": "en",
         "level": "elementary",
-        "theme": "relationships_family",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -3563,14 +3450,13 @@ const data = [
         "aspect": "action",
         "v2": "looked for",
         "v3": "looked for",
-        "opposite": "find",
         "transcription": "lʊk fɔːr",
         "group": "regular",
         "auxiliary": "have",
         "v4": "look foring",
         "lang": "en",
         "level": "elementary",
-        "theme": "job_apps_interviews",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -3591,13 +3477,12 @@ const data = [
         "aspect": "action",
         "v2": "lost weight",
         "v3": "lost weight",
-        "opposite": "gain weight",
         "transcription": "luːz weɪt",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "diet_healthy_eating",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -3619,7 +3504,6 @@ const data = [
         "aspect": "action",
         "v2": "measured",
         "v3": "measured",
-        "opposite": "estimate",
         "transcription": "ˈmɛʒər",
         "synonyms": [
             "calculate"
@@ -3629,7 +3513,7 @@ const data = [
         "v4": "measuring",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_science",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -3650,7 +3534,6 @@ const data = [
         "aspect": "action",
         "v2": "memorised",
         "v3": "memorised",
-        "opposite": "forget",
         "transcription": "ˈmɛməraɪz",
         "synonyms": [
             "learn by heart"
@@ -3685,14 +3568,13 @@ const data = [
         "aspect": "action",
         "v2": "mentioned",
         "v3": "mentioned",
-        "opposite": "ignore",
         "transcription": "ˈmɛnʃən",
         "group": "regular",
         "auxiliary": "have",
         "v4": "mentioning",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3716,14 +3598,13 @@ const data = [
         "aspect": "action",
         "v2": "multiplied",
         "v3": "multiplied",
-        "opposite": "divide",
         "transcription": "ˈmʌltɪplaɪ",
         "group": "regular",
         "auxiliary": "have",
         "v4": "multiplying",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_arithmetic",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -3744,7 +3625,6 @@ const data = [
         "aspect": "action",
         "v2": "negotiated",
         "v3": "negotiated",
-        "opposite": "agree",
         "transcription": "nəˈɡoʊʃieɪt",
         "synonyms": [
             "discuss"
@@ -3754,7 +3634,7 @@ const data = [
         "v4": "negotiating",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -3779,14 +3659,13 @@ const data = [
         "aspect": "both",
         "v2": "noticed",
         "v3": "noticed",
-        "opposite": "ignore",
         "transcription": "ˈnoʊtɪs",
         "group": "regular",
         "auxiliary": "have",
         "v4": "noticing",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3807,7 +3686,6 @@ const data = [
         "aspect": "action",
         "v2": "observed",
         "v3": "observed",
-        "opposite": "ignore",
         "transcription": "əbˈzɜːrv",
         "synonyms": [
             "watch",
@@ -3818,7 +3696,7 @@ const data = [
         "v4": "observing",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_science",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -3839,7 +3717,6 @@ const data = [
         "aspect": "action",
         "v2": "offered",
         "v3": "offered",
-        "opposite": "refuse",
         "transcription": "🇬🇧 ˈɒfər | 🇺🇸 ˈɑːfər",
         "synonyms": [
             "give"
@@ -3875,14 +3752,13 @@ const data = [
         "aspect": "action",
         "v2": "organized",
         "v3": "organized",
-        "opposite": "mess up",
         "transcription": "ˈɔːrɡənaɪz",
         "group": "regular",
         "auxiliary": "have",
         "v4": "organizing",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -3903,7 +3779,6 @@ const data = [
         "aspect": "stative",
         "v2": "owed",
         "v3": "owed",
-        "opposite": "pay",
         "transcription": "oʊ",
         "synonyms": [
             "must pay"
@@ -3913,7 +3788,7 @@ const data = [
         "v4": "owing",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -3939,14 +3814,13 @@ const data = [
         "aspect": "action",
         "v2": "participated",
         "v3": "participated",
-        "opposite": "withdraw",
         "transcription": "pɑːrˈtɪsɪpeɪt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "participating",
         "lang": "en",
         "level": "elementary",
-        "theme": "community_neighbourhood_local",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -3968,7 +3842,6 @@ const data = [
         "aspect": "action",
         "v2": "performed",
         "v3": "performed",
-        "opposite": "watch",
         "transcription": "pərˈfɔːrm",
         "synonyms": [
             "act",
@@ -3979,7 +3852,7 @@ const data = [
         "v4": "performing",
         "lang": "en",
         "level": "elementary",
-        "theme": "theatre_performance",
+        "theme": "art_culture",
         "sub_theme": null
     },
     {
@@ -4000,14 +3873,13 @@ const data = [
         "aspect": "action",
         "v2": "polluted",
         "v3": "polluted",
-        "opposite": "clean",
         "transcription": "pəˈluːt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "polluting",
         "lang": "en",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -4028,7 +3900,6 @@ const data = [
         "aspect": "action",
         "v2": "predicted",
         "v3": "predicted",
-        "opposite": "recollect",
         "transcription": "prɪˈdɪkt",
         "synonyms": [
             "forecast",
@@ -4039,7 +3910,7 @@ const data = [
         "v4": "predicting",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_science",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -4060,7 +3931,6 @@ const data = [
         "aspect": "action",
         "v2": "prevented",
         "v3": "prevented",
-        "opposite": "cause",
         "transcription": "prɪˈvɛnt",
         "synonyms": [
             "stop"
@@ -4070,7 +3940,7 @@ const data = [
         "v4": "preventing",
         "lang": "en",
         "level": "elementary",
-        "theme": "diet_healthy_eating",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -4091,7 +3961,6 @@ const data = [
         "aspect": "action",
         "v2": "produced",
         "v3": "produced",
-        "opposite": "consume",
         "transcription": "prəˈdjuːs",
         "synonyms": [
             "make",
@@ -4102,7 +3971,7 @@ const data = [
         "v4": "producing",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -4127,14 +3996,13 @@ const data = [
         "aspect": "action",
         "v2": "prohibited",
         "v3": "prohibited",
-        "opposite": "allow",
         "transcription": "prəˈhɪbɪt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "prohibiting",
         "lang": "en",
         "level": "elementary",
-        "theme": "right_wrong_basic",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -4155,7 +4023,6 @@ const data = [
         "aspect": "action",
         "v2": "promised",
         "v3": "promised",
-        "opposite": "lie",
         "transcription": "🇬🇧 ˈprɒmɪs | 🇺🇸 ˈprɑːmɪs",
         "synonyms": [
             "vow"
@@ -4189,14 +4056,13 @@ const data = [
         "aspect": "action",
         "v2": "promoted",
         "v3": "promoted",
-        "opposite": "demote",
         "transcription": "prəˈmoʊt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "promoting",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -4218,7 +4084,6 @@ const data = [
         "aspect": "action",
         "v2": "protected",
         "v3": "protected",
-        "opposite": "damage",
         "transcription": "prəˈtɛkt",
         "synonyms": [
             "save",
@@ -4229,7 +4094,7 @@ const data = [
         "v4": "protecting",
         "lang": "en",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -4250,7 +4115,6 @@ const data = [
         "aspect": "action",
         "v2": "provided",
         "v3": "provided",
-        "opposite": "take",
         "transcription": "prəˈvaɪd",
         "synonyms": [
             "give",
@@ -4261,7 +4125,7 @@ const data = [
         "v4": "providing",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -4282,13 +4146,12 @@ const data = [
         "aspect": "action",
         "v2": "put off",
         "v3": "put off",
-        "opposite": "do now",
         "transcription": "🇬🇧 pʊt ɒf | 🇺🇸 pʊt ɑːf",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -4309,7 +4172,6 @@ const data = [
         "aspect": "action",
         "v2": "reached",
         "v3": "reached",
-        "opposite": "miss",
         "transcription": "riːtʃ",
         "synonyms": [
             "arrive at"
@@ -4319,7 +4181,7 @@ const data = [
         "v4": "reaching",
         "lang": "en",
         "level": "elementary",
-        "theme": "booking_planning_a_trip",
+        "theme": "travel",
         "sub_theme": null
     },
     {
@@ -4343,14 +4205,13 @@ const data = [
         "aspect": "action",
         "v2": "reacted",
         "v3": "reacted",
-        "opposite": "ignore",
         "transcription": "riˈækt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "reacting",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_science",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -4371,7 +4232,6 @@ const data = [
         "aspect": "stative",
         "v2": "realized",
         "v3": "realized",
-        "opposite": "misunderstand",
         "transcription": "ˈriːəlaɪz",
         "synonyms": [
             "understand",
@@ -4382,7 +4242,7 @@ const data = [
         "v4": "realizing",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4407,14 +4267,13 @@ const data = [
         "aspect": "action",
         "v2": "recommended",
         "v3": "recommended",
-        "opposite": "warn against",
         "transcription": "ˌrɛkəˈmɛnd",
         "group": "regular",
         "auxiliary": "have",
         "v4": "recommending",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4435,7 +4294,6 @@ const data = [
         "aspect": "action",
         "v2": "recorded",
         "v3": "recorded",
-        "opposite": "delete",
         "transcription": "ˈrɛkɔːrd",
         "synonyms": [
             "note",
@@ -4467,7 +4325,6 @@ const data = [
         "aspect": "action",
         "v2": "recovered",
         "v3": "recovered",
-        "opposite": "get sick",
         "transcription": "rɪˈkʌvər",
         "synonyms": [
             "get well",
@@ -4478,7 +4335,7 @@ const data = [
         "v4": "recovering",
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -4499,7 +4356,6 @@ const data = [
         "aspect": "action",
         "v2": "recycled",
         "v3": "recycled",
-        "opposite": "waste",
         "transcription": "ˌriːˈsaɪkl",
         "synonyms": [
             "reuse"
@@ -4509,7 +4365,7 @@ const data = [
         "v4": "recycling",
         "lang": "en",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -4530,7 +4386,6 @@ const data = [
         "aspect": "action",
         "v2": "reduced",
         "v3": "reduced",
-        "opposite": "increase",
         "transcription": "rɪˈdjuːs",
         "synonyms": [
             "decrease",
@@ -4541,7 +4396,7 @@ const data = [
         "v4": "reducing",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -4562,7 +4417,6 @@ const data = [
         "aspect": "action",
         "v2": "refused",
         "v3": "refused",
-        "opposite": "accept",
         "transcription": "rɪˈfjuːz",
         "synonyms": [
             "say no",
@@ -4573,7 +4427,7 @@ const data = [
         "v4": "refusing",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -4594,7 +4448,6 @@ const data = [
         "aspect": "stative",
         "v2": "remained",
         "v3": "remained",
-        "opposite": "change",
         "transcription": "rɪˈmeɪn",
         "synonyms": [
             "stay"
@@ -4604,7 +4457,7 @@ const data = [
         "v4": "remaining",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4625,7 +4478,6 @@ const data = [
         "aspect": "action",
         "v2": "repaired",
         "v3": "repaired",
-        "opposite": "break",
         "transcription": "rɪˈpɛər",
         "synonyms": [
             "fix"
@@ -4635,7 +4487,7 @@ const data = [
         "v4": "repairing",
         "lang": "en",
         "level": "elementary",
-        "theme": "home_repairs_maintenance",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4659,14 +4511,13 @@ const data = [
         "aspect": "action",
         "v2": "replaced",
         "v3": "replaced",
-        "opposite": "keep",
         "transcription": "rɪˈpleɪs",
         "group": "regular",
         "auxiliary": "have",
         "v4": "replacing",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -4687,7 +4538,6 @@ const data = [
         "aspect": "stative",
         "v2": "required",
         "v3": "required",
-        "opposite": "lack",
         "transcription": "rɪˈkwaɪər",
         "synonyms": [
             "need"
@@ -4697,7 +4547,7 @@ const data = [
         "v4": "requiring",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4719,7 +4569,6 @@ const data = [
         "aspect": "action",
         "v2": "reserved",
         "v3": "reserved",
-        "opposite": "cancel",
         "transcription": "rɪˈzɜːrv",
         "synonyms": [
             "book"
@@ -4750,7 +4599,6 @@ const data = [
         "aspect": "action",
         "v2": "resigned",
         "v3": "resigned",
-        "opposite": "join",
         "transcription": "rɪˈzaɪn",
         "synonyms": [
             "quit",
@@ -4761,7 +4609,7 @@ const data = [
         "v4": "resigning",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -4782,7 +4630,6 @@ const data = [
         "aspect": "action",
         "v2": "retired",
         "v3": "retired",
-        "opposite": "work",
         "transcription": "rɪˈtaɪər",
         "synonyms": [
             "stop working"
@@ -4792,7 +4639,7 @@ const data = [
         "v4": "retiring",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -4813,14 +4660,13 @@ const data = [
         "aspect": "action",
         "v2": "scheduled",
         "v3": "scheduled",
-        "opposite": "cancel",
         "transcription": "ˈskɛdʒuːl",
         "group": "regular",
         "auxiliary": "have",
         "v4": "scheduling",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -4842,7 +4688,6 @@ const data = [
         "aspect": "action",
         "v2": "searched",
         "v3": "searched",
-        "opposite": "find",
         "transcription": "sɜːrtʃ",
         "synonyms": [
             "look for",
@@ -4875,7 +4720,6 @@ const data = [
         "aspect": "stative",
         "v2": "seemed",
         "v3": "seemed",
-        "opposite": "be",
         "transcription": "siːm",
         "synonyms": [
             "appear"
@@ -4885,7 +4729,7 @@ const data = [
         "v4": "seeming",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4906,7 +4750,6 @@ const data = [
         "aspect": "action",
         "v2": "served",
         "v3": "served",
-        "opposite": "wait",
         "transcription": "sɜːrv",
         "synonyms": [
             "give",
@@ -4917,7 +4760,7 @@ const data = [
         "v4": "serving",
         "lang": "en",
         "level": "elementary",
-        "theme": "restaurants_ordering",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -4938,13 +4781,12 @@ const data = [
         "aspect": "action",
         "v2": "set up",
         "v3": "set up",
-        "opposite": "close down",
         "transcription": "sɛt ʌp",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -4970,14 +4812,13 @@ const data = [
         "aspect": "action",
         "v2": "solved",
         "v3": "solved",
-        "opposite": "complicate",
         "transcription": "🇬🇧 sɒlv | 🇺🇸 sɑːlv",
         "group": "regular",
         "auxiliary": "have",
         "v4": "solving",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -5001,14 +4842,13 @@ const data = [
         "aspect": "action",
         "v2": "sorted out",
         "v3": "sorted out",
-        "opposite": "mess up",
         "transcription": "sɔːrt aʊt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "sort outing",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -5029,7 +4869,6 @@ const data = [
         "aspect": "action",
         "v2": "succeeded",
         "v3": "succeeded",
-        "opposite": "fail",
         "transcription": "səkˈsiːd",
         "synonyms": [
             "win",
@@ -5040,7 +4879,7 @@ const data = [
         "v4": "succeeding",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -5061,7 +4900,6 @@ const data = [
         "aspect": "action",
         "v2": "suffered",
         "v3": "suffered",
-        "opposite": "enjoy",
         "transcription": "ˈsʌfər",
         "synonyms": [
             "be in pain"
@@ -5071,7 +4909,7 @@ const data = [
         "v4": "suffering",
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -5092,7 +4930,6 @@ const data = [
         "aspect": "action",
         "v2": "suggested",
         "v3": "suggested",
-        "opposite": "demand",
         "transcription": "səˈdʒɛst",
         "synonyms": [
             "recommend",
@@ -5103,7 +4940,7 @@ const data = [
         "v4": "suggesting",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -5124,7 +4961,6 @@ const data = [
         "aspect": "action",
         "v2": "supported",
         "v3": "supported",
-        "opposite": "oppose",
         "transcription": "səˈpɔːrt",
         "synonyms": [
             "help",
@@ -5156,7 +4992,6 @@ const data = [
         "aspect": "action",
         "v2": "swallowed",
         "v3": "swallowed",
-        "opposite": "spit out",
         "transcription": "🇬🇧 ˈswɒloʊ | 🇺🇸 ˈswɑːloʊ",
         "synonyms": [
             "eat"
@@ -5166,7 +5001,7 @@ const data = [
         "v4": "swallowing",
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -5187,13 +5022,12 @@ const data = [
         "aspect": "action",
         "v2": "took on",
         "v3": "taken on",
-        "opposite": "refuse",
         "transcription": "🇬🇧 teɪk ɒn | 🇺🇸 teɪk ɑːn",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -5214,7 +5048,6 @@ const data = [
         "aspect": "action",
         "v2": "transferred",
         "v3": "transferred",
-        "opposite": "keep",
         "transcription": "trænsˈfɜːr",
         "synonyms": [
             "move",
@@ -5225,7 +5058,7 @@ const data = [
         "v4": "transfering",
         "lang": "en",
         "level": "elementary",
-        "theme": "banking",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -5246,7 +5079,6 @@ const data = [
         "aspect": "action",
         "v2": "treated",
         "v3": "treated",
-        "opposite": "neglect",
         "transcription": "triːt",
         "synonyms": [
             "handle"
@@ -5256,7 +5088,7 @@ const data = [
         "v4": "treating",
         "lang": "en",
         "level": "elementary",
-        "theme": "diet_healthy_eating",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -5277,7 +5109,6 @@ const data = [
         "aspect": "stative",
         "v2": "trusted",
         "v3": "trusted",
-        "opposite": "doubt",
         "transcription": "trʌst",
         "synonyms": [
             "believe"
@@ -5308,14 +5139,13 @@ const data = [
         "aspect": "action",
         "v2": "turned down",
         "v3": "turned down",
-        "opposite": "accept",
         "transcription": "tɜːrn daʊn",
         "group": "regular",
         "auxiliary": "have",
         "v4": "turn downing",
         "lang": "en",
         "level": "elementary",
-        "theme": "job_apps_interviews",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -5336,14 +5166,13 @@ const data = [
         "aspect": "action",
         "v2": "voted",
         "v3": "voted",
-        "opposite": "abstain",
         "transcription": "voʊt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "voting",
         "lang": "en",
         "level": "elementary",
-        "theme": "society_politics",
+        "theme": "social",
         "sub_theme": null
     },
     {
@@ -5364,7 +5193,6 @@ const data = [
         "aspect": "action",
         "v2": "withdrew",
         "v3": "withdrawn",
-        "opposite": "deposit",
         "transcription": "wɪðˈdrɔː",
         "synonyms": [
             "take out",
@@ -5374,7 +5202,7 @@ const data = [
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "banking",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -5399,14 +5227,13 @@ const data = [
         "aspect": "stative",
         "v2": "wondered",
         "v3": "wondered",
-        "opposite": "know",
         "transcription": "ˈwʌndər",
         "group": "regular",
         "auxiliary": "have",
         "v4": "wondering",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -5431,14 +5258,13 @@ const data = [
         "aspect": "action",
         "v2": "insisted",
         "v3": "insisted",
-        "opposite": "give in",
         "transcription": "ɪnˈsɪst",
         "group": "regular",
         "auxiliary": "have",
         "v4": "insisting",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -5463,7 +5289,6 @@ const data = [
         "aspect": "action",
         "v2": "interrupted",
         "v3": "interrupted",
-        "opposite": "continue",
         "transcription": "ˌɪntəˈrʌpt",
         "group": "regular",
         "auxiliary": "have",
@@ -5495,14 +5320,13 @@ const data = [
         "aspect": "stative",
         "v2": "involved",
         "v3": "involved",
-        "opposite": "exclude",
         "transcription": "🇬🇧 ɪnˈvɒlv | 🇺🇸 ɪnˈvɑːlv",
         "group": "regular",
         "auxiliary": "have",
         "v4": "involving",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -5528,14 +5352,13 @@ const data = [
         "aspect": "action",
         "v2": "obtained",
         "v3": "obtained",
-        "opposite": "lose",
         "transcription": "əbˈteɪn",
         "group": "regular",
         "auxiliary": "have",
         "v4": "obtaining",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -5560,14 +5383,13 @@ const data = [
         "aspect": "action",
         "v2": "occurred",
         "v3": "occurred",
-        "opposite": "stop",
         "transcription": "əˈkɜːr",
         "group": "regular",
         "auxiliary": "have",
         "v4": "occuring",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -5593,14 +5415,13 @@ const data = [
         "aspect": "action",
         "v2": "operated",
         "v3": "operated",
-        "opposite": "break down",
         "transcription": "🇬🇧 ˈɒpəreɪt | 🇺🇸 ˈɑːpəreɪt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "operating",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -5625,14 +5446,13 @@ const data = [
         "aspect": "action",
         "v2": "persuaded",
         "v3": "persuaded",
-        "opposite": "dissuade",
         "transcription": "pərˈsweɪd",
         "group": "regular",
         "auxiliary": "have",
         "v4": "persuading",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -5658,14 +5478,13 @@ const data = [
         "aspect": "action",
         "v2": "published",
         "v3": "published",
-        "opposite": "hide",
         "transcription": "ˈpʌblɪʃ",
         "group": "regular",
         "auxiliary": "have",
         "v4": "publishing",
         "lang": "en",
         "level": "elementary",
-        "theme": "news_media",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -5691,7 +5510,6 @@ const data = [
         "aspect": "stative",
         "v2": "recognized",
         "v3": "recognized",
-        "opposite": "forget",
         "transcription": "ˈrɛkəɡnaɪz",
         "group": "regular",
         "auxiliary": "have",
@@ -5723,14 +5541,13 @@ const data = [
         "aspect": "action",
         "v2": "reflected",
         "v3": "reflected",
-        "opposite": "absorb",
         "transcription": "rɪˈflɛkt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "reflecting",
         "lang": "en",
         "level": "elementary",
-        "theme": "art_design",
+        "theme": "art_culture",
         "sub_theme": null
     },
     {
@@ -5756,14 +5573,13 @@ const data = [
         "aspect": "action",
         "v2": "released",
         "v3": "released",
-        "opposite": "capture",
         "transcription": "rɪˈliːs",
         "group": "regular",
         "auxiliary": "have",
         "v4": "releasing",
         "lang": "en",
         "level": "elementary",
-        "theme": "news_media",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -5788,14 +5604,13 @@ const data = [
         "aspect": "stative",
         "v2": "relied",
         "v3": "relied",
-        "opposite": "distrust",
         "transcription": "rɪˈlaɪ",
         "group": "regular",
         "auxiliary": "have",
         "v4": "relying",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -5820,14 +5635,13 @@ const data = [
         "aspect": "action",
         "v2": "reminded",
         "v3": "reminded",
-        "opposite": "forget",
         "transcription": "rɪˈmaɪnd",
         "group": "regular",
         "auxiliary": "have",
         "v4": "reminding",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -5853,14 +5667,13 @@ const data = [
         "aspect": "action",
         "v2": "removed",
         "v3": "removed",
-        "opposite": "add",
         "transcription": "rɪˈmuːv",
         "group": "regular",
         "auxiliary": "have",
         "v4": "removing",
         "lang": "en",
         "level": "elementary",
-        "theme": "home_repairs_maintenance",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -5885,14 +5698,13 @@ const data = [
         "aspect": "action",
         "v2": "represented",
         "v3": "represented",
-        "opposite": "oppose",
         "transcription": "ˌrɛprɪˈzɛnt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "representing",
         "lang": "en",
         "level": "elementary",
-        "theme": "society_politics",
+        "theme": "social",
         "sub_theme": null
     },
     {
@@ -5917,7 +5729,6 @@ const data = [
         "aspect": "action",
         "v2": "requested",
         "v3": "requested",
-        "opposite": "command",
         "transcription": "rɪˈkwɛst",
         "group": "regular",
         "auxiliary": "have",
@@ -5949,14 +5760,13 @@ const data = [
         "aspect": "action",
         "v2": "rescued",
         "v3": "rescued",
-        "opposite": "abandon",
         "transcription": "ˈrɛskjuː",
         "group": "regular",
         "auxiliary": "have",
         "v4": "rescuing",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -5982,14 +5792,13 @@ const data = [
         "aspect": "action",
         "v2": "resolved",
         "v3": "resolved",
-        "opposite": "complicate",
         "transcription": "🇬🇧 rɪˈzɒlv | 🇺🇸 rɪˈzɑːlv",
         "group": "regular",
         "auxiliary": "have",
         "v4": "resolving",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -6015,7 +5824,6 @@ const data = [
         "aspect": "action",
         "v2": "responded",
         "v3": "responded",
-        "opposite": "ignore",
         "transcription": "🇬🇧 rɪˈspɒnd | 🇺🇸 rɪˈspɑːnd",
         "group": "regular",
         "auxiliary": "have",
@@ -6032,7 +5840,6 @@ const data = [
         "form": "verb",
         "v2": "rehearsed",
         "v3": "rehearsed",
-        "opposite": "perform",
         "definitions": [
             {
                 "text": "To practice a play, piece of music, etc. in order to prepare it for performance.",
@@ -6053,7 +5860,7 @@ const data = [
         "v4": "rehearsing",
         "lang": "en",
         "level": "elementary",
-        "theme": "theatre_performance",
+        "theme": "art_culture",
         "sub_theme": null
     },
     {
@@ -6063,7 +5870,6 @@ const data = [
         "form": "verb",
         "v2": "applauded",
         "v3": "applauded",
-        "opposite": null,
         "definitions": [
             {
                 "text": "To show approval of something by clapping your hands.",
@@ -6085,7 +5891,7 @@ const data = [
         "v4": "applauding",
         "lang": "en",
         "level": "elementary",
-        "theme": "theatre_performance",
+        "theme": "art_culture",
         "sub_theme": null
     },
     {
@@ -6095,7 +5901,6 @@ const data = [
         "form": "verb",
         "v2": "checked in",
         "v3": "checked in",
-        "opposite": "check out",
         "definitions": [
             {
                 "text": "To report your arrival at an airport or hotel.",
@@ -6126,7 +5931,6 @@ const data = [
         "form": "verb",
         "v2": "overtook",
         "v3": "overtaken",
-        "opposite": null,
         "definitions": [
             {
                 "text": "To come from behind another vehicle and go past it.",
@@ -6146,7 +5950,7 @@ const data = [
         "auxiliary": "have",
         "lang": "en",
         "level": "elementary",
-        "theme": "driving_roads",
+        "theme": "travel",
         "sub_theme": null
     },
     {
@@ -6156,7 +5960,6 @@ const data = [
         "form": "verb",
         "v2": "broke up",
         "v3": "broken up",
-        "opposite": "get together",
         "definitions": [
             {
                 "text": "To end a romantic relationship.",
@@ -6187,7 +5990,6 @@ const data = [
         "form": "verb",
         "v2": "checked out",
         "v3": "checked out",
-        "opposite": "check in",
         "definitions": [
             {
                 "text": "To leave a hotel after paying the bill.",

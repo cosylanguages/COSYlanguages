@@ -5,7 +5,7 @@
         "word": "bello",
         "feminine": "bella",
         "level": "elementary",
-        "theme": "physical_appearance_A1",
+        "theme": "describing",
         "emoji": "✨",
         "form": "adjective",
         "plural": "belli",
@@ -19,16 +19,21 @@
             }
         ],
         "subtext": "molto bello",
-        "synonyms": ["una bella giornata", "bella vista"],
+        "synonyms": [
+            "una bella giornata",
+            "bella vista"
+        ],
         "comparative": "più bello",
         "superlative": "il più bello",
-        "opposite": "brutto"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_009"
     },
     {
         "word": "forte",
         "feminine": "forte",
         "level": "elementary",
-        "theme": "physical_appearance_A1",
+        "theme": "describing",
         "emoji": "💪",
         "form": "adjective",
         "plural": "forti",
@@ -42,16 +47,20 @@
             }
         ],
         "subtext": "molto forte / abbastanza forte",
-        "synonyms": ["muscoli forti"],
+        "synonyms": [
+            "muscoli forti"
+        ],
         "comparative": "più forte",
         "superlative": "il più forte",
-        "opposite": "debole"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_010"
     },
     {
         "word": "biondo",
         "feminine": "bionda",
         "level": "elementary",
-        "theme": "physical_appearance_A1",
+        "theme": "describing",
         "emoji": "👱",
         "form": "adjective",
         "plural": "biondi",
@@ -65,16 +74,20 @@
             }
         ],
         "subtext": "biondo naturale / biondo chiaro",
-        "synonyms": ["capelli biondi"],
+        "synonyms": [
+            "capelli biondi"
+        ],
         "comparative": "più biondo",
         "superlative": "il più biondo",
-        "opposite": "moro"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_011"
     },
     {
         "word": "nevoso",
         "feminine": "nevosa",
         "level": "elementary",
-        "theme": "weather_climate_A2",
+        "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
         "plural": "nevosi",
@@ -88,16 +101,20 @@
             }
         ],
         "subtext": "tempo nevoso / freddo e nevoso",
-        "synonyms": ["giornata nevosa"],
+        "synonyms": [
+            "giornata nevosa"
+        ],
         "comparative": "più nevoso",
         "superlative": "il più nevoso",
-        "opposite": "sereno"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_nature_005"
     },
     {
         "word": "ventoso",
         "feminine": "ventosa",
         "level": "elementary",
-        "theme": "weather_climate_A2",
+        "theme": "nature",
         "emoji": "💨",
         "form": "adjective",
         "plural": "ventosi",
@@ -111,16 +128,20 @@
             }
         ],
         "subtext": "molto ventoso / freddo e ventoso",
-        "synonyms": ["giornata ventosa"],
+        "synonyms": [
+            "giornata ventosa"
+        ],
         "comparative": "più ventoso",
         "superlative": "il più ventoso",
-        "opposite": "calmo"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_nature_006"
     },
     {
         "word": "nuvoloso",
         "feminine": "nuvolosa",
         "level": "elementary",
-        "theme": "weather_climate_A2",
+        "theme": "nature",
         "emoji": "☁️",
         "form": "adjective",
         "plural": "nuvolosi",
@@ -136,13 +157,15 @@
         "subtext": "cielo nuvoloso / molto nuvoloso / parzialmente nuvoloso",
         "comparative": "più nuvoloso",
         "superlative": "il più nuvoloso",
-        "opposite": "sereno"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_nature_007"
     },
     {
         "word": "atletico",
         "feminine": "atletica",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "🏃",
         "form": "adjective",
         "plural": "atletici",
@@ -156,16 +179,20 @@
             }
         ],
         "subtext": "fisico atletico / molto atletico",
-        "synonyms": ["prestazione atletica"],
+        "synonyms": [
+            "prestazione atletica"
+        ],
         "comparative": "più atletico",
         "superlative": "il più atletico",
-        "opposite": "pigro"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_028"
     },
     {
         "word": "in forma",
         "feminine": "in forma",
         "level": "elementary",
-        "theme": "exercise_fitness_A2",
+        "theme": "sports",
         "emoji": "💪",
         "form": "adjective",
         "plural": "in forma",
@@ -181,13 +208,15 @@
         "subtext": "fisicamente in forma / molto in forma / restare in forma",
         "comparative": "più in forma",
         "superlative": "il più in forma",
-        "opposite": "fuori forma"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_sports_001"
     },
     {
         "word": "sovrappeso",
         "feminine": "sovrappeso",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "⚖️",
         "form": "adjective",
         "plural": "sovrappeso",
@@ -203,13 +232,15 @@
         "subtext": "leggermente in sovrappeso / diventare in sovrappeso / clinicamente in sovrappeso",
         "comparative": "più in sovrappeso",
         "superlative": "il più in sovrappeso",
-        "opposite": "sottopeso"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_food_drink_035"
     },
     {
         "word": "comodo",
         "feminine": "comoda",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "👌",
         "form": "adjective",
         "plural": "comodi",
@@ -223,16 +254,20 @@
             }
         ],
         "subtext": "molto comodo / un orario comodo",
-        "synonyms": ["situato comodamente"],
+        "synonyms": [
+            "situato comodamente"
+        ],
         "comparative": "più comodo",
         "superlative": "il più comodo",
-        "opposite": "scomodo"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_012"
     },
     {
         "word": "stressante",
         "feminine": "stressante",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "😫",
         "form": "adjective",
         "plural": "stressanti",
@@ -248,13 +283,15 @@
         "subtext": "un lavoro stressante / molto stressante / situazione stressante",
         "comparative": "più stressante",
         "superlative": "il più stressante",
-        "opposite": "rilassante"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_013"
     },
     {
         "word": "confortevole",
         "feminine": "confortevole",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "🛋️",
         "form": "adjective",
         "plural": "confortevoli",
@@ -270,13 +307,15 @@
         "subtext": "molto confortevole / a proprio agio con / sentirsi confortevole",
         "comparative": "più confortevole",
         "superlative": "il più confortevole",
-        "opposite": "scomodo"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_014"
     },
     {
         "word": "pratico",
         "feminine": "pratica",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "🛠️",
         "form": "adjective",
         "plural": "pratici",
@@ -290,16 +329,20 @@
             }
         ],
         "subtext": "molto pratico / altamente pratico",
-        "synonyms": ["una soluzione pratica"],
+        "synonyms": [
+            "una soluzione pratica"
+        ],
         "comparative": "più pratico",
         "superlative": "il più pratico",
-        "opposite": "impratico"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_015"
     },
     {
         "word": "popolare",
         "feminine": "popolare",
         "level": "elementary",
-        "theme": "quantity_degree_A2",
+        "theme": "describing",
         "emoji": "🌟",
         "form": "adjective",
         "plural": "popolari",
@@ -315,13 +358,15 @@
         "subtext": "molto popolare / scelta popolare / una persona popolare",
         "comparative": "più popolare",
         "superlative": "il più popolare",
-        "opposite": "impopolare"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_016"
     },
     {
         "word": "occupato",
         "feminine": "occupata",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏃",
         "form": "adjective",
         "plural": "occupati",
@@ -335,16 +380,20 @@
             }
         ],
         "subtext": "molto occupato / troppo occupato per parlare",
-        "synonyms": ["una giornata impegnativa"],
+        "synonyms": [
+            "una giornata impegnativa"
+        ],
         "comparative": "più occupato",
         "superlative": "il più occupato",
-        "opposite": "libero"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_010"
     },
     {
         "word": "flessibile",
         "feminine": "flessibile",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🧘",
         "form": "adjective",
         "plural": "flessibili",
@@ -358,16 +407,20 @@
             }
         ],
         "subtext": "approccio flessibile / molto flessibile",
-        "synonyms": ["orari flessibili"],
+        "synonyms": [
+            "orari flessibili"
+        ],
         "comparative": "più flessibile",
         "superlative": "il più flessibile",
-        "opposite": "rigido"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_011"
     },
     {
         "word": "organizzato",
         "feminine": "organizzata",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "📁",
         "form": "adjective",
         "plural": "organizzati",
@@ -383,13 +436,15 @@
         "subtext": "ben organizzato / molto organizzato / restare organizzato",
         "comparative": "più organizzato",
         "superlative": "il più organizzato",
-        "opposite": "disorganizzato"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_012"
     },
     {
         "word": "professionale",
         "feminine": "professionale",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "👔",
         "form": "adjective",
         "plural": "professionali",
@@ -405,13 +460,15 @@
         "subtext": "consulenza professionale / molto professionale / altamente professionale",
         "comparative": "più professionale",
         "superlative": "il più professionale",
-        "opposite": "dilettantesco"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_013"
     },
     {
         "word": "responsabile",
         "feminine": "responsabile",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🛡️",
         "form": "adjective",
         "plural": "responsabili",
@@ -427,13 +484,15 @@
         "subtext": "responsabile di / molto responsabile / altamente responsabile",
         "comparative": "più responsabile",
         "superlative": "il più responsabile",
-        "opposite": "irresponsabile"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_014"
     },
     {
         "word": "esperto",
         "feminine": "esperta",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🎓",
         "form": "adjective",
         "plural": "esperti",
@@ -449,13 +508,15 @@
         "subtext": "molto esperto / esperto in / abbastanza esperto",
         "comparative": "più esperto",
         "superlative": "il più esperto",
-        "opposite": "inesperto"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_015"
     },
     {
         "word": "qualificato",
         "feminine": "qualificata",
         "level": "elementary",
-        "theme": "qualifications_exams_A2",
+        "theme": "school",
         "emoji": "✅",
         "form": "adjective",
         "plural": "qualificati",
@@ -471,13 +532,15 @@
         "subtext": "pienamente qualificato / ben qualificato / altamente qualificato",
         "comparative": "più qualificato",
         "superlative": "il più qualificato",
-        "opposite": "non qualificato"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_school_001"
     },
     {
         "word": "disponibile",
         "feminine": "disponibile",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🙋",
         "form": "adjective",
         "plural": "disponibili",
@@ -493,13 +556,15 @@
         "subtext": "ampiamente disponibile / liberamente disponibile / disponibile per",
         "comparative": "più disponibile",
         "superlative": "il più disponibile",
-        "opposite": "indisponibile"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_016"
     },
     {
         "word": "di successo",
         "feminine": "di successo",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🏆",
         "form": "adjective",
         "plural": "di successo",
@@ -513,16 +578,21 @@
             }
         ],
         "subtext": "una carriera di successo",
-        "synonyms": ["di grande successo", "molto vincente"],
+        "synonyms": [
+            "di grande successo",
+            "molto vincente"
+        ],
         "comparative": "di maggior successo",
         "superlative": "di massimo successo",
-        "opposite": "fallimentare"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_017"
     },
     {
         "word": "ambizioso",
         "feminine": "ambiziosa",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🚀",
         "form": "adjective",
         "plural": "ambiziosi",
@@ -538,13 +608,15 @@
         "subtext": "molto ambizioso / estremamente ambizioso / un piano ambizioso",
         "comparative": "più ambizioso",
         "superlative": "il più ambizioso",
-        "opposite": "senza ambizioni"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_018"
     },
     {
         "word": "creativo",
         "feminine": "creativa",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "🎨",
         "form": "adjective",
         "plural": "creativi",
@@ -558,16 +630,20 @@
             }
         ],
         "subtext": "molto creativo / pensiero creativo",
-        "synonyms": ["soluzione creativa"],
+        "synonyms": [
+            "soluzione creativa"
+        ],
         "comparative": "più creativo",
         "superlative": "il più creativo",
-        "opposite": "poco creativo"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_029"
     },
     {
         "word": "produttivo",
         "feminine": "produttiva",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "⚙️",
         "form": "adjective",
         "plural": "produttivi",
@@ -581,16 +657,20 @@
             }
         ],
         "subtext": "molto produttivo / altamente produttivo",
-        "synonyms": ["una riunione produttiva"],
+        "synonyms": [
+            "una riunione produttiva"
+        ],
         "comparative": "più produttivo",
         "superlative": "il più produttivo",
-        "opposite": "improduttivo"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_019"
     },
     {
         "word": "affidabile",
         "feminine": "affidabile",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "🤝",
         "form": "adjective",
         "plural": "affidabili",
@@ -606,13 +686,15 @@
         "subtext": "molto affidabile / altamente affidabile / una fonte affidabile",
         "comparative": "più affidabile",
         "superlative": "il più affidabile",
-        "opposite": "inaffidabile"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_030"
     },
     {
         "word": "indipendente",
         "feminine": "indipendente",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "🦅",
         "form": "adjective",
         "plural": "indipendenti",
@@ -628,13 +710,15 @@
         "subtext": "finanziariamente indipendente / molto indipendente / un rapporto indipendente",
         "comparative": "più indipendente",
         "superlative": "il più indipendente",
-        "opposite": "dipendente"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_031"
     },
     {
         "word": "economico",
         "feminine": "economica",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "🏷️",
         "form": "adjective",
         "plural": "economici",
@@ -648,16 +732,20 @@
             }
         ],
         "subtext": "molto economico / semplice ed economico",
-        "synonyms": ["opzione economica"],
+        "synonyms": [
+            "opzione economica"
+        ],
         "comparative": "più economico",
         "superlative": "il più economico",
-        "opposite": "costoso"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_007"
     },
     {
         "word": "costoso",
         "feminine": "costosa",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💎",
         "form": "adjective",
         "plural": "costosi",
@@ -671,16 +759,20 @@
             }
         ],
         "subtext": "molto costoso / troppo costoso",
-        "synonyms": ["gusti costosi"],
+        "synonyms": [
+            "gusti costosi"
+        ],
         "comparative": "più costoso",
         "superlative": "il più costoso",
-        "opposite": "economico"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_008"
     },
     {
         "word": "accessibile",
         "feminine": "accessibile",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💵",
         "form": "adjective",
         "plural": "accessibili",
@@ -696,13 +788,15 @@
         "subtext": "prezzo accessibile / più accessibile / opzione accessibile",
         "comparative": "più accessibile",
         "superlative": "il più accessibile",
-        "opposite": "inaccessibile"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_009"
     },
     {
         "word": "valere la pena",
         "feminine": "valere la pena",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "💰",
         "form": "adjective",
         "plural": "valere la pena",
@@ -716,16 +810,20 @@
             }
         ],
         "subtext": "vale la pena farlo / vale la pena considerare",
-        "synonyms": ["vale i soldi"],
+        "synonyms": [
+            "vale i soldi"
+        ],
         "comparative": "più valere la pena",
         "superlative": "il più valere la pena",
-        "opposite": "senza valore"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_010"
     },
     {
         "word": "gratuito",
         "feminine": "gratuita",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "🎁",
         "form": "adjective",
         "plural": "gratuiti",
@@ -739,16 +837,20 @@
             }
         ],
         "subtext": "gratuito / completamente gratuito",
-        "synonyms": ["prova gratuita"],
+        "synonyms": [
+            "prova gratuita"
+        ],
         "comparative": "più gratuito",
         "superlative": "il più gratuito",
-        "opposite": "a pagamento"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_011"
     },
     {
         "word": "al verde",
         "feminine": "al verde",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "📉",
         "form": "adjective",
         "plural": "al verde",
@@ -764,13 +866,15 @@
         "subtext": "completamente al verde / restare al verde / essere al verde",
         "comparative": "più al verde",
         "superlative": "il più al verde",
-        "opposite": "ricco"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_012"
     },
     {
         "word": "ricco",
         "feminine": "ricca",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "🏦",
         "form": "adjective",
         "plural": "ricchi",
@@ -786,13 +890,15 @@
         "subtext": "molto ricco / abbastanza ricco / immensamente ricco",
         "comparative": "più ricco",
         "superlative": "il più ricco",
-        "opposite": "povero"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_013"
     },
     {
         "word": "povero",
         "feminine": "povera",
         "level": "elementary",
-        "theme": "finances_A2",
+        "theme": "numbers",
         "emoji": "🏚️",
         "form": "adjective",
         "plural": "poveri",
@@ -806,16 +912,20 @@
             }
         ],
         "subtext": "molto povero / estremamente povero",
-        "synonyms": ["di scarsa qualità"],
+        "synonyms": [
+            "di scarsa qualità"
+        ],
         "comparative": "più povero",
         "superlative": "il più povero",
-        "opposite": "ricco"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_numbers_014"
     },
     {
         "word": "sano",
         "feminine": "sana",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🍎",
         "form": "adjective",
         "plural": "sani",
@@ -829,16 +939,20 @@
             }
         ],
         "subtext": "molto sano / restare sano",
-        "synonyms": ["dieta sana"],
+        "synonyms": [
+            "dieta sana"
+        ],
         "comparative": "più sano",
         "superlative": "il più sano",
-        "opposite": "malsano"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_food_drink_036"
     },
     {
         "word": "malsano",
         "feminine": "malsana",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🍔",
         "form": "adjective",
         "plural": "malsani",
@@ -852,16 +966,20 @@
             }
         ],
         "subtext": "molto malsano / profondamente malsano",
-        "synonyms": ["abitudini malsane"],
+        "synonyms": [
+            "abitudini malsane"
+        ],
         "comparative": "più malsano",
         "superlative": "il più malsano",
-        "opposite": "sano"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_food_drink_037"
     },
     {
         "word": "malato",
         "feminine": "malata",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🤒",
         "form": "adjective",
         "plural": "malati",
@@ -875,16 +993,20 @@
             }
         ],
         "subtext": "seriamente malato / sentirsi malato",
-        "synonyms": ["ammalarsi"],
+        "synonyms": [
+            "ammalarsi"
+        ],
         "comparative": "più malato",
         "superlative": "il più malato",
-        "opposite": "sano"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_food_drink_038"
     },
     {
         "word": "malato",
         "feminine": "malata",
         "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
+        "theme": "food_drink",
         "emoji": "🤢",
         "form": "adjective",
         "plural": "malati",
@@ -900,13 +1022,15 @@
         "subtext": "sentirsi malato / darsi malato / molto malato",
         "comparative": "più malato",
         "superlative": "il più malato",
-        "opposite": "sano"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_food_drink_039"
     },
     {
         "word": "stanco",
         "feminine": "stanca",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "😴",
         "form": "adjective",
         "plural": "stanchi",
@@ -922,13 +1046,15 @@
         "subtext": "sentirsi stanco / esausto e stanco / troppo stanco",
         "comparative": "più stanco",
         "superlative": "il più stanco",
-        "opposite": "riposato"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_017"
     },
     {
         "word": "stressato",
         "feminine": "stressata",
         "level": "elementary",
-        "theme": "social_emotions_A2",
+        "theme": "describing",
         "emoji": "😫",
         "form": "adjective",
         "plural": "stressati",
@@ -944,13 +1070,15 @@
         "subtext": "sentirsi stressato / molto stressato / completamente stressato",
         "comparative": "più stressato",
         "superlative": "il più stressato",
-        "opposite": "rilassato"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_018"
     },
     {
         "word": "amichevole",
         "feminine": "amichevole",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "👋",
         "form": "adjective",
         "plural": "amichevoli",
@@ -966,13 +1094,15 @@
         "subtext": "molto amichevole / un'atmosfera amichevole / abbastanza amichevole",
         "comparative": "più amichevole",
         "superlative": "il più amichevole",
-        "opposite": "poco amichevole"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_032"
     },
     {
         "word": "gentile",
         "feminine": "gentile",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "❤️",
         "form": "adjective",
         "plural": "gentili",
@@ -988,13 +1118,15 @@
         "subtext": "molto gentile / gentile da parte tua / un gesto gentile",
         "comparative": "più gentile",
         "superlative": "il più gentile",
-        "opposite": "cattivo"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_033"
     },
     {
         "word": "onesto",
         "feminine": "onesta",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "⚖️",
         "form": "adjective",
         "plural": "onesti",
@@ -1010,13 +1142,15 @@
         "subtext": "brutalmente onesto / molto onesto / del tutto onesto",
         "comparative": "più onesto",
         "superlative": "il più onesto",
-        "opposite": "disonesto"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_034"
     },
     {
         "word": "paziente",
         "feminine": "paziente",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "⏳",
         "form": "adjective",
         "plural": "pazienti",
@@ -1032,13 +1166,15 @@
         "subtext": "molto paziente / paziente con / incredibilmente paziente",
         "comparative": "più paziente",
         "superlative": "il più paziente",
-        "opposite": "impaziente"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_035"
     },
     {
         "word": "educato",
         "feminine": "educata",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "🙇",
         "form": "adjective",
         "plural": "educati",
@@ -1052,16 +1188,20 @@
             }
         ],
         "subtext": "molto educato / essere educato",
-        "synonyms": ["rifiutare educatamente"],
+        "synonyms": [
+            "rifiutare educatamente"
+        ],
         "comparative": "più educato",
         "superlative": "il più educato",
-        "opposite": "maleducato"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_036"
     },
     {
         "word": "solidale",
         "feminine": "solidale",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "🤝",
         "form": "adjective",
         "plural": "solidali",
@@ -1077,13 +1217,15 @@
         "subtext": "molto solidale / team solidale / essere di grande sostegno",
         "comparative": "più solidale",
         "superlative": "il più solidale",
-        "opposite": "poco solidale"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_037"
     },
     {
         "word": "sicuro di sé",
         "feminine": "sicura di sé",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "✨",
         "form": "adjective",
         "plural": "sicuri di sé",
@@ -1097,16 +1239,21 @@
             }
         ],
         "subtext": "sicuro di sé",
-        "synonyms": ["molto sicuro", "sentirsi sicuro"],
+        "synonyms": [
+            "molto sicuro",
+            "sentirsi sicuro"
+        ],
         "comparative": "più sicuro di sé",
         "superlative": "il più sicuro di sé",
-        "opposite": "insicuro"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_038"
     },
     {
         "word": "socievole",
         "feminine": "socievole",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "🗣️",
         "form": "adjective",
         "plural": "socievoli",
@@ -1122,13 +1269,15 @@
         "subtext": "molto socievole / naturalmente socievole / una persona socievole",
         "comparative": "più socievole",
         "superlative": "il più socievole",
-        "opposite": "asociale"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_039"
     },
     {
         "word": "moderno",
         "feminine": "moderna",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "🏙️",
         "form": "adjective",
         "plural": "moderni",
@@ -1144,13 +1293,15 @@
         "subtext": "molto moderno / design moderno / ultra-moderno",
         "comparative": "più moderno",
         "superlative": "il più moderno",
-        "opposite": "antico"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_019"
     },
     {
         "word": "tradizionale",
         "feminine": "tradizionale",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "🏛️",
         "form": "adjective",
         "plural": "tradizionali",
@@ -1166,13 +1317,15 @@
         "subtext": "molto tradizionale / approccio tradizionale / profondamente tradizionale",
         "comparative": "più tradizionale",
         "superlative": "il più tradizionale",
-        "opposite": "moderno"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_020"
     },
     {
         "word": "locale",
         "feminine": "locale",
         "level": "elementary",
-        "theme": "neighbourhood_local_A2",
+        "theme": "furniture",
         "emoji": "📍",
         "form": "adjective",
         "plural": "locali",
@@ -1188,13 +1341,15 @@
         "subtext": "zona locale / azienda locale / un problema locale",
         "comparative": "più locale",
         "superlative": "il più locale",
-        "opposite": "internazionale"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_places_027"
     },
     {
         "word": "internazionale",
         "feminine": "internazionale",
         "level": "elementary",
-        "theme": "career_development_A2",
+        "theme": "jobs",
         "emoji": "🌎",
         "form": "adjective",
         "plural": "internazionali",
@@ -1208,16 +1363,20 @@
             }
         ],
         "subtext": "pienamente internazionale / team internazionale",
-        "synonyms": ["affari internazionali"],
+        "synonyms": [
+            "affari internazionali"
+        ],
         "comparative": "più internazionale",
         "superlative": "il più internazionale",
-        "opposite": "locale"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_work_020"
     },
     {
         "word": "interessante",
         "feminine": "interessante",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "💡",
         "form": "adjective",
         "plural": "interessanti",
@@ -1233,13 +1392,15 @@
         "subtext": "molto interessante / trovare interessante / un punto interessante",
         "comparative": "più interessante",
         "superlative": "il più interessante",
-        "opposite": "noioso"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_021"
     },
     {
         "word": "noioso",
         "feminine": "noiosa",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "💤",
         "form": "adjective",
         "plural": "noiosi",
@@ -1253,16 +1414,20 @@
             }
         ],
         "subtext": "molto noioso / trovare noioso",
-        "synonyms": ["una riunione noiosa"],
+        "synonyms": [
+            "una riunione noiosa"
+        ],
         "comparative": "più noioso",
         "superlative": "il più noioso",
-        "opposite": "interessante"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_022"
     },
     {
         "word": "strano",
         "feminine": "strana",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "❓",
         "form": "adjective",
         "plural": "strani",
@@ -1276,16 +1441,20 @@
             }
         ],
         "subtext": "molto strano / trovare strano",
-        "synonyms": ["una strana sensazione"],
+        "synonyms": [
+            "una strana sensazione"
+        ],
         "comparative": "più strano",
         "superlative": "il più strano",
-        "opposite": "normale"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_023"
     },
     {
         "word": "normale",
         "feminine": "normale",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
         "plural": "normali",
@@ -1301,13 +1470,15 @@
         "subtext": "completamente normale / perfettamente normale / sentirsi normale",
         "comparative": "più normale",
         "superlative": "il più normale",
-        "opposite": "strano"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_024"
     },
     {
         "word": "tipico",
         "feminine": "tipica",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "🔄",
         "form": "adjective",
         "plural": "tipici",
@@ -1321,16 +1492,20 @@
             }
         ],
         "subtext": "molto tipico / tipico di",
-        "synonyms": ["una giornata tipica"],
+        "synonyms": [
+            "una giornata tipica"
+        ],
         "comparative": "più tipico",
         "superlative": "il più tipico",
-        "opposite": "atipico"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_025"
     },
     {
         "word": "comune",
         "feminine": "comune",
         "level": "elementary",
-        "theme": "quantity_degree_A2",
+        "theme": "describing",
         "emoji": "📍",
         "form": "adjective",
         "plural": "comuni",
@@ -1344,16 +1519,20 @@
             }
         ],
         "subtext": "molto comune / problema comune",
-        "synonyms": ["buon senso"],
+        "synonyms": [
+            "buon senso"
+        ],
         "comparative": "più comune",
         "superlative": "il più comune",
-        "opposite": "raro"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_026"
     },
     {
         "word": "raro",
         "feminine": "rara",
         "level": "elementary",
-        "theme": "quantity_degree_A2",
+        "theme": "describing",
         "emoji": "💎",
         "form": "adjective",
         "plural": "rari",
@@ -1367,16 +1546,20 @@
             }
         ],
         "subtext": "molto raro / un evento raro",
-        "synonyms": ["opportunità rara"],
+        "synonyms": [
+            "opportunità rara"
+        ],
         "comparative": "più raro",
         "superlative": "il più raro",
-        "opposite": "comune"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_027"
     },
     {
         "word": "certo",
         "feminine": "certa",
         "level": "elementary",
-        "theme": "comparison_A2",
+        "theme": "describing",
         "emoji": "🎯",
         "form": "adjective",
         "plural": "certi",
@@ -1392,13 +1575,15 @@
         "subtext": "assolutamente certo / essere certo / sentirsi certo",
         "comparative": "più certo",
         "superlative": "il più certo",
-        "opposite": "incerto"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_028"
     },
     {
         "word": "chiaro",
         "feminine": "chiara",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "🔍",
         "form": "adjective",
         "plural": "chiari",
@@ -1414,13 +1599,15 @@
         "subtext": "chiaro come il sole / molto chiaro / mettere in chiaro",
         "comparative": "più chiaro",
         "superlative": "il più chiaro",
-        "opposite": "confuso"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_029"
     },
     {
         "word": "difficile",
         "feminine": "difficile",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "🧩",
         "form": "adjective",
         "plural": "difficili",
@@ -1436,13 +1623,15 @@
         "subtext": "molto difficile / trovare difficile / difficile da capire",
         "comparative": "più difficile",
         "superlative": "il più difficile",
-        "opposite": "facile"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_030"
     },
     {
         "word": "semplice",
         "feminine": "semplice",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "💡",
         "form": "adjective",
         "plural": "semplici",
@@ -1458,13 +1647,15 @@
         "subtext": "molto semplice / abbastanza semplice / restare semplice",
         "comparative": "più semplice",
         "superlative": "il più semplice",
-        "opposite": "complicato"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_031"
     },
     {
         "word": "complicato",
         "feminine": "complicata",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "🕸️",
         "form": "adjective",
         "plural": "complicati",
@@ -1480,13 +1671,15 @@
         "subtext": "molto complicato / diventare complicato / troppo complicato",
         "comparative": "più complicato",
         "superlative": "il più complicato",
-        "opposite": "semplice"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_032"
     },
     {
         "word": "serio",
         "feminine": "seria",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "👔",
         "form": "adjective",
         "plural": "seri",
@@ -1500,16 +1693,20 @@
             }
         ],
         "subtext": "molto serio / del tutto serio",
-        "synonyms": ["una questione seria"],
+        "synonyms": [
+            "una questione seria"
+        ],
         "comparative": "più serio",
         "superlative": "il più serio",
-        "opposite": "divertente"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_033"
     },
     {
         "word": "divertente",
         "feminine": "divertente",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "😂",
         "form": "adjective",
         "plural": "divertenti",
@@ -1525,13 +1722,15 @@
         "subtext": "molto divertente / una situazione divertente / trovare divertente",
         "comparative": "più divertente",
         "superlative": "il più divertente",
-        "opposite": "serio"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_040"
     },
     {
         "word": "diretto",
         "feminine": "diretta",
         "level": "elementary",
-        "theme": "personal_qualities_A2",
+        "theme": "people",
         "emoji": "➡️",
         "form": "adjective",
         "plural": "diretti",
@@ -1545,16 +1744,20 @@
             }
         ],
         "subtext": "molto diretto / approccio diretto",
-        "synonyms": ["una domanda diretta"],
+        "synonyms": [
+            "una domanda diretta"
+        ],
         "comparative": "più diretto",
         "superlative": "il più diretto",
-        "opposite": "indiretto"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_people_041"
     },
     {
         "word": "quotidiano",
         "feminine": "quotidiana",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "📅",
         "form": "adjective",
         "plural": "quotidiani",
@@ -1568,16 +1771,21 @@
             }
         ],
         "subtext": "rapporto quotidiano",
-        "synonyms": ["routine quotidiana", "su base quotidiana"],
+        "synonyms": [
+            "routine quotidiana",
+            "su base quotidiana"
+        ],
         "comparative": "più quotidiano",
         "superlative": "il più quotidiano",
-        "opposite": "mensile"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_034"
     },
     {
         "word": "regolare",
         "feminine": "regolare",
         "level": "elementary",
-        "theme": "condition_state_A2",
+        "theme": "describing",
         "emoji": "🔁",
         "form": "adjective",
         "plural": "regolari",
@@ -1593,13 +1801,15 @@
         "subtext": "molto regolare / base regolare / cliente regolare",
         "comparative": "più regolare",
         "superlative": "il più regolare",
-        "opposite": "irregolare"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_describing_035"
     },
     {
         "word": "recente",
         "feminine": "recente",
         "level": "elementary",
-        "theme": "past_time_A2",
+        "theme": "time",
         "emoji": "🕒",
         "form": "adjective",
         "plural": "recenti",
@@ -1613,16 +1823,20 @@
             }
         ],
         "subtext": "il più recente / molto recente",
-        "synonyms": ["notizie recenti"],
+        "synonyms": [
+            "notizie recenti"
+        ],
         "comparative": "più recente",
         "superlative": "il più recente",
-        "opposite": "vecchio"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_time_001"
     },
     {
         "word": "attuale",
         "feminine": "attuale",
         "level": "elementary",
-        "theme": "sequence_order_A2",
+        "theme": "time",
         "emoji": "📍",
         "form": "adjective",
         "plural": "attuali",
@@ -1636,16 +1850,20 @@
             }
         ],
         "subtext": "situazione attuale / datore di lavoro attuale",
-        "synonyms": ["attualmente"],
+        "synonyms": [
+            "attualmente"
+        ],
         "comparative": "più attuale",
         "superlative": "il più attuale",
-        "opposite": "passato"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_time_002"
     },
     {
         "word": "futuro",
         "feminine": "futura",
         "level": "elementary",
-        "theme": "future_time_A2",
+        "theme": "time",
         "emoji": "🔮",
         "form": "adjective",
         "plural": "futuri",
@@ -1659,16 +1877,20 @@
             }
         ],
         "subtext": "in futuro / futuro datore di lavoro",
-        "synonyms": ["progetti futuri"],
+        "synonyms": [
+            "progetti futuri"
+        ],
         "comparative": "più futuro",
         "superlative": "il più futuro",
-        "opposite": "passato"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_time_003"
     },
     {
         "word": "precedente",
         "feminine": "precedente",
         "level": "elementary",
-        "theme": "past_time_A2",
+        "theme": "time",
         "emoji": "⬅️",
         "form": "adjective",
         "plural": "precedenti",
@@ -1684,7 +1906,9 @@
         "subtext": "lavoro precedente / datore di lavoro precedente / esperienza precedente",
         "comparative": "più precedente",
         "superlative": "il più precedente",
-        "opposite": "seguente"
+        "lang": "it",
+        "transcription": "",
+        "id": "it_elementary_time_004"
     }
 ];
 })();

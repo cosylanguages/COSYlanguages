@@ -4,7 +4,18 @@
     {
         "word": "Μέγας Αλέξανδρος",
         "level": "elementary",
-        "theme": "identity_self_C1"
+        "theme": "describing",
+        "lang": "el",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Μέγας Αλέξανδρος",
+                "examples": []
+            }
+        ],
+        "id": "el_elementary_describing_008"
     }
 ];
     const lang = "el";

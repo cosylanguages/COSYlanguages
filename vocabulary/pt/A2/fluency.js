@@ -21,7 +21,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_travel_001"
+        "id": "pt_elementary_travel_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Seu restaurante ou café favorito",
@@ -44,7 +46,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_001"
+        "id": "pt_elementary_social_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Como você vai para o trabalho ou escola",
@@ -67,7 +71,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_travel_002"
+        "id": "pt_elementary_travel_002",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "O que você faz para relaxar",
@@ -90,7 +96,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_002"
+        "id": "pt_elementary_social_002",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Um filme que você assistiu recentemente",
@@ -113,7 +121,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_003"
+        "id": "pt_elementary_social_003",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Seu fim de semana ideal",
@@ -136,7 +146,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_004"
+        "id": "pt_elementary_social_004",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Uma pessoa que você admira",
@@ -159,7 +171,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_people_001"
+        "id": "pt_elementary_people_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "O destino das suas férias dos sonhos",
@@ -182,7 +196,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_travel_003"
+        "id": "pt_elementary_travel_003",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Sua relação com seu telefone",
@@ -205,7 +221,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_technology_001"
+        "id": "pt_elementary_technology_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Algo engraçado que aconteceu com você",
@@ -228,7 +246,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_emotions_001"
+        "id": "pt_elementary_emotions_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Seus hobbies",
@@ -251,7 +271,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_005"
+        "id": "pt_elementary_social_005",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "O tempo onde você mora",
@@ -274,7 +296,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_nature_001"
+        "id": "pt_elementary_nature_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Um aniversário de que você se lembra",
@@ -297,7 +321,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_006"
+        "id": "pt_elementary_social_006",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Coisas que você ama onde mora",
@@ -309,7 +335,7 @@
             "Você a recomendaria a um amigo?"
         ],
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "word": "Coisas que você ama onde mora",
         "lang": "pt",
         "sub_theme": null,
@@ -320,7 +346,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_places_001"
+        "id": "pt_elementary_places_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Um domingo típico",
@@ -332,7 +360,7 @@
             "O domingo é seu dia favorito?"
         ],
         "level": "elementary",
-        "theme": "work",
+        "theme": "jobs",
         "word": "Um domingo típico",
         "lang": "pt",
         "sub_theme": null,
@@ -343,7 +371,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_work_001"
+        "id": "pt_elementary_work_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Comida do seu país",
@@ -366,7 +396,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_social_007"
+        "id": "pt_elementary_social_007",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Algo que você comprou recentemente",
@@ -389,7 +421,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_shopping_001"
+        "id": "pt_elementary_shopping_001",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Seu aplicativo favorito",
@@ -412,7 +446,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_technology_002"
+        "id": "pt_elementary_technology_002",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "Uma lembrança de infância",
@@ -435,7 +471,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_emotions_002"
+        "id": "pt_elementary_emotions_002",
+        "transcription": "",
+        "emoji": "💬"
     },
     {
         "t": "O que você comeu ontem",
@@ -458,7 +496,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_elementary_health_medicine_001"
+        "id": "pt_elementary_health_medicine_001",
+        "transcription": "",
+        "emoji": "💬"
     }
 ];
     const lang = "pt";

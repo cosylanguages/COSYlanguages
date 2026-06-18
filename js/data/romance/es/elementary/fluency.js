@@ -1,464 +1,444 @@
 (function() {
     const data = [
     {
-        "t": "Una vacación que recuerdas",
-        "h": [
-            "¿Adónde fuiste?",
-            "¿Con quién fuiste?",
-            "¿Qué hiciste allí?",
-            "¿Cómo era el clima?",
-            "¿Cuál fue el mejor momento?"
-        ],
+        "id": "es_elementary_travel_001",
+        "word": "Una vacación que recuerdas",
+        "lang": "es",
         "level": "elementary",
         "theme": "travel",
-        "lang": "es",
         "sub_theme": "tourism",
-        "word": "Una vacación que recuerdas",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Una vacación que recuerdas",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_travel_001"
+        "h": [
+            "¿Adónde fuiste?",
+            "¿Con quién fuiste?",
+            "¿Qué hiciste allí?",
+            "¿Cómo era el clima?",
+            "¿Cuál fue el mejor momento?"
+        ]
     },
     {
-        "t": "Tu restaurante o café favorito",
-        "h": [
-            "¿Dónde está?",
-            "¿Qué comida sirven?",
-            "¿Por qué te gusta?",
-            "¿Con quién vas?",
-            "¿Cuándo fue la última vez que fuiste?"
-        ],
+        "id": "es_elementary_food_drink_001",
+        "word": "Tu restaurante o café favorito",
+        "lang": "es",
         "level": "elementary",
         "theme": "food_drink",
-        "lang": "es",
         "sub_theme": "meals",
-        "word": "Tu restaurante o café favorito",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Tu restaurante o café favorito",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_food_drink_001"
+        "h": [
+            "¿Dónde está?",
+            "¿Qué comida sirven?",
+            "¿Por qué te gusta?",
+            "¿Con quién vas?",
+            "¿Cuándo fue la última vez que fuiste?"
+        ]
     },
     {
-        "t": "Cómo vas al trabajo o a la escuela",
-        "h": [
-            "¿Cómo viajas — autobús, coche, bici?",
-            "¿Cuánto tiempo tardas?",
-            "¿Disfrutas del viaje?",
-            "¿Es caro?",
-            "¿Qué haces por el camino?"
-        ],
+        "id": "es_elementary_travel_002",
+        "word": "Cómo vas al trabajo o a la escuela",
+        "lang": "es",
         "level": "elementary",
         "theme": "travel",
-        "lang": "es",
         "sub_theme": "transport",
-        "word": "Cómo vas al trabajo o a la escuela",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Cómo vas al trabajo o a la escuela",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_travel_002"
+        "h": [
+            "¿Cómo viajas — autobús, coche, bici?",
+            "¿Cuánto tiempo tardas?",
+            "¿Disfrutas del viaje?",
+            "¿Es caro?",
+            "¿Qué haces por el camino?"
+        ]
     },
     {
-        "t": "Lo que haces para relajarte",
-        "h": [
-            "¿Qué te ayuda a relajarte?",
-            "¿Prefieres estar solo o con gente?",
-            "¿Con qué frecuencia te relajas de verdad?",
-            "¿Tienes un lugar favorito para relajarte?",
-            "¿Es fácil relajarse o te resulta difícil?"
-        ],
+        "id": "es_elementary_social_001",
+        "word": "Lo que haces para relajarte",
+        "lang": "es",
         "level": "elementary",
         "theme": "social",
-        "lang": "es",
         "sub_theme": "going_out",
-        "word": "Lo que haces para relajarte",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Lo que haces para relajarte",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_social_001"
+        "h": [
+            "¿Qué te ayuda a relajarte?",
+            "¿Prefieres estar solo o con gente?",
+            "¿Con qué frecuencia te relajas de verdad?",
+            "¿Tienes un lugar favorito para relajarte?",
+            "¿Es fácil relajarse o te resulta difícil?"
+        ]
     },
     {
-        "t": "Una película que viste hace poco",
-        "h": [
-            "¿Cómo se llamaba la película?",
-            "¿De qué trataba?",
-            "¿Te gustó?",
-            "¿Quién salía en ella?",
-            "¿La recomendarías?"
-        ],
+        "id": "es_elementary_social_002",
+        "word": "Una película que viste hace poco",
+        "lang": "es",
         "level": "elementary",
         "theme": "social",
-        "lang": "es",
         "sub_theme": "going_out",
-        "word": "Una película que viste hace poco",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Una película que viste hace poco",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_social_002"
+        "h": [
+            "¿Cómo se llamaba la película?",
+            "¿De qué trataba?",
+            "¿Te gustó?",
+            "¿Quién salía en ella?",
+            "¿La recomendarías?"
+        ]
     },
     {
-        "t": "Tu fin de semana ideal",
-        "h": [
-            "¿Qué harías el viernes por la noche?",
-            "¿Saldrías o te quedarías en casa?",
-            "¿Viajarías a algún lugar?",
-            "¿Con quién pasarías el tiempo?",
-            "¿Qué comerías?"
-        ],
+        "id": "es_elementary_social_003",
+        "word": "Tu fin de semana ideal",
+        "lang": "es",
         "level": "elementary",
         "theme": "social",
-        "lang": "es",
         "sub_theme": "going_out",
-        "word": "Tu fin de semana ideal",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Tu fin de semana ideal",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_social_003"
+        "h": [
+            "¿Qué harías el viernes por la noche?",
+            "¿Saldrías o te quedarías en casa?",
+            "¿Viajarías a algún lugar?",
+            "¿Con quién pasarías el tiempo?",
+            "¿Qué comerías?"
+        ]
     },
     {
-        "t": "Una persona a la que admiras",
-        "h": [
-            "¿Quién es esta persona?",
-            "¿A qué se dedica?",
-            "¿Por qué la admiras?",
-            "¿La has conocido en persona?",
-            "¿Qué puedes aprender de ella?"
-        ],
+        "id": "es_elementary_people_001",
+        "word": "Una persona a la que admiras",
+        "lang": "es",
         "level": "elementary",
         "theme": "people",
-        "lang": "es",
         "sub_theme": "physical_desc",
-        "word": "Una persona a la que admiras",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Una persona a la que admiras",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_people_001"
+        "h": [
+            "¿Quién es esta persona?",
+            "¿A qué se dedica?",
+            "¿Por qué la admiras?",
+            "¿La has conocido en persona?",
+            "¿Qué puedes aprender de ella?"
+        ]
     },
     {
-        "t": "El destino de vacaciones de tus sueños",
-        "h": [
-            "¿Adónde irías?",
-            "¿Por qué este lugar?",
-            "¿Con quién irías?",
-            "¿Qué harías allí?",
-            "¿Cuánto tiempo te quedarías?"
-        ],
+        "id": "es_elementary_travel_003",
+        "word": "El destino de vacaciones de tus sueños",
+        "lang": "es",
         "level": "elementary",
         "theme": "travel",
-        "lang": "es",
         "sub_theme": "tourism",
-        "word": "El destino de vacaciones de tus sueños",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "El destino de vacaciones de tus sueños",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_travel_003"
+        "h": [
+            "¿Adónde irías?",
+            "¿Por qué este lugar?",
+            "¿Con quién irías?",
+            "¿Qué harías allí?",
+            "¿Cuánto tiempo te quedarías?"
+        ]
     },
     {
-        "t": "Tu relación con tu teléfono",
-        "h": [
-            "¿Cuántas horas al día usas el teléfono?",
-            "¿Para qué lo usas más?",
-            "¿Podrías vivir sin él una semana?",
-            "¿Te ayuda o te distrae?",
-            "¿Lo miras nada más levantarte por la mañana?"
-        ],
+        "id": "es_elementary_technology_001",
+        "word": "Tu relación con tu teléfono",
+        "lang": "es",
         "level": "elementary",
         "theme": "technology",
-        "lang": "es",
         "sub_theme": "internet",
-        "word": "Tu relación con tu teléfono",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Tu relación con tu teléfono",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_technology_001"
+        "h": [
+            "¿Cuántas horas al día usas el teléfono?",
+            "¿Para qué lo usas más?",
+            "¿Podrías vivir sin él una semana?",
+            "¿Te ayuda o te distrae?",
+            "¿Lo miras nada más levantarte por la mañana?"
+        ]
     },
     {
-        "t": "Algo divertido que te pasó",
-        "h": [
-            "¿Cuándo pasó esto?",
-            "¿Dónde estabas?",
-            "¿Con quién estabas?",
-            "¿Qué pasó exactamente?",
-            "¿Todavía te ríes de ello ahora?"
-        ],
+        "id": "es_elementary_emotions_001",
+        "word": "Algo divertido que te pasó",
+        "lang": "es",
         "level": "elementary",
         "theme": "emotions",
-        "lang": "es",
         "sub_theme": "complex",
-        "word": "Algo divertido que te pasó",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Algo divertido que te pasó",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_emotions_001"
+        "h": [
+            "¿Cuándo pasó esto?",
+            "¿Dónde estabas?",
+            "¿Con quién estabas?",
+            "¿Qué pasó exactamente?",
+            "¿Todavía te ríes de ello ahora?"
+        ]
     },
     {
-        "t": "Tus aficiones",
-        "h": [
-            "¿Qué haces en tu tiempo libre?",
-            "¿Cuándo empezaste esta afición?",
-            "¿La haces solo o con otros?",
-            "¿Es cara?",
-            "¿Qué es lo que te gusta de ella?"
-        ],
+        "id": "es_elementary_social_004",
+        "word": "Tus aficiones",
+        "lang": "es",
         "level": "elementary",
         "theme": "social",
-        "lang": "es",
         "sub_theme": "going_out",
-        "word": "Tus aficiones",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Tus aficiones",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_social_004"
+        "h": [
+            "¿Qué haces en tu tiempo libre?",
+            "¿Cuándo empezaste esta afición?",
+            "¿La haces solo o con otros?",
+            "¿Es cara?",
+            "¿Qué es lo que te gusta de ella?"
+        ]
     },
     {
-        "t": "El clima donde vives",
-        "h": [
-            "¿Cómo es el clima normalmente?",
-            "¿Cuál es tu tipo de clima favorito?",
-            "¿Afecta el clima a tu estado de ánimo?",
-            "¿Cuál es el peor clima que recuerdas?",
-            "¿Qué haces los días de lluvia?"
-        ],
+        "id": "es_elementary_nature_001",
+        "word": "El clima donde vives",
+        "lang": "es",
         "level": "elementary",
         "theme": "nature",
-        "lang": "es",
         "sub_theme": "weather",
-        "word": "El clima donde vives",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "El clima donde vives",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_nature_001"
+        "h": [
+            "¿Cómo es el clima normalmente?",
+            "¿Cuál es tu tipo de clima favorito?",
+            "¿Afecta el clima a tu estado de ánimo?",
+            "¿Cuál es el peor clima que recuerdas?",
+            "¿Qué haces los días de lluvia?"
+        ]
     },
     {
-        "t": "Un cumpleaños que recuerdas",
-        "h": [
-            "¿De quién era el cumpleaños?",
-            "¿Dónde fue la celebración?",
-            "¿Qué hicisteis?",
-            "¿Hubo alguna sorpresa?",
-            "¿Qué lo hizo especial?"
-        ],
+        "id": "es_elementary_social_005",
+        "word": "Un cumpleaños que recuerdas",
+        "lang": "es",
         "level": "elementary",
         "theme": "social",
-        "lang": "es",
         "sub_theme": "celebrations",
-        "word": "Un cumpleaños que recuerdas",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Un cumpleaños que recuerdas",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_social_005"
+        "h": [
+            "¿De quién era el cumpleaños?",
+            "¿Dónde fue la celebración?",
+            "¿Qué hicisteis?",
+            "¿Hubo alguna sorpresa?",
+            "¿Qué lo hizo especial?"
+        ]
     },
     {
-        "t": "Cosas que te gustan de donde vives",
-        "h": [
-            "¿Qué es lo que más te gusta de tu pueblo o ciudad?",
-            "¿Es un buen lugar para las familias?",
-            "¿Qué hay para hacer allí?",
-            "¿Qué cambiarías?",
-            "¿Se lo recomendarías a un amigo?"
-        ],
+        "id": "es_elementary_places_001",
+        "word": "Cosas que te gustan de donde vives",
+        "lang": "es",
         "level": "elementary",
         "theme": "places",
-        "lang": "es",
         "sub_theme": "city",
-        "word": "Cosas que te gustan de donde vives",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Cosas que te gustan de donde vives",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_places_001"
+        "h": [
+            "¿Qué es lo que más te gusta de tu pueblo o ciudad?",
+            "¿Es un buen lugar para las familias?",
+            "¿Qué hay para hacer allí?",
+            "¿Qué cambiarías?",
+            "¿Se lo recomendarías a un amigo?"
+        ]
     },
     {
-        "t": "Un domingo típico",
-        "h": [
-            "¿A qué hora te despiertas el domingo?",
-            "¿Tienes una rutina?",
-            "¿Cocinas una comida grande?",
-            "¿Descansas o estás ocupado?",
-            "¿Es el domingo tu día favorito?"
-        ],
+        "id": "es_elementary_work_001",
+        "word": "Un domingo típico",
+        "lang": "es",
         "level": "elementary",
         "theme": "work",
-        "lang": "es",
         "sub_theme": "office",
-        "word": "Un domingo típico",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Un domingo típico",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_work_001"
+        "h": [
+            "¿A qué hora te despiertas el domingo?",
+            "¿Tienes una rutina?",
+            "¿Cocinas una comida grande?",
+            "¿Descansas o estás ocupado?",
+            "¿Es el domingo tu día favorito?"
+        ]
     },
     {
-        "t": "Comida de tu país",
-        "h": [
-            "¿Cuál es un plato tradicional?",
-            "¿Lo cocinas en casa?",
-            "¿Cuándo lo come la gente?",
-            "¿Es difícil de preparar?",
-            "¿Se lo recomendarías a un extranjero?"
-        ],
+        "id": "es_elementary_social_006",
+        "word": "Comida de tu país",
+        "lang": "es",
         "level": "elementary",
         "theme": "social",
-        "lang": "es",
         "sub_theme": "celebrations",
-        "word": "Comida de tu país",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Comida de tu país",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_social_006"
+        "h": [
+            "¿Cuál es un plato tradicional?",
+            "¿Lo cocinas en casa?",
+            "¿Cuándo lo come la gente?",
+            "¿Es difícil de preparar?",
+            "¿Se lo recomendarías a un extranjero?"
+        ]
     },
     {
-        "t": "Algo que compraste hace poco",
-        "h": [
-            "¿Qué compraste?",
-            "¿Dónde lo compraste?",
-            "¿Fue caro?",
-            "¿Lo necesitabas o simplemente lo querías?",
-            "¿Estás contento con la compra?"
-        ],
+        "id": "es_elementary_shopping_001",
+        "word": "Algo que compraste hace poco",
+        "lang": "es",
         "level": "elementary",
         "theme": "shopping",
-        "lang": "es",
         "sub_theme": "money",
-        "word": "Algo que compraste hace poco",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Algo que compraste hace poco",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_shopping_001"
+        "h": [
+            "¿Qué compraste?",
+            "¿Dónde lo compraste?",
+            "¿Fue caro?",
+            "¿Lo necesitabas o simplemente lo querías?",
+            "¿Estás contento con la compra?"
+        ]
     },
     {
-        "t": "Tu aplicación favorita",
-        "h": [
-            "¿Qué aplicación usas más?",
-            "¿Para qué la usas?",
-            "¿Cuándo empezaste a usarla?",
-            "¿La recomendarías?",
-            "¿Podrías vivir sin ella?"
-        ],
+        "id": "es_elementary_technology_002",
+        "word": "Tu aplicación favorita",
+        "lang": "es",
         "level": "elementary",
         "theme": "technology",
-        "lang": "es",
         "sub_theme": "internet",
-        "word": "Tu aplicación favorita",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Tu aplicación favorita",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_technology_002"
+        "h": [
+            "¿Qué aplicación usas más?",
+            "¿Para qué la usas?",
+            "¿Cuándo empezaste a usarla?",
+            "¿La recomendarías?",
+            "¿Podrías vivir sin ella?"
+        ]
     },
     {
-        "t": "Un recuerdo de la infancia",
-        "h": [
-            "¿Qué edad tenías?",
-            "¿Dónde estabas?",
-            "¿Con quién estabas?",
-            "¿Qué pasó?",
-            "¿Por qué lo recuerdas?"
-        ],
+        "id": "es_elementary_emotions_002",
+        "word": "Un recuerdo de la infancia",
+        "lang": "es",
         "level": "elementary",
         "theme": "emotions",
-        "lang": "es",
         "sub_theme": "complex",
-        "word": "Un recuerdo de la infancia",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Un recuerdo de la infancia",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_emotions_002"
+        "h": [
+            "¿Qué edad tenías?",
+            "¿Dónde estabas?",
+            "¿Con quién estabas?",
+            "¿Qué pasó?",
+            "¿Por qué lo recuerdas?"
+        ]
     },
     {
-        "t": "Lo que comiste ayer",
-        "h": [
-            "¿Qué desayunaste?",
-            "¿Qué almorzaste?",
-            "¿Cocinaste o comiste fuera?",
-            "¿Fue un día típico de comidas?",
-            "¿Qué fue lo mejor que comiste?"
-        ],
+        "id": "es_elementary_food_drink_002",
+        "word": "Lo que comiste ayer",
+        "lang": "es",
         "level": "elementary",
         "theme": "food_drink",
-        "lang": "es",
         "sub_theme": "cooking",
-        "word": "Lo que comiste ayer",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Lo que comiste ayer",
                 "examples": []
             }
         ],
-        "form": "phrase",
-        "id": "es_elementary_food_drink_002"
+        "h": [
+            "¿Qué desayunaste?",
+            "¿Qué almorzaste?",
+            "¿Cocinaste o comiste fuera?",
+            "¿Fue un día típico de comidas?",
+            "¿Qué fue lo mejor que comiste?"
+        ]
     }
 ];
     const lang = "es";

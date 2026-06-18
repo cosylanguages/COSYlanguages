@@ -4,7 +4,18 @@
     {
         "word": "Dante Alighieri",
         "level": "elementary",
-        "theme": "identity_self_C1"
+        "theme": "describing",
+        "lang": "it",
+        "form": "noun",
+        "transcription": "",
+        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "Dante Alighieri",
+                "examples": []
+            }
+        ],
+        "id": "it_elementary_describing_008"
     }
 ];
     const lang = "it";

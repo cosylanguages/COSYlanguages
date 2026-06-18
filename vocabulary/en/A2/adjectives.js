@@ -6,7 +6,6 @@
         "word": "absent",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "present",
         "definitions": [
             {
                 "text": "Not in the place where you are expected to be, especially at school or work.",
@@ -39,7 +38,6 @@
         "word": "academic",
         "emoji": "🎓",
         "form": "adjective",
-        "opposite": "practical",
         "definitions": [
             {
                 "text": "Relating to schools, colleges, and universities.",
@@ -70,7 +68,6 @@
         "word": "actual",
         "emoji": "📑",
         "form": "adjective",
-        "opposite": "imaginary",
         "definitions": [
             {
                 "text": "Existing in fact or reality.",
@@ -89,7 +86,7 @@
         "transcription": "ˈæktʃuəl",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Latin",
@@ -102,7 +99,6 @@
         "word": "affordable",
         "emoji": "💵",
         "form": "adjective",
-        "opposite": "expensive",
         "definitions": [
             {
                 "text": "Within the ability of most people to pay.",
@@ -121,7 +117,7 @@
         "transcription": "əˈfɔːrdəbl",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Old French",
@@ -134,7 +130,6 @@
         "word": "aggressive",
         "emoji": "😠",
         "form": "adjective",
-        "opposite": "calm",
         "definitions": [
             {
                 "text": "Behaving in an angry and violent way towards another person.",
@@ -166,7 +161,6 @@
         "word": "ambitious",
         "emoji": "🚀",
         "form": "adjective",
-        "opposite": "lazy",
         "definitions": [
             {
                 "text": "Having a strong desire to succeed.",
@@ -185,7 +179,7 @@
         "transcription": "æmˈbɪʃəs",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Latin",
@@ -198,7 +192,6 @@
         "word": "annual",
         "emoji": "📅",
         "form": "adjective",
-        "opposite": "daily",
         "definitions": [
             {
                 "text": "Happening once every year.",
@@ -216,7 +209,7 @@
         "transcription": "ˈænjuəl",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Latin",
@@ -229,7 +222,6 @@
         "word": "anxious",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "calm",
         "definitions": [
             {
                 "text": "Worried and nervous.",
@@ -263,7 +255,6 @@
         "word": "artificial",
         "emoji": "🤖",
         "form": "adjective",
-        "opposite": "natural",
         "definitions": [
             {
                 "text": "Not natural or real, but made by people.",
@@ -282,7 +273,7 @@
         "transcription": "ˌɑːrtɪˈfɪʃl",
         "lang": "en",
         "level": "elementary",
-        "theme": "materials_textures",
+        "theme": "describing",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Latin",
@@ -295,7 +286,6 @@
         "word": "athletic",
         "form": "adjective",
         "emoji": "🏃",
-        "opposite": "lazy",
         "definitions": [
             {
                 "text": "Physically strong, fit, and active.",
@@ -315,7 +305,7 @@
         "transcription": "æθˈlɛtɪk",
         "lang": "en",
         "level": "elementary",
-        "theme": "personal_qualities",
+        "theme": "people",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Greek",
@@ -328,7 +318,6 @@
         "word": "automatic",
         "emoji": "🤖",
         "form": "adjective",
-        "opposite": "manual",
         "definitions": [
             {
                 "text": "Working by itself without human control.",
@@ -346,7 +335,7 @@
         "transcription": "ˌɔːtəˈmætɪk",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Greek",
@@ -359,7 +348,6 @@
         "word": "available",
         "emoji": "🙋",
         "form": "adjective",
-        "opposite": "unavailable",
         "definitions": [
             {
                 "text": "Free; able to be used or reached.",
@@ -378,7 +366,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Old French",
@@ -391,7 +379,6 @@
         "word": "aware",
         "emoji": "👁️",
         "form": "adjective",
-        "opposite": "unaware",
         "definitions": [
             {
                 "text": "Knowing that something exists.",
@@ -410,7 +397,7 @@
         "transcription": "əˈweər",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Old English",
@@ -423,7 +410,6 @@
         "word": "basic",
         "emoji": "🧱",
         "form": "adjective",
-        "opposite": "advanced",
         "definitions": [
             {
                 "text": "Simple and most important; being the main part of something.",
@@ -444,7 +430,7 @@
         "transcription": "ˈbeɪsɪk",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Greek",
@@ -457,7 +443,6 @@
         "word": "biological",
         "emoji": "🧬",
         "form": "adjective",
-        "opposite": "physical",
         "definitions": [
             {
                 "text": "Relating to biology or living things.",
@@ -475,7 +460,7 @@
         "transcription": "🇬🇧 ˌbaɪəˈlɒdʒɪkl | 🇺🇸 ˌbaɪəˈlɑːdʒɪkl",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_science",
+        "theme": "nature",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Greek",
@@ -488,7 +473,6 @@
         "word": "brief",
         "emoji": "⏱️",
         "form": "adjective",
-        "opposite": "long",
         "definitions": [
             {
                 "text": "Lasting only a short time or using only a few words.",
@@ -517,7 +501,6 @@
         "word": "broke",
         "emoji": "📉",
         "form": "adjective",
-        "opposite": "rich",
         "definitions": [
             {
                 "text": "Having no money at all; informal.",
@@ -532,7 +515,7 @@
         "transcription": "broʊk",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -540,7 +523,6 @@
         "word": "brunette",
         "emoji": "👩🏻",
         "form": "adjective",
-        "opposite": "blonde",
         "definitions": [
             {
                 "text": "Having dark brown hair.",
@@ -558,7 +540,7 @@
         "transcription": "bruːˈnɛt",
         "lang": "en",
         "level": "elementary",
-        "theme": "personal_qualities",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -566,7 +548,6 @@
         "word": "careless",
         "emoji": "🤷",
         "form": "adjective",
-        "opposite": "careful",
         "definitions": [
             {
                 "text": "Not giving enough attention to what you are doing.",
@@ -593,7 +574,6 @@
         "word": "central",
         "emoji": "📍",
         "form": "adjective",
-        "opposite": "remote",
         "definitions": [
             {
                 "text": "In the middle of something.",
@@ -612,7 +592,7 @@
         "transcription": "ˈsɛntrəl",
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -620,7 +600,6 @@
         "word": "certain",
         "emoji": "🎯",
         "form": "adjective",
-        "opposite": "uncertain",
         "definitions": [
             {
                 "text": "Having no doubt or knowing exactly that something is true, or known to be true, correct, or real.",
@@ -641,7 +620,7 @@
         "transcription": "ˈsɜːrtn",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -649,7 +628,6 @@
         "word": "cheerful",
         "emoji": "😊",
         "form": "adjective",
-        "opposite": "miserable",
         "definitions": [
             {
                 "text": "Happy and positive.",
@@ -678,7 +656,6 @@
         "word": "chemical",
         "emoji": "🧪",
         "form": "adjective",
-        "opposite": "natural",
         "definitions": [
             {
                 "text": "Relating to chemistry.",
@@ -693,7 +670,7 @@
         "transcription": "ˈkɛmɪkl",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_science",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -701,7 +678,6 @@
         "word": "commercial",
         "emoji": "🏢",
         "form": "adjective",
-        "opposite": "private",
         "definitions": [
             {
                 "text": "Related to buying and selling things.",
@@ -719,7 +695,7 @@
         "transcription": "kəˈmɜːrʃl",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -727,7 +703,6 @@
         "word": "competitive",
         "emoji": "🏃",
         "form": "adjective",
-        "opposite": "uncompetitive",
         "definitions": [
             {
                 "text": "Wanting very much to win or be more successful than other people.",
@@ -745,7 +720,7 @@
         "transcription": "kəmˈpɛtətɪv",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -753,7 +728,6 @@
         "word": "complicated",
         "emoji": "🕸️",
         "form": "adjective",
-        "opposite": "simple",
         "definitions": [
             {
                 "text": "Involving many parts; not easy to understand.",
@@ -772,7 +746,7 @@
         "transcription": "🇬🇧 ˈkɒmplɪkeɪtɪd | 🇺🇸 ˈkɑːmplɪkeɪtɪd",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -780,7 +754,6 @@
         "word": "confident",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "insecure",
         "definitions": [
             {
                 "text": "Feeling sure of your own abilities.",
@@ -800,7 +773,7 @@
         "transcription": "🇬🇧 ˈkɒnfɪdənt | 🇺🇸 ˈkɑːnfɪdənt",
         "lang": "en",
         "level": "elementary",
-        "theme": "personal_qualities",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -808,7 +781,6 @@
         "word": "confidential",
         "emoji": "🤐",
         "form": "adjective",
-        "opposite": "public",
         "definitions": [
             {
                 "text": "Secret, often in a formal business or military way.",
@@ -828,7 +800,7 @@
         "transcription": "🇬🇧 ˌkɒnfɪˈdɛnʃl | 🇺🇸 ˌkɑːnfɪˈdɛnʃl",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -836,7 +808,6 @@
         "word": "conscious",
         "emoji": "🧠",
         "form": "adjective",
-        "opposite": "unconscious",
         "definitions": [
             {
                 "text": "Awake, thinking, and knowing what is happening around you.",
@@ -854,7 +825,7 @@
         "transcription": "🇬🇧 ˈkɒnʃəs | 🇺🇸 ˈkɑːnʃəs",
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -862,7 +833,6 @@
         "word": "convenient",
         "emoji": "👌",
         "form": "adjective",
-        "opposite": "inconvenient",
         "definitions": [
             {
                 "text": "Easy to use or well-positioned.",
@@ -880,7 +850,7 @@
         "transcription": "kənˈviːniənt",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -888,7 +858,6 @@
         "word": "critical",
         "emoji": "⚖️",
         "form": "adjective",
-        "opposite": "positive",
         "definitions": [
             {
                 "text": "Saying that someone or something is bad or wrong.",
@@ -907,7 +876,7 @@
         "transcription": "ˈkrɪtɪkl",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -915,7 +884,6 @@
         "word": "cruel",
         "emoji": "👿",
         "form": "adjective",
-        "opposite": "kind",
         "definitions": [
             {
                 "text": "Extremely unkind and unpleasant and causing pain to people or animals intentionally.",
@@ -943,7 +911,6 @@
         "word": "cultural",
         "emoji": "🎨",
         "form": "adjective",
-        "opposite": "non-cultural",
         "definitions": [
             {
                 "text": "Relating to culture.",
@@ -961,7 +928,7 @@
         "transcription": "ˈkʌltʃərəl",
         "lang": "en",
         "level": "elementary",
-        "theme": "society_politics",
+        "theme": "social",
         "sub_theme": null
     },
     {
@@ -969,7 +936,6 @@
         "word": "curious",
         "emoji": "🧐",
         "form": "adjective",
-        "opposite": "indifferent",
         "definitions": [
             {
                 "text": "Interested in learning about people or things around you.",
@@ -997,7 +963,6 @@
         "word": "current",
         "emoji": "📍",
         "form": "adjective",
-        "opposite": "former",
         "definitions": [
             {
                 "text": "Happening or existing now.",
@@ -1015,7 +980,7 @@
         "transcription": "ˈkɜːrənt",
         "lang": "en",
         "level": "elementary",
-        "theme": "sequence_order",
+        "theme": "time",
         "sub_theme": null
     },
     {
@@ -1023,7 +988,6 @@
         "word": "daily",
         "emoji": "📅",
         "form": "adjective",
-        "opposite": "rare",
         "definitions": [
             {
                 "text": "Happening every day.",
@@ -1038,7 +1002,7 @@
         "transcription": "ˈdeɪli",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1046,7 +1010,6 @@
         "word": "deliberate",
         "emoji": "🎯",
         "form": "adjective",
-        "opposite": "accidental",
         "definitions": [
             {
                 "text": "Done on purpose.",
@@ -1065,7 +1028,7 @@
         "transcription": "dɪˈlɪbərət",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1073,7 +1036,6 @@
         "word": "digital",
         "emoji": "💻",
         "form": "adjective",
-        "opposite": "analog",
         "definitions": [
             {
                 "text": "Relating to computer technology.",
@@ -1099,7 +1061,6 @@
         "word": "direct",
         "emoji": "➡️",
         "form": "adjective",
-        "opposite": "indirect",
         "definitions": [
             {
                 "text": "Going straight to the point; not indirect.",
@@ -1114,7 +1075,7 @@
         "transcription": "dəˈrɛkt",
         "lang": "en",
         "level": "elementary",
-        "theme": "personal_qualities",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -1122,7 +1083,6 @@
         "word": "dishonest",
         "emoji": "🤥",
         "form": "adjective",
-        "opposite": "honest",
         "definitions": [
             {
                 "text": "Not honest; intended to deceive.",
@@ -1141,7 +1101,7 @@
         "transcription": "🇬🇧 dɪsˈɒnɪst | 🇺🇸 dɪsˈɑːnɪst",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1149,7 +1109,6 @@
         "word": "dissatisfied",
         "emoji": "😒",
         "form": "adjective",
-        "opposite": "satisfied",
         "definitions": [
             {
                 "text": "Not pleased with something.",
@@ -1176,7 +1135,6 @@
         "word": "economic",
         "emoji": "📉",
         "form": "adjective",
-        "opposite": "uneconomic",
         "definitions": [
             {
                 "text": "Relating to the economy.",
@@ -1194,7 +1152,7 @@
         "transcription": "🇬🇧 ˌiːkəˈnɒmɪk | 🇺🇸 ˌiːkəˈnɑːmɪk",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -1202,7 +1160,6 @@
         "word": "efficient",
         "emoji": "⚙️",
         "form": "adjective",
-        "opposite": "inefficient",
         "definitions": [
             {
                 "text": "Working or operating quickly and effectively in an organized way.",
@@ -1221,7 +1178,7 @@
         "transcription": "ɪˈfɪʃnt",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -1229,7 +1186,6 @@
         "word": "emotional",
         "emoji": "🥺",
         "form": "adjective",
-        "opposite": "unemotional",
         "definitions": [
             {
                 "text": "Having strong feelings.",
@@ -1255,7 +1211,6 @@
         "word": "energetic",
         "emoji": "⚡",
         "form": "adjective",
-        "opposite": "tired",
         "definitions": [
             {
                 "text": "Having or involving a lot of energy.",
@@ -1282,7 +1237,6 @@
         "word": "environmental",
         "emoji": "🌳",
         "form": "adjective",
-        "opposite": "industrial",
         "definitions": [
             {
                 "text": "Relating to the environment.",
@@ -1300,7 +1254,7 @@
         "transcription": "ɪnˌvaɪrənˈmɛntl",
         "lang": "en",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -1308,7 +1262,6 @@
         "word": "excellent",
         "emoji": "🏆",
         "form": "adjective",
-        "opposite": "poor",
         "definitions": [
             {
                 "text": "Extremely good; of a very high standard.",
@@ -1327,7 +1280,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1335,7 +1288,6 @@
         "word": "experienced",
         "emoji": "🎓",
         "form": "adjective",
-        "opposite": "inexperienced",
         "definitions": [
             {
                 "text": "Having knowledge and skill from practice.",
@@ -1350,7 +1302,7 @@
         "transcription": "ɪkˈspɪəriənst",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -1358,7 +1310,6 @@
         "word": "extreme",
         "emoji": "🌋",
         "form": "adjective",
-        "opposite": "mild",
         "definitions": [
             {
                 "text": "Very large in amount or degree.",
@@ -1377,7 +1328,7 @@
         "transcription": "ɪkˈstriːm",
         "lang": "en",
         "level": "elementary",
-        "theme": "quantity_degree",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1385,7 +1336,6 @@
         "word": "fake",
         "emoji": "🎭",
         "form": "adjective",
-        "opposite": "real",
         "definitions": [
             {
                 "text": "Not real, but made to look or seem real.",
@@ -1404,7 +1354,7 @@
         "transcription": "feɪk",
         "lang": "en",
         "level": "elementary",
-        "theme": "materials_textures",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1412,7 +1362,6 @@
         "word": "familiar",
         "emoji": "🤝",
         "form": "adjective",
-        "opposite": "unfamiliar",
         "definitions": [
             {
                 "text": "Easy to recognize because of being seen, met, or heard before.",
@@ -1430,7 +1379,7 @@
         "transcription": "fəˈmɪliər",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1438,7 +1387,6 @@
         "word": "financial",
         "emoji": "💰",
         "form": "adjective",
-        "opposite": "non-financial",
         "definitions": [
             {
                 "text": "Relating to money.",
@@ -1456,7 +1404,7 @@
         "transcription": "faɪˈnænʃl",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -1464,7 +1412,6 @@
         "word": "flexible",
         "emoji": "🧘",
         "form": "adjective",
-        "opposite": "rigid",
         "definitions": [
             {
                 "text": "Able to change and adapt easily to different situations.",
@@ -1479,7 +1426,7 @@
         "transcription": "ˈflɛksəbl",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -1487,7 +1434,6 @@
         "word": "foolish",
         "emoji": "🤡",
         "form": "adjective",
-        "opposite": "wise",
         "definitions": [
             {
                 "text": "Silly or not sensible.",
@@ -1514,7 +1460,6 @@
         "word": "foreign",
         "emoji": "🌍",
         "form": "adjective",
-        "opposite": "domestic",
         "definitions": [
             {
                 "text": "Belonging or connected to a country that is not your own or not the one you are in.",
@@ -1534,7 +1479,7 @@
         "transcription": "🇬🇧 ˈfɒrən | 🇺🇸 ˈfɑːrən",
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1542,7 +1487,6 @@
         "word": "formal",
         "emoji": "🤵",
         "form": "adjective",
-        "opposite": "informal",
         "definitions": [
             {
                 "text": "Public or official; following fixed rules for doing something.",
@@ -1562,7 +1506,7 @@
         "transcription": "ˈfɔːrml",
         "lang": "en",
         "level": "elementary",
-        "theme": "customs_traditions",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1570,7 +1514,6 @@
         "word": "fresh",
         "emoji": "🍏",
         "form": "adjective",
-        "opposite": "stale",
         "definitions": [
             {
                 "text": "Recently made, collected, or cooked.",
@@ -1590,7 +1533,7 @@
         "transcription": "frɛʃ",
         "lang": "en",
         "level": "elementary",
-        "theme": "diet_nutrition",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1598,7 +1541,6 @@
         "word": "future",
         "emoji": "🔮",
         "form": "adjective",
-        "opposite": "past",
         "definitions": [
             {
                 "text": "Not yet happened; relating to a later time.",
@@ -1624,7 +1566,6 @@
         "word": "general",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "specific",
         "definitions": [
             {
                 "text": "Involving or relating to most people, things, or cases.",
@@ -1644,7 +1585,7 @@
         "transcription": "ˈdʒɛnrəl",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1652,7 +1593,6 @@
         "word": "generous",
         "emoji": "🎁",
         "form": "adjective",
-        "opposite": "mean",
         "definitions": [
             {
                 "text": "Willing to give money, help, kindness, etc., especially more than is usual or expected.",
@@ -1680,7 +1620,6 @@
         "word": "global",
         "emoji": "🌍",
         "form": "adjective",
-        "opposite": "local",
         "definitions": [
             {
                 "text": "Relating to the whole world.",
@@ -1698,7 +1637,7 @@
         "transcription": "ˈɡloʊbl",
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1706,7 +1645,6 @@
         "word": "grateful",
         "emoji": "🙏",
         "form": "adjective",
-        "opposite": "ungrateful",
         "definitions": [
             {
                 "text": "Feeling or showing thanks.",
@@ -1732,7 +1670,6 @@
         "word": "guilty",
         "emoji": "⚖️",
         "form": "adjective",
-        "opposite": "innocent",
         "definitions": [
             {
                 "text": "Responsible for breaking a law.",
@@ -1750,7 +1687,7 @@
         "transcription": "ˈɡɪlti",
         "lang": "en",
         "level": "elementary",
-        "theme": "right_wrong_basic",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -1758,7 +1695,6 @@
         "word": "huge",
         "emoji": "🐘",
         "form": "adjective",
-        "opposite": "tiny",
         "definitions": [
             {
                 "text": "Extremely large in size or amount.",
@@ -1778,7 +1714,7 @@
         "transcription": "hjuːdʒ",
         "lang": "en",
         "level": "elementary",
-        "theme": "quantity_degree",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1786,7 +1722,6 @@
         "word": "illegal",
         "emoji": "🚫",
         "form": "adjective",
-        "opposite": "legal",
         "definitions": [
             {
                 "text": "Not allowed by law.",
@@ -1804,7 +1739,7 @@
         "transcription": "ɪˈliːɡl",
         "lang": "en",
         "level": "elementary",
-        "theme": "right_wrong_basic",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -1812,7 +1747,6 @@
         "word": "immediate",
         "emoji": "⚡",
         "form": "adjective",
-        "opposite": "delayed",
         "definitions": [
             {
                 "text": "Happening or done without delay.",
@@ -1831,7 +1765,7 @@
         "transcription": "ɪˈmiːdiət",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1839,7 +1773,6 @@
         "word": "impatient",
         "emoji": "⌚",
         "form": "adjective",
-        "opposite": "patient",
         "definitions": [
             {
                 "text": "Easily annoyed by someone's mistakes or because you have to wait.",
@@ -1865,7 +1798,6 @@
         "word": "imperfect",
         "emoji": "🩹",
         "form": "adjective",
-        "opposite": "perfect",
         "definitions": [
             {
                 "text": "Not perfect; having some faults or mistakes.",
@@ -1883,7 +1815,7 @@
         "transcription": "ɪmˈpɜːrfɪkt",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1891,7 +1823,6 @@
         "word": "impolite",
         "emoji": "😛",
         "form": "adjective",
-        "opposite": "polite",
         "definitions": [
             {
                 "text": "Not polite; rude.",
@@ -1917,7 +1848,6 @@
         "word": "impossible",
         "emoji": "🚫",
         "form": "adjective",
-        "opposite": "possible",
         "definitions": [
             {
                 "text": "Not able to happen or be done.",
@@ -1935,7 +1865,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -1943,7 +1873,6 @@
         "word": "independent",
         "emoji": "🦅",
         "form": "adjective",
-        "opposite": "dependent",
         "definitions": [
             {
                 "text": "Not needing help or support from others.",
@@ -1961,7 +1890,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "personal_qualities",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -1969,7 +1898,6 @@
         "word": "industrial",
         "emoji": "🏭",
         "form": "adjective",
-        "opposite": "agricultural",
         "definitions": [
             {
                 "text": "Relating to industry.",
@@ -1987,7 +1915,7 @@
         "transcription": "ɪnˈdʌstriəl",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -1995,7 +1923,6 @@
         "word": "innocent",
         "emoji": "😇",
         "form": "adjective",
-        "opposite": "guilty",
         "definitions": [
             {
                 "text": "Not guilty of a particular crime.",
@@ -2013,7 +1940,7 @@
         "transcription": "ˈɪnəsnt",
         "lang": "en",
         "level": "elementary",
-        "theme": "right_wrong_basic",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -2021,7 +1948,6 @@
         "word": "intelligent",
         "emoji": "🧠",
         "form": "adjective",
-        "opposite": "stupid",
         "definitions": [
             {
                 "text": "Able to learn and understand things easily.",
@@ -2049,7 +1975,6 @@
         "word": "internal",
         "emoji": "🏢",
         "form": "adjective",
-        "opposite": "external",
         "definitions": [
             {
                 "text": "Inside something.",
@@ -2069,7 +1994,7 @@
         "transcription": "ɪnˈtɜːrnl",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2077,7 +2002,6 @@
         "word": "junior",
         "emoji": "👶",
         "form": "adjective",
-        "opposite": "senior",
         "definitions": [
             {
                 "text": "Having a low rank in an organization.",
@@ -2097,7 +2021,7 @@
         "transcription": "ˈdʒuːniər",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -2105,7 +2029,6 @@
         "word": "legal",
         "emoji": "⚖️",
         "form": "adjective",
-        "opposite": "illegal",
         "definitions": [
             {
                 "text": "Relating to the law.",
@@ -2123,7 +2046,7 @@
         "transcription": "ˈliːɡl",
         "lang": "en",
         "level": "elementary",
-        "theme": "right_wrong_basic",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -2131,7 +2054,6 @@
         "word": "likely",
         "emoji": "🎲",
         "form": "adjective",
-        "opposite": "unlikely",
         "definitions": [
             {
                 "text": "If something is likely, it will probably happen or is expected.",
@@ -2149,7 +2071,7 @@
         "transcription": "ˈlaɪkli",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2157,7 +2079,6 @@
         "word": "local",
         "emoji": "🏘️",
         "form": "adjective",
-        "opposite": "national",
         "definitions": [
             {
                 "text": "Relating to a particular area, city, or town.",
@@ -2177,7 +2098,7 @@
         "transcription": "ˈloʊkl",
         "lang": "en",
         "level": "elementary",
-        "theme": "neighbourhood_local",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -2185,7 +2106,6 @@
         "word": "logical",
         "emoji": "🧮",
         "form": "adjective",
-        "opposite": "illogical",
         "definitions": [
             {
                 "text": "Based on reason.",
@@ -2204,7 +2124,7 @@
         "transcription": "🇬🇧 ˈlɒdʒɪkl | 🇺🇸 ˈlɑːdʒɪkl",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2212,7 +2132,6 @@
         "word": "loose",
         "emoji": "👕",
         "form": "adjective",
-        "opposite": "tight",
         "definitions": [
             {
                 "text": "Not fitting closely; large.",
@@ -2240,7 +2159,6 @@
         "word": "loyal",
         "emoji": "🐕",
         "form": "adjective",
-        "opposite": "disloyal",
         "definitions": [
             {
                 "text": "Firm and not changing in your friendship with or support for a person or an organization.",
@@ -2266,7 +2184,6 @@
         "word": "manual",
         "emoji": "⚙️",
         "form": "adjective",
-        "opposite": "automatic",
         "definitions": [
             {
                 "text": "Done with the hands; or not automatic.",
@@ -2284,7 +2201,7 @@
         "transcription": "ˈmænjuəl",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2292,7 +2209,6 @@
         "word": "mental",
         "emoji": "🧠",
         "form": "adjective",
-        "opposite": "physical",
         "definitions": [
             {
                 "text": "Relating to the mind.",
@@ -2310,7 +2226,7 @@
         "transcription": "ˈmɛntl",
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -2318,7 +2234,6 @@
         "word": "messy",
         "emoji": "🧺",
         "form": "adjective",
-        "opposite": "neat",
         "definitions": [
             {
                 "text": "Untidy or dirty.",
@@ -2338,7 +2253,7 @@
         "transcription": "ˈmɛsi",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2346,7 +2261,6 @@
         "word": "mild",
         "emoji": "⛅",
         "form": "adjective",
-        "opposite": "severe",
         "definitions": [
             {
                 "text": "Not severe or strong.",
@@ -2365,7 +2279,7 @@
         "transcription": "maɪld",
         "lang": "en",
         "level": "elementary",
-        "theme": "weather_climate",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -2373,7 +2287,6 @@
         "word": "modest",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "arrogant",
         "definitions": [
             {
                 "text": "Not usually talking about or making obvious your own abilities and achievements.",
@@ -2400,7 +2313,6 @@
         "word": "neat",
         "emoji": "🧹",
         "form": "adjective",
-        "opposite": "messy",
         "definitions": [
             {
                 "text": "Tidy and in good order.",
@@ -2420,7 +2332,7 @@
         "transcription": "niːt",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2428,7 +2340,6 @@
         "word": "necessary",
         "emoji": "❗",
         "form": "adjective",
-        "opposite": "unnecessary",
         "definitions": [
             {
                 "text": "Needed; required in order to do something.",
@@ -2447,7 +2358,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2455,7 +2366,6 @@
         "word": "negative",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "positive",
         "definitions": [
             {
                 "text": "Bad or harmful.",
@@ -2474,7 +2384,7 @@
         "transcription": "ˈnɛɡətɪv",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2482,7 +2392,6 @@
         "word": "numerous",
         "emoji": "🔢",
         "form": "adjective",
-        "opposite": "few",
         "definitions": [
             {
                 "text": "Many.",
@@ -2500,7 +2409,7 @@
         "transcription": "ˈnjuːmərəs",
         "lang": "en",
         "level": "elementary",
-        "theme": "quantity_degree",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2508,7 +2417,6 @@
         "word": "odd",
         "emoji": "🌀",
         "form": "adjective",
-        "opposite": "normal",
         "definitions": [
             {
                 "text": "Strange or unexpected.",
@@ -2527,7 +2435,7 @@
         "transcription": "🇬🇧 ɒd | 🇺🇸 ɑːd",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2535,7 +2443,6 @@
         "word": "official",
         "emoji": "📜",
         "form": "adjective",
-        "opposite": "unofficial",
         "definitions": [
             {
                 "text": "Agreed to or arranged by people in positions of authority.",
@@ -2555,7 +2462,7 @@
         "transcription": "əˈfɪʃl",
         "lang": "en",
         "level": "elementary",
-        "theme": "customs_traditions",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2563,7 +2470,6 @@
         "word": "optimistic",
         "emoji": "☀️",
         "form": "adjective",
-        "opposite": "pessimistic",
         "definitions": [
             {
                 "text": "Hoping or believing that good things will happen in the future.",
@@ -2591,7 +2497,6 @@
         "word": "ordinary",
         "emoji": "😐",
         "form": "adjective",
-        "opposite": "special",
         "definitions": [
             {
                 "text": "Normal or usual; not special.",
@@ -2610,7 +2515,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2618,7 +2523,6 @@
         "word": "organised",
         "emoji": "📁",
         "form": "adjective",
-        "opposite": "disorganised",
         "definitions": [
             {
                 "text": "Able to plan and manage things in an orderly way.",
@@ -2637,7 +2541,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -2645,7 +2549,6 @@
         "word": "overweight",
         "emoji": "⚖️",
         "form": "adjective",
-        "opposite": "underweight",
         "definitions": [
             {
                 "text": "Heavier than is considered healthy.",
@@ -2664,7 +2567,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "diet_healthy_eating",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -2672,7 +2575,6 @@
         "word": "permanent",
         "emoji": "🏗️",
         "form": "adjective",
-        "opposite": "temporary",
         "definitions": [
             {
                 "text": "Lasting for a long time or forever.",
@@ -2691,7 +2593,7 @@
         "transcription": "ˈpɜːrmənənt",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2699,7 +2601,6 @@
         "word": "personal",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "public",
         "definitions": [
             {
                 "text": "Relating to a particular person's life, rather than their business or professional life.",
@@ -2726,7 +2627,6 @@
         "word": "pessimistic",
         "emoji": "☁️",
         "form": "adjective",
-        "opposite": "optimistic",
         "definitions": [
             {
                 "text": "Thinking that bad things are more likely to happen or emphasizing the bad part of a situation.",
@@ -2754,7 +2654,6 @@
         "word": "physical",
         "emoji": "💪",
         "form": "adjective",
-        "opposite": "mental",
         "definitions": [
             {
                 "text": "Relating to the body rather than the mind.",
@@ -2772,7 +2671,7 @@
         "transcription": "ˈfɪzɪkl",
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -2780,7 +2679,6 @@
         "word": "political",
         "emoji": "🏛️",
         "form": "adjective",
-        "opposite": "non-political",
         "definitions": [
             {
                 "text": "Relating to politics.",
@@ -2798,7 +2696,7 @@
         "transcription": "pəˈlɪtɪkl",
         "lang": "en",
         "level": "elementary",
-        "theme": "society_politics",
+        "theme": "social",
         "sub_theme": null
     },
     {
@@ -2806,7 +2704,6 @@
         "word": "popular",
         "emoji": "🌟",
         "form": "adjective",
-        "opposite": "unpopular",
         "definitions": [
             {
                 "text": "Liked or enjoyed by many people.",
@@ -2826,7 +2723,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2834,7 +2731,6 @@
         "word": "positive",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "negative",
         "definitions": [
             {
                 "text": "Full of hope and confidence.",
@@ -2853,7 +2749,7 @@
         "transcription": "🇬🇧 ˈpɒzətɪv | 🇺🇸 ˈpɑːzətɪv",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2861,7 +2757,6 @@
         "word": "potential",
         "emoji": "🌱",
         "form": "adjective",
-        "opposite": "actual",
         "definitions": [
             {
                 "text": "Possible when the necessary conditions exist.",
@@ -2879,7 +2774,7 @@
         "transcription": "pəˈtɛnʃl",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2887,7 +2782,6 @@
         "word": "practical",
         "emoji": "🛠️",
         "form": "adjective",
-        "opposite": "impractical",
         "definitions": [
             {
                 "text": "Useful in real situations; sensible.",
@@ -2905,7 +2799,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2913,7 +2807,6 @@
         "word": "previous",
         "emoji": "🔙",
         "form": "adjective",
-        "opposite": "next",
         "definitions": [
             {
                 "text": "Happening or existing before something or someone else.",
@@ -2940,7 +2833,6 @@
         "word": "private",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "public",
         "definitions": [
             {
                 "text": "Only for one person or group and not for everyone.",
@@ -2960,7 +2852,7 @@
         "transcription": "ˈpraɪvət",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2968,7 +2860,6 @@
         "word": "productive",
         "emoji": "⚙️",
         "form": "adjective",
-        "opposite": "unproductive",
         "definitions": [
             {
                 "text": "Doing or producing a lot of useful work.",
@@ -2986,7 +2877,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -2994,7 +2885,6 @@
         "word": "professional",
         "emoji": "👔",
         "form": "adjective",
-        "opposite": "unprofessional",
         "definitions": [
             {
                 "text": "Behaving in a skilled and appropriate way for a job.",
@@ -3012,7 +2902,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -3020,7 +2910,6 @@
         "word": "public",
         "emoji": "🏢",
         "form": "adjective",
-        "opposite": "private",
         "definitions": [
             {
                 "text": "Relating to or available to everyone.",
@@ -3040,7 +2929,7 @@
         "transcription": "ˈpʌblɪk",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3048,7 +2937,6 @@
         "word": "qualified",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "unqualified",
         "definitions": [
             {
                 "text": "Having the necessary skills or training.",
@@ -3066,7 +2954,7 @@
         "transcription": "🇬🇧 ˈkwɒlɪfaɪd | 🇺🇸 ˈkwɑːlɪfaɪd",
         "lang": "en",
         "level": "elementary",
-        "theme": "qualifications_exams",
+        "theme": "school",
         "sub_theme": null
     },
     {
@@ -3074,7 +2962,6 @@
         "word": "rare",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "common",
         "definitions": [
             {
                 "text": "Not common; very unusual.",
@@ -3094,7 +2981,7 @@
         "transcription": "reər",
         "lang": "en",
         "level": "elementary",
-        "theme": "quantity_degree",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3102,7 +2989,6 @@
         "word": "reasonable",
         "emoji": "⚖️",
         "form": "adjective",
-        "opposite": "unreasonable",
         "definitions": [
             {
                 "text": "Fair and sensible.",
@@ -3121,7 +3007,7 @@
         "transcription": "ˈriːznəbl",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3129,7 +3015,6 @@
         "word": "recent",
         "emoji": "🕒",
         "form": "adjective",
-        "opposite": "old",
         "definitions": [
             {
                 "text": "Having happened not long ago.",
@@ -3156,7 +3041,6 @@
         "word": "regular",
         "emoji": "🔄",
         "form": "adjective",
-        "opposite": "irregular",
         "definitions": [
             {
                 "text": "Happening or doing something often.",
@@ -3175,7 +3059,7 @@
         "transcription": "ˈrɛɡjələr",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3183,7 +3067,6 @@
         "word": "relevant",
         "emoji": "🎯",
         "form": "adjective",
-        "opposite": "irrelevant",
         "definitions": [
             {
                 "text": "Connected with what is happening or being discussed.",
@@ -3201,7 +3084,7 @@
         "transcription": "ˈrɛləvənt",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3209,7 +3092,6 @@
         "word": "reliable",
         "emoji": "🤝",
         "form": "adjective",
-        "opposite": "unreliable",
         "definitions": [
             {
                 "text": "Consistently good; able to be trusted.",
@@ -3227,7 +3109,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "personal_qualities",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -3235,7 +3117,6 @@
         "word": "remote",
         "emoji": "🏔️",
         "form": "adjective",
-        "opposite": "central",
         "definitions": [
             {
                 "text": "Far away from other places.",
@@ -3253,7 +3134,7 @@
         "transcription": "rɪˈmoʊt",
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -3261,7 +3142,6 @@
         "word": "responsible",
         "emoji": "🛡️",
         "form": "adjective",
-        "opposite": "irresponsible",
         "definitions": [
             {
                 "text": "Having a duty to deal with something; reliable.",
@@ -3279,7 +3159,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -3287,7 +3167,6 @@
         "word": "satisfied",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "dissatisfied",
         "definitions": [
             {
                 "text": "Pleased because you have got what you wanted.",
@@ -3314,7 +3193,6 @@
         "word": "scientific",
         "emoji": "🔬",
         "form": "adjective",
-        "opposite": "unscientific",
         "definitions": [
             {
                 "text": "Relating to science.",
@@ -3332,7 +3210,7 @@
         "transcription": "ˌsaɪənˈtɪfɪk",
         "lang": "en",
         "level": "elementary",
-        "theme": "basic_science",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -3340,7 +3218,6 @@
         "word": "selfish",
         "emoji": "🤳",
         "form": "adjective",
-        "opposite": "unselfish",
         "definitions": [
             {
                 "text": "Someone who is selfish only thinks of their own advantage.",
@@ -3367,7 +3244,6 @@
         "word": "sensible",
         "emoji": "🧠",
         "form": "adjective",
-        "opposite": "foolish",
         "definitions": [
             {
                 "text": "Based on or acting on good judgment and practical ideas or understanding.",
@@ -3395,7 +3271,6 @@
         "word": "sensitive",
         "emoji": "🥺",
         "form": "adjective",
-        "opposite": "insensitive",
         "definitions": [
             {
                 "text": "Easily upset by the things people say or do, or causing people to be upset, embarrassed, or angry.",
@@ -3423,7 +3298,6 @@
         "word": "severe",
         "emoji": "🌋",
         "form": "adjective",
-        "opposite": "mild",
         "definitions": [
             {
                 "text": "Very serious.",
@@ -3442,7 +3316,7 @@
         "transcription": "sɪˈvɪər",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3450,7 +3324,6 @@
         "word": "similar",
         "emoji": "👯",
         "form": "adjective",
-        "opposite": "different",
         "definitions": [
             {
                 "text": "Almost the same; having many shared features.",
@@ -3468,7 +3341,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3476,7 +3349,6 @@
         "word": "sociable",
         "emoji": "🗣️",
         "form": "adjective",
-        "opposite": "unsociable",
         "definitions": [
             {
                 "text": "Enjoying spending time with other people.",
@@ -3494,7 +3366,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "personal_qualities",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -3502,7 +3374,6 @@
         "word": "social",
         "emoji": "👥",
         "form": "adjective",
-        "opposite": "anti-social",
         "definitions": [
             {
                 "text": "Relating to society or to spending time with other people.",
@@ -3520,7 +3391,7 @@
         "transcription": "ˈsoʊʃl",
         "lang": "en",
         "level": "elementary",
-        "theme": "society_politics",
+        "theme": "social",
         "sub_theme": null
     },
     {
@@ -3528,7 +3399,6 @@
         "word": "spiritual",
         "emoji": "🧘",
         "form": "adjective",
-        "opposite": "physical",
         "definitions": [
             {
                 "text": "Relating to deep feelings and beliefs, especially religious beliefs.",
@@ -3547,7 +3417,7 @@
         "transcription": "ˈspɪrɪtʃuəl",
         "lang": "en",
         "level": "elementary",
-        "theme": "customs_traditions",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3555,7 +3425,6 @@
         "word": "strange",
         "emoji": "❓",
         "form": "adjective",
-        "opposite": "normal",
         "definitions": [
             {
                 "text": "Unusual or surprising in a way that is hard to understand.",
@@ -3575,7 +3444,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3583,7 +3452,6 @@
         "word": "stressed",
         "emoji": "😫",
         "form": "adjective",
-        "opposite": "relaxed",
         "definitions": [
             {
                 "text": "Feeling worried and tense from pressure.",
@@ -3610,7 +3478,6 @@
         "word": "stressful",
         "emoji": "😫",
         "form": "adjective",
-        "opposite": "relaxing",
         "definitions": [
             {
                 "text": "Causing worry or anxiety.",
@@ -3636,7 +3503,6 @@
         "word": "successful",
         "emoji": "🏆",
         "form": "adjective",
-        "opposite": "unsuccessful",
         "definitions": [
             {
                 "text": "Having achieved something desired.",
@@ -3654,7 +3520,7 @@
         "transcription": "səkˈsɛsfl",
         "lang": "en",
         "level": "elementary",
-        "theme": "career_development",
+        "theme": "jobs",
         "sub_theme": null
     },
     {
@@ -3662,7 +3528,6 @@
         "word": "supportive",
         "emoji": "🤝",
         "form": "adjective",
-        "opposite": "unsupportive",
         "definitions": [
             {
                 "text": "Giving help and encouragement.",
@@ -3680,7 +3545,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "personal_qualities",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -3688,7 +3553,6 @@
         "word": "sustainable",
         "emoji": "♻️",
         "form": "adjective",
-        "opposite": "unsustainable",
         "definitions": [
             {
                 "text": "Able to continue over a long period of time without damaging the environment.",
@@ -3706,7 +3570,7 @@
         "transcription": "səˈsteɪnəbl",
         "lang": "en",
         "level": "elementary",
-        "theme": "environment",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -3714,7 +3578,6 @@
         "word": "talented",
         "emoji": "🌟",
         "form": "adjective",
-        "opposite": "untalented",
         "definitions": [
             {
                 "text": "With talent; able to do something well.",
@@ -3742,7 +3605,6 @@
         "word": "tame",
         "emoji": "🐈",
         "form": "adjective",
-        "opposite": "wild",
         "definitions": [
             {
                 "text": "Not wild; comfortable around humans.",
@@ -3768,7 +3630,6 @@
         "word": "temporary",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "permanent",
         "definitions": [
             {
                 "text": "Not lasting or needed for very long.",
@@ -3786,7 +3647,7 @@
         "transcription": "ˈtɛmprəri",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3794,7 +3655,6 @@
         "word": "tight",
         "emoji": "👚",
         "form": "adjective",
-        "opposite": "loose",
         "definitions": [
             {
                 "text": "Fitting very closely or too closely.",
@@ -3822,7 +3682,6 @@
         "word": "traditional",
         "emoji": "🏛️",
         "form": "adjective",
-        "opposite": "modern",
         "definitions": [
             {
                 "text": "Following established customs or ways.",
@@ -3840,7 +3699,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3848,7 +3707,6 @@
         "word": "typical",
         "emoji": "🔄",
         "form": "adjective",
-        "opposite": "unusual",
         "definitions": [
             {
                 "text": "Having the usual qualities of a type of person or thing.",
@@ -3866,7 +3724,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3874,7 +3732,6 @@
         "word": "unable",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "able",
         "definitions": [
             {
                 "text": "Not able to do something.",
@@ -3892,7 +3749,7 @@
         "transcription": "ʌnˈeɪbl",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3900,7 +3757,6 @@
         "word": "unfair",
         "emoji": "⚖️",
         "form": "adjective",
-        "opposite": "fair",
         "definitions": [
             {
                 "text": "Not treating people in an equal or right way.",
@@ -3918,7 +3774,7 @@
         "transcription": "ˌʌnˈfɛər",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3926,7 +3782,6 @@
         "word": "unfriendly",
         "emoji": "😠",
         "form": "adjective",
-        "opposite": "friendly",
         "definitions": [
             {
                 "text": "Not friendly.",
@@ -3952,7 +3807,6 @@
         "word": "unlikely",
         "emoji": "🎲",
         "form": "adjective",
-        "opposite": "likely",
         "definitions": [
             {
                 "text": "Not probable or likely to happen.",
@@ -3970,7 +3824,7 @@
         "transcription": "ʌnˈlaɪkli",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -3978,7 +3832,6 @@
         "word": "unlucky",
         "emoji": "😿",
         "form": "adjective",
-        "opposite": "lucky",
         "definitions": [
             {
                 "text": "Having or bringing bad luck.",
@@ -4004,7 +3857,6 @@
         "word": "unnecessary",
         "emoji": "🍃",
         "form": "adjective",
-        "opposite": "necessary",
         "definitions": [
             {
                 "text": "Not needed; more than is needed.",
@@ -4022,7 +3874,7 @@
         "transcription": "ʌnˈnɛsəsəri",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4030,7 +3882,6 @@
         "word": "unpopular",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "popular",
         "definitions": [
             {
                 "text": "Not liked by many people.",
@@ -4048,7 +3899,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4056,7 +3907,6 @@
         "word": "unusual",
         "emoji": "🌀",
         "form": "adjective",
-        "opposite": "usual",
         "definitions": [
             {
                 "text": "Different from what is usual or expected.",
@@ -4076,7 +3926,7 @@
         "transcription": "ʌnˈjuːʒuəl",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4084,7 +3934,6 @@
         "word": "upset",
         "emoji": "😢",
         "form": "adjective",
-        "opposite": "happy",
         "definitions": [
             {
                 "text": "Worried, unhappy, or angry.",
@@ -4112,7 +3961,6 @@
         "word": "useless",
         "emoji": "🗑️",
         "form": "adjective",
-        "opposite": "useful",
         "definitions": [
             {
                 "text": "Without any useful value; not helpful.",
@@ -4130,7 +3978,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4138,7 +3986,6 @@
         "word": "valuable",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "worthless",
         "definitions": [
             {
                 "text": "Worth a lot of money.",
@@ -4158,7 +4005,7 @@
         "transcription": "ˈvæljuəbl",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -4166,7 +4013,6 @@
         "word": "vast",
         "emoji": "🌊",
         "form": "adjective",
-        "opposite": "tiny",
         "definitions": [
             {
                 "text": "Extremely big.",
@@ -4186,7 +4032,7 @@
         "transcription": "vɑːst",
         "lang": "en",
         "level": "elementary",
-        "theme": "quantity_degree",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4194,7 +4040,6 @@
         "word": "wealthy",
         "emoji": "💰",
         "form": "adjective",
-        "opposite": "poor",
         "definitions": [
             {
                 "text": "Rich.",
@@ -4214,7 +4059,7 @@
         "transcription": "ˈwɛlθi",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -4222,7 +4067,6 @@
         "word": "wild",
         "emoji": "🦁",
         "form": "adjective",
-        "opposite": "tame",
         "definitions": [
             {
                 "text": "Living or growing in nature; not controlled by humans.",
@@ -4248,7 +4092,6 @@
         "word": "willing",
         "emoji": "🙋",
         "form": "adjective",
-        "opposite": "unwilling",
         "definitions": [
             {
                 "text": "Happy to do something if it is needed.",
@@ -4276,7 +4119,6 @@
         "word": "wise",
         "emoji": "🦉",
         "form": "adjective",
-        "opposite": "foolish",
         "definitions": [
             {
                 "text": "Having or showing the ability to make good judgments, based on a deep understanding and experience of life.",
@@ -4304,7 +4146,6 @@
         "word": "worth",
         "emoji": "💰",
         "form": "adjective",
-        "opposite": "worthless",
         "definitions": [
             {
                 "text": "Having a value equal to or deserving of.",
@@ -4319,7 +4160,7 @@
         "transcription": "wɜːrθ",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -4327,7 +4168,6 @@
         "word": "worthless",
         "emoji": "🗑️",
         "form": "adjective",
-        "opposite": "valuable",
         "definitions": [
             {
                 "text": "Having no value in money.",
@@ -4347,7 +4187,7 @@
         "transcription": "ˈwɜːrθləs",
         "lang": "en",
         "level": "elementary",
-        "theme": "finances",
+        "theme": "numbers",
         "sub_theme": null
     },
     {
@@ -4371,7 +4211,6 @@
         ],
         "comparative": "more delighted",
         "superlative": "the most delighted",
-        "opposite": "miserable",
         "transcription": "dɪˈlaɪtɪd",
         "lang": "en",
         "level": "elementary",
@@ -4399,11 +4238,10 @@
         ],
         "comparative": "duller",
         "superlative": "the dullest",
-        "opposite": "bright",
         "transcription": "dʌl",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4426,11 +4264,10 @@
         ],
         "comparative": "more elderly",
         "superlative": "the most elderly",
-        "opposite": "young",
         "transcription": "ˈɛldərli",
         "lang": "en",
         "level": "elementary",
-        "theme": "personal_qualities",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -4453,11 +4290,10 @@
         ],
         "comparative": "more frequent",
         "superlative": "the most frequent",
-        "opposite": "rare",
         "transcription": "ˈfriːkwənt",
         "lang": "en",
         "level": "elementary",
-        "theme": "quantity_degree",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4480,11 +4316,10 @@
         ],
         "comparative": null,
         "superlative": "innermost",
-        "opposite": "outer",
         "transcription": "ˈɪnər",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4508,11 +4343,10 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "secondary",
         "transcription": "meɪn",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4535,11 +4369,10 @@
         ],
         "comparative": "more medical",
         "superlative": "the most medical",
-        "opposite": "non-medical",
         "transcription": "ˈmɛdɪkl",
         "lang": "en",
         "level": "elementary",
-        "theme": "body",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -4563,11 +4396,10 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "distant",
         "transcription": "ˌnɪərˈbaɪ",
         "lang": "en",
         "level": "elementary",
-        "theme": "places",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -4590,11 +4422,10 @@
         ],
         "comparative": null,
         "superlative": "outermost",
-        "opposite": "inner",
         "transcription": "ˈaʊtər",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4618,7 +4449,6 @@
         ],
         "comparative": "more pleasant",
         "superlative": "the most pleasant",
-        "opposite": "unpleasant",
         "transcription": "ˈplɛznt",
         "lang": "en",
         "level": "elementary",
@@ -4646,7 +4476,6 @@
         ],
         "comparative": "more pleased",
         "superlative": "the most pleased",
-        "opposite": "annoyed",
         "transcription": "pliːzd",
         "lang": "en",
         "level": "elementary",
@@ -4673,11 +4502,10 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "primary",
         "transcription": "ˈsɛkəndri",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4700,11 +4528,10 @@
         ],
         "comparative": "more silent",
         "superlative": "the most silent",
-        "opposite": "noisy",
         "transcription": "ˈsaɪlənt",
         "lang": "en",
         "level": "elementary",
-        "theme": "condition_state",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4727,7 +4554,6 @@
         ],
         "comparative": "more sudden",
         "superlative": "the most sudden",
-        "opposite": "gradual",
         "transcription": "ˈsʌdn",
         "lang": "en",
         "level": "elementary",
@@ -4754,11 +4580,10 @@
         ],
         "comparative": "more suitable",
         "superlative": "the most suitable",
-        "opposite": "unsuitable",
         "transcription": "ˈsuːtəbl",
         "lang": "en",
         "level": "elementary",
-        "theme": "giving_reasons",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4781,11 +4606,10 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "uniform",
         "transcription": "ˈvɛəriəs",
         "lang": "en",
         "level": "elementary",
-        "theme": "quantity_degree",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4793,7 +4617,6 @@
         "word": "humid",
         "emoji": "💦",
         "form": "adjective",
-        "opposite": "dry",
         "definitions": [
             {
                 "text": "Having a high level of water vapor in the atmosphere.",
@@ -4813,7 +4636,7 @@
         "transcription": "ˈhjuːmɪd",
         "lang": "en",
         "level": "elementary",
-        "theme": "weather_climate",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -4821,7 +4644,6 @@
         "word": "chilly",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "warm",
         "definitions": [
             {
                 "text": "Cold enough to make you feel uncomfortable.",
@@ -4841,7 +4663,7 @@
         "transcription": "ˈtʃɪli",
         "lang": "en",
         "level": "elementary",
-        "theme": "weather_climate",
+        "theme": "nature",
         "sub_theme": null
     },
     {
@@ -4849,7 +4671,6 @@
         "word": "engaged",
         "emoji": "💍",
         "form": "adjective",
-        "opposite": "single",
         "definitions": [
             {
                 "text": "Having formally agreed to marry.",
@@ -4868,7 +4689,7 @@
         "transcription": "ɪnˈɡeɪdʒd",
         "lang": "en",
         "level": "elementary",
-        "theme": "marriage_partnership",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -4876,7 +4697,6 @@
         "word": "furious",
         "emoji": "😡",
         "form": "adjective",
-        "opposite": "calm",
         "definitions": [
             {
                 "text": "Extremely angry.",
@@ -4896,7 +4716,7 @@
         "transcription": "ˈfjʊəriəs",
         "lang": "en",
         "level": "elementary",
-        "theme": "emotional_intensity",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4904,7 +4724,6 @@
         "word": "terrified",
         "emoji": "😱",
         "form": "adjective",
-        "opposite": "brave",
         "definitions": [
             {
                 "text": "Extremely frightened.",
@@ -4924,7 +4743,7 @@
         "transcription": "ˈtɛrɪfaɪd",
         "lang": "en",
         "level": "elementary",
-        "theme": "emotional_intensity",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4932,7 +4751,6 @@
         "word": "exhausted",
         "emoji": "😴",
         "form": "adjective",
-        "opposite": "energetic",
         "definitions": [
             {
                 "text": "Extremely tired.",
@@ -4952,7 +4770,7 @@
         "transcription": "ɪɡˈzɔːstɪd",
         "lang": "en",
         "level": "elementary",
-        "theme": "emotional_intensity",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -4960,7 +4778,6 @@
         "word": "romantic",
         "emoji": "💖",
         "form": "adjective",
-        "opposite": "unromantic",
         "definitions": [
             {
                 "text": "Relating to love or a close loving relationship.",
@@ -4988,7 +4805,6 @@
         "word": "confused",
         "emoji": "😕",
         "form": "adjective",
-        "opposite": "clear",
         "definitions": [
             {
                 "text": "Unable to think clearly or to understand something.",
@@ -5008,7 +4824,7 @@
         "transcription": "kənˈfjuːzd",
         "lang": "en",
         "level": "elementary",
-        "theme": "emotional_intensity",
+        "theme": "describing",
         "sub_theme": null
     }
 ];
