@@ -2,64 +2,136 @@
 (function() {
     const data = [
     {
+        "id": "it_intermediate_places_001",
         "word": "Toscana",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "it_intermediate_places_002",
         "word": "Australia",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "it_intermediate_places_003",
         "word": "Giappone",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "it_intermediate_places_004",
         "word": "Cina",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "it_intermediate_places_005",
         "word": "Brasile",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "it_intermediate_places_006",
         "word": "India",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "it_intermediate_places_007",
         "word": "Tokyo",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "it_intermediate_places_008",
         "word": "Sydney",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "it_intermediate_places_009",
         "word": "Pechino",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "it_intermediate_places_010",
         "word": "Rio de Janeiro",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "phrase",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "it_intermediate_places_011",
         "word": "Il Cairo",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "phrase",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "it_intermediate_places_012",
         "word": "Delhi",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     }
 ];
     const lang = "it";

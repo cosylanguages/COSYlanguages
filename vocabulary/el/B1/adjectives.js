@@ -2,13 +2,12 @@
 (function() {
     const data = [
     {
+        "id": "el_intermediate_work_001",
         "word": "αυτοαπασχολούμενος",
+        "lang": "el",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "👨‍💻",
+        "theme": "work",
         "form": "adjective",
-        "subtext": "",
-        "synonyms": ["ελεύθερος επαγγελματίας"],
         "definitions": [
             {
                 "text": "Το να εργάζεσαι για τον εαυτό σου παρά για μια εταιρεία.",
@@ -16,16 +15,20 @@
                     "Είναι αυτοαπασχολούμενη ως γραφίστρια."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "👨‍💻",
+        "_legacy": {
+            "subtext": ""
+        }
     },
     {
+        "id": "el_intermediate_environment_001",
         "word": "βιώσιμος",
+        "lang": "el",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "♻️",
+        "theme": "environment",
         "form": "adjective",
-        "subtext": "",
-        "synonyms": ["αειφόρος"],
         "definitions": [
             {
                 "text": "Η χρήση των πόρων με τρόπο που δεν βλάπτει το περιβάλλον για το μέλλον.",
@@ -33,7 +36,12 @@
                     "Χρειαζόμαστε πιο βιώσιμους τρόπους διαβίωσης."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "♻️",
+        "_legacy": {
+            "subtext": ""
+        }
     }
 ];
     const lang = "el";

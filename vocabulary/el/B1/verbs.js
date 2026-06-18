@@ -2,14 +2,12 @@
 (function() {
     const data = [
     {
+        "id": "el_intermediate_social_070",
         "word": "κάνω κηπουρική",
+        "lang": "el",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🧑‍🌾",
+        "theme": "social",
         "form": "verb",
-        "group": "1st_conj",
-        "classification": "regular",
-        "aspect": "action",
         "definitions": [
             {
                 "text": "Εργάζομαι σε έναν κήπο για την καλλιέργεια φυτών.",
@@ -18,18 +16,23 @@
                 ]
             }
         ],
-        "v3": "έκανα κηπουρική",
-        "auxiliary": "έχω"
+        "transcription": "-",
+        "emoji": "🧑‍🌾",
+        "_legacy": {
+            "group": "1st_conj",
+            "classification": "regular",
+            "aspect": "action",
+            "v3": "έκανα κηπουρική",
+            "auxiliary": "έχω"
+        }
     },
     {
+        "id": "el_intermediate_social_071",
         "word": "κάνω εθελοντισμό",
+        "lang": "el",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🙋",
+        "theme": "social",
         "form": "verb",
-        "group": "1st_conj",
-        "classification": "regular",
-        "aspect": "action",
         "definitions": [
             {
                 "text": "Προσφέρομαι να κάνω κάτι χωρίς να πληρωθώ.",
@@ -38,8 +41,15 @@
                 ]
             }
         ],
-        "v3": "έκανα εθελοντισμό",
-        "auxiliary": "έχω"
+        "transcription": "-",
+        "emoji": "🙋",
+        "_legacy": {
+            "group": "1st_conj",
+            "classification": "regular",
+            "aspect": "action",
+            "v3": "έκανα εθελοντισμό",
+            "auxiliary": "έχω"
+        }
     }
 ];
     const lang = "el";

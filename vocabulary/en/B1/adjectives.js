@@ -4,46 +4,48 @@
     {
         "id": "en_intermediate_social_027",
         "word": "thin",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
         "form": "adjective",
-        "transcription": "θɪn",
-        "subtext": "paper thin / exceptionally thin / growing thin",
         "definitions": [
             {
                 "text": "thin",
                 "examples": []
             }
         ],
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "sub_theme": null
+        "transcription": "θɪn",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "paper thin / exceptionally thin / growing thin"
+        }
     },
     {
         "id": "en_intermediate_environment_007",
         "word": "stormy",
-        "emoji": "⛈️",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "environment",
         "form": "adjective",
-        "transcription": "ˈstɔːmi",
-        "subtext": "stormy weather / a stormy relationship / stormy skies",
         "definitions": [
             {
                 "text": "stormy",
                 "examples": []
             }
         ],
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "environment",
-        "sub_theme": null
+        "transcription": "ˈstɔːmi",
+        "emoji": "⛈️",
+        "_legacy": {
+            "subtext": "stormy weather / a stormy relationship / stormy skies"
+        }
     },
     {
         "id": "en_intermediate_career_development_025",
         "word": "self-employed",
-        "emoji": "🧑‍💻",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "ˌsɛlf ɪmˈplɔɪd",
-        "subtext": "freelance, work for yourself",
-        "opposite": "employed",
         "definitions": [
             {
                 "text": "Working for yourself rather than for a company.",
@@ -54,18 +56,20 @@
                 ]
             }
         ],
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "ˌsɛlf ɪmˈplɔɪd",
+        "emoji": "🧑‍💻",
+        "_legacy": {
+            "subtext": "freelance, work for yourself",
+            "opposite": "employed"
+        }
     },
     {
         "id": "en_intermediate_career_development_026",
         "word": "freelance",
-        "emoji": "🧑‍💻",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective / adverb",
-        "transcription": "ˈfriːlɑːns",
-        "subtext": "work freelance, freelance journalist",
         "definitions": [
             {
                 "text": "Working independently for different clients rather than one employer.",
@@ -74,18 +78,19 @@
                 ]
             }
         ],
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "ˈfriːlɑːns",
+        "emoji": "🧑‍💻",
+        "_legacy": {
+            "subtext": "work freelance, freelance journalist"
+        }
     },
     {
         "id": "en_intermediate_environment_008",
         "word": "sustainable",
-        "emoji": "♻️",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "environment",
         "form": "adjective",
-        "transcription": "səˈsteɪnəbl",
-        "subtext": "sustainable development, eco-friendly",
         "definitions": [
             {
                 "text": "Using resources in a way that does not damage the environment for the future.",
@@ -96,16 +101,19 @@
                 ]
             }
         ],
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "environment",
-        "sub_theme": null
+        "transcription": "səˈsteɪnəbl",
+        "emoji": "♻️",
+        "_legacy": {
+            "subtext": "sustainable development, eco-friendly"
+        }
     },
     {
         "id": "en_intermediate_stress_anxiety_001",
         "word": "anxious",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
         "form": "adjective",
-        "transcription": "ˈæŋkʃəs",
         "definitions": [
             {
                 "text": "Feeling worried and nervous about something uncertain.",
@@ -114,17 +122,19 @@
                 ]
             }
         ],
-        "subtext": "feel anxious / very anxious / anxious about",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "stress_anxiety",
-        "sub_theme": null
+        "transcription": "ˈæŋkʃəs",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "feel anxious / very anxious / anxious about"
+        }
     },
     {
         "id": "en_intermediate_stress_anxiety_002",
         "word": "disappointed",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
         "form": "adjective",
-        "transcription": "ˌdɪsəˈpɔɪntɪd",
         "definitions": [
             {
                 "text": "Feeling sad because something was not as expected.",
@@ -133,17 +143,19 @@
                 ]
             }
         ],
-        "subtext": "feel disappointed / bitterly disappointed / disappointed with",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "stress_anxiety",
-        "sub_theme": null
+        "transcription": "ˌdɪsəˈpɔɪntɪd",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "feel disappointed / bitterly disappointed / disappointed with"
+        }
     },
     {
         "id": "en_intermediate_stress_anxiety_003",
         "word": "embarrassed",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
         "form": "adjective",
-        "transcription": "ɪmˈbærəst",
         "definitions": [
             {
                 "text": "Feeling ashamed or self-conscious.",
@@ -152,17 +164,19 @@
                 ]
             }
         ],
-        "subtext": "feel embarrassed / deeply embarrassed / easily embarrassed",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "stress_anxiety",
-        "sub_theme": null
+        "transcription": "ɪmˈbærəst",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "feel embarrassed / deeply embarrassed / easily embarrassed"
+        }
     },
     {
         "id": "en_intermediate_career_development_027",
         "word": "enthusiastic",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "ɪnˌθjuːziˈæstɪk",
         "definitions": [
             {
                 "text": "Feeling or showing great interest and excitement.",
@@ -171,17 +185,19 @@
                 ]
             }
         ],
-        "subtext": "very enthusiastic / enthusiastic about / hugely enthusiastic",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "ɪnˌθjuːziˈæstɪk",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very enthusiastic / enthusiastic about / hugely enthusiastic"
+        }
     },
     {
         "id": "en_intermediate_stress_anxiety_004",
         "word": "frustrated",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
         "form": "adjective",
-        "transcription": "frʌˈstreɪtɪd",
         "definitions": [
             {
                 "text": "Feeling annoyed because you cannot do what you want.",
@@ -190,17 +206,19 @@
                 ]
             }
         ],
-        "subtext": "feel frustrated / very frustrated / deeply frustrated",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "stress_anxiety",
-        "sub_theme": null
+        "transcription": "frʌˈstreɪtɪd",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "feel frustrated / very frustrated / deeply frustrated"
+        }
     },
     {
         "id": "en_intermediate_values_beliefs_001",
         "word": "grateful",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
         "form": "adjective",
-        "transcription": "ˈɡreɪtfl",
         "definitions": [
             {
                 "text": "Feeling or showing thanks for kindness received.",
@@ -209,17 +227,19 @@
                 ]
             }
         ],
-        "subtext": "very grateful / deeply grateful / grateful for",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "values_beliefs",
-        "sub_theme": null
+        "transcription": "ˈɡreɪtfl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very grateful / deeply grateful / grateful for"
+        }
     },
     {
         "id": "en_intermediate_stress_anxiety_005",
         "word": "jealous",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
         "form": "adjective",
-        "transcription": "ˈdʒɛləs",
         "definitions": [
             {
                 "text": "Feeling unhappy because someone has something you want.",
@@ -228,17 +248,19 @@
                 ]
             }
         ],
-        "subtext": "feel jealous / very jealous / jealous of",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "stress_anxiety",
-        "sub_theme": null
+        "transcription": "ˈdʒɛləs",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "feel jealous / very jealous / jealous of"
+        }
     },
     {
         "id": "en_intermediate_mental_health_wellbeing_012",
         "word": "lonely",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈləʊnli | 🇺🇸 ˈloʊnli",
         "definitions": [
             {
                 "text": "Feeling unhappy because you are without company.",
@@ -247,17 +269,19 @@
                 ]
             }
         ],
-        "subtext": "feel lonely / very lonely / desperately lonely",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈləʊnli | 🇺🇸 ˈloʊnli",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "feel lonely / very lonely / desperately lonely"
+        }
     },
     {
         "id": "en_intermediate_stress_anxiety_006",
         "word": "miserable",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
         "form": "adjective",
-        "transcription": "ˈmɪzrəbl",
         "definitions": [
             {
                 "text": "Feeling very unhappy and without hope.",
@@ -266,17 +290,19 @@
                 ]
             }
         ],
-        "subtext": "feel miserable / absolutely miserable / make someone miserable",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "stress_anxiety",
-        "sub_theme": null
+        "transcription": "ˈmɪzrəbl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "feel miserable / absolutely miserable / make someone miserable"
+        }
     },
     {
         "id": "en_intermediate_stress_anxiety_007",
         "word": "nervous",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
         "form": "adjective",
-        "transcription": "ˈnɜːvəs",
         "definitions": [
             {
                 "text": "Feeling worried about something upcoming.",
@@ -285,17 +311,19 @@
                 ]
             }
         ],
-        "subtext": "feel nervous / terribly nervous / nervous about",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "stress_anxiety",
-        "sub_theme": null
+        "transcription": "ˈnɜːvəs",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "feel nervous / terribly nervous / nervous about"
+        }
     },
     {
         "id": "en_intermediate_stress_anxiety_008",
         "word": "relieved",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
         "form": "adjective",
-        "transcription": "rɪˈliːvd",
         "definitions": [
             {
                 "text": "Feeling happy that something bad did not happen.",
@@ -304,17 +332,19 @@
                 ]
             }
         ],
-        "subtext": "feel relieved / greatly relieved / relieved to hear",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "stress_anxiety",
-        "sub_theme": null
+        "transcription": "rɪˈliːvd",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "feel relieved / greatly relieved / relieved to hear"
+        }
     },
     {
         "id": "en_intermediate_stress_anxiety_009",
         "word": "shocked",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
         "form": "adjective",
-        "transcription": "🇬🇧 ʃɒkt | 🇺🇸 ʃɑːkt",
         "definitions": [
             {
                 "text": "Feeling very surprised and upset.",
@@ -323,17 +353,19 @@
                 ]
             }
         ],
-        "subtext": "feel shocked / absolutely shocked / shocked by",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "stress_anxiety",
-        "sub_theme": null
+        "transcription": "🇬🇧 ʃɒkt | 🇺🇸 ʃɑːkt",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "feel shocked / absolutely shocked / shocked by"
+        }
     },
     {
         "id": "en_intermediate_career_development_028",
         "word": "ambitious",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "æmˈbɪʃəs",
         "definitions": [
             {
                 "text": "Having a strong desire to succeed.",
@@ -342,17 +374,19 @@
                 ]
             }
         ],
-        "subtext": "very ambitious / hugely ambitious / fiercely ambitious",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "æmˈbɪʃəs",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very ambitious / hugely ambitious / fiercely ambitious"
+        }
     },
     {
         "id": "en_intermediate_values_beliefs_002",
         "word": "brave",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
         "form": "adjective",
-        "transcription": "breɪv",
         "definitions": [
             {
                 "text": "Willing to face danger or difficulty.",
@@ -361,17 +395,19 @@
                 ]
             }
         ],
-        "subtext": "very brave / incredibly brave / a brave decision",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "values_beliefs",
-        "sub_theme": null
+        "transcription": "breɪv",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very brave / incredibly brave / a brave decision"
+        }
     },
     {
         "id": "en_intermediate_stress_anxiety_010",
         "word": "calm",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
         "form": "adjective",
-        "transcription": "kɑːm",
         "definitions": [
             {
                 "text": "Not showing nervousness; peaceful.",
@@ -380,17 +416,19 @@
                 ]
             }
         ],
-        "subtext": "stay calm / very calm / keep calm",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "stress_anxiety",
-        "sub_theme": null
+        "transcription": "kɑːm",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "stay calm / very calm / keep calm"
+        }
     },
     {
         "id": "en_intermediate_mental_health_wellbeing_013",
         "word": "cheerful",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
         "form": "adjective",
-        "transcription": "ˈtʃɪəfl",
         "definitions": [
             {
                 "text": "Feeling or showing happiness.",
@@ -399,17 +437,19 @@
                 ]
             }
         ],
-        "subtext": "very cheerful / naturally cheerful / cheerful attitude",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "transcription": "ˈtʃɪəfl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very cheerful / naturally cheerful / cheerful attitude"
+        }
     },
     {
         "id": "en_intermediate_career_development_029",
         "word": "determined",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "dɪˈtɜːmɪnd",
         "definitions": [
             {
                 "text": "Firmly decided to do something and not giving up.",
@@ -418,17 +458,19 @@
                 ]
             }
         ],
-        "subtext": "very determined / highly determined / absolutely determined",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "dɪˈtɜːmɪnd",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very determined / highly determined / absolutely determined"
+        }
     },
     {
         "id": "en_intermediate_values_beliefs_003",
         "word": "generous",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
         "form": "adjective",
-        "transcription": "ˈdʒɛnərəs",
         "definitions": [
             {
                 "text": "Willing to give time or money; more than expected.",
@@ -437,17 +479,19 @@
                 ]
             }
         ],
-        "subtext": "very generous / extremely generous / generous with",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "values_beliefs",
-        "sub_theme": null
+        "transcription": "ˈdʒɛnərəs",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very generous / extremely generous / generous with"
+        }
     },
     {
         "id": "en_intermediate_values_beliefs_004",
         "word": "gentle",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
         "form": "adjective",
-        "transcription": "ˈdʒɛntl",
         "definitions": [
             {
                 "text": "Kind and calm; not rough or violent.",
@@ -456,17 +500,19 @@
                 ]
             }
         ],
-        "subtext": "very gentle / a gentle approach / gentle reminder",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "values_beliefs",
-        "sub_theme": null
+        "transcription": "ˈdʒɛntl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very gentle / a gentle approach / gentle reminder"
+        }
     },
     {
         "id": "en_intermediate_values_beliefs_005",
         "word": "honest",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈɒnɪst | 🇺🇸 ˈɑːnɪst",
         "definitions": [
             {
                 "text": "Telling the truth; not deceiving.",
@@ -475,17 +521,19 @@
                 ]
             }
         ],
-        "subtext": "brutally honest / completely honest / very honest",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "values_beliefs",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈɒnɪst | 🇺🇸 ˈɑːnɪst",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "brutally honest / completely honest / very honest"
+        }
     },
     {
         "id": "en_intermediate_values_beliefs_006",
         "word": "humble",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
         "form": "adjective",
-        "transcription": "ˈhʌmbl",
         "definitions": [
             {
                 "text": "Not thinking you are better than others.",
@@ -494,17 +542,19 @@
                 ]
             }
         ],
-        "subtext": "very humble / genuinely humble / stay humble",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "values_beliefs",
-        "sub_theme": null
+        "transcription": "ˈhʌmbl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very humble / genuinely humble / stay humble"
+        }
     },
     {
         "id": "en_intermediate_career_development_030",
         "word": "impatient",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "ɪmˈpeɪʃnt",
         "definitions": [
             {
                 "text": "Unable to wait calmly; easily irritated by delay.",
@@ -513,17 +563,19 @@
                 ]
             }
         ],
-        "subtext": "very impatient / easily impatient / grow impatient",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "ɪmˈpeɪʃnt",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very impatient / easily impatient / grow impatient"
+        }
     },
     {
         "id": "en_intermediate_career_development_031",
         "word": "motivated",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈməʊtɪveɪtɪd | 🇺🇸 ˈmoʊtɪveɪtɪd",
         "definitions": [
             {
                 "text": "Having a desire to do something.",
@@ -533,17 +585,19 @@
                 ]
             }
         ],
-        "subtext": "highly motivated / self-motivated / strongly motivated",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈməʊtɪveɪtɪd | 🇺🇸 ˈmoʊtɪveɪtɪd",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "highly motivated / self-motivated / strongly motivated"
+        }
     },
     {
         "id": "en_intermediate_career_development_032",
         "word": "passionate",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "ˈpæʃənət",
         "definitions": [
             {
                 "text": "Having strong feelings about something.",
@@ -552,17 +606,19 @@
                 ]
             }
         ],
-        "subtext": "very passionate / deeply passionate / passionate about",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "ˈpæʃənət",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very passionate / deeply passionate / passionate about"
+        }
     },
     {
         "id": "en_intermediate_career_development_033",
         "word": "patient",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "ˈpeɪʃnt",
         "definitions": [
             {
                 "text": "Able to wait for a long time without getting annoyed.",
@@ -571,17 +627,19 @@
                 ]
             }
         ],
-        "subtext": "very patient / patient with / extraordinarily patient",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "ˈpeɪʃnt",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very patient / patient with / extraordinarily patient"
+        }
     },
     {
         "id": "en_intermediate_values_beliefs_007",
         "word": "sensible",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
         "form": "adjective",
-        "transcription": "ˈsɛnsəbl",
         "definitions": [
             {
                 "text": "Showing good judgement; practical and reasonable.",
@@ -590,17 +648,19 @@
                 ]
             }
         ],
-        "subtext": "very sensible / perfectly sensible / a sensible choice",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "values_beliefs",
-        "sub_theme": null
+        "transcription": "ˈsɛnsəbl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very sensible / perfectly sensible / a sensible choice"
+        }
     },
     {
         "id": "en_intermediate_structured_argument_001",
         "word": "adequate",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "structured_argument",
         "form": "adjective",
-        "transcription": "ˈædɪkwət",
         "definitions": [
             {
                 "text": "Enough or satisfactory for the purpose.",
@@ -609,17 +669,19 @@
                 ]
             }
         ],
-        "subtext": "barely adequate / more than adequate / quite adequate",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "structured_argument",
-        "sub_theme": null
+        "transcription": "ˈædɪkwət",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "barely adequate / more than adequate / quite adequate"
+        }
     },
     {
         "id": "en_intermediate_structured_argument_002",
         "word": "appropriate",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "structured_argument",
         "form": "adjective",
-        "transcription": "🇬🇧 əˈprəʊpriət | 🇺🇸 əˈproʊpriət",
         "definitions": [
             {
                 "text": "Suitable or right for a particular situation.",
@@ -628,17 +690,19 @@
                 ]
             }
         ],
-        "subtext": "entirely appropriate / highly appropriate / deemed appropriate",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "structured_argument",
-        "sub_theme": null
+        "transcription": "🇬🇧 əˈprəʊpriət | 🇺🇸 əˈproʊpriət",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "entirely appropriate / highly appropriate / deemed appropriate"
+        }
     },
     {
         "id": "en_intermediate_work_002",
         "word": "effective",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "adjective",
-        "transcription": "ɪˈfɛktɪv",
         "definitions": [
             {
                 "text": "Producing the intended result.",
@@ -647,17 +711,19 @@
                 ]
             }
         ],
-        "subtext": "highly effective / very effective / most effective",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "ɪˈfɛktɪv",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "highly effective / very effective / most effective"
+        }
     },
     {
         "id": "en_intermediate_work_003",
         "word": "efficient",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "adjective",
-        "transcription": "ɪˈfɪʃnt",
         "definitions": [
             {
                 "text": "Achieving maximum result with minimum waste of effort.",
@@ -666,17 +732,19 @@
                 ]
             }
         ],
-        "subtext": "highly efficient / very efficient / more efficient",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "ɪˈfɪʃnt",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "highly efficient / very efficient / more efficient"
+        }
     },
     {
         "id": "en_intermediate_equality_rights_001",
         "word": "fair",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "equality_rights",
         "form": "adjective",
-        "transcription": "🇬🇧 feə | 🇺🇸 feər",
         "definitions": [
             {
                 "text": "Treating people equally and without favouritism.",
@@ -685,17 +753,19 @@
                 ]
             }
         ],
-        "subtext": "very fair / completely fair / perfectly fair",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "equality_rights",
-        "sub_theme": null
+        "transcription": "🇬🇧 feə | 🇺🇸 feər",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very fair / completely fair / perfectly fair"
+        }
     },
     {
         "id": "en_intermediate_work_004",
         "word": "impressive",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "adjective",
-        "transcription": "ɪmˈprɛsɪv",
         "definitions": [
             {
                 "text": "Causing admiration; making a strong effect.",
@@ -704,17 +774,19 @@
                 ]
             }
         ],
-        "subtext": "very impressive / deeply impressive / highly impressive",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "ɪmˈprɛsɪv",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very impressive / deeply impressive / highly impressive"
+        }
     },
     {
         "id": "en_intermediate_cultural_heritage_001",
         "word": "original",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "cultural_heritage",
         "form": "adjective",
-        "transcription": "əˈrɪdʒənl",
         "definitions": [
             {
                 "text": "New and creative; not a copy.",
@@ -723,17 +795,19 @@
                 ]
             }
         ],
-        "subtext": "very original / completely original / an original idea",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "cultural_heritage",
-        "sub_theme": null
+        "transcription": "əˈrɪdʒənl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very original / completely original / an original idea"
+        }
     },
     {
         "id": "en_intermediate_mental_health_wellbeing_014",
         "word": "positive",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈpɒzətɪv | 🇺🇸 ˈpɑːzətɪv",
         "definitions": [
             {
                 "text": "Feeling hopeful and confident; good.",
@@ -742,17 +816,19 @@
                 ]
             }
         ],
-        "subtext": "very positive / extremely positive / stay positive",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈpɒzətɪv | 🇺🇸 ˈpɑːzətɪv",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very positive / extremely positive / stay positive"
+        }
     },
     {
         "id": "en_intermediate_mental_health_wellbeing_015",
         "word": "negative",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
         "form": "adjective",
-        "transcription": "ˈnɛɡətɪv",
         "definitions": [
             {
                 "text": "Not hopeful or constructive; bad.",
@@ -761,17 +837,19 @@
                 ]
             }
         ],
-        "subtext": "very negative / extremely negative / a negative outcome",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "transcription": "ˈnɛɡətɪv",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very negative / extremely negative / a negative outcome"
+        }
     },
     {
         "id": "en_intermediate_structured_argument_003",
         "word": "reasonable",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "structured_argument",
         "form": "adjective",
-        "transcription": "ˈriːznəbl",
         "definitions": [
             {
                 "text": "Sensible and fair; not extreme.",
@@ -780,17 +858,19 @@
                 ]
             }
         ],
-        "subtext": "very reasonable / perfectly reasonable / more than reasonable",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "structured_argument",
-        "sub_theme": null
+        "transcription": "ˈriːznəbl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very reasonable / perfectly reasonable / more than reasonable"
+        }
     },
     {
         "id": "en_intermediate_career_development_034",
         "word": "successful",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "səkˈsɛsfl",
         "definitions": [
             {
                 "text": "Having achieved a desired result.",
@@ -799,17 +879,19 @@
                 ]
             }
         ],
-        "subtext": "highly successful / very successful / enormously successful",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "səkˈsɛsfl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "highly successful / very successful / enormously successful"
+        }
     },
     {
         "id": "en_intermediate_finances_investment_001",
         "word": "valuable",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "finances_investment",
         "form": "adjective",
-        "transcription": "ˈvæljuəbl",
         "definitions": [
             {
                 "text": "Worth a lot; very useful or important.",
@@ -818,17 +900,19 @@
                 ]
             }
         ],
-        "subtext": "very valuable / invaluable / highly valuable",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "finances_investment",
-        "sub_theme": null
+        "transcription": "ˈvæljuəbl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very valuable / invaluable / highly valuable"
+        }
     },
     {
         "id": "en_intermediate_equality_rights_002",
         "word": "equal",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "equality_rights",
         "form": "adjective",
-        "transcription": "ˈiːkwəl",
         "definitions": [
             {
                 "text": "The same in status, rights or opportunities.",
@@ -837,17 +921,19 @@
                 ]
             }
         ],
-        "subtext": "equal pay / equal rights / completely equal",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "equality_rights",
-        "sub_theme": null
+        "transcription": "ˈiːkwəl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "equal pay / equal rights / completely equal"
+        }
     },
     {
         "id": "en_intermediate_social_028",
         "word": "global",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈɡləʊbl | 🇺🇸 ˈɡloʊbl",
         "definitions": [
             {
                 "text": "Relating to the whole world.",
@@ -856,17 +942,19 @@
                 ]
             }
         ],
-        "subtext": "global issue / global market / on a global scale",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈɡləʊbl | 🇺🇸 ˈɡloʊbl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "global issue / global market / on a global scale"
+        }
     },
     {
         "id": "en_intermediate_social_029",
         "word": "local",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈləʊkl | 🇺🇸 ˈloʊkl",
         "definitions": [
             {
                 "text": "Relating to a nearby area.",
@@ -875,17 +963,19 @@
                 ]
             }
         ],
-        "subtext": "local area / local community / at a local level",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈləʊkl | 🇺🇸 ˈloʊkl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "local area / local community / at a local level"
+        }
     },
     {
         "id": "en_intermediate_social_030",
         "word": "national",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
         "form": "adjective",
-        "transcription": "ˈnæʃnəl",
         "definitions": [
             {
                 "text": "Relating to a whole country.",
@@ -894,17 +984,19 @@
                 ]
             }
         ],
-        "subtext": "national interest / national policy / on a national level",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "sub_theme": null
+        "transcription": "ˈnæʃnəl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "national interest / national policy / on a national level"
+        }
     },
     {
         "id": "en_intermediate_equality_rights_003",
         "word": "political",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "equality_rights",
         "form": "adjective",
-        "transcription": "pəˈlɪtɪkl",
         "definitions": [
             {
                 "text": "Relating to government and politics.",
@@ -913,17 +1005,19 @@
                 ]
             }
         ],
-        "subtext": "political decision / very political / highly political",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "equality_rights",
-        "sub_theme": null
+        "transcription": "pəˈlɪtɪkl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "political decision / very political / highly political"
+        }
     },
     {
         "id": "en_intermediate_social_031",
         "word": "social",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈsəʊʃl | 🇺🇸 ˈsoʊʃl",
         "definitions": [
             {
                 "text": "Relating to society and its organisation.",
@@ -932,17 +1026,19 @@
                 ]
             }
         ],
-        "subtext": "social media / social skills / socially responsible",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈsəʊʃl | 🇺🇸 ˈsoʊʃl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "social media / social skills / socially responsible"
+        }
     },
     {
         "id": "en_intermediate_finances_investment_002",
         "word": "economic",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "finances_investment",
         "form": "adjective",
-        "transcription": "🇬🇧 ˌiːkəˈnɒmɪk | 🇺🇸 ˌiːkəˈnɑːmɪk",
         "definitions": [
             {
                 "text": "Relating to money, trade and industry.",
@@ -951,17 +1047,19 @@
                 ]
             }
         ],
-        "subtext": "economic growth / economic crisis / economic policy",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "finances_investment",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˌiːkəˈnɒmɪk | 🇺🇸 ˌiːkəˈnɑːmɪk",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "economic growth / economic crisis / economic policy"
+        }
     },
     {
         "id": "en_intermediate_environment_009",
         "word": "environmental",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "environment",
         "form": "adjective",
-        "transcription": "ɪnˌvaɪrənˈmɛntl",
         "definitions": [
             {
                 "text": "Relating to the natural world and its protection.",
@@ -970,17 +1068,19 @@
                 ]
             }
         ],
-        "subtext": "environmental impact / environmental policy / environmentally friendly",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "environment",
-        "sub_theme": null
+        "transcription": "ɪnˌvaɪrənˈmɛntl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "environmental impact / environmental policy / environmentally friendly"
+        }
     },
     {
         "id": "en_intermediate_cultural_heritage_002",
         "word": "cultural",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "cultural_heritage",
         "form": "adjective",
-        "transcription": "ˈkʌltʃərəl",
         "definitions": [
             {
                 "text": "Relating to the arts, ideas and customs of a society.",
@@ -989,17 +1089,19 @@
                 ]
             }
         ],
-        "subtext": "cultural differences / cultural event / culturally diverse",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "cultural_heritage",
-        "sub_theme": null
+        "transcription": "ˈkʌltʃərəl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "cultural differences / cultural event / culturally diverse"
+        }
     },
     {
         "id": "en_intermediate_higher_education_001",
         "word": "educational",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "higher_education",
         "form": "adjective",
-        "transcription": "ˌɛdʒuˈkeɪʃənl",
         "definitions": [
             {
                 "text": "Relating to education; giving knowledge.",
@@ -1008,17 +1110,19 @@
                 ]
             }
         ],
-        "subtext": "educational value / an educational experience / highly educational",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "higher_education",
-        "sub_theme": null
+        "transcription": "ˌɛdʒuˈkeɪʃənl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "educational value / an educational experience / highly educational"
+        }
     },
     {
         "id": "en_intermediate_mental_health_wellbeing_016",
         "word": "mental",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
         "form": "adjective",
-        "transcription": "ˈmɛntl",
         "definitions": [
             {
                 "text": "Relating to the mind and emotions.",
@@ -1027,17 +1131,19 @@
                 ]
             }
         ],
-        "subtext": "mental health / mental wellbeing / mental strength",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "transcription": "ˈmɛntl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "mental health / mental wellbeing / mental strength"
+        }
     },
     {
         "id": "en_intermediate_mental_health_wellbeing_017",
         "word": "physical",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
         "form": "adjective",
-        "transcription": "ˈfɪzɪkl",
         "definitions": [
             {
                 "text": "Relating to the body rather than the mind.",
@@ -1046,17 +1152,19 @@
                 ]
             }
         ],
-        "subtext": "physical health / physical activity / physical condition",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "transcription": "ˈfɪzɪkl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "physical health / physical activity / physical condition"
+        }
     },
     {
         "id": "en_intermediate_healthcare_systems_001",
         "word": "chronic",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "healthcare_systems",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈkrɒnɪk | 🇺🇸 ˈkrɑːnɪk",
         "definitions": [
             {
                 "text": "Lasting a long time; persistent.",
@@ -1065,17 +1173,19 @@
                 ]
             }
         ],
-        "subtext": "chronic illness / chronic pain / chronic stress",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "healthcare_systems",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈkrɒnɪk | 🇺🇸 ˈkrɑːnɪk",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "chronic illness / chronic pain / chronic stress"
+        }
     },
     {
         "id": "en_intermediate_healthcare_systems_002",
         "word": "severe",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "healthcare_systems",
         "form": "adjective",
-        "transcription": "🇬🇧 sɪˈvɪə | 🇺🇸 sɪˈvɪər",
         "definitions": [
             {
                 "text": "Very serious or extreme.",
@@ -1084,17 +1194,19 @@
                 ]
             }
         ],
-        "subtext": "very severe / extremely severe / severe consequences",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "healthcare_systems",
-        "sub_theme": null
+        "transcription": "🇬🇧 sɪˈvɪə | 🇺🇸 sɪˈvɪər",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very severe / extremely severe / severe consequences"
+        }
     },
     {
         "id": "en_intermediate_healthcare_systems_003",
         "word": "mild",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "healthcare_systems",
         "form": "adjective",
-        "transcription": "maɪld",
         "definitions": [
             {
                 "text": "Not extreme; gentle.",
@@ -1103,17 +1215,19 @@
                 ]
             }
         ],
-        "subtext": "very mild / relatively mild / a mild case",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "healthcare_systems",
-        "sub_theme": null
+        "transcription": "maɪld",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very mild / relatively mild / a mild case"
+        }
     },
     {
         "id": "en_intermediate_career_development_035",
         "word": "competitive",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "kəmˈpɛtətɪv",
         "definitions": [
             {
                 "text": "Trying hard to be better than others; involving competition.",
@@ -1122,17 +1236,19 @@
                 ]
             }
         ],
-        "subtext": "highly competitive / very competitive / a competitive salary",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "kəmˈpɛtətɪv",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "highly competitive / very competitive / a competitive salary"
+        }
     },
     {
         "id": "en_intermediate_work_005",
         "word": "demanding",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "adjective",
-        "transcription": "dɪˈmɑːndɪŋ",
         "definitions": [
             {
                 "text": "Requiring a lot of effort and attention.",
@@ -1141,17 +1257,19 @@
                 ]
             }
         ],
-        "subtext": "very demanding / highly demanding / a demanding client",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "dɪˈmɑːndɪŋ",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very demanding / highly demanding / a demanding client"
+        }
     },
     {
         "id": "en_intermediate_career_development_036",
         "word": "dedicated",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "ˈdɛdɪkeɪtɪd",
         "definitions": [
             {
                 "text": "Working very hard and loyal to something.",
@@ -1160,17 +1278,19 @@
                 ]
             }
         ],
-        "subtext": "very dedicated / completely dedicated / dedicated to",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "ˈdɛdɪkeɪtɪd",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very dedicated / completely dedicated / dedicated to"
+        }
     },
     {
         "id": "en_intermediate_career_development_037",
         "word": "skilled",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "skɪld",
         "definitions": [
             {
                 "text": "Having particular abilities from training or experience.",
@@ -1179,17 +1299,19 @@
                 ]
             }
         ],
-        "subtext": "highly skilled / very skilled / skilled in",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "skɪld",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "highly skilled / very skilled / skilled in"
+        }
     },
     {
         "id": "en_intermediate_career_development_038",
         "word": "innovative",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "adjective",
-        "transcription": "ˈɪnəvətɪv",
         "definitions": [
             {
                 "text": "Introducing or using new ideas and methods.",
@@ -1198,17 +1320,19 @@
                 ]
             }
         ],
-        "subtext": "highly innovative / very innovative / an innovative solution",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "ˈɪnəvətɪv",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "highly innovative / very innovative / an innovative solution"
+        }
     },
     {
         "id": "en_intermediate_work_006",
         "word": "overtime",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈəʊvətaɪm | 🇺🇸 ˈoʊvətaɪm",
         "definitions": [
             {
                 "text": "Working beyond normal hours — used predicatively.",
@@ -1217,17 +1341,19 @@
                 ]
             }
         ],
-        "subtext": "work overtime / paid overtime / compulsory overtime",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈəʊvətaɪm | 🇺🇸 ˈoʊvətaɪm",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "work overtime / paid overtime / compulsory overtime"
+        }
     },
     {
         "id": "en_intermediate_work_007",
         "word": "clear",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "adjective",
-        "transcription": "🇬🇧 klɪə | 🇺🇸 klɪər",
         "definitions": [
             {
                 "text": "Easy to understand; obvious.",
@@ -1236,17 +1362,19 @@
                 ]
             }
         ],
-        "subtext": "crystal clear / very clear / make it clear",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "🇬🇧 klɪə | 🇺🇸 klɪər",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "crystal clear / very clear / make it clear"
+        }
     },
     {
         "id": "en_intermediate_work_008",
         "word": "complicated",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈkɒmplɪkeɪtɪd | 🇺🇸 ˈkɑːmplɪkeɪtɪd",
         "definitions": [
             {
                 "text": "Involving many parts; difficult to understand.",
@@ -1255,17 +1383,19 @@
                 ]
             }
         ],
-        "subtext": "very complicated / overly complicated / get complicated",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈkɒmplɪkeɪtɪd | 🇺🇸 ˈkɑːmplɪkeɪtɪd",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very complicated / overly complicated / get complicated"
+        }
     },
     {
         "id": "en_intermediate_structured_argument_004",
         "word": "logical",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "structured_argument",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈlɒdʒɪkl | 🇺🇸 ˈlɑːdʒɪkl",
         "definitions": [
             {
                 "text": "Following a sensible and reasonable way of thinking.",
@@ -1274,17 +1404,19 @@
                 ]
             }
         ],
-        "subtext": "perfectly logical / very logical / a logical conclusion",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "structured_argument",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈlɒdʒɪkl | 🇺🇸 ˈlɑːdʒɪkl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "perfectly logical / very logical / a logical conclusion"
+        }
     },
     {
         "id": "en_intermediate_structured_argument_005",
         "word": "obvious",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "structured_argument",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈɒbviəs | 🇺🇸 ˈɑːbviəs",
         "definitions": [
             {
                 "text": "Easy to see or understand; clear to everyone.",
@@ -1293,17 +1425,19 @@
                 ]
             }
         ],
-        "subtext": "perfectly obvious / very obvious / make obvious",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "structured_argument",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈɒbviəs | 🇺🇸 ˈɑːbviəs",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "perfectly obvious / very obvious / make obvious"
+        }
     },
     {
         "id": "en_intermediate_stress_anxiety_011",
         "word": "surprising",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
         "form": "adjective",
-        "transcription": "səˈpraɪzɪŋ",
         "definitions": [
             {
                 "text": "Causing surprise; unexpected.",
@@ -1312,17 +1446,19 @@
                 ]
             }
         ],
-        "subtext": "very surprising / quite surprising / not at all surprising",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "stress_anxiety",
-        "sub_theme": null
+        "transcription": "səˈpraɪzɪŋ",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very surprising / quite surprising / not at all surprising"
+        }
     },
     {
         "id": "en_intermediate_spatial_description_001",
         "word": "typical",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "spatial_description",
         "form": "adjective",
-        "transcription": "ˈtɪpɪkl",
         "definitions": [
             {
                 "text": "Showing the most usual qualities.",
@@ -1331,17 +1467,19 @@
                 ]
             }
         ],
-        "subtext": "very typical / typical of / a typical case",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "spatial_description",
-        "sub_theme": null
+        "transcription": "ˈtɪpɪkl",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very typical / typical of / a typical case"
+        }
     },
     {
         "id": "en_intermediate_probability_certainty_001",
         "word": "unlikely",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "probability_certainty",
         "form": "adjective",
-        "transcription": "ʌnˈlaɪkli",
         "definitions": [
             {
                 "text": "Probably not going to happen.",
@@ -1350,17 +1488,19 @@
                 ]
             }
         ],
-        "subtext": "very unlikely / highly unlikely / completely unlikely",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "probability_certainty",
-        "sub_theme": null
+        "transcription": "ʌnˈlaɪkli",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very unlikely / highly unlikely / completely unlikely"
+        }
     },
     {
         "id": "en_intermediate_probability_certainty_002",
         "word": "likely",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "probability_certainty",
         "form": "adjective",
-        "transcription": "ˈlaɪkli",
         "definitions": [
             {
                 "text": "Probably going to happen.",
@@ -1369,11 +1509,11 @@
                 ]
             }
         ],
-        "subtext": "very likely / highly likely / most likely",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "probability_certainty",
-        "sub_theme": null
+        "transcription": "ˈlaɪkli",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "very likely / highly likely / most likely"
+        }
     }
 ];
     const lang = "en";

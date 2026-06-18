@@ -2,8 +2,11 @@
 (function() {
     const data = [
     {
-        "id": "en_intermediate_people_006",
+        "id": "en_intermediate_people_009",
         "word": "Leonardo da Vinci",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "people",
         "form": "other",
         "definitions": [
             {
@@ -11,14 +14,15 @@
                 "examples": []
             }
         ],
+        "transcription": "-",
+        "emoji": "❓"
+    },
+    {
+        "id": "en_intermediate_people_010",
+        "word": "Stephen Hawking",
         "lang": "en",
         "level": "intermediate",
         "theme": "people",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_people_007",
-        "word": "Stephen Hawking",
         "form": "other",
         "definitions": [
             {
@@ -26,10 +30,8 @@
                 "examples": []
             }
         ],
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "people",
-        "sub_theme": null
+        "transcription": "-",
+        "emoji": "❓"
     }
 ];
     const lang = "en";

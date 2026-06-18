@@ -6,7 +6,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -14,7 +13,11 @@
                 "examples": []
             }
         ],
-        "author": "Descartes"
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "author": "Descartes"
+        }
     },
     {
         "id": "fr_intermediate_social_121",
@@ -22,7 +25,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -30,7 +32,11 @@
                 "examples": []
             }
         ],
-        "author": "Blaise Pascal"
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "author": "Blaise Pascal"
+        }
     }
 ];
     const lang = "fr";

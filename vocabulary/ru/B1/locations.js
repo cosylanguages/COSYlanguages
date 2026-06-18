@@ -13,7 +13,9 @@
                 "text": "Сибирь",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
         "id": "ru_intermediate_places_002",
@@ -27,7 +29,9 @@
                 "text": "Урал",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
         "id": "ru_intermediate_places_003",
@@ -41,7 +45,9 @@
                 "text": "Австралия",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
         "id": "ru_intermediate_places_004",
@@ -55,7 +61,9 @@
                 "text": "Япония",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
         "id": "ru_intermediate_places_005",
@@ -69,7 +77,9 @@
                 "text": "Китай",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
         "id": "ru_intermediate_places_006",
@@ -83,7 +93,9 @@
                 "text": "Бразилия",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
         "id": "ru_intermediate_places_007",
@@ -97,7 +109,9 @@
                 "text": "Индия",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
         "id": "ru_intermediate_places_008",
@@ -111,7 +125,9 @@
                 "text": "Токио",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
         "id": "ru_intermediate_places_009",
@@ -125,7 +141,9 @@
                 "text": "Сидней",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
         "id": "ru_intermediate_places_010",
@@ -139,7 +157,9 @@
                 "text": "Пекин",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
         "id": "ru_intermediate_places_011",
@@ -153,7 +173,9 @@
                 "text": "Рио-де-Жанейро",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
         "id": "ru_intermediate_places_012",
@@ -167,7 +189,9 @@
                 "text": "Каир",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
         "id": "ru_intermediate_places_013",
@@ -181,7 +205,9 @@
                 "text": "Дели",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     }
 ];
     const lang = "ru";

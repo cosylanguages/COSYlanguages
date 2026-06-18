@@ -2,64 +2,136 @@
 (function() {
     const data = [
     {
+        "id": "el_intermediate_places_006",
         "word": "Πελοπόννησος",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "el_intermediate_places_007",
         "word": "Αυστραλία",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "el_intermediate_places_008",
         "word": "Ιαπωνία",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "el_intermediate_places_009",
         "word": "Κίνα",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "el_intermediate_places_010",
         "word": "Βραζιλία",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "el_intermediate_places_011",
         "word": "Ινδία",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "el_intermediate_places_012",
         "word": "Τόκιο",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "el_intermediate_places_013",
         "word": "Σίδνεϊ",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "el_intermediate_places_014",
         "word": "Πεκίνο",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "el_intermediate_places_015",
         "word": "Ρίο ντε Τζανέιρο",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "phrase",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "el_intermediate_places_016",
         "word": "Κάιρο",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "el_intermediate_places_017",
         "word": "Δελχί",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "el",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     }
 ];
     const lang = "el";

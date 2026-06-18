@@ -2,169 +2,180 @@
 (function() {
     const data = [
     {
+        "id": "es_intermediate_places_001",
         "word": "Australia",
+        "lang": "es",
         "level": "intermediate",
         "theme": "places",
-        "lang": "es",
-        "sub_theme": "geography",
+        "form": "other",
         "definitions": [
             {
                 "text": "Australia",
                 "examples": []
             }
         ],
-        "form": "other",
-        "id": "es_intermediate_places_001"
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "es_intermediate_places_002",
         "word": "Japón",
+        "lang": "es",
         "level": "intermediate",
         "theme": "places",
-        "lang": "es",
-        "sub_theme": "geography",
+        "form": "other",
         "definitions": [
             {
                 "text": "Japón",
                 "examples": []
             }
         ],
-        "form": "other",
-        "id": "es_intermediate_places_002"
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "es_intermediate_places_003",
         "word": "China",
+        "lang": "es",
         "level": "intermediate",
         "theme": "places",
-        "lang": "es",
-        "sub_theme": "geography",
+        "form": "other",
         "definitions": [
             {
                 "text": "China",
                 "examples": []
             }
         ],
-        "form": "other",
-        "id": "es_intermediate_places_003"
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "es_intermediate_places_004",
         "word": "Brasil",
+        "lang": "es",
         "level": "intermediate",
         "theme": "places",
-        "lang": "es",
-        "sub_theme": "geography",
+        "form": "other",
         "definitions": [
             {
                 "text": "Brasil",
                 "examples": []
             }
         ],
-        "form": "other",
-        "id": "es_intermediate_places_004"
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "es_intermediate_places_005",
         "word": "India",
+        "lang": "es",
         "level": "intermediate",
         "theme": "places",
-        "lang": "es",
-        "sub_theme": "geography",
+        "form": "other",
         "definitions": [
             {
                 "text": "India",
                 "examples": []
             }
         ],
-        "form": "other",
-        "id": "es_intermediate_places_005"
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "es_intermediate_places_006",
         "word": "Tokio",
+        "lang": "es",
         "level": "intermediate",
         "theme": "places",
-        "lang": "es",
-        "sub_theme": "geography",
+        "form": "other",
         "definitions": [
             {
                 "text": "Tokio",
                 "examples": []
             }
         ],
-        "form": "other",
-        "id": "es_intermediate_places_006"
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "es_intermediate_places_007",
         "word": "Sídney",
+        "lang": "es",
         "level": "intermediate",
         "theme": "places",
-        "lang": "es",
-        "sub_theme": "geography",
+        "form": "other",
         "definitions": [
             {
                 "text": "Sídney",
                 "examples": []
             }
         ],
-        "form": "other",
-        "id": "es_intermediate_places_007"
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "es_intermediate_places_008",
         "word": "Pekín",
+        "lang": "es",
         "level": "intermediate",
         "theme": "places",
-        "lang": "es",
-        "sub_theme": "geography",
+        "form": "other",
         "definitions": [
             {
                 "text": "Pekín",
                 "examples": []
             }
         ],
-        "form": "other",
-        "id": "es_intermediate_places_008"
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "es_intermediate_places_009",
         "word": "Río de Janeiro",
+        "lang": "es",
         "level": "intermediate",
         "theme": "places",
-        "lang": "es",
-        "sub_theme": "geography",
+        "form": "other",
         "definitions": [
             {
                 "text": "Río de Janeiro",
                 "examples": []
             }
         ],
-        "form": "other",
-        "id": "es_intermediate_places_009"
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "es_intermediate_places_010",
         "word": "El Cairo",
+        "lang": "es",
         "level": "intermediate",
         "theme": "places",
-        "lang": "es",
-        "sub_theme": "geography",
+        "form": "other",
         "definitions": [
             {
                 "text": "El Cairo",
                 "examples": []
             }
         ],
-        "form": "other",
-        "id": "es_intermediate_places_010"
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "es_intermediate_places_011",
         "word": "Delhi",
+        "lang": "es",
         "level": "intermediate",
         "theme": "places",
-        "lang": "es",
-        "sub_theme": "geography",
+        "form": "other",
         "definitions": [
             {
                 "text": "Delhi",
                 "examples": []
             }
         ],
-        "form": "other",
-        "id": "es_intermediate_places_011"
+        "transcription": "-",
+        "emoji": "❓"
     }
 ];
     const lang = "es";

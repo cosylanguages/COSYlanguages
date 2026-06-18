@@ -16,12 +16,12 @@
                 ]
             }
         ],
-        "gender": "он",
+        "transcription": "-",
         "emoji": "👨‍💻",
-        "subtext": "",
-        "synonyms": [
-            "фрилансер"
-        ]
+        "_legacy": {
+            "gender": "он",
+            "subtext": ""
+        }
     },
     {
         "id": "ru_intermediate_environment_007",
@@ -38,11 +38,11 @@
                 ]
             }
         ],
+        "transcription": "-",
         "emoji": "♻️",
-        "subtext": "",
-        "synonyms": [
-            "экологичный"
-        ]
+        "_legacy": {
+            "subtext": ""
+        }
     }
 ];
     const lang = "ru";

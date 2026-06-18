@@ -2,23 +2,33 @@
 (function() {
     const data = [
     {
+        "id": "fr_intermediate_places_013",
         "word": "jardin",
-        "image": "images/vocabulary/places/garden.png",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "🌳",
-        "form": "noun", "classification": "regular",
-        "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }],
-        "countability": "countable"
-    },
-{
-        "word": "ingénieur",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "article": "l'",
-        "emoji": "👷",
-        "form": "noun", "classification": "regular",
-        "plural": "ingénieurs",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Un jardin public ou un parc.",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "🌳",
+        "_legacy": {
+            "image": "images/vocabulary/places/garden.png",
+            "classification": "regular",
+            "countability": "countable"
+        }
+    },
+    {
+        "id": "fr_intermediate_work_002",
+        "word": "ingénieur",
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Une personne qui conçoit ou construit des machines ou des structures.",
@@ -27,16 +37,22 @@
                     "Elle veut être ingénieure civile."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "👷",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "ingénieurs"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_003",
         "word": "pilote",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "article": "le",
-        "emoji": "🧑‍✈️",
-        "form": "noun", "classification": "regular",
-        "plural": "pilotes",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Une personne qui conduit un avion ou un hélicoptère.",
@@ -45,16 +61,22 @@
                     "Il veut devenir pilote."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🧑‍✈️",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "pilotes"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_004",
         "word": "développeur logiciel",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "article": "le",
-        "emoji": "💻",
-        "form": "noun", "classification": "regular",
-        "plural": "développeurs logiciel",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Une personne qui écrit des programmes informatiques.",
@@ -62,16 +84,22 @@
                     "Le développeur crée une application."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "💻",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "développeurs logiciel"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_005",
         "word": "carrière",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "article": "la",
-        "emoji": "📈",
-        "form": "noun", "classification": "regular",
-        "plural": "carrières",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "La série d'emplois qu'une personne occupe au cours de sa vie professionnelle.",
@@ -79,17 +107,22 @@
                     "Elle a eu une carrière réussie dans la finance."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "📈",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "carrières"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_006",
         "word": "licenciement",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "article": "le",
-        "emoji": "📉",
-        "form": "noun", "classification": "regular",
-        "plural": "licenciements",
-        "subtext": "perte d'emploi, réduction d'effectif",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Perdre son emploi parce que l'employeur n'a plus besoin du poste.",
@@ -97,16 +130,23 @@
                     "Il a reçu une prime de licenciement l'année dernière."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "📉",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "licenciements",
+            "subtext": "perte d'emploi, réduction d'effectif"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_007",
         "word": "travail flexible",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "work_life_balance_B1",
-        "article": "le",
-        "emoji": "🏠",
-        "form": "noun", "classification": "regular",
-        "plural": "travaux flexibles",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un arrangement permettant aux employés de varier leurs horaires ou leur lieu de travail.",
@@ -114,16 +154,22 @@
                     "L'entreprise propose le travail flexible à domicile."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🏠",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "travaux flexibles"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_008",
         "word": "réseautage",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "article": "le",
-        "emoji": "🤝",
-        "form": "noun", "classification": "regular",
-        "plural": "réseautages",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Établir des relations professionnelles pour aider sa carrière.",
@@ -131,16 +177,22 @@
                     "Le réseautage est essentiel dans cette industrie."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🤝",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "réseautages"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_009",
         "word": "charge de travail",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "work_life_balance_B1",
-        "article": "la",
-        "emoji": "📚",
-        "form": "noun", "classification": "regular",
-        "plural": "charges de travail",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "La quantité de travail qu'une personne doit faire.",
@@ -148,16 +200,22 @@
                     "Sa charge de travail a beaucoup augmenté ce mois-ci."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "📚",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "charges de travail"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_010",
         "word": "travail d'équipe",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "workplace_communication_B1",
-        "article": "le",
-        "emoji": "👥",
-        "form": "noun", "classification": "regular",
-        "plural": "travaux d'équipe",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Travailler efficacement avec d'autres personnes.",
@@ -165,16 +223,22 @@
                     "Un bon travail d'équipe a permis la réussite du projet."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "👥",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "travaux d'équipe"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_011",
         "word": "ambition",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "article": "l'",
-        "emoji": "🚀",
-        "form": "noun", "classification": "regular",
-        "plural": "ambitions",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un désir fort de réaliser quelque chose.",
@@ -182,18 +246,22 @@
                     "Son ambition est de devenir manager."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🚀",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "ambitions"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_012",
         "word": "compétence",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "article": "la",
-        "emoji": "🛠️",
-        "form": "noun", "classification": "regular",
-        "plural": "compétences",
-        "subtext": "",
-        "synonyms": ["savoir-faire", "habileté"],
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Une capacité à bien faire quelque chose, généralement acquise par la pratique.",
@@ -201,16 +269,23 @@
                     "Les compétences en communication sont très importantes au travail."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🛠️",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "compétences",
+            "subtext": ""
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_013",
         "word": "congé maternité",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "work_life_balance_B1",
-        "article": "le",
-        "emoji": "👶",
-        "form": "noun", "classification": "regular",
-        "plural": "congés maternité",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Temps d'arrêt de travail rémunéré donné à une mère après avoir eu un bébé.",
@@ -218,18 +293,22 @@
                     "Elle a pris six mois de congé maternité."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "👶",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "congés maternité"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_014",
         "word": "retraite",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "article": "la",
-        "emoji": "👴",
-        "form": "noun", "classification": "regular",
-        "plural": "retraites",
-        "subtext": "",
-        "synonyms": ["pension"],
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Argent versé régulièrement à quelqu'un après qu'il a pris sa retraite.",
@@ -237,16 +316,23 @@
                     "Il cotise pour sa retraite chaque mois."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "👴",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "retraites",
+            "subtext": ""
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_015",
         "word": "investissement",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "article": "l'",
-        "emoji": "💰",
-        "form": "noun", "classification": "regular",
-        "plural": "investissements",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Argent placé dans quelque chose afin d'obtenir un profit à l'avenir.",
@@ -254,16 +340,22 @@
                     "L'immobilier est un investissement populaire."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "💰",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "investissements"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_016",
         "word": "taux d'intérêt",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "article": "le",
-        "emoji": "📊",
-        "form": "noun", "classification": "regular",
-        "plural": "taux d'intérêt",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Le pourcentage facturé pour l'emprunt d'argent ou gagné sur l'épargne.",
@@ -271,16 +363,22 @@
                     "Le taux d'intérêt sur l'hypothèque est de trois pour cent."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "📊",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "taux d'intérêt"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_017",
         "word": "revenu",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "article": "le",
-        "emoji": "💸",
-        "form": "noun", "classification": "regular",
-        "plural": "revenus",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Argent reçu du travail ou d'autres sources.",
@@ -288,16 +386,22 @@
                     "Leur revenu familial est confortable."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "💸",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "revenus"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_018",
         "word": "assurance",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "article": "l'",
-        "emoji": "🛡️",
-        "form": "noun", "classification": "regular",
-        "plural": "assurances",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un accord par lequel vous payez régulièrement pour être protégé contre les pertes ou les dommages.",
@@ -305,18 +409,22 @@
                     "L'assurance santé est chère dans certains pays."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🛡️",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "assurances"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_work_019",
         "word": "impôt",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "article": "l'",
-        "emoji": "🏦",
-        "form": "noun", "classification": "regular",
-        "plural": "impôts",
-        "subtext": "",
-        "synonyms": ["taxe"],
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Argent payé au gouvernement sur la base des revenus ou des achats.",
@@ -324,16 +432,23 @@
                     "Elle paie beaucoup d'impôts sur le revenu."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🏦",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "impôts",
+            "subtext": ""
+        }
     },
-{
+    {
+        "id": "fr_intermediate_health_medicine_001",
         "word": "bien-être",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "article": "le",
-        "emoji": "🧘",
-        "form": "noun", "classification": "regular",
-        "plural": "bien-êtres",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un sentiment général d'être à l'aise, en bonne santé et heureux.",
@@ -341,16 +456,22 @@
                     "L'exercice est important pour le bien-être mental."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🧘",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "bien-êtres"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_health_medicine_002",
         "word": "santé mentale",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "article": "la",
-        "emoji": "🧠",
-        "form": "noun", "classification": "regular",
-        "plural": null,
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "L'état psychologique et émotionnel d'une personne.",
@@ -358,18 +479,22 @@
                     "Les entreprises prennent la santé mentale plus au sérieux."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🧠",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": null
+        }
     },
-{
+    {
+        "id": "fr_intermediate_health_medicine_003",
         "word": "burn-out",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "article": "le",
-        "emoji": "🔥",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "subtext": "",
-        "synonyms": ["épuisement professionnel"],
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un état d'épuisement causé par trop de stress sur une longue période.",
@@ -377,16 +502,23 @@
                     "Elle a souffert de burn-out après avoir travaillé sans pause."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🔥",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": null,
+            "subtext": ""
+        }
     },
-{
+    {
+        "id": "fr_intermediate_health_medicine_004",
         "word": "prévention",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "healthcare_systems_B1",
-        "article": "la",
-        "emoji": "🛡️",
-        "form": "noun", "classification": "regular",
-        "plural": "préventions",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Action prise pour empêcher que quelque chose de mauvais ne se produise.",
@@ -394,16 +526,22 @@
                     "Mieux vaut prévenir que guérir."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🛡️",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "préventions"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_health_medicine_005",
         "word": "symptôme",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "healthcare_systems_B1",
-        "article": "le",
-        "emoji": "🤒",
-        "form": "noun", "classification": "regular",
-        "plural": "symptômes",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Signes qui suggèrent qu'une personne a une maladie particulière.",
@@ -411,16 +549,22 @@
                     "Les symptômes ont commencé la semaine dernière."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🤒",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "symptômes"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_health_medicine_006",
         "word": "thérapie",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "article": "la",
-        "emoji": "🛋️",
-        "form": "noun", "classification": "regular",
-        "plural": "thérapies",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Traitement de problèmes mentaux ou physiques, souvent par la parole.",
@@ -428,16 +572,22 @@
                     "Il va en thérapie une fois par semaine."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🛋️",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "thérapies"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_people_001",
         "word": "confiance",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "family_dynamics_B1",
-        "article": "la",
-        "emoji": "🤝",
-        "form": "noun", "classification": "regular",
-        "plural": "confiances",
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Une croyance ferme en l'honnêteté et la fiabilité de quelqu'un.",
@@ -445,16 +595,22 @@
                     "La confiance est le fondement d'une bonne relation."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🤝",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "confiances"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_people_002",
         "word": "conflit",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "family_dynamics_B1",
-        "article": "le",
-        "emoji": "⚔️",
-        "form": "noun", "classification": "regular",
-        "plural": "conflits",
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un désaccord ou une dispute grave.",
@@ -462,16 +618,22 @@
                     "Ils ont eu un conflit à propos de l'argent."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "⚔️",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "conflits"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_people_003",
         "word": "responsabilité",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "parenting_childcare_B1",
-        "article": "la",
-        "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
-        "plural": "responsabilités",
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un devoir de prendre soin de quelqu'un ou de quelque chose.",
@@ -479,16 +641,22 @@
                     "Les parents ont une responsabilité envers leurs enfants."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "⚖️",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "responsabilités"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_people_004",
         "word": "attente",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "family_dynamics_B1",
-        "article": "l'",
-        "emoji": "⏳",
-        "form": "noun", "classification": "regular",
-        "plural": "attentes",
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Une croyance sur ce qui va se passer ou ce qui devrait se passer.",
@@ -496,18 +664,22 @@
                     "Elle a des attentes élevées envers son partenaire."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "⏳",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "attentes"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_people_005",
         "word": "limite",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "family_dynamics_B1",
-        "article": "la",
-        "emoji": "🚧",
-        "form": "noun", "classification": "regular",
-        "plural": "limites",
-        "subtext": "",
-        "synonyms": ["frontière", "borne"],
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Une limite sur ce que vous êtes prêt à accepter dans une relation.",
@@ -515,16 +687,23 @@
                     "Il est sain de fixer des limites claires."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🚧",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "limites",
+            "subtext": ""
+        }
     },
-{
+    {
+        "id": "fr_intermediate_people_006",
         "word": "divorce",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "family_dynamics_B1",
-        "article": "le",
-        "emoji": "💔",
-        "form": "noun", "classification": "regular",
-        "plural": "divorces",
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "La fin légale d'un mariage.",
@@ -532,17 +711,22 @@
                     "Le taux de divorce a augmenté au cours des dernières décennies."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "💔",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "divorces"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_social_124",
         "word": "égalité",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "equality_rights_B1",
-        "article": "l'",
-        "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
-        "plural": "égalités",
-        "opposite": "inégalité",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "L'état d'être égal en droits et en opportunités.",
@@ -550,16 +734,23 @@
                     "Ils se battent pour l'égalité des sexes au travail."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "⚖️",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "égalités",
+            "opposite": "inégalité"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_social_125",
         "word": "liberté",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "equality_rights_B1",
-        "article": "la",
-        "emoji": "🗽",
-        "form": "noun", "classification": "regular",
-        "plural": "libertés",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Le droit d'agir et de penser sans restriction.",
@@ -567,17 +758,22 @@
                     "La liberté d'expression est très importante."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🗽",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "libertés"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_social_126",
         "word": "inégalité",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "equality_rights_B1",
-        "article": "l'",
-        "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
-        "plural": "inégalités",
-        "opposite": "égalité",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Une situation injuste dans laquelle certaines personnes ont plus que d'autres.",
@@ -585,16 +781,23 @@
                     "L'inégalité des revenus s'accroît dans de nombreux pays."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "⚖️",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "inégalités",
+            "opposite": "égalité"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_social_127",
         "word": "bénévole",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "article": "le",
-        "emoji": "🙋",
-        "form": "noun", "classification": "regular",
-        "plural": "bénévoles",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Une personne qui propose de faire quelque chose sans être payée.",
@@ -602,16 +805,22 @@
                     "Elle est bénévole à la banque alimentaire locale."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🙋",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "bénévoles"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_social_128",
         "word": "communauté",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "article": "la",
-        "emoji": "🏘️",
-        "form": "noun", "classification": "regular",
-        "plural": "communautés",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un groupe de personnes partageant un lieu, une identité ou un intérêt commun.",
@@ -619,16 +828,22 @@
                     "Il est très actif dans sa communauté locale."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🏘️",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "communautés"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_social_129",
         "word": "génération",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "article": "la",
-        "emoji": "👥",
-        "form": "noun", "classification": "regular",
-        "plural": "générations",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Toutes les personnes d'un âge similaire dans une société.",
@@ -636,16 +851,22 @@
                     "Chaque génération est confrontée à des défis différents."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "👥",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "générations"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_environment_002",
         "word": "changement climatique",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "article": "le",
-        "emoji": "🌍",
-        "form": "noun", "classification": "regular",
-        "plural": null,
+        "theme": "environment",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Changements à long terme des températures et des conditions météorologiques mondiales.",
@@ -653,16 +874,22 @@
                     "Le changement climatique est le plus grand défi de notre époque."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🌍",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": null
+        }
     },
-{
+    {
+        "id": "fr_intermediate_environment_003",
         "word": "énergie renouvelable",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "article": "l'",
-        "emoji": "☀️",
-        "form": "noun", "classification": "regular",
-        "plural": "énergies renouvelables",
+        "theme": "environment",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Énergie provenant de sources naturelles qui ne s'épuisent pas, comme le vent ou le soleil.",
@@ -670,16 +897,22 @@
                     "L'entreprise est passée à l'énergie renouvelable."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "☀️",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "énergies renouvelables"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_environment_004",
         "word": "empreinte carbone",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "article": "l'",
-        "emoji": "👣",
-        "form": "noun", "classification": "regular",
-        "plural": "empreintes carbone",
+        "theme": "environment",
+        "form": "noun",
         "definitions": [
             {
                 "text": "La quantité totale de gaz à effet de serre produits par les activités d'une personne.",
@@ -687,18 +920,22 @@
                     "Prendre l'avion augmente votre empreinte carbone."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "👣",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "empreintes carbone"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_environment_005",
         "word": "gaspillage",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "article": "le",
-        "emoji": "🗑️",
-        "form": "noun", "classification": "regular",
-        "plural": "gaspillages",
-        "subtext": "",
-        "synonyms": ["déchets"],
+        "theme": "environment",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Matériel qui n'est plus nécessaire et qui est jeté.",
@@ -706,16 +943,23 @@
                     "Nous devons réduire le gaspillage alimentaire."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🗑️",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "gaspillages",
+            "subtext": ""
+        }
     },
-{
+    {
+        "id": "fr_intermediate_language_001",
         "word": "cependant",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "discourse_markers_B1",
-        "emoji": "🔄",
+        "theme": "language",
         "form": "adverb",
-        "subtext": "",
-        "synonyms": ["toutefois", "pourtant"],
         "definitions": [
             {
                 "text": "Utilisé pour introduire une idée contrastée ou opposée.",
@@ -723,13 +967,19 @@
                     "J'aime la ville. Cependant, c'est très cher."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🔄",
+        "_legacy": {
+            "subtext": ""
+        }
     },
-{
+    {
+        "id": "fr_intermediate_language_002",
         "word": "bien que",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "discourse_markers_B1",
-        "emoji": "🔗",
+        "theme": "language",
         "form": "conjunction",
         "definitions": [
             {
@@ -738,15 +988,17 @@
                     "Bien qu'elle soit fatiguée, elle va à la gym."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🔗"
     },
-{
+    {
+        "id": "fr_intermediate_language_003",
         "word": "d'un autre côté",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "discourse_markers_B1",
-        "emoji": "⚖️",
+        "theme": "language",
         "form": "adverb",
-        "subtext": "en revanche, par contre",
         "definitions": [
             {
                 "text": "Utilisé pour introduire un point contrasté.",
@@ -754,15 +1006,20 @@
                     "La vie en ville est excitante. D'un autre côté, c'est stressant."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "⚖️",
+        "_legacy": {
+            "subtext": "en revanche, par contre"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_social_130",
         "word": "à mon avis",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "expressing_opinion_B1",
-        "emoji": "🗣️",
+        "theme": "social",
         "form": "adverb",
-        "subtext": "selon moi, d'après moi",
         "definitions": [
             {
                 "text": "Utilisé pour introduire votre point de vue personnel.",
@@ -770,15 +1027,20 @@
                     "À mon avis, le travail à distance est plus productif."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🗣️",
+        "_legacy": {
+            "subtext": "selon moi, d'après moi"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_language_004",
         "word": "par conséquent",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "discourse_markers_B1",
-        "emoji": "➡️",
+        "theme": "language",
         "form": "adverb",
-        "subtext": "en conséquence, du coup",
         "definitions": [
             {
                 "text": "À cause de cela ; par suite.",
@@ -786,16 +1048,20 @@
                     "Il a travaillé dur. Par conséquent, il a obtenu une promotion."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "➡️",
+        "_legacy": {
+            "subtext": "en conséquence, du coup"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_food_drink_001",
         "word": "quiche",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "food_culture_cuisine_B1",
-        "article": "la",
-        "emoji": "🥧",
-        "form": "noun", "classification": "regular",
-        "plural": "quiches",
+        "theme": "food_drink",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Une tarte salée garnie d'un mélange d'œufs et de crème.",
@@ -803,16 +1069,22 @@
                     "La quiche lorraine est très connue."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🥧",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "quiches"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_food_drink_002",
         "word": "escargot",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "food_culture_cuisine_B1",
-        "article": "l'",
-        "emoji": "🐌",
-        "form": "noun", "classification": "regular",
-        "plural": "escargots",
+        "theme": "food_drink",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Des mollusques terrestres souvent cuisinés avec du beurre et de l'ail.",
@@ -820,16 +1092,22 @@
                     "Les escargots sont une spécialité française."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🐌",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "escargots"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_food_drink_003",
         "word": "limonade",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "food_culture_cuisine_B1",
-        "article": "la",
-        "emoji": "🥤",
-        "form": "noun", "classification": "regular",
-        "plural": "limonades",
+        "theme": "food_drink",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Une boisson fraîche à base de citron, d'eau et de sucre.",
@@ -837,16 +1115,22 @@
                     "La limonade est pétillante."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🥤",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "limonades"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_travel_001",
         "word": "bibliothèque",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "travel_cultural_B1",
-        "article": "la",
-        "emoji": "📚",
-        "form": "noun", "classification": "regular",
-        "plural": "bibliothèques",
+        "theme": "travel",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un endroit avec beaucoup de livres que l'on peut lire ou emprunter.",
@@ -854,16 +1138,22 @@
                     "J'étudie à la bibliothèque."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "📚",
+        "_legacy": {
+            "article": "la",
+            "classification": "regular",
+            "plural": "bibliothèques"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_travel_002",
         "word": "musée",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "travel_cultural_B1",
-        "article": "le",
-        "emoji": "🏛️",
-        "form": "noun", "classification": "regular",
-        "plural": "musées",
+        "theme": "travel",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un bâtiment où l'on expose des objets d'art, d'histoire ou de science.",
@@ -871,16 +1161,22 @@
                     "Nous avons visité le musée du Louvre."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🏛️",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "musées"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_home_living_001",
         "word": "armoire",
+        "lang": "fr",
         "level": "intermediate",
         "theme": "home_living",
-        "article": "l'",
-        "emoji": "👗",
-        "form": "noun", "classification": "regular",
-        "plural": "armoires",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un meuble pour ranger les vêtements.",
@@ -888,16 +1184,22 @@
                     "Mes vêtements sont dans l'armoire."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "👗",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "armoires"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_environment_nature_001",
         "word": "éléphant",
+        "lang": "fr",
         "level": "intermediate",
         "theme": "environment_nature",
-        "article": "l'",
-        "emoji": "🐘",
-        "form": "noun", "classification": "regular",
-        "plural": "éléphants",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un très grand animal gris avec une trompe.",
@@ -905,16 +1207,22 @@
                     "L'éléphant est un animal intelligent."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🐘",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "éléphants"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_environment_nature_002",
         "word": "singe",
+        "lang": "fr",
         "level": "intermediate",
         "theme": "environment_nature",
-        "article": "le",
-        "emoji": "🐒",
-        "form": "noun", "classification": "regular",
-        "plural": "singes",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Un animal qui grimpe aux arbres et ressemble à l'homme.",
@@ -922,16 +1230,22 @@
                     "Le singe mange une banane."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "🐒",
+        "_legacy": {
+            "article": "le",
+            "classification": "regular",
+            "plural": "singes"
+        }
     },
-{
+    {
+        "id": "fr_intermediate_science_tech_001",
         "word": "algorithme",
+        "lang": "fr",
         "level": "intermediate",
         "theme": "science_tech",
-        "article": "l'",
-        "emoji": "💻",
-        "form": "noun", "classification": "regular",
-        "plural": "algorithmes",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Une suite d'instructions permettant de résoudre un problème.",
@@ -939,8 +1253,24 @@
                     "Les réseaux sociaux utilisent des algorithmes."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "💻",
+        "_legacy": {
+            "article": "l'",
+            "classification": "regular",
+            "plural": "algorithmes"
+        }
     },
-{}
+    {
+        "id": "fr_intermediate_social_131",
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
+    }
 ];
 })();

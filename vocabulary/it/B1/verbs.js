@@ -2,18 +2,12 @@
 (function() {
     const data = [
     {
+        "id": "it_intermediate_social_063",
         "word": "fare giardinaggio",
+        "lang": "it",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🧑‍🌾",
+        "theme": "social",
         "form": "verb",
-        "group": "are",
-        "classification": "irregular",
-        "aspect": "action",
-        "subtext": "",
-        "synonyms": [
-            "giardinaggio biologico"
-        ],
         "definitions": [
             {
                 "text": "Lavorare in un giardino per far crescere le piante.",
@@ -22,22 +16,24 @@
                 ]
             }
         ],
-        "v3": "fatto giardinaggio",
-        "auxiliary": "avere"
+        "transcription": "-",
+        "emoji": "🧑‍🌾",
+        "_legacy": {
+            "group": "are",
+            "classification": "irregular",
+            "aspect": "action",
+            "subtext": "",
+            "v3": "fatto giardinaggio",
+            "auxiliary": "avere"
+        }
     },
     {
+        "id": "it_intermediate_social_064",
         "word": "fare volontariato",
+        "lang": "it",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🙋",
+        "theme": "social",
         "form": "verb",
-        "group": "are",
-        "classification": "irregular",
-        "aspect": "action",
-        "subtext": "",
-        "synonyms": [
-            "prestare servizio"
-        ],
         "definitions": [
             {
                 "text": "Offrirsi di fare qualcosa senza essere pagati.",
@@ -46,8 +42,16 @@
                 ]
             }
         ],
-        "v3": "fatto volontariato",
-        "auxiliary": "avere"
+        "transcription": "-",
+        "emoji": "🙋",
+        "_legacy": {
+            "group": "are",
+            "classification": "irregular",
+            "aspect": "action",
+            "subtext": "",
+            "v3": "fatto volontariato",
+            "auxiliary": "avere"
+        }
     }
 ];
     const lang = "it";

@@ -2,64 +2,136 @@
 (function() {
     const data = [
     {
+        "id": "fr_intermediate_places_001",
         "word": "Bretagne",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "fr_intermediate_places_002",
         "word": "Australie",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "fr_intermediate_places_003",
         "word": "Japon",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "fr_intermediate_places_004",
         "word": "Chine",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "fr_intermediate_places_005",
         "word": "Brésil",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "fr_intermediate_places_006",
         "word": "Inde",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "fr_intermediate_places_007",
         "word": "Tokyo",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "fr_intermediate_places_008",
         "word": "Sydney",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "fr_intermediate_places_009",
         "word": "Pékin",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "fr_intermediate_places_010",
         "word": "Rio de Janeiro",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "phrase",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "fr_intermediate_places_011",
         "word": "Le Caire",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "phrase",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "fr_intermediate_places_012",
         "word": "Delhi",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     }
 ];
     const lang = "fr";
