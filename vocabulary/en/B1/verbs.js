@@ -2,11 +2,12 @@
 (function() {
 const data = [
     {
-        "id": "en_intermediate_social_032",
+        "id": "en_intermediate_social_054",
         "word": "photograph",
-        "emoji": "📷",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
         "form": "verb",
-        "subtext": "photograph a wedding, photograph wildlife",
         "definitions": [
             {
                 "text": "To take a picture of someone or something using a camera.",
@@ -15,25 +16,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "photographed",
-        "v3": "photographed",
         "transcription": "🇬🇧 ˈfəʊtəɡrɑːf | 🇺🇸 ˈfoʊtəɡrɑːf",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "photographing",
+        "emoji": "📷",
+        "_legacy": {
+            "subtext": "photograph a wedding, photograph wildlife",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "photographed",
+            "v3": "photographed",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "photographing"
+        }
+    },
+    {
+        "id": "en_intermediate_social_055",
+        "word": "garden",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_social_033",
-        "word": "garden",
-        "emoji": "🪴",
         "form": "verb",
-        "subtext": "garden on weekends, organic gardening",
         "definitions": [
             {
                 "text": "To work in a garden, taking care of plants and flowers.",
@@ -42,26 +44,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "gardened",
-        "v3": "gardened",
         "transcription": "ˈɡɑːdn",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "gardening",
+        "emoji": "🪴",
+        "_legacy": {
+            "subtext": "garden on weekends, organic gardening",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "gardened",
+            "v3": "gardened",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "gardening"
+        }
+    },
+    {
+        "id": "en_intermediate_social_056",
+        "word": "fish",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_social_034",
-        "word": "fish",
-        "image": "images/vocabulary/actions/to fish.png",
-        "emoji": "🎣",
         "form": "verb",
-        "subtext": "go fishing, fish for trout",
         "definitions": [
             {
                 "text": "To try to catch fish using a net or a line.",
@@ -70,29 +72,31 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "fished",
-        "v3": "fished",
         "transcription": "fɪʃ",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "fishing",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "sub_theme": "sea",
-        "etymology": {
-            "origin_lang": "Proto-Germanic",
-            "origin_word": "fiskaz"
+        "emoji": "🎣",
+        "_legacy": {
+            "image": "images/vocabulary/actions/to fish.png",
+            "subtext": "go fishing, fish for trout",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "fished",
+            "v3": "fished",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "fishing",
+            "etymology": {
+                "origin_lang": "Proto-Germanic",
+                "origin_word": "fiskaz"
+            }
         }
     },
     {
-        "id": "en_intermediate_social_035",
+        "id": "en_intermediate_social_057",
         "word": "volunteer",
-        "emoji": "🙋",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
         "form": "verb",
-        "subtext": "volunteer work, unpaid work",
         "definitions": [
             {
                 "text": "To offer to do something without being paid.",
@@ -103,26 +107,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "volunteered",
-        "v3": "volunteered",
         "transcription": "🇬🇧 ˌvɒlənˈtɪə | 🇺🇸 ˌvɑːlənˈtɪər",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "volunteering",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "sub_theme": null
+        "emoji": "🙋",
+        "_legacy": {
+            "subtext": "volunteer work, unpaid work",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "volunteered",
+            "v3": "volunteered",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "volunteering"
+        }
     },
     {
         "id": "en_intermediate_environment_010",
         "word": "recycle",
-        "emoji": "♻️",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "environment",
         "form": "verb",
-        "transcription": "ˌriːˈsaɪkl",
-        "subtext": "recycle plastic, recycling bin",
         "definitions": [
             {
                 "text": "To convert waste into reusable material.",
@@ -131,25 +135,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "recycled",
-        "v3": "recycled",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "recycling",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "environment",
-        "sub_theme": null
+        "transcription": "ˌriːˈsaɪkl",
+        "emoji": "♻️",
+        "_legacy": {
+            "subtext": "recycle plastic, recycling bin",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "recycled",
+            "v3": "recycled",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "recycling"
+        }
     },
     {
         "id": "en_intermediate_structured_argument_006",
         "word": "argue",
-        "emoji": "🗣️",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "structured_argument",
         "form": "verb",
-        "transcription": "ˈɑːɡjuː",
-        "subtext": "argue about, argue for",
         "definitions": [
             {
                 "text": "To present reasons supporting a particular view.",
@@ -158,25 +163,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "argued",
-        "v3": "argued",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "arguing",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "structured_argument",
-        "sub_theme": null
+        "transcription": "ˈɑːɡjuː",
+        "emoji": "🗣️",
+        "_legacy": {
+            "subtext": "argue about, argue for",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "argued",
+            "v3": "argued",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "arguing"
+        }
     },
     {
-        "id": "en_intermediate_work_009",
+        "id": "en_intermediate_work_033",
         "word": "suggest",
-        "emoji": "💡",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "verb",
-        "transcription": "səˈdʒɛst",
-        "subtext": "suggest a change / suggest that / suggest an alternative",
         "definitions": [
             {
                 "text": "To put forward an idea for consideration.",
@@ -185,25 +191,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "suggested",
-        "v3": "suggested",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "suggesting",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "səˈdʒɛst",
+        "emoji": "💡",
+        "_legacy": {
+            "subtext": "suggest a change / suggest that / suggest an alternative",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "suggested",
+            "v3": "suggested",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "suggesting"
+        }
     },
     {
         "id": "en_intermediate_structured_argument_007",
         "word": "claim",
-        "emoji": "📢",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "structured_argument",
         "form": "verb",
-        "transcription": "kleɪm",
-        "subtext": "claim that / make a claim / claim responsibility",
         "definitions": [
             {
                 "text": "To state something as true without necessarily proving it.",
@@ -212,25 +219,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "claimed",
-        "v3": "claimed",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "claiming",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "structured_argument",
-        "sub_theme": null
+        "transcription": "kleɪm",
+        "emoji": "📢",
+        "_legacy": {
+            "subtext": "claim that / make a claim / claim responsibility",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "claimed",
+            "v3": "claimed",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "claiming"
+        }
     },
     {
         "id": "en_intermediate_values_beliefs_008",
         "word": "believe",
-        "emoji": "💭",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
         "form": "verb",
-        "transcription": "bɪˈliːv",
-        "subtext": "believe that / strongly believe / believe in something",
         "definitions": [
             {
                 "text": "To hold something as true; to have confidence in something.",
@@ -239,25 +247,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "believed",
-        "v3": "believed",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "believing",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "values_beliefs",
-        "sub_theme": null
+        "transcription": "bɪˈliːv",
+        "emoji": "💭",
+        "_legacy": {
+            "subtext": "believe that / strongly believe / believe in something",
+            "classification": "regular",
+            "aspect": "stative",
+            "v2": "believed",
+            "v3": "believed",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "believing"
+        }
     },
     {
-        "id": "en_intermediate_work_010",
+        "id": "en_intermediate_work_034",
         "word": "deny",
-        "emoji": "🚫",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "verb",
-        "transcription": "dɪˈnaɪ",
-        "subtext": "deny a claim / deny responsibility / flatly deny",
         "definitions": [
             {
                 "text": "To say that something is not true.",
@@ -266,25 +275,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "denied",
-        "v3": "denied",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "denying",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "dɪˈnaɪ",
+        "emoji": "🚫",
+        "_legacy": {
+            "subtext": "deny a claim / deny responsibility / flatly deny",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "denied",
+            "v3": "denied",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "denying"
+        }
     },
     {
         "id": "en_intermediate_career_development_039",
         "word": "consider",
-        "emoji": "🤔",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "verb",
-        "transcription": "🇬🇧 kənˈsɪdə | 🇺🇸 kənˈsɪdər",
-        "subtext": "consider an option / consider carefully / consider someone for a role",
         "definitions": [
             {
                 "text": "To think carefully about something; to regard something in a certain way.",
@@ -293,25 +303,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "considered",
-        "v3": "considered",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "considering",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "🇬🇧 kənˈsɪdə | 🇺🇸 kənˈsɪdər",
+        "emoji": "🤔",
+        "_legacy": {
+            "subtext": "consider an option / consider carefully / consider someone for a role",
+            "classification": "regular",
+            "aspect": "both",
+            "v2": "considered",
+            "v3": "considered",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "considering"
+        }
     },
     {
-        "id": "en_intermediate_work_011",
+        "id": "en_intermediate_work_035",
         "word": "assume",
-        "emoji": "💭",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "verb",
-        "transcription": "əˈsjuːm",
-        "subtext": "assume that / make an assumption / never assume",
         "definitions": [
             {
                 "text": "To accept something as true without proof.",
@@ -320,25 +331,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "assumed",
-        "v3": "assumed",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "assuming",
+        "transcription": "əˈsjuːm",
+        "emoji": "💭",
+        "_legacy": {
+            "subtext": "assume that / make an assumption / never assume",
+            "classification": "regular",
+            "aspect": "stative",
+            "v2": "assumed",
+            "v3": "assumed",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "assuming"
+        }
+    },
+    {
+        "id": "en_intermediate_work_036",
+        "word": "admit",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_012",
-        "word": "admit",
-        "emoji": "🙊",
         "form": "verb",
-        "transcription": "ədˈmɪt",
-        "subtext": "admit a mistake / admit to / reluctantly admit",
         "definitions": [
             {
                 "text": "To confess or accept that something is true.",
@@ -347,25 +359,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "admitted",
-        "v3": "admitted",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "admiting",
+        "transcription": "ədˈmɪt",
+        "emoji": "🙊",
+        "_legacy": {
+            "subtext": "admit a mistake / admit to / reluctantly admit",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "admitted",
+            "v3": "admitted",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "admiting"
+        }
+    },
+    {
+        "id": "en_intermediate_work_037",
+        "word": "acknowledge",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_013",
-        "word": "acknowledge",
-        "emoji": "🤝",
         "form": "verb",
-        "transcription": "🇬🇧 əkˈnɒlɪdʒ | 🇺🇸 əkˈnɑːlɪdʒ",
-        "subtext": "acknowledge a problem / acknowledge someone / acknowledge that",
         "definitions": [
             {
                 "text": "To recognise or accept the existence or truth of something.",
@@ -374,25 +387,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "acknowledged",
-        "v3": "acknowledged",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "acknowledging",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "🇬🇧 əkˈnɒlɪdʒ | 🇺🇸 əkˈnɑːlɪdʒ",
+        "emoji": "🤝",
+        "_legacy": {
+            "subtext": "acknowledge a problem / acknowledge someone / acknowledge that",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "acknowledged",
+            "v3": "acknowledged",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "acknowledging"
+        }
     },
     {
         "id": "en_intermediate_probability_certainty_003",
         "word": "doubt",
-        "emoji": "❓",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "probability_certainty",
         "form": "verb",
-        "transcription": "daʊt",
-        "subtext": "doubt that / have doubts / seriously doubt",
         "definitions": [
             {
                 "text": "To feel uncertain about something.",
@@ -401,25 +415,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "doubted",
-        "v3": "doubted",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "doubting",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "probability_certainty",
-        "sub_theme": null
+        "transcription": "daʊt",
+        "emoji": "❓",
+        "_legacy": {
+            "subtext": "doubt that / have doubts / seriously doubt",
+            "classification": "regular",
+            "aspect": "stative",
+            "v2": "doubted",
+            "v3": "doubted",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "doubting"
+        }
     },
     {
-        "id": "en_intermediate_work_014",
+        "id": "en_intermediate_work_038",
         "word": "insist",
-        "emoji": "🗣️",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "verb",
-        "transcription": "ɪnˈsɪst",
-        "subtext": "insist on / insist that / strongly insist",
         "definitions": [
             {
                 "text": "To demand something firmly; to maintain a position strongly.",
@@ -428,25 +443,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "insisted",
-        "v3": "insisted",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "insisting",
+        "transcription": "ɪnˈsɪst",
+        "emoji": "🗣️",
+        "_legacy": {
+            "subtext": "insist on / insist that / strongly insist",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "insisted",
+            "v3": "insisted",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "insisting"
+        }
+    },
+    {
+        "id": "en_intermediate_work_039",
+        "word": "present",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_015",
-        "word": "present",
-        "emoji": "📊",
         "form": "verb",
-        "transcription": "prɪˈzɛnt",
-        "subtext": "present data / present a proposal / present to a client",
         "definitions": [
             {
                 "text": "To show or explain information to an audience.",
@@ -455,25 +471,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "presented",
-        "v3": "presented",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "presenting",
+        "transcription": "prɪˈzɛnt",
+        "emoji": "📊",
+        "_legacy": {
+            "subtext": "present data / present a proposal / present to a client",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "presented",
+            "v3": "presented",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "presenting"
+        }
+    },
+    {
+        "id": "en_intermediate_work_040",
+        "word": "implement",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_016",
-        "word": "implement",
-        "emoji": "⚙️",
         "form": "verb",
-        "transcription": "ˈɪmplɪmɛnt",
-        "subtext": "implement a policy / implement changes / implement a strategy",
         "definitions": [
             {
                 "text": "To put a plan or decision into action.",
@@ -482,25 +499,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "implemented",
-        "v3": "implemented",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "implementing",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "ˈɪmplɪmɛnt",
+        "emoji": "⚙️",
+        "_legacy": {
+            "subtext": "implement a policy / implement changes / implement a strategy",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "implemented",
+            "v3": "implemented",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "implementing"
+        }
     },
     {
         "id": "en_intermediate_career_development_040",
         "word": "achieve",
-        "emoji": "🏆",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "verb",
-        "transcription": "əˈtʃiːv",
-        "subtext": "achieve a goal / achieve results / achieve success",
         "definitions": [
             {
                 "text": "To successfully reach a goal through effort.",
@@ -509,25 +527,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "achieved",
-        "v3": "achieved",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "achieving",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "əˈtʃiːv",
+        "emoji": "🏆",
+        "_legacy": {
+            "subtext": "achieve a goal / achieve results / achieve success",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "achieved",
+            "v3": "achieved",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "achieving"
+        }
     },
     {
-        "id": "en_intermediate_work_017",
+        "id": "en_intermediate_work_041",
         "word": "contribute",
-        "emoji": "🤝",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "verb",
-        "transcription": "kənˈtrɪbjuːt",
-        "subtext": "contribute to / contribute ideas / make a contribution",
         "definitions": [
             {
                 "text": "To give something — time, money or ideas — to a shared purpose.",
@@ -536,25 +555,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "contributed",
-        "v3": "contributed",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "contributing",
+        "transcription": "kənˈtrɪbjuːt",
+        "emoji": "🤝",
+        "_legacy": {
+            "subtext": "contribute to / contribute ideas / make a contribution",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "contributed",
+            "v3": "contributed",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "contributing"
+        }
+    },
+    {
+        "id": "en_intermediate_work_042",
+        "word": "identify",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_018",
-        "word": "identify",
-        "emoji": "🔍",
         "form": "verb",
-        "transcription": "aɪˈdɛntɪfaɪ",
-        "subtext": "identify a problem / identify a solution / identify risks",
         "definitions": [
             {
                 "text": "To recognise or find something specific.",
@@ -563,25 +583,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "identified",
-        "v3": "identified",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "identifying",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "aɪˈdɛntɪfaɪ",
+        "emoji": "🔍",
+        "_legacy": {
+            "subtext": "identify a problem / identify a solution / identify risks",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "identified",
+            "v3": "identified",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "identifying"
+        }
     },
     {
         "id": "en_intermediate_career_development_041",
         "word": "adapt",
-        "emoji": "🔄",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "verb",
-        "transcription": "əˈdæpt",
-        "subtext": "adapt to change / adapt a plan / be adaptable",
         "definitions": [
             {
                 "text": "To change in order to suit new conditions.",
@@ -590,25 +611,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "adapted",
-        "v3": "adapted",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "adapting",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "əˈdæpt",
+        "emoji": "🔄",
+        "_legacy": {
+            "subtext": "adapt to change / adapt a plan / be adaptable",
+            "classification": "regular",
+            "aspect": "both",
+            "v2": "adapted",
+            "v3": "adapted",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "adapting"
+        }
     },
     {
         "id": "en_intermediate_career_development_042",
         "word": "motivate",
-        "emoji": "🔥",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "verb",
-        "transcription": "🇬🇧 ˈməʊtɪveɪt | 🇺🇸 ˈmoʊtɪveɪt",
-        "subtext": "motivate a team / feel motivated / self-motivated",
         "definitions": [
             {
                 "text": "To give someone a reason to do something; to inspire action.",
@@ -617,25 +639,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "motivated",
-        "v3": "motivated",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "motivating",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "🇬🇧 ˈməʊtɪveɪt | 🇺🇸 ˈmoʊtɪveɪt",
+        "emoji": "🔥",
+        "_legacy": {
+            "subtext": "motivate a team / feel motivated / self-motivated",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "motivated",
+            "v3": "motivated",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "motivating"
+        }
     },
     {
-        "id": "en_intermediate_work_019",
+        "id": "en_intermediate_work_043",
         "word": "prioritise",
-        "emoji": "🔝",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "verb",
-        "transcription": "🇬🇧 praɪˈɒrɪtaɪz | 🇺🇸 praɪˈɑːrɪtaɪz",
-        "subtext": "prioritise work / prioritise health / set priorities",
         "definitions": [
             {
                 "text": "To treat one thing as more important than another.",
@@ -644,25 +667,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "prioritised",
-        "v3": "prioritised",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "prioritising",
+        "transcription": "🇬🇧 praɪˈɒrɪtaɪz | 🇺🇸 praɪˈɑːrɪtaɪz",
+        "emoji": "🔝",
+        "_legacy": {
+            "subtext": "prioritise work / prioritise health / set priorities",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "prioritised",
+            "v3": "prioritised",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "prioritising"
+        }
+    },
+    {
+        "id": "en_intermediate_work_044",
+        "word": "resolve",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_020",
-        "word": "resolve",
-        "emoji": "✅",
         "form": "verb",
-        "transcription": "🇬🇧 rɪˈzɒlv | 🇺🇸 rɪˈzɑːlv",
-        "subtext": "resolve a conflict / resolve an issue / resolve quickly",
         "definitions": [
             {
                 "text": "To find a solution to a problem or disagreement.",
@@ -671,25 +695,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "resolved",
-        "v3": "resolved",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "resolving",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "🇬🇧 rɪˈzɒlv | 🇺🇸 rɪˈzɑːlv",
+        "emoji": "✅",
+        "_legacy": {
+            "subtext": "resolve a conflict / resolve an issue / resolve quickly",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "resolved",
+            "v3": "resolved",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "resolving"
+        }
     },
     {
         "id": "en_intermediate_career_development_043",
         "word": "develop",
-        "emoji": "📈",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "verb",
-        "transcription": "dɪˈvɛləp",
-        "subtext": "develop a skill / develop a plan / develop over time",
         "definitions": [
             {
                 "text": "To grow or cause something to grow more advanced.",
@@ -698,25 +723,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "developed",
-        "v3": "developed",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "developing",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "dɪˈvɛləp",
+        "emoji": "📈",
+        "_legacy": {
+            "subtext": "develop a skill / develop a plan / develop over time",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "developed",
+            "v3": "developed",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "developing"
+        }
     },
     {
         "id": "en_intermediate_finances_investment_003",
         "word": "increase",
-        "emoji": "📈",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "finances_investment",
         "form": "verb",
-        "transcription": "ɪnˈkriːs",
-        "subtext": "increase productivity / increase costs / dramatically increase",
         "definitions": [
             {
                 "text": "To become or make something larger in amount or level.",
@@ -725,25 +751,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "increased",
-        "v3": "increased",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "increasing",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "finances_investment",
-        "sub_theme": null
+        "transcription": "ɪnˈkriːs",
+        "emoji": "📈",
+        "_legacy": {
+            "subtext": "increase productivity / increase costs / dramatically increase",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "increased",
+            "v3": "increased",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "increasing"
+        }
     },
     {
         "id": "en_intermediate_finances_investment_004",
         "word": "reduce",
-        "emoji": "📉",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "finances_investment",
         "form": "verb",
-        "transcription": "rɪˈdjuːs",
-        "subtext": "reduce costs / reduce stress / significantly reduce",
         "definitions": [
             {
                 "text": "To make something smaller in size, amount or degree.",
@@ -752,25 +779,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "reduced",
-        "v3": "reduced",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "reducing",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "finances_investment",
-        "sub_theme": null
+        "transcription": "rɪˈdjuːs",
+        "emoji": "📉",
+        "_legacy": {
+            "subtext": "reduce costs / reduce stress / significantly reduce",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "reduced",
+            "v3": "reduced",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "reducing"
+        }
     },
     {
         "id": "en_intermediate_environment_011",
         "word": "affect",
-        "emoji": "⚖️",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "environment",
         "form": "verb",
-        "transcription": "əˈfɛkt",
-        "subtext": "affect someone / affect the result / negatively affect",
         "definitions": [
             {
                 "text": "To have an impact on something or someone.",
@@ -779,25 +807,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "affected",
-        "v3": "affected",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "affecting",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "environment",
-        "sub_theme": null
+        "transcription": "əˈfɛkt",
+        "emoji": "⚖️",
+        "_legacy": {
+            "subtext": "affect someone / affect the result / negatively affect",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "affected",
+            "v3": "affected",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "affecting"
+        }
     },
     {
         "id": "en_intermediate_environment_012",
         "word": "cause",
-        "emoji": "⚡",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "environment",
         "form": "verb",
-        "transcription": "kɔːz",
-        "subtext": "cause a problem / cause stress / cause damage",
         "definitions": [
             {
                 "text": "To make something happen, especially something bad.",
@@ -806,25 +835,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "caused",
-        "v3": "caused",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "causing",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "environment",
-        "sub_theme": null
+        "transcription": "kɔːz",
+        "emoji": "⚡",
+        "_legacy": {
+            "subtext": "cause a problem / cause stress / cause damage",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "caused",
+            "v3": "caused",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "causing"
+        }
     },
     {
         "id": "en_intermediate_career_development_044",
         "word": "improve",
-        "emoji": "✨",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "verb",
-        "transcription": "ɪmˈpruːv",
-        "subtext": "improve performance / improve health / room for improvement",
         "definitions": [
             {
                 "text": "To make something better, or to become better.",
@@ -833,25 +863,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "improved",
-        "v3": "improved",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "improving",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "ɪmˈpruːv",
+        "emoji": "✨",
+        "_legacy": {
+            "subtext": "improve performance / improve health / room for improvement",
+            "classification": "regular",
+            "aspect": "both",
+            "v2": "improved",
+            "v3": "improved",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "improving"
+        }
     },
     {
-        "id": "en_intermediate_work_021",
+        "id": "en_intermediate_work_045",
         "word": "replace",
-        "emoji": "🔄",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "verb",
-        "transcription": "rɪˈpleɪs",
-        "subtext": "replace something / replace someone / be replaced by",
         "definitions": [
             {
                 "text": "To take the place of something or someone.",
@@ -860,25 +891,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "replaced",
-        "v3": "replaced",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "replacing",
+        "transcription": "rɪˈpleɪs",
+        "emoji": "🔄",
+        "_legacy": {
+            "subtext": "replace something / replace someone / be replaced by",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "replaced",
+            "v3": "replaced",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "replacing"
+        }
+    },
+    {
+        "id": "en_intermediate_work_046",
+        "word": "report",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_022",
-        "word": "report",
-        "emoji": "📄",
         "form": "verb",
-        "transcription": "rɪˈpɔːt",
-        "subtext": "report findings / report to someone / report a problem",
         "definitions": [
             {
                 "text": "To give a formal account of something.",
@@ -887,25 +919,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "reported",
-        "v3": "reported",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "reporting",
+        "transcription": "rɪˈpɔːt",
+        "emoji": "📄",
+        "_legacy": {
+            "subtext": "report findings / report to someone / report a problem",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "reported",
+            "v3": "reported",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "reporting"
+        }
+    },
+    {
+        "id": "en_intermediate_work_047",
+        "word": "warn",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_023",
-        "word": "warn",
-        "emoji": "⚠️",
         "form": "verb",
-        "transcription": "wɔːn",
-        "subtext": "warn someone / warn about a risk / issue a warning",
         "definitions": [
             {
                 "text": "To tell someone about a possible danger or difficulty.",
@@ -914,25 +947,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "warned",
-        "v3": "warned",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "warning",
+        "transcription": "wɔːn",
+        "emoji": "⚠️",
+        "_legacy": {
+            "subtext": "warn someone / warn about a risk / issue a warning",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "warned",
+            "v3": "warned",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "warning"
+        }
+    },
+    {
+        "id": "en_intermediate_work_048",
+        "word": "confirm",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_024",
-        "word": "confirm",
-        "emoji": "✅",
         "form": "verb",
-        "transcription": "kənˈfɜːm",
-        "subtext": "confirm a booking / confirm receipt / confirm in writing",
         "definitions": [
             {
                 "text": "To state that something is definitely true or correct.",
@@ -941,25 +975,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "confirmed",
-        "v3": "confirmed",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "confirming",
+        "transcription": "kənˈfɜːm",
+        "emoji": "✅",
+        "_legacy": {
+            "subtext": "confirm a booking / confirm receipt / confirm in writing",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "confirmed",
+            "v3": "confirmed",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "confirming"
+        }
+    },
+    {
+        "id": "en_intermediate_work_049",
+        "word": "explain",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_025",
-        "word": "explain",
-        "emoji": "🗣️",
         "form": "verb",
-        "transcription": "ɪkˈspleɪn",
-        "subtext": "explain a process / explain to someone / clearly explain",
         "definitions": [
             {
                 "text": "To make something clear by describing it in detail.",
@@ -968,25 +1003,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "explained",
-        "v3": "explained",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "explaining",
+        "transcription": "ɪkˈspleɪn",
+        "emoji": "🗣️",
+        "_legacy": {
+            "subtext": "explain a process / explain to someone / clearly explain",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "explained",
+            "v3": "explained",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "explaining"
+        }
+    },
+    {
+        "id": "en_intermediate_work_050",
+        "word": "describe",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_026",
-        "word": "describe",
-        "emoji": "💬",
         "form": "verb",
-        "transcription": "dɪˈskraɪb",
-        "subtext": "describe a problem / describe a situation / describe someone",
         "definitions": [
             {
                 "text": "To give details of what something or someone is like.",
@@ -995,25 +1031,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "described",
-        "v3": "described",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "describing",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "dɪˈskraɪb",
+        "emoji": "💬",
+        "_legacy": {
+            "subtext": "describe a problem / describe a situation / describe someone",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "described",
+            "v3": "described",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "describing"
+        }
     },
     {
-        "id": "en_intermediate_social_036",
+        "id": "en_intermediate_social_058",
         "word": "vote",
-        "emoji": "🗳️",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
         "form": "verb",
-        "transcription": "🇬🇧 vəʊt | 🇺🇸 voʊt",
-        "subtext": "vote for / vote against / vote in an election",
         "definitions": [
             {
                 "text": "To express a choice formally, especially in an election.",
@@ -1022,25 +1059,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "voted",
-        "v3": "voted",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "voting",
+        "transcription": "🇬🇧 vəʊt | 🇺🇸 voʊt",
+        "emoji": "🗳️",
+        "_legacy": {
+            "subtext": "vote for / vote against / vote in an election",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "voted",
+            "v3": "voted",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "voting"
+        }
+    },
+    {
+        "id": "en_intermediate_social_059",
+        "word": "participate",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_social_037",
-        "word": "participate",
-        "emoji": "🙋",
         "form": "verb",
-        "transcription": "pɑːˈtɪsɪpeɪt",
-        "subtext": "participate in / actively participate / participation rate",
         "definitions": [
             {
                 "text": "To take part in something.",
@@ -1049,25 +1087,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "participated",
-        "v3": "participated",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "participating",
+        "transcription": "pɑːˈtɪsɪpeɪt",
+        "emoji": "🙋",
+        "_legacy": {
+            "subtext": "participate in / actively participate / participation rate",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "participated",
+            "v3": "participated",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "participating"
+        }
+    },
+    {
+        "id": "en_intermediate_social_060",
+        "word": "protest",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_social_038",
-        "word": "protest",
-        "emoji": "📢",
         "form": "verb",
-        "transcription": "prəˈtɛst",
-        "subtext": "protest against / stage a protest / peaceful protest",
         "definitions": [
             {
                 "text": "To express disagreement or opposition publicly.",
@@ -1076,25 +1115,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "protested",
-        "v3": "protested",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "protesting",
+        "transcription": "prəˈtɛst",
+        "emoji": "📢",
+        "_legacy": {
+            "subtext": "protest against / stage a protest / peaceful protest",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "protested",
+            "v3": "protested",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "protesting"
+        }
+    },
+    {
+        "id": "en_intermediate_social_061",
+        "word": "support",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_social_039",
-        "word": "support",
-        "emoji": "🤝",
         "form": "verb",
-        "transcription": "səˈpɔːt",
-        "subtext": "support a cause / support someone / show support",
         "definitions": [
             {
                 "text": "To agree with and help a cause or person.",
@@ -1103,25 +1143,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "supported",
-        "v3": "supported",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "supporting",
+        "transcription": "səˈpɔːt",
+        "emoji": "🤝",
+        "_legacy": {
+            "subtext": "support a cause / support someone / show support",
+            "classification": "regular",
+            "aspect": "both",
+            "v2": "supported",
+            "v3": "supported",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "supporting"
+        }
+    },
+    {
+        "id": "en_intermediate_social_062",
+        "word": "raise",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_social_040",
-        "word": "raise",
-        "emoji": "📈",
         "form": "verb",
-        "transcription": "reɪz",
-        "subtext": "raise awareness / raise a concern / raise an issue",
         "definitions": [
             {
                 "text": "To increase knowledge or concern about an issue.",
@@ -1130,25 +1171,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "raised",
-        "v3": "raised",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "raising",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "sub_theme": null
+        "transcription": "reɪz",
+        "emoji": "📈",
+        "_legacy": {
+            "subtext": "raise awareness / raise a concern / raise an issue",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "raised",
+            "v3": "raised",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "raising"
+        }
     },
     {
         "id": "en_intermediate_stress_anxiety_012",
         "word": "worry",
-        "emoji": "😟",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
         "form": "verb",
-        "transcription": "ˈwʌri",
-        "subtext": "worry about / stop worrying / cause worry",
         "definitions": [
             {
                 "text": "To feel anxious about something uncertain.",
@@ -1157,25 +1199,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "worried",
-        "v3": "worried",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "worrying",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "stress_anxiety",
-        "sub_theme": null
+        "transcription": "ˈwʌri",
+        "emoji": "😟",
+        "_legacy": {
+            "subtext": "worry about / stop worrying / cause worry",
+            "classification": "regular",
+            "aspect": "stative",
+            "v2": "worried",
+            "v3": "worried",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "worrying"
+        }
     },
     {
         "id": "en_intermediate_mental_health_wellbeing_018",
         "word": "regret",
-        "emoji": "😔",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
         "form": "verb",
-        "transcription": "rɪˈɡrɛt",
-        "subtext": "regret a decision / deeply regret / no regrets",
         "definitions": [
             {
                 "text": "To feel sorry about something you did or did not do.",
@@ -1184,25 +1227,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "regretted",
-        "v3": "regretted",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "regreting",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "transcription": "rɪˈɡrɛt",
+        "emoji": "😔",
+        "_legacy": {
+            "subtext": "regret a decision / deeply regret / no regrets",
+            "classification": "regular",
+            "aspect": "stative",
+            "v2": "regretted",
+            "v3": "regretted",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "regreting"
+        }
     },
     {
         "id": "en_intermediate_mental_health_wellbeing_019",
         "word": "resent",
-        "emoji": "😠",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
         "form": "verb",
-        "transcription": "rɪˈzɛnt",
-        "subtext": "resent something / resent someone / feel resentment",
         "definitions": [
             {
                 "text": "To feel bitter or angry about something you consider unfair.",
@@ -1211,25 +1255,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "resented",
-        "v3": "resented",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "resenting",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "transcription": "rɪˈzɛnt",
+        "emoji": "😠",
+        "_legacy": {
+            "subtext": "resent something / resent someone / feel resentment",
+            "classification": "regular",
+            "aspect": "stative",
+            "v2": "resented",
+            "v3": "resented",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "resenting"
+        }
     },
     {
-        "id": "en_intermediate_work_027",
+        "id": "en_intermediate_work_051",
         "word": "appreciate",
-        "emoji": "🙏",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "verb",
-        "transcription": "əˈpriːʃieɪt",
-        "subtext": "appreciate something / appreciate someone's work / deeply appreciate",
         "definitions": [
             {
                 "text": "To recognise the value of something or someone.",
@@ -1238,25 +1283,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "appreciated",
-        "v3": "appreciated",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "appreciating",
+        "transcription": "əˈpriːʃieɪt",
+        "emoji": "🙏",
+        "_legacy": {
+            "subtext": "appreciate something / appreciate someone's work / deeply appreciate",
+            "classification": "regular",
+            "aspect": "stative",
+            "v2": "appreciated",
+            "v3": "appreciated",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "appreciating"
+        }
+    },
+    {
+        "id": "en_intermediate_work_052",
+        "word": "blame",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_028",
-        "word": "blame",
-        "emoji": "👈",
         "form": "verb",
-        "transcription": "bleɪm",
-        "subtext": "blame someone / blame yourself / shift the blame",
         "definitions": [
             {
                 "text": "To hold someone responsible for something bad.",
@@ -1265,25 +1311,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "blamed",
-        "v3": "blamed",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "blaming",
+        "transcription": "bleɪm",
+        "emoji": "👈",
+        "_legacy": {
+            "subtext": "blame someone / blame yourself / shift the blame",
+            "classification": "regular",
+            "aspect": "stative",
+            "v2": "blamed",
+            "v3": "blamed",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "blaming"
+        }
+    },
+    {
+        "id": "en_intermediate_work_053",
+        "word": "encourage",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_029",
-        "word": "encourage",
-        "emoji": "🙌",
         "form": "verb",
-        "transcription": "ɪnˈkʌrɪdʒ",
-        "subtext": "encourage someone / encourage a behaviour / be encouraging",
         "definitions": [
             {
                 "text": "To give confidence or support to someone.",
@@ -1292,25 +1339,26 @@ const data = [
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "encouraged",
-        "v3": "encouraged",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "encouraging",
+        "transcription": "ɪnˈkʌrɪdʒ",
+        "emoji": "🙌",
+        "_legacy": {
+            "subtext": "encourage someone / encourage a behaviour / be encouraging",
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "encouraged",
+            "v3": "encouraged",
+            "group": "regular",
+            "auxiliary": "have",
+            "v4": "encouraging"
+        }
+    },
+    {
+        "id": "en_intermediate_work_054",
+        "word": "take on",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_030",
-        "word": "take on",
-        "emoji": "📋",
         "form": "verb",
-        "transcription": "🇬🇧 teɪk ɒn | 🇺🇸 teɪk ɑːn",
-        "subtext": "take on responsibility / take on more work / take on a role",
         "definitions": [
             {
                 "text": "To accept a new responsibility or challenge.",
@@ -1319,24 +1367,25 @@ const data = [
                 ]
             }
         ],
-        "classification": "phrasal",
-        "aspect": "action",
-        "v2": "took on",
-        "v3": "taken on",
-        "group": "regular",
-        "auxiliary": "have",
+        "transcription": "🇬🇧 teɪk ɒn | 🇺🇸 teɪk ɑːn",
+        "emoji": "📋",
+        "_legacy": {
+            "subtext": "take on responsibility / take on more work / take on a role",
+            "classification": "phrasal",
+            "aspect": "action",
+            "v2": "took on",
+            "v3": "taken on",
+            "group": "regular",
+            "auxiliary": "have"
+        }
+    },
+    {
+        "id": "en_intermediate_work_055",
+        "word": "put off",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_031",
-        "word": "put off",
-        "emoji": "⏳",
         "form": "verb",
-        "transcription": "🇬🇧 pʊt ɒf | 🇺🇸 pʊt ɑːf",
-        "subtext": "put off a decision / stop putting things off / keep putting off",
         "definitions": [
             {
                 "text": "To delay something to a later time.",
@@ -1345,24 +1394,25 @@ const data = [
                 ]
             }
         ],
-        "classification": "phrasal",
-        "aspect": "action",
-        "v2": "put off",
-        "v3": "put off",
-        "group": "regular",
-        "auxiliary": "have",
+        "transcription": "🇬🇧 pʊt ɒf | 🇺🇸 pʊt ɑːf",
+        "emoji": "⏳",
+        "_legacy": {
+            "subtext": "put off a decision / stop putting things off / keep putting off",
+            "classification": "phrasal",
+            "aspect": "action",
+            "v2": "put off",
+            "v3": "put off",
+            "group": "regular",
+            "auxiliary": "have"
+        }
+    },
+    {
+        "id": "en_intermediate_work_056",
+        "word": "come across",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_032",
-        "word": "come across",
-        "emoji": "🤝",
         "form": "verb",
-        "transcription": "🇬🇧 kʌm əˈkrɒs | 🇺🇸 kʌm əˈkrɑːs",
-        "subtext": "come across well / come across a problem / come across as",
         "definitions": [
             {
                 "text": "To meet or find something unexpectedly; to make an impression.",
@@ -1371,24 +1421,25 @@ const data = [
                 ]
             }
         ],
-        "classification": "phrasal",
-        "aspect": "both",
-        "v2": "came across",
-        "v3": "come across",
-        "group": "regular",
-        "auxiliary": "have",
+        "transcription": "🇬🇧 kʌm əˈkrɒs | 🇺🇸 kʌm əˈkrɑːs",
+        "emoji": "🤝",
+        "_legacy": {
+            "subtext": "come across well / come across a problem / come across as",
+            "classification": "phrasal",
+            "aspect": "both",
+            "v2": "came across",
+            "v3": "come across",
+            "group": "regular",
+            "auxiliary": "have"
+        }
+    },
+    {
+        "id": "en_intermediate_work_057",
+        "word": "deal with",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
-        "sub_theme": null
-    },
-    {
-        "id": "en_intermediate_work_033",
-        "word": "deal with",
-        "emoji": "🛠️",
         "form": "verb",
-        "transcription": "diːl wɪð",
-        "subtext": "deal with a problem / deal with stress / hard to deal with",
         "definitions": [
             {
                 "text": "To handle or take responsibility for a situation.",
@@ -1397,24 +1448,25 @@ const data = [
                 ]
             }
         ],
-        "classification": "phrasal",
-        "aspect": "action",
-        "v2": "dealt with",
-        "v3": "dealt with",
-        "group": "regular",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "diːl wɪð",
+        "emoji": "🛠️",
+        "_legacy": {
+            "subtext": "deal with a problem / deal with stress / hard to deal with",
+            "classification": "phrasal",
+            "aspect": "action",
+            "v2": "dealt with",
+            "v3": "dealt with",
+            "group": "regular",
+            "auxiliary": "have"
+        }
     },
     {
-        "id": "en_intermediate_social_041",
+        "id": "en_intermediate_social_063",
         "word": "stand for",
-        "emoji": "🛡️",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
         "form": "verb",
-        "transcription": "stænd fɔː",
-        "subtext": "stand for something / not stand for / what does it stand for",
         "definitions": [
             {
                 "text": "To represent or tolerate something.",
@@ -1423,24 +1475,25 @@ const data = [
                 ]
             }
         ],
-        "classification": "phrasal",
-        "aspect": "stative",
-        "v2": "stood for",
-        "v3": "stood for",
-        "group": "regular",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "sub_theme": null
+        "transcription": "stænd fɔː",
+        "emoji": "🛡️",
+        "_legacy": {
+            "subtext": "stand for something / not stand for / what does it stand for",
+            "classification": "phrasal",
+            "aspect": "stative",
+            "v2": "stood for",
+            "v3": "stood for",
+            "group": "regular",
+            "auxiliary": "have"
+        }
     },
     {
         "id": "en_intermediate_career_development_045",
         "word": "build up",
-        "emoji": "🏗️",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
         "form": "verb",
-        "transcription": "bɪld ʌp",
-        "subtext": "build up experience / build up savings / build up trust",
         "definitions": [
             {
                 "text": "To gradually increase or develop something.",
@@ -1449,24 +1502,25 @@ const data = [
                 ]
             }
         ],
-        "classification": "phrasal",
-        "aspect": "action",
-        "v2": "built up",
-        "v3": "built up",
-        "group": "regular",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "transcription": "bɪld ʌp",
+        "emoji": "🏗️",
+        "_legacy": {
+            "subtext": "build up experience / build up savings / build up trust",
+            "classification": "phrasal",
+            "aspect": "action",
+            "v2": "built up",
+            "v3": "built up",
+            "group": "regular",
+            "auxiliary": "have"
+        }
     },
     {
         "id": "en_intermediate_finances_investment_005",
         "word": "run out",
-        "emoji": "📉",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "finances_investment",
         "form": "verb",
-        "transcription": "rʌn aʊt",
-        "subtext": "run out of money / run out of time / run out of ideas",
         "definitions": [
             {
                 "text": "To have no more of something left.",
@@ -1475,24 +1529,25 @@ const data = [
                 ]
             }
         ],
-        "classification": "phrasal",
-        "aspect": "action",
-        "v2": "ran out",
-        "v3": "run out",
-        "group": "regular",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "finances_investment",
-        "sub_theme": null
+        "transcription": "rʌn aʊt",
+        "emoji": "📉",
+        "_legacy": {
+            "subtext": "run out of money / run out of time / run out of ideas",
+            "classification": "phrasal",
+            "aspect": "action",
+            "v2": "ran out",
+            "v3": "run out",
+            "group": "regular",
+            "auxiliary": "have"
+        }
     },
     {
-        "id": "en_intermediate_work_034",
+        "id": "en_intermediate_work_058",
         "word": "look into",
-        "emoji": "🔍",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
         "form": "verb",
-        "transcription": "lʊk ˈɪntə",
-        "subtext": "look into a matter / look into a complaint / look into options",
         "definitions": [
             {
                 "text": "To investigate or examine something in detail.",
@@ -1501,16 +1556,17 @@ const data = [
                 ]
             }
         ],
-        "classification": "phrasal",
-        "aspect": "action",
-        "v2": "looked into",
-        "v3": "looked into",
-        "group": "regular",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "sub_theme": null
+        "transcription": "lʊk ˈɪntə",
+        "emoji": "🔍",
+        "_legacy": {
+            "subtext": "look into a matter / look into a complaint / look into options",
+            "classification": "phrasal",
+            "aspect": "action",
+            "v2": "looked into",
+            "v3": "looked into",
+            "group": "regular",
+            "auxiliary": "have"
+        }
     }
 ];
     const lang = "en";

@@ -2,12 +2,12 @@
 (function() {
     const data = [
     {
+        "id": "fr_intermediate_work_001",
         "word": "indépendant",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "👨‍💻",
+        "theme": "work",
         "form": "adjective",
-        "subtext": "à son compte, freelance",
         "definitions": [
             {
                 "text": "Travailler pour soi-même plutôt que pour une entreprise.",
@@ -15,15 +15,20 @@
                     "Elle est graphiste indépendante."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "👨‍💻",
+        "_legacy": {
+            "subtext": "à son compte, freelance"
+        }
     },
     {
+        "id": "fr_intermediate_environment_001",
         "word": "durable",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "♻️",
+        "theme": "environment",
         "form": "adjective",
-        "opposite": "insoutenable",
         "definitions": [
             {
                 "text": "Utiliser les ressources d'une manière qui ne nuit pas à l'environnement pour l'avenir.",
@@ -31,7 +36,12 @@
                     "Nous avons besoin de modes de vie plus durables."
                 ]
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "♻️",
+        "_legacy": {
+            "opposite": "insoutenable"
+        }
     }
 ];
     const lang = "fr";

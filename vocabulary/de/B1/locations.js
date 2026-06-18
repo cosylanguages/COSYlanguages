@@ -2,59 +2,125 @@
 (function() {
     const data = [
     {
+        "id": "de_intermediate_places_001",
         "word": "Australien",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "de",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "de_intermediate_places_002",
         "word": "Japan",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "de",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "de_intermediate_places_003",
         "word": "China",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "de",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "de_intermediate_places_004",
         "word": "Brasilien",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "de",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "de_intermediate_places_005",
         "word": "Indien",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "de",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "de_intermediate_places_006",
         "word": "Tokio",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "de",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "de_intermediate_places_007",
         "word": "Sydney",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "de",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "de_intermediate_places_008",
         "word": "Peking",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "de",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "de_intermediate_places_009",
         "word": "Rio de Janeiro",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "de",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "phrase",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "de_intermediate_places_010",
         "word": "Kairo",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "de",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "de_intermediate_places_011",
         "word": "Delhi",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "de",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     }
 ];
     const lang = "de";

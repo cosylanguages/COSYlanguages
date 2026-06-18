@@ -2,59 +2,125 @@
 (function() {
     const data = [
     {
+        "id": "hy_intermediate_places_001",
         "word": "Ավստրալիա",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "hy",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "hy_intermediate_places_002",
         "word": "Ճապոնիա",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "hy",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "hy_intermediate_places_003",
         "word": "Չինաստան",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "hy",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "hy_intermediate_places_004",
         "word": "Բրազիլիա",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "hy",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "hy_intermediate_places_005",
         "word": "Հնդկաստան",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "hy",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "hy_intermediate_places_006",
         "word": "Տոկիո",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "hy",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "hy_intermediate_places_007",
         "word": "Սիդնեյ",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "hy",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "hy_intermediate_places_008",
         "word": "Պեկին",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "hy",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "hy_intermediate_places_009",
         "word": "Ռիո դե Ժանեյրո",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "hy",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "phrase",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "hy_intermediate_places_010",
         "word": "Կահիրե",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "hy",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "hy_intermediate_places_011",
         "word": "Դելի",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "hy",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     }
 ];
     const lang = "hy";

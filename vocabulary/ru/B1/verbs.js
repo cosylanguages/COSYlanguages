@@ -2,14 +2,12 @@
 (function() {
     const data = [
     {
+        "id": "ru_intermediate_social_033",
         "word": "заниматься садоводством",
+        "lang": "ru",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🧑‍🌾",
+        "theme": "social",
         "form": "verb",
-        "group": "1st_conj",
-        "classification": "regular",
-        "aspect": "action",
         "definitions": [
             {
                 "text": "Работать в саду, выращивать растения.",
@@ -18,18 +16,23 @@
                 ]
             }
         ],
-        "v3": "занимался садоводством",
-        "auxiliary": "быть"
+        "transcription": "-",
+        "emoji": "🧑‍🌾",
+        "_legacy": {
+            "group": "1st_conj",
+            "classification": "regular",
+            "aspect": "action",
+            "v3": "занимался садоводством",
+            "auxiliary": "быть"
+        }
     },
     {
+        "id": "ru_intermediate_social_034",
         "word": "работать волонтёром",
+        "lang": "ru",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🙋",
+        "theme": "social",
         "form": "verb",
-        "group": "1st_conj",
-        "classification": "regular",
-        "aspect": "action",
         "definitions": [
             {
                 "text": "Предлагать сделать что-то без оплаты.",
@@ -38,8 +41,15 @@
                 ]
             }
         ],
-        "v3": "работал волонтёром",
-        "auxiliary": "быть"
+        "transcription": "-",
+        "emoji": "🙋",
+        "_legacy": {
+            "group": "1st_conj",
+            "classification": "regular",
+            "aspect": "action",
+            "v3": "работал волонтёром",
+            "auxiliary": "быть"
+        }
     }
 ];
     const lang = "ru";

@@ -2,24 +2,33 @@
 (function() {
     const data = [
     {
+        "id": "en_intermediate_places_019",
         "word": "garden",
-        "image": "images/vocabulary/places/garden.png",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "🌳",
-        "form": "noun", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
-        "countability": "countable"
-    },
-{
-        "word": "engineer",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "👷",
-        "form": "noun", "classification": "regular",
-        "plural": "engineers",
-        "transcription": "🇬🇧 ˌɛndʒɪˈnɪə | 🇺🇸 ˌɛndʒɪˈnɪər",
-        "countability": "countable",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A public garden or large green area in a city for everyone to use.",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "🌳",
+        "_legacy": {
+            "image": "images/vocabulary/places/garden.png",
+            "classification": "regular",
+            "countability": "countable"
+        }
+    },
+    {
+        "id": "en_intermediate_work_059",
+        "word": "engineer",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A person who designs or builds machines, engines, or structures.",
@@ -34,17 +43,22 @@
                     "Engineers use computers to design things."
                 ]
             }
-        ]
+        ],
+        "transcription": "🇬🇧 ˌɛndʒɪˈnɪə | 🇺🇸 ˌɛndʒɪˈnɪər",
+        "emoji": "👷",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "engineers",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_060",
         "word": "pilot",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "🧑‍✈️",
-        "form": "noun", "classification": "regular",
-        "plural": "pilots",
-        "transcription": "ˈpaɪlət",
-        "countability": "countable",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A person who flies an airplane or a helicopter.",
@@ -59,17 +73,22 @@
                     "Pilots wear a uniform."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈpaɪlət",
+        "emoji": "🧑‍✈️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "pilots",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_064",
         "word": "sushi",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🍣",
-        "form": "noun", "classification": "regular",
-        "plural": "sushi",
-        "transcription": "ˈsuːʃi",
-        "countability": "uncountable",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A Japanese dish with rice and raw fish.",
@@ -84,17 +103,22 @@
                     "Sushi is often served with ginger and wasabi."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈsuːʃi",
+        "emoji": "🍣",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "sushi",
+            "countability": "uncountable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_065",
         "word": "pancake",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🥞",
-        "form": "noun", "classification": "regular",
-        "plural": "pancakes",
-        "transcription": "ˈpænkeɪk",
-        "countability": "countable",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A flat, round cake cooked in a pan.",
@@ -109,18 +133,22 @@
                     "Pancakes are soft and sweet."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈpænkeɪk",
+        "emoji": "🥞",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "pancakes",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_066",
         "word": "carrot",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "explanation": "Carrot is a vegetable, the others are fruits.",
-        "emoji": "🥕",
-        "form": "noun", "classification": "regular",
-        "plural": "carrots",
-        "transcription": "ˈkærət",
-        "countability": "countable",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A long orange root vegetable.",
@@ -135,17 +163,23 @@
                     "You can use carrots in a cake."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈkærət",
+        "emoji": "🥕",
+        "_legacy": {
+            "explanation": "Carrot is a vegetable, the others are fruits.",
+            "classification": "regular",
+            "plural": "carrots",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_067",
         "word": "milkshake",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🥤",
-        "form": "noun", "classification": "regular",
-        "plural": "milkshakes",
-        "transcription": "ˈmɪlkʃeɪk",
-        "countability": "countable",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A cold drink made of milk, ice cream, and flavorings.",
@@ -160,38 +194,55 @@
                     "Milkshakes are popular in American diners."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈmɪlkʃeɪk",
+        "emoji": "🥤",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "milkshakes",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_places_020",
         "word": "library",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "neighbourhood_local_A2",
-        "explanation": "A library is a place for books, while the others might be related to food or travel.",
-        "emoji": "📚",
-        "form": "noun", "classification": "regular",
-        "plural": "libraries",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
         "transcription": "ˈlaɪbrəri",
-        "countability": "countable"
+        "emoji": "📚",
+        "_legacy": {
+            "explanation": "A library is a place for books, while the others might be related to food or travel.",
+            "classification": "regular",
+            "plural": "libraries",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_places_021",
         "word": "museum",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "neighbourhood_local_A2",
-        "emoji": "🏛️",
-        "form": "noun", "classification": "regular",
-        "plural": "museums",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
         "transcription": "mjuˈziːəm",
-        "countability": "countable"
+        "emoji": "🏛️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "museums",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_travel_006",
         "word": "airport",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "travel_cultural_B1",
-        "emoji": "✈️",
-        "form": "noun", "classification": "regular",
-        "plural": "airports",
-        "transcription": "ˈeəpɔːt",
-        "countability": "countable",
+        "theme": "travel",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A place where planes land and take off.",
@@ -206,116 +257,166 @@
                     "We need to be at the airport two hours before the flight."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈeəpɔːt",
+        "emoji": "✈️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "airports",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_068",
         "word": "sweater",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🧶",
-        "form": "noun", "classification": "regular",
-        "plural": "sweaters",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
         "transcription": "🇬🇧 ˈswɛtə | 🇺🇸 ˈswɛtər",
-        "countability": "countable"
-    ,
-        "synonyms": [
-            "🇬🇧 jumper"
-        ]
+        "emoji": "🧶",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "sweaters",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_069",
         "word": "scarf",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🧣",
-        "form": "noun", "classification": "regular",
-        "plural": "scarves",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
         "transcription": "skɑːf",
-        "countability": "countable"
+        "emoji": "🧣",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "scarves",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_070",
         "word": "wardrobe",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "👗",
-        "form": "noun", "classification": "regular",
-        "plural": "wardrobes",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
         "transcription": "🇬🇧 ˈwɔːdrəʊb | 🇺🇸 ˈwɔːdroʊb",
-        "countability": "countable"
-    ,
-        "synonyms": [
-            "🇺🇸 closet"
-        ]
+        "emoji": "👗",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "wardrobes",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_071",
         "word": "shelf",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "📚",
-        "form": "noun", "classification": "regular",
-        "plural": "shelves",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
         "transcription": "ʃɛlf",
-        "countability": "countable"
+        "emoji": "📚",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "shelves",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_072",
         "word": "mirror",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🪞",
-        "form": "noun", "classification": "regular",
-        "plural": "mirrors",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
         "transcription": "🇬🇧 ˈmɪrə | 🇺🇸 ˈmɪrər",
-        "countability": "countable"
+        "emoji": "🪞",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "mirrors",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_073",
         "word": "umbrella",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "☂️",
-        "form": "noun", "classification": "regular",
-        "plural": "umbrellas",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
         "transcription": "ʌmˈbrɛlə",
-        "countability": "countable"
+        "emoji": "☂️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "umbrellas",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_074",
         "word": "laptop",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "💻",
-        "form": "noun", "classification": "regular",
-        "plural": "laptops",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
         "transcription": "🇬🇧 ˈlæptɒp | 🇺🇸 ˈlæptɑːp",
-        "countability": "countable"
-    },
-{
-        "word": "elephant",
-        "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🐘",
-        "form": "noun", "classification": "regular",
-        "plural": "elephants",
-        "transcription": "ˈɛlɪfənt",
-        "countability": "countable"
-    },
-{
-        "word": "monkey",
-        "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🐒",
-        "form": "noun", "classification": "regular",
-        "plural": "monkeys",
-        "transcription": "ˈmʌŋki",
-        "countability": "countable"
-    },
-{
-        "word": "software developer",
-        "level": "intermediate",
-        "theme": "career_development_B1",
-        "explanation": "A software developer creates code, while the others are physical structures or objects.",
         "emoji": "💻",
-        "form": "noun", "classification": "regular",
-        "plural": "software developers",
-        "transcription": "🇬🇧 ˈsɒftweə dɪˈvɛləpə | 🇺🇸 ˈsɑːftweə dɪˈvɛləpər",
-        "countability": "countable",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "laptops",
+            "countability": "countable"
+        }
+    },
+    {
+        "id": "en_intermediate_social_075",
+        "word": "elephant",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "ˈɛlɪfənt",
+        "emoji": "🐘",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "elephants",
+            "countability": "countable"
+        }
+    },
+    {
+        "id": "en_intermediate_social_076",
+        "word": "monkey",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "ˈmʌŋki",
+        "emoji": "🐒",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "monkeys",
+            "countability": "countable"
+        }
+    },
+    {
+        "id": "en_intermediate_work_061",
+        "word": "software developer",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A person who writes computer programs.",
@@ -330,17 +431,23 @@
                     "Software developers use different programming languages."
                 ]
             }
-        ]
+        ],
+        "transcription": "🇬🇧 ˈsɒftweə dɪˈvɛləpə | 🇺🇸 ˈsɑːftweə dɪˈvɛləpər",
+        "emoji": "💻",
+        "_legacy": {
+            "explanation": "A software developer creates code, while the others are physical structures or objects.",
+            "classification": "regular",
+            "plural": "software developers",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_062",
         "word": "architect",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "🏗️",
-        "form": "noun", "classification": "regular",
-        "plural": "architects",
-        "transcription": "ˈɑːkɪtɛkt",
-        "countability": "countable",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A person who designs buildings.",
@@ -355,67 +462,102 @@
                     "Architects need to be good at math and drawing."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈɑːkɪtɛkt",
+        "emoji": "🏗️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "architects",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_077",
         "word": "algorithm",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "💻",
-        "form": "noun", "classification": "regular",
-        "plural": "algorithms",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
         "transcription": "ˈælɡərɪðəm",
-        "countability": "countable"
-    },
-{
-        "word": "evolution",
-        "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🐒",
-        "form": "noun", "classification": "regular",
-        "plural": "evolutions",
-        "transcription": "ˌiːvəˈluːʃn",
-        "countability": "uncountable"
-    },
-{
-        "word": "democracy",
-        "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🗳️",
-        "form": "noun", "classification": "regular",
-        "plural": "democracies",
-        "transcription": "🇬🇧 dɪˈmɒkrəsi | 🇺🇸 dɪˈmɑːkrəsi",
-        "countability": "countable"
-    },
-{
-        "word": "ecosystem",
-        "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "🌲",
-        "form": "noun", "classification": "regular",
-        "plural": "ecosystems",
-        "transcription": "🇬🇧 ˈiːkəʊˌsɪstəm | 🇺🇸 ˈiːkoʊˌsɪstəm",
-        "countability": "countable"
-    },
-{
-        "word": "colleague",
-        "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "👥",
-        "form": "noun", "classification": "regular",
-        "plural": "colleagues",
-        "transcription": "🇬🇧 ˈkɒliːɡ | 🇺🇸 ˈkɑːliːɡ",
-        "countability": "countable"
-    },
-{
-        "word": "remote work",
-        "level": "intermediate",
-        "theme": "society_community_B1",
         "emoji": "💻",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "algorithms",
+            "countability": "countable"
+        }
+    },
+    {
+        "id": "en_intermediate_social_078",
+        "word": "evolution",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "ˌiːvəˈluːʃn",
+        "emoji": "🐒",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "evolutions",
+            "countability": "uncountable"
+        }
+    },
+    {
+        "id": "en_intermediate_social_079",
+        "word": "democracy",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "🇬🇧 dɪˈmɒkrəsi | 🇺🇸 dɪˈmɑːkrəsi",
+        "emoji": "🗳️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "democracies",
+            "countability": "countable"
+        }
+    },
+    {
+        "id": "en_intermediate_environment_013",
+        "word": "ecosystem",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "environment",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "🇬🇧 ˈiːkəʊˌsɪstəm | 🇺🇸 ˈiːkoʊˌsɪstəm",
+        "emoji": "🌲",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "ecosystems",
+            "countability": "countable"
+        }
+    },
+    {
+        "id": "en_intermediate_work_063",
+        "word": "colleague",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "🇬🇧 ˈkɒliːɡ | 🇺🇸 ˈkɑːliːɡ",
+        "emoji": "👥",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "colleagues",
+            "countability": "countable"
+        }
+    },
+    {
+        "id": "en_intermediate_social_080",
+        "word": "remote work",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
         "form": "noun phrase",
-        "plural": null,
-        "transcription": "🇬🇧 rɪˈməʊt wɜːk | 🇺🇸 rɪˈmoʊt wɜːk",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "Working from a location other than the office, usually home.",
@@ -424,27 +566,36 @@
                 ]
             }
         ],
-        "subtext": "remote work policy, shift to remote work"
+        "transcription": "🇬🇧 rɪˈməʊt wɜːk | 🇺🇸 rɪˈmoʊt wɜːk",
+        "emoji": "💻",
+        "_legacy": {
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "remote work policy, shift to remote work"
+        }
     },
-{
+    {
+        "id": "en_intermediate_environment_014",
         "word": "global warming",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "🌡️",
+        "theme": "environment",
         "form": "noun phrase",
-        "plural": null,
+        "definitions": [],
         "transcription": "🇬🇧 ˈɡləʊbl ˈwɔːmɪŋ | 🇺🇸 ˈɡloʊbl ˈwɔːmɪŋ",
-        "countability": "uncountable"
+        "emoji": "🌡️",
+        "_legacy": {
+            "plural": null,
+            "countability": "uncountable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_travel_007",
         "word": "commuter",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "travel_cultural_B1",
-        "emoji": "🚆",
-        "form": "noun", "classification": "regular",
-        "plural": "commuters",
-        "transcription": "🇬🇧 kəˈmjuːtə | 🇺🇸 kəˈmjuːtər",
-        "countability": "countable",
+        "theme": "travel",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A person who travels some distance to work on a regular basis.",
@@ -459,19 +610,22 @@
                     "Commuters often travel during rush hour."
                 ]
             }
-        ]
+        ],
+        "transcription": "🇬🇧 kəˈmjuːtə | 🇺🇸 kəˈmjuːtər",
+        "emoji": "🚆",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "commuters",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_081",
         "word": "child",
-        "theme": "society_community_B1",
+        "lang": "en",
         "level": "intermediate",
-        "numberPlural": "5 child",
-        "answer": "five children",
-        "emoji": "🧒",
-        "form": "noun", "classification": "regular",
-        "plural": "children",
-        "transcription": "tʃaɪld",
-        "countability": "countable",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A young human who is not yet an adult.",
@@ -480,50 +634,68 @@
                     "How many children do they have?"
                 ]
             }
-        ]
+        ],
+        "transcription": "tʃaɪld",
+        "emoji": "🧒",
+        "_legacy": {
+            "numberPlural": "5 child",
+            "answer": "five children",
+            "classification": "regular",
+            "plural": "children",
+            "countability": "countable"
+        }
     },
-{
+    {
+        "id": "en_intermediate_environment_015",
         "word": "leaf",
-        "theme": "environment_sustainability_B1",
+        "lang": "en",
         "level": "intermediate",
-        "numberPlural": "many leaf",
-        "answer": "many leaves",
-        "emoji": "🍃",
-        "form": "noun", "classification": "regular",
-        "plural": "leaves",
+        "theme": "environment",
+        "form": "noun",
+        "definitions": [],
         "transcription": "liːf",
-        "countability": "countable",
-        "etymology": {
-            "origin_lang": "Proto-Germanic",
-            "origin_word": "laubą"
+        "emoji": "🍃",
+        "_legacy": {
+            "numberPlural": "many leaf",
+            "answer": "many leaves",
+            "classification": "regular",
+            "plural": "leaves",
+            "countability": "countable",
+            "etymology": {
+                "origin_lang": "Proto-Germanic",
+                "origin_word": "laubą"
+            }
         }
     },
-{
+    {
+        "id": "en_intermediate_health_medicine_014",
         "word": "tooth",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "numberPlural": "32 tooth",
-        "answer": "thirty-two teeth",
-        "emoji": "🦷",
-        "form": "noun", "classification": "regular",
-        "plural": "teeth",
+        "theme": "health_medicine",
+        "form": "noun",
+        "definitions": [],
         "transcription": "tuːθ",
-        "countability": "countable",
-        "etymology": {
-            "origin_lang": "Proto-Germanic",
-            "origin_word": "tanþs"
+        "emoji": "🦷",
+        "_legacy": {
+            "numberPlural": "32 tooth",
+            "answer": "thirty-two teeth",
+            "classification": "regular",
+            "plural": "teeth",
+            "countability": "countable",
+            "etymology": {
+                "origin_lang": "Proto-Germanic",
+                "origin_word": "tanþs"
+            }
         }
     },
-{
+    {
+        "id": "en_intermediate_work_064",
         "word": "career",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "📈",
-        "form": "noun", "classification": "regular",
-        "plural": "careers",
-        "transcription": "🇬🇧 kəˈrɪə | 🇺🇸 kəˈrɪər",
-        "countability": "countable",
-        "subtext": "career path, long-term career",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The series of jobs someone has during their working life.",
@@ -532,18 +704,23 @@
                     "He is looking for a career change."
                 ]
             }
-        ]
+        ],
+        "transcription": "🇬🇧 kəˈrɪə | 🇺🇸 kəˈrɪər",
+        "emoji": "📈",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "careers",
+            "countability": "countable",
+            "subtext": "career path, long-term career"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_065",
         "word": "redundancy",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "📉",
-        "form": "noun", "classification": "regular",
-        "plural": "redundancies",
-        "transcription": "rɪˈdʌndənsi",
-        "countability": "countable",
-        "subtext": "voluntary redundancy, redundancy pay",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Losing your job because the employer no longer needs the role.",
@@ -553,18 +730,23 @@
                     "He received a redundancy notice last month."
                 ]
             }
-        ]
+        ],
+        "transcription": "rɪˈdʌndənsi",
+        "emoji": "📉",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "redundancies",
+            "countability": "countable",
+            "subtext": "voluntary redundancy, redundancy pay"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_066",
         "word": "flexible working",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "work_life_balance_B1",
-        "emoji": "🏠",
+        "theme": "work",
         "form": "noun phrase",
-        "plural": null,
-        "transcription": "ˈflɛksəbl ˈwɜːkɪŋ",
-        "countability": "uncountable",
-        "subtext": "work from home, flexitime",
         "definitions": [
             {
                 "text": "An arrangement allowing employees to vary their hours or location.",
@@ -573,18 +755,22 @@
                     "Flexible working helps parents balance their lives."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈflɛksəbl ˈwɜːkɪŋ",
+        "emoji": "🏠",
+        "_legacy": {
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "work from home, flexitime"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_067",
         "word": "networking",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "🤝",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "ˈnɛtwɜːkɪŋ",
-        "countability": "uncountable",
-        "subtext": "professional networking, networking event",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Building professional relationships to help your career.",
@@ -594,18 +780,23 @@
                     "Networking helped her find her current job."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈnɛtwɜːkɪŋ",
+        "emoji": "🤝",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "professional networking, networking event"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_068",
         "word": "workload",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "work_life_balance_B1",
-        "emoji": "📚",
-        "form": "noun", "classification": "regular",
-        "plural": "workloads",
-        "transcription": "🇬🇧 ˈwɜːkləʊd | 🇺🇸 ˈwɜːkloʊd",
-        "countability": "countable",
-        "subtext": "heavy workload, manage workload",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The amount of work a person has to do.",
@@ -615,18 +806,23 @@
                     "Her workload has doubled since the merger."
                 ]
             }
-        ]
+        ],
+        "transcription": "🇬🇧 ˈwɜːkləʊd | 🇺🇸 ˈwɜːkloʊd",
+        "emoji": "📚",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "workloads",
+            "countability": "countable",
+            "subtext": "heavy workload, manage workload"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_069",
         "word": "teamwork",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "workplace_communication_B1",
-        "emoji": "👥",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "ˈtiːmwɜːk",
-        "countability": "uncountable",
-        "subtext": "effective teamwork, team spirit",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Working effectively together with other people.",
@@ -635,18 +831,23 @@
                     "We value teamwork above all else."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈtiːmwɜːk",
+        "emoji": "👥",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "effective teamwork, team spirit"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_070",
         "word": "ambition",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "🚀",
-        "form": "noun", "classification": "regular",
-        "plural": "ambitions",
-        "transcription": "æmˈbɪʃn",
-        "countability": "countable",
-        "subtext": "high ambition, professional ambition",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A strong desire to achieve something.",
@@ -656,18 +857,23 @@
                     "Her ambition is to run her own company."
                 ]
             }
-        ]
+        ],
+        "transcription": "æmˈbɪʃn",
+        "emoji": "🚀",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "ambitions",
+            "countability": "countable",
+            "subtext": "high ambition, professional ambition"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_071",
         "word": "skill",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "🛠️",
-        "form": "noun", "classification": "regular",
-        "plural": "skills",
-        "transcription": "skɪl",
-        "countability": "countable",
-        "subtext": "soft skills, hard skills, practical skills",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "An ability to do something well, usually gained through practice.",
@@ -676,18 +882,23 @@
                     "He has great technical skills."
                 ]
             }
-        ]
+        ],
+        "transcription": "skɪl",
+        "emoji": "🛠️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "skills",
+            "countability": "countable",
+            "subtext": "soft skills, hard skills, practical skills"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_072",
         "word": "maternity leave",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "work_life_balance_B1",
-        "emoji": "👶",
+        "theme": "work",
         "form": "noun phrase",
-        "plural": null,
-        "transcription": "məˈtɜːnɪti liːv",
-        "countability": "uncountable",
-        "subtext": "paternity leave, parental leave",
         "definitions": [
             {
                 "text": "Paid time off work given to a mother after having a baby.",
@@ -696,18 +907,22 @@
                     "He is on paternity leave."
                 ]
             }
-        ]
+        ],
+        "transcription": "məˈtɜːnɪti liːv",
+        "emoji": "👶",
+        "_legacy": {
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "paternity leave, parental leave"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_073",
         "word": "pension",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "emoji": "👴",
-        "form": "noun", "classification": "regular",
-        "plural": "pensions",
-        "transcription": "ˈpɛnʃn",
-        "countability": "countable",
-        "subtext": "pension plan, retirement fund",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Money paid to someone regularly after they retire.",
@@ -717,18 +932,23 @@
                     "She contributes ten percent of her salary to her pension."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈpɛnʃn",
+        "emoji": "👴",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "pensions",
+            "countability": "countable",
+            "subtext": "pension plan, retirement fund"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_074",
         "word": "investment",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "emoji": "💰",
-        "form": "noun", "classification": "regular",
-        "plural": "investments",
-        "transcription": "ɪnˈvɛstmənt",
-        "countability": "countable",
-        "subtext": "long-term investment, return on investment",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Money put into something in order to get a profit in the future.",
@@ -738,18 +958,23 @@
                     "Property is considered a safe long-term investment."
                 ]
             }
-        ]
+        ],
+        "transcription": "ɪnˈvɛstmənt",
+        "emoji": "💰",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "investments",
+            "countability": "countable",
+            "subtext": "long-term investment, return on investment"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_075",
         "word": "interest rate",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "emoji": "📊",
+        "theme": "work",
         "form": "noun phrase",
-        "plural": "interest rates",
-        "transcription": "ˈɪntrəst reɪt",
-        "countability": "countable",
-        "subtext": "high interest rate, low interest rate",
         "definitions": [
             {
                 "text": "The percentage charged for borrowing money or earned on savings.",
@@ -758,20 +983,22 @@
                     "Bank of England raised the interest rate."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈɪntrəst reɪt",
+        "emoji": "📊",
+        "_legacy": {
+            "plural": "interest rates",
+            "countability": "countable",
+            "subtext": "high interest rate, low interest rate"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_076",
         "word": "income",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "emoji": "💵",
-        "form": "noun", "classification": "regular",
-        "plural": "incomes",
-        "transcription": "ˈɪnkʌm",
-        "countability": "countable",
-        "subtext": "annual income, disposable income",
-        "opposite": "expense",
-        "oppositeEmoji": "💸",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Money received from work or other sources.",
@@ -781,18 +1008,25 @@
                     "Their combined household income is comfortable."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈɪnkʌm",
+        "emoji": "💵",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "incomes",
+            "countability": "countable",
+            "subtext": "annual income, disposable income",
+            "opposite": "expense",
+            "oppositeEmoji": "💸"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_077",
         "word": "insurance",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "emoji": "🛡️",
-        "form": "noun", "classification": "regular",
-        "plural": "insurances",
-        "transcription": "ɪnˈʃʊərəns",
-        "countability": "uncountable",
-        "subtext": "health insurance, car insurance",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "An agreement where you pay regularly to be protected against loss or damage.",
@@ -802,18 +1036,23 @@
                     "Health insurance costs have risen significantly."
                 ]
             }
-        ]
+        ],
+        "transcription": "ɪnˈʃʊərəns",
+        "emoji": "🛡️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "insurances",
+            "countability": "uncountable",
+            "subtext": "health insurance, car insurance"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_078",
         "word": "tax",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "emoji": "🏛️",
-        "form": "noun", "classification": "regular",
-        "plural": "taxes",
-        "transcription": "tæks",
-        "countability": "countable",
-        "subtext": "income tax, value-added tax (VAT)",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Money paid to the government based on income or purchases.",
@@ -822,18 +1061,23 @@
                     "The tax on fuel has increased."
                 ]
             }
-        ]
+        ],
+        "transcription": "tæks",
+        "emoji": "🏛️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "taxes",
+            "countability": "countable",
+            "subtext": "income tax, value-added tax (VAT)"
+        }
     },
-{
+    {
+        "id": "en_intermediate_health_medicine_015",
         "word": "wellbeing",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "emoji": "🧘",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "ˌwɛlˈbiːɪŋ",
-        "countability": "uncountable",
-        "subtext": "mental wellbeing, emotional wellbeing",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A general feeling of being comfortable, healthy and happy.",
@@ -843,18 +1087,23 @@
                     "The company has introduced wellbeing initiatives."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˌwɛlˈbiːɪŋ",
+        "emoji": "🧘",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "mental wellbeing, emotional wellbeing"
+        }
     },
-{
+    {
+        "id": "en_intermediate_health_medicine_016",
         "word": "mental health",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "emoji": "🧠",
+        "theme": "health_medicine",
         "form": "noun phrase",
-        "plural": null,
-        "transcription": "ˈmɛntl hɛlθ",
-        "countability": "uncountable",
-        "subtext": "mental health awareness, psychological state",
         "definitions": [
             {
                 "text": "A person's psychological and emotional state.",
@@ -863,18 +1112,22 @@
                     "Stress can affect your mental health."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈmɛntl hɛlθ",
+        "emoji": "🧠",
+        "_legacy": {
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "mental health awareness, psychological state"
+        }
     },
-{
+    {
+        "id": "en_intermediate_health_medicine_017",
         "word": "burnout",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "emoji": "🔋",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "ˈbɜːnaʊt",
-        "countability": "uncountable",
-        "subtext": "emotional exhaustion, work stress",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A state of exhaustion caused by too much stress over a long time.",
@@ -884,18 +1137,23 @@
                     "She took sick leave after suffering from burnout."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈbɜːnaʊt",
+        "emoji": "🔋",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "emotional exhaustion, work stress"
+        }
     },
-{
+    {
+        "id": "en_intermediate_health_medicine_018",
         "word": "prevention",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "healthcare_systems_B1",
-        "emoji": "🛡️",
-        "form": "noun", "classification": "regular",
-        "plural": "preventions",
-        "transcription": "prɪˈvɛnʃn",
-        "countability": "uncountable",
-        "subtext": "prevention is better than cure, crime prevention",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Action taken to stop something bad from happening.",
@@ -904,18 +1162,23 @@
                     "The focus is on the prevention of disease."
                 ]
             }
-        ]
+        ],
+        "transcription": "prɪˈvɛnʃn",
+        "emoji": "🛡️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "preventions",
+            "countability": "uncountable",
+            "subtext": "prevention is better than cure, crime prevention"
+        }
     },
-{
+    {
+        "id": "en_intermediate_health_medicine_019",
         "word": "symptoms",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "healthcare_systems_B1",
-        "emoji": "🤒",
-        "form": "noun", "classification": "regular",
-        "plural": "symptoms",
-        "transcription": "ˈsɪmptəmz",
-        "countability": "countable",
-        "subtext": "flu symptoms, show symptoms",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Signs that suggest a person has a particular illness.",
@@ -924,18 +1187,23 @@
                     "If you have any symptoms, stay at home."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈsɪmptəmz",
+        "emoji": "🤒",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "symptoms",
+            "countability": "countable",
+            "subtext": "flu symptoms, show symptoms"
+        }
     },
-{
+    {
+        "id": "en_intermediate_health_medicine_020",
         "word": "therapy",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "emoji": "🗣️",
-        "form": "noun", "classification": "regular",
-        "plural": "therapies",
-        "transcription": "ˈθɛrəpi",
-        "countability": "countable",
-        "subtext": "speech therapy, cognitive behavioral therapy",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Treatment for mental or physical problems, often through talking.",
@@ -945,19 +1213,23 @@
                     "She started therapy after losing her job."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈθɛrəpi",
+        "emoji": "🗣️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "therapies",
+            "countability": "countable",
+            "subtext": "speech therapy, cognitive behavioral therapy"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_082",
         "word": "trust",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🤝",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "trʌst",
-        "countability": "uncountable",
-        "subtext": "mutual trust, lack of trust",
-        "opposite": "distrust",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A firm belief in the honesty and reliability of someone.",
@@ -966,20 +1238,24 @@
                     "It takes years to build trust and seconds to break it."
                 ]
             }
-        ]
+        ],
+        "transcription": "trʌst",
+        "emoji": "🤝",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "mutual trust, lack of trust",
+            "opposite": "distrust"
+        }
     },
-{
+    {
+        "id": "en_intermediate_people_011",
         "word": "conflict",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "family_dynamics_B1",
-        "emoji": "⚔️",
-        "form": "noun", "classification": "regular",
-        "plural": "conflicts",
-        "transcription": "🇬🇧 ˈkɒnflɪkt | 🇺🇸 ˈkɑːnflɪkt",
-        "countability": "countable",
-        "subtext": "resolve conflict, armed conflict",
-        "opposite": "harmony",
-        "oppositeEmoji": "🕊️",
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A serious disagreement or argument.",
@@ -988,18 +1264,25 @@
                     "The managers are trying to avoid conflict."
                 ]
             }
-        ]
+        ],
+        "transcription": "🇬🇧 ˈkɒnflɪkt | 🇺🇸 ˈkɑːnflɪkt",
+        "emoji": "⚔️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "conflicts",
+            "countability": "countable",
+            "subtext": "resolve conflict, armed conflict",
+            "opposite": "harmony",
+            "oppositeEmoji": "🕊️"
+        }
     },
-{
+    {
+        "id": "en_intermediate_people_012",
         "word": "responsibility",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "family_dynamics_B1",
-        "emoji": "🤲",
-        "form": "noun", "classification": "regular",
-        "plural": "responsibilities",
-        "transcription": "🇬🇧 rɪˌspɒnsəˈbɪlɪti | 🇺🇸 rɪˌspɑːnsəˈbɪlɪti",
-        "countability": "countable",
-        "subtext": "take responsibility, a sense of responsibility",
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A duty to take care of someone or something.",
@@ -1009,18 +1292,23 @@
                     "We all have a responsibility to the environment."
                 ]
             }
-        ]
+        ],
+        "transcription": "🇬🇧 rɪˌspɒnsəˈbɪlɪti | 🇺🇸 rɪˌspɑːnsəˈbɪlɪti",
+        "emoji": "🤲",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "responsibilities",
+            "countability": "countable",
+            "subtext": "take responsibility, a sense of responsibility"
+        }
     },
-{
+    {
+        "id": "en_intermediate_people_013",
         "word": "expectation",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "family_dynamics_B1",
-        "emoji": "💭",
-        "form": "noun", "classification": "regular",
-        "plural": "expectations",
-        "transcription": "ˌɛkspɛkˈteɪʃn",
-        "countability": "countable",
-        "subtext": "high expectations, meet expectations",
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A belief about what will happen or should happen.",
@@ -1029,18 +1317,23 @@
                     "The results exceeded our expectations."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˌɛkspɛkˈteɪʃn",
+        "emoji": "💭",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "expectations",
+            "countability": "countable",
+            "subtext": "high expectations, meet expectations"
+        }
     },
-{
+    {
+        "id": "en_intermediate_people_014",
         "word": "boundary",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "family_dynamics_B1",
-        "emoji": "🚧",
-        "form": "noun", "classification": "regular",
-        "plural": "boundaries",
-        "transcription": "ˈbaʊndəri",
-        "countability": "countable",
-        "subtext": "set boundaries, personal boundaries",
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A limit on what you are willing to accept in a relationship.",
@@ -1050,20 +1343,23 @@
                     "Setting boundaries at work is very important."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈbaʊndəri",
+        "emoji": "🚧",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "boundaries",
+            "countability": "countable",
+            "subtext": "set boundaries, personal boundaries"
+        }
     },
-{
+    {
+        "id": "en_intermediate_people_015",
         "word": "divorce",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "family_dynamics_B1",
-        "emoji": "💔",
-        "form": "noun", "classification": "regular",
-        "plural": "divorces",
-        "transcription": "dɪˈvɔːs",
-        "countability": "countable",
-        "subtext": "get a divorce, divorce rate",
-        "opposite": "marriage",
-        "oppositeEmoji": "💍",
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The legal ending of a marriage.",
@@ -1072,19 +1368,25 @@
                     "They are getting a divorce."
                 ]
             }
-        ]
+        ],
+        "transcription": "dɪˈvɔːs",
+        "emoji": "💔",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "divorces",
+            "countability": "countable",
+            "subtext": "get a divorce, divorce rate",
+            "opposite": "marriage",
+            "oppositeEmoji": "💍"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_083",
         "word": "equality",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "equality_rights_B1",
-        "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "🇬🇧 iˈkwɒlɪti | 🇺🇸 iˈkwɑːlɪti",
-        "countability": "uncountable",
-        "subtext": "gender equality, racial equality",
-        "opposite": "inequality",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The state of being equal in rights and opportunities.",
@@ -1094,19 +1396,24 @@
                     "She campaigns for equality in the workplace."
                 ]
             }
-        ]
+        ],
+        "transcription": "🇬🇧 iˈkwɒlɪti | 🇺🇸 iˈkwɑːlɪti",
+        "emoji": "⚖️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "gender equality, racial equality",
+            "opposite": "inequality"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_084",
         "word": "freedom",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "equality_rights_B1",
-        "emoji": "🗽",
-        "form": "noun", "classification": "regular",
-        "plural": "freedoms",
-        "transcription": "ˈfriːdəm",
-        "countability": "uncountable",
-        "subtext": "freedom of speech, individual freedom",
-        "opposite": "slavery",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The right to act and think without restriction.",
@@ -1115,19 +1422,24 @@
                     "They are fighting for their freedom."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈfriːdəm",
+        "emoji": "🗽",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "freedoms",
+            "countability": "uncountable",
+            "subtext": "freedom of speech, individual freedom",
+            "opposite": "slavery"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_085",
         "word": "inequality",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "equality_rights_B1",
-        "emoji": "🚫⚖️",
-        "form": "noun", "classification": "regular",
-        "plural": "inequalities",
-        "transcription": "🇬🇧 ˌɪnɪˈkwɒlɪti | 🇺🇸 ˌɪnɪˈkwɑːlɪti",
-        "countability": "uncountable",
-        "subtext": "income inequality, social inequality",
-        "opposite": "equality",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "An unfair situation in which some people have more than others.",
@@ -1137,18 +1449,24 @@
                     "Income inequality has grown in recent decades."
                 ]
             }
-        ]
+        ],
+        "transcription": "🇬🇧 ˌɪnɪˈkwɒlɪti | 🇺🇸 ˌɪnɪˈkwɑːlɪti",
+        "emoji": "🚫⚖️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "inequalities",
+            "countability": "uncountable",
+            "subtext": "income inequality, social inequality",
+            "opposite": "equality"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_086",
         "word": "volunteer",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🙋",
-        "form": "noun", "classification": "regular",
-        "plural": "volunteers",
-        "transcription": "🇬🇧 ˌvɒlənˈtɪə | 🇺🇸 ˌvɑːlənˈtɪər",
-        "countability": "countable",
-        "subtext": "volunteer work, unpaid work",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A person who offers to do something without being paid.",
@@ -1158,18 +1476,23 @@
                     "She volunteers at the local food bank every Saturday."
                 ]
             }
-        ]
+        ],
+        "transcription": "🇬🇧 ˌvɒlənˈtɪə | 🇺🇸 ˌvɑːlənˈtɪər",
+        "emoji": "🙋",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "volunteers",
+            "countability": "countable",
+            "subtext": "volunteer work, unpaid work"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_087",
         "word": "community",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🏘️",
-        "form": "noun", "classification": "regular",
-        "plural": "communities",
-        "transcription": "kəˈmjuːnɪti",
-        "countability": "countable",
-        "subtext": "local community, sense of community",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A group of people sharing a common location, identity or interest.",
@@ -1178,18 +1501,23 @@
                     "The online community is very supportive."
                 ]
             }
-        ]
+        ],
+        "transcription": "kəˈmjuːnɪti",
+        "emoji": "🏘️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "communities",
+            "countability": "countable",
+            "subtext": "local community, sense of community"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_088",
         "word": "generation",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "👪",
-        "form": "noun", "classification": "regular",
-        "plural": "generations",
-        "transcription": "ˌdʒɛnəˈreɪʃn",
-        "countability": "countable",
-        "subtext": "future generations, gap between generations",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "All the people of a similar age in a society.",
@@ -1199,18 +1527,23 @@
                     "Each generation faces different economic pressures."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˌdʒɛnəˈreɪʃn",
+        "emoji": "👪",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "generations",
+            "countability": "countable",
+            "subtext": "future generations, gap between generations"
+        }
     },
-{
+    {
+        "id": "en_intermediate_environment_016",
         "word": "climate change",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "🌍🌡️",
+        "theme": "environment",
         "form": "noun phrase",
-        "plural": null,
-        "transcription": "ˈklaɪmət tʃeɪndʒ",
-        "countability": "uncountable",
-        "subtext": "global warming, environmental impact",
         "definitions": [
             {
                 "text": "Long-term changes in global temperatures and weather patterns.",
@@ -1220,19 +1553,22 @@
                     "Climate change affects food prices worldwide."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈklaɪmət tʃeɪndʒ",
+        "emoji": "🌍🌡️",
+        "_legacy": {
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "global warming, environmental impact"
+        }
     },
-{
+    {
+        "id": "en_intermediate_environment_017",
         "word": "renewable energy",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "☀️💨",
+        "theme": "environment",
         "form": "noun phrase",
-        "plural": null,
-        "transcription": "rɪˈnjuːəbl ˈɛnədʒi",
-        "countability": "uncountable",
-        "subtext": "solar power, wind energy",
-        "opposite": "fossil fuels",
         "definitions": [
             {
                 "text": "Energy from natural sources that are not used up, such as wind or solar.",
@@ -1242,18 +1578,23 @@
                     "They installed solar panels to use renewable energy."
                 ]
             }
-        ]
+        ],
+        "transcription": "rɪˈnjuːəbl ˈɛnədʒi",
+        "emoji": "☀️💨",
+        "_legacy": {
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "solar power, wind energy",
+            "opposite": "fossil fuels"
+        }
     },
-{
+    {
+        "id": "en_intermediate_environment_018",
         "word": "carbon footprint",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "👣",
+        "theme": "environment",
         "form": "noun phrase",
-        "plural": "carbon footprints",
-        "transcription": "ˈkɑːbən ˈfʊtprɪnt",
-        "countability": "countable",
-        "subtext": "reduce carbon footprint, environmental impact",
         "definitions": [
             {
                 "text": "The total amount of greenhouse gases produced by a person's activities.",
@@ -1263,18 +1604,22 @@
                     "Flying significantly increases your carbon footprint."
                 ]
             }
-        ]
+        ],
+        "transcription": "ˈkɑːbən ˈfʊtprɪnt",
+        "emoji": "👣",
+        "_legacy": {
+            "plural": "carbon footprints",
+            "countability": "countable",
+            "subtext": "reduce carbon footprint, environmental impact"
+        }
     },
-{
+    {
+        "id": "en_intermediate_environment_019",
         "word": "waste",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "🗑️",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "weɪst",
-        "countability": "uncountable",
-        "subtext": "food waste, zero waste, waste of time",
+        "theme": "environment",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Material that is no longer needed and thrown away.",
@@ -1283,16 +1628,23 @@
                     "The factory produces a lot of chemical waste."
                 ]
             }
-        ]
+        ],
+        "transcription": "weɪst",
+        "emoji": "🗑️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "food waste, zero waste, waste of time"
+        }
     },
-{
+    {
+        "id": "en_intermediate_language_002",
         "word": "however",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "discourse_markers_B1",
-        "emoji": "🤔",
+        "theme": "language",
         "form": "adverb",
-        "transcription": "🇬🇧 haʊˈɛvə | 🇺🇸 haʊˈɛvər",
-        "subtext": "nevertheless, on the other hand",
         "definitions": [
             {
                 "text": "Used to introduce a contrast or opposite idea.",
@@ -1301,16 +1653,20 @@
                     "The hotel was beautiful. However, the service was poor."
                 ]
             }
-        ]
+        ],
+        "transcription": "🇬🇧 haʊˈɛvə | 🇺🇸 haʊˈɛvər",
+        "emoji": "🤔",
+        "_legacy": {
+            "subtext": "nevertheless, on the other hand"
+        }
     },
-{
+    {
+        "id": "en_intermediate_language_003",
         "word": "although",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "discourse_markers_B1",
-        "emoji": "🔄",
+        "theme": "language",
         "form": "conjunction",
-        "transcription": "🇬🇧 ɔːlˈðəʊ | 🇺🇸 ɔːlˈðoʊ",
-        "subtext": "even though, despite the fact",
         "definitions": [
             {
                 "text": "In spite of the fact that; even though.",
@@ -1319,20 +1675,20 @@
                     "Although it was raining, we went for a walk."
                 ]
             }
-        ]
-    },
-{
-        "word": "on the other hand",
-        "level": "intermediate",
-        "theme": "discourse_markers_B1",
-        "emoji": "⚖️",
-        "form": "phrase",
-        "transcription": "🇬🇧 ɒn ði ˈʌðə hænd | 🇺🇸 ɑːn ði ˈʌðə hænd",
-        "subtext": "",
-        "synonyms": [
-            "alternatively",
-            "conversely"
         ],
+        "transcription": "🇬🇧 ɔːlˈðəʊ | 🇺🇸 ɔːlˈðoʊ",
+        "emoji": "🔄",
+        "_legacy": {
+            "subtext": "even though, despite the fact"
+        }
+    },
+    {
+        "id": "en_intermediate_language_004",
+        "word": "on the other hand",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "language",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Used to introduce a contrasting point.",
@@ -1341,16 +1697,20 @@
                     "Laptops are portable. On the other hand, they are less powerful."
                 ]
             }
-        ]
+        ],
+        "transcription": "🇬🇧 ɒn ði ˈʌðə hænd | 🇺🇸 ɑːn ði ˈʌðə hænd",
+        "emoji": "⚖️",
+        "_legacy": {
+            "subtext": ""
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_089",
         "word": "in my opinion",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "expressing_opinion_B1",
-        "emoji": "🗣️",
+        "theme": "social",
         "form": "phrase",
-        "transcription": "ɪn maɪ əˈpɪnjən",
-        "subtext": "from my perspective, I think",
         "definitions": [
             {
                 "text": "Used to introduce your personal view.",
@@ -1360,20 +1720,20 @@
                     "In my opinion, working from home is more productive."
                 ]
             }
-        ]
-    },
-{
-        "word": "as a result",
-        "level": "intermediate",
-        "theme": "discourse_markers_B1",
-        "emoji": "🔚",
-        "form": "phrase",
-        "transcription": "æz ə rɪˈzʌlt",
-        "subtext": "",
-        "synonyms": [
-            "consequently",
-            "therefore"
         ],
+        "transcription": "ɪn maɪ əˈpɪnjən",
+        "emoji": "🗣️",
+        "_legacy": {
+            "subtext": "from my perspective, I think"
+        }
+    },
+    {
+        "id": "en_intermediate_language_005",
+        "word": "as a result",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "language",
+        "form": "phrase",
         "definitions": [
             {
                 "text": "Because of this; consequently.",
@@ -1382,17 +1742,20 @@
                     "It rained heavily. As a result, the match was cancelled."
                 ]
             }
-        ]
+        ],
+        "transcription": "æz ə rɪˈzʌlt",
+        "emoji": "🔚",
+        "_legacy": {
+            "subtext": ""
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_079",
         "word": "promotion",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "📈",
-        "form": "noun", "classification": "regular",
-        "plural": "promotions",
-        "transcription": "🇬🇧 prəˈməʊʃn | 🇺🇸 prəˈmoʊʃn",
-        "countability": "countable",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Advancement to a higher position at work.",
@@ -1401,17 +1764,22 @@
                 ]
             }
         ],
-        "subtext": "get a promotion, job promotion"
+        "transcription": "🇬🇧 prəˈməʊʃn | 🇺🇸 prəˈmoʊʃn",
+        "emoji": "📈",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "promotions",
+            "countability": "countable",
+            "subtext": "get a promotion, job promotion"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_080",
         "word": "skill set",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "🛠️",
-        "form": "noun", "classification": "regular",
-        "plural": "skill sets",
-        "transcription": "skɪl sɛt",
-        "countability": "countable",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The range of abilities and experience a person has.",
@@ -1420,17 +1788,22 @@
                 ]
             }
         ],
-        "subtext": "diverse skill set, professional skill set"
+        "transcription": "skɪl sɛt",
+        "emoji": "🛠️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "skill sets",
+            "countability": "countable",
+            "subtext": "diverse skill set, professional skill set"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_081",
         "word": "appraisal",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "📋",
-        "form": "noun", "classification": "regular",
-        "plural": "appraisals",
-        "transcription": "əˈpreɪzl",
-        "countability": "countable",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A formal assessment of an employee's performance.",
@@ -1439,17 +1812,22 @@
                 ]
             }
         ],
-        "subtext": "performance appraisal, annual appraisal"
+        "transcription": "əˈpreɪzl",
+        "emoji": "📋",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "appraisals",
+            "countability": "countable",
+            "subtext": "performance appraisal, annual appraisal"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_082",
         "word": "workplace",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "workplace_communication_B1",
-        "emoji": "🏢",
-        "form": "noun", "classification": "regular",
-        "plural": "workplaces",
-        "transcription": "ˈwɜːkpleɪs",
-        "countability": "countable",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The physical environment where people work.",
@@ -1458,17 +1836,22 @@
                 ]
             }
         ],
-        "subtext": "modern workplace, workplace culture"
+        "transcription": "ˈwɜːkpleɪs",
+        "emoji": "🏢",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "workplaces",
+            "countability": "countable",
+            "subtext": "modern workplace, workplace culture"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_083",
         "word": "leadership",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "emoji": "👑",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "ˈliːdəʃɪp",
-        "countability": "uncountable",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The ability to guide, motivate and direct other people.",
@@ -1477,17 +1860,22 @@
                 ]
             }
         ],
-        "subtext": "strong leadership, leadership skills"
+        "transcription": "ˈliːdəʃɪp",
+        "emoji": "👑",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "strong leadership, leadership skills"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_084",
         "word": "flexible hours",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "work_life_balance_B1",
-        "emoji": "⏰",
+        "theme": "work",
         "form": "noun phrase",
-        "plural": null,
-        "transcription": "ˈflɛksəbl ˈaʊəz",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "A work arrangement allowing employees to choose when they start and finish.",
@@ -1496,17 +1884,21 @@
                 ]
             }
         ],
-        "subtext": "work flexible hours, offer flexible hours"
+        "transcription": "ˈflɛksəbl ˈaʊəz",
+        "emoji": "⏰",
+        "_legacy": {
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "work flexible hours, offer flexible hours"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_085",
         "word": "annual leave",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "work_life_balance_B1",
-        "emoji": "🏖️",
+        "theme": "work",
         "form": "noun phrase",
-        "plural": null,
-        "transcription": "ˈænjuəl liːv",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "The paid days off work that employees are entitled to each year.",
@@ -1515,17 +1907,21 @@
                 ]
             }
         ],
-        "subtext": "take annual leave, annual leave entitlement"
+        "transcription": "ˈænjuəl liːv",
+        "emoji": "🏖️",
+        "_legacy": {
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "take annual leave, annual leave entitlement"
+        }
     },
-{
+    {
+        "id": "en_intermediate_health_medicine_021",
         "word": "anxiety",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety_B1",
-        "emoji": "😟",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "æŋˈzaɪəti",
-        "countability": "uncountable",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A feeling of worry, nervousness and unease about uncertain outcomes.",
@@ -1534,17 +1930,22 @@
                 ]
             }
         ],
-        "subtext": "social anxiety, anxiety attack"
+        "transcription": "æŋˈzaɪəti",
+        "emoji": "😟",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "social anxiety, anxiety attack"
+        }
     },
-{
+    {
+        "id": "en_intermediate_health_medicine_022",
         "word": "depression",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "emoji": "😔",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "dɪˈprɛʃn",
-        "countability": "uncountable",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A medical condition causing persistent sadness and lack of energy.",
@@ -1553,17 +1954,22 @@
                 ]
             }
         ],
-        "subtext": "clinical depression, suffer from depression"
+        "transcription": "dɪˈprɛʃn",
+        "emoji": "😔",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "clinical depression, suffer from depression"
+        }
     },
-{
+    {
+        "id": "en_intermediate_health_medicine_023",
         "word": "resilience",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "emoji": "🌱",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "rɪˈzɪliəns",
-        "countability": "uncountable",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The ability to recover quickly from difficult situations.",
@@ -1572,17 +1978,22 @@
                 ]
             }
         ],
-        "subtext": "build resilience, emotional resilience"
+        "transcription": "rɪˈzɪliəns",
+        "emoji": "🌱",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "build resilience, emotional resilience"
+        }
     },
-{
+    {
+        "id": "en_intermediate_health_medicine_024",
         "word": "mindfulness",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "emoji": "🧘",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "ˈmaɪndflnəs",
-        "countability": "uncountable",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The practice of focusing on the present moment to reduce stress.",
@@ -1591,17 +2002,22 @@
                 ]
             }
         ],
-        "subtext": "practise mindfulness, mindfulness meditation"
+        "transcription": "ˈmaɪndflnəs",
+        "emoji": "🧘",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "practise mindfulness, mindfulness meditation"
+        }
     },
-{
+    {
+        "id": "en_intermediate_health_medicine_025",
         "word": "self-care",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
-        "emoji": "🛁",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "🇬🇧 sɛlf ˈkeə | 🇺🇸 sɛlf ˈkeər",
-        "countability": "uncountable",
+        "theme": "health_medicine",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Activities done deliberately to maintain physical or mental health.",
@@ -1610,17 +2026,22 @@
                 ]
             }
         ],
-        "subtext": "self-care routine, importance of self-care"
+        "transcription": "🇬🇧 sɛlf ˈkeə | 🇺🇸 sɛlf ˈkeər",
+        "emoji": "🛁",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "self-care routine, importance of self-care"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_086",
         "word": "tax return",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "emoji": "📄",
-        "form": "noun", "classification": "regular",
-        "plural": "tax returns",
-        "transcription": "tæks rɪˈtɜːn",
-        "countability": "countable",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A document filed with the government showing income and calculating tax owed.",
@@ -1629,17 +2050,22 @@
                 ]
             }
         ],
-        "subtext": "submit a tax return, annual tax return"
+        "transcription": "tæks rɪˈtɜːn",
+        "emoji": "📄",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "tax returns",
+            "countability": "countable",
+            "subtext": "submit a tax return, annual tax return"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_087",
         "word": "expenditure",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "emoji": "💸",
-        "form": "noun", "classification": "regular",
-        "plural": "expenditures",
-        "transcription": "🇬🇧 ɪkˈspɛndɪtʃə | 🇺🇸 ɪkˈspɛndɪtʃər",
-        "countability": "uncountable",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The total amount of money spent by a person or organisation.",
@@ -1648,17 +2074,22 @@
                 ]
             }
         ],
-        "subtext": "monthly expenditure, reduce expenditure"
+        "transcription": "🇬🇧 ɪkˈspɛndɪtʃə | 🇺🇸 ɪkˈspɛndɪtʃər",
+        "emoji": "💸",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "expenditures",
+            "countability": "uncountable",
+            "subtext": "monthly expenditure, reduce expenditure"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_088",
         "word": "credit",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment_B1",
-        "emoji": "💳",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "ˈkrɛdɪt",
-        "countability": "uncountable",
+        "theme": "work",
+        "form": "noun",
         "definitions": [
             {
                 "text": "An arrangement allowing you to borrow money or buy on delayed payment.",
@@ -1667,17 +2098,22 @@
                 ]
             }
         ],
-        "subtext": "credit card, buy on credit"
+        "transcription": "ˈkrɛdɪt",
+        "emoji": "💳",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "credit card, buy on credit"
+        }
     },
-{
+    {
+        "id": "en_intermediate_places_022",
         "word": "mortgage",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "buying_property_B1",
-        "emoji": "🏠",
-        "form": "noun", "classification": "regular",
-        "plural": "mortgages",
-        "transcription": "ˈmɔːɡɪdʒ",
-        "countability": "countable",
+        "theme": "places",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A bank loan secured against a property, repaid over many years.",
@@ -1686,17 +2122,22 @@
                 ]
             }
         ],
-        "subtext": "take out a mortgage, pay off a mortgage"
+        "transcription": "ˈmɔːɡɪdʒ",
+        "emoji": "🏠",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "mortgages",
+            "countability": "countable",
+            "subtext": "take out a mortgage, pay off a mortgage"
+        }
     },
-{
+    {
+        "id": "en_intermediate_places_023",
         "word": "property",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "buying_property_B1",
-        "emoji": "🏡",
-        "form": "noun", "classification": "regular",
-        "plural": "properties",
-        "transcription": "🇬🇧 ˈprɒpəti | 🇺🇸 ˈprɑːpəti",
-        "countability": "countable",
+        "theme": "places",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A building and the land it stands on; also a legal right to own something.",
@@ -1705,17 +2146,22 @@
                 ]
             }
         ],
-        "subtext": "property market, rental property"
+        "transcription": "🇬🇧 ˈprɒpəti | 🇺🇸 ˈprɑːpəti",
+        "emoji": "🏡",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "properties",
+            "countability": "countable",
+            "subtext": "property market, rental property"
+        }
     },
-{
+    {
+        "id": "en_intermediate_places_024",
         "word": "equity",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "buying_property_B1",
-        "emoji": "📈",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "ˈɛkwɪti",
-        "countability": "uncountable",
+        "theme": "places",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The value of a property minus the amount still owed on the mortgage.",
@@ -1724,17 +2170,22 @@
                 ]
             }
         ],
-        "subtext": "home equity, negative equity"
+        "transcription": "ˈɛkwɪti",
+        "emoji": "📈",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "home equity, negative equity"
+        }
     },
-{
+    {
+        "id": "en_intermediate_places_025",
         "word": "renovation",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "buying_property_B1",
-        "emoji": "🔨",
-        "form": "noun", "classification": "regular",
-        "plural": "renovations",
-        "transcription": "ˌrɛnəˈveɪʃn",
-        "countability": "countable",
+        "theme": "places",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The process of improving a building by repairing or updating it.",
@@ -1743,17 +2194,22 @@
                 ]
             }
         ],
-        "subtext": "home renovation, undergo renovations"
+        "transcription": "ˌrɛnəˈveɪʃn",
+        "emoji": "🔨",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "renovations",
+            "countability": "countable",
+            "subtext": "home renovation, undergo renovations"
+        }
     },
-{
+    {
+        "id": "en_intermediate_places_026",
         "word": "survey",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "buying_property_B1",
-        "emoji": "📝",
-        "form": "noun", "classification": "regular",
-        "plural": "surveys",
-        "transcription": "ˈsɜːveɪ",
-        "countability": "countable",
+        "theme": "places",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A professional inspection of a property's condition before purchase.",
@@ -1762,17 +2218,22 @@
                 ]
             }
         ],
-        "subtext": "property survey, conduct a survey"
+        "transcription": "ˈsɜːveɪ",
+        "emoji": "📝",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "surveys",
+            "countability": "countable",
+            "subtext": "property survey, conduct a survey"
+        }
     },
-{
+    {
+        "id": "en_intermediate_work_089",
         "word": "paternity leave",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "work_life_balance_B1",
-        "emoji": "🍼",
+        "theme": "work",
         "form": "noun phrase",
-        "plural": null,
-        "transcription": "pəˈtɜːnɪti liːv",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "Paid time off work for a father after the birth of a child.",
@@ -1781,17 +2242,21 @@
                 ]
             }
         ],
-        "subtext": "take paternity leave, paid paternity leave"
+        "transcription": "pəˈtɜːnɪti liːv",
+        "emoji": "🍼",
+        "_legacy": {
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "take paternity leave, paid paternity leave"
+        }
     },
-{
+    {
+        "id": "en_intermediate_people_016",
         "word": "childcare",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "parenting_childcare_B1",
-        "emoji": "🧸",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "🇬🇧 ˈtʃaɪldkeə | 🇺🇸 ˈtʃaɪldkeər",
-        "countability": "uncountable",
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The care of young children by someone other than their parents.",
@@ -1800,17 +2265,22 @@
                 ]
             }
         ],
-        "subtext": "childcare costs, professional childcare"
+        "transcription": "🇬🇧 ˈtʃaɪldkeə | 🇺🇸 ˈtʃaɪldkeər",
+        "emoji": "🧸",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "childcare costs, professional childcare"
+        }
     },
-{
+    {
+        "id": "en_intermediate_people_017",
         "word": "upbringing",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "parenting_childcare_B1",
-        "emoji": "👨‍👩‍👧",
-        "form": "noun", "classification": "regular",
-        "plural": "upbringings",
-        "transcription": "ˈʌpˌbrɪŋɪŋ",
-        "countability": "countable",
+        "theme": "people",
+        "form": "noun",
         "definitions": [
             {
                 "text": "The way a child is raised and taught values during childhood.",
@@ -1819,17 +2289,22 @@
                 ]
             }
         ],
-        "subtext": "strict upbringing, childhood upbringing"
+        "transcription": "ˈʌpˌbrɪŋɪŋ",
+        "emoji": "👨‍👩‍👧",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "upbringings",
+            "countability": "countable",
+            "subtext": "strict upbringing, childhood upbringing"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_090",
         "word": "charity",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "society_community_B1",
-        "emoji": "🎗️",
-        "form": "noun", "classification": "regular",
-        "plural": "charities",
-        "transcription": "ˈtʃærɪti",
-        "countability": "countable",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "An organisation that collects money to help people in need.",
@@ -1838,17 +2313,22 @@
                 ]
             }
         ],
-        "subtext": "donate to charity, registered charity"
+        "transcription": "ˈtʃærɪti",
+        "emoji": "🎗️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "charities",
+            "countability": "countable",
+            "subtext": "donate to charity, registered charity"
+        }
     },
-{
+    {
+        "id": "en_intermediate_environment_020",
         "word": "emissions",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "💨",
-        "form": "noun", "classification": "regular",
-        "plural": "emissions",
-        "transcription": "iˈmɪʃnz",
-        "countability": "uncountable",
+        "theme": "environment",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Gases or other substances released into the atmosphere.",
@@ -1857,17 +2337,22 @@
                 ]
             }
         ],
-        "subtext": "carbon emissions, reduce emissions"
+        "transcription": "iˈmɪʃnz",
+        "emoji": "💨",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "emissions",
+            "countability": "uncountable",
+            "subtext": "carbon emissions, reduce emissions"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_091",
         "word": "point of view",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "expressing_opinion_B1",
-        "emoji": "👁️",
+        "theme": "social",
         "form": "noun phrase",
-        "plural": "points of view",
-        "transcription": "pɔɪnt əv vjuː",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "A particular way of thinking about something; an opinion.",
@@ -1876,17 +2361,21 @@
                 ]
             }
         ],
-        "subtext": "from my point of view, different point of view"
+        "transcription": "pɔɪnt əv vjuː",
+        "emoji": "👁️",
+        "_legacy": {
+            "plural": "points of view",
+            "countability": "countable",
+            "subtext": "from my point of view, different point of view"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_092",
         "word": "evidence",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "structured_argument_B1",
-        "emoji": "🔍",
-        "form": "noun", "classification": "regular",
-        "plural": null,
-        "transcription": "ˈɛvɪdəns",
-        "countability": "uncountable",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "Facts or information used to support a claim.",
@@ -1895,17 +2384,22 @@
                 ]
             }
         ],
-        "subtext": "scientific evidence, lack of evidence"
+        "transcription": "ˈɛvɪdəns",
+        "emoji": "🔍",
+        "_legacy": {
+            "classification": "regular",
+            "plural": null,
+            "countability": "uncountable",
+            "subtext": "scientific evidence, lack of evidence"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_093",
         "word": "opinion",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "expressing_opinion_B1",
-        "emoji": "🗣️",
-        "form": "noun", "classification": "regular",
-        "plural": "opinions",
-        "transcription": "əˈpɪnjən",
-        "countability": "countable",
+        "theme": "social",
+        "form": "noun",
         "definitions": [
             {
                 "text": "A personal view or judgement not necessarily based on facts.",
@@ -1914,15 +2408,22 @@
                 ]
             }
         ],
-        "subtext": "public opinion, give an opinion"
+        "transcription": "əˈpɪnjən",
+        "emoji": "🗣️",
+        "_legacy": {
+            "classification": "regular",
+            "plural": "opinions",
+            "countability": "countable",
+            "subtext": "public opinion, give an opinion"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_094",
         "word": "against",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "expressing_opinion_B1",
-        "emoji": "🚫",
+        "theme": "social",
         "form": "preposition",
-        "transcription": "əˈɡɛnst",
         "definitions": [
             {
                 "text": "Opposed to something.",
@@ -1931,15 +2432,19 @@
                 ]
             }
         ],
-        "subtext": "be against, vote against"
+        "transcription": "əˈɡɛnst",
+        "emoji": "🚫",
+        "_legacy": {
+            "subtext": "be against, vote against"
+        }
     },
-{
+    {
+        "id": "en_intermediate_social_095",
         "word": "in favour of",
+        "lang": "en",
         "level": "intermediate",
-        "theme": "expressing_opinion_B1",
-        "emoji": "✅",
+        "theme": "social",
         "form": "phrase",
-        "transcription": "ɪn ˈfeɪvər əv",
         "definitions": [
             {
                 "text": "Supporting or agreeing with something.",
@@ -1948,8 +2453,21 @@
                 ]
             }
         ],
-        "subtext": "be in favour of, vote in favour of"
+        "transcription": "ɪn ˈfeɪvər əv",
+        "emoji": "✅",
+        "_legacy": {
+            "subtext": "be in favour of, vote in favour of"
+        }
     },
-{}
+    {
+        "id": "en_intermediate_social_096",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
+    }
 ];
 })();

@@ -6,7 +6,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -14,13 +13,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "À quelle fréquence utilisez-vous Internet ?",
-            "Quelle est la chose la plus importante que vous faites en ligne ?",
-            "Pourriez-vous rester hors ligne pendant 24 heures ?",
-            "Que feriez-vous de votre temps à la place ?",
-            "Internet est-il une nécessité aujourd'hui ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "À quelle fréquence utilisez-vous Internet ?",
+                "Quelle est la chose la plus importante que vous faites en ligne ?",
+                "Pourriez-vous rester hors ligne pendant 24 heures ?",
+                "Que feriez-vous de votre temps à la place ?",
+                "Internet est-il une nécessité aujourd'hui ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_104",
@@ -28,7 +31,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -36,13 +38,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Pensez-vous qu'il est important d'être bilingue ?",
-            "Quelle est la partie la plus difficile de l'apprentissage d'une langue ?",
-            "La technologie peut-elle remplacer l'apprentissage des langues ?",
-            "Comment la connaissance d'une autre langue change-t-elle votre perspective ?",
-            "Devrait-ce être obligatoire à l'école ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Pensez-vous qu'il est important d'être bilingue ?",
+                "Quelle est la partie la plus difficile de l'apprentissage d'une langue ?",
+                "La technologie peut-elle remplacer l'apprentissage des langues ?",
+                "Comment la connaissance d'une autre langue change-t-elle votre perspective ?",
+                "Devrait-ce être obligatoire à l'école ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_105",
@@ -50,7 +56,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -58,13 +63,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Êtes-vous enfant unique ou avez-vous des frères et sœurs ?",
-            "Quels sont les avantages d'avoir des frères et sœurs ?",
-            "Quels sont les avantages d'être seul ?",
-            "Les frères et sœurs se disputent-ils toujours ?",
-            "Comment la structure de votre famille affecte-t-elle votre personnalité ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Êtes-vous enfant unique ou avez-vous des frères et sœurs ?",
+                "Quels sont les avantages d'avoir des frères et sœurs ?",
+                "Quels sont les avantages d'être seul ?",
+                "Les frères et sœurs se disputent-ils toujours ?",
+                "Comment la structure de votre famille affecte-t-elle votre personnalité ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_106",
@@ -72,7 +81,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -80,13 +88,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Pouvez-vous penser à une situation où un mensonge est gentil ?",
-            "L'honnêteté est-elle toujours la meilleure politique ?",
-            "Avez-vous déjà dit un petit mensonge blanc ?",
-            "Que ressentez-vous quand quelqu'un ment pour vous protéger ?",
-            "Y a-t-il une différence entre un mensonge et ne pas dire toute la vérité ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Pouvez-vous penser à une situation où un mensonge est gentil ?",
+                "L'honnêteté est-elle toujours la meilleure politique ?",
+                "Avez-vous déjà dit un petit mensonge blanc ?",
+                "Que ressentez-vous quand quelqu'un ment pour vous protéger ?",
+                "Y a-t-il une différence entre un mensonge et ne pas dire toute la vérité ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_107",
@@ -94,7 +106,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -102,13 +113,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Comment vous sentez-vous après avoir parcouru les réseaux sociaux ?",
-            "Vous comparez-vous aux gens en ligne ?",
-            "Pensez-vous que les réseaux sociaux montrent la vraie vie ?",
-            "Avez-vous déjà fait une pause des réseaux sociaux ?",
-            "À quoi ressemblerait la vie sans eux ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Comment vous sentez-vous après avoir parcouru les réseaux sociaux ?",
+                "Vous comparez-vous aux gens en ligne ?",
+                "Pensez-vous que les réseaux sociaux montrent la vraie vie ?",
+                "Avez-vous déjà fait une pause des réseaux sociaux ?",
+                "À quoi ressemblerait la vie sans eux ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_108",
@@ -116,7 +131,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -124,13 +138,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Peut-on découvrir le monde grâce aux livres et aux films ?",
-            "Qu'est-ce que le voyage enseigne que rien d'autre ne peut faire ?",
-            "Le voyage est-il accessible à tous ?",
-            "Avez-vous appris quelque chose d'important sans quitter votre pays ?",
-            "Quelle est la chose la plus importante que le voyage vous a apprise ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Peut-on découvrir le monde grâce aux livres et aux films ?",
+                "Qu'est-ce que le voyage enseigne que rien d'autre ne peut faire ?",
+                "Le voyage est-il accessible à tous ?",
+                "Avez-vous appris quelque chose d'important sans quitter votre pays ?",
+                "Quelle est la chose la plus importante que le voyage vous a apprise ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_109",
@@ -138,7 +156,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -146,13 +163,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Faites-vous confiance aux gens qui n'aiment pas les animaux ?",
-            "Le fait d'aimer les animaux dit-il quelque chose sur le caractère d'une personne ?",
-            "Faut-il aimer les animaux pour être une bonne personne ?",
-            "Que pensez-vous quand vous rencontrez quelqu'un qui a peur des animaux ?",
-            "Est-ce juste de dire cela ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Faites-vous confiance aux gens qui n'aiment pas les animaux ?",
+                "Le fait d'aimer les animaux dit-il quelque chose sur le caractère d'une personne ?",
+                "Faut-il aimer les animaux pour être une bonne personne ?",
+                "Que pensez-vous quand vous rencontrez quelqu'un qui a peur des animaux ?",
+                "Est-ce juste de dire cela ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_110",
@@ -160,7 +181,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -168,13 +188,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Travaillez-vous ou étudiez-vous à domicile ?",
-            "Êtes-vous plus ou moins productif à la maison ?",
-            "Quelles sont les plus grandes distractions à la maison ?",
-            "La structure d'un bureau ou d'une salle de classe vous manque-t-elle ?",
-            "Pensez-vous que le travail à distance est l'avenir ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Travaillez-vous ou étudiez-vous à domicile ?",
+                "Êtes-vous plus ou moins productif à la maison ?",
+                "Quelles sont les plus grandes distractions à la maison ?",
+                "La structure d'un bureau ou d'une salle de classe vous manque-t-elle ?",
+                "Pensez-vous que le travail à distance est l'avenir ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_111",
@@ -182,7 +206,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -190,13 +213,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Jugez-vous les gens rapidement ?",
-            "Votre première impression de quelqu'un a-t-elle déjà été complètement fausse ?",
-            "Que remarquez-vous en premier chez une personne ?",
-            "Est-il juste de juger quelqu'un dès une première rencontre ?",
-            "Pouvez-vous changer la première impression que quelqu'un a de vous ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Jugez-vous les gens rapidement ?",
+                "Votre première impression de quelqu'un a-t-elle déjà été complètement fausse ?",
+                "Que remarquez-vous en premier chez une personne ?",
+                "Est-il juste de juger quelqu'un dès une première rencontre ?",
+                "Pouvez-vous changer la première impression que quelqu'un a de vous ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_112",
@@ -204,7 +231,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -212,13 +238,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Regardez-vous des films romantiques ?",
-            "Pensez-vous qu'ils influencent la façon dont les gens perçoivent les relations ?",
-            "Le vrai amour est-il comme dans les films ?",
-            "Qu'est-ce qui est irréaliste dans les films romantiques ?",
-            "Les histoires d'amour sont-elles différentes dans votre culture ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Regardez-vous des films romantiques ?",
+                "Pensez-vous qu'ils influencent la façon dont les gens perçoivent les relations ?",
+                "Le vrai amour est-il comme dans les films ?",
+                "Qu'est-ce qui est irréaliste dans les films romantiques ?",
+                "Les histoires d'amour sont-elles différentes dans votre culture ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_113",
@@ -226,7 +256,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -234,13 +263,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Préféreriez-vous être drôle ou intelligent ?",
-            "Pouvez-vous penser à une situation où l'humour a plus aidé que l'intelligence ?",
-            "Les gens drôles sont-ils plus populaires ?",
-            "L'intelligence et l'humour peuvent-ils coexister ?",
-            "Quel genre d'humour avez-vous ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Préféreriez-vous être drôle ou intelligent ?",
+                "Pouvez-vous penser à une situation où l'humour a plus aidé que l'intelligence ?",
+                "Les gens drôles sont-ils plus populaires ?",
+                "L'intelligence et l'humour peuvent-ils coexister ?",
+                "Quel genre d'humour avez-vous ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_114",
@@ -248,7 +281,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -256,13 +288,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Parlez-vous beaucoup pendant les repas ?",
-            "Le silence est-il inconfortable pour vous ?",
-            "Mangez-vous avec votre téléphone ?",
-            "Pensez-vous que les repas devraient être sociaux ?",
-            "De quoi parlez-vous habituellement au dîner ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Parlez-vous beaucoup pendant les repas ?",
+                "Le silence est-il inconfortable pour vous ?",
+                "Mangez-vous avec votre téléphone ?",
+                "Pensez-vous que les repas devraient être sociaux ?",
+                "De quoi parlez-vous habituellement au dîner ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_115",
@@ -270,7 +306,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -278,13 +313,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Demandez-vous la permission ou agissez-vous d'abord ?",
-            "Pouvez-vous penser à un moment où cela a bien fonctionné ?",
-            "Est-ce une façon responsable de se comporter ?",
-            "Certaines personnes sont-elles trop prudentes ?",
-            "Qu'est-ce que cela dit sur la personnalité de quelqu'un ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Demandez-vous la permission ou agissez-vous d'abord ?",
+                "Pouvez-vous penser à un moment où cela a bien fonctionné ?",
+                "Est-ce une façon responsable de se comporter ?",
+                "Certaines personnes sont-elles trop prudentes ?",
+                "Qu'est-ce que cela dit sur la personnalité de quelqu'un ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_116",
@@ -292,7 +331,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -300,13 +338,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "À quelle fréquence consultez-vous les nouvelles ?",
-            "Les nouvelles affectent-elles votre humeur ?",
-            "Est-il important de rester informé ?",
-            "Comment choisissez-vous les nouvelles à suivre ?",
-            "Avez-vous déjà fait une pause des nouvelles ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "À quelle fréquence consultez-vous les nouvelles ?",
+                "Les nouvelles affectent-elles votre humeur ?",
+                "Est-il important de rester informé ?",
+                "Comment choisissez-vous les nouvelles à suivre ?",
+                "Avez-vous déjà fait une pause des nouvelles ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_117",
@@ -314,7 +356,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -322,13 +363,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Avez-vous voyagé avec un ami ou un partenaire ?",
-            "Qu'avez-vous découvert sur eux ?",
-            "Quelles situations révèlent le vrai caractère de quelqu'un ?",
-            "Pensez-vous bien connaître vos amis ?",
-            "Quoi d'autre montre qui est vraiment quelqu'un ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Avez-vous voyagé avec un ami ou un partenaire ?",
+                "Qu'avez-vous découvert sur eux ?",
+                "Quelles situations révèlent le vrai caractère de quelqu'un ?",
+                "Pensez-vous bien connaître vos amis ?",
+                "Quoi d'autre montre qui est vraiment quelqu'un ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_118",
@@ -336,7 +381,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -344,13 +388,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Allez-vous à la salle de sport ?",
-            "Quelle est l'importance du fitness pour vous ?",
-            "Pensez-vous que les gens sont obsédés par leur corps ?",
-            "Y a-t-il une pression pour ressembler à un certain modèle ?",
-            "Quelle est une attitude saine envers l'exercice ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Allez-vous à la salle de sport ?",
+                "Quelle est l'importance du fitness pour vous ?",
+                "Pensez-vous que les gens sont obsédés par leur corps ?",
+                "Y a-t-il une pression pour ressembler à un certain modèle ?",
+                "Quelle est une attitude saine envers l'exercice ?"
+            ]
+        }
     },
     {
         "id": "fr_intermediate_social_119",
@@ -358,7 +406,6 @@
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
         "form": "phrase",
         "definitions": [
             {
@@ -366,13 +413,17 @@
                 "examples": []
             }
         ],
-        "h": [
-            "Pensez-vous que la jalousie est toujours négative ?",
-            "Vous êtes-vous déjà senti jaloux ?",
-            "Quelle est la différence entre la jalousie et l'insécurité ?",
-            "À quel moment la jalousie devient-elle un problème ?",
-            "Que dit réellement la jalousie sur une personne ?"
-        ]
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "h": [
+                "Pensez-vous que la jalousie est toujours négative ?",
+                "Vous êtes-vous déjà senti jaloux ?",
+                "Quelle est la différence entre la jalousie et l'insécurité ?",
+                "À quel moment la jalousie devient-elle un problème ?",
+                "Que dit réellement la jalousie sur une personne ?"
+            ]
+        }
     }
 ];
     const lang = "fr";

@@ -2,59 +2,125 @@
 (function() {
     const data = [
     {
+        "id": "ka_intermediate_places_001",
         "word": "ავსტრალია",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ka",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ka_intermediate_places_002",
         "word": "იაპონია",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ka",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ka_intermediate_places_003",
         "word": "ჩინეთი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ka",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ka_intermediate_places_004",
         "word": "ბრაზილია",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ka",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ka_intermediate_places_005",
         "word": "ინდოეთი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ka",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ka_intermediate_places_006",
         "word": "ტოკიო",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ka",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ka_intermediate_places_007",
         "word": "სიდნეი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ka",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ka_intermediate_places_008",
         "word": "პეკინი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ka",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ka_intermediate_places_009",
         "word": "რიო-დე-ჟანეირო",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ka",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ka_intermediate_places_010",
         "word": "კაირო",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ka",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ka_intermediate_places_011",
         "word": "დელი",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ka",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     }
 ];
     const lang = "ka";

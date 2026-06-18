@@ -2,9 +2,15 @@
 (function() {
     const data = [
     {
+        "id": "fr_intermediate_identity_self_c1_001",
         "word": "Victor Hugo",
+        "lang": "fr",
         "level": "intermediate",
-        "theme": "identity_self_C1"
+        "theme": "identity_self_c1",
+        "form": "phrase",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     }
 ];
     const lang = "fr";

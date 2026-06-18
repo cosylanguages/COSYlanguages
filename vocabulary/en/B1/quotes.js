@@ -1,55 +1,64 @@
 (function() {
     const data = [
     {
-        "id": "en_intermediate_social_001",
-        "text": "I think, therefore I am.",
-        "author": "Descartes",
+        "id": "en_intermediate_social_051",
+        "word": "I think, therefore I am.",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
-        "word": "I think, therefore I am.",
         "form": "other",
         "definitions": [
             {
                 "text": "I think, therefore I am.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "text": "I think, therefore I am.",
+            "author": "Descartes"
+        }
     },
     {
-        "id": "en_intermediate_social_002",
-        "text": "Be the change you wish to see in the world.",
-        "author": "Mahatma Gandhi",
+        "id": "en_intermediate_social_052",
+        "word": "Be the change you wish to see in the world.",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
-        "word": "Be the change you wish to see in the world.",
         "form": "other",
         "definitions": [
             {
                 "text": "Be the change you wish to see in the world.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "text": "Be the change you wish to see in the world.",
+            "author": "Mahatma Gandhi"
+        }
     },
     {
-        "id": "en_intermediate_social_003",
-        "text": "The only thing we have to fear is fear itself.",
-        "author": "Franklin D. Roosevelt",
+        "id": "en_intermediate_social_053",
+        "word": "The only thing we have to fear is fear itself.",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null,
-        "word": "The only thing we have to fear is fear itself.",
         "form": "other",
         "definitions": [
             {
                 "text": "The only thing we have to fear is fear itself.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
+            "text": "The only thing we have to fear is fear itself.",
+            "author": "Franklin D. Roosevelt"
+        }
     }
 ];
     const lang = "en";

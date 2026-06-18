@@ -2,59 +2,125 @@
 (function() {
     const data = [
     {
+        "id": "ba_intermediate_places_001",
         "word": "Австралия",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ba",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ba_intermediate_places_002",
         "word": "Япония",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ba",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ba_intermediate_places_003",
         "word": "Ҡытай",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ba",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ba_intermediate_places_004",
         "word": "Бразилия",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ba",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ba_intermediate_places_005",
         "word": "Индия",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ba",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ba_intermediate_places_006",
         "word": "Токио",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ba",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ba_intermediate_places_007",
         "word": "Сидней",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ba",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ba_intermediate_places_008",
         "word": "Пекин",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ba",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ba_intermediate_places_009",
         "word": "Рио-де-Жанейро",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ba",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ba_intermediate_places_010",
         "word": "Каир",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ba",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     },
     {
+        "id": "ba_intermediate_places_011",
         "word": "Дели",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ba",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [],
+        "transcription": "-",
+        "emoji": "❓"
     }
 ];
     const lang = "ba";

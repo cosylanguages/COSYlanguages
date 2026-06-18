@@ -13,7 +13,9 @@
                 "text": "Юрий Гагарин",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "-",
+        "emoji": "❓"
     }
 ];
     const lang = "ru";

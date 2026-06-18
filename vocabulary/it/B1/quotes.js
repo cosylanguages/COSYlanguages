@@ -1,23 +1,26 @@
 (function() {
     const data = [
-        {
+    {
+        "id": "it_intermediate_social_062",
+        "word": "Penso, dunque sono.",
+        "lang": "it",
+        "level": "intermediate",
+        "theme": "social",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Penso, dunque sono.",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "❓",
+        "_legacy": {
             "text": "Penso, dunque sono.",
-            "author": "Descartes",
-            "level": "intermediate",
-            "theme": "social",
-            "definitions": [
-                {
-                    "text": "Penso, dunque sono.",
-                    "examples": []
-                }
-            ],
-            "form": "phrase",
-            "lang": "it",
-            "sub_theme": null,
-            "id": "it_intermediate_social_062",
-            "word": "Penso, dunque sono."
+            "author": "Descartes"
         }
-    ];
+    }
+];
     const lang = "it";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
