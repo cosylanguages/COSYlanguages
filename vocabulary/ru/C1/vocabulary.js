@@ -4,7 +4,7 @@
         "word": "устойчивое развитие",
         "translation": "sustainable development",
         "level": "advanced",
-        "theme": "Nature",
+        "theme": "nature",
         "language": "ru",
         "emoji": "🌱",
         "form": "noun",
@@ -16,13 +16,15 @@
                 ]
             }
         ],
-        "transcription": "/ʊˈstojtɕɪvəjə rɐzˈvʲitʲɪjə/"
+        "transcription": "/ʊˈstojtɕɪvəjə rɐzˈvʲitʲɪjə/",
+        "lang": "ru",
+        "id": "ru_advanced_nature_noun_5645eaf888"
     },
     {
         "word": "дистанционная работа",
         "translation": "remote work",
         "level": "advanced",
-        "theme": "Work",
+        "theme": "work",
         "language": "ru",
         "emoji": "🏠",
         "form": "noun",
@@ -34,13 +36,15 @@
                 ]
             }
         ],
-        "transcription": "/dʲɪstɐntsɨˈonːəjə rɐˈbotə/"
+        "transcription": "/dʲɪstɐntsɨˈonːəjə rɐˈbotə/",
+        "lang": "ru",
+        "id": "ru_advanced_work_noun_bc4b58c424"
     },
     {
         "word": "путешествие",
         "translation": "journey",
         "level": "advanced",
-        "theme": "Travel",
+        "theme": "travel",
         "language": "ru",
         "emoji": "🗺️",
         "form": "noun",
@@ -52,13 +56,15 @@
                 ]
             }
         ],
-        "transcription": "/pʊtʲɪˈʂɛstvʲɪjə/"
+        "transcription": "/pʊtʲɪˈʂɛstvʲɪjə/",
+        "lang": "ru",
+        "id": "ru_advanced_travel_noun_446706b85e"
     },
     {
         "word": "здравоохранение",
         "translation": "healthcare",
         "level": "advanced",
-        "theme": "Health",
+        "theme": "health",
         "language": "ru",
         "emoji": "🏥",
         "form": "noun",
@@ -70,13 +76,15 @@
                 ]
             }
         ],
-        "transcription": "/zdrəvəəxrɐˈnʲenʲɪjə/"
+        "transcription": "/zdrəvəəxrɐˈnʲenʲɪjə/",
+        "lang": "ru",
+        "id": "ru_advanced_health_noun_b5a49351f4"
     },
     {
         "word": "инфраструктура",
         "translation": "infrastructure",
         "level": "advanced",
-        "theme": "Transport",
+        "theme": "transport",
         "language": "ru",
         "emoji": "🏗️",
         "form": "noun",
@@ -88,13 +96,15 @@
                 ]
             }
         ],
-        "transcription": "/inf rəstrʊkˈturə/"
+        "transcription": "/inf rəstrʊkˈturə/",
+        "lang": "ru",
+        "id": "ru_advanced_transport_noun_a0a35957f0"
     },
     {
         "word": "благополучие",
         "translation": "well-being",
         "level": "advanced",
-        "theme": "Health",
+        "theme": "health",
         "language": "ru",
         "emoji": "🧘",
         "form": "noun",
@@ -106,13 +116,15 @@
                 ]
             }
         ],
-        "transcription": "/bləɡəpɐˈlutɕɪjə/"
+        "transcription": "/bləɡəpɐˈlutɕɪjə/",
+        "lang": "ru",
+        "id": "ru_advanced_health_noun_8b62a59ab5"
     },
     {
         "word": "окружающая среда",
         "translation": "environment",
         "level": "advanced",
-        "theme": "Nature",
+        "theme": "nature",
         "language": "ru",
         "emoji": "🌍",
         "form": "noun",
@@ -124,9 +136,11 @@
                 ]
             }
         ],
-        "transcription": "/ɐkrʊˈʐajʊɕːəjə srʲɪˈda/"
+        "transcription": "/ɐkrʊˈʐajʊɕːəjə srʲɪˈda/",
+        "lang": "ru",
+        "id": "ru_advanced_nature_noun_4be96bd7e4"
     }
-    ];
+];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

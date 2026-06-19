@@ -1,0 +1,172 @@
+{
+  "language": "es",
+  "course_type": "general",
+  "level": "C1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Ciencia, Tecnología y Sociedad",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Ciencia, Tecnología y Sociedad - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced ciencia, tecnología y sociedad vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Ciencia, Tecnología y Sociedad - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Ciencia, Tecnología y Sociedad - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Poder e Instituciones",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Poder e Instituciones - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced poder e instituciones vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Poder e Instituciones - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Poder e Instituciones - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Estructuras Sociales",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Estructuras Sociales - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced estructuras sociales vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Estructuras Sociales - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Estructuras Sociales - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Conocimiento y Verdad",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Conocimiento y Verdad - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced conocimiento y verdad vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Conocimiento y Verdad - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Conocimiento y Verdad - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Discurso y Argumentación",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Discurso y Argumentación - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced discurso y argumentación vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Discurso y Argumentación - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Discurso y Argumentación - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    }
+  ]
+}

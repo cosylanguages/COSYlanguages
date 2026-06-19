@@ -1,8 +1,7 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
-        "id": "en_advanced_work_023",
+        "id": "en_advanced_work_adjective_charismatic",
         "word": "charismatic",
         "emoji": "✨",
         "subtext": "charismatic leader / charismatic authority / charismatic personality",
@@ -31,7 +30,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_001",
+        "id": "en_advanced_language_adjective_absurd",
         "word": "absurd",
         "emoji": "🤡",
         "subtext": "utterly absurd / completely absurd / sound absurd",
@@ -60,7 +59,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_organisational_culture_006",
+        "id": "en_advanced_organisational_culture_adjective_appealing",
         "word": "appealing",
         "emoji": "🍏",
         "subtext": "very appealing / hugely appealing / find appealing",
@@ -89,7 +88,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_002",
+        "id": "en_advanced_language_adjective_bizarre",
         "word": "bizarre",
         "emoji": "🌀",
         "subtext": "very bizarre / quite bizarre / find bizarre",
@@ -118,7 +117,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_organisational_culture_007",
+        "id": "en_advanced_organisational_culture_adjective_costly",
         "word": "costly",
         "emoji": "💸",
         "subtext": "very costly / extremely costly / a costly mistake",
@@ -147,7 +146,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_003",
+        "id": "en_advanced_language_adjective_delicate",
         "word": "delicate",
         "emoji": "🌸",
         "subtext": "a delicate balance / very delicate / extremely delicate",
@@ -176,7 +175,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_organisational_culture_008",
+        "id": "en_advanced_organisational_culture_adjective_desirable",
         "word": "desirable",
         "emoji": "⭐",
         "subtext": "highly desirable / very desirable / a desirable quality",
@@ -204,7 +203,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_004",
+        "id": "en_advanced_language_adjective_distinctive",
         "word": "distinctive",
         "emoji": "🆔",
         "subtext": "very distinctive / highly distinctive / a distinctive feature",
@@ -233,7 +232,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_005",
+        "id": "en_advanced_language_adjective_exceptional",
         "word": "exceptional",
         "emoji": "🌟",
         "subtext": "truly exceptional / quite exceptional / of exceptional quality",
@@ -262,7 +261,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_006",
+        "id": "en_advanced_language_adjective_favourable",
         "word": "favourable",
         "emoji": "📈",
         "subtext": "very favourable / highly favourable / a favourable outcome",
@@ -291,7 +290,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_007",
+        "id": "en_advanced_language_adjective_fierce",
         "word": "fierce",
         "emoji": "🔥",
         "subtext": "fierce competition / very fierce / a fierce debate",
@@ -320,7 +319,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_008",
+        "id": "en_advanced_language_adjective_fragile",
         "word": "fragile",
         "emoji": "📦",
         "subtext": "very fragile / extremely fragile / a fragile situation",
@@ -349,7 +348,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_009",
+        "id": "en_advanced_language_adjective_harsh",
         "word": "harsh",
         "emoji": "🌵",
         "subtext": "very harsh / extremely harsh / harsh criticism",
@@ -378,7 +377,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_001",
+        "id": "en_advanced_emotions_adjective_hostile",
         "word": "hostile",
         "emoji": "😠",
         "subtext": "deeply hostile / very hostile / a hostile environment",
@@ -407,7 +406,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_010",
+        "id": "en_advanced_language_adjective_inadequate",
         "word": "inadequate",
         "emoji": "📉",
         "subtext": "wholly inadequate / completely inadequate / deeply inadequate",
@@ -436,7 +435,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_011",
+        "id": "en_advanced_language_adjective_intriguing",
         "word": "intriguing",
         "emoji": "🤔",
         "subtext": "very intriguing / quite intriguing / find intriguing",
@@ -465,7 +464,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_012",
+        "id": "en_advanced_language_adjective_moderate",
         "word": "moderate",
         "emoji": "⚖️",
         "subtext": "quite moderate / fairly moderate / a moderate improvement",
@@ -494,7 +493,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_013",
+        "id": "en_advanced_language_adjective_peculiar",
         "word": "peculiar",
         "emoji": "🥨",
         "subtext": "very peculiar / quite peculiar / find peculiar",
@@ -523,7 +522,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_organisational_culture_009",
+        "id": "en_advanced_organisational_culture_adjective_prestigious",
         "word": "prestigious",
         "emoji": "🏛️",
         "subtext": "very prestigious / highly prestigious / a prestigious award",
@@ -552,7 +551,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_014",
+        "id": "en_advanced_language_adjective_problematic",
         "word": "problematic",
         "emoji": "⚠️",
         "subtext": "very problematic / highly problematic / deeply problematic",
@@ -581,7 +580,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_organisational_culture_010",
+        "id": "en_advanced_organisational_culture_adjective_productive",
         "word": "productive",
         "emoji": "🚜",
         "subtext": "very productive / highly productive / a productive discussion",
@@ -610,7 +609,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_organisational_culture_011",
+        "id": "en_advanced_organisational_culture_adjective_profitable",
         "word": "profitable",
         "emoji": "💰",
         "subtext": "very profitable / highly profitable / a profitable venture",
@@ -639,7 +638,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_015",
+        "id": "en_advanced_language_adjective_superb",
         "word": "superb",
         "emoji": "💎",
         "subtext": "absolutely superb / truly superb / simply superb",
@@ -668,7 +667,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_organisational_culture_012",
+        "id": "en_advanced_organisational_culture_adjective_transparent",
         "word": "transparent",
         "emoji": "🪟",
         "subtext": "fully transparent / very transparent / openly transparent",
@@ -697,7 +696,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_016",
+        "id": "en_advanced_language_adjective_vicious",
         "word": "vicious",
         "emoji": "🦂",
         "subtext": "utterly vicious / a vicious circle / a vicious attack",
@@ -726,7 +725,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_017",
+        "id": "en_advanced_language_adjective_worthwhile",
         "word": "worthwhile",
         "emoji": "✔️",
         "subtext": "very worthwhile / well worthwhile / prove worthwhile",
@@ -755,7 +754,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_organisational_culture_013",
+        "id": "en_advanced_organisational_culture_adjective_accountable",
         "word": "accountable",
         "emoji": "👨‍⚖️",
         "subtext": "held accountable / fully accountable / accountable to",
@@ -784,7 +783,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_018",
+        "id": "en_advanced_language_adjective_applicable",
         "word": "applicable",
         "emoji": "📎",
         "subtext": "fully applicable / directly applicable / applicable to",
@@ -813,7 +812,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_019",
+        "id": "en_advanced_language_adjective_arbitrary",
         "word": "arbitrary",
         "emoji": "🎲",
         "subtext": "entirely arbitrary / seemingly arbitrary / an arbitrary decision",
@@ -842,7 +841,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_020",
+        "id": "en_advanced_language_adjective_authentic",
         "word": "authentic",
         "emoji": "📜",
         "subtext": "truly authentic / completely authentic / an authentic voice",
@@ -871,7 +870,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_021",
+        "id": "en_advanced_language_adjective_comparable",
         "word": "comparable",
         "emoji": "↔️",
         "subtext": "directly comparable / not really comparable / fully comparable",
@@ -900,7 +899,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_022",
+        "id": "en_advanced_language_adjective_compelling",
         "word": "compelling",
         "emoji": "🧲",
         "subtext": "very compelling / highly compelling / a compelling argument",
@@ -929,7 +928,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_023",
+        "id": "en_advanced_language_adjective_credible",
         "word": "credible",
         "emoji": "🤝",
         "subtext": "very credible / a credible source / entirely credible",
@@ -958,7 +957,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_024",
+        "id": "en_advanced_language_adjective_definitive",
         "word": "definitive",
         "emoji": "🏁",
         "subtext": "truly definitive / the definitive guide / a definitive answer",
@@ -987,7 +986,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_025",
+        "id": "en_advanced_language_adjective_eligible",
         "word": "eligible",
         "emoji": "✅",
         "subtext": "fully eligible / not eligible / eligible for",
@@ -1016,7 +1015,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_026",
+        "id": "en_advanced_language_adjective_explicit",
         "word": "explicit",
         "emoji": "📢",
         "subtext": "very explicit / entirely explicit / make explicit",
@@ -1045,7 +1044,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_work_024",
+        "id": "en_advanced_work_adjective_illegitimate",
         "word": "illegitimate",
         "emoji": "❌",
         "subtext": "completely illegitimate / deemed illegitimate / an illegitimate claim",
@@ -1074,7 +1073,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_027",
+        "id": "en_advanced_language_adjective_inherent",
         "word": "inherent",
         "emoji": "🧬",
         "subtext": "inherent risk / an inherent problem / naturally inherent",
@@ -1103,7 +1102,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_028",
+        "id": "en_advanced_language_adjective_irrelevant",
         "word": "irrelevant",
         "emoji": "🗑️",
         "subtext": "totally irrelevant / completely irrelevant / largely irrelevant",
@@ -1132,7 +1131,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_work_025",
+        "id": "en_advanced_work_adjective_legitimate",
         "word": "legitimate",
         "emoji": "⚖️",
         "subtext": "entirely legitimate / wholly legitimate / a legitimate concern",
@@ -1161,7 +1160,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_029",
+        "id": "en_advanced_language_adjective_misleading",
         "word": "misleading",
         "emoji": "🤥",
         "subtext": "highly misleading / deeply misleading / potentially misleading",
@@ -1190,7 +1189,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_030",
+        "id": "en_advanced_language_adjective_plausible",
         "word": "plausible",
         "emoji": "🤨",
         "subtext": "very plausible / quite plausible / a plausible explanation",
@@ -1219,7 +1218,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_031",
+        "id": "en_advanced_language_adjective_preliminary",
         "word": "preliminary",
         "emoji": "🆕",
         "subtext": "very preliminary / purely preliminary / a preliminary finding",
@@ -1248,7 +1247,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_work_026",
+        "id": "en_advanced_work_adjective_regulatory",
         "word": "regulatory",
         "emoji": "🛂",
         "subtext": "strict regulatory / a regulatory framework / regulatory approval",
@@ -1272,7 +1271,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_032",
+        "id": "en_advanced_language_adjective_symbolic",
         "word": "symbolic",
         "emoji": "🕊️",
         "subtext": "purely symbolic / deeply symbolic / a symbolic gesture",
@@ -1301,7 +1300,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_organisational_culture_014",
+        "id": "en_advanced_organisational_culture_adjective_viable",
         "word": "viable",
         "emoji": "🌱",
         "subtext": "fully viable / commercially viable / economically viable",
@@ -1330,7 +1329,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_002",
+        "id": "en_advanced_emotions_adjective_cynical",
         "word": "cynical",
         "emoji": "😒",
         "subtext": "deeply cynical / very cynical / grow cynical",
@@ -1359,7 +1358,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_003",
+        "id": "en_advanced_emotions_adjective_humane",
         "word": "humane",
         "emoji": "🤝",
         "subtext": "very humane / completely humane / a humane approach",
@@ -1388,7 +1387,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_004",
+        "id": "en_advanced_emotions_adjective_hypocritical",
         "word": "hypocritical",
         "emoji": "👺",
         "subtext": "deeply hypocritical / utterly hypocritical / openly hypocritical",
@@ -1417,7 +1416,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_005",
+        "id": "en_advanced_emotions_adjective_impulsive",
         "word": "impulsive",
         "emoji": "⚡",
         "subtext": "very impulsive / completely impulsive / act impulsively",
@@ -1446,7 +1445,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_006",
+        "id": "en_advanced_emotions_adjective_manipulative",
         "word": "manipulative",
         "emoji": "🕹️",
         "subtext": "deeply manipulative / very manipulative / overtly manipulative",
@@ -1471,7 +1470,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_007",
+        "id": "en_advanced_emotions_adjective_naive",
         "word": "naive",
         "emoji": "👶",
         "subtext": "very naive / somewhat naive / dangerously naive",
@@ -1500,7 +1499,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_008",
+        "id": "en_advanced_emotions_adjective_pragmatic",
         "word": "pragmatic",
         "emoji": "🛠️",
         "subtext": "very pragmatic / highly pragmatic / a pragmatic solution",
@@ -1529,7 +1528,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_009",
+        "id": "en_advanced_emotions_adjective_principled",
         "word": "principled",
         "emoji": "⚖️",
         "subtext": "highly principled / firmly principled / a principled stand",
@@ -1558,7 +1557,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_010",
+        "id": "en_advanced_emotions_adjective_reckless",
         "word": "reckless",
         "emoji": "🏎️",
         "subtext": "very reckless / utterly reckless / recklessly ambitious",
@@ -1587,7 +1586,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_011",
+        "id": "en_advanced_emotions_adjective_resilient",
         "word": "resilient",
         "emoji": "🎾",
         "subtext": "very resilient / highly resilient / a resilient organisation",
@@ -1616,7 +1615,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_012",
+        "id": "en_advanced_emotions_adjective_ruthless",
         "word": "ruthless",
         "emoji": "🗡️",
         "subtext": "utterly ruthless / completely ruthless / a ruthless approach",
@@ -1645,7 +1644,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_013",
+        "id": "en_advanced_emotions_adjective_shrewd",
         "word": "shrewd",
         "emoji": "🦊",
         "subtext": "very shrewd / extremely shrewd / a shrewd move",
@@ -1674,7 +1673,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_014",
+        "id": "en_advanced_emotions_adjective_tenacious",
         "word": "tenacious",
         "emoji": "⚓",
         "subtext": "very tenacious / extremely tenacious / tenaciously pursued",
@@ -1703,7 +1702,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_emotions_015",
+        "id": "en_advanced_emotions_adjective_visionary",
         "word": "visionary",
         "emoji": "🔭",
         "subtext": "truly visionary / a visionary approach / a visionary leader",
@@ -1732,7 +1731,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_033",
+        "id": "en_advanced_language_adjective_acute",
         "word": "acute",
         "emoji": "🗡️",
         "subtext": "an acute problem / very acute / acute shortage",
@@ -1761,7 +1760,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_034",
+        "id": "en_advanced_language_adjective_chronic",
         "word": "chronic",
         "emoji": "⌛",
         "subtext": "a chronic problem / chronically underfunded / chronic shortage",
@@ -1790,7 +1789,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_035",
+        "id": "en_advanced_language_adjective_prevalent",
         "word": "prevalent",
         "emoji": "🌍",
         "subtext": "very prevalent / increasingly prevalent / remain prevalent",
@@ -1819,7 +1818,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_036",
+        "id": "en_advanced_language_adjective_prone",
         "word": "prone",
         "emoji": "📉",
         "subtext": "prone to / highly prone / be prone to errors",
@@ -1848,7 +1847,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_037",
+        "id": "en_advanced_language_adjective_stagnant",
         "word": "stagnant",
         "emoji": "💧",
         "subtext": "completely stagnant / remain stagnant / a stagnant market",
@@ -1878,7 +1877,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_038",
+        "id": "en_advanced_language_adjective_vulnerable",
         "word": "vulnerable",
         "emoji": "🛡️",
         "subtext": "very vulnerable / highly vulnerable / left vulnerable",
@@ -1907,7 +1906,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_039",
+        "id": "en_advanced_language_adjective_abstract",
         "word": "abstract",
         "emoji": "🎨",
         "subtext": "very abstract / purely abstract / an abstract idea",
@@ -1936,7 +1935,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_040",
+        "id": "en_advanced_language_adjective_cognitive",
         "word": "cognitive",
         "emoji": "🧠",
         "subtext": "cognitive ability / cognitive bias / a cognitive approach",
@@ -1956,7 +1955,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_041",
+        "id": "en_advanced_language_adjective_empirical",
         "word": "empirical",
         "emoji": "🧪",
         "subtext": "purely empirical / strictly empirical / empirical research",
@@ -1985,7 +1984,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_042",
+        "id": "en_advanced_language_adjective_ethical",
         "word": "ethical",
         "emoji": "⚖️",
         "subtext": "deeply ethical / an ethical question / entirely ethical",
@@ -2014,7 +2013,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_043",
+        "id": "en_advanced_language_adjective_implicit",
         "word": "implicit",
         "emoji": "🤫",
         "subtext": "largely implicit / an implicit assumption / implicit bias",
@@ -2043,7 +2042,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_044",
+        "id": "en_advanced_language_adjective_marginal",
         "word": "marginal",
         "emoji": "↔️",
         "subtext": "very marginal / only marginal / a marginal difference",
@@ -2072,7 +2071,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_045",
+        "id": "en_advanced_language_adjective_structural",
         "word": "structural",
         "emoji": "🏗️",
         "subtext": "deep structural / a structural problem / structural change",
@@ -2092,7 +2091,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_046",
+        "id": "en_advanced_language_adjective_systematic",
         "word": "systematic",
         "emoji": "⚙️",
         "subtext": "very systematic / highly systematic / a systematic review",
@@ -2121,7 +2120,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_language_047",
+        "id": "en_advanced_language_adjective_theoretical",
         "word": "theoretical",
         "emoji": "📚",
         "subtext": "purely theoretical / very theoretical / a theoretical framework",
@@ -2153,6 +2152,4 @@
     const lang = "en";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -1,23 +1,261 @@
 (function() {
     const data = [
-      { t: "Gingenieurezh : araokadenn pe dañjer ?", tag: "Skiant ha Teknoloji", h: ["Petra eo ar gounid evit ar medisinerezh ?", "Heliñ a rafe an dinegal-gevredigezh ?", "Hag un dra etikel eo 'tresañ' mab-den ?", "Piv a rankfe reoliñ an teknoloji-mañ ?", "Hag ur riskl eo kemmañ da vat ar lamm-genek ?"] },
-      { t: "Ar leve diazez hollvedel eo an diskoulm nemetañ d'an emgefreerezh meur.", tag: "Ekonomiezh", h: ["Penaos e vefe arc'hantaouet al leve diazez ?", "Hag un dra vije da lakaat an dud da chom hep labourat ?", "Hag-eñ e c'hallfe digreskiñ ar baourentez hag an dinegal ?", "Petra eo an dibaboù all ?", "Hag ur gourdrouz eo an emgefreerezh evit an holl implijoù ?"] },
-      { t: "Un dibab eo al levenez — an amveziadoù n'int nemet digarez.", tag: "Filozofiezh", h: ["Hag-eñ e soñj deoc'h emañ al levenez dindan beli pep hini ?", "Hag ur sell azividik eo ?", "Hag-eñ e c'hallit dibab penaos respont d'an amveziadoù fall ?", "Hag anaout a rit tud hag a zo eürus daoust d'ur vuhez diaes ?", "Hag-eñ eo klask al levenez ul lodenn eus ar gudenn he unan ?"] },
-      { t: "An dud a lavar n'o deus ket c'hoant da gaout 'drama' eo ar re a grou anezhañ peurliesañ.", tag: "Natur an den", h: ["Hag anaout a rit unan bennak evel-se ?", "Perak ne wel ket an dud a grou tabutoù emaint o ober ?", "Hag-eñ eo fall an 'drama' atav ?", "Petra eo an diforc'h etre un tabut hag an 'drama' ?", "Hag-eñ eo ral an emskiant ac'hanon va-unan ?"] },
-      { t: "Ar rann-galon (neurter) a zo ur merk a vank a imajinasion, pas ur mank a stimuladur.", tag: "Psikologiezh", h: ["Pegoulz ho peus lakaet rann-galon deoc'h evit ar wech ziwezhañ ?", "Hag-eñ ho peus aon rak ar pezh a c'hallfec'h soñjal ?", "Petra a dremen en ho spered pa vezit o tregantiñ ?", "Hag un dra displijus eo ar rann-galon ?", "Petra eo bet krouet pe dizoloet ganeoc'h gant ar rann-galon ?"] },
-      { t: "An emgarantez (empathy) hep bevenn n'eo nemet klask plijout d'an dud gant ur PR mat.", tag: "Psikologiezh", h: ["Hag un den emgar oc'h ?", "Hag-eñ e c'haller c'hoari an emgarantez e-lec'h he santout ?", "Hag-eñ e c'haller kaout re a emgarantez ?", "Petra eo an diforc'h etre an emgarantez hag en em goll e buhez ar re all ?", "Hag-eñ ho peus ranket en em wareziñ rak re a santimantoù ?"] },
-      { t: "Ar soñjoù dañjerusañ eo ar re a seblant bezañ poellek penn-da-benn.", tag: "Soñjal a-zevri", h: ["Hag-eñ e c'hallit reiñ ur skouer a soñj dañjerus a seblant bezañ poellek ?", "Penaos e priziit un arguzenn a seblant bezañ reizh met a c'hallfe bezañ faziek ?", "Hag-eñ eo diaesoc'h da lakaat e diskred ur soñj fall met sevener ha poellek, pe ur soñj dregantus ?", "Petra eo ho test evit gouzout hag-eñ e c'haller kaout fiziañs en ur soñj ?", "Hag ur soñj poellek en deus ho kaset d'ul lec'h na oach ket o c'hortoz ?"] },
-      { t: "An aotantizelezh (authenticity) a zo deuet da vezañ ur c'hoari-pezh prizet-tre.", tag: "Identtelezh", h: ["Petra eo an aotantizelezh evidoc'h ?", "Hag-eñ en em ziskouezit en un doare disheñvel enlinenn hag er-maez ?", "Hag-eñ eo posupl bezañ aotantek penn-da-benn ?", "Hag-eñ e c'haller bezañ aotantek ha strategel war un dro ?", "Pegoulz en em santit ar muiañ eveldoc'h-c'hwi ?"] },
-      { t: "Ar pardon a zo un dra a rit evidoc'h-c'hwi e fin ar gont, pas evit an den all.", tag: "Darempredoù", h: ["Hag-eñ ho peus pardonet d'unan bennak n'en doa ket merit d'an dra-se ?", "Petra eo an diforc'h etre pardoniñ hag ankounac'haat ?", "Hag-eñ eo posupl pardoniñ atav ?", "Hag-eñ e fell deoc'h pardoniñ e asantit d'ar pezh a zo bet graet ?", "Hag-eñ ez eus un dra bennak a zo diaes deoc'h pardoniñ ?"] },
-      { t: "An ensavadurioù a echu atav o tiffenn anezho o-unan muioc'h evit an dud a servijont.", tag: "Kevredigezh", h: ["Hag-eñ ho peus ur skouer a ensavadur en deus graet tro-wenn d'an dud ?", "Hag un dra ret eo, pe hag-eñ e c'haller kemmañ an ensavadurioù ?", "Hag-eñ e sacho an ensavadurioù tud a fell dezho difenn anezho ?", "Penaos e vefe un ensavadur kiriek e gwirionez ?", "Hag un dra vunut eo gortoz e kemmfe an ensavadurioù o-unan ?"] },
-      { t: "Ar c'hoant da gaout surantez eo gwrizienn ar muiañ niver a grizderioù an den.", tag: "Filozofiezh", h: ["Hag-eñ eo diaes gouzañv an ansurantez ?", "Hag-eñ e c'hallit reiñ ur skouer ma oa bet droug gant ar c'hoant da gaout surantez ?", "Hag-eñ eo an diskred un nerzh pe ur wanidigezh ?", "Hag an dud gant kredoù kreñv a laka ar bed da vezañ gwelloc'h pe falloc'h ?", "Penaos e verit ho c'hoant da gaout surantez ?"] },
-      { t: "Talvoudegezhioù an darn vrasañ eus an dud ne badont nemet pa ne goustont netra.", tag: "Etik", h: ["Hag ho talvoudegezhioù a zo bet lakaet d'ar proued gant ur c'houst gwirion ?", "Hag-eñ e c'hallit soñjal en ur mare m'ho peus graet an eneb d'ho talvoudegezhioù ?", "Hag-eñ eo reizh barn an dud o deus graet tro-wenn dindan ar wask ?", "Hag-eñ eo ar gap etre an talvoudegezhioù hag an emzalc'h ur merk a hypocrisy pe an denelezh hepken ?", "Petra eo an dalvoudegezh na asantfec'h ket kemmañ ?"] },
-      { t: "Gouzout pegoulz paouez da gomz a zo raloc'h ha talvoudusoc'h evit gouzout petra lavarout.", tag: "Kehentiñ", h: ["Hag-eñ e soñjit e selaouit mat ?", "Hag-eñ e c'hallit soñjal en ur stad ma oa ar sioulder ar respont mat ?", "Hag-eñ eo re uhel priz an dud a oar komz mat ?", "Petra a remerkit en dud a selaou muioc'h evit na gomzont ?", "Hag-eñ eo bet ar chom sioul an dra galloudusañ ho peus graet ?"] },
-      { t: "Termenet omp muioc'h gant ar pezh a nac'hom ober evit gant ar pezh a zibabomp ober.", tag: "Identtelezh", h: ["Petra eo an dra na rafec'h ket, forzh petra e vefe ar gopr ?", "Hag-eñ e lavarout 'nann' d'un dra bennak a dermeno ac'hanoc'h ?", "Hag-eñ e tiskouez ho bevennoù ho talvoudegezhioù ?", "Hag-eñ eo ar pezh a dec'hom rak kement a verkoù hag ar pezh a glaskomp ?", "Hag un nac'hadenn he deus koustet un dra bennak deoc'h ?"] },
-      { t: "Ar vroadelezh gant ar produerezh n'eo nemet ar gapitalouriezh gwisket evel un emwelladur ac'hanon va-unan.", tag: "Buhez vodern", h: ["A-belec'h e teu ar wask da wellaat ho prantad amzer ?", "Hag-eñ eo an diskwizh ul lodenn eus ur vuhez produus e gwirionez ?", "Hag-eñ e varnit ac'hanoc'h ho-unan hervez ar pezh a rit ?", "Hag-eñ e c'hallit soñjal en un dra dalvoudus-tre hag a zo displijus evit ar produerezh ?", "Hag un doare ambision ez eus hag a vefe hep gounid ebet ?"] },
-      { t: "Ar 'cancel culture' a zo deuet da vezañ ur seurt justis niverel gant an engroez.", tag: "Media ha Sevenadur", h: ["Hag-eñ e c'hallit soñjal en ur stad ma oa reizh ar c'hriadenn foran ?", "Hag un diforc'h a zo etre ar giriegezh hag ar c'hastiz ?", "Piv a zibab ar pezh a zo dibardonus ?", "Hag-eñ e labour ar 'c'hancel culture' — hag-eñ e cheñch an emzalc'h e gwirionez ?", "Hag un dra bennak a zo fall da vat en dra-se, pe hag-eñ eo ur mank hepken ?"] },
-      { t: "An dud a lavar n'o deus keuz (regret) ebet, pe n'o deus ket bevet a-walc'h, pe n'o deus ket soñjet a-walc'h.", tag: "Filozofiezh", h: ["Hag-eñ ho peus keuz d'un dra bennak ?", "Hag ur brederouriezh yac'h eo 'keuz ebet', pe ur gwintañ-difenn ?", "Petra e vefe bevañ hep keuz ebet ?", "Hag-eñ e c'hall ar c'heuz bezañ talvoudus ?", "Hag ez eus un dra bennak a gemmfec'h m'ho pefe an tu ?"] }
-    ];
+    {
+        "t": "Gingenieurezh : araokadenn pe dañjer ?",
+        "tag": "Skiant ha Teknoloji",
+        "h": [
+            "Petra eo ar gounid evit ar medisinerezh ?",
+            "Heliñ a rafe an dinegal-gevredigezh ?",
+            "Hag un dra etikel eo 'tresañ' mab-den ?",
+            "Piv a rankfe reoliñ an teknoloji-mañ ?",
+            "Hag ur riskl eo kemmañ da vat ar lamm-genek ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_gingenieurezh_araokadenn_pe_da"
+    },
+    {
+        "t": "Ar leve diazez hollvedel eo an diskoulm nemetañ d'an emgefreerezh meur.",
+        "tag": "Ekonomiezh",
+        "h": [
+            "Penaos e vefe arc'hantaouet al leve diazez ?",
+            "Hag un dra vije da lakaat an dud da chom hep labourat ?",
+            "Hag-eñ e c'hallfe digreskiñ ar baourentez hag an dinegal ?",
+            "Petra eo an dibaboù all ?",
+            "Hag ur gourdrouz eo an emgefreerezh evit an holl implijoù ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_ar_leve_diazez_hollvedel_eo_an"
+    },
+    {
+        "t": "Un dibab eo al levenez — an amveziadoù n'int nemet digarez.",
+        "tag": "Filozofiezh",
+        "h": [
+            "Hag-eñ e soñj deoc'h emañ al levenez dindan beli pep hini ?",
+            "Hag ur sell azividik eo ?",
+            "Hag-eñ e c'hallit dibab penaos respont d'an amveziadoù fall ?",
+            "Hag anaout a rit tud hag a zo eürus daoust d'ur vuhez diaes ?",
+            "Hag-eñ eo klask al levenez ul lodenn eus ar gudenn he unan ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_un_dibab_eo_al_levenez_an_amve"
+    },
+    {
+        "t": "An dud a lavar n'o deus ket c'hoant da gaout 'drama' eo ar re a grou anezhañ peurliesañ.",
+        "tag": "Natur an den",
+        "h": [
+            "Hag anaout a rit unan bennak evel-se ?",
+            "Perak ne wel ket an dud a grou tabutoù emaint o ober ?",
+            "Hag-eñ eo fall an 'drama' atav ?",
+            "Petra eo an diforc'h etre un tabut hag an 'drama' ?",
+            "Hag-eñ eo ral an emskiant ac'hanon va-unan ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_an_dud_a_lavar_no_deus_ket_cho"
+    },
+    {
+        "t": "Ar rann-galon (neurter) a zo ur merk a vank a imajinasion, pas ur mank a stimuladur.",
+        "tag": "Psikologiezh",
+        "h": [
+            "Pegoulz ho peus lakaet rann-galon deoc'h evit ar wech ziwezhañ ?",
+            "Hag-eñ ho peus aon rak ar pezh a c'hallfec'h soñjal ?",
+            "Petra a dremen en ho spered pa vezit o tregantiñ ?",
+            "Hag un dra displijus eo ar rann-galon ?",
+            "Petra eo bet krouet pe dizoloet ganeoc'h gant ar rann-galon ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_ar_rann-galon_neurter_a_zo_ur_"
+    },
+    {
+        "t": "An emgarantez (empathy) hep bevenn n'eo nemet klask plijout d'an dud gant ur PR mat.",
+        "tag": "Psikologiezh",
+        "h": [
+            "Hag un den emgar oc'h ?",
+            "Hag-eñ e c'haller c'hoari an emgarantez e-lec'h he santout ?",
+            "Hag-eñ e c'haller kaout re a emgarantez ?",
+            "Petra eo an diforc'h etre an emgarantez hag en em goll e buhez ar re all ?",
+            "Hag-eñ ho peus ranket en em wareziñ rak re a santimantoù ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_an_emgarantez_empathy_hep_beve"
+    },
+    {
+        "t": "Ar soñjoù dañjerusañ eo ar re a seblant bezañ poellek penn-da-benn.",
+        "tag": "Soñjal a-zevri",
+        "h": [
+            "Hag-eñ e c'hallit reiñ ur skouer a soñj dañjerus a seblant bezañ poellek ?",
+            "Penaos e priziit un arguzenn a seblant bezañ reizh met a c'hallfe bezañ faziek ?",
+            "Hag-eñ eo diaesoc'h da lakaat e diskred ur soñj fall met sevener ha poellek, pe ur soñj dregantus ?",
+            "Petra eo ho test evit gouzout hag-eñ e c'haller kaout fiziañs en ur soñj ?",
+            "Hag ur soñj poellek en deus ho kaset d'ul lec'h na oach ket o c'hortoz ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_ar_sojo_dajerusa_eo_ar_re_a_se"
+    },
+    {
+        "t": "An aotantizelezh (authenticity) a zo deuet da vezañ ur c'hoari-pezh prizet-tre.",
+        "tag": "Identtelezh",
+        "h": [
+            "Petra eo an aotantizelezh evidoc'h ?",
+            "Hag-eñ en em ziskouezit en un doare disheñvel enlinenn hag er-maez ?",
+            "Hag-eñ eo posupl bezañ aotantek penn-da-benn ?",
+            "Hag-eñ e c'haller bezañ aotantek ha strategel war un dro ?",
+            "Pegoulz en em santit ar muiañ eveldoc'h-c'hwi ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_an_aotantizelezh_authenticity_"
+    },
+    {
+        "t": "Ar pardon a zo un dra a rit evidoc'h-c'hwi e fin ar gont, pas evit an den all.",
+        "tag": "Darempredoù",
+        "h": [
+            "Hag-eñ ho peus pardonet d'unan bennak n'en doa ket merit d'an dra-se ?",
+            "Petra eo an diforc'h etre pardoniñ hag ankounac'haat ?",
+            "Hag-eñ eo posupl pardoniñ atav ?",
+            "Hag-eñ e fell deoc'h pardoniñ e asantit d'ar pezh a zo bet graet ?",
+            "Hag-eñ ez eus un dra bennak a zo diaes deoc'h pardoniñ ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_ar_pardon_a_zo_un_dra_a_rit_ev"
+    },
+    {
+        "t": "An ensavadurioù a echu atav o tiffenn anezho o-unan muioc'h evit an dud a servijont.",
+        "tag": "Kevredigezh",
+        "h": [
+            "Hag-eñ ho peus ur skouer a ensavadur en deus graet tro-wenn d'an dud ?",
+            "Hag un dra ret eo, pe hag-eñ e c'haller kemmañ an ensavadurioù ?",
+            "Hag-eñ e sacho an ensavadurioù tud a fell dezho difenn anezho ?",
+            "Penaos e vefe un ensavadur kiriek e gwirionez ?",
+            "Hag un dra vunut eo gortoz e kemmfe an ensavadurioù o-unan ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_an_ensavadurio_a_echu_atav_o_t"
+    },
+    {
+        "t": "Ar c'hoant da gaout surantez eo gwrizienn ar muiañ niver a grizderioù an den.",
+        "tag": "Filozofiezh",
+        "h": [
+            "Hag-eñ eo diaes gouzañv an ansurantez ?",
+            "Hag-eñ e c'hallit reiñ ur skouer ma oa bet droug gant ar c'hoant da gaout surantez ?",
+            "Hag-eñ eo an diskred un nerzh pe ur wanidigezh ?",
+            "Hag an dud gant kredoù kreñv a laka ar bed da vezañ gwelloc'h pe falloc'h ?",
+            "Penaos e verit ho c'hoant da gaout surantez ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_ar_choant_da_gaout_surantez_eo"
+    },
+    {
+        "t": "Talvoudegezhioù an darn vrasañ eus an dud ne badont nemet pa ne goustont netra.",
+        "tag": "Etik",
+        "h": [
+            "Hag ho talvoudegezhioù a zo bet lakaet d'ar proued gant ur c'houst gwirion ?",
+            "Hag-eñ e c'hallit soñjal en ur mare m'ho peus graet an eneb d'ho talvoudegezhioù ?",
+            "Hag-eñ eo reizh barn an dud o deus graet tro-wenn dindan ar wask ?",
+            "Hag-eñ eo ar gap etre an talvoudegezhioù hag an emzalc'h ur merk a hypocrisy pe an denelezh hepken ?",
+            "Petra eo an dalvoudegezh na asantfec'h ket kemmañ ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_talvoudegezhio_an_darn_vrasa_e"
+    },
+    {
+        "t": "Gouzout pegoulz paouez da gomz a zo raloc'h ha talvoudusoc'h evit gouzout petra lavarout.",
+        "tag": "Kehentiñ",
+        "h": [
+            "Hag-eñ e soñjit e selaouit mat ?",
+            "Hag-eñ e c'hallit soñjal en ur stad ma oa ar sioulder ar respont mat ?",
+            "Hag-eñ eo re uhel priz an dud a oar komz mat ?",
+            "Petra a remerkit en dud a selaou muioc'h evit na gomzont ?",
+            "Hag-eñ eo bet ar chom sioul an dra galloudusañ ho peus graet ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_gouzout_pegoulz_paouez_da_gomz"
+    },
+    {
+        "t": "Termenet omp muioc'h gant ar pezh a nac'hom ober evit gant ar pezh a zibabomp ober.",
+        "tag": "Identtelezh",
+        "h": [
+            "Petra eo an dra na rafec'h ket, forzh petra e vefe ar gopr ?",
+            "Hag-eñ e lavarout 'nann' d'un dra bennak a dermeno ac'hanoc'h ?",
+            "Hag-eñ e tiskouez ho bevennoù ho talvoudegezhioù ?",
+            "Hag-eñ eo ar pezh a dec'hom rak kement a verkoù hag ar pezh a glaskomp ?",
+            "Hag un nac'hadenn he deus koustet un dra bennak deoc'h ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_termenet_omp_muioch_gant_ar_pe"
+    },
+    {
+        "t": "Ar vroadelezh gant ar produerezh n'eo nemet ar gapitalouriezh gwisket evel un emwelladur ac'hanon va-unan.",
+        "tag": "Buhez vodern",
+        "h": [
+            "A-belec'h e teu ar wask da wellaat ho prantad amzer ?",
+            "Hag-eñ eo an diskwizh ul lodenn eus ur vuhez produus e gwirionez ?",
+            "Hag-eñ e varnit ac'hanoc'h ho-unan hervez ar pezh a rit ?",
+            "Hag-eñ e c'hallit soñjal en un dra dalvoudus-tre hag a zo displijus evit ar produerezh ?",
+            "Hag un doare ambision ez eus hag a vefe hep gounid ebet ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_ar_vroadelezh_gant_ar_produere"
+    },
+    {
+        "t": "Ar 'cancel culture' a zo deuet da vezañ ur seurt justis niverel gant an engroez.",
+        "tag": "Media ha Sevenadur",
+        "h": [
+            "Hag-eñ e c'hallit soñjal en ur stad ma oa reizh ar c'hriadenn foran ?",
+            "Hag un diforc'h a zo etre ar giriegezh hag ar c'hastiz ?",
+            "Piv a zibab ar pezh a zo dibardonus ?",
+            "Hag-eñ e labour ar 'c'hancel culture' — hag-eñ e cheñch an emzalc'h e gwirionez ?",
+            "Hag un dra bennak a zo fall da vat en dra-se, pe hag-eñ eo ur mank hepken ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_ar_cancel_culture_a_zo_deuet_d"
+    },
+    {
+        "t": "An dud a lavar n'o deus keuz (regret) ebet, pe n'o deus ket bevet a-walc'h, pe n'o deus ket soñjet a-walc'h.",
+        "tag": "Filozofiezh",
+        "h": [
+            "Hag-eñ ho peus keuz d'un dra bennak ?",
+            "Hag ur brederouriezh yac'h eo 'keuz ebet', pe ur gwintañ-difenn ?",
+            "Petra e vefe bevañ hep keuz ebet ?",
+            "Hag-eñ e c'hall ar c'heuz bezañ talvoudus ?",
+            "Hag ez eus un dra bennak a gemmfec'h m'ho pefe an tu ?"
+        ],
+        "lang": "br",
+        "level": "advanced",
+        "theme": "misc",
+        "id": "br_advanced_misc_misc_an_dud_a_lavar_no_deus_keuz_re"
+    }
+];
     const lang = "br";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

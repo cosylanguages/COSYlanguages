@@ -4,7 +4,7 @@
         "word": "sviluppo sostenibile",
         "translation": "sustainable development",
         "level": "advanced",
-        "theme": "Nature",
+        "theme": "nature",
         "language": "it",
         "emoji": "🌱",
         "form": "noun",
@@ -16,13 +16,15 @@
                 ]
             }
         ],
-        "transcription": "/zviˈluppo sostenˈnibile/"
+        "transcription": "/zviˈluppo sostenˈnibile/",
+        "lang": "it",
+        "id": "it_advanced_nature_noun_sviluppo_sostenibile"
     },
     {
         "word": "telelavoro",
         "translation": "teleworking",
         "level": "advanced",
-        "theme": "Work",
+        "theme": "work",
         "language": "it",
         "emoji": "🏠",
         "form": "noun",
@@ -34,13 +36,15 @@
                 ]
             }
         ],
-        "transcription": "/telelaˈvoro/"
+        "transcription": "/telelaˈvoro/",
+        "lang": "it",
+        "id": "it_advanced_work_noun_telelavoro"
     },
     {
         "word": "gastronomia",
         "translation": "gastronomy",
         "level": "advanced",
-        "theme": "Food",
+        "theme": "food",
         "language": "it",
         "emoji": "🍽️",
         "form": "noun",
@@ -52,13 +56,15 @@
                 ]
             }
         ],
-        "transcription": "/ɡastronoˈmia/"
+        "transcription": "/ɡastronoˈmia/",
+        "lang": "it",
+        "id": "it_advanced_food_noun_gastronomia"
     },
     {
         "word": "itinerario",
         "translation": "itinerary",
         "level": "advanced",
-        "theme": "Travel",
+        "theme": "travel",
         "language": "it",
         "emoji": "🗺️",
         "form": "noun",
@@ -70,13 +76,15 @@
                 ]
             }
         ],
-        "transcription": "/itineˈrarjo/"
+        "transcription": "/itineˈrarjo/",
+        "lang": "it",
+        "id": "it_advanced_travel_noun_itinerario"
     },
     {
         "word": "benessere",
         "translation": "well-being",
         "level": "advanced",
-        "theme": "Health",
+        "theme": "health",
         "language": "it",
         "emoji": "🧘",
         "form": "noun",
@@ -88,13 +96,15 @@
                 ]
             }
         ],
-        "transcription": "/beˈnɛssere/"
+        "transcription": "/beˈnɛssere/",
+        "lang": "it",
+        "id": "it_advanced_health_noun_benessere"
     },
     {
         "word": "infrastruttura",
         "translation": "infrastructure",
         "level": "advanced",
-        "theme": "Transport",
+        "theme": "transport",
         "language": "it",
         "emoji": "🏗️",
         "form": "noun",
@@ -106,13 +116,15 @@
                 ]
             }
         ],
-        "transcription": "/infrastrutˈtura/"
+        "transcription": "/infrastrutˈtura/",
+        "lang": "it",
+        "id": "it_advanced_transport_noun_infrastruttura"
     },
     {
         "word": "climatizzazione",
         "translation": "air conditioning",
         "level": "advanced",
-        "theme": "Weather",
+        "theme": "weather",
         "language": "it",
         "emoji": "❄️",
         "form": "noun",
@@ -124,13 +136,15 @@
                 ]
             }
         ],
-        "transcription": "/klimatiddzatˈtsjone/"
+        "transcription": "/klimatiddzatˈtsjone/",
+        "lang": "it",
+        "id": "it_advanced_weather_noun_climatizzazione"
     },
     {
         "word": "arredamento",
         "translation": "furnishing",
         "level": "advanced",
-        "theme": "Home",
+        "theme": "home",
         "language": "it",
         "emoji": "🛋️",
         "form": "noun",
@@ -142,9 +156,11 @@
                 ]
             }
         ],
-        "transcription": "/arredaˈmento/"
+        "transcription": "/arredaˈmento/",
+        "lang": "it",
+        "id": "it_advanced_home_noun_arredamento"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

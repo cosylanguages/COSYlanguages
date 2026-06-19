@@ -21,7 +21,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_001"
+        "id": "pt_advanced_social_phrase_se_o_lugar_onde_voc_cresceu_fe"
     },
     {
         "t": "A lacuna entre quem você é e quem você apresenta ao mundo",
@@ -44,7 +44,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_002"
+        "id": "pt_advanced_social_phrase_a_lacuna_entre_quem_voc_e_quem"
     },
     {
         "t": "Se as pessoas mudam fundamentalmente ou apenas se revelam lentamente",
@@ -67,7 +67,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_003"
+        "id": "pt_advanced_social_phrase_se_as_pessoas_mudam_fundamenta"
     },
     {
         "t": "O que você aprendeu com o fracasso que não poderia ter aprendido com o sucesso",
@@ -90,7 +90,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_004"
+        "id": "pt_advanced_social_phrase_o_que_voc_aprendeu_com_o_fraca"
     },
     {
         "t": "Sua relação com a certeza e a dúvida",
@@ -113,7 +113,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_005"
+        "id": "pt_advanced_social_phrase_sua_relao_com_a_certeza_e_a_dv"
     },
     {
         "t": "As coisas que você carrega da sua infância sem perceber",
@@ -136,7 +136,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_006"
+        "id": "pt_advanced_social_phrase_as_coisas_que_voc_carrega_da_s"
     },
     {
         "t": "O que você protegeria mesmo que isso lhe custasse algo",
@@ -159,7 +159,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_007"
+        "id": "pt_advanced_social_phrase_o_que_voc_protegeria_mesmo_que"
     },
     {
         "t": "O que você acha que as pessoas entendem errado sobre a felicidade",
@@ -182,7 +182,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_008"
+        "id": "pt_advanced_social_phrase_o_que_voc_acha_que_as_pessoas_"
     },
     {
         "t": "O papel da sorte na sua vida",
@@ -205,7 +205,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_009"
+        "id": "pt_advanced_social_phrase_o_papel_da_sorte_na_sua_vida"
     },
     {
         "t": "Se ambição e contentamento podem coexistir",
@@ -228,7 +228,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_010"
+        "id": "pt_advanced_social_phrase_se_ambio_e_contentamento_podem"
     },
     {
         "t": "O que você deve às pessoas que moldaram você",
@@ -251,7 +251,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_011"
+        "id": "pt_advanced_social_phrase_o_que_voc_deve_s_pessoas_que_m"
     },
     {
         "t": "A coisa mais útil que já lhe disseram",
@@ -274,7 +274,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_012"
+        "id": "pt_advanced_social_phrase_a_coisa_mais_til_que_j_lhe_dis"
     },
     {
         "t": "Algo sobre a vida moderna que genuinamente o preocupa",
@@ -297,7 +297,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_013"
+        "id": "pt_advanced_social_phrase_algo_sobre_a_vida_moderna_que_"
     },
     {
         "t": "A diferença entre estar sozinho e ser solitário",
@@ -320,7 +320,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_014"
+        "id": "pt_advanced_social_phrase_a_diferena_entre_estar_sozinho"
     },
     {
         "t": "O que significa viver bem — e se você está perto",
@@ -343,7 +343,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_015"
+        "id": "pt_advanced_social_phrase_o_que_significa_viver_bem_e_se"
     },
     {
         "t": "Se você confia na sua própria memória",
@@ -366,7 +366,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_016"
+        "id": "pt_advanced_social_phrase_se_voc_confia_na_sua_prpria_me"
     },
     {
         "t": "As instituições e se elas nos servem",
@@ -389,7 +389,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_017"
+        "id": "pt_advanced_social_phrase_as_instituies_e_se_elas_nos_se"
     },
     {
         "t": "As histórias que você conta sobre si mesmo",
@@ -412,7 +412,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_018"
+        "id": "pt_advanced_social_phrase_as_histrias_que_voc_conta_sobr"
     },
     {
         "t": "O que comunidade significa em um mundo fragmentado",
@@ -435,7 +435,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_019"
+        "id": "pt_advanced_social_phrase_o_que_comunidade_significa_em_"
     },
     {
         "t": "Como você sabe quando confiar em alguém",
@@ -458,12 +458,12 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_020"
+        "id": "pt_advanced_social_phrase_como_voc_sabe_quando_confiar_e"
     }
 ];
     const lang = "pt";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
-    if (!window.speakingData[lang]["talkThatTalk"]) window.speakingData[lang]["talkThatTalk"] = [];
-    window.speakingData[lang]["talkThatTalk"].push(...data);
+    if (!window.speakingData[lang]["fluency"]) window.speakingData[lang]["fluency"] = [];
+    window.speakingData[lang]["fluency"].push(...data);
 })();

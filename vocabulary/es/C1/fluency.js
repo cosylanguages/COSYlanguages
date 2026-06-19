@@ -21,7 +21,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_001"
+        "id": "es_advanced_social_phrase_si_el_lugar_donde_creciste_te_"
     },
     {
         "t": "La brecha entre quién eres y quién presentas al mundo",
@@ -44,7 +44,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_002"
+        "id": "es_advanced_social_phrase_la_brecha_entre_quin_eres_y_qu"
     },
     {
         "t": "Si las personas cambian fundamentalmente o simplemente se revelan poco a poco",
@@ -67,7 +67,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_003"
+        "id": "es_advanced_social_phrase_si_las_personas_cambian_fundam"
     },
     {
         "t": "Lo que has aprendido del fracaso que no podrías haber aprendido del éxito",
@@ -90,7 +90,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_004"
+        "id": "es_advanced_social_phrase_lo_que_has_aprendido_del_fraca"
     },
     {
         "t": "Tu relación con la certeza y la duda",
@@ -113,7 +113,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_005"
+        "id": "es_advanced_social_phrase_tu_relacin_con_la_certeza_y_la"
     },
     {
         "t": "Las cosas que traes de tu infancia sin darte cuenta",
@@ -136,7 +136,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_006"
+        "id": "es_advanced_social_phrase_las_cosas_que_traes_de_tu_infa"
     },
     {
         "t": "Lo que protegerías incluso si te costara algo",
@@ -159,7 +159,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_007"
+        "id": "es_advanced_social_phrase_lo_que_protegeras_incluso_si_t"
     },
     {
         "t": "Lo que crees que la gente se equivoca sobre la felicidad",
@@ -182,7 +182,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_emotions_001"
+        "id": "es_advanced_emotions_phrase_lo_que_crees_que_la_gente_se_e"
     },
     {
         "t": "El papel de la suerte en tu vida",
@@ -205,7 +205,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_008"
+        "id": "es_advanced_social_phrase_el_papel_de_la_suerte_en_tu_vi"
     },
     {
         "t": "Si la ambición y la satisfacción pueden coexistir",
@@ -228,7 +228,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_009"
+        "id": "es_advanced_social_phrase_si_la_ambicin_y_la_satisfaccin"
     },
     {
         "t": "Lo que les debes a las personas que te formaron",
@@ -251,7 +251,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_010"
+        "id": "es_advanced_social_phrase_lo_que_les_debes_a_las_persona"
     },
     {
         "t": "Lo más útil que te han dicho jamás",
@@ -274,7 +274,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_011"
+        "id": "es_advanced_social_phrase_lo_ms_til_que_te_han_dicho_jam"
     },
     {
         "t": "Algo de la vida moderna que te preocupa genuinamente",
@@ -297,7 +297,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_012"
+        "id": "es_advanced_social_phrase_algo_de_la_vida_moderna_que_te"
     },
     {
         "t": "La diferencia entre estar solo y sentirse solo",
@@ -320,7 +320,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_013"
+        "id": "es_advanced_social_phrase_la_diferencia_entre_estar_solo"
     },
     {
         "t": "Lo que significa vivir bien, y si estás cerca de lograrlo",
@@ -343,7 +343,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_014"
+        "id": "es_advanced_social_phrase_lo_que_significa_vivir_bien_y_"
     },
     {
         "t": "Si confías en tu propia memoria",
@@ -366,7 +366,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_015"
+        "id": "es_advanced_social_phrase_si_confas_en_tu_propia_memoria"
     },
     {
         "t": "Las instituciones y si nos sirven",
@@ -389,7 +389,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_016"
+        "id": "es_advanced_social_phrase_las_instituciones_y_si_nos_sir"
     },
     {
         "t": "Las historias que cuentas sobre ti mismo",
@@ -412,7 +412,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_017"
+        "id": "es_advanced_social_phrase_las_historias_que_cuentas_sobr"
     },
     {
         "t": "Qué significa la comunidad en un mundo fragmentado",
@@ -435,7 +435,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_018"
+        "id": "es_advanced_social_phrase_qu_significa_la_comunidad_en_u"
     },
     {
         "t": "Cómo sabes cuándo confiar en alguien",
@@ -458,12 +458,12 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_019"
+        "id": "es_advanced_social_phrase_cmo_sabes_cundo_confiar_en_alg"
     }
 ];
     const lang = "es";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
-    if (!window.speakingData[lang]["talkThatTalk"]) window.speakingData[lang]["talkThatTalk"] = [];
-    window.speakingData[lang]["talkThatTalk"].push(...data);
+    if (!window.speakingData[lang]["fluency"]) window.speakingData[lang]["fluency"] = [];
+    window.speakingData[lang]["fluency"].push(...data);
 })();

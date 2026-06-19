@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "ru_advanced_describing_001",
+        "id": "ru_advanced_describing_phrase_b4c9bdf42b",
         "word": "Роль искусства в современном обществе",
         "lang": "ru",
         "level": "advanced",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_002",
+        "id": "ru_advanced_describing_phrase_13a2e759c2",
         "word": "Искусственный интеллект: инструмент или угроза?",
         "lang": "ru",
         "level": "advanced",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_003",
+        "id": "ru_advanced_describing_phrase_1594adc6fd",
         "word": "Сделало ли место, где вы выросли, вас тем, кто вы есть",
         "lang": "ru",
         "level": "advanced",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_004",
+        "id": "ru_advanced_describing_phrase_35f4b351e2",
         "word": "Разрыв между тем, кто вы есть, и тем, кем вы кажетесь миру",
         "lang": "ru",
         "level": "advanced",
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_005",
+        "id": "ru_advanced_describing_phrase_34914e5e6f",
         "word": "Меняются ли люди коренным образом или просто раскрываются медленно",
         "lang": "ru",
         "level": "advanced",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_006",
+        "id": "ru_advanced_describing_phrase_d22b66a953",
         "word": "Чему вы научились на неудачах, чему не смогли бы научиться на успехе",
         "lang": "ru",
         "level": "advanced",
@@ -133,7 +133,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_007",
+        "id": "ru_advanced_describing_phrase_10f4a30fb6",
         "word": "Ваши отношения с уверенностью и сомнением",
         "lang": "ru",
         "level": "advanced",
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_008",
+        "id": "ru_advanced_describing_phrase_870c8e3d2a",
         "word": "Вещи, которые вы несете из детства, не осознавая этого",
         "lang": "ru",
         "level": "advanced",
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_009",
+        "id": "ru_advanced_describing_phrase_9adf877674",
         "word": "Что бы вы защитили, даже если бы это вам чего-то стоило",
         "lang": "ru",
         "level": "advanced",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_010",
+        "id": "ru_advanced_describing_phrase_4840b28ddf",
         "word": "Что, по вашему мнению, люди понимают неправильно в отношении счастья",
         "lang": "ru",
         "level": "advanced",
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_011",
+        "id": "ru_advanced_describing_phrase_de9a0f4f61",
         "word": "Роль удачи в вашей жизни",
         "lang": "ru",
         "level": "advanced",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_012",
+        "id": "ru_advanced_describing_phrase_5a0e74c17c",
         "word": "Могут ли амбиции и удовлетворенность сосуществовать",
         "lang": "ru",
         "level": "advanced",
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_013",
+        "id": "ru_advanced_describing_phrase_5964d396f9",
         "word": "Чем вы обязаны людям, которые вас сформировали",
         "lang": "ru",
         "level": "advanced",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_014",
+        "id": "ru_advanced_describing_phrase_989f29345d",
         "word": "Самая полезная вещь, которую вам когда-либо говорили",
         "lang": "ru",
         "level": "advanced",
@@ -309,7 +309,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_015",
+        "id": "ru_advanced_describing_phrase_cfb8bd8de3",
         "word": "Что-то в современной жизни, что вас искренне беспокоит",
         "lang": "ru",
         "level": "advanced",
@@ -331,7 +331,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_016",
+        "id": "ru_advanced_describing_phrase_3747fa685b",
         "word": "Разница между одиночеством и уединением",
         "lang": "ru",
         "level": "advanced",
@@ -353,7 +353,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_017",
+        "id": "ru_advanced_describing_phrase_017e51f1d2",
         "word": "Что значит жить хорошо — и близки ли вы к этому",
         "lang": "ru",
         "level": "advanced",
@@ -375,7 +375,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_018",
+        "id": "ru_advanced_describing_phrase_c50a1785cc",
         "word": "Доверяете ли вы собственной памяти",
         "lang": "ru",
         "level": "advanced",
@@ -397,7 +397,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_019",
+        "id": "ru_advanced_describing_phrase_3f7ec4a13d",
         "word": "Институты и служат ли они нам",
         "lang": "ru",
         "level": "advanced",
@@ -419,7 +419,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_020",
+        "id": "ru_advanced_describing_phrase_3d878207a0",
         "word": "Истории, которые вы рассказываете о себе",
         "lang": "ru",
         "level": "advanced",
@@ -441,7 +441,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_021",
+        "id": "ru_advanced_describing_phrase_f45bbf93a4",
         "word": "Что означает сообщество в фрагментированном мире",
         "lang": "ru",
         "level": "advanced",
@@ -463,7 +463,7 @@
         ]
     },
     {
-        "id": "ru_advanced_describing_022",
+        "id": "ru_advanced_describing_phrase_1423bd3e82",
         "word": "Как вы понимаете, когда можно доверять кому-то",
         "lang": "ru",
         "level": "advanced",
@@ -488,6 +488,6 @@
     const lang = "ru";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
-    if (!window.speakingData[lang]["talkThatTalk"]) window.speakingData[lang]["talkThatTalk"] = [];
-    window.speakingData[lang]["talkThatTalk"].push(...data);
+    if (!window.speakingData[lang]["fluency"]) window.speakingData[lang]["fluency"] = [];
+    window.speakingData[lang]["fluency"].push(...data);
 })();

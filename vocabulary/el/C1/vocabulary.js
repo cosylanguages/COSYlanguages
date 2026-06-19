@@ -1,29 +1,21 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
-        "word": "κήπος",
-        "image": "images/vocabulary/places/garden.png",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "🌳",
-        "form": "noun", "classification": "regular",
-        "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }],
-        "countability": "countable"
-    },
-{
         "word": "υποδομή",
         "level": "advanced",
-        "theme": "science_tech_society_C1",
+        "theme": "science_tech_society_c1",
         "emoji": "🏗️",
-        "form": "noun", "classification": "regular",
-        "plural": "υποδομή"
+        "form": "noun",
+        "classification": "regular",
+        "plural": "υποδομή",
+        "lang": "el",
+        "id": "el_advanced_science_tech_society_c1_noun_58f0879861"
     },
     {
         "word": "βιώσιμη ανάπτυξη",
         "translation": "sustainable development",
         "level": "advanced",
-        "theme": "Nature",
+        "theme": "nature",
         "language": "el",
         "emoji": "🌱",
         "form": "noun",
@@ -35,13 +27,15 @@
                 ]
             }
         ],
-        "transcription": "/viˈo.si.mi aˈna.pti.ksi/"
+        "transcription": "/viˈo.si.mi aˈna.pti.ksi/",
+        "lang": "el",
+        "id": "el_advanced_nature_noun_5841de7491"
     },
     {
         "word": "τηλεργασία",
         "translation": "teleworking",
         "level": "advanced",
-        "theme": "Work",
+        "theme": "work",
         "language": "el",
         "emoji": "🏠",
         "form": "noun",
@@ -53,13 +47,15 @@
                 ]
             }
         ],
-        "transcription": "/ti.ler.ɣaˈsi.a/"
+        "transcription": "/ti.ler.ɣaˈsi.a/",
+        "lang": "el",
+        "id": "el_advanced_work_noun_515eec6e13"
     },
     {
         "word": "γαστρονομία",
         "translation": "gastronomy",
         "level": "advanced",
-        "theme": "Food",
+        "theme": "food",
         "language": "el",
         "emoji": "🍽️",
         "form": "noun",
@@ -71,13 +67,15 @@
                 ]
             }
         ],
-        "transcription": "/ɣa.stro.noˈmi.a/"
+        "transcription": "/ɣa.stro.noˈmi.a/",
+        "lang": "el",
+        "id": "el_advanced_food_noun_116a4ebad7"
     },
     {
         "word": "διαδρομή",
         "translation": "itinerary",
         "level": "advanced",
-        "theme": "Travel",
+        "theme": "travel",
         "language": "el",
         "emoji": "🗺️",
         "form": "noun",
@@ -89,13 +87,15 @@
                 ]
             }
         ],
-        "transcription": "/ðja.ðroˈmi/"
+        "transcription": "/ðja.ðroˈmi/",
+        "lang": "el",
+        "id": "el_advanced_travel_noun_34387752f7"
     },
     {
         "word": "ευεξία",
         "translation": "well-being",
         "level": "advanced",
-        "theme": "Health",
+        "theme": "health",
         "language": "el",
         "emoji": "🧘",
         "form": "noun",
@@ -107,13 +107,15 @@
                 ]
             }
         ],
-        "transcription": "/e.veˈksi.a/"
+        "transcription": "/e.veˈksi.a/",
+        "lang": "el",
+        "id": "el_advanced_health_noun_661548e7d2"
     },
     {
         "word": "διακόσμηση",
         "translation": "decoration/furnishing",
         "level": "advanced",
-        "theme": "Home",
+        "theme": "home",
         "language": "el",
         "emoji": "🛋️",
         "form": "noun",
@@ -125,13 +127,15 @@
                 ]
             }
         ],
-        "transcription": "/ðjaˈkoz.mi.si/"
+        "transcription": "/ðjaˈkoz.mi.si/",
+        "lang": "el",
+        "id": "el_advanced_home_noun_44d3934fcf"
     },
     {
         "word": "κλιματισμός",
         "translation": "air conditioning",
         "level": "advanced",
-        "theme": "Weather",
+        "theme": "weather",
         "language": "el",
         "emoji": "❄️",
         "form": "noun",
@@ -143,7 +147,12 @@
                 ]
             }
         ],
-        "transcription": "/kli.ma.tiˈzmos/"
+        "transcription": "/kli.ma.tiˈzmos/",
+        "lang": "el",
+        "id": "el_advanced_weather_noun_e0b308b5b2"
     }
 ];
+    const lang = "el";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

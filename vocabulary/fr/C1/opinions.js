@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "fr_advanced_social_054",
+        "id": "fr_advanced_social_phrase_gnie_gntique_progrs_ou_pril",
         "word": "Génie génétique : progrès ou péril ?",
         "lang": "fr",
         "level": "advanced",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_055",
+        "id": "fr_advanced_social_phrase_le_revenu_universel_est_la_seu",
         "word": "Le revenu universel est la seule solution à l'automatisation généralisée.",
         "lang": "fr",
         "level": "advanced",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_056",
+        "id": "fr_advanced_social_phrase_le_bonheur_est_un_choix_les_ci",
         "word": "Le bonheur est un choix — les circonstances ne sont que des excuses.",
         "lang": "fr",
         "level": "advanced",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_057",
+        "id": "fr_advanced_social_phrase_les_gens_qui_disent_dtester_le",
         "word": "Les gens qui disent détester les histoires (drama) en sont généralement la source.",
         "lang": "fr",
         "level": "advanced",
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_058",
+        "id": "fr_advanced_social_phrase_lennui_est_un_signe_de_manque_",
         "word": "L'ennui est un signe de manque d'imagination, pas de manque de stimulation.",
         "lang": "fr",
         "level": "advanced",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_059",
+        "id": "fr_advanced_social_phrase_lempathie_sans_limites_nest_qu",
         "word": "L'empathie sans limites n'est que de la complaisance avec de bonnes relations publiques.",
         "lang": "fr",
         "level": "advanced",
@@ -133,7 +133,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_060",
+        "id": "fr_advanced_social_phrase_les_opinions_les_plus_dangereu",
         "word": "Les opinions les plus dangereuses sont celles qui semblent tout à fait raisonnables.",
         "lang": "fr",
         "level": "advanced",
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_061",
+        "id": "fr_advanced_social_phrase_lauthenticit_est_devenue_la_pe",
         "word": "L'authenticité est devenue la performance la plus soigneusement mise en scène de toutes.",
         "lang": "fr",
         "level": "advanced",
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_062",
+        "id": "fr_advanced_social_phrase_le_pardon_est_en_fin_de_compte",
         "word": "Le pardon est en fin de compte quelque chose que l'on fait pour soi, pas pour l'autre.",
         "lang": "fr",
         "level": "advanced",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_063",
+        "id": "fr_advanced_social_phrase_les_institutions_finissent_tou",
         "word": "Les institutions finissent toujours par se protéger plus que les personnes qu'elles servent.",
         "lang": "fr",
         "level": "advanced",
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_064",
+        "id": "fr_advanced_social_phrase_le_dsir_de_certitude_est_la_ra",
         "word": "Le désir de certitude est la racine de la plupart des cruautés humaines.",
         "lang": "fr",
         "level": "advanced",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_065",
+        "id": "fr_advanced_social_phrase_les_valeurs_de_la_plupart_des_",
         "word": "Les valeurs de la plupart des gens ne tiennent que lorsqu'elles ne coûtent rien.",
         "lang": "fr",
         "level": "advanced",
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_066",
+        "id": "fr_advanced_social_phrase_savoir_quand_arrter_de_parler_",
         "word": "Savoir quand arrêter de parler est plus rare et plus précieux que de savoir quoi dire.",
         "lang": "fr",
         "level": "advanced",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_067",
+        "id": "fr_advanced_social_phrase_nous_sommes_plus_dfinis_par_ce",
         "word": "Nous sommes plus définis par ce que nous refusons de faire que par ce que nous choisissons de faire.",
         "lang": "fr",
         "level": "advanced",
@@ -309,7 +309,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_068",
+        "id": "fr_advanced_social_phrase_lobsession_de_la_productivit_n",
         "word": "L'obsession de la productivité n'est que du capitalisme déguisé en développement personnel.",
         "lang": "fr",
         "level": "advanced",
@@ -331,7 +331,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_069",
+        "id": "fr_advanced_social_phrase_la_cancel_culture_est_devenue_",
         "word": "La 'cancel culture' est devenue une forme de justice numérique expéditive.",
         "lang": "fr",
         "level": "advanced",
@@ -353,7 +353,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_070",
+        "id": "fr_advanced_social_phrase_les_gens_qui_prtendent_navoir_",
         "word": "Les gens qui prétendent n'avoir aucun regret n'ont soit pas assez vécu, soit pas assez réfléchi.",
         "lang": "fr",
         "level": "advanced",

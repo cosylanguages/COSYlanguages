@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "en_advanced_social_001",
+        "id": "en_advanced_social_other_genetic_engineering_progress_o",
         "t": "Genetic engineering: Progress or peril?",
         "tag": "Science & Tech",
         "h": [
@@ -25,7 +25,7 @@
         ]
     },
     {
-        "id": "en_advanced_social_002",
+        "id": "en_advanced_social_other_universal_basic_income_is_the_",
         "t": "Universal basic income is the only solution to widespread automation.",
         "tag": "Economics",
         "h": [
@@ -49,7 +49,7 @@
         ]
     },
     {
-        "id": "en_advanced_psychology_001",
+        "id": "en_advanced_psychological_concepts_c1_other_happiness_is_a_choice_circumst",
         "t": "Happiness is a choice — circumstances are just excuses.",
         "tag": "Philosophy",
         "h": [
@@ -61,7 +61,7 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "word": "Happiness is a choice — circumstances are just excuses.",
         "form": "other",
@@ -73,7 +73,7 @@
         ]
     },
     {
-        "id": "en_advanced_people_001",
+        "id": "en_advanced_people_other_the_people_who_say_they_hate_d",
         "t": "The people who say they hate drama are usually the source of it.",
         "tag": "Human nature",
         "h": [
@@ -97,7 +97,7 @@
         ]
     },
     {
-        "id": "en_advanced_social_003",
+        "id": "en_advanced_social_other_boredom_is_a_sign_of_a_lack_of",
         "t": "Boredom is a sign of a lack of imagination, not a lack of stimulation.",
         "tag": "Psychology",
         "h": [
@@ -121,7 +121,7 @@
         ]
     },
     {
-        "id": "en_advanced_people_002",
+        "id": "en_advanced_people_other_empathy_without_boundaries_is_",
         "t": "Empathy without boundaries is just people-pleasing with good PR.",
         "tag": "Psychology",
         "h": [
@@ -145,7 +145,7 @@
         ]
     },
     {
-        "id": "en_advanced_psychology_002",
+        "id": "en_advanced_psychological_concepts_c1_other_the_most_dangerous_opinions_ar",
         "t": "The most dangerous opinions are the ones that sound completely reasonable.",
         "tag": "Critical thinking",
         "h": [
@@ -157,7 +157,7 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "word": "The most dangerous opinions are the ones that sound completely reasonable.",
         "form": "other",
@@ -169,7 +169,7 @@
         ]
     },
     {
-        "id": "en_advanced_travel_001",
+        "id": "en_advanced_travel_other_authenticity_has_become_the_mo",
         "t": "Authenticity has become the most carefully curated performance of all.",
         "tag": "Identity",
         "h": [
@@ -193,7 +193,7 @@
         ]
     },
     {
-        "id": "en_advanced_psychology_003",
+        "id": "en_advanced_psychological_concepts_c1_other_forgiveness_is_ultimately_some",
         "t": "Forgiveness is ultimately something you do for yourself, not the other person.",
         "tag": "Relationships",
         "h": [
@@ -205,7 +205,7 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "word": "Forgiveness is ultimately something you do for yourself, not the other person.",
         "form": "other",
@@ -217,7 +217,7 @@
         ]
     },
     {
-        "id": "en_advanced_people_003",
+        "id": "en_advanced_people_other_institutions_always_end_up_pro",
         "t": "Institutions always end up protecting themselves more than the people they serve.",
         "tag": "Society",
         "h": [
@@ -241,7 +241,7 @@
         ]
     },
     {
-        "id": "en_advanced_technology_001",
+        "id": "en_advanced_technology_other_the_desire_for_certainty_is_th",
         "t": "The desire for certainty is the root of most human cruelty.",
         "tag": "Philosophy",
         "h": [
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "id": "en_advanced_people_004",
+        "id": "en_advanced_people_other_most_peoples_values_only_hold_",
         "t": "Most people's values only hold up when it costs nothing to have them.",
         "tag": "Ethics",
         "h": [
@@ -289,7 +289,7 @@
         ]
     },
     {
-        "id": "en_advanced_social_004",
+        "id": "en_advanced_social_other_knowing_when_to_stop_talking_i",
         "t": "Knowing when to stop talking is rarer and more valuable than knowing what to say.",
         "tag": "Communication",
         "h": [
@@ -313,7 +313,7 @@
         ]
     },
     {
-        "id": "en_advanced_social_005",
+        "id": "en_advanced_social_other_we_are_more_defined_by_what_we",
         "t": "We are more defined by what we refuse to do than what we choose to do.",
         "tag": "Identity",
         "h": [
@@ -337,7 +337,7 @@
         ]
     },
     {
-        "id": "en_advanced_psychology_004",
+        "id": "en_advanced_psychological_concepts_c1_other_the_obsession_with_productivit",
         "t": "The obsession with productivity is just capitalism dressed up as self-improvement.",
         "tag": "Modern life",
         "h": [
@@ -349,7 +349,7 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "word": "The obsession with productivity is just capitalism dressed up as self-improvement.",
         "form": "other",
@@ -361,7 +361,7 @@
         ]
     },
     {
-        "id": "en_advanced_technology_002",
+        "id": "en_advanced_technology_other_cancel_culture_has_become_a_fo",
         "t": "Cancel culture has become a form of digital mob justice.",
         "tag": "Media & Culture",
         "h": [
@@ -385,7 +385,7 @@
         ]
     },
     {
-        "id": "en_advanced_people_005",
+        "id": "en_advanced_people_other_people_who_claim_to_have_no_re",
         "t": "People who claim to have no regrets either haven't lived enough or haven't reflected enough.",
         "tag": "Philosophy",
         "h": [

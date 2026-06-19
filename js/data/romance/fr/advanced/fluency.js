@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "fr_advanced_social_032",
+        "id": "fr_advanced_social_phrase_le_rle_de_lart_dans_la_socit_m",
         "word": "Le rôle de l'art dans la société moderne",
         "lang": "fr",
         "level": "advanced",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_033",
+        "id": "fr_advanced_social_phrase_intelligence_artificielle_outi",
         "word": "Intelligence artificielle : outil ou menace ?",
         "lang": "fr",
         "level": "advanced",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_034",
+        "id": "fr_advanced_social_phrase_si_le_lieu_o_vous_avez_grandi_",
         "word": "Si le lieu où vous avez grandi a fait de vous ce que vous êtes",
         "lang": "fr",
         "level": "advanced",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_035",
+        "id": "fr_advanced_social_phrase_lcart_entre_qui_vous_tes_et_qu",
         "word": "L'écart entre qui vous êtes et qui vous présentez au monde",
         "lang": "fr",
         "level": "advanced",
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_036",
+        "id": "fr_advanced_social_phrase_si_les_gens_changent_fondament",
         "word": "Si les gens changent fondamentalement ou se révèlent seulement lentement",
         "lang": "fr",
         "level": "advanced",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_037",
+        "id": "fr_advanced_social_phrase_ce_que_vous_avez_appris_de_lch",
         "word": "Ce que vous avez appris de l'échec que vous n'auriez pas pu apprendre du succès",
         "lang": "fr",
         "level": "advanced",
@@ -133,7 +133,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_038",
+        "id": "fr_advanced_social_phrase_votre_relation_avec_la_certitu",
         "word": "Votre relation avec la certitude et le doute",
         "lang": "fr",
         "level": "advanced",
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_039",
+        "id": "fr_advanced_social_phrase_les_choses_que_vous_portez_de_",
         "word": "Les choses que vous portez de votre enfance sans vous en rendre compte",
         "lang": "fr",
         "level": "advanced",
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_040",
+        "id": "fr_advanced_social_phrase_ce_que_vous_protgeriez_mme_si_",
         "word": "Ce que vous protégeriez même si cela vous coûtait quelque chose",
         "lang": "fr",
         "level": "advanced",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_041",
+        "id": "fr_advanced_social_phrase_ce_que_les_gens_se_trompent_se",
         "word": "Ce que les gens se trompent selon vous sur le bonheur",
         "lang": "fr",
         "level": "advanced",
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_042",
+        "id": "fr_advanced_social_phrase_le_rle_de_la_chance_dans_votre",
         "word": "Le rôle de la chance dans votre vie",
         "lang": "fr",
         "level": "advanced",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_043",
+        "id": "fr_advanced_social_phrase_si_lambition_et_le_contentemen",
         "word": "Si l'ambition et le contentement peuvent coexister",
         "lang": "fr",
         "level": "advanced",
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_044",
+        "id": "fr_advanced_social_phrase_ce_que_vous_devez_aux_personne",
         "word": "Ce que vous devez aux personnes qui vous ont façonné",
         "lang": "fr",
         "level": "advanced",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_045",
+        "id": "fr_advanced_social_phrase_la_chose_la_plus_utile_quon_vo",
         "word": "La chose la plus utile qu'on vous ait jamais dite",
         "lang": "fr",
         "level": "advanced",
@@ -309,7 +309,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_046",
+        "id": "fr_advanced_social_phrase_quelque_chose_dans_la_vie_mode",
         "word": "Quelque chose dans la vie moderne qui vous inquiète sincèrement",
         "lang": "fr",
         "level": "advanced",
@@ -331,7 +331,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_047",
+        "id": "fr_advanced_social_phrase_la_diffrence_entre_tre_seul_et",
         "word": "La différence entre être seul et se sentir seul",
         "lang": "fr",
         "level": "advanced",
@@ -353,7 +353,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_048",
+        "id": "fr_advanced_social_phrase_ce_que_signifie_bien_vivre_et_",
         "word": "Ce que signifie bien vivre — et si vous en êtes proche",
         "lang": "fr",
         "level": "advanced",
@@ -375,7 +375,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_049",
+        "id": "fr_advanced_social_phrase_si_vous_faites_confiance_votre",
         "word": "Si vous faites confiance à votre propre mémoire",
         "lang": "fr",
         "level": "advanced",
@@ -397,7 +397,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_050",
+        "id": "fr_advanced_social_phrase_les_institutions_et_si_elles_n",
         "word": "Les institutions et si elles nous servent",
         "lang": "fr",
         "level": "advanced",
@@ -419,7 +419,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_051",
+        "id": "fr_advanced_social_phrase_les_histoires_que_vous_raconte",
         "word": "Les histoires que vous racontez sur vous-même",
         "lang": "fr",
         "level": "advanced",
@@ -441,7 +441,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_052",
+        "id": "fr_advanced_social_phrase_ce_que_signifie_la_communaut_d",
         "word": "Ce que signifie la communauté dans un monde fragmenté",
         "lang": "fr",
         "level": "advanced",
@@ -463,7 +463,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_053",
+        "id": "fr_advanced_social_phrase_comment_savoir_quand_faire_con",
         "word": "Comment savoir quand faire confiance à quelqu'un",
         "lang": "fr",
         "level": "advanced",
@@ -488,6 +488,6 @@
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
-    if (!window.speakingData[lang]["talkThatTalk"]) window.speakingData[lang]["talkThatTalk"] = [];
-    window.speakingData[lang]["talkThatTalk"].push(...data);
+    if (!window.speakingData[lang]["fluency"]) window.speakingData[lang]["fluency"] = [];
+    window.speakingData[lang]["fluency"].push(...data);
 })();
