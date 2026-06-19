@@ -4,7 +4,7 @@
     {
         "word": "garden",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🌳",
         "form": "noun",
         "classification": "regular",
@@ -17,7 +17,7 @@
         "countability": "countable",
         "language": "en",
         "lang": "en",
-        "transcription": "",
+        "transcription": "ˈɡɑːrdn",
         "id": "en_elementary_places_077"
     },
     {
@@ -605,7 +605,7 @@
     {
         "word": "border",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🚧",
         "form": "noun",
         "classification": "regular",
@@ -786,7 +786,7 @@
     {
         "word": "capital",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🏛️",
         "form": "noun",
         "classification": "regular",
@@ -1119,7 +1119,7 @@
     {
         "word": "community",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "👥",
         "form": "noun",
         "classification": "regular",
@@ -3668,7 +3668,7 @@
     {
         "word": "neighbourhood",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🏘️",
         "form": "noun",
         "classification": "regular",
@@ -3904,7 +3904,7 @@
     {
         "word": "pharmacy",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "💊",
         "form": "noun",
         "classification": "regular",
@@ -4389,7 +4389,7 @@
     {
         "word": "region",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🗺️",
         "form": "noun",
         "classification": "regular",
@@ -7271,7 +7271,7 @@
     {
         "word": "citizen",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "👤",
         "form": "noun",
         "classification": "regular",
@@ -7299,7 +7299,7 @@
     {
         "word": "facility",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🏢",
         "form": "noun",
         "classification": "regular",
@@ -7327,7 +7327,7 @@
     {
         "word": "volunteer",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🙋",
         "form": "noun",
         "classification": "regular",

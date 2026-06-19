@@ -4,7 +4,7 @@
     {
         "word": "jardin",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🌳",
         "form": "noun",
         "classification": "regular",
@@ -16,7 +16,7 @@
         ],
         "countability": "countable",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʒaʁdɛ̃/",
         "id": "fr_elementary_places_001"
     },
     {
@@ -44,13 +44,13 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/aʁtist/",
         "id": "fr_elementary_art_culture_001"
     },
     {
         "word": "chef",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "jobs",
         "article": "le",
         "emoji": "👨‍🍳",
         "form": "noun",
@@ -72,13 +72,13 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_food_drink_001"
+        "transcription": "/ʃɛf/",
+        "id": "fr_elementary_jobs_001"
     },
     {
         "word": "infirmier",
         "level": "elementary",
-        "theme": "health_medicine",
+        "theme": "jobs",
         "article": "l'",
         "emoji": "👩‍⚕️",
         "form": "noun",
@@ -100,14 +100,15 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_health_medicine_001"
+        "transcription": "/ɛ̃fiʁmje/",
+        "id": "fr_elementary_jobs_002"
     },
     {
         "word": "crêpe",
         "level": "elementary",
         "theme": "food_drink",
         "article": "la",
+        "emoji": "🥞",
         "form": "noun",
         "classification": "regular",
         "plural": "crêpes",
@@ -127,8 +128,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
-        "emoji": "❓",
+        "transcription": "/kʁɛp/",
         "id": "fr_elementary_food_drink_002"
     },
     {
@@ -136,6 +136,7 @@
         "level": "elementary",
         "theme": "food_drink",
         "article": "la",
+        "emoji": "🫕",
         "form": "noun",
         "classification": "regular",
         "plural": "fondues",
@@ -155,8 +156,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
-        "emoji": "❓",
+        "transcription": "/fɔ̃dy/",
         "id": "fr_elementary_food_drink_003"
     },
     {
@@ -184,7 +184,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/fʁɔmaʒ/",
         "id": "fr_elementary_food_drink_004"
     },
     {
@@ -212,7 +212,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁi/",
         "id": "fr_elementary_food_drink_005"
     },
     {
@@ -240,7 +240,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/tɔmat/",
         "id": "fr_elementary_food_drink_006"
     },
     {
@@ -268,7 +268,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pɔm də tɛʁ/",
         "id": "fr_elementary_food_drink_007"
     },
     {
@@ -282,7 +282,7 @@
         "classification": "regular",
         "plural": "vin",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/vɛ̃/",
         "definitions": [
             {
                 "text": "vin",
@@ -302,7 +302,7 @@
         "classification": "regular",
         "plural": "bière",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/bjɛʁ/",
         "definitions": [
             {
                 "text": "bière",
@@ -314,7 +314,7 @@
     {
         "word": "hôpital",
         "level": "elementary",
-        "theme": "health_medicine",
+        "theme": "places",
         "article": "l'",
         "emoji": "🏥",
         "form": "noun",
@@ -336,13 +336,13 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_health_medicine_002"
+        "transcription": "/opital/",
+        "id": "fr_elementary_places_007"
     },
     {
         "word": "cinéma",
         "level": "elementary",
-        "theme": "art_culture",
+        "theme": "places",
         "article": "le",
         "emoji": "🎬",
         "form": "noun",
@@ -364,13 +364,13 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_art_culture_002"
+        "transcription": "/sinema/",
+        "id": "fr_elementary_places_008"
     },
     {
         "word": "restaurant",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "places",
         "article": "le",
         "emoji": "🍴",
         "form": "noun",
@@ -392,65 +392,65 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_food_drink_010"
+        "transcription": "/ʁɛstɔʁɑ̃/",
+        "id": "fr_elementary_places_009"
     },
     {
         "word": "robe",
         "level": "elementary",
-        "theme": "shopping",
+        "theme": "clothes",
         "article": "la",
         "emoji": "👗",
         "form": "noun",
         "classification": "regular",
         "plural": "robes",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁɔb/",
         "definitions": [
             {
                 "text": "robe",
                 "examples": []
             }
         ],
-        "id": "fr_elementary_shopping_001"
+        "id": "fr_elementary_clothes_004"
     },
     {
         "word": "veste",
         "level": "elementary",
-        "theme": "shopping",
+        "theme": "clothes",
         "article": "la",
         "emoji": "🧥",
         "form": "noun",
         "classification": "regular",
         "plural": "vestes",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/vɛst/",
         "definitions": [
             {
                 "text": "veste",
                 "examples": []
             }
         ],
-        "id": "fr_elementary_shopping_002"
+        "id": "fr_elementary_clothes_005"
     },
     {
         "word": "jupe",
         "level": "elementary",
-        "theme": "shopping",
+        "theme": "clothes",
         "article": "la",
         "emoji": "👗",
         "form": "noun",
         "classification": "regular",
         "plural": "jupes",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʒyp/",
         "definitions": [
             {
                 "text": "jupe",
                 "examples": []
             }
         ],
-        "id": "fr_elementary_shopping_003"
+        "id": "fr_elementary_clothes_006"
     },
     {
         "word": "canapé",
@@ -462,7 +462,7 @@
         "classification": "regular",
         "plural": "canapés",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kanape/",
         "definitions": [
             {
                 "text": "canapé",
@@ -481,7 +481,7 @@
         "classification": "regular",
         "plural": "lampes",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/lɑ̃p/",
         "definitions": [
             {
                 "text": "lampe",
@@ -494,15 +494,12 @@
         "word": "bureau",
         "level": "elementary",
         "theme": "furniture",
-        "theme_alt": "grammar_plurals",
-        "numberPlural": "3 bureau",
-        "answer": "trois bureaux",
         "emoji": "🏢",
         "form": "noun",
         "classification": "regular",
         "plural": "bureaux",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/byʁo/",
         "definitions": [
             {
                 "text": "bureau",
@@ -512,44 +509,11 @@
         "id": "fr_elementary_furniture_003"
     },
     {
-        "word": "se brosser les dents",
-        "level": "elementary",
-        "theme": "furniture",
-        "emoji": "🪥",
-        "form": "verb",
-        "classification": "regular",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "se brosser les dents",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_furniture_004"
-    },
-    {
-        "word": "prendre une douche",
-        "level": "elementary",
-        "theme": "furniture",
-        "emoji": "🚿",
-        "form": "verb",
-        "classification": "regular",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "prendre une douche",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_furniture_005"
-    },
-    {
         "word": "montre",
         "level": "elementary",
         "theme": "clothes",
         "article": "la",
+        "emoji": "⌚",
         "form": "noun",
         "classification": "regular",
         "plural": "montres",
@@ -570,8 +534,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
-        "emoji": "❓",
+        "transcription": "/mɔ̃tʁ/",
         "id": "fr_elementary_clothes_001"
     },
     {
@@ -593,7 +556,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pɔʁtəfœj/",
         "id": "fr_elementary_clothes_002"
     },
     {
@@ -605,7 +568,7 @@
         "classification": "regular",
         "plural": "lunettes",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/lynɛt/",
         "definitions": [
             {
                 "text": "lunettes",
@@ -624,7 +587,7 @@
         "classification": "regular",
         "plural": "lions",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ljɔ̃/",
         "definitions": [
             {
                 "text": "lion",
@@ -643,7 +606,7 @@
         "classification": "regular",
         "plural": "tigres",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/tiɡʁ/",
         "definitions": [
             {
                 "text": "tigre",
@@ -666,7 +629,7 @@
             "origin_word": "caballus"
         },
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʃəval/",
         "definitions": [
             {
                 "text": "cheval",
@@ -678,7 +641,7 @@
     {
         "word": "bras",
         "level": "elementary",
-        "theme": "health_medicine",
+        "theme": "body",
         "article": "le",
         "emoji": "💪",
         "form": "noun",
@@ -689,7 +652,7 @@
             "origin_word": "bracchium"
         },
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/bʁa/",
         "definitions": [
             {
                 "text": "bras",
@@ -701,7 +664,7 @@
     {
         "word": "université",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "places",
         "emoji": "🎓",
         "form": "noun",
         "classification": "regular",
@@ -715,8 +678,8 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_work_001"
+        "transcription": "/ynivɛʁsite/",
+        "id": "fr_elementary_places_010"
     },
     {
         "word": "cuisine locale",
@@ -742,7 +705,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kɥizin lɔkal/",
         "id": "fr_elementary_food_drink_011"
     },
     {
@@ -751,8 +714,6 @@
         "theme": "animals",
         "article": "l'",
         "baseWord": "oiseau",
-        "numberPlural": "2 oiseau",
-        "answer": "deux oiseaux",
         "emoji": "🐦",
         "form": "noun",
         "classification": "regular",
@@ -762,7 +723,7 @@
             "origin_word": "avicellus"
         },
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/wazo/",
         "definitions": [
             {
                 "text": "oiseau",
@@ -772,217 +733,9 @@
         "id": "fr_elementary_animals_004"
     },
     {
-        "word": "sembler",
-        "level": "elementary",
-        "theme": "people",
-        "emoji": "🤔",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "sembler",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_people_022"
-    },
-    {
-        "word": "devenir",
-        "level": "elementary",
-        "theme": "people",
-        "emoji": "🦋",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "devenir",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_people_023"
-    },
-    {
-        "word": "bouger",
-        "level": "elementary",
-        "theme": "furniture",
-        "emoji": "📦",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "bouger",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_furniture_006"
-    },
-    {
-        "word": "croire",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "🙏",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "croire",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_describing_001"
-    },
-    {
-        "word": "se passer",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "⚡",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "se passer",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_describing_002"
-    },
-    {
-        "word": "inclure",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "➕",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "inclure",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_describing_003"
-    },
-    {
-        "word": "continuer",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "➡️",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "continuer",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_describing_004"
-    },
-    {
-        "word": "poser",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "⚙️",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "poser",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_describing_005"
-    },
-    {
-        "word": "mener",
-        "level": "elementary",
-        "theme": "jobs",
-        "emoji": "👑",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "mener",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_work_002"
-    },
-    {
-        "word": "suivre",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "👣",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "suivre",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_describing_006"
-    },
-    {
-        "word": "créer",
-        "level": "elementary",
-        "theme": "social",
-        "emoji": "✨",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "créer",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_social_166"
-    },
-    {
-        "word": "permettre",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "✅",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "permettre",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_describing_007"
-    },
-    {
-        "word": "grandir",
-        "level": "elementary",
-        "theme": "nature",
-        "emoji": "🌱",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "grandir",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_environment_006"
-    },
-    {
         "word": "pollution",
         "level": "elementary",
-        "theme": "nature",
+        "theme": "environment",
         "emoji": "🏭",
         "article": "la",
         "form": "noun",
@@ -996,29 +749,13 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pɔlysjɔ̃/",
         "id": "fr_elementary_environment_007"
-    },
-    {
-        "word": "offrir",
-        "level": "elementary",
-        "theme": "people",
-        "emoji": "🤲",
-        "form": "verb",
-        "lang": "fr",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "offrir",
-                "examples": []
-            }
-        ],
-        "id": "fr_elementary_people_024"
     },
     {
         "word": "heures supplémentaires",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "⏰",
         "form": "phrase",
         "classification": "regular",
@@ -1033,13 +770,13 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/œʁ syplemɑ̃tɛʁ/",
         "id": "fr_elementary_work_003"
     },
     {
         "word": "promotion",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📈",
         "form": "noun",
         "classification": "regular",
@@ -1054,13 +791,13 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pʁɔmɔsjɔ̃/",
         "id": "fr_elementary_work_004"
     },
     {
         "word": "entretien d'embauche",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -1075,13 +812,13 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ɑ̃tʁətjɛ̃ dɑ̃boʃ/",
         "id": "fr_elementary_work_005"
     },
     {
         "word": "contrat",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📄",
         "form": "noun",
         "classification": "regular",
@@ -1096,13 +833,13 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kɔ̃tʁa/",
         "id": "fr_elementary_work_006"
     },
     {
         "word": "date limite",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "⏳",
         "form": "noun",
         "classification": "regular",
@@ -1117,13 +854,13 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/dat limit/",
         "id": "fr_elementary_work_007"
     },
     {
         "word": "expérience",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🧠",
         "form": "noun",
         "classification": "regular",
@@ -1138,7 +875,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ɛkspeʁjɑ̃s/",
         "id": "fr_elementary_work_008"
     },
     {
@@ -1159,7 +896,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pʁɛ ipɔtekɛʁ/",
         "id": "fr_elementary_numbers_001"
     },
     {
@@ -1180,7 +917,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pʁɛ/",
         "id": "fr_elementary_numbers_002"
     },
     {
@@ -1201,7 +938,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/faktyʁ/",
         "id": "fr_elementary_numbers_003"
     },
     {
@@ -1222,7 +959,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/dɛt/",
         "id": "fr_elementary_numbers_004"
     },
     {
@@ -1243,7 +980,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kɔ̃t/",
         "id": "fr_elementary_numbers_005"
     },
     {
@@ -1264,17 +1001,17 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/bydʒɛ/",
         "id": "fr_elementary_numbers_006"
     },
     {
         "word": "régime",
         "level": "elementary",
         "theme": "food_drink",
+        "article": "le",
         "emoji": "🥗",
         "form": "noun",
         "classification": "regular",
-        "article": "le",
         "plural": "régimes",
         "definitions": [
             {
@@ -1285,7 +1022,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁeʒim/",
         "id": "fr_elementary_food_drink_012"
     },
     {
@@ -1306,7 +1043,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁɑ̃devu/",
         "id": "fr_elementary_health_medicine_003"
     },
     {
@@ -1327,7 +1064,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/vitamin/",
         "id": "fr_elementary_food_drink_013"
     },
     {
@@ -1348,7 +1085,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/dulœʁ/",
         "id": "fr_elementary_health_medicine_004"
     },
     {
@@ -1369,7 +1106,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/sutjɛ̃/",
         "id": "fr_elementary_people_025"
     },
     {
@@ -1389,7 +1126,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kɔ̃fjɑ̃s/",
         "id": "fr_elementary_people_026"
     },
     {
@@ -1410,7 +1147,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kɔ̃pʁɔmi/",
         "id": "fr_elementary_people_027"
     },
     {
@@ -1431,7 +1168,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/vwajaʒ/",
         "id": "fr_elementary_travel_003"
     },
     {
@@ -1449,7 +1186,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/a letʁɑ̃ʒe/",
         "id": "fr_elementary_travel_004"
     },
     {
@@ -1470,7 +1207,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/dɛstinasjɔ̃/",
         "id": "fr_elementary_travel_005"
     },
     {
@@ -1491,7 +1228,7 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/vɔl/",
         "id": "fr_elementary_travel_006"
     },
     {
@@ -1512,13 +1249,13 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/baɡaʒ/",
         "id": "fr_elementary_travel_007"
     },
     {
         "word": "quartier",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🏘️",
         "form": "noun",
         "classification": "regular",
@@ -1533,13 +1270,13 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_places_002"
+        "transcription": "/kaʁtje/",
+        "id": "fr_elementary_places_011"
     },
     {
         "word": "communauté",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "👥",
         "form": "noun",
         "classification": "regular",
@@ -1554,8 +1291,8 @@
             }
         ],
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_places_003"
+        "transcription": "/kɔmynote/",
+        "id": "fr_elementary_places_012"
     }
 ];
 })();

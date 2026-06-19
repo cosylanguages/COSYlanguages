@@ -4,7 +4,7 @@ const data = [
     {
         "word": "se brosser les dents",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "body",
         "emoji": "🪥",
         "form": "verb",
         "group": "er",
@@ -22,15 +22,15 @@ const data = [
         "v3": "brossé les dents",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "se brosser les denant",
+        "v4": "se brossant les dents",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_furniture_007"
+        "transcription": "/sə bʁɔse le dɑ̃/",
+        "id": "fr_elementary_body_002"
     },
     {
         "word": "se doucher",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "body",
         "emoji": "🚿",
         "form": "verb",
         "group": "er",
@@ -53,8 +53,8 @@ const data = [
         "reflexive": true,
         "v4": "se douchant",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_furniture_008"
+        "transcription": "/sə duʃe/",
+        "id": "fr_elementary_body_003"
     },
     {
         "word": "sembler",
@@ -78,7 +78,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "semblant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/sɑ̃ble/",
         "id": "fr_elementary_people_042"
     },
     {
@@ -102,7 +102,7 @@ const data = [
         "v3": "devenu",
         "auxiliary": "être",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/dəvniʁ/",
         "id": "fr_elementary_people_043"
     },
     {
@@ -126,7 +126,7 @@ const data = [
         "v3": "cru",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kʁwaʁ/",
         "id": "fr_elementary_describing_036"
     },
     {
@@ -152,7 +152,7 @@ const data = [
         "reflexive": true,
         "v4": "se passant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/sə pɑse/",
         "id": "fr_elementary_describing_037"
     },
     {
@@ -176,7 +176,7 @@ const data = [
         "v3": "inclus",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ɛ̃klyʁ/",
         "id": "fr_elementary_describing_038"
     },
     {
@@ -201,7 +201,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "continuant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kɔ̃tinye/",
         "id": "fr_elementary_describing_039"
     },
     {
@@ -226,7 +226,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "réglant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁeɡle/",
         "id": "fr_elementary_describing_040"
     },
     {
@@ -251,7 +251,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "menant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/mne/",
         "id": "fr_elementary_people_044"
     },
     {
@@ -275,7 +275,7 @@ const data = [
         "v3": "suivi",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/sɥivʁ/",
         "id": "fr_elementary_describing_041"
     },
     {
@@ -300,7 +300,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "créant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kʁee/",
         "id": "fr_elementary_social_167"
     },
     {
@@ -324,7 +324,7 @@ const data = [
         "v3": "permis",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pɛʁmɛtʁ/",
         "id": "fr_elementary_people_045"
     },
     {
@@ -349,7 +349,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "grandissant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ɡʁɑ̃diʁ/",
         "id": "fr_elementary_environment_008"
     },
     {
@@ -373,7 +373,7 @@ const data = [
         "v3": "offert",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ɔfʁiʁ/",
         "id": "fr_elementary_people_046"
     },
     {
@@ -398,7 +398,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "considérant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kɔ̃sideʁe/",
         "id": "fr_elementary_describing_042"
     },
     {
@@ -422,7 +422,7 @@ const data = [
         "v3": "apparu",
         "auxiliary": "être",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/apaʁɛtʁ/",
         "id": "fr_elementary_people_047"
     },
     {
@@ -446,7 +446,7 @@ const data = [
         "v3": "servi",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/sɛʁviʁ/",
         "id": "fr_elementary_food_drink_019"
     },
     {
@@ -471,7 +471,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "attendant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/atɑ̃dʁ/",
         "id": "fr_elementary_describing_043"
     },
     {
@@ -483,7 +483,7 @@ const data = [
         "group": "re",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "construire une maison / construire un projet",
+        "subtext": "construire une maison / costruire un projet",
         "definitions": [
             {
                 "text": "Faire quelque chose en assemblant des parties.",
@@ -495,7 +495,7 @@ const data = [
         "v3": "construit",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kɔ̃stʁɥiʁ/",
         "id": "fr_elementary_describing_044"
     },
     {
@@ -519,7 +519,7 @@ const data = [
         "v3": "atteint",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/atɛ̃dʁ/",
         "id": "fr_elementary_travel_008"
     },
     {
@@ -544,13 +544,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "tuant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/tye/",
         "id": "fr_elementary_psychology_001"
     },
     {
         "word": "rester",
         "level": "elementary",
-        "theme": "describing",
+        "theme": "places",
         "emoji": "⏳",
         "form": "verb",
         "group": "er",
@@ -573,8 +573,8 @@ const data = [
             "origin_word": "restare"
         },
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_describing_045"
+        "transcription": "/ʁɛste/",
+        "id": "fr_elementary_places_004"
     },
     {
         "word": "suggérer",
@@ -598,7 +598,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "suggérant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/syʒeʁe/",
         "id": "fr_elementary_describing_046"
     },
     {
@@ -626,7 +626,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "levant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ləve/",
         "id": "fr_elementary_describing_047"
     },
     {
@@ -649,15 +649,15 @@ const data = [
         ],
         "v3": "exigé",
         "auxiliary": "avoir",
-        "v4": "exigant",
+        "v4": "exigeant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ɛɡziʒe/",
         "id": "fr_elementary_describing_048"
     },
     {
         "word": "rapporter",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📋",
         "form": "verb",
         "group": "er",
@@ -679,13 +679,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "rapportant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁapɔʁte/",
         "id": "fr_elementary_work_020"
     },
     {
         "word": "expliquer",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "👨‍🏫",
         "form": "verb",
         "group": "er",
@@ -704,13 +704,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "expliquant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ɛksplike/",
         "id": "fr_elementary_work_021"
     },
     {
         "word": "développer",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "💻",
         "form": "verb",
         "group": "er",
@@ -729,13 +729,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "développant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/devlɔpe/",
         "id": "fr_elementary_work_022"
     },
     {
         "word": "prendre sa retraite",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "👴",
         "form": "verb",
         "group": "re",
@@ -756,7 +756,7 @@ const data = [
         "v3": "pris sa retraite",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pʁɑ̃dʁ sa ʁətʁɛt/",
         "id": "fr_elementary_work_023"
     },
     {
@@ -783,13 +783,13 @@ const data = [
         "v3": "eu les moyens",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/avwaʁ le mwajɛ̃/",
         "id": "fr_elementary_numbers_015"
     },
     {
         "word": "recycler",
         "level": "elementary",
-        "theme": "nature",
+        "theme": "environment",
         "emoji": "♻️",
         "form": "verb",
         "group": "er",
@@ -811,7 +811,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "recyclant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁəsikle/",
         "id": "fr_elementary_environment_009"
     },
     {
@@ -836,13 +836,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "frappant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/fʁape/",
         "id": "fr_elementary_social_168"
     },
     {
         "word": "produire",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🏭",
         "form": "verb",
         "group": "re",
@@ -860,7 +860,7 @@ const data = [
         "v3": "produit",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pʁɔdɥiʁ/",
         "id": "fr_elementary_work_024"
     },
     {
@@ -884,7 +884,7 @@ const data = [
         "v3": "fait face",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/fɛʁ fas/",
         "id": "fr_elementary_people_048"
     },
     {
@@ -908,13 +908,13 @@ const data = [
         "v3": "couvert",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kuvʁiʁ/",
         "id": "fr_elementary_describing_049"
     },
     {
         "word": "décrire",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📝",
         "form": "verb",
         "group": "re",
@@ -932,7 +932,7 @@ const data = [
         "v3": "décrit",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/dekʁiʁ/",
         "id": "fr_elementary_work_025"
     },
     {
@@ -957,13 +957,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "attrapant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/atʁape/",
         "id": "fr_elementary_social_169"
     },
     {
         "word": "postuler",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📝",
         "form": "verb",
         "group": "er",
@@ -982,13 +982,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "postulant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pɔstyle/",
         "id": "fr_elementary_work_026"
     },
     {
         "word": "embaucher",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🤝",
         "form": "verb",
         "group": "er",
@@ -1010,13 +1010,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "embauchant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ɑ̃boʃe/",
         "id": "fr_elementary_work_027"
     },
     {
         "word": "promouvoir",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📈",
         "form": "verb",
         "group": "ir",
@@ -1038,13 +1038,13 @@ const data = [
         "v3": "promu",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pʁɔmuvwaʁ/",
         "id": "fr_elementary_work_028"
     },
     {
         "word": "démissionner",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🚪",
         "form": "verb",
         "group": "er",
@@ -1066,13 +1066,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "démissionnant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/demisjɔne/",
         "id": "fr_elementary_work_029"
     },
     {
         "word": "licencier",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "❌",
         "form": "verb",
         "group": "er",
@@ -1094,13 +1094,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "licenciant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/lisɑ̃sje/",
         "id": "fr_elementary_work_030"
     },
     {
         "word": "déléguer",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📋",
         "form": "verb",
         "group": "er",
@@ -1119,13 +1119,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "déléguant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/deleɡe/",
         "id": "fr_elementary_work_031"
     },
     {
         "word": "négocier",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🤝",
         "form": "verb",
         "group": "er",
@@ -1144,13 +1144,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "négociant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/neɡɔsje/",
         "id": "fr_elementary_work_032"
     },
     {
         "word": "évaluer",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📊",
         "form": "verb",
         "group": "er",
@@ -1169,13 +1169,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "évaluant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/evalye/",
         "id": "fr_elementary_work_033"
     },
     {
         "word": "collaborer",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "👥",
         "form": "verb",
         "group": "er",
@@ -1194,13 +1194,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "collaborant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kɔlabɔʁe/",
         "id": "fr_elementary_work_034"
     },
     {
         "word": "planifier",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📅",
         "form": "verb",
         "group": "er",
@@ -1219,7 +1219,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "planifiant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/planifje/",
         "id": "fr_elementary_work_035"
     },
     {
@@ -1244,7 +1244,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "investissant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ɛ̃vɛstiʁ/",
         "id": "fr_elementary_numbers_016"
     },
     {
@@ -1269,7 +1269,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "empruntant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ɑ̃pʁœ̃te/",
         "id": "fr_elementary_numbers_017"
     },
     {
@@ -1294,7 +1294,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "prêtant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pʁɛte/",
         "id": "fr_elementary_numbers_018"
     },
     {
@@ -1319,7 +1319,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "budgétisant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/bydʒetize/",
         "id": "fr_elementary_numbers_019"
     },
     {
@@ -1344,7 +1344,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "retirant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁətiʁe/",
         "id": "fr_elementary_numbers_020"
     },
     {
@@ -1372,7 +1372,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "transférant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/tʁɑ̃sfeʁe/",
         "id": "fr_elementary_numbers_021"
     },
     {
@@ -1397,7 +1397,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "facturant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/faktyʁe/",
         "id": "fr_elementary_numbers_022"
     },
     {
@@ -1422,7 +1422,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "réclamant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁeklame/",
         "id": "fr_elementary_numbers_023"
     },
     {
@@ -1448,7 +1448,7 @@ const data = [
         "reflexive": true,
         "v4": "se disputant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/sə dispyte/",
         "id": "fr_elementary_describing_050"
     },
     {
@@ -1472,7 +1472,7 @@ const data = [
         "v3": "fait confiance",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/fɛʁ kɔ̃fjɑ̃s/",
         "id": "fr_elementary_describing_051"
     },
     {
@@ -1496,7 +1496,7 @@ const data = [
         "v3": "soutenu",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/sutniʁ/",
         "id": "fr_elementary_describing_052"
     },
     {
@@ -1520,7 +1520,7 @@ const data = [
         "v3": "pas été d'accord",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ne pɑ ɛtʁ d akɔʁ/",
         "id": "fr_elementary_describing_053"
     },
     {
@@ -1546,7 +1546,7 @@ const data = [
         "reflexive": true,
         "v4": "s'excusant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/sɛkskyze/",
         "id": "fr_elementary_describing_054"
     },
     {
@@ -1571,7 +1571,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "pardonnant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/paʁdɔne/",
         "id": "fr_elementary_describing_055"
     },
     {
@@ -1599,13 +1599,13 @@ const data = [
         "v3": "fait un compromis",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/fɛʁ œ̃ kɔ̃pʁɔmi/",
         "id": "fr_elementary_describing_056"
     },
     {
         "word": "diagnostiquer",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "health_medicine",
         "emoji": "🩺",
         "form": "verb",
         "group": "er",
@@ -1624,13 +1624,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "diagnostiquant",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_food_drink_020"
+        "transcription": "/djaɡnɔstike/",
+        "id": "fr_elementary_health_medicine_005"
     },
     {
         "word": "traiter",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "health_medicine",
         "emoji": "🩹",
         "form": "verb",
         "group": "er",
@@ -1649,13 +1649,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "traitant",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_food_drink_021"
+        "transcription": "/tʁɛte/",
+        "id": "fr_elementary_health_medicine_006"
     },
     {
         "word": "prévenir",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "health_medicine",
         "emoji": "🛡️",
         "form": "verb",
         "group": "ir",
@@ -1673,13 +1673,13 @@ const data = [
         "v3": "prévenu",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_food_drink_022"
+        "transcription": "/pʁevniʁ/",
+        "id": "fr_elementary_health_medicine_007"
     },
     {
         "word": "souffrir",
         "level": "elementary",
-        "theme": "describing",
+        "theme": "health_medicine",
         "emoji": "🤕",
         "form": "verb",
         "group": "ir",
@@ -1697,8 +1697,8 @@ const data = [
         "v3": "souffert",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_describing_057"
+        "transcription": "/sufʁiʁ/",
+        "id": "fr_elementary_health_medicine_008"
     },
     {
         "word": "recommander",
@@ -1722,13 +1722,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "recommandant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁəkɔmɑ̃de/",
         "id": "fr_elementary_describing_058"
     },
     {
         "word": "améliorer",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "health_medicine",
         "emoji": "📈",
         "form": "verb",
         "group": "er",
@@ -1747,13 +1747,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "améliorant",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_food_drink_023"
+        "transcription": "/ameljɔʁe/",
+        "id": "fr_elementary_health_medicine_009"
     },
     {
         "word": "louer",
         "level": "elementary",
-        "theme": "describing",
+        "theme": "places",
         "emoji": "🏠",
         "form": "verb",
         "group": "er",
@@ -1772,8 +1772,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "louant",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_describing_059"
+        "transcription": "/lwe/",
+        "id": "fr_elementary_places_005"
     },
     {
         "word": "posséder",
@@ -1797,7 +1797,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "possédant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pɔsede/",
         "id": "fr_elementary_describing_060"
     },
     {
@@ -1825,13 +1825,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "réparant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁepaʁe/",
         "id": "fr_elementary_describing_061"
     },
     {
         "word": "déménager",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "📦",
         "form": "verb",
         "group": "er",
@@ -1851,10 +1851,10 @@ const data = [
         ],
         "v3": "déménagé",
         "auxiliary": "avoir",
-        "v4": "déménagant",
+        "v4": "déménageant",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_furniture_009"
+        "transcription": "/demenaʒe/",
+        "id": "fr_elementary_places_006"
     },
     {
         "word": "décorer",
@@ -1881,13 +1881,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "décorant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/dekɔre/",
         "id": "fr_elementary_furniture_010"
     },
     {
         "word": "monter",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🏗️",
         "form": "verb",
         "group": "er",
@@ -1906,7 +1906,7 @@ const data = [
         "auxiliary": "être",
         "v4": "montant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/mɔ̃te/",
         "id": "fr_elementary_work_036"
     },
     {
@@ -1930,13 +1930,13 @@ const data = [
         "v3": "découvert",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/dekuvʁiʁ/",
         "id": "fr_elementary_describing_062"
     },
     {
         "word": "poursuivre",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "⏩",
         "form": "verb",
         "group": "re",
@@ -1954,13 +1954,13 @@ const data = [
         "v3": "poursuivi",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/puʁsɥivʁ/",
         "id": "fr_elementary_work_037"
     },
     {
         "word": "abandonner",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🏳️",
         "form": "verb",
         "group": "er",
@@ -1982,13 +1982,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "abandonnant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/abɑ̃dɔne/",
         "id": "fr_elementary_work_038"
     },
     {
         "word": "résoudre",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🔧",
         "form": "verb",
         "group": "re",
@@ -2009,7 +2009,7 @@ const data = [
         "v3": "résolu",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁezudʁ/",
         "id": "fr_elementary_work_039"
     },
     {
@@ -2037,7 +2037,7 @@ const data = [
         "auxiliary": "être",
         "reflexive": true,
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/sɔkype də/",
         "id": "fr_elementary_people_049"
     },
     {
@@ -2062,13 +2062,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "limitant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/limite/",
         "id": "fr_elementary_food_drink_024"
     },
     {
         "word": "assumer",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "💪",
         "form": "verb",
         "group": "er",
@@ -2087,13 +2087,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "assumant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/asyme/",
         "id": "fr_elementary_work_040"
     },
     {
         "word": "rejeter",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "👎",
         "form": "verb",
         "group": "er",
@@ -2115,13 +2115,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "rejetant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁəʒəte/",
         "id": "fr_elementary_work_041"
     },
     {
         "word": "remettre à plus tard",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "⏳",
         "form": "verb",
         "group": "re",
@@ -2143,7 +2143,7 @@ const data = [
         "v3": "remis à plus tard",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁəmɛtʁ a ply taʁ/",
         "id": "fr_elementary_work_042"
     },
     {
@@ -2179,7 +2179,7 @@ const data = [
             }
         },
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/doˈvwaʁ/",
         "id": "fr_elementary_numbers_024"
     },
     {
@@ -2204,7 +2204,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "invitant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ɛ̃vite/",
         "id": "fr_elementary_describing_063"
     },
     {
@@ -2229,7 +2229,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "confirmant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kɔ̃fiʁme/",
         "id": "fr_elementary_describing_064"
     },
     {
@@ -2254,7 +2254,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "contactant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/kɔ̃takte/",
         "id": "fr_elementary_technology_009"
     },
     {
@@ -2263,7 +2263,7 @@ const data = [
         "theme": "describing",
         "emoji": "😠",
         "form": "verb",
-        "group": "er",
+        "group": "re",
         "classification": "irregular",
         "aspect": "action",
         "subtext": "se plaindre de",
@@ -2282,7 +2282,7 @@ const data = [
         "auxiliary": "être",
         "reflexive": true,
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/sə plɛ̃dʁ/",
         "id": "fr_elementary_describing_065"
     },
     {
@@ -2307,13 +2307,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "discutant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/diskyte/",
         "id": "fr_elementary_describing_066"
     },
     {
         "word": "présenter",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📊",
         "form": "verb",
         "group": "er",
@@ -2332,13 +2332,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "présentant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pʁezɑ̃te/",
         "id": "fr_elementary_work_043"
     },
     {
         "word": "accepter",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "✅",
         "form": "verb",
         "group": "er",
@@ -2357,13 +2357,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "acceptant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/aksɛpte/",
         "id": "fr_elementary_work_044"
     },
     {
         "word": "refuser",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "❌",
         "form": "verb",
         "group": "er",
@@ -2382,13 +2382,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "refusant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁəfyze/",
         "id": "fr_elementary_work_045"
     },
     {
         "word": "perdre du poids",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "health_medicine",
         "emoji": "⚖️",
         "form": "verb",
         "group": "re",
@@ -2409,13 +2409,13 @@ const data = [
         "v3": "perdu du poids",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_food_drink_025"
+        "transcription": "/pɛʁdʁ dy pwa/",
+        "id": "fr_elementary_health_medicine_010"
     },
     {
         "word": "augmenter",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📈",
         "form": "verb",
         "group": "er",
@@ -2434,13 +2434,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "augmentant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/oɡmɑ̃te/",
         "id": "fr_elementary_work_046"
     },
     {
         "word": "réduire",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📉",
         "form": "verb",
         "group": "re",
@@ -2458,13 +2458,13 @@ const data = [
         "v3": "réduit",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁedɥiʁ/",
         "id": "fr_elementary_work_047"
     },
     {
         "word": "améliorer ses compétences",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📈",
         "form": "verb",
         "group": "er",
@@ -2486,13 +2486,13 @@ const data = [
         "v3": "amélioré ses compétences",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ameljɔʁe se kɔ̃petɑ̃s/",
         "id": "fr_elementary_work_048"
     },
     {
         "word": "fournir",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🤲",
         "form": "verb",
         "group": "ir",
@@ -2511,13 +2511,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "fournissant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/fuʁniʁ/",
         "id": "fr_elementary_work_049"
     },
     {
         "word": "résoudre",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🧩",
         "form": "verb",
         "group": "re",
@@ -2538,13 +2538,13 @@ const data = [
         "v3": "résolu",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁezudʁ/",
         "id": "fr_elementary_work_050"
     },
     {
         "word": "partager",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🤝",
         "form": "verb",
         "group": "er",
@@ -2561,15 +2561,15 @@ const data = [
         ],
         "v3": "partagé",
         "auxiliary": "avoir",
-        "v4": "partagant",
+        "v4": "partageant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/paʁtaʒe/",
         "id": "fr_elementary_work_051"
     },
     {
         "word": "rejoindre",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "social",
         "emoji": "➕",
         "form": "verb",
         "group": "re",
@@ -2587,19 +2587,19 @@ const data = [
         "v3": "rejoint",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_work_052"
+        "transcription": "/ʁəʒwɛ̃dʁ/",
+        "id": "fr_elementary_social_170"
     },
     {
         "word": "recevoir",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📩",
         "form": "verb",
         "group": "ir",
         "classification": "irregular",
         "aspect": "action",
-        "subtext": "recevoir une lettre / recevoir un paiement",
+        "subtext": "recevoir une lettre / ricevere un pagamento",
         "definitions": [
             {
                 "text": "Recevoir quelque chose qui vous est donné ou présenté.",
@@ -2611,13 +2611,13 @@ const data = [
         "v3": "reçu",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁəsəvwaʁ/",
         "id": "fr_elementary_work_053"
     },
     {
         "word": "contenir",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "describing",
         "emoji": "📦",
         "form": "verb",
         "group": "ir",
@@ -2638,13 +2638,13 @@ const data = [
         "v3": "contenu",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_work_054"
+        "transcription": "/kɔ̃tniʁ/",
+        "id": "fr_elementary_describing_067"
     },
     {
         "word": "prévoir",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📅",
         "form": "verb",
         "group": "ir",
@@ -2662,13 +2662,13 @@ const data = [
         "v3": "prévu",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pʁevwaʁ/",
         "id": "fr_elementary_work_055"
     },
     {
         "word": "préparer",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📝",
         "form": "verb",
         "group": "er",
@@ -2687,13 +2687,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "préparant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/pʁepaʁe/",
         "id": "fr_elementary_work_056"
     },
     {
         "word": "échouer",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "describing",
         "emoji": "❌",
         "form": "verb",
         "group": "er",
@@ -2712,13 +2712,13 @@ const data = [
         "auxiliary": "avoir",
         "v4": "échouant",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_work_057"
+        "transcription": "/eʃwe/",
+        "id": "fr_elementary_describing_068"
     },
     {
         "word": "réussir",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🏆",
         "form": "verb",
         "group": "ir",
@@ -2737,7 +2737,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "réussissant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁeysiʁ/",
         "id": "fr_elementary_work_058"
     },
     {
@@ -2761,13 +2761,13 @@ const data = [
         "v3": "été d'accord",
         "auxiliary": "avoir",
         "lang": "fr",
-        "transcription": "",
-        "id": "fr_elementary_describing_067"
+        "transcription": "/ɛtʁ d akɔʁ/",
+        "id": "fr_elementary_describing_069"
     },
     {
         "word": "remplacer",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🔄",
         "form": "verb",
         "group": "er",
@@ -2787,15 +2787,15 @@ const data = [
         ],
         "v3": "remplacé",
         "auxiliary": "avoir",
-        "v4": "remplacant",
+        "v4": "remplaçant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʁɑ̃plase/",
         "id": "fr_elementary_work_059"
     },
     {
         "word": "chercher",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🔍",
         "form": "verb",
         "group": "er",
@@ -2814,7 +2814,7 @@ const data = [
         "auxiliary": "avoir",
         "v4": "cherchant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/ʃɛʁʃe/",
         "id": "fr_elementary_work_060"
     },
     {
@@ -2840,7 +2840,7 @@ const data = [
         "reflexive": true,
         "v4": "se déconnectant",
         "lang": "fr",
-        "transcription": "",
+        "transcription": "/sə dekɔnɛkte/",
         "id": "fr_elementary_technology_010"
     }
 ];

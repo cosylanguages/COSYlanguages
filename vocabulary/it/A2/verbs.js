@@ -4,7 +4,7 @@ const data = [
     {
         "word": "lavarsi i denti",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "body",
         "emoji": "🪥",
         "form": "verb",
         "group": "are",
@@ -21,15 +21,15 @@ const data = [
         ],
         "v3": "lavato i denti",
         "auxiliary": "essere",
-        "v4": "lavarsi i deando",
+        "v4": "lavandosi i denti",
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_furniture_007"
+        "transcription": "/laˈvarsi i ˈdɛnti/",
+        "id": "it_elementary_body_013"
     },
     {
         "word": "farsi la doccia",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "body",
         "emoji": "🚿",
         "form": "verb",
         "group": "are",
@@ -46,10 +46,10 @@ const data = [
         ],
         "v3": "fatto la doccia",
         "auxiliary": "essere",
-        "v4": "farsi la docando",
+        "v4": "facendosi la doccia",
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_furniture_008"
+        "transcription": "/ˈfarsi la ˈdottʃa/",
+        "id": "it_elementary_body_014"
     },
     {
         "word": "sembrare",
@@ -73,7 +73,7 @@ const data = [
         "auxiliary": "essere",
         "v4": "sembrando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/semˈbrare/",
         "id": "it_elementary_people_042"
     },
     {
@@ -98,7 +98,7 @@ const data = [
         "auxiliary": "essere",
         "v4": "diventando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/divenˈtare/",
         "id": "it_elementary_people_043"
     },
     {
@@ -123,7 +123,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "credendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈkredere/",
         "id": "it_elementary_describing_036"
     },
     {
@@ -151,7 +151,7 @@ const data = [
         "auxiliary": "essere",
         "v4": "succedendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/sutˈtʃɛdere/",
         "id": "it_elementary_describing_037"
     },
     {
@@ -175,7 +175,7 @@ const data = [
         "v3": "incluso",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/inˈkludere/",
         "id": "it_elementary_describing_038"
     },
     {
@@ -200,7 +200,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "continuando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/kontinuˈare/",
         "id": "it_elementary_describing_039"
     },
     {
@@ -225,7 +225,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "impostando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/imposˈtare/",
         "id": "it_elementary_describing_040"
     },
     {
@@ -250,7 +250,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "guidando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ɡwiˈdare/",
         "id": "it_elementary_people_044"
     },
     {
@@ -275,7 +275,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "seguendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/seˈɡwire/",
         "id": "it_elementary_describing_041"
     },
     {
@@ -300,7 +300,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "creando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/kreˈare/",
         "id": "it_elementary_social_042"
     },
     {
@@ -327,7 +327,7 @@ const data = [
         "v3": "permesso",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/perˈmettere/",
         "id": "it_elementary_people_045"
     },
     {
@@ -351,7 +351,7 @@ const data = [
         "v3": "cresciuto",
         "auxiliary": "essere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈkreʃʃere/",
         "id": "it_elementary_environment_008"
     },
     {
@@ -376,7 +376,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "offrendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ofˈfrire/",
         "id": "it_elementary_people_046"
     },
     {
@@ -401,7 +401,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "considerando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/konsideˈrare/",
         "id": "it_elementary_describing_042"
     },
     {
@@ -425,7 +425,7 @@ const data = [
         "v3": "apparso",
         "auxiliary": "essere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/appaˈrire/",
         "id": "it_elementary_people_047"
     },
     {
@@ -450,7 +450,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "servendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/serˈvire/",
         "id": "it_elementary_food_drink_040"
     },
     {
@@ -474,9 +474,9 @@ const data = [
         "v3": "aspettato",
         "auxiliary": "essere",
         "reflexive": true,
-        "v4": "aspettaando",
+        "v4": "aspettandosi",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/aspetˈtarsi/",
         "id": "it_elementary_describing_043"
     },
     {
@@ -501,7 +501,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "costruendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/kostruˈire/",
         "id": "it_elementary_describing_044"
     },
     {
@@ -525,7 +525,7 @@ const data = [
         "v3": "raggiunto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/radˈdʒundʒere/",
         "id": "it_elementary_travel_031"
     },
     {
@@ -549,7 +549,7 @@ const data = [
         "v3": "ucciso",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/utˈtʃidere/",
         "id": "it_elementary_psychology_001"
     },
     {
@@ -573,7 +573,7 @@ const data = [
         "v3": "rimasto",
         "auxiliary": "essere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/rimaˈnere/",
         "id": "it_elementary_describing_045"
     },
     {
@@ -598,7 +598,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "suggerendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/suddʒeˈrire/",
         "id": "it_elementary_describing_046"
     },
     {
@@ -626,7 +626,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "alzando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/alˈtsare/",
         "id": "it_elementary_describing_047"
     },
     {
@@ -650,7 +650,7 @@ const data = [
         "v3": "richiesto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/riˈkjɛdere/",
         "id": "it_elementary_describing_048"
     },
     {
@@ -675,7 +675,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "riferendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/rifeˈrire/",
         "id": "it_elementary_work_021"
     },
     {
@@ -700,7 +700,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "spiegando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/spjeˈɡare/",
         "id": "it_elementary_work_022"
     },
     {
@@ -725,7 +725,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "sviluppando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/zvilupˈpare/",
         "id": "it_elementary_work_023"
     },
     {
@@ -752,7 +752,7 @@ const data = [
         "v3": "andato in pensione",
         "auxiliary": "essere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/anˈdare in penˈsjone/",
         "id": "it_elementary_work_024"
     },
     {
@@ -780,7 +780,7 @@ const data = [
         "auxiliary": "essere",
         "reflexive": true,
         "lang": "it",
-        "transcription": "",
+        "transcription": "/perˈmettersi/",
         "id": "it_elementary_numbers_015"
     },
     {
@@ -808,7 +808,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "riciclando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ritʃiˈklare/",
         "id": "it_elementary_environment_009"
     },
     {
@@ -833,7 +833,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "colpendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/kolˈpire/",
         "id": "it_elementary_social_043"
     },
     {
@@ -857,7 +857,7 @@ const data = [
         "v3": "prodotto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/proˈdurre/",
         "id": "it_elementary_work_025"
     },
     {
@@ -869,7 +869,7 @@ const data = [
         "group": "are",
         "classification": "regular",
         "aspect": "action",
-        "subtext": "affrontare un problema / affrontare la realtà",
+        "subtext": "affrontare un problem / affrontare la realtà",
         "definitions": [
             {
                 "text": "Gestire una situazione difficile.",
@@ -882,7 +882,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "affrontando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/affronˈtare/",
         "id": "it_elementary_people_048"
     },
     {
@@ -907,7 +907,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "coprendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/koˈprire/",
         "id": "it_elementary_describing_049"
     },
     {
@@ -931,7 +931,7 @@ const data = [
         "v3": "descritto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/deˈskrivere/",
         "id": "it_elementary_work_026"
     },
     {
@@ -959,7 +959,7 @@ const data = [
             "origin_word": "prehendere"
         },
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈprɛndere/",
         "id": "it_elementary_social_044"
     },
     {
@@ -986,7 +986,7 @@ const data = [
         "v3": "fatto domanda per",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈfare doˈmanda per/",
         "id": "it_elementary_work_027"
     },
     {
@@ -1010,7 +1010,7 @@ const data = [
         "v3": "assunto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/asˈsumere/",
         "id": "it_elementary_work_028"
     },
     {
@@ -1038,7 +1038,7 @@ const data = [
         "v3": "promosso",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/proˈmwɔvere/",
         "id": "it_elementary_work_029"
     },
     {
@@ -1066,7 +1066,7 @@ const data = [
         "auxiliary": "essere",
         "reflexive": true,
         "lang": "it",
-        "transcription": "",
+        "transcription": "/diˈmettersi/",
         "id": "it_elementary_work_030"
     },
     {
@@ -1094,7 +1094,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "licenziando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/litʃenˈtsjare/",
         "id": "it_elementary_work_031"
     },
     {
@@ -1119,7 +1119,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "delegando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/deleˈɡare/",
         "id": "it_elementary_work_032"
     },
     {
@@ -1144,7 +1144,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "negoziando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/neɡotˈtsjare/",
         "id": "it_elementary_work_033"
     },
     {
@@ -1169,7 +1169,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "valutando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/valuˈtare/",
         "id": "it_elementary_work_034"
     },
     {
@@ -1194,7 +1194,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "collaborando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/kollaboˈrare/",
         "id": "it_elementary_work_035"
     },
     {
@@ -1219,7 +1219,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "pianificando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/pjanifiˈkare/",
         "id": "it_elementary_work_036"
     },
     {
@@ -1244,7 +1244,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "investendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/invesˈtire/",
         "id": "it_elementary_numbers_016"
     },
     {
@@ -1272,7 +1272,7 @@ const data = [
         "v3": "preso in prestito",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈprɛndere in ˈprɛstito/",
         "id": "it_elementary_numbers_017"
     },
     {
@@ -1297,7 +1297,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "prestando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/presˈtare/",
         "id": "it_elementary_numbers_018"
     },
     {
@@ -1325,7 +1325,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "preventivando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/preventiˈvare/",
         "id": "it_elementary_numbers_019"
     },
     {
@@ -1350,7 +1350,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "prelevando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/preleˈvare/",
         "id": "it_elementary_numbers_020"
     },
     {
@@ -1378,7 +1378,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "trasferendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/trasfeˈrire/",
         "id": "it_elementary_numbers_021"
     },
     {
@@ -1403,7 +1403,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "addebitando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/addebiˈtare/",
         "id": "it_elementary_numbers_022"
     },
     {
@@ -1427,7 +1427,7 @@ const data = [
         "v3": "richiesto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/riˈkjɛdere/",
         "id": "it_elementary_numbers_023"
     },
     {
@@ -1452,7 +1452,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "litigando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/litiˈɡare/",
         "id": "it_elementary_describing_050"
     },
     {
@@ -1476,9 +1476,9 @@ const data = [
         "v3": "fidato",
         "auxiliary": "essere",
         "reflexive": true,
-        "v4": "fidaando",
+        "v4": "fidandosi",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/fiˈdarsi/",
         "id": "it_elementary_describing_051"
     },
     {
@@ -1502,7 +1502,7 @@ const data = [
         "v3": "sostenuto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/sosteˈnere/",
         "id": "it_elementary_describing_052"
     },
     {
@@ -1530,7 +1530,7 @@ const data = [
         "v3": "stato in disaccordo",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/non ˈɛssere d akˈkordo/",
         "id": "it_elementary_describing_053"
     },
     {
@@ -1554,9 +1554,9 @@ const data = [
         "v3": "scusato",
         "auxiliary": "essere",
         "reflexive": true,
-        "v4": "scusaando",
+        "v4": "scusandosi",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/skuˈtsarsi/",
         "id": "it_elementary_describing_054"
     },
     {
@@ -1581,7 +1581,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "perdonando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/perdoˈnare/",
         "id": "it_elementary_describing_055"
     },
     {
@@ -1610,13 +1610,13 @@ const data = [
         "auxiliary": "essere",
         "reflexive": true,
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈʃɛndere a komproˈmessi/",
         "id": "it_elementary_describing_056"
     },
     {
         "word": "diagnosticare",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "health_medicine",
         "emoji": "🩺",
         "form": "verb",
         "group": "are",
@@ -1635,13 +1635,13 @@ const data = [
         "auxiliary": "avere",
         "v4": "diagnosticando",
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_food_drink_041"
+        "transcription": "/djanostiˈkare/",
+        "id": "it_elementary_health_medicine_004"
     },
     {
         "word": "trattare",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "health_medicine",
         "emoji": "🩹",
         "form": "verb",
         "group": "are",
@@ -1660,13 +1660,13 @@ const data = [
         "auxiliary": "avere",
         "v4": "trattando",
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_food_drink_042"
+        "transcription": "/tratˈtare/",
+        "id": "it_elementary_health_medicine_005"
     },
     {
         "word": "prevenire",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "health_medicine",
         "emoji": "🛡️",
         "form": "verb",
         "group": "ire",
@@ -1687,8 +1687,8 @@ const data = [
         "v3": "prevenuto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_food_drink_043"
+        "transcription": "/preveˈnire/",
+        "id": "it_elementary_health_medicine_006"
     },
     {
         "word": "soffrire",
@@ -1711,7 +1711,7 @@ const data = [
         "v3": "sofferto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/sofˈfrire/",
         "id": "it_elementary_describing_057"
     },
     {
@@ -1736,7 +1736,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "raccomandando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/rakkomandˈare/",
         "id": "it_elementary_describing_058"
     },
     {
@@ -1761,13 +1761,13 @@ const data = [
         "auxiliary": "avere",
         "v4": "migliorando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/miʎoˈrare/",
         "id": "it_elementary_food_drink_044"
     },
     {
         "word": "affittare",
         "level": "elementary",
-        "theme": "describing",
+        "theme": "places",
         "emoji": "🏠",
         "form": "verb",
         "group": "are",
@@ -1786,8 +1786,8 @@ const data = [
         "auxiliary": "avere",
         "v4": "affittando",
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_describing_059"
+        "transcription": "/affitˈtare/",
+        "id": "it_elementary_places_027"
     },
     {
         "word": "possedere",
@@ -1811,7 +1811,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "possedendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/posˈsedere/",
         "id": "it_elementary_describing_060"
     },
     {
@@ -1839,13 +1839,13 @@ const data = [
         "auxiliary": "avere",
         "v4": "riparando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ripaˈrare/",
         "id": "it_elementary_describing_061"
     },
     {
         "word": "traslocare",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "📦",
         "form": "verb",
         "group": "are",
@@ -1868,8 +1868,8 @@ const data = [
         "auxiliary": "avere",
         "v4": "traslocando",
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_furniture_009"
+        "transcription": "/trasloˈkare/",
+        "id": "it_elementary_places_028"
     },
     {
         "word": "decorare",
@@ -1896,7 +1896,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "decorando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/dekoˈrare/",
         "id": "it_elementary_furniture_010"
     },
     {
@@ -1921,7 +1921,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "avviando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/avviˈare/",
         "id": "it_elementary_work_037"
     },
     {
@@ -1945,7 +1945,7 @@ const data = [
         "v3": "scoperto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/skoˈprire/",
         "id": "it_elementary_describing_062"
     },
     {
@@ -1970,7 +1970,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "continuando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/kontinuˈare/",
         "id": "it_elementary_work_038"
     },
     {
@@ -1998,7 +1998,7 @@ const data = [
         "auxiliary": "essere",
         "reflexive": true,
         "lang": "it",
-        "transcription": "",
+        "transcription": "/arˈrendersi/",
         "id": "it_elementary_work_039"
     },
     {
@@ -2022,7 +2022,7 @@ const data = [
         "v3": "risolto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/riˈzɔlvere/",
         "id": "it_elementary_work_040"
     },
     {
@@ -2049,7 +2049,7 @@ const data = [
         "v3": "preso cura di",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈprɛndersi ˈkura di/",
         "id": "it_elementary_people_049"
     },
     {
@@ -2073,7 +2073,7 @@ const data = [
         "v3": "ridotto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/riˈdurre/",
         "id": "it_elementary_food_drink_045"
     },
     {
@@ -2101,7 +2101,7 @@ const data = [
         "v3": "assunto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/asˈsumere/",
         "id": "it_elementary_work_041"
     },
     {
@@ -2126,7 +2126,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "rifiutando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/rifjuˈtare/",
         "id": "it_elementary_work_042"
     },
     {
@@ -2151,7 +2151,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "rimandando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/rimanˈdare/",
         "id": "it_elementary_work_043"
     },
     {
@@ -2187,7 +2187,7 @@ const data = [
             }
         },
         "lang": "it",
-        "transcription": "",
+        "transcription": "/doˈvere/",
         "id": "it_elementary_numbers_024"
     },
     {
@@ -2212,7 +2212,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "invitando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/inviˈtare/",
         "id": "it_elementary_describing_063"
     },
     {
@@ -2237,7 +2237,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "confermando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/konferˈmare/",
         "id": "it_elementary_describing_064"
     },
     {
@@ -2255,7 +2255,7 @@ const data = [
         ],
         "definitions": [
             {
-                "text": "Mersi in contatto con qualcuno.",
+                "text": "Mettersi in contatto con qualcuno.",
                 "examples": [
                     "Ti contatterò entro la fine della settimana con una risposta."
                 ]
@@ -2265,7 +2265,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "contattando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/kontatˈtare/",
         "id": "it_elementary_technology_010"
     },
     {
@@ -2292,9 +2292,9 @@ const data = [
         "v3": "lamentato",
         "auxiliary": "essere",
         "reflexive": true,
-        "v4": "lamentaando",
+        "v4": "lamentandosi",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/lamenˈtarsi/",
         "id": "it_elementary_describing_065"
     },
     {
@@ -2318,7 +2318,7 @@ const data = [
         "v3": "discusso",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/diˈskutere/",
         "id": "it_elementary_describing_066"
     },
     {
@@ -2343,7 +2343,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "presentando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/presenˈtare/",
         "id": "it_elementary_work_044"
     },
     {
@@ -2368,7 +2368,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "accettando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/attetˈtare/",
         "id": "it_elementary_work_045"
     },
     {
@@ -2393,7 +2393,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "rifiutando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/rifjuˈtare/",
         "id": "it_elementary_work_046"
     },
     {
@@ -2420,7 +2420,7 @@ const data = [
         "v3": "perso peso",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈpɛrdere ˈpezo/",
         "id": "it_elementary_food_drink_046"
     },
     {
@@ -2445,7 +2445,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "aumentando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/aumenˈtare/",
         "id": "it_elementary_work_047"
     },
     {
@@ -2469,7 +2469,7 @@ const data = [
         "v3": "ridotto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/riˈdurre/",
         "id": "it_elementary_work_048"
     },
     {
@@ -2497,7 +2497,7 @@ const data = [
         "v3": "migliorato le competenze",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/miʎoˈrare le kompeˈtɛntse/",
         "id": "it_elementary_work_049"
     },
     {
@@ -2522,7 +2522,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "fornendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/forˈnire/",
         "id": "it_elementary_work_050"
     },
     {
@@ -2549,7 +2549,7 @@ const data = [
         "v3": "risolto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/riˈzɔlvere/",
         "id": "it_elementary_work_051"
     },
     {
@@ -2574,16 +2574,16 @@ const data = [
         "auxiliary": "avere",
         "v4": "condividendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/kondiviˈdere/",
         "id": "it_elementary_work_052"
     },
     {
         "word": "unirsi",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "social",
         "emoji": "➕",
         "form": "verb",
-        "group": "are",
+        "group": "ire",
         "classification": "regular",
         "aspect": "action",
         "subtext": "unirsi a una squadra",
@@ -2601,10 +2601,10 @@ const data = [
         "v3": "unito",
         "auxiliary": "essere",
         "reflexive": true,
-        "v4": "uniando",
+        "v4": "unendosi",
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_work_053"
+        "transcription": "/uˈnirsi/",
+        "id": "it_elementary_social_045"
     },
     {
         "word": "ricevere",
@@ -2628,13 +2628,13 @@ const data = [
         "auxiliary": "avere",
         "v4": "ricevendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/riˈtʃɛvere/",
         "id": "it_elementary_work_054"
     },
     {
         "word": "contenere",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "describing",
         "emoji": "📦",
         "form": "verb",
         "group": "ere",
@@ -2655,8 +2655,8 @@ const data = [
         "v3": "contenuto",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_work_055"
+        "transcription": "/konteˈnere/",
+        "id": "it_elementary_describing_067"
     },
     {
         "word": "pianificare",
@@ -2680,7 +2680,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "pianificando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/pjanifiˈkare/",
         "id": "it_elementary_work_056"
     },
     {
@@ -2705,13 +2705,13 @@ const data = [
         "auxiliary": "avere",
         "v4": "preparando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/prepaˈrare/",
         "id": "it_elementary_work_057"
     },
     {
         "word": "fallire",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "describing",
         "emoji": "❌",
         "form": "verb",
         "group": "ire_isco",
@@ -2733,8 +2733,8 @@ const data = [
         "auxiliary": "avere",
         "v4": "fallendo",
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_work_058"
+        "transcription": "/falˈlire/",
+        "id": "it_elementary_describing_068"
     },
     {
         "word": "avere successo",
@@ -2760,7 +2760,7 @@ const data = [
         "v3": "avuto successo",
         "auxiliary": "avere",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/aˈvere sutˈtʃɛsso/",
         "id": "it_elementary_work_059"
     },
     {
@@ -2787,8 +2787,8 @@ const data = [
         "v3": "stato d'accordo",
         "auxiliary": "essere",
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_describing_067"
+        "transcription": "/ˈɛssere d akˈkordo/",
+        "id": "it_elementary_describing_069"
     },
     {
         "word": "sostituire",
@@ -2815,7 +2815,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "sostituendo",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/sostituˈire/",
         "id": "it_elementary_work_060"
     },
     {
@@ -2840,7 +2840,7 @@ const data = [
         "auxiliary": "avere",
         "v4": "cercando",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/tʃerˈkare/",
         "id": "it_elementary_work_061"
     },
     {
@@ -2864,9 +2864,9 @@ const data = [
         "v3": "disconnesso",
         "auxiliary": "essere",
         "reflexive": true,
-        "v4": "disconnetteando",
+        "v4": "disconnettendosi",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/diskonˈnɛttersi/",
         "id": "it_elementary_technology_011"
     }
 ];
