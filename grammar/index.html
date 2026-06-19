@@ -74,9 +74,21 @@ async function loadGrammarData(lang) {
   const promises = levels.map(lv => {
     return new Promise((resolve) => {
       const s = document.createElement("script");
-      s.src = `../js/data/${family}/${lv}/verbs.js`;
+      // Prioritize vocabulary directory for corrected A2 data
+      if (lv === 'elementary') {
+          s.src = `../vocabulary/${lang}/A2/verbs.js`;
+      } else {
+          s.src = `../js/data/${family}/${lv}/verbs.js`;
+      }
       s.onload = () => resolve();
-      s.onerror = () => resolve(); // Resolve anyway to not block
+      s.onerror = () => {
+          // Fallback to js/data if vocabulary/ fails
+          const s2 = document.createElement("script");
+          s2.src = `../js/data/${family}/${lv}/verbs.js`;
+          s2.onload = () => resolve();
+          s2.onerror = () => resolve();
+          document.head.appendChild(s2);
+      };
       document.head.appendChild(s);
     });
   });
@@ -94,9 +106,19 @@ async function loadNounData(lang) {
     files.forEach(f => {
       promises.push(new Promise((resolve) => {
         const s = document.createElement("script");
-        s.src = `../js/data/${family}/${lv}/${f}`;
+        if (lv === 'elementary' && f === 'vocabulary.js') {
+            s.src = `../vocabulary/${lang}/A2/vocabulary.js`;
+        } else {
+            s.src = `../js/data/${family}/${lv}/${f}`;
+        }
         s.onload = () => resolve();
-        s.onerror = () => resolve();
+        s.onerror = () => {
+            const s2 = document.createElement("script");
+            s2.src = `../js/data/${family}/${lv}/${f}`;
+            s2.onload = () => resolve();
+            s2.onerror = () => resolve();
+            document.head.appendChild(s2);
+        };
         document.head.appendChild(s);
       }));
     });

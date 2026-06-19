@@ -4,7 +4,7 @@
     {
         "word": "сад",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🌳",
         "form": "noun",
         "classification": "regular",
@@ -16,7 +16,7 @@
         ],
         "countability": "countable",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/sat/",
         "id": "ru_elementary_places_042"
     },
     {
@@ -44,13 +44,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/xuˈdoʐnʲik/",
         "id": "ru_elementary_art_culture_004"
     },
     {
         "word": "повар",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "jobs",
         "gender": "masculine",
         "emoji": "👨‍🍳",
         "form": "noun",
@@ -72,8 +72,8 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
-        "id": "ru_elementary_food_drink_023"
+        "transcription": "/ˈpovər/",
+        "id": "ru_elementary_jobs_001"
     },
     {
         "word": "блины",
@@ -85,7 +85,7 @@
         "classification": "regular",
         "plural": "блины",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/blʲɪˈnɨ/",
         "definitions": [
             {
                 "text": "блины",
@@ -99,12 +99,12 @@
         "level": "elementary",
         "theme": "food_drink",
         "gender": "plural",
+        "emoji": "🥧",
         "form": "noun",
         "classification": "regular",
         "plural": "пирожки",
         "lang": "ru",
-        "transcription": "",
-        "emoji": "❓",
+        "transcription": "/pʲɪrɐˈʐkʲi/",
         "definitions": [
             {
                 "text": "пирожки",
@@ -123,7 +123,7 @@
         "classification": "regular",
         "plural": "сыры",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/sɨr/",
         "definitions": [
             {
                 "text": "сыр",
@@ -142,7 +142,7 @@
         "classification": "regular",
         "plural": "рис",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/rʲis/",
         "definitions": [
             {
                 "text": "рис",
@@ -161,7 +161,7 @@
         "classification": "regular",
         "plural": "помидоры",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/pəmʲɪˈdor/",
         "definitions": [
             {
                 "text": "помидор",
@@ -180,7 +180,7 @@
         "classification": "regular",
         "plural": "картофель",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/kɐrˈtofʲɪlʲ/",
         "definitions": [
             {
                 "text": "картофель",
@@ -200,7 +200,7 @@
         "classification": "regular",
         "plural": "вино",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/vʲɪˈno/",
         "definitions": [
             {
                 "text": "вино",
@@ -220,7 +220,7 @@
         "classification": "regular",
         "plural": "пиво",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ˈpʲivə/",
         "definitions": [
             {
                 "text": "пиво",
@@ -233,6 +233,7 @@
         "word": "морс",
         "level": "elementary",
         "theme": "food_drink",
+        "emoji": "🥤",
         "form": "noun",
         "classification": "regular",
         "plural": "морсы",
@@ -252,14 +253,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
-        "emoji": "❓",
+        "transcription": "/mors/",
         "id": "ru_elementary_food_drink_032"
     },
     {
         "word": "больница",
         "level": "elementary",
-        "theme": "health_medicine",
+        "theme": "places",
         "gender": "feminine",
         "emoji": "🏥",
         "form": "noun",
@@ -281,13 +281,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
-        "id": "ru_elementary_health_medicine_001"
+        "transcription": "/bɐlʲˈnʲitsə/",
+        "id": "ru_elementary_places_043"
     },
     {
         "word": "кинотеатр",
         "level": "elementary",
-        "theme": "art_culture",
+        "theme": "places",
         "gender": "masculine",
         "emoji": "🎬",
         "form": "noun",
@@ -309,13 +309,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
-        "id": "ru_elementary_art_culture_005"
+        "transcription": "/kʲɪnətʲɪˈatru/",
+        "id": "ru_elementary_places_044"
     },
     {
         "word": "ресторан",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "places",
         "gender": "masculine",
         "emoji": "🍴",
         "form": "noun",
@@ -331,8 +331,8 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
-        "id": "ru_elementary_food_drink_033"
+        "transcription": "/rʲɪstɐˈran/",
+        "id": "ru_elementary_places_045"
     },
     {
         "word": "супермаркет",
@@ -359,65 +359,65 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/supʲɪrˈmarkʲɪt/",
         "id": "ru_elementary_shopping_002"
     },
     {
         "word": "платье",
         "level": "elementary",
-        "theme": "shopping",
+        "theme": "clothes",
         "gender": "neuter",
         "emoji": "👗",
         "form": "noun",
         "classification": "regular",
         "plural": "платья",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ˈplatʲjə/",
         "definitions": [
             {
                 "text": "платье",
                 "examples": []
             }
         ],
-        "id": "ru_elementary_shopping_003"
+        "id": "ru_elementary_clothes_004"
     },
     {
         "word": "куртка",
         "level": "elementary",
-        "theme": "shopping",
+        "theme": "clothes",
         "gender": "feminine",
         "emoji": "🧥",
         "form": "noun",
         "classification": "regular",
         "plural": "куртки",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ˈkurtkə/",
         "definitions": [
             {
                 "text": "куртка",
                 "examples": []
             }
         ],
-        "id": "ru_elementary_shopping_004"
+        "id": "ru_elementary_clothes_005"
     },
     {
         "word": "юбка",
         "level": "elementary",
-        "theme": "shopping",
+        "theme": "clothes",
         "gender": "feminine",
         "emoji": "👗",
         "form": "noun",
         "classification": "regular",
         "plural": "юбки",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ˈjupkə/",
         "definitions": [
             {
                 "text": "юбка",
                 "examples": []
             }
         ],
-        "id": "ru_elementary_shopping_005"
+        "id": "ru_elementary_clothes_006"
     },
     {
         "word": "диван",
@@ -429,7 +429,7 @@
         "classification": "regular",
         "plural": "диваны",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/dʲɪˈvan/",
         "definitions": [
             {
                 "text": "диван",
@@ -448,7 +448,7 @@
         "classification": "regular",
         "plural": "лампы",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ˈlampə/",
         "definitions": [
             {
                 "text": "лампа",
@@ -467,7 +467,7 @@
         "classification": "regular",
         "plural": "письменные столы",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ˈpʲisʲmʲɪnnɨj stol/",
         "definitions": [
             {
                 "text": "письменный стол",
@@ -477,49 +477,15 @@
         "id": "ru_elementary_furniture_003"
     },
     {
-        "word": "чистить зубы",
-        "level": "elementary",
-        "theme": "furniture",
-        "emoji": "🪥",
-        "form": "verb",
-        "classification": "regular",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "чистить зубы",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_furniture_004"
-    },
-    {
-        "word": "принимать душ",
-        "level": "elementary",
-        "theme": "furniture",
-        "emoji": "🚿",
-        "form": "verb",
-        "classification": "regular",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "принимать душ",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_furniture_005"
-    },
-    {
         "word": "часы",
         "level": "elementary",
         "theme": "clothes",
+        "emoji": "⌚",
         "form": "noun",
         "classification": "regular",
         "plural": "часы",
         "lang": "ru",
-        "transcription": "",
-        "emoji": "❓",
+        "transcription": "/tɕɪˈsɨ/",
         "definitions": [
             {
                 "text": "часы",
@@ -547,7 +513,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/kəʂɨˈlʲok/",
         "id": "ru_elementary_clothes_002"
     },
     {
@@ -568,7 +534,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ɐˈtɕkʲi/",
         "id": "ru_elementary_clothes_003"
     },
     {
@@ -590,7 +556,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/lʲef/",
         "id": "ru_elementary_animals_004"
     },
     {
@@ -603,7 +569,7 @@
         "classification": "regular",
         "plural": "тигры",
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/tʲiɡr/",
         "definitions": [
             {
                 "text": "тигр",
@@ -615,14 +581,14 @@
     {
         "word": "плечо",
         "level": "elementary",
-        "theme": "health_medicine",
+        "theme": "body",
         "gender": "neuter",
+        "emoji": "💪",
         "form": "noun",
         "classification": "regular",
         "plural": "плечи",
         "lang": "ru",
-        "transcription": "",
-        "emoji": "❓",
+        "transcription": "/plʲɪˈtɕo/",
         "definitions": [
             {
                 "text": "плечо",
@@ -634,7 +600,7 @@
     {
         "word": "университет",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "places",
         "gender": "masculine",
         "emoji": "🎓",
         "form": "noun",
@@ -650,8 +616,8 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
-        "id": "ru_elementary_work_041"
+        "transcription": "/unʲɪvʲɪrsʲɪˈtʲet/",
+        "id": "ru_elementary_places_046"
     },
     {
         "word": "местная кухня",
@@ -677,17 +643,15 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ˈmʲesnəjə ˈkuxnʲə/",
         "id": "ru_elementary_food_drink_034"
     },
     {
         "word": "море",
         "level": "elementary",
-        "theme": "nature",
+        "theme": "places",
         "gender": "neuter",
         "baseWord": "море",
-        "numberPlural": "много море",
-        "answer": "много морей",
         "emoji": "🌊",
         "form": "noun",
         "classification": "regular",
@@ -697,227 +661,19 @@
             "origin_word": "more"
         },
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ˈmorʲɪ/",
         "definitions": [
             {
                 "text": "море",
                 "examples": []
             }
         ],
-        "id": "ru_elementary_nature_002"
-    },
-    {
-        "word": "казаться",
-        "level": "elementary",
-        "theme": "people",
-        "emoji": "🤔",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "казаться",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_people_025"
-    },
-    {
-        "word": "становиться",
-        "level": "elementary",
-        "theme": "people",
-        "emoji": "🦋",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "становиться",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_people_026"
-    },
-    {
-        "word": "двигать",
-        "level": "elementary",
-        "theme": "furniture",
-        "emoji": "📦",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "двигать",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_furniture_006"
-    },
-    {
-        "word": "верить",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "🙏",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "верить",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_describing_001"
-    },
-    {
-        "word": "случаться",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "⚡",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "случаться",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_describing_002"
-    },
-    {
-        "word": "включать",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "➕",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "включать",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_describing_003"
-    },
-    {
-        "word": "продолжать",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "➡️",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "продолжать",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_describing_004"
-    },
-    {
-        "word": "устанавливать",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "⚙️",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "устанавливать",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_describing_005"
-    },
-    {
-        "word": "вести",
-        "level": "elementary",
-        "theme": "jobs",
-        "emoji": "👑",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "вести",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_work_042"
-    },
-    {
-        "word": "следовать",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "👣",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "следовать",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_describing_006"
-    },
-    {
-        "word": "создавать",
-        "level": "elementary",
-        "theme": "social",
-        "emoji": "✨",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "создавать",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_social_031"
-    },
-    {
-        "word": "позволять",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "✅",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "позволять",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_describing_007"
-    },
-    {
-        "word": "расти",
-        "level": "elementary",
-        "theme": "nature",
-        "emoji": "🌱",
-        "form": "verb",
-        "lang": "ru",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "расти",
-                "examples": []
-            }
-        ],
-        "id": "ru_elementary_environment_006"
+        "id": "ru_elementary_places_047"
     },
     {
         "word": "переработка",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "⏰",
         "gender": "feminine",
         "form": "noun",
@@ -931,13 +687,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/pʲɪrʲɪˈrabətkə/",
         "id": "ru_elementary_work_043"
     },
     {
         "word": "повышение",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📈",
         "gender": "neuter",
         "form": "noun",
@@ -952,13 +708,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/pəvɨˈʂenʲɪjə/",
         "id": "ru_elementary_work_044"
     },
     {
         "word": "собеседование",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🤝",
         "gender": "neuter",
         "form": "noun",
@@ -973,13 +729,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/səbʲɪˈsʲedəvənʲɪjə/",
         "id": "ru_elementary_work_045"
     },
     {
         "word": "контракт",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📄",
         "gender": "masculine",
         "form": "noun",
@@ -994,13 +750,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/kɐnˈtrakt/",
         "id": "ru_elementary_work_046"
     },
     {
         "word": "дедлайн",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "⏳",
         "gender": "masculine",
         "form": "noun",
@@ -1015,13 +771,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/dɛdˈlajn/",
         "id": "ru_elementary_work_047"
     },
     {
         "word": "опыт",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🧠",
         "gender": "masculine",
         "form": "noun",
@@ -1035,7 +791,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ˈopɨt/",
         "id": "ru_elementary_work_048"
     },
     {
@@ -1056,7 +812,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ipɐˈtʲekə/",
         "id": "ru_elementary_numbers_001"
     },
     {
@@ -1077,7 +833,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/krʲɪˈdʲit/",
         "id": "ru_elementary_numbers_002"
     },
     {
@@ -1098,7 +854,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ɕːot/",
         "id": "ru_elementary_numbers_003"
     },
     {
@@ -1119,7 +875,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/dok/",
         "id": "ru_elementary_numbers_004"
     },
     {
@@ -1140,7 +896,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/ˈbankəfskʲɪj ɕːot/",
         "id": "ru_elementary_numbers_005"
     },
     {
@@ -1161,7 +917,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/bʲʉˈdʐɛt/",
         "id": "ru_elementary_numbers_006"
     },
     {
@@ -1182,7 +938,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/dʲɪˈetə/",
         "id": "ru_elementary_food_drink_035"
     },
     {
@@ -1203,13 +959,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/prʲɪˈjom/",
         "id": "ru_elementary_health_medicine_002"
     },
     {
         "word": "лишний вес",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "health_medicine",
         "emoji": "⚖️",
         "gender": "masculine",
         "form": "noun",
@@ -1223,13 +979,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
-        "id": "ru_elementary_food_drink_036"
+        "transcription": "/ˈlʲiʂnʲɪj vʲes/",
+        "id": "ru_elementary_health_medicine_003"
     },
     {
         "word": "витамин",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "health_medicine",
         "emoji": "💊",
         "gender": "masculine",
         "form": "noun",
@@ -1244,8 +1000,8 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
-        "id": "ru_elementary_food_drink_037"
+        "transcription": "/vʲɪtɐˈmʲin/",
+        "id": "ru_elementary_health_medicine_004"
     },
     {
         "word": "боль",
@@ -1265,8 +1021,8 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
-        "id": "ru_elementary_health_medicine_003"
+        "transcription": "/bolʲ/",
+        "id": "ru_elementary_health_medicine_005"
     },
     {
         "word": "поддержка",
@@ -1285,7 +1041,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/pɐˈdʲːerʐkə/",
         "id": "ru_elementary_people_027"
     },
     {
@@ -1305,7 +1061,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/dɐˈvʲerʲɪjə/",
         "id": "ru_elementary_people_028"
     },
     {
@@ -1326,7 +1082,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/kəmprɐˈmʲis/",
         "id": "ru_elementary_people_029"
     },
     {
@@ -1347,7 +1103,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/putʲɪˈʂɛstvʲɪjə/",
         "id": "ru_elementary_travel_028"
     },
     {
@@ -1365,7 +1121,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/zə ɡrɐˈnʲitsʊ/",
         "id": "ru_elementary_travel_029"
     },
     {
@@ -1386,7 +1142,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/punkt nəznɐˈtɕenʲɪjə/",
         "id": "ru_elementary_travel_030"
     },
     {
@@ -1407,7 +1163,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/rʲejs/",
         "id": "ru_elementary_travel_031"
     },
     {
@@ -1427,13 +1183,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/bɐˈɡaʂ/",
         "id": "ru_elementary_travel_032"
     },
     {
         "word": "район",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🏘️",
         "gender": "masculine",
         "form": "noun",
@@ -1448,13 +1204,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
-        "id": "ru_elementary_places_043"
+        "transcription": "/rɐˈjon/",
+        "id": "ru_elementary_places_048"
     },
     {
         "word": "сообщество",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "👥",
         "gender": "neuter",
         "form": "noun",
@@ -1469,13 +1225,13 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
-        "id": "ru_elementary_places_044"
+        "transcription": "/sɐˈopɕːɪstvə/",
+        "id": "ru_elementary_places_049"
     },
     {
         "word": "загрязнение",
         "level": "elementary",
-        "theme": "nature",
+        "theme": "environment",
         "emoji": "🏭",
         "gender": "neuter",
         "form": "noun",
@@ -1489,7 +1245,7 @@
             }
         ],
         "lang": "ru",
-        "transcription": "",
+        "transcription": "/zəɡrʲɪˈznʲenʲɪjə/",
         "id": "ru_elementary_environment_007"
     }
 ];

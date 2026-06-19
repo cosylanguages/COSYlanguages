@@ -4,7 +4,7 @@
     {
         "word": "giardino",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🌳",
         "form": "noun",
         "classification": "regular",
@@ -16,7 +16,7 @@
         ],
         "countability": "countable",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/dʒarˈdino/",
         "id": "it_elementary_places_024"
     },
     {
@@ -44,13 +44,13 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/arˈtista/",
         "id": "it_elementary_art_culture_001"
     },
     {
         "word": "chef",
         "level": "elementary",
-        "theme": "food_drink",
+        "theme": "jobs",
         "article": "lo",
         "emoji": "👨‍🍳",
         "form": "noun",
@@ -72,14 +72,15 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_food_drink_022"
+        "transcription": "/ʃɛf/",
+        "id": "it_elementary_jobs_001"
     },
     {
         "word": "risotto",
         "level": "elementary",
         "theme": "food_drink",
         "article": "il",
+        "emoji": "🍚",
         "form": "noun",
         "classification": "regular",
         "plural": "risotti",
@@ -99,8 +100,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
-        "emoji": "❓",
+        "transcription": "/riˈzotto/",
         "id": "it_elementary_food_drink_023"
     },
     {
@@ -108,6 +108,7 @@
         "level": "elementary",
         "theme": "food_drink",
         "article": "il",
+        "emoji": "🍦",
         "form": "noun",
         "classification": "regular",
         "plural": "gelati",
@@ -127,8 +128,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
-        "emoji": "❓",
+        "transcription": "/dʒeˈlato/",
         "id": "it_elementary_food_drink_024"
     },
     {
@@ -156,7 +156,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/forˈmaddʒo/",
         "id": "it_elementary_food_drink_025"
     },
     {
@@ -169,7 +169,7 @@
         "classification": "regular",
         "plural": "riso",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈrizo/",
         "definitions": [
             {
                 "text": "riso",
@@ -188,7 +188,7 @@
         "classification": "regular",
         "plural": "pomodori",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/pomoˈdɔro/",
         "definitions": [
             {
                 "text": "pomodoro",
@@ -207,7 +207,7 @@
         "classification": "regular",
         "plural": "patate",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/paˈtata/",
         "definitions": [
             {
                 "text": "patata",
@@ -227,7 +227,7 @@
         "classification": "regular",
         "plural": "vino",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈvino/",
         "definitions": [
             {
                 "text": "vino",
@@ -247,7 +247,7 @@
         "classification": "regular",
         "plural": "birra",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈbirra/",
         "definitions": [
             {
                 "text": "birra",
@@ -281,7 +281,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ospeˈdale/",
         "id": "it_elementary_health_medicine_001"
     },
     {
@@ -309,7 +309,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈtʃinema/",
         "id": "it_elementary_art_culture_002"
     },
     {
@@ -337,7 +337,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ristoˈrante/",
         "id": "it_elementary_food_drink_031"
     },
     {
@@ -365,65 +365,65 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/supermerˈkato/",
         "id": "it_elementary_shopping_002"
     },
     {
         "word": "vestito",
         "level": "elementary",
-        "theme": "shopping",
+        "theme": "clothes",
         "article": "il",
         "emoji": "👗",
         "form": "noun",
         "classification": "regular",
         "plural": "vestiti",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/vesˈtito/",
         "definitions": [
             {
                 "text": "vestito",
                 "examples": []
             }
         ],
-        "id": "it_elementary_shopping_003"
+        "id": "it_elementary_clothes_004"
     },
     {
         "word": "giacca",
         "level": "elementary",
-        "theme": "shopping",
+        "theme": "clothes",
         "article": "la",
         "emoji": "🧥",
         "form": "noun",
         "classification": "regular",
         "plural": "giacche",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈdʒakka/",
         "definitions": [
             {
                 "text": "giacca",
                 "examples": []
             }
         ],
-        "id": "it_elementary_shopping_004"
+        "id": "it_elementary_clothes_005"
     },
     {
         "word": "gonna",
         "level": "elementary",
-        "theme": "shopping",
+        "theme": "clothes",
         "article": "la",
         "emoji": "👗",
         "form": "noun",
         "classification": "regular",
         "plural": "gonne",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈɡonna/",
         "definitions": [
             {
                 "text": "gonna",
                 "examples": []
             }
         ],
-        "id": "it_elementary_shopping_005"
+        "id": "it_elementary_clothes_006"
     },
     {
         "word": "divano",
@@ -435,7 +435,7 @@
         "classification": "regular",
         "plural": "divani",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/diˈvano/",
         "definitions": [
             {
                 "text": "divano",
@@ -454,7 +454,7 @@
         "classification": "regular",
         "plural": "lampade",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈlampada/",
         "definitions": [
             {
                 "text": "lampada",
@@ -473,7 +473,7 @@
         "classification": "regular",
         "plural": "scrivanie",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/skrivaˈnia/",
         "definitions": [
             {
                 "text": "scrivania",
@@ -481,40 +481,6 @@
             }
         ],
         "id": "it_elementary_furniture_003"
-    },
-    {
-        "word": "lavarsi i denti",
-        "level": "elementary",
-        "theme": "furniture",
-        "emoji": "🪥",
-        "form": "verb",
-        "classification": "regular",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "lavarsi i denti",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_furniture_004"
-    },
-    {
-        "word": "fare la doccia",
-        "level": "elementary",
-        "theme": "furniture",
-        "emoji": "🚿",
-        "form": "verb",
-        "classification": "regular",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "fare la doccia",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_furniture_005"
     },
     {
         "word": "orologio",
@@ -535,7 +501,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/oroˈlɔdʒo/",
         "id": "it_elementary_clothes_001"
     },
     {
@@ -557,7 +523,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/pɔrtaˈfɔʎo/",
         "id": "it_elementary_clothes_002"
     },
     {
@@ -579,7 +545,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/okˈkjali/",
         "id": "it_elementary_clothes_003"
     },
     {
@@ -601,7 +567,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/leˈone/",
         "id": "it_elementary_animals_001"
     },
     {
@@ -614,7 +580,7 @@
         "classification": "regular",
         "plural": "tigri",
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈtiɡre/",
         "definitions": [
             {
                 "text": "tigre",
@@ -637,7 +603,7 @@
             "origin_word": "caballus"
         },
         "lang": "it",
-        "transcription": "",
+        "transcription": "/kaˈvallo/",
         "definitions": [
             {
                 "text": "cavallo",
@@ -649,7 +615,7 @@
     {
         "word": "braccio",
         "level": "elementary",
-        "theme": "health_medicine",
+        "theme": "body",
         "article": "il",
         "emoji": "💪",
         "form": "noun",
@@ -660,7 +626,7 @@
             "origin_word": "bracchium"
         },
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈbrattʃo/",
         "definitions": [
             {
                 "text": "braccio",
@@ -672,7 +638,7 @@
     {
         "word": "università",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "places",
         "article": "l'",
         "emoji": "🎓",
         "form": "noun",
@@ -688,8 +654,8 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
-        "id": "it_elementary_work_002"
+        "transcription": "/universiˈta/",
+        "id": "it_elementary_places_029"
     },
     {
         "word": "cucina locale",
@@ -715,239 +681,13 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/kuˈtʃina loˈkale/",
         "id": "it_elementary_food_drink_032"
-    },
-    {
-        "word": "sembrare",
-        "level": "elementary",
-        "theme": "people",
-        "emoji": "🤔",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "sembrare",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_people_022"
-    },
-    {
-        "word": "diventare",
-        "level": "elementary",
-        "theme": "people",
-        "emoji": "🦋",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "diventare",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_people_023"
-    },
-    {
-        "word": "muovere",
-        "level": "elementary",
-        "theme": "furniture",
-        "emoji": "📦",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "muovere",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_furniture_006"
-    },
-    {
-        "word": "credere",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "🙏",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "credere",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_describing_001"
-    },
-    {
-        "word": "succedere",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "⚡",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "succedere",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_describing_002"
-    },
-    {
-        "word": "includere",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "➕",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "includere",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_describing_003"
-    },
-    {
-        "word": "continuare",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "➡️",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "continuare",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_describing_004"
-    },
-    {
-        "word": "impostare",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "⚙️",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "impostare",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_describing_005"
-    },
-    {
-        "word": "guidare",
-        "level": "elementary",
-        "theme": "jobs",
-        "emoji": "👑",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "guidare",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_work_003"
-    },
-    {
-        "word": "seguire",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "👣",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "seguire",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_describing_006"
-    },
-    {
-        "word": "creare",
-        "level": "elementary",
-        "theme": "social",
-        "emoji": "✨",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "creare",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_social_041"
-    },
-    {
-        "word": "permettere",
-        "level": "elementary",
-        "theme": "describing",
-        "emoji": "✅",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "permettere",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_describing_007"
-    },
-    {
-        "word": "crescere",
-        "level": "elementary",
-        "theme": "nature",
-        "emoji": "🌱",
-        "form": "verb",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "crescere",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_environment_006"
-    },
-    {
-        "word": "offrire",
-        "level": "elementary",
-        "theme": "people",
-        "emoji": "🤲",
-        "form": "verb",
-        "classification": "regular",
-        "plural": "offriri",
-        "lang": "it",
-        "transcription": "",
-        "definitions": [
-            {
-                "text": "offrire",
-                "examples": []
-            }
-        ],
-        "id": "it_elementary_people_024"
     },
     {
         "word": "straordinari",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "⏰",
         "form": "noun",
         "classification": "regular",
@@ -962,13 +702,13 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/straordiˈnari/",
         "id": "it_elementary_work_004"
     },
     {
         "word": "promozione",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📈",
         "form": "noun",
         "classification": "regular",
@@ -983,13 +723,13 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/promoˈtsjone/",
         "id": "it_elementary_work_005"
     },
     {
         "word": "colloquio",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
@@ -1004,13 +744,13 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/kolˈlɔkwjo/",
         "id": "it_elementary_work_006"
     },
     {
         "word": "contratto",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "📄",
         "form": "noun",
         "classification": "regular",
@@ -1025,13 +765,13 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/konˈtratto/",
         "id": "it_elementary_work_007"
     },
     {
         "word": "scadenza",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "⏳",
         "form": "noun",
         "classification": "regular",
@@ -1046,13 +786,13 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/skaˈdɛntsa/",
         "id": "it_elementary_work_008"
     },
     {
         "word": "esperienza",
         "level": "elementary",
-        "theme": "jobs",
+        "theme": "work",
         "emoji": "🧠",
         "form": "noun",
         "classification": "regular",
@@ -1067,7 +807,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/espeˈrjɛntsa/",
         "id": "it_elementary_work_009"
     },
     {
@@ -1088,7 +828,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈmutwo/",
         "id": "it_elementary_numbers_001"
     },
     {
@@ -1109,7 +849,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈprɛstito/",
         "id": "it_elementary_numbers_002"
     },
     {
@@ -1130,7 +870,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/bolˈletta/",
         "id": "it_elementary_numbers_003"
     },
     {
@@ -1151,7 +891,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈdebito/",
         "id": "it_elementary_numbers_004"
     },
     {
@@ -1172,7 +912,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈkonto/",
         "id": "it_elementary_numbers_005"
     },
     {
@@ -1193,7 +933,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/biˈlantʃo/",
         "id": "it_elementary_numbers_006"
     },
     {
@@ -1214,7 +954,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈdjɛta/",
         "id": "it_elementary_food_drink_033"
     },
     {
@@ -1235,7 +975,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/appuntaˈmento/",
         "id": "it_elementary_health_medicine_002"
     },
     {
@@ -1256,7 +996,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/vitaˈmina/",
         "id": "it_elementary_food_drink_034"
     },
     {
@@ -1277,7 +1017,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/doˈlore/",
         "id": "it_elementary_health_medicine_003"
     },
     {
@@ -1298,7 +1038,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/sosˈteɲɲo/",
         "id": "it_elementary_people_025"
     },
     {
@@ -1318,7 +1058,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/fiˈdutʃa/",
         "id": "it_elementary_people_026"
     },
     {
@@ -1339,7 +1079,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/komproˈmesso/",
         "id": "it_elementary_people_027"
     },
     {
@@ -1360,7 +1100,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈvjaddʒo/",
         "id": "it_elementary_travel_026"
     },
     {
@@ -1378,7 +1118,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/alˈlɛstero/",
         "id": "it_elementary_travel_027"
     },
     {
@@ -1399,7 +1139,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/destinatˈtsjone/",
         "id": "it_elementary_travel_028"
     },
     {
@@ -1420,7 +1160,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/ˈvɔlo/",
         "id": "it_elementary_travel_029"
     },
     {
@@ -1441,13 +1181,13 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/baˈɡaʎi/",
         "id": "it_elementary_travel_030"
     },
     {
         "word": "quartiere",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🏘️",
         "form": "noun",
         "classification": "regular",
@@ -1462,13 +1202,13 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/kwarˈtjere/",
         "id": "it_elementary_places_025"
     },
     {
         "word": "comunità",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "👥",
         "form": "noun",
         "classification": "regular",
@@ -1483,13 +1223,13 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/komuniˈta/",
         "id": "it_elementary_places_026"
     },
     {
         "word": "inquinamento",
         "level": "elementary",
-        "theme": "nature",
+        "theme": "environment",
         "emoji": "🏭",
         "form": "noun",
         "classification": "regular",
@@ -1503,7 +1243,7 @@
             }
         ],
         "lang": "it",
-        "transcription": "",
+        "transcription": "/inkwinaˈmento/",
         "id": "it_elementary_environment_007"
     }
 ];

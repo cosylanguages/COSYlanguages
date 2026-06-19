@@ -16,6 +16,11 @@ const GRAMMAR_CONFIG = {
             pattern: "[s]л",
             endings: { m: "", f: "а", n: "о", pl: "и" },
             mapping: [[0, 1], [0, 1], [0, 1, 2], [3], [3], [3]] // Indices for pronouns to gender forms
+        },
+        slavic_past_i: {
+            pattern: "[s]ил",
+            endings: { m: "", f: "а", n: "о", pl: "и" },
+            mapping: [[0, 1], [0, 1], [0, 1, 2], [3], [3], [3]]
         }
     },
     fr: {
@@ -118,7 +123,23 @@ const GRAMMAR_CONFIG = {
             },
             stem_rules: {
                 reflexive_strip: /^s[e']\s*/,
-                suffix_strip: { 'er': /er$/, 'ir': /ir$/, 're': /re$/ }
+                suffix_strip: { 'er': /er$/, 'ir': /ir$/, 're': /re$/ },
+                transformations: [
+                    {
+                        tense: ['imperfect', 'past_simple'],
+                        group: 'er',
+                        replace: [/g$/, 'ge'],
+                        priority: 'after_strip',
+                        tags: ['ger_verb']
+                    },
+                    {
+                        tense: ['imperfect', 'past_simple'],
+                        group: 'er',
+                        replace: [/c$/, 'ç'],
+                        priority: 'after_strip',
+                        tags: ['cer_verb']
+                    }
+                ]
             },
             non_finite: {
                 gerund: { endings: { 'er': 'ant', 'ir': 'issant', 're': 'ant' } },
@@ -863,12 +884,12 @@ const GRAMMAR_CONFIG = {
                     '2nd_conj': ['ю', 'ишь', 'ит', 'им', 'ите', 'ят']
                 },
                 past_simple: {
-                    '1st_conj': 'template:slavic_past',
-                    '2nd_conj': 'template:slavic_past'
+                    '1st_conj': { pattern: '[s]л', endings: { m: '', f: 'а', n: 'о', pl: 'и' }, mapping: [[0, 1], [0, 1], [0, 1, 2], [3], [3], [3]], stem: 'v1' }, // Fallback to word
+                    '2nd_conj': 'template:slavic_past_i'
                 },
                 conditional: {
                     '1st_conj': { template: 'slavic_past', post: ' бы' },
-                    '2nd_conj': { template: 'slavic_past', post: ' бы' }
+                    '2nd_conj': { template: 'slavic_past_i', post: ' бы' }
                 }
             },
             compound_tenses: {
