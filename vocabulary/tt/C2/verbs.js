@@ -21,7 +21,9 @@
         "v2": "реификацияләде",
         "v3": "реификацияләнгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_philosophy_logic_001"
     },
     {
         "word": "сублимацияләргә",
@@ -43,7 +45,9 @@
         "v2": "сублимацияләде",
         "v3": "сублимацияләнгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_psychology_academic_001"
     },
     {
         "word": "предицировать итәргә",
@@ -65,7 +69,9 @@
         "v2": "предицировать итте",
         "v3": "предицировать ителгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_logic_linguistics_001"
     },
     {
         "word": "гәүдәләндерергә",
@@ -87,7 +93,9 @@
         "v2": "гәүдәләндерде",
         "v3": "гәүдәләндерелгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_logic_computing_001"
     },
     {
         "word": "инкарь итәргә",
@@ -109,7 +117,9 @@
         "v2": "инкарь итте",
         "v3": "инкарь ителгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_logic_debate_001"
     },
     {
         "word": "чиктән узгарга",
@@ -131,7 +141,9 @@
         "v2": "чиктән узды",
         "v3": "чиктән узган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_philosophy_general_001"
     },
     {
         "word": "арадашчы булырга",
@@ -153,7 +165,9 @@
         "v2": "арадашчы булды",
         "v3": "арадашчы булган",
         "group": "vowel",
-        "auxiliary": "булырга"
+        "auxiliary": "булырга",
+        "lang": "tt",
+        "id": "tt_proficiency_sociology_conflict_001"
     },
     {
         "word": "төшереп калдырырга",
@@ -175,7 +189,9 @@
         "v2": "төшереп калдырды",
         "v3": "төшереп калдырылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_linguistics_debate_001"
     },
     {
         "word": "бутарга",
@@ -197,7 +213,9 @@
         "v2": "бутады",
         "v3": "буталган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_debate_communication_001"
     },
     {
         "word": "кушып бутарга",
@@ -219,7 +237,9 @@
         "v2": "кушып бутады",
         "v3": "кушып буталган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_debate_academic_001"
     },
     {
         "word": "мөрәҗәгать итәргә",
@@ -241,7 +261,9 @@
         "v2": "мөрәҗәгать итте",
         "v3": "мөрәҗәгать ителгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_law_debate_001"
     },
     {
         "word": "алгы планга чыгарырга",
@@ -263,7 +285,9 @@
         "v2": "алгы планга чыгарды",
         "v3": "алгы планга чыгарылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_art_media_001"
     },
     {
         "word": "үзләштерергә",
@@ -285,7 +309,9 @@
         "v2": "үзләштерде",
         "v3": "үзләштерелгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_sociology_culture_001"
     },
     {
         "word": "дестабилизацияләргә",
@@ -307,7 +333,9 @@
         "v2": "дестабилизацияләде",
         "v3": "дестабилизацияләнгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_politics_academic_001"
     },
     {
         "word": "товарлаштырырга",
@@ -329,7 +357,9 @@
         "v2": "товарлаштырды",
         "v3": "товарлаштырылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_economics_sociology_001"
     },
     {
         "word": "инструментальләштерергә",
@@ -351,7 +381,9 @@
         "v2": "инструментальләштерде",
         "v3": "инструментальләштерелгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_politics_philosophy_001"
     },
     {
         "word": "валоризацияләргә",
@@ -373,7 +405,9 @@
         "v2": "валоризацияләде",
         "v3": "валоризацияләнгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_sociology_academic_001"
     },
     {
         "word": "фетишизацияләргә",
@@ -395,7 +429,9 @@
         "v2": "фетишизацияләде",
         "v3": "фетишизацияләнгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_sociology_academic_002"
     },
     {
         "word": "ятлаштырырга",
@@ -417,7 +453,9 @@
         "v2": "ятлаштырды",
         "v3": "ятлаштырылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_sociology_psychology_001"
     },
     {
         "word": "чикләрен билгеләргә",
@@ -439,7 +477,9 @@
         "v2": "чикләрен билгеләде",
         "v3": "чикләре билгеләнгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_law_philosophy_001"
     },
     {
         "word": "чикләргә",
@@ -461,7 +501,9 @@
         "v2": "чикләде",
         "v3": "чикләнгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_academic_research_001"
     },
     {
         "word": "каршы торырга",
@@ -483,7 +525,9 @@
         "v2": "каршы торды",
         "v3": "каршы торган",
         "group": "vowel",
-        "auxiliary": "булырга"
+        "auxiliary": "булырга",
+        "lang": "tt",
+        "id": "tt_proficiency_debate_academic_002"
     },
     {
         "word": "бозарга",
@@ -505,7 +549,9 @@
         "v2": "бозды",
         "v3": "бозылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_law_academic_001"
     },
     {
         "word": "кире кагарга",
@@ -527,7 +573,9 @@
         "v2": "кире какты",
         "v3": "кире кагылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_debate_logic_001"
     },
     {
         "word": "юкка чыгарырга",
@@ -549,7 +597,9 @@
         "v2": "юкка чыгарды",
         "v3": "юкка чыгарылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_law_politics_001"
     },
     {
         "word": "бозарга",
@@ -571,7 +621,9 @@
         "v2": "бозды",
         "v3": "бозылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_law_debate_002"
     },
     {
         "word": "кертергә",
@@ -593,7 +645,9 @@
         "v2": "кертте",
         "v3": "кертелгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_logic_philosophy_001"
     },
     {
         "word": "деконструкцияләргә",
@@ -615,7 +669,9 @@
         "v2": "деконструкцияләде",
         "v3": "деконструкцияләнгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_philosophy_literature_001"
     },
     {
         "word": "алдан чикләргә",
@@ -637,7 +693,9 @@
         "v2": "алдан чикләде",
         "v3": "алдан чикләнгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_law_debate_003"
     },
     {
         "word": "диалектизацияләргә",
@@ -659,7 +717,9 @@
         "v2": "диалектизацияләде",
         "v3": "диалектизацияләнгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_philosophy_academic_001"
     },
     {
         "word": "гегемонизацияләргә",
@@ -681,7 +741,9 @@
         "v2": "гегемонизацияләде",
         "v3": "гегемонизацияләнгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_politics_sociology_001"
     },
     {
         "word": "ассызыкларга",
@@ -703,7 +765,9 @@
         "v2": "ассызыклады",
         "v3": "ассызыкланган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_001"
     },
     {
         "word": "ризалашырга",
@@ -725,7 +789,9 @@
         "v2": "ризалашты",
         "v3": "ризалашкан",
         "group": "vowel",
-        "auxiliary": "булырга"
+        "auxiliary": "булырга",
+        "lang": "tt",
+        "id": "tt_proficiency_debate_communication_002"
     },
     {
         "word": "җиңеләйтергә",
@@ -747,7 +813,9 @@
         "v2": "җиңеләйтте",
         "v3": "җиңеләйтелгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_policy_general_001"
     },
     {
         "word": "әйләнеп узарга",
@@ -769,7 +837,9 @@
         "v2": "әйләнеп узды",
         "v3": "әйләнеп узган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_debate_general_001"
     },
     {
         "word": "раслый торган дәлил китерергә",
@@ -791,7 +861,9 @@
         "v2": "дәлил китерде",
         "v3": "дәлил китерелгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_academic_research_002"
     },
     {
         "word": "таратырга",
@@ -813,7 +885,9 @@
         "v2": "таратты",
         "v3": "таратылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_academic_research_003"
     },
     {
         "word": "кулланырга",
@@ -835,7 +909,9 @@
         "v2": "кулланды",
         "v3": "кулланылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_002"
     },
     {
         "word": "тудырырга",
@@ -857,7 +933,9 @@
         "v2": "тудырды",
         "v3": "тудырылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_sociology_general_001"
     },
     {
         "word": "кискенләштерергә",
@@ -879,7 +957,9 @@
         "v2": "кискенләштерде",
         "v3": "кискенләштерелгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_003"
     },
     {
         "word": "үрнәк булырга",
@@ -901,7 +981,9 @@
         "v2": "үрнәк булды",
         "v3": "үрнәк булган",
         "group": "vowel",
-        "auxiliary": "булырга"
+        "auxiliary": "булырга",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_004"
     },
     {
         "word": "аяк чалырга",
@@ -923,7 +1005,9 @@
         "v2": "аяк чалды",
         "v3": "аяк чалган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_005"
     },
     {
         "word": "йомшартырга",
@@ -945,7 +1029,9 @@
         "v2": "йомшартты",
         "v3": "йомшартылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_006"
     },
     {
         "word": "мәҗбүр итәргә",
@@ -967,7 +1053,9 @@
         "v2": "мәҗбүр итте",
         "v3": "мәҗбүр ителгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_law_general_001"
     },
     {
         "word": "таралырга",
@@ -989,7 +1077,9 @@
         "v2": "таралды",
         "v3": "таралган",
         "group": "vowel",
-        "auxiliary": "булырга"
+        "auxiliary": "булырга",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_007"
     },
     {
         "word": "искәртергә",
@@ -1011,7 +1101,9 @@
         "v2": "искәртте",
         "v3": "искәртелгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_008"
     },
     {
         "word": "килештерергә",
@@ -1033,7 +1125,9 @@
         "v2": "килештерде",
         "v3": "килештерелгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_009"
     },
     {
         "word": "алыштырырга",
@@ -1055,7 +1149,9 @@
         "v2": "алыштырды",
         "v3": "алыштырылган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_law_academic_002"
     },
     {
         "word": "нигезләнергә",
@@ -1077,7 +1173,9 @@
         "v2": "нигезләнде",
         "v3": "нигезләнгән",
         "group": "vowel",
-        "auxiliary": "булырга"
+        "auxiliary": "булырга",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_010"
     },
     {
         "word": "акларга",
@@ -1099,7 +1197,9 @@
         "v2": "аклады",
         "v3": "акланган",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_011"
     },
     {
         "word": "бәйле булырга",
@@ -1121,7 +1221,9 @@
         "v2": "бәйле булды",
         "v3": "бәйле булган",
         "group": "vowel",
-        "auxiliary": "булырга"
+        "auxiliary": "булырга",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_012"
     },
     {
         "word": "ишләргә",
@@ -1143,7 +1245,9 @@
         "v2": "ишләде",
         "v3": "ишләгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_general_academic_013"
     },
     {
         "word": "өстән-өстән үтәргә",
@@ -1165,7 +1269,9 @@
         "v2": "өстән-өстән үтте",
         "v3": "өстән-өстән үтелгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_debate_academic_003"
     },
     {
         "word": "яшерергә",
@@ -1187,7 +1293,9 @@
         "v2": "яшерде",
         "v3": "яшерелгән",
         "group": "vowel",
-        "auxiliary": "итергә"
+        "auxiliary": "итергә",
+        "lang": "tt",
+        "id": "tt_proficiency_debate_politics_001"
     },
     {
         "word": "парадигма үзгәрү",
@@ -1209,7 +1317,9 @@
         "v2": "парадигма үзгәрде",
         "v3": "парадигма үзгәргән",
         "group": "vowel",
-        "auxiliary": "булырга"
+        "auxiliary": "булырга",
+        "lang": "tt",
+        "id": "tt_proficiency_academic_general_001"
     }
 ];
     const lang = "tt";

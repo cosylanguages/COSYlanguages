@@ -21,7 +21,9 @@
         "v2": "",
         "v3": "πραγμοποιημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_philosophy_logic_001"
     },
     {
         "word": "εξιδανικεύω",
@@ -43,7 +45,9 @@
         "v2": "",
         "v3": "εξιδανικευμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_psychology_academic_001"
     },
     {
         "word": "κατηγορώ",
@@ -65,7 +69,9 @@
         "v2": "",
         "v3": "κατηγορημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_logic_linguistics_001"
     },
     {
         "word": "ενσαρκώνω",
@@ -87,7 +93,9 @@
         "v2": "",
         "v3": "ενσαρκωμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_logic_computing_001"
     },
     {
         "word": "αναιρώ",
@@ -109,7 +117,9 @@
         "v2": "",
         "v3": "αναιρεμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_logic_debate_001"
     },
     {
         "word": "υπερβαίνω",
@@ -131,7 +141,9 @@
         "v2": "υπερέβην",
         "v3": "υπερβεβλημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_philosophy_general_001"
     },
     {
         "word": "διαμεσολαβώ",
@@ -153,7 +165,9 @@
         "v2": "",
         "v3": "διαμεσολαβημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_sociology_conflict_001"
     },
     {
         "word": "απαλείφω",
@@ -175,7 +189,9 @@
         "v2": "",
         "v3": "απαλειμμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_linguistics_debate_001"
     },
     {
         "word": "συσκοτίζω",
@@ -197,7 +213,9 @@
         "v2": "",
         "v3": "συσκοτισμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_debate_communication_001"
     },
     {
         "word": "συγχέω",
@@ -219,7 +237,9 @@
         "v2": "",
         "v3": "συγκεχυμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_debate_academic_001"
     },
     {
         "word": "επικαλούμαι",
@@ -241,7 +261,9 @@
         "v2": "",
         "v3": "επικλημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_law_debate_001"
     },
     {
         "word": "προβάλλω",
@@ -263,7 +285,9 @@
         "v2": "",
         "v3": "προβεβλημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_art_media_001"
     },
     {
         "word": "ανακτώ",
@@ -285,7 +309,9 @@
         "v2": "",
         "v3": "ανακτημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_sociology_culture_001"
     },
     {
         "word": "αποσταθεροποιώ",
@@ -307,7 +333,9 @@
         "v2": "",
         "v3": "αποσταθεροποιημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_politics_academic_001"
     },
     {
         "word": "εμπορευματοποιώ",
@@ -329,7 +357,9 @@
         "v2": "",
         "v3": "εμπορευματοποιημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_economics_sociology_001"
     },
     {
         "word": "εργαλειοποιώ",
@@ -351,7 +381,9 @@
         "v2": "",
         "v3": "εργαλειοποιημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_politics_philosophy_001"
     },
     {
         "word": "αξιοποιώ",
@@ -373,7 +405,9 @@
         "v2": "",
         "v3": "αξιοποιημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_sociology_academic_001"
     },
     {
         "word": "φετιχοποιώ",
@@ -395,7 +429,9 @@
         "v2": "",
         "v3": "φετιχοποιημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_sociology_academic_002"
     },
     {
         "word": "αλλοτριώνω",
@@ -417,7 +453,9 @@
         "v2": "",
         "v3": "αλλοτριωμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_sociology_psychology_001"
     },
     {
         "word": "οριοθετώ",
@@ -439,7 +477,9 @@
         "v2": "",
         "v3": "οριοθετημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_law_philosophy_001"
     },
     {
         "word": "ορίζω",
@@ -461,7 +501,9 @@
         "v2": "",
         "v3": "ορισμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_academic_research_001"
     },
     {
         "word": "αντιστρατεύομαι",
@@ -483,7 +525,9 @@
         "v2": "",
         "v3": "αντιστρατευμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_debate_academic_002"
     },
     {
         "word": "ακυρώνω",
@@ -505,7 +549,9 @@
         "v2": "",
         "v3": "ακυρωμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_law_academic_001"
     },
     {
         "word": "αμφισβητώ",
@@ -527,7 +573,9 @@
         "v2": "",
         "v3": "αμφισβητημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_debate_logic_001"
     },
     {
         "word": "καταργώ",
@@ -549,7 +597,9 @@
         "v2": "",
         "v3": "καταργημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_law_politics_001"
     },
     {
         "word": "παραβαίνω",
@@ -571,7 +621,9 @@
         "v2": "παρέβην",
         "v3": "παραβεβημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_law_debate_002"
     },
     {
         "word": "υπάγω",
@@ -593,7 +645,9 @@
         "v2": "",
         "v3": "υπαγμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_logic_philosophy_001"
     },
     {
         "word": "αποδομώ",
@@ -615,7 +669,9 @@
         "v2": "",
         "v3": "αποδομημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_philosophy_literature_001"
     },
     {
         "word": "αποκλείω",
@@ -637,7 +693,9 @@
         "v2": "",
         "v3": "αποκλεισμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_law_debate_003"
     },
     {
         "word": "διαλεκτικοποιώ",
@@ -659,7 +717,9 @@
         "v2": "",
         "v3": "διαλεκτικοποιημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_philosophy_academic_001"
     },
     {
         "word": "ηγεμονεύω",
@@ -681,7 +741,9 @@
         "v2": "",
         "v3": "ηγεμονευμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_politics_sociology_001"
     },
     {
         "word": "τονίζω",
@@ -703,7 +765,9 @@
         "v2": "",
         "v3": "τονισμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_001"
     },
     {
         "word": "αποδέχομαι",
@@ -725,7 +789,9 @@
         "v2": "",
         "v3": "αποδεκτός",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_debate_communication_002"
     },
     {
         "word": "ανακουφίζω",
@@ -747,7 +813,9 @@
         "v2": "",
         "v3": "ανακουφισμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_policy_general_001"
     },
     {
         "word": "παρακάμπτω",
@@ -769,7 +837,9 @@
         "v2": "",
         "v3": "παρακαμφθείς",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_debate_general_001"
     },
     {
         "word": "επιβεβαιώνω",
@@ -791,7 +861,9 @@
         "v2": "",
         "v3": "επιβεβαιωμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_academic_research_002"
     },
     {
         "word": "διαδίδω",
@@ -813,7 +885,9 @@
         "v2": "",
         "v3": "διαδεδομένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_academic_research_003"
     },
     {
         "word": "συμπυκνώνω",
@@ -835,7 +909,9 @@
         "v2": "",
         "v3": "συμπυκνωμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_002"
     },
     {
         "word": "γεννώ",
@@ -857,7 +933,9 @@
         "v2": "",
         "v3": "γεννημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_sociology_general_001"
     },
     {
         "word": "επιδεινώνω",
@@ -879,7 +957,9 @@
         "v2": "",
         "v3": "επιδεινωμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_003"
     },
     {
         "word": "εικονογραφώ",
@@ -901,7 +981,9 @@
         "v2": "",
         "v3": "εικονογραφημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_004"
     },
     {
         "word": "παρεμποδίζω",
@@ -923,7 +1005,9 @@
         "v2": "",
         "v3": "παρεμποδισμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_005"
     },
     {
         "word": "μετριάζω",
@@ -945,7 +1029,9 @@
         "v2": "",
         "v3": "μετριασμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_006"
     },
     {
         "word": "υποχρεώνω",
@@ -967,7 +1053,9 @@
         "v2": "",
         "v3": "υποχρεωμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_law_general_001"
     },
     {
         "word": "διαπερνώ",
@@ -989,7 +1077,9 @@
         "v2": "",
         "v3": "διαπερασμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_007"
     },
     {
         "word": "αποκλείω",
@@ -1011,7 +1101,9 @@
         "v2": "",
         "v3": "αποκλεισμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_008"
     },
     {
         "word": "συμβιβάζω",
@@ -1033,7 +1125,9 @@
         "v2": "",
         "v3": "συμβιβασμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_009"
     },
     {
         "word": "αντικαθιστώ",
@@ -1055,7 +1149,9 @@
         "v2": "",
         "v3": "αντικαταστημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_law_academic_002"
     },
     {
         "word": "θεμελιώνω",
@@ -1077,7 +1173,9 @@
         "v2": "",
         "v3": "θεμελιωμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_010"
     },
     {
         "word": "δικαιώνω",
@@ -1099,7 +1197,9 @@
         "v2": "",
         "v3": "δικαιωμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_011"
     },
     {
         "word": "εξαρτώμαι από",
@@ -1121,7 +1221,9 @@
         "v2": "εξαρτήθηκα από",
         "v3": "εξαρτημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_012"
     },
     {
         "word": "παλεύω με",
@@ -1143,7 +1245,9 @@
         "v2": "πάλεψα με",
         "v3": "παλεμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_general_academic_013"
     },
     {
         "word": "αποσιωπώ",
@@ -1165,7 +1269,9 @@
         "v2": "",
         "v3": "αποσιωπημένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_debate_academic_003"
     },
     {
         "word": "συγκαλύπτω",
@@ -1187,7 +1293,9 @@
         "v2": "",
         "v3": "συγκαλυμμένος",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_debate_politics_001"
     },
     {
         "word": "αλλαγή παραδείγματος",
@@ -1209,7 +1317,9 @@
         "v2": "",
         "v3": "αλλαγμένος παράδειγμα",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "lang": "el",
+        "id": "el_proficiency_academic_general_001"
     }
 ];
     const lang = "el";

@@ -2,9 +2,19 @@
 (function() {
     const data = [
     {
+        "id": "fr_proficiency_people_001",
         "word": "Molière",
+        "lang": "fr",
         "level": "proficiency",
-        "theme": "identity_self_C1"
+        "theme": "people",
+        "form": "noun",
+        "emoji": "🎭",
+        "definitions": [
+            {
+                "text": "Jean-Baptiste Poquelin, dit Molière, est un dramaturge et comédien français.",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "fr";

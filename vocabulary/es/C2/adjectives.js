@@ -23,10 +23,12 @@
             "súbito",
             "brusco"
         ],
-        "opposite": "gradual",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_010"
+        "id": "es_proficiency_psychology_001",
+        "antonyms": [
+            "gradual"
+        ]
     },
     {
         "word": "abstruso",
@@ -49,10 +51,12 @@
             "oscuro",
             "recondito"
         ],
-        "opposite": "simple",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_011"
+        "id": "es_proficiency_psychology_002",
+        "antonyms": [
+            "simple"
+        ]
     },
     {
         "word": "anacrónico",
@@ -75,10 +79,12 @@
             "anticuado",
             "arcaico"
         ],
-        "opposite": "contemporáneo",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_art_culture_003"
+        "id": "es_proficiency_art_culture_001",
+        "antonyms": [
+            "contemporáneo"
+        ]
     },
     {
         "word": "antitético",
@@ -101,10 +107,12 @@
             "contrario",
             "opuesto"
         ],
-        "opposite": "idéntico",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_002"
+        "id": "es_proficiency_language_001",
+        "antonyms": [
+            "idéntico"
+        ]
     },
     {
         "word": "arcano",
@@ -127,10 +135,12 @@
             "misterioso",
             "secreto"
         ],
-        "opposite": "común",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_012"
+        "id": "es_proficiency_psychology_003",
+        "antonyms": [
+            "común"
+        ]
     },
     {
         "word": "atípico",
@@ -153,10 +163,12 @@
             "inusual",
             "anormal"
         ],
-        "opposite": "típico",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_003"
+        "id": "es_proficiency_language_002",
+        "antonyms": [
+            "típico"
+        ]
     },
     {
         "word": "binario",
@@ -179,10 +191,12 @@
             "dual",
             "doble"
         ],
-        "opposite": "unitario",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_004"
+        "id": "es_proficiency_language_003",
+        "antonyms": [
+            "unitario"
+        ]
     },
     {
         "word": "categórico",
@@ -205,10 +219,12 @@
             "absoluto",
             "incondicional"
         ],
-        "opposite": "matizado",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_005"
+        "id": "es_proficiency_language_004",
+        "antonyms": [
+            "matizado"
+        ]
     },
     {
         "word": "circunspecto",
@@ -231,10 +247,12 @@
             "prudente",
             "cauteloso"
         ],
-        "opposite": "temerario",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_013"
+        "id": "es_proficiency_psychology_004",
+        "antonyms": [
+            "temerario"
+        ]
     },
     {
         "word": "encubierto",
@@ -257,10 +275,12 @@
             "secreto",
             "clandestino"
         ],
-        "opposite": "abierto",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_021"
+        "id": "es_proficiency_social_001",
+        "antonyms": [
+            "abierto"
+        ]
     },
     {
         "word": "dialéctico",
@@ -285,7 +305,7 @@
         ],
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_006"
+        "id": "es_proficiency_language_005"
     },
     {
         "word": "difuso",
@@ -308,10 +328,12 @@
             "disperso",
             "vago"
         ],
-        "opposite": "concentrado",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_007"
+        "id": "es_proficiency_language_006",
+        "antonyms": [
+            "concentrado"
+        ]
     },
     {
         "word": "elusivo",
@@ -340,10 +362,12 @@
             "evasivo",
             "esquivo"
         ],
-        "opposite": "alcanzable",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_014"
+        "id": "es_proficiency_psychology_005",
+        "antonyms": [
+            "alcanzable"
+        ]
     },
     {
         "word": "esotérico",
@@ -366,10 +390,12 @@
             "arcano",
             "oscuro"
         ],
-        "opposite": "exotérico",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_015"
+        "id": "es_proficiency_psychology_006",
+        "antonyms": [
+            "exotérico"
+        ]
     },
     {
         "word": "falaz",
@@ -392,10 +418,12 @@
             "falso",
             "erróneo"
         ],
-        "opposite": "sólido",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_008"
+        "id": "es_proficiency_language_007",
+        "antonyms": [
+            "sólido"
+        ]
     },
     {
         "word": "inmutable",
@@ -418,10 +446,12 @@
             "fijo",
             "permanente"
         ],
-        "opposite": "mutable",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_016"
+        "id": "es_proficiency_psychology_007",
+        "antonyms": [
+            "mutable"
+        ]
     },
     {
         "word": "imparcial",
@@ -444,10 +474,12 @@
             "justo",
             "neutro"
         ],
-        "opposite": "parcial",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_017"
+        "id": "es_proficiency_psychology_008",
+        "antonyms": [
+            "parcial"
+        ]
     },
     {
         "word": "incidental",
@@ -470,10 +502,12 @@
             "secundario",
             "menor"
         ],
-        "opposite": "central",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_009"
+        "id": "es_proficiency_language_008",
+        "antonyms": [
+            "central"
+        ]
     },
     {
         "word": "inherente",
@@ -496,10 +530,12 @@
             "innato",
             "intrínseco"
         ],
-        "opposite": "extrínseco",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_018"
+        "id": "es_proficiency_psychology_009",
+        "antonyms": [
+            "extrínseco"
+        ]
     },
     {
         "word": "inimitable",
@@ -522,10 +558,12 @@
             "único",
             "inigualable"
         ],
-        "opposite": "común",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_art_culture_004"
+        "id": "es_proficiency_art_culture_002",
+        "antonyms": [
+            "común"
+        ]
     },
     {
         "word": "insidioso",
@@ -548,10 +586,12 @@
             "subrepticio",
             "sutil"
         ],
-        "opposite": "directo",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_019"
+        "id": "es_proficiency_psychology_010",
+        "antonyms": [
+            "directo"
+        ]
     },
     {
         "word": "irreconciliable",
@@ -574,10 +614,12 @@
             "incompatible",
             "conflictivo"
         ],
-        "opposite": "compatible",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_010"
+        "id": "es_proficiency_language_009",
+        "antonyms": [
+            "compatible"
+        ]
     },
     {
         "word": "liminal",
@@ -602,7 +644,7 @@
         ],
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_020"
+        "id": "es_proficiency_psychology_011"
     },
     {
         "word": "múltiplo",
@@ -625,10 +667,12 @@
             "numeroso",
             "diverso"
         ],
-        "opposite": "único",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_021"
+        "id": "es_proficiency_psychology_012",
+        "antonyms": [
+            "único"
+        ]
     },
     {
         "word": "nebuloso",
@@ -651,10 +695,12 @@
             "vago",
             "difuso"
         ],
-        "opposite": "distinto",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_022"
+        "id": "es_proficiency_psychology_013",
+        "antonyms": [
+            "distinto"
+        ]
     },
     {
         "word": "normativo",
@@ -677,10 +723,12 @@
             "prescriptivo",
             "estandarizador"
         ],
-        "opposite": "descriptivo",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_023"
+        "id": "es_proficiency_psychology_014",
+        "antonyms": [
+            "descriptivo"
+        ]
     },
     {
         "word": "matizado",
@@ -703,10 +751,12 @@
             "sutil",
             "refinado"
         ],
-        "opposite": "tosco",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_011"
+        "id": "es_proficiency_language_010",
+        "antonyms": [
+            "tosco"
+        ]
     },
     {
         "word": "oblicuo",
@@ -729,10 +779,12 @@
             "indirecto",
             "sesgado"
         ],
-        "opposite": "directo",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_012"
+        "id": "es_proficiency_language_011",
+        "antonyms": [
+            "directo"
+        ]
     },
     {
         "word": "opaco",
@@ -755,10 +807,12 @@
             "oscuro",
             "poco claro"
         ],
-        "opposite": "transparente",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_013"
+        "id": "es_proficiency_language_012",
+        "antonyms": [
+            "transparente"
+        ]
     },
     {
         "word": "ostensible",
@@ -781,10 +835,12 @@
             "aparente",
             "supuesto"
         ],
-        "opposite": "genuino",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_014"
+        "id": "es_proficiency_language_013",
+        "antonyms": [
+            "genuino"
+        ]
     },
     {
         "word": "paradójico",
@@ -807,10 +863,12 @@
             "contradictorio",
             "irónico"
         ],
-        "opposite": "coherente",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_015"
+        "id": "es_proficiency_language_014",
+        "antonyms": [
+            "coherente"
+        ]
     },
     {
         "word": "pervasivo",
@@ -833,10 +891,12 @@
             "difuso",
             "prevalente"
         ],
-        "opposite": "raro",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_art_culture_005"
+        "id": "es_proficiency_art_culture_003",
+        "antonyms": [
+            "raro"
+        ]
     },
     {
         "word": "polarizador",
@@ -859,10 +919,12 @@
             "divisivo",
             "conflictivo"
         ],
-        "opposite": "unificador",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_022"
+        "id": "es_proficiency_social_002",
+        "antonyms": [
+            "unificador"
+        ]
     },
     {
         "word": "precario",
@@ -885,10 +947,12 @@
             "inestable",
             "arriesgado"
         ],
-        "opposite": "estable",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_024"
+        "id": "es_proficiency_psychology_015",
+        "antonyms": [
+            "estable"
+        ]
     },
     {
         "word": "prescriptivo",
@@ -911,10 +975,12 @@
             "dictatorial",
             "rígido"
         ],
-        "opposite": "descriptivo",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_016"
+        "id": "es_proficiency_language_015",
+        "antonyms": [
+            "descriptivo"
+        ]
     },
     {
         "word": "prolongado",
@@ -937,10 +1003,12 @@
             "extenso",
             "largo"
         ],
-        "opposite": "breve",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_art_culture_006"
+        "id": "es_proficiency_art_culture_004",
+        "antonyms": [
+            "breve"
+        ]
     },
     {
         "word": "reductor",
@@ -963,10 +1031,12 @@
             "simplista",
             "minimalista"
         ],
-        "opposite": "complejo",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_017"
+        "id": "es_proficiency_language_016",
+        "antonyms": [
+            "complejo"
+        ]
     },
     {
         "word": "seminal",
@@ -989,10 +1059,12 @@
             "influente",
             "innovador"
         ],
-        "opposite": "insignificante",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_art_culture_007"
+        "id": "es_proficiency_art_culture_005",
+        "antonyms": [
+            "insignificante"
+        ]
     },
     {
         "word": "especioso",
@@ -1015,10 +1087,12 @@
             "engañoso",
             "ilusorio"
         ],
-        "opposite": "válido",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_018"
+        "id": "es_proficiency_language_017",
+        "antonyms": [
+            "válido"
+        ]
     },
     {
         "word": "espurio",
@@ -1041,10 +1115,12 @@
             "falso",
             "ficticio"
         ],
-        "opposite": "auténtico",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_019"
+        "id": "es_proficiency_language_018",
+        "antonyms": [
+            "auténtico"
+        ]
     },
     {
         "word": "subversivo",
@@ -1067,10 +1143,12 @@
             "rebelde",
             "disruptivo"
         ],
-        "opposite": "conformista",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_023"
+        "id": "es_proficiency_social_003",
+        "antonyms": [
+            "conformista"
+        ]
     },
     {
         "word": "tácito",
@@ -1093,10 +1171,12 @@
             "implícito",
             "sobrentendido"
         ],
-        "opposite": "explícito",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_020"
+        "id": "es_proficiency_language_019",
+        "antonyms": [
+            "explícito"
+        ]
     },
     {
         "word": "tenue",
@@ -1119,10 +1199,12 @@
             "frágil",
             "débil"
         ],
-        "opposite": "fuerte",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_021"
+        "id": "es_proficiency_language_020",
+        "antonyms": [
+            "fuerte"
+        ]
     },
     {
         "word": "transitorio",
@@ -1145,10 +1227,12 @@
             "temporal",
             "fugaz"
         ],
-        "opposite": "permanente",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_time_001"
+        "id": "es_proficiency_time_001",
+        "antonyms": [
+            "permanente"
+        ]
     },
     {
         "word": "ubicuista",
@@ -1171,10 +1255,12 @@
             "omnipresente",
             "omnipresente"
         ],
-        "opposite": "raro",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_art_culture_008"
+        "id": "es_proficiency_art_culture_006",
+        "antonyms": [
+            "raro"
+        ]
     },
     {
         "word": "inequívoco",
@@ -1197,10 +1283,12 @@
             "unívoco",
             "claro"
         ],
-        "opposite": "ambiguo",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_022"
+        "id": "es_proficiency_language_021",
+        "antonyms": [
+            "ambiguo"
+        ]
     },
     {
         "word": "sin precedentes",
@@ -1223,10 +1311,12 @@
             "único",
             "innovador"
         ],
-        "opposite": "común",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_art_culture_009"
+        "id": "es_proficiency_art_culture_007",
+        "antonyms": [
+            "común"
+        ]
     },
     {
         "word": "insostenible",
@@ -1249,10 +1339,12 @@
             "indefendible",
             "insostenible"
         ],
-        "opposite": "defendible",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_023"
+        "id": "es_proficiency_language_022",
+        "antonyms": [
+            "defendible"
+        ]
     },
     {
         "word": "pesado",
@@ -1275,10 +1367,12 @@
             "engorroso",
             "farragoso"
         ],
-        "opposite": "manejable",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_024"
+        "id": "es_proficiency_language_023",
+        "antonyms": [
+            "manejable"
+        ]
     },
     {
         "word": "hermenéutico",
@@ -1296,7 +1390,7 @@
         ],
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_025"
+        "id": "es_proficiency_language_024"
     },
     {
         "word": "tautológico",
@@ -1314,7 +1408,7 @@
         ],
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_026"
+        "id": "es_proficiency_language_025"
     },
     {
         "word": "polisémico",
@@ -1332,7 +1426,7 @@
         ],
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_027"
+        "id": "es_proficiency_language_026"
     },
     {
         "word": "postcolonial",
@@ -1350,7 +1444,7 @@
         ],
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_024"
+        "id": "es_proficiency_social_004"
     },
     {
         "word": "multipolar",
@@ -1368,7 +1462,7 @@
         ],
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_025"
+        "id": "es_proficiency_social_005"
     },
     {
         "word": "cosmopolita",
@@ -1386,7 +1480,7 @@
         ],
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_026"
+        "id": "es_proficiency_social_006"
     },
     {
         "word": "narcisista",
@@ -1404,7 +1498,7 @@
         ],
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_psychology_025"
+        "id": "es_proficiency_psychology_016"
     },
     {
         "word": "heterodoxo",
@@ -1422,7 +1516,7 @@
         ],
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_language_028"
+        "id": "es_proficiency_language_027"
     }
 ];
 

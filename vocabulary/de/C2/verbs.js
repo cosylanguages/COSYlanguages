@@ -4,7 +4,7 @@
     {
         "word": "reifizieren",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🗿",
         "subtext": "ein Konzept reifizieren / den Markt reifizieren / Reifizierung der Arbeit",
         "form": "verb",
@@ -21,12 +21,14 @@
         "v2": "reifizierte",
         "v3": "reifiziert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_001"
     },
     {
         "word": "sublimieren",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🌫️",
         "subtext": "Verlangen sublimieren / Sublimierung von Impulsen / umleiten in",
         "form": "verb",
@@ -43,12 +45,14 @@
         "v2": "sublimierte",
         "v3": "sublimiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_002"
     },
     {
         "word": "basieren auf",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🏗️",
         "subtext": "basieren auf / einen Anspruch begründen / basierend auf der Annahme",
         "form": "verb",
@@ -65,12 +69,14 @@
         "v2": "basierte auf",
         "v3": "basiert auf",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_001"
     },
     {
         "word": "instanziieren",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🧱",
         "subtext": "ein Konzept instanziieren / in der Praxis instanziieren / konkrete Instanziierung",
         "form": "verb",
@@ -87,12 +93,14 @@
         "v2": "instanziierte",
         "v3": "instanziiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_003"
     },
     {
         "word": "negieren",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🚫",
         "subtext": "ein Argument negieren / ein Recht negieren / dialektische Negation",
         "form": "verb",
@@ -109,12 +117,14 @@
         "v2": "negierte",
         "v3": "negiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_001"
     },
     {
         "word": "transzendieren",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🌌",
         "subtext": "Grenzen transzendieren / Kategorien transzendieren / das Persönliche transzendieren",
         "form": "verb",
@@ -131,12 +141,14 @@
         "v2": "transzendierte",
         "v3": "transzendiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_004"
     },
     {
         "word": "vermitteln",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "⚖️",
         "subtext": "vermitteln zwischen / einen Konflikt vermitteln / sozial vermittelt",
         "form": "verb",
@@ -153,12 +165,14 @@
         "v2": "vermittelte",
         "v3": "vermittelt",
         "group": "eln",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_002"
     },
     {
         "word": "elidieren",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "✂️",
         "subtext": "eine Unterscheidung elidieren / den Unterschied elidieren / bewusst elidiert",
         "form": "verb",
@@ -175,12 +189,14 @@
         "v2": "elidierte",
         "v3": "elidiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_005"
     },
     {
         "word": "verschleiern",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🌫️",
         "subtext": "die Wahrheit verschleiern / bewusste Verschleierung / mit Jargon verschleiern",
         "form": "verb",
@@ -197,12 +213,14 @@
         "v2": "verschleierte",
         "v3": "verschleiert",
         "group": "ern",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_003"
     },
     {
         "word": "verschmelzen",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "🔀",
         "subtext": "Themen verschmelzen / konfundieren mit / gefährlich verschmelzen",
         "form": "verb",
@@ -219,12 +237,14 @@
         "v2": "verschmolz",
         "v3": "verschmolzen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_006"
     },
     {
         "word": "sich berufen auf",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "📜",
         "subtext": "sich auf ein Recht berufen / einen Präzedenzfall anführen",
         "form": "verb",
@@ -241,12 +261,14 @@
         "v2": "berief sich auf",
         "v3": "berufen auf",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_002"
     },
     {
         "word": "in den Vordergrund stellen",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🔦",
         "subtext": "ein Thema in den Vordergrund stellen / eine Perspektive betonen",
         "form": "verb",
@@ -263,12 +285,14 @@
         "v2": "stellte in den Vordergrund",
         "v3": "in den Vordergrund gestellt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_004"
     },
     {
         "word": "rekuperieren",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🧽",
         "subtext": "eine Bewegung rekuperieren / rekuperiert werden durch / kulturelle Rekuperation",
         "form": "verb",
@@ -285,12 +309,14 @@
         "v2": "rekuperierte",
         "v3": "rekuperiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_003"
     },
     {
         "word": "destabilisieren",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🌪️",
         "subtext": "ein Regime destabilisieren / Annahmen destabilisieren / bewusst destabilisieren",
         "form": "verb",
@@ -307,12 +333,14 @@
         "v2": "destabilisierte",
         "v3": "destabilisiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_004"
     },
     {
         "word": "kommodifizieren",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🏷️",
         "subtext": "Arbeit kommodifizieren / Pflege kommodifizieren / Kommodifizierung der Aufmerksamkeit",
         "form": "verb",
@@ -329,12 +357,14 @@
         "v2": "kommodifizierte",
         "v3": "kommodifiziert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_005"
     },
     {
         "word": "instrumentalisieren",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🛠️",
         "subtext": "Menschen instrumentalisieren / eine Idee instrumentalisieren / zum Instrument degradieren",
         "form": "verb",
@@ -351,12 +381,14 @@
         "v2": "instrumentalisierte",
         "v3": "instrumentalisiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_006"
     },
     {
         "word": "valorisieren",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🎖️",
         "subtext": "Arbeit valorisieren / ein Konzept valorisieren / kulturell valorisiert werden",
         "form": "verb",
@@ -373,12 +405,14 @@
         "v2": "valorisierte",
         "v3": "valorisiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_007"
     },
     {
         "word": "fetischisieren",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🧿",
         "subtext": "eine Idee fetischisieren / Warenfetischismus / Wachstum fetischisieren",
         "form": "verb",
@@ -395,12 +429,14 @@
         "v2": "fetischisierte",
         "v3": "fetischisiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_008"
     },
     {
         "word": "hegemonisieren",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "👑",
         "subtext": "den Diskurs hegemonisieren / hegemonisierende Tendenz / Resistenz gegen Hegemonisierung",
         "form": "verb",
@@ -418,12 +454,14 @@
         "v2": "hegemonisierte",
         "v3": "hegemonisiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_009"
     },
     {
         "word": "entfremden",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "⛓️",
         "subtext": "jemanden entfremden / sich entfremdet fühlen / marxistische Entfremdung",
         "form": "verb",
@@ -440,12 +478,14 @@
         "v2": "entfremdete",
         "v3": "entfremdet",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_010"
     },
     {
         "word": "demarkieren",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "📏",
         "subtext": "eine Grenze demarkieren / klar abgrenzen / Demarkationslinie",
         "form": "verb",
@@ -462,12 +502,14 @@
         "v2": "demarkierte",
         "v3": "demarkiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_005"
     },
     {
         "word": "eingrenzen",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🚧",
         "subtext": "den Umfang eingrenzen / ein Konzept delimitieren / sorgfältig eingegrenzt",
         "form": "verb",
@@ -484,12 +526,14 @@
         "v2": "grenzte ein",
         "v3": "eingrenzt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_006"
     },
     {
         "word": "entgegenstehen",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "militieren gegen / stark entgegenstehen / für etwas sprechen",
         "form": "verb",
@@ -506,12 +550,14 @@
         "v2": "stand entgegen",
         "v3": "entgegengestanden",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_011"
     },
     {
         "word": "beeinträchtigen",
         "level": "proficiency",
-        "theme": "epistemology_truth_C2",
+        "theme": "psychology",
         "emoji": "🧪",
         "subtext": "einen Anspruch entkräften / ein Argument beeinträchtigen / rechtlich entwertet",
         "form": "verb",
@@ -528,12 +574,14 @@
         "v2": "beeinträchtigte",
         "v3": "beeinträchtigt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_007"
     },
     {
         "word": "bestreiten",
         "level": "proficiency",
-        "theme": "epistemology_truth_C2",
+        "theme": "psychology",
         "emoji": "🗣️",
         "subtext": "schwer zu bestreiten / niemand kann leugnen / einen Anspruch bestreiten",
         "form": "verb",
@@ -550,12 +598,14 @@
         "v2": "bestritt",
         "v3": "bestritten",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_008"
     },
     {
         "word": "aufheben",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🔨",
         "subtext": "eine Vereinbarung aufheben / einen Vertrag abrogieren / einseitige Aufhebung",
         "form": "verb",
@@ -572,12 +622,14 @@
         "v2": "hob auf",
         "v3": "aufgehoben",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_012"
     },
     {
         "word": "dekonstruieren",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🏚️",
         "subtext": "ein Argument dekonstruieren / einen Text dekonstruieren / Derrida'sche Dekonstruktion",
         "form": "verb",
@@ -594,12 +646,14 @@
         "v2": "dekonstruierte",
         "v3": "dekonstruiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_009"
     },
     {
         "word": "problematisieren",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "❓",
         "subtext": "ein Konzept problematisieren / dem Drang zu problematisieren widerstehen",
         "form": "verb",
@@ -616,12 +670,14 @@
         "v2": "problematisierte",
         "v3": "problematisiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_007"
     },
     {
         "word": "analysieren",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "📦",
         "subtext": "eine Annahme entpacken / Auswirkungen analysieren / sorgfältig entfalten",
         "form": "verb",
@@ -638,12 +694,14 @@
         "v2": "analysierte",
         "v3": "analysiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_010"
     },
     {
         "word": "ausschließen",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🚪",
         "subtext": "eine Option ausschließen / die Debatte verhindern / die Möglichkeit ausschließen",
         "form": "verb",
@@ -660,12 +718,14 @@
         "v2": "schloss aus",
         "v3": "ausgeschlossen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_011"
     },
     {
         "word": "dialektisieren",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "☯️",
         "subtext": "einen Binärwert dialektisieren / dialektische Methode / These und Antithese",
         "form": "verb",
@@ -682,12 +742,14 @@
         "v2": "dialektisierte",
         "v3": "dialektisiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_008"
     },
     {
         "word": "verstoßen gegen",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "📜",
         "subtext": "gegen ein Gesetz verstoßen / gegen Vorschriften verstoßen",
         "form": "verb",
@@ -704,12 +766,14 @@
         "v2": "verstieß gegen",
         "v3": "verstoßen gegen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_013"
     },
     {
         "word": "subsumieren",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "📂",
         "subtext": "subsumieren unter / subsumiert werden durch / in eine Kategorie subsumieren",
         "form": "verb",
@@ -726,12 +790,14 @@
         "v2": "subsumierte",
         "v3": "subsumiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_009"
     },
     {
         "word": "akzentuieren",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "💡",
         "subtext": "einen Unterschied akzentuieren / das Positive betonen / akzentuiert werden durch",
         "form": "verb",
@@ -748,12 +814,14 @@
         "v2": "akzentuierte",
         "v3": "akzentuiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_010"
     },
     {
         "word": "einwilligen",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🤝",
         "subtext": "einwilligen in / widerwillige Duldung",
         "form": "verb",
@@ -770,12 +838,14 @@
         "v2": "willigte ein",
         "v3": "eingewilligt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_014"
     },
     {
         "word": "lindern",
         "level": "proficiency",
-        "theme": "ethics_advanced_C2",
+        "theme": "social",
         "emoji": "🩹",
         "subtext": "Leiden lindern / Armut lindern / Druck lindern",
         "form": "verb",
@@ -792,12 +862,14 @@
         "v2": "linderte",
         "v3": "gelindert",
         "group": "ern",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_015"
     },
     {
         "word": "umgehen",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🔄",
         "subtext": "Regeln umgehen / ein Problem umgehen / Kontrollen umgehen",
         "form": "verb",
@@ -814,12 +886,14 @@
         "v2": "umging",
         "v3": "umgangen",
         "group": "en",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "lang": "de",
+        "id": "de_proficiency_social_016"
     },
     {
         "word": "bestätigen",
         "level": "proficiency",
-        "theme": "epistemology_truth_C2",
+        "theme": "psychology",
         "emoji": "✅",
         "subtext": "einen Anspruch korroborieren / Beweise bestätigen",
         "form": "verb",
@@ -836,12 +910,14 @@
         "v2": "bestätigte",
         "v3": "bestätigt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_012"
     },
     {
         "word": "verbreiten",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "📢",
         "subtext": "Informationen verbreiten / Ergebnisse disseminieren / weit verbreitet",
         "form": "verb",
@@ -858,12 +934,14 @@
         "v2": "verbreitete",
         "v3": "verbreitet",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_013"
     },
     {
         "word": "zusammenfassen",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "💊",
         "subtext": "eine Idee kapseln / das Problem auf den Punkt bringen",
         "form": "verb",
@@ -880,12 +958,14 @@
         "v2": "fasste zusammen",
         "v3": "zusammengefasst",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_011"
     },
     {
         "word": "hervorrufen",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🌱",
         "subtext": "Vertrauen erzeugen / Konflikte hervorrufen / Unmut erzeugen",
         "form": "verb",
@@ -902,12 +982,14 @@
         "v2": "rief hervor",
         "v3": "hervorgerufen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_017"
     },
     {
         "word": "verschlimmern",
         "level": "proficiency",
-        "theme": "ethics_advanced_C2",
+        "theme": "social",
         "emoji": "📈",
         "subtext": "ein Problem verschlimmern / Spannungen exazerbieren / Ungleichheit verstärken",
         "form": "verb",
@@ -924,12 +1006,14 @@
         "v2": "verschlimmerte",
         "v3": "verschlimmert",
         "group": "ern",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_018"
     },
     {
         "word": "exemplifizieren",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "🌟",
         "subtext": "etwas beispielhaft darstellen / das Problem verdeutlichen",
         "form": "verb",
@@ -946,12 +1030,14 @@
         "v2": "exemplifizierte",
         "v3": "exemplifiziert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_012"
     },
     {
         "word": "behindern",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🛑",
         "subtext": "den Fortschritt behindern / das Wachstum hemmen / jemanden daran hindern",
         "form": "verb",
@@ -968,12 +1054,14 @@
         "v2": "behinderte",
         "v3": "behindert",
         "group": "ern",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_019"
     },
     {
         "word": "mildern",
         "level": "proficiency",
-        "theme": "ethics_advanced_C2",
+        "theme": "social",
         "emoji": "🛡️",
         "subtext": "Risiken mindern / die Auswirkungen mildern / entgegenwirken",
         "form": "verb",
@@ -990,12 +1078,14 @@
         "v2": "milderte",
         "v3": "gemildert",
         "group": "ern",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_020"
     },
     {
         "word": "verpflichten",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "📜",
         "subtext": "verpflichtet sein / jemanden verpflichten zu / sich verpflichtet fühlen",
         "form": "verb",
@@ -1012,12 +1102,14 @@
         "v2": "verpflichtete",
         "v3": "verpflichtet",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_social_021"
     },
     {
         "word": "durchdringen",
         "level": "proficiency",
-        "theme": "civilisation_history_C2",
+        "theme": "time",
         "emoji": "🌊",
         "subtext": "die Organisation durchdringen / durchdrungen sein von / allgegenwärtig",
         "form": "verb",
@@ -1034,12 +1126,14 @@
         "v2": "durchdrang",
         "v3": "durchdrungen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_time_001"
     },
     {
         "word": "ausschließen",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🚫",
         "subtext": "jemanden ausschließen / die Möglichkeit ausschließen / nicht ausschließen",
         "form": "verb",
@@ -1056,12 +1150,14 @@
         "v2": "schloss aus",
         "v3": "ausgeschlossen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_014"
     },
     {
         "word": "vereinbaren",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "🤝",
         "subtext": "Ideen vereinbaren / schwer zu vereinbaren / Differenzen beilegen",
         "form": "verb",
@@ -1078,12 +1174,14 @@
         "v2": "vereinbarte",
         "v3": "vereinbart",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_013"
     },
     {
         "word": "ersetzen",
         "level": "proficiency",
-        "theme": "civilisation_history_C2",
+        "theme": "time",
         "emoji": "🚀",
         "subtext": "ein Gesetz ersetzen / frühere Richtlinien ablösen / ersetzt werden durch",
         "form": "verb",
@@ -1100,12 +1198,14 @@
         "v2": "ersetzte",
         "v3": "ersetzt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_time_002"
     },
     {
         "word": "untermauern",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "🏗️",
         "subtext": "ein Argument untermauern / Erfolg begründen / untermauert werden durch",
         "form": "verb",
@@ -1122,12 +1222,14 @@
         "v2": "untermauerte",
         "v3": "untermauert",
         "group": "ern",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_014"
     },
     {
         "word": "rechtfertigen",
         "level": "proficiency",
-        "theme": "epistemology_truth_C2",
+        "theme": "psychology",
         "emoji": "⚖️",
         "subtext": "jemanden rehabilitieren / eine Entscheidung rechtfertigen / sich gerechtfertigt fühlen",
         "form": "verb",
@@ -1144,12 +1246,14 @@
         "v2": "rechtfertigte",
         "v3": "gerechtfertigt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_psychology_015"
     },
     {
         "word": "abhängen von",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🚪",
         "subtext": "abhängen von einer Entscheidung / abhängen von einem einzigen Faktor",
         "form": "verb",
@@ -1166,12 +1270,14 @@
         "v2": "hing ab von",
         "v3": "abgehangen von",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_015"
     },
     {
         "word": "ringen mit",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "🤼",
         "subtext": "mit einem Problem ringen / sich mit Auswirkungen auseinandersetzen",
         "form": "verb",
@@ -1188,12 +1294,14 @@
         "v2": "rang mit",
         "v3": "gerungen mit",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_016"
     },
     {
         "word": "beschönigen",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "🎨",
         "subtext": "ein Problem beschönigen / über Details hinweggehen",
         "form": "verb",
@@ -1210,12 +1318,14 @@
         "v2": "beschönigte",
         "v3": "beschönigt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_017"
     },
     {
         "word": "kaschieren",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "📄",
         "subtext": "ein Problem kaschieren / Risse übertünchen / Differenzen überdecken",
         "form": "verb",
@@ -1232,7 +1342,9 @@
         "v2": "kaschierte",
         "v3": "kaschiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_language_018"
     },
     {
         "word": "Paradigmenwechsel",
@@ -1254,7 +1366,9 @@
         "v2": "vollzog einen Paradigmenwechsel",
         "v3": "vollzogener Paradigmenwechsel",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "lang": "de",
+        "id": "de_proficiency_academic_general_001"
     }
 ];
     const lang = "de";

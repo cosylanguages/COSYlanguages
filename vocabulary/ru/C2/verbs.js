@@ -21,7 +21,9 @@
         "v2": "реифицировал",
         "v3": "реифицированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_philosophy_logic_001"
     },
     {
         "word": "сублимировать",
@@ -43,7 +45,9 @@
         "v2": "сублимировал",
         "v3": "сублимированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_psychology_academic_001"
     },
     {
         "word": "предицировать",
@@ -65,7 +69,9 @@
         "v2": "предицировал",
         "v3": "предицированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_logic_linguistics_001"
     },
     {
         "word": "воплощать",
@@ -87,7 +93,9 @@
         "v2": "воплощал",
         "v3": "воплощенный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_logic_computing_001"
     },
     {
         "word": "отрицать",
@@ -109,7 +117,9 @@
         "v2": "отрицал",
         "v3": "отрицаемый",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_logic_debate_001"
     },
     {
         "word": "превосходить",
@@ -131,7 +141,9 @@
         "v2": "превосходил",
         "v3": "превосходимый",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_philosophy_general_001"
     },
     {
         "word": "опосредовать",
@@ -153,7 +165,9 @@
         "v2": "опосредовал",
         "v3": "опосредованный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_sociology_conflict_001"
     },
     {
         "word": "опускать",
@@ -175,7 +189,9 @@
         "v2": "опускал",
         "v3": "опущенный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_linguistics_debate_001"
     },
     {
         "word": "запутывать",
@@ -197,7 +213,9 @@
         "v2": "запутывал",
         "v3": "запутанный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_debate_communication_001"
     },
     {
         "word": "смешивать",
@@ -219,7 +237,9 @@
         "v2": "смешивал",
         "v3": "смешанный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_debate_academic_001"
     },
     {
         "word": "ссылаться",
@@ -242,7 +262,9 @@
         "v3": "сосланный",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "id": "ru_proficiency_law_debate_001"
     },
     {
         "word": "выдвигать",
@@ -264,7 +286,9 @@
         "v2": "выдвигал",
         "v3": "выдвинутый",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_art_media_001"
     },
     {
         "word": "апроприировать",
@@ -286,7 +310,9 @@
         "v2": "апроприировал",
         "v3": "апроприированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_sociology_culture_001"
     },
     {
         "word": "дестабилизировать",
@@ -308,7 +334,9 @@
         "v2": "дестабилизировал",
         "v3": "дестабилизированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_politics_academic_001"
     },
     {
         "word": "коммодифицировать",
@@ -330,7 +358,9 @@
         "v2": "коммодифицировал",
         "v3": "коммодифицированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_economics_sociology_001"
     },
     {
         "word": "инструментализировать",
@@ -352,7 +382,9 @@
         "v2": "инструментализировал",
         "v3": "инструментализированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_politics_philosophy_001"
     },
     {
         "word": "валоризировать",
@@ -374,7 +406,9 @@
         "v2": "валоризировал",
         "v3": "валоризированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_sociology_academic_001"
     },
     {
         "word": "фетишизировать",
@@ -396,7 +430,9 @@
         "v2": "фетишизировал",
         "v3": "фетишизированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_sociology_academic_002"
     },
     {
         "word": "отчуждать",
@@ -418,7 +454,9 @@
         "v2": "отчуждал",
         "v3": "отчужденный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_sociology_psychology_001"
     },
     {
         "word": "разграничивать",
@@ -440,7 +478,9 @@
         "v2": "разграничивал",
         "v3": "разграниченный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_law_philosophy_001"
     },
     {
         "word": "ограничивать",
@@ -462,7 +502,9 @@
         "v2": "ограничивал",
         "v3": "ограниченный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_academic_research_001"
     },
     {
         "word": "препятствовать",
@@ -484,7 +526,9 @@
         "v2": "препятствовал",
         "v3": "препятствующий",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_debate_academic_002"
     },
     {
         "word": "искажать",
@@ -506,7 +550,9 @@
         "v2": "искажал",
         "v3": "искаженный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_law_academic_001"
     },
     {
         "word": "оспаривать",
@@ -528,7 +574,9 @@
         "v2": "оспаривал",
         "v3": "оспариваемый",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_debate_logic_001"
     },
     {
         "word": "аннулировать",
@@ -550,7 +598,9 @@
         "v2": "аннулировал",
         "v3": "аннулированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_law_politics_001"
     },
     {
         "word": "нарушать",
@@ -572,7 +622,9 @@
         "v2": "нарушал",
         "v3": "нарушенный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_law_debate_002"
     },
     {
         "word": "включать",
@@ -594,7 +646,9 @@
         "v2": "включал",
         "v3": "включенный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_logic_philosophy_001"
     },
     {
         "word": "деконструировать",
@@ -616,7 +670,9 @@
         "v2": "деконструировал",
         "v3": "деконструированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_philosophy_literature_001"
     },
     {
         "word": "предотвращать",
@@ -638,7 +694,9 @@
         "v2": "предотвращал",
         "v3": "предотвращенный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_law_debate_003"
     },
     {
         "word": "диалектизировать",
@@ -660,7 +718,9 @@
         "v2": "диалектизировал",
         "v3": "диалектизированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_philosophy_academic_001"
     },
     {
         "word": "гегемонизировать",
@@ -682,7 +742,9 @@
         "v2": "гегемонизировал",
         "v3": "гегемонизированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_politics_sociology_001"
     },
     {
         "word": "подчеркивать",
@@ -704,7 +766,9 @@
         "v2": "подчеркивал",
         "v3": "подчеркнутый",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_001"
     },
     {
         "word": "соглашаться",
@@ -727,7 +791,9 @@
         "v3": "согласившийся",
         "group": "1st_conj",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "ru",
+        "id": "ru_proficiency_debate_communication_002"
     },
     {
         "word": "облегчать",
@@ -749,7 +815,9 @@
         "v2": "облегчал",
         "v3": "облегченный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_policy_general_001"
     },
     {
         "word": "обходить",
@@ -771,7 +839,9 @@
         "v2": "обходил",
         "v3": "обходимый",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_debate_general_001"
     },
     {
         "word": "подтверждать",
@@ -793,7 +863,9 @@
         "v2": "подтверждал",
         "v3": "подтвержденный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_academic_research_002"
     },
     {
         "word": "распространять",
@@ -815,7 +887,9 @@
         "v2": "распространял",
         "v3": "распространенный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_academic_research_003"
     },
     {
         "word": "инкапсулировать",
@@ -837,7 +911,9 @@
         "v2": "инкапсулировал",
         "v3": "инкапсулированный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_002"
     },
     {
         "word": "порождать",
@@ -859,7 +935,9 @@
         "v2": "порождал",
         "v3": "порожденный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_sociology_general_001"
     },
     {
         "word": "усугублять",
@@ -881,7 +959,9 @@
         "v2": "усугублял",
         "v3": "усугубленный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_003"
     },
     {
         "word": "служить примером",
@@ -903,7 +983,9 @@
         "v2": "служил примером",
         "v3": "служивший примером",
         "group": "2nd_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_004"
     },
     {
         "word": "препятствовать",
@@ -925,7 +1007,9 @@
         "v2": "препятствовал",
         "v3": "препятствующий",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_005"
     },
     {
         "word": "смягчать",
@@ -947,7 +1031,9 @@
         "v2": "смягчал",
         "v3": "смягченный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_006"
     },
     {
         "word": "обязывать",
@@ -969,7 +1055,9 @@
         "v2": "обязывал",
         "v3": "обязанный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_law_general_001"
     },
     {
         "word": "пронизывать",
@@ -991,7 +1079,9 @@
         "v2": "пронизывал",
         "v3": "пронизанный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_007"
     },
     {
         "word": "исключать",
@@ -1013,7 +1103,9 @@
         "v2": "исключал",
         "v3": "исключенный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_008"
     },
     {
         "word": "согласовывать",
@@ -1035,7 +1127,9 @@
         "v2": "согласовывал",
         "v3": "согласованный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_009"
     },
     {
         "word": "вытеснять",
@@ -1057,7 +1151,9 @@
         "v2": "вытеснял",
         "v3": "вытесненный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_law_academic_002"
     },
     {
         "word": "подкреплять",
@@ -1079,7 +1175,9 @@
         "v2": "подкреплял",
         "v3": "подкрепленный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_010"
     },
     {
         "word": "подтверждать правоту",
@@ -1101,7 +1199,9 @@
         "v2": "подтвердил правоту",
         "v3": "подтвердивший правоту",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_011"
     },
     {
         "word": "зависеть от",
@@ -1123,7 +1223,9 @@
         "v2": "зависел",
         "v3": "зависящий",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_012"
     },
     {
         "word": "бороться с",
@@ -1145,7 +1247,9 @@
         "v2": "боролся",
         "v3": "боровшийся",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_general_academic_013"
     },
     {
         "word": "замалчивать",
@@ -1167,7 +1271,9 @@
         "v2": "замалчивал",
         "v3": "замалчиваемый",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_debate_academic_003"
     },
     {
         "word": "сглаживать",
@@ -1189,7 +1295,9 @@
         "v2": "сглаживал",
         "v3": "сглаженный",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_debate_politics_001"
     },
     {
         "word": "смена парадигмы",
@@ -1211,7 +1319,9 @@
         "v2": "сменил парадигму",
         "v3": "сменивший парадигму",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "lang": "ru",
+        "id": "ru_proficiency_academic_general_001"
     }
 ];
     const lang = "ru";

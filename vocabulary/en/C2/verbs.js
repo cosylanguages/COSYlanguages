@@ -2,7 +2,7 @@
 (function() {
 const data = [
     {
-        "id": "en_proficiency_language_079",
+        "id": "en_proficiency_language_001",
         "word": "reify",
         "emoji": "🗿",
         "subtext": "reify a concept / reify the market / reification of labour",
@@ -29,7 +29,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_080",
+        "id": "en_proficiency_language_002",
         "word": "sublimate",
         "emoji": "🌫️",
         "subtext": "sublimate desire / sublimation of impulse / redirect into",
@@ -56,7 +56,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_017",
+        "id": "en_proficiency_social_001",
         "word": "predicate",
         "emoji": "🏗️",
         "subtext": "predicate on / predicate a claim / predicated on the assumption",
@@ -83,7 +83,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_081",
+        "id": "en_proficiency_language_003",
         "word": "instantiate",
         "emoji": "🧱",
         "subtext": "instantiate a concept / instantiate in practice / concrete instantiation",
@@ -110,7 +110,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_082",
+        "id": "en_proficiency_language_004",
         "word": "negate",
         "emoji": "🚫",
         "subtext": "negate an argument / negate a right / dialectical negation",
@@ -137,7 +137,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_083",
+        "id": "en_proficiency_language_005",
         "word": "transcend",
         "emoji": "🌌",
         "subtext": "transcend limits / transcend categories / transcend the personal",
@@ -164,7 +164,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_084",
+        "id": "en_proficiency_language_006",
         "word": "mediate",
         "emoji": "⚖️",
         "subtext": "mediate between / mediate a conflict / socially mediated",
@@ -191,7 +191,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_085",
+        "id": "en_proficiency_language_007",
         "word": "elide",
         "emoji": "✂️",
         "subtext": "elide a distinction / elide the difference / deliberately elide",
@@ -218,7 +218,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_086",
+        "id": "en_proficiency_language_008",
         "word": "obfuscate",
         "emoji": "🌫️",
         "subtext": "obfuscate the truth / deliberate obfuscation / obfuscate with jargon",
@@ -245,7 +245,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_087",
+        "id": "en_proficiency_language_009",
         "word": "conflate",
         "emoji": "🔔",
         "subtext": "conflate issues / conflate with / dangerously conflate",
@@ -272,7 +272,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_018",
+        "id": "en_proficiency_social_002",
         "word": "invoke",
         "emoji": "📜",
         "subtext": "invoke a right / invoke precedent / invoke an argument",
@@ -299,7 +299,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_088",
+        "id": "en_proficiency_language_010",
         "word": "foreground",
         "emoji": "🔦",
         "subtext": "foreground an issue / foreground a perspective / deliberately foreground",
@@ -326,7 +326,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_019",
+        "id": "en_proficiency_social_003",
         "word": "recuperate",
         "emoji": "🧽",
         "subtext": "recuperate a movement / be recuperated by / cultural recuperation",
@@ -353,7 +353,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_020",
+        "id": "en_proficiency_social_004",
         "word": "destabilise",
         "emoji": "🌪️",
         "subtext": "destabilise a regime / destabilise assumptions / deliberately destabilise",
@@ -380,7 +380,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_021",
+        "id": "en_proficiency_social_005",
         "word": "commodify",
         "emoji": "🏷️",
         "subtext": "commodify labour / commodify care / commodification of attention",
@@ -407,7 +407,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_022",
+        "id": "en_proficiency_social_006",
         "word": "instrumentalise",
         "emoji": "🛠️",
         "transcription": "ˌɪnstrəˈmentəlaɪz",
@@ -434,7 +434,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_023",
+        "id": "en_proficiency_social_007",
         "word": "valorise",
         "emoji": "🎖️",
         "transcription": "ˈvæləraɪz",
@@ -461,7 +461,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_024",
+        "id": "en_proficiency_social_008",
         "word": "fetishise",
         "emoji": "🧿",
         "transcription": "ˈfetɪʃaɪz",
@@ -488,7 +488,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_025",
+        "id": "en_proficiency_social_009",
         "word": "hegemonise",
         "emoji": "👑",
         "transcription": "hɪˈdʒemənaɪz",
@@ -515,7 +515,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_026",
+        "id": "en_proficiency_social_010",
         "word": "alienate",
         "emoji": "⛓️",
         "transcription": "ˈeɪliəneɪt",
@@ -542,7 +542,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_089",
+        "id": "en_proficiency_language_011",
         "word": "demarcate",
         "emoji": "📏",
         "transcription": "ˈdiːmɑːkeɪt",
@@ -569,7 +569,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_090",
+        "id": "en_proficiency_language_012",
         "word": "delimit",
         "emoji": "🚧",
         "transcription": "diːˈlɪmɪt",
@@ -596,7 +596,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_027",
+        "id": "en_proficiency_social_011",
         "word": "militate",
         "emoji": "⚖️",
         "transcription": "ˈmɪlɪteɪt",
@@ -623,7 +623,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_epistemology_truth_014",
+        "id": "en_proficiency_epistemology_truth_001",
         "word": "vitiate",
         "emoji": "🧪",
         "transcription": "ˈvɪʃieɪt",
@@ -650,7 +650,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_epistemology_truth_015",
+        "id": "en_proficiency_epistemology_truth_002",
         "word": "gainsay",
         "emoji": "🗣️",
         "transcription": "ˌɡeɪnˈseɪ",
@@ -676,7 +676,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_028",
+        "id": "en_proficiency_social_012",
         "word": "abrogate",
         "emoji": "🔨",
         "transcription": "ˈæbrəɡeɪt",
@@ -703,7 +703,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_091",
+        "id": "en_proficiency_language_013",
         "word": "deconstruct",
         "emoji": "🏚️",
         "transcription": "ˌdiːkənˈstrʌkt",
@@ -730,7 +730,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_092",
+        "id": "en_proficiency_language_014",
         "word": "problematise",
         "emoji": "❓",
         "transcription": "ˈprɒbləmətaɪz",
@@ -757,7 +757,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_093",
+        "id": "en_proficiency_language_015",
         "word": "unpack",
         "emoji": "📦",
         "transcription": "ˌʌnˈpæk",
@@ -784,7 +784,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_094",
+        "id": "en_proficiency_language_016",
         "word": "foreclose",
         "emoji": "🚪",
         "transcription": "fɔːˈkləʊz",
@@ -811,7 +811,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_095",
+        "id": "en_proficiency_language_017",
         "word": "dialecticise",
         "emoji": "☯️",
         "transcription": "ˌdaɪəˈlektɪsaɪz",
@@ -838,7 +838,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_029",
+        "id": "en_proficiency_social_013",
         "word": "contravene",
         "emoji": "📜",
         "transcription": "ˌkɒntrəˈviːn",
@@ -865,7 +865,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_096",
+        "id": "en_proficiency_language_018",
         "word": "subsume",
         "emoji": "📂",
         "transcription": "səbˈsjuːm",
@@ -892,7 +892,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_097",
+        "id": "en_proficiency_language_019",
         "word": "accentuate",
         "emoji": "💡",
         "transcription": "əkˈsentʃueɪt",
@@ -919,7 +919,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_030",
+        "id": "en_proficiency_social_014",
         "word": "acquiesce",
         "emoji": "🤝",
         "transcription": "ˌækwiˈes",
@@ -946,7 +946,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_031",
+        "id": "en_proficiency_social_015",
         "word": "alleviate",
         "emoji": "🩹",
         "transcription": "əˈliːvieɪt",
@@ -973,7 +973,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_032",
+        "id": "en_proficiency_social_016",
         "word": "circumvent",
         "emoji": "🔄",
         "transcription": "ˌsɜːkəmˈvent",
@@ -1000,7 +1000,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_epistemology_truth_016",
+        "id": "en_proficiency_epistemology_truth_003",
         "word": "corroborate",
         "emoji": "✅",
         "transcription": "kəˈrɒbəreɪt",
@@ -1027,7 +1027,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_098",
+        "id": "en_proficiency_language_020",
         "word": "disseminate",
         "emoji": "📢",
         "transcription": "dɪˈsemɪneɪt",
@@ -1054,7 +1054,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_099",
+        "id": "en_proficiency_language_021",
         "word": "encapsulate",
         "emoji": "💊",
         "transcription": "ɪnˈkæpsjuleɪt",
@@ -1081,7 +1081,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_033",
+        "id": "en_proficiency_social_017",
         "word": "engender",
         "emoji": "🌱",
         "transcription": "ɪnˈdʒendə",
@@ -1108,7 +1108,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_034",
+        "id": "en_proficiency_social_018",
         "word": "exacerbate",
         "emoji": "📈",
         "transcription": "ɪɡˈzæsəbeɪt",
@@ -1135,7 +1135,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_100",
+        "id": "en_proficiency_language_022",
         "word": "exemplify",
         "emoji": "🌟",
         "transcription": "ɪɡˈzemplɪfaɪ",
@@ -1162,7 +1162,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_035",
+        "id": "en_proficiency_social_019",
         "word": "impede",
         "emoji": "🛑",
         "transcription": "ɪmˈpiːd",
@@ -1189,7 +1189,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_036",
+        "id": "en_proficiency_social_020",
         "word": "mitigate",
         "emoji": "🛡️",
         "transcription": "ˈmɪtɪɡeɪt",
@@ -1216,7 +1216,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_037",
+        "id": "en_proficiency_social_021",
         "word": "oblige",
         "emoji": "📜",
         "transcription": "əˈblaɪdʒ",
@@ -1243,7 +1243,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_038",
+        "id": "en_proficiency_social_022",
         "word": "pervade",
         "emoji": "🌊",
         "transcription": "pəˈveɪd",
@@ -1270,7 +1270,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_101",
+        "id": "en_proficiency_language_023",
         "word": "preclude",
         "emoji": "🚫",
         "transcription": "prɪˈkluːd",
@@ -1297,7 +1297,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_102",
+        "id": "en_proficiency_language_024",
         "word": "reconcile",
         "emoji": "🤝",
         "transcription": "ˈrekənsaɪl",
@@ -1324,7 +1324,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_social_039",
+        "id": "en_proficiency_social_023",
         "word": "supersede",
         "emoji": "🚀",
         "transcription": "ˌsuːpəˈsiːd",
@@ -1351,7 +1351,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_103",
+        "id": "en_proficiency_language_025",
         "word": "underpin",
         "emoji": "🏗️",
         "transcription": "ˌʌndəˈpɪn",
@@ -1378,7 +1378,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_epistemology_truth_017",
+        "id": "en_proficiency_epistemology_truth_004",
         "word": "vindicate",
         "emoji": "⚖️",
         "transcription": "ˈvɪndɪkeɪt",
@@ -1405,7 +1405,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_104",
+        "id": "en_proficiency_language_026",
         "word": "hinge on",
         "emoji": "🚪",
         "transcription": "hɪndʒ ɒn",
@@ -1432,7 +1432,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_105",
+        "id": "en_proficiency_language_027",
         "word": "grapple with",
         "emoji": "🤼",
         "transcription": "ˈɡræpl wɪð",
@@ -1459,7 +1459,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_106",
+        "id": "en_proficiency_language_028",
         "word": "gloss over",
         "emoji": "🎨",
         "transcription": "ɡlɒs ˈəʊvə",
@@ -1486,7 +1486,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_107",
+        "id": "en_proficiency_language_029",
         "word": "paper over",
         "emoji": "📄",
         "transcription": "ˈpeɪpə ˈəʊvə",
@@ -1513,7 +1513,7 @@ const data = [
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_108",
+        "id": "en_proficiency_language_030",
         "word": "paradigm shift",
         "emoji": "🔄",
         "transcription": "ˈpærədaɪm ʃɪft",

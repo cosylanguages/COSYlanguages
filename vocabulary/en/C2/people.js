@@ -3,7 +3,7 @@
     const data = [
     {
         "id": "en_proficiency_people_001",
-        "word": "Marilyn Monroe",
+        "word": "Marilyn Monroe", "emoji": "🎬",
         "form": "other",
         "definitions": [
             {
@@ -18,7 +18,7 @@
     },
     {
         "id": "en_proficiency_people_002",
-        "word": "Aristotle",
+        "word": "Aristotle", "emoji": "🏛️",
         "form": "other",
         "definitions": [
             {

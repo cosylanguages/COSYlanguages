@@ -19,7 +19,7 @@
         ],
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_033"
+        "id": "es_proficiency_psychology_001"
     },
     {
         "word": "teleología",
@@ -38,7 +38,7 @@
         ],
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_034"
+        "id": "es_proficiency_psychology_002"
     },
     {
         "word": "ontología",
@@ -57,7 +57,7 @@
         ],
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_035"
+        "id": "es_proficiency_psychology_003"
     },
     {
         "word": "cosificación",
@@ -76,7 +76,7 @@
         ],
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_036"
+        "id": "es_proficiency_psychology_004"
     },
     {
         "word": "dialéctica",
@@ -95,7 +95,7 @@
         ],
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_044"
+        "id": "es_proficiency_language_001"
     },
     {
         "word": "heurístico",
@@ -114,7 +114,7 @@
         ],
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_037"
+        "id": "es_proficiency_psychology_005"
     },
     {
         "word": "apofenia",
@@ -133,7 +133,7 @@
         ],
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_038"
+        "id": "es_proficiency_psychology_006"
     },
     {
         "word": "cognición motivada",
@@ -151,7 +151,7 @@
         ],
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_039"
+        "id": "es_proficiency_psychology_007"
     },
     {
         "word": "principio proactivo",
@@ -169,7 +169,7 @@
         ],
         "lang": "es",
         "sub_theme": "behavior",
-        "id": "es_proficiency_psychology_040"
+        "id": "es_proficiency_psychology_008"
     },
     {
         "word": "principio de precaución",
@@ -187,7 +187,7 @@
         ],
         "lang": "es",
         "sub_theme": "behavior",
-        "id": "es_proficiency_psychology_041"
+        "id": "es_proficiency_psychology_009"
     },
     {
         "word": "neutralidad liberal",
@@ -205,7 +205,7 @@
         ],
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_032"
+        "id": "es_proficiency_social_001"
     },
     {
         "word": "pronatalismo",
@@ -224,7 +224,7 @@
         ],
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_033"
+        "id": "es_proficiency_social_002"
     },
     {
         "word": "sublimación",
@@ -243,7 +243,7 @@
         ],
         "lang": "es",
         "sub_theme": "behavior",
-        "id": "es_proficiency_psychology_042"
+        "id": "es_proficiency_psychology_010"
     },
     {
         "word": "jouissance",
@@ -262,7 +262,7 @@
         ],
         "lang": "es",
         "sub_theme": "behavior",
-        "id": "es_proficiency_psychology_043"
+        "id": "es_proficiency_psychology_011"
     },
     {
         "word": "tánatos",
@@ -281,7 +281,7 @@
         ],
         "lang": "es",
         "sub_theme": "behavior",
-        "id": "es_proficiency_psychology_044"
+        "id": "es_proficiency_psychology_012"
     },
     {
         "word": "bathos",
@@ -300,7 +300,7 @@
         ],
         "lang": "es",
         "sub_theme": "art",
-        "id": "es_proficiency_art_culture_013"
+        "id": "es_proficiency_art_culture_001"
     },
     {
         "word": "apofasis",
@@ -319,7 +319,7 @@
         ],
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_045"
+        "id": "es_proficiency_language_002"
     },
     {
         "word": "paralepsis",
@@ -338,7 +338,7 @@
         ],
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_046"
+        "id": "es_proficiency_language_003"
     },
     {
         "word": "espacio liminal",
@@ -356,7 +356,7 @@
         ],
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_045"
+        "id": "es_proficiency_psychology_013"
     },
     {
         "word": "quiasmo",
@@ -375,7 +375,7 @@
         ],
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_047"
+        "id": "es_proficiency_language_004"
     },
     {
         "word": "shibboleth",
@@ -394,7 +394,7 @@
         ],
         "lang": "es",
         "sub_theme": "phonetics",
-        "id": "es_proficiency_language_048"
+        "id": "es_proficiency_language_005"
     }
 ];
 

@@ -2,21 +2,14 @@
 (function() {
     const data = [
     {
-        "word": "garden",
-        "image": "images/vocabulary/places/garden.png",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "🌳",
-        "form": "noun", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
-        "countability": "countable"
-    },
-{
+        "id": "en_proficiency_psychology_001",
         "word": "philosopher",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "psychology",
         "emoji": "🧐",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "philosophers",
         "definitions": [
             {
@@ -34,36 +27,72 @@
             }
         ]
     },
-{
+    {
+        "id": "en_proficiency_technology_001",
         "word": "blockchain",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "technology",
         "emoji": "⛓️",
-        "form": "noun", "classification": "regular",
-        "plural": "blockchains"
+        "form": "noun",
+        "classification": "regular",
+        "plural": "blockchains",
+        "definitions": [
+            {
+                "text": "A distributed, decentralized, public ledger that records transactions across many computers.",
+                "examples": [
+                    "The blockchain ensures that the record cannot be altered retroactively."
+                ]
+            }
+        ]
     },
-{
+    {
+        "id": "en_proficiency_psychology_002",
         "word": "existentialism",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "psychology",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
-        "countability": "uncountable"
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "A philosophical theory that emphasizes the existence of the individual person as a free and responsible agent.",
+                "examples": [
+                    "Sartre and Camus are two of the most famous thinkers associated with existentialism."
+                ]
+            }
+        ]
     },
-{
+    {
+        "id": "en_proficiency_psychology_003",
         "word": "paradigm shift",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "psychology",
         "emoji": "🔄",
-        "form": "noun", "classification": "regular",
-        "plural": "paradigm shifts"
+        "form": "noun",
+        "classification": "regular",
+        "plural": "paradigm shifts",
+        "definitions": [
+            {
+                "text": "A fundamental change in approach or underlying assumptions.",
+                "examples": [
+                    "The discovery of DNA caused a paradigm shift in biological research."
+                ]
+            }
+        ]
     },
-{
+    {
+        "id": "en_proficiency_language_001",
         "word": "aporia",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🤔",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "əˈpɔːriə",
         "definitions": [
             {
@@ -76,12 +105,15 @@
         "countability": "uncountable",
         "subtext": "philosophical puzzle"
     },
-{
+    {
+        "id": "en_proficiency_language_002",
         "word": "teleology",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🎯",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˌtiːliˈɒlədʒi | 🇺🇸 ˌtiːliˈɑːlədʒi",
         "definitions": [
             {
@@ -94,12 +126,15 @@
         "countability": "uncountable",
         "subtext": "study of purpose"
     },
-{
+    {
+        "id": "en_proficiency_language_003",
         "word": "ontology",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "👻",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ɒnˈtɒlədʒi | 🇺🇸 ɑːnˈtɑːlədʒi",
         "definitions": [
             {
@@ -112,12 +147,15 @@
         "countability": "uncountable",
         "subtext": "nature of being"
     },
-{
+    {
+        "id": "en_proficiency_language_004",
         "word": "reification",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🧱",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌriːɪfɪˈkeɪʃn",
         "definitions": [
             {
@@ -130,12 +168,15 @@
         "countability": "uncountable",
         "subtext": "making abstract concrete"
     },
-{
+    {
+        "id": "en_proficiency_language_005",
         "word": "dialectic",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "dialectics",
         "transcription": "ˌdaɪəˈlektɪk",
         "definitions": [
@@ -149,12 +190,15 @@
         "countability": "countable",
         "subtext": "argument by contradiction"
     },
-{
+    {
+        "id": "en_proficiency_psychology_004",
         "word": "heuristic",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "heuristics",
         "transcription": "hjuˈrɪstɪk",
         "definitions": [
@@ -168,12 +212,15 @@
         "countability": "countable",
         "subtext": "mental shortcut"
     },
-{
+    {
+        "id": "en_proficiency_psychology_005",
         "word": "apophenia",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🕸️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌæpəˈfiːniə",
         "definitions": [
             {
@@ -186,12 +233,15 @@
         "countability": "uncountable",
         "subtext": "perceived patterns"
     },
-{
+    {
+        "id": "en_proficiency_psychology_006",
         "word": "motivated cognition",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🧠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˈməʊtɪveɪtɪd kɒɡˈnɪʃn | 🇺🇸 ˈmoʊtɪveɪtɪd kɑːɡˈnɪʃn",
         "definitions": [
             {
@@ -204,12 +254,15 @@
         "countability": "uncountable",
         "subtext": "biased reasoning"
     },
-{
+    {
+        "id": "en_proficiency_psychology_007",
         "word": "proactionary principle",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ethics_advanced_C2",
+        "theme": "psychology",
         "emoji": "🚀",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 prəʊˈækʃənəri ˈprɪnsəpl | 🇺🇸 proʊˈækʃənəri ˈprɪnsəpl",
         "definitions": [
             {
@@ -222,12 +275,15 @@
         "countability": "uncountable",
         "subtext": "risk of inaction"
     },
-{
+    {
+        "id": "en_proficiency_psychology_008",
         "word": "precautionary principle",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ethics_advanced_C2",
+        "theme": "psychology",
         "emoji": "🛡️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "prɪˈkɔːʃənəri ˈprɪnsəpl",
         "definitions": [
             {
@@ -240,12 +296,15 @@
         "countability": "uncountable",
         "subtext": "safety first"
     },
-{
+    {
+        "id": "en_proficiency_social_001",
         "word": "liberal neutrality",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˈlɪbərəl njuːˈtræləti",
         "definitions": [
             {
@@ -258,12 +317,15 @@
         "countability": "uncountable",
         "subtext": "state impartiality"
     },
-{
+    {
+        "id": "en_proficiency_social_002",
         "word": "pronatalism",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "👶",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˌprəʊˈneɪtəlɪzəm | 🇺🇸 ˌproʊˈneɪtəlɪzəm",
         "definitions": [
             {
@@ -276,12 +338,15 @@
         "countability": "uncountable",
         "subtext": "encouraging birth"
     },
-{
+    {
+        "id": "en_proficiency_psychology_009",
         "word": "sublimation",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "psychoanalysis_unconscious_C2",
+        "theme": "psychology",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌsʌblɪˈmeɪʃn",
         "definitions": [
             {
@@ -294,12 +359,15 @@
         "countability": "uncountable",
         "subtext": "redirected impulse"
     },
-{
+    {
+        "id": "en_proficiency_psychology_010",
         "word": "jouissance",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "psychoanalysis_unconscious_C2",
+        "theme": "psychology",
         "emoji": "🔥",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˌʒwiːsɒ̃s | 🇺🇸 ˌʒwiːsɑː̃s",
         "definitions": [
             {
@@ -312,12 +380,15 @@
         "countability": "uncountable",
         "subtext": "excessive enjoyment"
     },
-{
+    {
+        "id": "en_proficiency_psychology_011",
         "word": "thanatos",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "psychoanalysis_unconscious_C2",
+        "theme": "psychology",
         "emoji": "💀",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˈθænətɒs | 🇺🇸 ˈθænətɑːs",
         "definitions": [
             {
@@ -330,12 +401,15 @@
         "countability": "uncountable",
         "subtext": "death drive"
     },
-{
+    {
+        "id": "en_proficiency_art_culture_001",
         "word": "bathos",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "aesthetics_criticism_C2",
+        "theme": "art_culture",
         "emoji": "📉",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˈbeɪθɒs | 🇺🇸 ˈbeɪθɑːs",
         "definitions": [
             {
@@ -348,12 +422,15 @@
         "countability": "uncountable",
         "subtext": "anti-climax"
     },
-{
+    {
+        "id": "en_proficiency_language_006",
         "word": "apophasis",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "🤫",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 əˈpɒfəsɪs | 🇺🇸 əˈpɑːfəsɪs",
         "definitions": [
             {
@@ -366,12 +443,15 @@
         "countability": "uncountable",
         "subtext": "mentioning by denial"
     },
-{
+    {
+        "id": "en_proficiency_language_007",
         "word": "paralepsis",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "🙊",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌpærəˈlepsɪs",
         "definitions": [
             {
@@ -384,12 +464,14 @@
         "countability": "uncountable",
         "subtext": "emphasizing by omission"
     },
-{
+    {
+        "id": "en_proficiency_language_008",
         "word": "liminal space",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun phrase",
         "plural": "liminal spaces",
         "transcription": "ˈlɪmɪnl speɪs",
         "definitions": [
@@ -400,15 +482,17 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "threshold state"
     },
-{
+    {
+        "id": "en_proficiency_language_009",
         "word": "chiasmus",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "❌",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "chiasmi",
         "transcription": "kaɪˈæzməs",
         "definitions": [
@@ -422,12 +506,15 @@
         "countability": "countable",
         "subtext": "inverted parallelism"
     },
-{
+    {
+        "id": "en_proficiency_language_010",
         "word": "shibboleth",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "linguistics_theory_C2",
+        "theme": "language",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "shibboleths",
         "transcription": "ˈʃɪbəleθ",
         "definitions": [
@@ -441,12 +528,15 @@
         "countability": "countable",
         "subtext": "group identifier"
     },
-{
+    {
+        "id": "en_proficiency_language_011",
         "word": "phenomenology",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🧠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 fəˌnɒmɪˈnɒlədʒi | 🇺🇸 fəˌnɑːmɪˈnɑːlədʒi",
         "definitions": [
             {
@@ -459,12 +549,15 @@
         "countability": "uncountable",
         "subtext": "study of consciousness"
     },
-{
+    {
+        "id": "en_proficiency_language_012",
         "word": "contingency",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ontology_existence_C2",
+        "theme": "language",
         "emoji": "🎲",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "contingencies",
         "transcription": "kənˈtɪndʒənsi",
         "definitions": [
@@ -478,12 +571,15 @@
         "countability": "countable",
         "subtext": "possibility/chance"
     },
-{
+    {
+        "id": "en_proficiency_language_013",
         "word": "hermeneutics",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "linguistics_theory_C2",
+        "theme": "language",
         "emoji": "📜",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌhɜːmɪˈnjuːtɪks",
         "definitions": [
             {
@@ -496,12 +592,15 @@
         "countability": "uncountable",
         "subtext": "method of interpretation"
     },
-{
+    {
+        "id": "en_proficiency_language_014",
         "word": "polysemy",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "linguistics_theory_C2",
+        "theme": "language",
         "emoji": "🔠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "pəˈlɪsɪmi",
         "definitions": [
             {
@@ -514,12 +613,14 @@
         "countability": "uncountable",
         "subtext": "multiple meanings"
     },
-{
+    {
+        "id": "en_proficiency_language_015",
         "word": "epistemic injustice",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "epistemology_truth_C2",
+        "theme": "language",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun phrase",
         "transcription": "ˌepɪˈstiːmɪk ɪnˈdʒʌstɪs",
         "definitions": [
             {
@@ -529,15 +630,17 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "unfairness in knowledge"
     },
-{
+    {
+        "id": "en_proficiency_language_016",
         "word": "catachresis",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "📣",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌkætəˈkriːsɪs",
         "definitions": [
             {
@@ -550,12 +653,15 @@
         "countability": "uncountable",
         "subtext": "stretched metaphor"
     },
-{
+    {
+        "id": "en_proficiency_language_017",
         "word": "antinomy",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "antinomies",
         "transcription": "ænˈtɪnəmi",
         "definitions": [
@@ -569,12 +675,15 @@
         "countability": "countable",
         "subtext": "logical contradiction"
     },
-{
+    {
+        "id": "en_proficiency_psychology_012",
         "word": "repression",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "psychoanalysis_unconscious_C2",
+        "theme": "psychology",
         "emoji": "🤐",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "rɪˈpreʃn",
         "definitions": [
             {
@@ -587,12 +696,14 @@
         "countability": "uncountable",
         "subtext": "unconscious suppression"
     },
-{
+    {
+        "id": "en_proficiency_psychology_013",
         "word": "the uncanny",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "psychoanalysis_unconscious_C2",
+        "theme": "psychology",
         "emoji": "🧟",
-        "form": "noun", "classification": "regular",
+        "form": "noun phrase",
         "transcription": "ði ʌnˈkæni",
         "definitions": [
             {
@@ -602,15 +713,17 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "disturbing familiarity"
     },
-{
+    {
+        "id": "en_proficiency_psychology_014",
         "word": "displacement",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "psychoanalysis_unconscious_C2",
+        "theme": "psychology",
         "emoji": "🏹",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "dɪsˈpleɪsmənt",
         "definitions": [
             {
@@ -623,12 +736,14 @@
         "countability": "uncountable",
         "subtext": "shifted emotions"
     },
-{
+    {
+        "id": "en_proficiency_social_003",
         "word": "dialectical materialism",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🛠️",
-        "form": "noun", "classification": "regular",
+        "form": "noun phrase",
         "transcription": "ˌdaɪəˈlektɪkl məˈtɪəriəlɪzəm",
         "definitions": [
             {
@@ -638,15 +753,17 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "Marxist theory"
     },
-{
+    {
+        "id": "en_proficiency_social_004",
         "word": "post-colonialism",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˌpəʊstkəˈləʊniəlɪzəm | 🇺🇸 ˌpoʊstkəˈloʊniəlɪzəm",
         "definitions": [
             {
@@ -659,12 +776,15 @@
         "countability": "uncountable",
         "subtext": "critique of colonialism"
     },
-{
+    {
+        "id": "en_proficiency_social_005",
         "word": "biopolitics",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🧬",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˌbaɪəʊˈpɒlətɪks | 🇺🇸 ˌbaɪoʊˈpɑːlətɪks",
         "definitions": [
             {
@@ -677,12 +797,15 @@
         "countability": "uncountable",
         "subtext": "power over life"
     },
-{
+    {
+        "id": "en_proficiency_social_006",
         "word": "alienation",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌeɪliəˈneɪʃn",
         "definitions": [
             {
@@ -695,12 +818,15 @@
         "countability": "uncountable",
         "subtext": "worker estrangement"
     },
-{
+    {
+        "id": "en_proficiency_social_007",
         "word": "commodification",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 kəˌmɒdɪfɪˈkeɪʃn | 🇺🇸 kəˌmɑːdɪfɪˈkeɪʃn",
         "definitions": [
             {
@@ -713,12 +839,14 @@
         "countability": "uncountable",
         "subtext": "treating as commodity"
     },
-{
+    {
+        "id": "en_proficiency_psychology_015",
         "word": "bad faith",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ontology_existence_C2",
+        "theme": "psychology",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular",
+        "form": "noun phrase",
         "transcription": "bæd feɪθ",
         "definitions": [
             {
@@ -728,15 +856,16 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "self-deception"
     },
-{
+    {
+        "id": "en_proficiency_psychology_016",
         "word": "the banality of evil",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "ethics_advanced_C2",
+        "theme": "psychology",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun phrase",
         "transcription": "ðə bəˈnæləti əv ˈiːvl",
         "definitions": [
             {
@@ -746,15 +875,17 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "ordinary evil"
     },
-{
+    {
+        "id": "en_proficiency_time_001",
         "word": "finitude",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "mortality_time_C2",
+        "theme": "time",
         "emoji": "⏳",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˈfɪnɪtjuːd",
         "definitions": [
             {
@@ -767,12 +898,15 @@
         "countability": "uncountable",
         "subtext": "state of being finite"
     },
-{
+    {
+        "id": "en_proficiency_time_002",
         "word": "nostalgia",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "mortality_time_C2",
+        "theme": "time",
         "emoji": "📻",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 nɒˈstældʒə | 🇺🇸 nɑːˈstældʒə",
         "definitions": [
             {
@@ -785,12 +919,15 @@
         "countability": "uncountable",
         "subtext": "longing for the past"
     },
-{
+    {
+        "id": "en_proficiency_time_003",
         "word": "entropy",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "civilisation_history_C2",
+        "theme": "time",
         "emoji": "🌪️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˈentrəpi",
         "definitions": [
             {
@@ -803,12 +940,15 @@
         "countability": "uncountable",
         "subtext": "move toward disorder"
     },
-{
+    {
+        "id": "en_proficiency_time_004",
         "word": "eschatology",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "civilisation_history_C2",
+        "theme": "time",
         "emoji": "🌋",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˌeskəˈtɒlədʒi | 🇺🇸 ˌeskəˈtɑːlədʒi",
         "definitions": [
             {
@@ -821,12 +961,15 @@
         "countability": "uncountable",
         "subtext": "end-times study"
     },
-{
+    {
+        "id": "en_proficiency_art_culture_002",
         "word": "mimesis",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "aesthetics_criticism_C2",
+        "theme": "art_culture",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "mɪˈmiːsɪs",
         "definitions": [
             {
@@ -839,12 +982,15 @@
         "countability": "uncountable",
         "subtext": "artistic imitation"
     },
-{
+    {
+        "id": "en_proficiency_art_culture_003",
         "word": "defamiliarisation",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "aesthetics_criticism_C2",
+        "theme": "art_culture",
         "emoji": "🌀",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "diːfəˌmɪliəraɪˈzeɪʃn",
         "definitions": [
             {
@@ -857,12 +1003,14 @@
         "countability": "uncountable",
         "subtext": "strange perception"
     },
-{
+    {
+        "id": "en_proficiency_art_culture_004",
         "word": "the sublime",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "aesthetics_criticism_C2",
+        "theme": "art_culture",
         "emoji": "🏔️",
-        "form": "noun", "classification": "regular",
+        "form": "noun phrase",
         "transcription": "ðə səˈblaɪm",
         "definitions": [
             {
@@ -872,15 +1020,17 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "awesome vastness"
     },
-{
+    {
+        "id": "en_proficiency_art_culture_005",
         "word": "kitsch",
+        "lang": "en",
         "level": "proficiency",
-        "theme": "aesthetics_criticism_C2",
+        "theme": "art_culture",
         "emoji": "🦩",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "kɪtʃ",
         "definitions": [
             {
@@ -892,7 +1042,6 @@
         ],
         "countability": "uncountable",
         "subtext": "garish art"
-    },
-{}
+    }
 ];
 })();

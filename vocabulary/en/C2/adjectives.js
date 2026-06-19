@@ -2,7 +2,7 @@
 (function() {
     const data = [
     {
-        "id": "en_proficiency_language_041",
+        "id": "en_proficiency_language_001",
         "word": "interdisciplinary",
         "emoji": "🧪",
         "form": "adjective",
@@ -18,7 +18,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_042",
+        "id": "en_proficiency_language_002",
         "word": "hermeneutic",
         "emoji": "📜",
         "form": "adjective",
@@ -38,7 +38,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_043",
+        "id": "en_proficiency_language_003",
         "word": "tautological",
         "emoji": "🔄",
         "form": "adjective",
@@ -78,7 +78,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_044",
+        "id": "en_proficiency_language_004",
         "word": "heuristic",
         "emoji": "💡",
         "form": "adjective",
@@ -158,7 +158,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_psychoanalysis_unconscious_003",
+        "id": "en_proficiency_psychoanalysis_unconscious_001",
         "word": "narcissistic",
         "emoji": "🪞",
         "form": "adjective",
@@ -178,7 +178,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_045",
+        "id": "en_proficiency_language_005",
         "word": "heterodox",
         "emoji": "🚩",
         "form": "adjective",
@@ -198,7 +198,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_046",
+        "id": "en_proficiency_language_006",
         "word": "immanent",
         "emoji": "⚛️",
         "form": "adjective",
@@ -218,7 +218,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_047",
+        "id": "en_proficiency_language_007",
         "word": "abrupt",
         "emoji": "⏱️",
         "form": "adjective",
@@ -238,14 +238,16 @@
             "sudden",
             "curt"
         ],
-        "opposite": "gradual",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "gradual"
+        ]
     },
     {
-        "id": "en_proficiency_language_048",
+        "id": "en_proficiency_language_008",
         "word": "abstruse",
         "emoji": "🧐",
         "form": "adjective",
@@ -265,11 +267,13 @@
             "obscure",
             "recondite"
         ],
-        "opposite": "simple",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "simple"
+        ]
     },
     {
         "id": "en_proficiency_social_004",
@@ -292,14 +296,16 @@
             "outdated",
             "archaic"
         ],
-        "opposite": "contemporary",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "contemporary"
+        ]
     },
     {
-        "id": "en_proficiency_language_049",
+        "id": "en_proficiency_language_009",
         "word": "antithetical",
         "emoji": "⚖️",
         "form": "adjective",
@@ -319,14 +325,16 @@
             "contrary",
             "opposed"
         ],
-        "opposite": "identical",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "identical"
+        ]
     },
     {
-        "id": "en_proficiency_language_050",
+        "id": "en_proficiency_language_010",
         "word": "arcane",
         "emoji": "🔮",
         "form": "adjective",
@@ -346,14 +354,16 @@
             "mysterious",
             "secret"
         ],
-        "opposite": "common",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "common"
+        ]
     },
     {
-        "id": "en_proficiency_language_051",
+        "id": "en_proficiency_language_011",
         "word": "atypical",
         "emoji": "🦄",
         "form": "adjective",
@@ -373,14 +383,16 @@
             "unusual",
             "abnormal"
         ],
-        "opposite": "typical",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "typical"
+        ]
     },
     {
-        "id": "en_proficiency_language_052",
+        "id": "en_proficiency_language_012",
         "word": "binary",
         "emoji": "🔢",
         "form": "adjective",
@@ -400,14 +412,16 @@
             "dual",
             "double"
         ],
-        "opposite": "unitary",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unitary"
+        ]
     },
     {
-        "id": "en_proficiency_language_053",
+        "id": "en_proficiency_language_013",
         "word": "categorical",
         "emoji": "❗",
         "form": "adjective",
@@ -427,11 +441,13 @@
             "absolute",
             "unconditional"
         ],
-        "opposite": "qualified",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "qualified"
+        ]
     },
     {
         "id": "en_proficiency_social_005",
@@ -454,11 +470,13 @@
             "cautious",
             "wary"
         ],
-        "opposite": "reckless",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "reckless"
+        ]
     },
     {
         "id": "en_proficiency_social_006",
@@ -481,14 +499,16 @@
             "secret",
             "clandestine"
         ],
-        "opposite": "overt",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "overt"
+        ]
     },
     {
-        "id": "en_proficiency_language_054",
+        "id": "en_proficiency_language_014",
         "word": "dialectical",
         "emoji": "⚖️",
         "form": "adjective",
@@ -514,7 +534,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_055",
+        "id": "en_proficiency_language_015",
         "word": "diffuse",
         "emoji": "🌫️",
         "form": "adjective",
@@ -534,14 +554,16 @@
             "scattered",
             "vague"
         ],
-        "opposite": "concentrated",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "concentrated"
+        ]
     },
     {
-        "id": "en_proficiency_language_056",
+        "id": "en_proficiency_language_016",
         "word": "elusive",
         "emoji": "🌬️",
         "form": "adjective",
@@ -567,14 +589,16 @@
             "evasive",
             "slippery"
         ],
-        "opposite": "attainable",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "attainable"
+        ]
     },
     {
-        "id": "en_proficiency_language_057",
+        "id": "en_proficiency_language_017",
         "word": "esoteric",
         "emoji": "🗝️",
         "form": "adjective",
@@ -594,14 +618,16 @@
             "arcane",
             "obscure"
         ],
-        "opposite": "mainstream",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "mainstream"
+        ]
     },
     {
-        "id": "en_proficiency_language_058",
+        "id": "en_proficiency_language_018",
         "word": "fallacious",
         "emoji": "❌",
         "form": "adjective",
@@ -621,14 +647,16 @@
             "false",
             "erroneous"
         ],
-        "opposite": "sound",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sound"
+        ]
     },
     {
-        "id": "en_proficiency_language_059",
+        "id": "en_proficiency_language_019",
         "word": "immutable",
         "emoji": "🧱",
         "form": "adjective",
@@ -648,11 +676,13 @@
             "fixed",
             "permanent"
         ],
-        "opposite": "mutable",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "mutable"
+        ]
     },
     {
         "id": "en_proficiency_social_007",
@@ -675,14 +705,16 @@
             "fair",
             "neutral"
         ],
-        "opposite": "biased",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "biased"
+        ]
     },
     {
-        "id": "en_proficiency_language_060",
+        "id": "en_proficiency_language_020",
         "word": "incidental",
         "emoji": "🍃",
         "form": "adjective",
@@ -702,14 +734,16 @@
             "secondary",
             "minor"
         ],
-        "opposite": "central",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "central"
+        ]
     },
     {
-        "id": "en_proficiency_language_061",
+        "id": "en_proficiency_language_021",
         "word": "inherent",
         "emoji": "⚛️",
         "form": "adjective",
@@ -729,14 +763,16 @@
             "innate",
             "intrinsic"
         ],
-        "opposite": "extrinsic",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "extrinsic"
+        ]
     },
     {
-        "id": "en_proficiency_aesthetics_criticism_009",
+        "id": "en_proficiency_aesthetics_criticism_001",
         "word": "inimitable",
         "emoji": "🌟",
         "form": "adjective",
@@ -756,11 +792,13 @@
             "unique",
             "matchless"
         ],
-        "opposite": "commonplace",
         "lang": "en",
         "level": "proficiency",
         "theme": "aesthetics_criticism",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "commonplace"
+        ]
     },
     {
         "id": "en_proficiency_social_008",
@@ -783,14 +821,16 @@
             "stealthy",
             "subtle"
         ],
-        "opposite": "straightforward",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "straightforward"
+        ]
     },
     {
-        "id": "en_proficiency_language_062",
+        "id": "en_proficiency_language_022",
         "word": "irreconcilable",
         "emoji": "🚫",
         "form": "adjective",
@@ -810,14 +850,16 @@
             "incompatible",
             "conflicting"
         ],
-        "opposite": "compatible",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "compatible"
+        ]
     },
     {
-        "id": "en_proficiency_language_063",
+        "id": "en_proficiency_language_023",
         "word": "liminal",
         "emoji": "🚪",
         "form": "adjective",
@@ -843,7 +885,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_proficiency_language_064",
+        "id": "en_proficiency_language_024",
         "word": "manifold",
         "emoji": "🔢",
         "form": "adjective",
@@ -863,14 +905,16 @@
             "numerous",
             "diverse"
         ],
-        "opposite": "singular",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "singular"
+        ]
     },
     {
-        "id": "en_proficiency_language_065",
+        "id": "en_proficiency_language_025",
         "word": "nebulous",
         "emoji": "☁️",
         "form": "adjective",
@@ -890,11 +934,13 @@
             "vague",
             "fuzzy"
         ],
-        "opposite": "distinct",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "distinct"
+        ]
     },
     {
         "id": "en_proficiency_social_009",
@@ -917,14 +963,16 @@
             "prescriptive",
             "standardizing"
         ],
-        "opposite": "descriptive",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "descriptive"
+        ]
     },
     {
-        "id": "en_proficiency_language_066",
+        "id": "en_proficiency_language_026",
         "word": "nuanced",
         "emoji": "🌗",
         "form": "adjective",
@@ -944,14 +992,16 @@
             "subtle",
             "refined"
         ],
-        "opposite": "crude",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "crude"
+        ]
     },
     {
-        "id": "en_proficiency_language_067",
+        "id": "en_proficiency_language_027",
         "word": "oblique",
         "emoji": "↗️",
         "form": "adjective",
@@ -971,14 +1021,16 @@
             "indirect",
             "slanting"
         ],
-        "opposite": "direct",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "direct"
+        ]
     },
     {
-        "id": "en_proficiency_language_068",
+        "id": "en_proficiency_language_028",
         "word": "opaque",
         "emoji": "🌑",
         "form": "adjective",
@@ -998,14 +1050,16 @@
             "obscure",
             "unclear"
         ],
-        "opposite": "transparent",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "transparent"
+        ]
     },
     {
-        "id": "en_proficiency_language_069",
+        "id": "en_proficiency_language_029",
         "word": "ostensible",
         "emoji": "🎭",
         "form": "adjective",
@@ -1025,14 +1079,16 @@
             "apparent",
             "seeming"
         ],
-        "opposite": "genuine",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "genuine"
+        ]
     },
     {
-        "id": "en_proficiency_language_070",
+        "id": "en_proficiency_language_030",
         "word": "paradoxical",
         "emoji": "🔄",
         "form": "adjective",
@@ -1052,11 +1108,13 @@
             "contradictory",
             "ironic"
         ],
-        "opposite": "consistent",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "consistent"
+        ]
     },
     {
         "id": "en_proficiency_social_010",
@@ -1079,11 +1137,13 @@
             "widespread",
             "prevalent"
         ],
-        "opposite": "rare",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "rare"
+        ]
     },
     {
         "id": "en_proficiency_social_011",
@@ -1106,11 +1166,13 @@
             "divisive",
             "confrontational"
         ],
-        "opposite": "unifying",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unifying"
+        ]
     },
     {
         "id": "en_proficiency_ontology_existence_001",
@@ -1133,11 +1195,13 @@
             "unstable",
             "risky"
         ],
-        "opposite": "stable",
         "lang": "en",
         "level": "proficiency",
         "theme": "ontology_existence",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stable"
+        ]
     },
     {
         "id": "en_proficiency_linguistics_theory_002",
@@ -1160,11 +1224,13 @@
             "dictatorial",
             "rigid"
         ],
-        "opposite": "descriptive",
         "lang": "en",
         "level": "proficiency",
         "theme": "linguistics_theory",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "descriptive"
+        ]
     },
     {
         "id": "en_proficiency_social_012",
@@ -1187,14 +1253,16 @@
             "prolonged",
             "extended"
         ],
-        "opposite": "brief",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "brief"
+        ]
     },
     {
-        "id": "en_proficiency_language_071",
+        "id": "en_proficiency_language_031",
         "word": "reductive",
         "emoji": "📉",
         "form": "adjective",
@@ -1214,11 +1282,13 @@
             "simplistic",
             "minimalist"
         ],
-        "opposite": "complex",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "complex"
+        ]
     },
     {
         "id": "en_proficiency_social_013",
@@ -1241,14 +1311,16 @@
             "influential",
             "groundbreaking"
         ],
-        "opposite": "insignificant",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "insignificant"
+        ]
     },
     {
-        "id": "en_proficiency_language_072",
+        "id": "en_proficiency_language_032",
         "word": "specious",
         "emoji": "🤥",
         "form": "adjective",
@@ -1268,14 +1340,16 @@
             "misleading",
             "deceptive"
         ],
-        "opposite": "valid",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "valid"
+        ]
     },
     {
-        "id": "en_proficiency_language_073",
+        "id": "en_proficiency_language_033",
         "word": "spurious",
         "emoji": "🤡",
         "form": "adjective",
@@ -1295,11 +1369,13 @@
             "fake",
             "bogus"
         ],
-        "opposite": "authentic",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "authentic"
+        ]
     },
     {
         "id": "en_proficiency_social_014",
@@ -1322,14 +1398,16 @@
             "rebellious",
             "disruptive"
         ],
-        "opposite": "conformist",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "conformist"
+        ]
     },
     {
-        "id": "en_proficiency_language_074",
+        "id": "en_proficiency_language_034",
         "word": "tacit",
         "emoji": "🤫",
         "form": "adjective",
@@ -1349,14 +1427,16 @@
             "implicit",
             "unspoken"
         ],
-        "opposite": "explicit",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "explicit"
+        ]
     },
     {
-        "id": "en_proficiency_language_075",
+        "id": "en_proficiency_language_035",
         "word": "tenuous",
         "emoji": "🕸️",
         "form": "adjective",
@@ -1376,14 +1456,16 @@
             "fragile",
             "weak"
         ],
-        "opposite": "strong",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "strong"
+        ]
     },
     {
-        "id": "en_proficiency_time_002",
+        "id": "en_proficiency_time_001",
         "word": "transient",
         "emoji": "🌅",
         "form": "adjective",
@@ -1403,11 +1485,13 @@
             "temporary",
             "fleeting"
         ],
-        "opposite": "permanent",
         "lang": "en",
         "level": "proficiency",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "permanent"
+        ]
     },
     {
         "id": "en_proficiency_social_015",
@@ -1430,14 +1514,16 @@
             "ever-present",
             "omnipresent"
         ],
-        "opposite": "rare",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "rare"
+        ]
     },
     {
-        "id": "en_proficiency_language_076",
+        "id": "en_proficiency_language_036",
         "word": "unequivocal",
         "emoji": "📢",
         "form": "adjective",
@@ -1457,11 +1543,13 @@
             "unambiguous",
             "clear"
         ],
-        "opposite": "ambiguous",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ambiguous"
+        ]
     },
     {
         "id": "en_proficiency_social_016",
@@ -1484,14 +1572,16 @@
             "unparalleled",
             "novel"
         ],
-        "opposite": "common",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "common"
+        ]
     },
     {
-        "id": "en_proficiency_language_077",
+        "id": "en_proficiency_language_037",
         "word": "untenable",
         "emoji": "🏗️",
         "form": "adjective",
@@ -1511,14 +1601,16 @@
             "indefensible",
             "unsustainable"
         ],
-        "opposite": "defensible",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "defensible"
+        ]
     },
     {
-        "id": "en_proficiency_language_078",
+        "id": "en_proficiency_language_038",
         "word": "unwieldy",
         "emoji": "📦",
         "form": "adjective",
@@ -1538,11 +1630,13 @@
             "clumsy",
             "awkward"
         ],
-        "opposite": "manageable",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "manageable"
+        ]
     }
 ];
     const lang = "en";

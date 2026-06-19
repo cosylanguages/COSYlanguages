@@ -2,321 +2,379 @@
 (function() {
     const lang = "hy";
     const data = [
-        {
-                "word": "ապորիա",
-                "level": "proficiency",
-                "theme": "ontology_metaphysics_C2",
-                "emoji": "🤔",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "A state of puzzlement or difficulty arising from contradictions in an argument.",
-                                "examples": [
-                                        "The dialogue ends in aporia, with no satisfactory answer reached."
-                                ]
-                        }
+    {
+        "word": "ապորիա",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🤔",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Տարակուսանքի կամ դժվարության վիճակ, որն առաջանում է փաստարկի մեջ առկա հակասություններից:",
+                "examples": [
+                    "Երկխոսությունն ավարտվում է ապորիայով, քանի որ գոհացուցիչ պատասխան չի գտնվել:"
                 ]
-        },
-        {
-                "word": "տելեոլոգիա",
-                "level": "proficiency",
-                "theme": "ontology_metaphysics_C2",
-                "emoji": "🎯",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "The philosophical study of purpose or goal-directedness in nature or history.",
-                                "examples": [
-                                        "His argument rests on a teleological view of human progress."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_language_001"
+    },
+    {
+        "word": "տելեոլոգիա",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🎯",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Բնության կամ պատմության մեջ նպատակահարմարության կամ նպատակաուղղվածության մասին փիլիսոփայական ուսմունք:",
+                "examples": [
+                    "Նրա փաստարկը հիմնված է մարդկային առաջընթացի տելեոլոգիական հայացքի վրա:"
                 ]
-        },
-        {
-                "word": "օնտոլոգիա",
-                "level": "proficiency",
-                "theme": "ontology_metaphysics_C2",
-                "emoji": "👻",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "The branch of philosophy concerned with the nature of being or existence.",
-                                "examples": [
-                                        "Her ontological commitments shape her entire argument."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_language_002"
+    },
+    {
+        "word": "օնտոլոգիա",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "👻",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Փիլիսոփայության բաժին, որն զբաղվում է կեցության կամ գոյության բնույթով:",
+                "examples": [
+                    "Նրա օնտոլոգիական համոզմունքները ձևավորում են նրա ողջ փաստարկը:"
                 ]
-        },
-        {
-                "word": "ռեիֆիկացիա",
-                "level": "proficiency",
-                "theme": "ontology_metaphysics_C2",
-                "emoji": "🧱",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "The process of treating something abstract as if it were a concrete, real thing.",
-                                "examples": [
-                                        "Reification of market forces masks the human decisions behind them."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_language_003"
+    },
+    {
+        "word": "ռեիֆիկացիա",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🧱",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Աբստրակտ երևույթը որպես կոնկրետ, իրական իր դիտարկելու գործընթացը. իրականացում:",
+                "examples": [
+                    "Շուկայական ուժերի ռեիֆիկացիան քողարկում է դրանց հետևում կանգնած մարդկային որոշումները:"
                 ]
-        },
-        {
-                "word": "դիալեկտիկա",
-                "level": "proficiency",
-                "theme": "meta_argument_deconstruction_C2",
-                "emoji": "⚖️",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "A method of argument involving contradiction and resolution; or the tension between opposing forces.",
-                                "examples": [
-                                        "The dialectic between freedom and security defines liberal thought."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_language_004"
+    },
+    {
+        "word": "դիալեկտիկա",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "⚖️",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Փաստարկման մեթոդ, որը ներառում է հակասություն և լուծում:",
+                "examples": [
+                    "Ազատության և անվտանգության միջև դիալեկտիկան սահմանում է լիբերալ մտածողությունը:"
                 ]
-        },
-        {
-                "word": "հևրիստիկ",
-                "level": "proficiency",
-                "theme": "epistemology_knowledge_C2",
-                "emoji": "💡",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "A problem-solving approach based on experience rather than guaranteed proof.",
-                                "examples": [
-                                        "'Follow the money' is a useful heuristic in investigative journalism."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_language_005"
+    },
+    {
+        "word": "հևրիստիկ",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "💡",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Խնդիրների լուծման մոտեցում՝ հիմնված փորձի, այլ ոչ թե երաշխավորված ապացույցների վրա:",
+                "examples": [
+                    "'Հետևիր փողերին' սկզբունքը օգտակար հևրիստիկա է հետաքննող լրագրության մեջ:"
                 ]
-        },
-        {
-                "word": "ապոֆենիա",
-                "level": "proficiency",
-                "theme": "epistemology_knowledge_C2",
-                "emoji": "🕸️",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "The tendency to perceive meaningful connections between unrelated things.",
-                                "examples": [
-                                        "Conspiracy thinking is driven by apophenia."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_psychology_001"
+    },
+    {
+        "word": "ապոֆենիա",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "🕸️",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Չկապակցված երևույթների միջև իմաստալից կապեր տեսնելու հակումը:",
+                "examples": [
+                    "Դավադրության տեսությունները հաճախ սնվում են ապոֆենիայով:"
                 ]
-        },
-        {
-                "word": "մոտիվացված կոգնիցիա",
-                "level": "proficiency",
-                "theme": "epistemology_knowledge_C2",
-                "emoji": "🧠",
-                "form": "noun phrase",
-                "definitions": [
-                        {
-                                "text": "The influence of desires and emotions on reasoning and belief formation.",
-                                "examples": [
-                                        "Motivated cognition explains why people resist unwelcome evidence."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_psychology_002"
+    },
+    {
+        "word": "մոտիվացված կոգնիցիա",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "🧠",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "Ցանկությունների և հույզերի ազդեցությունը դատողությունների և համոզմունքների ձևավորման վրա:",
+                "examples": [
+                    "Մոտիվացված կոգնիցիան բացատրում է, թե ինչու են մարդիկ դիմադրում անցանկալի ապացույցներին:"
                 ]
-        },
-        {
-                "word": "պրոակտիվ սկզբունք",
-                "level": "proficiency",
-                "theme": "ethics_advanced_C2",
-                "emoji": "🚀",
-                "form": "noun phrase",
-                "definitions": [
-                        {
-                                "text": "The view that the risks of inaction should be weighed against the risks of action when evaluating new technologies.",
-                                "examples": [
-                                        "Transhumanists often invoke the proactionary principle."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_psychology_003"
+    },
+    {
+        "word": "պրոակտիվ սկզբունք",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "🚀",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "Այն տեսակետը, որ անգործության ռիսկերը պետք է կշռադատվեն գործողության ռիսկերի հետ:",
+                "examples": [
+                    "Տրանսհումանիստները հաճախ վկայակոչում են պրոակտիվ սկզբունքը:"
                 ]
-        },
-        {
-                "word": "նախազգուշական սկզբունք",
-                "level": "proficiency",
-                "theme": "ethics_advanced_C2",
-                "emoji": "🛡️",
-                "form": "noun phrase",
-                "definitions": [
-                        {
-                                "text": "The view that actions with unknown but potentially harmful consequences should be avoided.",
-                                "examples": [
-                                        "Environmental law frequently applies the precautionary principle."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_social_001"
+    },
+    {
+        "word": "նախազգուշական սկզբունք",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "🛡️",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "Այն տեսակետը, որ անհայտ, բայց պոտենցիալ վնասակար հետևանքներ ունեցող գործողություններից պետք է խուսափել:",
+                "examples": [
+                    "Բնապահպանական իրավունքը հաճախ կիրառում է նախազգուշական սկզբունքը:"
                 ]
-        },
-        {
-                "word": "լիբերալ չեզոքություն",
-                "level": "proficiency",
-                "theme": "political_theory_C2",
-                "emoji": "⚖️",
-                "form": "noun phrase",
-                "definitions": [
-                        {
-                                "text": "The liberal principle that the state should not favour any particular vision of the good life.",
-                                "examples": [
-                                        "Critics argue that liberal neutrality is itself a substantive moral position."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_social_002"
+    },
+    {
+        "word": "լիբերալ չեզոքություն",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "⚖️",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "Լիբերալ սկզբունք, ըստ որի պետությունը չպետք է նախապատվություն տա լավ կյանքի որևէ կոնկրետ տեսլականի:",
+                "examples": [
+                    "Քննադատները պնդում են, որ լիբերալ չեզոքությունն ինքնին բարոյական դիրքորոշում է:"
                 ]
-        },
-        {
-                "word": "պրոնատալիզմ",
-                "level": "proficiency",
-                "theme": "political_theory_C2",
-                "emoji": "👶",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "A policy or ideology that encourages people to have more children.",
-                                "examples": [
-                                        "She critiqued the pronatalist assumptions embedded in family tax policy."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_social_003"
+    },
+    {
+        "word": "պրոնատալիզմ",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "👶",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Քաղաքականություն կամ գաղափարախոսություն, որը խրախուսում է մարդկանց ավելի շատ երեխաներ ունենալ:",
+                "examples": [
+                    "Նա քննադատեց ընտանեկան հարկային քաղաքականության մեջ ներդրված պրոնատալիստական ենթադրությունները:"
                 ]
-        },
-        {
-                "word": "սուբլիմացիա",
-                "level": "proficiency",
-                "theme": "psychoanalysis_unconscious_C2",
-                "emoji": "🎨",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "The redirection of a primitive impulse into a socially acceptable activity.",
-                                "examples": [
-                                        "Art has long been understood as a form of sublimation."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_social_004"
+    },
+    {
+        "word": "սուբլիմացիա",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "🎨",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Պրիմիտիվ մղման վերաուղղորդումը դեպի սոցիալապես ընդունելի գործունեություն:",
+                "examples": [
+                    "Արվեստը վաղուց ընկալվել է որպես սուբլիմացիայի ձև:"
                 ]
-        },
-        {
-                "word": "ժուիսանս",
-                "level": "proficiency",
-                "theme": "psychoanalysis_unconscious_C2",
-                "emoji": "🔥",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "In psychoanalytic theory, an excessive or transgressive form of enjoyment.",
-                                "examples": [
-                                        "Žižek uses the concept of jouissance to explain ideological attachment."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_psychology_004"
+    },
+    {
+        "word": "ժուիսանս",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "🔥",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Պսիխոանալիտիկ տեսության մեջ՝ վայելքի չափազանց կամ տրանսգրեսիվ ձև:",
+                "examples": [
+                    "Ժիժեկն օգտագործում է ժուիսանսի հասկացությունը գաղափարախոսական կապվածությունը բացատրելու համար:"
                 ]
-        },
-        {
-                "word": "թանատոս",
-                "level": "proficiency",
-                "theme": "psychoanalysis_unconscious_C2",
-                "emoji": "💀",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "In Freudian theory, the death drive; an instinct towards self-destruction.",
-                                "examples": [
-                                        "The novel explores the tension between eros and thanatos."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_psychology_005"
+    },
+    {
+        "word": "թանատոս",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "💀",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Ֆրոյդի տեսության մեջ՝ մահվան մղում. ինքնակործանման բնազդ:",
+                "examples": [
+                    "Վեպը հետազոտում է էրոսի և թանատոսի միջև լարվածությունը:"
                 ]
-        },
-        {
-                "word": "բաթոս",
-                "level": "proficiency",
-                "theme": "aesthetics_criticism_C2",
-                "emoji": "📉",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "An abrupt, disappointing transition from the elevated to the trivial.",
-                                "examples": [
-                                        "The speech descended into bathos at the crucial moment."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_psychology_006"
+    },
+    {
+        "word": "բաթոս",
+        "level": "proficiency",
+        "theme": "art_culture",
+        "emoji": "📉",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Կտրուկ, հուսախաբող անցում վեհից դեպի սովորականը կամ չնչինը:",
+                "examples": [
+                    "Ելույթը վճռորոշ պահին վերածվեց բաթոսի:"
                 ]
-        },
-        {
-                "word": "ապոֆազիս",
-                "level": "proficiency",
-                "theme": "rhetoric_persuasion_C2",
-                "emoji": "🤫",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "A rhetorical device of drawing attention to something by claiming not to mention it.",
-                                "examples": [
-                                        "'I won't mention his criminal record' is a classic apophasis."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_art_culture_001"
+    },
+    {
+        "word": "ապոֆազիս",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🤫",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Հռետորական հնարք՝ ինչ-որ բանի վրա ուշադրություն հրավիրելու համար՝ պնդելով, թե չեք հիշատակում այն:",
+                "examples": [
+                    "'Ես չեմ նշի նրա դատվածությունը' դասական ապոֆազիս է:"
                 ]
-        },
-        {
-                "word": "պարալեպսիս",
-                "level": "proficiency",
-                "theme": "rhetoric_persuasion_C2",
-                "emoji": "🙊",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "Another term for apophasis; pretending to pass over something while actually emphasising it.",
-                                "examples": [
-                                        "Political rhetoric often relies on paralepsis to insinuate without asserting."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_language_006"
+    },
+    {
+        "word": "պարալեպսիս",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🙊",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Ապոֆազիսի հոմանիշը:",
+                "examples": [
+                    "Քաղաքական հռետորաբանությունը հաճախ հիմնվում է պարալեպսիսի վրա:"
                 ]
-        },
-        {
-                "word": "լիմինալ տարածություն",
-                "level": "proficiency",
-                "theme": "ontology_metaphysics_C2",
-                "emoji": "🚪",
-                "form": "noun phrase",
-                "definitions": [
-                        {
-                                "text": "A transitional phase or threshold moment between two states of being.",
-                                "examples": [
-                                        "Midlife can be understood as a liminal space between youth and age."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_language_007"
+    },
+    {
+        "word": "լիմինալ տարածություն",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🚪",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "Անցումային փուլ կամ շեմային պահ երկու վիճակների միջև:",
+                "examples": [
+                    "Միջին տարիքը կարելի է հասկանալ որպես լիմինալ տարածություն երիտասարդության և ծերության միջև:"
                 ]
-        },
-        {
-                "word": "քիազմ",
-                "level": "proficiency",
-                "theme": "rhetoric_persuasion_C2",
-                "emoji": "❌",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "A rhetorical device in which the second part is a reversal of the first.",
-                                "examples": [
-                                        "'Ask not what your country can do for you' uses chiasmus."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_language_008"
+    },
+    {
+        "word": "քիազմ",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "❌",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Հռետորական հնարք, որտեղ երկրորդ մասը առաջինի շրջումն է:",
+                "examples": [
+                    "'Մի հարցրու, թե ինչ կարող է անել երկիրը քեզ համար' նախադասությունը օգտագործում է քիազմ:"
                 ]
-        },
-        {
-                "word": "շիբոլեթ",
-                "level": "proficiency",
-                "theme": "linguistics_theory_C2",
-                "emoji": "🔑",
-                "form": "noun", "classification": "regular",
-                "definitions": [
-                        {
-                                "text": "A custom, phrase, or belief used to identify members of a particular group.",
-                                "examples": [
-                                        "'Hard-working families' has become a political shibboleth."
-                                ]
-                        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_language_009"
+    },
+    {
+        "word": "շիբոլեթ",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🔑",
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "Սովորույթ, արտահայտություն կամ համոզմունք, որն օգտագործվում է որոշակի խմբի անդամներին նույնականացնելու համար:",
+                "examples": [
+                    "'Աշխատասեր ընտանիքներ' արտահայտությունը դարձել է քաղաքական շիբոլեթ:"
                 ]
-        }
+            }
+        ],
+        "lang": "hy",
+        "id": "hy_proficiency_language_010"
+    }
 ];
 
     window.vocabularyData = window.vocabularyData || {};
