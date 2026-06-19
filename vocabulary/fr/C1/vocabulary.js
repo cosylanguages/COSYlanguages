@@ -1,29 +1,21 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
-        "word": "jardin",
-        "image": "images/vocabulary/places/garden.png",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "🌳",
-        "form": "noun", "classification": "regular",
-        "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }],
-        "countability": "countable"
-    },
-{
         "word": "réalité virtuelle",
         "level": "advanced",
-        "theme": "science_tech_society_C1",
+        "theme": "science_tech_society_c1",
         "emoji": "🥽",
-        "form": "noun", "classification": "regular",
-        "plural": "réalité virtuelles"
+        "form": "noun",
+        "classification": "regular",
+        "plural": "réalité virtuelles",
+        "lang": "fr",
+        "id": "fr_advanced_science_tech_society_c1_noun_ralit_virtuelle"
     },
     {
         "word": "développement durable",
         "translation": "sustainable development",
         "level": "advanced",
-        "theme": "Nature",
+        "theme": "nature",
         "language": "fr",
         "emoji": "🌱",
         "form": "noun",
@@ -35,13 +27,15 @@
                 ]
             }
         ],
-        "transcription": "/de.vlɔp.mɑ̃ dy.ʁabl/"
+        "transcription": "/de.vlɔp.mɑ̃ dy.ʁabl/",
+        "lang": "fr",
+        "id": "fr_advanced_nature_noun_dveloppement_durable"
     },
     {
         "word": "télétravail",
         "translation": "teleworking",
         "level": "advanced",
-        "theme": "Work",
+        "theme": "work",
         "language": "fr",
         "emoji": "🏠",
         "form": "noun",
@@ -53,13 +47,15 @@
                 ]
             }
         ],
-        "transcription": "/te.le.tʁa.vaj/"
+        "transcription": "/te.le.tʁa.vaj/",
+        "lang": "fr",
+        "id": "fr_advanced_work_noun_tltravail"
     },
     {
         "word": "gastronomie",
         "translation": "gastronomy",
         "level": "advanced",
-        "theme": "Food",
+        "theme": "food",
         "language": "fr",
         "emoji": "🍽️",
         "form": "noun",
@@ -71,13 +67,15 @@
                 ]
             }
         ],
-        "transcription": "/ɡas.tʁɔ.nɔ.mi/"
+        "transcription": "/ɡas.tʁɔ.nɔ.mi/",
+        "lang": "fr",
+        "id": "fr_advanced_food_noun_gastronomie"
     },
     {
         "word": "itinéraire",
         "translation": "itinerary",
         "level": "advanced",
-        "theme": "Travel",
+        "theme": "travel",
         "language": "fr",
         "emoji": "🗺️",
         "form": "noun",
@@ -89,13 +87,15 @@
                 ]
             }
         ],
-        "transcription": "/i.ti.ne.ʁɛʁ/"
+        "transcription": "/i.ti.ne.ʁɛʁ/",
+        "lang": "fr",
+        "id": "fr_advanced_travel_noun_itinraire"
     },
     {
         "word": "bien-être",
         "translation": "well-being",
         "level": "advanced",
-        "theme": "Health",
+        "theme": "health",
         "language": "fr",
         "emoji": "🧘",
         "form": "noun",
@@ -107,7 +107,12 @@
                 ]
             }
         ],
-        "transcription": "/bjɛ̃.nɛtʁ/"
+        "transcription": "/bjɛ̃.nɛtʁ/",
+        "lang": "fr",
+        "id": "fr_advanced_health_noun_bien-tre"
     }
 ];
+    const lang = "fr";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

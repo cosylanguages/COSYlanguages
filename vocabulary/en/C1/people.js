@@ -1,8 +1,7 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
-        "id": "en_advanced_people_009",
+        "id": "en_advanced_people_other_elon_musk",
         "word": "Elon Musk",
         "form": "other",
         "definitions": [
@@ -17,7 +16,7 @@
         "sub_theme": null
     },
     {
-        "id": "en_advanced_people_010",
+        "id": "en_advanced_people_other_nelson_mandela",
         "word": "Nelson Mandela",
         "form": "other",
         "definitions": [
@@ -35,7 +34,4 @@
     const lang = "en";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
 })();

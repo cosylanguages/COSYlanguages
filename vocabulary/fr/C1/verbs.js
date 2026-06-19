@@ -1,10 +1,9 @@
-// TODO: verify level classification
 (function() {
-const data = [
+    const data = [
     {
         "word": "infrastructure",
         "level": "advanced",
-        "theme": "science_tech_society_C1",
+        "theme": "science_tech_society_c1",
         "emoji": "🏗️",
         "form": "verb",
         "group": "re",
@@ -12,11 +11,12 @@ const data = [
         "aspect": "stative",
         "v3": "infrastructure",
         "auxiliary": "avoir",
-        "v4": "infrastructuant"
+        "v4": "infrastructuant",
+        "lang": "fr",
+        "id": "fr_advanced_science_tech_society_c1_verb_infrastructure"
     }
 ];
     const lang = "fr";
     window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-
+    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
 })();

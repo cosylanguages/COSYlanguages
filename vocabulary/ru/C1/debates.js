@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "ru_advanced_work_001",
+        "id": "ru_advanced_work_phrase_da66791dfd",
         "word": "Плоские организационные иерархии против вертикальных структур управления — что лучше служит работающим в них взрослым?",
         "lang": "ru",
         "level": "advanced",
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "id": "ru_advanced_work_002",
+        "id": "ru_advanced_work_phrase_f38b28d00f",
         "word": "Культ продуктивности против аргументов в пользу праздности — что лучше отражает реальные потребности человека в работе?",
         "lang": "ru",
         "level": "advanced",
@@ -51,7 +51,7 @@
         ]
     },
     {
-        "id": "ru_advanced_work_003",
+        "id": "ru_advanced_work_phrase_9bdb7cd993",
         "word": "Лидерство как навык, которому можно научиться, против лидерства как врожденного качества — какая позиция более обоснована эмпирически?",
         "lang": "ru",
         "level": "advanced",
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_001",
+        "id": "ru_advanced_social_phrase_hustle_culture_slow_living",
         "word": "Культ успеха (hustle culture) против медленной жизни (slow living) — кто побеждает и кто должен победить?",
         "lang": "ru",
         "level": "advanced",
@@ -101,7 +101,7 @@
         ]
     },
     {
-        "id": "ru_advanced_work_004",
+        "id": "ru_advanced_work_phrase_3ce5bf7253",
         "word": "Корпоративная социальная ответственность как искреннее обязательство против инструмента репутационного менеджмента — что честнее?",
         "lang": "ru",
         "level": "advanced",
@@ -126,7 +126,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_002",
+        "id": "ru_advanced_social_phrase_008ab74879",
         "word": "Взрослая идентичность как нечто фиксированное против идентичности в процессе постоянного конструирования — что лучше отражает жизненный опыт?",
         "lang": "ru",
         "level": "advanced",
@@ -151,7 +151,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_003",
+        "id": "ru_advanced_social_phrase_01864f7e53",
         "word": "Приручение феминизма культурой потребления против феминизма, искренне меняющего взрослую жизнь — что ближе к истине?",
         "lang": "ru",
         "level": "advanced",
@@ -176,7 +176,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_004",
+        "id": "ru_advanced_social_phrase_3c21ea760f",
         "word": "Кризис среднего возраста как патология против кризиса как легитимной переоценки ценностей — какая трактовка полезнее?",
         "lang": "ru",
         "level": "advanced",
@@ -201,7 +201,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_005",
+        "id": "ru_advanced_social_phrase_c97d2af215",
         "word": "Давление необходимости быть необычайным против достоинства обычной жизни — какой идеал более гуманен?",
         "lang": "ru",
         "level": "advanced",
@@ -226,7 +226,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_006",
+        "id": "ru_advanced_social_phrase_d68f3509b5",
         "word": "Обязанность заботиться о стареющих родителях против ответственности государства — на кого должно ложиться это бремя?",
         "lang": "ru",
         "level": "advanced",
@@ -251,7 +251,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_007",
+        "id": "ru_advanced_social_phrase_40e7474b0c",
         "word": "Радикальная честность в отношениях против стратегического молчания — какой подход к близости более этичен?",
         "lang": "ru",
         "level": "advanced",
@@ -276,7 +276,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_008",
+        "id": "ru_advanced_social_phrase_5bf9f1f94c",
         "word": "Осознанный выбор социального круга против органического формирования отношений — что создает более подлинную дружбу?",
         "lang": "ru",
         "level": "advanced",
@@ -301,7 +301,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_009",
+        "id": "ru_advanced_social_phrase_178cfa3536",
         "word": "Нуклеарная семья как оптимальная социальная единица против исторически обусловленного соглашения — какой взгляд более обоснован?",
         "lang": "ru",
         "level": "advanced",
@@ -326,7 +326,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_010",
+        "id": "ru_advanced_social_phrase_7fca2c7823",
         "word": "Технократическое управление против демократического популизма — что представляет больший долгосрочный риск для граждан?",
         "lang": "ru",
         "level": "advanced",
@@ -351,7 +351,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_011",
+        "id": "ru_advanced_social_phrase_a3e58518c9",
         "word": "Справедливость в отношениях между поколениями против текущего благосостояния — что должно быть в приоритете государственной политики?",
         "lang": "ru",
         "level": "advanced",
@@ -376,7 +376,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_012",
+        "id": "ru_advanced_social_phrase_61722a723e",
         "word": "Обязанность голосовать против права воздержаться — какая гражданская позиция более оправдана?",
         "lang": "ru",
         "level": "advanced",
@@ -401,7 +401,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_013",
+        "id": "ru_advanced_social_phrase_9b9aaa4278",
         "word": "Патриотизм как гражданская добродетель против патриотизма как когнитивного искажения — какая позиция убедительнее?",
         "lang": "ru",
         "level": "advanced",
@@ -426,7 +426,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_014",
+        "id": "ru_advanced_social_phrase_4770830463",
         "word": "Абсолютизм свободы слова против регулируемой речи — что дает лучшие результаты для демократического общества?",
         "lang": "ru",
         "level": "advanced",
@@ -451,7 +451,7 @@
         ]
     },
     {
-        "id": "ru_advanced_work_005",
+        "id": "ru_advanced_work_phrase_841a016996",
         "word": "Осмысленная карьера против работы, которая финансирует осмысленную частную жизнь — какая амбиция честнее?",
         "lang": "ru",
         "level": "advanced",
@@ -476,7 +476,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_015",
+        "id": "ru_advanced_social_phrase_5a2eb4f144",
         "word": "Религия против светской философии — что эффективнее отвечает на экзистенциальные потребности современных взрослых?",
         "lang": "ru",
         "level": "advanced",
@@ -501,7 +501,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_016",
+        "id": "ru_advanced_social_phrase_ab54be6a17",
         "word": "Осознанная жизнь против поглощенности жизнью — какую жизнь больше стоит прожить и кто это решает?",
         "lang": "ru",
         "level": "advanced",
@@ -526,7 +526,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_017",
+        "id": "ru_advanced_social_phrase_d2324ded33",
         "word": "Наследие против присутствия — к чему взрослому человеку логичнее стремиться?",
         "lang": "ru",
         "level": "advanced",
@@ -551,7 +551,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_018",
+        "id": "ru_advanced_social_phrase_448189dd53",
         "word": "Взрослый, который «наконец-то во всем разобрался», против взрослого, который принял, что никогда не разберется — кто более самоосознан?",
         "lang": "ru",
         "level": "advanced",
@@ -576,11 +576,11 @@
         ]
     },
     {
-        "id": "ru_advanced_psychology_001",
+        "id": "ru_advanced_psychological_concepts_c1_phrase_d94b171345",
         "word": "Рассказывать все своему психологу против того, чтобы рассказывать все своему парикмахеру — какие отношения эффективнее терапевтически?",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "form": "phrase",
         "definitions": [
             {
@@ -601,7 +601,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_019",
+        "id": "ru_advanced_social_phrase_0ea620020e",
         "word": "Воскресная тревога взрослого с плотным графиком против тревоги человека с пустым графиком — что экзистенциально тревожнее?",
         "lang": "ru",
         "level": "advanced",
@@ -626,7 +626,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_020",
+        "id": "ru_advanced_social_phrase_a4f85280fc",
         "word": "Долгие раздумья над каждым важным решением против импульсивности — какая стратегия имеет лучший результат?",
         "lang": "ru",
         "level": "advanced",
@@ -651,7 +651,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_021",
+        "id": "ru_advanced_social_phrase_8dde2da419",
         "word": "Взрослые, читающие книги по саморазвитию, против тех, кто принципиально их не читает — с кем сложнее общаться на ужине?",
         "lang": "ru",
         "level": "advanced",
@@ -676,7 +676,7 @@
         ]
     },
     {
-        "id": "ru_advanced_technology_001",
+        "id": "ru_advanced_technology_phrase_d73cb3b6b3",
         "word": "Креативность ИИ против человеческого искусства — могут ли машины по-настоящему творить?",
         "lang": "ru",
         "level": "advanced",
@@ -701,7 +701,7 @@
         ]
     },
     {
-        "id": "ru_advanced_technology_002",
+        "id": "ru_advanced_technology_phrase_b342d12454",
         "word": "Исследование космоса против исследования морских глубин — на чем стоит сосредоточить ресурсы?",
         "lang": "ru",
         "level": "advanced",
@@ -726,7 +726,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_022",
+        "id": "ru_advanced_social_phrase_1d533d3104",
         "word": "Цифровая приватность против национальной безопасности — оправдана ли когда-либо тотальная слежка?",
         "lang": "ru",
         "level": "advanced",
@@ -751,7 +751,7 @@
         ]
     },
     {
-        "id": "ru_advanced_technology_003",
+        "id": "ru_advanced_technology_phrase_8027a4d471",
         "word": "ГМО против органического земледелия — как нам прокормить мир?",
         "lang": "ru",
         "level": "advanced",
@@ -776,7 +776,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_023",
+        "id": "ru_advanced_social_phrase_b3810a5bfd",
         "word": "Безусловный базовый доход против программ гарантированной занятости — какая соцзащита лучше?",
         "lang": "ru",
         "level": "advanced",

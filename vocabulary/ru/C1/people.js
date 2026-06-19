@@ -1,8 +1,7 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
-        "id": "ru_advanced_people_004",
+        "id": "ru_advanced_people_noun_0f010d3aac",
         "word": "Мария Шарапова",
         "lang": "ru",
         "level": "advanced",
@@ -16,7 +15,7 @@
         ]
     },
     {
-        "id": "ru_advanced_people_005",
+        "id": "ru_advanced_people_noun_eb405930db",
         "word": "Анна Ахматова",
         "lang": "ru",
         "level": "advanced",
@@ -33,7 +32,4 @@
     const lang = "ru";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
 })();

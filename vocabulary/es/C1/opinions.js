@@ -21,7 +21,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_technology_001"
+        "id": "es_advanced_technology_phrase_ingeniera_gentica_progreso_o_p"
     },
     {
         "t": "La renta básica universal es la única solución a la automatización generalizada.",
@@ -44,7 +44,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_work_001"
+        "id": "es_advanced_work_phrase_la_renta_bsica_universal_es_la"
     },
     {
         "t": "La felicidad es una elección; las circunstancias son solo excusas.",
@@ -57,7 +57,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": "cognitive_processes",
         "word": "La felicidad es una elección; las circunstancias son solo excusas.",
         "definitions": [
@@ -67,7 +67,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_psychology_001"
+        "id": "es_advanced_psychological_concepts_c1_phrase_la_felicidad_es_una_eleccin_la"
     },
     {
         "t": "Las personas que dicen odiar el drama suelen ser la fuente de él.",
@@ -90,7 +90,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_people_001"
+        "id": "es_advanced_people_phrase_las_personas_que_dicen_odiar_e"
     },
     {
         "t": "El aburrimiento es un signo de falta de imaginación, no de falta de estimulación.",
@@ -103,7 +103,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "word": "El aburrimiento es un signo de falta de imaginación, no de falta de estimulación.",
         "definitions": [
@@ -113,7 +113,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_psychology_002"
+        "id": "es_advanced_psychological_concepts_c1_phrase_el_aburrimiento_es_un_signo_de"
     },
     {
         "t": "La empatía sin límites es solo complacencia con buenas relaciones públicas.",
@@ -126,7 +126,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "word": "La empatía sin límites es solo complacencia con buenas relaciones públicas.",
         "definitions": [
@@ -136,7 +136,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_psychology_003"
+        "id": "es_advanced_psychological_concepts_c1_phrase_la_empata_sin_lmites_es_solo_c"
     },
     {
         "t": "Las opiniones más peligrosas son las que suenan completamente razonables.",
@@ -149,7 +149,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": "cognitive_processes",
         "word": "Las opiniones más peligrosas son las que suenan completamente razonables.",
         "definitions": [
@@ -159,7 +159,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_psychology_004"
+        "id": "es_advanced_psychological_concepts_c1_phrase_las_opiniones_ms_peligrosas_so"
     },
     {
         "t": "La autenticidad se ha convertido en la actuación más cuidadosamente curada de todas.",
@@ -182,7 +182,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_people_002"
+        "id": "es_advanced_people_phrase_la_autenticidad_se_ha_converti"
     },
     {
         "t": "El perdón es, en última instancia, algo que haces por ti mismo, no por la otra persona.",
@@ -205,7 +205,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_people_003"
+        "id": "es_advanced_people_phrase_el_perdn_es_en_ltima_instancia"
     },
     {
         "t": "Las instituciones siempre acaban protegiéndose más a sí mismas que a las personas a las que sirven.",
@@ -228,7 +228,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_020"
+        "id": "es_advanced_social_phrase_las_instituciones_siempre_acab"
     },
     {
         "t": "El deseo de certeza es la raíz de la mayor parte de la crueldad humana.",
@@ -241,7 +241,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": "cognitive_processes",
         "word": "El deseo de certeza es la raíz de la mayor parte de la crueldad humana.",
         "definitions": [
@@ -251,7 +251,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_psychology_005"
+        "id": "es_advanced_psychological_concepts_c1_phrase_el_deseo_de_certeza_es_la_raz_"
     },
     {
         "t": "Los valores de la mayoría de las personas solo se mantienen cuando no cuesta nada tenerlos.",
@@ -264,7 +264,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": "behavior",
         "word": "Los valores de la mayoría de las personas solo se mantienen cuando no cuesta nada tenerlos.",
         "definitions": [
@@ -274,7 +274,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_psychology_006"
+        "id": "es_advanced_psychological_concepts_c1_phrase_los_valores_de_la_mayora_de_la"
     },
     {
         "t": "Saber cuándo dejar de hablar es más raro y valioso que saber qué decir.",
@@ -297,7 +297,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_language_001"
+        "id": "es_advanced_language_phrase_saber_cundo_dejar_de_hablar_es"
     },
     {
         "t": "Nos define más lo que nos negamos a hacer que lo que elegimos hacer.",
@@ -320,7 +320,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_people_004"
+        "id": "es_advanced_people_phrase_nos_define_ms_lo_que_nos_negam"
     },
     {
         "t": "La obsesión por la productividad es solo capitalismo disfrazado de superación personal.",
@@ -343,7 +343,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_social_021"
+        "id": "es_advanced_social_phrase_la_obsesin_por_la_productivida"
     },
     {
         "t": "La cultura de la cancelación se ha convertido en una forma de justicia digital de masas.",
@@ -366,7 +366,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_art_culture_001"
+        "id": "es_advanced_art_culture_phrase_la_cultura_de_la_cancelacin_se"
     },
     {
         "t": "Las personas que afirman no tener remordimientos o no han vivido lo suficiente o no han reflexionado lo suficiente.",
@@ -379,7 +379,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": "cognitive_processes",
         "word": "Las personas que afirman no tener remordimientos o no han vivido lo suficiente o no han reflexionado lo suficiente.",
         "definitions": [
@@ -389,7 +389,7 @@
             }
         ],
         "form": "phrase",
-        "id": "es_advanced_psychology_007"
+        "id": "es_advanced_psychological_concepts_c1_phrase_las_personas_que_afirman_no_te"
     }
 ];
     const lang = "es";

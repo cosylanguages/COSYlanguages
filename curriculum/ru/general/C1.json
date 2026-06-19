@@ -1,0 +1,172 @@
+{
+  "language": "ru",
+  "course_type": "general",
+  "level": "C1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Наука, технологии и общество",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Наука, технологии и общество - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced наука, технологии и общество vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Наука, технологии и общество - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Наука, технологии и общество - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Власть и институты",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Власть и институты - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced власть и институты vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Власть и институты - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Власть и институты - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Социальные структуры",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Социальные структуры - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced социальные структуры vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Социальные структуры - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Социальные структуры - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Знание и истина",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Знание и истина - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced знание и истина vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Знание и истина - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Знание и истина - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Дискурс и аргументация",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Дискурс и аргументация - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced дискурс и аргументация vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Дискурс и аргументация - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Дискурс и аргументация - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    }
+  ]
+}

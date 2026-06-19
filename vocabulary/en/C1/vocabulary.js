@@ -1,22 +1,12 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
-        "word": "garden",
-        "image": "images/vocabulary/places/garden.png",
-        "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "🌳",
-        "form": "noun", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
-        "countability": "countable"
-    },
-{
         "word": "firefighter",
         "level": "advanced",
-        "theme": "advanced_register_C1",
+        "theme": "advanced_register_c1",
         "emoji": "👨‍🚒",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "firefighters",
         "transcription": "🇬🇧 ˈfaɪəˌfaɪtə | 🇺🇸 ˈfaɪəˌfaɪtər",
         "definitions": [
@@ -27,14 +17,17 @@
                     "Firefighters are very brave."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_advanced_register_c1_noun_firefighter"
     },
-{
+    {
         "word": "data scientist",
         "level": "advanced",
-        "theme": "advanced_register_C1",
+        "theme": "advanced_register_c1",
         "emoji": "📊",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "data scientists",
         "transcription": "ˈdeɪtə ˈsaɪəntɪst",
         "definitions": [
@@ -45,14 +38,17 @@
                     "Data scientists help companies make better decisions."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_advanced_register_c1_noun_data_scientist"
     },
-{
+    {
         "word": "virtual reality",
         "level": "advanced",
-        "theme": "science_tech_society_C1",
+        "theme": "science_tech_society_c1",
         "emoji": "🥽",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "virtual realities",
         "transcription": "ˌvɜːtʃuəl riˈæləti",
         "definitions": [
@@ -63,14 +59,17 @@
                     "He wore a headset to experience virtual reality."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_science_tech_society_c1_noun_virtual_reality"
     },
-{
+    {
         "word": "quantum mechanics",
         "level": "advanced",
-        "theme": "science_tech_society_C1",
+        "theme": "science_tech_society_c1",
         "emoji": "⚛️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˈkwɒntəm mɪˈkænɪks | 🇺🇸 ˈkwɑːntəm mɪˈkænɪks",
         "definitions": [
             {
@@ -80,15 +79,18 @@
                     "He is studying advanced quantum mechanics."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_science_tech_society_c1_noun_quantum_mechanics"
     },
-{
+    {
         "word": "hegemony",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "👑",
         "subtext": "cultural hegemony / challenge hegemony / establish hegemony",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "hɪˈdʒeməni",
         "definitions": [
             {
@@ -97,15 +99,18 @@
                     "Western cultural hegemony influences media consumption globally."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_hegemony"
     },
-{
+    {
         "word": "ideology",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "🧠",
         "subtext": "prevailing ideology / political ideology / dominant ideology",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "ideologies",
         "transcription": "🇬🇧 ˌaɪdiˈɒlədʒi | 🇺🇸 ˌaɪdiˈɑːlədʒi",
         "definitions": [
@@ -115,15 +120,18 @@
                     "The prevailing ideology emphasizes individual responsibility over collective welfare."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_ideology"
     },
-{
+    {
         "word": "intersectionality",
         "level": "advanced",
-        "theme": "sociology_structures_C1",
+        "theme": "sociology_structures_c1",
         "emoji": "🕸️",
         "subtext": "intersectional lens / adopt intersectionality / intersectional approach",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌɪntəsekʃəˈnæləti",
         "definitions": [
             {
@@ -132,15 +140,18 @@
                     "Intersectionality is crucial for understanding how different forms of discrimination overlap."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_sociology_structures_c1_noun_intersectionality"
     },
-{
+    {
         "word": "meritocracy",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "🏆",
         "subtext": "belief in meritocracy / myth of meritocracy / move toward meritocracy",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "meritocracies",
         "transcription": "🇬🇧 ˌmerɪˈtɒkrəsi | 🇺🇸 ˌmerɪˈtɑːkrəsi",
         "definitions": [
@@ -150,15 +161,18 @@
                     "The idea of meritocracy is often used to justify existing social inequalities."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_meritocracy"
     },
-{
+    {
         "word": "neoliberalism",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "💹",
         "subtext": "rise of neoliberalism / neoliberal policies / neoliberal agenda",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˌniːəʊˈlɪbərəˌlɪzəm | 🇺🇸 ˌniːoʊˈlɪbərəˌlɪzəm",
         "definitions": [
             {
@@ -167,15 +181,18 @@
                     "Neoliberalism has led to the privatization of many public services."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_neoliberalism"
     },
-{
+    {
         "word": "paradigm shift",
         "level": "advanced",
-        "theme": "science_tech_society_C1",
+        "theme": "science_tech_society_c1",
         "emoji": "🔄",
         "subtext": "undergo a paradigm shift / cause a paradigm shift / major paradigm shift",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "paradigm shifts",
         "transcription": "ˈpærədaɪm ʃɪft",
         "definitions": [
@@ -185,15 +202,18 @@
                     "The discovery of penicillin caused a paradigm shift in medical science."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_science_tech_society_c1_noun_paradigm_shift"
     },
-{
+    {
         "word": "discourse",
         "level": "advanced",
-        "theme": "discourse_argument_C1",
+        "theme": "discourse_argument_c1",
         "emoji": "🗣️",
         "subtext": "academic discourse / public discourse / dominant discourse",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˈdɪskɔːs",
         "definitions": [
             {
@@ -202,15 +222,18 @@
                     "We need to change the public discourse surrounding mental health."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_discourse_argument_c1_noun_discourse"
     },
-{
+    {
         "word": "stratification",
         "level": "advanced",
-        "theme": "sociology_structures_C1",
+        "theme": "sociology_structures_c1",
         "emoji": "🏙️",
         "subtext": "social stratification / vertical stratification / economic stratification",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌstrætɪfɪˈkeɪʃn",
         "definitions": [
             {
@@ -219,15 +242,18 @@
                     "Social stratification remains a key topic in sociological research."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_sociology_structures_c1_noun_stratification"
     },
-{
+    {
         "word": "social mobility",
         "level": "advanced",
-        "theme": "sociology_structures_C1",
+        "theme": "sociology_structures_c1",
         "emoji": "🪜",
         "subtext": "upward social mobility / lack of social mobility / facilitate social mobility",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˌsəʊʃl məʊˈbɪləti | 🇺🇸 ˌsoʊʃl moʊˈbɪləti",
         "definitions": [
             {
@@ -236,15 +262,18 @@
                     "Education is often seen as the primary engine of social mobility."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_sociology_structures_c1_noun_social_mobility"
     },
-{
+    {
         "word": "cultural capital",
         "level": "advanced",
-        "theme": "sociology_structures_C1",
+        "theme": "sociology_structures_c1",
         "emoji": "🎭",
         "subtext": "possess cultural capital / accumulate cultural capital / lack of cultural capital",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˈkʌltʃərəl ˈkæpɪtl",
         "definitions": [
             {
@@ -253,15 +282,18 @@
                     "Having cultural capital can provide significant advantages in the job market."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_sociology_structures_c1_noun_cultural_capital"
     },
-{
+    {
         "word": "agency",
         "level": "advanced",
-        "theme": "sociology_structures_C1",
+        "theme": "sociology_structures_c1",
         "emoji": "🏃",
         "subtext": "human agency / exercise agency / sense of agency",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˈeɪdʒənsi",
         "definitions": [
             {
@@ -270,15 +302,18 @@
                     "The theory emphasizes the role of human agency in social change."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_sociology_structures_c1_noun_agency"
     },
-{
+    {
         "word": "subjectivity",
         "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
+        "theme": "knowledge_epistemology_c1",
         "emoji": "👁️",
         "subtext": "inherent subjectivity / collective subjectivity / embrace subjectivity",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌsʌbdʒekˈtɪvəti",
         "definitions": [
             {
@@ -287,15 +322,18 @@
                     "The researcher acknowledged the inherent subjectivity in their qualitative analysis."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_knowledge_epistemology_c1_noun_subjectivity"
     },
-{
+    {
         "word": "objectivity",
         "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
+        "theme": "knowledge_epistemology_c1",
         "emoji": "⚖️",
         "subtext": "maintain objectivity / lack of objectivity / objective reality",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˌɒbdʒekˈtɪvəti | 🇺🇸 ˌɑːbdʒekˈtɪvəti",
         "definitions": [
             {
@@ -304,15 +342,18 @@
                     "Scientific research strives for the highest possible level of objectivity."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_knowledge_epistemology_c1_noun_objectivity"
     },
-{
+    {
         "word": "empirical evidence",
         "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
+        "theme": "knowledge_epistemology_c1",
         "emoji": "🧪",
         "subtext": "strong empirical evidence / lack of empirical evidence / gather empirical evidence",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ɪmˈpɪrɪkl ˈevɪdəns",
         "definitions": [
             {
@@ -321,15 +362,18 @@
                     "There is no empirical evidence to support the claim that the policy works."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_knowledge_epistemology_c1_noun_empirical_evidence"
     },
-{
+    {
         "word": "epistemology",
         "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
+        "theme": "knowledge_epistemology_c1",
         "emoji": "📚",
         "subtext": "feminist epistemology / social epistemology / epistemological break",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ɪˌpɪstəˈmɒlədʒi | 🇺🇸 ɪˌpɪstəˈmɑːlədʒi",
         "definitions": [
             {
@@ -338,15 +382,18 @@
                     "His research explores the epistemology of scientific discovery."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_knowledge_epistemology_c1_noun_epistemology"
     },
-{
+    {
         "word": "ontology",
         "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
+        "theme": "knowledge_epistemology_c1",
         "emoji": "🌌",
         "subtext": "ontological status / social ontology / ontological security",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ɒnˈtɒlədʒi | 🇺🇸 ɑːnˈtɑːlədʒi",
         "definitions": [
             {
@@ -355,15 +402,18 @@
                     "The paper discusses the ontology of digital objects in the modern world."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_knowledge_epistemology_c1_noun_ontology"
     },
-{
+    {
         "word": "rhetoric",
         "level": "advanced",
-        "theme": "rhetoric_persuasion_C1",
+        "theme": "rhetoric_persuasion_c1",
         "emoji": "🎙️",
         "subtext": "political rhetoric / empty rhetoric / use of rhetoric",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˈretərɪk",
         "definitions": [
             {
@@ -372,15 +422,18 @@
                     "His political rhetoric often appeals to voters' emotions rather than facts."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_rhetoric_persuasion_c1_noun_rhetoric"
     },
-{
+    {
         "word": "dialectic",
         "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
+        "theme": "knowledge_epistemology_c1",
         "emoji": "☯️",
         "subtext": "Hegelian dialectic / historical dialectic / internal dialectic",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌdaɪəˈlektɪk",
         "definitions": [
             {
@@ -389,15 +442,18 @@
                     "The dialectic between tradition and progress is central to his work."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_knowledge_epistemology_c1_noun_dialectic"
     },
-{
+    {
         "word": "synthesis",
         "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
+        "theme": "knowledge_epistemology_c1",
         "emoji": "🧪",
         "subtext": "creative synthesis / final synthesis / synthesis of ideas",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "syntheses",
         "transcription": "ˈsɪnθəsɪs",
         "definitions": [
@@ -407,15 +463,18 @@
                     "The report is a synthesis of data from several different studies."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_knowledge_epistemology_c1_noun_synthesis"
     },
-{
+    {
         "word": "thesis",
         "level": "advanced",
-        "theme": "discourse_argument_C1",
+        "theme": "discourse_argument_c1",
         "emoji": "📄",
         "subtext": "central thesis / support a thesis / defend a thesis",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "theses",
         "transcription": "ˈθiːsɪs",
         "definitions": [
@@ -425,15 +484,18 @@
                     "The central thesis of the book is that technology changes how we think."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_discourse_argument_c1_noun_thesis"
     },
-{
+    {
         "word": "antithesis",
         "level": "advanced",
-        "theme": "discourse_argument_C1",
+        "theme": "discourse_argument_c1",
         "emoji": "🚫",
         "subtext": "exact antithesis / complete antithesis / direct antithesis",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "antitheses",
         "transcription": "ænˈtɪθəsɪs",
         "definitions": [
@@ -443,15 +505,18 @@
                     "His actions were the exact antithesis of his stated beliefs."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_discourse_argument_c1_noun_antithesis"
     },
-{
+    {
         "word": "norm",
         "level": "advanced",
-        "theme": "sociology_structures_C1",
+        "theme": "sociology_structures_c1",
         "emoji": "📏",
         "subtext": "social norm / cultural norm / conform to norms",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "norms",
         "transcription": "nɔːm",
         "definitions": [
@@ -461,15 +526,18 @@
                     "Wearing a tie to the office is no longer the social norm it once was."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_sociology_structures_c1_noun_norm"
     },
-{
+    {
         "word": "deviance",
         "level": "advanced",
-        "theme": "sociology_structures_C1",
+        "theme": "sociology_structures_c1",
         "emoji": "👺",
         "subtext": "social deviance / criminal deviance / primary deviance",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˈdiːviəns",
         "definitions": [
             {
@@ -478,15 +546,18 @@
                     "Sociologists study deviance to understand how social rules are formed and enforced."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_sociology_structures_c1_noun_deviance"
     },
-{
+    {
         "word": "alienation",
         "level": "advanced",
-        "theme": "sociology_structures_C1",
+        "theme": "sociology_structures_c1",
         "emoji": "👤",
         "subtext": "sense of alienation / social alienation / alienation of labor",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌeɪliəˈneɪʃn",
         "definitions": [
             {
@@ -495,15 +566,18 @@
                     "Long working hours can lead to a sense of alienation from family life."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_sociology_structures_c1_noun_alienation"
     },
-{
+    {
         "word": "commodity fetishism",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "🏷️",
         "subtext": "concept of commodity fetishism / critique of commodity fetishism",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 kəˈmɒdəti ˈfetɪʃɪzəm | 🇺🇸 kəˈmɑːdəti ˈfetɪʃɪzəm",
         "definitions": [
             {
@@ -512,15 +586,18 @@
                     "Marx used the term commodity fetishism to describe how we value products over people."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_commodity_fetishism"
     },
-{
+    {
         "word": "reification",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "🧱",
         "subtext": "reification of ideas / process of reification / reification of power",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌriːɪfɪˈkeɪʃn",
         "definitions": [
             {
@@ -529,15 +606,18 @@
                     "The reification of complex social issues into simple statistics is problematic."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_reification"
     },
-{
+    {
         "word": "authenticity",
         "level": "advanced",
-        "theme": "psychological_states_C1",
+        "theme": "psychological_states_c1",
         "emoji": "💯",
         "subtext": "emotional authenticity / search for authenticity / lack of authenticity",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌɔːθenˈtɪsəti",
         "definitions": [
             {
@@ -546,15 +626,18 @@
                     "Consumers are increasingly looking for authenticity in the brands they support."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_psychological_states_c1_noun_authenticity"
     },
-{
+    {
         "word": "liminality",
         "level": "advanced",
-        "theme": "psychological_states_C1",
+        "theme": "psychological_states_c1",
         "emoji": "🚪",
         "subtext": "sense of liminality / liminal space / experience liminality",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌlɪmɪˈnæləti",
         "definitions": [
             {
@@ -563,15 +646,18 @@
                     "The period between jobs is a state of liminality and uncertainty."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_psychological_states_c1_noun_liminality"
     },
-{
+    {
         "word": "paradigm",
         "level": "advanced",
-        "theme": "science_tech_society_C1",
+        "theme": "science_tech_society_c1",
         "emoji": "💎",
         "subtext": "shifting paradigm / dominant paradigm / existing paradigm",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "paradigms",
         "transcription": "ˈpærədaɪm",
         "definitions": [
@@ -581,15 +667,18 @@
                     "The new research challenged the existing paradigm in the field of linguistics."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_science_tech_society_c1_noun_paradigm"
     },
-{
+    {
         "word": "nuance",
         "level": "advanced",
-        "theme": "language_persuasion_C1",
+        "theme": "language_persuasion_c1",
         "emoji": "🎨",
         "subtext": "capture the nuance / subtle nuance / lack of nuance",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "nuances",
         "transcription": "ˈnjuːɑːns",
         "definitions": [
@@ -599,15 +688,18 @@
                     "The translator managed to capture every nuance of the original poem."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_language_persuasion_c1_noun_nuance"
     },
-{
+    {
         "word": "paradox",
         "level": "advanced",
-        "theme": "discourse_argument_C1",
+        "theme": "discourse_argument_c1",
         "emoji": "🌀",
         "subtext": "central paradox / apparent paradox / solve a paradox",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "paradoxes",
         "transcription": "🇬🇧 ˈpærədɒks | 🇺🇸 ˈpærədɑːks",
         "definitions": [
@@ -617,15 +709,18 @@
                     "The paradox of thrift suggests that saving more can lead to lower total savings."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_discourse_argument_c1_noun_paradox"
     },
-{
+    {
         "word": "ambiguity",
         "level": "advanced",
-        "theme": "language_persuasion_C1",
+        "theme": "language_persuasion_c1",
         "emoji": "🌫️",
         "subtext": "moral ambiguity / legal ambiguity / avoid ambiguity",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "ambiguities",
         "transcription": "ˌæmbɪˈɡjuːəti",
         "definitions": [
@@ -635,15 +730,18 @@
                     "The ambiguity of the law's wording led to several legal challenges."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_language_persuasion_c1_noun_ambiguity"
     },
-{
+    {
         "word": "dichotomy",
         "level": "advanced",
-        "theme": "discourse_argument_C1",
+        "theme": "discourse_argument_c1",
         "emoji": "🌓",
         "subtext": "false dichotomy / clear dichotomy / sharp dichotomy",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "dichotomies",
         "transcription": "🇬🇧 daɪˈkɒtəmi | 🇺🇸 daɪˈkɑːtəmi",
         "definitions": [
@@ -653,15 +751,18 @@
                     "There is a false dichotomy between economic growth and environmental protection."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_discourse_argument_c1_noun_dichotomy"
     },
-{
+    {
         "word": "spectrum",
         "level": "advanced",
-        "theme": "discourse_argument_C1",
+        "theme": "discourse_argument_c1",
         "emoji": "🌈",
         "subtext": "broad spectrum / across the spectrum / full spectrum",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "spectrums",
         "transcription": "ˈspektrəm",
         "definitions": [
@@ -671,15 +772,18 @@
                     "Political opinions in the country cover a wide spectrum."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_discourse_argument_c1_noun_spectrum"
     },
-{
+    {
         "word": "infrastructure",
         "level": "advanced",
-        "theme": "science_tech_society_C1",
+        "theme": "science_tech_society_c1",
         "emoji": "🏗️",
         "subtext": "aging infrastructure / critical infrastructure / digital infrastructure",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "infrastructures",
         "transcription": "🇬🇧 ˈɪnfrəˌstrʌktʃə | 🇺🇸 ˈɪnfrəˌstrʌktʃər",
         "definitions": [
@@ -689,15 +793,18 @@
                     "The government has promised to invest heavily in the country's infrastructure."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_science_tech_society_c1_noun_infrastructure"
     },
-{
+    {
         "word": "superstructure",
         "level": "advanced",
-        "theme": "sociology_structures_C1",
+        "theme": "sociology_structures_c1",
         "emoji": "🏛️",
         "subtext": "ideological superstructure / social superstructure",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "superstructures",
         "transcription": "🇬🇧 ˈsuːpəˌstrʌktʃə | 🇺🇸 ˈsuːpəˌstrʌktʃər",
         "definitions": [
@@ -707,15 +814,18 @@
                     "In Marxist theory, the superstructure includes laws, politics, and culture."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_sociology_structures_c1_noun_superstructure"
     },
-{
+    {
         "word": "consensus",
         "level": "advanced",
-        "theme": "language_persuasion_C1",
+        "theme": "language_persuasion_c1",
         "emoji": "🤝",
         "subtext": "reach a consensus / general consensus / build a consensus",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "kənˈsensəs",
         "definitions": [
             {
@@ -724,15 +834,18 @@
                     "There is no consensus among scientists on the cause of the phenomenon."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_language_persuasion_c1_noun_consensus"
     },
-{
+    {
         "word": "dissent",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "🙅",
         "subtext": "suppress dissent / public dissent / political dissent",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "dɪˈsent",
         "definitions": [
             {
@@ -741,15 +854,18 @@
                     "The government's new policy was met with widespread dissent."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_dissent"
     },
-{
+    {
         "word": "activism",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "📣",
         "subtext": "political activism / social activism / grassroots activism",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˈæktɪvɪzəm",
         "definitions": [
             {
@@ -758,15 +874,18 @@
                     "Her environmental activism has inspired many young people to take action."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_activism"
     },
-{
+    {
         "word": "advocacy",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "📢",
         "subtext": "consumer advocacy / policy advocacy / advocacy group",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˈædvəkəsi",
         "definitions": [
             {
@@ -775,15 +894,18 @@
                     "The organization is known for its advocacy of human rights."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_advocacy"
     },
-{
+    {
         "word": "bureaucracy",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "📁",
         "subtext": "government bureaucracy / cut through bureaucracy / excessive bureaucracy",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "bureaucracies",
         "transcription": "🇬🇧 bjʊəˈrɒkrəsi | 🇺🇸 bjʊəˈrɑːkrəsi",
         "definitions": [
@@ -793,15 +915,18 @@
                     "Small businesses often struggle with the amount of bureaucracy involved in hiring."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_bureaucracy"
     },
-{
+    {
         "word": "centralization",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "🎯",
         "subtext": "administrative centralization / political centralization",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌsentrəlaɪˈzeɪʃn",
         "definitions": [
             {
@@ -810,15 +935,18 @@
                     "The centralization of power in the capital has led to resentment in other regions."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_centralization"
     },
-{
+    {
         "word": "decentralization",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "📡",
         "subtext": "fiscal decentralization / process of decentralization",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌdiːsentrəlaɪˈzeɪʃn",
         "definitions": [
             {
@@ -827,15 +955,18 @@
                     "The decentralization of the health service aims to improve efficiency."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_decentralization"
     },
-{
+    {
         "word": "globalization",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "🌐",
         "subtext": "economic globalization / cultural globalization / impact of globalization",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˌɡləʊbəlaɪˈzeɪʃn | 🇺🇸 ˌɡloʊbəlaɪˈzeɪʃn",
         "definitions": [
             {
@@ -844,15 +975,18 @@
                     "Globalization has led to increased competition and lower prices for consumers."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_globalization"
     },
-{
+    {
         "word": "isolationism",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "🏝️",
         "subtext": "political isolationism / economic isolationism",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ˌaɪsəˈleɪʃənɪzəm",
         "definitions": [
             {
@@ -861,15 +995,18 @@
                     "The country's shift toward isolationism worried its trading partners."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_isolationism"
     },
-{
+    {
         "word": "protectionism",
         "level": "advanced",
-        "theme": "power_institutions_C1",
+        "theme": "power_institutions_c1",
         "emoji": "🛡️",
         "subtext": "trade protectionism / rise of protectionism / economic protectionism",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "prəˈtekʃənɪzəm",
         "definitions": [
             {
@@ -878,15 +1015,18 @@
                     "Some economists argue that protectionism can lead to higher prices."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_power_institutions_c1_noun_protectionism"
     },
-{
+    {
         "word": "sustainability",
         "level": "advanced",
-        "theme": "science_tech_society_C1",
+        "theme": "science_tech_society_c1",
         "emoji": "🌱",
         "subtext": "environmental sustainability / long-term sustainability",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "səˌsteɪnəˈbɪləti",
         "definitions": [
             {
@@ -895,15 +1035,18 @@
                     "The company is committed to improving the sustainability of its operations."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_science_tech_society_c1_noun_sustainability"
     },
-{
+    {
         "word": "biodiversity",
         "level": "advanced",
-        "theme": "science_tech_society_C1",
+        "theme": "science_tech_society_c1",
         "emoji": "🦋",
         "subtext": "loss of biodiversity / conserve biodiversity / promote biodiversity",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "🇬🇧 ˌbaɪəʊdaɪˈvɜːsəti | 🇺🇸 ˌbaɪoʊdaɪˈvɜːsəti",
         "definitions": [
             {
@@ -912,15 +1055,18 @@
                     "The destruction of the rainforest is a major threat to global biodiversity."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_science_tech_society_c1_noun_biodiversity"
     },
-{
+    {
         "word": "ecological footprint",
         "level": "advanced",
-        "theme": "science_tech_society_C1",
+        "theme": "science_tech_society_c1",
         "emoji": "👣",
         "subtext": "large ecological footprint / measure ecological footprint",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "ecological footprints",
         "transcription": "🇬🇧 ˌiːkəˈlɒdʒɪkl ˈfʊtprɪnt | 🇺🇸 ˌiːkəˈlɑːdʒɪkl ˈfʊtprɪnt",
         "definitions": [
@@ -930,15 +1076,18 @@
                     "Reducing meat consumption is a way to lower your ecological footprint."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "id": "en_advanced_science_tech_society_c1_noun_ecological_footprint"
     },
-{
+    {
         "word": "renewable energy",
         "level": "advanced",
-        "theme": "science_tech_society_C1",
+        "theme": "science_tech_society_c1",
         "emoji": "☀️",
         "subtext": "transition to renewable energy / sources of renewable energy",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "rɪˈnjuːəbl ˈenədʒi",
         "definitions": [
             {
@@ -947,8 +1096,11 @@
                     "The government is investing in renewable energy to reduce dependence on fossil fuels."
                 ]
             }
-        ]
-    },
-{}
-];
+        ],
+        "lang": "en",
+        "id": "en_advanced_science_tech_society_c1_noun_renewable_energy"
+    }];
+    const lang = "en";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

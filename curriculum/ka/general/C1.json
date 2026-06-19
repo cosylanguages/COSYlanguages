@@ -1,0 +1,172 @@
+{
+  "language": "ka",
+  "course_type": "general",
+  "level": "C1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "მეცნიერება, ტექნიკა და საზოგადოება",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "მეცნიერება, ტექნიკა და საზოგადოება - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced მეცნიერება, ტექნიკა და საზოგადოება vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "მეცნიერება, ტექნიკა და საზოგადოება - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "მეცნიერება, ტექნიკა და საზოგადოება - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "ძალაუფლება და ინსტიტუტები",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "ძალაუფლება და ინსტიტუტები - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced ძალაუფლება და ინსტიტუტები vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "ძალაუფლება და ინსტიტუტები - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "ძალაუფლება და ინსტიტუტები - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "სოციალური სტრუქტურები",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "სოციალური სტრუქტურები - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced სოციალური სტრუქტურები vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "სოციალური სტრუქტურები - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "სოციალური სტრუქტურები - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "ცოდნა და ჭეშმარიტება",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "ცოდნა და ჭეშმარიტება - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced ცოდნა და ჭეშმარიტება vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "ცოდნა და ჭეშმარიტება - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "ცოდნა და ჭეშმარიტება - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "დისკურსი და არგუმენტაცია",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "დისკურსი და არგუმენტაცია - Vocabulary I",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "C1 terminology"
+          ],
+          "teacher_notes": "Focus on advanced დისკურსი და არგუმენტაცია vocabulary and registers."
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "დისკურსი და არგუმენტაცია - Advanced Grammar",
+          "duration_minutes": 60,
+          "grammar": [
+            "Complex structures"
+          ],
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "დისკურსი და არგუმენტაცია - Seminar & Debate",
+          "duration_minutes": 90,
+          "teacher_notes": "Critical discussion and presentation skills."
+        }
+      ]
+    }
+  ]
+}

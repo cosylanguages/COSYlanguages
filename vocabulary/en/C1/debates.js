@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "en_advanced_work_001",
+        "id": "en_advanced_work_other_flat_organisational_hierarchie",
         "topic": "Flat organisational hierarchies vs vertical management structures — which better serves the adults who work within them?",
         "sideA": "Flat hierarchy",
         "sideB": "Vertical structure",
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_002",
+        "id": "en_advanced_work_other_the_cult_of_productivity_vs_th",
         "topic": "The cult of productivity vs the case for idleness — which better reflects what humans actually need from work?",
         "sideA": "Productivity",
         "sideB": "Idleness",
@@ -53,7 +53,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_003",
+        "id": "en_advanced_work_other_leadership_as_a_learnable_skil",
         "topic": "Leadership as a learnable skill vs leadership as an innate quality — which account is more empirically defensible?",
         "sideA": "Learnable skill",
         "sideB": "Innate quality",
@@ -79,7 +79,7 @@
         ]
     },
     {
-        "id": "en_advanced_social_001",
+        "id": "en_advanced_social_other_hustle_culture_vs_slow_living_",
         "topic": "Hustle culture vs slow living — which is winning, and which should win?",
         "sideA": "Hustle culture",
         "sideB": "Slow living",
@@ -105,7 +105,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_004",
+        "id": "en_advanced_work_other_corporate_social_responsibilit",
         "topic": "Corporate social responsibility as genuine commitment vs as reputational management — which framing is more honest?",
         "sideA": "Genuine commitment",
         "sideB": "Reputational management",
@@ -131,7 +131,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_005",
+        "id": "en_advanced_work_other_adult_identity_as_fixed_vs_per",
         "topic": "Adult identity as fixed vs perpetually in construction — which account better reflects lived experience?",
         "sideA": "Fixed identity",
         "sideB": "In construction",
@@ -157,7 +157,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_006",
+        "id": "en_advanced_work_other_the_domestication_of_feminism_",
         "topic": "The domestication of feminism by consumer culture vs feminism genuinely reshaping adult life — which is more true?",
         "sideA": "Consumer feminism",
         "sideB": "Genuine reshape",
@@ -183,7 +183,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_007",
+        "id": "en_advanced_work_other_midlife_crisis_as_pathology_vs",
         "topic": "Midlife crisis as pathology vs midlife crisis as legitimate reassessment — which framing is more useful?",
         "sideA": "Pathology",
         "sideB": "Reassessment",
@@ -209,7 +209,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_008",
+        "id": "en_advanced_work_other_the_pressure_to_be_extraordina",
         "topic": "The pressure to be extraordinary vs the dignity of an ordinary life — which is the more humane ideal to hold?",
         "sideA": "Extraordinary",
         "sideB": "Ordinary dignity",
@@ -235,7 +235,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_009",
+        "id": "en_advanced_work_other_the_obligation_to_care_for_age",
         "topic": "The obligation to care for ageing parents vs the state's responsibility — where should the burden fall?",
         "sideA": "Family obligation",
         "sideB": "State responsibility",
@@ -261,7 +261,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_010",
+        "id": "en_advanced_work_other_radical_honesty_in_relationshi",
         "topic": "Radical honesty in relationships vs strategic silence — which is the more ethical approach to intimacy?",
         "sideA": "Radical honesty",
         "sideB": "Strategic silence",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_011",
+        "id": "en_advanced_work_other_choosing_your_social_circle_de",
         "topic": "Choosing your social circle deliberately vs letting relationships form organically — which produces more authentic adult friendships?",
         "sideA": "Deliberate choice",
         "sideB": "Organic formation",
@@ -313,7 +313,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_012",
+        "id": "en_advanced_work_other_the_nuclear_family_as_the_opti",
         "topic": "The nuclear family as the optimal social unit vs as a historically contingent arrangement — which view is more defensible?",
         "sideA": "Optimal unit",
         "sideB": "Historical arrangement",
@@ -339,7 +339,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_013",
+        "id": "en_advanced_work_other_technocratic_governance_vs_dem",
         "topic": "Technocratic governance vs democratic populism — which poses the greater long-term risk to adult citizens?",
         "sideA": "Technocracy",
         "sideB": "Populism",
@@ -365,7 +365,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_014",
+        "id": "en_advanced_work_other_intergenerational_justice_vs_p",
         "topic": "Intergenerational justice vs present welfare — which should take priority in public policy?",
         "sideA": "Intergenerational justice",
         "sideB": "Present welfare",
@@ -391,7 +391,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_015",
+        "id": "en_advanced_work_other_the_obligation_to_vote_vs_the_",
         "topic": "The obligation to vote vs the right to abstain — which is the more defensible civic position?",
         "sideA": "Obligation to vote",
         "sideB": "Right to abstain",
@@ -417,7 +417,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_016",
+        "id": "en_advanced_work_other_patriotism_as_a_civic_virtue_v",
         "topic": "Patriotism as a civic virtue vs patriotism as a cognitive failure — which account is more persuasive?",
         "sideA": "Civic virtue",
         "sideB": "Cognitive failure",
@@ -443,7 +443,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_017",
+        "id": "en_advanced_work_other_free_speech_absolutism_vs_regu",
         "topic": "Free speech absolutism vs regulated speech — which produces better outcomes for adult democratic societies?",
         "sideA": "Absolutism",
         "sideB": "Regulated speech",
@@ -469,7 +469,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_018",
+        "id": "en_advanced_work_other_a_meaningful_career_vs_a_job_t",
         "topic": "A meaningful career vs a job that funds a meaningful private life — which is the more honest adult ambition?",
         "sideA": "Meaningful career",
         "sideB": "Funding private life",
@@ -495,7 +495,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_019",
+        "id": "en_advanced_work_other_religion_vs_secular_philosophy",
         "topic": "Religion vs secular philosophy — which more effectively addresses the existential needs of modern adults?",
         "sideA": "Religion",
         "sideB": "Secular philosophy",
@@ -521,7 +521,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_020",
+        "id": "en_advanced_work_other_the_examined_life_vs_the_absor",
         "topic": "The examined life vs the absorbed life — which is more worth living, and who gets to decide?",
         "sideA": "Examined life",
         "sideB": "Absorbed life",
@@ -547,7 +547,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_021",
+        "id": "en_advanced_work_other_legacy_vs_presence_which_is_a_",
         "topic": "Legacy vs presence — which is a more coherent thing for an adult to strive for?",
         "sideA": "Legacy",
         "sideB": "Presence",
@@ -573,7 +573,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_022",
+        "id": "en_advanced_work_other_the_adult_who_has_finally_figu",
         "topic": "The adult who has \"finally figured it out\" vs the adult who has accepted they never will — which is more self-aware?",
         "sideA": "Figured it out",
         "sideB": "Accepted never will",
@@ -599,7 +599,7 @@
         ]
     },
     {
-        "id": "en_advanced_psychology_001",
+        "id": "en_advanced_psychological_concepts_c1_other_telling_your_therapist_everyth",
         "topic": "Telling your therapist everything vs telling your hairdresser everything — which professional relationship is more therapeutically effective?",
         "sideA": "Therapist",
         "sideB": "Hairdresser",
@@ -613,7 +613,7 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "word": "Telling your therapist everything vs telling your hairdresser everything — which professional relationship is more therapeutically effective?",
         "form": "other",
@@ -625,7 +625,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_023",
+        "id": "en_advanced_work_other_the_sunday_anxiety_of_an_adult",
         "topic": "The Sunday anxiety of an adult with a full schedule vs the Sunday anxiety of an adult with an empty one — which is more existentially troubling?",
         "sideA": "Full schedule",
         "sideB": "Empty schedule",
@@ -651,7 +651,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_024",
+        "id": "en_advanced_work_other_overthinking_every_major_life_",
         "topic": "Overthinking every major life decision vs making them impulsively — which strategy has the better empirical track record?",
         "sideA": "Overthinking",
         "sideB": "Impulsiveness",
@@ -677,7 +677,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_025",
+        "id": "en_advanced_work_other_adults_who_read_self-help_book",
         "topic": "Adults who read self-help books vs adults who refuse to — which group is harder to talk to at a dinner party?",
         "sideA": "Self-help readers",
         "sideB": "Refuse to read",
@@ -703,7 +703,7 @@
         ]
     },
     {
-        "id": "en_advanced_technology_001",
+        "id": "en_advanced_technology_other_ai_creativity_vs_human_artistr",
         "topic": "AI creativity vs human artistry — can machines truly create art?",
         "sideA": "AI creativity",
         "sideB": "Human artistry",
@@ -729,7 +729,7 @@
         ]
     },
     {
-        "id": "en_advanced_technology_002",
+        "id": "en_advanced_technology_other_space_exploration_vs_deep_sea_",
         "topic": "Space exploration vs deep sea exploration — where should we focus our resources?",
         "sideA": "Space",
         "sideB": "Deep sea",
@@ -755,7 +755,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_026",
+        "id": "en_advanced_work_other_digital_privacy_vs_national_se",
         "topic": "Digital privacy vs national security — is total surveillance ever justified?",
         "sideA": "Privacy",
         "sideB": "Security",
@@ -781,7 +781,7 @@
         ]
     },
     {
-        "id": "en_advanced_technology_003",
+        "id": "en_advanced_technology_other_genetically_modified_food_vs_o",
         "topic": "Genetically modified food vs organic farming — how should we feed the world?",
         "sideA": "GMOs",
         "sideB": "Organic",
@@ -807,7 +807,7 @@
         ]
     },
     {
-        "id": "en_advanced_work_027",
+        "id": "en_advanced_work_other_universal_basic_income_vs_job_",
         "topic": "Universal Basic Income vs job guarantee programs — what is the best social safety net?",
         "sideA": "UBI",
         "sideB": "Job guarantee",

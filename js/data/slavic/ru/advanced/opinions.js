@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "ru_advanced_technology_004",
+        "id": "ru_advanced_technology_phrase_394b00153f",
         "word": "Генная инженерия: прогресс или опасность?",
         "lang": "ru",
         "level": "advanced",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id": "ru_advanced_work_006",
+        "id": "ru_advanced_work_phrase_0333aaeadf",
         "word": "Безусловный базовый доход — единственное решение проблемы повсеместной автоматизации.",
         "lang": "ru",
         "level": "advanced",
@@ -45,11 +45,11 @@
         ]
     },
     {
-        "id": "ru_advanced_psychology_002",
+        "id": "ru_advanced_psychological_concepts_c1_phrase_0faceff4dd",
         "word": "Счастье — это выбор, а обстоятельства — всего лишь оправдания.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "form": "phrase",
         "definitions": [
             {
@@ -67,11 +67,11 @@
         ]
     },
     {
-        "id": "ru_advanced_psychology_003",
+        "id": "ru_advanced_psychological_concepts_c1_phrase_c347019025",
         "word": "Люди, которые говорят, что ненавидят драму, обычно сами являются ее источником.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "form": "phrase",
         "definitions": [
             {
@@ -89,11 +89,11 @@
         ]
     },
     {
-        "id": "ru_advanced_psychology_004",
+        "id": "ru_advanced_psychological_concepts_c1_phrase_e66d97ed63",
         "word": "Скука — это признак отсутствия воображения, а не отсутствия стимулов.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "form": "phrase",
         "definitions": [
             {
@@ -111,11 +111,11 @@
         ]
     },
     {
-        "id": "ru_advanced_psychology_005",
+        "id": "ru_advanced_psychological_concepts_c1_phrase_7fa7f98057",
         "word": "Эмпатия без границ — это просто угождение людям с хорошим пиаром.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "form": "phrase",
         "definitions": [
             {
@@ -133,11 +133,11 @@
         ]
     },
     {
-        "id": "ru_advanced_psychology_006",
+        "id": "ru_advanced_psychological_concepts_c1_phrase_c298d5348f",
         "word": "Самые опасные мнения — это те, которые звучат совершенно разумно.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "form": "phrase",
         "definitions": [
             {
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "id": "ru_advanced_people_001",
+        "id": "ru_advanced_people_phrase_42a63aba13",
         "word": "Аутентичность стала самым тщательно продуманным спектаклем из всех.",
         "lang": "ru",
         "level": "advanced",
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "id": "ru_advanced_people_002",
+        "id": "ru_advanced_people_phrase_a4f7b74c3c",
         "word": "Прощение — это в конечном счете то, что вы делаете для себя, а не для другого человека.",
         "lang": "ru",
         "level": "advanced",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_024",
+        "id": "ru_advanced_social_phrase_e7cc4a39cd",
         "word": "Институты всегда в конечном итоге защищают себя больше, чем людей, которым они служат.",
         "lang": "ru",
         "level": "advanced",
@@ -221,11 +221,11 @@
         ]
     },
     {
-        "id": "ru_advanced_psychology_007",
+        "id": "ru_advanced_psychological_concepts_c1_phrase_a3fcd6af9a",
         "word": "Стремление к определенности — корень большинства человеческих жестокостей.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "form": "phrase",
         "definitions": [
             {
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_025",
+        "id": "ru_advanced_social_phrase_c037ca5d2d",
         "word": "Ценности большинства людей сохраняются только тогда, когда их наличие ничего не стоит.",
         "lang": "ru",
         "level": "advanced",
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_026",
+        "id": "ru_advanced_social_phrase_5052986bbf",
         "word": "Знать, когда прекратить говорить, встречается реже и ценится выше, чем знать, что сказать.",
         "lang": "ru",
         "level": "advanced",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "id": "ru_advanced_people_003",
+        "id": "ru_advanced_people_phrase_672cb7f684",
         "word": "Нас больше определяет то, что мы отказываемся делать, чем то, что мы выбираем делать.",
         "lang": "ru",
         "level": "advanced",
@@ -309,7 +309,7 @@
         ]
     },
     {
-        "id": "ru_advanced_social_027",
+        "id": "ru_advanced_social_phrase_ea8143e158",
         "word": "Одержимость продуктивностью — это просто капитализм, замаскированный под самосовершенствование.",
         "lang": "ru",
         "level": "advanced",
@@ -331,7 +331,7 @@
         ]
     },
     {
-        "id": "ru_advanced_art_culture_001",
+        "id": "ru_advanced_art_culture_phrase_a928213b5a",
         "word": "Культура отмены стала формой цифрового самосуда.",
         "lang": "ru",
         "level": "advanced",
@@ -353,11 +353,11 @@
         ]
     },
     {
-        "id": "ru_advanced_psychology_008",
+        "id": "ru_advanced_psychological_concepts_c1_phrase_ca8d6f8650",
         "word": "Люди, утверждающие, что ни о чем не жалеют, либо недостаточно жили, либо недостаточно размышляли.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "form": "phrase",
         "definitions": [
             {

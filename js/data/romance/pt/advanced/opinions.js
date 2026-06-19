@@ -21,7 +21,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_technology_001"
+        "id": "pt_advanced_technology_phrase_engenharia_gentica_progresso_o"
     },
     {
         "t": "O rendimento básico universal é a única solução para a automação generalizada.",
@@ -44,7 +44,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_021"
+        "id": "pt_advanced_social_phrase_o_rendimento_bsico_universal_a"
     },
     {
         "t": "A felicidade é uma escolha — as circunstâncias são apenas desculpas.",
@@ -58,7 +58,7 @@
         "word": "A felicidade é uma escolha — as circunstâncias são apenas desculpas.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -67,7 +67,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_psychology_001"
+        "id": "pt_advanced_psychological_concepts_c1_phrase_a_felicidade_uma_escolha_as_ci"
     },
     {
         "t": "As pessoas que dizem odiar dramas são geralmente a fonte deles.",
@@ -81,7 +81,7 @@
         "word": "As pessoas que dizem odiar dramas são geralmente a fonte deles.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -90,7 +90,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_psychology_002"
+        "id": "pt_advanced_psychological_concepts_c1_phrase_as_pessoas_que_dizem_odiar_dra"
     },
     {
         "t": "O tédio é um sinal de falta de imaginação, não de falta de estimulação.",
@@ -104,7 +104,7 @@
         "word": "O tédio é um sinal de falta de imaginação, não de falta de estimulação.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": "behavior",
         "form": "phrase",
         "definitions": [
@@ -113,7 +113,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_psychology_003"
+        "id": "pt_advanced_psychological_concepts_c1_phrase_o_tdio_um_sinal_de_falta_de_im"
     },
     {
         "t": "Empatia sem limites é apenas condescendência com boas relações públicas.",
@@ -127,7 +127,7 @@
         "word": "Empatia sem limites é apenas condescendência com boas relações públicas.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": "behavior",
         "form": "phrase",
         "definitions": [
@@ -136,7 +136,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_psychology_004"
+        "id": "pt_advanced_psychological_concepts_c1_phrase_empatia_sem_limites_apenas_con"
     },
     {
         "t": "As opiniões mais perigosas são aquelas que parecem completamente razoáveis.",
@@ -150,7 +150,7 @@
         "word": "As opiniões mais perigosas são aquelas que parecem completamente razoáveis.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -159,7 +159,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_psychology_005"
+        "id": "pt_advanced_psychological_concepts_c1_phrase_as_opinies_mais_perigosas_so_a"
     },
     {
         "t": "A autenticidade tornou-se a performance mais cuidadosamente curada de todas.",
@@ -182,7 +182,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_people_001"
+        "id": "pt_advanced_people_phrase_a_autenticidade_tornou-se_a_pe"
     },
     {
         "t": "O perdão é, em última análise, algo que você faz por si mesmo, não pela outra pessoa.",
@@ -196,7 +196,7 @@
         "word": "O perdão é, em última análise, algo que você faz por si mesmo, não pela outra pessoa.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": "relationships",
         "form": "phrase",
         "definitions": [
@@ -205,7 +205,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_psychology_006"
+        "id": "pt_advanced_psychological_concepts_c1_phrase_o_perdo_em_ltima_anlise_algo_q"
     },
     {
         "t": "As instituições acabam sempre por proteger-se mais a si mesmas do que às pessoas que servem.",
@@ -228,7 +228,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_022"
+        "id": "pt_advanced_social_phrase_as_instituies_acabam_sempre_po"
     },
     {
         "t": "O desejo de certeza é a raiz da maior parte da crueldade humana.",
@@ -242,7 +242,7 @@
         "word": "O desejo de certeza é a raiz da maior parte da crueldade humana.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -251,7 +251,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_psychology_007"
+        "id": "pt_advanced_psychological_concepts_c1_phrase_o_desejo_de_certeza_a_raiz_da_"
     },
     {
         "t": "Os valores da maioria das pessoas só se mantêm quando não custa nada tê-los.",
@@ -265,7 +265,7 @@
         "word": "Os valores da maioria das pessoas só se mantêm quando não custa nada tê-los.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -274,7 +274,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_psychology_008"
+        "id": "pt_advanced_psychological_concepts_c1_phrase_os_valores_da_maioria_das_pess"
     },
     {
         "t": "Saber quando parar de falar é mais raro e valioso do que saber o que dizer.",
@@ -297,7 +297,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_language_001"
+        "id": "pt_advanced_language_phrase_saber_quando_parar_de_falar_ma"
     },
     {
         "t": "Somos mais definidos pelo que nos recusamos a fazer do que pelo que escolhemos fazer.",
@@ -320,7 +320,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_people_002"
+        "id": "pt_advanced_people_phrase_somos_mais_definidos_pelo_que_"
     },
     {
         "t": "A obsessão pela produtividade é apenas capitalismo disfarçado de autoajuda.",
@@ -343,7 +343,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_social_023"
+        "id": "pt_advanced_social_phrase_a_obsesso_pela_produtividade_a"
     },
     {
         "t": "A cultura do cancelamento tornou-se uma forma de justiça digital de multidão.",
@@ -366,7 +366,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_art_culture_001"
+        "id": "pt_advanced_art_culture_phrase_a_cultura_do_cancelamento_torn"
     },
     {
         "t": "Pessoas que afirmam não ter arrependimentos ou não viveram o suficiente ou não refletiram o suficiente.",
@@ -380,7 +380,7 @@
         "word": "Pessoas que afirmam não ter arrependimentos ou não viveram o suficiente ou não refletiram o suficiente.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychology",
+        "theme": "psychological_concepts_c1",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -389,7 +389,7 @@
                 "examples": []
             }
         ],
-        "id": "pt_advanced_psychology_009"
+        "id": "pt_advanced_psychological_concepts_c1_phrase_pessoas_que_afirmam_no_ter_arr"
     }
 ];
     const lang = "pt";
