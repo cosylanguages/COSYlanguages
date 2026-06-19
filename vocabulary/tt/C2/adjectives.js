@@ -2,487 +2,907 @@
 (function() {
     const lang = "tt";
     const data = [
-        {
-            "word": "фәнնәрара",
-            "level": "proficiency",
-            "theme": "ontology_metaphysics_C2",
-            "emoji": "🧪",
-            "form": "adjective",
-            "definitions": [{ "text": "Ике яки күбрәк фәнни тармакны берләштерүче." }]
-        },
-        {
-            "word": "герменевтик",
-            "level": "proficiency",
-            "theme": "philosophy_language_C2",
-            "emoji": "📜",
-            "form": "adjective",
-            "definitions": [{ "text": "Текстларны яки мәгънәләрне аңлату белән бәйле." }]
-        },
-        {
-            "word": "тавтологик",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "🔄",
-            "form": "adjective",
-            "definitions": [{ "text": "Шул ук нәрсәне башка сүзләр белән кабатлаучы." }]
-        },
-        {
-            "word": "күпмәгънәле",
-            "level": "proficiency",
-            "theme": "linguistics_theory_C2",
-            "emoji": "🔠",
-            "form": "adjective",
-            "definitions": [{ "text": "Берничә мәгънәгә ия булган." }]
-        },
-        {
-            "word": "эвристик",
-            "level": "proficiency",
-            "theme": "epistemology_knowledge_C2",
-            "emoji": "💡",
-            "form": "adjective",
-            "definitions": [{ "text": "Төгәл исбатлауга түгел, ә тәҗрибәгә нигезләнгән ысул." }]
-        },
-        {
-            "word": "постколониаль",
-            "level": "proficiency",
-            "theme": "political_theory_C2",
-            "emoji": "🌍",
-            "form": "adjective",
-            "definitions": [{ "text": "Колониаль чордан соңгы вакытка яки мираска бәйле." }]
-        },
-        {
-            "word": "күпполярлы",
-            "level": "proficiency",
-            "theme": "political_theory_C2",
-            "emoji": "🌐",
-            "form": "adjective",
-            "definitions": [{ "text": "Берничә көч үзәге булган дөнья тәртибе." }]
-        },
-        {
-            "word": "космополитик",
-            "level": "proficiency",
-            "theme": "political_theory_C2",
-            "emoji": "🏙️",
-            "form": "adjective",
-            "definitions": [{ "text": "Күп төрле илләр һәм мәдәниятләр белән таныш булган." }]
-        },
-        {
-            "word": "нарциссик",
-            "level": "proficiency",
-            "theme": "psychoanalysis_unconscious_C2",
-            "emoji": "🪞",
-            "form": "adjective",
-            "definitions": [{ "text": "Үз-үзенә генә соклану белән бәйле." }]
-        },
-        {
-            "word": "гетеродокс",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "🚩",
-            "form": "adjective",
-            "definitions": [{ "text": "Кабул ителгән догмаларга каршы килүче." }]
-        },
-        {
-            "word": "имманент",
-            "level": "proficiency",
-            "theme": "ontology_metaphysics_C2",
-            "emoji": "⚛️",
-            "form": "adjective",
-            "definitions": [{ "text": "Нәрсәнеңдер эчендә булган, тышкы булмаган." }]
-        },
-        {
-            "word": "кискен",
-            "level": "proficiency",
-            "theme": "ontology_metaphysics_C2",
-            "emoji": "⏱️",
-            "form": "adjective",
-            "definitions": [{ "text": "Көтмәгәндә килеп чыккан; тупас яки кискен." }]
-        },
-        {
-            "word": "аңлаешсыз",
-            "level": "proficiency",
-            "theme": "epistemology_knowledge_C2",
-            "emoji": "🧐",
-            "form": "adjective",
-            "definitions": [{ "text": "Аңлау өчен авыр; катлаулы яки ачык булмаган." }]
-        },
-        {
-            "word": "анахроник",
-            "level": "proficiency",
-            "theme": "civilisation_history_C2",
-            "emoji": "⌛",
-            "form": "adjective",
-            "definitions": [{ "text": "Искергән; үткән заманга караган." }]
-        },
-        {
-            "word": "антитетик",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "⚖️",
-            "form": "adjective",
-            "definitions": [{ "text": "Нәрсәгәдер турыдан-туры каршы булган." }]
-        },
-        {
-            "word": "арканлы",
-            "level": "proficiency",
-            "theme": "epistemology_knowledge_C2",
-            "emoji": "🔮",
-            "form": "adjective",
-            "definitions": [{ "text": "Азчылыкка гына билгеле; серле." }]
-        },
-        {
-            "word": "атипик",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "🦄",
-            "form": "adjective",
-            "definitions": [{ "text": "Типик булмаган; гадәти булмаган." }]
-        },
-        {
-            "word": "бинар",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "🔢",
-            "form": "adjective",
-            "definitions": [{ "text": "Ике өлештән торган; дихотомиягә нигезләнгән." }]
-        },
-        {
-            "word": "категорик",
-            "level": "proficiency",
-            "theme": "rhetoric_persuasion_C2",
-            "emoji": "❗",
-            "form": "adjective",
-            "definitions": [{ "text": "Абсолют; бернинди искәрмәләрсез әйтелгән." }]
-        },
-        {
-            "word": "сак",
-            "level": "proficiency",
-            "theme": "ethics_advanced_C2",
-            "emoji": "🛡️",
-            "form": "adjective",
-            "definitions": [{ "text": "Сак булучы, барлык шартларны исәпкә алучы." }]
-        },
-        {
-            "word": "яшерен",
-            "level": "proficiency",
-            "theme": "political_theory_C2",
-            "emoji": "🕵️",
-            "form": "adjective",
-            "definitions": [{ "text": "Ачыктан-ачык танылмаган; серле." }]
-        },
-        {
-            "word": "диалектик",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "⚖️",
-            "form": "adjective",
-            "definitions": [{ "text": "Каршылыклар аша фикер алышуга караган." }]
-        },
-        {
-            "word": "диффуз",
-            "level": "proficiency",
-            "theme": "rhetoric_persuasion_C2",
-            "emoji": "🌫️",
-            "form": "adjective",
-            "definitions": [{ "text": "Киң таралышлы; ачыклыгы булмаган." }]
-        },
-        {
-            "word": "тотып булмый торган",
-            "level": "proficiency",
-            "theme": "epistemology_knowledge_C2",
-            "emoji": "🌬️",
-            "form": "adjective",
-            "definitions": [{ "text": "Табу яки ирешү өчен авыр булган." }]
-        },
-        {
-            "word": "эзотерик",
-            "level": "proficiency",
-            "theme": "epistemology_knowledge_C2",
-            "emoji": "🗝️",
-            "form": "adjective",
-            "definitions": [{ "text": "Тар кешеләр төркеме өчен генә аңлаешлы." }]
-        },
-        {
-            "word": "хаталы",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "❌",
-            "form": "adjective",
-            "definitions": [{ "text": "Ялгыш фикерләргә нигезләнгән." }]
-        },
-        {
-            "word": "үзгәрмәс",
-            "level": "proficiency",
-            "theme": "ontology_metaphysics_C2",
-            "emoji": "🧱",
-            "form": "adjective",
-            "definitions": [{ "text": "Үзгәртелә алмый торган; даими." }]
-        },
-        {
-            "word": "тарафсыз",
-            "level": "proficiency",
-            "theme": "ethics_advanced_C2",
-            "emoji": "⚖️",
-            "form": "adjective",
-            "definitions": [{ "text": "Бер якка да өстенлек бирмәүче; гадел." }]
-        },
-        {
-            "word": "өстәмә",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "🍃",
-            "form": "adjective",
-            "definitions": [{ "text": "Төп максат булмаган, читтәге нәрсә." }]
-        },
-        {
-            "word": "хас булган",
-            "level": "proficiency",
-            "theme": "ontology_metaphysics_C2",
-            "emoji": "⚛️",
-            "form": "adjective",
-            "definitions": [{ "text": "Нәрсәнеңдер эчке, табигый сыйфаты." }]
-        },
-        {
-            "word": "кабатланмас",
-            "level": "proficiency",
-            "theme": "aesthetics_criticism_C2",
-            "emoji": "🌟",
-            "form": "adjective",
-            "definitions": [{ "text": "Күчереп булмый торган дәрәҗәдә яхшы яки үзенчәлекле." }]
-        },
-        {
-            "word": "хәйләкәр",
-            "level": "proficiency",
-            "theme": "ethics_advanced_C2",
-            "emoji": "🐍",
-            "form": "adjective",
-            "definitions": [{ "text": "Акрынлап зыян китерә торган." }]
-        },
-        {
-            "word": "килешмәс",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "🚫",
-            "form": "adjective",
-            "definitions": [{ "text": "Берләштерү яки килештерү мөмкин булмаган." }]
-        },
-        {
-            "word": "лиминаль",
-            "level": "proficiency",
-            "theme": "ontology_metaphysics_C2",
-            "emoji": "🚪",
-            "form": "adjective",
-            "definitions": [{ "text": "Күчеш чорына яки арадагы халәткә караган." }]
-        },
-        {
-            "word": "төрле-төрле",
-            "level": "proficiency",
-            "theme": "ontology_metaphysics_C2",
-            "emoji": "🔢",
-            "form": "adjective",
-            "definitions": [{ "text": "Күп санлы һәм төрле." }]
-        },
-        {
-            "word": "томанлы",
-            "level": "proficiency",
-            "theme": "epistemology_knowledge_C2",
-            "emoji": "☁️",
-            "form": "adjective",
-            "definitions": [{ "text": "Ачык булмаган; төгәл билгеләнмәгән." }]
-        },
-        {
-            "word": "норматив",
-            "level": "proficiency",
-            "theme": "ethics_advanced_C2",
-            "emoji": "📏",
-            "form": "adjective",
-            "definitions": [{ "text": "Нормага караган; ничек булырга тиешлеген күрсәтүче." }]
-        },
-        {
-            "word": "төсмерле",
-            "level": "proficiency",
-            "theme": "rhetoric_persuasion_C2",
-            "emoji": "🌗",
-            "form": "adjective",
-            "definitions": [{ "text": "Нечкә аермаларны күрсәтүче; катлаулы." }]
-        },
-        {
-            "word": "туры булмаган",
-            "level": "proficiency",
-            "theme": "rhetoric_persuasion_C2",
-            "emoji": "↗️",
-            "form": "adjective",
-            "definitions": [{ "text": "Турадан-тура булмаган; читләтелгән." }]
-        },
-        {
-            "word": "ачык булмаган",
-            "level": "proficiency",
-            "theme": "rhetoric_persuasion_C2",
-            "emoji": "🌑",
-            "form": "adjective",
-            "definitions": [{ "text": "Аңлау өчен авыр; үтә күренмәле булмаган." }]
-        },
-        {
-            "word": "ялган",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "🎭",
-            "form": "adjective",
-            "definitions": [{ "text": "Чын булып күренгән, әмма чын булмаган." }]
-        },
-        {
-            "word": "парадоксаль",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "🔄",
-            "form": "adjective",
-            "definitions": [{ "text": "Үз-үзенә каршы килгән, әмма хакыйкатьне эченә алган." }]
-        },
-        {
-            "word": "киң таралган",
-            "level": "proficiency",
-            "theme": "civilisation_history_C2",
-            "emoji": "🌊",
-            "form": "adjective",
-            "definitions": [{ "text": "Һәркайда булган; гомум кабул ителгән." }]
-        },
-        {
-            "word": "поляризацияләүче",
-            "level": "proficiency",
-            "theme": "political_theory_C2",
-            "emoji": "🧲",
-            "form": "adjective",
-            "definitions": [{ "text": "Кешеләрне каршы якларга бүлүче." }]
-        },
-        {
-            "word": "тотрыксыз",
-            "level": "proficiency",
-            "theme": "ontology_existence_C2",
-            "emoji": "🧗",
-            "form": "adjective",
-            "definitions": [{ "text": "Куркынычсыз булмаган; очраклылыкка бәйле." }]
-        },
-        {
-            "word": "прескриптив",
-            "level": "proficiency",
-            "theme": "linguistics_theory_C2",
-            "emoji": "📜",
-            "form": "adjective",
-            "definitions": [{ "text": "Ничек эшләргә кирәклеген әйтүче; кагыйдәләр куючы." }]
-        },
-        {
-            "word": "сузылган",
-            "level": "proficiency",
-            "theme": "civilisation_history_C2",
-            "emoji": "⌛",
-            "form": "adjective",
-            "definitions": [{ "text": "Көтелгәннән озаграк дәвам итүче." }]
-        },
-        {
-            "word": "редуктив",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "📉",
-            "form": "adjective",
-            "definitions": [{ "text": "Катлаулы нәрсәне артык гадиләштерүче." }]
-        },
-        {
-            "word": "нигез салучы",
-            "level": "proficiency",
-            "theme": "civilisation_history_C2",
-            "emoji": "🌱",
-            "form": "adjective",
-            "definitions": [{ "text": "Бик мөһим һәм йогынты ясаучы." }]
-        },
-        {
-            "word": "ялган сылтаулы",
-            "level": "proficiency",
-            "theme": "rhetoric_persuasion_C2",
-            "emoji": "🤥",
-            "form": "adjective",
-            "definitions": [{ "text": "Дөрес булып күренгән, әмма чынлыкта ялган." }]
-        },
-        {
-            "word": "уйдырма",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "🤡",
-            "form": "adjective",
-            "definitions": [{ "text": "Чын булмаган; ялган фикерләргә нигезләнгән." }]
-        },
-        {
-            "word": "җимергеч",
-            "level": "proficiency",
-            "theme": "political_theory_C2",
-            "emoji": "💣",
-            "form": "adjective",
-            "definitions": [{ "text": "Системаны какшату өчен юнәлтелгән." }]
-        },
-        {
-            "word": "әйтелмәгән",
-            "level": "proficiency",
-            "theme": "philosophy_language_C2",
-            "emoji": "🤫",
-            "form": "adjective",
-            "definitions": [{ "text": "Сүзсез дә аңлаешлы булган." }]
-        },
-        {
-            "word": "йомшак",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "🕸️",
-            "form": "adjective",
-            "definitions": [{ "text": "Бик көчсез яки бәхәсле; нык булмаган." }]
-        },
-        {
-            "word": "үткенче",
-            "level": "proficiency",
-            "theme": "mortality_time_C2",
-            "emoji": "🌅",
-            "form": "adjective",
-            "definitions": [{ "text": "Даими булмаган; тиз уза торган." }]
-        },
-        {
-            "word": "һәркайдагы",
-            "level": "proficiency",
-            "theme": "civilisation_history_C2",
-            "emoji": "🌍",
-            "form": "adjective",
-            "definitions": [{ "text": "Һәркайда очрый торган; бик киң таралган." }]
-        },
-        {
-            "word": "бермәгънәле",
-            "level": "proficiency",
-            "theme": "rhetoric_persuasion_C2",
-            "emoji": "📢",
-            "form": "adjective",
-            "definitions": [{ "text": "Шөбһә калдырмый торган; тулысынча ачык." }]
-        },
-        {
-            "word": "күрелмәгән",
-            "level": "proficiency",
-            "theme": "civilisation_history_C2",
-            "emoji": "🚀",
-            "form": "adjective",
-            "definitions": [{ "text": "Элек беркайчан да булмаган." }]
-        },
-        {
-            "word": "нигезсез",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "🏗️",
-            "form": "adjective",
-            "definitions": [{ "text": "Яклау яки исбатлау мөмкин булмаган." }]
-        },
-        {
-            "word": "айкашлы",
-            "level": "proficiency",
-            "theme": "meta_argument_deconstruction_C2",
-            "emoji": "📦",
-            "form": "adjective",
-            "definitions": [{ "text": "Зурлыгы яки катлаулылыгы аркасында идарә итү авыр булган." }]
-        }
-    ];
+    {
+        "word": "фәнնәрара",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🧪",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ике яки күбрәк фәнни тармакны берләштерүче.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_001"
+    },
+    {
+        "word": "герменевтик",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "📜",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Текстларны яки мәгънәләрне аңлату белән бәйле.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_002"
+    },
+    {
+        "word": "тавтологик",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🔄",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Шул ук нәрсәне башка сүзләр белән кабатлаучы.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_003"
+    },
+    {
+        "word": "күпмәгънәле",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🔠",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Берничә мәгънәгә ия булган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_004"
+    },
+    {
+        "word": "эвристик",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "💡",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Төгәл исбатлауга түгел, ә тәҗрибәгә нигезләнгән ысул.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_psychology_001"
+    },
+    {
+        "word": "постколониаль",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "🌍",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Колониаль чордан соңгы вакытка яки мираска бәйле.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_social_001"
+    },
+    {
+        "word": "күпполярлы",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "🌐",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Берничә көч үзәге булган дөнья тәртибе.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_social_002"
+    },
+    {
+        "word": "космополитик",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "🏙️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Күп төрле илләр һәм мәдәниятләр белән таныш булган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_social_003"
+    },
+    {
+        "word": "нарциссик",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "🪞",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Үз-үзенә генә соклану белән бәйле.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_psychology_002"
+    },
+    {
+        "word": "гетеродокс",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🚩",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Кабул ителгән догмаларга каршы килүче.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_005"
+    },
+    {
+        "word": "имманент",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "⚛️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Нәрсәнеңдер эчендә булган, тышкы булмаган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_006"
+    },
+    {
+        "word": "кискен",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "⏱️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Көтмәгәндә килеп чыккан; тупас яки кискен.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_007"
+    },
+    {
+        "word": "аңлаешсыз",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "🧐",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Аңлау өчен авыр; катлаулы яки ачык булмаган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_psychology_003"
+    },
+    {
+        "word": "анахроник",
+        "level": "proficiency",
+        "theme": "time",
+        "emoji": "⌛",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Искергән; үткән заманга караган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_time_001"
+    },
+    {
+        "word": "антитетик",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "⚖️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Нәрсәгәдер турыдан-туры каршы булган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_008"
+    },
+    {
+        "word": "арканлы",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "🔮",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Азчылыкка гына билгеле; серле.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_psychology_004"
+    },
+    {
+        "word": "атипик",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🦄",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Типик булмаган; гадәти булмаган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_009"
+    },
+    {
+        "word": "бинар",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🔢",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ике өлештән торган; дихотомиягә нигезләнгән.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_010"
+    },
+    {
+        "word": "категорик",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "❗",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Абсолют; бернинди искәрмәләрсез әйтелгән.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_011"
+    },
+    {
+        "word": "сак",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "🛡️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Сак булучы, барлык шартларны исәпкә алучы.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_social_004"
+    },
+    {
+        "word": "яшерен",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "🕵️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ачыктан-ачык танылмаган; серле.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_social_005"
+    },
+    {
+        "word": "диалектик",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "⚖️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Каршылыклар аша фикер алышуга караган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_012"
+    },
+    {
+        "word": "диффуз",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🌫️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Киң таралышлы; ачыклыгы булмаган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_013"
+    },
+    {
+        "word": "тотып булмый торган",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "🌬️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Табу яки ирешү өчен авыр булган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_psychology_005"
+    },
+    {
+        "word": "эзотерик",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "🗝️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Тар кешеләр төркеме өчен генә аңлаешлы.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_psychology_006"
+    },
+    {
+        "word": "хаталы",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "❌",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ялгыш фикерләргә нигезләнгән.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_014"
+    },
+    {
+        "word": "үзгәрмәс",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🧱",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Үзгәртелә алмый торган; даими.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_015"
+    },
+    {
+        "word": "тарафсыз",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "⚖️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Бер якка да өстенлек бирмәүче; гадел.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_social_006"
+    },
+    {
+        "word": "өстәмә",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🍃",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Төп максат булмаган, читтәге нәрсә.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_016"
+    },
+    {
+        "word": "хас булган",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "⚛️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Нәрсәнеңдер эчке, табигый сыйфаты.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_017"
+    },
+    {
+        "word": "кабатланмас",
+        "level": "proficiency",
+        "theme": "art_culture",
+        "emoji": "🌟",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Күчереп булмый торган дәрәҗәдә яхшы яки үзенчәлекле.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_art_culture_001"
+    },
+    {
+        "word": "хәйләкәр",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "🐍",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Акрынлап зыян китерә торган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_social_007"
+    },
+    {
+        "word": "килешмәс",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🚫",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Берләштерү яки килештерү мөмкин булмаган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_018"
+    },
+    {
+        "word": "лиминаль",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🚪",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Күчеш чорына яки арадагы халәткә караган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_019"
+    },
+    {
+        "word": "төрле-төрле",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🔢",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Күп санлы һәм төрле.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_020"
+    },
+    {
+        "word": "томанлы",
+        "level": "proficiency",
+        "theme": "psychology",
+        "emoji": "☁️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ачык булмаган; төгәл билгеләнмәгән.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_psychology_007"
+    },
+    {
+        "word": "норматив",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "📏",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Нормага караган; ничек булырга тиешлеген күрсәтүче.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_social_008"
+    },
+    {
+        "word": "төсмерле",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🌗",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Нечкә аермаларны күрсәтүче; катлаулы.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_021"
+    },
+    {
+        "word": "туры булмаган",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "↗️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Турадан-тура булмаган; читләтелгән.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_022"
+    },
+    {
+        "word": "ачык булмаган",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🌑",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Аңлау өчен авыр; үтә күренмәле булмаган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_023"
+    },
+    {
+        "word": "ялган",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🎭",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Чын булып күренгән, әмма чын булмаган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_024"
+    },
+    {
+        "word": "парадоксаль",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🔄",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Үз-үзенә каршы килгән, әмма хакыйкатьне эченә алган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_025"
+    },
+    {
+        "word": "киң таралган",
+        "level": "proficiency",
+        "theme": "time",
+        "emoji": "🌊",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Һәркайда булган; гомум кабул ителгән.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_time_002"
+    },
+    {
+        "word": "поляризацияләүче",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "🧲",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Кешеләрне каршы якларга бүлүче.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_social_009"
+    },
+    {
+        "word": "тотрыксыз",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🧗",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Куркынычсыз булмаган; очраклылыкка бәйле.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_026"
+    },
+    {
+        "word": "прескриптив",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "📜",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Ничек эшләргә кирәклеген әйтүче; кагыйдәләр куючы.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_027"
+    },
+    {
+        "word": "сузылган",
+        "level": "proficiency",
+        "theme": "time",
+        "emoji": "⌛",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Көтелгәннән озаграк дәвам итүче.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_time_003"
+    },
+    {
+        "word": "редуктив",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "📉",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Катлаулы нәрсәне артык гадиләштерүче.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_028"
+    },
+    {
+        "word": "нигез салучы",
+        "level": "proficiency",
+        "theme": "time",
+        "emoji": "🌱",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Бик мөһим һәм йогынты ясаучы.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_time_004"
+    },
+    {
+        "word": "ялган сылтаулы",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🤥",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Дөрес булып күренгән, әмма чынлыкта ялган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_029"
+    },
+    {
+        "word": "уйдырма",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🤡",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Чын булмаган; ялган фикерләргә нигезләнгән.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_030"
+    },
+    {
+        "word": "җимергеч",
+        "level": "proficiency",
+        "theme": "social",
+        "emoji": "💣",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Системаны какшату өчен юнәлтелгән.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_social_010"
+    },
+    {
+        "word": "әйтелмәгән",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🤫",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Сүзсез дә аңлаешлы булган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_031"
+    },
+    {
+        "word": "йомшак",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🕸️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Бик көчсез яки бәхәсле; нык булмаган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_032"
+    },
+    {
+        "word": "үткенче",
+        "level": "proficiency",
+        "theme": "time",
+        "emoji": "🌅",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Даими булмаган; тиз уза торган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_time_005"
+    },
+    {
+        "word": "һәркайдагы",
+        "level": "proficiency",
+        "theme": "time",
+        "emoji": "🌍",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Һәркайда очрый торган; бик киң таралган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_time_006"
+    },
+    {
+        "word": "бермәгънәле",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "📢",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Шөбһә калдырмый торган; тулысынча ачык.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_033"
+    },
+    {
+        "word": "күрелмәгән",
+        "level": "proficiency",
+        "theme": "time",
+        "emoji": "🚀",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Элек беркайчан да булмаган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_time_007"
+    },
+    {
+        "word": "нигезсез",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "🏗️",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Яклау яки исбатлау мөмкин булмаган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_034"
+    },
+    {
+        "word": "айкашлы",
+        "level": "proficiency",
+        "theme": "language",
+        "emoji": "📦",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Зурлыгы яки катлаулылыгы аркасында идарә итү авыр булган.",
+                "examples": []
+            }
+        ],
+        "lang": "tt",
+        "id": "tt_proficiency_language_035"
+    }
+];
 
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

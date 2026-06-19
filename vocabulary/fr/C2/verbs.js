@@ -4,19 +4,27 @@ const data = [
     {
         "word": "changement de paradigme",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🔄",
         "form": "verb",
         "group": "er",
         "classification": "irregular",
         "aspect": "action",
         "v3": "changé de paradigme",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "id": "fr_proficiency_language_001",
+        "definitions": [
+            {
+                "text": "changement de paradigme",
+                "examples": []
+            }
+        ]
     },
     {
         "word": "réifier",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🗿",
         "subtext": "réifier un concept / réifier le marché / réification du travail",
         "form": "verb",
@@ -34,12 +42,14 @@ const data = [
         "v3": "réifié",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "réifiant"
+        "v4": "réifiant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_002"
     },
     {
         "word": "sublimer",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🌫️",
         "subtext": "sublimer le désir / sublimation de l'impulsion / rediriger vers",
         "form": "verb",
@@ -57,12 +67,14 @@ const data = [
         "v3": "sublimé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "sublimant"
+        "v4": "sublimant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_003"
     },
     {
         "word": "se fonder sur",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🏗️",
         "subtext": "se fonder sur / fonder une affirmation / fondé sur l'hypothèse",
         "form": "verb",
@@ -81,12 +93,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "reflexive": true,
-        "v4": "se fonder sant"
+        "v4": "se fonder sant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_001"
     },
     {
         "word": "instancier",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🧱",
         "subtext": "instancier un concept / instancier dans la pratique / instanciation concrète",
         "form": "verb",
@@ -104,12 +118,14 @@ const data = [
         "v3": "instancié",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "instanciant"
+        "v4": "instanciant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_004"
     },
     {
         "word": "nier",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🚫",
         "subtext": "nier un argument / nier un droit / négation dialectique",
         "form": "verb",
@@ -127,12 +143,14 @@ const data = [
         "v3": "nié",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "niant"
+        "v4": "niant",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_001"
     },
     {
         "word": "transcender",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🌌",
         "subtext": "transcender les limites / transcender les catégories / transcender le personnel",
         "form": "verb",
@@ -150,12 +168,14 @@ const data = [
         "v3": "transcendé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "transcendant"
+        "v4": "transcendant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_005"
     },
     {
         "word": "médier",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "⚖️",
         "subtext": "médier entre / médier un conflit / socialement médié",
         "form": "verb",
@@ -173,12 +193,14 @@ const data = [
         "v3": "médié",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "médiant"
+        "v4": "médiant",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_002"
     },
     {
         "word": "élider",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "✂️",
         "subtext": "élider une distinction / élider la différence / délibérément élidé",
         "form": "verb",
@@ -196,12 +218,14 @@ const data = [
         "v3": "élidé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "élidant"
+        "v4": "élidant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_006"
     },
     {
         "word": "obfusquer",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🌫️",
         "subtext": "obfusquer la vérité / obfuscation délibérée / obfusquer avec du jargon",
         "form": "verb",
@@ -219,12 +243,14 @@ const data = [
         "v3": "obfusqué",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "obfusquant"
+        "v4": "obfusquant",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_003"
     },
     {
         "word": "amalgamer",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "🔀",
         "subtext": "amalgamer des questions / confondre avec / amalgamer dangereusement",
         "form": "verb",
@@ -242,12 +268,14 @@ const data = [
         "v3": "amalgamé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "amalgamant"
+        "v4": "amalgamant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_007"
     },
     {
         "word": "invoquer",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "📜",
         "subtext": "invoquer un droit / invoquer un précédent / invoquer un argument",
         "form": "verb",
@@ -265,12 +293,14 @@ const data = [
         "v3": "invoqué",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "invoquant"
+        "v4": "invoquant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_002"
     },
     {
         "word": "mettre en avant",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🔦",
         "subtext": "mettre en avant une question / mettre en avant une perspective",
         "form": "verb",
@@ -287,12 +317,14 @@ const data = [
         "v2": "mit en avant",
         "v3": "mis en avant",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_004"
     },
     {
         "word": "récupérer",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🧽",
         "subtext": "récupérer un mouvement / être récupéré par / récupération culturelle",
         "form": "verb",
@@ -310,12 +342,14 @@ const data = [
         "v3": "récupéré",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "récupérant"
+        "v4": "récupérant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_003"
     },
     {
         "word": "déstabiliser",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🌪️",
         "subtext": "déstabiliser un régime / déstabiliser des hypothèses / déstabiliser délibérément",
         "form": "verb",
@@ -333,12 +367,14 @@ const data = [
         "v3": "déstabilisé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "déstabilisant"
+        "v4": "déstabilisant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_004"
     },
     {
         "word": "marchandiser",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🏷️",
         "subtext": "marchandiser le travail / marchandiser le soin / marchandisation de l'attention",
         "form": "verb",
@@ -356,12 +392,14 @@ const data = [
         "v3": "marchandisé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "marchandisant"
+        "v4": "marchandisant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_005"
     },
     {
         "word": "instrumentaliser",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🛠️",
         "subtext": "instrumentaliser les gens / instrumentaliser une idée / réduire à un instrument",
         "form": "verb",
@@ -379,12 +417,14 @@ const data = [
         "v3": "instrumentalisé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "instrumentalisant"
+        "v4": "instrumentalisant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_006"
     },
     {
         "word": "valoriser",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🎖️",
         "subtext": "valoriser le travail / valoriser un concept / être valorisé par la culture",
         "form": "verb",
@@ -402,12 +442,14 @@ const data = [
         "v3": "valorisé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "valorisant"
+        "v4": "valorisant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_007"
     },
     {
         "word": "fétichiser",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🧿",
         "subtext": "fétichiser une idée / fétichisme de la marchandise / fétichiser la croissance",
         "form": "verb",
@@ -425,12 +467,14 @@ const data = [
         "v3": "fétichisé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "fétichisant"
+        "v4": "fétichisant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_008"
     },
     {
         "word": "hégémoniser",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "👑",
         "subtext": "hégémoniser le discours / tendance hégémonisante / résister à l'hégémonisation",
         "form": "verb",
@@ -449,12 +493,14 @@ const data = [
         "v3": "hégémonisé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "hégémonisant"
+        "v4": "hégémonisant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_009"
     },
     {
         "word": "aliéner",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "⛓️",
         "subtext": "aliéner quelqu'un / se sentir aliéné / aliénation marxiste",
         "form": "verb",
@@ -472,12 +518,14 @@ const data = [
         "v3": "aliéné",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "aliénant"
+        "v4": "aliénant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_010"
     },
     {
         "word": "démarquer",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "📏",
         "subtext": "démarquer une frontière / démarquer clairement / ligne de démarcation",
         "form": "verb",
@@ -495,12 +543,14 @@ const data = [
         "v3": "démarqué",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "démarquant"
+        "v4": "démarquant",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_005"
     },
     {
         "word": "délimiter",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🚧",
         "subtext": "délimiter le champ / délimiter un concept / soigneusement délimité",
         "form": "verb",
@@ -518,12 +568,14 @@ const data = [
         "v3": "délimité",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "délimitant"
+        "v4": "délimitant",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_006"
     },
     {
         "word": "militer",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "militer contre / militer fortement / militer en faveur de",
         "form": "verb",
@@ -541,12 +593,14 @@ const data = [
         "v3": "milité",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "militant"
+        "v4": "militant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_011"
     },
     {
         "word": "vicier",
         "level": "proficiency",
-        "theme": "epistemology_truth_C2",
+        "theme": "psychology",
         "emoji": "🧪",
         "subtext": "vicier une affirmation / vicier un argument / légalement vicié",
         "form": "verb",
@@ -564,12 +618,14 @@ const data = [
         "v3": "vicié",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "viciant"
+        "v4": "viciant",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_007"
     },
     {
         "word": "contredire",
         "level": "proficiency",
-        "theme": "epistemology_truth_C2",
+        "theme": "psychology",
         "emoji": "🗣️",
         "subtext": "difficile à contredire / personne ne peut nier / nier une affirmation",
         "form": "verb",
@@ -586,12 +642,14 @@ const data = [
         "v2": "contredit",
         "v3": "contredit",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_008"
     },
     {
         "word": "abroger",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🔨",
         "subtext": "abroger un accord / abroger un traité / abrogation unilatérale",
         "form": "verb",
@@ -609,12 +667,14 @@ const data = [
         "v3": "abrogé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "abrogant"
+        "v4": "abrogant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_012"
     },
     {
         "word": "déconstruire",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🏚️",
         "subtext": "déconstruire un argument / déconstruire un texte / déconstruction derridiana",
         "form": "verb",
@@ -631,12 +691,14 @@ const data = [
         "v2": "déconstruisit",
         "v3": "déconstruit",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_009"
     },
     {
         "word": "problématiser",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "❓",
         "subtext": "problématiser un concept / résister à l'envie de problématiser",
         "form": "verb",
@@ -654,12 +716,14 @@ const data = [
         "v3": "problématisé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "problématisant"
+        "v4": "problématisant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_008"
     },
     {
         "word": "décortiquer",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "📦",
         "subtext": "décortiquer une hypothèse / décortiquer les implications",
         "form": "verb",
@@ -677,12 +741,14 @@ const data = [
         "v3": "décortiqué",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "décortiquant"
+        "v4": "décortiquant",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_010"
     },
     {
         "word": "forclore",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🚪",
         "subtext": "forclore une option / forclore le débat / forclore la possibilité de",
         "form": "verb",
@@ -699,12 +765,14 @@ const data = [
         "v2": "forclosit",
         "v3": "forclos",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_011"
     },
     {
         "word": "dialectiser",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "☯️",
         "subtext": "dialectiser un binaire / méthode dialectique / thèse et antithèse",
         "form": "verb",
@@ -722,12 +790,14 @@ const data = [
         "v3": "dialectisé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "dialectisant"
+        "v4": "dialectisant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_009"
     },
     {
         "word": "contrevenir",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "📜",
         "subtext": "contrevenir à une loi / contrevenir aux règlements",
         "form": "verb",
@@ -744,12 +814,14 @@ const data = [
         "v2": "contrevint",
         "v3": "contrevenu",
         "group": "ir",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "lang": "fr",
+        "id": "fr_proficiency_social_013"
     },
     {
         "word": "subsumer",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "📂",
         "subtext": "subsumer sous / être subsumé par / subsumer dans une catégorie",
         "form": "verb",
@@ -767,12 +839,14 @@ const data = [
         "v3": "subsumé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "subsumant"
+        "v4": "subsumant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_010"
     },
     {
         "word": "accentuer",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "💡",
         "subtext": "accentuer une différence / accentuer le positif / être accentué par",
         "form": "verb",
@@ -790,12 +864,14 @@ const data = [
         "v3": "accentué",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "accentuant"
+        "v4": "accentuant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_011"
     },
     {
         "word": "acquiescer",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🤝",
         "subtext": "acquiescer à / acquiescement réticent",
         "form": "verb",
@@ -813,12 +889,14 @@ const data = [
         "v3": "acquiescé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "acquiescant"
+        "v4": "acquiescant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_014"
     },
     {
         "word": "soulager",
         "level": "proficiency",
-        "theme": "ethics_advanced_C2",
+        "theme": "social",
         "emoji": "🩹",
         "subtext": "soulager la souffrance / soulager la pauvreté / soulager la pression",
         "form": "verb",
@@ -836,12 +914,14 @@ const data = [
         "v3": "soulagé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "soulagant"
+        "v4": "soulagant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_015"
     },
     {
         "word": "contourner",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🔄",
         "subtext": "contourner les règles / contourner un problème / contourner les contrôles",
         "form": "verb",
@@ -859,12 +939,14 @@ const data = [
         "v3": "contourné",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "contournant"
+        "v4": "contournant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_016"
     },
     {
         "word": "corroborer",
         "level": "proficiency",
-        "theme": "epistemology_truth_C2",
+        "theme": "psychology",
         "emoji": "✅",
         "subtext": "corroborer une affirmation / corroborer des preuves",
         "form": "verb",
@@ -882,12 +964,14 @@ const data = [
         "v3": "corroboré",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "corroborant"
+        "v4": "corroborant",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_012"
     },
     {
         "word": "disséminer",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "📢",
         "subtext": "disséminer des informations / disséminer les résultats / largement disséminé",
         "form": "verb",
@@ -905,12 +989,14 @@ const data = [
         "v3": "disséminé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "disséminant"
+        "v4": "disséminant",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_013"
     },
     {
         "word": "encapsuler",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "💊",
         "subtext": "encapsuler une idée / encapsuler le problème / encapsuler parfaitement",
         "form": "verb",
@@ -928,12 +1014,14 @@ const data = [
         "v3": "encapsulé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "encapsulant"
+        "v4": "encapsulant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_012"
     },
     {
         "word": "engendrer",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🌱",
         "subtext": "engendrer la confiance / engendrer un conflit / engendrer du ressentiment",
         "form": "verb",
@@ -951,12 +1039,14 @@ const data = [
         "v3": "engendré",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "engendrant"
+        "v4": "engendrant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_017"
     },
     {
         "word": "exacerber",
         "level": "proficiency",
-        "theme": "ethics_advanced_C2",
+        "theme": "social",
         "emoji": "📈",
         "subtext": "exacerber un problème / exacerber les tensions / exacerber l'inégalité",
         "form": "verb",
@@ -974,12 +1064,14 @@ const data = [
         "v3": "exacerbé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "exacerbant"
+        "v4": "exacerbant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_018"
     },
     {
         "word": "exemplifier",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "🌟",
         "subtext": "exemplifier quelque chose / exemplifier le problème / exemplifier clairement",
         "form": "verb",
@@ -997,12 +1089,14 @@ const data = [
         "v3": "exemplifié",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "exemplifiant"
+        "v4": "exemplifiant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_013"
     },
     {
         "word": "entraver",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "🛑",
         "subtext": "entraver le progrès / entraver la croissance / entraver quelqu'un",
         "form": "verb",
@@ -1020,12 +1114,14 @@ const data = [
         "v3": "entravé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "entravant"
+        "v4": "entravant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_019"
     },
     {
         "word": "atténuer",
         "level": "proficiency",
-        "theme": "ethics_advanced_C2",
+        "theme": "social",
         "emoji": "🛡️",
         "subtext": "atténuer le risque / atténuer l'impact / atténuer contre",
         "form": "verb",
@@ -1043,12 +1139,14 @@ const data = [
         "v3": "atténué",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "atténuant"
+        "v4": "atténuant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_020"
     },
     {
         "word": "obliger",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "social",
         "emoji": "📜",
         "subtext": "être obligé de / obliger quelqu'un à / se sentir obligé",
         "form": "verb",
@@ -1066,12 +1164,14 @@ const data = [
         "v3": "obligé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "obligant"
+        "v4": "obligant",
+        "lang": "fr",
+        "id": "fr_proficiency_social_021"
     },
     {
         "word": "imprégner",
         "level": "proficiency",
-        "theme": "civilisation_history_C2",
+        "theme": "time",
         "emoji": "🌊",
         "subtext": "imprégner l'organisation / être imprégné par / omniprésent",
         "form": "verb",
@@ -1089,12 +1189,14 @@ const data = [
         "v3": "imprégné",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "imprégnant"
+        "v4": "imprégnant",
+        "lang": "fr",
+        "id": "fr_proficiency_time_001"
     },
     {
         "word": "exclure",
         "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
+        "theme": "psychology",
         "emoji": "🚫",
         "subtext": "exclure quelqu'un / exclure la possibilité / n'exclut pas",
         "form": "verb",
@@ -1111,12 +1213,14 @@ const data = [
         "v2": "exclut",
         "v3": "exclu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_014"
     },
     {
         "word": "réconcilier",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "🤝",
         "subtext": "réconcilier des idées / difficile à réconcilier / réconcilier les différences",
         "form": "verb",
@@ -1134,12 +1238,14 @@ const data = [
         "v3": "réconcilié",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "réconciliant"
+        "v4": "réconciliant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_014"
     },
     {
         "word": "supplanter",
         "level": "proficiency",
-        "theme": "civilisation_history_C2",
+        "theme": "time",
         "emoji": "🚀",
         "subtext": "supplanter une loi / supplanter les directives précédentes",
         "form": "verb",
@@ -1157,12 +1263,14 @@ const data = [
         "v3": "supplanté",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "supplantant"
+        "v4": "supplantant",
+        "lang": "fr",
+        "id": "fr_proficiency_time_002"
     },
     {
         "word": "sous-tendre",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "🏗️",
         "subtext": "sous-tendre un argument / sous-tendre le succès",
         "form": "verb",
@@ -1180,12 +1288,14 @@ const data = [
         "v3": "sous-tendu",
         "group": "re",
         "auxiliary": "avoir",
-        "v4": "sous-tendant"
+        "v4": "sous-tendant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_015"
     },
     {
         "word": "justifier",
         "level": "proficiency",
-        "theme": "epistemology_truth_C2",
+        "theme": "psychology",
         "emoji": "⚖️",
         "subtext": "justifier quelqu'un / justifier une décision / se sentir justifié",
         "form": "verb",
@@ -1203,12 +1313,14 @@ const data = [
         "v3": "justifié",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "justifiant"
+        "v4": "justifiant",
+        "lang": "fr",
+        "id": "fr_proficiency_psychology_015"
     },
     {
         "word": "reposer sur",
         "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
+        "theme": "language",
         "emoji": "🚪",
         "subtext": "reposer sur une décision / reposer sur un seul facteur",
         "form": "verb",
@@ -1226,12 +1338,14 @@ const data = [
         "v3": "reposé sur",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "reposer sant"
+        "v4": "reposer sant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_016"
     },
     {
         "word": "se débattre avec",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "language",
         "emoji": "🤼",
         "subtext": "se débattre avec un problème / aux prises avec les implications",
         "form": "verb",
@@ -1250,12 +1364,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "reflexive": true,
-        "v4": "se débattre avant"
+        "v4": "se débattre avant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_017"
     },
     {
         "word": "minimiser",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "🎨",
         "subtext": "minimiser un problème / passer sous silence les détails",
         "form": "verb",
@@ -1273,12 +1389,14 @@ const data = [
         "v3": "minimisé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "minimisant"
+        "v4": "minimisant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_018"
     },
     {
         "word": "masquer",
         "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
+        "theme": "language",
         "emoji": "📄",
         "subtext": "masquer un problème / masquer les fissures / masquer les différences",
         "form": "verb",
@@ -1296,7 +1414,9 @@ const data = [
         "v3": "masqué",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "masquant"
+        "v4": "masquant",
+        "lang": "fr",
+        "id": "fr_proficiency_language_019"
     }
 ];
     const lang = "fr";

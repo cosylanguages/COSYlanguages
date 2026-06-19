@@ -21,7 +21,9 @@
         "v2": "առարկայացրեց",
         "v3": "առարկայացված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_philosophy_logic_001"
     },
     {
         "word": "սուբլիմացնել",
@@ -43,7 +45,9 @@
         "v2": "սուբլիմացրեց",
         "v3": "սուբլիմացված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_psychology_academic_001"
     },
     {
         "word": "ստորոգել",
@@ -65,7 +69,9 @@
         "v2": "ստորոգեց",
         "v3": "ստորոգված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_logic_linguistics_001"
     },
     {
         "word": "մարմնավորել",
@@ -87,7 +93,9 @@
         "v2": "մարմնավորեց",
         "v3": "մարմնավորված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_logic_computing_001"
     },
     {
         "word": "ժխտել",
@@ -109,7 +117,9 @@
         "v2": "ժխտեց",
         "v3": "ժխտված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_logic_debate_001"
     },
     {
         "word": "գերազանցել",
@@ -131,7 +141,9 @@
         "v2": "գերազանցեց",
         "v3": "գերազանցած",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_philosophy_general_001"
     },
     {
         "word": "միջնորդավորել",
@@ -153,7 +165,9 @@
         "v2": "միջնորդավորեց",
         "v3": "միջնորդավորված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_sociology_conflict_001"
     },
     {
         "word": "սղել",
@@ -175,7 +189,9 @@
         "v2": "սղեց",
         "v3": "սղված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_linguistics_debate_001"
     },
     {
         "word": "մթագնել",
@@ -197,7 +213,9 @@
         "v2": "մթագնեց",
         "v3": "մթագնած",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_debate_communication_001"
     },
     {
         "word": "նույնացնել",
@@ -219,7 +237,9 @@
         "v2": "նույնացրեց",
         "v3": "նույնացված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_debate_academic_001"
     },
     {
         "word": "վկայակոչել",
@@ -241,7 +261,9 @@
         "v2": "վկայակոչեց",
         "v3": "վկայակոչված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_law_debate_001"
     },
     {
         "word": "առաջին պլան մղել",
@@ -263,7 +285,9 @@
         "v2": "մղեց առաջին պլան",
         "v3": "մղված առաջին պլան",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_art_media_001"
     },
     {
         "word": "յուրացնել",
@@ -285,7 +309,9 @@
         "v2": "յուրացրեց",
         "v3": "յուրացված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_sociology_culture_001"
     },
     {
         "word": "ապակայունացնել",
@@ -307,7 +333,9 @@
         "v2": "ապակայունացրեց",
         "v3": "ապակայունացված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_politics_academic_001"
     },
     {
         "word": "ապրանքայնացնել",
@@ -329,7 +357,9 @@
         "v2": "ապրանքայնացրեց",
         "v3": "ապրանքայնացված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_economics_sociology_001"
     },
     {
         "word": "գործիքայնացնել",
@@ -351,7 +381,9 @@
         "v2": "գործիքայնացրեց",
         "v3": "գործիքայնացված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_politics_philosophy_001"
     },
     {
         "word": "արժևորել",
@@ -373,7 +405,9 @@
         "v2": "արժևորեց",
         "v3": "արժևորված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_sociology_academic_001"
     },
     {
         "word": "ֆետիշացնել",
@@ -395,7 +429,9 @@
         "v2": "ֆետիշացրեց",
         "v3": "ֆետիշացված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_sociology_academic_002"
     },
     {
         "word": "օտարել",
@@ -417,7 +453,9 @@
         "v2": "օտարեց",
         "v3": "օտարված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_sociology_psychology_001"
     },
     {
         "word": "սահմանազատել",
@@ -439,7 +477,9 @@
         "v2": "սահմանազատեց",
         "v3": "սահմանազատված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_law_philosophy_001"
     },
     {
         "word": "սահմանափակել",
@@ -461,7 +501,9 @@
         "v2": "սահմանափակեց",
         "v3": "սահմանափակված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_academic_research_001"
     },
     {
         "word": "խոչընդոտել",
@@ -483,7 +525,9 @@
         "v2": "խոչընդոտեց",
         "v3": "խոչընդոտող",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_debate_academic_002"
     },
     {
         "word": "աղավաղել",
@@ -505,7 +549,9 @@
         "v2": "աղավաղեց",
         "v3": "աղավաղված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_law_academic_001"
     },
     {
         "word": "հերքել",
@@ -527,7 +573,9 @@
         "v2": "հերքեց",
         "v3": "հերքված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_debate_logic_001"
     },
     {
         "word": "չեղարկել",
@@ -549,7 +597,9 @@
         "v2": "չեղարկեց",
         "v3": "չեղարկված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_law_politics_001"
     },
     {
         "word": "խախտել",
@@ -571,7 +621,9 @@
         "v2": "խախտեց",
         "v3": "խախտված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_law_debate_002"
     },
     {
         "word": "ներառել",
@@ -593,7 +645,9 @@
         "v2": "ներառեց",
         "v3": "ներառված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_logic_philosophy_001"
     },
     {
         "word": "դեկոնստրուկցիայի ենթարկել",
@@ -615,7 +669,9 @@
         "v2": "ենթարկեց դեկոնստրուկցիայի",
         "v3": "ենթարկված դեկոնստրուկցիայի",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_philosophy_literature_001"
     },
     {
         "word": "կանխարգելել",
@@ -637,7 +693,9 @@
         "v2": "կանխարգելեց",
         "v3": "կանխարգելված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_law_debate_003"
     },
     {
         "word": "դիալեկտիկացնել",
@@ -659,7 +717,9 @@
         "v2": "դիալեկտիկացրեց",
         "v3": "դիալեկտիկացված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_philosophy_academic_001"
     },
     {
         "word": "հեգեմոնացնել",
@@ -681,7 +741,9 @@
         "v2": "հեգեմոնացրեց",
         "v3": "հեգեմոնացված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_politics_sociology_001"
     },
     {
         "word": "շեշտադրել",
@@ -703,7 +765,9 @@
         "v2": "շեշտադրեց",
         "v3": "շեշտադրված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_001"
     },
     {
         "word": "համակերպվել",
@@ -725,7 +789,9 @@
         "v2": "համակերպվեց",
         "v3": "համակերպված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_debate_communication_002"
     },
     {
         "word": "մեղմել",
@@ -747,7 +813,9 @@
         "v2": "մեղմեց",
         "v3": "մեղմված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_policy_general_001"
     },
     {
         "word": "շրջանցել",
@@ -769,7 +837,9 @@
         "v2": "շրջանցեց",
         "v3": "շրջանցված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_debate_general_001"
     },
     {
         "word": "հաստատել",
@@ -791,7 +861,9 @@
         "v2": "հաստատեց",
         "v3": "հաստատված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_academic_research_002"
     },
     {
         "word": "տարածել",
@@ -813,7 +885,9 @@
         "v2": "տարածեց",
         "v3": "տարածված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_academic_research_003"
     },
     {
         "word": "ամփոփել",
@@ -835,7 +909,9 @@
         "v2": "ամփոփեց",
         "v3": "ամփոփված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_002"
     },
     {
         "word": "ծնել",
@@ -857,7 +933,9 @@
         "v2": "ծնեց",
         "v3": "ծնած",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_sociology_general_001"
     },
     {
         "word": "սրել",
@@ -879,7 +957,9 @@
         "v2": "սրեց",
         "v3": "սրված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_003"
     },
     {
         "word": "մարմնավորել",
@@ -901,7 +981,9 @@
         "v2": "մարմնավորեց",
         "v3": "մարմնավորված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_004"
     },
     {
         "word": "խոչընդոտել",
@@ -923,7 +1005,9 @@
         "v2": "խոչընդոտեց",
         "v3": "խոչընդոտված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_005"
     },
     {
         "word": "մեղմացնել",
@@ -945,7 +1029,9 @@
         "v2": "մեղմացրեց",
         "v3": "մեղմացված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_006"
     },
     {
         "word": "պարտավորեցնել",
@@ -967,7 +1053,9 @@
         "v2": "պարտավորեցրեց",
         "v3": "պարտավորեցրած",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_law_general_001"
     },
     {
         "word": "ներթափանցել",
@@ -989,7 +1077,9 @@
         "v2": "ներթափանցեց",
         "v3": "ներթափանցած",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_007"
     },
     {
         "word": "բացառել",
@@ -1011,7 +1101,9 @@
         "v2": "բացառեց",
         "v3": "բացառված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_008"
     },
     {
         "word": "համատեղել",
@@ -1033,7 +1125,9 @@
         "v2": "համատեղեց",
         "v3": "համատեղված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_009"
     },
     {
         "word": "փոխարինել",
@@ -1055,7 +1149,9 @@
         "v2": "փոխարինեց",
         "v3": "փոխարինված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_law_academic_002"
     },
     {
         "word": "հիմքում ընկած լինել",
@@ -1077,7 +1173,9 @@
         "v2": "հիմքում էր",
         "v3": "հիմքում ընկած",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_010"
     },
     {
         "word": "արդարացնել",
@@ -1099,7 +1197,9 @@
         "v2": "արդարացրեց",
         "v3": "արդարացված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_011"
     },
     {
         "word": "կախված լինել",
@@ -1121,7 +1221,9 @@
         "v2": "կախված էր",
         "v3": "կախված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_012"
     },
     {
         "word": "բախվել",
@@ -1143,7 +1245,9 @@
         "v2": "բախվեց",
         "v3": "բախված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_general_academic_013"
     },
     {
         "word": "մակերեսորեն անցնել",
@@ -1165,7 +1269,9 @@
         "v2": "անցավ մակերեսորեն",
         "v3": "մակերեսորեն անցած",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_debate_academic_003"
     },
     {
         "word": "քողարկել",
@@ -1187,7 +1293,9 @@
         "v2": "քողարկեց",
         "v3": "քողարկված",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_debate_politics_001"
     },
     {
         "word": "պարադիգմի փոփոխություն",
@@ -1209,7 +1317,9 @@
         "v2": "փոխեց պարադիգմը",
         "v3": "փոխված պարադիգմ",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "lang": "hy",
+        "id": "hy_proficiency_academic_general_001"
     }
 ];
     const lang = "hy";

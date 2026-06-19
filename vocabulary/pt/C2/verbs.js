@@ -22,7 +22,9 @@ const data = [
         "v3": "reificado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "reificando"
+        "v4": "reificando",
+        "lang": "pt",
+        "id": "pt_proficiency_philosophy_logic_001"
     },
     {
         "word": "sublimar",
@@ -45,7 +47,9 @@ const data = [
         "v3": "sublimado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "sublimando"
+        "v4": "sublimando",
+        "lang": "pt",
+        "id": "pt_proficiency_psychology_academic_001"
     },
     {
         "word": "predicar",
@@ -68,7 +72,9 @@ const data = [
         "v3": "predicado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "predicando"
+        "v4": "predicando",
+        "lang": "pt",
+        "id": "pt_proficiency_logic_linguistics_001"
     },
     {
         "word": "instanciar",
@@ -91,7 +97,9 @@ const data = [
         "v3": "instanciado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "instanciando"
+        "v4": "instanciando",
+        "lang": "pt",
+        "id": "pt_proficiency_logic_computing_001"
     },
     {
         "word": "negar",
@@ -113,7 +121,9 @@ const data = [
         "v2": "neguei",
         "v3": "negado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "id": "pt_proficiency_logic_debate_001"
     },
     {
         "word": "transcender",
@@ -136,7 +146,9 @@ const data = [
         "v3": "transcendido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "transcendiendo"
+        "v4": "transcendiendo",
+        "lang": "pt",
+        "id": "pt_proficiency_philosophy_general_001"
     },
     {
         "word": "mediar",
@@ -158,7 +170,9 @@ const data = [
         "v2": "mediei",
         "v3": "mediado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "id": "pt_proficiency_sociology_conflict_001"
     },
     {
         "word": "elidir",
@@ -181,7 +195,9 @@ const data = [
         "v3": "elidido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "elidiendo"
+        "v4": "elidiendo",
+        "lang": "pt",
+        "id": "pt_proficiency_linguistics_debate_001"
     },
     {
         "word": "ofuscar",
@@ -204,7 +220,9 @@ const data = [
         "v3": "ofuscado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "ofuscando"
+        "v4": "ofuscando",
+        "lang": "pt",
+        "id": "pt_proficiency_debate_communication_001"
     },
     {
         "word": "conflacionar",
@@ -227,7 +245,9 @@ const data = [
         "v3": "conflacionado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "conflacionando"
+        "v4": "conflacionando",
+        "lang": "pt",
+        "id": "pt_proficiency_debate_academic_001"
     },
     {
         "word": "invocar",
@@ -250,7 +270,9 @@ const data = [
         "v3": "invocado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "invocando"
+        "v4": "invocando",
+        "lang": "pt",
+        "id": "pt_proficiency_law_debate_001"
     },
     {
         "word": "destacar",
@@ -273,7 +295,9 @@ const data = [
         "v3": "destacado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "destacando"
+        "v4": "destacando",
+        "lang": "pt",
+        "id": "pt_proficiency_art_media_001"
     },
     {
         "word": "recuperar",
@@ -296,7 +320,9 @@ const data = [
         "v3": "recuperado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "recuperando"
+        "v4": "recuperando",
+        "lang": "pt",
+        "id": "pt_proficiency_sociology_culture_001"
     },
     {
         "word": "desestabilizar",
@@ -319,7 +345,9 @@ const data = [
         "v3": "desestabilizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "desestabilizando"
+        "v4": "desestabilizando",
+        "lang": "pt",
+        "id": "pt_proficiency_politics_academic_001"
     },
     {
         "word": "mercantilizar",
@@ -342,7 +370,9 @@ const data = [
         "v3": "mercantilizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "mercantilizando"
+        "v4": "mercantilizando",
+        "lang": "pt",
+        "id": "pt_proficiency_economics_sociology_001"
     },
     {
         "word": "instrumentalizar",
@@ -365,7 +395,9 @@ const data = [
         "v3": "instrumentalizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "instrumentalizando"
+        "v4": "instrumentalizando",
+        "lang": "pt",
+        "id": "pt_proficiency_politics_philosophy_001"
     },
     {
         "word": "valorizar",
@@ -388,7 +420,9 @@ const data = [
         "v3": "valorizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "valorizando"
+        "v4": "valorizando",
+        "lang": "pt",
+        "id": "pt_proficiency_sociology_academic_001"
     },
     {
         "word": "fetichizar",
@@ -411,7 +445,9 @@ const data = [
         "v3": "fetichizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "fetichizando"
+        "v4": "fetichizando",
+        "lang": "pt",
+        "id": "pt_proficiency_sociology_academic_002"
     },
     {
         "word": "alienar",
@@ -434,7 +470,9 @@ const data = [
         "v3": "alienado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "alienando"
+        "v4": "alienando",
+        "lang": "pt",
+        "id": "pt_proficiency_sociology_psychology_001"
     },
     {
         "word": "demarcar",
@@ -457,7 +495,9 @@ const data = [
         "v3": "demarcado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "demarcando"
+        "v4": "demarcando",
+        "lang": "pt",
+        "id": "pt_proficiency_law_philosophy_001"
     },
     {
         "word": "delimitar",
@@ -480,7 +520,9 @@ const data = [
         "v3": "delimitado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "delimitando"
+        "v4": "delimitando",
+        "lang": "pt",
+        "id": "pt_proficiency_academic_research_001"
     },
     {
         "word": "militar",
@@ -503,7 +545,9 @@ const data = [
         "v3": "militado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "militando"
+        "v4": "militando",
+        "lang": "pt",
+        "id": "pt_proficiency_debate_academic_002"
     },
     {
         "word": "viciar",
@@ -526,7 +570,9 @@ const data = [
         "v3": "viciado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "viciando"
+        "v4": "viciando",
+        "lang": "pt",
+        "id": "pt_proficiency_law_academic_001"
     },
     {
         "word": "contradizer",
@@ -548,7 +594,9 @@ const data = [
         "v2": "contradisse",
         "v3": "contraditado",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "id": "pt_proficiency_debate_logic_001"
     },
     {
         "word": "ab-rogar",
@@ -571,7 +619,9 @@ const data = [
         "v3": "ab-rogado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "ab-rogando"
+        "v4": "ab-rogando",
+        "lang": "pt",
+        "id": "pt_proficiency_law_politics_001"
     },
     {
         "word": "contrair",
@@ -593,7 +643,9 @@ const data = [
         "v2": "contravim",
         "v3": "contravindo",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "id": "pt_proficiency_law_debate_002"
     },
     {
         "word": "subsumir",
@@ -616,7 +668,9 @@ const data = [
         "v3": "subsumido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "subsumiendo"
+        "v4": "subsumiendo",
+        "lang": "pt",
+        "id": "pt_proficiency_logic_philosophy_001"
     },
     {
         "word": "desconstruir",
@@ -638,7 +692,9 @@ const data = [
         "v2": "desconstruí",
         "v3": "desconstruído",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "id": "pt_proficiency_philosophy_literature_001"
     },
     {
         "word": "precluir",
@@ -660,7 +716,9 @@ const data = [
         "v2": "precluí",
         "v3": "precluído",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "id": "pt_proficiency_law_debate_003"
     },
     {
         "word": "dialetizar",
@@ -683,7 +741,9 @@ const data = [
         "v3": "dialetizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "dialetizando"
+        "v4": "dialetizando",
+        "lang": "pt",
+        "id": "pt_proficiency_philosophy_academic_001"
     },
     {
         "word": "hegemonizar",
@@ -706,7 +766,9 @@ const data = [
         "v3": "hegemonizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "hegemonizando"
+        "v4": "hegemonizando",
+        "lang": "pt",
+        "id": "pt_proficiency_politics_sociology_001"
     },
     {
         "word": "acentuar",
@@ -729,7 +791,9 @@ const data = [
         "v3": "acentuado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "acentuando"
+        "v4": "acentuando",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_001"
     },
     {
         "word": "aquiescer",
@@ -752,7 +816,9 @@ const data = [
         "v3": "aquiescido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "aquiesciendo"
+        "v4": "aquiesciendo",
+        "lang": "pt",
+        "id": "pt_proficiency_debate_communication_002"
     },
     {
         "word": "aliviar",
@@ -775,7 +841,9 @@ const data = [
         "v3": "aliviado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "aliviando"
+        "v4": "aliviando",
+        "lang": "pt",
+        "id": "pt_proficiency_policy_general_001"
     },
     {
         "word": "contornar",
@@ -798,7 +866,9 @@ const data = [
         "v3": "contornado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "contornando"
+        "v4": "contornando",
+        "lang": "pt",
+        "id": "pt_proficiency_debate_general_001"
     },
     {
         "word": "corroborar",
@@ -821,7 +891,9 @@ const data = [
         "v3": "corroborado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "corroborando"
+        "v4": "corroborando",
+        "lang": "pt",
+        "id": "pt_proficiency_academic_research_002"
     },
     {
         "word": "disseminar",
@@ -844,7 +916,9 @@ const data = [
         "v3": "disseminado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "disseminando"
+        "v4": "disseminando",
+        "lang": "pt",
+        "id": "pt_proficiency_academic_research_003"
     },
     {
         "word": "encapsular",
@@ -867,7 +941,9 @@ const data = [
         "v3": "encapsulado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "encapsulando"
+        "v4": "encapsulando",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_002"
     },
     {
         "word": "engendrar",
@@ -890,7 +966,9 @@ const data = [
         "v3": "engendrado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "engendrando"
+        "v4": "engendrando",
+        "lang": "pt",
+        "id": "pt_proficiency_sociology_general_001"
     },
     {
         "word": "exacerbar",
@@ -913,7 +991,9 @@ const data = [
         "v3": "exacerbado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "exacerbando"
+        "v4": "exacerbando",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_003"
     },
     {
         "word": "exemplificar",
@@ -936,7 +1016,9 @@ const data = [
         "v3": "exemplificado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "exemplificando"
+        "v4": "exemplificando",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_004"
     },
     {
         "word": "impedir",
@@ -958,7 +1040,9 @@ const data = [
         "v2": "impedi",
         "v3": "impedido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_005"
     },
     {
         "word": "mitigar",
@@ -981,7 +1065,9 @@ const data = [
         "v3": "mitigado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "mitigando"
+        "v4": "mitigando",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_006"
     },
     {
         "word": "obrigar",
@@ -1004,7 +1090,9 @@ const data = [
         "v3": "obrigado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "obrigando"
+        "v4": "obrigando",
+        "lang": "pt",
+        "id": "pt_proficiency_law_general_001"
     },
     {
         "word": "pervadir",
@@ -1027,7 +1115,9 @@ const data = [
         "v3": "pervadido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "pervadiendo"
+        "v4": "pervadiendo",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_007"
     },
     {
         "word": "excluir",
@@ -1049,7 +1139,9 @@ const data = [
         "v2": "excluí",
         "v3": "excluído",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_008"
     },
     {
         "word": "reconciliar",
@@ -1072,7 +1164,9 @@ const data = [
         "v3": "reconciliado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "reconciliando"
+        "v4": "reconciliando",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_009"
     },
     {
         "word": "substituir",
@@ -1094,7 +1188,9 @@ const data = [
         "v2": "substituí",
         "v3": "substituído",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "id": "pt_proficiency_law_academic_002"
     },
     {
         "word": "alicerçar",
@@ -1117,7 +1213,9 @@ const data = [
         "v3": "alicerçado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "alicerçando"
+        "v4": "alicerçando",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_010"
     },
     {
         "word": "vincular",
@@ -1140,7 +1238,9 @@ const data = [
         "v3": "vinculado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "vinculando"
+        "v4": "vinculando",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_011"
     },
     {
         "word": "depender de",
@@ -1162,7 +1262,9 @@ const data = [
         "v2": "dependeu de",
         "v3": "dependido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_012"
     },
     {
         "word": "lidar com",
@@ -1184,7 +1286,9 @@ const data = [
         "v2": "lidei com",
         "v3": "lidado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "id": "pt_proficiency_general_academic_013"
     },
     {
         "word": "ignorar",
@@ -1207,7 +1311,9 @@ const data = [
         "v3": "ignorado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "ignorando"
+        "v4": "ignorando",
+        "lang": "pt",
+        "id": "pt_proficiency_debate_academic_003"
     },
     {
         "word": "disfarçar",
@@ -1230,7 +1336,9 @@ const data = [
         "v3": "disfarçado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "disfarçando"
+        "v4": "disfarçando",
+        "lang": "pt",
+        "id": "pt_proficiency_debate_politics_001"
     },
     {
         "word": "mudança de paradigma",
@@ -1252,7 +1360,9 @@ const data = [
         "v2": "mudou de paradigma",
         "v3": "mudado de paradigma",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "id": "pt_proficiency_academic_general_001"
     }
 ];
     const lang = "pt";

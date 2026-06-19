@@ -21,7 +21,9 @@
         "v2": "reifis",
         "v3": "reifiet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_philosophy_logic_001"
     },
     {
         "word": "isberliñ",
@@ -43,7 +45,9 @@
         "v2": "isberlis",
         "v3": "isberlet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_psychology_academic_001"
     },
     {
         "word": "predikadiñ",
@@ -65,7 +69,9 @@
         "v2": "predikadis",
         "v3": "predikadet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_logic_linguistics_001"
     },
     {
         "word": "instañsiñ",
@@ -87,7 +93,9 @@
         "v2": "instañsis",
         "v3": "instañset",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_logic_computing_001"
     },
     {
         "word": "nac'hañ",
@@ -109,7 +117,9 @@
         "v2": "nac'has",
         "v3": "nac'het",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_logic_debate_001"
     },
     {
         "word": "treuziñ",
@@ -131,7 +141,9 @@
         "v2": "treuzis",
         "v3": "treuzet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_philosophy_general_001"
     },
     {
         "word": "mediadiñ",
@@ -153,7 +165,9 @@
         "v2": "mediadis",
         "v3": "mediadet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_sociology_conflict_001"
     },
     {
         "word": "elidañ",
@@ -175,7 +189,9 @@
         "v2": "elidas",
         "v3": "elidet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_linguistics_debate_001"
     },
     {
         "word": "diskañ",
@@ -197,7 +213,9 @@
         "v2": "diskas",
         "v3": "disket",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_debate_communication_001"
     },
     {
         "word": "kenliammañ",
@@ -219,7 +237,9 @@
         "v2": "kenliammas",
         "v3": "kenliammet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_debate_academic_001"
     },
     {
         "word": "galvel",
@@ -241,7 +261,9 @@
         "v2": "galvas",
         "v3": "galvet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_law_debate_001"
     },
     {
         "word": "lakaat war-raok",
@@ -263,7 +285,9 @@
         "v2": "lakas war-raok",
         "v3": "lakaet war-raok",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_art_media_001"
     },
     {
         "word": "adpakañ",
@@ -285,7 +309,9 @@
         "v2": "adpakas",
         "v3": "adpaked",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_sociology_culture_001"
     },
     {
         "word": "distabilizañ",
@@ -307,7 +333,9 @@
         "v2": "distabilizas",
         "v3": "distabilizet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_politics_academic_001"
     },
     {
         "word": "marc'hadourezhaat",
@@ -329,7 +357,9 @@
         "v2": "marc'hadourezhaas",
         "v3": "marc'hadourezhaet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_economics_sociology_001"
     },
     {
         "word": "benvekaat",
@@ -351,7 +381,9 @@
         "v2": "benvekaas",
         "v3": "benvekaet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_politics_philosophy_001"
     },
     {
         "word": "prizañ",
@@ -373,7 +405,9 @@
         "v2": "prizas",
         "v3": "prizet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_sociology_academic_001"
     },
     {
         "word": "fetikaat",
@@ -395,7 +429,9 @@
         "v2": "fetikaas",
         "v3": "fetikaet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_sociology_academic_002"
     },
     {
         "word": "estranaat",
@@ -417,7 +453,9 @@
         "v2": "estranaas",
         "v3": "estranaet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_sociology_psychology_001"
     },
     {
         "word": "bevennañ",
@@ -439,7 +477,9 @@
         "v2": "bevennas",
         "v3": "bevennet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_law_philosophy_001"
     },
     {
         "word": "bevennañ",
@@ -461,7 +501,9 @@
         "v2": "bevennas",
         "v3": "bevennet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_academic_research_001"
     },
     {
         "word": "stourm ouzh",
@@ -483,7 +525,9 @@
         "v2": "stourmas ouzh",
         "v3": "stourmet ouzh",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_debate_academic_002"
     },
     {
         "word": "gwallañ",
@@ -505,7 +549,9 @@
         "v2": "gwallas",
         "v3": "gwallet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_law_academic_001"
     },
     {
         "word": "enebiñ ouzh",
@@ -527,7 +573,9 @@
         "v2": "enebis ouzh",
         "v3": "enebet ouzh",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_debate_logic_001"
     },
     {
         "word": "nullañ",
@@ -549,7 +597,9 @@
         "v2": "nullas",
         "v3": "nullet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_law_politics_001"
     },
     {
         "word": "terriñ",
@@ -571,7 +621,9 @@
         "v2": "terris",
         "v3": "torret",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_law_debate_002"
     },
     {
         "word": "ebarzhañ",
@@ -593,7 +645,9 @@
         "v2": "ebarzhas",
         "v3": "ebarzhet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_logic_philosophy_001"
     },
     {
         "word": "dielfonnañ",
@@ -615,7 +669,9 @@
         "v2": "dielfonnas",
         "v3": "dielfonnet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_philosophy_literature_001"
     },
     {
         "word": "rakserriñ",
@@ -637,7 +693,9 @@
         "v2": "rakserris",
         "v3": "rakserret",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_law_debate_003"
     },
     {
         "word": "dialegekaat",
@@ -659,7 +717,9 @@
         "v2": "dialegekaas",
         "v3": "dialegekaet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_philosophy_academic_001"
     },
     {
         "word": "hegemonekaat",
@@ -681,7 +741,9 @@
         "v2": "hegemonekaas",
         "v3": "hegemonekaet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_politics_sociology_001"
     },
     {
         "word": "pouezañ war",
@@ -703,7 +765,9 @@
         "v2": "pouezas war",
         "v3": "pouezet war",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_001"
     },
     {
         "word": "plegañ da",
@@ -725,7 +789,9 @@
         "v2": "plegas da",
         "v3": "pleget da",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_debate_communication_002"
     },
     {
         "word": "skañvaat",
@@ -747,7 +813,9 @@
         "v2": "skañvaas",
         "v3": "skañvaet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_policy_general_001"
     },
     {
         "word": "treuzveizañ",
@@ -769,7 +837,9 @@
         "v2": "treuzveizas",
         "v3": "treuzveizet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_debate_general_001"
     },
     {
         "word": "kadarnaat",
@@ -791,7 +861,9 @@
         "v2": "kadarnaas",
         "v3": "kadarnaet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_academic_research_002"
     },
     {
         "word": "skignañ",
@@ -813,7 +885,9 @@
         "v2": "skignas",
         "v3": "skignet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_academic_research_003"
     },
     {
         "word": "kenvellañ",
@@ -835,7 +909,9 @@
         "v2": "kenvellas",
         "v3": "kenvellet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_002"
     },
     {
         "word": "engehentañ",
@@ -857,7 +933,9 @@
         "v2": "engehentas",
         "v3": "engehentet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_sociology_general_001"
     },
     {
         "word": "gwashaat",
@@ -879,7 +957,9 @@
         "v2": "gwashaas",
         "v3": "gwashaet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_003"
     },
     {
         "word": "skoueriaat",
@@ -901,7 +981,9 @@
         "v2": "skoueriaas",
         "v3": "skoueriaet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_004"
     },
     {
         "word": "skoilhañ",
@@ -923,7 +1005,9 @@
         "v2": "skoilhas",
         "v3": "skoilhet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_005"
     },
     {
         "word": "koazhañ",
@@ -945,7 +1029,9 @@
         "v2": "koazhas",
         "v3": "koazhet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_006"
     },
     {
         "word": "rediañ",
@@ -967,7 +1053,9 @@
         "v2": "redias",
         "v3": "rediet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_law_general_001"
     },
     {
         "word": "treuziñ",
@@ -989,7 +1077,9 @@
         "v2": "treuzis",
         "v3": "treuzet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_007"
     },
     {
         "word": "diarbenn",
@@ -1011,7 +1101,9 @@
         "v2": "diarbennas",
         "v3": "diarbennet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_008"
     },
     {
         "word": "kempouezañ",
@@ -1033,7 +1125,9 @@
         "v2": "kempouezas",
         "v3": "kempouezet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_009"
     },
     {
         "word": "erlec'hiañ",
@@ -1055,7 +1149,9 @@
         "v2": "erlec'hias",
         "v3": "erlec'hiet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_law_academic_002"
     },
     {
         "word": "diazezañ",
@@ -1077,7 +1173,9 @@
         "v2": "diazezas",
         "v3": "diazezet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_010"
     },
     {
         "word": "mirc'hellañ",
@@ -1099,7 +1197,9 @@
         "v2": "mirc'hellas",
         "v3": "mirc'hellet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_011"
     },
     {
         "word": "dependiñ diouzh",
@@ -1121,7 +1221,9 @@
         "v2": "dependis diouzh",
         "v3": "dependet diouzh",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_012"
     },
     {
         "word": "stourm ouzh",
@@ -1143,7 +1245,9 @@
         "v2": "stourmas ouzh",
         "v3": "stourmet ouzh",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_general_academic_013"
     },
     {
         "word": "pasañ dreist",
@@ -1165,7 +1269,9 @@
         "v2": "pasas dreist",
         "v3": "paset dreist",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_debate_academic_003"
     },
     {
         "word": "kuzhat",
@@ -1187,7 +1293,9 @@
         "v2": "kuzhatas",
         "v3": "kuzhatet",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_debate_politics_001"
     },
     {
         "word": "cheñchamant paradign",
@@ -1209,7 +1317,9 @@
         "v2": "cheñchas paradign",
         "v3": "cheñchet paradign",
         "group": "añ",
-        "auxiliary": "kaout"
+        "auxiliary": "kaout",
+        "lang": "br",
+        "id": "br_proficiency_academic_general_001"
     }
 ];
     const lang = "br";

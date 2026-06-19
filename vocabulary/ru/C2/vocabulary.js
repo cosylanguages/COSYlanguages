@@ -3,7 +3,7 @@
     const lang = "ru";
     const data = [
     {
-        "id": "ru_proficiency_language_093",
+        "id": "ru_proficiency_language_001",
         "word": "апория",
         "lang": "ru",
         "level": "proficiency",
@@ -21,7 +21,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_language_094",
+        "id": "ru_proficiency_language_002",
         "word": "телеология",
         "lang": "ru",
         "level": "proficiency",
@@ -39,7 +39,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_language_095",
+        "id": "ru_proficiency_language_003",
         "word": "онтология",
         "lang": "ru",
         "level": "proficiency",
@@ -57,7 +57,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_language_096",
+        "id": "ru_proficiency_language_004",
         "word": "реификация",
         "lang": "ru",
         "level": "proficiency",
@@ -75,7 +75,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_language_097",
+        "id": "ru_proficiency_language_005",
         "word": "диалектика",
         "lang": "ru",
         "level": "proficiency",
@@ -93,7 +93,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_language_098",
+        "id": "ru_proficiency_language_006",
         "word": "эвристика",
         "lang": "ru",
         "level": "proficiency",
@@ -111,7 +111,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_language_099",
+        "id": "ru_proficiency_language_007",
         "word": "апофения",
         "lang": "ru",
         "level": "proficiency",
@@ -129,7 +129,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_language_100",
+        "id": "ru_proficiency_language_008",
         "word": "мотивированное познание",
         "lang": "ru",
         "level": "proficiency",
@@ -146,7 +146,7 @@
         "emoji": "🧠"
     },
     {
-        "id": "ru_proficiency_social_024",
+        "id": "ru_proficiency_social_001",
         "word": "проактивный принцип",
         "lang": "ru",
         "level": "proficiency",
@@ -163,7 +163,7 @@
         "emoji": "🚀"
     },
     {
-        "id": "ru_proficiency_social_025",
+        "id": "ru_proficiency_social_002",
         "word": "принцип предосторожности",
         "lang": "ru",
         "level": "proficiency",
@@ -180,7 +180,7 @@
         "emoji": "🛡️"
     },
     {
-        "id": "ru_proficiency_social_026",
+        "id": "ru_proficiency_social_003",
         "word": "либеральный нейтралитет",
         "lang": "ru",
         "level": "proficiency",
@@ -197,7 +197,7 @@
         "emoji": "⚖️"
     },
     {
-        "id": "ru_proficiency_social_027",
+        "id": "ru_proficiency_social_004",
         "word": "пронатализм",
         "lang": "ru",
         "level": "proficiency",
@@ -215,7 +215,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_psychology_009",
+        "id": "ru_proficiency_psychology_001",
         "word": "сублимация",
         "lang": "ru",
         "level": "proficiency",
@@ -233,7 +233,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_psychology_010",
+        "id": "ru_proficiency_psychology_002",
         "word": "жуиссанс",
         "lang": "ru",
         "level": "proficiency",
@@ -251,7 +251,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_psychology_011",
+        "id": "ru_proficiency_psychology_003",
         "word": "танатос",
         "lang": "ru",
         "level": "proficiency",
@@ -269,7 +269,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_art_culture_011",
+        "id": "ru_proficiency_art_culture_001",
         "word": "батос",
         "lang": "ru",
         "level": "proficiency",
@@ -287,7 +287,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_language_101",
+        "id": "ru_proficiency_language_009",
         "word": "апофазис",
         "lang": "ru",
         "level": "proficiency",
@@ -305,7 +305,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_language_102",
+        "id": "ru_proficiency_language_010",
         "word": "паралепсис",
         "lang": "ru",
         "level": "proficiency",
@@ -323,7 +323,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_language_103",
+        "id": "ru_proficiency_language_011",
         "word": "лиминальное пространство",
         "lang": "ru",
         "level": "proficiency",
@@ -340,7 +340,7 @@
         "emoji": "🚪"
     },
     {
-        "id": "ru_proficiency_language_104",
+        "id": "ru_proficiency_language_012",
         "word": "хиазм",
         "lang": "ru",
         "level": "proficiency",
@@ -358,7 +358,7 @@
         "classification": "regular"
     },
     {
-        "id": "ru_proficiency_language_105",
+        "id": "ru_proficiency_language_013",
         "word": "шибболет",
         "lang": "ru",
         "level": "proficiency",

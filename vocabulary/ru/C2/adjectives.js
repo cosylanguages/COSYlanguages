@@ -3,7 +3,7 @@
     const lang = "ru";
     const data = [
     {
-        "id": "ru_proficiency_language_055",
+        "id": "ru_proficiency_language_001",
         "word": "резкий",
         "lang": "ru",
         "level": "proficiency",
@@ -30,7 +30,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_056",
+        "id": "ru_proficiency_language_002",
         "word": "маловразумительный",
         "lang": "ru",
         "level": "proficiency",
@@ -57,7 +57,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_008",
+        "id": "ru_proficiency_social_001",
         "word": "анахроничный",
         "lang": "ru",
         "level": "proficiency",
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_057",
+        "id": "ru_proficiency_language_003",
         "word": "антитетический",
         "lang": "ru",
         "level": "proficiency",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_058",
+        "id": "ru_proficiency_language_004",
         "word": "арканный",
         "lang": "ru",
         "level": "proficiency",
@@ -138,7 +138,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_059",
+        "id": "ru_proficiency_language_005",
         "word": "атипичный",
         "lang": "ru",
         "level": "proficiency",
@@ -165,7 +165,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_060",
+        "id": "ru_proficiency_language_006",
         "word": "бинарный",
         "lang": "ru",
         "level": "proficiency",
@@ -192,7 +192,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_061",
+        "id": "ru_proficiency_language_007",
         "word": "категоричный",
         "lang": "ru",
         "level": "proficiency",
@@ -219,7 +219,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_009",
+        "id": "ru_proficiency_social_002",
         "word": "осмотрительный",
         "lang": "ru",
         "level": "proficiency",
@@ -246,7 +246,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_010",
+        "id": "ru_proficiency_social_003",
         "word": "скрытый",
         "lang": "ru",
         "level": "proficiency",
@@ -273,7 +273,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_062",
+        "id": "ru_proficiency_language_008",
         "word": "диалектический",
         "lang": "ru",
         "level": "proficiency",
@@ -297,7 +297,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_063",
+        "id": "ru_proficiency_language_009",
         "word": "диффузный",
         "lang": "ru",
         "level": "proficiency",
@@ -324,7 +324,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_064",
+        "id": "ru_proficiency_language_010",
         "word": "неуловимый",
         "lang": "ru",
         "level": "proficiency",
@@ -357,7 +357,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_065",
+        "id": "ru_proficiency_language_011",
         "word": "эзотерический",
         "lang": "ru",
         "level": "proficiency",
@@ -384,7 +384,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_066",
+        "id": "ru_proficiency_language_012",
         "word": "ошибочный",
         "lang": "ru",
         "level": "proficiency",
@@ -411,7 +411,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_067",
+        "id": "ru_proficiency_language_013",
         "word": "неизменный",
         "lang": "ru",
         "level": "proficiency",
@@ -438,7 +438,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_011",
+        "id": "ru_proficiency_social_004",
         "word": "беспристрастный",
         "lang": "ru",
         "level": "proficiency",
@@ -465,7 +465,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_068",
+        "id": "ru_proficiency_language_014",
         "word": "побочный",
         "lang": "ru",
         "level": "proficiency",
@@ -492,7 +492,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_069",
+        "id": "ru_proficiency_language_015",
         "word": "присущий",
         "lang": "ru",
         "level": "proficiency",
@@ -519,7 +519,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_art_culture_010",
+        "id": "ru_proficiency_art_culture_001",
         "word": "неподражаемый",
         "lang": "ru",
         "level": "proficiency",
@@ -546,7 +546,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_012",
+        "id": "ru_proficiency_social_005",
         "word": "коварный",
         "lang": "ru",
         "level": "proficiency",
@@ -573,7 +573,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_070",
+        "id": "ru_proficiency_language_016",
         "word": "непримиримый",
         "lang": "ru",
         "level": "proficiency",
@@ -600,7 +600,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_071",
+        "id": "ru_proficiency_language_017",
         "word": "лиминальный",
         "lang": "ru",
         "level": "proficiency",
@@ -624,7 +624,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_072",
+        "id": "ru_proficiency_language_018",
         "word": "многообразный",
         "lang": "ru",
         "level": "proficiency",
@@ -651,7 +651,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_073",
+        "id": "ru_proficiency_language_019",
         "word": "туманный",
         "lang": "ru",
         "level": "proficiency",
@@ -678,7 +678,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_013",
+        "id": "ru_proficiency_social_006",
         "word": "нормативный",
         "lang": "ru",
         "level": "proficiency",
@@ -705,7 +705,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_074",
+        "id": "ru_proficiency_language_020",
         "word": "нюансированный",
         "lang": "ru",
         "level": "proficiency",
@@ -732,7 +732,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_075",
+        "id": "ru_proficiency_language_021",
         "word": "иносказательный",
         "lang": "ru",
         "level": "proficiency",
@@ -759,7 +759,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_076",
+        "id": "ru_proficiency_language_022",
         "word": "непрозрачный",
         "lang": "ru",
         "level": "proficiency",
@@ -786,7 +786,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_077",
+        "id": "ru_proficiency_language_023",
         "word": "мнимый",
         "lang": "ru",
         "level": "proficiency",
@@ -813,7 +813,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_078",
+        "id": "ru_proficiency_language_024",
         "word": "парадоксальный",
         "lang": "ru",
         "level": "proficiency",
@@ -840,7 +840,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_014",
+        "id": "ru_proficiency_social_007",
         "word": "всеобъемлющий",
         "lang": "ru",
         "level": "proficiency",
@@ -867,7 +867,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_015",
+        "id": "ru_proficiency_social_008",
         "word": "поляризующий",
         "lang": "ru",
         "level": "proficiency",
@@ -894,7 +894,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_079",
+        "id": "ru_proficiency_language_025",
         "word": "шаткий",
         "lang": "ru",
         "level": "proficiency",
@@ -921,7 +921,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_080",
+        "id": "ru_proficiency_language_026",
         "word": "прескриптивный",
         "lang": "ru",
         "level": "proficiency",
@@ -948,7 +948,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_016",
+        "id": "ru_proficiency_social_009",
         "word": "затяжной",
         "lang": "ru",
         "level": "proficiency",
@@ -975,7 +975,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_081",
+        "id": "ru_proficiency_language_027",
         "word": "редуктивный",
         "lang": "ru",
         "level": "proficiency",
@@ -1002,7 +1002,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_017",
+        "id": "ru_proficiency_social_010",
         "word": "основополагающий",
         "lang": "ru",
         "level": "proficiency",
@@ -1029,7 +1029,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_082",
+        "id": "ru_proficiency_language_028",
         "word": "благовидный",
         "lang": "ru",
         "level": "proficiency",
@@ -1056,7 +1056,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_083",
+        "id": "ru_proficiency_language_029",
         "word": "ложный",
         "lang": "ru",
         "level": "proficiency",
@@ -1083,7 +1083,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_018",
+        "id": "ru_proficiency_social_011",
         "word": "подрывной",
         "lang": "ru",
         "level": "proficiency",
@@ -1110,7 +1110,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_084",
+        "id": "ru_proficiency_language_030",
         "word": "негласный",
         "lang": "ru",
         "level": "proficiency",
@@ -1137,7 +1137,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_085",
+        "id": "ru_proficiency_language_031",
         "word": "слабый",
         "lang": "ru",
         "level": "proficiency",
@@ -1191,7 +1191,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_019",
+        "id": "ru_proficiency_social_012",
         "word": "вездесущий",
         "lang": "ru",
         "level": "proficiency",
@@ -1218,7 +1218,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_086",
+        "id": "ru_proficiency_language_032",
         "word": "недвусмысленный",
         "lang": "ru",
         "level": "proficiency",
@@ -1245,7 +1245,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_social_020",
+        "id": "ru_proficiency_social_013",
         "word": "беспрецедентный",
         "lang": "ru",
         "level": "proficiency",
@@ -1272,7 +1272,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_087",
+        "id": "ru_proficiency_language_033",
         "word": "несостоятельный",
         "lang": "ru",
         "level": "proficiency",
@@ -1299,7 +1299,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_088",
+        "id": "ru_proficiency_language_034",
         "word": "громоздкий",
         "lang": "ru",
         "level": "proficiency",
@@ -1326,7 +1326,7 @@
         ]
     },
     {
-        "id": "ru_proficiency_language_089",
+        "id": "ru_proficiency_language_035",
         "word": "герменевтический",
         "lang": "ru",
         "level": "proficiency",
@@ -1343,7 +1343,7 @@
         "emoji": "📜"
     },
     {
-        "id": "ru_proficiency_language_090",
+        "id": "ru_proficiency_language_036",
         "word": "тавтологичный",
         "lang": "ru",
         "level": "proficiency",
@@ -1360,7 +1360,7 @@
         "emoji": "🔄"
     },
     {
-        "id": "ru_proficiency_language_091",
+        "id": "ru_proficiency_language_037",
         "word": "полисемичный",
         "lang": "ru",
         "level": "proficiency",
@@ -1377,7 +1377,7 @@
         "emoji": "🔠"
     },
     {
-        "id": "ru_proficiency_social_021",
+        "id": "ru_proficiency_social_014",
         "word": "постколониальный",
         "lang": "ru",
         "level": "proficiency",
@@ -1394,7 +1394,7 @@
         "emoji": "🌍"
     },
     {
-        "id": "ru_proficiency_social_022",
+        "id": "ru_proficiency_social_015",
         "word": "многополярный",
         "lang": "ru",
         "level": "proficiency",
@@ -1411,7 +1411,7 @@
         "emoji": "🌐"
     },
     {
-        "id": "ru_proficiency_social_023",
+        "id": "ru_proficiency_social_016",
         "word": "космополитичный",
         "lang": "ru",
         "level": "proficiency",
@@ -1428,7 +1428,7 @@
         "emoji": "🏙️"
     },
     {
-        "id": "ru_proficiency_psychology_008",
+        "id": "ru_proficiency_psychology_001",
         "word": "нарциссический",
         "lang": "ru",
         "level": "proficiency",
@@ -1445,7 +1445,7 @@
         "emoji": "🪞"
     },
     {
-        "id": "ru_proficiency_language_092",
+        "id": "ru_proficiency_language_038",
         "word": "гетеродоксальный",
         "lang": "ru",
         "level": "proficiency",

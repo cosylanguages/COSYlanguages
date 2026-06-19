@@ -25,7 +25,7 @@ const data = [
         "v4": "reificando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_029"
+        "id": "es_proficiency_language_001"
     },
     {
         "word": "sublimar",
@@ -51,7 +51,7 @@ const data = [
         "v4": "sublimando",
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_026"
+        "id": "es_proficiency_psychology_001"
     },
     {
         "word": "predicar",
@@ -76,7 +76,7 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "phonetics",
-        "id": "es_proficiency_language_030"
+        "id": "es_proficiency_language_002"
     },
     {
         "word": "instanciar",
@@ -102,7 +102,7 @@ const data = [
         "v4": "instanciando",
         "lang": "es",
         "sub_theme": "software",
-        "id": "es_proficiency_technology_003"
+        "id": "es_proficiency_technology_001"
     },
     {
         "word": "negar",
@@ -127,7 +127,7 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_031"
+        "id": "es_proficiency_language_003"
     },
     {
         "word": "trascender",
@@ -153,7 +153,7 @@ const data = [
         "v4": "trascendiendo",
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_027"
+        "id": "es_proficiency_psychology_002"
     },
     {
         "word": "mediar",
@@ -179,7 +179,7 @@ const data = [
         "v4": "mediando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_027"
+        "id": "es_proficiency_social_001"
     },
     {
         "word": "elidir",
@@ -205,7 +205,7 @@ const data = [
         "v4": "elidiendo",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_032"
+        "id": "es_proficiency_language_004"
     },
     {
         "word": "ofuscar",
@@ -231,7 +231,7 @@ const data = [
         "v4": "ofuscando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_033"
+        "id": "es_proficiency_language_005"
     },
     {
         "word": "fusionar",
@@ -257,7 +257,7 @@ const data = [
         "v4": "fusionando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_034"
+        "id": "es_proficiency_language_006"
     },
     {
         "word": "invocar",
@@ -283,7 +283,7 @@ const data = [
         "v4": "invocando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_035"
+        "id": "es_proficiency_language_007"
     },
     {
         "word": "destacar",
@@ -309,7 +309,7 @@ const data = [
         "v4": "destacando",
         "lang": "es",
         "sub_theme": "art",
-        "id": "es_proficiency_art_culture_010"
+        "id": "es_proficiency_art_culture_001"
     },
     {
         "word": "recuperar",
@@ -335,7 +335,7 @@ const data = [
         "v4": "recuperando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_art_culture_011"
+        "id": "es_proficiency_art_culture_002"
     },
     {
         "word": "desestabilizar",
@@ -413,7 +413,7 @@ const data = [
         "v4": "instrumentalizando",
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_028"
+        "id": "es_proficiency_psychology_003"
     },
     {
         "word": "valorizar",
@@ -439,7 +439,7 @@ const data = [
         "v4": "valorizando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_028"
+        "id": "es_proficiency_social_002"
     },
     {
         "word": "fetichizar",
@@ -465,7 +465,7 @@ const data = [
         "v4": "fetichizando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_029"
+        "id": "es_proficiency_social_003"
     },
     {
         "word": "alienar",
@@ -491,7 +491,7 @@ const data = [
         "v4": "alienando",
         "lang": "es",
         "sub_theme": "behavior",
-        "id": "es_proficiency_psychology_029"
+        "id": "es_proficiency_psychology_004"
     },
     {
         "word": "demarcar",
@@ -517,7 +517,7 @@ const data = [
         "v4": "demarcando",
         "lang": "es",
         "sub_theme": "behavior",
-        "id": "es_proficiency_psychology_030"
+        "id": "es_proficiency_psychology_005"
     },
     {
         "word": "delimitar",
@@ -569,7 +569,7 @@ const data = [
         "v4": "militando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_036"
+        "id": "es_proficiency_language_008"
     },
     {
         "word": "viciar",
@@ -620,7 +620,7 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_037"
+        "id": "es_proficiency_language_009"
     },
     {
         "word": "abrogar",
@@ -671,7 +671,7 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_038"
+        "id": "es_proficiency_language_010"
     },
     {
         "word": "subsumir",
@@ -697,7 +697,7 @@ const data = [
         "v4": "subsumiendo",
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_031"
+        "id": "es_proficiency_psychology_006"
     },
     {
         "word": "deconstruir",
@@ -722,7 +722,7 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "literature",
-        "id": "es_proficiency_art_culture_012"
+        "id": "es_proficiency_art_culture_003"
     },
     {
         "word": "precluir",
@@ -747,7 +747,7 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_039"
+        "id": "es_proficiency_language_011"
     },
     {
         "word": "dialectizar",
@@ -773,7 +773,7 @@ const data = [
         "v4": "dialectizando",
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_032"
+        "id": "es_proficiency_psychology_007"
     },
     {
         "word": "hegemonizar",
@@ -799,7 +799,7 @@ const data = [
         "v4": "hegemonizando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_030"
+        "id": "es_proficiency_social_004"
     },
     {
         "word": "acentuar",
@@ -850,7 +850,7 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_040"
+        "id": "es_proficiency_language_012"
     },
     {
         "word": "aliviar",
@@ -902,7 +902,7 @@ const data = [
         "v4": "eludiendo",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_041"
+        "id": "es_proficiency_language_013"
     },
     {
         "word": "corroborar",
@@ -1006,7 +1006,7 @@ const data = [
         "v4": "engendrando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_031"
+        "id": "es_proficiency_social_005"
     },
     {
         "word": "exacerbar",
@@ -1364,7 +1364,7 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_042"
+        "id": "es_proficiency_language_014"
     },
     {
         "word": "disimular",
@@ -1390,7 +1390,7 @@ const data = [
         "v4": "disimulando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_043"
+        "id": "es_proficiency_language_015"
     },
     {
         "word": "cambio de paradigma",

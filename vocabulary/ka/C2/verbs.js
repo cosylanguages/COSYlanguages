@@ -21,7 +21,9 @@
         "v2": "მოახდინა რეიფიცირება",
         "v3": "რეიფიცირებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_philosophy_logic_001"
     },
     {
         "word": "სუბლიმირება",
@@ -43,7 +45,9 @@
         "v2": "მოახდინა სუბლიმირება",
         "v3": "სუბლიმირებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_psychology_academic_001"
     },
     {
         "word": "პრედიცირება",
@@ -65,7 +69,9 @@
         "v2": "მოახდინა პრედიცირება",
         "v3": "პრედიცირებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_logic_linguistics_001"
     },
     {
         "word": "განხორციელება",
@@ -87,7 +93,9 @@
         "v2": "განახორციელა",
         "v3": "განხორციელებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_logic_computing_001"
     },
     {
         "word": "უარყოფა",
@@ -109,7 +117,9 @@
         "v2": "უარყო",
         "v3": "უარყოფილი",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_logic_debate_001"
     },
     {
         "word": "აღმატება",
@@ -131,7 +141,9 @@
         "v2": "აღემატა",
         "v3": "აღმატებული",
         "group": "i_eb",
-        "auxiliary": "ყოფნა"
+        "auxiliary": "ყოფნა",
+        "lang": "ka",
+        "id": "ka_proficiency_philosophy_general_001"
     },
     {
         "word": "მედიაცია",
@@ -153,7 +165,9 @@
         "v2": "მოახდინა მედიაცია",
         "v3": "მედიირებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_sociology_conflict_001"
     },
     {
         "word": "გამოტოვება",
@@ -175,7 +189,9 @@
         "v2": "გამოტოვა",
         "v3": "გამოტოვებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_linguistics_debate_001"
     },
     {
         "word": "დაბინდვა",
@@ -197,7 +213,9 @@
         "v2": "დაბინდა",
         "v3": "დაბინდული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_debate_communication_001"
     },
     {
         "word": "აღრევა",
@@ -219,7 +237,9 @@
         "v2": "არია",
         "v3": "არეული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_debate_academic_001"
     },
     {
         "word": "მოხმობა",
@@ -241,7 +261,9 @@
         "v2": "მოიხმო",
         "v3": "მოხმობილი",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_law_debate_001"
     },
     {
         "word": "წინ წამოწევა",
@@ -263,7 +285,9 @@
         "v2": "წამოსწია წინ",
         "v3": "წინ წამოწეული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_art_media_001"
     },
     {
         "word": "ათვისება",
@@ -285,7 +309,9 @@
         "v2": "აითვისა",
         "v3": "ათვისებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_sociology_culture_001"
     },
     {
         "word": "დესტაბილიზაცია",
@@ -307,7 +333,9 @@
         "v2": "მოახდინა დესტაბილიზაცია",
         "v3": "დესტაბილიზებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_politics_academic_001"
     },
     {
         "word": "კომოდიფიკაცია",
@@ -329,7 +357,9 @@
         "v2": "მოახდინა კომოდიფიკაცია",
         "v3": "კომოდიფიცირებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_economics_sociology_001"
     },
     {
         "word": "ინსტრუმენტალიზება",
@@ -351,7 +381,9 @@
         "v2": "მოახდინა ინსტრუმენტალიზება",
         "v3": "ინსტრუმენტალიზებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_politics_philosophy_001"
     },
     {
         "word": "ვალორიზაცია",
@@ -373,7 +405,9 @@
         "v2": "მოახდინა ვალორიზაცია",
         "v3": "ვალორიზებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_sociology_academic_001"
     },
     {
         "word": "ფეტიშიზება",
@@ -395,7 +429,9 @@
         "v2": "მოახდინა ფეტიშიზება",
         "v3": "ფეტიშიზებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_sociology_academic_002"
     },
     {
         "word": "გაუცხოება",
@@ -417,7 +453,9 @@
         "v2": "გააუცხოა",
         "v3": "გაუცხოებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_sociology_psychology_001"
     },
     {
         "word": "დემარკაცია",
@@ -439,7 +477,9 @@
         "v2": "მოახდინა დემარკაცია",
         "v3": "დემარკირებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_law_philosophy_001"
     },
     {
         "word": "შემოსაზღვრა",
@@ -461,7 +501,9 @@
         "v2": "შემოსაზღვრა",
         "v3": "შემოსაზღვრული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_academic_research_001"
     },
     {
         "word": "წინააღმდეგ მოქმედება",
@@ -483,7 +525,9 @@
         "v2": "იმოქმედა წინააღმდეგ",
         "v3": "წინააღმდეგ მოქმედი",
         "group": "i_eb",
-        "auxiliary": "ყოფნა"
+        "auxiliary": "ყოფნა",
+        "lang": "ka",
+        "id": "ka_proficiency_debate_academic_002"
     },
     {
         "word": "გაუფასურება",
@@ -505,7 +549,9 @@
         "v2": "გააუფასურა",
         "v3": "გაუფასურებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_law_academic_001"
     },
     {
         "word": "უარყოფა",
@@ -527,7 +573,9 @@
         "v2": "უარყო",
         "v3": "უარყოფილი",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_debate_logic_001"
     },
     {
         "word": "გაუქმება",
@@ -549,7 +597,9 @@
         "v2": "გააუქმა",
         "v3": "გაუქმებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_law_politics_001"
     },
     {
         "word": "დარღვევა",
@@ -571,7 +621,9 @@
         "v2": "დაარღვია",
         "v3": "დარღვეული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_law_debate_002"
     },
     {
         "word": "სუბსუმირება",
@@ -593,7 +645,9 @@
         "v2": "მოახდინა სუბსუმირება",
         "v3": "სუბსუმირებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_logic_philosophy_001"
     },
     {
         "word": "დეკონსტრუქცია",
@@ -615,7 +669,9 @@
         "v2": "მოახდინა დეკონსტრუქცია",
         "v3": "დეკონსტრუირებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_philosophy_literature_001"
     },
     {
         "word": "გამორიცხვა",
@@ -637,7 +693,9 @@
         "v2": "გამორიცხა",
         "v3": "გამორიცხული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_law_debate_003"
     },
     {
         "word": "დიალექტიზება",
@@ -659,7 +717,9 @@
         "v2": "მოახდინა დიალექტიზება",
         "v3": "დიალექტიზებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_philosophy_academic_001"
     },
     {
         "word": "ჰეგემონიზება",
@@ -681,7 +741,9 @@
         "v2": "მოახდინა ჰეგემონიზება",
         "v3": "ჰეგემონიზებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_politics_sociology_001"
     },
     {
         "word": "ხაზგასმა",
@@ -703,7 +765,9 @@
         "v2": "გაუსვა ხაზი",
         "v3": "ხაზგასმული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_001"
     },
     {
         "word": "დათანხმება",
@@ -725,7 +789,9 @@
         "v2": "დაეთანხმა",
         "v3": "დათანხმებული",
         "group": "i_eb",
-        "auxiliary": "ყოფნა"
+        "auxiliary": "ყოფნა",
+        "lang": "ka",
+        "id": "ka_proficiency_debate_communication_002"
     },
     {
         "word": "შემსუბუქება",
@@ -747,7 +813,9 @@
         "v2": "შეამსუბუქა",
         "v3": "შემსუბუქებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_policy_general_001"
     },
     {
         "word": "გვერდის ავლით",
@@ -769,7 +837,9 @@
         "v2": "აუარა გვერდი",
         "v3": "გვერდავლილი",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_debate_general_001"
     },
     {
         "word": "დადასტურება",
@@ -791,7 +861,9 @@
         "v2": "დაადასტურა",
         "v3": "დადასტურებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_academic_research_002"
     },
     {
         "word": "გავრცელება",
@@ -813,7 +885,9 @@
         "v2": "გაავრცელა",
         "v3": "გავრცელებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_academic_research_003"
     },
     {
         "word": "ასახვა",
@@ -835,7 +909,9 @@
         "v2": "ასახა",
         "v3": "ასახული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_002"
     },
     {
         "word": "გამოწვევა",
@@ -857,7 +933,9 @@
         "v2": "გამოიწვია",
         "v3": "გამოწვეული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_sociology_general_001"
     },
     {
         "word": "გამწვავება",
@@ -879,7 +957,9 @@
         "v2": "გაამწვავა",
         "v3": "გამწვავებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_003"
     },
     {
         "word": "განსახიერება",
@@ -901,7 +981,9 @@
         "v2": "განასახიერა",
         "v3": "განსახიერებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_004"
     },
     {
         "word": "შეფერხება",
@@ -923,7 +1005,9 @@
         "v2": "შეაფერხა",
         "v3": "შეფერხებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_005"
     },
     {
         "word": "შერბილება",
@@ -945,7 +1029,9 @@
         "v2": "შეარბილა",
         "v3": "შერბილებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_006"
     },
     {
         "word": "ვალდებულება",
@@ -967,7 +1053,9 @@
         "v2": "დაავალდებულა",
         "v3": "დავალდებულებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_law_general_001"
     },
     {
         "word": "გამსჭვალვა",
@@ -989,7 +1077,9 @@
         "v2": "განმსჭვალა",
         "v3": "განმსჭვალული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_007"
     },
     {
         "word": "გამორიცხვა",
@@ -1011,7 +1101,9 @@
         "v2": "გამორიცხა",
         "v3": "გამორიცხული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_008"
     },
     {
         "word": "შერიგება",
@@ -1033,7 +1125,9 @@
         "v2": "შეარიგა",
         "v3": "შერიგებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_009"
     },
     {
         "word": "ჩანაცვლება",
@@ -1055,7 +1149,9 @@
         "v2": "ჩაანაცვლა",
         "v3": "ჩანაცვლებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_law_academic_002"
     },
     {
         "word": "საფუძვლის ჩაყრა",
@@ -1077,7 +1173,9 @@
         "v2": "ჩაუყარა საფუძველი",
         "v3": "საფუძველჩაყრილი",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_010"
     },
     {
         "word": "გამართლება",
@@ -1099,7 +1197,9 @@
         "v2": "გაამართლა",
         "v3": "გამართლებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_011"
     },
     {
         "word": "დამოკიდებულება",
@@ -1121,7 +1221,9 @@
         "v2": "იყო დამოკიდებული",
         "v3": "დამოკიდებული",
         "group": "i_eb",
-        "auxiliary": "ყოფნა"
+        "auxiliary": "ყოფნა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_012"
     },
     {
         "word": "ჭიდილი",
@@ -1143,7 +1245,9 @@
         "v2": "ეჭიდავა",
         "v3": "ნაჭიდავი",
         "group": "i_eb",
-        "auxiliary": "ყოფნა"
+        "auxiliary": "ყოფნა",
+        "lang": "ka",
+        "id": "ka_proficiency_general_academic_013"
     },
     {
         "word": "ზედაპირულად განხილვა",
@@ -1165,7 +1269,9 @@
         "v2": "ზედაპირულად განიხილა",
         "v3": "ზედაპირულად განხილული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_debate_academic_003"
     },
     {
         "word": "მიჩუმათება",
@@ -1187,7 +1293,9 @@
         "v2": "მიჩუმათა",
         "v3": "მიჩუმათებული",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_debate_politics_001"
     },
     {
         "word": "პარადაგმის შეცვლა",
@@ -1209,7 +1317,9 @@
         "v2": "შეცვალა პარადიგმა",
         "v3": "პარადიგმაშეცვლილი",
         "group": "i_eb",
-        "auxiliary": "ყოლა"
+        "auxiliary": "ყოლა",
+        "lang": "ka",
+        "id": "ka_proficiency_academic_general_001"
     }
 ];
     const lang = "ka";
