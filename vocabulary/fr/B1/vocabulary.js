@@ -1129,7 +1129,7 @@
         "word": "bibliothèque",
         "lang": "fr",
         "level": "intermediate",
-        "theme": "travel",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -1152,7 +1152,7 @@
         "word": "musée",
         "lang": "fr",
         "level": "intermediate",
-        "theme": "travel",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -1175,7 +1175,7 @@
         "word": "armoire",
         "lang": "fr",
         "level": "intermediate",
-        "theme": "home_living",
+        "theme": "furniture",
         "form": "noun",
         "definitions": [
             {
@@ -1198,7 +1198,7 @@
         "word": "éléphant",
         "lang": "fr",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "animals",
         "form": "noun",
         "definitions": [
             {
@@ -1221,7 +1221,7 @@
         "word": "singe",
         "lang": "fr",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "animals",
         "form": "noun",
         "definitions": [
             {
@@ -1244,7 +1244,7 @@
         "word": "algorithme",
         "lang": "fr",
         "level": "intermediate",
-        "theme": "science_tech",
+        "theme": "technology",
         "form": "noun",
         "definitions": [
             {
@@ -1261,16 +1261,6 @@
             "classification": "regular",
             "plural": "algorithmes"
         }
-    },
-    {
-        "id": "fr_intermediate_social_131",
-        "lang": "fr",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "noun",
-        "definitions": [],
-        "transcription": "-",
-        "emoji": "❓"
     }
 ];
 })();

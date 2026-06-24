@@ -87,7 +87,7 @@
         "word": "sushi",
         "lang": "en",
         "level": "intermediate",
-        "theme": "social",
+        "theme": "food_drink",
         "form": "noun",
         "definitions": [
             {
@@ -117,7 +117,7 @@
         "word": "pancake",
         "lang": "en",
         "level": "intermediate",
-        "theme": "social",
+        "theme": "food_drink",
         "form": "noun",
         "definitions": [
             {
@@ -147,7 +147,7 @@
         "word": "carrot",
         "lang": "en",
         "level": "intermediate",
-        "theme": "social",
+        "theme": "food_drink",
         "form": "noun",
         "definitions": [
             {
@@ -178,7 +178,7 @@
         "word": "milkshake",
         "lang": "en",
         "level": "intermediate",
-        "theme": "social",
+        "theme": "food_drink",
         "form": "noun",
         "definitions": [
             {
@@ -2458,16 +2458,6 @@
         "_legacy": {
             "subtext": "be in favour of, vote in favour of"
         }
-    },
-    {
-        "id": "en_intermediate_social_096",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "noun",
-        "definitions": [],
-        "transcription": "-",
-        "emoji": "❓"
     }
 ];
 })();

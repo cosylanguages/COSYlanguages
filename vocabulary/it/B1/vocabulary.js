@@ -1155,7 +1155,7 @@
         "word": "biblioteca",
         "lang": "it",
         "level": "intermediate",
-        "theme": "travel",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -1178,7 +1178,7 @@
         "word": "museo",
         "lang": "it",
         "level": "intermediate",
-        "theme": "travel",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -1224,7 +1224,7 @@
         "word": "armadio",
         "lang": "it",
         "level": "intermediate",
-        "theme": "home_living",
+        "theme": "furniture",
         "form": "noun",
         "definitions": [
             {
@@ -1247,7 +1247,7 @@
         "word": "elefante",
         "lang": "it",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "animals",
         "form": "noun",
         "definitions": [
             {
@@ -1270,7 +1270,7 @@
         "word": "scimmia",
         "lang": "it",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "animals",
         "form": "noun",
         "definitions": [
             {
@@ -1287,16 +1287,6 @@
             "classification": "regular",
             "plural": "scimmie"
         }
-    },
-    {
-        "id": "it_intermediate_social_072",
-        "lang": "it",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "noun",
-        "definitions": [],
-        "transcription": "-",
-        "emoji": "❓"
     }
 ];
 })();

@@ -1124,7 +1124,7 @@
         "word": "библиотека",
         "lang": "ru",
         "level": "intermediate",
-        "theme": "travel",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -1147,7 +1147,7 @@
         "word": "музей",
         "lang": "ru",
         "level": "intermediate",
-        "theme": "travel",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -1193,7 +1193,7 @@
         "word": "шкаф",
         "lang": "ru",
         "level": "intermediate",
-        "theme": "home_living",
+        "theme": "furniture",
         "form": "noun",
         "definitions": [
             {
@@ -1216,7 +1216,7 @@
         "word": "слон",
         "lang": "ru",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "animals",
         "form": "noun",
         "definitions": [
             {
@@ -1239,7 +1239,7 @@
         "word": "обезьяна",
         "lang": "ru",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "animals",
         "form": "noun",
         "definitions": [
             {
@@ -1256,16 +1256,6 @@
             "classification": "regular",
             "plural": "обезьяны"
         }
-    },
-    {
-        "id": "ru_intermediate_social_042",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "noun",
-        "definitions": [],
-        "transcription": "-",
-        "emoji": "❓"
     }
 ];
 })();
