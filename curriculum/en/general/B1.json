@@ -1,1 +1,32 @@
-{"language":"en","course_type":"general","level":"B1","units":[]}
+{
+  "language": "en",
+  "course_type": "general",
+  "level": "B1",
+  "units": [
+    {
+      "id": "en_b1_unit1",
+      "title": "Work & Career",
+      "themes": ["work"]
+    },
+    {
+      "id": "en_b1_unit2",
+      "title": "Health & Wellbeing",
+      "themes": ["health_medicine"]
+    },
+    {
+      "id": "en_b1_unit3",
+      "title": "Society & Equality",
+      "themes": ["social", "people"]
+    },
+    {
+      "id": "en_b1_unit4",
+      "title": "Our Environment",
+      "themes": ["environment", "nature"]
+    },
+    {
+      "id": "en_b1_unit5",
+      "title": "Travel & Urban Life",
+      "themes": ["travel", "places"]
+    }
+  ]
+}

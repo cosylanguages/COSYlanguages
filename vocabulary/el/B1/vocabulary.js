@@ -1095,7 +1095,7 @@
         "word": "βιβλιοθήκη",
         "lang": "el",
         "level": "intermediate",
-        "theme": "travel",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -1118,7 +1118,7 @@
         "word": "μουσείο",
         "lang": "el",
         "level": "intermediate",
-        "theme": "travel",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -1164,7 +1164,7 @@
         "word": "ντουλάπα",
         "lang": "el",
         "level": "intermediate",
-        "theme": "home_living",
+        "theme": "furniture",
         "form": "noun",
         "definitions": [
             {
@@ -1187,7 +1187,7 @@
         "word": "ελέφαντας",
         "lang": "el",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "animals",
         "form": "noun",
         "definitions": [
             {
@@ -1210,7 +1210,7 @@
         "word": "μαϊμού",
         "lang": "el",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "animals",
         "form": "noun",
         "definitions": [
             {
@@ -1227,16 +1227,6 @@
             "classification": "regular",
             "plural": "μαϊμούδες"
         }
-    },
-    {
-        "id": "el_intermediate_social_079",
-        "lang": "el",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "noun",
-        "definitions": [],
-        "transcription": "-",
-        "emoji": "❓"
     }
 ];
 })();
