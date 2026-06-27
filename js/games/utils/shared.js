@@ -565,7 +565,9 @@
     };
 
     async function loadLevelData(lang, level) {
-        if (window.COSY && window.COSY.loadLanguageData) await window.COSY.loadLanguageData(lang, level);
+        // Ensure level is full ID
+        const lid = window.getLevelCode(level);
+        if (window.COSY && window.COSY.loadLanguageData) await window.COSY.loadLanguageData(lang, lid);
         if (window.location.pathname.includes('/games/')) {
             const prefix = (window.COSY && window.COSY.getPrefix) ? window.COSY.getPrefix() : '../';
             const l = window.getLangCode(lang);
@@ -580,63 +582,101 @@
         }
     }
 
-    function getGameData(targetLang) {
-        const lang = targetLang || localStorage.getItem('language') || 'en';
-        const enData = window.gameData?.['en'] || { fluency: [], opinions: [], battle: [], critic: [] };
-        const langData = window.gameData?.[lang] || { fluency: [], opinions: [], battle: [], critic: [] };
-
-        const isEnglishFallback = (lang === 'en' || !window.gameData?.[lang]);
-
-        if (langData.opinion && !langData.opinions) langData.opinions = langData.opinion;
-
-        const getPool = (key) => {
-            const pool = langData[key];
-            if (Array.isArray(pool) && pool.length > 0) return JSON.parse(JSON.stringify(pool));
-            if (langData[key] && !Array.isArray(pool) && Object.keys(pool).length > 0) return JSON.parse(JSON.stringify(pool));
-            return JSON.parse(JSON.stringify(enData[key] || []));
-        };
+    /**
+     * Retrieves game data for a specific language and level.
+     * Respects the "only this language and this level" requirement.
+     */
+    function getGameData(targetLang, targetLevel) {
+        // Force the target language, do not fallback to 'en' globally if a language is specified
+        const lang = targetLang || 'en';
+        const level = targetLevel ? window.getLevelCode(targetLevel) : 'all';
 
         const data = {
-            fluency: getPool('fluency'), opinions: getPool('opinions'), battle: getPool('battle'),
-            critic: getPool('critic'), action: getPool('action'), identity: getPool('identity'),
-            wordlinker: getPool('wordlinker'), etymology: getPool('etymology'), storychain: getPool('storychain')
+            fluency: [], opinions: [], battle: [], critic: [],
+            action: {}, identity: [], wordlinker: [], etymology: [], storychain: []
         };
 
+        // 1. Load basic game data from window.gameData (hardcoded pools)
+        if (window.gameData && window.gameData[lang]) {
+            const ld = window.gameData[lang];
+            ['fluency', 'opinions', 'battle', 'critic', 'identity', 'wordlinker', 'etymology', 'storychain'].forEach(k => {
+                const pool = ld[k] || ld[k.replace(/s$/, '')]; // Handle singular/plural
+                if (Array.isArray(pool)) {
+                    // Only use data that matches the selected level if level filtering is required
+                    if (level !== 'all' && k === 'action') {
+                        // Action Hero is often level-keyed internally
+                    } else if (level !== 'all') {
+                        // Standard arrays might need item-level check if available
+                        data[k] = JSON.parse(JSON.stringify(pool)).filter(item => !item.level || window.getLevelCode(item.level) === level);
+                    } else {
+                        data[k] = JSON.parse(JSON.stringify(pool));
+                    }
+                }
+            });
+            if (ld.action) data.action = JSON.parse(JSON.stringify(ld.action));
+        }
+
+        // 2. Merge specialized data from window.speakingData (modern speaking tasks)
         const s = window.speakingData?.[lang] || {};
         const extractText = (item) => typeof item === 'string' ? item : (item.topic || item.text || item.t || item.word || '');
+
         const mergeSpecialized = (key, specializedArray) => {
             if (!specializedArray || specializedArray.length === 0) return;
-            const items = specializedArray.map(item => ['battle', 'fluency', 'opinions', 'critic'].includes(key) ? item : extractText(item));
+
+            const filtered = specializedArray.filter(item => {
+                if (level === 'all') return true;
+                if (!item.level) return true;
+                return window.getLevelCode(item.level) === level;
+            });
+
+            if (filtered.length === 0) return;
+            const items = filtered.map(item => ['battle', 'fluency', 'opinions', 'critic'].includes(key) ? item : extractText(item));
+
+            // Merge into current data pool for the target language
             data[key] = [...(data[key] || []), ...items];
         };
-        mergeSpecialized('fluency', s.talkThatTalk); mergeSpecialized('opinions', s.opinions);
-        mergeSpecialized('battle', s.debates); mergeSpecialized('critic', s.quotes);
 
-        let vocab = (window.vocabularyData && window.vocabularyData[lang]) ? [...window.vocabularyData[lang]] : [];
+        mergeSpecialized('fluency', [...(s.talkThatTalk || []), ...(s.fluency || []), ...(s.talk_that_talk || [])]);
+        mergeSpecialized('opinions', [...(s.opinions || []), ...(s.opinionArena || []), ...(s.opinion_arena || [])]);
+        mergeSpecialized('battle', [...(s.debates || []), ...(s.battleOfWits || []), ...(s.battle_of_wits || [])]);
+        mergeSpecialized('critic', [...(s.quotes || []), ...(s.criticsCorner || []), ...(s.critics_corner || [])]);
+
+        // 3. Enrichment from vocabulary pool
+        // Strictly use the vocabulary for the target language
+        let vocabPool = (window.vocabularyData && window.vocabularyData[lang]) ? [...window.vocabularyData[lang]] : [];
         if (window.phrasesData && window.phrasesData[lang]) {
             Object.values(window.phrasesData[lang]).flat().forEach(p => {
-                vocab.push({ word: p.phrase, definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
+                vocabPool.push({ word: p.phrase, definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms', level: p.level || 'starter' });
             });
         }
-        if (vocab.length > 0) {
-            const professions = vocab.filter(v => v.theme && v.theme.includes('professions')).map(v => ({
+
+        // Apply level filter to the enrichment pool
+        const filteredVocab = level === 'all' ? vocabPool : vocabPool.filter(v => {
+            if (!v.level) return true; // Include if level is missing (assume relevant)
+            return window.getLevelCode(v.level) === level;
+        });
+
+        if (filteredVocab.length > 0) {
+            const professions = filteredVocab.filter(v => v.theme && v.theme.includes('professions')).map(v => ({
                 person: (v.article ? v.article + ' ' : '') + v.word,
                 clue: v.definitions && v.definitions[0] ? v.definitions[0].text : ''
             }));
             if (professions.length > 5) {
-                if (isEnglishFallback) data.identity = professions;
-                else data.identity = [...(data.identity || []), ...professions];
+                data.identity = [...(data.identity || []), ...professions];
             }
-            const themes = { 'A1': ['animals', 'home', 'food', 'nature'], 'A2': ['local_places', 'education', 'hobbies'], 'B1': ['workplace', 'shopping', 'transport'], 'B2': ['culture', 'abstract', 'society'] };
+            const themes = { 'A1': ['animals', 'home', 'food', 'nature'], 'A2': ['places', 'education', 'hobbies'], 'B1': ['work', 'shopping', 'transport'], 'B2': ['art', 'social', 'society'] };
             for (let lvl in themes) {
-                const words = vocab.filter(v => themes[lvl].some(t => v.theme && v.theme.includes(t))).map(v => v.word);
-                if (words.length > 10) {
+                // If we are looking for a specific level, only enrich from that theme set
+                if (level !== 'all' && window.getLevelCode(lvl) !== level) continue;
+
+                const words = filteredVocab.filter(v => themes[lvl].some(t => v.theme && v.theme.includes(t))).map(v => v.word);
+                if (words.length > 5) {
                     if (!data.action) data.action = {};
-                    if (isEnglishFallback) data.action[lvl] = words;
-                    else data.action[lvl] = [...(data.action[lvl] || []), ...words];
+                    const shortLvl = window.getLevelCode(lvl, 'short');
+                    data.action[shortLvl] = [...(data.action[shortLvl] || []), ...words];
                 }
             }
-            const etymVocab = vocab.filter(v => v.etymology).map(v => {
+            const etymVocab = filteredVocab.filter(v => v.etymology).map(v => {
                 if (typeof v.etymology === 'object') {
                     const answer = v.etymology.origin_lang;
                     const options = [answer, 'Germanic', 'Latin', 'Greek', 'French', 'Arabic', 'Italian'].filter((val, index, self) => self.indexOf(val) === index);
