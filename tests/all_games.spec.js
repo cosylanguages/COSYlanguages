@@ -8,7 +8,7 @@ const games = [
     { id: 'fluency', title: 'Fluency Flow', setupText: 'Duration', levels: true },
     { id: 'battle', title: 'Battle of Wits', setupText: 'Language', levels: true },
     { id: 'opinion', title: 'Opinion Arena', setupText: 'Language', levels: true },
-    { id: 'critic', title: "Critic's Corner", setupText: 'Language', levels: true, minLevel: 'Intermediate (B1)' },
+    { id: 'critic', title: "Critic's Corner", setupText: 'Language', levels: true, minLevel: 'Upper-Intermediate (B2)' },
     { id: 'storychain', title: 'Story Chain', setupText: 'Language', levels: true },
     { id: 'hotseat', title: 'Hot Seat', setupText: 'Language', levels: true },
     { id: 'action', title: 'Action Hero', setupText: 'Category', levels: true, categories: ['Verbs 🏃‍♂️', 'Animals & Nature 🐾'] },
