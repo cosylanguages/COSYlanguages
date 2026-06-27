@@ -495,12 +495,6 @@
         return false;
     };
 
-    function toFullLevelId(val) {
-      const byShort = (window.COSY_LEVELS || []).find(l => l.short === val.toUpperCase());
-      if (byShort) return byShort.id;
-      return val.toLowerCase().replace(/-/g, '_');
-    }
-
     function filterVocabulary(entries, { lang, level, theme, subTheme, category, strict }) {
         const categoryToForm = {
             'Vocabulary': (strict && category === 'Vocabulary') ? ['noun', 'adjective'] : ['noun', 'adjective', 'other'],
@@ -509,17 +503,12 @@
             'Pronunciation': ['pronunciation']
         };
         const targetForms = categoryToForm[category];
-        const levelId = (level && level !== "all") ? (typeof window.levelShortToId === 'function' ? window.levelShortToId(level) : level) : "all";
+        const levelId = (level && level !== "all") ? window.getLevelCode(level) : "all";
+
         return entries.filter(entry => {
             if (lang && entry.language && entry.language.toLowerCase() !== lang.toLowerCase()) if (!entry.lang || entry.lang.toLowerCase() !== lang.toLowerCase()) return false;
-            if (levelId && levelId !== 'all' && entry.level) {
-                const eLevel = entry.level.toLowerCase();
-                const tLevel = levelId.toLowerCase();
-                if (eLevel !== tLevel) {
-                    const eId = (typeof window.levelShortToId === 'function') ? window.levelShortToId(eLevel) : eLevel;
-                    const tId = (typeof window.levelShortToId === 'function') ? window.levelShortToId(tLevel) : tLevel;
-                    if (eId !== tId) return false;
-                }
+            if (levelId && levelId !== 'all') {
+                if (!entry.level || window.getLevelCode(entry.level) !== levelId) return false;
             }
             if (category && targetForms && entry.form && !targetForms.includes(entry.form)) return false;
             if (theme && theme !== 'all' && !isThemeMatch(entry.theme, theme)) return false;
@@ -533,11 +522,11 @@
       if (!options.excludeExtra) keys.push('locationsData', 'peopleData');
       let pool = [];
       keys.forEach(key => { if (window[key] && window[key][lang]) pool = pool.concat(window[key][lang]); });
-      const norm = v => v.toLowerCase().replace(/-/g, '_');
-      const normalizedLevel = (level && level !== 'all') ? toFullLevelId(level) : 'all';
+      const normalizedLevel = (level && level !== 'all') ? window.getLevelCode(level) : 'all';
+
       return pool.filter(item => {
         if (lang && item.language && item.language.toLowerCase() !== lang.toLowerCase()) if (!item.lang || item.lang.toLowerCase() !== lang.toLowerCase()) return false;
-        const levelMatch = normalizedLevel === 'all' || (item.level && norm(item.level) === normalizedLevel);
+        const levelMatch = normalizedLevel === 'all' || (item.level && window.getLevelCode(item.level) === normalizedLevel);
         const themeMatch = isThemeMatch(item.theme, theme);
         const subThemeMatch = !subTheme || subTheme === 'all' || (item.sub_theme && item.sub_theme === subTheme);
         return levelMatch && themeMatch && subThemeMatch;
@@ -587,8 +576,8 @@
      * Respects the "only this language and this level" requirement.
      */
     function getGameData(targetLang, targetLevel) {
-        // Force the target language, do not fallback to 'en' globally if a language is specified
-        const lang = targetLang || 'en';
+        // Use provided targetLang, otherwise default to current language or English
+        const lang = targetLang || window.getLangCode();
         const level = targetLevel ? window.getLevelCode(targetLevel) : 'all';
 
         const data = {
@@ -602,12 +591,12 @@
             ['fluency', 'opinions', 'battle', 'critic', 'identity', 'wordlinker', 'etymology', 'storychain'].forEach(k => {
                 const pool = ld[k] || ld[k.replace(/s$/, '')]; // Handle singular/plural
                 if (Array.isArray(pool)) {
-                    // Only use data that matches the selected level if level filtering is required
-                    if (level !== 'all' && k === 'action') {
-                        // Action Hero is often level-keyed internally
-                    } else if (level !== 'all') {
-                        // Standard arrays might need item-level check if available
-                        data[k] = JSON.parse(JSON.stringify(pool)).filter(item => !item.level || window.getLevelCode(item.level) === level);
+                    // Only use data that matches the selected level
+                    if (level !== 'all') {
+                        data[k] = JSON.parse(JSON.stringify(pool)).filter(item => {
+                            if (!item.level) return true; // Keep "universal" items (strings or objects without level)
+                            return window.getLevelCode(item.level) === level;
+                        });
                     } else {
                         data[k] = JSON.parse(JSON.stringify(pool));
                     }
@@ -646,54 +635,72 @@
         let vocabPool = (window.vocabularyData && window.vocabularyData[lang]) ? [...window.vocabularyData[lang]] : [];
         if (window.phrasesData && window.phrasesData[lang]) {
             Object.values(window.phrasesData[lang]).flat().forEach(p => {
-                vocabPool.push({ word: p.phrase, definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms', level: p.level || 'starter' });
+                vocabPool.push({
+                    word: p.phrase,
+                    definitions: [{ text: p.definition }],
+                    examples: [{ text: p.example }],
+                    theme: 'phrases_idioms',
+                    level: p.level || 'starter'
+                });
             });
         }
 
         // Apply level filter to the enrichment pool
         const filteredVocab = level === 'all' ? vocabPool : vocabPool.filter(v => {
-            if (!v.level) return true; // Include if level is missing (assume relevant)
+            if (!v.level) return false; // Vocab items SHOULD have a level
             return window.getLevelCode(v.level) === level;
         });
 
         if (filteredVocab.length > 0) {
-            const professions = filteredVocab.filter(v => v.theme && v.theme.includes('professions')).map(v => ({
+            const professions = filteredVocab.filter(v => v.theme && (v.theme.includes('professions') || v.theme.includes('job'))).map(v => ({
                 person: (v.article ? v.article + ' ' : '') + v.word,
-                clue: v.definitions && v.definitions[0] ? v.definitions[0].text : ''
+                clue: v.definitions && v.definitions[0] ? v.definitions[0].text : '',
+                level: v.level
             }));
-            if (professions.length > 5) {
+            if (professions.length > 0) {
                 data.identity = [...(data.identity || []), ...professions];
             }
+
             const themes = { 'A1': ['animals', 'home', 'food', 'nature'], 'A2': ['places', 'education', 'hobbies'], 'B1': ['work', 'shopping', 'transport'], 'B2': ['art', 'social', 'society'] };
             for (let lvl in themes) {
                 // If we are looking for a specific level, only enrich from that theme set
                 if (level !== 'all' && window.getLevelCode(lvl) !== level) continue;
 
                 const words = filteredVocab.filter(v => themes[lvl].some(t => v.theme && v.theme.includes(t))).map(v => v.word);
-                if (words.length > 5) {
+                if (words.length > 0) {
                     if (!data.action) data.action = {};
                     const shortLvl = window.getLevelCode(lvl, 'short');
                     data.action[shortLvl] = [...(data.action[shortLvl] || []), ...words];
                 }
             }
+
             const etymVocab = filteredVocab.filter(v => v.etymology).map(v => {
+                let answer = 'Unknown', path = '', detail = '';
                 if (typeof v.etymology === 'object') {
-                    const answer = v.etymology.origin_lang;
-                    const options = [answer, 'Germanic', 'Latin', 'Greek', 'French', 'Arabic', 'Italian'].filter((val, index, self) => self.indexOf(val) === index);
-                    while (options.length < 4) options.push('Unknown');
-                    let path = `${v.etymology.origin_word || v.word} (${v.etymology.origin_lang})`;
+                    answer = v.etymology.origin_lang || 'Unknown';
+                    path = `${v.etymology.origin_word || v.word} (${answer})`;
                     if (v.etymology.entered_via) path = `${path} via ${v.etymology.entered_via}`;
-                    return { word: v.word, answer: answer, options: options.slice(0, 4).sort(() => Math.random() - 0.5), level: 'easy', path: path, detail: v.etymology.origin_meaning ? `Originally meaning "${v.etymology.origin_meaning}".` : `Traceable to ${answer} roots.` };
-                }
-                const parts = v.etymology.split(' → ');
-                let answer = 'Unknown';
-                for (let i = parts.length - 1; i >= 0; i--) {
-                    const match = parts[i].match(/\(([^)]+)\)/);
-                    if (match) { answer = match[1].split(/[/?]/)[0].trim(); break; }
+                    detail = v.etymology.origin_meaning ? `Originally meaning "${v.etymology.origin_meaning}".` : `Traceable to ${answer} roots.`;
+                } else {
+                    const parts = v.etymology.split(' → ');
+                    for (let i = parts.length - 1; i >= 0; i--) {
+                        const match = parts[i].match(/\(([^)]+)\)/);
+                        if (match) { answer = match[1].split(/[/?]/)[0].trim(); break; }
+                    }
+                    path = v.etymology;
+                    detail = `Traceable to ${answer} roots.`;
                 }
                 const options = [answer, 'Germanic', 'Latin', 'Greek', 'French', 'Arabic', 'Italian'].filter((val, index, self) => self.indexOf(val) === index);
                 while (options.length < 4) options.push('Unknown');
-                return { word: v.word, answer: answer, options: options.slice(0, 4).sort(() => Math.random() - 0.5), level: 'easy', path: v.etymology, detail: `Traceable to ${answer} roots.` };
+
+                return {
+                    word: v.word,
+                    answer: answer,
+                    options: options.slice(0, 4).sort(() => Math.random() - 0.5),
+                    level: v.level, // Use actual level from vocab
+                    path: path,
+                    detail: detail
+                };
             });
             if (etymVocab.length > 0) data.etymology = [...(data.etymology || []), ...etymVocab];
         }

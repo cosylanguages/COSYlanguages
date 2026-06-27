@@ -793,7 +793,7 @@
             if (pool.length < 5) {
                 // Fallback to legacy action data (already level-keyed in game_data.js)
                 const shortLvl = window.getLevelCode(level, 'short');
-                pool = (data.action && data.action[shortLvl]) ? data.action[shortLvl] : (data.action ? (data.action['B2'] || data.action['A2']) : ['...']);
+                pool = (data.action && data.action[shortLvl]) ? data.action[shortLvl] : [];
             }
 
             if (pool.length === 0 || (pool.length === 1 && pool[0] === '...')) {
@@ -1113,9 +1113,13 @@
             await loadLevelData(lang, level);
             const data = getGameData(lang, level);
             let story = [], pool = data.storychain || [];
-            const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
-            if (pool.length === 0 && vocab.length > 10) pool = vocab.map(v => v.word);
-            if (pool.length === 0) pool = (data.action ? Object.values(data.action).flat() : []);
+            const vocab = ((window.vocabularyData && window.vocabularyData[lang]) || [])
+                .filter(v => window.getLevelCode(v.level) === level);
+            if (pool.length === 0 && vocab.length > 5) pool = vocab.map(v => v.word);
+            if (pool.length === 0) {
+                const shortLvl = window.getLevelCode(level, 'short');
+                pool = (data.action && data.action[shortLvl]) ? data.action[shortLvl] : [];
+            }
 
             if (pool.length === 0) {
                 renderNoContent('storychain', lang, level);
@@ -1408,7 +1412,7 @@
             const body = document.getElementById('go-body');
             const type = document.getElementById('s-type')?.value || 'Bingo 1 (0-9)';
             const lang = getLangCode(document.getElementById('s-lang')?.value);
-            const level = 'starter';
+            const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
 
             const isListening = type.includes('Listening');
