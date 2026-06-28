@@ -219,13 +219,14 @@
                 <select class="styled-sel" id="s-cat">
                   <option value="all">All vocabulary</option>
                   <option value="verbs">Verbs 🏃‍♂️</option>
-                  <option value="group:environment_nature">Animals & Nature 🐾</option>
+                  <option value="group:animals">Animals 🐾</option>
+                  <option value="group:nature">Nature 🌿</option>
                   <option value="group:food_drink">Food & Drink 🍕</option>
-                  <option value="group:places_geography">Places & Geography 🌍</option>
-                  <option value="group:home_living">Home & Objects 🏠</option>
-                  <option value="group:clothes_appearance">Clothes & Appearance 👕</option>
-                  <option value="group:health_body">Health & Body 🏥</option>
-                  <option value="group:sport_leisure">Sport & Leisure ⚽</option>
+                  <option value="group:places">Places & Geography 🌍</option>
+                  <option value="group:furniture">Home & Objects 🏠</option>
+                  <option value="group:clothes">Clothes & Appearance 👕</option>
+                  <option value="group:body">Body & Health 🦷</option>
+                  <option value="group:sports">Sport & Leisure ⚽</option>
                 </select>
               </div>
               <div class="setup-field"><label>Level</label>
@@ -330,12 +331,13 @@
               <div class="setup-field"><label>Category</label>
                 <select class="styled-sel" id="s-cat">
                   <option value="all">All objects</option>
-                  <option value="group:environment_nature">Animals & Nature 🐾</option>
+                  <option value="group:animals">Animals 🐾</option>
+                  <option value="group:nature">Nature 🌿</option>
                   <option value="group:food_drink">Food & Drink 🍕</option>
-                  <option value="group:places_geography">Places & Geography 🌍</option>
-                  <option value="group:home_living">Home & Gadgets 🏠</option>
-                  <option value="group:clothes_appearance">Clothes & Accessories 👕</option>
-                  <option value="group:health_body">Body Parts & Health 🏥</option>
+                  <option value="group:places">Places & Geography 🌍</option>
+                  <option value="group:furniture">Home & Gadgets 🏠</option>
+                  <option value="group:clothes">Clothes & Accessories 👕</option>
+                  <option value="group:body">Body Parts & Health 🦷</option>
                 </select>
               </div>
               <div class="setup-field"><label>Level</label>

@@ -661,7 +661,7 @@
                 data.identity = [...(data.identity || []), ...professions];
             }
 
-            const themes = { 'A1': ['animals', 'home', 'food', 'nature'], 'A2': ['places', 'education', 'hobbies'], 'B1': ['work', 'shopping', 'transport'], 'B2': ['art', 'social', 'society'] };
+            const themes = { 'A1': ['animals', 'furniture', 'food_drink', 'nature'], 'A2': ['places', 'school', 'social'], 'B1': ['work', 'shopping', 'travel'], 'B2': ['art_culture', 'social', 'people'] };
             for (let lvl in themes) {
                 // If we are looking for a specific level, only enrich from that theme set
                 if (level !== 'all' && window.getLevelCode(lvl) !== level) continue;
@@ -685,24 +685,72 @@
                     const parts = v.etymology.split(' → ');
                     for (let i = parts.length - 1; i >= 0; i--) {
                         const match = parts[i].match(/\(([^)]+)\)/);
-                        if (match) { answer = match[1].split(/[/?]/)[0].trim(); break; }
+                        if (match) {
+                            answer = match[1].split(/[/?]/)[0].trim();
+                            answer = answer.replace(/[?.!]$/, '');
+                            break;
+                        }
                     }
                     path = v.etymology;
-                    detail = `Traceable to ${answer} roots.`;
+                    detail = (answer !== 'Unknown') ? `Traceable to ${answer} roots.` : `Fascinating word history.`;
                 }
-                const options = [answer, 'Germanic', 'Latin', 'Greek', 'French', 'Arabic', 'Italian'].filter((val, index, self) => self.indexOf(val) === index);
+
+                const common = ['Germanic', 'Latin', 'Greek', 'French', 'Arabic', 'Italian', 'Sanskrit', 'Old Norse', 'Persian'];
+                let options = [...new Set([answer, ...common.filter(l => l !== answer).sort(() => Math.random() - 0.5).slice(0, 3)])];
                 while (options.length < 4) options.push('Unknown');
 
                 return {
                     word: v.word,
                     answer: answer,
-                    options: options.slice(0, 4).sort(() => Math.random() - 0.5),
-                    level: v.level, // Use actual level from vocab
+                    options: options.sort(() => Math.random() - 0.5),
+                    level: v.level,
                     path: path,
                     detail: detail
                 };
-            });
+            }).filter(item => item.answer !== 'Unknown');
+
             if (etymVocab.length > 0) data.etymology = [...(data.etymology || []), ...etymVocab];
+
+            // 3.4. Word Linker (Odd One Out / Association) Enrichment
+            // Group filtered vocab by theme to create logical sets
+            if (data.wordlinker.length === 0) {
+                const themeGroups = {};
+                filteredVocab.forEach(v => {
+                    if (!v.theme) return;
+                    if (!themeGroups[v.theme]) themeGroups[v.theme] = [];
+                    themeGroups[v.theme].push(v.word);
+                });
+
+                const themesWithEnoughWords = Object.keys(themeGroups).filter(th => themeGroups[th].length >= 3);
+                if (themesWithEnoughWords.length >= 2) {
+                    const sets = [];
+                    // Create 5 Association sets (4 same theme, odd:'none')
+                    themesWithEnoughWords.slice(0, 5).forEach(th => {
+                        const words = [...themeGroups[th]].sort(() => Math.random() - 0.5).slice(0, 4);
+                        if (words.length === 4) {
+                            sets.push({ words, odd: 'none', link: th.replace(/_/g, ' '), oddReason: 'All belong to the same category' });
+                        }
+                    });
+                    // Create 5 Odd One Out sets (3 same theme + 1 diff theme)
+                    for (let i = 0; i < 5; i++) {
+                        const mainTheme = themesWithEnoughWords[Math.floor(Math.random() * themesWithEnoughWords.length)];
+                        const otherTheme = themesWithEnoughWords.find(th => th !== mainTheme);
+                        if (!mainTheme || !otherTheme) continue;
+
+                        const triplet = [...themeGroups[mainTheme]].sort(() => Math.random() - 0.5).slice(0, 3);
+                        const oddOne = themeGroups[otherTheme][Math.floor(Math.random() * themeGroups[otherTheme].length)];
+                        if (triplet.length === 3 && oddOne) {
+                            sets.push({
+                                words: [...triplet, oddOne].sort(() => Math.random() - 0.5),
+                                odd: oddOne,
+                                link: mainTheme.replace(/_/g, ' '),
+                                oddReason: `${oddOne} belongs to ${otherTheme.replace(/_/g, ' ')}`
+                            });
+                        }
+                    }
+                    data.wordlinker = sets;
+                }
+            }
         }
         return data;
     }
