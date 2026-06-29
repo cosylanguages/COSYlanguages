@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Power of Habits — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .session-hero { padding: 4rem 2rem; text-align: center; color: white; margin-bottom: 2rem; }
+  .session-hero .club-tag { display: inline-block; padding: 0.3rem 0.8rem; border-radius: 20px; background: rgba(255,255,255,0.2); font-size: 0.8rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .session-hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 0.5rem; line-height: 1.1; }
+  .session-hero .session-date { font-size: 1.1rem; opacity: 0.8; font-weight: 300; }
+
+  .content-container { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem 5rem; }
+
+  .back-link { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; transition: color 0.2s; }
+  .back-link:hover { color: var(--ink); }
+
+  .session-meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; background: var(--warm-white); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); }
+  .meta-item h4 { font-size: 0.7rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.1em; margin-bottom: 0.3rem; }
+  .meta-item p { font-weight: 600; font-size: 1rem; }
+
+  .vocab-grid-10 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; margin-top: 1.5rem; }
+  .vocab-card { background: white; border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem; transition: transform 0.2s; }
+  .vocab-card:hover { transform: translateY(-2px); border-color: var(--teal-light); }
+
+  .section-title { font-size: 1.8rem; margin: 3rem 0 1.5rem; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
+</style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="session-hero" style="background: linear-gradient(135deg, #993556, #4d1a2b);">
+  <div class="club-tag">Mind Matters</div>
+  <h1>The Power of Habits — Tiny changes, big results</h1>
+  <p class="session-date">20 May 2025</p>
+</header>
+
+<main class="content-container">
+
+  <a href="../mind-matters.html" class="back-link">← Back to Club</a>
+
+  <div class="session-meta-grid">
+    <div class="meta-item">
+      <h4>Duration</h4>
+      <p>60 minutes</p>
+    </div>
+    <div class="meta-item">
+      <h4>Languages</h4>
+      <p>🇬🇧 🇫🇷</p>
+    </div>
+    <div class="meta-item">
+      <h4>Level</h4>
+      <p>B1 – C2</p>
+    </div>
+    <div class="meta-item">
+      <h4>Resources</h4>
+      <p><a href="https://jamesclear.com/atomic-habits" target="_blank" style="color:var(--teal);">Atomic Habits Info 📖</a></p>
+    </div>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary (10 Units)</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Willpower</div>
+        <div class="vocab-def">the ability to control your own thoughts and actions</div>
+        <div class="vocab-example">Example: It takes a lot of willpower to quit smoking.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Willpower', definition:'self-control', example:'It takes a lot of willpower to quit smoking.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Consistency</div>
+        <div class="vocab-def">the quality of always behaving in the same way</div>
+        <div class="vocab-example">Example: Consistency is key to long-term success.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Consistency', definition:'steadfastness', example:'Consistency is key to long-term success.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Discipline</div>
+        <div class="vocab-def">the practice of training people to obey rules or a code of behavior</div>
+        <div class="vocab-example">Example: Maintaining a daily routine requires discipline.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Discipline', definition:'self-control/training', example:'Maintaining a daily routine requires discipline.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Trigger</div>
+        <div class="vocab-def">an event that causes a particular action or process</div>
+        <div class="vocab-example">Example: For many, coffee is a trigger to start working.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Trigger', definition:'cause of an action', example:'For many, coffee is a trigger to start working.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Reward</div>
+        <div class="vocab-def">a thing given in recognition of service, effort, or achievement</div>
+        <div class="vocab-example">Example: Treat yourself to a small reward after a productive week.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Reward', definition:'prize for achievement', example:'Treat yourself to a small reward after a productive week.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Incremental</div>
+        <div class="vocab-def">relating to or denoting an increase or addition</div>
+        <div class="vocab-example">Example: Small, incremental changes lead to massive results.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Incremental', definition:'step-by-step', example:'Small, incremental changes lead to massive results.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Routine</div>
+        <div class="vocab-def">a sequence of actions regularly followed</div>
+        <div class="vocab-example">Example: A morning routine can set a positive tone for the day.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Routine', definition:'regular sequence', example:'A morning routine can set a positive tone for the day.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Automation</div>
+        <div class="vocab-def">making a process automatic</div>
+        <div class="vocab-example">Example: The goal of a habit is the automation of behavior.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Automation', definition:'making automatic', example:'The goal of a habit is the automation of behavior.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Compound</div>
+        <div class="vocab-def">to make up or constitute; to increase by adding to</div>
+        <div class="vocab-example">Example: Small habits compound over time.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Compound', definition:'to increase/combine', example:'Small habits compound over time.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Subconscious</div>
+        <div class="vocab-def">concerning the part of the mind of which one is not fully aware</div>
+        <div class="vocab-example">Example: Most of our daily habits are subconscious.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Subconscious', definition:'not fully aware', example:'Most of our daily habits are subconscious.'}, this)">+ Dictionary</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+
+    <div class="rounds-container">
+
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <vim-instruction>Habit Loops</vim-instruction>
+          <ul class="round-questions">
+            <li>What is one habit you do every single day without thinking?</li>
+            <li>Is it harder to start a good habit or break a bad one?</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Analysis (10 Questions)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> What is the biggest habit you've successfully changed?</div><div class="round-item-personal">★ How did you feel before and after the change?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> Why do most New Year's resolutions fail by February?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> How do "triggers" work in our daily environment?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> What is the role of "rewards" in forming a lasting habit?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> How long does it actually take to form a new habit? (Is it 21 days?)</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> Is "motivation" reliable for long-term change?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> How can we use "habit stacking" to build a new routine?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> Does our identity influence our habits, or do our habits form our identity?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> How can we make bad habits "invisible" in our environment?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> What is the "one-minute rule" for starting something difficult?</div></div>
+        </div>
+      </div>
+
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🔥</span><div style="font-weight:600;">Motivation</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🧱</span><div style="font-weight:600;">Discipline</div></div>
+          </div>
+          <p style="margin-top:1rem; text-align:center;">Which is more important for success?</p>
+        </div>
+      </div>
+
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Future Focus (10 Units)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> Can technology help us build better habits, or does it just create more distractions?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> Should schools teach "habit management" as a core subject?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> Is it possible to be "too disciplined"? What are the risks?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> How much of our success is due to luck vs. daily habits?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Will AI eventually manage our habits for us?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> Is it easier to change your habits if you change your environment?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> Should governments use "nudges" to influence public habits?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> Can a single bad habit ruin a successful life?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> Is "willpower" a limited resource that runs out during the day?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> What is the one habit you want to start next month?</div></div>
+        </div>
+      </div>
+
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item"><span class="mistake-wrong">It depend of</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends on</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/i18n.js"></script>
+<script src="../../js/core/ui.js"></script>
+<script src="../../js/data/pricing.js"></script>
+<script src="../../js/config.js"></script>
+</body>
+</html>

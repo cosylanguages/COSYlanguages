@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Maze of Biases — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .session-hero { padding: 4rem 2rem; text-align: center; color: white; margin-bottom: 2rem; }
+  .session-hero .club-tag { display: inline-block; padding: 0.3rem 0.8rem; border-radius: 20px; background: rgba(255,255,255,0.2); font-size: 0.8rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .session-hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 0.5rem; line-height: 1.1; }
+  .session-hero .session-date { font-size: 1.1rem; opacity: 0.8; font-weight: 300; }
+
+  .content-container { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem 5rem; }
+
+  .back-link { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; transition: color 0.2s; }
+  .back-link:hover { color: var(--ink); }
+
+  .session-meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; background: var(--warm-white); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); }
+  .meta-item h4 { font-size: 0.7rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.1em; margin-bottom: 0.3rem; }
+  .meta-item p { font-weight: 600; font-size: 1rem; }
+
+  .vocab-grid-10 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; margin-top: 1.5rem; }
+  .vocab-card { background: white; border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem; transition: transform 0.2s; }
+  .vocab-card:hover { transform: translateY(-2px); border-color: var(--teal-light); }
+
+  .section-title { font-size: 1.8rem; margin: 3rem 0 1.5rem; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
+</style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="session-hero" style="background: linear-gradient(135deg, #993556, #4d1a2b);">
+  <div class="club-tag">Mind Matters</div>
+  <h1>The Maze of Biases — How our brains trick us</h1>
+  <p class="session-date">27 May 2026</p>
+</header>
+
+<main class="content-container">
+
+  <a href="../mind-matters.html" class="back-link">← Back to Club</a>
+
+  <div class="session-meta-grid">
+    <div class="meta-item">
+      <h4>Duration</h4>
+      <p>60 minutes</p>
+    </div>
+    <div class="meta-item">
+      <h4>Languages</h4>
+      <p>🇬🇧 🇫🇷</p>
+    </div>
+    <div class="meta-item">
+      <h4>Level</h4>
+      <p>B1 – C2</p>
+    </div>
+    <div class="meta-item">
+      <h4>Resources</h4>
+      <p><a href="https://www.psychologytoday.com/intl/basics/bias" target="_blank" style="color:var(--teal);">Read Psychology Today 📖</a></p>
+    </div>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary (10 Units)</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Cognitive Bias</div>
+        <div class="vocab-def">systematic pattern of deviation from rationality</div>
+        <div class="vocab-example">Example: Confirmation bias is a very common cognitive bias.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Cognitive Bias', definition:'irrational judgment pattern', example:'Confirmation bias is a very common cognitive bias.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Confirmation Bias</div>
+        <div class="vocab-def">favoring information that confirms existing beliefs</div>
+        <div class="vocab-example">Example: He only reads news that agrees with him because of confirmation bias.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Confirmation Bias', definition:'favoring existing beliefs', example:'He only reads news that agrees with him because of confirmation bias.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Hindsight Bias</div>
+        <div class="vocab-def">tendency to see events as predictable after they have happened</div>
+        <div class="vocab-example">Example: "I knew it all along" is a classic sign of hindsight bias.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Hindsight Bias', definition:'predicting past events', example:'\'I knew it all along\' is a classic sign of hindsight bias.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Anchor</div>
+        <div class="vocab-def">to rely too heavily on the first piece of information offered</div>
+        <div class="vocab-example">Example: The initial price anchors the negotiation.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Anchor', definition:'rely on first info', example:'The initial price anchors the negotiation.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Heuristic</div>
+        <div class="vocab-def">mental shortcut that allows people to solve problems quickly</div>
+        <div class="vocab-example">Example: Heuristics are useful but can lead to cognitive biases.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Heuristic', definition:'mental shortcut', example:'Heuristics are useful but can lead to cognitive biases.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Rationality</div>
+        <div class="vocab-def">the quality of being based on or in accordance with reason or logic</div>
+        <div class="vocab-example">Example: Emotions can often cloud our rationality.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Rationality', definition:'logic/reasoning', example:'Emotions can often cloud our rationality.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Inference</div>
+        <div class="vocab-def">a conclusion reached on the basis of evidence and reasoning</div>
+        <div class="vocab-example">Example: His inference was based on several observed patterns.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Inference', definition:'logical conclusion', example:'His inference was based on several observed patterns.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Correlation</div>
+        <div class="vocab-def">a mutual relationship or connection between two or more things</div>
+        <div class="vocab-example">Example: Correlation does not always imply causation.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Correlation', definition:'mutual connection', example:'Correlation does not always imply causation.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Perception</div>
+        <div class="vocab-def">the way in which something is regarded, understood, or interpreted</div>
+        <div class="vocab-example">Example: Our perception of risk is often biased by recent events.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Perception', definition:'interpretation/view', example:'Our perception of risk is often biased by recent events.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Dissonance</div>
+        <div class="vocab-def">lack of agreement; inconsistency</div>
+        <div class="vocab-example">Example: Cognitive dissonance occurs when we hold two conflicting beliefs.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Dissonance', definition:'conflict/inconsistency', example:'Cognitive dissonance occurs when we hold two conflicting beliefs.'}, this)">+ Dictionary</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+
+    <div class="rounds-container">
+
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <vim-instruction>Spot the Bias</vim-instruction>
+          <ul class="round-questions">
+            <li>Have you ever bought something just because it was "on sale", even if you didn't need it?</li>
+            <li>Do you think you are more or less biased than the average person?</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Analysis (10 Questions)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> Can you recall a time you were sure you were right, but later realized you only looked at one side?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> Why do we often think "I knew it all along" after an event happens?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> How do marketers use anchoring to influence our spending?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> Why is it so hard to change someone's mind once they have formed an opinion?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Do you think social media algorithms increase our cognitive biases?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> What is the "halo effect" and how does it affect our judgment of people?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> How does the "availability heuristic" affect our perception of safety?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> Can we ever truly "eliminate" bias, or can we only manage it?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> Why is "groupthink" dangerous in professional environments?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> Which bias do you think is the most dangerous in the modern world?</div></div>
+        </div>
+      </div>
+
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🤖</span><div style="font-weight:600;">AI Logic</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🧠</span><div style="font-weight:600;">Human Instinct</div></div>
+          </div>
+          <p style="margin-top:1rem; text-align:center;">Which one is more likely to be <em>fair</em> in a court of law?</p>
+        </div>
+      </div>
+
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Dilemmas (10 Units)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> Action Bias vs. Omission Bias: Is it worse to cause harm by acting, or by doing nothing?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> Should people be held accountable for biases they are not aware they have?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> Is "gut feeling" just a collection of hidden biases?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> Should we trust AI to make decisions for us if it is proved to be less biased than humans?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Is it possible to have a completely objective news source?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> Does being highly intelligent make you more or less likely to be biased?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> Should schools have "critical thinking" classes to specifically fight cognitive bias?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> Is optimism a form of "positive bias"? Is it always good?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> How will AI bias affect the next generation of children?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> If you could "delete" one bias from your brain, which would it be?</div></div>
+        </div>
+      </div>
+
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">The brain trick us</span><span class="mistake-arrow">→</span><span class="mistake-right">The brain tricks us</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/i18n.js"></script>
+<script src="../../js/core/ui.js"></script>
+<script src="../../js/data/pricing.js"></script>
+<script src="../../js/config.js"></script>
+</body>
+</html>

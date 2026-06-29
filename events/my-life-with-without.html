@@ -58,72 +58,19 @@
             <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
           </div>
           <div class="history-body" style="display: block; padding: 0; border: none;">
-            <div class="history-session" id="lw-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
-              <div class="history-session-header" onclick="COSY.toggleBlock('lw-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;font-size:.9rem;font-weight:600;background:#FAF7F2;user-select:none;">
-                <span>Life with &amp; without Social Media <span class="history-date" style="font-size:.75rem;color:var(--muted);font-weight:400;margin-left:.5rem;">01 June 2025</span></span>
-                <span class="round-toggle">▼</span>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">My Life With &amp; Without Pets</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">08 June 2025</span>
               </div>
-              <div class="history-session-body" style="display:none;padding:1.2rem;border-top:1px solid var(--border);">
-                <div class="rounds-container" style="display:flex;flex-direction:column;gap:.8rem;">
-                  <!-- 1. WARM-UP -->
-                  <div class="round-block warm-up" id="lw-h1-warm">
-                    <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('lw-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
-                    <div class="round-body">
-                      <vim-instruction>The Digital World</vim-instruction>
-                      <vim-choice>
-                        <vim-choice-option>
-                          <vim-choice-option-title>Vocabulary</vim-choice-option-title>
-                          <vim-choice-option-content>
-                            <div class="vocab-item">
-                              <span class="vocab-word">Doomscrolling</span> – <span class="vocab-def">spending excessive time scrolling through bad news online</span>.
-                              <span class="vocab-example">Example: I spent the whole evening doomscrolling instead of sleeping.</span>
-                              <button class="btn-add-dict" onclick="COSY.addToDict({word:'Doomscrolling', definition:'excessive scrolling through bad news', example:'I spent the whole evening doomscrolling instead of sleeping.'}, this)">+ Dictionary</button>
-                            </div>
-                          </vim-choice-option-content>
-                        </vim-choice-option>
-                      </vim-choice>
-                    </div>
-                  </div>
-
-                  <!-- 2. ROUND 1 -->
-                  <div class="round-block round-1" id="lw-h1-r1">
-                    <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('lw-h1-r1')"><span>🔵 Round 1 — Personal Transitions</span><span class="round-toggle">▼</span></div>
-                    <div class="round-body">
-                      <div class="round-type-badge">Narrative</div>
-                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> Have you ever tried a "digital detox"? How long did it last?</div><div class="round-item-personal">★ What was the hardest app to give up?</div></div>
-                    </div>
-                  </div>
-
-                  <!-- 3. LET'S SPEAK TOGETHER -->
-                  <div class="round-block lst" id="lw-h1-lst">
-                    <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('lw-h1-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
-                    <div class="round-body">
-                      <div class="round-type-badge">Comparison</div>
-                      <p style="font-size:.8rem; text-align:center;">Instant Messaging vs. Face-to-Face: Which one feels more "real" to you?</p>
-                    </div>
-                  </div>
-
-                  <!-- 4. ROUND 2 -->
-                  <div class="round-block round-2" id="lw-h1-r2">
-                    <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('lw-h1-r2')"><span>🟢 Round 2 — Future Focus</span><span class="round-toggle">▼</span></div>
-                    <div class="round-body">
-                      <div class="round-type-badge">Debate</div>
-                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> If social media disappeared tomorrow, would the world be a better place?</div></div>
-                      <a href="../games/index.html?game=storychain" class="btn-play-game">Play Game 🎮</a>
-                    </div>
-                  </div>
-
-                  <!-- 5. DISCUSSION (MISTAKES) -->
-                  <div class="mistake-block" id="lw-h1-mistakes">
-                    <div class="mistake-header" onclick="COSY.toggleBlock('lw-h1-mistakes')">
-                      <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▼</span>
-                    </div>
-                    <div class="mistake-body">
-                      <div class="mistake-item"><span class="mistake-wrong">I was use to</span><span class="mistake-arrow">→</span><span class="mistake-right">I was used to / I used to</span></div>
-                    </div>
-                  </div>
-                </div>
+              <a href="sessions/pets-life.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Life with &amp; without Social Media</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 June 2025</span>
               </div>
+              <a href="sessions/social-media-life.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
             </div>
           </div>
         </div>

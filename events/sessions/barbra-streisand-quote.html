@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barbra Streisand Quote — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .session-hero { padding: 4rem 2rem; text-align: center; color: white; margin-bottom: 2rem; }
+  .session-hero .club-tag { display: inline-block; padding: 0.3rem 0.8rem; border-radius: 20px; background: rgba(255,255,255,0.2); font-size: 0.8rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .session-hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 0.5rem; line-height: 1.1; }
+  .session-hero .session-date { font-size: 1.1rem; opacity: 0.8; font-weight: 300; }
+
+  .content-container { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem 5rem; }
+
+  .back-link { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; transition: color 0.2s; }
+  .back-link:hover { color: var(--ink); }
+
+  .session-meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; background: var(--warm-white); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); }
+  .meta-item h4 { font-size: 0.7rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.1em; margin-bottom: 0.3rem; }
+  .meta-item p { font-weight: 600; font-size: 1rem; }
+
+  .vocab-grid-10 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; margin-top: 1.5rem; }
+  .vocab-card { background: white; border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem; transition: transform 0.2s; }
+  .vocab-card:hover { transform: translateY(-2px); border-color: var(--teal-light); }
+
+  .section-title { font-size: 1.8rem; margin: 3rem 0 1.5rem; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
+</style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="session-hero" style="background: linear-gradient(135deg, #534AB7, #2a255c);">
+  <div class="club-tag">The Greatest Quotes</div>
+  <h1>"I knew that with a mouth like mine, I just hadda be a star or something." — Barbra Streisand</h1>
+  <p class="session-date">10 July 2025</p>
+</header>
+
+<main class="content-container">
+
+  <a href="../the-greatest-quotes.html" class="back-link">← Back to Club</a>
+
+  <div class="session-meta-grid">
+    <div class="meta-item">
+      <h4>Duration</h4>
+      <p>60 minutes</p>
+    </div>
+    <div class="meta-item">
+      <h4>Languages</h4>
+      <p>🇬🇧 🇫🇷 🇷🇺</p>
+    </div>
+    <div class="meta-item">
+      <h4>Level</h4>
+      <p>Intermediate</p>
+    </div>
+    <div class="meta-item">
+      <h4>Speaker</h4>
+      <p>Barbra Streisand</p>
+    </div>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary (10 Units)</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Self-image</div>
+        <div class="vocab-def">the way a person sees themselves, including appearance and personality</div>
+        <div class="vocab-example">Example: Her self-image improved after she started acting classes.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Self-image', definition:'how one sees themselves', example:'Her self-image improved after she started acting classes.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Unconventional</div>
+        <div class="vocab-def">different from what is usual or expected</div>
+        <div class="vocab-example">Example: His unconventional voice made him stand out in the competition.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Unconventional', definition:'unusual/unexpected', example:'His unconventional voice made him stand out in the competition.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">To stand out</div>
+        <div class="vocab-def">to be noticeably different from others, often in a positive way</div>
+        <div class="vocab-example">Example: Her style helps her stand out in a crowded industry.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'To stand out', definition:'to be noticeably different', example:'Her style helps her stand out in a crowded industry.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Upbringing</div>
+        <div class="vocab-def">the way a child is raised and educated by their family</div>
+        <div class="vocab-example">Example: His strict upbringing influenced his discipline and work ethic.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Upbringing', definition:'how a child is raised', example:'His strict upbringing influenced his discipline and work ethic.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Perception</div>
+        <div class="vocab-def">the way people understand or see something or someone</div>
+        <div class="vocab-example">Example: Public perception of celebrities can change quickly.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Perception', definition:'how things are seen/understood', example:'Public perception of celebrities can change quickly.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Confidence</div>
+        <div class="vocab-def">belief in one’s own abilities or value</div>
+        <div class="vocab-example">Example: Confidence plays a key role in public speaking.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Confidence', definition:'belief in self', example:'Confidence plays a key role in public speaking.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Stereotype</div>
+        <div class="vocab-def">a fixed, oversimplified idea about a group of people</div>
+        <div class="vocab-example">Example: She challenged stereotypes about how singers should look.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Stereotype', definition:'fixed/oversimplified idea', example:'She challenged stereotypes about how singers should look.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Identity</div>
+        <div class="vocab-def">the qualities and beliefs that make a person who they are</div>
+        <div class="vocab-example">Example: Music became a key part of his identity.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Identity', definition:'qualities that define a person', example:'Music became a key part of his identity.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Ambition</div>
+        <div class="vocab-def">a strong desire to do or to achieve something</div>
+        <div class="vocab-example">Example: Her ambition to become a star was clear from a young age.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Ambition', definition:'desire for achievement', example:'Her ambition to become a star was clear from a young age.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Insecurity</div>
+        <div class="vocab-def">uncertainty or anxiety about oneself; lack of confidence</div>
+        <div class="vocab-example">Example: Overcoming insecurity is a major part of personal growth.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Insecurity', definition:'lack of self-confidence', example:'Overcoming insecurity is a major part of personal growth.'}, this)">+ Dictionary</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+
+    <div class="rounds-container">
+
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <vim-instruction>Introduction to the Quote</vim-instruction>
+          <vim-blockquote>“I knew that with a mouth like mine, I just hadda be a star or something.” — Barbra Streisand</vim-blockquote>
+          <ul class="round-questions">
+            <li>What do you think Barbra Streisand meant by "a mouth like mine"?</li>
+            <li>Is it important to be "born for" a certain career?</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Understanding & Discussion (10 Units)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Analysis</div>
+
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> Do you think Barbra Streisand’s self-image was influenced more by society or by her own confidence?</div><div class="round-item-personal">★ Have you ever felt your self-image was affected by how others saw you?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> How can an unconventional appearance or voice become an advantage in building a career?</div><div class="round-item-personal">★ Do you consider any of your traits unconventional in a positive way?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> How important is it for a person to stand out in creative industries like music or acting?</div><div class="round-item-personal">★ In what situations do you prefer to stand out, and when do you prefer not to?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> Can upbringing shape whether someone believes they can become a “star”? How?</div><div class="round-item-personal">★ What part of your upbringing influenced your ambitions the most?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Do you think public perception of beauty has changed in the last 20 years?</div><div class="round-item-personal">★ Have your own perceptions of beauty changed over time?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> How does confidence affect the way a person uses their voice or personality in public?</div><div class="round-item-personal">★ When do you feel most confident speaking in front of others?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> Can stereotypes about appearance stop talented people from being successful?</div><div class="round-item-personal">★ Have you ever felt limited by a stereotype (personally or socially)?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> How does personal identity influence career choices in creative fields?</div><div class="round-item-personal">★ What aspects of your identity are most important to you?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> Do people sometimes become successful because they transform their “weaknesses” into strengths?</div><div class="round-item-personal">★ Have you ever turned a challenge into an advantage in your life?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> Would you say society today is more accepting of unconventional stars than in the past?</div><div class="round-item-personal">★ Do you feel more accepted for who you are today than before?</div></div>
+        </div>
+      </div>
+
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🌟</span><div style="font-weight:600;">Mainstream Fame</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎨</span><div style="font-weight:600;">Niche Artistry</div></div>
+          </div>
+          <p style="margin-top:1rem; text-align:center;">Which path is more fulfilling in the long term?</p>
+        </div>
+      </div>
+
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Future Problems, People & Solutions (10 Units)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Future Focus</div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>1.</strong> In the future, social media will worsen self-image problems for young people unless stronger education is introduced.</div>
+            <div class="round-item-personal">💡 What solutions could schools or platforms introduce?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>2.</strong> Future workplaces will value unconventional personalities more, but only if bias in hiring is reduced.</div>
+            <div class="round-item-personal">💡 What systems could reduce hiring bias?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>3.</strong> More people will struggle to stand out because AI will create similar content from everyone.</div>
+            <div class="round-item-personal">💡 How can individuals stay unique in an AI-driven world?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>4.</strong> Future children’s upbringing will be heavily influenced by digital environments instead of family.</div>
+            <div class="round-item-personal">💡 How can families protect identity development?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>5.</strong> Public perception of beauty will become more diverse, but misinformation may still create new standards.</div>
+            <div class="round-item-personal">💡 How can society prevent harmful beauty trends?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>6.</strong> In the future, lack of confidence will be one of the biggest barriers to career success.</div>
+            <div class="round-item-personal">💡 What tools (education, tech, coaching) could help build confidence?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>7.</strong> Stereotypes will not disappear unless AI systems and media actively reduce bias in content creation.</div>
+            <div class="round-item-personal">💡 How can technology help remove stereotypes?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>8.</strong> People’s identity will become more digital, creating confusion between real and online selves.</div>
+            <div class="round-item-personal">💡 How can individuals protect a stable identity?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>9.</strong> Future societies may struggle when people cannot turn insecurity into motivation due to constant comparison online.</div>
+            <div class="round-item-personal">💡 What strategies could reduce harmful comparison?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>10.</strong> The biggest challenge in the future will be helping people with unconventional traits feel included in mainstream success.</div>
+            <div class="round-item-personal">💡 What policies or cultural changes could support inclusion?</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item"><span class="mistake-wrong">I am more confidence</span><span class="mistake-arrow">→</span><span class="mistake-right">I am more confident / I have more confidence</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/i18n.js"></script>
+<script src="../../js/core/ui.js"></script>
+<script src="../../js/data/pricing.js"></script>
+<script src="../../js/config.js"></script>
+</body>
+</html>
