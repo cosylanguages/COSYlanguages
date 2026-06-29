@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Life With & Without Pets — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .session-hero { padding: 4rem 2rem; text-align: center; color: white; margin-bottom: 2rem; }
+  .session-hero .club-tag { display: inline-block; padding: 0.3rem 0.8rem; border-radius: 20px; background: rgba(255,255,255,0.2); font-size: 0.8rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .session-hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 0.5rem; line-height: 1.1; }
+  .session-hero .session-date { font-size: 1.1rem; opacity: 0.8; font-weight: 300; }
+
+  .content-container { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem 5rem; }
+
+  .back-link { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; transition: color 0.2s; }
+  .back-link:hover { color: var(--ink); }
+
+  .session-meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; background: var(--warm-white); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); }
+  .meta-item h4 { font-size: 0.7rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.1em; margin-bottom: 0.3rem; }
+  .meta-item p { font-weight: 600; font-size: 1rem; }
+
+  .vocab-grid-10 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; margin-top: 1.5rem; }
+  .vocab-card { background: white; border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem; transition: transform 0.2s; }
+  .vocab-card:hover { transform: translateY(-2px); border-color: var(--teal-light); }
+
+  .section-title { font-size: 1.8rem; margin: 3rem 0 1.5rem; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
+</style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="session-hero" style="background: linear-gradient(135deg, #FF9A8B, #FF6A88);">
+  <div class="club-tag">My Life With & Without</div>
+  <h1>My Life With & Without Pets</h1>
+  <p class="session-date">08 June 2025</p>
+</header>
+
+<main class="content-container">
+
+  <a href="../my-life-with-without.html" class="back-link">← Back to Club</a>
+
+  <div class="session-meta-grid">
+    <div class="meta-item">
+      <h4>Duration</h4>
+      <p>60 minutes</p>
+    </div>
+    <div class="meta-item">
+      <h4>Languages</h4>
+      <p>🇬🇧 🇫🇷 🇪🇸 🇩🇪 🇮🇹</p>
+    </div>
+    <div class="meta-item">
+      <h4>Level</h4>
+      <p>Intermediate (B1)</p>
+    </div>
+    <div class="meta-item">
+      <h4>Focus</h4>
+      <p>Emotional Support & Society</p>
+    </div>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary (10 Units)</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Emotional support</div>
+        <div class="vocab-def">help that makes someone feel calmer or happier emotionally</div>
+        <div class="vocab-example">Example: Pets often give emotional support when people feel stressed.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Emotional support', definition:'help that makes someone feel calmer emotionally', example:'Pets often give emotional support when people feel stressed.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Companionship</div>
+        <div class="vocab-def">having someone (or something) that makes you feel less alone</div>
+        <div class="vocab-example">Example: A dog can provide companionship every day.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Companionship', definition:'feeling less alone by having someone/something', example:'A dog can provide companionship every day.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Responsibility</div>
+        <div class="vocab-def">duties you must take care of regularly</div>
+        <div class="vocab-example">Example: Feeding and walking a pet teaches responsibility.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Responsibility', definition:'regular duties one must handle', example:'Feeding and walking a pet teaches responsibility.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Loneliness</div>
+        <div class="vocab-def">the feeling of being unhappy because you are alone</div>
+        <div class="vocab-example">Example: Pets can reduce loneliness in older people.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Loneliness', definition:'unhappiness from being alone', example:'Pets can reduce loneliness in older people.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Routine</div>
+        <div class="vocab-def">a regular set of daily activities</div>
+        <div class="vocab-example">Example: Dogs help owners build a daily routine.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Routine', definition:'regular daily activities', example:'Dogs help owners build a daily routine.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Affection</div>
+        <div class="vocab-def">a feeling of love and care for someone or something</div>
+        <div class="vocab-example">Example: Many people show affection to their pets.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Affection', definition:'feeling of love and care', example:'Many people show affection to their pets.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Adoption</div>
+        <div class="vocab-def">the act of taking an animal from a shelter into your home</div>
+        <div class="vocab-example">Example: Adoption helps homeless animals find families.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Adoption', definition:'taking animal from shelter into home', example:'Adoption helps homeless animals find families.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Training</div>
+        <div class="vocab-def">teaching an animal to behave in a certain way</div>
+        <div class="vocab-example">Example: Dog training takes time and patience.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Training', definition:'teaching animal behavior', example:'Dog training takes time and patience.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Allergy</div>
+        <div class="vocab-def">a physical reaction to something that makes you sick</div>
+        <div class="vocab-example">Example: Some people cannot have pets because of allergies.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Allergy', definition:'sickly physical reaction to something', example:'Some people cannot have pets because of allergies.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Welfare</div>
+        <div class="vocab-def">the health and happiness of animals or people</div>
+        <div class="vocab-example">Example: Animal welfare is an important ethical issue.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Welfare', definition:'health and happiness', example:'Animal welfare is an important ethical issue.'}, this)">+ Dictionary</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+
+    <div class="rounds-container">
+
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <vim-instruction>The Pet Person</vim-instruction>
+          <ul class="round-questions">
+            <li>Are you a dog person, a cat person, or neither?</li>
+            <li>What is the first animal you ever touched?</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — My life WITH pets (10 Questions)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Personal Depth</div>
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> How do pets provide emotional support that feels different from human advice?</div><div class="round-item-personal">★ Do you prefer comfort or solutions when you are upset?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> Why can companionship from pets feel more stable than some friendships?</div><div class="round-item-personal">★ What makes a relationship feel “stable” for you?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> How does caring for a pet slowly reshape a person’s identity and habits?</div><div class="round-item-personal">★ What habit has changed your personality the most?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> In what surprising ways do pets control or influence daily routines?</div><div class="round-item-personal">★ Do you feel your routines control you or you control them?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Why do people sometimes feel safer expressing affection to animals than to people?</div><div class="round-item-personal">★ Is emotional expression easier or harder for you?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> Why does adoption often create a stronger emotional story than simply owning a pet?</div><div class="round-item-personal">★ Do you value stories or outcomes more in life decisions?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> How can training a pet reveal a person’s patience, frustration, and empathy?</div><div class="round-item-personal">★ When do you notice your own patience breaking?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> Why do pets often become invisible “social bridges” in unexpected situations?</div><div class="round-item-personal">★ Have you ever experienced a random social connection?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> Why can silence with a pet feel more comforting than conversation with people?</div><div class="round-item-personal">★ When do you prefer silence over talking?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> How do pets quietly shape what people define as “home”?</div><div class="round-item-personal">★ What turns a place into a real home for you?</div></div>
+        </div>
+      </div>
+
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🐕</span><div style="font-weight:600;">Pet Ownership</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">👤</span><div style="font-weight:600;">Pet-Free Life</div></div>
+          </div>
+          <p style="margin-top:1rem; text-align:center;">Can a person truly understand empathy without caring for an animal?</p>
+        </div>
+      </div>
+
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — My Life WITHOUT pets (10 Units)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Conceptual Analysis</div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>1.</strong> If emotional support from animals never existed in society, what kinds of emotional support systems would naturally become dominant instead?</div>
+            <div class="round-item-personal">★ Do you think emotional support is something we build individually or something society designs for us?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>2.</strong> Without animal-based companionship as a concept in everyday life, how might people redefine what “companionship” actually means?</div>
+            <div class="round-item-personal">★ Do you think companionship today is more emotional or more practical?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>3.</strong> If caregiving for animals had never become part of human behavior, how might the idea of “daily responsibility” look completely different?</div>
+            <div class="round-item-personal">★ What responsibility in your life feels most identity-shaping?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>4.</strong> Without animal-related routines ever forming culturally, how might humans structure time differently at home and work?</div>
+            <div class="round-item-personal">★ Do you think routines are created or discovered?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>5.</strong> If non-verbal affection toward animals was never part of human expression, how might emotional communication between people evolve differently?</div>
+            <div class="round-item-personal">★ Are words or behavior more trustworthy to you?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>6.</strong> If adoption of animals had never become a social practice, how might humanitarian focus shift in society overall?</div>
+            <div class="round-item-personal">★ Which type of help do you think society values most today: emotional or practical?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>7.</strong> Without the historical idea of training animals, what kinds of discipline systems might humans have developed earlier for themselves?</div>
+            <div class="round-item-personal">★ Do you think discipline is internal or learned externally?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>8.</strong> If animals were never integrated into public social interaction patterns, how might spontaneous interactions between strangers evolve?</div>
+            <div class="round-item-personal">★ What usually makes you talk to a stranger?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>9.</strong> If a whole category of natural emotional comfort never entered human life, what alternative coping mechanisms might have become culturally central instead?</div>
+            <div class="round-item-personal">★ Do you think modern coping is more healthy or more artificial?</div>
+          </div>
+
+          <div class="round-item">
+            <div class="round-item-main"><strong>10.</strong> If society had never developed relationships with animals at all, how might the definition of “well-being” be fundamentally different today?</div>
+            <div class="round-item-personal">★ What do you think is the core ingredient of a good life: stability, meaning, or connection?</div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item"><span class="mistake-wrong">They are pets person</span><span class="mistake-arrow">→</span><span class="mistake-right">They are pet people</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">It make me happy</span><span class="mistake-arrow">→</span><span class="mistake-right">It makes me happy</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/i18n.js"></script>
+<script src="../../js/core/ui.js"></script>
+<script src="../../js/data/pricing.js"></script>
+<script src="../../js/config.js"></script>
+</body>
+</html>
