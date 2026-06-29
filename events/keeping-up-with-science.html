@@ -51,131 +51,18 @@
         </table></div>
         <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Keeping%20Up%20with%20Science.">💬 Register interest</a>
 
-        <!-- VOCAB -->
-        <div class="vocab-block" id="sc-vocab" style="margin-top: 2rem;">
-          <div class="vocab-header" onclick="COSY.toggleBlock('sc-vocab')" style="display:flex;justify-content:space-between;padding:.8rem 1.2rem;cursor:pointer;font-size:.9rem;font-weight:600;border:1px solid var(--border);border-radius:12px;background:var(--cream);">
-            <span>📖 Current Session Vocabulary</span><span class="round-toggle">▼</span>
-          </div>
-          <div class="vocab-body" style="padding:1.2rem;border:1px solid var(--border);border-top:none;border-radius:0 0 12px 12px;">
-            <div class="vocab-item">
-              <span class="vocab-word">breakthrough</span> – <span class="vocab-def">a sudden important discovery or development</span>.
-              <span class="vocab-example">Example: The scientists made a breakthrough in cancer research.</span>
-              <button class="btn-add-dict" onclick="COSY.addToDict({word:'breakthrough', definition:'a sudden important discovery', example:'The scientists made a breakthrough in cancer research.'}, this)">+ Dictionary</button>
-            </div>
-            <div class="vocab-item">
-              <span class="vocab-word">peer-reviewed</span> – <span class="vocab-def">checked by other experts before publication</span>.
-              <span class="vocab-example">Example: This journal only publishes peer-reviewed articles.</span>
-              <button class="btn-add-dict" onclick="COSY.addToDict({word:'peer-reviewed', definition:'checked by experts', example:'This journal only publishes peer-reviewed articles.'}, this)">+ Dictionary</button>
-            </div>
-            <div class="vocab-item">
-              <span class="vocab-word">hypothesis</span> – <span class="vocab-def">a proposed explanation made as a starting point</span>.
-              <span class="vocab-example">Example: Their hypothesis was proved correct by the experiment.</span>
-              <button class="btn-add-dict" onclick="COSY.addToDict({word:'hypothesis', definition:'a proposed explanation', example:'Their hypothesis was proved correct by the experiment.'}, this)">+ Dictionary</button>
-            </div>
-          </div>
-        </div>
-
         <!-- HISTORY -->
         <div class="history-block" id="sc-hist" style="margin-top: 2rem;">
           <div class="section-header" style="margin-bottom: 1rem;">
             <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
           </div>
           <div class="history-body" style="display: block; padding: 0; border: none;">
-            <div class="history-session" id="sc-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
-              <div class="history-session-header" onclick="COSY.toggleBlock('sc-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;font-size:.9rem;font-weight:600;background:#FAF7F2;user-select:none;">
-                <span>AI &amp; the brain — who's learning from whom? <span class="history-date" style="font-size:.75rem;color:var(--muted);font-weight:400;margin-left:.5rem;">12 May 2025</span></span>
-                <span class="round-toggle">▼</span>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">AI &amp; the brain — who's learning from whom?</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">12 May 2025</span>
               </div>
-              <div class="history-session-body" style="display:none;padding:1.2rem;border-top:1px solid var(--border);">
-                <div class="rounds-container" style="display:flex;flex-direction:column;gap:.8rem;">
-
-                  <!-- 1. WARM-UP -->
-                  <div class="round-block warm-up" id="sc-h1-warm">
-                    <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('sc-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
-                    <div class="round-body">
-                      <vim-instruction>Introduction to AI & the Brain</vim-instruction>
-                      <vim-blockquote>Many people think AI is only for robots, but it's already in our pockets. Have you ever felt like your phone knows what you're thinking?</vim-blockquote>
-
-                      <vim-choice>
-                        <vim-choice-option>
-                          <vim-choice-option-title>Vocabulary</vim-choice-option-title>
-                          <vim-choice-option-content>
-                            <div class="vocab-item">
-                              <span class="vocab-word">Artificial Intelligence</span> – <span class="vocab-def">the simulation of human intelligence by machines</span>.
-                              <span class="vocab-example">Example: AI is changing how we interact with technology.</span>
-                              <button class="btn-add-dict" onclick="COSY.addToDict({word:'AI', definition:'simulation of intelligence', example:'AI is changing how we interact with technology.'}, this)">+ Dictionary</button>
-                            </div>
-                          </vim-choice-option-content>
-                        </vim-choice-option>
-                        <vim-choice-option>
-                          <vim-choice-option-title>Questions</vim-choice-option-title>
-                          <vim-choice-option-content>
-                            <ul class="round-questions">
-                              <li>What's the first thing you do on your phone every morning?</li>
-                              <li>Do you trust AI recommendations (music, movies)?</li>
-                            </ul>
-                          </vim-choice-option-content>
-                        </vim-choice-option>
-                      </vim-choice>
-                    </div>
-                  </div>
-
-                  <!-- 2. ROUND 1 -->
-                  <div class="round-block round-1" id="sc-h1-r1">
-                    <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('sc-h1-r1')"><span>🔵 Round 1 — Questions & Analysis</span><span class="round-toggle">▼</span></div>
-                    <div class="round-body">
-                      <div class="round-type-badge">Questions</div>
-                      <p class="round-note">Theoretical questions linked to the article. 10 main + 1 personal each.</p>
-                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> What is the main discovery or idea in the article? Can you explain it in your own words?</div><div class="round-item-personal">★ Had you heard about this topic before? What did you already know?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
-                      <div class="round-item"><div class="round-item-main"><strong>2.</strong> Why do scientists think this discovery is important? What problem does it try to solve?</div><div class="round-item-personal">★ Does this feel relevant to your everyday life? Why or why not?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
-                      <div class="round-item"><div class="round-item-main"><strong>3.</strong> What evidence or experiments does the article describe to support the claim?</div><div class="round-item-personal">★ Do you find this evidence convincing?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
-                      <div class="round-item"><div class="round-item-main"><strong>4.</strong> Are there any limitations or risks mentioned in the article?</div><div class="round-item-personal">★ Does knowing the risks change how you feel about the discovery?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
-                      <div class="round-item"><div class="round-item-main"><strong>5.</strong> Who benefits most from this development — and who might not?</div><div class="round-item-personal">★ Do you think science tends to serve everyone equally in your country?</div></div>
-                    </div>
-                  </div>
-
-                  <!-- 3. LET'S SPEAK TOGETHER -->
-                  <div class="round-block lst" id="sc-h1-lst">
-                    <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('sc-h1-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
-                    <div class="round-body">
-                      <div class="round-type-badge">Visual Choice</div>
-                      <p class="round-note">Comparison & Intuition</p>
-                      <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:.5rem;">
-                        <div class="lst-item" style="text-align:center;"><span style="font-size:2rem;">🧠</span><div style="font-size:.7rem; font-weight:600;">Human Brain</div></div>
-                        <div class="lst-item" style="text-align:center;"><span style="font-size:2rem;">💻</span><div style="font-size:.7rem; font-weight:600;">Artificial Logic</div></div>
-                      </div>
-                      <p style="font-size:.8rem; margin-top:1rem; text-align:center;">Which one is better at <em>learning from mistakes</em>?</p>
-                    </div>
-                  </div>
-
-                  <!-- 4. ROUND 2 -->
-                  <div class="round-block round-2" id="sc-h1-r2">
-                    <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('sc-h1-r2')"><span>🟢 Round 2 — Agree / Disagree &amp; Why?</span><span class="round-toggle">▼</span></div>
-                    <div class="round-body">
-                      <div class="round-type-badge">Agree or Disagree</div>
-                      <p class="round-note">Future-focused statements.</p>
-                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> In the future, scientific breakthroughs will solve climate change before governments do.</div><div class="round-item-personal">★ What role do you think science should play in solving the world's biggest problems?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
-                      <div class="round-item"><div class="round-item-main"><strong>2.</strong> AI will replace scientists within 50 years, and that is a good thing for humanity.</div><div class="round-item-personal">★ How do you feel about AI taking over creative or intellectual jobs?</div></div>
-
-                      <a href="../games/index.html?game=opinion" class="btn-play-game">Play Game 🎮</a>
-                    </div>
-                  </div>
-
-                  <!-- 5. DISCUSSION (MISTAKES) -->
-                  <div class="mistake-block" id="sc-h1-mistakes">
-                    <div class="mistake-header" onclick="COSY.toggleBlock('sc-h1-mistakes')">
-                      <span>✏️ Discussion (Mistake Notes)</span><span class="round-toggle">▼</span>
-                    </div>
-                    <div class="mistake-body">
-                      <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">("agree" is a verb, not an adjective)</span></div>
-                      <div class="mistake-item"><span class="mistake-wrong">He make</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">He makes</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">(3rd person singular: add -s)</span></div>
-                      <div class="mistake-item"><span class="mistake-right">+ "on the one hand … on the other hand" — great way to present two sides</span></div>
-                      <div class="mistake-item"><span class="mistake-wrong">I didn't knew</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">I didn't know</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">(auxiliary "did" already marks past tense)</span></div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
+              <a href="sessions/ai-and-the-brain.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
             </div>
           </div>
         </div>

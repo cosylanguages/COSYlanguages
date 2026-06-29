@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI and Art — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .session-hero { padding: 4rem 2rem; text-align: center; color: white; margin-bottom: 2rem; }
+  .session-hero .club-tag { display: inline-block; padding: 0.3rem 0.8rem; border-radius: 20px; background: rgba(255,255,255,0.2); font-size: 0.8rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .session-hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 0.5rem; line-height: 1.1; }
+  .session-hero .session-date { font-size: 1.1rem; opacity: 0.8; font-weight: 300; }
+
+  .content-container { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem 5rem; }
+
+  .back-link { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; transition: color 0.2s; }
+  .back-link:hover { color: var(--ink); }
+
+  .session-meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; background: var(--warm-white); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); }
+  .meta-item h4 { font-size: 0.7rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.1em; margin-bottom: 0.3rem; }
+  .meta-item p { font-weight: 600; font-size: 1rem; }
+
+  .vocab-grid-10 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; margin-top: 1.5rem; }
+  .vocab-card { background: white; border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem; transition: transform 0.2s; }
+  .vocab-card:hover { transform: translateY(-2px); border-color: var(--teal-light); }
+
+  .section-title { font-size: 1.8rem; margin: 3rem 0 1.5rem; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
+</style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="session-hero" style="background: linear-gradient(135deg, #993C1D, #4d1e0f);">
+  <div class="club-tag">Debatable & Relatable</div>
+  <h1>AI and Art — Can machines be truly creative?</h1>
+  <p class="session-date">22 June 2025</p>
+</header>
+
+<main class="content-container">
+
+  <a href="../debatable-relatable.html" class="back-link">← Back to Club</a>
+
+  <div class="session-meta-grid">
+    <div class="meta-item">
+      <h4>Duration</h4>
+      <p>60 minutes</p>
+    </div>
+    <div class="meta-item">
+      <h4>Languages</h4>
+      <p>🇬🇧 🇫🇷</p>
+    </div>
+    <div class="meta-item">
+      <h4>Level</h4>
+      <p>B1 – C2</p>
+    </div>
+    <div class="meta-item">
+      <h4>Resources</h4>
+      <p><a href="https://www.bbc.com/culture/article/20221215-can-ai-ever-be-truly-creative" target="_blank" style="color:var(--teal);">Read BBC Culture 📖</a></p>
+    </div>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary (10 Units)</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Originality</div>
+        <div class="vocab-def">the ability to think independently and creatively</div>
+        <div class="vocab-example">Example: The designer's work is known for its originality.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Originality', definition:'creative independence', example:'The designer\'s work is known for its originality.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Aesthetic</div>
+        <div class="vocab-def">concerned with beauty or the appreciation of beauty</div>
+        <div class="vocab-example">Example: The painting has a very modern aesthetic.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Aesthetic', definition:'relating to beauty', example:'The painting has a very modern aesthetic.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Canvas</div>
+        <div class="vocab-def">a strong, coarse unbleached cloth used as a surface for painting</div>
+        <div class="vocab-example">Example: The artist prepared the canvas before starting to paint.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Canvas', definition:'painting surface', example:'The artist prepared the canvas before starting to paint.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Masterpiece</div>
+        <div class="vocab-def">a work of outstanding artistry, skill, or workmanship</div>
+        <div class="vocab-example">Example: Many consider the Mona Lisa to be Da Vinci's masterpiece.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Masterpiece', definition:'work of outstanding art', example:'Many consider the Mona Lisa to be Da Vinci\'s masterpiece.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Inspiration</div>
+        <div class="vocab-def">the process of being mentally stimulated to do or feel something creative</div>
+        <div class="vocab-example">Example: Travel is a great source of inspiration for many artists.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Inspiration', definition:'creative stimulus', example:'Travel is a great source of inspiration for many artists.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Generative</div>
+        <div class="vocab-def">having the power or function of generating, producing, or reproducing</div>
+        <div class="vocab-example">Example: Generative AI can create completely new images from text.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Generative', definition:'power to produce', example:'Generative AI can create completely new images from text.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Subjective</div>
+        <div class="vocab-def">based on or influenced by personal feelings, tastes, or opinions</div>
+        <div class="vocab-example">Example: Art is highly subjective; what one person loves, another may hate.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Subjective', definition:'personal/opinion-based', example:'Art is highly subjective; what one person loves, another may hate.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Craftsmanship</div>
+        <div class="vocab-def">skill in a particular craft</div>
+        <div class="vocab-example">Example: You can see the incredible craftsmanship in this handmade furniture.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Craftsmanship', definition:'skill in a craft', example:'You can see the incredible craftsmanship in this handmade furniture.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Copyright</div>
+        <div class="vocab-def">the exclusive legal right to reproduce, publish, sell, or distribute a work</div>
+        <div class="vocab-example">Example: There are many legal battles over AI and copyright.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Copyright', definition:'legal right to a work', example:'There are many legal battles over AI and copyright.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Provocative</div>
+        <div class="vocab-def">causing annoyance, anger, or another strong reaction, especially deliberately</div>
+        <div class="vocab-example">Example: The artist is known for his provocative and controversial works.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Provocative', definition:'causing strong reaction', example:'The artist is known for his provocative and controversial works.'}, this)">+ Dictionary</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+
+    <div class="rounds-container">
+
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <vim-instruction>Creativity Definitions</vim-instruction>
+          <ul class="round-questions">
+            <li>What makes someone "creative"?</li>
+            <li>Can a machine have a "soul"?</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Hot Takes (10 Questions)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> An AI-generated painting just sold for $400,000. Is it "art"?</div><div class="round-item-personal">★ Would you pay for a piece of art if you knew a machine made it?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> Does AI "create" or does it just "remix" human work?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> If a robot writes a book, who owns the copyright?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> Is the value of art in the final product or the human effort behind it?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Should AI be banned from art competitions?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> Will AI eventually become "better" than human artists?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> Can AI ever understand the "meaning" of what it produces?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> How does AI change the job market for graphic designers?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> Should artists be compensated when their work is used to train AI?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> Is "algorithmic art" just a temporary trend?</div></div>
+        </div>
+      </div>
+
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎨</span><div style="font-weight:600;">Human Soul</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">⚙️</span><div style="font-weight:600;">Algorithmic Perfection</div></div>
+          </div>
+          <p style="margin-top:1rem; text-align:center;">Which one do you prefer in art?</p>
+        </div>
+      </div>
+
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Dilemmas (10 Units)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Future Focus</div>
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> In 20 years, will human artists be a luxury or obsolete?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> If AI can produce perfect music for your mood, will you still listen to human bands?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> Is it "cheating" for an architect to use AI to design a building?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> Should we use AI to finish incomplete works by dead masters?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Will AI-generated influencers replace real human models?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> Is creativity a biological mystery or just a logical process?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> Should governments regulate the amount of AI content on television?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> If an AI "paints" a masterpiece, can we call the AI an "artist"?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> How will AI change how we teach art in schools?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> What is the one thing AI will <em>never</em> be able to do in art?</div></div>
+        </div>
+      </div>
+
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item"><span class="mistake-wrong">It is more better</span><span class="mistake-arrow">→</span><span class="mistake-right">It is better</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/i18n.js"></script>
+<script src="../../js/core/ui.js"></script>
+<script src="../../js/data/pricing.js"></script>
+<script src="../../js/config.js"></script>
+</body>
+</html>

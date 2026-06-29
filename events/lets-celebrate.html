@@ -58,76 +58,12 @@
             <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
           </div>
           <div class="history-body" style="display: block; padding: 0; border: none;">
-            <div class="history-session" id="lc-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
-              <div class="history-session-header" onclick="COSY.toggleBlock('lc-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;font-size:.9rem;font-weight:600;background:#FAF7F2;user-select:none;">
-                <span>Lunar New Year — Traditions & Red Envelopes <span class="history-date" style="font-size:.75rem;color:var(--muted);font-weight:400;margin-left:.5rem;">10 Feb 2025</span></span>
-                <span class="round-toggle">▼</span>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Lunar New Year — Traditions &amp; Red Envelopes</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">10 Feb 2025</span>
               </div>
-              <div class="history-session-body" style="display:none;padding:1.2rem;border-top:1px solid var(--border);">
-                <div class="rounds-container" style="display:flex;flex-direction:column;gap:.8rem;">
-                  <!-- 1. WARM-UP -->
-                  <div class="round-block warm-up" id="lc-h1-warm">
-                    <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('lc-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
-                    <div class="round-body">
-                      <vim-instruction>New Year Symbols</vim-instruction>
-                      <vim-choice>
-                        <vim-choice-option>
-                          <vim-choice-option-title>Vocabulary</vim-choice-option-title>
-                          <vim-choice-option-content>
-                            <div class="vocab-item">
-                              <span class="vocab-word">Prosperity</span> – <span class="vocab-def">the state of being successful and flourishing</span>.
-                              <span class="vocab-example">Example: The red colour symbolizes prosperity.</span>
-                              <button class="btn-add-dict" onclick="COSY.addToDict({word:'Prosperity', definition:'success/wealth', example:'The red colour symbolizes prosperity.'}, this)">+ Dictionary</button>
-                            </div>
-                          </vim-choice-option-content>
-                        </vim-choice-option>
-                        <vim-choice-option>
-                          <vim-choice-option-title>Questions</vim-choice-option-title>
-                          <vim-choice-option-content><ul class="round-questions"><li>Do you have special traditions for the New Year?</li></ul></vim-choice-option-content>
-                        </vim-choice-option>
-                      </vim-choice>
-                    </div>
-                  </div>
-
-                  <!-- 2. ROUND 1 -->
-                  <div class="round-block round-1" id="lc-h1-r1">
-                    <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('lc-h1-r1')"><span>🔵 Round 1 — Cultural Trivia</span><span class="round-toggle">▼</span></div>
-                    <div class="round-body">
-                      <div class="round-type-badge">True or False</div>
-                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> Lunar New Year is only celebrated in China.</div><div class="round-item-personal">★ Is it common to see these celebrations in your city?</div></div>
-                    </div>
-                  </div>
-
-                  <!-- 3. LET'S SPEAK TOGETHER -->
-                  <div class="round-block lst" id="lc-h1-lst">
-                    <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('lc-h1-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
-                    <div class="round-body">
-                      <div class="round-type-badge">Visual Prompt</div>
-                      <p style="font-size:.8rem; text-align:center;">🏮 Lanterns vs. 🧨 Firecrackers: Which one represents the New Year better for you?</p>
-                    </div>
-                  </div>
-
-                  <!-- 4. ROUND 2 -->
-                  <div class="round-block round-2" id="lc-h1-r2">
-                    <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('lc-h1-r2')"><span>🟢 Round 2 — Future of Traditions</span><span class="round-toggle">▼</span></div>
-                    <div class="round-body">
-                      <div class="round-type-badge">Debate</div>
-                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> Are digital "red envelopes" as meaningful as physical ones?</div></div>
-                      <a href="../games/index.html?game=fluency" class="btn-play-game">Play Game 🎮</a>
-                    </div>
-                  </div>
-
-                  <!-- 5. DISCUSSION (MISTAKES) -->
-                  <div class="mistake-block" id="lc-h1-mistakes">
-                    <div class="mistake-header" onclick="COSY.toggleBlock('lc-h1-mistakes')">
-                      <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▼</span>
-                    </div>
-                    <div class="mistake-body">
-                      <div class="mistake-item"><span class="mistake-wrong">Every years</span><span class="mistake-arrow">→</span><span class="mistake-right">Every year</span></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <a href="sessions/lunar-new-year.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
             </div>
           </div>
         </div>
