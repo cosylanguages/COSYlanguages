@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inherited traits that break Mendel’s Laws — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #0F6E56, #073b2d);">
+  <div class="club-tag">Keeping Up with Science</div>
+  <h1>Scientists discover inherited traits that break Mendel’s Laws of genetics</h1>
+  <p class="session-date">30 May 2026</p>
+</header>
+<main class="content-container">
+  <a href="../keeping-up-with-science.html" class="back-link">← Back to Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇪🇸 🇮🇹 🇷🇺</p></div>
+    <div class="meta-item"><h4>Level</h4><p>Intermediate (B1)</p></div>
+    <div class="meta-item"><h4>Resources</h4><p><a href="https://www.sciencedaily.com/releases/2026/05/260530053420.htm" target="_blank">ScienceDaily 📖</a></p></div>
+  </div>
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary (10 Units)</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Epigenetics</div>
+        <div class="vocab-def">changes in gene activity that do not alter DNA itself</div>
+        <div class="vocab-example">Example: Epigenetics explains why identical DNA can produce different traits.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Epigenetics', definition:'gene activity changes without DNA alteration', example:'Epigenetics explains why identical DNA can produce different traits.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Inheritance</div>
+        <div class="vocab-def">the passing of traits from parents to children</div>
+        <div class="vocab-example">Example: Eye color is an example of genetic inheritance.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Inheritance', definition:'passing traits to offspring', example:'Eye color is an example of genetic inheritance.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Trait</div>
+        <div class="vocab-def">a characteristic of a living being</div>
+        <div class="vocab-example">Example: Height is a heritable trait.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Trait', definition:'characteristic of a living being', example:'Height is a heritable trait.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">DNA methylation</div>
+        <div class="vocab-def">a chemical process that can switch genes on or off</div>
+        <div class="vocab-example">Example: DNA methylation can silence certain genes.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'DNA methylation', definition:'process switching genes on/off', example:'DNA methylation can silence certain genes.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Allele</div>
+        <div class="vocab-def">different versions of the same gene</div>
+        <div class="vocab-example">Example: You inherit one allele from each parent.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Allele', definition:'version of a gene', example:'You inherit one allele from each parent.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Mendelian laws</div>
+        <div class="vocab-def">classic rules of inheritance discovered by Gregor Mendel</div>
+        <div class="vocab-example">Example: Mendelian laws explain dominant and recessive traits.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Mendelian laws', definition:'classic rules of inheritance', example:'Mendelian laws explain dominant and recessive traits.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Non-Mendelian inheritance</div>
+        <div class="vocab-def">inheritance that does not follow Mendel’s rules</div>
+        <div class="vocab-example">Example: Some traits show non-Mendelian inheritance patterns.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Non-Mendelian inheritance', definition:'inheritance not following Mendel rules', example:'Some traits show non-Mendelian inheritance patterns.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Gene expression</div>
+        <div class="vocab-def">the process of turning a gene into a working product</div>
+        <div class="vocab-example">Example: Gene expression determines how cells function.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Gene expression', definition:'turning gene into product', example:'Gene expression determines how cells function.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Paramutation</div>
+        <div class="vocab-def">when one gene copy changes the activity of another copy</div>
+        <div class="vocab-example">Example: Paramutation can silence or activate genes in offspring.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Paramutation', definition:'one gene copy changing another', example:'Paramutation can silence or activate genes in offspring.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Environmental influence</div>
+        <div class="vocab-def">effects of surroundings on biology or development</div>
+        <div class="vocab-example">Example: Environmental influence can affect gene activity.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Environmental influence', definition:'surroundings affecting biology', example:'Environmental influence can affect gene activity.'}, this)">+ Dictionary</button>
+      </div>
+    </div>
+  </section>
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <vim-instruction>The Rules of Biology</vim-instruction>
+          <ul class="round-questions">
+            <li>What did you learn about genetics in school?</li>
+            <li>Do you think science is mostly "fixed" or constantly changing?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Scientific Depth (10 Questions)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Analysis</div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>1.</strong> The study shows that some forms of inheritance do not follow Mendelian laws. What does this suggest about how fixed genetic rules really are?</div>
+            <div class="round-item-personal">★ Have you ever heard something in science that surprised you?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>2.</strong> How does epigenetics change the way we understand heredity beyond DNA alone?</div>
+            <div class="round-item-personal">★ Do you think school science reflects real-life science well?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>3.</strong> Why is DNA methylation important for controlling gene activity?</div>
+            <div class="round-item-personal">★ Do you think small biological processes can have big effects on life?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>4.</strong> What does it mean when a trait appears in offspring without being present in either parent?</div>
+            <div class="round-item-personal">★ Have you noticed any traits in yourself that differ from your family?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>5.</strong> How does this research challenge traditional ideas about alleles and inheritance?</div>
+            <div class="round-item-personal">★ Do you think science should be updated often in schools?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>6.</strong> Why is the discovery of non-Mendelian inheritance in mammals important?</div>
+            <div class="round-item-personal">★ Do you enjoy learning about new scientific discoveries?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>7.</strong> What role does gene expression play in differences between organisms with similar DNA?</div>
+            <div class="round-item-personal">★ Do you think people understand how the human body works well enough?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>8.</strong> How could paramutation change the way we think about genetic inheritance?</div>
+            <div class="round-item-personal">★ Would you say biology is more mysterious or more predictable?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>9.</strong> How might environmental influence affect genetic and epigenetic processes?</div>
+            <div class="round-item-personal">★ What environmental factor has influenced your life the most?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>10.</strong> What does this study suggest about the relationship between genes, epigenetics, and evolution?</div>
+            <div class="round-item-personal">★ Do you think humans will change significantly in the future?</div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🧬</span><div style="font-weight:600;">Fixed Genetics</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🌱</span><div style="font-weight:600;">Fluid Epigenetics</div></div>
+          </div>
+          <p style="margin-top:1rem; text-align:center;">Which perspective gives more hope for the future of medicine?</p>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Future Frontiers (10 Units)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Agree or Disagree</div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>1.</strong> Future biology will need to rewrite Mendelian laws because they are incomplete.</div>
+            <div class="round-item-personal">★ Do you trust scientific knowledge in general?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>2.</strong> Epigenetics will become as important as genetics in medicine.</div>
+            <div class="round-item-personal">★ Would you like to know more about your own biology?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>3.</strong> Parents should be informed about possible traits before a child is born.</div>
+            <div class="round-item-personal">★ Would you want that information for yourself or your family?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>4.</strong> DNA methylation research will help prevent many diseases in the future.</div>
+            <div class="round-item-personal">★ Do you think prevention is more important than treatment?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>5.</strong> Non-Mendelian inheritance makes predictions about heredity less reliable.</div>
+            <div class="round-item-personal">★ Do you like predictable or unpredictable things in life?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>6.</strong> Environmental influence will become as important as DNA in healthcare.</div>
+            <div class="round-item-personal">★ What lifestyle habit do you think matters most for health?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>7.</strong> Discoveries like paramutation show that biology is still full of surprises.</div>
+            <div class="round-item-personal">★ When was the last time you were surprised by science?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>8.</strong> Scientists should study alleles more deeply to understand inheritance across generations.</div>
+            <div class="round-item-personal">★ Do you think science should focus more on genetics or environment?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>9.</strong> In the future, health will depend more on epigenetics than genetics.</div>
+            <div class="round-item-personal">★ Would you trust future medical predictions about your health?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>10.</strong> Humans may have less control over inheritance than we think.</div>
+            <div class="round-item-personal">★ Do you believe we control our own lives or are we influenced more by biology?</div>
+          </div>
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item"><span class="mistake-wrong">Genetic is fixed</span><span class="mistake-arrow">→</span><span class="mistake-right">Genetics are fixed / Genetics is a fixed field</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/i18n.js"></script>
+<script src="../../js/core/ui.js"></script>
+<script src="../../js/data/pricing.js"></script>
+<script src="../../js/config.js"></script>
+</body>
+</html>
