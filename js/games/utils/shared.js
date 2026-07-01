@@ -599,13 +599,20 @@
         if (window.location.pathname.includes('/games/')) {
             const prefix = (window.COSY && window.COSY.getPrefix) ? window.COSY.getPrefix() : '../';
             const l = window.getLangCode(lang);
-            const gameDataPath = `${prefix}games/data/${l}/game_data.js`;
-            if (!document.querySelector(`script[src*="${gameDataPath}"]`)) {
-                await new Promise((resolve) => {
-                    const s = document.createElement('script');
-                    s.src = gameDataPath; s.onload = () => resolve(); s.onerror = () => resolve();
-                    document.head.appendChild(s);
-                });
+
+            const scriptsToLoad = [
+                `${prefix}games/data/universal.js`,
+                `${prefix}games/data/${l}/game_data.js`
+            ];
+
+            for (const src of scriptsToLoad) {
+                if (!document.querySelector(`script[src*="${src}"]`)) {
+                    await new Promise((resolve) => {
+                        const s = document.createElement('script');
+                        s.src = src; s.onload = () => resolve(); s.onerror = () => resolve();
+                        document.head.appendChild(s);
+                    });
+                }
             }
         }
     }
@@ -625,8 +632,9 @@
         };
 
         // 1. Load basic game data from window.gameData (hardcoded pools)
-        if (window.gameData && window.gameData[lang]) {
-            const ld = window.gameData[lang];
+        const sources = [window.gameData?.['universal'], window.gameData?.[lang]].filter(Boolean);
+
+        sources.forEach(ld => {
             ['fluency', 'opinions', 'battle', 'critic', 'identity', 'wordlinker', 'etymology', 'storychain'].forEach(k => {
                 const pool = ld[k] || ld[k.replace(/s$/, '')]; // Handle singular/plural
                 if (Array.isArray(pool)) {
@@ -641,8 +649,12 @@
                     }
                 }
             });
-            if (ld.action) data.action = JSON.parse(JSON.stringify(ld.action));
-        }
+            if (ld.action) {
+                Object.keys(ld.action).forEach(lvl => {
+                    data.action[lvl] = [...(data.action[lvl] || []), ...(ld.action[lvl] || [])];
+                });
+            }
+        });
 
         // 2. Merge specialized data from window.speakingData (modern speaking tasks)
         const s = window.speakingData?.[lang] || {};
