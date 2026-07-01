@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Science of Sleep — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #993556, #4d1a2b);">
+  <div class="club-tag">Mind Matters</div>
+  <h1>The Science of Sleep — Why our brains need rest</h1>
+  <p class="session-date">05 August 2025</p>
+</header>
+<main class="content-container">
+  <a href="../mind-matters.html" class="back-link">← Back to Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇪🇸 🇮🇹 🇷🇺</p></div>
+    <div class="meta-item"><h4>Level</h4><p>Intermediate (B1)</p></div>
+    <div class="meta-item"><h4>Resources</h4><p><a href="https://www.sleepfoundation.org/how-sleep-works" target="_blank">How Sleep Works 📖</a></p></div>
+  </div>
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary (10 Units)</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Circadian rhythm</div>
+        <div class="vocab-def">the natural internal process that regulates the sleep-wake cycle</div>
+        <div class="vocab-example">Example: Looking at blue light at night can disrupt your circadian rhythm.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Circadian rhythm', definition:'internal sleep-wake cycle', example:'Looking at blue light at night can disrupt your circadian rhythm.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Insomnia</div>
+        <div class="vocab-def">habitual sleeplessness; inability to sleep</div>
+        <div class="vocab-example">Example: Stress is one of the most common causes of temporary insomnia.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Insomnia', definition:'inability to sleep', example:'Stress is one of the most common causes of temporary insomnia.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">REM sleep</div>
+        <div class="vocab-def">Rapid Eye Movement sleep; a unique phase of sleep characterized by random movement of the eyes and dreaming</div>
+        <div class="vocab-example">Example: Most vivid dreaming occurs during the REM sleep stage.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'REM sleep', definition:'dreaming phase of sleep', example:'Most vivid dreaming occurs during the REM sleep stage.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Sleep hygiene</div>
+        <div class="vocab-def">habits and practices that are conducive to sleeping well on a regular basis</div>
+        <div class="vocab-example">Example: Good sleep hygiene includes keeping your bedroom cool and dark.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Sleep hygiene', definition:'habits for better sleep', example:'Good sleep hygiene includes keeping your bedroom cool and dark.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Cognitive function</div>
+        <div class="vocab-def">mental processes including attention, memory, and decision-making</div>
+        <div class="vocab-example">Example: Even one night of poor sleep can significantly impair cognitive function.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Cognitive function', definition:'mental processes/thinking', example:'Even one night of poor sleep can significantly impair cognitive function.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Melatonin</div>
+        <div class="vocab-def">a hormone that your brain produces in response to darkness, helping with sleep</div>
+        <div class="vocab-example">Example: Darkness triggers the release of melatonin in the brain.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Melatonin', definition:'sleep-regulating hormone', example:'Darkness triggers the release of melatonin in the brain.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Sleep deprivation</div>
+        <div class="vocab-def">the condition of not having enough sleep</div>
+        <div class="vocab-example">Example: Long-term sleep deprivation is linked to serious health problems.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Sleep deprivation', definition:'lack of enough sleep', example:'Long-term sleep deprivation is linked to serious health problems.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Consolidation</div>
+        <div class="vocab-def">the process by which the brain turns short-term memories into long-term ones</div>
+        <div class="vocab-example">Example: Sleep is essential for the consolidation of information learned during the day.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Consolidation', definition:'strengthening memories', example:'Sleep is essential for the consolidation of information learned during the day.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Nap</div>
+        <div class="vocab-def">a short sleep, especially during the day</div>
+        <div class="vocab-example">Example: A 20-minute power nap can boost alertness and mood.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Nap', definition:'short daytime sleep', example:'A 20-minute power nap can boost alertness and mood.'}, this)">+ Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Drowsiness</div>
+        <div class="vocab-def">a feeling of being sleepy and lethargic; sleepiness</div>
+        <div class="vocab-example">Example: Excessive daytime drowsiness could be a sign of a sleep disorder.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Drowsiness', definition:'feeling of sleepiness', example:'Excessive daytime drowsiness could be a sign of a sleep disorder.'}, this)">+ Dictionary</button>
+      </div>
+    </div>
+  </section>
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <vim-instruction>The Sleeping Brain</vim-instruction>
+          <ul class="round-questions">
+            <li>Are you a morning person (lark) or a night person (owl)?</li>
+            <li>What is the first thing you do if you can't fall asleep?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Analysis (10 Questions)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> Why do you think the brain needs to "shut down" every night?</div><div class="round-item-personal">★ How do you feel if you get less than 6 hours of sleep?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> What is the most common "bad habit" that affects sleep quality?</div><div class="round-item-personal">★ Do you use your phone in bed?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> How does sleep deprivation affect your emotional stability?</div><div class="round-item-personal">★ Are you more irritable or stressed when you are tired?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> Why is REM sleep important for creativity and learning?</div><div class="round-item-personal">★ Do you often remember your dreams?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> How has modern technology (screens, electricity) changed human sleep patterns?</div><div class="round-item-personal">★ Do you think our ancestors slept better than we do?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> Does your sleep schedule change significantly during the weekend?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> What are the benefits and drawbacks of taking daytime naps?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> How does caffeine influence your circadian rhythm?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> Why is memory consolidation considered one of the primary functions of sleep?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> If you could survive on only 2 hours of sleep with no side effects, would you do it?</div></div>
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+             <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🌙</span><div style="font-weight:600;">Night Owl</div></div>
+             <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">☀️</span><div style="font-weight:600;">Early Bird</div></div>
+          </div>
+          <p style="margin-top:1rem; text-align:center;">Which lifestyle is better for <em>modern</em> society?</p>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Dilemmas / Future (10 Units)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="round-item"><div class="round-item-main"><strong>1.</strong> Schools and offices should start at 10 AM to accommodate natural circadian rhythms.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2.</strong> Sleep is becoming a "luxury" for the wealthy in our hyper-connected world.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3.</strong> It is unethical for companies to expect employees to answer emails late at night.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>4.</strong> In the future, we will use brain implants to get the benefits of 8 hours of sleep in only 1 hour.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Napping at work should be socially acceptable and encouraged.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>6.</strong> Most people who claim they only need 5 hours of sleep are actually damaging their health.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>7.</strong> Dreams are just "brain noise" and have no real meaning or function.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>8.</strong> Over-relying on melatonin supplements is dangerous for natural hormone production.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>9.</strong> If you could record and watch your dreams like a movie, would you want to?</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>10.</strong> Society should value "rest" as much as it values "work".</div></div>
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item"><span class="mistake-wrong">I am sleep 8 hours</span><span class="mistake-arrow">→</span><span class="mistake-right">I sleep for 8 hours</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">I have difficult to sleep</span><span class="mistake-arrow">→</span><span class="mistake-right">I have difficulty sleeping</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">I used to slept more</span><span class="mistake-arrow">→</span><span class="mistake-right">I used to sleep more</span><span class="mistake-note-text">(Past habit with "used to")</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">It depend of the day</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends on the day</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/i18n.js"></script>
+<script src="../../js/core/ui.js"></script>
+<script src="../../js/data/pricing.js"></script>
+<script src="../../js/config.js"></script>
+</body>
+</html>
