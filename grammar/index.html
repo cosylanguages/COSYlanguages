@@ -71,15 +71,13 @@ async function loadGrammarData(lang) {
   const family = FAMILIES[lang];
   if (!family) return;
   const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
+  const levelToDir = { "starter": "A1", "elementary": "A2", "intermediate": "B1", "upper-intermediate": "B2", "advanced": "C1", "proficiency": "C2" };
   const promises = levels.map(lv => {
     return new Promise((resolve) => {
       const s = document.createElement("script");
-      // Prioritize vocabulary directory for corrected A2 data
-      if (lv === 'elementary') {
-          s.src = `../vocabulary/${lang}/A2/verbs.js`;
-      } else {
-          s.src = `../js/data/${family}/${lv}/verbs.js`;
-      }
+      const dir = levelToDir[lv];
+      // Prioritize vocabulary directory for all levels
+      s.src = `../vocabulary/${lang}/${dir}/verbs.js`;
       s.onload = () => resolve();
       s.onerror = () => {
           // Fallback to js/data if vocabulary/ fails
@@ -99,6 +97,7 @@ async function loadNounData(lang) {
   const family = FAMILIES[lang];
   if (!family) return;
   const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
+  const levelToDir = { "starter": "A1", "elementary": "A2", "intermediate": "B1", "upper-intermediate": "B2", "advanced": "C1", "proficiency": "C2" };
   const files = ["vocabulary.js", "adjectives.js"];
   const promises = [];
 
@@ -106,11 +105,9 @@ async function loadNounData(lang) {
     files.forEach(f => {
       promises.push(new Promise((resolve) => {
         const s = document.createElement("script");
-        if (lv === 'elementary' && f === 'vocabulary.js') {
-            s.src = `../vocabulary/${lang}/A2/vocabulary.js`;
-        } else {
-            s.src = `../js/data/${family}/${lv}/${f}`;
-        }
+        const dir = levelToDir[lv];
+        // Prioritize vocabulary directory for all levels
+        s.src = `../vocabulary/${lang}/${dir}/${f}`;
         s.onload = () => resolve();
         s.onerror = () => {
             const s2 = document.createElement("script");
