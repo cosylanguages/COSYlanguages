@@ -27,24 +27,23 @@ const LANGS = ['en', 'fr', 'it', 'ru', 'el', 'es', 'de', 'pt', 'hy', 'ka', 'tt',
 const LEVELS = ['starter', 'elementary', 'intermediate', 'upper', 'advanced', 'proficiency'];
 const GAME_KEYS = ['fluency', 'opinions', 'battle', 'critic', 'identity', 'wordlinker', 'etymology', 'action'];
 
-// Load the shared logic
-// We need to extract getGameData logic since we can't easily run the IIFE in Node without more mocking
-// But for the audit, we can replicate it.
-
 function getGameDataMock(lang, level, vocabularyData, speakingData, gameData, phrasesData) {
     const data = {
         fluency: [], opinions: [], battle: [], critic: [],
         action: {}, identity: [], wordlinker: [], etymology: [], storychain: []
     };
 
-    // 1. Game Data
+    // 1. Game Data (handcrafted)
     if (gameData && gameData[lang]) {
         const ld = gameData[lang];
         ['fluency', 'opinions', 'battle', 'critic', 'identity', 'wordlinker', 'etymology', 'storychain'].forEach(k => {
             const pool = ld[k] || ld[k.replace(/s$/, '')];
             if (Array.isArray(pool)) {
                 if (level !== 'all') {
-                    data[k] = pool.filter(item => !item.level || window.getLevelCode(item.level) === level);
+                    data[k] = pool.filter(item => {
+                        if (typeof item === 'string') return true;
+                        return !item.level || window.getLevelCode(item.level) === level;
+                    });
                 } else {
                     data[k] = [...pool];
                 }
@@ -61,19 +60,13 @@ function getGameDataMock(lang, level, vocabularyData, speakingData, gameData, ph
         data[key] = [...(data[key] || []), ...filtered];
     };
 
-    mergeSpecialized('fluency', [...(s.talkThatTalk || []), ...(s.fluency || []), ...(s.talk_that_talk || [])]);
-    mergeSpecialized('opinions', [...(s.opinions || []), ...(s.opinionArena || []), ...(s.opinion_arena || [])]);
-    mergeSpecialized('battle', [...(s.debates || []), ...(s.battleOfWits || []), ...(s.battle_of_wits || [])]);
-    mergeSpecialized('critic', [...(s.quotes || []), ...(s.criticsCorner || []), ...(s.critics_corner || [])]);
+    mergeSpecialized('fluency', [...(s.fluency || [])]);
+    mergeSpecialized('opinions', [...(s.opinions || [])]);
+    mergeSpecialized('battle', [...(s.debates || [])]);
+    mergeSpecialized('critic', [...(s.quotes || [])]);
 
     // 3. Enrichment
     let vocabPool = vocabularyData[lang] || [];
-    if (phrasesData[lang]) {
-        Object.values(phrasesData[lang]).flat().forEach(p => {
-            vocabPool.push({ word: p.phrase, theme: 'phrases_idioms', level: p.level || 'starter' });
-        });
-    }
-
     const filteredVocab = level === 'all' ? vocabPool : vocabPool.filter(v => v.level && window.getLevelCode(v.level) === level);
 
     if (filteredVocab.length > 0) {
@@ -87,7 +80,7 @@ function getGameDataMock(lang, level, vocabularyData, speakingData, gameData, ph
             if (level !== 'all' && window.getLevelCode(lvl) !== level) continue;
             const words = filteredVocab.filter(v => themes[lvl].some(t => v.theme && v.theme.includes(t)));
             if (words.length > 0) {
-                const shortLvl = lvl; // Simplified for audit
+                const shortLvl = lvl;
                 data.action[shortLvl] = [...(data.action[shortLvl] || []), ...words];
             }
         }
@@ -97,16 +90,17 @@ function getGameDataMock(lang, level, vocabularyData, speakingData, gameData, ph
         data.etymology = [...(data.etymology || []), ...etymVocab];
 
         // Word Linker
-        const themeGroups = {};
-        filteredVocab.forEach(v => {
-            if (!v.theme) return;
-            if (!themeGroups[v.theme]) themeGroups[v.theme] = [];
-            themeGroups[v.theme].push(v.word);
-        });
-        const themesWithEnoughWords = Object.keys(themeGroups).filter(th => themeGroups[th].length >= 3);
-        if (themesWithEnoughWords.length >= 2) {
-             // Mocking wordlinker sets
-             data.wordlinker = new Array(10).fill({});
+        if (data.wordlinker.length === 0) {
+            const themeGroups = {};
+            filteredVocab.forEach(v => {
+                if (!v.theme) return;
+                if (!themeGroups[v.theme]) themeGroups[v.theme] = [];
+                themeGroups[v.theme].push(v.word);
+            });
+            const themesWithEnoughWords = Object.keys(themeGroups).filter(th => themeGroups[th].length >= 3);
+            if (themesWithEnoughWords.length >= 2) {
+                 data.wordlinker = new Array(10).fill({});
+            }
         }
     }
 
@@ -119,56 +113,63 @@ function loadData() {
     const gameData = {};
     const phrasesData = {};
 
+    const manifestPath = path.join(__dirname, '..', 'vocabulary', 'manifest.json');
+    const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+
     LANGS.forEach(lang => {
         vocabularyData[lang] = [];
-        speakingData[lang] = {};
+        speakingData[lang] = { fluency:[], opinions:[], debates:[], quotes:[] };
         gameData[lang] = {};
         phrasesData[lang] = {};
 
-        // Load Vocab
-        LEVELS.forEach(level => {
-            const levelId = window.getLevelCode(level).toUpperCase(); // Files are A1.js, B1.js etc? No, Starter/Elementary
-            const dirMap = { starter: 'A1', elementary: 'A2', intermediate: 'B1', upper: 'B2', advanced: 'C1', proficiency: 'C2' };
-            const dir = dirMap[level];
-            const vocabPath = path.join(__dirname, '..', 'vocabulary', lang, dir, 'vocabulary.js');
-            if (fs.existsSync(vocabPath)) {
-                const content = fs.readFileSync(vocabPath, 'utf8');
-                // Extract array from IIFE
-                const match = content.match(/const data = (\[[\s\S]*?\]);/);
-                if (match) {
-                    try {
-                        const data = eval(match[1]);
-                        vocabularyData[lang] = [...vocabularyData[lang], ...data];
-                    } catch(e) {}
-                }
-            }
-        });
+        const langManifest = manifest[lang] || {};
 
-        // Load Speaking
-        const speakingPath = path.join(__dirname, '..', 'vocabulary', lang, 'speaking.js');
-        if (fs.existsSync(speakingPath)) {
-            const content = fs.readFileSync(speakingPath, 'utf8');
-             // This is harder to parse as it's multiple arrays.
-             // We'll just look for length of talkThatTalk, opinions, etc.
-             ['talkThatTalk', 'opinions', 'debates', 'quotes'].forEach(key => {
-                 const regex = new RegExp(`const ${key} = (\\[[\\s\\S]*?\\]);`);
-                 const match = content.match(regex);
-                 if (match) {
-                     try {
-                         speakingData[lang][key] = eval(match[1]);
-                     } catch(e) {}
-                 }
-             });
+        for (const [level, files] of Object.entries(langManifest)) {
+            const levelDir = path.join(__dirname, '..', 'vocabulary', lang, level);
+            files.forEach(file => {
+                const filePath = path.join(levelDir, file);
+                if (fs.existsSync(filePath)) {
+                    const content = fs.readFileSync(filePath, 'utf8');
+                    const match = content.match(/const data = (\[[\s\S]*?\]);/);
+                    if (match) {
+                        try {
+                            const rawData = eval(match[1]);
+                            if (file === 'fluency.js' || file === 'speaking.js') {
+                                speakingData[lang].fluency.push(...rawData);
+                            } else if (file === 'opinions.js') {
+                                speakingData[lang].opinions.push(...rawData);
+                            } else if (file === 'debates.js') {
+                                speakingData[lang].debates.push(...rawData);
+                            } else if (file === 'quotes.js') {
+                                speakingData[lang].quotes.push(...rawData);
+                            } else {
+                                vocabularyData[lang] = [...vocabularyData[lang], ...rawData];
+                            }
+                        } catch(e) {}
+                    }
+
+                    // Legacy named arrays
+                    ['talkThatTalk', 'opinions', 'debates', 'quotes'].forEach(key => {
+                        const regex = new RegExp(`const ${key} = (\\[[\\s\\S]*?\\]);`);
+                        const lMatch = content.match(regex);
+                        if (lMatch) {
+                            try {
+                                const rawData = eval(lMatch[1]);
+                                const target = key === 'talkThatTalk' ? 'fluency' : key;
+                                speakingData[lang][target].push(...rawData);
+                            } catch(e) {}
+                        }
+                    });
+                }
+            });
         }
 
-        // Load Game Data
         const gameDataPath = path.join(__dirname, '..', 'games', 'data', lang, 'game_data.js');
         if (fs.existsSync(gameDataPath)) {
             const content = fs.readFileSync(gameDataPath, 'utf8');
             const match = content.match(/window\.gameData\[lang\] = (\{[\s\S]*?\});/);
             if (match) {
                 try {
-                    // This eval might fail if it refers to local variables, but game_data.js are usually self-contained
                     gameData[lang] = eval(`(function(){ const lang='${lang}'; return ${match[1]}; })()`);
                 } catch(e) {}
             }
@@ -198,7 +199,7 @@ LEVELS.forEach(level => {
             if (key === 'action') {
                 count = Object.values(data.action).flat().length;
             } else {
-                count = data[key].length;
+                count = data[key] ? data[key].length : 0;
             }
             row += `${count < THRESHOLD ? '⚠️ ' : ''}${count} | `;
         });
@@ -207,5 +208,6 @@ LEVELS.forEach(level => {
     report += '\n';
 });
 
-fs.writeFileSync(path.join(__dirname, '..', 'scripts', 'output', 'game-data-audit.md'), report);
+const outputPath = path.join(__dirname, '..', 'scripts', 'output', 'game-data-audit.md');
+fs.writeFileSync(outputPath, report);
 console.log('Audit report generated in scripts/output/game-data-audit.md');
