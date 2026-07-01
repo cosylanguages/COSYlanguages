@@ -458,6 +458,136 @@
                 "What does jealousy really say about a person?"
             ]
         }
+    },
+    {
+        "id": "en_intermediate_psychology_003",
+        "word": "Introverts make better leaders than extroverts in the modern world.",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "psychology",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Introverts make better leaders than extroverts in the modern world.",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "🧘",
+        "_legacy": {
+            "t": "Introverts as Leaders",
+            "h": [
+                "Do you consider yourself an introvert or an extrovert?",
+                "What are the strengths of a quiet leader?",
+                "Is leadership always about being the loudest person in the room?",
+                "How does the modern workplace favor different personality types?",
+                "Can someone learn to be a better leader regardless of their type?"
+            ]
+        }
+    },
+    {
+        "id": "en_intermediate_technology_003",
+        "word": "The 'Right to be Forgotten' online should be a universal human right.",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "technology",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The 'Right to be Forgotten' online should be a universal human right.",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "🗑️",
+        "_legacy": {
+            "t": "Right to be Forgotten",
+            "h": [
+                "Should your digital mistakes follow you forever?",
+                "Who should decide what information is deleted?",
+                "Does this right conflict with freedom of speech or history?",
+                "Have you ever wanted to delete something from your past online?",
+                "How does knowing everything is recorded change how you behave?"
+            ]
+        }
+    },
+    {
+        "id": "en_intermediate_social_055",
+        "word": "Living in a 'Smart City' sounds more like a nightmare than a dream.",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Living in a 'Smart City' sounds more like a nightmare than a dream.",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "🏙️",
+        "_legacy": {
+            "t": "Smart City Life",
+            "h": [
+                "What are the benefits of a city run by data?",
+                "Do you worry about constant surveillance in a smart city?",
+                "Is efficiency more important than privacy and human spontaneity?",
+                "Would you prefer to live in a tech-driven city or a traditional one?",
+                "What happens if the systems fail?"
+            ]
+        }
+    },
+    {
+        "id": "en_intermediate_environment_007",
+        "word": "Ecotourism is just a clever marketing trick, not a real solution.",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "environment",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Ecotourism is just a clever marketing trick, not a real solution.",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "🌿",
+        "_legacy": {
+            "t": "Ecotourism vs Reality",
+            "h": [
+                "Have you ever stayed in an 'eco-friendly' hotel?",
+                "Can tourism ever truly be sustainable?",
+                "Is it better to travel responsibly or not travel at all?",
+                "How do local communities benefit or suffer from ecotourism?",
+                "What makes a travel experience truly ethical?"
+            ]
+        }
+    },
+    {
+        "id": "en_intermediate_work_033",
+        "word": "The 4-day work week will eventually become the global standard.",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The 4-day work week will eventually become the global standard.",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "📅",
+        "_legacy": {
+            "t": "4-Day Work Week",
+            "h": [
+                "Would you prefer 4 long days or 5 normal days?",
+                "Does having more free time make you more productive?",
+                "Which industries could never switch to a 4-day week?",
+                "How would society change if everyone had a 3-day weekend?",
+                "Is our identity too closely tied to our jobs?"
+            ]
+        }
     }
 ];
     const lang = "en";

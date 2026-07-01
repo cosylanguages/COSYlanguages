@@ -2319,6 +2319,151 @@
                 "Talking to an animal feels more social and less lonely than talking to yourself."
             ]
         }
+    },
+    {
+        "id": "en_intermediate_psychology_003",
+        "word": "Artificial Intelligence in therapy vs human therapists — can a machine truly understand us?",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "psychology",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Artificial Intelligence in therapy vs human therapists — can a machine truly understand us?",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "🤖",
+        "_legacy": {
+            "topic": "AI vs Human Therapists",
+            "sideA": "AI Therapy",
+            "sideB": "Human Therapist",
+            "ideasA": [
+                "AI is available 24/7 and doesn't judge you for your thoughts.",
+                "It is much more affordable and accessible for people in remote areas."
+            ],
+            "ideasB": [
+                "Only a human can offer genuine empathy and shared life experience.",
+                "Non-verbal cues and intuition are essential for deep psychological healing."
+            ]
+        }
+    },
+    {
+        "id": "en_intermediate_technology_002",
+        "word": "Digital minimalism vs being fully connected — which leads to a more focused life?",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "technology",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Digital minimalism vs being fully connected — which leads to a more focused life?",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "📵",
+        "_legacy": {
+            "topic": "Digital Minimalism vs Connectivity",
+            "sideA": "Minimalism",
+            "sideB": "Full Connectivity",
+            "ideasA": [
+                "Removing distractions allows for deeper focus and more meaningful offline hobbies.",
+                "It reduces anxiety caused by constant notifications and social comparison."
+            ],
+            "ideasB": [
+                "Being connected ensures you never miss important opportunities or news.",
+                "Technology can be used to enhance productivity if managed correctly."
+            ]
+        }
+    },
+    {
+        "id": "en_intermediate_furniture_001",
+        "word": "Smart homes vs traditional living — does automation make life better or lazier?",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "furniture",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Smart homes vs traditional living — does automation make life better or lazier?",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "🏠",
+        "_legacy": {
+            "topic": "Smart Homes vs Traditional",
+            "sideA": "Smart Home",
+            "sideB": "Traditional",
+            "ideasA": [
+                "Automation saves energy and time on mundane household chores.",
+                "Smart devices can improve home security and elderly care."
+            ],
+            "ideasB": [
+                "Over-reliance on technology makes us less capable of basic tasks.",
+                "Smart devices introduce privacy risks and potential for technical failure."
+            ]
+        }
+    },
+    {
+        "id": "en_intermediate_social_054",
+        "word": "Slow living vs the hustle culture — which path leads to true success?",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Slow living vs the hustle culture — which path leads to true success?",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "🐢",
+        "_legacy": {
+            "topic": "Slow Living vs Hustle Culture",
+            "sideA": "Slow Living",
+            "sideB": "Hustle Culture",
+            "ideasA": [
+                "Prioritizing quality over quantity leads to better mental health and satisfaction.",
+                "It allows for stronger connections with family and nature."
+            ],
+            "ideasB": [
+                "Hard work and high speed are necessary to achieve big goals in a competitive world.",
+                "The energy of the 'hustle' can be incredibly motivating and productive."
+            ]
+        }
+    },
+    {
+        "id": "en_intermediate_travel_004",
+        "word": "Virtual reality travel vs physical travel — will we stop flying in the future?",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "travel",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Virtual reality travel vs physical travel — will we stop flying in the future?",
+                "examples": []
+            }
+        ],
+        "transcription": "-",
+        "emoji": "🥽",
+        "_legacy": {
+            "topic": "VR Travel vs Physical Travel",
+            "sideA": "VR Travel",
+            "sideB": "Physical Travel",
+            "ideasA": [
+                "VR is carbon-neutral and allows you to visit dangerous or impossible places.",
+                "It is much cheaper and requires no stressful airport security or packing."
+            ],
+            "ideasB": [
+                "Travel is about smells, tastes, and unexpected human encounters that VR cannot replicate.",
+                "Physical distance helps you truly disconnect and gain a new perspective on life."
+            ]
+        }
     }
 ];
     const lang = "en";
