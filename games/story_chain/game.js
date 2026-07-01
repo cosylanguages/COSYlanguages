@@ -49,11 +49,17 @@
             if (pool.length === 0 && vocab.length > 10) pool = vocab.map(v => v.word);
             if (pool.length === 0) pool = (data.action ? Object.values(data.action).flat() : ['Adventure', 'Friendship', 'Travel']);
 
+            const drawBag = gameUtils.createDrawBag(pool);
             const body = document.getElementById('go-body');
-            let currentWord = pick(pool);
+            let currentWord = null;
 
             const renderStory = (reveal = false) => {
+                if (!currentWord) currentWord = drawBag.next();
                 body.innerHTML = `
+                  <div class="score-bar">
+                    <div class="sb-item"><div class="sb-val" id="sc-score">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
+                    <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Round</div></div>
+                  </div>
                     <div class="game-card">
                         <div class="game-label">🤫 Host only — keep secret!</div>
                         <div class="game-prompt" id="sc-word">${currentWord}</div>
@@ -76,10 +82,14 @@
             };
 
             window.COSY_GAME.scAdd = () => {
+                if (!COSYGame.nextRound()) {
+                    COSY_GAME.renderEnd();
+                    return;
+                }
                 const input = document.getElementById('sc-input');
                 if (!input || !input.value.trim()) return;
                 story.push({ sentence: input.value.trim(), word: currentWord });
-                currentWord = pick(pool);
+                currentWord = drawBag.next();
                 COSYGame.addScore(10);
                 renderStory();
             };
@@ -89,7 +99,25 @@
             renderStory();
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+            document.getElementById('go-body').innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🏆</div>
+                    <div class="re-title">Story Complete!</div>
+                    <div class="re-sub">Your final score: <strong>${COSYGame.score}</strong></div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);

@@ -52,22 +52,17 @@
               questions = [{ word: 'Error', options: ['None'], answer: 'None', detail: 'No data found for this level.' }];
             }
 
-            // Shuffle questions
-            questions = shuffle(questions);
+            const drawBag = gameUtils.createDrawBag(questions);
 
             const nextQuestion = () => {
-                if (COSYGame.isOver()) {
+                if (!COSYGame.nextRound()) {
                     this.renderEnd();
                     return;
                 }
 
-                const q = questions[questionCount % questions.length];
+                const q = drawBag.next();
                 const body = document.getElementById('go-body');
-                questionCount++;
-                COSYGame.round = questionCount;
                 const shuffledOptions = shuffle(q.options);
-
-                const escape = (str) => (str || "").replace(/'/g, "\\'").replace(/"/g, "&quot;");
 
                 body.innerHTML = `
                   <div class="score-bar">
@@ -78,14 +73,22 @@
                     <div class="game-label">Where does this word come from?</div>
                     <div class="etymology-word" style="font-size: 2.5rem; font-weight: 800; color: var(--ink); margin: 1.5rem 0; font-family: 'Fraunces', serif;">${q.word}</div>
                     <div class="word-options">
-                      ${shuffledOptions.map(opt => `<button class="word-opt" onclick="COSY_GAME.guess(this, '${escape(opt)}', '${escape(q.answer)}', '${escape(q.detail)}', '${escape(q.path)}')">${opt}</button>`).join('')}
+                      ${shuffledOptions.map(opt => `<button class="word-opt" data-opt="${gameUtils.escapeAttr(opt)}" data-answer="${gameUtils.escapeAttr(q.answer)}" data-detail="${gameUtils.escapeAttr(q.detail)}" data-path="${gameUtils.escapeAttr(q.path || "")}">${opt}</button>`).join('')}
                     </div>
                     <div class="feedback-bar" id="et-fb"></div>
                     <div class="game-controls">
-                      <button class="btn-g-primary" id="et-next" onclick="COSY_GAME._nextQ()" style="display:none">Next Word →</button>
-                      <button class="btn-g-danger" onclick="COSY_GAME.reset()">⬅ Exit</button>
+                      <button class="btn-g-primary" id="et-next" style="display:none">Next Word →</button>
+                      <button class="btn-g-danger" id="et-reset">⬅ Exit</button>
                     </div>
                   </div>`;
+
+                body.querySelectorAll('.word-opt').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        COSY_GAME.guess(btn, btn.dataset.opt, btn.dataset.answer, btn.dataset.detail, btn.dataset.path);
+                    });
+                });
+                document.getElementById('et-next').addEventListener('click', () => COSY_GAME._nextQ());
+                document.getElementById('et-reset').addEventListener('click', () => COSY_GAME.reset());
             };
             window.COSY_GAME._nextQ = nextQuestion;
 
@@ -117,11 +120,16 @@
         },
 
         renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
             const body = document.getElementById('go-body');
             body.innerHTML = `
                 <div class="setup-screen">
                   <h2>Journey Complete! 📜</h2>
                   <div class="final-score" style="font-size: 3rem; font-weight: 800; color: var(--teal); margin: 1rem 0;">${COSYGame.score}</div>
+                  ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
                   <p>You've explored the roots of many words. Keep practicing to become a master etymologist!</p>
                   <div style="display:flex; gap:1rem; justify-content:center; margin-top:2rem;">
                     <button class="btn-start-game" onclick="COSY_GAME.start()">Play Again</button>

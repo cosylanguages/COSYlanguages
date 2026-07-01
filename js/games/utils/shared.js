@@ -407,6 +407,45 @@
         return n.toString();
     };
 
+    const escapeAttr = (str) => {
+        if (typeof str !== 'string') return str;
+        return str
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    };
+
+    const createDrawBag = (items) => {
+        if (!Array.isArray(items) || items.length === 0) {
+            return { next: () => null };
+        }
+        let pool = [];
+        let lastItem = null;
+
+        const fillAndShuffle = () => {
+            pool = [...items];
+            for (let i = pool.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [pool[i], pool[j]] = [pool[j], pool[i]];
+            }
+            // Avoid back-to-back repeat across reshuffle
+            if (pool.length > 1 && pool[pool.length - 1] === lastItem) {
+                const swapIdx = Math.floor(Math.random() * (pool.length - 1));
+                [pool[pool.length - 1], pool[swapIdx]] = [pool[swapIdx], pool[pool.length - 1]];
+            }
+        };
+
+        return {
+            next() {
+                if (pool.length === 0) fillAndShuffle();
+                lastItem = pool.pop();
+                return lastItem;
+            }
+        };
+    };
+
     const populateThemes = (themeSelect, levelSelect, lang, dataSourceType = 'vocab') => {
         if (!themeSelect) return;
         const level = levelSelect ? levelSelect.value : 'all';
@@ -757,6 +796,7 @@
 
     window.gameUtils = {
         getLang, t, startTimer, stopTimer, renderTimerRing, updateTimerRing, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, getVocabPool, filterVocabulary, showGameMessage, showGameConfirm, getNumberWord, gameSpeak: speak, mulberry32, populateThemes, isThemeMatch, addGamePoints,
-        loadLevelData, getGameData
+        loadLevelData, getGameData,
+        escapeAttr, createDrawBag
     };
 })();

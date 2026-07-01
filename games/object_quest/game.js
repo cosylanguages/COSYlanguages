@@ -60,14 +60,26 @@
             }
 
             if (objects.length < 5) {
-                body.innerHTML = '<div class="game-card">Not enough vocabulary in this category. Try another! <button onclick="COSY_GAME.reset()">Back</button></div>';
+                body.innerHTML = '<div class="game-card">Not enough vocabulary in this category. Try another! <button id="oq-back">Back</button></div>';
+                document.getElementById('oq-back').onclick=()=>COSY_GAME.reset();
                 return;
             }
 
-            let current = pick(objects), hints = 0;
+            if (!this.drawBag) {
+                this.drawBag = gameUtils.createDrawBag(objects);
+            }
+            let current = this.drawBag.next(), hints = 0;
 
             const renderQuest = () => {
+                if (!COSYGame.nextRound()) {
+                    COSY_GAME.renderEnd();
+                    return;
+                }
                 body.innerHTML = `
+                  <div class="score-bar">
+                    <div class="sb-item"><div class="sb-val">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
+                    <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Quest</div></div>
+                  </div>
                     <div class="game-card">
                         <div class="game-label">📦 Your Object</div>
                         <div class="game-prompt" style="font-size:2rem">${current.word} ${current.emoji || ''}</div>
@@ -88,11 +100,52 @@
                     </div>`;
             };
 
-            window.COSY_GAME.oqHint = () => { hints++; renderQuest(); };
+            window.COSY_GAME.oqHint = () => { hints++; this._render(); };
+            const render = () => {
+                body.innerHTML = `
+                    <div class="game-card">
+                        <div class="game-label">📦 Your Object</div>
+                        <div class="game-prompt" style="font-size:2rem">${current.word} ${current.emoji || ''}</div>
+                        <div class="game-sub">Describe this to others. Give clues about size, color, or where it is found.</div>
+                    </div>
+                    <div class="game-card" id="hint-card" style="display:${hints > 0 ? 'block' : 'none'}">
+                        <div class="game-label">💡 Help Clues</div>
+                        <div id="hint-list" style="font-size:.9rem; line-height:1.6">
+                            ${hints >= 1 ? `<div>• It starts with <strong>${current.word[0].toUpperCase()}</strong></div>` : ''}
+                            ${hints >= 2 ? `<div>• It has <strong>${current.word.length}</strong> letters</div>` : ''}
+                            ${hints >= 3 ? `<div>• Definition: <em>${current.definitions?.[0]?.text || '...'}</em></div>` : ''}
+                        </div>
+                    </div>
+                    <div class="game-controls">
+                        <button class="btn-g-primary" onclick="COSY_GAME.oqHint()">Give a hint</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.start()">Next object →</button>
+                        <button class="btn-g-danger" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>`;
+            };
+            this._render = render;
+
             renderQuest();
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+            document.getElementById('go-body').innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🏆</div>
+                    <div class="re-title">Quest Over!</div>
+                    <div class="re-sub">Your final score: <strong>${COSYGame.score}</strong></div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);

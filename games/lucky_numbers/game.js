@@ -64,8 +64,8 @@
                         <div class="game-prompt" id="bingo-call" style="font-size:5rem">${isListening ? '👂' : '---'}</div>
                         <div class="game-sub" id="bingo-call-word">Get ready to call!</div>
                         <div class="game-controls" style="justify-content:center; margin-top:2rem">
-                            <button class="btn-g-primary" onclick="COSY_GAME.bingoNext()">Next Item 🎲</button>
-                            <button class="btn-g-danger" onclick="COSY_GAME.reset()">Stop</button>
+                            <button class="btn-g-primary" id="btn-bingo-next">Next Item 🎲</button>
+                            <button class="btn-g-danger" id="btn-bingo-stop">Stop</button>
                         </div>
                         <div id="bingo-history" style="margin-top:1.5rem; font-size:.8rem; opacity:.6; word-wrap:break-word"></div>
                     </div>`;
@@ -73,23 +73,31 @@
                 let pool = [];
                 if (type.includes('Alphabet')) {
                     const alpha = (window.alphabetsData && window.alphabetsData[lang]) ? window.alphabetsData[lang].split('') : 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-                    pool = shuffle(alpha);
+                    pool = alpha;
                 } else if (type.includes('Bingo 1')) {
-                    pool = shuffle(Array.from({length: 10}, (_, i) => i));
+                    pool = Array.from({length: 10}, (_, i) => i);
                 } else if (type.includes('Bingo 2')) {
-                    pool = shuffle(Array.from({length: 10}, (_, i) => i + 10));
+                    pool = Array.from({length: 10}, (_, i) => i + 10);
                 } else if (type.includes('Bingo 3')) {
-                    pool = shuffle(Array.from({length: 80}, (_, i) => i + 20));
+                    pool = Array.from({length: 80}, (_, i) => i + 20);
                 } else {
-                    pool = shuffle(Array.from({length: 100}, (_, i) => i));
+                    pool = Array.from({length: 100}, (_, i) => i);
                 }
 
+                const drawBag = gameUtils.createDrawBag(pool);
+                const maxItems = pool.length;
+                let drawnCount = 0;
+
+                document.getElementById('btn-bingo-next').addEventListener('click', () => COSY_GAME.bingoNext());
+                document.getElementById('btn-bingo-stop').addEventListener('click', () => COSY_GAME.reset());
+
                 window.COSY_GAME.bingoNext = () => {
-                    if (!pool.length) {
+                    if (drawnCount >= maxItems) {
                         document.getElementById('bingo-call-word').textContent = 'Pool empty!';
                         return;
                     }
-                    const item = pool.pop();
+                    const item = drawBag.next();
+                    drawnCount++;
                     const callEl = document.getElementById('bingo-call');
                     if (isListening) {
                         callEl.textContent = '👂';
@@ -103,7 +111,15 @@
                     if (gameUtils?.speak) gameUtils.speak(item.toString(), lang);
                 };
             } else {
+                if (!COSYGame.nextRound()) {
+                    COSY_GAME.renderEnd();
+                    return;
+                }
                 body.innerHTML = `
+                  <div class="score-bar">
+                    <div class="sb-item"><div class="sb-val">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
+                    <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Card</div></div>
+                  </div>
                     <div class="game-card" style="text-align:center">
                         <div class="game-label">🃏 Your Bingo Card</div>
                         <div id="bingo-grid" class="bingo-grid" style="display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:1.5rem 0"></div>
@@ -138,14 +154,55 @@
                     cell.textContent = n;
                     cell.onclick = () => {
                         cell.classList.toggle('correct');
-                        if (cell.classList.contains('correct')) COSYGame.addScore(5);
+                        if (cell.classList.contains('correct')) {
+                            COSYGame.addScore(5);
+                            checkWin();
+                        }
                     };
                     grid.appendChild(cell);
                 });
+
+                function checkWin() {
+                    const cells = Array.from(grid.children);
+                    const isCorrect = (idx) => cells[idx].classList.contains('correct');
+
+                    const lines = [
+                        [0, 1, 2], [3, 4, 5], [6, 7, 8], // Rows
+                        [0, 3, 6], [1, 4, 7], [2, 5, 8], // Cols
+                        [0, 4, 8], [2, 4, 6]             // Diagonals
+                    ];
+
+                    for (const line of lines) {
+                        if (line.every(isCorrect)) {
+                            gameUtils.showGameMessage(body, "BINGO! 🎉", "success");
+                            gameUtils.createConfetti();
+                            COSYGame.addScore(50);
+                            break;
+                        }
+                    }
+                }
             }
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+            document.getElementById('go-body').innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🏆</div>
+                    <div class="re-title">Game Over!</div>
+                    <div class="re-sub">Your final score: <strong>${COSYGame.score}</strong></div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);

@@ -46,6 +46,7 @@
 
             await COSYLoader.loadLevelData(lang, level);
             COSYGame.init(GAME_ID, lang, level);
+            COSYGame.maxRounds = 5;
 
             const data = COSYLoader.getGameData(lang);
             const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
@@ -78,49 +79,80 @@
                 }
             });
 
-            const identity = pick(uniquePool) || {person:'Teacher', clue:'They help you learn.'};
-            const body = document.getElementById('go-body');
-            let questions = 0, maxQ = 20;
+            const drawBag = gameUtils.createDrawBag(uniquePool.length ? uniquePool : [{person:'Teacher', clue:'They help you learn.'}]);
 
-            body.innerHTML = `
-              <div class="game-card">
-                <div class="game-label">👤 Host only — keep this secret!</div>
-                <div class="game-prompt">${identity.person}</div>
-                <div class="game-sub">Clue for you: "${identity.clue}"<br><br>Others ask yes/no questions. You can only answer: <strong>Yes / No / Maybe / Partly</strong>.</div>
-              </div>
-              <div class="game-card">
-                <div class="game-label">💬 Questions asked</div>
-                <div style="font-family:'Fraunces',serif;font-size:2rem;font-weight:600;color:var(--teal);margin-bottom:.3rem" id="im-qcount">0 / ${maxQ}</div>
-                <div style="font-size:.82rem;color:var(--ink-muted);margin-bottom:1rem">Each click records a question.</div>
-                <div class="game-controls">
-                  <button class="btn-g-primary" onclick="COSY_GAME.imQuestion(${maxQ}, '${identity.person.replace(/'/g,"\\'")}')">+1 Question asked</button>
-                  <button class="btn-g-secondary" onclick="COSY_GAME.imReveal('${identity.person.replace(/'/g,"\\'")}')">🎉 They guessed it!</button>
-                  <button class="btn-g-danger" onclick="COSY_GAME.start()">New identity ↺</button>
-                </div>
-              </div>`;
+            const nextIM = () => {
+                if (!COSYGame.nextRound()) {
+                    COSY_GAME.renderEnd();
+                    return;
+                }
+                const identity = drawBag.next();
+                const body = document.getElementById('go-body');
+                let questions = 0, maxQ = 20;
 
-            window.COSY_GAME.imQuestion = (max, person) => {
-              questions++;
-              document.getElementById('im-qcount').textContent = `${questions} / ${max}`;
-              if (questions >= max) window.COSY_GAME.imReveal(person);
-            };
-            window.COSY_GAME.imReveal = (person) => {
-              COSYGame.score = Math.max(0, (maxQ - questions) * 5);
-              COSYScores.save(GAME_ID, lang, level, COSYGame.score);
-              body.innerHTML = `
-                <div class="round-end">
-                  <div class="re-icon">🎉</div>
-                  <div class="re-title">${person}</div>
-                  <div class="re-sub">Guessed in ${questions} question${questions !== 1 ? 's' : ''}!</div>
-                  <div class="re-actions">
-                    <button class="btn-g-primary" onclick="COSY_GAME.start()">New identity ↺</button>
-                    <button class="btn-g-secondary" onclick="location.href='../index.html'">Back to Hub</button>
+                body.innerHTML = `
+                  <div class="score-bar">
+                    <div class="sb-item"><div class="sb-val" id="im-score">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
+                    <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Round</div></div>
                   </div>
-                </div>`;
+                  <div class="game-card">
+                    <div class="game-label">👤 Host only — keep this secret!</div>
+                    <div class="game-prompt">${identity.person}</div>
+                    <div class="game-sub">Clue for you: "${identity.clue}"<br><br>Others ask yes/no questions. You can only answer: <strong>Yes / No / Maybe / Partly</strong>.</div>
+                  </div>
+                  <div class="game-card">
+                    <div class="game-label">💬 Questions asked</div>
+                    <div style="font-family:'Fraunces',serif;font-size:2rem;font-weight:600;color:var(--teal);margin-bottom:.3rem" id="im-qcount">0 / ${maxQ}</div>
+                    <div style="font-size:.82rem;color:var(--ink-muted);margin-bottom:1rem">Each click records a question.</div>
+                    <div class="game-controls">
+                      <button class="btn-g-primary" id="im-btn-question">+1 Question asked</button>
+                      <button class="btn-g-secondary" id="im-btn-reveal">🎉 They guessed it!</button>
+                      <button class="btn-g-danger" id="im-btn-new">Skip topic →</button>
+                    </div>
+                  </div>`;
+
+                document.getElementById('im-btn-question').addEventListener('click', () => {
+                  questions++;
+                  document.getElementById('im-qcount').textContent = `${questions} / ${maxQ}`;
+                  if (questions >= maxQ) COSY_GAME.imReveal(identity.person, questions, maxQ);
+                });
+                document.getElementById('im-btn-reveal').addEventListener('click', () => COSY_GAME.imReveal(identity.person, questions, maxQ));
+                document.getElementById('im-btn-new').addEventListener('click', () => nextIM());
             };
+
+            window.COSY_GAME.imReveal = (person, questions, maxQ) => {
+              COSYGame.addScore(Math.max(0, (maxQ - questions) * 5));
+              body.innerHTML = `
+                <div class="game-card" style="text-align:center">
+                  <div class="re-icon">🎉</div>
+                  <div class="game-prompt">${person}</div>
+                  <div class="game-sub">Guessed in ${questions} questions!</div>
+                  <button class="btn-g-primary" id="im-btn-next-round" style="margin-top:1rem">Next identity →</button>
+                </div>`;
+              document.getElementById('im-btn-next-round').addEventListener('click', () => nextIM());
+            };
+            nextIM();
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+            document.getElementById('go-body').innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🏆</div>
+                    <div class="re-title">Session Complete!</div>
+                    <div class="re-sub">Your final score: <strong>${COSYGame.score}</strong></div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);

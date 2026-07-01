@@ -66,6 +66,10 @@
             }
 
             window.COSY_GAME.llSubmit = () => {
+                if (!COSYGame.nextRound()) {
+                    COSY_GAME.renderEnd();
+                    return;
+                }
                 const input = document.getElementById('ll-input');
                 const fb = document.getElementById('ll-fb');
                 if (!input || !fb) return;
@@ -94,8 +98,8 @@
                 llChain.push(word);
                 COSYGame.addScore(5);
 
-                document.getElementById('ll-score').textContent = llChain.length;
-                document.getElementById('ll-next-letter').textContent = word.slice(-1).toUpperCase();
+                document.getElementById('ll-score').textContent = COSYGame.score;
+                document.getElementById('ll-next-letter').textContent = `${COSYGame.round}/${COSYGame.maxRounds} · ${word.slice(-1).toUpperCase()}`;
                 document.getElementById('ll-chain').innerHTML = llChain.map((w,i) =>
                   `<span style="color:${i===llChain.length-1?'var(--teal)':'var(--ink-muted)'};font-weight:${i===llChain.length-1?'600':'400'}">${w}</span>`
                 ).join(' → ');
@@ -113,7 +117,25 @@
             el._t = setTimeout(() => { el.className = 'feedback-bar'; }, 2500);
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+            document.getElementById('go-body').innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🏆</div>
+                    <div class="re-title">Game Over!</div>
+                    <div class="re-sub">Chain length: <strong>${COSYGame.score / 5}</strong> words. Score: ${COSYGame.score} pts.</div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);

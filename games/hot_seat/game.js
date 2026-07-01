@@ -43,15 +43,22 @@
 
             const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
             if (vocab.length < 5) {
-                body.innerHTML = '<div class="game-card">Not enough vocabulary loaded. <button onclick="COSY_GAME.reset()">Back</button></div>';
+                body.innerHTML = '<div class="game-card">Not enough vocabulary loaded. <button id="hs-back">Back</button></div>';
+                document.getElementById('hs-back').onclick=()=>COSY_GAME.reset();
                 return;
             }
+            const drawBag = gameUtils.createDrawBag(vocab);
 
             const nextQ = () => {
                 if (!active) return;
-                const item = pick(vocab);
+                if (!COSYGame.nextRound()) {
+                    active = false;
+                    COSY_GAME.renderEnd();
+                    return;
+                }
+                const item = drawBag.next();
                 const types = ['plural', 'definition', 'sentence'];
-                const type = pick(types);
+                const type = types[Math.floor(Math.random() * types.length)];
 
                 let prompt = '', answer = '';
                 if (type === 'plural') {
@@ -68,6 +75,7 @@
                 body.innerHTML = `
                     <div class="score-bar">
                         <div class="sb-item"><div class="sb-val">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
+                        <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Round</div></div>
                         <div class="sb-item"><div class="sb-val" id="hs-timer">--</div><div class="sb-lbl">Sec</div></div>
                     </div>
                     <div class="game-card" style="text-align:center">
@@ -84,24 +92,35 @@
             window.COSY_GAME.hsResult = (ok) => { if (ok) COSYGame.addScore(10); nextQ(); };
 
             gameUtils.startTimer('hs-timer', 60, () => {
-                active = false;
-                COSYScores.save(GAME_ID, lang, level, COSYGame.score);
-                body.innerHTML = `
-                    <div class="round-end">
-                        <div class="re-icon">🏆</div>
-                        <div class="re-title">Round Over!</div>
-                        <div class="re-sub">You answered <strong>${COSYGame.score / 10}</strong> questions correctly. Total: ${COSYGame.score} pts.</div>
-                        <div class="re-actions">
-                            <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
-                            <button class="btn-g-secondary" onclick="location.href='../index.html'">Back to hub</button>
-                        </div>
-                    </div>`;
+                if (active) {
+                    active = false;
+                    COSY_GAME.renderEnd();
+                }
             });
 
             nextQ();
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+            const body = document.getElementById('go-body');
+            body.innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🏆</div>
+                    <div class="re-title">Round Over!</div>
+                    <div class="re-sub">You answered <strong>${COSYGame.score / 10}</strong> questions correctly. Total: ${COSYGame.score} pts.</div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
+                        <button class="btn-g-secondary" onclick="location.href='../index.html'">Back to hub</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);

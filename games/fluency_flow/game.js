@@ -32,17 +32,21 @@
                 <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
               <div class="setup-field"><label>Duration</label>
-                <div class="setup-options">${DUR_OPTS.map((d,i)=>`<div class="setup-opt ${i===1?'sel':''}" onclick="COSY_GAME.selectOpt(this,'dur')" data-val="${d}"><span class="setup-opt-icon">⏱</span>${d}</div>`).join('')}</div>
+                <div class="setup-options">${DUR_OPTS.map((d,i)=>`<div class="setup-opt ${i===1?'sel':''}" data-val="${d}"><span class="setup-opt-icon">⏱</span>${d}</div>`).join('')}</div>
               </div>
               <div class="setup-field"><label>Language</label>
                 <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
-              <button class="btn-start-game" onclick="COSY_GAME.start()">▶ Start game</button>
+              <button class="btn-start-game" id="ff-start">▶ Start game</button>
             </div>`;
+        body.querySelectorAll('.setup-opt').forEach(opt => {
+            opt.addEventListener('click', () => COSY_GAME.selectOpt(opt));
+        });
+        document.getElementById('ff-start').addEventListener('click', () => COSY_GAME.start());
     }
 
     window.COSY_GAME = {
-        selectOpt(el, group) {
+        selectOpt(el) {
             el.closest('.setup-options').querySelectorAll('.setup-opt').forEach(o => o.classList.remove('sel'));
             el.classList.add('sel');
         },
@@ -56,20 +60,25 @@
             COSYGame.init(GAME_ID, lang, level);
 
             const data = COSYLoader.getGameData(lang);
+            const durBag = gameUtils.createDrawBag(data.fluency || ['...']);
             const durStr = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || '2 minutes';
             const dur = parseInt(durStr) * 60;
             const body = document.getElementById('go-body');
             let running = false;
 
             const showTopic = () => {
-              const rawItem = pick(data.fluency || ['...']);
+              if (!COSYGame.nextRound()) {
+                  COSY_GAME.renderEnd();
+                  return;
+              }
+              const rawItem = durBag.next();
               const topic = typeof rawItem === 'string' ? rawItem : (rawItem.topic || rawItem.text || rawItem.t || '...');
               const hints = (rawItem.hints || rawItem.h || []);
 
               body.innerHTML = `
                 <div class="score-bar">
-                  <div class="sb-item"><div class="sb-val" id="ff-score">${COSYGame.score}</div><div class="sb-lbl">Topics done</div></div>
-                  <div class="sb-item"><div class="sb-val">${durStr}</div><div class="sb-lbl">Per topic</div></div>
+                  <div class="sb-item"><div class="sb-val" id="ff-score">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
+                  <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Round</div></div>
                 </div>
                 <div class="game-card">
                   <div class="game-label">🗣️ Your topic</div>
@@ -82,10 +91,10 @@
                   <div class="game-sub">Speak about this topic for <strong>${durStr}</strong> without stopping. Don't worry about mistakes — keep talking!</div>
                   <div id="timer-container">${gameUtils.renderTimerRing(dur, dur)}</div>
                   <div class="game-controls">
-                    <button class="btn-g-primary" id="ff-btn" onclick="COSY_GAME.toggleTimer(${dur})">▶ Start speaking</button>
-                    <button class="btn-g-secondary" onclick="COSY.addToDict({word: '${topic.replace(/'/g,"\\'")}', definition: 'Fluency Flow Topic'}, this)">+ Vocabulary</button>
-                    <button class="btn-g-secondary" onclick="COSY_GAME.start()">New topic ↺</button>
-                    <button class="btn-g-danger" onclick="COSY_GAME.reset()">⬅ Setup</button>
+                    <button class="btn-g-primary" id="ff-btn">▶ Start speaking</button>
+                    <button class="btn-g-secondary" id="ff-dict">+ Vocabulary</button>
+                    <button class="btn-g-secondary" id="ff-new">New topic ↺</button>
+                    <button class="btn-g-danger" id="ff-reset">⬅ Setup</button>
                   </div>
                 </div>`;
             }
@@ -97,12 +106,18 @@
                   gameUtils.startTimer('timer-val', total, () => {
                     running = false;
                     COSYGame.addScore(1);
+                    COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+                    const best = COSYScores.best(GAME_ID, lang);
+
                     const scoreEl = document.getElementById('ff-score');
                     if (scoreEl) scoreEl.textContent = COSYGame.score;
                     const btn = document.getElementById('ff-btn');
                     if (btn) {
                         btn.textContent = '✓ Done! Next topic →';
-                        btn.onclick = () => { showTopic(); };
+                        btn.addEventListener('click', () => { showTopic(); }, {once: true});
+                        if (best) {
+                            gameUtils.showGameMessage(body, `Topics: ${COSYGame.score} (Best: ${best.score})`);
+                        }
                     }
                   });
                 } else {
@@ -112,9 +127,36 @@
             };
 
             showTopic();
+
+            document.getElementById('ff-btn').addEventListener('click', () => COSY_GAME.toggleTimer(dur));
+            document.getElementById('ff-dict').addEventListener('click', (e) => {
+                if (window.COSY && COSY.addToDict) {
+                    COSY.addToDict({ word: topic, definition: 'Fluency Flow Topic' }, e.target);
+                }
+            });
+            document.getElementById('ff-new').addEventListener('click', () => COSY_GAME.start());
+            document.getElementById('ff-reset').addEventListener('click', () => COSY_GAME.reset());
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+            document.getElementById('go-body').innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🏆</div>
+                    <div class="re-title">Flow Complete!</div>
+                    <div class="re-sub">Topics covered: <strong>${COSYGame.score}</strong></div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score}</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);

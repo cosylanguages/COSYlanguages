@@ -43,55 +43,79 @@
 
             await COSYLoader.loadLevelData(lang, level);
             COSYGame.init(GAME_ID, lang, level);
+            COSYGame.maxRounds = 5;
 
             const data = COSYLoader.getGameData(lang);
-            const item = pick(data.critic || ['...']);
-            const body = document.getElementById('go-body');
-            const DUR = 150;
+            const drawBag = gameUtils.createDrawBag(data.critic || ['...']);
 
-            let qText = '', author = '', origin = '', category = '', task = '', qs = [];
-            if (typeof item === 'string') {
-                qText = item;
-                task = "Describe what this quote means to you.";
-            } else {
-                qText = item.q || item.text || '...';
-                author = item.a || item.author || '';
-                origin = item.o || '';
-                category = item.c || '';
-                task = item.task || "Describe what this quote means to you.";
-                qs = item.qs || [];
-            }
+            const nextCC = () => {
+                if (!COSYGame.nextRound()) {
+                    COSY_GAME.renderEnd();
+                    return;
+                }
+                const item = drawBag.next();
+                const body = document.getElementById('go-body');
+                const DUR = 150;
 
-            body.innerHTML = `
-              <div class="game-card">
-                <div class="game-label">🎭 Famous quote ${category ? '· ' + category : ''}</div>
-                <div class="game-prompt" style="font-style:italic;font-size:1.1rem">"${qText}"</div>
-                ${author ? `<div style="text-align:right; font-weight:700; margin-top:.5rem; color:var(--ink-muted)">— ${author}${origin ? `, <span style="font-weight:400; font-style:italic">${origin}</span>` : ''}</div>` : ''}
+                let qText = '', author = '', origin = '', category = '', task = '', qs = [];
+                if (typeof item === 'string') {
+                    qText = item;
+                    task = "Describe what this quote means to you.";
+                } else {
+                    qText = item.q || item.text || '...';
+                    author = item.a || item.author || '';
+                    origin = item.o || '';
+                    category = item.c || '';
+                    task = item.task || "Describe what this quote means to you.";
+                    qs = item.qs || [];
+                }
 
-                <div style="background:var(--sage-light); border-radius:12px; padding:14px; margin-top:1.25rem; border:1px solid rgba(107,143,113,.2); text-align:left;">
-                    <div style="font-size:.65rem; text-transform:uppercase; font-weight:900; color:var(--sage-dark); margin-bottom:.4rem; letter-spacing:.05em;">Task</div>
-                    <div style="font-size:.9rem; line-height:1.5; color:var(--ink); font-weight:700;">${task}</div>
-                </div>
+                body.innerHTML = `
+                  <div class="score-bar">
+                    <div class="sb-item"><div class="sb-val" id="cc-score">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
+                    <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Round</div></div>
+                  </div>
+                  <div class="game-card">
+                    <div class="game-label">🎭 Famous quote ${category ? '· ' + category : ''}</div>
+                    <div class="game-prompt" style="font-style:italic;font-size:1.1rem">"${qText}"</div>
+                    ${author ? `<div style="text-align:right; font-weight:700; margin-top:.5rem; color:var(--ink-muted)">— ${author}${origin ? `, <span style="font-weight:400; font-style:italic">${origin}</span>` : ''}</div>` : ''}
 
-                ${qs.length ? `
-                    <div style="margin-top:1.5rem; border-top:1px solid var(--border); padding-top:1rem;">
-                        <div style="font-size:.7rem; text-transform:uppercase; font-weight:800; color:var(--ink-faint); margin-bottom:.5rem;">Deep discussion</div>
-                        <ul style="font-size:.85rem; color:var(--ink-muted); padding-left:1.2rem; margin:0; text-align:left;">
-                            ${qs.map(q => `<li style="margin-bottom:.4rem">${q}</li>`).join('')}
-                        </ul>
-                    </div>` : ''}
+                    <div style="background:var(--sage-light); border-radius:12px; padding:14px; margin-top:1.25rem; border:1px solid rgba(107,143,113,.2); text-align:left;">
+                        <div style="font-size:.65rem; text-transform:uppercase; font-weight:900; color:var(--sage-dark); margin-bottom:.4rem; letter-spacing:.05em;">Task</div>
+                        <div style="font-size:.9rem; line-height:1.5; color:var(--ink); font-weight:700;">${task}</div>
+                    </div>
 
-                <div style="margin-top:2rem" id="timer-container">
-                    ${gameUtils.renderTimerRing(DUR, DUR)}
-                </div>
+                    ${qs.length ? `
+                        <div style="margin-top:1.5rem; border-top:1px solid var(--border); padding-top:1rem;">
+                            <div style="font-size:.7rem; text-transform:uppercase; font-weight:800; color:var(--ink-faint); margin-bottom:.5rem;">Deep discussion</div>
+                            <ul style="font-size:.85rem; color:var(--ink-muted); padding-left:1.2rem; margin:0; text-align:left;">
+                                ${qs.map(q => `<li style="margin-bottom:.4rem">${q}</li>`).join('')}
+                            </ul>
+                        </div>` : ''}
 
-                <div class="game-controls" style="margin-top:1.5rem">
-                  <button class="btn-g-primary" id="cc-btn" onclick="COSY_GAME.ccStart(${DUR})">▶ Start speaking</button>
-                  <button class="btn-g-secondary" onclick="COSY.addToDict({word: '${qText.replace(/'/g,"\\'")}', definition: 'Quote by ${author.replace(/'/g,"\\'")}'}, this)">+ Vocabulary</button>
-                  <button class="btn-g-secondary" onclick="COSY_GAME.start()">New quote ↺</button>
-                  <button class="btn-g-danger" onclick="COSY_GAME.reset()">⬅ Setup</button>
-                </div>
-              </div>`;
+                    <div style="margin-top:2rem" id="timer-container">
+                        ${gameUtils.renderTimerRing(DUR, DUR)}
+                    </div>
+
+                    <div class="game-controls" style="margin-top:1.5rem">
+                      <button class="btn-g-primary" id="cc-btn">▶ Start speaking</button>
+                      <button class="btn-g-secondary" id="cc-dict">+ Vocabulary</button>
+                      <button class="btn-g-secondary" id="cc-new">Skip topic →</button>
+                      <button class="btn-g-danger" id="cc-reset">⬅ Setup</button>
+                    </div>
+                  </div>`;
+
+                document.getElementById('cc-btn').addEventListener('click', () => COSY_GAME.ccStart(DUR));
+                document.getElementById('cc-dict').addEventListener('click', (e) => {
+                    if (window.COSY && COSY.addToDict) {
+                        COSY.addToDict({ word: qText, definition: author ? `Quote by ${author}` : 'Famous Quote' }, e.target);
+                    }
+                });
+                document.getElementById('cc-new').addEventListener('click', () => nextCC());
+                document.getElementById('cc-reset').addEventListener('click', () => COSY_GAME.reset());
+            };
+            COSY_GAME._next = nextCC;
+            nextCC();
         },
 
         ccStart(dur) {
@@ -102,15 +126,34 @@
               document.getElementById('go-body').insertAdjacentHTML('beforeend',`
                 <div class="game-card" style="text-align:center; margin-top:1rem;">
                   <div style="font-size:1.8rem;margin-bottom:.5rem">🎓</div>
-                  <div class="game-prompt" style="font-size:1.1rem">Excellent analysis!</div>
+                  <div class="game-prompt" style="font-size:1.1rem">Round complete!</div>
                   <div class="re-actions" style="margin-top:.75rem">
-                    <button class="btn-g-primary" onclick="COSY_GAME.start()">New quote ↺</button>
+                    <button class="btn-g-primary" id="cc-next-final">Next quote →</button>
                   </div>
                 </div>`);
+              document.getElementById('cc-next-final').addEventListener('click', () => COSY_GAME._next());
             });
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+            document.getElementById('go-body').innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🏆</div>
+                    <div class="re-title">Session Complete!</div>
+                    <div class="re-sub">Your final score: <strong>${COSYGame.score}</strong></div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);
