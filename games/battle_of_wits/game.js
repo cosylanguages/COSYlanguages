@@ -43,30 +43,51 @@
 
             await COSYLoader.loadLevelData(lang, level);
             COSYGame.init(GAME_ID, lang, level);
+            COSYGame.maxRounds = 3;
 
             const data = COSYLoader.getGameData(lang);
-            const debate = pick(data.battle || [{sideA:'A', sideB:'B', topic:'Which is better?'}]);
-            const body = document.getElementById('go-body');
-            const DUR = 120;
+            const drawBag = gameUtils.createDrawBag(data.battle || [{sideA:'A', sideB:'B', topic:'Which is better?'}]);
 
-            const sideA = debate.sideA || (Array.isArray(debate) ? debate[0] : 'A');
-            const sideB = debate.sideB || (Array.isArray(debate) ? debate[1] : 'B');
-            const topic = debate.topic || 'Which is better?';
+            const nextBattle = () => {
+                if (!COSYGame.nextRound()) {
+                    COSY_GAME.renderEnd();
+                    return;
+                }
+                const debate = drawBag.next();
+                const body = document.getElementById('go-body');
+                const DUR = 120;
 
-            body.innerHTML = `
-              <div class="game-card">
-                <div class="game-label">⚖️ Choose your side</div>
-                <div class="game-prompt">${topic}</div>
-                <div class="setup-options" style="margin:1rem 0">
-                  <div class="setup-opt sel" onclick="COSY_GAME.selectOpt(this)" data-val="0"><span class="setup-opt-icon">🅰️</span>${sideA}</div>
-                  <div class="setup-opt" onclick="COSY_GAME.selectOpt(this)" data-val="1"><span class="setup-opt-icon">🅱️</span>${sideB}</div>
-                </div>
-                <div class="game-sub">Each side gets 2 minutes to argue their case. Then the group votes!</div>
-                <div class="game-controls" style="margin-top:.5rem">
-                  <button class="btn-g-primary" onclick="COSY_GAME.doBattle(${JSON.stringify(debate).replace(/"/g, '&quot;')},${DUR})">▶ Start debate</button>
-                  <button class="btn-g-secondary" onclick="COSY_GAME.start()">New topic ↺</button>
-                </div>
-              </div>`;
+                const sideA = debate.sideA || (Array.isArray(debate) ? debate[0] : 'A');
+                const sideB = debate.sideB || (Array.isArray(debate) ? debate[1] : 'B');
+                const topic = debate.topic || 'Which is better?';
+
+                body.innerHTML = `
+                  <div class="score-bar">
+                    <div class="sb-item"><div class="sb-val" id="bt-score">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
+                    <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Round</div></div>
+                  </div>
+                  <div class="game-card">
+                    <div class="game-label">⚖️ Choose your side</div>
+                    <div class="game-prompt">${topic}</div>
+                    <div class="setup-options" style="margin:1rem 0">
+                      <div class="setup-opt sel" data-val="0"><span class="setup-opt-icon">🅰️</span>${sideA}</div>
+                      <div class="setup-opt" data-val="1"><span class="setup-opt-icon">🅱️</span>${sideB}</div>
+                    </div>
+                    <div class="game-sub">Each side gets 2 minutes to argue their case. Then the group votes!</div>
+                    <div class="game-controls" style="margin-top:.5rem">
+                      <button class="btn-g-primary" id="btn-start-battle">▶ Start debate</button>
+                      <button class="btn-g-secondary" id="btn-new-topic">Skip topic →</button>
+                    </div>
+                  </div>`;
+
+                body.querySelectorAll('.setup-opt').forEach(opt => {
+                    opt.addEventListener('click', () => COSY_GAME.selectOpt(opt));
+                });
+                document.getElementById('btn-start-battle').addEventListener('click', () => COSY_GAME.doBattle(debate, DUR));
+                document.getElementById('btn-new-topic').addEventListener('click', () => nextBattle());
+            };
+            COSY_GAME._next = nextBattle;
+            nextBattle();
         },
 
         selectOpt(el) {
@@ -111,32 +132,52 @@
                     <div class="game-card" style="text-align:center">
                       <div style="font-size:1.8rem;margin-bottom:.5rem">👏</div>
                       <div class="game-prompt">Round ${battleRound} done!</div>
-                      <div class="game-sub">Now it's <strong>${sides[battleRound].name}</strong>'s turn.</div>
-                      <button class="btn-g-primary" style="margin:1rem auto 0;display:block" onclick="COSY_GAME._runRound()">▶ Start round ${battleRound+1}</button>
+                  <div class="game-sub">Now it's <strong>${esc(sides[battleRound].name)}</strong>'s turn.</div>
+                  <button class="btn-g-primary" style="margin:1rem auto 0;display:block" id="btn-run-round">▶ Start round ${battleRound+1}</button>
                     </div>`;
-                   window.COSY_GAME._runRound = runRound;
+               document.getElementById('btn-run-round').addEventListener('click', runRound);
                 } else {
-                  body.innerHTML = `
-                    <div class="round-end">
+                    COSYGame.addScore(10);
+                    body.innerHTML = `
+                    <div class="game-card" style="text-align:center">
                       <div class="re-icon">🗳️</div>
                       <div class="re-title">Both sides heard!</div>
-                      <div class="re-sub">Now vote — who argued most convincingly?</div>
+                      <div class="re-sub">Vote now — who was most convincing?</div>
                       <div class="setup-options" style="margin-bottom:1.2rem">
-                        <div class="setup-opt" onclick="COSY_GAME.selectOpt(this)"><span>🅰️</span>${sides[0].name}</div>
-                        <div class="setup-opt" onclick="COSY_GAME.selectOpt(this)"><span>🅱️</span>${sides[1].name}</div>
+                        <div class="setup-opt"><span>🅰️</span>${esc(sides[0].name)}</div>
+                        <div class="setup-opt"><span>🅱️</span>${esc(sides[1].name)}</div>
                       </div>
-                      <div class="re-stats">
-                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
-                        <button class="btn-g-secondary" onclick="location.href='../index.html'">Back to Hub</button>
-                      </div>
+                      <button class="btn-g-primary" id="btn-next-battle">Next topic →</button>
                     </div>`;
+                    body.querySelectorAll('.setup-opt').forEach(opt => {
+                        opt.addEventListener('click', () => COSY_GAME.selectOpt(opt));
+                    });
+                    document.getElementById('btn-next-battle').addEventListener('click', () => COSY_GAME._next());
                 }
               });
             }
             runRound();
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+            document.getElementById('go-body').innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🏆</div>
+                    <div class="re-title">Battle Complete!</div>
+                    <div class="re-sub">Your final score: <strong>${COSYGame.score}</strong></div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);

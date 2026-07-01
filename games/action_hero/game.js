@@ -67,17 +67,26 @@
                 pool = (data.action && data.action[shortLvl]) ? data.action[shortLvl] : (data.action ? (data.action['B2'] || data.action['A2']) : ['...']);
             }
 
-            const words = shuffle(pool);
-            let idx = 0, correct = 0, skipped = 0;
+            const drawBag = gameUtils.createDrawBag(pool);
+            let correct = 0, skipped = 0;
             const DUR = 60;
 
             const showWord = () => {
-              if (idx >= words.length) { showActionEnd(); return; }
+              if (!COSYGame.nextRound()) {
+                showActionEnd();
+                return;
+              }
+              const currentWord = drawBag.next();
+              if (!currentWord) { showActionEnd(); return; }
               const body = document.getElementById('go-body');
               body.innerHTML = `
+                <div class="score-bar">
+                  <div class="sb-item"><div class="sb-val">${correct}</div><div class="sb-lbl">Correct</div></div>
+                  <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Round</div></div>
+                </div>
                 <div class="game-card" style="text-align:center">
                   <div class="game-label">🎭 Hold to forehead · ${DUR}s</div>
-                  <div class="game-prompt" style="font-size:2.5rem;letter-spacing:.05em">${words[idx]}</div>
+                  <div class="game-prompt" style="font-size:2.5rem;letter-spacing:.05em">${currentWord}</div>
                   <div class="game-sub">Others describe this word — you guess!</div>
                   <div id="timer-container">${gameUtils.renderTimerRing(DUR, DUR)}</div>
                   <div class="game-controls" style="justify-content:center;gap:1rem">
@@ -86,14 +95,13 @@
                   </div>
                 </div>
                 <div style="text-align:center;font-size:.8rem;color:var(--ink-faint);margin-top:.5rem">✓ ${correct} correct · ↷ ${skipped} skipped</div>`;
-
-              gameUtils.startTimer('timer-val', DUR, showActionEnd);
             }
 
             const showActionEnd = () => {
               gameUtils.stopTimer();
               COSYGame.score = correct * 5;
               COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+              const best = COSYScores.best(GAME_ID, lang);
 
               document.getElementById('go-body').innerHTML = `
                 <div class="round-end">
@@ -104,6 +112,7 @@
                     <div class="sb-item"><div class="re-stat-val" style="color:var(--green)">${correct}</div><div class="re-stat-lbl">✓ Correct</div></div>
                     <div class="sb-item"><div class="re-stat-val" style="color:var(--ink-muted)">${skipped}</div><div class="re-stat-lbl">↷ Skipped</div></div>
                   </div>
+                  ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
                   <div class="re-actions">
                     <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
                     <button class="btn-g-secondary" onclick="location.href='../index.html'">Back to Hub</button>
@@ -112,13 +121,12 @@
             }
 
             window.COSY_GAME.ahResult = (got) => {
-              gameUtils.stopTimer();
               if (got) correct++; else skipped++;
-              idx++;
               showWord();
             };
 
             showWord();
+            gameUtils.startTimer('timer-val', DUR, showActionEnd);
         },
 
         reset: renderSetup

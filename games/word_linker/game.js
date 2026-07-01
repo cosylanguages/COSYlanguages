@@ -54,22 +54,27 @@
             if (mode === 'odd') source = source.filter(q => q.odd !== 'none');
             if (mode === 'link') source = source.filter(q => q.odd === 'none');
 
+            const drawBag = gameUtils.createDrawBag(source.length ? source : [{words:['A','B','C','D'], odd:'D', link:'Letters', oddReason:'D is later'}]);
+
             const nextWordLinker = () => {
-                const q = pick(source) || {words:['A','B','C','D'], odd:'D', link:'Letters', oddReason:'D is later'};
+                if (!COSYGame.nextRound()) {
+                    COSY_GAME.renderEnd();
+                    return;
+                }
+                const q = drawBag.next();
                 const body = document.getElementById('go-body');
-                wlQ++;
                 const shuffled = shuffle(q.words);
                 const hasOdd = q.odd !== 'none';
 
                 body.innerHTML = `
                   <div class="score-bar">
                     <div class="sb-item"><div class="sb-val" id="wl-score">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
-                    <div class="sb-item"><div class="sb-val">${wlQ}</div><div class="sb-lbl">Question</div></div>
+                    <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Question</div></div>
                   </div>
                   <div class="game-card">
                     <div class="game-label">🔗 ${hasOdd ? 'Find the odd one out' : 'What connects these words?'}</div>
                     <div class="word-options">
-                      ${shuffled.map(w => `<button class="word-opt" onclick="COSY_GAME.wlGuess(this,'${w}','${q.odd}','${q.link}','${(q.oddReason||"").replace(/'/g,"\\'")}',${hasOdd})">${w}</button>`).join('')}
+                      ${shuffled.map(w => `<button class="word-opt" data-word="${gameUtils.escapeAttr(w)}" data-odd="${gameUtils.escapeAttr(q.odd)}" data-link="${gameUtils.escapeAttr(q.link)}" data-reason="${gameUtils.escapeAttr(q.oddReason || "")}" data-hasodd="${hasOdd}">${w}</button>`).join('')}
                     </div>
                     <div class="feedback-bar" id="wl-fb"></div>
                     <div class="game-controls">
@@ -77,6 +82,12 @@
                       <button class="btn-g-danger" onclick="COSY_GAME.reset()">⬅ Setup</button>
                     </div>
                   </div>`;
+                body.querySelectorAll('.word-opt').forEach(btn => {
+                  btn.addEventListener('click', () => {
+                    COSY_GAME.wlGuess(btn, btn.dataset.word, btn.dataset.odd, btn.dataset.link, btn.dataset.reason, btn.dataset.hasodd === 'true');
+                  });
+                });
+
                 window.COSY_GAME._nextWL = nextWordLinker;
             }
 
@@ -120,7 +131,25 @@
             nextWordLinker();
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+            document.getElementById('go-body').innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🏆</div>
+                    <div class="re-title">Game Over!</div>
+                    <div class="re-sub">Your final score: <strong>${COSYGame.score}</strong></div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);

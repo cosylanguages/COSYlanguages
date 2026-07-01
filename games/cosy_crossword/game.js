@@ -66,8 +66,9 @@
             s.src = prefix + 'js/games/crossword.js';
             s.onload = () => {
                 if (window.CrosswordGame) {
-                    window.CrosswordGame.init(lang, 'all', 'all');
+                    window.CrosswordGame.init(lang, level, 'all');
                     window.CrosswordGame.render('crossword-grid-container');
+                    COSYGame.nextRound(); // Track that a puzzle was started
                 }
             };
             document.head.appendChild(s);
@@ -82,7 +83,25 @@
             };
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+            document.getElementById('go-body').innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🧩</div>
+                    <div class="re-title">Puzzle Session Over!</div>
+                    <div class="re-sub">Your final score: <strong>${COSYGame.score}</strong></div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">New Puzzle ↺</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);

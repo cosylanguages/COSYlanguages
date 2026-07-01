@@ -43,34 +43,59 @@
 
             await COSYLoader.loadLevelData(lang, level);
             COSYGame.init(GAME_ID, lang, level);
+            COSYGame.maxRounds = 5;
 
             const data = COSYLoader.getGameData(lang);
-            const rawItem = pick(data.opinions || ['...']);
-            const stmt = typeof rawItem === 'string' ? rawItem : (rawItem.topic || rawItem.text || rawItem.t || '...');
-            const hints = (rawItem.hints || rawItem.h || []);
-            const body = document.getElementById('go-body');
-            const DUR = 90;
+            const drawBag = gameUtils.createDrawBag(data.opinions || ['...']);
 
-            body.innerHTML = `
-              <div class="game-card">
-                <div class="game-label">🏟️ Statement</div>
-                <div class="game-prompt">"${esc(stmt)}"</div>
-                ${hints.length > 0 ? `
-                    <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--sage-dark); margin: .5rem 0 .5rem;">💡 Ideas for you:</div>
-                    <ul style="font-size:.85rem; text-align:left; margin:0 0 1rem 1rem; padding:0; line-height:1.4">
-                        ${hints.map(h => `<li>${esc(h)}</li>`).join('')}
-                    </ul>` : ''}
-                <div class="game-sub" style="margin-top:.6rem">Do you agree or disagree? Choose a side, then speak for 90 seconds defending your view.</div>
-              </div>
-              <div class="setup-options" style="margin-bottom:1rem">
-                <div class="setup-opt" onclick="COSY_GAME.selectOpt(this);document.getElementById('op-start').disabled=false" data-val="agree">I Agree</div>
-                <div class="setup-opt" onclick="COSY_GAME.selectOpt(this);document.getElementById('op-start').disabled=false" data-val="disagree">I Disagree</div>
-              </div>
-              <div class="game-controls">
-                <button class="btn-g-primary" id="op-start" disabled onclick="COSY_GAME.speak('${stmt.replace(/'/g,"\\'")}',${DUR})">▶ Start speaking</button>
-                <button class="btn-g-secondary" onclick="COSY_GAME.start()">New statement ↺</button>
-                <button class="btn-g-danger" onclick="COSY_GAME.reset()">⬅ Setup</button>
-              </div>`;
+            const nextOP = () => {
+                if (!COSYGame.nextRound()) {
+                    COSY_GAME.renderEnd();
+                    return;
+                }
+                const rawItem = drawBag.next();
+                const stmt = typeof rawItem === 'string' ? rawItem : (rawItem.topic || rawItem.text || rawItem.t || '...');
+                const hints = (rawItem.hints || rawItem.h || []);
+                const body = document.getElementById('go-body');
+                const DUR = 90;
+
+                body.innerHTML = `
+                  <div class="score-bar">
+                    <div class="sb-item"><div class="sb-val" id="op-score">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
+                    <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Round</div></div>
+                  </div>
+                  <div class="game-card">
+                    <div class="game-label">🏟️ Statement</div>
+                    <div class="game-prompt">"${esc(stmt)}"</div>
+                    ${hints.length > 0 ? `
+                        <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--sage-dark); margin: .5rem 0 .5rem;">💡 Ideas for you:</div>
+                        <ul style="font-size:.85rem; text-align:left; margin:0 0 1rem 1rem; padding:0; line-height:1.4">
+                            ${hints.map(h => `<li>${esc(h)}</li>`).join('')}
+                        </ul>` : ''}
+                    <div class="game-sub" style="margin-top:.6rem">Do you agree or disagree? Choose a side, then speak for 90 seconds defending your view.</div>
+                  </div>
+                  <div class="setup-options" style="margin-bottom:1rem">
+                    <div class="setup-opt" data-val="agree">I Agree</div>
+                    <div class="setup-opt" data-val="disagree">I Disagree</div>
+                  </div>
+                  <div class="game-controls">
+                    <button class="btn-g-primary" id="op-start" disabled>▶ Start speaking</button>
+                    <button class="btn-g-secondary" id="op-new">Skip topic →</button>
+                    <button class="btn-g-danger" id="op-reset">⬅ Setup</button>
+                  </div>`;
+
+                body.querySelectorAll('.setup-opt').forEach(opt => {
+                    opt.addEventListener('click', () => {
+                        COSY_GAME.selectOpt(opt);
+                        document.getElementById('op-start').disabled = false;
+                    });
+                });
+                document.getElementById('op-start').addEventListener('click', () => COSY_GAME.speak(stmt, DUR));
+                document.getElementById('op-new').addEventListener('click', () => nextOP());
+                document.getElementById('op-reset').addEventListener('click', () => COSY_GAME.reset());
+            };
+            COSY_GAME._next = nextOP;
+            nextOP();
         },
 
         selectOpt(el) {
@@ -87,25 +112,46 @@
                 <div class="game-sub">Keep speaking until the timer runs out. Stay in your target language!</div>
                 <div id="timer-container">${gameUtils.renderTimerRing(dur, dur)}</div>
                 <div class="game-controls">
-                  <button class="btn-g-secondary" onclick="COSY_GAME.start()">New statement ↺</button>
-                  <button class="btn-g-danger" onclick="COSY_GAME.reset()">⬅ Setup</button>
+                  <button class="btn-g-secondary" id="op-new-active">Skip topic →</button>
+                  <button class="btn-g-danger" id="op-reset-active">⬅ Setup</button>
                 </div>
               </div>`;
+            document.getElementById('op-new-active').addEventListener('click', () => COSY_GAME._next());
+            document.getElementById('op-reset-active').addEventListener('click', () => COSY_GAME.reset());
+
             gameUtils.startTimer('timer-val', dur, () => {
               COSYGame.addScore(10);
               document.getElementById('go-body').insertAdjacentHTML('beforeend', `
                 <div class="game-card" style="text-align:center; margin-top:1rem;">
-                  <div style="font-size:1.8rem;margin-bottom:.5rem">🏆</div>
-                  <div class="game-prompt" style="font-size:1.1rem">Time's up!</div>
-                  <div class="game-sub">Great job defending your position. Play again?</div>
+                  <div style="font-size:1.8rem;margin-bottom:.5rem">👏</div>
+                  <div class="game-prompt" style="font-size:1.1rem">Round complete!</div>
                   <div class="game-controls" style="justify-content:center;margin-top:.75rem">
-                    <button class="btn-g-primary" onclick="COSY_GAME.start()">New statement ↺</button>
+                    <button class="btn-g-primary" id="op-next-final">Next statement →</button>
                   </div>
                 </div>`);
+              document.getElementById('op-next-final').addEventListener('click', () => COSY_GAME._next());
             });
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+            document.getElementById('go-body').innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🏆</div>
+                    <div class="re-title">Session Complete!</div>
+                    <div class="re-sub">Your final score: <strong>${COSYGame.score}</strong></div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);

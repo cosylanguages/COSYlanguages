@@ -56,31 +56,45 @@
 
             if (mode === 'guess') {
                 const pool = vocab.filter(v => v.emoji).slice(0, 30);
-                if (pool.length < 4) { body.innerHTML = '<div class="game-card">No emoji data found. <button onclick="COSY_GAME.reset()">Back</button></div>'; return; }
+                if (pool.length < 4) { body.innerHTML = '<div class="game-card">No emoji data found. <button id="eo-back">Back</button></div>'; document.getElementById('eo-back').onclick=()=>COSY_GAME.reset(); return; }
 
-                let current = pick(pool);
+                const drawBag = gameUtils.createDrawBag(pool);
+                let current = drawBag.next();
 
                 const renderGuess = () => {
+                    if (!COSYGame.nextRound()) {
+                        COSY_GAME.renderEnd();
+                        return;
+                    }
                     const options = shuffle([current.word, ...shuffle(vocab.filter(v => v.word !== current.word)).slice(0, 3).map(v => v.word)]);
                     body.innerHTML = `
-                        <div class="score-bar"><div class="sb-item"><div class="sb-val">${COSYGame.score}</div><div class="sb-lbl">Score</div></div></div>
+                        <div class="score-bar">
+                            <div class="sb-item"><div class="sb-val">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
+                            <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Round</div></div>
+                        </div>
                         <div class="game-card" style="text-align:center">
                             <div class="game-label">🧩 What is this?</div>
                             <div class="game-prompt" style="font-size:5rem">${current.emoji}</div>
                             <div class="word-options" style="margin-top:1.5rem">
-                                ${options.map(o => `<button class="word-opt" onclick="COSY_GAME.eoCheck(this,'${o}','${current.word.replace(/'/g,"\\'")}')">${o}</button>`).join('')}
+                                ${options.map(o => `<button class="word-opt" data-word="${gameUtils.escapeAttr(o)}" data-correct="${gameUtils.escapeAttr(current.word)}">${o}</button>`).join('')}
                             </div>
                             <div class="game-controls" style="margin-top:2rem">
                                 <button class="btn-g-danger" onclick="COSY_GAME.reset()">Stop</button>
                             </div>
                         </div>`;
+
+                    body.querySelectorAll('.word-opt').forEach(btn => {
+                      btn.addEventListener('click', () => {
+                        COSY_GAME.eoCheck(btn, btn.dataset.word, btn.dataset.correct);
+                      });
+                    });
                 };
 
                 window.COSY_GAME.eoCheck = (btn, val, correct) => {
                     if (val === correct) {
                         btn.classList.add('correct');
                         COSYGame.addScore(10);
-                        setTimeout(() => { current = pick(pool); renderGuess(); }, 1000);
+                        setTimeout(() => { current = drawBag.next(); renderGuess(); }, 1000);
                     } else {
                         btn.classList.add('wrong');
                     }
@@ -106,7 +120,26 @@
             }
         },
 
-        reset: renderSetup
+        reset: renderSetup,
+
+        renderEnd() {
+            const lang = COSYGame.language;
+            const level = COSYGame.level;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
+            const best = COSYScores.best(GAME_ID, lang);
+
+            document.getElementById('go-body').innerHTML = `
+                <div class="round-end">
+                    <div class="re-icon">🏆</div>
+                    <div class="re-title">Game Over!</div>
+                    <div class="re-sub">Your final score: <strong>${COSYGame.score}</strong></div>
+                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    <div class="re-actions">
+                        <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
+                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                    </div>
+                </div>`;
+        }
     };
 
     document.addEventListener('DOMContentLoaded', renderSetup);
