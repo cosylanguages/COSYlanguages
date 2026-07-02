@@ -41,62 +41,62 @@
       <div class="vocab-card">
         <div class="vocab-word">Resilience</div>
         <div class="vocab-def">the ability to recover quickly from difficulties</div>
-        <div class="vocab-ex"><em>Example:</em> Children often develop resilience by overcoming challenges.</div>
-        <button class="add-vocab" onclick="COSY.addDict('resilience')">+ Dictionary</button>
+        <div class="vocab-example">Example: Children often develop resilience by overcoming challenges.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Resilience', definition:'ability to recover quickly from difficulties', example:'Children often develop resilience by overcoming challenges.'}, this)">+ Dictionary</button>
       </div>
       <div class="vocab-card">
         <div class="vocab-word">Independence</div>
         <div class="vocab-def">the ability to act without relying on others</div>
-        <div class="vocab-ex"><em>Example:</em> Independence helps people make their own decisions.</div>
-        <button class="add-vocab" onclick="COSY.addDict('independence')">+ Dictionary</button>
+        <div class="vocab-example">Example: Independence helps people make their own decisions.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Independence', definition:'ability to act without relying on others', example:'Independence helps people make their own decisions.'}, this)">+ Dictionary</button>
       </div>
       <div class="vocab-card">
         <div class="vocab-word">Adaptability</div>
         <div class="vocab-def">the ability to adjust to new situations</div>
-        <div class="vocab-ex"><em>Example:</em> Adaptability is important in a rapidly changing world.</div>
-        <button class="add-vocab" onclick="COSY.addDict('adaptability')">+ Dictionary</button>
+        <div class="vocab-example">Example: Adaptability is important in a rapidly changing world.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Adaptability', definition:'ability to adjust to new situations', example:'Adaptability is important in a rapidly changing world.'}, this)">+ Dictionary</button>
       </div>
       <div class="vocab-card">
         <div class="vocab-word">Discipline</div>
         <div class="vocab-def">self-control and the ability to follow rules</div>
-        <div class="vocab-ex"><em>Example:</em> Discipline can help people achieve long-term goals.</div>
-        <button class="add-vocab" onclick="COSY.addDict('discipline')">+ Dictionary</button>
+        <div class="vocab-example">Example: Discipline can help people achieve long-term goals.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Discipline', definition:'self-control and following rules', example:'Discipline can help people achieve long-term goals.'}, this)">+ Dictionary</button>
       </div>
       <div class="vocab-card">
         <div class="vocab-word">Perspective</div>
         <div class="vocab-def">a particular way of seeing or understanding something</div>
-        <div class="vocab-ex"><em>Example:</em> Traveling can change your perspective on life.</div>
-        <button class="add-vocab" onclick="COSY.addDict('perspective')">+ Dictionary</button>
+        <div class="vocab-example">Example: Traveling can change your perspective on life.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'a way of seeing or understanding', example:'Traveling can change your perspective on life.'}, this)">+ Dictionary</button>
       </div>
       <div class="vocab-card">
         <div class="vocab-word">Community</div>
         <div class="vocab-def">a group of people who support one another</div>
-        <div class="vocab-ex"><em>Example:</em> Strong communities often help raise children together.</div>
-        <button class="add-vocab" onclick="COSY.addDict('community')">+ Dictionary</button>
+        <div class="vocab-example">Example: Strong communities often help raise children together.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Community', definition:'group of people who support each other', example:'Strong communities often help raise children together.'}, this)">+ Dictionary</button>
       </div>
       <div class="vocab-card">
         <div class="vocab-word">Self-expression</div>
         <div class="vocab-def">showing your thoughts, feelings, and personality</div>
-        <div class="vocab-ex"><em>Example:</em> Art can be a form of self-expression.</div>
-        <button class="add-vocab" onclick="COSY.addDict('self-expression')">+ Dictionary</button>
+        <div class="vocab-example">Example: Art can be a form of self-expression.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Self-expression', definition:'showing thoughts and personality', example:'Art can be a form of self-expression.'}, this)">+ Dictionary</button>
       </div>
       <div class="vocab-card">
         <div class="vocab-word">Resourcefulness</div>
         <div class="vocab-def">the ability to solve problems creatively</div>
-        <div class="vocab-ex"><em>Example:</em> Resourcefulness helps people succeed when resources are limited.</div>
-        <button class="add-vocab" onclick="COSY.addDict('resourcefulness')">+ Dictionary</button>
+        <div class="vocab-example">Example: Resourcefulness helps people succeed when resources are limited.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Resourcefulness', definition:'ability to solve problems creatively', example:'Resourcefulness helps people succeed when resources are limited.'}, this)">+ Dictionary</button>
       </div>
       <div class="vocab-card">
         <div class="vocab-word">Guidance</div>
         <div class="vocab-def">advice or help that directs someone</div>
-        <div class="vocab-ex"><em>Example:</em> Good guidance can prevent costly mistakes.</div>
-        <button class="add-vocab" onclick="COSY.addDict('guidance')">+ Dictionary</button>
+        <div class="vocab-example">Example: Good guidance can prevent costly mistakes.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Guidance', definition:'advice or help that directs someone', example:'Good guidance can prevent costly mistakes.'}, this)">+ Dictionary</button>
       </div>
       <div class="vocab-card">
         <div class="vocab-word">Empathy</div>
         <div class="vocab-def">the ability to understand another person's feelings</div>
-        <div class="vocab-ex"><em>Example:</em> Empathy improves relationships.</div>
-        <button class="add-vocab" onclick="COSY.addDict('empathy')">+ Dictionary</button>
+        <div class="vocab-example">Example: Empathy improves relationships.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Empathy', definition:'understanding another person\'s feelings', example:'Empathy improves relationships.'}, this)">+ Dictionary</button>
       </div>
     </div>
   </section>
@@ -310,24 +310,14 @@
 
       <div class="mistake-block open" id="s-mistakes">
         <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▲</span>
+          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
         </div>
         <div class="mistake-body" style="display:block;">
-          <p>Teacher's Note: Common errors when discussing upbringing and history.</p>
-          <div class="mistake-table">
-            <table>
-              <thead>
-                <tr><th>❌ Don't say</th><th>✅ Say</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>"In the old times..."</td><td>"In the past..." or "Historically..."</td></tr>
-                <tr><td>"Parents was more strict."</td><td>"Parents were stricter."</td></tr>
-                <tr><td>"I grown up in a small town."</td><td>"I grew up in a small town."</td></tr>
-                <tr><td>"It depends of the situation."</td><td>"It depends on the situation."</td></tr>
-                <tr><td>"Nowadays people is more free."</td><td>"Nowadays people are freer."</td></tr>
-              </tbody>
-            </table>
-          </div>
+          <div class="mistake-item"><span class="mistake-wrong">In the old times...</span><span class="mistake-arrow">→</span><span class="mistake-right">In the past... / Historically...</span><span class="mistake-note-text">(More natural phrasing)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">Parents was more strict.</span><span class="mistake-arrow">→</span><span class="mistake-right">Parents were stricter.</span><span class="mistake-note-text">(Subject-verb agreement)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">I grown up in a small town.</span><span class="mistake-arrow">→</span><span class="mistake-right">I grew up in a small town.</span><span class="mistake-note-text">(Past simple of 'grow')</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">It depends of the situation.</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends on the situation.</span><span class="mistake-note-text">(Preposition 'on')</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">Nowadays people is more free.</span><span class="mistake-arrow">→</span><span class="mistake-right">Nowadays people are freer.</span><span class="mistake-note-text">(Subject-verb agreement)</span></div>
         </div>
       </div>
     </div>
