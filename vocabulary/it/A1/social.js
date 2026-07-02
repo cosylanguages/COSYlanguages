@@ -26,7 +26,7 @@
 {
         "word": "uomo",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "article": "l'",
         "numberPlural": "2 uomo",
         "answer": "due uomini",
@@ -55,7 +55,7 @@
 {
         "word": "donna",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "article": "la",
         "numberPlural": "2 donna",
         "answer": "due donne",
@@ -75,7 +75,7 @@
         "word": "barba incolta",
         "image": "images/vocabulary/appearance/stubble.bristle.png",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "🧔",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Peli corti e rigidi che crescono sul viso di un uomo quando non si rade da qualche giorno.", "examples": ["Ha un po' di barba incolta."]}],
@@ -236,7 +236,7 @@
 {
         "word": "ragazzo",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👦",
@@ -259,7 +259,7 @@
 {
         "word": "ragazza",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
@@ -328,7 +328,7 @@
 {
         "word": "adulto",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑",
@@ -374,7 +374,7 @@
 {
         "word": "età",
         "level": "starter",
-        "theme": "age_A1",
+        "theme": "people",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎂",
@@ -397,7 +397,7 @@
 {
         "word": "compleanno",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎂",
@@ -488,7 +488,7 @@
 {
         "word": "gente",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👥",
@@ -511,7 +511,7 @@
 {
         "word": "idea",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "article": "l'",
         "gender": "feminine",
         "emoji": "💡",
@@ -534,7 +534,7 @@
 {
         "word": "parere",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "article": "il",
         "gender": "masculine",
         "emoji": "💬",
@@ -557,7 +557,7 @@
 {
         "word": "opinione",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🗣️",
@@ -580,7 +580,7 @@
 {
         "word": "scelta",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "article": "la",
         "gender": "feminine",
         "emoji": "👉",
@@ -603,7 +603,7 @@
 {
         "word": "decisione",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "article": "la",
         "gender": "feminine",
         "emoji": "⚖️",
@@ -628,7 +628,7 @@
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cognome",
         "word": "cognome",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "gender": "masculine",
         "article": "il",
         "partitive": "del",
@@ -650,7 +650,7 @@
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "informazioni",
         "word": "informazione",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "gender": "feminine",
         "article": "l'",
         "partitive": "dell'",
@@ -674,7 +674,7 @@
 {
         "word": "mio",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "adjective",
         "transcription": "ˈmio",
         "feminine": "mia",
@@ -696,7 +696,7 @@
 {
         "word": "tuo",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "adjective",
         "transcription": "ˈtuo",
         "feminine": "tua",
@@ -718,7 +718,7 @@
 {
         "word": "suo",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "adjective",
         "transcription": "ˈsuo",
         "feminine": "sua",
@@ -740,7 +740,7 @@
 {
         "word": "nostro",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "adjective",
         "transcription": "ˈnɔstro",
         "feminine": "nostra",
@@ -762,7 +762,7 @@
 {
         "word": "vostro",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "adjective",
         "transcription": "ˈvɔstro",
         "feminine": "vostra",
@@ -784,7 +784,7 @@
 {
         "word": "questo",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "adjective",
         "transcription": "ˈkwesto",
         "feminine": "questa",
@@ -808,7 +808,7 @@
 {
         "word": "quello",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "adjective",
         "transcription": "ˈkwello",
         "feminine": "quella",
@@ -832,7 +832,7 @@
 {
         "word": "persona",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
@@ -941,7 +941,7 @@
 {
         "word": "male",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adverb",
         "transcription": "ˈmale",
         "definitions": [
@@ -962,7 +962,7 @@
 {
         "word": "gentilezza",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "article": "la",
         "gender": "feminine",
         "emoji": "🤝",

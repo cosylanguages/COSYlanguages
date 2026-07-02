@@ -3,7 +3,7 @@
 {
         "word": "vêtement",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "👕",
@@ -41,7 +41,7 @@
 {
         "word": "chaussures",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "les",
         "gender": "feminine",
         "emoji": "👟",
@@ -60,7 +60,7 @@
 {
         "word": "bottes",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "les",
         "gender": "feminine",
         "emoji": "🥾",
@@ -79,7 +79,7 @@
 {
         "word": "chaussettes",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "les",
         "gender": "feminine",
         "emoji": "🧦",
@@ -98,7 +98,7 @@
 {
         "word": "pantalon",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "👖",
@@ -117,7 +117,7 @@
 {
         "word": "jean",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "👖",
@@ -136,7 +136,7 @@
 {
         "word": "jupe",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
@@ -155,7 +155,7 @@
 {
         "word": "robe",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
@@ -174,7 +174,7 @@
 {
         "word": "chemise",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👔",
@@ -197,7 +197,7 @@
 {
         "word": "pull",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧶",
@@ -216,7 +216,7 @@
 {
         "word": "manteau",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧥",
@@ -235,7 +235,7 @@
 {
         "word": "veste",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧥",
@@ -254,7 +254,7 @@
 {
         "word": "casquette",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧢",
@@ -273,7 +273,7 @@
 {
         "word": "bonnet",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧣",
@@ -292,7 +292,7 @@
 {
         "word": "gants",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "les",
         "gender": "masculine",
         "emoji": "🧤",
@@ -311,7 +311,7 @@
 {
         "word": "ceinture",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎗️",
@@ -330,7 +330,7 @@
 {
         "word": "maillot de bain",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "🩱",
@@ -349,7 +349,7 @@
 {
         "word": "pyjama",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛌",
@@ -368,7 +368,7 @@
 {
         "word": "chapeau",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "🎩",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -388,7 +388,7 @@
 {
         "word": "t-shirt",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -408,7 +408,7 @@
 {
         "word": "short",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "🩳",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -428,7 +428,7 @@
 {
         "word": "botte",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "🥾",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
@@ -448,7 +448,7 @@
 {
         "word": "écharpe",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "🧣",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
@@ -468,7 +468,7 @@
 {
         "word": "gant",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "🧤",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",

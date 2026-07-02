@@ -71,7 +71,7 @@
         "word": "maison",
         "image": "images/vocabulary/actions/to go home.png",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏡",
@@ -96,7 +96,7 @@
 {
         "word": "appartement",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
@@ -116,7 +116,7 @@
 {
         "word": "foyer",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏠",
@@ -135,7 +135,7 @@
 {
         "word": "pièce",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "emoji": "🚪",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -324,7 +324,7 @@
 {
         "word": "salle de bain",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚿",
@@ -343,7 +343,7 @@
 {
         "word": "chambre",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛏️",
@@ -401,7 +401,7 @@
         "word": "bain",
         "image": "images/vocabulary/actions/to take. to have a bath.png",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛁",
@@ -458,7 +458,7 @@
 {
         "word": "étage",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "l'",
         "gender": "masculine",
         "emoji": "📶",
@@ -477,7 +477,7 @@
 {
         "word": "entrée",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
@@ -496,7 +496,7 @@
 {
         "word": "sortie",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚪",
@@ -515,7 +515,7 @@
 {
         "word": "escalier",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🪜",
@@ -534,7 +534,7 @@
 {
         "word": "ascenseur",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛗",
@@ -553,7 +553,7 @@
 {
         "word": "couloir",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "👣",
@@ -572,7 +572,7 @@
 {
         "word": "murs",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "les",
         "gender": "masculine",
         "emoji": "🧱",
@@ -591,7 +591,7 @@
 {
         "word": "toit",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏠",
@@ -611,7 +611,7 @@
         "word": "jardin",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏡",
@@ -630,7 +630,7 @@
 {
         "word": "garage",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚗",
@@ -649,7 +649,7 @@
 {
         "word": "salon",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛋️",
@@ -666,9 +666,9 @@
         "transcription": "/sa.lɔ̃/"
     },
 {
-        "word": "cuisine",
+        "word": "food_drink",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍳",
@@ -687,7 +687,7 @@
 {
         "word": "salle à manger",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍽️",
@@ -706,7 +706,7 @@
 {
         "word": "toilette",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚽",
@@ -726,7 +726,7 @@
         "word": "douche",
         "image": "images/vocabulary/actions/to take. to have a shower.png",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚿",
@@ -764,7 +764,7 @@
 {
         "word": "savon",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧼",

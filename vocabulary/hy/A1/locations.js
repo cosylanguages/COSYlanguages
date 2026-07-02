@@ -4,67 +4,67 @@
     {
         "word": "Ֆրանսիա",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Իտալիա",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Ռուսաստան",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Հունաստան",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Անգլիա",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Իսպանիա",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "ԱՄՆ",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Փարիզ",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Լոնդոն",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Հռոմ",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Մոսկվա",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Աթենք",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Նյու Յորք",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     }
 ]
     const lang = "hy";

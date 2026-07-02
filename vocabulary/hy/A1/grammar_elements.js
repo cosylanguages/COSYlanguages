@@ -3,7 +3,7 @@
         {
             "word": "ես",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🙋",
             "form": "pronoun",
             "definitions": [{ "text": "Առաջին դեմք, եզակի թիվ:", "examples": ["Ես ուսանող եմ:"] }]
@@ -11,7 +11,7 @@
         {
             "word": "դու",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🫵",
             "form": "pronoun",
             "definitions": [{ "text": "Երկրորդ դեմք, եզակի թիվ:", "examples": ["Ինչպե՞ս ես դու:"] }]
@@ -19,7 +19,7 @@
         {
             "word": "նա",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👨",
             "form": "pronoun",
             "definitions": [{ "text": "Երրորդ դեմք, եզակի թիվ:", "examples": ["Նա իմ եղբայրն է:"] }]
@@ -27,7 +27,7 @@
         {
             "word": "մենք",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👥",
             "form": "pronoun",
             "definitions": [{ "text": "Առաջին դեմք, հոգնակի թիվ:", "examples": ["Մենք ընկերներ ենք:"] }]
@@ -35,7 +35,7 @@
         {
             "word": "նրանք",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👥",
             "form": "pronoun",
             "definitions": [{ "text": "Երրորդ դեմք, հոգնակի թիվ:", "examples": ["Նրանք միասին են աշխատում:"] }]
@@ -43,7 +43,7 @@
         {
             "word": "իմ",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🙋",
             "form": "determiner",
             "definitions": [{ "text": "Ցույց է տալիս պատկանելություն (ես):", "examples": ["Իմ անունը Հովհաննես է:"] }]
@@ -51,7 +51,7 @@
         {
             "word": "քո",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🫵",
             "form": "determiner",
             "definitions": [{ "text": "Ցույց է տալիս պատկանելություն (դու):", "examples": ["Սա քո՞ հեռախոսն է:"] }]

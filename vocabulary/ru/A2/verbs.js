@@ -4,7 +4,7 @@
     {
         "word": "чистить зубы",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🪥",
         "form": "verb",
         "subtext": "чистить зубы дважды в день",
@@ -29,7 +29,7 @@
     {
         "word": "принимать душ",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🚿",
         "form": "verb",
         "subtext": "",
@@ -1988,7 +1988,7 @@
     {
         "word": "переезжать",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "📦",
         "form": "verb",
         "subtext": "переезжать в новое место",
@@ -2016,7 +2016,7 @@
     {
         "word": "украшать",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🎨",
         "form": "verb",
         "subtext": "украшать комнату",

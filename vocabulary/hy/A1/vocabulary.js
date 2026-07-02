@@ -4,14 +4,14 @@
         "word": "այգի",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{ "text": "Հանրային այգի կամ մեծ կանաչ տարածք քաղաքում, որը հասանելի է բոլորին:", "examples": [] }]},
 {
         "word": "բժիշկ",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🧑‍⚕️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -24,7 +24,7 @@
 {
         "word": "ոտք",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "🦶",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -37,7 +37,7 @@
 {
         "word": "ուսուցիչ",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🧑‍🏫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -50,7 +50,7 @@
 {
         "word": "պիցցա",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -63,7 +63,7 @@
 {
         "word": "մակարոն",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍝",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -76,7 +76,7 @@
 {
         "word": "խնձոր",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -89,7 +89,7 @@
 {
         "word": "հաց",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍞",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -102,7 +102,7 @@
 {
         "word": "ձու",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥚",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -115,7 +115,7 @@
 {
         "word": "կաթ",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -128,7 +128,7 @@
 {
         "word": "բանան",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍌",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -141,7 +141,7 @@
 {
         "word": "սուրճ",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "☕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -154,7 +154,7 @@
 {
         "word": "թեյ",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🍵",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -167,7 +167,7 @@
 {
         "word": "ջուր",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🚰",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -180,7 +180,7 @@
 {
         "word": "դպրոց",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🏫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -193,7 +193,7 @@
 {
         "word": "շապիկ",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -206,7 +206,7 @@
 {
         "word": "տաբատ",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👖",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -219,7 +219,7 @@
 {
         "word": "կոշիկ",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👞",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -232,7 +232,7 @@
 {
         "word": "գլխարկ",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👒",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -297,7 +297,7 @@
 {
         "word": "հեռախոս",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📱",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -349,7 +349,7 @@
 {
         "word": "կատու",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐈",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -362,7 +362,7 @@
 {
         "word": "շուն",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -375,7 +375,7 @@
 {
         "word": "ձեռք",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "✋",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -388,7 +388,7 @@
 {
         "word": "ոտք",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "🦵",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -401,7 +401,7 @@
 {
         "word": "աչք",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👁️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -414,7 +414,7 @@
 {
         "word": "քիթ",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👃",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -427,7 +427,7 @@
 {
         "word": "բերան",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👄",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -440,7 +440,7 @@
 {
         "word": "ականջ",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👂",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -453,7 +453,7 @@
 {
         "word": "մայր",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👩",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -466,7 +466,7 @@
 {
         "word": "հայր",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👨",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -479,7 +479,7 @@
 {
         "word": "աշխատանք",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "💼",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -492,7 +492,7 @@
 {
         "word": "տուն",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "emoji": "🏠",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -505,7 +505,7 @@
 {
         "word": "մեքենա",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -518,7 +518,7 @@
 {
         "word": "ավտոբուս",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚌",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -531,7 +531,7 @@
 {
         "word": "գնացք",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚆",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -544,7 +544,7 @@
 {
         "word": "փող",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -557,7 +557,7 @@
 {
         "word": "խանութ",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🛒",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -570,7 +570,7 @@
 {
         "word": "ընտանիք",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👪",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -583,7 +583,7 @@
 {
         "word": "ընկեր",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -596,7 +596,7 @@
 {
         "word": "օր",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "☀️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -609,7 +609,7 @@
 {
         "word": "շաբաթ",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -622,7 +622,7 @@
 {
         "word": "ուտելիք",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍲",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -635,7 +635,7 @@
 {
         "word": "նախաճաշ",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -648,7 +648,7 @@
 {
         "word": "ճաշ",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍱",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -661,7 +661,7 @@
 {
         "word": "ընթրիք",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍽️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -674,7 +674,7 @@
 {
         "word": "առավոտ",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -687,7 +687,7 @@
 {
         "word": "երեկո",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌆",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -700,7 +700,7 @@
 {
         "word": "գիշեր",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌙",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -713,7 +713,7 @@
 {
         "word": "այսօր",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -726,7 +726,7 @@
 {
         "word": "վաղը",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "⏭️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -739,7 +739,7 @@
 {
         "word": "ամուսին",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👨",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -752,7 +752,7 @@
 {
         "word": "կին",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👩",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -765,7 +765,7 @@
 {
         "word": "երեխա",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👶",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -778,7 +778,7 @@
 {
         "word": "արև",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -791,7 +791,7 @@
 {
         "word": "անձրև",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🌧️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [

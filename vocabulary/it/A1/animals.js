@@ -3,7 +3,7 @@
 {
         "word": "gatto",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "il",
         "emoji": "🐈",
         "numberPlural": "2 gatto",
@@ -34,7 +34,7 @@
 {
         "word": "cane",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "il",
         "emoji": "🐕",
         "numberPlural": "5 cane",
@@ -65,7 +65,7 @@
 {
         "word": "uccello",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "l'",
         "emoji": "🐦",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -93,7 +93,7 @@
         "word": "pesce",
         "image": "images/vocabulary/nature/fish.png",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "il",
         "emoji": "🐟",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -120,7 +120,7 @@
 {
         "word": "coniglio",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "il",
         "gender": "masculine",
         "emoji": "🐰",
@@ -143,7 +143,7 @@
 {
         "word": "cavallo",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "il",
         "gender": "masculine",
         "emoji": "🐴",
@@ -170,7 +170,7 @@
 {
         "word": "mucca",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "la",
         "gender": "feminine",
         "emoji": "🐮",
@@ -193,7 +193,7 @@
 {
         "word": "pecora",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "la",
         "gender": "feminine",
         "emoji": "🐑",
@@ -216,7 +216,7 @@
 {
         "word": "animale",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🐾",
@@ -308,7 +308,7 @@
 {
         "word": "leone",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🦁",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -330,7 +330,7 @@
 {
         "word": "elefante",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐘",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -352,7 +352,7 @@
 {
         "word": "tigre",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
@@ -374,7 +374,7 @@
 {
         "word": "scimmia",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐒",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",

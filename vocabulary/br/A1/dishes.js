@@ -4,7 +4,7 @@
         {
             "word": "krampouezh",
             "level": "starter",
-            "theme": "basic_foods_A1",
+            "theme": "food_drink",
             "emoji": "🥞",
             "form": "noun",
             "definitions": [
@@ -17,7 +17,7 @@
         {
             "word": "galetez",
             "level": "starter",
-            "theme": "basic_foods_A1",
+            "theme": "food_drink",
             "emoji": "🍳",
             "form": "noun",
             "definitions": [
@@ -30,7 +30,7 @@
         {
             "word": "kouign-amann",
             "level": "starter",
-            "theme": "basic_foods_A1",
+            "theme": "food_drink",
             "emoji": "🥮",
             "form": "noun",
             "definitions": [

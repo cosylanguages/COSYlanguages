@@ -5,7 +5,7 @@
     {
         "word": "alto",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "baixo",
         "oppositeEmoji": "📏",
@@ -31,7 +31,7 @@
     {
         "word": "baixo",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "alto",
         "oppositeEmoji": "🦒",
@@ -59,7 +59,7 @@
     {
         "word": "jovem",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "velho",
         "oppositeEmoji": "👴",
@@ -81,7 +81,7 @@
     {
         "word": "velho",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "novo",
         "oppositeEmoji": "✨",
@@ -103,7 +103,7 @@
     {
         "word": "ensolarado",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "adjective",
         "definitions": [
@@ -126,7 +126,7 @@
     {
         "word": "chuvoso",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🌧️",
         "form": "adjective",
         "definitions": [
@@ -152,7 +152,7 @@
     {
         "word": "quente",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
         "opposite": "frio",
@@ -175,7 +175,7 @@
     {
         "word": "frio",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "quente",
@@ -206,7 +206,7 @@
     {
         "word": "comum",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "especial",
         "oppositeEmoji": "✨",
@@ -228,7 +228,7 @@
     {
         "word": "barato",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "form": "adjective",
         "opposite": "caro",
@@ -254,7 +254,7 @@
     {
         "word": "caro",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "💎",
         "form": "adjective",
         "opposite": "barato",
@@ -277,7 +277,7 @@
     {
         "word": "bom",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
         "opposite": "mau",
@@ -306,7 +306,7 @@
     {
         "word": "mau",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
         "opposite": "bom",
@@ -336,7 +336,7 @@
     {
         "word": "grande",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "🐘",
         "form": "adjective",
         "opposite": "pequeno",
@@ -359,7 +359,7 @@
     {
         "word": "pequeno",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "🐭",
         "form": "adjective",
         "opposite": "grande",
@@ -382,7 +382,7 @@
     {
         "word": "fácil",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "difícil",
@@ -405,7 +405,7 @@
     {
         "word": "difícil",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "fácil",
@@ -428,7 +428,7 @@
     {
         "word": "feliz",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "form": "adjective",
         "subtext": "sentir-se feliz / feliz com algo / um dia feliz",
@@ -455,7 +455,7 @@
     {
         "word": "cansado",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😫",
         "form": "adjective",
         "subtext": "sentir-se cansado / cansado de algo / muito cansado",
@@ -482,7 +482,7 @@
     {
         "word": "a tempo inteiro",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
         "opposite": "a tempo parcial",
@@ -508,7 +508,7 @@
     {
         "word": "a tempo parcial",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
         "opposite": "a tempo inteiro",
@@ -531,7 +531,7 @@
     {
         "word": "limpo",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
         "opposite": "sujo",
@@ -557,7 +557,7 @@
     {
         "word": "saudável",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥗",
         "form": "adjective",
         "opposite": "insalubre",
@@ -584,7 +584,7 @@
     {
         "word": "doente",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤒",
         "form": "adjective",
         "opposite": "bem",
@@ -610,7 +610,7 @@
     {
         "word": "on-line",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "offline",
@@ -638,7 +638,7 @@
     {
         "word": "sozinho",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "together",
@@ -661,7 +661,7 @@
     {
         "word": "relaxado",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "estressado",
@@ -687,7 +687,7 @@
     {
         "word": "preocupado",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😟",
         "form": "adjective",
         "opposite": "calm",
@@ -713,7 +713,7 @@
     {
         "word": "ocupado",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏃",
         "form": "adjective",
         "subtext": "muito ocupado / dia ocupado / ocupado demais",
@@ -739,7 +739,7 @@
     {
         "word": "útil",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "inútil",
@@ -765,7 +765,7 @@
     {
         "word": "importante",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "❗",
         "form": "adjective",
         "subtext": "reunião importante / muito importante / mais importante",
@@ -791,7 +791,7 @@
     {
         "word": "vermelho",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟥",
         "form": "adjective",
         "subtext": "vermelho escuro, vermelho vivo / rosto vermelho / sinal vermelho",
@@ -819,7 +819,7 @@
     {
         "word": "azul",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟦",
         "form": "adjective",
         "subtext": "azul claro, azul escuro / azul escuro / azul claro / céu azul",
@@ -844,7 +844,7 @@
     {
         "word": "verde",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟩",
         "form": "adjective",
         "subtext": "verde claro, verde escuro / energia verde / espaço verde / verde vivo",
@@ -869,7 +869,7 @@
     {
         "word": "branco",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "⬜",
         "form": "adjective",
         "subtext": "branco puro, branco neve / vinho branco / branco sujo / branco brilhante",
@@ -894,7 +894,7 @@
     {
         "word": "preto",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "⬛",
         "form": "adjective",
         "subtext": "preto carvão, escuro / café preto / preto intenso",
@@ -922,7 +922,7 @@
     {
         "word": "amarelo",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟨",
         "form": "adjective",
         "subtext": "amarelo vivo, limão / amarelo pálido / amarelo brilhante",
@@ -950,7 +950,7 @@
     {
         "word": "grátis",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "grátis, brinde",
@@ -976,7 +976,7 @@
     {
         "word": "aberto",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
         "opposite": "fechado",
@@ -1003,7 +1003,7 @@
     {
         "word": "fechado",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
         "opposite": "aberto",
@@ -1040,7 +1040,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais grande",
         "superlative": "o maior",
         "feminine": "grande",
@@ -1065,7 +1065,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais pequeno",
         "superlative": "o menor",
         "feminine": "pequena",
@@ -1089,7 +1089,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais longo",
         "superlative": "o mais longo",
         "feminine": "longa",
@@ -1118,7 +1118,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais alto",
         "superlative": "o mais alto",
         "feminine": "alta",
@@ -1143,7 +1143,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais baixo",
         "superlative": "o mais baixo",
         "feminine": "baixa",
@@ -1167,7 +1167,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais cheio",
         "superlative": "o mais cheio",
         "feminine": "cheia",
@@ -1189,7 +1189,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais vazio",
         "superlative": "o mais vazio",
         "feminine": "vazia",
@@ -1216,7 +1216,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "mais morno",
         "superlative": "o mais morno",
         "feminine": "morna",
@@ -1241,7 +1241,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "mais fresco",
         "superlative": "o mais fresco",
         "feminine": "fresca",
@@ -1266,7 +1266,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "mais molhado",
         "superlative": "o mais molhado",
         "feminine": "molhada",
@@ -1291,7 +1291,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "mais seco",
         "superlative": "o mais seco",
         "feminine": "seca",
@@ -1301,7 +1301,7 @@
     {
         "word": "sujo",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "form": "adjective",
         "subtext": "",
         "synonyms": [
@@ -1343,7 +1343,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais duro",
         "superlative": "o mais duro",
         "feminine": "dura",
@@ -1370,7 +1370,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais macio",
         "superlative": "o mais macio",
         "feminine": "macia",
@@ -1397,7 +1397,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais pesado",
         "superlative": "o mais pesado",
         "feminine": "pesada",
@@ -1424,7 +1424,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais leve",
         "superlative": "o mais leve",
         "feminine": "leve",
@@ -1449,7 +1449,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": "mais castanho",
         "superlative": "o mais castanho",
         "feminine": "castanha",
@@ -1474,7 +1474,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": "mais cinzento",
         "superlative": "o mais cinzento",
         "feminine": "cinzenta",
@@ -1499,7 +1499,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": "mais cor-de-rosa",
         "superlative": "o mais cor-de-rosa",
         "feminine": "cor-de-rosa",
@@ -1524,7 +1524,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": "mais laranja",
         "superlative": "o mais laranja",
         "feminine": "laranja",
@@ -1549,7 +1549,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "melhor",
         "superlative": "o melhor",
         "feminine": "ótima",
@@ -1574,7 +1574,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "mais simpático",
         "superlative": "o mais simpático",
         "feminine": "simpática",
@@ -1597,7 +1597,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "mais maravilhoso",
         "superlative": "o mais maravilhoso",
         "feminine": "maravilhosa",
@@ -1622,7 +1622,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "mais terrível",
         "superlative": "o mais terrível",
         "feminine": "terrível",
@@ -1647,7 +1647,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "mais horrível",
         "superlative": "o mais horrível",
         "feminine": "horrível",
@@ -1672,7 +1672,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "mais incrível",
         "superlative": "o mais incrível",
         "feminine": "incrível",
@@ -1697,7 +1697,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "mais fantástico",
         "superlative": "o mais fantástico",
         "feminine": "fantástica",
@@ -1717,7 +1717,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "mais triste",
         "superlative": "o mais triste",
         "feminine": "triste",
@@ -1744,7 +1744,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "mais faminto",
         "superlative": "o mais faminto",
         "feminine": "faminta",
@@ -1764,7 +1764,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "mais zangado",
         "superlative": "o mais zangado",
         "feminine": "zangada",
@@ -1787,7 +1787,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "mais entediado",
         "superlative": "o mais entediado",
         "feminine": "entediada",
@@ -1797,7 +1797,7 @@
     {
         "word": "entusiasmado",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "subtext": "sentir-se entusiasmado / entusiasmado com / muito entusiasmado",
         "definitions": [
@@ -1831,7 +1831,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "mais assustado",
         "superlative": "o mais assustado",
         "feminine": "assustada",
@@ -1856,7 +1856,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "mais arrependido",
         "superlative": "o mais arrependido",
         "feminine": "arrependida",
@@ -1881,7 +1881,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "mais correto",
         "superlative": "o mais correto",
         "feminine": "correta",
@@ -1906,7 +1906,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "mais errado",
         "superlative": "o mais errado",
         "feminine": "errada",
@@ -1931,7 +1931,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais novo",
         "superlative": "o mais novo",
         "feminine": "nova",
@@ -1957,7 +1957,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "mais diferente",
         "superlative": "o mais diferente",
         "feminine": "diferente",
@@ -1977,7 +1977,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "mesma",
@@ -2000,7 +2000,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais rápido",
         "superlative": "o mais rápido",
         "feminine": "rápida",
@@ -2025,7 +2025,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "mais lento",
         "superlative": "o mais lento",
         "feminine": "lenta",
@@ -2052,7 +2052,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "mais silencioso",
         "superlative": "o mais silencioso",
         "feminine": "silenciosa",
@@ -2079,7 +2079,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "mais barulhento",
         "superlative": "o mais barulhento",
         "feminine": "barulhenta",
@@ -2104,7 +2104,7 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "comparative": "mais seguro",
         "superlative": "o mais seguro",
         "feminine": "segura",
@@ -2127,7 +2127,7 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "comparative": "mais perigoso",
         "superlative": "o mais perigoso",
         "feminine": "perigosa",
@@ -2137,7 +2137,7 @@
     {
         "word": "infeliz",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -2157,7 +2157,7 @@
     {
         "word": "nervoso",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -2177,7 +2177,7 @@
     {
         "word": "estressado",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -2199,7 +2199,7 @@
     {
         "word": "confiante",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2222,7 +2222,7 @@
     {
         "word": "orgulhoso",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2242,7 +2242,7 @@
     {
         "word": "assustado",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -2262,7 +2262,7 @@
     {
         "word": "surpreendido",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -2287,7 +2287,7 @@
     {
         "word": "dececionado",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -2312,7 +2312,7 @@
     {
         "word": "bonito",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2339,7 +2339,7 @@
     {
         "word": "lindo",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2364,7 +2364,7 @@
     {
         "word": "forte",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2386,7 +2386,7 @@
     {
         "word": "fraco",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2411,7 +2411,7 @@
     {
         "word": "em forma",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -2436,7 +2436,7 @@
     {
         "word": "excelente",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2456,7 +2456,7 @@
     {
         "word": "perfeito",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2481,7 +2481,7 @@
     {
         "word": "inútil",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2506,7 +2506,7 @@
     {
         "word": "correto",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2530,7 +2530,7 @@
     {
         "word": "interessante",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2550,7 +2550,7 @@
     {
         "word": "aborrecido",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2575,7 +2575,7 @@
     {
         "word": "necessário",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2600,7 +2600,7 @@
     {
         "word": "possível",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2624,7 +2624,7 @@
     {
         "word": "impossível",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2649,7 +2649,7 @@
     {
         "word": "especial",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2669,7 +2669,7 @@
     {
         "word": "popular",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2689,7 +2689,7 @@
     {
         "word": "semelhante",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2709,7 +2709,7 @@
     {
         "word": "amigável",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2729,7 +2729,7 @@
     {
         "word": "bondoso",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2753,7 +2753,7 @@
     {
         "word": "engraçado",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2776,7 +2776,7 @@
     {
         "word": "esperto",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2801,7 +2801,7 @@
     {
         "word": "educado",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2821,7 +2821,7 @@
     {
         "word": "grosseiro",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2846,7 +2846,7 @@
     {
         "word": "preguiçoso",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2869,7 +2869,7 @@
     {
         "word": "honesto",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2889,7 +2889,7 @@
     {
         "word": "barulhento",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2927,7 +2927,7 @@
     {
         "word": "tímido",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "adjective",
         "transcription": "ˈti.mi.ðu",
         "feminine": "tímida",

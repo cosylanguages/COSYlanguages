@@ -4,7 +4,7 @@
     {
         "word": "բարձրահասակ",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "կարճ",
         "oppositeEmoji": "📏",
@@ -27,7 +27,7 @@
     {
         "word": "կարճ",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "բարձրահասակ",
         "oppositeEmoji": "🗼",
@@ -49,7 +49,7 @@
     {
         "word": "երիտասարդ",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "հին",
         "oppositeEmoji": "👴",
@@ -71,7 +71,7 @@
     {
         "word": "հին",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "երիտասարդ",
         "oppositeEmoji": "👶",
@@ -93,7 +93,7 @@
     {
         "word": "արևոտ",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "adjective",
         "definitions": [
@@ -115,7 +115,7 @@
     {
         "word": "անձրևոտ",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🌧️",
         "form": "adjective",
         "definitions": [
@@ -137,7 +137,7 @@
     {
         "word": "տաք",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
         "opposite": "սառը",
@@ -160,7 +160,7 @@
     {
         "word": "սառը",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "տաք",
@@ -184,7 +184,7 @@
     {
         "word": "սովորական",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "հատուկ",
         "oppositeEmoji": "✨",
@@ -203,7 +203,7 @@
     {
         "word": "էժան",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "form": "adjective",
         "opposite": "թանկ",
@@ -227,7 +227,7 @@
     {
         "word": "թանկ",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "💎",
         "form": "adjective",
         "opposite": "էժան",
@@ -251,7 +251,7 @@
     {
         "word": "լավ",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
         "opposite": "վատ",
@@ -275,7 +275,7 @@
     {
         "word": "վատ",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
         "opposite": "լավ",
@@ -299,7 +299,7 @@
     {
         "word": "մեծ",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "🐘",
         "form": "adjective",
         "opposite": "փոքր",
@@ -322,7 +322,7 @@
     {
         "word": "փոքր",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "🐭",
         "form": "adjective",
         "opposite": "մեծ",
@@ -345,7 +345,7 @@
     {
         "word": "հեշտ",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "դժվար",
@@ -368,7 +368,7 @@
     {
         "word": "դժվար",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "հեշտ",
@@ -392,7 +392,7 @@
     {
         "word": "երջանիկ",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "form": "adjective",
         "subtext": "երջանիկ զգալ / երջանիկ օր",
@@ -414,7 +414,7 @@
     {
         "word": "հոգնած",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😫",
         "form": "adjective",
         "subtext": "հոգնած զգալ / շատ հոգնած",
@@ -436,7 +436,7 @@
     {
         "word": "լրիվ դրույք",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
         "opposite": "կես դրույք",
@@ -457,7 +457,7 @@
     {
         "word": "կես դրույք",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
         "opposite": "լրիվ դրույք",
@@ -478,7 +478,7 @@
     {
         "word": "մաքուր",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
         "opposite": "կեղտոտ",
@@ -501,7 +501,7 @@
     {
         "word": "առողջ",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥗",
         "form": "adjective",
         "opposite": "ոչ առողջ",
@@ -524,7 +524,7 @@
     {
         "word": "հիվանդ",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤒",
         "form": "adjective",
         "opposite": "առողջ",
@@ -544,7 +544,7 @@
     {
         "word": "առցանց",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "անցանց",
@@ -564,7 +564,7 @@
     {
         "word": "մենակ",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "միասին",
@@ -584,7 +584,7 @@
     {
         "word": "հանգիստ",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "լարված",
@@ -604,7 +604,7 @@
     {
         "word": "անհանգիստ",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😟",
         "form": "adjective",
         "opposite": "հանգիստ",
@@ -625,7 +625,7 @@
     {
         "word": "զբաղված",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏃",
         "form": "adjective",
         "subtext": "զբաղված օր / զբաղված գրաֆիկ / շատ զբաղված",
@@ -646,7 +646,7 @@
     {
         "word": "օգտակար",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "անօգուտ",
@@ -670,7 +670,7 @@
     {
         "word": "կարևոր",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "❗",
         "form": "adjective",
         "subtext": "կարևոր հանդիպում / շատ կարևոր",
@@ -691,7 +691,7 @@
     {
         "word": "կարմիր",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟥",
         "form": "adjective",
         "subtext": "կարմիր գինի / կարմիր լույս",
@@ -715,7 +715,7 @@
     {
         "word": "կապույտ",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟦",
         "form": "adjective",
         "subtext": "կապույտ երկինք",
@@ -739,7 +739,7 @@
     {
         "word": "կանաչ",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟩",
         "form": "adjective",
         "subtext": "կանաչ տարածք",
@@ -763,7 +763,7 @@
     {
         "word": "սպիտակ",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "⬜",
         "form": "adjective",
         "subtext": "սպիտակ գինի",
@@ -787,7 +787,7 @@
     {
         "word": "սև",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "⬛",
         "form": "adjective",
         "subtext": "սև սուրճ",
@@ -811,7 +811,7 @@
     {
         "word": "դեղին",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟨",
         "form": "adjective",
         "subtext": "դեղին լույս",
@@ -835,7 +835,7 @@
     {
         "word": "ազատ",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "ազատ ժամանակ",
@@ -857,7 +857,7 @@
     {
         "word": "բաց",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
         "opposite": "փակ",
@@ -880,7 +880,7 @@
     {
         "word": "փակ",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
         "opposite": "բաց",
@@ -913,7 +913,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -931,7 +931,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -948,7 +948,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "ավելի երկար",
         "superlative": "ամենաերկար",
         "feminine": null,
@@ -968,7 +968,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -985,7 +985,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1003,7 +1003,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "ավելի լիքը",
         "superlative": "ամենալիքը",
         "feminine": null,
@@ -1023,7 +1023,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "ավելի դատարկ",
         "superlative": "ամենադատարկ",
         "feminine": null,
@@ -1043,7 +1043,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": null,
          "superlative": null
     },
@@ -1060,7 +1060,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": null,
          "superlative": null
     },
@@ -1077,7 +1077,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "ավելի թաց",
         "superlative": "ամենաթաց",
         "feminine": null,
@@ -1097,7 +1097,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "ավելի չոր",
         "superlative": "ամենաչոր",
         "feminine": null,
@@ -1107,7 +1107,7 @@
     {
         "word": "կեղտոտ",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "form": "adjective",
         "subtext": "կեղտոտ ձեռքեր / կեղտոտ հագուստ",
         "definitions": [
@@ -1138,7 +1138,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "ավելի կոշտ",
         "superlative": "ամենակոշտ",
         "feminine": null,
@@ -1158,7 +1158,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "ավելի փափուկ",
         "superlative": "ամենափափուկ",
         "feminine": null,
@@ -1179,7 +1179,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "ավելի ծանր",
         "superlative": "ամենածանր",
         "feminine": null,
@@ -1199,7 +1199,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1216,7 +1216,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": null,
          "superlative": null
     },
@@ -1233,7 +1233,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": null,
          "superlative": null
     },
@@ -1250,7 +1250,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": null,
          "superlative": null
     },
@@ -1268,7 +1268,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": null,
          "superlative": null
     },
@@ -1285,7 +1285,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1302,7 +1302,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1319,7 +1319,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1336,7 +1336,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "ավելի սարսափելի",
         "superlative": "ամենասարսափելի",
         "feminine": null,
@@ -1356,7 +1356,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1373,7 +1373,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1390,7 +1390,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1407,7 +1407,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "ավելի տխուր",
         "superlative": "ամենատխուր",
         "feminine": null,
@@ -1427,7 +1427,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "ավելի սոված",
         "superlative": "ամենասոված",
         "feminine": null,
@@ -1448,7 +1448,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "ավելի բարկացած",
         "superlative": "ամենաբարկացած",
         "feminine": null,
@@ -1469,14 +1469,14 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": null,
          "superlative": null
     },
     {
         "word": "ոգևորված",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "subtext": "շատ ոգևորված",
         "definitions": [
@@ -1504,7 +1504,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": null,
          "superlative": null
     },
@@ -1521,7 +1521,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": null,
          "superlative": null
     },
@@ -1538,7 +1538,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1555,7 +1555,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "ավելի սխալ",
         "superlative": "ամենասխալ",
         "feminine": null,
@@ -1575,7 +1575,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "ավելի նոր",
         "superlative": "ամենանոր",
         "feminine": null,
@@ -1595,7 +1595,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "ավելի տարբեր",
         "superlative": "ամենատարբեր",
         "feminine": null,
@@ -1616,7 +1616,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "ավելի նույն",
         "superlative": "ամենանույն",
         "feminine": null,
@@ -1636,7 +1636,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "ավելի արագ",
         "superlative": "ամենաարագ",
         "feminine": null,
@@ -1656,7 +1656,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "ավելի դանդաղ",
         "superlative": "ամենադանդաղ",
         "feminine": null,
@@ -1676,7 +1676,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "ավելի հանգիստ",
         "superlative": "ամենահանգիստ",
         "feminine": null,
@@ -1696,7 +1696,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "ավելի բարձր",
         "superlative": "ամենաբարձր",
         "feminine": null,
@@ -1716,7 +1716,7 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "comparative": "ավելի ապահով",
         "superlative": "ամենաապահով",
         "feminine": null,
@@ -1736,7 +1736,7 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "comparative": "ավելի վտանգավոր",
         "superlative": "ամենավտանգավոր",
         "feminine": null,
@@ -1746,7 +1746,7 @@
     {
         "word": "դժբախտ",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1764,7 +1764,7 @@
     {
         "word": "նյարդային",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1784,7 +1784,7 @@
     {
         "word": "սթրեսի մեջ",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1802,7 +1802,7 @@
     {
         "word": "ինքնավստահ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1819,7 +1819,7 @@
     {
         "word": "հպարտ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1839,7 +1839,7 @@
     {
         "word": "վախեցած",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1859,7 +1859,7 @@
     {
         "word": "զարմացած",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1876,7 +1876,7 @@
     {
         "word": "հիասթափված",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1893,7 +1893,7 @@
     {
         "word": "գեղեցիկ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1913,7 +1913,7 @@
     {
         "word": "գեղեցիկ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1931,7 +1931,7 @@
     {
         "word": "ուժեղ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1952,7 +1952,7 @@
     {
         "word": "թույլ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1972,7 +1972,7 @@
     {
         "word": "կոկիկ",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -1990,7 +1990,7 @@
     {
         "word": "գերազանց",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2007,7 +2007,7 @@
     {
         "word": "կատարյալ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2027,7 +2027,7 @@
     {
         "word": "անօգուտ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2047,7 +2047,7 @@
     {
         "word": "ճիշտ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2067,7 +2067,7 @@
     {
         "word": "հետաքրքիր",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2087,7 +2087,7 @@
     {
         "word": "ձանձրալի",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2107,7 +2107,7 @@
     {
         "word": "անհրաժեշտ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2124,7 +2124,7 @@
     {
         "word": "հնարավոր",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2145,7 +2145,7 @@
     {
         "word": "անհնար",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2165,7 +2165,7 @@
     {
         "word": "հատուկ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2185,7 +2185,7 @@
     {
         "word": "հանրաճանաչ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2202,7 +2202,7 @@
     {
         "word": "նման",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2219,7 +2219,7 @@
     {
         "word": "ընկերական",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2236,7 +2236,7 @@
     {
         "word": "բարի",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2256,7 +2256,7 @@
     {
         "word": "ծիծաղելի",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2276,7 +2276,7 @@
     {
         "word": "խելացի",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2296,7 +2296,7 @@
     {
         "word": "քաղաքավարի",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2316,7 +2316,7 @@
     {
         "word": "կոպիտ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2336,7 +2336,7 @@
     {
         "word": "ծույլ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2356,7 +2356,7 @@
     {
         "word": "ազնիվ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2373,7 +2373,7 @@
     {
         "word": "աղմկոտ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {

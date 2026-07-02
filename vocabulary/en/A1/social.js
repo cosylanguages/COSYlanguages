@@ -2537,7 +2537,7 @@
         "transcription": "ʃaɪ",
         "lang": "en",
         "level": "starter",
-        "theme": "personality_traits",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -2563,7 +2563,7 @@
         "transcription": "ˈstupɪd",
         "lang": "en",
         "level": "starter",
-        "theme": "personality_traits",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -2645,7 +2645,7 @@
         "transcription": "ˈnæsti",
         "lang": "en",
         "level": "starter",
-        "theme": "personality_traits",
+        "theme": "people",
         "sub_theme": null
     },
     {

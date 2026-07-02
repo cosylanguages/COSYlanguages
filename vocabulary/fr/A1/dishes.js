@@ -4,7 +4,7 @@
     {
         "word": "ratatouille",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "form": "noun",
         "transcription": "ʁa.ta.tuj",

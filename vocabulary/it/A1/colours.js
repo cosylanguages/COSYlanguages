@@ -3,7 +3,7 @@
 {
         "word": "viola",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "article": "il",
         "gender": "masculine",
         "emoji": "🟣",
@@ -26,7 +26,7 @@
 {
         "word": "colore",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎨",
@@ -49,7 +49,7 @@
 {
         "word": "cerchio",
         "level": "starter",
-        "theme": "shapes_A1",
+        "theme": "describing",
         "emoji": "⭕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -71,7 +71,7 @@
 {
         "word": "triangolo",
         "level": "starter",
-        "theme": "shapes_A1",
+        "theme": "describing",
         "emoji": "🔺",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",

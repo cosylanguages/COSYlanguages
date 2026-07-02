@@ -4,7 +4,7 @@
         "word": "jardin",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable",
         "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }]
@@ -12,7 +12,7 @@
 {
         "word": "parc",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌳",
@@ -32,7 +32,7 @@
         "word": "école",
         "image": "images/vocabulary/actions/to go to school.png",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏫",
@@ -55,7 +55,7 @@
 {
         "word": "loyer",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "article": "le",
         "emoji": "🏠",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -73,7 +73,7 @@
 {
         "word": "voisin",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "le",
         "emoji": "🏠",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -91,7 +91,7 @@
 {
         "word": "hôpital",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏥",
@@ -110,7 +110,7 @@
 {
         "word": "restaurant",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍴",
@@ -129,7 +129,7 @@
 {
         "word": "supermarché",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛒",
@@ -148,7 +148,7 @@
 {
         "word": "pharmacie",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "💊",
@@ -167,7 +167,7 @@
 {
         "word": "immeuble",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
@@ -186,7 +186,7 @@
 {
         "word": "café",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "☕",
@@ -205,7 +205,7 @@
 {
         "word": "centre",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "📍",
@@ -224,7 +224,7 @@
 {
         "word": "quartier",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "📍",
@@ -262,7 +262,7 @@
 {
         "word": "ville",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
@@ -285,7 +285,7 @@
 {
         "word": "pays",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🗺️",
@@ -304,7 +304,7 @@
 {
         "word": "cafétéria",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
@@ -323,7 +323,7 @@
 {
         "word": "rue",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
@@ -342,7 +342,7 @@
 {
         "word": "chemin",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "👣",
@@ -361,7 +361,7 @@
 {
         "word": "route",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
@@ -380,7 +380,7 @@
 {
         "word": "place",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
@@ -399,7 +399,7 @@
 {
         "word": "village",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏘️",

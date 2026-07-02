@@ -3,7 +3,7 @@
 {
         "word": "pantaloni",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "i",
         "gender": "masculine",
         "emoji": "👖",
@@ -26,7 +26,7 @@
 {
         "word": "scarpe",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "le",
         "gender": "feminine",
         "emoji": "👟",
@@ -49,7 +49,7 @@
 {
         "word": "cappotto",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧥",
@@ -72,7 +72,7 @@
 {
         "word": "calzini",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "i",
         "gender": "masculine",
         "emoji": "🧦",
@@ -95,7 +95,7 @@
 {
         "word": "maglione",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧶",
@@ -118,7 +118,7 @@
 {
         "word": "vestito",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "👗",
@@ -141,7 +141,7 @@
 {
         "word": "gonna",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
@@ -164,7 +164,7 @@
 {
         "word": "stivali",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "gli",
         "gender": "masculine",
         "emoji": "🥾",
@@ -210,7 +210,7 @@
 {
         "word": "camicia",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👔",
@@ -237,7 +237,7 @@
 {
         "word": "t-shirt",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👕",
@@ -260,7 +260,7 @@
 {
         "word": "giacca",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧥",
@@ -283,7 +283,7 @@
 {
         "word": "berretto",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧢",
@@ -306,7 +306,7 @@
 {
         "word": "zuccotto",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🧣",
@@ -329,7 +329,7 @@
 {
         "word": "cintura",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎗️",
@@ -352,7 +352,7 @@
 {
         "word": "costume da bagno",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "🩱",
@@ -375,7 +375,7 @@
 {
         "word": "pigiama",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛌",
@@ -398,7 +398,7 @@
 {
         "word": "completo",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "👔",
@@ -446,7 +446,7 @@
 {
         "word": "cravatta",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👔",
@@ -469,7 +469,7 @@
 {
         "word": "cappello",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "🎩",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -491,7 +491,7 @@
 {
         "word": "maglietta",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
@@ -513,7 +513,7 @@
 {
         "word": "jeans",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👖",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -535,7 +535,7 @@
 {
         "word": "pantaloncini",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "🩳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -557,7 +557,7 @@
 {
         "word": "stivale",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "🥾",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -579,7 +579,7 @@
 {
         "word": "sciarpa",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "🧣",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
@@ -601,7 +601,7 @@
 {
         "word": "guanti",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "🧤",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",

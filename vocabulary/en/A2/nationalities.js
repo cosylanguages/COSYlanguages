@@ -21,7 +21,7 @@
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -44,7 +44,7 @@
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -67,7 +67,7 @@
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -90,7 +90,7 @@
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -113,7 +113,7 @@
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -136,7 +136,7 @@
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -159,7 +159,7 @@
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -182,7 +182,7 @@
         "superlative": null,
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "people",
         "sub_theme": null
     }
 ];

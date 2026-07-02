@@ -43,7 +43,7 @@
         "antonyms": ["inadequate"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -66,7 +66,7 @@
         "antonyms": ["inappropriate"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -181,7 +181,7 @@
         "antonyms": ["insufficient"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -917,7 +917,7 @@
         "antonyms": ["uncontroversial"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -1032,7 +1032,7 @@
         "antonyms": ["moderate"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -1101,7 +1101,7 @@
         "antonyms": ["partial"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -1147,7 +1147,7 @@
         "antonyms": ["unconventional"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -1216,7 +1216,7 @@
         "antonyms": ["superficial"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -1239,7 +1239,7 @@
         "antonyms": ["acquired"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -1285,7 +1285,7 @@
         "antonyms": ["irrelevant"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -1308,7 +1308,7 @@
         "antonyms": ["insignificant"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -1377,7 +1377,7 @@
         "antonyms": ["invalid"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {

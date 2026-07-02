@@ -1311,7 +1311,7 @@
         "word": "local",
         "feminine": "locale",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "📍",
         "form": "adjective",
         "plural": "locaux",
@@ -1900,4 +1900,6 @@
         "id": "fr_elementary_time_004"
     }
 ];
+    window.adjectivesData = window.adjectivesData || {};
+    window.adjectivesData['fr'] = [...(window.adjectivesData['fr'] || []), ...data];
 })();

@@ -61,7 +61,7 @@
 {
         "word": "problème",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "le",
         "gender": "masculine",
         "emoji": "❓",
@@ -80,7 +80,7 @@
 {
         "word": "oui",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "✅",
@@ -99,7 +99,7 @@
 {
         "word": "non",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "❌",
@@ -118,7 +118,7 @@
 {
         "word": "conversation",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "la",
         "gender": "feminine",
         "emoji": "💬",
@@ -156,7 +156,7 @@
 {
         "word": "chose",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
@@ -175,7 +175,7 @@
 {
         "word": "question",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "la",
         "gender": "feminine",
         "emoji": "❓",
@@ -194,7 +194,7 @@
 {
         "word": "réponse",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",

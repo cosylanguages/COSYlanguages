@@ -4,7 +4,7 @@
     {
         "word": "Θεσσαλονίκη",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -20,7 +20,7 @@
     {
         "word": "Κρήτη",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -36,7 +36,7 @@
     {
         "word": "Ρόδος",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -52,7 +52,7 @@
     {
         "word": "Γερμανία",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -68,7 +68,7 @@
     {
         "word": "Καναδάς",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -84,7 +84,7 @@
     {
         "word": "Μεξικό",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -100,7 +100,7 @@
     {
         "word": "Αίγυπτος",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -116,7 +116,7 @@
     {
         "word": "Τουρκία",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -132,7 +132,7 @@
     {
         "word": "Πορτογαλία",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -148,7 +148,7 @@
     {
         "word": "Αρμενία",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -164,7 +164,7 @@
     {
         "word": "Γεωργία",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -180,7 +180,7 @@
     {
         "word": "Βερολίνο",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -196,7 +196,7 @@
     {
         "word": "Μαδρίτη",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -212,7 +212,7 @@
     {
         "word": "Τορόντο",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -228,7 +228,7 @@
     {
         "word": "Κωνσταντινούπολη",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -244,7 +244,7 @@
     {
         "word": "Λισαβόνα",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -260,7 +260,7 @@
     {
         "word": "Ερεβάν",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -276,7 +276,7 @@
     {
         "word": "Τιφλίδα",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",
@@ -292,7 +292,7 @@
     {
         "word": "Καζάν",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "el",
         "form": "noun",
         "transcription": "",

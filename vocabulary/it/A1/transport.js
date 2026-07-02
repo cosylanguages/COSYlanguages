@@ -3,7 +3,7 @@
 {
         "word": "macchina",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚗",
@@ -26,7 +26,7 @@
 {
         "word": "autobus",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🚌",
@@ -49,7 +49,7 @@
 {
         "word": "treno",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "il",
         "gender": "masculine",
         "emoji": "🚆",
@@ -95,7 +95,7 @@
 {
         "word": "viaggio",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "il",
         "gender": "masculine",
         "emoji": "✈️",
@@ -118,7 +118,7 @@
 {
         "word": "aereo",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
@@ -141,7 +141,7 @@
 {
         "word": "bicicletta",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚲",
@@ -187,7 +187,7 @@
 {
         "word": "barca",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "⛵",
@@ -233,7 +233,7 @@
 {
         "word": "valigia",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧳",
@@ -256,7 +256,7 @@
 {
         "word": "zaino",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🎒",
@@ -279,7 +279,7 @@
 {
         "word": "passaporto",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛂",
@@ -302,7 +302,7 @@
 {
         "word": "mappa",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🗺️",
@@ -325,7 +325,7 @@
 {
         "word": "piantina",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "📍",
@@ -463,7 +463,7 @@
 {
         "word": "velocità",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏎️",
@@ -486,7 +486,7 @@
 {
         "word": "bagagli",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "i",
         "gender": "masculine",
         "emoji": "🧳",
@@ -509,7 +509,7 @@
 {
         "word": "partenza",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛫",
@@ -532,7 +532,7 @@
 {
         "word": "arrivo",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛬",
@@ -578,7 +578,7 @@
 {
         "word": "prenotazione",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "📖",
@@ -601,7 +601,7 @@
 {
         "word": "camera d'albergo",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏨",
@@ -624,7 +624,7 @@
 {
         "word": "reception",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛎️",

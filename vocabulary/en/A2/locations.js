@@ -18,7 +18,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -38,7 +38,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -58,7 +58,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -78,7 +78,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -98,7 +98,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -118,7 +118,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -138,7 +138,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -158,7 +158,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -178,7 +178,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -198,7 +198,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -218,7 +218,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -238,7 +238,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -258,7 +258,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -278,7 +278,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -298,7 +298,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -318,7 +318,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -338,7 +338,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -358,7 +358,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -378,7 +378,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -398,7 +398,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -418,7 +418,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -438,7 +438,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -458,7 +458,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -478,7 +478,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -498,7 +498,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -518,7 +518,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -538,7 +538,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -558,7 +558,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -578,7 +578,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -598,7 +598,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -618,7 +618,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -638,7 +638,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -658,7 +658,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -678,7 +678,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -698,7 +698,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -718,7 +718,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -738,7 +738,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -758,7 +758,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -778,7 +778,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -798,7 +798,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -818,7 +818,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -838,7 +838,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -858,7 +858,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -878,7 +878,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -898,7 +898,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -918,7 +918,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -938,7 +938,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -958,7 +958,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -978,7 +978,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -998,7 +998,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1018,7 +1018,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1038,7 +1038,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1058,7 +1058,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1078,7 +1078,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1098,7 +1098,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1118,7 +1118,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1138,7 +1138,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1158,7 +1158,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1178,7 +1178,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1198,7 +1198,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1218,7 +1218,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1238,7 +1238,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1258,7 +1258,7 @@
         "form": "other",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     }
 ];

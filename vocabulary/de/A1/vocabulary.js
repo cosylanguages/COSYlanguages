@@ -4,14 +4,14 @@
         "word": "Garten",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }]},
 {
         "word": "Arzt",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🧑‍⚕️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -26,7 +26,7 @@
 {
         "word": "Fuß",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "🦶",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -45,7 +45,7 @@
 {
         "word": "Lehrer",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🧑‍🏫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -60,7 +60,7 @@
 {
         "word": "Pizza",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -75,7 +75,7 @@
 {
         "word": "Pasta",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍝",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -90,7 +90,7 @@
 {
         "word": "Apfel",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -105,7 +105,7 @@
 {
         "word": "Brot",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍞",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -124,7 +124,7 @@
 {
         "word": "Ei",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥚",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -139,7 +139,7 @@
 {
         "word": "Milch",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -158,7 +158,7 @@
 {
         "word": "Banane",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍌",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -173,7 +173,7 @@
 {
         "word": "Kaffee",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "☕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -188,7 +188,7 @@
 {
         "word": "Tee",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🍵",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -203,7 +203,7 @@
 {
         "word": "Wasser",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🚰",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -222,7 +222,7 @@
 {
         "word": "Schule",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🏫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -241,7 +241,7 @@
 {
         "word": "T-Shirt",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -256,7 +256,7 @@
 {
         "word": "Hose",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👖",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -271,7 +271,7 @@
 {
         "word": "Schuh",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👞",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -290,7 +290,7 @@
 {
         "word": "Hut",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👒",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -377,7 +377,7 @@
 {
         "word": "Telefon",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📱",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -441,7 +441,7 @@
 {
         "word": "Katze",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐈",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -460,7 +460,7 @@
 {
         "word": "Hund",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -479,7 +479,7 @@
 {
         "word": "Hand",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "✋",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -498,7 +498,7 @@
 {
         "word": "Bein",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "🦵",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -513,7 +513,7 @@
 {
         "word": "Auge",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👁️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -532,7 +532,7 @@
 {
         "word": "Nase",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👃",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -551,7 +551,7 @@
 {
         "word": "Mund",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👄",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -570,7 +570,7 @@
 {
         "word": "Ohr",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👂",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -589,7 +589,7 @@
 {
         "word": "Mutter",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👩",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -608,7 +608,7 @@
 {
         "word": "Vater",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👨",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -627,7 +627,7 @@
 {
         "word": "Arbeit",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "💼",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -642,7 +642,7 @@
 {
         "word": "Zuhause",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "emoji": "🏠",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -657,7 +657,7 @@
 {
         "word": "Auto",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -672,7 +672,7 @@
 {
         "word": "Bus",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚌",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -687,7 +687,7 @@
 {
         "word": "Zug",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚆",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -702,7 +702,7 @@
 {
         "word": "Geld",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -717,7 +717,7 @@
 {
         "word": "Geschäft",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🛒",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -732,7 +732,7 @@
 {
         "word": "Familie",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👪",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -747,7 +747,7 @@
 {
         "word": "Freund",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -762,7 +762,7 @@
 {
         "word": "Tag",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "☀️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -781,7 +781,7 @@
 {
         "word": "Woche",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -796,7 +796,7 @@
 {
         "word": "Essen",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍲",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -811,7 +811,7 @@
 {
         "word": "Frühstück",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -826,7 +826,7 @@
 {
         "word": "Mittagessen",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍱",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -841,7 +841,7 @@
 {
         "word": "Abendessen",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍽️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -856,7 +856,7 @@
 {
         "word": "Morgen",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -871,7 +871,7 @@
 {
         "word": "Abend",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌆",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -886,7 +886,7 @@
 {
         "word": "Nacht",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌙",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -905,7 +905,7 @@
 {
         "word": "Heute",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -920,7 +920,7 @@
 {
         "word": "Morgen",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "⏭️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -935,7 +935,7 @@
 {
         "word": "Ehemann",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👨",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -950,7 +950,7 @@
 {
         "word": "Ehefrau",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👩",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -965,7 +965,7 @@
 {
         "word": "Kind",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👶",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -980,7 +980,7 @@
 {
         "word": "Sonne",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -999,7 +999,7 @@
 {
         "word": "Regen",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🌧️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [

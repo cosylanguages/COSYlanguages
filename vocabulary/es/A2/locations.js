@@ -4,7 +4,7 @@
     {
         "word": "Alemania",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -21,7 +21,7 @@
     {
         "word": "Canadá",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -38,7 +38,7 @@
     {
         "word": "México",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -55,7 +55,7 @@
     {
         "word": "Egipto",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -72,7 +72,7 @@
     {
         "word": "Turquía",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -89,7 +89,7 @@
     {
         "word": "Portugal",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -106,7 +106,7 @@
     {
         "word": "Armenia",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -123,7 +123,7 @@
     {
         "word": "Georgia",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -140,7 +140,7 @@
     {
         "word": "Berlín",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -157,7 +157,7 @@
     {
         "word": "Madrid",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -174,7 +174,7 @@
     {
         "word": "Toronto",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -191,7 +191,7 @@
     {
         "word": "Estambul",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -208,7 +208,7 @@
     {
         "word": "Lisboa",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -225,7 +225,7 @@
     {
         "word": "Ereván",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -242,7 +242,7 @@
     {
         "word": "Tiflis",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [
@@ -259,7 +259,7 @@
     {
         "word": "Kazán",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "geography",
         "definitions": [

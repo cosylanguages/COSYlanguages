@@ -737,4 +737,6 @@
         }
     }
 ];
+    window.grammarData = window.grammarData || {};
+    window.grammarData['ru'] = [...(window.grammarData['ru'] || []), ...data];
 })();

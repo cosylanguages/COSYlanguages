@@ -3,7 +3,7 @@
 {
         "word": "pied",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "le",
         "gender": "masculine",
         "numberPlural": "2 pied",
@@ -30,7 +30,7 @@
 {
         "word": "tête",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
@@ -55,7 +55,7 @@
 {
         "word": "main",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "✋",
@@ -80,7 +80,7 @@
 {
         "word": "jambe",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "🦵",
@@ -105,7 +105,7 @@
 {
         "word": "oeil",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👁️",
@@ -130,7 +130,7 @@
 {
         "word": "nez",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "le",
         "gender": "masculine",
         "emoji": "👃",
@@ -154,7 +154,7 @@
 {
         "word": "bouche",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "👄",
@@ -179,7 +179,7 @@
 {
         "word": "oreille",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "l'",
         "gender": "feminine",
         "emoji": "👂",
@@ -204,7 +204,7 @@
 {
         "word": "dos",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚶",
@@ -224,7 +224,7 @@
 {
         "word": "bras",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "le",
         "gender": "masculine",
         "emoji": "💪",
@@ -249,7 +249,7 @@
 {
         "word": "cou",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "le",
         "gender": "masculine",
         "emoji": "🦒",
@@ -268,7 +268,7 @@
 {
         "word": "épaule",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "l'",
         "gender": "feminine",
         "emoji": "👤",
@@ -287,7 +287,7 @@
 {
         "word": "doigt",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "le",
         "gender": "masculine",
         "emoji": "☝️",
@@ -306,7 +306,7 @@
 {
         "word": "orteil",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🦶",
@@ -325,7 +325,7 @@
 {
         "word": "estomac",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🤰",
@@ -344,7 +344,7 @@
 {
         "word": "genou",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "le",
         "gender": "masculine",
         "emoji": "🦵",

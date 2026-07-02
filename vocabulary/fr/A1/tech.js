@@ -3,7 +3,7 @@
 {
         "word": "ordinateur portable",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "l'",
         "gender": "masculine",
         "emoji": "💻",
@@ -22,7 +22,7 @@
 {
         "word": "appareil photo",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "l'",
         "gender": "masculine",
         "emoji": "📷",
@@ -41,7 +41,7 @@
 {
         "word": "ordinateur",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "l'",
         "gender": "masculine",
         "emoji": "💻",
@@ -60,7 +60,7 @@
 {
         "word": "message",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "le",
         "gender": "masculine",
         "emoji": "✉️",
@@ -79,7 +79,7 @@
 {
         "word": "email",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "l'",
         "gender": "masculine",
         "emoji": "📧",
@@ -98,7 +98,7 @@
 {
         "word": "site web",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌐",
@@ -117,7 +117,7 @@
 {
         "word": "mot de passe",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "le",
         "gender": "masculine",
         "emoji": "🔑",
@@ -136,7 +136,7 @@
 {
         "word": "clavier",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "le",
         "gender": "masculine",
         "emoji": "⌨️",
@@ -155,7 +155,7 @@
 {
         "word": "souris",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "la",
         "gender": "feminine",
         "emoji": "🖱️",
@@ -174,7 +174,7 @@
 {
         "word": "écran",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🖥️",
@@ -193,7 +193,7 @@
 {
         "word": "télévision",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "la",
         "gender": "feminine",
         "emoji": "📺",
@@ -212,7 +212,7 @@
 {
         "word": "radio",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "la",
         "gender": "feminine",
         "emoji": "📻",
@@ -231,7 +231,7 @@
 {
         "word": "téléphone",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "le",
         "gender": "masculine",
         "emoji": "📞",

@@ -344,7 +344,7 @@
 
         "transcription": "ˈdɪskɔːs",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "emoji": "🗣️",
         "form": "noun", "classification": "regular",
         "plural": "discourses",
@@ -386,7 +386,7 @@
 
         "transcription": "kənˈsɛnsəs",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "emoji": "🤝",
         "form": "noun", "classification": "regular",
         "plural": "consensuses",
@@ -427,7 +427,7 @@
         "lang": "en",
         "word": "implicit bias",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "emoji": "⚖️❌",
         "form": "noun phrase",
         "plural": "implicit biases",
@@ -640,7 +640,7 @@
 
         "transcription": "ˌwɛərˈæz",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "emoji": "⚖️",
         "form": "conjunction",
         "definitions": [
@@ -659,7 +659,7 @@
 
         "transcription": "ˌnɛvəðəˈlɛs",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "emoji": "🏃‍♂️",
         "form": "adverb",
         "subtext": "",
@@ -680,7 +680,7 @@
 
         "transcription": "tuː wɒt ɪkˈstɛnt",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "emoji": "📏",
         "form": "phrase",
         "definitions": [
@@ -699,7 +699,7 @@
 
         "transcription": "baɪ ˈkɒntrɑːst",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "emoji": "🌓",
         "form": "phrase",
         "definitions": [

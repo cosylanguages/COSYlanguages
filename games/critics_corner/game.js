@@ -15,7 +15,6 @@
         return div.innerHTML;
     }
 
-    function pick(arr) { if (!arr || !arr.length) return null; return arr[Math.floor(Math.random() * arr.length)]; }
 
     function renderSetup() {
         document.getElementById('go-title').textContent = GAME_TITLE;

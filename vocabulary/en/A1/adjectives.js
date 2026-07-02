@@ -780,7 +780,7 @@
         "transcription": "ɪl",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -2806,7 +2806,7 @@
         "transcription": "fɪt",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -2830,7 +2830,7 @@
         "transcription": "ənˈfɪt",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -3771,7 +3771,7 @@
         "transcription": "rɪʧ",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -3799,7 +3799,7 @@
         "transcription": "pur",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -4951,7 +4951,7 @@
         "transcription": "wɛl",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -5055,7 +5055,7 @@
         "transcription": "dɛd",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -5397,7 +5397,7 @@
         "transcription": "ʃaɪ",
         "lang": "en",
         "level": "starter",
-        "theme": "personality_traits",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -5503,7 +5503,7 @@
         "transcription": "ˈstupɪd",
         "lang": "en",
         "level": "starter",
-        "theme": "personality_traits",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -5585,7 +5585,7 @@
         "transcription": "ˈnæsti",
         "lang": "en",
         "level": "starter",
-        "theme": "personality_traits",
+        "theme": "people",
         "sub_theme": null
     },
     {

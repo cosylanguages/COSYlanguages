@@ -28,7 +28,7 @@
     {
         "word": "ունենալ",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "👜",
         "subtext": "աշխատանք ունենալ / մեքենա ունենալ / ժամանակ ունենալ",
         "form": "verb",
@@ -51,7 +51,7 @@
     {
         "word": "զգալ",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🌡️",
         "subtext": "հոգնած զգալ / լավ զգալ / վատ զգալ",
         "form": "verb",
@@ -73,7 +73,7 @@
     {
         "word": "տալ",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "subtext": "աշխատանք տալ / փող տալ / խորհուրդ տալ",
         "opposite": "վերցնել",
@@ -97,7 +97,7 @@
     {
         "word": "վերցնել",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "👜",
         "subtext": "դաս վերցնել",
         "synonyms": [
@@ -125,7 +125,7 @@
     {
         "word": "ստանալ",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📥",
         "subtext": "նամակ ստանալ / աշխատավարձ ստանալ / պատասխան ստանալ",
         "form": "verb",
@@ -169,7 +169,7 @@
     {
         "word": "պատրաստել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "սուրճ պատրաստել / ճաշ պատրաստել",
         "synonyms": [
@@ -194,7 +194,7 @@
     {
         "word": "անել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛠️",
         "subtext": "աշխատանք անել / տնային աշխատանք անել / լավ անել",
         "form": "verb",
@@ -216,7 +216,7 @@
     {
         "word": "օգտագործել",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🛠️",
         "subtext": "հեռախոս օգտագործել / համակարգիչ օգտագործել",
         "form": "verb",
@@ -238,7 +238,7 @@
     {
         "word": "բացել",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "subtext": "դուռը բացել / գրասենյակը բացել / պատուհանը բացել",
         "opposite": "փակել",
@@ -262,7 +262,7 @@
     {
         "word": "փակել",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "subtext": "դուռը փակել / գրասենյակը փակել / աչքերը փակել",
         "opposite": "բացել",
@@ -286,7 +286,7 @@
     {
         "word": "սկսել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "▶️",
         "subtext": "աշխատանքը սկսել / դասը սկսել / օրը սկսել",
         "opposite": "ավարտել",
@@ -310,7 +310,7 @@
     {
         "word": "ավարտել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "աշխատանքը ավարտել / նախագիծը ավարտել",
         "opposite": "սկսել",
@@ -334,7 +334,7 @@
     {
         "word": "օգնել",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "գործընկերոջը օգնել / մարդկանց օգնել",
         "form": "verb",
@@ -356,7 +356,7 @@
     {
         "word": "փորձել",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎯",
         "subtext": "փորձել անել / նորից փորձել",
         "form": "verb",
@@ -378,7 +378,7 @@
     {
         "word": "ցույց տալ",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📽️",
         "subtext": "ճանապարհը ցույց տալ / նկարը ցույց տալ",
         "form": "verb",
@@ -400,7 +400,7 @@
     {
         "word": "գտնել",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔍",
         "subtext": "աշխատանք գտնել / բանալիները գտնել",
         "form": "verb",
@@ -422,7 +422,7 @@
     {
         "word": "պահել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "անդորրագիրը պահել / գաղտնիքը պահել",
         "form": "verb",
@@ -444,7 +444,7 @@
     {
         "word": "կորցնել",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📉",
         "subtext": "բանալիները կորցնել / ժամանակ կորցնել",
         "opposite": "հաղթել",
@@ -516,7 +516,7 @@
     {
         "word": "բերել",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🎁",
         "subtext": "անձնագիրը բերել / ջուր բերել",
         "form": "verb",
@@ -560,7 +560,7 @@
     {
         "word": "պատմել",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "🗣️",
         "subtext": "ճշմարտությունը պատմել / պատմություն պատմել",
         "form": "verb",
@@ -582,7 +582,7 @@
     {
         "word": "հարցնել",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❓",
         "subtext": "հարց հարցնել",
         "synonyms": [
@@ -629,7 +629,7 @@
     {
         "word": "զրուցել",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "💬",
         "subtext": "ընկերոջ հետ զրուցել / մենեջերի հետ զրուցել",
         "form": "verb",
@@ -651,7 +651,7 @@
     {
         "word": "զանգել",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📞",
         "subtext": "տաքսի զանգել / մայրիկին զանգել",
         "form": "verb",
@@ -673,7 +673,7 @@
     {
         "word": "գրել",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "✍️",
         "subtext": "նամակ գրել / անունը գրել",
         "opposite": "կարդալ",
@@ -697,7 +697,7 @@
     {
         "word": "կարդալ",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "գիրք կարդալ / լուրեր կարդալ",
         "opposite": "գրել",
@@ -721,7 +721,7 @@
     {
         "word": "լսել",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎧",
         "subtext": "երաժշություն լսել / ուսուցչին լսել",
         "form": "verb",
@@ -743,7 +743,7 @@
     {
         "word": "պատասխանել",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📞",
         "subtext": "հարցին պատասխանել / նամակին պատասխանել",
         "form": "verb",
@@ -787,7 +787,7 @@
     {
         "word": "գնալ",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "աշխատանքի գնալ / տուն գնալ / խանութ գնալ",
         "form": "verb",
@@ -809,7 +809,7 @@
     {
         "word": "գալ",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "subtext": "տուն գալ / գրասենյակ գալ",
         "opposite": "գնալ",
@@ -833,7 +833,7 @@
     {
         "word": "քայլել",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "այգում քայլել / աշխատանքի քայլել",
         "form": "verb",
@@ -855,7 +855,7 @@
     {
         "word": "վարել",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "subtext": "մեքենա վարել / տաքսի վարել",
         "form": "verb",
@@ -877,7 +877,7 @@
     {
         "word": "թռչել",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "Ինքնաթիռով թռչել / Փարիզ թռչել",
         "form": "verb",
@@ -899,7 +899,7 @@
     {
         "word": "ժամանել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "ժամանակին ժամանել / օդանավակայան ժամանել",
         "form": "verb",
@@ -921,7 +921,7 @@
     {
         "word": "հեռանալ",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚪",
         "subtext": "գրասենյակից հեռանալ",
         "synonyms": [
@@ -946,7 +946,7 @@
     {
         "word": "տեղափոխվել",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "📦",
         "subtext": "նոր տուն տեղափոխվել / քաղաք տեղափոխվել",
         "form": "verb",
@@ -968,7 +968,7 @@
     {
         "word": "վերադառնալ",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🔙",
         "subtext": "ուղևորությունից վերադառնալ / տուն վերադառնալ",
         "form": "verb",
@@ -1012,7 +1012,7 @@
     {
         "word": "ուտել",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "subtext": "ճաշ ուտել / խնձոր ուտել",
         "opposite": "խմել",
@@ -1036,7 +1036,7 @@
     {
         "word": "խմել",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "ջուր խմել / սուրճ խմել / թեյ խմել",
         "opposite": "ուտել",
@@ -1060,7 +1060,7 @@
     {
         "word": "քնել",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "😴",
         "subtext": "լավ քնել / ութ ժամ քնել",
         "opposite": "արթնանալ",
@@ -1106,7 +1106,7 @@
     {
         "word": "մաքրել",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧹",
         "subtext": "տունը մաքրել / սենյակը մաքրել",
         "form": "verb",
@@ -1128,7 +1128,7 @@
     {
         "word": "հագնել",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "subtext": "կոստյում հագնել / շապիկ հագնել",
         "form": "verb",
@@ -1150,7 +1150,7 @@
     {
         "word": "լվանալ",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧼",
         "subtext": "ձեռքերը լվանալ / մեքենան լվանալ",
         "form": "verb",
@@ -1172,7 +1172,7 @@
     {
         "word": "գնել",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🛒",
         "subtext": "սնունդ գնել / նվեր գնել",
         "opposite": "վաճառել",
@@ -1196,7 +1196,7 @@
     {
         "word": "վճարել",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "subtext": "հաշիվը վճարել / կանխիկ վճարել",
         "form": "verb",
@@ -1218,7 +1218,7 @@
     {
         "word": "ծախսել",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "subtext": "փող ծախսել / ժամանակ ծախսել",
         "form": "verb",
@@ -1240,7 +1240,7 @@
     {
         "word": "խնայել",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "subtext": "փող խնայել / էներգիա խնայել",
         "opposite": "ծախսել",
@@ -1264,7 +1264,7 @@
     {
         "word": "աշխատել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "💼",
         "subtext": "գրասենյակում աշխատել / տնից աշխատել",
         "form": "verb",
@@ -1286,7 +1286,7 @@
     {
         "word": "ապրել",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "emoji": "🏠",
         "subtext": "Երևանում ապրել / բնակարանում ապրել",
         "opposite": "մահանալ",
@@ -1310,7 +1310,7 @@
     {
         "word": "մտածել",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "💭",
         "subtext": "լավ մտածել / գաղափարի մասին մտածել",
         "form": "verb",
@@ -1332,7 +1332,7 @@
     {
         "word": "իմանալ",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "նրա անունը իմանալ / ճշմարտությունը իմանալ",
         "form": "verb",
@@ -1354,7 +1354,7 @@
     {
         "word": "ուզել",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🙏",
         "subtext": "սուրճ ուզել / օգնություն ուզել",
         "form": "verb",
@@ -1376,7 +1376,7 @@
     {
         "word": "կարիք ունենալ",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "🆘",
         "subtext": "օգնության կարիք ունենալ / հանգստի կարիք ունենալ",
         "form": "verb",
@@ -1398,7 +1398,7 @@
     {
         "word": "հավանել",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "👍",
         "subtext": "երաժշտություն հավանել / աշխատանքը հավանել",
         "form": "verb",
@@ -1420,7 +1420,7 @@
     {
         "word": "սիրել",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "❤️",
         "subtext": "ընտանիքը սիրել / աշխատանքը սիրել",
         "form": "verb",
@@ -1442,7 +1442,7 @@
     {
         "word": "ատել",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😡",
         "subtext": "ուշացումը ատել / անձրևը ատել",
         "form": "verb",
@@ -1464,7 +1464,7 @@
     {
         "word": "հուսալ",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🤞",
         "subtext": "լավագույնին հուսալ",
         "synonyms": [
@@ -1489,7 +1489,7 @@
     {
         "word": "հիշել",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "իմ անունը հիշել / օրը հիշել",
         "form": "verb",
@@ -1511,7 +1511,7 @@
     {
         "word": "մոռանալ",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🤔",
         "subtext": "բանալիները մոռանալ / հանդիպումը մոռանալ",
         "form": "verb",
@@ -1533,7 +1533,7 @@
     {
         "word": "հասկանալ",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "💡",
         "subtext": "հարցը հասկանալ / կանոնը հասկանալ",
         "form": "verb",
@@ -1555,7 +1555,7 @@
     {
         "word": "որոշել",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "հիմա որոշել / փոխել որոշել",
         "form": "verb",
@@ -1577,7 +1577,7 @@
     {
         "word": "վայելել",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "subtext": "ֆիլմը վայելել / օրը վայելել",
         "form": "verb",
@@ -1599,7 +1599,7 @@
     {
         "word": "տեսնել",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👁️",
         "subtext": "ընկերոջը տեսնել / ֆիլմ տեսնել",
         "form": "verb",
@@ -1621,7 +1621,7 @@
     {
         "word": "լսել",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👂",
         "subtext": "ձայնը լսել / երաժշտություն լսել",
         "form": "verb",
@@ -1643,7 +1643,7 @@
     {
         "word": "արթնանալ",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "վաղ արթնանալ / ժամը յոթին արթնանալ",
@@ -1667,7 +1667,7 @@
     {
         "word": "դիտել",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "📺",
         "form": "verb",
         "subtext": "հեռուստացույց դիտել / ֆուտբոլ դիտել",
@@ -1689,7 +1689,7 @@
     {
         "word": "նայել",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "👀",
         "subtext": "նկարին նայել / պատուհանից նայել",
         "form": "verb",
@@ -1711,7 +1711,7 @@
     {
         "word": "խաղալ",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎮",
         "subtext": "ֆուտբոլ խաղալ / թենիս խաղալ",
         "form": "verb",
@@ -1733,7 +1733,7 @@
     {
         "word": "վազել",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏃",
         "subtext": "արագ վազել / այգում վազել",
         "form": "verb",
@@ -1755,7 +1755,7 @@
     {
         "word": "նստել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🪑",
         "subtext": "աթոռին նստել / սեղանի մոտ նստել",
         "opposite": "կանգնել",
@@ -1779,7 +1779,7 @@
     {
         "word": "կանգնել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🧍",
         "subtext": "դռան մոտ կանգնել / հերթում կանգնել",
         "opposite": "նստել",
@@ -1803,7 +1803,7 @@
     {
         "word": "հանդիպել",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -1825,7 +1825,7 @@
     {
         "word": "սովորել",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📚",
         "subtext": "լեզու սովորել / նոր հմտություն սովորել",
         "form": "verb",
@@ -1847,7 +1847,7 @@
     {
         "word": "փոխել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "աշխատանքը փոխել / փողը փոխել",
         "form": "verb",
@@ -1869,7 +1869,7 @@
     {
         "word": "կանգնեցնել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛑",
         "subtext": "ավտոբուսը կանգնեցնել",
         "synonyms": [
@@ -1894,7 +1894,7 @@
     {
         "word": "ավելացնել",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
+        "theme": "numbers",
         "emoji": "➕",
         "subtext": "շաքարավազ ավելացնել / անունը ավելացնել",
         "form": "verb",
@@ -1916,7 +1916,7 @@
     {
         "word": "հաղթել",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏆",
         "subtext": "խաղը հաղթել / մրցանակ հաղթել",
         "opposite": "կորցնել",
@@ -1940,7 +1940,7 @@
     {
         "word": "սպասել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "subtext": "ավտոբուսին սպասել / ընկերոջը սպասել",
         "form": "verb",
@@ -1962,7 +1962,7 @@
     {
         "word": "մահանալ",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "⚰️",
         "subtext": "երիտասարդ մահանալ / ծարավից մահանալ",
         "opposite": "ապրել",
@@ -1986,7 +1986,7 @@
     {
         "word": "ուղարկել",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2008,7 +2008,7 @@
     {
         "word": "մնալ",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏨",
         "subtext": "տանը մնալ / հյուրանոցում մնալ",
         "form": "verb",
@@ -2030,7 +2030,7 @@
     {
         "word": "ընկնել",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "emoji": "🍂",
         "subtext": "ցած ընկնել / ձյուն ընկնել",
         "form": "verb",
@@ -2052,7 +2052,7 @@
     {
         "word": "անցնել",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🏔️",
         "subtext": "քննությունը անցնել / փողոցը անցնել",
         "form": "verb",
@@ -2074,7 +2074,7 @@
     {
         "word": "վաճառել",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "մեքենան վաճառել / տունը վաճառել",
         "opposite": "գնել",
@@ -2098,7 +2098,7 @@
     {
         "word": "քաշել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚜",
         "subtext": "դուռը քաշել / պարանը քաշել",
         "opposite": "հրել",
@@ -2122,7 +2122,7 @@
     {
         "word": "հրել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛒",
         "subtext": "դուռը հրել",
         "synonyms": [
@@ -2149,7 +2149,7 @@
     {
         "word": "տանել",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🎒",
         "subtext": "պայուսակը տանել / ծանրություն տանել",
         "form": "verb",
@@ -2171,7 +2171,7 @@
     {
         "word": "կոտրել",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "💔",
         "subtext": "բաժակը կոտրել / կանոնը կոտրել",
         "form": "verb",
@@ -2193,7 +2193,7 @@
     {
         "word": "ստանալ",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "📩",
         "subtext": "նվեր ստանալ / նամակ ստանալ",
         "form": "verb",
@@ -2215,7 +2215,7 @@
     {
         "word": "համաձայնել",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "subtext": "պայմանների հետ համաձայնել / ընկերոջ հետ համաձայնել",
         "form": "verb",
@@ -2262,7 +2262,7 @@
     {
         "word": "կիսվել",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🍕",
         "subtext": "",
         "synonyms": [
@@ -2288,7 +2288,7 @@
     {
         "word": "ժպտալ",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "😊",
         "subtext": "երջանիկ ժպտալ / երեխային ժպտալ",
         "opposite": "լաց լինել",
@@ -2312,7 +2312,7 @@
     {
         "word": "լաց լինել",
         "level": "starter",
-        "theme": "surprise_interest_A1",
+        "theme": "emotions",
         "emoji": "😢",
         "subtext": "տխրությունից լաց լինել / բարձր լաց լինել",
         "opposite": "ժպտալ",
@@ -2336,7 +2336,7 @@
     {
         "word": "պարել",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "💃",
         "subtext": "ակումբում պարել / գեղեցիկ պարել",
         "form": "verb",
@@ -2358,7 +2358,7 @@
     {
         "word": "երգել",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "🎤",
         "subtext": "երգ երգել / բեմում երգել",
         "form": "verb",
@@ -2380,7 +2380,7 @@
     {
         "word": "ցատկել",
         "level": "starter",
-        "theme": "playing_watching_sport_A1",
+        "theme": "sports",
         "emoji": "🦘",
         "subtext": "բարձր ցատկել / ջուրը ցատկել",
         "form": "verb",
@@ -2402,7 +2402,7 @@
     {
         "word": "լողալ",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏊",
         "subtext": "լողավազանում լողալ / ծովում լողալ",
         "form": "verb",
@@ -2424,7 +2424,7 @@
     {
         "word": "ուսումնասիրել",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "",
         "synonyms": [
@@ -2450,7 +2450,7 @@
     {
         "word": "դասավանդել",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "👨‍🏫",
         "subtext": "երեխաներին դասավանդել / լեզու դասավանդել",
         "form": "verb",
@@ -2494,7 +2494,7 @@
     {
         "word": "վարձել",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏠",
         "subtext": "բնակարան վարձել / մեքենա վարձել",
         "form": "verb",
@@ -2516,7 +2516,7 @@
     {
         "word": "մարզվել",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏋️",
         "form": "verb",
         "definitions": [
@@ -2538,7 +2538,7 @@
     {
         "word": "արժենալ",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "verb",
         "definitions": [
@@ -2560,7 +2560,7 @@
     {
         "word": "հրավիրել",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2594,7 +2594,7 @@
         "aspect": "action",
         "v2": "վեր կացավ",
         "v3": "վեր կացել",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -2616,7 +2616,7 @@
         "aspect": "action",
         "v2": "նախաճաշեց",
         "v3": "նախաճաշել",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
@@ -2638,7 +2638,7 @@
         "aspect": "action",
         "v2": "վերադարձավ",
         "v3": "վերադարձել",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
@@ -2660,7 +2660,7 @@
         "aspect": "action",
         "v2": null,
         "v3": "անկողին գնացել",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -2682,7 +2682,7 @@
         "aspect": "action",
         "v2": "ստուգեց",
         "v3": "ստուգել",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
@@ -2704,7 +2704,7 @@
         "aspect": "action",
         "v2": "պատասխανեց",
         "v3": "պատասխանել",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
@@ -2726,7 +2726,7 @@
         "aspect": "action",
         "v2": "ներկայացրեց",
         "v3": "ներկայացրել",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
@@ -2748,7 +2748,7 @@
         "aspect": "action",
         "v2": "մասնակցեց",
         "v3": "մասնակցել",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
@@ -2770,7 +2770,7 @@
         "aspect": "action",
         "v2": "ղեկավարեց",
         "v3": "ղեկավարել",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
@@ -2792,7 +2792,7 @@
         "aspect": "action",
         "v2": "գանձեց",
         "v3": "գանձել",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
@@ -2814,7 +2814,7 @@
         "aspect": "stative",
         "v2": "թույլ տվեց",
         "v3": "թույլ տվել",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
@@ -2836,7 +2836,7 @@
         "aspect": "stative",
         "v2": "պարտք էր",
         "v3": "պարտք եղել",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
@@ -2858,7 +2858,7 @@
         "aspect": "action",
         "v2": "վաստակեց",
         "v3": "վաստակել",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
@@ -2880,7 +2880,7 @@
         "aspect": "action",
         "v2": "այցելեց",
         "v3": "այցելել",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
@@ -2902,7 +2902,7 @@
         "aspect": "action",
         "v2": "տոնեց",
         "v3": "տոնել",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
@@ -2924,7 +2924,7 @@
         "aspect": "action",
         "v2": "խորհուրդ տվեց",
         "v3": "խորհուրդ տվել",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
@@ -2949,7 +2949,7 @@
         "aspect": "both",
         "v2": "ցավեցրեց",
         "v3": "ցավեցրել",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
@@ -2971,7 +2971,7 @@
         "aspect": "action",
         "v2": "հանգստացավ",
         "v3": "հանգստացել",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
@@ -2993,7 +2993,7 @@
         "aspect": "action",
         "v2": "ապաքինվեց",
         "v3": "ապաքինվել",
-        "theme": "medical_appointments_A1",
+        "theme": "health_medicine",
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
@@ -3015,7 +3015,7 @@
         "aspect": "action",
         "v2": "ամրագրեց",
         "v3": "ամրագրել",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
@@ -3037,7 +3037,7 @@
         "aspect": "action",
         "v2": "packed",
         "v3": "հավաքել",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
@@ -3059,7 +3059,7 @@
         "aspect": "action",
         "v2": "չեղարկեց",
         "v3": "չեղարկել",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
@@ -3091,7 +3091,7 @@
     {
         "word": "պատվիրել",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "ճաշ պատվիրել / առցանց պատվիրել",
         "form": "verb",
@@ -3113,7 +3113,7 @@
     {
         "word": "բացատրել",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "💡",
         "subtext": "իրավիճակը բացատրել / խնդիրը բացատրել",
         "form": "verb",
@@ -3179,7 +3179,7 @@
     {
         "word": "թուլանալ",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🧘",
         "subtext": "երաժշտության տակ թուլանալ / տանը թուլանալ",
         "form": "verb",
@@ -3201,7 +3201,7 @@
     {
         "word": "նորոգել",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🛠️",
         "subtext": "հեռախոսը նորոգել / մեքենան նորոգել",
         "form": "verb",
@@ -3223,7 +3223,7 @@
     {
         "word": "պատահել",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "❔",
         "subtext": "պատահաբար պատահել",
         "synonyms": [
@@ -3248,7 +3248,7 @@
     {
         "word": "թվալ",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "🎭",
         "subtext": "երջանիկ թվալ / հոգնած թվալ",
         "form": "verb",
@@ -3270,7 +3270,7 @@
     {
         "word": "նշանակել",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "❔",
         "subtext": "",
         "synonyms": [
@@ -3296,7 +3296,7 @@
     {
         "word": "հետևել",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👣",
         "subtext": "կանոններին հետևել / հրահանգներին հետևել",
         "form": "verb",
@@ -3318,7 +3318,7 @@
     {
         "word": "շարունակել",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "⏩",
         "subtext": "աշխատանքը շարունակել / ուղին շարունակել",
         "form": "verb",
@@ -3340,7 +3340,7 @@
     {
         "word": "աճել",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📈",
         "subtext": "արագ աճել / բիզնեսը աճել",
         "form": "verb",
@@ -3362,7 +3362,7 @@
     {
         "word": "ներառել",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "➕",
         "subtext": "նախաճաշը ներառել / ցուցակում ներառել",
         "form": "verb",
@@ -3384,7 +3384,7 @@
     {
         "word": "դառնալ",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✨",
         "subtext": "բժիշկ դառնալ / հայտնի դառնալ",
         "form": "verb",
@@ -3406,7 +3406,7 @@
     {
         "word": "պատկանել",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📎",
         "subtext": "ընտանիքին պատկանել / այստեղ պատկանել",
         "form": "verb",
@@ -3428,7 +3428,7 @@
     {
         "word": "ընտրել",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👉",
         "subtext": "ճիշտը ընտրել / գույնը ընտրել",
         "form": "verb",
@@ -3450,7 +3450,7 @@
     {
         "word": "կառուցել",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "տուն կառուցել / ապագա կառուցել",
         "form": "verb",

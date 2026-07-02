@@ -14,7 +14,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Italia",
@@ -29,7 +29,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Russia",
@@ -44,7 +44,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Grecia",
@@ -59,7 +59,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Inghilterra",
@@ -74,7 +74,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Spagna",
@@ -89,7 +89,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Stati Uniti",
@@ -104,7 +104,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Germania",
@@ -119,7 +119,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Giappone",
@@ -134,7 +134,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Cina",
@@ -149,7 +149,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Canada",
@@ -164,7 +164,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Brasile",
@@ -179,7 +179,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Australia",
@@ -194,7 +194,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Egitto",
@@ -209,7 +209,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "India",
@@ -224,7 +224,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Messico",
@@ -239,7 +239,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Argentina",
@@ -254,7 +254,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Perù",
@@ -269,7 +269,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Portogallo",
@@ -284,7 +284,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Svizzera",
@@ -299,7 +299,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Austria",
@@ -314,7 +314,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Belgio",
@@ -329,7 +329,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Paesi Bassi",
@@ -344,7 +344,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Svezia",
@@ -359,7 +359,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Norvegia",
@@ -374,7 +374,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Irlanda",
@@ -389,7 +389,7 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Roma",
@@ -404,7 +404,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Milano",
@@ -419,7 +419,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Venezia",
@@ -434,7 +434,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Firenze",
@@ -449,7 +449,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Napoli",
@@ -464,7 +464,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Parigi",
@@ -479,7 +479,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Londra",
@@ -494,7 +494,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Madrid",
@@ -509,7 +509,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Berlino",
@@ -524,7 +524,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Tokyo",
@@ -539,7 +539,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Pechino",
@@ -554,7 +554,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Mosca",
@@ -569,7 +569,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "New York",
@@ -584,7 +584,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Los Angeles",
@@ -599,7 +599,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Barcellona",
@@ -614,7 +614,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Amsterdam",
@@ -629,7 +629,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Vienna",
@@ -644,7 +644,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Praga",
@@ -659,7 +659,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Dublino",
@@ -674,7 +674,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Lisbona",
@@ -689,7 +689,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Zurigo",
@@ -704,7 +704,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Chicago",
@@ -719,7 +719,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "San Francisco",
@@ -734,7 +734,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Miami",
@@ -749,7 +749,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Washington",
@@ -764,7 +764,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Sydney",
@@ -779,7 +779,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Toronto",
@@ -794,7 +794,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Città del Messico",
@@ -809,7 +809,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Istanbul",
@@ -824,7 +824,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Ginevra",
@@ -839,7 +839,7 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     }
 ]
     const lang = "it";

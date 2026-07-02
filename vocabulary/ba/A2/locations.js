@@ -4,7 +4,7 @@
     {
         "word": "Германия",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -20,7 +20,7 @@
     {
         "word": "Канада",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -36,7 +36,7 @@
     {
         "word": "Мексика",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -52,7 +52,7 @@
     {
         "word": "Египет",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -68,7 +68,7 @@
     {
         "word": "Төркиә",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -84,7 +84,7 @@
     {
         "word": "Португалия",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -100,7 +100,7 @@
     {
         "word": "Армения",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -116,7 +116,7 @@
     {
         "word": "Грузия",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -132,7 +132,7 @@
     {
         "word": "Берлин",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -148,7 +148,7 @@
     {
         "word": "Мадрид",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -164,7 +164,7 @@
     {
         "word": "Торонто",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -180,7 +180,7 @@
     {
         "word": "Стамбул",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -196,7 +196,7 @@
     {
         "word": "Лиссабон",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -212,7 +212,7 @@
     {
         "word": "Ереван",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -228,7 +228,7 @@
     {
         "word": "Тбилиси",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",
@@ -244,7 +244,7 @@
     {
         "word": "Казан",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "noun",
         "transcription": "",

@@ -583,7 +583,7 @@
         "opposite": "act",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -674,7 +674,7 @@
         "transcription": "daɪ",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -700,7 +700,7 @@
         "transcription": "hərt",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -812,7 +812,7 @@
         "transcription": "kɔf",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -840,7 +840,7 @@
         "transcription": "sniz",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -892,7 +892,7 @@
         "transcription": "ɪl",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -920,7 +920,7 @@
         "transcription": "fɪt",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -944,7 +944,7 @@
         "transcription": "ənˈfɪt",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -973,7 +973,7 @@
         "transcription": "wɛl",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -999,7 +999,7 @@
         "transcription": "dɛd",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     }
 ];

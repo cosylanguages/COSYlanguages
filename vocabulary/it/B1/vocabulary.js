@@ -1224,7 +1224,7 @@
         "word": "armadio",
         "lang": "it",
         "level": "intermediate",
-        "theme": "home_living",
+        "theme": "furniture",
         "form": "noun",
         "definitions": [
             {
@@ -1299,4 +1299,6 @@
         "emoji": "❓"
     }
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['it'] = [...(window.vocabularyData['it'] || []), ...data];
 })();

@@ -43,7 +43,7 @@
     {
         "word": "haben",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "👜",
         "subtext": "eine Arbeit haben / ein Problem haben / Zeit haben",
         "synonyms": [
@@ -86,7 +86,7 @@
     {
         "word": "fühlen",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🌡️",
         "subtext": "sich müde fühlen / sich besser fühlen / sich krank fühlen / sich gestresst fühlen",
         "form": "verb",
@@ -108,7 +108,7 @@
     {
         "word": "geben",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "subtext": "Ratschläge geben / Geld geben / ein Geschenk geben / Informationen geben",
         "opposite": "nehmen",
@@ -137,7 +137,7 @@
     {
         "word": "nehmen",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "👜",
         "subtext": "den Bus nehmen / Medikamente nehmen / Zeit in Anspruch nehmen",
         "synonyms": [
@@ -169,7 +169,7 @@
     {
         "word": "bekommen",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📥",
         "subtext": "eine Stelle bekommen",
         "synonyms": [
@@ -226,7 +226,7 @@
     {
         "word": "machen",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "Kaffee machen / einen Fehler machen",
         "synonyms": [
@@ -253,7 +253,7 @@
     {
         "word": "tun",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛠️",
         "subtext": "nichts tun",
         "synonyms": [
@@ -293,7 +293,7 @@
     {
         "word": "benutzen",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🛠️",
         "subtext": "ein Telefon benutzen / einen Computer benutzen",
         "synonyms": [
@@ -320,7 +320,7 @@
     {
         "word": "öffnen",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "subtext": "eine Tür öffnen / um neun öffnen",
         "synonyms": [
@@ -349,7 +349,7 @@
     {
         "word": "schließen",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "subtext": "eine Tür schließen / um sechs schließen / ein Konto schließen",
         "synonyms": [
@@ -377,7 +377,7 @@
     {
         "word": "beginnen",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "▶️",
         "subtext": "mit der Arbeit beginnen / eine Besprechung beginnen / eine neue Arbeit anfangen",
         "opposite": "beenden",
@@ -402,7 +402,7 @@
     {
         "word": "beenden",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "Arbeit beenden",
         "synonyms": [
@@ -432,7 +432,7 @@
     {
         "word": "helfen",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "jemandem helfen / bei einer Aufgabe helfen",
         "synonyms": [
@@ -458,7 +458,7 @@
     {
         "word": "versuchen",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎯",
         "subtext": "versuchen zu tun",
         "synonyms": [
@@ -485,7 +485,7 @@
     {
         "word": "zeigen",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📽️",
         "subtext": "jemandem zeigen wie / Interesse zeigen",
         "synonyms": [
@@ -510,7 +510,7 @@
     {
         "word": "finden",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔍",
         "subtext": "eine Stelle finden / es schwierig finden / Zeit finden",
         "synonyms": [
@@ -536,7 +536,7 @@
     {
         "word": "behalten",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "",
         "synonyms": [
@@ -565,7 +565,7 @@
     {
         "word": "verlieren",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📉",
         "subtext": "eine Arbeit verlieren / Geld verlieren / Gewicht verlieren / Zeit verlieren",
         "opposite": "gewinnen",
@@ -648,7 +648,7 @@
     {
         "word": "bringen",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🎁",
         "subtext": "jemanden bringen / Essen bringen / ein Dokument bringen / zur Sprache bringen",
         "form": "verb",
@@ -694,7 +694,7 @@
     {
         "word": "erzählen",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "🗣️",
         "subtext": "jemandem erzählen / eine Geschichte erzählen / jemandem von ... erzählen",
         "synonyms": [
@@ -719,7 +719,7 @@
     {
         "word": "fragen",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❓",
         "subtext": "nach etwas fragen / jemanden fragen",
         "synonyms": [
@@ -768,7 +768,7 @@
     {
         "word": "reden",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "💬",
         "subtext": "mit jemandem reden / über etwas reden / offen reden / lange Zeit reden",
         "form": "verb",
@@ -790,7 +790,7 @@
     {
         "word": "anrufen",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📞",
         "subtext": "jemanden anrufen",
         "synonyms": [
@@ -817,7 +817,7 @@
     {
         "word": "schreiben",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "✍️",
         "subtext": "eine E-Mail schreiben / einen Bericht schreiben / einen Brief schreiben / Notizen schreiben",
         "opposite": "lesen",
@@ -842,7 +842,7 @@
     {
         "word": "lesen",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "ein Buch lesen / die Nachrichten lesen / einen Vertrag lesen / aufmerksam lesen",
         "opposite": "schreiben",
@@ -867,7 +867,7 @@
     {
         "word": "hören",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎧",
         "subtext": "Musik hören / einen Podcast hören",
         "synonyms": [
@@ -897,7 +897,7 @@
     {
         "word": "antworten",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📞",
         "subtext": "auf eine E-Mail antworten",
         "synonyms": [
@@ -947,7 +947,7 @@
     {
         "word": "gehen",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "zur Arbeit gehen / nach Hause gehen / einkaufen gehen",
         "synonyms": [
@@ -977,7 +977,7 @@
     {
         "word": "kommen",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "subtext": "nach Hause kommen / zur Arbeit kommen / hierher kommen",
         "synonyms": [
@@ -1009,7 +1009,7 @@
     {
         "word": "laufen",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "zur Arbeit laufen / nach Hause laufen / langsam laufen / jeden Tag laufen",
         "form": "verb",
@@ -1032,7 +1032,7 @@
     {
         "word": "fahren",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "subtext": "zur Arbeit fahren / ein Auto fahren / nach Hause fahren / vorsichtig fahren",
         "form": "verb",
@@ -1055,7 +1055,7 @@
     {
         "word": "fliegen",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "in eine Stadt fliegen / Business Class fliegen / Economy fliegen",
         "form": "verb",
@@ -1078,7 +1078,7 @@
     {
         "word": "ankommen",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "bei der Arbeit ankommen / spät ankommen / pünktlich ankommen / zu Hause ankommen",
         "form": "verb",
@@ -1100,7 +1100,7 @@
     {
         "word": "verlassen",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚪",
         "subtext": "das Haus verlassen / die Arbeit verlassen",
         "synonyms": [
@@ -1126,7 +1126,7 @@
     {
         "word": "umziehen",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "📦",
         "subtext": "an einen neuen Ort ziehen",
         "synonyms": [
@@ -1153,7 +1153,7 @@
     {
         "word": "zurückkehren",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🔙",
         "subtext": "nach Hause zurückkehren / zur Arbeit zurückkehren / zurückkehren von",
         "synonyms": [
@@ -1201,7 +1201,7 @@
     {
         "word": "essen",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "subtext": "zu Mittag essen / zu Abend essen / auswärts essen",
         "synonyms": [
@@ -1233,7 +1233,7 @@
     {
         "word": "trinken",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "Kaffee trinken / Tee trinken / Wasser trinken / Bier trinken",
         "opposite": "essen",
@@ -1262,7 +1262,7 @@
     {
         "word": "schlafen",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "😴",
         "subtext": "gut schlafen / schlecht schlafen / acht Stunden schlafen / lange schlafen",
         "opposite": "aufwachen",
@@ -1313,7 +1313,7 @@
     {
         "word": "reinigen",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧹",
         "subtext": "die Wohnung reinigen / die Küche reinigen / regelmäßig reinigen",
         "synonyms": [
@@ -1338,7 +1338,7 @@
     {
         "word": "tragen",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "subtext": "einen Anzug tragen / eine Brille tragen / Freizeitkleidung tragen",
         "form": "verb",
@@ -1361,7 +1361,7 @@
     {
         "word": "waschen",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧼",
         "subtext": "Kleidung waschen / sich die Hände waschen",
         "synonyms": [
@@ -1387,7 +1387,7 @@
     {
         "word": "kaufen",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🛒",
         "subtext": "Essen kaufen / ein Ticket kaufen / online kaufen / ein Haus kaufen",
         "opposite": "verkaufen",
@@ -1412,7 +1412,7 @@
     {
         "word": "bezahlen",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "subtext": "eine Rechnung bezahlen / Miete bezahlen / mit Karte bezahlen / bar bezahlen",
         "form": "verb",
@@ -1434,7 +1434,7 @@
     {
         "word": "ausgeben",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "subtext": "Geld ausgeben / für Essen ausgeben / für Miete ausgeben / Zeit verbringen",
         "form": "verb",
@@ -1456,7 +1456,7 @@
     {
         "word": "sparen",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "subtext": "Geld sparen / für einen Urlaub sparen / für ein Haus sparen",
         "opposite": "ausgeben",
@@ -1480,7 +1480,7 @@
     {
         "word": "arbeiten",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "💼",
         "subtext": "von zu Hause aus arbeiten / Vollzeit arbeiten / hart arbeiten / bis spät arbeiten",
         "form": "verb",
@@ -1502,7 +1502,7 @@
     {
         "word": "leben",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "emoji": "🏠",
         "subtext": "in einer Wohnung leben / alleine leben / mit jemandem leben / im Ausland leben",
         "opposite": "sterben",
@@ -1527,7 +1527,7 @@
     {
         "word": "denken",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "💭",
         "subtext": "denken an / glauben, dass es ... ist",
         "synonyms": [
@@ -1554,7 +1554,7 @@
     {
         "word": "wissen",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "die Antwort wissen / wissen wie",
         "synonyms": [
@@ -1594,7 +1594,7 @@
     {
         "word": "wollen",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🙏",
         "subtext": "eine Arbeit wollen / gehen wollen / mehr Geld wollen / Hilfe wollen",
         "form": "verb",
@@ -1630,7 +1630,7 @@
     {
         "word": "brauchen",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "🆘",
         "subtext": "Hilfe brauchen / Zeit brauchen / Geld brauchen",
         "synonyms": [
@@ -1657,7 +1657,7 @@
     {
         "word": "mögen",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "👍",
         "subtext": "die Arbeit mögen / jemanden mögen / die Idee mögen",
         "synonyms": [
@@ -1684,7 +1684,7 @@
     {
         "word": "lieben",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "❤️",
         "subtext": "jemanden lieben / es lieben zu tun / einen Ort lieben / die Idee lieben",
         "form": "verb",
@@ -1707,7 +1707,7 @@
     {
         "word": "hassen",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😡",
         "subtext": "es hassen zu tun / jemanden hassen / Besprechungen hassen / das Pendeln hassen",
         "form": "verb",
@@ -1730,7 +1730,7 @@
     {
         "word": "hoffen",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🤞",
         "subtext": "hoffen auf / hoffen zu tun / hoffen, dass",
         "synonyms": [
@@ -1756,7 +1756,7 @@
     {
         "word": "erinnern",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "sich erinnern zu tun / sich an einen Namen erinnern / sich deutlich erinnern",
         "form": "verb",
@@ -1779,7 +1779,7 @@
     {
         "word": "vergessen",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🤔",
         "subtext": "einen Namen vergessen / vergessen zu tun / vergessen / komplett vergessen",
         "form": "verb",
@@ -1802,7 +1802,7 @@
     {
         "word": "verstehen",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "💡",
         "subtext": "ein Problem verstehen / jemanden verstehen / deutlich verstehen",
         "form": "verb",
@@ -1825,7 +1825,7 @@
     {
         "word": "entscheiden",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "entscheiden zu tun / sich entscheiden für / schwer zu entscheiden",
         "synonyms": [
@@ -1851,7 +1851,7 @@
     {
         "word": "genießen",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "subtext": "es genießen zu tun / eine Mahlzeit genießen / die Arbeit genießen / das Leben genießen",
         "form": "verb",
@@ -1873,7 +1873,7 @@
     {
         "word": "sehen",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👁️",
         "subtext": "einen Arzt sehen / Freunde sehen / das Problem sehen / deutlich sehen",
         "form": "verb",
@@ -1900,7 +1900,7 @@
     {
         "word": "hören",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👂",
         "subtext": "Neuigkeiten hören / von jemandem hören / ein Geräusch hören / deutlich hören",
         "form": "verb",
@@ -1927,7 +1927,7 @@
     {
         "word": "aufwachen",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "früh aufwachen / spät aufwachen / müde aufwachen",
@@ -1951,7 +1951,7 @@
     {
         "word": "schauen",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "📺",
         "form": "verb",
         "subtext": "einen Film schauen / Nachrichten schauen",
@@ -1977,7 +1977,7 @@
     {
         "word": "sehen",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "👀",
         "subtext": "",
         "synonyms": [
@@ -2010,7 +2010,7 @@
     {
         "word": "spielen",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎮",
         "subtext": "ein Spiel spielen / Musik spielen / eine Rolle spielen",
         "synonyms": [
@@ -2035,7 +2035,7 @@
     {
         "word": "rennen",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏃",
         "subtext": "ein Rennen laufen",
         "synonyms": [
@@ -2063,7 +2063,7 @@
     {
         "word": "sitzen",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🪑",
         "subtext": "an einem Schreibtisch sitzen / in einer Besprechung sitzen",
         "synonyms": [
@@ -2095,7 +2095,7 @@
     {
         "word": "stehen",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🧍",
         "subtext": "in einer Schlange stehen / daneben stehen",
         "synonyms": [
@@ -2127,7 +2127,7 @@
     {
         "word": "treffen",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -2149,7 +2149,7 @@
     {
         "word": "lernen",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📚",
         "subtext": "eine Sprache lernen / eine Fertigkeit lernen / lernen von / lernen wie",
         "form": "verb",
@@ -2171,7 +2171,7 @@
     {
         "word": "ändern",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "seine Meinung ändern / den Plan ändern / etwas ändern",
         "synonyms": [
@@ -2196,7 +2196,7 @@
     {
         "word": "stoppen",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛑",
         "subtext": "jemanden stoppen",
         "synonyms": [
@@ -2223,7 +2223,7 @@
     {
         "word": "hinzufügen",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
+        "theme": "numbers",
         "emoji": "➕",
         "subtext": "etwas Zucker hinzufügen / hinzufügen zu / einen Kommentar hinzufügen",
         "synonyms": [
@@ -2249,7 +2249,7 @@
     {
         "word": "gewinnen",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏆",
         "subtext": "ein Spiel gewinnen / einen Preis gewinnen / eine Auszeichnung gewinnen / einen Auftrag gewinnen",
         "opposite": "verlieren",
@@ -2273,7 +2273,7 @@
     {
         "word": "warten",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "subtext": "auf jemanden warten / in einer Schlange warten / einen Moment warten",
         "form": "verb",
@@ -2295,7 +2295,7 @@
     {
         "word": "sterben",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "⚰️",
         "subtext": "sterben an / sterben für / sterben vor",
         "synonyms": [
@@ -2322,7 +2322,7 @@
     {
         "word": "senden",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2350,7 +2350,7 @@
     {
         "word": "bleiben",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏨",
         "subtext": "zu Hause bleiben / in einem Hotel übernachten / bei jemandem bleiben",
         "synonyms": [
@@ -2376,7 +2376,7 @@
     {
         "word": "fallen",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "emoji": "🍂",
         "subtext": "",
         "synonyms": [
@@ -2405,7 +2405,7 @@
     {
         "word": "bestehen",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🏔️",
         "subtext": "eine Prüfung bestehen / Zeit verbringen",
         "synonyms": [
@@ -2432,7 +2432,7 @@
     {
         "word": "verkaufen",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "Produkte verkaufen / online verkaufen / auf dem Markt verkaufen",
         "synonyms": [
@@ -2459,7 +2459,7 @@
     {
         "word": "ziehen",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚜",
         "subtext": "an der Tür ziehen / an etwas ziehen",
         "synonyms": [
@@ -2487,7 +2487,7 @@
     {
         "word": "drücken",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛒",
         "subtext": "den Knopf drücken",
         "synonyms": [
@@ -2517,7 +2517,7 @@
     {
         "word": "tragen",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🎒",
         "subtext": "eine Tasche tragen / Notizen mit sich führen",
         "synonyms": [
@@ -2543,7 +2543,7 @@
     {
         "word": "brechen",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "💔",
         "subtext": "gegen ein Gesetz verstoßen",
         "synonyms": [
@@ -2571,7 +2571,7 @@
     {
         "word": "empfangen",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "📩",
         "subtext": "eine E-Mail empfangen / Nachrichten empfangen",
         "synonyms": [
@@ -2598,7 +2598,7 @@
     {
         "word": "zustimmen",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "subtext": "jemandem zustimmen / zustimmen zu tun",
         "synonyms": [
@@ -2653,7 +2653,7 @@
     {
         "word": "teilen",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🍕",
         "subtext": "ein Zimmer teilen / Informationen teilen / eine Idee teilen / teilen mit",
         "form": "verb",
@@ -2676,7 +2676,7 @@
     {
         "word": "lächeln",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "😊",
         "subtext": "ein breites Lächeln / übers ganze Gesicht lächeln",
         "synonyms": [
@@ -2704,7 +2704,7 @@
     {
         "word": "weinen",
         "level": "starter",
-        "theme": "surprise_interest_A1",
+        "theme": "emotions",
         "emoji": "😢",
         "subtext": "zu weinen beginnen / über etwas weinen",
         "synonyms": [
@@ -2733,7 +2733,7 @@
     {
         "word": "tanzen",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "💃",
         "subtext": "zu Musik tanzen / tanzen gehen / zusammen tanzen",
         "synonyms": [
@@ -2759,7 +2759,7 @@
     {
         "word": "singen",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "🎤",
         "subtext": "ein Lied singen / gut singen",
         "synonyms": [
@@ -2786,7 +2786,7 @@
     {
         "word": "springen",
         "level": "starter",
-        "theme": "playing_watching_sport_A1",
+        "theme": "sports",
         "emoji": "🦘",
         "subtext": "hoch springen / über etwas springen",
         "synonyms": [
@@ -2813,7 +2813,7 @@
     {
         "word": "schwimmen",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏊",
         "subtext": "schwimmen gehen / Bahnen schwimmen / gut schwimmen",
         "synonyms": [
@@ -2839,7 +2839,7 @@
     {
         "word": "studieren",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "Englisch studieren / für eine Prüfung lernen",
         "synonyms": [
@@ -2865,7 +2865,7 @@
     {
         "word": "lehren",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "👨‍🏫",
         "subtext": "jemanden lehren / lehren wie",
         "synonyms": [
@@ -2916,7 +2916,7 @@
     {
         "word": "mieten",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏠",
         "subtext": "eine Wohnung mieten / eine Immobilie mieten",
         "synonyms": [
@@ -2941,7 +2941,7 @@
     {
         "word": "trainieren",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏋️",
         "form": "verb",
         "definitions": [
@@ -2963,7 +2963,7 @@
     {
         "word": "kosten",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "verb",
         "definitions": [
@@ -2985,7 +2985,7 @@
     {
         "word": "einladen",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -3019,7 +3019,7 @@
         "aspect": "action",
         "v2": "stand auf",
         "v3": "aufgestanden",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -3041,7 +3041,7 @@
         "aspect": "action",
         "v2": "frühstückte",
         "v3": "gefrühstückt",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
@@ -3063,7 +3063,7 @@
         "aspect": "action",
         "v2": "kam zurück",
         "v3": "zurückgekommen",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
@@ -3085,7 +3085,7 @@
         "aspect": "action",
         "v2": "ging ins Bett",
         "v3": "ins Bett gegangen",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -3107,7 +3107,7 @@
         "aspect": "action",
         "v2": "prüfte",
         "v3": "geprüft",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
@@ -3129,7 +3129,7 @@
         "aspect": "action",
         "v2": "antwortete",
         "v3": "geantwortet",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
@@ -3151,7 +3151,7 @@
         "aspect": "action",
         "v2": "präsentierte",
         "v3": "präsentiert",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
@@ -3173,7 +3173,7 @@
         "aspect": "action",
         "v2": "besuchte",
         "v3": "besucht",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
@@ -3199,7 +3199,7 @@
         "aspect": "action",
         "v2": "leitete",
         "v3": "geleitet",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
@@ -3221,7 +3221,7 @@
         "aspect": "action",
         "v2": "berechnete",
         "v3": "berechnet",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
@@ -3246,7 +3246,7 @@
         "aspect": "stative",
         "v2": "leistete",
         "v3": "geleistet",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
@@ -3268,7 +3268,7 @@
         "aspect": "stative",
         "v2": "schuldete",
         "v3": "geschuldet",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
@@ -3290,7 +3290,7 @@
         "aspect": "action",
         "v2": "verdiente",
         "v3": "verdient",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
@@ -3312,7 +3312,7 @@
         "aspect": "action",
         "v2": "besuchte",
         "v3": "besucht",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
@@ -3334,7 +3334,7 @@
         "aspect": "action",
         "v2": "feierte",
         "v3": "gefeiert",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
@@ -3356,7 +3356,7 @@
         "aspect": "action",
         "v2": "empfahl",
         "v3": "empfohlen",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
@@ -3384,7 +3384,7 @@
         "aspect": "both",
         "v2": "tat weh",
         "v3": "weh getan",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
@@ -3411,7 +3411,7 @@
         "aspect": "action",
         "v2": "ruhte",
         "v3": "geruht",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
@@ -3433,7 +3433,7 @@
         "aspect": "action",
         "v2": "erholte",
         "v3": "erholt",
-        "theme": "medical_appointments_A1",
+        "theme": "health_medicine",
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
@@ -3458,7 +3458,7 @@
         "aspect": "action",
         "v2": "buchte",
         "v3": "gebucht",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
@@ -3483,7 +3483,7 @@
         "aspect": "action",
         "v2": "packte",
         "v3": "gepackt",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
@@ -3508,7 +3508,7 @@
         "aspect": "action",
         "v2": "stornierte",
         "v3": "storniert",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
@@ -3543,7 +3543,7 @@
     {
         "word": "bestellen",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "Essen bestellen / ein Getränk bestellen / online bestellen / Material bestellen",
         "form": "verb",
@@ -3565,7 +3565,7 @@
     {
         "word": "erklären",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "💡",
         "subtext": "einen Prozess erklären / klar erklären / jemandem erklären",
         "form": "verb",
@@ -3634,7 +3634,7 @@
     {
         "word": "entspannen",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🧘",
         "subtext": "zu Hause entspannen / nach der Arbeit entspannen / im Urlaub entspannen",
         "form": "verb",
@@ -3656,7 +3656,7 @@
     {
         "word": "reparieren",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🛠️",
         "subtext": "",
         "synonyms": [
@@ -3683,7 +3683,7 @@
     {
         "word": "passieren",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "❔",
         "subtext": "jemandem passieren / wieder passieren",
         "synonyms": [
@@ -3709,7 +3709,7 @@
     {
         "word": "scheinen",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "🎭",
         "subtext": "seem like",
         "synonyms": [
@@ -3736,7 +3736,7 @@
     {
         "word": "bedeuten",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "❔",
         "subtext": "etwas bedeuten",
         "synonyms": [
@@ -3763,7 +3763,7 @@
     {
         "word": "folgen",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👣",
         "subtext": "Anweisungen folgen / jemandem folgen",
         "synonyms": [
@@ -3789,7 +3789,7 @@
     {
         "word": "fortsetzen",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "⏩",
         "subtext": "eine Aufgabe fortsetzen",
         "synonyms": [
@@ -3816,7 +3816,7 @@
     {
         "word": "wachsen",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📈",
         "subtext": "schnell wachsen / wachsen um",
         "synonyms": [
@@ -3842,7 +3842,7 @@
     {
         "word": "beinhalten",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "➕",
         "subtext": "etwas beinhalten",
         "synonyms": [
@@ -3869,7 +3869,7 @@
     {
         "word": "werden",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✨",
         "subtext": "Manager werden / beliebt werden / klar werden / wichtig werden",
         "form": "verb",
@@ -3903,7 +3903,7 @@
     {
         "word": "gehören",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📎",
         "subtext": "jemandem gehören",
         "synonyms": [
@@ -3929,7 +3929,7 @@
     {
         "word": "wählen",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👉",
         "subtext": "wählen zwischen / wählen zu tun / sorgfältig wählen / eine Karriere wählen",
         "form": "verb",
@@ -3951,7 +3951,7 @@
     {
         "word": "bauen",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "",
         "synonyms": [

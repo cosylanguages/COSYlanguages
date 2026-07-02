@@ -413,7 +413,7 @@
             "Würdest du es einem Freund empfehlen?"
         ],
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "de",
         "sub_theme": null,
         "word": "Dinge, die du an deinem Wohnort liebst",

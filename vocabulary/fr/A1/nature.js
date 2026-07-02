@@ -3,7 +3,7 @@
 {
         "word": "arbre",
         "level": "starter",
-        "theme": "plants_natural_world_A1",
+        "theme": "nature",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🌳",
@@ -27,7 +27,7 @@
 {
         "word": "fleur",
         "level": "starter",
-        "theme": "plants_natural_world_A1",
+        "theme": "nature",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌸",
@@ -51,7 +51,7 @@
 {
         "word": "montagne",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏔️",
@@ -70,7 +70,7 @@
 {
         "word": "rivière",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏞️",
@@ -89,7 +89,7 @@
 {
         "word": "mer",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌊",
@@ -112,7 +112,7 @@
 {
         "word": "ciel",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌌",
@@ -135,7 +135,7 @@
 {
         "word": "lune",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌙",
@@ -159,7 +159,7 @@
 {
         "word": "herbe",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🌱",
@@ -178,7 +178,7 @@
 {
         "word": "nuage",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "le",
         "gender": "masculine",
         "emoji": "☁️",
@@ -197,7 +197,7 @@
 {
         "word": "étoile",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "l'",
         "gender": "feminine",
         "emoji": "⭐",
@@ -221,7 +221,7 @@
 {
         "word": "air",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🌬️",
@@ -240,7 +240,7 @@
 {
         "word": "monde",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌍",
@@ -259,7 +259,7 @@
 {
         "word": "pont",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌉",
@@ -278,7 +278,7 @@
 {
         "word": "plage",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏖️",
@@ -297,7 +297,7 @@
 {
         "word": "campagne",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚜",
@@ -316,7 +316,7 @@
 {
         "word": "terre",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "emoji": "🌎",
         "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "feminine",
@@ -340,7 +340,7 @@
 {
         "word": "colline",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "emoji": "⛰️",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
@@ -360,7 +360,7 @@
 {
         "word": "vallée",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "emoji": "⛰️",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
@@ -380,7 +380,7 @@
 {
         "word": "forêt",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "emoji": "🌲",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
@@ -400,7 +400,7 @@
 {
         "word": "bois",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "masculine",
@@ -420,7 +420,7 @@
 {
         "word": "lac",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "emoji": "💧",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -440,7 +440,7 @@
 {
         "word": "champ",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "emoji": "🌱",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -460,7 +460,7 @@
 {
         "word": "feuille",
         "level": "starter",
-        "theme": "plants_natural_world_A1",
+        "theme": "nature",
         "emoji": "🍃",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
@@ -484,7 +484,7 @@
 {
         "word": "plante",
         "level": "starter",
-        "theme": "plants_natural_world_A1",
+        "theme": "nature",
         "emoji": "🌵",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
@@ -504,7 +504,7 @@
 {
         "word": "nature",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "emoji": "🌿",
         "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "feminine",

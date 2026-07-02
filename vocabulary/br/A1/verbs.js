@@ -28,7 +28,7 @@
     {
         "word": "kaout",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "👜",
         "subtext": "kaout ul labour / kaout ur gudenn / kaout amzer",
         "synonyms": [
@@ -54,7 +54,7 @@
     {
         "word": "santout",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🌡️",
         "subtext": "en em santiñ skuizh / en em santiñ gwelloc'h / en em santiñ klañv",
         "form": "verb",
@@ -76,7 +76,7 @@
     {
         "word": "reiñ",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "subtext": "reiñ kuzul / reiñ arc'hant / reiñ ur proad / reiñ titouroù",
         "opposite": "kemer",
@@ -100,7 +100,7 @@
     {
         "word": "kemer",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "👜",
         "subtext": "kemer ar c'harr-boutin / kemer louzoù / kemer un ehan",
         "opposite": "reiñ",
@@ -124,7 +124,7 @@
     {
         "word": "kaout",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📥",
         "subtext": "kaout ul labour",
         "synonyms": [
@@ -173,7 +173,7 @@
     {
         "word": "ober",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "ober kafe / ober ur fazi",
         "synonyms": [
@@ -199,7 +199,7 @@
     {
         "word": "ober",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛠️",
         "subtext": "ober e labour / ober ar gwerzh / ober sport / ober netra",
         "form": "verb",
@@ -221,7 +221,7 @@
     {
         "word": "implijout",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🛠️",
         "subtext": "implijout ur pellgomz / implijout an treuzdougen / implijout un urzhiataer",
         "form": "verb",
@@ -243,7 +243,7 @@
     {
         "word": "digeriñ",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "subtext": "digeriñ un nor / digeriñ ur gont / digeriñ ur stal",
         "opposite": "serriñ",
@@ -267,7 +267,7 @@
     {
         "word": "serriñ",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "subtext": "serriñ un nor / serriñ da c'hwec'h eur / serriñ ur gont",
         "opposite": "digeriñ",
@@ -291,7 +291,7 @@
     {
         "word": "kregiñ",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "▶️",
         "subtext": "kregiñ gant al labour / kregiñ gant an emvod / kregiñ gant ul labour nevez",
         "opposite": "echuiñ",
@@ -315,7 +315,7 @@
     {
         "word": "echuiñ",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "echuiñ gant al labour / echuiñ ur raktres / echuiñ abred",
         "opposite": "kregiñ",
@@ -339,7 +339,7 @@
     {
         "word": "sikour",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "sikour unan bennak / sikour gant ul labour / goulenn sikour",
         "form": "verb",
@@ -361,7 +361,7 @@
     {
         "word": "klask",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎯",
         "subtext": "klask ober / klask kalet / klask un dra nevez",
         "form": "verb",
@@ -383,7 +383,7 @@
     {
         "word": "diskouez",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📽️",
         "subtext": "diskouez da unan bennak / diskouez un teul / diskouez dedenn",
         "form": "verb",
@@ -405,7 +405,7 @@
     {
         "word": "kavout",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔍",
         "subtext": "kavout ul labour / kavout amzer / kavout diaes",
         "form": "verb",
@@ -427,7 +427,7 @@
     {
         "word": "derc'hel",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "",
         "synonyms": [
@@ -454,7 +454,7 @@
     {
         "word": "koll",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📉",
         "subtext": "koll ul labour / koll arc'hant / koll pouez",
         "opposite": "gounit",
@@ -530,7 +530,7 @@
     {
         "word": "degas",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🎁",
         "subtext": "degas unan bennak / degas boued",
         "form": "verb",
@@ -574,7 +574,7 @@
     {
         "word": "kontañ",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "🗣️",
         "subtext": "kontañ ar wirionez / kontañ da unan bennak / kontañ un istor",
         "form": "verb",
@@ -596,7 +596,7 @@
     {
         "word": "goulenn",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❓",
         "subtext": "goulenn ur goulenn / goulenn sikour / goulenn diwar-benn",
         "form": "verb",
@@ -640,7 +640,7 @@
     {
         "word": "kaozeal",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "💬",
         "subtext": "komz ouzh unan bennak",
         "synonyms": [
@@ -666,7 +666,7 @@
     {
         "word": "gervel",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📞",
         "subtext": "gervel unan bennak / gervel en-dro",
         "form": "verb",
@@ -688,7 +688,7 @@
     {
         "word": "skrivañ",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "✍️",
         "subtext": "skrivañ ur postel / skrivañ un danevell / skrivañ ul lizher",
         "opposite": "lenn",
@@ -712,7 +712,7 @@
     {
         "word": "lenn",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "lenn ul levr / lenn ar c'heleier / lenn ur gevrat",
         "opposite": "skrivañ",
@@ -736,7 +736,7 @@
     {
         "word": "selaou",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎧",
         "subtext": "selaou ouzh sonerezh / selaou gant evezh",
         "form": "verb",
@@ -758,7 +758,7 @@
     {
         "word": "respont",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📞",
         "subtext": "respont d'ur goulenn / respont d'ar pellgomz",
         "form": "verb",
@@ -806,7 +806,7 @@
     {
         "word": "mont",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "mont d'al labour / mont d'ar gêr / mont er-maez / mont da brenañ",
         "form": "verb",
@@ -828,7 +828,7 @@
     {
         "word": "dont",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "subtext": "dont d'ar gêr / dont d'al labour / dont en-dro / dont amañ",
         "opposite": "mont",
@@ -852,7 +852,7 @@
     {
         "word": "bale",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "mont d'al labour war droad / mont d'ar gêr war droad",
         "form": "verb",
@@ -874,7 +874,7 @@
     {
         "word": "bleniañ",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "subtext": "mont d'al labour gant ar c'harr / bleniañ ur c'harr",
         "form": "verb",
@@ -896,7 +896,7 @@
     {
         "word": "nijout",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "nijout d'ur gêr / nijout e kentañ klas",
         "form": "verb",
@@ -918,7 +918,7 @@
     {
         "word": "degouezhout",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "",
         "synonyms": [
@@ -944,7 +944,7 @@
     {
         "word": "kuitaat",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚪",
         "subtext": "kuitaat ar gêr / kuitaat al labour / kuitaat abred",
         "form": "verb",
@@ -966,7 +966,7 @@
     {
         "word": "dilec'hiañ",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "📦",
         "subtext": "mont da chom d'ul lec'h nevez",
         "synonyms": [
@@ -991,7 +991,7 @@
     {
         "word": "distreiñ",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🔙",
         "subtext": "distreiñ d'ar gêr / distreiñ d'al labour",
         "form": "verb",
@@ -1035,7 +1035,7 @@
     {
         "word": "debriñ",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "subtext": "debriñ lein / debriñ merenn / debriñ koan / debriñ er-maez",
         "opposite": "evañ",
@@ -1059,7 +1059,7 @@
     {
         "word": "evañ",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "evañ kafe / evañ te / evañ dour / evañ bier",
         "opposite": "debriñ",
@@ -1083,7 +1083,7 @@
     {
         "word": "kousket",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "😴",
         "subtext": "kousket mat / kousket fall / kousket kalz",
         "opposite": "dihuniñ",
@@ -1133,7 +1133,7 @@
     {
         "word": "naetaat",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧹",
         "subtext": "naetaat an ranndi / naetaat ar gegin",
         "form": "verb",
@@ -1155,7 +1155,7 @@
     {
         "word": "dougen",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "subtext": "dougen un dilhad / dougen lunedoù",
         "form": "verb",
@@ -1177,7 +1177,7 @@
     {
         "word": "walc'hiñ",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧼",
         "subtext": "walc'hiñ al listri / walc'hiñ an daouarn",
         "form": "verb",
@@ -1199,7 +1199,7 @@
     {
         "word": "prenañ",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🛒",
         "subtext": "prenañ boued / prenañ un tiked / prenañ enlinenn",
         "opposite": "gwerzhañ",
@@ -1223,7 +1223,7 @@
     {
         "word": "paeañ",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "subtext": "paeañ ur fakturenn / paeañ ar feurm",
         "form": "verb",
@@ -1245,7 +1245,7 @@
     {
         "word": "dispendiñ",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "subtext": "",
         "synonyms": [
@@ -1271,7 +1271,7 @@
     {
         "word": "espern",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "subtext": "espern arc'hant / espern evit ar vakañsoù",
         "opposite": "dispendiñ",
@@ -1295,7 +1295,7 @@
     {
         "word": "labourat",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "💼",
         "subtext": "labourat er gêr / labourat leun-amzer / labourat kalet",
         "form": "verb",
@@ -1317,7 +1317,7 @@
     {
         "word": "bevañ",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "emoji": "🏠",
         "subtext": "bevañ en un ranndi / bevañ e-unan / bevañ d'an estrenvro",
         "opposite": "mervel",
@@ -1341,7 +1341,7 @@
     {
         "word": "soñjal",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "💭",
         "subtext": "soñjal e / soñjal diwar-benn / soñjal gant evezh",
         "form": "verb",
@@ -1363,7 +1363,7 @@
     {
         "word": "gouzout",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "gouzout ar respont",
         "synonyms": [
@@ -1389,7 +1389,7 @@
     {
         "word": "fellout",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🙏",
         "subtext": "fellout ul labour / fellout kuitaat / fellout muioc'h a arc'hant",
         "form": "verb",
@@ -1411,7 +1411,7 @@
     {
         "word": "ezhomm",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "🆘",
         "subtext": "kaout ezhomm sikour / kaout ezhomm amzer / kaout ezhomm arc'hant",
         "form": "verb",
@@ -1433,7 +1433,7 @@
     {
         "word": "karet",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "👍",
         "subtext": "karet al labour / karet beajiñ / karet unan bennak / karet ar mennozh",
         "form": "verb",
@@ -1455,7 +1455,7 @@
     {
         "word": "karout",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "❤️",
         "subtext": "",
         "synonyms": [
@@ -1481,7 +1481,7 @@
     {
         "word": "kazout",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😡",
         "subtext": "",
         "synonyms": [
@@ -1507,7 +1507,7 @@
     {
         "word": "esperout",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🤞",
         "subtext": "esperout",
         "synonyms": [
@@ -1533,7 +1533,7 @@
     {
         "word": "kaout soñj",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "kaout soñj",
         "synonyms": [
@@ -1559,7 +1559,7 @@
     {
         "word": "ankounac'haat",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🤔",
         "subtext": "ankounac'haat un anv",
         "synonyms": [
@@ -1584,7 +1584,7 @@
     {
         "word": "kompren",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "💡",
         "subtext": "kompren ur gudenn / kompren sklaer",
         "form": "verb",
@@ -1606,7 +1606,7 @@
     {
         "word": "divizout",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "divizout ober",
         "synonyms": [
@@ -1631,7 +1631,7 @@
     {
         "word": "plijout",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "subtext": "kemer plijadur oc'h ober / kemer plijadur gant ar vuhez",
         "form": "verb",
@@ -1653,7 +1653,7 @@
     {
         "word": "gwelet",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👁️",
         "subtext": "gwelet ur mezeg / gwelet mignoned / gwelet sklaer",
         "form": "verb",
@@ -1675,7 +1675,7 @@
     {
         "word": "klevet",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👂",
         "subtext": "",
         "synonyms": [
@@ -1701,7 +1701,7 @@
     {
         "word": "dihuniñ",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "",
@@ -1729,7 +1729,7 @@
     {
         "word": "sellet",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "📺",
         "form": "verb",
         "subtext": "sellet ouzh an tele / sellet ouzh ur film",
@@ -1751,7 +1751,7 @@
     {
         "word": "sellout",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "👀",
         "subtext": "",
         "synonyms": [
@@ -1778,7 +1778,7 @@
     {
         "word": "c'hoari",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎮",
         "subtext": "c'hoari sport / c'hoari ur c'hoari",
         "form": "verb",
@@ -1800,7 +1800,7 @@
     {
         "word": "redek",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏃",
         "subtext": "redek / redek ur redadeg",
         "form": "verb",
@@ -1822,7 +1822,7 @@
     {
         "word": "azezañ",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🪑",
         "subtext": "azezañ / azezañ ouzh un daol",
         "opposite": "sevel",
@@ -1846,7 +1846,7 @@
     {
         "word": "sevel",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🧍",
         "subtext": "sevel en e sav / chom en e sav",
         "opposite": "azezañ",
@@ -1870,7 +1870,7 @@
     {
         "word": "kejañ",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -1892,7 +1892,7 @@
     {
         "word": "deskiñ",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📚",
         "subtext": "deskiñ ur yezh / deskiñ un ampartiz",
         "form": "verb",
@@ -1914,7 +1914,7 @@
     {
         "word": "cheñch",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "cheñch labour / cheñch soñj / cheñch ar raktres",
         "form": "verb",
@@ -1936,7 +1936,7 @@
     {
         "word": "paouez",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛑",
         "subtext": "paouez d'ober / paouez da labourat",
         "form": "verb",
@@ -1958,7 +1958,7 @@
     {
         "word": "ouzhpennañ",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
+        "theme": "numbers",
         "emoji": "➕",
         "subtext": "ouzhpennañ sukr / ouzhpennañ",
         "synonyms": [
@@ -1983,7 +1983,7 @@
     {
         "word": "gounit",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏆",
         "subtext": "gounit ur c'hoari / gounit ur priz",
         "opposite": "koll",
@@ -2007,7 +2007,7 @@
     {
         "word": "gortoz",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "subtext": "gortoz unan bennak / gortoz ur pennad",
         "form": "verb",
@@ -2029,7 +2029,7 @@
     {
         "word": "mervel",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "⚰️",
         "subtext": "mervel gant / mervel evit",
         "opposite": "bevañ",
@@ -2053,7 +2053,7 @@
     {
         "word": "kas",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2075,7 +2075,7 @@
     {
         "word": "chom",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏨",
         "subtext": "chom er gêr / chom en ul leti",
         "form": "verb",
@@ -2097,7 +2097,7 @@
     {
         "word": "kouezhañ",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "emoji": "🍂",
         "subtext": "kouezhañ d'an douar / kouezhañ e karantez",
         "form": "verb",
@@ -2119,7 +2119,7 @@
     {
         "word": "tremen",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🏔️",
         "subtext": "tremen un arnodenn / tremen an amzer",
         "form": "verb",
@@ -2141,7 +2141,7 @@
     {
         "word": "gwerzhañ",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "gwerzhañ produioù / gwerzhañ enlinenn",
         "opposite": "prenañ",
@@ -2165,7 +2165,7 @@
     {
         "word": "Sachañ",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚜",
         "subtext": "tennañ un dra bennak",
         "synonyms": [
@@ -2192,7 +2192,7 @@
     {
         "word": "pousañ",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛒",
         "subtext": "pousañ ar bouton / pousañ ur c'harrig",
         "opposite": "sachañ",
@@ -2216,7 +2216,7 @@
     {
         "word": "dougen",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🎒",
         "subtext": "dougen ur sac'h / dougen notennoù",
         "form": "verb",
@@ -2238,7 +2238,7 @@
     {
         "word": "terriñ",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "💔",
         "subtext": "terriñ ar werenn / terriñ ul lezenn",
         "form": "verb",
@@ -2260,7 +2260,7 @@
     {
         "word": "resev",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "📩",
         "subtext": "",
         "synonyms": [
@@ -2286,7 +2286,7 @@
     {
         "word": "emglev",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "subtext": "bezañ a-du gant unan bennak",
         "synonyms": [
@@ -2333,7 +2333,7 @@
     {
         "word": "lodennañ",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🍕",
         "subtext": "",
         "synonyms": [
@@ -2359,7 +2359,7 @@
     {
         "word": "mousc'hoarzhin",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "😊",
         "subtext": "mousc'hoarzhin",
         "synonyms": [
@@ -2386,7 +2386,7 @@
     {
         "word": "gouelañ",
         "level": "starter",
-        "theme": "surprise_interest_A1",
+        "theme": "emotions",
         "emoji": "😢",
         "subtext": "",
         "synonyms": [
@@ -2414,7 +2414,7 @@
     {
         "word": "dañsal",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "💃",
         "subtext": "dañsal gant sonerezh / dañsal asambles",
         "synonyms": [
@@ -2439,7 +2439,7 @@
     {
         "word": "kanañ",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "🎤",
         "subtext": "kanañ ur ganaouenn / kanañ asambles",
         "form": "verb",
@@ -2461,7 +2461,7 @@
     {
         "word": "lammat",
         "level": "starter",
-        "theme": "playing_watching_sport_A1",
+        "theme": "sports",
         "emoji": "🦘",
         "subtext": "lammat uhel / lammat dreist",
         "form": "verb",
@@ -2483,7 +2483,7 @@
     {
         "word": "neuñvial",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏊",
         "subtext": "",
         "synonyms": [
@@ -2509,7 +2509,7 @@
     {
         "word": "studiañ",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "studiañ saozneg / studiañ evit un arnodenn",
         "form": "verb",
@@ -2531,7 +2531,7 @@
     {
         "word": "kelenn",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "👨‍🏫",
         "subtext": "kelenn unan bennak / kelenn ur danvez",
         "form": "verb",
@@ -2579,7 +2579,7 @@
     {
         "word": "feurmiñ",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏠",
         "subtext": "feurmiñ un ranndi / feurmiñ ur gambr",
         "form": "verb",
@@ -2601,7 +2601,7 @@
     {
         "word": "ober sport",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏋️",
         "form": "verb",
         "definitions": [
@@ -2623,7 +2623,7 @@
     {
         "word": "koustañ",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "verb",
         "definitions": [
@@ -2649,7 +2649,7 @@
     {
         "word": "pediñ",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2683,7 +2683,7 @@
         "aspect": "action",
         "v2": "savas",
         "v3": "savet",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -2705,7 +2705,7 @@
         "aspect": "action",
         "v2": "leinas",
         "v3": "leinet",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
@@ -2727,7 +2727,7 @@
         "aspect": "action",
         "v2": "distroas",
         "v3": "distroet",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
@@ -2749,7 +2749,7 @@
         "aspect": "action",
         "v2": "eas da gousket",
         "v3": "aet da gousket",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -2771,7 +2771,7 @@
         "aspect": "action",
         "v2": "gwirias",
         "v3": "gwiriet",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
@@ -2793,7 +2793,7 @@
         "aspect": "action",
         "v2": "respontas",
         "v3": "respontet",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
@@ -2819,7 +2819,7 @@
         "aspect": "action",
         "v2": "displegas",
         "v3": "displeget",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
@@ -2841,7 +2841,7 @@
         "aspect": "action",
         "v2": "kemeras perzh",
         "v3": "kemeret perzh",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
@@ -2863,7 +2863,7 @@
         "aspect": "action",
         "v2": "meras",
         "v3": "meret",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
@@ -2888,7 +2888,7 @@
         "aspect": "action",
         "v2": "fakturas",
         "v3": "fakturet",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
@@ -2910,7 +2910,7 @@
         "aspect": "stative",
         "v2": "gallas paeañ",
         "v3": "gallet paeañ",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
@@ -2932,7 +2932,7 @@
         "aspect": "stative",
         "v2": "dleas",
         "v3": "dleet",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
@@ -2957,7 +2957,7 @@
         "aspect": "action",
         "v2": "gounezas arc'hant",
         "v3": "gounezet arc'hant",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
@@ -2979,7 +2979,7 @@
         "aspect": "action",
         "v2": "gweladennias",
         "v3": "gweladennet",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
@@ -3001,7 +3001,7 @@
         "aspect": "action",
         "v2": "lidas",
         "v3": "lidet",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
@@ -3023,7 +3023,7 @@
         "aspect": "action",
         "v2": "erbedas",
         "v3": "erbedet",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
@@ -3045,7 +3045,7 @@
         "aspect": "both",
         "v2": "reas droug",
         "v3": "graet droug",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
@@ -3067,7 +3067,7 @@
         "aspect": "action",
         "v2": "diskuizhas",
         "v3": "diskuizhet",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
@@ -3089,7 +3089,7 @@
         "aspect": "action",
         "v2": "pareas",
         "v3": "pareet",
-        "theme": "medical_appointments_A1",
+        "theme": "health_medicine",
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
@@ -3111,7 +3111,7 @@
         "aspect": "action",
         "v2": "miras",
         "v3": "miret",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
@@ -3137,7 +3137,7 @@
         "aspect": "action",
         "v2": "aozas ar malizenn",
         "v3": "aozet ar malizenn",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
@@ -3159,7 +3159,7 @@
         "aspect": "action",
         "v2": "nullas",
         "v3": "nullet",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
@@ -3191,7 +3191,7 @@
     {
         "word": "urzhiañ",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "urzhiañ boued / urzhiañ enlinenn",
         "form": "verb",
@@ -3213,7 +3213,7 @@
     {
         "word": "displegañ",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "💡",
         "subtext": "displegañ un argerzh / displegañ sklaer",
         "form": "verb",
@@ -3285,7 +3285,7 @@
     {
         "word": "en em zistendañ",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🧘",
         "subtext": "en em zistendañ",
         "synonyms": [
@@ -3310,7 +3310,7 @@
     {
         "word": "ratreañ",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🛠️",
         "subtext": "repaerañ un dra bennak",
         "form": "verb",
@@ -3332,7 +3332,7 @@
     {
         "word": "degouezhout",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "❔",
         "subtext": "petra a zo c'hoarvezet / c'hoarvezout gant unan bennak",
         "form": "verb",
@@ -3354,7 +3354,7 @@
     {
         "word": "hañvalout",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "🎭",
         "subtext": "",
         "synonyms": [
@@ -3380,7 +3380,7 @@
     {
         "word": "talvout",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "❔",
         "subtext": "ster un dra bennak",
         "synonyms": [
@@ -3405,7 +3405,7 @@
     {
         "word": "heuliañ",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👣",
         "subtext": "heuliañ an urzhioù / heuliañ unan bennak",
         "form": "verb",
@@ -3427,7 +3427,7 @@
     {
         "word": "kenderc'hel",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "⏩",
         "subtext": "kenderc'hel da labourat / kenderc'hel gant",
         "form": "verb",
@@ -3449,7 +3449,7 @@
     {
         "word": "kreskiñ",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📈",
         "subtext": "kreskiñ un embregerezh / kreskiñ buan",
         "form": "verb",
@@ -3471,7 +3471,7 @@
     {
         "word": "e-barzh",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "➕",
         "subtext": "endalvout un dra bennak / e-barzh",
         "form": "verb",
@@ -3493,7 +3493,7 @@
     {
         "word": "dont da vezañ",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✨",
         "subtext": "dont da vezañ merour / dont da vezañ brudet",
         "form": "verb",
@@ -3515,7 +3515,7 @@
     {
         "word": "bezañ da",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📎",
         "subtext": "bezañ da unan bennak / bezañ en e blas",
         "form": "verb",
@@ -3537,7 +3537,7 @@
     {
         "word": "dibab",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👉",
         "subtext": "dibab etre / dibab ober / dibab gant evezh",
         "form": "verb",
@@ -3559,7 +3559,7 @@
     {
         "word": "sevel",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "sevel ur vicher / sevel ur skipailh",
         "form": "verb",

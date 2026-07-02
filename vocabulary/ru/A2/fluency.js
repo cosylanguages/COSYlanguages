@@ -317,7 +317,7 @@
         "word": "Что вам нравится в месте, где вы живете",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {

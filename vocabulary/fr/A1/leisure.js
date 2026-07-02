@@ -3,7 +3,7 @@
 {
         "word": "exercice",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "article": "l'",
         "emoji": "🏋️",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -21,7 +21,7 @@
 {
         "word": "temps libre",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎮",
@@ -45,7 +45,7 @@
 {
         "word": "cinéma",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎬",
@@ -64,7 +64,7 @@
 {
         "word": "musée",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏛️",
@@ -83,7 +83,7 @@
 {
         "word": "bibliothèque",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "📚",
@@ -121,7 +121,7 @@
 {
         "word": "art",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎨",
@@ -140,7 +140,7 @@
 {
         "word": "groupe",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎸",
@@ -159,7 +159,7 @@
 {
         "word": "concert",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎵",
@@ -178,7 +178,7 @@
 {
         "word": "musique",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎵",
@@ -197,7 +197,7 @@
 {
         "word": "chanson",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎤",
@@ -214,7 +214,7 @@
         "word": "guitare",
         "image": "images/vocabulary/actions/to play a musical instrument.png",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "🎸",
         "form": "noun", "classification": "regular", "countability": "countable",
         "definitions": [{"text": "Un instrument de musique à cordes dont on joue avec les doigts.", "examples": ["Il joue de la guitare."]}],
@@ -284,7 +284,7 @@
 {
         "word": "sport",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "article": "le",
         "gender": "masculine",
         "emoji": "⚽",
@@ -304,7 +304,7 @@
         "word": "football",
         "image": "images/vocabulary/actions/to play sport.png",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "article": "le",
         "gender": "masculine",
         "emoji": "⚽",
@@ -323,7 +323,7 @@
 {
         "word": "tennis",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎾",
@@ -342,7 +342,7 @@
 {
         "word": "natation",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏊",
@@ -361,7 +361,7 @@
 {
         "word": "fête",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎉",
@@ -380,7 +380,7 @@
 {
         "word": "vacances",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "article": "les",
         "gender": "feminine",
         "emoji": "🏖️",

@@ -124,7 +124,7 @@ const data = [
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -751,7 +751,7 @@ const data = [
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
-        "theme": "meals_of_the_day",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1474,7 +1474,7 @@ const data = [
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
-        "theme": "meals_of_the_day",
+        "theme": "food_drink",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
@@ -1746,7 +1746,7 @@ const data = [
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -1777,7 +1777,7 @@ const data = [
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -1809,7 +1809,7 @@ const data = [
         "v4": "saving",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -2844,7 +2844,7 @@ const data = [
         "v4": "diing",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -3169,7 +3169,7 @@ const data = [
         "v4": "receiving",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -3582,7 +3582,7 @@ const data = [
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -3921,7 +3921,7 @@ const data = [
         "v4": "earning",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -4004,7 +4004,7 @@ const data = [
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -4698,7 +4698,7 @@ const data = [
         "v4": "borrowing",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -6230,7 +6230,7 @@ const data = [
         "v4": "coughing",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -6260,7 +6260,7 @@ const data = [
         "v4": "sneezing",
         "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {

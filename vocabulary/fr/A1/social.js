@@ -23,7 +23,7 @@
 {
         "word": "homme",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "article": "l'",
         "numberPlural": "2 homme",
         "answer": "deux hommes",
@@ -41,7 +41,7 @@
         "word": "barbe de trois jours",
         "image": "images/vocabulary/appearance/stubble.bristle.png",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "🧔",
         "form": "noun", "classification": "regular", "countability": "uncountable",
         "definitions": [{"text": "Poils courts et raides poussant sur le visage d'un homme lorsqu'il ne s'est pas rasé depuis quelques jours.", "examples": ["Il a un peu de barbe de trois jours."]}],
@@ -57,7 +57,7 @@
 {
         "word": "stress",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "article": "le",
         "emoji": "😫",
         "form": "noun", "classification": "regular", "countability": "uncountable",
@@ -198,7 +198,7 @@
 {
         "word": "garçon",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👦",
@@ -217,7 +217,7 @@
 {
         "word": "fille",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
@@ -279,7 +279,7 @@
 {
         "word": "adulte",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑",
@@ -317,7 +317,7 @@
 {
         "word": "âge",
         "level": "starter",
-        "theme": "age_A1",
+        "theme": "people",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎂",
@@ -336,7 +336,7 @@
 {
         "word": "anniversaire",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎂",
@@ -412,7 +412,7 @@
 {
         "word": "gens",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "article": "les",
         "gender": "masculine",
         "emoji": "👥",
@@ -431,7 +431,7 @@
 {
         "word": "idée",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "article": "l'",
         "gender": "feminine",
         "emoji": "💡",
@@ -450,7 +450,7 @@
 {
         "word": "avis",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "article": "l'",
         "gender": "masculine",
         "emoji": "💬",
@@ -469,7 +469,7 @@
 {
         "word": "opinion",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🗣️",
@@ -488,7 +488,7 @@
 {
         "word": "choix",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "article": "le",
         "gender": "masculine",
         "emoji": "👉",
@@ -507,7 +507,7 @@
 {
         "word": "décision",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "article": "la",
         "gender": "feminine",
         "emoji": "⚖️",

@@ -182,7 +182,7 @@
         "word": "casa",
         "image": "images/vocabulary/actions/to go home.png",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏡",
@@ -218,7 +218,7 @@
 {
         "word": "appartamento",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
@@ -264,7 +264,7 @@
 {
         "word": "stanza",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "emoji": "🚪",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -566,7 +566,7 @@
         "word": "bagno",
         "image": "images/vocabulary/actions/to take. to have a bath.png",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🚿",
@@ -589,7 +589,7 @@
 {
         "word": "camera da letto",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛏️",
@@ -704,7 +704,7 @@
 {
         "word": "entrata",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
@@ -727,7 +727,7 @@
 {
         "word": "uscita",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
@@ -750,7 +750,7 @@
 {
         "word": "scale",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "le",
         "gender": "feminine",
         "emoji": "🪜",
@@ -773,7 +773,7 @@
 {
         "word": "ascensore",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛗",
@@ -796,7 +796,7 @@
 {
         "word": "corridoio",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "👣",
@@ -819,7 +819,7 @@
 {
         "word": "muri",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "i",
         "gender": "masculine",
         "emoji": "🧱",
@@ -842,7 +842,7 @@
 {
         "word": "tetto",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏠",
@@ -866,7 +866,7 @@
         "word": "giardino",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏡",
@@ -889,7 +889,7 @@
 {
         "word": "garage",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🚗",
@@ -912,7 +912,7 @@
 {
         "word": "soggiorno",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛋️",
@@ -935,7 +935,7 @@
 {
         "word": "sala da pranzo",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍽️",
@@ -959,7 +959,7 @@
         "word": "doccia",
         "image": "images/vocabulary/actions/to take. to have a shower.png",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚿",
@@ -1005,7 +1005,7 @@
 {
         "word": "sapone",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧼",
@@ -1122,7 +1122,7 @@
 {
         "word": "lavastoviglie",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍽️",
@@ -1216,7 +1216,7 @@
 {
         "word": "pavimento",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧱",
@@ -1239,7 +1239,7 @@
 {
         "word": "soffitto",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏠",
@@ -1299,7 +1299,7 @@
 {
         "word": "padella",
         "level": "starter",
-        "theme": "kitchen_items_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍳",
@@ -1322,7 +1322,7 @@
 {
         "word": "pentola",
         "level": "starter",
-        "theme": "kitchen_items_A1",
+        "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍲",

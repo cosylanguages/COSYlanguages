@@ -3,7 +3,7 @@
         {
             "word": "мин",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🙋",
             "form": "pronoun",
             "definitions": [{ "text": "Беренсе зат, берлек һан.", "examples": ["Мин студент."] }]
@@ -11,7 +11,7 @@
         {
             "word": "син",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🫵",
             "form": "pronoun",
             "definitions": [{ "text": "Икенсе зат, берлек һан.", "examples": ["Хәлдәрең нисек син?"] }]
@@ -19,7 +19,7 @@
         {
             "word": "ул",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👨",
             "form": "pronoun",
             "definitions": [{ "text": "Өсөнсө зат, берлек һан.", "examples": ["Ул минең ағайым."] }]
@@ -27,7 +27,7 @@
         {
             "word": "беҙ",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👥",
             "form": "pronoun",
             "definitions": [{ "text": "Беренсе зат, күплек һан.", "examples": ["Беҙ дуҫтар."] }]
@@ -35,7 +35,7 @@
         {
             "word": "улар",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👥",
             "form": "pronoun",
             "definitions": [{ "text": "Өсөнсө зат, күплек һан.", "examples": ["Улар бергә эшләйҙәр."] }]
@@ -43,7 +43,7 @@
         {
             "word": "минең",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🙋",
             "form": "determiner",
             "definitions": [{ "text": "Эйәлекте күрһәтә (мин).", "examples": ["Минең исемем Иван."] }]
@@ -51,7 +51,7 @@
         {
             "word": "һинең",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🫵",
             "form": "determiner",
             "definitions": [{ "text": "Эйәлекте күрһәтә (син).", "examples": ["Бу һинең телефоныңмы?"] }]

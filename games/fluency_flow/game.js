@@ -18,7 +18,6 @@
         return div.innerHTML;
     }
 
-    function pick(arr) { if (!arr || !arr.length) return null; return arr[Math.floor(Math.random() * arr.length)]; }
 
     function renderSetup() {
         document.getElementById('go-title').textContent = GAME_TITLE;
@@ -58,6 +57,7 @@
 
             await COSYLoader.loadLevelData(lang, level);
             COSYGame.init(GAME_ID, lang, level);
+            COSYGame.maxRounds = 10;
 
             const data = COSYLoader.getGameData(lang);
             const durBag = gameUtils.createDrawBag(data.fluency || ['...']);

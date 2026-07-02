@@ -3,7 +3,7 @@
 {
         "word": "studente",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🧑‍🎓",
@@ -26,7 +26,7 @@
 {
         "word": "compagno di classe",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑‍🤝‍🧑",
@@ -72,7 +72,7 @@
 {
         "word": "lingua",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "🗣️",
@@ -99,7 +99,7 @@
 {
         "word": "parola",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "📝",
@@ -122,7 +122,7 @@
 {
         "word": "frase",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "📝",
@@ -145,7 +145,7 @@
 {
         "word": "errore",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "l'",
         "gender": "masculine",
         "emoji": "❌",
@@ -168,7 +168,7 @@
 {
         "word": "sbaglio",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "lo",
         "gender": "masculine",
         "emoji": "⚠️",
@@ -237,7 +237,7 @@
 {
         "word": "lezione",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏫",
@@ -260,7 +260,7 @@
 {
         "word": "classe",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏫",
@@ -283,7 +283,7 @@
 {
         "word": "compiti",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "i",
         "gender": "masculine",
         "emoji": "📝",
@@ -306,7 +306,7 @@
 {
         "word": "esame",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "l'",
         "gender": "masculine",
         "emoji": "📝",
@@ -329,7 +329,7 @@
 {
         "word": "alfabeto",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🔤",
@@ -352,7 +352,7 @@
 {
         "word": "aula",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏫",
@@ -375,7 +375,7 @@
 {
         "word": "dizionario",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "il",
         "gender": "masculine",
         "emoji": "📕",
@@ -400,7 +400,7 @@
 {
         "word": "lettera",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "✉️",
@@ -446,7 +446,7 @@
 {
         "word": "matematica",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "school",
         "emoji": "🔢",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
@@ -467,7 +467,7 @@
 {
         "word": "storia",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "school",
         "emoji": "📜",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
@@ -488,7 +488,7 @@
 {
         "word": "scienza",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "school",
         "emoji": "🧪",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
@@ -509,7 +509,7 @@
 {
         "word": "geografia",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "school",
         "emoji": "🌍",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",

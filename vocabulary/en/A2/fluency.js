@@ -337,7 +337,7 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "sub_theme": null,
         "word": "Things you love about where you live",
         "form": "other",

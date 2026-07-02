@@ -14,7 +14,7 @@
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "noun"
     },
     {
@@ -30,7 +30,7 @@
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "noun"
     },
     {
@@ -46,7 +46,7 @@
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "noun"
     },
     {
@@ -62,7 +62,7 @@
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "noun"
     },
     {
@@ -78,7 +78,7 @@
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "noun"
     },
     {
@@ -94,7 +94,7 @@
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "noun"
     },
     {
@@ -110,7 +110,7 @@
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "noun"
     },
     {
@@ -126,7 +126,7 @@
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "noun"
     },
     {
@@ -142,7 +142,7 @@
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "noun"
     },
     {
@@ -158,7 +158,7 @@
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "noun"
     },
     {
@@ -174,7 +174,7 @@
             }
         ],
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "noun"
     }
 ]

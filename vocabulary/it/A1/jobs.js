@@ -4,7 +4,7 @@
         "word": "medico",
         "image": "images/vocabulary/jobs/doctor.png",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "il",
         "numberPlural": "2 medico",
         "answer": "due medici",
@@ -30,7 +30,7 @@
 {
         "word": "insegnante",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "l'",
         "emoji": "🧑‍🏫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -53,7 +53,7 @@
 {
         "word": "capo",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "il",
         "emoji": "👨‍💼",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -76,7 +76,7 @@
 {
         "word": "collega",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "il",
         "emoji": "🧑‍💼",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -99,7 +99,7 @@
 {
         "word": "stipendio",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "lo",
         "emoji": "💰",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -124,7 +124,7 @@
 {
         "word": "riunione",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "la",
         "emoji": "🤝",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -149,7 +149,7 @@
 {
         "word": "stress",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "lo",
         "gender": "masculine",
         "emoji": "😫",
@@ -172,7 +172,7 @@
 {
         "word": "sonno",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "article": "il",
         "emoji": "😴",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -195,7 +195,7 @@
 {
         "word": "infermiere",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑‍⚕️",
@@ -221,7 +221,7 @@
 {
         "word": "conducente",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "il",
         "gender": "masculine",
         "emoji": "🚗",
@@ -247,7 +247,7 @@
 {
         "word": "cuoco",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "il",
         "gender": "masculine",
         "emoji": "👨‍🍳",
@@ -273,7 +273,7 @@
 {
         "word": "direttore",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑‍💼",
@@ -299,7 +299,7 @@
 {
         "word": "autista",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🚗",
@@ -322,7 +322,7 @@
 {
         "word": "chef",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "lo",
         "gender": "masculine",
         "emoji": "👨‍🍳",
@@ -345,7 +345,7 @@
 {
         "word": "attore",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎭",
@@ -368,7 +368,7 @@
 {
         "word": "artista",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎨",
@@ -391,7 +391,7 @@
 {
         "word": "affari",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "gli",
         "gender": "masculine",
         "emoji": "💼",
@@ -414,7 +414,7 @@
 {
         "word": "azienda",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏢",
@@ -438,7 +438,7 @@
         "word": "lavoro",
         "image": "images/vocabulary/actions/to go to work.png",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "💼",
@@ -461,7 +461,7 @@
 {
         "word": "impiego",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛠️",
@@ -484,7 +484,7 @@
 {
         "word": "mestiere",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "il",
         "gender": "masculine",
         "emoji": "👔",
@@ -507,7 +507,7 @@
 {
         "word": "cliente",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "👤",
@@ -530,7 +530,7 @@
 {
         "word": "piano",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
@@ -553,7 +553,7 @@
 {
         "word": "progetto",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "📊",
@@ -576,7 +576,7 @@
 {
         "word": "successo",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏆",
@@ -599,7 +599,7 @@
 {
         "word": "servizio",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "🤝",
@@ -622,7 +622,7 @@
 {
         "word": "clientela",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "la",
         "gender": "feminine",
         "emoji": "👥",
@@ -647,7 +647,7 @@
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "occupazione",
         "word": "occupazione",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "gender": "feminine",
         "article": "l'",
         "partitive": "dell'",
@@ -667,7 +667,7 @@
 {
         "word": "rapporto",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "📄",
@@ -692,7 +692,7 @@
 {
         "word": "contadino",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "👨‍🌾",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -714,7 +714,7 @@
 {
         "word": "pilota",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "👨‍✈️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -736,7 +736,7 @@
 {
         "word": "cameriere",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🤵",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -758,7 +758,7 @@
 {
         "word": "dentista",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🦷",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -780,7 +780,7 @@
 {
         "word": "poliziotto",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "👮",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -802,7 +802,7 @@
 {
         "word": "vigile del fuoco",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "👨‍🚒",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -824,7 +824,7 @@
 {
         "word": "soldato",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🪖",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -846,7 +846,7 @@
 {
         "word": "scrittore",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "✍️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -868,7 +868,7 @@
 {
         "word": "professore",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "👨‍🏫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -890,7 +890,7 @@
 {
         "word": "ingegnere",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "👷",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -912,7 +912,7 @@
 {
         "word": "segretario",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "⌨️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",

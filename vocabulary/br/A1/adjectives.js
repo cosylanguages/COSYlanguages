@@ -4,7 +4,7 @@
     {
         "word": "uhel",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "berr",
         "oppositeEmoji": "📏",
@@ -26,7 +26,7 @@
     {
         "word": "berr",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "uhel",
         "oppositeEmoji": "🗼",
@@ -49,7 +49,7 @@
     {
         "word": "yaouank",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "kozh",
         "oppositeEmoji": "👴",
@@ -71,7 +71,7 @@
     {
         "word": "kozh",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "yaouank",
         "oppositeEmoji": "👶",
@@ -93,7 +93,7 @@
     {
         "word": "heoliek",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "adjective",
         "definitions": [
@@ -115,7 +115,7 @@
     {
         "word": "glavek",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🌧️",
         "form": "adjective",
         "definitions": [
@@ -137,7 +137,7 @@
     {
         "word": "tomm",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
         "opposite": "yen",
@@ -161,7 +161,7 @@
     {
         "word": "yen",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "tomm",
@@ -184,7 +184,7 @@
     {
         "word": "boutin",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "ispisial",
         "oppositeEmoji": "✨",
@@ -204,7 +204,7 @@
     {
         "word": "marc'had-mat",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "form": "adjective",
         "opposite": "ker",
@@ -228,7 +228,7 @@
     {
         "word": "ker",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "💎",
         "form": "adjective",
         "opposite": "marc'had-mat",
@@ -252,7 +252,7 @@
     {
         "word": "mat",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
         "opposite": "fall",
@@ -276,7 +276,7 @@
     {
         "word": "fall",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
         "opposite": "mat",
@@ -300,7 +300,7 @@
     {
         "word": "bras",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "🐘",
         "form": "adjective",
         "opposite": "bihan",
@@ -324,7 +324,7 @@
     {
         "word": "bihan",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "🐭",
         "form": "adjective",
         "opposite": "bras",
@@ -348,7 +348,7 @@
     {
         "word": "aes",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "diaes",
@@ -371,7 +371,7 @@
     {
         "word": "diaes",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "aes",
@@ -394,7 +394,7 @@
     {
         "word": "laouen",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "form": "adjective",
         "subtext": "en em santiñ laouen / laouen gant un dra bennak / un devezh laouen",
@@ -416,7 +416,7 @@
     {
         "word": "skuizh",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😫",
         "form": "adjective",
         "subtext": "en em santiñ skuizh / skuizh gant un dra bennak / skuizh-tre",
@@ -438,7 +438,7 @@
     {
         "word": "leun-amzer",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
         "opposite": "hanter-amzer",
@@ -458,7 +458,7 @@
     {
         "word": "hanter-amzer",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
         "opposite": "leun-amzer",
@@ -478,7 +478,7 @@
     {
         "word": "naet",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
         "opposite": "lous",
@@ -502,7 +502,7 @@
     {
         "word": "yac'h",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥗",
         "form": "adjective",
         "opposite": "klañv",
@@ -526,7 +526,7 @@
     {
         "word": "klañv",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤒",
         "form": "adjective",
         "opposite": "yac'h",
@@ -547,7 +547,7 @@
     {
         "word": "enlinenn",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "maez-linenn",
@@ -567,7 +567,7 @@
     {
         "word": "e-unan",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "asambles",
@@ -587,7 +587,7 @@
     {
         "word": "distend",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "strafuilhet",
@@ -608,7 +608,7 @@
     {
         "word": "strafuilhet",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😟",
         "form": "adjective",
         "opposite": "distend",
@@ -629,7 +629,7 @@
     {
         "word": "strollat",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏃",
         "form": "adjective",
         "subtext": "",
@@ -651,7 +651,7 @@
     {
         "word": "talvoudus",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "ditalvoud",
@@ -675,7 +675,7 @@
     {
         "word": "pouezus",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "❗",
         "form": "adjective",
         "subtext": "emvod pouezus / pouezus-tre",
@@ -697,7 +697,7 @@
     {
         "word": "ruz",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟥",
         "form": "adjective",
         "subtext": "ruz teñval / gwin ruz / dremm ruz / gouloù ruz",
@@ -715,7 +715,7 @@
     {
         "word": "glas",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟦",
         "form": "adjective",
         "subtext": "glas sklaer / glas teñval / oabl glas",
@@ -733,7 +733,7 @@
     {
         "word": "gwer",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟩",
         "form": "adjective",
         "subtext": "gwer sklaer / gwer teñval / takad gwer",
@@ -751,7 +751,7 @@
     {
         "word": "gwenn",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "⬜",
         "form": "adjective",
         "subtext": "gwenn-tre / gwin gwenn / gwenn-erc'h",
@@ -769,7 +769,7 @@
     {
         "word": "du",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "⬛",
         "form": "adjective",
         "subtext": "du-teñval / kafe du / marc'had du",
@@ -787,7 +787,7 @@
     {
         "word": "melen",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟨",
         "form": "adjective",
         "subtext": "melen sklaer / melen-vividik",
@@ -806,7 +806,7 @@
     {
         "word": "dieub",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "amzer dieub",
@@ -828,7 +828,7 @@
     {
         "word": "digor",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
         "opposite": "serr",
@@ -852,7 +852,7 @@
     {
         "word": "serr",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
         "opposite": "digor",
@@ -887,7 +887,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "ledanoc'h",
         "superlative": "ledanañ"
     },
@@ -905,7 +905,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "bihanikoc'h",
         "superlative": "bihanikañ"
     },
@@ -922,7 +922,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "hiroc'h",
         "superlative": "hirañ",
         "feminine": null,
@@ -942,7 +942,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "uheloc'h",
         "superlative": "uhelañ"
     },
@@ -960,7 +960,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "izeloc'h",
         "superlative": "izelañ"
     },
@@ -977,7 +977,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "leunoc'h",
         "superlative": "leunañ",
         "feminine": null,
@@ -998,7 +998,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "goullooc'h",
         "superlative": "goulloañ",
         "feminine": null,
@@ -1019,7 +1019,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "tommikoc'h",
         "superlative": "tommikañ"
     },
@@ -1036,7 +1036,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "freskoc'h",
         "superlative": "freskañ"
     },
@@ -1054,7 +1054,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "glepoc'h",
         "superlative": "glepañ",
         "feminine": null,
@@ -1075,7 +1075,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "sec'hoc'h",
         "superlative": "sec'hañ",
         "feminine": null,
@@ -1085,7 +1085,7 @@
     {
         "word": "lous",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "form": "adjective",
         "subtext": "",
         "synonyms": ["dirty hands", "dirty clothes", "get dirty"],
@@ -1117,7 +1117,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "kaletoc'h",
         "superlative": "kaletañ",
         "feminine": null,
@@ -1138,7 +1138,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "blotoc'h",
         "superlative": "blotañ",
         "feminine": null,
@@ -1159,7 +1159,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "pounneroc'h",
         "superlative": "pounnerañ",
         "feminine": null,
@@ -1179,7 +1179,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "skañvoc'h",
         "superlative": "skañvañ"
     },
@@ -1196,7 +1196,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": "gelloc'h",
         "superlative": "gellañ"
     },
@@ -1213,7 +1213,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": "grisoc'h",
         "superlative": "grisañ"
     },
@@ -1230,7 +1230,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": "rozoc'h",
         "superlative": "rozañ"
     },
@@ -1247,7 +1247,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": "orañjezoc'h",
         "superlative": "orañjezañ"
     },
@@ -1264,7 +1264,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "muioc'h meur",
         "superlative": "ar muiañ meur"
     },
@@ -1282,7 +1282,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "bravikoc'h",
         "superlative": "bravikañ"
     },
@@ -1300,7 +1300,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "marzhusoc'h",
         "superlative": "marzhusañ"
     },
@@ -1318,7 +1318,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "euzhusoc'h",
         "superlative": "euzhusañ",
         "feminine": null,
@@ -1338,7 +1338,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "euzhusoc'h",
         "superlative": "euzhusañ"
     },
@@ -1355,7 +1355,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "estonusoc'h",
         "superlative": "estonusañ"
     },
@@ -1372,7 +1372,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "muioc'h dreist",
         "superlative": "ar muiañ dreist"
     },
@@ -1389,7 +1389,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "tristoc'h",
         "superlative": "tristañ",
         "feminine": null,
@@ -1410,7 +1410,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "naoniekoc'h",
         "superlative": "naoniekañ",
         "feminine": null,
@@ -1431,7 +1431,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "konnaroc'h",
         "superlative": "konnarañ",
         "feminine": null,
@@ -1451,14 +1451,14 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "borodetoc'h",
         "superlative": "borodetañ"
     },
     {
         "word": "entouziastet",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "subtext": "en em santiñ entouziastet / entouziastet gant / entouziastet-tre",
         "definitions": [
@@ -1486,7 +1486,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "aoniekoc'h",
         "superlative": "aoniekañ"
     },
@@ -1503,7 +1503,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "keuziekoc'h",
         "superlative": "keuziekañ"
     },
@@ -1520,7 +1520,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "reishoc'h",
         "superlative": "reishañ"
     },
@@ -1538,7 +1538,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "fazioc'h",
         "superlative": "faziañ",
         "feminine": null,
@@ -1558,7 +1558,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "nevesoc'h",
         "superlative": "nevesañ",
         "feminine": null,
@@ -1578,7 +1578,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "disheñveloc'h",
         "superlative": "disheñvelañ",
         "feminine": null,
@@ -1598,7 +1598,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "memesoc'h",
         "superlative": "memesañ",
         "feminine": null,
@@ -1619,7 +1619,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "buanoc'h",
         "superlative": "buanañ",
         "feminine": null,
@@ -1639,7 +1639,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "gorrekoc'h",
         "superlative": "gorrekañ",
         "feminine": null,
@@ -1660,7 +1660,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "didrousoc'h",
         "superlative": "didrousañ",
         "feminine": null,
@@ -1681,7 +1681,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "kreñvoc'h",
         "superlative": "kreñvañ",
         "feminine": null,
@@ -1701,7 +1701,7 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "comparative": "diogeloc'h",
         "superlative": "diogelañ",
         "feminine": null,
@@ -1721,7 +1721,7 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "comparative": "dañjerusoc'h",
         "superlative": "dañjerusañ",
         "feminine": null,
@@ -1731,7 +1731,7 @@
     {
         "word": "dilaouen",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1749,7 +1749,7 @@
     {
         "word": "strafuilhet",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1770,7 +1770,7 @@
     {
         "word": "strafuilhet",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1788,7 +1788,7 @@
     {
         "word": "fiziañs",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1806,7 +1806,7 @@
     {
         "word": "lorc'hus",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1827,7 +1827,7 @@
     {
         "word": "aoniek",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1848,7 +1848,7 @@
     {
         "word": "souezhet",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1865,7 +1865,7 @@
     {
         "word": "disantet",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1883,7 +1883,7 @@
     {
         "word": "brav",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1904,7 +1904,7 @@
     {
         "word": "koant",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1922,7 +1922,7 @@
     {
         "word": "kreñv",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1942,7 +1942,7 @@
     {
         "word": "wan",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1963,7 +1963,7 @@
     {
         "word": "yac'h",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -1981,7 +1981,7 @@
     {
         "word": "dreist",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1999,7 +1999,7 @@
     {
         "word": "perfezh",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2020,7 +2020,7 @@
     {
         "word": "ditalvoud",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2041,7 +2041,7 @@
     {
         "word": "reizh",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2062,7 +2062,7 @@
     {
         "word": "dedennus",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2082,7 +2082,7 @@
     {
         "word": "borodus",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2103,7 +2103,7 @@
     {
         "word": "ret",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2120,7 +2120,7 @@
     {
         "word": "posupl",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2141,7 +2141,7 @@
     {
         "word": "amposupl",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2162,7 +2162,7 @@
     {
         "word": "ispisial",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2182,7 +2182,7 @@
     {
         "word": "brudet",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2200,7 +2200,7 @@
     {
         "word": "heñvel",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2217,7 +2217,7 @@
     {
         "word": "mignonel",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2235,7 +2235,7 @@
     {
         "word": "jentil",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2256,7 +2256,7 @@
     {
         "word": "farsus",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2277,7 +2277,7 @@
     {
         "word": "speredek",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2297,7 +2297,7 @@
     {
         "word": "seven",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2317,7 +2317,7 @@
     {
         "word": "dizereat",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2338,7 +2338,7 @@
     {
         "word": "leue",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2359,7 +2359,7 @@
     {
         "word": "onest",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2376,7 +2376,7 @@
     {
         "word": "trouzus",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {

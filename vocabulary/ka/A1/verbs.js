@@ -28,7 +28,7 @@
     {
         "word": "ქონა",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "👜",
         "subtext": "",
         "synonyms": [
@@ -57,7 +57,7 @@
     {
         "word": "გრძნობა",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🌡️",
         "subtext": "",
         "synonyms": [
@@ -85,7 +85,7 @@
     {
         "word": "მიცემა",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "subtext": "",
         "synonyms": [
@@ -115,7 +115,7 @@
     {
         "word": "აღება",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "👜",
         "subtext": "",
         "synonyms": [
@@ -145,7 +145,7 @@
     {
         "word": "მიღება",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📥",
         "subtext": "",
         "synonyms": [
@@ -200,7 +200,7 @@
     {
         "word": "გაკეთება",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "",
         "synonyms": [
@@ -228,7 +228,7 @@
     {
         "word": "კეთება",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛠️",
         "subtext": "",
         "synonyms": [
@@ -256,7 +256,7 @@
     {
         "word": "გამოყენება",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🛠️",
         "subtext": "",
         "synonyms": [
@@ -283,7 +283,7 @@
     {
         "word": "გახსნა",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "subtext": "გახსნა ანგარიში / გახსნა მაღაზია",
         "synonyms": [
@@ -310,7 +310,7 @@
     {
         "word": "დაკეტვა",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "subtext": "",
         "synonyms": [
@@ -339,7 +339,7 @@
     {
         "word": "დაწყება",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "▶️",
         "subtext": "",
         "synonyms": [
@@ -368,7 +368,7 @@
     {
         "word": "დამთავრება",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "",
         "synonyms": [
@@ -398,7 +398,7 @@
     {
         "word": "დახმარება",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "სთხოვო დახმარება",
         "synonyms": [
@@ -424,7 +424,7 @@
     {
         "word": "ცდა",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎯",
         "subtext": "",
         "synonyms": [
@@ -451,7 +451,7 @@
     {
         "word": "ჩვენება",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📽️",
         "subtext": "",
         "synonyms": [
@@ -478,7 +478,7 @@
     {
         "word": "პოვნა",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔍",
         "subtext": "",
         "synonyms": [
@@ -506,7 +506,7 @@
     {
         "word": "შენახვა",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "",
         "synonyms": [
@@ -533,7 +533,7 @@
     {
         "word": "დაკარგვა",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📉",
         "subtext": "",
         "synonyms": [
@@ -615,7 +615,7 @@
     {
         "word": "მოტანა",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🎁",
         "subtext": "",
         "synonyms": [
@@ -669,7 +669,7 @@
     {
         "word": "თხრობა",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "🗣️",
         "subtext": "",
         "synonyms": [
@@ -696,7 +696,7 @@
     {
         "word": "კითხვა",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❓",
         "subtext": "დასვა კითხვა",
         "synonyms": [
@@ -749,7 +749,7 @@
     {
         "word": "საუბარი",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "💬",
         "subtext": "",
         "synonyms": [
@@ -776,7 +776,7 @@
     {
         "word": "დარეკვა",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📞",
         "subtext": "",
         "synonyms": [
@@ -803,7 +803,7 @@
     {
         "word": "წერა",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "✍️",
         "subtext": "",
         "synonyms": [
@@ -833,7 +833,7 @@
     {
         "word": "კითხვა",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "",
         "synonyms": [
@@ -862,7 +862,7 @@
     {
         "word": "მოსმენა",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎧",
         "subtext": "",
         "synonyms": [
@@ -889,7 +889,7 @@
     {
         "word": "პასუხი",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📞",
         "subtext": "",
         "synonyms": [
@@ -942,7 +942,7 @@
     {
         "word": "სვლა",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "",
         "synonyms": [
@@ -970,7 +970,7 @@
     {
         "word": "მოსვლა",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "subtext": "",
         "synonyms": [
@@ -1000,7 +1000,7 @@
     {
         "word": "სიარული",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "",
         "synonyms": [
@@ -1027,7 +1027,7 @@
     {
         "word": "მართვა",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "subtext": "",
         "synonyms": [
@@ -1053,7 +1053,7 @@
     {
         "word": "ფრენა",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "",
         "synonyms": [
@@ -1080,7 +1080,7 @@
     {
         "word": "ჩამოსვლა",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "",
         "synonyms": [
@@ -1106,7 +1106,7 @@
     {
         "word": "წასვლა",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚪",
         "subtext": "სამსახურიდან წასვლა",
         "synonyms": [
@@ -1131,7 +1131,7 @@
     {
         "word": "გადასვლა",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "📦",
         "subtext": "",
         "synonyms": [
@@ -1157,7 +1157,7 @@
     {
         "word": "დაბრუნება",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🔙",
         "subtext": "",
         "synonyms": [
@@ -1209,7 +1209,7 @@
     {
         "word": "ჭამა",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "subtext": "",
         "synonyms": [
@@ -1239,7 +1239,7 @@
     {
         "word": "სმა",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "",
         "synonyms": [
@@ -1269,7 +1269,7 @@
     {
         "word": "ძილი",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "😴",
         "subtext": "კარგად ძილი / ცუდად ძილი",
         "opposite": "გაღვიძება",
@@ -1315,7 +1315,7 @@
     {
         "word": "დასუფთავება",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧹",
         "subtext": "",
         "synonyms": [
@@ -1341,7 +1341,7 @@
     {
         "word": "ტარება",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "subtext": "კოსტუმის ტარება / სათვალის ტარება",
         "form": "verb",
@@ -1363,7 +1363,7 @@
     {
         "word": "რეცხვა",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧼",
         "subtext": "",
         "synonyms": [
@@ -1390,7 +1390,7 @@
     {
         "word": "ყიდვა",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🛒",
         "subtext": "",
         "synonyms": [
@@ -1419,7 +1419,7 @@
     {
         "word": "გადახდა",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "subtext": "",
         "synonyms": [
@@ -1446,7 +1446,7 @@
     {
         "word": "ხარჯვა",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "subtext": "",
         "synonyms": [
@@ -1472,7 +1472,7 @@
     {
         "word": "დაზოგვა",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "subtext": "",
         "synonyms": [
@@ -1500,7 +1500,7 @@
     {
         "word": "მუშაობა",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "💼",
         "subtext": "",
         "synonyms": [
@@ -1527,7 +1527,7 @@
     {
         "word": "ცხოვრება",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "emoji": "🏠",
         "subtext": "",
         "synonyms": [
@@ -1557,7 +1557,7 @@
     {
         "word": "ფიქრი",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "💭",
         "subtext": "",
         "synonyms": [
@@ -1584,7 +1584,7 @@
     {
         "word": "ცოდნა",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "",
         "synonyms": [
@@ -1611,7 +1611,7 @@
     {
         "word": "ნდომა",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🙏",
         "subtext": "",
         "synonyms": [
@@ -1639,7 +1639,7 @@
     {
         "word": "საჭიროება",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "🆘",
         "subtext": "",
         "synonyms": [
@@ -1667,7 +1667,7 @@
     {
         "word": "მოწონება",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "👍",
         "subtext": "",
         "synonyms": [
@@ -1695,7 +1695,7 @@
     {
         "word": "ყვარება",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "❤️",
         "subtext": "",
         "synonyms": [
@@ -1722,7 +1722,7 @@
     {
         "word": "სძულება",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😡",
         "subtext": "",
         "synonyms": [
@@ -1749,7 +1749,7 @@
     {
         "word": "იმედოვნება",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🤞",
         "subtext": "",
         "synonyms": [
@@ -1776,7 +1776,7 @@
     {
         "word": "გახსენება",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "",
         "synonyms": [
@@ -1803,7 +1803,7 @@
     {
         "word": "დავიწყება",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🤔",
         "subtext": "",
         "synonyms": [
@@ -1829,7 +1829,7 @@
     {
         "word": "გაგება",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "💡",
         "subtext": "",
         "synonyms": [
@@ -1856,7 +1856,7 @@
     {
         "word": "გადაწყვეტა",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "",
         "synonyms": [
@@ -1882,7 +1882,7 @@
     {
         "word": "სიამოვნება",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "subtext": "",
         "synonyms": [
@@ -1909,7 +1909,7 @@
     {
         "word": "დანახვა",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👁️",
         "subtext": "",
         "synonyms": [
@@ -1936,7 +1936,7 @@
     {
         "word": "გაგონება",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👂",
         "subtext": "",
         "synonyms": [
@@ -1963,7 +1963,7 @@
     {
         "word": "გაღვიძება",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "",
@@ -1992,7 +1992,7 @@
     {
         "word": "ყურება",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "📺",
         "form": "verb",
         "subtext": "",
@@ -2019,7 +2019,7 @@
     {
         "word": "ყურება",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "👀",
         "subtext": "",
         "synonyms": [
@@ -2047,7 +2047,7 @@
     {
         "word": "თამაში",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎮",
         "subtext": "თამაში",
         "synonyms": [
@@ -2073,7 +2073,7 @@
     {
         "word": "სირბილი",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏃",
         "subtext": "",
         "synonyms": [
@@ -2100,7 +2100,7 @@
     {
         "word": "ჯდომა",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🪑",
         "subtext": "",
         "synonyms": [
@@ -2129,7 +2129,7 @@
     {
         "word": "დგომა",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🧍",
         "subtext": "",
         "synonyms": [
@@ -2158,7 +2158,7 @@
     {
         "word": "შეხვედრა",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -2185,7 +2185,7 @@
     {
         "word": "სწავლა",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📚",
         "subtext": "",
         "synonyms": [
@@ -2212,7 +2212,7 @@
     {
         "word": "შეცვლა",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "",
         "synonyms": [
@@ -2239,7 +2239,7 @@
     {
         "word": "გაჩერება",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛑",
         "subtext": "",
         "synonyms": [
@@ -2266,7 +2266,7 @@
     {
         "word": "დამატება",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
+        "theme": "numbers",
         "emoji": "➕",
         "subtext": "",
         "synonyms": [
@@ -2293,7 +2293,7 @@
     {
         "word": "მოგება",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏆",
         "subtext": "",
         "synonyms": [
@@ -2322,7 +2322,7 @@
     {
         "word": "ლოდინი",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "subtext": "",
         "synonyms": [
@@ -2349,7 +2349,7 @@
     {
         "word": "კვდომა",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "⚰️",
         "subtext": "",
         "synonyms": [
@@ -2377,7 +2377,7 @@
     {
         "word": "გაგზავნა",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2404,7 +2404,7 @@
     {
         "word": "დარჩენა",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏨",
         "subtext": "",
         "synonyms": [
@@ -2431,7 +2431,7 @@
     {
         "word": "ვარდნა",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "emoji": "🍂",
         "subtext": "",
         "synonyms": [
@@ -2459,7 +2459,7 @@
     {
         "word": "გავლა",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🏔️",
         "subtext": "",
         "synonyms": [
@@ -2486,7 +2486,7 @@
     {
         "word": "გაყიდვა",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "",
         "synonyms": [
@@ -2515,7 +2515,7 @@
     {
         "word": "წევა",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚜",
         "subtext": "",
         "synonyms": [
@@ -2543,7 +2543,7 @@
     {
         "word": "მიწოლა",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛒",
         "subtext": "",
         "synonyms": [
@@ -2571,7 +2571,7 @@
     {
         "word": "ტარება",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🎒",
         "subtext": "",
         "synonyms": [
@@ -2598,7 +2598,7 @@
     {
         "word": "გატეხვა",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "💔",
         "subtext": "",
         "synonyms": [
@@ -2625,7 +2625,7 @@
     {
         "word": "მიღება",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "📩",
         "subtext": "",
         "synonyms": [
@@ -2652,7 +2652,7 @@
     {
         "word": "დათანხმება",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "subtext": "",
         "synonyms": [
@@ -2704,7 +2704,7 @@
     {
         "word": "გაზიარება",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🍕",
         "subtext": "",
         "synonyms": [
@@ -2730,7 +2730,7 @@
     {
         "word": "ღიმილი",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "😊",
         "subtext": "დიდი ღიმილი",
         "synonyms": [
@@ -2757,7 +2757,7 @@
     {
         "word": "ტირილი",
         "level": "starter",
-        "theme": "surprise_interest_A1",
+        "theme": "emotions",
         "emoji": "😢",
         "subtext": "",
         "synonyms": [
@@ -2786,7 +2786,7 @@
     {
         "word": "ცეკვა",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "💃",
         "subtext": "",
         "synonyms": [
@@ -2812,7 +2812,7 @@
     {
         "word": "სიმღერა",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "🎤",
         "subtext": "იმღერო სიმღერა",
         "synonyms": [
@@ -2837,7 +2837,7 @@
     {
         "word": "ხტომა",
         "level": "starter",
-        "theme": "playing_watching_sport_A1",
+        "theme": "sports",
         "emoji": "🦘",
         "subtext": "",
         "synonyms": [
@@ -2864,7 +2864,7 @@
     {
         "word": "ცურვა",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏊",
         "subtext": "",
         "synonyms": [
@@ -2891,7 +2891,7 @@
     {
         "word": "სწავლა",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "",
         "synonyms": [
@@ -2917,7 +2917,7 @@
     {
         "word": "სწავლება",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "👨‍🏫",
         "subtext": "",
         "synonyms": [
@@ -2969,7 +2969,7 @@
     {
         "word": "ქირაობა",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏠",
         "subtext": "",
         "synonyms": [
@@ -2995,7 +2995,7 @@
     {
         "word": "ვარჯიში",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏋️",
         "form": "verb",
         "definitions": [
@@ -3021,7 +3021,7 @@
     {
         "word": "ღირებულება",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "verb",
         "definitions": [
@@ -3047,7 +3047,7 @@
     {
         "word": "დაპატიჟება",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -3091,7 +3091,7 @@
         "aspect": "action",
         "v2": "ადგა",
         "v3": "ამდაგარი",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -3117,7 +3117,7 @@
         "aspect": "action",
         "v2": "ისაუზმა",
         "v3": "ნასაუზმევი",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
@@ -3143,7 +3143,7 @@
         "aspect": "action",
         "v2": "დაბრუნდა",
         "v3": "დაბრუნებული",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
@@ -3169,7 +3169,7 @@
         "aspect": "action",
         "v2": null,
         "v3": "დაწოლილი",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -3195,7 +3195,7 @@
         "aspect": "action",
         "v2": "შეამოწმა",
         "v3": "შემოწმებული",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
@@ -3221,7 +3221,7 @@
         "aspect": "action",
         "v2": "უპასუხა",
         "v3": "გაცემული",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
@@ -3248,7 +3248,7 @@
         "aspect": "action",
         "v2": "წარადგინა",
         "v3": "წარდგენილი",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
@@ -3275,7 +3275,7 @@
         "aspect": "action",
         "v2": "დაესწრო",
         "v3": "დასწრებული",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
@@ -3302,7 +3302,7 @@
         "aspect": "action",
         "v2": "მართა",
         "v3": "მართული",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
@@ -3328,7 +3328,7 @@
         "aspect": "action",
         "v2": "გადაახდევინა",
         "v3": "გადახდევინებული",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
@@ -3354,7 +3354,7 @@
         "aspect": "stative",
         "v2": "შეძლო გადახდა",
         "v3": "წვდომილი",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
@@ -3380,7 +3380,7 @@
         "aspect": "stative",
         "v2": "ემართა",
         "v3": "მართებული",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
@@ -3406,7 +3406,7 @@
         "aspect": "action",
         "v2": "გამოიმუშავა",
         "v3": "გამომუშავებული",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
@@ -3433,7 +3433,7 @@
         "aspect": "action",
         "v2": "ესტუმრა",
         "v3": "ნასტუმრები",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
@@ -3459,7 +3459,7 @@
         "aspect": "action",
         "v2": "აღნიშნა",
         "v3": "აღნიშნული",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
@@ -3484,7 +3484,7 @@
         "aspect": "action",
         "v2": "გაუწია რეკომενდაცია",
         "v3": "რეკომენდებული",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
@@ -3511,7 +3511,7 @@
         "aspect": "both",
         "v2": "hurt",
         "v3": "ნატკენი",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
@@ -3537,7 +3537,7 @@
         "aspect": "action",
         "v2": "დაისვენა",
         "v3": "დასვენებული",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
@@ -3563,7 +3563,7 @@
         "aspect": "action",
         "v2": "გამოჯანმრთელდა",
         "v3": "გამოჯანმრთელებული",
-        "theme": "medical_appointments_A1",
+        "theme": "health_medicine",
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
@@ -3590,7 +3590,7 @@
         "aspect": "action",
         "v2": "დაჯავშნა",
         "v3": "დაჯავშნილი",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
@@ -3616,7 +3616,7 @@
         "aspect": "action",
         "v2": "ჩაალაგა",
         "v3": "ჩალაგებული",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
@@ -3643,7 +3643,7 @@
         "aspect": "action",
         "v2": "გააუქმა",
         "v3": "გაუქმებული",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
@@ -3679,7 +3679,7 @@
     {
         "word": "შეკვეთა",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "",
         "synonyms": [
@@ -3706,7 +3706,7 @@
     {
         "word": "ახსნა",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "💡",
         "subtext": "ახსნა პროცესი / ახსნა ნათლად",
         "synonyms": [
@@ -3782,7 +3782,7 @@
     {
         "word": "მოდუნება",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🧘",
         "subtext": "",
         "synonyms": [
@@ -3808,7 +3808,7 @@
     {
         "word": "შეკეთება",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🛠️",
         "subtext": "",
         "synonyms": [
@@ -3834,7 +3834,7 @@
     {
         "word": "მოხდენა",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "❔",
         "subtext": "",
         "synonyms": [
@@ -3861,7 +3861,7 @@
     {
         "word": "ჩენა",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "🎭",
         "subtext": "",
         "synonyms": [
@@ -3887,7 +3887,7 @@
     {
         "word": "ნიშნვნა",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "❔",
         "subtext": "",
         "synonyms": [
@@ -3913,7 +3913,7 @@
     {
         "word": "მიყოლა",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👣",
         "subtext": "",
         "synonyms": [
@@ -3939,7 +3939,7 @@
     {
         "word": "გაგრძელება",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "⏩",
         "subtext": "",
         "synonyms": [
@@ -3965,7 +3965,7 @@
     {
         "word": "ზრდა",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📈",
         "subtext": "",
         "synonyms": [
@@ -3991,7 +3991,7 @@
     {
         "word": "მოცვა",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "➕",
         "subtext": "",
         "synonyms": [
@@ -4017,7 +4017,7 @@
     {
         "word": "გახდომა",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✨",
         "subtext": "",
         "synonyms": [
@@ -4043,7 +4043,7 @@
     {
         "word": "კუთვნილება",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📎",
         "subtext": "გრძნობდე თავს თავის ადგილას",
         "synonyms": [
@@ -4068,7 +4068,7 @@
     {
         "word": "არჩევა",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👉",
         "subtext": "",
         "synonyms": [
@@ -4095,7 +4095,7 @@
     {
         "word": "შენება",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "",
         "synonyms": [

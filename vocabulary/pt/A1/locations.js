@@ -4,7 +4,7 @@
     {
         "word": "Cidade do México",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -20,7 +20,7 @@
     {
         "word": "Amesterdão",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -36,7 +36,7 @@
     {
         "word": "Viena",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -52,7 +52,7 @@
     {
         "word": "Praga",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -68,7 +68,7 @@
     {
         "word": "Barcelona",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -84,7 +84,7 @@
     {
         "word": "Veneza",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -100,7 +100,7 @@
     {
         "word": "Florença",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -116,7 +116,7 @@
     {
         "word": "Dublim",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -132,7 +132,7 @@
     {
         "word": "Edimburgo",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -148,7 +148,7 @@
     {
         "word": "Chicago",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -164,7 +164,7 @@
     {
         "word": "Los Angeles",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -180,7 +180,7 @@
     {
         "word": "São Francisco",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -196,7 +196,7 @@
     {
         "word": "Miami",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -212,7 +212,7 @@
     {
         "word": "Washington D.C.",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -228,7 +228,7 @@
     {
         "word": "Vancouver",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -244,7 +244,7 @@
     {
         "word": "Montreal",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -260,7 +260,7 @@
     {
         "word": "Melbourne",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -276,7 +276,7 @@
     {
         "word": "Tailândia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -292,7 +292,7 @@
     {
         "word": "Coreia do Sul",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -308,7 +308,7 @@
     {
         "word": "Suécia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -324,7 +324,7 @@
     {
         "word": "Noruega",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -340,7 +340,7 @@
     {
         "word": "Dinamarca",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -356,7 +356,7 @@
     {
         "word": "Finlândia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -372,7 +372,7 @@
     {
         "word": "Polónia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -388,7 +388,7 @@
     {
         "word": "Ucrânia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -404,7 +404,7 @@
     {
         "word": "Áustria",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -420,7 +420,7 @@
     {
         "word": "Suíça",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -436,7 +436,7 @@
     {
         "word": "Países Baixos",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -452,7 +452,7 @@
     {
         "word": "Bélgica",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -468,7 +468,7 @@
     {
         "word": "Irlanda",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -484,7 +484,7 @@
     {
         "word": "Londres",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -500,7 +500,7 @@
     {
         "word": "França",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -516,7 +516,7 @@
     {
         "word": "Itália",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -532,7 +532,7 @@
     {
         "word": "Rússia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -548,7 +548,7 @@
     {
         "word": "Grécia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -564,7 +564,7 @@
     {
         "word": "Inglaterra",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -580,7 +580,7 @@
     {
         "word": "Espanha",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -596,7 +596,7 @@
     {
         "word": "EUA",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -612,7 +612,7 @@
     {
         "word": "Paris",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -628,7 +628,7 @@
     {
         "word": "Roma",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -644,7 +644,7 @@
     {
         "word": "Moscou",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -660,7 +660,7 @@
     {
         "word": "Atenas",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -676,7 +676,7 @@
     {
         "word": "Nova Iorque",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -692,7 +692,7 @@
     {
         "word": "Berlim",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -708,7 +708,7 @@
     {
         "word": "Tóquio",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -724,7 +724,7 @@
     {
         "word": "Pequim",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -740,7 +740,7 @@
     {
         "word": "Sydney",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -756,7 +756,7 @@
     {
         "word": "Rio de Janeiro",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma famosa cidade no mundo.",
@@ -772,7 +772,7 @@
     {
         "word": "Egito",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -788,7 +788,7 @@
     {
         "word": "China",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -804,7 +804,7 @@
     {
         "word": "Japão",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -820,7 +820,7 @@
     {
         "word": "Alemanha",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -836,7 +836,7 @@
     {
         "word": "Canadá",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -852,7 +852,7 @@
     {
         "word": "Austrália",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -868,7 +868,7 @@
     {
         "word": "Brasil",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",
@@ -884,7 +884,7 @@
     {
         "word": "Índia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Uma país no mundo.",

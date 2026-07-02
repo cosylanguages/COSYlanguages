@@ -322,7 +322,7 @@
             "Խորհուրդ կտայի՞ք այն ձեր ընկերոջը:"
         ],
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "phrase",
         "transcription": "",

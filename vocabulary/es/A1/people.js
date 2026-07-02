@@ -4,7 +4,7 @@
     {
         "word": "Albert Einstein",
         "level": "starter",
-        "theme": "places",
+        "theme": "people",
         "emoji": "👨‍🔬",
         "definitions": [
             {
@@ -24,7 +24,7 @@
     {
         "word": "Taylor Swift",
         "level": "starter",
-        "theme": "places",
+        "theme": "people",
         "emoji": "🎤",
         "definitions": [
             {
@@ -44,7 +44,7 @@
     {
         "word": "Cristiano Ronaldo",
         "level": "starter",
-        "theme": "places",
+        "theme": "people",
         "emoji": "⚽",
         "definitions": [
             {
@@ -64,7 +64,7 @@
     {
         "word": "Lionel Messi",
         "level": "starter",
-        "theme": "places",
+        "theme": "people",
         "emoji": "⚽",
         "definitions": [
             {
@@ -84,7 +84,7 @@
     {
         "word": "Beyoncé",
         "level": "starter",
-        "theme": "places",
+        "theme": "people",
         "emoji": "🎤",
         "definitions": [
             {
@@ -104,7 +104,7 @@
     {
         "word": "Elon Musk",
         "level": "starter",
-        "theme": "places",
+        "theme": "people",
         "emoji": "🚀",
         "definitions": [
             {
@@ -124,7 +124,7 @@
     {
         "word": "Reina Isabel II",
         "level": "starter",
-        "theme": "places",
+        "theme": "people",
         "emoji": "👑",
         "definitions": [
             {
@@ -144,7 +144,7 @@
     {
         "word": "Marie Curie",
         "level": "starter",
-        "theme": "places",
+        "theme": "people",
         "emoji": "🧪",
         "definitions": [
             {
@@ -164,7 +164,7 @@
     {
         "word": "Leonardo da Vinci",
         "level": "starter",
-        "theme": "places",
+        "theme": "people",
         "emoji": "🎨",
         "definitions": [
             {
@@ -184,7 +184,7 @@
     {
         "word": "Nelson Mandela",
         "level": "starter",
-        "theme": "places",
+        "theme": "people",
         "emoji": "🇿🇦",
         "definitions": [
             {
@@ -204,7 +204,7 @@
     {
         "word": "William Shakespeare",
         "level": "starter",
-        "theme": "places",
+        "theme": "people",
         "emoji": "✍️",
         "definitions": [
             {

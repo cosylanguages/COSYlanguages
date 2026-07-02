@@ -3,7 +3,7 @@
     {
         "word": "σήμερα",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
         "form": "adverb",
         "subtext": "",
@@ -23,7 +23,7 @@
     {
         "word": "αύριο",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🔜",
         "form": "adverb",
         "subtext": "",
@@ -43,7 +43,7 @@
     {
         "word": "κάθε μέρα",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
         "form": "noun",
         "subtext": "δουλεύω κάθε μέρα",
@@ -60,7 +60,7 @@
     {
         "word": "αύριο",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌅",
         "form": "noun",
         "subtext": "θα σε δω αύριο",

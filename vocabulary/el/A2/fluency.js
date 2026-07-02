@@ -322,7 +322,7 @@
             "Θα το πρότεινες σε έναν φίλο;"
         ],
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "lang": "el",
         "form": "phrase",
         "transcription": "",

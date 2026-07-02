@@ -3,7 +3,7 @@
 {
         "word": "étudiant",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑‍🎓",
@@ -22,7 +22,7 @@
 {
         "word": "camarade de classe",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑‍🤝‍🧑",
@@ -60,7 +60,7 @@
 {
         "word": "langue",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "🗣️",
@@ -83,7 +83,7 @@
 {
         "word": "mot",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "le",
         "gender": "masculine",
         "emoji": "📝",
@@ -102,7 +102,7 @@
 {
         "word": "phrase",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "📝",
@@ -121,7 +121,7 @@
 {
         "word": "erreur",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "l'",
         "gender": "feminine",
         "emoji": "❌",
@@ -140,7 +140,7 @@
 {
         "word": "faute",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "⚠️",
@@ -159,7 +159,7 @@
 {
         "word": "mathématiques",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "school",
         "emoji": "🔢",
         "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "feminine",
@@ -179,7 +179,7 @@
 {
         "word": "histoire",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "school",
         "emoji": "📜",
         "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "feminine",
@@ -199,7 +199,7 @@
 {
         "word": "science",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "school",
         "emoji": "🧪",
         "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "feminine",
@@ -219,7 +219,7 @@
 {
         "word": "géographie",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "school",
         "emoji": "🌍",
         "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "feminine",
