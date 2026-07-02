@@ -4,7 +4,7 @@
     {
         "word": "მაღალი",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "მოკლე",
         "oppositeEmoji": "📏",
@@ -26,7 +26,7 @@
     {
         "word": "მოკლე",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "მაღალი",
         "oppositeEmoji": "🗼",
@@ -48,7 +48,7 @@
     {
         "word": "ახალგაზრდა",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "ძველი",
         "oppositeEmoji": "👴",
@@ -70,7 +70,7 @@
     {
         "word": "ძველი",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "ახალგაზრდა",
         "oppositeEmoji": "👶",
@@ -92,7 +92,7 @@
     {
         "word": "მზიანი",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "adjective",
         "definitions": [
@@ -113,7 +113,7 @@
     {
         "word": "წვიმიანი",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🌧️",
         "form": "adjective",
         "definitions": [
@@ -135,7 +135,7 @@
     {
         "word": "ცხელი",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
         "opposite": "ცივი",
@@ -158,7 +158,7 @@
     {
         "word": "ცივი",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "ცხელი",
@@ -181,7 +181,7 @@
     {
         "word": "ჩვეულებრივი",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "სპეციალური",
         "oppositeEmoji": "✨",
@@ -200,7 +200,7 @@
     {
         "word": "იაფი",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "form": "adjective",
         "opposite": "ძვირი",
@@ -224,7 +224,7 @@
     {
         "word": "ძვირი",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "💎",
         "form": "adjective",
         "opposite": "იაფი",
@@ -247,7 +247,7 @@
     {
         "word": "კარგი",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
         "opposite": "ცუდი",
@@ -271,7 +271,7 @@
     {
         "word": "ცუდი",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
         "opposite": "კარგი",
@@ -295,7 +295,7 @@
     {
         "word": "დიდი",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "🐘",
         "form": "adjective",
         "opposite": "პატარა",
@@ -318,7 +318,7 @@
     {
         "word": "პატარა",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "🐭",
         "form": "adjective",
         "opposite": "დიდი",
@@ -341,7 +341,7 @@
     {
         "word": "ადვილი",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "რთული",
@@ -365,7 +365,7 @@
     {
         "word": "რთული",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "ადვილი",
@@ -389,7 +389,7 @@
     {
         "word": "ბედნიერი",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "form": "adjective",
         "subtext": "ბედნიერი / ბედნიერი დღე",
@@ -411,7 +411,7 @@
     {
         "word": "დაღლილი",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😫",
         "form": "adjective",
         "subtext": "ძალიან დაღლილი",
@@ -433,7 +433,7 @@
     {
         "word": "სრული განაკვეთი",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
         "opposite": "ნახევარი განაკვეთი",
@@ -454,7 +454,7 @@
     {
         "word": "ნახევარი განაკვეთი",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
         "opposite": "სრული განაკვეთი",
@@ -475,7 +475,7 @@
     {
         "word": "სუფთა",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
         "opposite": "ჭუჭყიანი",
@@ -499,7 +499,7 @@
     {
         "word": "ჯანსაღი",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥗",
         "form": "adjective",
         "opposite": "არაჯანსაღი",
@@ -522,7 +522,7 @@
     {
         "word": "ავადმყოფი",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤒",
         "form": "adjective",
         "opposite": "ჯანმრთელი",
@@ -543,7 +543,7 @@
     {
         "word": "ონლაინ",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "ხაზგარეშე",
@@ -563,7 +563,7 @@
     {
         "word": "მარტო",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "ერთად",
@@ -583,7 +583,7 @@
     {
         "word": "მოდუნებული",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "დასტრესილი",
@@ -604,7 +604,7 @@
     {
         "word": "შეწუხებული",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😟",
         "form": "adjective",
         "opposite": "წყნარი",
@@ -625,7 +625,7 @@
     {
         "word": "დაკავებული",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏃",
         "form": "adjective",
         "subtext": "დაკავებული დღე",
@@ -647,7 +647,7 @@
     {
         "word": "სასარგებლო",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "უსარგებლო",
@@ -671,7 +671,7 @@
     {
         "word": "მნიშვნელოვანი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "❗",
         "form": "adjective",
         "subtext": "მნიშვნელოვანი შეხვედრა / ძალიან მნიშვნელოვანი",
@@ -692,7 +692,7 @@
     {
         "word": "წითელი",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟥",
         "form": "adjective",
         "subtext": "წითელი ღვინო / წითელი შუქი",
@@ -716,7 +716,7 @@
     {
         "word": "ლურჯი",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟦",
         "form": "adjective",
         "subtext": "ლურჯი ცა",
@@ -740,7 +740,7 @@
     {
         "word": "მწვანე",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟩",
         "form": "adjective",
         "subtext": "მწვანე სივრცე",
@@ -764,7 +764,7 @@
     {
         "word": "თეთრი",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "⬜",
         "form": "adjective",
         "subtext": "თეთრი ღვინო",
@@ -788,7 +788,7 @@
     {
         "word": "შავი",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "⬛",
         "form": "adjective",
         "subtext": "შავი ყავა",
@@ -812,7 +812,7 @@
     {
         "word": "ყვითელი",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟨",
         "form": "adjective",
         "subtext": "ყვითელი შუქი",
@@ -836,7 +836,7 @@
     {
         "word": "თავისუფალი",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "თავისუფალი დრო",
@@ -858,7 +858,7 @@
     {
         "word": "ღია",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
         "opposite": "დაკეტილი",
@@ -882,7 +882,7 @@
     {
         "word": "დაკეტილი",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
         "opposite": "ღია",
@@ -916,7 +916,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -934,7 +934,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -951,7 +951,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "უფრო გრძელი",
         "superlative": "ყველაზე გრძელი",
         "feminine": null,
@@ -971,7 +971,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -988,7 +988,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1006,7 +1006,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "უფრო სავსე",
         "superlative": "ყველაზე სავსე",
         "feminine": null,
@@ -1026,7 +1026,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "უფრო ცარიელი",
         "superlative": "ყველაზე ცარიელი",
         "feminine": null,
@@ -1046,7 +1046,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": null,
          "superlative": null
     },
@@ -1064,7 +1064,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": null,
          "superlative": null
     },
@@ -1081,7 +1081,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "უფრო სველი",
         "superlative": "ყველაზე სველი",
         "feminine": null,
@@ -1101,7 +1101,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "უფრო მშრალი",
         "superlative": "ყველაზე მშრალი",
         "feminine": null,
@@ -1111,7 +1111,7 @@
     {
         "word": "ჭუჭყიანი",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "form": "adjective",
         "subtext": "ჭუჭყიანი ხელები / ჭუჭყიანი ტანსაცმელი",
         "definitions": [
@@ -1142,7 +1142,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "უფრო მაგარი",
         "superlative": "ყველაზე მაგარი",
         "feminine": null,
@@ -1162,7 +1162,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "უფრო რბილი",
         "superlative": "ყველაზე რბილი",
         "feminine": null,
@@ -1183,7 +1183,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "უფრო მძიმე",
         "superlative": "ყველაზე მძიმე",
         "feminine": null,
@@ -1203,7 +1203,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1220,7 +1220,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": null,
          "superlative": null
     },
@@ -1237,7 +1237,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": null,
          "superlative": null
     },
@@ -1254,7 +1254,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": null,
          "superlative": null
     },
@@ -1271,7 +1271,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": null,
          "superlative": null
     },
@@ -1288,7 +1288,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1305,7 +1305,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1322,7 +1322,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1339,7 +1339,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "უფრო საშინელი",
         "superlative": "ყველაზე საშინელი",
         "feminine": null,
@@ -1359,7 +1359,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1376,7 +1376,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1393,7 +1393,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1411,7 +1411,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "უფრო მოწყენილი",
         "superlative": "ყველაზე მოწყენილი",
         "feminine": null,
@@ -1431,7 +1431,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "უფრო მშიერი",
         "superlative": "ყველაზე მშიერი",
         "feminine": null,
@@ -1452,7 +1452,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "უფრო გაბრაზებული",
         "superlative": "ყველაზე გაბრაზებული",
         "feminine": null,
@@ -1473,14 +1473,14 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": null,
          "superlative": null
     },
     {
         "word": "აღელვებული",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "subtext": "ძალიან აღელვებული",
         "definitions": [
@@ -1508,7 +1508,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": null,
          "superlative": null
     },
@@ -1526,7 +1526,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": null,
          "superlative": null
     },
@@ -1543,7 +1543,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
          "superlative": null
     },
@@ -1560,7 +1560,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "უფრო არასწორი",
         "superlative": "ყველაზე არასწორი",
         "feminine": null,
@@ -1580,7 +1580,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "უფრო ახალი",
         "superlative": "ყველაზე ახალი",
         "feminine": null,
@@ -1600,7 +1600,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "უფრო განსხვავებული",
         "superlative": "ყველაზე განსხვავებული",
         "feminine": null,
@@ -1620,7 +1620,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "უფრო იგივე",
         "superlative": "ყველაზე იგივე",
         "feminine": null,
@@ -1640,7 +1640,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "უფრო სწრაფი",
         "superlative": "ყველაზე სწრაფი",
         "feminine": null,
@@ -1660,7 +1660,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "უფრო ნელი",
         "superlative": "ყველაზე ნელი",
         "feminine": null,
@@ -1681,7 +1681,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "უფრო წყნარი",
         "superlative": "ყველაზე წყნარი",
         "feminine": null,
@@ -1701,7 +1701,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "უფრო ხმამაღალი",
         "superlative": "ყველაზე ხმამაღალი",
         "feminine": null,
@@ -1722,7 +1722,7 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "comparative": "უფრო უსაფრთხო",
         "superlative": "ყველაზე უსაფრთხო",
         "feminine": null,
@@ -1742,7 +1742,7 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "comparative": "უფრო სახიფათო",
         "superlative": "ყველაზე სახიფათო",
         "feminine": null,
@@ -1752,7 +1752,7 @@
     {
         "word": "უბედური",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1770,7 +1770,7 @@
     {
         "word": "ნერვიული",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1791,7 +1791,7 @@
     {
         "word": "დასტრესილი",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1809,7 +1809,7 @@
     {
         "word": "თავდაჯერებული",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1827,7 +1827,7 @@
     {
         "word": "ამაყი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1848,7 +1848,7 @@
     {
         "word": "შეშინებული",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1869,7 +1869,7 @@
     {
         "word": "გაკვირვებული",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1887,7 +1887,7 @@
     {
         "word": "იმედგაცრუებული",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1905,7 +1905,7 @@
     {
         "word": "ლამაზი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1925,7 +1925,7 @@
     {
         "word": "ლამაზი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1943,7 +1943,7 @@
     {
         "word": "ძლიერი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1963,7 +1963,7 @@
     {
         "word": "სუსტი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1983,7 +1983,7 @@
     {
         "word": "ფორმაში",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -2001,7 +2001,7 @@
     {
         "word": "შესანიშნავი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2018,7 +2018,7 @@
     {
         "word": "იდეალური",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2038,7 +2038,7 @@
     {
         "word": "უსარგებლო",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2058,7 +2058,7 @@
     {
         "word": "სწორი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2078,7 +2078,7 @@
     {
         "word": "საინტერესო",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2099,7 +2099,7 @@
     {
         "word": "მოსაწყენი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2119,7 +2119,7 @@
     {
         "word": "საჭირო",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2137,7 +2137,7 @@
     {
         "word": "შესაძლებელი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2158,7 +2158,7 @@
     {
         "word": "შეუძლებელი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2179,7 +2179,7 @@
     {
         "word": "სპეციალური",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2199,7 +2199,7 @@
     {
         "word": "პოპულარული",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2216,7 +2216,7 @@
     {
         "word": "მსგავსი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2233,7 +2233,7 @@
     {
         "word": "მეგობრული",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2250,7 +2250,7 @@
     {
         "word": "კეთილი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2271,7 +2271,7 @@
     {
         "word": "სასაცილო",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2291,7 +2291,7 @@
     {
         "word": "ჭკვიანი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2312,7 +2312,7 @@
     {
         "word": "ზრდილი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2332,7 +2332,7 @@
     {
         "word": "უხეში",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2352,7 +2352,7 @@
     {
         "word": "ზარმაცი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2373,7 +2373,7 @@
     {
         "word": "პატიოსანი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2390,7 +2390,7 @@
     {
         "word": "ხმაურიანი",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {

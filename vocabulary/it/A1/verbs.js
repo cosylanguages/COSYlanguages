@@ -45,7 +45,7 @@ const data = [
     {
         "word": "avere",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "👜",
         "subtext": "avere un lavoro / avere un problema",
         "synonyms": [
@@ -89,7 +89,7 @@ const data = [
     {
         "word": "sentire",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🌡️",
         "subtext": "",
         "synonyms": [
@@ -123,7 +123,7 @@ const data = [
     {
         "word": "dare",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "subtext": "dare consigli / dare soldi / dare un regalo",
         "opposite": "prendere",
@@ -164,7 +164,7 @@ const data = [
     {
         "word": "prendere",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "👜",
         "subtext": "prendere l autobus / prendere una medicina",
         "synonyms": [
@@ -196,7 +196,7 @@ const data = [
     {
         "word": "ottenere",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📥",
         "subtext": "ottenere un lavoro",
         "synonyms": [
@@ -250,7 +250,7 @@ const data = [
     {
         "word": "fare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "fare il caffè / fare un errore",
         "synonyms": [
@@ -293,7 +293,7 @@ const data = [
     {
         "word": "fare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛠️",
         "subtext": "fare il lavoro / fare la spesa / fare esercizio",
         "form": "verb",
@@ -332,7 +332,7 @@ const data = [
     {
         "word": "usare",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🛠️",
         "subtext": "usare un telefono / usare i mezzi pubblici / usare un computer",
         "form": "verb",
@@ -356,7 +356,7 @@ const data = [
     {
         "word": "aprire",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "subtext": "aprire una porta / aprire un conto / aprire un negozio",
         "opposite": "chiudere",
@@ -382,7 +382,7 @@ const data = [
     {
         "word": "chiudere",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "subtext": "chiudere una porta / chiudere alle sei / chiudere un conto",
         "opposite": "aprire",
@@ -408,7 +408,7 @@ const data = [
     {
         "word": "iniziare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "▶️",
         "subtext": "iniziare il lavoro / iniziare una riunione / iniziare un nuovo lavoro, iniziare a",
         "opposite": "finire",
@@ -434,7 +434,7 @@ const data = [
     {
         "word": "finire",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "finire il lavoro / finire un progetto / finire presto, finire di",
         "opposite": "iniziare",
@@ -460,7 +460,7 @@ const data = [
     {
         "word": "aiutare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "aiutare qualcuno / aiutare con",
         "synonyms": [
@@ -487,7 +487,7 @@ const data = [
     {
         "word": "provare",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎯",
         "subtext": "provare a fare / provare sodo / provare qualcosa",
         "form": "verb",
@@ -511,7 +511,7 @@ const data = [
     {
         "word": "mostrare",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📽️",
         "subtext": "mostrare a qualcuno / mostrare come / mostrare un documento",
         "form": "verb",
@@ -534,7 +534,7 @@ const data = [
     {
         "word": "trovare",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔍",
         "subtext": "trovare un lavoro / trovare difficile",
         "synonyms": [
@@ -560,7 +560,7 @@ const data = [
     {
         "word": "tenere",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "tenere un registro",
         "synonyms": [
@@ -599,7 +599,7 @@ const data = [
     {
         "word": "perdere",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📉",
         "subtext": "perdere un lavoro / perdere soldi / perdere peso",
         "opposite": "vincere",
@@ -676,7 +676,7 @@ const data = [
     {
         "word": "portare",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🎁",
         "subtext": "portare qualcuno / portare cibo / portare un documento",
         "form": "verb",
@@ -734,7 +734,7 @@ const data = [
     {
         "word": "dire",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "🗣️",
         "subtext": "dire la verità / dire a qualcuno",
         "synonyms": [
@@ -772,7 +772,7 @@ const data = [
     {
         "word": "chiedere",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❓",
         "subtext": "chiedere aiuto / chiedere di",
         "synonyms": [
@@ -826,7 +826,7 @@ const data = [
     {
         "word": "parlare",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "💬",
         "subtext": "parlare con qualcuno / parlare di / parlare apertamente",
         "form": "verb",
@@ -854,7 +854,7 @@ const data = [
     {
         "word": "chiamare",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📞",
         "subtext": "chiamare qualcuno",
         "synonyms": [
@@ -882,7 +882,7 @@ const data = [
     {
         "word": "scrivere",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "✍️",
         "subtext": "scrivere un email / scrivere un rapporto / scrivere una lettera",
         "opposite": "leggere",
@@ -907,7 +907,7 @@ const data = [
     {
         "word": "leggere",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "leggere un libro / leggere le notizie / leggere un contratto",
         "opposite": "scrivere",
@@ -932,7 +932,7 @@ const data = [
     {
         "word": "ascoltare",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎧",
         "subtext": "ascoltare musica / ascoltare attentamente / ascoltare un podcast",
         "form": "verb",
@@ -956,7 +956,7 @@ const data = [
     {
         "word": "rispondere",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📞",
         "subtext": "rispondere a una domanda / rispondere al telefono",
         "form": "verb",
@@ -1007,7 +1007,7 @@ const data = [
     {
         "word": "andare",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "andare al lavoro / andare a casa / andare a",
         "synonyms": [
@@ -1045,7 +1045,7 @@ const data = [
     {
         "word": "venire",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "subtext": "venire a casa / venire al lavoro, venire da",
         "synonyms": [
@@ -1090,7 +1090,7 @@ const data = [
         "word": "camminare",
         "image": "images/vocabulary/actions/to walk. to hike.png",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "camminare verso il lavoro / camminare verso casa / camminare",
         "form": "verb",
@@ -1114,7 +1114,7 @@ const data = [
     {
         "word": "guidare",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "subtext": "guidare verso il lavoro / guidare la macchina / guidare verso casa",
         "form": "verb",
@@ -1137,7 +1137,7 @@ const data = [
     {
         "word": "volare",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "volare verso una città / volare in business class",
         "form": "verb",
@@ -1160,7 +1160,7 @@ const data = [
     {
         "word": "arrivare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "arrivare al lavoro / arrivare tardi / arrivare in orario",
         "form": "verb",
@@ -1184,7 +1184,7 @@ const data = [
     {
         "word": "partire",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚪",
         "subtext": "partire presto",
         "synonyms": [
@@ -1211,7 +1211,7 @@ const data = [
     {
         "word": "muovere",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "📦",
         "subtext": "trasferirsi in una città",
         "synonyms": [
@@ -1239,7 +1239,7 @@ const data = [
     {
         "word": "tornare",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🔙",
         "subtext": "tornare a casa / tornare al lavoro",
         "form": "verb",
@@ -1288,7 +1288,7 @@ const data = [
         "word": "mangiare",
         "image": "images/vocabulary/actions/to eat.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "subtext": "",
         "synonyms": [
@@ -1324,7 +1324,7 @@ const data = [
         "word": "bere",
         "image": "images/vocabulary/actions/to drink.png",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "bere caffè / bere tè / bere acqua",
         "opposite": "mangiare",
@@ -1367,7 +1367,7 @@ const data = [
         "word": "dormire",
         "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "😴",
         "subtext": "dormire bene / dormire male / dormire otto ore",
         "opposite": "svegliarsi",
@@ -1423,7 +1423,7 @@ const data = [
         "word": "pulire",
         "image": "images/vocabulary/actions/to clean. to sweep.png",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧹",
         "subtext": "pulire l appartamento / pulire tutto / pulire la cucina",
         "form": "verb",
@@ -1447,7 +1447,7 @@ const data = [
     {
         "word": "indossare",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "subtext": "indossare un completo / indossare gli occhiali",
         "form": "verb",
@@ -1471,7 +1471,7 @@ const data = [
         "word": "lavare",
         "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧼",
         "subtext": "lavare i piatti / lavare i vestiti",
         "synonyms": [
@@ -1498,7 +1498,7 @@ const data = [
     {
         "word": "comprare",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🛒",
         "subtext": "comprare cibo / comprare un biglietto",
         "opposite": "vendere",
@@ -1523,7 +1523,7 @@ const data = [
     {
         "word": "pagare",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "subtext": "pagare una bolletta / pagare l affitto / pagare con carta",
         "form": "verb",
@@ -1546,7 +1546,7 @@ const data = [
     {
         "word": "spendere",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "subtext": "spendere soldi / spendere tempo",
         "form": "verb",
@@ -1569,7 +1569,7 @@ const data = [
     {
         "word": "risparmiare",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "subtext": "risparmiare soldi / risparmiare per una casa",
         "opposite": "spendere",
@@ -1595,7 +1595,7 @@ const data = [
     {
         "word": "lavorare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "💼",
         "subtext": "lavorare da casa / lavorare a tempo pieno",
         "form": "verb",
@@ -1619,7 +1619,7 @@ const data = [
     {
         "word": "vivere",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "emoji": "🏠",
         "subtext": "vivere in un appartamento / vivere da soli",
         "opposite": "morire",
@@ -1645,7 +1645,7 @@ const data = [
     {
         "word": "pensare",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "💭",
         "subtext": "pensare a / pensare di / pensare attentamente",
         "form": "verb",
@@ -1668,7 +1668,7 @@ const data = [
     {
         "word": "sapere",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "sapere la risposta / sapere come",
         "synonyms": [
@@ -1706,7 +1706,7 @@ const data = [
     {
         "word": "volere",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🙏",
         "subtext": "volere un lavoro / volere fare / volere di più",
         "form": "verb",
@@ -1742,7 +1742,7 @@ const data = [
     {
         "word": "avere bisogno di",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "🆘",
         "subtext": "",
         "synonyms": [
@@ -1772,7 +1772,7 @@ const data = [
         "word": "piacere",
         "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "👍",
         "subtext": "mi piace il lavoro / mi piace l idea",
         "synonyms": [
@@ -1800,7 +1800,7 @@ const data = [
     {
         "word": "amare",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "❤️",
         "subtext": "amare qualcuno / amare fare qualcosa / amare un posto",
         "form": "verb",
@@ -1824,7 +1824,7 @@ const data = [
     {
         "word": "odiare",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😡",
         "subtext": "odiare fare / odiare qualcuno / odiare le riunioni",
         "form": "verb",
@@ -1848,7 +1848,7 @@ const data = [
     {
         "word": "sperare",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🤞",
         "subtext": "sperare / sperare di fare",
         "synonyms": [
@@ -1875,7 +1875,7 @@ const data = [
     {
         "word": "ricordare",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "ricordare di fare / ricordare un nome",
         "form": "verb",
@@ -1899,7 +1899,7 @@ const data = [
     {
         "word": "dimenticare",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🤔",
         "subtext": "dimenticare un nome / dimenticare di fare",
         "form": "verb",
@@ -1922,7 +1922,7 @@ const data = [
     {
         "word": "capire",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "💡",
         "subtext": "capire un problema / capire qualcuno / capire chiaramente",
         "form": "verb",
@@ -1945,7 +1945,7 @@ const data = [
     {
         "word": "decidere",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "decidere di fare / decidere su",
         "synonyms": [
@@ -1972,7 +1972,7 @@ const data = [
     {
         "word": "godere",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "subtext": "godere di fare",
         "synonyms": [
@@ -2000,7 +2000,7 @@ const data = [
     {
         "word": "vedere",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👁️",
         "subtext": "vedere un dottore / vedere gli amici / vedere il problema",
         "form": "verb",
@@ -2028,7 +2028,7 @@ const data = [
     {
         "word": "udire",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👂",
         "subtext": "udire notizie / udire qualcuno / udire un suono",
         "form": "verb",
@@ -2056,7 +2056,7 @@ const data = [
         "word": "svegliarsi",
         "image": "images/vocabulary/actions/to wake up.png",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "svegliarsi presto / svegliarsi alle 7 / svegliarsi stanco",
@@ -2082,7 +2082,7 @@ const data = [
     {
         "word": "guardare",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "📺",
         "form": "verb",
         "subtext": "guardare la TV / guardare un film",
@@ -2106,7 +2106,7 @@ const data = [
     {
         "word": "guardare",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "👀",
         "subtext": "guardare",
         "synonyms": [
@@ -2134,7 +2134,7 @@ const data = [
     {
         "word": "giocare",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎮",
         "subtext": "giocare al sport / giocare a un gioco / giocare un ruolo",
         "form": "verb",
@@ -2158,7 +2158,7 @@ const data = [
     {
         "word": "correre",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏃",
         "subtext": "correre / correre una corsa",
         "synonyms": [
@@ -2184,7 +2184,7 @@ const data = [
     {
         "word": "sedersi",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🪑",
         "subtext": "sedersi a una scrivania / sedersi in riunione",
         "synonyms": [
@@ -2213,7 +2213,7 @@ const data = [
     {
         "word": "stare in piedi",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🧍",
         "subtext": "stare in piedi",
         "synonyms": [
@@ -2242,7 +2242,7 @@ const data = [
     {
         "word": "incontrare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -2265,7 +2265,7 @@ const data = [
     {
         "word": "imparare",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📚",
         "subtext": "imparare / imparare una lingua / imparare in fretta",
         "form": "verb",
@@ -2288,7 +2288,7 @@ const data = [
     {
         "word": "cambiare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "cambiare / cambiare idea / cambiare piano",
         "form": "verb",
@@ -2312,7 +2312,7 @@ const data = [
     {
         "word": "fermare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛑",
         "subtext": "fermare / fermare qualcuno",
         "synonyms": [
@@ -2339,7 +2339,7 @@ const data = [
     {
         "word": "aggiungere",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
+        "theme": "numbers",
         "emoji": "➕",
         "subtext": "aggiungere / aggiungere un commento / aggiungere zucchero",
         "form": "verb",
@@ -2363,7 +2363,7 @@ const data = [
     {
         "word": "vincere",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏆",
         "subtext": "vincere / vincere un premio / vincere un contratto",
         "opposite": "perdere",
@@ -2387,7 +2387,7 @@ const data = [
     {
         "word": "aspettare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "subtext": "aspettare / aspettare qualcuno / aspettare un momento",
         "form": "verb",
@@ -2411,7 +2411,7 @@ const data = [
     {
         "word": "morire",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "⚰️",
         "subtext": "morire / morire di",
         "synonyms": [
@@ -2439,7 +2439,7 @@ const data = [
     {
         "word": "inviare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2462,7 +2462,7 @@ const data = [
     {
         "word": "restare",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏨",
         "subtext": "restare / restare a casa / stare in un hotel",
         "form": "verb",
@@ -2486,7 +2486,7 @@ const data = [
     {
         "word": "cadere",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "emoji": "🍂",
         "subtext": "cadere",
         "synonyms": [
@@ -2513,7 +2513,7 @@ const data = [
     {
         "word": "passare",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🏔️",
         "subtext": "passare / passare un esame / passare il tempo",
         "form": "verb",
@@ -2537,7 +2537,7 @@ const data = [
     {
         "word": "vendere",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "vendere / vendere online / vendere al mercato",
         "opposite": "comprare",
@@ -2561,7 +2561,7 @@ const data = [
     {
         "word": "tirare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚜",
         "subtext": "tirare / tirare la porta",
         "synonyms": [
@@ -2589,7 +2589,7 @@ const data = [
     {
         "word": "spingere",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛒",
         "subtext": "spingere / spingere il pulsante / spingere il carrello",
         "opposite": "tirare",
@@ -2615,7 +2615,7 @@ const data = [
     {
         "word": "trasportare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🎒",
         "subtext": "trasportare / trasportare una borsa / trasportare note",
         "form": "verb",
@@ -2639,7 +2639,7 @@ const data = [
     {
         "word": "rompere",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "💔",
         "subtext": "rompere / rompere il vetro",
         "synonyms": [
@@ -2665,7 +2665,7 @@ const data = [
     {
         "word": "ricevere",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "📩",
         "subtext": "ricevere / ricevere un email / ricevere un pagamento",
         "form": "verb",
@@ -2690,7 +2690,7 @@ const data = [
         "word": "essere d accordo",
         "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "subtext": "essere d accordo / essere d accordo con qualcuno",
         "form": "verb",
@@ -2737,7 +2737,7 @@ const data = [
     {
         "word": "condividere",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🍕",
         "subtext": "condividere / condividere una stanza / condividere un idea",
         "form": "verb",
@@ -2761,7 +2761,7 @@ const data = [
     {
         "word": "sorridere",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "😊",
         "subtext": "sorridere / sorridere a qualcuno / sorridere ampiamente",
         "opposite": "piangere",
@@ -2787,7 +2787,7 @@ const data = [
     {
         "word": "piangere",
         "level": "starter",
-        "theme": "surprise_interest_A1",
+        "theme": "emotions",
         "emoji": "😢",
         "subtext": "piangere / piangere per aiuto / piangere per qualcosa",
         "opposite": "sorridere",
@@ -2813,7 +2813,7 @@ const data = [
     {
         "word": "ballare",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "💃",
         "subtext": "ballare / ballare a tempo di musica / andare a ballare",
         "form": "verb",
@@ -2837,7 +2837,7 @@ const data = [
     {
         "word": "cantare",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "🎤",
         "subtext": "cantare / cantare una canzone / cantare insieme",
         "form": "verb",
@@ -2860,7 +2860,7 @@ const data = [
     {
         "word": "saltare",
         "level": "starter",
-        "theme": "playing_watching_sport_A1",
+        "theme": "sports",
         "emoji": "🦘",
         "subtext": "saltare / saltare in alto / saltare oltre",
         "form": "verb",
@@ -2884,7 +2884,7 @@ const data = [
     {
         "word": "nuotare",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏊",
         "subtext": "nuotare / andare a nuotare / nuotare vasche",
         "form": "verb",
@@ -2907,7 +2907,7 @@ const data = [
     {
         "word": "studiare",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "studiare / studiare inglese / studiare per un esame",
         "form": "verb",
@@ -2931,7 +2931,7 @@ const data = [
     {
         "word": "insegnare",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "👨‍🏫",
         "subtext": "insegnare / insegnare a qualcuno / insegnare un argomento",
         "form": "verb",
@@ -2980,7 +2980,7 @@ const data = [
     {
         "word": "affittare",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏠",
         "subtext": "affittare / affittare un appartamento / affittare una stanza",
         "form": "verb",
@@ -3003,7 +3003,7 @@ const data = [
     {
         "word": "esercitarsi",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏋️",
         "form": "verb",
         "definitions": [
@@ -3027,7 +3027,7 @@ const data = [
     {
         "word": "costare",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "verb",
         "definitions": [
@@ -3049,7 +3049,7 @@ const data = [
     {
         "word": "invitare",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -3084,7 +3084,7 @@ const data = [
         "classification": "irregular",
         "aspect": "action",
         "v3": "alzato",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -3112,7 +3112,7 @@ const data = [
         "classification": "irregular",
         "aspect": "action",
         "v3": "fatto colazione",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
@@ -3134,7 +3134,7 @@ const data = [
         "classification": "irregular",
         "aspect": "action",
         "v3": "tornato",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
@@ -3157,7 +3157,7 @@ const data = [
         "classification": "irregular",
         "aspect": "action",
         "v3": "andato a letto",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -3179,7 +3179,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "controllato",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
@@ -3202,7 +3202,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "risposto",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
@@ -3225,7 +3225,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "presentato",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
@@ -3251,7 +3251,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "partecipato",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
@@ -3274,7 +3274,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "gestito",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
@@ -3300,7 +3300,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "addebitato",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
@@ -3323,7 +3323,7 @@ const data = [
         "classification": "regular",
         "aspect": "stative",
         "v3": "permesso",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
@@ -3347,7 +3347,7 @@ const data = [
         "classification": "irregular",
         "aspect": "stative",
         "v3": "dovuto",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
@@ -3381,7 +3381,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "guadagnato",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
@@ -3404,7 +3404,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "visitato",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
@@ -3427,7 +3427,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "festeggiato",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
@@ -3453,7 +3453,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "consigliato",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
@@ -3479,7 +3479,7 @@ const data = [
         "classification": "irregular",
         "aspect": "both",
         "v3": "fatto male",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
@@ -3501,7 +3501,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "riposato",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
@@ -3524,7 +3524,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "guarito",
-        "theme": "medical_appointments_A1",
+        "theme": "health_medicine",
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
@@ -3547,7 +3547,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "prenotato",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
@@ -3575,7 +3575,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "fatto le valigie",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
@@ -3598,7 +3598,7 @@ const data = [
         "classification": "regular",
         "aspect": "action",
         "v3": "annullato",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
@@ -3633,7 +3633,7 @@ const data = [
     {
         "word": "ordinare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "ordinare cibo / ordinare da bere / ordinare online",
         "form": "verb",
@@ -3656,7 +3656,7 @@ const data = [
     {
         "word": "spiegare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "💡",
         "subtext": "spiegare un processo / spiegare chiaramente / spiegare a qualcuno",
         "form": "verb",
@@ -3731,7 +3731,7 @@ const data = [
     {
         "word": "rilassarsi",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🧘",
         "subtext": "rilassarsi a casa / rilassarsi dopo il lavoro / rilassarsi in vacanza",
         "form": "verb",
@@ -3755,7 +3755,7 @@ const data = [
     {
         "word": "riparare",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🛠️",
         "subtext": "riparare qualcosa / far riparare",
         "synonyms": [
@@ -3781,7 +3781,7 @@ const data = [
     {
         "word": "succedere",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "❔",
         "subtext": "succedere a qualcuno",
         "synonyms": [
@@ -3808,7 +3808,7 @@ const data = [
     {
         "word": "sembrare",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "🎭",
         "subtext": "sembrare bene / sembrare preoccupato / sembrare felice",
         "form": "verb",
@@ -3831,7 +3831,7 @@ const data = [
     {
         "word": "significare",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "❔",
         "subtext": "significare qualcosa",
         "synonyms": [
@@ -3857,7 +3857,7 @@ const data = [
     {
         "word": "seguire",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👣",
         "subtext": "seguire le istruzioni / seguire qualcuno / seguire le notizie",
         "form": "verb",
@@ -3880,7 +3880,7 @@ const data = [
     {
         "word": "continuare",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "⏩",
         "subtext": "continuare a lavorare / continuare a fare / continuare un compito",
         "form": "verb",
@@ -3903,7 +3903,7 @@ const data = [
     {
         "word": "crescere",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📈",
         "subtext": "far crescere un azienda / crescere velocemente",
         "synonyms": [
@@ -3928,7 +3928,7 @@ const data = [
     {
         "word": "includere",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "➕",
         "subtext": "includere qualcosa / includere in",
         "synonyms": [
@@ -3954,7 +3954,7 @@ const data = [
     {
         "word": "diventare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✨",
         "subtext": "diventare manager / diventare popolare / diventare chiaro",
         "form": "verb",
@@ -3976,7 +3976,7 @@ const data = [
     {
         "word": "appartenere",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📎",
         "subtext": "appartenere a qualcuno / appartenere a",
         "synonyms": [
@@ -4002,7 +4002,7 @@ const data = [
     {
         "word": "scegliere",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👉",
         "subtext": "scegliere tra / scegliere di fare / scegliere con cura",
         "form": "verb",
@@ -4024,7 +4024,7 @@ const data = [
     {
         "word": "costruire",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "costruire una carriera / costruire un team / costruire fiducia",
         "form": "verb",
@@ -4046,7 +4046,7 @@ const data = [
     {
         "word": "cominciare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "▶️",
         "form": "verb",
         "definitions": [
@@ -4069,7 +4069,7 @@ const data = [
     {
         "word": "finire",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "form": "verb",
         "definitions": [
@@ -4091,7 +4091,7 @@ const data = [
     {
         "word": "spazzolare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🪥",
         "form": "verb",
         "definitions": [
@@ -4114,7 +4114,7 @@ const data = [
     {
         "word": "cavalcare",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚲",
         "form": "verb",
         "definitions": [
@@ -4137,7 +4137,7 @@ const data = [
     {
         "word": "sognare",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "💭",
         "form": "verb",
         "definitions": [
@@ -4160,7 +4160,7 @@ const data = [
     {
         "word": "credere",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "🙏",
         "form": "verb",
         "definitions": [
@@ -4183,7 +4183,7 @@ const data = [
     {
         "word": "preferire",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👉",
         "form": "verb",
         "definitions": [
@@ -4231,7 +4231,7 @@ const data = [
     {
         "word": "riparare",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🛠️",
         "form": "verb",
         "definitions": [
@@ -4254,7 +4254,7 @@ const data = [
     {
         "word": "creare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🎨",
         "form": "verb",
         "definitions": [
@@ -4277,7 +4277,7 @@ const data = [
     {
         "word": "notare",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👀",
         "form": "verb",
         "definitions": [
@@ -4300,7 +4300,7 @@ const data = [
     {
         "word": "migliorare",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📈",
         "form": "verb",
         "definitions": [
@@ -4346,7 +4346,7 @@ const data = [
     {
         "word": "organizzare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📂",
         "form": "verb",
         "definitions": [
@@ -4369,7 +4369,7 @@ const data = [
     {
         "word": "pianificare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📅",
         "form": "verb",
         "definitions": [
@@ -4392,7 +4392,7 @@ const data = [
     {
         "word": "prendere in prestito",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "📥",
         "form": "verb",
         "definitions": [
@@ -4414,7 +4414,7 @@ const data = [
     {
         "word": "prestare",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "📤",
         "form": "verb",
         "definitions": [
@@ -4437,7 +4437,7 @@ const data = [
     {
         "word": "odorare",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👃",
         "form": "verb",
         "definitions": [
@@ -4483,7 +4483,7 @@ const data = [
     {
         "word": "sdraiarsi",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "form": "verb",
         "definitions": [
@@ -4506,7 +4506,7 @@ const data = [
     {
         "word": "ridere",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😂",
         "form": "verb",
         "definitions": [
@@ -4528,7 +4528,7 @@ const data = [
     {
         "word": "preoccuparsi",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😟",
         "form": "verb",
         "definitions": [
@@ -4551,7 +4551,7 @@ const data = [
     {
         "word": "suonare",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👂",
         "form": "verb",
         "definitions": [
@@ -4667,7 +4667,7 @@ const data = [
     {
         "word": "calciare",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🦶",
         "form": "verb",
         "definitions": [
@@ -4690,7 +4690,7 @@ const data = [
     {
         "word": "lanciare",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "⚾",
         "form": "verb",
         "definitions": [
@@ -4713,7 +4713,7 @@ const data = [
     {
         "word": "rimbalzare",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏀",
         "form": "verb",
         "definitions": [
@@ -4758,7 +4758,7 @@ const data = [
     {
         "word": "saltellare",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🐇",
         "form": "verb",
         "definitions": [
@@ -4781,7 +4781,7 @@ const data = [
     {
         "word": "saltare",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏃",
         "form": "verb",
         "definitions": [
@@ -4896,7 +4896,7 @@ const data = [
     {
         "word": "tenere",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🤲",
         "form": "verb",
         "definitions": [
@@ -4930,7 +4930,7 @@ const data = [
     {
         "word": "guidare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👤",
         "form": "verb",
         "definitions": [
@@ -4953,7 +4953,7 @@ const data = [
     {
         "word": "combattere",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "⚔️",
         "form": "verb",
         "definitions": [
@@ -4975,7 +4975,7 @@ const data = [
     {
         "word": "nascondere",
         "level": "starter",
-        "theme": "toys_games_A1",
+        "theme": "social",
         "emoji": "🙈",
         "form": "verb",
         "definitions": [
@@ -4997,7 +4997,7 @@ const data = [
     {
         "word": "cercare",
         "level": "starter",
-        "theme": "toys_games_A1",
+        "theme": "social",
         "emoji": "🔍",
         "form": "verb",
         "definitions": [
@@ -5021,7 +5021,7 @@ const data = [
     {
         "word": "suonare",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🔔",
         "form": "verb",
         "definitions": [
@@ -5112,7 +5112,7 @@ const data = [
     {
         "word": "potere",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "💪",
         "subtext": "posso aiutare?",
         "form": "verb",
@@ -5147,7 +5147,7 @@ const data = [
     {
         "word": "conoscere",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "emoji": "🤝",
         "subtext": "conoscere qualcuno",
         "form": "verb",
@@ -5171,7 +5171,7 @@ const data = [
     {
         "word": "riuscire",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✅",
         "subtext": "riuscire a fare / non riesco a",
         "form": "verb",
@@ -5233,7 +5233,7 @@ const data = [
     {
         "word": "uscire",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚪",
         "subtext": "uscire di casa / uscire con gli amici",
         "form": "verb",
@@ -5268,7 +5268,7 @@ const data = [
     {
         "word": "dovere",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⚠️",
         "subtext": "dovere fare qualcosa",
         "form": "verb",
@@ -5303,7 +5303,7 @@ const data = [
     {
         "word": "entrare",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🚪",
         "subtext": "entrare in casa",
         "form": "verb",
@@ -5370,7 +5370,7 @@ const data = [
     {
         "word": "accendere",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "💡",
         "form": "verb",
         "transcription": "atˈtʃɛndere",
@@ -5394,7 +5394,7 @@ const data = [
     {
         "word": "spegnere",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🌑",
         "form": "verb",
         "transcription": "ˈspeɲɲere",
@@ -5442,7 +5442,7 @@ const data = [
     {
         "word": "tossire",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "😷",
         "form": "verb",
         "transcription": "tosˈsire",
@@ -5466,7 +5466,7 @@ const data = [
     {
         "word": "starnutire",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤧",
         "form": "verb",
         "transcription": "starnuˈtire",
@@ -5514,7 +5514,7 @@ const data = [
     {
         "word": "arrampicarsi",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
         "emoji": "🧗",
         "form": "verb",
         "transcription": "arrampiˈkarsi",
@@ -5540,7 +5540,7 @@ const data = [
         "word": "vestirsi",
         "image": "images/vocabulary/actions/to get dressed.png",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "👗",
         "form": "verb",
         "transcription": "vesˈtirsi",
@@ -5566,7 +5566,7 @@ const data = [
     {
         "word": "spogliarsi",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "👕",
         "form": "verb",
         "transcription": "spoʎˈʎarsi",
@@ -5592,7 +5592,7 @@ const data = [
     {
         "word": "riempire",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🫗",
         "form": "verb",
         "transcription": "riemˈpire",
@@ -5640,7 +5640,7 @@ const data = [
     {
         "word": "descrivere",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "💬",
         "form": "verb",
         "transcription": "deˈskrivere",
@@ -5663,7 +5663,7 @@ const data = [
     {
         "word": "annotare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📝",
         "form": "verb",
         "transcription": "annoˈtare",
@@ -5687,7 +5687,7 @@ const data = [
     {
         "word": "produrre",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🏭",
         "form": "verb",
         "transcription": "proˈdurre",
@@ -5709,7 +5709,7 @@ const data = [
     {
         "word": "progettare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📐",
         "form": "verb",
         "transcription": "prodʒetˈtare",
@@ -5732,7 +5732,7 @@ const data = [
     {
         "word": "funzionare",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "⚙️",
         "form": "verb",
         "transcription": "funtsjoˈnare",
@@ -5755,7 +5755,7 @@ const data = [
     {
         "word": "smettere",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛑",
         "form": "verb",
         "transcription": "ˈzmettere",
@@ -5778,7 +5778,7 @@ const data = [
     {
         "word": "completare",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✅",
         "form": "verb",
         "transcription": "kompleˈtare",

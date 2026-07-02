@@ -3,7 +3,7 @@
 {
         "word": "mattina",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌅",
@@ -26,7 +26,7 @@
 {
         "word": "sera",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌆",
@@ -52,7 +52,7 @@
 {
         "word": "giorno",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "il",
         "emoji": "☀️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -79,7 +79,7 @@
 {
         "word": "settimana",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "la",
         "emoji": "📅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -102,7 +102,7 @@
 {
         "word": "ogni giorno",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🔁",
         "form": "adverb",
         "definitions": [
@@ -121,7 +121,7 @@
 {
         "word": "fine settimana",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "il",
         "emoji": "🗓️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -144,7 +144,7 @@
 {
         "word": "pomeriggio",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
@@ -167,7 +167,7 @@
 {
         "word": "notte",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌙",
@@ -194,7 +194,7 @@
 {
         "word": "oggi",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "",
         "gender": "",
         "emoji": "📅",
@@ -216,7 +216,7 @@
 {
         "word": "domani",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "",
         "gender": "",
         "emoji": "⏭️",
@@ -238,7 +238,7 @@
 {
         "word": "tempo",
         "level": "starter",
-        "theme": "telling_time_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "⌚",
@@ -265,7 +265,7 @@
 {
         "word": "lunedì",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
@@ -288,7 +288,7 @@
 {
         "word": "martedì",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
@@ -311,7 +311,7 @@
 {
         "word": "mercoledì",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
@@ -334,7 +334,7 @@
 {
         "word": "giovedì",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
@@ -357,7 +357,7 @@
 {
         "word": "venerdì",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
@@ -380,7 +380,7 @@
 {
         "word": "sabato",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
@@ -403,7 +403,7 @@
 {
         "word": "domenica",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "📅",
@@ -426,7 +426,7 @@
 {
         "word": "gennaio",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "❄️",
@@ -449,7 +449,7 @@
 {
         "word": "febbraio",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "❄️",
@@ -472,7 +472,7 @@
 {
         "word": "marzo",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "🌱",
@@ -495,7 +495,7 @@
 {
         "word": "aprile",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🌧️",
@@ -518,7 +518,7 @@
 {
         "word": "maggio",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "🌸",
@@ -541,7 +541,7 @@
 {
         "word": "giugno",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
@@ -564,7 +564,7 @@
 {
         "word": "luglio",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
@@ -587,7 +587,7 @@
 {
         "word": "agosto",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏖️",
@@ -610,7 +610,7 @@
 {
         "word": "settembre",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍂",
@@ -633,7 +633,7 @@
 {
         "word": "ottobre",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎃",
@@ -656,7 +656,7 @@
 {
         "word": "novembre",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "🌫️",
@@ -679,7 +679,7 @@
 {
         "word": "dicembre",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎄",
@@ -812,7 +812,7 @@
 {
         "word": "ora",
         "level": "starter",
-        "theme": "telling_time_A1",
+        "theme": "time",
         "article": "l'",
         "gender": "feminine",
         "emoji": "⌚",
@@ -835,7 +835,7 @@
 {
         "word": "minuto",
         "level": "starter",
-        "theme": "telling_time_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "⏱️",
@@ -858,7 +858,7 @@
 {
         "word": "secondo",
         "level": "starter",
-        "theme": "telling_time_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "⏱️",
@@ -881,7 +881,7 @@
 {
         "word": "ieri",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "",
         "gender": "",
         "emoji": "🔙",
@@ -903,7 +903,7 @@
 {
         "word": "mezzanotte",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "🕛",
@@ -926,7 +926,7 @@
 {
         "word": "mezzogiorno",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "🕛",
@@ -949,7 +949,7 @@
 {
         "word": "sveglia",
         "level": "starter",
-        "theme": "telling_time_A1",
+        "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "⏰",
@@ -972,7 +972,7 @@
 {
         "word": "orario",
         "level": "starter",
-        "theme": "telling_time_A1",
+        "theme": "time",
         "article": "l'",
         "gender": "masculine",
         "emoji": "⌚",
@@ -1019,7 +1019,7 @@
 {
         "word": "mese",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",

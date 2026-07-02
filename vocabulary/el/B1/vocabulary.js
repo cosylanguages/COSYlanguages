@@ -1164,7 +1164,7 @@
         "word": "ντουλάπα",
         "lang": "el",
         "level": "intermediate",
-        "theme": "home_living",
+        "theme": "furniture",
         "form": "noun",
         "definitions": [
             {
@@ -1239,4 +1239,6 @@
         "emoji": "❓"
     }
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['el'] = [...(window.vocabularyData['el'] || []), ...data];
 })();

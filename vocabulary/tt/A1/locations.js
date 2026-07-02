@@ -4,67 +4,67 @@
     {
         "word": "Франция",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Италия",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Россия",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Греция",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Англия",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Испания",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "АКШ",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Париж",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Лондон",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Рим",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Мәскәү",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Афина",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Нью-Йорк",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     }
 ]
     const lang = "tt";

@@ -3,7 +3,7 @@
 {
         "word": "mère",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
@@ -31,7 +31,7 @@
 {
         "word": "père",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👨",
@@ -59,7 +59,7 @@
 {
         "word": "famille",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👪",
@@ -78,7 +78,7 @@
 {
         "word": "ami",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👫",
@@ -102,7 +102,7 @@
 {
         "word": "relation",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "article": "la",
         "emoji": "❤️",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -125,7 +125,7 @@
 {
         "word": "ensemble",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "👫",
         "form": "adverb",
         "opposite": "seul",
@@ -143,7 +143,7 @@
 {
         "word": "mari",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👨",
@@ -162,7 +162,7 @@
 {
         "word": "femme",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
@@ -185,7 +185,7 @@
 {
         "word": "enfant",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👶",
@@ -204,7 +204,7 @@
 {
         "word": "parent",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👪",
@@ -223,7 +223,7 @@
 {
         "word": "soeur",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
@@ -247,7 +247,7 @@
 {
         "word": "frère",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👦",
@@ -271,7 +271,7 @@
 {
         "word": "fils",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👦",
@@ -295,7 +295,7 @@
 {
         "word": "grand-père",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👴",
@@ -314,7 +314,7 @@
 {
         "word": "grand-mère",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👵",
@@ -333,7 +333,7 @@
 {
         "word": "oncle",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "people",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👨",
@@ -352,7 +352,7 @@
 {
         "word": "tante",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
@@ -371,7 +371,7 @@
 {
         "word": "cousin",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑",
@@ -390,7 +390,7 @@
 {
         "word": "bébé",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👶",
@@ -409,7 +409,7 @@
 {
         "word": "invité",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👤",

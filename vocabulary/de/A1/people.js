@@ -4,7 +4,7 @@
         {
             "word": "Mensch",
             "level": "starter",
-            "theme": "people_A1",
+            "theme": "people",
             "emoji": "👤",
             "form": "noun",
             "definitions": [
@@ -19,7 +19,7 @@
         {
             "word": "Frau",
             "level": "starter",
-            "theme": "people_A1",
+            "theme": "people",
             "emoji": "👩",
             "form": "noun",
             "definitions": [
@@ -38,7 +38,7 @@
         {
             "word": "Mann",
             "level": "starter",
-            "theme": "people_A1",
+            "theme": "people",
             "emoji": "👨",
             "form": "noun",
             "definitions": [

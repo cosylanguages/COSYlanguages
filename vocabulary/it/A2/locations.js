@@ -4,7 +4,7 @@
     {
         "word": "Venezia",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -20,7 +20,7 @@
     {
         "word": "Milano",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -36,7 +36,7 @@
     {
         "word": "Napoli",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -52,7 +52,7 @@
     {
         "word": "Germania",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -68,7 +68,7 @@
     {
         "word": "Canada",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -84,7 +84,7 @@
     {
         "word": "Messico",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -100,7 +100,7 @@
     {
         "word": "Egitto",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -116,7 +116,7 @@
     {
         "word": "Turchia",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -132,7 +132,7 @@
     {
         "word": "Portogallo",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -148,7 +148,7 @@
     {
         "word": "Armenia",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -164,7 +164,7 @@
     {
         "word": "Georgia",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -180,7 +180,7 @@
     {
         "word": "Berlino",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -196,7 +196,7 @@
     {
         "word": "Madrid",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -212,7 +212,7 @@
     {
         "word": "Toronto",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -228,7 +228,7 @@
     {
         "word": "Istanbul",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -244,7 +244,7 @@
     {
         "word": "Lisbona",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -260,7 +260,7 @@
     {
         "word": "Yerevan",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -276,7 +276,7 @@
     {
         "word": "Tbilisi",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",
@@ -292,7 +292,7 @@
     {
         "word": "Kazan",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "it",
         "form": "noun",
         "transcription": "",

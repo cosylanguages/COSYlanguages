@@ -3,7 +3,7 @@
 {
         "word": "violet",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "article": "le",
         "gender": "masculine",
         "emoji": "🟣",
@@ -22,7 +22,7 @@
 {
         "word": "cercle",
         "level": "starter",
-        "theme": "shapes_A1",
+        "theme": "describing",
         "emoji": "⭕",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -42,7 +42,7 @@
 {
         "word": "triangle",
         "level": "starter",
-        "theme": "shapes_A1",
+        "theme": "describing",
         "emoji": "🔺",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",

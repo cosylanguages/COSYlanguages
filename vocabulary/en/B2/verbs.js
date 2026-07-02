@@ -294,7 +294,7 @@ const data = [
         "v4": "arguing",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -321,7 +321,7 @@ const data = [
         "v4": "countering",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -348,7 +348,7 @@ const data = [
         "v4": "challenging",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -375,7 +375,7 @@ const data = [
         "v4": "refuting",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -402,7 +402,7 @@ const data = [
         "v4": "conceding",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -429,7 +429,7 @@ const data = [
         "v4": "justifying",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -456,7 +456,7 @@ const data = [
         "v4": "substantiating",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -483,7 +483,7 @@ const data = [
         "v4": "asserting",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -510,7 +510,7 @@ const data = [
         "v4": "maintaining",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -537,7 +537,7 @@ const data = [
         "v4": "disputing",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -1023,7 +1023,7 @@ const data = [
         "v4": "contending",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -1050,7 +1050,7 @@ const data = [
         "v4": "emphasising",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "sub_theme": null
     },
     {

@@ -1874,7 +1874,7 @@ const data = [
     {
         "word": "decorare",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🎨",
         "form": "verb",
         "group": "are",

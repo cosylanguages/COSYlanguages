@@ -40,7 +40,7 @@
     {
         "word": "ter",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "👜",
         "subtext": "ter um emprego / ter um problema / ter tempo",
         "synonyms": [
@@ -75,7 +75,7 @@
     {
         "word": "sentir",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🌡️",
         "subtext": "sentir-se cansado / sentir-se melhor / sentir-se doente / sentir-se estressado",
         "form": "verb",
@@ -97,7 +97,7 @@
     {
         "word": "dar",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "subtext": "dar conselhos / dar dinheiro / dar um presente / dar informações",
         "opposite": "tomar",
@@ -131,7 +131,7 @@
     {
         "word": "tomar",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "👜",
         "subtext": "tomar remédios",
         "synonyms": [
@@ -165,7 +165,7 @@
     {
         "word": "obter",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📥",
         "subtext": "",
         "synonyms": [
@@ -223,7 +223,7 @@
     {
         "word": "fazer",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "fazer café",
         "synonyms": [
@@ -255,7 +255,7 @@
     {
         "word": "fazer",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛠️",
         "subtext": "fazer o trabalho / fazer as compras / fazer exercício / não fazer nada",
         "form": "verb",
@@ -282,7 +282,7 @@
     {
         "word": "usar",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🛠️",
         "subtext": "usar um telefone / usar transportes públicos / usar um computador / usar o tempo",
         "form": "verb",
@@ -306,7 +306,7 @@
     {
         "word": "abrir",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "subtext": "abrir uma porta / abrir uma conta / abrir uma loja / abrir às nove",
         "opposite": "fechar",
@@ -332,7 +332,7 @@
     {
         "word": "fechar",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "subtext": "fechar uma porta / fechar às seis / fechar uma conta / fechar a reunião",
         "opposite": "abrir",
@@ -358,7 +358,7 @@
     {
         "word": "começar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "▶️",
         "subtext": "começar a trabalhar / começar uma reunião / começar um novo emprego",
         "opposite": "terminar",
@@ -384,7 +384,7 @@
     {
         "word": "terminar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "terminar o trabalho / terminar um projeto / terminar cedo / terminar tarde",
         "opposite": "começar",
@@ -410,7 +410,7 @@
     {
         "word": "ajudar",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "ajudar alguém / ajudar com uma tarefa",
         "synonyms": [
@@ -437,7 +437,7 @@
     {
         "word": "tentar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎯",
         "subtext": "tentar fazer / tentar algo novo",
         "synonyms": [
@@ -464,7 +464,7 @@
     {
         "word": "mostrar",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📽️",
         "subtext": "mostrar como / mostrar um documento / mostrar interesse",
         "form": "verb",
@@ -486,7 +486,7 @@
     {
         "word": "encontrar",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔍",
         "subtext": "encontrar um emprego / encontrar tempo",
         "synonyms": [
@@ -513,7 +513,7 @@
     {
         "word": "manter",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "manter-se calado / manter um registo / manter o contacto",
         "synonyms": [
@@ -539,7 +539,7 @@
     {
         "word": "perder",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📉",
         "subtext": "perder um emprego / perder dinheiro / perder peso / perder tempo",
         "opposite": "ganhar",
@@ -618,7 +618,7 @@
     {
         "word": "trazer",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🎁",
         "subtext": "trazer alguém / trazer comida / trazer um documento",
         "synonyms": [
@@ -667,7 +667,7 @@
     {
         "word": "contar",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "🗣️",
         "subtext": "contar uma história / contar a alguém sobre",
         "synonyms": [
@@ -693,7 +693,7 @@
     {
         "word": "perguntar",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❓",
         "subtext": "perguntar sobre / perguntar a alguém",
         "synonyms": [
@@ -747,7 +747,7 @@
     {
         "word": "falar",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "💬",
         "subtext": "falar com alguém / falar sobre / falar abertamente / falar durante muito tempo",
         "form": "verb",
@@ -774,7 +774,7 @@
     {
         "word": "ligar",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📞",
         "subtext": "ligar para alguém / ligar a dizer que está doente",
         "synonyms": [
@@ -801,7 +801,7 @@
     {
         "word": "escrever",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "✍️",
         "subtext": "escrever um e-mail / escrever um relatório / escrever uma carta",
         "synonyms": [
@@ -829,7 +829,7 @@
     {
         "word": "ler",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "ler um livro / ler as notícias / ler um contrato / ler com atenção",
         "opposite": "escrever",
@@ -854,7 +854,7 @@
     {
         "word": "ouvir",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎧",
         "subtext": "ouvir música / ouvir com atenção / ouvir um podcast",
         "form": "verb",
@@ -882,7 +882,7 @@
     {
         "word": "responder",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📞",
         "subtext": "responder a uma pergunta / responder a um e-mail",
         "synonyms": [
@@ -933,7 +933,7 @@
     {
         "word": "ir",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "ir para o trabalho / ir para casa / ir às compras",
         "synonyms": [
@@ -964,7 +964,7 @@
     {
         "word": "vir",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "subtext": "vir para casa / vir para o trabalho / vir aqui",
         "synonyms": [
@@ -996,7 +996,7 @@
     {
         "word": "caminhar",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "caminhar para o trabalho / caminhar para casa / caminhar devagar / caminhar todos os dias",
         "form": "verb",
@@ -1020,7 +1020,7 @@
     {
         "word": "conduzir",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "subtext": "conduzir para o trabalho / conduzir um carro / conduzir para casa / conduzir com cuidado",
         "form": "verb",
@@ -1043,7 +1043,7 @@
     {
         "word": "voar",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "voar para uma cidade / voar em classe executiva / voar em classe económica",
         "form": "verb",
@@ -1066,7 +1066,7 @@
     {
         "word": "chegar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "chegar ao trabalho / chegar tarde / chegar a tempo / chegar a casa",
         "form": "verb",
@@ -1089,7 +1089,7 @@
     {
         "word": "partir",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚪",
         "subtext": "",
         "synonyms": [
@@ -1117,7 +1117,7 @@
     {
         "word": "mover",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "📦",
         "subtext": "mudar-se para um novo lugar",
         "synonyms": [
@@ -1145,7 +1145,7 @@
     {
         "word": "voltar",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🔙",
         "subtext": "voltar a casa / voltar ao trabalho / voltar de",
         "synonyms": [
@@ -1195,7 +1195,7 @@
     {
         "word": "comer",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "subtext": "comer fora",
         "synonyms": [
@@ -1229,7 +1229,7 @@
     {
         "word": "beber",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "beber café / beber chá / beber água / beber cerveja",
         "opposite": "comer",
@@ -1258,7 +1258,7 @@
     {
         "word": "dormir",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "😴",
         "subtext": "dormir bem / dormir mal / dormir oito horas / dormir até tarde",
         "opposite": "acordar",
@@ -1310,7 +1310,7 @@
     {
         "word": "limpar",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧹",
         "subtext": "limpar o apartamento / limpar a cozinha / limpar regularmente",
         "synonyms": [
@@ -1336,7 +1336,7 @@
     {
         "word": "vestir",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "subtext": "vestir um fato / vestir roupa informal",
         "synonyms": [
@@ -1362,7 +1362,7 @@
     {
         "word": "lavar",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧼",
         "subtext": "lavar a louça / lavar a roupa / lavar as mãos",
         "form": "verb",
@@ -1386,7 +1386,7 @@
     {
         "word": "comprar",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🛒",
         "subtext": "comprar comida / comprar um bilhete / comprar on-line / comprar uma casa",
         "opposite": "vender",
@@ -1411,7 +1411,7 @@
     {
         "word": "pagar",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "subtext": "pagar uma conta / pagar a renda / pagar com cartão / pagar em dinheiro",
         "form": "verb",
@@ -1433,7 +1433,7 @@
     {
         "word": "gastar",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "subtext": "gastar dinheiro / gastar em comida / gastar na renda",
         "synonyms": [
@@ -1458,7 +1458,7 @@
     {
         "word": "poupar",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "subtext": "poupar dinheiro / poupar para umas férias / poupar para uma casa",
         "opposite": "gastar",
@@ -1483,7 +1483,7 @@
     {
         "word": "trabalhar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "💼",
         "subtext": "trabalhar a partir de casa / trabalhar a tempo inteiro / trabalhar muito / trabalhar até tarde",
         "form": "verb",
@@ -1506,7 +1506,7 @@
     {
         "word": "viver",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "emoji": "🏠",
         "subtext": "viver num apartamento / viver sozinho / viver com alguém / viver no estrangeiro",
         "opposite": "morrer",
@@ -1532,7 +1532,7 @@
     {
         "word": "pensar",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "💭",
         "subtext": "pensar sobre / pensar em / pensar que é / pensar com atenção",
         "form": "verb",
@@ -1555,7 +1555,7 @@
     {
         "word": "saber",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "saber a resposta / saber como",
         "synonyms": [
@@ -1583,7 +1583,7 @@
     {
         "word": "querer",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🙏",
         "subtext": "querer um emprego / querer sair / querer mais dinheiro / querer ajuda",
         "form": "verb",
@@ -1608,7 +1608,7 @@
     {
         "word": "precisar",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "🆘",
         "subtext": "precisar de ajuda / precisar de tempo / precisar de dinheiro / precisar de descansar",
         "form": "verb",
@@ -1633,7 +1633,7 @@
     {
         "word": "gostar",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "👍",
         "subtext": "gostar do trabalho / gostar de viajar / gostar de alguém / gostar da ideia",
         "form": "verb",
@@ -1658,7 +1658,7 @@
     {
         "word": "amar",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "❤️",
         "subtext": "amar alguém / amar fazer / amar um lugar / amar a ideia",
         "form": "verb",
@@ -1682,7 +1682,7 @@
     {
         "word": "odiar",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😡",
         "subtext": "odiar fazer / odiar alguém / odiar reuniões / odiar o trajecto para o trabalho",
         "form": "verb",
@@ -1706,7 +1706,7 @@
     {
         "word": "esperar",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🤞",
         "subtext": "esperar / esperar fazer / esperar que",
         "synonyms": [
@@ -1733,7 +1733,7 @@
     {
         "word": "lembrar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "lembrar-se de fazer / lembrar-se de um nome / lembrar-se com clareza",
         "form": "verb",
@@ -1757,7 +1757,7 @@
     {
         "word": "esquecer",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🤔",
         "subtext": "esquecer um nome / esquecer-se de fazer / esquecer-se de / esquecer completamente",
         "form": "verb",
@@ -1780,7 +1780,7 @@
     {
         "word": "entender",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "💡",
         "subtext": "entender um problema / entender alguém / entender com clareza",
         "form": "verb",
@@ -1803,7 +1803,7 @@
     {
         "word": "decidir",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "decidir fazer / decidir sobre / difícil de decidir",
         "synonyms": [
@@ -1830,7 +1830,7 @@
     {
         "word": "desfrutar",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "subtext": "desfrutar de fazer / desfrutar de uma refeição / desfrutar do seu trabalho / desfrutar da vida",
         "form": "verb",
@@ -1853,7 +1853,7 @@
     {
         "word": "ver",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👁️",
         "subtext": "ver um médico / ver amigos / ver o problema / ver com clareza",
         "form": "verb",
@@ -1880,7 +1880,7 @@
     {
         "word": "ouvir",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👂",
         "subtext": "ouvir notícias / ter notícias de alguém / ouvir um som / ouvir com clareza",
         "form": "verb",
@@ -1907,7 +1907,7 @@
     {
         "word": "acordar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "acordar cedo / acordar tarde / acordar cansado",
@@ -1931,7 +1931,7 @@
     {
         "word": "assistir",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "📺",
         "form": "verb",
         "subtext": "",
@@ -1960,7 +1960,7 @@
     {
         "word": "olhar",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "👀",
         "subtext": "olhar para",
         "synonyms": [
@@ -1989,7 +1989,7 @@
     {
         "word": "jogar",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎮",
         "subtext": "jogar um jogo",
         "synonyms": [
@@ -2017,7 +2017,7 @@
     {
         "word": "correr",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏃",
         "subtext": "correr uma corrida",
         "synonyms": [
@@ -2045,7 +2045,7 @@
     {
         "word": "sentar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🪑",
         "subtext": "sentar-se / sentar-se a uma secretária / sentar-se em silêncio",
         "synonyms": [
@@ -2076,7 +2076,7 @@
     {
         "word": "estar de pé",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🧍",
         "subtext": "",
         "synonyms": [
@@ -2106,7 +2106,7 @@
     {
         "word": "conhecer",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -2133,7 +2133,7 @@
     {
         "word": "aprender",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📚",
         "subtext": "aprender uma língua / aprender uma competência / aprender com / aprender como",
         "form": "verb",
@@ -2155,7 +2155,7 @@
     {
         "word": "mudar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "mudar de emprego / mudar de ideias / mudar o plano / mudar algo",
         "form": "verb",
@@ -2178,7 +2178,7 @@
     {
         "word": "parar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛑",
         "subtext": "parar de fazer / parar de trabalhar / parar um hábito / parar alguém",
         "form": "verb",
@@ -2201,7 +2201,7 @@
     {
         "word": "adicionar",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
+        "theme": "numbers",
         "emoji": "➕",
         "subtext": "adicionar açúcar / adicionar a / adicionar um comentário",
         "synonyms": [
@@ -2228,7 +2228,7 @@
     {
         "word": "ganhar",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏆",
         "subtext": "ganhar um jogo / ganhar um prémio / ganhar um galardão / ganhar um contrato",
         "opposite": "perder",
@@ -2252,7 +2252,7 @@
     {
         "word": "esperar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "subtext": "esperar por alguém / esperar numa fila / esperar um momento",
         "form": "verb",
@@ -2275,7 +2275,7 @@
     {
         "word": "morrer",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "⚰️",
         "subtext": "morrer de / morrer por / morrer de...",
         "synonyms": [
@@ -2303,7 +2303,7 @@
     {
         "word": "enviar",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2325,7 +2325,7 @@
     {
         "word": "ficar",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏨",
         "subtext": "ficar em casa / ficar num hotel / ficar acordado até tarde / ficar com alguém",
         "form": "verb",
@@ -2349,7 +2349,7 @@
     {
         "word": "cair",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "emoji": "🍂",
         "subtext": "cair / cair de",
         "synonyms": [
@@ -2376,7 +2376,7 @@
     {
         "word": "passar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🏔️",
         "subtext": "passar num exame / passar a bola / passar o tempo / passar o açúcar",
         "form": "verb",
@@ -2400,7 +2400,7 @@
     {
         "word": "vender",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "vender produtos / vender on-line / vender no mercado",
         "synonyms": [
@@ -2427,7 +2427,7 @@
     {
         "word": "puxar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚜",
         "subtext": "puxar a porta / puxar algo",
         "synonyms": [
@@ -2456,7 +2456,7 @@
     {
         "word": "empurrar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛒",
         "subtext": "empurrar um carrinho",
         "synonyms": [
@@ -2487,7 +2487,7 @@
     {
         "word": "levar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🎒",
         "subtext": "levar uma mala / levar notas",
         "synonyms": [
@@ -2514,7 +2514,7 @@
     {
         "word": "quebrar",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "💔",
         "subtext": "",
         "synonyms": [
@@ -2543,7 +2543,7 @@
     {
         "word": "receber",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "📩",
         "subtext": "receber um e-mail / receber um presente / receber um pagamento / receber notícias",
         "form": "verb",
@@ -2567,7 +2567,7 @@
     {
         "word": "concordar",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "subtext": "concordar com alguém / concordar em fazer",
         "synonyms": [
@@ -2623,7 +2623,7 @@
     {
         "word": "partilhar",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🍕",
         "subtext": "partilhar um quarto / partilhar informações / partilhar uma ideia / partilhar com",
         "form": "verb",
@@ -2647,7 +2647,7 @@
     {
         "word": "sorrir",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "😊",
         "subtext": "sorrir para alguém / sorrir abertamente",
         "synonyms": [
@@ -2676,7 +2676,7 @@
     {
         "word": "chorar",
         "level": "starter",
-        "theme": "surprise_interest_A1",
+        "theme": "emotions",
         "emoji": "😢",
         "subtext": "começar a chorar / chorar por algo",
         "synonyms": [
@@ -2706,7 +2706,7 @@
     {
         "word": "dançar",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "💃",
         "subtext": "dançar ao som da música / ir dançar / dançar juntos",
         "synonyms": [
@@ -2733,7 +2733,7 @@
     {
         "word": "cantar",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "🎤",
         "subtext": "cantar uma canção / acompanhar a cantar / cantar bem",
         "synonyms": [
@@ -2759,7 +2759,7 @@
     {
         "word": "saltar",
         "level": "starter",
-        "theme": "playing_watching_sport_A1",
+        "theme": "sports",
         "emoji": "🦘",
         "subtext": "saltar alto / saltar por cima / saltar / saltar para dentro",
         "form": "verb",
@@ -2783,7 +2783,7 @@
     {
         "word": "nadar",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏊",
         "subtext": "ir nadar / nadar bem",
         "synonyms": [
@@ -2810,7 +2810,7 @@
     {
         "word": "estudar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "estudar inglês / estudar para um exame / estudar muito",
         "synonyms": [
@@ -2836,7 +2836,7 @@
     {
         "word": "ensinar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "👨‍🏫",
         "subtext": "ensinar alguém / ensinar uma matéria / ensinar como",
         "synonyms": [
@@ -2889,7 +2889,7 @@
     {
         "word": "alugar",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏠",
         "subtext": "alugar um apartamento / alugar uma propriedade / alugar um quarto",
         "form": "verb",
@@ -2912,7 +2912,7 @@
     {
         "word": "exercitar",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏋️",
         "form": "verb",
         "definitions": [
@@ -2935,7 +2935,7 @@
     {
         "word": "custar",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "verb",
         "definitions": [
@@ -2957,7 +2957,7 @@
     {
         "word": "convidar",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2992,7 +2992,7 @@
         "aspect": "action",
         "v2": "levantei-me",
         "v3": "levantado",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -3018,7 +3018,7 @@
         "aspect": "action",
         "v2": "tomei o pequeno-almoço",
         "v3": "tomado",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
@@ -3040,7 +3040,7 @@
         "aspect": "action",
         "v2": "voltei",
         "v3": "voltado",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
@@ -3062,7 +3062,7 @@
         "aspect": "action",
         "v2": "deitei-me",
         "v3": "deitado",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -3088,7 +3088,7 @@
         "aspect": "action",
         "v2": "verifiquei",
         "v3": "verificado",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
@@ -3111,7 +3111,7 @@
         "aspect": "action",
         "v2": "respondi",
         "v3": "respondido",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
@@ -3134,7 +3134,7 @@
         "aspect": "action",
         "v2": "apresentei",
         "v3": "apresentado",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
@@ -3160,7 +3160,7 @@
         "aspect": "action",
         "v2": "assisti",
         "v3": "assistido",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
@@ -3183,7 +3183,7 @@
         "aspect": "action",
         "v2": "geri",
         "v3": "gerido",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
@@ -3206,7 +3206,7 @@
         "aspect": "action",
         "v2": "cobrei",
         "v3": "cobrado",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
@@ -3232,7 +3232,7 @@
         "aspect": "stative",
         "v2": "tive meios para",
         "v3": "tido",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
@@ -3255,7 +3255,7 @@
         "aspect": "stative",
         "v2": "devi",
         "v3": "devido",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
@@ -3278,7 +3278,7 @@
         "aspect": "action",
         "v2": "ganhei",
         "v3": "ganhado",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
@@ -3301,7 +3301,7 @@
         "aspect": "action",
         "v2": "visitei",
         "v3": "visitado",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
@@ -3324,7 +3324,7 @@
         "aspect": "action",
         "v2": "celebrei",
         "v3": "celebrado",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
@@ -3347,7 +3347,7 @@
         "aspect": "action",
         "v2": "recomendei",
         "v3": "recomendado",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
@@ -3373,7 +3373,7 @@
         "aspect": "both",
         "v2": "magoei",
         "v3": "magoado",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
@@ -3398,7 +3398,7 @@
         "aspect": "action",
         "v2": "descansei",
         "v3": "descansado",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
@@ -3421,7 +3421,7 @@
         "aspect": "action",
         "v2": "recuperei",
         "v3": "recuperado",
-        "theme": "medical_appointments_A1",
+        "theme": "health_medicine",
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
@@ -3444,7 +3444,7 @@
         "aspect": "action",
         "v2": "reservei",
         "v3": "reservado",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
@@ -3471,7 +3471,7 @@
         "aspect": "action",
         "v2": "fiz as malas",
         "v3": "feito",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
@@ -3494,7 +3494,7 @@
         "aspect": "action",
         "v2": "cancelai",
         "v3": "cancelado",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
@@ -3531,7 +3531,7 @@
     {
         "word": "encomendar",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "encomendar comida / encomendar on-line / encomendar material",
         "synonyms": [
@@ -3557,7 +3557,7 @@
     {
         "word": "explicar",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "💡",
         "subtext": "explicar um processo / explicar com clareza / explicar a alguém",
         "form": "verb",
@@ -3630,7 +3630,7 @@
     {
         "word": "relaxar",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🧘",
         "subtext": "relaxar em casa / relaxar após o trabalho / relaxar nas férias",
         "form": "verb",
@@ -3653,7 +3653,7 @@
     {
         "word": "reparar",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🛠️",
         "subtext": "reparar algo / mandar reparar",
         "synonyms": [
@@ -3679,7 +3679,7 @@
     {
         "word": "acontecer",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "❔",
         "subtext": "acontecer a alguém / acontecer novamente",
         "synonyms": [
@@ -3706,7 +3706,7 @@
     {
         "word": "parecer",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "🎭",
         "subtext": "parecer bem / parecer preocupado / parecer feliz / parecer-se com",
         "form": "verb",
@@ -3729,7 +3729,7 @@
     {
         "word": "significar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "❔",
         "subtext": "significar algo / não foi por mal",
         "synonyms": [
@@ -3755,7 +3755,7 @@
     {
         "word": "seguir",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👣",
         "subtext": "seguir instruções / seguir alguém",
         "synonyms": [
@@ -3782,7 +3782,7 @@
     {
         "word": "continuar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "⏩",
         "subtext": "continuar a trabalhar / continuar a fazer / continuar com / continuar uma tarefa",
         "form": "verb",
@@ -3805,7 +3805,7 @@
     {
         "word": "crescer",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📈",
         "subtext": "fazer crescer um negócio / crescer rapidamente / crescer em...",
         "synonyms": [
@@ -3830,7 +3830,7 @@
     {
         "word": "incluir",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "➕",
         "subtext": "incluir algo / incluir em",
         "synonyms": [
@@ -3857,7 +3857,7 @@
     {
         "word": "tornar-se",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✨",
         "subtext": "tornar-se gestor / tornar-se popular / tornar-se claro / tornar-se importante",
         "form": "verb",
@@ -3880,7 +3880,7 @@
     {
         "word": "pertencer",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📎",
         "subtext": "pertencer a alguém / pertencer a",
         "synonyms": [
@@ -3906,7 +3906,7 @@
     {
         "word": "escolher",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👉",
         "subtext": "escolher entre / escolher fazer / escolher com cuidado / escolher uma carreira",
         "form": "verb",
@@ -3928,7 +3928,7 @@
     {
         "word": "construir",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "construir uma carreira",
         "synonyms": [

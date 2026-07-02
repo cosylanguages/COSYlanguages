@@ -4,7 +4,7 @@
         {
             "word": "մարդ",
             "level": "starter",
-            "theme": "people_A1",
+            "theme": "people",
             "emoji": "👤",
             "form": "noun",
             "definitions": [
@@ -17,7 +17,7 @@
         {
             "word": "կին",
             "level": "starter",
-            "theme": "people_A1",
+            "theme": "people",
             "emoji": "👩",
             "form": "noun",
             "definitions": [
@@ -30,7 +30,7 @@
         {
             "word": "տղամարդ",
             "level": "starter",
-            "theme": "people_A1",
+            "theme": "people",
             "emoji": "👨",
             "form": "noun",
             "definitions": [

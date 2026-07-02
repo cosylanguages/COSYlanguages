@@ -455,7 +455,7 @@
     {
         "word": "canapé",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "article": "le",
         "emoji": "🛋️",
         "form": "noun",
@@ -474,7 +474,7 @@
     {
         "word": "lampe",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "article": "la",
         "emoji": "💡",
         "form": "noun",
@@ -493,7 +493,7 @@
     {
         "word": "bureau",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🏢",
         "form": "noun",
         "classification": "regular",
@@ -1295,4 +1295,6 @@
         "id": "fr_elementary_places_012"
     }
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['fr'] = [...(window.vocabularyData['fr'] || []), ...data];
 })();

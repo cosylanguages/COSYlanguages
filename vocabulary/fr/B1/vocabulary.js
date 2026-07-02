@@ -1175,7 +1175,7 @@
         "word": "armoire",
         "lang": "fr",
         "level": "intermediate",
-        "theme": "home_living",
+        "theme": "furniture",
         "form": "noun",
         "definitions": [
             {
@@ -1273,4 +1273,6 @@
         "emoji": "❓"
     }
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['fr'] = [...(window.vocabularyData['fr'] || []), ...data];
 })();

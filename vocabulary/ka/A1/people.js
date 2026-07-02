@@ -4,7 +4,7 @@
         {
             "word": "ადამიანი",
             "level": "starter",
-            "theme": "people_A1",
+            "theme": "people",
             "emoji": "👤",
             "form": "noun",
             "definitions": [
@@ -17,7 +17,7 @@
         {
             "word": "ქალი",
             "level": "starter",
-            "theme": "people_A1",
+            "theme": "people",
             "emoji": "👩",
             "form": "noun",
             "definitions": [
@@ -30,7 +30,7 @@
         {
             "word": "კაცი",
             "level": "starter",
-            "theme": "people_A1",
+            "theme": "people",
             "emoji": "👨",
             "form": "noun",
             "definitions": [

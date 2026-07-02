@@ -3,7 +3,7 @@
 {
         "word": "piede",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "il",
         "numberPlural": "2 piede",
         "answer": "due piedi",
@@ -33,7 +33,7 @@
 {
         "word": "testa",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "la",
         "emoji": "👤",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -69,7 +69,7 @@
 {
         "word": "mano",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "la",
         "emoji": "✋",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -97,7 +97,7 @@
 {
         "word": "gamba",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "la",
         "emoji": "🦵",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -125,7 +125,7 @@
 {
         "word": "occhio",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "l'",
         "emoji": "👁️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -153,7 +153,7 @@
 {
         "word": "naso",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "il",
         "emoji": "👃",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -181,7 +181,7 @@
 {
         "word": "bocca",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "la",
         "emoji": "👄",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -209,7 +209,7 @@
 {
         "word": "orecchio",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "l'",
         "emoji": "👂",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -237,7 +237,7 @@
 {
         "word": "schiena",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚶",
@@ -260,7 +260,7 @@
 {
         "word": "braccio",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "💪",
@@ -288,7 +288,7 @@
 {
         "word": "collo",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "🦒",
@@ -311,7 +311,7 @@
 {
         "word": "spalla",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
@@ -334,7 +334,7 @@
 {
         "word": "dito",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "☝️",
@@ -357,7 +357,7 @@
 {
         "word": "dito del piede",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "🦶",
@@ -380,7 +380,7 @@
 {
         "word": "stomaco",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🤰",
@@ -403,7 +403,7 @@
 {
         "word": "ginocchio",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "🦵",
@@ -426,7 +426,7 @@
 {
         "word": "faccia",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
@@ -452,7 +452,7 @@
 {
         "word": "capelli",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "i",
         "gender": "masculine",
         "emoji": "💇",
@@ -475,7 +475,7 @@
 {
         "word": "dente",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "🦷",
@@ -525,7 +525,7 @@
 {
         "word": "cuore",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "❤️",

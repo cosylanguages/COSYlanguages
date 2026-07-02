@@ -4,67 +4,67 @@
     {
         "word": "Frañs",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Italia",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Rusia",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Gres",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Bro-Saoz",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Spagn",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Stadoù-Unanet",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Pariz",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Londrez",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Roma",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Moskov",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Aten",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "New York",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     }
 ]
     const lang = "br";

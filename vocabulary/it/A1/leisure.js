@@ -3,7 +3,7 @@
 {
         "word": "esercizio",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "article": "l'",
         "emoji": "🏋️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -26,7 +26,7 @@
 {
         "word": "vacanza",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏖️",
@@ -49,7 +49,7 @@
 {
         "word": "tempo libero",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎮",
@@ -75,7 +75,7 @@
 {
         "word": "cinema",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎬",
@@ -98,7 +98,7 @@
 {
         "word": "museo",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏛️",
@@ -121,7 +121,7 @@
 {
         "word": "biblioteca",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "📚",
@@ -167,7 +167,7 @@
 {
         "word": "arte",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎨",
@@ -190,7 +190,7 @@
 {
         "word": "band",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎸",
@@ -213,7 +213,7 @@
 {
         "word": "concerto",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎵",
@@ -236,7 +236,7 @@
 {
         "word": "musica",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎵",
@@ -259,7 +259,7 @@
 {
         "word": "canzone",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎤",
@@ -276,7 +276,7 @@
         "word": "chitarra",
         "image": "images/vocabulary/actions/to play a musical instrument.png",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "🎸",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Uno strumento musicale a corde che si suona con le dita.", "examples": ["Lui suona la chitarra."]}],
@@ -358,7 +358,7 @@
 {
         "word": "sport",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "article": "lo",
         "gender": "masculine",
         "emoji": "⚽",
@@ -382,7 +382,7 @@
         "word": "calcio",
         "image": "images/vocabulary/actions/to play sport.png",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "article": "il",
         "gender": "masculine",
         "emoji": "⚽",
@@ -405,7 +405,7 @@
 {
         "word": "tennis",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎾",
@@ -428,7 +428,7 @@
 {
         "word": "nuoto",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏊",
@@ -451,7 +451,7 @@
 {
         "word": "festa",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎉",
@@ -522,7 +522,7 @@
 {
         "word": "bambola",
         "level": "starter",
-        "theme": "toys_games_A1",
+        "theme": "social",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪆",

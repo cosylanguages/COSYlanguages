@@ -4,67 +4,67 @@
     {
         "word": "Γαλλία",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Ιταλία",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Ρωσία",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Ελλάδα",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Αγγλία",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Ισπανία",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "ΗΠΑ",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Παρίσι",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Λονδίνο",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Ρώμη",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Μόσχα",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Αθήνα",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "Νέα Υόρκη",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     }
 ]
     const lang = "el";

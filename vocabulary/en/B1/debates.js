@@ -2383,7 +2383,7 @@
         "word": "Smart homes vs traditional living — does automation make life better or lazier?",
         "lang": "en",
         "level": "intermediate",
-        "theme": "furniture",
+        "theme": "social",
         "form": "other",
         "definitions": [
             {

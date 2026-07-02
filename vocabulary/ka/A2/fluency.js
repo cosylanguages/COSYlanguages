@@ -322,7 +322,7 @@
             "გაუწევდით რეკომენდაციას მეგობარს?"
         ],
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "phrase",
         "transcription": "",

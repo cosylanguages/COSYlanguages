@@ -22,7 +22,7 @@
         "superlative": null,
         "lang": "en",
         "level": "starter",
-        "theme": "nationality_country",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -46,7 +46,7 @@
         "superlative": null,
         "lang": "en",
         "level": "starter",
-        "theme": "nationality_country",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -70,7 +70,7 @@
         "superlative": null,
         "lang": "en",
         "level": "starter",
-        "theme": "nationality_country",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -94,7 +94,7 @@
         "superlative": null,
         "lang": "en",
         "level": "starter",
-        "theme": "nationality_country",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -118,7 +118,7 @@
         "superlative": null,
         "lang": "en",
         "level": "starter",
-        "theme": "nationality_country",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -142,7 +142,7 @@
         "superlative": null,
         "lang": "en",
         "level": "starter",
-        "theme": "nationality_country",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -166,7 +166,7 @@
         "superlative": null,
         "lang": "en",
         "level": "starter",
-        "theme": "nationality_country",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -190,7 +190,7 @@
         "superlative": null,
         "lang": "en",
         "level": "starter",
-        "theme": "nationality_country",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -214,7 +214,7 @@
         "superlative": null,
         "lang": "en",
         "level": "starter",
-        "theme": "nationality_country",
+        "theme": "people",
         "sub_theme": null
     },
     {

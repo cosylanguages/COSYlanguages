@@ -54,7 +54,7 @@
     {
         "word": "иметь",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "👜",
         "subtext": "иметь работу / иметь проблему",
         "synonyms": [
@@ -82,7 +82,7 @@
     {
         "word": "чувствовать",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🌡️",
         "subtext": "чувствовать усталость / чувствовать себя лучше",
         "form": "verb",
@@ -107,7 +107,7 @@
     {
         "word": "давать",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "subtext": "давать советы / давать деньги / давать подарок",
         "opposite": "брать",
@@ -133,7 +133,7 @@
     {
         "word": "брать",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "👜",
         "subtext": "",
         "synonyms": [
@@ -163,7 +163,7 @@
     {
         "word": "получать",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📥",
         "subtext": "",
         "synonyms": [
@@ -221,7 +221,7 @@
     {
         "word": "делать",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "делать кофе",
         "synonyms": [
@@ -253,7 +253,7 @@
     {
         "word": "делать",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛠️",
         "subtext": "делать работу / делать покупки / делать упражнения",
         "form": "verb",
@@ -281,7 +281,7 @@
     {
         "word": "использовать",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🛠️",
         "subtext": "",
         "synonyms": [
@@ -309,7 +309,7 @@
     {
         "word": "открывать",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "subtext": "открывать дверь / открывать счет / открывать магазин",
         "opposite": "закрывать",
@@ -335,7 +335,7 @@
     {
         "word": "закрывать",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "subtext": "закрывать дверь",
         "synonyms": [
@@ -364,7 +364,7 @@
     {
         "word": "начинать",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "▶️",
         "subtext": "начинать работу / начинать встречу / начинать рано",
         "opposite": "заканчивать",
@@ -390,7 +390,7 @@
     {
         "word": "заканчивать",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "заканчивать работу / заканчивать проект",
         "opposite": "начинать",
@@ -416,7 +416,7 @@
     {
         "word": "помогать",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "помогать кому-то / помогать с",
         "synonyms": [
@@ -443,7 +443,7 @@
     {
         "word": "пробовать",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎯",
         "subtext": "пробовать делать / пробовать новое",
         "synonyms": [
@@ -470,7 +470,7 @@
     {
         "word": "показывать",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📽️",
         "subtext": "показывать кому-то / показывать как / показывать документ",
         "form": "verb",
@@ -494,7 +494,7 @@
     {
         "word": "находить",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔍",
         "subtext": "",
         "synonyms": [
@@ -523,7 +523,7 @@
     {
         "word": "хранить",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "",
         "synonyms": [
@@ -552,7 +552,7 @@
     {
         "word": "терять",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📉",
         "subtext": "терять деньги / терять вес",
         "synonyms": [
@@ -639,7 +639,7 @@
     {
         "word": "приносить",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🎁",
         "subtext": "приносить еду / приносить документ",
         "synonyms": [
@@ -690,7 +690,7 @@
     {
         "word": "рассказывать",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "🗣️",
         "subtext": "рассказывать историю / рассказывать кому-то",
         "synonyms": [
@@ -717,7 +717,7 @@
     {
         "word": "спрашивать",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❓",
         "subtext": "спрашивать о",
         "synonyms": [
@@ -773,7 +773,7 @@
     {
         "word": "разговаривать",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "💬",
         "subtext": "разговаривать с кем-то / разговаривать о",
         "synonyms": [
@@ -800,7 +800,7 @@
     {
         "word": "звонить",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📞",
         "subtext": "звонить кому-то",
         "synonyms": [
@@ -828,7 +828,7 @@
     {
         "word": "писать",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "✍️",
         "subtext": "писать письмо / писать отчет / писать заметки",
         "opposite": "читать",
@@ -854,7 +854,7 @@
     {
         "word": "читать",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "читать книгу / читать новости / читать внимательно",
         "opposite": "писать",
@@ -880,7 +880,7 @@
     {
         "word": "слушать",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎧",
         "subtext": "слушать музыку / слушать внимательно / слушать подкаст",
         "form": "verb",
@@ -904,7 +904,7 @@
     {
         "word": "отвечать",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📞",
         "subtext": "отвечать на вопрос / отвечать на звонок",
         "synonyms": [
@@ -960,7 +960,7 @@
     {
         "word": "идти",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "идти на работу / идти домой",
         "synonyms": [
@@ -999,7 +999,7 @@
     {
         "word": "приходить",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "subtext": "приходить домой / приходить сюда",
         "synonyms": [
@@ -1029,7 +1029,7 @@
         "word": "гулять",
         "image": "images/vocabulary/actions/to walk. to hike.png",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "идти на работу пешком / гулять медленно",
         "synonyms": [
@@ -1056,7 +1056,7 @@
     {
         "word": "водить",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "subtext": "водить машину",
         "synonyms": [
@@ -1084,7 +1084,7 @@
     {
         "word": "летать",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "",
         "synonyms": [
@@ -1112,7 +1112,7 @@
     {
         "word": "приезжать",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "приезжать на работу / приезжать поздно",
         "synonyms": [
@@ -1139,7 +1139,7 @@
     {
         "word": "уходить",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚪",
         "subtext": "уходить из дома / уходить рано",
         "synonyms": [
@@ -1166,7 +1166,7 @@
     {
         "word": "двигаться",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "📦",
         "subtext": "двигаться вперед",
         "synonyms": [
@@ -1195,7 +1195,7 @@
     {
         "word": "возвращаться",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🔙",
         "subtext": "возвращаться домой",
         "synonyms": [
@@ -1251,7 +1251,7 @@
         "word": "есть",
         "image": "images/vocabulary/actions/to eat.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "subtext": "",
         "synonyms": [
@@ -1299,7 +1299,7 @@
         "word": "пить",
         "image": "images/vocabulary/actions/to drink.png",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "пить кофе / пить чай / пить воду",
         "opposite": "есть",
@@ -1330,7 +1330,7 @@
         "word": "спать",
         "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "😴",
         "subtext": "хорошо спать / плохо спать / спать восемь часов",
         "opposite": "просыпаться",
@@ -1386,7 +1386,7 @@
         "word": "чистить",
         "image": "images/vocabulary/actions/to clean. to sweep.png",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧹",
         "subtext": "чистить квартиру / чистить кухню",
         "synonyms": [
@@ -1413,7 +1413,7 @@
     {
         "word": "носить",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "subtext": "носить костюм / носить очки",
         "form": "verb",
@@ -1438,7 +1438,7 @@
         "word": "мыть",
         "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧼",
         "subtext": "мыть посуду / мыть руки",
         "synonyms": [
@@ -1465,7 +1465,7 @@
     {
         "word": "покупать",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🛒",
         "subtext": "покупать еду / покупать билет",
         "opposite": "продавать",
@@ -1491,7 +1491,7 @@
     {
         "word": "платить",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "subtext": "платить за аренду / платить картой",
         "synonyms": [
@@ -1518,7 +1518,7 @@
     {
         "word": "тратить",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "subtext": "тратить деньги / тратить время",
         "form": "verb",
@@ -1542,7 +1542,7 @@
     {
         "word": "сохранять",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "subtext": "",
         "synonyms": [
@@ -1573,7 +1573,7 @@
     {
         "word": "работать",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "💼",
         "subtext": "работать из дома / работать полный день",
         "form": "verb",
@@ -1601,7 +1601,7 @@
     {
         "word": "жить",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "emoji": "🏠",
         "subtext": "жить в квартире / жить одному / жить с кем-то",
         "opposite": "умирать",
@@ -1627,7 +1627,7 @@
     {
         "word": "думать",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "💭",
         "subtext": "думать о / внимательно думать",
         "synonyms": [
@@ -1654,7 +1654,7 @@
     {
         "word": "знать",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "знать кого-то / знать ответ / знать как",
         "form": "verb",
@@ -1678,7 +1678,7 @@
     {
         "word": "хотеть",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🙏",
         "subtext": "хотеть работу / хотеть сделать / хотеть больше",
         "form": "verb",
@@ -1715,7 +1715,7 @@
     {
         "word": "нуждаться",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "🆘",
         "subtext": "нуждаться в помощи / нуждаться во времени",
         "synonyms": [
@@ -1745,7 +1745,7 @@
         "word": "нравиться",
         "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "👍",
         "subtext": "",
         "synonyms": [
@@ -1776,7 +1776,7 @@
     {
         "word": "любить",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "❤️",
         "subtext": "любить кого-то / любить делать / любить место",
         "form": "verb",
@@ -1800,7 +1800,7 @@
     {
         "word": "ненавидеть",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😡",
         "subtext": "ненавидеть делать / ненавидеть кого-то / ненавидеть встречи",
         "form": "verb",
@@ -1824,7 +1824,7 @@
     {
         "word": "надеяться",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🤞",
         "subtext": "надеяться на / надеяться сделать",
         "synonyms": [
@@ -1853,7 +1853,7 @@
     {
         "word": "помнить",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "помнить сделать / помнить имя / ясно помнить",
         "form": "verb",
@@ -1877,7 +1877,7 @@
     {
         "word": "забывать",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🤔",
         "subtext": "",
         "synonyms": [
@@ -1906,7 +1906,7 @@
     {
         "word": "понимать",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "💡",
         "subtext": "понимать проблему / понимать кого-то / ясно понимать",
         "form": "verb",
@@ -1930,7 +1930,7 @@
     {
         "word": "решать",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "решать сделать / решать по поводу",
         "synonyms": [
@@ -1957,7 +1957,7 @@
     {
         "word": "наслаждаться",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "subtext": "наслаждаться делом / наслаждаться едой",
         "synonyms": [
@@ -1985,7 +1985,7 @@
     {
         "word": "видеть",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👁️",
         "subtext": "видеть врача / видеть друзей / видеть проблему",
         "form": "verb",
@@ -2013,7 +2013,7 @@
     {
         "word": "слышать",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👂",
         "subtext": "слышать новости / слышать кого-то / слышать звук",
         "form": "verb",
@@ -2042,7 +2042,7 @@
         "word": "просыпаться",
         "image": "images/vocabulary/actions/to wake up.png",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "рано просыпаться / просыпаться в 7 / просыпаться уставшим",
@@ -2069,7 +2069,7 @@
     {
         "word": "смотреть",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "📺",
         "form": "verb",
         "subtext": "смотреть телевизор / смотреть фильм / смотреть новости",
@@ -2093,7 +2093,7 @@
     {
         "word": "смотреть",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "👀",
         "subtext": "смотреть",
         "synonyms": [
@@ -2121,7 +2121,7 @@
     {
         "word": "играть",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎮",
         "subtext": "играть в спорт / играть в игру / играть роль",
         "form": "verb",
@@ -2145,7 +2145,7 @@
     {
         "word": "бегать",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏃",
         "subtext": "бегать",
         "synonyms": [
@@ -2173,7 +2173,7 @@
     {
         "word": "сидеть",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🪑",
         "subtext": "сидеть / сидеть за столом / сидеть на встрече",
         "opposite": "стоять",
@@ -2203,7 +2203,7 @@
     {
         "word": "стоять",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🧍",
         "subtext": "стоять / стоять в очереди",
         "synonyms": [
@@ -2236,7 +2236,7 @@
     {
         "word": "встречать",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -2263,7 +2263,7 @@
     {
         "word": "учить",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📚",
         "subtext": "учить / учить язык",
         "synonyms": [
@@ -2290,7 +2290,7 @@
     {
         "word": "менять",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "менять / менять мнение / менять план",
         "form": "verb",
@@ -2314,7 +2314,7 @@
     {
         "word": "останавливать",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛑",
         "subtext": "останавливать",
         "synonyms": [
@@ -2342,7 +2342,7 @@
     {
         "word": "добавлять",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
+        "theme": "numbers",
         "emoji": "➕",
         "subtext": "добавлять",
         "synonyms": [
@@ -2370,7 +2370,7 @@
     {
         "word": "побеждать",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏆",
         "subtext": "побеждать",
         "synonyms": [
@@ -2399,7 +2399,7 @@
     {
         "word": "ждать",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "subtext": "ждать / ждать кого-то",
         "synonyms": [
@@ -2426,7 +2426,7 @@
     {
         "word": "умирать",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "⚰️",
         "subtext": "умирать / умирать от",
         "synonyms": [
@@ -2454,7 +2454,7 @@
     {
         "word": "посылать",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2482,7 +2482,7 @@
     {
         "word": "оставаться",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏨",
         "subtext": "оставаться / оставаться дома",
         "synonyms": [
@@ -2510,7 +2510,7 @@
     {
         "word": "падать",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "emoji": "🍂",
         "subtext": "падать",
         "synonyms": [
@@ -2538,7 +2538,7 @@
     {
         "word": "проходить",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🏔️",
         "subtext": "проходить",
         "synonyms": [
@@ -2566,7 +2566,7 @@
     {
         "word": "продавать",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "продавать / продавать онлайн / продавать на рынке",
         "opposite": "покупать",
@@ -2591,7 +2591,7 @@
     {
         "word": "тянуть",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚜",
         "subtext": "тянуть / тянуть дверь",
         "synonyms": [
@@ -2619,7 +2619,7 @@
     {
         "word": "толкать",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛒",
         "subtext": "толкать / толкать тележку",
         "synonyms": [
@@ -2648,7 +2648,7 @@
     {
         "word": "нести",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🎒",
         "subtext": "нести / нести сумку / нести заметки",
         "form": "verb",
@@ -2672,7 +2672,7 @@
     {
         "word": "ломать",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "💔",
         "subtext": "ломать",
         "synonyms": [
@@ -2700,7 +2700,7 @@
     {
         "word": "получать",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "📩",
         "subtext": "получать",
         "synonyms": [
@@ -2729,7 +2729,7 @@
         "word": "соглашаться",
         "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "subtext": "соглашаться / соглашаться с кем-то",
         "form": "verb",
@@ -2779,7 +2779,7 @@
     {
         "word": "делиться",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🍕",
         "subtext": "делиться / делиться идеей",
         "synonyms": [
@@ -2807,7 +2807,7 @@
     {
         "word": "улыбаться",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "😊",
         "subtext": "улыбаться / улыбаться кому-то / широко улыбаться",
         "opposite": "плакать",
@@ -2834,7 +2834,7 @@
     {
         "word": "плакать",
         "level": "starter",
-        "theme": "surprise_interest_A1",
+        "theme": "emotions",
         "emoji": "😢",
         "subtext": "плакать / плакать о помощи / плакать из-за чего-то",
         "opposite": "улыбаться",
@@ -2860,7 +2860,7 @@
     {
         "word": "танцевать",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "💃",
         "subtext": "танцевать / танцевать под музыку / идти танцевать",
         "form": "verb",
@@ -2884,7 +2884,7 @@
     {
         "word": "петь",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "🎤",
         "subtext": "петь / петь песню",
         "synonyms": [
@@ -2911,7 +2911,7 @@
     {
         "word": "прыгать",
         "level": "starter",
-        "theme": "playing_watching_sport_A1",
+        "theme": "sports",
         "emoji": "🦘",
         "subtext": "прыгать / прыгать высоко",
         "synonyms": [
@@ -2938,7 +2938,7 @@
     {
         "word": "плавать",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏊",
         "subtext": "плавать / идти плавать / плавать кругами",
         "form": "verb",
@@ -2962,7 +2962,7 @@
     {
         "word": "учиться",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "учиться",
         "synonyms": [
@@ -2991,7 +2991,7 @@
     {
         "word": "преподавать",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "👨‍🏫",
         "subtext": "преподавать / преподавать предмет",
         "synonyms": [
@@ -3045,7 +3045,7 @@
     {
         "word": "снимать",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏠",
         "subtext": "снимать / снимать квартиру / снимать комнату",
         "form": "verb",
@@ -3068,7 +3068,7 @@
     {
         "word": "тренироваться",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏋️",
         "form": "verb",
         "definitions": [
@@ -3095,7 +3095,7 @@
     {
         "word": "стоить",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "verb",
         "definitions": [
@@ -3118,7 +3118,7 @@
     {
         "word": "приглашать",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -3158,7 +3158,7 @@
         "aspect": "action",
         "v2": "вставал",
         "v3": "вставала",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -3186,7 +3186,7 @@
         "aspect": "action",
         "v2": "завтракал",
         "v3": "завтракала",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
@@ -3212,7 +3212,7 @@
         "aspect": "action",
         "v2": "возвращался",
         "v3": "возвращалась",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
@@ -3241,7 +3241,7 @@
         "aspect": "action",
         "v2": "ложился спать",
         "v3": "ложилась спать",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -3264,7 +3264,7 @@
         "aspect": "action",
         "v2": "проверял",
         "v3": "проверяла",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
@@ -3287,7 +3287,7 @@
         "aspect": "action",
         "v2": "отвечал",
         "v3": "отвечала",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
@@ -3313,7 +3313,7 @@
         "aspect": "action",
         "v2": "презентовал",
         "v3": "презентовала",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
@@ -3336,7 +3336,7 @@
         "aspect": "action",
         "v2": "посещал",
         "v3": "посещала",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
@@ -3362,7 +3362,7 @@
         "aspect": "action",
         "v2": "управлял",
         "v3": "управляла",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
@@ -3390,7 +3390,7 @@
         "aspect": "action",
         "v2": "взимал плату",
         "v3": "взимала плату",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
@@ -3413,7 +3413,7 @@
         "aspect": "stative",
         "v2": "позволил себе",
         "v3": "позволила себе",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
@@ -3439,7 +3439,7 @@
         "aspect": "stative",
         "v2": "был должен",
         "v3": "была должна",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
@@ -3465,7 +3465,7 @@
         "aspect": "action",
         "v2": "зарабатывал",
         "v3": "зарабатывала",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
@@ -3492,7 +3492,7 @@
         "aspect": "action",
         "v2": "навещал",
         "v3": "навещала",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
@@ -3518,7 +3518,7 @@
         "aspect": "action",
         "v2": "праздновал",
         "v3": "праздновала",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
@@ -3544,7 +3544,7 @@
         "aspect": "action",
         "v2": "рекомендовал",
         "v3": "рекомендовала",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
@@ -3572,7 +3572,7 @@
         "aspect": "both",
         "v2": "болел",
         "v3": "болела",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
@@ -3598,7 +3598,7 @@
         "aspect": "action",
         "v2": "отдыхал",
         "v3": "отдыхала",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
@@ -3625,7 +3625,7 @@
         "aspect": "action",
         "v2": "выздоравливал",
         "v3": "выздоравливала",
-        "theme": "medical_appointments_A1",
+        "theme": "health_medicine",
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
@@ -3651,7 +3651,7 @@
         "aspect": "action",
         "v2": "бронировал",
         "v3": "бронировала",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
@@ -3679,7 +3679,7 @@
         "aspect": "action",
         "v2": "собирал вещи",
         "v3": "собирала вещи",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
@@ -3707,7 +3707,7 @@
         "aspect": "action",
         "v2": "отменял",
         "v3": "отменяла",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
@@ -3745,7 +3745,7 @@
     {
         "word": "заказывать",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "заказывать еду / заказывать напиток / заказывать онлайн",
         "form": "verb",
@@ -3768,7 +3768,7 @@
     {
         "word": "объяснять",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "💡",
         "subtext": "объяснять процесс / объяснять четко",
         "synonyms": [
@@ -3848,7 +3848,7 @@
     {
         "word": "расслабляться",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🧘",
         "subtext": "расслабляться дома",
         "synonyms": [
@@ -3876,7 +3876,7 @@
     {
         "word": "чинить",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🛠️",
         "subtext": "чинить что-то",
         "synonyms": [
@@ -3903,7 +3903,7 @@
     {
         "word": "случаться",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "❔",
         "subtext": "",
         "synonyms": [
@@ -3932,7 +3932,7 @@
     {
         "word": "казаться",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "🎭",
         "subtext": "казаться хорошим / казаться обеспокоенным",
         "synonyms": [
@@ -3959,7 +3959,7 @@
     {
         "word": "значить",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "❔",
         "subtext": "значить что-то",
         "synonyms": [
@@ -3986,7 +3986,7 @@
     {
         "word": "следовать",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👣",
         "subtext": "следовать инструкциям / следовать за кем-то",
         "synonyms": [
@@ -4012,7 +4012,7 @@
     {
         "word": "продолжать",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "⏩",
         "subtext": "продолжать работать / продолжать делать",
         "synonyms": [
@@ -4038,7 +4038,7 @@
     {
         "word": "расти",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📈",
         "subtext": "расти быстро",
         "synonyms": [
@@ -4065,7 +4065,7 @@
     {
         "word": "включать",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "➕",
         "subtext": "включать что-то / включать в",
         "synonyms": [
@@ -4091,7 +4091,7 @@
     {
         "word": "становиться",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✨",
         "subtext": "",
         "synonyms": [
@@ -4120,7 +4120,7 @@
     {
         "word": "принадлежать",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📎",
         "subtext": "принадлежать кому-то / принадлежать к",
         "synonyms": [
@@ -4146,7 +4146,7 @@
     {
         "word": "выбирать",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👉",
         "subtext": "выбирать между / выбирать сделать / выбирать тщательно",
         "form": "verb",
@@ -4169,7 +4169,7 @@
     {
         "word": "строить",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "строить карьеру / строить команду / строить доверие",
         "form": "verb",

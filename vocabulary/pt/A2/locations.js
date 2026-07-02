@@ -4,7 +4,7 @@
     {
         "word": "Alemanha",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -20,7 +20,7 @@
     {
         "word": "Canadá",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -36,7 +36,7 @@
     {
         "word": "México",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -52,7 +52,7 @@
     {
         "word": "Egito",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -68,7 +68,7 @@
     {
         "word": "Turquia",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -84,7 +84,7 @@
     {
         "word": "Portugal",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -100,7 +100,7 @@
     {
         "word": "Armênia",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -116,7 +116,7 @@
     {
         "word": "Geórgia",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -132,7 +132,7 @@
     {
         "word": "Berlim",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -148,7 +148,7 @@
     {
         "word": "Madrid",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -164,7 +164,7 @@
     {
         "word": "Toronto",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -180,7 +180,7 @@
     {
         "word": "Istambul",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -196,7 +196,7 @@
     {
         "word": "Lisboa",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -212,7 +212,7 @@
     {
         "word": "Erevan",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -228,7 +228,7 @@
     {
         "word": "Tbilisi",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",
@@ -244,7 +244,7 @@
     {
         "word": "Kazan",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "pt",
         "form": "noun",
         "transcription": "",

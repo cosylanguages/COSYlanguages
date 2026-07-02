@@ -4,7 +4,7 @@
     {
         "word": "μουσακάς",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "ο",
         "gender": "masculine",
         "emoji": "🥘",

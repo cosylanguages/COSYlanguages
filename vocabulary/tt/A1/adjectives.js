@@ -4,7 +4,7 @@
     {
         "word": "биек",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "тәпәш",
         "oppositeEmoji": "📏",
@@ -27,7 +27,7 @@
     {
         "word": "тәпәш",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "биек",
         "oppositeEmoji": "🗼",
@@ -50,7 +50,7 @@
     {
         "word": "яшь",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "карт",
         "oppositeEmoji": "👴",
@@ -72,7 +72,7 @@
     {
         "word": "карт",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "яшь",
         "oppositeEmoji": "👶",
@@ -95,7 +95,7 @@
     {
         "word": "кояшлы",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "adjective",
         "definitions": [
@@ -116,7 +116,7 @@
     {
         "word": "яңгырлы",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🌧️",
         "form": "adjective",
         "definitions": [
@@ -137,7 +137,7 @@
     {
         "word": "эссе",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
         "opposite": "суык",
@@ -160,7 +160,7 @@
     {
         "word": "суык",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "эссе",
@@ -183,7 +183,7 @@
     {
         "word": "гади",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "үзенчәлекле",
         "oppositeEmoji": "✨",
@@ -205,7 +205,7 @@
     {
         "word": "арзан",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "form": "adjective",
         "opposite": "кыйммәт",
@@ -228,7 +228,7 @@
     {
         "word": "кыйммәт",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "💎",
         "form": "adjective",
         "opposite": "арзан",
@@ -252,7 +252,7 @@
     {
         "word": "яхшы",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
         "opposite": "начар",
@@ -276,7 +276,7 @@
     {
         "word": "начар",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
         "opposite": "яхшы",
@@ -299,7 +299,7 @@
     {
         "word": "зур",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "🐘",
         "form": "adjective",
         "opposite": "кечкенә",
@@ -322,7 +322,7 @@
     {
         "word": "кечкенә",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "🐭",
         "form": "adjective",
         "opposite": "зур",
@@ -345,7 +345,7 @@
     {
         "word": "җиңел",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "кыйын",
@@ -368,7 +368,7 @@
     {
         "word": "кыйын",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "җиңел",
@@ -391,7 +391,7 @@
     {
         "word": "бәхетле",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "form": "adjective",
         "subtext": "бәхетле көн",
@@ -413,7 +413,7 @@
     {
         "word": "арыган",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😫",
         "form": "adjective",
         "subtext": "бик арыган",
@@ -435,7 +435,7 @@
     {
         "word": "тулы көн",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
         "opposite": "тулы булмаган көн",
@@ -459,7 +459,7 @@
     {
         "word": "тулы булмаган көн",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
         "opposite": "тулы көн",
@@ -482,7 +482,7 @@
     {
         "word": "таза",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
         "opposite": "бысрак",
@@ -505,7 +505,7 @@
     {
         "word": "сәламәт",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥗",
         "form": "adjective",
         "opposite": "начар ризык",
@@ -528,7 +528,7 @@
     {
         "word": "авыру",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤒",
         "form": "adjective",
         "opposite": "яхшы",
@@ -552,7 +552,7 @@
     {
         "word": "онлайн",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "оффлайн",
@@ -575,7 +575,7 @@
     {
         "word": "ялгыз",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "бергә",
@@ -598,7 +598,7 @@
     {
         "word": "тыныч",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "стресслы",
@@ -621,7 +621,7 @@
     {
         "word": "борчулы",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😟",
         "form": "adjective",
         "opposite": "тыныч",
@@ -645,7 +645,7 @@
     {
         "word": "мәшгуль",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏃",
         "form": "adjective",
         "subtext": "бик мәшгуль",
@@ -666,7 +666,7 @@
     {
         "word": "файдалы",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "кирәксез",
@@ -689,7 +689,7 @@
     {
         "word": "мөһим",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "❗",
         "form": "adjective",
         "subtext": "бик мөһим",
@@ -710,7 +710,7 @@
     {
         "word": "кызыл",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟥",
         "form": "adjective",
         "subtext": "кызыл шәраб / кызыл төс",
@@ -731,7 +731,7 @@
     {
         "word": "зәңгәр",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟦",
         "form": "adjective",
         "subtext": "зәңгәр күк",
@@ -752,7 +752,7 @@
     {
         "word": "яшел",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟩",
         "form": "adjective",
         "subtext": "яшел төс",
@@ -773,7 +773,7 @@
     {
         "word": "ак",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "⬜",
         "form": "adjective",
         "subtext": "ак төс / ап-ак",
@@ -794,7 +794,7 @@
     {
         "word": "кара",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "⬛",
         "form": "adjective",
         "subtext": "кара төс / кап-кара",
@@ -815,7 +815,7 @@
     {
         "word": "сары",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "emoji": "🟨",
         "form": "adjective",
         "subtext": "сары төс",
@@ -836,7 +836,7 @@
     {
         "word": "буш",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "буш вакыт",
@@ -857,7 +857,7 @@
     {
         "word": "ачык",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
         "opposite": "ябык",
@@ -880,7 +880,7 @@
     {
         "word": "ябык",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
         "opposite": "ачык",
@@ -913,7 +913,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "зур",
@@ -933,7 +933,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "кечкенә",
@@ -953,7 +953,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "озын",
@@ -973,7 +973,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "биек",
@@ -993,7 +993,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "түбән",
@@ -1013,7 +1013,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "тулы",
@@ -1033,7 +1033,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "буш",
@@ -1053,7 +1053,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": null,
         "superlative": null,
         "feminine": "җылы",
@@ -1073,7 +1073,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": null,
         "superlative": null,
         "feminine": "саф",
@@ -1094,7 +1094,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": null,
         "superlative": null,
         "feminine": "җылы",
@@ -1114,7 +1114,7 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": null,
         "superlative": null,
         "feminine": "коры",
@@ -1124,7 +1124,7 @@
     {
         "word": "бысрак",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "form": "adjective",
         "subtext": "бысрак куллар",
         "definitions": [
@@ -1154,7 +1154,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "каты",
@@ -1174,7 +1174,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "йомшак",
@@ -1194,7 +1194,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "авыр",
@@ -1214,7 +1214,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "җиңел",
@@ -1234,7 +1234,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": null,
         "superlative": null,
         "feminine": "коңгырт",
@@ -1254,7 +1254,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": null,
         "superlative": null,
         "feminine": "соры",
@@ -1274,7 +1274,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": null,
         "superlative": null,
         "feminine": "ал",
@@ -1294,7 +1294,7 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
         "comparative": null,
         "superlative": null,
         "feminine": "кызгылт сары",
@@ -1314,7 +1314,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "бөек",
@@ -1334,7 +1334,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "яхшы",
@@ -1355,7 +1355,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "искиткеч яхшы",
@@ -1375,7 +1375,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "куркыныч",
@@ -1395,7 +1395,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "бик начар",
@@ -1415,7 +1415,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "гаҗәп",
@@ -1435,7 +1435,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "фантастик",
@@ -1456,7 +1456,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": null,
         "superlative": null,
         "feminine": "моңлы",
@@ -1476,7 +1476,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": null,
         "superlative": null,
         "feminine": "ач",
@@ -1496,7 +1496,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": null,
         "superlative": null,
         "feminine": "ачулы",
@@ -1517,7 +1517,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": null,
         "superlative": null,
         "feminine": "ялыккан",
@@ -1527,7 +1527,7 @@
     {
         "word": "дулкынланган",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "subtext": "",
         "synonyms": ["дулкынлану"],
@@ -1559,7 +1559,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": null,
         "superlative": null,
         "feminine": "курыккан",
@@ -1580,7 +1580,7 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": null,
         "superlative": null,
         "feminine": "үкенечле",
@@ -1600,7 +1600,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "дөрес",
@@ -1620,7 +1620,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "хата",
@@ -1640,7 +1640,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "яңа",
@@ -1660,7 +1660,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "башка",
@@ -1681,7 +1681,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "бер үк",
@@ -1701,7 +1701,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "тиз",
@@ -1721,7 +1721,7 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "акрын",
@@ -1741,7 +1741,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "тыныч",
@@ -1761,7 +1761,7 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "каты",
@@ -1781,7 +1781,7 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "comparative": null,
         "superlative": null,
         "feminine": "куркынычсыз",
@@ -1801,7 +1801,7 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "comparative": null,
         "superlative": null,
         "feminine": "куркыныч",
@@ -1811,7 +1811,7 @@
     {
         "word": "бәхетсез",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1831,7 +1831,7 @@
     {
         "word": "дулкынланган",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1852,7 +1852,7 @@
     {
         "word": "стресслы",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1873,7 +1873,7 @@
     {
         "word": "үзенә ышанган",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1894,7 +1894,7 @@
     {
         "word": "горур",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1915,7 +1915,7 @@
     {
         "word": "курыккан",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1936,7 +1936,7 @@
     {
         "word": "гаҗәпләнгән",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1957,7 +1957,7 @@
     {
         "word": "күңеле кайткан",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1978,7 +1978,7 @@
     {
         "word": "матур",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1998,7 +1998,7 @@
     {
         "word": "күркәм",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2018,7 +2018,7 @@
     {
         "word": "көчле",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2038,7 +2038,7 @@
     {
         "word": "көчсез",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2058,7 +2058,7 @@
     {
         "word": "таза",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -2079,7 +2079,7 @@
     {
         "word": "бик яхшы",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2099,7 +2099,7 @@
     {
         "word": "камил",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2119,7 +2119,7 @@
     {
         "word": "кирәксез",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2139,7 +2139,7 @@
     {
         "word": "дөрес",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2159,7 +2159,7 @@
     {
         "word": "кызыклы",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2179,7 +2179,7 @@
     {
         "word": "кызыксыз",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2199,7 +2199,7 @@
     {
         "word": "кирәкле",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2219,7 +2219,7 @@
     {
         "word": "мөмкин",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2239,7 +2239,7 @@
     {
         "word": "мөмкин түгел",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2259,7 +2259,7 @@
     {
         "word": "үзенчәлекле",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2279,7 +2279,7 @@
     {
         "word": "популяр",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2299,7 +2299,7 @@
     {
         "word": "ошаш",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2319,7 +2319,7 @@
     {
         "word": "дусларча",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2339,7 +2339,7 @@
     {
         "word": "мәрхәмәтле",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2359,7 +2359,7 @@
     {
         "word": "көлкеле",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2379,7 +2379,7 @@
     {
         "word": "акыллы",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2399,7 +2399,7 @@
     {
         "word": "әдәпле",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2419,7 +2419,7 @@
     {
         "word": "тупас",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2439,7 +2439,7 @@
     {
         "word": "ялкау",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2459,7 +2459,7 @@
     {
         "word": "намуслы",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2479,7 +2479,7 @@
     {
         "word": "шау-шулы",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {

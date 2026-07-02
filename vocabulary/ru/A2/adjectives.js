@@ -1075,7 +1075,7 @@
     {
         "word": "местный",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "📍",
         "form": "adjective",
         "feminine": "местная",
@@ -1556,4 +1556,6 @@
         "id": "ru_elementary_time_005"
     }
 ];
+    window.adjectivesData = window.adjectivesData || {};
+    window.adjectivesData['ru'] = [...(window.adjectivesData['ru'] || []), ...data];
 })();

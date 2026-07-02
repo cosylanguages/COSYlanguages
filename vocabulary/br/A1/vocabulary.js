@@ -4,14 +4,14 @@
         "word": "liorzh",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{ "text": "Ul liorzh foran pe ur bastell-vro c'hlas vras en ur gêr evit an holl.", "examples": [] }]},
 {
         "word": "medisin",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🧑‍⚕️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -24,7 +24,7 @@
 {
         "word": "troad",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "🦶",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -37,7 +37,7 @@
 {
         "word": "kelenner",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🧑‍🏫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -50,7 +50,7 @@
 {
         "word": "pizza",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -63,7 +63,7 @@
 {
         "word": "pasta",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍝",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -76,7 +76,7 @@
 {
         "word": "aval",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -89,7 +89,7 @@
 {
         "word": "bara",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍞",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -102,7 +102,7 @@
 {
         "word": "vi",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥚",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -115,7 +115,7 @@
 {
         "word": "laezh",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -128,7 +128,7 @@
 {
         "word": "banana",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍌",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -141,7 +141,7 @@
 {
         "word": "kafe",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "☕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -154,7 +154,7 @@
 {
         "word": "te",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🍵",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -167,7 +167,7 @@
 {
         "word": "dour",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🚰",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -180,7 +180,7 @@
 {
         "word": "skol",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🏫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -193,7 +193,7 @@
 {
         "word": "t-shirt",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -206,7 +206,7 @@
 {
         "word": "bragoù",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👖",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -219,7 +219,7 @@
 {
         "word": "botez",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👞",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -232,7 +232,7 @@
 {
         "word": "tog",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👒",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -297,7 +297,7 @@
 {
         "word": "pellgomz",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📱",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -349,7 +349,7 @@
 {
         "word": "kazh",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐈",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -362,7 +362,7 @@
 {
         "word": "ki",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -375,7 +375,7 @@
 {
         "word": "dorn",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "✋",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -388,7 +388,7 @@
 {
         "word": "gar",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "🦵",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -401,7 +401,7 @@
 {
         "word": "lagad",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👁️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -414,7 +414,7 @@
 {
         "word": "fri",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👃",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -427,7 +427,7 @@
 {
         "word": "genou",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👄",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -440,7 +440,7 @@
 {
         "word": "skouarn",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👂",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -453,7 +453,7 @@
 {
         "word": "mamm",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👩",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -466,7 +466,7 @@
 {
         "word": "tad",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👨",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -479,7 +479,7 @@
 {
         "word": "labour",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "💼",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -492,7 +492,7 @@
 {
         "word": "gêr",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "emoji": "🏠",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -505,7 +505,7 @@
 {
         "word": "karr",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -518,7 +518,7 @@
 {
         "word": "karr-boutin",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚌",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -531,7 +531,7 @@
 {
         "word": "tren",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚆",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -544,7 +544,7 @@
 {
         "word": "arc'hant",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -557,7 +557,7 @@
 {
         "word": "stal",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🛒",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -570,7 +570,7 @@
 {
         "word": "familh",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👪",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -583,7 +583,7 @@
 {
         "word": "mignon",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -596,7 +596,7 @@
 {
         "word": "deiz",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "☀️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -609,7 +609,7 @@
 {
         "word": "sizhun",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -622,7 +622,7 @@
 {
         "word": "boued",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍲",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -635,7 +635,7 @@
 {
         "word": "lein",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -648,7 +648,7 @@
 {
         "word": "merenn",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍱",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -661,7 +661,7 @@
 {
         "word": "koan",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍽️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -674,7 +674,7 @@
 {
         "word": "mintin",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -687,7 +687,7 @@
 {
         "word": "noz",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌆",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -700,7 +700,7 @@
 {
         "word": "teñvalijenn",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌙",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -713,7 +713,7 @@
 {
         "word": "hiziv",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -726,7 +726,7 @@
 {
         "word": "warc'hoazh",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "⏭️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -739,7 +739,7 @@
 {
         "word": "gwaz",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👨",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -752,7 +752,7 @@
 {
         "word": "gwreg",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👩",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -765,7 +765,7 @@
 {
         "word": "bugel",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👶",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -778,7 +778,7 @@
 {
         "word": "heol",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -791,7 +791,7 @@
 {
         "word": "glav",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🌧️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [

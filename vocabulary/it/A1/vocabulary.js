@@ -4,7 +4,7 @@
 {
         "word": "problema",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "il",
         "gender": "masculine",
         "emoji": "❓",
@@ -27,7 +27,7 @@
 {
         "word": "dove",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "📍",
@@ -49,7 +49,7 @@
 {
         "word": "quando",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "⏰",
@@ -71,7 +71,7 @@
 {
         "word": "sì",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "✅",
@@ -93,7 +93,7 @@
 {
         "word": "no",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "❌",
@@ -115,7 +115,7 @@
 {
         "word": "conversazione",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "la",
         "gender": "feminine",
         "emoji": "💬",
@@ -160,7 +160,7 @@
 {
         "word": "domanda",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "la",
         "gender": "feminine",
         "emoji": "❓",
@@ -183,7 +183,7 @@
 {
         "word": "risposta",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
@@ -206,7 +206,7 @@
 {
         "word": "quanto",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❓",
         "form": "adjective",
         "transcription": "ˈkwanto",

@@ -6,7 +6,7 @@
         "word": "Санкт-Петербург",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -22,7 +22,7 @@
         "word": "Сочи",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -38,7 +38,7 @@
         "word": "Казань",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -54,7 +54,7 @@
         "word": "Германия",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -70,7 +70,7 @@
         "word": "Канада",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -86,7 +86,7 @@
         "word": "Мексика",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -102,7 +102,7 @@
         "word": "Египет",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -118,7 +118,7 @@
         "word": "Турция",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -134,7 +134,7 @@
         "word": "Португалия",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -150,7 +150,7 @@
         "word": "Армения",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -166,7 +166,7 @@
         "word": "Грузия",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -182,7 +182,7 @@
         "word": "Берлин",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -198,7 +198,7 @@
         "word": "Мадрид",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -214,7 +214,7 @@
         "word": "Торонто",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -230,7 +230,7 @@
         "word": "Стамбул",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -246,7 +246,7 @@
         "word": "Лиссабон",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -262,7 +262,7 @@
         "word": "Ереван",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {
@@ -278,7 +278,7 @@
         "word": "Тбилиси",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "form": "noun",
         "definitions": [
             {

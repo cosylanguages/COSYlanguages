@@ -4,7 +4,7 @@
     {
         "word": "Գերմանիա",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -20,7 +20,7 @@
     {
         "word": "Կանադա",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -36,7 +36,7 @@
     {
         "word": "Մեքսիկա",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -52,7 +52,7 @@
     {
         "word": "Եգիպտոս",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -68,7 +68,7 @@
     {
         "word": "Թուրքիա",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -84,7 +84,7 @@
     {
         "word": "Պորտուգալիա",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -100,7 +100,7 @@
     {
         "word": "Հայաստան",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -116,7 +116,7 @@
     {
         "word": "Վրաստան",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -132,7 +132,7 @@
     {
         "word": "Բերլին",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -148,7 +148,7 @@
     {
         "word": "Մադրիդ",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -164,7 +164,7 @@
     {
         "word": "Տորոնտո",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -180,7 +180,7 @@
     {
         "word": "Ստամբուլ",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -196,7 +196,7 @@
     {
         "word": "Լիսաբոն",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -212,7 +212,7 @@
     {
         "word": "Երևան",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -228,7 +228,7 @@
     {
         "word": "Թբիլիսի",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",
@@ -244,7 +244,7 @@
     {
         "word": "Կազան",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "hy",
         "form": "noun",
         "transcription": "",

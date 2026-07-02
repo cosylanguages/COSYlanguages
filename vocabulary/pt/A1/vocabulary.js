@@ -4,14 +4,14 @@
         "word": "jardim",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }]},
 {
         "word": "médico",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🧑‍⚕️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -28,7 +28,7 @@
 {
         "word": "pé",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "🦶",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -50,7 +50,7 @@
 {
         "word": "professor",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🧑‍🏫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -67,7 +67,7 @@
 {
         "word": "pizza",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -84,7 +84,7 @@
 {
         "word": "massa",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍝",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -101,7 +101,7 @@
 {
         "word": "maçã",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -118,7 +118,7 @@
 {
         "word": "pão",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍞",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -140,7 +140,7 @@
 {
         "word": "ovo",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥚",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -157,7 +157,7 @@
 {
         "word": "leite",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -179,7 +179,7 @@
 {
         "word": "banana",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍌",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -196,7 +196,7 @@
 {
         "word": "café",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "☕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -213,7 +213,7 @@
 {
         "word": "chá",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🍵",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -230,7 +230,7 @@
 {
         "word": "água",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🚰",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -250,7 +250,7 @@
 {
         "word": "escola",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🏫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -272,7 +272,7 @@
 {
         "word": "t-shirt",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -289,7 +289,7 @@
 {
         "word": "calças",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👖",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -306,7 +306,7 @@
 {
         "word": "sapato",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👞",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -321,7 +321,7 @@
 {
         "word": "chapéu",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👒",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -421,7 +421,7 @@
 {
         "word": "telefone",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📱",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -492,7 +492,7 @@
 {
         "word": "gato",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐈",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -512,7 +512,7 @@
 {
         "word": "cão",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐕",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -532,7 +532,7 @@
 {
         "word": "mão",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "✋",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -554,7 +554,7 @@
 {
         "word": "perna",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "🦵",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -571,7 +571,7 @@
 {
         "word": "olho",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👁️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -593,7 +593,7 @@
 {
         "word": "nariz",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👃",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -615,7 +615,7 @@
 {
         "word": "boca",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👄",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -637,7 +637,7 @@
 {
         "word": "orelha",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👂",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -659,7 +659,7 @@
 {
         "word": "mãe",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👩",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -681,7 +681,7 @@
 {
         "word": "pai",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👨",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -703,7 +703,7 @@
 {
         "word": "trabalho",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "💼",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -720,7 +720,7 @@
 {
         "word": "casa",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "emoji": "🏠",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -750,7 +750,7 @@
 {
         "word": "carro",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -767,7 +767,7 @@
 {
         "word": "autocarro",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚌",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -784,7 +784,7 @@
 {
         "word": "comboio",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚆",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -799,7 +799,7 @@
 {
         "word": "dinheiro",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -819,7 +819,7 @@
 {
         "word": "loja",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🛒",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -834,7 +834,7 @@
 {
         "word": "família",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👪",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -849,7 +849,7 @@
 {
         "word": "amigo",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -866,7 +866,7 @@
 {
         "word": "dia",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "☀️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -886,7 +886,7 @@
 {
         "word": "semana",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -903,7 +903,7 @@
 {
         "word": "comida",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍲",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -920,7 +920,7 @@
 {
         "word": "pequeno-almoço",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -935,7 +935,7 @@
 {
         "word": "almoço",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍱",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -950,7 +950,7 @@
 {
         "word": "jantar",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍽️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -967,7 +967,7 @@
 {
         "word": "manhã",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -984,7 +984,7 @@
 {
         "word": "tarde",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌆",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -1001,7 +1001,7 @@
 {
         "word": "noite",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌙",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -1021,7 +1021,7 @@
 {
         "word": "hoje",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -1036,7 +1036,7 @@
 {
         "word": "amanhã",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "⏭️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -1051,7 +1051,7 @@
 {
         "word": "marido",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👨",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -1066,7 +1066,7 @@
 {
         "word": "mulher",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👩",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -1086,7 +1086,7 @@
 {
         "word": "criança",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👶",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -1101,7 +1101,7 @@
 {
         "word": "sol",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -1129,7 +1129,7 @@
 {
         "word": "chuva",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🌧️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -1149,7 +1149,7 @@
 {
         "word": "sim",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "✅",
         "form": "adverb",
         "transcription": "ˈsĩ",
@@ -1170,7 +1170,7 @@
 {
         "word": "não",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❌",
         "form": "adverb",
         "transcription": "ˈnɐ̃w̃",
@@ -1191,7 +1191,7 @@
 {
         "word": "quem",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "👤",
         "form": "pronoun",
         "transcription": "ˈkẽj̃",
@@ -1210,7 +1210,7 @@
 {
         "word": "onde",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📍",
         "form": "adverb",
         "transcription": "ˈõdɨ",
@@ -1229,7 +1229,7 @@
 {
         "word": "quando",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "⌚",
         "form": "adverb",
         "transcription": "ˈkwɐ̃du",
@@ -1248,7 +1248,7 @@
 {
         "word": "cidade",
         "level": "starter",
-        "theme": "places_geography_A1",
+        "theme": "places",
         "article": "a",
         "gender": "feminine",
         "emoji": "🏙️",
@@ -1298,7 +1298,7 @@
 {
         "word": "presente",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "article": "o",
         "gender": "masculine",
         "emoji": "🎁",
@@ -1855,7 +1855,7 @@
 {
         "word": "o quê",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "❓",
         "definitions": [
@@ -1869,7 +1869,7 @@
 {
         "word": "porquê",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🤷",
         "definitions": [
@@ -1883,7 +1883,7 @@
 {
         "word": "como",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🤔",
         "definitions": [
@@ -1897,7 +1897,7 @@
 {
         "word": "quantos",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🔢",
         "definitions": [
@@ -1911,7 +1911,7 @@
 {
         "word": "país",
         "level": "starter",
-        "theme": "places_geography_A1",
+        "theme": "places",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🗺️",
         "definitions": [
@@ -1925,7 +1925,7 @@
 {
         "word": "montanha",
         "level": "starter",
-        "theme": "places_geography_A1",
+        "theme": "places",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "⛰️",
         "definitions": [
@@ -1939,7 +1939,7 @@
 {
         "word": "mar",
         "level": "starter",
-        "theme": "places_geography_A1",
+        "theme": "places",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🌊",
         "definitions": [
@@ -1957,7 +1957,7 @@
 {
         "word": "rio",
         "level": "starter",
-        "theme": "places_geography_A1",
+        "theme": "places",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🏞️",
         "definitions": [
@@ -1971,7 +1971,7 @@
 {
         "word": "praia",
         "level": "starter",
-        "theme": "places_geography_A1",
+        "theme": "places",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🏖️",
         "definitions": [
@@ -1985,7 +1985,7 @@
 {
         "word": "floresta",
         "level": "starter",
-        "theme": "places_geography_A1",
+        "theme": "places",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🌲",
         "definitions": [
@@ -1999,7 +1999,7 @@
 {
         "word": "rua",
         "level": "starter",
-        "theme": "places_geography_A1",
+        "theme": "places",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🛣️",
         "definitions": [
@@ -2013,7 +2013,7 @@
 {
         "word": "parque",
         "level": "starter",
-        "theme": "places_geography_A1",
+        "theme": "places",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🌳",
         "definitions": [
@@ -2027,7 +2027,7 @@
 {
         "word": "ponte",
         "level": "starter",
-        "theme": "places_geography_A1",
+        "theme": "places",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🌉",
         "definitions": [
@@ -2041,7 +2041,7 @@
 {
         "word": "preço",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🏷️",
         "definitions": [
@@ -2055,7 +2055,7 @@
 {
         "word": "recibo",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🧾",
         "definitions": [
@@ -2069,7 +2069,7 @@
 {
         "word": "mercado",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🧺",
         "definitions": [
@@ -2083,7 +2083,7 @@
 {
         "word": "cartão",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "💳",
         "definitions": [

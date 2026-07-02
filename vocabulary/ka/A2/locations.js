@@ -4,7 +4,7 @@
     {
         "word": "გერმანია",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -20,7 +20,7 @@
     {
         "word": "კანადა",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -36,7 +36,7 @@
     {
         "word": "მექსიკა",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -52,7 +52,7 @@
     {
         "word": "ეგვიპტე",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -68,7 +68,7 @@
     {
         "word": "თურქეთი",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -84,7 +84,7 @@
     {
         "word": "პორტუგალია",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -100,7 +100,7 @@
     {
         "word": "სომხეთი",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -116,7 +116,7 @@
     {
         "word": "საქართველო",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -132,7 +132,7 @@
     {
         "word": "ბერლინი",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -148,7 +148,7 @@
     {
         "word": "მადრიდი",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -164,7 +164,7 @@
     {
         "word": "ტორონტო",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -180,7 +180,7 @@
     {
         "word": "სტამბოლი",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -196,7 +196,7 @@
     {
         "word": "ლისაბონი",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -212,7 +212,7 @@
     {
         "word": "ერევანი",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -228,7 +228,7 @@
     {
         "word": "თბილისი",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",
@@ -244,7 +244,7 @@
     {
         "word": "ყაზანი",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ka",
         "form": "noun",
         "transcription": "",

@@ -4,7 +4,7 @@
         {
             "word": "бишбармаҡ",
             "level": "starter",
-            "theme": "basic_foods_A1",
+            "theme": "food_drink",
             "emoji": "🍲",
             "form": "noun",
             "definitions": [
@@ -17,7 +17,7 @@
         {
             "word": "ҡыҙыл э싩",
             "level": "starter",
-            "theme": "basic_foods_A1",
+            "theme": "food_drink",
             "emoji": "🍵",
             "form": "noun",
             "definitions": [
@@ -30,7 +30,7 @@
         {
             "word": "чак-чак",
             "level": "starter",
-            "theme": "basic_foods_A1",
+            "theme": "food_drink",
             "emoji": "🍯",
             "form": "noun",
             "definitions": [

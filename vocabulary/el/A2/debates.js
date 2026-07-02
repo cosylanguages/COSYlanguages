@@ -167,7 +167,7 @@
         "sideA": "Αγορά",
         "sideB": "Ενοικίαση",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Σταθερή μακροπρόθεσμη επένδυση",
             "Ελευθερία ανακαίνισης του ακινήτου"
@@ -221,7 +221,7 @@
         "sideA": "Εμπειρίες",
         "sideB": "Πράγματα",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Δημιουργία αναμνήσεων που διαρκούν",
             "Ευκαιρίες για προσωπική ανάπτυξη"
@@ -275,7 +275,7 @@
         "sideA": "Καθαριστής",
         "sideB": "Προσωπικά",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Εξοικονόμηση χρόνου και ενέργειας",
             "Επαγγελματική ποιότητα καθαρισμού"
@@ -815,7 +815,7 @@
         "sideA": "Αμέσως",
         "sideB": "Μετά το πρωινό",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Έλεγχος επειγόντων ειδήσεων",
             "Προγραμματισμός της ημέρας"
@@ -869,7 +869,7 @@
         "sideA": "Με λίστα",
         "sideB": "Χωρίς λίστα",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Οργανωμένος τρόπος ζωής",
             "Εξοικονόμηση χρημάτων"
@@ -1166,7 +1166,7 @@
         "sideA": "Ενοικίαση",
         "sideB": "Αγορά",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Μεγαλύτερη κινητικότητα",
             "Λιγότερες ανησυχίες"
@@ -1301,7 +1301,7 @@
         "sideA": "Online",
         "sideB": "Κατάστημα",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Ευκολία αγορών",
             "Καλύτερες τιμές"
@@ -1355,7 +1355,7 @@
         "sideA": "Ακριβά",
         "sideB": "Φθηνά",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Ποιότητα προϊόντος",
             "Ανθεκτικότητα"
@@ -1382,7 +1382,7 @@
         "sideA": "Καινούργια",
         "sideB": "Μεταχειρισμένα",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Τέλεια κατάσταση",
             "Εγγυήσεις"
@@ -1571,7 +1571,7 @@
         "sideA": "Αμέσως",
         "sideB": "Αύριο",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Καθαρή κουζίνα",
             "Ήρεμο πρωινό"
@@ -1652,7 +1652,7 @@
         "sideA": "Συζήτηση δουλειάς",
         "sideB": "Καμία συζήτηση",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Μοίρασμα προβλημάτων",
             "Δέσιμο"
@@ -2084,7 +2084,7 @@
         "sideA": "Πρωί",
         "sideB": "Αργά",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Παραγωγικότητα",
             "Αυγή"
@@ -2111,7 +2111,7 @@
         "sideA": "Πρωί",
         "sideB": "Βράδυ",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Φρεσκάδα",
             "Ξεκίνημα"
@@ -2138,7 +2138,7 @@
         "sideA": "Καθημερινές",
         "sideB": "Σαββατοκύριακο",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Εργασία",
             "Δομή"
@@ -2192,7 +2192,7 @@
         "sideA": "Νωρίς",
         "sideB": "Αργά",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Ρυθμός",
             "Διάθεση"
@@ -2219,7 +2219,7 @@
         "sideA": "Σπίτι",
         "sideB": "Διαμέρισμα",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Κήπος",
             "Χώρος"
@@ -2273,7 +2273,7 @@
         "sideA": "Υπνοδωμάτιο",
         "sideB": "Καθιστικό",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Ιδιωτικότητα",
             "Ύπνος"
@@ -2705,7 +2705,7 @@
         "sideA": "Online",
         "sideB": "Φυσική παρουσία",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Ευκολία",
             "Τιμές"
@@ -3893,7 +3893,7 @@
         "sideA": "Πρωί",
         "sideB": "Βράδυ",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Ενέργεια",
             "Ξεκίνημα"
@@ -3974,7 +3974,7 @@
         "sideA": "Με κάλτσες",
         "sideB": "Χωρίς",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Κυκλοφορία",
             "Ζεστασιά"
@@ -4379,7 +4379,7 @@
         "sideA": "Δευτέρα",
         "sideB": "Παρασκευή",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Ξεκίνημα",
             "Ενέργεια"
@@ -4406,7 +4406,7 @@
         "sideA": "Πριν το ξυπνητήρι",
         "sideB": "Μέχρι το ξυπνητήρι",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Διακοπή",
             "Νεκρή ζώνη"

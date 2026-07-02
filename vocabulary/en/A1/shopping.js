@@ -21,7 +21,7 @@
         "opposite": null,
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -45,7 +45,7 @@
         "opposite": null,
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -93,7 +93,7 @@
         "transcription": "praɪs",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -118,7 +118,7 @@
         "transcription": "kɔst",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -221,7 +221,7 @@
         "transcription": "weɪʤ",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -448,7 +448,7 @@
         "transcription": "peɪ",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -475,7 +475,7 @@
         "transcription": "spɛnd",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -502,7 +502,7 @@
         "transcription": "seɪv",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -560,7 +560,7 @@
         "transcription": "rɪˈsiv",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -586,7 +586,7 @@
         "transcription": "ərn",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -612,7 +612,7 @@
         "transcription": "ˈbɑˌroʊ",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -762,7 +762,7 @@
         "transcription": "rɪʧ",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     },
     {
@@ -790,7 +790,7 @@
         "transcription": "pur",
         "lang": "en",
         "level": "starter",
-        "theme": "money_payment",
+        "theme": "shopping",
         "sub_theme": null
     }
 ];

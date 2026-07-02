@@ -322,7 +322,7 @@
             "Ha kuzuliañ a rafec'h al lec'h-mañ d'ur mignon ?"
         ],
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "br",
         "form": "phrase",
         "transcription": "",

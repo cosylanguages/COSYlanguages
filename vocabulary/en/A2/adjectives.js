@@ -592,7 +592,7 @@
         "transcription": "ˈsɛntrəl",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1479,7 +1479,7 @@
         "transcription": "🇬🇧 ˈfɒrən | 🇺🇸 ˈfɑːrən",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -1637,7 +1637,7 @@
         "transcription": "ˈɡloʊbl",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -2098,7 +2098,7 @@
         "transcription": "ˈloʊkl",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -3134,7 +3134,7 @@
         "transcription": "rɪˈmoʊt",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -4399,7 +4399,7 @@
         "transcription": "ˌnɪərˈbaɪ",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {

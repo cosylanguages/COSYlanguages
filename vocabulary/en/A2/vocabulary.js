@@ -385,7 +385,7 @@
     {
         "word": "balcony",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🏘️",
         "form": "noun",
         "classification": "regular",
@@ -869,7 +869,7 @@
     {
         "word": "ceiling",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🏠",
         "form": "noun",
         "classification": "regular",
@@ -1301,7 +1301,7 @@
     {
         "word": "curtain",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🏘️",
         "form": "noun",
         "classification": "regular",
@@ -1681,7 +1681,7 @@
     {
         "word": "dishwasher",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🧼",
         "form": "noun",
         "classification": "regular",
@@ -2300,7 +2300,7 @@
     {
         "word": "garage",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🚗",
         "form": "noun",
         "classification": "regular",
@@ -3491,7 +3491,7 @@
     {
         "word": "microwave",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🔥",
         "form": "noun",
         "classification": "regular",
@@ -5560,7 +5560,7 @@
     {
         "word": "vacuum cleaner",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🧹",
         "form": "noun",
         "classification": "regular",
@@ -6294,7 +6294,7 @@
     {
         "word": "comfort",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🛋️",
         "form": "noun",
         "classification": "regular",
@@ -7112,7 +7112,7 @@
     {
         "word": "removal company",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🚚",
         "form": "noun",
         "classification": "regular",
@@ -7860,7 +7860,7 @@
     {
         "word": "estate agent",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🏠",
         "form": "noun",
         "classification": "regular",

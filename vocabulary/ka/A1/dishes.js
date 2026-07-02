@@ -4,7 +4,7 @@
         {
             "word": "ხაჭაპური",
             "level": "starter",
-            "theme": "basic_foods_A1",
+            "theme": "food_drink",
             "emoji": "🧀",
             "form": "noun",
             "definitions": [
@@ -17,7 +17,7 @@
         {
             "word": "ხინკალი",
             "level": "starter",
-            "theme": "basic_foods_A1",
+            "theme": "food_drink",
             "emoji": "🥟",
             "form": "noun",
             "definitions": [
@@ -30,7 +30,7 @@
         {
             "word": "მწვადი",
             "level": "starter",
-            "theme": "basic_foods_A1",
+            "theme": "food_drink",
             "emoji": "🥩",
             "form": "noun",
             "definitions": [

@@ -1194,7 +1194,7 @@
     {
         "word": "τοπικός",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "📍",
         "form": "adjective",
         "feminine": "τοπική",
@@ -1721,4 +1721,6 @@
         "id": "el_elementary_time_004"
     }
 ];
+    window.adjectivesData = window.adjectivesData || {};
+    window.adjectivesData['el'] = [...(window.adjectivesData['el'] || []), ...data];
 })();

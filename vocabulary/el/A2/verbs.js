@@ -4,7 +4,7 @@ const data = [
     {
         "word": "βουρτσίζω τα δόντια",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🪥",
         "form": "verb",
         "subtext": "βουρτσίζω τα δόντια μου δύο φορές την ημέρα",
@@ -28,7 +28,7 @@ const data = [
     {
         "word": "κάνω ντους",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🚿",
         "form": "verb",
         "subtext": "κάνω ένα γρήγορο ντους",
@@ -1839,7 +1839,7 @@ const data = [
     {
         "word": "μετακομίζω",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "📦",
         "form": "verb",
         "subtext": "μετακομίζω σε νέο μέρος / μετακομίζω σπίτι",
@@ -1864,7 +1864,7 @@ const data = [
     {
         "word": "διακοσμώ",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🎨",
         "form": "verb",
         "subtext": "διακοσμώ ένα δωμάτιο",

@@ -723,7 +723,7 @@
         "word": "больной",
         "lang": "ru",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -2697,7 +2697,7 @@
         "word": "спортивный",
         "lang": "ru",
         "level": "starter",
-        "theme": "illnesses_symptoms",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {

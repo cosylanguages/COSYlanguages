@@ -3,7 +3,7 @@
 {
         "word": "voiture",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚗",
@@ -59,7 +59,7 @@
 {
         "word": "avion",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
@@ -78,7 +78,7 @@
 {
         "word": "vélo",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚲",
@@ -97,7 +97,7 @@
 {
         "word": "bateau",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "⛵",
@@ -135,7 +135,7 @@
 {
         "word": "valise",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧳",
@@ -154,7 +154,7 @@
 {
         "word": "sac à dos",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎒",
@@ -173,7 +173,7 @@
 {
         "word": "passeport",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛂",
@@ -211,7 +211,7 @@
 {
         "word": "carte",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🗺️",
@@ -230,7 +230,7 @@
 {
         "word": "plan",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "📍",
@@ -439,7 +439,7 @@
 {
         "word": "vitesse",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏎️",
@@ -458,7 +458,7 @@
 {
         "word": "bagages",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "les",
         "gender": "masculine",
         "emoji": "🧳",
@@ -477,7 +477,7 @@
 {
         "word": "voyage",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "✈️",
@@ -496,7 +496,7 @@
 {
         "word": "départ",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛫",
@@ -515,7 +515,7 @@
 {
         "word": "arrivée",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🛬",
@@ -553,7 +553,7 @@
 {
         "word": "réservation",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "📖",
@@ -572,7 +572,7 @@
 {
         "word": "chambre d'hôtel",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏨",
@@ -591,7 +591,7 @@
 {
         "word": "clé",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🔑",
@@ -610,7 +610,7 @@
 {
         "word": "réception",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛎️",

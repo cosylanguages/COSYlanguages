@@ -27,7 +27,7 @@
     {
         "word": "эйә булыу",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "👜",
         "subtext": "",
         "synonyms": [
@@ -56,7 +56,7 @@
     {
         "word": "тойоу",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🌡️",
         "subtext": "",
         "synonyms": [
@@ -83,7 +83,7 @@
     {
         "word": "биреү",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "subtext": "",
         "synonyms": [
@@ -112,7 +112,7 @@
     {
         "word": "алыу",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "👜",
         "subtext": "",
         "synonyms": [
@@ -141,7 +141,7 @@
     {
         "word": "алыу",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📥",
         "subtext": "",
         "synonyms": [
@@ -196,7 +196,7 @@
     {
         "word": "эшләү",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "",
         "synonyms": [
@@ -224,7 +224,7 @@
     {
         "word": "эшләү",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛠️",
         "subtext": "",
         "synonyms": [
@@ -252,7 +252,7 @@
     {
         "word": "ҡулланыу",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🛠️",
         "subtext": "",
         "synonyms": [
@@ -279,7 +279,7 @@
     {
         "word": "асыу",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "subtext": "",
         "synonyms": [
@@ -308,7 +308,7 @@
     {
         "word": "ябыу",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "subtext": "",
         "synonyms": [
@@ -337,7 +337,7 @@
     {
         "word": "башлау",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "▶️",
         "subtext": "",
         "synonyms": [
@@ -366,7 +366,7 @@
     {
         "word": "тамамлау",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "",
         "synonyms": [
@@ -395,7 +395,7 @@
     {
         "word": "ярҙам итеү",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "",
         "synonyms": [
@@ -421,7 +421,7 @@
     {
         "word": "тырышыу",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎯",
         "subtext": "яңы нәмәне һынап ҡарарға",
         "synonyms": [
@@ -447,7 +447,7 @@
     {
         "word": "күрһәтеү",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📽️",
         "subtext": "",
         "synonyms": [
@@ -474,7 +474,7 @@
     {
         "word": "табыу",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔍",
         "subtext": "",
         "synonyms": [
@@ -502,7 +502,7 @@
     {
         "word": "һаҡлау",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "",
         "synonyms": [
@@ -529,7 +529,7 @@
     {
         "word": "юғалтыу",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📉",
         "subtext": "",
         "synonyms": [
@@ -610,7 +610,7 @@
     {
         "word": "килтереү",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🎁",
         "subtext": "",
         "synonyms": [
@@ -664,7 +664,7 @@
     {
         "word": "һөйләү",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "🗣️",
         "subtext": "",
         "synonyms": [
@@ -691,7 +691,7 @@
     {
         "word": "һорау",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❓",
         "subtext": "һорау бирергә",
         "synonyms": [
@@ -744,7 +744,7 @@
     {
         "word": "һөйләшеү",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "💬",
         "subtext": "кем менән дә һөйләшергә",
         "synonyms": [
@@ -769,7 +769,7 @@
     {
         "word": "шыңғыртыу",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📞",
         "subtext": "",
         "synonyms": [
@@ -795,7 +795,7 @@
     {
         "word": "яҙыу",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "✍️",
         "subtext": "",
         "synonyms": [
@@ -824,7 +824,7 @@
     {
         "word": "уҡыу",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "",
         "synonyms": [
@@ -853,7 +853,7 @@
     {
         "word": "тыңлау",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎧",
         "subtext": "",
         "synonyms": [
@@ -879,7 +879,7 @@
     {
         "word": "яуап биреү",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📞",
         "subtext": "",
         "synonyms": [
@@ -931,7 +931,7 @@
     {
         "word": "барыу",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "",
         "synonyms": [
@@ -959,7 +959,7 @@
     {
         "word": "килеү",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "subtext": "",
         "synonyms": [
@@ -988,7 +988,7 @@
     {
         "word": "йәйәү йөрөү",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "",
         "synonyms": [
@@ -1015,7 +1015,7 @@
     {
         "word": "машина йөрөтөү",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "subtext": "",
         "synonyms": [
@@ -1041,7 +1041,7 @@
     {
         "word": "осоу",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "бизнес класс менән осорға",
         "synonyms": [
@@ -1066,7 +1066,7 @@
     {
         "word": "килеп етеү",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "",
         "synonyms": [
@@ -1092,7 +1092,7 @@
     {
         "word": "китеү",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚪",
         "subtext": "",
         "synonyms": [
@@ -1118,7 +1118,7 @@
     {
         "word": "күсеү",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "📦",
         "subtext": "",
         "synonyms": [
@@ -1144,7 +1144,7 @@
     {
         "word": "ҡайтыу",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🔙",
         "subtext": "",
         "synonyms": [
@@ -1196,7 +1196,7 @@
     {
         "word": "ашау",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "subtext": "",
         "synonyms": [
@@ -1225,7 +1225,7 @@
     {
         "word": "эсеү",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "",
         "synonyms": [
@@ -1255,7 +1255,7 @@
     {
         "word": "йоҡлау",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "😴",
         "subtext": "",
         "synonyms": [
@@ -1309,7 +1309,7 @@
     {
         "word": "таҙартыу",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧹",
         "subtext": "",
         "synonyms": [
@@ -1335,7 +1335,7 @@
     {
         "word": "кейеү",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
         "subtext": "",
         "synonyms": [
@@ -1361,7 +1361,7 @@
     {
         "word": "йыуыу",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧼",
         "subtext": "",
         "synonyms": [
@@ -1387,7 +1387,7 @@
     {
         "word": "һатып алыу",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🛒",
         "subtext": "",
         "synonyms": [
@@ -1415,7 +1415,7 @@
     {
         "word": "түләү",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "subtext": "",
         "synonyms": [
@@ -1441,7 +1441,7 @@
     {
         "word": "тотоноу",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "subtext": "",
         "synonyms": [
@@ -1467,7 +1467,7 @@
     {
         "word": "һаҡлау",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "subtext": "",
         "synonyms": [
@@ -1494,7 +1494,7 @@
     {
         "word": "эшләү",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "💼",
         "subtext": "",
         "synonyms": [
@@ -1521,7 +1521,7 @@
     {
         "word": "йәшәү",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "emoji": "🏠",
         "subtext": "",
         "synonyms": [
@@ -1550,7 +1550,7 @@
     {
         "word": "уйлау",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "💭",
         "subtext": "",
         "synonyms": [
@@ -1577,7 +1577,7 @@
     {
         "word": "белеү",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "",
         "synonyms": [
@@ -1604,7 +1604,7 @@
     {
         "word": "теләү",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🙏",
         "subtext": "",
         "synonyms": [
@@ -1631,7 +1631,7 @@
     {
         "word": "кәрәк булыу",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "🆘",
         "subtext": "",
         "synonyms": [
@@ -1658,7 +1658,7 @@
     {
         "word": "ошатыу",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "👍",
         "subtext": "",
         "synonyms": [
@@ -1685,7 +1685,7 @@
     {
         "word": "яратыу",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "❤️",
         "subtext": "",
         "synonyms": [
@@ -1711,7 +1711,7 @@
     {
         "word": "нәфрәт итеү",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😡",
         "subtext": "",
         "synonyms": [
@@ -1737,7 +1737,7 @@
     {
         "word": "өмит итеү",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🤞",
         "subtext": "",
         "synonyms": [
@@ -1763,7 +1763,7 @@
     {
         "word": "хәтерләү",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "",
         "synonyms": [
@@ -1789,7 +1789,7 @@
     {
         "word": "онотоу",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🤔",
         "subtext": "",
         "synonyms": [
@@ -1815,7 +1815,7 @@
     {
         "word": "аңлау",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "💡",
         "subtext": "",
         "synonyms": [
@@ -1841,7 +1841,7 @@
     {
         "word": "ҡарар итеү",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "",
         "synonyms": [
@@ -1867,7 +1867,7 @@
     {
         "word": "ләззәт алыу",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "subtext": "",
         "synonyms": [
@@ -1893,7 +1893,7 @@
     {
         "word": "күреү",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👁️",
         "subtext": "",
         "synonyms": [
@@ -1919,7 +1919,7 @@
     {
         "word": "ишетеү",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "emoji": "👂",
         "subtext": "",
         "synonyms": [
@@ -1945,7 +1945,7 @@
     {
         "word": "уяныу",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "",
@@ -1974,7 +1974,7 @@
     {
         "word": "ҡарау",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "📺",
         "form": "verb",
         "subtext": "",
@@ -2001,7 +2001,7 @@
     {
         "word": "ҡарау",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "👀",
         "subtext": "",
         "synonyms": [
@@ -2028,7 +2028,7 @@
     {
         "word": "уйнау",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎮",
         "subtext": "",
         "synonyms": [
@@ -2054,7 +2054,7 @@
     {
         "word": "йүгереү",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏃",
         "subtext": "",
         "synonyms": [
@@ -2081,7 +2081,7 @@
     {
         "word": "олтороу",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🪑",
         "subtext": "",
         "synonyms": [
@@ -2109,7 +2109,7 @@
     {
         "word": "тороу",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🧍",
         "subtext": "",
         "synonyms": [
@@ -2137,7 +2137,7 @@
     {
         "word": "осрашыу",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -2163,7 +2163,7 @@
     {
         "word": "өйрәнеү",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📚",
         "subtext": "",
         "synonyms": [
@@ -2189,7 +2189,7 @@
     {
         "word": "үҙгәртеү",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "",
         "synonyms": [
@@ -2215,7 +2215,7 @@
     {
         "word": "туҡтау",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛑",
         "subtext": "",
         "synonyms": [
@@ -2241,7 +2241,7 @@
     {
         "word": "өҫтәү",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
+        "theme": "numbers",
         "emoji": "➕",
         "subtext": "",
         "synonyms": [
@@ -2268,7 +2268,7 @@
     {
         "word": "еңеү",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏆",
         "subtext": "",
         "synonyms": [
@@ -2296,7 +2296,7 @@
     {
         "word": "көтөү",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "subtext": "",
         "synonyms": [
@@ -2322,7 +2322,7 @@
     {
         "word": "үлеү",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "⚰️",
         "subtext": "",
         "synonyms": [
@@ -2350,7 +2350,7 @@
     {
         "word": "ебәреү",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2376,7 +2376,7 @@
     {
         "word": "ҡалыу",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏨",
         "subtext": "",
         "synonyms": [
@@ -2402,7 +2402,7 @@
     {
         "word": "йығылыу",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "emoji": "🍂",
         "subtext": "",
         "synonyms": [
@@ -2429,7 +2429,7 @@
     {
         "word": "үтеү",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🏔️",
         "subtext": "",
         "synonyms": [
@@ -2456,7 +2456,7 @@
     {
         "word": "һатыу",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "",
         "synonyms": [
@@ -2484,7 +2484,7 @@
     {
         "word": "тартыу",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚜",
         "subtext": "",
         "synonyms": [
@@ -2512,7 +2512,7 @@
     {
         "word": "этәреү",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛒",
         "subtext": "",
         "synonyms": [
@@ -2540,7 +2540,7 @@
     {
         "word": "ташыу",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🎒",
         "subtext": "",
         "synonyms": [
@@ -2566,7 +2566,7 @@
     {
         "word": "һыныу",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "💔",
         "subtext": "",
         "synonyms": [
@@ -2593,7 +2593,7 @@
     {
         "word": "алыу",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "📩",
         "subtext": "",
         "synonyms": [
@@ -2620,7 +2620,7 @@
     {
         "word": "риза булыу",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "subtext": "",
         "synonyms": [
@@ -2672,7 +2672,7 @@
     {
         "word": "бүлешеү",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🍕",
         "subtext": "",
         "synonyms": [
@@ -2698,7 +2698,7 @@
     {
         "word": "елмәйеү",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "😊",
         "subtext": "",
         "synonyms": [
@@ -2726,7 +2726,7 @@
     {
         "word": "илау",
         "level": "starter",
-        "theme": "surprise_interest_A1",
+        "theme": "emotions",
         "emoji": "😢",
         "subtext": "",
         "synonyms": [
@@ -2755,7 +2755,7 @@
     {
         "word": "бейеү",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "💃",
         "subtext": "",
         "synonyms": [
@@ -2781,7 +2781,7 @@
     {
         "word": "йырлау",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
         "emoji": "🎤",
         "subtext": "",
         "synonyms": [
@@ -2807,7 +2807,7 @@
     {
         "word": "һикереү",
         "level": "starter",
-        "theme": "playing_watching_sport_A1",
+        "theme": "sports",
         "emoji": "🦘",
         "subtext": "",
         "synonyms": [
@@ -2833,7 +2833,7 @@
     {
         "word": "йөҙөү",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
         "emoji": "🏊",
         "subtext": "",
         "synonyms": [
@@ -2859,7 +2859,7 @@
     {
         "word": "өйрәнеү",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "",
         "synonyms": [
@@ -2885,7 +2885,7 @@
     {
         "word": "уҡытыу",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "👨‍🏫",
         "subtext": "",
         "synonyms": [
@@ -2937,7 +2937,7 @@
     {
         "word": "ҡуртымға алыу",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏠",
         "subtext": "",
         "synonyms": [
@@ -2963,7 +2963,7 @@
     {
         "word": "күнегеүҙәр эшләү",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏋️",
         "form": "verb",
         "definitions": [
@@ -2989,7 +2989,7 @@
     {
         "word": "тора",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "verb",
         "definitions": [
@@ -3015,7 +3015,7 @@
     {
         "word": "саҡырыу",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -3057,7 +3057,7 @@
         "aspect": "action",
         "v2": "got up",
         "v3": "торған",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -3079,7 +3079,7 @@
         "aspect": "action",
         "v2": "had breakfast",
         "v3": "ашаған",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
@@ -3105,7 +3105,7 @@
         "aspect": "action",
         "v2": "came back",
         "v3": "ҡайтҡан",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
@@ -3131,7 +3131,7 @@
         "aspect": "action",
         "v2": null,
         "v3": "ятҡан",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
@@ -3157,7 +3157,7 @@
         "aspect": "action",
         "v2": "checked",
         "v3": "тикшергән",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
@@ -3183,7 +3183,7 @@
         "aspect": "action",
         "v2": "replied",
         "v3": "яуап бирҙе",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
@@ -3209,7 +3209,7 @@
         "aspect": "action",
         "v2": "presented",
         "v3": "тәҡдим иткән",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
@@ -3235,7 +3235,7 @@
         "aspect": "action",
         "v2": "attended",
         "v3": "ҡатнашҡан",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
@@ -3257,7 +3257,7 @@
         "aspect": "action",
         "v2": "managed",
         "v3": "идара иткән",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
@@ -3283,7 +3283,7 @@
         "aspect": "action",
         "v2": "charged",
         "v3": "алған",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
@@ -3305,7 +3305,7 @@
         "aspect": "stative",
         "v2": "afforded",
         "v3": "ала алған",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
@@ -3330,7 +3330,7 @@
         "aspect": "stative",
         "v2": "owed",
         "v3": "бурыслы булған",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
@@ -3356,7 +3356,7 @@
         "aspect": "action",
         "v2": "earned",
         "v3": "эшләп алған",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
@@ -3382,7 +3382,7 @@
         "aspect": "action",
         "v2": "visited",
         "v3": "барған",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
@@ -3404,7 +3404,7 @@
         "aspect": "action",
         "v2": "celebrated",
         "v3": "байрам иткән",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
@@ -3430,7 +3430,7 @@
         "aspect": "action",
         "v2": "recommended",
         "v3": "тәҡдим иткән",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
@@ -3456,7 +3456,7 @@
         "aspect": "both",
         "v2": "hurt",
         "v3": "ауыртҡан",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
@@ -3481,7 +3481,7 @@
         "aspect": "action",
         "v2": "rested",
         "v3": "ял иткән",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
@@ -3507,7 +3507,7 @@
         "aspect": "action",
         "v2": "recovered",
         "v3": "һауыҡҡан",
-        "theme": "medical_appointments_A1",
+        "theme": "health_medicine",
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
@@ -3533,7 +3533,7 @@
         "aspect": "action",
         "v2": "booked",
         "v3": "заказ бирҙе",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
@@ -3559,7 +3559,7 @@
         "aspect": "action",
         "v2": "packed",
         "v3": "йыйған",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
@@ -3585,7 +3585,7 @@
         "aspect": "action",
         "v2": "cancelled",
         "v3": "бөтөргән",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
@@ -3621,7 +3621,7 @@
     {
         "word": "заказ биреү",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "",
         "synonyms": [
@@ -3647,7 +3647,7 @@
     {
         "word": "аңлатыу",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "💡",
         "subtext": "",
         "synonyms": [
@@ -3725,7 +3725,7 @@
     {
         "word": "ял итеү",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🧘",
         "subtext": "",
         "synonyms": [
@@ -3751,7 +3751,7 @@
     {
         "word": "төҙөтеү",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🛠️",
         "subtext": "",
         "synonyms": [
@@ -3777,7 +3777,7 @@
     {
         "word": "булыу",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "❔",
         "subtext": "",
         "synonyms": [
@@ -3804,7 +3804,7 @@
     {
         "word": "тойола",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "🎭",
         "subtext": "",
         "synonyms": [
@@ -3830,7 +3830,7 @@
     {
         "word": "аңлата",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "❔",
         "subtext": "бу нәмә аңлата",
         "synonyms": [
@@ -3855,7 +3855,7 @@
     {
         "word": "этеү",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👣",
         "subtext": "",
         "synonyms": [
@@ -3881,7 +3881,7 @@
     {
         "word": "дауам итеү",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "⏩",
         "subtext": "",
         "synonyms": [
@@ -3907,7 +3907,7 @@
     {
         "word": "үҫеү",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📈",
         "subtext": "",
         "synonyms": [
@@ -3933,7 +3933,7 @@
     {
         "word": "үҙ эсенә алыу",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "➕",
         "subtext": "",
         "synonyms": [
@@ -3959,7 +3959,7 @@
     {
         "word": "булыу",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✨",
         "subtext": "",
         "synonyms": [
@@ -3985,7 +3985,7 @@
     {
         "word": "ҡарау",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📎",
         "subtext": "",
         "synonyms": [
@@ -4011,7 +4011,7 @@
     {
         "word": "һайлау",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
         "emoji": "👉",
         "subtext": "",
         "synonyms": [
@@ -4038,7 +4038,7 @@
     {
         "word": "төҙөү",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "",
         "synonyms": [

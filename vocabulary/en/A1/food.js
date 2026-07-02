@@ -521,7 +521,7 @@
         "transcription": "ˈbrɛkfəst",
         "lang": "en",
         "level": "starter",
-        "theme": "meals_of_the_day",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -545,7 +545,7 @@
         "transcription": "ˈdɪnər",
         "lang": "en",
         "level": "starter",
-        "theme": "meals_of_the_day",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -570,7 +570,7 @@
         "transcription": "lənʧ",
         "lang": "en",
         "level": "starter",
-        "theme": "meals_of_the_day",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1588,7 +1588,7 @@
         "transcription": "ˈpaɪˌnæpəl",
         "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables",
+        "theme": "food_drink",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Middle English",
@@ -1616,7 +1616,7 @@
         "transcription": "ˈwɔtərˌmɛlən",
         "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables",
+        "theme": "food_drink",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Italian",
@@ -1645,7 +1645,7 @@
         "transcription": "ˈməʃrum",
         "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1668,7 +1668,7 @@
         "transcription": "ˈbrɑkəli",
         "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1692,7 +1692,7 @@
         "transcription": "piz",
         "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1716,7 +1716,7 @@
         "transcription": "mil",
         "lang": "en",
         "level": "starter",
-        "theme": "meals_of_the_day",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1743,7 +1743,7 @@
         "transcription": "dɪˈzərt",
         "lang": "en",
         "level": "starter",
-        "theme": "meals_of_the_day",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1821,7 +1821,7 @@
         "subtext": "a bunch of grapes",
         "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1844,7 +1844,7 @@
         "subtext": "sweet corn",
         "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1899,7 +1899,7 @@
         "transcription": "brɪŋ",
         "lang": "en",
         "level": "starter",
-        "theme": "meals_of_the_day",
+        "theme": "food_drink",
         "sub_theme": null
     },
     {
@@ -1928,7 +1928,7 @@
         "transcription": "it",
         "lang": "en",
         "level": "starter",
-        "theme": "meals_of_the_day",
+        "theme": "food_drink",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",

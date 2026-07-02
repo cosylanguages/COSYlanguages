@@ -4,7 +4,7 @@
     {
         "word": "κήπος",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🌳",
         "form": "noun",
         "classification": "regular",
@@ -491,7 +491,7 @@
     {
         "word": "καναπές",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "article": "ο",
         "emoji": "🛋️",
         "form": "noun",
@@ -511,7 +511,7 @@
     {
         "word": "λάμπα",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "article": "η",
         "emoji": "💡",
         "form": "noun",
@@ -531,7 +531,7 @@
     {
         "word": "γραφείο",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "article": "το",
         "emoji": "⌨️",
         "form": "noun",
@@ -551,7 +551,7 @@
     {
         "word": "πλένω τα δόντια",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🪥",
         "form": "noun",
         "classification": "regular",
@@ -569,7 +569,7 @@
     {
         "word": "κάνω ντους",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🚿",
         "form": "noun",
         "classification": "regular",
@@ -847,7 +847,7 @@
     {
         "word": "κουνώ",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "📦",
         "form": "verb",
         "language": "el",
@@ -1608,7 +1608,7 @@
     {
         "word": "γειτονιά",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🏘️",
         "form": "noun",
         "classification": "regular",
@@ -1630,7 +1630,7 @@
     {
         "word": "κοινότητα",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "👥",
         "form": "noun",
         "classification": "regular",
@@ -1671,4 +1671,6 @@
         "id": "el_elementary_environment_007"
     }
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['el'] = [...(window.vocabularyData['el'] || []), ...data];
 })();

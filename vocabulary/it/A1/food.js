@@ -3,7 +3,7 @@
 {
         "word": "pasta",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "emoji": "🍝",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -20,7 +20,7 @@
         "word": "pesce",
         "image": "images/vocabulary/actions/to fish.png",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🐟",
@@ -50,7 +50,7 @@
         "word": "mela",
         "image": "images/vocabulary/food/apple.png",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "emoji": "🍎",
         "numberPlural": "4 mela",
@@ -80,7 +80,7 @@
 {
         "word": "pane",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍞",
@@ -108,7 +108,7 @@
 {
         "word": "uovo",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🥚",
@@ -131,7 +131,7 @@
 {
         "word": "latte",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🥛",
@@ -159,7 +159,7 @@
 {
         "word": "riso",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍚",
@@ -182,7 +182,7 @@
 {
         "word": "carne",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥩",
@@ -210,7 +210,7 @@
 {
         "word": "cibo",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "emoji": "🍲",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -233,7 +233,7 @@
 {
         "word": "caffè",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "☕",
@@ -256,7 +256,7 @@
 {
         "word": "tè",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍵",
@@ -279,7 +279,7 @@
 {
         "word": "succo",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧃",
@@ -302,7 +302,7 @@
 {
         "word": "acqua",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚰",
@@ -331,7 +331,7 @@
         "word": "colazione",
         "image": "images/vocabulary/actions/to have breakfast.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "☕",
@@ -355,7 +355,7 @@
         "word": "cena",
         "image": "images/vocabulary/actions/to have dinner.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍷",
@@ -379,7 +379,7 @@
         "word": "pranzo",
         "image": "images/vocabulary/actions/to have lunch.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍽️",
@@ -402,7 +402,7 @@
 {
         "word": "frutta",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍎",
@@ -425,7 +425,7 @@
 {
         "word": "verdura",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥦",
@@ -448,7 +448,7 @@
 {
         "word": "cucina",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍳",
@@ -471,7 +471,7 @@
 {
         "word": "birra",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍺",
@@ -494,7 +494,7 @@
 {
         "word": "vino",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍷",
@@ -517,7 +517,7 @@
 {
         "word": "pollo",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍗",
@@ -540,7 +540,7 @@
 {
         "word": "zucchero",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🍚",
@@ -563,7 +563,7 @@
 {
         "word": "insalata",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🥗",
@@ -586,7 +586,7 @@
 {
         "word": "manzo",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🥩",
@@ -609,7 +609,7 @@
 {
         "word": "maiale",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🥩",
@@ -636,7 +636,7 @@
 {
         "word": "patata",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥔",
@@ -659,7 +659,7 @@
 {
         "word": "pomodoro",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍅",
@@ -682,7 +682,7 @@
 {
         "word": "cipolla",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧅",
@@ -705,7 +705,7 @@
 {
         "word": "carota",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥕",
@@ -728,7 +728,7 @@
 {
         "word": "zuppa",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥣",
@@ -751,7 +751,7 @@
 {
         "word": "torta",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍰",
@@ -774,7 +774,7 @@
 {
         "word": "cioccolato",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍫",
@@ -797,7 +797,7 @@
 {
         "word": "gelato",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍦",
@@ -820,7 +820,7 @@
 {
         "word": "limone",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍋",
@@ -844,7 +844,7 @@
         "word": "arancia",
         "image": "images/vocabulary/food/orange.png",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍊",
@@ -867,7 +867,7 @@
 {
         "word": "fragola",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍓",
@@ -890,7 +890,7 @@
 {
         "word": "uva",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍇",
@@ -913,7 +913,7 @@
 {
         "word": "aglio",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧄",
@@ -936,7 +936,7 @@
 {
         "word": "burro",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧈",
@@ -959,7 +959,7 @@
 {
         "word": "formaggio",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧀",
@@ -982,7 +982,7 @@
 {
         "word": "sale",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧂",
@@ -1005,7 +1005,7 @@
 {
         "word": "pepe",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧂",
@@ -1028,7 +1028,7 @@
 {
         "word": "olio",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏺",
@@ -1051,7 +1051,7 @@
 {
         "word": "aceto",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏺",
@@ -1075,7 +1075,7 @@
         "word": "merenda",
         "image": "images/vocabulary/actions/to have a snack.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍪",
@@ -1098,7 +1098,7 @@
 {
         "word": "spuntino",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🥣",
@@ -1121,7 +1121,7 @@
 {
         "word": "pasto",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍽️",
@@ -1144,7 +1144,7 @@
 {
         "word": "banana",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍌",
@@ -1167,7 +1167,7 @@
 {
         "word": "pizza",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍕",
@@ -1190,7 +1190,7 @@
 {
         "word": "pesca",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍑",
@@ -1213,7 +1213,7 @@
 {
         "word": "pera",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍐",
@@ -1236,7 +1236,7 @@
 {
         "word": "ciliegia",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍒",
@@ -1259,7 +1259,7 @@
 {
         "word": "bevanda",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥤",
@@ -1284,7 +1284,7 @@
 {
         "word": "cereali",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "i",
         "gender": "masculine",
         "emoji": "🥣",

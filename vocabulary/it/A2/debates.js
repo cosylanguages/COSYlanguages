@@ -173,7 +173,7 @@
         "sideA": "Comprare",
         "sideB": "Affittare",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Investimento stabile a lungo termine",
             "Libertà di ristrutturare l'immobile"
@@ -229,7 +229,7 @@
         "sideA": "Esperienze",
         "sideB": "Oggetti",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Creare ricordi duraturi",
             "Opportunità di crescita personale"
@@ -285,7 +285,7 @@
         "sideA": "Pulizie pro",
         "sideB": "Da soli",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Risparmiare tempo ed energia",
             "Qualità della pulizia professionale"
@@ -845,7 +845,7 @@
         "sideA": "Appena svegli",
         "sideB": "Dopo colazione",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Controllare le notizie urgenti",
             "Pianificare la giornata presto"
@@ -901,7 +901,7 @@
         "sideA": "Con lista",
         "sideB": "Senza lista",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Stile di vita organizzato",
             "Risparmiare denaro mensile"
@@ -1209,7 +1209,7 @@
         "sideA": "Affittare",
         "sideB": "Comprare",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Maggiore mobilità sociale",
             "Meno preoccupazioni finanziarie"
@@ -1349,7 +1349,7 @@
         "sideA": "Online",
         "sideB": "Negozio",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Comodità dello shopping",
             "Trovare prezzi migliori"
@@ -1405,7 +1405,7 @@
         "sideA": "Costose",
         "sideB": "Economiche",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Maggiore qualità del prodotto",
             "Maggiore durata"
@@ -1433,7 +1433,7 @@
         "sideA": "Nuovo",
         "sideB": "Seconda mano",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "In condizioni perfette",
             "Garanzie sul prodotto"
@@ -1629,7 +1629,7 @@
         "sideA": "Immediatamente",
         "sideB": "Domani",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Mantenere una cucina pulita",
             "Inizio di giornata sereno"
@@ -1713,7 +1713,7 @@
         "sideA": "Parlare di lavoro",
         "sideB": "Niente lavoro",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Condividere problemi quotidiani",
             "Legame professionale"
@@ -2161,7 +2161,7 @@
         "sideA": "Presto",
         "sideB": "Tardi",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Ore più produttive",
             "Godersi un'alba tranquilla"
@@ -2189,7 +2189,7 @@
         "sideA": "Mattina",
         "sideB": "Sera",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Atmosfera fresca",
             "Nuovo inizio quotidiano"
@@ -2217,7 +2217,7 @@
         "sideA": "Feriali",
         "sideB": "Fine settimana",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Tempo di lavoro produttivo",
             "Struttura regolare"
@@ -2273,7 +2273,7 @@
         "sideA": "Presto",
         "sideB": "Tardi",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Ritmo naturale",
             "Umore migliorato"
@@ -2301,7 +2301,7 @@
         "sideA": "Casa",
         "sideB": "Appartamento",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Area giardino privata",
             "Più spazio abitativo"
@@ -2357,7 +2357,7 @@
         "sideA": "Camera",
         "sideB": "Soggiorno",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Privacy totale",
             "Rifugio per il sonno"
@@ -2805,7 +2805,7 @@
         "sideA": "Online",
         "sideB": "Di persona",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Comodità dello shopping",
             "Prezzi inferiori"
@@ -4037,7 +4037,7 @@
         "sideA": "Mattino",
         "sideB": "Sera",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Spinta di energia mentale",
             "Inizio quotidiano fresco"
@@ -4121,7 +4121,7 @@
         "sideA": "Con le calze",
         "sideB": "Senza",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Migliorare la circolazione",
             "Tenere i piedi caldi"
@@ -4541,7 +4541,7 @@
         "sideA": "Lunedì",
         "sideB": "Venerdì",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Inizio della settimana lavorativa",
             "Livelli di energia più bassi"
@@ -4569,7 +4569,7 @@
         "sideA": "Prima della sveglia",
         "sideB": "Fino alla sveglia",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "ideasA": [
             "Riposo interrotto",
             "Terra di nessuno"

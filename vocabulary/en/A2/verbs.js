@@ -1791,7 +1791,7 @@ const data = [
         "v4": "decorating",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {
@@ -3820,7 +3820,7 @@ const data = [
         "v4": "participating",
         "lang": "en",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "sub_theme": null
     },
     {

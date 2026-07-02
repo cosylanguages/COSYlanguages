@@ -413,7 +413,7 @@
             "La consiglieresti a un amico?"
         ],
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "word": "Cose che ami di dove vivi",
         "definitions": [
             {

@@ -3,7 +3,7 @@
         {
             "word": "მე",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🙋",
             "form": "pronoun",
             "definitions": [{ "text": "პირველი პირი, მხოლობითი რიცხვი.", "examples": ["მე ვარ სტუდენტი."] }]
@@ -11,7 +11,7 @@
         {
             "word": "შენ",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🫵",
             "form": "pronoun",
             "definitions": [{ "text": "მეორე პირი, მხოლობითი რიცხვი.", "examples": ["როგორ ხარ შენ?"] }]
@@ -19,7 +19,7 @@
         {
             "word": "ის",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👨",
             "form": "pronoun",
             "definitions": [{ "text": "მესამე პირი, მხოლობითი რიცხვი.", "examples": ["ის ჩემი ძმაა."] }]
@@ -27,7 +27,7 @@
         {
             "word": "ჩვენ",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👥",
             "form": "pronoun",
             "definitions": [{ "text": "პირველი პირი, მრავლობითი რიცხვი.", "examples": ["ჩვენ მეგობრები ვართ."] }]
@@ -35,7 +35,7 @@
         {
             "word": "ისინი",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👥",
             "form": "pronoun",
             "definitions": [{ "text": "მესამე პირი, მრავლობითი რიცხვი.", "examples": ["ისინი ერთად მუშაობენ."] }]
@@ -43,7 +43,7 @@
         {
             "word": "ჩემი",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🙋",
             "form": "determiner",
             "definitions": [{ "text": "მიუთითებს კუთვნილებაზე (მე).", "examples": ["ჩემი სახელია იოანე."] }]
@@ -51,7 +51,7 @@
         {
             "word": "შენი",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🫵",
             "form": "determiner",
             "definitions": [{ "text": "მიუთითებს კუთვნილებაზე (შენ).", "examples": ["ეს შენი ტელეფონია?"] }]

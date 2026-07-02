@@ -5,7 +5,7 @@
         "lang": "it",
         "word": "sostenere che",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "",

@@ -335,7 +335,7 @@
             "Você a recomendaria a um amigo?"
         ],
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "word": "Coisas que você ama onde mora",
         "lang": "pt",
         "sub_theme": null,

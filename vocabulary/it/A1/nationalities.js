@@ -4,7 +4,7 @@
     {
         "word": "italiano",
         "level": "starter",
-        "theme": "nationality_country_A1",
+        "theme": "people",
         "emoji": "🇮🇹",
         "form": "adjective",
         "transcription": "itaˈljano",
@@ -26,7 +26,7 @@
     {
         "word": "francese",
         "level": "starter",
-        "theme": "nationality_country_A1",
+        "theme": "people",
         "emoji": "🇫🇷",
         "form": "adjective",
         "transcription": "franˈtʃeze",
@@ -48,7 +48,7 @@
     {
         "word": "inglese",
         "level": "starter",
-        "theme": "nationality_country_A1",
+        "theme": "people",
         "emoji": "🇬🇧",
         "form": "adjective",
         "transcription": "iŋˈɡleze",
@@ -70,7 +70,7 @@
     {
         "word": "americano",
         "level": "starter",
-        "theme": "nationality_country_A1",
+        "theme": "people",
         "emoji": "🇺🇸",
         "form": "adjective",
         "transcription": "ameriˈkano",
@@ -92,7 +92,7 @@
     {
         "word": "spagnolo",
         "level": "starter",
-        "theme": "nationality_country_A1",
+        "theme": "people",
         "emoji": "🇪🇸",
         "form": "adjective",
         "transcription": "spaɲˈɲɔlo",
@@ -114,7 +114,7 @@
     {
         "word": "tedesco",
         "level": "starter",
-        "theme": "nationality_country_A1",
+        "theme": "people",
         "emoji": "🇩🇪",
         "form": "adjective",
         "transcription": "teˈdesko",
@@ -136,7 +136,7 @@
     {
         "word": "cinese",
         "level": "starter",
-        "theme": "nationality_country_A1",
+        "theme": "people",
         "emoji": "🇨🇳",
         "form": "adjective",
         "transcription": "tʃiˈneze",
@@ -158,7 +158,7 @@
     {
         "word": "giapponese",
         "level": "starter",
-        "theme": "nationality_country_A1",
+        "theme": "people",
         "emoji": "🇯🇵",
         "form": "adjective",
         "transcription": "dʒappoˈneze",
@@ -180,7 +180,7 @@
     {
         "word": "russo",
         "level": "starter",
-        "theme": "nationality_country_A1",
+        "theme": "people",
         "emoji": "🇷🇺",
         "form": "adjective",
         "transcription": "ˈrusso",
@@ -202,7 +202,7 @@
     {
         "word": "nazionalità",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "emoji": "🏳️",
         "form": "noun",
         "plural": "nazionalità",

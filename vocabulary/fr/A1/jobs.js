@@ -4,7 +4,7 @@
         "word": "médecin",
         "image": "images/vocabulary/jobs/doctor.png",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "le",
         "gender": "masculine",
         "numberPlural": "2 médecin",
@@ -27,7 +27,7 @@
 {
         "word": "professeur",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑‍🏫",
@@ -48,7 +48,7 @@
 {
         "word": "patron",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "le",
         "emoji": "👨‍💼",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -66,7 +66,7 @@
 {
         "word": "collègue",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "le",
         "emoji": "🧑‍💼",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -84,7 +84,7 @@
 {
         "word": "réunion",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "la",
         "emoji": "🤝",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -107,7 +107,7 @@
 {
         "word": "sommeil",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "article": "le",
         "emoji": "😴",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -125,7 +125,7 @@
 {
         "word": "infirmier",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑‍⚕️",
@@ -144,7 +144,7 @@
 {
         "word": "conducteur",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚗",
@@ -163,7 +163,7 @@
 {
         "word": "chef",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "le",
         "gender": "masculine",
         "emoji": "👨‍🍳",
@@ -182,7 +182,7 @@
 {
         "word": "directeur",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑‍💼",
@@ -201,7 +201,7 @@
 {
         "word": "acteur",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎭",
@@ -220,7 +220,7 @@
 {
         "word": "artiste",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎨",
@@ -239,7 +239,7 @@
 {
         "word": "affaires",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "les",
         "gender": "feminine",
         "emoji": "💼",
@@ -259,7 +259,7 @@
         "word": "travail",
         "image": "images/vocabulary/actions/to go to work.png",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "article": "le",
         "gender": "masculine",
         "emoji": "💼",
@@ -278,7 +278,7 @@
 {
         "word": "boulot",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛠️",
@@ -297,7 +297,7 @@
 {
         "word": "métier",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "le",
         "gender": "masculine",
         "emoji": "👔",
@@ -316,7 +316,7 @@
 {
         "word": "entreprise",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏢",
@@ -335,7 +335,7 @@
 {
         "word": "client",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "le",
         "gender": "masculine",
         "emoji": "👤",
@@ -354,7 +354,7 @@
 {
         "word": "projet",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "le",
         "gender": "masculine",
         "emoji": "📊",
@@ -373,7 +373,7 @@
 {
         "word": "réussite",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏆",
@@ -392,7 +392,7 @@
 {
         "word": "service",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "le",
         "gender": "masculine",
         "emoji": "🤝",
@@ -411,7 +411,7 @@
 {
         "word": "clientèle",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "la",
         "gender": "feminine",
         "emoji": "👥",
@@ -430,7 +430,7 @@
 {
         "word": "pilote",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "👨‍✈️",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -450,7 +450,7 @@
 {
         "word": "serveur",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🤵",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -470,7 +470,7 @@
 {
         "word": "dentiste",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🦷",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -490,7 +490,7 @@
 {
         "word": "policier",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "👮",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -510,7 +510,7 @@
 {
         "word": "pompier",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "👨‍🚒",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -530,7 +530,7 @@
 {
         "word": "soldat",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🪖",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -550,7 +550,7 @@
 {
         "word": "écrivain",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "✍️",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -570,7 +570,7 @@
 {
         "word": "ingénieur",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "👷",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -590,7 +590,7 @@
 {
         "word": "secrétaire",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "⌨️",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",

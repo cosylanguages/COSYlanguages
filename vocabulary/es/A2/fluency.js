@@ -335,7 +335,7 @@
             "¿Se lo recomendarías a un amigo?"
         ],
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "es",
         "sub_theme": "city",
         "word": "Cosas que te gustan de donde vives",

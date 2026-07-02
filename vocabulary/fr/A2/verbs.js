@@ -1859,7 +1859,7 @@ const data = [
     {
         "word": "décorer",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "emoji": "🎨",
         "form": "verb",
         "group": "er",

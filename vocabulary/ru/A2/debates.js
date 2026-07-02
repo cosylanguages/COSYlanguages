@@ -167,7 +167,7 @@
         "word": "Покупка дома или аренда на всю жизнь — какое финансовое решение умнее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -221,7 +221,7 @@
         "word": "Тратить деньги на впечатления или на вещи — что делает вас счастливее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -275,7 +275,7 @@
         "word": "Нанять клинера или делать уборку самому — какой выбор лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -815,7 +815,7 @@
         "word": "Проверять телефон первым делом утром или после завтрака — какая привычка лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -869,7 +869,7 @@
         "word": "Поход за продуктами со списком или без него — у кого жизнь лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1166,7 +1166,7 @@
         "word": "Снимать квартиру или покупать дом — что лучше для молодых людей?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1301,7 +1301,7 @@
         "word": "Онлайн-покупки или покупки в магазине — что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1355,7 +1355,7 @@
         "word": "Дорогие вещи или дешевые — что выгоднее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1382,7 +1382,7 @@
         "word": "Покупка нового или покупка подержанного — что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1571,7 +1571,7 @@
         "word": "Мыть посуду сразу или оставить до завтра — что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -1652,7 +1652,7 @@
         "word": "Разговоры о работе за ужином или никаких разговоров о работе — какое правило лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -2084,7 +2084,7 @@
         "word": "Рано против поздно вставать — что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -2111,7 +2111,7 @@
         "word": "Утро против вечера — какое время суток приятнее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -2138,7 +2138,7 @@
         "word": "Будни против выходных — что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -2192,7 +2192,7 @@
         "word": "Рано против поздно ложиться — что здоровее?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -2219,7 +2219,7 @@
         "word": "Дом против квартиры — что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -2273,7 +2273,7 @@
         "word": "Спальня против гостиной — какая комната вам больше нравится?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -2705,7 +2705,7 @@
         "word": "Онлайн-шопинг против покупок в магазине",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -3893,7 +3893,7 @@
         "word": "Душ утром против душа вечером — что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -3974,7 +3974,7 @@
         "word": "Спать в носках против того, чтобы спать без носков — что лучше?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -4379,7 +4379,7 @@
         "word": "Понедельник против пятницы — какой день на самом деле хуже?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {
@@ -4406,7 +4406,7 @@
         "word": "Проснуться за пять минут до будильника против сна до самого будильника — что больше раздражает?",
         "lang": "ru",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "social",
         "form": "phrase",
         "definitions": [
             {

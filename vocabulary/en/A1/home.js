@@ -245,7 +245,7 @@
         "transcription": "hoʊm",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -269,7 +269,7 @@
         "transcription": "haʊs",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
@@ -301,7 +301,7 @@
         "transcription": "flæt",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -325,7 +325,7 @@
         "transcription": "rum",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -349,7 +349,7 @@
         "transcription": "ˈkɪʧən",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -661,7 +661,7 @@
         "transcription": "ˈbæθˌrum",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -685,7 +685,7 @@
         "transcription": "ˈbɛˌdrum",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -757,7 +757,7 @@
         "transcription": "bæθ",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -928,7 +928,7 @@
         "transcription": "wɔl",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -952,7 +952,7 @@
         "transcription": "flɔr",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -976,7 +976,7 @@
         "transcription": "stɛrz",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1000,7 +1000,7 @@
         "transcription": "ʃaʊər",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1024,7 +1024,7 @@
         "transcription": "ˈtɔɪlət",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1048,7 +1048,7 @@
         "transcription": "sɪŋk",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1222,7 +1222,7 @@
         "transcription": "ˈgɑrdən",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1462,7 +1462,7 @@
         "transcription": "rʊf",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1486,7 +1486,7 @@
         "transcription": "fɛns",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1510,7 +1510,7 @@
         "transcription": "geɪt",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1606,7 +1606,7 @@
         "transcription": "ˈlɪvɪŋ rum",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1630,7 +1630,7 @@
         "transcription": "ˈdaɪnɪŋ rum",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {
@@ -1706,7 +1706,7 @@
         "transcription": "əˈpɑrtmənt",
         "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home",
+        "theme": "furniture",
         "sub_theme": null
     },
     {

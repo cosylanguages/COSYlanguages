@@ -4,7 +4,7 @@
         {
             "word": "Currywurst",
             "level": "starter",
-            "theme": "basic_foods_A1",
+            "theme": "food_drink",
             "emoji": "🌭",
             "form": "noun",
             "definitions": [
@@ -19,7 +19,7 @@
         {
             "word": "Schnitzel",
             "level": "starter",
-            "theme": "basic_foods_A1",
+            "theme": "food_drink",
             "emoji": "🥩",
             "form": "noun",
             "definitions": [
@@ -34,7 +34,7 @@
         {
             "word": "Brezel",
             "level": "starter",
-            "theme": "basic_foods_A1",
+            "theme": "food_drink",
             "emoji": "🥨",
             "form": "noun",
             "definitions": [

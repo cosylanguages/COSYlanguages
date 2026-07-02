@@ -3,7 +3,7 @@
         {
             "word": "me",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🙋",
             "form": "pronoun",
             "definitions": [{ "text": "Kentañ den unan.", "examples": ["Ur studier on-me."] }]
@@ -11,7 +11,7 @@
         {
             "word": "te",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🫵",
             "form": "pronoun",
             "definitions": [{ "text": "Eil den unan.", "examples": ["Penaos 'it-te?"] }]
@@ -19,7 +19,7 @@
         {
             "word": "eñ",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👨",
             "form": "pronoun",
             "definitions": [{ "text": "Trede den unan (gourel).", "examples": ["Ma breur eo eñ."] }]
@@ -27,7 +27,7 @@
         {
             "word": "hi",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👩",
             "form": "pronoun",
             "definitions": [{ "text": "Trede den unan (benel).", "examples": ["Ma c'hoar eo hi."] }]
@@ -35,7 +35,7 @@
         {
             "word": "ni",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👥",
             "form": "pronoun",
             "definitions": [{ "text": "Kentañ den lies.", "examples": ["Mignoned omp-ni."] }]
@@ -43,7 +43,7 @@
         {
             "word": "int",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "👥",
             "form": "pronoun",
             "definitions": [{ "text": "Trede den lies.", "examples": ["Labourat a reont asambles."] }]
@@ -51,7 +51,7 @@
         {
             "word": "ma",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🙋",
             "form": "determiner",
             "definitions": [{ "text": "Perc'hennañ (me).", "examples": ["Ma anv eo Yann."] }]
@@ -59,7 +59,7 @@
         {
             "word": "da",
             "level": "starter",
-            "theme": "personal_identity_A1",
+            "theme": "people",
             "emoji": "🫵",
             "form": "determiner",
             "definitions": [{ "text": "Perc'hennañ (te).", "examples": ["Da bellgomz eo?"] }]

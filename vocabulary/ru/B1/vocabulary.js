@@ -1193,7 +1193,7 @@
         "word": "шкаф",
         "lang": "ru",
         "level": "intermediate",
-        "theme": "home_living",
+        "theme": "furniture",
         "form": "noun",
         "definitions": [
             {
@@ -1268,4 +1268,6 @@
         "emoji": "❓"
     }
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['ru'] = [...(window.vocabularyData['ru'] || []), ...data];
 })();

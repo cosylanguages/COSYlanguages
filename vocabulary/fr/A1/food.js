@@ -3,7 +3,7 @@
 {
         "word": "fruit",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍎",
@@ -23,7 +23,7 @@
         "word": "poisson",
         "image": "images/vocabulary/actions/to fish.png",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🐟",
@@ -47,7 +47,7 @@
 {
         "word": "légume",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥦",
@@ -67,7 +67,7 @@
 {
         "word": "croissant",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "form": "noun", "classification": "regular", "countability": "countable",
         "transcription": "kʁwa.sɑ̃",
@@ -86,7 +86,7 @@
         "word": "pomme",
         "image": "images/vocabulary/food/apple.png",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "baseWord": "pomme",
         "emoji": "🍎",
@@ -113,7 +113,7 @@
 {
         "word": "pain",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥖",
@@ -140,7 +140,7 @@
 {
         "word": "oeuf",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🥚",
@@ -161,7 +161,7 @@
 {
         "word": "lait",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥛",
@@ -187,7 +187,7 @@
 {
         "word": "riz",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍚",
@@ -207,7 +207,7 @@
 {
         "word": "viande",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥩",
@@ -232,7 +232,7 @@
 {
         "word": "nourriture",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "emoji": "🍲",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -250,7 +250,7 @@
 {
         "word": "thé",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍵",
@@ -271,7 +271,7 @@
 {
         "word": "jus",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧃",
@@ -291,7 +291,7 @@
 {
         "word": "eau",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚰",
@@ -317,7 +317,7 @@
 {
         "word": "bière",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍺",
@@ -337,7 +337,7 @@
 {
         "word": "vin",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍷",
@@ -356,7 +356,7 @@
 {
         "word": "poulet",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍗",
@@ -375,7 +375,7 @@
 {
         "word": "sucre",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍚",
@@ -394,7 +394,7 @@
 {
         "word": "salade",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥗",
@@ -413,7 +413,7 @@
 {
         "word": "boeuf",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥩",
@@ -432,7 +432,7 @@
 {
         "word": "porc",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥩",
@@ -455,7 +455,7 @@
 {
         "word": "pomme de terre",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥔",
@@ -474,7 +474,7 @@
 {
         "word": "tomate",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍅",
@@ -493,7 +493,7 @@
 {
         "word": "oignon",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧅",
@@ -512,7 +512,7 @@
 {
         "word": "carotte",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥕",
@@ -531,7 +531,7 @@
 {
         "word": "soupe",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥣",
@@ -550,7 +550,7 @@
 {
         "word": "gâteau",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍰",
@@ -569,7 +569,7 @@
 {
         "word": "chocolat",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍫",
@@ -588,7 +588,7 @@
 {
         "word": "glace",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍦",
@@ -607,7 +607,7 @@
 {
         "word": "citron",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍋",
@@ -627,7 +627,7 @@
         "word": "orange",
         "image": "images/vocabulary/food/orange.png",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍊",
@@ -646,7 +646,7 @@
 {
         "word": "fraise",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍓",
@@ -665,7 +665,7 @@
 {
         "word": "raisin",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍇",
@@ -684,7 +684,7 @@
 {
         "word": "ail",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧄",
@@ -703,7 +703,7 @@
 {
         "word": "beurre",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧈",
@@ -722,7 +722,7 @@
 {
         "word": "fromage",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧀",
@@ -741,7 +741,7 @@
 {
         "word": "sel",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧂",
@@ -760,7 +760,7 @@
 {
         "word": "poivre",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧂",
@@ -779,7 +779,7 @@
 {
         "word": "huile",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏺",
@@ -798,7 +798,7 @@
 {
         "word": "vinaigre",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏺",
@@ -815,7 +815,7 @@
         "word": "snack",
         "image": "images/vocabulary/actions/to have a snack.png",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥨",
         "form": "noun", "classification": "regular", "countability": "countable",
         "definitions": [{"text": "Une petite quantité de nourriture consommée entre les repas.", "examples": ["J'aime les snacks sains comme les fruits."]}],
@@ -828,7 +828,7 @@
         "word": "petit-déjeuner",
         "image": "images/vocabulary/actions/to have breakfast.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "☕",
@@ -848,7 +848,7 @@
         "word": "goûter",
         "image": "images/vocabulary/actions/to have a snack.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍪",
@@ -868,7 +868,7 @@
         "word": "déjeuner",
         "image": "images/vocabulary/actions/to have lunch.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍽️",
@@ -888,7 +888,7 @@
         "word": "dîner",
         "image": "images/vocabulary/actions/to have dinner.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍷",
@@ -907,7 +907,7 @@
 {
         "word": "souper",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥣",
@@ -926,7 +926,7 @@
 {
         "word": "collation",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍪",

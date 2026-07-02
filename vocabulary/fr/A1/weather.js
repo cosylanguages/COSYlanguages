@@ -3,7 +3,7 @@
 {
         "word": "soleil",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "article": "le",
         "gender": "masculine",
         "emoji": "☀️",
@@ -27,7 +27,7 @@
 {
         "word": "pluie",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌧️",
@@ -50,7 +50,7 @@
 {
         "word": "vent",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "article": "le",
         "gender": "masculine",
         "emoji": "💨",
@@ -73,7 +73,7 @@
 {
         "word": "printemps",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌱",
@@ -92,7 +92,7 @@
 {
         "word": "été",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "article": "l'",
         "gender": "masculine",
         "emoji": "☀️",
@@ -111,7 +111,7 @@
 {
         "word": "automne",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🍂",
@@ -130,7 +130,7 @@
 {
         "word": "hiver",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "article": "l'",
         "gender": "masculine",
         "emoji": "❄️",
@@ -149,7 +149,7 @@
 {
         "word": "parapluie",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "article": "le",
         "gender": "masculine",
         "emoji": "☂️",

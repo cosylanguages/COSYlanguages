@@ -4,7 +4,7 @@
         {
             "word": "кеше",
             "level": "starter",
-            "theme": "people_A1",
+            "theme": "people",
             "emoji": "👤",
             "form": "noun",
             "definitions": [
@@ -17,7 +17,7 @@
         {
             "word": "хатын-кыз",
             "level": "starter",
-            "theme": "people_A1",
+            "theme": "people",
             "emoji": "👩",
             "form": "noun",
             "definitions": [
@@ -30,7 +30,7 @@
         {
             "word": "ир-ат",
             "level": "starter",
-            "theme": "people_A1",
+            "theme": "people",
             "emoji": "👨",
             "form": "noun",
             "definitions": [

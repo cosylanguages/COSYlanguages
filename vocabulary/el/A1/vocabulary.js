@@ -4,7 +4,7 @@
         "word": "κήπος",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }]},
@@ -12,7 +12,7 @@
         "word": "γιατρός",
         "image": "images/vocabulary/jobs/doctor.png",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "ο",
         "gender": "masculine",
         "numberPlural": "2 γιατρός",
@@ -38,7 +38,7 @@
 {
         "word": "μπράτσο",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "το",
         "gender": "neuter",
         "emoji": "💪",
@@ -56,7 +56,7 @@
 {
         "word": "πόδι",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "το",
         "gender": "neuter",
         "numberPlural": "2 πόδι",
@@ -79,7 +79,7 @@
 {
         "word": "δάσκαλος",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "ο",
         "gender": "masculine",
         "emoji": "🧑‍🏫",
@@ -99,7 +99,7 @@
         "word": "μήλο",
         "image": "images/vocabulary/food/apple.png",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🍎",
@@ -118,7 +118,7 @@
         "word": "ψάρι",
         "image": "images/vocabulary/actions/to fish.png",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🐟",
@@ -139,7 +139,7 @@
 {
         "word": "ψωμί",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🍞",
@@ -159,7 +159,7 @@
 {
         "word": "αυγό",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🥚",
@@ -177,7 +177,7 @@
 {
         "word": "γάλα",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🥛",
@@ -196,7 +196,7 @@
 {
         "word": "ρύζι",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🍚",
@@ -216,7 +216,7 @@
 {
         "word": "κρέας",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🥩",
@@ -236,7 +236,7 @@
 {
         "word": "φαγητό",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🍲",
@@ -255,7 +255,7 @@
 {
         "word": "καφές",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "ο",
         "gender": "masculine",
         "emoji": "☕",
@@ -274,7 +274,7 @@
 {
         "word": "τσάι",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🍵",
@@ -293,7 +293,7 @@
 {
         "word": "νερό",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🚰",
@@ -369,7 +369,7 @@
 {
         "word": "μαγαζί",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "το",
         "gender": "neuter",
         "emoji": "🛒",
@@ -391,7 +391,7 @@
 {
         "word": "κεφάλι",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "το",
         "gender": "neuter",
         "emoji": "👤",
@@ -410,7 +410,7 @@
 {
         "word": "χέρι",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "το",
         "gender": "neuter",
         "emoji": "✋",
@@ -429,7 +429,7 @@
 {
         "word": "μάτι",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "το",
         "gender": "neuter",
         "emoji": "👁️",
@@ -448,7 +448,7 @@
 {
         "word": "στόμα",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "το",
         "gender": "neuter",
         "emoji": "👄",
@@ -467,7 +467,7 @@
 {
         "word": "αυτί",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "το",
         "gender": "neuter",
         "emoji": "👂",
@@ -486,7 +486,7 @@
 {
         "word": "πλάτη",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "η",
         "gender": "feminine",
         "emoji": "🚶",
@@ -505,7 +505,7 @@
         "word": "σπίτι",
         "image": "images/vocabulary/actions/to go home.png",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "το",
         "gender": "neuter",
         "emoji": "🏡",
@@ -524,7 +524,7 @@
 {
         "word": "διαμέρισμα",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "το",
         "gender": "neuter",
         "emoji": "🏢",
@@ -561,7 +561,7 @@
 {
         "word": "αυτοκίνητο",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "το",
         "gender": "neuter",
         "emoji": "🚗",
@@ -580,7 +580,7 @@
 {
         "word": "λεωφορείο",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "το",
         "gender": "neuter",
         "emoji": "🚌",
@@ -598,7 +598,7 @@
 {
         "word": "τρένο",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "το",
         "gender": "neuter",
         "emoji": "🚆",
@@ -616,7 +616,7 @@
 {
         "word": "λεφτά",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "τα",
         "gender": "neuter",
         "emoji": "💰",
@@ -634,7 +634,7 @@
 {
         "word": "πρωί",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "το",
         "gender": "neuter",
         "emoji": "🌅",
@@ -653,7 +653,7 @@
 {
         "word": "απόγευμα",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "το",
         "gender": "neuter",
         "emoji": "🌆",
@@ -674,7 +674,7 @@
 {
         "word": "βδομάδα",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "η",
         "gender": "feminine",
         "emoji": "📅",
@@ -695,7 +695,7 @@
 {
         "word": "δωμάτιο",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "το",
         "gender": "neuter",
         "emoji": "🚪",
@@ -715,7 +715,7 @@
 {
         "word": "κουζίνα",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "article": "η",
         "gender": "feminine",
         "emoji": "🍳",
@@ -734,7 +734,7 @@
 {
         "word": "τιμή",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "η",
         "gender": "feminine",
         "emoji": "🏷️",
@@ -793,7 +793,7 @@
 {
         "word": "νοσοκομείο",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "το",
         "gender": "neuter",
         "emoji": "🏥",
@@ -813,7 +813,7 @@
 {
         "word": "εστιατόριο",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "το",
         "gender": "neuter",
         "emoji": "🍴",
@@ -833,7 +833,7 @@
 {
         "word": "τράπεζα",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "η",
         "gender": "feminine",
         "emoji": "🏦",
@@ -852,7 +852,7 @@
 {
         "word": "σταθμός",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "ο",
         "gender": "masculine",
         "emoji": "🚉",
@@ -870,7 +870,7 @@
 {
         "word": "σούπερ μάρκετ",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "το",
         "gender": "neuter",
         "emoji": "🛒",
@@ -890,7 +890,7 @@
 {
         "word": "ήλιος",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "article": "ο",
         "gender": "masculine",
         "emoji": "☀️",
@@ -910,7 +910,7 @@
 {
         "word": "βροχή",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "article": "η",
         "gender": "feminine",
         "emoji": "🌧️",
@@ -930,7 +930,7 @@
 {
         "word": "αέρας",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "article": "ο",
         "gender": "masculine",
         "emoji": "💨",
@@ -951,7 +951,7 @@
 {
         "word": "βράδυ",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "το",
         "gender": "neuter",
         "emoji": "🌃",
@@ -974,7 +974,7 @@
 {
         "word": "νύχτα",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "η",
         "gender": "feminine",
         "emoji": "🌙",
@@ -996,7 +996,7 @@
 {
         "word": "φρούτο",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🍎",
@@ -1015,7 +1015,7 @@
 {
         "word": "λαχανικό",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🥦",
@@ -1034,7 +1034,7 @@
 {
         "word": "μπύρα",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "η",
         "gender": "feminine",
         "emoji": "🍺",
@@ -1054,7 +1054,7 @@
 {
         "word": "κρασί",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🍷",
@@ -1074,7 +1074,7 @@
 {
         "word": "νοσοκόμα",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "η",
         "gender": "feminine",
         "emoji": "🧑‍⚕️",
@@ -1094,7 +1094,7 @@
 {
         "word": "οδηγός",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "ο",
         "gender": "masculine",
         "emoji": "🚗",
@@ -1113,7 +1113,7 @@
 {
         "word": "μάγειρας",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "ο",
         "gender": "masculine",
         "emoji": "👨‍🍳",
@@ -1135,7 +1135,7 @@
 {
         "word": "διευθυντής",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "ο",
         "gender": "masculine",
         "emoji": "🧑‍💼",
@@ -1157,7 +1157,7 @@
 {
         "word": "αεροπλάνο",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "το",
         "gender": "neuter",
         "emoji": "✈️",
@@ -1177,7 +1177,7 @@
 {
         "word": "ποδήλατο",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "article": "το",
         "gender": "neuter",
         "emoji": "🚲",
@@ -1219,7 +1219,7 @@
 {
         "word": "άντρας",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "article": "ο",
         "gender": "masculine",
         "emoji": "👨",
@@ -1241,7 +1241,7 @@
 {
         "word": "γυναίκα",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "article": "η",
         "gender": "feminine",
         "emoji": "👩",
@@ -1262,7 +1262,7 @@
         "word": "γένια",
         "image": "images/vocabulary/appearance/stubble.bristle.png",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "🧔",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Κοντές σκληρές τρίχες που μεγαλώνουν στο πρόσωπο ενός άνδρα όταν δεν έχει ξυριστεί για μερικές ημέρες.", "examples": ["Έχει λίγα γένια."]}],
@@ -1272,7 +1272,7 @@
 {
         "word": "παιδί",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "το",
         "gender": "neuter",
         "emoji": "👶",
@@ -1294,7 +1294,7 @@
 {
         "word": "γονέας",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "ο",
         "gender": "masculine",
         "emoji": "👪",
@@ -1316,7 +1316,7 @@
 {
         "word": "πίτσα",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "η",
         "gender": "feminine",
         "emoji": "🍕",
@@ -1335,7 +1335,7 @@
 {
         "word": "ζυμαρικά",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "τα",
         "gender": "neuter",
         "emoji": "🍝",
@@ -1356,7 +1356,7 @@
 {
         "word": "μπανάνα",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "article": "η",
         "gender": "feminine",
         "emoji": "🍌",
@@ -1377,7 +1377,7 @@
         "word": "σνακ",
         "image": "images/vocabulary/actions/to have a snack.png",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥨",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Μια μικρή ποσότητα φαγητού που τρώγεται ανάμεσα στα γεύματα.", "examples": ["Μου αρέσουν τα υγιεινά σνακ όπως τα φρούτα."]}],
@@ -1386,7 +1386,7 @@
 {
         "word": "χυμός",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "article": "ο",
         "gender": "masculine",
         "emoji": "🧃",
@@ -1405,7 +1405,7 @@
 {
         "word": "πάρκο",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "το",
         "gender": "neuter",
         "emoji": "🏞️",
@@ -1424,7 +1424,7 @@
         "word": "σχολείο",
         "image": "images/vocabulary/actions/to go to school.png",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "school",
         "article": "το",
         "gender": "neuter",
         "emoji": "🏫",
@@ -1442,7 +1442,7 @@
 {
         "word": "μπλουζάκι",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "το",
         "gender": "neuter",
         "emoji": "👕",
@@ -1460,7 +1460,7 @@
 {
         "word": "παντελόνι",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "το",
         "gender": "neuter",
         "emoji": "👖",
@@ -1478,7 +1478,7 @@
 {
         "word": "παπούτσι",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "το",
         "gender": "neuter",
         "emoji": "👞",
@@ -1499,7 +1499,7 @@
 {
         "word": "καπέλο",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "article": "το",
         "gender": "neuter",
         "emoji": "👒",
@@ -1544,7 +1544,7 @@
 {
         "word": "τηλέφωνο",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "το",
         "gender": "neuter",
         "emoji": "☎️",
@@ -1618,7 +1618,7 @@
 {
         "word": "γάτα",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "η",
         "gender": "feminine",
         "emoji": "🐱",
@@ -1640,7 +1640,7 @@
 {
         "word": "σκύλος",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "ο",
         "gender": "masculine",
         "emoji": "🐶",
@@ -1659,7 +1659,7 @@
 {
         "word": "πουλί",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "το",
         "gender": "neuter",
         "emoji": "🐦",
@@ -1679,7 +1679,7 @@
         "word": "ψάρι",
         "image": "images/vocabulary/nature/fish.png",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "το",
         "gender": "neuter",
         "emoji": "🐟",
@@ -1698,7 +1698,7 @@
 {
         "word": "πόδι",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "το",
         "gender": "neuter",
         "emoji": "🦵",
@@ -1717,7 +1717,7 @@
 {
         "word": "μύτη",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
         "article": "η",
         "gender": "feminine",
         "emoji": "👃",
@@ -1736,7 +1736,7 @@
 {
         "word": "έξυπνο τηλέφωνο",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "article": "το",
         "gender": "neuter",
         "emoji": "📱",
@@ -1754,7 +1754,7 @@
 {
         "word": "μητέρα",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "η",
         "gender": "feminine",
         "emoji": "👩",
@@ -1776,7 +1776,7 @@
 {
         "word": "πατέρας",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "ο",
         "gender": "masculine",
         "emoji": "👨",
@@ -1799,7 +1799,7 @@
         "word": "δουλειά",
         "image": "images/vocabulary/actions/to go to work.png",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "article": "η",
         "gender": "feminine",
         "emoji": "💼",
@@ -1817,7 +1817,7 @@
 {
         "word": "εργασία",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "article": "η",
         "gender": "feminine",
         "emoji": "🏢",
@@ -1839,7 +1839,7 @@
         "word": "σπίτι",
         "image": "images/vocabulary/actions/to go home.png",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "το",
         "gender": "neuter",
         "emoji": "🏠",
@@ -1859,7 +1859,7 @@
         "word": "πρωινό",
         "image": "images/vocabulary/actions/to have breakfast.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🍳",
@@ -1878,7 +1878,7 @@
         "word": "βραδινό",
         "image": "images/vocabulary/actions/to have dinner.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🍽️",
@@ -1896,7 +1896,7 @@
 {
         "word": "φίλος",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "article": "ο",
         "gender": "masculine",
         "emoji": "👬",
@@ -1915,7 +1915,7 @@
 {
         "word": "ημέρα",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "η",
         "gender": "feminine",
         "emoji": "☀️",
@@ -1934,7 +1934,7 @@
         "word": "μεσημεριανό",
         "image": "images/vocabulary/actions/to have lunch.png",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "article": "το",
         "gender": "neuter",
         "emoji": "🥪",
@@ -1952,7 +1952,7 @@
 {
         "word": "αφεντικό",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "το",
         "gender": "neuter",
         "emoji": "👤",
@@ -1971,7 +1971,7 @@
 {
         "word": "συνάδελφος",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "ο",
         "gender": "masculine",
         "emoji": "🤝",
@@ -1993,7 +1993,7 @@
 {
         "word": "μισθός",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "ο",
         "gender": "masculine",
         "emoji": "💰",
@@ -2012,7 +2012,7 @@
 {
         "word": "συνάντηση",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "article": "η",
         "gender": "feminine",
         "emoji": "📅",
@@ -2049,7 +2049,7 @@
 {
         "word": "άγχος",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "article": "το",
         "gender": "neuter",
         "emoji": "😫",
@@ -2067,7 +2067,7 @@
 {
         "word": "ενοίκιο",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "το",
         "gender": "neuter",
         "emoji": "🏠",
@@ -2086,7 +2086,7 @@
 {
         "word": "γείτονας",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "ο",
         "gender": "masculine",
         "emoji": "🏘️",
@@ -2105,7 +2105,7 @@
 {
         "word": "ύπνος",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "ο",
         "gender": "masculine",
         "emoji": "😴",
@@ -2126,7 +2126,7 @@
 {
         "word": "άσκηση",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "article": "η",
         "gender": "feminine",
         "emoji": "🏋️",
@@ -2145,7 +2145,7 @@
 {
         "word": "τιμή",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "η",
         "gender": "feminine",
         "emoji": "🏷️",
@@ -2163,7 +2163,7 @@
 {
         "word": "κόστος",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "το",
         "gender": "neuter",
         "emoji": "💸",
@@ -2180,7 +2180,7 @@
 {
         "word": "σχέση",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "article": "η",
         "gender": "feminine",
         "emoji": "❤️",
@@ -2199,7 +2199,7 @@
 {
         "word": "μαζί",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "👫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "δουλεύουμε μαζί",
@@ -2215,7 +2215,7 @@
 {
         "word": "διακοπές",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "article": "οι",
         "gender": "feminine",
         "emoji": "🏖️",
@@ -2233,7 +2233,7 @@
 {
         "word": "ξενοδοχείο",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "article": "το",
         "gender": "neuter",
         "emoji": "🏨",
@@ -2252,7 +2252,7 @@
 {
         "word": "ελεύθερος χρόνος",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "article": "ο",
         "gender": "masculine",
         "emoji": "🧘",
@@ -2289,7 +2289,7 @@
 {
         "word": "απόγευμα",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "article": "το",
         "gender": "neuter",
         "emoji": "🌆",
@@ -2307,7 +2307,7 @@
 {
         "word": "σύζυγος",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "ο/η",
         "gender": "both",
         "emoji": "💍",

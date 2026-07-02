@@ -4,7 +4,7 @@
         "word": "giardino",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{ "text": "Un giardino pubblico o un parco.", "examples": [] }],
@@ -12,7 +12,7 @@
 {
         "word": "parco",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "il",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -36,7 +36,7 @@
         "word": "scuola",
         "image": "images/vocabulary/actions/to go to school.png",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "la",
         "emoji": "🏫",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -63,7 +63,7 @@
 {
         "word": "affitto",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "article": "l'",
         "emoji": "🏠",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -86,7 +86,7 @@
 {
         "word": "vicino",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "il",
         "emoji": "🏠",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -109,7 +109,7 @@
 {
         "word": "hotel",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏨",
@@ -132,7 +132,7 @@
 {
         "word": "ospedale",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏥",
@@ -155,7 +155,7 @@
 {
         "word": "ristorante",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍴",
@@ -178,7 +178,7 @@
 {
         "word": "banca",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏦",
@@ -201,7 +201,7 @@
 {
         "word": "stazione",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚉",
@@ -224,7 +224,7 @@
 {
         "word": "supermercato",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛒",
@@ -247,7 +247,7 @@
 {
         "word": "farmacia",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "💊",
@@ -270,7 +270,7 @@
 {
         "word": "strada",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
@@ -293,7 +293,7 @@
 {
         "word": "edificio",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
@@ -316,7 +316,7 @@
 {
         "word": "bar",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "☕",
@@ -339,7 +339,7 @@
 {
         "word": "centro",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "📍",
@@ -362,7 +362,7 @@
 {
         "word": "quartiere",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "📍",
@@ -407,7 +407,7 @@
 {
         "word": "città",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
@@ -434,7 +434,7 @@
 {
         "word": "paese",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "🗺️",
@@ -457,7 +457,7 @@
 {
         "word": "mensa",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
@@ -480,7 +480,7 @@
 {
         "word": "via",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
@@ -503,7 +503,7 @@
 {
         "word": "sentiero",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "👣",
@@ -526,7 +526,7 @@
 {
         "word": "piazza",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
@@ -549,7 +549,7 @@
 {
         "word": "villaggio",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏘️",
@@ -574,7 +574,7 @@
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "indirizzi",
         "word": "indirizzo",
-        "theme": "address_location_A1",
+        "theme": "places",
         "gender": "masculine",
         "article": "l'",
         "partitive": "dell'",

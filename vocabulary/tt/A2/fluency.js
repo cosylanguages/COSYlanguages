@@ -322,7 +322,7 @@
             "Сез аны дустыгызга киңәш итәр идегезме?"
         ],
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "tt",
         "form": "phrase",
         "transcription": "",

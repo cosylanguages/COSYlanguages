@@ -3,7 +3,7 @@
 {
         "word": "chat",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "le",
         "baseWord": "chat",
         "emoji": "🐈",
@@ -28,7 +28,7 @@
 {
         "word": "chien",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "le",
         "baseWord": "chien",
         "emoji": "🐕",
@@ -53,7 +53,7 @@
 {
         "word": "oiseau",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "l'",
         "emoji": "🐦",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -76,7 +76,7 @@
         "word": "poisson",
         "image": "images/vocabulary/nature/fish.png",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "le",
         "emoji": "🐟",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -98,7 +98,7 @@
 {
         "word": "lion",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "le",
         "gender": "masculine",
         "emoji": "🦁",
@@ -117,7 +117,7 @@
 {
         "word": "éléphant",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🐘",
@@ -136,7 +136,7 @@
 {
         "word": "lapin",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "le",
         "gender": "masculine",
         "emoji": "🐰",
@@ -155,7 +155,7 @@
 {
         "word": "cheval",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "le",
         "gender": "masculine",
         "emoji": "🐴",
@@ -178,7 +178,7 @@
 {
         "word": "vache",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "la",
         "gender": "feminine",
         "emoji": "🐮",
@@ -201,7 +201,7 @@
 {
         "word": "cochon",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "le",
         "gender": "masculine",
         "emoji": "🐷",
@@ -220,7 +220,7 @@
 {
         "word": "mouton",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "article": "le",
         "gender": "masculine",
         "emoji": "🐑",
@@ -239,7 +239,7 @@
 {
         "word": "tigre",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐅",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -259,7 +259,7 @@
 {
         "word": "singe",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐒",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",

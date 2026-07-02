@@ -4,7 +4,7 @@
     {
         "word": "Albert Einstein",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "👨‍🔬",
         "definitions": [
             {
@@ -21,7 +21,7 @@
     {
         "word": "Taylor Swift",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "🎤",
         "definitions": [
             {
@@ -38,7 +38,7 @@
     {
         "word": "Cristiano Ronaldo",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "⚽",
         "definitions": [
             {
@@ -55,7 +55,7 @@
     {
         "word": "Lionel Messi",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "⚽",
         "definitions": [
             {
@@ -72,7 +72,7 @@
     {
         "word": "Beyoncé",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "🎤",
         "definitions": [
             {
@@ -89,7 +89,7 @@
     {
         "word": "Elon Musk",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "🚀",
         "definitions": [
             {
@@ -106,7 +106,7 @@
     {
         "word": "Rainha Isabel II",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "👑",
         "definitions": [
             {
@@ -123,7 +123,7 @@
     {
         "word": "Marie Curie",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "🧪",
         "definitions": [
             {
@@ -140,7 +140,7 @@
     {
         "word": "Leonardo da Vinci",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "🎨",
         "definitions": [
             {
@@ -157,7 +157,7 @@
     {
         "word": "Nelson Mandela",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "🇿🇦",
         "definitions": [
             {
@@ -174,7 +174,7 @@
     {
         "word": "William Shakespeare",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "✍️",
         "definitions": [
             {

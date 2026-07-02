@@ -3,7 +3,7 @@
 {
         "word": "argent",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "l'",
         "gender": "masculine",
         "emoji": "💰",
@@ -27,7 +27,7 @@
 {
         "word": "salaire",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "le",
         "emoji": "💰",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -50,7 +50,7 @@
 {
         "word": "ticket",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎟️",
@@ -69,7 +69,7 @@
 {
         "word": "reçu",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "📄",
@@ -88,7 +88,7 @@
 {
         "word": "facture",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "💳",
@@ -107,7 +107,7 @@
 {
         "word": "carte bancaire",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "💳",
@@ -126,7 +126,7 @@
 {
         "word": "espèces",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "les",
         "gender": "feminine",
         "emoji": "💵",
@@ -145,7 +145,7 @@
 {
         "word": "cadeau",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎁",
@@ -164,7 +164,7 @@
 {
         "word": "prix",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏷️",
@@ -183,7 +183,7 @@
 {
         "word": "achat",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛒",
@@ -202,7 +202,7 @@
 {
         "word": "magasin",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏪",
@@ -221,7 +221,7 @@
 {
         "word": "centre commercial",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏬",
@@ -240,7 +240,7 @@
 {
         "word": "monnaie",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪙",
@@ -259,7 +259,7 @@
 {
         "word": "compte",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏦",
@@ -278,7 +278,7 @@
 {
         "word": "banque",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏢",
@@ -297,7 +297,7 @@
 {
         "word": "épargne",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "l'",
         "gender": "feminine",
         "emoji": "💰",
@@ -316,7 +316,7 @@
 {
         "word": "dépense",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "💸",
@@ -335,7 +335,7 @@
 {
         "word": "paiement",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "💳",
@@ -354,7 +354,7 @@
 {
         "word": "coût",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "💰",
@@ -373,7 +373,7 @@
 {
         "word": "marché",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏢",
@@ -392,7 +392,7 @@
 {
         "word": "produit",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "📦",
@@ -411,7 +411,7 @@
 {
         "word": "offre",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏷️",
@@ -430,7 +430,7 @@
 {
         "word": "demande",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "❓",
@@ -449,7 +449,7 @@
 {
         "word": "livraison",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚚",
@@ -468,7 +468,7 @@
 {
         "word": "commande",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
@@ -487,7 +487,7 @@
 {
         "word": "vente",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏷️",
@@ -506,7 +506,7 @@
 {
         "word": "boutique",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
@@ -525,7 +525,7 @@
 {
         "word": "portefeuille",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "👛",

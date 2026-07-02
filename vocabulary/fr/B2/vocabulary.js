@@ -372,7 +372,7 @@
 
         "transcription": "diskuʁ",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "article": "le",
         "emoji": "🗣️",
         "form": "noun", "classification": "regular",
@@ -415,7 +415,7 @@
 
         "transcription": "kɔ̃sɛ̃sys",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "article": "le",
         "emoji": "🤝",
         "form": "noun", "classification": "regular",
@@ -459,7 +459,7 @@
 
         "transcription": "paʁti pʁi",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "article": "le",
         "emoji": "⚖️❌",
         "form": "noun phrase",
@@ -675,7 +675,7 @@
 
         "transcription": "alɔʁ kə",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "emoji": "⚖️",
         "form": "conjunction",
         "subtext": "",
@@ -695,7 +695,7 @@
 
         "transcription": "neɑ̃mwɛ̃",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "emoji": "🏃‍♂️",
         "form": "adverb",
         "subtext": "",
@@ -715,7 +715,7 @@
 
         "transcription": "dɑ̃ kɛl məzyʁ",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "emoji": "📏",
         "form": "phrase",
         "definitions": [
@@ -733,7 +733,7 @@
 
         "transcription": "paʁ kɔ̃tʁ",
         "level": "upper_intermediate",
-        "theme": "formal_debate_vocab",
+        "theme": "language",
         "emoji": "🌓",
         "form": "phrase",
         "subtext": "",

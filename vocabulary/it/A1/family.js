@@ -3,7 +3,7 @@
 {
         "word": "madre",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
@@ -33,7 +33,7 @@
 {
         "word": "padre",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👨",
@@ -63,7 +63,7 @@
 {
         "word": "famiglia",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👪",
@@ -86,7 +86,7 @@
 {
         "word": "amico",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👫",
@@ -114,7 +114,7 @@
 {
         "word": "relazione",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "article": "la",
         "emoji": "❤️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -140,7 +140,7 @@
 {
         "word": "insieme",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "emoji": "👫",
         "form": "adverb",
         "opposite": "solo",
@@ -161,7 +161,7 @@
 {
         "word": "marito",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👨",
@@ -189,7 +189,7 @@
 {
         "word": "moglie",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
@@ -217,7 +217,7 @@
 {
         "word": "bambino",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👶",
@@ -243,7 +243,7 @@
 {
         "word": "genitore",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👪",
@@ -268,7 +268,7 @@
 {
         "word": "sorella",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
@@ -296,7 +296,7 @@
 {
         "word": "fratello",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👦",
@@ -324,7 +324,7 @@
 {
         "word": "figlio",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👦",
@@ -352,7 +352,7 @@
 {
         "word": "figlia",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
@@ -380,7 +380,7 @@
 {
         "word": "nonno",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👴",
@@ -403,7 +403,7 @@
 {
         "word": "nonna",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👵",
@@ -426,7 +426,7 @@
 {
         "word": "zio",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "people",
         "article": "lo",
         "gender": "masculine",
         "emoji": "👨",
@@ -449,7 +449,7 @@
 {
         "word": "zia",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
@@ -472,7 +472,7 @@
 {
         "word": "cugino",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑",
@@ -495,7 +495,7 @@
 {
         "word": "neonato",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👶",
@@ -518,7 +518,7 @@
 {
         "word": "ospite",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "social",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👤",
@@ -541,7 +541,7 @@
 {
         "word": "nipote",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧒",

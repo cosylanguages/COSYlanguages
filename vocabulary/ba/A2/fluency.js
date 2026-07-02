@@ -322,7 +322,7 @@
             "Һеҙ аны дуҫығыҙға кәңәш итер инегеҙме?"
         ],
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "lang": "ba",
         "form": "phrase",
         "transcription": "",

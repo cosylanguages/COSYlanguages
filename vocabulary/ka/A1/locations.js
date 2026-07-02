@@ -4,67 +4,67 @@
     {
         "word": "საფრანგეთი",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "იტალია",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "რუსეთი",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "საბერძნეთი",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "ინგლისი",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "ესპანეთი",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "აშშ",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "პარიზი",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "ლონდონი",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "რომი",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "მოსკოვი",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "ათენი",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     },
     {
         "word": "ნიუ-იორკი",
         "level": "starter",
-        "theme": "address_location_A1"
+        "theme": "places"
     }
 ]
     const lang = "ka";

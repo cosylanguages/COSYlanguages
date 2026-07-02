@@ -422,7 +422,7 @@
     {
         "word": "диван",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "gender": "masculine",
         "emoji": "🛋️",
         "form": "noun",
@@ -441,7 +441,7 @@
     {
         "word": "лампа",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "gender": "feminine",
         "emoji": "💡",
         "form": "noun",
@@ -460,7 +460,7 @@
     {
         "word": "письменный стол",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "gender": "masculine",
         "emoji": "⌨️",
         "form": "noun",
@@ -1249,4 +1249,6 @@
         "id": "ru_elementary_environment_007"
     }
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['ru'] = [...(window.vocabularyData['ru'] || []), ...data];
 })();

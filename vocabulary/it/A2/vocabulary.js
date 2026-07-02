@@ -428,7 +428,7 @@
     {
         "word": "divano",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "article": "il",
         "emoji": "🛋️",
         "form": "noun",
@@ -447,7 +447,7 @@
     {
         "word": "lampada",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "article": "la",
         "emoji": "💡",
         "form": "noun",
@@ -466,7 +466,7 @@
     {
         "word": "scrivania",
         "level": "elementary",
-        "theme": "furniture",
+        "theme": "places",
         "article": "la",
         "emoji": "⌨️",
         "form": "noun",
@@ -1247,4 +1247,6 @@
         "id": "it_elementary_environment_007"
     }
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData['it'] = [...(window.vocabularyData['it'] || []), ...data];
 })();
