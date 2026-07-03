@@ -31,19 +31,23 @@
   <div class="session-meta-grid">
     <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
     <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇪🇸 🇮🇹 🇷🇺</p></div>
-    <div class="meta-item"><h4>Level</h4><p>A1 – C2</p></div>
+    <div class="meta-item"><h4>Level</h4><p>B1 – C2</p></div>
     <div class="meta-item"><h4>Resources</h4><p><a href="#" target="_blank">Full Article 📖</a></p></div>
   </div>
   <section id="vocabulary">
     <h2 class="section-title">📖 Session Vocabulary</h2>
     <div class="vocab-grid-10">
-      <!-- 10 Vocabulary Cards -->
-      <div class="vocab-card">
-        <div class="vocab-word">Word</div>
-        <div class="vocab-def">definition.</div>
-        <div class="vocab-example">Example sentence.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Word', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button>
-      </div>
+      <!-- 10 units required. Format: Word – definition. Example: Sentence. -->
+      <div class="vocab-card"><div class="vocab-word">Word 1</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 1', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 2</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 2', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 3</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 3', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 4</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 4', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 5</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 5', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 6</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 6', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 7</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 7', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 8</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 8', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 9</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 9', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 10</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 10', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
     </div>
   </section>
   <section id="structure">
@@ -67,10 +71,18 @@
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Quiz / Discussion</div>
-          <div class="round-item">
-            <div class="round-item-main">Question about traditions or symbols.</div>
-            <div class="round-item-personal">★ Personal experience question.</div>
-          </div>
+          <div class="vim-instruction">10 items required. Use .round-item-main and .round-item-personal.</div>
+          <!-- 10 round items -->
+          <div class="round-item"><div class="round-item-main">Tradition 1?</div><div class="round-item-personal">★ Personal experience 1?</div></div>
+          <div class="round-item"><div class="round-item-main">Tradition 2?</div><div class="round-item-personal">★ Personal experience 2?</div></div>
+          <div class="round-item"><div class="round-item-main">Tradition 3?</div><div class="round-item-personal">★ Personal experience 3?</div></div>
+          <div class="round-item"><div class="round-item-main">Tradition 4?</div><div class="round-item-personal">★ Personal experience 4?</div></div>
+          <div class="round-item"><div class="round-item-main">Tradition 5?</div><div class="round-item-personal">★ Personal experience 5?</div></div>
+          <div class="round-item"><div class="round-item-main">Tradition 6?</div><div class="round-item-personal">★ Personal experience 6?</div></div>
+          <div class="round-item"><div class="round-item-main">Tradition 7?</div><div class="round-item-personal">★ Personal experience 7?</div></div>
+          <div class="round-item"><div class="round-item-main">Tradition 8?</div><div class="round-item-personal">★ Personal experience 8?</div></div>
+          <div class="round-item"><div class="round-item-main">Tradition 9?</div><div class="round-item-personal">★ Personal experience 9?</div></div>
+          <div class="round-item"><div class="round-item-main">Tradition 10?</div><div class="round-item-personal">★ Personal experience 10?</div></div>
         </div>
       </div>
       <div class="round-block lst open" id="s-lst">
@@ -87,9 +99,18 @@
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Debate</div>
-          <div class="round-item">
-            <div class="round-item-main">Discussion about modern changes to the celebration.</div>
-          </div>
+          <div class="vim-instruction">10 items required. Discuss modern changes to the celebration.</div>
+          <!-- 10 round items -->
+          <div class="round-item"><div class="round-item-main">Modernization 1</div></div>
+          <div class="round-item"><div class="round-item-main">Modernization 2</div></div>
+          <div class="round-item"><div class="round-item-main">Modernization 3</div></div>
+          <div class="round-item"><div class="round-item-main">Modernization 4</div></div>
+          <div class="round-item"><div class="round-item-main">Modernization 5</div></div>
+          <div class="round-item"><div class="round-item-main">Modernization 6</div></div>
+          <div class="round-item"><div class="round-item-main">Modernization 7</div></div>
+          <div class="round-item"><div class="round-item-main">Modernization 8</div></div>
+          <div class="round-item"><div class="round-item-main">Modernization 9</div></div>
+          <div class="round-item"><div class="round-item-main">Modernization 10</div></div>
         </div>
       </div>
       <div class="mistake-block open" id="s-mistakes">

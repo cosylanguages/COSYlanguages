@@ -1,50 +1,65 @@
+/**
+ * COSYlanguages Vocabulary Template
+ *
+ * Follow SCHEMA.md for field requirements and CONTENT_ARCHITECTURE.md for codes.
+ * File naming: theme-slug.js (e.g., food-drink.js)
+ */
 (function() {
-    const lang = 'xx'; // ISO 639-1 code (e.g., 'en', 'fr', 'ru')
+    const lang = 'xx'; // ISO code: en | fr | it | ru | el | es | de | pt | hy | ka | tt | ba | br
     const data = [
         {
+            /**
+             * REQUIRED FIELDS
+             * id format: {lang}_{level}_{theme_slug}_{sequence}
+             */
             "id": "xx_level_theme_001",
             "word": "word",
             "lang": "xx",
-            "level": "level", // starter | elementary | intermediate | upper_intermediate | advanced | proficiency
-            "theme": "theme", // from THEMES.md
-            "form": "pos", // noun | verb | adjective | adverb | phrase | other
+            "level": "starter", // starter | elementary | intermediate | upper_intermediate | advanced | proficiency
+            "theme": "theme",   // Slug from CONTENT_ARCHITECTURE.md (e.g., animals, food_drink)
+            "form": "noun",     // noun | verb | adjective | adverb | phrase | other
             "definitions": [
                 {
-                    "text": "A clear definition in the target language adapted to the CEFR level.",
+                    "text": "Definition in the target language.",
                     "examples": [
-                        "An example sentence in the target language illustrating usage."
+                        "Example sentence in the target language."
                     ]
                 }
             ],
-            "transcription": "ipa_transcription",
+            "transcription": "ipa_transcription", // No brackets or slashes
             "emoji": "✨",
+
+            /**
+             * OPTIONAL FIELDS (strongly recommended for B1+)
+             */
+            "sub_theme": null,    // Optional sub-theme from CONTENT_ARCHITECTURE.md
+            "synonyms": [],       // Array of strings
+            "antonyms": [],       // Array of strings
+            "collocations": [],   // Array of strings in the target language
+            "subtext": "",        // Usage note or register info
+            "etymology": {
+                "origin_lang": "Language", // Required if etymology object is present
+                "origin_word": "",
+                "origin_meaning": "",
+                "entered_via": "",
+                "notes": ""
+            },
             "grammar_refs": [
                 {
                     "layer": "morphology", // morphology | syntax | phonology | particles
-                    "category": "verbs", // verbs | nouns | adjectives | etc.
-                    "group_id": "grammar_group_id"
+                    "category": "verbs",    // verbs | nouns | adjectives | etc.
+                    "group_id": ""
                 }
-            ],
-            // Optional Fields
-            "sub_theme": null,
-            "synonyms": ["synonym1", "synonym2"],
-            "antonyms": ["antonym1"],
-            "collocations": ["common collocation 1", "common collocation 2"],
-            "subtext": "Usage note or cultural context.",
-            "etymology": {
-                "origin_lang": "Language", // Required if etymology object is present
-                "origin_word": "original_word",
-                "origin_meaning": "original meaning",
-                "entered_via": "Intermediate Language",
-                "notes": "Any additional historical notes."
-            }
+            ]
         }
     ];
 
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 
-    // For specialized speaking files (debates.js, opinions.js, etc.) use:
-    // window.speakingData = window.speakingData || {};
-    // window.speakingData[lang] = [...(window.speakingData[lang] || []), ...data];
+    /**
+     * NOTE: For files in speaking/ folder (debates.js, opinions.js, etc.):
+     * window.speakingData = window.speakingData || {};
+     * window.speakingData[lang] = [...(window.speakingData[lang] || []), ...data];
+     */
 })();

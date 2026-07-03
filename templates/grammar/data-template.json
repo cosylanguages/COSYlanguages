@@ -1,37 +1,34 @@
 {
-  "language": "xx",
-  "category": "category_name",
-  "layer": "morphology",
+  "language": "xx", // ISO code: en | fr | it | ru | el | es | de | pt | hy | ka | tt | ba | br
+  "category": "verbs", // verbs | nouns | adjectives | etc.
+  "layer": "morphology", // morphology | syntax | phonology | particles
   "groups": [
     {
       "id": "group_unique_id",
       "label": "Grammar Group Label",
-      "level": "A1",
-      "definition": "Simple explanation of the concept in the target language.",
+      "level": "starter", // starter | elementary | intermediate | upper_intermediate | advanced | proficiency
+      "definition": "Explanation of the concept in the target language at the appropriate level.",
       "emoji": "✨",
       "rules": [
         {
           "rule": "The grammar rule in the target language.",
           "level": "A1",
-          "explanation": "Simple explanation of the rule.",
-          "example": "Example sentence.",
-          "counter_example": "Incorrect form (optional)."
+          "explanation": "Explanation of the rule in the target language.",
+          "example": "Correct example sentence.",
+          "counter_example": "Incorrect form to avoid (optional, B1+ recommended)."
         }
       ],
       "examples": [
-        "Additional example sentence 1.",
-        "Additional example sentence 2."
+        "Additional example sentence."
       ],
       "exceptions": [
-        "Exception 1",
-        "Exception 2"
+        "Exception or irregular form."
       ],
       "word_ids": [
-        "xx_pos_word_001",
-        "xx_pos_word_002"
+        "xx_level_theme_001" // Reference to vocabulary IDs
       ],
       "practice_links": [
-        "grammar/xx/morphology/xx-lesson.html"
+        "grammar/xx/layer/lesson-slug.html"
       ]
     }
   ]
