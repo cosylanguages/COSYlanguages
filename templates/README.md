@@ -7,9 +7,10 @@ This directory contains standardized templates for adding new languages or conte
 - `vocabulary/`: Templates for vocabulary data files (`.js`).
 - `grammar/`: Templates for grammar roadmaps (`.html`), interactive lessons (`.html`), and grammar data (`.json`).
 - `curriculum/`: Templates for course curriculum data (`.json`).
-- `events/`: Templates for Speaking Club session pages (`.html`).
+- `events/`: Standard and specialized Speaking Club session templates (`.html`). Includes variants for Debate, Science, Quotes, Life, Celebrate, and Mind clubs.
 - `languages/`: Templates for language-specific home pages (`.html`).
-- `games/`: Templates for game-specific data files (`.js`).
+- `games/`: Game-specific data files (`.js`) and a full game scaffold (`/scaffold`) for building new interactive games.
+- `practice/`: Template for creating new practice types (`.js`).
 
 ## Usage Instructions
 
@@ -21,11 +22,16 @@ This directory contains standardized templates for adding new languages or conte
 5.  **Game Data:** Copy `games/game-data-template.js` to `games/data/[lang]/game_data.js`.
 
 ### 2. New Speaking Club Session
-1.  Copy `events/session-template.html` to `events/sessions/[session-slug].html`.
-2.  Follow the **10-10-10** rule: 10 vocabulary items, 10 Round 1 questions, and 10 Round 2 items.
-3.  Ensure all relative paths (e.g., `../../css/...`) are correct based on the file depth.
+1.  Choose a template from `events/` that matches the club category (e.g., `debate-session-template.html` for "Debatable & Relatable").
+2.  Copy it to `events/sessions/[session-slug].html`.
+3.  Follow the **10-10-10** rule: 10 vocabulary items, 10 Round 1 questions, and 10 Round 2 items.
+4.  Ensure all relative paths (e.g., `../../css/...`) are correct based on the file depth.
 
-### 3. New Grammar Lesson
+### 3. New Game or Practice Type
+- **Game Scaffold:** Use `games/scaffold/` as a starting point for new interactive games. It includes a basic UI structure (`index.html`) and state management (`game.js`).
+- **Practice Type:** Copy `practice/practice-type-template.js` to a new folder in `practice/types/[new-type]/` to implement custom logic for loading and transforming data into practice tasks.
+
+### 4. New Grammar Lesson
 1.  Copy `grammar/lesson-template.html` to `grammar/[lang]/[layer]/[lesson-slug].html`.
 2.  Define the rules and interactive quiz questions in the script block.
 
