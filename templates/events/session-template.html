@@ -42,7 +42,7 @@
 
 <nav id="cosy-nav"></nav>
 
-<header class="session-hero" style="background: linear-gradient(135deg, #0F6E56, #073b2d);">
+<header class="session-hero" style="background: linear-gradient(135deg, #4A6B50, #2C3E2F);">
   <div class="club-tag">Club Category</div>
   <h1>Session Title</h1>
   <p class="session-date">DD Month YYYY</p>
@@ -53,11 +53,11 @@
   <nav class="cosy-breadcrumbs">
     <a href="../../">Home</a> <span class="sep">/</span>
     <a href="../">Events</a> <span class="sep">/</span>
-    <a href="../club-page.html">Club Name</a> <span class="sep">/</span>
+    <a href="../club-index.html">Club Name</a> <span class="sep">/</span>
     <span class="current">Session Title</span>
   </nav>
 
-  <a href="../club-page.html" class="back-link">← Back to Club</a>
+  <a href="../club-index.html" class="back-link">← Back to Club</a>
 
   <div class="session-meta-grid">
     <div class="meta-item">
@@ -66,7 +66,7 @@
     </div>
     <div class="meta-item">
       <h4>Languages</h4>
-      <p>🇬🇧 🇫🇷 🇮🇹</p>
+      <p>🇬🇧 🇫🇷 🇮🇹 🇷🇺 🇬🇷</p>
     </div>
     <div class="meta-item">
       <h4>Level</h4>
@@ -74,7 +74,7 @@
     </div>
     <div class="meta-item">
       <h4>Resources</h4>
-      <p><a href="#" style="color:var(--teal);">Read Article 📖</a></p>
+      <p><a href="#" style="color:var(--teal);">Link to Article 📖</a></p>
     </div>
   </div>
 
@@ -82,13 +82,17 @@
   <section id="vocabulary">
     <h2 class="section-title">📖 Session Vocabulary</h2>
     <div class="vocab-grid-10">
-      <!-- Repeat this block 10 times -->
-      <div class="vocab-card">
-        <div class="vocab-word">Target Word</div>
-        <div class="vocab-def">definition.</div>
-        <div class="vocab-example">Example sentence.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Target Word', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button>
-      </div>
+      <!-- 10 units required. Format: Word – definition. Example: Sentence. -->
+      <div class="vocab-card"><div class="vocab-word">Word 1</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 1', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 2</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 2', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 3</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 3', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 4</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 4', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 5</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 5', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 6</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 6', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 7</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 7', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 8</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 8', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 9</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 9', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 10</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 10', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
     </div>
   </section>
 
@@ -104,7 +108,7 @@
           <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Brief intro to the session's theme.</div>
+          <div class="vim-instruction">Short intro to the theme.</div>
           <ul class="round-questions">
             <li>Warm-up question 1?</li>
             <li>Warm-up question 2?</li>
@@ -118,24 +122,39 @@
           <span>🔵 Round 1 — Analysis</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <!-- Repeat item block 10 times. Do not use hardcoded numbering. -->
-          <div class="round-item">
-            <div class="round-item-main">General discussion question or statement.</div>
-            <div class="round-item-personal">★ Personal application question.</div>
-          </div>
+          <div class="vim-instruction">10 items required. Use .round-item-main and .round-item-personal.</div>
+          <!-- 10 round items -->
+          <div class="round-item"><div class="round-item-main">Question 1?</div><div class="round-item-personal">★ Personal question 1?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 2?</div><div class="round-item-personal">★ Personal question 2?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 3?</div><div class="round-item-personal">★ Personal question 3?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 4?</div><div class="round-item-personal">★ Personal question 4?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 5?</div><div class="round-item-personal">★ Personal question 5?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 6?</div><div class="round-item-personal">★ Personal question 6?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 7?</div><div class="round-item-personal">★ Personal question 7?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 8?</div><div class="round-item-personal">★ Personal question 8?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 9?</div><div class="round-item-personal">★ Personal question 9?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 10?</div><div class="round-item-personal">★ Personal question 10?</div></div>
         </div>
       </div>
 
       <!-- ROUND 2 (10 ITEMS) -->
       <div class="round-block round-2 open" id="s-r2">
         <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Future Thinking / Agree or Disagree</span><span class="round-toggle">▲</span>
+          <span>🟢 Round 2 — Deep Dive</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <!-- Repeat item block 10 times. -->
-          <div class="round-item">
-            <div class="round-item-main">Deep dive statement or speculative scenario.</div>
-          </div>
+          <div class="vim-instruction">10 items required (e.g., Future thinking, Agree/Disagree).</div>
+          <!-- 10 round items -->
+          <div class="round-item"><div class="round-item-main">Item 1</div></div>
+          <div class="round-item"><div class="round-item-main">Item 2</div></div>
+          <div class="round-item"><div class="round-item-main">Item 3</div></div>
+          <div class="round-item"><div class="round-item-main">Item 4</div></div>
+          <div class="round-item"><div class="round-item-main">Item 5</div></div>
+          <div class="round-item"><div class="round-item-main">Item 6</div></div>
+          <div class="round-item"><div class="round-item-main">Item 7</div></div>
+          <div class="round-item"><div class="round-item-main">Item 8</div></div>
+          <div class="round-item"><div class="round-item-main">Item 9</div></div>
+          <div class="round-item"><div class="round-item-main">Item 10</div></div>
         </div>
       </div>
 
@@ -145,11 +164,10 @@
           <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
         </div>
         <div class="mistake-body" style="display:block;">
-          <!-- 3-5 theme-specific corrections -->
           <div class="mistake-item">
-            <span class="mistake-wrong">common mistake</span>
+            <span class="mistake-wrong">wrong form</span>
             <span class="mistake-arrow">→</span>
-            <span class="mistake-right">correct form</span>
+            <span class="mistake-right">right form</span>
             <span class="mistake-note-text">(explanation)</span>
           </div>
         </div>
