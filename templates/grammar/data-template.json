@@ -1,0 +1,38 @@
+{
+  "language": "xx",
+  "category": "category_name",
+  "layer": "morphology",
+  "groups": [
+    {
+      "id": "group_unique_id",
+      "label": "Grammar Group Label",
+      "level": "A1",
+      "definition": "Simple explanation of the concept in the target language.",
+      "emoji": "✨",
+      "rules": [
+        {
+          "rule": "The grammar rule in the target language.",
+          "level": "A1",
+          "explanation": "Simple explanation of the rule.",
+          "example": "Example sentence.",
+          "counter_example": "Incorrect form (optional)."
+        }
+      ],
+      "examples": [
+        "Additional example sentence 1.",
+        "Additional example sentence 2."
+      ],
+      "exceptions": [
+        "Exception 1",
+        "Exception 2"
+      ],
+      "word_ids": [
+        "xx_pos_word_001",
+        "xx_pos_word_002"
+      ],
+      "practice_links": [
+        "grammar/xx/morphology/xx-lesson.html"
+      ]
+    }
+  ]
+}

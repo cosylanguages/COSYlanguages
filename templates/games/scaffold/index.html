@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Game — COSYlanguages</title>
+<link rel="icon" href="../../_engine/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../_engine/ui.css">
+<style>
+    /* Game-specific styles */
+    #game-container { max-width: 600px; margin: 2rem auto; text-align: center; }
+</style>
+</head>
+<body>
+
+<div id="game-container">
+    <div id="setup-overlay">
+        <h1>New Game 🎮</h1>
+        <p>Short description of the game.</p>
+        <div class="setup-controls">
+            <!-- Language and Level selectors -->
+        </div>
+        <button id="start-btn" class="main-btn">Start Game</button>
+    </div>
+
+    <div id="game-play" style="display:none;">
+        <div class="game-header">
+            <div id="timer">00:00</div>
+            <div id="score">Score: 0</div>
+        </div>
+        <div id="target-area">
+            <!-- Game content goes here -->
+        </div>
+        <div id="input-area">
+            <!-- User interactions -->
+        </div>
+    </div>
+
+    <div id="game-over" style="display:none;">
+        <h2>Game Over!</h2>
+        <div id="final-results"></div>
+        <button onclick="location.reload()" class="main-btn">Play Again</button>
+    </div>
+</div>
+
+<script src="../../../js/games/utils/shared.js"></script>
+<script src="../../_engine/unified-engine.js"></script>
+<script src="../../_engine/game_session.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

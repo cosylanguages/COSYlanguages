@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="xx">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Language Name Grammar Reference — COSYlanguages</title>
+<link rel="icon" href="../../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+</head>
+<body class="grammar-body">
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">Student Area 🔐</div>
+    <h1>Language Name Grammar 🏳️</h1>
+  </div>
+  <div class="lang-tabs" id="roadmap-lang-tabs">
+    <!-- Links to other language roadmaps -->
+    <a href="en.html" class="lang-tab">🇬🇧 EN</a>
+    <a href="fr.html" class="lang-tab">🇫🇷 FR</a>
+    <!-- Add more as needed -->
+    <a href="xx.html" class="lang-tab active">🏳️ XX</a>
+  </div>
+</div>
+
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+  <div class="gs-label">Starter (A1)</div>
+  <a class="gs-item active" href="#topic_1">Topic 1</a>
+  <a class="gs-item" href="#topic_2">Topic 2</a>
+
+  <div class="gs-label">Elementary (A2)</div>
+  <a class="gs-item" href="#topic_3">Topic 3</a>
+
+  <div class="gs-label">Intermediate (B1)</div>
+  <a class="gs-item" href="#topic_4">Placeholder Topic</a>
+
+  <div class="gs-label" id="nav-label">Navigation</div>
+  <a class="gs-item" id="all-roadmaps-link" href="../grammar-reference.html">← All Roadmaps</a>
+</nav>
+
+<main class="grammar-main">
+  <div class="grammar-section-title">Language Name — Grammar Reference & Roadmap</div>
+
+  <!-- SECTION TEMPLATE -->
+  <div class="level-section" id="topic_1">
+    <div class="level-badge">A1 — STARTER</div>
+    <div class="g-card">
+      <div class="card-title">Topic Title</div>
+      <div class="g-lesson-grid">
+        <a href="morphology/xx-lesson.html" class="g-lesson-btn">Open Interactive Lesson 🚀</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- INTERMEDIATE B1 PLACEHOLDER -->
+  <div class="level-section" id="topic_4">
+    <div class="level-badge">B1 — INTERMEDIATE</div>
+    <div class="g-card">
+      <div class="card-title">Placeholder: Advanced Syntax</div>
+      <div class="g-lesson-grid">
+        <span class="coming-soon">Coming Soon</span>
+      </div>
+    </div>
+  </div>
+
+</main>
+</div>
+
+<script src="../../js/data/curriculum_data.js"></script>
+<script>
+// Exclusivity Logic & Sidebar Highlighting
+(function() {
+  const code = localStorage.getItem('student_course_code');
+  if (code && typeof COURSES !== 'undefined' && COURSES[code]) {
+    const restrictedLevel = COURSES[code].level.toUpperCase();
+    document.querySelectorAll('.level-section').forEach(sec => {
+      const badge = sec.querySelector('.level-badge');
+      if (badge && !badge.textContent.includes(restrictedLevel)) {
+        sec.style.display = 'none';
+        const id = sec.id;
+        document.querySelectorAll(`.gs-item[href="#${id}"]`).forEach(item => item.style.display = 'none');
+      }
+    });
+    // Hide GS labels that have no visible items
+    document.querySelectorAll('.grammar-sidebar').forEach(sb => {
+        sb.querySelectorAll('.gs-label').forEach(label => {
+            let next = label.nextElementSibling;
+            let hasVisible = false;
+            while(next && next.classList.contains('gs-item')) {
+                if (next.style.display !== 'none') { hasVisible = true; break; }
+                next = next.nextElementSibling;
+            }
+            if (!hasVisible) label.style.display = 'none';
+        });
+    });
+  }
+})();
+
+const items = document.querySelectorAll('.gs-item');
+const sections = document.querySelectorAll('.level-section');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      items.forEach(i => i.classList.remove('active'));
+      const link = document.querySelector(".gs-item[href=\"#" + entry.target.id + "\"]");
+      if (link) link.classList.add('active');
+    }
+  });
+}, { threshold: 0.3 });
+sections.forEach(s => observer.observe(s));
+</script>
+
+</body>
+</html>
