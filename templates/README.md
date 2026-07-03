@@ -35,6 +35,10 @@ This directory contains standardized templates for adding new languages or conte
 1.  Copy `grammar/lesson-template.html` to `grammar/[lang]/[layer]/[lesson-slug].html`.
 2.  Define the rules and interactive quiz questions in the script block.
 
+### 5. Etymology & Data Enrichment
+- New vocabulary entries should include `synonyms`, `antonyms`, `collocations`, and `etymology` where possible.
+- Use `scripts/build_etymology_dict.js` to bulk-generate etymology data from Wiktextract dumps. Run `node scripts/build_etymology_dict.js --help` for usage details.
+
 ## Standards & Compliance
 - **SCHEMA.md:** Always refer to the root `SCHEMA.md` for data field requirements.
 - **THEMES.md:** Use standardized theme slugs for vocabulary and curriculum.

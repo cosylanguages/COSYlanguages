@@ -24,7 +24,20 @@
                     "category": "verbs", // verbs | nouns | adjectives | etc.
                     "group_id": "grammar_group_id"
                 }
-            ]
+            ],
+            // Optional Fields
+            "sub_theme": null,
+            "synonyms": ["synonym1", "synonym2"],
+            "antonyms": ["antonym1"],
+            "collocations": ["common collocation 1", "common collocation 2"],
+            "subtext": "Usage note or cultural context.",
+            "etymology": {
+                "origin_lang": "Language", // Required if etymology object is present
+                "origin_word": "original_word",
+                "origin_meaning": "original meaning",
+                "entered_via": "Intermediate Language",
+                "notes": "Any additional historical notes."
+            }
         }
     ];
 
