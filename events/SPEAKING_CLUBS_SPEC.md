@@ -7,7 +7,7 @@
   2. **Round 1:** Core discussion questions or quick-fire activities.
   3. **Let's Speak Together:** Visual/interactive element (image sets, choices).
   4. **Round 2:** Advanced discussion, debates, or future-focused statements.
-  5. **Discussion (Mistakes):** Review of linguistic mistakes made during the session.
+  5. **Teacher's Note (Linguistic Corrections):** Review of linguistic mistakes made during the session.
 - **Role-Based Reality:**
   - **Free Visitors:** See the club list and description. Prompted to unlock.
   - **Students:** See schedules, active session vocabulary, and full past session history.
@@ -119,10 +119,10 @@ Place inside `.history-body` of a club card.
         </div>
       </div>
 
-      <!-- 5. DISCUSSION (MISTAKES) -->
+      <!-- 5. TEACHER'S NOTE (LINGUISTIC CORRECTIONS) -->
       <div class="mistake-block" id="[SESSION_ID]-mistakes">
         <div class="mistake-header" onclick="toggleBlock('[SESSION_ID]-mistakes')">
-          <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▼</span>
+          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▼</span>
         </div>
         <div class="mistake-body">
           <div class="mistake-item">
