@@ -961,6 +961,110 @@
                 "examples": []
             }
         ]
+    },
+    {
+        "id": "en_advanced_language_other_monolingual_vs_bilingual",
+        "topic": "The 'English Only' classroom vs Translanguaging — which better supports the learner's cognitive and emotional needs?",
+        "sideA": "English Only (Monolingual)",
+        "sideB": "Translanguaging (Bilingual)",
+        "ideasA": [
+            "Maximizes exposure to the target language and forces students to think in English.",
+            "Creates an immersive environment that speeds up spontaneous production."
+        ],
+        "ideasB": [
+            "Allows students to use their full linguistic repertoire to grasp complex concepts.",
+            "Lowers the 'affective filter' by validating the learner's first language and identity."
+        ],
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "word": "The 'English Only' classroom vs Translanguaging — which better supports the learner's cognitive and emotional needs?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The 'English Only' classroom vs Translanguaging — which better supports the learner's cognitive and emotional needs?",
+                "examples": []
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_other_ai_resistant_tasks",
+        "topic": "Authentic 'AI-resistant' tasks vs traditional assessments — how should we measure progress in the age of LLMs?",
+        "sideA": "Authentic tasks",
+        "sideB": "Traditional assessments",
+        "ideasA": [
+            "Focus on real-time performance, oral exams, and collaborative projects that AI cannot easily replicate.",
+            "Emphasis on the 'process' of learning and personal reflection rather than just the final product."
+        ],
+        "ideasB": [
+            "Standardized tests and essays provide a measurable benchmark of individual grammatical and lexical knowledge.",
+            "Controlled environments (pen and paper) ensure that the work is the student's own, even if the format is traditional."
+        ],
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "word": "Authentic 'AI-resistant' tasks vs traditional assessments — how should we measure progress in the age of LLMs?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Authentic 'AI-resistant' tasks vs traditional assessments — how should we measure progress in the age of LLMs?",
+                "examples": []
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_other_adults_vs_children",
+        "topic": "Andragogy vs Pedagogy — are the 'problematic' behaviors of adults or children harder for a teacher to manage?",
+        "sideA": "Teaching children",
+        "sideB": "Teaching adults",
+        "ideasA": [
+            "Children have shorter attention spans and higher physical energy, requiring constant classroom management.",
+            "The teacher must act as both an educator and a guardian, handling emotional outbursts and social dynamics."
+        ],
+        "ideasB": [
+            "Adults often bring fixed mindsets, fossilized errors, and higher levels of performance anxiety.",
+            "Managing adult expectations and their 'need to know' the logic behind every rule can be more challenging than managing a child's energy."
+        ],
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "word": "Andragogy vs Pedagogy — are the 'problematic' behaviors of adults or children harder for a teacher to manage?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Andragogy vs Pedagogy — are the 'problematic' behaviors of adults or children harder for a teacher to manage?",
+                "examples": []
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_other_critical_thinking_vs_accuracy",
+        "topic": "Critical thinking and research skills vs linguistic accuracy — what should be the primary goal of C1-level instruction?",
+        "sideA": "Critical thinking",
+        "sideB": "Linguistic accuracy",
+        "ideasA": [
+            "Advanced learners need to be able to analyze sources, detect bias, and construct complex arguments.",
+            "Language is a tool for thought; if the thought is shallow, the language is wasted."
+        ],
+        "ideasB": [
+            "A C1 learner must demonstrate a high degree of control over complex structures and rare vocabulary.",
+            "Errors in logic are forgivable in a foreign language, but persistent grammatical errors undermine professional credibility."
+        ],
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "word": "Critical thinking and research skills vs linguistic accuracy — what should be the primary goal of C1-level instruction?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Critical thinking and research skills vs linguistic accuracy — what should be the primary goal of C1-level instruction?",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";

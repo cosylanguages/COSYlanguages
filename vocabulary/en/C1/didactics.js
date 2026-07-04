@@ -202,6 +202,207 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "en_advanced_language_011",
+        "word": "differentiated instruction",
+        "lang": "en",
+        "transcription": "ˌdɪfəˈrenʃieɪtɪd ɪnˈstrʌkʃn",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "emoji": "🧩",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "An approach to teaching that involves providing different students with different avenues to learning, often in the same classroom.",
+                "examples": [
+                    "Differentiated instruction is essential when teaching a class with widely varying proficiency levels.",
+                    "The teacher used differentiated instruction by giving more complex readings to the advanced students."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_012",
+        "word": "translanguaging",
+        "lang": "en",
+        "transcription": "trænzˈlæŋɡwɪdʒɪŋ",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "emoji": "🔄",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The process where multilingual speakers use their languages as an integrated communication system rather than as separate entities.",
+                "examples": [
+                    "Translanguaging allows students to use their first language to help them understand complex concepts in the target language.",
+                    "Modern bilingual pedagogy often encourages translanguaging in the classroom."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_013",
+        "word": "AI literacy",
+        "lang": "en",
+        "transcription": "ˌeɪ ˈaɪ ˈlɪtərəsi",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "emoji": "🤖",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "The ability to understand, use, and critically evaluate artificial intelligence technologies.",
+                "examples": [
+                    "Teachers need to develop AI literacy to guide their students in the ethical use of large language models.",
+                    "AI literacy includes knowing when a machine-generated answer might be biased or incorrect."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_014",
+        "word": "authentic assessment",
+        "lang": "en",
+        "transcription": "ɔːˈθentɪk əˈsesmənt",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "emoji": "🛠️",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "A form of evaluation that requires students to perform real-world tasks that demonstrate meaningful application of essential knowledge and skills.",
+                "examples": [
+                    "Asking students to write a real letter to a local politician is a form of authentic assessment.",
+                    "Authentic assessment is harder for AI to replicate than traditional multiple-choice tests."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_015",
+        "word": "higher-order thinking skills",
+        "lang": "en",
+        "transcription": "ˈhaɪər ˈɔːdə ˈθɪŋkɪŋ skɪlz",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "emoji": "🔝",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "Skills such as analysis, evaluation, and creation, which go beyond the basic recall of facts.",
+                "examples": [
+                    "The lesson was designed to challenge the students' higher-order thinking skills.",
+                    "HOTS (Higher-Order Thinking Skills) are crucial for developing critical and creative minds."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_016",
+        "word": "inquiry-based learning",
+        "lang": "en",
+        "transcription": "ɪnˈkwaɪəri beɪst ˈlɜːnɪŋ",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "emoji": "🔍",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "A form of active learning that starts by posing questions, problems or scenarios—rather than simply presenting established facts.",
+                "examples": [
+                    "Inquiry-based learning encourages students to conduct their own research and find solutions.",
+                    "The science fair project is a classic example of inquiry-based learning."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_017",
+        "word": "classroom management",
+        "lang": "en",
+        "transcription": "ˈklɑːsruːm ˈmænɪdʒmənt",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "emoji": "🏫",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "The wide variety of skills and techniques teachers use to keep students organized, orderly, focused, attentive, on task, and academically productive.",
+                "examples": [
+                    "Effective classroom management is the key to preventing disruptive behavior.",
+                    "The new teacher struggled with classroom management in the large, energetic group."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_018",
+        "word": "neurodiversity",
+        "lang": "en",
+        "transcription": "ˌnjʊərəʊdaɪˈvɜːsəti",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "emoji": "🧠",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "The idea that neurological differences like autism and ADHD are natural variations in the human genome, rather than deficits.",
+                "examples": [
+                    "Inclusive education requires an understanding of neurodiversity in the classroom.",
+                    "Teachers should adapt their methods to support neurodiversity among their students."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_019",
+        "word": "summative assessment",
+        "lang": "en",
+        "transcription": "ˈsʌmətɪv əˈsesmənt",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "emoji": "🏁",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "The assessment of participants where the focus is on the outcome of a program or course.",
+                "examples": [
+                    "Final exams are the most common form of summative assessment.",
+                    "Unlike formative assessment, summative assessment takes place at the end of a unit."
+                ]
+            }
+        ],
+        "antonyms": ["formative assessment"]
+    },
+    {
+        "id": "en_advanced_language_020",
+        "word": "growth mindset",
+        "lang": "en",
+        "transcription": "ɡrəʊθ ˈmaɪndset",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "emoji": "🌱",
+        "form": "noun phrase",
+        "definitions": [
+            {
+                "text": "The belief that abilities and intelligence can be developed through dedication and hard work.",
+                "examples": [
+                    "Encouraging a growth mindset helps students persevere when they face difficult language tasks.",
+                    "Students with a growth mindset view mistakes as opportunities to learn."
+                ]
+            }
+        ]
     }
     ];
     const lang = "en";
