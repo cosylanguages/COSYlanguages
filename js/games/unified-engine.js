@@ -435,6 +435,7 @@
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
+            if (window.setLanguage) await window.setLanguage(lang);
         },
 
         async startFluency() {
@@ -445,6 +446,7 @@
             if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
 
             await loadLevelData(lang, level);
+            if (window.setLanguage) await window.setLanguage(lang);
 
             const data = getGameData(lang, level);
             if (!data.fluency || data.fluency.length === 0) {
@@ -518,6 +520,7 @@
             if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
 
             await loadLevelData(lang, level);
+            if (window.setLanguage) await window.setLanguage(lang);
 
             const data = getGameData(lang, level);
             if (!data.opinions || data.opinions.length === 0) {
@@ -586,6 +589,7 @@
             if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
 
             await loadLevelData(lang, level);
+            if (window.setLanguage) await window.setLanguage(lang);
 
             const data = getGameData(lang, level);
             if (!data.battle || data.battle.length === 0) {
@@ -688,6 +692,7 @@
             if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
 
             await loadLevelData(lang, level);
+            if (window.setLanguage) await window.setLanguage(lang);
 
             const data = getGameData(lang, level);
             if (!data.critic || data.critic.length === 0) {

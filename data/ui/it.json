@@ -84,4 +84,10 @@
   "course_general_desc": "Il viaggio completo — tutte e quattro le abilità crescono insieme. Strutturato, progressivo, costruito intorno alla tua vita reale.",
   "course_spoken_desc": "Niente tabelle grammaticali. Niente schede. Solo tu, il tuo insegnante e una vera conversazione.",
   "course_exam_desc": "Compiti autentici, condizioni d'esame esatte. Focus sulla componente orale dove conta di più."
+,
+  "oa_agree_btn": "Sono d'accordo",
+  "oa_disagree_btn": "Non sono d'accordo",
+  "cc_default_task": "Cosa significa questa citazione per te? Sei d'accordo con la prospettiva dell'autore?",
+  "cc_questions_label": "Domande di discussione",
+  "cc_task_label": "Il tuo compito"
 }
