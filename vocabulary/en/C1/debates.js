@@ -831,6 +831,136 @@
                 "examples": []
             }
         ]
+    },
+    {
+        "id": "en_advanced_language_other_native_vs_non_native_teachers",
+        "topic": "Native-speaking teachers vs non-native teachers — who offers the more effective learning experience for advanced students?",
+        "sideA": "Native speakers",
+        "sideB": "Non-native speakers",
+        "ideasA": [
+            "Provide natural pronunciation, idiomatic expressions, and deep cultural nuances that are hard to replicate.",
+            "Offer a model of the target language as it is truly spoken in real-world social and professional contexts."
+        ],
+        "ideasB": [
+            "Possess first-hand experience of the learning process and can better explain complex grammatical structures.",
+            "Can often relate more closely to the specific difficulties and fossilized errors that learners face."
+        ],
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "word": "Native-speaking teachers vs non-native teachers — who offers the more effective learning experience for advanced students?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Native-speaking teachers vs non-native teachers — who offers the more effective learning experience for advanced students?",
+                "examples": []
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_other_ai_vs_human_instruction",
+        "topic": "AI-driven language apps vs human teachers — will technology eventually make the classroom obsolete?",
+        "sideA": "AI instruction",
+        "sideB": "Human teachers",
+        "ideasA": [
+            "Provides 24/7 access to personalized feedback and can handle repetitive drilling without fatigue.",
+            "Algorithms can adapt in real-time to a learner's specific pace, focusing only on the areas where they struggle."
+        ],
+        "ideasB": [
+            "Human interaction is essential for developing true communicative competence and social confidence.",
+            "Teachers provide emotional support, motivation, and an intuitive understanding of the learner's 'affective filter'."
+        ],
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "word": "AI-driven language apps vs human teachers — will technology eventually make the classroom obsolete?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "AI-driven language apps vs human teachers — will technology eventually make the classroom obsolete?",
+                "examples": []
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_other_immersion_vs_explicit_grammar",
+        "topic": "Total immersion vs explicit grammar instruction — which is the more efficient route to fluency for adults?",
+        "sideA": "Immersion",
+        "sideB": "Explicit grammar",
+        "ideasA": [
+            "Mimics natural first-language acquisition and forces learners to use the language for survival.",
+            "Helps develop an intuitive 'feel' for the language and improves listening and speaking speed."
+        ],
+        "ideasB": [
+            "Adult learners benefit from understanding the underlying logic and rules of a language system.",
+            "Saves time by explaining patterns that might take years to notice through exposure alone."
+        ],
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "word": "Total immersion vs explicit grammar instruction — which is the more efficient route to fluency for adults?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Total immersion vs explicit grammar instruction — which is the more efficient route to fluency for adults?",
+                "examples": []
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_other_gamification_vs_rigorous_study",
+        "topic": "Gamification of learning vs rigorous academic study — does making learning 'fun' undermine the results?",
+        "sideA": "Gamification",
+        "sideB": "Rigorous study",
+        "ideasA": [
+            "Increases engagement and motivation, making it more likely that students will maintain a daily habit.",
+            "Reduces the 'affective filter' by making mistakes feel like part of a game rather than a failure."
+        ],
+        "ideasB": [
+            "Can lead to a superficial understanding and a focus on 'winning' rather than true linguistic depth.",
+            "Mastering a language requires a level of persistence and discipline that short-form games cannot provide."
+        ],
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "learning",
+        "word": "Gamification of learning vs rigorous academic study — does making learning 'fun' undermine the results?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Gamification of learning vs rigorous academic study — does making learning 'fun' undermine the results?",
+                "examples": []
+            }
+        ]
+    },
+    {
+        "id": "en_advanced_language_other_english_as_lingua_franca",
+        "topic": "English as a global 'Lingua Franca' — is it a tool for liberation or a form of cultural imperialism?",
+        "sideA": "Tool for liberation",
+        "sideB": "Cultural imperialism",
+        "ideasA": [
+            "Allows people from diverse backgrounds to communicate and collaborate on global issues.",
+            "Provides access to scientific research, international business, and a vast wealth of information."
+        ],
+        "ideasB": [
+            "Can lead to the marginalization and decline of local languages and indigenous knowledge systems.",
+            "Reinforces global power structures where those who do not speak English well are at a disadvantage."
+        ],
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": "discourse",
+        "word": "English as a global 'Lingua Franca' — is it a tool for liberation or a form of cultural imperialism?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "English as a global 'Lingua Franca' — is it a tool for liberation or a form of cultural imperialism?",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";
