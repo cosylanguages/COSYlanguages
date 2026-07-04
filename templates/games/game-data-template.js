@@ -41,7 +41,8 @@
       wordlinker: [
         { words: ['W1', 'W2', 'W3', 'W4'], odd: 'W4', link: 'Category Name', oddReason: 'Why W4 is odd.' }
       ],
-      etymology: [] // Word history data (if language-specific)
+      etymology: [], // Word history data (if language-specific)
+      storychain: [] // List of words for Story Chain
     };
 
     window.gameData = window.gameData || {};

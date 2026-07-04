@@ -103,4 +103,10 @@
   "course_general_desc": "Le voyage complet — les quatre compétences progressent ensemble. Structuré, progressif, adapté à votre vie d'adulte.",
   "course_spoken_desc": "Pas de tableaux de grammaire. Pas de fiches de travail. Juste vous, votre professeur et une vraie conversation.",
   "course_exam_desc": "Tâches authentiques, conditions d'examen exactes. Focus sur la composante orale là où c'est le plus important."
+,
+  "oa_agree_btn": "Je suis d'accord",
+  "oa_disagree_btn": "Je ne suis pas d'accord",
+  "cc_default_task": "Que signifie cette citation pour vous ? Êtes-vous d'accord avec la perspective de l'auteur ?",
+  "cc_questions_label": "Questions de discussion",
+  "cc_task_label": "Votre tâche"
 }
