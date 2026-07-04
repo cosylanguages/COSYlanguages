@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Greatest Quotes 🖋️ — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .club-hero { background: linear-gradient(135deg, #534AB7, #2a255c); color: white; padding: 4rem 2rem; text-align: center; }
+  .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+  .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="club-hero">
+  <img src="../../images/thegreatestquotes.png" alt="Quotes logo" style="height: 100px; width: auto; margin-bottom: 1.5rem;">
+  <h1>The Greatest Quotes</h1>
+  <p>Une citation. Une analyse profonde. Qu'est-ce qu'ils voulaient dire — et qu'est-ce que cela signifie pour vous ? Une exploration philosophique du langage.</p>
+</header>
+
+<section class="container" style="padding: 2rem 1.5rem 5rem;">
+
+  <a href="index.html" class="back-link" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← Tous les clubs de conversation</a>
+
+  <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+
+    <div class="club-main">
+      <div>
+        <div class="section-header" style="margin-bottom: 1.5rem;">
+          <h2 style="font-size: 1.5rem;">📅 Sessions à venir</h2>
+        </div>
+        <div class="session-info"><table>
+          <tr><td>Citation</td><td>"Une vie sans examen ne vaut pas la peine d'être vécue" — Socrate</td></tr>
+          <tr><td>Description</td><td>Exploration de la conscience de soi et de la réflexion critique.</td></tr>
+          <tr><td>Lien</td><td><a href="https://fr.wikipedia.org/wiki/Socrate" target="_blank" style="color:var(--cosy-green);">À propos de Socrate 📖</a></td></tr>
+          <tr><td>Calendrier</td><td>Planifié — À confirmer</td></tr>
+          <tr><td>Durée</td><td>60 min</td></tr>
+          <tr><td>Langues</td><td>🇫🇷</td></tr>
+        </table></div>
+        <a class="join-btn" href="https://wa.me/330766784195?text=Bonjour!%20Je%20souhaite%20rejoindre%20le%20club%20The%20Greatest%20Quotes.">💬 S'inscrire</a>
+
+        <!-- HISTORY -->
+        <div class="history-block" id="gq-hist" style="margin-top: 2rem;">
+          <div class="section-header" style="margin-bottom: 1rem;">
+            <h2 style="font-size: 1.5rem;">🕒 Sessions passées</h2>
+          </div>
+          <div class="history-item" style="display:flex; justify-content:space-between; align-items:center; padding:1rem; border-bottom:1px solid var(--border);">
+            <div>
+              <div style="font-weight:700;">La sagesse de Socrate</div>
+              <div style="font-size:0.8rem; color:var(--muted);">15 Septembre 2025</div>
+            </div>
+            <a href="sessions/la-sagesse-de-socrate.html" class="view-btn" style="padding:0.4rem 0.8rem; font-size:0.75rem;">Voir la session →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="club-sidebar">
+      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
+        <h3 style="font-size: 1rem; margin-bottom: .5rem;">Philosophie et Langage</h3>
+        <p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Les citations célèbres sont des capsules de sagesse qui permettent de discuter de concepts abstraits et complexes avec des mots simples.</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Accueil</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Pratique</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Jeux</a>
+    <a href="index.html" style="color:var(--muted);text-decoration:none;">Événements</a>
+  </div>
+  <p>© 2026 COSYlanguages — Tous droits réservés</p>
+</footer>
+
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/i18n.js"></script>
+<script src="../../js/core/ui.js"></script>
+<script src="../../js/data/pricing.js"></script>
+<script src="../../js/config.js"></script>
+</body>
+</html>
