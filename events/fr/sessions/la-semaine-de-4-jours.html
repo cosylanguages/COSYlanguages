@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La semaine de 4 jours — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #993C1D, #4d1e0f);">
+  <div class="club-tag">Debatable & Relatable</div>
+  <h1>La semaine de 4 jours — Productivité vs Tradition</h1>
+  <p class="session-date">20 août 2025</p>
+</header>
+<main class="content-container">
+  <a href="../debatable-relatable.html" class="back-link">← Retour au Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durée</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Langues</h4><p>🇫🇷</p></div>
+    <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire (B1)</p></div>
+    <div class="meta-item"><h4>Sujet</h4><p>Équilibre vie pro-vie privée / Productivité</p></div>
+  </div>
+
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Le concept de la semaine de quatre jours gagne du terrain dans le monde entier, car les entreprises cherchent à concilier productivité et bien-être des employés. Cette session explore le passage potentiel du modèle traditionnel de cinq jours à un emploi du temps plus flexible et axé sur les résultats. Nous verrons si ce changement est une évolution naturelle du lieu de travail moderne ou une expérience risquée pour l'économie mondiale.</p>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Vocabulaire de la session</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Le surmenage</div>
+        <div class="vocab-def">effondrement physique ou mental causé par un excès de travail ou de stress</div>
+        <div class="vocab-example">De nombreux employés souffrent de surmenage à cause des longues heures de travail.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Le surmenage', definition:'effondrement par excès de travail', example:'De nombreux employés souffrent de surmenage à cause des longues heures de travail.'}, this)">Ajouter au dictionnaire</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">La productivité</div>
+        <div class="vocab-def">l'efficacité de l'effort productif, mesurée par le taux de production par unité de ressources</div>
+        <div class="vocab-example">Des études montrent que des semaines plus courtes peuvent réellement augmenter la productivité.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'La productivité', definition:'efficacité de l\'effort', example:'Des études montrent que des semaines plus courtes peuvent réellement augmenter la productivité.'}, this)">Ajouter au dictionnaire</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Le bien-être</div>
+        <div class="vocab-def">l'état d'être à l'aise, en bonne santé ou heureux</div>
+        <div class="vocab-example">Le bien-être des employés devrait être une priorité pour chaque entreprise.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Le bien-être', definition:'état de santé et de bonheur', example:'Le bien-être des employés devrait être une priorité pour chaque entreprise.'}, this)">Ajouter au dictionnaire</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">La rétention</div>
+        <div class="vocab-def">la capacité d'une entreprise à conserver ses employés</div>
+        <div class="vocab-example">Une semaine de 4 jours peut améliorer considérablement la rétention du personnel.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'La rétention', definition:'capacité à garder les employés', example:'Une semaine de 4 jours peut améliorer considérablement la rétention du personnel.'}, this)">Ajouter au dictionnaire</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Les frais généraux</div>
+        <div class="vocab-def">les coûts réguliers de fonctionnement d'une entreprise (loyer, électricité, etc.)</div>
+        <div class="vocab-example">Fermer le bureau un jour de plus peut réduire les frais généraux.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Les frais généraux', definition:'coûts de fonctionnement', example:'Fermer le bureau un jour de plus peut réduire les frais généraux.'}, this)">Ajouter au dictionnaire</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">La flexibilité</div>
+        <div class="vocab-def">la qualité de s'adapter facilement ou d'être facilement modifié</div>
+        <div class="vocab-example">Les travailleurs modernes apprécient la flexibilité plus qu'un salaire élevé.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'La flexibilité', definition:'capacité d\'adaptation', example:'Les travailleurs modernes apprécient la flexibilité plus qu\'un salaire élevé.'}, this)">Ajouter au dictionnaire</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">L'essai</div>
+        <div class="vocab-def">un test formel de quelque chose, généralement sur un lieu de travail</div>
+        <div class="vocab-example">Le gouvernement lance un essai national de la semaine de 4 jours.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'essai', definition:'test formel', example:'Le gouvernement lance un essai national de la semaine de 4 jours.'}, this)">Ajouter au dictionnaire</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Le rendement</div>
+        <div class="vocab-def">la quantité de quelque chose produite par une personne, une machine ou une industrie</div>
+        <div class="vocab-example">Les managers devraient se concentrer sur le rendement plutôt que sur les heures passées au bureau.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Le rendement', definition:'quantité produite', example:'Les managers devraient se concentrer sur le rendement plutôt que sur les heures passées au bureau.'}, this)">Ajouter au dictionnaire</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Le trajet</div>
+        <div class="vocab-def">le voyage entre la maison et le travail</div>
+        <div class="vocab-example">Une semaine de travail plus courte signifie un jour de moins de trajets stressants.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Le trajet', definition:'voyage domicile-travail', example:'Une semaine de travail plus courte signifie un jour de moins de trajets stressants.'}, this)">Ajouter au dictionnaire</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">La mise en œuvre</div>
+        <div class="vocab-def">le processus de mise en pratique d'une décision ou d'un plan</div>
+        <div class="vocab-example">La mise en œuvre du nouvel emploi du temps a pris plusieurs mois.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'La mise en œuvre', definition:'processus d\'application d\'un plan', example:'La mise en œuvre du nouvel emploi du temps a pris plusieurs mois.'}, this)">Ajouter au dictionnaire</button>
+      </div>
+    </div>
+  </section>
+  <section id="structure">
+    <h2 class="section-title">🎙️ Structure de la discussion</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <vim-instruction>Le 5ème jour</vim-instruction>
+          <ul class="round-questions">
+            <li>Si vous aviez un jour de congé supplémentaire chaque semaine, que feriez-vous ?</li>
+            <li>Pensez-vous être plus productif le matin ou l'après-midi ?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Avantages (Idées A/B)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Débat</div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>1. A:</strong> Une semaine de 4 jours réduit considérablement le surmenage et améliore la santé mentale. <br><strong>B:</strong> La pression supplémentaire pour terminer le travail en 4 jours pourrait augmenter le stress.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>2. A:</strong> Des semaines plus courtes augmentent la productivité car les gens perdent moins de temps en "brassage d'air". <br><strong>B:</strong> Certaines industries (comme la santé ou la vente au détail) ne peuvent pas se permettre de perdre un jour de travail.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>3. A:</strong> Les entreprises proposant la semaine de 4 jours attirent et retiennent plus facilement les talents. <br><strong>B:</strong> Les petites entreprises pourraient avoir du mal à payer des salaires complets pour 20% de travail en moins.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>4. A:</strong> Réduire les trajets de 20% est une victoire majeure pour l'environnement. <br><strong>B:</strong> Les gens pourraient utiliser leur jour de congé pour voyager davantage, augmentant leur empreinte carbone.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main"><strong>5. A:</strong> Un jour de plus permet une meilleure gestion de la vie quotidienne (rendez-vous médicaux, courses). <br><strong>B:</strong> La société devrait changer — si tout le monde est en congé le vendredi, qui gère les banques et les magasins ?</div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Parlons ensemble</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🗓️</span><div style="font-weight:600;">Standard 5 jours</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">⚡</span><div style="font-weight:600;">Compressé 4 jours</div></div>
+          </div>
+          <p style="margin-top:1rem; text-align:center;">Quel modèle est le plus durable pour la prochaine génération ?</p>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Inconvénients (Idées A/B)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Débat</div>
+          <div class="round-item"><div class="round-item-main"><strong>1. A:</strong> Si nous passons à 4 jours, les gens finiront par demander 3 jours, nuisant à l'économie. <br><strong>B:</strong> La semaine de 4 jours est un équilibre durable qui reflète la productivité moderne.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>2. A:</strong> Les pays perdront en compétitivité mondiale face aux voisins travaillant 5 ou 6 jours. <br><strong>B:</strong> Un travail de meilleure qualité et une meilleure rétention rendront le pays plus compétitif.</div></div>
+          <div class="round-item"><div class="round-item-main"><strong>3. A:</strong> Les travailleurs seront contraints à des journées stressantes de 10 heures pour compenser. <br><strong>B:</strong> Repenser le travail pour éliminer les tâches inutiles permet le même rendement en heures normales.</div></div>
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Note de l'enseignant (Corrections linguistiques)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item"><span class="mistake-wrong">Je travaille ici depuis 2010 (incorrect use of tense in some contexts)</span><span class="mistake-arrow">→</span><span class="mistake-right">Je travaille ici depuis 2010</span><span class="mistake-note-text">(Présent avec 'depuis')</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">Je suggère de réduire les heures</span><span class="mistake-arrow">→</span><span class="mistake-right">Je suggère de réduire les heures</span><span class="mistake-note-text">(Suggérer de + infinitif)</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Accueil</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Pratique</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Jeux</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Événements</a>
+  </div>
+  <p>© 2026 COSYlanguages — Tous droits réservés</p>
+</footer>
+<script src="../../../js/data/languages.js"></script>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/i18n.js"></script>
+<script src="../../../js/core/ui.js"></script>
+<script src="../../../js/data/pricing.js"></script>
+<script src="../../../js/config.js"></script>
+</body>
+</html>

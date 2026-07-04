@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keeping Up with Science 🔬 — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .club-hero { background: linear-gradient(135deg, #0F6E56, #073b2d); color: white; padding: 4rem 2rem; text-align: center; }
+  .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+  .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="club-hero">
+  <img src="../../images/keepingupwithscience.png" alt="Science logo" style="height: 100px; width: auto; margin-bottom: 1.5rem;">
+  <h1>Keeping Up with Science</h1>
+  <p>Реальные научные новости, доступные для обсуждения. Каждая сессия посвящена новому открытию или тренду — лабораторный халат не требуется, только любопытство.</p>
+</header>
+
+<section class="container" style="padding: 2rem 1.5rem 5rem;">
+
+  <a href="index.html" class="back-link" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← Все разговорные клубы</a>
+
+  <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+
+    <div class="club-main">
+      <div>
+        <div class="section-header" style="margin-bottom: 1.5rem;">
+          <h2 style="font-size: 1.5rem;">📅 Предстоящие сессии</h2>
+        </div>
+        <div class="session-info"><table>
+          <tr><td>Статья</td><td>ИИ и мозг — кто у кого учится?</td></tr>
+          <tr><td>Описание</td><td>Исследуем, как ИИ и человеческий мозг учатся по-разному.</td></tr>
+          <tr><td>Ссылка</td><td><a href="https://nplus1.ru/" target="_blank" style="color:var(--cosy-green);">Читать статью 📖</a></td></tr>
+          <tr><td>Расписание</td><td>Запланировано — Дата уточняется</td></tr>
+          <tr><td>Длительность</td><td>60 min</td></tr>
+          <tr><td>Языки</td><td>🇷🇺</td></tr>
+        </table></div>
+        <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Keeping%20Up%20with%20Science.">💬 Записаться</a>
+
+        <!-- HISTORY -->
+        <div class="history-block" id="sc-hist" style="margin-top: 2rem;">
+          <div class="section-header" style="margin-bottom: 1rem;">
+            <h2 style="font-size: 1.5rem;">🕒 Прошедшие сессии</h2>
+          </div>
+          <div class="history-item" style="display:flex; justify-content:space-between; align-items:center; padding:1rem; border-bottom:1px solid var(--border);">
+            <div>
+              <div style="font-weight:700;">Искусственный интеллект: Будущее уже здесь</div>
+              <div style="font-size:0.8rem; color:var(--muted);">12 октября 2025</div>
+            </div>
+            <a href="sessions/iskusstvennyj-intellekt.html" class="view-btn" style="padding:0.4rem 0.8rem; font-size:0.75rem;">Смотреть сессию →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="club-sidebar">
+      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-top: 0;">
+        <h3 style="font-size: 1rem; margin-bottom: .5rem;">Почему наука?</h3>
+        <p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Научные темы обеспечивают идеальную структуру для продвинутого обсуждения, проверки гипотез и критического мышления на изучаемом языке.</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Главная</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Практика</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Игры</a>
+    <a href="index.html" style="color:var(--muted);text-decoration:none;">События</a>
+  </div>
+  <p>© 2026 COSYlanguages — Все права защищены</p>
+</footer>
+
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/i18n.js"></script>
+<script src="../../js/core/ui.js"></script>
+<script src="../../js/data/pricing.js"></script>
+<script src="../../js/config.js"></script>
+</body>
+</html>
