@@ -4,7 +4,7 @@ const data = [
     {
         "word": "είμαι",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "👤",
         "subtext": "είμαι έτοιμος / είμαι κουρασμένος / είμαι στο σπίτι",
         "form": "verb",
@@ -170,7 +170,7 @@ const data = [
     {
         "word": "βάζω",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📥",
         "subtext": "βάζω / αφήνω κάτω το τηλέφωνο",
         "synonyms": [
@@ -522,7 +522,7 @@ const data = [
     {
         "word": "κόβω",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "✂️",
         "subtext": "κόβω κόστη / κόβω στη μέση",
         "synonyms": [
@@ -548,7 +548,7 @@ const data = [
     {
         "word": "στρίβω",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "directions_navigation",
         "emoji": "🔄",
         "subtext": "στρίβω αριστερά / στρίβω δεξιά",
         "synonyms": [
@@ -599,7 +599,7 @@ const data = [
     {
         "word": "λέω",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗨️",
         "subtext": "λέω γεια / λέω ναι / λέω όχι / λέω κάτι",
         "form": "verb",
@@ -671,7 +671,7 @@ const data = [
     {
         "word": "μιλώ",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗣️",
         "subtext": "μιλώ σε κάποιον / μιλώ μια γλώσσα / μιλώ καθαρά",
         "form": "verb",
@@ -843,7 +843,7 @@ const data = [
     {
         "word": "επαναλαμβάνω",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🔁",
         "subtext": "επαναλαμβάνω αυτό",
         "synonyms": [
@@ -1090,7 +1090,7 @@ const data = [
     {
         "word": "ταξιδεύω",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "✈️",
         "subtext": "ταξιδεύω για δουλειά / ταξιδεύω στο εξωτερικό",
         "form": "verb",
@@ -1197,7 +1197,7 @@ const data = [
         "word": "μαγειρεύω",
         "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "🍳",
         "subtext": "μαγειρεύω βραδινό / μαγειρεύω ένα γεύμα",
         "form": "verb",
@@ -2449,7 +2449,7 @@ const data = [
         "word": "σχεδιάζω",
         "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "cinema_film",
         "emoji": "🎨",
         "subtext": "σχεδιάζω / σχεδιάζω εικόνα / σχεδιάζω γραμμή",
         "form": "verb",
@@ -2701,7 +2701,7 @@ const data = [
     {
         "word": "μετακινούμαι",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🚆",
         "subtext": "μετακινούμαι",
         "synonyms": [
@@ -3383,7 +3383,7 @@ const data = [
         "classification": "regular",
         "aspect": "both",
         "v3": "χάσει",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
@@ -3443,7 +3443,7 @@ const data = [
     {
         "word": "ευχαριστώ",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🙏",
         "subtext": "ευχαριστώ κάποιον / ευχαριστώ για",
         "synonyms": [
@@ -3468,7 +3468,7 @@ const data = [
     {
         "word": "συστήνω",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "🤝",
         "subtext": "συστήνω κάποιον",
         "synonyms": [

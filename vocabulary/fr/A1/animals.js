@@ -279,7 +279,7 @@
 {
         "word": "baleine",
         "level": "starter",
-        "theme": "sea_animals_A1",
+        "theme": "sea_animals",
         "emoji": "🐋",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",

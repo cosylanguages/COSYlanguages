@@ -23,7 +23,7 @@
 {
         "word": "trajet",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "le",
         "emoji": "🚆",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -41,7 +41,7 @@
 {
         "word": "hôtel",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "l'",
         "emoji": "🏨",
         "form": "noun", "classification": "regular", "countability": "countable",
@@ -116,7 +116,7 @@
 {
         "word": "voyageur",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "le",
         "gender": "masculine",
         "emoji": "👤",
@@ -192,7 +192,7 @@
 {
         "word": "billet",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎟️",
@@ -249,7 +249,7 @@
 {
         "word": "gare",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚉",
@@ -268,7 +268,7 @@
 {
         "word": "aéroport",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
@@ -287,7 +287,7 @@
 {
         "word": "station de bus",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚌",
@@ -306,7 +306,7 @@
 {
         "word": "arrêt de bus",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🚏",
@@ -325,7 +325,7 @@
 {
         "word": "quai",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛤️",
@@ -344,7 +344,7 @@
 {
         "word": "voie",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛤️",
@@ -363,7 +363,7 @@
 {
         "word": "train",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚆",
@@ -382,7 +382,7 @@
 {
         "word": "bus",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚌",
@@ -401,7 +401,7 @@
 {
         "word": "métro",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚇",
@@ -420,7 +420,7 @@
 {
         "word": "taxi",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚕",
@@ -534,7 +534,7 @@
 {
         "word": "vol",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "le",
         "gender": "masculine",
         "emoji": "✈️",

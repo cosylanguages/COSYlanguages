@@ -72,7 +72,7 @@
 {
         "word": "tragitto",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "il",
         "emoji": "🚆",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -164,7 +164,7 @@
 {
         "word": "aeroporto",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
@@ -210,7 +210,7 @@
 {
         "word": "viaggiatore",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "il",
         "gender": "masculine",
         "emoji": "👤",
@@ -348,7 +348,7 @@
 {
         "word": "fermata dell'autobus",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚌",
@@ -371,7 +371,7 @@
 {
         "word": "banchina",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛤️",
@@ -394,7 +394,7 @@
 {
         "word": "binario",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛤️",
@@ -417,7 +417,7 @@
 {
         "word": "metropolitana",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚇",
@@ -440,7 +440,7 @@
 {
         "word": "taxi",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "il",
         "gender": "masculine",
         "emoji": "🚕",
@@ -555,7 +555,7 @@
 {
         "word": "volo",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "il",
         "gender": "masculine",
         "emoji": "✈️",
@@ -647,7 +647,7 @@
 {
         "word": "sinistra",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "directions_navigation",
         "article": "la",
         "gender": "feminine",
         "emoji": "⬅️",
@@ -672,7 +672,7 @@
 {
         "word": "destra",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "directions_navigation",
         "article": "la",
         "gender": "feminine",
         "emoji": "➡️",

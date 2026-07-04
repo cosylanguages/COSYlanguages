@@ -385,7 +385,7 @@
 {
         "word": "lì",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "prepositions_place",
         "article": "",
         "gender": "",
         "emoji": "👉",
@@ -594,7 +594,7 @@
 {
         "word": "qui",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "prepositions_place",
         "form": "adverb",
         "transcription": "ˈkwi",
         "definitions": [
@@ -618,7 +618,7 @@
 {
         "word": "là",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "prepositions_place",
         "form": "adverb",
         "transcription": "ˈla",
         "definitions": [

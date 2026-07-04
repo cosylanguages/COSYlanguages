@@ -702,7 +702,7 @@
 {
         "word": "sempre",
         "level": "starter",
-        "theme": "frequency_adverbs_A1",
+        "theme": "frequency_adverbs",
         "article": "",
         "gender": "",
         "emoji": "♾️",
@@ -724,7 +724,7 @@
 {
         "word": "solitamente",
         "level": "starter",
-        "theme": "frequency_adverbs_A1",
+        "theme": "frequency_adverbs",
         "article": "",
         "gender": "",
         "emoji": "🔄",
@@ -746,7 +746,7 @@
 {
         "word": "qualche volta",
         "level": "starter",
-        "theme": "frequency_adverbs_A1",
+        "theme": "frequency_adverbs",
         "article": "",
         "gender": "",
         "emoji": "⏱️",
@@ -768,7 +768,7 @@
 {
         "word": "ancora",
         "level": "starter",
-        "theme": "frequency_adverbs_A1",
+        "theme": "frequency_adverbs",
         "article": "",
         "gender": "",
         "emoji": "🔁",
@@ -790,7 +790,7 @@
 {
         "word": "fa",
         "level": "starter",
-        "theme": "duration_expressions_A1",
+        "theme": "duration_expressions",
         "article": "",
         "gender": "",
         "emoji": "🕰️",
@@ -995,7 +995,7 @@
 {
         "word": "anno",
         "level": "starter",
-        "theme": "dates_years_A1",
+        "theme": "dates_years",
         "article": "l'",
         "gender": "masculine",
         "emoji": "📅",

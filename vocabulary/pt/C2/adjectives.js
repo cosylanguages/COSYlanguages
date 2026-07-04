@@ -1334,7 +1334,7 @@
 {
         "word": "hermenêutico",
         "level": "proficiency",
-        "theme": "philosophy_language_C2",
+        "theme": "philosophy_language",
         "emoji": "📜",
         "form": "adjective",
         "definitions": [
@@ -1349,7 +1349,7 @@
 {
         "word": "tautológico",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "meta_argument_deconstruction",
         "emoji": "🔄",
         "form": "adjective",
         "definitions": [
@@ -1364,7 +1364,7 @@
 {
         "word": "polissêmico",
         "level": "proficiency",
-        "theme": "linguistics_theory_C2",
+        "theme": "linguistics_theory",
         "emoji": "🔠",
         "form": "adjective",
         "definitions": [
@@ -1379,7 +1379,7 @@
 {
         "word": "pós-colonial",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "political_theory",
         "emoji": "🌍",
         "form": "adjective",
         "definitions": [
@@ -1394,7 +1394,7 @@
 {
         "word": "multipolar",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "political_theory",
         "emoji": "🌐",
         "form": "adjective",
         "definitions": [
@@ -1409,7 +1409,7 @@
 {
         "word": "cosmopolita",
         "level": "proficiency",
-        "theme": "political_theory_C2",
+        "theme": "political_theory",
         "emoji": "🏙️",
         "form": "adjective",
         "definitions": [
@@ -1424,7 +1424,7 @@
 {
         "word": "narcisista",
         "level": "proficiency",
-        "theme": "psychoanalysis_unconscious_C2",
+        "theme": "psychoanalysis_unconscious",
         "emoji": "🪞",
         "form": "adjective",
         "definitions": [
@@ -1439,7 +1439,7 @@
 {
         "word": "heterodoxo",
         "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
+        "theme": "meta_argument_deconstruction",
         "emoji": "🚩",
         "form": "adjective",
         "definitions": [

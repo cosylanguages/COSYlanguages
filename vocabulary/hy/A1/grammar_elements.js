@@ -59,7 +59,7 @@
         {
             "word": "միշտ",
             "level": "starter",
-            "theme": "frequency_adverbs_A1",
+            "theme": "frequency_adverbs",
             "emoji": "🔄",
             "form": "adverb",
             "definitions": [{ "text": "Ամեն ժամանակ:", "examples": ["Ես միշտ սուրճ եմ խմում:"] }]
@@ -67,7 +67,7 @@
         {
             "word": "երբեք",
             "level": "starter",
-            "theme": "frequency_adverbs_A1",
+            "theme": "frequency_adverbs",
             "emoji": "❌",
             "form": "adverb",
             "definitions": [{ "text": "Ոչ մի ժամանակ:", "examples": ["Ես երբեք չեմ ուշանում:"] }]
@@ -75,7 +75,7 @@
         {
             "word": "և",
             "level": "starter",
-            "theme": "conjunctions_connectors_A1",
+            "theme": "conjunctions_connectors",
             "emoji": "➕",
             "form": "conjunction",
             "definitions": [{ "text": "Միացնում է բառեր կամ նախադասություններ:", "examples": ["Սուրճ և թեյ:"] }]
@@ -83,7 +83,7 @@
         {
             "word": "բայց",
             "level": "starter",
-            "theme": "conjunctions_connectors_A1",
+            "theme": "conjunctions_connectors",
             "emoji": "❓",
             "form": "conjunction",
             "definitions": [{ "text": "Ցույց է տալիս հակադրություն:", "examples": ["Ես սիրում եմ սուրճ, բայց ոչ կաթ:"] }]

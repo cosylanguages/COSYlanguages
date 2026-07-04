@@ -22,7 +22,7 @@
 {
         "word": "lunettes",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "accessories",
         "article": "les",
         "gender": "feminine",
         "emoji": "👓",

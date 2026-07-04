@@ -59,7 +59,7 @@
         {
             "word": "әрваҡыт",
             "level": "starter",
-            "theme": "frequency_adverbs_A1",
+            "theme": "frequency_adverbs",
             "emoji": "🔄",
             "form": "adverb",
             "definitions": [{ "text": "Һәр ваҡытта.", "examples": ["Мин әрваҡыт кофе эсәм."] }]
@@ -67,7 +67,7 @@
         {
             "word": "ни ҡасан да",
             "level": "starter",
-            "theme": "frequency_adverbs_A1",
+            "theme": "frequency_adverbs",
             "emoji": "❌",
             "form": "adverb",
             "definitions": [{ "text": "Ниндәй ҙә булһа ваҡытта түгел.", "examples": ["Мин ни ҡасан да һуңға ҡалмайым."] }]
@@ -75,7 +75,7 @@
         {
             "word": "һәм",
             "level": "starter",
-            "theme": "conjunctions_connectors_A1",
+            "theme": "conjunctions_connectors",
             "emoji": "➕",
             "form": "conjunction",
             "definitions": [{ "text": "Һүҙҙәрҙе йәки һөйләмдәрҙе бәйләй.", "examples": ["Кофе һәм сәй."] }]
@@ -83,7 +83,7 @@
         {
             "word": "ләкин",
             "level": "starter",
-            "theme": "conjunctions_connectors_A1",
+            "theme": "conjunctions_connectors",
             "emoji": "❓",
             "form": "conjunction",
             "definitions": [{ "text": "Ҡаршылыҡты күрһәтә.", "examples": ["Миңә кофе оҡшай, ләкин һөт түгел."] }]

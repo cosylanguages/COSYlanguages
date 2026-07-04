@@ -59,7 +59,7 @@
         {
             "word": "һәрвакыт",
             "level": "starter",
-            "theme": "frequency_adverbs_A1",
+            "theme": "frequency_adverbs",
             "emoji": "🔄",
             "form": "adverb",
             "definitions": [{ "text": "Һәрбер вакытта.", "examples": ["Мин һәрвакыт кофе эчәм."] }]
@@ -67,7 +67,7 @@
         {
             "word": "беркайчан да",
             "level": "starter",
-            "theme": "frequency_adverbs_A1",
+            "theme": "frequency_adverbs",
             "emoji": "❌",
             "form": "adverb",
             "definitions": [{ "text": "Бернинди вакытта да түгел.", "examples": ["Мин беркайчан да соңга калмыйм."] }]
@@ -75,7 +75,7 @@
         {
             "word": "һәм",
             "level": "starter",
-            "theme": "conjunctions_connectors_A1",
+            "theme": "conjunctions_connectors",
             "emoji": "➕",
             "form": "conjunction",
             "definitions": [{ "text": "Сүзләрне яки җөмләләрне бәйли.", "examples": ["Кофе һәм чәй."] }]
@@ -83,7 +83,7 @@
         {
             "word": "ләкин",
             "level": "starter",
-            "theme": "conjunctions_connectors_A1",
+            "theme": "conjunctions_connectors",
             "emoji": "❓",
             "form": "conjunction",
             "definitions": [{ "text": "Каршылыкны күрсәтә.", "examples": ["Миңа кофе ошый, ләкин сөт түгел."] }]

@@ -1,612 +1,314 @@
 (function() {
     const data = [
 {
-        "word": "albero",
-        "level": "starter",
-        "theme": "nature",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "🌳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "alberi",
-        "definitions": [
-            {
-                "text": "Grande pianta con un tronco.",
-                "examples": [
-                    "L'albero è verde."
-                ]
-            }
-        ],
-        "partitive": "dell'",
-        "transcription": "ˈalbero",
-        "synonyms": [],
-        "subtext": "",
-        "antonyms": [],
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "arbor",
-            "origin_meaning": "tree"
-        }
-    },
-{
-        "word": "fiore",
+        "word": "sole",
         "level": "starter",
         "theme": "nature",
         "article": "il",
         "gender": "masculine",
-        "emoji": "🌸",
+        "emoji": "☀️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "fiori",
+        "plural": null,
+        "subtext": "sole caldo, sole del mattino",
         "definitions": [
             {
-                "text": "Parte colorata di una pianta.",
+                "text": "La stella che dà luce e calore durante il giorno.",
                 "examples": [
-                    "Il fiore profuma."
+                    "Il sole è molto forte oggi."
                 ]
             }
         ],
         "partitive": "del",
-        "transcription": "ˈfjore",
+        "transcription": "ˈsole",
         "synonyms": [],
-        "subtext": "",
         "antonyms": [],
         "etymology": {
             "origin_lang": "Latin",
-            "origin_word": "flos",
-            "origin_meaning": "flower"
+            "origin_word": "sol",
+            "origin_meaning": "sun"
         }
     },
 {
-        "word": "montagna",
+        "word": "pioggia",
         "level": "starter",
         "theme": "nature",
         "article": "la",
         "gender": "feminine",
-        "emoji": "🏔️",
+        "emoji": "🌧️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "montagne",
+        "plural": null,
+        "subtext": "forte pioggia, stivali da pioggia",
         "definitions": [
             {
-                "text": "Grande massa di terra elevata.",
+                "text": "Acqua che cade dalle nuvole in gocce.",
                 "examples": [
-                    "La montagna è alta."
+                    "C'è molta pioggia in autunno."
                 ]
             }
         ],
         "partitive": "della",
-        "transcription": "monˈtaɲɲa",
+        "transcription": "ˈpjɔddʒa",
         "synonyms": [],
-        "subtext": "",
-        "antonyms": []
-    },
-{
-        "word": "fiume",
-        "level": "starter",
-        "theme": "nature",
-        "article": "il",
-        "gender": "masculine",
-        "emoji": "🏞️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "fiumi",
-        "definitions": [
-            {
-                "text": "Corso d'acqua.",
-                "examples": [
-                    "L'acqua del fiume è fredda."
-                ]
-            }
-        ],
-        "partitive": "del",
-        "transcription": "ˈfjume",
-        "synonyms": [],
-        "subtext": "",
-        "antonyms": []
-    },
-{
-        "word": "mare",
-        "level": "starter",
-        "theme": "nature",
-        "article": "il",
-        "gender": "masculine",
-        "emoji": "🌊",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "mari",
-        "definitions": [
-            {
-                "text": "Vasta distesa di acqua salata.",
-                "examples": [
-                    "Nuoto nel mare."
-                ]
-            }
-        ],
-        "partitive": "del",
-        "transcription": "ˈmare",
-        "synonyms": [],
-        "subtext": "",
         "antonyms": [],
         "etymology": {
             "origin_lang": "Latin",
-            "origin_word": "mare"
+            "origin_word": "pluvia"
         }
     },
 {
-        "word": "spiaggia",
+        "word": "vento",
+        "level": "starter",
+        "theme": "nature",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💨",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "vento forte, vento freddo",
+        "definitions": [
+            {
+                "text": "Aria che si muove, a volte fortemente.",
+                "examples": [
+                    "Il vento è molto forte oggi."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈvɛnto",
+        "synonyms": [],
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "ventus"
+        }
+    },
+{
+        "word": "primavera",
         "level": "starter",
         "theme": "nature",
         "article": "la",
-        "gender": "feminine",
-        "emoji": "🏖️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "spiagge",
-        "definitions": [
-            {
-                "text": "Riva del mare con sabbia.",
-                "examples": [
-                    "Andiamo in spiaggia."
-                ]
-            }
-        ],
-        "partitive": "della",
-        "transcription": "ˈspjaddʒa",
-        "synonyms": [],
-        "subtext": "",
-        "antonyms": []
-    },
-{
-        "word": "cielo",
-        "level": "starter",
-        "theme": "nature",
-        "article": "il",
-        "gender": "masculine",
-        "emoji": "🌌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "cieli",
-        "definitions": [
-            {
-                "text": "Spazio sopra la Terra.",
-                "examples": [
-                    "Il cielo è blu."
-                ]
-            }
-        ],
-        "partitive": "del",
-        "transcription": "ˈtʃɛlo",
-        "synonyms": [],
-        "subtext": "",
-        "antonyms": [],
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "caelum"
-        }
-    },
-{
-        "word": "luna",
-        "level": "starter",
-        "theme": "nature",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🌙",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "lune",
-        "definitions": [
-            {
-                "text": "Astro che brilla di notte.",
-                "examples": [
-                    "La luna è tonda."
-                ]
-            }
-        ],
-        "partitive": "della",
-        "transcription": "ˈluna",
-        "synonyms": [],
-        "subtext": "",
-        "antonyms": [],
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "luna",
-            "origin_meaning": "moon",
-            etymology: {
-                "origin_lang": "Latin",
-                "origin_word": "luna",
-                etymology: {
-                    "origin_lang": "Latin",
-                    "origin_word": "luna"
-                }
-            }
-        }
-    },
-{
-        "word": "erba",
-        "level": "starter",
-        "theme": "nature",
-        "article": "l'",
         "gender": "feminine",
         "emoji": "🌱",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "erbe",
+        "plural": "primavere",
         "definitions": [
             {
-                "text": "Piccole piante verdi a terra.",
+                "text": "Stagione dopo l'inverno.",
                 "examples": [
-                    "L'erba è verde."
+                    "In primavera i fiori sbocciano."
                 ]
             }
         ],
-        "partitive": "dell'",
-        "transcription": "ˈɛrba",
+        "partitive": "della",
+        "transcription": "primaˈvɛra",
         "synonyms": [],
         "subtext": "",
         "antonyms": []
     },
 {
-        "word": "nuvola",
-        "level": "starter",
-        "theme": "nature",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "☁️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "nuvole",
-        "definitions": [
-            {
-                "text": "Massa bianca nel cielo.",
-                "examples": [
-                    "Ci sono delle nuvole."
-                ]
-            }
-        ],
-        "partitive": "della",
-        "transcription": "ˈnuvola",
-        "synonyms": [],
-        "subtext": "",
-        "antonyms": []
-    },
-{
-        "word": "stella",
-        "level": "starter",
-        "theme": "nature",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "⭐",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "stelle",
-        "definitions": [
-            {
-                "text": "Punto luminoso nel cielo di notte.",
-                "examples": [
-                    "Guardo le stelle."
-                ]
-            }
-        ],
-        "partitive": "della",
-        "transcription": "ˈstɛlla",
-        "synonyms": [],
-        "subtext": "",
-        "antonyms": [],
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "stella",
-            "origin_meaning": "star"
-        }
-    },
-{
-        "word": "aria",
+        "word": "estate",
         "level": "starter",
         "theme": "nature",
         "article": "l'",
         "gender": "feminine",
-        "emoji": "🌬️",
+        "emoji": "☀️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "arie",
+        "plural": "estati",
         "definitions": [
             {
-                "text": "Gas che si respira.",
+                "text": "La stagione più calda.",
                 "examples": [
-                    "L'aria è pura qui."
+                    "Amo l'estate."
                 ]
             }
         ],
         "partitive": "dell'",
-        "transcription": "ˈaria",
+        "transcription": "esˈtate",
         "synonyms": [],
         "subtext": "",
         "antonyms": []
     },
 {
-        "word": "mondo",
+        "word": "autunno",
         "level": "starter",
         "theme": "nature",
-        "article": "il",
+        "article": "l'",
         "gender": "masculine",
-        "emoji": "🌍",
+        "emoji": "🍂",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "mondi",
+        "plural": "autunni",
         "definitions": [
             {
-                "text": "L'intera Terra.",
+                "text": "Stagione quando cadono le foglie.",
                 "examples": [
-                    "Tutto il mondo."
+                    "L'autunno è bello."
                 ]
             }
         ],
-        "partitive": "del",
-        "transcription": "ˈmondo",
+        "partitive": "dell'",
+        "transcription": "auˈtunno",
         "synonyms": [],
         "subtext": "",
         "antonyms": []
     },
 {
-        "word": "ponte",
+        "word": "inverno",
         "level": "starter",
         "theme": "nature",
-        "article": "il",
+        "article": "l'",
         "gender": "masculine",
-        "emoji": "🌉",
+        "emoji": "❄️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "ponti",
+        "plural": "inverni",
         "definitions": [
             {
-                "text": "Passaggio sopra l'acqua.",
+                "text": "La stagione più fredda.",
                 "examples": [
-                    "Il ponte è vecchio."
+                    "Nevica in inverno."
                 ]
             }
         ],
-        "partitive": "del",
-        "transcription": "ˈponte",
+        "partitive": "dell'",
+        "transcription": "inˈvɛrno",
         "synonyms": [],
         "subtext": "",
         "antonyms": []
     },
 {
-        "word": "campagna",
+        "word": "ombrello",
         "level": "starter",
         "theme": "nature",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🚜",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "☂️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "campagne",
+        "plural": "ombrelli",
         "definitions": [
             {
-                "text": "Luogo fuori città.",
+                "text": "Oggetto contro la pioggia.",
                 "examples": [
-                    "Vivere in campagna."
+                    "Prendi l'ombrello."
                 ]
             }
         ],
-        "partitive": "della",
-        "transcription": "kamˈpaɲɲa",
+        "partitive": "dell'",
+        "transcription": "ˈombrello",
         "synonyms": [],
         "subtext": "",
         "antonyms": []
     },
 {
-        "word": "terra",
         "level": "starter",
-        "theme": "nature",
-        "emoji": "🌎",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "gender": "feminine",
-        "article": "la",
-        "partitive": "della",
+        "plural": "tempo meteorologici",
+        "word": "tempo meteorologico",
+        "theme": "nature",
+        "gender": "masculine",
+        "article": "il",
+        "partitive": "del",
+        "transcription": "ˈtɛmpo meteoroˈlɔdʒiko",
         "definitions": [
             {
-                "text": "Il pianeta su cui viviamo; o il suolo.",
+                "text": "Le condizioni di sole, pioggia, vento, ecc.",
                 "examples": [
-                    "La Terra è un pianeta bellissimo.",
-                    "I bambini giocano sulla terra."
+                    "Com'è il tempo oggi?"
                 ]
             }
         ],
-        "transcription": "ˈtɛrra",
+        "synonyms": [],
         "subtext": "",
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "terra",
-            "origin_meaning": "earth"
-        }
+        "antonyms": []
     },
 {
-        "word": "collina",
         "level": "starter",
-        "theme": "nature",
-        "emoji": "⛰️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "temperature",
+        "word": "temperatura",
+        "theme": "nature",
         "gender": "feminine",
         "article": "la",
-        "plural": "colline",
         "partitive": "della",
+        "transcription": "temperaˈtura",
         "definitions": [
             {
-                "text": "Una piccola montagna con fianchi dolci.",
+                "text": "La misura del caldo o del freddo.",
                 "examples": [
-                    "Facciamo una passeggiata in collina.",
-                    "La nostra casa è su una collina."
+                    "La temperatura è alta."
                 ]
             }
         ],
-        "transcription": "kolˈlina",
-        "subtext": ""
-    },
-{
-        "word": "valle",
-        "level": "starter",
-        "theme": "nature",
-        "emoji": "⛰️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "gender": "feminine",
-        "article": "la",
-        "plural": "valli",
-        "partitive": "della",
-        "definitions": [
-            {
-                "text": "Un'area di terra tra colline o montagne.",
-                "examples": [
-                    "Il fiume scorre nella valle.",
-                    "La valle è molto verde in primavera."
-                ]
-            }
-        ],
-        "transcription": "ˈvalle",
-        "subtext": ""
-    },
-{
-        "word": "foresta",
-        "level": "starter",
-        "theme": "nature",
-        "emoji": "🌲",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "gender": "feminine",
-        "article": "la",
-        "plural": "foreste",
-        "partitive": "della",
-        "definitions": [
-            {
-                "text": "Un'area molto grande coperta da alberi.",
-                "examples": [
-                    "Ci sono molti animali nella foresta.",
-                    "La foresta è fitta e scura."
-                ]
-            }
-        ],
-        "transcription": "foˈrɛsta",
-        "subtext": ""
-    },
-{
-        "word": "bosco",
-        "level": "starter",
-        "theme": "nature",
-        "emoji": "🌳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "gender": "masculine",
-        "article": "il",
-        "plural": "boschi",
-        "partitive": "del",
-        "definitions": [
-            {
-                "text": "Un'area coperta da alberi, più piccola di una foresta.",
-                "examples": [
-                    "Andiamo a cercare funghi nel bosco.",
-                    "C'è un piccolo bosco vicino al villaggio."
-                ]
-            }
-        ],
-        "transcription": "ˈbɔsko",
-        "subtext": ""
-    },
-{
-        "word": "lago",
-        "level": "starter",
-        "theme": "nature",
-        "emoji": "💧",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "gender": "masculine",
-        "article": "il",
-        "plural": "laghi",
-        "partitive": "del",
-        "definitions": [
-            {
-                "text": "Una grande massa d'acqua circondata dalla terra.",
-                "examples": [
-                    "Nuotiamo nel lago d'estate.",
-                    "Il lago è molto calmo oggi."
-                ]
-            }
-        ],
-        "transcription": "ˈlaɡo",
-        "subtext": ""
-    },
-{
-        "word": "campo",
-        "level": "starter",
-        "theme": "nature",
-        "emoji": "🌱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "gender": "masculine",
-        "article": "il",
-        "plural": "campi",
-        "partitive": "del",
-        "definitions": [
-            {
-                "text": "Un'area di terra aperta usata per l'agricoltura.",
-                "examples": [
-                    "Il campo è pieno di fiori.",
-                    "Lavorano nel campo tutto il giorno."
-                ]
-            }
-        ],
-        "transcription": "ˈkampo",
-        "subtext": ""
-    },
-{
-        "word": "foglia",
-        "level": "starter",
-        "theme": "nature",
-        "emoji": "🍃",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "gender": "feminine",
-        "article": "la",
-        "plural": "foglie",
-        "partitive": "della",
-        "definitions": [
-            {
-                "text": "La parte piatta e verde di una pianta o di un albero.",
-                "examples": [
-                    "Le foglie cadono in autunno.",
-                    "Questa pianta ha foglie molto grandi."
-                ]
-            }
-        ],
-        "transcription": "ˈfɔʎʎa",
+        "synonyms": [],
         "subtext": "",
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "folia"
-        }
+        "antonyms": []
     },
 {
-        "word": "pianta",
         "level": "starter",
-        "theme": "nature",
-        "emoji": "🌵",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "gender": "feminine",
-        "article": "la",
-        "plural": "piante",
-        "partitive": "della",
-        "definitions": [
-            {
-                "text": "Un essere vivente che cresce nella terra e ha radici e foglie.",
-                "examples": [
-                    "Devo dare l'acqua alle piante.",
-                    "C'è una pianta nell'angolo della stanza."
-                ]
-            }
-        ],
-        "transcription": "ˈpjanta",
-        "subtext": ""
-    },
-{
-        "word": "natura",
-        "level": "starter",
+        "plural": "nevi",
+        "word": "neve",
         "theme": "nature",
-        "emoji": "🌿",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "partitive": "della",
+        "transcription": "ˈneve",
         "definitions": [
             {
-                "text": "Il mondo fisico e tutto ciò che contiene, come piante e animali.",
+                "text": "Acqua ghiacciata che cade dal cielo in fiocchi bianchi.",
                 "examples": [
-                    "Amiamo passare il tempo nella natura.",
-                    "Dobbiamo proteggere la natura."
+                    "La neve è bianca.",
+                    "C'è molta neve in montagna."
                 ]
             }
         ],
-        "transcription": "naˈtura",
-        "subtext": ""
+        "synonyms": [],
+        "subtext": "palla di neve",
+        "antonyms": []
+    },
+{
+        "level": "starter",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "nebbie",
+        "word": "nebbia",
+        "theme": "nature",
+        "gender": "feminine",
+        "article": "la",
+        "partitive": "della",
+        "transcription": "ˈnebbja",
+        "definitions": [
+            {
+                "text": "Vapore acqueo che impedisce la vista.",
+                "examples": [
+                    "C'è molta nebbia stamattina.",
+                    "Non vedo bene a causa della nebbia."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "nebbia fitta",
+        "antonyms": []
+    },
+{
+        "word": "stagione",
+        "level": "starter",
+        "theme": "nature",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍂",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "stagioni",
+        "transcription": "staˈdʒone",
+        "definitions": [
+            {
+                "text": "Ognuna delle quattro parti in cui si divide l'anno.",
+                "examples": [
+                    "La mia stagione preferita è l'estate."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
     }
     ];
     const lang = "it";

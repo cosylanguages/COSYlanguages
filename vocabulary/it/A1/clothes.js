@@ -187,7 +187,7 @@
 {
         "word": "occhiali",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "accessories",
         "article": "gli",
         "gender": "masculine",
         "emoji": "👓",
@@ -423,7 +423,7 @@
 {
         "word": "occhiali da sole",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "accessories",
         "article": "gli",
         "gender": "masculine",
         "emoji": "🕶️",
@@ -623,7 +623,7 @@
 {
         "word": "anello",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "accessories",
         "emoji": "💍",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -645,7 +645,7 @@
 {
         "word": "collana",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "accessories",
         "emoji": "📿",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
@@ -667,7 +667,7 @@
 {
         "word": "gioielli",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "accessories",
         "emoji": "💎",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",

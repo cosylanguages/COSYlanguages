@@ -2909,7 +2909,7 @@
     {
         "word": "sedento",
         "level": "starter",
-        "theme": "health_body_A1",
+        "theme": "health_body",
         "form": "adjective",
         "transcription": "se.ˈðẽ.tu",
         "feminine": "sedenta",

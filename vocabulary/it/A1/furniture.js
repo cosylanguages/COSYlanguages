@@ -3,7 +3,7 @@
 {
         "word": "sedia",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪑",
@@ -30,7 +30,7 @@
 {
         "word": "tavolo",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🪑",
@@ -57,7 +57,7 @@
 {
         "word": "letto",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛏️",
@@ -84,7 +84,7 @@
 {
         "word": "chiave",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🔑",
@@ -107,7 +107,7 @@
 {
         "word": "libro",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "il",
         "emoji": "📖",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -135,7 +135,7 @@
 {
         "word": "borsa",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "👜",
@@ -158,7 +158,7 @@
 {
         "word": "penna",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "emoji": "🖊️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
@@ -241,7 +241,7 @@
 {
         "word": "ufficio",
         "level": "starter",
-        "theme": "rooms_indoor_spaces_A1",
+        "theme": "rooms_indoor_spaces",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
@@ -289,7 +289,7 @@
 {
         "word": "porta",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚪",
@@ -312,7 +312,7 @@
 {
         "word": "finestra",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪟",
@@ -335,7 +335,7 @@
 {
         "word": "piatto",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍽️",
@@ -358,7 +358,7 @@
 {
         "word": "tazza",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "☕",
@@ -381,7 +381,7 @@
 {
         "word": "bicchiere",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🥛",
@@ -404,7 +404,7 @@
 {
         "word": "forchetta",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
@@ -427,7 +427,7 @@
 {
         "word": "cucchiaio",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🥄",
@@ -450,7 +450,7 @@
 {
         "word": "coltello",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🔪",
@@ -473,7 +473,7 @@
 {
         "word": "scrivania",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🖥️",
@@ -496,7 +496,7 @@
 {
         "word": "lampada",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
@@ -519,7 +519,7 @@
 {
         "word": "orologio",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "l'",
         "gender": "masculine",
         "emoji": "⏰",
@@ -542,7 +542,7 @@
 {
         "word": "specchio",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🪞",
@@ -612,7 +612,7 @@
 {
         "word": "bottiglia",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍼",
@@ -635,7 +635,7 @@
 {
         "word": "scatola",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
@@ -658,7 +658,7 @@
 {
         "word": "matita",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "✏️",
@@ -681,7 +681,7 @@
 {
         "word": "carta",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "📄",
@@ -982,7 +982,7 @@
 {
         "word": "rubinetto",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🚰",
@@ -1028,7 +1028,7 @@
 {
         "word": "asciugamano",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧺",
@@ -1051,7 +1051,7 @@
 {
         "word": "scaffale",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "lo",
         "gender": "masculine",
         "emoji": "📶",
@@ -1074,7 +1074,7 @@
 {
         "word": "divano",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛋️",
@@ -1099,7 +1099,7 @@
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mobili",
         "word": "mobili",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "gender": "masculine",
         "article": "i",
         "partitive": "dei",
@@ -1145,7 +1145,7 @@
 {
         "word": "forno",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🥘",
@@ -1168,7 +1168,7 @@
 {
         "word": "frigorifero",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧊",
@@ -1193,7 +1193,7 @@
 {
         "word": "tenda",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "⛺",
@@ -1264,7 +1264,7 @@
 {
         "word": "quadro",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🖼️",
@@ -1282,7 +1282,7 @@
         "word": "valigetta",
         "image": "images/vocabulary/actions/to go to work.png",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "💼",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Una borsa piatta usata per trasportare carte e documenti.", "examples": ["Porta i suoi documenti in una valigetta."]}],
@@ -1345,7 +1345,7 @@
 {
         "word": "scopa",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧹",
@@ -1368,7 +1368,7 @@
 {
         "word": "lavatrice",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "🧺",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
@@ -1390,7 +1390,7 @@
 {
         "word": "tostapane",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "🍞",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -1412,7 +1412,7 @@
 {
         "word": "microonde",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "📟",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -1434,7 +1434,7 @@
 {
         "word": "poltrona",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "🛋️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
@@ -1456,7 +1456,7 @@
 {
         "word": "libreria",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "📚",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
@@ -1478,7 +1478,7 @@
 {
         "word": "armadio",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "🧥",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -1500,7 +1500,7 @@
 {
         "word": "tappeto",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "🧶",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -1522,7 +1522,7 @@
 {
         "word": "cassetto",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "🗄️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -1544,7 +1544,7 @@
 {
         "word": "telecomando",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "🎮",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -1566,7 +1566,7 @@
 {
         "word": "coperta",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "🛌",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
@@ -1588,7 +1588,7 @@
 {
         "word": "cuscino",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "🛌",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -1610,7 +1610,7 @@
 {
         "word": "lenzuolo",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "🛌",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -1632,7 +1632,7 @@
 {
         "word": "spazzolino",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🪥",
@@ -1655,7 +1655,7 @@
 {
         "word": "dentifricio",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "article": "il",
         "gender": "masculine",
         "emoji": "🦷",

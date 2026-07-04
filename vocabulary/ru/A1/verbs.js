@@ -3,7 +3,7 @@
     {
         "word": "быть",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "👤",
         "subtext": "быть готовым / быть уставшим / быть дома",
         "form": "verb",
@@ -193,7 +193,7 @@
     {
         "word": "класть",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📥",
         "subtext": "класть",
         "synonyms": [
@@ -582,7 +582,7 @@
     {
         "word": "резать",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "✂️",
         "subtext": "резать пополам",
         "synonyms": [
@@ -610,7 +610,7 @@
     {
         "word": "поворачивать",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "directions_navigation",
         "emoji": "🔄",
         "subtext": "поворачивать налево",
         "synonyms": [
@@ -666,7 +666,7 @@
     {
         "word": "сказать",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗨️",
         "subtext": "сказать привет / сказать да / сказать нет",
         "form": "verb",
@@ -745,7 +745,7 @@
     {
         "word": "говорить",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗣️",
         "subtext": "говорить с кем-то / говорить на языке / говорить четко",
         "form": "verb",
@@ -931,7 +931,7 @@
     {
         "word": "повторять",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🔁",
         "subtext": "",
         "synonyms": [
@@ -1223,7 +1223,7 @@
     {
         "word": "путешествовать",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "✈️",
         "subtext": "путешествовать по работе",
         "synonyms": [
@@ -1361,7 +1361,7 @@
         "word": "готовить",
         "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "🍳",
         "subtext": "готовить ужин / готовить еду",
         "form": "verb",
@@ -2755,7 +2755,7 @@
         "word": "рисовать",
         "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "cinema_film",
         "emoji": "🎨",
         "subtext": "рисовать / рисовать картинку / рисовать линию",
         "form": "verb",
@@ -3018,7 +3018,7 @@
     {
         "word": "ездить на работу",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🚆",
         "subtext": "ездить на работу",
         "synonyms": [
@@ -3734,7 +3734,7 @@
         "aspect": "both",
         "v2": "скучал",
         "v3": "скучала",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
@@ -3794,7 +3794,7 @@
     {
         "word": "благодарить",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🙏",
         "subtext": "благодарить кого-то / благодарить за",
         "synonyms": [
@@ -3820,7 +3820,7 @@
     {
         "word": "представлять",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "🤝",
         "subtext": "",
         "synonyms": [

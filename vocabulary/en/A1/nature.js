@@ -1,815 +1,739 @@
 (function() {
     const data = [
     {
-        "id": "en_starter_plants_natural_world_003",
-        "word": "tree",
-        "emoji": "🌳",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "trees",
-        "subtext": "green tree, tall tree",
-        "definitions": [
-            {
-                "text": "A tall plant that has a hard trunk, branches, and leaves.",
-                "examples": [
-                    "There are many trees in the park.",
-                    "The bird is in the tree."
-                ]
-            }
-        ],
-        "opposite": null,
-        "transcription": "tri",
-        "lang": "en",
-        "level": "starter",
-        "theme": "plants_natural_world",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Proto-Germanic",
-            "origin_word": "trewa",
-            "origin_meaning": "tree"
-        }
-    },
-    {
-        "id": "en_starter_plants_natural_world_004",
-        "word": "flower",
-        "emoji": "🌸",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "flowers",
-        "subtext": "beautiful flower, smell a flower",
-        "definitions": [
-            {
-                "text": "The brightly colored part of a plant from which seeds or fruit grow.",
-                "examples": [
-                    "I bought some flowers for my mother.",
-                    "Roses are beautiful flowers."
-                ]
-            }
-        ],
-        "opposite": null,
-        "transcription": "flaʊər",
-        "lang": "en",
-        "level": "starter",
-        "theme": "plants_natural_world",
-        "sub_theme": null
-    },
-    {
-        "id": "en_starter_nature_022",
-        "word": "mountain",
-        "emoji": "🏔️",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "mountains",
-        "subtext": "high mountain, snow-capped mountain",
-        "definitions": [
-            {
-                "text": "A very high hill.",
-                "examples": [
-                    "We can see mountains from our window.",
-                    "The mountain is covered in snow."
-                ]
-            }
-        ],
-        "opposite": null,
-        "transcription": "ˈmaʊntən",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Italian",
-            "origin_word": "ombrello",
-            "entered_via": "Latin umbra (shade)"
-        }
-    },
-    {
-        "id": "en_starter_nature_023",
-        "word": "river",
-        "emoji": "🏞️",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "rivers",
-        "subtext": "long river, swim in a river",
-        "definitions": [
-            {
-                "text": "A natural wide flow of fresh water across the land into the sea.",
-                "examples": [
-                    "The river flows through the city.",
-                    "There is a bridge over the river."
-                ]
-            }
-        ],
-        "opposite": null,
-        "transcription": "ˈrɪvər",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "autumnus"
-        }
-    },
-    {
-        "id": "en_starter_nature_024",
-        "word": "sea",
-        "emoji": "🌊",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "seas",
-        "subtext": "blue sea, swim in the sea",
-        "definitions": [
-            {
-                "text": "The large area of salty water that covers much of the Earth's surface.",
-                "examples": [
-                    "I love swimming in the sea.",
-                    "The sea is very calm today."
-                ]
-            }
-        ],
-        "opposite": null,
-        "transcription": "si",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Proto-Germanic",
-            "origin_word": "saiwiz"
-        }
-    },
-    {
-        "id": "en_starter_nature_025",
-        "word": "beach",
-        "emoji": "🏖️",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "beaches",
-        "subtext": "sandy beach, go to the beach",
-        "definitions": [
-            {
-                "text": "An area of sand or small stones next to the sea.",
-                "examples": [
-                    "Let's go to the beach today.",
-                    "The children are playing on the beach."
-                ]
-            }
-        ],
-        "opposite": null,
-        "transcription": "biʧ",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Late Latin",
-            "origin_word": "forestis silva",
-            "origin_meaning": "outside wood"
-        }
-    },
-    {
-        "id": "en_starter_nature_026",
-        "word": "sky",
-        "emoji": "🌌",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "skies",
-        "subtext": "blue sky, cloudy sky",
-        "definitions": [
-            {
-                "text": "The space above the Earth that you see when you look up.",
-                "examples": [
-                    "The sky is very blue today.",
-                    "There are no clouds in the sky."
-                ]
-            }
-        ],
-        "opposite": null,
-        "transcription": "skaɪ",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Old Norse",
-            "origin_word": "ský"
-        }
-    },
-    {
-        "id": "en_starter_nature_027",
-        "word": "moon",
-        "emoji": "🌙",
+        "id": "en_starter_nature_050",
+        "word": "sun",
+        "emoji": "☀️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": null,
-        "subtext": "full moon, look at the moon",
+        "subtext": "hot sun, morning sun",
         "definitions": [
             {
-                "text": "The large round object that moves around the Earth and shines at night.",
+                "text": "The star that gives light and heat during the day.",
                 "examples": [
-                    "The moon is very bright tonight."
+                    "The sun is very strong today."
                 ]
             }
         ],
         "opposite": null,
-        "transcription": "mun",
+        "transcription": "sən",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "mēnô",
-            "origin_meaning": "moon"
+            "origin_word": "sunnō",
+            "origin_meaning": "sun"
         }
     },
     {
-        "id": "en_starter_nature_028",
-        "word": "grass",
+        "id": "en_starter_nature_051",
+        "word": "rain",
+        "emoji": "🌧️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": null,
+        "subtext": "heavy rain, rain boots",
+        "definitions": [
+            {
+                "text": "Water that falls from clouds in drops.",
+                "examples": [
+                    "There is a lot of rain in autumn."
+                ]
+            }
+        ],
+        "opposite": null,
+        "transcription": "reɪn",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "rigną"
+        }
+    },
+    {
+        "id": "en_starter_nature_052",
+        "word": "wind",
+        "emoji": "💨",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": null,
+        "subtext": "strong wind, cold wind",
+        "definitions": [
+            {
+                "text": "Air that moves, sometimes strongly.",
+                "examples": [
+                    "The wind is very strong today."
+                ]
+            }
+        ],
+        "opposite": null,
+        "transcription": "wɪnd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "windaz"
+        }
+    },
+    {
+        "id": "en_starter_seasons_climate_004",
+        "word": "spring",
         "emoji": "🌱",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
+        "definitions": [
+            {
+                "text": "The season between winter and summer.",
+                "examples": [
+                    "Flowers grow in spring."
+                ]
+            }
+        ],
+        "subtext": "related to seasons climate",
+        "opposite": null,
+        "transcription": "spərɪŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "seasons_climate",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_005",
+        "word": "summer",
+        "emoji": "☀️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "The hottest season of the year.",
+                "examples": [
+                    "I love swimming in summer."
+                ]
+            }
+        ],
+        "subtext": "related to seasons climate",
+        "opposite": null,
+        "transcription": "ˈsəmər",
+        "lang": "en",
+        "level": "starter",
+        "theme": "seasons_climate",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_006",
+        "word": "autumn",
+        "emoji": "🍂",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "subtext": "related to seasons climate",
+        "synonyms": [
+            "🇺🇸 fall"
+        ],
+        "definitions": [
+            {
+                "text": "The season between summer and winter.",
+                "examples": [
+                    "Leaves fall in autumn."
+                ]
+            }
+        ],
+        "opposite": null,
+        "transcription": "ˈɔtəm",
+        "lang": "en",
+        "level": "starter",
+        "theme": "seasons_climate",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_007",
+        "word": "winter",
+        "emoji": "❄️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "The coldest season of the year.",
+                "examples": [
+                    "It snows in winter."
+                ]
+            }
+        ],
+        "subtext": "related to seasons climate",
+        "opposite": null,
+        "transcription": "ˈwɪntər",
+        "lang": "en",
+        "level": "starter",
+        "theme": "seasons_climate",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_053",
+        "word": "umbrella",
+        "emoji": "☂️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "umbrellas",
+        "definitions": [
+            {
+                "text": "A folding frame covered in cloth used to protect you from rain.",
+                "examples": [
+                    "Take an umbrella — it is raining."
+                ]
+            }
+        ],
+        "subtext": "related to weather",
+        "opposite": null,
+        "transcription": "ˈəmˌbrɛlə",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_054",
+        "word": "weather",
+        "emoji": "🌤️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
+        "subtext": "weather forecast, nice weather",
         "definitions": [
             {
-                "text": "A common wild plant with narrow green leaves.",
+                "text": "The state of the atmosphere at a particular time and place.",
                 "examples": [
-                    "Don't walk on the grass."
+                    "What is the weather like today?",
+                    "The weather is very nice."
                 ]
             }
         ],
-        "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "græs",
+        "transcription": "ˈweðə(r)",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
         "sub_theme": null
     },
     {
-        "id": "en_starter_nature_029",
-        "word": "lake",
-        "emoji": "🏞️",
+        "id": "en_starter_nature_055",
+        "word": "temperature",
+        "emoji": "🌡️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "plural": "lakes",
+        "plural": "temperatures",
+        "subtext": "high temperature, body temperature",
         "definitions": [
             {
-                "text": "A large area of water surrounded by land.",
+                "text": "A measure of how hot or cold something is.",
                 "examples": [
-                    "We went for a walk around the lake."
+                    "The temperature is thirty degrees.",
+                    "Check the temperature."
                 ]
             }
         ],
-        "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "leɪk",
+        "transcription": "ˈtemprətʃə(r)",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
         "sub_theme": null
     },
     {
-        "id": "en_starter_nature_030",
-        "word": "cloud",
-        "emoji": "☁️",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "clouds",
-        "definitions": [
-            {
-                "text": "A white or grey mass in the sky that is made of very small drops of water.",
-                "examples": [
-                    "Look at those big white clouds."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "klaʊd",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null
-    },
-    {
-        "id": "en_starter_nature_031",
-        "word": "star",
-        "emoji": "⭐",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "stars",
-        "definitions": [
-            {
-                "text": "A small bright light that you see in the sky at night.",
-                "examples": [
-                    "The stars are very bright tonight."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "stɑr",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Proto-Germanic",
-            "origin_word": "sternon",
-            "origin_meaning": "star"
-        }
-    },
-    {
-        "id": "en_starter_nature_032",
-        "word": "air",
-        "emoji": "🌬️",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": null,
-        "definitions": [
-            {
-                "text": "The mixture of gases that surrounds the Earth and that we breathe.",
-                "examples": [
-                    "I need some fresh air."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "ɛr",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null
-    },
-    {
-        "id": "en_starter_nature_033",
-        "word": "forest",
-        "emoji": "🌲",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "forests",
-        "definitions": [
-            {
-                "text": "A large area of land covered with trees.",
-                "examples": [
-                    "We went for a walk in the forest."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "ˈfɔrɪst",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null
-    },
-    {
-        "id": "en_starter_nature_034",
-        "word": "island",
-        "emoji": "🏝️",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "islands",
-        "definitions": [
-            {
-                "text": "A piece of land completely surrounded by water.",
-                "examples": [
-                    "They live on a small island."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "ˈaɪlənd",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null
-    },
-    {
-        "id": "en_starter_nature_035",
-        "word": "hill",
-        "emoji": "⛰️",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "hills",
-        "definitions": [
-            {
-                "text": "An area of land that is higher than the land around it, but smaller than a mountain.",
-                "examples": [
-                    "The house is on a hill."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "hɪl",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null
-    },
-    {
-        "id": "en_starter_nature_036",
-        "word": "bridge",
-        "emoji": "🌉",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "bridges",
-        "definitions": [
-            {
-                "text": "A structure that is built over a river or road so that people or vehicles can cross it.",
-                "examples": [
-                    "There is a bridge over the river."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "brɪʤ",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null
-    },
-    {
-        "id": "en_starter_nature_037",
-        "word": "ocean",
-        "emoji": "🌊",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "oceans",
-        "definitions": [
-            {
-                "text": "The very large area of salty water that covers most of the Earth's surface.",
-                "examples": [
-                    "The Atlantic Ocean is big."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "ˈoʊʃən",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Greek",
-            "origin_word": "okeanos"
-        }
-    },
-    {
-        "id": "en_starter_nature_038",
-        "word": "desert",
-        "emoji": "🏜️",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "deserts",
-        "definitions": [
-            {
-                "text": "A large area of land that has very little water and very few plants growing on it.",
-                "examples": [
-                    "It is very hot in the desert."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "ˈdɛzərt",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "deserere",
-            "origin_meaning": "to abandon"
-        }
-    },
-    {
-        "id": "en_starter_nature_039",
-        "word": "jungle",
-        "emoji": "🌴",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "jungles",
-        "definitions": [
-            {
-                "text": "A thick tropical forest with many trees and plants.",
-                "examples": [
-                    "Monkeys live in the jungle."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "ˈʤəŋgəl",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Sanskrit",
-            "origin_word": "jaṅgala",
-            "origin_meaning": "arid land, later thicket"
-        }
-    },
-    {
-        "id": "en_starter_nature_040",
-        "word": "earth",
-        "emoji": "🌍",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "definitions": [
-            {
-                "text": "The planet on which we live.",
-                "examples": [
-                    "The Earth moves around the sun."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "ərθ",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Proto-Germanic",
-            "origin_word": "erþō",
-            "origin_meaning": "earth"
-        }
-    },
-    {
-        "id": "en_starter_nature_041",
-        "word": "planet",
-        "emoji": "🪐",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "planets",
-        "definitions": [
-            {
-                "text": "A very large round object in space that moves around the sun or another star.",
-                "examples": [
-                    "Mars is a red planet."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "ˈplænət",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Greek",
-            "origin_word": "planetes",
-            "origin_meaning": "wanderer"
-        }
-    },
-    {
-        "id": "en_starter_nature_042",
-        "word": "rainbow",
-        "emoji": "🌈",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "rainbows",
-        "definitions": [
-            {
-                "text": "A large curve of different colors that can sometimes be seen in the sky when there is sun and rain.",
-                "examples": [
-                    "Look! There is a beautiful rainbow in the sky."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "ˈreɪnˌboʊ",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "natura",
-            "origin_meaning": "birth, character"
-        }
-    },
-    {
-        "id": "en_starter_nature_043",
-        "word": "storm",
-        "emoji": "⛈️",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "storms",
-        "definitions": [
-            {
-                "text": "A period of very bad weather when there is a lot of rain, wind, and often lightning and thunder.",
-                "examples": [
-                    "There was a big storm last night."
-                ]
-            }
-        ],
-        "subtext": "related to nature landscapes",
-        "opposite": null,
-        "transcription": "stɔrm",
-        "lang": "en",
-        "level": "starter",
-        "theme": "nature",
-        "sub_theme": null
-    },
-    {
-        "id": "en_starter_nature_044",
-        "word": "nature",
-        "emoji": "🌳",
+        "id": "en_starter_nature_056",
+        "word": "snow",
+        "emoji": "❄️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": null,
         "definitions": [
             {
-                "text": "The physical world and everything in it that is not made by people.",
+                "text": "Soft white pieces of frozen water that fall from the sky when it is very cold.",
                 "examples": [
-                    "I love being in nature.",
-                    "We must protect nature."
+                    "We have a lot of snow in winter.",
+                    "The snow is very deep."
                 ]
             }
         ],
-        "subtext": "related to nature landscapes",
+        "subtext": "related to weather",
         "opposite": null,
-        "transcription": "ˈneɪtʃə(r)",
+        "transcription": "snoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
         "sub_theme": null
     },
     {
-        "id": "en_starter_nature_045",
-        "word": "fire",
+        "id": "en_starter_nature_057",
+        "word": "ice",
+        "emoji": "🧊",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "subtext": "ice cube",
+        "synonyms": [
+            "frozen water"
+        ],
+        "definitions": [
+            {
+                "text": "Water that has frozen and become solid.",
+                "examples": [
+                    "Do you want ice in your drink?"
+                ]
+            }
+        ],
+        "opposite": null,
+        "transcription": "aɪs",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_008",
+        "word": "fall",
+        "emoji": "🍂",
+        "subtext": "fall down / fall off / fall in love / fall asleep",
+        "opposite": "rise",
+        "oppositeEmoji": "🌅",
+        "form": "verb",
+        "synonyms": [
+            "🇬🇧 autumn"
+        ],
+        "definitions": [
+            {
+                "text": "To move down toward the ground.",
+                "examples": [
+                    "Leaves fall in autumn.",
+                    "Be careful, don't fall."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "fell",
+        "v3": "fallen",
+        "group": "irregular",
+        "transcription": "fɔl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "seasons_climate",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_009",
+        "word": "rise",
+        "emoji": "🌅",
+        "subtext": "rise up / sun rise / price rise",
+        "opposite": "fall",
+        "oppositeEmoji": "🍂",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "To move upwards; to increase in amount or level.",
+                "examples": [
+                    "The sun rises in the east.",
+                    "Prices are rising every year."
+                ]
+            }
+        ],
+        "classification": "irregular",
+        "aspect": "action",
+        "v2": "rose",
+        "v3": "risen",
+        "group": "irregular",
+        "transcription": "raɪz",
+        "lang": "en",
+        "level": "starter",
+        "theme": "seasons_climate",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_058",
+        "word": "sunny",
+        "emoji": "☀️",
+        "form": "adjective",
+        "opposite": "rainy",
+        "oppositeEmoji": "🌧️",
+        "definitions": [
+            {
+                "text": "Having a lot of light from the sun.",
+                "examples": [
+                    "It is a sunny day.",
+                    "I like sunny weather."
+                ]
+            }
+        ],
+        "subtext": "sunny day / sunny weather / sunny spell",
+        "synonyms": [
+            "bright",
+            "clear"
+        ],
+        "comparative": "sunnier",
+        "superlative": "the sunniest",
+        "transcription": "ˈsəni",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_059",
+        "word": "rainy",
+        "emoji": "🌧️",
+        "form": "adjective",
+        "opposite": "sunny",
+        "oppositeEmoji": "☀️",
+        "definitions": [
+            {
+                "text": "Having a lot of rain.",
+                "examples": [
+                    "It is a rainy day.",
+                    "Wear a coat, it's rainy outside."
+                ]
+            }
+        ],
+        "subtext": "rainy day / rainy weather / rainy season",
+        "synonyms": [
+            "wet",
+            "showery"
+        ],
+        "comparative": "rainier",
+        "superlative": "the rainiest",
+        "transcription": "ˈreɪni",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_060",
+        "word": "hot",
         "emoji": "🔥",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "fires",
-        "subtext": "start a fire",
-        "synonyms": [
-            "flames"
-        ],
+        "form": "adjective",
+        "opposite": "cold",
+        "oppositeEmoji": "❄️",
+        "subtext": "very hot, hot weather / hot weather / a hot drink / too hot",
         "definitions": [
             {
-                "text": "Heat and light from something burning.",
+                "text": "Having a high temperature.",
                 "examples": [
-                    "Be careful with the fire."
+                    "The coffee is hot.",
+                    "It is very hot in summer.",
+                    "It is too hot to work comfortably today."
                 ]
             }
         ],
-        "opposite": null,
-        "transcription": "faɪər",
+        "comparative": "hotter",
+        "superlative": "the hottest",
+        "transcription": "hɑt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_061",
+        "word": "cold",
+        "emoji": "❄️",
+        "form": "adjective",
+        "opposite": "hot",
+        "oppositeEmoji": "🔥",
+        "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
+        "definitions": [
+            {
+                "text": "Having a low temperature.",
+                "examples": [
+                    "The water is cold.",
+                    "It is cold in winter."
+                ]
+            },
+            {
+                "text": "Having a low temperature; not warm.",
+                "examples": [
+                    "I need a coat — it is very cold outside."
+                ]
+            }
+        ],
+        "comparative": "colder",
+        "superlative": "the coldest",
+        "transcription": "koʊld",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "fōr",
-            "origin_meaning": "fire"
+            "origin_word": "kaldaz"
         }
     },
     {
-        "id": "en_starter_nature_046",
-        "word": "climb",
-        "emoji": "🧗",
-        "subtext": "climb a mountain / climb a hill / climb stairs / climb up",
-        "form": "verb",
+        "id": "en_starter_nature_062",
+        "word": "warm",
+        "form": "adjective",
+        "opposite": "cool",
+        "oppositeEmoji": "🧊",
+        "subtext": "warm weather / a warm welcome / keep warm",
         "definitions": [
             {
-                "text": "To go up something using your hands and feet.",
+                "text": "Slightly hot; pleasantly heated.",
                 "examples": [
-                    "We climbed the hill to see the view.",
-                    "The cat climbed the tree."
+                    "The office is warm and comfortable."
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "climbed",
-        "v3": "climbed",
-        "group": "regular",
-        "opposite": "descend",
-        "transcription": "klaɪm",
+        "comparative": "warmer",
+        "superlative": "the warmest",
+        "emoji": "☀️",
+        "transcription": "wɔrm",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
         "sub_theme": null
     },
     {
-        "id": "en_starter_nature_047",
-        "word": "pick",
-        "emoji": "🧺",
-        "form": "verb",
-        "subtext": "pick flowers / pick up",
+        "id": "en_starter_nature_063",
+        "word": "cool",
+        "form": "adjective",
+        "opposite": "warm",
+        "oppositeEmoji": "☀️",
+        "subtext": "cool weather / a cool drink / stay cool",
         "definitions": [
             {
-                "text": "To take flowers, fruit, etc. from the plant where they are growing.",
+                "text": "Slightly cold; pleasantly low temperature.",
                 "examples": [
-                    "They are picking apples in the garden."
+                    "She prefers cool weather for working."
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "picked",
-        "v3": "picked",
-        "group": "regular",
-        "opposite": "drop",
-        "transcription": "pɪk",
+        "comparative": "cooler",
+        "superlative": "the coolest",
+        "emoji": "🌬️",
+        "transcription": "kul",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
         "sub_theme": null
     },
     {
-        "id": "en_starter_plants_natural_world_005",
-        "word": "natural",
-        "emoji": "🌱",
+        "id": "en_starter_nature_064",
+        "word": "wet",
         "form": "adjective",
-        "opposite": "artificial",
-        "oppositeEmoji": "🤖",
-        "subtext": "natural light / natural products",
-        "synonyms": [
-            "nature-made"
-        ],
+        "opposite": "dry",
+        "oppositeEmoji": "🏜️",
+        "subtext": "wet weather / wet clothes / get wet",
         "definitions": [
             {
-                "text": "Existing in nature; not made or caused by people.",
+                "text": "Covered with water or liquid.",
                 "examples": [
-                    "I prefer natural products."
+                    "His jacket is wet from the rain."
                 ]
             }
         ],
-        "comparative": "more natural",
-        "superlative": "the most natural",
-        "transcription": "ˈnæʧərəl",
+        "comparative": "wetter",
+        "superlative": "the wettest",
+        "emoji": "💦",
+        "transcription": "wɛt",
         "lang": "en",
         "level": "starter",
-        "theme": "plants_natural_world",
+        "theme": "nature",
         "sub_theme": null
     },
     {
-        "id": "en_starter_plants_natural_world_006",
-        "word": "alive",
-        "emoji": "🌱",
+        "id": "en_starter_nature_065",
+        "word": "dry",
         "form": "adjective",
-        "opposite": "dead",
-        "oppositeEmoji": "💀",
-        "subtext": "stay alive / still alive",
-        "synonyms": [
-            "living"
-        ],
+        "opposite": "wet",
+        "oppositeEmoji": "🌧️",
+        "subtext": "dry weather / dry skin / keep dry",
         "definitions": [
             {
-                "text": "Living, not dead.",
+                "text": "Without water or liquid; not wet.",
                 "examples": [
-                    "The plant is still alive."
+                    "The storage room must stay dry."
                 ]
             }
         ],
-        "comparative": null,
-        "superlative": null,
-        "transcription": "əˈlaɪv",
+        "comparative": "dryer",
+        "superlative": "the dryest",
+        "emoji": "🏜️",
+        "transcription": "draɪ",
         "lang": "en",
         "level": "starter",
-        "theme": "plants_natural_world",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_066",
+        "word": "cloudy",
+        "emoji": "☁️",
+        "form": "adjective",
+        "opposite": "sunny",
+        "oppositeEmoji": "☀️",
+        "subtext": "a cloudy sky / cloudy weather",
+        "synonyms": [
+            "overcast"
+        ],
+        "definitions": [
+            {
+                "text": "With many clouds in the sky.",
+                "examples": [
+                    "It is a cloudy day."
+                ]
+            }
+        ],
+        "comparative": "cloudier",
+        "superlative": "the cloudiest",
+        "transcription": "ˈklaʊdi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_067",
+        "word": "windy",
+        "emoji": "💨",
+        "form": "adjective",
+        "opposite": "calm",
+        "oppositeEmoji": "😌",
+        "subtext": "a windy day / very windy",
+        "synonyms": [
+            "breezy"
+        ],
+        "definitions": [
+            {
+                "text": "With a lot of wind.",
+                "examples": [
+                    "It is very windy today."
+                ]
+            }
+        ],
+        "comparative": "windier",
+        "superlative": "the windiest",
+        "transcription": "ˈwɪndi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_068",
+        "word": "snowy",
+        "emoji": "❄️",
+        "form": "adjective",
+        "opposite": "sunny",
+        "oppositeEmoji": "☀️",
+        "subtext": "snowy mountains / a snowy winter",
+        "synonyms": [
+            "covered in snow"
+        ],
+        "definitions": [
+            {
+                "text": "With a lot of snow.",
+                "examples": [
+                    "We have snowy weather in January."
+                ]
+            }
+        ],
+        "comparative": "snowier",
+        "superlative": "the snowiest",
+        "transcription": "snoʊi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_069",
+        "word": "foggy",
+        "emoji": "🌫️",
+        "form": "adjective",
+        "opposite": "clear",
+        "oppositeEmoji": "💎",
+        "subtext": "foggy morning / very foggy",
+        "synonyms": [
+            "misty"
+        ],
+        "definitions": [
+            {
+                "text": "With a lot of fog; difficult to see.",
+                "examples": [
+                    "It is foggy this morning."
+                ]
+            }
+        ],
+        "comparative": "foggier",
+        "superlative": "the foggiest",
+        "transcription": "ˈfɑgi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_070",
+        "word": "stormy",
+        "emoji": "⛈️",
+        "form": "adjective",
+        "opposite": "calm",
+        "oppositeEmoji": "😌",
+        "subtext": "stormy weather / a stormy night",
+        "synonyms": [
+            "rough"
+        ],
+        "definitions": [
+            {
+                "text": "With a lot of rain and strong winds.",
+                "examples": [
+                    "It was a stormy night."
+                ]
+            }
+        ],
+        "comparative": "stormier",
+        "superlative": "the stormiest",
+        "transcription": "ˈstɔrmi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_010",
+        "word": "season",
+        "emoji": "📅",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "One of the four periods of the year (spring, summer, autumn, winter).",
+                "examples": [
+                    "Winter is my favorite season."
+                ]
+            }
+        ],
+        "subtext": "time of year",
+        "transcription": "ˈsizən",
+        "lang": "en",
+        "level": "starter",
+        "theme": "seasons_climate",
         "sub_theme": null
     }
 ];

@@ -542,7 +542,7 @@
 {
         "word": "encore",
         "level": "starter",
-        "theme": "frequency_adverbs_A1",
+        "theme": "frequency_adverbs",
         "article": "",
         "gender": "",
         "emoji": "🔁",
@@ -561,7 +561,7 @@
 {
         "word": "il y a",
         "level": "starter",
-        "theme": "duration_expressions_A1",
+        "theme": "duration_expressions",
         "article": "",
         "gender": "",
         "emoji": "🕰️",

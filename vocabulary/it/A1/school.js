@@ -49,7 +49,7 @@
 {
         "word": "università",
         "level": "starter",
-        "theme": "types_of_education_A1",
+        "theme": "types_of_education",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎓",
@@ -191,7 +191,7 @@
 {
         "word": "quaderno",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school_stationery",
         "article": "il",
         "gender": "masculine",
         "emoji": "📓",
@@ -214,7 +214,7 @@
 {
         "word": "gomma",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school_stationery",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧼",
@@ -423,7 +423,7 @@
 {
         "word": "astuccio",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school_stationery",
         "article": "l'",
         "gender": "masculine",
         "emoji": "✏️",
@@ -530,7 +530,7 @@
 {
         "word": "righello",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school_stationery",
         "emoji": "📏",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -552,7 +552,7 @@
 {
         "word": "esempio",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "article": "l'",
         "gender": "masculine",
         "emoji": "💡",

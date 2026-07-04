@@ -302,7 +302,7 @@
 {
         "word": "app",
         "level": "starter",
-        "theme": "using_smartphone_A1",
+        "theme": "using_smartphone",
         "article": "l'",
         "gender": "feminine",
         "emoji": "📱",
