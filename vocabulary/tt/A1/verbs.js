@@ -4,7 +4,7 @@
     {
         "word": "булу",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "👤",
         "subtext": "арган булу / бәхетле булу / эштә булу / әзер булу",
         "form": "verb",
@@ -170,7 +170,7 @@
     {
         "word": "салу",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📥",
         "subtext": "",
         "synonyms": [
@@ -558,7 +558,7 @@
     {
         "word": "кисү",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "✂️",
         "subtext": "",
         "synonyms": [
@@ -583,7 +583,7 @@
     {
         "word": "бору",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "directions_navigation",
         "emoji": "🔄",
         "subtext": "",
         "synonyms": [
@@ -637,7 +637,7 @@
     {
         "word": "әйтү",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗨️",
         "subtext": "",
         "synonyms": [
@@ -718,7 +718,7 @@
     {
         "word": "сөйләшү",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗣️",
         "subtext": "",
         "synonyms": [
@@ -907,7 +907,7 @@
     {
         "word": "кабатлау",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🔁",
         "subtext": "",
         "synonyms": [
@@ -1173,7 +1173,7 @@
     {
         "word": "сәяхәт итү",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "✈️",
         "subtext": "эш буенча сәяхәт итәргә",
         "synonyms": [
@@ -1285,7 +1285,7 @@
     {
         "word": "аш пешерү",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "🍳",
         "subtext": "",
         "synonyms": [
@@ -2648,7 +2648,7 @@
     {
         "word": "рәсем ясау",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "cinema_film",
         "emoji": "🎨",
         "subtext": "",
         "synonyms": [
@@ -2913,7 +2913,7 @@
     {
         "word": "эшкә йөрү",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🚆",
         "subtext": "",
         "synonyms": [
@@ -3613,7 +3613,7 @@
         "aspect": "both",
         "v2": "missed",
         "v3": "сагынган",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
@@ -3675,7 +3675,7 @@
     {
         "word": "рәхмәт әйтү",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🙏",
         "subtext": "",
         "synonyms": [
@@ -3701,7 +3701,7 @@
     {
         "word": "таныштыру",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "🤝",
         "subtext": "",
         "synonyms": [

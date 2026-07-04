@@ -338,7 +338,7 @@
 {
         "word": "cadeira",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🪑",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -360,7 +360,7 @@
 {
         "word": "mesa",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "table",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -382,7 +382,7 @@
 {
         "word": "cama",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🛏️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -404,7 +404,7 @@
 {
         "word": "chave",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🔑",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -438,7 +438,7 @@
 {
         "word": "livro",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📖",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -460,7 +460,7 @@
 {
         "word": "mala",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "👜",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -477,7 +477,7 @@
 {
         "word": "caneta",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🖊️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -1275,7 +1275,7 @@
 {
         "word": "mapa",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "article": "o",
         "gender": "masculine",
         "emoji": "🗺️",
@@ -1323,7 +1323,7 @@
 {
         "word": "bolsa",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "👜",
         "definitions": [
@@ -1337,7 +1337,7 @@
 {
         "word": "porta",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🚪",
         "definitions": [
@@ -1351,7 +1351,7 @@
 {
         "word": "janela",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🪟",
         "definitions": [
@@ -1365,7 +1365,7 @@
 {
         "word": "prato",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🍽️",
         "definitions": [
@@ -1379,7 +1379,7 @@
 {
         "word": "chávena",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "☕",
         "definitions": [
@@ -1393,7 +1393,7 @@
 {
         "word": "copo",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🍷",
         "definitions": [
@@ -1407,7 +1407,7 @@
 {
         "word": "garfo",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🍴",
         "definitions": [
@@ -1421,7 +1421,7 @@
 {
         "word": "colher",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🥄",
         "definitions": [
@@ -1435,7 +1435,7 @@
 {
         "word": "faca",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🔪",
         "definitions": [
@@ -1449,7 +1449,7 @@
 {
         "word": "secretária",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🖥️",
         "definitions": [
@@ -1463,7 +1463,7 @@
 {
         "word": "lâmpada",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "💡",
         "definitions": [
@@ -1477,7 +1477,7 @@
 {
         "word": "relógio",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "⏰",
         "definitions": [
@@ -1491,7 +1491,7 @@
 {
         "word": "espelho",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🪞",
         "definitions": [
@@ -1505,7 +1505,7 @@
 {
         "word": "garrafa",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🍾",
         "definitions": [
@@ -1519,7 +1519,7 @@
 {
         "word": "caixa",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "📦",
         "definitions": [
@@ -1533,7 +1533,7 @@
 {
         "word": "lápis",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "✏️",
         "definitions": [
@@ -1547,7 +1547,7 @@
 {
         "word": "papel",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "📄",
         "definitions": [
@@ -1561,7 +1561,7 @@
 {
         "word": "frigorífico",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🧊",
         "definitions": [
@@ -1575,7 +1575,7 @@
 {
         "word": "forno",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🥯",
         "definitions": [
@@ -1589,7 +1589,7 @@
 {
         "word": "sabão",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🧼",
         "definitions": [
@@ -1603,7 +1603,7 @@
 {
         "word": "toalha",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🧖",
         "definitions": [
@@ -1617,7 +1617,7 @@
 {
         "word": "sofá",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🛋️",
         "definitions": [
@@ -1631,7 +1631,7 @@
 {
         "word": "estante",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🪜",
         "definitions": [
@@ -1645,7 +1645,7 @@
 {
         "word": "escova de dentes",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🪥",
         "definitions": [
@@ -1659,7 +1659,7 @@
 {
         "word": "pasta de dentes",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🦷",
         "definitions": [
@@ -1673,7 +1673,7 @@
 {
         "word": "champô",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🧴",
         "definitions": [
@@ -1687,7 +1687,7 @@
 {
         "word": "pente",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🪮",
         "definitions": [
@@ -1701,7 +1701,7 @@
 {
         "word": "armário",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "👗",
         "definitions": [
@@ -1715,7 +1715,7 @@
 {
         "word": "parede",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🧱",
         "definitions": [
@@ -1729,7 +1729,7 @@
 {
         "word": "chão",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🪵",
         "definitions": [
@@ -1743,7 +1743,7 @@
 {
         "word": "telhado",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🏠",
         "definitions": [
@@ -1757,7 +1757,7 @@
 {
         "word": "jardim",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🏡",
         "definitions": [
@@ -1771,7 +1771,7 @@
 {
         "word": "por favor",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🙏",
         "definitions": [
@@ -1785,7 +1785,7 @@
 {
         "word": "obrigado",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🙏",
         "definitions": [
@@ -1799,7 +1799,7 @@
 {
         "word": "olá",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "👋",
         "definitions": [
@@ -1813,7 +1813,7 @@
 {
         "word": "adeus",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "👋",
         "definitions": [
@@ -1827,7 +1827,7 @@
 {
         "word": "com licença",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🙇",
         "definitions": [
@@ -1841,7 +1841,7 @@
 {
         "word": "bem-vindo",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "emoji": "🤝",
         "definitions": [

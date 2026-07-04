@@ -243,7 +243,7 @@
 {
         "word": "là",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "prepositions_place",
         "article": "",
         "gender": "",
         "emoji": "👉",

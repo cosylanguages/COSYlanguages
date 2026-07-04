@@ -3,7 +3,7 @@
     {
         "word": "ser",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "👤",
         "subtext": "ser feliz",
         "synonyms": [
@@ -195,7 +195,7 @@
     {
         "word": "pôr",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📥",
         "subtext": "pôr",
         "synonyms": [
@@ -564,7 +564,7 @@
     {
         "word": "cortar",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "✂️",
         "subtext": "cortar custos / cortar gastos / cortar ao meio",
         "synonyms": [
@@ -590,7 +590,7 @@
     {
         "word": "virar",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "directions_navigation",
         "emoji": "🔄",
         "subtext": "virar à esquerda / virar à direita",
         "synonyms": [
@@ -644,7 +644,7 @@
     {
         "word": "dizer",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗨️",
         "subtext": "dizer olá / dizer que sim / dizer que não / dizer algo",
         "form": "verb",
@@ -720,7 +720,7 @@
     {
         "word": "falar",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗣️",
         "subtext": "falar com alguém / falar inglês / falar com clareza / falar numa reunião",
         "form": "verb",
@@ -909,7 +909,7 @@
     {
         "word": "repetir",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🔁",
         "subtext": "repetir isso / repetir-se / repetir um pedido",
         "form": "verb",
@@ -1172,7 +1172,7 @@
     {
         "word": "viajar",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "✈️",
         "subtext": "viajar em trabalho / viajar para o estrangeiro / viajar de comboio",
         "form": "verb",
@@ -1287,7 +1287,7 @@
     {
         "word": "cozinhar",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "🍳",
         "subtext": "cozinhar o jantar / cozinhar uma refeição / cozinhar em casa / cozinhar para alguém",
         "form": "verb",
@@ -2595,7 +2595,7 @@
     {
         "word": "desenhar",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "cinema_film",
         "emoji": "🎨",
         "subtext": "desenhar um quadro",
         "synonyms": [
@@ -2861,7 +2861,7 @@
     {
         "word": "viajar diariamente",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🚆",
         "subtext": "deslocar-se para o trabalho",
         "synonyms": [
@@ -3520,7 +3520,7 @@
         "aspect": "both",
         "v2": "perdi",
         "v3": "perdido",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
@@ -3580,7 +3580,7 @@
     {
         "word": "agradecer",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🙏",
         "subtext": "agradecer a alguém",
         "synonyms": [
@@ -3607,7 +3607,7 @@
     {
         "word": "apresentar",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "🤝",
         "subtext": "apresentar-se / apresentar alguém / apresentar um tema",
         "form": "verb",
@@ -3955,7 +3955,7 @@
     {
         "word": "produzir",
         "level": "starter",
-        "theme": "work_employment_A1",
+        "theme": "work_employment",
         "form": "verb",
         "transcription": "pɾu.ðu.ˈziɾ",
         "group": "ir",
@@ -3975,7 +3975,7 @@
     {
         "word": "projetar",
         "level": "starter",
-        "theme": "work_employment_A1",
+        "theme": "work_employment",
         "form": "verb",
         "transcription": "pɾu.ʒɛ.ˈtaɾ",
         "group": "ar",

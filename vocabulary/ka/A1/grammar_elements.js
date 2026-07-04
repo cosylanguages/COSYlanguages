@@ -59,7 +59,7 @@
         {
             "word": "ყოველთვის",
             "level": "starter",
-            "theme": "frequency_adverbs_A1",
+            "theme": "frequency_adverbs",
             "emoji": "🔄",
             "form": "adverb",
             "definitions": [{ "text": "ყოველ დროს.", "examples": ["მე ყოველთვის ვსვამ ყავას."] }]
@@ -67,7 +67,7 @@
         {
             "word": "არასოდეს",
             "level": "starter",
-            "theme": "frequency_adverbs_A1",
+            "theme": "frequency_adverbs",
             "emoji": "❌",
             "form": "adverb",
             "definitions": [{ "text": "არცერთ დროს.", "examples": ["მე არასოდეს ვაგვიანებ."] }]
@@ -75,7 +75,7 @@
         {
             "word": "და",
             "level": "starter",
-            "theme": "conjunctions_connectors_A1",
+            "theme": "conjunctions_connectors",
             "emoji": "➕",
             "form": "conjunction",
             "definitions": [{ "text": "აერთებს სიტყვებს ან წინადადებებს.", "examples": ["ყავა და ჩაი."] }]
@@ -83,7 +83,7 @@
         {
             "word": "მაგრამ",
             "level": "starter",
-            "theme": "conjunctions_connectors_A1",
+            "theme": "conjunctions_connectors",
             "emoji": "❓",
             "form": "conjunction",
             "definitions": [{ "text": "მიუთითებს წინააღმდეგობაზე.", "examples": ["მიყვარს ყავა, მაგრამ არა რძე."] }]

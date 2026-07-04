@@ -4,7 +4,7 @@
     {
         "word": "լինել",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "👤",
         "subtext": "հոգնած լինել / երջանիկ լինել / աշխատանքի լինել / պատրաստ լինել",
         "form": "verb",
@@ -147,7 +147,7 @@
     {
         "word": "դնել",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📥",
         "subtext": "պայուսակը դնել / գիրքը դնել / այստեղ դնել",
         "form": "verb",
@@ -468,7 +468,7 @@
     {
         "word": "կտրել",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "✂️",
         "subtext": "հացը կտրել / թուղթը կտրել",
         "form": "verb",
@@ -490,7 +490,7 @@
     {
         "word": "պտտել",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "directions_navigation",
         "emoji": "🔄",
         "subtext": "",
         "synonyms": [
@@ -538,7 +538,7 @@
     {
         "word": "ասել",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗨️",
         "subtext": "բարև ասել / այո ասել / ոչ ասել",
         "form": "verb",
@@ -607,7 +607,7 @@
     {
         "word": "խոսել",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗣️",
         "subtext": "անգլերեն խոսել / հայերեն խոսել",
         "form": "verb",
@@ -765,7 +765,7 @@
     {
         "word": "կրկնել",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🔁",
         "subtext": "բառը կրկնել / նախադասությունը կրկնել",
         "form": "verb",
@@ -990,7 +990,7 @@
     {
         "word": "ճամփորդել",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "✈️",
         "subtext": "աշխարհով մեկ ճամփորդել / բիզնեսով ճամփորդել",
         "form": "verb",
@@ -1084,7 +1084,7 @@
     {
         "word": "եփել",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "🍳",
         "subtext": "ճաշ եփել / ընթրիք եփել",
         "form": "verb",
@@ -2237,7 +2237,7 @@
     {
         "word": "նկարել",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "cinema_film",
         "emoji": "🎨",
         "subtext": "նկար նկարել",
         "synonyms": [
@@ -2472,7 +2472,7 @@
     {
         "word": "երթևեկել",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🚆",
         "subtext": "գնացքով երթևեկել / ամեն օր երթևեկել",
         "form": "verb",
@@ -3081,7 +3081,7 @@
         "aspect": "both",
         "v2": "բաց թողեց",
         "v3": "բաց թողել",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
@@ -3135,7 +3135,7 @@
     {
         "word": "շնորհակալություն հայտնել",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🙏",
         "subtext": "օգնության համար շնորհակալություն հայտնել",
         "form": "verb",
@@ -3157,7 +3157,7 @@
     {
         "word": "ներկայացնել",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "🤝",
         "subtext": "ընկերոջը ներկայացնել / նոր գործընկերոջը ներկայացնել",
         "form": "verb",

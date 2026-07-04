@@ -312,7 +312,7 @@
 {
         "word": "καρέκλα",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "η",
         "gender": "feminine",
         "emoji": "🪑",
@@ -331,7 +331,7 @@
 {
         "word": "τραπέζι",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "το",
         "gender": "neuter",
         "emoji": "🪑",
@@ -350,7 +350,7 @@
 {
         "word": "κρεβάτι",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "το",
         "gender": "neuter",
         "emoji": "🛏️",
@@ -543,7 +543,7 @@
 {
         "word": "γραφείο",
         "level": "starter",
-        "theme": "rooms_indoor_spaces_A1",
+        "theme": "rooms_indoor_spaces",
         "article": "το",
         "gender": "neuter",
         "emoji": "🏢",
@@ -755,7 +755,7 @@
 {
         "word": "πόρτα",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "η",
         "gender": "feminine",
         "emoji": "🚪",
@@ -774,7 +774,7 @@
 {
         "word": "παράθυρο",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "το",
         "gender": "neuter",
         "emoji": "🪟",
@@ -1196,7 +1196,7 @@
 {
         "word": "σύντροφος",
         "level": "starter",
-        "theme": "marital_status_A1",
+        "theme": "marital_status",
         "article": "ο",
         "gender": "masculine",
         "emoji": "💑",
@@ -1517,7 +1517,7 @@
 {
         "word": "κλειδί",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "το",
         "gender": "neuter",
         "emoji": "🔑",
@@ -1535,7 +1535,7 @@
         "word": "χαρτοφύλακας",
         "image": "images/vocabulary/actions/to go to work.png",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "💼",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Μια επίπεδη θήκη που χρησιμοποιείται για τη μεταφορά εγγράφων.", "examples": ["Μεταφέρει τα έγγραφά του σε έναν χαρτοφύλακα."]}],
@@ -1562,7 +1562,7 @@
 {
         "word": "βιβλίο",
         "level": "starter",
-        "theme": "books_reading_A1",
+        "theme": "books_reading",
         "article": "το",
         "gender": "neuter",
         "emoji": "📖",
@@ -1581,7 +1581,7 @@
 {
         "word": "τσάντα",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "accessories",
         "article": "η",
         "gender": "feminine",
         "emoji": "👜",
@@ -1599,7 +1599,7 @@
 {
         "word": "στυλό",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "article": "το",
         "gender": "neuter",
         "emoji": "🖊️",
@@ -2031,7 +2031,7 @@
 {
         "word": "μετακίνηση",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "η",
         "gender": "feminine",
         "emoji": "🚆",
@@ -2270,7 +2270,7 @@
 {
         "word": "ταξίδι",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "article": "το",
         "gender": "neuter",
         "emoji": "✈️",

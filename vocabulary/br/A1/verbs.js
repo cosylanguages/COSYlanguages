@@ -4,7 +4,7 @@
     {
         "word": "bezañ",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "👤",
         "subtext": "skuizh bezañ / laouen bezañ / el labour bezañ / prest bezañ",
         "form": "verb",
@@ -151,7 +151,7 @@
     {
         "word": "lakaat",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📥",
         "subtext": "lakaat / lakaat a-gostez / lakaat arc'hant a-gostez",
         "form": "verb",
@@ -478,7 +478,7 @@
     {
         "word": "troc'hañ",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "✂️",
         "subtext": "",
         "synonyms": [
@@ -504,7 +504,7 @@
     {
         "word": "treiñ",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "directions_navigation",
         "emoji": "🔄",
         "subtext": "treiñ a-gleiz / treiñ a-zehou",
         "synonyms": [
@@ -552,7 +552,7 @@
     {
         "word": "lavarout",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗨️",
         "subtext": "lavarout demat / lavarout ya / lavarout nann / lavarout un dra bennak",
         "form": "verb",
@@ -618,7 +618,7 @@
     {
         "word": "komz",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗣️",
         "subtext": "komz ouzh unan bennak / komz saozneg / komz sklaer",
         "form": "verb",
@@ -780,7 +780,7 @@
     {
         "word": "adzlavarout",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🔁",
         "subtext": "",
         "synonyms": [
@@ -1013,7 +1013,7 @@
     {
         "word": "beajiñ",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "✈️",
         "subtext": "beajiñ evit al labour / beajiñ d'an estrenvro",
         "form": "verb",
@@ -1107,7 +1107,7 @@
     {
         "word": "poazhañ",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "🍳",
         "subtext": "",
         "synonyms": [
@@ -2311,7 +2311,7 @@
     {
         "word": "treset",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "cinema_film",
         "emoji": "🎨",
         "subtext": "treset ur skeudenn / treset ul linenn",
         "form": "verb",
@@ -2553,7 +2553,7 @@
     {
         "word": "beajiñ bemdez",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🚆",
         "subtext": "",
         "synonyms": [
@@ -3181,7 +3181,7 @@
         "aspect": "both",
         "v2": "mankas",
         "v3": "manket",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
@@ -3235,7 +3235,7 @@
     {
         "word": "trugarekaat",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🙏",
         "subtext": "trugarekaat unan bennak",
         "synonyms": [
@@ -3260,7 +3260,7 @@
     {
         "word": "en em ginnig",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "🤝",
         "subtext": "en em ginnig",
         "synonyms": [

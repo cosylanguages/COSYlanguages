@@ -3,7 +3,7 @@
 {
         "word": "table",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪑",
@@ -27,7 +27,7 @@
 {
         "word": "livre",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "📖",
@@ -51,7 +51,7 @@
 {
         "word": "stylo",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🖊️",
@@ -153,7 +153,7 @@
 {
         "word": "porte",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚪",
@@ -172,7 +172,7 @@
 {
         "word": "fenêtre",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪟",
@@ -191,7 +191,7 @@
 {
         "word": "assiette",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍽️",
@@ -210,7 +210,7 @@
 {
         "word": "tasse",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "☕",
@@ -229,7 +229,7 @@
 {
         "word": "verre",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥛",
@@ -248,7 +248,7 @@
 {
         "word": "fourchette",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
@@ -267,7 +267,7 @@
 {
         "word": "cuillère",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥄",
@@ -286,7 +286,7 @@
 {
         "word": "couteau",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🔪",
@@ -305,7 +305,7 @@
 {
         "word": "horloge",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "l'",
         "gender": "feminine",
         "emoji": "⏰",
@@ -362,7 +362,7 @@
 {
         "word": "bouteille",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍼",
@@ -381,7 +381,7 @@
 {
         "word": "boîte",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
@@ -420,7 +420,7 @@
 {
         "word": "crayon",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "✏️",
@@ -439,7 +439,7 @@
 {
         "word": "papier",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "📄",
@@ -745,7 +745,7 @@
 {
         "word": "robinet",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚰",
@@ -783,7 +783,7 @@
 {
         "word": "serviette",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧺",
@@ -802,7 +802,7 @@
 {
         "word": "miroir",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🪞",
@@ -821,7 +821,7 @@
 {
         "word": "lit",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛌",
@@ -844,7 +844,7 @@
 {
         "word": "oreiller",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "l'",
         "gender": "masculine",
         "emoji": "☁️",
@@ -863,7 +863,7 @@
 {
         "word": "couverture",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧶",
@@ -882,7 +882,7 @@
 {
         "word": "armoire",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
@@ -901,7 +901,7 @@
 {
         "word": "étagère",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "l'",
         "gender": "feminine",
         "emoji": "📶",
@@ -920,7 +920,7 @@
 {
         "word": "bureau",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🖥️",
@@ -939,7 +939,7 @@
 {
         "word": "chaise",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪑",
@@ -962,7 +962,7 @@
 {
         "word": "fauteuil",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛋️",
@@ -981,7 +981,7 @@
 {
         "word": "canapé",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛋️",
@@ -1000,7 +1000,7 @@
 {
         "word": "lampe",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
@@ -1019,7 +1019,7 @@
 {
         "word": "sac",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "👜",
@@ -1036,7 +1036,7 @@
         "word": "mallette",
         "image": "images/vocabulary/actions/to go to work.png",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "💼",
         "form": "noun", "classification": "regular", "countability": "countable",
         "definitions": [{"text": "Un étui plat utilisé pour transporter des papiers et des documents.", "examples": ["Il transporte ses documents dans une mallette."]}],
@@ -1048,7 +1048,7 @@
 {
         "word": "grille-pain",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "🍞",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
@@ -1068,7 +1068,7 @@
 {
         "word": "four à micro-ondes",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
         "emoji": "📟",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",

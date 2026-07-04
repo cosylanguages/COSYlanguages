@@ -67,7 +67,7 @@
         {
             "word": "atav",
             "level": "starter",
-            "theme": "frequency_adverbs_A1",
+            "theme": "frequency_adverbs",
             "emoji": "🔄",
             "form": "adverb",
             "definitions": [{ "text": "Bepred.", "examples": ["Evañ a ran kafe atav."] }]
@@ -75,7 +75,7 @@
         {
             "word": "morse",
             "level": "starter",
-            "theme": "frequency_adverbs_A1",
+            "theme": "frequency_adverbs",
             "emoji": "❌",
             "form": "adverb",
             "definitions": [{ "text": "Gwech ebet.", "examples": ["Ne erruan morse diwezhat."] }]
@@ -83,7 +83,7 @@
         {
             "word": "ha",
             "level": "starter",
-            "theme": "conjunctions_connectors_A1",
+            "theme": "conjunctions_connectors",
             "emoji": "➕",
             "form": "conjunction",
             "definitions": [{ "text": "Stagañ gerioù pe frazennoù.", "examples": ["Kafe ha te."] }]
@@ -91,7 +91,7 @@
         {
             "word": "met",
             "level": "starter",
-            "theme": "conjunctions_connectors_A1",
+            "theme": "conjunctions_connectors",
             "emoji": "❓",
             "form": "conjunction",
             "definitions": [{ "text": "Diskouez an enebiezh.", "examples": ["Plijout a ra din ar c'hafe, met pas al laezh."] }]

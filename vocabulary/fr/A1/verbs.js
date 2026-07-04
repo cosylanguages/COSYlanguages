@@ -4,7 +4,7 @@ const data = [
     {
         "word": "être",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "👤",
         "subtext": "être prêt / être fatigué / être ouvert",
         "synonyms": [
@@ -217,7 +217,7 @@ const data = [
     {
         "word": "mettre",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📥",
         "subtext": "mettre",
         "synonyms": [
@@ -605,7 +605,7 @@ const data = [
     {
         "word": "couper",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "✂️",
         "subtext": "couper en deux",
         "synonyms": [
@@ -632,7 +632,7 @@ const data = [
     {
         "word": "tourner",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "directions_navigation",
         "emoji": "🔄",
         "subtext": "tourner à gauche / tourner à droite",
         "synonyms": [
@@ -683,7 +683,7 @@ const data = [
     {
         "word": "dire",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗨️",
         "subtext": "dire bonjour / dire oui / dire non / dire quelque chose",
         "form": "verb",
@@ -791,7 +791,7 @@ const data = [
     {
         "word": "parler",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗣️",
         "subtext": "parler à quelqu un / parler une langue / parler clairement",
         "form": "verb",
@@ -972,7 +972,7 @@ const data = [
     {
         "word": "répéter",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🔁",
         "subtext": "répéter cela / se répéter / répéter une commande",
         "form": "verb",
@@ -1261,7 +1261,7 @@ const data = [
     {
         "word": "voyager",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "✈️",
         "subtext": "voyager pour le travail / voyager à l étranger",
         "form": "verb",
@@ -1384,7 +1384,7 @@ const data = [
         "word": "cuisiner",
         "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "🍳",
         "subtext": "cuisiner un repas",
         "synonyms": [
@@ -2714,7 +2714,7 @@ const data = [
         "word": "dessiner",
         "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "cinema_film",
         "emoji": "🎨",
         "subtext": "dessiner / dessiner une image / dessiner une ligne",
         "form": "verb",
@@ -2954,7 +2954,7 @@ const data = [
     {
         "word": "faire le trajet",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🚆",
         "subtext": "faire le trajet",
         "synonyms": [
@@ -3611,7 +3611,7 @@ const data = [
         "classification": "regular",
         "aspect": "both",
         "v3": "manqué",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
@@ -3669,7 +3669,7 @@ const data = [
     {
         "word": "remercier",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🙏",
         "subtext": "remercier quelqu un / remercier pour",
         "synonyms": [
@@ -3695,7 +3695,7 @@ const data = [
     {
         "word": "présenter",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "🤝",
         "subtext": "se présenter / présenter quelqu un / présenter un sujet",
         "form": "verb",
@@ -4185,7 +4185,7 @@ const data = [
     {
         "word": "attraper",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🧤",
         "form": "verb",
         "definitions": [
@@ -4295,7 +4295,7 @@ const data = [
     {
         "word": "préparer",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "🥘",
         "form": "verb",
         "definitions": [
@@ -4427,7 +4427,7 @@ const data = [
         "word": "goûter",
         "image": "images/vocabulary/actions/to have a snack.png",
         "level": "starter",
-        "theme": "tastes_textures_A1",
+        "theme": "tastes_textures",
         "emoji": "👅",
         "form": "verb",
         "definitions": [
@@ -4538,7 +4538,7 @@ const data = [
     {
         "word": "épeler",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🔤",
         "form": "verb",
         "definitions": [
@@ -4560,7 +4560,7 @@ const data = [
     {
         "word": "pointer",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "☝️",
         "form": "verb",
         "definitions": [
@@ -4582,7 +4582,7 @@ const data = [
     {
         "word": "crier",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "📢",
         "form": "verb",
         "definitions": [
@@ -4605,7 +4605,7 @@ const data = [
         "word": "saluer",
         "image": "images/vocabulary/actions/to wave. to greet.png",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "👋",
         "form": "verb",
         "definitions": [
@@ -4691,7 +4691,7 @@ const data = [
     {
         "word": "peindre",
         "level": "starter",
-        "theme": "hobbies_interests_A1",
+        "theme": "hobbies_interests",
         "emoji": "🎨",
         "form": "verb",
         "definitions": [
@@ -4756,7 +4756,7 @@ const data = [
     {
         "word": "compter",
         "level": "starter",
-        "theme": "numbers_0_9_A1",
+        "theme": "numbers_0_9",
         "emoji": "🔢",
         "form": "verb",
         "definitions": [
@@ -4778,7 +4778,7 @@ const data = [
     {
         "word": "cocher",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "✅",
         "form": "verb",
         "definitions": [
@@ -4800,7 +4800,7 @@ const data = [
     {
         "word": "barrer",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "❌",
         "form": "verb",
         "definitions": [
@@ -4822,7 +4822,7 @@ const data = [
     {
         "word": "colorier",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🖍️",
         "form": "verb",
         "definitions": [
@@ -4975,7 +4975,7 @@ const data = [
     {
         "word": "envoyer un SMS",
         "level": "starter",
-        "theme": "using_smartphone_A1",
+        "theme": "using_smartphone",
         "emoji": "📱",
         "form": "verb",
         "definitions": [
@@ -4996,7 +4996,7 @@ const data = [
     {
         "word": "chuchoter",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🤫",
         "form": "verb",
         "definitions": [
@@ -5018,7 +5018,7 @@ const data = [
     {
         "word": "toucher",
         "level": "starter",
-        "theme": "five_senses_A1",
+        "theme": "five_senses",
         "emoji": "🫫",
         "form": "verb",
         "definitions": [
@@ -5087,7 +5087,7 @@ const data = [
     {
         "word": "respirer",
         "level": "starter",
-        "theme": "health_body_A1",
+        "theme": "health_body",
         "emoji": "🫁",
         "form": "verb",
         "transcription": "ʁɛs.pi.ʁe",
@@ -5156,7 +5156,7 @@ const data = [
     {
         "word": "produire",
         "level": "starter",
-        "theme": "work_employment_A1",
+        "theme": "work_employment",
         "form": "verb",
         "transcription": "pʁɔ.dɥiʁ",
         "group": "re",
@@ -5176,7 +5176,7 @@ const data = [
     {
         "word": "projeter",
         "level": "starter",
-        "theme": "work_employment_A1",
+        "theme": "work_employment",
         "form": "verb",
         "transcription": "pʁɔ.ʒte",
         "group": "er",

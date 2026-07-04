@@ -138,7 +138,7 @@
 {
         "word": "anche",
         "level": "starter",
-        "theme": "conjunctions_connectors_A1",
+        "theme": "conjunctions_connectors",
         "article": "",
         "gender": "",
         "emoji": "➕",

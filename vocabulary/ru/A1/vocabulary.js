@@ -2157,7 +2157,7 @@
                 "word": "портфель",
                 "image": "images/vocabulary/actions/to go to work.png",
                 "level": "starter",
-                "theme": "furniture_objects_A1",
+                "theme": "furniture_objects",
                 "emoji": "💼",
                 "form": "noun",
                 "classification": "regular",

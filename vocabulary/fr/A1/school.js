@@ -41,7 +41,7 @@
 {
         "word": "université",
         "level": "starter",
-        "theme": "types_of_education_A1",
+        "theme": "types_of_education",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎓",
@@ -239,7 +239,7 @@
 {
         "word": "règle",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school_stationery",
         "emoji": "📏",
         "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",

@@ -245,7 +245,7 @@
 {
         "word": "աթոռ",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🪑",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -258,7 +258,7 @@
 {
         "word": "սեղան",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🪑",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -271,7 +271,7 @@
 {
         "word": "մահճակալ",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🛏️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -284,7 +284,7 @@
 {
         "word": "բանալի",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🔑",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -310,7 +310,7 @@
 {
         "word": "գիրք",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📚",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -323,7 +323,7 @@
 {
         "word": "պայուսակ",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "👜",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -336,7 +336,7 @@
 {
         "word": "գրիչ",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🖊️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [

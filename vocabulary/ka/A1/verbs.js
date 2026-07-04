@@ -4,7 +4,7 @@
     {
         "word": "ყოფნა",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "👤",
         "subtext": "დაღლილი ყოფნა / ბედნიერი ყოფნა / სამსახურში ყოფნა / მზად ყოფნა",
         "form": "verb",
@@ -173,7 +173,7 @@
     {
         "word": "დადება",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📥",
         "subtext": "",
         "synonyms": [
@@ -562,7 +562,7 @@
     {
         "word": "ჭრა",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "✂️",
         "subtext": "",
         "synonyms": [
@@ -588,7 +588,7 @@
     {
         "word": "მობრუნება",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "directions_navigation",
         "emoji": "🔄",
         "subtext": "",
         "synonyms": [
@@ -641,7 +641,7 @@
     {
         "word": "თქმა",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗨️",
         "subtext": "",
         "synonyms": [
@@ -722,7 +722,7 @@
     {
         "word": "ლაპარაკი",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗣️",
         "subtext": "",
         "synonyms": [
@@ -916,7 +916,7 @@
     {
         "word": "გამეორება",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🔁",
         "subtext": "",
         "synonyms": [
@@ -1184,7 +1184,7 @@
     {
         "word": "მოგზაურობა",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "✈️",
         "subtext": "საზღვარგარეთ მოგზაურობა",
         "synonyms": [
@@ -1293,7 +1293,7 @@
     {
         "word": "მომზადება",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "🍳",
         "subtext": "ვახშმის მომზადება / სახლში მომზადება",
         "form": "verb",
@@ -2678,7 +2678,7 @@
     {
         "word": "ხატვა",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "cinema_film",
         "emoji": "🎨",
         "subtext": "",
         "synonyms": [
@@ -2943,7 +2943,7 @@
     {
         "word": "მგზავრობა",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🚆",
         "subtext": "",
         "synonyms": [
@@ -3669,7 +3669,7 @@
         "aspect": "both",
         "v2": "გამოტოვა",
         "v3": "გამოტოვებული",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
@@ -3731,7 +3731,7 @@
     {
         "word": "მადლობა",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🙏",
         "subtext": "გადაუხადო მადლობა",
         "synonyms": [
@@ -3756,7 +3756,7 @@
     {
         "word": "წარდგენა",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "🤝",
         "subtext": "",
         "synonyms": [

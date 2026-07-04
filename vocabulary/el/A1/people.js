@@ -4,7 +4,7 @@
     {
         "word": "Σωκράτης",
         "level": "starter",
-        "theme": "marital_status_A1"
+        "theme": "marital_status"
     }
 ]
     const lang = "el";

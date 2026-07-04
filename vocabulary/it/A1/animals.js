@@ -239,7 +239,7 @@
 {
         "word": "delfino",
         "level": "starter",
-        "theme": "sea_animals_A1",
+        "theme": "sea_animals",
         "article": "il",
         "gender": "masculine",
         "emoji": "🐬",
@@ -262,7 +262,7 @@
 {
         "word": "ape",
         "level": "starter",
-        "theme": "insects_A1",
+        "theme": "insects",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🐝",
@@ -285,7 +285,7 @@
 {
         "word": "ragno",
         "level": "starter",
-        "theme": "insects_A1",
+        "theme": "insects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🕷️",
@@ -396,7 +396,7 @@
 {
         "word": "squalo",
         "level": "starter",
-        "theme": "sea_animals_A1",
+        "theme": "sea_animals",
         "emoji": "🦈",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
@@ -418,7 +418,7 @@
 {
         "word": "balena",
         "level": "starter",
-        "theme": "sea_animals_A1",
+        "theme": "sea_animals",
         "emoji": "🐋",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",

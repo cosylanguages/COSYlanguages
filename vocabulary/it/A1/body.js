@@ -502,7 +502,7 @@
 {
         "word": "corpo",
         "level": "starter",
-        "theme": "health_body_A1",
+        "theme": "health_body",
         "article": "il",
         "gender": "masculine",
         "emoji": "👤",

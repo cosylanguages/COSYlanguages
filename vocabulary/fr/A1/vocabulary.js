@@ -4,7 +4,7 @@
 {
         "word": "et",
         "level": "starter",
-        "theme": "conjunctions_connectors_A1",
+        "theme": "conjunctions_connectors",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -23,7 +23,7 @@
 {
         "word": "mais",
         "level": "starter",
-        "theme": "conjunctions_connectors_A1",
+        "theme": "conjunctions_connectors",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -42,7 +42,7 @@
 {
         "word": "parce que",
         "level": "starter",
-        "theme": "conjunctions_connectors_A1",
+        "theme": "conjunctions_connectors",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -137,7 +137,7 @@
 {
         "word": "aussi",
         "level": "starter",
-        "theme": "conjunctions_connectors_A1",
+        "theme": "conjunctions_connectors",
         "article": "",
         "gender": "",
         "emoji": "➕",

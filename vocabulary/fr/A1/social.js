@@ -1,527 +1,400 @@
 (function() {
     const data = [
 {
-        "word": "partenaire",
+        "word": "exercice",
         "level": "starter",
-        "theme": "marital_status_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "💑",
+        "theme": "social",
+        "article": "l'",
+        "emoji": "🏋️",
         "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "partenaires",
-        "subtext": "mari, femme, copain, copine",
+        "plural": "exercices",
         "definitions": [
             {
-                "text": "La personne avec qui vous vivez ou êtes en couple.",
+                "text": "Activité physique qui vous maintient en forme et en bonne santé.",
                 "examples": [
-                    "Mon partenaire travaille ici."
+                    "Je fais de l'exercice trois fois par semaine."
                 ]
             }
         ],
-        "transcription": "/paʁ.tə.nɛʁ/"
+        "transcription": "/eɡ.zɛʁ.sis/"
     },
 {
-        "word": "homme",
+        "word": "temps libre",
         "level": "starter",
-        "theme": "people",
-        "article": "l'",
-        "numberPlural": "2 homme",
-        "answer": "deux hommes",
-        "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "hommes",
+        "theme": "social",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🎮",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "plural": null,
+        "subtext": "",
+        "synonyms": [
+            "loisirs",
+            "détente"
+        ],
         "definitions": [
             {
-                "text": "Un homme adulte.",
+                "text": "Moment où vous ne travaillez pas et pouvez faire ce que vous voulez.",
                 "examples": [
-                    "Cet homme est mon patron."
+                    "Je lis des livres pendant mon temps libre."
+                ]
+            }
+        ],
+        "transcription": "/tɑ̃ libʁ/"
+    },
+{
+        "word": "cinéma",
+        "level": "starter",
+        "theme": "places",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🎬",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "cinémas",
+        "definitions": [
+            {
+                "text": "Lieu pour voir des films.",
+                "examples": [
+                    "Allons au cinéma."
+                ]
+            }
+        ],
+        "transcription": "/si.ne.ma/"
+    },
+{
+        "word": "musée",
+        "level": "starter",
+        "theme": "places",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🏛️",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "musées",
+        "definitions": [
+            {
+                "text": "Lieu avec des objets d'art.",
+                "examples": [
+                    "Le musée est grand."
+                ]
+            }
+        ],
+        "transcription": "/my.ze/"
+    },
+{
+        "word": "bibliothèque",
+        "level": "starter",
+        "theme": "places",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📚",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "bibliothèques",
+        "definitions": [
+            {
+                "text": "Lieu avec beaucoup de livres.",
+                "examples": [
+                    "Je vais à la bibliothèque."
+                ]
+            }
+        ],
+        "transcription": "/bi.bli.jɔ.tɛk/"
+    },
+{
+        "word": "ballon",
+        "level": "starter",
+        "theme": "sports_equipment",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "⚽",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "ballons",
+        "definitions": [
+            {
+                "text": "Objet rond pour le sport.",
+                "examples": [
+                    "Jouons au ballon."
+                ]
+            }
+        ],
+        "transcription": "/ba.lɔ̃/"
+    },
+{
+        "word": "art",
+        "level": "starter",
+        "theme": "places",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🎨",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "arts",
+        "definitions": [
+            {
+                "text": "Création de belles choses.",
+                "examples": [
+                    "J'aime l'art moderne."
+                ]
+            }
+        ],
+        "transcription": "/aʁ/"
+    },
+{
+        "word": "groupe",
+        "level": "starter",
+        "theme": "music",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🎸",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "groupes",
+        "definitions": [
+            {
+                "text": "Ensemble de musiciens.",
+                "examples": [
+                    "Un groupe de rock."
+                ]
+            }
+        ],
+        "transcription": "/ɡʁup/"
+    },
+{
+        "word": "concert",
+        "level": "starter",
+        "theme": "music",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "🎵",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "concerts",
+        "definitions": [
+            {
+                "text": "Spectacle musical.",
+                "examples": [
+                    "Un concert de piano."
+                ]
+            }
+        ],
+        "transcription": "/kɔ̃.sɛʁ/"
+    },
+{
+        "word": "musique",
+        "level": "starter",
+        "theme": "music",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🎵",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "musiques",
+        "definitions": [
+            {
+                "text": "Sons mélodieux.",
+                "examples": [
+                    "J'écoute de la musique."
+                ]
+            }
+        ],
+        "transcription": "/my.zik/"
+    },
+{
+        "word": "chanson",
+        "level": "starter",
+        "theme": "music",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🎤",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "chansons",
+        "definitions": [
+            {
+                "text": "Paroles sur de la musique.",
+                "examples": [
+                    "C'est une belle chanson."
                 ]
             },
 {
-        "word": "barbe de trois jours",
-        "image": "images/vocabulary/appearance/stubble.bristle.png",
+        "word": "guitare",
+        "image": "images/vocabulary/actions/to play a musical instrument.png",
         "level": "starter",
-        "theme": "people",
-        "emoji": "🧔",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
-        "definitions": [{"text": "Poils courts et raides poussant sur le visage d'un homme lorsqu'il ne s'est pas rasé depuis quelques jours.", "examples": ["Il a un peu de barbe de trois jours."]}],
-        "transcription": "/baʁb də tʁwa ʒuʁ/"
+        "theme": "music",
+        "emoji": "🎸",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "definitions": [{"text": "Un instrument de musique à cordes dont on joue avec les doigts.", "examples": ["Il joue de la guitare."]}],
+        "transcription": "/ɡi.taʁ/"
     },
         ],
-        "transcription": "/ɔm/",
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "homo"
-        }
+        "transcription": "/ʃɑ̃.sɔ̃/"
     },
 {
-        "word": "stress",
+        "word": "film",
         "level": "starter",
-        "theme": "emotions",
-        "article": "le",
-        "emoji": "😫",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
-        "subtext": "",
-        "synonyms": [
-            "pression",
-            "tension"
-        ],
-        "definitions": [
-            {
-                "text": "Un sentiment d'inquiétude causé par une situation difficile.",
-                "examples": [
-                    "J'ai beaucoup de stress au travail."
-                ]
-            }
-        ],
-        "transcription": "/stʁɛs/"
-    },
-{
-        "word": "bonjour",
-        "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "cinema_film",
         "article": "le",
         "gender": "masculine",
-        "emoji": "👋",
+        "emoji": "🎞️",
         "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "bonjours",
+        "plural": "films",
         "definitions": [
             {
-                "text": "Salutation le jour.",
+                "text": "Histoire vue au cinéma.",
                 "examples": [
-                    "Bonjour à tous."
+                    "Je regarde un film."
                 ]
             }
         ],
-        "transcription": "/bɔ̃.ʒuʁ/"
+        "transcription": "/film/"
     },
 {
-        "word": "au revoir",
+        "word": "photo",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "hobbies_interests",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📷",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "photos",
+        "definitions": [
+            {
+                "text": "Image prise par un appareil.",
+                "examples": [
+                    "Une photo de famille."
+                ]
+            },
+{
+        "word": "échecs",
+        "image": "images/vocabulary/actions/to play chess.png",
+        "level": "starter",
+        "theme": "hobbies_interests",
+        "emoji": "♟️",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "definitions": [{"text": "Un jeu pour deux personnes se jouant sur un plateau avec des cases noires et blanches.", "examples": ["Ils jouent aux échecs."]},
+{
+        "word": "jeu vidéo",
+        "image": "images/vocabulary/actions/to play video games.png",
+        "level": "starter",
+        "theme": "hobbies_interests",
+        "emoji": "🎮",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "definitions": [{"text": "Un jeu auquel on joue sur un ordinateur ou une console spéciale.", "examples": ["Il adore jouer aux jeux vidéo."]}],
+        "transcription": "/ʒø vi.de.o/"
+    },],
+        "transcription": "/e.ʃɛk/"
+    },
+        ],
+        "transcription": "/fo.to/"
+    },
+{
+        "word": "sport",
+        "level": "starter",
+        "theme": "sports",
         "article": "le",
         "gender": "masculine",
-        "emoji": "👋",
+        "emoji": "⚽",
         "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "au revoir",
+        "plural": "sports",
         "definitions": [
             {
-                "text": "Salutation en partant.",
+                "text": "Activité physique.",
                 "examples": [
-                    "Au revoir, monsieur."
+                    "Je fais du sport."
                 ]
             }
         ],
-        "transcription": "/o ʁə.vwaʁ/"
+        "transcription": "/spɔʁ/"
     },
 {
-        "word": "s'il vous plaît",
+        "word": "football",
+        "image": "images/vocabulary/actions/to play sport.png",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "article": "",
-        "gender": "",
-        "emoji": "🙏",
-        "form": "phrase",
+        "theme": "sports",
+        "article": "le",
+        "gender": "masculine",
+        "emoji": "⚽",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
-                "text": "Formule de politesse.",
+                "text": "Sport avec un ballon rond.",
                 "examples": [
-                    "Un café, s'il vous plaît."
+                    "Jouons au football."
                 ]
             }
         ],
-        "transcription": "/sil vu plɛ/"
+        "transcription": "/fut.bal/"
     },
 {
-        "word": "merci",
+        "word": "tennis",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "sports",
         "article": "le",
         "gender": "masculine",
-        "emoji": "🙏",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "mercis",
-        "definitions": [
-            {
-                "text": "Formule pour remercier.",
-                "examples": [
-                    "Merci beaucoup."
-                ]
-            }
-        ],
-        "transcription": "/mɛʁ.si/"
-    },
-{
-        "word": "pardon",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🙇",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "pardons",
-        "definitions": [
-            {
-                "text": "Formule pour s'excuser.",
-                "examples": [
-                    "Pardon, je suis en retard."
-                ]
-            }
-        ],
-        "transcription": "/paʁ.dɔ̃/"
-    },
-{
-        "word": "nom",
-        "level": "starter",
-        "theme": "name_greeting_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🆔",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "noms",
-        "definitions": [
-            {
-                "text": "Comment on s'appelle.",
-                "examples": [
-                    "Mon nom est Dupont."
-                ]
-            }
-        ],
-        "transcription": "/nɔ̃/",
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "nomen",
-            "origin_meaning": "name"
-        }
-    },
-{
-        "word": "garçon",
-        "level": "starter",
-        "theme": "people",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "👦",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "garçons",
-        "definitions": [
-            {
-                "text": "Enfant mâle.",
-                "examples": [
-                    "C'est un petit garçon."
-                ]
-            }
-        ],
-        "transcription": "/ɡaʁ.sɔ̃/"
-    },
-{
-        "word": "fille",
-        "level": "starter",
-        "theme": "people",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "👧",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "filles",
-        "definitions": [
-            {
-                "text": "Enfant femelle.",
-                "examples": [
-                    "C'est une gentille fille."
-                ]
-            }
-        ],
-        "transcription": "/fij/",
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "filia",
-            "origin_meaning": "daughter"
-        }
-    },
-{
-        "word": "petit ami",
-        "level": "starter",
-        "theme": "marital_status_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "petits amis",
-        "definitions": [
-            {
-                "text": "Copain amoureux.",
-                "examples": [
-                    "Mon petit ami est là."
-                ]
-            }
-        ],
-        "transcription": "/pə.ti.t‿a.mi/"
-    },
-{
-        "word": "petite amie",
-        "level": "starter",
-        "theme": "marital_status_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "petites amies",
-        "definitions": [
-            {
-                "text": "Copine amoureuse.",
-                "examples": [
-                    "Sa petite amie est française."
-                ]
-            }
-        ],
-        "transcription": "/pə.ti.t‿a.mi/"
-    },
-{
-        "word": "adulte",
-        "level": "starter",
-        "theme": "people",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "🧑",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "adultes",
-        "definitions": [
-            {
-                "text": "Personne qui n'est plus un enfant.",
-                "examples": [
-                    "Un billet pour adulte."
-                ]
-            }
-        ],
-        "transcription": "/a.dylt/"
-    },
-{
-        "word": "conseil",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "💡",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "conseils",
-        "definitions": [
-            {
-                "text": "Ce qu'on dit pour aider.",
-                "examples": [
-                    "Donne-moi un conseil."
-                ]
-            }
-        ],
-        "transcription": "/kɔ̃.sɛj/"
-    },
-{
-        "word": "âge",
-        "level": "starter",
-        "theme": "people",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "🎂",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "âges",
-        "definitions": [
-            {
-                "text": "Nombre d'années vécues.",
-                "examples": [
-                    "Quel âge as-tu ?"
-                ]
-            }
-        ],
-        "transcription": "/aʒ/"
-    },
-{
-        "word": "anniversaire",
-        "level": "starter",
-        "theme": "people",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "🎂",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "anniversaires",
-        "definitions": [
-            {
-                "text": "Jour de la naissance.",
-                "examples": [
-                    "Bon anniversaire !"
-                ]
-            }
-        ],
-        "transcription": "/a.ni.vɛʁ.sɛʁ/"
-    },
-{
-        "word": "vraiment",
-        "level": "starter",
-        "theme": "basic_intensifiers_A1",
-        "article": "",
-        "gender": "",
-        "emoji": "‼️",
-        "form": "adverb",
+        "emoji": "🎾",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
-                "text": "Réellement.",
+                "text": "Sport avec une raquette.",
                 "examples": [
-                    "C'est vraiment bien."
+                    "Il joue au tennis."
                 ]
             }
         ],
-        "transcription": "/vʁɛ.mɑ̃/"
+        "transcription": "/te.nis/"
     },
 {
-        "word": "monsieur",
+        "word": "natation",
         "level": "starter",
-        "theme": "name_greeting_A1",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "messieurs",
-        "definitions": [
-            {
-                "text": "Homme adulte.",
-                "examples": [
-                    "Bonjour, monsieur."
-                ]
-            }
-        ],
-        "transcription": "/mə.sjø/"
-    },
-{
-        "word": "madame",
-        "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "sports",
         "article": "la",
         "gender": "feminine",
-        "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "mesdames",
+        "emoji": "🏊",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "plural": "",
         "definitions": [
             {
-                "text": "Femme adulte.",
+                "text": "Fait de nager.",
                 "examples": [
-                    "Merci, madame."
+                    "J'aime la natation."
                 ]
             }
         ],
-        "transcription": "/ma.dam/"
+        "transcription": "/na.ta.sjɔ̃/"
     },
 {
-        "word": "gens",
+        "word": "fête",
         "level": "starter",
-        "theme": "people",
+        "theme": "social",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🎉",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "fêtes",
+        "definitions": [
+            {
+                "text": "Moment pour s'amuser ensemble.",
+                "examples": [
+                    "Bonne fête !"
+                ]
+            }
+        ],
+        "transcription": "/fɛt/"
+    },
+{
+        "word": "vacances",
+        "level": "starter",
+        "theme": "social",
         "article": "les",
-        "gender": "masculine",
-        "emoji": "👥",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "gens",
-        "definitions": [
-            {
-                "text": "Personnes en général.",
-                "examples": [
-                    "Il y a beaucoup de gens."
-                ]
-            }
-        ],
-        "transcription": "/ʒɑ̃/"
-    },
-{
-        "word": "idée",
-        "level": "starter",
-        "theme": "social",
-        "article": "l'",
         "gender": "feminine",
-        "emoji": "💡",
+        "emoji": "🏖️",
         "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "idées",
+        "plural": "vacances",
         "definitions": [
             {
-                "text": "Ce que l'on pense.",
+                "text": "Temps de repos.",
                 "examples": [
-                    "C'est une bonne idée."
+                    "Partir en vacances."
                 ]
             }
         ],
-        "transcription": "/i.de/"
-    },
-{
-        "word": "avis",
-        "level": "starter",
-        "theme": "social",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "💬",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "avis",
-        "definitions": [
-            {
-                "text": "Ce que l'on croit sur un sujet.",
-                "examples": [
-                    "Donne-moi ton avis."
-                ]
-            }
-        ],
-        "transcription": "/a.vi/"
-    },
-{
-        "word": "opinion",
-        "level": "starter",
-        "theme": "social",
-        "article": "l'",
-        "gender": "feminine",
-        "emoji": "🗣️",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "opinions",
-        "definitions": [
-            {
-                "text": "Jugement personnel.",
-                "examples": [
-                    "Une opinion tranchée."
-                ]
-            }
-        ],
-        "transcription": "/ɔ.pi.njɔ̃/"
-    },
-{
-        "word": "choix",
-        "level": "starter",
-        "theme": "social",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "👉",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "choix",
-        "definitions": [
-            {
-                "text": "Action de choisir.",
-                "examples": [
-                    "C'est ton choix."
-                ]
-            }
-        ],
-        "transcription": "/ʃwa/"
-    },
-{
-        "word": "décision",
-        "level": "starter",
-        "theme": "social",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "⚖️",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "décisions",
-        "definitions": [
-            {
-                "text": "Ce que l'on décide.",
-                "examples": [
-                    "Prendre une décision."
-                ]
-            }
-        ],
-        "transcription": "/de.si.zjɔ̃/"
+        "transcription": "/va.kɑ̃s/"
     }
     ];
     const lang = "fr";

@@ -4,7 +4,7 @@ const data = [
     {
         "word": "essere",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "👤",
         "subtext": "essere pronto / essere stanco / essere a casa",
         "form": "verb",
@@ -224,7 +224,7 @@ const data = [
     {
         "word": "mettere",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📥",
         "subtext": "mettere / mettere giù il telefono",
         "synonyms": [
@@ -625,7 +625,7 @@ const data = [
     {
         "word": "tagliare",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "✂️",
         "subtext": "tagliare i costi / tagliare le spese / tagliare a metà",
         "form": "verb",
@@ -648,7 +648,7 @@ const data = [
     {
         "word": "girare",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "directions_navigation",
         "emoji": "🔄",
         "subtext": "girare a sinistra / girare a destra",
         "synonyms": [
@@ -699,7 +699,7 @@ const data = [
     {
         "word": "dire",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗨️",
         "subtext": "dire ciao / dire di sì / dire di no / dire qualcosa",
         "form": "verb",
@@ -799,7 +799,7 @@ const data = [
     {
         "word": "parlare",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗣️",
         "subtext": "parlare con qualcuno / parlare una lingua / parlare chiaramente, parlare di",
         "form": "verb",
@@ -980,7 +980,7 @@ const data = [
     {
         "word": "ripetere",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🔁",
         "subtext": "ripetere quello / ripetere un ordine",
         "synonyms": [
@@ -1263,7 +1263,7 @@ const data = [
     {
         "word": "viaggiare",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "✈️",
         "subtext": "viaggiare per lavoro / viaggiare all estero",
         "form": "verb",
@@ -1398,7 +1398,7 @@ const data = [
         "word": "cucinare",
         "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "🍳",
         "subtext": "cucinare la cena / cucinare un pasto",
         "form": "verb",
@@ -2714,7 +2714,7 @@ const data = [
         "word": "disegnare",
         "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "cinema_film",
         "emoji": "🎨",
         "subtext": "disegnare / disegnare un immagine / disegnare una linea",
         "form": "verb",
@@ -2954,7 +2954,7 @@ const data = [
     {
         "word": "fare il pendolare",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🚆",
         "subtext": "fare il pendolare",
         "synonyms": [
@@ -3621,7 +3621,7 @@ const data = [
         "classification": "regular",
         "aspect": "both",
         "v3": "perso",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
@@ -3679,7 +3679,7 @@ const data = [
     {
         "word": "ringraziare",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🙏",
         "subtext": "ringraziare qualcuno / ringraziare per",
         "synonyms": [
@@ -3705,7 +3705,7 @@ const data = [
     {
         "word": "presentare",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "🤝",
         "subtext": "presentare qualcuno / presentare un argomento",
         "synonyms": [
@@ -4205,7 +4205,7 @@ const data = [
     {
         "word": "prendere",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🧤",
         "form": "verb",
         "definitions": [
@@ -4323,7 +4323,7 @@ const data = [
     {
         "word": "preparare",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "🥘",
         "form": "verb",
         "definitions": [
@@ -4460,7 +4460,7 @@ const data = [
     {
         "word": "assaggiare",
         "level": "starter",
-        "theme": "tastes_textures_A1",
+        "theme": "tastes_textures",
         "emoji": "👅",
         "form": "verb",
         "definitions": [
@@ -4574,7 +4574,7 @@ const data = [
     {
         "word": "compitare",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🔤",
         "form": "verb",
         "definitions": [
@@ -4597,7 +4597,7 @@ const data = [
     {
         "word": "indicare",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "☝️",
         "form": "verb",
         "definitions": [
@@ -4620,7 +4620,7 @@ const data = [
     {
         "word": "gridare",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "📢",
         "form": "verb",
         "definitions": [
@@ -4644,7 +4644,7 @@ const data = [
         "word": "salutare",
         "image": "images/vocabulary/actions/to wave. to greet.png",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "👋",
         "form": "verb",
         "definitions": [
@@ -4736,7 +4736,7 @@ const data = [
     {
         "word": "dipingere",
         "level": "starter",
-        "theme": "hobbies_interests_A1",
+        "theme": "hobbies_interests",
         "emoji": "🎨",
         "form": "verb",
         "definitions": [
@@ -4804,7 +4804,7 @@ const data = [
     {
         "word": "contare",
         "level": "starter",
-        "theme": "numbers_0_9_A1",
+        "theme": "numbers_0_9",
         "emoji": "🔢",
         "form": "verb",
         "definitions": [
@@ -4827,7 +4827,7 @@ const data = [
     {
         "word": "segnare",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "✅",
         "form": "verb",
         "definitions": [
@@ -4850,7 +4850,7 @@ const data = [
     {
         "word": "barrare",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "❌",
         "form": "verb",
         "definitions": [
@@ -4873,7 +4873,7 @@ const data = [
     {
         "word": "colorare",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🖍️",
         "form": "verb",
         "definitions": [
@@ -5044,7 +5044,7 @@ const data = [
     {
         "word": "mandare un SMS",
         "level": "starter",
-        "theme": "using_smartphone_A1",
+        "theme": "using_smartphone",
         "emoji": "📱",
         "form": "verb",
         "definitions": [
@@ -5066,7 +5066,7 @@ const data = [
     {
         "word": "sussurrare",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🤫",
         "form": "verb",
         "definitions": [
@@ -5089,7 +5089,7 @@ const data = [
     {
         "word": "toccare",
         "level": "starter",
-        "theme": "health_body_A1",
+        "theme": "health_body",
         "emoji": "🫫",
         "form": "verb",
         "definitions": [
@@ -5194,7 +5194,7 @@ const data = [
     {
         "word": "stare",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "🏠",
         "subtext": "stare bene / stare a casa",
         "form": "verb",
@@ -5326,7 +5326,7 @@ const data = [
     {
         "word": "salire",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🪜",
         "subtext": "salire le scale / salire sull'autobus",
         "form": "verb",
@@ -5348,7 +5348,7 @@ const data = [
     {
         "word": "scendere",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "📉",
         "subtext": "scendere le scale / scendere dal treno",
         "form": "verb",
@@ -5418,7 +5418,7 @@ const data = [
     {
         "word": "respirare",
         "level": "starter",
-        "theme": "health_body_A1",
+        "theme": "health_body",
         "emoji": "🫁",
         "form": "verb",
         "transcription": "respiˈrare",
@@ -5490,7 +5490,7 @@ const data = [
     {
         "word": "sbadigliare",
         "level": "starter",
-        "theme": "health_body_A1",
+        "theme": "health_body",
         "emoji": "🥱",
         "form": "verb",
         "transcription": "zbadidˈʎare",
@@ -5616,7 +5616,7 @@ const data = [
     {
         "word": "desiderare",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🤞",
         "form": "verb",
         "transcription": "dezideˈrare",

@@ -3,7 +3,7 @@
     {
         "word": "sein",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "👤",
         "subtext": "müde sein / glücklich sein / bei der Arbeit sein / bereit sein",
         "form": "verb",
@@ -198,7 +198,7 @@
     {
         "word": "stellen",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📥",
         "subtext": "stellen",
         "synonyms": [
@@ -591,7 +591,7 @@
     {
         "word": "schneiden",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "✂️",
         "subtext": "in der Mitte durchschneiden",
         "synonyms": [
@@ -619,7 +619,7 @@
     {
         "word": "drehen",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "directions_navigation",
         "emoji": "🔄",
         "subtext": "",
         "synonyms": [
@@ -671,7 +671,7 @@
     {
         "word": "sagen",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗨️",
         "subtext": "Hallo sagen / Ja sagen / Nein sagen / etwas sagen",
         "form": "verb",
@@ -745,7 +745,7 @@
     {
         "word": "sprechen",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🗣️",
         "subtext": "mit jemandem sprechen / Englisch sprechen / deutlich sprechen / bei einer Besprechung sprechen",
         "form": "verb",
@@ -924,7 +924,7 @@
     {
         "word": "wiederholen",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "classroom_language",
         "emoji": "🔁",
         "subtext": "das wiederholen / sich wiederholen / eine Bestellung wiederholen",
         "form": "verb",
@@ -1179,7 +1179,7 @@
     {
         "word": "reisen",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "✈️",
         "subtext": "geschäftlich reisen / ins Ausland reisen / mit dem Zug reisen",
         "form": "verb",
@@ -1291,7 +1291,7 @@
     {
         "word": "kochen",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "cooking_methods",
         "emoji": "🍳",
         "subtext": "Abendessen kochen / eine Mahlzeit kochen / zu Hause kochen / für jemanden kochen",
         "form": "verb",
@@ -2625,7 +2625,7 @@
     {
         "word": "zeichnen",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "cinema_film",
         "emoji": "🎨",
         "subtext": "ein Bild zeichnen",
         "synonyms": [
@@ -2891,7 +2891,7 @@
     {
         "word": "pendeln",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🚆",
         "subtext": "zur Arbeit pendeln / tägliches Pendeln / mit dem Zug pendeln",
         "synonyms": [
@@ -3533,7 +3533,7 @@
         "aspect": "both",
         "v2": "verpasste",
         "v3": "verpasst",
-        "theme": "public_transport_A1",
+        "theme": "public_transport",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
@@ -3587,7 +3587,7 @@
     {
         "word": "danken",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "greetings_social_phrases",
         "emoji": "🙏",
         "subtext": "jemandem danken / danken für",
         "synonyms": [
@@ -3612,7 +3612,7 @@
     {
         "word": "vorstellen",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
         "emoji": "🤝",
         "subtext": "sich vorstellen / jemanden vorstellen / ein Thema vorstellen",
         "form": "verb",

@@ -245,7 +245,7 @@
 {
         "word": "kador",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🪑",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -258,7 +258,7 @@
 {
         "word": "taol",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🪑",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -271,7 +271,7 @@
 {
         "word": "gwele",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🛏️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -284,7 +284,7 @@
 {
         "word": "alc'hwez",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🔑",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -310,7 +310,7 @@
 {
         "word": "levr",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "📚",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -323,7 +323,7 @@
 {
         "word": "sac'h",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "👜",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
@@ -336,7 +336,7 @@
 {
         "word": "stilo",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture_objects",
         "emoji": "🖊️",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
