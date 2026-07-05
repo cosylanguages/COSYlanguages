@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Самозванство — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<main class="container session-page">
+  <nav class="breadcrumb">
+    <a href="../../../index.html">Home</a> <span class="sep">/</span>
+    <a href="../../../events/index.html">Events</a> <span class="sep">/</span>
+    <a href="../../mind-matters.html">Mind Matters</a> <span class="sep">/</span>
+    <span class="current">Самозванство</span>
+  </nav>
+  <a href="../../mind-matters.html" class="back-link">← Назад в клуб</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Длительность</h4><p>60 минут</p></div>
+    <div class="meta-item"><h4>Языки</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+    <div class="meta-item"><h4>Уровень</h4><p>B1 – C2</p></div>
+  </div>
+  <section id="description" style="margin-bottom:3rem;">
+    <p>Аккаунты людей, выдающих себя за знаменитостей.</p>
+  </section>
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Словарь занятия</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card"><div class="vocab-word">Познание</div><div class="vocab-def">ментальные процессы.</div><div class="vocab-example">Познание — это сложно.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Познание', definition:'ментальные процессы.', example:'Познание — это сложно.'}, this)">Добавить в словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Устойчивость</div><div class="vocab-def">быстрое восстановление.</div><div class="vocab-example">Она проявила устойчивость.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Устойчивость', definition:'быстрое восстановление.', example:'Она проявила устойчивость.'}, this)">Добавить в словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Тревога</div><div class="vocab-def">чувство беспокойства.</div><div class="vocab-example">Он страдает от тревоги.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Тревога', definition:'чувство беспокойства.', example:'Он страдает от тревоги.'}, this)">Добавить в словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Подсознание</div><div class="vocab-def">часть разума вне осознания.</div><div class="vocab-example">Это в вашем подсознании.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Подсознание', definition:'часть разума вне осознания.', example:'Это в вашем подсознании.'}, this)">Добавить в словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Предвзятость</div><div class="vocab-def">предубеждение.</div><div class="vocab-example">У всех нас есть предвзятость.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Предвзятость', definition:'предубеждение.', example:'У всех нас есть предвзятость.'}, this)">Добавить в словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Эмпатия</div><div class="vocab-def">сопереживание.</div><div class="vocab-example">Эмпатия необходима.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Эмпатия', definition:'сопереживание.', example:'Эмпатия необходима.'}, this)">Добавить в словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Самоанализ</div><div class="vocab-def">изучение своих мыслей.</div><div class="vocab-example">Он предпочитает самоанализ.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Самоанализ', definition:'изучение своих мыслей.', example:'Он предпочитает самоанализ.'}, this)">Добавить в словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Подтверждение</div><div class="vocab-def">признание ценности.</div><div class="vocab-example">Всем нужно подтверждение.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Подтверждение', definition:'признание ценности.', example:'Всем нужно подтверждение.'}, this)">Добавить в словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Восприятие</div><div class="vocab-def">способность видеть/слышать.</div><div class="vocab-example">Восприятие — это реальность.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Восприятие', definition:'способность видеть/слышать.', example:'Восприятие — это реальность.'}, this)">Добавить в словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Проявление</div><div class="vocab-def">ясное обнаружение.</div><div class="vocab-example">Это проявление стресса.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Проявление', definition:'ясное обнаружение.', example:'Это проявление стресса.'}, this)">Добавить в словарь</button></div>
+    </div>
+  </section>
+  <section id="structure">
+    <h2 class="section-title">🎙️ Структура обсуждения</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Разминка</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="vim-instruction">Intro</div>
+          <ul class="round-questions">
+            <li>What is your initial reaction?</li>
+            <li>Is this relevant today?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Раунд 1 — Анализ</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Analysis</div>
+          <div class="round-item"><div class="round-item-main">Discussion point 1 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div>
+          <div class="round-item"><div class="round-item-main">Discussion point 2 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div>
+          <div class="round-item"><div class="round-item-main">Discussion point 3 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div>
+          <div class="round-item"><div class="round-item-main">Discussion point 4 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div>
+          <div class="round-item"><div class="round-item-main">Discussion point 5 about the topic.</div></div>
+          <div class="round-item"><div class="round-item-main">Discussion point 6 about the topic.</div></div>
+          <div class="round-item"><div class="round-item-main">Discussion point 7 about the topic.</div></div>
+          <div class="round-item"><div class="round-item-main">Discussion point 8 about the topic.</div></div>
+          <div class="round-item"><div class="round-item-main">Discussion point 9 about the topic.</div></div>
+          <div class="round-item"><div class="round-item-main">Discussion point 10 about the topic.</div></div>
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Поговорим вместе</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Paraphrase the core concept.</p>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Раунд 2 — Дилеммы / Будущее</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="round-item"><div class="round-item-main">Dilemma 1 to consider for the future.</div></div>
+          <div class="round-item"><div class="round-item-main">Dilemma 2 to consider for the future.</div></div>
+          <div class="round-item"><div class="round-item-main">Dilemma 3 to consider for the future.</div></div>
+          <div class="round-item"><div class="round-item-main">Dilemma 4 to consider for the future.</div></div>
+          <div class="round-item"><div class="round-item-main">Dilemma 5 to consider for the future.</div></div>
+          <div class="round-item"><div class="round-item-main">Dilemma 6 to consider for the future.</div></div>
+          <div class="round-item"><div class="round-item-main">Dilemma 7 to consider for the future.</div></div>
+          <div class="round-item"><div class="round-item-main">Dilemma 8 to consider for the future.</div></div>
+          <div class="round-item"><div class="round-item-main">Dilemma 9 to consider for the future.</div></div>
+          <div class="round-item"><div class="round-item-main">Dilemma 10 to consider for the future.</div></div>
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Заметка учителя (лингвистические правки)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item"><span class="mistake-wrong">Я согласен с этим</span><span class="mistake-arrow">→</span><span class="mistake-right">Я согласен</span><span class="mistake-note-text">(Usage)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">Это зависит от</span><span class="mistake-arrow">→</span><span class="mistake-right">Это зависит от</span><span class="mistake-note-text">(Correct)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">Много людей</span><span class="mistake-arrow">→</span><span class="mistake-right">Многие люди</span><span class="mistake-note-text">(Grammar)</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html">Home</a>
+    <a href="../../../practice/index.html">Practice</a>
+    <a href="../../../games/index.html">Games</a>
+    <a href="../../../events/index.html">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>
