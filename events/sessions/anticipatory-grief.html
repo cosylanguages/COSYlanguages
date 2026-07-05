@@ -1,106 +1,219 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Anticipatory Grief — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
+<link href="../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../css/tokens.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/components.css" rel="stylesheet"/>
+<link href="../../css/layout.css" rel="stylesheet"/>
+<link href="../../css/events.css" rel="stylesheet"/>
 </head>
 <body>
 <nav id="cosy-nav"></nav>
-<main class="container session-page">
-  <nav class="breadcrumb">
-    <a href="../../index.html">Home</a> <span class="sep">/</span>
-    <a href="../index.html">Events</a> <span class="sep">/</span>
-    <a href="./mind-matters.html">Mind Matters</a> <span class="sep">/</span>
-    <span class="current">Anticipatory Grief</span>
-  </nav>
-  <a href="./mind-matters.html" class="back-link">← Back to Club</a>
-  <div class="session-meta-grid">
-    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
-    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
-    <div class="meta-item"><h4>Topic</h4><p>Anticipatory grief: missing someone who is still right here, because you can already feel the goodbye coming.</p></div>
-  </div>
-  <section id="description" style="margin-bottom:3rem;">
-    <p>Understanding the pain of losing someone before they are actually gone.</p>
-  </section>
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Empathy</div><div class="vocab-def">understanding others' feelings.</div><div class="vocab-example">Empathy is crucial.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Empathy', definition:'understanding others' feelings.', example:'Empathy is crucial.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Conscious</div><div class="vocab-def">aware of surroundings.</div><div class="vocab-example">He was conscious of the change.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Conscious', definition:'aware of surroundings.', example:'He was conscious of the change.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Detachment</div><div class="vocab-def">state of being objective.</div><div class="vocab-example">I feel a certain detachment.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Detachment', definition:'state of being objective.', example:'I feel a certain detachment.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Vulnerability</div><div class="vocab-def">being open to hurt.</div><div class="vocab-example">Vulnerability is strength.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Vulnerability', definition:'being open to hurt.', example:'Vulnerability is strength.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Projection</div><div class="vocab-def">attributing traits to others.</div><div class="vocab-example">It was a psychological projection.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Projection', definition:'attributing traits to others.', example:'It was a psychological projection.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Subconscious</div><div class="vocab-def">part of mind not aware.</div><div class="vocab-example">The dream came from the subconscious.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Subconscious', definition:'part of mind not aware.', example:'The dream came from the subconscious.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Mindset</div><div class="vocab-def">established set of attitudes.</div><div class="vocab-example">Keep a growth mindset.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Mindset', definition:'established set of attitudes.', example:'Keep a growth mindset.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Bias</div><div class="vocab-def">prejudice in favor of something.</div><div class="vocab-example">Check your internal bias.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Bias', definition:'prejudice in favor of something.', example:'Check your internal bias.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Intuition</div><div class="vocab-def">ability to understand instinctively.</div><div class="vocab-example">Trust your intuition.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Intuition', definition:'ability to understand instinctively.', example:'Trust your intuition.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Cognitive</div><div class="vocab-def">relating to mental processes.</div><div class="vocab-example">Cognitive load is high.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Cognitive', definition:'relating to mental processes.', example:'Cognitive load is high.'}, this)">Add to Dictionary</button></div>
-    </div>
-  </section>
-  <section id="structure">
-    <h2 class="section-title">🎙️ Discussion Structure</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Intro</div>
-          <ul class="round-questions">
-            <li>What is your initial reaction?</li>
-            <li>Is this relevant today?</li>
-          </ul>
-        </div>
-      </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">General Discussion</div>
-          <div class="round-item"><div class="round-item-main">Discussion point 1 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 2 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 3 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 4 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 5 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 6 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 7 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 8 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 9 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 10 about the topic.</div></div>
-        </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Talk Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Paraphrase the core concept.</p>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Conditional Practice</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">General Discussion</div>
-          <div class="round-item"><div class="round-item-main">Dilemma 1 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 2 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 3 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 4 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 5 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 6 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 7 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 8 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 9 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 10 to consider for the future.</div></div>
-        </div>
-      </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
-          <div class="mistake-item"><span class="mistake-wrong">It's depend</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends</span><span class="mistake-note-text">(Structure)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text">(Usage)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">More good</span><span class="mistake-arrow">→</span><span class="mistake-right">Better</span><span class="mistake-note-text">(Grammar)</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
+<header class="session-hero" style="background: linear-gradient(135deg, #993556, #4d1a2b);">
+<div class="club-tag">Mind Matters</div>
+<h1>Anticipatory Grief — Mourning the Living</h1>
+<p class="session-date">14 December 2025</p>
+</header>
+<main class="content-container">
+<nav class="cosy-breadcrumbs">
+<a href="../../">Home</a> <span class="sep">/</span>
+<a href="../">Events</a> <span class="sep">/</span>
+<a href="../mind-matters.html">Mind Matters</a> <span class="sep">/</span>
+<span class="current">Anticipatory Grief</span>
+</nav>
+<a class="back-link" href="../mind-matters.html">← Back to Club</a>
+<div class="session-meta-grid">
+<div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+<div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+<div class="meta-item"><h4>Level</h4><p>Intermediate (B1) – Advanced (C1)</p></div>
+<div class="meta-item"><h4>Topic</h4><p>Psychology of Pre-emptive Loss</p></div>
+</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+<p>Anticipatory grief is the feeling of mourning a loss before it actually occurs, often experienced by caregivers or those with terminally ill loved ones. This session explores the unique emotional landscape of this state and how it differs from conventional grief. We will discuss coping strategies and the importance of finding support when navigating the "long goodbye."</p>
+</div>
+<section id="vocabulary">
+<h2 class="section-title">📖 Session Vocabulary</h2>
+<div class="vocab-grid-10">
+<div class="vocab-card">
+<div class="vocab-word">Anticipatory</div>
+<div class="vocab-def">happening, performed, or felt in anticipation of something.</div>
+<div class="vocab-example">He felt a sense of anticipatory anxiety as the deadline for the major project approached.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Anticipatory', definition:'felt in anticipation', example:'He felt a sense of anticipatory anxiety as the deadline for the major project approached.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Grief</div>
+<div class="vocab-def">deep sorrow, especially that caused by someone's death.</div>
+<div class="vocab-example">Grief is a personal journey that takes time and patience to navigate.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Grief', definition:'deep sorrow from loss', example:'Grief is a personal journey that takes time and patience to navigate.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Caregiver</div>
+<div class="vocab-def">a family member or paid helper who regularly looks after a sick, elderly, or disabled person.</div>
+<div class="vocab-example">Being a primary caregiver requires an incredible amount of emotional and physical resilience.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Caregiver', definition:'person who looks after others', example:'Being a primary caregiver requires an incredible amount of emotional and physical resilience.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Terminal</div>
+<div class="vocab-def">(of a disease) predicted to lead to death, especially slowly; incurable.</div>
+<div class="vocab-example">The patient was diagnosed with a terminal illness and decided to spend his remaining time with family.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Terminal', definition:'predicted to lead to death', example:'The patient was diagnosed with a terminal illness and decided to spend his remaining time with family.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Mourning</div>
+<div class="vocab-def">the expression of deep sorrow for someone who has died.</div>
+<div class="vocab-example">The whole community was in mourning after the loss of their beloved local leader.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Mourning', definition:'expression of deep sorrow', example:'The whole community was in mourning after the loss of their beloved local leader.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Pre-emptive</div>
+<div class="vocab-def">serving or intended to pre-empt or forestall something, especially to prevent an attack by disabling the enemy.</div>
+<div class="vocab-example">Taking a pre-emptive break can prevent total burnout during a stressful work season.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Pre-emptive', definition:'intended to forestall/prevent', example:'Taking a pre-emptive break can prevent total burnout during a stressful work season.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Coping</div>
+<div class="vocab-def">(of a person) dealing effectively with something difficult.</div>
+<div class="vocab-example">She found that journaling was a helpful coping mechanism for managing her daily stress.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Coping', definition:'dealing with difficulties', example:'She found that journaling was a helpful coping mechanism for managing her daily stress.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Resilience</div>
+<div class="vocab-def">the capacity to recover quickly from difficulties; toughness.</div>
+<div class="vocab-example">The children showed remarkable resilience in adapting to their new school environment.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Resilience', definition:'capacity to recover quickly', example:'The children showed remarkable resilience in adapting to their new school environment.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Compassion</div>
+<div class="vocab-def">sympathetic pity and concern for the sufferings or misfortunes of others.</div>
+<div class="vocab-example">He showed great compassion by volunteering at the local homeless shelter every weekend.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Compassion', definition:'sympathetic concern for others', example:'He showed great compassion by volunteering at the local homeless shelter every weekend.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Enevitable</div>
+<div class="vocab-def">certain to happen; unavoidable.</div>
+<div class="vocab-example">While loss is enevitable, the way we handle it defines our personal growth.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Enevitable', definition:'certain to happen; unavoidable', example:'While loss is enevitable, the way we handle it defines our personal growth.'}, this)">Add to Dictionary</button>
+</div>
+</div>
+</section>
+<section id="structure">
+<h2 class="section-title">🎙️ Discussion Structure</h2>
+<div class="rounds-container">
+<div class="round-block warm-up open" id="s-warm">
+<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
+<span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="vim-instruction">Think about the concept of the "Long Goodbye."</div>
+<ul class="round-questions">
+<li>Is it possible to grieve for someone who is still alive?</li>
+<li>Does knowing a loss is coming make it easier or harder to handle?</li>
+</ul>
+</div>
+</div>
+<div class="round-block round-1 open" id="s-r1">
+<div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;">
+<span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Questions</div>
+<div class="round-item">
+<div class="round-item-main">How does <strong>anticipatory</strong> sadness affect your ability to stay present in the moment?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why is <strong>grief</strong> often experienced as a physical sensation as well as an emotional one?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">What are the unique challenges faced by a family <strong>caregiver</strong> during a long-term illness?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How does the knowledge of a <strong>terminal</strong> diagnosis change the way family members interact?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Is there such a thing as "healthy" <strong>mourning</strong>, or is all sorrow equally destructive?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Can a <strong>pre-emptive</strong> discussion about death actually reduce the anxiety of the survivors?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Which <strong>coping</strong> mechanisms have you found most effective during times of major life change?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How can we support others in building the <strong>resilience</strong> needed to face inevitable losses?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why is self-<strong>compassion</strong> often the hardest thing to practice when we are suffering?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">If loss is <strong>enevitable</strong>, how can we find joy in things that we know will not last?</div>
+</div>
+</div>
+</div>
+<div class="round-block lst open" id="s-lst">
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
+<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🕰️</span><div style="font-weight:600;">Early Preparation</div></div>
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🍃</span><div style="font-weight:600;">Living for Now</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center;">Which mindset is more helpful when facing a future loss?</p>
+</div>
+</div>
+<div class="round-block round-2 open" id="s-r2">
+<div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;">
+<span>🟢 Round 2 — Conditional Practice (Deep Dive)</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Hypotheticals</div>
+<div class="round-item"><div class="round-item-main">If <strong>anticipatory</strong> grief didn't exist, would we be more or less prepared for the final loss?</div></div>
+<div class="round-item"><div class="round-item-main">If <strong>grief</strong> could be shared equally among a hundred people, would it be easier to bear?</div></div>
+<div class="round-item"><div class="round-item-main">If every <strong>caregiver</strong> received better social support, would the "long goodbye" be less painful?</div></div>
+<div class="round-item"><div class="round-item-main">If a <strong>terminal</strong> illness could be cured instantly, how would that change our view of life's value?</div></div>
+<div class="round-item"><div class="round-item-main">If public <strong>mourning</strong> was encouraged more, would we be a more empathetic society?</div></div>
+<div class="round-item"><div class="round-item-main">If we took <strong>pre-emptive</strong> action against social isolation, would the elderly feel more at peace?</div></div>
+<div class="round-item"><div class="round-item-main">If your only <strong>coping</strong> strategy failed, where would you turn for help?</div></div>
+<div class="round-item"><div class="round-item-main">If <strong>resilience</strong> was a physical muscle, what kind of "exercises" would we do to strengthen it?</div></div>
+<div class="round-item"><div class="round-item-main">If <strong>compassion</strong> ruled the world's governments, would there still be conflict?</div></div>
+<div class="round-item"><div class="round-item-main">If you accepted that every ending is <strong>enevitable</strong>, would you live more boldly today?</div></div>
+</div>
+</div>
+<div class="mistake-block open" id="s-mistakes">
+<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+<span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+</div>
+<div class="mistake-body" style="display:block;">
+<div class="mistake-item"><span class="mistake-wrong">I am mourning about him</span><span class="mistake-arrow">→</span><span class="mistake-right">I am mourning him / I am in mourning for him</span><span class="mistake-note-text">(Preposition usage)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">He is enevitable to fail</span><span class="mistake-arrow">→</span><span class="mistake-right">It is inevitable that he will fail / His failure is inevitable</span><span class="mistake-note-text">(Structure: It is inevitable that...)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I have many compassion for her</span><span class="mistake-arrow">→</span><span class="mistake-right">I have a lot of compassion / great compassion for her</span><span class="mistake-note-text">(Quantifiers with uncountable nouns)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">It was a terminal disease</span><span class="mistake-arrow">→</span><span class="mistake-right">It was a terminal illness</span><span class="mistake-note-text">(Collocations)</span></div>
+</div>
+</div>
+</div>
+</section>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html">Home</a>
-    <a href="../../practice/index.html">Practice</a>
-    <a href="../../games/index.html">Games</a>
-    <a href="../index.html">Events</a>
-  </div>
-  <p>© 2026 COSYlanguages — All rights reserved</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
+
 <script src="../../js/core/engine.js"></script>
+
 <script src="../../js/core/ui.js"></script>
+
+
 </body>
 </html>

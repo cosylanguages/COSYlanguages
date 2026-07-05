@@ -1,106 +1,219 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home is not a place - it's a time — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Home is a Time — COSYlanguages</title>
+<link href="../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../css/tokens.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/components.css" rel="stylesheet"/>
+<link href="../../css/layout.css" rel="stylesheet"/>
+<link href="../../css/events.css" rel="stylesheet"/>
 </head>
 <body>
 <nav id="cosy-nav"></nav>
-<main class="container session-page">
-  <nav class="breadcrumb">
-    <a href="../../index.html">Home</a> <span class="sep">/</span>
-    <a href="../index.html">Events</a> <span class="sep">/</span>
-    <a href="./the-greatest-quotes.html">The Greatest Quotes</a> <span class="sep">/</span>
-    <span class="current">Home is not a place - it's a time</span>
-  </nav>
-  <a href="./the-greatest-quotes.html" class="back-link">← Back to Club</a>
-  <div class="session-meta-grid">
-    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
-    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
-    <div class="meta-item"><h4>Quote</h4><p>“When I say I want to go home, I am not talking about a place, I am talking about a time.” (commanderivy)</p></div>
-  </div>
-  <section id="description" style="margin-bottom:3rem;">
-    <p>Exploring the nostalgia and the temporal nature of belonging.</p>
-  </section>
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Nostalgia</div><div class="vocab-def">longing for the past.</div><div class="vocab-example">I feel nostalgia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Nostalgia', definition:'longing for the past.', example:'I feel nostalgia.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Ambiguity</div><div class="vocab-def">being open to interpretations.</div><div class="vocab-example">The quote has ambiguity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ambiguity', definition:'being open to interpretations.', example:'The quote has ambiguity.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Perspective</div><div class="vocab-def">a point of view.</div><div class="vocab-example">My perspective is different.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'a point of view.', example:'My perspective is different.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Resonate</div><div class="vocab-def">to evoke a feeling.</div><div class="vocab-example">This resonates with me.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Resonate', definition:'to evoke a feeling.', example:'This resonates with me.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Paradox</div><div class="vocab-def">a self-contradiction.</div><div class="vocab-example">It is a paradox.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Paradox', definition:'a self-contradiction.', example:'It is a paradox.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Authenticity</div><div class="vocab-def">being genuine.</div><div class="vocab-example">I value authenticity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Authenticity', definition:'being genuine.', example:'I value authenticity.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Insight</div><div class="vocab-def">a deep understanding.</div><div class="vocab-example">He gave me an insight.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Insight', definition:'a deep understanding.', example:'He gave me an insight.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Abstract</div><div class="vocab-def">not concrete.</div><div class="vocab-example">The idea is abstract.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Abstract', definition:'not concrete.', example:'The idea is abstract.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Wisdom</div><div class="vocab-def">having experience and knowledge.</div><div class="vocab-example">She has great wisdom.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Wisdom', definition:'having experience and knowledge.', example:'She has great wisdom.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Reflection</div><div class="vocab-def">serious thought.</div><div class="vocab-example">I need some reflection.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Reflection', definition:'serious thought.', example:'I need some reflection.'}, this)">Add to Dictionary</button></div>
-    </div>
-  </section>
-  <section id="structure">
-    <h2 class="section-title">🎙️ Discussion Structure</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Intro</div>
-          <ul class="round-questions">
-            <li>What is your initial reaction?</li>
-            <li>Is this relevant today?</li>
-          </ul>
-        </div>
-      </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — Analysis</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Interpretations</div>
-          <div class="round-item"><div class="round-item-main">Discussion point 1 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 2 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 3 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 4 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 5 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 6 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 7 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 8 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 9 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 10 about the topic.</div></div>
-        </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Talk Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Paraphrase the core concept.</p>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Philosophical Application</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Interpretations</div>
-          <div class="round-item"><div class="round-item-main">Dilemma 1 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 2 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 3 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 4 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 5 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 6 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 7 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 8 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 9 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 10 to consider for the future.</div></div>
-        </div>
-      </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
-          <div class="mistake-item"><span class="mistake-wrong">It's depend</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends</span><span class="mistake-note-text">(Structure)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text">(Usage)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">More good</span><span class="mistake-arrow">→</span><span class="mistake-right">Better</span><span class="mistake-note-text">(Grammar)</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
+<header class="session-hero" style="background: linear-gradient(135deg, #534AB7, #29255b);">
+<div class="club-tag">The Greatest Quotes</div>
+<h1>Home is a Time — Not a Place</h1>
+<p class="session-date">26 October 2025</p>
+</header>
+<main class="content-container">
+<nav class="cosy-breadcrumbs">
+<a href="../../">Home</a> <span class="sep">/</span>
+<a href="../">Events</a> <span class="sep">/</span>
+<a href="../the-greatest-quotes.html">The Greatest Quotes</a> <span class="sep">/</span>
+<span class="current">Home is a Time</span>
+</nav>
+<a class="back-link" href="../the-greatest-quotes.html">← Back to Club</a>
+<div class="session-meta-grid">
+<div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+<div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+<div class="meta-item"><h4>Level</h4><p>Intermediate (B1) – Advanced (C1)</p></div>
+<div class="meta-item"><h4>Topic</h4><p>The Fluidity of Home and Nostalgia</p></div>
+</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+<p>The quote "Home is a time, not a place" suggests that our sense of belonging is often tied to a specific period in our lives rather than a geographic location. This session explores the evolution of our concept of home as we age and move through different life stages. We will discuss whether it is possible to truly "go home" once the time associated with that place has passed.</p>
+</div>
+<section id="vocabulary">
+<h2 class="section-title">📖 Session Vocabulary</h2>
+<div class="vocab-grid-10">
+<div class="vocab-card">
+<div class="vocab-word">Belonging</div>
+<div class="vocab-def">a sense of being part of a particular group or place.</div>
+<div class="vocab-example">Finding a community where you feel a sense of belonging is essential for mental health.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Belonging', definition:'sense of being part of a group/place', example:'Finding a community where you feel a sense of belonging is essential for mental health.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Nostalgia</div>
+<div class="vocab-def">a sentimental longing or wistful affection for the past.</div>
+<div class="vocab-example">He was filled with nostalgia as he walked through the halls of his old school.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Nostalgia', definition:'sentimental longing for the past', example:'He was filled with nostalgia as he walked through the halls of his old school.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Evanescent</div>
+<div class="vocab-def">soon passing out of sight, memory, or existence; quickly fading or disappearing.</div>
+<div class="vocab-example">The joy of childhood often feels evanescent once we reach adulthood.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Evanescent', definition:'quickly fading or disappearing', example:'The joy of childhood often feels evanescent once we reach adulthood.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Geography</div>
+<div class="vocab-def">the physical features of an area; the study of places.</div>
+<div class="vocab-example">The geography of the region changed significantly after the new dam was built.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Geography', definition:'physical features of a place', example:'The geography of the region changed significantly after the new dam was built.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Temporality</div>
+<div class="vocab-def">the state of existing within or having some relation to time.</div>
+<div class="vocab-example">Philosophers often discuss the temporality of human existence and the fleeting nature of life.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Temporality', definition:'existence within time', example:'Philosophers often discuss the temporality of human existence and the fleeting nature of life.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Rooted</div>
+<div class="vocab-def">firmly established or deeply connected.</div>
+<div class="vocab-example">Her love for the sea was deeply rooted in her childhood holidays on the coast.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Rooted', definition:'firmly established or connected', example:'Her love for the sea was deeply rooted in her childhood holidays on the coast.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Transient</div>
+<div class="vocab-def">lasting only for a short time; impermanent.</div>
+<div class="vocab-example">The feeling of excitement after a promotion is often transient, quickly replaced by new stress.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Transient', definition:'lasting a short time; impermanent', example:'The feeling of excitement after a promotion is often transient, quickly replaced by new stress.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Sentimentality</div>
+<div class="vocab-def">excessive tenderness, sadness, or nostalgia.</div>
+<div class="vocab-example">His sentimentality made it hard for him to throw away even the smallest childhood mementos.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Sentimentality', definition:'excessive nostalgia or tenderness', example:'His sentimentality made it hard for him to throw away even the smallest childhood mementos.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Displacement</div>
+<div class="vocab-def">the moving of something from its place or position.</div>
+<div class="vocab-example">The war caused the displacement of millions of people from their ancestral homes.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Displacement', definition:'moving from one\'s original place', example:'The war caused the displacement of millions of people from their ancestral homes.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Atmosphere</div>
+<div class="vocab-def">the pervading tone or mood of a place, situation, or work of art.</div>
+<div class="vocab-example">The cozy atmosphere of the small cafe made it feel like a second home.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Atmosphere', definition:'pervading mood or tone', example:'The cozy atmosphere of the small cafe made it feel like a second home.'}, this)">Add to Dictionary</button>
+</div>
+</div>
+</section>
+<section id="structure">
+<h2 class="section-title">🎙️ Discussion Structure</h2>
+<div class="rounds-container">
+<div class="round-block warm-up open" id="s-warm">
+<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
+<span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="vim-instruction">Analyze the quote: "Home is a time, not a place."</div>
+<ul class="round-questions">
+<li>If you could travel back to any "time" that felt like home, where would you go?</li>
+<li>What is the first thing you look for when trying to feel at home in a new city?</li>
+</ul>
+</div>
+</div>
+<div class="round-block round-1 open" id="s-r1">
+<div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;">
+<span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Questions</div>
+<div class="round-item">
+<div class="round-item-main">Where do you currently feel the strongest sense of <strong>belonging</strong> in your daily life?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How does <strong>nostalgia</strong> for your school days differ from the reality of what those days were actually like?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why is the feeling of pure, uncomplicated safety so <strong>evanescent</strong> as we grow older?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Does the <strong>geography</strong> of your hometown still hold a special place in your heart, or has it changed too much?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How does the <strong>temporality</strong> of human life influence our desire to create permanent homes?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">In what specific memories are your most important life lessons deeply <strong>rooted</strong>?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why is it that some of our most <strong>transient</strong> living situations feel the most like "home"?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Is <strong>sentimentality</strong> toward physical objects a healthy way to preserve memories of the past?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How does the <strong>displacement</strong> of people across the globe change our traditional definitions of "home"?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How can you recreate the <strong>atmosphere</strong> of your favorite "home time" in your current house?</div>
+</div>
+</div>
+</div>
+<div class="round-block lst open" id="s-lst">
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
+<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">📅</span><div style="font-weight:600;">A Specific Year</div></div>
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">📍</span><div style="font-weight:600;">A Specific Address</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center;">Which one is "home" for you?</p>
+</div>
+</div>
+<div class="round-block round-2 open" id="s-r2">
+<div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;">
+<span>🟢 Round 2 — Future Agree/Disagree</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Debate</div>
+<div class="round-item"><div class="round-item-main">A sense of <strong>belonging</strong> is a luxury that many people in the modern world can no longer afford.</div></div>
+<div class="round-item"><div class="round-item-main"><strong>Nostalgia</strong> is a weapon used by marketers to sell us things we don't need.</div></div>
+<div class="round-item"><div class="round-item-main">Everything beautiful in life is <strong>evanescent</strong>, and we should stop trying to make things last.</div></div>
+<div class="round-item"><div class="round-item-main">Digital spaces will eventually replace physical <strong>geography</strong> as the primary location of "home".</div></div>
+<div class="round-item"><div class="round-item-main">Understanding the <strong>temporality</strong> of life is the only way to find true peace.</div></div>
+<div class="round-item"><div class="round-item-main">Most people are not truly <strong>rooted</strong> anywhere; we are just floating from one temporary situation to another.</div></div>
+<div class="round-item"><div class="round-item-main">The most <strong>transient</strong> experiences are often the ones that teach us the most about ourselves.</div></div>
+<div class="round-item"><div class="round-item-main">Too much <strong>sentimentality</strong> toward the past is a psychological illness that prevents growth.</div></div>
+<div class="round-item"><div class="round-item-main">Forced <strong>displacement</strong> is the greatest tragedy a human being can experience.</div></div>
+<div class="round-item"><div class="round-item-main">The <strong>atmosphere</strong> of a place is created entirely by the people who are in it, not the building itself.</div></div>
+</div>
+</div>
+<div class="mistake-block open" id="s-mistakes">
+<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+<span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+</div>
+<div class="mistake-body" style="display:block;">
+<div class="mistake-item"><span class="mistake-wrong">I am live here since five years</span><span class="mistake-arrow">→</span><span class="mistake-right">I have lived here for five years / I've been living here for five years</span><span class="mistake-note-text">(Present Perfect + Duration)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">It makes me feeling nostalgic</span><span class="mistake-arrow">→</span><span class="mistake-right">It makes me feel nostalgic</span><span class="mistake-note-text">(Make + object + bare infinitive)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">There is a cozy atmosphere</span><span class="mistake-arrow">→</span><span class="mistake-right">There is a cozy atmosphere</span><span class="mistake-note-text">(Spelling: atmosphere)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I prefer this as that</span><span class="mistake-arrow">→</span><span class="mistake-right">I prefer this to that</span><span class="mistake-note-text">(Prefer A to B)</span></div>
+</div>
+</div>
+</div>
+</section>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html">Home</a>
-    <a href="../../practice/index.html">Practice</a>
-    <a href="../../games/index.html">Games</a>
-    <a href="../index.html">Events</a>
-  </div>
-  <p>© 2026 COSYlanguages — All rights reserved</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
+
 <script src="../../js/core/engine.js"></script>
+
 <script src="../../js/core/ui.js"></script>
+
+
 </body>
 </html>

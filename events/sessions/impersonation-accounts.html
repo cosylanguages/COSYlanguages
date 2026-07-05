@@ -1,106 +1,219 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Impersonation Accounts — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
+<link href="../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../css/tokens.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/components.css" rel="stylesheet"/>
+<link href="../../css/layout.css" rel="stylesheet"/>
+<link href="../../css/events.css" rel="stylesheet"/>
 </head>
 <body>
 <nav id="cosy-nav"></nav>
-<main class="container session-page">
-  <nav class="breadcrumb">
-    <a href="../../index.html">Home</a> <span class="sep">/</span>
-    <a href="../index.html">Events</a> <span class="sep">/</span>
-    <a href="./mind-matters.html">Mind Matters</a> <span class="sep">/</span>
-    <span class="current">Impersonation Accounts</span>
-  </nav>
-  <a href="./mind-matters.html" class="back-link">← Back to Club</a>
-  <div class="session-meta-grid">
-    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
-    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
-    <div class="meta-item"><h4>Topic</h4><p>Impersonation accounts of people who impersonate celebrities or famous people (dead / alive).</p></div>
-  </div>
-  <section id="description" style="margin-bottom:3rem;">
-    <p>Exploring the ethics and psychology of digital identities and fakes.</p>
-  </section>
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Empathy</div><div class="vocab-def">understanding others' feelings.</div><div class="vocab-example">Empathy is crucial.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Empathy', definition:'understanding others' feelings.', example:'Empathy is crucial.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Conscious</div><div class="vocab-def">aware of surroundings.</div><div class="vocab-example">He was conscious of the change.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Conscious', definition:'aware of surroundings.', example:'He was conscious of the change.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Detachment</div><div class="vocab-def">state of being objective.</div><div class="vocab-example">I feel a certain detachment.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Detachment', definition:'state of being objective.', example:'I feel a certain detachment.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Vulnerability</div><div class="vocab-def">being open to hurt.</div><div class="vocab-example">Vulnerability is strength.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Vulnerability', definition:'being open to hurt.', example:'Vulnerability is strength.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Projection</div><div class="vocab-def">attributing traits to others.</div><div class="vocab-example">It was a psychological projection.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Projection', definition:'attributing traits to others.', example:'It was a psychological projection.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Subconscious</div><div class="vocab-def">part of mind not aware.</div><div class="vocab-example">The dream came from the subconscious.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Subconscious', definition:'part of mind not aware.', example:'The dream came from the subconscious.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Mindset</div><div class="vocab-def">established set of attitudes.</div><div class="vocab-example">Keep a growth mindset.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Mindset', definition:'established set of attitudes.', example:'Keep a growth mindset.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Bias</div><div class="vocab-def">prejudice in favor of something.</div><div class="vocab-example">Check your internal bias.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Bias', definition:'prejudice in favor of something.', example:'Check your internal bias.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Intuition</div><div class="vocab-def">ability to understand instinctively.</div><div class="vocab-example">Trust your intuition.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Intuition', definition:'ability to understand instinctively.', example:'Trust your intuition.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Cognitive</div><div class="vocab-def">relating to mental processes.</div><div class="vocab-example">Cognitive load is high.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Cognitive', definition:'relating to mental processes.', example:'Cognitive load is high.'}, this)">Add to Dictionary</button></div>
-    </div>
-  </section>
-  <section id="structure">
-    <h2 class="section-title">🎙️ Discussion Structure</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Intro</div>
-          <ul class="round-questions">
-            <li>What is your initial reaction?</li>
-            <li>Is this relevant today?</li>
-          </ul>
-        </div>
-      </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">General Discussion</div>
-          <div class="round-item"><div class="round-item-main">Discussion point 1 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 2 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 3 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 4 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 5 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 6 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 7 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 8 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 9 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 10 about the topic.</div></div>
-        </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Talk Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Paraphrase the core concept.</p>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Conditional Practice</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">General Discussion</div>
-          <div class="round-item"><div class="round-item-main">Dilemma 1 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 2 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 3 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 4 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 5 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 6 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 7 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 8 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 9 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 10 to consider for the future.</div></div>
-        </div>
-      </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
-          <div class="mistake-item"><span class="mistake-wrong">It's depend</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends</span><span class="mistake-note-text">(Structure)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text">(Usage)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">More good</span><span class="mistake-arrow">→</span><span class="mistake-right">Better</span><span class="mistake-note-text">(Grammar)</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
+<header class="session-hero" style="background: linear-gradient(135deg, #0F6E56, #07372b);">
+<div class="club-tag">Keeping Up with Science</div>
+<h1>Impersonation Accounts — Digital Identity Theft</h1>
+<p class="session-date">30 November 2025</p>
+</header>
+<main class="content-container">
+<nav class="cosy-breadcrumbs">
+<a href="../../">Home</a> <span class="sep">/</span>
+<a href="../">Events</a> <span class="sep">/</span>
+<a href="../keeping-up-with-science.html">Science Club</a> <span class="sep">/</span>
+<span class="current">Impersonation Accounts</span>
+</nav>
+<a class="back-link" href="../keeping-up-with-science.html">← Back to Club</a>
+<div class="session-meta-grid">
+<div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+<div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+<div class="meta-item"><h4>Level</h4><p>Intermediate (B1) – Advanced (C1)</p></div>
+<div class="meta-item"><h4>Topic</h4><p>Cybersecurity and Digital Fraud</p></div>
+</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+<p>Impersonation accounts are a growing threat in the digital age, used for everything from social engineering to financial fraud. This session explores the technical and psychological tactics used by scammers to mimic real individuals and organizations. We will discuss how to identify these fraudulent profiles and the legal challenges of protecting our digital identities.</p>
+</div>
+<section id="vocabulary">
+<h2 class="section-title">📖 Session Vocabulary</h2>
+<div class="vocab-grid-10">
+<div class="vocab-card">
+<div class="vocab-word">Fraudulent</div>
+<div class="vocab-def">obtained, done by, or involving deception, especially criminal deception.</div>
+<div class="vocab-example">The bank warned its customers about a series of fraudulent emails asking for passwords.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Fraudulent', definition:'involving criminal deception', example:'The bank warned its customers about a series of fraudulent emails asking for passwords.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Verification</div>
+<div class="vocab-def">the process of establishing the truth, accuracy, or validity of something.</div>
+<div class="vocab-example">Two-step verification is an essential security measure for protecting your online accounts.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Verification', definition:'establishing truth or validity', example:'Two-step verification is an essential security measure for protecting your online accounts.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Identity</div>
+<div class="vocab-def">the fact of being who or what a person or thing is.</div>
+<div class="vocab-example">Digital identity theft can take months or even years to fully resolve.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Identity', definition:'who or what a person is', example:'Digital identity theft can take months or even years to fully resolve.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Phishing</div>
+<div class="vocab-def">the fraudulent practice of sending emails to induce individuals to reveal personal information.</div>
+<div class="vocab-example">He realized the message was a phishing attempt when he noticed the suspicious URL.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Phishing', definition:'deceptive emails to steal info', example:'He realized the message was a phishing attempt when he noticed the suspicious URL.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Authentic</div>
+<div class="vocab-def">of undisputed origin; genuine.</div>
+<div class="vocab-example">Always check for the blue checkmark to ensure that a celebrity's profile is authentic.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Authentic', definition:'genuine and original', example:'Always check for the blue checkmark to ensure that a celebrity\'s profile is authentic.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Vulnerability</div>
+<div class="vocab-def">the quality or state of being exposed to the possibility of being attacked.</div>
+<div class="vocab-example">The software update was released to patch a critical security vulnerability.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Vulnerability', definition:'state of being exposed to attack', example:'The software update was released to patch a critical security vulnerability.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Credential</div>
+<div class="vocab-def">a qualification, achievement, personal quality, or aspect of a person's background.</div>
+<div class="vocab-example">You should never share your login credentials with anyone, even if they claim to be from tech support.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Credential', definition:'qualifications or login info', example:'You should never share your login credentials with anyone, even if they claim to be from tech support.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Malicious</div>
+<div class="vocab-def">intending or intended to do harm.</div>
+<div class="vocab-example">Malicious software can infect your computer through a single suspicious download.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Malicious', definition:'intending to do harm', example:'Malicious software can infect your computer through a single suspicious download.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Pretext</div>
+<div class="vocab-def">a reason given in justification of a course of action that is not the real reason.</div>
+<div class="vocab-example">The scammer contacted him under the pretext of needing help with a charity donation.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Pretext', definition:'false reason given for an action', example:'The scammer contacted him under the pretext of needing help with a charity donation.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Surveillance</div>
+<div class="vocab-def">close observation, especially of a suspected spy or criminal.</div>
+<div class="vocab-example">Many social media platforms use automated surveillance to detect and remove fake accounts.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Surveillance', definition:'close observation or monitoring', example:'Many social media platforms use automated surveillance to detect and remove fake accounts.'}, this)">Add to Dictionary</button>
+</div>
+</div>
+</section>
+<section id="structure">
+<h2 class="section-title">🎙️ Discussion Structure</h2>
+<div class="rounds-container">
+<div class="round-block warm-up open" id="s-warm">
+<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
+<span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="vim-instruction">Think about your digital footprint.</div>
+<ul class="round-questions">
+<li>Have you ever received a message from someone you knew, but it "felt" wrong?</li>
+<li>How many different online identities do you currently manage?</li>
+</ul>
+</div>
+</div>
+<div class="round-block round-1 open" id="s-r1">
+<div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;">
+<span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Questions</div>
+<div class="round-item">
+<div class="round-item-main">What are the most common signs of a <strong>fraudulent</strong> profile on a professional network like LinkedIn?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why is the blue <strong>verification</strong> checkmark no longer a guarantee of authenticity on some platforms?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How can <strong>identity</strong> theft affect a person's life beyond just financial loss?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">What is the most sophisticated <strong>phishing</strong> attack you have ever heard of?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How can you prove that you are <strong>authentic</strong> in a world full of AI-generated content?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Which group of people is most at risk due to a <strong>vulnerability</strong> in their digital literacy?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why should you never use the same <strong>credential</strong> for both your bank and your social media?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How can <strong>malicious</strong> actors use public information to build a convincing fake profile?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">What <strong>pretext</strong> do scammers use most often to gain the trust of their victims?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Should social media companies use more <strong>surveillance</strong> to protect their users from fraud?</div>
+</div>
+</div>
+</div>
+<div class="round-block lst open" id="s-lst">
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
+<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🔒</span><div style="font-weight:600;">Total Privacy</div></div>
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🌐</span><div style="font-weight:600;">Total Transparency</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center;">Which approach makes you feel safer online?</p>
+</div>
+</div>
+<div class="round-block round-2 open" id="s-r2">
+<div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;">
+<span>🟢 Round 2 — Future Agree/Disagree</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Debate</div>
+<div class="round-item"><div class="round-item-main">All <strong>fraudulent</strong> accounts will eventually be eliminated by advanced AI detection.</div></div>
+<div class="round-item"><div class="round-item-main">Biometric <strong>verification</strong> is the only way to truly secure our digital lives in the future.</div></div>
+<div class="round-item"><div class="round-item-main">Digital <strong>identity</strong> should be a basic human right protected by international law.</div></div>
+<div class="round-item"><div class="round-item-main">Most people will eventually fall victim to a <strong>phishing</strong> scam at least once in their lives.</div></div>
+<div class="round-item"><div class="round-item-main">An <strong>authentic</strong> human interaction is becoming more valuable than any digital service.</div></div>
+<div class="round-item"><div class="round-item-main">The biggest <strong>vulnerability</strong> in any security system is always the human element.</div></div>
+<div class="round-item"><div class="round-item-main">We should move to a "zero-trust" world where every <strong>credential</strong> must be verified every time.</div></div>
+<div class="round-item"><div class="round-item-main"><strong>Malicious</strong> use of deepfake technology will make video calls useless for business.</div></div>
+<div class="round-item"><div class="round-item-main">There is no such thing as a valid <strong>pretext</strong> for asking for someone else's password.</div></div>
+<div class="round-item"><div class="round-item-main">Increased <strong>surveillance</strong> is a price we must pay for a safe and secure internet.</div></div>
+</div>
+</div>
+<div class="mistake-block open" id="s-mistakes">
+<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+<span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+</div>
+<div class="mistake-body" style="display:block;">
+<div class="mistake-item"><span class="mistake-wrong">They have stole my identity</span><span class="mistake-arrow">→</span><span class="mistake-right">They have stolen my identity</span><span class="mistake-note-text">(Irregular past participle)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">It is a fraud account</span><span class="mistake-arrow">→</span><span class="mistake-right">It is a fraudulent account / a fake account</span><span class="mistake-note-text">(Noun vs Adjective)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I am careful with my passwords since always</span><span class="mistake-arrow">→</span><span class="mistake-right">I have always been careful with my passwords</span><span class="mistake-note-text">(Present Perfect + Frequency adverb)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">He was scamming by a bot</span><span class="mistake-arrow">→</span><span class="mistake-right">He was scammed by a bot</span><span class="mistake-note-text">(Passive voice)</span></div>
+</div>
+</div>
+</div>
+</section>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html">Home</a>
-    <a href="../../practice/index.html">Practice</a>
-    <a href="../../games/index.html">Games</a>
-    <a href="../index.html">Events</a>
-  </div>
-  <p>© 2026 COSYlanguages — All rights reserved</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
+
 <script src="../../js/core/engine.js"></script>
+
 <script src="../../js/core/ui.js"></script>
+
+
 </body>
 </html>

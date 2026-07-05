@@ -1,106 +1,219 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Some of your favorite days... — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Favorite Days That Never Happened — COSYlanguages</title>
+<link href="../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../css/tokens.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/components.css" rel="stylesheet"/>
+<link href="../../css/layout.css" rel="stylesheet"/>
+<link href="../../css/events.css" rel="stylesheet"/>
 </head>
 <body>
 <nav id="cosy-nav"></nav>
-<main class="container session-page">
-  <nav class="breadcrumb">
-    <a href="../../index.html">Home</a> <span class="sep">/</span>
-    <a href="../index.html">Events</a> <span class="sep">/</span>
-    <a href="./the-greatest-quotes.html">The Greatest Quotes</a> <span class="sep">/</span>
-    <span class="current">Some of your favorite days...</span>
-  </nav>
-  <a href="./the-greatest-quotes.html" class="back-link">← Back to Club</a>
-  <div class="session-meta-grid">
-    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
-    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
-    <div class="meta-item"><h4>Quote</h4><p>“Some of your favorite days have not even happened yet, and that is the magic of being alive.”</p></div>
-  </div>
-  <section id="description" style="margin-bottom:3rem;">
-    <p>A hopeful look at the future and the surprises of life.</p>
-  </section>
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Nostalgia</div><div class="vocab-def">longing for the past.</div><div class="vocab-example">I feel nostalgia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Nostalgia', definition:'longing for the past.', example:'I feel nostalgia.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Ambiguity</div><div class="vocab-def">being open to interpretations.</div><div class="vocab-example">The quote has ambiguity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ambiguity', definition:'being open to interpretations.', example:'The quote has ambiguity.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Perspective</div><div class="vocab-def">a point of view.</div><div class="vocab-example">My perspective is different.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'a point of view.', example:'My perspective is different.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Resonate</div><div class="vocab-def">to evoke a feeling.</div><div class="vocab-example">This resonates with me.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Resonate', definition:'to evoke a feeling.', example:'This resonates with me.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Paradox</div><div class="vocab-def">a self-contradiction.</div><div class="vocab-example">It is a paradox.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Paradox', definition:'a self-contradiction.', example:'It is a paradox.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Authenticity</div><div class="vocab-def">being genuine.</div><div class="vocab-example">I value authenticity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Authenticity', definition:'being genuine.', example:'I value authenticity.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Insight</div><div class="vocab-def">a deep understanding.</div><div class="vocab-example">He gave me an insight.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Insight', definition:'a deep understanding.', example:'He gave me an insight.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Abstract</div><div class="vocab-def">not concrete.</div><div class="vocab-example">The idea is abstract.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Abstract', definition:'not concrete.', example:'The idea is abstract.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Wisdom</div><div class="vocab-def">having experience and knowledge.</div><div class="vocab-example">She has great wisdom.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Wisdom', definition:'having experience and knowledge.', example:'She has great wisdom.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Reflection</div><div class="vocab-def">serious thought.</div><div class="vocab-example">I need some reflection.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Reflection', definition:'serious thought.', example:'I need some reflection.'}, this)">Add to Dictionary</button></div>
-    </div>
-  </section>
-  <section id="structure">
-    <h2 class="section-title">🎙️ Discussion Structure</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Intro</div>
-          <ul class="round-questions">
-            <li>What is your initial reaction?</li>
-            <li>Is this relevant today?</li>
-          </ul>
-        </div>
-      </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — Analysis</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Interpretations</div>
-          <div class="round-item"><div class="round-item-main">Discussion point 1 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 2 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 3 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 4 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 5 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 6 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 7 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 8 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 9 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 10 about the topic.</div></div>
-        </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Talk Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Paraphrase the core concept.</p>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Philosophical Application</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Interpretations</div>
-          <div class="round-item"><div class="round-item-main">Dilemma 1 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 2 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 3 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 4 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 5 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 6 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 7 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 8 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 9 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 10 to consider for the future.</div></div>
-        </div>
-      </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
-          <div class="mistake-item"><span class="mistake-wrong">It's depend</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends</span><span class="mistake-note-text">(Structure)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text">(Usage)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">More good</span><span class="mistake-arrow">→</span><span class="mistake-right">Better</span><span class="mistake-note-text">(Grammar)</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
+<header class="session-hero" style="background: linear-gradient(135deg, #534AB7, #29255b);">
+<div class="club-tag">The Greatest Quotes</div>
+<h1>Favorite Days — That Never Happened</h1>
+<p class="session-date">11 January 2026</p>
+</header>
+<main class="content-container">
+<nav class="cosy-breadcrumbs">
+<a href="../../">Home</a> <span class="sep">/</span>
+<a href="../">Events</a> <span class="sep">/</span>
+<a href="../the-greatest-quotes.html">The Greatest Quotes</a> <span class="sep">/</span>
+<span class="current">Favorite Days</span>
+</nav>
+<a class="back-link" href="../the-greatest-quotes.html">← Back to Club</a>
+<div class="session-meta-grid">
+<div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+<div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+<div class="meta-item"><h4>Level</h4><p>Intermediate (B1) – Advanced (C1)</p></div>
+<div class="meta-item"><h4>Topic</h4><p>Imagination, Idealism, and the "What Ifs" of Life</p></div>
+</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+<p>This session explores the psychological phenomenon of nostalgia for events that never actually took place—the "favorite days" we have built in our imagination. We will discuss how our idealized versions of the future or the past can act as both a source of inspiration and a barrier to appreciating our real lives. Join us as we examine the power of the human mind to find deep meaning in the purely hypothetical.</p>
+</div>
+<section id="vocabulary">
+<h2 class="section-title">📖 Session Vocabulary</h2>
+<div class="vocab-grid-10">
+<div class="vocab-card">
+<div class="vocab-word">Idealized</div>
+<div class="vocab-def">regarded or represented as perfect or better than in reality.</div>
+<div class="vocab-example">Social media often presents an idealized version of people's lives that is far from the truth.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Idealized', definition:'represented as perfect', example:'Social media often presents an idealized version of people\'s lives that is far from the truth.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Hypothetical</div>
+<div class="vocab-def">based on or serving as a hypothesis; supposed but not necessarily real or true.</div>
+<div class="vocab-example">In the meeting, they discussed several hypothetical scenarios for the company's expansion.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Hypothetical', definition:'supposed but not necessarily real', example:'In the meeting, they discussed several hypothetical scenarios for the company\'s expansion.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Nostalgia</div>
+<div class="vocab-def">a sentimental longing or wistful affection for the past.</div>
+<div class="vocab-example">Old songs often trigger a deep sense of nostalgia for our teenage years.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Nostalgia', definition:'sentimental longing for the past', example:'Old songs often trigger a deep sense of nostalgia for our teenage years.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Melancholy</div>
+<div class="vocab-def">a feeling of pensive sadness, typically with no obvious cause.</div>
+<div class="vocab-example">The slow piano music filled the room with a sense of gentle melancholy.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Melancholy', definition:'pensive sadness', example:'The slow piano music filled the room with a sense of gentle melancholy.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Fulfillment</div>
+<div class="vocab-def">satisfaction or happiness as a result of fully developing one's abilities or character.</div>
+<div class="vocab-example">Many people seek personal fulfillment through their work rather than just a high salary.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Fulfillment', definition:'satisfaction from developing potential', example:'Many people seek personal fulfillment through their work rather than just a high salary.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Inspiration</div>
+<div class="vocab-def">the process of being mentally stimulated to do or feel something, especially something creative.</div>
+<div class="vocab-example">The beautiful landscape served as a direct inspiration for the artist's latest painting.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Inspiration', definition:'mental stimulation for creativity', example:'The beautiful landscape served as a direct inspiration for the artist\'s latest painting.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Disillusionment</div>
+<div class="vocab-def">a feeling of disappointment resulting from the discovery that something is not as good as one believed it to be.</div>
+<div class="vocab-example">The young politician faced a wave of disillusionment after seeing how the system actually worked.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Disillusionment', definition:'disappointment from discovery of truth', example:'The young politician faced a wave of disillusionment after seeing how the system actually worked.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Ambiguity</div>
+<div class="vocab-def">the quality of being open to more than one interpretation.</div>
+<div class="vocab-example">The ambiguity of the poem's ending allowed every reader to find their own meaning.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Ambiguity', definition:'openness to multiple interpretations', example:'The ambiguity of the poem\'s ending allowed every reader to find their own meaning.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Anticipation</div>
+<div class="vocab-def">the action of anticipating something; expectation or prediction.</div>
+<div class="vocab-example">There was a great deal of anticipation among the fans before the concert started.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Anticipation', definition:'expectation or prediction', example:'There was a great deal of anticipation among the fans before the concert started.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Perspective</div>
+<div class="vocab-def">a particular way of regarding something; a point of view.</div>
+<div class="vocab-example">Try to look at the problem from the perspective of your customer to find a better solution.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'point of view', example:'Try to look at the problem from the perspective of your customer to find a better solution.'}, this)">Add to Dictionary</button>
+</div>
+</div>
+</section>
+<section id="structure">
+<h2 class="section-title">🎙️ Discussion Structure</h2>
+<div class="rounds-container">
+<div class="round-block warm-up open" id="s-warm">
+<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
+<span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="vim-instruction">Think about your "perfect day."</div>
+<ul class="round-questions">
+<li>Has your perfect day ever actually happened in real life?</li>
+<li>Why do we often remember the past as being better than it really was?</li>
+</ul>
+</div>
+</div>
+<div class="round-block round-1 open" id="s-r1">
+<div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;">
+<span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Questions</div>
+<div class="round-item">
+<div class="round-item-main">Why is it so tempting to live in an <strong>idealized</strong> version of the future instead of focusing on the present?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">In what ways can planning for <strong>hypothetical</strong> problems make us more resilient in real life?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Do you think <strong>nostalgia</strong> for things that never happened is a sign of a creative or an unhappy mind?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How does the <strong>melancholy</strong> of "what could have been" affect your current decision-making?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Is true <strong>fulfillment</strong> possible if we are always comparing our reality to our imagination?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Where do you find your greatest source of <strong>inspiration</strong> when you feel stuck in a routine?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How can we avoid the pain of <strong>disillusionment</strong> when a long-held dream finally comes true?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why does the <strong>ambiguity</strong> of the future cause both fear and excitement in equal measure?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Is the <strong>anticipation</strong> of a holiday often more enjoyable than the holiday itself?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How does changing your <strong>perspective</strong> on a past failure help you move forward today?</div>
+</div>
+</div>
+</div>
+<div class="round-block lst open" id="s-lst">
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
+<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🛌</span><div style="font-weight:600;">The Dream</div></div>
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🏃</span><div style="font-weight:600;">The Reality</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center;">Which one do you spend more time thinking about?</p>
+</div>
+</div>
+<div class="round-block round-2 open" id="s-r2">
+<div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;">
+<span>🟢 Round 2 — Future Agree/Disagree</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Debate</div>
+<div class="round-item"><div class="round-item-main">An <strong>idealized</strong> past is a necessary myth that helps people cope with a difficult present.</div></div>
+<div class="round-item"><div class="round-item-main">Discussing <strong>hypothetical</strong> lives is a waste of time for any serious professional.</div></div>
+<div class="round-item"><div class="round-item-main"><strong>Nostalgia</strong> will eventually be seen as a psychological barrier to societal progress.</div></div>
+<div class="round-item"><div class="round-item-main">A certain amount of <strong>melancholy</strong> is essential for creating great works of art.</div></div>
+<div class="round-item"><div class="round-item-main">Total <strong>fulfillment</strong> is a fairy tale; humans are biologically designed to never be satisfied.</div></div>
+<div class="round-item"><div class="round-item-main">Artificial intelligence will soon be able to provide us with the perfect source of <strong>inspiration</strong>.</div></div>
+<div class="round-item"><div class="round-item-main">The <strong>disillusionment</strong> of adulthood is the most important lesson we ever learn.</div></div>
+<div class="round-item"><div class="round-item-main">Embracing <strong>ambiguity</strong> is the only way to survive in a rapidly changing world.</div></div>
+<div class="round-item"><div class="round-item-main">Constant <strong>anticipation</strong> of the next big thing prevents us from ever being happy.</div></div>
+<div class="round-item"><div class="round-item-main">A person's <strong>perspective</strong> is fixed by their personality and cannot be changed by effort.</div></div>
+</div>
+</div>
+<div class="mistake-block open" id="s-mistakes">
+<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+<span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+</div>
+<div class="mistake-body" style="display:block;">
+<div class="mistake-item"><span class="mistake-wrong">I am nostalgia for my childhood</span><span class="mistake-arrow">→</span><span class="mistake-right">I feel nostalgia for my childhood / I'm nostalgic for my childhood</span><span class="mistake-note-text">(Noun vs Adjective)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">It is a idealized version</span><span class="mistake-arrow">→</span><span class="mistake-right">It is an idealized version</span><span class="mistake-note-text">(Articles: a vs an)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I should of stayed at home</span><span class="mistake-arrow">→</span><span class="mistake-right">I should have stayed at home</span><span class="mistake-note-text">(Modal verbs in the past)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">It makes me to dream more</span><span class="mistake-arrow">→</span><span class="mistake-right">It makes me dream more</span><span class="mistake-note-text">(Make + object + bare infinitive)</span></div>
+</div>
+</div>
+</div>
+</section>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html">Home</a>
-    <a href="../../practice/index.html">Practice</a>
-    <a href="../../games/index.html">Games</a>
-    <a href="../index.html">Events</a>
-  </div>
-  <p>© 2026 COSYlanguages — All rights reserved</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
+
 <script src="../../js/core/engine.js"></script>
+
 <script src="../../js/core/ui.js"></script>
+
+
 </body>
 </html>
