@@ -21,14 +21,19 @@
   <p class="session-date">15 August 2025</p>
 </header>
 <main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Home</a> <span class="sep">/</span>
+    <a href="../">Events</a> <span class="sep">/</span>
+    <a href="../keeping-up-with-science.html">Science Club</a> <span class="sep">/</span>
+    <span class="current">Fusion Energy</span>
+  </nav>
   <a href="../keeping-up-with-science.html" class="back-link">← Back to Club</a>
   <div class="session-meta-grid">
     <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
     <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇪🇸 🇮🇹 🇷🇺</p></div>
-    <div class="meta-item"><h4>Level</h4><p>B2 – C2</p></div>
+    <div class="meta-item"><h4>Level</h4><p>Upper-Intermediate (B2)</p></div>
     <div class="meta-item"><h4>Resources</h4><p><a href="https://www.iter.org/sci/whatisfusion" target="_blank">What is Fusion? 📖</a></p></div>
   </div>
-
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
     <p>Nuclear fusion, the process that powers the stars, has long been the "holy grail" of clean energy research. This session examines the recent scientific breakthroughs in containment and energy output that bring us closer to a world of limitless, carbon-free power. We will discuss the immense technical challenges remaining and how the successful implementation of fusion would transform global geopolitics and the fight against climate change.</p>
   </div>
@@ -36,66 +41,16 @@
   <section id="vocabulary">
     <h2 class="section-title">📖 Session Vocabulary</h2>
     <div class="vocab-grid-10">
-      <div class="vocab-card">
-        <div class="vocab-word">Fusion</div>
-        <div class="vocab-def">the process of joining two or more things together to form a single entity</div>
-        <div class="vocab-example">Example: Nuclear fusion powers the sun and other stars.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Fusion', definition:'joining things to form one', example:'Nuclear fusion powers the sun and other stars.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Fission</div>
-        <div class="vocab-def">the action of dividing or splitting something into two or more parts</div>
-        <div class="vocab-example">Example: Traditional nuclear power plants use fission to generate electricity.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Fission', definition:'splitting something into parts', example:'Traditional nuclear power plants use fission to generate electricity.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Plasma</div>
-        <div class="vocab-def">an ionized gas consisting of positive ions and free electrons</div>
-        <div class="vocab-example">Example: In a fusion reactor, the fuel must be heated until it becomes plasma.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Plasma', definition:'ionized gas state', example:'In a fusion reactor, the fuel must be heated until it becomes plasma.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Sustainability</div>
-        <div class="vocab-def">the ability to be maintained at a certain rate or level</div>
-        <div class="vocab-example">Example: Fusion is seen as a key to long-term energy sustainability.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Sustainability', definition:'ability to be maintained', example:'Fusion is seen as a key to long-term energy sustainability.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Breakthrough</div>
-        <div class="vocab-def">a sudden, dramatic, and important discovery or development</div>
-        <div class="vocab-example">Example: Scientists recently achieved a major breakthrough in net energy gain.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Breakthrough', definition:'sudden important discovery', example:'Scientists recently achieved a major breakthrough in net energy gain.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Isotopes</div>
-        <div class="vocab-def">forms of the same element with different numbers of neutrons</div>
-        <div class="vocab-example">Example: Deuterium and tritium are isotopes of hydrogen used in fusion.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Isotopes', definition:'element forms with different neutrons', example:'Deuterium and tritium are isotopes of hydrogen used in fusion.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Magnetic confinement</div>
-        <div class="vocab-def">using magnetic fields to contain fusion fuel in the form of a plasma</div>
-        <div class="vocab-example">Example: The tokamak design uses magnetic confinement to stabilize the reaction.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Magnetic confinement', definition:'containing plasma with magnetic fields', example:'The tokamak design uses magnetic confinement to stabilize the reaction.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Net energy gain</div>
-        <div class="vocab-def">when the energy generated is greater than the energy required to start the reaction</div>
-        <div class="vocab-example">Example: Achieving net energy gain is the primary goal of commercial fusion research.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Net energy gain', definition:'output energy exceeding input', example:'Achieving net energy gain is the primary goal of commercial fusion research.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Abundance</div>
-        <div class="vocab-def">a very large quantity of something</div>
-        <div class="vocab-example">Example: Hydrogen is found in great abundance in the Earth's oceans.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Abundance', definition:'large quantity of something', example:'Hydrogen is found in great abundance in the Earth\'s oceans.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Radioactive waste</div>
-        <div class="vocab-def">hazardous waste that contains radioactive material</div>
-        <div class="vocab-example">Example: One advantage of fusion is that it produces very little long-lived radioactive waste.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Radioactive waste', definition:'hazardous radioactive material', example:'One advantage of fusion is that it produces very little long-lived radioactive waste.'}, this)">+ Dictionary</button>
-      </div>
+      <div class="vocab-card"><div class="vocab-word">Fusion</div><div class="vocab-def">the process of joining two or more things together to form a single entity.</div><div class="vocab-example">Nuclear fusion powers the sun and other stars.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Fusion', definition:'the process of joining two or more things together to form a single entity.', example:'Nuclear fusion powers the sun and other stars.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Fission</div><div class="vocab-def">the action of dividing or splitting something into two or more parts.</div><div class="vocab-example">Traditional nuclear power plants use fission to generate electricity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Fission', definition:'the action of dividing or splitting something into two or more parts.', example:'Traditional nuclear power plants use fission to generate electricity.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Plasma</div><div class="vocab-def">an ionized gas consisting of positive ions and free electrons.</div><div class="vocab-example">In a fusion reactor, the fuel must be heated until it becomes plasma.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Plasma', definition:'an ionized gas consisting of positive ions and free electrons.', example:'In a fusion reactor, the fuel must be heated until it becomes plasma.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Sustainability</div><div class="vocab-def">the ability to be maintained at a certain rate or level.</div><div class="vocab-example">Fusion is seen as a key to long-term energy sustainability.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sustainability', definition:'the ability to be maintained at a certain rate or level.', example:'Fusion is seen as a key to long-term energy sustainability.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Breakthrough</div><div class="vocab-def">a sudden, dramatic, and important discovery or development.</div><div class="vocab-example">Scientists recently achieved a major breakthrough in net energy gain.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Breakthrough', definition:'a sudden, dramatic, and important discovery or development.', example:'Scientists recently achieved a major breakthrough in net energy gain.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Isotopes</div><div class="vocab-def">forms of the same element with different numbers of neutrons.</div><div class="vocab-example">Deuterium and tritium are isotopes of hydrogen used in fusion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Isotopes', definition:'forms of the same element with different numbers of neutrons.', example:'Deuterium and tritium are isotopes of hydrogen used in fusion.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Magnetic confinement</div><div class="vocab-def">using magnetic fields to contain fusion fuel in the form of a plasma.</div><div class="vocab-example">The tokamak design uses magnetic confinement to stabilize the reaction.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Magnetic confinement', definition:'using magnetic fields to contain fusion fuel in the form of a plasma.', example:'The tokamak design uses magnetic confinement to stabilize the reaction.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Net energy gain</div><div class="vocab-def">when the energy generated is greater than the energy required to start the reaction.</div><div class="vocab-example">Achieving net energy gain is the primary goal of commercial fusion research.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Net energy gain', definition:'when the energy generated is greater than the energy required to start the reaction.', example:'Achieving net energy gain is the primary goal of commercial fusion research.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Abundance</div><div class="vocab-def">a very large quantity of something.</div><div class="vocab-example">Hydrogen is found in great abundance in the Earth's oceans.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Abundance', definition:'a very large quantity of something.', example:'Hydrogen is found in great abundance in the Earth\'s oceans.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Radioactive waste</div><div class="vocab-def">hazardous waste that contains radioactive material.</div><div class="vocab-example">One advantage of fusion is that it produces very little long-lived radioactive waste.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Radioactive waste', definition:'hazardous waste that contains radioactive material.', example:'One advantage of fusion is that it produces very little long-lived radioactive waste.'}, this)">Add to Dictionary</button></div>
     </div>
   </section>
   <section id="structure">
@@ -106,7 +61,7 @@
           <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <vim-instruction>The Star in a Jar</vim-instruction>
+          <div class="vim-instruction">The Star in a Jar</div>
           <ul class="round-questions">
             <li>If you could have a small "sun" in your basement providing unlimited power, would you want it?</li>
             <li>What is the most "futuristic" thing you've heard about energy lately?</li>
@@ -119,16 +74,16 @@
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Questions</div>
-          <div class="round-item"><div class="round-item-main"><strong>1.</strong> What is fusion energy and how does it differ from fission?</div><div class="round-item-personal">★ Had you learned about this difference in school?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>2.</strong> Why is fusion often called the "holy grail" of clean energy?</div><div class="round-item-personal">★ Do you think "holy grail" is a good metaphor for scientific goals?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>3.</strong> What are the main technical challenges scientists face in achieving stable fusion?</div><div class="round-item-personal">★ Does the complexity of the task make you more or less hopeful?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>4.</strong> How would a successful fusion reactor change the global economy?</div><div class="round-item-personal">★ Which industry in your country would be affected most?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Do you think governments should invest more in fusion research compared to wind or solar?</div><div class="round-item-personal">★ If you were in charge of the budget, where would the money go?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>6.</strong> What role does "net energy gain" play in the success of fusion?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>7.</strong> How safe is fusion compared to traditional nuclear power?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>8.</strong> Could fusion energy help us reach "net zero" faster?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>9.</strong> Is fusion energy too far in the future to be relevant for today's climate crisis?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>10.</strong> If you were a scientist, would you dedicate your career to fusion research?</div></div>
+          <div class="round-item"><div class="round-item-main">What is fusion energy and how does it differ from fission?</div><div class="round-item-personal">★ Had you learned about this difference in school?</div></div>
+          <div class="round-item"><div class="round-item-main">Why is fusion often called the "holy grail" of clean energy?</div><div class="round-item-personal">★ Do you think "holy grail" is a good metaphor for scientific goals?</div></div>
+          <div class="round-item"><div class="round-item-main">What are the main technical challenges scientists face in achieving stable fusion?</div><div class="round-item-personal">★ Does the complexity of the task make you more or less hopeful?</div></div>
+          <div class="round-item"><div class="round-item-main">How would a successful fusion reactor change the global economy?</div><div class="round-item-personal">★ Which industry in your country would be affected most?</div></div>
+          <div class="round-item"><div class="round-item-main">Do you think governments should invest more in fusion research compared to wind or solar?</div><div class="round-item-personal">★ If you were in charge of the budget, where would the money go?</div></div>
+          <div class="round-item"><div class="round-item-main">What role does "net energy gain" play in the success of fusion?</div></div>
+          <div class="round-item"><div class="round-item-main">How safe is fusion compared to traditional nuclear power?</div></div>
+          <div class="round-item"><div class="round-item-main">Could fusion energy help us reach "net zero" faster?</div></div>
+          <div class="round-item"><div class="round-item-main">Is fusion energy too far in the future to be relevant for today's climate crisis?</div></div>
+          <div class="round-item"><div class="round-item-main">If you were a scientist, would you dedicate your career to fusion research?</div></div>
         </div>
       </div>
       <div class="round-block lst open" id="s-lst">
@@ -149,16 +104,16 @@
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Projections</div>
-          <div class="round-item"><div class="round-item-main"><strong>1.</strong> In 50 years, fusion energy will be the primary source of power for all major cities.</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>2.</strong> The cost of electricity will become almost zero once fusion is perfected.</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>3.</strong> Fusion will solve the water crisis by making mass desalination affordable.</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>4.</strong> Oil-producing countries will face total economic collapse because of fusion.</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>5.</strong> We will have portable fusion reactors for space travel within the next century.</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>6.</strong> Fusion energy will lead to a new era of global peace as energy competition ends.</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>7.</strong> Private companies will control fusion technology, creating a new "energy elite".</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>8.</strong> Fusion research will eventually prove that we don't need "renewables" like wind and solar.</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>9.</strong> The first commercial fusion plant will be built in an unexpected country, not a superpower.</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>10.</strong> Humanity will waste even more energy once it becomes abundant and "free".</div></div>
+          <div class="round-item"><div class="round-item-main">In 50 years, fusion energy will be the primary source of power for all major cities.</div></div>
+          <div class="round-item"><div class="round-item-main">The cost of electricity will become almost zero once fusion is perfected.</div></div>
+          <div class="round-item"><div class="round-item-main">Fusion will solve the water crisis by making mass desalination affordable.</div></div>
+          <div class="round-item"><div class="round-item-main">Oil-producing countries will face total economic collapse because of fusion.</div></div>
+          <div class="round-item"><div class="round-item-main">We will have portable fusion reactors for space travel within the next century.</div></div>
+          <div class="round-item"><div class="round-item-main">Fusion energy will lead to a new era of global peace as energy competition ends.</div></div>
+          <div class="round-item"><div class="round-item-main">Private companies will control fusion technology, creating a new "energy elite".</div></div>
+          <div class="round-item"><div class="round-item-main">Fusion research will eventually prove that we don't need "renewables" like wind and solar.</div></div>
+          <div class="round-item"><div class="round-item-main">The first commercial fusion plant will be built in an unexpected country, not a superpower.</div></div>
+          <div class="round-item"><div class="round-item-main">Humanity will waste even more energy once it becomes abundant and "free".</div></div>
         </div>
       </div>
       <div class="mistake-block open" id="s-mistakes">
@@ -166,11 +121,36 @@
           <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
         </div>
         <div class="mistake-body" style="display:block;">
-          <div class="mistake-item"><span class="mistake-wrong">The government should invest more</span><span class="mistake-arrow">→</span><span class="mistake-right">Governments should invest more</span><span class="mistake-note-text">(Generalizing with plurals)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">I am looking forward to see it</span><span class="mistake-arrow">→</span><span class="mistake-right">I am looking forward to seeing it</span><span class="mistake-note-text">(Looking forward to + -ing)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">It didn't happened yet</span><span class="mistake-arrow">→</span><span class="mistake-right">It hasn't happened yet</span><span class="mistake-note-text">(Present Perfect for 'yet')</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">Explain me the process</span><span class="mistake-arrow">→</span><span class="mistake-right">Explain the process to me</span><span class="mistake-note-text">(Direct/Indirect object)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">The scientist suggested us that...</span><span class="mistake-arrow">→</span><span class="mistake-right">The scientist suggested that we...</span><span class="mistake-note-text">(Suggest structure)</span></div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">The government should invest more</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Governments should invest more</span>
+            <span class="mistake-note-text">(Generalizing with plurals)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">I am looking forward to see it</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">I am looking forward to seeing it</span>
+            <span class="mistake-note-text">(Looking forward to + -ing)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">It didn't happened yet</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">It hasn't happened yet</span>
+            <span class="mistake-note-text">(Present Perfect for 'yet')</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Explain me the process</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Explain the process to me</span>
+            <span class="mistake-note-text">(Direct/Indirect object)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">The scientist suggested us that...</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">The scientist suggested that we...</span>
+            <span class="mistake-note-text">(Suggest structure)</span>
+          </div>
         </div>
       </div>
     </div>

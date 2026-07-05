@@ -7,7 +7,6 @@
 <link rel="icon" href="../../images/logos/cosylanguages.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-
 <link rel="stylesheet" href="../../css/tokens.css">
 <link rel="stylesheet" href="../../css/base.css">
 <link rel="stylesheet" href="../../css/components.css">
@@ -15,38 +14,26 @@
 <link rel="stylesheet" href="../../css/events.css">
 </head>
 <body>
-
 <nav id="cosy-nav"></nav>
-
 <header class="session-hero" style="background: linear-gradient(135deg, #993C1D, #4d1e0f);">
   <div class="club-tag">Debatable & Relatable</div>
   <h1>AI and Art — Can machines be truly creative?</h1>
   <p class="session-date">22 June 2025</p>
 </header>
-
 <main class="content-container">
-
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Home</a> <span class="sep">/</span>
+    <a href="../">Events</a> <span class="sep">/</span>
+    <a href="../debatable-relatable.html">Debate Club</a> <span class="sep">/</span>
+    <span class="current">AI and Art</span>
+  </nav>
   <a href="../debatable-relatable.html" class="back-link">← Back to Club</a>
-
   <div class="session-meta-grid">
-    <div class="meta-item">
-      <h4>Duration</h4>
-      <p>60 minutes</p>
-    </div>
-    <div class="meta-item">
-      <h4>Languages</h4>
-      <p>🇬🇧 🇫🇷</p>
-    </div>
-    <div class="meta-item">
-      <h4>Level</h4>
-      <p>B1 – C2</p>
-    </div>
-    <div class="meta-item">
-      <h4>Resources</h4>
-      <p><a href="https://www.bbc.com/culture/article/20221215-can-ai-ever-be-truly-creative" target="_blank">Read BBC Culture 📖</a></p>
-    </div>
+    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷</p></div>
+    <div class="meta-item"><h4>Level</h4><p>B1 – C2</p></div>
+    <div class="meta-item"><h4>Resources</h4><p><a href="https://www.bbc.com/culture/article/20221215-can-ai-ever-be-truly-creative" target="_blank">Read BBC Culture 📖</a></p></div>
   </div>
-
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
     <p>Artificial Intelligence is revolutionizing the creative world, raising fundamental questions about the nature of authorship and the human soul in art. This session examines the debate between human craftsmanship and algorithmic perfection, exploring whether machines can truly be creative or if they are merely remixing human inspiration. We will discuss the legal, ethical, and aesthetic implications of AI-generated masterpieces in a rapidly changing cultural landscape.</p>
   </div>
@@ -54,87 +41,33 @@
   <section id="vocabulary">
     <h2 class="section-title">📖 Session Vocabulary</h2>
     <div class="vocab-grid-10">
-      <div class="vocab-card">
-        <div class="vocab-word">Originality</div>
-        <div class="vocab-def">the ability to think independently and creatively</div>
-        <div class="vocab-example">Example: The designer's work is known for its originality.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Originality', definition:'creative independence', example:'The designer\'s work is known for its originality.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Aesthetic</div>
-        <div class="vocab-def">concerned with beauty or the appreciation of beauty</div>
-        <div class="vocab-example">Example: The painting has a very modern aesthetic.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Aesthetic', definition:'relating to beauty', example:'The painting has a very modern aesthetic.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Canvas</div>
-        <div class="vocab-def">a strong, coarse unbleached cloth used as a surface for painting</div>
-        <div class="vocab-example">Example: The artist prepared the canvas before starting to paint.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Canvas', definition:'painting surface', example:'The artist prepared the canvas before starting to paint.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Masterpiece</div>
-        <div class="vocab-def">a work of outstanding artistry, skill, or workmanship</div>
-        <div class="vocab-example">Example: Many consider the Mona Lisa to be Da Vinci's masterpiece.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Masterpiece', definition:'work of outstanding art', example:'Many consider the Mona Lisa to be Da Vinci\'s masterpiece.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Inspiration</div>
-        <div class="vocab-def">the process of being mentally stimulated to do or feel something creative</div>
-        <div class="vocab-example">Example: Travel is a great source of inspiration for many artists.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Inspiration', definition:'creative stimulus', example:'Travel is a great source of inspiration for many artists.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Generative</div>
-        <div class="vocab-def">having the power or function of generating, producing, or reproducing</div>
-        <div class="vocab-example">Example: Generative AI can create completely new images from text.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Generative', definition:'power to produce', example:'Generative AI can create completely new images from text.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Subjective</div>
-        <div class="vocab-def">based on or influenced by personal feelings, tastes, or opinions</div>
-        <div class="vocab-example">Example: Art is highly subjective; what one person loves, another may hate.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Subjective', definition:'personal/opinion-based', example:'Art is highly subjective; what one person loves, another may hate.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Craftsmanship</div>
-        <div class="vocab-def">skill in a particular craft</div>
-        <div class="vocab-example">Example: You can see the incredible craftsmanship in this handmade furniture.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Craftsmanship', definition:'skill in a craft', example:'You can see the incredible craftsmanship in this handmade furniture.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Copyright</div>
-        <div class="vocab-def">the exclusive legal right to reproduce, publish, sell, or distribute a work</div>
-        <div class="vocab-example">Example: There are many legal battles over AI and copyright.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Copyright', definition:'legal right to a work', example:'There are many legal battles over AI and copyright.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Provocative</div>
-        <div class="vocab-def">causing annoyance, anger, or another strong reaction, especially deliberately</div>
-        <div class="vocab-example">Example: The artist is known for his provocative and controversial works.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Provocative', definition:'causing strong reaction', example:'The artist is known for his provocative and controversial works.'}, this)">+ Dictionary</button>
-      </div>
+      <div class="vocab-card"><div class="vocab-word">Originality</div><div class="vocab-def">the ability to think independently and creatively.</div><div class="vocab-example">The designer's work is known for its originality.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Originality', definition:'the ability to think independently and creatively.', example:'The designer\'s work is known for its originality.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Aesthetic</div><div class="vocab-def">concerned with beauty or the appreciation of beauty.</div><div class="vocab-example">The painting has a very modern aesthetic.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Aesthetic', definition:'concerned with beauty or the appreciation of beauty.', example:'The painting has a very modern aesthetic.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Canvas</div><div class="vocab-def">a strong, coarse unbleached cloth used as a surface for painting.</div><div class="vocab-example">The artist prepared the canvas before starting to paint.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Canvas', definition:'a strong, coarse unbleached cloth used as a surface for painting.', example:'The artist prepared the canvas before starting to paint.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Masterpiece</div><div class="vocab-def">a work of outstanding artistry, skill, or workmanship.</div><div class="vocab-example">Many consider the Mona Lisa to be Da Vinci's masterpiece.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Masterpiece', definition:'a work of outstanding artistry, skill, or workmanship.', example:'Many consider the Mona Lisa to be Da Vinci\'s masterpiece.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Inspiration</div><div class="vocab-def">the process of being mentally stimulated to do or feel something creative.</div><div class="vocab-example">Travel is a great source of inspiration for many artists.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Inspiration', definition:'the process of being mentally stimulated to do or feel something creative.', example:'Travel is a great source of inspiration for many artists.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Generative</div><div class="vocab-def">having the power or function of generating, producing, or reproducing.</div><div class="vocab-example">Generative AI can create completely new images from text.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Generative', definition:'having the power or function of generating, producing, or reproducing.', example:'Generative AI can create completely new images from text.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Subjective</div><div class="vocab-def">based on or influenced by personal feelings, tastes, or opinions.</div><div class="vocab-example">Art is highly subjective; what one person loves, another may hate.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Subjective', definition:'based on or influenced by personal feelings, tastes, or opinions.', example:'Art is highly subjective; what one person loves, another may hate.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Craftsmanship</div><div class="vocab-def">skill in a particular craft.</div><div class="vocab-example">You can see the incredible craftsmanship in this handmade furniture.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Craftsmanship', definition:'skill in a particular craft.', example:'You can see the incredible craftsmanship in this handmade furniture.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Copyright</div><div class="vocab-def">the exclusive legal right to reproduce, publish, sell, or distribute a work.</div><div class="vocab-example">There are many legal battles over AI and copyright.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Copyright', definition:'the exclusive legal right to reproduce, publish, sell, or distribute a work.', example:'There are many legal battles over AI and copyright.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Provocative</div><div class="vocab-def">causing annoyance, anger, or another strong reaction, especially deliberately.</div><div class="vocab-example">The artist is known for his provocative and controversial works.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Provocative', definition:'causing annoyance, anger, or another strong reaction, especially deliberately.', example:'The artist is known for his provocative and controversial works.'}, this)">Add to Dictionary</button></div>
     </div>
   </section>
-
   <section id="structure">
     <h2 class="section-title">🎙️ Discussion Structure</h2>
-
     <div class="rounds-container">
-
       <div class="round-block warm-up open" id="s-warm">
         <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
           <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <vim-instruction>Creativity Definitions</vim-instruction>
+          <div class="vim-instruction">Creativity Definitions</div>
           <ul class="round-questions">
             <li>What makes someone "creative"?</li>
             <li>Can a machine have a "soul"?</li>
           </ul>
         </div>
       </div>
-
       <div class="round-block round-1 open" id="s-r1">
         <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
           <span>🔵 Round 1 — Advantages (A/B Ideas)</span><span class="round-toggle">▲</span>
@@ -153,7 +86,6 @@
           <div class="round-item"><div class="round-item-main"><strong>10. A:</strong> AI will eventually lead to a "golden age" of creativity where humans and machines collaborate. <br><strong>B:</strong> Humans will eventually lose the desire to create as machines become "perfect" artists.</div></div>
         </div>
       </div>
-
       <div class="round-block lst open" id="s-lst">
         <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
           <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
@@ -166,7 +98,6 @@
           <p style="margin-top:1rem; text-align:center;">Which one do you prefer in art?</p>
         </div>
       </div>
-
       <div class="round-block round-2 open" id="s-r2">
         <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
           <span>🟢 Round 2 — Disadvantages (A/B Ideas)</span><span class="round-toggle">▲</span>
@@ -185,7 +116,6 @@
           <div class="round-item"><div class="round-item-main"><strong>10. A:</strong> The biggest risk is the total loss of human intellectual property rights. <br><strong>B:</strong> The biggest risk is the atrophy of the human imagination.</div></div>
         </div>
       </div>
-
       <div class="mistake-block open" id="s-mistakes">
         <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
           <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
@@ -198,12 +128,9 @@
           <div class="mistake-item"><span class="mistake-wrong">He paint very good</span><span class="mistake-arrow">→</span><span class="mistake-right">He paints very well</span><span class="mistake-note-text">(Adverb vs Adjective)</span></div>
         </div>
       </div>
-
     </div>
   </section>
-
 </main>
-
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
     <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
@@ -213,7 +140,6 @@
   </div>
   <p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
-
 <script src="../../js/data/languages.js"></script>
 <script src="../../js/core/engine.js"></script>
 <script src="../../js/core/i18n.js"></script>
