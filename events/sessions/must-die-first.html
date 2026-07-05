@@ -1,106 +1,219 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>People have beautiful things to say... — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>You Must Die First — COSYlanguages</title>
+<link href="../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../css/tokens.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/components.css" rel="stylesheet"/>
+<link href="../../css/layout.css" rel="stylesheet"/>
+<link href="../../css/events.css" rel="stylesheet"/>
 </head>
 <body>
 <nav id="cosy-nav"></nav>
-<main class="container session-page">
-  <nav class="breadcrumb">
-    <a href="../../index.html">Home</a> <span class="sep">/</span>
-    <a href="../index.html">Events</a> <span class="sep">/</span>
-    <a href="./the-greatest-quotes.html">The Greatest Quotes</a> <span class="sep">/</span>
-    <span class="current">People have beautiful things to say...</span>
-  </nav>
-  <a href="./the-greatest-quotes.html" class="back-link">← Back to Club</a>
-  <div class="session-meta-grid">
-    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
-    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
-    <div class="meta-item"><h4>Quote</h4><p>“People have beautiful things to say about you, but you must die first.” (Fyodor Dostoevsky)</p></div>
-  </div>
-  <section id="description" style="margin-bottom:3rem;">
-    <p>A somber reflection on human appreciation and mortality.</p>
-  </section>
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Nostalgia</div><div class="vocab-def">longing for the past.</div><div class="vocab-example">I feel nostalgia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Nostalgia', definition:'longing for the past.', example:'I feel nostalgia.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Ambiguity</div><div class="vocab-def">being open to interpretations.</div><div class="vocab-example">The quote has ambiguity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ambiguity', definition:'being open to interpretations.', example:'The quote has ambiguity.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Perspective</div><div class="vocab-def">a point of view.</div><div class="vocab-example">My perspective is different.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'a point of view.', example:'My perspective is different.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Resonate</div><div class="vocab-def">to evoke a feeling.</div><div class="vocab-example">This resonates with me.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Resonate', definition:'to evoke a feeling.', example:'This resonates with me.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Paradox</div><div class="vocab-def">a self-contradiction.</div><div class="vocab-example">It is a paradox.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Paradox', definition:'a self-contradiction.', example:'It is a paradox.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Authenticity</div><div class="vocab-def">being genuine.</div><div class="vocab-example">I value authenticity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Authenticity', definition:'being genuine.', example:'I value authenticity.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Insight</div><div class="vocab-def">a deep understanding.</div><div class="vocab-example">He gave me an insight.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Insight', definition:'a deep understanding.', example:'He gave me an insight.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Abstract</div><div class="vocab-def">not concrete.</div><div class="vocab-example">The idea is abstract.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Abstract', definition:'not concrete.', example:'The idea is abstract.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Wisdom</div><div class="vocab-def">having experience and knowledge.</div><div class="vocab-example">She has great wisdom.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Wisdom', definition:'having experience and knowledge.', example:'She has great wisdom.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Reflection</div><div class="vocab-def">serious thought.</div><div class="vocab-example">I need some reflection.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Reflection', definition:'serious thought.', example:'I need some reflection.'}, this)">Add to Dictionary</button></div>
-    </div>
-  </section>
-  <section id="structure">
-    <h2 class="section-title">🎙️ Discussion Structure</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Intro</div>
-          <ul class="round-questions">
-            <li>What is your initial reaction?</li>
-            <li>Is this relevant today?</li>
-          </ul>
-        </div>
-      </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — Analysis</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Interpretations</div>
-          <div class="round-item"><div class="round-item-main">Discussion point 1 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 2 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 3 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 4 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 5 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 6 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 7 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 8 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 9 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 10 about the topic.</div></div>
-        </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Talk Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Paraphrase the core concept.</p>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Philosophical Application</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Interpretations</div>
-          <div class="round-item"><div class="round-item-main">Dilemma 1 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 2 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 3 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 4 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 5 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 6 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 7 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 8 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 9 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 10 to consider for the future.</div></div>
-        </div>
-      </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
-          <div class="mistake-item"><span class="mistake-wrong">It's depend</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends</span><span class="mistake-note-text">(Structure)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text">(Usage)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">More good</span><span class="mistake-arrow">→</span><span class="mistake-right">Better</span><span class="mistake-note-text">(Grammar)</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
+<header class="session-hero" style="background: linear-gradient(135deg, #534AB7, #29255b);">
+<div class="club-tag">The Greatest Quotes</div>
+<h1>You Must Die First — The Art of Rebirth</h1>
+<p class="session-date">02 November 2025</p>
+</header>
+<main class="content-container">
+<nav class="cosy-breadcrumbs">
+<a href="../../">Home</a> <span class="sep">/</span>
+<a href="../">Events</a> <span class="sep">/</span>
+<a href="../the-greatest-quotes.html">The Greatest Quotes</a> <span class="sep">/</span>
+<span class="current">You Must Die First</span>
+</nav>
+<a class="back-link" href="../the-greatest-quotes.html">← Back to Club</a>
+<div class="session-meta-grid">
+<div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+<div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+<div class="meta-item"><h4>Level</h4><p>Intermediate (B1) – Advanced (C1)</p></div>
+<div class="meta-item"><h4>Topic</h4><p>Metaphorical Death and Personal Transformation</p></div>
+</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+<p>The quote "You must die first before you can truly live" suggests that significant personal growth often requires letting go of old identities and habits. This session explores the concept of metaphorical death as a catalyst for profound life changes. We will discuss the courage needed to face our own limitations and the potential for rebirth that lies on the other side of failure.</p>
+</div>
+<section id="vocabulary">
+<h2 class="section-title">📖 Session Vocabulary</h2>
+<div class="vocab-grid-10">
+<div class="vocab-card">
+<div class="vocab-word">Transformation</div>
+<div class="vocab-def">a thorough or dramatic change in form or appearance.</div>
+<div class="vocab-example">The caterpillar's transformation into a butterfly is a classic symbol of rebirth.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Transformation', definition:'dramatic change in form', example:'The caterpillar\'s transformation into a butterfly is a classic symbol of rebirth.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Metaphorical</div>
+<div class="vocab-def">characteristic of or relating to metaphor; figurative.</div>
+<div class="vocab-example">When he spoke of "dying first," he was using a metaphorical expression for personal growth.</div>
+<button a="" class="btn-add-dict" dying="" expression="" first,"="" for="" growth.'},="" he="" metaphorical="" onclick="COSY.addToDict({word:'Metaphorical', definition:'figurative or symbolic', example:'When he spoke of " personal="" this)"="" using="" was="">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Catalyst</div>
+<div class="vocab-def">a person or thing that precipitates an event.</div>
+<div class="vocab-example">The loss of his job served as a catalyst for him to finally start his own business.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Catalyst', definition:'something that triggers an event', example:'The loss of his job served as a catalyst for him to finally start his own business.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Identity</div>
+<div class="vocab-def">the fact of being who or what a person or thing is.</div>
+<div class="vocab-example">Moving to a new country often forces people to re-examine their sense of identity.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Identity', definition:'who or what a person is', example:'Moving to a new country often forces people to re-examine their sense of identity.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Renunciation</div>
+<div class="vocab-def">the formal rejection of something, typically a belief, claim, or course of action.</div>
+<div class="vocab-example">Her renunciation of her old lifestyle allowed her to find peace in a simpler way of living.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Renunciation', definition:'formal rejection of belief/lifestyle', example:'Her renunciation of her old lifestyle allowed her to find peace in a simpler way of living.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Limitation</div>
+<div class="vocab-def">a restriction or a point beyond which something does not or may not extend.</div>
+<div class="vocab-example">Recognizing your own limitation is the first step toward overcoming it.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Limitation', definition:'restriction or boundary', example:'Recognizing your own limitation is the first step toward overcoming it.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Resilience</div>
+<div class="vocab-def">the capacity to recover quickly from difficulties.</div>
+<div class="vocab-example">The city's resilience after the disaster was an inspiration to the entire nation.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Resilience', definition:'capacity to recover quickly', example:'The city\'s resilience after the disaster was an inspiration to the entire nation.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Paradigm</div>
+<div class="vocab-def">a typical example or pattern of something; a model.</div>
+<div class="vocab-example">The discovery shifted the scientific paradigm and changed how we see the universe.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Paradigm', definition:'typical example or model', example:'The discovery shifted the scientific paradigm and changed how we see the universe.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Evolution</div>
+<div class="vocab-def">the gradual development of something.</div>
+<div class="vocab-example">The evolution of his artistic style over twenty years is quite remarkable.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Evolution', definition:'gradual development', example:'The evolution of his artistic style over twenty years is quite remarkable.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Vulnerability</div>
+<div class="vocab-def">the state of being exposed to the possibility of being harmed.</div>
+<div class="vocab-example">Opening up to new experiences requires a level of emotional vulnerability.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Vulnerability', definition:'state of being exposed to harm', example:'Opening up to new experiences requires a level of emotional vulnerability.'}, this)">Add to Dictionary</button>
+</div>
+</div>
+</section>
+<section id="structure">
+<h2 class="section-title">🎙️ Discussion Structure</h2>
+<div class="rounds-container">
+<div class="round-block warm-up open" id="s-warm">
+<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
+<span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="vim-instruction">Analyze the quote: "You must die first before you can truly live."</div>
+<ul class="round-questions">
+<li>What is one habit or belief you have already "killed" in your life?</li>
+<li>Do you think fear of change is actually a fear of losing yourself?</li>
+</ul>
+</div>
+</div>
+<div class="round-block round-1 open" id="s-r1">
+<div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;">
+<span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Questions</div>
+<div class="round-item">
+<div class="round-item-main">How does a major life <strong>transformation</strong> often feel like a loss at the beginning?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">In what ways can a <strong>metaphorical</strong> death of an old ego lead to better relationships?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">What has been the most powerful <strong>catalyst</strong> for change in your professional life?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why is it so painful to let go of an <strong>identity</strong> that no longer serves us?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Is the <strong>renunciation</strong> of material success necessary to find true spiritual fulfillment?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How does hitting a physical or mental <strong>limitation</strong> force you to reinvent your approach?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How can we develop the <strong>resilience</strong> needed to "die" and be "reborn" multiple times in one life?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">What current <strong>paradigm</strong> in your industry do you think needs to be completely destroyed?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How does the <strong>evolution</strong> of your values over time make you a different person than you were ten years ago?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why is <strong>vulnerability</strong> the key to starting over after a significant failure?</div>
+</div>
+</div>
+</div>
+<div class="round-block lst open" id="s-lst">
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
+<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🔥</span><div style="font-weight:600;">Destruction</div></div>
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🌱</span><div style="font-weight:600;">Creation</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center;">Which part of the "rebirth" process is more difficult for you?</p>
+</div>
+</div>
+<div class="round-block round-2 open" id="s-r2">
+<div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;">
+<span>🟢 Round 2 — Future Agree/Disagree</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Debate</div>
+<div class="round-item"><div class="round-item-main">A complete <strong>transformation</strong> of character is impossible after the age of thirty.</div></div>
+<div class="round-item"><div class="round-item-main">Most people prefer a comfortable "living death" to a <strong>metaphorical</strong> rebirth.</div></div>
+<div class="round-item"><div class="round-item-main">Pain is the only <strong>catalyst</strong> that is strong enough to make humans truly change.</div></div>
+<div class="round-item"><div class="round-item-main">Our digital <strong>identity</strong> is becoming more important than our real-world self.</div></div>
+<div class="round-item"><div class="round-item-main">The <strong>renunciation</strong> of past mistakes is the only way to avoid repeating them.</div></div>
+<div class="round-item"><div class="round-item-main">Every human <strong>limitation</strong> is actually a hidden opportunity for a new type of strength.</div></div>
+<div class="round-item"><div class="round-item-main"><strong>Resilience</strong> is not about surviving a disaster, but about being changed by it.</div></div>
+<div class="round-item"><div class="round-item-main">The current <strong>paradigm</strong> of "working until you're old" is slowly dying.</div></div>
+<div class="round-item"><div class="round-item-main">Personal <strong>evolution</strong> should be the primary goal of every education system.</div></div>
+<div class="round-item"><div class="round-item-main"><strong>Vulnerability</strong> will eventually be seen as the most important leadership trait.</div></div>
+</div>
+</div>
+<div class="mistake-block open" id="s-mistakes">
+<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+<span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+</div>
+<div class="mistake-body" style="display:block;">
+<div class="mistake-item"><span class="mistake-wrong">I must to die first</span><span class="mistake-arrow">→</span><span class="mistake-right">I must die first</span><span class="mistake-note-text">(Modal verbs + bare infinitive)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">It is a thorough transformation</span><span class="mistake-arrow">→</span><span class="mistake-right">It is a thorough transformation</span><span class="mistake-note-text">(Spelling: thorough)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I'm not used to take risks</span><span class="mistake-arrow">→</span><span class="mistake-right">I'm not used to taking risks</span><span class="mistake-note-text">(Used to + -ing)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">He has many resilience</span><span class="mistake-arrow">→</span><span class="mistake-right">He has a lot of resilience / great resilience</span><span class="mistake-note-text">(Uncountable noun)</span></div>
+</div>
+</div>
+</div>
+</section>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html">Home</a>
-    <a href="../../practice/index.html">Practice</a>
-    <a href="../../games/index.html">Games</a>
-    <a href="../index.html">Events</a>
-  </div>
-  <p>© 2026 COSYlanguages — All rights reserved</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
+
 <script src="../../js/core/engine.js"></script>
+
 <script src="../../js/core/ui.js"></script>
+
+
 </body>
 </html>

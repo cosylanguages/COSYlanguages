@@ -1,224 +1,206 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>The Wisdom of Socrates — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
+<link href="../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../css/tokens.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/components.css" rel="stylesheet"/>
+<link href="../../css/layout.css" rel="stylesheet"/>
+<link href="../../css/events.css" rel="stylesheet"/>
 </head>
 <body>
-
 <nav id="cosy-nav"></nav>
-
 <header class="session-hero" style="background: linear-gradient(135deg, #534AB7, #2a255c);">
-  <div class="club-tag">The Greatest Quotes</div>
-  <h1>"The only true wisdom is in knowing you know nothing." — Socrates</h1>
-  <p class="session-date">15 June 2025</p>
+<div class="club-tag">The Greatest Quotes</div>
+<h1>"The only true wisdom is in knowing you know nothing." — Socrates</h1>
+<p class="session-date">15 June 2025</p>
 </header>
-
-<main class="content-container">
-
-  <a href="../the-greatest-quotes.html" class="back-link">← Back to Club</a>
-
-  <div class="session-meta-grid">
-    <div class="meta-item">
-      <h4>Duration</h4>
-      <p>60 minutes</p>
-    </div>
-    <div class="meta-item">
-      <h4>Languages</h4>
-      <p>🇬🇧 🇫🇷 🇷🇺</p>
-    </div>
-    <div class="meta-item">
-      <h4>Level</h4>
-      <p>B1 – C2</p>
-    </div>
-    <div class="meta-item">
-      <h4>Quote</h4>
-      <p>“The only true wisdom is in knowing you know nothing.”</p>
-    </div>
-  </div>
-
-  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Socrates' paradox of wisdom is a cornerstone of Western philosophy, emphasizing the importance of humility and the recognition of our own limitations. This session explores how acknowledging our ignorance can lead to deeper understanding and more effective learning in all areas of life. We will discuss the relevance of Socratic questioning in the modern world and how it can help us navigate a sea of information and misinformation.</p>
-  </div>
-
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card">
-        <div class="vocab-word">Humility</div>
-        <div class="vocab-def">modest view of one's importance</div>
-        <div class="vocab-example">Example: He accepted the award with great humility.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Humility', definition:'modesty', example:'He accepted the award with great humility.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Wisdom</div>
-        <div class="vocab-def">the quality of having experience, knowledge, and good judgment</div>
-        <div class="vocab-example">Example: Socrates is famous for his philosophical wisdom.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Wisdom', definition:'good judgment', example:'Socrates is famous for his philosophical wisdom.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Ignorance</div>
-        <div class="vocab-def">lack of knowledge or information</div>
-        <div class="vocab-example">Example: Ignorance of the law is no excuse.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Ignorance', definition:'lack of knowledge', example:'Ignorance of the law is no excuse.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Ethics</div>
-        <div class="vocab-def">moral principles that govern behavior</div>
-        <div class="vocab-example">Example: He is studying the ethics of artificial intelligence.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Ethics', definition:'moral principles', example:'He is studying the ethics of artificial intelligence.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Paradox</div>
-        <div class="vocab-def">a seemingly absurd statement that may be true</div>
-        <div class="vocab-example">Example: The Socratic paradox is a central theme in his work.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Paradox', definition:'absurd truth', example:'The Socratic paradox is a central theme in his work.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Dialogue</div>
-        <div class="vocab-def">conversation between two or more people</div>
-        <div class="vocab-example">Example: Plato's dialogues feature Socrates as the main speaker.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Dialogue', definition:'conversation', example:'Plato\'s dialogues feature Socrates as the main speaker.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Virtue</div>
-        <div class="vocab-def">behavior showing high moral standards</div>
-        <div class="vocab-example">Example: Patience is a virtue.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Virtue', definition:'moral excellence', example:'Patience is a virtue.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Logic</div>
-        <div class="vocab-def">reasoning conducted according to strict principles of validity</div>
-        <div class="vocab-example">Example: Use logic to support your argument.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Logic', definition:'valid reasoning', example:'Use logic to support your argument.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Perspective</div>
-        <div class="vocab-def">a particular attitude toward something</div>
-        <div class="vocab-example">Example: We need to see this from a different perspective.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'point of view', example:'We need to see this from a different perspective.'}, this)">+ Dictionary</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Contemplate</div>
-        <div class="vocab-def">look thoughtfully for a long time at</div>
-        <div class="vocab-example">Example: He sat alone to contemplate the meaning of life.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Contemplate', definition:'to think deeply', example:'He sat alone to contemplate the meaning of life.'}, this)">+ Dictionary</button>
-      </div>
-    </div>
-  </section>
-
-  <section id="structure">
-    <h2 class="section-title">🎙️ Discussion Structure</h2>
-
-    <div class="rounds-container">
-
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <vim-instruction>Wisdom & Humility</vim-instruction>
-          <ul class="round-questions">
-            <li>What does "wisdom" mean to you?</li>
-            <li>Is it easy to admit when you are wrong?</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — General Analysis</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Questions</div>
-          <div class="round-item"><div class="round-item-main"><strong>1.</strong> Do you think it's possible to "know nothing" in the information age?</div><div class="round-item-personal">★ When was the last time you changed your mind about something important?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>2.</strong> Why is humility considered a foundation for learning?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>3.</strong> How does the internet affect our perception of our own knowledge?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>4.</strong> Is there a difference between "information" and "wisdom"?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Why did Socrates focus so much on questioning others?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>6.</strong> Can someone be wise without having a formal education?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>7.</strong> What are the dangers of thinking you know everything?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>8.</strong> How can we practice Socratic questioning in our daily lives?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>9.</strong> Does modern society value wisdom or speed more?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>10.</strong> If you could ask Socrates one question, what would it be?</div></div>
-        </div>
-      </div>
-
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎓</span><div style="font-weight:600;">Expertise</div></div>
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🔍</span><div style="font-weight:600;">Curiosity</div></div>
-          </div>
-          <p style="margin-top:1rem; text-align:center;">Which one is more valuable today?</p>
-        </div>
-      </div>
-
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Agree or Disagree: The Future</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Debate</div>
-          <div class="round-item"><div class="round-item-main"><strong>1.</strong> Is "ignorance bliss", or is knowledge always better?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>2.</strong> Should ethics be taught as a mandatory subject in all schools?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>3.</strong> Is it possible to be a good person without knowing why you are doing good?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>4.</strong> Does science make philosophy obsolete?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>5.</strong> Should we prioritize logical thinking over emotional intelligence?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>6.</strong> Is there such a thing as "absolute truth"?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>7.</strong> Can a machine ever be truly wise?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>8.</strong> Is the Socratic method too aggressive for modern conversation?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>9.</strong> If everyone followed Socrates' advice, would the world be a better place?</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>10.</strong> What is the most important "truth" you have discovered in your life?</div></div>
-        </div>
-      </div>
-
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
-          <div class="mistake-item"><span class="mistake-wrong">I am more wise</span><span class="mistake-arrow">→</span><span class="mistake-right">I am wiser</span><span class="mistake-note-text">(Short adjectives)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">Socrates was an expert of questioning</span><span class="mistake-arrow">→</span><span class="mistake-right">Socrates was an expert at questioning</span><span class="mistake-note-text">(Preposition "at")</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">The most of people think...</span><span class="mistake-arrow">→</span><span class="mistake-right">Most people think...</span><span class="mistake-note-text">(Generalization)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">If I was him, I would...</span><span class="mistake-arrow">→</span><span class="mistake-right">If I were him, I would...</span><span class="mistake-note-text">(Second conditional)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">He explained me the paradox</span><span class="mistake-arrow">→</span><span class="mistake-right">He explained the paradox to me</span></div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
+<main class="content-container"><nav class="cosy-breadcrumbs"><a href="../../">Home</a><span class="sep"> / </span><a href="../">Events</a><span class="sep"> / </span><a href="../the-greatest-quotes.html">The Greatest Quotes</a><span class="sep"> / </span><span class="current">"The only true wisdom is in knowing you know nothing." — Socrates</span></nav>
+<a class="back-link" href="../the-greatest-quotes.html">← Back to Club</a>
+<div class="session-meta-grid">
+<div class="meta-item">
+<h4>Duration</h4>
+<p>60 minutes</p>
+</div>
+<div class="meta-item">
+<h4>Languages</h4>
+<p>🇬🇧 🇫🇷 🇷🇺</p>
+</div>
+<div class="meta-item">
+<h4>Level</h4>
+<p>B1 – C2</p>
+</div>
+<div class="meta-item">
+<h4>Quote</h4>
+<p>“The only true wisdom is in knowing you know nothing.”</p>
+</div>
+</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+<p>Socrates' paradox of wisdom is a cornerstone of Western philosophy, emphasizing the importance of humility and the recognition of our own limitations. This session explores how acknowledging our ignorance can lead to deeper understanding and more effective learning in all areas of life. We will discuss the relevance of Socratic questioning in the modern world and how it can help us navigate a sea of information and misinformation.</p>
+</div>
+<section id="vocabulary">
+<h2 class="section-title">📖 Session Vocabulary</h2>
+<div class="vocab-grid-10">
+<div class="vocab-card">
+<div class="vocab-word">Humility</div>
+<div class="vocab-def">modest view of one's importance.</div>
+<div class="vocab-example">He accepted the award with great humility.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Humility', definition:'modesty', example:'He accepted the award with great humility.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Wisdom</div>
+<div class="vocab-def">the quality of having experience, knowledge, and good judgment.</div>
+<div class="vocab-example">Socrates is famous for his philosophical wisdom.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Wisdom', definition:'good judgment', example:'Socrates is famous for his philosophical wisdom.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Ignorance</div>
+<div class="vocab-def">lack of knowledge or information.</div>
+<div class="vocab-example">Ignorance of the law is no excuse.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Ignorance', definition:'lack of knowledge', example:'Ignorance of the law is no excuse.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Ethics</div>
+<div class="vocab-def">moral principles that govern behavior.</div>
+<div class="vocab-example">He is studying the ethics of artificial intelligence.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Ethics', definition:'moral principles', example:'He is studying the ethics of artificial intelligence.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Paradox</div>
+<div class="vocab-def">a seemingly absurd statement that may be true.</div>
+<div class="vocab-example">The Socratic paradox is a central theme in his work.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Paradox', definition:'absurd truth', example:'The Socratic paradox is a central theme in his work.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Dialogue</div>
+<div class="vocab-def">conversation between two or more people.</div>
+<div class="vocab-example">Plato's dialogues feature Socrates as the main speaker.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Dialogue', definition:'conversation', example:'Plato\'s dialogues feature Socrates as the main speaker.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Virtue</div>
+<div class="vocab-def">behavior showing high moral standards.</div>
+<div class="vocab-example">Patience is a virtue.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Virtue', definition:'moral excellence', example:'Patience is a virtue.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Logic</div>
+<div class="vocab-def">reasoning conducted according to strict principles of validity.</div>
+<div class="vocab-example">Use logic to support your argument.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Logic', definition:'valid reasoning', example:'Use logic to support your argument.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Perspective</div>
+<div class="vocab-def">a particular attitude toward something.</div>
+<div class="vocab-example">We need to see this from a different perspective.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'point of view', example:'We need to see this from a different perspective.'}, this)">+ Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Contemplate</div>
+<div class="vocab-def">look thoughtfully for a long time at.</div>
+<div class="vocab-example">He sat alone to contemplate the meaning of life.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Contemplate', definition:'to think deeply', example:'He sat alone to contemplate the meaning of life.'}, this)">+ Dictionary</button>
+</div>
+</div>
+</section>
+<section id="structure">
+<h2 class="section-title">🎙️ Discussion Structure</h2>
+<div class="rounds-container">
+<div class="round-block warm-up open" id="s-warm">
+<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
+<span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<vim-instruction>Wisdom &amp; Humility</vim-instruction>
+<ul class="round-questions">
+<li>What does "wisdom" mean to you?</li>
+<li>Is it easy to admit when you are wrong?</li>
+</ul>
+</div>
+</div>
+<div class="round-block round-1 open" id="s-r1">
+<div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;">
+<span>🔵 Round 1 — General Analysis</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Questions</div>
+<div class="round-item"><div class="round-item-main"><strong>1.</strong> Do you think it's possible to "know nothing" in the information age? (Consider the role of <strong>Humility</strong> here.)</div><div class="round-item-personal">★ When was the last time you changed your mind about something important?</div></div>
+<div class="round-item"><div class="round-item-main"><strong>2.</strong> Why is humility considered a foundation for learning? (Consider the role of <strong>Wisdom</strong> here.)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>3.</strong> How does the internet affect our perception of our own knowledge? (Consider the role of <strong>Ignorance</strong> here.)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>4.</strong> Is there a difference between "information" and "wisdom"? (Consider the role of <strong>Ethics</strong> here.)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>5.</strong> Why did Socrates focus so much on questioning others? (Consider the role of <strong>Paradox</strong> here.)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>6.</strong> Can someone be wise without having a formal education? (Consider the role of <strong>Dialogue</strong> here.)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>7.</strong> What are the dangers of thinking you know everything? (Consider the role of <strong>Virtue</strong> here.)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>8.</strong> How can we practice Socratic questioning in our daily lives? (Consider the role of <strong>Logic</strong> here.)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>9.</strong> Does modern society value wisdom or speed more? (Consider the role of <strong>Perspective</strong> here.)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>10.</strong> If you could ask Socrates one question, what would it be? (Consider the role of <strong>Contemplate</strong> here.)</div></div>
+</div>
+</div>
+<div class="round-block lst open" id="s-lst">
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
+<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎓</span><div style="font-weight:600;">Expertise</div></div>
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🔍</span><div style="font-weight:600;">Curiosity</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center;">Which one is more valuable today?</p>
+</div>
+</div>
+<div class="round-block round-2 open" id="s-r2">
+<div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;">
+<span>🟢 Round 2 — Agree or Disagree: The Future</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Debate</div>
+<div class="round-item"><div class="round-item-main"><strong>1.</strong> Is "ignorance bliss", or is knowledge always better? (How does <strong>Humility</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>2.</strong> Should ethics be taught as a mandatory subject in all schools? (How does <strong>Wisdom</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>3.</strong> Is it possible to be a good person without knowing why you are doing good? (How does <strong>Ignorance</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>4.</strong> Does science make philosophy obsolete? (How does <strong>Ethics</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>5.</strong> Should we prioritize logical thinking over emotional intelligence? (How does <strong>Paradox</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>6.</strong> Is there such a thing as "absolute truth"? (How does <strong>Dialogue</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>7.</strong> Can a machine ever be truly wise? (How does <strong>Virtue</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>8.</strong> Is the Socratic method too aggressive for modern conversation? (How does <strong>Logic</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>9.</strong> If everyone followed Socrates' advice, would the world be a better place? (How does <strong>Perspective</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main"><strong>10.</strong> What is the most important "truth" you have discovered in your life? (How does <strong>Contemplate</strong> affect this statement?)</div></div>
+</div>
+</div>
+<div class="mistake-block open" id="s-mistakes">
+<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+<span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+</div>
+<div class="mistake-body" style="display:block;">
+<div class="mistake-item"><span class="mistake-wrong">I am more wise</span><span class="mistake-arrow">→</span><span class="mistake-right">I am wiser</span><span class="mistake-note-text">(Short adjectives)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">Socrates was an expert of questioning</span><span class="mistake-arrow">→</span><span class="mistake-right">Socrates was an expert at questioning</span><span class="mistake-note-text">(Preposition "at")</span></div>
+<div class="mistake-item"><span class="mistake-wrong">The most of people think...</span><span class="mistake-arrow">→</span><span class="mistake-right">Most people think...</span><span class="mistake-note-text">(Generalization)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">If I was him, I would...</span><span class="mistake-arrow">→</span><span class="mistake-right">If I were him, I would...</span><span class="mistake-note-text">(Second conditional)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">He explained me the paradox</span><span class="mistake-arrow">→</span><span class="mistake-right">He explained the paradox to me</span></div>
+</div>
+</div>
+</div>
+</section>
 </main>
-
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
-  </div>
-  <p>© 2026 COSYlanguages — All rights reserved</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
 
-<script src="../../js/data/languages.js"></script>
 <script src="../../js/core/engine.js"></script>
-<script src="../../js/core/i18n.js"></script>
+
 <script src="../../js/core/ui.js"></script>
-<script src="../../js/data/pricing.js"></script>
-<script src="../../js/config.js"></script>
+
+
 </body>
 </html>

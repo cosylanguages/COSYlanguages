@@ -1,106 +1,219 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Find a person with whom you can discuss... — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Finding the Right Person — COSYlanguages</title>
+<link href="../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../css/tokens.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/components.css" rel="stylesheet"/>
+<link href="../../css/layout.css" rel="stylesheet"/>
+<link href="../../css/events.css" rel="stylesheet"/>
 </head>
 <body>
 <nav id="cosy-nav"></nav>
-<main class="container session-page">
-  <nav class="breadcrumb">
-    <a href="../../index.html">Home</a> <span class="sep">/</span>
-    <a href="../index.html">Events</a> <span class="sep">/</span>
-    <a href="./the-greatest-quotes.html">The Greatest Quotes</a> <span class="sep">/</span>
-    <span class="current">Find a person with whom you can discuss...</span>
-  </nav>
-  <a href="./the-greatest-quotes.html" class="back-link">← Back to Club</a>
-  <div class="session-meta-grid">
-    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
-    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
-    <div class="meta-item"><h4>Quote</h4><p>“The main thing in life is to find a person with whom you can discuss the same topic for the hundredth time.”</p></div>
-  </div>
-  <section id="description" style="margin-bottom:3rem;">
-    <p>The beauty of deep connection and enduring conversation.</p>
-  </section>
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Nostalgia</div><div class="vocab-def">longing for the past.</div><div class="vocab-example">I feel nostalgia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Nostalgia', definition:'longing for the past.', example:'I feel nostalgia.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Ambiguity</div><div class="vocab-def">being open to interpretations.</div><div class="vocab-example">The quote has ambiguity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ambiguity', definition:'being open to interpretations.', example:'The quote has ambiguity.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Perspective</div><div class="vocab-def">a point of view.</div><div class="vocab-example">My perspective is different.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'a point of view.', example:'My perspective is different.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Resonate</div><div class="vocab-def">to evoke a feeling.</div><div class="vocab-example">This resonates with me.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Resonate', definition:'to evoke a feeling.', example:'This resonates with me.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Paradox</div><div class="vocab-def">a self-contradiction.</div><div class="vocab-example">It is a paradox.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Paradox', definition:'a self-contradiction.', example:'It is a paradox.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Authenticity</div><div class="vocab-def">being genuine.</div><div class="vocab-example">I value authenticity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Authenticity', definition:'being genuine.', example:'I value authenticity.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Insight</div><div class="vocab-def">a deep understanding.</div><div class="vocab-example">He gave me an insight.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Insight', definition:'a deep understanding.', example:'He gave me an insight.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Abstract</div><div class="vocab-def">not concrete.</div><div class="vocab-example">The idea is abstract.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Abstract', definition:'not concrete.', example:'The idea is abstract.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Wisdom</div><div class="vocab-def">having experience and knowledge.</div><div class="vocab-example">She has great wisdom.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Wisdom', definition:'having experience and knowledge.', example:'She has great wisdom.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Reflection</div><div class="vocab-def">serious thought.</div><div class="vocab-example">I need some reflection.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Reflection', definition:'serious thought.', example:'I need some reflection.'}, this)">Add to Dictionary</button></div>
-    </div>
-  </section>
-  <section id="structure">
-    <h2 class="section-title">🎙️ Discussion Structure</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Intro</div>
-          <ul class="round-questions">
-            <li>What is your initial reaction?</li>
-            <li>Is this relevant today?</li>
-          </ul>
-        </div>
-      </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — Analysis</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Interpretations</div>
-          <div class="round-item"><div class="round-item-main">Discussion point 1 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 2 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 3 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 4 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 5 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 6 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 7 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 8 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 9 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 10 about the topic.</div></div>
-        </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Talk Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Paraphrase the core concept.</p>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Philosophical Application</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Interpretations</div>
-          <div class="round-item"><div class="round-item-main">Dilemma 1 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 2 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 3 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 4 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 5 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 6 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 7 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 8 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 9 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 10 to consider for the future.</div></div>
-        </div>
-      </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
-          <div class="mistake-item"><span class="mistake-wrong">It's depend</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends</span><span class="mistake-note-text">(Structure)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text">(Usage)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">More good</span><span class="mistake-arrow">→</span><span class="mistake-right">Better</span><span class="mistake-note-text">(Grammar)</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
+<header class="session-hero" style="background: linear-gradient(135deg, #993556, #4d1a2b);">
+<div class="club-tag">Mind Matters</div>
+<h1>The Right Person — Finding vs. Becoming</h1>
+<p class="session-date">25 January 2026</p>
+</header>
+<main class="content-container">
+<nav class="cosy-breadcrumbs">
+<a href="../../">Home</a> <span class="sep">/</span>
+<a href="../">Events</a> <span class="sep">/</span>
+<a href="../mind-matters.html">Mind Matters</a> <span class="sep">/</span>
+<span class="current">Finding the Right Person</span>
+</nav>
+<a class="back-link" href="../mind-matters.html">← Back to Club</a>
+<div class="session-meta-grid">
+<div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+<div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+<div class="meta-item"><h4>Level</h4><p>Intermediate (B1) – Advanced (C1)</p></div>
+<div class="meta-item"><h4>Topic</h4><p>Relationships, Personal Growth, and Compatibility</p></div>
+</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+<p>This session explores the common pursuit of finding the "perfect partner" and suggests that a more effective approach may be focusing on becoming the "right person" ourselves. We will discuss the psychology of compatibility and how our own personal development influences the quality of our relationships. Join us as we debate whether the search for a soulmate is a productive goal or a romantic distraction from self-improvement.</p>
+</div>
+<section id="vocabulary">
+<h2 class="section-title">📖 Session Vocabulary</h2>
+<div class="vocab-grid-10">
+<div class="vocab-card">
+<div class="vocab-word">Compatibility</div>
+<div class="vocab-def">a state in which two things are able to exist or occur together without conflict.</div>
+<div class="vocab-example">Shared values are often a better indicator of long-term compatibility than shared hobbies.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Compatibility', definition:'ability to exist together without conflict', example:'Shared values are often a better indicator of long-term compatibility than shared hobbies.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Soulmate</div>
+<div class="vocab-def">a person ideally suited to another as a close friend or romantic partner.</div>
+<div class="vocab-example">The concept of a 'soulmate' is a popular theme in romantic literature and movies.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Soulmate', definition:'person ideally suited to another', example:'The concept of a \'soulmate\' is a popular theme in romantic literature and movies.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Authenticity</div>
+<div class="vocab-def">the quality of being authentic or genuine.</div>
+<div class="vocab-example">Finding the right person requires you to show up with total authenticity from the very first date.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Authenticity', definition:'being genuine or real', example:'Finding the right person requires you to show up with total authenticity from the very first date.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Perspective</div>
+<div class="vocab-def">a particular way of regarding something; a point of view.</div>
+<div class="vocab-example">Gaining a mature perspective on past relationships can help you avoid repeating the same mistakes.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'point of view', example:'Gaining a mature perspective on past relationships can help you avoid repeating the same mistakes.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Development</div>
+<div class="vocab-def">the process of developing or being developed.</div>
+<div class="vocab-example">Personal development is a lifelong journey that doesn't end when you find a partner.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Development', definition:'process of growing or improving', example:'Personal development is a lifelong journey that doesn\'t end when you find a partner.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Expectation</div>
+<div class="vocab-def">a strong belief that something will happen or be the case.</div>
+<div class="vocab-example">Unrealistic expectation is the leading cause of disappointment in modern dating.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Expectation', definition:'belief about what should happen', example:'Unrealistic expectation is the leading cause of disappointment in modern dating.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Resilience</div>
+<div class="vocab-def">the capacity to recover quickly from difficulties.</div>
+<div class="vocab-example">Building emotional resilience helps you handle the inevitable rejections of the dating world.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Resilience', definition:'capacity to recover quickly', example:'Building emotional resilience helps you handle the inevitable rejections of the dating world.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Validation</div>
+<div class="vocab-def">recognition or affirmation that a person or their feelings are valid.</div>
+<div class="vocab-example">We shouldn't look for external validation from a partner to feel good about ourselves.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Validation', definition:'affirmation of worth/feelings', example:'We shouldn\'t look for external validation from a partner to feel good about ourselves.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Vulnerability</div>
+<div class="vocab-def">the state of being exposed to the possibility of being harmed.</div>
+<div class="vocab-example">True connection is built through a shared sense of emotional vulnerability.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Vulnerability', definition:'state of being exposed to harm', example:'True connection is built through a shared sense of emotional vulnerability.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Reciprocate</div>
+<div class="vocab-def">respond to (a gesture or action) by making a corresponding one.</div>
+<div class="vocab-example">A healthy relationship requires both partners to reciprocate effort and affection.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Reciprocate', definition:'respond with similar action/feeling', example:'A healthy relationship requires both partners to reciprocate effort and affection.'}, this)">Add to Dictionary</button>
+</div>
+</div>
+</section>
+<section id="structure">
+<h2 class="section-title">🎙️ Discussion Structure</h2>
+<div class="rounds-container">
+<div class="round-block warm-up open" id="s-warm">
+<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
+<span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="vim-instruction">Think about your definition of "The Right Person."</div>
+<ul class="round-questions">
+<li>Is there only one "right person" for everyone in the world?</li>
+<li>What is the first quality you look for in a new friend or partner?</li>
+</ul>
+</div>
+</div>
+<div class="round-block round-1 open" id="s-r1">
+<div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;">
+<span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Questions</div>
+<div class="round-item">
+<div class="round-item-main">How much does <strong>compatibility</strong> in small daily habits matter compared to big life goals?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Do you believe that the search for a <strong>soulmate</strong> is actually harmful to our real-world happiness?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why is it so much harder to maintain your <strong>authenticity</strong> when you really like someone?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How does your <strong>perspective</strong> on what makes a "good partner" change as you gain more life experience?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Should personal <strong>development</strong> be a solo journey or something you do with a partner?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">What is the most common unrealistic <strong>expectation</strong> people have when they start dating?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How can building emotional <strong>resilience</strong> help you survive a series of bad first dates?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why do we often seek <strong>validation</strong> from strangers on dating apps instead of focusing on ourselves?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">At what point in a new relationship should you start showing your true <strong>vulnerability</strong>?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Is it worth staying with someone who doesn't <strong>reciprocate</strong> your level of emotional intensity?</div>
+</div>
+</div>
+</div>
+<div class="round-block lst open" id="s-lst">
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
+<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🔍</span><div style="font-weight:600;">Searching</div></div>
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🧘</span><div style="font-weight:600;">Improving</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center;">Which focus is more likely to lead to a happy long-term relationship?</p>
+</div>
+</div>
+<div class="round-block round-2 open" id="s-r2">
+<div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;">
+<span>🟢 Round 2 — Conditional Practice (Deep Dive)</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Hypotheticals</div>
+<div class="round-item"><div class="round-item-main">If <strong>compatibility</strong> could be calculated by a computer, would you trust the result?</div></div>
+<div class="round-item"><div class="round-item-main">If you found your <strong>soulmate</strong> tomorrow, what is the first thing you would say to them?</div></div>
+<div class="round-item"><div class="round-item-main">If total <strong>authenticity</strong> was required on all dating profiles, would they be more or less popular?</div></div>
+<div class="round-item"><div class="round-item-main">If you could see your life from the <strong>perspective</strong> of your future self, what relationship advice would you give?</div></div>
+<div class="round-item"><div class="round-item-main">If personal <strong>development</strong> was your only goal for a year, how would your social life change?</div></div>
+<div class="round-item"><div class="round-item-main">If every <strong>expectation</strong> you had was met, would you still find something to complain about?</div></div>
+<div class="round-item"><div class="round-item-main">If <strong>resilience</strong> was a physical object, what would it look like in your mind?</div></div>
+<div class="round-item"><div class="round-item-main">If you stopped seeking <strong>validation</strong> from others, whose opinion would still matter to you?</div></div>
+<div class="round-item"><div class="round-item-main">If <strong>vulnerability</strong> was a crime, would you be a law-abiding citizen or a rebel?</div></div>
+<div class="round-item"><div class="round-item-main">If you had to <strong>reciprocate</strong> every single kindness shown to you, would you have any free time left?</div></div>
+</div>
+</div>
+<div class="mistake-block open" id="s-mistakes">
+<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+<span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+</div>
+<div class="mistake-body" style="display:block;">
+<div class="mistake-item"><span class="mistake-wrong">He is the right person for me since 2015</span><span class="mistake-arrow">→</span><span class="mistake-right">He has been the right person for me since 2015</span><span class="mistake-note-text">(Present Perfect + Duration)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">It is a case of high compatibility</span><span class="mistake-arrow">→</span><span class="mistake-right">It is a case of high compatibility</span><span class="mistake-note-text">(Spelling: compatibility)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I am interesting in personal growth</span><span class="mistake-arrow">→</span><span class="mistake-right">I am interested in personal growth</span><span class="mistake-note-text">(-ed vs -ing)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">It makes me feeling happy</span><span class="mistake-arrow">→</span><span class="mistake-right">It makes me feel happy</span><span class="mistake-note-text">(Make + object + bare infinitive)</span></div>
+</div>
+</div>
+</div>
+</section>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html">Home</a>
-    <a href="../../practice/index.html">Practice</a>
-    <a href="../../games/index.html">Games</a>
-    <a href="../index.html">Events</a>
-  </div>
-  <p>© 2026 COSYlanguages — All rights reserved</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
+
 <script src="../../js/core/engine.js"></script>
+
 <script src="../../js/core/ui.js"></script>
+
+
 </body>
 </html>

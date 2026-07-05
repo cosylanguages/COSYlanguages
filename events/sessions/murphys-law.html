@@ -1,106 +1,219 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Murphy's Law — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
+<link href="../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../css/tokens.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/components.css" rel="stylesheet"/>
+<link href="../../css/layout.css" rel="stylesheet"/>
+<link href="../../css/events.css" rel="stylesheet"/>
 </head>
 <body>
 <nav id="cosy-nav"></nav>
-<main class="container session-page">
-  <nav class="breadcrumb">
-    <a href="../../index.html">Home</a> <span class="sep">/</span>
-    <a href="../index.html">Events</a> <span class="sep">/</span>
-    <a href="./mind-matters.html">Mind Matters</a> <span class="sep">/</span>
-    <span class="current">Murphy's Law</span>
-  </nav>
-  <a href="./mind-matters.html" class="back-link">← Back to Club</a>
-  <div class="session-meta-grid">
-    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
-    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
-    <div class="meta-item"><h4>Topic</h4><p>Murphy's Law: "Anything that can go wrong will go wrong."</p></div>
-  </div>
-  <section id="description" style="margin-bottom:3rem;">
-    <p>Exploring pessimism, probability, and the famous adage.</p>
-  </section>
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Empathy</div><div class="vocab-def">understanding others' feelings.</div><div class="vocab-example">Empathy is crucial.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Empathy', definition:'understanding others' feelings.', example:'Empathy is crucial.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Conscious</div><div class="vocab-def">aware of surroundings.</div><div class="vocab-example">He was conscious of the change.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Conscious', definition:'aware of surroundings.', example:'He was conscious of the change.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Detachment</div><div class="vocab-def">state of being objective.</div><div class="vocab-example">I feel a certain detachment.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Detachment', definition:'state of being objective.', example:'I feel a certain detachment.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Vulnerability</div><div class="vocab-def">being open to hurt.</div><div class="vocab-example">Vulnerability is strength.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Vulnerability', definition:'being open to hurt.', example:'Vulnerability is strength.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Projection</div><div class="vocab-def">attributing traits to others.</div><div class="vocab-example">It was a psychological projection.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Projection', definition:'attributing traits to others.', example:'It was a psychological projection.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Subconscious</div><div class="vocab-def">part of mind not aware.</div><div class="vocab-example">The dream came from the subconscious.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Subconscious', definition:'part of mind not aware.', example:'The dream came from the subconscious.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Mindset</div><div class="vocab-def">established set of attitudes.</div><div class="vocab-example">Keep a growth mindset.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Mindset', definition:'established set of attitudes.', example:'Keep a growth mindset.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Bias</div><div class="vocab-def">prejudice in favor of something.</div><div class="vocab-example">Check your internal bias.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Bias', definition:'prejudice in favor of something.', example:'Check your internal bias.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Intuition</div><div class="vocab-def">ability to understand instinctively.</div><div class="vocab-example">Trust your intuition.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Intuition', definition:'ability to understand instinctively.', example:'Trust your intuition.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Cognitive</div><div class="vocab-def">relating to mental processes.</div><div class="vocab-example">Cognitive load is high.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Cognitive', definition:'relating to mental processes.', example:'Cognitive load is high.'}, this)">Add to Dictionary</button></div>
-    </div>
-  </section>
-  <section id="structure">
-    <h2 class="section-title">🎙️ Discussion Structure</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Intro</div>
-          <ul class="round-questions">
-            <li>What is your initial reaction?</li>
-            <li>Is this relevant today?</li>
-          </ul>
-        </div>
-      </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">General Discussion</div>
-          <div class="round-item"><div class="round-item-main">Discussion point 1 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 2 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 3 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 4 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 5 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 6 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 7 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 8 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 9 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 10 about the topic.</div></div>
-        </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Talk Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Paraphrase the core concept.</p>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Conditional Practice</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">General Discussion</div>
-          <div class="round-item"><div class="round-item-main">Dilemma 1 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 2 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 3 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 4 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 5 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 6 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 7 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 8 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 9 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 10 to consider for the future.</div></div>
-        </div>
-      </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
-          <div class="mistake-item"><span class="mistake-wrong">It's depend</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends</span><span class="mistake-note-text">(Structure)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text">(Usage)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">More good</span><span class="mistake-arrow">→</span><span class="mistake-right">Better</span><span class="mistake-note-text">(Grammar)</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
+<header class="session-hero" style="background: linear-gradient(135deg, #993556, #4d1a2b);">
+<div class="club-tag">Mind Matters</div>
+<h1>Murphy's Law — Expecting the Unexpected</h1>
+<p class="session-date">22 September 2025</p>
+</header>
+<main class="content-container">
+<nav class="cosy-breadcrumbs">
+<a href="../../">Home</a> <span class="sep">/</span>
+<a href="../">Events</a> <span class="sep">/</span>
+<a href="../mind-matters.html">Mind Matters</a> <span class="sep">/</span>
+<span class="current">Murphy's Law</span>
+</nav>
+<a class="back-link" href="../mind-matters.html">← Back to Club</a>
+<div class="session-meta-grid">
+<div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+<div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+<div class="meta-item"><h4>Level</h4><p>Intermediate (B1) – Advanced (C1)</p></div>
+<div class="meta-item"><h4>Topic</h4><p>Pessimism, Probability, and Preparation</p></div>
+</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+<p>Murphy's Law states that anything that can go wrong will go wrong. This session explores the psychological impact of this adage and how it shapes our approach to risk and planning. We will discuss whether this mindset is a healthy form of realism or a self-fulfilling prophecy of pessimism.</p>
+</div>
+<section id="vocabulary">
+<h2 class="section-title">📖 Session Vocabulary</h2>
+<div class="vocab-grid-10">
+<div class="vocab-card">
+<div class="vocab-word">Pessimism</div>
+<div class="vocab-def">a tendency to see the worst aspect of things or believe that the worst will happen.</div>
+<div class="vocab-example">His constant pessimism makes it difficult for the team to stay motivated.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Pessimism', definition:'seeing the worst in things', example:'His constant pessimism makes it difficult for the team to stay motivated.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Probability</div>
+<div class="vocab-def">the extent to which something is probable; the likelihood of something happening.</div>
+<div class="vocab-example">There is a high probability of rain during the outdoor event tomorrow.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Probability', definition:'likelihood of happening', example:'There is a high probability of rain during the outdoor event tomorrow.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Precaution</div>
+<div class="vocab-def">a measure taken in advance to prevent something dangerous or unpleasant from happening.</div>
+<div class="vocab-example">As a precaution, we should back up all our files before the system update.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Precaution', definition:'advance measure for safety', example:'As a precaution, we should back up all our files before the system update.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Contingency</div>
+<div class="vocab-def">a future event or circumstance which is possible but cannot be predicted with certainty.</div>
+<div class="vocab-example">The project manager developed a contingency plan in case the main supplier failed.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Contingency', definition:'unpredictable future event', example:'The project manager developed a contingency plan in case the main supplier failed.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Inevitable</div>
+<div class="vocab-def">certain to happen; unavoidable.</div>
+<div class="vocab-example">Change is inevitable in any growing organization.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Inevitable', definition:'unavoidable', example:'Change is inevitable in any growing organization.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Fatalism</div>
+<div class="vocab-def">the belief that all events are predetermined and therefore inevitable.</div>
+<div class="vocab-example">His fatalism led him to believe that no matter what he did, he would fail.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Fatalism', definition:'belief that events are predetermined', example:'His fatalism led him to believe that no matter what he did, he would fail.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Resilience</div>
+<div class="vocab-def">the capacity to recover quickly from difficulties; toughness.</div>
+<div class="vocab-example">She showed great resilience after her business faced a major setback.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Resilience', definition:'capacity to recover quickly', example:'She showed great resilience after her business faced a major setback.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Complication</div>
+<div class="vocab-def">a circumstance that complicates something; a difficulty.</div>
+<div class="vocab-example">A sudden complication in the negotiations delayed the final agreement.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Complication', definition:'circumstance that adds difficulty', example:'A sudden complication in the negotiations delayed the final agreement.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Mishap</div>
+<div class="vocab-def">an unlucky accident.</div>
+<div class="vocab-example">Despite a small mishap at the beginning, the presentation was a success.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Mishap', definition:'unlucky accident', example:'Despite a small mishap at the beginning, the presentation was a success.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Anticipate</div>
+<div class="vocab-def">regard as probable; expect or predict.</div>
+<div class="vocab-example">It is important to anticipate the needs of your clients before they ask.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Anticipate', definition:'expect or predict', example:'It is important to anticipate the needs of your clients before they ask.'}, this)">Add to Dictionary</button>
+</div>
+</div>
+</section>
+<section id="structure">
+<h2 class="section-title">🎙️ Discussion Structure</h2>
+<div class="rounds-container">
+<div class="round-block warm-up open" id="s-warm">
+<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
+<span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="vim-instruction">Think of a time when everything seemed to go wrong at once.</div>
+<ul class="round-questions">
+<li>Do you usually expect the best or prepare for the worst?</li>
+<li>What is the "Murphy's Law" of your specific profession?</li>
+</ul>
+</div>
+</div>
+<div class="round-block round-1 open" id="s-r1">
+<div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;">
+<span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Questions</div>
+<div class="round-item">
+<div class="round-item-main">How can <strong>pessimism</strong> actually be a useful tool for engineers and project managers?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why do humans often ignore the statistical <strong>probability</strong> of success and focus on failure?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">What is one <strong>precaution</strong> you always take before starting a long journey?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How does having a <strong>contingency</strong> plan change your confidence level during a presentation?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Do you believe that some failures are <strong>inevitable</strong> regardless of how much we prepare?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Is there a difference between being a realist and falling into the trap of <strong>fatalism</strong>?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How can we build emotional <strong>resilience</strong> to deal with the "Murphy's Law" moments of life?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">What was the most unexpected <strong>complication</strong> you faced in your career so far?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Can a minor <strong>mishap</strong> at the start of a project actually lead to a better final result?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How do you learn to <strong>anticipate</strong> problems without becoming constantly anxious?</div>
+</div>
+</div>
+</div>
+<div class="round-block lst open" id="s-lst">
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
+<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🧘</span><div style="font-weight:600;">Calm Realism</div></div>
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🏃</span><div style="font-weight:600;">Active Prevention</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center;">Which approach is more effective when facing high-risk situations?</p>
+</div>
+</div>
+<div class="round-block round-2 open" id="s-r2">
+<div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;">
+<span>🟢 Round 2 — Conditional Practice (Deep Dive)</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Hypotheticals</div>
+<div class="round-item"><div class="round-item-main">If everyone lived with extreme <strong>pessimism</strong>, would any new inventions ever be created?</div></div>
+<div class="round-item"><div class="round-item-main">If you knew the exact <strong>probability</strong> of a failure, would you still take the risk?</div></div>
+<div class="round-item"><div class="round-item-main">If you forgot to take a vital <strong>precaution</strong>, how would you handle the consequences?</div></div>
+<div class="round-item"><div class="round-item-main">If no <strong>contingency</strong> was possible, would you still proceed with a dangerous mission?</div></div>
+<div class="round-item"><div class="round-item-main">If failure were <strong>inevitable</strong>, would there be any point in trying to succeed?</div></div>
+<div class="round-item"><div class="round-item-main">If <strong>fatalism</strong> were true, would we still be responsible for our own mistakes?</div></div>
+<div class="round-item"><div class="round-item-main">If you had no <strong>resilience</strong>, how would you cope with a single bad day at work?</div></div>
+<div class="round-item"><div class="round-item-main">If a <strong>complication</strong> arose right now, would you be able to solve it immediately?</div></div>
+<div class="round-item"><div class="round-item-main">If a <strong>mishap</strong> occurred during your wedding, would you laugh or cry?</div></div>
+<div class="round-item"><div class="round-item-main">If you could <strong>anticipate</strong> every single problem in your life, would you actually want to know?</div></div>
+</div>
+</div>
+<div class="mistake-block open" id="s-mistakes">
+<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+<span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+</div>
+<div class="mistake-body" style="display:block;">
+<div class="mistake-item"><span class="mistake-wrong">If it will go wrong, it will go wrong</span><span class="mistake-arrow">→</span><span class="mistake-right">If it goes wrong, it will go wrong</span><span class="mistake-note-text">(First Conditional)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I am not used to deal with mishaps</span><span class="mistake-arrow">→</span><span class="mistake-right">I am not used to dealing with mishaps</span><span class="mistake-note-text">(Used to + -ing)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">It was a very bad complication</span><span class="mistake-arrow">→</span><span class="mistake-right">It was a serious/severe complication</span><span class="mistake-note-text">(Collocations)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I should of prepared better</span><span class="mistake-arrow">→</span><span class="mistake-right">I should have prepared better</span><span class="mistake-note-text">(Modal verbs in the past)</span></div>
+</div>
+</div>
+</div>
+</section>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html">Home</a>
-    <a href="../../practice/index.html">Practice</a>
-    <a href="../../games/index.html">Games</a>
-    <a href="../index.html">Events</a>
-  </div>
-  <p>© 2026 COSYlanguages — All rights reserved</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
+
 <script src="../../js/core/engine.js"></script>
+
 <script src="../../js/core/ui.js"></script>
+
+
 </body>
 </html>

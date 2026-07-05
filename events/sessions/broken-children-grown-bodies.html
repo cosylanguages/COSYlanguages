@@ -1,106 +1,219 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>So many broken children... — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Broken Children — COSYlanguages</title>
+<link href="../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../css/tokens.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/components.css" rel="stylesheet"/>
+<link href="../../css/layout.css" rel="stylesheet"/>
+<link href="../../css/events.css" rel="stylesheet"/>
 </head>
 <body>
 <nav id="cosy-nav"></nav>
-<main class="container session-page">
-  <nav class="breadcrumb">
-    <a href="../../index.html">Home</a> <span class="sep">/</span>
-    <a href="../index.html">Events</a> <span class="sep">/</span>
-    <a href="./the-greatest-quotes.html">The Greatest Quotes</a> <span class="sep">/</span>
-    <span class="current">So many broken children...</span>
-  </nav>
-  <a href="./the-greatest-quotes.html" class="back-link">← Back to Club</a>
-  <div class="session-meta-grid">
-    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
-    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
-    <div class="meta-item"><h4>Quote</h4><p>“So many broken children living in grown bodies mimicking adult lives.” (Ijeoma Umebinyuo)</p></div>
-  </div>
-  <section id="description" style="margin-bottom:3rem;">
-    <p>Exploring childhood trauma and the performance of adulthood.</p>
-  </section>
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Nostalgia</div><div class="vocab-def">longing for the past.</div><div class="vocab-example">I feel nostalgia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Nostalgia', definition:'longing for the past.', example:'I feel nostalgia.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Ambiguity</div><div class="vocab-def">being open to interpretations.</div><div class="vocab-example">The quote has ambiguity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ambiguity', definition:'being open to interpretations.', example:'The quote has ambiguity.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Perspective</div><div class="vocab-def">a point of view.</div><div class="vocab-example">My perspective is different.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'a point of view.', example:'My perspective is different.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Resonate</div><div class="vocab-def">to evoke a feeling.</div><div class="vocab-example">This resonates with me.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Resonate', definition:'to evoke a feeling.', example:'This resonates with me.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Paradox</div><div class="vocab-def">a self-contradiction.</div><div class="vocab-example">It is a paradox.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Paradox', definition:'a self-contradiction.', example:'It is a paradox.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Authenticity</div><div class="vocab-def">being genuine.</div><div class="vocab-example">I value authenticity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Authenticity', definition:'being genuine.', example:'I value authenticity.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Insight</div><div class="vocab-def">a deep understanding.</div><div class="vocab-example">He gave me an insight.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Insight', definition:'a deep understanding.', example:'He gave me an insight.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Abstract</div><div class="vocab-def">not concrete.</div><div class="vocab-example">The idea is abstract.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Abstract', definition:'not concrete.', example:'The idea is abstract.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Wisdom</div><div class="vocab-def">having experience and knowledge.</div><div class="vocab-example">She has great wisdom.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Wisdom', definition:'having experience and knowledge.', example:'She has great wisdom.'}, this)">Add to Dictionary</button></div><div class="vocab-card"><div class="vocab-word">Reflection</div><div class="vocab-def">serious thought.</div><div class="vocab-example">I need some reflection.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Reflection', definition:'serious thought.', example:'I need some reflection.'}, this)">Add to Dictionary</button></div>
-    </div>
-  </section>
-  <section id="structure">
-    <h2 class="section-title">🎙️ Discussion Structure</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Intro</div>
-          <ul class="round-questions">
-            <li>What is your initial reaction?</li>
-            <li>Is this relevant today?</li>
-          </ul>
-        </div>
-      </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — Analysis</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Interpretations</div>
-          <div class="round-item"><div class="round-item-main">Discussion point 1 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 2 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 3 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 4 about the topic.</div><div class="round-item-personal">★ Have you seen this in life?</div></div><div class="round-item"><div class="round-item-main">Discussion point 5 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 6 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 7 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 8 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 9 about the topic.</div></div><div class="round-item"><div class="round-item-main">Discussion point 10 about the topic.</div></div>
-        </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Talk Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Paraphrase the core concept.</p>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Philosophical Application</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Interpretations</div>
-          <div class="round-item"><div class="round-item-main">Dilemma 1 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 2 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 3 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 4 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 5 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 6 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 7 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 8 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 9 to consider for the future.</div></div><div class="round-item"><div class="round-item-main">Dilemma 10 to consider for the future.</div></div>
-        </div>
-      </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
-          <div class="mistake-item"><span class="mistake-wrong">It's depend</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends</span><span class="mistake-note-text">(Structure)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text">(Usage)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">More good</span><span class="mistake-arrow">→</span><span class="mistake-right">Better</span><span class="mistake-note-text">(Grammar)</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
+<header class="session-hero" style="background: linear-gradient(135deg, #993556, #4d1a2b);">
+<div class="club-tag">Mind Matters</div>
+<h1>Broken Children — In Grown Bodies</h1>
+<p class="session-date">21 December 2025</p>
+</header>
+<main class="content-container">
+<nav class="cosy-breadcrumbs">
+<a href="../../">Home</a> <span class="sep">/</span>
+<a href="../">Events</a> <span class="sep">/</span>
+<a href="../mind-matters.html">Mind Matters</a> <span class="sep">/</span>
+<span class="current">Broken Children</span>
+</nav>
+<a class="back-link" href="../mind-matters.html">← Back to Club</a>
+<div class="session-meta-grid">
+<div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+<div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+<div class="meta-item"><h4>Level</h4><p>Intermediate (B1) – Advanced (C1)</p></div>
+<div class="meta-item"><h4>Topic</h4><p>Childhood Trauma and Adult Behavior</p></div>
+</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+<p>This session explores the profound idea that many adult behaviors and emotional reactions are actually manifestations of unresolved childhood wounds. We will discuss the psychological concept of the "inner child" and how recognizing our past "brokenness" can lead to more authentic adult lives. Join us as we examine the path from childhood trauma to adult resilience and self-awareness.</p>
+</div>
+<section id="vocabulary">
+<h2 class="section-title">📖 Session Vocabulary</h2>
+<div class="vocab-grid-10">
+<div class="vocab-card">
+<div class="vocab-word">Unresolved</div>
+<div class="vocab-def">not settled or find a solution to.</div>
+<div class="vocab-example">Many adult anxieties are caused by unresolved conflicts from early childhood.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Unresolved', definition:'not settled/solved', example:'Many adult anxieties are caused by unresolved conflicts from early childhood.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Manifestation</div>
+<div class="vocab-def">an event, action, or object that clearly shows or embodies something.</div>
+<div class="vocab-example">Sudden anger can be a physical manifestation of long-term emotional stress.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Manifestation', definition:'clear embodiment of something', example:'Sudden anger can be a physical manifestation of long-term emotional stress.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Authenticity</div>
+<div class="vocab-def">the quality of being authentic or genuine.</div>
+<div class="vocab-example">Living with authenticity means accepting both your strengths and your past wounds.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Authenticity', definition:'being genuine or real', example:'Living with authenticity means accepting both your strengths and your past wounds.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Vulnerability</div>
+<div class="vocab-def">the state of being exposed to the possibility of being harmed.</div>
+<div class="vocab-example">Showing vulnerability in a safe environment is the first step toward emotional healing.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Vulnerability', definition:'state of being exposed to harm', example:'Showing vulnerability in a safe environment is the first step toward emotional healing.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Resilience</div>
+<div class="vocab-def">the capacity to recover quickly from difficulties.</div>
+<div class="vocab-example">He showed great resilience in overcoming the challenges of his difficult upbringing.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Resilience', definition:'capacity to recover quickly', example:'He showed great resilience in overcoming the challenges of his difficult upbringing.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Subconscious</div>
+<div class="vocab-def">concerning the part of the mind of which one is not fully aware.</div>
+<div class="vocab-example">Our subconscious patterns often dictate how we react to criticism from others.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Subconscious', definition:'part of mind not fully aware', example:'Our subconscious patterns often dictate how we react to criticism from others.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Introspection</div>
+<div class="vocab-def">the examination or observation of one's own mental and emotional processes.</div>
+<div class="vocab-example">Deep introspection is required to identify the root cause of certain adult habits.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Introspection', definition:'examining one\'s own mental processes', example:'Deep introspection is required to identify the root cause of certain adult habits.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Cognitive</div>
+<div class="vocab-def">relating to the mental action or process of acquiring knowledge.</div>
+<div class="vocab-example">Cognitive behavioral therapy helps people reframe their negative childhood memories.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Cognitive', definition:'relating to mental processes', example:'Cognitive behavioral therapy helps people reframe their negative childhood memories.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Projection</div>
+<div class="vocab-def">the unconscious transfer of one's own desires or emotions to another person.</div>
+<div class="vocab-example">Anger toward a colleague is often a projection of frustration with oneself.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Projection', definition:'unconscious transfer of emotions', example:'Anger toward a colleague is often a projection of frustration with oneself.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Perspective</div>
+<div class="vocab-def">a particular way of regarding something; a point of view.</div>
+<div class="vocab-example">Gaining a mature perspective on your past can help you forgive your parents' mistakes.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'point of view', example:'Gaining a mature perspective on your past can help you forgive your parents\' mistakes.'}, this)">Add to Dictionary</button>
+</div>
+</div>
+</section>
+<section id="structure">
+<h2 class="section-title">🎙️ Discussion Structure</h2>
+<div class="rounds-container">
+<div class="round-block warm-up open" id="s-warm">
+<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
+<span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="vim-instruction">Think about your typical reaction to stress.</div>
+<ul class="round-questions">
+<li>Do you ever feel like you "become a child" when you are very angry or tired?</li>
+<li>What is one childhood habit that you still have as an adult?</li>
+</ul>
+</div>
+</div>
+<div class="round-block round-1 open" id="s-r1">
+<div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;">
+<span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Questions</div>
+<div class="round-item">
+<div class="round-item-main">How do <strong>unresolved</strong> childhood fears often reappear during high-pressure work meetings?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Is "people-pleasing" a common <strong>manifestation</strong> of a child's need for safety in an unstable home?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why is it so difficult to maintain your <strong>authenticity</strong> when interacting with your own parents as an adult?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Can showing emotional <strong>vulnerability</strong> to a partner help heal old wounds from the past?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">What role does family support play in building a child's natural <strong>resilience</strong> against future trauma?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How do <strong>subconscious</strong> memories of childhood criticism affect our adult self-esteem?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why is regular <strong>introspection</strong> necessary to break the cycle of generational habits?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How can we use <strong>cognitive</strong> tools to reframe our perception of ourselves and our history?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Have you ever noticed your own <strong>projection</strong> of childhood anger onto a completely innocent person?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How does gaining a broader <strong>perspective</strong> on your parents' own struggles help you find peace?</div>
+</div>
+</div>
+</div>
+<div class="round-block lst open" id="s-lst">
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
+<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🧒</span><div style="font-weight:600;">The Inner Child</div></div>
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🕴️</span><div style="font-weight:600;">The Professional Adult</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center;">Which one is "in control" during a difficult emotional argument?</p>
+</div>
+</div>
+<div class="round-block round-2 open" id="s-r2">
+<div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;">
+<span>🟢 Round 2 — Conditional Practice (Deep Dive)</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Hypotheticals</div>
+<div class="round-item"><div class="round-item-main">If you could settle one <strong>unresolved</strong> issue from your teenage years today, would you do it?</div></div>
+<div class="round-item"><div class="round-item-main">If every physical <strong>manifestation</strong> of stress disappeared, would we still know when we're unhappy?</div></div>
+<div class="round-item"><div class="round-item-main">If total <strong>authenticity</strong> was a requirement for every job, would anyone still be employed?</div></div>
+<div class="round-item"><div class="round-item-main">If <strong>vulnerability</strong> was taught in schools as a core skill, would the next generation be happier?</div></div>
+<div class="round-item"><div class="round-item-main">If human <strong>resilience</strong> had a limit, would we be more careful about how we treat children?</div></div>
+<div class="round-item"><div class="round-item-main">If your <strong>subconscious</strong> mind could speak to you in clear sentences, what would it say right now?</div></div>
+<div class="round-item"><div class="round-item-main">If <strong>introspection</strong> was the only way to earn a promotion, would you be at the top of your field?</div></div>
+<div class="round-item"><div class="round-item-main">If our <strong>cognitive</strong> biases were removed overnight, would we still recognize our own personalities?</div></div>
+<div class="round-item"><div class="round-item-main">If you stopped every <strong>projection</strong> of your own feelings, how would your view of others change?</div></div>
+<div class="round-item"><div class="round-item-main">If you lost your current <strong>perspective</strong> on life, would you revert to your childhood self?</div></div>
+</div>
+</div>
+<div class="mistake-block open" id="s-mistakes">
+<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+<span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+</div>
+<div class="mistake-body" style="display:block;">
+<div class="mistake-item"><span class="mistake-wrong">I am same like my father</span><span class="mistake-arrow">→</span><span class="mistake-right">I am just like my father / I am the same as my father</span><span class="mistake-note-text">(Comparison structures)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">It makes me feeling small</span><span class="mistake-arrow">→</span><span class="mistake-right">It makes me feel small</span><span class="mistake-note-text">(Make + object + bare infinitive)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I'm thinking to start therapy</span><span class="mistake-arrow">→</span><span class="mistake-right">I'm thinking of/about starting therapy</span><span class="mistake-note-text">(Think of/about + -ing)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I have many unresolved problems</span><span class="mistake-arrow">→</span><span class="mistake-right">I have a lot of unresolved problems / many unresolved problems</span><span class="mistake-note-text">(Many vs A lot of)</span></div>
+</div>
+</div>
+</div>
+</section>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html">Home</a>
-    <a href="../../practice/index.html">Practice</a>
-    <a href="../../games/index.html">Games</a>
-    <a href="../index.html">Events</a>
-  </div>
-  <p>© 2026 COSYlanguages — All rights reserved</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
+
 <script src="../../js/core/engine.js"></script>
+
 <script src="../../js/core/ui.js"></script>
+
+
 </body>
 </html>
