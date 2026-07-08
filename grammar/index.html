@@ -70,8 +70,8 @@ const FAMILIES = {
 async function loadGrammarData(lang) {
   const family = FAMILIES[lang];
   if (!family) return;
-  const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
-  const levelToDir = { "starter": "A1", "elementary": "A2", "intermediate": "B1", "upper-intermediate": "B2", "advanced": "C1", "proficiency": "C2" };
+  const levels = ["starter", "elementary", "intermediate", "upper_intermediate", "advanced", "proficiency"];
+  const levelToDir = { "starter": "A1", "elementary": "A2", "intermediate": "B1", "upper_intermediate": "B2", "advanced": "C1", "proficiency": "C2" };
   const promises = levels.map(lv => {
     return new Promise((resolve) => {
       const s = document.createElement("script");
@@ -96,8 +96,8 @@ async function loadGrammarData(lang) {
 async function loadNounData(lang) {
   const family = FAMILIES[lang];
   if (!family) return;
-  const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
-  const levelToDir = { "starter": "A1", "elementary": "A2", "intermediate": "B1", "upper-intermediate": "B2", "advanced": "C1", "proficiency": "C2" };
+  const levels = ["starter", "elementary", "intermediate", "upper_intermediate", "advanced", "proficiency"];
+  const levelToDir = { "starter": "A1", "elementary": "A2", "intermediate": "B1", "upper_intermediate": "B2", "advanced": "C1", "proficiency": "C2" };
   const files = ["vocabulary.js", "adjectives.js"];
   const promises = [];
 
@@ -153,11 +153,11 @@ async function setLang(lang) {
   document.querySelectorAll('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === lang));
 
   const verbs = window.verbsData?.[lang] || [];
-  const nouns = (window.vocabularyData?.[lang] || []).filter(v => v.form === 'noun');
-  const adjectives = (window.vocabularyData?.[lang] || []).filter(v => v.form === 'adjective');
+  const nouns = (window.vocabularyData?.[lang] || []).filter(v => v && v.word && v.form === 'noun');
+  const adjectives = (window.vocabularyData?.[lang] || []).filter(v => v && v.word && v.form === 'adjective');
 
   const vLevels = {};
-  verbs.forEach(v => {
+  verbs.forEach(v => { if (!v || !v.word) return;
     const lv = v.level || 'starter';
     if (!vLevels[lv]) vLevels[lv] = [];
     vLevels[lv].push(v);
@@ -178,14 +178,14 @@ async function setLang(lang) {
   });
 
   let sidebarHtml = "";
-  const levelOrder = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
+  const levelOrder = ["starter", "elementary", "intermediate", "upper_intermediate", "advanced", "proficiency"];
 
   levelOrder.forEach(lv => {
       if (vLevels[lv]) {
           sidebarHtml += `
             <div class="sidebar-section">
               <div class="sidebar-label">Verbs: ${lv.toUpperCase()}</div>
-              ${vLevels[lv].map(v => `<a class="sidebar-item" href="#verb-${v.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.word}</a>`).join('')}
+              ${vLevels[lv].map(v => `<a class="sidebar-item" href="#verb-${(v.word || "").replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.word}</a>`).join('')}
             </div>`;
       }
   });
@@ -194,7 +194,7 @@ async function setLang(lang) {
           sidebarHtml += `
             <div class="sidebar-section">
               <div class="sidebar-label">Nouns: ${lv.toUpperCase()}</div>
-              ${nLevels[lv].map(n => `<a class="sidebar-item" href="#noun-${n.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${n.word}</a>`).join('')}
+              ${nLevels[lv].map(n => `<a class="sidebar-item" href="#noun-${(n.word || "").replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${n.word}</a>`).join('')}
             </div>`;
       }
   });
@@ -203,7 +203,7 @@ async function setLang(lang) {
           sidebarHtml += `
             <div class="sidebar-section">
               <div class="sidebar-label">Adjectives: ${lv.toUpperCase()}</div>
-              ${adjLevels[lv].map(a => `<a class="sidebar-item" href="#adj-${a.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${a.word}</a>`).join('')}
+              ${adjLevels[lv].map(a => `<a class="sidebar-item" href="#adj-${(a.word || "").replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${a.word}</a>`).join('')}
             </div>`;
       }
   });
@@ -216,7 +216,9 @@ async function setLang(lang) {
       if (vLevels[lv]) {
           contentHtml += `
             <div class="level-badge">${lv}</div>
-            <div class="cards-grid">${vLevels[lv].map(v => renderVerbCard(v)).join('')}</div>`;
+            <div class="cards-grid">${vLevels[lv].map(v => {
+                try { return renderVerbCard(v); } catch(e) { console.error(e); return ""; }
+            }).join('')}</div>`;
       }
   });
 
@@ -227,7 +229,9 @@ async function setLang(lang) {
           if (nLevels[lv]) {
               contentHtml += `
                 <div class="level-badge">${lv}</div>
-                <div class="cards-grid">${nLevels[lv].map(n => renderNounCard(n)).join('')}</div>`;
+                <div class="cards-grid">${nLevels[lv].map(n => {
+                    try { return renderNounCard(n); } catch(e) { console.error(e); return ""; }
+                }).join('')}</div>`;
           }
       });
   }
@@ -239,7 +243,9 @@ async function setLang(lang) {
           if (adjLevels[lv]) {
               contentHtml += `
                 <div class="level-badge">${lv}</div>
-                <div class="cards-grid">${adjLevels[lv].map(a => renderAdjectiveCard(a)).join('')}</div>`;
+                <div class="cards-grid">${adjLevels[lv].map(a => {
+                    try { return renderAdjectiveCard(a); } catch(e) { console.error(e); return ""; }
+                }).join('')}</div>`;
           }
       });
   }
@@ -289,7 +295,7 @@ function renderAdjectiveCard(a) {
       tables += compTable;
   }
 
-  return `<div class="card" id="adj-${a.word.replace(/\s+/g, '-')}">
+  return `<div class="card" id="adj-${(a.word || "").replace(/\s+/g, '-')}">
     <div class="card-title" style="background: var(--orange);">${a.word.toUpperCase()}</div>
     <div class="card-meta">
         <span class="meta-badge">${Linguistics.getAdjectivePosition(window.lang, a)}</span>
@@ -343,7 +349,7 @@ function renderNounCard(n) {
         </div>`;
   }
 
-  return `<div class="card" id="noun-${n.word.replace(/\s+/g, '-')}">
+  return `<div class="card" id="noun-${(n.word || "").replace(/\s+/g, '-')}">
     <div class="card-title" style="background: var(--teal-dk);">${n.word.toUpperCase()}</div>
     <div class="card-meta">
         <span class="meta-badge">${n.gender || "neutral"}</span>
@@ -376,7 +382,7 @@ function renderVerbCard(v) {
       </div>`;
   }).join('');
 
-  return `<div class="card" id="verb-${v.word.replace(/\s+/g, '-')}">
+  return `<div class="card" id="verb-${(v.word || "").replace(/\s+/g, '-')}">
     <div class="card-title">${v.word.toUpperCase()}</div>
     <div class="card-meta">
         <span class="meta-badge">${v.classification}</span>

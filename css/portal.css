@@ -46,7 +46,7 @@
 #area { display: flex; width: 100%; height: 100%; flex: 1; }
 
 /* Sidebar */
-aside.sidebar {
+aside.sidebar, .sidebar {
     width: var(--sidebar-width);
     background: #fff;
     border-right: 1.5px solid #eee;
@@ -83,11 +83,16 @@ aside.sidebar {
 .nav-item.active { background: var(--cosy-green-dark); color: #fff; }
 
 /* Main Content */
-main.content {
+main.content, .main {
     flex: 1;
     overflow-y: auto;
     padding: 2rem 3rem;
     background: #fdfcf8;
+}
+
+.layout {
+    display: flex;
+    min-height: calc(100vh - 100px);
 }
 
 .header-row {
@@ -186,9 +191,32 @@ main.content {
 .notes-ta { width: 100%; height: 100px; padding: 15px; border-radius: 20px; margin-bottom: 10px; border: 1px solid #eee; font-family: inherit; }
 
 @media (max-width: 800px) {
-    aside.sidebar { display: none; }
-    main.content { padding: 1.5rem; }
+    aside.sidebar, .sidebar { display: none; }
+    main.content, .main { padding: 1.5rem; }
 }
+
+/* ── Grammar Specific ────────────────────────────── */
+.section-title { font-family: 'Lora', serif; font-size: 2rem; margin-bottom: 2rem; color: var(--ink); }
+.level-badge { display: inline-block; padding: 4px 12px; background: var(--sage); color: #fff; border-radius: 20px; font-weight: 800; font-size: 0.8rem; text-transform: uppercase; margin: 2rem 0 1rem; }
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 2rem; align-items: start; }
+.card { background: #fff; border-radius: 24px; overflow: hidden; box-shadow: var(--shadow-sm); border: 1px solid var(--border); transition: transform 0.2s; }
+.card:hover { transform: translateY(-4px); }
+.card-title { padding: 1rem 1.5rem; background: var(--cosy-green); color: #fff; font-weight: 900; font-size: 1.2rem; letter-spacing: 0.5px; }
+.card-meta { padding: 0.8rem 1.5rem; background: var(--cream); border-bottom: 1px solid var(--border); display: flex; gap: 10px; flex-wrap: wrap; }
+.meta-badge { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; padding: 2px 8px; border-radius: 6px; background: #fff; border: 1px solid var(--border); color: var(--ink-soft); }
+.tense-grid { padding: 1.5rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.tense-header { font-weight: 900; font-size: 0.75rem; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 0.5rem; border-bottom: 2px solid var(--cream); padding-bottom: 4px; }
+.gtable { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.gtable td { padding: 6px 0; border-bottom: 1px solid #f9f9f9; }
+.row-label { width: 80px; font-weight: 800; color: var(--ink-soft); font-size: 0.75rem; }
+.key-verb { font-weight: 700; color: var(--cosy-green-dark); }
+.key-neg { font-weight: 700; color: var(--rose); }
+
+.sidebar-section { margin-bottom: 2rem; }
+.sidebar-label { font-size: 0.7rem; font-weight: 900; color: var(--ink-faint); text-transform: uppercase; margin-bottom: 0.8rem; letter-spacing: 1px; }
+.sidebar-item { display: block; padding: 6px 12px; color: var(--ink-soft); text-decoration: none; font-weight: 700; font-size: 0.85rem; border-radius: 8px; margin-bottom: 2px; }
+.sidebar-item:hover { background: var(--cream); color: var(--cosy-green); }
+.sidebar-item.active { background: var(--cosy-green); color: #fff; }
 
 /* Homework Items & Status */
 .hw-item {
