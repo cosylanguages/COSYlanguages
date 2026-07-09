@@ -23,7 +23,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_001"
+        "id": "de_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "sublimieren",
@@ -47,7 +48,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_002"
+        "id": "de_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "basieren auf",
@@ -71,7 +73,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_001"
+        "id": "de_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "instanziieren",
@@ -95,7 +98,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_003"
+        "id": "de_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "negieren",
@@ -119,7 +123,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_001"
+        "id": "de_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "transzendieren",
@@ -143,7 +148,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_004"
+        "id": "de_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "vermitteln",
@@ -167,7 +173,8 @@
         "group": "eln",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_002"
+        "id": "de_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "elidieren",
@@ -191,7 +198,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_005"
+        "id": "de_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "verschleiern",
@@ -215,7 +223,8 @@
         "group": "ern",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_003"
+        "id": "de_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "verschmelzen",
@@ -239,7 +248,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_006"
+        "id": "de_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "sich berufen auf",
@@ -263,7 +273,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_002"
+        "id": "de_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "in den Vordergrund stellen",
@@ -287,7 +298,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_004"
+        "id": "de_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "rekuperieren",
@@ -311,7 +323,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_003"
+        "id": "de_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "destabilisieren",
@@ -335,7 +348,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_004"
+        "id": "de_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "kommodifizieren",
@@ -359,7 +373,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_005"
+        "id": "de_proficiency_social_005",
+        "transcription": ""
     },
     {
         "word": "instrumentalisieren",
@@ -383,7 +398,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_006"
+        "id": "de_proficiency_social_006",
+        "transcription": ""
     },
     {
         "word": "valorisieren",
@@ -407,7 +423,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_007"
+        "id": "de_proficiency_social_007",
+        "transcription": ""
     },
     {
         "word": "fetischisieren",
@@ -431,7 +448,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_008"
+        "id": "de_proficiency_social_008",
+        "transcription": ""
     },
     {
         "word": "hegemonisieren",
@@ -456,7 +474,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_009"
+        "id": "de_proficiency_social_009",
+        "transcription": ""
     },
     {
         "word": "entfremden",
@@ -480,7 +499,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_010"
+        "id": "de_proficiency_social_010",
+        "transcription": ""
     },
     {
         "word": "demarkieren",
@@ -504,7 +524,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_005"
+        "id": "de_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "eingrenzen",
@@ -528,7 +549,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_006"
+        "id": "de_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "entgegenstehen",
@@ -552,7 +574,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_011"
+        "id": "de_proficiency_social_011",
+        "transcription": ""
     },
     {
         "word": "beeinträchtigen",
@@ -576,7 +599,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_007"
+        "id": "de_proficiency_psychology_007",
+        "transcription": ""
     },
     {
         "word": "bestreiten",
@@ -600,7 +624,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_008"
+        "id": "de_proficiency_psychology_008",
+        "transcription": ""
     },
     {
         "word": "aufheben",
@@ -624,7 +649,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_012"
+        "id": "de_proficiency_social_012",
+        "transcription": ""
     },
     {
         "word": "dekonstruieren",
@@ -648,7 +674,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_009"
+        "id": "de_proficiency_psychology_009",
+        "transcription": ""
     },
     {
         "word": "problematisieren",
@@ -672,7 +699,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_007"
+        "id": "de_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "analysieren",
@@ -696,7 +724,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_010"
+        "id": "de_proficiency_psychology_010",
+        "transcription": ""
     },
     {
         "word": "ausschließen",
@@ -720,7 +749,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_011"
+        "id": "de_proficiency_psychology_011",
+        "transcription": ""
     },
     {
         "word": "dialektisieren",
@@ -744,7 +774,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_008"
+        "id": "de_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "verstoßen gegen",
@@ -768,7 +799,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_013"
+        "id": "de_proficiency_social_013",
+        "transcription": ""
     },
     {
         "word": "subsumieren",
@@ -792,7 +824,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_009"
+        "id": "de_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "akzentuieren",
@@ -816,7 +849,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_010"
+        "id": "de_proficiency_language_010",
+        "transcription": ""
     },
     {
         "word": "einwilligen",
@@ -840,7 +874,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_014"
+        "id": "de_proficiency_social_014",
+        "transcription": ""
     },
     {
         "word": "lindern",
@@ -864,7 +899,8 @@
         "group": "ern",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_015"
+        "id": "de_proficiency_social_015",
+        "transcription": ""
     },
     {
         "word": "umgehen",
@@ -888,7 +924,8 @@
         "group": "en",
         "auxiliary": "sein",
         "lang": "de",
-        "id": "de_proficiency_social_016"
+        "id": "de_proficiency_social_016",
+        "transcription": ""
     },
     {
         "word": "bestätigen",
@@ -912,7 +949,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_012"
+        "id": "de_proficiency_psychology_012",
+        "transcription": ""
     },
     {
         "word": "verbreiten",
@@ -936,7 +974,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_013"
+        "id": "de_proficiency_psychology_013",
+        "transcription": ""
     },
     {
         "word": "zusammenfassen",
@@ -960,7 +999,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_011"
+        "id": "de_proficiency_language_011",
+        "transcription": ""
     },
     {
         "word": "hervorrufen",
@@ -984,7 +1024,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_017"
+        "id": "de_proficiency_social_017",
+        "transcription": ""
     },
     {
         "word": "verschlimmern",
@@ -1008,7 +1049,8 @@
         "group": "ern",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_018"
+        "id": "de_proficiency_social_018",
+        "transcription": ""
     },
     {
         "word": "exemplifizieren",
@@ -1032,7 +1074,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_012"
+        "id": "de_proficiency_language_012",
+        "transcription": ""
     },
     {
         "word": "behindern",
@@ -1056,7 +1099,8 @@
         "group": "ern",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_019"
+        "id": "de_proficiency_social_019",
+        "transcription": ""
     },
     {
         "word": "mildern",
@@ -1080,7 +1124,8 @@
         "group": "ern",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_020"
+        "id": "de_proficiency_social_020",
+        "transcription": ""
     },
     {
         "word": "verpflichten",
@@ -1104,7 +1149,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_social_021"
+        "id": "de_proficiency_social_021",
+        "transcription": ""
     },
     {
         "word": "durchdringen",
@@ -1128,7 +1174,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_time_001"
+        "id": "de_proficiency_time_001",
+        "transcription": ""
     },
     {
         "word": "ausschließen",
@@ -1152,7 +1199,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_014"
+        "id": "de_proficiency_psychology_014",
+        "transcription": ""
     },
     {
         "word": "vereinbaren",
@@ -1176,7 +1224,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_013"
+        "id": "de_proficiency_language_013",
+        "transcription": ""
     },
     {
         "word": "ersetzen",
@@ -1200,7 +1249,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_time_002"
+        "id": "de_proficiency_time_002",
+        "transcription": ""
     },
     {
         "word": "untermauern",
@@ -1224,7 +1274,8 @@
         "group": "ern",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_014"
+        "id": "de_proficiency_language_014",
+        "transcription": ""
     },
     {
         "word": "rechtfertigen",
@@ -1248,7 +1299,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_psychology_015"
+        "id": "de_proficiency_psychology_015",
+        "transcription": ""
     },
     {
         "word": "abhängen von",
@@ -1272,7 +1324,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_015"
+        "id": "de_proficiency_language_015",
+        "transcription": ""
     },
     {
         "word": "ringen mit",
@@ -1296,7 +1349,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_016"
+        "id": "de_proficiency_language_016",
+        "transcription": ""
     },
     {
         "word": "beschönigen",
@@ -1320,7 +1374,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_017"
+        "id": "de_proficiency_language_017",
+        "transcription": ""
     },
     {
         "word": "kaschieren",
@@ -1344,12 +1399,13 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_language_018"
+        "id": "de_proficiency_language_018",
+        "transcription": ""
     },
     {
         "word": "Paradigmenwechsel",
         "level": "proficiency",
-        "theme": "academic_general",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "eine grundlegende Änderung des Ansatzes",
         "form": "verb",
@@ -1368,7 +1424,8 @@
         "group": "en",
         "auxiliary": "haben",
         "lang": "de",
-        "id": "de_proficiency_academic_general_001"
+        "id": "de_proficiency_academic_general_001",
+        "transcription": ""
     }
 ];
     const lang = "de";

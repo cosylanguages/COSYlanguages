@@ -5,9 +5,11 @@
         "lang": "it",
         "word": "Sophia Loren",
         "level": "upper_intermediate",
-        "theme": "identity_self"
+        "theme": "identity_self",
+        "transcription": "",
+        "emoji": "✨"
     }
-    ];
+];
     const lang = "it";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];

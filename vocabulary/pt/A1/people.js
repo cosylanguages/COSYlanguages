@@ -16,7 +16,9 @@
         ],
         "subtext": "cientista famoso",
         "transcription": "ˈalβert ˈainstain",
-        "form": "noun"
+        "form": "noun",
+        "lang": "pt",
+        "id": "pt_starter_places_001"
     },
     {
         "word": "Taylor Swift",
@@ -33,7 +35,9 @@
         ],
         "subtext": "cantora famosa",
         "transcription": "ˈteilor swift",
-        "form": "noun"
+        "form": "noun",
+        "lang": "pt",
+        "id": "pt_starter_places_002"
     },
     {
         "word": "Cristiano Ronaldo",
@@ -50,7 +54,9 @@
         ],
         "subtext": "atleta famoso",
         "transcription": "krisˈtjano roˈnaldo",
-        "form": "noun"
+        "form": "noun",
+        "lang": "pt",
+        "id": "pt_starter_places_003"
     },
     {
         "word": "Lionel Messi",
@@ -67,7 +73,9 @@
         ],
         "subtext": "atleta famoso",
         "transcription": "ljoˈnel ˈmesi",
-        "form": "noun"
+        "form": "noun",
+        "lang": "pt",
+        "id": "pt_starter_places_004"
     },
     {
         "word": "Beyoncé",
@@ -84,7 +92,9 @@
         ],
         "subtext": "cantora famosa",
         "transcription": "biˈonse",
-        "form": "noun"
+        "form": "noun",
+        "lang": "pt",
+        "id": "pt_starter_places_005"
     },
     {
         "word": "Elon Musk",
@@ -101,7 +111,9 @@
         ],
         "subtext": "empresário famoso",
         "transcription": "ˈilon mask",
-        "form": "noun"
+        "form": "noun",
+        "lang": "pt",
+        "id": "pt_starter_places_006"
     },
     {
         "word": "Rainha Isabel II",
@@ -118,7 +130,9 @@
         ],
         "subtext": "rainha famosa",
         "transcription": "ˈkwin iˈliθaβeθ",
-        "form": "noun"
+        "form": "noun",
+        "lang": "pt",
+        "id": "pt_starter_places_007"
     },
     {
         "word": "Marie Curie",
@@ -135,7 +149,9 @@
         ],
         "subtext": "cientista famosa",
         "transcription": "maˈri kuˈri",
-        "form": "noun"
+        "form": "noun",
+        "lang": "pt",
+        "id": "pt_starter_places_008"
     },
     {
         "word": "Leonardo da Vinci",
@@ -152,7 +168,9 @@
         ],
         "subtext": "artista famoso",
         "transcription": "leoˈnarðo ðha ˈβintʃi",
-        "form": "noun"
+        "form": "noun",
+        "lang": "pt",
+        "id": "pt_starter_places_009"
     },
     {
         "word": "Nelson Mandela",
@@ -169,7 +187,9 @@
         ],
         "subtext": "líder famoso",
         "transcription": "ˈnelson manˈdela",
-        "form": "noun"
+        "form": "noun",
+        "lang": "pt",
+        "id": "pt_starter_places_010"
     },
     {
         "word": "William Shakespeare",
@@ -186,12 +206,11 @@
         ],
         "subtext": "escritor famoso",
         "transcription": "ˈwiljam ˈʃeikspir",
-        "form": "noun"
+        "form": "noun",
+        "lang": "pt",
+        "id": "pt_starter_places_011"
     }
-]
-    const lang = "pt";
-    window.peopleData = window.peopleData || {};
-    window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
+];
     if (window.vocabularyData) {
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }

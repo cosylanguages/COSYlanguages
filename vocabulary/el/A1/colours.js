@@ -16,7 +16,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈko.ci.no/"
+        "transcription": "/ˈko.ci.no/",
+        "lang": "el",
+        "id": "el_starter_colours_001"
     },
     {
         "word": "μπλε",
@@ -34,7 +36,9 @@
                 ]
             }
         ],
-        "transcription": "/ble/"
+        "transcription": "/ble/",
+        "lang": "el",
+        "id": "el_starter_colours_002"
     },
     {
         "word": "πράσινο",
@@ -52,7 +56,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈpra.si.no/"
+        "transcription": "/ˈpra.si.no/",
+        "lang": "el",
+        "id": "el_starter_colours_003"
     },
     {
         "word": "κίτρινο",
@@ -70,7 +76,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈci.tri.no/"
+        "transcription": "/ˈci.tri.no/",
+        "lang": "el",
+        "id": "el_starter_colours_004"
     },
     {
         "word": "λευκό",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/lefˈko/"
+        "transcription": "/lefˈko/",
+        "lang": "el",
+        "id": "el_starter_colours_005"
     }
-    ];
+];
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

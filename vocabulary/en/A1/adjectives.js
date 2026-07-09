@@ -5,8 +5,6 @@
         "id": "en_starter_size_shape_001",
         "word": "tall",
         "form": "adjective",
-        "opposite": "short",
-        "oppositeEmoji": "📏",
         "emoji": "🦒",
         "definitions": [
             {
@@ -34,14 +32,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "short"
+        ]
     },
     {
         "id": "en_starter_size_shape_002",
         "word": "short",
         "form": "adjective",
-        "opposite": "tall",
-        "oppositeEmoji": "🗼",
         "emoji": "📏",
         "definitions": [
             {
@@ -69,14 +68,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "tall"
+        ]
     },
     {
         "id": "en_starter_size_shape_003",
         "word": "young",
         "form": "adjective",
-        "opposite": "old",
-        "oppositeEmoji": "👴",
         "emoji": "👶",
         "definitions": [
             {
@@ -96,14 +96,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "old"
+        ]
     },
     {
         "id": "en_starter_size_shape_004",
         "word": "old",
         "form": "adjective",
-        "opposite": "new",
-        "oppositeEmoji": "👶",
         "emoji": "👴",
         "definitions": [
             {
@@ -130,15 +131,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "new"
+        ]
     },
     {
         "id": "en_starter_nature_009",
         "word": "sunny",
         "emoji": "☀️",
         "form": "adjective",
-        "opposite": "rainy",
-        "oppositeEmoji": "🌧️",
         "definitions": [
             {
                 "text": "Having a lot of light from the sun.",
@@ -159,15 +161,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "rainy"
+        ]
     },
     {
         "id": "en_starter_nature_010",
         "word": "rainy",
         "emoji": "🌧️",
         "form": "adjective",
-        "opposite": "sunny",
-        "oppositeEmoji": "☀️",
         "definitions": [
             {
                 "text": "Having a lot of rain.",
@@ -188,15 +191,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sunny"
+        ]
     },
     {
         "id": "en_starter_nature_011",
         "word": "hot",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "cold",
-        "oppositeEmoji": "❄️",
         "subtext": "very hot, hot weather / hot weather / a hot drink / too hot",
         "definitions": [
             {
@@ -217,15 +221,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "cold"
+        ]
     },
     {
         "id": "en_starter_nature_012",
         "word": "cold",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "hot",
-        "oppositeEmoji": "🔥",
         "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
         "definitions": [
             {
@@ -256,15 +261,16 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "kaldaz"
-        }
+        },
+        "antonyms": [
+            "hot"
+        ]
     },
     {
         "id": "en_starter_shopping_001",
         "word": "cheap",
         "emoji": "🏷️",
         "form": "adjective",
-        "opposite": "expensive",
-        "oppositeEmoji": "💎",
         "subtext": "cheap flight / very cheap / cheap and cheerful",
         "synonyms": [
             "low price",
@@ -290,15 +296,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "expensive"
+        ]
     },
     {
         "id": "en_starter_shopping_002",
         "word": "expensive",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "cheap",
-        "oppositeEmoji": "🏷️",
         "subtext": "very expensive / expensive taste / too expensive",
         "synonyms": [
             "costly",
@@ -324,15 +331,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "cheap"
+        ]
     },
     {
         "id": "en_starter_size_shape_005",
         "word": "good",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "bad",
-        "oppositeEmoji": "👎",
         "subtext": "good idea / good luck / good value",
         "synonyms": [
             "great",
@@ -363,15 +371,16 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "gōdaz"
-        }
+        },
+        "antonyms": [
+            "bad"
+        ]
     },
     {
         "id": "en_starter_size_shape_006",
         "word": "bad",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "good",
-        "oppositeEmoji": "👍",
         "subtext": "bad news / bad luck / bad decision",
         "synonyms": [
             "terrible",
@@ -402,15 +411,16 @@
         "etymology": {
             "origin_lang": "Middle English",
             "origin_word": "badde"
-        }
+        },
+        "antonyms": [
+            "good"
+        ]
     },
     {
         "id": "en_starter_size_shape_007",
         "word": "big",
         "emoji": "🐘",
         "form": "adjective",
-        "opposite": "small",
-        "oppositeEmoji": "🐭",
         "subtext": "a big house / a big problem / big enough",
         "synonyms": [
             "large",
@@ -440,15 +450,16 @@
         "etymology": {
             "origin_lang": "Middle English",
             "origin_word": "bigge"
-        }
+        },
+        "antonyms": [
+            "small"
+        ]
     },
     {
         "id": "en_starter_size_shape_008",
         "word": "small",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "large",
-        "oppositeEmoji": "🐘",
         "subtext": "a small flat / a small salary / too small",
         "synonyms": [
             "little",
@@ -478,15 +489,16 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "smalaz"
-        }
+        },
+        "antonyms": [
+            "large"
+        ]
     },
     {
         "id": "en_starter_size_shape_009",
         "word": "easy",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "difficult",
-        "oppositeEmoji": "❌",
         "definitions": [
             {
                 "text": "Not difficult.",
@@ -506,15 +518,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "difficult"
+        ]
     },
     {
         "id": "en_starter_size_shape_010",
         "word": "difficult",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "easy",
-        "oppositeEmoji": "✅",
         "definitions": [
             {
                 "text": "Hard to do or understand.",
@@ -540,15 +553,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "easy"
+        ]
     },
     {
         "id": "en_starter_emotions_002",
         "word": "happy",
         "emoji": "😊",
         "form": "adjective",
-        "opposite": "sad",
-        "oppositeEmoji": "😢",
         "subtext": "feel happy / happy with something / a happy day",
         "synonyms": [
             "glad",
@@ -575,15 +589,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sad"
+        ]
     },
     {
         "id": "en_starter_emotions_003",
         "word": "tired",
         "emoji": "😫",
         "form": "adjective",
-        "opposite": "energetic",
-        "oppositeEmoji": "⚡",
         "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired",
         "definitions": [
             {
@@ -600,15 +615,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "energetic"
+        ]
     },
     {
         "id": "en_starter_work_023",
         "word": "full-time",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "part-time",
-        "oppositeEmoji": "⏳",
         "definitions": [
             {
                 "text": "Working the complete number of hours in a working week.",
@@ -624,15 +640,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "part-time"
+        ]
     },
     {
         "id": "en_starter_emotions_004",
         "word": "thirsty",
         "emoji": "🥤",
         "form": "adjective",
-        "opposite": "satisfied",
-        "oppositeEmoji": "😌",
         "definitions": [
             {
                 "text": "Needing or wanting to drink.",
@@ -652,15 +669,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "satisfied"
+        ]
     },
     {
         "id": "en_starter_work_024",
         "word": "part-time",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "full-time",
-        "oppositeEmoji": "⏰",
         "definitions": [
             {
                 "text": "Working fewer hours than a standard working week.",
@@ -676,15 +694,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "full-time"
+        ]
     },
     {
         "id": "en_starter_household_tasks_001",
         "word": "clean",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "dirty",
-        "oppositeEmoji": "💩",
         "subtext": "tidy, not dirty, keep it clean / clean clothes / a clean room / keep clean",
         "definitions": [
             {
@@ -705,15 +724,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dirty"
+        ]
     },
     {
         "id": "en_starter_food_drink_026",
         "word": "healthy",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "unhealthy",
-        "oppositeEmoji": "🍔",
         "subtext": "well, fit, healthy diet",
         "definitions": [
             {
@@ -729,15 +749,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unhealthy"
+        ]
     },
     {
         "id": "en_starter_food_drink_027",
         "word": "unhealthy",
         "emoji": "🍔",
         "form": "adjective",
-        "opposite": "healthy",
-        "oppositeEmoji": "🥗",
         "subtext": "unhealthy food / unhealthy lifestyle",
         "synonyms": [
             "ill",
@@ -757,15 +778,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "healthy"
+        ]
     },
     {
         "id": "en_starter_illnesses_symptoms_001",
         "word": "ill",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "well",
-        "oppositeEmoji": "💪",
         "subtext": "sick, feel ill",
         "definitions": [
             {
@@ -781,15 +803,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "well"
+        ]
     },
     {
         "id": "en_starter_technology_001",
         "word": "online",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "offline",
-        "oppositeEmoji": "📴",
         "definitions": [
             {
                 "text": "Using the internet.",
@@ -805,15 +828,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "offline"
+        ]
     },
     {
         "id": "en_starter_technology_002",
         "word": "offline",
         "emoji": "📴",
         "form": "adjective",
-        "opposite": "online",
-        "oppositeEmoji": "🌐",
         "subtext": "work offline / go offline",
         "synonyms": [
             "disconnected"
@@ -832,15 +856,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "online"
+        ]
     },
     {
         "id": "en_starter_people_002",
         "word": "alone",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "together",
-        "oppositeEmoji": "👫",
         "definitions": [
             {
                 "text": "Without other people; by yourself.",
@@ -856,15 +881,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "together"
+        ]
     },
     {
         "id": "en_starter_emotions_005",
         "word": "relaxed",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "stressed",
-        "oppositeEmoji": "😫",
         "subtext": "feeling relaxed",
         "synonyms": [
             "calm",
@@ -885,15 +911,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stressed"
+        ]
     },
     {
         "id": "en_starter_emotions_006",
         "word": "worried",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "calm",
-        "oppositeEmoji": "😌",
         "subtext": "worried about / deeply worried",
         "synonyms": [
             "anxious",
@@ -914,15 +941,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "calm"
+        ]
     },
     {
         "id": "en_starter_work_025",
         "word": "busy",
         "emoji": "🏃",
         "form": "adjective",
-        "opposite": "free",
-        "oppositeEmoji": "🆓",
         "subtext": "very busy, busy day / busy schedule / very busy / too busy",
         "definitions": [
             {
@@ -944,15 +972,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "free"
+        ]
     },
     {
         "id": "en_starter_describing_011",
         "word": "important",
         "emoji": "❗",
         "form": "adjective",
-        "opposite": "unimportant",
-        "oppositeEmoji": "🍃",
         "subtext": "important meeting / very important / most important",
         "synonyms": [
             "essential"
@@ -977,15 +1006,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unimportant"
+        ]
     },
     {
         "id": "en_starter_describing_012",
         "word": "unimportant",
         "emoji": "🍃",
         "form": "adjective",
-        "opposite": "important",
-        "oppositeEmoji": "❗",
         "subtext": "unimportant detail / feel unimportant",
         "synonyms": [
             "minor",
@@ -1005,14 +1035,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "important"
+        ]
     },
     {
         "id": "en_starter_colours_002",
         "word": "red",
         "emoji": "🟥",
         "form": "adjective",
-        "opposite": "green",
         "subtext": "dark red, bright red / red wine / red face / red light",
         "definitions": [
             {
@@ -1039,14 +1071,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "raudaz",
             "origin_meaning": "red"
-        }
+        },
+        "antonyms": [
+            "green"
+        ]
     },
     {
         "id": "en_starter_colours_003",
         "word": "blue",
         "emoji": "🟦",
         "form": "adjective",
-        "opposite": "orange",
         "subtext": "light blue, dark blue / dark blue / light blue / blue sky",
         "definitions": [
             {
@@ -1073,14 +1107,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "blēwaz",
             "origin_meaning": "blue"
-        }
+        },
+        "antonyms": [
+            "orange"
+        ]
     },
     {
         "id": "en_starter_colours_004",
         "word": "green",
         "emoji": "🟩",
         "form": "adjective",
-        "opposite": "pink",
         "subtext": "bright green, dark green / green energy / green space / bright green",
         "definitions": [
             {
@@ -1107,15 +1143,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "grōniz",
             "origin_meaning": "green"
-        }
+        },
+        "antonyms": [
+            "pink"
+        ]
     },
     {
         "id": "en_starter_colours_005",
         "word": "white",
         "emoji": "⬜",
         "form": "adjective",
-        "opposite": "black",
-        "oppositeEmoji": "⬛",
         "subtext": "pure white, snow white / white wine / off-white / bright white",
         "definitions": [
             {
@@ -1142,15 +1179,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "hwītaz",
             "origin_meaning": "white"
-        }
+        },
+        "antonyms": [
+            "black"
+        ]
     },
     {
         "id": "en_starter_colours_006",
         "word": "black",
         "emoji": "⬛",
         "form": "adjective",
-        "opposite": "white",
-        "oppositeEmoji": "⬜",
         "subtext": "jet black, dark as night / black coffee / black market / jet black",
         "definitions": [
             {
@@ -1177,14 +1215,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "blakaz",
             "origin_meaning": "black"
-        }
+        },
+        "antonyms": [
+            "white"
+        ]
     },
     {
         "id": "en_starter_colours_007",
         "word": "yellow",
         "emoji": "🟨",
         "form": "adjective",
-        "opposite": "purple",
         "subtext": "bright yellow, lemon yellow / yellow light / pale yellow / bright yellow",
         "definitions": [
             {
@@ -1211,15 +1251,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "gelwaz",
             "origin_meaning": "yellow"
-        }
+        },
+        "antonyms": [
+            "purple"
+        ]
     },
     {
         "id": "en_starter_shopping_003",
         "word": "free",
         "emoji": "🎁",
         "form": "adjective",
-        "opposite": "busy",
-        "oppositeEmoji": "💎",
         "subtext": "free of charge, free gift / free time / free of charge / free to do",
         "definitions": [
             {
@@ -1241,15 +1282,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "busy"
+        ]
     },
     {
         "id": "en_starter_shopping_004",
         "word": "open",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "closed",
-        "oppositeEmoji": "🔒",
         "subtext": "now open, open for business / open door / open to ideas / wide open",
         "definitions": [
             {
@@ -1271,15 +1313,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "closed"
+        ]
     },
     {
         "id": "en_starter_shopping_005",
         "word": "closed",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "open",
-        "oppositeEmoji": "📖",
         "subtext": "now closed, temporarily closed / closed for lunch / closed mind / closed door",
         "definitions": [
             {
@@ -1296,14 +1339,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "open"
+        ]
     },
     {
         "id": "en_starter_size_shape_011",
         "word": "large",
         "form": "adjective",
-        "opposite": "small",
-        "oppositeEmoji": "🐭",
         "subtext": "a large city / a large company / a large amount",
         "definitions": [
             {
@@ -1320,14 +1364,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "small"
+        ]
     },
     {
         "id": "en_starter_size_shape_012",
         "word": "little",
         "form": "adjective",
-        "opposite": "small",
-        "oppositeEmoji": "🐘",
         "subtext": "a little bit / a little money / too little",
         "definitions": [
             {
@@ -1344,14 +1389,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "small"
+        ]
     },
     {
         "id": "en_starter_size_shape_013",
         "word": "long",
         "form": "adjective",
-        "opposite": "short",
-        "oppositeEmoji": "📏",
         "subtext": "a long journey / a long day / a long time",
         "definitions": [
             {
@@ -1372,14 +1418,15 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "langaz"
-        }
+        },
+        "antonyms": [
+            "short"
+        ]
     },
     {
         "id": "en_starter_size_shape_014",
         "word": "high",
         "form": "adjective",
-        "opposite": "low",
-        "oppositeEmoji": "📉",
         "subtext": "high price / high rent / high quality",
         "definitions": [
             {
@@ -1396,14 +1443,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "low"
+        ]
     },
     {
         "id": "en_starter_size_shape_015",
         "word": "low",
         "form": "adjective",
-        "opposite": "high",
-        "oppositeEmoji": "📈",
         "subtext": "low price / low salary / low quality",
         "definitions": [
             {
@@ -1420,14 +1468,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "high"
+        ]
     },
     {
         "id": "en_starter_size_shape_016",
         "word": "full",
         "form": "adjective",
-        "opposite": "empty",
-        "oppositeEmoji": "🫙",
         "subtext": "full time / a full day / full of people",
         "definitions": [
             {
@@ -1444,14 +1493,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "empty"
+        ]
     },
     {
         "id": "en_starter_size_shape_017",
         "word": "empty",
         "form": "adjective",
-        "opposite": "full",
-        "oppositeEmoji": "🥛",
         "subtext": "an empty flat / an empty room / nearly empty",
         "definitions": [
             {
@@ -1468,14 +1518,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "full"
+        ]
     },
     {
         "id": "en_starter_nature_013",
         "word": "warm",
         "form": "adjective",
-        "opposite": "cool",
-        "oppositeEmoji": "🧊",
         "subtext": "warm weather / a warm welcome / keep warm",
         "definitions": [
             {
@@ -1492,14 +1543,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "cool"
+        ]
     },
     {
         "id": "en_starter_nature_014",
         "word": "cool",
         "form": "adjective",
-        "opposite": "warm",
-        "oppositeEmoji": "☀️",
         "subtext": "cool weather / a cool drink / stay cool",
         "definitions": [
             {
@@ -1516,14 +1568,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "warm"
+        ]
     },
     {
         "id": "en_starter_nature_015",
         "word": "wet",
         "form": "adjective",
-        "opposite": "dry",
-        "oppositeEmoji": "🏜️",
         "subtext": "wet weather / wet clothes / get wet",
         "definitions": [
             {
@@ -1540,14 +1593,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dry"
+        ]
     },
     {
         "id": "en_starter_nature_016",
         "word": "dry",
         "form": "adjective",
-        "opposite": "wet",
-        "oppositeEmoji": "🌧️",
         "subtext": "dry weather / dry skin / keep dry",
         "definitions": [
             {
@@ -1564,14 +1618,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "wet"
+        ]
     },
     {
         "id": "en_starter_household_tasks_002",
         "word": "dirty",
         "form": "adjective",
-        "opposite": "clean",
-        "oppositeEmoji": "✨",
         "subtext": "dirty hands / dirty clothes / get dirty",
         "definitions": [
             {
@@ -1591,14 +1646,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "clean"
+        ]
     },
     {
         "id": "en_starter_size_shape_018",
         "word": "hard",
         "form": "adjective",
-        "opposite": "soft",
-        "oppositeEmoji": "☁️",
         "subtext": "hard work / a hard decision / too hard",
         "synonyms": [
             "firm",
@@ -1620,14 +1676,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "soft"
+        ]
     },
     {
         "id": "en_starter_size_shape_019",
         "word": "soft",
         "form": "adjective",
-        "opposite": "hard",
-        "oppositeEmoji": "🧱",
         "subtext": "soft light / soft music / soft skills",
         "synonyms": [
             "gentle",
@@ -1648,14 +1705,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "hard"
+        ]
     },
     {
         "id": "en_starter_size_shape_020",
         "word": "heavy",
         "form": "adjective",
-        "opposite": "light",
-        "oppositeEmoji": "🪶",
         "subtext": "heavy traffic / heavy rain / too heavy",
         "synonyms": [
             "weighty"
@@ -1675,14 +1733,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "light"
+        ]
     },
     {
         "id": "en_starter_size_shape_021",
         "word": "light",
         "form": "adjective",
-        "opposite": "heavy",
-        "oppositeEmoji": "🐘",
         "subtext": "light rain / light traffic / a light meal",
         "synonyms": [
             "not heavy",
@@ -1703,13 +1762,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "heavy"
+        ]
     },
     {
         "id": "en_starter_colours_008",
         "word": "brown",
         "form": "adjective",
-        "opposite": "grey",
         "subtext": "dark brown / light brown / brown bread",
         "definitions": [
             {
@@ -1726,13 +1787,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "grey"
+        ]
     },
     {
         "id": "en_starter_colours_009",
         "word": "grey",
         "form": "adjective",
-        "opposite": "brown",
         "subtext": "grey area / grey sky / pale grey",
         "definitions": [
             {
@@ -1749,13 +1812,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "brown"
+        ]
     },
     {
         "id": "en_starter_colours_010",
         "word": "pink",
         "form": "adjective",
-        "opposite": "green",
         "subtext": "light pink / bright pink / hot pink",
         "definitions": [
             {
@@ -1772,13 +1837,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "green"
+        ]
     },
     {
         "id": "en_starter_colours_011",
         "word": "orange",
         "form": "adjective",
-        "opposite": "blue",
         "subtext": "bright orange / dark orange / orange light",
         "definitions": [
             {
@@ -1795,14 +1862,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": "fruit"
+        "sub_theme": "fruit",
+        "antonyms": [
+            "blue"
+        ]
     },
     {
         "id": "en_starter_describing_013",
         "word": "great",
         "form": "adjective",
-        "opposite": "good",
-        "oppositeEmoji": "😫",
         "subtext": "a great idea / a great opportunity / great value",
         "synonyms": [
             "excellent",
@@ -1823,14 +1891,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "good"
+        ]
     },
     {
         "id": "en_starter_describing_014",
         "word": "nice",
         "form": "adjective",
-        "opposite": "nasty",
-        "oppositeEmoji": "😠",
         "subtext": "a nice day / a nice place / a nice person",
         "synonyms": [
             "pleasant",
@@ -1851,14 +1920,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "nasty"
+        ]
     },
     {
         "id": "en_starter_describing_015",
         "word": "wonderful",
         "form": "adjective",
-        "opposite": "awful",
-        "oppositeEmoji": "🤮",
         "subtext": "a wonderful opportunity / a wonderful time",
         "synonyms": [
             "amazing",
@@ -1879,14 +1949,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "awful"
+        ]
     },
     {
         "id": "en_starter_describing_016",
         "word": "terrible",
         "form": "adjective",
-        "opposite": "bad",
-        "oppositeEmoji": "🌟",
         "subtext": "terrible weather / a terrible mistake / terrible news",
         "synonyms": [
             "awful",
@@ -1907,14 +1978,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "bad"
+        ]
     },
     {
         "id": "en_starter_describing_017",
         "word": "awful",
         "form": "adjective",
-        "opposite": "wonderful",
-        "oppositeEmoji": "🌈",
         "subtext": "awful weather / awful news / simply awful",
         "synonyms": [
             "terrible",
@@ -1935,14 +2007,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "wonderful"
+        ]
     },
     {
         "id": "en_starter_describing_018",
         "word": "amazing",
         "form": "adjective",
-        "opposite": "ordinary",
-        "oppositeEmoji": "😐",
         "subtext": "an amazing result / an amazing offer / truly amazing",
         "synonyms": [
             "wonderful",
@@ -1963,14 +2036,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ordinary"
+        ]
     },
     {
         "id": "en_starter_describing_019",
         "word": "fantastic",
         "form": "adjective",
-        "opposite": "good",
-        "oppositeEmoji": "😫",
         "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
         "synonyms": [
             "excellent",
@@ -1991,14 +2065,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "good"
+        ]
     },
     {
         "id": "en_starter_emotions_007",
         "word": "sad",
         "form": "adjective",
-        "opposite": "happy",
-        "oppositeEmoji": "😊",
         "subtext": "feel sad / a sad situation / deeply sad",
         "synonyms": [
             "unhappy",
@@ -2020,14 +2095,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "happy"
+        ]
     },
     {
         "id": "en_starter_emotions_008",
         "word": "hungry",
         "form": "adjective",
-        "opposite": "full",
-        "oppositeEmoji": "🤰",
         "subtext": "feel hungry / very hungry / go hungry",
         "synonyms": [
             "starving",
@@ -2048,14 +2124,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "full"
+        ]
     },
     {
         "id": "en_starter_emotions_009",
         "word": "angry",
         "form": "adjective",
-        "opposite": "calm",
-        "oppositeEmoji": "😌",
         "subtext": "feel angry / angry with someone / very angry",
         "synonyms": [
             "mad",
@@ -2077,14 +2154,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "calm"
+        ]
     },
     {
         "id": "en_starter_emotions_010",
         "word": "bored",
         "form": "adjective",
-        "opposite": "interesting",
-        "oppositeEmoji": "🧐",
         "subtext": "feel bored / bored with / easily bored",
         "synonyms": [
             "uninterested",
@@ -2105,14 +2183,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "interesting"
+        ]
     },
     {
         "id": "en_starter_emotions_011",
         "word": "excited",
         "form": "adjective",
-        "opposite": "bored",
-        "oppositeEmoji": "😴",
         "subtext": "feel excited / excited about / very excited",
         "definitions": [
             {
@@ -2129,14 +2208,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "bored"
+        ]
     },
     {
         "id": "en_starter_emotions_012",
         "word": "afraid",
         "form": "adjective",
-        "opposite": "brave",
-        "oppositeEmoji": "🦁",
         "subtext": "afraid of / feel afraid / deeply afraid",
         "synonyms": [
             "scared",
@@ -2158,13 +2238,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "brave"
+        ]
     },
     {
         "id": "en_starter_emotions_013",
         "word": "sorry",
         "form": "adjective",
-        "opposite": "unapologetic",
         "subtext": "feel sorry / sorry for / sorry about",
         "definitions": [
             {
@@ -2181,14 +2263,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unapologetic"
+        ]
     },
     {
         "id": "en_starter_describing_020",
         "word": "right",
         "form": "adjective",
         "subtext": "right hand / right side / absolutely right",
-        "opposite": "wrong",
         "definitions": [
             {
                 "text": "Correct; suitable.",
@@ -2210,14 +2294,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "wrong"
+        ]
     },
     {
         "id": "en_starter_describing_021",
         "word": "left",
         "form": "adjective",
         "subtext": "left hand / left side",
-        "opposite": "right",
         "definitions": [
             {
                 "text": "On or towards the side of your body that is to the west when you face north.",
@@ -2234,14 +2320,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "right"
+        ]
     },
     {
         "id": "en_starter_describing_022",
         "word": "wrong",
         "form": "adjective",
-        "opposite": "right",
-        "oppositeEmoji": "✅",
         "subtext": "wrong answer / go wrong / completely wrong",
         "synonyms": [
             "incorrect"
@@ -2261,14 +2348,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "right"
+        ]
     },
     {
         "id": "en_starter_size_shape_022",
         "word": "new",
         "form": "adjective",
-        "opposite": "old",
-        "oppositeEmoji": "👴",
         "subtext": "new job / brand new / completely new",
         "synonyms": [
             "modern",
@@ -2293,14 +2381,15 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "neujaz"
-        }
+        },
+        "antonyms": [
+            "old"
+        ]
     },
     {
         "id": "en_starter_describing_023",
         "word": "different",
         "form": "adjective",
-        "opposite": "same",
-        "oppositeEmoji": "👯",
         "subtext": "completely different / very different / different from",
         "synonyms": [
             "not the same"
@@ -2320,14 +2409,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "same"
+        ]
     },
     {
         "id": "en_starter_describing_024",
         "word": "same",
         "form": "adjective",
-        "opposite": "other",
-        "oppositeEmoji": "🌓",
         "subtext": "the same as / exactly the same / same time",
         "synonyms": [
             "identical"
@@ -2347,14 +2437,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "other"
+        ]
     },
     {
         "id": "en_starter_size_shape_023",
         "word": "fast",
         "form": "adjective",
-        "opposite": "slow",
-        "oppositeEmoji": "🐢",
         "subtext": "fast food / fast train / very fast",
         "synonyms": [
             "quick",
@@ -2375,14 +2466,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "slow"
+        ]
     },
     {
         "id": "en_starter_size_shape_024",
         "word": "slow",
         "form": "adjective",
-        "opposite": "fast",
-        "oppositeEmoji": "🏎️",
         "subtext": "slow progress / slow internet / very slow",
         "synonyms": [
             "leisurely"
@@ -2402,14 +2494,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "fast"
+        ]
     },
     {
         "id": "en_starter_describing_025",
         "word": "quiet",
         "form": "adjective",
-        "opposite": "loud",
-        "oppositeEmoji": "📢",
         "subtext": "quiet area / keep quiet / nice and quiet",
         "synonyms": [
             "silent",
@@ -2430,14 +2523,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "loud"
+        ]
     },
     {
         "id": "en_starter_describing_026",
         "word": "loud",
         "form": "adjective",
-        "opposite": "quiet",
-        "oppositeEmoji": "🤫",
         "subtext": "loud noise / too loud / a loud voice",
         "synonyms": [
             "noisy"
@@ -2457,14 +2551,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "quiet"
+        ]
     },
     {
         "id": "en_starter_places_002",
         "word": "safe",
         "form": "adjective",
-        "opposite": "dangerous",
-        "oppositeEmoji": "🧨",
         "subtext": "safe area / safe to do / feel safe",
         "synonyms": [
             "secure"
@@ -2484,14 +2579,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dangerous"
+        ]
     },
     {
         "id": "en_starter_places_003",
         "word": "dangerous",
         "form": "adjective",
-        "opposite": "safe",
-        "oppositeEmoji": "🛡️",
         "subtext": "dangerous situation / very dangerous / potentially dangerous",
         "synonyms": [
             "risky"
@@ -2511,14 +2607,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "safe"
+        ]
     },
     {
         "id": "en_starter_emotions_014",
         "word": "unhappy",
         "form": "adjective",
-        "opposite": "happy",
-        "oppositeEmoji": "😊",
         "subtext": "feel unhappy / very unhappy / unhappy about",
         "synonyms": [
             "sad",
@@ -2539,14 +2636,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "happy"
+        ]
     },
     {
         "id": "en_starter_emotions_015",
         "word": "nervous",
         "form": "adjective",
-        "opposite": "confident",
-        "oppositeEmoji": "🦁",
         "subtext": "feel nervous / nervous about / very nervous",
         "synonyms": [
             "anxious",
@@ -2567,14 +2665,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "confident"
+        ]
     },
     {
         "id": "en_starter_describing_027",
         "word": "proud",
         "form": "adjective",
-        "opposite": "ashamed",
-        "oppositeEmoji": "🤦",
         "definitions": [
             {
                 "text": "Feeling pleased about an achievement.",
@@ -2595,14 +2694,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ashamed"
+        ]
     },
     {
         "id": "en_starter_emotions_016",
         "word": "scared",
         "form": "adjective",
-        "opposite": "brave",
-        "oppositeEmoji": "🦁",
         "definitions": [
             {
                 "text": "Feeling fear about something.",
@@ -2623,14 +2723,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "brave"
+        ]
     },
     {
         "id": "en_starter_emotions_017",
         "word": "surprised",
         "form": "adjective",
-        "opposite": "unmoved",
-        "oppositeEmoji": "😐",
         "definitions": [
             {
                 "text": "Feeling shock at something unexpected.",
@@ -2651,14 +2752,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unmoved"
+        ]
     },
     {
         "id": "en_starter_emotions_018",
         "word": "disappointed",
         "form": "adjective",
-        "opposite": "satisfied",
-        "oppositeEmoji": "😌",
         "definitions": [
             {
                 "text": "Feeling sad because something was not as good as expected.",
@@ -2679,14 +2781,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "satisfied"
+        ]
     },
     {
         "id": "en_starter_describing_028",
         "word": "beautiful",
         "form": "adjective",
-        "opposite": "ugly",
-        "oppositeEmoji": "👹",
         "definitions": [
             {
                 "text": "Attractive and pleasing to look at.",
@@ -2707,14 +2810,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ugly"
+        ]
     },
     {
         "id": "en_starter_describing_029",
         "word": "pretty",
         "form": "adjective",
-        "opposite": "ugly",
-        "oppositeEmoji": "👹",
         "definitions": [
             {
                 "text": "Pleasant to look at; quite attractive.",
@@ -2731,14 +2835,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ugly"
+        ]
     },
     {
         "id": "en_starter_describing_030",
         "word": "strong",
         "form": "adjective",
-        "opposite": "weak",
-        "oppositeEmoji": "🍃",
         "definitions": [
             {
                 "text": "Having great physical or mental power.",
@@ -2755,14 +2860,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "weak"
+        ]
     },
     {
         "id": "en_starter_describing_031",
         "word": "weak",
         "form": "adjective",
-        "opposite": "strong",
-        "oppositeEmoji": "🏋️",
         "definitions": [
             {
                 "text": "Lacking strength or power.",
@@ -2779,14 +2885,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "strong"
+        ]
     },
     {
         "id": "en_starter_illnesses_symptoms_002",
         "word": "fit",
         "form": "adjective",
-        "opposite": "unfit",
-        "oppositeEmoji": "🛋️",
         "definitions": [
             {
                 "text": "In good physical condition through exercise.",
@@ -2807,15 +2914,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unfit"
+        ]
     },
     {
         "id": "en_starter_illnesses_symptoms_003",
         "word": "unfit",
         "emoji": "🛋️",
         "form": "adjective",
-        "opposite": "fit",
-        "oppositeEmoji": "🏋️",
         "subtext": "unhealthy, out of shape / feel unfit",
         "definitions": [
             {
@@ -2831,14 +2939,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "fit"
+        ]
     },
     {
         "id": "en_starter_describing_032",
         "word": "perfect",
         "form": "adjective",
-        "opposite": "imperfect",
-        "oppositeEmoji": "🩹",
         "definitions": [
             {
                 "text": "Without any faults; completely correct.",
@@ -2855,14 +2964,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "imperfect"
+        ]
     },
     {
         "id": "en_starter_describing_033",
         "word": "correct",
         "form": "adjective",
-        "opposite": "incorrect",
-        "oppositeEmoji": "❌",
         "definitions": [
             {
                 "text": "True or right; without errors.",
@@ -2879,14 +2989,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "incorrect"
+        ]
     },
     {
         "id": "en_starter_describing_034",
         "word": "interesting",
         "form": "adjective",
-        "opposite": "boring",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Attracting attention; worth knowing about.",
@@ -2903,14 +3014,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "boring"
+        ]
     },
     {
         "id": "en_starter_describing_035",
         "word": "boring",
         "form": "adjective",
-        "opposite": "interesting",
-        "oppositeEmoji": "🤩",
         "definitions": [
             {
                 "text": "Not interesting; dull.",
@@ -2927,14 +3039,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "interesting"
+        ]
     },
     {
         "id": "en_starter_describing_036",
         "word": "special",
         "form": "adjective",
-        "opposite": "ordinary",
-        "oppositeEmoji": "😐",
         "definitions": [
             {
                 "text": "Different from what is usual; particularly important.",
@@ -2951,14 +3064,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ordinary"
+        ]
     },
     {
         "id": "en_starter_describing_037",
         "word": "friendly",
         "form": "adjective",
-        "opposite": "unfriendly",
-        "oppositeEmoji": "😠",
         "definitions": [
             {
                 "text": "Kind and pleasant; easy to talk to.",
@@ -2979,14 +3093,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unfriendly"
+        ]
     },
     {
         "id": "en_starter_describing_038",
         "word": "kind",
         "form": "adjective",
-        "opposite": "unkind",
-        "oppositeEmoji": "🥀",
         "definitions": [
             {
                 "text": "Caring and generous to others.",
@@ -3007,15 +3122,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unkind"
+        ]
     },
     {
         "id": "en_starter_describing_039",
         "word": "unkind",
         "emoji": "🥀",
         "form": "adjective",
-        "opposite": "kind",
-        "oppositeEmoji": "🤝",
         "subtext": "unkind words / be unkind",
         "synonyms": [
             "mean",
@@ -3035,14 +3151,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "kind"
+        ]
     },
     {
         "id": "en_starter_describing_040",
         "word": "funny",
         "form": "adjective",
-        "opposite": "serious",
-        "oppositeEmoji": "😐",
         "definitions": [
             {
                 "text": "Making people laugh; humorous.",
@@ -3063,14 +3180,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "serious"
+        ]
     },
     {
         "id": "en_starter_describing_041",
         "word": "clever",
         "form": "adjective",
-        "opposite": "stupid",
-        "oppositeEmoji": "🤡",
         "definitions": [
             {
                 "text": "Intelligent; quick to understand.",
@@ -3091,14 +3209,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stupid"
+        ]
     },
     {
         "id": "en_starter_describing_042",
         "word": "polite",
         "form": "adjective",
-        "opposite": "rude",
-        "oppositeEmoji": "😛",
         "definitions": [
             {
                 "text": "Behaving in a respectful and courteous way.",
@@ -3118,14 +3237,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "rude"
+        ]
     },
     {
         "id": "en_starter_describing_043",
         "word": "rude",
         "form": "adjective",
-        "opposite": "polite",
-        "oppositeEmoji": "🤝",
         "definitions": [
             {
                 "text": "Not polite; showing a lack of respect.",
@@ -3146,14 +3266,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "polite"
+        ]
     },
     {
         "id": "en_starter_describing_044",
         "word": "lazy",
         "form": "adjective",
-        "opposite": "hardworking",
-        "oppositeEmoji": "🐝",
         "definitions": [
             {
                 "text": "Not willing to work or use effort.",
@@ -3173,14 +3294,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "hardworking"
+        ]
     },
     {
         "id": "en_starter_describing_045",
         "word": "honest",
         "form": "adjective",
-        "opposite": "dishonest",
-        "oppositeEmoji": "🤥",
         "definitions": [
             {
                 "text": "Telling the truth; not deceiving.",
@@ -3200,14 +3322,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dishonest"
+        ]
     },
     {
         "id": "en_starter_describing_046",
         "word": "noisy",
         "form": "adjective",
-        "opposite": "quiet",
-        "oppositeEmoji": "🤫",
         "definitions": [
             {
                 "text": "Making a lot of sound; loud.",
@@ -3227,15 +3350,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "quiet"
+        ]
     },
     {
         "id": "en_starter_size_shape_025",
         "word": "round",
         "emoji": "⭕",
         "form": "adjective",
-        "opposite": "oval",
-        "oppositeEmoji": "⬛",
         "subtext": "a round table / round shape",
         "synonyms": [
             "circular"
@@ -3254,15 +3378,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "oval"
+        ]
     },
     {
         "id": "en_starter_size_shape_026",
         "word": "square",
         "emoji": "⬛",
         "form": "adjective",
-        "opposite": "triangular",
-        "oppositeEmoji": "⭕",
         "subtext": "a square box / square shape",
         "synonyms": [
             "four-sided"
@@ -3281,15 +3406,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "triangular"
+        ]
     },
     {
         "id": "en_starter_describing_047",
         "word": "helpful",
         "emoji": "🤝",
         "form": "adjective",
-        "opposite": "unhelpful",
-        "oppositeEmoji": "😠",
         "subtext": "very helpful / a helpful person",
         "synonyms": [
             "useful",
@@ -3309,15 +3435,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unhelpful"
+        ]
     },
     {
         "id": "en_starter_describing_048",
         "word": "unhelpful",
         "emoji": "😠",
         "form": "adjective",
-        "opposite": "helpful",
-        "oppositeEmoji": "🤝",
         "subtext": "unhelpful advice / very unhelpful",
         "synonyms": [
             "useless"
@@ -3336,15 +3463,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "helpful"
+        ]
     },
     {
         "id": "en_starter_describing_049",
         "word": "patient",
         "emoji": "🧘",
         "form": "adjective",
-        "opposite": "impatient",
-        "oppositeEmoji": "⌚",
         "subtext": "be patient / a patient teacher",
         "synonyms": [
             "calm",
@@ -3364,15 +3492,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "impatient"
+        ]
     },
     {
         "id": "en_starter_describing_050",
         "word": "active",
         "emoji": "🏃",
         "form": "adjective",
-        "opposite": "lazy",
-        "oppositeEmoji": "🛋️",
         "subtext": "an active lifestyle / very active",
         "synonyms": [
             "energetic",
@@ -3392,14 +3521,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "lazy"
+        ]
     },
     {
         "id": "en_starter_describing_051",
         "word": "careful",
         "emoji": "⚠️",
         "form": "adjective",
-        "opposite": "careless",
         "subtext": "be careful / careful planning",
         "synonyms": [
             "cautious"
@@ -3418,15 +3549,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "careless"
+        ]
     },
     {
         "id": "en_starter_describing_052",
         "word": "creative",
         "emoji": "🎨",
         "form": "adjective",
-        "opposite": "unimaginative",
-        "oppositeEmoji": "😐",
         "subtext": "very creative / creative ideas",
         "synonyms": [
             "imaginative",
@@ -3446,15 +3578,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unimaginative"
+        ]
     },
     {
         "id": "en_starter_nature_017",
         "word": "cloudy",
         "emoji": "☁️",
         "form": "adjective",
-        "opposite": "sunny",
-        "oppositeEmoji": "☀️",
         "subtext": "a cloudy sky / cloudy weather",
         "synonyms": [
             "overcast"
@@ -3473,15 +3606,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sunny"
+        ]
     },
     {
         "id": "en_starter_nature_018",
         "word": "windy",
         "emoji": "💨",
         "form": "adjective",
-        "opposite": "calm",
-        "oppositeEmoji": "😌",
         "subtext": "a windy day / very windy",
         "synonyms": [
             "breezy"
@@ -3500,15 +3634,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "calm"
+        ]
     },
     {
         "id": "en_starter_nature_019",
         "word": "snowy",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "sunny",
-        "oppositeEmoji": "☀️",
         "subtext": "snowy mountains / a snowy winter",
         "synonyms": [
             "covered in snow"
@@ -3527,15 +3662,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sunny"
+        ]
     },
     {
         "id": "en_starter_nature_020",
         "word": "foggy",
         "emoji": "🌫️",
         "form": "adjective",
-        "opposite": "clear",
-        "oppositeEmoji": "💎",
         "subtext": "foggy morning / very foggy",
         "synonyms": [
             "misty"
@@ -3554,15 +3690,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "clear"
+        ]
     },
     {
         "id": "en_starter_nature_021",
         "word": "stormy",
         "emoji": "⛈️",
         "form": "adjective",
-        "opposite": "calm",
-        "oppositeEmoji": "😌",
         "subtext": "stormy weather / a stormy night",
         "synonyms": [
             "rough"
@@ -3581,14 +3718,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "calm"
+        ]
     },
     {
         "id": "en_starter_body_001",
         "word": "blonde",
         "form": "adjective",
-        "opposite": "brunette",
-        "oppositeEmoji": "👩🏻",
         "subtext": "blonde hair / a blonde woman",
         "synonyms": [
             "fair-haired"
@@ -3608,14 +3746,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "brunette"
+        ]
     },
     {
         "id": "en_starter_describing_053",
         "word": "smart",
         "form": "adjective",
-        "opposite": "stupid",
-        "oppositeEmoji": "🤡",
         "subtext": "a smart student / smart clothes",
         "synonyms": [
             "intelligent",
@@ -3636,14 +3775,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stupid"
+        ]
     },
     {
         "id": "en_starter_describing_054",
         "word": "serious",
         "form": "adjective",
-        "opposite": "funny",
-        "oppositeEmoji": "😂",
         "subtext": "a serious person / look serious",
         "synonyms": [
             "solemn",
@@ -3664,14 +3804,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "funny"
+        ]
     },
     {
         "id": "en_starter_body_002",
         "word": "ugly",
         "form": "adjective",
-        "opposite": "beautiful",
-        "oppositeEmoji": "✨",
         "subtext": "ugly building / ugly duckling",
         "synonyms": [
             "unattractive"
@@ -3691,14 +3832,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "beautiful"
+        ]
     },
     {
         "id": "en_starter_distance_001",
         "word": "near",
         "form": "adjective",
-        "opposite": "far",
-        "oppositeEmoji": "🔭",
         "subtext": "near here / near the station",
         "synonyms": [
             "close"
@@ -3717,15 +3859,16 @@
         "transcription": "nɪr",
         "lang": "en",
         "level": "starter",
-        "theme": "distance",
-        "sub_theme": null
+        "theme": "travel",
+        "sub_theme": null,
+        "antonyms": [
+            "far"
+        ]
     },
     {
         "id": "en_starter_distance_002",
         "word": "far",
         "form": "adjective",
-        "opposite": "close",
-        "oppositeEmoji": "📍",
         "subtext": "far away / far from",
         "synonyms": [
             "distant"
@@ -3744,16 +3887,17 @@
         "transcription": "fɑr",
         "lang": "en",
         "level": "starter",
-        "theme": "distance",
-        "sub_theme": null
+        "theme": "travel",
+        "sub_theme": null,
+        "antonyms": [
+            "close"
+        ]
     },
     {
         "id": "en_starter_money_payment_001",
         "word": "rich",
         "emoji": "💰",
         "form": "adjective",
-        "opposite": "poor",
-        "oppositeEmoji": "🏚️",
         "subtext": "rich man / rich country / very rich",
         "synonyms": [
             "wealthy"
@@ -3772,15 +3916,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "poor"
+        ]
     },
     {
         "id": "en_starter_money_payment_002",
         "word": "poor",
         "emoji": "🏚️",
         "form": "adjective",
-        "opposite": "rich",
-        "oppositeEmoji": "💰",
         "subtext": "poor family / feel poor",
         "synonyms": [
             "broke",
@@ -3800,15 +3945,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "rich"
+        ]
     },
     {
         "id": "en_starter_time_015",
         "word": "early",
         "emoji": "🌅",
         "form": "adjective",
-        "opposite": "late",
-        "oppositeEmoji": "🌙",
         "subtext": "early morning / early riser",
         "synonyms": [
             "soon"
@@ -3827,15 +3973,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "late"
+        ]
     },
     {
         "id": "en_starter_time_016",
         "word": "late",
         "emoji": "🌙",
         "form": "adjective",
-        "opposite": "early",
-        "oppositeEmoji": "🌅",
         "subtext": "late night / too late",
         "synonyms": [
             "tardy"
@@ -3854,15 +4001,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "early"
+        ]
     },
     {
         "id": "en_starter_describing_055",
         "word": "hardworking",
         "emoji": "🐝",
         "form": "adjective",
-        "opposite": "lazy",
-        "oppositeEmoji": "🛋️",
         "subtext": "a hardworking student / very hardworking",
         "synonyms": [
             "diligent",
@@ -3882,15 +4030,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "lazy"
+        ]
     },
     {
         "id": "en_starter_surprise_interest_001",
         "word": "exciting",
         "emoji": "🤩",
         "form": "adjective",
-        "opposite": "boring",
-        "oppositeEmoji": "😴",
         "subtext": "an exciting trip / very exciting",
         "synonyms": [
             "thrilling",
@@ -3910,15 +4059,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "surprise_interest",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "boring"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_001",
         "word": "delicious",
         "emoji": "😋",
         "form": "adjective",
-        "opposite": "disgusting",
-        "oppositeEmoji": "🤢",
         "subtext": "delicious meal / smell delicious",
         "synonyms": [
             "tasty",
@@ -3937,16 +4087,17 @@
         "transcription": "dɪˈlɪʃəs",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "disgusting"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_002",
         "word": "sweet",
         "emoji": "🍬",
         "form": "adjective",
-        "opposite": "bitter",
-        "oppositeEmoji": "🍋",
         "subtext": "sweet fruit / sweet tooth / very sweet",
         "synonyms": [
             "sugary"
@@ -3964,16 +4115,17 @@
         "transcription": "swit",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "bitter"
+        ]
     },
     {
         "id": "en_starter_furniture_021",
         "word": "comfortable",
         "emoji": "🛋️",
         "form": "adjective",
-        "opposite": "uncomfortable",
-        "oppositeEmoji": "🪑",
         "subtext": "a comfortable chair / feel comfortable",
         "synonyms": [
             "relaxed",
@@ -3993,15 +4145,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "uncomfortable"
+        ]
     },
     {
         "id": "en_starter_furniture_022",
         "word": "uncomfortable",
         "emoji": "🪑",
         "form": "adjective",
-        "opposite": "comfortable",
-        "oppositeEmoji": "🛋️",
         "subtext": "feel uncomfortable / uncomfortable chair",
         "synonyms": [
             "awkward",
@@ -4021,15 +4174,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "comfortable"
+        ]
     },
     {
         "id": "en_starter_describing_056",
         "word": "real",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "fake",
-        "oppositeEmoji": "🎭",
         "subtext": "a real person / is it real?",
         "synonyms": [
             "true",
@@ -4049,15 +4203,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "fake"
+        ]
     },
     {
         "id": "en_starter_describing_057",
         "word": "simple",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "complex",
-        "oppositeEmoji": "🧩",
         "subtext": "a simple question / nice and simple",
         "synonyms": [
             "easy",
@@ -4077,15 +4232,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "complex"
+        ]
     },
     {
         "id": "en_starter_plants_natural_world_001",
         "word": "natural",
         "emoji": "🌱",
         "form": "adjective",
-        "opposite": "artificial",
-        "oppositeEmoji": "🤖",
         "subtext": "natural light / natural products",
         "synonyms": [
             "nature-made"
@@ -4104,15 +4260,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "plants_natural_world",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "artificial"
+        ]
     },
     {
         "id": "en_starter_describing_058",
         "word": "clear",
         "emoji": "💧",
         "form": "adjective",
-        "opposite": "unclear",
-        "oppositeEmoji": "🌫️",
         "subtext": "a clear sky",
         "synonyms": [
             "obvious",
@@ -4134,15 +4291,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unclear"
+        ]
     },
     {
         "id": "en_starter_describing_059",
         "word": "common",
         "emoji": "🔄",
         "form": "adjective",
-        "opposite": "rare",
-        "oppositeEmoji": "💎",
         "subtext": "a common problem",
         "synonyms": [
             "usual",
@@ -4163,15 +4321,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "rare"
+        ]
     },
     {
         "id": "en_starter_people_003",
         "word": "famous",
         "emoji": "🌟",
         "form": "adjective",
-        "opposite": "unknown",
-        "oppositeEmoji": "👤",
         "subtext": "a famous person / become famous",
         "synonyms": [
             "well-known",
@@ -4191,15 +4350,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unknown"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_003",
         "word": "salty",
         "emoji": "🧂",
         "form": "adjective",
-        "opposite": "bland",
-        "oppositeEmoji": "🍬",
         "subtext": "salty snacks / too salty",
         "synonyms": [
             "tasting of salt"
@@ -4217,16 +4377,17 @@
         "transcription": "ˈsɔlti",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "bland"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_004",
         "word": "sour",
         "emoji": "🍋",
         "form": "adjective",
-        "opposite": "sweet",
-        "oppositeEmoji": "🍬",
         "subtext": "a sour taste / sour lemons",
         "synonyms": [
             "sharp-tasting"
@@ -4244,16 +4405,17 @@
         "transcription": "saʊər",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "sweet"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_005",
         "word": "bitter",
         "emoji": "☕",
         "form": "adjective",
-        "opposite": "sweet",
-        "oppositeEmoji": "🍬",
         "subtext": "a bitter taste / bitter coffee",
         "synonyms": [
             "strong",
@@ -4272,16 +4434,17 @@
         "transcription": "ˈbɪtər",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "sweet"
+        ]
     },
     {
         "id": "en_starter_body_003",
         "word": "fat",
         "emoji": "🍔",
         "form": "adjective",
-        "opposite": "thin",
-        "oppositeEmoji": "🥬",
         "subtext": "a fat cat",
         "synonyms": [
             "overweight",
@@ -4301,15 +4464,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "thin"
+        ]
     },
     {
         "id": "en_starter_body_004",
         "word": "thin",
         "emoji": "🥬",
         "form": "adjective",
-        "opposite": "thick",
-        "oppositeEmoji": "🍔",
         "subtext": "he is thin / thin legs",
         "synonyms": [
             "slim",
@@ -4329,15 +4493,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "thick"
+        ]
     },
     {
         "id": "en_starter_body_005",
         "word": "curly",
         "emoji": "🌀",
         "form": "adjective",
-        "opposite": "straight",
-        "oppositeEmoji": "📏",
         "subtext": "curly hair / short curly hair",
         "synonyms": [
             "wavy"
@@ -4356,15 +4521,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "straight"
+        ]
     },
     {
         "id": "en_starter_body_006",
         "word": "straight",
         "emoji": "📏",
         "form": "adjective",
-        "opposite": "curly",
-        "oppositeEmoji": "🌀",
         "subtext": "straight hair / long straight hair",
         "synonyms": [
             "not curly"
@@ -4383,14 +4549,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "curly"
+        ]
     },
     {
         "id": "en_starter_describing_060",
         "word": "triangular",
         "emoji": "🔺",
         "form": "adjective",
-        "opposite": "square",
         "subtext": "a triangular shape",
         "synonyms": [
             "three-sided"
@@ -4409,14 +4577,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "square"
+        ]
     },
     {
         "id": "en_starter_describing_061",
         "word": "rectangular",
         "emoji": "▭",
         "form": "adjective",
-        "opposite": "round",
         "subtext": "a rectangular room",
         "synonyms": [
             "four-sided"
@@ -4435,14 +4605,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "round"
+        ]
     },
     {
         "id": "en_starter_describing_062",
         "word": "oval",
         "emoji": "🥚",
         "form": "adjective",
-        "opposite": "round",
         "subtext": "an oval mirror",
         "synonyms": [
             "egg-shaped"
@@ -4461,15 +4633,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "round"
+        ]
     },
     {
         "id": "en_starter_describing_063",
         "word": "favourite",
         "emoji": "⭐",
         "form": "adjective",
-        "opposite": "hated",
-        "oppositeEmoji": "😡",
         "subtext": "my favourite film / favourite food",
         "synonyms": [
             "preferred"
@@ -4489,15 +4662,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "hated"
+        ]
     },
     {
         "id": "en_starter_describing_064",
         "word": "dark",
         "emoji": "🌑",
         "form": "adjective",
-        "opposite": "bright",
-        "oppositeEmoji": "💡",
         "subtext": "dark blue / a dark night",
         "synonyms": [
             "not light"
@@ -4517,15 +4691,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "bright"
+        ]
     },
     {
         "id": "en_starter_describing_065",
         "word": "bright",
         "emoji": "💡",
         "form": "adjective",
-        "opposite": "dark",
-        "oppositeEmoji": "🌑",
         "subtext": "bright colors / a bright day",
         "synonyms": [
             "shining",
@@ -4546,14 +4721,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dark"
+        ]
     },
     {
         "id": "en_starter_colours_012",
         "word": "gold",
         "emoji": "🟡",
         "form": "adjective",
-        "opposite": "silver",
         "subtext": "a gold ring / gold medal",
         "synonyms": [
             "golden"
@@ -4572,14 +4749,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "silver"
+        ]
     },
     {
         "id": "en_starter_colours_013",
         "word": "silver",
         "emoji": "⚪",
         "form": "adjective",
-        "opposite": "gold",
         "subtext": "a silver car / silver jewelry",
         "synonyms": [
             "silvery"
@@ -4598,15 +4777,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "gold"
+        ]
     },
     {
         "id": "en_starter_size_shape_027",
         "word": "deep",
         "emoji": "🕳️",
         "form": "adjective",
-        "opposite": "shallow",
-        "oppositeEmoji": "📏",
         "subtext": "deep water / a deep hole",
         "synonyms": [
             "bottomless"
@@ -4625,15 +4805,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "shallow"
+        ]
     },
     {
         "id": "en_starter_size_shape_028",
         "word": "shallow",
         "emoji": "📏",
         "form": "adjective",
-        "opposite": "deep",
-        "oppositeEmoji": "🕳️",
         "subtext": "shallow water / a shallow end",
         "synonyms": [
             "not deep"
@@ -4652,15 +4833,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "deep"
+        ]
     },
     {
         "id": "en_starter_describing_066",
         "word": "modern",
         "emoji": "🏙️",
         "form": "adjective",
-        "opposite": "ancient",
-        "oppositeEmoji": "🏛️",
         "subtext": "a modern building / modern life",
         "synonyms": [
             "contemporary",
@@ -4680,15 +4862,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ancient"
+        ]
     },
     {
         "id": "en_starter_describing_067",
         "word": "ancient",
         "emoji": "🏛️",
         "form": "adjective",
-        "opposite": "modern",
-        "oppositeEmoji": "🏙️",
         "subtext": "ancient history / an ancient city",
         "synonyms": [
             "very old",
@@ -4708,15 +4891,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "modern"
+        ]
     },
     {
         "id": "en_starter_describing_068",
         "word": "brave",
         "emoji": "🦁",
         "form": "adjective",
-        "opposite": "cowardly",
-        "oppositeEmoji": "😨",
         "subtext": "a brave soldier / be brave",
         "synonyms": [
             "courageous"
@@ -4735,15 +4919,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "cowardly"
+        ]
     },
     {
         "id": "en_starter_describing_069",
         "word": "cowardly",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "brave",
-        "oppositeEmoji": "🦁",
         "subtext": "a cowardly act / don't be cowardly",
         "synonyms": [
             "fearful"
@@ -4762,15 +4947,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "brave"
+        ]
     },
     {
         "id": "en_starter_size_measurements_001",
         "word": "wide",
         "emoji": "↔️",
         "form": "adjective",
-        "opposite": "narrow",
-        "oppositeEmoji": "⬇️",
         "subtext": "a wide road / wide open",
         "synonyms": [
             "broad"
@@ -4789,15 +4975,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_measurements",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "narrow"
+        ]
     },
     {
         "id": "en_starter_size_measurements_002",
         "word": "narrow",
         "emoji": "⬇️",
         "form": "adjective",
-        "opposite": "wide",
-        "oppositeEmoji": "↔️",
         "subtext": "a narrow street / too narrow",
         "synonyms": [
             "thin"
@@ -4816,15 +5003,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_measurements",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "wide"
+        ]
     },
     {
         "id": "en_starter_emotions_019",
         "word": "lucky",
         "emoji": "🍀",
         "form": "adjective",
-        "opposite": "unlucky",
-        "oppositeEmoji": "😿",
         "subtext": "a lucky person / feel lucky",
         "synonyms": [
             "fortunate"
@@ -4843,15 +5031,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unlucky"
+        ]
     },
     {
         "id": "en_starter_emotions_020",
         "word": "calm",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "stormy",
-        "oppositeEmoji": "😟",
         "subtext": "stay calm / a calm sea",
         "synonyms": [
             "peaceful",
@@ -4872,15 +5061,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stormy"
+        ]
     },
     {
         "id": "en_starter_marital_status_001",
         "word": "married",
         "emoji": "💍",
         "form": "adjective",
-        "opposite": "single",
-        "oppositeEmoji": "👤",
         "subtext": "having a husband or wife / a married couple / get married",
         "definitions": [
             {
@@ -4895,16 +5085,17 @@
         "transcription": "ˈmɛrid",
         "lang": "en",
         "level": "starter",
-        "theme": "marital_status",
-        "sub_theme": null
+        "theme": "people",
+        "sub_theme": null,
+        "antonyms": [
+            "single"
+        ]
     },
     {
         "id": "en_starter_marital_status_002",
         "word": "single",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "married",
-        "oppositeEmoji": "💍",
         "subtext": "a single man",
         "synonyms": [
             "not married"
@@ -4922,16 +5113,17 @@
         "transcription": "ˈsɪŋgəl",
         "lang": "en",
         "level": "starter",
-        "theme": "marital_status",
-        "sub_theme": null
+        "theme": "people",
+        "sub_theme": null,
+        "antonyms": [
+            "married"
+        ]
     },
     {
         "id": "en_starter_illnesses_symptoms_004",
         "word": "well",
         "emoji": "💪",
         "form": "adjective",
-        "opposite": "ill",
-        "oppositeEmoji": "🤒",
         "subtext": "feel well / get well soon",
         "synonyms": [
             "healthy",
@@ -4952,7 +5144,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ill"
+        ]
     },
     {
         "id": "en_starter_colours_014",
@@ -4973,19 +5168,20 @@
         ],
         "comparative": "more purple",
         "superlative": "the most purple",
-        "opposite": "yellow",
         "transcription": "ˈpərpəl",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "yellow"
+        ]
     },
     {
         "id": "en_starter_describing_070",
         "word": "able",
         "emoji": "💪",
         "form": "adjective",
-        "opposite": "unable",
         "definitions": [
             {
                 "text": "Having the power, skill, knowledge, or money to do something.",
@@ -5004,14 +5200,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unable"
+        ]
     },
     {
         "id": "en_starter_distance_003",
         "word": "close",
         "emoji": "📍",
         "form": "adjective",
-        "opposite": "far",
         "definitions": [
             {
                 "text": "Near in space or time.",
@@ -5029,15 +5227,17 @@
         "transcription": "kloʊz",
         "lang": "en",
         "level": "starter",
-        "theme": "distance",
-        "sub_theme": null
+        "theme": "travel",
+        "sub_theme": null,
+        "antonyms": [
+            "far"
+        ]
     },
     {
         "id": "en_starter_illnesses_symptoms_005",
         "word": "dead",
         "emoji": "💀",
         "form": "adjective",
-        "opposite": "alive",
         "definitions": [
             {
                 "text": "Not living anymore.",
@@ -5056,14 +5256,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "alive"
+        ]
     },
     {
         "id": "en_starter_describing_071",
         "word": "fair",
         "emoji": "⚖️",
         "form": "adjective",
-        "opposite": "unfair",
         "definitions": [
             {
                 "text": "Treating people equally or in a right way.",
@@ -5082,14 +5284,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unfair"
+        ]
     },
     {
         "id": "en_starter_describing_072",
         "word": "fine",
         "emoji": "😊",
         "form": "adjective",
-        "opposite": "terrible",
         "definitions": [
             {
                 "text": "Good or acceptable; healthy.",
@@ -5110,14 +5314,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "terrible"
+        ]
     },
     {
         "id": "en_starter_emotions_021",
         "word": "glad",
         "emoji": "😊",
         "form": "adjective",
-        "opposite": "happy",
         "definitions": [
             {
                 "text": "Happy and pleased.",
@@ -5137,14 +5343,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "happy"
+        ]
     },
     {
         "id": "en_starter_surprise_interest_002",
         "word": "interested",
         "emoji": "🧐",
         "form": "adjective",
-        "opposite": "bored",
         "definitions": [
             {
                 "text": "Wanting to give your attention to something or learn more about it.",
@@ -5163,14 +5371,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "surprise_interest",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "bored"
+        ]
     },
     {
         "id": "en_starter_describing_073",
         "word": "only",
         "emoji": "1️⃣",
         "form": "adjective",
-        "opposite": "many",
         "definitions": [
             {
                 "text": "Used to show that there is only one or a few of something.",
@@ -5189,14 +5399,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "many"
+        ]
     },
     {
         "id": "en_starter_describing_074",
         "word": "other",
         "emoji": "➕",
         "form": "adjective",
-        "opposite": "same",
         "definitions": [
             {
                 "text": "Used to refer to people or things that are different from the ones already mentioned.",
@@ -5215,14 +5427,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "same"
+        ]
     },
     {
         "id": "en_starter_personal_identity_019",
         "word": "own",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "shared",
         "definitions": [
             {
                 "text": "Belonging to or done by a particular person.",
@@ -5241,14 +5455,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "personal_identity",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "shared"
+        ]
     },
     {
         "id": "en_starter_size_shape_029",
         "word": "quick",
         "emoji": "⚡",
         "form": "adjective",
-        "opposite": "slow",
         "definitions": [
             {
                 "text": "Happening or done in a short time.",
@@ -5267,14 +5483,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "slow"
+        ]
     },
     {
         "id": "en_starter_work_026",
         "word": "ready",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "unready",
         "definitions": [
             {
                 "text": "Prepared for what you are going to do.",
@@ -5293,15 +5511,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unready"
+        ]
     },
     {
         "id": "en_starter_work_027",
         "word": "unready",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "ready",
-        "oppositeEmoji": "✅",
         "subtext": "unready for the change",
         "synonyms": [
             "not prepared"
@@ -5320,14 +5539,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ready"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_006",
         "word": "rough",
         "emoji": "🧱",
         "form": "adjective",
-        "opposite": "smooth",
         "definitions": [
             {
                 "text": "Not smooth.",
@@ -5345,15 +5566,17 @@
         "transcription": "rəf",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "smooth"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_007",
         "word": "sharp",
         "emoji": "🔪",
         "form": "adjective",
-        "opposite": "blunt",
         "definitions": [
             {
                 "text": "Having a thin edge that is able to cut things or a fine point which is able to make a hole in things.",
@@ -5371,15 +5594,17 @@
         "transcription": "ʃɑrp",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "blunt"
+        ]
     },
     {
         "id": "en_starter_personality_traits_001",
         "word": "shy",
         "emoji": "😳",
         "form": "adjective",
-        "opposite": "confident",
         "definitions": [
             {
                 "text": "Nervous and uncomfortable about meeting and talking to other people.",
@@ -5398,14 +5623,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "confident"
+        ]
     },
     {
         "id": "en_starter_size_shape_030",
         "word": "thick",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "thin",
         "definitions": [
             {
                 "text": "Having a large distance between two sides.",
@@ -5424,14 +5651,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "thin"
+        ]
     },
     {
         "id": "en_starter_describing_075",
         "word": "true",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "false",
         "definitions": [
             {
                 "text": "Based on facts and not imaginary.",
@@ -5451,15 +5680,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "false"
+        ]
     },
     {
         "id": "en_starter_describing_076",
         "word": "false",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "true",
-        "oppositeEmoji": "✅",
         "subtext": "true or false / false information",
         "synonyms": [
             "incorrect"
@@ -5478,14 +5708,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "true"
+        ]
     },
     {
         "id": "en_starter_personality_traits_002",
         "word": "stupid",
         "emoji": "🤡",
         "form": "adjective",
-        "opposite": "smart",
         "definitions": [
             {
                 "text": "Silly or not intelligent.",
@@ -5504,14 +5736,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "smart"
+        ]
     },
     {
         "id": "en_starter_giving_opinions_001",
         "word": "sure",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "unsure",
         "definitions": [
             {
                 "text": "Certain; having no doubt.",
@@ -5531,15 +5765,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "giving_opinions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unsure"
+        ]
     },
     {
         "id": "en_starter_giving_opinions_002",
         "word": "unsure",
         "emoji": "❓",
         "form": "adjective",
-        "opposite": "sure",
-        "oppositeEmoji": "✅",
         "subtext": "feel unsure / unsure about",
         "synonyms": [
             "uncertain"
@@ -5558,15 +5793,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "giving_opinions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sure"
+        ]
     },
     {
         "id": "en_starter_personality_traits_003",
         "word": "nasty",
         "emoji": "😠",
         "form": "adjective",
-        "opposite": "nice",
-        "oppositeEmoji": "😊",
         "subtext": "a nasty person / nasty weather",
         "synonyms": [
             "unpleasant",
@@ -5586,15 +5822,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "nice"
+        ]
     },
     {
         "id": "en_starter_describing_077",
         "word": "incorrect",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "correct",
-        "oppositeEmoji": "✅",
         "subtext": "incorrect answer / absolutely incorrect",
         "synonyms": [
             "wrong",
@@ -5614,15 +5851,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "correct"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_008",
         "word": "smooth",
         "emoji": "🧼",
         "form": "adjective",
-        "opposite": "rough",
-        "oppositeEmoji": "🧱",
         "subtext": "smooth skin / smooth surface",
         "synonyms": [
             "flat",
@@ -5641,16 +5879,17 @@
         "transcription": "smuð",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "rough"
+        ]
     },
     {
         "id": "en_starter_describing_078",
         "word": "normal",
         "emoji": "😐",
         "form": "adjective",
-        "opposite": "strange",
-        "oppositeEmoji": "❓",
         "subtext": "normal day / back to normal",
         "synonyms": [
             "usual",
@@ -5670,15 +5909,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "strange"
+        ]
     },
     {
         "id": "en_starter_plants_natural_world_002",
         "word": "alive",
         "emoji": "🌱",
         "form": "adjective",
-        "opposite": "dead",
-        "oppositeEmoji": "💀",
         "subtext": "stay alive / still alive",
         "synonyms": [
             "living"
@@ -5697,15 +5937,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "plants_natural_world",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dead"
+        ]
     },
     {
         "id": "en_starter_numbers_002",
         "word": "many",
         "emoji": "🔢",
         "form": "adjective",
-        "opposite": "few",
-        "oppositeEmoji": "🤏",
         "subtext": "a lot of, numerous / many people / how many?",
         "definitions": [
             {
@@ -5721,15 +5962,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "few"
+        ]
     },
     {
         "id": "en_starter_describing_079",
         "word": "shared",
         "emoji": "👥",
         "form": "adjective",
-        "opposite": "own",
-        "oppositeEmoji": "👤",
         "subtext": "shared room / shared office",
         "synonyms": [
             "common"
@@ -5748,15 +5990,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "own"
+        ]
     },
     {
         "id": "en_starter_describing_080",
         "word": "unclear",
         "emoji": "🌫️",
         "form": "adjective",
-        "opposite": "clear",
-        "oppositeEmoji": "💧",
         "subtext": "unclear instructions / feel unclear",
         "synonyms": [
             "confusing",
@@ -5776,15 +6019,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "clear"
+        ]
     },
     {
         "id": "en_starter_numbers_003",
         "word": "few",
         "emoji": "🤏",
         "form": "adjective",
-        "opposite": "many",
-        "oppositeEmoji": "🔢",
         "subtext": "a few / very few",
         "synonyms": [
             "not many"
@@ -5803,14 +6047,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "many"
+        ]
     },
     {
         "id": "en_starter_giving_opinions_003",
         "word": "possible",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "impossible",
         "transcription": "🇬🇧 ˈpɒsəbl | 🇺🇸 ˈpɑːsəbl",
         "definitions": [
             {
@@ -5827,14 +6073,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "giving_opinions",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "impossible"
+        ]
     },
     {
         "id": "en_starter_describing_081",
         "word": "useful",
         "emoji": "🛠️",
         "form": "adjective",
-        "opposite": "useless",
         "transcription": "ˈjuːsfl",
         "definitions": [
             {
@@ -5851,12 +6099,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "useless"
+        ]
     }
-]
-    const lang = "en";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -16,7 +16,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈmamə/"
+        "transcription": "/ˈmamə/",
+        "lang": "ru",
+        "id": "ru_starter_family_001"
     },
     {
         "word": "папа",
@@ -34,7 +36,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈpapə/"
+        "transcription": "/ˈpapə/",
+        "lang": "ru",
+        "id": "ru_starter_family_002"
     },
     {
         "word": "брат",
@@ -52,7 +56,9 @@
                 ]
             }
         ],
-        "transcription": "/brat/"
+        "transcription": "/brat/",
+        "lang": "ru",
+        "id": "ru_starter_family_003"
     },
     {
         "word": "сестра",
@@ -70,7 +76,9 @@
                 ]
             }
         ],
-        "transcription": "/sʲɪˈstra/"
+        "transcription": "/sʲɪˈstra/",
+        "lang": "ru",
+        "id": "ru_starter_family_004"
     },
     {
         "word": "семья",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/sʲɪˈmʲja/"
+        "transcription": "/sʲɪˈmʲja/",
+        "lang": "ru",
+        "id": "ru_starter_family_005"
     }
-    ];
+];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

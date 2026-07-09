@@ -19,12 +19,14 @@
         "v3": "exercised",
         "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
         "group": "regular",
-        "opposite": "rest",
         "transcription": "ˈɛksərˌsaɪz",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "rest"
+        ]
     },
     {
         "id": "en_starter_leisure_activities_004",
@@ -343,7 +345,6 @@
     {
         "id": "en_starter_sports_003",
         "word": "football",
-        "image": "images/vocabulary/actions/to play sport.png",
         "emoji": "⚽",
         "form": "noun",
         "classification": "regular",
@@ -395,7 +396,6 @@
     {
         "id": "en_starter_music_007",
         "word": "guitar",
-        "image": "images/vocabulary/actions/to play a musical instrument.png",
         "emoji": "🎸",
         "form": "noun",
         "classification": "regular",
@@ -681,7 +681,7 @@
         "transcription": "ˈhɑbi",
         "lang": "en",
         "level": "starter",
-        "theme": "leisure",
+        "theme": "social",
         "sub_theme": null
     },
     {
@@ -922,7 +922,7 @@
         "transcription": "fɪlm",
         "lang": "en",
         "level": "starter",
-        "theme": "cinema_film",
+        "theme": "social",
         "sub_theme": null
     },
     {
@@ -946,7 +946,7 @@
         "transcription": "ˈmuvi",
         "lang": "en",
         "level": "starter",
-        "theme": "cinema_film",
+        "theme": "social",
         "sub_theme": null
     },
     {
@@ -994,7 +994,7 @@
         "transcription": "ˈfoʊˌtoʊ",
         "lang": "en",
         "level": "starter",
-        "theme": "leisure",
+        "theme": "social",
         "sub_theme": null
     },
     {
@@ -1018,7 +1018,7 @@
         "transcription": "ˈpɪkʧər",
         "lang": "en",
         "level": "starter",
-        "theme": "leisure",
+        "theme": "social",
         "sub_theme": null
     },
     {
@@ -1117,12 +1117,14 @@
         "v2": "watched",
         "v3": "watched",
         "group": "regular",
-        "opposite": "ignore",
         "transcription": "wɔʧ",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ignore"
+        ]
     },
     {
         "id": "en_starter_leisure_activities_013",
@@ -1143,20 +1145,20 @@
         "v2": "played",
         "v3": "played",
         "group": "regular",
-        "opposite": "work",
         "transcription": "pleɪ",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "work"
+        ]
     },
     {
         "id": "en_starter_sports_008",
         "word": "run",
         "emoji": "🏃",
         "subtext": "run a race / run a business / run out of / run late",
-        "opposite": "walk",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -1176,15 +1178,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "sports",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "walk"
+        ]
     },
     {
         "id": "en_starter_leisure_activities_014",
         "word": "win",
         "emoji": "🏆",
         "subtext": "win a game / win a prize / win an award / win a contract",
-        "opposite": "lose",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -1203,7 +1206,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "lose"
+        ]
     },
     {
         "id": "en_starter_cinema_film_003",
@@ -1229,7 +1235,7 @@
         "transcription": "drɔ",
         "lang": "en",
         "level": "starter",
-        "theme": "cinema_film",
+        "theme": "social",
         "sub_theme": null
     },
     {
@@ -1255,12 +1261,14 @@
         "v2": "danced",
         "v3": "danced",
         "group": "regular",
-        "opposite": "sit",
         "transcription": "dæns",
         "lang": "en",
         "level": "starter",
         "theme": "music",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sit"
+        ]
     },
     {
         "id": "en_starter_music_013",
@@ -1285,12 +1293,14 @@
         "v2": "sang",
         "v3": "sung",
         "group": "irregular",
-        "opposite": "be quiet",
         "transcription": "sɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "music",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "be quiet"
+        ]
     },
     {
         "id": "en_starter_playing_watching_sport_001",
@@ -1312,17 +1322,18 @@
         "v2": "jumped",
         "v3": "jumped",
         "group": "regular",
-        "opposite": "fall",
         "transcription": "ʤəmp",
         "lang": "en",
         "level": "starter",
         "theme": "playing_watching_sport",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "fall"
+        ]
     },
     {
         "id": "en_starter_sports_009",
         "word": "swim",
-        "image": "images/vocabulary/actions/to swim.png",
         "emoji": "🏊",
         "subtext": "swim across / swim laps / swim well",
         "synonyms": [
@@ -1343,12 +1354,14 @@
         "v2": "swam",
         "v3": "swum",
         "group": "irregular",
-        "opposite": "sink",
         "transcription": "swɪm",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sink"
+        ]
     },
     {
         "id": "en_starter_leisure_activities_015",
@@ -1369,12 +1382,14 @@
         "emoji": "🎉",
         "form": "verb",
         "group": "regular",
-        "opposite": "mourn",
         "transcription": "ˈsɛləˌbreɪt",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "mourn"
+        ]
     },
     {
         "id": "en_starter_leisure_activities_016",
@@ -1395,12 +1410,14 @@
         "v2": "relaxed",
         "v3": "relaxed",
         "group": "regular",
-        "opposite": "work",
         "transcription": "rɪˈlæks",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "work"
+        ]
     },
     {
         "id": "en_starter_sports_010",
@@ -1424,12 +1441,14 @@
         "v2": "kicked",
         "v3": "kicked",
         "group": "regular",
-        "opposite": "catch",
         "transcription": "kɪk",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "catch"
+        ]
     },
     {
         "id": "en_starter_sports_011",
@@ -1453,12 +1472,14 @@
         "v2": "threw",
         "v3": "thrown",
         "group": "irregular",
-        "opposite": "catch",
         "transcription": "θroʊ",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "catch"
+        ]
     },
     {
         "id": "en_starter_sports_012",
@@ -1483,17 +1504,18 @@
         "v2": "bounced",
         "v3": "bounced",
         "group": "regular",
-        "opposite": "stop",
         "transcription": "baʊns",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stop"
+        ]
     },
     {
         "id": "en_starter_leisure_020",
         "word": "paint",
-        "image": "images/vocabulary/actions/to paint.png",
         "emoji": "🎨",
         "form": "verb",
         "subtext": "paint a picture",
@@ -1514,12 +1536,14 @@
         "v2": "painted",
         "v3": "painted",
         "group": "regular",
-        "opposite": "erase",
         "transcription": "peɪnt",
         "lang": "en",
         "level": "starter",
-        "theme": "leisure",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "antonyms": [
+            "erase"
+        ]
     },
     {
         "id": "en_starter_leisure_activities_017",
@@ -1543,12 +1567,14 @@
         "v2": "hopped",
         "v3": "hopped",
         "group": "regular",
-        "opposite": "walk",
         "transcription": "hɑp",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "walk"
+        ]
     },
     {
         "id": "en_starter_leisure_activities_018",
@@ -1573,20 +1599,20 @@
         "v2": "skipped",
         "v3": "skipped",
         "group": "regular",
-        "opposite": "walk",
         "transcription": "skɪp",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "walk"
+        ]
     },
     {
         "id": "en_starter_toys_games_008",
         "word": "hide",
         "emoji": "🙈",
         "subtext": "hide and seek / hide from someone / hide something",
-        "opposite": "show",
-        "oppositeEmoji": "📽️",
         "form": "verb",
         "definitions": [
             {
@@ -1605,7 +1631,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "show"
+        ]
     },
     {
         "id": "en_starter_toys_games_009",
@@ -1629,12 +1658,14 @@
         "v2": "sought",
         "v3": "sought",
         "group": "irregular",
-        "opposite": "hide",
         "transcription": "sik",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "hide"
+        ]
     },
     {
         "id": "en_starter_leisure_activities_019",
@@ -1655,12 +1686,14 @@
         "v2": "acted",
         "v3": "acted",
         "group": "regular",
-        "opposite": "be natural",
         "transcription": "ækt",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "be natural"
+        ]
     },
     {
         "id": "en_starter_leisure_021",
@@ -1681,12 +1714,14 @@
         "v2": "joined",
         "v3": "joined",
         "group": "regular",
-        "opposite": "leave",
         "transcription": "ʤɔɪn",
         "lang": "en",
         "level": "starter",
-        "theme": "leisure",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "antonyms": [
+            "leave"
+        ]
     },
     {
         "id": "en_starter_leisure_022",
@@ -1707,12 +1742,14 @@
         "v2": "collected",
         "v3": "collected",
         "group": "regular",
-        "opposite": "scatter",
         "transcription": "kəˈlɛkt",
         "lang": "en",
         "level": "starter",
-        "theme": "leisure",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "antonyms": [
+            "scatter"
+        ]
     }
 ];
     const lang = "en";

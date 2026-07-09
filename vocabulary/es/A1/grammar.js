@@ -67,7 +67,9 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "esse"
-        }
+        },
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "verb": "estar",
@@ -135,7 +137,9 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "stare"
-        }
+        },
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "verb": "tener",
@@ -203,7 +207,9 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "tenere"
-        }
+        },
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "verb": "trabajar",
@@ -267,7 +273,9 @@
             }
         ],
         "form": "verb",
-        "id": "es_starter_social_014"
+        "id": "es_starter_social_014",
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "verb": "hacer",
@@ -335,7 +343,9 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "facere"
-        }
+        },
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "verb": "ir",
@@ -399,7 +409,9 @@
             }
         ],
         "form": "verb",
-        "id": "es_starter_social_016"
+        "id": "es_starter_social_016",
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "verb": "comer",
@@ -467,7 +479,9 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "comedere"
-        }
+        },
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "verb": "hablar",
@@ -535,9 +549,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "fabulari"
-        }
+        },
+        "transcription": "",
+        "emoji": "✨"
     }
-    ];
+];
     const lang = "es";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

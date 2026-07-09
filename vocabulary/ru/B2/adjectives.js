@@ -17,7 +17,8 @@
         ],
         "gender": "он",
         "emoji": "🏛️",
-        "subtext": "гражданский долг, общественный"
+        "subtext": "гражданский долг, общественный",
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_health_medicine_004",
@@ -43,7 +44,8 @@
         ],
         "antonyms": [
             "острый"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_health_medicine_005",
@@ -66,7 +68,8 @@
         "synonyms": [
             "профилактический",
             "упреждающий"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_social_050",
@@ -89,7 +92,8 @@
         "synonyms": [
             "моральный",
             "этический"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_social_051",
@@ -111,7 +115,8 @@
         "subtext": "",
         "synonyms": [
             "этичное поведение"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_environment_008",
@@ -133,9 +138,10 @@
         "subtext": "",
         "synonyms": [
             "экологически чистый"
-        ]
+        ],
+        "transcription": ""
     }
-    ];
+];
     const lang = "ru";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

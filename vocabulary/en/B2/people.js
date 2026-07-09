@@ -13,7 +13,9 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "en_upper_intermediate_people_009",
@@ -28,9 +30,11 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "transcription": "",
+        "emoji": "✨"
     }
-    ];
+];
     const lang = "en";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];

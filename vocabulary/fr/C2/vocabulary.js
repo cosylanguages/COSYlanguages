@@ -18,7 +18,8 @@
                     "Le dialogue se termine en aporie, sans qu'aucune réponse satisfaisante ne soit atteinte."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_language_002",
@@ -36,7 +37,8 @@
                     "Son argument repose sur une vision téléologique du progrès humain."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_language_003",
@@ -54,7 +56,8 @@
                     "Ses engagements ontologiques façonnent tout son argument."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_language_004",
@@ -72,7 +75,8 @@
                     "La réification des forces du marché masque les décisions humaines qui les sous-tendent."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_language_005",
@@ -90,7 +94,8 @@
                     "La dialectique entre liberté et sécurité définit la pensée libérale."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_psychology_001",
@@ -108,7 +113,8 @@
                     "'Suivez l'argent' est une heuristique utile dans le journalisme d'investigation."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_psychology_002",
@@ -126,7 +132,8 @@
                     "La pensée conspirationniste est alimentée par l'apophénie."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_psychology_003",
@@ -143,7 +150,8 @@
                     "La cognition motivée explique pourquoi les gens résistent aux preuves importunes."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_psychology_004",
@@ -160,7 +168,8 @@
                     "Les transhumanistes invoquent souvent le principe proactif."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_psychology_005",
@@ -177,7 +186,8 @@
                     "Le droit de l'environnement applique fréquemment le principe de précaution."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_social_001",
@@ -194,7 +204,8 @@
                     "Les critiques soutiennent que la neutralité libérale est en soi une position morale substantielle."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_social_002",
@@ -212,7 +223,8 @@
                     "Elle a critiqué les hypothèses pronatalistes intégrées dans la politique fiscale familiale."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_psychology_006",
@@ -230,7 +242,8 @@
                     "L'art est depuis longtemps compris comme une forme de sublimation."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_psychology_007",
@@ -248,7 +261,8 @@
                     "Žižek utilise le concept de jouissance pour expliquer l'attachement idéologique."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_psychology_008",
@@ -266,7 +280,8 @@
                     "Le roman explore la tension entre eros et thanatos."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_art_culture_001",
@@ -284,7 +299,8 @@
                     "Le discours est descendu dans le bathos au moment crucial."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_language_006",
@@ -302,7 +318,8 @@
                     "'Je ne mentionnerai pas son casier judiciaire' est une apophase classique."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_language_007",
@@ -320,7 +337,8 @@
                     "La rhétorique politique repose souvent sur la paralepsis."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_language_008",
@@ -337,7 +355,8 @@
                     "Le milieu de la vie peut être compris comme un espace liminal."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_language_009",
@@ -355,7 +374,8 @@
                     "'Ne demandez pas ce que votre pays peut faire pour vous' utilise le chiasme."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_proficiency_language_010",
@@ -373,7 +393,8 @@
                     "'Les familles travailleuses' est devenu un shibboleth politique."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     }
 ];
 

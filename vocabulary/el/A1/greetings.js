@@ -16,7 +16,9 @@
                 ]
             }
         ],
-        "transcription": "/ja/"
+        "transcription": "/ja/",
+        "lang": "el",
+        "id": "el_starter_greetings_001"
     },
     {
         "word": "αντίο",
@@ -34,7 +36,9 @@
                 ]
             }
         ],
-        "transcription": "/anˈdi.o/"
+        "transcription": "/anˈdi.o/",
+        "lang": "el",
+        "id": "el_starter_greetings_002"
     },
     {
         "word": "παρακαλώ",
@@ -52,7 +56,9 @@
                 ]
             }
         ],
-        "transcription": "/pa.ra.kaˈlo/"
+        "transcription": "/pa.ra.kaˈlo/",
+        "lang": "el",
+        "id": "el_starter_greetings_003"
     },
     {
         "word": "ευχαριστώ",
@@ -70,7 +76,9 @@
                 ]
             }
         ],
-        "transcription": "/ef.xa.risˈto/"
+        "transcription": "/ef.xa.risˈto/",
+        "lang": "el",
+        "id": "el_starter_greetings_004"
     },
     {
         "word": "συγγνώμη",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/siˈɣno.mi/"
+        "transcription": "/siˈɣno.mi/",
+        "lang": "el",
+        "id": "el_starter_greetings_005"
     }
-    ];
+];
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

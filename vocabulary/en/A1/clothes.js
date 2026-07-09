@@ -782,12 +782,14 @@
         "v2": "wore",
         "v3": "worn",
         "group": "irregular",
-        "opposite": "undress",
         "transcription": "wɛr",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "undress"
+        ]
     },
     {
         "id": "en_starter_items_of_clothing_023",
@@ -808,12 +810,14 @@
         "v2": "fitted",
         "v3": "fitted",
         "group": "regular",
-        "opposite": "unfit",
         "transcription": "fɪt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unfit"
+        ]
     }
 ];
     const lang = "en";

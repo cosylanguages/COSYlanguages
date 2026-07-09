@@ -18,7 +18,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_language_001"
+        "id": "pt_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "teleologia",
@@ -36,7 +37,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_language_002"
+        "id": "pt_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "ontologia",
@@ -54,7 +56,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_language_003"
+        "id": "pt_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "reificação",
@@ -72,7 +75,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_language_004"
+        "id": "pt_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "dialética",
@@ -90,7 +94,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_language_005"
+        "id": "pt_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "heurística",
@@ -108,7 +113,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_psychology_001"
+        "id": "pt_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "apofenia",
@@ -126,7 +132,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_psychology_002"
+        "id": "pt_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "cognição motivada",
@@ -143,7 +150,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_psychology_003"
+        "id": "pt_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "princípio proativo",
@@ -160,7 +168,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_social_001"
+        "id": "pt_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "princípio da precaução",
@@ -177,7 +186,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_social_002"
+        "id": "pt_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "neutralidade liberal",
@@ -194,7 +204,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_social_003"
+        "id": "pt_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "pronatalismo",
@@ -212,7 +223,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_social_004"
+        "id": "pt_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "sublimação",
@@ -230,7 +242,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_psychology_004"
+        "id": "pt_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "jouissance",
@@ -248,7 +261,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_psychology_005"
+        "id": "pt_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "thanatos",
@@ -266,7 +280,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_psychology_006"
+        "id": "pt_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "bathos",
@@ -284,7 +299,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_art_culture_001"
+        "id": "pt_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "apófase",
@@ -302,7 +318,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_language_006"
+        "id": "pt_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "paralepsis",
@@ -320,7 +337,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_language_007"
+        "id": "pt_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "espaço liminar",
@@ -337,7 +355,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_language_008"
+        "id": "pt_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "quiasmo",
@@ -355,7 +374,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_language_009"
+        "id": "pt_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "shibboleth",
@@ -373,7 +393,8 @@
             }
         ],
         "lang": "pt",
-        "id": "pt_proficiency_language_010"
+        "id": "pt_proficiency_language_010",
+        "transcription": ""
     }
 ];
 

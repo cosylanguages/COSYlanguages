@@ -15,7 +15,8 @@
                     "Dobbiamo promuovere uno sviluppo sostenibile."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_politics_governance_001",
@@ -33,7 +34,8 @@
                     "Votare è un dovere civico."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_serious_illness_treatment_001",
@@ -44,7 +46,9 @@
         "emoji": "⏳🤒",
         "form": "adjective",
         "subtext": "dolore cronico, persistente",
-        "antonyms": ["acuto"],
+        "antonyms": [
+            "acuto"
+        ],
         "definitions": [
             {
                 "text": "Che dura a lungo; di una condizione di salute che è persistente.",
@@ -52,7 +56,8 @@
                     "Soffre di mal di schiena cronico."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_serious_illness_treatment_002",
@@ -70,7 +75,8 @@
                     "La medicina preventiva riduce i costi a lungo termine."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_ethical_dilemmas_001",
@@ -88,7 +94,8 @@
                     "Ha preso una decisione morale rifiutando i soldi."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_ethical_dilemmas_002",
@@ -106,9 +113,10 @@
                     "Le aziende devono operare in modo etico."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     }
-    ];
+];
     const lang = "it";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

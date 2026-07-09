@@ -1,21 +1,32 @@
 (function() {
     const data = [
-{
+    {
         "word": "giardino",
-        "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "places",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "Un giardino pubblico o un parco.", "examples": [] }],
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un giardino pubblico o un parco.",
+                "examples": []
+            }
+        ],
+        "lang": "it",
+        "transcription": "",
+        "id": "it_starter_places_001"
     },
-{
+    {
         "word": "parco",
         "level": "starter",
         "theme": "places",
         "article": "il",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "parchi",
         "gender": "masculine",
         "partitive": "del",
@@ -30,16 +41,19 @@
         "transcription": "ˈparko",
         "synonyms": [],
         "subtext": "parco giochi",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_002"
     },
-{
+    {
         "word": "scuola",
-        "image": "images/vocabulary/actions/to go to school.png",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "scuole",
         "gender": "feminine",
         "partitive": "della",
@@ -58,15 +72,19 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "schola"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_places_003"
     },
-{
+    {
         "word": "affitto",
         "level": "starter",
         "theme": "travel",
         "article": "l'",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "affitti",
         "definitions": [
             {
@@ -81,15 +99,19 @@
         "transcription": "afˈfitto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_001"
     },
-{
+    {
         "word": "vicino",
         "level": "starter",
         "theme": "places",
         "article": "il",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vicini",
         "definitions": [
             {
@@ -104,16 +126,20 @@
         "transcription": "viˈtʃino",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_004"
     },
-{
+    {
         "word": "hotel",
         "level": "starter",
         "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "hotel",
         "definitions": [
             {
@@ -127,16 +153,20 @@
         "transcription": "oˈtɛl",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_002"
     },
-{
+    {
         "word": "ospedale",
         "level": "starter",
         "theme": "places",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ospedali",
         "subtext": "andare all'ospedale, pronto soccorso",
         "definitions": [
@@ -150,16 +180,20 @@
         "partitive": "dell'",
         "transcription": "ospeˈdale",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_005"
     },
-{
+    {
         "word": "ristorante",
         "level": "starter",
         "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ristoranti",
         "subtext": "ristorante italiano, andare al ristorante",
         "definitions": [
@@ -173,16 +207,20 @@
         "partitive": "del",
         "transcription": "ristoˈrante",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_006"
     },
-{
+    {
         "word": "banca",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "banche",
         "subtext": "conto in banca, andare in banca",
         "definitions": [
@@ -196,16 +234,20 @@
         "partitive": "della",
         "transcription": "ˈbaŋka",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_007"
     },
-{
+    {
         "word": "stazione",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚉",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stazioni",
         "subtext": "stazione ferroviaria, stazione degli autobus",
         "definitions": [
@@ -219,16 +261,20 @@
         "partitive": "della",
         "transcription": "statˈtsjone",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_008"
     },
-{
+    {
         "word": "supermercato",
         "level": "starter",
         "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "supermercati",
         "subtext": "andare al supermercato",
         "definitions": [
@@ -242,16 +288,20 @@
         "partitive": "del",
         "transcription": "supermerˈkato",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_009"
     },
-{
+    {
         "word": "farmacia",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "💊",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "farmacie",
         "definitions": [
             {
@@ -265,16 +315,20 @@
         "transcription": "farmaˈtʃia",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_010"
     },
-{
+    {
         "word": "strada",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "strade",
         "definitions": [
             {
@@ -288,16 +342,20 @@
         "transcription": "ˈstrada",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_011"
     },
-{
+    {
         "word": "edificio",
         "level": "starter",
         "theme": "places",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "edifici",
         "definitions": [
             {
@@ -311,16 +369,20 @@
         "transcription": "ediˈfitʃo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_012"
     },
-{
+    {
         "word": "bar",
         "level": "starter",
         "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bar",
         "definitions": [
             {
@@ -334,16 +396,20 @@
         "transcription": "ˈbar",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_013"
     },
-{
+    {
         "word": "centro",
         "level": "starter",
         "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "📍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "centri",
         "definitions": [
             {
@@ -357,16 +423,20 @@
         "transcription": "ˈtʃɛntro",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_014"
     },
-{
+    {
         "word": "quartiere",
         "level": "starter",
         "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "📍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "quartieri",
         "definitions": [
             {
@@ -380,9 +450,11 @@
         "transcription": "kwarˈtjɛre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_015"
     },
-{
+    {
         "word": "lì",
         "level": "starter",
         "theme": "prepositions_place",
@@ -402,16 +474,20 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈlì"
+        "transcription": "ˈlì",
+        "lang": "it",
+        "id": "it_starter_prepositions_place_001"
     },
-{
+    {
         "word": "città",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "città",
         "definitions": [
             {
@@ -429,16 +505,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "civitas"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_places_016"
     },
-{
+    {
         "word": "paese",
         "level": "starter",
         "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "paesi",
         "definitions": [
             {
@@ -452,16 +532,20 @@
         "transcription": "ˈpaese",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_017"
     },
-{
+    {
         "word": "mensa",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mense",
         "definitions": [
             {
@@ -475,16 +559,20 @@
         "transcription": "ˈmɛnsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_018"
     },
-{
+    {
         "word": "via",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vie",
         "definitions": [
             {
@@ -498,16 +586,20 @@
         "transcription": "ˈvia",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_019"
     },
-{
+    {
         "word": "sentiero",
         "level": "starter",
         "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "👣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sentieri",
         "definitions": [
             {
@@ -521,16 +613,20 @@
         "transcription": "senˈtjɛro",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_020"
     },
-{
+    {
         "word": "piazza",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "piazze",
         "definitions": [
             {
@@ -544,16 +640,20 @@
         "transcription": "ˈpjattsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_021"
     },
-{
+    {
         "word": "villaggio",
         "level": "starter",
         "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏘️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "villaggi",
         "definitions": [
             {
@@ -567,11 +667,15 @@
         "transcription": "vilˈladdʒo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_022"
     },
-{
+    {
         "level": "starter",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "indirizzi",
         "word": "indirizzo",
         "theme": "places",
@@ -589,9 +693,12 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_023"
     },
-{
+    {
         "word": "qui",
         "level": "starter",
         "theme": "prepositions_place",
@@ -613,9 +720,12 @@
         "antonyms": [
             "là",
             "lì"
-        ]
+        ],
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_prepositions_place_002"
     },
-{
+    {
         "word": "là",
         "level": "starter",
         "theme": "prepositions_place",
@@ -637,9 +747,12 @@
         "antonyms": [
             "qui",
             "qua"
-        ]
+        ],
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_prepositions_place_003"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

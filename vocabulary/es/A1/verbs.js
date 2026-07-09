@@ -44,7 +44,8 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "esse"
-        }
+        },
+        "transcription": ""
     },
     {
         "word": "tener",
@@ -89,7 +90,8 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "tenere"
-        }
+        },
+        "transcription": ""
     },
     {
         "word": "sentir",
@@ -120,7 +122,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "symptoms",
-        "id": "es_starter_health_medicine_005"
+        "id": "es_starter_health_medicine_005",
+        "transcription": ""
     },
     {
         "word": "dar",
@@ -128,8 +131,6 @@
         "theme": "shopping",
         "emoji": "🎁",
         "subtext": "dar consejos / dar dinero / dar un regalo / dar información",
-        "opposite": "tomar",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -152,7 +153,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "dare"
-        }
+        },
+        "antonyms": [
+            "tomar"
+        ],
+        "transcription": ""
     },
     {
         "word": "tomar",
@@ -160,8 +165,6 @@
         "theme": "travel",
         "emoji": "👜",
         "subtext": "tomar el autobús / tomar medicina / tomar un descanso / tomar tiempo",
-        "opposite": "dar",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -184,7 +187,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "tomare"
-        }
+        },
+        "antonyms": [
+            "dar"
+        ],
+        "transcription": ""
     },
     {
         "word": "obtener",
@@ -217,7 +224,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_007"
+        "id": "es_starter_shopping_007",
+        "transcription": ""
     },
     {
         "word": "poner",
@@ -249,7 +257,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "household_items",
-        "id": "es_starter_furniture_010"
+        "id": "es_starter_furniture_010",
+        "transcription": ""
     },
     {
         "word": "hacer",
@@ -296,7 +305,8 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "facere"
-        }
+        },
+        "transcription": ""
     },
     {
         "word": "usar",
@@ -323,7 +333,8 @@
         "v4": "usando",
         "lang": "es",
         "sub_theme": "devices",
-        "id": "es_starter_technology_006"
+        "id": "es_starter_technology_006",
+        "transcription": ""
     },
     {
         "word": "abrir",
@@ -331,8 +342,6 @@
         "theme": "shopping",
         "emoji": "📖",
         "subtext": "abrir una puerta / abrir una cuenta / abrir una tienda / abrir a las nueve",
-        "opposite": "cerrar",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -352,7 +361,11 @@
         "v4": "abriendo",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_008"
+        "id": "es_starter_shopping_008",
+        "antonyms": [
+            "cerrar"
+        ],
+        "transcription": ""
     },
     {
         "word": "cerrar",
@@ -360,8 +373,6 @@
         "theme": "shopping",
         "emoji": "🔒",
         "subtext": "cerrar una puerta / cerrar a las seis / cerrar una cuenta / cerrar la reunión",
-        "opposite": "abrir",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -381,7 +392,11 @@
         "v4": "cerrando",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_009"
+        "id": "es_starter_shopping_009",
+        "antonyms": [
+            "abrir"
+        ],
+        "transcription": ""
     },
     {
         "word": "empezar",
@@ -389,8 +404,6 @@
         "theme": "work",
         "emoji": "▶️",
         "subtext": "empezar a trabajar / empezar una reunión / empezar un nuevo trabajo",
-        "opposite": "terminar",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -409,7 +422,11 @@
         "v4": "empezando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_010"
+        "id": "es_starter_work_010",
+        "antonyms": [
+            "terminar"
+        ],
+        "transcription": ""
     },
     {
         "word": "terminar",
@@ -417,8 +434,6 @@
         "theme": "work",
         "emoji": "🏁",
         "subtext": "terminar el trabajo / terminar un proyecto / terminar temprano / terminar tarde",
-        "opposite": "empezar",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -437,7 +452,11 @@
         "v4": "terminando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_011"
+        "id": "es_starter_work_011",
+        "antonyms": [
+            "empezar"
+        ],
+        "transcription": ""
     },
     {
         "word": "ayudar",
@@ -467,7 +486,8 @@
         "v4": "ayudando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_012"
+        "id": "es_starter_work_012",
+        "transcription": ""
     },
     {
         "word": "intentar",
@@ -497,7 +517,8 @@
         "v4": "intentando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_001"
+        "id": "es_starter_school_001",
+        "transcription": ""
     },
     {
         "word": "mostrar",
@@ -522,7 +543,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_starter_language_003"
+        "id": "es_starter_language_003",
+        "transcription": ""
     },
     {
         "word": "encontrar",
@@ -552,7 +574,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_010"
+        "id": "es_starter_shopping_010",
+        "transcription": ""
     },
     {
         "word": "mantener",
@@ -584,7 +607,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_013"
+        "id": "es_starter_work_013",
+        "transcription": ""
     },
     {
         "word": "perder",
@@ -592,8 +616,6 @@
         "theme": "shopping",
         "emoji": "📉",
         "subtext": "perder un trabajo / perder dinero / perder peso / perder tiempo",
-        "opposite": "ganar",
-        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -613,7 +635,11 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_011"
+        "id": "es_starter_shopping_011",
+        "antonyms": [
+            "ganar"
+        ],
+        "transcription": ""
     },
     {
         "word": "cortar",
@@ -644,7 +670,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "cooking",
-        "id": "es_starter_food_drink_020"
+        "id": "es_starter_food_drink_020",
+        "transcription": ""
     },
     {
         "word": "girar",
@@ -675,7 +702,8 @@
         "v4": "girando",
         "lang": "es",
         "sub_theme": "transport",
-        "id": "es_starter_travel_009"
+        "id": "es_starter_travel_009",
+        "transcription": ""
     },
     {
         "word": "traer",
@@ -704,7 +732,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "meals",
-        "id": "es_starter_food_drink_021"
+        "id": "es_starter_food_drink_021",
+        "transcription": ""
     },
     {
         "word": "decir",
@@ -745,7 +774,8 @@
         },
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_starter_language_004"
+        "id": "es_starter_language_004",
+        "transcription": ""
     },
     {
         "word": "preguntar",
@@ -776,7 +806,8 @@
         "v4": "preguntando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_starter_language_005"
+        "id": "es_starter_language_005",
+        "transcription": ""
     },
     {
         "word": "hablar",
@@ -806,7 +837,8 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "fabulari"
-        }
+        },
+        "transcription": ""
     },
     {
         "word": "llamar",
@@ -836,7 +868,8 @@
         "v4": "llamando",
         "lang": "es",
         "sub_theme": "devices",
-        "id": "es_starter_technology_007"
+        "id": "es_starter_technology_007",
+        "transcription": ""
     },
     {
         "word": "escribir",
@@ -847,8 +880,6 @@
         "synonyms": [
             "tomar notas"
         ],
-        "opposite": "leer",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -867,7 +898,11 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_002"
+        "id": "es_starter_school_002",
+        "antonyms": [
+            "leer"
+        ],
+        "transcription": ""
     },
     {
         "word": "leer",
@@ -875,8 +910,6 @@
         "theme": "school",
         "emoji": "📖",
         "subtext": "leer un libro / leer las noticias / leer un contrato / leer atentamente",
-        "opposite": "escribir",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -895,7 +928,11 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_003"
+        "id": "es_starter_school_003",
+        "antonyms": [
+            "escribir"
+        ],
+        "transcription": ""
     },
     {
         "word": "escuchar",
@@ -922,7 +959,8 @@
         "v4": "escuchando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_004"
+        "id": "es_starter_school_004",
+        "transcription": ""
     },
     {
         "word": "responder",
@@ -949,7 +987,8 @@
         "v4": "respondiendo",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_starter_language_006"
+        "id": "es_starter_language_006",
+        "transcription": ""
     },
     {
         "word": "repetir",
@@ -979,7 +1018,8 @@
         "v4": "repetiendo",
         "lang": "es",
         "sub_theme": "classroom",
-        "id": "es_starter_school_005"
+        "id": "es_starter_school_005",
+        "transcription": ""
     },
     {
         "word": "ir",
@@ -1020,7 +1060,8 @@
         },
         "lang": "es",
         "sub_theme": "tourism",
-        "id": "es_starter_travel_010"
+        "id": "es_starter_travel_010",
+        "transcription": ""
     },
     {
         "word": "venir",
@@ -1031,8 +1072,6 @@
         "synonyms": [
             "volver"
         ],
-        "opposite": "ir",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -1055,7 +1094,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "venire"
-        }
+        },
+        "antonyms": [
+            "ir"
+        ],
+        "transcription": ""
     },
     {
         "word": "caminar",
@@ -1082,7 +1125,8 @@
         "v4": "caminando",
         "lang": "es",
         "sub_theme": "transport",
-        "id": "es_starter_travel_012"
+        "id": "es_starter_travel_012",
+        "transcription": ""
     },
     {
         "word": "conducir",
@@ -1108,7 +1152,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "transport",
-        "id": "es_starter_travel_013"
+        "id": "es_starter_travel_013",
+        "transcription": ""
     },
     {
         "word": "volar",
@@ -1134,7 +1179,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "transport",
-        "id": "es_starter_travel_014"
+        "id": "es_starter_travel_014",
+        "transcription": ""
     },
     {
         "word": "llegar",
@@ -1160,7 +1206,8 @@
         "v4": "llegando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_014"
+        "id": "es_starter_work_014",
+        "transcription": ""
     },
     {
         "word": "salir",
@@ -1185,7 +1232,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_015"
+        "id": "es_starter_work_015",
+        "transcription": ""
     },
     {
         "word": "mover",
@@ -1216,7 +1264,8 @@
         "v4": "moviendo",
         "lang": "es",
         "sub_theme": "household_items",
-        "id": "es_starter_furniture_011"
+        "id": "es_starter_furniture_011",
+        "transcription": ""
     },
     {
         "word": "volver",
@@ -1246,7 +1295,8 @@
         "v4": "volviendo",
         "lang": "es",
         "sub_theme": "tourism",
-        "id": "es_starter_travel_015"
+        "id": "es_starter_travel_015",
+        "transcription": ""
     },
     {
         "word": "viajar",
@@ -1272,7 +1322,8 @@
         "v4": "viajando",
         "lang": "es",
         "sub_theme": "transport",
-        "id": "es_starter_travel_016"
+        "id": "es_starter_travel_016",
+        "transcription": ""
     },
     {
         "word": "comer",
@@ -1285,8 +1336,6 @@
             "almorzar",
             "cenar"
         ],
-        "opposite": "beber",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1309,7 +1358,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "comedere"
-        }
+        },
+        "antonyms": [
+            "beber"
+        ],
+        "transcription": ""
     },
     {
         "word": "beber",
@@ -1317,8 +1370,6 @@
         "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "beber café / beber té / beber agua / beber cerveza",
-        "opposite": "comer",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1341,7 +1392,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "bibere"
-        }
+        },
+        "antonyms": [
+            "comer"
+        ],
+        "transcription": ""
     },
     {
         "word": "dormir",
@@ -1349,8 +1404,6 @@
         "theme": "time",
         "emoji": "😴",
         "subtext": "dormir bien / dormir mal / dormir ocho horas / dormir hasta tarde",
-        "opposite": "despertarse",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1373,7 +1426,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "dormire"
-        }
+        },
+        "antonyms": [
+            "despertarse"
+        ],
+        "transcription": ""
     },
     {
         "word": "cocinar",
@@ -1399,7 +1456,8 @@
         "v4": "cocinando",
         "lang": "es",
         "sub_theme": "cooking",
-        "id": "es_starter_food_drink_024"
+        "id": "es_starter_food_drink_024",
+        "transcription": ""
     },
     {
         "word": "limpiar",
@@ -1428,7 +1486,8 @@
         "v4": "limpiando",
         "lang": "es",
         "sub_theme": "household_items",
-        "id": "es_starter_furniture_012"
+        "id": "es_starter_furniture_012",
+        "transcription": ""
     },
     {
         "word": "lavar",
@@ -1458,7 +1517,8 @@
         "v4": "lavando",
         "lang": "es",
         "sub_theme": "household_items",
-        "id": "es_starter_furniture_013"
+        "id": "es_starter_furniture_013",
+        "transcription": ""
     },
     {
         "word": "comprar",
@@ -1466,8 +1526,6 @@
         "theme": "shopping",
         "emoji": "🛒",
         "subtext": "comprar comida / comprar un billete / comprar en línea / comprar una casa",
-        "opposite": "vender",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1486,7 +1544,11 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_012"
+        "id": "es_starter_shopping_012",
+        "antonyms": [
+            "vender"
+        ],
+        "transcription": ""
     },
     {
         "word": "pagar",
@@ -1511,7 +1573,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_013"
+        "id": "es_starter_shopping_013",
+        "transcription": ""
     },
     {
         "word": "gastar",
@@ -1539,7 +1602,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_014"
+        "id": "es_starter_shopping_014",
+        "transcription": ""
     },
     {
         "word": "ahorrar",
@@ -1547,8 +1611,6 @@
         "theme": "shopping",
         "emoji": "💰",
         "subtext": "ahorrar dinero / ahorrar para unas vacaciones / ahorrar para una casa",
-        "opposite": "gastar",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1567,7 +1629,11 @@
         "v4": "ahorrando",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_015"
+        "id": "es_starter_shopping_015",
+        "antonyms": [
+            "gastar"
+        ],
+        "transcription": ""
     },
     {
         "word": "trabajar",
@@ -1593,7 +1659,8 @@
         "v4": "trabajando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_016"
+        "id": "es_starter_work_016",
+        "transcription": ""
     },
     {
         "word": "vivir",
@@ -1601,8 +1668,6 @@
         "theme": "places",
         "emoji": "🏠",
         "subtext": "vivir en un piso / vivir solo / vivir con alguien / vivir en el extranjero",
-        "opposite": "morir",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1622,7 +1687,11 @@
         "v4": "viviendo",
         "lang": "es",
         "sub_theme": "city",
-        "id": "es_starter_places_073"
+        "id": "es_starter_places_073",
+        "antonyms": [
+            "morir"
+        ],
+        "transcription": ""
     },
     {
         "word": "pensar",
@@ -1651,7 +1720,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_starter_language_007"
+        "id": "es_starter_language_007",
+        "transcription": ""
     },
     {
         "word": "saber",
@@ -1694,7 +1764,8 @@
         },
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_006"
+        "id": "es_starter_school_006",
+        "transcription": ""
     },
     {
         "word": "querer",
@@ -1733,7 +1804,8 @@
         },
         "lang": "es",
         "sub_theme": "positive",
-        "id": "es_starter_emotions_019"
+        "id": "es_starter_emotions_019",
+        "transcription": ""
     },
     {
         "word": "necesitar",
@@ -1761,7 +1833,8 @@
         "v4": "necesitando",
         "lang": "es",
         "sub_theme": "negative",
-        "id": "es_starter_emotions_020"
+        "id": "es_starter_emotions_020",
+        "transcription": ""
     },
     {
         "word": "gustar",
@@ -1789,7 +1862,8 @@
         "v4": "gustando",
         "lang": "es",
         "sub_theme": "positive",
-        "id": "es_starter_emotions_021"
+        "id": "es_starter_emotions_021",
+        "transcription": ""
     },
     {
         "word": "amar",
@@ -1816,7 +1890,8 @@
         "v4": "amando",
         "lang": "es",
         "sub_theme": "positive",
-        "id": "es_starter_emotions_022"
+        "id": "es_starter_emotions_022",
+        "transcription": ""
     },
     {
         "word": "odiar",
@@ -1843,7 +1918,8 @@
         "v4": "odiando",
         "lang": "es",
         "sub_theme": "negative",
-        "id": "es_starter_emotions_023"
+        "id": "es_starter_emotions_023",
+        "transcription": ""
     },
     {
         "word": "esperar",
@@ -1873,7 +1949,8 @@
         "v4": "esperando",
         "lang": "es",
         "sub_theme": "positive",
-        "id": "es_starter_emotions_024"
+        "id": "es_starter_emotions_024",
+        "transcription": ""
     },
     {
         "word": "recordar",
@@ -1900,7 +1977,8 @@
         "v4": "recordando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_007"
+        "id": "es_starter_school_007",
+        "transcription": ""
     },
     {
         "word": "olvidar",
@@ -1929,7 +2007,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_008"
+        "id": "es_starter_school_008",
+        "transcription": ""
     },
     {
         "word": "entender",
@@ -1955,7 +2034,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_starter_language_008"
+        "id": "es_starter_language_008",
+        "transcription": ""
     },
     {
         "word": "decidir",
@@ -1985,7 +2065,8 @@
         "v4": "decidiendo",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_starter_language_009"
+        "id": "es_starter_language_009",
+        "transcription": ""
     },
     {
         "word": "disfrutar",
@@ -2011,7 +2092,8 @@
         "v4": "disfrutando",
         "lang": "es",
         "sub_theme": "positive",
-        "id": "es_starter_emotions_025"
+        "id": "es_starter_emotions_025",
+        "transcription": ""
     },
     {
         "word": "ver",
@@ -2041,7 +2123,8 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "videre"
-        }
+        },
+        "transcription": ""
     },
     {
         "word": "oír",
@@ -2071,7 +2154,8 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "audire"
-        }
+        },
+        "transcription": ""
     },
     {
         "word": "despertarse",
@@ -2080,8 +2164,6 @@
         "emoji": "⏰",
         "form": "verb",
         "subtext": "despertarse temprano / despertarse tarde / despertarse cansado",
-        "opposite": "dormir",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Dejar de dormir; volver a estar consciente después del sueño.",
@@ -2099,7 +2181,11 @@
         "reflexive": true,
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_017"
+        "id": "es_starter_work_017",
+        "antonyms": [
+            "dormir"
+        ],
+        "transcription": ""
     },
     {
         "word": "mirar",
@@ -2130,7 +2216,8 @@
         "v4": "mirando",
         "lang": "es",
         "sub_theme": "going_out",
-        "id": "es_starter_social_025"
+        "id": "es_starter_social_025",
+        "transcription": ""
     },
     {
         "word": "jugar",
@@ -2160,7 +2247,8 @@
         "v4": "jugando",
         "lang": "es",
         "sub_theme": "going_out",
-        "id": "es_starter_social_026"
+        "id": "es_starter_social_026",
+        "transcription": ""
     },
     {
         "word": "correr",
@@ -2191,7 +2279,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "team_sports",
-        "id": "es_starter_social_027"
+        "id": "es_starter_social_027",
+        "transcription": ""
     },
     {
         "word": "sentarse",
@@ -2199,8 +2288,6 @@
         "theme": "work",
         "emoji": "🪑",
         "subtext": "sentarse / sentarse en un escritorio / estar en una reunión / sentarse en silencio",
-        "opposite": "estar de pie",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -2223,7 +2310,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "sedere"
-        }
+        },
+        "antonyms": [
+            "estar de pie"
+        ],
+        "transcription": ""
     },
     {
         "word": "estar de pie",
@@ -2237,8 +2328,6 @@
             "estar al lado",
             "destacar"
         ],
-        "opposite": "sentarse",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -2256,7 +2345,11 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_019"
+        "id": "es_starter_work_019",
+        "antonyms": [
+            "sentarse"
+        ],
+        "transcription": ""
     },
     {
         "word": "conocer",
@@ -2285,7 +2378,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_020"
+        "id": "es_starter_work_020",
+        "transcription": ""
     },
     {
         "word": "aprender",
@@ -2310,7 +2404,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_009"
+        "id": "es_starter_school_009",
+        "transcription": ""
     },
     {
         "word": "cambiar",
@@ -2336,7 +2431,8 @@
         "v4": "cambiando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_021"
+        "id": "es_starter_work_021",
+        "transcription": ""
     },
     {
         "word": "parar",
@@ -2367,7 +2463,8 @@
         "v4": "parando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_022"
+        "id": "es_starter_work_022",
+        "transcription": ""
     },
     {
         "word": "añadir",
@@ -2397,7 +2494,8 @@
         "v4": "añadiendo",
         "lang": "es",
         "sub_theme": "cardinal",
-        "id": "es_starter_maths_002"
+        "id": "es_starter_maths_002",
+        "transcription": ""
     },
     {
         "word": "ganar",
@@ -2405,8 +2503,6 @@
         "theme": "social",
         "emoji": "🏆",
         "subtext": "ganar un juego / ganar un premio / ganar un galardón / ganar un contrato",
-        "opposite": "perder",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -2424,7 +2520,11 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "going_out",
-        "id": "es_starter_social_028"
+        "id": "es_starter_social_028",
+        "antonyms": [
+            "perder"
+        ],
+        "transcription": ""
     },
     {
         "word": "morir",
@@ -2435,8 +2535,6 @@
         "synonyms": [
             "extinguirse"
         ],
-        "opposite": "vivir",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -2455,7 +2553,11 @@
         "v4": "moriendo",
         "lang": "es",
         "sub_theme": "symptoms",
-        "id": "es_starter_health_medicine_008"
+        "id": "es_starter_health_medicine_008",
+        "antonyms": [
+            "vivir"
+        ],
+        "transcription": ""
     },
     {
         "word": "enviar",
@@ -2480,7 +2582,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_023"
+        "id": "es_starter_work_023",
+        "transcription": ""
     },
     {
         "word": "quedarse",
@@ -2508,7 +2611,8 @@
         "v4": "quedarando",
         "lang": "es",
         "sub_theme": "accommodation",
-        "id": "es_starter_travel_017"
+        "id": "es_starter_travel_017",
+        "transcription": ""
     },
     {
         "word": "caer",
@@ -2539,7 +2643,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "seasons",
-        "id": "es_starter_nature_015"
+        "id": "es_starter_nature_015",
+        "transcription": ""
     },
     {
         "word": "pasar",
@@ -2569,7 +2674,8 @@
         "v4": "pasando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_010"
+        "id": "es_starter_school_010",
+        "transcription": ""
     },
     {
         "word": "vender",
@@ -2580,8 +2686,6 @@
         "synonyms": [
             "éxito de ventas"
         ],
-        "opposite": "comprar",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2599,7 +2703,11 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_016"
+        "id": "es_starter_shopping_016",
+        "antonyms": [
+            "comprar"
+        ],
+        "transcription": ""
     },
     {
         "word": "tirar",
@@ -2611,8 +2719,6 @@
             "detenerse",
             "alejarse"
         ],
-        "opposite": "empujar",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2631,7 +2737,11 @@
         "v4": "tirando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_024"
+        "id": "es_starter_work_024",
+        "antonyms": [
+            "empujar"
+        ],
+        "transcription": ""
     },
     {
         "word": "empujar",
@@ -2644,8 +2754,6 @@
             "apartar",
             "salir adelante"
         ],
-        "opposite": "tirar",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2665,7 +2773,11 @@
         "v4": "empujando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_025"
+        "id": "es_starter_work_025",
+        "antonyms": [
+            "tirar"
+        ],
+        "transcription": ""
     },
     {
         "word": "llevar",
@@ -2694,7 +2806,8 @@
         "v4": "llevando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_026"
+        "id": "es_starter_work_026",
+        "transcription": ""
     },
     {
         "word": "romper",
@@ -2725,7 +2838,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "quality",
-        "id": "es_starter_describing_061"
+        "id": "es_starter_describing_061",
+        "transcription": ""
     },
     {
         "word": "recibir",
@@ -2752,7 +2866,8 @@
         "v4": "recibiendo",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_017"
+        "id": "es_starter_shopping_017",
+        "transcription": ""
     },
     {
         "word": "estar de acuerdo",
@@ -2784,7 +2899,8 @@
         "v4": "estar de acuerando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_starter_language_010"
+        "id": "es_starter_language_010",
+        "transcription": ""
     },
     {
         "word": "dibujar",
@@ -2814,7 +2930,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "film",
-        "id": "es_starter_art_culture_014"
+        "id": "es_starter_art_culture_014",
+        "transcription": ""
     },
     {
         "word": "compartir",
@@ -2841,7 +2958,8 @@
         "v4": "compartiendo",
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_018"
+        "id": "es_starter_people_018",
+        "transcription": ""
     },
     {
         "word": "sonreír",
@@ -2852,8 +2970,6 @@
         "synonyms": [
             "una gran sonrisa"
         ],
-        "opposite": "llorar",
-        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2873,7 +2989,11 @@
         "v4": "sonreando",
         "lang": "es",
         "sub_theme": "physical_desc",
-        "id": "es_starter_people_019"
+        "id": "es_starter_people_019",
+        "antonyms": [
+            "llorar"
+        ],
+        "transcription": ""
     },
     {
         "word": "llorar",
@@ -2885,8 +3005,6 @@
             "pedir socorro",
             "gritar"
         ],
-        "opposite": "sonreír",
-        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2906,7 +3024,11 @@
         "v4": "llorando",
         "lang": "es",
         "sub_theme": "positive",
-        "id": "es_starter_emotions_026"
+        "id": "es_starter_emotions_026",
+        "antonyms": [
+            "sonreír"
+        ],
+        "transcription": ""
     },
     {
         "word": "bailar",
@@ -2933,7 +3055,8 @@
         "v4": "bailando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_starter_art_culture_015"
+        "id": "es_starter_art_culture_015",
+        "transcription": ""
     },
     {
         "word": "cantar",
@@ -2962,7 +3085,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_starter_art_culture_016"
+        "id": "es_starter_art_culture_016",
+        "transcription": ""
     },
     {
         "word": "saltar",
@@ -2992,7 +3116,8 @@
         "v4": "saltando",
         "lang": "es",
         "sub_theme": "team_sports",
-        "id": "es_starter_social_029"
+        "id": "es_starter_social_029",
+        "transcription": ""
     },
     {
         "word": "nadar",
@@ -3022,7 +3147,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "team_sports",
-        "id": "es_starter_social_030"
+        "id": "es_starter_social_030",
+        "transcription": ""
     },
     {
         "word": "estudiar",
@@ -3048,7 +3174,8 @@
         "v4": "estudiando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_011"
+        "id": "es_starter_school_011",
+        "transcription": ""
     },
     {
         "word": "enseñar",
@@ -3076,7 +3203,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_012"
+        "id": "es_starter_school_012",
+        "transcription": ""
     },
     {
         "word": "viajar diariamente",
@@ -3108,7 +3236,8 @@
         "v4": "viajar diariamenando",
         "lang": "es",
         "sub_theme": "transport",
-        "id": "es_starter_travel_018"
+        "id": "es_starter_travel_018",
+        "transcription": ""
     },
     {
         "word": "alquilar",
@@ -3134,7 +3263,8 @@
         "v4": "alquilando",
         "lang": "es",
         "sub_theme": "accommodation",
-        "id": "es_starter_travel_019"
+        "id": "es_starter_travel_019",
+        "transcription": ""
     },
     {
         "word": "hacer ejercicio",
@@ -3160,7 +3290,8 @@
         "v4": "hacer ejerciciendo",
         "lang": "es",
         "sub_theme": "going_out",
-        "id": "es_starter_social_031"
+        "id": "es_starter_social_031",
+        "transcription": ""
     },
     {
         "word": "costar",
@@ -3185,7 +3316,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_018"
+        "id": "es_starter_shopping_018",
+        "transcription": ""
     },
     {
         "word": "invitar",
@@ -3211,7 +3343,8 @@
         "v4": "invitando",
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_020"
+        "id": "es_starter_people_020",
+        "transcription": ""
     },
     {
         "word": "levantarse",
@@ -3237,7 +3370,8 @@
         "reflexive": true,
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_027"
+        "id": "es_starter_work_027",
+        "transcription": ""
     },
     {
         "word": "desayunar",
@@ -3265,7 +3399,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_028"
+        "id": "es_starter_work_028",
+        "transcription": ""
     },
     {
         "word": "acostarse",
@@ -3291,7 +3426,8 @@
         "reflexive": true,
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_029"
+        "id": "es_starter_work_029",
+        "transcription": ""
     },
     {
         "word": "revisar",
@@ -3320,7 +3456,8 @@
         "v4": "revisando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_030"
+        "id": "es_starter_work_030",
+        "transcription": ""
     },
     {
         "word": "asistir",
@@ -3346,7 +3483,8 @@
         "v4": "asistiendo",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_031"
+        "id": "es_starter_work_031",
+        "transcription": ""
     },
     {
         "word": "gestionar",
@@ -3372,7 +3510,8 @@
         "v4": "gestionando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_032"
+        "id": "es_starter_work_032",
+        "transcription": ""
     },
     {
         "word": "cobrar",
@@ -3398,7 +3537,8 @@
         "v4": "cobrando",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_019"
+        "id": "es_starter_shopping_019",
+        "transcription": ""
     },
     {
         "word": "permitirse",
@@ -3425,7 +3565,8 @@
         "v4": "permitirando",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_020"
+        "id": "es_starter_shopping_020",
+        "transcription": ""
     },
     {
         "word": "deber",
@@ -3454,7 +3595,8 @@
         "v4": "debiendo",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_021"
+        "id": "es_starter_shopping_021",
+        "transcription": ""
     },
     {
         "word": "visitar",
@@ -3480,7 +3622,8 @@
         "v4": "visitando",
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_021"
+        "id": "es_starter_people_021",
+        "transcription": ""
     },
     {
         "word": "celebrar",
@@ -3506,7 +3649,8 @@
         "v4": "celebrando",
         "lang": "es",
         "sub_theme": "going_out",
-        "id": "es_starter_social_032"
+        "id": "es_starter_social_032",
+        "transcription": ""
     },
     {
         "word": "recomendar",
@@ -3532,7 +3676,8 @@
         "v4": "recomendando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_starter_language_011"
+        "id": "es_starter_language_011",
+        "transcription": ""
     },
     {
         "word": "doler",
@@ -3562,7 +3707,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "symptoms",
-        "id": "es_starter_health_medicine_009"
+        "id": "es_starter_health_medicine_009",
+        "transcription": ""
     },
     {
         "word": "descansar",
@@ -3591,7 +3737,8 @@
         "v4": "descansando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_033"
+        "id": "es_starter_work_033",
+        "transcription": ""
     },
     {
         "word": "recuperarse",
@@ -3618,7 +3765,8 @@
         "v4": "recuperarando",
         "lang": "es",
         "sub_theme": "hospital",
-        "id": "es_starter_health_medicine_010"
+        "id": "es_starter_health_medicine_010",
+        "transcription": ""
     },
     {
         "word": "reservar",
@@ -3644,7 +3792,8 @@
         "v4": "reservando",
         "lang": "es",
         "sub_theme": "tourism",
-        "id": "es_starter_travel_020"
+        "id": "es_starter_travel_020",
+        "transcription": ""
     },
     {
         "word": "hacer la maleta",
@@ -3674,7 +3823,8 @@
         "v4": "hacer la maleiendo",
         "lang": "es",
         "sub_theme": "tourism",
-        "id": "es_starter_travel_021"
+        "id": "es_starter_travel_021",
+        "transcription": ""
     },
     {
         "word": "cancelar",
@@ -3700,7 +3850,8 @@
         "v4": "cancelando",
         "lang": "es",
         "sub_theme": "tourism",
-        "id": "es_starter_travel_022"
+        "id": "es_starter_travel_022",
+        "transcription": ""
     },
     {
         "word": "pedir",
@@ -3726,7 +3877,8 @@
         "v4": "pediendo",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_034"
+        "id": "es_starter_work_034",
+        "transcription": ""
     },
     {
         "word": "explicar",
@@ -3752,7 +3904,8 @@
         "v4": "explicando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_035"
+        "id": "es_starter_work_035",
+        "transcription": ""
     },
     {
         "word": "agradecer",
@@ -3782,7 +3935,8 @@
         "v4": "agradeciendo",
         "lang": "es",
         "sub_theme": "going_out",
-        "id": "es_starter_social_033"
+        "id": "es_starter_social_033",
+        "transcription": ""
     },
     {
         "word": "presentar",
@@ -3811,7 +3965,8 @@
         "v4": "presentando",
         "lang": "es",
         "sub_theme": "going_out",
-        "id": "es_starter_social_034"
+        "id": "es_starter_social_034",
+        "transcription": ""
     },
     {
         "word": "relajarse",
@@ -3838,7 +3993,8 @@
         "v4": "relajarando",
         "lang": "es",
         "sub_theme": "going_out",
-        "id": "es_starter_social_035"
+        "id": "es_starter_social_035",
+        "transcription": ""
     },
     {
         "word": "reparar",
@@ -3867,7 +4023,8 @@
         "v4": "reparando",
         "lang": "es",
         "sub_theme": "household_items",
-        "id": "es_starter_furniture_014"
+        "id": "es_starter_furniture_014",
+        "transcription": ""
     },
     {
         "word": "parecer",
@@ -3896,7 +4053,8 @@
         "v4": "pareciendo",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_starter_language_012"
+        "id": "es_starter_language_012",
+        "transcription": ""
     },
     {
         "word": "significar",
@@ -3925,7 +4083,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_013"
+        "id": "es_starter_school_013",
+        "transcription": ""
     },
     {
         "word": "seguir",
@@ -3954,7 +4113,8 @@
         "v4": "seguiendo",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_036"
+        "id": "es_starter_work_036",
+        "transcription": ""
     },
     {
         "word": "continuar",
@@ -3980,7 +4140,8 @@
         "v4": "continuando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_starter_school_014"
+        "id": "es_starter_school_014",
+        "transcription": ""
     },
     {
         "word": "crecer",
@@ -4008,7 +4169,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_037"
+        "id": "es_starter_work_037",
+        "transcription": ""
     },
     {
         "word": "incluir",
@@ -4038,7 +4200,8 @@
         "v4": "incluiendo",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_022"
+        "id": "es_starter_shopping_022",
+        "transcription": ""
     },
     {
         "word": "hacerse",
@@ -4067,7 +4230,8 @@
         "reflexive": true,
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_038"
+        "id": "es_starter_work_038",
+        "transcription": ""
     },
     {
         "word": "pertenecer",
@@ -4096,7 +4260,8 @@
         "v4": "perteneciendo",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_039"
+        "id": "es_starter_work_039",
+        "transcription": ""
     },
     {
         "word": "elegir",
@@ -4121,7 +4286,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_starter_language_013"
+        "id": "es_starter_language_013",
+        "transcription": ""
     },
     {
         "word": "construir",
@@ -4151,7 +4317,8 @@
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_040"
+        "id": "es_starter_work_040",
+        "transcription": ""
     },
     {
         "word": "producir",
@@ -4174,7 +4341,8 @@
         ],
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_041"
+        "id": "es_starter_work_041",
+        "emoji": "✨"
     },
     {
         "word": "proyectar",
@@ -4198,9 +4366,10 @@
         "v4": "proyectando",
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_042"
+        "id": "es_starter_work_042",
+        "emoji": "✨"
     }
-    ];
+];
     const lang = "es";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

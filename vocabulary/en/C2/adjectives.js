@@ -15,7 +15,8 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "transcription": ""
     },
     {
         "id": "en_proficiency_language_002",

@@ -16,7 +16,8 @@
                     "Voter est un devoir civique."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_upper_intermediate_serious_illness_treatment_001",
@@ -27,7 +28,9 @@
         "emoji": "⏳🤒",
         "form": "adjective",
         "subtext": "douleur chronique, maladie de longue durée",
-        "antonyms": ["aigu"],
+        "antonyms": [
+            "aigu"
+        ],
         "definitions": [
             {
                 "text": "Qui dure longtemps ou revient souvent.",
@@ -35,7 +38,8 @@
                     "Elle souffre de maux de dos chroniques."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_upper_intermediate_serious_illness_treatment_002",
@@ -53,7 +57,8 @@
                     "La médecine préventive réduit les coûts à long terme."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_upper_intermediate_ethical_dilemmas_001",
@@ -64,7 +69,10 @@
         "emoji": "⚖️",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["décision morale", "éthique"],
+        "synonyms": [
+            "décision morale",
+            "éthique"
+        ],
         "definitions": [
             {
                 "text": "Relatif aux principes du bien et du mal.",
@@ -72,7 +80,8 @@
                     "Elle a pris une décision morale en refusant l'argent."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_upper_intermediate_ethical_dilemmas_002",
@@ -90,7 +99,8 @@
                     "Les entreprises doivent fonctionner de manière éthique."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "fr_upper_intermediate_environment_policy_001",
@@ -107,9 +117,10 @@
                     "Le développement durable est essentiel."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     }
-    ];
+];
     const lang = "fr";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

@@ -23,7 +23,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_philosophy_logic_001"
+        "id": "el_proficiency_philosophy_logic_001",
+        "transcription": ""
     },
     {
         "word": "εξιδανικεύω",
@@ -47,7 +48,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_psychology_academic_001"
+        "id": "el_proficiency_psychology_academic_001",
+        "transcription": ""
     },
     {
         "word": "κατηγορώ",
@@ -71,7 +73,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_logic_linguistics_001"
+        "id": "el_proficiency_logic_linguistics_001",
+        "transcription": ""
     },
     {
         "word": "ενσαρκώνω",
@@ -95,7 +98,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_logic_computing_001"
+        "id": "el_proficiency_logic_computing_001",
+        "transcription": ""
     },
     {
         "word": "αναιρώ",
@@ -119,7 +123,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_logic_debate_001"
+        "id": "el_proficiency_logic_debate_001",
+        "transcription": ""
     },
     {
         "word": "υπερβαίνω",
@@ -143,7 +148,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_philosophy_general_001"
+        "id": "el_proficiency_philosophy_general_001",
+        "transcription": ""
     },
     {
         "word": "διαμεσολαβώ",
@@ -167,7 +173,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_sociology_conflict_001"
+        "id": "el_proficiency_sociology_conflict_001",
+        "transcription": ""
     },
     {
         "word": "απαλείφω",
@@ -191,7 +198,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_linguistics_debate_001"
+        "id": "el_proficiency_linguistics_debate_001",
+        "transcription": ""
     },
     {
         "word": "συσκοτίζω",
@@ -215,12 +223,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_debate_communication_001"
+        "id": "el_proficiency_debate_communication_001",
+        "transcription": ""
     },
     {
         "word": "συγχέω",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🌀",
         "subtext": "συγχέω ζητήματα / συγχέω με / επικίνδυνη σύγχυση",
         "form": "verb",
@@ -239,7 +248,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_debate_academic_001"
+        "id": "el_proficiency_debate_academic_001",
+        "transcription": ""
     },
     {
         "word": "επικαλούμαι",
@@ -263,7 +273,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_law_debate_001"
+        "id": "el_proficiency_law_debate_001",
+        "transcription": ""
     },
     {
         "word": "προβάλλω",
@@ -287,7 +298,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_art_media_001"
+        "id": "el_proficiency_art_media_001",
+        "transcription": ""
     },
     {
         "word": "ανακτώ",
@@ -311,7 +323,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_sociology_culture_001"
+        "id": "el_proficiency_sociology_culture_001",
+        "transcription": ""
     },
     {
         "word": "αποσταθεροποιώ",
@@ -335,7 +348,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_politics_academic_001"
+        "id": "el_proficiency_politics_academic_001",
+        "transcription": ""
     },
     {
         "word": "εμπορευματοποιώ",
@@ -359,7 +373,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_economics_sociology_001"
+        "id": "el_proficiency_economics_sociology_001",
+        "transcription": ""
     },
     {
         "word": "εργαλειοποιώ",
@@ -383,7 +398,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_politics_philosophy_001"
+        "id": "el_proficiency_politics_philosophy_001",
+        "transcription": ""
     },
     {
         "word": "αξιοποιώ",
@@ -407,7 +423,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_sociology_academic_001"
+        "id": "el_proficiency_sociology_academic_001",
+        "transcription": ""
     },
     {
         "word": "φετιχοποιώ",
@@ -431,7 +448,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_sociology_academic_002"
+        "id": "el_proficiency_sociology_academic_002",
+        "transcription": ""
     },
     {
         "word": "αλλοτριώνω",
@@ -455,7 +473,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_sociology_psychology_001"
+        "id": "el_proficiency_sociology_psychology_001",
+        "transcription": ""
     },
     {
         "word": "οριοθετώ",
@@ -479,7 +498,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_law_philosophy_001"
+        "id": "el_proficiency_law_philosophy_001",
+        "transcription": ""
     },
     {
         "word": "ορίζω",
@@ -503,12 +523,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_academic_research_001"
+        "id": "el_proficiency_academic_research_001",
+        "transcription": ""
     },
     {
         "word": "αντιστρατεύομαι",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🛡️",
         "subtext": "αντιστρατεύεται σε / αντιστρατεύεται σθεναρά / τάσσεται υπέρ",
         "form": "verb",
@@ -527,12 +548,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_debate_academic_002"
+        "id": "el_proficiency_debate_academic_002",
+        "transcription": ""
     },
     {
         "word": "ακυρώνω",
         "level": "proficiency",
-        "theme": "law_academic",
+        "theme": "work",
         "emoji": "☣️",
         "subtext": "ακυρώνω έναν ισχυρισμό / ακυρώνω ένα επιχείρημα / νομικά ακυρωμένο",
         "form": "verb",
@@ -551,7 +573,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_law_academic_001"
+        "id": "el_proficiency_law_academic_001",
+        "transcription": ""
     },
     {
         "word": "αμφισβητώ",
@@ -575,7 +598,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_debate_logic_001"
+        "id": "el_proficiency_debate_logic_001",
+        "transcription": ""
     },
     {
         "word": "καταργώ",
@@ -599,7 +623,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_law_politics_001"
+        "id": "el_proficiency_law_politics_001",
+        "transcription": ""
     },
     {
         "word": "παραβαίνω",
@@ -623,7 +648,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_law_debate_002"
+        "id": "el_proficiency_law_debate_002",
+        "transcription": ""
     },
     {
         "word": "υπάγω",
@@ -647,7 +673,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_logic_philosophy_001"
+        "id": "el_proficiency_logic_philosophy_001",
+        "transcription": ""
     },
     {
         "word": "αποδομώ",
@@ -671,7 +698,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_philosophy_literature_001"
+        "id": "el_proficiency_philosophy_literature_001",
+        "transcription": ""
     },
     {
         "word": "αποκλείω",
@@ -695,7 +723,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_law_debate_003"
+        "id": "el_proficiency_law_debate_003",
+        "transcription": ""
     },
     {
         "word": "διαλεκτικοποιώ",
@@ -719,7 +748,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_philosophy_academic_001"
+        "id": "el_proficiency_philosophy_academic_001",
+        "transcription": ""
     },
     {
         "word": "ηγεμονεύω",
@@ -743,12 +773,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_politics_sociology_001"
+        "id": "el_proficiency_politics_sociology_001",
+        "transcription": ""
     },
     {
         "word": "τονίζω",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🔊",
         "subtext": "τονίζω μια διαφορά / τονίζω το θετικό / τονίζεται από",
         "form": "verb",
@@ -767,7 +798,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_001"
+        "id": "el_proficiency_general_academic_001",
+        "transcription": ""
     },
     {
         "word": "αποδέχομαι",
@@ -791,7 +823,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_debate_communication_002"
+        "id": "el_proficiency_debate_communication_002",
+        "transcription": ""
     },
     {
         "word": "ανακουφίζω",
@@ -815,7 +848,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_policy_general_001"
+        "id": "el_proficiency_policy_general_001",
+        "transcription": ""
     },
     {
         "word": "παρακάμπτω",
@@ -839,7 +873,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_debate_general_001"
+        "id": "el_proficiency_debate_general_001",
+        "transcription": ""
     },
     {
         "word": "επιβεβαιώνω",
@@ -863,7 +898,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_academic_research_002"
+        "id": "el_proficiency_academic_research_002",
+        "transcription": ""
     },
     {
         "word": "διαδίδω",
@@ -887,12 +923,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_academic_research_003"
+        "id": "el_proficiency_academic_research_003",
+        "transcription": ""
     },
     {
         "word": "συμπυκνώνω",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "💊",
         "subtext": "συμπυκνώνω μια ιδέα / συμπυκνώνω το πρόβλημα / συμπυκνώνει τέλεια",
         "form": "verb",
@@ -911,7 +948,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_002"
+        "id": "el_proficiency_general_academic_002",
+        "transcription": ""
     },
     {
         "word": "γεννώ",
@@ -935,12 +973,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_sociology_general_001"
+        "id": "el_proficiency_sociology_general_001",
+        "transcription": ""
     },
     {
         "word": "επιδεινώνω",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🔥",
         "subtext": "επιδεινώνω ένα πρόβλημα / επιδεινώνω τις εντάσεις / επιδεινώνω την ανισότητα",
         "form": "verb",
@@ -959,12 +998,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_003"
+        "id": "el_proficiency_general_academic_003",
+        "transcription": ""
     },
     {
         "word": "εικονογραφώ",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "📖",
         "subtext": "εικονογραφεί κάτι / αποτελεί παράδειγμα του προβλήματος / εικονογραφεί σαφώς",
         "form": "verb",
@@ -983,12 +1023,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_004"
+        "id": "el_proficiency_general_academic_004",
+        "transcription": ""
     },
     {
         "word": "παρεμποδίζω",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🚧",
         "subtext": "παρεμποδίζω την πρόοδο / παρεμποδίζω την ανάπτυξη / εμποδίζω κάποιον από το να",
         "form": "verb",
@@ -1007,12 +1048,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_005"
+        "id": "el_proficiency_general_academic_005",
+        "transcription": ""
     },
     {
         "word": "μετριάζω",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🛡️",
         "subtext": "μετριάζω τον κίνδυνο / μετριάζω τον αντίκτυπο / μετριάζω εναντίον",
         "form": "verb",
@@ -1031,12 +1073,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_006"
+        "id": "el_proficiency_general_academic_006",
+        "transcription": ""
     },
     {
         "word": "υποχρεώνω",
         "level": "proficiency",
-        "theme": "law_general",
+        "theme": "work",
         "emoji": "⚖️",
         "subtext": "είμαι υποχρεωμένος να / υποχρεώνω κάποιον να / αισθάνομαι υποχρεωμένος",
         "form": "verb",
@@ -1055,12 +1098,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_law_general_001"
+        "id": "el_proficiency_law_general_001",
+        "transcription": ""
     },
     {
         "word": "διαπερνώ",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "💧",
         "subtext": "διαπερνά τον οργανισμό / διαποτίζεται από / διάχυτος",
         "form": "verb",
@@ -1079,12 +1123,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_007"
+        "id": "el_proficiency_general_academic_007",
+        "transcription": ""
     },
     {
         "word": "αποκλείω",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🚫",
         "subtext": "αποκλείω κάποιον από / αποκλείω την πιθανότητα / δεν αποκλείω",
         "form": "verb",
@@ -1103,12 +1148,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_008"
+        "id": "el_proficiency_general_academic_008",
+        "transcription": ""
     },
     {
         "word": "συμβιβάζω",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "συμβιβάζω ιδέες / δύσκολο να συμβιβαστούν / συμβιβάζω διαφορές",
         "form": "verb",
@@ -1127,12 +1173,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_009"
+        "id": "el_proficiency_general_academic_009",
+        "transcription": ""
     },
     {
         "word": "αντικαθιστώ",
         "level": "proficiency",
-        "theme": "law_academic",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "αντικαθιστώ έναν νόμο / αντικαθιστώ προηγούμενες οδηγίες / αντικαθίσταται από",
         "form": "verb",
@@ -1151,12 +1198,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_law_academic_002"
+        "id": "el_proficiency_law_academic_002",
+        "transcription": ""
     },
     {
         "word": "θεμελιώνω",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "⚓",
         "subtext": "θεμελιώνω ένα επιχείρημα / θεμελιώνω την επιτυχία / θεμελιώνεται από",
         "form": "verb",
@@ -1175,12 +1223,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_010"
+        "id": "el_proficiency_general_academic_010",
+        "transcription": ""
     },
     {
         "word": "δικαιώνω",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🏆",
         "subtext": "δικαιώνω κάποιον / δικαιώνω μια απόφαση / αισθάνομαι δικαιωμένος",
         "form": "verb",
@@ -1199,12 +1248,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_011"
+        "id": "el_proficiency_general_academic_011",
+        "transcription": ""
     },
     {
         "word": "εξαρτώμαι από",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "⛓️",
         "subtext": "εξαρτάται από μια απόφαση / εξαρτάται από έναν μόνο παράγοντα / όλα εξαρτώνται από",
         "form": "verb",
@@ -1223,12 +1273,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_012"
+        "id": "el_proficiency_general_academic_012",
+        "transcription": ""
     },
     {
         "word": "παλεύω με",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🤼",
         "subtext": "παλεύω με ένα πρόβλημα / παλεύω με τις επιπτώσεις / παλεύω με την πολυπλοκότητα",
         "form": "verb",
@@ -1247,12 +1298,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_general_academic_013"
+        "id": "el_proficiency_general_academic_013",
+        "transcription": ""
     },
     {
         "word": "αποσιωπώ",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🙈",
         "subtext": "αποσιωπώ ένα πρόβλημα / αποσιωπώ τις λεπτομέρειες / δεν αποσιωπώ",
         "form": "verb",
@@ -1271,12 +1323,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_debate_academic_003"
+        "id": "el_proficiency_debate_academic_003",
+        "transcription": ""
     },
     {
         "word": "συγκαλύπτω",
         "level": "proficiency",
-        "theme": "debate_politics",
+        "theme": "social",
         "emoji": "🩹",
         "subtext": "συγκαλύπτω ένα πρόβλημα / συγκαλύπτω ρωγμές / συγκαλύπτω διαφορές",
         "form": "verb",
@@ -1295,12 +1348,13 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_debate_politics_001"
+        "id": "el_proficiency_debate_politics_001",
+        "transcription": ""
     },
     {
         "word": "αλλαγή παραδείγματος",
         "level": "proficiency",
-        "theme": "academic_general",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "μια θεμελιώδης αλλαγή στην προσέγγιση",
         "form": "verb",
@@ -1319,7 +1373,8 @@
         "group": "1st_conj",
         "auxiliary": "έχω",
         "lang": "el",
-        "id": "el_proficiency_academic_general_001"
+        "id": "el_proficiency_academic_general_001",
+        "transcription": ""
     }
 ];
     const lang = "el";

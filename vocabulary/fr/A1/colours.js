@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "violet",
         "level": "starter",
         "theme": "colours",
         "article": "le",
         "gender": "masculine",
         "emoji": "🟣",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "violets",
         "definitions": [
             {
@@ -17,14 +19,18 @@
                 ]
             }
         ],
-        "transcription": "/vjɔ.lɛ/"
+        "transcription": "/vjɔ.lɛ/",
+        "lang": "fr",
+        "id": "fr_starter_colours_001"
     },
-{
+    {
         "word": "cercle",
         "level": "starter",
         "theme": "describing",
         "emoji": "⭕",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "cercles",
@@ -37,14 +43,18 @@
                 ]
             }
         ],
-        "transcription": "sɛʁkl"
+        "transcription": "sɛʁkl",
+        "lang": "fr",
+        "id": "fr_starter_describing_001"
     },
-{
+    {
         "word": "triangle",
         "level": "starter",
         "theme": "describing",
         "emoji": "🔺",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "triangles",
@@ -57,7 +67,9 @@
                 ]
             }
         ],
-        "transcription": "tʁijɑ̃ɡl"
+        "transcription": "tʁijɑ̃ɡl",
+        "lang": "fr",
+        "id": "fr_starter_describing_002"
     },
     {
         "word": "bleu",
@@ -75,7 +87,9 @@
                 ]
             }
         ],
-        "transcription": "/blø/"
+        "transcription": "/blø/",
+        "lang": "fr",
+        "id": "fr_starter_colours_002"
     },
     {
         "word": "rouge",
@@ -93,9 +107,11 @@
                 ]
             }
         ],
-        "transcription": "/ʁuʒ/"
+        "transcription": "/ʁuʒ/",
+        "lang": "fr",
+        "id": "fr_starter_colours_003"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

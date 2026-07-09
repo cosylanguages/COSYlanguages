@@ -9,7 +9,8 @@
         "classification": "regular",
         "plural": "réalité virtuelles",
         "lang": "fr",
-        "id": "fr_advanced_science_tech_society_c1_noun_ralit_virtuelle"
+        "id": "fr_advanced_science_tech_society_c1_noun_ralit_virtuelle",
+        "transcription": ""
     },
     {
         "word": "développement durable",
@@ -55,7 +56,7 @@
         "word": "gastronomie",
         "translation": "gastronomy",
         "level": "advanced",
-        "theme": "food",
+        "theme": "food_drink",
         "language": "fr",
         "emoji": "🍽️",
         "form": "noun",
@@ -95,7 +96,7 @@
         "word": "bien-être",
         "translation": "well-being",
         "level": "advanced",
-        "theme": "health",
+        "theme": "health_medicine",
         "language": "fr",
         "emoji": "🧘",
         "form": "noun",

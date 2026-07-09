@@ -122,7 +122,6 @@
         "countability": "countable",
         "plural": "husbands",
         "opposite": null,
-        "oppositeEmoji": "👩",
         "subtext": "related to immediate family",
         "synonyms": [
             "spouse",
@@ -151,7 +150,6 @@
         "countability": "countable",
         "plural": "wives",
         "opposite": null,
-        "oppositeEmoji": "👨",
         "subtext": "related to immediate family",
         "synonyms": [
             "spouse",
@@ -192,12 +190,14 @@
                 ]
             }
         ],
-        "opposite": "adult",
         "transcription": "ʧaɪld",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "adult"
+        ]
     },
     {
         "id": "en_starter_immediate_family_010",
@@ -235,7 +235,6 @@
         "countability": "countable",
         "plural": "sisters",
         "opposite": null,
-        "oppositeEmoji": "👦",
         "subtext": "elder sister, younger sister",
         "definitions": [
             {
@@ -266,7 +265,6 @@
         "countability": "countable",
         "plural": "brothers",
         "opposite": null,
-        "oppositeEmoji": "👧",
         "subtext": "elder brother, younger brother",
         "definitions": [
             {
@@ -297,7 +295,6 @@
         "countability": "countable",
         "plural": "sons",
         "opposite": null,
-        "oppositeEmoji": "👧",
         "definitions": [
             {
                 "text": "A person's male child.",
@@ -327,7 +324,6 @@
         "countability": "countable",
         "plural": "daughters",
         "opposite": null,
-        "oppositeEmoji": "👦",
         "definitions": [
             {
                 "text": "A person's female child.",
@@ -357,7 +353,6 @@
         "countability": "countable",
         "plural": "grandfathers",
         "opposite": null,
-        "oppositeEmoji": "👵",
         "definitions": [
             {
                 "text": "The father of your father or mother.",
@@ -382,7 +377,6 @@
         "countability": "countable",
         "plural": "grandmothers",
         "opposite": null,
-        "oppositeEmoji": "👴",
         "definitions": [
             {
                 "text": "The mother of your father or mother.",
@@ -407,7 +401,6 @@
         "countability": "countable",
         "plural": "uncles",
         "opposite": null,
-        "oppositeEmoji": "👩",
         "definitions": [
             {
                 "text": "The brother of your mother or father, or the husband of your aunt.",
@@ -432,7 +425,6 @@
         "countability": "countable",
         "plural": "aunts",
         "opposite": null,
-        "oppositeEmoji": "👨",
         "definitions": [
             {
                 "text": "The sister of your mother or father, or the wife of your uncle.",
@@ -611,12 +603,14 @@
         "v2": "talked",
         "v3": "talked",
         "group": "regular",
-        "opposite": "listen",
         "transcription": "tɔk",
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "listen"
+        ]
     },
     {
         "id": "en_starter_people_005",
@@ -638,12 +632,14 @@
         "v2": "shared",
         "v3": "shared",
         "group": "regular",
-        "opposite": "keep",
         "transcription": "ʃɛr",
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "keep"
+        ]
     },
     {
         "id": "en_starter_people_006",
@@ -664,12 +660,14 @@
         "v3": "invited",
         "subtext": "invite someone / invite to dinner / invite to a party",
         "group": "regular",
-        "opposite": "reject",
         "transcription": "ˌɪnˈvaɪt",
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "reject"
+        ]
     },
     {
         "id": "en_starter_people_007",
@@ -690,20 +688,20 @@
         "emoji": "🏘️",
         "form": "verb",
         "group": "regular",
-        "opposite": "leave",
         "transcription": "ˈvɪzɪt",
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "leave"
+        ]
     },
     {
         "id": "en_starter_people_008",
         "word": "alone",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "together",
-        "oppositeEmoji": "👫",
         "definitions": [
             {
                 "text": "Without other people; by yourself.",
@@ -719,7 +717,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "together"
+        ]
     }
 ];
     const lang = "en";

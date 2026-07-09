@@ -13,7 +13,9 @@
                 "text": "Александр Пушкин",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     }
 ];
     if (window.vocabularyData) {

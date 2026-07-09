@@ -16,7 +16,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈuno/"
+        "transcription": "/ˈuno/",
+        "lang": "it",
+        "id": "it_starter_numbers_001"
     },
     {
         "word": "due",
@@ -34,7 +36,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈdue/"
+        "transcription": "/ˈdue/",
+        "lang": "it",
+        "id": "it_starter_numbers_002"
     },
     {
         "word": "tre",
@@ -52,7 +56,9 @@
                 ]
             }
         ],
-        "transcription": "/tre/"
+        "transcription": "/tre/",
+        "lang": "it",
+        "id": "it_starter_numbers_003"
     },
     {
         "word": "quattro",
@@ -70,7 +76,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈkwattro/"
+        "transcription": "/ˈkwattro/",
+        "lang": "it",
+        "id": "it_starter_numbers_004"
     },
     {
         "word": "cinque",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/ˈtʃinkwe/"
+        "transcription": "/ˈtʃinkwe/",
+        "lang": "it",
+        "id": "it_starter_numbers_005"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

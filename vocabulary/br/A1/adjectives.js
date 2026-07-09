@@ -6,8 +6,6 @@
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "berr",
-        "oppositeEmoji": "📏",
         "definitions": [
             {
                 "text": "Gant un uhelder bras.",
@@ -21,15 +19,20 @@
         "superlative": "uhelañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "berr"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_001"
     },
     {
         "word": "berr",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "uhel",
-        "oppositeEmoji": "🗼",
         "definitions": [
             {
                 "text": "Gant un hed bihan.",
@@ -39,20 +42,27 @@
             }
         ],
         "subtext": "ur veaj berr / blev berr",
-        "synonyms": ["re verr"],
+        "synonyms": [
+            "re verr"
+        ],
         "comparative": "berroc'h",
         "superlative": "berrañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "uhel"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_002"
     },
     {
         "word": "yaouank",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "kozh",
-        "oppositeEmoji": "👴",
         "definitions": [
             {
                 "text": "E penn-kentañ e vuhez.",
@@ -66,15 +76,20 @@
         "superlative": "yaouankañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "kozh"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_003"
     },
     {
         "word": "kozh",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "yaouank",
-        "oppositeEmoji": "👶",
         "definitions": [
             {
                 "text": "Bet implijet e-pad pell.",
@@ -88,7 +103,14 @@
         "superlative": "koshañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "yaouank"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_004"
     },
     {
         "word": "heoliek",
@@ -105,12 +127,17 @@
             }
         ],
         "subtext": "un devezh heoliek / amzer heoliek",
-        "synonyms": ["un tamm heol"],
+        "synonyms": [
+            "un tamm heol"
+        ],
         "comparative": "heoliekoc'h",
         "superlative": "heoliekañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_nature_001"
     },
     {
         "word": "glavek",
@@ -127,12 +154,17 @@
             }
         ],
         "subtext": "un devezh glavek / amzer glavek",
-        "synonyms": ["koulz ar glav"],
+        "synonyms": [
+            "koulz ar glav"
+        ],
         "comparative": "glavekoc'h",
         "superlative": "glavekañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_nature_002"
     },
     {
         "word": "tomm",
@@ -140,10 +172,11 @@
         "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "yen",
-        "oppositeEmoji": "❄️",
         "subtext": "tomm-tre / un evaj tomm",
-        "synonyms": ["amzer domm", "re domm"],
+        "synonyms": [
+            "amzer domm",
+            "re domm"
+        ],
         "definitions": [
             {
                 "text": "Gant ur wrez uhel.",
@@ -156,7 +189,13 @@
         "superlative": "tommañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "yen"
+        ],
+        "transcription": "",
+        "id": "br_starter_nature_003"
     },
     {
         "word": "yen",
@@ -164,8 +203,6 @@
         "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "tomm",
-        "oppositeEmoji": "🔥",
         "subtext": "yen-tre / mintinvezh yen / amzer yen / un evaj yen / re yen",
         "definitions": [
             {
@@ -179,15 +216,19 @@
         "superlative": "yenañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "tomm"
+        ],
+        "transcription": "",
+        "id": "br_starter_nature_004"
     },
     {
         "word": "boutin",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "ispisial",
-        "oppositeEmoji": "✨",
         "definitions": [
             {
                 "text": "Boas pe ordinal; n'eo ket ispisial.",
@@ -197,9 +238,19 @@
             }
         ],
         "subtext": "un devezh boutin",
-        "synonyms": ["buhez voutin", "netra ispisial"],
+        "synonyms": [
+            "buhez voutin",
+            "netra ispisial"
+        ],
         "comparative": "boutinoc'h",
-        "superlative": "boutinañ"
+        "superlative": "boutinañ",
+        "lang": "br",
+        "antonyms": [
+            "ispisial"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_005"
     },
     {
         "word": "marc'had-mat",
@@ -207,10 +258,10 @@
         "theme": "shopping",
         "emoji": "🏷️",
         "form": "adjective",
-        "opposite": "ker",
-        "oppositeEmoji": "💎",
         "subtext": "nijadenn marc'had-mat / marc'had-mat-tre",
-        "synonyms": ["priz izel"],
+        "synonyms": [
+            "priz izel"
+        ],
         "definitions": [
             {
                 "text": "Na gousta ket kalz arc'hant.",
@@ -223,7 +274,13 @@
         "superlative": "marc'had-matañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "ker"
+        ],
+        "transcription": "",
+        "id": "br_starter_shopping_001"
     },
     {
         "word": "ker",
@@ -231,10 +288,11 @@
         "theme": "shopping",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "marc'had-mat",
-        "oppositeEmoji": "🏷️",
         "subtext": "ker-tre",
-        "synonyms": ["priz uhel", "re ger"],
+        "synonyms": [
+            "priz uhel",
+            "re ger"
+        ],
         "definitions": [
             {
                 "text": "Koustañ a ra kalz arc'hant.",
@@ -247,7 +305,13 @@
         "superlative": "kerañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "marc'had-mat"
+        ],
+        "transcription": "",
+        "id": "br_starter_shopping_002"
     },
     {
         "word": "mat",
@@ -255,10 +319,11 @@
         "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "fall",
-        "oppositeEmoji": "👎",
         "subtext": "mennozh mat / priz mat",
-        "synonyms": ["dreist", "chañs vat"],
+        "synonyms": [
+            "dreist",
+            "chañs vat"
+        ],
         "definitions": [
             {
                 "text": "Gant perzhioù mat.",
@@ -271,7 +336,13 @@
         "superlative": "gwellañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "fall"
+        ],
+        "transcription": "",
+        "id": "br_starter_describing_006"
     },
     {
         "word": "fall",
@@ -279,10 +350,11 @@
         "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "mat",
-        "oppositeEmoji": "👍",
         "subtext": "keleier fall / diviz fall",
-        "synonyms": ["euzhus", "drouksort"],
+        "synonyms": [
+            "euzhus",
+            "drouksort"
+        ],
         "definitions": [
             {
                 "text": "Na vezañ mat.",
@@ -295,7 +367,13 @@
         "superlative": "fallañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "mat"
+        ],
+        "transcription": "",
+        "id": "br_starter_describing_007"
     },
     {
         "word": "bras",
@@ -303,10 +381,11 @@
         "theme": "describing",
         "emoji": "🐘",
         "form": "adjective",
-        "opposite": "bihan",
-        "oppositeEmoji": "🐭",
         "subtext": "un ti bras / bras a-walc'h",
-        "synonyms": ["ledan", "ur gudenn vras"],
+        "synonyms": [
+            "ledan",
+            "ur gudenn vras"
+        ],
         "definitions": [
             {
                 "text": "Bras e vent pe e niver.",
@@ -319,7 +398,13 @@
         "superlative": "brasañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "bihan"
+        ],
+        "transcription": "",
+        "id": "br_starter_describing_008"
     },
     {
         "word": "bihan",
@@ -327,10 +412,11 @@
         "theme": "describing",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "bras",
-        "oppositeEmoji": "🐘",
         "subtext": "un ranndi bihan / ur gopr bihan",
-        "synonyms": ["bihanik", "re vihan"],
+        "synonyms": [
+            "bihanik",
+            "re vihan"
+        ],
         "definitions": [
             {
                 "text": "Bihan e vent pe e niver.",
@@ -343,7 +429,13 @@
         "superlative": "bihanañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "bras"
+        ],
+        "transcription": "",
+        "id": "br_starter_describing_009"
     },
     {
         "word": "aes",
@@ -351,8 +443,6 @@
         "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "diaes",
-        "oppositeEmoji": "❌",
         "definitions": [
             {
                 "text": "N'eo ket diaes.",
@@ -366,7 +456,13 @@
         "superlative": "aesañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "diaes"
+        ],
+        "transcription": "",
+        "id": "br_starter_describing_010"
     },
     {
         "word": "diaes",
@@ -374,8 +470,6 @@
         "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "aes",
-        "oppositeEmoji": "✅",
         "definitions": [
             {
                 "text": "Gant kudennoù.",
@@ -389,7 +483,13 @@
         "superlative": "diaesañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "aes"
+        ],
+        "transcription": "",
+        "id": "br_starter_describing_011"
     },
     {
         "word": "laouen",
@@ -398,7 +498,9 @@
         "emoji": "😊",
         "form": "adjective",
         "subtext": "en em santiñ laouen / laouen gant un dra bennak / un devezh laouen",
-        "synonyms": ["plijet"],
+        "synonyms": [
+            "plijet"
+        ],
         "definitions": [
             {
                 "text": "Plijet gant e vuhez.",
@@ -411,7 +513,10 @@
         "superlative": "laouenañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_emotions_001"
     },
     {
         "word": "skuizh",
@@ -420,7 +525,9 @@
         "emoji": "😫",
         "form": "adjective",
         "subtext": "en em santiñ skuizh / skuizh gant un dra bennak / skuizh-tre",
-        "synonyms": ["marnaoniet"],
+        "synonyms": [
+            "marnaoniet"
+        ],
         "definitions": [
             {
                 "text": "Ezhomm diskuizhañ.",
@@ -433,7 +540,10 @@
         "superlative": "skuizhañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_emotions_002"
     },
     {
         "word": "leun-amzer",
@@ -441,8 +551,6 @@
         "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "hanter-amzer",
-        "oppositeEmoji": "⏳",
         "definitions": [
             {
                 "text": "Labourat an holl eurvezhioù en ur sizhunvezh labour.",
@@ -453,7 +561,13 @@
         ],
         "subtext": "ul labour leun-amzer / labourat leun-amzer",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "br",
+        "antonyms": [
+            "hanter-amzer"
+        ],
+        "transcription": "",
+        "id": "br_starter_work_001"
     },
     {
         "word": "hanter-amzer",
@@ -461,8 +575,6 @@
         "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "leun-amzer",
-        "oppositeEmoji": "⏰",
         "definitions": [
             {
                 "text": "Labourat nebeutoc'h a eurvezhioù eget ar sizhunvezh labour ordinal.",
@@ -473,7 +585,13 @@
         ],
         "subtext": "ul labour hanter-amzer / micher hanter-amzer",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "br",
+        "antonyms": [
+            "leun-amzer"
+        ],
+        "transcription": "",
+        "id": "br_starter_work_002"
     },
     {
         "word": "naet",
@@ -481,10 +599,10 @@
         "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "lous",
-        "oppositeEmoji": "💩",
         "subtext": "dilhad naet / ur gambr naet / mirout naet",
-        "synonyms": ["kempenn"],
+        "synonyms": [
+            "kempenn"
+        ],
         "definitions": [
             {
                 "text": "Hep poultrenn.",
@@ -497,7 +615,13 @@
         "superlative": "naetañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "lous"
+        ],
+        "transcription": "",
+        "id": "br_starter_furniture_001"
     },
     {
         "word": "yac'h",
@@ -505,10 +629,10 @@
         "theme": "food_drink",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "klañv",
-        "oppositeEmoji": "🍔",
         "subtext": "dibab boued yac'h",
-        "synonyms": ["reizh"],
+        "synonyms": [
+            "reizh"
+        ],
         "definitions": [
             {
                 "text": "Gant ur yec'hed mat.",
@@ -521,7 +645,13 @@
         "superlative": "yac'hañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "klañv"
+        ],
+        "transcription": "",
+        "id": "br_starter_food_drink_001"
     },
     {
         "word": "klañv",
@@ -529,10 +659,10 @@
         "theme": "health_medicine",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "yac'h",
-        "oppositeEmoji": "💪",
         "subtext": "en em santiñ klañv",
-        "synonyms": ["fall"],
+        "synonyms": [
+            "fall"
+        ],
         "definitions": [
             {
                 "text": "Na vezañ yac'h; marnaoniet.",
@@ -542,7 +672,13 @@
             }
         ],
         "comparative": "klañvoc'h",
-        "superlative": "klañvañ"
+        "superlative": "klañvañ",
+        "lang": "br",
+        "antonyms": [
+            "yac'h"
+        ],
+        "transcription": "",
+        "id": "br_starter_health_medicine_001"
     },
     {
         "word": "enlinenn",
@@ -550,8 +686,6 @@
         "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "maez-linenn",
-        "oppositeEmoji": "📴",
         "definitions": [
             {
                 "text": "Oc'h implijout an internet.",
@@ -562,7 +696,13 @@
         ],
         "subtext": "prenañ enlinenn / kentel enlinenn / chom enlinenn",
         "comparative": "mishoc'h enlinenn",
-        "superlative": "an hini muiañ enlinenn"
+        "superlative": "an hini muiañ enlinenn",
+        "lang": "br",
+        "antonyms": [
+            "maez-linenn"
+        ],
+        "transcription": "",
+        "id": "br_starter_technology_001"
     },
     {
         "word": "e-unan",
@@ -570,8 +710,6 @@
         "theme": "social",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "asambles",
-        "oppositeEmoji": "👫",
         "definitions": [
             {
                 "text": "Hep tud all; drezoc'h hoc'h-unan.",
@@ -582,7 +720,13 @@
         ],
         "subtext": "bevañ e-unan / beajiñ e-unan / en em santiñ e-unan",
         "comparative": "muioc'h e-unan",
-        "superlative": "ar muiañ e-unan"
+        "superlative": "ar muiañ e-unan",
+        "lang": "br",
+        "antonyms": [
+            "asambles"
+        ],
+        "transcription": "",
+        "id": "br_starter_social_001"
     },
     {
         "word": "distend",
@@ -590,10 +734,10 @@
         "theme": "emotions",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "strafuilhet",
-        "oppositeEmoji": "😫",
         "subtext": "en em santiñ distend",
-        "synonyms": ["sioul"],
+        "synonyms": [
+            "sioul"
+        ],
         "definitions": [
             {
                 "text": "Sioul; hep nec'h pe stress.",
@@ -603,7 +747,13 @@
             }
         ],
         "comparative": "distendoc'h",
-        "superlative": "distendañ"
+        "superlative": "distendañ",
+        "lang": "br",
+        "antonyms": [
+            "strafuilhet"
+        ],
+        "transcription": "",
+        "id": "br_starter_emotions_003"
     },
     {
         "word": "strafuilhet",
@@ -611,10 +761,10 @@
         "theme": "emotions",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "distend",
-        "oppositeEmoji": "😌",
         "subtext": "",
-        "synonyms": ["nec'het"],
+        "synonyms": [
+            "nec'het"
+        ],
         "definitions": [
             {
                 "text": "En em santiñ nec'het gant un dra bennak a c'hellfe degouezhout.",
@@ -624,7 +774,13 @@
             }
         ],
         "comparative": "strafuilhetoc'h",
-        "superlative": "strafuilhetañ"
+        "superlative": "strafuilhetañ",
+        "lang": "br",
+        "antonyms": [
+            "distend"
+        ],
+        "transcription": "",
+        "id": "br_starter_emotions_004"
     },
     {
         "word": "strollat",
@@ -633,7 +789,12 @@
         "emoji": "🏃",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["dalc'het-tre", "devezh karget", "implij-amzer karget", "re zalc'het"],
+        "synonyms": [
+            "dalc'het-tre",
+            "devezh karget",
+            "implij-amzer karget",
+            "re zalc'het"
+        ],
         "definitions": [
             {
                 "text": "Gant kalz labour.",
@@ -646,7 +807,10 @@
         "superlative": "strollatañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_003"
     },
     {
         "word": "talvoudus",
@@ -654,10 +818,11 @@
         "theme": "describing",
         "emoji": "🛠️",
         "form": "adjective",
-        "opposite": "ditalvoud",
-        "oppositeEmoji": "🗑️",
         "subtext": "",
-        "synonyms": ["sikour", "pleustrek"],
+        "synonyms": [
+            "sikour",
+            "pleustrek"
+        ],
         "definitions": [
             {
                 "text": "Gant ur splet.",
@@ -670,7 +835,13 @@
         "superlative": "talvoudusañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "ditalvoud"
+        ],
+        "transcription": "",
+        "id": "br_starter_describing_012"
     },
     {
         "word": "pouezus",
@@ -679,7 +850,10 @@
         "emoji": "❗",
         "form": "adjective",
         "subtext": "emvod pouezus / pouezus-tre",
-        "synonyms": ["ret", "ar pouezusañ"],
+        "synonyms": [
+            "ret",
+            "ar pouezusañ"
+        ],
         "definitions": [
             {
                 "text": "Gant kalz talvoudegezh.",
@@ -692,7 +866,10 @@
         "superlative": "pouezusañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_describing_013"
     },
     {
         "word": "ruz",
@@ -710,7 +887,10 @@
             }
         ],
         "comparative": "ruzoc'h",
-        "superlative": "ruzañ"
+        "superlative": "ruzañ",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_colours_001"
     },
     {
         "word": "glas",
@@ -728,7 +908,10 @@
             }
         ],
         "comparative": "glasoc'h",
-        "superlative": "glasañ"
+        "superlative": "glasañ",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_colours_002"
     },
     {
         "word": "gwer",
@@ -746,7 +929,10 @@
             }
         ],
         "comparative": "gweroc'h",
-        "superlative": "gwerañ"
+        "superlative": "gwerañ",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_colours_003"
     },
     {
         "word": "gwenn",
@@ -764,7 +950,10 @@
             }
         ],
         "comparative": "gwennoc'h",
-        "superlative": "gwennañ"
+        "superlative": "gwennañ",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_colours_004"
     },
     {
         "word": "du",
@@ -782,7 +971,10 @@
             }
         ],
         "comparative": "duoc'h",
-        "superlative": "duañ"
+        "superlative": "duañ",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_colours_005"
     },
     {
         "word": "melen",
@@ -791,7 +983,9 @@
         "emoji": "🟨",
         "form": "adjective",
         "subtext": "melen sklaer / melen-vividik",
-        "synonyms": ["liv ar mel"],
+        "synonyms": [
+            "liv ar mel"
+        ],
         "definitions": [
             {
                 "text": "Liv an heol pe liv un tamm sitroñs.",
@@ -801,7 +995,10 @@
             }
         ],
         "comparative": "melenoc'h",
-        "superlative": "melenañ"
+        "superlative": "melenañ",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_colours_006"
     },
     {
         "word": "dieub",
@@ -810,7 +1007,10 @@
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "amzer dieub",
-        "synonyms": ["didall", "frank d'ober"],
+        "synonyms": [
+            "didall",
+            "frank d'ober"
+        ],
         "definitions": [
             {
                 "text": "Hep labour pe didall.",
@@ -823,7 +1023,10 @@
         "superlative": "dieubañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_shopping_003"
     },
     {
         "word": "digor",
@@ -831,10 +1034,10 @@
         "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "serr",
-        "oppositeEmoji": "🔒",
         "subtext": "digor evit ar genwerzh / digor d'ar mennozhioù / digor-bras",
-        "synonyms": ["nor zigor"],
+        "synonyms": [
+            "nor zigor"
+        ],
         "definitions": [
             {
                 "text": "N'eo ket serr.",
@@ -847,7 +1050,13 @@
         "superlative": "digorañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "serr"
+        ],
+        "transcription": "",
+        "id": "br_starter_shopping_004"
     },
     {
         "word": "serr",
@@ -855,10 +1064,10 @@
         "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "digor",
-        "oppositeEmoji": "📖",
         "subtext": "serr evit bremañ / serr evit lein",
-        "synonyms": ["nor serret"],
+        "synonyms": [
+            "nor serret"
+        ],
         "definitions": [
             {
                 "text": "N'eo ket digor.",
@@ -871,14 +1080,22 @@
         "superlative": "serrañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "antonyms": [
+            "digor"
+        ],
+        "transcription": "",
+        "id": "br_starter_shopping_005"
     },
     {
         "word": "ledan",
         "level": "starter",
         "form": "adjective",
         "subtext": "ur gêr ledan / un embregerezh ledan",
-        "synonyms": ["ur c'hantad bras"],
+        "synonyms": [
+            "ur c'hantad bras"
+        ],
         "definitions": [
             {
                 "text": "Brasoc'h eget ar geidenn.",
@@ -889,14 +1106,22 @@
         ],
         "theme": "describing",
         "comparative": "ledanoc'h",
-        "superlative": "ledanañ"
+        "superlative": "ledanañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_014"
     },
     {
         "word": "bihanik",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["un tamm bihan", "ur pizh arc'hant", "re vihan"],
+        "synonyms": [
+            "un tamm bihan",
+            "ur pizh arc'hant",
+            "re vihan"
+        ],
         "definitions": [
             {
                 "text": "Bihan e vent; ur c'hantad bihan a.",
@@ -907,7 +1132,11 @@
         ],
         "theme": "describing",
         "comparative": "bihanikoc'h",
-        "superlative": "bihanikañ"
+        "superlative": "bihanikañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_015"
     },
     {
         "word": "hir",
@@ -927,7 +1156,11 @@
         "superlative": "hirañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_016"
     },
     {
         "word": "uhel",
@@ -944,14 +1177,20 @@
         ],
         "theme": "describing",
         "comparative": "uheloc'h",
-        "superlative": "uhelañ"
+        "superlative": "uhelañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_017"
     },
     {
         "word": "izel",
         "level": "starter",
         "form": "adjective",
         "subtext": "priz izel / gopr izel",
-        "synonyms": ["n'eo ket uhel"],
+        "synonyms": [
+            "n'eo ket uhel"
+        ],
         "definitions": [
             {
                 "text": "Izeloc'h eget ar geidenn.",
@@ -962,7 +1201,11 @@
         ],
         "theme": "describing",
         "comparative": "izeloc'h",
-        "superlative": "izelañ"
+        "superlative": "izelañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_018"
     },
     {
         "word": "leun",
@@ -982,14 +1225,20 @@
         "superlative": "leunañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_019"
     },
     {
         "word": "goullo",
         "level": "starter",
         "form": "adjective",
         "subtext": "un ranndi goullo / goullo-mik",
-        "synonyms": ["ur gambr oulloo"],
+        "synonyms": [
+            "ur gambr oulloo"
+        ],
         "definitions": [
             {
                 "text": "Hep tra e-barzh.",
@@ -1003,14 +1252,22 @@
         "superlative": "goulloañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_020"
     },
     {
         "word": "tommik",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["amzer dommik", "ur degemer tomm", "mirout tomm"],
+        "synonyms": [
+            "amzer dommik",
+            "ur degemer tomm",
+            "mirout tomm"
+        ],
         "definitions": [
             {
                 "text": "Un tammig tomm; tommet en un doare plijus.",
@@ -1021,7 +1278,11 @@
         ],
         "theme": "nature",
         "comparative": "tommikoc'h",
-        "superlative": "tommikañ"
+        "superlative": "tommikañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_nature_005"
     },
     {
         "word": "fresk",
@@ -1038,14 +1299,22 @@
         ],
         "theme": "nature",
         "comparative": "freskoc'h",
-        "superlative": "freskañ"
+        "superlative": "freskañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_nature_006"
     },
     {
         "word": "gleb",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["amzer c'hleb", "dilhad gleb", "glebiañ"],
+        "synonyms": [
+            "amzer c'hleb",
+            "dilhad gleb",
+            "glebiañ"
+        ],
         "definitions": [
             {
                 "text": "Gant dour.",
@@ -1059,14 +1328,22 @@
         "superlative": "glepañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_nature_007"
     },
     {
         "word": "sec'h",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["amzer sec'h", "kroc'hen sec'h", "mirout sec'h"],
+        "synonyms": [
+            "amzer sec'h",
+            "kroc'hen sec'h",
+            "mirout sec'h"
+        ],
         "definitions": [
             {
                 "text": "Hep dour.",
@@ -1080,7 +1357,11 @@
         "superlative": "sec'hañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_nature_008"
     },
     {
         "word": "lous",
@@ -1088,7 +1369,11 @@
         "theme": "furniture",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["dirty hands", "dirty clothes", "get dirty"],
+        "synonyms": [
+            "dirty hands",
+            "dirty clothes",
+            "get dirty"
+        ],
         "definitions": [
             {
                 "text": "Gant poultrenn.",
@@ -1101,14 +1386,21 @@
         "superlative": "lousañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_furniture_002"
     },
     {
         "word": "kalet",
         "level": "starter",
         "form": "adjective",
         "subtext": "labour kalet",
-        "synonyms": ["un diviz diaes", "re galet"],
+        "synonyms": [
+            "un diviz diaes",
+            "re galet"
+        ],
         "definitions": [
             {
                 "text": "N'eo ket blot.",
@@ -1122,14 +1414,22 @@
         "superlative": "kaletañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_021"
     },
     {
         "word": "blot",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["soft light", "soft music", "soft skills"],
+        "synonyms": [
+            "soft light",
+            "soft music",
+            "soft skills"
+        ],
         "definitions": [
             {
                 "text": "N'eo ket kalet.",
@@ -1143,14 +1443,22 @@
         "superlative": "blotañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_022"
     },
     {
         "word": "pounner",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["heavy traffic", "heavy rain", "too heavy"],
+        "synonyms": [
+            "heavy traffic",
+            "heavy rain",
+            "too heavy"
+        ],
         "definitions": [
             {
                 "text": "Gant ur pouez bras.",
@@ -1164,7 +1472,11 @@
         "superlative": "pounnerañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_023"
     },
     {
         "word": "skañv",
@@ -1181,7 +1493,11 @@
         ],
         "theme": "describing",
         "comparative": "skañvoc'h",
-        "superlative": "skañvañ"
+        "superlative": "skañvañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_024"
     },
     {
         "word": "gell",
@@ -1198,7 +1514,11 @@
         ],
         "theme": "colours",
         "comparative": "gelloc'h",
-        "superlative": "gellañ"
+        "superlative": "gellañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_colours_007"
     },
     {
         "word": "gris",
@@ -1215,7 +1535,11 @@
         ],
         "theme": "colours",
         "comparative": "grisoc'h",
-        "superlative": "grisañ"
+        "superlative": "grisañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_colours_008"
     },
     {
         "word": "roz",
@@ -1232,7 +1556,11 @@
         ],
         "theme": "colours",
         "comparative": "rozoc'h",
-        "superlative": "rozañ"
+        "superlative": "rozañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_colours_009"
     },
     {
         "word": "orañjez",
@@ -1249,7 +1577,11 @@
         ],
         "theme": "colours",
         "comparative": "orañjezoc'h",
-        "superlative": "orañjezañ"
+        "superlative": "orañjezañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_colours_010"
     },
     {
         "word": "meur",
@@ -1266,14 +1598,22 @@
         ],
         "theme": "describing",
         "comparative": "muioc'h meur",
-        "superlative": "ar muiañ meur"
+        "superlative": "ar muiañ meur",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_025"
     },
     {
         "word": "bravik",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["un deiz brav", "ul lec'h brav", "un den jentil"],
+        "synonyms": [
+            "un deiz brav",
+            "ul lec'h brav",
+            "un den jentil"
+        ],
         "definitions": [
             {
                 "text": "Plijus pe jentil.",
@@ -1284,14 +1624,20 @@
         ],
         "theme": "describing",
         "comparative": "bravikoc'h",
-        "superlative": "bravikañ"
+        "superlative": "bravikañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_026"
     },
     {
         "word": "marzhus",
         "level": "starter",
         "form": "adjective",
         "subtext": "un darvoud marzhus",
-        "synonyms": ["un amzer varzhus"],
+        "synonyms": [
+            "un amzer varzhus"
+        ],
         "definitions": [
             {
                 "text": "Mat-tre; a ro plijadur vras.",
@@ -1302,14 +1648,22 @@
         ],
         "theme": "describing",
         "comparative": "marzhusoc'h",
-        "superlative": "marzhusañ"
+        "superlative": "marzhusañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_027"
     },
     {
         "word": "euzhus",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["amzer spontus", "ur fazi spontus", "keleier spontus"],
+        "synonyms": [
+            "amzer spontus",
+            "ur fazi spontus",
+            "keleier spontus"
+        ],
         "definitions": [
             {
                 "text": "Fall-tre.",
@@ -1323,7 +1677,11 @@
         "superlative": "euzhusañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_028"
     },
     {
         "word": "euzhus",
@@ -1340,7 +1698,11 @@
         ],
         "theme": "describing",
         "comparative": "euzhusoc'h",
-        "superlative": "euzhusañ"
+        "superlative": "euzhusañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_029"
     },
     {
         "word": "estonus",
@@ -1357,7 +1719,11 @@
         ],
         "theme": "describing",
         "comparative": "estonusoc'h",
-        "superlative": "estonusañ"
+        "superlative": "estonusañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_030"
     },
     {
         "word": "dreist",
@@ -1374,7 +1740,11 @@
         ],
         "theme": "describing",
         "comparative": "muioc'h dreist",
-        "superlative": "ar muiañ dreist"
+        "superlative": "ar muiañ dreist",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_031"
     },
     {
         "word": "trist",
@@ -1394,14 +1764,22 @@
         "superlative": "tristañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_005"
     },
     {
         "word": "naoniek",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["kaout naon", "naon vras", "chom hep debriñ"],
+        "synonyms": [
+            "kaout naon",
+            "naon vras",
+            "chom hep debriñ"
+        ],
         "definitions": [
             {
                 "text": "C'hoant debriñ.",
@@ -1415,14 +1793,20 @@
         "superlative": "naoniekañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_006"
     },
     {
         "word": "konnar",
         "level": "starter",
         "form": "adjective",
         "subtext": "en em santiñ kounnaret / kounnaret ouzh unan bennak",
-        "synonyms": ["kounnaret-tre"],
+        "synonyms": [
+            "kounnaret-tre"
+        ],
         "definitions": [
             {
                 "text": "Gant droug.",
@@ -1436,7 +1820,11 @@
         "superlative": "konnarañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_007"
     },
     {
         "word": "borodet",
@@ -1453,7 +1841,11 @@
         ],
         "theme": "emotions",
         "comparative": "borodetoc'h",
-        "superlative": "borodetañ"
+        "superlative": "borodetañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_008"
     },
     {
         "word": "entouziastet",
@@ -1470,14 +1862,20 @@
             }
         ],
         "comparative": "entouziastetoc'h",
-        "superlative": "entouziastetañ"
+        "superlative": "entouziastetañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_009"
     },
     {
         "word": "aoniek",
         "level": "starter",
         "form": "adjective",
         "subtext": "en em santiñ aoniek / aoniek-bras",
-        "synonyms": ["aon rak"],
+        "synonyms": [
+            "aon rak"
+        ],
         "definitions": [
             {
                 "text": "Gant aon.",
@@ -1488,7 +1886,11 @@
         ],
         "theme": "emotions",
         "comparative": "aoniekoc'h",
-        "superlative": "aoniekañ"
+        "superlative": "aoniekañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_010"
     },
     {
         "word": "keuziek",
@@ -1505,7 +1907,11 @@
         ],
         "theme": "emotions",
         "comparative": "keuziekoc'h",
-        "superlative": "keuziekañ"
+        "superlative": "keuziekañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_011"
     },
     {
         "word": "reizh",
@@ -1522,14 +1928,22 @@
         ],
         "theme": "describing",
         "comparative": "reishoc'h",
-        "superlative": "reishañ"
+        "superlative": "reishañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_032"
     },
     {
         "word": "fazi",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["wrong answer", "go wrong", "completely wrong"],
+        "synonyms": [
+            "wrong answer",
+            "go wrong",
+            "completely wrong"
+        ],
         "definitions": [
             {
                 "text": "Gant ur fazi.",
@@ -1543,7 +1957,11 @@
         "superlative": "faziañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_033"
     },
     {
         "word": "nevez",
@@ -1563,7 +1981,11 @@
         "superlative": "nevesañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_034"
     },
     {
         "word": "disheñvel",
@@ -1583,7 +2005,11 @@
         "superlative": "disheñvelañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_035"
     },
     {
         "word": "memes",
@@ -1603,14 +2029,22 @@
         "superlative": "memesañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_036"
     },
     {
         "word": "buan",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["boued herrek", "tren tizh", "prim-tre"],
+        "synonyms": [
+            "boued herrek",
+            "tren tizh",
+            "prim-tre"
+        ],
         "definitions": [
             {
                 "text": "Gant tizh.",
@@ -1624,7 +2058,11 @@
         "superlative": "buanañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_037"
     },
     {
         "word": "gorrek",
@@ -1644,14 +2082,22 @@
         "superlative": "gorrekañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_038"
     },
     {
         "word": "didrous",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["karter sioul", "chom sioul", "brav ha sioul"],
+        "synonyms": [
+            "karter sioul",
+            "chom sioul",
+            "brav ha sioul"
+        ],
         "definitions": [
             {
                 "text": "Hep trouz.",
@@ -1665,14 +2111,22 @@
         "superlative": "didrousañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_039"
     },
     {
         "word": "kreñv",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["loud noise", "too loud", "a loud voice"],
+        "synonyms": [
+            "loud noise",
+            "too loud",
+            "a loud voice"
+        ],
         "definitions": [
             {
                 "text": "Gant ur son kreñv.",
@@ -1686,7 +2140,11 @@
         "superlative": "kreñvañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_040"
     },
     {
         "word": "diogel",
@@ -1706,7 +2164,11 @@
         "superlative": "diogelañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_places_001"
     },
     {
         "word": "dañjerus",
@@ -1726,7 +2188,11 @@
         "superlative": "dañjerusañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_places_002"
     },
     {
         "word": "dilaouen",
@@ -1742,9 +2208,15 @@
             }
         ],
         "subtext": "en em santiñ dilailh / en em santiñ fall gant",
-        "synonyms": ["trist-meurbet"],
+        "synonyms": [
+            "trist-meurbet"
+        ],
         "comparative": "unhappier",
-        "superlative": "the unhappiest"
+        "superlative": "the unhappiest",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_012"
     },
     {
         "word": "strafuilhet",
@@ -1760,12 +2232,19 @@
             }
         ],
         "subtext": "en em santiñ nervus",
-        "synonyms": ["chalet gant", "nervus-tre"],
+        "synonyms": [
+            "chalet gant",
+            "nervus-tre"
+        ],
         "comparative": "strafuilhetoc'h",
         "superlative": "strafuilhetañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_013"
     },
     {
         "word": "strafuilhet",
@@ -1781,9 +2260,16 @@
             }
         ],
         "subtext": "en em santiñ stennet",
-        "synonyms": ["stennet-tre", "karget a stress"],
+        "synonyms": [
+            "stennet-tre",
+            "karget a stress"
+        ],
         "comparative": "more stressed",
-        "superlative": "the most stressed"
+        "superlative": "the most stressed",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_014"
     },
     {
         "word": "fiziañs",
@@ -1799,9 +2285,15 @@
             }
         ],
         "subtext": "en em santiñ sur / sur eus outañ e-unan",
-        "synonyms": ["sur-meurbet"],
+        "synonyms": [
+            "sur-meurbet"
+        ],
         "comparative": "more confident",
-        "superlative": "the most confident"
+        "superlative": "the most confident",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_041"
     },
     {
         "word": "lorc'hus",
@@ -1817,12 +2309,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["lorc'h ennañ", "lorc'h bras", "lorc'h gant"],
+        "synonyms": [
+            "lorc'h ennañ",
+            "lorc'h bras",
+            "lorc'h gant"
+        ],
         "comparative": "lorc'husoc'h",
         "superlative": "lorc'husañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_042"
     },
     {
         "word": "aoniek",
@@ -1838,12 +2338,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["kaout aon", "aon rak", "aon bras"],
+        "synonyms": [
+            "kaout aon",
+            "aon rak",
+            "aon bras"
+        ],
         "comparative": "aoniekoc'h",
         "superlative": "aoniekañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_015"
     },
     {
         "word": "souezhet",
@@ -1860,7 +2368,11 @@
         ],
         "subtext": "en em santiñ souezhet / souezhet-bras / souezhet-mat",
         "comparative": "more surprised",
-        "superlative": "the most surprised"
+        "superlative": "the most surprised",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_016"
     },
     {
         "word": "disantet",
@@ -1876,9 +2388,17 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["bezañ dipitet", "dipitet-tre", "dipitet gant"],
+        "synonyms": [
+            "bezañ dipitet",
+            "dipitet-tre",
+            "dipitet gant"
+        ],
         "comparative": "more disappointed",
-        "superlative": "the most disappointed"
+        "superlative": "the most disappointed",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_emotions_017"
     },
     {
         "word": "brav",
@@ -1894,12 +2414,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["gwel brav", "kêr vrav", "brav-meurbet"],
+        "synonyms": [
+            "gwel brav",
+            "kêr vrav",
+            "brav-meurbet"
+        ],
         "comparative": "bravoc'h",
         "superlative": "bravañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_043"
     },
     {
         "word": "koant",
@@ -1915,9 +2443,15 @@
             }
         ],
         "subtext": "ul lec'h koant / koant a-walc'h",
-        "synonyms": ["mat a-walc'h"],
+        "synonyms": [
+            "mat a-walc'h"
+        ],
         "comparative": "prettier",
-        "superlative": "the prettiest"
+        "superlative": "the prettiest",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_044"
     },
     {
         "word": "kreñv",
@@ -1937,7 +2471,11 @@
         "superlative": "kreñvañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_045"
     },
     {
         "word": "wan",
@@ -1953,12 +2491,19 @@
             }
         ],
         "subtext": "un arguzenn wan",
-        "synonyms": ["luget fall", "gwan-tre"],
+        "synonyms": [
+            "luget fall",
+            "gwan-tre"
+        ],
         "comparative": "wanoc'h",
         "superlative": "wanañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_046"
     },
     {
         "word": "yac'h",
@@ -1974,9 +2519,17 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["physically fit", "stay fit", "keep fit"],
+        "synonyms": [
+            "physically fit",
+            "stay fit",
+            "keep fit"
+        ],
         "comparative": "fitter",
-        "superlative": "the fittest"
+        "superlative": "the fittest",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_health_medicine_002"
     },
     {
         "word": "dreist",
@@ -1992,9 +2545,16 @@
             }
         ],
         "subtext": "labour eus ar c'hentañ",
-        "synonyms": ["disoc'hoù dispar", "eus ar c'hentañ-mik"],
+        "synonyms": [
+            "disoc'hoù dispar",
+            "eus ar c'hentañ-mik"
+        ],
         "comparative": "more excellent",
-        "superlative": "the most excellent"
+        "superlative": "the most excellent",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_047"
     },
     {
         "word": "perfezh",
@@ -2010,12 +2570,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["a perfect opportunity", "perfect timing", "absolutely perfect"],
+        "synonyms": [
+            "a perfect opportunity",
+            "perfect timing",
+            "absolutely perfect"
+        ],
         "comparative": "perfezhoc'h",
         "superlative": "perfezhañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_048"
     },
     {
         "word": "ditalvoud",
@@ -2031,12 +2599,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["completely useless", "prove useless", "a useless idea"],
+        "synonyms": [
+            "completely useless",
+            "prove useless",
+            "a useless idea"
+        ],
         "comparative": "ditalvoudoc'h",
         "superlative": "ditalvoudañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_049"
     },
     {
         "word": "reizh",
@@ -2052,12 +2628,18 @@
             }
         ],
         "subtext": "respont reizh / reizh-tre",
-        "synonyms": ["an doare mat"],
+        "synonyms": [
+            "an doare mat"
+        ],
         "comparative": "reishoc'h",
         "superlative": "reishañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_050"
     },
     {
         "word": "dedennus",
@@ -2077,7 +2659,11 @@
         "superlative": "dedennusañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_051"
     },
     {
         "word": "borodus",
@@ -2093,12 +2679,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["borus-tre", "un emvod borus", "kavout borus"],
+        "synonyms": [
+            "borus-tre",
+            "un emvod borus",
+            "kavout borus"
+        ],
         "comparative": "borodusoc'h",
         "superlative": "borodusañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_052"
     },
     {
         "word": "ret",
@@ -2115,7 +2709,11 @@
         ],
         "subtext": "ret-holl / ma vez ret / ret eo ober",
         "comparative": "muioc'h ret",
-        "superlative": "ar muiañ ret"
+        "superlative": "ar muiañ ret",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_053"
     },
     {
         "word": "posupl",
@@ -2131,12 +2729,19 @@
             }
         ],
         "subtext": "ken buan hag ar gwellañ",
-        "synonyms": ["posupl eo", "lakaat da vezañ posupl"],
+        "synonyms": [
+            "posupl eo",
+            "lakaat da vezañ posupl"
+        ],
         "comparative": "posuploc'h",
         "superlative": "posuplañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_054"
     },
     {
         "word": "amposupl",
@@ -2152,12 +2757,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["virtually impossible", "make impossible", "nearly impossible"],
+        "synonyms": [
+            "virtually impossible",
+            "make impossible",
+            "nearly impossible"
+        ],
         "comparative": "amposuploc'h",
         "superlative": "amposuplañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_055"
     },
     {
         "word": "ispisial",
@@ -2177,7 +2790,11 @@
         "superlative": "ispisialañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_056"
     },
     {
         "word": "brudet",
@@ -2193,9 +2810,15 @@
             }
         ],
         "subtext": "brudet-tre / un dibab brudet",
-        "synonyms": ["ar pep brudetañ"],
+        "synonyms": [
+            "ar pep brudetañ"
+        ],
         "comparative": "more popular",
-        "superlative": "the most popular"
+        "superlative": "the most popular",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_057"
     },
     {
         "word": "heñvel",
@@ -2212,7 +2835,11 @@
         ],
         "subtext": "heñvel-tre / heñvel ouzh / disoc'hoù heñvel",
         "comparative": "more similar",
-        "superlative": "the most similar"
+        "superlative": "the most similar",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_058"
     },
     {
         "word": "mignonel",
@@ -2228,9 +2855,17 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["hegarat-tre", "un dremm hegarat", "un aergelc'h hegarat"],
+        "synonyms": [
+            "hegarat-tre",
+            "un dremm hegarat",
+            "un aergelc'h hegarat"
+        ],
         "comparative": "more friendly",
-        "superlative": "the most friendly"
+        "superlative": "the most friendly",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_059"
     },
     {
         "word": "jentil",
@@ -2246,12 +2881,19 @@
             }
         ],
         "subtext": "jentil ac'hanoc'h",
-        "synonyms": ["hegarat-tre", "un den hegarat"],
+        "synonyms": [
+            "hegarat-tre",
+            "un den hegarat"
+        ],
         "comparative": "jentiloc'h",
         "superlative": "jentilañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_060"
     },
     {
         "word": "farsus",
@@ -2267,12 +2909,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["fentus-tre", "ur gontadenn fentus", "kavout fentus"],
+        "synonyms": [
+            "fentus-tre",
+            "ur gontadenn fentus",
+            "kavout fentus"
+        ],
         "comparative": "farsusoc'h",
         "superlative": "farsusañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_061"
     },
     {
         "word": "speredek",
@@ -2292,7 +2942,11 @@
         "superlative": "speredekañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_062"
     },
     {
         "word": "seven",
@@ -2312,7 +2966,11 @@
         "superlative": "sevenañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_063"
     },
     {
         "word": "dizereat",
@@ -2328,12 +2986,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["dizaven-tre", "dizesk-bras", "a-ratozh dizaven"],
+        "synonyms": [
+            "dizaven-tre",
+            "dizesk-bras",
+            "a-ratozh dizaven"
+        ],
         "comparative": "dizereatoc'h",
         "superlative": "dizereatañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_064"
     },
     {
         "word": "leue",
@@ -2349,12 +3015,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["lezirek-tre", "un doare lezirek", "re lezirek"],
+        "synonyms": [
+            "lezirek-tre",
+            "un doare lezirek",
+            "re lezirek"
+        ],
         "comparative": "leueoc'h",
         "superlative": "leueañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_065"
     },
     {
         "word": "onest",
@@ -2371,7 +3045,11 @@
         ],
         "subtext": "onest-tre / onest-holl",
         "comparative": "onestoc'h",
-        "superlative": "onestañ"
+        "superlative": "onestañ",
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_066"
     },
     {
         "word": "trouzus",
@@ -2387,17 +3065,20 @@
             }
         ],
         "subtext": "trouzus-tre / un aergelc'h trouzus",
-        "synonyms": ["re drouzus"],
+        "synonyms": [
+            "re drouzus"
+        ],
         "comparative": "trouzusoc'h",
         "superlative": "trouzusañ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "br",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "br_starter_describing_067"
     }
-]
-    const lang = "br";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

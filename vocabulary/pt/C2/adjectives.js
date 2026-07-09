@@ -27,7 +27,8 @@
         "id": "pt_proficiency_language_001",
         "antonyms": [
             "gradual"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "abstruso",
@@ -54,7 +55,8 @@
         "id": "pt_proficiency_psychology_001",
         "antonyms": [
             "simples"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "anacrónico",
@@ -81,7 +83,8 @@
         "id": "pt_proficiency_time_001",
         "antonyms": [
             "contemporâneo"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "antitético",
@@ -108,7 +111,8 @@
         "id": "pt_proficiency_language_002",
         "antonyms": [
             "idêntico"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "arcano",
@@ -135,7 +139,8 @@
         "id": "pt_proficiency_psychology_002",
         "antonyms": [
             "comum"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "atípico",
@@ -162,7 +167,8 @@
         "id": "pt_proficiency_language_003",
         "antonyms": [
             "típico"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "binário",
@@ -189,7 +195,8 @@
         "id": "pt_proficiency_language_004",
         "antonyms": [
             "unitário"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "categórico",
@@ -216,7 +223,8 @@
         "id": "pt_proficiency_language_005",
         "antonyms": [
             "qualificado"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "circunspecto",
@@ -243,7 +251,8 @@
         "id": "pt_proficiency_social_001",
         "antonyms": [
             "temerário"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "encoberto",
@@ -270,7 +279,8 @@
         "id": "pt_proficiency_social_002",
         "antonyms": [
             "aberto"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "dialético",
@@ -294,7 +304,8 @@
             "analítico"
         ],
         "lang": "pt",
-        "id": "pt_proficiency_language_006"
+        "id": "pt_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "difuso",
@@ -321,7 +332,8 @@
         "id": "pt_proficiency_language_007",
         "antonyms": [
             "concentrado"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "elusivo",
@@ -354,7 +366,8 @@
         "id": "pt_proficiency_psychology_003",
         "antonyms": [
             "alcançável"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "esotérico",
@@ -381,7 +394,8 @@
         "id": "pt_proficiency_psychology_004",
         "antonyms": [
             "exotérico"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "falaz",
@@ -408,7 +422,8 @@
         "id": "pt_proficiency_language_008",
         "antonyms": [
             "sólido"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "imutável",
@@ -435,7 +450,8 @@
         "id": "pt_proficiency_language_009",
         "antonyms": [
             "mutável"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "imparcial",
@@ -462,7 +478,8 @@
         "id": "pt_proficiency_social_003",
         "antonyms": [
             "parcial"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "incidental",
@@ -489,7 +506,8 @@
         "id": "pt_proficiency_language_010",
         "antonyms": [
             "central"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "inerente",
@@ -516,7 +534,8 @@
         "id": "pt_proficiency_language_011",
         "antonyms": [
             "extrínseco"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "inimitável",
@@ -543,7 +562,8 @@
         "id": "pt_proficiency_art_culture_001",
         "antonyms": [
             "comum"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "insidioso",
@@ -570,7 +590,8 @@
         "id": "pt_proficiency_social_004",
         "antonyms": [
             "direto"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "irreconciliável",
@@ -597,7 +618,8 @@
         "id": "pt_proficiency_language_012",
         "antonyms": [
             "compatível"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "liminal",
@@ -621,7 +643,8 @@
             "limiar"
         ],
         "lang": "pt",
-        "id": "pt_proficiency_language_013"
+        "id": "pt_proficiency_language_013",
+        "transcription": ""
     },
     {
         "word": "múltiplo",
@@ -648,7 +671,8 @@
         "id": "pt_proficiency_language_014",
         "antonyms": [
             "único"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "nebuloso",
@@ -675,7 +699,8 @@
         "id": "pt_proficiency_psychology_005",
         "antonyms": [
             "distinto"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "normativo",
@@ -702,7 +727,8 @@
         "id": "pt_proficiency_social_005",
         "antonyms": [
             "descritivo"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "nuanceado",
@@ -729,7 +755,8 @@
         "id": "pt_proficiency_language_015",
         "antonyms": [
             "tosco"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "oblíquo",
@@ -756,7 +783,8 @@
         "id": "pt_proficiency_language_016",
         "antonyms": [
             "direto"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "opaco",
@@ -783,7 +811,8 @@
         "id": "pt_proficiency_language_017",
         "antonyms": [
             "transparente"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "ostensível",
@@ -810,7 +839,8 @@
         "id": "pt_proficiency_language_018",
         "antonyms": [
             "genuíno"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "paradoxal",
@@ -837,7 +867,8 @@
         "id": "pt_proficiency_language_019",
         "antonyms": [
             "coerente"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "pervasivo",
@@ -864,7 +895,8 @@
         "id": "pt_proficiency_time_002",
         "antonyms": [
             "raro"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "polarizador",
@@ -891,7 +923,8 @@
         "id": "pt_proficiency_social_006",
         "antonyms": [
             "unificador"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "precário",
@@ -918,7 +951,8 @@
         "id": "pt_proficiency_language_020",
         "antonyms": [
             "estável"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "prescritivo",
@@ -945,7 +979,8 @@
         "id": "pt_proficiency_language_021",
         "antonyms": [
             "descritivo"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "prolongado",
@@ -972,7 +1007,8 @@
         "id": "pt_proficiency_time_003",
         "antonyms": [
             "breve"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "redutor",
@@ -999,7 +1035,8 @@
         "id": "pt_proficiency_language_022",
         "antonyms": [
             "complexo"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "seminal",
@@ -1026,7 +1063,8 @@
         "id": "pt_proficiency_time_004",
         "antonyms": [
             "insignificante"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "especioso",
@@ -1053,7 +1091,8 @@
         "id": "pt_proficiency_language_023",
         "antonyms": [
             "válido"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "espúrio",
@@ -1080,7 +1119,8 @@
         "id": "pt_proficiency_language_024",
         "antonyms": [
             "autêntico"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "subversivo",
@@ -1107,7 +1147,8 @@
         "id": "pt_proficiency_social_007",
         "antonyms": [
             "conformista"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "tácito",
@@ -1134,7 +1175,8 @@
         "id": "pt_proficiency_language_025",
         "antonyms": [
             "explícito"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "ténue",
@@ -1161,7 +1203,8 @@
         "id": "pt_proficiency_language_026",
         "antonyms": [
             "forte"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "transitório",
@@ -1188,7 +1231,8 @@
         "id": "pt_proficiency_time_005",
         "antonyms": [
             "permanente"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "ubíquo",
@@ -1215,7 +1259,8 @@
         "id": "pt_proficiency_time_006",
         "antonyms": [
             "raro"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "inequívoco",
@@ -1242,7 +1287,8 @@
         "id": "pt_proficiency_language_027",
         "antonyms": [
             "ambíguo"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "sem precedentes",
@@ -1269,7 +1315,8 @@
         "id": "pt_proficiency_time_007",
         "antonyms": [
             "comum"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "insustentável",
@@ -1296,7 +1343,8 @@
         "id": "pt_proficiency_language_028",
         "antonyms": [
             "defensável"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "pesado",
@@ -1323,7 +1371,8 @@
         "id": "pt_proficiency_language_029",
         "antonyms": [
             "manejável"
-        ]
+        ],
+        "transcription": ""
     }
 ];
 

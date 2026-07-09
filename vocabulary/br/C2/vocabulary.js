@@ -18,7 +18,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_001"
+        "id": "br_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "teleologiezh",
@@ -36,7 +37,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_002"
+        "id": "br_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "ontologiezh",
@@ -54,7 +56,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_003"
+        "id": "br_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "reifiadur",
@@ -72,7 +75,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_004"
+        "id": "br_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "dialektik",
@@ -90,7 +94,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_005"
+        "id": "br_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "heuristik",
@@ -108,7 +113,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_001"
+        "id": "br_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "apofenia",
@@ -126,7 +132,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_002"
+        "id": "br_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "anavezout awenet",
@@ -143,7 +150,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_003"
+        "id": "br_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "pennaenn proaktivel",
@@ -160,7 +168,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_001"
+        "id": "br_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "pennaenn ziwall",
@@ -177,7 +186,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_002"
+        "id": "br_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "neptuegezh frankizour",
@@ -194,7 +204,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_003"
+        "id": "br_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "pronatalouriezh",
@@ -212,7 +223,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_004"
+        "id": "br_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "sublimadur",
@@ -230,7 +242,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_004"
+        "id": "br_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "jouissance",
@@ -248,7 +261,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_005"
+        "id": "br_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "thanatos",
@@ -266,7 +280,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_006"
+        "id": "br_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "bathos",
@@ -284,7 +299,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_art_culture_001"
+        "id": "br_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "apofas",
@@ -302,7 +318,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_006"
+        "id": "br_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "paraleps",
@@ -320,7 +337,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_007"
+        "id": "br_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "egor liminal",
@@ -337,7 +355,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_008"
+        "id": "br_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "chiasmus",
@@ -355,7 +374,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_009"
+        "id": "br_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "shibboleth",
@@ -373,7 +393,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_010"
+        "id": "br_proficiency_language_010",
+        "transcription": ""
     }
 ];
 

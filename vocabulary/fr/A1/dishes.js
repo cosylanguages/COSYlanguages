@@ -18,7 +18,10 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_food_drink_001"
     }
 ];
     const lang = "fr";

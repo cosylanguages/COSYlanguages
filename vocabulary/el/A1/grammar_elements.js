@@ -18,7 +18,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈsimera/"
+        "transcription": "/ˈsimera/",
+        "lang": "el",
+        "id": "el_starter_time_001"
     },
     {
         "word": "αύριο",
@@ -38,7 +40,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈavrio/"
+        "transcription": "/ˈavrio/",
+        "lang": "el",
+        "id": "el_starter_time_002"
     },
     {
         "word": "κάθε μέρα",
@@ -55,7 +59,10 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_starter_time_003"
     },
     {
         "word": "αύριο",
@@ -73,7 +80,9 @@
             }
         ],
         "transcription": "/ˈavrio/",
-        "countability": "countable"
+        "countability": "countable",
+        "lang": "el",
+        "id": "el_starter_time_004"
     }
 ];
     const lang = "el";

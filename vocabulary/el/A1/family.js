@@ -16,7 +16,9 @@
                 ]
             }
         ],
-        "transcription": "/maˈma/"
+        "transcription": "/maˈma/",
+        "lang": "el",
+        "id": "el_starter_family_001"
     },
     {
         "word": "μπαμπάς",
@@ -34,7 +36,9 @@
                 ]
             }
         ],
-        "transcription": "/baˈbas/"
+        "transcription": "/baˈbas/",
+        "lang": "el",
+        "id": "el_starter_family_002"
     },
     {
         "word": "αδελφός",
@@ -52,7 +56,9 @@
                 ]
             }
         ],
-        "transcription": "/a.ðelˈfos/"
+        "transcription": "/a.ðelˈfos/",
+        "lang": "el",
+        "id": "el_starter_family_003"
     },
     {
         "word": "αδελφή",
@@ -70,7 +76,9 @@
                 ]
             }
         ],
-        "transcription": "/a.ðelˈfi/"
+        "transcription": "/a.ðelˈfi/",
+        "lang": "el",
+        "id": "el_starter_family_004"
     },
     {
         "word": "οικογένεια",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/i.koˈʝe.ni.a/"
+        "transcription": "/i.koˈʝe.ni.a/",
+        "lang": "el",
+        "id": "el_starter_family_005"
     }
-    ];
+];
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

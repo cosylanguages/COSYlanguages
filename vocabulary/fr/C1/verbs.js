@@ -13,7 +13,8 @@
         "auxiliary": "avoir",
         "v4": "infrastructuant",
         "lang": "fr",
-        "id": "fr_advanced_science_tech_society_c1_verb_infrastructure"
+        "id": "fr_advanced_science_tech_society_c1_verb_infrastructure",
+        "transcription": ""
     }
 ];
     const lang = "fr";

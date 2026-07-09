@@ -229,8 +229,6 @@
         "word": "give",
         "emoji": "🎁",
         "subtext": "give advice / give money / give a present / give information",
-        "opposite": "take",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "transcription": "ɡɪv",
         "definitions": [
@@ -254,15 +252,16 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "gebaną"
-        }
+        },
+        "antonyms": [
+            "take"
+        ]
     },
     {
         "id": "en_starter_shopping_011",
         "word": "get",
         "emoji": "📥",
         "subtext": "get a job / get tired / get better / get home",
-        "opposite": "give",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -283,15 +282,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "give"
+        ]
     },
     {
         "id": "en_starter_shopping_012",
         "word": "open",
         "emoji": "📖",
         "subtext": "open a door / open an account / open a shop / open at nine",
-        "opposite": "closed",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -311,15 +311,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "closed"
+        ]
     },
     {
         "id": "en_starter_shopping_013",
         "word": "close",
         "emoji": "🔒",
         "subtext": "close a door / close at six / close an account / close the meeting",
-        "opposite": "open",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -339,15 +340,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "open"
+        ]
     },
     {
         "id": "en_starter_shopping_014",
         "word": "find",
         "emoji": "🔍",
         "subtext": "find a job / find out / find it difficult / find time",
-        "opposite": "lose",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -367,15 +369,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "lose"
+        ]
     },
     {
         "id": "en_starter_shopping_015",
         "word": "lose",
         "emoji": "📉",
         "subtext": "lose a job / lose money / lose weight / lose time",
-        "opposite": "win",
-        "oppositeEmoji": "🔍",
         "form": "verb",
         "definitions": [
             {
@@ -395,15 +398,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "win"
+        ]
     },
     {
         "id": "en_starter_shopping_016",
         "word": "buy",
         "emoji": "🛒",
         "subtext": "buy food / buy a ticket / buy online / buy a house",
-        "opposite": "sell",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -423,7 +427,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sell"
+        ]
     },
     {
         "id": "en_starter_money_payment_008",
@@ -444,20 +451,20 @@
         "v2": "paid",
         "v3": "paid",
         "group": "irregular",
-        "opposite": "receive",
         "transcription": "peɪ",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "receive"
+        ]
     },
     {
         "id": "en_starter_money_payment_009",
         "word": "spend",
         "emoji": "💸",
         "subtext": "spend money / spend on food / spend on rent / spend time",
-        "opposite": "save",
-        "oppositeEmoji": "💰",
         "form": "verb",
         "definitions": [
             {
@@ -476,15 +483,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "save"
+        ]
     },
     {
         "id": "en_starter_money_payment_010",
         "word": "save",
         "emoji": "💰",
         "subtext": "save money / save for a holiday / save for a house",
-        "opposite": "spend",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -503,7 +511,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "spend"
+        ]
     },
     {
         "id": "en_starter_shopping_017",
@@ -513,8 +524,6 @@
         "synonyms": [
             "best seller"
         ],
-        "opposite": "buy",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -533,15 +542,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "buy"
+        ]
     },
     {
         "id": "en_starter_money_payment_011",
         "word": "receive",
         "emoji": "📩",
         "subtext": "receive an email / receive a gift / receive payment / receive news",
-        "opposite": "send",
-        "oppositeEmoji": "✉️",
         "form": "verb",
         "definitions": [
             {
@@ -561,7 +571,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "send"
+        ]
     },
     {
         "id": "en_starter_money_payment_012",
@@ -582,12 +595,14 @@
         "emoji": "💶",
         "form": "verb",
         "group": "regular",
-        "opposite": "spend",
         "transcription": "ərn",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "spend"
+        ]
     },
     {
         "id": "en_starter_money_payment_013",
@@ -608,20 +623,20 @@
         "v2": "borrowed",
         "v3": "borrowed",
         "group": "regular",
-        "opposite": "lend",
         "transcription": "ˈbɑˌroʊ",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "lend"
+        ]
     },
     {
         "id": "en_starter_shopping_018",
         "word": "cheap",
         "emoji": "🏷️",
         "form": "adjective",
-        "opposite": "expensive",
-        "oppositeEmoji": "💎",
         "subtext": "cheap flight / very cheap / cheap and cheerful",
         "synonyms": [
             "low price",
@@ -647,15 +662,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "expensive"
+        ]
     },
     {
         "id": "en_starter_shopping_019",
         "word": "expensive",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "cheap",
-        "oppositeEmoji": "🏷️",
         "subtext": "very expensive / expensive taste / too expensive",
         "synonyms": [
             "costly",
@@ -681,15 +697,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "cheap"
+        ]
     },
     {
         "id": "en_starter_shopping_020",
         "word": "free",
         "emoji": "🎁",
         "form": "adjective",
-        "opposite": "busy",
-        "oppositeEmoji": "💎",
         "subtext": "free of charge, free gift / free time / free of charge / free to do",
         "definitions": [
             {
@@ -711,15 +728,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "busy"
+        ]
     },
     {
         "id": "en_starter_shopping_021",
         "word": "closed",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "open",
-        "oppositeEmoji": "📖",
         "subtext": "now closed, temporarily closed / closed for lunch / closed mind / closed door",
         "definitions": [
             {
@@ -736,15 +754,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "open"
+        ]
     },
     {
         "id": "en_starter_money_payment_014",
         "word": "rich",
         "emoji": "💰",
         "form": "adjective",
-        "opposite": "poor",
-        "oppositeEmoji": "🏚️",
         "subtext": "rich man / rich country / very rich",
         "synonyms": [
             "wealthy"
@@ -763,15 +782,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "poor"
+        ]
     },
     {
         "id": "en_starter_money_payment_015",
         "word": "poor",
         "emoji": "🏚️",
         "form": "adjective",
-        "opposite": "rich",
-        "oppositeEmoji": "💰",
         "subtext": "poor family / feel poor",
         "synonyms": [
             "broke",
@@ -791,7 +811,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "rich"
+        ]
     }
 ];
     const lang = "en";

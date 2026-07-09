@@ -13,7 +13,9 @@
         "lang": "en",
         "level": "advanced",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "en_advanced_people_other_nelson_mandela",
@@ -28,7 +30,9 @@
         "lang": "en",
         "level": "advanced",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "transcription": "",
+        "emoji": "✨"
     }
 ];
     const lang = "en";

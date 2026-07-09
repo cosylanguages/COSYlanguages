@@ -1,12 +1,14 @@
 (function() {
     const data = [
-{
+    {
         "word": "pasta",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "emoji": "🍝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈpasta",
         "plural": "pasta",
         "definitions": [
@@ -16,46 +18,51 @@
                     "Amo la pasta al pomodoro."
                 ]
             },
-{
-        "word": "pesce",
-        "image": "images/vocabulary/actions/to fish.png",
-        "level": "starter",
-        "theme": "food_drink",
-        "article": "il",
-        "gender": "masculine",
-        "emoji": "🐟",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [
             {
-                "text": "La carne del pesce mangiata come cibo.",
-                "examples": [
-                    "Mi piace il pesce alla griglia per cena."
-                ]
+                "word": "pesce",
+                "image": "images/vocabulary/actions/to fish.png",
+                "level": "starter",
+                "theme": "food_drink",
+                "article": "il",
+                "gender": "masculine",
+                "emoji": "🐟",
+                "form": "noun",
+                "classification": "regular",
+                "countability": "countable",
+                "definitions": [
+                    {
+                        "text": "La carne del pesce mangiata come cibo.",
+                        "examples": [
+                            "Mi piace il pesce alla griglia per cena."
+                        ]
+                    }
+                ],
+                "transcription": "/ˈpeʃʃe/",
+                "etymology": {
+                    "origin_lang": "Latin",
+                    "origin_word": "piscis"
+                }
             }
-        ],
-        "transcription": "/ˈpeʃʃe/",
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "piscis"
-        }
-    },
         ],
         "gender": "feminine",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_001"
     },
-{
+    {
         "word": "mela",
-        "image": "images/vocabulary/food/apple.png",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "emoji": "🍎",
         "numberPlural": "4 mela",
         "answer": "quattro mele",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈmela",
         "plural": "mele",
         "gender": "feminine",
@@ -75,16 +82,20 @@
             "origin_lang": "Latin",
             "origin_word": "mala",
             "origin_meaning": "apples"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_food_drink_002"
     },
-{
+    {
         "word": "pane",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈpane",
         "plural": null,
         "subtext": "pane bianco",
@@ -103,16 +114,20 @@
             "origin_lang": "Latin",
             "origin_word": "panis",
             "origin_meaning": "bread"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_food_drink_003"
     },
-{
+    {
         "word": "uovo",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🥚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈwɔvo",
         "plural": "uova",
         "subtext": "uovo sodo",
@@ -126,16 +141,20 @@
             }
         ],
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_004"
     },
-{
+    {
         "word": "latte",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈlatte",
         "plural": null,
         "subtext": "latte fresco",
@@ -154,16 +173,20 @@
             "origin_lang": "Latin",
             "origin_word": "lac",
             "origin_meaning": "milk"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_food_drink_005"
     },
-{
+    {
         "word": "riso",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈrizo",
         "plural": null,
         "subtext": "riso bianco",
@@ -177,16 +200,20 @@
             }
         ],
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_006"
     },
-{
+    {
         "word": "carne",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "carne di manzo",
         "partitive": "della",
@@ -205,15 +232,19 @@
             "origin_lang": "Latin",
             "origin_word": "caro",
             "origin_meaning": "flesh, meat"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_food_drink_007"
     },
-{
+    {
         "word": "cibo",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cibi",
         "gender": "masculine",
         "partitive": "del",
@@ -228,16 +259,20 @@
         "transcription": "ˈtʃibo",
         "synonyms": [],
         "subtext": "cibo sano",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_008"
     },
-{
+    {
         "word": "caffè",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "caffè espresso",
         "partitive": "del",
@@ -251,16 +286,20 @@
         ],
         "transcription": "kafˈfɛ",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_009"
     },
-{
+    {
         "word": "tè",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "tè verde",
         "partitive": "del",
@@ -274,16 +313,20 @@
         ],
         "transcription": "ˈtɛ",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_010"
     },
-{
+    {
         "word": "succo",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧃",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "succo di frutta",
         "partitive": "del",
@@ -297,16 +340,20 @@
         ],
         "transcription": "ˈsukkɔ",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_011"
     },
-{
+    {
         "word": "acqua",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "acqua naturale",
         "partitive": "dell'",
@@ -325,17 +372,20 @@
             "origin_lang": "Latin",
             "origin_word": "aqua",
             "origin_meaning": "water"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_food_drink_012"
     },
-{
+    {
         "word": "colazione",
-        "image": "images/vocabulary/actions/to have breakfast.png",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "colazioni",
         "definitions": [
             {
@@ -349,17 +399,20 @@
         "transcription": "kolatˈtsjone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_013"
     },
-{
+    {
         "word": "cena",
-        "image": "images/vocabulary/actions/to have dinner.png",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cene",
         "definitions": [
             {
@@ -373,17 +426,20 @@
         "transcription": "ˈtʃena",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_014"
     },
-{
+    {
         "word": "pranzo",
-        "image": "images/vocabulary/actions/to have lunch.png",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pranzi",
         "definitions": [
             {
@@ -397,16 +453,20 @@
         "transcription": "ˈprandzo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_015"
     },
-{
+    {
         "word": "frutta",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "frutta fresca, succo di frutta",
         "definitions": [
@@ -420,16 +480,20 @@
         "partitive": "della",
         "transcription": "ˈfrutta",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_016"
     },
-{
+    {
         "word": "verdura",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "verdure",
         "subtext": "verdura fresca, verdure verdi",
         "definitions": [
@@ -443,16 +507,20 @@
         "partitive": "della",
         "transcription": "verˈdura",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_017"
     },
-{
+    {
         "word": "cucina",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cucine",
         "definitions": [
             {
@@ -466,16 +534,20 @@
         "transcription": "kuˈtʃina",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_018"
     },
-{
+    {
         "word": "birra",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍺",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "birra fredda, alla spina",
         "definitions": [
@@ -489,16 +561,20 @@
         "partitive": "della",
         "transcription": "ˈbirra",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_019"
     },
-{
+    {
         "word": "vino",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "vino rosso, vino bianco, bicchiere di vino",
         "definitions": [
@@ -512,16 +588,20 @@
         "partitive": "del",
         "transcription": "ˈvino",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_020"
     },
-{
+    {
         "word": "pollo",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "polli",
         "definitions": [
             {
@@ -535,16 +615,20 @@
         "transcription": "ˈpollo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_021"
     },
-{
+    {
         "word": "zucchero",
         "level": "starter",
         "theme": "food_drink",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "zuccheri",
         "definitions": [
             {
@@ -558,16 +642,20 @@
         "transcription": "ˈtsukkero",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_022"
     },
-{
+    {
         "word": "insalata",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🥗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "insalate",
         "definitions": [
             {
@@ -581,16 +669,20 @@
         "transcription": "insaˈlata",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_023"
     },
-{
+    {
         "word": "manzo",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "manzi",
         "definitions": [
             {
@@ -604,16 +696,20 @@
         "transcription": "ˈmandzo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_024"
     },
-{
+    {
         "word": "maiale",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "maiali",
         "definitions": [
             {
@@ -631,16 +727,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "maialis"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_food_drink_025"
     },
-{
+    {
         "word": "patata",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥔",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "patate",
         "definitions": [
             {
@@ -654,16 +754,20 @@
         "transcription": "paˈtata",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_026"
     },
-{
+    {
         "word": "pomodoro",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pomodori",
         "definitions": [
             {
@@ -677,16 +781,20 @@
         "transcription": "pomoˈdɔro",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_027"
     },
-{
+    {
         "word": "cipolla",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cipolle",
         "definitions": [
             {
@@ -700,16 +808,20 @@
         "transcription": "tʃiˈpɔlla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_028"
     },
-{
+    {
         "word": "carota",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "carote",
         "definitions": [
             {
@@ -723,16 +835,20 @@
         "transcription": "kaˈrɔta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_029"
     },
-{
+    {
         "word": "zuppa",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "zuppe",
         "definitions": [
             {
@@ -746,16 +862,20 @@
         "transcription": "ˈtsuppa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_030"
     },
-{
+    {
         "word": "torta",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "torte",
         "definitions": [
             {
@@ -769,16 +889,20 @@
         "transcription": "ˈtɔrta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_031"
     },
-{
+    {
         "word": "cioccolato",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cioccolati",
         "definitions": [
             {
@@ -792,16 +916,20 @@
         "transcription": "tʃokkoˈlato",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_032"
     },
-{
+    {
         "word": "gelato",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gelati",
         "definitions": [
             {
@@ -815,16 +943,20 @@
         "transcription": "dʒeˈlato",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_033"
     },
-{
+    {
         "word": "limone",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "limoni",
         "definitions": [
             {
@@ -838,17 +970,20 @@
         "transcription": "liˈmone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_034"
     },
-{
+    {
         "word": "arancia",
-        "image": "images/vocabulary/food/orange.png",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍊",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "arance",
         "definitions": [
             {
@@ -862,16 +997,20 @@
         "transcription": "aˈrantʃa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_035"
     },
-{
+    {
         "word": "fragola",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fragole",
         "definitions": [
             {
@@ -885,16 +1024,20 @@
         "transcription": "ˈfraɡola",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_036"
     },
-{
+    {
         "word": "uva",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍇",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "uve",
         "definitions": [
             {
@@ -908,16 +1051,20 @@
         "transcription": "ˈuva",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_037"
     },
-{
+    {
         "word": "aglio",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "agli",
         "definitions": [
             {
@@ -931,16 +1078,20 @@
         "transcription": "ˈaʎʎo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_038"
     },
-{
+    {
         "word": "burro",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧈",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "burri",
         "definitions": [
             {
@@ -954,16 +1105,20 @@
         "transcription": "ˈburro",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_039"
     },
-{
+    {
         "word": "formaggio",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧀",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "formaggi",
         "definitions": [
             {
@@ -977,16 +1132,20 @@
         "transcription": "ˈformaggio",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_040"
     },
-{
+    {
         "word": "sale",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sali",
         "definitions": [
             {
@@ -1000,16 +1159,20 @@
         "transcription": "ˈsale",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_041"
     },
-{
+    {
         "word": "pepe",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pepi",
         "definitions": [
             {
@@ -1023,16 +1186,20 @@
         "transcription": "ˈpepe",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_042"
     },
-{
+    {
         "word": "olio",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏺",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "oli",
         "definitions": [
             {
@@ -1046,16 +1213,20 @@
         "transcription": "ˈolio",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_043"
     },
-{
+    {
         "word": "aceto",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏺",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "aceti",
         "definitions": [
             {
@@ -1069,17 +1240,20 @@
         "transcription": "ˈaceto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_044"
     },
-{
+    {
         "word": "merenda",
-        "image": "images/vocabulary/actions/to have a snack.png",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "merende",
         "definitions": [
             {
@@ -1093,16 +1267,20 @@
         "transcription": "meˈrɛnda",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_045"
     },
-{
+    {
         "word": "spuntino",
         "level": "starter",
         "theme": "food_drink",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "spuntini",
         "definitions": [
             {
@@ -1116,16 +1294,20 @@
         "transcription": "spunˈtino",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_046"
     },
-{
+    {
         "word": "pasto",
         "level": "starter",
         "theme": "food_drink",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pasti",
         "definitions": [
             {
@@ -1139,16 +1321,20 @@
         "transcription": "ˈpasto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_047"
     },
-{
+    {
         "word": "banana",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "banane",
         "partitive": "della",
         "transcription": "baˈnana",
@@ -1162,16 +1348,20 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_048"
     },
-{
+    {
         "word": "pizza",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pizze",
         "partitive": "della",
         "transcription": "ˈpittsa",
@@ -1185,16 +1375,20 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_049"
     },
-{
+    {
         "word": "pesca",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pesche",
         "partitive": "della",
         "transcription": "ˈpɛska",
@@ -1208,16 +1402,20 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_050"
     },
-{
+    {
         "word": "pera",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍐",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pere",
         "partitive": "della",
         "transcription": "ˈpera",
@@ -1231,16 +1429,20 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_051"
     },
-{
+    {
         "word": "ciliegia",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ciliegie",
         "partitive": "della",
         "transcription": "tʃiˈljɛdʒa",
@@ -1254,16 +1456,20 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_052"
     },
-{
+    {
         "word": "bevanda",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bevande",
         "transcription": "beˈvanda",
         "definitions": [
@@ -1279,16 +1485,20 @@
             "bibita"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_053"
     },
-{
+    {
         "word": "cereali",
         "level": "starter",
         "theme": "food_drink",
         "article": "i",
         "gender": "masculine",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cereali",
         "transcription": "tʃereˈali",
         "definitions": [
@@ -1302,9 +1512,11 @@
         "partitive": "dei",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_food_drink_054"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

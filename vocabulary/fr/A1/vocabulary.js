@@ -1,10 +1,10 @@
 // TODO: verify level classification
 (function() {
     const data = [
-{
+    {
         "word": "et",
         "level": "starter",
-        "theme": "conjunctions_connectors",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -18,12 +18,14 @@
                 ]
             }
         ],
-        "transcription": "/e/"
+        "transcription": "/e/",
+        "lang": "fr",
+        "id": "fr_starter_language_001"
     },
-{
+    {
         "word": "mais",
         "level": "starter",
-        "theme": "conjunctions_connectors",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -37,12 +39,14 @@
                 ]
             }
         ],
-        "transcription": "/mɛ/"
+        "transcription": "/mɛ/",
+        "lang": "fr",
+        "id": "fr_starter_language_002"
     },
-{
+    {
         "word": "parce que",
         "level": "starter",
-        "theme": "conjunctions_connectors",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -56,16 +60,20 @@
                 ]
             }
         ],
-        "transcription": "/paʁ.sə kə/"
+        "transcription": "/paʁ.sə kə/",
+        "lang": "fr",
+        "id": "fr_starter_language_003"
     },
-{
+    {
         "word": "problème",
         "level": "starter",
         "theme": "language",
         "article": "le",
         "gender": "masculine",
         "emoji": "❓",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "problèmes",
         "definitions": [
             {
@@ -75,9 +83,11 @@
                 ]
             }
         ],
-        "transcription": "/pʁɔ.blɛm/"
+        "transcription": "/pʁɔ.blɛm/",
+        "lang": "fr",
+        "id": "fr_starter_language_004"
     },
-{
+    {
         "word": "oui",
         "level": "starter",
         "theme": "language",
@@ -94,9 +104,11 @@
                 ]
             }
         ],
-        "transcription": "/wi/"
+        "transcription": "/wi/",
+        "lang": "fr",
+        "id": "fr_starter_language_005"
     },
-{
+    {
         "word": "non",
         "level": "starter",
         "theme": "language",
@@ -113,16 +125,20 @@
                 ]
             }
         ],
-        "transcription": "/nɔ̃/"
+        "transcription": "/nɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_language_006"
     },
-{
+    {
         "word": "conversation",
         "level": "starter",
         "theme": "language",
         "article": "la",
         "gender": "feminine",
         "emoji": "💬",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "conversations",
         "definitions": [
             {
@@ -132,12 +148,14 @@
                 ]
             }
         ],
-        "transcription": "/kɔ̃.vɛʁ.sa.sjɔ̃/"
+        "transcription": "/kɔ̃.vɛʁ.sa.sjɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_language_007"
     },
-{
+    {
         "word": "aussi",
         "level": "starter",
-        "theme": "conjunctions_connectors",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "➕",
@@ -151,16 +169,20 @@
                 ]
             }
         ],
-        "transcription": "/o.si/"
+        "transcription": "/o.si/",
+        "lang": "fr",
+        "id": "fr_starter_language_008"
     },
-{
+    {
         "word": "chose",
         "level": "starter",
         "theme": "describing",
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "choses",
         "definitions": [
             {
@@ -170,16 +192,20 @@
                 ]
             }
         ],
-        "transcription": "/ʃoz/"
+        "transcription": "/ʃoz/",
+        "lang": "fr",
+        "id": "fr_starter_describing_001"
     },
-{
+    {
         "word": "question",
         "level": "starter",
         "theme": "language",
         "article": "la",
         "gender": "feminine",
         "emoji": "❓",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "questions",
         "definitions": [
             {
@@ -189,16 +215,20 @@
                 ]
             }
         ],
-        "transcription": "/kɛs.tjɔ̃/"
+        "transcription": "/kɛs.tjɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_language_009"
     },
-{
+    {
         "word": "réponse",
         "level": "starter",
         "theme": "language",
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "réponses",
         "definitions": [
             {
@@ -208,9 +238,11 @@
                 ]
             }
         ],
-        "transcription": "/ʁe.pɔ̃s/"
+        "transcription": "/ʁe.pɔ̃s/",
+        "lang": "fr",
+        "id": "fr_starter_language_010"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -3,7 +3,7 @@
     {
         "word": "ser",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "👤",
         "subtext": "ser feliz",
         "synonyms": [
@@ -29,13 +29,23 @@
         "auxiliary": "ter",
         "tenses": {
             "present_simple": {
-                "positive": ["sou", "és", "é", "somos", "sois", "são"]
+                "positive": [
+                    "sou",
+                    "és",
+                    "é",
+                    "somos",
+                    "sois",
+                    "são"
+                ]
             }
         },
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "esse"
-        }
+        },
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_001"
     },
     {
         "word": "ter",
@@ -64,13 +74,23 @@
         "auxiliary": "ter",
         "tenses": {
             "present_simple": {
-                "positive": ["tenho", "tens", "tem", "temos", "tendes", "têm"]
+                "positive": [
+                    "tenho",
+                    "tens",
+                    "tem",
+                    "temos",
+                    "tendes",
+                    "têm"
+                ]
             }
         },
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "tenere"
-        }
+        },
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_001"
     },
     {
         "word": "sentir",
@@ -92,7 +112,10 @@
         "v2": "senti",
         "v3": "sentido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_health_medicine_001"
     },
     {
         "word": "dar",
@@ -100,8 +123,6 @@
         "theme": "shopping",
         "emoji": "🎁",
         "subtext": "dar conselhos / dar dinheiro / dar um presente / dar informações",
-        "opposite": "tomar",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -120,13 +141,26 @@
         "auxiliary": "ter",
         "tenses": {
             "present_simple": {
-                "positive": ["dou", "dás", "dá", "damos", "dais", "dão"]
+                "positive": [
+                    "dou",
+                    "dás",
+                    "dá",
+                    "damos",
+                    "dais",
+                    "dão"
+                ]
             }
         },
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "dare"
-        }
+        },
+        "lang": "pt",
+        "antonyms": [
+            "tomar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_shopping_001"
     },
     {
         "word": "tomar",
@@ -139,8 +173,6 @@
             "fazer uma pausa",
             "levar tempo"
         ],
-        "opposite": "dar",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -160,7 +192,13 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "tomare"
-        }
+        },
+        "lang": "pt",
+        "antonyms": [
+            "dar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_travel_001"
     },
     {
         "word": "obter",
@@ -190,12 +228,15 @@
         "v2": "obtive",
         "v3": "obtido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_shopping_002"
     },
     {
         "word": "pôr",
         "level": "starter",
-        "theme": "furniture_objects",
+        "theme": "furniture",
         "emoji": "📥",
         "subtext": "pôr",
         "synonyms": [
@@ -218,7 +259,10 @@
         "v2": "pus",
         "v3": "posto",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_furniture_001"
     },
     {
         "word": "fazer",
@@ -250,7 +294,10 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "facere"
-        }
+        },
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_002"
     },
     {
         "word": "fazer",
@@ -277,7 +324,10 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "facere"
-        }
+        },
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_003"
     },
     {
         "word": "usar",
@@ -301,7 +351,10 @@
         "v3": "usado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "usando"
+        "v4": "usando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_technology_001"
     },
     {
         "word": "abrir",
@@ -309,8 +362,6 @@
         "theme": "shopping",
         "emoji": "📖",
         "subtext": "abrir uma porta / abrir uma conta / abrir uma loja / abrir às nove",
-        "opposite": "fechar",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -327,7 +378,13 @@
         "v3": "aberto",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "abriendo"
+        "v4": "abriendo",
+        "lang": "pt",
+        "antonyms": [
+            "fechar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_shopping_003"
     },
     {
         "word": "fechar",
@@ -335,8 +392,6 @@
         "theme": "shopping",
         "emoji": "🔒",
         "subtext": "fechar uma porta / fechar às seis / fechar uma conta / fechar a reunião",
-        "opposite": "abrir",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -353,7 +408,13 @@
         "v3": "fechado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "fechando"
+        "v4": "fechando",
+        "lang": "pt",
+        "antonyms": [
+            "abrir"
+        ],
+        "transcription": "",
+        "id": "pt_starter_shopping_004"
     },
     {
         "word": "começar",
@@ -361,8 +422,6 @@
         "theme": "work",
         "emoji": "▶️",
         "subtext": "começar a trabalhar / começar uma reunião / começar um novo emprego",
-        "opposite": "terminar",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -379,7 +438,13 @@
         "v3": "começado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "começando"
+        "v4": "começando",
+        "lang": "pt",
+        "antonyms": [
+            "terminar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_work_004"
     },
     {
         "word": "terminar",
@@ -387,8 +452,6 @@
         "theme": "work",
         "emoji": "🏁",
         "subtext": "terminar o trabalho / terminar um projeto / terminar cedo / terminar tarde",
-        "opposite": "começar",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -405,7 +468,13 @@
         "v3": "terminado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "terminando"
+        "v4": "terminando",
+        "lang": "pt",
+        "antonyms": [
+            "começar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_work_005"
     },
     {
         "word": "ajudar",
@@ -432,7 +501,10 @@
         "v3": "ajudado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "ajudando"
+        "v4": "ajudando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_006"
     },
     {
         "word": "tentar",
@@ -459,7 +531,10 @@
         "v3": "tentado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "tentando"
+        "v4": "tentando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_school_001"
     },
     {
         "word": "mostrar",
@@ -481,7 +556,10 @@
         "v2": "mostrei",
         "v3": "mostrado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_language_001"
     },
     {
         "word": "encontrar",
@@ -508,7 +586,10 @@
         "v2": "encontrei",
         "v3": "encontrado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_shopping_005"
     },
     {
         "word": "manter",
@@ -534,7 +615,10 @@
         "v2": "mantive",
         "v3": "mantido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_007"
     },
     {
         "word": "perder",
@@ -542,8 +626,6 @@
         "theme": "shopping",
         "emoji": "📉",
         "subtext": "perder um emprego / perder dinheiro / perder peso / perder tempo",
-        "opposite": "ganhar",
-        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -559,12 +641,18 @@
         "v2": "perdi",
         "v3": "perdido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "antonyms": [
+            "ganhar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_shopping_006"
     },
     {
         "word": "cortar",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "✂️",
         "subtext": "cortar custos / cortar gastos / cortar ao meio",
         "synonyms": [
@@ -585,12 +673,15 @@
         "v2": "cortei",
         "v3": "cortado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_food_drink_001"
     },
     {
         "word": "virar",
         "level": "starter",
-        "theme": "directions_navigation",
+        "theme": "travel",
         "emoji": "🔄",
         "subtext": "virar à esquerda / virar à direita",
         "synonyms": [
@@ -613,7 +704,10 @@
         "v3": "virado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "virando"
+        "v4": "virando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_002"
     },
     {
         "word": "trazer",
@@ -639,12 +733,15 @@
         "v2": "trouxe",
         "v3": "trazido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_food_drink_002"
     },
     {
         "word": "dizer",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗨️",
         "subtext": "dizer olá / dizer que sim / dizer que não / dizer algo",
         "form": "verb",
@@ -662,7 +759,10 @@
         "v2": "disse",
         "v3": "dito",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_002"
     },
     {
         "word": "contar",
@@ -688,7 +788,10 @@
         "v2": "contei",
         "v3": "contado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_language_002"
     },
     {
         "word": "perguntar",
@@ -715,12 +818,15 @@
         "v3": "perguntado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "perguntando"
+        "v4": "perguntando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_language_003"
     },
     {
         "word": "falar",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗣️",
         "subtext": "falar com alguém / falar inglês / falar com clareza / falar numa reunião",
         "form": "verb",
@@ -742,7 +848,10 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "fabulari"
-        }
+        },
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_003"
     },
     {
         "word": "falar",
@@ -769,7 +878,10 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "fabulari"
-        }
+        },
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_004"
     },
     {
         "word": "ligar",
@@ -796,7 +908,10 @@
         "v3": "ligado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "ligando"
+        "v4": "ligando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_technology_002"
     },
     {
         "word": "escrever",
@@ -807,8 +922,6 @@
         "synonyms": [
             "tirar notas"
         ],
-        "opposite": "ler",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -824,7 +937,13 @@
         "v2": "escrevi",
         "v3": "escrito",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "antonyms": [
+            "ler"
+        ],
+        "transcription": "",
+        "id": "pt_starter_school_002"
     },
     {
         "word": "ler",
@@ -832,8 +951,6 @@
         "theme": "school",
         "emoji": "📖",
         "subtext": "ler um livro / ler as notícias / ler um contrato / ler com atenção",
-        "opposite": "escrever",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -849,7 +966,13 @@
         "v2": "li",
         "v3": "lido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "antonyms": [
+            "escrever"
+        ],
+        "transcription": "",
+        "id": "pt_starter_school_003"
     },
     {
         "word": "ouvir",
@@ -877,7 +1000,10 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "audire"
-        }
+        },
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_school_004"
     },
     {
         "word": "responder",
@@ -904,12 +1030,15 @@
         "v3": "respondido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "respondiendo"
+        "v4": "respondiendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_language_004"
     },
     {
         "word": "repetir",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🔁",
         "subtext": "repetir isso / repetir-se / repetir um pedido",
         "form": "verb",
@@ -928,7 +1057,10 @@
         "v3": "repetido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "repetiendo"
+        "v4": "repetiendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_school_005"
     },
     {
         "word": "ir",
@@ -957,9 +1089,19 @@
         "auxiliary": "ter",
         "tenses": {
             "present_simple": {
-                "positive": ["vou", "vais", "vai", "vamos", "ides", "vão"]
+                "positive": [
+                    "vou",
+                    "vais",
+                    "vai",
+                    "vamos",
+                    "ides",
+                    "vão"
+                ]
             }
-        }
+        },
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_003"
     },
     {
         "word": "vir",
@@ -970,8 +1112,6 @@
         "synonyms": [
             "voltar"
         ],
-        "opposite": "ir",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -991,7 +1131,13 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "venire"
-        }
+        },
+        "lang": "pt",
+        "antonyms": [
+            "ir"
+        ],
+        "transcription": "",
+        "id": "pt_starter_travel_004"
     },
     {
         "word": "caminhar",
@@ -1015,7 +1161,10 @@
         "v3": "caminhado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "caminhando"
+        "v4": "caminhando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_005"
     },
     {
         "word": "conduzir",
@@ -1038,7 +1187,10 @@
         "v2": "conduzi",
         "v3": "conduzido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_006"
     },
     {
         "word": "voar",
@@ -1061,7 +1213,10 @@
         "v2": "voei",
         "v3": "voado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_007"
     },
     {
         "word": "chegar",
@@ -1084,7 +1239,10 @@
         "v3": "chegado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "chegando"
+        "v4": "chegando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_008"
     },
     {
         "word": "partir",
@@ -1112,7 +1270,10 @@
         "v2": "parti",
         "v3": "partido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_009"
     },
     {
         "word": "mover",
@@ -1140,7 +1301,10 @@
         "v3": "movido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "moviendo"
+        "v4": "moviendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_furniture_002"
     },
     {
         "word": "voltar",
@@ -1167,12 +1331,15 @@
         "v3": "voltado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "voltando"
+        "v4": "voltando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_008"
     },
     {
         "word": "viajar",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "viajar em trabalho / viajar para o estrangeiro / viajar de comboio",
         "form": "verb",
@@ -1190,7 +1357,10 @@
         "v3": "viajado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "viajando"
+        "v4": "viajando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_009"
     },
     {
         "word": "comer",
@@ -1203,8 +1373,6 @@
             "almoçar",
             "jantar"
         ],
-        "opposite": "beber",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1224,7 +1392,13 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "comedere"
-        }
+        },
+        "lang": "pt",
+        "antonyms": [
+            "beber"
+        ],
+        "transcription": "",
+        "id": "pt_starter_food_drink_003"
     },
     {
         "word": "beber",
@@ -1232,8 +1406,6 @@
         "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "beber café / beber chá / beber água / beber cerveja",
-        "opposite": "comer",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1253,7 +1425,13 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "bibere"
-        }
+        },
+        "lang": "pt",
+        "antonyms": [
+            "comer"
+        ],
+        "transcription": "",
+        "id": "pt_starter_food_drink_004"
     },
     {
         "word": "dormir",
@@ -1261,8 +1439,6 @@
         "theme": "time",
         "emoji": "😴",
         "subtext": "dormir bem / dormir mal / dormir oito horas / dormir até tarde",
-        "opposite": "acordar",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1282,12 +1458,18 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "dormire"
-        }
+        },
+        "lang": "pt",
+        "antonyms": [
+            "acordar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_time_001"
     },
     {
         "word": "cozinhar",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "🍳",
         "subtext": "cozinhar o jantar / cozinhar uma refeição / cozinhar em casa / cozinhar para alguém",
         "form": "verb",
@@ -1305,7 +1487,10 @@
         "v3": "cozinhado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "cozinhando"
+        "v4": "cozinhando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_food_drink_005"
     },
     {
         "word": "limpar",
@@ -1331,7 +1516,10 @@
         "v3": "limpado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "limpando"
+        "v4": "limpando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_furniture_003"
     },
     {
         "word": "vestir",
@@ -1357,7 +1545,10 @@
         "v2": "vesti",
         "v3": "vestido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_clothes_001"
     },
     {
         "word": "lavar",
@@ -1381,7 +1572,10 @@
         "v3": "lavado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "lavando"
+        "v4": "lavando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_furniture_004"
     },
     {
         "word": "comprar",
@@ -1389,8 +1583,6 @@
         "theme": "shopping",
         "emoji": "🛒",
         "subtext": "comprar comida / comprar um bilhete / comprar on-line / comprar uma casa",
-        "opposite": "vender",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1406,7 +1598,13 @@
         "v2": "comprei",
         "v3": "comprado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "antonyms": [
+            "vender"
+        ],
+        "transcription": "",
+        "id": "pt_starter_shopping_007"
     },
     {
         "word": "pagar",
@@ -1428,7 +1626,10 @@
         "v2": "paguei",
         "v3": "pagado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_shopping_008"
     },
     {
         "word": "gastar",
@@ -1453,7 +1654,10 @@
         "v2": "gastei",
         "v3": "gastado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_shopping_009"
     },
     {
         "word": "poupar",
@@ -1461,8 +1665,6 @@
         "theme": "shopping",
         "emoji": "💰",
         "subtext": "poupar dinheiro / poupar para umas férias / poupar para uma casa",
-        "opposite": "gastar",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1478,7 +1680,13 @@
         "v3": "poupado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "poupando"
+        "v4": "poupando",
+        "lang": "pt",
+        "antonyms": [
+            "gastar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_shopping_010"
     },
     {
         "word": "trabalhar",
@@ -1501,7 +1709,10 @@
         "v3": "trabalhado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "trabalhando"
+        "v4": "trabalhando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_010"
     },
     {
         "word": "viver",
@@ -1509,8 +1720,6 @@
         "theme": "places",
         "emoji": "🏠",
         "subtext": "viver num apartamento / viver sozinho / viver com alguém / viver no estrangeiro",
-        "opposite": "morrer",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1527,7 +1736,13 @@
         "v3": "vivido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "viviendo"
+        "v4": "viviendo",
+        "lang": "pt",
+        "antonyms": [
+            "morrer"
+        ],
+        "transcription": "",
+        "id": "pt_starter_places_001"
     },
     {
         "word": "pensar",
@@ -1550,7 +1765,10 @@
         "v2": "pensei",
         "v3": "pensado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_005"
     },
     {
         "word": "saber",
@@ -1578,7 +1796,10 @@
         "v2": "soube",
         "v3": "sabido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_school_006"
     },
     {
         "word": "querer",
@@ -1603,7 +1824,10 @@
         "v3": "querido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "queriendo"
+        "v4": "queriendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_emotions_001"
     },
     {
         "word": "precisar",
@@ -1628,7 +1852,10 @@
         "v3": "precisado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "precisando"
+        "v4": "precisando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_emotions_002"
     },
     {
         "word": "gostar",
@@ -1653,7 +1880,10 @@
         "v3": "gostado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "gostando"
+        "v4": "gostando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_emotions_003"
     },
     {
         "word": "amar",
@@ -1677,7 +1907,10 @@
         "v3": "amado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "amando"
+        "v4": "amando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_emotions_004"
     },
     {
         "word": "odiar",
@@ -1701,7 +1934,10 @@
         "v3": "odiado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "odiando"
+        "v4": "odiando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_emotions_005"
     },
     {
         "word": "esperar",
@@ -1728,7 +1964,10 @@
         "v3": "esperado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "esperando"
+        "v4": "esperando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_emotions_006"
     },
     {
         "word": "lembrar",
@@ -1752,7 +1991,10 @@
         "v3": "lembrado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "lembrando"
+        "v4": "lembrando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_school_007"
     },
     {
         "word": "esquecer",
@@ -1775,7 +2017,10 @@
         "v2": "esqueci",
         "v3": "esquecido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_school_008"
     },
     {
         "word": "entender",
@@ -1798,7 +2043,10 @@
         "v2": "entendi",
         "v3": "entendido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_language_005"
     },
     {
         "word": "decidir",
@@ -1825,7 +2073,10 @@
         "v3": "decidido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "decidiendo"
+        "v4": "decidiendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_006"
     },
     {
         "word": "desfrutar",
@@ -1848,7 +2099,10 @@
         "v3": "desfrutado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "desfrutando"
+        "v4": "desfrutando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_emotions_007"
     },
     {
         "word": "ver",
@@ -1875,7 +2129,10 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "videre"
-        }
+        },
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_body_001"
     },
     {
         "word": "ouvir",
@@ -1902,7 +2159,10 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "audire"
-        }
+        },
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_body_002"
     },
     {
         "word": "acordar",
@@ -1911,8 +2171,6 @@
         "emoji": "⏰",
         "form": "verb",
         "subtext": "acordar cedo / acordar tarde / acordar cansado",
-        "opposite": "dormir",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Parar de dormir; tornar-se consciente após o sono.",
@@ -1926,7 +2184,13 @@
         "v2": "acordei",
         "v3": "acordado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "antonyms": [
+            "dormir"
+        ],
+        "transcription": "",
+        "id": "pt_starter_work_011"
     },
     {
         "word": "assistir",
@@ -1955,7 +2219,10 @@
         "v3": "assistido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "assistiendo"
+        "v4": "assistiendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_007"
     },
     {
         "word": "olhar",
@@ -1984,7 +2251,10 @@
         "v3": "olhado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "olhando"
+        "v4": "olhando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_people_001"
     },
     {
         "word": "jogar",
@@ -2012,7 +2282,10 @@
         "v3": "jogado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "jogando"
+        "v4": "jogando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_008"
     },
     {
         "word": "correr",
@@ -2040,7 +2313,10 @@
         "v2": "corri",
         "v3": "corrido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_sports_001"
     },
     {
         "word": "sentar",
@@ -2051,8 +2327,6 @@
         "synonyms": [
             "estar numa reunião"
         ],
-        "opposite": "estar de pé",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -2071,7 +2345,13 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "sedere"
-        }
+        },
+        "lang": "pt",
+        "antonyms": [
+            "estar de pé"
+        ],
+        "transcription": "",
+        "id": "pt_starter_work_012"
     },
     {
         "word": "estar de pé",
@@ -2085,8 +2365,6 @@
             "apoiar",
             "destacar-se"
         ],
-        "opposite": "sentar",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -2101,7 +2379,13 @@
         "v2": "estive de pé",
         "v3": "estado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "antonyms": [
+            "sentar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_work_013"
     },
     {
         "word": "conhecer",
@@ -2128,7 +2412,10 @@
             "encontrar-se para almoçar"
         ],
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_014"
     },
     {
         "word": "aprender",
@@ -2150,7 +2437,10 @@
         "v2": "aprendi",
         "v3": "aprendido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_school_009"
     },
     {
         "word": "mudar",
@@ -2173,7 +2463,10 @@
         "v3": "mudado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "mudando"
+        "v4": "mudando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_015"
     },
     {
         "word": "parar",
@@ -2196,7 +2489,10 @@
         "v3": "parado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "parando"
+        "v4": "parando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_016"
     },
     {
         "word": "adicionar",
@@ -2223,7 +2519,10 @@
         "v3": "adicionado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "adicionando"
+        "v4": "adicionando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_numbers_001"
     },
     {
         "word": "ganhar",
@@ -2231,8 +2530,6 @@
         "theme": "social",
         "emoji": "🏆",
         "subtext": "ganhar um jogo / ganhar um prémio / ganhar um galardão / ganhar um contrato",
-        "opposite": "perder",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -2247,7 +2544,13 @@
         "v2": "ganhei",
         "v3": "ganhado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "antonyms": [
+            "perder"
+        ],
+        "transcription": "",
+        "id": "pt_starter_social_009"
     },
     {
         "word": "esperar",
@@ -2270,7 +2573,10 @@
         "v3": "esperado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "esperando"
+        "v4": "esperando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_017"
     },
     {
         "word": "morrer",
@@ -2281,8 +2587,6 @@
         "synonyms": [
             "extinguir-se"
         ],
-        "opposite": "viver",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -2298,7 +2602,13 @@
         "v3": "morto",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "morriendo"
+        "v4": "morriendo",
+        "lang": "pt",
+        "antonyms": [
+            "viver"
+        ],
+        "transcription": "",
+        "id": "pt_starter_health_medicine_002"
     },
     {
         "word": "enviar",
@@ -2320,7 +2630,10 @@
         "v3": "enviado",
         "subtext": "enviar um e-mail / enviar uma mensagem / enviar um relatório / enviar um ficheiro",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_018"
     },
     {
         "word": "ficar",
@@ -2344,7 +2657,10 @@
         "v3": "ficado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "ficando"
+        "v4": "ficando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_010"
     },
     {
         "word": "cair",
@@ -2371,7 +2687,10 @@
         "v2": "caí",
         "v3": "caído",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_nature_001"
     },
     {
         "word": "passar",
@@ -2395,7 +2714,10 @@
         "v3": "passado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "passando"
+        "v4": "passando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_school_010"
     },
     {
         "word": "vender",
@@ -2406,8 +2728,6 @@
         "synonyms": [
             "campeão de vendas"
         ],
-        "opposite": "comprar",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2422,7 +2742,13 @@
         "v2": "vendi",
         "v3": "vendido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "antonyms": [
+            "comprar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_shopping_011"
     },
     {
         "word": "puxar",
@@ -2434,8 +2760,6 @@
             "encostar",
             "arrancar"
         ],
-        "opposite": "empurrar",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2451,7 +2775,13 @@
         "v3": "puxado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "puxando"
+        "v4": "puxando",
+        "lang": "pt",
+        "antonyms": [
+            "empurrar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_work_019"
     },
     {
         "word": "empurrar",
@@ -2464,8 +2794,6 @@
             "afastar",
             "levar por diante"
         ],
-        "opposite": "puxar",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2482,7 +2810,13 @@
         "v3": "empurrado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "empurrando"
+        "v4": "empurrando",
+        "lang": "pt",
+        "antonyms": [
+            "puxar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_work_020"
     },
     {
         "word": "levar",
@@ -2509,7 +2843,10 @@
         "v3": "levado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "levando"
+        "v4": "levando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_021"
     },
     {
         "word": "quebrar",
@@ -2538,7 +2875,10 @@
         "v2": "quebrei",
         "v3": "quebrado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_describing_001"
     },
     {
         "word": "receber",
@@ -2562,7 +2902,10 @@
         "v3": "recebido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "recebiendo"
+        "v4": "recebiendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_shopping_012"
     },
     {
         "word": "concordar",
@@ -2590,12 +2933,15 @@
         "v3": "concordado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "concordando"
+        "v4": "concordando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_010"
     },
     {
         "word": "desenhar",
         "level": "starter",
-        "theme": "cinema_film",
+        "theme": "social",
         "emoji": "🎨",
         "subtext": "desenhar um quadro",
         "synonyms": [
@@ -2618,7 +2964,10 @@
         "v2": "desenhei",
         "v3": "desenhado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_011"
     },
     {
         "word": "partilhar",
@@ -2642,7 +2991,10 @@
         "v3": "partilhado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "partilhando"
+        "v4": "partilhando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_012"
     },
     {
         "word": "sorrir",
@@ -2653,8 +3005,6 @@
         "synonyms": [
             "um grande sorriso"
         ],
-        "opposite": "chorar",
-        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2671,7 +3021,13 @@
         "v3": "sorrido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "sorriendo"
+        "v4": "sorriendo",
+        "lang": "pt",
+        "antonyms": [
+            "chorar"
+        ],
+        "transcription": "",
+        "id": "pt_starter_people_002"
     },
     {
         "word": "chorar",
@@ -2683,8 +3039,6 @@
             "pedir socorro",
             "gritar"
         ],
-        "opposite": "sorrir",
-        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2701,7 +3055,13 @@
         "v3": "chorado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "chorando"
+        "v4": "chorando",
+        "lang": "pt",
+        "antonyms": [
+            "sorrir"
+        ],
+        "transcription": "",
+        "id": "pt_starter_emotions_008"
     },
     {
         "word": "dançar",
@@ -2728,7 +3088,10 @@
         "v3": "dançado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "dançando"
+        "v4": "dançando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_music_001"
     },
     {
         "word": "cantar",
@@ -2754,7 +3117,10 @@
         "v2": "cantei",
         "v3": "cantado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_music_002"
     },
     {
         "word": "saltar",
@@ -2778,7 +3144,10 @@
         "v3": "saltado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "saltando"
+        "v4": "saltando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_sports_002"
     },
     {
         "word": "nadar",
@@ -2805,7 +3174,10 @@
         "v2": "nadei",
         "v3": "nadado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_sports_003"
     },
     {
         "word": "estudar",
@@ -2831,7 +3203,10 @@
         "v3": "estudado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "estudando"
+        "v4": "estudando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_school_011"
     },
     {
         "word": "ensinar",
@@ -2856,12 +3231,15 @@
         "v2": "ensinei",
         "v3": "ensinado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_school_012"
     },
     {
         "word": "viajar diariamente",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🚆",
         "subtext": "deslocar-se para o trabalho",
         "synonyms": [
@@ -2884,7 +3262,10 @@
         "v3": "viajado diariamente",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "viajar diariamenando"
+        "v4": "viajar diariamenando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_011"
     },
     {
         "word": "alugar",
@@ -2907,7 +3288,10 @@
         "v3": "alugado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "alugando"
+        "v4": "alugando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_012"
     },
     {
         "word": "exercitar",
@@ -2930,7 +3314,10 @@
         "subtext": "exercitar-se regularmente / exercitar-se no ginásio / exercitar-se ao ar livre",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "exercitando"
+        "v4": "exercitando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_013"
     },
     {
         "word": "custar",
@@ -2952,7 +3339,10 @@
         "v3": "custado",
         "subtext": "custar muito / custar dinheiro / custar demasiado / custar menos",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_shopping_013"
     },
     {
         "word": "convidar",
@@ -2975,7 +3365,10 @@
         "subtext": "convidar alguém / convidar para jantar / convidar para uma festa",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "convidando"
+        "v4": "convidando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_014"
     },
     {
         "word": "levantar-se",
@@ -2998,7 +3391,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_022"
     },
     {
         "word": "tomar o pequeno-almoço",
@@ -3023,7 +3419,10 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_023"
     },
     {
         "word": "voltar",
@@ -3045,7 +3444,10 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_024"
     },
     {
         "word": "deitar-se",
@@ -3068,7 +3470,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_025"
     },
     {
         "word": "verificar",
@@ -3094,7 +3499,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "verificando"
+        "v4": "verificando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_026"
     },
     {
         "word": "responder",
@@ -3117,7 +3525,10 @@
         "form": "verb",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "respondiendo"
+        "v4": "respondiendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_027"
     },
     {
         "word": "apresentar",
@@ -3140,7 +3551,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "apresentando"
+        "v4": "apresentando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_028"
     },
     {
         "word": "assistir",
@@ -3166,7 +3580,10 @@
         "form": "verb",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "assistiendo"
+        "v4": "assistiendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_029"
     },
     {
         "word": "gerir",
@@ -3189,7 +3606,10 @@
         "form": "verb",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "geriendo"
+        "v4": "geriendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_030"
     },
     {
         "word": "cobrar",
@@ -3212,7 +3632,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "cobrando"
+        "v4": "cobrando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_shopping_014"
     },
     {
         "word": "ter meios para",
@@ -3238,7 +3661,10 @@
         "form": "verb",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "ter meios paiendo"
+        "v4": "ter meios paiendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_shopping_015"
     },
     {
         "word": "dever",
@@ -3261,7 +3687,10 @@
         "form": "verb",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "deviendo"
+        "v4": "deviendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_shopping_016"
     },
     {
         "word": "ganhar",
@@ -3284,7 +3713,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "ganhando"
+        "v4": "ganhando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_shopping_017"
     },
     {
         "word": "visitar",
@@ -3307,7 +3739,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "visitando"
+        "v4": "visitando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_015"
     },
     {
         "word": "celebrar",
@@ -3330,7 +3765,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "celebrando"
+        "v4": "celebrando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_016"
     },
     {
         "word": "recomendar",
@@ -3353,7 +3791,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "recomendando"
+        "v4": "recomendando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_017"
     },
     {
         "word": "magoar",
@@ -3378,7 +3819,10 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_health_medicine_003"
     },
     {
         "word": "descansar",
@@ -3404,7 +3848,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "descansando"
+        "v4": "descansando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_031"
     },
     {
         "word": "recuperar",
@@ -3427,7 +3874,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "recuperando"
+        "v4": "recuperando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_health_medicine_004"
     },
     {
         "word": "reservar",
@@ -3450,7 +3900,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "reservando"
+        "v4": "reservando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_013"
     },
     {
         "word": "fazer as malas",
@@ -3477,7 +3930,10 @@
         "form": "verb",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "fazer as maliendo"
+        "v4": "fazer as maliendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_014"
     },
     {
         "word": "cancelar",
@@ -3500,7 +3956,10 @@
         "form": "verb",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "cancelando"
+        "v4": "cancelando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_015"
     },
     {
         "word": "perder",
@@ -3520,13 +3979,16 @@
         "aspect": "both",
         "v2": "perdi",
         "v3": "perdido",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "perdiendo"
+        "v4": "perdiendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_travel_016"
     },
     {
         "word": "encomendar",
@@ -3552,7 +4014,10 @@
         "v3": "encomendado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "encomendando"
+        "v4": "encomendando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_032"
     },
     {
         "word": "explicar",
@@ -3575,12 +4040,15 @@
         "v3": "explicado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "explicando"
+        "v4": "explicando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_033"
     },
     {
         "word": "agradecer",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🙏",
         "subtext": "agradecer a alguém",
         "synonyms": [
@@ -3602,12 +4070,15 @@
         "v3": "agradecido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "agradeciendo"
+        "v4": "agradeciendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_018"
     },
     {
         "word": "apresentar",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "🤝",
         "subtext": "apresentar-se / apresentar alguém / apresentar um tema",
         "form": "verb",
@@ -3625,7 +4096,10 @@
         "v3": "apresentado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "apresentando"
+        "v4": "apresentando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_019"
     },
     {
         "word": "relaxar",
@@ -3648,7 +4122,10 @@
         "v3": "relaxado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "relaxando"
+        "v4": "relaxando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_020"
     },
     {
         "word": "reparar",
@@ -3674,7 +4151,10 @@
         "v3": "reparado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "reparando"
+        "v4": "reparando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_furniture_005"
     },
     {
         "word": "acontecer",
@@ -3701,7 +4181,10 @@
         "v3": "acontecido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "aconteciendo"
+        "v4": "aconteciendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_021"
     },
     {
         "word": "parecer",
@@ -3724,7 +4207,10 @@
         "v3": "parecido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "pareciendo"
+        "v4": "pareciendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_022"
     },
     {
         "word": "significar",
@@ -3750,7 +4236,10 @@
         "v2": "significou",
         "v3": "significado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_school_013"
     },
     {
         "word": "seguir",
@@ -3777,7 +4266,10 @@
         "v3": "seguido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "seguiendo"
+        "v4": "seguiendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_034"
     },
     {
         "word": "continuar",
@@ -3800,7 +4292,10 @@
         "v3": "continuado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "continuando"
+        "v4": "continuando",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_school_014"
     },
     {
         "word": "crescer",
@@ -3825,7 +4320,10 @@
         "v2": "cresci",
         "v3": "crescido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_035"
     },
     {
         "word": "incluir",
@@ -3852,7 +4350,10 @@
         "v3": "incluído",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "incluiendo"
+        "v4": "incluiendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_shopping_018"
     },
     {
         "word": "tornar-se",
@@ -3875,7 +4376,10 @@
         "v3": "tornado",
         "group": "ar",
         "auxiliary": "ter",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_036"
     },
     {
         "word": "pertencer",
@@ -3901,7 +4405,10 @@
         "v3": "pertencido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "pertenciendo"
+        "v4": "pertenciendo",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_037"
     },
     {
         "word": "escolher",
@@ -3923,7 +4430,10 @@
         "v2": "escolhi",
         "v3": "escolhido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_social_023"
     },
     {
         "word": "construir",
@@ -3950,7 +4460,10 @@
         "v2": "construí",
         "v3": "construído",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "transcription": "",
+        "id": "pt_starter_work_038"
     },
     {
         "word": "produzir",
@@ -3970,7 +4483,10 @@
                     "Portugal produz muito vinho."
                 ]
             }
-        ]
+        ],
+        "lang": "pt",
+        "emoji": "✨",
+        "id": "pt_starter_work_employment_001"
     },
     {
         "word": "projetar",
@@ -3991,9 +4507,12 @@
                 ]
             }
         ],
-        "v4": "projetando"
+        "v4": "projetando",
+        "lang": "pt",
+        "emoji": "✨",
+        "id": "pt_starter_work_employment_002"
     }
-    ];
+];
     const lang = "pt";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

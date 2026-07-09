@@ -8,7 +8,8 @@
         "theme": "health_society",
         "gender": "masculine",
         "emoji": "🧠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "психологи",
         "definitions": [
             {
@@ -17,7 +18,8 @@
                     "Психолог помог ему справиться со стрессом."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_politics_governance_002",
@@ -27,10 +29,14 @@
         "theme": "politics_governance",
         "gender": "feminine",
         "emoji": "📑",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["ответственность", "контроль"],
+        "synonyms": [
+            "ответственность",
+            "контроль"
+        ],
         "definitions": [
             {
                 "text": "Обязанность отчитываться за свои действия и решения.",
@@ -38,7 +44,8 @@
                     "В этой организации очень слабая подотчётность."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_economy_labour_market_001",
@@ -48,7 +55,8 @@
         "theme": "economy_labour_market",
         "gender": "masculine",
         "emoji": "🥕",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "стимулы",
         "subtext": "финансовый стимул, поощрение",
         "definitions": [
@@ -58,7 +66,8 @@
                     "Финансовые стимулы могут повысить производительность."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_employment_law_rights_001",
@@ -68,11 +77,17 @@
         "theme": "employment_law_rights",
         "gender": "feminine",
         "emoji": "🔓",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "автономии",
         "subtext": "",
-        "synonyms": ["независимость", "самостоятельность"],
-        "antonyms": ["зависимость"],
+        "synonyms": [
+            "независимость",
+            "самостоятельность"
+        ],
+        "antonyms": [
+            "зависимость"
+        ],
         "definitions": [
             {
                 "text": "Право или способность действовать независимо.",
@@ -80,7 +95,8 @@
                     "Сотрудники работают лучше, когда у них есть автономия."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_economy_labour_market_002",
@@ -90,11 +106,16 @@
         "theme": "economy_labour_market",
         "gender": "masculine",
         "emoji": "🧗",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["неустойчивая занятость"],
-        "antonyms": ["стабильность"],
+        "synonyms": [
+            "неустойчивая занятость"
+        ],
+        "antonyms": [
+            "стабильность"
+        ],
         "definitions": [
             {
                 "text": "Состояние нестабильности и неопределенности в трудовых или жизненных условиях.",
@@ -102,7 +123,8 @@
                     "Гиг-экономика привела к росту прекаритета."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_gender_equality_001",
@@ -122,7 +144,8 @@
                     "Гендерный разрыв в оплате труда остается значительным во многих секторах."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_employment_law_rights_002",
@@ -135,7 +158,9 @@
         "form": "noun phrase",
         "plural": "компенсационные пакеты",
         "subtext": "",
-        "synonyms": ["выходное пособие"],
+        "synonyms": [
+            "выходное пособие"
+        ],
         "definitions": [
             {
                 "text": "Деньги и льготы, выплачиваемые при потере работы (сокращении).",
@@ -143,7 +168,8 @@
                     "Она получила щедрый компенсационный пакет при увольнении."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_economy_labour_market_003",
@@ -153,10 +179,13 @@
         "theme": "economy_labour_market",
         "gender": "neuter",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["стартап-культура"],
+        "synonyms": [
+            "стартап-культура"
+        ],
         "definitions": [
             {
                 "text": "Деятельность по созданию и управлению бизнесом.",
@@ -164,7 +193,8 @@
                     "Предпринимательство требует готовности к риску и креативности."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_economy_labour_market_004",
@@ -174,10 +204,14 @@
         "theme": "economy_labour_market",
         "gender": "feminine",
         "emoji": "⚡",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["продуктивность", "эффективность"],
+        "synonyms": [
+            "продуктивность",
+            "эффективность"
+        ],
         "definitions": [
             {
                 "text": "Скорость, с которой производятся товары или выполняется работа.",
@@ -185,7 +219,8 @@
                     "Удаленная работа может повысить производительность для некоторых людей."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_globalisation_trade_001",
@@ -195,10 +230,14 @@
         "theme": "globalisation_trade",
         "gender": "masculine",
         "emoji": "🌐",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "аутсорсинги",
         "subtext": "",
-        "synonyms": ["внешнее управление", "подряд"],
+        "synonyms": [
+            "внешнее управление",
+            "подряд"
+        ],
         "definitions": [
             {
                 "text": "Передача части функций сторонней компании.",
@@ -206,7 +245,8 @@
                     "Они используют аутсорсинг для клиентской поддержки."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_applied_sciences_engineering_001",
@@ -216,7 +256,8 @@
         "theme": "applied_sciences_engineering",
         "gender": "feminine",
         "emoji": "🤖",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "промышленная автоматизация",
         "definitions": [
@@ -226,7 +267,8 @@
                     "Автоматизация значительно меняет рынок труда."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_housing_society_001",
@@ -236,10 +278,13 @@
         "theme": "housing_society",
         "gender": "feminine",
         "emoji": "🏘️📈",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["облагораживание района"],
+        "synonyms": [
+            "облагораживание района"
+        ],
         "definitions": [
             {
                 "text": "Процесс изменения района, при котором в него переезжают более состоятельные люди, вытесняя бедных жителей.",
@@ -247,7 +292,8 @@
                     "Джентрификация изменила облик этого района."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_housing_society_002",
@@ -260,7 +306,9 @@
         "form": "noun phrase",
         "plural": null,
         "subtext": "",
-        "synonyms": ["социальное жильё"],
+        "synonyms": [
+            "социальное жильё"
+        ],
         "definitions": [
             {
                 "text": "Жильё, которое достаточно дешево, чтобы его могли арендовать или купить люди с низким доходом.",
@@ -268,7 +316,8 @@
                     "Городу нужно больше доступного жилья."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_housing_society_003",
@@ -281,7 +330,9 @@
         "form": "noun phrase",
         "plural": null,
         "subtext": "",
-        "synonyms": ["урбанизация территорий"],
+        "synonyms": [
+            "урбанизация территорий"
+        ],
         "definitions": [
             {
                 "text": "Бесконтрольное распространение городов на окружающие территории.",
@@ -289,7 +340,8 @@
                     "Разрастание городов увеличивает зависимость от автомобилей."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_politics_governance_003",
@@ -299,7 +351,8 @@
         "theme": "politics_governance",
         "gender": "feminine",
         "emoji": "🏗️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "инфраструктуры",
         "subtext": "транспортная инфраструктура",
         "definitions": [
@@ -309,7 +362,8 @@
                     "Городской инфраструктуре требуются инвестиции."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_politics_governance_004",
@@ -322,7 +376,9 @@
         "form": "noun phrase",
         "plural": null,
         "subtext": "",
-        "synonyms": ["социальное государство"],
+        "synonyms": [
+            "социальное государство"
+        ],
         "definitions": [
             {
                 "text": "Система, в которой правительство обеспечивает социальную защиту граждан.",
@@ -330,7 +386,8 @@
                     "Социальное государство обеспечивает здравоохранение и пенсии."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_politics_governance_005",
@@ -340,7 +397,8 @@
         "theme": "politics_governance",
         "gender": "feminine",
         "emoji": "↔️❌",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "политическая поляризация",
         "definitions": [
@@ -350,7 +408,8 @@
                     "Социальные сети усилили политическую поляризацию."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_formal_debate_vocab_002",
@@ -360,7 +419,8 @@
         "theme": "language",
         "gender": "masculine",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "дискурсы",
         "subtext": "общественный дискурс, обсуждение",
         "definitions": [
@@ -370,7 +430,8 @@
                     "Общественный дискурс вокруг иммиграции очень напряженный."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_politics_governance_006",
@@ -383,7 +444,9 @@
         "form": "noun phrase",
         "plural": "тщательные проверки",
         "subtext": "",
-        "synonyms": ["пристальное изучение"],
+        "synonyms": [
+            "пристальное изучение"
+        ],
         "definitions": [
             {
                 "text": "Пристальное и внимательное изучение кого-либо или чего-либо.",
@@ -391,7 +454,8 @@
                     "Решение правительства находится под тщательной проверкой."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_formal_debate_vocab_003",
@@ -401,10 +465,13 @@
         "theme": "language",
         "gender": "masculine",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "консенсусы",
         "subtext": "",
-        "synonyms": ["общее согласие"],
+        "synonyms": [
+            "общее согласие"
+        ],
         "definitions": [
             {
                 "text": "Общее согласие среди группы людей.",
@@ -412,7 +479,8 @@
                     "По вопросам климата намечается растущий консенсус."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_politics_governance_007",
@@ -422,10 +490,13 @@
         "theme": "politics_governance",
         "gender": "neuter",
         "emoji": "📜",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["свод законов"],
+        "synonyms": [
+            "свод законов"
+        ],
         "definitions": [
             {
                 "text": "Законы, принятые правительством.",
@@ -433,7 +504,8 @@
                     "Вступило в силу новое законодательство о защите данных."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_formal_debate_vocab_004",
@@ -443,11 +515,17 @@
         "theme": "language",
         "gender": "feminine",
         "emoji": "⚖️❌",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["необъективность", "предубеждение"],
-        "antonyms": ["беспристрастность"],
+        "synonyms": [
+            "необъективность",
+            "предубеждение"
+        ],
+        "antonyms": [
+            "беспристрастность"
+        ],
         "definitions": [
             {
                 "text": "Несправедливая склонность поддерживать или выступать против кого-то или чего-то.",
@@ -455,7 +533,8 @@
                     "Неосознанная предвзятость может влиять на решения о найме."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_health_society_002",
@@ -465,10 +544,13 @@
         "theme": "health_society",
         "gender": "neuter",
         "emoji": "⚖️⬆️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["лишний вес"],
+        "synonyms": [
+            "лишний вес"
+        ],
         "definitions": [
             {
                 "text": "Состояние чрезмерного избыточного веса, наносящее вред здоровью.",
@@ -476,7 +558,8 @@
                     "За последние десятилетия уровень ожирения резко вырос."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_health_society_003",
@@ -496,7 +579,8 @@
                     "Продолжительность жизни увеличилась в большинстве стран."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_politics_governance_008",
@@ -506,10 +590,13 @@
         "theme": "politics_governance",
         "gender": "feminine",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "социальная справедливость, правосудие",
-        "antonyms": ["несправедливость"],
+        "antonyms": [
+            "несправедливость"
+        ],
         "definitions": [
             {
                 "text": "Честное обращение и качество бытия справедливым.",
@@ -517,7 +604,8 @@
                     "Система правосудия должна защищать всех граждан."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_crime_punishment_001",
@@ -527,7 +615,8 @@
         "theme": "crime_punishment",
         "gender": "feminine",
         "emoji": "🔄🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "реабилитации",
         "subtext": "восстановление, возвращение в общество",
         "definitions": [
@@ -537,7 +626,8 @@
                     "Тюрьма должна быть ориентирована на реабилитацию."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_politics_governance_009",
@@ -547,11 +637,17 @@
         "theme": "politics_governance",
         "gender": "feminine",
         "emoji": "🪟",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["открытость", "честность"],
-        "antonyms": ["непрозрачность"],
+        "synonyms": [
+            "открытость",
+            "честность"
+        ],
+        "antonyms": [
+            "непрозрачность"
+        ],
         "definitions": [
             {
                 "text": "Открытость и честность в отношении действий и решений.",
@@ -559,7 +655,8 @@
                     "Общественность требует от политиков большей прозрачности."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_technology_privacy_001",
@@ -569,7 +666,8 @@
         "theme": "technology_privacy",
         "gender": "masculine",
         "emoji": "💻",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "алгоритмы",
         "subtext": "компьютерный алгоритм",
         "definitions": [
@@ -579,7 +677,8 @@
                     "Алгоритмы социальных сетей определяют, что вы видите."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_technology_privacy_002",
@@ -592,7 +691,9 @@
         "form": "noun phrase",
         "plural": null,
         "subtext": "",
-        "synonyms": ["защита данных"],
+        "synonyms": [
+            "защита данных"
+        ],
         "definitions": [
             {
                 "text": "Право контролировать то, как собирается и используется личная информация.",
@@ -600,7 +701,8 @@
                     "Законы о конфиденциальности данных становятся всё строже."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_media_misinformation_001",
@@ -610,7 +712,8 @@
         "theme": "media_misinformation",
         "gender": "feminine",
         "emoji": "🤥",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "фейковые новости, ложные сведения",
         "definitions": [
@@ -620,7 +723,8 @@
                     "Социальные сети могут быстро распространять дезинформацию."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_technology_privacy_003",
@@ -630,10 +734,14 @@
         "theme": "technology_privacy",
         "gender": "feminine",
         "emoji": "📹",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["видеонаблюдение", "надзор"],
+        "synonyms": [
+            "видеонаблюдение",
+            "надзор"
+        ],
         "definitions": [
             {
                 "text": "Пристальное наблюдение за человеком или группой со стороны властей.",
@@ -641,7 +749,8 @@
                     "Видеонаблюдение — это форма городской слежки."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_formal_debate_vocab_005",
@@ -659,7 +768,8 @@
                     "В городах дорого, тогда как маленькие города доступны."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_formal_debate_vocab_006",
@@ -670,7 +780,10 @@
         "emoji": "🏃‍♂️",
         "form": "adverb",
         "subtext": "",
-        "synonyms": ["однако", "всё же"],
+        "synonyms": [
+            "однако",
+            "всё же"
+        ],
         "definitions": [
             {
                 "text": "Несмотря на это; вопреки сказанному.",
@@ -678,7 +791,8 @@
                     "Это трудная задача. Тем не менее, мы должны попробовать."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_formal_debate_vocab_007",
@@ -695,7 +809,8 @@
                     "В какой степени образование определяет успех ?"
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_formal_debate_vocab_008",
@@ -713,7 +828,8 @@
                     "В Швеции длинный отпуск по уходу за ребенком. Напротив, в США его почти нет."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_upper_intermediate_technology_privacy_004",
@@ -732,9 +848,10 @@
                     "Искусственный интеллект меняет мир."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     }
-    ];
+];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

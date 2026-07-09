@@ -4,7 +4,7 @@ const data = [
     {
         "word": "être",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "👤",
         "subtext": "être prêt / être fatigué / être ouvert",
         "synonyms": [
@@ -43,7 +43,9 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "esse",
             "origin_meaning": "to be"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_social_001"
     },
     {
         "word": "avoir",
@@ -84,7 +86,9 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "habere",
             "origin_meaning": "to have"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_work_001"
     },
     {
         "word": "se sentir",
@@ -112,9 +116,18 @@ const data = [
         "reflexive": true,
         "tenses": {
             "present_simple": {
-                "positive": ["sens", "sens", "sent", "sentons", "sentez", "sentent"]
+                "positive": [
+                    "sens",
+                    "sens",
+                    "sent",
+                    "sentons",
+                    "sentez",
+                    "sentent"
+                ]
             }
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_health_medicine_001"
     },
     {
         "word": "donner",
@@ -122,8 +135,6 @@ const data = [
         "theme": "shopping",
         "emoji": "🎁",
         "subtext": "donner des conseils / donner de l argent / donner un cadeau",
-        "opposite": "prendre",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "transcription": "dɔ.ne",
         "definitions": [
@@ -143,7 +154,12 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "donare"
-        }
+        },
+        "lang": "fr",
+        "antonyms": [
+            "prendre"
+        ],
+        "id": "fr_starter_shopping_001"
     },
     {
         "word": "prendre",
@@ -151,8 +167,6 @@ const data = [
         "theme": "travel",
         "emoji": "👜",
         "subtext": "prendre le bus / prendre un médicament / prendre une pause",
-        "opposite": "donner",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "transcription": "pʁɑ̃dʁ",
         "definitions": [
@@ -184,7 +198,12 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "prehendere"
-        }
+        },
+        "lang": "fr",
+        "antonyms": [
+            "donner"
+        ],
+        "id": "fr_starter_travel_001"
     },
     {
         "word": "obtenir",
@@ -212,12 +231,14 @@ const data = [
         "aspect": "action",
         "v3": "obtenu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "id": "fr_starter_shopping_002"
     },
     {
         "word": "mettre",
         "level": "starter",
-        "theme": "furniture_objects",
+        "theme": "furniture",
         "emoji": "📥",
         "subtext": "mettre",
         "synonyms": [
@@ -239,7 +260,9 @@ const data = [
         "aspect": "action",
         "v3": "mis",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "lang": "fr",
+        "id": "fr_starter_furniture_001"
     },
     {
         "word": "faire",
@@ -282,7 +305,9 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "facere",
             "origin_meaning": "to do"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_work_002"
     },
     {
         "word": "faire",
@@ -322,7 +347,9 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "facere"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_work_003"
     },
     {
         "word": "utiliser",
@@ -346,7 +373,9 @@ const data = [
         "v3": "utilisé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "utilisant"
+        "v4": "utilisant",
+        "lang": "fr",
+        "id": "fr_starter_technology_001"
     },
     {
         "word": "ouvrir",
@@ -354,8 +383,6 @@ const data = [
         "theme": "shopping",
         "emoji": "📖",
         "subtext": "ouvrir une porte / ouvrir un compte / ouvrir à neuf heures",
-        "opposite": "fermer",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "transcription": "u.vʁiʁ",
         "definitions": [
@@ -372,7 +399,12 @@ const data = [
         "v3": "ouvert",
         "group": "ir",
         "auxiliary": "avoir",
-        "v4": "ouvrissant"
+        "v4": "ouvrissant",
+        "lang": "fr",
+        "antonyms": [
+            "fermer"
+        ],
+        "id": "fr_starter_shopping_003"
     },
     {
         "word": "fermer",
@@ -380,8 +412,6 @@ const data = [
         "theme": "shopping",
         "emoji": "🔒",
         "subtext": "fermer une porte / fermer à six heures / fermer la réunion",
-        "opposite": "ouvrir",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "transcription": "fɛʁ.me",
         "definitions": [
@@ -398,7 +428,12 @@ const data = [
         "v3": "fermé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "fermant"
+        "v4": "fermant",
+        "lang": "fr",
+        "antonyms": [
+            "ouvrir"
+        ],
+        "id": "fr_starter_shopping_004"
     },
     {
         "word": "commencer",
@@ -406,8 +441,6 @@ const data = [
         "theme": "work",
         "emoji": "▶️",
         "subtext": "commencer le travail / commencer une réunion / commencer un nouveau travail",
-        "opposite": "finir",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "transcription": "kɔ.mɑ̃.se",
         "definitions": [
@@ -424,7 +457,12 @@ const data = [
         "v3": "commencé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "commencant"
+        "v4": "commencant",
+        "lang": "fr",
+        "antonyms": [
+            "finir"
+        ],
+        "id": "fr_starter_work_004"
     },
     {
         "word": "finir",
@@ -432,8 +470,6 @@ const data = [
         "theme": "work",
         "emoji": "🏁",
         "subtext": "finir le travail / finir un projet / finir tôt",
-        "opposite": "commencer",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -450,7 +486,12 @@ const data = [
         "group": "ir",
         "auxiliary": "avoir",
         "transcription": "/fi.niʁ/",
-        "v4": "finissant"
+        "v4": "finissant",
+        "lang": "fr",
+        "antonyms": [
+            "commencer"
+        ],
+        "id": "fr_starter_work_005"
     },
     {
         "word": "aider",
@@ -474,7 +515,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/e.de/",
-        "v4": "aidant"
+        "v4": "aidant",
+        "lang": "fr",
+        "id": "fr_starter_work_006"
     },
     {
         "word": "essayer",
@@ -498,7 +541,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/e.sɛ.je/",
-        "v4": "essayant"
+        "v4": "essayant",
+        "lang": "fr",
+        "id": "fr_starter_school_001"
     },
     {
         "word": "montrer",
@@ -521,7 +566,9 @@ const data = [
         "v3": "montré",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/mɔ̃.tʁe/"
+        "transcription": "/mɔ̃.tʁe/",
+        "lang": "fr",
+        "id": "fr_starter_language_001"
     },
     {
         "word": "trouver",
@@ -547,7 +594,9 @@ const data = [
         "v3": "trouvé",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/tʁu.ve/"
+        "transcription": "/tʁu.ve/",
+        "lang": "fr",
+        "id": "fr_starter_shopping_005"
     },
     {
         "word": "garder",
@@ -574,7 +623,9 @@ const data = [
         "v3": "gardé",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/ɡaʁ.de/"
+        "transcription": "/ɡaʁ.de/",
+        "lang": "fr",
+        "id": "fr_starter_work_007"
     },
     {
         "word": "perdre",
@@ -582,8 +633,6 @@ const data = [
         "theme": "shopping",
         "emoji": "📉",
         "subtext": "perdre un travail / perdre de l argent / perdre du poids",
-        "opposite": "gagner",
-        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -600,12 +649,17 @@ const data = [
         "v3": "perdu",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/pɛʁdʁ/"
+        "transcription": "/pɛʁdʁ/",
+        "lang": "fr",
+        "antonyms": [
+            "gagner"
+        ],
+        "id": "fr_starter_shopping_006"
     },
     {
         "word": "couper",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "✂️",
         "subtext": "couper en deux",
         "synonyms": [
@@ -627,12 +681,14 @@ const data = [
         "v3": "coupé",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/ku.pe/"
+        "transcription": "/ku.pe/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_001"
     },
     {
         "word": "tourner",
         "level": "starter",
-        "theme": "directions_navigation",
+        "theme": "travel",
         "emoji": "🔄",
         "subtext": "tourner à gauche / tourner à droite",
         "synonyms": [
@@ -655,7 +711,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/tuʁ.ne/",
-        "v4": "tournant"
+        "v4": "tournant",
+        "lang": "fr",
+        "id": "fr_starter_travel_002"
     },
     {
         "word": "apporter",
@@ -678,12 +736,14 @@ const data = [
         "v3": "apporté",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/a.pɔʁ.te/"
+        "transcription": "/a.pɔʁ.te/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_002"
     },
     {
         "word": "dire",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗨️",
         "subtext": "dire bonjour / dire oui / dire non / dire quelque chose",
         "form": "verb",
@@ -717,7 +777,9 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "dicere"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_social_002"
     },
     {
         "word": "dire",
@@ -759,7 +821,9 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "dicere"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_language_002"
     },
     {
         "word": "demander",
@@ -786,12 +850,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/də.mɑ̃.de/",
-        "v4": "demandant"
+        "v4": "demandant",
+        "lang": "fr",
+        "id": "fr_starter_language_003"
     },
     {
         "word": "parler",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗣️",
         "subtext": "parler à quelqu un / parler une langue / parler clairement",
         "form": "verb",
@@ -813,7 +879,9 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "parabolare"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_social_003"
     },
     {
         "word": "parler",
@@ -841,7 +909,9 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "parabolare"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_social_004"
     },
     {
         "word": "appeler",
@@ -869,7 +939,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/a.ple/",
-        "v4": "appelant"
+        "v4": "appelant",
+        "lang": "fr",
+        "id": "fr_starter_technology_002"
     },
     {
         "word": "écrire",
@@ -877,8 +949,6 @@ const data = [
         "theme": "school",
         "emoji": "✍️",
         "subtext": "écrire un email / écrire un rapport / écrire une lettre",
-        "opposite": "lire",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -894,7 +964,12 @@ const data = [
         "v3": "écrit",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/e.kʁiʁ/"
+        "transcription": "/e.kʁiʁ/",
+        "lang": "fr",
+        "antonyms": [
+            "lire"
+        ],
+        "id": "fr_starter_school_002"
     },
     {
         "word": "lire",
@@ -902,8 +977,6 @@ const data = [
         "theme": "school",
         "emoji": "📖",
         "subtext": "lire un livre / lire les nouvelles / lire un contrat",
-        "opposite": "écrire",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -919,7 +992,12 @@ const data = [
         "v3": "lu",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/liʁ/"
+        "transcription": "/liʁ/",
+        "lang": "fr",
+        "antonyms": [
+            "écrire"
+        ],
+        "id": "fr_starter_school_003"
     },
     {
         "word": "écouter",
@@ -943,7 +1021,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/e.ku.te/",
-        "v4": "écoutant"
+        "v4": "écoutant",
+        "lang": "fr",
+        "id": "fr_starter_school_004"
     },
     {
         "word": "répondre",
@@ -967,12 +1047,14 @@ const data = [
         "group": "re",
         "auxiliary": "avoir",
         "transcription": "/ʁe.pɔ̃dʁ/",
-        "v4": "répondant"
+        "v4": "répondant",
+        "lang": "fr",
+        "id": "fr_starter_language_004"
     },
     {
         "word": "répéter",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🔁",
         "subtext": "répéter cela / se répéter / répéter une commande",
         "form": "verb",
@@ -991,7 +1073,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʁe.pe.te/",
-        "v4": "répétant"
+        "v4": "répétant",
+        "lang": "fr",
+        "id": "fr_starter_school_005"
     },
     {
         "word": "aller",
@@ -1029,7 +1113,9 @@ const data = [
                     "vont"
                 ]
             }
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_travel_003"
     },
     {
         "word": "venir",
@@ -1040,8 +1126,6 @@ const data = [
         "synonyms": [
             "revenir"
         ],
-        "opposite": "aller",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -1073,11 +1157,15 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "venire"
-        }
+        },
+        "lang": "fr",
+        "antonyms": [
+            "aller"
+        ],
+        "id": "fr_starter_travel_004"
     },
     {
         "word": "marcher",
-        "image": "images/vocabulary/actions/to walk. to hike.png",
         "level": "starter",
         "theme": "travel",
         "emoji": "🚶",
@@ -1101,7 +1189,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/maʁ.ʃe/",
-        "v4": "marchant"
+        "v4": "marchant",
+        "lang": "fr",
+        "id": "fr_starter_travel_005"
     },
     {
         "word": "conduire",
@@ -1127,7 +1217,9 @@ const data = [
         "v3": "conduit",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/kɔ̃.dɥiʁ/"
+        "transcription": "/kɔ̃.dɥiʁ/",
+        "lang": "fr",
+        "id": "fr_starter_travel_006"
     },
     {
         "word": "voler",
@@ -1150,7 +1242,9 @@ const data = [
         "v3": "volé",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/vɔ.le/"
+        "transcription": "/vɔ.le/",
+        "lang": "fr",
+        "id": "fr_starter_travel_007"
     },
     {
         "word": "arriver",
@@ -1174,7 +1268,9 @@ const data = [
         "group": "er",
         "auxiliary": "être",
         "transcription": "/a.ʁi.ve/",
-        "v4": "arrivant"
+        "v4": "arrivant",
+        "lang": "fr",
+        "id": "fr_starter_work_008"
     },
     {
         "word": "partir",
@@ -1201,7 +1297,9 @@ const data = [
         "v3": "parti",
         "group": "ir",
         "auxiliary": "être",
-        "transcription": "/paʁ.ti/"
+        "transcription": "/paʁ.ti/",
+        "lang": "fr",
+        "id": "fr_starter_work_009"
     },
     {
         "word": "bouger",
@@ -1229,7 +1327,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/bu.ʒe/",
-        "v4": "bougant"
+        "v4": "bougant",
+        "lang": "fr",
+        "id": "fr_starter_furniture_002"
     },
     {
         "word": "revenir",
@@ -1256,12 +1356,14 @@ const data = [
         "group": "ir",
         "auxiliary": "être",
         "transcription": "/ʁə.və.niʁ/",
-        "v4": "revenissant"
+        "v4": "revenissant",
+        "lang": "fr",
+        "id": "fr_starter_travel_008"
     },
     {
         "word": "voyager",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "voyager pour le travail / voyager à l étranger",
         "form": "verb",
@@ -1280,11 +1382,12 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/vwa.ja.ʒe/",
-        "v4": "voyagant"
+        "v4": "voyagant",
+        "lang": "fr",
+        "id": "fr_starter_travel_009"
     },
     {
         "word": "manger",
-        "image": "images/vocabulary/actions/to eat.png",
         "level": "starter",
         "theme": "food_drink",
         "emoji": "🍎",
@@ -1294,8 +1397,6 @@ const data = [
             "déjeuner",
             "dîner"
         ],
-        "opposite": "boire",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1316,17 +1417,19 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "manducare",
             "origin_meaning": "to chew, eat"
-        }
+        },
+        "lang": "fr",
+        "antonyms": [
+            "boire"
+        ],
+        "id": "fr_starter_food_drink_003"
     },
     {
         "word": "boire",
-        "image": "images/vocabulary/actions/to drink.png",
         "level": "starter",
         "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "boire du café / boire du thé / boire de l eau",
-        "opposite": "manger",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1347,17 +1450,19 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "bibere",
             "origin_meaning": "to drink"
-        }
+        },
+        "lang": "fr",
+        "antonyms": [
+            "manger"
+        ],
+        "id": "fr_starter_food_drink_004"
     },
     {
         "word": "dormir",
-        "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
         "theme": "time",
         "emoji": "😴",
         "subtext": "bien dormir / mal dormir / dormir huit heures",
-        "opposite": "se réveiller",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1378,13 +1483,17 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "dormire",
             "origin_meaning": "to sleep"
-        }
+        },
+        "lang": "fr",
+        "antonyms": [
+            "se réveiller"
+        ],
+        "id": "fr_starter_time_001"
     },
     {
         "word": "cuisiner",
-        "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "🍳",
         "subtext": "cuisiner un repas",
         "synonyms": [
@@ -1406,11 +1515,12 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/kɥi.zi.ne/",
-        "v4": "cuisinant"
+        "v4": "cuisinant",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_005"
     },
     {
         "word": "nettoyer",
-        "image": "images/vocabulary/actions/to clean. to sweep.png",
         "level": "starter",
         "theme": "furniture",
         "emoji": "🧹",
@@ -1431,7 +1541,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/nɛ.twa.je/",
-        "v4": "nettoyant"
+        "v4": "nettoyant",
+        "lang": "fr",
+        "id": "fr_starter_furniture_003"
     },
     {
         "word": "porter",
@@ -1454,11 +1566,12 @@ const data = [
         "v3": "porté",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/pɔʁ.te/"
+        "transcription": "/pɔʁ.te/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_001"
     },
     {
         "word": "laver",
-        "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
         "level": "starter",
         "theme": "furniture",
         "emoji": "🧼",
@@ -1482,7 +1595,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/la.ve/",
-        "v4": "lavant"
+        "v4": "lavant",
+        "lang": "fr",
+        "id": "fr_starter_furniture_004"
     },
     {
         "word": "acheter",
@@ -1490,8 +1605,6 @@ const data = [
         "theme": "shopping",
         "emoji": "🛒",
         "subtext": "acheter de la nourriture / acheter un billet",
-        "opposite": "vendre",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1507,7 +1620,12 @@ const data = [
         "v3": "acheté",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/aʃ.te/"
+        "transcription": "/aʃ.te/",
+        "lang": "fr",
+        "antonyms": [
+            "vendre"
+        ],
+        "id": "fr_starter_shopping_007"
     },
     {
         "word": "payer",
@@ -1530,7 +1648,9 @@ const data = [
         "v3": "payé",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/pe.je/"
+        "transcription": "/pe.je/",
+        "lang": "fr",
+        "id": "fr_starter_shopping_008"
     },
     {
         "word": "dépenser",
@@ -1556,7 +1676,9 @@ const data = [
         "v3": "dépensé",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/de.pɑ̃.se/"
+        "transcription": "/de.pɑ̃.se/",
+        "lang": "fr",
+        "id": "fr_starter_shopping_009"
     },
     {
         "word": "économiser",
@@ -1564,8 +1686,6 @@ const data = [
         "theme": "shopping",
         "emoji": "💰",
         "subtext": "économiser de l argent / économiser pour une maison",
-        "opposite": "dépenser",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1582,7 +1702,12 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/e.kɔ.nɔ.mi.ze/",
-        "v4": "économisant"
+        "v4": "économisant",
+        "lang": "fr",
+        "antonyms": [
+            "dépenser"
+        ],
+        "id": "fr_starter_shopping_010"
     },
     {
         "word": "travailler",
@@ -1606,7 +1731,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/tʁa.va.je/",
-        "v4": "travaillant"
+        "v4": "travaillant",
+        "lang": "fr",
+        "id": "fr_starter_work_010"
     },
     {
         "word": "vivre",
@@ -1614,8 +1741,6 @@ const data = [
         "theme": "places",
         "emoji": "🏠",
         "subtext": "vivre dans un appartement / vivre seul / vivre avec quelqu un",
-        "opposite": "mourir",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1632,7 +1757,12 @@ const data = [
         "group": "re",
         "auxiliary": "avoir",
         "transcription": "/vivʁ/",
-        "v4": "vivant"
+        "v4": "vivant",
+        "lang": "fr",
+        "antonyms": [
+            "mourir"
+        ],
+        "id": "fr_starter_places_001"
     },
     {
         "word": "penser",
@@ -1658,7 +1788,9 @@ const data = [
         "v3": "pensé",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/pɑ̃.se/"
+        "transcription": "/pɑ̃.se/",
+        "lang": "fr",
+        "id": "fr_starter_social_005"
     },
     {
         "word": "savoir",
@@ -1697,7 +1829,9 @@ const data = [
                     "savent"
                 ]
             }
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_school_006"
     },
     {
         "word": "vouloir",
@@ -1733,7 +1867,9 @@ const data = [
                     "veulent"
                 ]
             }
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_emotions_001"
     },
     {
         "word": "avoir besoin de",
@@ -1762,11 +1898,12 @@ const data = [
         "v3": "eu besoin",
         "group": "ir",
         "auxiliary": "avoir",
-        "transcription": "/a.vwaʁ bə.zwɛ̃ də/"
+        "transcription": "/a.vwaʁ bə.zwɛ̃ də/",
+        "lang": "fr",
+        "id": "fr_starter_emotions_002"
     },
     {
         "word": "aimer",
-        "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
         "theme": "emotions",
         "emoji": "👍",
@@ -1788,7 +1925,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ɛ.me/",
-        "v4": "aimant"
+        "v4": "aimant",
+        "lang": "fr",
+        "id": "fr_starter_emotions_003"
     },
     {
         "word": "adorer",
@@ -1817,7 +1956,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/a.dɔ.ʁe/",
-        "v4": "adorant"
+        "v4": "adorant",
+        "lang": "fr",
+        "id": "fr_starter_emotions_004"
     },
     {
         "word": "détester",
@@ -1841,7 +1982,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/de.tɛs.te/",
-        "v4": "détestant"
+        "v4": "détestant",
+        "lang": "fr",
+        "id": "fr_starter_emotions_005"
     },
     {
         "word": "espérer",
@@ -1865,7 +2008,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ɛs.pe.ʁe/",
-        "v4": "espérant"
+        "v4": "espérant",
+        "lang": "fr",
+        "id": "fr_starter_emotions_006"
     },
     {
         "word": "se souvenir",
@@ -1890,7 +2035,9 @@ const data = [
         "auxiliary": "être",
         "transcription": "/sə su.və.niʁ/",
         "reflexive": true,
-        "v4": "se souvenant"
+        "v4": "se souvenant",
+        "lang": "fr",
+        "id": "fr_starter_school_007"
     },
     {
         "word": "oublier",
@@ -1913,7 +2060,9 @@ const data = [
         "v3": "oublié",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/u.bli.je/"
+        "transcription": "/u.bli.je/",
+        "lang": "fr",
+        "id": "fr_starter_school_008"
     },
     {
         "word": "comprendre",
@@ -1936,7 +2085,9 @@ const data = [
         "v3": "compris",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/kɔ̃.pʁɑ̃dʁ/"
+        "transcription": "/kɔ̃.pʁɑ̃dʁ/",
+        "lang": "fr",
+        "id": "fr_starter_language_005"
     },
     {
         "word": "décider",
@@ -1963,7 +2114,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/de.si.de/",
-        "v4": "décidant"
+        "v4": "décidant",
+        "lang": "fr",
+        "id": "fr_starter_social_006"
     },
     {
         "word": "apprécier",
@@ -1987,7 +2140,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/a.pʁe.sje/",
-        "v4": "appréciant"
+        "v4": "appréciant",
+        "lang": "fr",
+        "id": "fr_starter_emotions_007"
     },
     {
         "word": "voir",
@@ -2027,7 +2182,9 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "videre",
             "origin_meaning": "to see"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_body_001"
     },
     {
         "word": "entendre",
@@ -2055,18 +2212,17 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "intendere",
             "origin_meaning": "to direct attention"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_body_002"
     },
     {
         "word": "se réveiller",
-        "image": "images/vocabulary/actions/to wake up.png",
         "level": "starter",
         "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "se réveiller tôt / se réveiller à 7h / se réveiller fatigué",
-        "opposite": "dormir",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Arrêter de dormir et ouvrir les yeux.",
@@ -2082,7 +2238,12 @@ const data = [
         "group": "er",
         "auxiliary": "être",
         "transcription": "/sə ʁe.vɛ.je/",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "fr",
+        "antonyms": [
+            "dormir"
+        ],
+        "id": "fr_starter_work_011"
     },
     {
         "word": "regarder",
@@ -2106,7 +2267,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʁə.ɡaʁ.de/",
-        "v4": "regardant"
+        "v4": "regardant",
+        "lang": "fr",
+        "id": "fr_starter_social_007"
     },
     {
         "word": "regarder",
@@ -2134,7 +2297,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʁə.ɡaʁ.de/",
-        "v4": "regardant"
+        "v4": "regardant",
+        "lang": "fr",
+        "id": "fr_starter_people_001"
     },
     {
         "word": "jouer",
@@ -2158,7 +2323,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʒwe/",
-        "v4": "jouant"
+        "v4": "jouant",
+        "lang": "fr",
+        "id": "fr_starter_social_008"
     },
     {
         "word": "courir",
@@ -2184,7 +2351,9 @@ const data = [
         "v3": "couru",
         "group": "ir",
         "auxiliary": "avoir",
-        "transcription": "/ku.ʁiʁ/"
+        "transcription": "/ku.ʁiʁ/",
+        "lang": "fr",
+        "id": "fr_starter_sports_001"
     },
     {
         "word": "s asseoir",
@@ -2192,8 +2361,6 @@ const data = [
         "theme": "work",
         "emoji": "🪑",
         "subtext": "s asseoir / s asseoir à un bureau / s asseoir en réunion",
-        "opposite": "se tenir debout",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -2209,7 +2376,12 @@ const data = [
         "v3": "assis",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/sa.swwaʁ/"
+        "transcription": "/sa.swwaʁ/",
+        "lang": "fr",
+        "antonyms": [
+            "se tenir debout"
+        ],
+        "id": "fr_starter_work_012"
     },
     {
         "word": "se tenir debout",
@@ -2221,8 +2393,6 @@ const data = [
             "se lever",
             "être debout"
         ],
-        "opposite": "s asseoir",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -2239,7 +2409,12 @@ const data = [
         "group": "er",
         "auxiliary": "être",
         "transcription": "/sə tə.niʁ də.bu/",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "fr",
+        "antonyms": [
+            "s asseoir"
+        ],
+        "id": "fr_starter_work_013"
     },
     {
         "word": "rencontrer",
@@ -2262,7 +2437,9 @@ const data = [
         "subtext": "rencontrer quelqu un / rencontrer pour le déjeuner",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/ʁɑ̃.kɔ̃.tʁe/"
+        "transcription": "/ʁɑ̃.kɔ̃.tʁe/",
+        "lang": "fr",
+        "id": "fr_starter_work_014"
     },
     {
         "word": "apprendre",
@@ -2285,7 +2462,9 @@ const data = [
         "v3": "appris",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/a.pʁɑ̃dʁ/"
+        "transcription": "/a.pʁɑ̃dʁ/",
+        "lang": "fr",
+        "id": "fr_starter_school_009"
     },
     {
         "word": "changer",
@@ -2309,7 +2488,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʃɑ̃.ʒe/",
-        "v4": "changant"
+        "v4": "changant",
+        "lang": "fr",
+        "id": "fr_starter_work_015"
     },
     {
         "word": "arrêter",
@@ -2333,7 +2514,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/a.ʁɛ.te/",
-        "v4": "arrêtant"
+        "v4": "arrêtant",
+        "lang": "fr",
+        "id": "fr_starter_work_016"
     },
     {
         "word": "ajouter",
@@ -2357,7 +2540,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/a.ʒu.te/",
-        "v4": "ajoutant"
+        "v4": "ajoutant",
+        "lang": "fr",
+        "id": "fr_starter_numbers_001"
     },
     {
         "word": "gagner",
@@ -2365,8 +2550,6 @@ const data = [
         "theme": "social",
         "emoji": "🏆",
         "subtext": "gagner / gagner un prix / gagner un contrat",
-        "opposite": "perdre",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -2381,7 +2564,12 @@ const data = [
         "v3": "gagné",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/ɡa.ɲe/"
+        "transcription": "/ɡa.ɲe/",
+        "lang": "fr",
+        "antonyms": [
+            "perdre"
+        ],
+        "id": "fr_starter_social_009"
     },
     {
         "word": "attendre",
@@ -2405,7 +2593,9 @@ const data = [
         "group": "re",
         "auxiliary": "avoir",
         "transcription": "/a.tɑ̃dʁ/",
-        "v4": "attendant"
+        "v4": "attendant",
+        "lang": "fr",
+        "id": "fr_starter_work_017"
     },
     {
         "word": "mourir",
@@ -2416,8 +2606,6 @@ const data = [
         "synonyms": [
             "s éteindre"
         ],
-        "opposite": "vivre",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -2433,7 +2621,12 @@ const data = [
         "group": "ir",
         "auxiliary": "être",
         "transcription": "/mu.ʁiʁ/",
-        "v4": "mourissant"
+        "v4": "mourissant",
+        "lang": "fr",
+        "antonyms": [
+            "vivre"
+        ],
+        "id": "fr_starter_health_medicine_002"
     },
     {
         "word": "envoyer",
@@ -2456,7 +2649,9 @@ const data = [
         "subtext": "envoyer / envoyer un email / envoyer un message",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/ɑ̃.vwa.je/"
+        "transcription": "/ɑ̃.vwa.je/",
+        "lang": "fr",
+        "id": "fr_starter_work_018"
     },
     {
         "word": "rester",
@@ -2484,7 +2679,9 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "restare"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_travel_010"
     },
     {
         "word": "tomber",
@@ -2510,7 +2707,9 @@ const data = [
         "v3": "tombé",
         "group": "er",
         "auxiliary": "être",
-        "transcription": "/tɔ̃.be/"
+        "transcription": "/tɔ̃.be/",
+        "lang": "fr",
+        "id": "fr_starter_nature_001"
     },
     {
         "word": "passer",
@@ -2534,7 +2733,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/pa.se/",
-        "v4": "passant"
+        "v4": "passant",
+        "lang": "fr",
+        "id": "fr_starter_school_010"
     },
     {
         "word": "vendre",
@@ -2542,8 +2743,6 @@ const data = [
         "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "vendre / vendre en ligne / vendre au marché",
-        "opposite": "acheter",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2558,7 +2757,12 @@ const data = [
         "v3": "vendu",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/vɑ̃dʁ/"
+        "transcription": "/vɑ̃dʁ/",
+        "lang": "fr",
+        "antonyms": [
+            "acheter"
+        ],
+        "id": "fr_starter_shopping_011"
     },
     {
         "word": "tirer",
@@ -2569,8 +2773,6 @@ const data = [
         "synonyms": [
             "s éloigner"
         ],
-        "opposite": "pousser",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2586,7 +2788,12 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ti.ʁe/",
-        "v4": "tirant"
+        "v4": "tirant",
+        "lang": "fr",
+        "antonyms": [
+            "pousser"
+        ],
+        "id": "fr_starter_work_019"
     },
     {
         "word": "pousser",
@@ -2594,8 +2801,6 @@ const data = [
         "theme": "work",
         "emoji": "🛒",
         "subtext": "pousser / pousser le bouton / pousser le chariot",
-        "opposite": "tirer",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2612,7 +2817,12 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/pu.se/",
-        "v4": "poussant"
+        "v4": "poussant",
+        "lang": "fr",
+        "antonyms": [
+            "tirer"
+        ],
+        "id": "fr_starter_work_020"
     },
     {
         "word": "porter",
@@ -2636,7 +2846,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/pɔʁ.te/",
-        "v4": "portant"
+        "v4": "portant",
+        "lang": "fr",
+        "id": "fr_starter_work_021"
     },
     {
         "word": "casser",
@@ -2662,7 +2874,9 @@ const data = [
         "v3": "cassé",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/ka.se/"
+        "transcription": "/ka.se/",
+        "lang": "fr",
+        "id": "fr_starter_describing_001"
     },
     {
         "word": "recevoir",
@@ -2685,7 +2899,9 @@ const data = [
         "v3": "reçu",
         "group": "ir",
         "auxiliary": "avoir",
-        "transcription": "/ʁə.sə.vwaʁ/"
+        "transcription": "/ʁə.sə.vwaʁ/",
+        "lang": "fr",
+        "id": "fr_starter_shopping_012"
     },
     {
         "word": "être d accord",
@@ -2708,13 +2924,14 @@ const data = [
         "v3": "été d accord",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/ɛtʁə d‿a.kɔʁ/"
+        "transcription": "/ɛtʁə d‿a.kɔʁ/",
+        "lang": "fr",
+        "id": "fr_starter_social_010"
     },
     {
         "word": "dessiner",
-        "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
-        "theme": "cinema_film",
+        "theme": "social",
         "emoji": "🎨",
         "subtext": "dessiner / dessiner une image / dessiner une ligne",
         "form": "verb",
@@ -2732,7 +2949,9 @@ const data = [
         "v3": "dessiné",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/de.si.ne/"
+        "transcription": "/de.si.ne/",
+        "lang": "fr",
+        "id": "fr_starter_social_011"
     },
     {
         "word": "partager",
@@ -2756,7 +2975,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/paʁ.ta.ʒe/",
-        "v4": "partagant"
+        "v4": "partagant",
+        "lang": "fr",
+        "id": "fr_starter_social_012"
     },
     {
         "word": "sourire",
@@ -2764,8 +2985,6 @@ const data = [
         "theme": "people",
         "emoji": "😊",
         "subtext": "sourire / sourire à quelqu un / sourire largement",
-        "opposite": "pleurer",
-        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2782,7 +3001,12 @@ const data = [
         "group": "re",
         "auxiliary": "avoir",
         "transcription": "/su.ʁiʁ/",
-        "v4": "souriant"
+        "v4": "souriant",
+        "lang": "fr",
+        "antonyms": [
+            "pleurer"
+        ],
+        "id": "fr_starter_people_002"
     },
     {
         "word": "pleurer",
@@ -2790,8 +3014,6 @@ const data = [
         "theme": "emotions",
         "emoji": "😢",
         "subtext": "pleurer / pleurer pour obtenir de l aide / pleurer sur quelque chose",
-        "opposite": "sourire",
-        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2808,7 +3030,12 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/plœ.ʁe/",
-        "v4": "pleurant"
+        "v4": "pleurant",
+        "lang": "fr",
+        "antonyms": [
+            "sourire"
+        ],
+        "id": "fr_starter_emotions_008"
     },
     {
         "word": "danser",
@@ -2832,7 +3059,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/dɑ̃.se/",
-        "v4": "dansant"
+        "v4": "dansant",
+        "lang": "fr",
+        "id": "fr_starter_music_001"
     },
     {
         "word": "chanter",
@@ -2855,7 +3084,9 @@ const data = [
         "v3": "chanté",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/ʃɑ̃.te/"
+        "transcription": "/ʃɑ̃.te/",
+        "lang": "fr",
+        "id": "fr_starter_music_002"
     },
     {
         "word": "sauter",
@@ -2879,7 +3110,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/so.te/",
-        "v4": "sautant"
+        "v4": "sautant",
+        "lang": "fr",
+        "id": "fr_starter_sports_002"
     },
     {
         "word": "nager",
@@ -2902,7 +3135,9 @@ const data = [
         "v3": "nagé",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/na.ʒe/"
+        "transcription": "/na.ʒe/",
+        "lang": "fr",
+        "id": "fr_starter_sports_003"
     },
     {
         "word": "étudier",
@@ -2926,7 +3161,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/e.ty.dje/",
-        "v4": "étudiant"
+        "v4": "étudiant",
+        "lang": "fr",
+        "id": "fr_starter_school_011"
     },
     {
         "word": "enseigner",
@@ -2949,12 +3186,14 @@ const data = [
         "v3": "enseigné",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/ɑ̃.sɛ.ɲe/"
+        "transcription": "/ɑ̃.sɛ.ɲe/",
+        "lang": "fr",
+        "id": "fr_starter_school_012"
     },
     {
         "word": "faire le trajet",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🚆",
         "subtext": "faire le trajet",
         "synonyms": [
@@ -2975,7 +3214,9 @@ const data = [
         "v3": "fait le trajet",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/fɛʁ lə tʁa.ʒɛ/"
+        "transcription": "/fɛʁ lə tʁa.ʒɛ/",
+        "lang": "fr",
+        "id": "fr_starter_travel_011"
     },
     {
         "word": "louer",
@@ -2998,7 +3239,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/lwe/",
-        "v4": "louant"
+        "v4": "louant",
+        "lang": "fr",
+        "id": "fr_starter_travel_012"
     },
     {
         "word": "s exercer",
@@ -3021,7 +3264,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/s‿ɛɡ.zɛʁ.se/",
-        "v4": "s exercant"
+        "v4": "s exercant",
+        "lang": "fr",
+        "id": "fr_starter_social_013"
     },
     {
         "word": "coûter",
@@ -3043,7 +3288,9 @@ const data = [
         "subtext": "coûter / coûter cher / coûter de l argent",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/ku.te/"
+        "transcription": "/ku.te/",
+        "lang": "fr",
+        "id": "fr_starter_shopping_013"
     },
     {
         "word": "inviter",
@@ -3066,11 +3313,12 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ɛ̃.vi.te/",
-        "v4": "invitant"
+        "v4": "invitant",
+        "lang": "fr",
+        "id": "fr_starter_social_014"
     },
     {
         "word": "se lever",
-        "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
             {
                 "text": "Se lever du lit après le réveil.",
@@ -3090,11 +3338,12 @@ const data = [
         "group": "er",
         "auxiliary": "être",
         "transcription": "/sə lə.ve/",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "fr",
+        "id": "fr_starter_work_022"
     },
     {
         "word": "prendre le petit-déjeuner",
-        "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
             {
                 "text": "Prendre le repas du matin.",
@@ -3116,7 +3365,9 @@ const data = [
         "form": "verb",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/pʁɑ̃dʁ lə pə.ti de.ʒœ.ne/"
+        "transcription": "/pʁɑ̃dʁ lə pə.ti de.ʒœ.ne/",
+        "lang": "fr",
+        "id": "fr_starter_work_023"
     },
     {
         "word": "revenir",
@@ -3138,11 +3389,12 @@ const data = [
         "form": "verb",
         "group": "ir",
         "auxiliary": "être",
-        "transcription": "/ʁə.və.niʁ/"
+        "transcription": "/ʁə.və.niʁ/",
+        "lang": "fr",
+        "id": "fr_starter_work_024"
     },
     {
         "word": "se coucher",
-        "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
             {
                 "text": "Aller au lit pour dormir.",
@@ -3162,7 +3414,9 @@ const data = [
         "group": "er",
         "auxiliary": "être",
         "transcription": "/sə ku.ʃe/",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "fr",
+        "id": "fr_starter_work_025"
     },
     {
         "word": "vérifier",
@@ -3185,7 +3439,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ve.ʁi.fje/",
-        "v4": "vérifiant"
+        "v4": "vérifiant",
+        "lang": "fr",
+        "id": "fr_starter_work_026"
     },
     {
         "word": "répondre",
@@ -3208,7 +3464,9 @@ const data = [
         "group": "re",
         "auxiliary": "avoir",
         "transcription": "/ʁe.pɔ̃dʁ/",
-        "v4": "répondant"
+        "v4": "répondant",
+        "lang": "fr",
+        "id": "fr_starter_work_027"
     },
     {
         "word": "présenter",
@@ -3231,7 +3489,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/pʁe.zɑ̃.te/",
-        "v4": "présentant"
+        "v4": "présentant",
+        "lang": "fr",
+        "id": "fr_starter_work_028"
     },
     {
         "word": "assister à",
@@ -3257,7 +3517,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/a.sis.te a/",
-        "v4": "assisterant"
+        "v4": "assisterant",
+        "lang": "fr",
+        "id": "fr_starter_work_029"
     },
     {
         "word": "gérer",
@@ -3280,7 +3542,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʒe.ʁe/",
-        "v4": "gérant"
+        "v4": "gérant",
+        "lang": "fr",
+        "id": "fr_starter_work_030"
     },
     {
         "word": "facturer",
@@ -3303,7 +3567,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/fak.ty.ʁe/",
-        "v4": "facturant"
+        "v4": "facturant",
+        "lang": "fr",
+        "id": "fr_starter_shopping_014"
     },
     {
         "word": "avoir les moyens",
@@ -3325,7 +3591,9 @@ const data = [
         "form": "verb",
         "group": "ir",
         "auxiliary": "avoir",
-        "transcription": "/a.vwaʁ le mwa.jɛ̃/"
+        "transcription": "/a.vwaʁ le mwa.jɛ̃/",
+        "lang": "fr",
+        "id": "fr_starter_shopping_015"
     },
     {
         "word": "devoir",
@@ -3359,7 +3627,9 @@ const data = [
                     "doivent"
                 ]
             }
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_shopping_016"
     },
     {
         "word": "gagner",
@@ -3382,7 +3652,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ɡa.ɲe/",
-        "v4": "gagnant"
+        "v4": "gagnant",
+        "lang": "fr",
+        "id": "fr_starter_shopping_017"
     },
     {
         "word": "visiter",
@@ -3405,7 +3677,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/vi.zi.te/",
-        "v4": "visitant"
+        "v4": "visitant",
+        "lang": "fr",
+        "id": "fr_starter_social_015"
     },
     {
         "word": "fêter",
@@ -3428,7 +3702,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/fɛ.te/",
-        "v4": "fêtant"
+        "v4": "fêtant",
+        "lang": "fr",
+        "id": "fr_starter_social_016"
     },
     {
         "word": "recommander",
@@ -3451,7 +3727,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʁə.kɔ.mɑ̃.de/",
-        "v4": "recommandant"
+        "v4": "recommandant",
+        "lang": "fr",
+        "id": "fr_starter_social_017"
     },
     {
         "word": "faire mal",
@@ -3476,7 +3754,9 @@ const data = [
         "form": "verb",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/fɛʁ mal/"
+        "transcription": "/fɛʁ mal/",
+        "lang": "fr",
+        "id": "fr_starter_health_medicine_003"
     },
     {
         "word": "se reposer",
@@ -3500,7 +3780,9 @@ const data = [
         "auxiliary": "être",
         "transcription": "/sə ʁə.po.ze/",
         "reflexive": true,
-        "v4": "se reposant"
+        "v4": "se reposant",
+        "lang": "fr",
+        "id": "fr_starter_work_031"
     },
     {
         "word": "se rétablir",
@@ -3524,7 +3806,9 @@ const data = [
         "auxiliary": "être",
         "transcription": "/sə ʁe.ta.bliʁ/",
         "reflexive": true,
-        "v4": "se rétablant"
+        "v4": "se rétablant",
+        "lang": "fr",
+        "id": "fr_starter_health_medicine_004"
     },
     {
         "word": "réserver",
@@ -3547,7 +3831,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʁe.zɛʁ.ve/",
-        "v4": "réservant"
+        "v4": "réservant",
+        "lang": "fr",
+        "id": "fr_starter_travel_013"
     },
     {
         "word": "faire sa valise",
@@ -3572,7 +3858,9 @@ const data = [
         "form": "verb",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/fɛʁ sa va.liz/"
+        "transcription": "/fɛʁ sa va.liz/",
+        "lang": "fr",
+        "id": "fr_starter_travel_014"
     },
     {
         "word": "annuler",
@@ -3595,7 +3883,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/a.ny.le/",
-        "v4": "annulant"
+        "v4": "annulant",
+        "lang": "fr",
+        "id": "fr_starter_travel_015"
     },
     {
         "word": "manquer",
@@ -3611,14 +3901,16 @@ const data = [
         "classification": "regular",
         "aspect": "both",
         "v3": "manqué",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/mɑ̃.ke/",
-        "v4": "manquant"
+        "v4": "manquant",
+        "lang": "fr",
+        "id": "fr_starter_travel_016"
     },
     {
         "word": "commander",
@@ -3641,7 +3933,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/kɔ.mɑ̃.de/",
-        "v4": "commandant"
+        "v4": "commandant",
+        "lang": "fr",
+        "id": "fr_starter_work_032"
     },
     {
         "word": "expliquer",
@@ -3664,12 +3958,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ɛks.pli.ke/",
-        "v4": "expliquant"
+        "v4": "expliquant",
+        "lang": "fr",
+        "id": "fr_starter_work_033"
     },
     {
         "word": "remercier",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🙏",
         "subtext": "remercier quelqu un / remercier pour",
         "synonyms": [
@@ -3690,12 +3986,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʁə.mɛʁ.sje/",
-        "v4": "remerciant"
+        "v4": "remerciant",
+        "lang": "fr",
+        "id": "fr_starter_social_018"
     },
     {
         "word": "présenter",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "🤝",
         "subtext": "se présenter / présenter quelqu un / présenter un sujet",
         "form": "verb",
@@ -3713,7 +4011,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/pʁe.zɑ̃.te/",
-        "v4": "présentant"
+        "v4": "présentant",
+        "lang": "fr",
+        "id": "fr_starter_social_019"
     },
     {
         "word": "se détendre",
@@ -3737,7 +4037,9 @@ const data = [
         "auxiliary": "être",
         "transcription": "/sə de.tɑ̃dʁ/",
         "reflexive": true,
-        "v4": "se détendant"
+        "v4": "se détendant",
+        "lang": "fr",
+        "id": "fr_starter_social_020"
     },
     {
         "word": "réparer",
@@ -3763,7 +4065,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʁe.pa.ʁe/",
-        "v4": "réparant"
+        "v4": "réparant",
+        "lang": "fr",
+        "id": "fr_starter_furniture_005"
     },
     {
         "word": "se passer",
@@ -3790,7 +4094,9 @@ const data = [
         "auxiliary": "être",
         "transcription": "/sə pa.se/",
         "reflexive": true,
-        "v4": "se passant"
+        "v4": "se passant",
+        "lang": "fr",
+        "id": "fr_starter_social_021"
     },
     {
         "word": "sembler",
@@ -3813,7 +4119,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/sɑ̃.ble/",
-        "v4": "semblant"
+        "v4": "semblant",
+        "lang": "fr",
+        "id": "fr_starter_social_022"
     },
     {
         "word": "vouloir dire",
@@ -3835,7 +4143,9 @@ const data = [
         "v3": "voulu dire",
         "group": "ir",
         "auxiliary": "avoir",
-        "transcription": "/vu.lwaʁ diʁ/"
+        "transcription": "/vu.lwaʁ diʁ/",
+        "lang": "fr",
+        "id": "fr_starter_school_013"
     },
     {
         "word": "suivre",
@@ -3858,7 +4168,9 @@ const data = [
         "group": "re",
         "auxiliary": "avoir",
         "transcription": "/sɥivʁ/",
-        "v4": "suivant"
+        "v4": "suivant",
+        "lang": "fr",
+        "id": "fr_starter_work_034"
     },
     {
         "word": "continuer",
@@ -3881,7 +4193,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/kɔ̃.ti.ny.e/",
-        "v4": "continuant"
+        "v4": "continuant",
+        "lang": "fr",
+        "id": "fr_starter_school_014"
     },
     {
         "word": "croître",
@@ -3907,7 +4221,9 @@ const data = [
         "v3": "crû",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/kʁwatʁ/"
+        "transcription": "/kʁwatʁ/",
+        "lang": "fr",
+        "id": "fr_starter_work_035"
     },
     {
         "word": "inclure",
@@ -3933,7 +4249,9 @@ const data = [
         "group": "re",
         "auxiliary": "avoir",
         "transcription": "/ɛ̃.klyʁ/",
-        "v4": "incluant"
+        "v4": "incluant",
+        "lang": "fr",
+        "id": "fr_starter_shopping_018"
     },
     {
         "word": "devenir",
@@ -3955,7 +4273,9 @@ const data = [
         "v3": "devenu",
         "group": "ir",
         "auxiliary": "être",
-        "transcription": "/də.və.niʁ/"
+        "transcription": "/də.və.niʁ/",
+        "lang": "fr",
+        "id": "fr_starter_work_036"
     },
     {
         "word": "appartenir",
@@ -3981,7 +4301,9 @@ const data = [
         "group": "ir",
         "auxiliary": "avoir",
         "transcription": "/a.paʁ.tə.niʁ/",
-        "v4": "appartenissant"
+        "v4": "appartenissant",
+        "lang": "fr",
+        "id": "fr_starter_work_037"
     },
     {
         "word": "choisir",
@@ -4003,7 +4325,9 @@ const data = [
         "v3": "choisi",
         "group": "ir",
         "auxiliary": "avoir",
-        "transcription": "/ʃwa.ziʁ/"
+        "transcription": "/ʃwa.ziʁ/",
+        "lang": "fr",
+        "id": "fr_starter_social_023"
     },
     {
         "word": "construire",
@@ -4028,7 +4352,9 @@ const data = [
         "v3": "construit",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/kɔ̃s.tʁɥiʁ/"
+        "transcription": "/kɔ̃s.tʁɥiʁ/",
+        "lang": "fr",
+        "id": "fr_starter_work_038"
     },
     {
         "word": "commencer",
@@ -4050,7 +4376,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/kɔ.mɑ̃.se/",
-        "v4": "commencant"
+        "v4": "commencant",
+        "lang": "fr",
+        "id": "fr_starter_work_039"
     },
     {
         "word": "finir",
@@ -4071,7 +4399,9 @@ const data = [
         "v3": "fini",
         "group": "ir",
         "auxiliary": "avoir",
-        "transcription": "/fi.niʁ/"
+        "transcription": "/fi.niʁ/",
+        "lang": "fr",
+        "id": "fr_starter_work_040"
     },
     {
         "word": "brosser",
@@ -4093,7 +4423,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/bʁɔ.se/",
-        "v4": "brossant"
+        "v4": "brossant",
+        "lang": "fr",
+        "id": "fr_starter_work_041"
     },
     {
         "word": "monter",
@@ -4115,7 +4447,9 @@ const data = [
         "group": "er",
         "auxiliary": "être",
         "transcription": "/mɔ̃.te/",
-        "v4": "montant"
+        "v4": "montant",
+        "lang": "fr",
+        "id": "fr_starter_travel_017"
     },
     {
         "word": "rêver",
@@ -4137,7 +4471,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʁɛ.ve/",
-        "v4": "rêvant"
+        "v4": "rêvant",
+        "lang": "fr",
+        "id": "fr_starter_work_042"
     },
     {
         "word": "croire",
@@ -4158,7 +4494,9 @@ const data = [
         "v3": "cru",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/kʁwaʁ/"
+        "transcription": "/kʁwaʁ/",
+        "lang": "fr",
+        "id": "fr_starter_social_024"
     },
     {
         "word": "préférer",
@@ -4180,12 +4518,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/pʁe.fe.ʁe/",
-        "v4": "préférant"
+        "v4": "préférant",
+        "lang": "fr",
+        "id": "fr_starter_social_025"
     },
     {
         "word": "attraper",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🧤",
         "form": "verb",
         "definitions": [
@@ -4202,7 +4542,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/a.tʁa.pe/",
-        "v4": "attrapant"
+        "v4": "attrapant",
+        "lang": "fr",
+        "id": "fr_starter_travel_018"
     },
     {
         "word": "réparer",
@@ -4224,7 +4566,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʁe.pa.ʁe/",
-        "v4": "réparant"
+        "v4": "réparant",
+        "lang": "fr",
+        "id": "fr_starter_furniture_006"
     },
     {
         "word": "créer",
@@ -4246,7 +4590,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/kʁe.e/",
-        "v4": "créant"
+        "v4": "créant",
+        "lang": "fr",
+        "id": "fr_starter_work_043"
     },
     {
         "word": "remarquer",
@@ -4268,7 +4614,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʁə.maʁ.ke/",
-        "v4": "remarquant"
+        "v4": "remarquant",
+        "lang": "fr",
+        "id": "fr_starter_social_026"
     },
     {
         "word": "améliorer",
@@ -4290,12 +4638,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/a.me.ljo.ʁe/",
-        "v4": "améliorant"
+        "v4": "améliorant",
+        "lang": "fr",
+        "id": "fr_starter_school_015"
     },
     {
         "word": "préparer",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "🥘",
         "form": "verb",
         "definitions": [
@@ -4312,7 +4662,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/pʁe.pa.ʁe/",
-        "v4": "préparant"
+        "v4": "préparant",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_006"
     },
     {
         "word": "organiser",
@@ -4334,7 +4686,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ɔʁ.ɡa.ni.ze/",
-        "v4": "organisant"
+        "v4": "organisant",
+        "lang": "fr",
+        "id": "fr_starter_work_044"
     },
     {
         "word": "planifier",
@@ -4356,7 +4710,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/pla.ni.fje/",
-        "v4": "planifiant"
+        "v4": "planifiant",
+        "lang": "fr",
+        "id": "fr_starter_work_045"
     },
     {
         "word": "emprunter",
@@ -4378,7 +4734,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ɑ̃.pʁœ̃.te/",
-        "v4": "empruntant"
+        "v4": "empruntant",
+        "lang": "fr",
+        "id": "fr_starter_shopping_019"
     },
     {
         "word": "prêter",
@@ -4400,7 +4758,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/pʁɛ.te/",
-        "v4": "prêtant"
+        "v4": "prêtant",
+        "lang": "fr",
+        "id": "fr_starter_shopping_020"
     },
     {
         "word": "sentir",
@@ -4421,13 +4781,14 @@ const data = [
         "v3": "senti",
         "group": "ir",
         "auxiliary": "avoir",
-        "transcription": "/sɑ̃.tiʁ/"
+        "transcription": "/sɑ̃.tiʁ/",
+        "lang": "fr",
+        "id": "fr_starter_body_003"
     },
     {
         "word": "goûter",
-        "image": "images/vocabulary/actions/to have a snack.png",
         "level": "starter",
-        "theme": "tastes_textures",
+        "theme": "describing",
         "emoji": "👅",
         "form": "verb",
         "definitions": [
@@ -4444,7 +4805,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ɡu.te/",
-        "v4": "goûtant"
+        "v4": "goûtant",
+        "lang": "fr",
+        "id": "fr_starter_describing_002"
     },
     {
         "word": "s'allonger",
@@ -4467,7 +4830,9 @@ const data = [
         "auxiliary": "être",
         "transcription": "/sa.lɔ̃.ʒe/",
         "reflexive": true,
-        "v4": "s'allongant"
+        "v4": "s'allongant",
+        "lang": "fr",
+        "id": "fr_starter_work_046"
     },
     {
         "word": "rire",
@@ -4488,7 +4853,9 @@ const data = [
         "v3": "ri",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/ʁiʁ/"
+        "transcription": "/ʁiʁ/",
+        "lang": "fr",
+        "id": "fr_starter_emotions_009"
     },
     {
         "word": "s'inquiéter",
@@ -4511,7 +4878,9 @@ const data = [
         "auxiliary": "être",
         "transcription": "/sɛ̃.kje.te/",
         "reflexive": true,
-        "v4": "s'inquiétant"
+        "v4": "s'inquiétant",
+        "lang": "fr",
+        "id": "fr_starter_emotions_010"
     },
     {
         "word": "sonner",
@@ -4533,12 +4902,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/sɔ.ne/",
-        "v4": "sonnant"
+        "v4": "sonnant",
+        "lang": "fr",
+        "id": "fr_starter_social_027"
     },
     {
         "word": "épeler",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🔤",
         "form": "verb",
         "definitions": [
@@ -4555,12 +4926,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/e.pə.le/",
-        "v4": "épelant"
+        "v4": "épelant",
+        "lang": "fr",
+        "id": "fr_starter_school_016"
     },
     {
         "word": "pointer",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "☝️",
         "form": "verb",
         "definitions": [
@@ -4577,12 +4950,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/pwɛ̃.te/",
-        "v4": "pointant"
+        "v4": "pointant",
+        "lang": "fr",
+        "id": "fr_starter_school_017"
     },
     {
         "word": "crier",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "📢",
         "form": "verb",
         "definitions": [
@@ -4599,13 +4974,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/kʁi.je/",
-        "v4": "criant"
+        "v4": "criant",
+        "lang": "fr",
+        "id": "fr_starter_school_018"
     },
     {
         "word": "saluer",
-        "image": "images/vocabulary/actions/to wave. to greet.png",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "👋",
         "form": "verb",
         "definitions": [
@@ -4622,7 +4998,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/sa.lɥe/",
-        "v4": "saluant"
+        "v4": "saluant",
+        "lang": "fr",
+        "id": "fr_starter_social_028"
     },
     {
         "word": "donner un coup de pied",
@@ -4643,7 +5021,9 @@ const data = [
         "v3": "donné un coup de pied",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/dɔ.ne œ̃ ku də pje/"
+        "transcription": "/dɔ.ne œ̃ ku də pje/",
+        "lang": "fr",
+        "id": "fr_starter_sports_004"
     },
     {
         "word": "jeter",
@@ -4665,7 +5045,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʒə.te/",
-        "v4": "jetant"
+        "v4": "jetant",
+        "lang": "fr",
+        "id": "fr_starter_sports_005"
     },
     {
         "word": "rebondir",
@@ -4686,7 +5068,9 @@ const data = [
         "v3": "rebondi",
         "group": "ir",
         "auxiliary": "avoir",
-        "transcription": "/ʁə.bɔ̃.diʁ/"
+        "transcription": "/ʁə.bɔ̃.diʁ/",
+        "lang": "fr",
+        "id": "fr_starter_sports_006"
     },
     {
         "word": "peindre",
@@ -4707,7 +5091,9 @@ const data = [
         "v3": "peint",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/pɛ̃dʁ/"
+        "transcription": "/pɛ̃dʁ/",
+        "lang": "fr",
+        "id": "fr_starter_hobbies_interests_001"
     },
     {
         "word": "sautiller",
@@ -4729,7 +5115,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/so.ti.je/",
-        "v4": "sautillant"
+        "v4": "sautillant",
+        "lang": "fr",
+        "id": "fr_starter_social_029"
     },
     {
         "word": "sauter",
@@ -4751,7 +5139,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/so.te/",
-        "v4": "sautant"
+        "v4": "sautant",
+        "lang": "fr",
+        "id": "fr_starter_social_030"
     },
     {
         "word": "compter",
@@ -4773,12 +5163,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/kɔ̃.te/",
-        "v4": "comptant"
+        "v4": "comptant",
+        "lang": "fr",
+        "id": "fr_starter_numbers_0_9_001"
     },
     {
         "word": "cocher",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "✅",
         "form": "verb",
         "definitions": [
@@ -4795,12 +5187,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/kɔ.ʃe/",
-        "v4": "cochant"
+        "v4": "cochant",
+        "lang": "fr",
+        "id": "fr_starter_school_019"
     },
     {
         "word": "barrer",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "❌",
         "form": "verb",
         "definitions": [
@@ -4817,12 +5211,14 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ba.ʁe/",
-        "v4": "barrant"
+        "v4": "barrant",
+        "lang": "fr",
+        "id": "fr_starter_school_020"
     },
     {
         "word": "colorier",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🖍️",
         "form": "verb",
         "definitions": [
@@ -4839,7 +5235,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/kɔ.lɔ.ʁje/",
-        "v4": "coloriant"
+        "v4": "coloriant",
+        "lang": "fr",
+        "id": "fr_starter_school_021"
     },
     {
         "word": "tenir",
@@ -4860,7 +5258,9 @@ const data = [
         "v3": "tenu",
         "group": "ir",
         "auxiliary": "avoir",
-        "transcription": "/tə.niʁ/"
+        "transcription": "/tə.niʁ/",
+        "lang": "fr",
+        "id": "fr_starter_work_047"
     },
     {
         "word": "mener",
@@ -4882,7 +5282,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/mə.ne/",
-        "v4": "menant"
+        "v4": "menant",
+        "lang": "fr",
+        "id": "fr_starter_work_048"
     },
     {
         "word": "se battre",
@@ -4904,7 +5306,9 @@ const data = [
         "group": "er",
         "auxiliary": "être",
         "transcription": "/sə batʁ/",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "fr",
+        "id": "fr_starter_emotions_011"
     },
     {
         "word": "cacher",
@@ -4926,7 +5330,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ka.ʃe/",
-        "v4": "cachant"
+        "v4": "cachant",
+        "lang": "fr",
+        "id": "fr_starter_social_031"
     },
     {
         "word": "chercher",
@@ -4948,7 +5354,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʃɛʁ.ʃe/",
-        "v4": "cherchant"
+        "v4": "cherchant",
+        "lang": "fr",
+        "id": "fr_starter_social_032"
     },
     {
         "word": "sonner",
@@ -4970,7 +5378,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/sɔ.ne/",
-        "v4": "sonnant"
+        "v4": "sonnant",
+        "lang": "fr",
+        "id": "fr_starter_technology_003"
     },
     {
         "word": "envoyer un SMS",
@@ -4991,12 +5401,14 @@ const data = [
         "v3": "envoyé un SMS",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/ɑ̃.vwa.je œ̃ ɛs.ɛm.ɛs/"
+        "transcription": "/ɑ̃.vwa.je œ̃ ɛs.ɛm.ɛs/",
+        "lang": "fr",
+        "id": "fr_starter_using_smartphone_001"
     },
     {
         "word": "chuchoter",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🤫",
         "form": "verb",
         "definitions": [
@@ -5013,7 +5425,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ʃy.ʃɔ.te/",
-        "v4": "chuchotant"
+        "v4": "chuchotant",
+        "lang": "fr",
+        "id": "fr_starter_school_022"
     },
     {
         "word": "toucher",
@@ -5035,7 +5449,9 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/tu.ʃe/",
-        "v4": "touchant"
+        "v4": "touchant",
+        "lang": "fr",
+        "id": "fr_starter_five_senses_001"
     },
     {
         "word": "allumer",
@@ -5058,8 +5474,12 @@ const data = [
         "v3": "allumé",
         "group": "er",
         "auxiliary": "avoir",
-        "opposite": "éteindre",
-        "v4": "allumant"
+        "v4": "allumant",
+        "lang": "fr",
+        "antonyms": [
+            "éteindre"
+        ],
+        "id": "fr_starter_technology_004"
     },
     {
         "word": "éteindre",
@@ -5082,7 +5502,11 @@ const data = [
         "v3": "éteint",
         "group": "re",
         "auxiliary": "avoir",
-        "opposite": "allumer"
+        "lang": "fr",
+        "antonyms": [
+            "allumer"
+        ],
+        "id": "fr_starter_technology_005"
     },
     {
         "word": "respirer",
@@ -5105,7 +5529,9 @@ const data = [
         "v3": "respiré",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "respirant"
+        "v4": "respirant",
+        "lang": "fr",
+        "id": "fr_starter_health_body_001"
     },
     {
         "word": "tousser",
@@ -5128,7 +5554,9 @@ const data = [
         "v3": "toussé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "toussant"
+        "v4": "toussant",
+        "lang": "fr",
+        "id": "fr_starter_health_medicine_005"
     },
     {
         "word": "éternuer",
@@ -5151,7 +5579,9 @@ const data = [
         "v3": "éternué",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "éternuant"
+        "v4": "éternuant",
+        "lang": "fr",
+        "id": "fr_starter_health_medicine_006"
     },
     {
         "word": "produire",
@@ -5171,7 +5601,10 @@ const data = [
                     "Cette usine produit des voitures."
                 ]
             }
-        ]
+        ],
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_work_employment_001"
     },
     {
         "word": "projeter",
@@ -5192,7 +5625,10 @@ const data = [
                 ]
             }
         ],
-        "v4": "projetant"
+        "v4": "projetant",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_work_employment_002"
     }
 ];
     const lang = "fr";

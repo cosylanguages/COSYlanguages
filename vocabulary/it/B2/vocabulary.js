@@ -8,7 +8,8 @@
         "theme": "health_society",
         "article": "lo",
         "emoji": "🧠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "psicologi",
         "definitions": [
             {
@@ -17,7 +18,8 @@
                     "Lo psicologo aiuta i pazienti."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_politics_governance_003",
@@ -27,7 +29,8 @@
         "theme": "politics_governance",
         "article": "la",
         "emoji": "📑",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "responsabilità",
         "subtext": "obbligo di rendere conto",
         "definitions": [
@@ -37,7 +40,8 @@
                     "C'è poca responsabilità in quell'organizzazione."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_economy_labour_market_001",
@@ -47,7 +51,8 @@
         "theme": "economy_labour_market",
         "article": "l'",
         "emoji": "🥕",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "incentivi",
         "subtext": "incentivo finanziario, stimolo",
         "definitions": [
@@ -57,7 +62,8 @@
                     "Gli incentivi finanziari possono migliorare la produttività."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_employment_law_rights_001",
@@ -67,10 +73,13 @@
         "theme": "employment_law_rights",
         "article": "l'",
         "emoji": "🔓",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "autonomie",
         "subtext": "indipendenza, libertà di scelta",
-        "antonyms": ["dipendenza"],
+        "antonyms": [
+            "dipendenza"
+        ],
         "definitions": [
             {
                 "text": "Il diritto o la capacità di agire in modo indipendente.",
@@ -78,7 +87,8 @@
                     "I dipendenti lavorano meglio quando hanno autonomia."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_economy_labour_market_002",
@@ -88,11 +98,16 @@
         "theme": "economy_labour_market",
         "article": "la",
         "emoji": "🧗",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["instabilità lavorativa"],
-        "antonyms": ["stabilità"],
+        "synonyms": [
+            "instabilità lavorativa"
+        ],
+        "antonyms": [
+            "stabilità"
+        ],
         "definitions": [
             {
                 "text": "Uno stato insicuro e incerto di occupazione o condizioni di vita.",
@@ -100,7 +115,8 @@
                     "La gig economy ha aumentato la precarietà del lavoro."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_gender_equality_001",
@@ -113,7 +129,9 @@
         "form": "noun phrase",
         "plural": "divari retributivi",
         "subtext": "",
-        "synonyms": ["gender pay gap"],
+        "synonyms": [
+            "gender pay gap"
+        ],
         "definitions": [
             {
                 "text": "Una differenza nei guadagni medi tra gruppi, specialmente tra uomini e donne.",
@@ -121,7 +139,8 @@
                     "Il divario retributivo di genere rimane significativo in molti settori."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_employment_law_rights_002",
@@ -134,7 +153,10 @@
         "form": "noun phrase",
         "plural": "pacchetti di licenziamento",
         "subtext": "",
-        "synonyms": ["buonuscita", "indennità"],
+        "synonyms": [
+            "buonuscita",
+            "indennità"
+        ],
         "definitions": [
             {
                 "text": "Il denaro e i benefici concessi quando qualcuno perde il lavoro.",
@@ -142,7 +164,8 @@
                     "Ha ricevuto un generoso pacchetto di licenziamento."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_economy_labour_market_003",
@@ -152,10 +175,13 @@
         "theme": "economy_labour_market",
         "article": "l'",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["spirito imprenditoriale"],
+        "synonyms": [
+            "spirito imprenditoriale"
+        ],
         "definitions": [
             {
                 "text": "L'attività di avviare e gestire un'azienda.",
@@ -163,7 +189,8 @@
                     "L'imprenditorialità richiede assunzione di rischi e creatività."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_economy_labour_market_004",
@@ -173,10 +200,14 @@
         "theme": "economy_labour_market",
         "article": "la",
         "emoji": "⚡",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["efficienza", "rendimento"],
+        "synonyms": [
+            "efficienza",
+            "rendimento"
+        ],
         "definitions": [
             {
                 "text": "Il ritmo con cui vengono prodotti i beni o viene completato il lavoro.",
@@ -184,7 +215,8 @@
                     "Il lavoro a distanza può aumentare la produttività per alcune persone."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_globalisation_trade_001",
@@ -194,10 +226,14 @@
         "theme": "globalisation_trade",
         "article": "l'",
         "emoji": "🌐",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "esternalizzazioni",
         "subtext": "",
-        "synonyms": ["outsourcing", "subappalto"],
+        "synonyms": [
+            "outsourcing",
+            "subappalto"
+        ],
         "definitions": [
             {
                 "text": "Affidare a un'azienda esterna lavori precedentemente svolti internamente.",
@@ -205,7 +241,8 @@
                     "Stanno esternalizzando il servizio clienti per ridurre i costi."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_applied_sciences_engineering_001",
@@ -215,7 +252,8 @@
         "theme": "applied_sciences_engineering",
         "article": "l'",
         "emoji": "🤖",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "automazioni",
         "subtext": "automazione industriale",
         "definitions": [
@@ -225,7 +263,8 @@
                     "L'automazione sta cambiando significativamente il mercato del lavoro."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_housing_society_001",
@@ -235,10 +274,14 @@
         "theme": "housing_society",
         "article": "la",
         "emoji": "🏘️📈",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["riqualificazione urbana", "imborghesimento"],
+        "synonyms": [
+            "riqualificazione urbana",
+            "imborghesimento"
+        ],
         "definitions": [
             {
                 "text": "Processo di trasformazione di un quartiere popolare in zona residenziale di pregio.",
@@ -246,7 +289,8 @@
                     "La gentrificazione ha cambiato il carattere del quartiere."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_housing_society_002",
@@ -259,7 +303,9 @@
         "form": "noun phrase",
         "plural": null,
         "subtext": "",
-        "synonyms": ["edilizia convenzionata"],
+        "synonyms": [
+            "edilizia convenzionata"
+        ],
         "definitions": [
             {
                 "text": "Abitazioni abbastanza economiche da essere affittate o acquistate da persone a basso reddito.",
@@ -267,7 +313,8 @@
                     "La città ha bisogno di più alloggi a prezzi accessibili."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_housing_society_003",
@@ -287,7 +334,8 @@
                     "L'espansione urbana aumenta la dipendenza dall'auto."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_politics_governance_004",
@@ -297,10 +345,13 @@
         "theme": "politics_governance",
         "article": "l'",
         "emoji": "🏗️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "infrastrutture",
         "subtext": "",
-        "synonyms": ["infrastrutture di trasporto"],
+        "synonyms": [
+            "infrastrutture di trasporto"
+        ],
         "definitions": [
             {
                 "text": "I sistemi fisici di base di un paese, come strade e servizi pubblici.",
@@ -308,7 +359,8 @@
                     "L'infrastruttura della città ha bisogno di investimenti."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_politics_governance_005",
@@ -328,7 +380,8 @@
                     "Lo stato sociale fornisce assistenza sanitaria e pensioni."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_politics_governance_006",
@@ -338,7 +391,8 @@
         "theme": "politics_governance",
         "article": "la",
         "emoji": "↔️❌",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "polarizzazioni",
         "subtext": "divisione in due campi opposti",
         "definitions": [
@@ -348,7 +402,8 @@
                     "I social media hanno aumentato la polarizzazione politica."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_formal_debate_vocab_002",
@@ -358,10 +413,13 @@
         "theme": "language",
         "article": "il",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "discorsi",
         "subtext": "",
-        "synonyms": ["dibattito pubblico"],
+        "synonyms": [
+            "dibattito pubblico"
+        ],
         "definitions": [
             {
                 "text": "Comunicazione scritta o parlata su un argomento particolare.",
@@ -369,7 +427,8 @@
                     "Il discorso pubblico sull'immigrazione è molto acceso."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_politics_governance_007",
@@ -382,7 +441,10 @@
         "form": "noun phrase",
         "plural": "esami minuziosi",
         "subtext": "",
-        "synonyms": ["scrutinio", "analisi attenta"],
+        "synonyms": [
+            "scrutinio",
+            "analisi attenta"
+        ],
         "definitions": [
             {
                 "text": "Esame attento e accurato di qualcuno o qualcosa.",
@@ -390,7 +452,8 @@
                     "La decisione del governo è sotto esame minuzioso."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_formal_debate_vocab_003",
@@ -400,10 +463,13 @@
         "theme": "language",
         "article": "il",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "consensi",
         "subtext": "",
-        "synonyms": ["accordo generale"],
+        "synonyms": [
+            "accordo generale"
+        ],
         "definitions": [
             {
                 "text": "Accordo generale tra un gruppo di persone.",
@@ -411,7 +477,8 @@
                     "C'è un crescente consenso sull'azione per il clima."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_politics_governance_008",
@@ -421,10 +488,13 @@
         "theme": "politics_governance",
         "article": "la",
         "emoji": "📜",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "legislazioni",
         "subtext": "",
-        "synonyms": ["insieme di leggi"],
+        "synonyms": [
+            "insieme di leggi"
+        ],
         "definitions": [
             {
                 "text": "Leggi fatte da un governo.",
@@ -432,7 +502,8 @@
                     "La nuova legislazione sulla privacy dei dati è entrata in vigore."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_formal_debate_vocab_004",
@@ -442,11 +513,17 @@
         "theme": "language",
         "article": "il",
         "emoji": "⚖️❌",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "pregiudizi",
         "subtext": "",
-        "synonyms": ["bias", "parzialità"],
-        "antonyms": ["imparzialità"],
+        "synonyms": [
+            "bias",
+            "parzialità"
+        ],
+        "antonyms": [
+            "imparzialità"
+        ],
         "definitions": [
             {
                 "text": "Una tendenza ingiusta a favorire o opporsi a qualcuno o qualcosa.",
@@ -454,7 +531,8 @@
                     "I pregiudizi inconsci possono influenzare le decisioni di assunzione."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_health_society_002",
@@ -464,10 +542,13 @@
         "theme": "health_society",
         "article": "l'",
         "emoji": "⚖️⬆️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["eccesso di peso"],
+        "synonyms": [
+            "eccesso di peso"
+        ],
         "definitions": [
             {
                 "text": "La condizione di essere eccessivamente sovrappeso al punto da danneggiare la salute.",
@@ -475,7 +556,8 @@
                     "I tassi di obesità sono aumentati drasticamente negli ultimi decenni."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_health_society_003",
@@ -495,7 +577,8 @@
                     "L'aspettativa di vita è aumentata nella maggior parte dei paesi."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_politics_governance_009",
@@ -505,10 +588,13 @@
         "theme": "politics_governance",
         "article": "la",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "giustizia sociale, sistema giudiziario",
-        "antonyms": ["ingiustizia"],
+        "antonyms": [
+            "ingiustizia"
+        ],
         "definitions": [
             {
                 "text": "Trattamento equo e qualità di essere giusti.",
@@ -516,7 +602,8 @@
                     "Il sistema giudiziario dovrebbe proteggere tutti i cittadini."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_crime_punishment_001",
@@ -526,10 +613,14 @@
         "theme": "crime_punishment",
         "article": "la",
         "emoji": "🔄🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "riabilitazioni",
         "subtext": "",
-        "synonyms": ["reintegro sociale", "rieducazione"],
+        "synonyms": [
+            "reintegro sociale",
+            "rieducazione"
+        ],
         "definitions": [
             {
                 "text": "Il processo per aiutare qualcuno a tornare a una vita normale dopo un crimine o una malattia.",
@@ -537,7 +628,8 @@
                     "Il carcere dovrebbe concentrarsi sulla riabilitazione."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_politics_governance_010",
@@ -547,10 +639,13 @@
         "theme": "politics_governance",
         "article": "la",
         "emoji": "🪟",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "trasparenze",
         "subtext": "maggiore trasparenza, chiarezza",
-        "antonyms": ["opacità"],
+        "antonyms": [
+            "opacità"
+        ],
         "definitions": [
             {
                 "text": "Essere aperti e onesti riguardo ad azioni e decisioni.",
@@ -558,7 +653,8 @@
                     "Il pubblico chiede maggiore trasparenza ai politici."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_technology_privacy_001",
@@ -568,7 +664,8 @@
         "theme": "technology_privacy",
         "article": "l'",
         "emoji": "💻",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "algoritmi",
         "subtext": "algoritmo informatico",
         "definitions": [
@@ -578,7 +675,8 @@
                     "Gli algoritmi dei social media determinano ciò che vedi."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_technology_privacy_002",
@@ -591,7 +689,9 @@
         "form": "noun phrase",
         "plural": null,
         "subtext": "",
-        "synonyms": ["protezione dei dati"],
+        "synonyms": [
+            "protezione dei dati"
+        ],
         "definitions": [
             {
                 "text": "Il diritto di controllare il modo in cui le informazioni personali vengono raccolte.",
@@ -599,7 +699,8 @@
                     "Le leggi sulla privacy dei dati stanno diventando più severe."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_media_misinformation_001",
@@ -609,7 +710,8 @@
         "theme": "media_misinformation",
         "article": "la",
         "emoji": "🤥",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "fake news, informazioni errate",
         "definitions": [
@@ -619,7 +721,8 @@
                     "I social media possono diffondere rapidamente la disinformazione."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_technology_privacy_003",
@@ -629,7 +732,8 @@
         "theme": "technology_privacy",
         "article": "la",
         "emoji": "📹",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "sorveglianze",
         "subtext": "sorveglianza di massa",
         "definitions": [
@@ -639,7 +743,8 @@
                     "CCTV è una forma di sorveglianza urbana."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_formal_debate_vocab_005",
@@ -650,7 +755,9 @@
         "emoji": "⚖️",
         "form": "conjunction",
         "subtext": "",
-        "synonyms": ["laddove"],
+        "synonyms": [
+            "laddove"
+        ],
         "definitions": [
             {
                 "text": "In contrasto con il fatto che; mentre al contrario.",
@@ -658,7 +765,8 @@
                     "Le città sono costose, mentre i piccoli paesi sono accessibili."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_formal_debate_vocab_006",
@@ -669,7 +777,10 @@
         "emoji": "🏃‍♂️",
         "form": "adverb",
         "subtext": "",
-        "synonyms": ["tuttavia", "nondimeno"],
+        "synonyms": [
+            "tuttavia",
+            "nondimeno"
+        ],
         "definitions": [
             {
                 "text": "Nonostante ciò; malgrado quanto detto.",
@@ -677,7 +788,8 @@
                     "È un compito difficile. Ciononostante, dobbiamo provare."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_formal_debate_vocab_007",
@@ -694,7 +806,8 @@
                     "Fino a che punto l'istruzione determina il successo?"
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_formal_debate_vocab_008",
@@ -705,7 +818,10 @@
         "emoji": "🌓",
         "form": "phrase",
         "subtext": "",
-        "synonyms": ["al contrario", "invece"],
+        "synonyms": [
+            "al contrario",
+            "invece"
+        ],
         "definitions": [
             {
                 "text": "Usato per mostrare una differenza tra due cose.",
@@ -713,7 +829,8 @@
                     "La Svezia ha un lungo congedo parentale. Per contro, gli USA ne hanno pochissimo."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "it_upper_intermediate_technology_privacy_004",
@@ -732,9 +849,10 @@
                     "L'intelligenza artificiale sta cambiando il mondo."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -25,9 +25,10 @@
         "aspect": "action",
         "v3": "ισχυριστούν",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "transcription": ""
     }
-    ];
+];
     const lang = "el";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);

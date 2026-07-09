@@ -18,7 +18,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_language_001"
+        "id": "de_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "Teleologie",
@@ -36,7 +37,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_language_002"
+        "id": "de_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "Ontologie",
@@ -54,7 +56,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_language_003"
+        "id": "de_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "Reifikation",
@@ -72,7 +75,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_language_004"
+        "id": "de_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "Dialektik",
@@ -90,7 +94,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_language_005"
+        "id": "de_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "Heuristik",
@@ -108,7 +113,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_psychology_001"
+        "id": "de_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "Apophenie",
@@ -126,7 +132,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_psychology_002"
+        "id": "de_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "motivierte Kognition",
@@ -143,7 +150,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_psychology_003"
+        "id": "de_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "proaktives Prinzip",
@@ -160,7 +168,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_social_001"
+        "id": "de_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "Vorsorgeprinzip",
@@ -177,7 +186,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_social_002"
+        "id": "de_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "liberale Neutralität",
@@ -194,7 +204,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_social_003"
+        "id": "de_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "Pronatalismus",
@@ -212,7 +223,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_social_004"
+        "id": "de_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "Sublimierung",
@@ -230,7 +242,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_psychology_004"
+        "id": "de_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "Jouissance",
@@ -248,7 +261,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_psychology_005"
+        "id": "de_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "Thanatos",
@@ -266,7 +280,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_psychology_006"
+        "id": "de_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "Bathos",
@@ -284,7 +299,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_art_culture_001"
+        "id": "de_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "Apophase",
@@ -302,7 +318,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_language_006"
+        "id": "de_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "Paralipse",
@@ -320,7 +337,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_language_007"
+        "id": "de_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "liminaler Raum",
@@ -337,7 +355,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_language_008"
+        "id": "de_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "Chiasmus",
@@ -355,7 +374,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_language_009"
+        "id": "de_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "Schibboleth",
@@ -373,7 +393,8 @@
             }
         ],
         "lang": "de",
-        "id": "de_proficiency_language_010"
+        "id": "de_proficiency_language_010",
+        "transcription": ""
     }
 ];
 

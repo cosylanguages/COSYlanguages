@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "macchina",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "macchine",
         "subtext": "guidare una macchina, macchina veloce",
         "definitions": [
@@ -21,16 +23,20 @@
         "partitive": "della",
         "transcription": "ˈmakkina",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_001"
     },
-{
+    {
         "word": "autobus",
         "level": "starter",
         "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "autobus",
         "subtext": "prendere l'autobus, fermata dell'autobus",
         "definitions": [
@@ -44,16 +50,20 @@
         "partitive": "dell'",
         "transcription": "ˈautobus",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_002"
     },
-{
+    {
         "word": "treno",
         "level": "starter",
         "theme": "travel",
         "article": "il",
         "gender": "masculine",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "treni",
         "subtext": "prendere il treno, in treno, stazione",
         "definitions": [
@@ -67,15 +77,19 @@
         "partitive": "del",
         "transcription": "ˈtrɛno",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_003"
     },
-{
+    {
         "word": "tragitto",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "il",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tragitti",
         "definitions": [
             {
@@ -90,16 +104,20 @@
         "transcription": "traˈdʒitto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_004"
     },
-{
+    {
         "word": "viaggio",
         "level": "starter",
         "theme": "travel",
         "article": "il",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "viaggi",
         "definitions": [
             {
@@ -113,16 +131,20 @@
         "transcription": "ˈvjaddʒo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_005"
     },
-{
+    {
         "word": "aereo",
         "level": "starter",
         "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "aerei",
         "subtext": "prendere l'aereo, volo",
         "definitions": [
@@ -136,16 +158,20 @@
         "partitive": "dell'",
         "transcription": "aˈɛreo",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_006"
     },
-{
+    {
         "word": "bicicletta",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚲",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "biciclette",
         "subtext": "bici, andare in bici",
         "definitions": [
@@ -159,16 +185,20 @@
         "partitive": "della",
         "transcription": "bitʃiˈkletta",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_007"
     },
-{
+    {
         "word": "aeroporto",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "aeroporti",
         "definitions": [
             {
@@ -182,16 +212,20 @@
         "transcription": "ˈaeroporto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_008"
     },
-{
+    {
         "word": "barca",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "⛵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "barche",
         "definitions": [
             {
@@ -205,16 +239,20 @@
         "transcription": "ˈbarka",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_009"
     },
-{
+    {
         "word": "viaggiatore",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "il",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "viaggiatori",
         "definitions": [
             {
@@ -228,16 +266,20 @@
         "transcription": "viaddʒaˈtore",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_010"
     },
-{
+    {
         "word": "valigia",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "valigie",
         "definitions": [
             {
@@ -251,16 +293,20 @@
         "transcription": "vaˈlidʒa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_011"
     },
-{
+    {
         "word": "zaino",
         "level": "starter",
         "theme": "travel",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🎒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "zaini",
         "definitions": [
             {
@@ -274,16 +320,20 @@
         "transcription": "ˈdzaino",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_012"
     },
-{
+    {
         "word": "passaporto",
         "level": "starter",
         "theme": "travel",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "passaporti",
         "definitions": [
             {
@@ -297,16 +347,20 @@
         "transcription": "passaˈpɔrto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_013"
     },
-{
+    {
         "word": "mappa",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mappe",
         "definitions": [
             {
@@ -320,16 +374,20 @@
         "transcription": "ˈmappa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_014"
     },
-{
+    {
         "word": "piantina",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "📍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "piantine",
         "definitions": [
             {
@@ -343,16 +401,20 @@
         "transcription": "pjanˈtina",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_015"
     },
-{
+    {
         "word": "fermata dell'autobus",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fermate dell'autobus",
         "definitions": [
             {
@@ -366,16 +428,20 @@
         "transcription": "ferˈmata delˈlautobus",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_016"
     },
-{
+    {
         "word": "banchina",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛤️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "banchine",
         "definitions": [
             {
@@ -389,16 +455,20 @@
         "transcription": "baŋˈkina",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_017"
     },
-{
+    {
         "word": "binario",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛤️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "binari",
         "definitions": [
             {
@@ -412,16 +482,20 @@
         "transcription": "biˈnarjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_018"
     },
-{
+    {
         "word": "metropolitana",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚇",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "metropolitane",
         "definitions": [
             {
@@ -435,16 +509,20 @@
         "transcription": "metropoliˈtana",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_019"
     },
-{
+    {
         "word": "taxi",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "il",
         "gender": "masculine",
         "emoji": "🚕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "taxi",
         "definitions": [
             {
@@ -458,16 +536,20 @@
         "transcription": "ˈtaksi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_020"
     },
-{
+    {
         "word": "velocità",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏎️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "velocità",
         "definitions": [
             {
@@ -481,16 +563,20 @@
         "transcription": "velotʃiˈta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_021"
     },
-{
+    {
         "word": "bagagli",
         "level": "starter",
         "theme": "travel",
         "article": "i",
         "gender": "masculine",
         "emoji": "🧳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bagagli",
         "definitions": [
             {
@@ -504,16 +590,20 @@
         "transcription": "baˈɡaʎʎi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_022"
     },
-{
+    {
         "word": "partenza",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "partenze",
         "definitions": [
             {
@@ -527,16 +617,20 @@
         "transcription": "parˈtɛntsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_023"
     },
-{
+    {
         "word": "arrivo",
         "level": "starter",
         "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛬",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "arrivi",
         "definitions": [
             {
@@ -550,16 +644,20 @@
         "transcription": "arˈrivo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_024"
     },
-{
+    {
         "word": "volo",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "il",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "voli",
         "definitions": [
             {
@@ -573,16 +671,20 @@
         "transcription": "ˈvolo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_025"
     },
-{
+    {
         "word": "prenotazione",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "📖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "prenotazioni",
         "definitions": [
             {
@@ -596,16 +698,20 @@
         "transcription": "prenotatˈtsjone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_026"
     },
-{
+    {
         "word": "camera d'albergo",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "camere d'albergo",
         "definitions": [
             {
@@ -619,16 +725,20 @@
         "transcription": "ˈkamera dalˈbɛrɡo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_027"
     },
-{
+    {
         "word": "reception",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛎️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "reception",
         "definitions": [
             {
@@ -642,16 +752,20 @@
         "transcription": "reˈtʃɛpʃon",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_travel_028"
     },
-{
+    {
         "word": "sinistra",
         "level": "starter",
-        "theme": "directions_navigation",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "⬅️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sinistre",
         "transcription": "siˈnistra",
         "definitions": [
@@ -667,16 +781,20 @@
         "subtext": "",
         "antonyms": [
             "destra"
-        ]
+        ],
+        "lang": "it",
+        "id": "it_starter_travel_029"
     },
-{
+    {
         "word": "destra",
         "level": "starter",
-        "theme": "directions_navigation",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "➡️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "destre",
         "transcription": "ˈdɛstra",
         "definitions": [
@@ -692,9 +810,11 @@
         "subtext": "",
         "antonyms": [
             "sinistra"
-        ]
+        ],
+        "lang": "it",
+        "id": "it_starter_travel_030"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

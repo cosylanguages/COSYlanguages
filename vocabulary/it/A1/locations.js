@@ -14,7 +14,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_001"
     },
     {
         "word": "Italia",
@@ -29,7 +32,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_002"
     },
     {
         "word": "Russia",
@@ -44,7 +50,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_003"
     },
     {
         "word": "Grecia",
@@ -59,7 +68,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_004"
     },
     {
         "word": "Inghilterra",
@@ -74,7 +86,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_005"
     },
     {
         "word": "Spagna",
@@ -89,7 +104,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_006"
     },
     {
         "word": "Stati Uniti",
@@ -104,7 +122,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_007"
     },
     {
         "word": "Germania",
@@ -119,7 +140,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_008"
     },
     {
         "word": "Giappone",
@@ -134,7 +158,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_009"
     },
     {
         "word": "Cina",
@@ -149,7 +176,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_010"
     },
     {
         "word": "Canada",
@@ -164,7 +194,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_011"
     },
     {
         "word": "Brasile",
@@ -179,7 +212,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_012"
     },
     {
         "word": "Australia",
@@ -194,7 +230,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_013"
     },
     {
         "word": "Egitto",
@@ -209,7 +248,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_014"
     },
     {
         "word": "India",
@@ -224,7 +266,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_015"
     },
     {
         "word": "Messico",
@@ -239,7 +284,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_016"
     },
     {
         "word": "Argentina",
@@ -254,7 +302,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_017"
     },
     {
         "word": "Perù",
@@ -269,7 +320,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_018"
     },
     {
         "word": "Portogallo",
@@ -284,7 +338,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_019"
     },
     {
         "word": "Svizzera",
@@ -299,7 +356,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_020"
     },
     {
         "word": "Austria",
@@ -314,7 +374,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_021"
     },
     {
         "word": "Belgio",
@@ -329,7 +392,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_022"
     },
     {
         "word": "Paesi Bassi",
@@ -344,7 +410,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_023"
     },
     {
         "word": "Svezia",
@@ -359,7 +428,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_024"
     },
     {
         "word": "Norvegia",
@@ -374,7 +446,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_025"
     },
     {
         "word": "Irlanda",
@@ -389,7 +464,10 @@
         ],
         "subtext": "paese",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_026"
     },
     {
         "word": "Roma",
@@ -404,7 +482,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_027"
     },
     {
         "word": "Milano",
@@ -419,7 +500,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_028"
     },
     {
         "word": "Venezia",
@@ -434,7 +518,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_029"
     },
     {
         "word": "Firenze",
@@ -449,7 +536,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_030"
     },
     {
         "word": "Napoli",
@@ -464,7 +554,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_031"
     },
     {
         "word": "Parigi",
@@ -479,7 +572,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_032"
     },
     {
         "word": "Londra",
@@ -494,7 +590,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_033"
     },
     {
         "word": "Madrid",
@@ -509,7 +608,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_034"
     },
     {
         "word": "Berlino",
@@ -524,7 +626,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_035"
     },
     {
         "word": "Tokyo",
@@ -539,7 +644,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_036"
     },
     {
         "word": "Pechino",
@@ -554,7 +662,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_037"
     },
     {
         "word": "Mosca",
@@ -569,7 +680,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_038"
     },
     {
         "word": "New York",
@@ -584,7 +698,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_039"
     },
     {
         "word": "Los Angeles",
@@ -599,7 +716,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_040"
     },
     {
         "word": "Barcellona",
@@ -614,7 +734,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_041"
     },
     {
         "word": "Amsterdam",
@@ -629,7 +752,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_042"
     },
     {
         "word": "Vienna",
@@ -644,7 +770,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_043"
     },
     {
         "word": "Praga",
@@ -659,7 +788,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_044"
     },
     {
         "word": "Dublino",
@@ -674,7 +806,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_045"
     },
     {
         "word": "Lisbona",
@@ -689,7 +824,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_046"
     },
     {
         "word": "Zurigo",
@@ -704,7 +842,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_047"
     },
     {
         "word": "Chicago",
@@ -719,7 +860,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_048"
     },
     {
         "word": "San Francisco",
@@ -734,7 +878,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_049"
     },
     {
         "word": "Miami",
@@ -749,7 +896,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_050"
     },
     {
         "word": "Washington",
@@ -764,7 +914,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_051"
     },
     {
         "word": "Sydney",
@@ -779,7 +932,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_052"
     },
     {
         "word": "Toronto",
@@ -794,7 +950,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_053"
     },
     {
         "word": "Città del Messico",
@@ -809,7 +968,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_054"
     },
     {
         "word": "Istanbul",
@@ -824,7 +986,10 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_055"
     },
     {
         "word": "Ginevra",
@@ -839,12 +1004,12 @@
         ],
         "subtext": "città",
         "level": "starter",
-        "theme": "places"
+        "theme": "places",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_places_056"
     }
-]
-    const lang = "it";
-    window.locationsData = window.locationsData || {};
-    window.locationsData[lang] = [...(window.locationsData[lang] || []), ...data];
+];
     if (window.vocabularyData) {
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }

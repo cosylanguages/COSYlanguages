@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "studente",
         "level": "starter",
         "theme": "school",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🧑‍🎓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "studenti",
         "definitions": [
             {
@@ -21,16 +23,20 @@
         "transcription": "stuˈdɛnte",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_001"
     },
-{
+    {
         "word": "compagno di classe",
         "level": "starter",
         "theme": "school",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "compagni di classe",
         "definitions": [
             {
@@ -44,16 +50,20 @@
         "transcription": "komˈpaɲɲo di ˈklasse",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_002"
     },
-{
+    {
         "word": "università",
         "level": "starter",
         "theme": "types_of_education",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "università",
         "definitions": [
             {
@@ -67,16 +77,20 @@
         "transcription": "universiˈta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_types_of_education_001"
     },
-{
+    {
         "word": "lingua",
         "level": "starter",
         "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lingue",
         "definitions": [
             {
@@ -94,16 +108,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "lingua"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_school_003"
     },
-{
+    {
         "word": "parola",
         "level": "starter",
         "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "📝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "parole",
         "definitions": [
             {
@@ -117,16 +135,20 @@
         "transcription": "paˈrɔla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_004"
     },
-{
+    {
         "word": "frase",
         "level": "starter",
         "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "📝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "frasi",
         "definitions": [
             {
@@ -140,16 +162,20 @@
         "transcription": "ˈfraze",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_005"
     },
-{
+    {
         "word": "errore",
         "level": "starter",
         "theme": "school",
         "article": "l'",
         "gender": "masculine",
         "emoji": "❌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "errori",
         "definitions": [
             {
@@ -163,16 +189,20 @@
         "transcription": "ˈerrore",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_006"
     },
-{
+    {
         "word": "sbaglio",
         "level": "starter",
         "theme": "school",
         "article": "lo",
         "gender": "masculine",
         "emoji": "⚠️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sbagli",
         "definitions": [
             {
@@ -186,16 +216,20 @@
         "transcription": "ˈzbaʎʎo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_007"
     },
-{
+    {
         "word": "quaderno",
         "level": "starter",
         "theme": "school_stationery",
         "article": "il",
         "gender": "masculine",
         "emoji": "📓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "quaderni",
         "transcription": "kwaˈdɛrno",
         "definitions": [
@@ -209,16 +243,20 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_stationery_001"
     },
-{
+    {
         "word": "gomma",
         "level": "starter",
         "theme": "school_stationery",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gomme",
         "transcription": "ˈɡɔmma",
         "definitions": [
@@ -232,16 +270,20 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_stationery_002"
     },
-{
+    {
         "word": "lezione",
         "level": "starter",
         "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lezioni",
         "transcription": "letˈtsjone",
         "definitions": [
@@ -255,16 +297,20 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_008"
     },
-{
+    {
         "word": "classe",
         "level": "starter",
         "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "classi",
         "transcription": "ˈklasse",
         "definitions": [
@@ -278,16 +324,20 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_009"
     },
-{
+    {
         "word": "compiti",
         "level": "starter",
         "theme": "school",
         "article": "i",
         "gender": "masculine",
         "emoji": "📝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "compiti",
         "transcription": "ˈkompiti",
         "definitions": [
@@ -301,16 +351,20 @@
         "partitive": "dei",
         "synonyms": [],
         "subtext": "compiti a casa",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_010"
     },
-{
+    {
         "word": "esame",
         "level": "starter",
         "theme": "school",
         "article": "l'",
         "gender": "masculine",
         "emoji": "📝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "esami",
         "transcription": "eˈzame",
         "definitions": [
@@ -324,16 +378,20 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_011"
     },
-{
+    {
         "word": "alfabeto",
         "level": "starter",
         "theme": "school",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🔤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "alfabeti",
         "transcription": "alfaˈbɛto",
         "definitions": [
@@ -347,16 +405,20 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_012"
     },
-{
+    {
         "word": "aula",
         "level": "starter",
         "theme": "school",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "aule",
         "transcription": "ˈaula",
         "definitions": [
@@ -370,16 +432,20 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_013"
     },
-{
+    {
         "word": "dizionario",
         "level": "starter",
         "theme": "school",
         "article": "il",
         "gender": "masculine",
         "emoji": "📕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dizionari",
         "transcription": "dittsjoˈnarjo",
         "definitions": [
@@ -395,16 +461,20 @@
             "vocabolario"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_014"
     },
-{
+    {
         "word": "lettera",
         "level": "starter",
         "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "✉️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lettere",
         "transcription": "ˈlɛttera",
         "definitions": [
@@ -418,16 +488,20 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_015"
     },
-{
+    {
         "word": "astuccio",
         "level": "starter",
         "theme": "school_stationery",
         "article": "l'",
         "gender": "masculine",
         "emoji": "✏️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "astucci",
         "transcription": "asˈtuttʃo",
         "definitions": [
@@ -441,14 +515,18 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_stationery_003"
     },
-{
+    {
         "word": "matematica",
         "level": "starter",
         "theme": "school",
         "emoji": "🔢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "definitions": [
@@ -462,14 +540,18 @@
         ],
         "transcription": "mateˈmatika",
         "partitive": "della",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_school_016"
     },
-{
+    {
         "word": "storia",
         "level": "starter",
         "theme": "school",
         "emoji": "📜",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "definitions": [
@@ -483,14 +565,18 @@
         ],
         "transcription": "ˈstɔrja",
         "partitive": "della",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_school_017"
     },
-{
+    {
         "word": "scienza",
         "level": "starter",
         "theme": "school",
         "emoji": "🧪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "definitions": [
@@ -504,14 +590,18 @@
         ],
         "transcription": "ˈʃɛntsa",
         "partitive": "della",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_school_018"
     },
-{
+    {
         "word": "geografia",
         "level": "starter",
         "theme": "school",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "definitions": [
@@ -525,14 +615,18 @@
         ],
         "transcription": "dʒeograˈfia",
         "partitive": "della",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_school_019"
     },
-{
+    {
         "word": "righello",
         "level": "starter",
         "theme": "school_stationery",
         "emoji": "📏",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "righelli",
@@ -547,16 +641,20 @@
         ],
         "transcription": "riˈɡɛllo",
         "partitive": "del",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_school_stationery_004"
     },
-{
+    {
         "word": "esempio",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "article": "l'",
         "gender": "masculine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "esempi",
         "partitive": "dell'",
         "transcription": "eˈzɛmpjo",
@@ -571,9 +669,11 @@
         ],
         "synonyms": [],
         "subtext": "per esempio",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_school_020"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

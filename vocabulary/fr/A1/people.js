@@ -15,7 +15,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_people_001"
     },
     {
         "word": "Zinedine Zidane",
@@ -31,7 +34,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_people_002"
     },
     {
         "word": "Victor Hugo",
@@ -47,7 +53,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_people_003"
     },
     {
         "word": "Marie Curie",
@@ -63,7 +72,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_people_004"
     },
     {
         "word": "Édith Piaf",
@@ -79,7 +91,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_people_005"
     },
     {
         "word": "Louis Pasteur",
@@ -95,7 +110,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_people_006"
     },
     {
         "word": "Claude Monet",
@@ -111,7 +129,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_people_007"
     },
     {
         "word": "Jeanne d'Arc",
@@ -127,7 +148,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_people_008"
     },
     {
         "word": "Molière",
@@ -143,7 +167,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_people_009"
     },
     {
         "word": "Gustave Eiffel",
@@ -159,7 +186,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_people_010"
     },
     {
         "word": "Coco Chanel",
@@ -175,12 +205,12 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_people_011"
     }
-]
-    const lang = "fr";
-    window.peopleData = window.peopleData || {};
-    window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
+];
     if (window.vocabularyData) {
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }

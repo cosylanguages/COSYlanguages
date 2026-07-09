@@ -15,7 +15,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_people_001"
     },
     {
         "word": "Dante Alighieri",
@@ -31,7 +34,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_people_002"
     },
     {
         "word": "Michelangelo Buonarroti",
@@ -47,7 +53,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_people_003"
     },
     {
         "word": "Galileo Galilei",
@@ -63,7 +72,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_people_004"
     },
     {
         "word": "Cristoforo Colombo",
@@ -79,7 +91,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_people_005"
     },
     {
         "word": "Marco Polo",
@@ -95,7 +110,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_people_006"
     },
     {
         "word": "Luciano Pavarotti",
@@ -111,7 +129,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_people_007"
     },
     {
         "word": "Federico Fellini",
@@ -127,7 +148,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_people_008"
     },
     {
         "word": "Enzo Ferrari",
@@ -143,7 +167,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_people_009"
     },
     {
         "word": "Sophia Loren",
@@ -159,7 +186,10 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_people_010"
     },
     {
         "word": "Guglielmo Marconi",
@@ -175,12 +205,12 @@
         ],
         "level": "starter",
         "theme": "people",
-        "form": "noun"
+        "form": "noun",
+        "lang": "it",
+        "emoji": "✨",
+        "id": "it_starter_people_011"
     }
-]
-    const lang = "it";
-    window.peopleData = window.peopleData || {};
-    window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
+];
     if (window.vocabularyData) {
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }

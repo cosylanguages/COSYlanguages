@@ -13,7 +13,8 @@
         "auxiliary": "avere",
         "v4": "infrastruttando",
         "lang": "it",
-        "id": "it_advanced_science_tech_society_c1_verb_infrastruttura"
+        "id": "it_advanced_science_tech_society_c1_verb_infrastruttura",
+        "transcription": ""
     }
 ];
     const lang = "it";

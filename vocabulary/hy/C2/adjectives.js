@@ -15,7 +15,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_001"
+        "id": "hy_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "հերմենևտիկ",
@@ -30,7 +31,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_002"
+        "id": "hy_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "նույնաբանական",
@@ -45,7 +47,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_003"
+        "id": "hy_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "բազմիմաստ",
@@ -60,7 +63,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_004"
+        "id": "hy_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "հևրիստիկ",
@@ -75,7 +79,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_001"
+        "id": "hy_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "հետգաղութային",
@@ -90,7 +95,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_001"
+        "id": "hy_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "բազմաբևեռ",
@@ -105,7 +111,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_002"
+        "id": "hy_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "կոսմոպոլիտ",
@@ -120,7 +127,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_003"
+        "id": "hy_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "նարցիսիստական",
@@ -135,7 +143,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_002"
+        "id": "hy_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "հերետիկոսական",
@@ -150,7 +159,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_005"
+        "id": "hy_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "ներհատուկ",
@@ -165,7 +175,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_006"
+        "id": "hy_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "կտրուկ",
@@ -180,7 +191,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_007"
+        "id": "hy_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "խրթին",
@@ -195,7 +207,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_003"
+        "id": "hy_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "անախրոնիկ",
@@ -210,7 +223,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_time_001"
+        "id": "hy_proficiency_time_001",
+        "transcription": ""
     },
     {
         "word": "հակաթեթիկ",
@@ -225,7 +239,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_008"
+        "id": "hy_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "արկանային",
@@ -240,7 +255,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_004"
+        "id": "hy_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "ոչ տիպիկ",
@@ -255,7 +271,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_009"
+        "id": "hy_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "բինար",
@@ -270,7 +287,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_010"
+        "id": "hy_proficiency_language_010",
+        "transcription": ""
     },
     {
         "word": "կատեգորիկ",
@@ -285,7 +303,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_011"
+        "id": "hy_proficiency_language_011",
+        "transcription": ""
     },
     {
         "word": "շրջահայաց",
@@ -300,7 +319,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_004"
+        "id": "hy_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "գաղտնի",
@@ -315,7 +335,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_005"
+        "id": "hy_proficiency_social_005",
+        "transcription": ""
     },
     {
         "word": "դիալեկտիկական",
@@ -330,7 +351,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_012"
+        "id": "hy_proficiency_language_012",
+        "transcription": ""
     },
     {
         "word": "դիֆուզ",
@@ -345,7 +367,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_013"
+        "id": "hy_proficiency_language_013",
+        "transcription": ""
     },
     {
         "word": "դժվարորսալի",
@@ -360,7 +383,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_005"
+        "id": "hy_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "էզոթերիկ",
@@ -375,7 +399,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_006"
+        "id": "hy_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "սխալական",
@@ -390,7 +415,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_014"
+        "id": "hy_proficiency_language_014",
+        "transcription": ""
     },
     {
         "word": "անփոփոխ",
@@ -405,7 +431,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_015"
+        "id": "hy_proficiency_language_015",
+        "transcription": ""
     },
     {
         "word": "անկողմնակալ",
@@ -420,7 +447,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_006"
+        "id": "hy_proficiency_social_006",
+        "transcription": ""
     },
     {
         "word": "պատահական",
@@ -435,7 +463,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_016"
+        "id": "hy_proficiency_language_016",
+        "transcription": ""
     },
     {
         "word": "բնածին",
@@ -450,7 +479,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_017"
+        "id": "hy_proficiency_language_017",
+        "transcription": ""
     },
     {
         "word": "աննման",
@@ -465,7 +495,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_art_culture_001"
+        "id": "hy_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "նենգ",
@@ -480,7 +511,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_007"
+        "id": "hy_proficiency_social_007",
+        "transcription": ""
     },
     {
         "word": "անհաշտելի",
@@ -495,7 +527,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_018"
+        "id": "hy_proficiency_language_018",
+        "transcription": ""
     },
     {
         "word": "լիմինալ",
@@ -510,7 +543,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_019"
+        "id": "hy_proficiency_language_019",
+        "transcription": ""
     },
     {
         "word": "բազմազան",
@@ -525,7 +559,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_020"
+        "id": "hy_proficiency_language_020",
+        "transcription": ""
     },
     {
         "word": "մշուշոտ",
@@ -540,7 +575,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_007"
+        "id": "hy_proficiency_psychology_007",
+        "transcription": ""
     },
     {
         "word": "նորմատիվ",
@@ -555,7 +591,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_008"
+        "id": "hy_proficiency_social_008",
+        "transcription": ""
     },
     {
         "word": "նրբերանգային",
@@ -570,7 +607,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_021"
+        "id": "hy_proficiency_language_021",
+        "transcription": ""
     },
     {
         "word": "անուղղակի",
@@ -585,7 +623,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_022"
+        "id": "hy_proficiency_language_022",
+        "transcription": ""
     },
     {
         "word": "անթափանց",
@@ -600,7 +639,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_023"
+        "id": "hy_proficiency_language_023",
+        "transcription": ""
     },
     {
         "word": "թվացյալ",
@@ -615,7 +655,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_024"
+        "id": "hy_proficiency_language_024",
+        "transcription": ""
     },
     {
         "word": "պարադոքսալ",
@@ -630,7 +671,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_025"
+        "id": "hy_proficiency_language_025",
+        "transcription": ""
     },
     {
         "word": "համատարած",
@@ -645,7 +687,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_time_002"
+        "id": "hy_proficiency_time_002",
+        "transcription": ""
     },
     {
         "word": "բևեռացնող",
@@ -660,7 +703,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_009"
+        "id": "hy_proficiency_social_009",
+        "transcription": ""
     },
     {
         "word": "երերուն",
@@ -675,7 +719,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_026"
+        "id": "hy_proficiency_language_026",
+        "transcription": ""
     },
     {
         "word": "պրեսկրիպտիվ",
@@ -690,7 +735,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_027"
+        "id": "hy_proficiency_language_027",
+        "transcription": ""
     },
     {
         "word": "ձգձգված",
@@ -705,7 +751,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_time_003"
+        "id": "hy_proficiency_time_003",
+        "transcription": ""
     },
     {
         "word": "ռեդուկտիվ",
@@ -720,7 +767,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_028"
+        "id": "hy_proficiency_language_028",
+        "transcription": ""
     },
     {
         "word": "հիմնարար",
@@ -735,7 +783,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_time_004"
+        "id": "hy_proficiency_time_004",
+        "transcription": ""
     },
     {
         "word": "թվացյալ հիմնավոր",
@@ -750,7 +799,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_029"
+        "id": "hy_proficiency_language_029",
+        "transcription": ""
     },
     {
         "word": "կեղծ",
@@ -765,7 +815,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_030"
+        "id": "hy_proficiency_language_030",
+        "transcription": ""
     },
     {
         "word": "քայքայիչ",
@@ -780,7 +831,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_010"
+        "id": "hy_proficiency_social_010",
+        "transcription": ""
     },
     {
         "word": "լռելյայն",
@@ -795,7 +847,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_031"
+        "id": "hy_proficiency_language_031",
+        "transcription": ""
     },
     {
         "word": "թույլ",
@@ -810,7 +863,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_032"
+        "id": "hy_proficiency_language_032",
+        "transcription": ""
     },
     {
         "word": "անցողիկ",
@@ -825,7 +879,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_time_005"
+        "id": "hy_proficiency_time_005",
+        "transcription": ""
     },
     {
         "word": "ամենուրեք",
@@ -840,7 +895,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_time_006"
+        "id": "hy_proficiency_time_006",
+        "transcription": ""
     },
     {
         "word": "միանշանակ",
@@ -855,7 +911,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_033"
+        "id": "hy_proficiency_language_033",
+        "transcription": ""
     },
     {
         "word": "աննախադեպ",
@@ -870,7 +927,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_time_007"
+        "id": "hy_proficiency_time_007",
+        "transcription": ""
     },
     {
         "word": "անհիմն",
@@ -885,7 +943,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_034"
+        "id": "hy_proficiency_language_034",
+        "transcription": ""
     },
     {
         "word": "ծանրաշարժ",
@@ -900,7 +959,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_035"
+        "id": "hy_proficiency_language_035",
+        "transcription": ""
     }
 ];
 

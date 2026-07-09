@@ -15,7 +15,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_001"
+        "id": "ba_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "герменевтик",
@@ -30,7 +31,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_002"
+        "id": "ba_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "тавтологик",
@@ -45,7 +47,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_003"
+        "id": "ba_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "күпмәғәнәле",
@@ -60,7 +63,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_004"
+        "id": "ba_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "эвристик",
@@ -75,7 +79,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_001"
+        "id": "ba_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "постколониаль",
@@ -90,7 +95,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_001"
+        "id": "ba_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "күпполярлы",
@@ -105,7 +111,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_002"
+        "id": "ba_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "космополитик",
@@ -120,7 +127,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_003"
+        "id": "ba_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "нарциссик",
@@ -135,7 +143,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_002"
+        "id": "ba_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "гетеродокс",
@@ -150,7 +159,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_005"
+        "id": "ba_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "имманент",
@@ -165,7 +175,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_006"
+        "id": "ba_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "киҫкен",
@@ -180,7 +191,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_007"
+        "id": "ba_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "аңлайышһыҙ",
@@ -195,7 +207,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_003"
+        "id": "ba_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "анахроник",
@@ -210,7 +223,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_time_001"
+        "id": "ba_proficiency_time_001",
+        "transcription": ""
     },
     {
         "word": "антитетик",
@@ -225,7 +239,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_008"
+        "id": "ba_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "арканлы",
@@ -240,7 +255,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_004"
+        "id": "ba_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "атипик",
@@ -255,7 +271,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_009"
+        "id": "ba_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "бинар",
@@ -270,7 +287,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_010"
+        "id": "ba_proficiency_language_010",
+        "transcription": ""
     },
     {
         "word": "категорик",
@@ -285,7 +303,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_011"
+        "id": "ba_proficiency_language_011",
+        "transcription": ""
     },
     {
         "word": "һаҡ",
@@ -300,7 +319,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_004"
+        "id": "ba_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "йәшерен",
@@ -315,7 +335,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_005"
+        "id": "ba_proficiency_social_005",
+        "transcription": ""
     },
     {
         "word": "диалектик",
@@ -330,7 +351,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_012"
+        "id": "ba_proficiency_language_012",
+        "transcription": ""
     },
     {
         "word": "диффуз",
@@ -345,7 +367,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_013"
+        "id": "ba_proficiency_language_013",
+        "transcription": ""
     },
     {
         "word": "тотоп булмай торған",
@@ -360,7 +383,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_005"
+        "id": "ba_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "эзотерик",
@@ -375,7 +399,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_006"
+        "id": "ba_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "хаталы",
@@ -390,7 +415,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_014"
+        "id": "ba_proficiency_language_014",
+        "transcription": ""
     },
     {
         "word": "үҙгәрмәҫ",
@@ -405,7 +431,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_015"
+        "id": "ba_proficiency_language_015",
+        "transcription": ""
     },
     {
         "word": "тарафһыҙ",
@@ -420,7 +447,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_006"
+        "id": "ba_proficiency_social_006",
+        "transcription": ""
     },
     {
         "word": "өҫтәмә",
@@ -435,7 +463,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_016"
+        "id": "ba_proficiency_language_016",
+        "transcription": ""
     },
     {
         "word": "хас булған",
@@ -450,7 +479,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_017"
+        "id": "ba_proficiency_language_017",
+        "transcription": ""
     },
     {
         "word": "ҡабатланмаҫ",
@@ -465,7 +495,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_art_culture_001"
+        "id": "ba_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "хәйләкәр",
@@ -480,7 +511,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_007"
+        "id": "ba_proficiency_social_007",
+        "transcription": ""
     },
     {
         "word": "килешмәҫ",
@@ -495,7 +527,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_018"
+        "id": "ba_proficiency_language_018",
+        "transcription": ""
     },
     {
         "word": "лиминаль",
@@ -510,7 +543,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_019"
+        "id": "ba_proficiency_language_019",
+        "transcription": ""
     },
     {
         "word": "төрлө-төрлө",
@@ -525,7 +559,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_020"
+        "id": "ba_proficiency_language_020",
+        "transcription": ""
     },
     {
         "word": "томанлы",
@@ -540,7 +575,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_007"
+        "id": "ba_proficiency_psychology_007",
+        "transcription": ""
     },
     {
         "word": "норматив",
@@ -555,7 +591,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_008"
+        "id": "ba_proficiency_social_008",
+        "transcription": ""
     },
     {
         "word": "төҫмәрле",
@@ -570,7 +607,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_021"
+        "id": "ba_proficiency_language_021",
+        "transcription": ""
     },
     {
         "word": "туры булмаған",
@@ -585,7 +623,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_022"
+        "id": "ba_proficiency_language_022",
+        "transcription": ""
     },
     {
         "word": "асыҡ булмаған",
@@ -600,7 +639,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_023"
+        "id": "ba_proficiency_language_023",
+        "transcription": ""
     },
     {
         "word": "ялған",
@@ -615,7 +655,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_024"
+        "id": "ba_proficiency_language_024",
+        "transcription": ""
     },
     {
         "word": "парадоксаль",
@@ -630,7 +671,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_025"
+        "id": "ba_proficiency_language_025",
+        "transcription": ""
     },
     {
         "word": "киң таралған",
@@ -645,7 +687,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_time_002"
+        "id": "ba_proficiency_time_002",
+        "transcription": ""
     },
     {
         "word": "поляризациялаусы",
@@ -660,7 +703,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_009"
+        "id": "ba_proficiency_social_009",
+        "transcription": ""
     },
     {
         "word": "тотрыҡһыҙ",
@@ -675,7 +719,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_026"
+        "id": "ba_proficiency_language_026",
+        "transcription": ""
     },
     {
         "word": "прескриптив",
@@ -690,7 +735,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_027"
+        "id": "ba_proficiency_language_027",
+        "transcription": ""
     },
     {
         "word": "һуҙылған",
@@ -705,7 +751,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_time_003"
+        "id": "ba_proficiency_time_003",
+        "transcription": ""
     },
     {
         "word": "редуктив",
@@ -720,7 +767,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_028"
+        "id": "ba_proficiency_language_028",
+        "transcription": ""
     },
     {
         "word": "нигеҙ һалыусы",
@@ -735,7 +783,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_time_004"
+        "id": "ba_proficiency_time_004",
+        "transcription": ""
     },
     {
         "word": "ялған сылтаулы",
@@ -750,7 +799,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_029"
+        "id": "ba_proficiency_language_029",
+        "transcription": ""
     },
     {
         "word": "уйҙырма",
@@ -765,7 +815,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_030"
+        "id": "ba_proficiency_language_030",
+        "transcription": ""
     },
     {
         "word": "җимергеч",
@@ -780,7 +831,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_010"
+        "id": "ba_proficiency_social_010",
+        "transcription": ""
     },
     {
         "word": "әйтелмәгән",
@@ -795,7 +847,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_031"
+        "id": "ba_proficiency_language_031",
+        "transcription": ""
     },
     {
         "word": "йомшаҡ",
@@ -810,7 +863,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_032"
+        "id": "ba_proficiency_language_032",
+        "transcription": ""
     },
     {
         "word": "үткенсе",
@@ -825,7 +879,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_time_005"
+        "id": "ba_proficiency_time_005",
+        "transcription": ""
     },
     {
         "word": "һәрҡайҙағы",
@@ -840,7 +895,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_time_006"
+        "id": "ba_proficiency_time_006",
+        "transcription": ""
     },
     {
         "word": "бермәғәнәле",
@@ -855,7 +911,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_033"
+        "id": "ba_proficiency_language_033",
+        "transcription": ""
     },
     {
         "word": "күрелмәгән",
@@ -870,7 +927,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_time_007"
+        "id": "ba_proficiency_time_007",
+        "transcription": ""
     },
     {
         "word": "нигеҙһеҙ",
@@ -885,7 +943,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_034"
+        "id": "ba_proficiency_language_034",
+        "transcription": ""
     },
     {
         "word": "айҡашлы",
@@ -900,7 +959,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_035"
+        "id": "ba_proficiency_language_035",
+        "transcription": ""
     }
 ];
 

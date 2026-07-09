@@ -25,9 +25,10 @@
         "aspect": "action",
         "v3": "sostenuto",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "transcription": ""
     }
-    ];
+];
     const lang = "it";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);

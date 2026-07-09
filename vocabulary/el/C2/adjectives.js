@@ -15,7 +15,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_001"
+        "id": "el_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "ερμηνευτικός",
@@ -30,7 +31,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_002"
+        "id": "el_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "ταυτολογικός",
@@ -45,7 +47,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_003"
+        "id": "el_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "πολύσημος",
@@ -60,7 +63,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_004"
+        "id": "el_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "ευρετικός",
@@ -75,7 +79,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_001"
+        "id": "el_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "μετα-αποικιακός",
@@ -90,7 +95,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_001"
+        "id": "el_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "πολυπολικός",
@@ -105,7 +111,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_002"
+        "id": "el_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "κοσμοπολίτικος",
@@ -120,7 +127,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_003"
+        "id": "el_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "ναρκισσιστικός",
@@ -135,7 +143,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_002"
+        "id": "el_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "ετερόδοξος",
@@ -150,7 +159,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_005"
+        "id": "el_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "εγγενής",
@@ -165,7 +175,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_006"
+        "id": "el_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "απότομος",
@@ -180,7 +191,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_007"
+        "id": "el_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "δυσνόητος",
@@ -195,7 +207,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_003"
+        "id": "el_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "αναχρονιστικός",
@@ -210,7 +223,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_time_001"
+        "id": "el_proficiency_time_001",
+        "transcription": ""
     },
     {
         "word": "αντιθετικός",
@@ -225,7 +239,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_008"
+        "id": "el_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "απόκρυφος",
@@ -240,7 +255,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_004"
+        "id": "el_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "άτυπος",
@@ -255,7 +271,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_009"
+        "id": "el_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "δυαδικός",
@@ -270,7 +287,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_010"
+        "id": "el_proficiency_language_010",
+        "transcription": ""
     },
     {
         "word": "κατηγορηματικός",
@@ -285,7 +303,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_011"
+        "id": "el_proficiency_language_011",
+        "transcription": ""
     },
     {
         "word": "περίσκεπτος",
@@ -300,7 +319,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_004"
+        "id": "el_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "κρυφός",
@@ -315,7 +335,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_005"
+        "id": "el_proficiency_social_005",
+        "transcription": ""
     },
     {
         "word": "διαλεκτικός",
@@ -330,7 +351,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_012"
+        "id": "el_proficiency_language_012",
+        "transcription": ""
     },
     {
         "word": "διάχυτος",
@@ -345,7 +367,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_013"
+        "id": "el_proficiency_language_013",
+        "transcription": ""
     },
     {
         "word": "ασύλληπτος",
@@ -360,7 +383,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_005"
+        "id": "el_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "εσωτερικός",
@@ -375,7 +399,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_006"
+        "id": "el_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "εσφαλμένος",
@@ -390,7 +415,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_014"
+        "id": "el_proficiency_language_014",
+        "transcription": ""
     },
     {
         "word": "αμετάβλητος",
@@ -405,7 +431,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_015"
+        "id": "el_proficiency_language_015",
+        "transcription": ""
     },
     {
         "word": "αμερόληπτος",
@@ -420,7 +447,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_006"
+        "id": "el_proficiency_social_006",
+        "transcription": ""
     },
     {
         "word": "συμπτωματικός",
@@ -435,7 +463,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_016"
+        "id": "el_proficiency_language_016",
+        "transcription": ""
     },
     {
         "word": "εμφυτος",
@@ -450,7 +479,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_017"
+        "id": "el_proficiency_language_017",
+        "transcription": ""
     },
     {
         "word": "απαράμιλλος",
@@ -465,7 +495,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_art_culture_001"
+        "id": "el_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "ύπουλος",
@@ -480,7 +511,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_007"
+        "id": "el_proficiency_social_007",
+        "transcription": ""
     },
     {
         "word": "ασυμβίβαστος",
@@ -495,7 +527,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_018"
+        "id": "el_proficiency_language_018",
+        "transcription": ""
     },
     {
         "word": "μεταιχμιακός",
@@ -510,7 +543,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_019"
+        "id": "el_proficiency_language_019",
+        "transcription": ""
     },
     {
         "word": "πολλαπλός",
@@ -525,7 +559,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_020"
+        "id": "el_proficiency_language_020",
+        "transcription": ""
     },
     {
         "word": "νεφελώδης",
@@ -540,7 +575,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_007"
+        "id": "el_proficiency_psychology_007",
+        "transcription": ""
     },
     {
         "word": "κανονιστικός",
@@ -555,7 +591,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_008"
+        "id": "el_proficiency_social_008",
+        "transcription": ""
     },
     {
         "word": "λεπτομερής",
@@ -570,7 +607,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_021"
+        "id": "el_proficiency_language_021",
+        "transcription": ""
     },
     {
         "word": "πλάγιος",
@@ -585,7 +623,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_022"
+        "id": "el_proficiency_language_022",
+        "transcription": ""
     },
     {
         "word": "αδιαφανής",
@@ -600,7 +639,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_023"
+        "id": "el_proficiency_language_023",
+        "transcription": ""
     },
     {
         "word": "φαινομενικός",
@@ -615,7 +655,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_024"
+        "id": "el_proficiency_language_024",
+        "transcription": ""
     },
     {
         "word": "παραδοξικός",
@@ -630,7 +671,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_025"
+        "id": "el_proficiency_language_025",
+        "transcription": ""
     },
     {
         "word": "διάχυτος",
@@ -645,7 +687,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_time_002"
+        "id": "el_proficiency_time_002",
+        "transcription": ""
     },
     {
         "word": "πολωτικός",
@@ -660,7 +703,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_009"
+        "id": "el_proficiency_social_009",
+        "transcription": ""
     },
     {
         "word": "επισφαλής",
@@ -675,7 +719,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_026"
+        "id": "el_proficiency_language_026",
+        "transcription": ""
     },
     {
         "word": "προδιαγραφικός",
@@ -690,7 +735,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_027"
+        "id": "el_proficiency_language_027",
+        "transcription": ""
     },
     {
         "word": "παρατεταμένος",
@@ -705,7 +751,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_time_003"
+        "id": "el_proficiency_time_003",
+        "transcription": ""
     },
     {
         "word": "αναγωγικός",
@@ -720,7 +767,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_028"
+        "id": "el_proficiency_language_028",
+        "transcription": ""
     },
     {
         "word": "καθοριστικός",
@@ -735,7 +783,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_time_004"
+        "id": "el_proficiency_time_004",
+        "transcription": ""
     },
     {
         "word": "ευειδής",
@@ -750,7 +799,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_029"
+        "id": "el_proficiency_language_029",
+        "transcription": ""
     },
     {
         "word": "νόθος",
@@ -765,7 +815,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_030"
+        "id": "el_proficiency_language_030",
+        "transcription": ""
     },
     {
         "word": "ανατρεπτικός",
@@ -780,7 +831,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_010"
+        "id": "el_proficiency_social_010",
+        "transcription": ""
     },
     {
         "word": "σιωπηρός",
@@ -795,7 +847,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_031"
+        "id": "el_proficiency_language_031",
+        "transcription": ""
     },
     {
         "word": "ισχνός",
@@ -810,7 +863,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_032"
+        "id": "el_proficiency_language_032",
+        "transcription": ""
     },
     {
         "word": "παροδικός",
@@ -825,7 +879,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_time_005"
+        "id": "el_proficiency_time_005",
+        "transcription": ""
     },
     {
         "word": "πανταχού παρών",
@@ -840,7 +895,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_time_006"
+        "id": "el_proficiency_time_006",
+        "transcription": ""
     },
     {
         "word": "μονοσήμαντος",
@@ -855,7 +911,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_033"
+        "id": "el_proficiency_language_033",
+        "transcription": ""
     },
     {
         "word": "άνευ προηγουμένου",
@@ -870,7 +927,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_time_007"
+        "id": "el_proficiency_time_007",
+        "transcription": ""
     },
     {
         "word": "ανυπόστατος",
@@ -885,7 +943,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_034"
+        "id": "el_proficiency_language_034",
+        "transcription": ""
     },
     {
         "word": "δυσκίνητος",
@@ -900,7 +959,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_035"
+        "id": "el_proficiency_language_035",
+        "transcription": ""
     }
 ];
 

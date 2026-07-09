@@ -1203,7 +1203,6 @@
     {
         "id": "en_starter_rooms_of_a_home_016",
         "word": "garden",
-        "image": "images/vocabulary/actions/to garden.png",
         "emoji": "🏡",
         "form": "noun",
         "classification": "regular",
@@ -1820,8 +1819,6 @@
         "word": "put",
         "emoji": "📥",
         "subtext": "put on / put away / put the phone down / put money aside",
-        "opposite": "take",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -1841,7 +1838,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "take"
+        ]
     },
     {
         "id": "en_starter_household_tasks_003",
@@ -1862,12 +1862,14 @@
         "v2": "moved",
         "v3": "moved",
         "group": "regular",
-        "opposite": "stay",
         "transcription": "muv",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stay"
+        ]
     },
     {
         "id": "en_starter_household_tasks_004",
@@ -1888,12 +1890,14 @@
         "v2": "cleaned",
         "v3": "cleaned",
         "group": "regular",
-        "opposite": "dirty",
         "transcription": "klin",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dirty"
+        ]
     },
     {
         "id": "en_starter_household_tasks_005",
@@ -1915,12 +1919,14 @@
         "v2": "washed",
         "v3": "washed",
         "group": "regular",
-        "opposite": "dirty",
         "transcription": "wɑʃ",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dirty"
+        ]
     },
     {
         "id": "en_starter_household_tasks_006",
@@ -1944,12 +1950,14 @@
         "v2": "fixed",
         "v3": "fixed",
         "group": "regular",
-        "opposite": "break",
         "transcription": "fɪks",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "break"
+        ]
     },
     {
         "id": "en_starter_household_tasks_007",
@@ -1970,19 +1978,19 @@
         "v2": "filled",
         "v3": "filled",
         "group": "regular",
-        "opposite": "empty",
         "transcription": "fɪl",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "empty"
+        ]
     },
     {
         "id": "en_starter_household_tasks_008",
         "word": "dirty",
         "form": "adjective",
-        "opposite": "clean",
-        "oppositeEmoji": "✨",
         "subtext": "dirty hands / dirty clothes / get dirty",
         "definitions": [
             {
@@ -1999,7 +2007,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "clean"
+        ]
     },
     {
         "id": "en_starter_furniture_059",
@@ -2007,7 +2018,6 @@
         "emoji": "🛋️",
         "form": "adjective",
         "opposite": null,
-        "oppositeEmoji": "🪑",
         "subtext": "a comfortable chair / feel comfortable",
         "synonyms": [
             "relaxed",
@@ -2035,7 +2045,6 @@
         "emoji": "🪑",
         "form": "adjective",
         "opposite": null,
-        "oppositeEmoji": "🛋️",
         "subtext": "feel uncomfortable / uncomfortable chair",
         "synonyms": [
             "awkward",

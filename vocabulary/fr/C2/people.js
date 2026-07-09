@@ -14,7 +14,8 @@
                 "text": "Jean-Baptiste Poquelin, dit Molière, est un dramaturge et comédien français.",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": ""
     }
 ];
     const lang = "fr";

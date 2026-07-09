@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "fruit",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "transcription": "fʁɥi",
         "plural": null,
         "subtext": "fruit frais, jus de fruit",
@@ -18,40 +20,45 @@
                     "Les fruits sont bons pour la santé."
                 ]
             },
-
-{
-        "word": "poisson",
-        "image": "images/vocabulary/actions/to fish.png",
-        "level": "starter",
-        "theme": "food_drink",
-        "article": "le",
-        "gender": "masculine",
-        "emoji": "🐟",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
-        "definitions": [
             {
-                "text": "La chair du poisson consommée comme nourriture.",
-                "examples": [
-                    "J'aime le poisson grillé pour le dîner."
-                ]
+                "word": "poisson",
+                "image": "images/vocabulary/actions/to fish.png",
+                "level": "starter",
+                "theme": "food_drink",
+                "article": "le",
+                "gender": "masculine",
+                "emoji": "🐟",
+                "form": "noun",
+                "classification": "regular",
+                "countability": "uncountable",
+                "definitions": [
+                    {
+                        "text": "La chair du poisson consommée comme nourriture.",
+                        "examples": [
+                            "J'aime le poisson grillé pour le dîner."
+                        ]
+                    }
+                ],
+                "transcription": "/pwa.sɔ̃/",
+                "etymology": {
+                    "origin_lang": "Latin",
+                    "origin_word": "piscis"
+                }
             }
         ],
-        "transcription": "/pwa.sɔ̃/",
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "piscis"
-        }
+        "lang": "fr",
+        "id": "fr_starter_food_drink_001"
     },
-        ]
-    },
-{
+    {
         "word": "légume",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥦",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "le.ɡym",
         "plural": "légumes",
         "subtext": "légumes frais, légumes verts",
@@ -62,14 +69,18 @@
                     "Il mange des légumes tous les jours."
                 ]
             }
-        ]
+        ],
+        "lang": "fr",
+        "id": "fr_starter_food_drink_002"
     },
-{
+    {
         "word": "croissant",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "kʁwa.sɑ̃",
         "plural": "croissants",
         "definitions": [
@@ -80,11 +91,13 @@
                     "Le boulanger fait des croissants frais."
                 ]
             }
-        ]
+        ],
+        "lang": "fr",
+        "emoji": "✨",
+        "id": "fr_starter_food_drink_003"
     },
-{
+    {
         "word": "pomme",
-        "image": "images/vocabulary/food/apple.png",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
@@ -92,7 +105,9 @@
         "emoji": "🍎",
         "numberPlural": "4 pomme",
         "answer": "quatre pommes",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "pɔm",
         "plural": "pommes",
         "definitions": [
@@ -108,16 +123,20 @@
             "origin_lang": "Latin",
             "origin_word": "poma",
             "origin_meaning": "fruit"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_food_drink_004"
     },
-{
+    {
         "word": "pain",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥖",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "transcription": "pɛ̃",
         "plural": null,
         "subtext": "pain frais, baguette",
@@ -135,16 +154,20 @@
             "origin_lang": "Latin",
             "origin_word": "panis",
             "origin_meaning": "bread"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_food_drink_005"
     },
-{
+    {
         "word": "oeuf",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🥚",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "œf",
         "plural": "oeufs",
         "subtext": "oeuf dur, omelette",
@@ -156,16 +179,20 @@
                     "On a besoin d'oeufs pour faire un gâteau."
                 ]
             }
-        ]
+        ],
+        "lang": "fr",
+        "id": "fr_starter_food_drink_006"
     },
-{
+    {
         "word": "lait",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": null,
         "subtext": "verre de lait, lait frais",
         "definitions": [
@@ -182,16 +209,20 @@
             "origin_lang": "Latin",
             "origin_word": "lac",
             "origin_meaning": "milk"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_food_drink_007"
     },
-{
+    {
         "word": "riz",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": null,
         "subtext": "riz blanc, riz frit",
         "definitions": [
@@ -202,16 +233,20 @@
                 ]
             }
         ],
-        "transcription": "/ri/"
+        "transcription": "/ri/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_008"
     },
-{
+    {
         "word": "viande",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": null,
         "subtext": "viande fraîche, boeuf, poulet",
         "definitions": [
@@ -227,15 +262,19 @@
             "origin_lang": "Latin",
             "origin_word": "vivenda",
             "origin_meaning": "things to live on"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_food_drink_009"
     },
-{
+    {
         "word": "nourriture",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nourritures",
         "definitions": [
             {
@@ -245,16 +284,20 @@
                 ]
             }
         ],
-        "transcription": "/nu.ʁi.tyʁ/"
+        "transcription": "/nu.ʁi.tyʁ/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_010"
     },
-{
+    {
         "word": "thé",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍵",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": null,
         "subtext": "thé vert, tasse de thé",
         "definitions": [
@@ -266,16 +309,20 @@
                 ]
             }
         ],
-        "transcription": "/te/"
+        "transcription": "/te/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_011"
     },
-{
+    {
         "word": "jus",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧃",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": null,
         "subtext": "jus d'orange, jus de pomme",
         "definitions": [
@@ -286,16 +333,20 @@
                 ]
             }
         ],
-        "transcription": "/ʒy/"
+        "transcription": "/ʒy/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_012"
     },
-{
+    {
         "word": "eau",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": null,
         "subtext": "eau froide, verre d'eau",
         "definitions": [
@@ -312,16 +363,20 @@
             "origin_lang": "Latin",
             "origin_word": "aqua",
             "origin_meaning": "water"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_food_drink_013"
     },
-{
+    {
         "word": "bière",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍺",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": null,
         "subtext": "bière froide, pression",
         "definitions": [
@@ -332,16 +387,20 @@
                 ]
             }
         ],
-        "transcription": "/bjɛʁ/"
+        "transcription": "/bjɛʁ/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_014"
     },
-{
+    {
         "word": "vin",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍷",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "vins",
         "definitions": [
             {
@@ -351,16 +410,20 @@
                 ]
             }
         ],
-        "transcription": "/vɛ̃/"
+        "transcription": "/vɛ̃/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_015"
     },
-{
+    {
         "word": "poulet",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍗",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "poulets",
         "definitions": [
             {
@@ -370,16 +433,20 @@
                 ]
             }
         ],
-        "transcription": "/pu.lɛ/"
+        "transcription": "/pu.lɛ/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_016"
     },
-{
+    {
         "word": "sucre",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "sucres",
         "definitions": [
             {
@@ -389,16 +456,20 @@
                 ]
             }
         ],
-        "transcription": "/sykʁ/"
+        "transcription": "/sykʁ/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_017"
     },
-{
+    {
         "word": "salade",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥗",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "salades",
         "definitions": [
             {
@@ -408,16 +479,20 @@
                 ]
             }
         ],
-        "transcription": "/sa.lad/"
+        "transcription": "/sa.lad/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_018"
     },
-{
+    {
         "word": "boeuf",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "boeufs",
         "definitions": [
             {
@@ -427,16 +502,20 @@
                 ]
             }
         ],
-        "transcription": "/bœf/"
+        "transcription": "/bœf/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_019"
     },
-{
+    {
         "word": "porc",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "porcs",
         "definitions": [
             {
@@ -450,16 +529,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "porcus"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_food_drink_020"
     },
-{
+    {
         "word": "pomme de terre",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥔",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pommes de terre",
         "definitions": [
             {
@@ -469,16 +552,20 @@
                 ]
             }
         ],
-        "transcription": "/pɔm də tɛʁ/"
+        "transcription": "/pɔm də tɛʁ/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_021"
     },
-{
+    {
         "word": "tomate",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tomates",
         "definitions": [
             {
@@ -488,16 +575,20 @@
                 ]
             }
         ],
-        "transcription": "/tɔ.mat/"
+        "transcription": "/tɔ.mat/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_022"
     },
-{
+    {
         "word": "oignon",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "oignons",
         "definitions": [
             {
@@ -507,16 +598,20 @@
                 ]
             }
         ],
-        "transcription": "/ɔ.ɲɔ̃/"
+        "transcription": "/ɔ.ɲɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_023"
     },
-{
+    {
         "word": "carotte",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥕",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "carottes",
         "definitions": [
             {
@@ -526,16 +621,20 @@
                 ]
             }
         ],
-        "transcription": "/ka.ʁɔt/"
+        "transcription": "/ka.ʁɔt/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_024"
     },
-{
+    {
         "word": "soupe",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "soupes",
         "definitions": [
             {
@@ -545,16 +644,20 @@
                 ]
             }
         ],
-        "transcription": "/sup/"
+        "transcription": "/sup/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_025"
     },
-{
+    {
         "word": "gâteau",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍰",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gâteaux",
         "definitions": [
             {
@@ -564,16 +667,20 @@
                 ]
             }
         ],
-        "transcription": "/ɡɑ.to/"
+        "transcription": "/ɡɑ.to/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_026"
     },
-{
+    {
         "word": "chocolat",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍫",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "chocolats",
         "definitions": [
             {
@@ -583,16 +690,20 @@
                 ]
             }
         ],
-        "transcription": "/ʃɔ.kɔ.la/"
+        "transcription": "/ʃɔ.kɔ.la/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_027"
     },
-{
+    {
         "word": "glace",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍦",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "glaces",
         "definitions": [
             {
@@ -602,16 +713,20 @@
                 ]
             }
         ],
-        "transcription": "/ɡlas/"
+        "transcription": "/ɡlas/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_028"
     },
-{
+    {
         "word": "citron",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍋",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "citrons",
         "definitions": [
             {
@@ -621,17 +736,20 @@
                 ]
             }
         ],
-        "transcription": "/si.tʁɔ̃/"
+        "transcription": "/si.tʁɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_029"
     },
-{
+    {
         "word": "orange",
-        "image": "images/vocabulary/food/orange.png",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍊",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "oranges",
         "definitions": [
             {
@@ -641,16 +759,20 @@
                 ]
             }
         ],
-        "transcription": "/ɔ.ʁɑ̃ʒ/"
+        "transcription": "/ɔ.ʁɑ̃ʒ/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_030"
     },
-{
+    {
         "word": "fraise",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍓",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fraises",
         "definitions": [
             {
@@ -660,16 +782,20 @@
                 ]
             }
         ],
-        "transcription": "/fʁɛz/"
+        "transcription": "/fʁɛz/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_031"
     },
-{
+    {
         "word": "raisin",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍇",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "raisins",
         "definitions": [
             {
@@ -679,16 +805,20 @@
                 ]
             }
         ],
-        "transcription": "/ʁɛ.zɛ̃/"
+        "transcription": "/ʁɛ.zɛ̃/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_032"
     },
-{
+    {
         "word": "ail",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧄",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "aulx",
         "definitions": [
             {
@@ -698,16 +828,20 @@
                 ]
             }
         ],
-        "transcription": "/aj/"
+        "transcription": "/aj/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_033"
     },
-{
+    {
         "word": "beurre",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧈",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "beurres",
         "definitions": [
             {
@@ -717,16 +851,20 @@
                 ]
             }
         ],
-        "transcription": "/bœʁ/"
+        "transcription": "/bœʁ/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_034"
     },
-{
+    {
         "word": "fromage",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧀",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "fromages",
         "definitions": [
             {
@@ -736,16 +874,20 @@
                 ]
             }
         ],
-        "transcription": "/fʁɔ.maʒ/"
+        "transcription": "/fʁɔ.maʒ/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_035"
     },
-{
+    {
         "word": "sel",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧂",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -755,16 +897,20 @@
                 ]
             }
         ],
-        "transcription": "/sɛl/"
+        "transcription": "/sɛl/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_036"
     },
-{
+    {
         "word": "poivre",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧂",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -774,16 +920,20 @@
                 ]
             }
         ],
-        "transcription": "/pwavʁ/"
+        "transcription": "/pwavʁ/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_037"
     },
-{
+    {
         "word": "huile",
         "level": "starter",
         "theme": "food_drink",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏺",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "huiles",
         "definitions": [
             {
@@ -793,16 +943,20 @@
                 ]
             }
         ],
-        "transcription": "/ɥil/"
+        "transcription": "/ɥil/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_038"
     },
-{
+    {
         "word": "vinaigre",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏺",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vinaigres",
         "definitions": [
             {
@@ -811,28 +965,40 @@
                     "Sel, poivre et vinaigre."
                 ]
             },
-{
-        "word": "snack",
-        "image": "images/vocabulary/actions/to have a snack.png",
-        "level": "starter",
-        "theme": "food_drink",
-        "emoji": "🥨",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "definitions": [{"text": "Une petite quantité de nourriture consommée entre les repas.", "examples": ["J'aime les snacks sains comme les fruits."]}],
-        "transcription": "/snak/"
-    },
+            {
+                "word": "snack",
+                "image": "images/vocabulary/actions/to have a snack.png",
+                "level": "starter",
+                "theme": "food_drink",
+                "emoji": "🥨",
+                "form": "noun",
+                "classification": "regular",
+                "countability": "countable",
+                "definitions": [
+                    {
+                        "text": "Une petite quantité de nourriture consommée entre les repas.",
+                        "examples": [
+                            "J'aime les snacks sains comme les fruits."
+                        ]
+                    }
+                ],
+                "transcription": "/snak/"
+            }
         ],
-        "transcription": "/vi.nɛɡʁ/"
+        "transcription": "/vi.nɛɡʁ/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_039"
     },
-{
+    {
         "word": "petit-déjeuner",
-        "image": "images/vocabulary/actions/to have breakfast.png",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "petits-déjeuners",
         "definitions": [
             {
@@ -842,17 +1008,20 @@
                 ]
             }
         ],
-        "transcription": "/pə.ti de.ʒœ.ne/"
+        "transcription": "/pə.ti de.ʒœ.ne/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_040"
     },
-{
+    {
         "word": "goûter",
-        "image": "images/vocabulary/actions/to have a snack.png",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍪",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "goûters",
         "definitions": [
             {
@@ -862,17 +1031,20 @@
                 ]
             }
         ],
-        "transcription": "/ɡu.te/"
+        "transcription": "/ɡu.te/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_041"
     },
-{
+    {
         "word": "déjeuner",
-        "image": "images/vocabulary/actions/to have lunch.png",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "déjeuners",
         "definitions": [
             {
@@ -882,17 +1054,20 @@
                 ]
             }
         ],
-        "transcription": "/de.ʒœ.ne/"
+        "transcription": "/de.ʒœ.ne/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_042"
     },
-{
+    {
         "word": "dîner",
-        "image": "images/vocabulary/actions/to have dinner.png",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍷",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dîners",
         "definitions": [
             {
@@ -902,16 +1077,20 @@
                 ]
             }
         ],
-        "transcription": "/di.ne/"
+        "transcription": "/di.ne/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_043"
     },
-{
+    {
         "word": "souper",
         "level": "starter",
         "theme": "food_drink",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "soupers",
         "definitions": [
             {
@@ -921,16 +1100,20 @@
                 ]
             }
         ],
-        "transcription": "/su.pe/"
+        "transcription": "/su.pe/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_044"
     },
-{
+    {
         "word": "collation",
         "level": "starter",
         "theme": "food_drink",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍪",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "collations",
         "definitions": [
             {
@@ -940,9 +1123,11 @@
                 ]
             }
         ],
-        "transcription": "/kɔ.la.sjɔ̃/"
+        "transcription": "/kɔ.la.sjɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_food_drink_045"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

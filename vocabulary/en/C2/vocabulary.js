@@ -25,7 +25,8 @@
                     "Philosophers discuss ethics and logic."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "en_proficiency_technology_001",
@@ -44,7 +45,8 @@
                     "The blockchain ensures that the record cannot be altered retroactively."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "en_proficiency_psychology_002",
@@ -63,7 +65,8 @@
                     "Sartre and Camus are two of the most famous thinkers associated with existentialism."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "en_proficiency_psychology_003",
@@ -82,7 +85,8 @@
                     "The discovery of DNA caused a paradigm shift in biological research."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "en_proficiency_language_001",

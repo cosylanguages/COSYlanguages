@@ -15,7 +15,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_001"
+        "id": "br_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "hermeneutek",
@@ -30,7 +31,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_002"
+        "id": "br_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "tautologek",
@@ -45,7 +47,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_003"
+        "id": "br_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "liessteriek",
@@ -60,7 +63,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_004"
+        "id": "br_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "heuristek",
@@ -75,7 +79,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_001"
+        "id": "br_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "goude-trevadennel",
@@ -90,7 +95,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_001"
+        "id": "br_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "liespennel",
@@ -105,7 +111,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_002"
+        "id": "br_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "kosmopolit",
@@ -120,7 +127,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_003"
+        "id": "br_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "narsisek",
@@ -135,7 +143,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_002"
+        "id": "br_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "heterodoks",
@@ -150,7 +159,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_005"
+        "id": "br_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "imanent",
@@ -165,7 +175,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_006"
+        "id": "br_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "trumm",
@@ -180,7 +191,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_007"
+        "id": "br_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "teñval",
@@ -195,7 +207,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_003"
+        "id": "br_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "anac'hronikel",
@@ -210,7 +223,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_time_001"
+        "id": "br_proficiency_time_001",
+        "transcription": ""
     },
     {
         "word": "antitetek",
@@ -225,7 +239,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_008"
+        "id": "br_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "kevrinus",
@@ -240,7 +255,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_004"
+        "id": "br_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "anreoliek",
@@ -255,7 +271,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_009"
+        "id": "br_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "daouredel",
@@ -270,7 +287,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_010"
+        "id": "br_proficiency_language_010",
+        "transcription": ""
     },
     {
         "word": "kategoriel",
@@ -285,7 +303,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_011"
+        "id": "br_proficiency_language_011",
+        "transcription": ""
     },
     {
         "word": "evezhiek",
@@ -300,7 +319,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_004"
+        "id": "br_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "kuzh",
@@ -315,7 +335,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_005"
+        "id": "br_proficiency_social_005",
+        "transcription": ""
     },
     {
         "word": "dialektek",
@@ -330,7 +351,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_012"
+        "id": "br_proficiency_language_012",
+        "transcription": ""
     },
     {
         "word": "strewet",
@@ -345,7 +367,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_013"
+        "id": "br_proficiency_language_013",
+        "transcription": ""
     },
     {
         "word": "didispeg",
@@ -360,7 +383,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_005"
+        "id": "br_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "ezoterek",
@@ -375,7 +399,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_006"
+        "id": "br_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "fals",
@@ -390,7 +415,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_014"
+        "id": "br_proficiency_language_014",
+        "transcription": ""
     },
     {
         "word": "didregemmesk",
@@ -405,7 +431,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_015"
+        "id": "br_proficiency_language_015",
+        "transcription": ""
     },
     {
         "word": "neptu",
@@ -420,7 +447,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_006"
+        "id": "br_proficiency_social_006",
+        "transcription": ""
     },
     {
         "word": "darvoudel",
@@ -435,7 +463,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_016"
+        "id": "br_proficiency_language_016",
+        "transcription": ""
     },
     {
         "word": "genedik",
@@ -450,7 +479,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_017"
+        "id": "br_proficiency_language_017",
+        "transcription": ""
     },
     {
         "word": "dreist",
@@ -465,7 +495,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_art_culture_001"
+        "id": "br_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "treitour",
@@ -480,7 +511,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_007"
+        "id": "br_proficiency_social_007",
+        "transcription": ""
     },
     {
         "word": "digevall",
@@ -495,7 +527,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_018"
+        "id": "br_proficiency_language_018",
+        "transcription": ""
     },
     {
         "word": "liminel",
@@ -510,7 +543,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_019"
+        "id": "br_proficiency_language_019",
+        "transcription": ""
     },
     {
         "word": "liesseurt",
@@ -525,7 +559,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_020"
+        "id": "br_proficiency_language_020",
+        "transcription": ""
     },
     {
         "word": "dispis",
@@ -540,7 +575,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_psychology_007"
+        "id": "br_proficiency_psychology_007",
+        "transcription": ""
     },
     {
         "word": "reoliat",
@@ -555,7 +591,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_008"
+        "id": "br_proficiency_social_008",
+        "transcription": ""
     },
     {
         "word": "fin",
@@ -570,7 +607,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_021"
+        "id": "br_proficiency_language_021",
+        "transcription": ""
     },
     {
         "word": "beskell",
@@ -585,7 +623,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_022"
+        "id": "br_proficiency_language_022",
+        "transcription": ""
     },
     {
         "word": "didreuzwelus",
@@ -600,7 +639,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_023"
+        "id": "br_proficiency_language_023",
+        "transcription": ""
     },
     {
         "word": "war-wel",
@@ -615,7 +655,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_024"
+        "id": "br_proficiency_language_024",
+        "transcription": ""
     },
     {
         "word": "paradoksel",
@@ -630,7 +671,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_025"
+        "id": "br_proficiency_language_025",
+        "transcription": ""
     },
     {
         "word": "hollek",
@@ -645,7 +687,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_time_002"
+        "id": "br_proficiency_time_002",
+        "transcription": ""
     },
     {
         "word": "reunius",
@@ -660,7 +703,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_009"
+        "id": "br_proficiency_social_009",
+        "transcription": ""
     },
     {
         "word": "diskredus",
@@ -675,7 +719,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_026"
+        "id": "br_proficiency_language_026",
+        "transcription": ""
     },
     {
         "word": "erbedus",
@@ -690,7 +735,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_027"
+        "id": "br_proficiency_language_027",
+        "transcription": ""
     },
     {
         "word": "hirbadus",
@@ -705,7 +751,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_time_003"
+        "id": "br_proficiency_time_003",
+        "transcription": ""
     },
     {
         "word": "bihanaus",
@@ -720,7 +767,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_028"
+        "id": "br_proficiency_language_028",
+        "transcription": ""
     },
     {
         "word": "diazezel",
@@ -735,7 +783,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_time_004"
+        "id": "br_proficiency_time_004",
+        "transcription": ""
     },
     {
         "word": "touellus",
@@ -750,7 +799,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_029"
+        "id": "br_proficiency_language_029",
+        "transcription": ""
     },
     {
         "word": "spurius",
@@ -765,7 +815,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_030"
+        "id": "br_proficiency_language_030",
+        "transcription": ""
     },
     {
         "word": "disivour",
@@ -780,7 +831,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_social_010"
+        "id": "br_proficiency_social_010",
+        "transcription": ""
     },
     {
         "word": "didispleg",
@@ -795,7 +847,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_031"
+        "id": "br_proficiency_language_031",
+        "transcription": ""
     },
     {
         "word": "tanav",
@@ -810,7 +863,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_032"
+        "id": "br_proficiency_language_032",
+        "transcription": ""
     },
     {
         "word": "daoulamm",
@@ -825,7 +879,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_time_005"
+        "id": "br_proficiency_time_005",
+        "transcription": ""
     },
     {
         "word": "holllec'hiel",
@@ -840,7 +895,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_time_006"
+        "id": "br_proficiency_time_006",
+        "transcription": ""
     },
     {
         "word": "anat",
@@ -855,7 +911,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_033"
+        "id": "br_proficiency_language_033",
+        "transcription": ""
     },
     {
         "word": "dic'hortoz",
@@ -870,7 +927,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_time_007"
+        "id": "br_proficiency_time_007",
+        "transcription": ""
     },
     {
         "word": "diskant",
@@ -885,7 +943,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_034"
+        "id": "br_proficiency_language_034",
+        "transcription": ""
     },
     {
         "word": "pounner",
@@ -900,7 +959,8 @@
             }
         ],
         "lang": "br",
-        "id": "br_proficiency_language_035"
+        "id": "br_proficiency_language_035",
+        "transcription": ""
     }
 ];
 

@@ -16,7 +16,9 @@
         ],
         "language": "en",
         "level": "starter",
-        "theme": "dishes"
+        "theme": "dishes",
+        "lang": "en",
+        "transcription": ""
     },
     {
         "id": "en_starter_dishes_002",
@@ -34,7 +36,9 @@
         ],
         "language": "en",
         "level": "starter",
-        "theme": "dishes"
+        "theme": "dishes",
+        "lang": "en",
+        "transcription": ""
     },
     {
         "id": "en_starter_dishes_003",
@@ -52,7 +56,9 @@
         ],
         "language": "en",
         "level": "starter",
-        "theme": "dishes"
+        "theme": "dishes",
+        "lang": "en",
+        "transcription": ""
     },
     {
         "id": "en_starter_dishes_004",
@@ -70,7 +76,9 @@
         ],
         "language": "en",
         "level": "starter",
-        "theme": "dishes"
+        "theme": "dishes",
+        "lang": "en",
+        "transcription": ""
     },
     {
         "id": "en_starter_dishes_005",
@@ -88,7 +96,9 @@
         ],
         "language": "en",
         "level": "starter",
-        "theme": "dishes"
+        "theme": "dishes",
+        "lang": "en",
+        "transcription": ""
     },
     {
         "id": "en_starter_dishes_006",
@@ -106,7 +116,9 @@
         ],
         "language": "en",
         "level": "starter",
-        "theme": "dishes"
+        "theme": "dishes",
+        "lang": "en",
+        "transcription": ""
     },
     {
         "id": "en_starter_dishes_007",
@@ -124,7 +136,9 @@
         ],
         "language": "en",
         "level": "starter",
-        "theme": "dishes"
+        "theme": "dishes",
+        "lang": "en",
+        "transcription": ""
     },
     {
         "id": "en_starter_dishes_008",
@@ -142,7 +156,9 @@
         ],
         "language": "en",
         "level": "starter",
-        "theme": "dishes"
+        "theme": "dishes",
+        "lang": "en",
+        "transcription": ""
     },
     {
         "id": "en_starter_dishes_009",
@@ -160,7 +176,9 @@
         ],
         "language": "en",
         "level": "starter",
-        "theme": "dishes"
+        "theme": "dishes",
+        "lang": "en",
+        "transcription": ""
     },
     {
         "id": "en_starter_dishes_010",
@@ -178,7 +196,9 @@
         ],
         "language": "en",
         "level": "starter",
-        "theme": "dishes"
+        "theme": "dishes",
+        "lang": "en",
+        "transcription": ""
     },
     {
         "id": "en_starter_dishes_011",
@@ -196,7 +216,9 @@
         ],
         "language": "en",
         "level": "starter",
-        "theme": "dishes"
+        "theme": "dishes",
+        "lang": "en",
+        "transcription": ""
     }
 ];
     const lang = "en";

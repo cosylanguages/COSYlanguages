@@ -27,7 +27,8 @@
         "id": "de_proficiency_language_001",
         "antonyms": [
             "allmählich"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "abstrus",
@@ -54,7 +55,8 @@
         "id": "de_proficiency_psychology_001",
         "antonyms": [
             "einfach"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "anachronistisch",
@@ -81,7 +83,8 @@
         "id": "de_proficiency_time_001",
         "antonyms": [
             "zeitgemäß"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "antithetisch",
@@ -108,7 +111,8 @@
         "id": "de_proficiency_language_002",
         "antonyms": [
             "identisch"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "arkan",
@@ -135,7 +139,8 @@
         "id": "de_proficiency_psychology_002",
         "antonyms": [
             "allgemeinbekannt"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "atypisch",
@@ -162,7 +167,8 @@
         "id": "de_proficiency_language_003",
         "antonyms": [
             "typisch"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "binär",
@@ -189,7 +195,8 @@
         "id": "de_proficiency_language_004",
         "antonyms": [
             "unitär"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "kategorisch",
@@ -216,7 +223,8 @@
         "id": "de_proficiency_language_005",
         "antonyms": [
             "eingeschränkt"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "beherrscht",
@@ -243,7 +251,8 @@
         "id": "de_proficiency_social_001",
         "antonyms": [
             "tollkühn"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "verdeckt",
@@ -270,7 +279,8 @@
         "id": "de_proficiency_social_002",
         "antonyms": [
             "offen"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "dialektisch",
@@ -294,7 +304,8 @@
             "analytisch"
         ],
         "lang": "de",
-        "id": "de_proficiency_language_006"
+        "id": "de_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "diffus",
@@ -321,7 +332,8 @@
         "id": "de_proficiency_language_007",
         "antonyms": [
             "konzentriert"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "elusiv",
@@ -354,7 +366,8 @@
         "id": "de_proficiency_psychology_003",
         "antonyms": [
             "erreichbar"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "esoterisch",
@@ -381,7 +394,8 @@
         "id": "de_proficiency_psychology_004",
         "antonyms": [
             "exoterisch"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "trügerisch",
@@ -408,7 +422,8 @@
         "id": "de_proficiency_language_008",
         "antonyms": [
             "fundiert"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "unveränderlich",
@@ -435,7 +450,8 @@
         "id": "de_proficiency_language_009",
         "antonyms": [
             "veränderlich"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "unparteiisch",
@@ -462,7 +478,8 @@
         "id": "de_proficiency_social_003",
         "antonyms": [
             "parteiisch"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "inzidentell",
@@ -489,7 +506,8 @@
         "id": "de_proficiency_language_010",
         "antonyms": [
             "zentral"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "inhärent",
@@ -516,7 +534,8 @@
         "id": "de_proficiency_language_011",
         "antonyms": [
             "extrinsisch"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "unnachahmlich",
@@ -543,7 +562,8 @@
         "id": "de_proficiency_art_culture_001",
         "antonyms": [
             "gewöhnlich"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "insidiös",
@@ -570,7 +590,8 @@
         "id": "de_proficiency_social_004",
         "antonyms": [
             "direkt"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "unvereinbar",
@@ -597,7 +618,8 @@
         "id": "de_proficiency_language_012",
         "antonyms": [
             "vereinbar"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "liminal",
@@ -621,7 +643,8 @@
             "schwellenhaft"
         ],
         "lang": "de",
-        "id": "de_proficiency_language_013"
+        "id": "de_proficiency_language_013",
+        "transcription": ""
     },
     {
         "word": "vielfältig",
@@ -648,7 +671,8 @@
         "id": "de_proficiency_language_014",
         "antonyms": [
             "einzig"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "nebulös",
@@ -675,7 +699,8 @@
         "id": "de_proficiency_psychology_005",
         "antonyms": [
             "deutlich"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "normativ",
@@ -702,7 +727,8 @@
         "id": "de_proficiency_social_005",
         "antonyms": [
             "deskriptiv"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "nuanciert",
@@ -729,7 +755,8 @@
         "id": "de_proficiency_language_015",
         "antonyms": [
             "grob"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "indirekt",
@@ -756,7 +783,8 @@
         "id": "de_proficiency_language_016",
         "antonyms": [
             "direkt"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "opak",
@@ -783,7 +811,8 @@
         "id": "de_proficiency_language_017",
         "antonyms": [
             "transparent"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "scheinbar",
@@ -810,7 +839,8 @@
         "id": "de_proficiency_language_018",
         "antonyms": [
             "echt"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "paradox",
@@ -837,7 +867,8 @@
         "id": "de_proficiency_language_019",
         "antonyms": [
             "kohärent"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "durchdringend",
@@ -864,7 +895,8 @@
         "id": "de_proficiency_time_002",
         "antonyms": [
             "selten"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "polarisierend",
@@ -891,7 +923,8 @@
         "id": "de_proficiency_social_006",
         "antonyms": [
             "einigend"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "prekär",
@@ -918,7 +951,8 @@
         "id": "de_proficiency_language_020",
         "antonyms": [
             "stabil"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "präskriptiv",
@@ -945,7 +979,8 @@
         "id": "de_proficiency_language_021",
         "antonyms": [
             "deskriptiv"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "langwierig",
@@ -972,7 +1007,8 @@
         "id": "de_proficiency_time_003",
         "antonyms": [
             "kurz"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "reduktionistisch",
@@ -999,7 +1035,8 @@
         "id": "de_proficiency_language_022",
         "antonyms": [
             "komplex"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "seminal",
@@ -1026,7 +1063,8 @@
         "id": "de_proficiency_time_004",
         "antonyms": [
             "unbedeutend"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "speziös",
@@ -1053,7 +1091,8 @@
         "id": "de_proficiency_language_023",
         "antonyms": [
             "stichhaltig"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "spurios",
@@ -1080,7 +1119,8 @@
         "id": "de_proficiency_language_024",
         "antonyms": [
             "authentisch"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "subversiv",
@@ -1107,7 +1147,8 @@
         "id": "de_proficiency_social_007",
         "antonyms": [
             "konformistisch"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "implizit",
@@ -1134,7 +1175,8 @@
         "id": "de_proficiency_language_025",
         "antonyms": [
             "explizit"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "schwach",
@@ -1161,7 +1203,8 @@
         "id": "de_proficiency_language_026",
         "antonyms": [
             "stark"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "transitorisch",
@@ -1188,7 +1231,8 @@
         "id": "de_proficiency_time_005",
         "antonyms": [
             "permanent"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "ubiquitär",
@@ -1215,7 +1259,8 @@
         "id": "de_proficiency_time_006",
         "antonyms": [
             "selten"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "unmissverständlich",
@@ -1242,7 +1287,8 @@
         "id": "de_proficiency_language_027",
         "antonyms": [
             "ambivalent"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "beispiellos",
@@ -1269,7 +1315,8 @@
         "id": "de_proficiency_time_007",
         "antonyms": [
             "üblich"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "unhaltbar",
@@ -1296,7 +1343,8 @@
         "id": "de_proficiency_language_028",
         "antonyms": [
             "vertretbar"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "schwerfällig",
@@ -1323,7 +1371,8 @@
         "id": "de_proficiency_language_029",
         "antonyms": [
             "handlich"
-        ]
+        ],
+        "transcription": ""
     }
 ];
 

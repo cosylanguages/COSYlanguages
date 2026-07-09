@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "ordinateur portable",
         "level": "starter",
         "theme": "technology",
         "article": "l'",
         "gender": "masculine",
         "emoji": "💻",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ordinateurs portables",
         "definitions": [
             {
@@ -17,16 +19,20 @@
                 ]
             }
         ],
-        "transcription": "/ɔʁ.di.na.tœʁ pɔʁ.tabl/"
+        "transcription": "/ɔʁ.di.na.tœʁ pɔʁ.tabl/",
+        "lang": "fr",
+        "id": "fr_starter_technology_001"
     },
-{
+    {
         "word": "appareil photo",
         "level": "starter",
         "theme": "technology",
         "article": "l'",
         "gender": "masculine",
         "emoji": "📷",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "appareils photo",
         "definitions": [
             {
@@ -36,16 +42,20 @@
                 ]
             }
         ],
-        "transcription": "/a.pa.ʁɛj fo.to/"
+        "transcription": "/a.pa.ʁɛj fo.to/",
+        "lang": "fr",
+        "id": "fr_starter_technology_002"
     },
-{
+    {
         "word": "ordinateur",
         "level": "starter",
         "theme": "technology",
         "article": "l'",
         "gender": "masculine",
         "emoji": "💻",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ordinateurs",
         "definitions": [
             {
@@ -55,16 +65,20 @@
                 ]
             }
         ],
-        "transcription": "/ɔʁ.di.na.tœʁ/"
+        "transcription": "/ɔʁ.di.na.tœʁ/",
+        "lang": "fr",
+        "id": "fr_starter_technology_003"
     },
-{
+    {
         "word": "message",
         "level": "starter",
         "theme": "technology",
         "article": "le",
         "gender": "masculine",
         "emoji": "✉️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "messages",
         "definitions": [
             {
@@ -74,16 +88,20 @@
                 ]
             }
         ],
-        "transcription": "/me.saʒ/"
+        "transcription": "/me.saʒ/",
+        "lang": "fr",
+        "id": "fr_starter_technology_004"
     },
-{
+    {
         "word": "email",
         "level": "starter",
         "theme": "technology",
         "article": "l'",
         "gender": "masculine",
         "emoji": "📧",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "emails",
         "definitions": [
             {
@@ -93,16 +111,20 @@
                 ]
             }
         ],
-        "transcription": "/i.mɛl/"
+        "transcription": "/i.mɛl/",
+        "lang": "fr",
+        "id": "fr_starter_technology_005"
     },
-{
+    {
         "word": "site web",
         "level": "starter",
         "theme": "technology",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌐",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sites web",
         "definitions": [
             {
@@ -112,16 +134,20 @@
                 ]
             }
         ],
-        "transcription": "/sit wɛb/"
+        "transcription": "/sit wɛb/",
+        "lang": "fr",
+        "id": "fr_starter_technology_006"
     },
-{
+    {
         "word": "mot de passe",
         "level": "starter",
         "theme": "technology",
         "article": "le",
         "gender": "masculine",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mots de passe",
         "definitions": [
             {
@@ -131,16 +157,20 @@
                 ]
             }
         ],
-        "transcription": "/mo də pas/"
+        "transcription": "/mo də pas/",
+        "lang": "fr",
+        "id": "fr_starter_technology_007"
     },
-{
+    {
         "word": "clavier",
         "level": "starter",
         "theme": "technology",
         "article": "le",
         "gender": "masculine",
         "emoji": "⌨️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "claviers",
         "definitions": [
             {
@@ -150,16 +180,20 @@
                 ]
             }
         ],
-        "transcription": "/kla.vje/"
+        "transcription": "/kla.vje/",
+        "lang": "fr",
+        "id": "fr_starter_technology_008"
     },
-{
+    {
         "word": "souris",
         "level": "starter",
         "theme": "technology",
         "article": "la",
         "gender": "feminine",
         "emoji": "🖱️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "souris",
         "definitions": [
             {
@@ -169,16 +203,20 @@
                 ]
             }
         ],
-        "transcription": "/su.ʁi/"
+        "transcription": "/su.ʁi/",
+        "lang": "fr",
+        "id": "fr_starter_technology_009"
     },
-{
+    {
         "word": "écran",
         "level": "starter",
         "theme": "technology",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "écrans",
         "definitions": [
             {
@@ -188,16 +226,20 @@
                 ]
             }
         ],
-        "transcription": "/e.kʁɑ̃/"
+        "transcription": "/e.kʁɑ̃/",
+        "lang": "fr",
+        "id": "fr_starter_technology_010"
     },
-{
+    {
         "word": "télévision",
         "level": "starter",
         "theme": "technology",
         "article": "la",
         "gender": "feminine",
         "emoji": "📺",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "télévisions",
         "definitions": [
             {
@@ -207,16 +249,20 @@
                 ]
             }
         ],
-        "transcription": "/te.le.vi.zjɔ̃/"
+        "transcription": "/te.le.vi.zjɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_technology_011"
     },
-{
+    {
         "word": "radio",
         "level": "starter",
         "theme": "technology",
         "article": "la",
         "gender": "feminine",
         "emoji": "📻",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "radios",
         "definitions": [
             {
@@ -226,16 +272,20 @@
                 ]
             }
         ],
-        "transcription": "/ʁa.djo/"
+        "transcription": "/ʁa.djo/",
+        "lang": "fr",
+        "id": "fr_starter_technology_012"
     },
-{
+    {
         "word": "téléphone",
         "level": "starter",
         "theme": "technology",
         "article": "le",
         "gender": "masculine",
         "emoji": "📞",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "téléphones",
         "definitions": [
             {
@@ -245,9 +295,11 @@
                 ]
             }
         ],
-        "transcription": "/te.le.fɔn/"
+        "transcription": "/te.le.fɔn/",
+        "lang": "fr",
+        "id": "fr_starter_technology_013"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

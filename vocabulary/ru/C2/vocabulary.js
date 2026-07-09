@@ -18,7 +18,8 @@
             }
         ],
         "emoji": "🤔",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_002",
@@ -36,7 +37,8 @@
             }
         ],
         "emoji": "🎯",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_003",
@@ -54,7 +56,8 @@
             }
         ],
         "emoji": "👻",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_004",
@@ -72,7 +75,8 @@
             }
         ],
         "emoji": "🧱",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_005",
@@ -90,7 +94,8 @@
             }
         ],
         "emoji": "⚖️",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_006",
@@ -108,7 +113,8 @@
             }
         ],
         "emoji": "💡",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_007",
@@ -126,7 +132,8 @@
             }
         ],
         "emoji": "🕸️",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_008",
@@ -143,7 +150,8 @@
                 ]
             }
         ],
-        "emoji": "🧠"
+        "emoji": "🧠",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_001",
@@ -160,7 +168,8 @@
                 ]
             }
         ],
-        "emoji": "🚀"
+        "emoji": "🚀",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_002",
@@ -177,7 +186,8 @@
                 ]
             }
         ],
-        "emoji": "🛡️"
+        "emoji": "🛡️",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_003",
@@ -194,7 +204,8 @@
                 ]
             }
         ],
-        "emoji": "⚖️"
+        "emoji": "⚖️",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_004",
@@ -212,7 +223,8 @@
             }
         ],
         "emoji": "👶",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_psychology_001",
@@ -230,7 +242,8 @@
             }
         ],
         "emoji": "🎨",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_psychology_002",
@@ -248,7 +261,8 @@
             }
         ],
         "emoji": "🔥",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_psychology_003",
@@ -266,7 +280,8 @@
             }
         ],
         "emoji": "💀",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_art_culture_001",
@@ -284,7 +299,8 @@
             }
         ],
         "emoji": "📉",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_009",
@@ -302,7 +318,8 @@
             }
         ],
         "emoji": "🤫",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_010",
@@ -320,7 +337,8 @@
             }
         ],
         "emoji": "🙊",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_011",
@@ -337,7 +355,8 @@
                 ]
             }
         ],
-        "emoji": "🚪"
+        "emoji": "🚪",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_012",
@@ -355,7 +374,8 @@
             }
         ],
         "emoji": "❌",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_013",
@@ -373,7 +393,8 @@
             }
         ],
         "emoji": "🔑",
-        "classification": "regular"
+        "classification": "regular",
+        "transcription": ""
     }
 ];
 

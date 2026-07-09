@@ -1,12 +1,14 @@
 (function() {
     const data = [
-{
+    {
         "word": "esercizio",
         "level": "starter",
         "theme": "social",
         "article": "l'",
         "emoji": "🏋️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "esercizi",
         "definitions": [
             {
@@ -21,16 +23,20 @@
         "transcription": "ezerˈtʃittsjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_social_001"
     },
-{
+    {
         "word": "vacanza",
         "level": "starter",
         "theme": "social",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vacanze",
         "definitions": [
             {
@@ -44,16 +50,20 @@
         "transcription": "vaˈkantsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_social_002"
     },
-{
+    {
         "word": "tempo libero",
         "level": "starter",
         "theme": "social",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "",
         "synonyms": [
@@ -70,16 +80,20 @@
         ],
         "partitive": "del",
         "transcription": "ˈtɛmpo ˈlibero",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_social_003"
     },
-{
+    {
         "word": "cinema",
         "level": "starter",
         "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎬",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cinema",
         "definitions": [
             {
@@ -93,16 +107,20 @@
         "transcription": "ˈtʃinema",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_001"
     },
-{
+    {
         "word": "museo",
         "level": "starter",
         "theme": "places",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏛️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "musei",
         "definitions": [
             {
@@ -116,16 +134,20 @@
         "transcription": "muˈzɛo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_002"
     },
-{
+    {
         "word": "biblioteca",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "📚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "biblioteche",
         "definitions": [
             {
@@ -139,16 +161,20 @@
         "transcription": "biblioˈtɛka",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_003"
     },
-{
+    {
         "word": "palla",
         "level": "starter",
         "theme": "sports_equipment",
         "article": "la",
         "gender": "feminine",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "palle",
         "definitions": [
             {
@@ -162,16 +188,20 @@
         "transcription": "ˈpalla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_sports_equipment_001"
     },
-{
+    {
         "word": "arte",
         "level": "starter",
         "theme": "places",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "arti",
         "definitions": [
             {
@@ -185,16 +215,20 @@
         "transcription": "ˈarte",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_places_004"
     },
-{
+    {
         "word": "band",
         "level": "starter",
         "theme": "music",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎸",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "band",
         "definitions": [
             {
@@ -208,16 +242,20 @@
         "transcription": "ˈbɛnd",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_music_001"
     },
-{
+    {
         "word": "concerto",
         "level": "starter",
         "theme": "music",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "concerti",
         "definitions": [
             {
@@ -231,16 +269,20 @@
         "transcription": "konˈtʃɛrto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_music_002"
     },
-{
+    {
         "word": "musica",
         "level": "starter",
         "theme": "music",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "musiche",
         "definitions": [
             {
@@ -254,16 +296,20 @@
         "transcription": "ˈmusica",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_music_003"
     },
-{
+    {
         "word": "canzone",
         "level": "starter",
         "theme": "music",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "canzoni",
         "definitions": [
             {
@@ -272,31 +318,44 @@
                     "È una bella canzone."
                 ]
             },
-{
-        "word": "chitarra",
-        "image": "images/vocabulary/actions/to play a musical instrument.png",
-        "level": "starter",
-        "theme": "music",
-        "emoji": "🎸",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{"text": "Uno strumento musicale a corde che si suona con le dita.", "examples": ["Lui suona la chitarra."]}],
-        "transcription": "/kiˈtarra/"
-    },
+            {
+                "word": "chitarra",
+                "image": "images/vocabulary/actions/to play a musical instrument.png",
+                "level": "starter",
+                "theme": "music",
+                "emoji": "🎸",
+                "form": "noun",
+                "classification": "regular",
+                "countability": "countable",
+                "definitions": [
+                    {
+                        "text": "Uno strumento musicale a corde che si suona con le dita.",
+                        "examples": [
+                            "Lui suona la chitarra."
+                        ]
+                    }
+                ],
+                "transcription": "/kiˈtarra/"
+            }
         ],
         "partitive": "della",
         "transcription": "kanˈtsone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_music_004"
     },
-{
+    {
         "word": "film",
         "level": "starter",
-        "theme": "cinema_film",
+        "theme": "social",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎞️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "film",
         "definitions": [
             {
@@ -310,16 +369,20 @@
         "transcription": "ˈfilm",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_social_004"
     },
-{
+    {
         "word": "foto",
         "level": "starter",
         "theme": "hobbies_interests",
         "article": "la",
         "gender": "feminine",
         "emoji": "📷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "foto",
         "definitions": [
             {
@@ -328,41 +391,63 @@
                     "Una foto ricordo."
                 ]
             },
-{
-        "word": "scacchi",
-        "image": "images/vocabulary/actions/to play chess.png",
-        "level": "starter",
-        "theme": "hobbies_interests",
-        "emoji": "♟️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{"text": "Un gioco per due persone giocato su una scacchiera con case nere e bianche.", "examples": ["Stanno giocando a scacchi."]},
-{
-        "word": "videogioco",
-        "image": "images/vocabulary/actions/to play video games.png",
-        "level": "starter",
-        "theme": "hobbies_interests",
-        "emoji": "🎮",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{"text": "Un gioco giocato su un computer o un dispositivo speciale.", "examples": ["Lui ama giocare ai videogiochi."]}],
-        "transcription": "/ˌvidjoˈʤɔko/"
-    },],
-        "transcription": "/ˈskakki/"
-    },
+            {
+                "word": "scacchi",
+                "image": "images/vocabulary/actions/to play chess.png",
+                "level": "starter",
+                "theme": "hobbies_interests",
+                "emoji": "♟️",
+                "form": "noun",
+                "classification": "regular",
+                "countability": "countable",
+                "definitions": [
+                    {
+                        "text": "Un gioco per due persone giocato su una scacchiera con case nere e bianche.",
+                        "examples": [
+                            "Stanno giocando a scacchi."
+                        ]
+                    },
+                    {
+                        "word": "videogioco",
+                        "image": "images/vocabulary/actions/to play video games.png",
+                        "level": "starter",
+                        "theme": "hobbies_interests",
+                        "emoji": "🎮",
+                        "form": "noun",
+                        "classification": "regular",
+                        "countability": "countable",
+                        "definitions": [
+                            {
+                                "text": "Un gioco giocato su un computer o un dispositivo speciale.",
+                                "examples": [
+                                    "Lui ama giocare ai videogiochi."
+                                ]
+                            }
+                        ],
+                        "transcription": "/ˌvidjoˈʤɔko/"
+                    }
+                ],
+                "transcription": "/ˈskakki/"
+            }
         ],
         "partitive": "della",
         "transcription": "ˈfɔto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_hobbies_interests_001"
     },
-{
+    {
         "word": "sport",
         "level": "starter",
         "theme": "sports",
         "article": "lo",
         "gender": "masculine",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sport",
         "definitions": [
             {
@@ -376,17 +461,20 @@
         "transcription": "ˈsport",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_sports_001"
     },
-{
+    {
         "word": "calcio",
-        "image": "images/vocabulary/actions/to play sport.png",
         "level": "starter",
         "theme": "sports",
         "article": "il",
         "gender": "masculine",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "",
         "definitions": [
             {
@@ -400,16 +488,20 @@
         "transcription": "ˈcalcio",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_sports_002"
     },
-{
+    {
         "word": "tennis",
         "level": "starter",
         "theme": "sports",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎾",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "",
         "definitions": [
             {
@@ -423,16 +515,20 @@
         "transcription": "ˈtennis",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_sports_003"
     },
-{
+    {
         "word": "nuoto",
         "level": "starter",
         "theme": "sports",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏊",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "",
         "definitions": [
             {
@@ -446,16 +542,20 @@
         "transcription": "ˈnuoto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_sports_004"
     },
-{
+    {
         "word": "festa",
         "level": "starter",
         "theme": "social",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎉",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "feste",
         "definitions": [
             {
@@ -469,16 +569,20 @@
         "transcription": "ˈfɛsta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_social_005"
     },
-{
+    {
         "word": "giornale",
         "level": "starter",
         "theme": "books_reading",
         "article": "il",
         "gender": "masculine",
         "emoji": "📰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "giornali",
         "transcription": "dʒorˈnale",
         "definitions": [
@@ -494,16 +598,20 @@
             "quotidiano"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_books_reading_001"
     },
-{
+    {
         "word": "rivista",
         "level": "starter",
         "theme": "books_reading",
         "article": "la",
         "gender": "feminine",
         "emoji": "📖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "riviste",
         "transcription": "riˈvista",
         "definitions": [
@@ -517,16 +625,20 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_books_reading_002"
     },
-{
+    {
         "word": "bambola",
         "level": "starter",
         "theme": "social",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪆",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bambole",
         "transcription": "ˈbambola",
         "definitions": [
@@ -540,16 +652,20 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_social_006"
     },
-{
+    {
         "word": "violino",
         "level": "starter",
         "theme": "musical_instruments",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎻",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "violini",
         "transcription": "vjoˈlino",
         "definitions": [
@@ -563,14 +679,18 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_musical_instruments_001"
     },
-{
+    {
         "word": "batteria",
         "level": "starter",
         "theme": "musical_instruments",
         "emoji": "🥁",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "batterie",
@@ -585,14 +705,18 @@
             }
         ],
         "transcription": "batteˈria",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_musical_instruments_002"
     },
-{
+    {
         "word": "flauto",
         "level": "starter",
         "theme": "musical_instruments",
         "emoji": "🪈",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "flauti",
@@ -607,9 +731,11 @@
             }
         ],
         "transcription": "ˈflauto",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_musical_instruments_003"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -21,7 +21,11 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "lang": "it",
+        "antonyms": [
+            "straniero"
+        ],
+        "id": "it_starter_people_001"
     },
     {
         "word": "francese",
@@ -43,7 +47,11 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "lang": "it",
+        "antonyms": [
+            "straniero"
+        ],
+        "id": "it_starter_people_002"
     },
     {
         "word": "inglese",
@@ -65,7 +73,11 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "lang": "it",
+        "antonyms": [
+            "straniero"
+        ],
+        "id": "it_starter_people_003"
     },
     {
         "word": "americano",
@@ -87,7 +99,11 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "lang": "it",
+        "antonyms": [
+            "straniero"
+        ],
+        "id": "it_starter_people_004"
     },
     {
         "word": "spagnolo",
@@ -109,7 +125,11 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "lang": "it",
+        "antonyms": [
+            "straniero"
+        ],
+        "id": "it_starter_people_005"
     },
     {
         "word": "tedesco",
@@ -131,7 +151,11 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "lang": "it",
+        "antonyms": [
+            "straniero"
+        ],
+        "id": "it_starter_people_006"
     },
     {
         "word": "cinese",
@@ -153,7 +177,11 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "lang": "it",
+        "antonyms": [
+            "straniero"
+        ],
+        "id": "it_starter_people_007"
     },
     {
         "word": "giapponese",
@@ -175,7 +203,11 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "lang": "it",
+        "antonyms": [
+            "straniero"
+        ],
+        "id": "it_starter_people_008"
     },
     {
         "word": "russo",
@@ -197,7 +229,11 @@
             }
         ],
         "subtext": "nazionalità",
-        "opposite": "straniero"
+        "lang": "it",
+        "antonyms": [
+            "straniero"
+        ],
+        "id": "it_starter_people_009"
     },
     {
         "word": "nazionalità",
@@ -220,13 +256,11 @@
                 ]
             }
         ],
-        "subtext": "nazionalità italiana, doppia nazionalità"
+        "subtext": "nazionalità italiana, doppia nazionalità",
+        "lang": "it",
+        "id": "it_starter_people_010"
     }
-]
-
-    const lang = "it";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data.filter(i => i.form === "adjective")];
+];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

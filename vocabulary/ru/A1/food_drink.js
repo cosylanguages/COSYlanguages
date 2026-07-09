@@ -4,7 +4,7 @@
         "word": "хлеб",
         "translation": "bread",
         "level": "starter",
-        "theme": "food",
+        "theme": "food_drink",
         "language": "ru",
         "emoji": "🍞",
         "form": "noun",
@@ -16,13 +16,15 @@
                 ]
             }
         ],
-        "transcription": "/xlʲep/"
+        "transcription": "/xlʲep/",
+        "lang": "ru",
+        "id": "ru_starter_food_drink_001"
     },
     {
         "word": "вода",
         "translation": "water",
         "level": "starter",
-        "theme": "food",
+        "theme": "food_drink",
         "language": "ru",
         "emoji": "💧",
         "form": "noun",
@@ -34,13 +36,15 @@
                 ]
             }
         ],
-        "transcription": "/vɐˈda/"
+        "transcription": "/vɐˈda/",
+        "lang": "ru",
+        "id": "ru_starter_food_drink_002"
     },
     {
         "word": "яблоко",
         "translation": "apple",
         "level": "starter",
-        "theme": "food",
+        "theme": "food_drink",
         "language": "ru",
         "emoji": "🍎",
         "form": "noun",
@@ -52,13 +56,15 @@
                 ]
             }
         ],
-        "transcription": "/ˈjabləkə/"
+        "transcription": "/ˈjabləkə/",
+        "lang": "ru",
+        "id": "ru_starter_food_drink_003"
     },
     {
         "word": "молоко",
         "translation": "milk",
         "level": "starter",
-        "theme": "food",
+        "theme": "food_drink",
         "language": "ru",
         "emoji": "🥛",
         "form": "noun",
@@ -70,13 +76,15 @@
                 ]
             }
         ],
-        "transcription": "/məlɐˈko/"
+        "transcription": "/məlɐˈko/",
+        "lang": "ru",
+        "id": "ru_starter_food_drink_004"
     },
     {
         "word": "чай",
         "translation": "tea",
         "level": "starter",
-        "theme": "food",
+        "theme": "food_drink",
         "language": "ru",
         "emoji": "☕",
         "form": "noun",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/tɕaj/"
+        "transcription": "/tɕaj/",
+        "lang": "ru",
+        "id": "ru_starter_food_drink_005"
     }
-    ];
+];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -26,9 +26,10 @@
         "v2": "утверждал",
         "v3": "утверждала",
         "group": "1st_conj",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "transcription": ""
     }
-    ];
+];
     const lang = "ru";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
