@@ -13,7 +13,9 @@
                 "text": "Франция",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_places_012",
@@ -27,7 +29,9 @@
                 "text": "Италия",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_places_013",
@@ -41,7 +45,9 @@
                 "text": "Россия",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_places_014",
@@ -55,7 +61,9 @@
                 "text": "Греция",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_places_015",
@@ -69,7 +77,9 @@
                 "text": "Англия",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_places_016",
@@ -83,7 +93,9 @@
                 "text": "Испания",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_places_017",
@@ -97,7 +109,9 @@
                 "text": "США",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_places_018",
@@ -111,7 +125,9 @@
                 "text": "Париж",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_places_019",
@@ -125,7 +141,9 @@
                 "text": "Лондон",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_places_020",
@@ -139,7 +157,9 @@
                 "text": "Рим",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_places_021",
@@ -153,7 +173,9 @@
                 "text": "Москва",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_places_022",
@@ -167,7 +189,9 @@
                 "text": "Афины",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_places_023",
@@ -181,7 +205,9 @@
                 "text": "Нью-Йорк",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     }
 ];
     if (window.vocabularyData) {

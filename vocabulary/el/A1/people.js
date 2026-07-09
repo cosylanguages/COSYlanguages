@@ -4,12 +4,13 @@
     {
         "word": "Σωκράτης",
         "level": "starter",
-        "theme": "marital_status"
+        "theme": "people",
+        "lang": "el",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "el_starter_people_001"
     }
-]
-    const lang = "el";
-    window.peopleData = window.peopleData || {};
-    window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
+];
     if (window.vocabularyData) {
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }

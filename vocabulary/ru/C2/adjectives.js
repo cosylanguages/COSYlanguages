@@ -27,7 +27,8 @@
         ],
         "antonyms": [
             "постепенный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_002",
@@ -54,7 +55,8 @@
         ],
         "antonyms": [
             "простой"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_001",
@@ -81,7 +83,8 @@
         ],
         "antonyms": [
             "современный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_003",
@@ -108,7 +111,8 @@
         ],
         "antonyms": [
             "тождественный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_004",
@@ -135,7 +139,8 @@
         ],
         "antonyms": [
             "общеизвестный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_005",
@@ -162,7 +167,8 @@
         ],
         "antonyms": [
             "типичный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_006",
@@ -189,7 +195,8 @@
         ],
         "antonyms": [
             "единый"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_007",
@@ -216,7 +223,8 @@
         ],
         "antonyms": [
             "условный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_002",
@@ -243,7 +251,8 @@
         ],
         "antonyms": [
             "опрометчивый"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_003",
@@ -270,7 +279,8 @@
         ],
         "antonyms": [
             "открытый"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_008",
@@ -294,7 +304,8 @@
         "synonyms": [
             "логический",
             "аналитический"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_009",
@@ -321,7 +332,8 @@
         ],
         "antonyms": [
             "концентрированный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_010",
@@ -354,7 +366,8 @@
         ],
         "antonyms": [
             "достижимый"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_011",
@@ -381,7 +394,8 @@
         ],
         "antonyms": [
             "экзотерический"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_012",
@@ -408,7 +422,8 @@
         ],
         "antonyms": [
             "обоснованный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_013",
@@ -435,7 +450,8 @@
         ],
         "antonyms": [
             "изменчивый"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_004",
@@ -462,7 +478,8 @@
         ],
         "antonyms": [
             "предвзятый"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_014",
@@ -489,7 +506,8 @@
         ],
         "antonyms": [
             "центральный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_015",
@@ -516,7 +534,8 @@
         ],
         "antonyms": [
             "внешний"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_art_culture_001",
@@ -543,7 +562,8 @@
         ],
         "antonyms": [
             "заурядный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_005",
@@ -570,7 +590,8 @@
         ],
         "antonyms": [
             "прямой"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_016",
@@ -597,7 +618,8 @@
         ],
         "antonyms": [
             "совместимый"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_017",
@@ -621,7 +643,8 @@
         "synonyms": [
             "переходный",
             "пограничный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_018",
@@ -648,7 +671,8 @@
         ],
         "antonyms": [
             "единичный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_019",
@@ -675,7 +699,8 @@
         ],
         "antonyms": [
             "отчетливый"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_006",
@@ -702,7 +727,8 @@
         ],
         "antonyms": [
             "дескриптивный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_020",
@@ -729,7 +755,8 @@
         ],
         "antonyms": [
             "грубый"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_021",
@@ -756,7 +783,8 @@
         ],
         "antonyms": [
             "прямой"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_022",
@@ -783,7 +811,8 @@
         ],
         "antonyms": [
             "прозрачный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_023",
@@ -810,7 +839,8 @@
         ],
         "antonyms": [
             "подлинный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_024",
@@ -837,7 +867,8 @@
         ],
         "antonyms": [
             "последовательный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_007",
@@ -864,7 +895,8 @@
         ],
         "antonyms": [
             "редкий"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_008",
@@ -891,7 +923,8 @@
         ],
         "antonyms": [
             "объединяющий"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_025",
@@ -918,7 +951,8 @@
         ],
         "antonyms": [
             "стабильный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_026",
@@ -945,7 +979,8 @@
         ],
         "antonyms": [
             "дескриптивный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_009",
@@ -972,7 +1007,8 @@
         ],
         "antonyms": [
             "краткий"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_027",
@@ -999,7 +1035,8 @@
         ],
         "antonyms": [
             "сложный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_010",
@@ -1026,7 +1063,8 @@
         ],
         "antonyms": [
             "незначительный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_028",
@@ -1053,7 +1091,8 @@
         ],
         "antonyms": [
             "обоснованный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_029",
@@ -1080,7 +1119,8 @@
         ],
         "antonyms": [
             "подлинный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_011",
@@ -1107,7 +1147,8 @@
         ],
         "antonyms": [
             "конформистский"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_030",
@@ -1134,7 +1175,8 @@
         ],
         "antonyms": [
             "явный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_031",
@@ -1161,7 +1203,8 @@
         ],
         "antonyms": [
             "сильный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_time_001",
@@ -1188,7 +1231,8 @@
         ],
         "antonyms": [
             "постоянный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_012",
@@ -1215,7 +1259,8 @@
         ],
         "antonyms": [
             "редкий"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_032",
@@ -1242,7 +1287,8 @@
         ],
         "antonyms": [
             "двусмысленный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_013",
@@ -1269,7 +1315,8 @@
         ],
         "antonyms": [
             "обычный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_033",
@@ -1296,7 +1343,8 @@
         ],
         "antonyms": [
             "обоснованный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_034",
@@ -1323,7 +1371,8 @@
         ],
         "antonyms": [
             "удобный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_035",
@@ -1340,7 +1389,8 @@
                 ]
             }
         ],
-        "emoji": "📜"
+        "emoji": "📜",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_036",
@@ -1357,7 +1407,8 @@
                 ]
             }
         ],
-        "emoji": "🔄"
+        "emoji": "🔄",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_037",
@@ -1374,7 +1425,8 @@
                 ]
             }
         ],
-        "emoji": "🔠"
+        "emoji": "🔠",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_014",
@@ -1391,7 +1443,8 @@
                 ]
             }
         ],
-        "emoji": "🌍"
+        "emoji": "🌍",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_015",
@@ -1408,7 +1461,8 @@
                 ]
             }
         ],
-        "emoji": "🌐"
+        "emoji": "🌐",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_social_016",
@@ -1425,7 +1479,8 @@
                 ]
             }
         ],
-        "emoji": "🏙️"
+        "emoji": "🏙️",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_psychology_001",
@@ -1442,7 +1497,8 @@
                 ]
             }
         ],
-        "emoji": "🪞"
+        "emoji": "🪞",
+        "transcription": ""
     },
     {
         "id": "ru_proficiency_language_038",
@@ -1459,7 +1515,8 @@
                 ]
             }
         ],
-        "emoji": "🚩"
+        "emoji": "🚩",
+        "transcription": ""
     }
 ];
 

@@ -4,7 +4,7 @@
     {
         "word": "ყოფნა",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "👤",
         "subtext": "დაღლილი ყოფნა / ბედნიერი ყოფნა / სამსახურში ყოფნა / მზად ყოფნა",
         "form": "verb",
@@ -23,7 +23,10 @@
         "v2": "იყო",
         "v3": "ყოფილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_001"
     },
     {
         "word": "ქონა",
@@ -52,7 +55,10 @@
         "v2": "ჰქონდა",
         "v3": "ქონებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_001"
     },
     {
         "word": "გრძნობა",
@@ -80,7 +86,10 @@
         "v2": "იგრძნო",
         "v3": "გრძნობილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_health_medicine_001"
     },
     {
         "word": "მიცემა",
@@ -94,8 +103,6 @@
             "საჩუქარი",
             "ინფორმაცია"
         ],
-        "opposite": "აღება",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -110,7 +117,13 @@
         "v2": "მისცა",
         "v3": "მიცემული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "აღება"
+        ],
+        "transcription": "",
+        "id": "ka_starter_shopping_001"
     },
     {
         "word": "აღება",
@@ -124,8 +137,6 @@
             "შეისვენო",
             "დახარჯო დრო"
         ],
-        "opposite": "მიცემა",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -140,7 +151,13 @@
         "v2": "აიღო",
         "v3": "აღებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "მიცემა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_travel_001"
     },
     {
         "word": "მიღება",
@@ -168,12 +185,15 @@
         "v2": "მიიღო",
         "v3": "მიღებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_shopping_002"
     },
     {
         "word": "დადება",
         "level": "starter",
-        "theme": "furniture_objects",
+        "theme": "furniture",
         "emoji": "📥",
         "subtext": "",
         "synonyms": [
@@ -195,7 +215,10 @@
         "v2": "დადო",
         "v3": "დადებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_furniture_001"
     },
     {
         "word": "გაკეთება",
@@ -223,7 +246,10 @@
         "v2": "გააკეთა",
         "v3": "გაკეთებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_002"
     },
     {
         "word": "კეთება",
@@ -251,7 +277,10 @@
         "v2": null,
         "v3": "გაკეთებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_003"
     },
     {
         "word": "გამოყენება",
@@ -278,7 +307,10 @@
         "v2": "გამოიყენა",
         "v3": "გამოყენებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_technology_001"
     },
     {
         "word": "გახსნა",
@@ -289,8 +321,6 @@
         "synonyms": [
             "გააღო კარი"
         ],
-        "opposite": "დახურვა",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -305,7 +335,13 @@
         "v2": "opened",
         "v3": "გახსნილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "დახურვა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_shopping_003"
     },
     {
         "word": "დაკეტვა",
@@ -318,8 +354,6 @@
             "დაიკეტოს ექვსზე",
             "დახურო შეხვედრა"
         ],
-        "opposite": "გახსნა",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -334,7 +368,13 @@
         "v2": "დაკეტა",
         "v3": "დაკეტილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "გახსნა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_shopping_004"
     },
     {
         "word": "დაწყება",
@@ -347,8 +387,6 @@
             "დაიწყო შეხვედრა",
             "დაიწყო ახალი სამსახური"
         ],
-        "opposite": "დასრულება",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -363,7 +401,13 @@
         "v2": "დაიწყო",
         "v3": "დაწყებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "დასრულება"
+        ],
+        "transcription": "",
+        "id": "ka_starter_work_004"
     },
     {
         "word": "დამთავრება",
@@ -377,8 +421,6 @@
             "ადრე",
             "გვიან"
         ],
-        "opposite": "დაწყება",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -393,7 +435,13 @@
         "v2": "დაამთავრა",
         "v3": "დამთავრებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "დაწყება"
+        ],
+        "transcription": "",
+        "id": "ka_starter_work_005"
     },
     {
         "word": "დახმარება",
@@ -419,7 +467,10 @@
         "v2": "დაეხმარა",
         "v3": "დახმარებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_006"
     },
     {
         "word": "ცდა",
@@ -446,7 +497,10 @@
         "v2": "ცადა",
         "v3": "ნაცადი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_school_001"
     },
     {
         "word": "ჩვენება",
@@ -473,7 +527,10 @@
         "v2": "აჩვენა",
         "v3": "ნაჩვენები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_language_001"
     },
     {
         "word": "პოვნა",
@@ -501,7 +558,10 @@
         "v2": "იპოვა",
         "v3": "ნაპოვნი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_shopping_005"
     },
     {
         "word": "შენახვა",
@@ -528,7 +588,10 @@
         "v2": "შეინახა",
         "v3": "შენახული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_007"
     },
     {
         "word": "დაკარგვა",
@@ -541,8 +604,6 @@
             "ფული",
             "დაიკლო წონაში"
         ],
-        "opposite": "მოგება",
-        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -557,12 +618,18 @@
         "v2": "დაკარგა",
         "v3": "დაკარგული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "მოგება"
+        ],
+        "transcription": "",
+        "id": "ka_starter_shopping_006"
     },
     {
         "word": "ჭრა",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "✂️",
         "subtext": "",
         "synonyms": [
@@ -583,12 +650,15 @@
         "v2": "მოჭრა",
         "v3": "გაჭრილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_food_drink_001"
     },
     {
         "word": "მობრუნება",
         "level": "starter",
-        "theme": "directions_navigation",
+        "theme": "travel",
         "emoji": "🔄",
         "subtext": "",
         "synonyms": [
@@ -610,7 +680,10 @@
         "v2": "turned",
         "v3": "მობრუნებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_002"
     },
     {
         "word": "მოტანა",
@@ -636,12 +709,15 @@
         "v2": "მოიტანა",
         "v3": "მოტანილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_food_drink_002"
     },
     {
         "word": "თქმა",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗨️",
         "subtext": "",
         "synonyms": [
@@ -664,7 +740,10 @@
         "v2": "თქვა",
         "v3": "თქმული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_002"
     },
     {
         "word": "თხრობა",
@@ -691,7 +770,10 @@
         "v2": "told",
         "v3": "ნათქვამი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_language_002"
     },
     {
         "word": "კითხვა",
@@ -717,12 +799,15 @@
         "v2": "იკითხა",
         "v3": "ნაკითხი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_language_003"
     },
     {
         "word": "ლაპარაკი",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗣️",
         "subtext": "",
         "synonyms": [
@@ -744,7 +829,10 @@
         "v2": "ილაპარაკა",
         "v3": "ნალაპარაკები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_003"
     },
     {
         "word": "საუბარი",
@@ -771,7 +859,10 @@
         "v2": "ისაუბრა",
         "v3": "ნასაუბრები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_004"
     },
     {
         "word": "დარეკვა",
@@ -798,7 +889,10 @@
         "v2": "დარეკა",
         "v3": "დარეკილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_technology_002"
     },
     {
         "word": "წერა",
@@ -812,8 +906,6 @@
             "წერილი",
             "შენიშვნები"
         ],
-        "opposite": "კითხვა",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -828,7 +920,13 @@
         "v2": "დაწერა",
         "v3": "დაწერილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "კითხვა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_school_002"
     },
     {
         "word": "კითხვა",
@@ -841,8 +939,6 @@
             "ახალი ამბები",
             "ხელშეკრულება"
         ],
-        "opposite": "წერა",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -857,7 +953,13 @@
         "v2": "იკითხა",
         "v3": "წაკითხული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "წერა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_school_003"
     },
     {
         "word": "მოსმენა",
@@ -884,7 +986,10 @@
         "v2": "მოისმინა",
         "v3": "მოსმენილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_school_004"
     },
     {
         "word": "პასუხი",
@@ -911,12 +1016,15 @@
         "v2": "უპასუხა",
         "v3": "გაცემული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_language_004"
     },
     {
         "word": "გამეორება",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🔁",
         "subtext": "",
         "synonyms": [
@@ -937,7 +1045,10 @@
         "v2": "გაიმეორა",
         "v3": "გამეორებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_school_005"
     },
     {
         "word": "სვლა",
@@ -965,7 +1076,10 @@
         "v2": null,
         "v3": "წასული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_003"
     },
     {
         "word": "მოსვლა",
@@ -979,8 +1093,6 @@
             "დაბრუნდე",
             "მოხვიდე აქ"
         ],
-        "opposite": "წასვლა",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -995,7 +1107,13 @@
         "v2": "მოვიდა",
         "v3": "მოსული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "წასვლა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_travel_004"
     },
     {
         "word": "სიარული",
@@ -1022,7 +1140,10 @@
         "v2": "იარა",
         "v3": "ვლილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_005"
     },
     {
         "word": "მართვა",
@@ -1048,7 +1169,10 @@
         "v2": "მართა",
         "v3": "მართული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_006"
     },
     {
         "word": "ფრენა",
@@ -1075,7 +1199,10 @@
         "v2": "იფრინა",
         "v3": "ნაფრენი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_007"
     },
     {
         "word": "ჩამოსვლა",
@@ -1101,7 +1228,10 @@
         "v2": "arrived",
         "v3": "ჩამოსული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_008"
     },
     {
         "word": "წასვლა",
@@ -1126,7 +1256,10 @@
         "v2": "წავიდა",
         "v3": "წასული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_009"
     },
     {
         "word": "გადასვლა",
@@ -1152,7 +1285,10 @@
         "v2": "გადავიდა",
         "v3": "გადასული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_furniture_002"
     },
     {
         "word": "დაბრუნება",
@@ -1179,12 +1315,15 @@
         "v2": "დაბრუნდა",
         "v3": "დაბრუნებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_008"
     },
     {
         "word": "მოგზაურობა",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "საზღვარგარეთ მოგზაურობა",
         "synonyms": [
@@ -1204,7 +1343,10 @@
         "v2": "იმოგზაურა",
         "v3": "ნამოგზაურები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_009"
     },
     {
         "word": "ჭამა",
@@ -1218,8 +1360,6 @@
             "ივახშმო",
             "გარეთ ჭამო"
         ],
-        "opposite": "დალევა",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1234,7 +1374,13 @@
         "v2": "ჭამა",
         "v3": "ნაჭამი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "დალევა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_food_drink_003"
     },
     {
         "word": "სმა",
@@ -1248,8 +1394,6 @@
             "წყალი",
             "ლუდი"
         ],
-        "opposite": "ჭამა",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1264,7 +1408,13 @@
         "v2": "drank",
         "v3": "ნასვამი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "ჭამა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_food_drink_004"
     },
     {
         "word": "ძილი",
@@ -1272,8 +1422,6 @@
         "theme": "time",
         "emoji": "😴",
         "subtext": "კარგად ძილი / ცუდად ძილი",
-        "opposite": "გაღვიძება",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1288,12 +1436,18 @@
         "v2": "ეძინა",
         "v3": "ნაძინები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "გაღვიძება"
+        ],
+        "transcription": "",
+        "id": "ka_starter_time_001"
     },
     {
         "word": "მომზადება",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "🍳",
         "subtext": "ვახშმის მომზადება / სახლში მომზადება",
         "form": "verb",
@@ -1310,7 +1464,10 @@
         "v2": "მოამზადა",
         "v3": "მომზადებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_food_drink_005"
     },
     {
         "word": "დასუფთავება",
@@ -1336,7 +1493,10 @@
         "v2": "cleaned",
         "v3": "დასუფთავებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_furniture_003"
     },
     {
         "word": "ტარება",
@@ -1358,7 +1518,10 @@
         "v2": "ატარა",
         "v3": "ნატარები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_clothes_001"
     },
     {
         "word": "რეცხვა",
@@ -1385,7 +1548,10 @@
         "v2": null,
         "v3": "გარეცხილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_furniture_004"
     },
     {
         "word": "ყიდვა",
@@ -1398,8 +1564,6 @@
             "ბილეთი",
             "ონლაინ"
         ],
-        "opposite": "გაყიდვა",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1414,7 +1578,13 @@
         "v2": "იყიდა",
         "v3": "ნაყიდი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "გაყიდვა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_shopping_007"
     },
     {
         "word": "გადახდა",
@@ -1441,7 +1611,10 @@
         "v2": "გადაიხადა",
         "v3": "გადახდილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_shopping_008"
     },
     {
         "word": "ხარჯვა",
@@ -1467,7 +1640,10 @@
         "v2": "დახარჯა",
         "v3": "დახარჯული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_shopping_009"
     },
     {
         "word": "დაზოგვა",
@@ -1479,8 +1655,6 @@
             "დაზოგო ფული",
             "შეინახო"
         ],
-        "opposite": "ხარჯვა",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1495,7 +1669,13 @@
         "v2": "დაზოგა",
         "v3": "დაზოგილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "ხარჯვა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_shopping_010"
     },
     {
         "word": "მუშაობა",
@@ -1522,7 +1702,10 @@
         "v2": "იმუშავა",
         "v3": "ნამუშევარი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_010"
     },
     {
         "word": "ცხოვრება",
@@ -1536,8 +1719,6 @@
             "ვინმესთან",
             "საზღვარგარეთ"
         ],
-        "opposite": "სიკვდილი",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1552,7 +1733,13 @@
         "v2": "იცხოვრა",
         "v3": "ნაცხოვრები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "სიკვდილი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_places_001"
     },
     {
         "word": "ფიქრი",
@@ -1579,7 +1766,10 @@
         "v2": "იფიქრა",
         "v3": "ნაფიქრი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_005"
     },
     {
         "word": "ცოდნა",
@@ -1606,7 +1796,10 @@
         "v2": "იცოდა",
         "v3": "ცნობილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_school_006"
     },
     {
         "word": "ნდომა",
@@ -1634,7 +1827,10 @@
         "v2": "უნდოდა",
         "v3": "ნანდომი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_emotions_001"
     },
     {
         "word": "საჭიროება",
@@ -1662,7 +1858,10 @@
         "v2": "სჭირდებოდა",
         "v3": "საჭიროებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_emotions_002"
     },
     {
         "word": "მოწონება",
@@ -1690,7 +1889,10 @@
         "v2": "მოეწონა",
         "v3": "მოწონებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_emotions_003"
     },
     {
         "word": "ყვარება",
@@ -1717,7 +1919,10 @@
         "v2": "უყვარდა",
         "v3": "ყვარებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_emotions_004"
     },
     {
         "word": "სძულება",
@@ -1744,7 +1949,10 @@
         "v2": "hated",
         "v3": "მოძულებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_emotions_005"
     },
     {
         "word": "იმედოვნება",
@@ -1771,7 +1979,10 @@
         "v2": "hoped",
         "v3": "იმედოვნებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_emotions_006"
     },
     {
         "word": "გახსენება",
@@ -1798,7 +2009,10 @@
         "v2": "გაახსენდა",
         "v3": "გახსენებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_school_007"
     },
     {
         "word": "დავიწყება",
@@ -1824,7 +2038,10 @@
         "v2": "დაავიწყდა",
         "v3": "დავიწყებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_school_008"
     },
     {
         "word": "გაგება",
@@ -1851,7 +2068,10 @@
         "v2": "გაიგო",
         "v3": "გაგებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_language_005"
     },
     {
         "word": "გადაწყვეტა",
@@ -1877,7 +2097,10 @@
         "v2": "გადაწყვიტა",
         "v3": "გადაწყვეტილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_006"
     },
     {
         "word": "სიამოვნება",
@@ -1904,7 +2127,10 @@
         "v2": "ისიამოვნა",
         "v3": "ნასიამოვნები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_emotions_007"
     },
     {
         "word": "დანახვა",
@@ -1931,7 +2157,10 @@
         "v2": "დაინახა",
         "v3": "ნანახი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_body_001"
     },
     {
         "word": "გაგონება",
@@ -1958,7 +2187,10 @@
         "v2": "გაიგონა",
         "v3": "გაგონილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_body_002"
     },
     {
         "word": "გაღვიძება",
@@ -1972,8 +2204,6 @@
             "გვიან",
             "დაღლილმა"
         ],
-        "opposite": "ძილი",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "ძილის შეწყვეტა:",
@@ -1987,7 +2217,13 @@
         "v2": "გაიღვიძა",
         "v3": "გაღვიძებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "ძილი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_work_011"
     },
     {
         "word": "ყურება",
@@ -2014,7 +2250,10 @@
         "v2": "უყურა",
         "v3": "ნანახი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_007"
     },
     {
         "word": "ყურება",
@@ -2042,7 +2281,10 @@
         "v2": "უყურა",
         "v3": "ნანახი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_people_001"
     },
     {
         "word": "თამაში",
@@ -2068,7 +2310,10 @@
         "v2": "ითამაშა",
         "v3": "ნათამაშები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_008"
     },
     {
         "word": "სირბილი",
@@ -2095,7 +2340,10 @@
         "v2": "ირბინა",
         "v3": "ნარბენი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_sports_001"
     },
     {
         "word": "ჯდომა",
@@ -2108,8 +2356,6 @@
             "დაჯდე მაგიდასთან",
             "იჯდე შეხვედრაზე"
         ],
-        "opposite": "დგომა",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -2124,7 +2370,13 @@
         "v2": "იჯდა",
         "v3": "ნაჯდომი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "დგომა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_work_012"
     },
     {
         "word": "დგომა",
@@ -2137,8 +2389,6 @@
             "იდგე რიგში",
             "გამოირჩეოდე"
         ],
-        "opposite": "ჯდომა",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -2153,7 +2403,13 @@
         "v2": "იდგა",
         "v3": "მდგარი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "ჯდომა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_work_013"
     },
     {
         "word": "შეხვედრა",
@@ -2180,7 +2436,10 @@
             "ისადილოთ"
         ],
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_014"
     },
     {
         "word": "სწავლა",
@@ -2207,7 +2466,10 @@
         "v2": "ისწავლა",
         "v3": "ნასწავლი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_school_009"
     },
     {
         "word": "შეცვლა",
@@ -2234,7 +2496,10 @@
         "v2": "შეცვალა",
         "v3": "შეცვლილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_015"
     },
     {
         "word": "გაჩერება",
@@ -2261,7 +2526,10 @@
         "v2": "გაჩერდა",
         "v3": "გაჩერებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_016"
     },
     {
         "word": "დამატება",
@@ -2288,7 +2556,10 @@
         "v2": "დაამატა",
         "v3": "დამატებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_numbers_001"
     },
     {
         "word": "მოგება",
@@ -2301,8 +2572,6 @@
             "პრიზი",
             "კონტრაქტი"
         ],
-        "opposite": "დაკარგვა",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -2317,7 +2586,13 @@
         "v2": "მოიგო",
         "v3": "მოგებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "დაკარგვა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_social_009"
     },
     {
         "word": "ლოდინი",
@@ -2344,7 +2619,10 @@
         "v2": "ელოდა",
         "v3": "ნალოდინები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_017"
     },
     {
         "word": "კვდომა",
@@ -2356,8 +2634,6 @@
             "მოკვდე რამით",
             "დაიღუპო"
         ],
-        "opposite": "ცხოვრება",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -2372,7 +2648,13 @@
         "v2": "died",
         "v3": "მკვდარი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "ცხოვრება"
+        ],
+        "transcription": "",
+        "id": "ka_starter_health_medicine_002"
     },
     {
         "word": "გაგზავნა",
@@ -2399,7 +2681,10 @@
             "ანგარიში"
         ],
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_018"
     },
     {
         "word": "დარჩენა",
@@ -2426,7 +2711,10 @@
         "v2": "დარჩა",
         "v3": "დარჩენილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_010"
     },
     {
         "word": "ვარდნა",
@@ -2454,7 +2742,10 @@
         "v2": "დავარდა",
         "v3": "დაცემული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_nature_001"
     },
     {
         "word": "გავლა",
@@ -2481,7 +2772,10 @@
         "v2": "გაიარა",
         "v3": "გავლილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_school_010"
     },
     {
         "word": "გაყიდვა",
@@ -2494,8 +2788,6 @@
             "ონლაინ",
             "ბაზარზე"
         ],
-        "opposite": "ყიდვა",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2510,7 +2802,13 @@
         "v2": "გაყიდა",
         "v3": "გაყიდული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "ყიდვა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_shopping_011"
     },
     {
         "word": "წევა",
@@ -2522,8 +2820,6 @@
             "გამოაღო კარი",
             "მოქაჩო რამე"
         ],
-        "opposite": "ხელის კვრა",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2538,7 +2834,13 @@
         "v2": "გაწია",
         "v3": "გამოწეული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "ხელის კვრა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_work_019"
     },
     {
         "word": "მიწოლა",
@@ -2550,8 +2852,6 @@
             "დააჭირო ღილაკს",
             "მიაწვე რამეს"
         ],
-        "opposite": "წევა",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2566,7 +2866,13 @@
         "v2": "pushed",
         "v3": "მიწოლილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "წევა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_work_020"
     },
     {
         "word": "ტარება",
@@ -2593,7 +2899,10 @@
         "v2": "ატარა",
         "v3": "ნატარები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_021"
     },
     {
         "word": "გატეხვა",
@@ -2620,7 +2929,10 @@
         "v2": "გატეხა",
         "v3": "გატეხილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_describing_001"
     },
     {
         "word": "მიღება",
@@ -2647,7 +2959,10 @@
         "v2": "მიიღო",
         "v3": "მიღებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_shopping_012"
     },
     {
         "word": "დათანხმება",
@@ -2673,12 +2988,15 @@
         "v2": "დაეთანხმა",
         "v3": "დათანხმებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_010"
     },
     {
         "word": "ხატვა",
         "level": "starter",
-        "theme": "cinema_film",
+        "theme": "social",
         "emoji": "🎨",
         "subtext": "",
         "synonyms": [
@@ -2699,7 +3017,10 @@
         "v2": "დახატა",
         "v3": "დახატული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_011"
     },
     {
         "word": "გაზიარება",
@@ -2725,7 +3046,10 @@
         "v2": "გააზიარა",
         "v3": "გაზიარებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_012"
     },
     {
         "word": "ღიმილი",
@@ -2736,8 +3060,6 @@
         "synonyms": [
             "გაუღიმო ვინმეს"
         ],
-        "opposite": "ტირილი",
-        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2752,7 +3074,13 @@
         "v2": "გაიღიმა",
         "v3": "გაღიმებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "ტირილი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_people_002"
     },
     {
         "word": "ტირილი",
@@ -2765,8 +3093,6 @@
             "დაიყვირო",
             "ატირდე"
         ],
-        "opposite": "ღიმილი",
-        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2781,7 +3107,13 @@
         "v2": "იტირა",
         "v3": "ნატირები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "antonyms": [
+            "ღიმილი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_emotions_008"
     },
     {
         "word": "ცეკვა",
@@ -2807,7 +3139,10 @@
         "v2": "იცეკვა",
         "v3": "ნაცეკვი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_music_001"
     },
     {
         "word": "სიმღერა",
@@ -2832,7 +3167,10 @@
         "v2": "იმღერა",
         "v3": "ნამღერი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_music_002"
     },
     {
         "word": "ხტომა",
@@ -2859,7 +3197,10 @@
         "v2": "გადახტა",
         "v3": "ნახტომი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_sports_002"
     },
     {
         "word": "ცურვა",
@@ -2886,7 +3227,10 @@
         "v2": "იცურავა",
         "v3": "ნაცურავი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_sports_003"
     },
     {
         "word": "სწავლა",
@@ -2912,7 +3256,10 @@
         "v2": "ისწავლა",
         "v3": "ნასწავლი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_school_011"
     },
     {
         "word": "სწავლება",
@@ -2938,12 +3285,15 @@
         "v2": "ასწავლა",
         "v3": "ნასწავლები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_school_012"
     },
     {
         "word": "მგზავრობა",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🚆",
         "subtext": "",
         "synonyms": [
@@ -2964,7 +3314,10 @@
         "v2": "იმგზავრა",
         "v3": "ნამგზავრები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_011"
     },
     {
         "word": "ქირაობა",
@@ -2990,7 +3343,10 @@
         "v2": "იქირავა",
         "v3": "ნაქირავები",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_012"
     },
     {
         "word": "ვარჯიში",
@@ -3016,7 +3372,10 @@
             "დარბაზში"
         ],
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_013"
     },
     {
         "word": "ღირებულება",
@@ -3042,7 +3401,10 @@
             "ღირდეს ფული"
         ],
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_shopping_013"
     },
     {
         "word": "დაპატიჟება",
@@ -3069,7 +3431,10 @@
             "წვეულებაზე"
         ],
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_014"
     },
     {
         "word": "ადგომა",
@@ -3096,7 +3461,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_022"
     },
     {
         "word": "საუზმობა",
@@ -3122,7 +3490,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_023"
     },
     {
         "word": "დაბრუნება",
@@ -3148,7 +3519,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_024"
     },
     {
         "word": "დაწოლა",
@@ -3174,7 +3548,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_025"
     },
     {
         "word": "შემოწმება",
@@ -3200,7 +3577,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_026"
     },
     {
         "word": "პასუხი",
@@ -3226,7 +3606,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_027"
     },
     {
         "word": "წარდგენა",
@@ -3253,7 +3636,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_028"
     },
     {
         "word": "დასწრება",
@@ -3280,7 +3666,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_029"
     },
     {
         "word": "მართვა",
@@ -3307,7 +3696,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_030"
     },
     {
         "word": "გადახდევინება",
@@ -3333,7 +3725,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_shopping_014"
     },
     {
         "word": "წვდომა",
@@ -3359,7 +3754,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_shopping_015"
     },
     {
         "word": "ვალის ქონა",
@@ -3385,7 +3783,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_shopping_016"
     },
     {
         "word": "გამომუშავება",
@@ -3411,7 +3812,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_shopping_017"
     },
     {
         "word": "სტუმრობა",
@@ -3438,7 +3842,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_015"
     },
     {
         "word": "აღნიშვნა",
@@ -3464,7 +3871,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_016"
     },
     {
         "word": "რეკომენდაცია",
@@ -3489,7 +3899,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_017"
     },
     {
         "word": "ტკივილი",
@@ -3516,7 +3929,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_health_medicine_003"
     },
     {
         "word": "დასვენება",
@@ -3542,7 +3958,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_031"
     },
     {
         "word": "გამოჯანმრთელება",
@@ -3568,7 +3987,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_health_medicine_004"
     },
     {
         "word": "დაჯავშნა",
@@ -3595,7 +4017,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_013"
     },
     {
         "word": "ჩალაგება",
@@ -3621,7 +4046,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_014"
     },
     {
         "word": "გაუქმება",
@@ -3648,7 +4076,10 @@
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_015"
     },
     {
         "word": "გამოტოვება",
@@ -3669,12 +4100,15 @@
         "aspect": "both",
         "v2": "გამოტოვა",
         "v3": "გამოტოვებული",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_travel_016"
     },
     {
         "word": "შეკვეთა",
@@ -3701,7 +4135,10 @@
         "v2": "შეუკვეთა",
         "v3": "შეკვეთილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_032"
     },
     {
         "word": "ახსნა",
@@ -3726,12 +4163,15 @@
         "v2": "აუხსნა",
         "v3": "ახსნილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_033"
     },
     {
         "word": "მადლობა",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🙏",
         "subtext": "გადაუხადო მადლობა",
         "synonyms": [
@@ -3751,12 +4191,15 @@
         "v2": "გადაუხადა მადლობა",
         "v3": "მადლობა გადახდილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_018"
     },
     {
         "word": "წარდგენა",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "🤝",
         "subtext": "",
         "synonyms": [
@@ -3777,7 +4220,10 @@
         "v2": "წარადგინა",
         "v3": "წარდგენილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_019"
     },
     {
         "word": "მოდუნება",
@@ -3803,7 +4249,10 @@
         "v2": "მოდუნდა",
         "v3": "მოდუნებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_020"
     },
     {
         "word": "შეკეთება",
@@ -3829,7 +4278,10 @@
         "v2": "შეაკეთა",
         "v3": "შეკეთებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_furniture_005"
     },
     {
         "word": "მოხდენა",
@@ -3856,7 +4308,10 @@
         "v2": "მოხდა",
         "v3": "მოხდენილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_021"
     },
     {
         "word": "ჩენა",
@@ -3882,7 +4337,10 @@
         "v2": "seemed",
         "v3": "მოჩვენებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_022"
     },
     {
         "word": "ნიშნვნა",
@@ -3908,7 +4366,10 @@
         "v2": "meant",
         "v3": "ნიშნებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_school_013"
     },
     {
         "word": "მიყოლა",
@@ -3934,7 +4395,10 @@
         "v2": "მიჰყვა",
         "v3": "მიყოლილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_034"
     },
     {
         "word": "გაგრძელება",
@@ -3960,7 +4424,10 @@
         "v2": "გააგრძელა",
         "v3": "გაგრძელებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_school_014"
     },
     {
         "word": "ზრდა",
@@ -3986,7 +4453,10 @@
         "v2": "გაიზარდა",
         "v3": "გაზრდილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_035"
     },
     {
         "word": "მოცვა",
@@ -4012,7 +4482,10 @@
         "v2": "მოიცვა",
         "v3": "მოცული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_shopping_018"
     },
     {
         "word": "გახდომა",
@@ -4038,7 +4511,10 @@
         "v2": "გახდა",
         "v3": "გამხდარი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_036"
     },
     {
         "word": "კუთვნილება",
@@ -4063,7 +4539,10 @@
         "v2": "ეკუთვნოდა",
         "v3": "კუთვნილი",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_037"
     },
     {
         "word": "არჩევა",
@@ -4090,7 +4569,10 @@
         "v2": "აირჩია",
         "v3": "არჩეული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_social_023"
     },
     {
         "word": "შენება",
@@ -4116,7 +4598,10 @@
         "v2": "built",
         "v3": "აშენებული",
         "group": "i_eb",
-        "auxiliary": ""
+        "auxiliary": "",
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_038"
     }
 ];
     const lang = "ka";

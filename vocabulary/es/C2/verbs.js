@@ -25,7 +25,8 @@ const data = [
         "v4": "reificando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_001"
+        "id": "es_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "sublimar",
@@ -51,7 +52,8 @@ const data = [
         "v4": "sublimando",
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_001"
+        "id": "es_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "predicar",
@@ -76,7 +78,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "phonetics",
-        "id": "es_proficiency_language_002"
+        "id": "es_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "instanciar",
@@ -102,7 +105,8 @@ const data = [
         "v4": "instanciando",
         "lang": "es",
         "sub_theme": "software",
-        "id": "es_proficiency_technology_001"
+        "id": "es_proficiency_technology_001",
+        "transcription": ""
     },
     {
         "word": "negar",
@@ -127,7 +131,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_003"
+        "id": "es_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "trascender",
@@ -153,7 +158,8 @@ const data = [
         "v4": "trascendiendo",
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_002"
+        "id": "es_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "mediar",
@@ -179,7 +185,8 @@ const data = [
         "v4": "mediando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_001"
+        "id": "es_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "elidir",
@@ -205,7 +212,8 @@ const data = [
         "v4": "elidiendo",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_004"
+        "id": "es_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "ofuscar",
@@ -231,7 +239,8 @@ const data = [
         "v4": "ofuscando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_005"
+        "id": "es_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "fusionar",
@@ -257,7 +266,8 @@ const data = [
         "v4": "fusionando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_006"
+        "id": "es_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "invocar",
@@ -283,7 +293,8 @@ const data = [
         "v4": "invocando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_007"
+        "id": "es_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "destacar",
@@ -309,7 +320,8 @@ const data = [
         "v4": "destacando",
         "lang": "es",
         "sub_theme": "art",
-        "id": "es_proficiency_art_culture_001"
+        "id": "es_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "recuperar",
@@ -335,7 +347,8 @@ const data = [
         "v4": "recuperando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_art_culture_002"
+        "id": "es_proficiency_art_culture_002",
+        "transcription": ""
     },
     {
         "word": "desestabilizar",
@@ -361,7 +374,8 @@ const data = [
         "v4": "desestabilizando",
         "lang": "es",
         "sub_theme": "business_lang",
-        "id": "es_proficiency_work_001"
+        "id": "es_proficiency_work_001",
+        "transcription": ""
     },
     {
         "word": "mercantilizar",
@@ -387,7 +401,8 @@ const data = [
         "v4": "mercantilizando",
         "lang": "es",
         "sub_theme": "business_lang",
-        "id": "es_proficiency_work_002"
+        "id": "es_proficiency_work_002",
+        "transcription": ""
     },
     {
         "word": "instrumentalizar",
@@ -413,7 +428,8 @@ const data = [
         "v4": "instrumentalizando",
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_003"
+        "id": "es_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "valorizar",
@@ -439,7 +455,8 @@ const data = [
         "v4": "valorizando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_002"
+        "id": "es_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "fetichizar",
@@ -465,7 +482,8 @@ const data = [
         "v4": "fetichizando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_003"
+        "id": "es_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "alienar",
@@ -491,7 +509,8 @@ const data = [
         "v4": "alienando",
         "lang": "es",
         "sub_theme": "behavior",
-        "id": "es_proficiency_psychology_004"
+        "id": "es_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "demarcar",
@@ -517,7 +536,8 @@ const data = [
         "v4": "demarcando",
         "lang": "es",
         "sub_theme": "behavior",
-        "id": "es_proficiency_psychology_005"
+        "id": "es_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "delimitar",
@@ -543,7 +563,8 @@ const data = [
         "v4": "delimitando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_001"
+        "id": "es_proficiency_school_001",
+        "transcription": ""
     },
     {
         "word": "militar",
@@ -569,7 +590,8 @@ const data = [
         "v4": "militando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_008"
+        "id": "es_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "viciar",
@@ -595,7 +617,8 @@ const data = [
         "v4": "viciando",
         "lang": "es",
         "sub_theme": "business_lang",
-        "id": "es_proficiency_work_003"
+        "id": "es_proficiency_work_003",
+        "transcription": ""
     },
     {
         "word": "contradecir",
@@ -620,7 +643,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_009"
+        "id": "es_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "abrogar",
@@ -646,7 +670,8 @@ const data = [
         "v4": "abrogando",
         "lang": "es",
         "sub_theme": "business_lang",
-        "id": "es_proficiency_work_004"
+        "id": "es_proficiency_work_004",
+        "transcription": ""
     },
     {
         "word": "contravenir",
@@ -671,7 +696,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_010"
+        "id": "es_proficiency_language_010",
+        "transcription": ""
     },
     {
         "word": "subsumir",
@@ -697,7 +723,8 @@ const data = [
         "v4": "subsumiendo",
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_006"
+        "id": "es_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "deconstruir",
@@ -722,7 +749,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "literature",
-        "id": "es_proficiency_art_culture_003"
+        "id": "es_proficiency_art_culture_003",
+        "transcription": ""
     },
     {
         "word": "precluir",
@@ -747,7 +775,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_011"
+        "id": "es_proficiency_language_011",
+        "transcription": ""
     },
     {
         "word": "dialectizar",
@@ -773,7 +802,8 @@ const data = [
         "v4": "dialectizando",
         "lang": "es",
         "sub_theme": "cognitive_processes",
-        "id": "es_proficiency_psychology_007"
+        "id": "es_proficiency_psychology_007",
+        "transcription": ""
     },
     {
         "word": "hegemonizar",
@@ -799,7 +829,8 @@ const data = [
         "v4": "hegemonizando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_004"
+        "id": "es_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "acentuar",
@@ -825,7 +856,8 @@ const data = [
         "v4": "acentuando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_002"
+        "id": "es_proficiency_school_002",
+        "transcription": ""
     },
     {
         "word": "asentir",
@@ -850,7 +882,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_012"
+        "id": "es_proficiency_language_012",
+        "transcription": ""
     },
     {
         "word": "aliviar",
@@ -876,7 +909,8 @@ const data = [
         "v4": "aliviando",
         "lang": "es",
         "sub_theme": "business_lang",
-        "id": "es_proficiency_work_005"
+        "id": "es_proficiency_work_005",
+        "transcription": ""
     },
     {
         "word": "eludir",
@@ -902,7 +936,8 @@ const data = [
         "v4": "eludiendo",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_013"
+        "id": "es_proficiency_language_013",
+        "transcription": ""
     },
     {
         "word": "corroborar",
@@ -928,7 +963,8 @@ const data = [
         "v4": "corroborando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_003"
+        "id": "es_proficiency_school_003",
+        "transcription": ""
     },
     {
         "word": "difundir",
@@ -954,7 +990,8 @@ const data = [
         "v4": "difundiendo",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_004"
+        "id": "es_proficiency_school_004",
+        "transcription": ""
     },
     {
         "word": "encapsular",
@@ -980,7 +1017,8 @@ const data = [
         "v4": "encapsulando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_005"
+        "id": "es_proficiency_school_005",
+        "transcription": ""
     },
     {
         "word": "engendrar",
@@ -1006,7 +1044,8 @@ const data = [
         "v4": "engendrando",
         "lang": "es",
         "sub_theme": null,
-        "id": "es_proficiency_social_005"
+        "id": "es_proficiency_social_005",
+        "transcription": ""
     },
     {
         "word": "exacerbar",
@@ -1032,7 +1071,8 @@ const data = [
         "v4": "exacerbando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_006"
+        "id": "es_proficiency_school_006",
+        "transcription": ""
     },
     {
         "word": "ejemplificar",
@@ -1058,7 +1098,8 @@ const data = [
         "v4": "ejemplificando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_007"
+        "id": "es_proficiency_school_007",
+        "transcription": ""
     },
     {
         "word": "impedir",
@@ -1083,7 +1124,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_008"
+        "id": "es_proficiency_school_008",
+        "transcription": ""
     },
     {
         "word": "mitigar",
@@ -1109,7 +1151,8 @@ const data = [
         "v4": "mitigando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_009"
+        "id": "es_proficiency_school_009",
+        "transcription": ""
     },
     {
         "word": "obligar",
@@ -1135,7 +1178,8 @@ const data = [
         "v4": "obligando",
         "lang": "es",
         "sub_theme": "business_lang",
-        "id": "es_proficiency_work_006"
+        "id": "es_proficiency_work_006",
+        "transcription": ""
     },
     {
         "word": "impregnar",
@@ -1161,7 +1205,8 @@ const data = [
         "v4": "impregnando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_010"
+        "id": "es_proficiency_school_010",
+        "transcription": ""
     },
     {
         "word": "excluir",
@@ -1186,7 +1231,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_011"
+        "id": "es_proficiency_school_011",
+        "transcription": ""
     },
     {
         "word": "reconciliar",
@@ -1212,7 +1258,8 @@ const data = [
         "v4": "reconciliando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_012"
+        "id": "es_proficiency_school_012",
+        "transcription": ""
     },
     {
         "word": "sustituir",
@@ -1237,7 +1284,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "business_lang",
-        "id": "es_proficiency_work_007"
+        "id": "es_proficiency_work_007",
+        "transcription": ""
     },
     {
         "word": "sustentar",
@@ -1263,7 +1311,8 @@ const data = [
         "v4": "sustentando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_013"
+        "id": "es_proficiency_school_013",
+        "transcription": ""
     },
     {
         "word": "reivindicar",
@@ -1289,7 +1338,8 @@ const data = [
         "v4": "reivindicando",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_014"
+        "id": "es_proficiency_school_014",
+        "transcription": ""
     },
     {
         "word": "depender de",
@@ -1314,7 +1364,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_015"
+        "id": "es_proficiency_school_015",
+        "transcription": ""
     },
     {
         "word": "lidiar con",
@@ -1339,7 +1390,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_016"
+        "id": "es_proficiency_school_016",
+        "transcription": ""
     },
     {
         "word": "pasar por alto",
@@ -1364,7 +1416,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_014"
+        "id": "es_proficiency_language_014",
+        "transcription": ""
     },
     {
         "word": "disimular",
@@ -1390,7 +1443,8 @@ const data = [
         "v4": "disimulando",
         "lang": "es",
         "sub_theme": "discourse",
-        "id": "es_proficiency_language_015"
+        "id": "es_proficiency_language_015",
+        "transcription": ""
     },
     {
         "word": "cambio de paradigma",
@@ -1415,7 +1469,8 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "subjects",
-        "id": "es_proficiency_school_017"
+        "id": "es_proficiency_school_017",
+        "transcription": ""
     }
 ];
     const lang = "es";

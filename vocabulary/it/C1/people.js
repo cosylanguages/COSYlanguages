@@ -5,7 +5,9 @@
         "level": "advanced",
         "theme": "identity_self_c1",
         "lang": "it",
-        "id": "it_advanced_identity_self_c1_misc_umberto_eco"
+        "id": "it_advanced_identity_self_c1_misc_umberto_eco",
+        "transcription": "",
+        "emoji": "✨"
     }
 ];
     const lang = "it";

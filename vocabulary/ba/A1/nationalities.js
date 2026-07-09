@@ -1,10 +1,61 @@
 // TODO: verify level classification
 (function() {
     const data = [
-        { "word": "башҡорт", "level": "starter", "theme": "nationalities", "emoji": "⬜", "form": "adjective", "definitions": [{ "text": "Башҡортостандан.", "examples": ["Мин башҡорт."] }] },
-        { "word": "урыҫ", "level": "starter", "theme": "nationalities", "emoji": "🇷🇺", "form": "adjective", "definitions": [{ "text": "Россиянан.", "examples": ["Ул урыҫ."] }] },
-        { "word": "татар", "level": "starter", "theme": "nationalities", "emoji": "⬜", "form": "adjective", "definitions": [{ "text": "Татарстандан.", "examples": ["Алар татар."] }] }
-    ];
+    {
+        "word": "башҡорт",
+        "level": "starter",
+        "theme": "people",
+        "emoji": "⬜",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Башҡортостандан.",
+                "examples": [
+                    "Мин башҡорт."
+                ]
+            }
+        ],
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_people_001"
+    },
+    {
+        "word": "урыҫ",
+        "level": "starter",
+        "theme": "people",
+        "emoji": "🇷🇺",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Россиянан.",
+                "examples": [
+                    "Ул урыҫ."
+                ]
+            }
+        ],
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_people_002"
+    },
+    {
+        "word": "татар",
+        "level": "starter",
+        "theme": "people",
+        "emoji": "⬜",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Татарстандан.",
+                "examples": [
+                    "Алар татар."
+                ]
+            }
+        ],
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_people_003"
+    }
+];
     const lang = "ba";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

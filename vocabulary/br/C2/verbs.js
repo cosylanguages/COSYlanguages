@@ -23,7 +23,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_philosophy_logic_001"
+        "id": "br_proficiency_philosophy_logic_001",
+        "transcription": ""
     },
     {
         "word": "isberliñ",
@@ -47,7 +48,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_psychology_academic_001"
+        "id": "br_proficiency_psychology_academic_001",
+        "transcription": ""
     },
     {
         "word": "predikadiñ",
@@ -71,7 +73,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_logic_linguistics_001"
+        "id": "br_proficiency_logic_linguistics_001",
+        "transcription": ""
     },
     {
         "word": "instañsiñ",
@@ -95,7 +98,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_logic_computing_001"
+        "id": "br_proficiency_logic_computing_001",
+        "transcription": ""
     },
     {
         "word": "nac'hañ",
@@ -119,7 +123,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_logic_debate_001"
+        "id": "br_proficiency_logic_debate_001",
+        "transcription": ""
     },
     {
         "word": "treuziñ",
@@ -143,7 +148,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_philosophy_general_001"
+        "id": "br_proficiency_philosophy_general_001",
+        "transcription": ""
     },
     {
         "word": "mediadiñ",
@@ -167,7 +173,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_sociology_conflict_001"
+        "id": "br_proficiency_sociology_conflict_001",
+        "transcription": ""
     },
     {
         "word": "elidañ",
@@ -191,7 +198,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_linguistics_debate_001"
+        "id": "br_proficiency_linguistics_debate_001",
+        "transcription": ""
     },
     {
         "word": "diskañ",
@@ -215,12 +223,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_debate_communication_001"
+        "id": "br_proficiency_debate_communication_001",
+        "transcription": ""
     },
     {
         "word": "kenliammañ",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🌀",
         "subtext": "kenliammañ kudennoù / kenliammañ gant / kenliammañ en un doare dañjerus",
         "form": "verb",
@@ -239,7 +248,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_debate_academic_001"
+        "id": "br_proficiency_debate_academic_001",
+        "transcription": ""
     },
     {
         "word": "galvel",
@@ -263,7 +273,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_law_debate_001"
+        "id": "br_proficiency_law_debate_001",
+        "transcription": ""
     },
     {
         "word": "lakaat war-raok",
@@ -287,7 +298,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_art_media_001"
+        "id": "br_proficiency_art_media_001",
+        "transcription": ""
     },
     {
         "word": "adpakañ",
@@ -311,7 +323,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_sociology_culture_001"
+        "id": "br_proficiency_sociology_culture_001",
+        "transcription": ""
     },
     {
         "word": "distabilizañ",
@@ -335,7 +348,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_politics_academic_001"
+        "id": "br_proficiency_politics_academic_001",
+        "transcription": ""
     },
     {
         "word": "marc'hadourezhaat",
@@ -359,7 +373,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_economics_sociology_001"
+        "id": "br_proficiency_economics_sociology_001",
+        "transcription": ""
     },
     {
         "word": "benvekaat",
@@ -383,7 +398,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_politics_philosophy_001"
+        "id": "br_proficiency_politics_philosophy_001",
+        "transcription": ""
     },
     {
         "word": "prizañ",
@@ -407,7 +423,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_sociology_academic_001"
+        "id": "br_proficiency_sociology_academic_001",
+        "transcription": ""
     },
     {
         "word": "fetikaat",
@@ -431,7 +448,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_sociology_academic_002"
+        "id": "br_proficiency_sociology_academic_002",
+        "transcription": ""
     },
     {
         "word": "estranaat",
@@ -455,7 +473,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_sociology_psychology_001"
+        "id": "br_proficiency_sociology_psychology_001",
+        "transcription": ""
     },
     {
         "word": "bevennañ",
@@ -479,7 +498,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_law_philosophy_001"
+        "id": "br_proficiency_law_philosophy_001",
+        "transcription": ""
     },
     {
         "word": "bevennañ",
@@ -503,12 +523,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_academic_research_001"
+        "id": "br_proficiency_academic_research_001",
+        "transcription": ""
     },
     {
         "word": "stourm ouzh",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🛡️",
         "subtext": "stourm ouzh / stourm kreñv / bezañ a-du gant",
         "form": "verb",
@@ -527,12 +548,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_debate_academic_002"
+        "id": "br_proficiency_debate_academic_002",
+        "transcription": ""
     },
     {
         "word": "gwallañ",
         "level": "proficiency",
-        "theme": "law_academic",
+        "theme": "work",
         "emoji": "☤",
         "subtext": "gwallañ un embann / gwallañ un arguzenn / gwallet ent-lezennel",
         "form": "verb",
@@ -551,7 +573,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_law_academic_001"
+        "id": "br_proficiency_law_academic_001",
+        "transcription": ""
     },
     {
         "word": "enebiñ ouzh",
@@ -575,7 +598,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_debate_logic_001"
+        "id": "br_proficiency_debate_logic_001",
+        "transcription": ""
     },
     {
         "word": "nullañ",
@@ -599,7 +623,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_law_politics_001"
+        "id": "br_proficiency_law_politics_001",
+        "transcription": ""
     },
     {
         "word": "terriñ",
@@ -623,7 +648,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_law_debate_002"
+        "id": "br_proficiency_law_debate_002",
+        "transcription": ""
     },
     {
         "word": "ebarzhañ",
@@ -647,7 +673,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_logic_philosophy_001"
+        "id": "br_proficiency_logic_philosophy_001",
+        "transcription": ""
     },
     {
         "word": "dielfonnañ",
@@ -671,7 +698,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_philosophy_literature_001"
+        "id": "br_proficiency_philosophy_literature_001",
+        "transcription": ""
     },
     {
         "word": "rakserriñ",
@@ -695,7 +723,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_law_debate_003"
+        "id": "br_proficiency_law_debate_003",
+        "transcription": ""
     },
     {
         "word": "dialegekaat",
@@ -719,7 +748,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_philosophy_academic_001"
+        "id": "br_proficiency_philosophy_academic_001",
+        "transcription": ""
     },
     {
         "word": "hegemonekaat",
@@ -743,12 +773,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_politics_sociology_001"
+        "id": "br_proficiency_politics_sociology_001",
+        "transcription": ""
     },
     {
         "word": "pouezañ war",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🔊",
         "subtext": "pouezañ war un diforc'h / pouezañ war ar poentoù mat",
         "form": "verb",
@@ -767,7 +798,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_001"
+        "id": "br_proficiency_general_academic_001",
+        "transcription": ""
     },
     {
         "word": "plegañ da",
@@ -791,7 +823,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_debate_communication_002"
+        "id": "br_proficiency_debate_communication_002",
+        "transcription": ""
     },
     {
         "word": "skañvaat",
@@ -815,7 +848,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_policy_general_001"
+        "id": "br_proficiency_policy_general_001",
+        "transcription": ""
     },
     {
         "word": "treuzveizañ",
@@ -839,7 +873,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_debate_general_001"
+        "id": "br_proficiency_debate_general_001",
+        "transcription": ""
     },
     {
         "word": "kadarnaat",
@@ -863,7 +898,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_academic_research_002"
+        "id": "br_proficiency_academic_research_002",
+        "transcription": ""
     },
     {
         "word": "skignañ",
@@ -887,12 +923,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_academic_research_003"
+        "id": "br_proficiency_academic_research_003",
+        "transcription": ""
     },
     {
         "word": "kenvellañ",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "💊",
         "subtext": "kenvellañ ur mennozh / kenvellañ ar gudenn / kenvellañ mat",
         "form": "verb",
@@ -911,7 +948,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_002"
+        "id": "br_proficiency_general_academic_002",
+        "transcription": ""
     },
     {
         "word": "engehentañ",
@@ -935,12 +973,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_sociology_general_001"
+        "id": "br_proficiency_sociology_general_001",
+        "transcription": ""
     },
     {
         "word": "gwashaat",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🔥",
         "subtext": "gwashaat ur gudenn / gwashaat an dizingalder",
         "form": "verb",
@@ -959,12 +998,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_003"
+        "id": "br_proficiency_general_academic_003",
+        "transcription": ""
     },
     {
         "word": "skoueriaat",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "📖",
         "subtext": "skoueriaat un dra bennak / skoueriaat ar gudenn / skoueriaat splann",
         "form": "verb",
@@ -983,12 +1023,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_004"
+        "id": "br_proficiency_general_academic_004",
+        "transcription": ""
     },
     {
         "word": "skoilhañ",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🚧",
         "subtext": "skoilhañ an araokadenn / skoilhañ ar c'hresk / skoilhañ unan bennak d'ober",
         "form": "verb",
@@ -1007,12 +1048,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_005"
+        "id": "br_proficiency_general_academic_005",
+        "transcription": ""
     },
     {
         "word": "koazhañ",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🛡️",
         "subtext": "koazhañ ar riskl / koazhañ an efed / stourm ouzh",
         "form": "verb",
@@ -1031,12 +1073,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_006"
+        "id": "br_proficiency_general_academic_006",
+        "transcription": ""
     },
     {
         "word": "rediañ",
         "level": "proficiency",
-        "theme": "law_general",
+        "theme": "work",
         "emoji": "⚖️",
         "subtext": "bezañ rediet da / rediañ unan bennak da / en em santiñ rediet",
         "form": "verb",
@@ -1055,12 +1098,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_law_general_001"
+        "id": "br_proficiency_law_general_001",
+        "transcription": ""
     },
     {
         "word": "treuziñ",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "💧",
         "subtext": "treuziñ an aozadur / bezañ treuzet gant / hollvezant",
         "form": "verb",
@@ -1079,12 +1123,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_007"
+        "id": "br_proficiency_general_academic_007",
+        "transcription": ""
     },
     {
         "word": "diarbenn",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🚫",
         "subtext": "diarbenn unan bennak / diarbenn ar posublost / chom hep diarbenn",
         "form": "verb",
@@ -1103,12 +1148,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_008"
+        "id": "br_proficiency_general_academic_008",
+        "transcription": ""
     },
     {
         "word": "kempouezañ",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "kempouezañ mennozhioù / diaes da gempouezañ / kempouezañ dizingalderioù",
         "form": "verb",
@@ -1127,12 +1173,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_009"
+        "id": "br_proficiency_general_academic_009",
+        "transcription": ""
     },
     {
         "word": "erlec'hiañ",
         "level": "proficiency",
-        "theme": "law_academic",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "erlec'hiañ ul lezenn / bezañ erlec'hiet gant",
         "form": "verb",
@@ -1151,12 +1198,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_law_academic_002"
+        "id": "br_proficiency_law_academic_002",
+        "transcription": ""
     },
     {
         "word": "diazezañ",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "⚓",
         "subtext": "diazezañ un arguzenn / diazezañ ar berzh / bezañ diazezet war",
         "form": "verb",
@@ -1175,12 +1223,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_010"
+        "id": "br_proficiency_general_academic_010",
+        "transcription": ""
     },
     {
         "word": "mirc'hellañ",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🏆",
         "subtext": "mirc'hellañ unan bennak / mirc'hellañ un diviz / en em santiñ mirc'hellet",
         "form": "verb",
@@ -1199,12 +1248,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_011"
+        "id": "br_proficiency_general_academic_011",
+        "transcription": ""
     },
     {
         "word": "dependiñ diouzh",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "⛓️",
         "subtext": "dependiñ diouzh un diviz / kement tra a depend diouzh",
         "form": "verb",
@@ -1223,12 +1273,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_012"
+        "id": "br_proficiency_general_academic_012",
+        "transcription": ""
     },
     {
         "word": "stourm ouzh",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🤼",
         "subtext": "stourm ouzh ur gudenn / stourm ouzh an heuliadoù / stourm ouzh ar luziegezh",
         "form": "verb",
@@ -1247,12 +1298,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_general_academic_013"
+        "id": "br_proficiency_general_academic_013",
+        "transcription": ""
     },
     {
         "word": "pasañ dreist",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🙈",
         "subtext": "pasañ dreist ur gudenn / pasañ dreist ar munudoù",
         "form": "verb",
@@ -1271,12 +1323,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_debate_academic_003"
+        "id": "br_proficiency_debate_academic_003",
+        "transcription": ""
     },
     {
         "word": "kuzhat",
         "level": "proficiency",
-        "theme": "debate_politics",
+        "theme": "social",
         "emoji": "🩹",
         "subtext": "kuzhat ur gudenn / kuzhat an diforc'hioù",
         "form": "verb",
@@ -1295,12 +1348,13 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_debate_politics_001"
+        "id": "br_proficiency_debate_politics_001",
+        "transcription": ""
     },
     {
         "word": "cheñchamant paradign",
         "level": "proficiency",
-        "theme": "academic_general",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "ur cheñchamant diazez en doare d'ober",
         "form": "verb",
@@ -1319,7 +1373,8 @@
         "group": "añ",
         "auxiliary": "kaout",
         "lang": "br",
-        "id": "br_proficiency_academic_general_001"
+        "id": "br_proficiency_academic_general_001",
+        "transcription": ""
     }
 ];
     const lang = "br";

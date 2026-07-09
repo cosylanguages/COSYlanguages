@@ -7,7 +7,6 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "opposite": "evening",
         "subtext": "early morning, good morning",
         "definitions": [
             {
@@ -21,7 +20,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "evening"
+        ]
     },
     {
         "id": "en_starter_time_018",
@@ -30,7 +32,6 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "opposite": "morning",
         "subtext": "this evening, good evening",
         "definitions": [
             {
@@ -44,7 +45,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "morning"
+        ]
     },
     {
         "id": "en_starter_time_019",
@@ -54,7 +58,6 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "days",
-        "opposite": "night",
         "definitions": [
             {
                 "text": "A period of 24 hours.",
@@ -72,7 +75,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "dagaz"
-        }
+        },
+        "antonyms": [
+            "night"
+        ]
     },
     {
         "id": "en_starter_time_020",
@@ -129,7 +135,6 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "opposite": "evening",
         "subtext": "this afternoon, good afternoon",
         "definitions": [
             {
@@ -143,7 +148,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "evening"
+        ]
     },
     {
         "id": "en_starter_time_023",
@@ -153,7 +161,6 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "nights",
-        "opposite": "day",
         "subtext": "good night, at night",
         "definitions": [
             {
@@ -171,7 +178,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "nahts"
-        }
+        },
+        "antonyms": [
+            "day"
+        ]
     },
     {
         "id": "en_starter_time_024",
@@ -656,7 +666,7 @@
         "transcription": "əˈgɛn",
         "lang": "en",
         "level": "starter",
-        "theme": "frequency_adverbs",
+        "theme": "language",
         "sub_theme": null
     },
     {
@@ -706,7 +716,6 @@
         "word": "yesterday",
         "emoji": "📅",
         "form": "adverb",
-        "opposite": "tomorrow",
         "definitions": [
             {
                 "text": "On the day before today.",
@@ -720,7 +729,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "tomorrow"
+        ]
     },
     {
         "id": "en_starter_duration_expressions_002",
@@ -1038,7 +1050,6 @@
         "id": "en_starter_time_032",
         "word": "before",
         "form": "preposition",
-        "opposite": "after",
         "definitions": [
             {
                 "text": "At an earlier time; in front of.",
@@ -1053,13 +1064,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "after"
+        ]
     },
     {
         "id": "en_starter_time_033",
         "word": "after",
         "form": "preposition",
-        "opposite": "before",
         "definitions": [
             {
                 "text": "At a later time; following.",
@@ -1074,14 +1087,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "before"
+        ]
     },
     {
         "id": "en_starter_time_034",
         "word": "last",
         "emoji": "🔚",
         "form": "adjective",
-        "opposite": "first",
         "comparative": null,
         "superlative": null,
         "definitions": [
@@ -1097,14 +1112,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "first"
+        ]
     },
     {
         "id": "en_starter_time_035",
         "word": "next",
         "emoji": "⏭️",
         "form": "adjective",
-        "opposite": "previous",
         "comparative": null,
         "superlative": null,
         "definitions": [
@@ -1120,7 +1137,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "previous"
+        ]
     },
     {
         "id": "en_starter_dates_years_004",
@@ -1151,11 +1171,8 @@
     {
         "id": "en_starter_time_036",
         "word": "sleep",
-        "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "emoji": "😴",
         "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
-        "opposite": "wake up",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1180,15 +1197,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "slēpan",
             "origin_meaning": "to sleep"
-        }
+        },
+        "antonyms": [
+            "wake up"
+        ]
     },
     {
         "id": "en_starter_time_037",
         "word": "early",
         "emoji": "🌅",
         "form": "adjective",
-        "opposite": "late",
-        "oppositeEmoji": "🌙",
         "subtext": "early morning / early riser",
         "synonyms": [
             "soon"
@@ -1207,15 +1225,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "late"
+        ]
     },
     {
         "id": "en_starter_time_038",
         "word": "late",
         "emoji": "🌙",
         "form": "adjective",
-        "opposite": "early",
-        "oppositeEmoji": "🌅",
         "subtext": "late night / too late",
         "synonyms": [
             "tardy"
@@ -1234,7 +1253,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "early"
+        ]
     },
     {
         "id": "en_starter_time_039",

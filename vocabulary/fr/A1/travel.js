@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "voiture",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "voitures",
         "subtext": "conduire une voiture, voiture rapide",
         "definitions": [
@@ -18,15 +20,19 @@
                 ]
             }
         ],
-        "transcription": "/vwa.tyʁ/"
+        "transcription": "/vwa.tyʁ/",
+        "lang": "fr",
+        "id": "fr_starter_travel_001"
     },
-{
+    {
         "word": "trajet",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "le",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "trajets",
         "definitions": [
             {
@@ -36,15 +42,19 @@
                 ]
             }
         ],
-        "transcription": "/tʁa.ʒɛ/"
+        "transcription": "/tʁa.ʒɛ/",
+        "lang": "fr",
+        "id": "fr_starter_travel_002"
     },
-{
+    {
         "word": "hôtel",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "l'",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "hôtels",
         "definitions": [
             {
@@ -54,16 +64,20 @@
                 ]
             }
         ],
-        "transcription": "/o.tɛl/"
+        "transcription": "/o.tɛl/",
+        "lang": "fr",
+        "id": "fr_starter_travel_003"
     },
-{
+    {
         "word": "avion",
         "level": "starter",
         "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "avions",
         "definitions": [
             {
@@ -73,16 +87,20 @@
                 ]
             }
         ],
-        "transcription": "/a.vjɔ̃/"
+        "transcription": "/a.vjɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_travel_004"
     },
-{
+    {
         "word": "vélo",
         "level": "starter",
         "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚲",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vélos",
         "definitions": [
             {
@@ -92,16 +110,20 @@
                 ]
             }
         ],
-        "transcription": "/ve.lo/"
+        "transcription": "/ve.lo/",
+        "lang": "fr",
+        "id": "fr_starter_travel_005"
     },
-{
+    {
         "word": "bateau",
         "level": "starter",
         "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "⛵",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bateaux",
         "definitions": [
             {
@@ -111,16 +133,20 @@
                 ]
             }
         ],
-        "transcription": "/ba.to/"
+        "transcription": "/ba.to/",
+        "lang": "fr",
+        "id": "fr_starter_travel_006"
     },
-{
+    {
         "word": "voyageur",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "voyageurs",
         "definitions": [
             {
@@ -130,16 +156,20 @@
                 ]
             }
         ],
-        "transcription": "/vwa.ja.ʒœʁ/"
+        "transcription": "/vwa.ja.ʒœʁ/",
+        "lang": "fr",
+        "id": "fr_starter_travel_007"
     },
-{
+    {
         "word": "valise",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧳",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "valises",
         "definitions": [
             {
@@ -149,16 +179,20 @@
                 ]
             }
         ],
-        "transcription": "/va.liz/"
+        "transcription": "/va.liz/",
+        "lang": "fr",
+        "id": "fr_starter_travel_008"
     },
-{
+    {
         "word": "sac à dos",
         "level": "starter",
         "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎒",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sacs à dos",
         "definitions": [
             {
@@ -168,16 +202,20 @@
                 ]
             }
         ],
-        "transcription": "/sak a do/"
+        "transcription": "/sak a do/",
+        "lang": "fr",
+        "id": "fr_starter_travel_009"
     },
-{
+    {
         "word": "passeport",
         "level": "starter",
         "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛂",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "passeports",
         "definitions": [
             {
@@ -187,16 +225,20 @@
                 ]
             }
         ],
-        "transcription": "/pas.pɔʁ/"
+        "transcription": "/pas.pɔʁ/",
+        "lang": "fr",
+        "id": "fr_starter_travel_010"
     },
-{
+    {
         "word": "billet",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎟️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "billets",
         "definitions": [
             {
@@ -206,16 +248,20 @@
                 ]
             }
         ],
-        "transcription": "/bi.jɛ/"
+        "transcription": "/bi.jɛ/",
+        "lang": "fr",
+        "id": "fr_starter_travel_011"
     },
-{
+    {
         "word": "carte",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cartes",
         "definitions": [
             {
@@ -225,16 +271,20 @@
                 ]
             }
         ],
-        "transcription": "/kaʁt/"
+        "transcription": "/kaʁt/",
+        "lang": "fr",
+        "id": "fr_starter_travel_012"
     },
-{
+    {
         "word": "plan",
         "level": "starter",
         "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "📍",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "plans",
         "definitions": [
             {
@@ -244,16 +294,20 @@
                 ]
             }
         ],
-        "transcription": "/plɑ̃/"
+        "transcription": "/plɑ̃/",
+        "lang": "fr",
+        "id": "fr_starter_travel_013"
     },
-{
+    {
         "word": "gare",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚉",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gares",
         "definitions": [
             {
@@ -263,16 +317,20 @@
                 ]
             }
         ],
-        "transcription": "/ɡaʁ/"
+        "transcription": "/ɡaʁ/",
+        "lang": "fr",
+        "id": "fr_starter_travel_014"
     },
-{
+    {
         "word": "aéroport",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "aéroports",
         "definitions": [
             {
@@ -282,16 +340,20 @@
                 ]
             }
         ],
-        "transcription": "/a.e.ʁɔ.pɔʁ/"
+        "transcription": "/a.e.ʁɔ.pɔʁ/",
+        "lang": "fr",
+        "id": "fr_starter_travel_015"
     },
-{
+    {
         "word": "station de bus",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stations de bus",
         "definitions": [
             {
@@ -301,16 +363,20 @@
                 ]
             }
         ],
-        "transcription": "/sta.sjɔ̃ də bys/"
+        "transcription": "/sta.sjɔ̃ də bys/",
+        "lang": "fr",
+        "id": "fr_starter_travel_016"
     },
-{
+    {
         "word": "arrêt de bus",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🚏",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "arrêts de bus",
         "definitions": [
             {
@@ -320,16 +386,20 @@
                 ]
             }
         ],
-        "transcription": "/a.ʁɛ də bys/"
+        "transcription": "/a.ʁɛ də bys/",
+        "lang": "fr",
+        "id": "fr_starter_travel_017"
     },
-{
+    {
         "word": "quai",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛤️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "quais",
         "definitions": [
             {
@@ -339,16 +409,20 @@
                 ]
             }
         ],
-        "transcription": "/ke/"
+        "transcription": "/ke/",
+        "lang": "fr",
+        "id": "fr_starter_travel_018"
     },
-{
+    {
         "word": "voie",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛤️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "voies",
         "definitions": [
             {
@@ -358,16 +432,20 @@
                 ]
             }
         ],
-        "transcription": "/vwa/"
+        "transcription": "/vwa/",
+        "lang": "fr",
+        "id": "fr_starter_travel_019"
     },
-{
+    {
         "word": "train",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "trains",
         "definitions": [
             {
@@ -377,16 +455,20 @@
                 ]
             }
         ],
-        "transcription": "/tʁɛ̃/"
+        "transcription": "/tʁɛ̃/",
+        "lang": "fr",
+        "id": "fr_starter_travel_020"
     },
-{
+    {
         "word": "bus",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bus",
         "definitions": [
             {
@@ -396,16 +478,20 @@
                 ]
             }
         ],
-        "transcription": "/bys/"
+        "transcription": "/bys/",
+        "lang": "fr",
+        "id": "fr_starter_travel_021"
     },
-{
+    {
         "word": "métro",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚇",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "métros",
         "definitions": [
             {
@@ -415,16 +501,20 @@
                 ]
             }
         ],
-        "transcription": "/me.tʁo/"
+        "transcription": "/me.tʁo/",
+        "lang": "fr",
+        "id": "fr_starter_travel_022"
     },
-{
+    {
         "word": "taxi",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚕",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "taxis",
         "definitions": [
             {
@@ -434,16 +524,20 @@
                 ]
             }
         ],
-        "transcription": "/tak.si/"
+        "transcription": "/tak.si/",
+        "lang": "fr",
+        "id": "fr_starter_travel_023"
     },
-{
+    {
         "word": "vitesse",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏎️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vitesses",
         "definitions": [
             {
@@ -453,16 +547,20 @@
                 ]
             }
         ],
-        "transcription": "/vi.tɛs/"
+        "transcription": "/vi.tɛs/",
+        "lang": "fr",
+        "id": "fr_starter_travel_024"
     },
-{
+    {
         "word": "bagages",
         "level": "starter",
         "theme": "travel",
         "article": "les",
         "gender": "masculine",
         "emoji": "🧳",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bagages",
         "definitions": [
             {
@@ -472,16 +570,20 @@
                 ]
             }
         ],
-        "transcription": "/ba.ɡaʒ/"
+        "transcription": "/ba.ɡaʒ/",
+        "lang": "fr",
+        "id": "fr_starter_travel_025"
     },
-{
+    {
         "word": "voyage",
         "level": "starter",
         "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "voyages",
         "definitions": [
             {
@@ -491,16 +593,20 @@
                 ]
             }
         ],
-        "transcription": "/vwa.jaʒ/"
+        "transcription": "/vwa.jaʒ/",
+        "lang": "fr",
+        "id": "fr_starter_travel_026"
     },
-{
+    {
         "word": "départ",
         "level": "starter",
         "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛫",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "départs",
         "definitions": [
             {
@@ -510,16 +616,20 @@
                 ]
             }
         ],
-        "transcription": "/de.paʁ/"
+        "transcription": "/de.paʁ/",
+        "lang": "fr",
+        "id": "fr_starter_travel_027"
     },
-{
+    {
         "word": "arrivée",
         "level": "starter",
         "theme": "travel",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🛬",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "arrivées",
         "definitions": [
             {
@@ -529,16 +639,20 @@
                 ]
             }
         ],
-        "transcription": "/a.ʁi.ve/"
+        "transcription": "/a.ʁi.ve/",
+        "lang": "fr",
+        "id": "fr_starter_travel_028"
     },
-{
+    {
         "word": "vol",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "article": "le",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vols",
         "definitions": [
             {
@@ -548,16 +662,20 @@
                 ]
             }
         ],
-        "transcription": "/vɔl/"
+        "transcription": "/vɔl/",
+        "lang": "fr",
+        "id": "fr_starter_travel_029"
     },
-{
+    {
         "word": "réservation",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "📖",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "réservations",
         "definitions": [
             {
@@ -567,16 +685,20 @@
                 ]
             }
         ],
-        "transcription": "/ʁe.zɛʁ.va.sjɔ̃/"
+        "transcription": "/ʁe.zɛʁ.va.sjɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_travel_030"
     },
-{
+    {
         "word": "chambre d'hôtel",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chambres d'hôtel",
         "definitions": [
             {
@@ -586,16 +708,20 @@
                 ]
             }
         ],
-        "transcription": "/ʃɑ̃.bʁə d‿o.tɛl/"
+        "transcription": "/ʃɑ̃.bʁə d‿o.tɛl/",
+        "lang": "fr",
+        "id": "fr_starter_travel_031"
     },
-{
+    {
         "word": "clé",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "clés",
         "definitions": [
             {
@@ -605,16 +731,20 @@
                 ]
             }
         ],
-        "transcription": "/kle/"
+        "transcription": "/kle/",
+        "lang": "fr",
+        "id": "fr_starter_travel_032"
     },
-{
+    {
         "word": "réception",
         "level": "starter",
         "theme": "travel",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛎️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "réceptions",
         "definitions": [
             {
@@ -624,9 +754,11 @@
                 ]
             }
         ],
-        "transcription": "/ʁe.sɛp.sjɔ̃/"
+        "transcription": "/ʁe.sɛp.sjɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_travel_033"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

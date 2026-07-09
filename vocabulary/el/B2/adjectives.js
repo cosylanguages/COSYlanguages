@@ -15,7 +15,8 @@
                     "Χρειαζόμαστε βιώσιμη ανάπτυξη."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_politics_governance_001",
@@ -26,7 +27,10 @@
         "emoji": "🏛️",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["δημόσιος", "κοινωνικός"],
+        "synonyms": [
+            "δημόσιος",
+            "κοινωνικός"
+        ],
         "definitions": [
             {
                 "text": "Που σχετίζεται με την πόλη, την κοινωνία ή τους πολίτες.",
@@ -34,7 +38,8 @@
                     "Η ψηφοφορία είναι πολιτικό καθήκον."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_serious_illness_treatment_001",
@@ -45,7 +50,9 @@
         "emoji": "⏳🤒",
         "form": "adjective",
         "subtext": "χρόνιος πόνος",
-        "antonyms": ["οξύς"],
+        "antonyms": [
+            "οξύς"
+        ],
         "definitions": [
             {
                 "text": "Που διαρκεί πολύ χρόνο. Για μια κατάσταση υγείας που είναι επίμονη.",
@@ -53,7 +60,8 @@
                     "Υποφέρει από χρόνιο πόνο στην πλάτη."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_serious_illness_treatment_002",
@@ -64,7 +72,9 @@
         "emoji": "🛡️",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["προληπτική ιατρική"],
+        "synonyms": [
+            "προληπτική ιατρική"
+        ],
         "definitions": [
             {
                 "text": "Σχεδιασμένος για να σταματήσει κάτι κακό να συμβεί.",
@@ -72,7 +82,8 @@
                     "Η προληπτική ιατρική μειώνει το μακροπρόθεσμο κόστος."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_ethical_dilemmas_001",
@@ -89,7 +100,8 @@
                     "Πήρε μια ηθική απόφαση να αρνηθεί τα χρήματα."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_ethical_dilemmas_002",
@@ -100,7 +112,9 @@
         "emoji": "🤔⚖️",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["ηθικός"],
+        "synonyms": [
+            "ηθικός"
+        ],
         "definitions": [
             {
                 "text": "Που σχετίζεται με την ηθική. Ακολουθώντας αποδεκτούς κανόνες ορθής διαγωγής.",
@@ -108,9 +122,10 @@
                     "Οι εταιρείες πρέπει να λειτουργούν με ηθικό τρόπο."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     }
-    ];
+];
     const lang = "el";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

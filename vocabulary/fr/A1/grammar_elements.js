@@ -16,7 +16,6 @@
                 ]
             }
         ],
-        "image": "images/grammar/prepositions/in.png",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -39,7 +38,6 @@
                 ]
             }
         ],
-        "image": "images/grammar/prepositions/on.png",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -794,7 +792,6 @@
                 ]
             }
         ],
-        "image": "images/grammar/prepositions/in front of.png",
         "emoji": "🚪",
         "transcription": "dəvɑ̃"
     },
@@ -815,7 +812,6 @@
                 ]
             }
         ],
-        "image": "images/grammar/prepositions/behind.png",
         "emoji": "🚪",
         "transcription": "dɛʁjɛʁ"
     },

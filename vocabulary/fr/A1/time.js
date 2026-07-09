@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "matin",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "matins",
         "subtext": "tôt le matin, bonjour",
         "definitions": [
@@ -18,16 +20,20 @@
                 ]
             }
         ],
-        "transcription": "/ma.tɛ̃/"
+        "transcription": "/ma.tɛ̃/",
+        "lang": "fr",
+        "id": "fr_starter_time_001"
     },
-{
+    {
         "word": "soir",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "soirs",
         "subtext": "ce soir, bonsoir",
         "definitions": [
@@ -38,16 +44,20 @@
                 ]
             }
         ],
-        "transcription": "/swaʁ/"
+        "transcription": "/swaʁ/",
+        "lang": "fr",
+        "id": "fr_starter_time_002"
     },
-{
+    {
         "word": "jour",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "jours",
         "definitions": [
             {
@@ -61,16 +71,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "diurnus"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_time_003"
     },
-{
+    {
         "word": "semaine",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "semaines",
         "subtext": "la semaine prochaine, la semaine dernière",
         "definitions": [
@@ -81,9 +95,11 @@
                 ]
             }
         ],
-        "transcription": "/sə.mɛn/"
+        "transcription": "/sə.mɛn/",
+        "lang": "fr",
+        "id": "fr_starter_time_004"
     },
-{
+    {
         "word": "chaque jour",
         "level": "starter",
         "theme": "time",
@@ -97,15 +113,19 @@
                 ]
             }
         ],
-        "transcription": "/ʃak ʒuʁ/"
+        "transcription": "/ʃak ʒuʁ/",
+        "lang": "fr",
+        "id": "fr_starter_time_005"
     },
-{
+    {
         "word": "week-end",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "emoji": "🗓️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "week-ends",
         "definitions": [
             {
@@ -115,16 +135,20 @@
                 ]
             }
         ],
-        "transcription": "/wi.kɛnd/"
+        "transcription": "/wi.kɛnd/",
+        "lang": "fr",
+        "id": "fr_starter_time_006"
     },
-{
+    {
         "word": "nuit",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nuits",
         "definitions": [
             {
@@ -138,9 +162,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "nox"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_time_007"
     },
-{
+    {
         "word": "aujourd'hui",
         "level": "starter",
         "theme": "time",
@@ -157,9 +183,11 @@
                 ]
             }
         ],
-        "transcription": "/o.ʒuʁ.dɥi/"
+        "transcription": "/o.ʒuʁ.dɥi/",
+        "lang": "fr",
+        "id": "fr_starter_time_008"
     },
-{
+    {
         "word": "demain",
         "level": "starter",
         "theme": "time",
@@ -176,16 +204,20 @@
                 ]
             }
         ],
-        "transcription": "/də.mɛ̃/"
+        "transcription": "/də.mɛ̃/",
+        "lang": "fr",
+        "id": "fr_starter_time_009"
     },
-{
+    {
         "word": "lundi",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lundis",
         "definitions": [
             {
@@ -195,16 +227,20 @@
                 ]
             }
         ],
-        "transcription": "/lœ̃.di/"
+        "transcription": "/lœ̃.di/",
+        "lang": "fr",
+        "id": "fr_starter_time_010"
     },
-{
+    {
         "word": "mardi",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mardis",
         "definitions": [
             {
@@ -214,16 +250,20 @@
                 ]
             }
         ],
-        "transcription": "/maʁ.di/"
+        "transcription": "/maʁ.di/",
+        "lang": "fr",
+        "id": "fr_starter_time_011"
     },
-{
+    {
         "word": "mercredi",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mercredis",
         "definitions": [
             {
@@ -233,16 +273,20 @@
                 ]
             }
         ],
-        "transcription": "/mɛʁ.kʁə.di/"
+        "transcription": "/mɛʁ.kʁə.di/",
+        "lang": "fr",
+        "id": "fr_starter_time_012"
     },
-{
+    {
         "word": "jeudi",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "jeudis",
         "definitions": [
             {
@@ -252,16 +296,20 @@
                 ]
             }
         ],
-        "transcription": "/ʒø.di/"
+        "transcription": "/ʒø.di/",
+        "lang": "fr",
+        "id": "fr_starter_time_013"
     },
-{
+    {
         "word": "vendredi",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vendredis",
         "definitions": [
             {
@@ -271,16 +319,20 @@
                 ]
             }
         ],
-        "transcription": "/vɑ̃.dʁə.di/"
+        "transcription": "/vɑ̃.dʁə.di/",
+        "lang": "fr",
+        "id": "fr_starter_time_014"
     },
-{
+    {
         "word": "samedi",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "samedis",
         "definitions": [
             {
@@ -290,16 +342,20 @@
                 ]
             }
         ],
-        "transcription": "/sam.di/"
+        "transcription": "/sam.di/",
+        "lang": "fr",
+        "id": "fr_starter_time_015"
     },
-{
+    {
         "word": "dimanche",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dimanches",
         "definitions": [
             {
@@ -309,16 +365,20 @@
                 ]
             }
         ],
-        "transcription": "/di.mɑ̃ʃ/"
+        "transcription": "/di.mɑ̃ʃ/",
+        "lang": "fr",
+        "id": "fr_starter_time_016"
     },
-{
+    {
         "word": "janvier",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "janviers",
         "definitions": [
             {
@@ -328,16 +388,20 @@
                 ]
             }
         ],
-        "transcription": "/ʒɑ̃.vje/"
+        "transcription": "/ʒɑ̃.vje/",
+        "lang": "fr",
+        "id": "fr_starter_time_017"
     },
-{
+    {
         "word": "février",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "févriers",
         "definitions": [
             {
@@ -347,16 +411,20 @@
                 ]
             }
         ],
-        "transcription": "/fe.vʁi.je/"
+        "transcription": "/fe.vʁi.je/",
+        "lang": "fr",
+        "id": "fr_starter_time_018"
     },
-{
+    {
         "word": "mars",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mars",
         "definitions": [
             {
@@ -366,16 +434,20 @@
                 ]
             }
         ],
-        "transcription": "/maʁs/"
+        "transcription": "/maʁs/",
+        "lang": "fr",
+        "id": "fr_starter_time_019"
     },
-{
+    {
         "word": "avril",
         "level": "starter",
         "theme": "time",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "avrils",
         "definitions": [
             {
@@ -385,16 +457,20 @@
                 ]
             }
         ],
-        "transcription": "/a.vʁil/"
+        "transcription": "/a.vʁil/",
+        "lang": "fr",
+        "id": "fr_starter_time_020"
     },
-{
+    {
         "word": "mai",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌸",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mais",
         "definitions": [
             {
@@ -404,16 +480,20 @@
                 ]
             }
         ],
-        "transcription": "/mɛ/"
+        "transcription": "/mɛ/",
+        "lang": "fr",
+        "id": "fr_starter_time_021"
     },
-{
+    {
         "word": "juin",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "juins",
         "definitions": [
             {
@@ -423,16 +503,20 @@
                 ]
             }
         ],
-        "transcription": "/ʒɥɛ̃/"
+        "transcription": "/ʒɥɛ̃/",
+        "lang": "fr",
+        "id": "fr_starter_time_022"
     },
-{
+    {
         "word": "juillet",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "juillets",
         "definitions": [
             {
@@ -442,16 +526,20 @@
                 ]
             }
         ],
-        "transcription": "/ʒɥi.jɛ/"
+        "transcription": "/ʒɥi.jɛ/",
+        "lang": "fr",
+        "id": "fr_starter_time_023"
     },
-{
+    {
         "word": "août",
         "level": "starter",
         "theme": "time",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "aoûts",
         "definitions": [
             {
@@ -461,16 +549,20 @@
                 ]
             }
         ],
-        "transcription": "/ut/"
+        "transcription": "/ut/",
+        "lang": "fr",
+        "id": "fr_starter_time_024"
     },
-{
+    {
         "word": "septembre",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "septembres",
         "definitions": [
             {
@@ -480,16 +572,20 @@
                 ]
             }
         ],
-        "transcription": "/sɛp.tɑ̃bʁ/"
+        "transcription": "/sɛp.tɑ̃bʁ/",
+        "lang": "fr",
+        "id": "fr_starter_time_025"
     },
-{
+    {
         "word": "octobre",
         "level": "starter",
         "theme": "time",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎃",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "octobres",
         "definitions": [
             {
@@ -499,16 +595,20 @@
                 ]
             }
         ],
-        "transcription": "/ɔk.tɔbʁ/"
+        "transcription": "/ɔk.tɔbʁ/",
+        "lang": "fr",
+        "id": "fr_starter_time_026"
     },
-{
+    {
         "word": "novembre",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌫️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "novembres",
         "definitions": [
             {
@@ -518,16 +618,20 @@
                 ]
             }
         ],
-        "transcription": "/nɔ.vɑ̃bʁ/"
+        "transcription": "/nɔ.vɑ̃bʁ/",
+        "lang": "fr",
+        "id": "fr_starter_time_027"
     },
-{
+    {
         "word": "décembre",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎄",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "décembres",
         "definitions": [
             {
@@ -537,12 +641,14 @@
                 ]
             }
         ],
-        "transcription": "/de.sɑ̃bʁ/"
+        "transcription": "/de.sɑ̃bʁ/",
+        "lang": "fr",
+        "id": "fr_starter_time_028"
     },
-{
+    {
         "word": "encore",
         "level": "starter",
-        "theme": "frequency_adverbs",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "🔁",
@@ -556,9 +662,11 @@
                 ]
             }
         ],
-        "transcription": "/ɑ̃.kɔʁ/"
+        "transcription": "/ɑ̃.kɔʁ/",
+        "lang": "fr",
+        "id": "fr_starter_language_001"
     },
-{
+    {
         "word": "il y a",
         "level": "starter",
         "theme": "duration_expressions",
@@ -575,16 +683,20 @@
                 ]
             }
         ],
-        "transcription": "/i.l‿i.j‿a/"
+        "transcription": "/i.l‿i.j‿a/",
+        "lang": "fr",
+        "id": "fr_starter_duration_expressions_001"
     },
-{
+    {
         "word": "temps",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "⏱️",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -598,16 +710,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "tempus"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_time_029"
     },
-{
+    {
         "word": "heure",
         "level": "starter",
         "theme": "time",
         "article": "l'",
         "gender": "feminine",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "heures",
         "definitions": [
             {
@@ -617,16 +733,20 @@
                 ]
             }
         ],
-        "transcription": "/œʁ/"
+        "transcription": "/œʁ/",
+        "lang": "fr",
+        "id": "fr_starter_time_030"
     },
-{
+    {
         "word": "minute",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "⏱️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "minutes",
         "definitions": [
             {
@@ -636,16 +756,20 @@
                 ]
             }
         ],
-        "transcription": "/mi.nyt/"
+        "transcription": "/mi.nyt/",
+        "lang": "fr",
+        "id": "fr_starter_time_031"
     },
-{
+    {
         "word": "seconde",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "⏱️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "secondes",
         "definitions": [
             {
@@ -655,9 +779,11 @@
                 ]
             }
         ],
-        "transcription": "/sə.ɡɔ̃d/"
+        "transcription": "/sə.ɡɔ̃d/",
+        "lang": "fr",
+        "id": "fr_starter_time_032"
     },
-{
+    {
         "word": "hier",
         "level": "starter",
         "theme": "time",
@@ -674,16 +800,20 @@
                 ]
             }
         ],
-        "transcription": "/jɛʁ/"
+        "transcription": "/jɛʁ/",
+        "lang": "fr",
+        "id": "fr_starter_time_033"
     },
-{
+    {
         "word": "matinée",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "matinées",
         "definitions": [
             {
@@ -693,16 +823,20 @@
                 ]
             }
         ],
-        "transcription": "/ma.ti.ne/"
+        "transcription": "/ma.ti.ne/",
+        "lang": "fr",
+        "id": "fr_starter_time_034"
     },
-{
+    {
         "word": "après-midi",
         "level": "starter",
         "theme": "time",
         "article": "l'",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "après-midi",
         "definitions": [
             {
@@ -712,16 +846,20 @@
                 ]
             }
         ],
-        "transcription": "/a.pʁɛ mi.di/"
+        "transcription": "/a.pʁɛ mi.di/",
+        "lang": "fr",
+        "id": "fr_starter_time_035"
     },
-{
+    {
         "word": "soirée",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "soirées",
         "definitions": [
             {
@@ -731,16 +869,20 @@
                 ]
             }
         ],
-        "transcription": "/swa.ʁe/"
+        "transcription": "/swa.ʁe/",
+        "lang": "fr",
+        "id": "fr_starter_time_036"
     },
-{
+    {
         "word": "minuit",
         "level": "starter",
         "theme": "time",
         "article": "",
         "gender": "masculine",
         "emoji": "🕛",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -750,16 +892,20 @@
                 ]
             }
         ],
-        "transcription": "/mi.nɥi/"
+        "transcription": "/mi.nɥi/",
+        "lang": "fr",
+        "id": "fr_starter_time_037"
     },
-{
+    {
         "word": "midi",
         "level": "starter",
         "theme": "time",
         "article": "",
         "gender": "masculine",
         "emoji": "🕛",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -769,16 +915,20 @@
                 ]
             }
         ],
-        "transcription": "/mi.di/"
+        "transcription": "/mi.di/",
+        "lang": "fr",
+        "id": "fr_starter_time_038"
     },
-{
+    {
         "word": "montre",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "montres",
         "definitions": [
             {
@@ -788,16 +938,20 @@
                 ]
             }
         ],
-        "transcription": "/mɔ̃tʁ/"
+        "transcription": "/mɔ̃tʁ/",
+        "lang": "fr",
+        "id": "fr_starter_time_039"
     },
-{
+    {
         "word": "réveil",
         "level": "starter",
         "theme": "time",
         "article": "le",
         "gender": "masculine",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "réveils",
         "definitions": [
             {
@@ -807,9 +961,11 @@
                 ]
             }
         ],
-        "transcription": "/ʁe.vɛj/"
+        "transcription": "/ʁe.vɛj/",
+        "lang": "fr",
+        "id": "fr_starter_time_040"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -18,7 +18,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_001"
+        "id": "ba_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "телеология",
@@ -36,7 +37,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_002"
+        "id": "ba_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "онтология",
@@ -54,7 +56,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_003"
+        "id": "ba_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "реификация",
@@ -72,7 +75,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_004"
+        "id": "ba_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "диалектика",
@@ -90,7 +94,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_005"
+        "id": "ba_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "эвристика",
@@ -108,7 +113,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_001"
+        "id": "ba_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "апофения",
@@ -126,7 +132,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_002"
+        "id": "ba_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "мотивлаштырылған когниция",
@@ -143,7 +150,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_003"
+        "id": "ba_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "проактив принцип",
@@ -160,7 +168,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_001"
+        "id": "ba_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "саҡлыҡ принцибы",
@@ -177,7 +186,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_002"
+        "id": "ba_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "либераль нейтралитет",
@@ -194,7 +204,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_003"
+        "id": "ba_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "пронатализм",
@@ -212,7 +223,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_social_004"
+        "id": "ba_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "сублимация",
@@ -230,7 +242,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_004"
+        "id": "ba_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "жуиссанс",
@@ -248,7 +261,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_005"
+        "id": "ba_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "танатос",
@@ -266,7 +280,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_psychology_006"
+        "id": "ba_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "батос",
@@ -284,7 +299,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_art_culture_001"
+        "id": "ba_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "апофазис",
@@ -302,7 +318,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_006"
+        "id": "ba_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "паралепсис",
@@ -320,7 +337,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_007"
+        "id": "ba_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "лиминаль киңлек",
@@ -337,7 +355,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_008"
+        "id": "ba_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "хиазм",
@@ -355,7 +374,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_009"
+        "id": "ba_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "шибболет",
@@ -373,7 +393,8 @@
             }
         ],
         "lang": "ba",
-        "id": "ba_proficiency_language_010"
+        "id": "ba_proficiency_language_010",
+        "transcription": ""
     }
 ];
 

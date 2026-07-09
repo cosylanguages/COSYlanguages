@@ -16,7 +16,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈkrasnɨj/"
+        "transcription": "/ˈkrasnɨj/",
+        "lang": "ru",
+        "id": "ru_starter_colours_001"
     },
     {
         "word": "синий",
@@ -34,7 +36,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈsʲinʲɪj/"
+        "transcription": "/ˈsʲinʲɪj/",
+        "lang": "ru",
+        "id": "ru_starter_colours_002"
     },
     {
         "word": "зелёный",
@@ -52,7 +56,9 @@
                 ]
             }
         ],
-        "transcription": "/zʲɪˈlʲonɨj/"
+        "transcription": "/zʲɪˈlʲonɨj/",
+        "lang": "ru",
+        "id": "ru_starter_colours_003"
     },
     {
         "word": "жёлтый",
@@ -70,7 +76,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈʐoltɨj/"
+        "transcription": "/ˈʐoltɨj/",
+        "lang": "ru",
+        "id": "ru_starter_colours_004"
     },
     {
         "word": "белый",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/ˈbʲelɨj/"
+        "transcription": "/ˈbʲelɨj/",
+        "lang": "ru",
+        "id": "ru_starter_colours_005"
     }
-    ];
+];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

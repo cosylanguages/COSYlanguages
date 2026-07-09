@@ -18,7 +18,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_001"
+        "id": "el_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "τελεολογία",
@@ -36,7 +37,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_002"
+        "id": "el_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "οντολογία",
@@ -54,7 +56,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_003"
+        "id": "el_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "πραγμοποίηση",
@@ -72,7 +75,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_004"
+        "id": "el_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "διαλεκτική",
@@ -90,7 +94,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_005"
+        "id": "el_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "ευρετική",
@@ -108,7 +113,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_001"
+        "id": "el_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "αποφαινία",
@@ -126,7 +132,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_002"
+        "id": "el_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "κινούμενη νόηση",
@@ -143,7 +150,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_003"
+        "id": "el_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "προδραστική αρχή",
@@ -160,7 +168,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_001"
+        "id": "el_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "αρχή της προφύλαξης",
@@ -177,7 +186,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_002"
+        "id": "el_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "φιλελεύθερη ουδετερότητα",
@@ -194,7 +204,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_003"
+        "id": "el_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "προγεννητισμός",
@@ -212,7 +223,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_social_004"
+        "id": "el_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "μετάθεση",
@@ -230,7 +242,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_004"
+        "id": "el_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "απόλαυση",
@@ -248,7 +261,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_005"
+        "id": "el_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "θάνατος",
@@ -266,7 +280,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_psychology_006"
+        "id": "el_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "βάθος",
@@ -284,7 +299,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_art_culture_001"
+        "id": "el_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "απόφαση",
@@ -302,7 +318,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_006"
+        "id": "el_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "παράλειψη",
@@ -320,7 +337,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_007"
+        "id": "el_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "οριακός χώρος",
@@ -337,7 +355,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_008"
+        "id": "el_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "χιασμός",
@@ -355,7 +374,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_009"
+        "id": "el_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "σιμπολέθ",
@@ -373,7 +393,8 @@
             }
         ],
         "lang": "el",
-        "id": "el_proficiency_language_010"
+        "id": "el_proficiency_language_010",
+        "transcription": ""
     }
 ];
 

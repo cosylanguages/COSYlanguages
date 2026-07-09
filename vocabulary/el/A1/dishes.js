@@ -18,7 +18,10 @@
             }
         ],
         "countability": "countable",
-        "subtext": ""
+        "subtext": "",
+        "lang": "el",
+        "transcription": "",
+        "id": "el_starter_food_drink_001"
     }
 ];
     const lang = "el";

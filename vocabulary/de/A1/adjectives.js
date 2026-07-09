@@ -5,8 +5,6 @@
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "klein",
-        "oppositeEmoji": "📏",
         "definitions": [
             {
                 "text": "Eine Person oder Sache, die von unten nach oben groß ist.",
@@ -17,7 +15,10 @@
             }
         ],
         "subtext": "groß genug",
-        "synonyms": ["ein hohes Gebäude", "eine große Person"],
+        "synonyms": [
+            "ein hohes Gebäude",
+            "eine große Person"
+        ],
         "feminine": "große",
         "neuter": "großes",
         "plural": "große",
@@ -26,15 +27,20 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "grautaz"
-        }
+        },
+        "lang": "de",
+        "antonyms": [
+            "klein"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_001"
     },
     {
         "word": "klein",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "groß",
-        "oppositeEmoji": "🗼",
         "definitions": [
             {
                 "text": "Eine Person oder Sache, die nicht groß ist.",
@@ -45,7 +51,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["eine kurze Reise", "kurze Haare", "zu kurz"],
+        "synonyms": [
+            "eine kurze Reise",
+            "kurze Haare",
+            "zu kurz"
+        ],
         "feminine": "kleine",
         "neuter": "kleines",
         "plural": "kleine",
@@ -54,15 +64,20 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "krainaz"
-        }
+        },
+        "lang": "de",
+        "antonyms": [
+            "groß"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_002"
     },
     {
         "word": "jung",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "alt",
-        "oppositeEmoji": "👴",
         "definitions": [
             {
                 "text": "Hat erst kurze Zeit gelebt oder existiert.",
@@ -72,20 +87,28 @@
             }
         ],
         "subtext": "im Herzen jung",
-        "synonyms": ["junge Person", "junger Profi"],
+        "synonyms": [
+            "junge Person",
+            "junger Profi"
+        ],
         "feminine": "junge",
         "neuter": "junges",
         "plural": "junge",
         "comparative": "jünger",
-        "superlative": "am jüngsten"
+        "superlative": "am jüngsten",
+        "lang": "de",
+        "antonyms": [
+            "alt"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_003"
     },
     {
         "word": "alt",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "jung",
-        "oppositeEmoji": "👶",
         "definitions": [
             {
                 "text": "Hat schon lange gelebt oder existiert.",
@@ -95,12 +118,22 @@
             }
         ],
         "subtext": "sehr alt",
-        "synonyms": ["alter Freund", "alte Gewohnheiten"],
+        "synonyms": [
+            "alter Freund",
+            "alte Gewohnheiten"
+        ],
         "feminine": "alte",
         "neuter": "altes",
         "plural": "alte",
         "comparative": "älter",
-        "superlative": "am ältesten"
+        "superlative": "am ältesten",
+        "lang": "de",
+        "antonyms": [
+            "jung"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_004"
     },
     {
         "word": "sonnig",
@@ -117,12 +150,19 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["sonniger Tag", "sonniges Wetter", "sonnige Abschnitte"],
+        "synonyms": [
+            "sonniger Tag",
+            "sonniges Wetter",
+            "sonnige Abschnitte"
+        ],
         "feminine": "sonnige",
         "neuter": "sonniges",
         "plural": "sonnige",
         "comparative": "sonniger",
-        "superlative": "am sonnigsten"
+        "superlative": "am sonnigsten",
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_nature_001"
     },
     {
         "word": "regnerisch",
@@ -139,12 +179,19 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["regnerischer Tag", "regnerisches Wetter", "Regenzeit"],
+        "synonyms": [
+            "regnerischer Tag",
+            "regnerisches Wetter",
+            "Regenzeit"
+        ],
         "feminine": "regnerische",
         "neuter": "regnerisches",
         "plural": "regnerische",
         "comparative": "regnerischer",
-        "superlative": "am regnerischsten"
+        "superlative": "am regnerischsten",
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_nature_002"
     },
     {
         "word": "heiß",
@@ -152,10 +199,11 @@
         "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "kalt",
-        "oppositeEmoji": "❄️",
         "subtext": "sehr heiß, heißes Wetter / zu heiß",
-        "synonyms": ["heißes Wetter", "ein heißes Getränk"],
+        "synonyms": [
+            "heißes Wetter",
+            "ein heißes Getränk"
+        ],
         "definitions": [
             {
                 "text": "Eine hohe Temperatur habend.",
@@ -168,7 +216,13 @@
         "neuter": "heißes",
         "plural": "heiße",
         "comparative": "heißer",
-        "superlative": "am heißesten"
+        "superlative": "am heißesten",
+        "lang": "de",
+        "antonyms": [
+            "kalt"
+        ],
+        "transcription": "",
+        "id": "de_starter_nature_003"
     },
     {
         "word": "kalt",
@@ -176,10 +230,11 @@
         "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "heiß",
-        "oppositeEmoji": "🔥",
         "subtext": "sehr kalt, kalter Morgen / zu kalt",
-        "synonyms": ["kaltes Wetter", "ein kaltes Getränk"],
+        "synonyms": [
+            "kaltes Wetter",
+            "ein kaltes Getränk"
+        ],
         "definitions": [
             {
                 "text": "Eine niedrige Temperatur habend.",
@@ -196,15 +251,19 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "kaldaz"
-        }
+        },
+        "lang": "de",
+        "antonyms": [
+            "heiß"
+        ],
+        "transcription": "",
+        "id": "de_starter_nature_004"
     },
     {
         "word": "gewöhnlich",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "besonders",
-        "oppositeEmoji": "✨",
         "definitions": [
             {
                 "text": "Normal oder üblich; nicht besonders.",
@@ -214,12 +273,23 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["gewöhnlicher Tag", "gewöhnliches Leben", "nichts Gewöhnliches"],
+        "synonyms": [
+            "gewöhnlicher Tag",
+            "gewöhnliches Leben",
+            "nichts Gewöhnliches"
+        ],
         "feminine": "gewöhnliche",
         "neuter": "gewöhnliches",
         "plural": "gewöhnliche",
         "comparative": "gewöhnlicher",
-        "superlative": "am gewöhnlichsten"
+        "superlative": "am gewöhnlichsten",
+        "lang": "de",
+        "antonyms": [
+            "besonders"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_005"
     },
     {
         "word": "billig",
@@ -227,10 +297,12 @@
         "theme": "shopping",
         "emoji": "🏷️",
         "form": "adjective",
-        "opposite": "teuer",
-        "oppositeEmoji": "💎",
         "subtext": "sehr billig / billig und gut",
-        "synonyms": ["niedriger Preis", "preiswert", "billiger Flug"],
+        "synonyms": [
+            "niedriger Preis",
+            "preiswert",
+            "billiger Flug"
+        ],
         "definitions": [
             {
                 "text": "Nicht teuer; niedriger Preis.",
@@ -243,7 +315,13 @@
         "neuter": "billiges",
         "plural": "billige",
         "comparative": "billiger",
-        "superlative": "am billigsten"
+        "superlative": "am billigsten",
+        "lang": "de",
+        "antonyms": [
+            "teuer"
+        ],
+        "transcription": "",
+        "id": "de_starter_shopping_001"
     },
     {
         "word": "teuer",
@@ -251,10 +329,12 @@
         "theme": "shopping",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "billig",
-        "oppositeEmoji": "🏷️",
         "subtext": "sehr teuer / zu teuer",
-        "synonyms": ["kostspielig", "hoher Preis", "teurer Geschmack"],
+        "synonyms": [
+            "kostspielig",
+            "hoher Preis",
+            "teurer Geschmack"
+        ],
         "definitions": [
             {
                 "text": "Viel Geld kostend.",
@@ -267,7 +347,13 @@
         "neuter": "teures",
         "plural": "teure",
         "comparative": "teurer",
-        "superlative": "am teuersten"
+        "superlative": "am teuersten",
+        "lang": "de",
+        "antonyms": [
+            "billig"
+        ],
+        "transcription": "",
+        "id": "de_starter_shopping_002"
     },
     {
         "word": "gut",
@@ -275,10 +361,15 @@
         "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "schlecht",
-        "oppositeEmoji": "👎",
         "subtext": "",
-        "synonyms": ["großartig", "nett", "angenehm", "gute Idee", "viel Glück", "gutes Preis-Leistungs-Verhältnis"],
+        "synonyms": [
+            "großartig",
+            "nett",
+            "angenehm",
+            "gute Idee",
+            "viel Glück",
+            "gutes Preis-Leistungs-Verhältnis"
+        ],
         "definitions": [
             {
                 "text": "Von hoher Qualität oder angenehm.",
@@ -295,7 +386,13 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "gōdaz"
-        }
+        },
+        "lang": "de",
+        "antonyms": [
+            "schlecht"
+        ],
+        "transcription": "",
+        "id": "de_starter_describing_006"
     },
     {
         "word": "schlecht",
@@ -303,10 +400,15 @@
         "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "gut",
-        "oppositeEmoji": "👍",
         "subtext": "",
-        "synonyms": ["schrecklich", "furchtbar", "unangenehm", "schlechte Nachrichten", "Pech", "schlechte Entscheidung"],
+        "synonyms": [
+            "schrecklich",
+            "furchtbar",
+            "unangenehm",
+            "schlechte Nachrichten",
+            "Pech",
+            "schlechte Entscheidung"
+        ],
         "definitions": [
             {
                 "text": "Nicht gut; unangenehm.",
@@ -323,7 +425,13 @@
         "etymology": {
             "origin_lang": "Middle High German",
             "origin_word": "sleht"
-        }
+        },
+        "lang": "de",
+        "antonyms": [
+            "gut"
+        ],
+        "transcription": "",
+        "id": "de_starter_describing_007"
     },
     {
         "word": "groß",
@@ -331,10 +439,11 @@
         "theme": "describing",
         "emoji": "🐘",
         "form": "adjective",
-        "opposite": "klein",
-        "oppositeEmoji": "🐭",
         "subtext": "groß, riesig / groß genug",
-        "synonyms": ["ein großes Haus", "ein großes Problem"],
+        "synonyms": [
+            "ein großes Haus",
+            "ein großes Problem"
+        ],
         "definitions": [
             {
                 "text": "Groß an Umfang.",
@@ -351,7 +460,13 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "grautaz"
-        }
+        },
+        "lang": "de",
+        "antonyms": [
+            "klein"
+        ],
+        "transcription": "",
+        "id": "de_starter_describing_008"
     },
     {
         "word": "klein",
@@ -359,10 +474,11 @@
         "theme": "describing",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "groß",
-        "oppositeEmoji": "🐘",
         "subtext": "klein, winzig / zu klein",
-        "synonyms": ["eine kleine Wohnung", "ein kleines Gehalt"],
+        "synonyms": [
+            "eine kleine Wohnung",
+            "ein kleines Gehalt"
+        ],
         "definitions": [
             {
                 "text": "Klein an Umfang.",
@@ -379,7 +495,13 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "krainaz"
-        }
+        },
+        "lang": "de",
+        "antonyms": [
+            "groß"
+        ],
+        "transcription": "",
+        "id": "de_starter_describing_009"
     },
     {
         "word": "einfach",
@@ -387,8 +509,6 @@
         "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "schwierig",
-        "oppositeEmoji": "❌",
         "definitions": [
             {
                 "text": "Nicht schwierig.",
@@ -402,7 +522,13 @@
         "neuter": "einfaches",
         "plural": "einfache",
         "comparative": "einfacher",
-        "superlative": "am einfachsten"
+        "superlative": "am einfachsten",
+        "lang": "de",
+        "antonyms": [
+            "schwierig"
+        ],
+        "transcription": "",
+        "id": "de_starter_describing_010"
     },
     {
         "word": "schwierig",
@@ -410,8 +536,6 @@
         "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "einfach",
-        "oppositeEmoji": "✅",
         "definitions": [
             {
                 "text": "Schwer zu tun oder zu verstehen.",
@@ -425,7 +549,13 @@
         "neuter": "schwieriges",
         "plural": "schwierige",
         "comparative": "schwieriger",
-        "superlative": "am schwierigsten"
+        "superlative": "am schwierigsten",
+        "lang": "de",
+        "antonyms": [
+            "einfach"
+        ],
+        "transcription": "",
+        "id": "de_starter_describing_011"
     },
     {
         "word": "glücklich",
@@ -434,7 +564,9 @@
         "emoji": "😊",
         "form": "adjective",
         "subtext": "froh, fröhlich, glücklich sein / glücklich sein / mit etwas zufrieden sein",
-        "synonyms": ["ein glücklicher Tag"],
+        "synonyms": [
+            "ein glücklicher Tag"
+        ],
         "definitions": [
             {
                 "text": "Vergnügen oder Freude empfindend.",
@@ -447,7 +579,10 @@
         "neuter": "glückliches",
         "plural": "glückliche",
         "comparative": "glücklicher",
-        "superlative": "am glücklichsten"
+        "superlative": "am glücklichsten",
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_emotions_001"
     },
     {
         "word": "müde",
@@ -468,7 +603,10 @@
         "neuter": "müdes",
         "plural": "müde",
         "comparative": "müder",
-        "superlative": "am müdesten"
+        "superlative": "am müdesten",
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_emotions_002"
     },
     {
         "word": "Vollzeit",
@@ -476,8 +614,6 @@
         "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "Teilzeit",
-        "oppositeEmoji": "⏳",
         "definitions": [
             {
                 "text": "Die volle Anzahl an Stunden arbeitend.",
@@ -487,12 +623,22 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["Vollzeitstelle", "Vollzeitarbeit", "Vollzeitmitarbeiter"],
+        "synonyms": [
+            "Vollzeitstelle",
+            "Vollzeitarbeit",
+            "Vollzeitmitarbeiter"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "Vollzeit",
         "neuter": "Vollzeit",
-        "plural": "Vollzeit"
+        "plural": "Vollzeit",
+        "lang": "de",
+        "antonyms": [
+            "Teilzeit"
+        ],
+        "transcription": "",
+        "id": "de_starter_work_001"
     },
     {
         "word": "Teilzeit",
@@ -500,8 +646,6 @@
         "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "Vollzeit",
-        "oppositeEmoji": "⏰",
         "definitions": [
             {
                 "text": "Weniger Stunden arbeitend.",
@@ -511,12 +655,22 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["Teilzeitstelle", "Teilzeitarbeit", "Teilzeitstudent"],
+        "synonyms": [
+            "Teilzeitstelle",
+            "Teilzeitarbeit",
+            "Teilzeitstudent"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "Teilzeit",
         "neuter": "Teilzeit",
-        "plural": "Teilzeit"
+        "plural": "Teilzeit",
+        "lang": "de",
+        "antonyms": [
+            "Vollzeit"
+        ],
+        "transcription": "",
+        "id": "de_starter_work_002"
     },
     {
         "word": "sauber",
@@ -524,10 +678,11 @@
         "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "schmutzig",
-        "oppositeEmoji": "💩",
         "subtext": "ordentlich, nicht schmutzig, sauber halten / sauber halten",
-        "synonyms": ["saubere Kleidung", "ein sauberes Zimmer"],
+        "synonyms": [
+            "saubere Kleidung",
+            "ein sauberes Zimmer"
+        ],
         "definitions": [
             {
                 "text": "Frei von Schmutz.",
@@ -540,7 +695,13 @@
         "neuter": "sauberes",
         "plural": "saubere",
         "comparative": "sauberer",
-        "superlative": "am saubersten"
+        "superlative": "am saubersten",
+        "lang": "de",
+        "antonyms": [
+            "schmutzig"
+        ],
+        "transcription": "",
+        "id": "de_starter_furniture_001"
     },
     {
         "word": "gesund",
@@ -548,8 +709,6 @@
         "theme": "food_drink",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "ungesund",
-        "oppositeEmoji": "🍔",
         "subtext": "gut, fit, gesunde Ernährung",
         "definitions": [
             {
@@ -563,7 +722,13 @@
         "neuter": "gesundes",
         "plural": "gesunde",
         "comparative": "gesünder",
-        "superlative": "am gesündesten"
+        "superlative": "am gesündesten",
+        "lang": "de",
+        "antonyms": [
+            "ungesund"
+        ],
+        "transcription": "",
+        "id": "de_starter_food_drink_001"
     },
     {
         "word": "krank",
@@ -571,8 +736,6 @@
         "theme": "health_medicine",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "gesund",
-        "oppositeEmoji": "💪",
         "subtext": "krank, sich krank fühlen",
         "definitions": [
             {
@@ -586,7 +749,13 @@
         "neuter": "krankes",
         "plural": "kranke",
         "comparative": "kränker",
-        "superlative": "am kränksten"
+        "superlative": "am kränksten",
+        "lang": "de",
+        "antonyms": [
+            "gesund"
+        ],
+        "transcription": "",
+        "id": "de_starter_health_medicine_001"
     },
     {
         "word": "online",
@@ -594,8 +763,6 @@
         "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "offline",
-        "oppositeEmoji": "📴",
         "definitions": [
             {
                 "text": "Das Internet nutzend.",
@@ -609,7 +776,13 @@
         "superlative": null,
         "feminine": "online",
         "neuter": "online",
-        "plural": "online"
+        "plural": "online",
+        "lang": "de",
+        "antonyms": [
+            "offline"
+        ],
+        "transcription": "",
+        "id": "de_starter_technology_001"
     },
     {
         "word": "allein",
@@ -617,8 +790,6 @@
         "theme": "social",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "zusammen",
-        "oppositeEmoji": "👫",
         "definitions": [
             {
                 "text": "Ohne andere Menschen.",
@@ -632,7 +803,13 @@
         "neuter": "alleines",
         "plural": "alleine",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "de",
+        "antonyms": [
+            "zusammen"
+        ],
+        "transcription": "",
+        "id": "de_starter_social_001"
     },
     {
         "word": "entspannt",
@@ -640,8 +817,6 @@
         "theme": "emotions",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "gestresst",
-        "oppositeEmoji": "😫",
         "subtext": "ruhig, entspannt fühlen",
         "definitions": [
             {
@@ -655,7 +830,13 @@
         "neuter": "entspanntes",
         "plural": "entspannte",
         "comparative": "entspannter",
-        "superlative": "am entspanntesten"
+        "superlative": "am entspanntesten",
+        "lang": "de",
+        "antonyms": [
+            "gestresst"
+        ],
+        "transcription": "",
+        "id": "de_starter_emotions_003"
     },
     {
         "word": "besorgt",
@@ -663,10 +844,10 @@
         "theme": "emotions",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "ruhig",
-        "oppositeEmoji": "😌",
         "subtext": "",
-        "synonyms": ["ängstlich"],
+        "synonyms": [
+            "ängstlich"
+        ],
         "definitions": [
             {
                 "text": "Angst empfindend über etwas, das passieren könnte.",
@@ -679,7 +860,13 @@
         "neuter": "besorgtes",
         "plural": "besorgte",
         "comparative": "besorgter",
-        "superlative": "am besorgtesten"
+        "superlative": "am besorgtesten",
+        "lang": "de",
+        "antonyms": [
+            "ruhig"
+        ],
+        "transcription": "",
+        "id": "de_starter_emotions_004"
     },
     {
         "word": "beschäftigt",
@@ -688,7 +875,9 @@
         "emoji": "🏃",
         "form": "adjective",
         "subtext": "sehr beschäftigt, beschäftigter Tag / sehr beschäftigt / zu beschäftigt",
-        "synonyms": ["voller Zeitplan"],
+        "synonyms": [
+            "voller Zeitplan"
+        ],
         "definitions": [
             {
                 "text": "Viel zu tun habend.",
@@ -701,7 +890,10 @@
         "neuter": "beschäftigtes",
         "plural": "beschäftigte",
         "comparative": "beschäftigter",
-        "superlative": "am beschäftigtsten"
+        "superlative": "am beschäftigtsten",
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_work_003"
     },
     {
         "word": "nützlich",
@@ -709,10 +901,11 @@
         "theme": "describing",
         "emoji": "🛠️",
         "form": "adjective",
-        "opposite": "nutzlos",
-        "oppositeEmoji": "🗑️",
         "subtext": "",
-        "synonyms": ["hilfreich", "praktisch"],
+        "synonyms": [
+            "hilfreich",
+            "praktisch"
+        ],
         "definitions": [
             {
                 "text": "Hilfreich; einen praktischen Zweck habend.",
@@ -725,7 +918,13 @@
         "neuter": "nützliches",
         "plural": "nützliche",
         "comparative": "nützlicher",
-        "superlative": "am nützlichsten"
+        "superlative": "am nützlichsten",
+        "lang": "de",
+        "antonyms": [
+            "nutzlos"
+        ],
+        "transcription": "",
+        "id": "de_starter_describing_012"
     },
     {
         "word": "wichtig",
@@ -734,7 +933,11 @@
         "emoji": "❗",
         "form": "adjective",
         "subtext": "sehr wichtig",
-        "synonyms": ["wesentlich", "wichtiges Treffen", "am wichtigsten"],
+        "synonyms": [
+            "wesentlich",
+            "wichtiges Treffen",
+            "am wichtigsten"
+        ],
         "definitions": [
             {
                 "text": "Von großem Wert oder großer Wirkung.",
@@ -747,7 +950,10 @@
         "neuter": "wichtiges",
         "plural": "wichtige",
         "comparative": "wichtiger",
-        "superlative": "am wichtigsten"
+        "superlative": "am wichtigsten",
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_describing_013"
     },
     {
         "word": "rot",
@@ -756,7 +962,13 @@
         "emoji": "🟥",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["dunkelrot", "hellrot", "Rotwein", "rotes Gesicht", "rote Ampel"],
+        "synonyms": [
+            "dunkelrot",
+            "hellrot",
+            "Rotwein",
+            "rotes Gesicht",
+            "rote Ampel"
+        ],
         "definitions": [
             {
                 "text": "Die Farbe von Blut habend.",
@@ -773,7 +985,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "raudaz"
-        }
+        },
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_colours_001"
     },
     {
         "word": "blau",
@@ -782,7 +997,13 @@
         "emoji": "🟦",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["hellblau", "dunkelblau", "dunkelblau", "hellblau", "blauer Himmel"],
+        "synonyms": [
+            "hellblau",
+            "dunkelblau",
+            "dunkelblau",
+            "hellblau",
+            "blauer Himmel"
+        ],
         "definitions": [
             {
                 "text": "Die Farbe eines klaren Himmels habend.",
@@ -799,7 +1020,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "blēwaz"
-        }
+        },
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_colours_002"
     },
     {
         "word": "grün",
@@ -808,7 +1032,13 @@
         "emoji": "🟩",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["hellgrün", "dunkelgrün", "grüne Energie", "Grünfläche", "hellgrün"],
+        "synonyms": [
+            "hellgrün",
+            "dunkelgrün",
+            "grüne Energie",
+            "Grünfläche",
+            "hellgrün"
+        ],
         "definitions": [
             {
                 "text": "Die Farbe von Gras habend.",
@@ -825,7 +1055,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "grōniz"
-        }
+        },
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_colours_003"
     },
     {
         "word": "weiß",
@@ -834,7 +1067,11 @@
         "emoji": "⬜",
         "form": "adjective",
         "subtext": "gebrochenes Weiß / strahlendes Weiß",
-        "synonyms": ["reinweiß", "schneeweiß", "Weißwein"],
+        "synonyms": [
+            "reinweiß",
+            "schneeweiß",
+            "Weißwein"
+        ],
         "definitions": [
             {
                 "text": "Die Farbe von Schnee habend.",
@@ -851,7 +1088,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "hwītaz"
-        }
+        },
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_colours_004"
     },
     {
         "word": "schwarz",
@@ -860,7 +1100,13 @@
         "emoji": "⬛",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["tiefschwarz", "nachtschwarz", "schwarzer Kaffee", "Schwarzmarkt", "tiefschwarz"],
+        "synonyms": [
+            "tiefschwarz",
+            "nachtschwarz",
+            "schwarzer Kaffee",
+            "Schwarzmarkt",
+            "tiefschwarz"
+        ],
         "definitions": [
             {
                 "text": "Die dunkelste Farbe habend.",
@@ -877,7 +1123,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "swartaz"
-        }
+        },
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_colours_005"
     },
     {
         "word": "gelb",
@@ -886,7 +1135,13 @@
         "emoji": "🟨",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["hellgelb", "zitronengelb", "gelbes Licht", "blassgelb", "hellgelb"],
+        "synonyms": [
+            "hellgelb",
+            "zitronengelb",
+            "gelbes Licht",
+            "blassgelb",
+            "hellgelb"
+        ],
         "definitions": [
             {
                 "text": "Die Farbe der Sonne habend.",
@@ -903,7 +1158,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "gelwaz"
-        }
+        },
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_colours_006"
     },
     {
         "word": "kostenlos",
@@ -912,7 +1170,10 @@
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "kostenlos, Gratisgeschenk / kostenlos",
-        "synonyms": ["Freizeit", "frei zu tun"],
+        "synonyms": [
+            "Freizeit",
+            "frei zu tun"
+        ],
         "definitions": [
             {
                 "text": "Kein Geld kostend.",
@@ -925,7 +1186,10 @@
         "neuter": "kostenloses",
         "plural": "kostenlose",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "de",
+        "transcription": "",
+        "id": "de_starter_shopping_003"
     },
     {
         "word": "offen",
@@ -933,10 +1197,10 @@
         "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "geschlossen",
-        "oppositeEmoji": "🔒",
         "subtext": "jetzt offen, geschäftsoffen / offen für Ideen / weit offen",
-        "synonyms": ["offene Tür"],
+        "synonyms": [
+            "offene Tür"
+        ],
         "definitions": [
             {
                 "text": "Nicht geschlossen.",
@@ -949,7 +1213,13 @@
         "neuter": "offenes",
         "plural": "offene",
         "comparative": "offener",
-        "superlative": "am offensten"
+        "superlative": "am offensten",
+        "lang": "de",
+        "antonyms": [
+            "geschlossen"
+        ],
+        "transcription": "",
+        "id": "de_starter_shopping_004"
     },
     {
         "word": "geschlossen",
@@ -957,10 +1227,12 @@
         "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "offen",
-        "oppositeEmoji": "📖",
         "subtext": "jetzt geschlossen, vorübergehend geschlossen",
-        "synonyms": ["Mittagspause", "engstirnig", "geschlossene Tür"],
+        "synonyms": [
+            "Mittagspause",
+            "engstirnig",
+            "geschlossene Tür"
+        ],
         "definitions": [
             {
                 "text": "Nicht offen.",
@@ -973,14 +1245,24 @@
         "neuter": "geschlossenes",
         "plural": "geschlossene",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "de",
+        "antonyms": [
+            "offen"
+        ],
+        "transcription": "",
+        "id": "de_starter_shopping_005"
     },
     {
         "word": "groß",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["eine Großstadt", "ein großes Unternehmen", "eine große Menge"],
+        "synonyms": [
+            "eine Großstadt",
+            "ein großes Unternehmen",
+            "eine große Menge"
+        ],
         "definitions": [
             {
                 "text": "Über dem Durchschnitt an Größe.",
@@ -998,14 +1280,22 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "grautaz"
-        }
+        },
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_014"
     },
     {
         "word": "klein",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["ein kleines bisschen", "ein wenig Geld", "zu wenig"],
+        "synonyms": [
+            "ein kleines bisschen",
+            "ein wenig Geld",
+            "zu wenig"
+        ],
         "definitions": [
             {
                 "text": "Klein an Umfang.",
@@ -1023,14 +1313,22 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "krainaz"
-        }
+        },
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_015"
     },
     {
         "word": "lang",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["eine lange Reise", "ein langer Tag", "eine lange Zeit"],
+        "synonyms": [
+            "eine lange Reise",
+            "ein langer Tag",
+            "eine lange Zeit"
+        ],
         "definitions": [
             {
                 "text": "Von großer Länge.",
@@ -1048,14 +1346,22 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "langaz"
-        }
+        },
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_016"
     },
     {
         "word": "hoch",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["hoher Preis", "hohe Miete", "hohe Qualität"],
+        "synonyms": [
+            "hoher Preis",
+            "hohe Miete",
+            "hohe Qualität"
+        ],
         "definitions": [
             {
                 "text": "Über dem Durchschnitt an Höhe.",
@@ -1069,14 +1375,22 @@
         "superlative": "am höchsten",
         "feminine": "hohe",
         "neuter": "hohes",
-        "plural": "hohe"
+        "plural": "hohe",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_017"
     },
     {
         "word": "niedrig",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["niedriger Preis", "niedriges Gehalt", "niedrige Qualität"],
+        "synonyms": [
+            "niedriger Preis",
+            "niedriges Gehalt",
+            "niedrige Qualität"
+        ],
         "definitions": [
             {
                 "text": "Unter dem Durchschnitt an Höhe.",
@@ -1090,14 +1404,22 @@
         "superlative": "am niedrigsten",
         "feminine": "niedrige",
         "neuter": "niedriges",
-        "plural": "niedrige"
+        "plural": "niedrige",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_018"
     },
     {
         "word": "voll",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["Vollzeit", "ein ganzer Tag", "voller Menschen"],
+        "synonyms": [
+            "Vollzeit",
+            "ein ganzer Tag",
+            "voller Menschen"
+        ],
         "definitions": [
             {
                 "text": "So viel wie möglich enthaltend.",
@@ -1111,14 +1433,21 @@
         "superlative": "am vollsten",
         "feminine": "volle",
         "neuter": "volles",
-        "plural": "volle"
+        "plural": "volle",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_019"
     },
     {
         "word": "leer",
         "level": "starter",
         "form": "adjective",
         "subtext": "fast leer",
-        "synonyms": ["eine leere Wohnung", "ein leeres Zimmer"],
+        "synonyms": [
+            "eine leere Wohnung",
+            "ein leeres Zimmer"
+        ],
         "definitions": [
             {
                 "text": "Nichts enthaltend.",
@@ -1132,14 +1461,21 @@
         "superlative": "am leersten",
         "feminine": "lere",
         "neuter": "leres",
-        "plural": "lere"
+        "plural": "lere",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_020"
     },
     {
         "word": "warm",
         "level": "starter",
         "form": "adjective",
         "subtext": "warm halten",
-        "synonyms": ["warmes Wetter", "ein herzliches Willkommen"],
+        "synonyms": [
+            "warmes Wetter",
+            "ein herzliches Willkommen"
+        ],
         "definitions": [
             {
                 "text": "Leicht heiß.",
@@ -1153,14 +1489,21 @@
         "superlative": "am wärmsten",
         "feminine": "warme",
         "neuter": "warmes",
-        "plural": "warme"
+        "plural": "warme",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_nature_005"
     },
     {
         "word": "kühl",
         "level": "starter",
         "form": "adjective",
         "subtext": "kühl bleiben",
-        "synonyms": ["kühles Wetter", "ein kühles Getränk"],
+        "synonyms": [
+            "kühles Wetter",
+            "ein kühles Getränk"
+        ],
         "definitions": [
             {
                 "text": "Leicht kalt.",
@@ -1174,14 +1517,21 @@
         "superlative": "am kühlsten",
         "feminine": "kühle",
         "neuter": "kühles",
-        "plural": "kühle"
+        "plural": "kühle",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_nature_006"
     },
     {
         "word": "nass",
         "level": "starter",
         "form": "adjective",
         "subtext": "nass werden",
-        "synonyms": ["nasses Wetter", "nasse Kleidung"],
+        "synonyms": [
+            "nasses Wetter",
+            "nasse Kleidung"
+        ],
         "definitions": [
             {
                 "text": "Mit Wasser bedeckt.",
@@ -1195,14 +1545,21 @@
         "superlative": "am nassesten",
         "feminine": "nasse",
         "neuter": "nasses",
-        "plural": "nasse"
+        "plural": "nasse",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_nature_007"
     },
     {
         "word": "trocken",
         "level": "starter",
         "form": "adjective",
         "subtext": "trocken bleiben",
-        "synonyms": ["trockenes Wetter", "trockene Haut"],
+        "synonyms": [
+            "trockenes Wetter",
+            "trockene Haut"
+        ],
         "definitions": [
             {
                 "text": "Ohne Wasser oder Flüssigkeit.",
@@ -1216,7 +1573,11 @@
         "superlative": "am trockensten",
         "feminine": "trockene",
         "neuter": "trockenes",
-        "plural": "trockene"
+        "plural": "trockene",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_nature_008"
     },
     {
         "word": "schmutzig",
@@ -1224,7 +1585,10 @@
         "theme": "furniture",
         "form": "adjective",
         "subtext": "schmutzig werden",
-        "synonyms": ["schmutzige Hände", "schmutzige Kleidung"],
+        "synonyms": [
+            "schmutzige Hände",
+            "schmutzige Kleidung"
+        ],
         "definitions": [
             {
                 "text": "Mit Schmutz bedeckt.",
@@ -1237,14 +1601,21 @@
         "superlative": "am schmutzigsten",
         "feminine": "schmutzige",
         "neuter": "schmutziges",
-        "plural": "schmutzige"
+        "plural": "schmutzige",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_furniture_002"
     },
     {
         "word": "hart",
         "level": "starter",
         "form": "adjective",
         "subtext": "zu hart",
-        "synonyms": ["harte Arbeit", "eine harte Entscheidung"],
+        "synonyms": [
+            "harte Arbeit",
+            "eine harte Entscheidung"
+        ],
         "definitions": [
             {
                 "text": "Fest und solide; schwierig.",
@@ -1258,14 +1629,22 @@
         "superlative": "am härtesten",
         "feminine": "harte",
         "neuter": "hartes",
-        "plural": "harte"
+        "plural": "harte",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_021"
     },
     {
         "word": "weich",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["weiches Licht", "sanfte Musik", "Soft Skills"],
+        "synonyms": [
+            "weiches Licht",
+            "sanfte Musik",
+            "Soft Skills"
+        ],
         "definitions": [
             {
                 "text": "Nicht hart; sanft anzufassen.",
@@ -1279,14 +1658,21 @@
         "superlative": "am weichsten",
         "feminine": "weiche",
         "neuter": "weiches",
-        "plural": "weiche"
+        "plural": "weiche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_022"
     },
     {
         "word": "schwer",
         "level": "starter",
         "form": "adjective",
         "subtext": "zu schwer",
-        "synonyms": ["starker Verkehr", "starker Regen"],
+        "synonyms": [
+            "starker Verkehr",
+            "starker Regen"
+        ],
         "definitions": [
             {
                 "text": "Von großem Gewicht.",
@@ -1300,14 +1686,22 @@
         "superlative": "am schwersten",
         "feminine": "schwere",
         "neuter": "schweres",
-        "plural": "schwere"
+        "plural": "schwere",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_023"
     },
     {
         "word": "leicht",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["leichter Regen", "wenig Verkehr", "eine leichte Mahlzeit"],
+        "synonyms": [
+            "leichter Regen",
+            "wenig Verkehr",
+            "eine leichte Mahlzeit"
+        ],
         "definitions": [
             {
                 "text": "Nicht schwer.",
@@ -1321,14 +1715,22 @@
         "superlative": "am leichtesten",
         "feminine": "leichte",
         "neuter": "leichtes",
-        "plural": "leichte"
+        "plural": "leichte",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_024"
     },
     {
         "word": "braun",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["dunkelbraun", "hellbraun", "Schwarzbrot"],
+        "synonyms": [
+            "dunkelbraun",
+            "hellbraun",
+            "Schwarzbrot"
+        ],
         "definitions": [
             {
                 "text": "Die Farbe von Holz habend.",
@@ -1342,14 +1744,22 @@
         "superlative": "am braunsten",
         "feminine": "braune",
         "neuter": "braunes",
-        "plural": "braune"
+        "plural": "braune",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_colours_007"
     },
     {
         "word": "grau",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["Grauzone", "grauer Himmel", "blassgrau"],
+        "synonyms": [
+            "Grauzone",
+            "grauer Himmel",
+            "blassgrau"
+        ],
         "definitions": [
             {
                 "text": "Zwischen Schwarz und Weiß.",
@@ -1363,14 +1773,20 @@
         "superlative": "am grausten",
         "feminine": "graue",
         "neuter": "graues",
-        "plural": "graue"
+        "plural": "graue",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_colours_008"
     },
     {
         "word": "rosa",
         "level": "starter",
         "form": "adjective",
         "subtext": "leuchtendes Rosa / kräftiges Rosa",
-        "synonyms": ["hellrosa"],
+        "synonyms": [
+            "hellrosa"
+        ],
         "definitions": [
             {
                 "text": "Blassrot.",
@@ -1384,14 +1800,21 @@
         "superlative": "am rosasten",
         "feminine": "rosae",
         "neuter": "rosaes",
-        "plural": "rosae"
+        "plural": "rosae",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_colours_009"
     },
     {
         "word": "orange",
         "level": "starter",
         "form": "adjective",
         "subtext": "oranges Licht",
-        "synonyms": ["hellorange", "dunkelorange"],
+        "synonyms": [
+            "hellorange",
+            "dunkelorange"
+        ],
         "definitions": [
             {
                 "text": "Die Farbe einer Orange habend.",
@@ -1405,14 +1828,22 @@
         "superlative": "am orangesten",
         "feminine": "orangee",
         "neuter": "orangees",
-        "plural": "orangee"
+        "plural": "orangee",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_colours_010"
     },
     {
         "word": "großartig",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["eine großartige Idee", "eine tolle Gelegenheit", "hoher Wert"],
+        "synonyms": [
+            "eine großartige Idee",
+            "eine tolle Gelegenheit",
+            "hoher Wert"
+        ],
         "definitions": [
             {
                 "text": "Extrem gut.",
@@ -1426,14 +1857,22 @@
         "superlative": "am großartigsten",
         "feminine": "großartige",
         "neuter": "großartiges",
-        "plural": "großartige"
+        "plural": "großartige",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_025"
     },
     {
         "word": "nett",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["ein schöner Tag", "ein schöner Ort", "eine nette Person"],
+        "synonyms": [
+            "ein schöner Tag",
+            "ein schöner Ort",
+            "eine nette Person"
+        ],
         "definitions": [
             {
                 "text": "Angenehm oder freundlich.",
@@ -1447,14 +1886,21 @@
         "superlative": "am nettesten",
         "feminine": "nette",
         "neuter": "nettes",
-        "plural": "nette"
+        "plural": "nette",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_026"
     },
     {
         "word": "wunderbar",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["eine wunderbare Gelegenheit", "eine wunderbare Zeit"],
+        "synonyms": [
+            "eine wunderbare Gelegenheit",
+            "eine wunderbare Zeit"
+        ],
         "definitions": [
             {
                 "text": "Extrem gut; Freude bereitend.",
@@ -1468,14 +1914,22 @@
         "superlative": "am wunderbarsten",
         "feminine": "wunderbare",
         "neuter": "wunderbares",
-        "plural": "wunderbare"
+        "plural": "wunderbare",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_027"
     },
     {
         "word": "furchtbar",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["furchtbares Wetter", "ein schrecklicher Fehler", "schreckliche Nachrichten"],
+        "synonyms": [
+            "furchtbares Wetter",
+            "ein schrecklicher Fehler",
+            "schreckliche Nachrichten"
+        ],
         "definitions": [
             {
                 "text": "Extrem schlecht.",
@@ -1489,14 +1943,21 @@
         "superlative": "am furchtbarsten",
         "feminine": "furchtbare",
         "neuter": "furchtbares",
-        "plural": "furchtbare"
+        "plural": "furchtbare",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_028"
     },
     {
         "word": "schrecklich",
         "level": "starter",
         "form": "adjective",
         "subtext": "einfach schrecklich",
-        "synonyms": ["schreckliches Wetter", "schreckliche Nachrichten"],
+        "synonyms": [
+            "schreckliches Wetter",
+            "schreckliche Nachrichten"
+        ],
         "definitions": [
             {
                 "text": "Sehr schlecht oder unangenehm.",
@@ -1510,14 +1971,21 @@
         "superlative": "am schrecklichsten",
         "feminine": "schreckliche",
         "neuter": "schreckliches",
-        "plural": "schreckliche"
+        "plural": "schreckliche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_029"
     },
     {
         "word": "erstaunlich",
         "level": "starter",
         "form": "adjective",
         "subtext": "wirklich erstaunlich",
-        "synonyms": ["ein erstaunliches Ergebnis", "ein tolles Angebot"],
+        "synonyms": [
+            "ein erstaunliches Ergebnis",
+            "ein tolles Angebot"
+        ],
         "definitions": [
             {
                 "text": "Große Überraschung verursachend.",
@@ -1531,14 +1999,21 @@
         "superlative": "am erstaunlichsten",
         "feminine": "erstaunliche",
         "neuter": "erstaunliches",
-        "plural": "erstaunliche"
+        "plural": "erstaunliche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_030"
     },
     {
         "word": "fantastisch",
         "level": "starter",
         "form": "adjective",
         "subtext": "wirklich fantastisch",
-        "synonyms": ["fantastische Neuigkeiten", "eine fantastische Gelegenheit"],
+        "synonyms": [
+            "fantastische Neuigkeiten",
+            "eine fantastische Gelegenheit"
+        ],
         "definitions": [
             {
                 "text": "Extrem gut.",
@@ -1552,14 +2027,20 @@
         "superlative": "am fantastischsten",
         "feminine": "fantastische",
         "neuter": "fantastisches",
-        "plural": "fantastische"
+        "plural": "fantastische",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_031"
     },
     {
         "word": "traurig",
         "level": "starter",
         "form": "adjective",
         "subtext": "sich traurig fühlen / zutiefst traurig",
-        "synonyms": ["eine traurige Situation"],
+        "synonyms": [
+            "eine traurige Situation"
+        ],
         "definitions": [
             {
                 "text": "Sich unglücklich fühlend.",
@@ -1573,14 +2054,21 @@
         "superlative": "am traurigsten",
         "feminine": "traurige",
         "neuter": "trauriges",
-        "plural": "traurige"
+        "plural": "traurige",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_005"
     },
     {
         "word": "hungrig",
         "level": "starter",
         "form": "adjective",
         "subtext": "sehr hungrig",
-        "synonyms": ["Hunger haben", "hungern"],
+        "synonyms": [
+            "Hunger haben",
+            "hungern"
+        ],
         "definitions": [
             {
                 "text": "Essen brauchend.",
@@ -1594,14 +2082,20 @@
         "superlative": "am hungrigsten",
         "feminine": "hungrige",
         "neuter": "hungriges",
-        "plural": "hungrige"
+        "plural": "hungrige",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_006"
     },
     {
         "word": "wütend",
         "level": "starter",
         "form": "adjective",
         "subtext": "wütend sein / sehr wütend",
-        "synonyms": ["sauer auf jemanden"],
+        "synonyms": [
+            "sauer auf jemanden"
+        ],
         "definitions": [
             {
                 "text": "Starken Unmut empfindend.",
@@ -1615,14 +2109,20 @@
         "superlative": "am wütendsten",
         "feminine": "wütende",
         "neuter": "wütendes",
-        "plural": "wütende"
+        "plural": "wütende",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_007"
     },
     {
         "word": "gelangweilt",
         "level": "starter",
         "form": "adjective",
         "subtext": "gelangweilt von / leicht gelangweilt",
-        "synonyms": ["sich langweilen"],
+        "synonyms": [
+            "sich langweilen"
+        ],
         "definitions": [
             {
                 "text": "Interessenlos fühlend.",
@@ -1636,7 +2136,11 @@
         "superlative": "am gelangweiltesten",
         "feminine": "gelangweilte",
         "neuter": "gelangweiltes",
-        "plural": "gelangweilte"
+        "plural": "gelangweilte",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_008"
     },
     {
         "word": "aufgeregt",
@@ -1644,7 +2148,9 @@
         "theme": "emotions",
         "form": "adjective",
         "subtext": "aufgeregt sein / sehr aufgeregt",
-        "synonyms": ["begeistert von"],
+        "synonyms": [
+            "begeistert von"
+        ],
         "definitions": [
             {
                 "text": "Enthusiasmus empfindend.",
@@ -1657,14 +2163,22 @@
         "superlative": "am aufgeregtesten",
         "feminine": "aufgeregte",
         "neuter": "aufgeregtes",
-        "plural": "aufgeregte"
+        "plural": "aufgeregte",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_009"
     },
     {
         "word": "ängstlich",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["Angst vor", "Angst haben", "tiefe Angst"],
+        "synonyms": [
+            "Angst vor",
+            "Angst haben",
+            "tiefe Angst"
+        ],
         "definitions": [
             {
                 "text": "Angst empfindend.",
@@ -1678,14 +2192,22 @@
         "superlative": "am ängstlichsten",
         "feminine": "ängstliche",
         "neuter": "ängstliches",
-        "plural": "ängstliche"
+        "plural": "ängstliche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_010"
     },
     {
         "word": "tut mir leid",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["Bedauern empfinden", "Mitleid mit", "leid tun wegen"],
+        "synonyms": [
+            "Bedauern empfinden",
+            "Mitleid mit",
+            "leid tun wegen"
+        ],
         "definitions": [
             {
                 "text": "Bedauern empfindend.",
@@ -1699,14 +2221,21 @@
         "superlative": null,
         "feminine": "tut mir leid",
         "neuter": "tut mir leid",
-        "plural": "tut mir leid"
+        "plural": "tut mir leid",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_011"
     },
     {
         "word": "richtig",
         "level": "starter",
         "form": "adjective",
         "subtext": "absolut richtig",
-        "synonyms": ["richtige Antwort", "richtige Zeit"],
+        "synonyms": [
+            "richtige Antwort",
+            "richtige Zeit"
+        ],
         "definitions": [
             {
                 "text": "Korrekt; passend.",
@@ -1720,14 +2249,21 @@
         "superlative": "am richtigsten",
         "feminine": "richtige",
         "neuter": "richtiges",
-        "plural": "richtige"
+        "plural": "richtige",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_032"
     },
     {
         "word": "falsch",
         "level": "starter",
         "form": "adjective",
         "subtext": "völlig falsch",
-        "synonyms": ["falsche Antwort", "schiefgehen"],
+        "synonyms": [
+            "falsche Antwort",
+            "schiefgehen"
+        ],
         "definitions": [
             {
                 "text": "Nicht korrekt.",
@@ -1741,14 +2277,21 @@
         "superlative": "am falschesten",
         "feminine": "falsche",
         "neuter": "falsches",
-        "plural": "falsche"
+        "plural": "falsche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_033"
     },
     {
         "word": "neu",
         "level": "starter",
         "form": "adjective",
         "subtext": "völlig neu",
-        "synonyms": ["neue Stelle", "brandneu"],
+        "synonyms": [
+            "neue Stelle",
+            "brandneu"
+        ],
         "definitions": [
             {
                 "text": "Vorher nicht existent.",
@@ -1766,14 +2309,20 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "neujaz"
-        }
+        },
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_034"
     },
     {
         "word": "anders",
         "level": "starter",
         "form": "adjective",
         "subtext": "völlig anders / anders als",
-        "synonyms": ["sehr verschieden"],
+        "synonyms": [
+            "sehr verschieden"
+        ],
         "definitions": [
             {
                 "text": "Nicht das Gleiche.",
@@ -1787,14 +2336,22 @@
         "superlative": null,
         "feminine": "anders",
         "neuter": "anders",
-        "plural": "anders"
+        "plural": "anders",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_035"
     },
     {
         "word": "gleich",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["das Gleiche wie", "exakt das Gleiche", "gleiche Zeit"],
+        "synonyms": [
+            "das Gleiche wie",
+            "exakt das Gleiche",
+            "gleiche Zeit"
+        ],
         "definitions": [
             {
                 "text": "Identisch.",
@@ -1808,14 +2365,21 @@
         "superlative": null,
         "feminine": "gleich",
         "neuter": "gleich",
-        "plural": "gleich"
+        "plural": "gleich",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_036"
     },
     {
         "word": "schnell",
         "level": "starter",
         "form": "adjective",
         "subtext": "sehr schnell",
-        "synonyms": ["Fast Food", "Schnellzug"],
+        "synonyms": [
+            "Fast Food",
+            "Schnellzug"
+        ],
         "definitions": [
             {
                 "text": "Sich schnell bewegend.",
@@ -1829,14 +2393,21 @@
         "superlative": "am schnellsten",
         "feminine": "schnelle",
         "neuter": "schnelles",
-        "plural": "schnelle"
+        "plural": "schnelle",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_037"
     },
     {
         "word": "langsam",
         "level": "starter",
         "form": "adjective",
         "subtext": "sehr langsam",
-        "synonyms": ["langsamer Fortschritt", "langsames Internet"],
+        "synonyms": [
+            "langsamer Fortschritt",
+            "langsames Internet"
+        ],
         "definitions": [
             {
                 "text": "Nicht schnell.",
@@ -1850,14 +2421,21 @@
         "superlative": "am langsamsten",
         "feminine": "langsame",
         "neuter": "langsames",
-        "plural": "langsame"
+        "plural": "langsame",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_038"
     },
     {
         "word": "leise",
         "level": "starter",
         "form": "adjective",
         "subtext": "leise sein",
-        "synonyms": ["ruhige Gegend", "schön ruhig"],
+        "synonyms": [
+            "ruhige Gegend",
+            "schön ruhig"
+        ],
         "definitions": [
             {
                 "text": "Wenig oder kein Geräusch machend.",
@@ -1871,14 +2449,21 @@
         "superlative": "am leisesten",
         "feminine": "leisee",
         "neuter": "leisees",
-        "plural": "leisee"
+        "plural": "leisee",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_039"
     },
     {
         "word": "laut",
         "level": "starter",
         "form": "adjective",
         "subtext": "zu laut",
-        "synonyms": ["lautes Geräusch", "eine laute Stimme"],
+        "synonyms": [
+            "lautes Geräusch",
+            "eine laute Stimme"
+        ],
         "definitions": [
             {
                 "text": "Viel Lärm machend.",
@@ -1892,14 +2477,20 @@
         "superlative": "am lautesten",
         "feminine": "laute",
         "neuter": "lautes",
-        "plural": "laute"
+        "plural": "laute",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_040"
     },
     {
         "word": "sicher",
         "level": "starter",
         "form": "adjective",
         "subtext": "sicher zu tun / sich sicher fühlen",
-        "synonyms": ["sichere Gegend"],
+        "synonyms": [
+            "sichere Gegend"
+        ],
         "definitions": [
             {
                 "text": "Nicht gefährlich.",
@@ -1913,14 +2504,20 @@
         "superlative": "am sichersten",
         "feminine": "sichere",
         "neuter": "sicheres",
-        "plural": "sichere"
+        "plural": "sichere",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_places_001"
     },
     {
         "word": "gefährlich",
         "level": "starter",
         "form": "adjective",
         "subtext": "sehr gefährlich / potenziell gefährlich",
-        "synonyms": ["gefährliche Situation"],
+        "synonyms": [
+            "gefährliche Situation"
+        ],
         "definitions": [
             {
                 "text": "Wahrscheinlich Schaden verursachend.",
@@ -1934,7 +2531,11 @@
         "superlative": "am gefährlichsten",
         "feminine": "gefährliche",
         "neuter": "gefährliches",
-        "plural": "gefährliche"
+        "plural": "gefährliche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_places_002"
     },
     {
         "word": "unglücklich",
@@ -1954,7 +2555,11 @@
         "superlative": "am unglücklichsten",
         "feminine": "unglückliche",
         "neuter": "unglückliches",
-        "plural": "unglückliche"
+        "plural": "unglückliche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_012"
     },
     {
         "word": "nervös",
@@ -1974,7 +2579,11 @@
         "superlative": "am nervösesten",
         "feminine": "nervöse",
         "neuter": "nervöses",
-        "plural": "nervöse"
+        "plural": "nervöse",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_013"
     },
     {
         "word": "gestresst",
@@ -1994,7 +2603,11 @@
         "superlative": "am gestresstesten",
         "feminine": "gestresste",
         "neuter": "gestresstes",
-        "plural": "gestresste"
+        "plural": "gestresste",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_014"
     },
     {
         "word": "selbstbewusst",
@@ -2010,12 +2623,19 @@
             }
         ],
         "subtext": "selbstbewusst",
-        "synonyms": ["sich sicher fühlen", "sehr sicher"],
+        "synonyms": [
+            "sich sicher fühlen",
+            "sehr sicher"
+        ],
         "comparative": "selbstbewusster",
         "superlative": "am selbstbewusstesten",
         "feminine": "selbstbewusste",
         "neuter": "selbstbewusstes",
-        "plural": "selbstbewusste"
+        "plural": "selbstbewusste",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_041"
     },
     {
         "word": "stolz",
@@ -2035,7 +2655,11 @@
         "superlative": "am stolzesten",
         "feminine": "stolze",
         "neuter": "stolzes",
-        "plural": "stolze"
+        "plural": "stolze",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_042"
     },
     {
         "word": "verängstigt",
@@ -2051,12 +2675,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["Angst haben", "Angst vor", "große Angst"],
+        "synonyms": [
+            "Angst haben",
+            "Angst vor",
+            "große Angst"
+        ],
         "comparative": "verängstigter",
         "superlative": "am verängstigtsten",
         "feminine": "verängstigte",
         "neuter": "verängstigtes",
-        "plural": "verängstigte"
+        "plural": "verängstigte",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_015"
     },
     {
         "word": "überrascht",
@@ -2076,7 +2708,11 @@
         "superlative": "am überraschtesten",
         "feminine": "überraschte",
         "neuter": "überraschtes",
-        "plural": "überraschte"
+        "plural": "überraschte",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_016"
     },
     {
         "word": "enttäuscht",
@@ -2096,7 +2732,11 @@
         "superlative": "am enttäuchtesten",
         "feminine": "enttäuschte",
         "neuter": "enttäuschtes",
-        "plural": "enttäuschte"
+        "plural": "enttäuschte",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_emotions_017"
     },
     {
         "word": "schön",
@@ -2112,12 +2752,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["schöne Aussicht", "schöne Stadt", "absolut wunderschön"],
+        "synonyms": [
+            "schöne Aussicht",
+            "schöne Stadt",
+            "absolut wunderschön"
+        ],
         "comparative": "schöner",
         "superlative": "am schönsten",
         "feminine": "schöne",
         "neuter": "schönes",
-        "plural": "schöne"
+        "plural": "schöne",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_043"
     },
     {
         "word": "hübsch",
@@ -2133,12 +2781,19 @@
             }
         ],
         "subtext": "recht hübsch",
-        "synonyms": ["ziemlich gut", "ein hübscher Ort"],
+        "synonyms": [
+            "ziemlich gut",
+            "ein hübscher Ort"
+        ],
         "comparative": "hübscher",
         "superlative": "am hübschesten",
         "feminine": "hübsche",
         "neuter": "hübsches",
-        "plural": "hübsche"
+        "plural": "hübsche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_044"
     },
     {
         "word": "stark",
@@ -2154,12 +2809,19 @@
             }
         ],
         "subtext": "sehr stark",
-        "synonyms": ["starker Kaffee", "starke Meinung"],
+        "synonyms": [
+            "starker Kaffee",
+            "starke Meinung"
+        ],
         "comparative": "stärker",
         "superlative": "am stärksten",
         "feminine": "starke",
         "neuter": "starkes",
-        "plural": "starke"
+        "plural": "starke",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_045"
     },
     {
         "word": "schwach",
@@ -2175,12 +2837,18 @@
             }
         ],
         "subtext": "schwache Verbindung / sehr schwach",
-        "synonyms": ["ein schwaches Argument"],
+        "synonyms": [
+            "ein schwaches Argument"
+        ],
         "comparative": "schwächer",
         "superlative": "am schwächsten",
         "feminine": "schwache",
         "neuter": "schwaches",
-        "plural": "schwache"
+        "plural": "schwache",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_046"
     },
     {
         "word": "fit",
@@ -2200,7 +2868,11 @@
         "superlative": "am fittesten",
         "feminine": "fite",
         "neuter": "fites",
-        "plural": "fite"
+        "plural": "fite",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_health_medicine_002"
     },
     {
         "word": "ausgezeichnet",
@@ -2216,12 +2888,19 @@
             }
         ],
         "subtext": "absolut ausgezeichnet",
-        "synonyms": ["ausgezeichnete Arbeit", "ausgezeichnete Ergebnisse"],
+        "synonyms": [
+            "ausgezeichnete Arbeit",
+            "ausgezeichnete Ergebnisse"
+        ],
         "comparative": "ausgezeichneter",
         "superlative": "am ausgezeichnetsten",
         "feminine": "ausgezeichnete",
         "neuter": "ausgezeichnetes",
-        "plural": "ausgezeichnete"
+        "plural": "ausgezeichnete",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_047"
     },
     {
         "word": "perfekt",
@@ -2237,12 +2916,19 @@
             }
         ],
         "subtext": "absolut perfekt",
-        "synonyms": ["eine perfekte Gelegenheit", "perfektes Timing"],
+        "synonyms": [
+            "eine perfekte Gelegenheit",
+            "perfektes Timing"
+        ],
         "comparative": "perfekter",
         "superlative": "am perfektesten",
         "feminine": "perfekte",
         "neuter": "perfektes",
-        "plural": "perfekte"
+        "plural": "perfekte",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_048"
     },
     {
         "word": "nutzlos",
@@ -2258,12 +2944,18 @@
             }
         ],
         "subtext": "völlig nutzlos / sich als nutzlos erweisen",
-        "synonyms": ["eine nutzlose Idee"],
+        "synonyms": [
+            "eine nutzlose Idee"
+        ],
         "comparative": "nutzloser",
         "superlative": "am nutzlosesten",
         "feminine": "nutzlose",
         "neuter": "nutzloses",
-        "plural": "nutzlose"
+        "plural": "nutzlose",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_049"
     },
     {
         "word": "korrekt",
@@ -2279,12 +2971,19 @@
             }
         ],
         "subtext": "völlig korrekt",
-        "synonyms": ["korrekte Antwort", "der richtige Weg"],
+        "synonyms": [
+            "korrekte Antwort",
+            "der richtige Weg"
+        ],
         "comparative": "korrekter",
         "superlative": "am korrektesten",
         "feminine": "korrekte",
         "neuter": "korrektes",
-        "plural": "korrekte"
+        "plural": "korrekte",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_050"
     },
     {
         "word": "interessant",
@@ -2300,12 +2999,18 @@
             }
         ],
         "subtext": "interessant finden / sehr interessant",
-        "synonyms": ["eine interessante Idee"],
+        "synonyms": [
+            "eine interessante Idee"
+        ],
         "comparative": "interessanter",
         "superlative": "am interessantesten",
         "feminine": "interessante",
         "neuter": "interessantes",
-        "plural": "interessante"
+        "plural": "interessante",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_051"
     },
     {
         "word": "langweilig",
@@ -2321,12 +3026,18 @@
             }
         ],
         "subtext": "sehr langweilig / langweilig finden",
-        "synonyms": ["ein langweiliges Treffen"],
+        "synonyms": [
+            "ein langweiliges Treffen"
+        ],
         "comparative": "langweiliger",
         "superlative": "am langweiligsten",
         "feminine": "langweilige",
         "neuter": "langweiliges",
-        "plural": "langweilige"
+        "plural": "langweilige",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_052"
     },
     {
         "word": "notwendig",
@@ -2342,12 +3053,18 @@
             }
         ],
         "subtext": "absolut notwendig / notwendig zu tun",
-        "synonyms": ["falls nötig"],
+        "synonyms": [
+            "falls nötig"
+        ],
         "comparative": "notwendiger",
         "superlative": "am notwendigsten",
         "feminine": "notwendige",
         "neuter": "notwendiges",
-        "plural": "notwendige"
+        "plural": "notwendige",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_053"
     },
     {
         "word": "möglich",
@@ -2367,7 +3084,11 @@
         "superlative": null,
         "feminine": "mögliche",
         "neuter": "mögliches",
-        "plural": "mögliche"
+        "plural": "mögliche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_054"
     },
     {
         "word": "unmöglich",
@@ -2387,7 +3108,11 @@
         "superlative": null,
         "feminine": "unmögliche",
         "neuter": "unmögliches",
-        "plural": "unmögliche"
+        "plural": "unmögliche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_055"
     },
     {
         "word": "besonders",
@@ -2403,12 +3128,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ein besonderes Angebot", "besonderer Anlass", "sehr speziell"],
+        "synonyms": [
+            "ein besonderes Angebot",
+            "besonderer Anlass",
+            "sehr speziell"
+        ],
         "comparative": "besonderer",
         "superlative": "am besondersten",
         "feminine": "besonderse",
         "neuter": "besonderses",
-        "plural": "besonderse"
+        "plural": "besonderse",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_056"
     },
     {
         "word": "beliebt",
@@ -2424,12 +3157,19 @@
             }
         ],
         "subtext": "sehr beliebt",
-        "synonyms": ["beliebte Wahl", "am beliebtesten"],
+        "synonyms": [
+            "beliebte Wahl",
+            "am beliebtesten"
+        ],
         "comparative": "beliebter",
         "superlative": "am beliebtesten",
         "feminine": "beliebte",
         "neuter": "beliebtes",
-        "plural": "beliebte"
+        "plural": "beliebte",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_057"
     },
     {
         "word": "ähnlich",
@@ -2445,12 +3185,18 @@
             }
         ],
         "subtext": "sehr ähnlich / ähnlich wie",
-        "synonyms": ["ähnliche Ergebnisse"],
+        "synonyms": [
+            "ähnliche Ergebnisse"
+        ],
         "comparative": "ähnlicher",
         "superlative": "am ähnlichsten",
         "feminine": "ähnliche",
         "neuter": "ähnliches",
-        "plural": "ähnliche"
+        "plural": "ähnliche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_058"
     },
     {
         "word": "freundlich",
@@ -2466,12 +3212,19 @@
             }
         ],
         "subtext": "sehr freundlich",
-        "synonyms": ["ein freundliches Gesicht", "freundliche Atmosphäre"],
+        "synonyms": [
+            "ein freundliches Gesicht",
+            "freundliche Atmosphäre"
+        ],
         "comparative": "freundlicher",
         "superlative": "am freundlichsten",
         "feminine": "freundliche",
         "neuter": "freundliches",
-        "plural": "freundliche"
+        "plural": "freundliche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_059"
     },
     {
         "word": "gütig",
@@ -2487,12 +3240,19 @@
             }
         ],
         "subtext": "sehr gütig",
-        "synonyms": ["nett von dir", "ein gütiger Mensch"],
+        "synonyms": [
+            "nett von dir",
+            "ein gütiger Mensch"
+        ],
         "comparative": "gütiger",
         "superlative": "am gütigsten",
         "feminine": "gütige",
         "neuter": "gütiges",
-        "plural": "gütige"
+        "plural": "gütige",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_060"
     },
     {
         "word": "lustig",
@@ -2508,12 +3268,18 @@
             }
         ],
         "subtext": "sehr lustig / lustig finden",
-        "synonyms": ["lustige Geschichte"],
+        "synonyms": [
+            "lustige Geschichte"
+        ],
         "comparative": "lustiger",
         "superlative": "am lustigsten",
         "feminine": "lustige",
         "neuter": "lustiges",
-        "plural": "lustige"
+        "plural": "lustige",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_061"
     },
     {
         "word": "schlau",
@@ -2529,12 +3295,18 @@
             }
         ],
         "subtext": "sehr schlau / schlau genug",
-        "synonyms": ["eine schlaue Idee"],
+        "synonyms": [
+            "eine schlaue Idee"
+        ],
         "comparative": "schlauer",
         "superlative": "am schlauesten",
         "feminine": "schlaue",
         "neuter": "schlaues",
-        "plural": "schlaue"
+        "plural": "schlaue",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_062"
     },
     {
         "word": "höflich",
@@ -2550,12 +3322,18 @@
             }
         ],
         "subtext": "sehr höflich / höflich genug",
-        "synonyms": ["höfliche Bitte"],
+        "synonyms": [
+            "höfliche Bitte"
+        ],
         "comparative": "höflicher",
         "superlative": "am höflichsten",
         "feminine": "höfliche",
         "neuter": "höfliches",
-        "plural": "höfliche"
+        "plural": "höfliche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_063"
     },
     {
         "word": "unhöflich",
@@ -2575,7 +3353,11 @@
         "superlative": "am unhöflichsten",
         "feminine": "unhöfliche",
         "neuter": "unhöfliches",
-        "plural": "unhöfliche"
+        "plural": "unhöfliche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_064"
     },
     {
         "word": "faul",
@@ -2591,12 +3373,18 @@
             }
         ],
         "subtext": "sehr faul / zu faul",
-        "synonyms": ["eine faule Herangehensweise"],
+        "synonyms": [
+            "eine faule Herangehensweise"
+        ],
         "comparative": "fauler",
         "superlative": "am faulsten",
         "feminine": "faule",
         "neuter": "faules",
-        "plural": "faule"
+        "plural": "faule",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_065"
     },
     {
         "word": "ehrlich",
@@ -2616,7 +3404,11 @@
         "superlative": "am ehrlichsten",
         "feminine": "ehrliche",
         "neuter": "ehrliches",
-        "plural": "ehrliche"
+        "plural": "ehrliche",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_066"
     },
     {
         "word": "laut",
@@ -2632,14 +3424,20 @@
             }
         ],
         "subtext": "sehr laut / zu laut",
-        "synonyms": ["laute Umgebung"],
+        "synonyms": [
+            "laute Umgebung"
+        ],
         "comparative": "lauter",
         "superlative": "am lautesten",
         "feminine": "laute",
         "neuter": "lautes",
-        "plural": "laute"
+        "plural": "laute",
+        "lang": "de",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "de_starter_describing_067"
     }
-    ];
+];
     const lang = "de";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];

@@ -3,7 +3,6 @@
     {
         "id": "en_starter_places_078",
         "word": "garden",
-        "image": "images/vocabulary/actions/to garden.png",
         "emoji": "🌳",
         "form": "noun",
         "classification": "regular",
@@ -21,7 +20,8 @@
         "etymology": {
             "origin_lang": "Old French",
             "origin_word": "jardin"
-        }
+        },
+        "transcription": ""
     },
     {
         "id": "en_starter_places_079",
@@ -86,7 +86,6 @@
     {
         "id": "en_starter_places_081",
         "word": "school",
-        "image": "images/vocabulary/actions/to go to school.png",
         "emoji": "🏫",
         "form": "noun",
         "classification": "regular",
@@ -156,12 +155,14 @@
         "v2": "rented",
         "v3": "rented",
         "group": "regular",
-        "opposite": "own",
         "transcription": "rɛnt",
         "lang": "en",
         "level": "starter",
         "theme": "types_of_accommodation",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "own"
+        ]
     },
     {
         "id": "en_starter_places_083",
@@ -767,9 +768,7 @@
     {
         "id": "en_starter_prepositions_place_013",
         "word": "above",
-        "image": "images/grammar/prepositions/above.png",
         "form": "preposition",
-        "opposite": "below",
         "definitions": [
             {
                 "text": "In or to a higher position than something else.",
@@ -784,14 +783,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "below"
+        ]
     },
     {
         "id": "en_starter_prepositions_place_014",
         "word": "below",
-        "image": "images/grammar/prepositions/below.png",
         "form": "preposition",
-        "opposite": "above",
         "definitions": [
             {
                 "text": "In or to a lower position than something else.",
@@ -806,13 +806,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "above"
+        ]
     },
     {
         "id": "en_starter_prepositions_place_015",
         "word": "inside",
         "form": "preposition",
-        "opposite": "outside",
         "definitions": [
             {
                 "text": "In or into a container, room, or building.",
@@ -827,13 +829,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "outside"
+        ]
     },
     {
         "id": "en_starter_prepositions_place_016",
         "word": "outside",
         "form": "preposition",
-        "opposite": "inside",
         "definitions": [
             {
                 "text": "Not in a particular room or building.",
@@ -848,7 +852,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "inside"
+        ]
     },
     {
         "id": "en_starter_places_098",
@@ -905,8 +912,6 @@
         "word": "live",
         "emoji": "🏠",
         "subtext": "live in a flat / live alone / live with someone / live abroad",
-        "opposite": "die",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -926,15 +931,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "die"
+        ]
     },
     {
         "id": "en_starter_types_of_accommodation_002",
         "word": "stay",
         "emoji": "🏨",
         "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
-        "opposite": "leave",
-        "oppositeEmoji": "🚪",
         "form": "verb",
         "definitions": [
             {
@@ -954,14 +960,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "types_of_accommodation",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "leave"
+        ]
     },
     {
         "id": "en_starter_places_101",
         "word": "safe",
         "form": "adjective",
-        "opposite": "dangerous",
-        "oppositeEmoji": "🧨",
         "subtext": "safe area / safe to do / feel safe",
         "synonyms": [
             "secure"
@@ -981,14 +988,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dangerous"
+        ]
     },
     {
         "id": "en_starter_places_102",
         "word": "dangerous",
         "form": "adjective",
-        "opposite": "safe",
-        "oppositeEmoji": "🛡️",
         "subtext": "dangerous situation / very dangerous / potentially dangerous",
         "synonyms": [
             "risky"
@@ -1008,14 +1016,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "safe"
+        ]
     },
     {
         "id": "en_starter_distance_004",
         "word": "near",
         "form": "adjective",
-        "opposite": "far",
-        "oppositeEmoji": "🔭",
         "subtext": "near here / near the station",
         "synonyms": [
             "close"
@@ -1034,15 +1043,16 @@
         "transcription": "nɪr",
         "lang": "en",
         "level": "starter",
-        "theme": "distance",
-        "sub_theme": null
+        "theme": "travel",
+        "sub_theme": null,
+        "antonyms": [
+            "far"
+        ]
     },
     {
         "id": "en_starter_distance_005",
         "word": "far",
         "form": "adjective",
-        "opposite": "close",
-        "oppositeEmoji": "📍",
         "subtext": "far away / far from",
         "synonyms": [
             "distant"
@@ -1061,15 +1071,17 @@
         "transcription": "fɑr",
         "lang": "en",
         "level": "starter",
-        "theme": "distance",
-        "sub_theme": null
+        "theme": "travel",
+        "sub_theme": null,
+        "antonyms": [
+            "close"
+        ]
     },
     {
         "id": "en_starter_distance_006",
         "word": "close",
         "emoji": "📍",
         "form": "adjective",
-        "opposite": "far",
         "definitions": [
             {
                 "text": "Near in space or time.",
@@ -1087,8 +1099,11 @@
         "transcription": "kloʊz",
         "lang": "en",
         "level": "starter",
-        "theme": "distance",
-        "sub_theme": null
+        "theme": "travel",
+        "sub_theme": null,
+        "antonyms": [
+            "far"
+        ]
     },
     {
         "id": "en_starter_prepositions_place_017",

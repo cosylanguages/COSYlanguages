@@ -15,7 +15,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈcidade do méxico",
-        "emoji": "🇲🇽"
+        "emoji": "🇲🇽",
+        "lang": "pt",
+        "id": "pt_starter_places_001"
     },
     {
         "word": "Amesterdão",
@@ -31,7 +33,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈamesterdão",
-        "emoji": "🇳🇱"
+        "emoji": "🇳🇱",
+        "lang": "pt",
+        "id": "pt_starter_places_002"
     },
     {
         "word": "Viena",
@@ -47,7 +51,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈviena",
-        "emoji": "🇦🇹"
+        "emoji": "🇦🇹",
+        "lang": "pt",
+        "id": "pt_starter_places_003"
     },
     {
         "word": "Praga",
@@ -63,7 +69,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈpraga",
-        "emoji": "🇨🇿"
+        "emoji": "🇨🇿",
+        "lang": "pt",
+        "id": "pt_starter_places_004"
     },
     {
         "word": "Barcelona",
@@ -79,7 +87,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈbarcelona",
-        "emoji": "🇪🇸"
+        "emoji": "🇪🇸",
+        "lang": "pt",
+        "id": "pt_starter_places_005"
     },
     {
         "word": "Veneza",
@@ -95,7 +105,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈveneza",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "lang": "pt",
+        "id": "pt_starter_places_006"
     },
     {
         "word": "Florença",
@@ -111,7 +123,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈflorença",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "lang": "pt",
+        "id": "pt_starter_places_007"
     },
     {
         "word": "Dublim",
@@ -127,7 +141,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈdublim",
-        "emoji": "🇮🇪"
+        "emoji": "🇮🇪",
+        "lang": "pt",
+        "id": "pt_starter_places_008"
     },
     {
         "word": "Edimburgo",
@@ -143,7 +159,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈedimburgo",
-        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "lang": "pt",
+        "id": "pt_starter_places_009"
     },
     {
         "word": "Chicago",
@@ -159,7 +177,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈchicago",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "pt",
+        "id": "pt_starter_places_010"
     },
     {
         "word": "Los Angeles",
@@ -175,7 +195,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈlos angeles",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "pt",
+        "id": "pt_starter_places_011"
     },
     {
         "word": "São Francisco",
@@ -191,7 +213,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈsão francisco",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "pt",
+        "id": "pt_starter_places_012"
     },
     {
         "word": "Miami",
@@ -207,7 +231,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈmiami",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "pt",
+        "id": "pt_starter_places_013"
     },
     {
         "word": "Washington D.C.",
@@ -223,7 +249,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈwashington d.c.",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "pt",
+        "id": "pt_starter_places_014"
     },
     {
         "word": "Vancouver",
@@ -239,7 +267,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈvancouver",
-        "emoji": "🇨🇦"
+        "emoji": "🇨🇦",
+        "lang": "pt",
+        "id": "pt_starter_places_015"
     },
     {
         "word": "Montreal",
@@ -255,7 +285,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈmontreal",
-        "emoji": "🇨🇦"
+        "emoji": "🇨🇦",
+        "lang": "pt",
+        "id": "pt_starter_places_016"
     },
     {
         "word": "Melbourne",
@@ -271,7 +303,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈmelbourne",
-        "emoji": "🇦🇺"
+        "emoji": "🇦🇺",
+        "lang": "pt",
+        "id": "pt_starter_places_017"
     },
     {
         "word": "Tailândia",
@@ -287,7 +321,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈtailândia",
-        "emoji": "🇹🇭"
+        "emoji": "🇹🇭",
+        "lang": "pt",
+        "id": "pt_starter_places_018"
     },
     {
         "word": "Coreia do Sul",
@@ -303,7 +339,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈcoreia do sul",
-        "emoji": "🇰🇷"
+        "emoji": "🇰🇷",
+        "lang": "pt",
+        "id": "pt_starter_places_019"
     },
     {
         "word": "Suécia",
@@ -319,7 +357,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈsuécia",
-        "emoji": "🇸🇪"
+        "emoji": "🇸🇪",
+        "lang": "pt",
+        "id": "pt_starter_places_020"
     },
     {
         "word": "Noruega",
@@ -335,7 +375,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈnoruega",
-        "emoji": "🇳🇴"
+        "emoji": "🇳🇴",
+        "lang": "pt",
+        "id": "pt_starter_places_021"
     },
     {
         "word": "Dinamarca",
@@ -351,7 +393,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈdinamarca",
-        "emoji": "🇩🇰"
+        "emoji": "🇩🇰",
+        "lang": "pt",
+        "id": "pt_starter_places_022"
     },
     {
         "word": "Finlândia",
@@ -367,7 +411,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈfinlândia",
-        "emoji": "🇫🇮"
+        "emoji": "🇫🇮",
+        "lang": "pt",
+        "id": "pt_starter_places_023"
     },
     {
         "word": "Polónia",
@@ -383,7 +429,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈpolónia",
-        "emoji": "🇵🇱"
+        "emoji": "🇵🇱",
+        "lang": "pt",
+        "id": "pt_starter_places_024"
     },
     {
         "word": "Ucrânia",
@@ -399,7 +447,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈucrânia",
-        "emoji": "🇺🇦"
+        "emoji": "🇺🇦",
+        "lang": "pt",
+        "id": "pt_starter_places_025"
     },
     {
         "word": "Áustria",
@@ -415,7 +465,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈáustria",
-        "emoji": "🇦🇹"
+        "emoji": "🇦🇹",
+        "lang": "pt",
+        "id": "pt_starter_places_026"
     },
     {
         "word": "Suíça",
@@ -431,7 +483,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈsuíça",
-        "emoji": "🇨🇭"
+        "emoji": "🇨🇭",
+        "lang": "pt",
+        "id": "pt_starter_places_027"
     },
     {
         "word": "Países Baixos",
@@ -447,7 +501,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈpaíses baixos",
-        "emoji": "🇳🇱"
+        "emoji": "🇳🇱",
+        "lang": "pt",
+        "id": "pt_starter_places_028"
     },
     {
         "word": "Bélgica",
@@ -463,7 +519,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈbélgica",
-        "emoji": "🇧🇪"
+        "emoji": "🇧🇪",
+        "lang": "pt",
+        "id": "pt_starter_places_029"
     },
     {
         "word": "Irlanda",
@@ -479,7 +537,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈirlanda",
-        "emoji": "🇮🇪"
+        "emoji": "🇮🇪",
+        "lang": "pt",
+        "id": "pt_starter_places_030"
     },
     {
         "word": "Londres",
@@ -495,7 +555,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈlondres",
-        "emoji": "🇬🇧"
+        "emoji": "🇬🇧",
+        "lang": "pt",
+        "id": "pt_starter_places_031"
     },
     {
         "word": "França",
@@ -511,7 +573,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈfrança",
-        "emoji": "🇫🇷"
+        "emoji": "🇫🇷",
+        "lang": "pt",
+        "id": "pt_starter_places_032"
     },
     {
         "word": "Itália",
@@ -527,7 +591,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈitália",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "lang": "pt",
+        "id": "pt_starter_places_033"
     },
     {
         "word": "Rússia",
@@ -543,7 +609,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈrússia",
-        "emoji": "🇷🇺"
+        "emoji": "🇷🇺",
+        "lang": "pt",
+        "id": "pt_starter_places_034"
     },
     {
         "word": "Grécia",
@@ -559,7 +627,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈgrécia",
-        "emoji": "🇬🇷"
+        "emoji": "🇬🇷",
+        "lang": "pt",
+        "id": "pt_starter_places_035"
     },
     {
         "word": "Inglaterra",
@@ -575,7 +645,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈinglaterra",
-        "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+        "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "lang": "pt",
+        "id": "pt_starter_places_036"
     },
     {
         "word": "Espanha",
@@ -591,7 +663,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈespanha",
-        "emoji": "🇪🇸"
+        "emoji": "🇪🇸",
+        "lang": "pt",
+        "id": "pt_starter_places_037"
     },
     {
         "word": "EUA",
@@ -607,7 +681,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈeua",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "pt",
+        "id": "pt_starter_places_038"
     },
     {
         "word": "Paris",
@@ -623,7 +699,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈparis",
-        "emoji": "🇫🇷"
+        "emoji": "🇫🇷",
+        "lang": "pt",
+        "id": "pt_starter_places_039"
     },
     {
         "word": "Roma",
@@ -639,7 +717,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈroma",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "lang": "pt",
+        "id": "pt_starter_places_040"
     },
     {
         "word": "Moscou",
@@ -655,7 +735,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈmoscou",
-        "emoji": "🇷🇺"
+        "emoji": "🇷🇺",
+        "lang": "pt",
+        "id": "pt_starter_places_041"
     },
     {
         "word": "Atenas",
@@ -671,7 +753,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈatenas",
-        "emoji": "🇬🇷"
+        "emoji": "🇬🇷",
+        "lang": "pt",
+        "id": "pt_starter_places_042"
     },
     {
         "word": "Nova Iorque",
@@ -687,7 +771,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈnova iorque",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "pt",
+        "id": "pt_starter_places_043"
     },
     {
         "word": "Berlim",
@@ -703,7 +789,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈberlim",
-        "emoji": "🇩🇪"
+        "emoji": "🇩🇪",
+        "lang": "pt",
+        "id": "pt_starter_places_044"
     },
     {
         "word": "Tóquio",
@@ -719,7 +807,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈtóquio",
-        "emoji": "🇯🇵"
+        "emoji": "🇯🇵",
+        "lang": "pt",
+        "id": "pt_starter_places_045"
     },
     {
         "word": "Pequim",
@@ -735,7 +825,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈpequim",
-        "emoji": "🇨🇳"
+        "emoji": "🇨🇳",
+        "lang": "pt",
+        "id": "pt_starter_places_046"
     },
     {
         "word": "Sydney",
@@ -751,7 +843,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈsydney",
-        "emoji": "🇦🇺"
+        "emoji": "🇦🇺",
+        "lang": "pt",
+        "id": "pt_starter_places_047"
     },
     {
         "word": "Rio de Janeiro",
@@ -767,7 +861,9 @@
         ],
         "subtext": "cidade",
         "transcription": "ˈrio de janeiro",
-        "emoji": "🇧🇷"
+        "emoji": "🇧🇷",
+        "lang": "pt",
+        "id": "pt_starter_places_048"
     },
     {
         "word": "Egito",
@@ -783,7 +879,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈegito",
-        "emoji": "🇪🇬"
+        "emoji": "🇪🇬",
+        "lang": "pt",
+        "id": "pt_starter_places_049"
     },
     {
         "word": "China",
@@ -799,7 +897,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈchina",
-        "emoji": "🇨🇳"
+        "emoji": "🇨🇳",
+        "lang": "pt",
+        "id": "pt_starter_places_050"
     },
     {
         "word": "Japão",
@@ -815,7 +915,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈjapão",
-        "emoji": "🇯🇵"
+        "emoji": "🇯🇵",
+        "lang": "pt",
+        "id": "pt_starter_places_051"
     },
     {
         "word": "Alemanha",
@@ -831,7 +933,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈalemanha",
-        "emoji": "🇩🇪"
+        "emoji": "🇩🇪",
+        "lang": "pt",
+        "id": "pt_starter_places_052"
     },
     {
         "word": "Canadá",
@@ -847,7 +951,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈcanadá",
-        "emoji": "🇨🇦"
+        "emoji": "🇨🇦",
+        "lang": "pt",
+        "id": "pt_starter_places_053"
     },
     {
         "word": "Austrália",
@@ -863,7 +969,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈaustrália",
-        "emoji": "🇦🇺"
+        "emoji": "🇦🇺",
+        "lang": "pt",
+        "id": "pt_starter_places_054"
     },
     {
         "word": "Brasil",
@@ -879,7 +987,9 @@
         ],
         "subtext": "país",
         "transcription": "ˈbrasil",
-        "emoji": "🇧🇷"
+        "emoji": "🇧🇷",
+        "lang": "pt",
+        "id": "pt_starter_places_055"
     },
     {
         "word": "Índia",
@@ -895,12 +1005,11 @@
         ],
         "subtext": "país",
         "transcription": "ˈíndia",
-        "emoji": "🇮🇳"
+        "emoji": "🇮🇳",
+        "lang": "pt",
+        "id": "pt_starter_places_056"
     }
-]
-    const lang = "pt";
-    window.locationsData = window.locationsData || {};
-    window.locationsData[lang] = [...(window.locationsData[lang] || []), ...data];
+];
     if (window.vocabularyData) {
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }

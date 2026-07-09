@@ -16,7 +16,9 @@
                 ]
             }
         ],
-        "transcription": "/œ̃/"
+        "transcription": "/œ̃/",
+        "lang": "fr",
+        "id": "fr_starter_numbers_001"
     },
     {
         "word": "deux",
@@ -34,7 +36,9 @@
                 ]
             }
         ],
-        "transcription": "/dø/"
+        "transcription": "/dø/",
+        "lang": "fr",
+        "id": "fr_starter_numbers_002"
     },
     {
         "word": "trois",
@@ -52,7 +56,9 @@
                 ]
             }
         ],
-        "transcription": "/tʁwa/"
+        "transcription": "/tʁwa/",
+        "lang": "fr",
+        "id": "fr_starter_numbers_003"
     },
     {
         "word": "quatre",
@@ -70,7 +76,9 @@
                 ]
             }
         ],
-        "transcription": "/katʁ/"
+        "transcription": "/katʁ/",
+        "lang": "fr",
+        "id": "fr_starter_numbers_004"
     },
     {
         "word": "cinq",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/sɛ̃k/"
+        "transcription": "/sɛ̃k/",
+        "lang": "fr",
+        "id": "fr_starter_numbers_005"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

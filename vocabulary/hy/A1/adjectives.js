@@ -6,8 +6,6 @@
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "կարճ",
-        "oppositeEmoji": "📏",
         "definitions": [
             {
                 "text": "Միջինից բարձր հասակ ունեցող:",
@@ -17,20 +15,28 @@
             }
         ],
         "subtext": "բարձրահասակ մարդ",
-        "synonyms": ["բարձր շենք", "բավականին բարձր"],
+        "synonyms": [
+            "բարձր շենք",
+            "բավականին բարձր"
+        ],
         "comparative": "ավելի բարձրահասակ",
         "superlative": "ամենաբարձրահասակ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "կարճ"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_001"
     },
     {
         "word": "կարճ",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "բարձրահասակ",
-        "oppositeEmoji": "🗼",
         "definitions": [
             {
                 "text": "Փոքր հեռավորություն կամ տևողություն ունեցող:",
@@ -44,15 +50,20 @@
         "superlative": "ամենակարճ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "բարձրահասակ"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_002"
     },
     {
         "word": "երիտասարդ",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "հին",
-        "oppositeEmoji": "👴",
         "definitions": [
             {
                 "text": "Կյանքի սկզբում գտնվող:",
@@ -66,15 +77,20 @@
         "superlative": "ամենաերիտասարդ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "հին"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_003"
     },
     {
         "word": "հին",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "երիտասարդ",
-        "oppositeEmoji": "👶",
         "definitions": [
             {
                 "text": "Երկար ժամանակ գոյություն ունեցող:",
@@ -88,7 +104,14 @@
         "superlative": "ամենահին",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "երիտասարդ"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_004"
     },
     {
         "word": "արևոտ",
@@ -105,12 +128,17 @@
             }
         ],
         "subtext": "արևոտ օր / արևոտ եղանակ",
-        "synonyms": ["պարզկա օր"],
+        "synonyms": [
+            "պարզկա օր"
+        ],
         "comparative": "ավելի արևոտ",
         "superlative": "ամենաարևոտ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_nature_001"
     },
     {
         "word": "անձրևոտ",
@@ -127,12 +155,17 @@
             }
         ],
         "subtext": "անձրևոտ օր / անձրևոտ եղանակ",
-        "synonyms": ["անձրևների սեզոն"],
+        "synonyms": [
+            "անձրևների սեզոն"
+        ],
         "comparative": "ավելի անձրևոտ",
         "superlative": "ամենաանձրևոտ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_nature_002"
     },
     {
         "word": "տաք",
@@ -140,8 +173,6 @@
         "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "սառը",
-        "oppositeEmoji": "❄️",
         "subtext": "տաք եղանակ / տաք խմիչք / չափազանց տաք",
         "definitions": [
             {
@@ -155,7 +186,13 @@
         "superlative": "ամենատաք",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "սառը"
+        ],
+        "transcription": "",
+        "id": "hy_starter_nature_003"
     },
     {
         "word": "սառը",
@@ -163,10 +200,11 @@
         "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "տաք",
-        "oppositeEmoji": "🔥",
         "subtext": "շատ սառը / սառը խմիչք",
-        "synonyms": ["ցուրտ առավոտ", "շատ ցուրտ"],
+        "synonyms": [
+            "ցուրտ առավոտ",
+            "շատ ցուրտ"
+        ],
         "definitions": [
             {
                 "text": "Ցածր ջերմաստիճան ունեցող:",
@@ -179,15 +217,19 @@
         "superlative": "ամենասառը",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "տաք"
+        ],
+        "transcription": "",
+        "id": "hy_starter_nature_004"
     },
     {
         "word": "սովորական",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "հատուկ",
-        "oppositeEmoji": "✨",
         "definitions": [
             {
                 "text": "Բնական կամ սովորական; ոչ հատուկ:",
@@ -198,7 +240,14 @@
         ],
         "subtext": "սովորական օր / սովորական կյանք / ոչ մի անսովոր բան",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "antonyms": [
+            "հատուկ"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_005"
     },
     {
         "word": "էժան",
@@ -206,10 +255,10 @@
         "theme": "shopping",
         "emoji": "🏷️",
         "form": "adjective",
-        "opposite": "թանկ",
-        "oppositeEmoji": "💎",
         "subtext": "էժան թռիչք / շատ էժան",
-        "synonyms": ["ցածր գին"],
+        "synonyms": [
+            "ցածր գին"
+        ],
         "definitions": [
             {
                 "text": "Քիչ գումար արժեցող:",
@@ -222,7 +271,13 @@
         "superlative": "ամենաէժան",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "թանկ"
+        ],
+        "transcription": "",
+        "id": "hy_starter_shopping_001"
     },
     {
         "word": "թանկ",
@@ -230,10 +285,10 @@
         "theme": "shopping",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "էժան",
-        "oppositeEmoji": "🏷️",
         "subtext": "շատ թանկ / թանկ հաճույք",
-        "synonyms": ["բարձր գին"],
+        "synonyms": [
+            "բարձր գին"
+        ],
         "definitions": [
             {
                 "text": "Շատ գումար արժեցող:",
@@ -246,7 +301,13 @@
         "superlative": "ամենաթանկ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "էժան"
+        ],
+        "transcription": "",
+        "id": "hy_starter_shopping_002"
     },
     {
         "word": "լավ",
@@ -254,10 +315,11 @@
         "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "վատ",
-        "oppositeEmoji": "👎",
         "subtext": "լավ գաղափար / լավ արժեք",
-        "synonyms": ["հիանալի", "հաջողություն"],
+        "synonyms": [
+            "հիանալի",
+            "հաջողություն"
+        ],
         "definitions": [
             {
                 "text": "Բարձր որակի կամ հաճելի:",
@@ -270,7 +332,13 @@
         "superlative": "ամենալավ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "վատ"
+        ],
+        "transcription": "",
+        "id": "hy_starter_describing_006"
     },
     {
         "word": "վատ",
@@ -278,10 +346,11 @@
         "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "լավ",
-        "oppositeEmoji": "👍",
         "subtext": "վատ լուրեր / վատ որոշում",
-        "synonyms": ["սարսափելի", "անհաջողություն"],
+        "synonyms": [
+            "սարսափելի",
+            "անհաջողություն"
+        ],
         "definitions": [
             {
                 "text": "Ոչ լավ, ցածր որակի:",
@@ -294,7 +363,13 @@
         "superlative": "ամենավատ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "լավ"
+        ],
+        "transcription": "",
+        "id": "hy_starter_describing_007"
     },
     {
         "word": "մեծ",
@@ -302,8 +377,6 @@
         "theme": "describing",
         "emoji": "🐘",
         "form": "adjective",
-        "opposite": "փոքր",
-        "oppositeEmoji": "🐭",
         "subtext": "մեծ տուն / մեծ խնդիր / բավականին մեծ",
         "definitions": [
             {
@@ -317,7 +390,13 @@
         "superlative": "ամենամեծ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "փոքր"
+        ],
+        "transcription": "",
+        "id": "hy_starter_describing_008"
     },
     {
         "word": "փոքր",
@@ -325,8 +404,6 @@
         "theme": "describing",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "մեծ",
-        "oppositeEmoji": "🐘",
         "subtext": "փոքր բնակարան / փոքր աշխատավարձ / շատ փոքր",
         "definitions": [
             {
@@ -340,7 +417,13 @@
         "superlative": "ամենափոքր",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "մեծ"
+        ],
+        "transcription": "",
+        "id": "hy_starter_describing_009"
     },
     {
         "word": "հեշտ",
@@ -348,8 +431,6 @@
         "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "դժվար",
-        "oppositeEmoji": "❌",
         "definitions": [
             {
                 "text": "Ոչ դժվար:",
@@ -363,7 +444,13 @@
         "superlative": "ամենահեշտ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "դժվար"
+        ],
+        "transcription": "",
+        "id": "hy_starter_describing_010"
     },
     {
         "word": "դժվար",
@@ -371,8 +458,6 @@
         "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "հեշտ",
-        "oppositeEmoji": "✅",
         "definitions": [
             {
                 "text": "Շատ ջանք կամ հմտություն պահանջող:",
@@ -382,12 +467,20 @@
             }
         ],
         "subtext": "դժվար անել / շատ դժվար",
-        "synonyms": ["դժվարությամբ"],
+        "synonyms": [
+            "դժվարությամբ"
+        ],
         "comparative": "ավելի դժվար",
         "superlative": "ամենադժվար",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "հեշտ"
+        ],
+        "transcription": "",
+        "id": "hy_starter_describing_011"
     },
     {
         "word": "երջանիկ",
@@ -396,7 +489,9 @@
         "emoji": "😊",
         "form": "adjective",
         "subtext": "երջանիկ զգալ / երջանիկ օր",
-        "synonyms": ["ուրախ"],
+        "synonyms": [
+            "ուրախ"
+        ],
         "definitions": [
             {
                 "text": "Ուրախություն կամ բավարարվածություն զգալ:",
@@ -409,7 +504,10 @@
         "superlative": "ամենաերջանիկ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_emotions_001"
     },
     {
         "word": "հոգնած",
@@ -418,7 +516,9 @@
         "emoji": "😫",
         "form": "adjective",
         "subtext": "հոգնած զգալ / շատ հոգնած",
-        "synonyms": ["քնկոտ"],
+        "synonyms": [
+            "քնկոտ"
+        ],
         "definitions": [
             {
                 "text": "Հանգստի կարիք ունեցող:",
@@ -431,7 +531,10 @@
         "superlative": "ամենահոգնած",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_emotions_002"
     },
     {
         "word": "լրիվ դրույք",
@@ -439,8 +542,6 @@
         "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "կես դրույք",
-        "oppositeEmoji": "⏳",
         "definitions": [
             {
                 "text": "Աշխատանքային շաբաթվա բոլոր ժամերով աշխատելը:",
@@ -450,9 +551,17 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["լրիվ դրույքով աշխատանք"],
+        "synonyms": [
+            "լրիվ դրույքով աշխատանք"
+        ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "antonyms": [
+            "կես դրույք"
+        ],
+        "transcription": "",
+        "id": "hy_starter_work_001"
     },
     {
         "word": "կես դրույք",
@@ -460,8 +569,6 @@
         "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "լրիվ դրույք",
-        "oppositeEmoji": "⏰",
         "definitions": [
             {
                 "text": "Աշխատանքային շաբաթվա ոչ բոլոր ժամերով աշխատելը:",
@@ -471,9 +578,17 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["կես դրույքով աշխատանք"],
+        "synonyms": [
+            "կես դրույքով աշխատանք"
+        ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "antonyms": [
+            "լրիվ դրույք"
+        ],
+        "transcription": "",
+        "id": "hy_starter_work_002"
     },
     {
         "word": "մաքուր",
@@ -481,8 +596,6 @@
         "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "կեղտոտ",
-        "oppositeEmoji": "💩",
         "subtext": "մաքուր հագուստ / մաքուր սենյակ / մաքուր պահել",
         "definitions": [
             {
@@ -496,7 +609,13 @@
         "superlative": "ամենամաքուր",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "կեղտոտ"
+        ],
+        "transcription": "",
+        "id": "hy_starter_furniture_001"
     },
     {
         "word": "առողջ",
@@ -504,8 +623,6 @@
         "theme": "food_drink",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "ոչ առողջ",
-        "oppositeEmoji": "🍔",
         "subtext": "առողջ սննդակարգ / առողջ ապրելակերպ",
         "definitions": [
             {
@@ -519,7 +636,13 @@
         "superlative": "ամենաառողջ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "ոչ առողջ"
+        ],
+        "transcription": "",
+        "id": "hy_starter_food_drink_001"
     },
     {
         "word": "հիվանդ",
@@ -527,8 +650,6 @@
         "theme": "health_medicine",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "առողջ",
-        "oppositeEmoji": "💪",
         "subtext": "հիվանդ զգալ",
         "definitions": [
             {
@@ -539,7 +660,13 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "antonyms": [
+            "առողջ"
+        ],
+        "transcription": "",
+        "id": "hy_starter_health_medicine_001"
     },
     {
         "word": "առցանց",
@@ -547,8 +674,6 @@
         "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "անցանց",
-        "oppositeEmoji": "📴",
         "definitions": [
             {
                 "text": "Ինտերնետի օգտագործմամբ:",
@@ -559,7 +684,13 @@
         ],
         "subtext": "առցանց գնումներ / առցանց դասընթաց",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "antonyms": [
+            "անցանց"
+        ],
+        "transcription": "",
+        "id": "hy_starter_technology_001"
     },
     {
         "word": "մենակ",
@@ -567,8 +698,6 @@
         "theme": "social",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "միասին",
-        "oppositeEmoji": "👫",
         "definitions": [
             {
                 "text": "Առանց այլ մարդկանց; ինքնուրույն:",
@@ -579,7 +708,13 @@
         ],
         "subtext": "մենակ ապրել / մենակ ճամփորդել",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "antonyms": [
+            "միասին"
+        ],
+        "transcription": "",
+        "id": "hy_starter_social_001"
     },
     {
         "word": "հանգիստ",
@@ -587,8 +722,6 @@
         "theme": "emotions",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "լարված",
-        "oppositeEmoji": "😫",
         "subtext": "հանգիստ զգալ",
         "definitions": [
             {
@@ -599,7 +732,13 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "antonyms": [
+            "լարված"
+        ],
+        "transcription": "",
+        "id": "hy_starter_emotions_003"
     },
     {
         "word": "անհանգիստ",
@@ -607,10 +746,10 @@
         "theme": "emotions",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "հանգիստ",
-        "oppositeEmoji": "😌",
         "subtext": "",
-        "synonyms": ["անհանգստանալ"],
+        "synonyms": [
+            "անհանգստանալ"
+        ],
         "definitions": [
             {
                 "text": "Անհանգստության զգացում ինչ-որ բանի պատճառով:",
@@ -620,7 +759,13 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "antonyms": [
+            "հանգիստ"
+        ],
+        "transcription": "",
+        "id": "hy_starter_emotions_004"
     },
     {
         "word": "զբաղված",
@@ -641,7 +786,10 @@
         "superlative": "ամենազբաղված",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_work_003"
     },
     {
         "word": "օգտակար",
@@ -649,10 +797,10 @@
         "theme": "describing",
         "emoji": "🛠️",
         "form": "adjective",
-        "opposite": "անօգուտ",
-        "oppositeEmoji": "🗑️",
         "subtext": "օգտակար լինել",
-        "synonyms": ["գործնական"],
+        "synonyms": [
+            "գործնական"
+        ],
         "definitions": [
             {
                 "text": "Օգուտ բերող:",
@@ -665,7 +813,13 @@
         "superlative": "ամենաօգտակար",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "անօգուտ"
+        ],
+        "transcription": "",
+        "id": "hy_starter_describing_012"
     },
     {
         "word": "կարևոր",
@@ -686,7 +840,10 @@
         "superlative": "ամենակարևոր",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_describing_013"
     },
     {
         "word": "կարմիր",
@@ -710,7 +867,10 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_colours_001"
     },
     {
         "word": "կապույտ",
@@ -734,7 +894,10 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_colours_002"
     },
     {
         "word": "կանաչ",
@@ -758,7 +921,10 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_colours_003"
     },
     {
         "word": "սպիտակ",
@@ -782,7 +948,10 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_colours_004"
     },
     {
         "word": "սև",
@@ -806,7 +975,10 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_colours_005"
     },
     {
         "word": "դեղին",
@@ -830,7 +1002,10 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_colours_006"
     },
     {
         "word": "ազատ",
@@ -839,7 +1014,9 @@
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "ազատ ժամանակ",
-        "synonyms": ["անվճար"],
+        "synonyms": [
+            "անվճար"
+        ],
         "definitions": [
             {
                 "text": "Չզբաղված կամ անվճար:",
@@ -852,7 +1029,10 @@
         "superlative": "ամենաազատ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "id": "hy_starter_shopping_003"
     },
     {
         "word": "բաց",
@@ -860,8 +1040,6 @@
         "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "փակ",
-        "oppositeEmoji": "🔒",
         "subtext": "բաց դուռ / բաց է բիզնեսի համար",
         "definitions": [
             {
@@ -875,7 +1053,13 @@
         "superlative": "ամենաբաց",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "փակ"
+        ],
+        "transcription": "",
+        "id": "hy_starter_shopping_004"
     },
     {
         "word": "փակ",
@@ -883,8 +1067,6 @@
         "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "բաց",
-        "oppositeEmoji": "📖",
         "subtext": "փակ է ընդմիջման համար / փակ դուռ",
         "definitions": [
             {
@@ -898,7 +1080,13 @@
         "superlative": "ամենափակ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "antonyms": [
+            "բաց"
+        ],
+        "transcription": "",
+        "id": "hy_starter_shopping_005"
     },
     {
         "word": "մեծ",
@@ -915,14 +1103,20 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_014"
     },
     {
         "word": "փոքր",
         "level": "starter",
         "form": "adjective",
         "subtext": "մի փոքր",
-        "synonyms": ["քիչ գումար"],
+        "synonyms": [
+            "քիչ գումար"
+        ],
         "definitions": [
             {
                 "text": "Փոքր չափի; քիչ քանակությամբ:",
@@ -933,7 +1127,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_015"
     },
     {
         "word": "երկար",
@@ -953,7 +1151,11 @@
         "superlative": "ամենաերկար",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_016"
     },
     {
         "word": "բարձր",
@@ -970,7 +1172,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_017"
     },
     {
         "word": "ցածր",
@@ -987,14 +1193,21 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_018"
     },
     {
         "word": "լիքը",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["լիարժեք օր", "մարդկանցով լի"],
+        "synonyms": [
+            "լիարժեք օր",
+            "մարդկանցով լի"
+        ],
         "definitions": [
             {
                 "text": "Այլևս տեղ չունեցող:",
@@ -1008,7 +1221,11 @@
         "superlative": "ամենալիքը",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_019"
     },
     {
         "word": "դատարկ",
@@ -1028,7 +1245,11 @@
         "superlative": "ամենադատարկ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_020"
     },
     {
         "word": "տաք",
@@ -1045,7 +1266,11 @@
         ],
         "theme": "nature",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_nature_005"
     },
     {
         "word": "զով",
@@ -1062,7 +1287,11 @@
         ],
         "theme": "nature",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_nature_006"
     },
     {
         "word": "թաց",
@@ -1082,7 +1311,11 @@
         "superlative": "ամենաթաց",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_nature_007"
     },
     {
         "word": "չոր",
@@ -1102,7 +1335,11 @@
         "superlative": "ամենաչոր",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_nature_008"
     },
     {
         "word": "կեղտոտ",
@@ -1122,14 +1359,21 @@
         "superlative": "ամենակեղտոտ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_furniture_002"
     },
     {
         "word": "կոշտ",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["դժվար աշխատանք", "դժվար որոշում"],
+        "synonyms": [
+            "դժվար աշխատանք",
+            "դժվար որոշում"
+        ],
         "definitions": [
             {
                 "text": "Ոչ փափուկ:",
@@ -1143,7 +1387,11 @@
         "superlative": "ամենակոշտ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_021"
     },
     {
         "word": "փափուկ",
@@ -1163,14 +1411,20 @@
         "superlative": "ամենափափուկ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_022"
     },
     {
         "word": "ծանր",
         "level": "starter",
         "form": "adjective",
         "subtext": "ծանր երթևեկություն",
-        "synonyms": ["ուժեղ անձրև"],
+        "synonyms": [
+            "ուժեղ անձրև"
+        ],
         "definitions": [
             {
                 "text": "Մեծ քաշ ունեցող:",
@@ -1184,7 +1438,11 @@
         "superlative": "ամենածանր",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_023"
     },
     {
         "word": "թեթև",
@@ -1201,7 +1459,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_024"
     },
     {
         "word": "շագանակագույն",
@@ -1218,7 +1480,11 @@
         ],
         "theme": "colours",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_colours_007"
     },
     {
         "word": "մոխրագույն",
@@ -1235,7 +1501,11 @@
         ],
         "theme": "colours",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_colours_008"
     },
     {
         "word": "վարդագույն",
@@ -1252,14 +1522,20 @@
         ],
         "theme": "colours",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_colours_009"
     },
     {
         "word": "նարնջագույν",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["վառ նարնջագույն"],
+        "synonyms": [
+            "վառ նարնջագույն"
+        ],
         "definitions": [
             {
                 "text": "Նարնջի գույն ունեցող:",
@@ -1270,7 +1546,11 @@
         ],
         "theme": "colours",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_colours_010"
     },
     {
         "word": "հիանալի",
@@ -1287,7 +1567,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_025"
     },
     {
         "word": "հաճելի",
@@ -1304,7 +1588,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_026"
     },
     {
         "word": "սքանչելի",
@@ -1321,7 +1609,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_027"
     },
     {
         "word": "սարսափելի",
@@ -1341,7 +1633,11 @@
         "superlative": "ամենասարսափելի",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_028"
     },
     {
         "word": "սարսափելի",
@@ -1358,7 +1654,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_029"
     },
     {
         "word": "զարմանալի",
@@ -1375,7 +1675,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_030"
     },
     {
         "word": "ֆանտաստիկ",
@@ -1392,7 +1696,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_031"
     },
     {
         "word": "տխուր",
@@ -1412,7 +1720,11 @@
         "superlative": "ամենատխուր",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_005"
     },
     {
         "word": "սոված",
@@ -1432,14 +1744,20 @@
         "superlative": "ամենասոված",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_006"
     },
     {
         "word": "բարկացած",
         "level": "starter",
         "form": "adjective",
         "subtext": "բարկացած զգալ / շատ բարկացած",
-        "synonyms": ["բարկանալ մեկի վրա"],
+        "synonyms": [
+            "բարկանալ մեկի վրա"
+        ],
         "definitions": [
             {
                 "text": "Զայրույթ զգացող:",
@@ -1453,14 +1771,20 @@
         "superlative": "ամենաբարկացած",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_007"
     },
     {
         "word": "ձանձրացած",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["ձանձրանալ"],
+        "synonyms": [
+            "ձանձրանալ"
+        ],
         "definitions": [
             {
                 "text": "Հետաքրքրության պակաս զգացող:",
@@ -1471,7 +1795,11 @@
         ],
         "theme": "emotions",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_008"
     },
     {
         "word": "ոգևորված",
@@ -1488,14 +1816,20 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_009"
     },
     {
         "word": "վախեցած",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["վախենալ ինչ-որ բանից"],
+        "synonyms": [
+            "վախենալ ինչ-որ բանից"
+        ],
         "definitions": [
             {
                 "text": "Վախ զգացող:",
@@ -1506,7 +1840,11 @@
         ],
         "theme": "emotions",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_010"
     },
     {
         "word": "զղջացող",
@@ -1523,7 +1861,11 @@
         ],
         "theme": "emotions",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_011"
     },
     {
         "word": "ճիշտ",
@@ -1540,7 +1882,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_032"
     },
     {
         "word": "սխալ",
@@ -1560,7 +1906,11 @@
         "superlative": "ամենասխալ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_033"
     },
     {
         "word": "նոր",
@@ -1580,7 +1930,11 @@
         "superlative": "ամենանոր",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_034"
     },
     {
         "word": "տարբեր",
@@ -1600,14 +1954,22 @@
         "superlative": "ամենատարբեր",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_035"
     },
     {
         "word": "նույն",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["նույնը", "ինչ", "ճիշտ նույնը"],
+        "synonyms": [
+            "նույնը",
+            "ինչ",
+            "ճիշտ նույնը"
+        ],
         "definitions": [
             {
                 "text": "Ոչ տարբեր:",
@@ -1621,7 +1983,11 @@
         "superlative": "ամենանույն",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_036"
     },
     {
         "word": "արագ",
@@ -1641,7 +2007,11 @@
         "superlative": "ամենաարագ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_037"
     },
     {
         "word": "դանդաղ",
@@ -1661,7 +2031,11 @@
         "superlative": "ամենադանդաղ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_038"
     },
     {
         "word": "հանգիստ",
@@ -1681,7 +2055,11 @@
         "superlative": "ամենահանգիստ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_039"
     },
     {
         "word": "բարձր",
@@ -1701,7 +2079,11 @@
         "superlative": "ամենաբարձր",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_040"
     },
     {
         "word": "ապահով",
@@ -1721,7 +2103,11 @@
         "superlative": "ամենաապահով",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_places_001"
     },
     {
         "word": "վտանգավոր",
@@ -1741,7 +2127,11 @@
         "superlative": "ամենավտանգավոր",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_places_002"
     },
     {
         "word": "դժբախտ",
@@ -1757,9 +2147,15 @@
             }
         ],
         "subtext": "շատ դժբախտ",
-        "synonyms": ["տխուր զգալ"],
+        "synonyms": [
+            "տխուր զգալ"
+        ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_012"
     },
     {
         "word": "նյարդային",
@@ -1779,7 +2175,11 @@
         "superlative": "ամենանյարդային",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_013"
     },
     {
         "word": "սթրեսի մեջ",
@@ -1795,9 +2195,16 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["լարված զգալ", "շատ լարված"],
+        "synonyms": [
+            "լարված զգալ",
+            "շատ լարված"
+        ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_014"
     },
     {
         "word": "ինքնավստահ",
@@ -1814,7 +2221,11 @@
         ],
         "subtext": "ինքնավստահ զգալ / շատ ինքնավստահ",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_041"
     },
     {
         "word": "հպարտ",
@@ -1834,7 +2245,11 @@
         "superlative": "ամենահպարտ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_042"
     },
     {
         "word": "վախեցած",
@@ -1854,7 +2269,11 @@
         "superlative": "ամենավախեցած",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_015"
     },
     {
         "word": "զարմացած",
@@ -1871,7 +2290,11 @@
         ],
         "subtext": "զարմացած զգալ / շատ զարմացած",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_016"
     },
     {
         "word": "հիասթափված",
@@ -1888,7 +2311,11 @@
         ],
         "subtext": "հիասթափված զգալ / շատ հիասթափված",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_emotions_017"
     },
     {
         "word": "գեղեցիկ",
@@ -1908,7 +2335,11 @@
         "superlative": "ամենագեղեցիկ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_043"
     },
     {
         "word": "գեղեցիկ",
@@ -1924,9 +2355,15 @@
             }
         ],
         "subtext": "գեղեցիկ վայր",
-        "synonyms": ["բավականին լավ"],
+        "synonyms": [
+            "բավականին լավ"
+        ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_044"
     },
     {
         "word": "ուժեղ",
@@ -1942,12 +2379,18 @@
             }
         ],
         "subtext": "ուժեղ կարծիք",
-        "synonyms": ["թունդ սուրճ"],
+        "synonyms": [
+            "թունդ սուրճ"
+        ],
         "comparative": "ավելի ուժեղ",
         "superlative": "ամենաուժեղ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_045"
     },
     {
         "word": "թույլ",
@@ -1967,7 +2410,11 @@
         "superlative": "ամենաթույլ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_046"
     },
     {
         "word": "կոկիկ",
@@ -1983,9 +2430,16 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ֆիզիկապես լավ վիճակում", "մարզված մնալ"],
+        "synonyms": [
+            "ֆիզիկապես լավ վիճակում",
+            "մարզված մնալ"
+        ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_health_medicine_002"
     },
     {
         "word": "գերազանց",
@@ -2002,7 +2456,11 @@
         ],
         "subtext": "գերազանց աշխատանք / գերազանց արդյունքներ",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_047"
     },
     {
         "word": "կատարյալ",
@@ -2022,7 +2480,11 @@
         "superlative": "ամենակատարյալ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_048"
     },
     {
         "word": "անօգուտ",
@@ -2042,7 +2504,11 @@
         "superlative": "ամենաանօգուտ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_049"
     },
     {
         "word": "ճիշտ",
@@ -2062,7 +2528,11 @@
         "superlative": "ամենաճիշտ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_050"
     },
     {
         "word": "հետաքրքիր",
@@ -2082,7 +2552,11 @@
         "superlative": "ամենահետաքրքիր",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_051"
     },
     {
         "word": "ձանձրալի",
@@ -2102,7 +2576,11 @@
         "superlative": "ամենաձանձրալի",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_052"
     },
     {
         "word": "անհրաժեշտ",
@@ -2119,7 +2597,11 @@
         ],
         "subtext": "բացարձակ անհրաժեշտ / եթե անհրաժեշտ է",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_053"
     },
     {
         "word": "հնարավոր",
@@ -2135,12 +2617,18 @@
             }
         ],
         "subtext": "հնարավոր է",
-        "synonyms": ["հնարավորինս շուտ"],
+        "synonyms": [
+            "հնարավորինս շուտ"
+        ],
         "comparative": "ավելի հնարավոր",
         "superlative": "ամենահնարավոր",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_054"
     },
     {
         "word": "անհնար",
@@ -2160,7 +2648,11 @@
         "superlative": "ամենաանհնար",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_055"
     },
     {
         "word": "հատուկ",
@@ -2180,7 +2672,11 @@
         "superlative": "ամենահատուկ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_056"
     },
     {
         "word": "հանրաճանաչ",
@@ -2197,7 +2693,11 @@
         ],
         "subtext": "շատ հանրաճանաչ / հանրաճանաչ ընտրություն",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_057"
     },
     {
         "word": "նման",
@@ -2214,7 +2714,11 @@
         ],
         "subtext": "շատ նման / նման ինչ-որ բանի",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_058"
     },
     {
         "word": "ընկերական",
@@ -2231,7 +2735,11 @@
         ],
         "subtext": "շատ ընկերական / ընկերական դեմք",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_059"
     },
     {
         "word": "բարի",
@@ -2251,7 +2759,11 @@
         "superlative": "ամենաբարի",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_060"
     },
     {
         "word": "ծիծաղելի",
@@ -2271,7 +2783,11 @@
         "superlative": "ամենածիծաղելի",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_061"
     },
     {
         "word": "խելացի",
@@ -2291,7 +2807,11 @@
         "superlative": "ամենախելացի",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_062"
     },
     {
         "word": "քաղաքավարի",
@@ -2311,7 +2831,11 @@
         "superlative": "ամենաքաղաքավարի",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_063"
     },
     {
         "word": "կոպիտ",
@@ -2331,7 +2855,11 @@
         "superlative": "ամենակոպիտ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_064"
     },
     {
         "word": "ծույլ",
@@ -2351,7 +2879,11 @@
         "superlative": "ամենածույլ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_065"
     },
     {
         "word": "ազնիվ",
@@ -2368,7 +2900,11 @@
         ],
         "subtext": "շատ ազնիվ / լիովին ազնիվ",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_066"
     },
     {
         "word": "աղմկոտ",
@@ -2388,12 +2924,13 @@
         "superlative": "ամենաաղմկոտ",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "hy",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "hy_starter_describing_067"
     }
-]
-    const lang = "hy";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

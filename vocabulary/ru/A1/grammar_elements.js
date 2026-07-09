@@ -16,7 +16,8 @@
             }
         ],
         "emoji": "🔁",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_people_004",
@@ -34,7 +35,6 @@
             }
         ],
         "emoji": "👫",
-        "oppositeEmoji": "🧍",
         "transcription": "/ˈvmʲestʲi/",
         "subtext": "",
         "antonyms": [
@@ -57,7 +57,8 @@
             }
         ],
         "emoji": "☀️",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_time_010",

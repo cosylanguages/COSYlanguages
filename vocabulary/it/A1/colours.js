@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "viola",
         "level": "starter",
         "theme": "colours",
         "article": "il",
         "gender": "masculine",
         "emoji": "🟣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "viola",
         "definitions": [
             {
@@ -21,16 +23,20 @@
         "transcription": "ˈvjɔla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_colours_001"
     },
-{
+    {
         "word": "colore",
         "level": "starter",
         "theme": "colours",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "colori",
         "transcription": "koˈlore",
         "definitions": [
@@ -44,14 +50,18 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_colours_002"
     },
-{
+    {
         "word": "cerchio",
         "level": "starter",
         "theme": "describing",
         "emoji": "⭕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "cerchi",
@@ -66,14 +76,18 @@
         ],
         "transcription": "ˈtʃerkjo",
         "partitive": "del",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_describing_001"
     },
-{
+    {
         "word": "triangolo",
         "level": "starter",
         "theme": "describing",
         "emoji": "🔺",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "triangoli",
@@ -88,7 +102,9 @@
         ],
         "transcription": "triˈanɡolo",
         "partitive": "del",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_describing_002"
     },
     {
         "word": "blu",
@@ -106,9 +122,11 @@
                 ]
             }
         ],
-        "transcription": "/blu/"
+        "transcription": "/blu/",
+        "lang": "it",
+        "id": "it_starter_colours_003"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

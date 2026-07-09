@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "negozio",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "negozi",
         "definitions": [
             {
@@ -21,16 +23,20 @@
         "transcription": "neˈɡɔttsjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_001"
     },
-{
+    {
         "word": "denaro",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "spendere denaro, risparmiare denaro",
         "partitive": "del",
@@ -48,16 +54,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "denarius"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_shopping_002"
     },
-{
+    {
         "word": "prezzo",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "prezzi",
         "definitions": [
             {
@@ -71,16 +81,20 @@
         "transcription": "ˈprɛttso",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_003"
     },
-{
+    {
         "word": "costo",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "costi",
         "definitions": [
             {
@@ -94,16 +108,20 @@
         "transcription": "ˈkɔsto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_004"
     },
-{
+    {
         "word": "regalo",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎁",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "regali",
         "definitions": [
             {
@@ -117,16 +135,20 @@
         "transcription": "ˈregalo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_005"
     },
-{
+    {
         "word": "portafoglio",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "👛",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "portafogli",
         "definitions": [
             {
@@ -140,16 +162,20 @@
         "transcription": "ˈportafoglio",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_006"
     },
-{
+    {
         "word": "mercato",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mercati",
         "definitions": [
             {
@@ -163,16 +189,20 @@
         "transcription": "merˈkato",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_007"
     },
-{
+    {
         "word": "biglietto",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎟️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "biglietti",
         "definitions": [
             {
@@ -186,16 +216,20 @@
         "transcription": "ˈbiglietto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_008"
     },
-{
+    {
         "word": "ricevuta",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "📄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ricevute",
         "definitions": [
             {
@@ -209,16 +243,20 @@
         "transcription": "ˈricevuta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_009"
     },
-{
+    {
         "word": "fattura",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "💳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fatture",
         "definitions": [
             {
@@ -232,16 +270,20 @@
         "transcription": "fatˈtura",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_010"
     },
-{
+    {
         "word": "carta di credito",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "💳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "carte di credito",
         "definitions": [
             {
@@ -255,16 +297,20 @@
         "transcription": "ˈkarta di ˈkredito",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_011"
     },
-{
+    {
         "word": "contanti",
         "level": "starter",
         "theme": "shopping",
         "article": "i",
         "gender": "masculine",
         "emoji": "💵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "contanti",
         "definitions": [
             {
@@ -278,16 +324,20 @@
         "transcription": "konˈtanti",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_012"
     },
-{
+    {
         "word": "vendita",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vendite",
         "definitions": [
             {
@@ -301,16 +351,20 @@
         "transcription": "ˈvendita",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_013"
     },
-{
+    {
         "word": "acquisto",
         "level": "starter",
         "theme": "shopping",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "acquisti",
         "definitions": [
             {
@@ -324,16 +378,20 @@
         "transcription": "akˈkwisto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_014"
     },
-{
+    {
         "word": "boutique",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "boutique",
         "definitions": [
             {
@@ -347,16 +405,20 @@
         "transcription": "buˈtik",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_015"
     },
-{
+    {
         "word": "centro commerciale",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏬",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "centri commerciali",
         "definitions": [
             {
@@ -370,16 +432,20 @@
         "transcription": "ˈtʃɛntro kommerˈtʃale",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_016"
     },
-{
+    {
         "word": "monete",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "feminine",
         "emoji": "🪙",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "monete",
         "definitions": [
             {
@@ -393,16 +459,20 @@
         "transcription": "moˈnete",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_017"
     },
-{
+    {
         "word": "banconota",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "💵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "banconote",
         "definitions": [
             {
@@ -416,16 +486,20 @@
         "transcription": "baŋkoˈnɔta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_018"
     },
-{
+    {
         "word": "conto",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "conti",
         "definitions": [
             {
@@ -439,16 +513,20 @@
         "transcription": "ˈkonto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_019"
     },
-{
+    {
         "word": "risparmio",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "risparmi",
         "definitions": [
             {
@@ -462,16 +540,20 @@
         "transcription": "risˈparmjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_020"
     },
-{
+    {
         "word": "spesa",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "💸",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "spese",
         "definitions": [
             {
@@ -485,16 +567,20 @@
         "transcription": "ˈspeza",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_021"
     },
-{
+    {
         "word": "pagamento",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "💳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pagamenti",
         "definitions": [
             {
@@ -508,16 +594,20 @@
         "transcription": "paɡaˈmento",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_022"
     },
-{
+    {
         "word": "prodotto",
         "level": "starter",
         "theme": "shopping",
         "article": "il",
         "gender": "masculine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "prodotti",
         "definitions": [
             {
@@ -531,16 +621,20 @@
         "transcription": "proˈdɔtto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_023"
     },
-{
+    {
         "word": "offerta",
         "level": "starter",
         "theme": "shopping",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "offerte",
         "definitions": [
             {
@@ -554,16 +648,20 @@
         "transcription": "ofˈfɛrta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_024"
     },
-{
+    {
         "word": "consegna",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "consegne",
         "definitions": [
             {
@@ -577,16 +675,20 @@
         "transcription": "konˈseɲɲa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_025"
     },
-{
+    {
         "word": "ordine",
         "level": "starter",
         "theme": "shopping",
         "article": "l'",
         "gender": "masculine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ordini",
         "definitions": [
             {
@@ -600,9 +702,11 @@
         "transcription": "ˈordine",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_shopping_026"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

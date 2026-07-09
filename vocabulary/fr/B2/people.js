@@ -5,16 +5,20 @@
         "lang": "fr",
         "word": "Edith Piaf",
         "level": "upper_intermediate",
-        "theme": "identity_self"
+        "theme": "identity_self",
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "fr_upper_intermediate_identity_self_002",
         "lang": "fr",
         "word": "Simone de Beauvoir",
         "level": "upper_intermediate",
-        "theme": "identity_self"
+        "theme": "identity_self",
+        "transcription": "",
+        "emoji": "✨"
     }
-    ];
+];
     const lang = "fr";
     window.peopleData = window.peopleData || {};
     window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];

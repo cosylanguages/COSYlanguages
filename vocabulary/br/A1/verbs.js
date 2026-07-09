@@ -4,7 +4,7 @@
     {
         "word": "bezañ",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "👤",
         "subtext": "skuizh bezañ / laouen bezañ / el labour bezañ / prest bezañ",
         "form": "verb",
@@ -23,7 +23,10 @@
         "v2": null,
         "v3": "bet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_001"
     },
     {
         "word": "kaout",
@@ -49,7 +52,10 @@
         "v2": "en devoe",
         "v3": "bet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_001"
     },
     {
         "word": "santout",
@@ -71,7 +77,10 @@
         "v2": "santas",
         "v3": "santet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_health_medicine_001"
     },
     {
         "word": "reiñ",
@@ -79,8 +88,6 @@
         "theme": "shopping",
         "emoji": "🎁",
         "subtext": "reiñ kuzul / reiñ arc'hant / reiñ ur proad / reiñ titouroù",
-        "opposite": "kemer",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -95,7 +102,13 @@
         "v2": "roas",
         "v3": "roet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "kemer"
+        ],
+        "transcription": "",
+        "id": "br_starter_shopping_001"
     },
     {
         "word": "kemer",
@@ -103,8 +116,6 @@
         "theme": "travel",
         "emoji": "👜",
         "subtext": "kemer ar c'harr-boutin / kemer louzoù / kemer un ehan",
-        "opposite": "reiñ",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -119,7 +130,13 @@
         "v2": "kemeras",
         "v3": "kemeret",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "reiñ"
+        ],
+        "transcription": "",
+        "id": "br_starter_travel_001"
     },
     {
         "word": "kaout",
@@ -146,12 +163,15 @@
         "v2": "en devoe",
         "v3": "bet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_shopping_002"
     },
     {
         "word": "lakaat",
         "level": "starter",
-        "theme": "furniture_objects",
+        "theme": "furniture",
         "emoji": "📥",
         "subtext": "lakaat / lakaat a-gostez / lakaat arc'hant a-gostez",
         "form": "verb",
@@ -168,7 +188,10 @@
         "v2": "lakas",
         "v3": "lakaet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_furniture_001"
     },
     {
         "word": "ober",
@@ -194,7 +217,10 @@
         "v2": "reas",
         "v3": "graet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_002"
     },
     {
         "word": "ober",
@@ -216,7 +242,10 @@
         "v2": "reas",
         "v3": "graet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_003"
     },
     {
         "word": "implijout",
@@ -238,7 +267,10 @@
         "v2": "implijas",
         "v3": "implijet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_technology_001"
     },
     {
         "word": "digeriñ",
@@ -246,8 +278,6 @@
         "theme": "shopping",
         "emoji": "📖",
         "subtext": "digeriñ un nor / digeriñ ur gont / digeriñ ur stal",
-        "opposite": "serriñ",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -262,7 +292,13 @@
         "v2": "digoras",
         "v3": "digoret",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "serriñ"
+        ],
+        "transcription": "",
+        "id": "br_starter_shopping_003"
     },
     {
         "word": "serriñ",
@@ -270,8 +306,6 @@
         "theme": "shopping",
         "emoji": "🔒",
         "subtext": "serriñ un nor / serriñ da c'hwec'h eur / serriñ ur gont",
-        "opposite": "digeriñ",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -286,7 +320,13 @@
         "v2": "serras",
         "v3": "serret",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "digeriñ"
+        ],
+        "transcription": "",
+        "id": "br_starter_shopping_004"
     },
     {
         "word": "kregiñ",
@@ -294,8 +334,6 @@
         "theme": "work",
         "emoji": "▶️",
         "subtext": "kregiñ gant al labour / kregiñ gant an emvod / kregiñ gant ul labour nevez",
-        "opposite": "echuiñ",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -310,7 +348,13 @@
         "v2": "krogas",
         "v3": "kroget",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "echuiñ"
+        ],
+        "transcription": "",
+        "id": "br_starter_work_004"
     },
     {
         "word": "echuiñ",
@@ -318,8 +362,6 @@
         "theme": "work",
         "emoji": "🏁",
         "subtext": "echuiñ gant al labour / echuiñ ur raktres / echuiñ abred",
-        "opposite": "kregiñ",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -334,7 +376,13 @@
         "v2": "echuas",
         "v3": "echuet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "kregiñ"
+        ],
+        "transcription": "",
+        "id": "br_starter_work_005"
     },
     {
         "word": "sikour",
@@ -356,7 +404,10 @@
         "v2": "sikouras",
         "v3": "sikouret",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_006"
     },
     {
         "word": "klask",
@@ -378,7 +429,10 @@
         "v2": "klaskas",
         "v3": "klasket",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_school_001"
     },
     {
         "word": "diskouez",
@@ -400,7 +454,10 @@
         "v2": "diskouezas",
         "v3": "diskouezet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_language_001"
     },
     {
         "word": "kavout",
@@ -422,7 +479,10 @@
         "v2": "kavas",
         "v3": "kavet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_shopping_005"
     },
     {
         "word": "derc'hel",
@@ -449,7 +509,10 @@
         "v2": "dalc'has",
         "v3": "dalc'het",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_007"
     },
     {
         "word": "koll",
@@ -457,8 +520,6 @@
         "theme": "shopping",
         "emoji": "📉",
         "subtext": "koll ul labour / koll arc'hant / koll pouez",
-        "opposite": "gounit",
-        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -473,12 +534,18 @@
         "v2": "hollas",
         "v3": "kollet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "gounit"
+        ],
+        "transcription": "",
+        "id": "br_starter_shopping_006"
     },
     {
         "word": "troc'hañ",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "✂️",
         "subtext": "",
         "synonyms": [
@@ -499,12 +566,15 @@
         "v2": "troc'has",
         "v3": "troc'het",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_food_drink_001"
     },
     {
         "word": "treiñ",
         "level": "starter",
-        "theme": "directions_navigation",
+        "theme": "travel",
         "emoji": "🔄",
         "subtext": "treiñ a-gleiz / treiñ a-zehou",
         "synonyms": [
@@ -525,7 +595,10 @@
         "v2": "troas",
         "v3": "troet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_002"
     },
     {
         "word": "degas",
@@ -547,12 +620,15 @@
         "v2": "degasas",
         "v3": "degaset",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_food_drink_002"
     },
     {
         "word": "lavarout",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗨️",
         "subtext": "lavarout demat / lavarout ya / lavarout nann / lavarout un dra bennak",
         "form": "verb",
@@ -569,7 +645,10 @@
         "v2": "lavaras",
         "v3": "lavaret",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_002"
     },
     {
         "word": "kontañ",
@@ -591,7 +670,10 @@
         "v2": "kontas",
         "v3": "kontet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_language_002"
     },
     {
         "word": "goulenn",
@@ -613,12 +695,15 @@
         "v2": "goulenne",
         "v3": "goulennet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_language_003"
     },
     {
         "word": "komz",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗣️",
         "subtext": "komz ouzh unan bennak / komz saozneg / komz sklaer",
         "form": "verb",
@@ -635,7 +720,10 @@
         "v2": "komzas",
         "v3": "komzet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_003"
     },
     {
         "word": "kaozeal",
@@ -661,7 +749,10 @@
         "v2": "kaozeas",
         "v3": "kaozeet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_004"
     },
     {
         "word": "gervel",
@@ -683,7 +774,10 @@
         "v2": "galvas",
         "v3": "galvet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_technology_002"
     },
     {
         "word": "skrivañ",
@@ -691,8 +785,6 @@
         "theme": "school",
         "emoji": "✍️",
         "subtext": "skrivañ ur postel / skrivañ un danevell / skrivañ ul lizher",
-        "opposite": "lenn",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -707,7 +799,13 @@
         "v2": "skrivas",
         "v3": "skrivet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "lenn"
+        ],
+        "transcription": "",
+        "id": "br_starter_school_002"
     },
     {
         "word": "lenn",
@@ -715,8 +813,6 @@
         "theme": "school",
         "emoji": "📖",
         "subtext": "lenn ul levr / lenn ar c'heleier / lenn ur gevrat",
-        "opposite": "skrivañ",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -731,7 +827,13 @@
         "v2": "lennas",
         "v3": "lennet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "skrivañ"
+        ],
+        "transcription": "",
+        "id": "br_starter_school_003"
     },
     {
         "word": "selaou",
@@ -753,7 +855,10 @@
         "v2": "selaouas",
         "v3": "selaouet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_school_004"
     },
     {
         "word": "respont",
@@ -775,12 +880,15 @@
         "v2": "respontas",
         "v3": "respontet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_language_004"
     },
     {
         "word": "adzlavarout",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🔁",
         "subtext": "",
         "synonyms": [
@@ -801,7 +909,10 @@
         "v2": "adlavaras",
         "v3": "adlavaret",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_school_005"
     },
     {
         "word": "mont",
@@ -823,7 +934,10 @@
         "v2": null,
         "v3": "aet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_003"
     },
     {
         "word": "dont",
@@ -831,8 +945,6 @@
         "theme": "travel",
         "emoji": "🏃‍♂️",
         "subtext": "dont d'ar gêr / dont d'al labour / dont en-dro / dont amañ",
-        "opposite": "mont",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -847,7 +959,13 @@
         "v2": "deuas",
         "v3": "deut",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "mont"
+        ],
+        "transcription": "",
+        "id": "br_starter_travel_004"
     },
     {
         "word": "bale",
@@ -869,7 +987,10 @@
         "v2": "baleas",
         "v3": "balet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_005"
     },
     {
         "word": "bleniañ",
@@ -891,7 +1012,10 @@
         "v2": "blenias",
         "v3": "bleniet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_006"
     },
     {
         "word": "nijout",
@@ -913,7 +1037,10 @@
         "v2": "nijas",
         "v3": "nijet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_007"
     },
     {
         "word": "degouezhout",
@@ -939,7 +1066,10 @@
         "v2": "degouezhas",
         "v3": "degouezhet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_008"
     },
     {
         "word": "kuitaat",
@@ -961,7 +1091,10 @@
         "v2": "kuitaas",
         "v3": "kuitaet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_009"
     },
     {
         "word": "dilec'hiañ",
@@ -986,7 +1119,10 @@
         "v2": "dilec'hias",
         "v3": "dilec'hiet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_furniture_002"
     },
     {
         "word": "distreiñ",
@@ -1008,12 +1144,15 @@
         "v2": "distroas",
         "v3": "distroet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_008"
     },
     {
         "word": "beajiñ",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "beajiñ evit al labour / beajiñ d'an estrenvro",
         "form": "verb",
@@ -1030,7 +1169,10 @@
         "v2": "beajas",
         "v3": "beajet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_009"
     },
     {
         "word": "debriñ",
@@ -1038,8 +1180,6 @@
         "theme": "food_drink",
         "emoji": "🍎",
         "subtext": "debriñ lein / debriñ merenn / debriñ koan / debriñ er-maez",
-        "opposite": "evañ",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1054,7 +1194,13 @@
         "v2": "debras",
         "v3": "debret",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "evañ"
+        ],
+        "transcription": "",
+        "id": "br_starter_food_drink_003"
     },
     {
         "word": "evañ",
@@ -1062,8 +1208,6 @@
         "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "evañ kafe / evañ te / evañ dour / evañ bier",
-        "opposite": "debriñ",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1078,7 +1222,13 @@
         "v2": "evas",
         "v3": "evet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "debriñ"
+        ],
+        "transcription": "",
+        "id": "br_starter_food_drink_004"
     },
     {
         "word": "kousket",
@@ -1086,8 +1236,6 @@
         "theme": "time",
         "emoji": "😴",
         "subtext": "kousket mat / kousket fall / kousket kalz",
-        "opposite": "dihuniñ",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1102,12 +1250,18 @@
         "v2": "kouskas",
         "v3": "kousket",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "dihuniñ"
+        ],
+        "transcription": "",
+        "id": "br_starter_time_001"
     },
     {
         "word": "poazhañ",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "🍳",
         "subtext": "",
         "synonyms": [
@@ -1128,7 +1282,10 @@
         "v2": "poazhas",
         "v3": "poazhet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_food_drink_005"
     },
     {
         "word": "naetaat",
@@ -1150,7 +1307,10 @@
         "v2": "naetaas",
         "v3": "naetaet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_furniture_003"
     },
     {
         "word": "dougen",
@@ -1172,7 +1332,10 @@
         "v2": "dougas",
         "v3": "douget",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_clothes_001"
     },
     {
         "word": "walc'hiñ",
@@ -1194,7 +1357,10 @@
         "v2": "walc'has",
         "v3": "walc'het",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_furniture_004"
     },
     {
         "word": "prenañ",
@@ -1202,8 +1368,6 @@
         "theme": "shopping",
         "emoji": "🛒",
         "subtext": "prenañ boued / prenañ un tiked / prenañ enlinenn",
-        "opposite": "gwerzhañ",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1218,7 +1382,13 @@
         "v2": "prenas",
         "v3": "prenet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "gwerzhañ"
+        ],
+        "transcription": "",
+        "id": "br_starter_shopping_007"
     },
     {
         "word": "paeañ",
@@ -1240,7 +1410,10 @@
         "v2": "paeas",
         "v3": "paeet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_shopping_008"
     },
     {
         "word": "dispendiñ",
@@ -1266,7 +1439,10 @@
         "v2": "dispendas",
         "v3": "dispendet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_shopping_009"
     },
     {
         "word": "espern",
@@ -1274,8 +1450,6 @@
         "theme": "shopping",
         "emoji": "💰",
         "subtext": "espern arc'hant / espern evit ar vakañsoù",
-        "opposite": "dispendiñ",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1290,7 +1464,13 @@
         "v2": "espernas",
         "v3": "espernet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "dispendiñ"
+        ],
+        "transcription": "",
+        "id": "br_starter_shopping_010"
     },
     {
         "word": "labourat",
@@ -1312,7 +1492,10 @@
         "v2": "labouras",
         "v3": "labouret",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_010"
     },
     {
         "word": "bevañ",
@@ -1320,8 +1503,6 @@
         "theme": "places",
         "emoji": "🏠",
         "subtext": "bevañ en un ranndi / bevañ e-unan / bevañ d'an estrenvro",
-        "opposite": "mervel",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1336,7 +1517,13 @@
         "v2": "bevas",
         "v3": "bevet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "mervel"
+        ],
+        "transcription": "",
+        "id": "br_starter_places_001"
     },
     {
         "word": "soñjal",
@@ -1358,7 +1545,10 @@
         "v2": "soñjas",
         "v3": "soñjet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_005"
     },
     {
         "word": "gouzout",
@@ -1384,7 +1574,10 @@
         "v2": "gouezas",
         "v3": "gouezet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_school_006"
     },
     {
         "word": "fellout",
@@ -1406,7 +1599,10 @@
         "v2": "falas",
         "v3": "fallet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_emotions_001"
     },
     {
         "word": "ezhomm",
@@ -1428,7 +1624,10 @@
         "v2": "ezhommas",
         "v3": "ezhommet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_emotions_002"
     },
     {
         "word": "karet",
@@ -1450,7 +1649,10 @@
         "v2": "karas",
         "v3": "karet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_emotions_003"
     },
     {
         "word": "karout",
@@ -1476,7 +1678,10 @@
         "v2": "karas",
         "v3": "karet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_emotions_004"
     },
     {
         "word": "kazout",
@@ -1502,7 +1707,10 @@
         "v2": "kazas",
         "v3": "kazet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_emotions_005"
     },
     {
         "word": "esperout",
@@ -1528,7 +1736,10 @@
         "v2": "esperas",
         "v3": "esperet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_emotions_006"
     },
     {
         "word": "kaout soñj",
@@ -1554,7 +1765,10 @@
         "v2": "en devoe soñj",
         "v3": "bet soñj",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_school_007"
     },
     {
         "word": "ankounac'haat",
@@ -1579,7 +1793,10 @@
         "v2": "ankounac'haas",
         "v3": "ankounac'haet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_school_008"
     },
     {
         "word": "kompren",
@@ -1601,7 +1818,10 @@
         "v2": "komprenas",
         "v3": "komprenet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_language_005"
     },
     {
         "word": "divizout",
@@ -1626,7 +1846,10 @@
         "v2": "divizas",
         "v3": "divizet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_006"
     },
     {
         "word": "plijout",
@@ -1648,7 +1871,10 @@
         "v2": "plijas",
         "v3": "plijet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_emotions_007"
     },
     {
         "word": "gwelet",
@@ -1670,7 +1896,10 @@
         "v2": "gwelas",
         "v3": "gwelet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_body_001"
     },
     {
         "word": "klevet",
@@ -1696,7 +1925,10 @@
         "v2": "klevas",
         "v3": "klevet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_body_002"
     },
     {
         "word": "dihuniñ",
@@ -1709,8 +1941,6 @@
             "diwennañ abred",
             "diwennañ diwezhat"
         ],
-        "opposite": "kousket",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Paouez da gousket.",
@@ -1724,7 +1954,13 @@
         "v2": "dihunas",
         "v3": "dihunet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "kousket"
+        ],
+        "transcription": "",
+        "id": "br_starter_work_011"
     },
     {
         "word": "sellet",
@@ -1746,7 +1982,10 @@
         "v2": "sellas",
         "v3": "sellet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_007"
     },
     {
         "word": "sellout",
@@ -1773,7 +2012,10 @@
         "v2": "sellas",
         "v3": "sellet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_people_001"
     },
     {
         "word": "c'hoari",
@@ -1795,7 +2037,10 @@
         "v2": "c'hoarias",
         "v3": "c'hoariet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_008"
     },
     {
         "word": "redek",
@@ -1817,7 +2062,10 @@
         "v2": "redas",
         "v3": "redet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_sports_001"
     },
     {
         "word": "azezañ",
@@ -1825,8 +2073,6 @@
         "theme": "work",
         "emoji": "🪑",
         "subtext": "azezañ / azezañ ouzh un daol",
-        "opposite": "sevel",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -1841,7 +2087,13 @@
         "v2": "azezas",
         "v3": "azezeet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "sevel"
+        ],
+        "transcription": "",
+        "id": "br_starter_work_012"
     },
     {
         "word": "sevel",
@@ -1849,8 +2101,6 @@
         "theme": "work",
         "emoji": "🧍",
         "subtext": "sevel en e sav / chom en e sav",
-        "opposite": "azezañ",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -1865,7 +2115,13 @@
         "v2": "savas",
         "v3": "savet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "azezañ"
+        ],
+        "transcription": "",
+        "id": "br_starter_work_013"
     },
     {
         "word": "kejañ",
@@ -1887,7 +2143,10 @@
         "v3": "kejet",
         "subtext": "kejañ gant ur c'hliant / kejañ evit merenniñ",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_014"
     },
     {
         "word": "deskiñ",
@@ -1909,7 +2168,10 @@
         "v2": "deskas",
         "v3": "desket",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_school_009"
     },
     {
         "word": "cheñch",
@@ -1931,7 +2193,10 @@
         "v2": "cheñchas",
         "v3": "cheñchet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_015"
     },
     {
         "word": "paouez",
@@ -1953,7 +2218,10 @@
         "v2": "paouezas",
         "v3": "paouezet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_016"
     },
     {
         "word": "ouzhpennañ",
@@ -1978,7 +2246,10 @@
         "v2": "ouzhpennas",
         "v3": "ouzhpennet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_numbers_001"
     },
     {
         "word": "gounit",
@@ -1986,8 +2257,6 @@
         "theme": "social",
         "emoji": "🏆",
         "subtext": "gounit ur c'hoari / gounit ur priz",
-        "opposite": "koll",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -2002,7 +2271,13 @@
         "v2": "gounezas",
         "v3": "gounezet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "koll"
+        ],
+        "transcription": "",
+        "id": "br_starter_social_009"
     },
     {
         "word": "gortoz",
@@ -2024,7 +2299,10 @@
         "v2": "gortozas",
         "v3": "gortozet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_017"
     },
     {
         "word": "mervel",
@@ -2032,8 +2310,6 @@
         "theme": "health_medicine",
         "emoji": "⚰️",
         "subtext": "mervel gant / mervel evit",
-        "opposite": "bevañ",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -2048,7 +2324,13 @@
         "v2": "marvas",
         "v3": "marvet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "bevañ"
+        ],
+        "transcription": "",
+        "id": "br_starter_health_medicine_002"
     },
     {
         "word": "kas",
@@ -2070,7 +2352,10 @@
         "v3": "kaset",
         "subtext": "kas ur postel / kas ur gemennadenn",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_018"
     },
     {
         "word": "chom",
@@ -2092,7 +2377,10 @@
         "v2": "chomas",
         "v3": "chomet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_010"
     },
     {
         "word": "kouezhañ",
@@ -2114,7 +2402,10 @@
         "v2": "kouezhas",
         "v3": "kouezhet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_nature_001"
     },
     {
         "word": "tremen",
@@ -2136,7 +2427,10 @@
         "v2": "tremenas",
         "v3": "tremenet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_school_010"
     },
     {
         "word": "gwerzhañ",
@@ -2144,8 +2438,6 @@
         "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "gwerzhañ produioù / gwerzhañ enlinenn",
-        "opposite": "prenañ",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2160,7 +2452,13 @@
         "v2": "gwerzhas",
         "v3": "gwerzhet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "prenañ"
+        ],
+        "transcription": "",
+        "id": "br_starter_shopping_011"
     },
     {
         "word": "Sachañ",
@@ -2171,8 +2469,6 @@
         "synonyms": [
             "tennañ an nor"
         ],
-        "opposite": "pousañ",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2187,7 +2483,13 @@
         "v2": "sachas",
         "v3": "sachet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "pousañ"
+        ],
+        "transcription": "",
+        "id": "br_starter_work_019"
     },
     {
         "word": "pousañ",
@@ -2195,8 +2497,6 @@
         "theme": "work",
         "emoji": "🛒",
         "subtext": "pousañ ar bouton / pousañ ur c'harrig",
-        "opposite": "sachañ",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2211,7 +2511,13 @@
         "v2": "pousas",
         "v3": "pouset",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "sachañ"
+        ],
+        "transcription": "",
+        "id": "br_starter_work_020"
     },
     {
         "word": "dougen",
@@ -2233,7 +2539,10 @@
         "v2": "dougas",
         "v3": "douget",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_021"
     },
     {
         "word": "terriñ",
@@ -2255,7 +2564,10 @@
         "v2": "torras",
         "v3": "torret",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_describing_001"
     },
     {
         "word": "resev",
@@ -2281,7 +2593,10 @@
         "v2": "resevas",
         "v3": "resevet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_shopping_012"
     },
     {
         "word": "emglev",
@@ -2306,12 +2621,15 @@
         "v2": "emglezas",
         "v3": "emglezet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_010"
     },
     {
         "word": "treset",
         "level": "starter",
-        "theme": "cinema_film",
+        "theme": "social",
         "emoji": "🎨",
         "subtext": "treset ur skeudenn / treset ul linenn",
         "form": "verb",
@@ -2328,7 +2646,10 @@
         "v2": "tresas",
         "v3": "treset",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_011"
     },
     {
         "word": "lodennañ",
@@ -2354,7 +2675,10 @@
         "v2": "lodennas",
         "v3": "lodennet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_012"
     },
     {
         "word": "mousc'hoarzhin",
@@ -2365,8 +2689,6 @@
         "synonyms": [
             "strakal ur mousc'hoarzh"
         ],
-        "opposite": "gouelañ",
-        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2381,7 +2703,13 @@
         "v2": "mousc'hoarzhinas",
         "v3": "mousc'hoarzhet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "gouelañ"
+        ],
+        "transcription": "",
+        "id": "br_starter_people_002"
     },
     {
         "word": "gouelañ",
@@ -2393,8 +2721,6 @@
             "krial evit sikour",
             "kregiñ da ouelañ"
         ],
-        "opposite": "mousc'hoarzhin",
-        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2409,7 +2735,13 @@
         "v2": "gouelas",
         "v3": "gouelet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "antonyms": [
+            "mousc'hoarzhin"
+        ],
+        "transcription": "",
+        "id": "br_starter_emotions_008"
     },
     {
         "word": "dañsal",
@@ -2434,7 +2766,10 @@
         "v2": "dañsas",
         "v3": "dañset",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_music_001"
     },
     {
         "word": "kanañ",
@@ -2456,7 +2791,10 @@
         "v2": "kanas",
         "v3": "kanet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_music_002"
     },
     {
         "word": "lammat",
@@ -2478,7 +2816,10 @@
         "v2": "lammas",
         "v3": "lammet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_sports_002"
     },
     {
         "word": "neuñvial",
@@ -2504,7 +2845,10 @@
         "v2": "neuñvias",
         "v3": "neuñviet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_sports_003"
     },
     {
         "word": "studiañ",
@@ -2526,7 +2870,10 @@
         "v2": "studias",
         "v3": "studiet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_school_011"
     },
     {
         "word": "kelenn",
@@ -2548,12 +2895,15 @@
         "v2": "kelennas",
         "v3": "kelennet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_school_012"
     },
     {
         "word": "beajiñ bemdez",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🚆",
         "subtext": "",
         "synonyms": [
@@ -2574,7 +2924,10 @@
         "v2": "beajas bemdez",
         "v3": "beajet bemdez",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_011"
     },
     {
         "word": "feurmiñ",
@@ -2596,7 +2949,10 @@
         "v2": "feurmas",
         "v3": "feurmet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_012"
     },
     {
         "word": "ober sport",
@@ -2618,7 +2974,10 @@
         "v3": "graet sport",
         "subtext": "ober sport / ober sport ingal",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_013"
     },
     {
         "word": "koustañ",
@@ -2644,7 +3003,10 @@
             "koust arc'hant"
         ],
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_shopping_013"
     },
     {
         "word": "pediñ",
@@ -2666,7 +3028,10 @@
         "v3": "pedet",
         "subtext": "pediñ unan bennak / pediñ da goaniañ",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_014"
     },
     {
         "word": "sevel",
@@ -2688,7 +3053,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_022"
     },
     {
         "word": "lein",
@@ -2710,7 +3078,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_023"
     },
     {
         "word": "distreiñ",
@@ -2732,7 +3103,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_024"
     },
     {
         "word": "mont da gousket",
@@ -2754,7 +3128,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_025"
     },
     {
         "word": "gwiriañ",
@@ -2776,7 +3153,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_026"
     },
     {
         "word": "respont",
@@ -2798,7 +3178,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_027"
     },
     {
         "word": "displegañ",
@@ -2824,7 +3207,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_028"
     },
     {
         "word": "kemer perzh",
@@ -2846,7 +3232,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_029"
     },
     {
         "word": "merañ",
@@ -2868,7 +3257,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_030"
     },
     {
         "word": "fakturiñ",
@@ -2893,7 +3285,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_shopping_014"
     },
     {
         "word": "gellet paeañ",
@@ -2915,7 +3310,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_shopping_015"
     },
     {
         "word": "dleout",
@@ -2937,7 +3335,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_shopping_016"
     },
     {
         "word": "gounit arc'hant",
@@ -2962,7 +3363,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_shopping_017"
     },
     {
         "word": "gweladenniñ",
@@ -2984,7 +3388,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_015"
     },
     {
         "word": "lidat",
@@ -3006,7 +3413,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_016"
     },
     {
         "word": "erbediñ",
@@ -3028,7 +3438,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_017"
     },
     {
         "word": "ober droug",
@@ -3050,7 +3463,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_health_medicine_003"
     },
     {
         "word": "diskuizhañ",
@@ -3072,7 +3488,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_031"
     },
     {
         "word": "pareañ",
@@ -3094,7 +3513,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_health_medicine_004"
     },
     {
         "word": "mirout",
@@ -3116,7 +3538,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_013"
     },
     {
         "word": "aozañ ar malizenn",
@@ -3142,7 +3567,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_014"
     },
     {
         "word": "nullañ",
@@ -3164,7 +3592,10 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_015"
     },
     {
         "word": "mankout",
@@ -3181,12 +3612,15 @@
         "aspect": "both",
         "v2": "mankas",
         "v3": "manket",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_travel_016"
     },
     {
         "word": "urzhiañ",
@@ -3208,7 +3642,10 @@
         "v2": "urzhias",
         "v3": "urzhiet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_032"
     },
     {
         "word": "displegañ",
@@ -3230,12 +3667,15 @@
         "v2": "displegas",
         "v3": "displeget",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_033"
     },
     {
         "word": "trugarekaat",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🙏",
         "subtext": "trugarekaat unan bennak",
         "synonyms": [
@@ -3255,12 +3695,15 @@
         "v2": "trugarekaas",
         "v3": "trugarekaet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_018"
     },
     {
         "word": "en em ginnig",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "🤝",
         "subtext": "en em ginnig",
         "synonyms": [
@@ -3280,7 +3723,10 @@
         "v2": "en em ginnigas",
         "v3": "en em ginniget",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_019"
     },
     {
         "word": "en em zistendañ",
@@ -3305,7 +3751,10 @@
         "v2": "en em zistendas",
         "v3": "en em zistendet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_020"
     },
     {
         "word": "ratreañ",
@@ -3327,7 +3776,10 @@
         "v2": "ratreas",
         "v3": "ratreet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_furniture_005"
     },
     {
         "word": "degouezhout",
@@ -3349,7 +3801,10 @@
         "v2": "degouezhas",
         "v3": "degouezhet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_021"
     },
     {
         "word": "hañvalout",
@@ -3375,7 +3830,10 @@
         "v2": "hañvalas",
         "v3": "hañvalet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_022"
     },
     {
         "word": "talvout",
@@ -3400,7 +3858,10 @@
         "v2": "talvezas",
         "v3": "talvezet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_school_013"
     },
     {
         "word": "heuliañ",
@@ -3422,7 +3883,10 @@
         "v2": "heulias",
         "v3": "heuliet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_034"
     },
     {
         "word": "kenderc'hel",
@@ -3444,7 +3908,10 @@
         "v2": "kendalc'has",
         "v3": "kendalc'het",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_school_014"
     },
     {
         "word": "kreskiñ",
@@ -3466,7 +3933,10 @@
         "v2": "kreskas",
         "v3": "kresket",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_035"
     },
     {
         "word": "e-barzh",
@@ -3488,7 +3958,10 @@
         "v2": "oa e-barzh",
         "v3": "bet e-barzh",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_shopping_018"
     },
     {
         "word": "dont da vezañ",
@@ -3510,7 +3983,10 @@
         "v2": "deuas da vezañ",
         "v3": "deut da vezañ",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_036"
     },
     {
         "word": "bezañ da",
@@ -3532,7 +4008,10 @@
         "v2": "oa da",
         "v3": "bet da",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_037"
     },
     {
         "word": "dibab",
@@ -3554,7 +4033,10 @@
         "v2": "dibabas",
         "v3": "dibabet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_social_023"
     },
     {
         "word": "sevel",
@@ -3576,7 +4058,10 @@
         "v2": "savas",
         "v3": "savet",
         "group": "añ",
-        "auxiliary": "ober"
+        "auxiliary": "ober",
+        "lang": "br",
+        "transcription": "",
+        "id": "br_starter_work_038"
     }
 ];
     const lang = "br";

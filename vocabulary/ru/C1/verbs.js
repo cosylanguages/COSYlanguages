@@ -12,7 +12,8 @@
         "v3": "инфраструктура",
         "auxiliary": "быть",
         "lang": "ru",
-        "id": "ru_advanced_science_tech_society_c1_verb_a0a35957f0"
+        "id": "ru_advanced_science_tech_society_c1_verb_a0a35957f0",
+        "transcription": ""
     }
 ];
     const lang = "ru";

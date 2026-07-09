@@ -16,7 +16,9 @@
                 ]
             }
         ],
-        "transcription": "/ɐˈdʲin/"
+        "transcription": "/ɐˈdʲin/",
+        "lang": "ru",
+        "id": "ru_starter_numbers_001"
     },
     {
         "word": "два",
@@ -34,7 +36,9 @@
                 ]
             }
         ],
-        "transcription": "/dva/"
+        "transcription": "/dva/",
+        "lang": "ru",
+        "id": "ru_starter_numbers_002"
     },
     {
         "word": "три",
@@ -52,7 +56,9 @@
                 ]
             }
         ],
-        "transcription": "/trʲi/"
+        "transcription": "/trʲi/",
+        "lang": "ru",
+        "id": "ru_starter_numbers_003"
     },
     {
         "word": "четыре",
@@ -70,7 +76,9 @@
                 ]
             }
         ],
-        "transcription": "/tɕɪˈtɨrʲe/"
+        "transcription": "/tɕɪˈtɨrʲe/",
+        "lang": "ru",
+        "id": "ru_starter_numbers_004"
     },
     {
         "word": "пять",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/pʲatʲ/"
+        "transcription": "/pʲatʲ/",
+        "lang": "ru",
+        "id": "ru_starter_numbers_005"
     }
-    ];
+];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -1,0 +1,37 @@
+templates/events/celebrate-session-template.html:<link rel="icon" href="../../images/logos/cosylanguages.png">
+templates/events/session-template.html:<link rel="icon" href="../../images/logos/cosylanguages.png">
+templates/events/life-session-template.html:<link rel="icon" href="../../images/logos/cosylanguages.png">
+templates/events/debate-session-template.html:<link rel="icon" href="../../images/logos/cosylanguages.png">
+templates/events/science-session-template.html:<link rel="icon" href="../../images/logos/cosylanguages.png">
+templates/events/quotes-session-template.html:<link rel="icon" href="../../images/logos/cosylanguages.png">
+templates/events/mind-session-template.html:<link rel="icon" href="../../images/logos/cosylanguages.png">
+templates/languages/home-template.html:<meta property="og:image" content="../../images/logos/cosylanguages.png">
+templates/languages/home-template.html:<link rel="icon" href="../../images/logos/cosylanguages.png">
+templates/grammar/lesson-template.html:<link rel="icon" href="../../../images/logos/cosylanguages.png">
+templates/grammar/roadmap-template.html:<link rel="icon" href="../../images/logos/cosylanguages.png">
+templates/curriculum/curriculum-template.json:  "level": "A1",
+templates/grammar/data-template.json:          "level": "A1",
+templates/grammar/roadmap-template.html:    <div class="level-badge">A1 — STARTER</div>
+templates/practice/practice-type-template.js:/**
+templates/practice/practice-type-template.js:    /**
+templates/practice/practice-type-template.js:    /**
+templates/practice/practice-type-template.js:    /**
+templates/games/game-data-template.js:/**
+templates/games/scaffold/game.js:/**
+templates/vocabulary/vocabulary-template.js:/**
+templates/vocabulary/vocabulary-template.js:            /**
+templates/vocabulary/vocabulary-template.js:            /**
+templates/vocabulary/vocabulary-template.js:    /**
+templates/README.md:1.  **Home Page:** Copy `languages/home-template.html` to `languages/[lang]/index.html` and update the placeholders (marked with `xx` or `Language Name`).
+templates/README.md:2.  **Grammar Roadmap:** Copy `grammar/roadmap-template.html` to `grammar/[lang]/[lang].html`.
+templates/README.md:3.  **Vocabulary:** Copy `vocabulary/vocabulary-template.js` to create themed files in `vocabulary/[lang]/[level]/`.
+templates/README.md:4.  **Curriculum:** Copy `curriculum/curriculum-template.json` to `curriculum/[lang]/[course_type]/[level].json`.
+templates/README.md:5.  **Game Data:** Copy `games/game-data-template.js` to `games/data/[lang]/game_data.js`.
+templates/README.md:3.  Follow the **10-10-10** rule: 10 vocabulary items, 10 Round 1 questions, and 10 Round 2 items.
+templates/README.md:- **Game Scaffold:** Use `games/scaffold/` as a starting point for new interactive games. It includes a basic UI structure (`index.html`) and state management (`game.js`).
+templates/README.md:- **Practice Type:** Copy `practice/practice-type-template.js` to a new folder in `practice/types/[new-type]/` to implement custom logic for loading and transforming data into practice tasks.
+templates/README.md:- **SCHEMA.md:** Always refer to the root `SCHEMA.md` for data field requirements.
+templates/README.md:- **THEMES.md:** Use standardized theme slugs for vocabulary and curriculum.
+templates/README.md:- **CEFR Levels:** Use standard codes: `A1`, `A2`, `B1`, `B2`, `C1`, `C2`.
+templates/README.md:- **Naming Conventions:** Use lowercase with hyphens for filenames (`my-new-session.html`).
+templates/README.md:- **Target Language:** Definitions, examples, and rules must be written in the target language (except for English-specific files).

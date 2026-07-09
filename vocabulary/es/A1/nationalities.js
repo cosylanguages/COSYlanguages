@@ -17,7 +17,8 @@
         ],
         "lang": "es",
         "sub_theme": "nationalities",
-        "id": "es_starter_people_014"
+        "id": "es_starter_people_014",
+        "transcription": ""
     },
     {
         "word": "francés",
@@ -35,7 +36,8 @@
         ],
         "lang": "es",
         "sub_theme": "nationalities",
-        "id": "es_starter_people_015"
+        "id": "es_starter_people_015",
+        "transcription": ""
     },
     {
         "word": "italiano",
@@ -53,7 +55,8 @@
         ],
         "lang": "es",
         "sub_theme": "nationalities",
-        "id": "es_starter_people_016"
+        "id": "es_starter_people_016",
+        "transcription": ""
     }
 ];
     const lang = "es";

@@ -3,7 +3,8 @@
     const data = [
     {
         "id": "en_proficiency_people_001",
-        "word": "Marilyn Monroe", "emoji": "🎬",
+        "word": "Marilyn Monroe",
+        "emoji": "🎬",
         "form": "other",
         "definitions": [
             {
@@ -14,11 +15,13 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "transcription": ""
     },
     {
         "id": "en_proficiency_people_002",
-        "word": "Aristotle", "emoji": "🏛️",
+        "word": "Aristotle",
+        "emoji": "🏛️",
         "form": "other",
         "definitions": [
             {
@@ -29,7 +32,8 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "transcription": ""
     }
 ];
     const lang = "en";

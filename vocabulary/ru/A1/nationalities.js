@@ -16,7 +16,8 @@
                 ]
             }
         ],
-        "emoji": "🇷🇺"
+        "emoji": "🇷🇺",
+        "transcription": ""
     },
     {
         "id": "ru_starter_people_008",
@@ -33,7 +34,8 @@
                 ]
             }
         ],
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "transcription": ""
     },
     {
         "id": "ru_starter_people_009",
@@ -50,7 +52,8 @@
                 ]
             }
         ],
-        "emoji": "🇨🇳"
+        "emoji": "🇨🇳",
+        "transcription": ""
     }
 ];
     const lang = "ru";

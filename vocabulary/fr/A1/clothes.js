@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "vêtement",
         "level": "starter",
         "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "👕",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vêtements",
         "definitions": [
             {
@@ -17,16 +19,20 @@
                 ]
             }
         ],
-        "transcription": "/vɛt.mɑ̃/"
+        "transcription": "/vɛt.mɑ̃/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_001"
     },
-{
+    {
         "word": "lunettes",
         "level": "starter",
         "theme": "accessories",
         "article": "les",
         "gender": "feminine",
         "emoji": "👓",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lunettes",
         "definitions": [
             {
@@ -36,16 +42,20 @@
                 ]
             }
         ],
-        "transcription": "/ly.nɛt/"
+        "transcription": "/ly.nɛt/",
+        "lang": "fr",
+        "id": "fr_starter_accessories_001"
     },
-{
+    {
         "word": "chaussures",
         "level": "starter",
         "theme": "clothes",
         "article": "les",
         "gender": "feminine",
         "emoji": "👟",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chaussures",
         "definitions": [
             {
@@ -55,16 +65,20 @@
                 ]
             }
         ],
-        "transcription": "/ʃo.syʁ/"
+        "transcription": "/ʃo.syʁ/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_002"
     },
-{
+    {
         "word": "bottes",
         "level": "starter",
         "theme": "clothes",
         "article": "les",
         "gender": "feminine",
         "emoji": "🥾",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bottes",
         "definitions": [
             {
@@ -74,16 +88,20 @@
                 ]
             }
         ],
-        "transcription": "/bɔt/"
+        "transcription": "/bɔt/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_003"
     },
-{
+    {
         "word": "chaussettes",
         "level": "starter",
         "theme": "clothes",
         "article": "les",
         "gender": "feminine",
         "emoji": "🧦",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chaussettes",
         "definitions": [
             {
@@ -93,16 +111,20 @@
                 ]
             }
         ],
-        "transcription": "/ʃo.sɛt/"
+        "transcription": "/ʃo.sɛt/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_004"
     },
-{
+    {
         "word": "pantalon",
         "level": "starter",
         "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "👖",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pantalons",
         "definitions": [
             {
@@ -112,16 +134,20 @@
                 ]
             }
         ],
-        "transcription": "/pɑ̃.ta.lɔ̃/"
+        "transcription": "/pɑ̃.ta.lɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_005"
     },
-{
+    {
         "word": "jean",
         "level": "starter",
         "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "👖",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "jeans",
         "definitions": [
             {
@@ -131,16 +157,20 @@
                 ]
             }
         ],
-        "transcription": "/dʒin/"
+        "transcription": "/dʒin/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_006"
     },
-{
+    {
         "word": "jupe",
         "level": "starter",
         "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "jupes",
         "definitions": [
             {
@@ -150,16 +180,20 @@
                 ]
             }
         ],
-        "transcription": "/ʒyp/"
+        "transcription": "/ʒyp/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_007"
     },
-{
+    {
         "word": "robe",
         "level": "starter",
         "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "robes",
         "definitions": [
             {
@@ -169,16 +203,20 @@
                 ]
             }
         ],
-        "transcription": "/ʁɔb/"
+        "transcription": "/ʁɔb/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_008"
     },
-{
+    {
         "word": "chemise",
         "level": "starter",
         "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👔",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chemises",
         "definitions": [
             {
@@ -192,16 +230,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "camisia"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_clothes_009"
     },
-{
+    {
         "word": "pull",
         "level": "starter",
         "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pulls",
         "definitions": [
             {
@@ -211,16 +253,20 @@
                 ]
             }
         ],
-        "transcription": "/pyl/"
+        "transcription": "/pyl/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_010"
     },
-{
+    {
         "word": "manteau",
         "level": "starter",
         "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "manteaux",
         "definitions": [
             {
@@ -230,16 +276,20 @@
                 ]
             }
         ],
-        "transcription": "/mɑ̃.to/"
+        "transcription": "/mɑ̃.to/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_011"
     },
-{
+    {
         "word": "veste",
         "level": "starter",
         "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vestes",
         "definitions": [
             {
@@ -249,16 +299,20 @@
                 ]
             }
         ],
-        "transcription": "/vɛst/"
+        "transcription": "/vɛst/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_012"
     },
-{
+    {
         "word": "casquette",
         "level": "starter",
         "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧢",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "casquettes",
         "definitions": [
             {
@@ -268,16 +322,20 @@
                 ]
             }
         ],
-        "transcription": "/kas.kɛt/"
+        "transcription": "/kas.kɛt/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_013"
     },
-{
+    {
         "word": "bonnet",
         "level": "starter",
         "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧣",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bonnets",
         "definitions": [
             {
@@ -287,16 +345,20 @@
                 ]
             }
         ],
-        "transcription": "/bɔ.nɛ/"
+        "transcription": "/bɔ.nɛ/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_014"
     },
-{
+    {
         "word": "gants",
         "level": "starter",
         "theme": "clothes",
         "article": "les",
         "gender": "masculine",
         "emoji": "🧤",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gants",
         "definitions": [
             {
@@ -306,16 +368,20 @@
                 ]
             }
         ],
-        "transcription": "/ɡɑ̃/"
+        "transcription": "/ɡɑ̃/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_015"
     },
-{
+    {
         "word": "ceinture",
         "level": "starter",
         "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎗️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ceintures",
         "definitions": [
             {
@@ -325,16 +391,20 @@
                 ]
             }
         ],
-        "transcription": "/sɛ̃.tyʁ/"
+        "transcription": "/sɛ̃.tyʁ/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_016"
     },
-{
+    {
         "word": "maillot de bain",
         "level": "starter",
         "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "🩱",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "maillots de bain",
         "definitions": [
             {
@@ -344,16 +414,20 @@
                 ]
             }
         ],
-        "transcription": "/ma.jo də bɛ̃/"
+        "transcription": "/ma.jo də bɛ̃/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_017"
     },
-{
+    {
         "word": "pyjama",
         "level": "starter",
         "theme": "clothes",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pyjamas",
         "definitions": [
             {
@@ -363,14 +437,18 @@
                 ]
             }
         ],
-        "transcription": "/pi.ʒa.ma/"
+        "transcription": "/pi.ʒa.ma/",
+        "lang": "fr",
+        "id": "fr_starter_clothes_018"
     },
-{
+    {
         "word": "chapeau",
         "level": "starter",
         "theme": "clothes",
         "emoji": "🎩",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "chapeaux",
@@ -383,14 +461,18 @@
                 ]
             }
         ],
-        "transcription": "ʃapo"
+        "transcription": "ʃapo",
+        "lang": "fr",
+        "id": "fr_starter_clothes_019"
     },
-{
+    {
         "word": "t-shirt",
         "level": "starter",
         "theme": "clothes",
         "emoji": "👕",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "t-shirts",
@@ -403,14 +485,18 @@
                 ]
             }
         ],
-        "transcription": "ti ʃœʁt"
+        "transcription": "ti ʃœʁt",
+        "lang": "fr",
+        "id": "fr_starter_clothes_020"
     },
-{
+    {
         "word": "short",
         "level": "starter",
         "theme": "clothes",
         "emoji": "🩳",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "shorts",
@@ -423,14 +509,18 @@
                 ]
             }
         ],
-        "transcription": "ʃɔʁt"
+        "transcription": "ʃɔʁt",
+        "lang": "fr",
+        "id": "fr_starter_clothes_021"
     },
-{
+    {
         "word": "botte",
         "level": "starter",
         "theme": "clothes",
         "emoji": "🥾",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "bottes",
@@ -443,14 +533,18 @@
                 ]
             }
         ],
-        "transcription": "bɔt"
+        "transcription": "bɔt",
+        "lang": "fr",
+        "id": "fr_starter_clothes_022"
     },
-{
+    {
         "word": "écharpe",
         "level": "starter",
         "theme": "clothes",
         "emoji": "🧣",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "l'",
         "plural": "écharpes",
@@ -463,14 +557,18 @@
                 ]
             }
         ],
-        "transcription": "eʃaʁp"
+        "transcription": "eʃaʁp",
+        "lang": "fr",
+        "id": "fr_starter_clothes_023"
     },
-{
+    {
         "word": "gant",
         "level": "starter",
         "theme": "clothes",
         "emoji": "🧤",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "gants",
@@ -483,9 +581,11 @@
                 ]
             }
         ],
-        "transcription": "ɡɑ̃"
+        "transcription": "ɡɑ̃",
+        "lang": "fr",
+        "id": "fr_starter_clothes_024"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

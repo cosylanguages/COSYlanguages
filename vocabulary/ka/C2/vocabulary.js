@@ -18,7 +18,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_001"
+        "id": "ka_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "ტელეოლოგია",
@@ -36,7 +37,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_002"
+        "id": "ka_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "ონტოლოგია",
@@ -54,7 +56,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_003"
+        "id": "ka_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "რეიფიკაცია",
@@ -72,7 +75,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_004"
+        "id": "ka_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "დიალექტიკა",
@@ -90,7 +94,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_005"
+        "id": "ka_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "ევრისტიკა",
@@ -108,7 +113,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_001"
+        "id": "ka_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "აპოფენია",
@@ -126,7 +132,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_002"
+        "id": "ka_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "მოტივირებული კოგნიცია",
@@ -143,7 +150,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_003"
+        "id": "ka_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "პროაქტიული პრინციპი",
@@ -160,7 +168,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_001"
+        "id": "ka_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "სიფრთხილის პრინციპი",
@@ -177,7 +186,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_002"
+        "id": "ka_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "ლიბერალური ნეიტრალიტეტი",
@@ -194,7 +204,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_003"
+        "id": "ka_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "პრონატალიზმი",
@@ -212,7 +223,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_004"
+        "id": "ka_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "სუბლიმაცია",
@@ -230,7 +242,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_004"
+        "id": "ka_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "ჟუისანსი",
@@ -248,7 +261,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_005"
+        "id": "ka_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "თანატოსი",
@@ -266,7 +280,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_006"
+        "id": "ka_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "ბათოსი",
@@ -284,7 +299,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_art_culture_001"
+        "id": "ka_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "აპოფაზისი",
@@ -302,7 +318,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_006"
+        "id": "ka_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "პარალეფსისი",
@@ -320,7 +337,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_007"
+        "id": "ka_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "ლიმინალური სივრცე",
@@ -337,7 +355,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_008"
+        "id": "ka_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "ქიაზმი",
@@ -355,7 +374,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_009"
+        "id": "ka_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "შიბოლეთი",
@@ -373,7 +393,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_010"
+        "id": "ka_proficiency_language_010",
+        "transcription": ""
     }
 ];
 

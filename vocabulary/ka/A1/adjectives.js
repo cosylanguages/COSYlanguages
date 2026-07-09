@@ -6,8 +6,6 @@
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "მოკლე",
-        "oppositeEmoji": "📏",
         "definitions": [
             {
                 "text": "საშუალოზე მაღალი სიმაღლის:",
@@ -21,15 +19,20 @@
         "superlative": "ყველაზე მაღალი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "მოკლე"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_001"
     },
     {
         "word": "მოკლე",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "მაღალი",
-        "oppositeEmoji": "🗼",
         "definitions": [
             {
                 "text": "პატარა მანძილის ან ხანგრძლივობის:",
@@ -43,15 +46,20 @@
         "superlative": "ყველაზე მოკლე",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "მაღალი"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_002"
     },
     {
         "word": "ახალგაზრდა",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "ძველი",
-        "oppositeEmoji": "👴",
         "definitions": [
             {
                 "text": "ცხოვრების დასაწყისში მყოფი:",
@@ -65,15 +73,20 @@
         "superlative": "ყველაზე ახალგაზრდა",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "ძველი"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_003"
     },
     {
         "word": "ძველი",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "ახალგაზრდა",
-        "oppositeEmoji": "👶",
         "definitions": [
             {
                 "text": "დიდი ხნის წინ შექმნილი:",
@@ -87,7 +100,14 @@
         "superlative": "ყველაზე ძველი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "ახალგაზრდა"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_004"
     },
     {
         "word": "მზიანი",
@@ -108,7 +128,10 @@
         "superlative": "ყველაზე მზიანი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_nature_001"
     },
     {
         "word": "წვიმიანი",
@@ -125,12 +148,17 @@
             }
         ],
         "subtext": "წვიმიანი დღე / წვიმიანი ამინდი",
-        "synonyms": ["წვიმების სეზონი"],
+        "synonyms": [
+            "წვიმების სეზონი"
+        ],
         "comparative": "უფრო წვიმიანი",
         "superlative": "ყველაზე წვიმიანი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_nature_002"
     },
     {
         "word": "ცხელი",
@@ -138,8 +166,6 @@
         "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "ცივი",
-        "oppositeEmoji": "❄️",
         "subtext": "ცხელი ამინდი / ცხელი სასმელი / ძალიან ცხელი",
         "definitions": [
             {
@@ -153,7 +179,13 @@
         "superlative": "ყველაზე ცხელი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "ცივი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_nature_003"
     },
     {
         "word": "ცივი",
@@ -161,8 +193,6 @@
         "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "ცხელი",
-        "oppositeEmoji": "🔥",
         "subtext": "ძალიან ცივი / ცივი დილა / ცივი სასმელი",
         "definitions": [
             {
@@ -176,15 +206,19 @@
         "superlative": "ყველაზე ცივი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "ცხელი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_nature_004"
     },
     {
         "word": "ჩვეულებრივი",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "სპეციალური",
-        "oppositeEmoji": "✨",
         "definitions": [
             {
                 "text": "ჩვეულებრივი ან ნორმალური; არა სპეციალური:",
@@ -195,7 +229,14 @@
         ],
         "subtext": "ჩვეულებრივი დღე / ჩვეულებრივი ცხოვრება",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "antonyms": [
+            "სპეციალური"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_005"
     },
     {
         "word": "იაფი",
@@ -203,10 +244,10 @@
         "theme": "shopping",
         "emoji": "🏷️",
         "form": "adjective",
-        "opposite": "ძვირი",
-        "oppositeEmoji": "💎",
         "subtext": "იაფი ფრენა / ძალიან იაფი",
-        "synonyms": ["დაბალი ფასი"],
+        "synonyms": [
+            "დაბალი ფასი"
+        ],
         "definitions": [
             {
                 "text": "ცოტა ფული რომ ღირს:",
@@ -219,7 +260,13 @@
         "superlative": "ყველაზე იაფი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "ძვირი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_shopping_001"
     },
     {
         "word": "ძვირი",
@@ -227,8 +274,6 @@
         "theme": "shopping",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "იაფი",
-        "oppositeEmoji": "🏷️",
         "subtext": "ძვირი ფასი / ძალიან ძვირი / ძვირი სიამოვნება",
         "definitions": [
             {
@@ -242,7 +287,13 @@
         "superlative": "ყველაზე ძვირი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "იაფი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_shopping_002"
     },
     {
         "word": "კარგი",
@@ -250,10 +301,11 @@
         "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "ცუდი",
-        "oppositeEmoji": "👎",
         "subtext": "კარგი იდეა / კარგი ფასი",
-        "synonyms": ["დიდებული", "წარმატება"],
+        "synonyms": [
+            "დიდებული",
+            "წარმატება"
+        ],
         "definitions": [
             {
                 "text": "მაღალი ხარისხის ან სასიამოვნო:",
@@ -266,7 +318,13 @@
         "superlative": "საუკეთესო",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "ცუდი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_describing_006"
     },
     {
         "word": "ცუდი",
@@ -274,10 +332,11 @@
         "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "კარგი",
-        "oppositeEmoji": "👍",
         "subtext": "ცუდი ამბები / ცუდი გადაწყვეტილება",
-        "synonyms": ["საშინელი", "უიღბლობა"],
+        "synonyms": [
+            "საშინელი",
+            "უიღბლობა"
+        ],
         "definitions": [
             {
                 "text": "არა კარგი, დაბალი ხარისხის:",
@@ -290,7 +349,13 @@
         "superlative": "ყველაზე ცუდი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "კარგი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_describing_007"
     },
     {
         "word": "დიდი",
@@ -298,8 +363,6 @@
         "theme": "describing",
         "emoji": "🐘",
         "form": "adjective",
-        "opposite": "პატარა",
-        "oppositeEmoji": "🐭",
         "subtext": "დიდი სახლი / დიდი პრობლემა / საკმარისად დიდი",
         "definitions": [
             {
@@ -313,7 +376,13 @@
         "superlative": "ყველაზე დიდი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "პატარა"
+        ],
+        "transcription": "",
+        "id": "ka_starter_describing_008"
     },
     {
         "word": "პატარა",
@@ -321,8 +390,6 @@
         "theme": "describing",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "დიდი",
-        "oppositeEmoji": "🐘",
         "subtext": "პატარა ბინა / პატარა ხელფასი / ძალიან პატარა",
         "definitions": [
             {
@@ -336,7 +403,13 @@
         "superlative": "ყველაზე პატარა",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "დიდი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_describing_009"
     },
     {
         "word": "ადვილი",
@@ -344,8 +417,6 @@
         "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "რთული",
-        "oppositeEmoji": "❌",
         "definitions": [
             {
                 "text": "არა რთული:",
@@ -355,12 +426,20 @@
             }
         ],
         "subtext": "ძალიან ადვილი / არ არის ადვილი",
-        "synonyms": ["ადვილად გასაკეთებელი"],
+        "synonyms": [
+            "ადვილად გასაკეთებელი"
+        ],
         "comparative": "უფრო ადვილი",
         "superlative": "ყველაზე ადვილი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "რთული"
+        ],
+        "transcription": "",
+        "id": "ka_starter_describing_010"
     },
     {
         "word": "რთული",
@@ -368,8 +447,6 @@
         "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "ადვილი",
-        "oppositeEmoji": "✅",
         "definitions": [
             {
                 "text": "ბევრ ძალისხმევას რომ მოითხოვს:",
@@ -379,12 +456,20 @@
             }
         ],
         "subtext": "ძალიან რთული",
-        "synonyms": ["რთულად გასაკეთებელი"],
+        "synonyms": [
+            "რთულად გასაკეთებელი"
+        ],
         "comparative": "უფრო რთული",
         "superlative": "ყველაზე რთული",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "ადვილი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_describing_011"
     },
     {
         "word": "ბედნიერი",
@@ -393,7 +478,9 @@
         "emoji": "😊",
         "form": "adjective",
         "subtext": "ბედნიერი / ბედნიერი დღე",
-        "synonyms": ["ბედნიერად ყოფნა"],
+        "synonyms": [
+            "ბედნიერად ყოფნა"
+        ],
         "definitions": [
             {
                 "text": "სიხარულის ან კმაყოფილების განცდა:",
@@ -406,7 +493,10 @@
         "superlative": "ყველაზე ბედნიერი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_emotions_001"
     },
     {
         "word": "დაღლილი",
@@ -415,7 +505,10 @@
         "emoji": "😫",
         "form": "adjective",
         "subtext": "ძალიან დაღლილი",
-        "synonyms": ["მძინარე", "დაღლილად ყოფნა"],
+        "synonyms": [
+            "მძინარე",
+            "დაღლილად ყოფნა"
+        ],
         "definitions": [
             {
                 "text": "დასვენების საჭიროების მქონე:",
@@ -428,7 +521,10 @@
         "superlative": "ყველაზე დაღლილი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_emotions_002"
     },
     {
         "word": "სრული განაკვეთი",
@@ -436,8 +532,6 @@
         "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "ნახევარი განაკვეთი",
-        "oppositeEmoji": "⏳",
         "definitions": [
             {
                 "text": "სამუშაო კვირის ყველა საათის განმავლობაში მუშაობა:",
@@ -447,9 +541,17 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["სრული განაკვეთით მუშაობა"],
+        "synonyms": [
+            "სრული განაკვეთით მუშაობა"
+        ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "antonyms": [
+            "ნახევარი განაკვეთი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_work_001"
     },
     {
         "word": "ნახევარი განაკვეთი",
@@ -457,8 +559,6 @@
         "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "სრული განაკვეთი",
-        "oppositeEmoji": "⏰",
         "definitions": [
             {
                 "text": "სამუშაო კვირის არა ყველა საათის განმავლობაში მუშაობა:",
@@ -468,9 +568,17 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ნახევარი განაკვეთით მუშაობა"],
+        "synonyms": [
+            "ნახევარი განაკვეთით მუშაობა"
+        ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "antonyms": [
+            "სრული განაკვეთი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_work_002"
     },
     {
         "word": "სუფთა",
@@ -478,10 +586,10 @@
         "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "ჭუჭყიანი",
-        "oppositeEmoji": "💩",
         "subtext": "სუფთა ტანსაცმელი / სუფთა ოთახი",
-        "synonyms": ["სისუფთავის დაცვა"],
+        "synonyms": [
+            "სისუფთავის დაცვა"
+        ],
         "definitions": [
             {
                 "text": "ჭუჭყის გარეშე:",
@@ -494,7 +602,13 @@
         "superlative": "ყველაზე სუფთა",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "ჭუჭყიანი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_furniture_001"
     },
     {
         "word": "ჯანსაღი",
@@ -502,8 +616,6 @@
         "theme": "food_drink",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "არაჯანსაღი",
-        "oppositeEmoji": "🍔",
         "subtext": "ჯანსაღი კვება / ჯანსაღი ცხოვრების წესი",
         "definitions": [
             {
@@ -517,7 +629,13 @@
         "superlative": "ყველაზე ჯანსაღი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "არაჯანსაღი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_food_drink_001"
     },
     {
         "word": "ავადმყოფი",
@@ -525,10 +643,10 @@
         "theme": "health_medicine",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "ჯანმრთელი",
-        "oppositeEmoji": "💪",
         "subtext": "",
-        "synonyms": ["ავადმყოფად ყოფნა"],
+        "synonyms": [
+            "ავადმყოფად ყოფნა"
+        ],
         "definitions": [
             {
                 "text": "არა ჯანსაღი; ავადმყოფი:",
@@ -538,7 +656,13 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "antonyms": [
+            "ჯანმრთელი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_health_medicine_001"
     },
     {
         "word": "ონლაინ",
@@ -546,8 +670,6 @@
         "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "ხაზგარეშე",
-        "oppositeEmoji": "📴",
         "definitions": [
             {
                 "text": "ინტერნეტის გამოყენებით:",
@@ -558,7 +680,13 @@
         ],
         "subtext": "ონლაინ შოპინგი / ონლაინ კურსი",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "antonyms": [
+            "ხაზგარეშე"
+        ],
+        "transcription": "",
+        "id": "ka_starter_technology_001"
     },
     {
         "word": "მარტო",
@@ -566,8 +694,6 @@
         "theme": "social",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "ერთად",
-        "oppositeEmoji": "👫",
         "definitions": [
             {
                 "text": "სხვა ადამიანების გარეშე; დამოუკიდებლად:",
@@ -578,7 +704,13 @@
         ],
         "subtext": "მარტო ცხოვრება / მარტო მოგზაურობა",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "antonyms": [
+            "ერთად"
+        ],
+        "transcription": "",
+        "id": "ka_starter_social_001"
     },
     {
         "word": "მოდუნებული",
@@ -586,10 +718,10 @@
         "theme": "emotions",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "დასტრესილი",
-        "oppositeEmoji": "😫",
         "subtext": "მოდუნებული",
-        "synonyms": ["წყნარად ყოფნა"],
+        "synonyms": [
+            "წყნარად ყოფნა"
+        ],
         "definitions": [
             {
                 "text": "წყნარი; არა შეშფოთებული ან დასტრესილი:",
@@ -599,7 +731,13 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "antonyms": [
+            "დასტრესილი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_emotions_003"
     },
     {
         "word": "შეწუხებული",
@@ -607,10 +745,10 @@
         "theme": "emotions",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "წყნარი",
-        "oppositeEmoji": "😌",
         "subtext": "",
-        "synonyms": ["შეშფოთება"],
+        "synonyms": [
+            "შეშფოთება"
+        ],
         "definitions": [
             {
                 "text": "შეშფოთების განცდა რაღაცის გამო:",
@@ -620,7 +758,13 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "antonyms": [
+            "წყნარი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_emotions_004"
     },
     {
         "word": "დაკავებული",
@@ -629,7 +773,9 @@
         "emoji": "🏃",
         "form": "adjective",
         "subtext": "დაკავებული დღე",
-        "synonyms": ["დატვირთული გრაფიკი"],
+        "synonyms": [
+            "დატვირთული გრაფიკი"
+        ],
         "definitions": [
             {
                 "text": "ბევრი საქმის მქონე:",
@@ -642,7 +788,10 @@
         "superlative": "ყველაზე დაკავებული",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_work_003"
     },
     {
         "word": "სასარგებლო",
@@ -650,10 +799,10 @@
         "theme": "describing",
         "emoji": "🛠️",
         "form": "adjective",
-        "opposite": "უსარგებლო",
-        "oppositeEmoji": "🗑️",
         "subtext": "სასარგებლო ყოფნა",
-        "synonyms": ["პრაქტიკული"],
+        "synonyms": [
+            "პრაქტიკული"
+        ],
         "definitions": [
             {
                 "text": "სარგებლის მომტანი:",
@@ -666,7 +815,13 @@
         "superlative": "ყველაზე სასარგებლო",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "უსარგებლო"
+        ],
+        "transcription": "",
+        "id": "ka_starter_describing_012"
     },
     {
         "word": "მნიშვნელოვანი",
@@ -687,7 +842,10 @@
         "superlative": "ყველაზე მნიშვნელოვანი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_describing_013"
     },
     {
         "word": "წითელი",
@@ -711,7 +869,10 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_colours_001"
     },
     {
         "word": "ლურჯი",
@@ -735,7 +896,10 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_colours_002"
     },
     {
         "word": "მწვანე",
@@ -759,7 +923,10 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_colours_003"
     },
     {
         "word": "თეთრი",
@@ -783,7 +950,10 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_colours_004"
     },
     {
         "word": "შავი",
@@ -807,7 +977,10 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_colours_005"
     },
     {
         "word": "ყვითელი",
@@ -831,7 +1004,10 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_colours_006"
     },
     {
         "word": "თავისუფალი",
@@ -840,7 +1016,9 @@
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "თავისუფალი დრო",
-        "synonyms": ["უფასო"],
+        "synonyms": [
+            "უფასო"
+        ],
         "definitions": [
             {
                 "text": "არა დაკავებული ან უფასო:",
@@ -853,7 +1031,10 @@
         "superlative": "ყველაზე თავისუფალი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_shopping_003"
     },
     {
         "word": "ღია",
@@ -861,10 +1042,10 @@
         "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "დაკეტილი",
-        "oppositeEmoji": "🔒",
         "subtext": "ღია კარი",
-        "synonyms": ["ღიაა ბიზნესისთვის"],
+        "synonyms": [
+            "ღიაა ბიზნესისთვის"
+        ],
         "definitions": [
             {
                 "text": "არა დაკეტილი:",
@@ -877,7 +1058,13 @@
         "superlative": "ყველაზე ღია",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "დაკეტილი"
+        ],
+        "transcription": "",
+        "id": "ka_starter_shopping_004"
     },
     {
         "word": "დაკეტილი",
@@ -885,10 +1072,10 @@
         "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "ღია",
-        "oppositeEmoji": "📖",
         "subtext": "დაკეტილი კარი",
-        "synonyms": ["დაკეტილია ლანჩისთვის"],
+        "synonyms": [
+            "დაკეტილია ლანჩისთვის"
+        ],
         "definitions": [
             {
                 "text": "არა ღია:",
@@ -901,7 +1088,13 @@
         "superlative": "ყველაზე დაკეტილი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "antonyms": [
+            "ღია"
+        ],
+        "transcription": "",
+        "id": "ka_starter_shopping_005"
     },
     {
         "word": "დიდი",
@@ -918,14 +1111,21 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_014"
     },
     {
         "word": "პატარა",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["ცოტაოდენი", "ცოტა ფული"],
+        "synonyms": [
+            "ცოტაოდენი",
+            "ცოტა ფული"
+        ],
         "definitions": [
             {
                 "text": "პატარა ზომის; მცირე რაოდენობით:",
@@ -936,7 +1136,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_015"
     },
     {
         "word": "გრძელი",
@@ -956,7 +1160,11 @@
         "superlative": "ყველაზე გრძელი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_016"
     },
     {
         "word": "მაღალი",
@@ -973,7 +1181,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_017"
     },
     {
         "word": "დაბალი",
@@ -990,14 +1202,20 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_018"
     },
     {
         "word": "სავსე",
         "level": "starter",
         "form": "adjective",
         "subtext": "ხალხით სავსე",
-        "synonyms": ["სრული დღე"],
+        "synonyms": [
+            "სრული დღე"
+        ],
         "definitions": [
             {
                 "text": "როდესაც ადგილი აღარ არის:",
@@ -1011,7 +1229,11 @@
         "superlative": "ყველაზე სავსე",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_019"
     },
     {
         "word": "ცარიელი",
@@ -1031,7 +1253,11 @@
         "superlative": "ყველაზე ცარიელი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_020"
     },
     {
         "word": "თბილი",
@@ -1048,14 +1274,20 @@
         ],
         "theme": "nature",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_nature_005"
     },
     {
         "word": "გრილი",
         "level": "starter",
         "form": "adjective",
         "subtext": "გრილი სასმელი",
-        "synonyms": ["სიგრილის შენარჩუნება"],
+        "synonyms": [
+            "სიგრილის შენარჩუნება"
+        ],
         "definitions": [
             {
                 "text": "ოდნავ ცივი; სასიამოვნო დაბალი ტემპერატურა:",
@@ -1066,7 +1298,11 @@
         ],
         "theme": "nature",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_nature_006"
     },
     {
         "word": "სველი",
@@ -1086,7 +1322,11 @@
         "superlative": "ყველაზე სველი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_nature_007"
     },
     {
         "word": "მშრალი",
@@ -1106,7 +1346,11 @@
         "superlative": "ყველაზე მშრალი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_nature_008"
     },
     {
         "word": "ჭუჭყიანი",
@@ -1126,14 +1370,21 @@
         "superlative": "ყველაზე ჭუჭყიანი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_furniture_002"
     },
     {
         "word": "მაგარი",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["რთული სამუშაო", "რთული გადაწყვეტილება"],
+        "synonyms": [
+            "რთული სამუშაო",
+            "რთული გადაწყვეტილება"
+        ],
         "definitions": [
             {
                 "text": "არა რბილი:",
@@ -1147,7 +1398,11 @@
         "superlative": "ყველაზე მაგარი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_021"
     },
     {
         "word": "რბილი",
@@ -1167,14 +1422,20 @@
         "superlative": "ყველაზე რბილი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_022"
     },
     {
         "word": "მძიმე",
         "level": "starter",
         "form": "adjective",
         "subtext": "მძიმე ტრაფიკი",
-        "synonyms": ["ძლიერი წვიმა"],
+        "synonyms": [
+            "ძლიერი წვიმა"
+        ],
         "definitions": [
             {
                 "text": "დიდი წონის მქონე:",
@@ -1188,7 +1449,11 @@
         "superlative": "ყველაზე მძიმე",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_023"
     },
     {
         "word": "მსუბუქი",
@@ -1205,7 +1470,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_024"
     },
     {
         "word": "ყავისფერი",
@@ -1222,7 +1491,11 @@
         ],
         "theme": "colours",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_colours_007"
     },
     {
         "word": "ნაცრისფერი",
@@ -1239,7 +1512,11 @@
         ],
         "theme": "colours",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_colours_008"
     },
     {
         "word": "ვარდისფერი",
@@ -1256,7 +1533,11 @@
         ],
         "theme": "colours",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_colours_009"
     },
     {
         "word": "ნარინჯისფერი",
@@ -1273,7 +1554,11 @@
         ],
         "theme": "colours",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_colours_010"
     },
     {
         "word": "დიდებული",
@@ -1290,7 +1575,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_025"
     },
     {
         "word": "კარგი",
@@ -1307,7 +1596,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_026"
     },
     {
         "word": "საოცარი",
@@ -1324,7 +1617,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_027"
     },
     {
         "word": "საშინელი",
@@ -1344,7 +1641,11 @@
         "superlative": "ყველაზე საშინელი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_028"
     },
     {
         "word": "საშინელი",
@@ -1361,7 +1662,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_029"
     },
     {
         "word": "გადასარევი",
@@ -1378,7 +1683,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_030"
     },
     {
         "word": "ფანტასტიკური",
@@ -1395,14 +1704,21 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_031"
     },
     {
         "word": "მოწყენილი",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["მოწყენილად ყოფნა", "სევდიანი სიტუაცია"],
+        "synonyms": [
+            "მოწყენილად ყოფნა",
+            "სევდიანი სიტუაცია"
+        ],
         "definitions": [
             {
                 "text": "არა ბედნიერი, ხშირად ცუდი ამბის გამო:",
@@ -1416,7 +1732,11 @@
         "superlative": "ყველაზე მოწყენილი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_005"
     },
     {
         "word": "მშიერი",
@@ -1436,14 +1756,20 @@
         "superlative": "ყველაზე მშიერი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_006"
     },
     {
         "word": "გაბრაზებული",
         "level": "starter",
         "form": "adjective",
         "subtext": "გაბრაზებული ყოფნა",
-        "synonyms": ["ვინმეზე გაბრაზება"],
+        "synonyms": [
+            "ვინმეზე გაბრაზება"
+        ],
         "definitions": [
             {
                 "text": "რისხვის განცდა:",
@@ -1457,14 +1783,20 @@
         "superlative": "ყველაზე გაბრაზებული",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_007"
     },
     {
         "word": "მოწყენილი",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["მოწყენილად ყოფნა"],
+        "synonyms": [
+            "მოწყენილად ყოფნა"
+        ],
         "definitions": [
             {
                 "text": "ინტერესის არმქონე:",
@@ -1475,7 +1807,11 @@
         ],
         "theme": "emotions",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_008"
     },
     {
         "word": "აღელვებული",
@@ -1492,14 +1828,20 @@
             }
         ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_009"
     },
     {
         "word": "შეშინებული",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["რაღაცის შიში"],
+        "synonyms": [
+            "რაღაცის შიში"
+        ],
         "definitions": [
             {
                 "text": "შიშის განცდა:",
@@ -1510,14 +1852,20 @@
         ],
         "theme": "emotions",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_010"
     },
     {
         "word": "მწუხარე",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["წუხილი რაღაცის გამო"],
+        "synonyms": [
+            "წუხილი რაღაცის გამო"
+        ],
         "definitions": [
             {
                 "text": "სინანულის ან სევდის განცდა:",
@@ -1528,7 +1876,11 @@
         ],
         "theme": "emotions",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_011"
     },
     {
         "word": "სწორი",
@@ -1545,7 +1897,11 @@
         ],
         "theme": "describing",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_032"
     },
     {
         "word": "არასწორი",
@@ -1565,7 +1921,11 @@
         "superlative": "ყველაზე არასწორი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_033"
     },
     {
         "word": "ახალი",
@@ -1585,7 +1945,11 @@
         "superlative": "ყველაზე ახალი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_034"
     },
     {
         "word": "განსხვავებული",
@@ -1605,7 +1969,11 @@
         "superlative": "ყველაზე განსხვავებული",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_035"
     },
     {
         "word": "იგივე",
@@ -1625,7 +1993,11 @@
         "superlative": "ყველაზე იგივე",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_036"
     },
     {
         "word": "სწრაფი",
@@ -1645,7 +2017,11 @@
         "superlative": "ყველაზე სწრაფი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_037"
     },
     {
         "word": "ნელი",
@@ -1665,14 +2041,20 @@
         "superlative": "ყველაზე ნელი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_038"
     },
     {
         "word": "წყნარი",
         "level": "starter",
         "form": "adjective",
         "subtext": "წყნარი ადგილი",
-        "synonyms": ["სიწყნარის შენარჩუნება"],
+        "synonyms": [
+            "სიწყნარის შენარჩუნება"
+        ],
         "definitions": [
             {
                 "text": "ხმაურის გარეშე:",
@@ -1686,7 +2068,11 @@
         "superlative": "ყველაზე წყნარი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_039"
     },
     {
         "word": "ხმამაღალი",
@@ -1706,14 +2092,20 @@
         "superlative": "ყველაზე ხმამაღალი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_040"
     },
     {
         "word": "უსაფრთხო",
         "level": "starter",
         "form": "adjective",
         "subtext": "უსაფრთხო ადგილი",
-        "synonyms": ["უსაფრთხოდ ყოფნა"],
+        "synonyms": [
+            "უსაფრთხოდ ყოფნა"
+        ],
         "definitions": [
             {
                 "text": "საფრთხისგან შორს:",
@@ -1727,7 +2119,11 @@
         "superlative": "ყველაზე უსაფრთხო",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_places_001"
     },
     {
         "word": "სახიფათო",
@@ -1747,7 +2143,11 @@
         "superlative": "ყველაზე სახიფათო",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_places_002"
     },
     {
         "word": "უბედური",
@@ -1763,9 +2163,15 @@
             }
         ],
         "subtext": "ძალიან უბედური",
-        "synonyms": ["უბედურად ყოფნა"],
+        "synonyms": [
+            "უბედურად ყოფნა"
+        ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_012"
     },
     {
         "word": "ნერვიული",
@@ -1781,12 +2187,18 @@
             }
         ],
         "subtext": "ძალიან ნერვიული",
-        "synonyms": ["ნერვიულად ყოფნა"],
+        "synonyms": [
+            "ნერვიულად ყოფნა"
+        ],
         "comparative": "უფრო ნერვიული",
         "superlative": "ყველაზე ნერვიული",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_013"
     },
     {
         "word": "დასტრესილი",
@@ -1802,9 +2214,15 @@
             }
         ],
         "subtext": "ძალიან დასტრესილი",
-        "synonyms": ["დაძაბულად ყოფნა"],
+        "synonyms": [
+            "დაძაბულად ყოფნა"
+        ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_014"
     },
     {
         "word": "თავდაჯერებული",
@@ -1820,9 +2238,15 @@
             }
         ],
         "subtext": "ძალიან თავდაჯერებული",
-        "synonyms": ["თავდაჯერებულად ყოფნა"],
+        "synonyms": [
+            "თავდაჯერებულად ყოფნა"
+        ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_041"
     },
     {
         "word": "ამაყი",
@@ -1838,12 +2262,18 @@
             }
         ],
         "subtext": "ძალიან ამაყი",
-        "synonyms": ["ამაყად ყოფნა"],
+        "synonyms": [
+            "ამაყად ყოფნა"
+        ],
         "comparative": "უფრო ამაყი",
         "superlative": "ყველაზე ამაყი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_042"
     },
     {
         "word": "შეშინებული",
@@ -1859,12 +2289,18 @@
             }
         ],
         "subtext": "ძალიან შეშინებული",
-        "synonyms": ["შეშინებულად ყოფნა"],
+        "synonyms": [
+            "შეშინებულად ყოფნა"
+        ],
         "comparative": "უფრო შეშინებული",
         "superlative": "ყველაზე შეშინებული",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_015"
     },
     {
         "word": "გაკვირვებული",
@@ -1880,9 +2316,15 @@
             }
         ],
         "subtext": "ძალიან გაკვირვებული",
-        "synonyms": ["გაკვირვებულად ყოფნა"],
+        "synonyms": [
+            "გაკვირვებულად ყოფნა"
+        ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_016"
     },
     {
         "word": "იმედგაცრუებული",
@@ -1898,9 +2340,15 @@
             }
         ],
         "subtext": "ძალიან იმედგაცრუებული",
-        "synonyms": ["იმედგაცრუებულად ყოფნა"],
+        "synonyms": [
+            "იმედგაცრუებულად ყოფნა"
+        ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_emotions_017"
     },
     {
         "word": "ლამაზი",
@@ -1920,7 +2368,11 @@
         "superlative": "ყველაზე ლამაზი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_043"
     },
     {
         "word": "ლამაზი",
@@ -1936,9 +2388,15 @@
             }
         ],
         "subtext": "ლამაზი ადგილი",
-        "synonyms": ["საკმაოდ კარგი"],
+        "synonyms": [
+            "საკმაოდ კარგი"
+        ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_044"
     },
     {
         "word": "ძლიერი",
@@ -1958,7 +2416,11 @@
         "superlative": "ყველაზე ძლიერი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_045"
     },
     {
         "word": "სუსტი",
@@ -1978,7 +2440,11 @@
         "superlative": "ყველაზე სუსტი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_046"
     },
     {
         "word": "ფორმაში",
@@ -1994,9 +2460,15 @@
             }
         ],
         "subtext": "ფიზიკურად კარგ ფორმაში",
-        "synonyms": ["ფორმის შენარჩუნება"],
+        "synonyms": [
+            "ფორმის შენარჩუნება"
+        ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_health_medicine_002"
     },
     {
         "word": "შესანიშნავი",
@@ -2013,7 +2485,11 @@
         ],
         "subtext": "შესანიშნავი ნამუშევარი / შესანიშნავი შედეგები",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_047"
     },
     {
         "word": "იდეალური",
@@ -2033,7 +2509,11 @@
         "superlative": "ყველაზე იდეალური",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_048"
     },
     {
         "word": "უსარგებლო",
@@ -2053,7 +2533,11 @@
         "superlative": "ყველაზე უსარგებლო",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_049"
     },
     {
         "word": "სწორი",
@@ -2073,7 +2557,11 @@
         "superlative": "ყველაზე სწორი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_050"
     },
     {
         "word": "საინტერესო",
@@ -2089,12 +2577,18 @@
             }
         ],
         "subtext": "ძალიან საინტერესო",
-        "synonyms": ["საინტერესოდ მიჩნევა"],
+        "synonyms": [
+            "საინტერესოდ მიჩნევა"
+        ],
         "comparative": "უფრო საინტერესო",
         "superlative": "ყველაზე საინტერესო",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_051"
     },
     {
         "word": "მოსაწყენი",
@@ -2114,7 +2608,11 @@
         "superlative": "ყველაზე მოსაწყენი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_052"
     },
     {
         "word": "საჭირო",
@@ -2130,9 +2628,15 @@
             }
         ],
         "subtext": "აბსოლუტურად საჭირო",
-        "synonyms": ["თუ საჭიროა"],
+        "synonyms": [
+            "თუ საჭიროა"
+        ],
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_053"
     },
     {
         "word": "შესაძლებელი",
@@ -2148,12 +2652,19 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["რაც შეიძლება მალე", "შესაძლებელია"],
+        "synonyms": [
+            "რაც შეიძლება მალე",
+            "შესაძლებელია"
+        ],
         "comparative": "უფრო შესაძლებელი",
         "superlative": "ყველაზე შესაძლებელი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_054"
     },
     {
         "word": "შეუძლებელი",
@@ -2169,12 +2680,18 @@
             }
         ],
         "subtext": "თითქმის შეუძლებელი",
-        "synonyms": ["შეუძლებლის გაკეთება"],
+        "synonyms": [
+            "შეუძლებლის გაკეთება"
+        ],
         "comparative": "უფრო შეუძლებელი",
         "superlative": "ყველაზე შეუძლებელი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_055"
     },
     {
         "word": "სპეციალური",
@@ -2194,7 +2711,11 @@
         "superlative": "ყველაზე სპეციალური",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_056"
     },
     {
         "word": "პოპულარული",
@@ -2211,7 +2732,11 @@
         ],
         "subtext": "ძალიან პოპულარული / პოპულარული არჩევანი",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_057"
     },
     {
         "word": "მსგავსი",
@@ -2228,7 +2753,11 @@
         ],
         "subtext": "ძალიან მსგავსი / რაღაცის მსგავსი",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_058"
     },
     {
         "word": "მეგობრული",
@@ -2245,7 +2774,11 @@
         ],
         "subtext": "ძალიან მეგობრული / მეგობრული სახე",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_059"
     },
     {
         "word": "კეთილი",
@@ -2261,12 +2794,18 @@
             }
         ],
         "subtext": "ძალიან კეთილი",
-        "synonyms": ["კეთილია თქვენი მხრიდან"],
+        "synonyms": [
+            "კეთილია თქვენი მხრიდან"
+        ],
         "comparative": "უფრო კეთილი",
         "superlative": "ყველაზე კეთილი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_060"
     },
     {
         "word": "სასაცილო",
@@ -2286,7 +2825,11 @@
         "superlative": "ყველაზე სასაცილო",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_061"
     },
     {
         "word": "ჭკვიანი",
@@ -2302,12 +2845,18 @@
             }
         ],
         "subtext": "ძალიან ჭკვიანი",
-        "synonyms": ["ჭკვიანური იდეა"],
+        "synonyms": [
+            "ჭკვიანური იდეა"
+        ],
         "comparative": "უფრო ჭკვიანი",
         "superlative": "ყველაზე ჭკვიანი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_062"
     },
     {
         "word": "ზრდილი",
@@ -2327,7 +2876,11 @@
         "superlative": "ყველაზე ზრდილი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_063"
     },
     {
         "word": "უხეში",
@@ -2347,7 +2900,11 @@
         "superlative": "ყველაზე უხეში",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_064"
     },
     {
         "word": "ზარმაცი",
@@ -2363,12 +2920,18 @@
             }
         ],
         "subtext": "ძალიან ზარმაცი",
-        "synonyms": ["ზარმაცული მიდგომა"],
+        "synonyms": [
+            "ზარმაცული მიდგომა"
+        ],
         "comparative": "უფრო ზარმაცი",
         "superlative": "ყველაზე ზარმაცი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_065"
     },
     {
         "word": "პატიოსანი",
@@ -2385,7 +2948,11 @@
         ],
         "subtext": "ძალიან პატიოსანი / სრულიად პატიოსანი",
         "comparative": null,
-         "superlative": null
+        "superlative": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_066"
     },
     {
         "word": "ხმაურიანი",
@@ -2405,12 +2972,13 @@
         "superlative": "ყველაზე ხმაურიანი",
         "feminine": null,
         "plural": null,
-        "femininePlural": null
+        "femininePlural": null,
+        "lang": "ka",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ka_starter_describing_067"
     }
-]
-    const lang = "ka";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

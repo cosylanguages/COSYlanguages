@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "soleil",
         "level": "starter",
         "theme": "nature",
         "article": "le",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "soleils",
         "definitions": [
             {
@@ -22,16 +24,20 @@
             "origin_lang": "Latin",
             "origin_word": "soliculus",
             "origin_meaning": "little sun"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_nature_001"
     },
-{
+    {
         "word": "pluie",
         "level": "starter",
         "theme": "nature",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pluies",
         "definitions": [
             {
@@ -45,16 +51,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "pluvia"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_nature_002"
     },
-{
+    {
         "word": "vent",
         "level": "starter",
         "theme": "nature",
         "article": "le",
         "gender": "masculine",
         "emoji": "💨",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vents",
         "definitions": [
             {
@@ -68,16 +78,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "ventus"
-        }
+        },
+        "lang": "fr",
+        "id": "fr_starter_nature_003"
     },
-{
+    {
         "word": "printemps",
         "level": "starter",
         "theme": "nature",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "printemps",
         "definitions": [
             {
@@ -87,16 +101,20 @@
                 ]
             }
         ],
-        "transcription": "/pʁɛ̃.tɑ̃/"
+        "transcription": "/pʁɛ̃.tɑ̃/",
+        "lang": "fr",
+        "id": "fr_starter_nature_004"
     },
-{
+    {
         "word": "été",
         "level": "starter",
         "theme": "nature",
         "article": "l'",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "étés",
         "definitions": [
             {
@@ -106,16 +124,20 @@
                 ]
             }
         ],
-        "transcription": "/e.te/"
+        "transcription": "/e.te/",
+        "lang": "fr",
+        "id": "fr_starter_nature_005"
     },
-{
+    {
         "word": "automne",
         "level": "starter",
         "theme": "nature",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "automnes",
         "definitions": [
             {
@@ -125,16 +147,20 @@
                 ]
             }
         ],
-        "transcription": "/o.tɔn/"
+        "transcription": "/o.tɔn/",
+        "lang": "fr",
+        "id": "fr_starter_nature_006"
     },
-{
+    {
         "word": "hiver",
         "level": "starter",
         "theme": "nature",
         "article": "l'",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "hivers",
         "definitions": [
             {
@@ -144,16 +170,20 @@
                 ]
             }
         ],
-        "transcription": "/i.vɛʁ/"
+        "transcription": "/i.vɛʁ/",
+        "lang": "fr",
+        "id": "fr_starter_nature_007"
     },
-{
+    {
         "word": "parapluie",
         "level": "starter",
         "theme": "nature",
         "article": "le",
         "gender": "masculine",
         "emoji": "☂️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "parapluies",
         "definitions": [
             {
@@ -163,9 +193,11 @@
                 ]
             }
         ],
-        "transcription": "/pa.ʁa.plɥi/"
+        "transcription": "/pa.ʁa.plɥi/",
+        "lang": "fr",
+        "id": "fr_starter_nature_008"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

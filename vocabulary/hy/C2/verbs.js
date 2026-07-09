@@ -23,7 +23,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_philosophy_logic_001"
+        "id": "hy_proficiency_philosophy_logic_001",
+        "transcription": ""
     },
     {
         "word": "սուբլիմացնել",
@@ -47,7 +48,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_psychology_academic_001"
+        "id": "hy_proficiency_psychology_academic_001",
+        "transcription": ""
     },
     {
         "word": "ստորոգել",
@@ -71,7 +73,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_logic_linguistics_001"
+        "id": "hy_proficiency_logic_linguistics_001",
+        "transcription": ""
     },
     {
         "word": "մարմնավորել",
@@ -95,7 +98,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_logic_computing_001"
+        "id": "hy_proficiency_logic_computing_001",
+        "transcription": ""
     },
     {
         "word": "ժխտել",
@@ -119,7 +123,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_logic_debate_001"
+        "id": "hy_proficiency_logic_debate_001",
+        "transcription": ""
     },
     {
         "word": "գերազանցել",
@@ -143,7 +148,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_philosophy_general_001"
+        "id": "hy_proficiency_philosophy_general_001",
+        "transcription": ""
     },
     {
         "word": "միջնորդավորել",
@@ -167,7 +173,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_sociology_conflict_001"
+        "id": "hy_proficiency_sociology_conflict_001",
+        "transcription": ""
     },
     {
         "word": "սղել",
@@ -191,7 +198,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_linguistics_debate_001"
+        "id": "hy_proficiency_linguistics_debate_001",
+        "transcription": ""
     },
     {
         "word": "մթագնել",
@@ -215,12 +223,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_debate_communication_001"
+        "id": "hy_proficiency_debate_communication_001",
+        "transcription": ""
     },
     {
         "word": "նույնացնել",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🌀",
         "subtext": "նույնացնել խնդիրները / միախառնել / վտանգավոր կերպով նույնացնել",
         "form": "verb",
@@ -239,7 +248,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_debate_academic_001"
+        "id": "hy_proficiency_debate_academic_001",
+        "transcription": ""
     },
     {
         "word": "վկայակոչել",
@@ -263,7 +273,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_law_debate_001"
+        "id": "hy_proficiency_law_debate_001",
+        "transcription": ""
     },
     {
         "word": "առաջին պլան մղել",
@@ -287,7 +298,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_art_media_001"
+        "id": "hy_proficiency_art_media_001",
+        "transcription": ""
     },
     {
         "word": "յուրացնել",
@@ -311,7 +323,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_sociology_culture_001"
+        "id": "hy_proficiency_sociology_culture_001",
+        "transcription": ""
     },
     {
         "word": "ապակայունացնել",
@@ -335,7 +348,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_politics_academic_001"
+        "id": "hy_proficiency_politics_academic_001",
+        "transcription": ""
     },
     {
         "word": "ապրանքայնացնել",
@@ -359,7 +373,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_economics_sociology_001"
+        "id": "hy_proficiency_economics_sociology_001",
+        "transcription": ""
     },
     {
         "word": "գործիքայնացնել",
@@ -383,7 +398,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_politics_philosophy_001"
+        "id": "hy_proficiency_politics_philosophy_001",
+        "transcription": ""
     },
     {
         "word": "արժևորել",
@@ -407,7 +423,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_sociology_academic_001"
+        "id": "hy_proficiency_sociology_academic_001",
+        "transcription": ""
     },
     {
         "word": "ֆետիշացնել",
@@ -431,7 +448,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_sociology_academic_002"
+        "id": "hy_proficiency_sociology_academic_002",
+        "transcription": ""
     },
     {
         "word": "օտարել",
@@ -455,7 +473,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_sociology_psychology_001"
+        "id": "hy_proficiency_sociology_psychology_001",
+        "transcription": ""
     },
     {
         "word": "սահմանազատել",
@@ -479,7 +498,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_law_philosophy_001"
+        "id": "hy_proficiency_law_philosophy_001",
+        "transcription": ""
     },
     {
         "word": "սահմանափակել",
@@ -503,12 +523,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_academic_research_001"
+        "id": "hy_proficiency_academic_research_001",
+        "transcription": ""
     },
     {
         "word": "խոչընդոտել",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🛡️",
         "subtext": "գործել դեմ / խստորեն խոչընդոտել / հանդես գալ հօգուտ",
         "form": "verb",
@@ -527,12 +548,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_debate_academic_002"
+        "id": "hy_proficiency_debate_academic_002",
+        "transcription": ""
     },
     {
         "word": "աղավաղել",
         "level": "proficiency",
-        "theme": "law_academic",
+        "theme": "work",
         "emoji": "☣️",
         "subtext": "զրկել ուժից պնդումը / փչացնել արգումենտը / իրավաբանորեն անվավեր",
         "form": "verb",
@@ -551,7 +573,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_law_academic_001"
+        "id": "hy_proficiency_law_academic_001",
+        "transcription": ""
     },
     {
         "word": "հերքել",
@@ -575,7 +598,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_debate_logic_001"
+        "id": "hy_proficiency_debate_logic_001",
+        "transcription": ""
     },
     {
         "word": "չեղարկել",
@@ -599,7 +623,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_law_politics_001"
+        "id": "hy_proficiency_law_politics_001",
+        "transcription": ""
     },
     {
         "word": "խախտել",
@@ -623,7 +648,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_law_debate_002"
+        "id": "hy_proficiency_law_debate_002",
+        "transcription": ""
     },
     {
         "word": "ներառել",
@@ -647,7 +673,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_logic_philosophy_001"
+        "id": "hy_proficiency_logic_philosophy_001",
+        "transcription": ""
     },
     {
         "word": "դեկոնստրուկցիայի ենթարկել",
@@ -671,7 +698,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_philosophy_literature_001"
+        "id": "hy_proficiency_philosophy_literature_001",
+        "transcription": ""
     },
     {
         "word": "կանխարգելել",
@@ -695,7 +723,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_law_debate_003"
+        "id": "hy_proficiency_law_debate_003",
+        "transcription": ""
     },
     {
         "word": "դիալեկտիկացնել",
@@ -719,7 +748,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_philosophy_academic_001"
+        "id": "hy_proficiency_philosophy_academic_001",
+        "transcription": ""
     },
     {
         "word": "հեգեմոնացնել",
@@ -743,12 +773,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_politics_sociology_001"
+        "id": "hy_proficiency_politics_sociology_001",
+        "transcription": ""
     },
     {
         "word": "շեշտադրել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🔊",
         "subtext": "շեշտադրել տարբերությունը / շեշտել դրականը / շեշտադրվել մի բանով",
         "form": "verb",
@@ -767,7 +798,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_001"
+        "id": "hy_proficiency_general_academic_001",
+        "transcription": ""
     },
     {
         "word": "համակերպվել",
@@ -791,7 +823,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_debate_communication_002"
+        "id": "hy_proficiency_debate_communication_002",
+        "transcription": ""
     },
     {
         "word": "մեղմել",
@@ -815,7 +848,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_policy_general_001"
+        "id": "hy_proficiency_policy_general_001",
+        "transcription": ""
     },
     {
         "word": "շրջանցել",
@@ -839,7 +873,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_debate_general_001"
+        "id": "hy_proficiency_debate_general_001",
+        "transcription": ""
     },
     {
         "word": "հաստատել",
@@ -863,7 +898,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_academic_research_002"
+        "id": "hy_proficiency_academic_research_002",
+        "transcription": ""
     },
     {
         "word": "տարածել",
@@ -887,12 +923,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_academic_research_003"
+        "id": "hy_proficiency_academic_research_003",
+        "transcription": ""
     },
     {
         "word": "ամփոփել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "💊",
         "subtext": "ամփոփել գաղափարը / ամփոփել խնդիրը / կատարելապես ամփոփել",
         "form": "verb",
@@ -911,7 +948,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_002"
+        "id": "hy_proficiency_general_academic_002",
+        "transcription": ""
     },
     {
         "word": "ծնել",
@@ -935,12 +973,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_sociology_general_001"
+        "id": "hy_proficiency_sociology_general_001",
+        "transcription": ""
     },
     {
         "word": "սրել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🔥",
         "subtext": "սրել խնդիրը / սրել լարվածությունը / սրել անհավասարությունը",
         "form": "verb",
@@ -959,12 +998,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_003"
+        "id": "hy_proficiency_general_academic_003",
+        "transcription": ""
     },
     {
         "word": "մարմնավորել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "📖",
         "subtext": "մարմնավորում է մի բան / խնդրի օրինակ է / հստակ մարմնավորում է",
         "form": "verb",
@@ -983,12 +1023,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_004"
+        "id": "hy_proficiency_general_academic_004",
+        "transcription": ""
     },
     {
         "word": "խոչընդոտել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🚧",
         "subtext": "խոչընդոտել առաջընթացին / զսպել աճը / խանգարել մեկին անել",
         "form": "verb",
@@ -1007,12 +1048,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_005"
+        "id": "hy_proficiency_general_academic_005",
+        "transcription": ""
     },
     {
         "word": "մեղմացնել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🛡️",
         "subtext": "նվազեցնել ռիսկը / մեղմել ազդեցությունը / միտիգացիա",
         "form": "verb",
@@ -1031,12 +1073,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_006"
+        "id": "hy_proficiency_general_academic_006",
+        "transcription": ""
     },
     {
         "word": "պարտավորեցնել",
         "level": "proficiency",
-        "theme": "law_general",
+        "theme": "work",
         "emoji": "⚖️",
         "subtext": "պարտավոր լինել / պարտավորեցնել մեկին / պարտավորված զգալ",
         "form": "verb",
@@ -1055,12 +1098,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_law_general_001"
+        "id": "hy_proficiency_law_general_001",
+        "transcription": ""
     },
     {
         "word": "ներթափանցել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "💧",
         "subtext": "ներթափանցել կազմակերպություն / ներթափանցված լինել մի բանով / ամենուրեք",
         "form": "verb",
@@ -1079,12 +1123,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_007"
+        "id": "hy_proficiency_general_academic_007",
+        "transcription": ""
     },
     {
         "word": "բացառել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🚫",
         "subtext": "հեռացնել մեկին / բացառել հնարավորությունը / չբացառել",
         "form": "verb",
@@ -1103,12 +1148,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_008"
+        "id": "hy_proficiency_general_academic_008",
+        "transcription": ""
     },
     {
         "word": "համատեղել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "հաշտեցնել գաղափարները / դժվար է համատեղել / հարթել տարաձայնությունները",
         "form": "verb",
@@ -1127,12 +1173,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_009"
+        "id": "hy_proficiency_general_academic_009",
+        "transcription": ""
     },
     {
         "word": "փոխարինել",
         "level": "proficiency",
-        "theme": "law_academic",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "փոխարինել օրենքը / փոխարինել նախկին կանոնները / փոխարինվել մի բանով",
         "form": "verb",
@@ -1151,12 +1198,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_law_academic_002"
+        "id": "hy_proficiency_law_academic_002",
+        "transcription": ""
     },
     {
         "word": "հիմքում ընկած լինել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "⚓",
         "subtext": "հիմնավորել փաստարկը / հաջողության հիմքում լինել",
         "form": "verb",
@@ -1175,12 +1223,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_010"
+        "id": "hy_proficiency_general_academic_010",
+        "transcription": ""
     },
     {
         "word": "արդարացնել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🏆",
         "subtext": "արդարացնել մեկին / հաստատել որոշումը / արդարացված զգալ",
         "form": "verb",
@@ -1199,12 +1248,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_011"
+        "id": "hy_proficiency_general_academic_011",
+        "transcription": ""
     },
     {
         "word": "կախված լինել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "⛓️",
         "subtext": "կախված լինել որոշումից / կախված լինել մեկ գործոնից / ամեն ինչ կախված է",
         "form": "verb",
@@ -1223,12 +1273,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_012"
+        "id": "hy_proficiency_general_academic_012",
+        "transcription": ""
     },
     {
         "word": "բախվել",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🤼",
         "subtext": "փորձել լուծել խնդիրը / բախվել հետևանքներին / ըմբռնել բարդությունը",
         "form": "verb",
@@ -1247,12 +1298,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_general_academic_013"
+        "id": "hy_proficiency_general_academic_013",
+        "transcription": ""
     },
     {
         "word": "մակերեսորեն անցնել",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🙈",
         "subtext": "մակերեսորեն անցնել խնդրի վրայով / անտեսել մանրամասները",
         "form": "verb",
@@ -1271,12 +1323,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_debate_academic_003"
+        "id": "hy_proficiency_debate_academic_003",
+        "transcription": ""
     },
     {
         "word": "քողարկել",
         "level": "proficiency",
-        "theme": "debate_politics",
+        "theme": "social",
         "emoji": "🩹",
         "subtext": "քողարկել խնդիրը / հարթել ճեղքերը / քողարկել տարբերությունները",
         "form": "verb",
@@ -1295,12 +1348,13 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_debate_politics_001"
+        "id": "hy_proficiency_debate_politics_001",
+        "transcription": ""
     },
     {
         "word": "պարադիգմի փոփոխություն",
         "level": "proficiency",
-        "theme": "academic_general",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "մոտեցման հիմնարար փոփոխություն",
         "form": "verb",
@@ -1319,7 +1373,8 @@
         "group": "el",
         "auxiliary": "եմ",
         "lang": "hy",
-        "id": "hy_proficiency_academic_general_001"
+        "id": "hy_proficiency_academic_general_001",
+        "transcription": ""
     }
 ];
     const lang = "hy";

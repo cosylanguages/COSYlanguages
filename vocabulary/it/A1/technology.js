@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "telefono",
         "level": "starter",
         "theme": "technology",
         "article": "il",
         "gender": "masculine",
         "emoji": "📞",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "telefoni",
         "definitions": [
             {
@@ -21,16 +23,20 @@
         "transcription": "teˈlɛfono",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_001"
     },
-{
+    {
         "word": "computer portatile",
         "level": "starter",
         "theme": "technology",
         "article": "il",
         "gender": "masculine",
         "emoji": "💻",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "computer portatili",
         "definitions": [
             {
@@ -44,16 +50,20 @@
         "transcription": "komˈpjuter porˈtatile",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_002"
     },
-{
+    {
         "word": "televisione",
         "level": "starter",
         "theme": "technology",
         "article": "la",
         "gender": "feminine",
         "emoji": "📺",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "televisioni",
         "definitions": [
             {
@@ -67,16 +77,20 @@
         "transcription": "televizˈjone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_003"
     },
-{
+    {
         "word": "macchina fotografica",
         "level": "starter",
         "theme": "technology",
         "article": "la",
         "gender": "feminine",
         "emoji": "📷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "macchine fotografiche",
         "definitions": [
             {
@@ -90,16 +104,20 @@
         "transcription": "ˈmakkina fotoˈɡrafika",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_004"
     },
-{
+    {
         "word": "computer",
         "level": "starter",
         "theme": "technology",
         "article": "il",
         "gender": "masculine",
         "emoji": "💻",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "computer",
         "definitions": [
             {
@@ -113,16 +131,20 @@
         "transcription": "komˈpjuter",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_005"
     },
-{
+    {
         "word": "messaggio",
         "level": "starter",
         "theme": "technology",
         "article": "il",
         "gender": "masculine",
         "emoji": "✉️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "messaggi",
         "definitions": [
             {
@@ -136,16 +158,20 @@
         "transcription": "mesˈsaddʒo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_006"
     },
-{
+    {
         "word": "email",
         "level": "starter",
         "theme": "technology",
         "article": "l'",
         "gender": "feminine",
         "emoji": "📧",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "email",
         "definitions": [
             {
@@ -159,16 +185,20 @@
         "transcription": "ˈimeil",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_007"
     },
-{
+    {
         "word": "sito web",
         "level": "starter",
         "theme": "technology",
         "article": "il",
         "gender": "masculine",
         "emoji": "🌐",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "siti web",
         "definitions": [
             {
@@ -182,16 +212,20 @@
         "transcription": "ˈsito ˈwɛb",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_008"
     },
-{
+    {
         "word": "password",
         "level": "starter",
         "theme": "technology",
         "article": "la",
         "gender": "feminine",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "password",
         "definitions": [
             {
@@ -205,16 +239,20 @@
         "transcription": "ˈpassvord",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_009"
     },
-{
+    {
         "word": "tastiera",
         "level": "starter",
         "theme": "technology",
         "article": "la",
         "gender": "feminine",
         "emoji": "⌨️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tastiere",
         "definitions": [
             {
@@ -228,16 +266,20 @@
         "transcription": "tasˈtjɛra",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_010"
     },
-{
+    {
         "word": "mouse",
         "level": "starter",
         "theme": "technology",
         "article": "il",
         "gender": "masculine",
         "emoji": "🖱️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mouse",
         "definitions": [
             {
@@ -251,16 +293,20 @@
         "transcription": "ˈmouse",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_011"
     },
-{
+    {
         "word": "schermo",
         "level": "starter",
         "theme": "technology",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "schermi",
         "definitions": [
             {
@@ -274,16 +320,20 @@
         "transcription": "ˈskɛrmo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_012"
     },
-{
+    {
         "word": "radio",
         "level": "starter",
         "theme": "technology",
         "article": "la",
         "gender": "feminine",
         "emoji": "📻",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "radio",
         "definitions": [
             {
@@ -297,16 +347,20 @@
         "transcription": "ˈradjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_013"
     },
-{
+    {
         "word": "app",
         "level": "starter",
         "theme": "using_smartphone",
         "article": "l'",
         "gender": "feminine",
         "emoji": "📱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "app",
         "transcription": "ˈɛp",
         "definitions": [
@@ -322,16 +376,20 @@
             "applicazione"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_using_smartphone_001"
     },
-{
+    {
         "word": "wifi",
         "level": "starter",
         "theme": "technology",
         "article": "il",
         "gender": "masculine",
         "emoji": "📶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "wifi",
         "transcription": "ˈwaifai",
         "definitions": [
@@ -345,9 +403,11 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_technology_014"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

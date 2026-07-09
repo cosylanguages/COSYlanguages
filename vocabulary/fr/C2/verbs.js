@@ -19,7 +19,8 @@ const data = [
                 "text": "changement de paradigme",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "word": "réifier",
@@ -44,7 +45,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "réifiant",
         "lang": "fr",
-        "id": "fr_proficiency_language_002"
+        "id": "fr_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "sublimer",
@@ -69,7 +71,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "sublimant",
         "lang": "fr",
-        "id": "fr_proficiency_language_003"
+        "id": "fr_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "se fonder sur",
@@ -95,7 +98,8 @@ const data = [
         "reflexive": true,
         "v4": "se fonder sant",
         "lang": "fr",
-        "id": "fr_proficiency_social_001"
+        "id": "fr_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "instancier",
@@ -120,7 +124,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "instanciant",
         "lang": "fr",
-        "id": "fr_proficiency_language_004"
+        "id": "fr_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "nier",
@@ -145,7 +150,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "niant",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_001"
+        "id": "fr_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "transcender",
@@ -170,7 +176,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "transcendant",
         "lang": "fr",
-        "id": "fr_proficiency_language_005"
+        "id": "fr_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "médier",
@@ -195,7 +202,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "médiant",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_002"
+        "id": "fr_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "élider",
@@ -220,7 +228,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "élidant",
         "lang": "fr",
-        "id": "fr_proficiency_language_006"
+        "id": "fr_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "obfusquer",
@@ -245,7 +254,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "obfusquant",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_003"
+        "id": "fr_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "amalgamer",
@@ -270,7 +280,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "amalgamant",
         "lang": "fr",
-        "id": "fr_proficiency_language_007"
+        "id": "fr_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "invoquer",
@@ -295,7 +306,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "invoquant",
         "lang": "fr",
-        "id": "fr_proficiency_social_002"
+        "id": "fr_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "mettre en avant",
@@ -319,7 +331,8 @@ const data = [
         "group": "re",
         "auxiliary": "avoir",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_004"
+        "id": "fr_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "récupérer",
@@ -344,7 +357,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "récupérant",
         "lang": "fr",
-        "id": "fr_proficiency_social_003"
+        "id": "fr_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "déstabiliser",
@@ -369,7 +383,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "déstabilisant",
         "lang": "fr",
-        "id": "fr_proficiency_social_004"
+        "id": "fr_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "marchandiser",
@@ -394,7 +409,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "marchandisant",
         "lang": "fr",
-        "id": "fr_proficiency_social_005"
+        "id": "fr_proficiency_social_005",
+        "transcription": ""
     },
     {
         "word": "instrumentaliser",
@@ -419,7 +435,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "instrumentalisant",
         "lang": "fr",
-        "id": "fr_proficiency_social_006"
+        "id": "fr_proficiency_social_006",
+        "transcription": ""
     },
     {
         "word": "valoriser",
@@ -444,7 +461,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "valorisant",
         "lang": "fr",
-        "id": "fr_proficiency_social_007"
+        "id": "fr_proficiency_social_007",
+        "transcription": ""
     },
     {
         "word": "fétichiser",
@@ -469,7 +487,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "fétichisant",
         "lang": "fr",
-        "id": "fr_proficiency_social_008"
+        "id": "fr_proficiency_social_008",
+        "transcription": ""
     },
     {
         "word": "hégémoniser",
@@ -495,7 +514,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "hégémonisant",
         "lang": "fr",
-        "id": "fr_proficiency_social_009"
+        "id": "fr_proficiency_social_009",
+        "transcription": ""
     },
     {
         "word": "aliéner",
@@ -520,7 +540,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "aliénant",
         "lang": "fr",
-        "id": "fr_proficiency_social_010"
+        "id": "fr_proficiency_social_010",
+        "transcription": ""
     },
     {
         "word": "démarquer",
@@ -545,7 +566,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "démarquant",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_005"
+        "id": "fr_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "délimiter",
@@ -570,7 +592,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "délimitant",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_006"
+        "id": "fr_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "militer",
@@ -595,7 +618,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "militant",
         "lang": "fr",
-        "id": "fr_proficiency_social_011"
+        "id": "fr_proficiency_social_011",
+        "transcription": ""
     },
     {
         "word": "vicier",
@@ -620,7 +644,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "viciant",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_007"
+        "id": "fr_proficiency_psychology_007",
+        "transcription": ""
     },
     {
         "word": "contredire",
@@ -644,7 +669,8 @@ const data = [
         "group": "re",
         "auxiliary": "avoir",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_008"
+        "id": "fr_proficiency_psychology_008",
+        "transcription": ""
     },
     {
         "word": "abroger",
@@ -669,7 +695,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "abrogant",
         "lang": "fr",
-        "id": "fr_proficiency_social_012"
+        "id": "fr_proficiency_social_012",
+        "transcription": ""
     },
     {
         "word": "déconstruire",
@@ -693,7 +720,8 @@ const data = [
         "group": "re",
         "auxiliary": "avoir",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_009"
+        "id": "fr_proficiency_psychology_009",
+        "transcription": ""
     },
     {
         "word": "problématiser",
@@ -718,7 +746,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "problématisant",
         "lang": "fr",
-        "id": "fr_proficiency_language_008"
+        "id": "fr_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "décortiquer",
@@ -743,7 +772,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "décortiquant",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_010"
+        "id": "fr_proficiency_psychology_010",
+        "transcription": ""
     },
     {
         "word": "forclore",
@@ -767,7 +797,8 @@ const data = [
         "group": "re",
         "auxiliary": "avoir",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_011"
+        "id": "fr_proficiency_psychology_011",
+        "transcription": ""
     },
     {
         "word": "dialectiser",
@@ -792,7 +823,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "dialectisant",
         "lang": "fr",
-        "id": "fr_proficiency_language_009"
+        "id": "fr_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "contrevenir",
@@ -816,7 +848,8 @@ const data = [
         "group": "ir",
         "auxiliary": "être",
         "lang": "fr",
-        "id": "fr_proficiency_social_013"
+        "id": "fr_proficiency_social_013",
+        "transcription": ""
     },
     {
         "word": "subsumer",
@@ -841,7 +874,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "subsumant",
         "lang": "fr",
-        "id": "fr_proficiency_language_010"
+        "id": "fr_proficiency_language_010",
+        "transcription": ""
     },
     {
         "word": "accentuer",
@@ -866,7 +900,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "accentuant",
         "lang": "fr",
-        "id": "fr_proficiency_language_011"
+        "id": "fr_proficiency_language_011",
+        "transcription": ""
     },
     {
         "word": "acquiescer",
@@ -891,7 +926,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "acquiescant",
         "lang": "fr",
-        "id": "fr_proficiency_social_014"
+        "id": "fr_proficiency_social_014",
+        "transcription": ""
     },
     {
         "word": "soulager",
@@ -916,7 +952,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "soulagant",
         "lang": "fr",
-        "id": "fr_proficiency_social_015"
+        "id": "fr_proficiency_social_015",
+        "transcription": ""
     },
     {
         "word": "contourner",
@@ -941,7 +978,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "contournant",
         "lang": "fr",
-        "id": "fr_proficiency_social_016"
+        "id": "fr_proficiency_social_016",
+        "transcription": ""
     },
     {
         "word": "corroborer",
@@ -966,7 +1004,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "corroborant",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_012"
+        "id": "fr_proficiency_psychology_012",
+        "transcription": ""
     },
     {
         "word": "disséminer",
@@ -991,7 +1030,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "disséminant",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_013"
+        "id": "fr_proficiency_psychology_013",
+        "transcription": ""
     },
     {
         "word": "encapsuler",
@@ -1016,7 +1056,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "encapsulant",
         "lang": "fr",
-        "id": "fr_proficiency_language_012"
+        "id": "fr_proficiency_language_012",
+        "transcription": ""
     },
     {
         "word": "engendrer",
@@ -1041,7 +1082,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "engendrant",
         "lang": "fr",
-        "id": "fr_proficiency_social_017"
+        "id": "fr_proficiency_social_017",
+        "transcription": ""
     },
     {
         "word": "exacerber",
@@ -1066,7 +1108,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "exacerbant",
         "lang": "fr",
-        "id": "fr_proficiency_social_018"
+        "id": "fr_proficiency_social_018",
+        "transcription": ""
     },
     {
         "word": "exemplifier",
@@ -1091,7 +1134,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "exemplifiant",
         "lang": "fr",
-        "id": "fr_proficiency_language_013"
+        "id": "fr_proficiency_language_013",
+        "transcription": ""
     },
     {
         "word": "entraver",
@@ -1116,7 +1160,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "entravant",
         "lang": "fr",
-        "id": "fr_proficiency_social_019"
+        "id": "fr_proficiency_social_019",
+        "transcription": ""
     },
     {
         "word": "atténuer",
@@ -1141,7 +1186,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "atténuant",
         "lang": "fr",
-        "id": "fr_proficiency_social_020"
+        "id": "fr_proficiency_social_020",
+        "transcription": ""
     },
     {
         "word": "obliger",
@@ -1166,7 +1212,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "obligant",
         "lang": "fr",
-        "id": "fr_proficiency_social_021"
+        "id": "fr_proficiency_social_021",
+        "transcription": ""
     },
     {
         "word": "imprégner",
@@ -1191,7 +1238,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "imprégnant",
         "lang": "fr",
-        "id": "fr_proficiency_time_001"
+        "id": "fr_proficiency_time_001",
+        "transcription": ""
     },
     {
         "word": "exclure",
@@ -1215,7 +1263,8 @@ const data = [
         "group": "re",
         "auxiliary": "avoir",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_014"
+        "id": "fr_proficiency_psychology_014",
+        "transcription": ""
     },
     {
         "word": "réconcilier",
@@ -1240,7 +1289,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "réconciliant",
         "lang": "fr",
-        "id": "fr_proficiency_language_014"
+        "id": "fr_proficiency_language_014",
+        "transcription": ""
     },
     {
         "word": "supplanter",
@@ -1265,7 +1315,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "supplantant",
         "lang": "fr",
-        "id": "fr_proficiency_time_002"
+        "id": "fr_proficiency_time_002",
+        "transcription": ""
     },
     {
         "word": "sous-tendre",
@@ -1290,7 +1341,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "sous-tendant",
         "lang": "fr",
-        "id": "fr_proficiency_language_015"
+        "id": "fr_proficiency_language_015",
+        "transcription": ""
     },
     {
         "word": "justifier",
@@ -1315,7 +1367,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "justifiant",
         "lang": "fr",
-        "id": "fr_proficiency_psychology_015"
+        "id": "fr_proficiency_psychology_015",
+        "transcription": ""
     },
     {
         "word": "reposer sur",
@@ -1340,7 +1393,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "reposer sant",
         "lang": "fr",
-        "id": "fr_proficiency_language_016"
+        "id": "fr_proficiency_language_016",
+        "transcription": ""
     },
     {
         "word": "se débattre avec",
@@ -1366,7 +1420,8 @@ const data = [
         "reflexive": true,
         "v4": "se débattre avant",
         "lang": "fr",
-        "id": "fr_proficiency_language_017"
+        "id": "fr_proficiency_language_017",
+        "transcription": ""
     },
     {
         "word": "minimiser",
@@ -1391,7 +1446,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "minimisant",
         "lang": "fr",
-        "id": "fr_proficiency_language_018"
+        "id": "fr_proficiency_language_018",
+        "transcription": ""
     },
     {
         "word": "masquer",
@@ -1416,7 +1472,8 @@ const data = [
         "auxiliary": "avoir",
         "v4": "masquant",
         "lang": "fr",
-        "id": "fr_proficiency_language_019"
+        "id": "fr_proficiency_language_019",
+        "transcription": ""
     }
 ];
     const lang = "fr";

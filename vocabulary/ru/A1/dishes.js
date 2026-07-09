@@ -16,7 +16,9 @@
         "gender": "он",
         "plural": "борщи",
         "countability": "countable",
-        "subtext": ""
+        "subtext": "",
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_food_drink_030",
@@ -35,7 +37,8 @@
         "plural": "салаты оливье",
         "transcription": "/saˈlat aliˈvje/",
         "countability": "countable",
-        "subtext": ""
+        "subtext": "",
+        "emoji": "✨"
     }
 ];
     const lang = "ru";

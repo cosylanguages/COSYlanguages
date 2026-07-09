@@ -25,9 +25,10 @@
         "aspect": "action",
         "v3": "soutenu",
         "group": "ir",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "transcription": ""
     }
-    ];
+];
     const lang = "fr";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);

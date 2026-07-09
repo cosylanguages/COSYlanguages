@@ -18,7 +18,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_001"
+        "id": "hy_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "տելեոլոգիա",
@@ -36,7 +37,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_002"
+        "id": "hy_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "օնտոլոգիա",
@@ -54,7 +56,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_003"
+        "id": "hy_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "ռեիֆիկացիա",
@@ -72,7 +75,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_004"
+        "id": "hy_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "դիալեկտիկա",
@@ -90,7 +94,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_005"
+        "id": "hy_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "հևրիստիկ",
@@ -108,7 +113,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_001"
+        "id": "hy_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "ապոֆենիա",
@@ -126,7 +132,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_002"
+        "id": "hy_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "մոտիվացված կոգնիցիա",
@@ -143,7 +150,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_003"
+        "id": "hy_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "պրոակտիվ սկզբունք",
@@ -160,7 +168,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_001"
+        "id": "hy_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "նախազգուշական սկզբունք",
@@ -177,7 +186,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_002"
+        "id": "hy_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "լիբերալ չեզոքություն",
@@ -194,7 +204,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_003"
+        "id": "hy_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "պրոնատալիզմ",
@@ -212,7 +223,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_social_004"
+        "id": "hy_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "սուբլիմացիա",
@@ -230,7 +242,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_004"
+        "id": "hy_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "ժուիսանս",
@@ -248,7 +261,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_005"
+        "id": "hy_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "թանատոս",
@@ -266,7 +280,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_psychology_006"
+        "id": "hy_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "բաթոս",
@@ -284,7 +299,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_art_culture_001"
+        "id": "hy_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "ապոֆազիս",
@@ -302,7 +318,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_006"
+        "id": "hy_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "պարալեպսիս",
@@ -320,7 +337,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_007"
+        "id": "hy_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "լիմինալ տարածություն",
@@ -337,7 +355,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_008"
+        "id": "hy_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "քիազմ",
@@ -355,7 +374,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_009"
+        "id": "hy_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "շիբոլեթ",
@@ -373,7 +393,8 @@
             }
         ],
         "lang": "hy",
-        "id": "hy_proficiency_language_010"
+        "id": "hy_proficiency_language_010",
+        "transcription": ""
     }
 ];
 

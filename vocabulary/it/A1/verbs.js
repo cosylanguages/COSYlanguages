@@ -4,7 +4,7 @@ const data = [
     {
         "word": "essere",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "👤",
         "subtext": "essere pronto / essere stanco / essere a casa",
         "form": "verb",
@@ -40,7 +40,9 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "esse",
             "origin_meaning": "to be"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_social_001"
     },
     {
         "word": "avere",
@@ -84,7 +86,9 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "habere",
             "origin_meaning": "to have"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_work_001"
     },
     {
         "word": "sentire",
@@ -118,7 +122,9 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "sentire",
             "origin_meaning": "to feel, perceive"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_health_medicine_001"
     },
     {
         "word": "dare",
@@ -126,8 +132,6 @@ const data = [
         "theme": "shopping",
         "emoji": "🎁",
         "subtext": "dare consigli / dare soldi / dare un regalo",
-        "opposite": "prendere",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "transcription": "ˈdare",
         "definitions": [
@@ -159,7 +163,12 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "dare"
-        }
+        },
+        "lang": "it",
+        "antonyms": [
+            "prendere"
+        ],
+        "id": "it_starter_shopping_001"
     },
     {
         "word": "prendere",
@@ -170,8 +179,6 @@ const data = [
         "synonyms": [
             "fare una pausa"
         ],
-        "opposite": "dare",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "transcription": "ˈprɛndere",
         "definitions": [
@@ -191,7 +198,12 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "prehendere"
-        }
+        },
+        "lang": "it",
+        "antonyms": [
+            "dare"
+        ],
+        "id": "it_starter_travel_001"
     },
     {
         "word": "ottenere",
@@ -219,12 +231,14 @@ const data = [
         "aspect": "action",
         "v3": "ottenuto",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "id": "it_starter_shopping_002"
     },
     {
         "word": "mettere",
         "level": "starter",
-        "theme": "furniture_objects",
+        "theme": "furniture",
         "emoji": "📥",
         "subtext": "mettere / mettere giù il telefono",
         "synonyms": [
@@ -245,7 +259,9 @@ const data = [
         "aspect": "action",
         "v3": "messo",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "lang": "it",
+        "id": "it_starter_furniture_001"
     },
     {
         "word": "fare",
@@ -288,7 +304,9 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "facere",
             "origin_meaning": "to do"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_work_002"
     },
     {
         "word": "fare",
@@ -327,7 +345,9 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "facere"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_work_003"
     },
     {
         "word": "usare",
@@ -351,7 +371,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈusare",
-        "v4": "usando"
+        "v4": "usando",
+        "lang": "it",
+        "id": "it_starter_technology_001"
     },
     {
         "word": "aprire",
@@ -359,8 +381,6 @@ const data = [
         "theme": "shopping",
         "emoji": "📖",
         "subtext": "aprire una porta / aprire un conto / aprire un negozio",
-        "opposite": "chiudere",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -377,7 +397,12 @@ const data = [
         "group": "ire",
         "auxiliary": "avere",
         "transcription": "ˈaprire",
-        "v4": "aprendo"
+        "v4": "aprendo",
+        "lang": "it",
+        "antonyms": [
+            "chiudere"
+        ],
+        "id": "it_starter_shopping_003"
     },
     {
         "word": "chiudere",
@@ -385,8 +410,6 @@ const data = [
         "theme": "shopping",
         "emoji": "🔒",
         "subtext": "chiudere una porta / chiudere alle sei / chiudere un conto",
-        "opposite": "aprire",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -403,7 +426,12 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈchiudere",
-        "v4": "chiudendo"
+        "v4": "chiudendo",
+        "lang": "it",
+        "antonyms": [
+            "aprire"
+        ],
+        "id": "it_starter_shopping_004"
     },
     {
         "word": "iniziare",
@@ -411,8 +439,6 @@ const data = [
         "theme": "work",
         "emoji": "▶️",
         "subtext": "iniziare il lavoro / iniziare una riunione / iniziare un nuovo lavoro, iniziare a",
-        "opposite": "finire",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "transcription": "initˈtsjare",
         "definitions": [
@@ -429,7 +455,12 @@ const data = [
         "v3": "iniziato",
         "group": "are",
         "auxiliary": "avere",
-        "v4": "iniziando"
+        "v4": "iniziando",
+        "lang": "it",
+        "antonyms": [
+            "finire"
+        ],
+        "id": "it_starter_work_004"
     },
     {
         "word": "finire",
@@ -437,8 +468,6 @@ const data = [
         "theme": "work",
         "emoji": "🏁",
         "subtext": "finire il lavoro / finire un progetto / finire presto, finire di",
-        "opposite": "iniziare",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "transcription": "fiˈnire",
         "definitions": [
@@ -455,7 +484,12 @@ const data = [
         "v3": "finito",
         "group": "ire_isco",
         "auxiliary": "avere",
-        "v4": "finendo"
+        "v4": "finendo",
+        "lang": "it",
+        "antonyms": [
+            "iniziare"
+        ],
+        "id": "it_starter_work_005"
     },
     {
         "word": "aiutare",
@@ -482,7 +516,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈaiutare",
-        "v4": "aiutando"
+        "v4": "aiutando",
+        "lang": "it",
+        "id": "it_starter_work_006"
     },
     {
         "word": "provare",
@@ -506,7 +542,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈprovare",
-        "v4": "provando"
+        "v4": "provando",
+        "lang": "it",
+        "id": "it_starter_school_001"
     },
     {
         "word": "mostrare",
@@ -529,7 +567,9 @@ const data = [
         "v3": "mostrato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈmostrare"
+        "transcription": "ˈmostrare",
+        "lang": "it",
+        "id": "it_starter_language_001"
     },
     {
         "word": "trovare",
@@ -555,7 +595,9 @@ const data = [
         "v3": "trovato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈtrovare"
+        "transcription": "ˈtrovare",
+        "lang": "it",
+        "id": "it_starter_shopping_005"
     },
     {
         "word": "tenere",
@@ -594,7 +636,9 @@ const data = [
                     "tengono"
                 ]
             }
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_work_007"
     },
     {
         "word": "perdere",
@@ -602,8 +646,6 @@ const data = [
         "theme": "shopping",
         "emoji": "📉",
         "subtext": "perdere un lavoro / perdere soldi / perdere peso",
-        "opposite": "vincere",
-        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -620,12 +662,17 @@ const data = [
         "v3": "perso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈperdere"
+        "transcription": "ˈperdere",
+        "lang": "it",
+        "antonyms": [
+            "vincere"
+        ],
+        "id": "it_starter_shopping_006"
     },
     {
         "word": "tagliare",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "✂️",
         "subtext": "tagliare i costi / tagliare le spese / tagliare a metà",
         "form": "verb",
@@ -643,12 +690,14 @@ const data = [
         "v3": "tagliato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈtagliare"
+        "transcription": "ˈtagliare",
+        "lang": "it",
+        "id": "it_starter_food_drink_001"
     },
     {
         "word": "girare",
         "level": "starter",
-        "theme": "directions_navigation",
+        "theme": "travel",
         "emoji": "🔄",
         "subtext": "girare a sinistra / girare a destra",
         "synonyms": [
@@ -671,7 +720,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈgirare",
-        "v4": "girando"
+        "v4": "girando",
+        "lang": "it",
+        "id": "it_starter_travel_002"
     },
     {
         "word": "portare",
@@ -694,12 +745,14 @@ const data = [
         "v3": "portato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈportare"
+        "transcription": "ˈportare",
+        "lang": "it",
+        "id": "it_starter_food_drink_002"
     },
     {
         "word": "dire",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗨️",
         "subtext": "dire ciao / dire di sì / dire di no / dire qualcosa",
         "form": "verb",
@@ -729,7 +782,9 @@ const data = [
                     "dicono"
                 ]
             }
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_social_002"
     },
     {
         "word": "dire",
@@ -767,7 +822,9 @@ const data = [
                     "dicono"
                 ]
             }
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_language_002"
     },
     {
         "word": "chiedere",
@@ -794,12 +851,14 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈchiedere",
-        "v4": "chiedendo"
+        "v4": "chiedendo",
+        "lang": "it",
+        "id": "it_starter_language_003"
     },
     {
         "word": "parlare",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗣️",
         "subtext": "parlare con qualcuno / parlare una lingua / parlare chiaramente, parlare di",
         "form": "verb",
@@ -821,7 +880,9 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "parabolare"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_social_003"
     },
     {
         "word": "parlare",
@@ -849,7 +910,9 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "parabolare"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_social_004"
     },
     {
         "word": "chiamare",
@@ -877,7 +940,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈchiamare",
-        "v4": "chiamando"
+        "v4": "chiamando",
+        "lang": "it",
+        "id": "it_starter_technology_002"
     },
     {
         "word": "scrivere",
@@ -885,8 +950,6 @@ const data = [
         "theme": "school",
         "emoji": "✍️",
         "subtext": "scrivere un email / scrivere un rapporto / scrivere una lettera",
-        "opposite": "leggere",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -902,7 +965,12 @@ const data = [
         "v3": "scritto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈscrivere"
+        "transcription": "ˈscrivere",
+        "lang": "it",
+        "antonyms": [
+            "leggere"
+        ],
+        "id": "it_starter_school_002"
     },
     {
         "word": "leggere",
@@ -910,8 +978,6 @@ const data = [
         "theme": "school",
         "emoji": "📖",
         "subtext": "leggere un libro / leggere le notizie / leggere un contratto",
-        "opposite": "scrivere",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -927,7 +993,12 @@ const data = [
         "v3": "letto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈleggere"
+        "transcription": "ˈleggere",
+        "lang": "it",
+        "antonyms": [
+            "scrivere"
+        ],
+        "id": "it_starter_school_003"
     },
     {
         "word": "ascoltare",
@@ -951,7 +1022,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈascoltare",
-        "v4": "ascoltando"
+        "v4": "ascoltando",
+        "lang": "it",
+        "id": "it_starter_school_004"
     },
     {
         "word": "rispondere",
@@ -975,12 +1048,14 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈrispondere",
-        "v4": "rispondendo"
+        "v4": "rispondendo",
+        "lang": "it",
+        "id": "it_starter_language_004"
     },
     {
         "word": "ripetere",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🔁",
         "subtext": "ripetere quello / ripetere un ordine",
         "synonyms": [
@@ -1002,7 +1077,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈripetere",
-        "v4": "ripetendo"
+        "v4": "ripetendo",
+        "lang": "it",
+        "id": "it_starter_school_005"
     },
     {
         "word": "andare",
@@ -1040,7 +1117,9 @@ const data = [
                     "vanno"
                 ]
             }
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_travel_003"
     },
     {
         "word": "venire",
@@ -1051,8 +1130,6 @@ const data = [
         "synonyms": [
             "tornare"
         ],
-        "opposite": "andare",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -1084,11 +1161,15 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "venire"
-        }
+        },
+        "lang": "it",
+        "antonyms": [
+            "andare"
+        ],
+        "id": "it_starter_travel_004"
     },
     {
         "word": "camminare",
-        "image": "images/vocabulary/actions/to walk. to hike.png",
         "level": "starter",
         "theme": "travel",
         "emoji": "🚶",
@@ -1109,7 +1190,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcamminare",
-        "v4": "camminando"
+        "v4": "camminando",
+        "lang": "it",
+        "id": "it_starter_travel_005"
     },
     {
         "word": "guidare",
@@ -1132,7 +1215,9 @@ const data = [
         "v3": "guidato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈguidare"
+        "transcription": "ˈguidare",
+        "lang": "it",
+        "id": "it_starter_travel_006"
     },
     {
         "word": "volare",
@@ -1155,7 +1240,9 @@ const data = [
         "v3": "volato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈvolare"
+        "transcription": "ˈvolare",
+        "lang": "it",
+        "id": "it_starter_travel_007"
     },
     {
         "word": "arrivare",
@@ -1179,7 +1266,9 @@ const data = [
         "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈarrivare",
-        "v4": "arrivando"
+        "v4": "arrivando",
+        "lang": "it",
+        "id": "it_starter_work_008"
     },
     {
         "word": "partire",
@@ -1206,7 +1295,9 @@ const data = [
         "v3": "partito",
         "group": "ire",
         "auxiliary": "essere",
-        "transcription": "ˈpartire"
+        "transcription": "ˈpartire",
+        "lang": "it",
+        "id": "it_starter_work_009"
     },
     {
         "word": "muovere",
@@ -1234,7 +1325,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈmuovere",
-        "v4": "muovendo"
+        "v4": "muovendo",
+        "lang": "it",
+        "id": "it_starter_furniture_002"
     },
     {
         "word": "tornare",
@@ -1258,12 +1351,14 @@ const data = [
         "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈtornare",
-        "v4": "tornando"
+        "v4": "tornando",
+        "lang": "it",
+        "id": "it_starter_travel_008"
     },
     {
         "word": "viaggiare",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "viaggiare per lavoro / viaggiare all estero",
         "form": "verb",
@@ -1282,11 +1377,12 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈviaggiare",
-        "v4": "viaggiando"
+        "v4": "viaggiando",
+        "lang": "it",
+        "id": "it_starter_travel_009"
     },
     {
         "word": "mangiare",
-        "image": "images/vocabulary/actions/to eat.png",
         "level": "starter",
         "theme": "food_drink",
         "emoji": "🍎",
@@ -1296,8 +1392,6 @@ const data = [
             "pranzare",
             "cenare"
         ],
-        "opposite": "bere",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1318,17 +1412,19 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "manducare",
             "origin_meaning": "to chew, eat"
-        }
+        },
+        "lang": "it",
+        "antonyms": [
+            "bere"
+        ],
+        "id": "it_starter_food_drink_003"
     },
     {
         "word": "bere",
-        "image": "images/vocabulary/actions/to drink.png",
         "level": "starter",
         "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "bere caffè / bere tè / bere acqua",
-        "opposite": "mangiare",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1361,17 +1457,19 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "bibere",
             "origin_meaning": "to drink"
-        }
+        },
+        "lang": "it",
+        "antonyms": [
+            "mangiare"
+        ],
+        "id": "it_starter_food_drink_004"
     },
     {
         "word": "dormire",
-        "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
         "theme": "time",
         "emoji": "😴",
         "subtext": "dormire bene / dormire male / dormire otto ore",
-        "opposite": "svegliarsi",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1392,13 +1490,17 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "dormire",
             "origin_meaning": "to sleep"
-        }
+        },
+        "lang": "it",
+        "antonyms": [
+            "svegliarsi"
+        ],
+        "id": "it_starter_time_001"
     },
     {
         "word": "cucinare",
-        "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "🍳",
         "subtext": "cucinare la cena / cucinare un pasto",
         "form": "verb",
@@ -1417,11 +1519,12 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcucinare",
-        "v4": "cucinando"
+        "v4": "cucinando",
+        "lang": "it",
+        "id": "it_starter_food_drink_005"
     },
     {
         "word": "pulire",
-        "image": "images/vocabulary/actions/to clean. to sweep.png",
         "level": "starter",
         "theme": "furniture",
         "emoji": "🧹",
@@ -1442,7 +1545,9 @@ const data = [
         "group": "ire_isco",
         "auxiliary": "avere",
         "transcription": "ˈpulire",
-        "v4": "pulendo"
+        "v4": "pulendo",
+        "lang": "it",
+        "id": "it_starter_furniture_003"
     },
     {
         "word": "indossare",
@@ -1465,11 +1570,12 @@ const data = [
         "v3": "indossato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈindossare"
+        "transcription": "ˈindossare",
+        "lang": "it",
+        "id": "it_starter_clothes_001"
     },
     {
         "word": "lavare",
-        "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
         "level": "starter",
         "theme": "furniture",
         "emoji": "🧼",
@@ -1493,7 +1599,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈlavare",
-        "v4": "lavando"
+        "v4": "lavando",
+        "lang": "it",
+        "id": "it_starter_furniture_004"
     },
     {
         "word": "comprare",
@@ -1501,8 +1609,6 @@ const data = [
         "theme": "shopping",
         "emoji": "🛒",
         "subtext": "comprare cibo / comprare un biglietto",
-        "opposite": "vendere",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1518,7 +1624,12 @@ const data = [
         "v3": "comprato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcomprare"
+        "transcription": "ˈcomprare",
+        "lang": "it",
+        "antonyms": [
+            "vendere"
+        ],
+        "id": "it_starter_shopping_007"
     },
     {
         "word": "pagare",
@@ -1541,7 +1652,9 @@ const data = [
         "v3": "pagato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈpagare"
+        "transcription": "ˈpagare",
+        "lang": "it",
+        "id": "it_starter_shopping_008"
     },
     {
         "word": "spendere",
@@ -1564,7 +1677,9 @@ const data = [
         "v3": "speso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈspendere"
+        "transcription": "ˈspendere",
+        "lang": "it",
+        "id": "it_starter_shopping_009"
     },
     {
         "word": "risparmiare",
@@ -1572,8 +1687,6 @@ const data = [
         "theme": "shopping",
         "emoji": "💰",
         "subtext": "risparmiare soldi / risparmiare per una casa",
-        "opposite": "spendere",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1590,7 +1703,12 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈrisparmiare",
-        "v4": "risparmiando"
+        "v4": "risparmiando",
+        "lang": "it",
+        "antonyms": [
+            "spendere"
+        ],
+        "id": "it_starter_shopping_010"
     },
     {
         "word": "lavorare",
@@ -1614,7 +1732,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈlavorare",
-        "v4": "lavorando"
+        "v4": "lavorando",
+        "lang": "it",
+        "id": "it_starter_work_010"
     },
     {
         "word": "vivere",
@@ -1622,8 +1742,6 @@ const data = [
         "theme": "places",
         "emoji": "🏠",
         "subtext": "vivere in un appartamento / vivere da soli",
-        "opposite": "morire",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1640,7 +1758,12 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈvivere",
-        "v4": "vivendo"
+        "v4": "vivendo",
+        "lang": "it",
+        "antonyms": [
+            "morire"
+        ],
+        "id": "it_starter_places_001"
     },
     {
         "word": "pensare",
@@ -1663,7 +1786,9 @@ const data = [
         "v3": "pensato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈpensare"
+        "transcription": "ˈpensare",
+        "lang": "it",
+        "id": "it_starter_social_005"
     },
     {
         "word": "sapere",
@@ -1701,7 +1826,9 @@ const data = [
                     "sanno"
                 ]
             }
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_school_006"
     },
     {
         "word": "volere",
@@ -1737,7 +1864,9 @@ const data = [
                     "vogliono"
                 ]
             }
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_emotions_001"
     },
     {
         "word": "avere bisogno di",
@@ -1766,11 +1895,12 @@ const data = [
         "v3": "avuto bisogno",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈavere bisogno di"
+        "transcription": "ˈavere bisogno di",
+        "lang": "it",
+        "id": "it_starter_emotions_002"
     },
     {
         "word": "piacere",
-        "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
         "theme": "emotions",
         "emoji": "👍",
@@ -1795,7 +1925,9 @@ const data = [
         "group": "ere",
         "auxiliary": "essere",
         "transcription": "ˈpiacere",
-        "v4": "piacendo"
+        "v4": "piacendo",
+        "lang": "it",
+        "id": "it_starter_emotions_003"
     },
     {
         "word": "amare",
@@ -1819,7 +1951,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈamare",
-        "v4": "amando"
+        "v4": "amando",
+        "lang": "it",
+        "id": "it_starter_emotions_004"
     },
     {
         "word": "odiare",
@@ -1843,7 +1977,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈodiare",
-        "v4": "odiando"
+        "v4": "odiando",
+        "lang": "it",
+        "id": "it_starter_emotions_005"
     },
     {
         "word": "sperare",
@@ -1870,7 +2006,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsperare",
-        "v4": "sperando"
+        "v4": "sperando",
+        "lang": "it",
+        "id": "it_starter_emotions_006"
     },
     {
         "word": "ricordare",
@@ -1894,7 +2032,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈricordare",
-        "v4": "ricordando"
+        "v4": "ricordando",
+        "lang": "it",
+        "id": "it_starter_school_007"
     },
     {
         "word": "dimenticare",
@@ -1917,7 +2057,9 @@ const data = [
         "v3": "dimenticato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈdimenticare"
+        "transcription": "ˈdimenticare",
+        "lang": "it",
+        "id": "it_starter_school_008"
     },
     {
         "word": "capire",
@@ -1940,7 +2082,9 @@ const data = [
         "v3": "capito",
         "group": "ire_isco",
         "auxiliary": "avere",
-        "transcription": "ˈcapire"
+        "transcription": "ˈcapire",
+        "lang": "it",
+        "id": "it_starter_language_005"
     },
     {
         "word": "decidere",
@@ -1967,7 +2111,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈdecidere",
-        "v4": "decidendo"
+        "v4": "decidendo",
+        "lang": "it",
+        "id": "it_starter_social_006"
     },
     {
         "word": "godere",
@@ -1995,7 +2141,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈgodere",
-        "v4": "godendo"
+        "v4": "godendo",
+        "lang": "it",
+        "id": "it_starter_emotions_007"
     },
     {
         "word": "vedere",
@@ -2023,7 +2171,9 @@ const data = [
             "origin_lang": "Latin",
             "origin_word": "videre",
             "origin_meaning": "to see"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_body_001"
     },
     {
         "word": "udire",
@@ -2050,18 +2200,17 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "audire"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_body_002"
     },
     {
         "word": "svegliarsi",
-        "image": "images/vocabulary/actions/to wake up.png",
         "level": "starter",
         "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "svegliarsi presto / svegliarsi alle 7 / svegliarsi stanco",
-        "opposite": "dormire",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Smettere di dormire e aprire gli occhi.",
@@ -2077,7 +2226,12 @@ const data = [
         "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈsvegliarsi",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "it",
+        "antonyms": [
+            "dormire"
+        ],
+        "id": "it_starter_work_011"
     },
     {
         "word": "guardare",
@@ -2101,7 +2255,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈguardare",
-        "v4": "guardando"
+        "v4": "guardando",
+        "lang": "it",
+        "id": "it_starter_social_007"
     },
     {
         "word": "guardare",
@@ -2129,7 +2285,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈguardare",
-        "v4": "guardando"
+        "v4": "guardando",
+        "lang": "it",
+        "id": "it_starter_people_001"
     },
     {
         "word": "giocare",
@@ -2153,7 +2311,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈgiocare",
-        "v4": "giocando"
+        "v4": "giocando",
+        "lang": "it",
+        "id": "it_starter_social_008"
     },
     {
         "word": "correre",
@@ -2179,7 +2339,9 @@ const data = [
         "v3": "corso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈcorrere"
+        "transcription": "ˈcorrere",
+        "lang": "it",
+        "id": "it_starter_sports_001"
     },
     {
         "word": "sedersi",
@@ -2190,8 +2352,6 @@ const data = [
         "synonyms": [
             "prendere posto"
         ],
-        "opposite": "stare in piedi",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -2208,7 +2368,12 @@ const data = [
         "group": "are",
         "auxiliary": "essere",
         "transcription": "seˈdersi",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "it",
+        "antonyms": [
+            "stare in piedi"
+        ],
+        "id": "it_starter_work_012"
     },
     {
         "word": "stare in piedi",
@@ -2220,8 +2385,6 @@ const data = [
             "alzarsi",
             "essere in piedi"
         ],
-        "opposite": "sedersi",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -2237,7 +2400,12 @@ const data = [
         "v3": "stato in piedi",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈstare in piˈɛdi"
+        "transcription": "ˈstare in piˈɛdi",
+        "lang": "it",
+        "antonyms": [
+            "sedersi"
+        ],
+        "id": "it_starter_work_013"
     },
     {
         "word": "incontrare",
@@ -2260,7 +2428,9 @@ const data = [
         "subtext": "incontrare qualcuno / incontrare per il pranzo",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈincontrare"
+        "transcription": "ˈincontrare",
+        "lang": "it",
+        "id": "it_starter_work_014"
     },
     {
         "word": "imparare",
@@ -2283,7 +2453,9 @@ const data = [
         "v3": "imparato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈimparare"
+        "transcription": "ˈimparare",
+        "lang": "it",
+        "id": "it_starter_school_009"
     },
     {
         "word": "cambiare",
@@ -2307,7 +2479,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcambiare",
-        "v4": "cambiando"
+        "v4": "cambiando",
+        "lang": "it",
+        "id": "it_starter_work_015"
     },
     {
         "word": "fermare",
@@ -2334,7 +2508,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈfermare",
-        "v4": "fermando"
+        "v4": "fermando",
+        "lang": "it",
+        "id": "it_starter_work_016"
     },
     {
         "word": "aggiungere",
@@ -2358,7 +2534,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈaggiungere",
-        "v4": "aggiungendo"
+        "v4": "aggiungendo",
+        "lang": "it",
+        "id": "it_starter_numbers_001"
     },
     {
         "word": "vincere",
@@ -2366,8 +2544,6 @@ const data = [
         "theme": "social",
         "emoji": "🏆",
         "subtext": "vincere / vincere un premio / vincere un contratto",
-        "opposite": "perdere",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -2382,7 +2558,12 @@ const data = [
         "v3": "vinto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈvincere"
+        "transcription": "ˈvincere",
+        "lang": "it",
+        "antonyms": [
+            "perdere"
+        ],
+        "id": "it_starter_social_009"
     },
     {
         "word": "aspettare",
@@ -2406,7 +2587,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈaspettare",
-        "v4": "aspettando"
+        "v4": "aspettando",
+        "lang": "it",
+        "id": "it_starter_work_017"
     },
     {
         "word": "morire",
@@ -2417,8 +2600,6 @@ const data = [
         "synonyms": [
             "estinguersi"
         ],
-        "opposite": "vivere",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -2434,7 +2615,12 @@ const data = [
         "group": "ire",
         "auxiliary": "essere",
         "transcription": "ˈmorire",
-        "v4": "morendo"
+        "v4": "morendo",
+        "lang": "it",
+        "antonyms": [
+            "vivere"
+        ],
+        "id": "it_starter_health_medicine_002"
     },
     {
         "word": "inviare",
@@ -2457,7 +2643,9 @@ const data = [
         "subtext": "inviare / inviare un email / inviare un messaggio",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈinviare"
+        "transcription": "ˈinviare",
+        "lang": "it",
+        "id": "it_starter_work_018"
     },
     {
         "word": "restare",
@@ -2481,7 +2669,9 @@ const data = [
         "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈrestare",
-        "v4": "restando"
+        "v4": "restando",
+        "lang": "it",
+        "id": "it_starter_travel_010"
     },
     {
         "word": "cadere",
@@ -2508,7 +2698,9 @@ const data = [
         "v3": "caduto",
         "group": "ere",
         "auxiliary": "essere",
-        "transcription": "ˈcadere"
+        "transcription": "ˈcadere",
+        "lang": "it",
+        "id": "it_starter_nature_001"
     },
     {
         "word": "passare",
@@ -2532,7 +2724,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈpassare",
-        "v4": "passando"
+        "v4": "passando",
+        "lang": "it",
+        "id": "it_starter_school_010"
     },
     {
         "word": "vendere",
@@ -2540,8 +2734,6 @@ const data = [
         "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "vendere / vendere online / vendere al mercato",
-        "opposite": "comprare",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2556,7 +2748,12 @@ const data = [
         "v3": "venduto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈvendere"
+        "transcription": "ˈvendere",
+        "lang": "it",
+        "antonyms": [
+            "comprare"
+        ],
+        "id": "it_starter_shopping_011"
     },
     {
         "word": "tirare",
@@ -2567,8 +2764,6 @@ const data = [
         "synonyms": [
             "allontanarsi"
         ],
-        "opposite": "spingere",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2584,7 +2779,12 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈtirare",
-        "v4": "tirando"
+        "v4": "tirando",
+        "lang": "it",
+        "antonyms": [
+            "spingere"
+        ],
+        "id": "it_starter_work_019"
     },
     {
         "word": "spingere",
@@ -2592,8 +2792,6 @@ const data = [
         "theme": "work",
         "emoji": "🛒",
         "subtext": "spingere / spingere il pulsante / spingere il carrello",
-        "opposite": "tirare",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2610,7 +2808,12 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈspingere",
-        "v4": "spingendo"
+        "v4": "spingendo",
+        "lang": "it",
+        "antonyms": [
+            "tirare"
+        ],
+        "id": "it_starter_work_020"
     },
     {
         "word": "trasportare",
@@ -2634,7 +2837,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈtrasportare",
-        "v4": "trasportando"
+        "v4": "trasportando",
+        "lang": "it",
+        "id": "it_starter_work_021"
     },
     {
         "word": "rompere",
@@ -2660,7 +2865,9 @@ const data = [
         "v3": "rotto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈrompere"
+        "transcription": "ˈrompere",
+        "lang": "it",
+        "id": "it_starter_describing_001"
     },
     {
         "word": "ricevere",
@@ -2684,11 +2891,12 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈricevere",
-        "v4": "ricevendo"
+        "v4": "ricevendo",
+        "lang": "it",
+        "id": "it_starter_shopping_012"
     },
     {
         "word": "essere d accordo",
-        "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
         "theme": "social",
         "emoji": "👍",
@@ -2708,13 +2916,14 @@ const data = [
         "v3": "stato d accordo",
         "group": "ere",
         "auxiliary": "essere",
-        "transcription": "ˈessere d accordo"
+        "transcription": "ˈessere d accordo",
+        "lang": "it",
+        "id": "it_starter_social_010"
     },
     {
         "word": "disegnare",
-        "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
-        "theme": "cinema_film",
+        "theme": "social",
         "emoji": "🎨",
         "subtext": "disegnare / disegnare un immagine / disegnare una linea",
         "form": "verb",
@@ -2732,7 +2941,9 @@ const data = [
         "v3": "disegnato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈdisegnare"
+        "transcription": "ˈdisegnare",
+        "lang": "it",
+        "id": "it_starter_social_011"
     },
     {
         "word": "condividere",
@@ -2756,7 +2967,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈcondividere",
-        "v4": "condividendo"
+        "v4": "condividendo",
+        "lang": "it",
+        "id": "it_starter_social_012"
     },
     {
         "word": "sorridere",
@@ -2764,8 +2977,6 @@ const data = [
         "theme": "people",
         "emoji": "😊",
         "subtext": "sorridere / sorridere a qualcuno / sorridere ampiamente",
-        "opposite": "piangere",
-        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2782,7 +2993,12 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈsorridere",
-        "v4": "sorridendo"
+        "v4": "sorridendo",
+        "lang": "it",
+        "antonyms": [
+            "piangere"
+        ],
+        "id": "it_starter_people_002"
     },
     {
         "word": "piangere",
@@ -2790,8 +3006,6 @@ const data = [
         "theme": "emotions",
         "emoji": "😢",
         "subtext": "piangere / piangere per aiuto / piangere per qualcosa",
-        "opposite": "sorridere",
-        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2808,7 +3022,12 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈpiangere",
-        "v4": "piangendo"
+        "v4": "piangendo",
+        "lang": "it",
+        "antonyms": [
+            "sorridere"
+        ],
+        "id": "it_starter_emotions_008"
     },
     {
         "word": "ballare",
@@ -2832,7 +3051,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈballare",
-        "v4": "ballando"
+        "v4": "ballando",
+        "lang": "it",
+        "id": "it_starter_music_001"
     },
     {
         "word": "cantare",
@@ -2855,7 +3076,9 @@ const data = [
         "v3": "cantato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcantare"
+        "transcription": "ˈcantare",
+        "lang": "it",
+        "id": "it_starter_music_002"
     },
     {
         "word": "saltare",
@@ -2879,7 +3102,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsaltare",
-        "v4": "saltando"
+        "v4": "saltando",
+        "lang": "it",
+        "id": "it_starter_sports_002"
     },
     {
         "word": "nuotare",
@@ -2902,7 +3127,9 @@ const data = [
         "v3": "nuotato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈnuotare"
+        "transcription": "ˈnuotare",
+        "lang": "it",
+        "id": "it_starter_sports_003"
     },
     {
         "word": "studiare",
@@ -2926,7 +3153,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈstudiare",
-        "v4": "studiando"
+        "v4": "studiando",
+        "lang": "it",
+        "id": "it_starter_school_011"
     },
     {
         "word": "insegnare",
@@ -2949,12 +3178,14 @@ const data = [
         "v3": "insegnato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈinsegnare"
+        "transcription": "ˈinsegnare",
+        "lang": "it",
+        "id": "it_starter_school_012"
     },
     {
         "word": "fare il pendolare",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🚆",
         "subtext": "fare il pendolare",
         "synonyms": [
@@ -2975,7 +3206,9 @@ const data = [
         "v3": "fatto il pendolare",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfare il pendolare"
+        "transcription": "ˈfare il pendolare",
+        "lang": "it",
+        "id": "it_starter_travel_011"
     },
     {
         "word": "affittare",
@@ -2998,7 +3231,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈaffittare",
-        "v4": "affittando"
+        "v4": "affittando",
+        "lang": "it",
+        "id": "it_starter_travel_012"
     },
     {
         "word": "esercitarsi",
@@ -3022,7 +3257,9 @@ const data = [
         "auxiliary": "essere",
         "transcription": "ˈesercitarsi",
         "reflexive": true,
-        "v4": "esercitaando"
+        "v4": "esercitaando",
+        "lang": "it",
+        "id": "it_starter_social_013"
     },
     {
         "word": "costare",
@@ -3044,7 +3281,9 @@ const data = [
         "subtext": "costare / costare molto / costare soldi",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈcostare"
+        "transcription": "ˈcostare",
+        "lang": "it",
+        "id": "it_starter_shopping_013"
     },
     {
         "word": "invitare",
@@ -3067,11 +3306,12 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈinvitare",
-        "v4": "invitando"
+        "v4": "invitando",
+        "lang": "it",
+        "id": "it_starter_social_014"
     },
     {
         "word": "alzarsi",
-        "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
             {
                 "text": "Alzarsi dal letto dopo essersi svegliati.",
@@ -3091,11 +3331,12 @@ const data = [
         "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈalzarsi",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "it",
+        "id": "it_starter_work_022"
     },
     {
         "word": "fare colazione",
-        "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
             {
                 "text": "Fare il pasto del mattino.",
@@ -3118,7 +3359,9 @@ const data = [
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfare colazione"
+        "transcription": "ˈfare colazione",
+        "lang": "it",
+        "id": "it_starter_work_023"
     },
     {
         "word": "tornare",
@@ -3140,11 +3383,12 @@ const data = [
         "form": "verb",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈtornare"
+        "transcription": "ˈtornare",
+        "lang": "it",
+        "id": "it_starter_work_024"
     },
     {
         "word": "andare a letto",
-        "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
             {
                 "text": "Mettersi a letto per dormire.",
@@ -3163,7 +3407,9 @@ const data = [
         "form": "verb",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈandare a letto"
+        "transcription": "ˈandare a letto",
+        "lang": "it",
+        "id": "it_starter_work_025"
     },
     {
         "word": "controllare",
@@ -3186,7 +3432,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcontrollare",
-        "v4": "controllando"
+        "v4": "controllando",
+        "lang": "it",
+        "id": "it_starter_work_026"
     },
     {
         "word": "rispondere",
@@ -3209,7 +3457,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈrispondere",
-        "v4": "rispondendo"
+        "v4": "rispondendo",
+        "lang": "it",
+        "id": "it_starter_work_027"
     },
     {
         "word": "presentare",
@@ -3232,7 +3482,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈpresentare",
-        "v4": "presentando"
+        "v4": "presentando",
+        "lang": "it",
+        "id": "it_starter_work_028"
     },
     {
         "word": "partecipare",
@@ -3258,7 +3510,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈpartecipare",
-        "v4": "partecipando"
+        "v4": "partecipando",
+        "lang": "it",
+        "id": "it_starter_work_029"
     },
     {
         "word": "gestire",
@@ -3281,7 +3535,9 @@ const data = [
         "group": "ire_isco",
         "auxiliary": "avere",
         "transcription": "ˈgestire",
-        "v4": "gestendo"
+        "v4": "gestendo",
+        "lang": "it",
+        "id": "it_starter_work_030"
     },
     {
         "word": "addebitare",
@@ -3307,7 +3563,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈaddebitare",
-        "v4": "addebitando"
+        "v4": "addebitando",
+        "lang": "it",
+        "id": "it_starter_shopping_014"
     },
     {
         "word": "permettersi",
@@ -3331,7 +3589,9 @@ const data = [
         "auxiliary": "essere",
         "transcription": "ˈpermettersi",
         "reflexive": true,
-        "v4": "permetteando"
+        "v4": "permetteando",
+        "lang": "it",
+        "id": "it_starter_shopping_015"
     },
     {
         "word": "dovere",
@@ -3365,7 +3625,9 @@ const data = [
                     "devono"
                 ]
             }
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_shopping_016"
     },
     {
         "word": "guadagnare",
@@ -3388,7 +3650,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈguadagnare",
-        "v4": "guadagnando"
+        "v4": "guadagnando",
+        "lang": "it",
+        "id": "it_starter_shopping_017"
     },
     {
         "word": "visitare",
@@ -3411,7 +3675,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈvisitare",
-        "v4": "visitando"
+        "v4": "visitando",
+        "lang": "it",
+        "id": "it_starter_social_015"
     },
     {
         "word": "festeggiare",
@@ -3434,7 +3700,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈfesteggiare",
-        "v4": "festeggiando"
+        "v4": "festeggiando",
+        "lang": "it",
+        "id": "it_starter_social_016"
     },
     {
         "word": "consigliare",
@@ -3460,7 +3728,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈconsigliare",
-        "v4": "consigliando"
+        "v4": "consigliando",
+        "lang": "it",
+        "id": "it_starter_social_017"
     },
     {
         "word": "far male",
@@ -3485,7 +3755,9 @@ const data = [
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfar male"
+        "transcription": "ˈfar male",
+        "lang": "it",
+        "id": "it_starter_health_medicine_003"
     },
     {
         "word": "riposare",
@@ -3508,7 +3780,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈriposare",
-        "v4": "riposando"
+        "v4": "riposando",
+        "lang": "it",
+        "id": "it_starter_work_031"
     },
     {
         "word": "guarire",
@@ -3531,7 +3805,9 @@ const data = [
         "group": "ire_isco",
         "auxiliary": "essere",
         "transcription": "ˈguarire",
-        "v4": "guarendo"
+        "v4": "guarendo",
+        "lang": "it",
+        "id": "it_starter_health_medicine_004"
     },
     {
         "word": "prenotare",
@@ -3554,7 +3830,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈprenotare",
-        "v4": "prenotando"
+        "v4": "prenotando",
+        "lang": "it",
+        "id": "it_starter_travel_013"
     },
     {
         "word": "fare le valigie",
@@ -3582,7 +3860,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈfare le valigie",
-        "v4": "fare le valiando"
+        "v4": "fare le valiando",
+        "lang": "it",
+        "id": "it_starter_travel_014"
     },
     {
         "word": "annullare",
@@ -3605,7 +3885,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈannullare",
-        "v4": "annullando"
+        "v4": "annullando",
+        "lang": "it",
+        "id": "it_starter_travel_015"
     },
     {
         "word": "perdere",
@@ -3621,14 +3903,16 @@ const data = [
         "classification": "regular",
         "aspect": "both",
         "v3": "perso",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈperdere",
-        "v4": "perdendo"
+        "v4": "perdendo",
+        "lang": "it",
+        "id": "it_starter_travel_016"
     },
     {
         "word": "ordinare",
@@ -3651,7 +3935,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈordinare",
-        "v4": "ordinando"
+        "v4": "ordinando",
+        "lang": "it",
+        "id": "it_starter_work_032"
     },
     {
         "word": "spiegare",
@@ -3674,12 +3960,14 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈspiegare",
-        "v4": "spiegando"
+        "v4": "spiegando",
+        "lang": "it",
+        "id": "it_starter_work_033"
     },
     {
         "word": "ringraziare",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🙏",
         "subtext": "ringraziare qualcuno / ringraziare per",
         "synonyms": [
@@ -3700,12 +3988,14 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈringraziare",
-        "v4": "ringraziando"
+        "v4": "ringraziando",
+        "lang": "it",
+        "id": "it_starter_social_018"
     },
     {
         "word": "presentare",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "🤝",
         "subtext": "presentare qualcuno / presentare un argomento",
         "synonyms": [
@@ -3726,7 +4016,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈpresentare",
-        "v4": "presentando"
+        "v4": "presentando",
+        "lang": "it",
+        "id": "it_starter_social_019"
     },
     {
         "word": "rilassarsi",
@@ -3750,7 +4042,9 @@ const data = [
         "auxiliary": "essere",
         "transcription": "ˈrilassarsi",
         "reflexive": true,
-        "v4": "rilassaando"
+        "v4": "rilassaando",
+        "lang": "it",
+        "id": "it_starter_social_020"
     },
     {
         "word": "riparare",
@@ -3776,7 +4070,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈriparare",
-        "v4": "riparando"
+        "v4": "riparando",
+        "lang": "it",
+        "id": "it_starter_furniture_005"
     },
     {
         "word": "succedere",
@@ -3803,7 +4099,9 @@ const data = [
         "group": "ere",
         "auxiliary": "essere",
         "transcription": "ˈsuccedere",
-        "v4": "succedendo"
+        "v4": "succedendo",
+        "lang": "it",
+        "id": "it_starter_social_021"
     },
     {
         "word": "sembrare",
@@ -3826,7 +4124,9 @@ const data = [
         "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈsembrare",
-        "v4": "sembrando"
+        "v4": "sembrando",
+        "lang": "it",
+        "id": "it_starter_social_022"
     },
     {
         "word": "significare",
@@ -3852,7 +4152,9 @@ const data = [
         "v3": "significato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈsignificare"
+        "transcription": "ˈsignificare",
+        "lang": "it",
+        "id": "it_starter_school_013"
     },
     {
         "word": "seguire",
@@ -3875,7 +4177,9 @@ const data = [
         "group": "ire",
         "auxiliary": "avere",
         "transcription": "ˈseguire",
-        "v4": "seguendo"
+        "v4": "seguendo",
+        "lang": "it",
+        "id": "it_starter_work_034"
     },
     {
         "word": "continuare",
@@ -3898,7 +4202,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcontinuare",
-        "v4": "continuando"
+        "v4": "continuando",
+        "lang": "it",
+        "id": "it_starter_school_014"
     },
     {
         "word": "crescere",
@@ -3923,7 +4229,9 @@ const data = [
         "v3": "cresciuto",
         "group": "ere",
         "auxiliary": "essere",
-        "transcription": "ˈcrescere"
+        "transcription": "ˈcrescere",
+        "lang": "it",
+        "id": "it_starter_work_035"
     },
     {
         "word": "includere",
@@ -3949,7 +4257,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈincludere",
-        "v4": "includendo"
+        "v4": "includendo",
+        "lang": "it",
+        "id": "it_starter_shopping_018"
     },
     {
         "word": "diventare",
@@ -3971,7 +4281,9 @@ const data = [
         "v3": "diventato",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈdiventare"
+        "transcription": "ˈdiventare",
+        "lang": "it",
+        "id": "it_starter_work_036"
     },
     {
         "word": "appartenere",
@@ -3997,7 +4309,9 @@ const data = [
         "group": "ere",
         "auxiliary": "essere",
         "transcription": "ˈappartenere",
-        "v4": "appartenendo"
+        "v4": "appartenendo",
+        "lang": "it",
+        "id": "it_starter_work_037"
     },
     {
         "word": "scegliere",
@@ -4019,7 +4333,9 @@ const data = [
         "v3": "scelto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈscegliere"
+        "transcription": "ˈscegliere",
+        "lang": "it",
+        "id": "it_starter_social_023"
     },
     {
         "word": "costruire",
@@ -4041,7 +4357,9 @@ const data = [
         "v3": "costruito",
         "group": "ire_isco",
         "auxiliary": "avere",
-        "transcription": "ˈcostruire"
+        "transcription": "ˈcostruire",
+        "lang": "it",
+        "id": "it_starter_work_038"
     },
     {
         "word": "cominciare",
@@ -4064,7 +4382,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈcominciare",
         "subtext": "cominciare a",
-        "v4": "cominciando"
+        "v4": "cominciando",
+        "lang": "it",
+        "id": "it_starter_work_039"
     },
     {
         "word": "finire",
@@ -4086,7 +4406,9 @@ const data = [
         "group": "ire_isco",
         "auxiliary": "avere",
         "transcription": "ˈfinire",
-        "subtext": "finire di"
+        "subtext": "finire di",
+        "lang": "it",
+        "id": "it_starter_work_040"
     },
     {
         "word": "spazzolare",
@@ -4109,7 +4431,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈspazzolare",
         "subtext": "",
-        "v4": "spazzolando"
+        "v4": "spazzolando",
+        "lang": "it",
+        "id": "it_starter_work_041"
     },
     {
         "word": "cavalcare",
@@ -4132,7 +4456,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈcavalcare",
         "subtext": "",
-        "v4": "cavalcando"
+        "v4": "cavalcando",
+        "lang": "it",
+        "id": "it_starter_travel_017"
     },
     {
         "word": "sognare",
@@ -4155,7 +4481,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈsognare",
         "subtext": "",
-        "v4": "sognando"
+        "v4": "sognando",
+        "lang": "it",
+        "id": "it_starter_work_042"
     },
     {
         "word": "credere",
@@ -4178,7 +4506,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈkredere",
-        "subtext": "credere a qualcuno / credere in qualcosa"
+        "subtext": "credere a qualcuno / credere in qualcosa",
+        "lang": "it",
+        "id": "it_starter_social_024"
     },
     {
         "word": "preferire",
@@ -4200,12 +4530,14 @@ const data = [
         "group": "ire_isco",
         "auxiliary": "avere",
         "transcription": "ˈpreferire",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_social_025"
     },
     {
         "word": "prendere",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🧤",
         "form": "verb",
         "definitions": [
@@ -4226,7 +4558,9 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "prehendere"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_travel_018"
     },
     {
         "word": "riparare",
@@ -4249,7 +4583,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈriparare",
         "subtext": "",
-        "v4": "riparando"
+        "v4": "riparando",
+        "lang": "it",
+        "id": "it_starter_furniture_006"
     },
     {
         "word": "creare",
@@ -4272,7 +4608,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈcreare",
         "subtext": "",
-        "v4": "creando"
+        "v4": "creando",
+        "lang": "it",
+        "id": "it_starter_work_043"
     },
     {
         "word": "notare",
@@ -4295,7 +4633,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈnotare",
         "subtext": "",
-        "v4": "notando"
+        "v4": "notando",
+        "lang": "it",
+        "id": "it_starter_social_026"
     },
     {
         "word": "migliorare",
@@ -4318,12 +4658,14 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈmigliorare",
         "subtext": "",
-        "v4": "migliorando"
+        "v4": "migliorando",
+        "lang": "it",
+        "id": "it_starter_school_015"
     },
     {
         "word": "preparare",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "🥘",
         "form": "verb",
         "definitions": [
@@ -4341,7 +4683,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈpreparare",
         "subtext": "",
-        "v4": "preparando"
+        "v4": "preparando",
+        "lang": "it",
+        "id": "it_starter_food_drink_006"
     },
     {
         "word": "organizzare",
@@ -4364,7 +4708,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈorganizzare",
         "subtext": "",
-        "v4": "organizzando"
+        "v4": "organizzando",
+        "lang": "it",
+        "id": "it_starter_work_044"
     },
     {
         "word": "pianificare",
@@ -4387,7 +4733,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈpianificare",
         "subtext": "",
-        "v4": "pianificando"
+        "v4": "pianificando",
+        "lang": "it",
+        "id": "it_starter_work_045"
     },
     {
         "word": "prendere in prestito",
@@ -4409,7 +4757,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈprendere in prestito",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_shopping_019"
     },
     {
         "word": "prestare",
@@ -4432,7 +4782,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈprestare",
         "subtext": "",
-        "v4": "prestando"
+        "v4": "prestando",
+        "lang": "it",
+        "id": "it_starter_shopping_020"
     },
     {
         "word": "odorare",
@@ -4455,12 +4807,14 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈodorare",
         "subtext": "",
-        "v4": "odorando"
+        "v4": "odorando",
+        "lang": "it",
+        "id": "it_starter_body_003"
     },
     {
         "word": "assaggiare",
         "level": "starter",
-        "theme": "tastes_textures",
+        "theme": "describing",
         "emoji": "👅",
         "form": "verb",
         "definitions": [
@@ -4478,7 +4832,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈassaggiare",
         "subtext": "",
-        "v4": "assaggiando"
+        "v4": "assaggiando",
+        "lang": "it",
+        "id": "it_starter_describing_002"
     },
     {
         "word": "sdraiarsi",
@@ -4501,7 +4857,9 @@ const data = [
         "auxiliary": "essere",
         "transcription": "ˈsdraiarsi",
         "subtext": "",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "it",
+        "id": "it_starter_work_046"
     },
     {
         "word": "ridere",
@@ -4523,7 +4881,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈridere",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_emotions_009"
     },
     {
         "word": "preoccuparsi",
@@ -4546,7 +4906,9 @@ const data = [
         "auxiliary": "essere",
         "transcription": "ˈpreoccuparsi",
         "subtext": "",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "it",
+        "id": "it_starter_emotions_010"
     },
     {
         "word": "suonare",
@@ -4569,12 +4931,14 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈsuonare",
         "subtext": "",
-        "v4": "suonando"
+        "v4": "suonando",
+        "lang": "it",
+        "id": "it_starter_social_027"
     },
     {
         "word": "compitare",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🔤",
         "form": "verb",
         "definitions": [
@@ -4592,12 +4956,14 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈcompitare",
         "subtext": "",
-        "v4": "compitando"
+        "v4": "compitando",
+        "lang": "it",
+        "id": "it_starter_school_016"
     },
     {
         "word": "indicare",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "☝️",
         "form": "verb",
         "definitions": [
@@ -4615,12 +4981,14 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈindicare",
         "subtext": "",
-        "v4": "indicando"
+        "v4": "indicando",
+        "lang": "it",
+        "id": "it_starter_school_017"
     },
     {
         "word": "gridare",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "📢",
         "form": "verb",
         "definitions": [
@@ -4638,13 +5006,14 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈgridare",
         "subtext": "",
-        "v4": "gridando"
+        "v4": "gridando",
+        "lang": "it",
+        "id": "it_starter_school_018"
     },
     {
         "word": "salutare",
-        "image": "images/vocabulary/actions/to wave. to greet.png",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "👋",
         "form": "verb",
         "definitions": [
@@ -4662,7 +5031,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈsalutare",
         "subtext": "",
-        "v4": "salutando"
+        "v4": "salutando",
+        "lang": "it",
+        "id": "it_starter_social_028"
     },
     {
         "word": "calciare",
@@ -4685,7 +5056,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈcalciare",
         "subtext": "",
-        "v4": "calciando"
+        "v4": "calciando",
+        "lang": "it",
+        "id": "it_starter_sports_004"
     },
     {
         "word": "lanciare",
@@ -4708,7 +5081,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈlanciare",
         "subtext": "",
-        "v4": "lanciando"
+        "v4": "lanciando",
+        "lang": "it",
+        "id": "it_starter_sports_005"
     },
     {
         "word": "rimbalzare",
@@ -4731,7 +5106,9 @@ const data = [
         "auxiliary": "essere",
         "transcription": "ˈrimbalzare",
         "subtext": "",
-        "v4": "rimbalzando"
+        "v4": "rimbalzando",
+        "lang": "it",
+        "id": "it_starter_sports_006"
     },
     {
         "word": "dipingere",
@@ -4753,7 +5130,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈdipingere",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_hobbies_interests_001"
     },
     {
         "word": "saltellare",
@@ -4776,7 +5155,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈsaltellare",
         "subtext": "",
-        "v4": "saltellando"
+        "v4": "saltellando",
+        "lang": "it",
+        "id": "it_starter_social_029"
     },
     {
         "word": "saltare",
@@ -4799,7 +5180,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈsaltare",
         "subtext": "",
-        "v4": "saltando"
+        "v4": "saltando",
+        "lang": "it",
+        "id": "it_starter_social_030"
     },
     {
         "word": "contare",
@@ -4822,12 +5205,14 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈcontare",
         "subtext": "",
-        "v4": "contando"
+        "v4": "contando",
+        "lang": "it",
+        "id": "it_starter_numbers_0_9_001"
     },
     {
         "word": "segnare",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "✅",
         "form": "verb",
         "definitions": [
@@ -4845,12 +5230,14 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈsegnare",
         "subtext": "",
-        "v4": "segnando"
+        "v4": "segnando",
+        "lang": "it",
+        "id": "it_starter_school_019"
     },
     {
         "word": "barrare",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "❌",
         "form": "verb",
         "definitions": [
@@ -4868,12 +5255,14 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈbarrare",
         "subtext": "",
-        "v4": "barrando"
+        "v4": "barrando",
+        "lang": "it",
+        "id": "it_starter_school_020"
     },
     {
         "word": "colorare",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🖍️",
         "form": "verb",
         "definitions": [
@@ -4891,7 +5280,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈcolorare",
         "subtext": "",
-        "v4": "colorando"
+        "v4": "colorando",
+        "lang": "it",
+        "id": "it_starter_school_021"
     },
     {
         "word": "tenere",
@@ -4925,7 +5316,9 @@ const data = [
                     "tengono"
                 ]
             }
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_work_047"
     },
     {
         "word": "guidare",
@@ -4948,7 +5341,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈguidare",
         "subtext": "",
-        "v4": "guidando"
+        "v4": "guidando",
+        "lang": "it",
+        "id": "it_starter_work_048"
     },
     {
         "word": "combattere",
@@ -4970,7 +5365,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈcombattere",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_emotions_011"
     },
     {
         "word": "nascondere",
@@ -4992,7 +5389,9 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈnascondere",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_social_031"
     },
     {
         "word": "cercare",
@@ -5016,7 +5415,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "tʃerˈkare",
         "subtext": "cercare di fare",
-        "v4": "cercando"
+        "v4": "cercando",
+        "lang": "it",
+        "id": "it_starter_social_032"
     },
     {
         "word": "suonare",
@@ -5039,7 +5440,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈsuonare",
         "subtext": "",
-        "v4": "suonando"
+        "v4": "suonando",
+        "lang": "it",
+        "id": "it_starter_technology_003"
     },
     {
         "word": "mandare un SMS",
@@ -5061,12 +5464,14 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈmandare un sms",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_using_smartphone_001"
     },
     {
         "word": "sussurrare",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🤫",
         "form": "verb",
         "definitions": [
@@ -5084,7 +5489,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈsussurrare",
         "subtext": "",
-        "v4": "sussurrando"
+        "v4": "sussurrando",
+        "lang": "it",
+        "id": "it_starter_school_022"
     },
     {
         "word": "toccare",
@@ -5107,7 +5514,9 @@ const data = [
         "auxiliary": "avere",
         "transcription": "ˈtoccare",
         "subtext": "",
-        "v4": "toccando"
+        "v4": "toccando",
+        "lang": "it",
+        "id": "it_starter_health_body_001"
     },
     {
         "word": "potere",
@@ -5142,7 +5551,9 @@ const data = [
                     "possono"
                 ]
             }
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_language_006"
     },
     {
         "word": "conoscere",
@@ -5166,7 +5577,9 @@ const data = [
         "v3": "conosciuto",
         "group": "ere",
         "auxiliary": "avere",
-        "v4": "conoscendo"
+        "v4": "conoscendo",
+        "lang": "it",
+        "id": "it_starter_people_003"
     },
     {
         "word": "riuscire",
@@ -5189,12 +5602,14 @@ const data = [
         "aspect": "action",
         "v3": "riuscito",
         "group": "ire",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "lang": "it",
+        "id": "it_starter_work_049"
     },
     {
         "word": "stare",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "🏠",
         "subtext": "stare bene / stare a casa",
         "form": "verb",
@@ -5228,7 +5643,9 @@ const data = [
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "stare"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_social_033"
     },
     {
         "word": "uscire",
@@ -5263,7 +5680,9 @@ const data = [
                     "escono"
                 ]
             }
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_work_050"
     },
     {
         "word": "dovere",
@@ -5298,7 +5717,9 @@ const data = [
                     "devono"
                 ]
             }
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_work_051"
     },
     {
         "word": "entrare",
@@ -5321,12 +5742,14 @@ const data = [
         "v3": "entrato",
         "group": "are",
         "auxiliary": "essere",
-        "v4": "entrando"
+        "v4": "entrando",
+        "lang": "it",
+        "id": "it_starter_places_002"
     },
     {
         "word": "salire",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🪜",
         "subtext": "salire le scale / salire sull'autobus",
         "form": "verb",
@@ -5343,12 +5766,14 @@ const data = [
         "aspect": "action",
         "v3": "salito",
         "group": "ire",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "lang": "it",
+        "id": "it_starter_travel_019"
     },
     {
         "word": "scendere",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "📉",
         "subtext": "scendere le scale / scendere dal treno",
         "form": "verb",
@@ -5365,7 +5790,9 @@ const data = [
         "aspect": "action",
         "v3": "sceso",
         "group": "ere",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "lang": "it",
+        "id": "it_starter_travel_020"
     },
     {
         "word": "accendere",
@@ -5388,8 +5815,12 @@ const data = [
         "v3": "acceso",
         "group": "ere",
         "auxiliary": "avere",
-        "opposite": "spegnere",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "antonyms": [
+            "spegnere"
+        ],
+        "id": "it_starter_technology_004"
     },
     {
         "word": "spegnere",
@@ -5412,8 +5843,12 @@ const data = [
         "v3": "spento",
         "group": "ere",
         "auxiliary": "avere",
-        "opposite": "accendere",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "antonyms": [
+            "accendere"
+        ],
+        "id": "it_starter_technology_005"
     },
     {
         "word": "respirare",
@@ -5437,7 +5872,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "subtext": "",
-        "v4": "respirando"
+        "v4": "respirando",
+        "lang": "it",
+        "id": "it_starter_health_body_002"
     },
     {
         "word": "tossire",
@@ -5461,7 +5898,9 @@ const data = [
         "group": "ire",
         "auxiliary": "avere",
         "subtext": "",
-        "v4": "tossendo"
+        "v4": "tossendo",
+        "lang": "it",
+        "id": "it_starter_health_medicine_005"
     },
     {
         "word": "starnutire",
@@ -5485,7 +5924,9 @@ const data = [
         "group": "ire",
         "auxiliary": "avere",
         "subtext": "",
-        "v4": "starnutendo"
+        "v4": "starnutendo",
+        "lang": "it",
+        "id": "it_starter_health_medicine_006"
     },
     {
         "word": "sbadigliare",
@@ -5509,7 +5950,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "subtext": "",
-        "v4": "sbadigliando"
+        "v4": "sbadigliando",
+        "lang": "it",
+        "id": "it_starter_health_body_003"
     },
     {
         "word": "arrampicarsi",
@@ -5534,11 +5977,12 @@ const data = [
         "auxiliary": "essere",
         "subtext": "",
         "reflexive": true,
-        "v4": "arrampicaando"
+        "v4": "arrampicaando",
+        "lang": "it",
+        "id": "it_starter_nature_002"
     },
     {
         "word": "vestirsi",
-        "image": "images/vocabulary/actions/to get dressed.png",
         "level": "starter",
         "theme": "work",
         "emoji": "👗",
@@ -5558,10 +6002,14 @@ const data = [
         "v3": "vestito",
         "group": "are",
         "auxiliary": "essere",
-        "opposite": "spogliarsi",
         "subtext": "",
         "reflexive": true,
-        "v4": "vestiando"
+        "v4": "vestiando",
+        "lang": "it",
+        "antonyms": [
+            "spogliarsi"
+        ],
+        "id": "it_starter_work_052"
     },
     {
         "word": "spogliarsi",
@@ -5584,10 +6032,14 @@ const data = [
         "v3": "spogliato",
         "group": "are",
         "auxiliary": "essere",
-        "opposite": "vestirsi",
         "subtext": "",
         "reflexive": true,
-        "v4": "spogliaando"
+        "v4": "spogliaando",
+        "lang": "it",
+        "antonyms": [
+            "vestirsi"
+        ],
+        "id": "it_starter_work_053"
     },
     {
         "word": "riempire",
@@ -5611,12 +6063,14 @@ const data = [
         "group": "ire",
         "auxiliary": "avere",
         "subtext": "",
-        "v4": "riempendo"
+        "v4": "riempendo",
+        "lang": "it",
+        "id": "it_starter_furniture_007"
     },
     {
         "word": "desiderare",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🤞",
         "form": "verb",
         "transcription": "dezideˈrare",
@@ -5635,7 +6089,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "subtext": "",
-        "v4": "desiderando"
+        "v4": "desiderando",
+        "lang": "it",
+        "id": "it_starter_social_034"
     },
     {
         "word": "descrivere",
@@ -5658,7 +6114,9 @@ const data = [
         "v3": "descritto",
         "group": "ere",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_social_035"
     },
     {
         "word": "annotare",
@@ -5682,7 +6140,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "subtext": "",
-        "v4": "annotando"
+        "v4": "annotando",
+        "lang": "it",
+        "id": "it_starter_work_054"
     },
     {
         "word": "produrre",
@@ -5704,7 +6164,9 @@ const data = [
         "v3": "prodotto",
         "group": "are",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_work_055"
     },
     {
         "word": "progettare",
@@ -5727,7 +6189,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "subtext": "",
-        "v4": "progettando"
+        "v4": "progettando",
+        "lang": "it",
+        "id": "it_starter_work_056"
     },
     {
         "word": "funzionare",
@@ -5750,7 +6214,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "subtext": "",
-        "v4": "funzionando"
+        "v4": "funzionando",
+        "lang": "it",
+        "id": "it_starter_technology_006"
     },
     {
         "word": "smettere",
@@ -5773,7 +6239,9 @@ const data = [
         "v3": "smesso",
         "group": "ere",
         "auxiliary": "avere",
-        "subtext": "smettere di"
+        "subtext": "smettere di",
+        "lang": "it",
+        "id": "it_starter_work_057"
     },
     {
         "word": "completare",
@@ -5796,7 +6264,9 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "subtext": "",
-        "v4": "completando"
+        "v4": "completando",
+        "lang": "it",
+        "id": "it_starter_work_058"
     }
 ];
     const lang = "it";

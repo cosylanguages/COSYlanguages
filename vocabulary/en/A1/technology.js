@@ -20,12 +20,14 @@
         "v2": "phoned",
         "v3": "phoned",
         "group": "regular",
-        "opposite": "text",
         "transcription": "foʊn",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "text"
+        ]
     },
     {
         "id": "en_starter_technology_003",
@@ -560,12 +562,14 @@
         "v2": "used",
         "v3": "used",
         "group": "regular",
-        "opposite": "waste",
         "transcription": "juz",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "waste"
+        ]
     },
     {
         "id": "en_starter_technology_018",
@@ -586,12 +590,14 @@
         "v2": "called",
         "v3": "called",
         "group": "regular",
-        "opposite": "hang up",
         "transcription": "kɔl",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "hang up"
+        ]
     },
     {
         "id": "en_starter_technology_019",
@@ -616,12 +622,14 @@
         "v2": "rang",
         "v3": "rung",
         "group": "irregular",
-        "opposite": "be silent",
         "transcription": "rɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "be silent"
+        ]
     },
     {
         "id": "en_starter_using_smartphone_009",
@@ -645,20 +653,20 @@
         "v2": "texted",
         "v3": "texted",
         "group": "regular",
-        "opposite": "call",
         "transcription": "tɛkst",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "call"
+        ]
     },
     {
         "id": "en_starter_technology_020",
         "word": "turn on",
         "emoji": "💡",
         "subtext": "turn on the light / turn on the TV / turn on the radio",
-        "opposite": "turn off",
-        "oppositeEmoji": "🌑",
         "form": "verb",
         "definitions": [
             {
@@ -678,15 +686,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "turn off"
+        ]
     },
     {
         "id": "en_starter_technology_021",
         "word": "turn off",
         "emoji": "🌑",
         "subtext": "turn off the light / turn off the computer / turn off your phone",
-        "opposite": "turn on",
-        "oppositeEmoji": "💡",
         "form": "verb",
         "definitions": [
             {
@@ -706,15 +715,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "turn on"
+        ]
     },
     {
         "id": "en_starter_technology_022",
         "word": "online",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "offline",
-        "oppositeEmoji": "📴",
         "definitions": [
             {
                 "text": "Using the internet.",
@@ -730,15 +740,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "offline"
+        ]
     },
     {
         "id": "en_starter_technology_023",
         "word": "offline",
         "emoji": "📴",
         "form": "adjective",
-        "opposite": "online",
-        "oppositeEmoji": "🌐",
         "subtext": "work offline / go offline",
         "synonyms": [
             "disconnected"
@@ -757,7 +768,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "online"
+        ]
     }
 ];
     const lang = "en";

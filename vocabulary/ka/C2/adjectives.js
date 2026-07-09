@@ -15,7 +15,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_001"
+        "id": "ka_proficiency_language_001",
+        "transcription": ""
     },
     {
         "word": "ჰერმენევტიკული",
@@ -30,7 +31,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_002"
+        "id": "ka_proficiency_language_002",
+        "transcription": ""
     },
     {
         "word": "ტავტოლოგიური",
@@ -45,7 +47,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_003"
+        "id": "ka_proficiency_language_003",
+        "transcription": ""
     },
     {
         "word": "პოლისემიური",
@@ -60,7 +63,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_004"
+        "id": "ka_proficiency_language_004",
+        "transcription": ""
     },
     {
         "word": "ევრისტიკული",
@@ -75,7 +79,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_001"
+        "id": "ka_proficiency_psychology_001",
+        "transcription": ""
     },
     {
         "word": "პოსტკოლონიური",
@@ -90,7 +95,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_001"
+        "id": "ka_proficiency_social_001",
+        "transcription": ""
     },
     {
         "word": "მულტიპოლარული",
@@ -105,7 +111,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_002"
+        "id": "ka_proficiency_social_002",
+        "transcription": ""
     },
     {
         "word": "კოსმოპოლიტური",
@@ -120,7 +127,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_003"
+        "id": "ka_proficiency_social_003",
+        "transcription": ""
     },
     {
         "word": "ნარცისული",
@@ -135,7 +143,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_002"
+        "id": "ka_proficiency_psychology_002",
+        "transcription": ""
     },
     {
         "word": "ჰეტეროდოქსული",
@@ -150,7 +159,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_005"
+        "id": "ka_proficiency_language_005",
+        "transcription": ""
     },
     {
         "word": "იმანენტური",
@@ -165,7 +175,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_006"
+        "id": "ka_proficiency_language_006",
+        "transcription": ""
     },
     {
         "word": "მკვეთრი",
@@ -180,7 +191,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_007"
+        "id": "ka_proficiency_language_007",
+        "transcription": ""
     },
     {
         "word": "აბსტრუსული",
@@ -195,7 +207,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_003"
+        "id": "ka_proficiency_psychology_003",
+        "transcription": ""
     },
     {
         "word": "ანაქრონისტული",
@@ -210,7 +223,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_time_001"
+        "id": "ka_proficiency_time_001",
+        "transcription": ""
     },
     {
         "word": "ანტითეტიკური",
@@ -225,7 +239,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_008"
+        "id": "ka_proficiency_language_008",
+        "transcription": ""
     },
     {
         "word": "არკანული",
@@ -240,7 +255,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_004"
+        "id": "ka_proficiency_psychology_004",
+        "transcription": ""
     },
     {
         "word": "ატიპიური",
@@ -255,7 +271,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_009"
+        "id": "ka_proficiency_language_009",
+        "transcription": ""
     },
     {
         "word": "ბინარული",
@@ -270,7 +287,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_010"
+        "id": "ka_proficiency_language_010",
+        "transcription": ""
     },
     {
         "word": "კატეგორიული",
@@ -285,7 +303,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_011"
+        "id": "ka_proficiency_language_011",
+        "transcription": ""
     },
     {
         "word": "წინდახედული",
@@ -300,7 +319,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_004"
+        "id": "ka_proficiency_social_004",
+        "transcription": ""
     },
     {
         "word": "ფარული",
@@ -315,7 +335,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_005"
+        "id": "ka_proficiency_social_005",
+        "transcription": ""
     },
     {
         "word": "დიალექტიკური",
@@ -330,7 +351,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_012"
+        "id": "ka_proficiency_language_012",
+        "transcription": ""
     },
     {
         "word": "დიფუზური",
@@ -345,7 +367,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_013"
+        "id": "ka_proficiency_language_013",
+        "transcription": ""
     },
     {
         "word": "მიუღწეველი",
@@ -360,7 +383,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_005"
+        "id": "ka_proficiency_psychology_005",
+        "transcription": ""
     },
     {
         "word": "ეზოთერული",
@@ -375,7 +399,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_006"
+        "id": "ka_proficiency_psychology_006",
+        "transcription": ""
     },
     {
         "word": "მცდარი",
@@ -390,7 +415,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_014"
+        "id": "ka_proficiency_language_014",
+        "transcription": ""
     },
     {
         "word": "უცვლელი",
@@ -405,7 +431,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_015"
+        "id": "ka_proficiency_language_015",
+        "transcription": ""
     },
     {
         "word": "მიუკერძოებელი",
@@ -420,7 +447,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_006"
+        "id": "ka_proficiency_social_006",
+        "transcription": ""
     },
     {
         "word": "თანამგზავრი",
@@ -435,7 +463,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_016"
+        "id": "ka_proficiency_language_016",
+        "transcription": ""
     },
     {
         "word": "თანდაყოლილი",
@@ -450,7 +479,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_017"
+        "id": "ka_proficiency_language_017",
+        "transcription": ""
     },
     {
         "word": "განუმეორებელი",
@@ -465,7 +495,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_art_culture_001"
+        "id": "ka_proficiency_art_culture_001",
+        "transcription": ""
     },
     {
         "word": "ვერაგული",
@@ -480,7 +511,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_007"
+        "id": "ka_proficiency_social_007",
+        "transcription": ""
     },
     {
         "word": "შეურიგებელი",
@@ -495,7 +527,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_018"
+        "id": "ka_proficiency_language_018",
+        "transcription": ""
     },
     {
         "word": "ლიმინალური",
@@ -510,7 +543,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_019"
+        "id": "ka_proficiency_language_019",
+        "transcription": ""
     },
     {
         "word": "მრავალფეროვანი",
@@ -525,7 +559,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_020"
+        "id": "ka_proficiency_language_020",
+        "transcription": ""
     },
     {
         "word": "ბუნდოვანი",
@@ -540,7 +575,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_psychology_007"
+        "id": "ka_proficiency_psychology_007",
+        "transcription": ""
     },
     {
         "word": "ნორმატიული",
@@ -555,7 +591,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_008"
+        "id": "ka_proficiency_social_008",
+        "transcription": ""
     },
     {
         "word": "ნიუანსირებული",
@@ -570,7 +607,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_021"
+        "id": "ka_proficiency_language_021",
+        "transcription": ""
     },
     {
         "word": "ირიბი",
@@ -585,7 +623,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_022"
+        "id": "ka_proficiency_language_022",
+        "transcription": ""
     },
     {
         "word": "გაუმჭვირვალე",
@@ -600,7 +639,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_023"
+        "id": "ka_proficiency_language_023",
+        "transcription": ""
     },
     {
         "word": "მოჩვენებითი",
@@ -615,7 +655,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_024"
+        "id": "ka_proficiency_language_024",
+        "transcription": ""
     },
     {
         "word": "პარადოქსული",
@@ -630,7 +671,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_025"
+        "id": "ka_proficiency_language_025",
+        "transcription": ""
     },
     {
         "word": "ყოველგანმსჭვალავი",
@@ -645,7 +687,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_time_002"
+        "id": "ka_proficiency_time_002",
+        "transcription": ""
     },
     {
         "word": "პოლარიზებადი",
@@ -660,7 +703,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_009"
+        "id": "ka_proficiency_social_009",
+        "transcription": ""
     },
     {
         "word": "არამდგრადი",
@@ -675,7 +719,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_026"
+        "id": "ka_proficiency_language_026",
+        "transcription": ""
     },
     {
         "word": "პრესკრიპციული",
@@ -690,7 +735,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_027"
+        "id": "ka_proficiency_language_027",
+        "transcription": ""
     },
     {
         "word": "გაჭიანურებული",
@@ -705,7 +751,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_time_003"
+        "id": "ka_proficiency_time_003",
+        "transcription": ""
     },
     {
         "word": "რედუქციული",
@@ -720,7 +767,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_028"
+        "id": "ka_proficiency_language_028",
+        "transcription": ""
     },
     {
         "word": "ფუძემდებლური",
@@ -735,7 +783,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_time_004"
+        "id": "ka_proficiency_time_004",
+        "transcription": ""
     },
     {
         "word": "სპეციოზური",
@@ -750,7 +799,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_029"
+        "id": "ka_proficiency_language_029",
+        "transcription": ""
     },
     {
         "word": "ყალბი",
@@ -765,7 +815,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_030"
+        "id": "ka_proficiency_language_030",
+        "transcription": ""
     },
     {
         "word": "სუბვერსიული",
@@ -780,7 +831,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_social_010"
+        "id": "ka_proficiency_social_010",
+        "transcription": ""
     },
     {
         "word": "უხმო",
@@ -795,7 +847,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_031"
+        "id": "ka_proficiency_language_031",
+        "transcription": ""
     },
     {
         "word": "სუსტი",
@@ -810,7 +863,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_032"
+        "id": "ka_proficiency_language_032",
+        "transcription": ""
     },
     {
         "word": "წარმავალი",
@@ -825,7 +879,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_time_005"
+        "id": "ka_proficiency_time_005",
+        "transcription": ""
     },
     {
         "word": "უბიკვიტური",
@@ -840,7 +895,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_time_006"
+        "id": "ka_proficiency_time_006",
+        "transcription": ""
     },
     {
         "word": "ცალსახა",
@@ -855,7 +911,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_033"
+        "id": "ka_proficiency_language_033",
+        "transcription": ""
     },
     {
         "word": "უპრეცედენტო",
@@ -870,7 +927,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_time_007"
+        "id": "ka_proficiency_time_007",
+        "transcription": ""
     },
     {
         "word": "დაუცველი",
@@ -885,7 +943,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_034"
+        "id": "ka_proficiency_language_034",
+        "transcription": ""
     },
     {
         "word": "მოუხერხებელი",
@@ -900,7 +959,8 @@
             }
         ],
         "lang": "ka",
-        "id": "ka_proficiency_language_035"
+        "id": "ka_proficiency_language_035",
+        "transcription": ""
     }
 ];
 

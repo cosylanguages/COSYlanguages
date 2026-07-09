@@ -6,8 +6,6 @@
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "тәпәш",
-        "oppositeEmoji": "📏",
         "definitions": [
             {
                 "text": "Аҫтан өҫкә табан ҙур булған кеше йәки нәмә.",
@@ -17,20 +15,27 @@
             }
         ],
         "subtext": "бейек бина / етерлек бейек",
-        "synonyms": ["оҙон кеше"],
+        "synonyms": [
+            "оҙон кеше"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "бейек",
         "plural": "бейек",
-        "femininePlural": "бейек"
+        "femininePlural": "бейек",
+        "lang": "ba",
+        "antonyms": [
+            "тәпәш"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_001"
     },
     {
         "word": "тәпәш",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "бейек",
-        "oppositeEmoji": "🗼",
         "definitions": [
             {
                 "text": "Бейек булмаған кеше йәки нәмә.",
@@ -40,20 +45,29 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ҡыҫҡа сәйәхәт", "ҡыҫҡа сәс", "бик ҡыҫҡа"],
+        "synonyms": [
+            "ҡыҫҡа сәйәхәт",
+            "ҡыҫҡа сәс",
+            "бик ҡыҫҡа"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "тәпәш",
         "plural": "тәпәш",
-        "femininePlural": "тәпәш"
+        "femininePlural": "тәпәш",
+        "lang": "ba",
+        "antonyms": [
+            "бейек"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_002"
     },
     {
         "word": "йәш",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "ҡарт",
-        "oppositeEmoji": "👴",
         "definitions": [
             {
                 "text": "Аҙ ғына ваҡыт йәшәгән кеше.",
@@ -67,15 +81,20 @@
         "superlative": null,
         "feminine": "йәш",
         "plural": "йәш",
-        "femininePlural": "йәш"
+        "femininePlural": "йәш",
+        "lang": "ba",
+        "antonyms": [
+            "ҡарт"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_003"
     },
     {
         "word": "ҡарт",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "йәш",
-        "oppositeEmoji": "👶",
         "definitions": [
             {
                 "text": "Күп ваҡыт йәшәгән кеше.",
@@ -85,12 +104,21 @@
             }
         ],
         "subtext": "ҡарт дуҫ / бик ҡарт",
-        "synonyms": ["иҫке ғәҙәттәр"],
+        "synonyms": [
+            "иҫке ғәҙәттәр"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "ҡарт",
         "plural": "ҡарт",
-        "femininePlural": "ҡарт"
+        "femininePlural": "ҡарт",
+        "lang": "ba",
+        "antonyms": [
+            "йәш"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_004"
     },
     {
         "word": "ҡояшлы",
@@ -111,7 +139,10 @@
         "superlative": null,
         "feminine": "ҡояшлы",
         "plural": "ҡояшлы",
-        "femininePlural": "ҡояшлы"
+        "femininePlural": "ҡояшлы",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_nature_001"
     },
     {
         "word": "ямғырлы",
@@ -132,7 +163,10 @@
         "superlative": null,
         "feminine": "ямғырлы",
         "plural": "ямғырлы",
-        "femininePlural": "ямғырлы"
+        "femininePlural": "ямғырлы",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_nature_002"
     },
     {
         "word": "эҫе",
@@ -140,8 +174,6 @@
         "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "һыуыҡ",
-        "oppositeEmoji": "❄️",
         "subtext": "бик эҫе / эҫе һауа торошо / эҫе эсемлек",
         "definitions": [
             {
@@ -155,7 +187,13 @@
         "superlative": null,
         "feminine": "эҫе",
         "plural": "эҫе",
-        "femininePlural": "эҫе"
+        "femininePlural": "эҫе",
+        "lang": "ba",
+        "antonyms": [
+            "һыуыҡ"
+        ],
+        "transcription": "",
+        "id": "ba_starter_nature_003"
     },
     {
         "word": "һыуыҡ",
@@ -163,8 +201,6 @@
         "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "эҫе",
-        "oppositeEmoji": "🔥",
         "subtext": "бик һыуыҡ / һыуыҡ иртә / һыуыҡ эсемлек",
         "definitions": [
             {
@@ -178,15 +214,19 @@
         "superlative": null,
         "feminine": "һыуыҡ",
         "plural": "һыуыҡ",
-        "femininePlural": "һыуыҡ"
+        "femininePlural": "һыуыҡ",
+        "lang": "ba",
+        "antonyms": [
+            "эҫе"
+        ],
+        "transcription": "",
+        "id": "ba_starter_nature_004"
     },
     {
         "word": "ябай",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "үҙенсәлекле",
-        "oppositeEmoji": "✨",
         "definitions": [
             {
                 "text": "Ғәҙәти, үҙенсәлекле булмаған.",
@@ -200,7 +240,14 @@
         "superlative": null,
         "feminine": "ябай",
         "plural": "ябай",
-        "femininePlural": "ябай"
+        "femininePlural": "ябай",
+        "lang": "ba",
+        "antonyms": [
+            "үҙенсәлекле"
+        ],
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_005"
     },
     {
         "word": "осһоҙ",
@@ -208,8 +255,6 @@
         "theme": "shopping",
         "emoji": "🏷️",
         "form": "adjective",
-        "opposite": "ҡиммәт",
-        "oppositeEmoji": "💎",
         "subtext": "осһоҙ бәйә / осһоҙ осош",
         "definitions": [
             {
@@ -223,7 +268,13 @@
         "superlative": null,
         "feminine": "осһоҙ",
         "plural": "осһоҙ",
-        "femininePlural": "осһоҙ"
+        "femininePlural": "осһоҙ",
+        "lang": "ba",
+        "antonyms": [
+            "ҡиммәт"
+        ],
+        "transcription": "",
+        "id": "ba_starter_shopping_001"
     },
     {
         "word": "ҡиммәт",
@@ -231,10 +282,11 @@
         "theme": "shopping",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "осһоҙ",
-        "oppositeEmoji": "🏷️",
         "subtext": "",
-        "synonyms": ["ҡиммәтле", "бик ҡиммәт"],
+        "synonyms": [
+            "ҡиммәтле",
+            "бик ҡиммәт"
+        ],
         "definitions": [
             {
                 "text": "Күп аҡса торған нәмә.",
@@ -247,7 +299,13 @@
         "superlative": null,
         "feminine": "ҡиммәт",
         "plural": "ҡиммәт",
-        "femininePlural": "ҡиммәт"
+        "femininePlural": "ҡиммәт",
+        "lang": "ba",
+        "antonyms": [
+            "осһоҙ"
+        ],
+        "transcription": "",
+        "id": "ba_starter_shopping_002"
     },
     {
         "word": "яҡшы",
@@ -255,10 +313,10 @@
         "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "насар",
-        "oppositeEmoji": "👎",
         "subtext": "яҡшы идея",
-        "synonyms": ["уңыштар"],
+        "synonyms": [
+            "уңыштар"
+        ],
         "definitions": [
             {
                 "text": "Сифатлы йәки оҡшаған.",
@@ -271,7 +329,13 @@
         "superlative": null,
         "feminine": "яҡшы",
         "plural": "яҡшы",
-        "femininePlural": "яҡшы"
+        "femininePlural": "яҡшы",
+        "lang": "ba",
+        "antonyms": [
+            "насар"
+        ],
+        "transcription": "",
+        "id": "ba_starter_describing_006"
     },
     {
         "word": "насар",
@@ -279,8 +343,6 @@
         "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "яҡшы",
-        "oppositeEmoji": "👍",
         "subtext": "насар хәбәрҙәр / насар ҡарар",
         "definitions": [
             {
@@ -294,7 +356,13 @@
         "superlative": null,
         "feminine": "насар",
         "plural": "насар",
-        "femininePlural": "насар"
+        "femininePlural": "насар",
+        "lang": "ba",
+        "antonyms": [
+            "яҡшы"
+        ],
+        "transcription": "",
+        "id": "ba_starter_describing_007"
     },
     {
         "word": "ҙур",
@@ -302,8 +370,6 @@
         "theme": "describing",
         "emoji": "🐘",
         "form": "adjective",
-        "opposite": "бәләкәй",
-        "oppositeEmoji": "🐭",
         "subtext": "ҙур өй / ҙур проблема",
         "definitions": [
             {
@@ -317,7 +383,13 @@
         "superlative": null,
         "feminine": "ҙур",
         "plural": "ҙур",
-        "femininePlural": "ҙур"
+        "femininePlural": "ҙур",
+        "lang": "ba",
+        "antonyms": [
+            "бәләкәй"
+        ],
+        "transcription": "",
+        "id": "ba_starter_describing_008"
     },
     {
         "word": "бәләкәй",
@@ -325,8 +397,6 @@
         "theme": "describing",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "ҙур",
-        "oppositeEmoji": "🐘",
         "subtext": "бәләкәй фатир / бәләкәй эш хаҡы",
         "definitions": [
             {
@@ -340,7 +410,13 @@
         "superlative": null,
         "feminine": "бәләкәй",
         "plural": "бәләкәй",
-        "femininePlural": "бәләкәй"
+        "femininePlural": "бәләкәй",
+        "lang": "ba",
+        "antonyms": [
+            "ҙур"
+        ],
+        "transcription": "",
+        "id": "ba_starter_describing_009"
     },
     {
         "word": "еңел",
@@ -348,8 +424,6 @@
         "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "ҡыйын",
-        "oppositeEmoji": "❌",
         "definitions": [
             {
                 "text": "Ҡыйын булмаған.",
@@ -363,7 +437,13 @@
         "superlative": null,
         "feminine": "еңел",
         "plural": "еңел",
-        "femininePlural": "еңел"
+        "femininePlural": "еңел",
+        "lang": "ba",
+        "antonyms": [
+            "ҡыйын"
+        ],
+        "transcription": "",
+        "id": "ba_starter_describing_010"
     },
     {
         "word": "ҡыйын",
@@ -371,8 +451,6 @@
         "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "еңел",
-        "oppositeEmoji": "✅",
         "definitions": [
             {
                 "text": "Эшләүе ауыр булған.",
@@ -386,7 +464,13 @@
         "superlative": null,
         "feminine": "ҡыйын",
         "plural": "ҡыйын",
-        "femininePlural": "ҡыйын"
+        "femininePlural": "ҡыйын",
+        "lang": "ba",
+        "antonyms": [
+            "еңел"
+        ],
+        "transcription": "",
+        "id": "ba_starter_describing_011"
     },
     {
         "word": "бәхетле",
@@ -395,7 +479,9 @@
         "emoji": "😊",
         "form": "adjective",
         "subtext": "бәхетле көн",
-        "synonyms": ["шат"],
+        "synonyms": [
+            "шат"
+        ],
         "definitions": [
             {
                 "text": "Шатлыҡ кисергән кеше.",
@@ -408,7 +494,10 @@
         "superlative": null,
         "feminine": "бәхетле",
         "plural": "бәхетле",
-        "femininePlural": "бәхетле"
+        "femininePlural": "бәхетле",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_emotions_001"
     },
     {
         "word": "арыған",
@@ -417,7 +506,9 @@
         "emoji": "😫",
         "form": "adjective",
         "subtext": "бик арыған",
-        "synonyms": ["арыным"],
+        "synonyms": [
+            "арыным"
+        ],
         "definitions": [
             {
                 "text": "Ял итергә мохтаж.",
@@ -430,7 +521,10 @@
         "superlative": null,
         "feminine": "арыған",
         "plural": "арыған",
-        "femininePlural": "арыған"
+        "femininePlural": "арыған",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_emotions_002"
     },
     {
         "word": "тулы көн",
@@ -438,8 +532,6 @@
         "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "тулы булмаған көн",
-        "oppositeEmoji": "⏳",
         "definitions": [
             {
                 "text": "Тулы эш көнөндә эшләү.",
@@ -449,12 +541,20 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["тулы эш көнө"],
+        "synonyms": [
+            "тулы эш көнө"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "тулы көн",
         "plural": "тулы көн",
-        "femininePlural": "тулы көн"
+        "femininePlural": "тулы көн",
+        "lang": "ba",
+        "antonyms": [
+            "тулы булмаған көн"
+        ],
+        "transcription": "",
+        "id": "ba_starter_work_001"
     },
     {
         "word": "тулы булмаған көн",
@@ -462,8 +562,6 @@
         "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "тулы көн",
-        "oppositeEmoji": "⏰",
         "definitions": [
             {
                 "text": "Аҙыраҡ ваҡыт эшләү.",
@@ -477,7 +575,13 @@
         "superlative": null,
         "feminine": "тулы булмаған көн",
         "plural": "тулы булмаған көн",
-        "femininePlural": "тулы булмаған көн"
+        "femininePlural": "тулы булмаған көн",
+        "lang": "ba",
+        "antonyms": [
+            "тулы көн"
+        ],
+        "transcription": "",
+        "id": "ba_starter_work_002"
     },
     {
         "word": "таҙа",
@@ -485,8 +589,6 @@
         "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "бысраҡ",
-        "oppositeEmoji": "💩",
         "subtext": "таҙа кейем / таҙа бүлмә",
         "definitions": [
             {
@@ -500,7 +602,13 @@
         "superlative": null,
         "feminine": "таҙа",
         "plural": "таҙа",
-        "femininePlural": "таҙа"
+        "femininePlural": "таҙа",
+        "lang": "ba",
+        "antonyms": [
+            "бысраҡ"
+        ],
+        "transcription": "",
+        "id": "ba_starter_furniture_001"
     },
     {
         "word": "сәләмәт",
@@ -508,8 +616,6 @@
         "theme": "food_drink",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "насар ризыҡ",
-        "oppositeEmoji": "🍔",
         "subtext": "сәләмәт ризыҡ",
         "definitions": [
             {
@@ -523,7 +629,13 @@
         "superlative": null,
         "feminine": "сәләмәт",
         "plural": "сәләмәт",
-        "femininePlural": "сәләмәт"
+        "femininePlural": "сәләмәт",
+        "lang": "ba",
+        "antonyms": [
+            "насар ризыҡ"
+        ],
+        "transcription": "",
+        "id": "ba_starter_food_drink_001"
     },
     {
         "word": "ауырыу",
@@ -531,10 +643,10 @@
         "theme": "health_medicine",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "яҡшы",
-        "oppositeEmoji": "💪",
         "subtext": "",
-        "synonyms": ["ауырыйым"],
+        "synonyms": [
+            "ауырыйым"
+        ],
         "definitions": [
             {
                 "text": "Сәләмәт булмаған.",
@@ -547,7 +659,13 @@
         "superlative": null,
         "feminine": "ауырыу",
         "plural": "ауырыу",
-        "femininePlural": "ауырыу"
+        "femininePlural": "ауырыу",
+        "lang": "ba",
+        "antonyms": [
+            "яҡшы"
+        ],
+        "transcription": "",
+        "id": "ba_starter_health_medicine_001"
     },
     {
         "word": "онлайн",
@@ -555,8 +673,6 @@
         "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "оффлайн",
-        "oppositeEmoji": "📴",
         "definitions": [
             {
                 "text": "Интернет ҡулланып.",
@@ -570,7 +686,13 @@
         "superlative": null,
         "feminine": "онлайн",
         "plural": "онлайн",
-        "femininePlural": "онлайн"
+        "femininePlural": "онлайн",
+        "lang": "ba",
+        "antonyms": [
+            "оффлайн"
+        ],
+        "transcription": "",
+        "id": "ba_starter_technology_001"
     },
     {
         "word": "яңғыҙ",
@@ -578,8 +700,6 @@
         "theme": "social",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "бергә",
-        "oppositeEmoji": "👫",
         "definitions": [
             {
                 "text": "Башҡаларһыҙ.",
@@ -593,7 +713,13 @@
         "superlative": null,
         "feminine": "яңғыҙ",
         "plural": "яңғыҙ",
-        "femininePlural": "яңғыҙ"
+        "femininePlural": "яңғыҙ",
+        "lang": "ba",
+        "antonyms": [
+            "бергә"
+        ],
+        "transcription": "",
+        "id": "ba_starter_social_001"
     },
     {
         "word": "тыныс",
@@ -601,8 +727,6 @@
         "theme": "emotions",
         "emoji": "😌",
         "form": "adjective",
-        "opposite": "стресслы",
-        "oppositeEmoji": "😫",
         "subtext": "тыныс булыу",
         "definitions": [
             {
@@ -616,7 +740,13 @@
         "superlative": null,
         "feminine": "тыныс",
         "plural": "тыныс",
-        "femininePlural": "тыныс"
+        "femininePlural": "тыныс",
+        "lang": "ba",
+        "antonyms": [
+            "стресслы"
+        ],
+        "transcription": "",
+        "id": "ba_starter_emotions_003"
     },
     {
         "word": "борсоулы",
@@ -624,10 +754,10 @@
         "theme": "emotions",
         "emoji": "😟",
         "form": "adjective",
-        "opposite": "тыныс",
-        "oppositeEmoji": "😌",
         "subtext": "",
-        "synonyms": ["борсолоу"],
+        "synonyms": [
+            "борсолоу"
+        ],
         "definitions": [
             {
                 "text": "Хәүефләнгән.",
@@ -640,7 +770,13 @@
         "superlative": null,
         "feminine": "борсоулы",
         "plural": "борсоулы",
-        "femininePlural": "борсоулы"
+        "femininePlural": "борсоулы",
+        "lang": "ba",
+        "antonyms": [
+            "тыныс"
+        ],
+        "transcription": "",
+        "id": "ba_starter_emotions_004"
     },
     {
         "word": "мәшғүл",
@@ -661,7 +797,10 @@
         "superlative": null,
         "feminine": "мәшғүл",
         "plural": "мәшғүл",
-        "femininePlural": "мәшғүл"
+        "femininePlural": "мәшғүл",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_003"
     },
     {
         "word": "файҙалы",
@@ -669,8 +808,6 @@
         "theme": "describing",
         "emoji": "🛠️",
         "form": "adjective",
-        "opposite": "кәрәкһеҙ",
-        "oppositeEmoji": "🗑️",
         "subtext": "бик файҙалы",
         "definitions": [
             {
@@ -684,7 +821,13 @@
         "superlative": null,
         "feminine": "файҙалы",
         "plural": "файҙалы",
-        "femininePlural": "файҙалы"
+        "femininePlural": "файҙалы",
+        "lang": "ba",
+        "antonyms": [
+            "кәрәкһеҙ"
+        ],
+        "transcription": "",
+        "id": "ba_starter_describing_012"
     },
     {
         "word": "мөһим",
@@ -705,7 +848,10 @@
         "superlative": null,
         "feminine": "мөһим",
         "plural": "мөһим",
-        "femininePlural": "мөһим"
+        "femininePlural": "мөһим",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_describing_013"
     },
     {
         "word": "ҡыҙыл",
@@ -726,7 +872,10 @@
         "superlative": null,
         "feminine": "ҡыҙыл",
         "plural": "ҡыҙыл",
-        "femininePlural": "ҡыҙыл"
+        "femininePlural": "ҡыҙыл",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_colours_001"
     },
     {
         "word": "зәңгәр",
@@ -747,7 +896,10 @@
         "superlative": null,
         "feminine": "зәңгәр",
         "plural": "зәңгәр",
-        "femininePlural": "зәңгәр"
+        "femininePlural": "зәңгәр",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_colours_002"
     },
     {
         "word": "йәшел",
@@ -768,7 +920,10 @@
         "superlative": null,
         "feminine": "йәшел",
         "plural": "йәшел",
-        "femininePlural": "йәшел"
+        "femininePlural": "йәшел",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_colours_003"
     },
     {
         "word": "аҡ",
@@ -789,7 +944,10 @@
         "superlative": null,
         "feminine": "аҡ",
         "plural": "аҡ",
-        "femininePlural": "аҡ"
+        "femininePlural": "аҡ",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_colours_004"
     },
     {
         "word": "ҡара",
@@ -810,7 +968,10 @@
         "superlative": null,
         "feminine": "ҡара",
         "plural": "ҡара",
-        "femininePlural": "ҡара"
+        "femininePlural": "ҡара",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_colours_005"
     },
     {
         "word": "һары",
@@ -831,7 +992,10 @@
         "superlative": null,
         "feminine": "һары",
         "plural": "һары",
-        "femininePlural": "һары"
+        "femininePlural": "һары",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_colours_006"
     },
     {
         "word": "буш",
@@ -852,7 +1016,10 @@
         "superlative": null,
         "feminine": "буш",
         "plural": "буш",
-        "femininePlural": "буш"
+        "femininePlural": "буш",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_shopping_003"
     },
     {
         "word": "асыҡ",
@@ -860,8 +1027,6 @@
         "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "ябыҡ",
-        "oppositeEmoji": "🔒",
         "subtext": "асыҡ ишек",
         "definitions": [
             {
@@ -875,7 +1040,13 @@
         "superlative": null,
         "feminine": "асыҡ",
         "plural": "асыҡ",
-        "femininePlural": "асыҡ"
+        "femininePlural": "асыҡ",
+        "lang": "ba",
+        "antonyms": [
+            "ябыҡ"
+        ],
+        "transcription": "",
+        "id": "ba_starter_shopping_004"
     },
     {
         "word": "ябыҡ",
@@ -883,8 +1054,6 @@
         "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "асыҡ",
-        "oppositeEmoji": "📖",
         "subtext": "ябыҡ ишек",
         "definitions": [
             {
@@ -898,7 +1067,13 @@
         "superlative": null,
         "feminine": "ябыҡ",
         "plural": "ябыҡ",
-        "femininePlural": "ябыҡ"
+        "femininePlural": "ябыҡ",
+        "lang": "ba",
+        "antonyms": [
+            "асыҡ"
+        ],
+        "transcription": "",
+        "id": "ba_starter_shopping_005"
     },
     {
         "word": "ҙур",
@@ -918,7 +1093,11 @@
         "superlative": null,
         "feminine": "ҙур",
         "plural": "ҙур",
-        "femininePlural": "ҙур"
+        "femininePlural": "ҙур",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_014"
     },
     {
         "word": "бәләкәй",
@@ -938,7 +1117,11 @@
         "superlative": null,
         "feminine": "бәләкәй",
         "plural": "бәләкәй",
-        "femininePlural": "бәләкәй"
+        "femininePlural": "бәләкәй",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_015"
     },
     {
         "word": "оҙон",
@@ -958,7 +1141,11 @@
         "superlative": null,
         "feminine": "оҙон",
         "plural": "оҙон",
-        "femininePlural": "оҙон"
+        "femininePlural": "оҙон",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_016"
     },
     {
         "word": "бейек",
@@ -978,7 +1165,11 @@
         "superlative": null,
         "feminine": "бейек",
         "plural": "бейек",
-        "femininePlural": "бейек"
+        "femininePlural": "бейек",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_017"
     },
     {
         "word": "түбән",
@@ -998,7 +1189,11 @@
         "superlative": null,
         "feminine": "түбән",
         "plural": "түбән",
-        "femininePlural": "түбән"
+        "femininePlural": "түбән",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_018"
     },
     {
         "word": "тулы",
@@ -1018,7 +1213,11 @@
         "superlative": null,
         "feminine": "тулы",
         "plural": "тулы",
-        "femininePlural": "тулы"
+        "femininePlural": "тулы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_019"
     },
     {
         "word": "буш",
@@ -1038,7 +1237,11 @@
         "superlative": null,
         "feminine": "буш",
         "plural": "буш",
-        "femininePlural": "буш"
+        "femininePlural": "буш",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_020"
     },
     {
         "word": "йылы",
@@ -1058,7 +1261,11 @@
         "superlative": null,
         "feminine": "йылы",
         "plural": "йылы",
-        "femininePlural": "йылы"
+        "femininePlural": "йылы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_nature_005"
     },
     {
         "word": "саф",
@@ -1078,14 +1285,20 @@
         "superlative": null,
         "feminine": "саф",
         "plural": "саф",
-        "femininePlural": "саф"
+        "femininePlural": "саф",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_nature_006"
     },
     {
         "word": "йылы",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["еүеш һауа торошо"],
+        "synonyms": [
+            "еүеш һауа торошо"
+        ],
         "definitions": [
             {
                 "text": "Һыулы.",
@@ -1099,7 +1312,11 @@
         "superlative": null,
         "feminine": "йылы",
         "plural": "йылы",
-        "femininePlural": "йылы"
+        "femininePlural": "йылы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_nature_007"
     },
     {
         "word": "ҡоро",
@@ -1119,7 +1336,11 @@
         "superlative": null,
         "feminine": "ҡоро",
         "plural": "ҡоро",
-        "femininePlural": "ҡоро"
+        "femininePlural": "ҡоро",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_nature_008"
     },
     {
         "word": "бысраҡ",
@@ -1139,7 +1360,11 @@
         "superlative": null,
         "feminine": "бысраҡ",
         "plural": "бысраҡ",
-        "femininePlural": "бысраҡ"
+        "femininePlural": "бысраҡ",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_furniture_002"
     },
     {
         "word": "ҡаты",
@@ -1159,7 +1384,11 @@
         "superlative": null,
         "feminine": "ҡаты",
         "plural": "ҡаты",
-        "femininePlural": "ҡаты"
+        "femininePlural": "ҡаты",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_021"
     },
     {
         "word": "йомшаҡ",
@@ -1179,7 +1408,11 @@
         "superlative": null,
         "feminine": "йомшаҡ",
         "plural": "йомшаҡ",
-        "femininePlural": "йомшаҡ"
+        "femininePlural": "йомшаҡ",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_022"
     },
     {
         "word": "ауыр",
@@ -1199,7 +1432,11 @@
         "superlative": null,
         "feminine": "ауыр",
         "plural": "ауыр",
-        "femininePlural": "ауыр"
+        "femininePlural": "ауыр",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_023"
     },
     {
         "word": "еңел",
@@ -1219,7 +1456,11 @@
         "superlative": null,
         "feminine": "еңел",
         "plural": "еңел",
-        "femininePlural": "еңел"
+        "femininePlural": "еңел",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_024"
     },
     {
         "word": "коңғырт",
@@ -1239,7 +1480,11 @@
         "superlative": null,
         "feminine": "коңғырт",
         "plural": "коңғырт",
-        "femininePlural": "коңғырт"
+        "femininePlural": "коңғырт",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_colours_007"
     },
     {
         "word": "һоро",
@@ -1259,7 +1504,11 @@
         "superlative": null,
         "feminine": "һоро",
         "plural": "һоро",
-        "femininePlural": "һоро"
+        "femininePlural": "һоро",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_colours_008"
     },
     {
         "word": "ал",
@@ -1279,7 +1528,11 @@
         "superlative": null,
         "feminine": "ал",
         "plural": "ал",
-        "femininePlural": "ал"
+        "femininePlural": "ал",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_colours_009"
     },
     {
         "word": "ҡыҙғылт һары",
@@ -1299,7 +1552,11 @@
         "superlative": null,
         "feminine": "ҡыҙғылт һары",
         "plural": "ҡыҙғылт һары",
-        "femininePlural": "ҡыҙғылт һары"
+        "femininePlural": "ҡыҙғылт һары",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_colours_010"
     },
     {
         "word": "бөйөк",
@@ -1319,7 +1576,11 @@
         "superlative": null,
         "feminine": "бөйөк",
         "plural": "бөйөк",
-        "femininePlural": "бөйөк"
+        "femininePlural": "бөйөк",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_025"
     },
     {
         "word": "яҡшы",
@@ -1339,14 +1600,20 @@
         "superlative": null,
         "feminine": "яҡшы",
         "plural": "яҡшы",
-        "femininePlural": "яҡшы"
+        "femininePlural": "яҡшы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_026"
     },
     {
         "word": "иҫәпһеҙ яҡшы",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["иҫәпһеҙ ваҡыт"],
+        "synonyms": [
+            "иҫәпһеҙ ваҡыт"
+        ],
         "definitions": [
             {
                 "text": "Бик ныҡ яҡшы.",
@@ -1360,14 +1627,20 @@
         "superlative": null,
         "feminine": "иҫәпһеҙ яҡшы",
         "plural": "иҫәпһеҙ яҡшы",
-        "femininePlural": "иҫәпһеҙ яҡшы"
+        "femininePlural": "иҫәпһеҙ яҡшы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_027"
     },
     {
         "word": "ҡот осҡос",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["ҡурҡыныс хата"],
+        "synonyms": [
+            "ҡурҡыныс хата"
+        ],
         "definitions": [
             {
                 "text": "Бик насар.",
@@ -1381,7 +1654,11 @@
         "superlative": null,
         "feminine": "ҡот осҡос",
         "plural": "ҡот осҡос",
-        "femininePlural": "ҡот осҡос"
+        "femininePlural": "ҡот осҡос",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_028"
     },
     {
         "word": "бик насар",
@@ -1401,7 +1678,11 @@
         "superlative": null,
         "feminine": "бик насар",
         "plural": "бик насар",
-        "femininePlural": "бик насар"
+        "femininePlural": "бик насар",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_029"
     },
     {
         "word": "ғәжәп",
@@ -1421,7 +1702,11 @@
         "superlative": null,
         "feminine": "ғәжәп",
         "plural": "ғәжәп",
-        "femininePlural": "ғәжәп"
+        "femininePlural": "ғәжәп",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_030"
     },
     {
         "word": "фантастик",
@@ -1441,14 +1726,20 @@
         "superlative": null,
         "feminine": "фантастик",
         "plural": "фантастик",
-        "femininePlural": "фантастик"
+        "femininePlural": "фантастик",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_031"
     },
     {
         "word": "моңло",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["күңелһеҙ хәл"],
+        "synonyms": [
+            "күңелһеҙ хәл"
+        ],
         "definitions": [
             {
                 "text": "Күңелһеҙ.",
@@ -1462,7 +1753,11 @@
         "superlative": null,
         "feminine": "моңло",
         "plural": "моңло",
-        "femininePlural": "моңло"
+        "femininePlural": "моңло",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_005"
     },
     {
         "word": "ас",
@@ -1482,7 +1777,11 @@
         "superlative": null,
         "feminine": "ас",
         "plural": "ас",
-        "femininePlural": "ас"
+        "femininePlural": "ас",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_006"
     },
     {
         "word": "асыулы",
@@ -1502,14 +1801,20 @@
         "superlative": null,
         "feminine": "асыулы",
         "plural": "асыулы",
-        "femininePlural": "асыулы"
+        "femininePlural": "асыулы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_007"
     },
     {
         "word": "ялыҡҡан",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["ялыҡтырғыс"],
+        "synonyms": [
+            "ялыҡтырғыс"
+        ],
         "definitions": [
             {
                 "text": "Ҡыҙыҡһыныуы булмаған.",
@@ -1523,7 +1828,11 @@
         "superlative": null,
         "feminine": "ялыҡҡан",
         "plural": "ялыҡҡан",
-        "femininePlural": "ялыҡҡан"
+        "femininePlural": "ялыҡҡан",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_008"
     },
     {
         "word": "тулҡынланған",
@@ -1531,7 +1840,9 @@
         "theme": "emotions",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["тулҡынланыу"],
+        "synonyms": [
+            "тулҡынланыу"
+        ],
         "definitions": [
             {
                 "text": "Шатлыҡлы тулҡынланыу.",
@@ -1544,14 +1855,20 @@
         "superlative": null,
         "feminine": "тулҡынланған",
         "plural": "тулҡынланған",
-        "femininePlural": "тулҡынланған"
+        "femininePlural": "тулҡынланған",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_009"
     },
     {
         "word": "ҡурҡҡан",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["ҡурҡыу"],
+        "synonyms": [
+            "ҡурҡыу"
+        ],
         "definitions": [
             {
                 "text": "Ҡурҡыу белдереү.",
@@ -1565,14 +1882,20 @@
         "superlative": null,
         "feminine": "ҡурҡҡан",
         "plural": "ҡурҡҡан",
-        "femininePlural": "ҡурҡҡан"
+        "femininePlural": "ҡурҡҡан",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_010"
     },
     {
         "word": "үкенесле",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["үкенеү"],
+        "synonyms": [
+            "үкенеү"
+        ],
         "definitions": [
             {
                 "text": "Үкенес белдереү.",
@@ -1586,7 +1909,11 @@
         "superlative": null,
         "feminine": "үкенесле",
         "plural": "үкенесле",
-        "femininePlural": "үкенесле"
+        "femininePlural": "үкенесле",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_011"
     },
     {
         "word": "дөрөҫ",
@@ -1606,7 +1933,11 @@
         "superlative": null,
         "feminine": "дөрөҫ",
         "plural": "дөрөҫ",
-        "femininePlural": "дөрөҫ"
+        "femininePlural": "дөрөҫ",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_032"
     },
     {
         "word": "хата",
@@ -1626,7 +1957,11 @@
         "superlative": null,
         "feminine": "хата",
         "plural": "хата",
-        "femininePlural": "хата"
+        "femininePlural": "хата",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_033"
     },
     {
         "word": "яңы",
@@ -1646,7 +1981,11 @@
         "superlative": null,
         "feminine": "яңы",
         "plural": "яңы",
-        "femininePlural": "яңы"
+        "femininePlural": "яңы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_034"
     },
     {
         "word": "башҡа",
@@ -1666,14 +2005,20 @@
         "superlative": null,
         "feminine": "башҡа",
         "plural": "башҡа",
-        "femininePlural": "башҡа"
+        "femininePlural": "башҡа",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_035"
     },
     {
         "word": "бер үк",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["нәҡ шундай уҡ"],
+        "synonyms": [
+            "нәҡ шундай уҡ"
+        ],
         "definitions": [
             {
                 "text": "Оҡшаш.",
@@ -1687,7 +2032,11 @@
         "superlative": null,
         "feminine": "бер үк",
         "plural": "бер үк",
-        "femininePlural": "бер үк"
+        "femininePlural": "бер үк",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_036"
     },
     {
         "word": "тиҙ",
@@ -1707,14 +2056,20 @@
         "superlative": null,
         "feminine": "тиҙ",
         "plural": "тиҙ",
-        "femininePlural": "тиҙ"
+        "femininePlural": "тиҙ",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_037"
     },
     {
         "word": "аҡрын",
         "level": "starter",
         "form": "adjective",
         "subtext": "",
-        "synonyms": ["акрын интернет"],
+        "synonyms": [
+            "акрын интернет"
+        ],
         "definitions": [
             {
                 "text": "Тиҙ булмаған.",
@@ -1728,7 +2083,11 @@
         "superlative": null,
         "feminine": "аҡрын",
         "plural": "аҡрын",
-        "femininePlural": "аҡрын"
+        "femininePlural": "аҡрын",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_038"
     },
     {
         "word": "тыныс",
@@ -1748,7 +2107,11 @@
         "superlative": null,
         "feminine": "тыныс",
         "plural": "тыныс",
-        "femininePlural": "тыныс"
+        "femininePlural": "тыныс",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_039"
     },
     {
         "word": "ҡаты",
@@ -1768,7 +2131,11 @@
         "superlative": null,
         "feminine": "ҡаты",
         "plural": "ҡаты",
-        "femininePlural": "ҡаты"
+        "femininePlural": "ҡаты",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_040"
     },
     {
         "word": "хәүефһеҙ",
@@ -1788,7 +2155,11 @@
         "superlative": null,
         "feminine": "хәүефһеҙ",
         "plural": "хәүефһеҙ",
-        "femininePlural": "хәүефһеҙ"
+        "femininePlural": "хәүефһеҙ",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_places_001"
     },
     {
         "word": "ҡурҡыныс",
@@ -1808,7 +2179,11 @@
         "superlative": null,
         "feminine": "ҡурҡыныс",
         "plural": "ҡурҡыныс",
-        "femininePlural": "ҡурҡыныс"
+        "femininePlural": "ҡурҡыныс",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_places_002"
     },
     {
         "word": "бәхетһеҙ",
@@ -1828,7 +2203,11 @@
         "superlative": null,
         "feminine": "бәхетһеҙ",
         "plural": "бәхетһеҙ",
-        "femininePlural": "бәхетһеҙ"
+        "femininePlural": "бәхетһеҙ",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_012"
     },
     {
         "word": "тулҡынланған",
@@ -1844,12 +2223,18 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["тулҡынланыу"],
+        "synonyms": [
+            "тулҡынланыу"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "тулҡынланған",
         "plural": "тулҡынланған",
-        "femininePlural": "тулҡынланған"
+        "femininePlural": "тулҡынланған",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_013"
     },
     {
         "word": "стресслы",
@@ -1865,12 +2250,18 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["стресс"],
+        "synonyms": [
+            "стресс"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "стресслы",
         "plural": "стресслы",
-        "femininePlural": "стресслы"
+        "femininePlural": "стресслы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_014"
     },
     {
         "word": "үҙенә ышанған",
@@ -1886,12 +2277,18 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["үҙенә ышаныс"],
+        "synonyms": [
+            "үҙенә ышаныс"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "үҙенә ышанған",
         "plural": "үҙенә ышанған",
-        "femininePlural": "үҙенә ышанған"
+        "femininePlural": "үҙенә ышанған",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_041"
     },
     {
         "word": "ғорур",
@@ -1907,12 +2304,18 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ғорурлыҡ"],
+        "synonyms": [
+            "ғорурлыҡ"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "ғорур",
         "plural": "ғорур",
-        "femininePlural": "ғорур"
+        "femininePlural": "ғорур",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_042"
     },
     {
         "word": "ҡурҡҡан",
@@ -1928,12 +2331,18 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ҡурҡытыу"],
+        "synonyms": [
+            "ҡурҡытыу"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "ҡурҡҡан",
         "plural": "ҡурҡҡан",
-        "femininePlural": "ҡурҡҡан"
+        "femininePlural": "ҡурҡҡан",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_015"
     },
     {
         "word": "ғәжәпләнгән",
@@ -1949,12 +2358,18 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ғәжәпләнеү"],
+        "synonyms": [
+            "ғәжәпләнеү"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "ғәжәпләнгән",
         "plural": "ғәжәпләнгән",
-        "femininePlural": "ғәжәпләнгән"
+        "femininePlural": "ғәжәпләнгән",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_016"
     },
     {
         "word": "күңеле ҡайтҡан",
@@ -1970,12 +2385,18 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["күңел ҡайтыу"],
+        "synonyms": [
+            "күңел ҡайтыу"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "күңеле ҡайтҡан",
         "plural": "күңеле ҡайтҡан",
-        "femininePlural": "күңеле ҡайтҡан"
+        "femininePlural": "күңеле ҡайтҡан",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_emotions_017"
     },
     {
         "word": "матур",
@@ -1995,7 +2416,11 @@
         "superlative": null,
         "feminine": "матур",
         "plural": "матур",
-        "femininePlural": "матур"
+        "femininePlural": "матур",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_043"
     },
     {
         "word": "күркәм",
@@ -2015,7 +2440,11 @@
         "superlative": null,
         "feminine": "күркәм",
         "plural": "күркәм",
-        "femininePlural": "күркәм"
+        "femininePlural": "күркәм",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_044"
     },
     {
         "word": "көслө",
@@ -2035,7 +2464,11 @@
         "superlative": null,
         "feminine": "көслө",
         "plural": "көслө",
-        "femininePlural": "көслө"
+        "femininePlural": "көслө",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_045"
     },
     {
         "word": "көсһөҙ",
@@ -2055,7 +2488,11 @@
         "superlative": null,
         "feminine": "көсһөҙ",
         "plural": "көсһөҙ",
-        "femininePlural": "көсһөҙ"
+        "femininePlural": "көсһөҙ",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_046"
     },
     {
         "word": "таҙа",
@@ -2071,12 +2508,18 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["яҡшы формала"],
+        "synonyms": [
+            "яҡшы формала"
+        ],
         "comparative": null,
         "superlative": null,
         "feminine": "таҙа",
         "plural": "таҙа",
-        "femininePlural": "таҙа"
+        "femininePlural": "таҙа",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_health_medicine_002"
     },
     {
         "word": "бик яҡшы",
@@ -2096,7 +2539,11 @@
         "superlative": null,
         "feminine": "бик яҡшы",
         "plural": "бик яҡшы",
-        "femininePlural": "бик яҡшы"
+        "femininePlural": "бик яҡшы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_047"
     },
     {
         "word": "камил",
@@ -2116,7 +2563,11 @@
         "superlative": null,
         "feminine": "камил",
         "plural": "камил",
-        "femininePlural": "камил"
+        "femininePlural": "камил",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_048"
     },
     {
         "word": "кәрәкһеҙ",
@@ -2136,7 +2587,11 @@
         "superlative": null,
         "feminine": "кәрәкһеҙ",
         "plural": "кәрәкһеҙ",
-        "femininePlural": "кәрәкһеҙ"
+        "femininePlural": "кәрәкһеҙ",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_049"
     },
     {
         "word": "дөрөҫ",
@@ -2156,7 +2611,11 @@
         "superlative": null,
         "feminine": "дөрөҫ",
         "plural": "дөрөҫ",
-        "femininePlural": "дөрөҫ"
+        "femininePlural": "дөрөҫ",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_050"
     },
     {
         "word": "ҡыҙыҡлы",
@@ -2176,7 +2635,11 @@
         "superlative": null,
         "feminine": "ҡыҙыҡлы",
         "plural": "ҡыҙыҡлы",
-        "femininePlural": "ҡыҙыҡлы"
+        "femininePlural": "ҡыҙыҡлы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_051"
     },
     {
         "word": "ҡыҙыҡһыҙ",
@@ -2196,7 +2659,11 @@
         "superlative": null,
         "feminine": "ҡыҙыҡһыҙ",
         "plural": "ҡыҙыҡһыҙ",
-        "femininePlural": "ҡыҙыҡһыҙ"
+        "femininePlural": "ҡыҙыҡһыҙ",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_052"
     },
     {
         "word": "кәрәкле",
@@ -2216,7 +2683,11 @@
         "superlative": null,
         "feminine": "кәрәкле",
         "plural": "кәрәкле",
-        "femininePlural": "кәрәкле"
+        "femininePlural": "кәрәкле",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_053"
     },
     {
         "word": "мөмкин",
@@ -2236,7 +2707,11 @@
         "superlative": null,
         "feminine": "мөмкин",
         "plural": "мөмкин",
-        "femininePlural": "мөмкин"
+        "femininePlural": "мөмкин",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_054"
     },
     {
         "word": "мөмкин түгел",
@@ -2256,7 +2731,11 @@
         "superlative": null,
         "feminine": "мөмкин түгел",
         "plural": "мөмкин түгел",
-        "femininePlural": "мөмкин түгел"
+        "femininePlural": "мөмкин түгел",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_055"
     },
     {
         "word": "үҙенсәлекле",
@@ -2276,7 +2755,11 @@
         "superlative": null,
         "feminine": "үҙенсәлекле",
         "plural": "үҙенсәлекле",
-        "femininePlural": "үҙенсәлекле"
+        "femininePlural": "үҙенсәлекле",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_056"
     },
     {
         "word": "популяр",
@@ -2296,7 +2779,11 @@
         "superlative": null,
         "feminine": "популяр",
         "plural": "популяр",
-        "femininePlural": "популяр"
+        "femininePlural": "популяр",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_057"
     },
     {
         "word": "оҡшаш",
@@ -2316,7 +2803,11 @@
         "superlative": null,
         "feminine": "оҡшаш",
         "plural": "оҡшаш",
-        "femininePlural": "оҡшаш"
+        "femininePlural": "оҡшаш",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_058"
     },
     {
         "word": "дуҫтарса",
@@ -2336,7 +2827,11 @@
         "superlative": null,
         "feminine": "дуҫтарса",
         "plural": "дуҫтарса",
-        "femininePlural": "дуҫтарса"
+        "femininePlural": "дуҫтарса",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_059"
     },
     {
         "word": "миһырбанлы",
@@ -2356,7 +2851,11 @@
         "superlative": null,
         "feminine": "миһырбанлы",
         "plural": "миһырбанлы",
-        "femininePlural": "миһырбанлы"
+        "femininePlural": "миһырбанлы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_060"
     },
     {
         "word": "көлкөлө",
@@ -2376,7 +2875,11 @@
         "superlative": null,
         "feminine": "көлкөлө",
         "plural": "көлкөлө",
-        "femininePlural": "көлкөлө"
+        "femininePlural": "көлкөлө",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_061"
     },
     {
         "word": "аҡыллы",
@@ -2396,7 +2899,11 @@
         "superlative": null,
         "feminine": "аҡыллы",
         "plural": "аҡыллы",
-        "femininePlural": "аҡыллы"
+        "femininePlural": "аҡыллы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_062"
     },
     {
         "word": "әҙәпле",
@@ -2416,7 +2923,11 @@
         "superlative": null,
         "feminine": "әҙәпле",
         "plural": "әҙәпле",
-        "femininePlural": "әҙәпле"
+        "femininePlural": "әҙәпле",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_063"
     },
     {
         "word": "тупаҫ",
@@ -2436,7 +2947,11 @@
         "superlative": null,
         "feminine": "тупаҫ",
         "plural": "тупаҫ",
-        "femininePlural": "тупаҫ"
+        "femininePlural": "тупаҫ",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_064"
     },
     {
         "word": "ялҡау",
@@ -2456,7 +2971,11 @@
         "superlative": null,
         "feminine": "ялҡау",
         "plural": "ялҡау",
-        "femininePlural": "ялҡау"
+        "femininePlural": "ялҡау",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_065"
     },
     {
         "word": "намыҫлы",
@@ -2476,7 +2995,11 @@
         "superlative": null,
         "feminine": "намыҫлы",
         "plural": "намыҫлы",
-        "femininePlural": "намыҫлы"
+        "femininePlural": "намыҫлы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_066"
     },
     {
         "word": "шау-шыулы",
@@ -2496,12 +3019,13 @@
         "superlative": null,
         "feminine": "шау-шыулы",
         "plural": "шау-шыулы",
-        "femininePlural": "шау-шыулы"
+        "femininePlural": "шау-шыулы",
+        "lang": "ba",
+        "transcription": "",
+        "emoji": "✨",
+        "id": "ba_starter_describing_067"
     }
-]
-    const lang = "ba";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -4,7 +4,7 @@
     {
         "word": "булыу",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "👤",
         "subtext": "арыған булыу / бәхетле булыу / эш тә булыу / әҙер булыу",
         "form": "verb",
@@ -22,7 +22,10 @@
         "v2": null,
         "v3": "булған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_001"
     },
     {
         "word": "эйә булыу",
@@ -51,7 +54,10 @@
         "v2": "had",
         "v3": "эйә булған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_001"
     },
     {
         "word": "тойоу",
@@ -78,7 +84,10 @@
         "v2": "felt",
         "v3": "тойған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_health_medicine_001"
     },
     {
         "word": "биреү",
@@ -91,8 +100,6 @@
             "аҡса бирергә",
             "бүләк бирергә"
         ],
-        "opposite": "алыу",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -107,7 +114,13 @@
         "v2": "gave",
         "v3": "биргән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "алыу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_shopping_001"
     },
     {
         "word": "алыу",
@@ -120,8 +133,6 @@
             "дарыу алырға",
             "тәнәфес яһарға"
         ],
-        "opposite": "биреү",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -136,7 +147,13 @@
         "v2": "took",
         "v3": "алған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "биреү"
+        ],
+        "transcription": "",
+        "id": "ba_starter_travel_001"
     },
     {
         "word": "алыу",
@@ -164,12 +181,15 @@
         "v2": "got",
         "v3": "алған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_shopping_002"
     },
     {
         "word": "һалыу",
         "level": "starter",
-        "theme": "furniture_objects",
+        "theme": "furniture",
         "emoji": "📥",
         "subtext": "",
         "synonyms": [
@@ -191,7 +211,10 @@
         "v2": "put",
         "v3": "һалған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_furniture_001"
     },
     {
         "word": "эшләү",
@@ -219,7 +242,10 @@
         "v2": "made",
         "v3": "эшләгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_002"
     },
     {
         "word": "эшләү",
@@ -247,7 +273,10 @@
         "v2": null,
         "v3": "эшләгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_003"
     },
     {
         "word": "ҡулланыу",
@@ -274,7 +303,10 @@
         "v2": "used",
         "v3": "ҡулланған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_technology_001"
     },
     {
         "word": "асыу",
@@ -287,8 +319,6 @@
             "хисап асырға",
             "кибет асырға"
         ],
-        "opposite": "ябыу",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -303,7 +333,13 @@
         "v2": "opened",
         "v3": "асҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "ябыу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_shopping_003"
     },
     {
         "word": "ябыу",
@@ -316,8 +352,6 @@
             "алтыла ябылырға",
             "йыйылышты тамамларға"
         ],
-        "opposite": "асыу",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -332,7 +366,13 @@
         "v2": "closed",
         "v3": "япҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "асыу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_shopping_004"
     },
     {
         "word": "башлау",
@@ -345,8 +385,6 @@
             "йыйылыш башларға",
             "яңы эш башларға"
         ],
-        "opposite": "тамамлау",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -361,7 +399,13 @@
         "v2": "started",
         "v3": "башлаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "тамамлау"
+        ],
+        "transcription": "",
+        "id": "ba_starter_work_004"
     },
     {
         "word": "тамамлау",
@@ -374,8 +418,6 @@
             "проектты тамамларға",
             "иртә тамамларға"
         ],
-        "opposite": "башлау",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -390,7 +432,13 @@
         "v2": "finished",
         "v3": "тамамлаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "башлау"
+        ],
+        "transcription": "",
+        "id": "ba_starter_work_005"
     },
     {
         "word": "ярҙам итеү",
@@ -416,7 +464,10 @@
         "v2": "helped",
         "v3": "ярҙам иткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_006"
     },
     {
         "word": "тырышыу",
@@ -442,7 +493,10 @@
         "v2": "tried",
         "v3": "тырышҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_school_001"
     },
     {
         "word": "күрһәтеү",
@@ -469,7 +523,10 @@
         "v2": "showed",
         "v3": "күрһәткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_language_001"
     },
     {
         "word": "табыу",
@@ -497,7 +554,10 @@
         "v2": "found",
         "v3": "тапҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_shopping_005"
     },
     {
         "word": "һаҡлау",
@@ -524,7 +584,10 @@
         "v2": "kept",
         "v3": "һаҡлаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_007"
     },
     {
         "word": "юғалтыу",
@@ -536,8 +599,6 @@
             "эште юғалтырға",
             "аҡса юғалтырға"
         ],
-        "opposite": "еңеү",
-        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -552,12 +613,18 @@
         "v2": "lost",
         "v3": "юғалтҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "еңеү"
+        ],
+        "transcription": "",
+        "id": "ba_starter_shopping_006"
     },
     {
         "word": "киҫеү",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "✂️",
         "subtext": "",
         "synonyms": [
@@ -577,12 +644,15 @@
         "v2": "cut",
         "v3": "киҫкән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_food_drink_001"
     },
     {
         "word": "бороу",
         "level": "starter",
-        "theme": "directions_navigation",
+        "theme": "travel",
         "emoji": "🔄",
         "subtext": "",
         "synonyms": [
@@ -605,7 +675,10 @@
         "v2": "turned",
         "v3": "борған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_002"
     },
     {
         "word": "килтереү",
@@ -631,12 +704,15 @@
         "v2": "brought",
         "v3": "килтергән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_food_drink_002"
     },
     {
         "word": "әйтеү",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗨️",
         "subtext": "",
         "synonyms": [
@@ -659,7 +735,10 @@
         "v2": "said",
         "v3": "әйткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_002"
     },
     {
         "word": "һөйләү",
@@ -686,7 +765,10 @@
         "v2": "told",
         "v3": "һөйләгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_language_002"
     },
     {
         "word": "һорау",
@@ -712,12 +794,15 @@
         "v2": "asked",
         "v3": "һораған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_language_003"
     },
     {
         "word": "һөйләшеү",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗣️",
         "subtext": "",
         "synonyms": [
@@ -739,7 +824,10 @@
         "v2": "spoke",
         "v3": "һөйләшкән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_003"
     },
     {
         "word": "һөйләшеү",
@@ -764,7 +852,10 @@
         "v2": "talked",
         "v3": "һөйләшкән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_004"
     },
     {
         "word": "шыңғыртыу",
@@ -790,7 +881,10 @@
         "v2": "called",
         "v3": "шыңғыртҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_technology_002"
     },
     {
         "word": "яҙыу",
@@ -803,8 +897,6 @@
             "отчет яҙырға",
             "яҙмалар яһарға"
         ],
-        "opposite": "уҡыу",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -819,7 +911,13 @@
         "v2": "wrote",
         "v3": "яҙған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "уҡыу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_school_002"
     },
     {
         "word": "уҡыу",
@@ -832,8 +930,6 @@
             "яңылыҡтар уҡырға",
             "контракт уҡырға"
         ],
-        "opposite": "яҙыу",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -848,7 +944,13 @@
         "v2": "read",
         "v3": "уҡыған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "яҙыу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_school_003"
     },
     {
         "word": "тыңлау",
@@ -874,7 +976,10 @@
         "v2": "listened",
         "v3": "тыңлаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_school_004"
     },
     {
         "word": "яуап биреү",
@@ -900,12 +1005,15 @@
         "v2": "answered",
         "v3": "яуап бирҙе",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_language_004"
     },
     {
         "word": "ҡабатлау",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🔁",
         "subtext": "",
         "synonyms": [
@@ -926,7 +1034,10 @@
         "v2": "repeated",
         "v3": "ҡабатлаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_school_005"
     },
     {
         "word": "барыу",
@@ -954,7 +1065,10 @@
         "v2": null,
         "v3": "барған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_003"
     },
     {
         "word": "килеү",
@@ -967,8 +1081,6 @@
             "эшкә килергә",
             "кире ҡайтырға"
         ],
-        "opposite": "барыу",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -983,7 +1095,13 @@
         "v2": "came",
         "v3": "килгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "барыу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_travel_004"
     },
     {
         "word": "йәйәү йөрөү",
@@ -1010,7 +1128,10 @@
         "v2": "walked",
         "v3": "йөрөгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_005"
     },
     {
         "word": "машина йөрөтөү",
@@ -1036,7 +1157,10 @@
         "v2": "drove",
         "v3": "йөрөткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_006"
     },
     {
         "word": "осоу",
@@ -1061,7 +1185,10 @@
         "v2": "flew",
         "v3": "оҡҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_007"
     },
     {
         "word": "килеп етеү",
@@ -1087,7 +1214,10 @@
         "v2": "arrived",
         "v3": "килеп еткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_008"
     },
     {
         "word": "китеү",
@@ -1113,7 +1243,10 @@
         "v2": "left",
         "v3": "киткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_009"
     },
     {
         "word": "күсеү",
@@ -1139,7 +1272,10 @@
         "v2": "moved",
         "v3": "күскән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_furniture_002"
     },
     {
         "word": "ҡайтыу",
@@ -1166,12 +1302,15 @@
         "v2": "returned",
         "v3": "ҡайтҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_008"
     },
     {
         "word": "сәйәхәт итеү",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "эш буйынса сәйәхәт итергә",
         "synonyms": [
@@ -1191,7 +1330,10 @@
         "v2": "traveled",
         "v3": "сәйәхәт иткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_009"
     },
     {
         "word": "ашау",
@@ -1204,8 +1346,6 @@
             "төшке аш ашарға",
             "киске аш ашарға"
         ],
-        "opposite": "эсеү",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1220,7 +1360,13 @@
         "v2": "ate",
         "v3": "ашаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "эсеү"
+        ],
+        "transcription": "",
+        "id": "ba_starter_food_drink_003"
     },
     {
         "word": "эсеү",
@@ -1234,8 +1380,6 @@
             "һыу эсергә",
             "һыра эсергә"
         ],
-        "opposite": "ашау",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1250,7 +1394,13 @@
         "v2": "drank",
         "v3": "эскән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "ашау"
+        ],
+        "transcription": "",
+        "id": "ba_starter_food_drink_004"
     },
     {
         "word": "йоҡлау",
@@ -1262,8 +1412,6 @@
             "яҡшы йоҡларға",
             "насар йоҡларға"
         ],
-        "opposite": "уяныу",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1278,12 +1426,18 @@
         "v2": "slept",
         "v3": "йоҡлаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "уяныу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_time_001"
     },
     {
         "word": "аш бешереү",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "🍳",
         "subtext": "",
         "synonyms": [
@@ -1304,7 +1458,10 @@
         "v2": "cooked",
         "v3": "бешергән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_food_drink_005"
     },
     {
         "word": "таҙартыу",
@@ -1330,7 +1487,10 @@
         "v2": "cleaned",
         "v3": "таҙартҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_furniture_003"
     },
     {
         "word": "кейеү",
@@ -1356,7 +1516,10 @@
         "v2": "wore",
         "v3": "кейгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_clothes_001"
     },
     {
         "word": "йыуыу",
@@ -1382,7 +1545,10 @@
         "v2": null,
         "v3": "йыуған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_furniture_004"
     },
     {
         "word": "һатып алыу",
@@ -1394,8 +1560,6 @@
             "ризыҡ һатып алырға",
             "билет һатып алырға"
         ],
-        "opposite": "һатыу",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1410,7 +1574,13 @@
         "v2": "bought",
         "v3": "һатып алған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "һатыу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_shopping_007"
     },
     {
         "word": "түләү",
@@ -1436,7 +1606,10 @@
         "v2": "paid",
         "v3": "түләгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_shopping_008"
     },
     {
         "word": "тотоноу",
@@ -1462,7 +1635,10 @@
         "v2": "spent",
         "v3": "тотонған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_shopping_009"
     },
     {
         "word": "һаҡлау",
@@ -1473,8 +1649,6 @@
         "synonyms": [
             "аҡса йыйырға"
         ],
-        "opposite": "тотоноу",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1489,7 +1663,13 @@
         "v2": "saved",
         "v3": "һаҡлаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "тотоноу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_shopping_010"
     },
     {
         "word": "эшләү",
@@ -1516,7 +1696,10 @@
         "v2": "worked",
         "v3": "эшләгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_010"
     },
     {
         "word": "йәшәү",
@@ -1529,8 +1712,6 @@
             "ялғыҙ йәшәргә",
             "сит илдәрҙә йәшәргә"
         ],
-        "opposite": "үлеү",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1545,7 +1726,13 @@
         "v2": "lived",
         "v3": "йәшәгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "үлеү"
+        ],
+        "transcription": "",
+        "id": "ba_starter_places_001"
     },
     {
         "word": "уйлау",
@@ -1572,7 +1759,10 @@
         "v2": "thought",
         "v3": "уйлаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_005"
     },
     {
         "word": "белеү",
@@ -1599,7 +1789,10 @@
         "v2": "knew",
         "v3": "белгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_school_006"
     },
     {
         "word": "теләү",
@@ -1626,7 +1819,10 @@
         "v2": "wanted",
         "v3": "теләгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_emotions_001"
     },
     {
         "word": "кәрәк булыу",
@@ -1653,7 +1849,10 @@
         "v2": "needed",
         "v3": "кәрәк булған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_emotions_002"
     },
     {
         "word": "ошатыу",
@@ -1680,7 +1879,10 @@
         "v2": "liked",
         "v3": "ошаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_emotions_003"
     },
     {
         "word": "яратыу",
@@ -1706,7 +1908,10 @@
         "v2": "loved",
         "v3": "яратҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_emotions_004"
     },
     {
         "word": "нәфрәт итеү",
@@ -1732,7 +1937,10 @@
         "v2": "hated",
         "v3": "нәфрәт иткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_emotions_005"
     },
     {
         "word": "өмит итеү",
@@ -1758,7 +1966,10 @@
         "v2": "hoped",
         "v3": "өмит иткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_emotions_006"
     },
     {
         "word": "хәтерләү",
@@ -1784,7 +1995,10 @@
         "v2": "remembered",
         "v3": "хәтерләгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_school_007"
     },
     {
         "word": "онотоу",
@@ -1810,7 +2024,10 @@
         "v2": "forgot",
         "v3": "онотҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_school_008"
     },
     {
         "word": "аңлау",
@@ -1836,7 +2053,10 @@
         "v2": "understood",
         "v3": "аңлаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_language_005"
     },
     {
         "word": "ҡарар итеү",
@@ -1862,7 +2082,10 @@
         "v2": "decided",
         "v3": "ҡарар иткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_006"
     },
     {
         "word": "ләззәт алыу",
@@ -1888,7 +2111,10 @@
         "v2": "enjoyed",
         "v3": "ләззәт алған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_emotions_007"
     },
     {
         "word": "күреү",
@@ -1914,7 +2140,10 @@
         "v2": "saw",
         "v3": "күргән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_body_001"
     },
     {
         "word": "ишетеү",
@@ -1940,7 +2169,10 @@
         "v2": "heard",
         "v3": "ишеткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_body_002"
     },
     {
         "word": "уяныу",
@@ -1954,8 +2186,6 @@
             "һуң уянырға",
             "арып уянырға"
         ],
-        "opposite": "йоҡлау",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Йоҡонан уяныу.",
@@ -1969,7 +2199,13 @@
         "v2": "woke up",
         "v3": "уянған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "йоҡлау"
+        ],
+        "transcription": "",
+        "id": "ba_starter_work_011"
     },
     {
         "word": "ҡарау",
@@ -1996,7 +2232,10 @@
         "v2": "watched",
         "v3": "ҡараған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_007"
     },
     {
         "word": "ҡарау",
@@ -2023,7 +2262,10 @@
         "v2": "looked",
         "v3": "ҡараған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_people_001"
     },
     {
         "word": "уйнау",
@@ -2049,7 +2291,10 @@
         "v2": "played",
         "v3": "уйнаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_008"
     },
     {
         "word": "йүгереү",
@@ -2076,7 +2321,10 @@
         "v2": "ran",
         "v3": "йүгергән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_sports_001"
     },
     {
         "word": "олтороу",
@@ -2088,8 +2336,6 @@
             "ултырырға",
             "өҫтәл артына ултырырға"
         ],
-        "opposite": "тороу",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -2104,7 +2350,13 @@
         "v2": "sat",
         "v3": "олторған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "тороу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_work_012"
     },
     {
         "word": "тороу",
@@ -2116,8 +2368,6 @@
             "баҫырға",
             "чиратта баҫып торорға"
         ],
-        "opposite": "олтороу",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -2132,7 +2382,13 @@
         "v2": "stood",
         "v3": "торған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "олтороу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_work_013"
     },
     {
         "word": "осрашыу",
@@ -2158,7 +2414,10 @@
             "коллега менән осрашырға"
         ],
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_014"
     },
     {
         "word": "өйрәнеү",
@@ -2184,7 +2443,10 @@
         "v2": "learned / learnt",
         "v3": "өйрәнгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_school_009"
     },
     {
         "word": "үҙгәртеү",
@@ -2210,7 +2472,10 @@
         "v2": "changed",
         "v3": "үҙгәрткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_015"
     },
     {
         "word": "туҡтау",
@@ -2236,7 +2501,10 @@
         "v2": "stopped",
         "v3": "туҡтаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_016"
     },
     {
         "word": "өҫтәү",
@@ -2263,7 +2531,10 @@
         "v2": "added",
         "v3": "өҫтәгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_numbers_001"
     },
     {
         "word": "еңеү",
@@ -2275,8 +2546,6 @@
             "уйында еңергә",
             "приз алырға"
         ],
-        "opposite": "юғалтыу",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -2291,7 +2560,13 @@
         "v2": "won",
         "v3": "еңгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "юғалтыу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_social_009"
     },
     {
         "word": "көтөү",
@@ -2317,7 +2592,10 @@
         "v2": "waited",
         "v3": "көткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_017"
     },
     {
         "word": "үлеү",
@@ -2329,8 +2607,6 @@
             "үлергә",
             "һәләк булырға"
         ],
-        "opposite": "йәшәү",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -2345,7 +2621,13 @@
         "v2": "died",
         "v3": "үлгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "йәшәү"
+        ],
+        "transcription": "",
+        "id": "ba_starter_health_medicine_002"
     },
     {
         "word": "ебәреү",
@@ -2371,7 +2653,10 @@
             "хәбәр ебәрергә"
         ],
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_018"
     },
     {
         "word": "ҡалыу",
@@ -2397,7 +2682,10 @@
         "v2": "stayed",
         "v3": "ҡалған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_010"
     },
     {
         "word": "йығылыу",
@@ -2424,7 +2712,10 @@
         "v2": "fell",
         "v3": "йығылған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_nature_001"
     },
     {
         "word": "үтеү",
@@ -2451,7 +2742,10 @@
         "v2": "passed",
         "v3": "үткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_school_010"
     },
     {
         "word": "һатыу",
@@ -2463,8 +2757,6 @@
             "товар һатырға",
             "онлайн һатырға"
         ],
-        "opposite": "һатып алыу",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2479,7 +2771,13 @@
         "v2": "sold",
         "v3": "һатҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "һатып алыу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_shopping_011"
     },
     {
         "word": "тартыу",
@@ -2491,8 +2789,6 @@
             "ишекте тартырға",
             "нәрсәнелер тартырға"
         ],
-        "opposite": "этәреү",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2507,7 +2803,13 @@
         "v2": "pulled",
         "v3": "тартҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "этәреү"
+        ],
+        "transcription": "",
+        "id": "ba_starter_work_019"
     },
     {
         "word": "этәреү",
@@ -2519,8 +2821,6 @@
             "төймәгә баҫырға",
             "этәргә"
         ],
-        "opposite": "тартыу",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2535,7 +2835,13 @@
         "v2": "pushed",
         "v3": "этәргән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "тартыу"
+        ],
+        "transcription": "",
+        "id": "ba_starter_work_020"
     },
     {
         "word": "ташыу",
@@ -2561,7 +2867,10 @@
         "v2": "carried",
         "v3": "ташыған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_021"
     },
     {
         "word": "һыныу",
@@ -2588,7 +2897,10 @@
         "v2": "broke",
         "v3": "һынған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_describing_001"
     },
     {
         "word": "алыу",
@@ -2615,7 +2927,10 @@
         "v2": "received",
         "v3": "алған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_shopping_012"
     },
     {
         "word": "риза булыу",
@@ -2641,12 +2956,15 @@
         "v2": "agreed",
         "v3": "риза булған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_010"
     },
     {
         "word": "һүрәт төшөрөү",
         "level": "starter",
-        "theme": "cinema_film",
+        "theme": "social",
         "emoji": "🎨",
         "subtext": "",
         "synonyms": [
@@ -2667,7 +2985,10 @@
         "v2": "drew",
         "v3": "төшөргән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_011"
     },
     {
         "word": "бүлешеү",
@@ -2693,7 +3014,10 @@
         "v2": "shared",
         "v3": "бүлешкән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_012"
     },
     {
         "word": "елмәйеү",
@@ -2705,8 +3029,6 @@
             "елмайырға",
             "берәүгә елмайырға"
         ],
-        "opposite": "илау",
-        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2721,7 +3043,13 @@
         "v2": "smiled",
         "v3": "елмәйгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "илау"
+        ],
+        "transcription": "",
+        "id": "ba_starter_people_002"
     },
     {
         "word": "илау",
@@ -2734,8 +3062,6 @@
             "ҡысҡырырға",
             "илап ебәрергә"
         ],
-        "opposite": "елмәйеү",
-        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2750,7 +3076,13 @@
         "v2": "cried",
         "v3": "илаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "antonyms": [
+            "елмәйеү"
+        ],
+        "transcription": "",
+        "id": "ba_starter_emotions_008"
     },
     {
         "word": "бейеү",
@@ -2776,7 +3108,10 @@
         "v2": "danced",
         "v3": "бейегән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_music_001"
     },
     {
         "word": "йырлау",
@@ -2802,7 +3137,10 @@
         "v2": "sang",
         "v3": "йырлаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_music_002"
     },
     {
         "word": "һикереү",
@@ -2828,7 +3166,10 @@
         "v2": "jumped",
         "v3": "һикергән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_sports_002"
     },
     {
         "word": "йөҙөү",
@@ -2854,7 +3195,10 @@
         "v2": "swam",
         "v3": "йөҙгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_sports_003"
     },
     {
         "word": "өйрәнеү",
@@ -2880,7 +3224,10 @@
         "v2": "studied",
         "v3": "өйрәнгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_school_011"
     },
     {
         "word": "уҡытыу",
@@ -2906,12 +3253,15 @@
         "v2": "taught",
         "v3": "уҡытҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_school_012"
     },
     {
         "word": "эшкә йөрөү",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🚆",
         "subtext": "",
         "synonyms": [
@@ -2932,7 +3282,10 @@
         "v2": "commuted",
         "v3": "йөрөгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_011"
     },
     {
         "word": "ҡуртымға алыу",
@@ -2958,7 +3311,10 @@
         "v2": "rented",
         "v3": "ҡуртымға алған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_012"
     },
     {
         "word": "күнегеүҙәр эшләү",
@@ -2984,7 +3340,10 @@
             "спортзал барырға"
         ],
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_013"
     },
     {
         "word": "тора",
@@ -3010,7 +3369,10 @@
             "аҡса торорға"
         ],
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_shopping_013"
     },
     {
         "word": "саҡырыу",
@@ -3036,7 +3398,10 @@
             "төшке ашҡа саҡырырға"
         ],
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_014"
     },
     {
         "word": "төшөү",
@@ -3062,7 +3427,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_022"
     },
     {
         "word": "иртәнге ашты ашау",
@@ -3084,7 +3452,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_023"
     },
     {
         "word": "ҡайтыу",
@@ -3110,7 +3481,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_024"
     },
     {
         "word": "йоҡларға ятыу",
@@ -3136,7 +3510,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_025"
     },
     {
         "word": "тикшереү",
@@ -3162,7 +3539,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_026"
     },
     {
         "word": "яуап биреү",
@@ -3188,7 +3568,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_027"
     },
     {
         "word": "тәҡдим итеү",
@@ -3214,7 +3597,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_028"
     },
     {
         "word": "ҡатнашыу",
@@ -3240,7 +3626,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_029"
     },
     {
         "word": "идара итеү",
@@ -3262,7 +3651,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_030"
     },
     {
         "word": "түләү алыу",
@@ -3288,7 +3680,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_shopping_014"
     },
     {
         "word": "булдыра алыу",
@@ -3310,7 +3705,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_shopping_015"
     },
     {
         "word": "бурыслы булыу",
@@ -3335,7 +3733,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_shopping_016"
     },
     {
         "word": "эшләп алыу",
@@ -3361,7 +3762,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_shopping_017"
     },
     {
         "word": "барыу",
@@ -3387,7 +3791,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_015"
     },
     {
         "word": "байрам итеү",
@@ -3409,7 +3816,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_016"
     },
     {
         "word": "тәҡдим итеү",
@@ -3435,7 +3845,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_017"
     },
     {
         "word": "ауырыу",
@@ -3461,7 +3874,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_health_medicine_003"
     },
     {
         "word": "ял итеү",
@@ -3486,7 +3902,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_031"
     },
     {
         "word": "һауығыу",
@@ -3512,7 +3931,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_health_medicine_004"
     },
     {
         "word": "заказ биреү",
@@ -3538,7 +3960,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_013"
     },
     {
         "word": "йыйыу",
@@ -3564,7 +3989,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_014"
     },
     {
         "word": "бөтөрөү",
@@ -3590,7 +4018,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_015"
     },
     {
         "word": "һағыныу",
@@ -3611,12 +4042,15 @@
         "aspect": "both",
         "v2": "missed",
         "v3": "һағынған",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_travel_016"
     },
     {
         "word": "заказ биреү",
@@ -3642,7 +4076,10 @@
         "v2": "ordered",
         "v3": "заказ бирҙе",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_032"
     },
     {
         "word": "аңлатыу",
@@ -3668,12 +4105,15 @@
         "v2": "explained",
         "v3": "аңлатҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_033"
     },
     {
         "word": "рәхмәт әйтеү",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🙏",
         "subtext": "",
         "synonyms": [
@@ -3694,12 +4134,15 @@
         "v2": "thanked",
         "v3": "рәхмәт әйтте",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_018"
     },
     {
         "word": "таныштырыу",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "🤝",
         "subtext": "",
         "synonyms": [
@@ -3720,7 +4163,10 @@
         "v2": "introduced",
         "v3": "таныштырған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_019"
     },
     {
         "word": "ял итеү",
@@ -3746,7 +4192,10 @@
         "v2": "relaxed",
         "v3": "ял иткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_020"
     },
     {
         "word": "төҙөтеү",
@@ -3772,7 +4221,10 @@
         "v2": "repaired",
         "v3": "төҙөткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_furniture_005"
     },
     {
         "word": "булыу",
@@ -3799,7 +4251,10 @@
         "v2": "happened",
         "v3": "булған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_021"
     },
     {
         "word": "тойола",
@@ -3825,7 +4280,10 @@
         "v2": "seemed",
         "v3": "тойолған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_022"
     },
     {
         "word": "аңлата",
@@ -3850,7 +4308,10 @@
         "v2": "meant",
         "v3": "аңлатҡан",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_school_013"
     },
     {
         "word": "этеү",
@@ -3876,7 +4337,10 @@
         "v2": "followed",
         "v3": "этеү",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_034"
     },
     {
         "word": "дауам итеү",
@@ -3902,7 +4366,10 @@
         "v2": "continued",
         "v3": "дауам иткән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_school_014"
     },
     {
         "word": "үҫеү",
@@ -3928,7 +4395,10 @@
         "v2": "grew",
         "v3": "үҫкән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_035"
     },
     {
         "word": "үҙ эсенә алыу",
@@ -3954,7 +4424,10 @@
         "v2": "included",
         "v3": "алған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_shopping_018"
     },
     {
         "word": "булыу",
@@ -3980,7 +4453,10 @@
         "v2": "became",
         "v3": "булған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_036"
     },
     {
         "word": "ҡарау",
@@ -4006,7 +4482,10 @@
         "v2": "belonged",
         "v3": "ҡараған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_037"
     },
     {
         "word": "һайлау",
@@ -4033,7 +4512,10 @@
         "v2": "chose",
         "v3": "һайлаған",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_social_023"
     },
     {
         "word": "төҙөү",
@@ -4059,7 +4541,10 @@
         "v2": "built",
         "v3": "төҙөгән",
         "group": "vowel",
-        "auxiliary": "ине"
+        "auxiliary": "ине",
+        "lang": "ba",
+        "transcription": "",
+        "id": "ba_starter_work_038"
     }
 ];
     const lang = "ba";

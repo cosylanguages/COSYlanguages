@@ -12,7 +12,7 @@
       "rules": [
         {
           "rule": "The grammar rule in the target language.",
-          "level": "A1",
+          "level": "starter",
           "explanation": "Explanation of the rule in the target language.",
           "example": "Correct example sentence.",
           "counter_example": "Incorrect form to avoid (optional, B1+ recommended)."

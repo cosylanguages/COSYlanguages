@@ -1,10 +1,61 @@
 // TODO: verify level classification
 (function() {
     const data = [
-        { "word": "ქართველი", "level": "starter", "theme": "nationalities", "emoji": "🇬🇪", "form": "adjective", "definitions": [{ "text": "საქართველოდან.", "examples": ["მე ქართველი ვარ."] }] },
-        { "word": "ინგლისელი", "level": "starter", "theme": "nationalities", "emoji": "🇬🇧", "form": "adjective", "definitions": [{ "text": "ინგლისიდან.", "examples": ["ის ინგლისელია."] }] },
-        { "word": "გერმანელი", "level": "starter", "theme": "nationalities", "emoji": "🇩🇪", "form": "adjective", "definitions": [{ "text": "გერმანიიდან.", "examples": ["ის გერმანელია."] }] }
-    ];
+    {
+        "word": "ქართველი",
+        "level": "starter",
+        "theme": "people",
+        "emoji": "🇬🇪",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "საქართველოდან.",
+                "examples": [
+                    "მე ქართველი ვარ."
+                ]
+            }
+        ],
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_people_001"
+    },
+    {
+        "word": "ინგლისელი",
+        "level": "starter",
+        "theme": "people",
+        "emoji": "🇬🇧",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "ინგლისიდან.",
+                "examples": [
+                    "ის ინგლისელია."
+                ]
+            }
+        ],
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_people_002"
+    },
+    {
+        "word": "გერმანელი",
+        "level": "starter",
+        "theme": "people",
+        "emoji": "🇩🇪",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "გერმანიიდან.",
+                "examples": [
+                    "ის გერმანელია."
+                ]
+            }
+        ],
+        "lang": "ka",
+        "transcription": "",
+        "id": "ka_starter_people_003"
+    }
+];
     const lang = "ka";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

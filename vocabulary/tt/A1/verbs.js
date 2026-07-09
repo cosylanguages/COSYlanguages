@@ -4,7 +4,7 @@
     {
         "word": "булу",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "👤",
         "subtext": "арган булу / бәхетле булу / эштә булу / әзер булу",
         "form": "verb",
@@ -23,7 +23,10 @@
         "v2": null,
         "v3": "булган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_001"
     },
     {
         "word": "ия булу",
@@ -52,7 +55,10 @@
         "v2": "had",
         "v3": "ия булган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_001"
     },
     {
         "word": "тою",
@@ -79,7 +85,10 @@
         "v2": "felt",
         "v3": "тойган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_health_medicine_001"
     },
     {
         "word": "бирү",
@@ -92,8 +101,6 @@
             "акча бирергә",
             "бүләк бирергә"
         ],
-        "opposite": "алу",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -108,7 +115,13 @@
         "v2": "gave",
         "v3": "биргән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "алу"
+        ],
+        "transcription": "",
+        "id": "tt_starter_shopping_001"
     },
     {
         "word": "алу",
@@ -121,8 +134,6 @@
             "дару алырга",
             "тәнәфес ясарга"
         ],
-        "opposite": "бирү",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -137,7 +148,13 @@
         "v2": "took",
         "v3": "алган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "бирү"
+        ],
+        "transcription": "",
+        "id": "tt_starter_travel_001"
     },
     {
         "word": "алу",
@@ -165,12 +182,15 @@
         "v2": "got",
         "v3": "алган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_shopping_002"
     },
     {
         "word": "салу",
         "level": "starter",
-        "theme": "furniture_objects",
+        "theme": "furniture",
         "emoji": "📥",
         "subtext": "",
         "synonyms": [
@@ -192,7 +212,10 @@
         "v2": "put",
         "v3": "салган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_furniture_001"
     },
     {
         "word": "эшләү",
@@ -220,7 +243,10 @@
         "v2": "made",
         "v3": "эшләгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_002"
     },
     {
         "word": "эшләү",
@@ -248,7 +274,10 @@
         "v2": null,
         "v3": "эшләгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_003"
     },
     {
         "word": "куллану",
@@ -275,7 +304,10 @@
         "v2": "used",
         "v3": "кулланган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_technology_001"
     },
     {
         "word": "ачу",
@@ -288,8 +320,6 @@
             "хисап ачарга",
             "кибет ачарга"
         ],
-        "opposite": "ябу",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -304,7 +334,13 @@
         "v2": "opened",
         "v3": "ачкан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "ябу"
+        ],
+        "transcription": "",
+        "id": "tt_starter_shopping_003"
     },
     {
         "word": "ябу",
@@ -317,8 +353,6 @@
             "алтыда ябылырга",
             "җыелышны тәмамларга"
         ],
-        "opposite": "ачу",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -333,7 +367,13 @@
         "v2": "closed",
         "v3": "япкан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "ачу"
+        ],
+        "transcription": "",
+        "id": "tt_starter_shopping_004"
     },
     {
         "word": "башлау",
@@ -346,8 +386,6 @@
             "җыелыш башларга",
             "яңа эш башларга"
         ],
-        "opposite": "тәмамлау",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -362,7 +400,13 @@
         "v2": "started",
         "v3": "башлаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "тәмамлау"
+        ],
+        "transcription": "",
+        "id": "tt_starter_work_004"
     },
     {
         "word": "тәмамлау",
@@ -375,8 +419,6 @@
             "проектны тәмамларга",
             "иртә тәмамларга"
         ],
-        "opposite": "башлау",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -391,7 +433,13 @@
         "v2": "finished",
         "v3": "тәмамлаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "башлау"
+        ],
+        "transcription": "",
+        "id": "tt_starter_work_005"
     },
     {
         "word": "ярдәм итү",
@@ -417,7 +465,10 @@
         "v2": "helped",
         "v3": "ярдәм иткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_006"
     },
     {
         "word": "тырышу",
@@ -443,7 +494,10 @@
         "v2": "tried",
         "v3": "тырышкан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_school_001"
     },
     {
         "word": "күрсәтү",
@@ -470,7 +524,10 @@
         "v2": "showed",
         "v3": "күрсәткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_language_001"
     },
     {
         "word": "табу",
@@ -498,7 +555,10 @@
         "v2": "found",
         "v3": "тапкан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_shopping_005"
     },
     {
         "word": "саклау",
@@ -525,7 +585,10 @@
         "v2": "kept",
         "v3": "саклаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_007"
     },
     {
         "word": "югалту",
@@ -537,8 +600,6 @@
             "эшне югалтырга",
             "акча югалтырга"
         ],
-        "opposite": "җиңү",
-        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -553,12 +614,18 @@
         "v2": "lost",
         "v3": "югалткан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "җиңү"
+        ],
+        "transcription": "",
+        "id": "tt_starter_shopping_006"
     },
     {
         "word": "кисү",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "✂️",
         "subtext": "",
         "synonyms": [
@@ -578,12 +645,15 @@
         "v2": "cut",
         "v3": "кискән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_food_drink_001"
     },
     {
         "word": "бору",
         "level": "starter",
-        "theme": "directions_navigation",
+        "theme": "travel",
         "emoji": "🔄",
         "subtext": "",
         "synonyms": [
@@ -606,7 +676,10 @@
         "v2": "turned",
         "v3": "борган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_002"
     },
     {
         "word": "китерү",
@@ -632,12 +705,15 @@
         "v2": "brought",
         "v3": "китергән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_food_drink_002"
     },
     {
         "word": "әйтү",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗨️",
         "subtext": "",
         "synonyms": [
@@ -660,7 +736,10 @@
         "v2": "said",
         "v3": "әйткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_002"
     },
     {
         "word": "сөйләү",
@@ -687,7 +766,10 @@
         "v2": "told",
         "v3": "сөйләгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_language_002"
     },
     {
         "word": "сорау",
@@ -713,12 +795,15 @@
         "v2": "asked",
         "v3": "сораган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_language_003"
     },
     {
         "word": "сөйләшү",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🗣️",
         "subtext": "",
         "synonyms": [
@@ -740,7 +825,10 @@
         "v2": "spoke",
         "v3": "сөйләшкән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_003"
     },
     {
         "word": "сөйләшү",
@@ -766,7 +854,10 @@
         "v2": "talked",
         "v3": "сөйләшкән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_004"
     },
     {
         "word": "шалтырату",
@@ -792,7 +883,10 @@
         "v2": "called",
         "v3": "шалтыраткан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_technology_002"
     },
     {
         "word": "языу",
@@ -805,8 +899,6 @@
             "отчет язарга",
             "язмалар ясарга"
         ],
-        "opposite": "уку",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -821,7 +913,13 @@
         "v2": "wrote",
         "v3": "язган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "уку"
+        ],
+        "transcription": "",
+        "id": "tt_starter_school_002"
     },
     {
         "word": "уку",
@@ -834,8 +932,6 @@
             "яңалыклар укырга",
             "контракт укырга"
         ],
-        "opposite": "языу",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -850,7 +946,13 @@
         "v2": "read",
         "v3": "укыган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "языу"
+        ],
+        "transcription": "",
+        "id": "tt_starter_school_003"
     },
     {
         "word": "тыңлау",
@@ -876,7 +978,10 @@
         "v2": "listened",
         "v3": "тыңлаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_school_004"
     },
     {
         "word": "җавап бирү",
@@ -902,12 +1007,15 @@
         "v2": "answered",
         "v3": "җавап биргән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_language_004"
     },
     {
         "word": "кабатлау",
         "level": "starter",
-        "theme": "classroom_language",
+        "theme": "school",
         "emoji": "🔁",
         "subtext": "",
         "synonyms": [
@@ -928,7 +1036,10 @@
         "v2": "repeated",
         "v3": "кабатлаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_school_005"
     },
     {
         "word": "бару",
@@ -956,7 +1067,10 @@
         "v2": null,
         "v3": "барган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_003"
     },
     {
         "word": "килү",
@@ -969,8 +1083,6 @@
             "эшкә килергә",
             "кире кайтырга"
         ],
-        "opposite": "бару",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -985,7 +1097,13 @@
         "v2": "came",
         "v3": "килгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "бару"
+        ],
+        "transcription": "",
+        "id": "tt_starter_travel_004"
     },
     {
         "word": "җәяү йөрү",
@@ -1012,7 +1130,10 @@
         "v2": "walked",
         "v3": "йөргән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_005"
     },
     {
         "word": "машина йөртү",
@@ -1038,7 +1159,10 @@
         "v2": "drove",
         "v3": "йөрткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_006"
     },
     {
         "word": "очу",
@@ -1063,7 +1187,10 @@
         "v2": "flew",
         "v3": "очкан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_007"
     },
     {
         "word": "килеп җитү",
@@ -1089,7 +1216,10 @@
         "v2": "arrived",
         "v3": "килеп җиткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_008"
     },
     {
         "word": "китү",
@@ -1115,7 +1245,10 @@
         "v2": "left",
         "v3": "киткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_009"
     },
     {
         "word": "күчү",
@@ -1141,7 +1274,10 @@
         "v2": "moved",
         "v3": "күчкән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_furniture_002"
     },
     {
         "word": "кайту",
@@ -1168,12 +1304,15 @@
         "v2": "returned",
         "v3": "кайткан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_008"
     },
     {
         "word": "сәяхәт итү",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "эш буенча сәяхәт итәргә",
         "synonyms": [
@@ -1193,7 +1332,10 @@
         "v2": "traveled",
         "v3": "сәяхәт иткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_009"
     },
     {
         "word": "ашау",
@@ -1206,8 +1348,6 @@
             "төшке аш ашарга",
             "кичке аш ашарга"
         ],
-        "opposite": "эчү",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1222,7 +1362,13 @@
         "v2": "ate",
         "v3": "ашаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "эчү"
+        ],
+        "transcription": "",
+        "id": "tt_starter_food_drink_003"
     },
     {
         "word": "эчү",
@@ -1236,8 +1382,6 @@
             "су эчәргә",
             "сыра эчәргә"
         ],
-        "opposite": "ашау",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1252,7 +1396,13 @@
         "v2": "drank",
         "v3": "эчкән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "ашау"
+        ],
+        "transcription": "",
+        "id": "tt_starter_food_drink_004"
     },
     {
         "word": "йоклау",
@@ -1264,8 +1414,6 @@
             "яхшы йокларга",
             "начар йокларга"
         ],
-        "opposite": "уяну",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1280,12 +1428,18 @@
         "v2": "slept",
         "v3": "йоклаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "уяну"
+        ],
+        "transcription": "",
+        "id": "tt_starter_time_001"
     },
     {
         "word": "аш пешерү",
         "level": "starter",
-        "theme": "cooking_methods",
+        "theme": "food_drink",
         "emoji": "🍳",
         "subtext": "",
         "synonyms": [
@@ -1306,7 +1460,10 @@
         "v2": "cooked",
         "v3": "пешергән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_food_drink_005"
     },
     {
         "word": "тазарту",
@@ -1332,7 +1489,10 @@
         "v2": "cleaned",
         "v3": "тазарткан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_furniture_003"
     },
     {
         "word": "кию",
@@ -1358,7 +1518,10 @@
         "v2": "wore",
         "v3": "кигән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_clothes_001"
     },
     {
         "word": "юу",
@@ -1384,7 +1547,10 @@
         "v2": null,
         "v3": "юган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_furniture_004"
     },
     {
         "word": "сатып алу",
@@ -1396,8 +1562,6 @@
             "ризык сатып алырга",
             "билет сатып алырга"
         ],
-        "opposite": "сату",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1412,7 +1576,13 @@
         "v2": "bought",
         "v3": "сатып алган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "сату"
+        ],
+        "transcription": "",
+        "id": "tt_starter_shopping_007"
     },
     {
         "word": "түләү",
@@ -1438,7 +1608,10 @@
         "v2": "paid",
         "v3": "түләгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_shopping_008"
     },
     {
         "word": "тотону",
@@ -1464,7 +1637,10 @@
         "v2": "spent",
         "v3": "тотонган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_shopping_009"
     },
     {
         "word": "саклау",
@@ -1475,8 +1651,6 @@
         "synonyms": [
             "акча җыярга"
         ],
-        "opposite": "тотону",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1491,7 +1665,13 @@
         "v2": "saved",
         "v3": "саклаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "тотону"
+        ],
+        "transcription": "",
+        "id": "tt_starter_shopping_010"
     },
     {
         "word": "эшләү",
@@ -1518,7 +1698,10 @@
         "v2": "worked",
         "v3": "эшләгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_010"
     },
     {
         "word": "яшәү",
@@ -1531,8 +1714,6 @@
             "ялгыз яшәргә",
             "чит илләрдә яшәргә"
         ],
-        "opposite": "үлү",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1547,7 +1728,13 @@
         "v2": "lived",
         "v3": "яшәгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "үлү"
+        ],
+        "transcription": "",
+        "id": "tt_starter_places_001"
     },
     {
         "word": "уйлау",
@@ -1574,7 +1761,10 @@
         "v2": "thought",
         "v3": "уйлаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_005"
     },
     {
         "word": "белү",
@@ -1601,7 +1791,10 @@
         "v2": "knew",
         "v3": "белгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_school_006"
     },
     {
         "word": "теләү",
@@ -1628,7 +1821,10 @@
         "v2": "wanted",
         "v3": "теләгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_emotions_001"
     },
     {
         "word": "кирәк булу",
@@ -1655,7 +1851,10 @@
         "v2": "needed",
         "v3": "кирәк булган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_emotions_002"
     },
     {
         "word": "ошату",
@@ -1682,7 +1881,10 @@
         "v2": "liked",
         "v3": "ошаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_emotions_003"
     },
     {
         "word": "ярату",
@@ -1708,7 +1910,10 @@
         "v2": "loved",
         "v3": "яраткан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_emotions_004"
     },
     {
         "word": "нәфрәт итү",
@@ -1734,7 +1939,10 @@
         "v2": "hated",
         "v3": "нәфрәт иткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_emotions_005"
     },
     {
         "word": "өмет итү",
@@ -1760,7 +1968,10 @@
         "v2": "hoped",
         "v3": "өмет иткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_emotions_006"
     },
     {
         "word": "хәтерләү",
@@ -1786,7 +1997,10 @@
         "v2": "remembered",
         "v3": "хәтерләгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_school_007"
     },
     {
         "word": "оныту",
@@ -1812,7 +2026,10 @@
         "v2": "forgot",
         "v3": "оныткан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_school_008"
     },
     {
         "word": "аңлау",
@@ -1838,7 +2055,10 @@
         "v2": "understood",
         "v3": "аңлаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_language_005"
     },
     {
         "word": "карар итү",
@@ -1864,7 +2084,10 @@
         "v2": "decided",
         "v3": "карар иткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_006"
     },
     {
         "word": "ләззәт алу",
@@ -1890,7 +2113,10 @@
         "v2": "enjoyed",
         "v3": "ләззәт алган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_emotions_007"
     },
     {
         "word": "күрү",
@@ -1916,7 +2142,10 @@
         "v2": "saw",
         "v3": "күргән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_body_001"
     },
     {
         "word": "ишетү",
@@ -1942,7 +2171,10 @@
         "v2": "heard",
         "v3": "ишеткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_body_002"
     },
     {
         "word": "уяну",
@@ -1956,8 +2188,6 @@
             "соң уянырга",
             "арып уянырга"
         ],
-        "opposite": "йоклау",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Йокыдан уяну.",
@@ -1971,7 +2201,13 @@
         "v2": "woke up",
         "v3": "уянган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "йоклау"
+        ],
+        "transcription": "",
+        "id": "tt_starter_work_011"
     },
     {
         "word": "карау",
@@ -1998,7 +2234,10 @@
         "v2": "watched",
         "v3": "караган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_007"
     },
     {
         "word": "карау",
@@ -2025,7 +2264,10 @@
         "v2": "looked",
         "v3": "караган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_people_001"
     },
     {
         "word": "уйнау",
@@ -2051,7 +2293,10 @@
         "v2": "played",
         "v3": "уйнаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_008"
     },
     {
         "word": "йөгерү",
@@ -2078,7 +2323,10 @@
         "v2": "ran",
         "v3": "йөгергән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_sports_001"
     },
     {
         "word": "утыру",
@@ -2090,8 +2338,6 @@
             "утырырга",
             "өстәл артына утырырга"
         ],
-        "opposite": "тору",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -2106,7 +2352,13 @@
         "v2": "sat",
         "v3": "утырган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "тору"
+        ],
+        "transcription": "",
+        "id": "tt_starter_work_012"
     },
     {
         "word": "тору",
@@ -2118,8 +2370,6 @@
             "басарга",
             "чиратта басып торырга"
         ],
-        "opposite": "утыру",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -2134,7 +2384,13 @@
         "v2": "stood",
         "v3": "торган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "утыру"
+        ],
+        "transcription": "",
+        "id": "tt_starter_work_013"
     },
     {
         "word": "очрашу",
@@ -2160,7 +2416,10 @@
             "хезмәттәш белән очрашырга"
         ],
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_014"
     },
     {
         "word": "өйрәнү",
@@ -2186,7 +2445,10 @@
         "v2": "learned / learnt",
         "v3": "өйрәнгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_school_009"
     },
     {
         "word": "үзгәртү",
@@ -2212,7 +2474,10 @@
         "v2": "changed",
         "v3": "үзгәрткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_015"
     },
     {
         "word": "туктау",
@@ -2238,7 +2503,10 @@
         "v2": "stopped",
         "v3": "туктаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_016"
     },
     {
         "word": "өстәү",
@@ -2265,7 +2533,10 @@
         "v2": "added",
         "v3": "өстәгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_numbers_001"
     },
     {
         "word": "җиңү",
@@ -2277,8 +2548,6 @@
             "уенда җиңәргә",
             "приз алырга"
         ],
-        "opposite": "югалту",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -2293,7 +2562,13 @@
         "v2": "won",
         "v3": "җиңгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "югалту"
+        ],
+        "transcription": "",
+        "id": "tt_starter_social_009"
     },
     {
         "word": "көтү",
@@ -2319,7 +2594,10 @@
         "v2": "waited",
         "v3": "көткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_017"
     },
     {
         "word": "үлү",
@@ -2331,8 +2609,6 @@
             "үлгәргә",
             "һәлак булырга"
         ],
-        "opposite": "яшәү",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -2347,7 +2623,13 @@
         "v2": "died",
         "v3": "үлгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "яшәү"
+        ],
+        "transcription": "",
+        "id": "tt_starter_health_medicine_002"
     },
     {
         "word": "җибәрү",
@@ -2373,7 +2655,10 @@
             "хәбәр җибәрергә"
         ],
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_018"
     },
     {
         "word": "калу",
@@ -2399,7 +2684,10 @@
         "v2": "stayed",
         "v3": "калган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_010"
     },
     {
         "word": "егылу",
@@ -2426,7 +2714,10 @@
         "v2": "fell",
         "v3": "егылган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_nature_001"
     },
     {
         "word": "үтү",
@@ -2453,7 +2744,10 @@
         "v2": "passed",
         "v3": "үткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_school_010"
     },
     {
         "word": "сату",
@@ -2465,8 +2759,6 @@
             "товар сатарга",
             "онлайн сатарга"
         ],
-        "opposite": "сатып алу",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2481,7 +2773,13 @@
         "v2": "sold",
         "v3": "саткан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "сатып алу"
+        ],
+        "transcription": "",
+        "id": "tt_starter_shopping_011"
     },
     {
         "word": "тарту",
@@ -2493,8 +2791,6 @@
             "ишекне тартырга",
             "нәрсәнедер тартырга"
         ],
-        "opposite": "этәрү",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2509,7 +2805,13 @@
         "v2": "pulled",
         "v3": "тарткан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "этәрү"
+        ],
+        "transcription": "",
+        "id": "tt_starter_work_019"
     },
     {
         "word": "этәрү",
@@ -2521,8 +2823,6 @@
             "төймәгә басарга",
             "этәргә"
         ],
-        "opposite": "тарту",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2537,7 +2837,13 @@
         "v2": "pushed",
         "v3": "этәргән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "тарту"
+        ],
+        "transcription": "",
+        "id": "tt_starter_work_020"
     },
     {
         "word": "ташу",
@@ -2563,7 +2869,10 @@
         "v2": "carried",
         "v3": "ташыган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_021"
     },
     {
         "word": "сыну",
@@ -2590,7 +2899,10 @@
         "v2": "broke",
         "v3": "сынган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_describing_001"
     },
     {
         "word": "алу",
@@ -2617,7 +2929,10 @@
         "v2": "received",
         "v3": "алган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_shopping_012"
     },
     {
         "word": "риза булу",
@@ -2643,12 +2958,15 @@
         "v2": "agreed",
         "v3": "риза булган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_010"
     },
     {
         "word": "рәсем ясау",
         "level": "starter",
-        "theme": "cinema_film",
+        "theme": "social",
         "emoji": "🎨",
         "subtext": "",
         "synonyms": [
@@ -2669,7 +2987,10 @@
         "v2": "drew",
         "v3": "ясаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_011"
     },
     {
         "word": "бүлешү",
@@ -2695,7 +3016,10 @@
         "v2": "shared",
         "v3": "бүлешкән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_012"
     },
     {
         "word": "елмаю",
@@ -2707,8 +3031,6 @@
             "елмаерга",
             "берәүгә елмаерга"
         ],
-        "opposite": "елау",
-        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2723,7 +3045,13 @@
         "v2": "smiled",
         "v3": "елмайган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "елау"
+        ],
+        "transcription": "",
+        "id": "tt_starter_people_002"
     },
     {
         "word": "елау",
@@ -2736,8 +3064,6 @@
             "кычкырырга",
             "елап җибәрергә"
         ],
-        "opposite": "елмаю",
-        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2752,7 +3078,13 @@
         "v2": "cried",
         "v3": "елаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "antonyms": [
+            "елмаю"
+        ],
+        "transcription": "",
+        "id": "tt_starter_emotions_008"
     },
     {
         "word": "бию",
@@ -2778,7 +3110,10 @@
         "v2": "danced",
         "v3": "биегән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_music_001"
     },
     {
         "word": "җырлау",
@@ -2804,7 +3139,10 @@
         "v2": "sang",
         "v3": "җырлаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_music_002"
     },
     {
         "word": "сикерү",
@@ -2830,7 +3168,10 @@
         "v2": "jumped",
         "v3": "сикергән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_sports_002"
     },
     {
         "word": "йөзү",
@@ -2856,7 +3197,10 @@
         "v2": "swam",
         "v3": "йөзгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_sports_003"
     },
     {
         "word": "өйрәнү",
@@ -2882,7 +3226,10 @@
         "v2": "studied",
         "v3": "өйрәнгән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_school_011"
     },
     {
         "word": "укыту",
@@ -2908,12 +3255,15 @@
         "v2": "taught",
         "v3": "укыткан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_school_012"
     },
     {
         "word": "эшкә йөрү",
         "level": "starter",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🚆",
         "subtext": "",
         "synonyms": [
@@ -2934,7 +3284,10 @@
         "v2": "commuted",
         "v3": "йөргән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_011"
     },
     {
         "word": "урнашу",
@@ -2960,7 +3313,10 @@
         "v2": "rented",
         "v3": "алган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_012"
     },
     {
         "word": "күнегүләр ясау",
@@ -2986,7 +3342,10 @@
             "спортзал барырга"
         ],
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_013"
     },
     {
         "word": "тора",
@@ -3012,7 +3371,10 @@
             "акча торырга"
         ],
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_shopping_013"
     },
     {
         "word": "чакыру",
@@ -3038,7 +3400,10 @@
             "төшке ашка чакырырга"
         ],
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_014"
     },
     {
         "word": "тору",
@@ -3064,7 +3429,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_022"
     },
     {
         "word": "иртәнге ашны ашау",
@@ -3086,7 +3454,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_023"
     },
     {
         "word": "кайту",
@@ -3112,7 +3483,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_024"
     },
     {
         "word": "йокларга яту",
@@ -3138,7 +3512,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_025"
     },
     {
         "word": "тикшерү",
@@ -3164,7 +3541,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_026"
     },
     {
         "word": "җавап бирү",
@@ -3190,7 +3570,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_027"
     },
     {
         "word": "тәкъдим итү",
@@ -3216,7 +3599,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_028"
     },
     {
         "word": "катнашу",
@@ -3242,7 +3628,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_029"
     },
     {
         "word": "идарә итү",
@@ -3264,7 +3653,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_030"
     },
     {
         "word": "түләү алу",
@@ -3290,7 +3682,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_shopping_014"
     },
     {
         "word": "булдыра алу",
@@ -3312,7 +3707,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_shopping_015"
     },
     {
         "word": "бурычлы булу",
@@ -3337,7 +3735,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_shopping_016"
     },
     {
         "word": "эшләп алу",
@@ -3363,7 +3764,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_shopping_017"
     },
     {
         "word": "бару",
@@ -3389,7 +3793,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_015"
     },
     {
         "word": "бәйрәм итү",
@@ -3411,7 +3818,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_016"
     },
     {
         "word": "тәкъдим итү",
@@ -3437,7 +3847,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_017"
     },
     {
         "word": "авырту",
@@ -3463,7 +3876,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_health_medicine_003"
     },
     {
         "word": "ял итү",
@@ -3488,7 +3904,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_031"
     },
     {
         "word": "савыгу",
@@ -3514,7 +3933,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_health_medicine_004"
     },
     {
         "word": "заказ бирү",
@@ -3540,7 +3962,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_013"
     },
     {
         "word": "җыю",
@@ -3566,7 +3991,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_014"
     },
     {
         "word": "бетерү",
@@ -3592,7 +4020,10 @@
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_015"
     },
     {
         "word": "сагыну",
@@ -3613,12 +4044,15 @@
         "aspect": "both",
         "v2": "missed",
         "v3": "сагынган",
-        "theme": "public_transport",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_travel_016"
     },
     {
         "word": "заказ бирү",
@@ -3644,7 +4078,10 @@
         "v2": "ordered",
         "v3": "заказ биргән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_032"
     },
     {
         "word": "аңлату",
@@ -3670,12 +4107,15 @@
         "v2": "explained",
         "v3": "аңлаткан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_033"
     },
     {
         "word": "рәхмәт әйтү",
         "level": "starter",
-        "theme": "greetings_social_phrases",
+        "theme": "social",
         "emoji": "🙏",
         "subtext": "",
         "synonyms": [
@@ -3696,12 +4136,15 @@
         "v2": "thanked",
         "v3": "әйткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_018"
     },
     {
         "word": "таныштыру",
         "level": "starter",
-        "theme": "name_greeting",
+        "theme": "social",
         "emoji": "🤝",
         "subtext": "",
         "synonyms": [
@@ -3722,7 +4165,10 @@
         "v2": "introduced",
         "v3": "таныштырган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_019"
     },
     {
         "word": "ял итү",
@@ -3748,7 +4194,10 @@
         "v2": "relaxed",
         "v3": "ял иткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_020"
     },
     {
         "word": "төзәтү",
@@ -3774,7 +4223,10 @@
         "v2": "repaired",
         "v3": "төзәткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_furniture_005"
     },
     {
         "word": "булу",
@@ -3801,7 +4253,10 @@
         "v2": "happened",
         "v3": "булган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_021"
     },
     {
         "word": "тояла",
@@ -3827,7 +4282,10 @@
         "v2": "seemed",
         "v3": "тоялган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_022"
     },
     {
         "word": "аңлата",
@@ -3852,7 +4310,10 @@
         "v2": "meant",
         "v3": "аңлаткан",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_school_013"
     },
     {
         "word": "иярү",
@@ -3878,7 +4339,10 @@
         "v2": "followed",
         "v3": "ияргән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_034"
     },
     {
         "word": "дәвам итү",
@@ -3904,7 +4368,10 @@
         "v2": "continued",
         "v3": "дәвам иткән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_school_014"
     },
     {
         "word": "үсү",
@@ -3930,7 +4397,10 @@
         "v2": "grew",
         "v3": "үскән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_035"
     },
     {
         "word": "үз эченә алу",
@@ -3956,7 +4426,10 @@
         "v2": "included",
         "v3": "алган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_shopping_018"
     },
     {
         "word": "булу",
@@ -3982,7 +4455,10 @@
         "v2": "became",
         "v3": "булган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_036"
     },
     {
         "word": "карау",
@@ -4008,7 +4484,10 @@
         "v2": "belonged",
         "v3": "караган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_037"
     },
     {
         "word": "сайлау",
@@ -4035,7 +4514,10 @@
         "v2": "chose",
         "v3": "сайлаган",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_social_023"
     },
     {
         "word": "төзү",
@@ -4061,7 +4543,10 @@
         "v2": "built",
         "v3": "төзегән",
         "group": "vowel",
-        "auxiliary": "иде"
+        "auxiliary": "иде",
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_work_038"
     }
 ];
     const lang = "tt";

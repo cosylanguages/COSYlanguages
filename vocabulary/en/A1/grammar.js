@@ -756,7 +756,9 @@
                 "text": "to be",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "en_starter_describing_002",
@@ -875,7 +877,9 @@
                 "text": "to have",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "en_starter_describing_003",
@@ -994,7 +998,9 @@
                 "text": "to work",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "en_starter_describing_004",
@@ -1113,7 +1119,9 @@
                 "text": "to do",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "en_starter_describing_005",
@@ -1232,7 +1240,9 @@
                 "text": "to go",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "en_starter_describing_006",
@@ -1351,7 +1361,9 @@
                 "text": "to eat",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "en_starter_describing_007",
@@ -1470,10 +1482,9 @@
                 "text": "to speak",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     }
-]
-    const lang = "en";
-    window.grammarData = window.grammarData || {};
-    window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
+];
 })();

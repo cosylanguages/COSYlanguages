@@ -16,7 +16,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈe.na/"
+        "transcription": "/ˈe.na/",
+        "lang": "el",
+        "id": "el_starter_numbers_001"
     },
     {
         "word": "δύο",
@@ -34,7 +36,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈði.o/"
+        "transcription": "/ˈði.o/",
+        "lang": "el",
+        "id": "el_starter_numbers_002"
     },
     {
         "word": "τρία",
@@ -52,7 +56,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈtri.a/"
+        "transcription": "/ˈtri.a/",
+        "lang": "el",
+        "id": "el_starter_numbers_003"
     },
     {
         "word": "τέσσερα",
@@ -70,7 +76,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈte.se.ra/"
+        "transcription": "/ˈte.se.ra/",
+        "lang": "el",
+        "id": "el_starter_numbers_004"
     },
     {
         "word": "πέντε",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/ˈpen.de/"
+        "transcription": "/ˈpen.de/",
+        "lang": "el",
+        "id": "el_starter_numbers_005"
     }
-    ];
+];
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

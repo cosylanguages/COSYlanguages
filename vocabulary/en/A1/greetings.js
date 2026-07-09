@@ -17,7 +17,8 @@
                 ]
             }
         ],
-        "transcription": "həˈloʊ"
+        "transcription": "həˈloʊ",
+        "lang": "en"
     },
     {
         "id": "en_starter_greetings_002",
@@ -36,7 +37,8 @@
                 ]
             }
         ],
-        "transcription": "ɡʊdˈbaɪ"
+        "transcription": "ɡʊdˈbaɪ",
+        "lang": "en"
     },
     {
         "id": "en_starter_greetings_003",
@@ -55,7 +57,8 @@
                 ]
             }
         ],
-        "transcription": "pliz"
+        "transcription": "pliz",
+        "lang": "en"
     },
     {
         "id": "en_starter_greetings_004",
@@ -74,7 +77,8 @@
                 ]
             }
         ],
-        "transcription": "θæŋk ju"
+        "transcription": "θæŋk ju",
+        "lang": "en"
     },
     {
         "id": "en_starter_greetings_005",
@@ -93,9 +97,10 @@
                 ]
             }
         ],
-        "transcription": "ˈsɑri"
+        "transcription": "ˈsɑri",
+        "lang": "en"
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

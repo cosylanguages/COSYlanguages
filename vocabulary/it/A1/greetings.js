@@ -16,7 +16,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈtʃao/"
+        "transcription": "/ˈtʃao/",
+        "lang": "it",
+        "id": "it_starter_greetings_001"
     },
     {
         "word": "buongiorno",
@@ -34,7 +36,9 @@
                 ]
             }
         ],
-        "transcription": "/bwɔnˈdʒorno/"
+        "transcription": "/bwɔnˈdʒorno/",
+        "lang": "it",
+        "id": "it_starter_greetings_002"
     },
     {
         "word": "per favore",
@@ -52,7 +56,9 @@
                 ]
             }
         ],
-        "transcription": "/per faˈvore/"
+        "transcription": "/per faˈvore/",
+        "lang": "it",
+        "id": "it_starter_greetings_003"
     },
     {
         "word": "grazie",
@@ -70,7 +76,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈɡrattsje/"
+        "transcription": "/ˈɡrattsje/",
+        "lang": "it",
+        "id": "it_starter_greetings_004"
     },
     {
         "word": "scusa",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/ˈskuza/"
+        "transcription": "/ˈskuza/",
+        "lang": "it",
+        "id": "it_starter_greetings_005"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

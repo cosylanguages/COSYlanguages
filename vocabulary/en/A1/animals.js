@@ -94,7 +94,6 @@
     {
         "id": "en_starter_animals_007",
         "word": "fish",
-        "image": "images/vocabulary/nature/fish.png",
         "emoji": "🐟",
         "form": "noun",
         "classification": "regular",

@@ -5,14 +5,18 @@
         "level": "advanced",
         "theme": "identity_self_c1",
         "lang": "fr",
-        "id": "fr_advanced_identity_self_c1_misc_claude_monet"
+        "id": "fr_advanced_identity_self_c1_misc_claude_monet",
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "word": "Jean-Paul Sartre",
         "level": "advanced",
         "theme": "identity_self_c1",
         "lang": "fr",
-        "id": "fr_advanced_identity_self_c1_misc_jean-paul_sartre"
+        "id": "fr_advanced_identity_self_c1_misc_jean-paul_sartre",
+        "transcription": "",
+        "emoji": "✨"
     }
 ];
     const lang = "fr";

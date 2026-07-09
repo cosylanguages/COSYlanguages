@@ -23,7 +23,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_philosophy_logic_001"
+        "id": "ka_proficiency_philosophy_logic_001",
+        "transcription": ""
     },
     {
         "word": "სუბლიმირება",
@@ -47,7 +48,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_psychology_academic_001"
+        "id": "ka_proficiency_psychology_academic_001",
+        "transcription": ""
     },
     {
         "word": "პრედიცირება",
@@ -71,7 +73,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_logic_linguistics_001"
+        "id": "ka_proficiency_logic_linguistics_001",
+        "transcription": ""
     },
     {
         "word": "განხორციელება",
@@ -95,7 +98,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_logic_computing_001"
+        "id": "ka_proficiency_logic_computing_001",
+        "transcription": ""
     },
     {
         "word": "უარყოფა",
@@ -119,7 +123,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_logic_debate_001"
+        "id": "ka_proficiency_logic_debate_001",
+        "transcription": ""
     },
     {
         "word": "აღმატება",
@@ -143,7 +148,8 @@
         "group": "i_eb",
         "auxiliary": "ყოფნა",
         "lang": "ka",
-        "id": "ka_proficiency_philosophy_general_001"
+        "id": "ka_proficiency_philosophy_general_001",
+        "transcription": ""
     },
     {
         "word": "მედიაცია",
@@ -167,7 +173,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_sociology_conflict_001"
+        "id": "ka_proficiency_sociology_conflict_001",
+        "transcription": ""
     },
     {
         "word": "გამოტოვება",
@@ -191,7 +198,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_linguistics_debate_001"
+        "id": "ka_proficiency_linguistics_debate_001",
+        "transcription": ""
     },
     {
         "word": "დაბინდვა",
@@ -215,12 +223,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_debate_communication_001"
+        "id": "ka_proficiency_debate_communication_001",
+        "transcription": ""
     },
     {
         "word": "აღრევა",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🌀",
         "subtext": "საკითხების აღრევა / გაერთიანება / სახიფათო აღრევა",
         "form": "verb",
@@ -239,7 +248,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_debate_academic_001"
+        "id": "ka_proficiency_debate_academic_001",
+        "transcription": ""
     },
     {
         "word": "მოხმობა",
@@ -263,7 +273,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_law_debate_001"
+        "id": "ka_proficiency_law_debate_001",
+        "transcription": ""
     },
     {
         "word": "წინ წამოწევა",
@@ -287,7 +298,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_art_media_001"
+        "id": "ka_proficiency_art_media_001",
+        "transcription": ""
     },
     {
         "word": "ათვისება",
@@ -311,7 +323,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_sociology_culture_001"
+        "id": "ka_proficiency_sociology_culture_001",
+        "transcription": ""
     },
     {
         "word": "დესტაბილიზაცია",
@@ -335,7 +348,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_politics_academic_001"
+        "id": "ka_proficiency_politics_academic_001",
+        "transcription": ""
     },
     {
         "word": "კომოდიფიკაცია",
@@ -359,7 +373,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_economics_sociology_001"
+        "id": "ka_proficiency_economics_sociology_001",
+        "transcription": ""
     },
     {
         "word": "ინსტრუმენტალიზება",
@@ -383,7 +398,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_politics_philosophy_001"
+        "id": "ka_proficiency_politics_philosophy_001",
+        "transcription": ""
     },
     {
         "word": "ვალორიზაცია",
@@ -407,7 +423,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_sociology_academic_001"
+        "id": "ka_proficiency_sociology_academic_001",
+        "transcription": ""
     },
     {
         "word": "ფეტიშიზება",
@@ -431,7 +448,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_sociology_academic_002"
+        "id": "ka_proficiency_sociology_academic_002",
+        "transcription": ""
     },
     {
         "word": "გაუცხოება",
@@ -455,7 +473,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_sociology_psychology_001"
+        "id": "ka_proficiency_sociology_psychology_001",
+        "transcription": ""
     },
     {
         "word": "დემარკაცია",
@@ -479,7 +498,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_law_philosophy_001"
+        "id": "ka_proficiency_law_philosophy_001",
+        "transcription": ""
     },
     {
         "word": "შემოსაზღვრა",
@@ -503,12 +523,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_academic_research_001"
+        "id": "ka_proficiency_academic_research_001",
+        "transcription": ""
     },
     {
         "word": "წინააღმდეგ მოქმედება",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🛡️",
         "subtext": "წინააღმდეგ მოქმედება / ძლიერად მოქმედება / სასარგებლოდ ყოფნა",
         "form": "verb",
@@ -527,12 +548,13 @@
         "group": "i_eb",
         "auxiliary": "ყოფნა",
         "lang": "ka",
-        "id": "ka_proficiency_debate_academic_002"
+        "id": "ka_proficiency_debate_academic_002",
+        "transcription": ""
     },
     {
         "word": "გაუფასურება",
         "level": "proficiency",
-        "theme": "law_academic",
+        "theme": "work",
         "emoji": "☣️",
         "subtext": "მტკიცებულების გაუფასურება / არგუმენტის გაბათილება / იურიდიულად გაბათილებული",
         "form": "verb",
@@ -551,7 +573,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_law_academic_001"
+        "id": "ka_proficiency_law_academic_001",
+        "transcription": ""
     },
     {
         "word": "უარყოფა",
@@ -575,7 +598,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_debate_logic_001"
+        "id": "ka_proficiency_debate_logic_001",
+        "transcription": ""
     },
     {
         "word": "გაუქმება",
@@ -599,7 +623,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_law_politics_001"
+        "id": "ka_proficiency_law_politics_001",
+        "transcription": ""
     },
     {
         "word": "დარღვევა",
@@ -623,7 +648,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_law_debate_002"
+        "id": "ka_proficiency_law_debate_002",
+        "transcription": ""
     },
     {
         "word": "სუბსუმირება",
@@ -647,7 +673,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_logic_philosophy_001"
+        "id": "ka_proficiency_logic_philosophy_001",
+        "transcription": ""
     },
     {
         "word": "დეკონსტრუქცია",
@@ -671,7 +698,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_philosophy_literature_001"
+        "id": "ka_proficiency_philosophy_literature_001",
+        "transcription": ""
     },
     {
         "word": "გამორიცხვა",
@@ -695,7 +723,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_law_debate_003"
+        "id": "ka_proficiency_law_debate_003",
+        "transcription": ""
     },
     {
         "word": "დიალექტიზება",
@@ -719,7 +748,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_philosophy_academic_001"
+        "id": "ka_proficiency_philosophy_academic_001",
+        "transcription": ""
     },
     {
         "word": "ჰეგემონიზება",
@@ -743,12 +773,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_politics_sociology_001"
+        "id": "ka_proficiency_politics_sociology_001",
+        "transcription": ""
     },
     {
         "word": "ხაზგასმა",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🔊",
         "subtext": "განსხვავების ხაზგასმა / პოზიტიურის ხაზგასმა / ხაზგასმული ყოფნა",
         "form": "verb",
@@ -767,7 +798,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_001"
+        "id": "ka_proficiency_general_academic_001",
+        "transcription": ""
     },
     {
         "word": "დათანხმება",
@@ -791,7 +823,8 @@
         "group": "i_eb",
         "auxiliary": "ყოფნა",
         "lang": "ka",
-        "id": "ka_proficiency_debate_communication_002"
+        "id": "ka_proficiency_debate_communication_002",
+        "transcription": ""
     },
     {
         "word": "შემსუბუქება",
@@ -815,7 +848,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_policy_general_001"
+        "id": "ka_proficiency_policy_general_001",
+        "transcription": ""
     },
     {
         "word": "გვერდის ავლით",
@@ -839,7 +873,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_debate_general_001"
+        "id": "ka_proficiency_debate_general_001",
+        "transcription": ""
     },
     {
         "word": "დადასტურება",
@@ -863,7 +898,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_academic_research_002"
+        "id": "ka_proficiency_academic_research_002",
+        "transcription": ""
     },
     {
         "word": "გავრცელება",
@@ -887,12 +923,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_academic_research_003"
+        "id": "ka_proficiency_academic_research_003",
+        "transcription": ""
     },
     {
         "word": "ასახვა",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "💊",
         "subtext": "იდეის ასახვა / პრობლემის ასახვა / ზუსტად ასახვა",
         "form": "verb",
@@ -911,7 +948,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_002"
+        "id": "ka_proficiency_general_academic_002",
+        "transcription": ""
     },
     {
         "word": "გამოწვევა",
@@ -935,12 +973,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_sociology_general_001"
+        "id": "ka_proficiency_sociology_general_001",
+        "transcription": ""
     },
     {
         "word": "გამწვავება",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🔥",
         "subtext": "პრობლემის გამწვავება / დაძაბულობის გამწვავება / უთანასწორობის გამწვავება",
         "form": "verb",
@@ -959,12 +998,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_003"
+        "id": "ka_proficiency_general_academic_003",
+        "transcription": ""
     },
     {
         "word": "განსახიერება",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "📖",
         "subtext": "განასახიერებს რაიმეს / პრობლემის მაგალითია / ნათლად განასახიერებს",
         "form": "verb",
@@ -983,12 +1023,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_004"
+        "id": "ka_proficiency_general_academic_004",
+        "transcription": ""
     },
     {
         "word": "შეფერხება",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🚧",
         "subtext": "პროგრესის შეფერხება / ზრდის შეფერხება / ვინმესთვის ხელის შეშლა",
         "form": "verb",
@@ -1007,12 +1048,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_005"
+        "id": "ka_proficiency_general_academic_005",
+        "transcription": ""
     },
     {
         "word": "შერბილება",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🛡️",
         "subtext": "რისკის შერბილება / ზემოქმედების შერბილება / საწინააღმდეგოდ მოქმედება",
         "form": "verb",
@@ -1031,12 +1073,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_006"
+        "id": "ka_proficiency_general_academic_006",
+        "transcription": ""
     },
     {
         "word": "ვალდებულება",
         "level": "proficiency",
-        "theme": "law_general",
+        "theme": "work",
         "emoji": "⚖️",
         "subtext": "იყო ვალდებული / ვინმეს დავალდებულება / ვალდებულების განცდა",
         "form": "verb",
@@ -1055,12 +1098,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_law_general_001"
+        "id": "ka_proficiency_law_general_001",
+        "transcription": ""
     },
     {
         "word": "გამსჭვალვა",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "💧",
         "subtext": "ორგანიზაციის გამსჭვალვა / გამსჭვალული ყოფნა / ყოვლისმომცველი",
         "form": "verb",
@@ -1079,12 +1123,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_007"
+        "id": "ka_proficiency_general_academic_007",
+        "transcription": ""
     },
     {
         "word": "გამორიცხვა",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🚫",
         "subtext": "ვინმეს გამორიცხვა / შესაძლებლობის გამორიცხვა / არ გამორიცხვა",
         "form": "verb",
@@ -1103,12 +1148,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_008"
+        "id": "ka_proficiency_general_academic_008",
+        "transcription": ""
     },
     {
         "word": "შერიგება",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "იდეების შეჯერება / რთულად შესაჯერებელი / განსხვავებების შერიგება",
         "form": "verb",
@@ -1127,12 +1173,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_009"
+        "id": "ka_proficiency_general_academic_009",
+        "transcription": ""
     },
     {
         "word": "ჩანაცვლება",
         "level": "proficiency",
-        "theme": "law_academic",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "კანონის ჩანაცვლება / წინა მითითებების ჩანაცვლება / ჩანაცვლებული ყოფნა",
         "form": "verb",
@@ -1151,12 +1198,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_law_academic_002"
+        "id": "ka_proficiency_law_academic_002",
+        "transcription": ""
     },
     {
         "word": "საფუძვლის ჩაყრა",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "⚓",
         "subtext": "არგუმენტის გამყარება / წარმატების საფუძველი / გამყარებული ყოფნა",
         "form": "verb",
@@ -1175,12 +1223,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_010"
+        "id": "ka_proficiency_general_academic_010",
+        "transcription": ""
     },
     {
         "word": "გამართლება",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🏆",
         "subtext": "ვინმეს გამართლება / გადაწყვეტილების გამართლება / გამართლებულად განცდა",
         "form": "verb",
@@ -1199,12 +1248,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_011"
+        "id": "ka_proficiency_general_academic_011",
+        "transcription": ""
     },
     {
         "word": "დამოკიდებულება",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "⛓️",
         "subtext": "გადაწყვეტილებაზე დამოკიდებულება / ერთ ფაქტორზე დამოკიდებულება / ყველაფერი დამოკიდებულია",
         "form": "verb",
@@ -1223,12 +1273,13 @@
         "group": "i_eb",
         "auxiliary": "ყოფნა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_012"
+        "id": "ka_proficiency_general_academic_012",
+        "transcription": ""
     },
     {
         "word": "ჭიდილი",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "work",
         "emoji": "🤼",
         "subtext": "პრობლემასთან ჭიდილი / შედეგებთან გამკლავება / სირთულის გააზრება",
         "form": "verb",
@@ -1247,12 +1298,13 @@
         "group": "i_eb",
         "auxiliary": "ყოფნა",
         "lang": "ka",
-        "id": "ka_proficiency_general_academic_013"
+        "id": "ka_proficiency_general_academic_013",
+        "transcription": ""
     },
     {
         "word": "ზედაპირულად განხილვა",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🙈",
         "subtext": "პრობლემის ზედაპირულად განხილვა / დეტალების მიჩუმათება / არ უგულებელყოფა",
         "form": "verb",
@@ -1271,12 +1323,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_debate_academic_003"
+        "id": "ka_proficiency_debate_academic_003",
+        "transcription": ""
     },
     {
         "word": "მიჩუმათება",
         "level": "proficiency",
-        "theme": "debate_politics",
+        "theme": "social",
         "emoji": "🩹",
         "subtext": "პრობლემის მიჩუმათება / ბზარების დაფარვა / განსხვავებების მიჩქმალვა",
         "form": "verb",
@@ -1295,12 +1348,13 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_debate_politics_001"
+        "id": "ka_proficiency_debate_politics_001",
+        "transcription": ""
     },
     {
         "word": "პარადაგმის შეცვლა",
         "level": "proficiency",
-        "theme": "academic_general",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "ფუნდამენტური ცვლილება მიდგომაში",
         "form": "verb",
@@ -1319,7 +1373,8 @@
         "group": "i_eb",
         "auxiliary": "ყოლა",
         "lang": "ka",
-        "id": "ka_proficiency_academic_general_001"
+        "id": "ka_proficiency_academic_general_001",
+        "transcription": ""
     }
 ];
     const lang = "ka";

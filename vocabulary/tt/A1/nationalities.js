@@ -1,10 +1,61 @@
 // TODO: verify level classification
 (function() {
     const data = [
-        { "word": "татар", "level": "starter", "theme": "nationalities", "emoji": "⬜", "form": "adjective", "definitions": [{ "text": "Татарстаннан.", "examples": ["Мин татар."] }] },
-        { "word": "урыс", "level": "starter", "theme": "nationalities", "emoji": "🇷🇺", "form": "adjective", "definitions": [{ "text": "Россиядән.", "examples": ["Ул урыс."] }] },
-        { "word": "төрек", "level": "starter", "theme": "nationalities", "emoji": "🇹🇷", "form": "adjective", "definitions": [{ "text": "Төркиядән.", "examples": ["Алар төрек."] }] }
-    ];
+    {
+        "word": "татар",
+        "level": "starter",
+        "theme": "people",
+        "emoji": "⬜",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Татарстаннан.",
+                "examples": [
+                    "Мин татар."
+                ]
+            }
+        ],
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_people_001"
+    },
+    {
+        "word": "урыс",
+        "level": "starter",
+        "theme": "people",
+        "emoji": "🇷🇺",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Россиядән.",
+                "examples": [
+                    "Ул урыс."
+                ]
+            }
+        ],
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_people_002"
+    },
+    {
+        "word": "төрек",
+        "level": "starter",
+        "theme": "people",
+        "emoji": "🇹🇷",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Төркиядән.",
+                "examples": [
+                    "Алар төрек."
+                ]
+            }
+        ],
+        "lang": "tt",
+        "transcription": "",
+        "id": "tt_starter_people_003"
+    }
+];
     const lang = "tt";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

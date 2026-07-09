@@ -13,10 +13,10 @@
                 "examples": []
             }
         ],
-        "image": "images/vocabulary/actions/to garden.png",
         "emoji": "🌳",
         "classification": "regular",
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": ""
     },
     {
         "id": "ru_starter_jobs_002",
@@ -34,7 +34,6 @@
                 ]
             }
         ],
-        "image": "images/vocabulary/jobs/doctor.png",
         "gender": "masculine",
         "numberPlural": "2 врач",
         "answer": "два врача",
@@ -121,7 +120,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "учителя",
-        "subtext": "учитель русского языка, школьный учитель"
+        "subtext": "учитель русского языка, школьный учитель",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_031",
@@ -160,7 +160,6 @@
                 }
             }
         ],
-        "image": "images/vocabulary/food/apple.png",
         "gender": "neuter",
         "emoji": "🍎",
         "numberPlural": "4 яблоко",
@@ -195,7 +194,8 @@
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "xlěbъ"
-        }
+        },
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_033",
@@ -217,7 +217,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "яйца",
-        "subtext": "варёное яйцо, омлет"
+        "subtext": "варёное яйцо, омлет",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_034",
@@ -243,7 +244,8 @@
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "mleko"
-        }
+        },
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_035",
@@ -332,7 +334,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "еда",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_039",
@@ -420,7 +423,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": null,
-        "subtext": "чёрный кофе, чашка кофе"
+        "subtext": "чёрный кофе, чашка кофе",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_042",
@@ -442,7 +446,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": null,
-        "subtext": "зелёный чай, чашка чая"
+        "subtext": "зелёный чай, чашка чая",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_043",
@@ -464,7 +469,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": null,
-        "subtext": "апельсиновый сок, яблочный сок"
+        "subtext": "апельсиновый сок, яблочный сок",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_044",
@@ -490,7 +496,8 @@
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "voda"
-        }
+        },
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_045",
@@ -507,13 +514,13 @@
                 ]
             }
         ],
-        "image": "images/vocabulary/actions/to have breakfast.png",
         "gender": "masculine",
         "emoji": "🍳",
         "classification": "regular",
         "countability": "countable",
         "plural": "завтраки",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_046",
@@ -530,13 +537,13 @@
                 ]
             }
         ],
-        "image": "images/vocabulary/actions/to have dinner.png",
         "gender": "masculine",
         "emoji": "🍽️",
         "classification": "regular",
         "countability": "countable",
         "plural": "ужины",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_047",
@@ -553,13 +560,13 @@
                 ]
             }
         ],
-        "image": "images/vocabulary/actions/to have lunch.png",
         "gender": "masculine",
         "emoji": "🍱",
         "classification": "regular",
         "countability": "countable",
         "plural": "обеды",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_025",
@@ -581,7 +588,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "парки",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_026",
@@ -598,7 +606,6 @@
                 ]
             }
         ],
-        "image": "images/vocabulary/actions/to go to school.png",
         "gender": "feminine",
         "emoji": "🏫",
         "classification": "regular",
@@ -608,7 +615,8 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "schola"
-        }
+        },
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_027",
@@ -630,7 +638,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "магазины",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_clothes_001",
@@ -652,7 +661,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "футболки",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_clothes_002",
@@ -674,7 +684,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "брюки",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_clothes_003",
@@ -696,7 +707,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "обувь",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_clothes_004",
@@ -718,7 +730,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "шапки",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_028",
@@ -815,7 +828,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "ключи",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_technology_006",
@@ -837,7 +851,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "телефоны",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_032",
@@ -882,7 +897,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "сумки",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_034",
@@ -995,7 +1011,6 @@
                 ]
             }
         ],
-        "image": "images/vocabulary/nature/fish.png",
         "gender": "feminine",
         "emoji": "🐟",
         "classification": "regular",
@@ -1163,7 +1178,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "спины",
-        "subtext": "боль в спине, лежать на спине"
+        "subtext": "боль в спине, лежать на спине",
+        "transcription": ""
     },
     {
         "id": "ru_starter_people_011",
@@ -1361,7 +1377,6 @@
                 "examples": []
             }
         ],
-        "image": "images/vocabulary/actions/to go home.png",
         "gender": "masculine",
         "emoji": "🏡",
         "classification": "regular",
@@ -1421,7 +1436,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "офисы",
-        "subtext": "место работы, большой офис"
+        "subtext": "место работы, большой офис",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_016",
@@ -1466,7 +1482,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "автобусы",
-        "subtext": "ехать на автобусе, автобусная остановка"
+        "subtext": "ехать на автобусе, автобусная остановка",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_018",
@@ -1488,7 +1505,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "поезда",
-        "subtext": "ехать на поезде, на поезде, вокзал"
+        "subtext": "ехать на поезде, на поезде, вокзал",
+        "transcription": ""
     },
     {
         "id": "ru_starter_shopping_006",
@@ -1622,7 +1640,8 @@
         "subtext": "",
         "synonyms": [
             "начальник"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_028",
@@ -1697,7 +1716,8 @@
         "synonyms": [
             "встреча",
             "совещание"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_019",
@@ -1718,7 +1738,8 @@
         "emoji": "🚆",
         "classification": "regular",
         "countability": "countable",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_031",
@@ -1830,7 +1851,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "кухни",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_032",
@@ -1897,7 +1919,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "цены",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_shopping_008",
@@ -1918,7 +1941,8 @@
         "emoji": "💰",
         "classification": "regular",
         "countability": "countable",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_people_016",
@@ -1968,7 +1992,8 @@
         "subtext": "",
         "synonyms": [
             "каникулы"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_022",
@@ -1990,7 +2015,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "путешествия",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_023",
@@ -2390,7 +2416,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "банки",
-        "subtext": "банковский счёт, пойти в банк"
+        "subtext": "банковский счёт, пойти в банк",
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_032",
@@ -2416,7 +2443,8 @@
         "synonyms": [
             "вокзал",
             "автобусная остановка"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_033",
@@ -2592,7 +2620,6 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "мужья",
-        "oppositeEmoji": "👩",
         "subtext": "",
         "synonyms": [
             "супруг",
@@ -2623,7 +2650,6 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "жёны",
-        "oppositeEmoji": "👨",
         "subtext": "",
         "synonyms": [
             "супруга",

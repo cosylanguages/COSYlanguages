@@ -580,11 +580,13 @@
         "v2": "felt",
         "v3": "felt",
         "group": "irregular",
-        "opposite": "act",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "act"
+        ]
     },
     {
         "id": "en_starter_body_028",
@@ -606,7 +608,6 @@
         "v2": "saw",
         "v3": "seen",
         "group": "irregular",
-        "opposite": "blind",
         "transcription": "si",
         "lang": "en",
         "level": "starter",
@@ -616,7 +617,10 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "sehwan",
             "origin_meaning": "to see"
-        }
+        },
+        "antonyms": [
+            "blind"
+        ]
     },
     {
         "id": "en_starter_body_029",
@@ -638,7 +642,6 @@
         "v2": "heard",
         "v3": "heard",
         "group": "irregular",
-        "opposite": "ignore",
         "transcription": "hir",
         "lang": "en",
         "level": "starter",
@@ -648,15 +651,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "hauzjan",
             "origin_meaning": "to hear"
-        }
+        },
+        "antonyms": [
+            "ignore"
+        ]
     },
     {
         "id": "en_starter_illnesses_symptoms_007",
         "word": "die",
         "emoji": "⚰️",
         "subtext": "die of / die for / die from / die out",
-        "opposite": "live",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -675,7 +679,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "live"
+        ]
     },
     {
         "id": "en_starter_illnesses_symptoms_008",
@@ -696,12 +703,14 @@
         "emoji": "🤕",
         "form": "verb",
         "group": "irregular",
-        "opposite": "heal",
         "transcription": "hərt",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "heal"
+        ]
     },
     {
         "id": "en_starter_body_030",
@@ -725,12 +734,14 @@
         "v2": "smelled / smelt",
         "v3": "smelled / smelt",
         "group": "both",
-        "opposite": "stink",
         "transcription": "smɛl",
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stink"
+        ]
     },
     {
         "id": "en_starter_five_senses_001",
@@ -876,8 +887,6 @@
         "word": "ill",
         "emoji": "🤒",
         "form": "adjective",
-        "opposite": "well",
-        "oppositeEmoji": "💪",
         "subtext": "sick, feel ill",
         "definitions": [
             {
@@ -893,14 +902,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "well"
+        ]
     },
     {
         "id": "en_starter_illnesses_symptoms_012",
         "word": "fit",
         "form": "adjective",
-        "opposite": "unfit",
-        "oppositeEmoji": "🛋️",
         "definitions": [
             {
                 "text": "In good physical condition through exercise.",
@@ -921,15 +931,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unfit"
+        ]
     },
     {
         "id": "en_starter_illnesses_symptoms_013",
         "word": "unfit",
         "emoji": "🛋️",
         "form": "adjective",
-        "opposite": "fit",
-        "oppositeEmoji": "🏋️",
         "subtext": "unhealthy, out of shape / feel unfit",
         "definitions": [
             {
@@ -945,15 +956,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "fit"
+        ]
     },
     {
         "id": "en_starter_illnesses_symptoms_014",
         "word": "well",
         "emoji": "💪",
         "form": "adjective",
-        "opposite": "ill",
-        "oppositeEmoji": "🤒",
         "subtext": "feel well / get well soon",
         "synonyms": [
             "healthy",
@@ -974,14 +986,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ill"
+        ]
     },
     {
         "id": "en_starter_illnesses_symptoms_015",
         "word": "dead",
         "emoji": "💀",
         "form": "adjective",
-        "opposite": "alive",
         "definitions": [
             {
                 "text": "Not living anymore.",
@@ -1000,7 +1014,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "alive"
+        ]
     }
 ];
     const lang = "en";

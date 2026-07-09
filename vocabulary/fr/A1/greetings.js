@@ -16,7 +16,9 @@
                 ]
             }
         ],
-        "transcription": "/bɔ̃.ʒuʁ/"
+        "transcription": "/bɔ̃.ʒuʁ/",
+        "lang": "fr",
+        "id": "fr_starter_greetings_001"
     },
     {
         "word": "au revoir",
@@ -34,7 +36,9 @@
                 ]
             }
         ],
-        "transcription": "/o ʁə.vwaʁ/"
+        "transcription": "/o ʁə.vwaʁ/",
+        "lang": "fr",
+        "id": "fr_starter_greetings_002"
     },
     {
         "word": "s'il vous plaît",
@@ -52,7 +56,9 @@
                 ]
             }
         ],
-        "transcription": "/s‿il vu plɛ/"
+        "transcription": "/s‿il vu plɛ/",
+        "lang": "fr",
+        "id": "fr_starter_greetings_003"
     },
     {
         "word": "merci",
@@ -70,7 +76,9 @@
                 ]
             }
         ],
-        "transcription": "/mɛʁ.si/"
+        "transcription": "/mɛʁ.si/",
+        "lang": "fr",
+        "id": "fr_starter_greetings_004"
     },
     {
         "word": "pardon",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/paʁ.dɔ̃/"
+        "transcription": "/paʁ.dɔ̃/",
+        "lang": "fr",
+        "id": "fr_starter_greetings_005"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

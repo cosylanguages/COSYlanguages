@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "mattina",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mattine",
         "subtext": "mattina presto, buongiorno",
         "definitions": [
@@ -21,16 +23,20 @@
         "partitive": "della",
         "transcription": "matˈtina",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_001"
     },
-{
+    {
         "word": "sera",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sere",
         "subtext": "",
         "synonyms": [
@@ -47,15 +53,19 @@
         ],
         "partitive": "della",
         "transcription": "ˈsera",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_002"
     },
-{
+    {
         "word": "giorno",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "giorni",
         "gender": "masculine",
         "partitive": "del",
@@ -74,15 +84,19 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "diurnus"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_time_003"
     },
-{
+    {
         "word": "settimana",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "settimane",
         "gender": "feminine",
         "partitive": "della",
@@ -97,9 +111,11 @@
         "transcription": "settiˈmana",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_004"
     },
-{
+    {
         "word": "ogni giorno",
         "level": "starter",
         "theme": "time",
@@ -116,15 +132,19 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈɔɲɲi ˈdʒorno"
+        "transcription": "ˈɔɲɲi ˈdʒorno",
+        "lang": "it",
+        "id": "it_starter_time_005"
     },
-{
+    {
         "word": "fine settimana",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "emoji": "🗓️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fine settimana",
         "subtext": "fine settimana",
         "definitions": [
@@ -139,16 +159,20 @@
         "partitive": "del",
         "transcription": "ˈfine settiˈmana",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_006"
     },
-{
+    {
         "word": "pomeriggio",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pomeriggi",
         "subtext": "questo pomeriggio, buon pomeriggio",
         "definitions": [
@@ -162,16 +186,20 @@
         "partitive": "del",
         "transcription": "pomeˈriddʒo",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_007"
     },
-{
+    {
         "word": "notte",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "notti",
         "subtext": "buonanotte, di notte",
         "definitions": [
@@ -189,9 +217,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "nox"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_time_008"
     },
-{
+    {
         "word": "oggi",
         "level": "starter",
         "theme": "time",
@@ -211,9 +241,11 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈɔddʒi"
+        "transcription": "ˈɔddʒi",
+        "lang": "it",
+        "id": "it_starter_time_009"
     },
-{
+    {
         "word": "domani",
         "level": "starter",
         "theme": "time",
@@ -233,16 +265,20 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "doˈmani"
+        "transcription": "doˈmani",
+        "lang": "it",
+        "id": "it_starter_time_010"
     },
-{
+    {
         "word": "tempo",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tempi",
         "definitions": [
             {
@@ -260,16 +296,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "tempus"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_time_011"
     },
-{
+    {
         "word": "lunedì",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lunedì",
         "definitions": [
             {
@@ -283,16 +323,20 @@
         "transcription": "luneˈdi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_012"
     },
-{
+    {
         "word": "martedì",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "martedì",
         "definitions": [
             {
@@ -306,16 +350,20 @@
         "transcription": "marteˈdi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_013"
     },
-{
+    {
         "word": "mercoledì",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mercoledì",
         "definitions": [
             {
@@ -329,16 +377,20 @@
         "transcription": "merkoleˈdi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_014"
     },
-{
+    {
         "word": "giovedì",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "giovedì",
         "definitions": [
             {
@@ -352,16 +404,20 @@
         "transcription": "dʒoveˈdi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_015"
     },
-{
+    {
         "word": "venerdì",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "venerdì",
         "definitions": [
             {
@@ -375,16 +431,20 @@
         "transcription": "venerˈdi",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_016"
     },
-{
+    {
         "word": "sabato",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sabati",
         "definitions": [
             {
@@ -398,16 +458,20 @@
         "transcription": "ˈsabato",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_017"
     },
-{
+    {
         "word": "domenica",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "domeniche",
         "definitions": [
             {
@@ -421,16 +485,20 @@
         "transcription": "doˈmenika",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_018"
     },
-{
+    {
         "word": "gennaio",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gennai",
         "definitions": [
             {
@@ -444,16 +512,20 @@
         "transcription": "dʒenˈnajo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_019"
     },
-{
+    {
         "word": "febbraio",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "febbrai",
         "definitions": [
             {
@@ -467,16 +539,20 @@
         "transcription": "febˈbrajo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_020"
     },
-{
+    {
         "word": "marzo",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "marzi",
         "definitions": [
             {
@@ -490,16 +566,20 @@
         "transcription": "ˈmartsɔ",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_021"
     },
-{
+    {
         "word": "aprile",
         "level": "starter",
         "theme": "time",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "aprili",
         "definitions": [
             {
@@ -513,16 +593,20 @@
         "transcription": "aˈprile",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_022"
     },
-{
+    {
         "word": "maggio",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "🌸",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "maggi",
         "definitions": [
             {
@@ -536,16 +620,20 @@
         "transcription": "ˈmaddʒo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_023"
     },
-{
+    {
         "word": "giugno",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "giugni",
         "definitions": [
             {
@@ -559,16 +647,20 @@
         "transcription": "ˈdʒuɲɲo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_024"
     },
-{
+    {
         "word": "luglio",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lugli",
         "definitions": [
             {
@@ -582,16 +674,20 @@
         "transcription": "ˈluʎʎo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_025"
     },
-{
+    {
         "word": "agosto",
         "level": "starter",
         "theme": "time",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "agosti",
         "definitions": [
             {
@@ -605,16 +701,20 @@
         "transcription": "aˈɡosto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_026"
     },
-{
+    {
         "word": "settembre",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "settembri",
         "definitions": [
             {
@@ -628,16 +728,20 @@
         "transcription": "setˈtɛmbre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_027"
     },
-{
+    {
         "word": "ottobre",
         "level": "starter",
         "theme": "time",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎃",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ottobri",
         "definitions": [
             {
@@ -651,16 +755,20 @@
         "transcription": "otˈtobre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_028"
     },
-{
+    {
         "word": "novembre",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "🌫️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "novembri",
         "definitions": [
             {
@@ -674,16 +782,20 @@
         "transcription": "noˈvɛmbre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_029"
     },
-{
+    {
         "word": "dicembre",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "🎄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dicembri",
         "definitions": [
             {
@@ -697,12 +809,14 @@
         "transcription": "diˈtʃɛmbre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_030"
     },
-{
+    {
         "word": "sempre",
         "level": "starter",
-        "theme": "frequency_adverbs",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "♾️",
@@ -719,12 +833,14 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈsɛmpre"
+        "transcription": "ˈsɛmpre",
+        "lang": "it",
+        "id": "it_starter_language_001"
     },
-{
+    {
         "word": "solitamente",
         "level": "starter",
-        "theme": "frequency_adverbs",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "🔄",
@@ -741,12 +857,14 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "solitaˈmente"
+        "transcription": "solitaˈmente",
+        "lang": "it",
+        "id": "it_starter_language_002"
     },
-{
+    {
         "word": "qualche volta",
         "level": "starter",
-        "theme": "frequency_adverbs",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "⏱️",
@@ -763,12 +881,14 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈkwalke ˈvɔlta"
+        "transcription": "ˈkwalke ˈvɔlta",
+        "lang": "it",
+        "id": "it_starter_language_003"
     },
-{
+    {
         "word": "ancora",
         "level": "starter",
-        "theme": "frequency_adverbs",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "🔁",
@@ -785,9 +905,11 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈancora"
+        "transcription": "ˈancora",
+        "lang": "it",
+        "id": "it_starter_language_004"
     },
-{
+    {
         "word": "fa",
         "level": "starter",
         "theme": "duration_expressions",
@@ -807,16 +929,20 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈfa"
+        "transcription": "ˈfa",
+        "lang": "it",
+        "id": "it_starter_duration_expressions_001"
     },
-{
+    {
         "word": "ora",
         "level": "starter",
         "theme": "time",
         "article": "l'",
         "gender": "feminine",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ore",
         "definitions": [
             {
@@ -830,16 +956,20 @@
         "transcription": "ˈora",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_031"
     },
-{
+    {
         "word": "minuto",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "⏱️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "minuti",
         "definitions": [
             {
@@ -853,16 +983,20 @@
         "transcription": "ˈminuto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_032"
     },
-{
+    {
         "word": "secondo",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "⏱️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "secondi",
         "definitions": [
             {
@@ -876,9 +1010,11 @@
         "transcription": "ˈsecondo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_033"
     },
-{
+    {
         "word": "ieri",
         "level": "starter",
         "theme": "time",
@@ -898,16 +1034,20 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈjɛri"
+        "transcription": "ˈjɛri",
+        "lang": "it",
+        "id": "it_starter_time_034"
     },
-{
+    {
         "word": "mezzanotte",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "🕛",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "",
         "definitions": [
             {
@@ -921,16 +1061,20 @@
         "transcription": "ˈmezzanotte",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_035"
     },
-{
+    {
         "word": "mezzogiorno",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "🕛",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "",
         "definitions": [
             {
@@ -944,16 +1088,20 @@
         "transcription": "ˈmezzogiorno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_036"
     },
-{
+    {
         "word": "sveglia",
         "level": "starter",
         "theme": "time",
         "article": "la",
         "gender": "feminine",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sveglie",
         "definitions": [
             {
@@ -967,16 +1115,20 @@
         "transcription": "ˈzveʎʎa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_037"
     },
-{
+    {
         "word": "orario",
         "level": "starter",
         "theme": "time",
         "article": "l'",
         "gender": "masculine",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "orari",
         "definitions": [
             {
@@ -990,16 +1142,20 @@
         "transcription": "oˈrarjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_038"
     },
-{
+    {
         "word": "anno",
         "level": "starter",
         "theme": "dates_years",
         "article": "l'",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "anni",
         "transcription": "ˈanno",
         "definitions": [
@@ -1014,16 +1170,20 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_dates_years_001"
     },
-{
+    {
         "word": "mese",
         "level": "starter",
         "theme": "time",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mesi",
         "transcription": "ˈmeze",
         "definitions": [
@@ -1037,9 +1197,11 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_time_039"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

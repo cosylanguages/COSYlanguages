@@ -16,7 +16,9 @@
                 ]
             }
         ],
-        "transcription": "/prʲɪˈvʲet/"
+        "transcription": "/prʲɪˈvʲet/",
+        "lang": "ru",
+        "id": "ru_starter_greetings_001"
     },
     {
         "word": "пока",
@@ -34,7 +36,9 @@
                 ]
             }
         ],
-        "transcription": "/pɐˈka/"
+        "transcription": "/pɐˈka/",
+        "lang": "ru",
+        "id": "ru_starter_greetings_002"
     },
     {
         "word": "пожалуйста",
@@ -52,7 +56,9 @@
                 ]
             }
         ],
-        "transcription": "/pɐˈʐalʊstə/"
+        "transcription": "/pɐˈʐalʊstə/",
+        "lang": "ru",
+        "id": "ru_starter_greetings_003"
     },
     {
         "word": "спасибо",
@@ -70,7 +76,9 @@
                 ]
             }
         ],
-        "transcription": "/spɐˈsʲibə/"
+        "transcription": "/spɐˈsʲibə/",
+        "lang": "ru",
+        "id": "ru_starter_greetings_004"
     },
     {
         "word": "извините",
@@ -88,9 +96,11 @@
                 ]
             }
         ],
-        "transcription": "/ɪzvʲɪˈnʲitʲe/"
+        "transcription": "/ɪzvʲɪˈnʲitʲe/",
+        "lang": "ru",
+        "id": "ru_starter_greetings_005"
     }
-    ];
+];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

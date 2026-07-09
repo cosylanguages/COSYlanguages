@@ -12,7 +12,9 @@
                 "text": "Мария Шарапова",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     },
     {
         "id": "ru_advanced_people_noun_eb405930db",
@@ -26,7 +28,9 @@
                 "text": "Анна Ахматова",
                 "examples": []
             }
-        ]
+        ],
+        "transcription": "",
+        "emoji": "✨"
     }
 ];
     const lang = "ru";

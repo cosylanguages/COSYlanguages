@@ -8,7 +8,8 @@
         "theme": "places_shops",
         "article": "το",
         "emoji": "💊",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "φαρμακεία",
         "definitions": [
             {
@@ -17,7 +18,8 @@
                     "Πρέπει να πάω στο φαρμακείο."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_health_society_001",
@@ -27,7 +29,8 @@
         "theme": "health_society",
         "article": "ο",
         "emoji": "🧠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "ψυχολόγοι",
         "definitions": [
             {
@@ -36,7 +39,8 @@
                     "Ο ψυχολόγος βοηθά τους ασθενείς του."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_politics_governance_029",
@@ -46,10 +50,13 @@
         "theme": "politics_governance",
         "article": "η",
         "emoji": "📑",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["ευθύνη"],
+        "synonyms": [
+            "ευθύνη"
+        ],
         "definitions": [
             {
                 "text": "Η υποχρέωση κάποιου να εξηγεί τις πράξεις του και να αναλαμβάνει την ευθύνη.",
@@ -57,7 +64,8 @@
                     "Υπάρχει λίγη λογοδοσία σε αυτόν τον οργανισμό."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_economy_labour_market_005",
@@ -67,7 +75,8 @@
         "theme": "economy_labour_market",
         "article": "το",
         "emoji": "🥕",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "κίνητρα",
         "subtext": "οικονομικό κίνητρο",
         "definitions": [
@@ -77,7 +86,8 @@
                     "Τα οικονομικά κίνητρα μπορούν να βελτιώσουν την παραγωγικότητα."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_employment_law_rights_001",
@@ -87,11 +97,16 @@
         "theme": "employment_law_rights",
         "article": "η",
         "emoji": "🔓",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["ανεξαρτησία"],
-        "antonyms": ["εξάρτηση"],
+        "synonyms": [
+            "ανεξαρτησία"
+        ],
+        "antonyms": [
+            "εξάρτηση"
+        ],
         "definitions": [
             {
                 "text": "Το δικαίωμα ή η ικανότητα να ενεργεί κανείς ανεξάρτητα.",
@@ -99,7 +114,8 @@
                     "Οι εργαζόμενοι αποδίδουν καλύτερα όταν έχουν αυτονομία."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_economy_labour_market_006",
@@ -109,11 +125,16 @@
         "theme": "economy_labour_market",
         "article": "η",
         "emoji": "🧗",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["αβεβαιότητα στην εργασία"],
-        "antonyms": ["σταθερότητα"],
+        "synonyms": [
+            "αβεβαιότητα στην εργασία"
+        ],
+        "antonyms": [
+            "σταθερότητα"
+        ],
         "definitions": [
             {
                 "text": "Μια ανασφαλής και αβέβαιη κατάσταση απασχόλησης ή συνθηκών διαβίωσης.",
@@ -121,7 +142,8 @@
                     "Η οικονομία της πλατφόρμας αύξησε την εργασιακή επισφάλεια."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_gender_equality_001",
@@ -134,7 +156,9 @@
         "form": "noun phrase",
         "plural": null,
         "subtext": "",
-        "synonyms": ["διαφορά αμοιβών"],
+        "synonyms": [
+            "διαφορά αμοιβών"
+        ],
         "definitions": [
             {
                 "text": "Μια διαφορά στις μέσες αποδοχές μεταξύ ομάδων, ειδικά μεταξύ ανδρών και γυναικών.",
@@ -142,7 +166,8 @@
                     "Το μισθολογικό χάσμα μεταξύ των φύλων παραμένει σημαντικό."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_employment_law_rights_002",
@@ -155,7 +180,9 @@
         "form": "noun phrase",
         "plural": "πακέτα απόλυσης",
         "subtext": "",
-        "synonyms": ["αποζημίωση απόλυσης"],
+        "synonyms": [
+            "αποζημίωση απόλυσης"
+        ],
         "definitions": [
             {
                 "text": "Τα χρήματα και τα οφέλη που δίνονται όταν κάποιος χάνει τη δουλειά του.",
@@ -163,7 +190,8 @@
                     "Έλαβε ένα γενναιόδωρο πακέτο απόλυσης."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_economy_labour_market_007",
@@ -173,7 +201,8 @@
         "theme": "economy_labour_market",
         "article": "η",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -182,7 +211,8 @@
                     "Η επιχειρηματικότητα απαιτεί ανάληψη κινδύνου και δημιουργικότητα."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_economy_labour_market_008",
@@ -192,10 +222,13 @@
         "theme": "economy_labour_market",
         "article": "η",
         "emoji": "⚡",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["αποδοτικότητα"],
+        "synonyms": [
+            "αποδοτικότητα"
+        ],
         "definitions": [
             {
                 "text": "Ο ρυθμός με τον οποίο παράγονται αγαθά ή ολοκληρώνεται η εργασία.",
@@ -203,7 +236,8 @@
                     "Η τηλεργασία μπορεί να αυξήσει την παραγωγικότητα για κάποιους."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_globalisation_trade_003",
@@ -213,10 +247,13 @@
         "theme": "globalisation_trade",
         "article": "η",
         "emoji": "🌐",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["outsourcing"],
+        "synonyms": [
+            "outsourcing"
+        ],
         "definitions": [
             {
                 "text": "Η πρόσληψη μιας εξωτερικής εταιρείας για εργασίες που γίνονταν εσωτερικά.",
@@ -224,7 +261,8 @@
                     "Κάνουν εξωτερική ανάθεση της εξυπηρέτησης πελατών για μείωση κόστους."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_applied_sciences_engineering_001",
@@ -234,7 +272,8 @@
         "theme": "applied_sciences_engineering",
         "article": "η",
         "emoji": "🤖",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -243,7 +282,8 @@
                     "Η αυτοματοποίηση αλλάζει σημαντικά την αγορά εργασίας."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_housing_society_001",
@@ -253,10 +293,13 @@
         "theme": "housing_society",
         "article": "ο",
         "emoji": "🏘️📈",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["gentrification"],
+        "synonyms": [
+            "gentrification"
+        ],
         "definitions": [
             {
                 "text": "Η διαδικασία αναβάθμισης μιας περιοχής που οδηγεί στον εκτοπισμό φτωχότερων κατοίκων.",
@@ -264,7 +307,8 @@
                     "Ο εξευγενισμός άλλαξε τον χαρακτήρα της γειτονιάς."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_housing_society_002",
@@ -277,7 +321,9 @@
         "form": "noun phrase",
         "plural": null,
         "subtext": "",
-        "synonyms": ["κοινωνική κατοικία"],
+        "synonyms": [
+            "κοινωνική κατοικία"
+        ],
         "definitions": [
             {
                 "text": "Στέγαση που είναι αρκετά φθηνή για άτομα με χαμηλά εισοδήματα.",
@@ -285,7 +331,8 @@
                     "Η πόλη χρειάζεται περισσότερη προσιτή στέγαση."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_housing_society_003",
@@ -304,7 +351,8 @@
                     "Η αστική εξάπλωση αυξάνει την εξάρτηση από το αυτοκίνητο."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_politics_governance_030",
@@ -314,7 +362,8 @@
         "theme": "politics_governance",
         "article": "η",
         "emoji": "🏗️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "υποδομές",
         "definitions": [
             {
@@ -323,7 +372,8 @@
                     "Η υποδομή της πόλης χρειάζεται επενδύσεις."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_politics_governance_031",
@@ -342,7 +392,8 @@
                     "Το κράτος πρόνοιας παρέχει υγειονομική περίθαλψη και συντάξεις."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_politics_governance_032",
@@ -352,7 +403,8 @@
         "theme": "politics_governance",
         "article": "η",
         "emoji": "↔️❌",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "πολιτική πόλωση",
         "definitions": [
@@ -362,7 +414,8 @@
                     "Τα μέσα κοινωνικής δικτύωσης αύξησαν την πολιτική πόλωση."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_formal_debate_vocab_002",
@@ -372,10 +425,14 @@
         "theme": "language",
         "article": "ο",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "λόγοι",
         "subtext": "",
-        "synonyms": ["διάλογος", "ομιλία"],
+        "synonyms": [
+            "διάλογος",
+            "ομιλία"
+        ],
         "definitions": [
             {
                 "text": "Γραπτή ή προφορική επικοινωνία για ένα συγκεκριμένο θέμα.",
@@ -383,7 +440,8 @@
                     "Ο δημόσιος λόγος γύρω από τη μετανάστευση είναι έντονος."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_politics_governance_033",
@@ -393,7 +451,8 @@
         "theme": "politics_governance",
         "article": "ο",
         "emoji": "🔍",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "έλεγχοι",
         "subtext": "εξονυχιστικός έλεγχος",
         "definitions": [
@@ -403,7 +462,8 @@
                     "Η απόφαση της κυβέρνησης βρίσκεται υπό έλεγχο."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_formal_debate_vocab_003",
@@ -413,10 +473,13 @@
         "theme": "language",
         "article": "η",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["γενική συμφωνία"],
+        "synonyms": [
+            "γενική συμφωνία"
+        ],
         "definitions": [
             {
                 "text": "Γενική συμφωνία μεταξύ μιας ομάδας ανθρώπων.",
@@ -424,7 +487,8 @@
                     "Υπάρχει μια αυξανόμενη συναίνεση για τη δράση για το κλίμα."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_politics_governance_034",
@@ -434,7 +498,8 @@
         "theme": "politics_governance",
         "article": "η",
         "emoji": "📜",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -443,7 +508,8 @@
                     "Νέα νομοθεσία για το απόρρητο των δεδομένων τέθηκε σε ισχύ."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_formal_debate_vocab_004",
@@ -453,11 +519,16 @@
         "theme": "language",
         "article": "η",
         "emoji": "⚖️❌",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "προκαταλήψεις",
         "subtext": "",
-        "synonyms": ["μεροληψία"],
-        "antonyms": ["αμεροληψία"],
+        "synonyms": [
+            "μεροληψία"
+        ],
+        "antonyms": [
+            "αμεροληψία"
+        ],
         "definitions": [
             {
                 "text": "Μια άδικη τάση να ευνοεί ή να αντιτίθεται κανείς σε κάποιον ή κάτι.",
@@ -465,7 +536,8 @@
                     "Η ασυνείδητη προκατάληψη μπορεί να επηρεάσει τις αποφάσεις πρόσληψης."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_health_society_002",
@@ -475,7 +547,8 @@
         "theme": "health_society",
         "article": "η",
         "emoji": "⚖️⬆️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -484,7 +557,8 @@
                     "Τα ποσοστά παχυσαρκίας έχουν αυξηθεί απότομα τις τελευταίες δεκαετίες."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_health_society_003",
@@ -503,7 +577,8 @@
                     "Το προσδόκιμο ζωής έχει αυξηθεί στις περισσότερες χώρες."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_politics_governance_035",
@@ -513,10 +588,13 @@
         "theme": "politics_governance",
         "article": "η",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "κοινωνική δικαιοσύνη",
-        "antonyms": ["αδικία"],
+        "antonyms": [
+            "αδικία"
+        ],
         "definitions": [
             {
                 "text": "Δίκαιη μεταχείριση και η ιδιότητα του να είσαι δίκαιος.",
@@ -524,7 +602,8 @@
                     "Το σύστημα δικαιοσύνης πρέπει να προστατεύει όλους τους πολίτες."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_crime_punishment_001",
@@ -534,10 +613,13 @@
         "theme": "crime_punishment",
         "article": "η",
         "emoji": "🔄🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["αποκατάσταση"],
+        "synonyms": [
+            "αποκατάσταση"
+        ],
         "definitions": [
             {
                 "text": "Η διαδικασία παροχής βοήθειας σε κάποιον να επιστρέψει σε μια κανονική ζωή μετά από ένα έγκλημα ή ασθένεια.",
@@ -545,7 +627,8 @@
                     "Η φυλακή πρέπει να επικεντρώνεται στην επανένταξη."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_politics_governance_036",
@@ -555,9 +638,12 @@
         "theme": "politics_governance",
         "article": "η",
         "emoji": "🪟",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
-        "antonyms": ["αδιαφάνεια"],
+        "antonyms": [
+            "αδιαφάνεια"
+        ],
         "definitions": [
             {
                 "text": "Το να είναι κανείς ανοιχτός και ειλικρινής σχετικά με τις ενέργειες και τις αποφάσεις.",
@@ -565,7 +651,8 @@
                     "Το κοινό απαιτεί μεγαλύτερη διαφάνεια από τους πολιτικούς."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_technology_privacy_011",
@@ -575,7 +662,8 @@
         "theme": "technology_privacy",
         "article": "ο",
         "emoji": "💻",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "αλγόριθμοι",
         "definitions": [
             {
@@ -584,7 +672,8 @@
                     "Οι αλγόριθμοι των μέσων κοινωνικής δικτύωσης καθορίζουν τι βλέπετε."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_technology_privacy_012",
@@ -597,7 +686,9 @@
         "form": "noun phrase",
         "plural": null,
         "subtext": "",
-        "synonyms": ["προστασία δεδομένων"],
+        "synonyms": [
+            "προστασία δεδομένων"
+        ],
         "definitions": [
             {
                 "text": "Το δικαίωμα ελέγχου του τρόπου συλλογής και χρήσης των προσωπικών πληροφοριών.",
@@ -605,7 +696,8 @@
                     "Οι νόμοι για το απόρρητο των δεδομένων γίνονται αυστηρότεροι."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_media_misinformation_001",
@@ -615,10 +707,13 @@
         "theme": "media_misinformation",
         "article": "η",
         "emoji": "🤥",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["ψευδείς ειδήσεις"],
+        "synonyms": [
+            "ψευδείς ειδήσεις"
+        ],
         "definitions": [
             {
                 "text": "Ψευδείς ή ανακριβείς πληροφορίες που διαδίδονται ευρέως.",
@@ -626,7 +721,8 @@
                     "Τα μέσα κοινωνικής δικτύωσης μπορούν να διαδώσουν γρήγορα την παραπληροφόρηση."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_technology_privacy_013",
@@ -636,10 +732,13 @@
         "theme": "technology_privacy",
         "article": "η",
         "emoji": "📹",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": null,
         "subtext": "",
-        "synonyms": ["παρακολούθηση"],
+        "synonyms": [
+            "παρακολούθηση"
+        ],
         "definitions": [
             {
                 "text": "Στενή παρακολούθηση ενός ατόμου ή μιας ομάδας από τις αρχές.",
@@ -647,7 +746,8 @@
                     "Το CCTV είναι μια μορφή αστικής επιτήρησης."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_formal_debate_vocab_005",
@@ -664,7 +764,8 @@
                     "Οι πόλεις είναι ακριβές, ενώ οι μικρές πόλεις είναι προσιτές."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_formal_debate_vocab_006",
@@ -682,7 +783,8 @@
                     "Είναι ένα δύσκολο έργο. Παρόλα αυτά, πρέπει να προσπαθήσουμε."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_formal_debate_vocab_007",
@@ -699,7 +801,8 @@
                     "Σε ποιο βαθμό η εκπαίδευση καθορίζει την επιτυχία;"
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_formal_debate_vocab_008",
@@ -716,7 +819,8 @@
                     "Η Σουηδία έχει μεγάλη άδεια πατρότητας. Αντίθετα, οι ΗΠΑ έχουν πολύ λίγη."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "el_upper_intermediate_technology_privacy_014",
@@ -735,9 +839,10 @@
                     "Η τεχνητή νοημοσύνη αλλάζει τον κόσμο."
                 ]
             }
-        ]
+        ],
+        "transcription": ""
     }
-    ];
+];
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

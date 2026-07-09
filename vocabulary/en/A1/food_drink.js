@@ -287,7 +287,10 @@
     {
         "id": "en_starter_food_drink_037",
         "word": "coffee",
-        "etymology": "Coffee → Caffè (Italian) → Kahve (Turkish) → Qahwa (Arabic)",
+        "etymology": {
+            "origin_lang": "Min Chinese",
+            "origin_word": "te"
+        },
         "emoji": "☕",
         "form": "noun",
         "classification": "regular",
@@ -315,11 +318,7 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": "drinks",
-        "etymology": {
-            "origin_lang": "Min Chinese",
-            "origin_word": "te"
-        }
+        "sub_theme": "drinks"
     },
     {
         "id": "en_starter_food_drink_038",
@@ -503,7 +502,6 @@
     {
         "id": "en_starter_meals_of_the_day_001",
         "word": "breakfast",
-        "image": "images/vocabulary/actions/to have breakfast.png",
         "emoji": "🍳",
         "form": "noun",
         "classification": "regular",
@@ -527,7 +525,6 @@
     {
         "id": "en_starter_meals_of_the_day_002",
         "word": "dinner",
-        "image": "images/vocabulary/actions/to have dinner.png",
         "emoji": "🍽️",
         "form": "noun",
         "classification": "regular",
@@ -551,7 +548,6 @@
     {
         "id": "en_starter_meals_of_the_day_003",
         "word": "lunch",
-        "image": "images/vocabulary/actions/to have lunch.png",
         "emoji": "🍱",
         "form": "noun",
         "classification": "regular",
@@ -1013,7 +1009,6 @@
     {
         "id": "en_starter_food_drink_062",
         "word": "orange",
-        "image": "images/vocabulary/food/orange.png",
         "emoji": "🍊",
         "form": "noun",
         "classification": "regular",
@@ -1205,7 +1200,6 @@
     {
         "id": "en_starter_food_drink_069",
         "word": "snack",
-        "image": "images/vocabulary/actions/to have a snack.png",
         "emoji": "🥨",
         "form": "noun",
         "classification": "regular",
@@ -1867,20 +1861,20 @@
         "v2": "cut",
         "v3": "cut",
         "group": "irregular",
-        "opposite": "join",
         "transcription": "kət",
         "lang": "en",
         "level": "starter",
-        "theme": "cooking_methods",
-        "sub_theme": null
+        "theme": "food_drink",
+        "sub_theme": null,
+        "antonyms": [
+            "join"
+        ]
     },
     {
         "id": "en_starter_meals_of_the_day_006",
         "word": "bring",
         "emoji": "🎁",
         "subtext": "bring someone / bring food / bring a document / bring up",
-        "opposite": "take",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -1900,16 +1894,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "take"
+        ]
     },
     {
         "id": "en_starter_meals_of_the_day_007",
         "word": "eat",
-        "image": "images/vocabulary/actions/to eat.png",
         "emoji": "🍎",
         "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
-        "opposite": "drink",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1934,16 +1928,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "etan",
             "origin_meaning": "to eat"
-        }
+        },
+        "antonyms": [
+            "drink"
+        ]
     },
     {
         "id": "en_starter_food_drink_086",
         "word": "drink",
-        "image": "images/vocabulary/actions/to drink.png",
         "emoji": "🥛",
         "subtext": "drink coffee / drink tea / drink water / drink beer",
-        "opposite": "eat",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1968,12 +1962,14 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "drinkan",
             "origin_meaning": "to drink"
-        }
+        },
+        "antonyms": [
+            "eat"
+        ]
     },
     {
         "id": "en_starter_cooking_methods_002",
         "word": "cook",
-        "image": "images/vocabulary/actions/to cook.png",
         "emoji": "🍳",
         "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
         "form": "verb",
@@ -1990,12 +1986,14 @@
         "v2": "cooked",
         "v3": "cooked",
         "group": "regular",
-        "opposite": "eat",
         "transcription": "kʊk",
         "lang": "en",
         "level": "starter",
-        "theme": "cooking_methods",
-        "sub_theme": null
+        "theme": "food_drink",
+        "sub_theme": null,
+        "antonyms": [
+            "eat"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_009",
@@ -2019,20 +2017,20 @@
         "v2": "tasted",
         "v3": "tasted",
         "group": "regular",
-        "opposite": "swallow",
         "transcription": "teɪst",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "swallow"
+        ]
     },
     {
         "id": "en_starter_food_drink_087",
         "word": "healthy",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "unhealthy",
-        "oppositeEmoji": "🍔",
         "subtext": "well, fit, healthy diet",
         "definitions": [
             {
@@ -2048,15 +2046,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unhealthy"
+        ]
     },
     {
         "id": "en_starter_food_drink_088",
         "word": "unhealthy",
         "emoji": "🍔",
         "form": "adjective",
-        "opposite": "healthy",
-        "oppositeEmoji": "🥗",
         "subtext": "unhealthy food / unhealthy lifestyle",
         "synonyms": [
             "ill",
@@ -2076,15 +2075,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "healthy"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_010",
         "word": "delicious",
         "emoji": "😋",
         "form": "adjective",
-        "opposite": "disgusting",
-        "oppositeEmoji": "🤢",
         "subtext": "delicious meal / smell delicious",
         "synonyms": [
             "tasty",
@@ -2103,16 +2103,17 @@
         "transcription": "dɪˈlɪʃəs",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "disgusting"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_011",
         "word": "sweet",
         "emoji": "🍬",
         "form": "adjective",
-        "opposite": "bitter",
-        "oppositeEmoji": "🍋",
         "subtext": "sweet fruit / sweet tooth / very sweet",
         "synonyms": [
             "sugary"
@@ -2130,8 +2131,11 @@
         "transcription": "swit",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "bitter"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_012",
@@ -2139,7 +2143,6 @@
         "emoji": "🧂",
         "form": "adjective",
         "opposite": null,
-        "oppositeEmoji": "🍬",
         "subtext": "salty snacks / too salty",
         "synonyms": [
             "tasting of salt"
@@ -2157,7 +2160,7 @@
         "transcription": "ˈsɔlti",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2165,8 +2168,6 @@
         "word": "sour",
         "emoji": "🍋",
         "form": "adjective",
-        "opposite": "sweet",
-        "oppositeEmoji": "🍬",
         "subtext": "a sour taste / sour lemons",
         "synonyms": [
             "sharp-tasting"
@@ -2184,16 +2185,17 @@
         "transcription": "saʊər",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "sweet"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_014",
         "word": "bitter",
         "emoji": "☕",
         "form": "adjective",
-        "opposite": "sweet",
-        "oppositeEmoji": "🍬",
         "subtext": "a bitter taste / bitter coffee",
         "synonyms": [
             "strong",
@@ -2212,15 +2214,17 @@
         "transcription": "ˈbɪtər",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "sweet"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_015",
         "word": "rough",
         "emoji": "🧱",
         "form": "adjective",
-        "opposite": "smooth",
         "definitions": [
             {
                 "text": "Not smooth.",
@@ -2238,8 +2242,11 @@
         "transcription": "rəf",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "smooth"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_016",
@@ -2264,7 +2271,7 @@
         "transcription": "ʃɑrp",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
+        "theme": "describing",
         "sub_theme": null
     },
     {
@@ -2272,8 +2279,6 @@
         "word": "smooth",
         "emoji": "🧼",
         "form": "adjective",
-        "opposite": "rough",
-        "oppositeEmoji": "🧱",
         "subtext": "smooth skin / smooth surface",
         "synonyms": [
             "flat",
@@ -2292,8 +2297,11 @@
         "transcription": "smuð",
         "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures",
-        "sub_theme": null
+        "theme": "describing",
+        "sub_theme": null,
+        "antonyms": [
+            "rough"
+        ]
     }
 ];
     const lang = "en";

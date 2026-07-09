@@ -62,7 +62,6 @@
         "id": "en_starter_job_titles_professions_003",
         "word": "teacher",
         "opposite": null,
-        "oppositeEmoji": "🧑‍🎓",
         "emoji": "🧑‍🏫",
         "form": "noun",
         "classification": "regular",
@@ -95,8 +94,6 @@
         "word": "work",
         "emoji": "💼",
         "subtext": "work from home / work full-time / work hard / work late",
-        "opposite": "rest",
-        "oppositeEmoji": "🛋️",
         "form": "verb",
         "definitions": [
             {
@@ -115,7 +112,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "rest"
+        ]
     },
     {
         "id": "en_starter_job_titles_professions_004",
@@ -217,7 +217,6 @@
     {
         "id": "en_starter_work_033",
         "word": "sleep",
-        "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "emoji": "😴",
         "form": "noun",
         "classification": "regular",
@@ -231,7 +230,6 @@
             }
         ],
         "subtext": "related to daily work routines",
-        "opposite": "wake up",
         "transcription": "slip",
         "lang": "en",
         "level": "starter",
@@ -241,7 +239,10 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "slēpan",
             "origin_meaning": "to sleep"
-        }
+        },
+        "antonyms": [
+            "wake up"
+        ]
     },
     {
         "id": "en_starter_job_titles_professions_005",
@@ -924,7 +925,6 @@
         "v2": "had",
         "v3": "had",
         "group": "irregular",
-        "opposite": "need",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -933,7 +933,10 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "habjan",
             "origin_meaning": "to have"
-        }
+        },
+        "antonyms": [
+            "need"
+        ]
     },
     {
         "id": "en_starter_work_043",
@@ -955,12 +958,14 @@
         "v2": "made",
         "v3": "made",
         "group": "irregular",
-        "opposite": "destroy",
         "transcription": "meɪk",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "destroy"
+        ]
     },
     {
         "id": "en_starter_work_044",
@@ -982,7 +987,6 @@
         "v2": "did",
         "v3": "done",
         "group": "irregular",
-        "opposite": "undo",
         "transcription": "du",
         "lang": "en",
         "level": "starter",
@@ -992,15 +996,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "dōn",
             "origin_meaning": "to do"
-        }
+        },
+        "antonyms": [
+            "undo"
+        ]
     },
     {
         "id": "en_starter_work_045",
         "word": "start",
         "emoji": "▶️",
         "subtext": "start work / start a meeting / start a new job",
-        "opposite": "stop",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -1019,15 +1024,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stop"
+        ]
     },
     {
         "id": "en_starter_work_046",
         "word": "finish",
         "emoji": "🏁",
         "subtext": "finish work / finish a project / finish early / finish late",
-        "opposite": "end",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -1046,7 +1052,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "end"
+        ]
     },
     {
         "id": "en_starter_work_047",
@@ -1067,12 +1076,14 @@
         "v2": "helped",
         "v3": "helped",
         "group": "regular",
-        "opposite": "hinder",
         "transcription": "hɛlp",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "hinder"
+        ]
     },
     {
         "id": "en_starter_work_048",
@@ -1094,20 +1105,20 @@
         "v2": "kept",
         "v3": "kept",
         "group": "irregular",
-        "opposite": "give away",
         "transcription": "kip",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "give away"
+        ]
     },
     {
         "id": "en_starter_work_049",
         "word": "arrive",
         "emoji": "🏁",
         "subtext": "arrive at / in, arrive at work / arrive late / arrive on time / arrive home",
-        "opposite": "leave",
-        "oppositeEmoji": "🚪",
         "form": "verb",
         "definitions": [
             {
@@ -1126,15 +1137,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "leave"
+        ]
     },
     {
         "id": "en_starter_work_050",
         "word": "leave",
         "emoji": "🚪",
         "subtext": "leave home / leave work / leave early / leave late",
-        "opposite": "arrive",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -1153,17 +1165,17 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "arrive"
+        ]
     },
     {
         "id": "en_starter_work_051",
         "word": "wake up",
-        "image": "images/vocabulary/actions/to wake up.png",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "wake up early / wake up late / wake up tired",
-        "opposite": "sleep",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "To stop sleeping; to become conscious after sleep.",
@@ -1181,15 +1193,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sleep"
+        ]
     },
     {
         "id": "en_starter_work_052",
         "word": "sit",
         "emoji": "🪑",
         "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
-        "opposite": "stand",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -1212,15 +1225,16 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "sitjaną"
-        }
+        },
+        "antonyms": [
+            "stand"
+        ]
     },
     {
         "id": "en_starter_work_053",
         "word": "stand",
         "emoji": "🧍",
         "subtext": "stand up / stand in a queue / stand by / stand out",
-        "opposite": "sit",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -1243,7 +1257,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "standaną"
-        }
+        },
+        "antonyms": [
+            "sit"
+        ]
     },
     {
         "id": "en_starter_work_054",
@@ -1290,20 +1307,20 @@
         "v2": "changed",
         "v3": "changed",
         "group": "regular",
-        "opposite": "stay",
         "transcription": "ʧeɪnʤ",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stay"
+        ]
     },
     {
         "id": "en_starter_work_056",
         "word": "stop",
         "emoji": "🛑",
         "subtext": "stop doing / stop working / stop a habit / stop someone",
-        "opposite": "start",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -1322,7 +1339,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "start"
+        ]
     },
     {
         "id": "en_starter_work_057",
@@ -1343,20 +1363,20 @@
         "v2": "waited",
         "v3": "waited",
         "group": "regular",
-        "opposite": "act",
         "transcription": "weɪt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "act"
+        ]
     },
     {
         "id": "en_starter_work_058",
         "word": "send",
         "emoji": "✉️",
         "form": "verb",
-        "opposite": "receive",
-        "oppositeEmoji": "📩",
         "definitions": [
             {
                 "text": "To transmit something to someone, especially electronically.",
@@ -1375,15 +1395,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "receive"
+        ]
     },
     {
         "id": "en_starter_work_059",
         "word": "pull",
         "emoji": "🚜",
         "subtext": "pull the door / pull something / pull up / pull away",
-        "opposite": "push",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -1402,15 +1423,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "push"
+        ]
     },
     {
         "id": "en_starter_work_060",
         "word": "push",
         "emoji": "🛒",
         "subtext": "push the button / push a cart / push away / push through",
-        "opposite": "pull",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -1430,7 +1452,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "pull"
+        ]
     },
     {
         "id": "en_starter_work_061",
@@ -1451,17 +1476,18 @@
         "v2": "carried",
         "v3": "carried",
         "group": "regular",
-        "opposite": "drop",
         "transcription": "ˈkɛri",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "drop"
+        ]
     },
     {
         "id": "en_starter_work_062",
         "word": "get up",
-        "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
             {
                 "text": "To rise from bed after waking.",
@@ -1488,7 +1514,6 @@
     {
         "id": "en_starter_work_063",
         "word": "have breakfast",
-        "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
             {
                 "text": "To eat the morning meal.",
@@ -1544,7 +1569,6 @@
     {
         "id": "en_starter_work_065",
         "word": "go to bed",
-        "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
             {
                 "text": "To get into bed in order to sleep.",
@@ -1587,12 +1611,14 @@
         "emoji": "✅",
         "form": "verb",
         "group": "regular",
-        "opposite": "ignore",
         "transcription": "ʧɛk",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ignore"
+        ]
     },
     {
         "id": "en_starter_work_067",
@@ -1613,12 +1639,14 @@
         "emoji": "↩️",
         "form": "verb",
         "group": "regular",
-        "opposite": "ignore",
         "transcription": "rɪˈplaɪ",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ignore"
+        ]
     },
     {
         "id": "en_starter_work_068",
@@ -1639,12 +1667,14 @@
         "emoji": "📊",
         "form": "verb",
         "group": "regular",
-        "opposite": "hide",
         "transcription": "ˈprɛzənt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "hide"
+        ]
     },
     {
         "id": "en_starter_work_069",
@@ -1665,12 +1695,14 @@
         "emoji": "📅",
         "form": "verb",
         "group": "regular",
-        "opposite": "miss",
         "transcription": "əˈtɛnd",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "miss"
+        ]
     },
     {
         "id": "en_starter_work_070",
@@ -1691,12 +1723,14 @@
         "emoji": "👤",
         "form": "verb",
         "group": "regular",
-        "opposite": "follow",
         "transcription": "ˈmænɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "follow"
+        ]
     },
     {
         "id": "en_starter_work_071",
@@ -1717,12 +1751,14 @@
         "emoji": "🛋️",
         "form": "verb",
         "group": "regular",
-        "opposite": "exercise",
         "transcription": "rɛst",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "exercise"
+        ]
     },
     {
         "id": "en_starter_work_072",
@@ -1743,20 +1779,20 @@
         "v2": "ordered",
         "v3": "ordered",
         "group": "regular",
-        "opposite": "deliver",
         "transcription": "ˈɔrdər",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "deliver"
+        ]
     },
     {
         "id": "en_starter_work_073",
         "word": "follow",
         "emoji": "👣",
         "subtext": "follow instructions / follow someone / follow the news / follow up",
-        "opposite": "lead",
-        "oppositeEmoji": "👤",
         "form": "verb",
         "definitions": [
             {
@@ -1775,7 +1811,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "lead"
+        ]
     },
     {
         "id": "en_starter_work_074",
@@ -1796,12 +1835,14 @@
         "v2": "grew",
         "v3": "grown",
         "group": "irregular",
-        "opposite": "shrink",
         "transcription": "groʊ",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "shrink"
+        ]
     },
     {
         "id": "en_starter_work_075",
@@ -1822,20 +1863,20 @@
         "v2": "became",
         "v3": "become",
         "group": "irregular",
-        "opposite": "remain",
         "transcription": "bɪˈkəm",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "remain"
+        ]
     },
     {
         "id": "en_starter_work_076",
         "word": "begin",
         "emoji": "▶️",
         "form": "verb",
-        "opposite": "end",
-        "oppositeEmoji": "🏁",
         "subtext": "begin a meeting / begin to work",
         "synonyms": [
             "start"
@@ -1857,15 +1898,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "end"
+        ]
     },
     {
         "id": "en_starter_work_077",
         "word": "end",
         "emoji": "🏁",
         "form": "verb",
-        "opposite": "begin",
-        "oppositeEmoji": "▶️",
         "subtext": "end a class / at the end",
         "synonyms": [
             "finish",
@@ -1888,7 +1930,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "begin"
+        ]
     },
     {
         "id": "en_starter_work_078",
@@ -1912,12 +1957,14 @@
         "v2": "brushed",
         "v3": "brushed",
         "group": "regular",
-        "opposite": "mess up",
         "transcription": "brəʃ",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "mess up"
+        ]
     },
     {
         "id": "en_starter_work_079",
@@ -1941,12 +1988,14 @@
         "v2": "planned",
         "v3": "planned",
         "group": "regular",
-        "opposite": "improvise",
         "transcription": "plæn",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "improvise"
+        ]
     },
     {
         "id": "en_starter_work_080",
@@ -1970,12 +2019,14 @@
         "v2": "lay",
         "v3": "lain",
         "group": "irregular",
-        "opposite": "stand",
         "transcription": "laɪ",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stand"
+        ]
     },
     {
         "id": "en_starter_work_081",
@@ -2000,12 +2051,14 @@
         "v2": "held",
         "v3": "held",
         "group": "irregular",
-        "opposite": "drop",
         "transcription": "hoʊld",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "drop"
+        ]
     },
     {
         "id": "en_starter_work_082",
@@ -2030,12 +2083,14 @@
         "v2": "led",
         "v3": "led",
         "group": "irregular",
-        "opposite": "follow",
         "transcription": "lɛd",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "follow"
+        ]
     },
     {
         "id": "en_starter_work_083",
@@ -2072,8 +2127,6 @@
         "synonyms": [
             "get dressed"
         ],
-        "opposite": "undress",
-        "oppositeEmoji": "👕",
         "form": "verb",
         "definitions": [
             {
@@ -2093,7 +2146,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": "formal"
+        "sub_theme": "formal",
+        "antonyms": [
+            "undress"
+        ]
     },
     {
         "id": "en_starter_work_085",
@@ -2103,8 +2159,6 @@
         "synonyms": [
             "get undressed"
         ],
-        "opposite": "dress",
-        "oppositeEmoji": "👗",
         "form": "verb",
         "definitions": [
             {
@@ -2124,7 +2178,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dress"
+        ]
     },
     {
         "id": "en_starter_work_086",
@@ -2145,12 +2202,14 @@
         "v2": "copied",
         "v3": "copied",
         "group": "regular",
-        "opposite": "original",
         "transcription": "ˈkɑpi",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "original"
+        ]
     },
     {
         "id": "en_starter_work_087",
@@ -2171,12 +2230,14 @@
         "v2": "noted",
         "v3": "noted",
         "group": "regular",
-        "opposite": "forget",
         "transcription": "noʊt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "forget"
+        ]
     },
     {
         "id": "en_starter_work_088",
@@ -2208,8 +2269,6 @@
         "word": "full-time",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "part-time",
-        "oppositeEmoji": "⏳",
         "definitions": [
             {
                 "text": "Working the complete number of hours in a working week.",
@@ -2225,15 +2284,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "part-time"
+        ]
     },
     {
         "id": "en_starter_work_090",
         "word": "part-time",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "full-time",
-        "oppositeEmoji": "⏰",
         "definitions": [
             {
                 "text": "Working fewer hours than a standard working week.",
@@ -2249,15 +2309,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "full-time"
+        ]
     },
     {
         "id": "en_starter_work_091",
         "word": "busy",
         "emoji": "🏃",
         "form": "adjective",
-        "opposite": "free",
-        "oppositeEmoji": "🆓",
         "subtext": "very busy, busy day / busy schedule / very busy / too busy",
         "definitions": [
             {
@@ -2279,14 +2340,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "free"
+        ]
     },
     {
         "id": "en_starter_work_092",
         "word": "ready",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "unready",
         "definitions": [
             {
                 "text": "Prepared for what you are going to do.",
@@ -2305,15 +2368,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unready"
+        ]
     },
     {
         "id": "en_starter_work_093",
         "word": "unready",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "ready",
-        "oppositeEmoji": "✅",
         "subtext": "unready for the change",
         "synonyms": [
             "not prepared"
@@ -2332,7 +2396,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "ready"
+        ]
     },
     {
         "id": "en_starter_job_titles_professions_024",

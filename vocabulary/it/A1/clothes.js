@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "pantaloni",
         "level": "starter",
         "theme": "clothes",
         "article": "i",
         "gender": "masculine",
         "emoji": "👖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pantaloni",
         "definitions": [
             {
@@ -21,16 +23,20 @@
         "transcription": "pantaˈloni",
         "synonyms": [],
         "subtext": "un paio di pantaloni",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_001"
     },
-{
+    {
         "word": "scarpe",
         "level": "starter",
         "theme": "clothes",
         "article": "le",
         "gender": "feminine",
         "emoji": "👟",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "scarpe",
         "definitions": [
             {
@@ -44,16 +50,20 @@
         "transcription": "ˈskarpe",
         "synonyms": [],
         "subtext": "scarpe da ginnastica",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_002"
     },
-{
+    {
         "word": "cappotto",
         "level": "starter",
         "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cappotti",
         "definitions": [
             {
@@ -67,16 +77,20 @@
         "transcription": "kapˈpɔtto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_003"
     },
-{
+    {
         "word": "calzini",
         "level": "starter",
         "theme": "clothes",
         "article": "i",
         "gender": "masculine",
         "emoji": "🧦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "calzini",
         "definitions": [
             {
@@ -90,16 +104,20 @@
         "transcription": "kalˈtsini",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_004"
     },
-{
+    {
         "word": "maglione",
         "level": "starter",
         "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "maglioni",
         "definitions": [
             {
@@ -113,16 +131,20 @@
         "transcription": "maʎˈʎone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_005"
     },
-{
+    {
         "word": "vestito",
         "level": "starter",
         "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "👗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vestiti",
         "definitions": [
             {
@@ -136,16 +158,20 @@
         "transcription": "vesˈtito",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_006"
     },
-{
+    {
         "word": "gonna",
         "level": "starter",
         "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gonne",
         "definitions": [
             {
@@ -159,16 +185,20 @@
         "transcription": "ˈɡɔnna",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_007"
     },
-{
+    {
         "word": "stivali",
         "level": "starter",
         "theme": "clothes",
         "article": "gli",
         "gender": "masculine",
         "emoji": "🥾",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stivali",
         "definitions": [
             {
@@ -182,16 +212,20 @@
         "transcription": "stiˈvali",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_008"
     },
-{
+    {
         "word": "occhiali",
         "level": "starter",
         "theme": "accessories",
         "article": "gli",
         "gender": "masculine",
         "emoji": "👓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "occhiali",
         "definitions": [
             {
@@ -205,16 +239,20 @@
         "transcription": "ˈocchiali",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_accessories_001"
     },
-{
+    {
         "word": "camicia",
         "level": "starter",
         "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👔",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "camicie",
         "definitions": [
             {
@@ -232,16 +270,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "camisia"
-        }
+        },
+        "lang": "it",
+        "id": "it_starter_clothes_009"
     },
-{
+    {
         "word": "t-shirt",
         "level": "starter",
         "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "t-shirt",
         "definitions": [
             {
@@ -255,16 +297,20 @@
         "transcription": "ˈtiʃert",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_010"
     },
-{
+    {
         "word": "giacca",
         "level": "starter",
         "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "giacche",
         "definitions": [
             {
@@ -278,16 +324,20 @@
         "transcription": "ˈdʒakka",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_011"
     },
-{
+    {
         "word": "berretto",
         "level": "starter",
         "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "berretti",
         "definitions": [
             {
@@ -301,16 +351,20 @@
         "transcription": "berˈretto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_012"
     },
-{
+    {
         "word": "zuccotto",
         "level": "starter",
         "theme": "clothes",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🧣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "zuccotti",
         "definitions": [
             {
@@ -324,16 +378,20 @@
         "transcription": "tsukˈkɔtto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_013"
     },
-{
+    {
         "word": "cintura",
         "level": "starter",
         "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎗️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cinture",
         "definitions": [
             {
@@ -347,16 +405,20 @@
         "transcription": "tʃinˈtura",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_014"
     },
-{
+    {
         "word": "costume da bagno",
         "level": "starter",
         "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "🩱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "costumi da bagno",
         "definitions": [
             {
@@ -370,16 +432,20 @@
         "transcription": "kosˈtume da ˈbaɲɲo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_015"
     },
-{
+    {
         "word": "pigiama",
         "level": "starter",
         "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pigiami",
         "definitions": [
             {
@@ -393,16 +459,20 @@
         "transcription": "piˈdʒama",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_016"
     },
-{
+    {
         "word": "completo",
         "level": "starter",
         "theme": "clothes",
         "article": "il",
         "gender": "masculine",
         "emoji": "👔",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "completi",
         "transcription": "komˈplɛto",
         "definitions": [
@@ -418,16 +488,20 @@
             "abito"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_017"
     },
-{
+    {
         "word": "occhiali da sole",
         "level": "starter",
         "theme": "accessories",
         "article": "gli",
         "gender": "masculine",
         "emoji": "🕶️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "occhiali da sole",
         "transcription": "okˈkjali da ˈsole",
         "definitions": [
@@ -441,16 +515,20 @@
         "partitive": "degli",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_accessories_002"
     },
-{
+    {
         "word": "cravatta",
         "level": "starter",
         "theme": "clothes",
         "article": "la",
         "gender": "feminine",
         "emoji": "👔",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cravatte",
         "transcription": "kraˈvatta",
         "definitions": [
@@ -464,14 +542,18 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "id": "it_starter_clothes_018"
     },
-{
+    {
         "word": "cappello",
         "level": "starter",
         "theme": "clothes",
         "emoji": "🎩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "cappelli",
@@ -486,14 +568,18 @@
             }
         ],
         "transcription": "kapˈpɛllo",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_clothes_019"
     },
-{
+    {
         "word": "maglietta",
         "level": "starter",
         "theme": "clothes",
         "emoji": "👕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "magliette",
@@ -508,14 +594,18 @@
             }
         ],
         "transcription": "maʎˈʎetta",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_clothes_020"
     },
-{
+    {
         "word": "jeans",
         "level": "starter",
         "theme": "clothes",
         "emoji": "👖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "i",
         "plural": "jeans",
@@ -530,14 +620,18 @@
             }
         ],
         "transcription": "ˈdʒins",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_clothes_021"
     },
-{
+    {
         "word": "pantaloncini",
         "level": "starter",
         "theme": "clothes",
         "emoji": "🩳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "i",
         "plural": "pantaloncini",
@@ -552,14 +646,18 @@
             }
         ],
         "transcription": "pantalontˈʃini",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_clothes_022"
     },
-{
+    {
         "word": "stivale",
         "level": "starter",
         "theme": "clothes",
         "emoji": "🥾",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "lo",
         "plural": "stivali",
@@ -574,14 +672,18 @@
             }
         ],
         "transcription": "stiˈvale",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_clothes_023"
     },
-{
+    {
         "word": "sciarpa",
         "level": "starter",
         "theme": "clothes",
         "emoji": "🧣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "sciarpe",
@@ -596,14 +698,18 @@
             }
         ],
         "transcription": "ˈʃarpa",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_clothes_024"
     },
-{
+    {
         "word": "guanti",
         "level": "starter",
         "theme": "clothes",
         "emoji": "🧤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "i",
         "plural": "guanti",
@@ -618,14 +724,18 @@
             }
         ],
         "transcription": "ˈɡwanti",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_clothes_025"
     },
-{
+    {
         "word": "anello",
         "level": "starter",
         "theme": "accessories",
         "emoji": "💍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "l'",
         "plural": "anelli",
@@ -640,14 +750,18 @@
             }
         ],
         "transcription": "aˈnɛllo",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_accessories_003"
     },
-{
+    {
         "word": "collana",
         "level": "starter",
         "theme": "accessories",
         "emoji": "📿",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "collane",
@@ -662,14 +776,18 @@
             }
         ],
         "transcription": "kolˈlana",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_accessories_004"
     },
-{
+    {
         "word": "gioielli",
         "level": "starter",
         "theme": "accessories",
         "emoji": "💎",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "i",
         "plural": "gioielli",
@@ -684,9 +802,11 @@
             }
         ],
         "transcription": "dʒoˈjɛlli",
-        "subtext": ""
+        "subtext": "",
+        "lang": "it",
+        "id": "it_starter_accessories_005"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
