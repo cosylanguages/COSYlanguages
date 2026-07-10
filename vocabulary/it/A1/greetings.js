@@ -5,7 +5,6 @@
         "translation": "hello/goodbye",
         "level": "starter",
         "theme": "greetings",
-        "language": "it",
         "emoji": "👋",
         "form": "interjection",
         "definitions": [
@@ -16,14 +15,15 @@
                 ]
             }
         ],
-        "transcription": "/ˈtʃao/"
+        "transcription": "ˈtʃao",
+        "id": "it_starter_greetings_001",
+        "lang": "it"
     },
     {
         "word": "buongiorno",
         "translation": "good morning",
         "level": "starter",
         "theme": "greetings",
-        "language": "it",
         "emoji": "☀️",
         "form": "interjection",
         "definitions": [
@@ -34,14 +34,15 @@
                 ]
             }
         ],
-        "transcription": "/bwɔnˈdʒorno/"
+        "transcription": "bwɔnˈdʒorno",
+        "id": "it_starter_greetings_002",
+        "lang": "it"
     },
     {
         "word": "per favore",
         "translation": "please",
         "level": "starter",
         "theme": "greetings",
-        "language": "it",
         "emoji": "🙏",
         "form": "phrase",
         "definitions": [
@@ -52,14 +53,15 @@
                 ]
             }
         ],
-        "transcription": "/per faˈvore/"
+        "transcription": "per faˈvore",
+        "id": "it_starter_greetings_003",
+        "lang": "it"
     },
     {
         "word": "grazie",
         "translation": "thank you",
         "level": "starter",
         "theme": "greetings",
-        "language": "it",
         "emoji": "😊",
         "form": "interjection",
         "definitions": [
@@ -70,14 +72,15 @@
                 ]
             }
         ],
-        "transcription": "/ˈɡrattsje/"
+        "transcription": "ˈɡrattsje",
+        "id": "it_starter_greetings_004",
+        "lang": "it"
     },
     {
         "word": "scusa",
         "translation": "sorry",
         "level": "starter",
         "theme": "greetings",
-        "language": "it",
         "emoji": "🙇",
         "form": "interjection",
         "definitions": [
@@ -88,9 +91,11 @@
                 ]
             }
         ],
-        "transcription": "/ˈskuza/"
+        "transcription": "ˈskuza",
+        "id": "it_starter_greetings_005",
+        "lang": "it"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

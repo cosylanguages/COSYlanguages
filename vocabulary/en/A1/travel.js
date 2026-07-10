@@ -17,7 +17,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "kɑr",
         "lang": "en",
         "level": "starter",
@@ -41,7 +40,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "bəs",
         "lang": "en",
         "level": "starter",
@@ -65,7 +63,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "treɪn",
         "lang": "en",
         "level": "starter",
@@ -89,7 +86,6 @@
             }
         ],
         "subtext": "related to public transport",
-        "opposite": null,
         "transcription": "kəmˈjut",
         "lang": "en",
         "level": "starter",
@@ -113,7 +109,6 @@
             }
         ],
         "subtext": "related to public transport",
-        "opposite": null,
         "transcription": "hoʊˈtɛl",
         "lang": "en",
         "level": "starter",
@@ -139,12 +134,14 @@
         "v2": "traveled",
         "v3": "traveled",
         "group": "regular",
-        "opposite": "stay",
         "transcription": "ˈtrævəl",
         "lang": "en",
         "level": "starter",
         "theme": "public_transport",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stay"
+        ]
     },
     {
         "id": "en_starter_modes_of_transport_004",
@@ -163,7 +160,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "pleɪn",
         "lang": "en",
         "level": "starter",
@@ -187,7 +183,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "baɪk",
         "lang": "en",
         "level": "starter",
@@ -211,7 +206,6 @@
             }
         ],
         "subtext": "related to public transport",
-        "opposite": null,
         "transcription": "ˈɛrˌpɔrt",
         "lang": "en",
         "level": "starter",
@@ -235,7 +229,6 @@
             }
         ],
         "subtext": "related to modes of transport",
-        "opposite": null,
         "transcription": "boʊt",
         "lang": "en",
         "level": "starter",
@@ -255,7 +248,6 @@
             }
         ],
         "subtext": "related to prepositions movement",
-        "opposite": null,
         "emoji": "➡️",
         "transcription": "tɪ",
         "lang": "en",
@@ -280,7 +272,6 @@
             }
         ],
         "subtext": "related to travel vocabulary basics",
-        "opposite": null,
         "transcription": "ˈpæˌspɔrt",
         "lang": "en",
         "level": "starter",
@@ -304,7 +295,6 @@
             }
         ],
         "subtext": "related to travel vocabulary basics",
-        "opposite": null,
         "transcription": "ˈtɪkɪt",
         "lang": "en",
         "level": "starter",
@@ -328,7 +318,6 @@
             }
         ],
         "subtext": "related to travel vocabulary basics",
-        "opposite": null,
         "transcription": "trɪp",
         "lang": "en",
         "level": "starter",
@@ -340,7 +329,6 @@
         "word": "up",
         "emoji": "⬆️",
         "form": "preposition",
-        "opposite": "down",
         "definitions": [
             {
                 "text": "Towards a higher place or position.",
@@ -354,14 +342,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_movement",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "down"
+        ]
     },
     {
         "id": "en_starter_prepositions_movement_003",
         "word": "down",
         "emoji": "⬇️",
         "form": "preposition",
-        "opposite": "up",
         "definitions": [
             {
                 "text": "Towards a lower place or position.",
@@ -375,7 +365,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_movement",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "up"
+        ]
     },
     {
         "id": "en_starter_modes_of_transport_007",
@@ -394,7 +387,6 @@
             }
         ],
         "subtext": "related to modes of transport",
-        "opposite": null,
         "transcription": "ˈtæksi",
         "lang": "en",
         "level": "starter",
@@ -419,7 +411,6 @@
             }
         ],
         "subtext": "related to directions navigation",
-        "opposite": null,
         "transcription": "weɪ",
         "lang": "en",
         "level": "starter",
@@ -433,7 +424,6 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "opposite": "south",
         "definitions": [
             {
                 "text": "The direction that is on your left when you face the sunrise.",
@@ -447,7 +437,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "directions_navigation",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "south"
+        ]
     },
     {
         "id": "en_starter_directions_navigation_003",
@@ -456,7 +449,6 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "opposite": "north",
         "definitions": [
             {
                 "text": "The direction that is on your right when you face the sunrise.",
@@ -470,7 +462,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "directions_navigation",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "north"
+        ]
     },
     {
         "id": "en_starter_directions_navigation_004",
@@ -479,7 +474,6 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "opposite": "west",
         "definitions": [
             {
                 "text": "The direction where the sun rises.",
@@ -493,7 +487,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "directions_navigation",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "west"
+        ]
     },
     {
         "id": "en_starter_directions_navigation_005",
@@ -502,7 +499,6 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "opposite": "east",
         "definitions": [
             {
                 "text": "The direction where the sun sets.",
@@ -516,7 +512,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "directions_navigation",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "east"
+        ]
     },
     {
         "id": "en_starter_modes_of_transport_008",
@@ -535,7 +534,6 @@
             }
         ],
         "subtext": "related to modes of transport",
-        "opposite": null,
         "transcription": "ˈskutər",
         "lang": "en",
         "level": "starter",
@@ -559,7 +557,6 @@
             }
         ],
         "subtext": "related to modes of transport",
-        "opposite": null,
         "transcription": "ˈmoʊtərˌbaɪk",
         "lang": "en",
         "level": "starter",
@@ -586,7 +583,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "trək",
         "lang": "en",
         "level": "starter",
@@ -610,7 +606,6 @@
             }
         ],
         "subtext": "related to travel vocabulary basics",
-        "opposite": null,
         "transcription": "ˈsutˌkeɪs",
         "lang": "en",
         "level": "starter",
@@ -634,7 +629,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈbaɪsɪkəl",
         "lang": "en",
         "level": "starter",
@@ -661,7 +655,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈtræfɪk",
         "lang": "en",
         "level": "starter",
@@ -673,8 +666,6 @@
         "word": "take",
         "emoji": "👜",
         "subtext": "take the bus / take medicine / take a break / take time",
-        "opposite": "give",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "transcription": "teɪk",
         "definitions": [
@@ -694,7 +685,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "give"
+        ]
     },
     {
         "id": "en_starter_directions_navigation_006",
@@ -716,20 +710,20 @@
         "v2": "turned",
         "v3": "turned",
         "group": "regular",
-        "opposite": "straighten",
         "transcription": "tərn",
         "lang": "en",
         "level": "starter",
         "theme": "directions_navigation",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "straighten"
+        ]
     },
     {
         "id": "en_starter_travel_025",
         "word": "go",
         "emoji": "🚶",
         "subtext": "go to work / go home / go out / go shopping",
-        "opposite": "come",
-        "oppositeEmoji": "🏃‍♂️",
         "form": "verb",
         "definitions": [
             {
@@ -754,15 +748,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "gangan",
             "origin_meaning": "to go"
-        }
+        },
+        "antonyms": [
+            "come"
+        ]
     },
     {
         "id": "en_starter_travel_026",
         "word": "come",
         "emoji": "🏃‍♂️",
         "subtext": "come home / come to work / come back / come here",
-        "opposite": "go",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -786,15 +781,16 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "kwimaną"
-        }
+        },
+        "antonyms": [
+            "go"
+        ]
     },
     {
         "id": "en_starter_modes_of_transport_013",
         "word": "walk",
         "emoji": "🚶",
         "subtext": "walk to work / walk home / walk slowly / walk every day",
-        "opposite": "run",
-        "oppositeEmoji": "🏃",
         "form": "verb",
         "definitions": [
             {
@@ -814,7 +810,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "run"
+        ]
     },
     {
         "id": "en_starter_modes_of_transport_014",
@@ -836,12 +835,14 @@
         "v2": "drove",
         "v3": "driven",
         "group": "irregular",
-        "opposite": "walk",
         "transcription": "draɪv",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "walk"
+        ]
     },
     {
         "id": "en_starter_modes_of_transport_015",
@@ -863,12 +864,14 @@
         "v2": "flew",
         "v3": "flown",
         "group": "irregular",
-        "opposite": "land",
         "transcription": "flaɪ",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "land"
+        ]
     },
     {
         "id": "en_starter_travel_027",
@@ -890,20 +893,20 @@
         "v2": "returned",
         "v3": "returned",
         "group": "regular",
-        "opposite": "leave",
         "transcription": "rɪˈtərn",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "leave"
+        ]
     },
     {
         "id": "en_starter_travel_028",
         "word": "unpack",
         "emoji": "👜",
         "subtext": "unpack a suitcase",
-        "opposite": "pack",
-        "oppositeEmoji": "🎒",
         "form": "verb",
         "definitions": [
             {
@@ -922,7 +925,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "pack"
+        ]
     },
     {
         "id": "en_starter_travel_029",
@@ -943,7 +949,6 @@
         "emoji": "📖",
         "form": "verb",
         "group": "regular",
-        "opposite": "cancel",
         "transcription": "bʊk",
         "lang": "en",
         "level": "starter",
@@ -953,7 +958,10 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "bōks",
             "origin_meaning": "beech, book"
-        }
+        },
+        "antonyms": [
+            "cancel"
+        ]
     },
     {
         "id": "en_starter_travel_030",
@@ -967,8 +975,6 @@
             }
         ],
         "subtext": "pack a bag / pack a suitcase / pack lightly",
-        "opposite": "unpack",
-        "oppositeEmoji": "👜",
         "classification": "regular",
         "aspect": "action",
         "v2": "packed",
@@ -980,7 +986,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unpack"
+        ]
     },
     {
         "id": "en_starter_travel_031",
@@ -1001,12 +1010,14 @@
         "emoji": "❌",
         "form": "verb",
         "group": "regular",
-        "opposite": "book",
         "transcription": "ˈkænsəl",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "book"
+        ]
     },
     {
         "id": "en_starter_public_transport_006",
@@ -1027,12 +1038,14 @@
         "emoji": "🏃‍♂️",
         "form": "verb",
         "group": "regular",
-        "opposite": "attend",
         "transcription": "mɪs",
         "lang": "en",
         "level": "starter",
         "theme": "public_transport",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "attend"
+        ]
     },
     {
         "id": "en_starter_modes_of_transport_016",
@@ -1053,12 +1066,14 @@
         "v2": "rode",
         "v3": "ridden",
         "group": "irregular",
-        "opposite": "walk",
         "transcription": "raɪd",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "walk"
+        ]
     },
     {
         "id": "en_starter_public_transport_007",
@@ -1079,17 +1094,18 @@
         "v2": "caught",
         "v3": "caught",
         "group": "irregular",
-        "opposite": "throw",
         "transcription": "kæʧ",
         "lang": "en",
         "level": "starter",
         "theme": "public_transport",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "throw"
+        ]
     },
     {
         "id": "en_starter_modes_of_transport_017",
         "word": "by",
-        "image": "images/grammar/prepositions/next to. by.png",
         "form": "preposition",
         "definitions": [
             {

@@ -5,7 +5,6 @@
         "translation": "one",
         "level": "starter",
         "theme": "numbers",
-        "language": "el",
         "emoji": "1️⃣",
         "form": "number",
         "definitions": [
@@ -16,14 +15,15 @@
                 ]
             }
         ],
-        "transcription": "/ˈe.na/"
+        "transcription": "ˈe.na",
+        "id": "el_starter_numbers_001",
+        "lang": "el"
     },
     {
         "word": "δύο",
         "translation": "two",
         "level": "starter",
         "theme": "numbers",
-        "language": "el",
         "emoji": "2️⃣",
         "form": "number",
         "definitions": [
@@ -34,14 +34,15 @@
                 ]
             }
         ],
-        "transcription": "/ˈði.o/"
+        "transcription": "ˈði.o",
+        "id": "el_starter_numbers_002",
+        "lang": "el"
     },
     {
         "word": "τρία",
         "translation": "three",
         "level": "starter",
         "theme": "numbers",
-        "language": "el",
         "emoji": "3️⃣",
         "form": "number",
         "definitions": [
@@ -52,14 +53,15 @@
                 ]
             }
         ],
-        "transcription": "/ˈtri.a/"
+        "transcription": "ˈtri.a",
+        "id": "el_starter_numbers_003",
+        "lang": "el"
     },
     {
         "word": "τέσσερα",
         "translation": "four",
         "level": "starter",
         "theme": "numbers",
-        "language": "el",
         "emoji": "4️⃣",
         "form": "number",
         "definitions": [
@@ -70,14 +72,15 @@
                 ]
             }
         ],
-        "transcription": "/ˈte.se.ra/"
+        "transcription": "ˈte.se.ra",
+        "id": "el_starter_numbers_004",
+        "lang": "el"
     },
     {
         "word": "πέντε",
         "translation": "five",
         "level": "starter",
         "theme": "numbers",
-        "language": "el",
         "emoji": "5️⃣",
         "form": "number",
         "definitions": [
@@ -88,9 +91,11 @@
                 ]
             }
         ],
-        "transcription": "/ˈpen.de/"
+        "transcription": "ˈpen.de",
+        "id": "el_starter_numbers_005",
+        "lang": "el"
     }
-    ];
+];
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

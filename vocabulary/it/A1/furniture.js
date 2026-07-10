@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "sedia",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sedie",
         "subtext": "sedia di legno, sedersi su una sedia",
         "partitive": "della",
@@ -25,16 +27,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "sedes"
-        }
+        },
+        "id": "it_starter_furniture_001",
+        "lang": "it"
     },
-{
+    {
         "word": "tavolo",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tavoli",
         "subtext": "tavolo da cucina, sul tavolo",
         "partitive": "del",
@@ -52,16 +58,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "tabula"
-        }
+        },
+        "id": "it_starter_furniture_002",
+        "lang": "it"
     },
-{
+    {
         "word": "letto",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "letti",
         "subtext": "letto comodo, andare a letto",
         "partitive": "del",
@@ -79,16 +89,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "lectus"
-        }
+        },
+        "id": "it_starter_furniture_003",
+        "lang": "it"
     },
-{
+    {
         "word": "chiave",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chiavi",
         "definitions": [
             {
@@ -102,15 +116,19 @@
         "transcription": "ˈkjave",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_004",
+        "lang": "it"
     },
-{
+    {
         "word": "libro",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "il",
         "emoji": "📖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "libri",
         "gender": "masculine",
         "partitive": "del",
@@ -130,16 +148,20 @@
             "origin_lang": "Latin",
             "origin_word": "liber",
             "origin_meaning": "book"
-        }
+        },
+        "id": "it_starter_furniture_005",
+        "lang": "it"
     },
-{
+    {
         "word": "borsa",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "👜",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "borse",
         "definitions": [
             {
@@ -153,15 +175,19 @@
         "transcription": "ˈborsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_006",
+        "lang": "it"
     },
-{
+    {
         "word": "penna",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "emoji": "🖊️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "penne",
         "gender": "feminine",
         "partitive": "della",
@@ -176,17 +202,20 @@
         "transcription": "ˈpenna",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_007",
+        "lang": "it"
     },
-{
+    {
         "word": "casa",
-        "image": "images/vocabulary/actions/to go home.png",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "case",
         "subtext": "a casa, tornare a casa",
         "definitions": [
@@ -205,24 +234,28 @@
             "origin_lang": "Latin",
             "origin_word": "casa",
             "origin_meaning": "hut, cottage",
-            etymology: {
+            "etymology": {
                 "origin_lang": "Latin",
                 "origin_word": "casa",
-                etymology: {
+                "etymology": {
                     "origin_lang": "Latin",
                     "origin_word": "casa"
                 }
             }
-        }
+        },
+        "id": "it_starter_furniture_008",
+        "lang": "it"
     },
-{
+    {
         "word": "appartamento",
         "level": "starter",
         "theme": "furniture",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "appartamenti",
         "subtext": "flat, vivere in un appartamento",
         "definitions": [
@@ -236,16 +269,20 @@
         "partitive": "dell'",
         "transcription": "appartaˈmento",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_009",
+        "lang": "it"
     },
-{
+    {
         "word": "ufficio",
         "level": "starter",
         "theme": "rooms_indoor_spaces",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "uffici",
         "subtext": "luogo di lavoro, grande ufficio",
         "definitions": [
@@ -259,15 +296,19 @@
         "partitive": "dell'",
         "transcription": "ufˈfitʃo",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_010",
+        "lang": "it"
     },
-{
+    {
         "word": "stanza",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stanze",
         "subtext": "",
         "synonyms": [
@@ -284,16 +325,20 @@
         "gender": "feminine",
         "partitive": "della",
         "transcription": "ˈstantsa",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_011",
+        "lang": "it"
     },
-{
+    {
         "word": "porta",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "porte",
         "subtext": "aprire la porta, porta d'ingresso",
         "definitions": [
@@ -307,16 +352,20 @@
         "partitive": "della",
         "transcription": "ˈpɔrta",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_012",
+        "lang": "it"
     },
-{
+    {
         "word": "finestra",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪟",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "finestre",
         "subtext": "aprire la finestra, vetrina",
         "definitions": [
@@ -330,16 +379,20 @@
         "partitive": "della",
         "transcription": "fiˈnɛstra",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_013",
+        "lang": "it"
     },
-{
+    {
         "word": "piatto",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "piatti",
         "definitions": [
             {
@@ -353,16 +406,20 @@
         "transcription": "ˈpjatto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_014",
+        "lang": "it"
     },
-{
+    {
         "word": "tazza",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tazze",
         "definitions": [
             {
@@ -376,16 +433,20 @@
         "transcription": "ˈtattsa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_015",
+        "lang": "it"
     },
-{
+    {
         "word": "bicchiere",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bicchieri",
         "definitions": [
             {
@@ -399,16 +460,20 @@
         "transcription": "bikˈkjɛre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_016",
+        "lang": "it"
     },
-{
+    {
         "word": "forchetta",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "forchette",
         "definitions": [
             {
@@ -422,16 +487,20 @@
         "transcription": "forˈketta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_017",
+        "lang": "it"
     },
-{
+    {
         "word": "cucchiaio",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🥄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cucchiai",
         "definitions": [
             {
@@ -445,16 +514,20 @@
         "transcription": "kukˈkjajo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_018",
+        "lang": "it"
     },
-{
+    {
         "word": "coltello",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🔪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "coltelli",
         "definitions": [
             {
@@ -468,16 +541,20 @@
         "transcription": "kolˈtɛllo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_019",
+        "lang": "it"
     },
-{
+    {
         "word": "scrivania",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "scrivanie",
         "definitions": [
             {
@@ -491,16 +568,20 @@
         "transcription": "skrivaˈnia",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_020",
+        "lang": "it"
     },
-{
+    {
         "word": "lampada",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lampade",
         "definitions": [
             {
@@ -514,16 +595,20 @@
         "transcription": "ˈlampada",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_021",
+        "lang": "it"
     },
-{
+    {
         "word": "orologio",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "l'",
         "gender": "masculine",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "orologi",
         "definitions": [
             {
@@ -537,16 +622,20 @@
         "transcription": "oroˈlɔdʒo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_022",
+        "lang": "it"
     },
-{
+    {
         "word": "specchio",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🪞",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "specchi",
         "definitions": [
             {
@@ -560,17 +649,20 @@
         "transcription": "ˈspɛkkjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_023",
+        "lang": "it"
     },
-{
+    {
         "word": "bagno",
-        "image": "images/vocabulary/actions/to take. to have a bath.png",
         "level": "starter",
         "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🚿",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bagni",
         "definitions": [
             {
@@ -584,16 +676,20 @@
         "transcription": "ˈbagno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_024",
+        "lang": "it"
     },
-{
+    {
         "word": "camera da letto",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "camere da letto",
         "definitions": [
             {
@@ -607,16 +703,20 @@
         "transcription": "ˈcamera da letto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_025",
+        "lang": "it"
     },
-{
+    {
         "word": "bottiglia",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bottiglie",
         "definitions": [
             {
@@ -630,16 +730,20 @@
         "transcription": "botˈtiʎʎa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_026",
+        "lang": "it"
     },
-{
+    {
         "word": "scatola",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "scatole",
         "definitions": [
             {
@@ -653,16 +757,20 @@
         "transcription": "ˈskatola",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_027",
+        "lang": "it"
     },
-{
+    {
         "word": "matita",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "✏️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "matite",
         "definitions": [
             {
@@ -676,16 +784,20 @@
         "transcription": "ˈmatita",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_028",
+        "lang": "it"
     },
-{
+    {
         "word": "carta",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "📄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "carte",
         "definitions": [
             {
@@ -699,16 +811,20 @@
         "transcription": "ˈcarta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_029",
+        "lang": "it"
     },
-{
+    {
         "word": "entrata",
         "level": "starter",
         "theme": "furniture",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "entrate",
         "definitions": [
             {
@@ -722,16 +838,20 @@
         "transcription": "enˈtrata",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_030",
+        "lang": "it"
     },
-{
+    {
         "word": "uscita",
         "level": "starter",
         "theme": "furniture",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "uscite",
         "definitions": [
             {
@@ -745,16 +865,20 @@
         "transcription": "uʃˈʃita",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_031",
+        "lang": "it"
     },
-{
+    {
         "word": "scale",
         "level": "starter",
         "theme": "furniture",
         "article": "le",
         "gender": "feminine",
         "emoji": "🪜",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "scale",
         "definitions": [
             {
@@ -768,16 +892,20 @@
         "transcription": "ˈskale",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_032",
+        "lang": "it"
     },
-{
+    {
         "word": "ascensore",
         "level": "starter",
         "theme": "furniture",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ascensori",
         "definitions": [
             {
@@ -791,16 +919,20 @@
         "transcription": "aʃʃenˈsore",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_033",
+        "lang": "it"
     },
-{
+    {
         "word": "corridoio",
         "level": "starter",
         "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "👣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "corridoi",
         "definitions": [
             {
@@ -814,16 +946,20 @@
         "transcription": "korriˈdojo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_034",
+        "lang": "it"
     },
-{
+    {
         "word": "muri",
         "level": "starter",
         "theme": "furniture",
         "article": "i",
         "gender": "masculine",
         "emoji": "🧱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "muri",
         "definitions": [
             {
@@ -837,16 +973,20 @@
         "transcription": "ˈmuri",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_035",
+        "lang": "it"
     },
-{
+    {
         "word": "tetto",
         "level": "starter",
         "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tetti",
         "definitions": [
             {
@@ -860,17 +1000,20 @@
         "transcription": "ˈtetto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_036",
+        "lang": "it"
     },
-{
+    {
         "word": "giardino",
-        "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "giardini",
         "definitions": [
             {
@@ -884,16 +1027,20 @@
         "transcription": "dʒarˈdino",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_037",
+        "lang": "it"
     },
-{
+    {
         "word": "garage",
         "level": "starter",
         "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "garage",
         "definitions": [
             {
@@ -907,16 +1054,20 @@
         "transcription": "ɡaˈraʒ",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_038",
+        "lang": "it"
     },
-{
+    {
         "word": "soggiorno",
         "level": "starter",
         "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "soggiorni",
         "definitions": [
             {
@@ -930,16 +1081,20 @@
         "transcription": "sodˈdʒorno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_039",
+        "lang": "it"
     },
-{
+    {
         "word": "sala da pranzo",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sale da pranzo",
         "definitions": [
             {
@@ -953,17 +1108,20 @@
         "transcription": "ˈsala da ˈprandzo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_040",
+        "lang": "it"
     },
-{
+    {
         "word": "doccia",
-        "image": "images/vocabulary/actions/to take. to have a shower.png",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚿",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "docce",
         "definitions": [
             {
@@ -977,16 +1135,20 @@
         "transcription": "ˈdottʃa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_041",
+        "lang": "it"
     },
-{
+    {
         "word": "rubinetto",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "rubinetti",
         "definitions": [
             {
@@ -1000,16 +1162,20 @@
         "transcription": "rubiˈnetto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_042",
+        "lang": "it"
     },
-{
+    {
         "word": "sapone",
         "level": "starter",
         "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "saponi",
         "definitions": [
             {
@@ -1023,16 +1189,20 @@
         "transcription": "saˈpone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_043",
+        "lang": "it"
     },
-{
+    {
         "word": "asciugamano",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧺",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "asciugamani",
         "definitions": [
             {
@@ -1046,16 +1216,20 @@
         "transcription": "aʃʃuɡaˈmano",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_044",
+        "lang": "it"
     },
-{
+    {
         "word": "scaffale",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "lo",
         "gender": "masculine",
         "emoji": "📶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "scaffali",
         "definitions": [
             {
@@ -1069,16 +1243,20 @@
         "transcription": "skafˈfale",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_045",
+        "lang": "it"
     },
-{
+    {
         "word": "divano",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "divani",
         "definitions": [
             {
@@ -1092,11 +1270,15 @@
         "transcription": "diˈvano",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_046",
+        "lang": "it"
     },
-{
+    {
         "level": "starter",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mobili",
         "word": "mobili",
         "theme": "furniture_objects",
@@ -1117,16 +1299,21 @@
             "arredamento"
         ],
         "subtext": "negozio di mobili",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_047",
+        "lang": "it",
+        "emoji": "✨"
     },
-{
+    {
         "word": "lavastoviglie",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lavastoviglie",
         "partitive": "della",
         "transcription": "lavastoˈviʎʎe",
@@ -1140,16 +1327,20 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_048",
+        "lang": "it"
     },
-{
+    {
         "word": "forno",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🥘",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "forni",
         "partitive": "del",
         "transcription": "ˈforno",
@@ -1163,16 +1354,20 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_049",
+        "lang": "it"
     },
-{
+    {
         "word": "frigorifero",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧊",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "frigoriferi",
         "partitive": "del",
         "transcription": "friɡoˈrifero",
@@ -1188,16 +1383,20 @@
             "frigo"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_050",
+        "lang": "it"
     },
-{
+    {
         "word": "tenda",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "⛺",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tende",
         "partitive": "della",
         "transcription": "ˈtɛnda",
@@ -1211,16 +1410,20 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_051",
+        "lang": "it"
     },
-{
+    {
         "word": "pavimento",
         "level": "starter",
         "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pavimenti",
         "transcription": "paviˈmento",
         "definitions": [
@@ -1234,16 +1437,20 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_052",
+        "lang": "it"
     },
-{
+    {
         "word": "soffitto",
         "level": "starter",
         "theme": "furniture",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "soffitti",
         "transcription": "sofˈfitte",
         "definitions": [
@@ -1259,16 +1466,20 @@
         "subtext": "",
         "antonyms": [
             "pavimento"
-        ]
+        ],
+        "id": "it_starter_furniture_053",
+        "lang": "it"
     },
-{
+    {
         "word": "quadro",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🖼️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "quadri",
         "transcription": "ˈkwadro",
         "definitions": [
@@ -1277,33 +1488,27 @@
                 "examples": [
                     "C'è un bel quadro alla parete."
                 ]
-            },
-{
-        "word": "valigetta",
-        "image": "images/vocabulary/actions/to go to work.png",
-        "level": "starter",
-        "theme": "furniture_objects",
-        "emoji": "💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{"text": "Una borsa piatta usata per trasportare carte e documenti.", "examples": ["Porta i suoi documenti in una valigetta."]}],
-        "transcription": "/valiˈɡetta/"
-    },
+            }
         ],
         "partitive": "del",
         "synonyms": [
             "dipinto"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_054",
+        "lang": "it"
     },
-{
+    {
         "word": "padella",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "padelle",
         "transcription": "paˈdɛlla",
         "definitions": [
@@ -1317,16 +1522,20 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_055",
+        "lang": "it"
     },
-{
+    {
         "word": "pentola",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pentole",
         "transcription": "ˈpɛntola",
         "definitions": [
@@ -1340,16 +1549,20 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_056",
+        "lang": "it"
     },
-{
+    {
         "word": "scopa",
         "level": "starter",
         "theme": "household_items",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧹",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "scope",
         "transcription": "ˈskopa",
         "definitions": [
@@ -1363,14 +1576,18 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_057",
+        "lang": "it"
     },
-{
+    {
         "word": "lavatrice",
         "level": "starter",
         "theme": "household_items",
         "emoji": "🧺",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "lavatrici",
@@ -1385,14 +1602,18 @@
         ],
         "transcription": "lavaˈtritʃe",
         "partitive": "della",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_furniture_058",
+        "lang": "it"
     },
-{
+    {
         "word": "tostapane",
         "level": "starter",
         "theme": "household_items",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "tostapane",
@@ -1407,14 +1628,18 @@
         ],
         "transcription": "tostaˈpane",
         "partitive": "del",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_furniture_059",
+        "lang": "it"
     },
-{
+    {
         "word": "microonde",
         "level": "starter",
         "theme": "household_items",
         "emoji": "📟",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "microonde",
@@ -1429,14 +1654,18 @@
         ],
         "transcription": "mikroˈonde",
         "partitive": "del",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_furniture_060",
+        "lang": "it"
     },
-{
+    {
         "word": "poltrona",
         "level": "starter",
         "theme": "household_items",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "poltrone",
@@ -1451,14 +1680,18 @@
             }
         ],
         "transcription": "polˈtrona",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_furniture_061",
+        "lang": "it"
     },
-{
+    {
         "word": "libreria",
         "level": "starter",
         "theme": "household_items",
         "emoji": "📚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "librerie",
@@ -1473,14 +1706,18 @@
             }
         ],
         "transcription": "libreˈria",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_furniture_062",
+        "lang": "it"
     },
-{
+    {
         "word": "armadio",
         "level": "starter",
         "theme": "household_items",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "l'",
         "plural": "armadi",
@@ -1495,14 +1732,18 @@
             }
         ],
         "transcription": "arˈmadjo",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_furniture_063",
+        "lang": "it"
     },
-{
+    {
         "word": "tappeto",
         "level": "starter",
         "theme": "household_items",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "tappeti",
@@ -1517,14 +1758,18 @@
             }
         ],
         "transcription": "tapˈpɛto",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_furniture_064",
+        "lang": "it"
     },
-{
+    {
         "word": "cassetto",
         "level": "starter",
         "theme": "household_items",
         "emoji": "🗄️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "cassetti",
@@ -1539,14 +1784,18 @@
             }
         ],
         "transcription": "kasˈsɛtto",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_furniture_065",
+        "lang": "it"
     },
-{
+    {
         "word": "telecomando",
         "level": "starter",
         "theme": "household_items",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "telecomandi",
@@ -1561,14 +1810,18 @@
             }
         ],
         "transcription": "telekoˈmando",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_furniture_066",
+        "lang": "it"
     },
-{
+    {
         "word": "coperta",
         "level": "starter",
         "theme": "household_items",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "coperte",
@@ -1583,14 +1836,18 @@
             }
         ],
         "transcription": "koˈpɛrta",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_furniture_067",
+        "lang": "it"
     },
-{
+    {
         "word": "cuscino",
         "level": "starter",
         "theme": "household_items",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "cuscini",
@@ -1605,14 +1862,18 @@
             }
         ],
         "transcription": "kuʃˈʃino",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_furniture_068",
+        "lang": "it"
     },
-{
+    {
         "word": "lenzuolo",
         "level": "starter",
         "theme": "household_items",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "lenzuola",
@@ -1627,16 +1888,20 @@
             }
         ],
         "transcription": "lenˈtswɔlo",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_furniture_069",
+        "lang": "it"
     },
-{
+    {
         "word": "spazzolino",
         "level": "starter",
         "theme": "household_items",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🪥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "spazzolini",
         "partitive": "dello",
         "transcription": "spattsoˈlino",
@@ -1650,16 +1915,20 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_070",
+        "lang": "it"
     },
-{
+    {
         "word": "dentifricio",
         "level": "starter",
         "theme": "household_items",
         "article": "il",
         "gender": "masculine",
         "emoji": "🦷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dentifrici",
         "partitive": "del",
         "transcription": "dentiˈfritʃo",
@@ -1673,9 +1942,11 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_furniture_071",
+        "lang": "it"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

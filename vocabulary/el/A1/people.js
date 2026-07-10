@@ -4,7 +4,18 @@
     {
         "word": "Σωκράτης",
         "level": "starter",
-        "theme": "marital_status"
+        "theme": "marital_status",
+        "id": "el_starter_people_001",
+        "lang": "el",
+        "form": "noun",
+        "emoji": "✨",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "The word for 'Σωκράτης' in el.",
+                "examples": []
+            }
+        ]
     }
 ]
     const lang = "el";

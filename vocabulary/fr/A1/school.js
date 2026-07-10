@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "étudiant",
         "level": "starter",
         "theme": "school",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑‍🎓",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "étudiants",
         "definitions": [
             {
@@ -17,16 +19,20 @@
                 ]
             }
         ],
-        "transcription": "/e.ty.djɑ̃/"
+        "transcription": "e.ty.djɑ̃",
+        "id": "fr_starter_school_001",
+        "lang": "fr"
     },
-{
+    {
         "word": "camarade de classe",
         "level": "starter",
         "theme": "school",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "camarades de classe",
         "definitions": [
             {
@@ -36,16 +42,20 @@
                 ]
             }
         ],
-        "transcription": "/ka.ma.ʁad də klas/"
+        "transcription": "ka.ma.ʁad də klas",
+        "id": "fr_starter_school_002",
+        "lang": "fr"
     },
-{
+    {
         "word": "université",
         "level": "starter",
         "theme": "types_of_education",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎓",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "universités",
         "definitions": [
             {
@@ -55,16 +65,20 @@
                 ]
             }
         ],
-        "transcription": "/y.ni.vɛʁ.si.te/"
+        "transcription": "y.ni.vɛʁ.si.te",
+        "id": "fr_starter_school_003",
+        "lang": "fr"
     },
-{
+    {
         "word": "langue",
         "level": "starter",
         "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "langues",
         "definitions": [
             {
@@ -74,20 +88,24 @@
                 ]
             }
         ],
-        "transcription": "/lɑ̃ɡ/",
+        "transcription": "lɑ̃ɡ",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "lingua"
-        }
+        },
+        "id": "fr_starter_school_004",
+        "lang": "fr"
     },
-{
+    {
         "word": "mot",
         "level": "starter",
         "theme": "school",
         "article": "le",
         "gender": "masculine",
         "emoji": "📝",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mots",
         "definitions": [
             {
@@ -97,16 +115,20 @@
                 ]
             }
         ],
-        "transcription": "/mo/"
+        "transcription": "mo",
+        "id": "fr_starter_school_005",
+        "lang": "fr"
     },
-{
+    {
         "word": "phrase",
         "level": "starter",
         "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "📝",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "phrases",
         "definitions": [
             {
@@ -116,16 +138,20 @@
                 ]
             }
         ],
-        "transcription": "/fʁaz/"
+        "transcription": "fʁaz",
+        "id": "fr_starter_school_006",
+        "lang": "fr"
     },
-{
+    {
         "word": "erreur",
         "level": "starter",
         "theme": "school",
         "article": "l'",
         "gender": "feminine",
         "emoji": "❌",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "erreurs",
         "definitions": [
             {
@@ -135,16 +161,20 @@
                 ]
             }
         ],
-        "transcription": "/e.ʁœʁ/"
+        "transcription": "e.ʁœʁ",
+        "id": "fr_starter_school_007",
+        "lang": "fr"
     },
-{
+    {
         "word": "faute",
         "level": "starter",
         "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "⚠️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fautes",
         "definitions": [
             {
@@ -154,14 +184,18 @@
                 ]
             }
         ],
-        "transcription": "/fot/"
+        "transcription": "fot",
+        "id": "fr_starter_school_008",
+        "lang": "fr"
     },
-{
+    {
         "word": "mathématiques",
         "level": "starter",
         "theme": "school",
         "emoji": "🔢",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "gender": "feminine",
         "article": "les",
         "plural": "mathématiques",
@@ -174,14 +208,18 @@
                 ]
             }
         ],
-        "transcription": "matematik"
+        "transcription": "matematik",
+        "id": "fr_starter_school_009",
+        "lang": "fr"
     },
-{
+    {
         "word": "histoire",
         "level": "starter",
         "theme": "school",
         "emoji": "📜",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "gender": "feminine",
         "article": "l'",
         "plural": "histoires",
@@ -194,14 +232,18 @@
                 ]
             }
         ],
-        "transcription": "istwaʁ"
+        "transcription": "istwaʁ",
+        "id": "fr_starter_school_010",
+        "lang": "fr"
     },
-{
+    {
         "word": "science",
         "level": "starter",
         "theme": "school",
         "emoji": "🧪",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "gender": "feminine",
         "article": "la",
         "plural": "sciences",
@@ -214,14 +256,18 @@
                 ]
             }
         ],
-        "transcription": "sjɑ̃s"
+        "transcription": "sjɑ̃s",
+        "id": "fr_starter_school_011",
+        "lang": "fr"
     },
-{
+    {
         "word": "géographie",
         "level": "starter",
         "theme": "school",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "gender": "feminine",
         "article": "la",
         "plural": "géographies",
@@ -234,14 +280,18 @@
                 ]
             }
         ],
-        "transcription": "ʒeɔɡʁafi"
+        "transcription": "ʒeɔɡʁafi",
+        "id": "fr_starter_school_012",
+        "lang": "fr"
     },
-{
+    {
         "word": "règle",
         "level": "starter",
         "theme": "school_stationery",
         "emoji": "📏",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "règles",
@@ -254,9 +304,11 @@
                 ]
             }
         ],
-        "transcription": "ʁɛɡl"
+        "transcription": "ʁɛɡl",
+        "id": "fr_starter_school_013",
+        "lang": "fr"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

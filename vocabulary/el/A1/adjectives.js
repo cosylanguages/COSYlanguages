@@ -6,8 +6,6 @@
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "κοντός",
-        "oppositeEmoji": "📏",
         "definitions": [
             {
                 "text": "Άνθρωπος ή πράγμα με μεγάλο ύψος.",
@@ -26,15 +24,18 @@
         ],
         "comparative": "πιο ψηλός",
         "superlative": "ο πιο ψηλός",
-        "transcription": "/psiˈlos/"
+        "transcription": "psiˈlos",
+        "id": "el_starter_adjectives_001",
+        "lang": "el",
+        "antonyms": [
+            "κοντός"
+        ]
     },
     {
         "word": "κοντός",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "ψηλός",
-        "oppositeEmoji": "🗼",
         "definitions": [
             {
                 "text": "Άνθρωπος ή πράγμα με μικρό ύψος.",
@@ -55,7 +56,12 @@
         ],
         "comparative": "πιο κοντός",
         "superlative": "ο πιο κοντός",
-        "transcription": "/konˈdos/"
+        "transcription": "konˈdos",
+        "id": "el_starter_adjectives_002",
+        "lang": "el",
+        "antonyms": [
+            "ψηλός"
+        ]
     },
     {
         "level": "starter",
@@ -74,15 +80,19 @@
         ],
         "comparative": "πιο νέος",
         "superlative": "ο πιο νέος",
-        "opposite": "παλιός",
-        "oppositeEmoji": "👴",
         "subtext": "",
         "synonyms": [
             "νέα δουλειά",
             "ολοκαίνουργιο"
         ],
         "word": "νέος",
-        "transcription": "/ˈneos/"
+        "transcription": "ˈneos",
+        "id": "el_starter_adjectives_003",
+        "lang": "el",
+        "emoji": "✨",
+        "antonyms": [
+            "παλιός"
+        ]
     },
     {
         "word": "παλιός",
@@ -108,9 +118,12 @@
         ],
         "comparative": "πιο παλιός",
         "superlative": "ο πιο παλιός",
-        "opposite": "νέος",
-        "oppositeEmoji": "👶",
-        "transcription": "/paˈljos/"
+        "transcription": "paˈljos",
+        "id": "el_starter_adjectives_004",
+        "lang": "el",
+        "antonyms": [
+            "νέος"
+        ]
     },
     {
         "word": "ηλιόλουστος",
@@ -137,7 +150,9 @@
         "feminine": "ηλιόλουστη",
         "neuter": "ηλιόλουστο",
         "plural": "ηλιόλουστοι",
-        "transcription": "/iˈliolustos/"
+        "transcription": "iˈliolustos",
+        "id": "el_starter_adjectives_005",
+        "lang": "el"
     },
     {
         "word": "βροχερός",
@@ -164,7 +179,9 @@
         "feminine": "βροχερή",
         "neuter": "βροχερό",
         "plural": "βροχεροί",
-        "transcription": "/vroçeˈros/"
+        "transcription": "vroçeˈros",
+        "id": "el_starter_adjectives_006",
+        "lang": "el"
     },
     {
         "word": "ζεστός",
@@ -172,8 +189,6 @@
         "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "κρύος",
-        "oppositeEmoji": "❄️",
         "subtext": "ζεστός καιρός",
         "synonyms": [
             "πολύ ζεστό",
@@ -193,7 +208,12 @@
         "plural": "ζεστοί",
         "comparative": "πιο ζεστός",
         "superlative": "ο πιο ζεστός",
-        "transcription": "/zesˈtos/"
+        "transcription": "zesˈtos",
+        "id": "el_starter_adjectives_007",
+        "lang": "el",
+        "antonyms": [
+            "κρύος"
+        ]
     },
     {
         "word": "κρύος",
@@ -201,8 +221,6 @@
         "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "ζεστός",
-        "oppositeEmoji": "🔥",
         "definitions": [
             {
                 "text": "Κάτι με χαμηλή θερμοκρασία.",
@@ -222,15 +240,18 @@
         ],
         "comparative": "κρύτερος",
         "superlative": "ο πιο κρύος",
-        "transcription": "/ˈkrios/"
+        "transcription": "ˈkrios",
+        "id": "el_starter_adjectives_008",
+        "lang": "el",
+        "antonyms": [
+            "ζεστός"
+        ]
     },
     {
         "word": "συνηθισμένος",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "ειδικός",
-        "oppositeEmoji": "✨",
         "definitions": [
             {
                 "text": "Κάτι που είναι φυσιολογικό ή συνηθισμένο, όχι κάτι το ιδιαίτερο.",
@@ -250,7 +271,13 @@
         "feminine": "συνηθισμένη",
         "neuter": "συνηθισμένο",
         "plural": "συνηθισμένοι",
-        "transcription": "/siniθizˈmenos/"
+        "transcription": "siniθizˈmenos",
+        "id": "el_starter_adjectives_009",
+        "lang": "el",
+        "emoji": "✨",
+        "antonyms": [
+            "ειδικός"
+        ]
     },
     {
         "word": "φτηνός",
@@ -258,8 +285,6 @@
         "theme": "shopping",
         "emoji": "🏷️",
         "form": "adjective",
-        "opposite": "ακριβός",
-        "oppositeEmoji": "💎",
         "definitions": [
             {
                 "text": "Κάτι που κοστίζει λίγα λεφτά.",
@@ -280,7 +305,12 @@
         ],
         "comparative": "πιο φτηνός",
         "superlative": "ο πιο φτηνός",
-        "transcription": "/ftiˈnos/"
+        "transcription": "ftiˈnos",
+        "id": "el_starter_adjectives_010",
+        "lang": "el",
+        "antonyms": [
+            "ακριβός"
+        ]
     },
     {
         "word": "ακριβός",
@@ -288,8 +318,6 @@
         "theme": "shopping",
         "emoji": "💎",
         "form": "adjective",
-        "opposite": "φτηνός",
-        "oppositeEmoji": "🏷️",
         "definitions": [
             {
                 "text": "Κάτι που κοστίζει πολλά λεφτά.",
@@ -310,7 +338,12 @@
         ],
         "comparative": "πιο ακριβός",
         "superlative": "ο πιο ακριβός",
-        "transcription": "/akriˈvos/"
+        "transcription": "akriˈvos",
+        "id": "el_starter_adjectives_011",
+        "lang": "el",
+        "antonyms": [
+            "φτηνός"
+        ]
     },
     {
         "word": "καλός",
@@ -318,8 +351,6 @@
         "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "κακός",
-        "oppositeEmoji": "👎",
         "definitions": [
             {
                 "text": "Κάτι που έχει καλή ποιότητα.",
@@ -339,7 +370,12 @@
         ],
         "comparative": "καλύτερος",
         "superlative": "ο καλύτερος",
-        "transcription": "/kaˈlos/"
+        "transcription": "kaˈlos",
+        "id": "el_starter_adjectives_012",
+        "lang": "el",
+        "antonyms": [
+            "κακός"
+        ]
     },
     {
         "word": "κακός",
@@ -347,8 +383,6 @@
         "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "καλός",
-        "oppositeEmoji": "👍",
         "definitions": [
             {
                 "text": "Κάτι που δεν είναι καλό.",
@@ -368,7 +402,12 @@
         ],
         "comparative": "χειρότερος",
         "superlative": "ο χειρότερος",
-        "transcription": "/kaˈkos/"
+        "transcription": "kaˈkos",
+        "id": "el_starter_adjectives_013",
+        "lang": "el",
+        "antonyms": [
+            "καλός"
+        ]
     },
     {
         "word": "μεγάλος",
@@ -376,8 +415,6 @@
         "theme": "describing",
         "emoji": "🐘",
         "form": "adjective",
-        "opposite": "μικρός",
-        "oppositeEmoji": "🐭",
         "definitions": [
             {
                 "text": "Κάτι με μεγάλες διαστάσεις.",
@@ -397,7 +434,12 @@
         ],
         "comparative": "μεγάλτερος",
         "superlative": "ο πιο μεγάλος",
-        "transcription": "/meˈɣalos/"
+        "transcription": "meˈɣalos",
+        "id": "el_starter_adjectives_014",
+        "lang": "el",
+        "antonyms": [
+            "μικρός"
+        ]
     },
     {
         "word": "μικρός",
@@ -405,8 +447,6 @@
         "theme": "describing",
         "emoji": "🐭",
         "form": "adjective",
-        "opposite": "μεγάλος",
-        "oppositeEmoji": "🐘",
         "definitions": [
             {
                 "text": "Κάτι με μικρές διαστάσεις.",
@@ -425,7 +465,12 @@
         ],
         "comparative": "πιο μικρός",
         "superlative": "ο πιο μικρός",
-        "transcription": "/miˈkros/"
+        "transcription": "miˈkros",
+        "id": "el_starter_adjectives_015",
+        "lang": "el",
+        "antonyms": [
+            "μεγάλος"
+        ]
     },
     {
         "word": "εύκολος",
@@ -433,8 +478,6 @@
         "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "δύσκολος",
-        "oppositeEmoji": "❌",
         "definitions": [
             {
                 "text": "Κάτι που δεν είναι δύσκολο.",
@@ -454,7 +497,12 @@
         ],
         "comparative": "εύκολτερος",
         "superlative": "ο πιο εύκολος",
-        "transcription": "/ˈefcolos/"
+        "transcription": "ˈefcolos",
+        "id": "el_starter_adjectives_016",
+        "lang": "el",
+        "antonyms": [
+            "δύσκολος"
+        ]
     },
     {
         "word": "δύσκολος",
@@ -462,8 +510,6 @@
         "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "εύκολος",
-        "oppositeEmoji": "✅",
         "definitions": [
             {
                 "text": "Κάτι που απαιτεί προσπάθεια.",
@@ -483,7 +529,12 @@
         ],
         "comparative": "δύσκολτερος",
         "superlative": "ο πιο δύσκολος",
-        "transcription": "/ˈðiscolos/"
+        "transcription": "ˈðiscolos",
+        "id": "el_starter_adjectives_017",
+        "lang": "el",
+        "antonyms": [
+            "εύκολος"
+        ]
     },
     {
         "word": "χαρούμενος",
@@ -507,7 +558,10 @@
             "μια χαρούμενη μέρα"
         ],
         "comparative": "χαρούμεντερος",
-        "superlative": "ο πιο χαρούμενος"
+        "superlative": "ο πιο χαρούμενος",
+        "id": "el_starter_adjectives_018",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "κουρασμένος",
@@ -529,7 +583,9 @@
         "subtext": "νιώθω κουρασμένος / κουρασμένος από κάτι / πολύ κουρασμένος",
         "comparative": "κουρασμέντερος",
         "superlative": "ο πιο κουρασμένος",
-        "transcription": "/kurazˈmenos/"
+        "transcription": "kurazˈmenos",
+        "id": "el_starter_adjectives_019",
+        "lang": "el"
     },
     {
         "word": "πλήρους απασχόλησης",
@@ -537,8 +593,6 @@
         "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "μερικής απασχόλησης",
-        "oppositeEmoji": "⏳",
         "definitions": [
             {
                 "text": "Εργασία για όλες τις ώρες της εβδομάδας.",
@@ -553,7 +607,12 @@
         "feminine": "πλήρους απασχόλησης",
         "neuter": "πλήρους απασχόλησης",
         "plural": "πλήρους απασχόλησης",
-        "transcription": "/ˈplirus apasˈçolisis/"
+        "transcription": "ˈplirus apasˈçolisis",
+        "id": "el_starter_adjectives_020",
+        "lang": "el",
+        "antonyms": [
+            "μερικής απασχόλησης"
+        ]
     },
     {
         "word": "μερικής απασχόλησης",
@@ -561,8 +620,6 @@
         "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "πλήρους απασχόλησης",
-        "oppositeEmoji": "⏰",
         "definitions": [
             {
                 "text": "Εργασία για λιγότερες ώρες από την κανονική εβδομάδα εργασίας.",
@@ -577,7 +634,12 @@
         "feminine": "μερικής απασχόλησης",
         "neuter": "μερικής απασχόλησης",
         "plural": "μερικής απασχόλησης",
-        "transcription": "/meriˈcis apasˈçolisis/"
+        "transcription": "meriˈcis apasˈçolisis",
+        "id": "el_starter_adjectives_021",
+        "lang": "el",
+        "antonyms": [
+            "πλήρους απασχόλησης"
+        ]
     },
     {
         "word": "καθαρός",
@@ -585,8 +647,6 @@
         "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "βρώμικος",
-        "oppositeEmoji": "💩",
         "subtext": "",
         "synonyms": [
             "καθαρά ρούχα",
@@ -606,7 +666,12 @@
         "plural": "καθαροί",
         "comparative": "πιο καθαρός",
         "superlative": "ο πιο καθαρός",
-        "transcription": "/kaθaˈros/"
+        "transcription": "kaθaˈros",
+        "id": "el_starter_adjectives_022",
+        "lang": "el",
+        "antonyms": [
+            "βρώμικος"
+        ]
     },
     {
         "word": "υγιής",
@@ -631,9 +696,13 @@
         ],
         "comparative": "πιο υγιής",
         "superlative": "ο πιο υγιής",
-        "opposite": "ανθυγιεινός",
-        "oppositeEmoji": "🍔",
-        "transcription": "/iʝiˈis/"
+        "transcription": "iʝiˈis",
+        "id": "el_starter_adjectives_023",
+        "lang": "el",
+        "emoji": "✨",
+        "antonyms": [
+            "ανθυγιεινός"
+        ]
     },
     {
         "word": "άρρωστος",
@@ -654,9 +723,13 @@
         "subtext": "νιώθω άρρωστος",
         "comparative": "πιο άρρωστος",
         "superlative": "ο πιο άρρωστος",
-        "opposite": "καλά",
-        "oppositeEmoji": "💪",
-        "transcription": "/ˈarostos/"
+        "transcription": "ˈarostos",
+        "id": "el_starter_adjectives_024",
+        "lang": "el",
+        "emoji": "✨",
+        "antonyms": [
+            "καλά"
+        ]
     },
     {
         "word": "διαδικτυακός",
@@ -664,8 +737,6 @@
         "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "offline",
-        "oppositeEmoji": "📴",
         "definitions": [
             {
                 "text": "Που χρησιμοποιεί το διαδίκτυο.",
@@ -684,7 +755,13 @@
         "superlative": "ο πιο διαδικτυακός",
         "feminine": "διαδικτυακή",
         "neuter": "διαδικτυακό",
-        "plural": "διαδικτυακοί"
+        "plural": "διαδικτυακοί",
+        "id": "el_starter_adjectives_025",
+        "lang": "el",
+        "transcription": "",
+        "antonyms": [
+            "offline"
+        ]
     },
     {
         "word": "μόνος",
@@ -692,8 +769,6 @@
         "theme": "social",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "μαζί",
-        "oppositeEmoji": "👫",
         "definitions": [
             {
                 "text": "Χωρίς άλλους ανθρώπους, μόνος σου.",
@@ -708,7 +783,12 @@
         "feminine": "μόνη",
         "neuter": "μόνο",
         "plural": "μόνοι",
-        "transcription": "/ˈmonos/"
+        "transcription": "ˈmonos",
+        "id": "el_starter_adjectives_026",
+        "lang": "el",
+        "antonyms": [
+            "μαζί"
+        ]
     },
     {
         "word": "χαλαρός",
@@ -732,9 +812,13 @@
         ],
         "comparative": "πιο χαλαρός",
         "superlative": "ο πιο χαλαρός",
-        "opposite": "αγχωμένος",
-        "oppositeEmoji": "😫",
-        "transcription": "/xalaˈros/"
+        "transcription": "xalaˈros",
+        "id": "el_starter_adjectives_027",
+        "lang": "el",
+        "emoji": "✨",
+        "antonyms": [
+            "αγχωμένος"
+        ]
     },
     {
         "word": "ανήσυχος",
@@ -758,9 +842,13 @@
         ],
         "comparative": "πιο ανήσυχος",
         "superlative": "ο πιο ανήσυχος",
-        "opposite": "ήρεμος",
-        "oppositeEmoji": "😌",
-        "transcription": "/aˈnisixos/"
+        "transcription": "aˈnisixos",
+        "id": "el_starter_adjectives_028",
+        "lang": "el",
+        "emoji": "✨",
+        "antonyms": [
+            "ήρεμος"
+        ]
     },
     {
         "word": "απασχολημένος",
@@ -786,7 +874,9 @@
         ],
         "comparative": "απασχολημέντερος",
         "superlative": "ο πιο απασχολημένος",
-        "transcription": "/apasxoliˈmenos/"
+        "transcription": "apasxoliˈmenos",
+        "id": "el_starter_adjectives_029",
+        "lang": "el"
     },
     {
         "word": "χρήσιμος",
@@ -811,9 +901,13 @@
         ],
         "comparative": "πιο χρήσιμος",
         "superlative": "ο πιο χρήσιμος",
-        "opposite": "άχρηστος",
-        "oppositeEmoji": "🗑️",
-        "transcription": "/ˈçrisimos/"
+        "transcription": "ˈçrisimos",
+        "id": "el_starter_adjectives_030",
+        "lang": "el",
+        "emoji": "✨",
+        "antonyms": [
+            "άχρηστος"
+        ]
     },
     {
         "word": "σημαντικός",
@@ -839,7 +933,9 @@
         "plural": "σημαντικοί",
         "comparative": "πιο σημαντικός",
         "superlative": "ο πιο σημαντικός",
-        "transcription": "/simandiˈkos/"
+        "transcription": "simandiˈkos",
+        "id": "el_starter_adjectives_031",
+        "lang": "el"
     },
     {
         "word": "κόκκινος",
@@ -866,7 +962,9 @@
         ],
         "comparative": "κόκκιντερος",
         "superlative": "ο πιο κόκκινος",
-        "transcription": "/ˈkocinos/"
+        "transcription": "ˈkocinos",
+        "id": "el_starter_adjectives_032",
+        "lang": "el"
     },
     {
         "word": "μπλε",
@@ -891,7 +989,9 @@
         ],
         "comparative": "πιο μπλε",
         "superlative": "ο πιο μπλε",
-        "transcription": "/ble/"
+        "transcription": "ble",
+        "id": "el_starter_adjectives_033",
+        "lang": "el"
     },
     {
         "word": "πράσινος",
@@ -918,7 +1018,9 @@
         ],
         "comparative": "πράσιντερος",
         "superlative": "ο πιο πράσινος",
-        "transcription": "/ˈprazinos/"
+        "transcription": "ˈprazinos",
+        "id": "el_starter_adjectives_034",
+        "lang": "el"
     },
     {
         "word": "άσπρος",
@@ -945,7 +1047,9 @@
         "plural": "άσπροι",
         "comparative": "άσπρτερος",
         "superlative": "ο πιο άσπρος",
-        "transcription": "/ˈaspros/"
+        "transcription": "ˈaspros",
+        "id": "el_starter_adjectives_035",
+        "lang": "el"
     },
     {
         "word": "μαύρος",
@@ -971,7 +1075,9 @@
         ],
         "comparative": "μαύρτερος",
         "superlative": "ο πιο μαύρος",
-        "transcription": "/ˈmavros/"
+        "transcription": "ˈmavros",
+        "id": "el_starter_adjectives_036",
+        "lang": "el"
     },
     {
         "word": "κίτρινος",
@@ -998,7 +1104,9 @@
         ],
         "comparative": "κίτριντερος",
         "superlative": "ο πιο κίτρινος",
-        "transcription": "/ˈcitrinos/"
+        "transcription": "ˈcitrinos",
+        "id": "el_starter_adjectives_037",
+        "lang": "el"
     },
     {
         "word": "ελεύθερος",
@@ -1025,7 +1133,9 @@
         ],
         "comparative": "πιο ελεύθερος",
         "superlative": "ο πιο ελεύθερος",
-        "transcription": "/eˈlefθeros/"
+        "transcription": "eˈlefθeros",
+        "id": "el_starter_adjectives_038",
+        "lang": "el"
     },
     {
         "word": "ανοιχτός",
@@ -1033,8 +1143,6 @@
         "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "κλειστός",
-        "oppositeEmoji": "🔒",
         "definitions": [
             {
                 "text": "Κάτι που δεν είναι κλειστό.",
@@ -1053,7 +1161,12 @@
         ],
         "comparative": "πιο ανοιχτός",
         "superlative": "ο πιο ανοιχτός",
-        "transcription": "/aniˈxtos/"
+        "transcription": "aniˈxtos",
+        "id": "el_starter_adjectives_039",
+        "lang": "el",
+        "antonyms": [
+            "κλειστός"
+        ]
     },
     {
         "word": "κλειστός",
@@ -1061,8 +1174,6 @@
         "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "ανοιχτός",
-        "oppositeEmoji": "📖",
         "definitions": [
             {
                 "text": "Κάτι που δεν είναι ανοιχτό.",
@@ -1082,7 +1193,12 @@
         ],
         "comparative": "πιο κλειστός",
         "superlative": "ο πιο κλειστός",
-        "transcription": "/cliˈstos/"
+        "transcription": "cliˈstos",
+        "id": "el_starter_adjectives_040",
+        "lang": "el",
+        "antonyms": [
+            "ανοιχτός"
+        ]
     },
     {
         "word": "μεγάλος",
@@ -1109,7 +1225,9 @@
         ],
         "comparative": "μεγαλύτερος",
         "superlative": "ο πιο μεγάλος",
-        "transcription": "/meˈɣalos/"
+        "transcription": "meˈɣalos",
+        "id": "el_starter_adjectives_041",
+        "lang": "el"
     },
     {
         "word": "μικρός",
@@ -1135,7 +1253,9 @@
         ],
         "comparative": "πιο μικρός",
         "superlative": "ο πιο μικρός",
-        "transcription": "/miˈkros/"
+        "transcription": "miˈkros",
+        "id": "el_starter_adjectives_042",
+        "lang": "el"
     },
     {
         "word": "μακρύς",
@@ -1162,7 +1282,9 @@
         ],
         "comparative": "πιο μακρύς",
         "superlative": "ο πιο μακρύς",
-        "transcription": "/maˈcris/"
+        "transcription": "maˈcris",
+        "id": "el_starter_adjectives_043",
+        "lang": "el"
     },
     {
         "word": "υψηλός",
@@ -1188,7 +1310,10 @@
             "υψηλή ποιότητα"
         ],
         "comparative": "πιο υψηλός",
-        "superlative": "ο πιο υψηλός"
+        "superlative": "ο πιο υψηλός",
+        "id": "el_starter_adjectives_044",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "χαμηλός",
@@ -1214,7 +1339,9 @@
         ],
         "comparative": "πιο χαμηλός",
         "superlative": "ο πιο χαμηλός",
-        "transcription": "/xamiˈlos/"
+        "transcription": "xamiˈlos",
+        "id": "el_starter_adjectives_045",
+        "lang": "el"
     },
     {
         "word": "γεμάτος",
@@ -1241,7 +1368,9 @@
         ],
         "comparative": "πιο γεμάτος",
         "superlative": "ο πιο γεμάτος",
-        "transcription": "/ʝeˈmatos/"
+        "transcription": "ʝeˈmatos",
+        "id": "el_starter_adjectives_046",
+        "lang": "el"
     },
     {
         "word": "άδειος",
@@ -1268,7 +1397,9 @@
         ],
         "comparative": "πιο άδειος",
         "superlative": "ο πιο άδειος",
-        "transcription": "/ˈaðios/"
+        "transcription": "ˈaðios",
+        "id": "el_starter_adjectives_047",
+        "lang": "el"
     },
     {
         "word": "ζεστός",
@@ -1295,7 +1426,9 @@
         ],
         "comparative": "πιο ζεστός",
         "superlative": "ο πιο ζεστός",
-        "transcription": "/zesˈtos/"
+        "transcription": "zesˈtos",
+        "id": "el_starter_adjectives_048",
+        "lang": "el"
     },
     {
         "word": "δροσερός",
@@ -1319,7 +1452,10 @@
             "ένα δροσερό ποτό"
         ],
         "comparative": "πιο δροσερός",
-        "superlative": "ο πιο δροσερός"
+        "superlative": "ο πιο δροσερός",
+        "id": "el_starter_adjectives_049",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "βρεγμένος",
@@ -1345,7 +1481,10 @@
             "βρέχομαι"
         ],
         "comparative": "πιο βρεγμένος",
-        "superlative": "ο πιο βρεγμένος"
+        "superlative": "ο πιο βρεγμένος",
+        "id": "el_starter_adjectives_050",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "στεγνός",
@@ -1372,7 +1511,9 @@
         ],
         "comparative": "πιο στεγνός",
         "superlative": "ο πιο στεγνός",
-        "transcription": "/steˈɣnos/"
+        "transcription": "steˈɣnos",
+        "id": "el_starter_adjectives_051",
+        "lang": "el"
     },
     {
         "word": "βρώμικος",
@@ -1399,7 +1540,9 @@
         ],
         "comparative": "πιο βρώμικος",
         "superlative": "ο πιο βρώμικος",
-        "transcription": "/ˈvromicos/"
+        "transcription": "ˈvromicos",
+        "id": "el_starter_adjectives_052",
+        "lang": "el"
     },
     {
         "word": "σκληρός",
@@ -1426,7 +1569,9 @@
         ],
         "comparative": "πιο σκληρός",
         "superlative": "ο πιο σκληρός",
-        "transcription": "/skliˈros/"
+        "transcription": "skliˈros",
+        "id": "el_starter_adjectives_053",
+        "lang": "el"
     },
     {
         "word": "μαλακός",
@@ -1453,7 +1598,9 @@
         ],
         "comparative": "πιο μαλακός",
         "superlative": "ο πιο μαλακός",
-        "transcription": "/malaˈkos/"
+        "transcription": "malaˈkos",
+        "id": "el_starter_adjectives_054",
+        "lang": "el"
     },
     {
         "word": "βαρύς",
@@ -1480,7 +1627,9 @@
         ],
         "comparative": "πιο βαρύς",
         "superlative": "ο πιο βαρύς",
-        "transcription": "/vaˈris/"
+        "transcription": "vaˈris",
+        "id": "el_starter_adjectives_055",
+        "lang": "el"
     },
     {
         "word": "ελαφρύς",
@@ -1506,7 +1655,10 @@
             "ένα ελαφρύ γεύμα"
         ],
         "comparative": "πιο ελαφρύς",
-        "superlative": "ο πιο ελαφρύς"
+        "superlative": "ο πιο ελαφρύς",
+        "id": "el_starter_adjectives_056",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "καφέ",
@@ -1531,7 +1683,9 @@
         ],
         "comparative": "πιο καφέ",
         "superlative": "ο πιο καφέ",
-        "transcription": "/kaˈfe/"
+        "transcription": "kaˈfe",
+        "id": "el_starter_adjectives_057",
+        "lang": "el"
     },
     {
         "word": "γκρι",
@@ -1557,7 +1711,9 @@
         ],
         "comparative": "πιο γκρι",
         "superlative": "ο πιο γκρι",
-        "transcription": "/ɡri/"
+        "transcription": "ɡri",
+        "id": "el_starter_adjectives_058",
+        "lang": "el"
     },
     {
         "word": "ροζ",
@@ -1582,7 +1738,9 @@
         ],
         "comparative": "πιο ροζ",
         "superlative": "ο πιο ροζ",
-        "transcription": "/roz/"
+        "transcription": "roz",
+        "id": "el_starter_adjectives_059",
+        "lang": "el"
     },
     {
         "word": "πορτοκαλί",
@@ -1604,7 +1762,9 @@
         "subtext": "έντονο πορτοκαλί / σκούρο πορτοκαλί / πορτοκαλί φως",
         "comparative": "πιο πορτοκαλί",
         "superlative": "ο πιο πορτοκαλί",
-        "transcription": "/portokaˈli/"
+        "transcription": "portokaˈli",
+        "id": "el_starter_adjectives_060",
+        "lang": "el"
     },
     {
         "word": "υπέροχος",
@@ -1630,7 +1790,9 @@
         ],
         "comparative": "πιο υπέροχος",
         "superlative": "ο πιο υπέροχος",
-        "transcription": "/iˈperoxos/"
+        "transcription": "iˈperoxos",
+        "id": "el_starter_adjectives_061",
+        "lang": "el"
     },
     {
         "word": "ωραίος",
@@ -1655,7 +1817,10 @@
             "ένα ωραίο μέρος"
         ],
         "comparative": "πιο ωραίος",
-        "superlative": "ο πιο ωραίος"
+        "superlative": "ο πιο ωραίος",
+        "id": "el_starter_adjectives_062",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "θαυμάσιος",
@@ -1680,7 +1845,10 @@
             "μια θαυμάσια στιγμή"
         ],
         "comparative": "πιο θαυμάσιος",
-        "superlative": "ο πιο θαυμάσιος"
+        "superlative": "ο πιο θαυμάσιος",
+        "id": "el_starter_adjectives_063",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "τρομερός",
@@ -1706,7 +1874,9 @@
         ],
         "comparative": "πιο τρομερός",
         "superlative": "ο πιο τρομερός",
-        "transcription": "/tromeˈros/"
+        "transcription": "tromeˈros",
+        "id": "el_starter_adjectives_064",
+        "lang": "el"
     },
     {
         "word": "απαίσιος",
@@ -1731,7 +1901,10 @@
             "απλώς απαίσιο"
         ],
         "comparative": "πιο απαίσιος",
-        "superlative": "ο πιο απαίσιος"
+        "superlative": "ο πιο απαίσιος",
+        "id": "el_starter_adjectives_065",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "καταπληκτικός",
@@ -1758,7 +1931,9 @@
         ],
         "comparative": "πιο καταπληκτικός",
         "superlative": "ο πιο καταπληκτικός",
-        "transcription": "/cataplictiˈkos/"
+        "transcription": "cataplictiˈkos",
+        "id": "el_starter_adjectives_066",
+        "lang": "el"
     },
     {
         "word": "φανταστικός",
@@ -1784,7 +1959,9 @@
         ],
         "comparative": "πιο φανταστικός",
         "superlative": "ο πιο φανταστικός",
-        "transcription": "/fandastiˈkos/"
+        "transcription": "fandastiˈkos",
+        "id": "el_starter_adjectives_067",
+        "lang": "el"
     },
     {
         "word": "λυπημένος",
@@ -1809,7 +1986,9 @@
         ],
         "comparative": "πιο λυπημένος",
         "superlative": "ο πιο λυπημένος",
-        "transcription": "/lipiˈmenos/"
+        "transcription": "lipiˈmenos",
+        "id": "el_starter_adjectives_068",
+        "lang": "el"
     },
     {
         "word": "πεινασμένος",
@@ -1831,7 +2010,9 @@
         "subtext": "νιώθω πεινασμένος / πολύ πεινασμένος",
         "comparative": "πιο πεινασμένος",
         "superlative": "ο πιο πεινασμένος",
-        "transcription": "/pinazˈmenos/"
+        "transcription": "pinazˈmenos",
+        "id": "el_starter_adjectives_069",
+        "lang": "el"
     },
     {
         "word": "θυμωμένος",
@@ -1853,7 +2034,9 @@
         "subtext": "νιώθω θυμωμένος / θυμωμένος με κάποιον",
         "comparative": "πιο θυμωμένος",
         "superlative": "ο πιο θυμωμένος",
-        "transcription": "/θimoˈmenos/"
+        "transcription": "θimoˈmenos",
+        "id": "el_starter_adjectives_070",
+        "lang": "el"
     },
     {
         "word": "βαριεστημένος",
@@ -1878,7 +2061,9 @@
         ],
         "comparative": "πιο βαριεστημένος",
         "superlative": "ο πιο βαριεστημένος",
-        "transcription": "/variestiˈmenos/"
+        "transcription": "variestiˈmenos",
+        "id": "el_starter_adjectives_071",
+        "lang": "el"
     },
     {
         "word": "ενθουσιασμένος",
@@ -1900,7 +2085,9 @@
         "subtext": "νιώθω ενθουσιασμένος / πολύ ενθουσιασμένος",
         "comparative": "πιο ενθουσιασμένος",
         "superlative": "ο πιο ενθουσιασμένος",
-        "transcription": "/enθusiazˈmenos/"
+        "transcription": "enθusiazˈmenos",
+        "id": "el_starter_adjectives_072",
+        "lang": "el"
     },
     {
         "word": "φοβισμένος",
@@ -1925,7 +2112,9 @@
         ],
         "comparative": "πιο φοβισμένος",
         "superlative": "ο πιο φοβισμένος",
-        "transcription": "/fovizˈmenos/"
+        "transcription": "fovizˈmenos",
+        "id": "el_starter_adjectives_073",
+        "lang": "el"
     },
     {
         "word": "μετανιωμένος",
@@ -1952,7 +2141,9 @@
         ],
         "comparative": "πιο μετανιωμένος",
         "superlative": "ο πιο μετανιωμένος",
-        "transcription": "/metanjoˈmenos/"
+        "transcription": "metanjoˈmenos",
+        "id": "el_starter_adjectives_074",
+        "lang": "el"
     },
     {
         "word": "σωστός",
@@ -1979,7 +2170,9 @@
         ],
         "comparative": "πιο σωστός",
         "superlative": "ο πιο σωστός",
-        "transcription": "/sosˈtos/"
+        "transcription": "sosˈtos",
+        "id": "el_starter_adjectives_075",
+        "lang": "el"
     },
     {
         "word": "λανθασμένος",
@@ -2005,7 +2198,10 @@
             "εντελώς λάθος"
         ],
         "comparative": "πιο λανθασμένος",
-        "superlative": "ο πιο λανθασμένος"
+        "superlative": "ο πιο λανθασμένος",
+        "id": "el_starter_adjectives_076",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "καινούριος",
@@ -2031,7 +2227,10 @@
             "εντελώς καινούριο"
         ],
         "comparative": "πιο καινούριος",
-        "superlative": "ο πιο καινούριος"
+        "superlative": "ο πιο καινούριος",
+        "id": "el_starter_adjectives_077",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "διαφορετικός",
@@ -2057,7 +2256,9 @@
         ],
         "comparative": "πιο διαφορετικός",
         "superlative": "ο πιο διαφορετικός",
-        "transcription": "/ðiaforetiˈkos/"
+        "transcription": "ðiaforetiˈkos",
+        "id": "el_starter_adjectives_078",
+        "lang": "el"
     },
     {
         "word": "ίδιος",
@@ -2084,7 +2285,9 @@
         ],
         "comparative": "πιο ίδιος",
         "superlative": "ο πιο ίδιος",
-        "transcription": "/ˈiðios/"
+        "transcription": "ˈiðios",
+        "id": "el_starter_adjectives_079",
+        "lang": "el"
     },
     {
         "word": "γρήγορος",
@@ -2111,7 +2314,9 @@
         ],
         "comparative": "πιο γρήγορος",
         "superlative": "ο πιο γρήγορος",
-        "transcription": "/ˈɣriɣoros/"
+        "transcription": "ˈɣriɣoros",
+        "id": "el_starter_adjectives_080",
+        "lang": "el"
     },
     {
         "word": "αργός",
@@ -2138,7 +2343,9 @@
         ],
         "comparative": "πιο αργός",
         "superlative": "ο πιο αργός",
-        "transcription": "/arˈɣos/"
+        "transcription": "arˈɣos",
+        "id": "el_starter_adjectives_081",
+        "lang": "el"
     },
     {
         "word": "ήσυχος",
@@ -2164,7 +2371,9 @@
         ],
         "comparative": "πιο ήσυχος",
         "superlative": "ο πιο ήσυχος",
-        "transcription": "/ˈisixos/"
+        "transcription": "ˈisixos",
+        "id": "el_starter_adjectives_082",
+        "lang": "el"
     },
     {
         "word": "δυνατός",
@@ -2190,7 +2399,9 @@
         ],
         "comparative": "πιο δυνατός",
         "superlative": "ο πιο δυνατός",
-        "transcription": "/ðinaˈtos/"
+        "transcription": "ðinaˈtos",
+        "id": "el_starter_adjectives_083",
+        "lang": "el"
     },
     {
         "word": "ασφαλής",
@@ -2215,7 +2426,9 @@
         ],
         "comparative": "πιο ασφαλής",
         "superlative": "ο πιο ασφαλής",
-        "transcription": "/asfaliˈis/"
+        "transcription": "asfaliˈis",
+        "id": "el_starter_adjectives_084",
+        "lang": "el"
     },
     {
         "word": "επικίνδυνος",
@@ -2241,7 +2454,9 @@
         ],
         "comparative": "πιο επικίνδυνος",
         "superlative": "ο πιο επικίνδυνος",
-        "transcription": "/epiˈcinðinos/"
+        "transcription": "epiˈcinðinos",
+        "id": "el_starter_adjectives_085",
+        "lang": "el"
     },
     {
         "word": "δυστυχισμένος",
@@ -2265,7 +2480,10 @@
         ],
         "comparative": "δυστυχισμέντερος",
         "superlative": "ο πιο δυστυχισμένος",
-        "transcription": "/ðistiçizˈmenos/"
+        "transcription": "ðistiçizˈmenos",
+        "id": "el_starter_adjectives_086",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "νευρικός",
@@ -2289,7 +2507,10 @@
         ],
         "comparative": "πιο νευρικός",
         "superlative": "ο πιο νευρικός",
-        "transcription": "/nevriˈkos/"
+        "transcription": "nevriˈkos",
+        "id": "el_starter_adjectives_087",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "αγχωμένος",
@@ -2314,7 +2535,10 @@
         ],
         "comparative": "πιο αγχωμένος",
         "superlative": "ο πιο αγχωμένος",
-        "transcription": "/anxoˈmenos/"
+        "transcription": "anxoˈmenos",
+        "id": "el_starter_adjectives_088",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "σίγουρος",
@@ -2339,7 +2563,10 @@
         ],
         "comparative": "πιο σίγουρος",
         "superlative": "ο πιο σίγουρος",
-        "transcription": "/ˈsiɣuros/"
+        "transcription": "ˈsiɣuros",
+        "id": "el_starter_adjectives_089",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "περήφανος",
@@ -2360,7 +2587,10 @@
         "subtext": "νιώθω περήφανος / πολύ περήφανος / περήφανος για",
         "comparative": "πιο περήφανος",
         "superlative": "ο πιο περήφανος",
-        "transcription": "/peˈrifanos/"
+        "transcription": "peˈrifanos",
+        "id": "el_starter_adjectives_090",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "φοβισμένος",
@@ -2384,7 +2614,10 @@
         ],
         "comparative": "πιο φοβισμένος",
         "superlative": "ο πιο φοβισμένος",
-        "transcription": "/fovizˈmenos/"
+        "transcription": "fovizˈmenos",
+        "id": "el_starter_adjectives_091",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "έκπληκτος",
@@ -2404,7 +2637,11 @@
         ],
         "subtext": "πολύ έκπληκτος / ευχάριστα έκπληκτος",
         "comparative": "πιο έκπληκτος",
-        "superlative": "ο πιο έκπληκτος"
+        "superlative": "ο πιο έκπληκτος",
+        "id": "el_starter_adjectives_092",
+        "lang": "el",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "word": "απογοητευμένος",
@@ -2424,7 +2661,11 @@
         ],
         "subtext": "βαθιά απογοητευμένος / απογοητευμένος με",
         "comparative": "πιο απογοητευμένος",
-        "superlative": "ο πιο απογοητευμένος"
+        "superlative": "ο πιο απογοητευμένος",
+        "id": "el_starter_adjectives_093",
+        "lang": "el",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "word": "όμορφος",
@@ -2450,7 +2691,10 @@
         ],
         "comparative": "πιο όμορφος",
         "superlative": "ο πιο όμορφος",
-        "transcription": "/ˈomorfos/"
+        "transcription": "ˈomorfos",
+        "id": "el_starter_adjectives_094",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "ωραίος",
@@ -2474,7 +2718,11 @@
             "ένα ωραίο μέρος"
         ],
         "comparative": "ωραίτερος",
-        "superlative": "ο πιο ωραίος"
+        "superlative": "ο πιο ωραίος",
+        "id": "el_starter_adjectives_095",
+        "lang": "el",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "word": "δυνατός",
@@ -2499,7 +2747,10 @@
         ],
         "comparative": "πιο δυνατός",
         "superlative": "ο πιο δυνατός",
-        "transcription": "/ðinaˈtos/"
+        "transcription": "ðinaˈtos",
+        "id": "el_starter_adjectives_096",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "αδύναμος",
@@ -2524,7 +2775,10 @@
         ],
         "comparative": "πιο αδύναμος",
         "superlative": "ο πιο αδύναμος",
-        "transcription": "/aðinamos/"
+        "transcription": "aðinamos",
+        "id": "el_starter_adjectives_097",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "γυμνασμένος",
@@ -2547,7 +2801,11 @@
             "παραμένω σε φόρμα"
         ],
         "comparative": "πιο γυμνασμένος",
-        "superlative": "ο πιο γυμνασμένος"
+        "superlative": "ο πιο γυμνασμένος",
+        "id": "el_starter_adjectives_098",
+        "lang": "el",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "word": "εξαιρετικός",
@@ -2572,7 +2830,10 @@
         ],
         "comparative": "πιο εξαιρετικός",
         "superlative": "ο πιο εξαιρετικός",
-        "transcription": "/ekseretiˈkos/"
+        "transcription": "ekseretiˈkos",
+        "id": "el_starter_adjectives_099",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "τέλειος",
@@ -2596,7 +2857,10 @@
         ],
         "comparative": "πιο τέλειος",
         "superlative": "ο πιο τέλειος",
-        "transcription": "/ˈtelios/"
+        "transcription": "ˈtelios",
+        "id": "el_starter_adjectives_100",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "άχρηστος",
@@ -2617,7 +2881,10 @@
         "subtext": "εντελώς άχρηστος / αποδεικνύεται άχρηστος",
         "comparative": "πιο άχρηστος",
         "superlative": "ο πιο άχρηστος",
-        "transcription": "/ˈaxristos/"
+        "transcription": "ˈaxristos",
+        "id": "el_starter_adjectives_101",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "σωστός",
@@ -2643,7 +2910,10 @@
         ],
         "comparative": "πιο σωστός",
         "superlative": "ο πιο σωστός",
-        "transcription": "/sosˈtos/"
+        "transcription": "sosˈtos",
+        "id": "el_starter_adjectives_102",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "ενδιαφέρων",
@@ -2668,7 +2938,10 @@
         ],
         "comparative": "πιο ενδιαφέρων",
         "superlative": "ο πιο ενδιαφέρων",
-        "transcription": "/enðiaˈferon/"
+        "transcription": "enðiaˈferon",
+        "id": "el_starter_adjectives_103",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "βαρετός",
@@ -2693,7 +2966,10 @@
         ],
         "comparative": "πιο βαρετός",
         "superlative": "ο πιο βαρετός",
-        "transcription": "/vareˈtos/"
+        "transcription": "vareˈtos",
+        "id": "el_starter_adjectives_104",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "απαραίτητος",
@@ -2718,7 +2994,10 @@
         ],
         "comparative": "πιο απαραίτητος",
         "superlative": "ο πιο απαραίτητος",
-        "transcription": "/apaˈretitos/"
+        "transcription": "apaˈretitos",
+        "id": "el_starter_adjectives_105",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "πιθανός",
@@ -2743,7 +3022,10 @@
         ],
         "comparative": "πιο πιθανός",
         "superlative": "ο πιο πιθανός",
-        "transcription": "/piθaˈnos/"
+        "transcription": "piθaˈnos",
+        "id": "el_starter_adjectives_106",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "αδύνατος",
@@ -2768,7 +3050,10 @@
         ],
         "comparative": "πιο αδύνατος",
         "superlative": "ο πιο αδύνατος",
-        "transcription": "/aˈðinatos/"
+        "transcription": "aˈðinatos",
+        "id": "el_starter_adjectives_107",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "ειδικός",
@@ -2794,7 +3079,10 @@
         ],
         "comparative": "πιο ειδικός",
         "superlative": "ο πιο ειδικός",
-        "transcription": "/eiˈðicos/"
+        "transcription": "eiˈðicos",
+        "id": "el_starter_adjectives_108",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "δημοφιλής",
@@ -2815,7 +3103,10 @@
         "subtext": "πολύ δημοφιλής / δημοφιλής επιλογή",
         "comparative": "πιο δημοφιλής",
         "superlative": "ο πιο δημοφιλής",
-        "transcription": "/ðimofiˈlis/"
+        "transcription": "ðimofiˈlis",
+        "id": "el_starter_adjectives_109",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "παρόμοιος",
@@ -2836,7 +3127,10 @@
         "subtext": "πολύ παρόμοιος / παρόμοιος με",
         "comparative": "πιο παρόμοιος",
         "superlative": "ο πιο παρόμοιος",
-        "transcription": "/paˈromios/"
+        "transcription": "paˈromios",
+        "id": "el_starter_adjectives_110",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "φιλικός",
@@ -2860,7 +3154,10 @@
         ],
         "comparative": "πιο φιλικός",
         "superlative": "ο πιο φιλικός",
-        "transcription": "/filiˈkos/"
+        "transcription": "filiˈkos",
+        "id": "el_starter_adjectives_111",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "ευγενικός",
@@ -2881,7 +3178,10 @@
         "subtext": "πολύ ευγενικός / ευγενικό εκ μέρους σας",
         "comparative": "πιο ευγενικός",
         "superlative": "ο πιο ευγενικός",
-        "transcription": "/evʝeniˈkos/"
+        "transcription": "evʝeniˈkos",
+        "id": "el_starter_adjectives_112",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "αστείος",
@@ -2905,7 +3205,10 @@
         ],
         "comparative": "πιο αστείος",
         "superlative": "ο πιο αστείος",
-        "transcription": "/asˈtios/"
+        "transcription": "asˈtios",
+        "id": "el_starter_adjectives_113",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "έξυπνος",
@@ -2929,7 +3232,10 @@
         ],
         "comparative": "πιο έξυπνος",
         "superlative": "ο πιο έξυπνος",
-        "transcription": "/ˈeksipnos/"
+        "transcription": "ˈeksipnos",
+        "id": "el_starter_adjectives_114",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "ευγενής",
@@ -2953,7 +3259,11 @@
             "ευγενικό αίτημα"
         ],
         "comparative": "πιο ευγενής",
-        "superlative": "ο πιο ευγενής"
+        "superlative": "ο πιο ευγενής",
+        "id": "el_starter_adjectives_115",
+        "lang": "el",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "word": "αγενής",
@@ -2974,7 +3284,10 @@
         "subtext": "πολύ αγενής / απίστευτα αγενής / εσκεμμένα αγενής",
         "comparative": "πιο αγενής",
         "superlative": "ο πιο αγενής",
-        "transcription": "/aʝeˈnis/"
+        "transcription": "aʝeˈnis",
+        "id": "el_starter_adjectives_116",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "τεμπέλης",
@@ -2998,7 +3311,10 @@
         ],
         "comparative": "πιο τεμπέλης",
         "superlative": "ο πιο τεμπέλης",
-        "transcription": "/teˈmbelis/"
+        "transcription": "teˈmbelis",
+        "id": "el_starter_adjectives_117",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "ειλικρινής",
@@ -3019,7 +3335,10 @@
         "subtext": "πολύ ειλικρινής / βάναυσα ειλικρινής / εντελώς ειλικρινής",
         "comparative": "πιο ειλικρινής",
         "superlative": "ο πιο ειλικρινής",
-        "transcription": "/ilicriˈnis/"
+        "transcription": "ilicriˈnis",
+        "id": "el_starter_adjectives_118",
+        "lang": "el",
+        "emoji": "✨"
     },
     {
         "word": "θορυβώδης",
@@ -3044,7 +3363,10 @@
         ],
         "comparative": "πιο θορυβώδης",
         "superlative": "ο πιο θορυβώδης",
-        "transcription": "/θoriˈvoðis/"
+        "transcription": "θoriˈvoðis",
+        "id": "el_starter_adjectives_119",
+        "lang": "el",
+        "emoji": "✨"
     }
 ]
     const lang = "el";

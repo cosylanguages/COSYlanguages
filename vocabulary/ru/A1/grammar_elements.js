@@ -16,7 +16,8 @@
             }
         ],
         "emoji": "🔁",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_people_004",
@@ -34,8 +35,7 @@
             }
         ],
         "emoji": "👫",
-        "oppositeEmoji": "🧍",
-        "transcription": "/ˈvmʲestʲi/",
+        "transcription": "ˈvmʲestʲi",
         "subtext": "",
         "antonyms": [
             "один"
@@ -57,7 +57,8 @@
             }
         ],
         "emoji": "☀️",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_time_010",
@@ -76,7 +77,7 @@
         ],
         "emoji": "📅",
         "subtext": "сегодняшняя встреча, начать сегодня",
-        "transcription": "/sʲiˈvodnʲə/"
+        "transcription": "sʲiˈvodnʲə"
     }
 ];
     const lang = "ru";

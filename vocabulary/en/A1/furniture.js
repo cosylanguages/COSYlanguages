@@ -18,7 +18,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ʧɛr",
         "lang": "en",
         "level": "starter",
@@ -47,7 +46,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈteɪbəl",
         "lang": "en",
         "level": "starter",
@@ -76,7 +74,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "bɛd",
         "lang": "en",
         "level": "starter",
@@ -112,7 +109,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "ki",
         "lang": "en",
         "level": "starter",
@@ -139,7 +135,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "bʊk",
         "lang": "en",
         "level": "starter",
@@ -169,7 +164,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "bæg",
         "lang": "en",
         "level": "starter",
@@ -194,7 +188,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "pɛn",
         "lang": "en",
         "level": "starter",
@@ -218,7 +211,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈɔfəs",
         "lang": "en",
         "level": "starter",
@@ -241,7 +233,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "hoʊm",
         "lang": "en",
         "level": "starter",
@@ -265,7 +256,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "haʊs",
         "lang": "en",
         "level": "starter",
@@ -297,7 +287,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "flæt",
         "lang": "en",
         "level": "starter",
@@ -321,7 +310,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "rum",
         "lang": "en",
         "level": "starter",
@@ -345,7 +333,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈkɪʧən",
         "lang": "en",
         "level": "starter",
@@ -369,7 +356,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "dɔr",
         "lang": "en",
         "level": "starter",
@@ -393,7 +379,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈwɪndoʊ",
         "lang": "en",
         "level": "starter",
@@ -417,7 +402,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "pleɪt",
         "lang": "en",
         "level": "starter",
@@ -441,7 +425,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "kəp",
         "lang": "en",
         "level": "starter",
@@ -465,7 +448,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "glæs",
         "lang": "en",
         "level": "starter",
@@ -489,7 +471,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "fɔrk",
         "lang": "en",
         "level": "starter",
@@ -513,7 +494,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "spun",
         "lang": "en",
         "level": "starter",
@@ -537,7 +517,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "naɪf",
         "lang": "en",
         "level": "starter",
@@ -561,7 +540,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "dɛsk",
         "lang": "en",
         "level": "starter",
@@ -585,7 +563,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "læmp",
         "lang": "en",
         "level": "starter",
@@ -609,7 +586,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "klɑk",
         "lang": "en",
         "level": "starter",
@@ -633,7 +609,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "ˈmɪrər",
         "lang": "en",
         "level": "starter",
@@ -657,7 +632,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "ˈbæθˌrum",
         "lang": "en",
         "level": "starter",
@@ -681,7 +655,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "ˈbɛˌdrum",
         "lang": "en",
         "level": "starter",
@@ -705,7 +678,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "ˈbɑtəl",
         "lang": "en",
         "level": "starter",
@@ -729,7 +701,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "bɑks",
         "lang": "en",
         "level": "starter",
@@ -753,7 +724,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "bæθ",
         "lang": "en",
         "level": "starter",
@@ -777,7 +747,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "ˈpɛnsəl",
         "lang": "en",
         "level": "starter",
@@ -801,7 +770,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "ˈpeɪpər",
         "lang": "en",
         "level": "starter",
@@ -828,7 +796,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "frɪʤ",
         "lang": "en",
         "level": "starter",
@@ -852,7 +819,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "ˈəvən",
         "lang": "en",
         "level": "starter",
@@ -876,7 +842,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "soʊp",
         "lang": "en",
         "level": "starter",
@@ -900,7 +865,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "taʊəl",
         "lang": "en",
         "level": "starter",
@@ -924,7 +888,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "wɔl",
         "lang": "en",
         "level": "starter",
@@ -948,7 +911,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "flɔr",
         "lang": "en",
         "level": "starter",
@@ -972,7 +934,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "stɛrz",
         "lang": "en",
         "level": "starter",
@@ -996,7 +957,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "ʃaʊər",
         "lang": "en",
         "level": "starter",
@@ -1020,7 +980,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "ˈtɔɪlət",
         "lang": "en",
         "level": "starter",
@@ -1044,7 +1003,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "sɪŋk",
         "lang": "en",
         "level": "starter",
@@ -1071,7 +1029,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈsoʊfə",
         "lang": "en",
         "level": "starter",
@@ -1097,7 +1054,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "ʃɛlf",
         "lang": "en",
         "level": "starter",
@@ -1121,7 +1077,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "ˈtuθbrəʃ",
         "lang": "en",
         "level": "starter",
@@ -1145,7 +1100,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "ˈtuθˌpeɪst",
         "lang": "en",
         "level": "starter",
@@ -1169,7 +1123,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "ʃæmˈpu",
         "lang": "en",
         "level": "starter",
@@ -1193,7 +1146,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "dɪʃ",
         "lang": "en",
         "level": "starter",
@@ -1203,7 +1155,6 @@
     {
         "id": "en_starter_rooms_of_a_home_016",
         "word": "garden",
-        "image": "images/vocabulary/actions/to garden.png",
         "emoji": "🏡",
         "form": "noun",
         "classification": "regular",
@@ -1218,7 +1169,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "ˈgɑrdən",
         "lang": "en",
         "level": "starter",
@@ -1242,7 +1192,6 @@
             }
         ],
         "subtext": "related to household items",
-        "opposite": null,
         "transcription": "ˈɑrmˌʧɛr",
         "lang": "en",
         "level": "starter",
@@ -1266,7 +1215,6 @@
             }
         ],
         "subtext": "related to household items",
-        "opposite": null,
         "transcription": "ˈbʊkˌkeɪs",
         "lang": "en",
         "level": "starter",
@@ -1290,7 +1238,6 @@
             }
         ],
         "subtext": "related to household items",
-        "opposite": null,
         "transcription": "ˈkəbərd",
         "lang": "en",
         "level": "starter",
@@ -1314,7 +1261,6 @@
             }
         ],
         "subtext": "related to household items",
-        "opposite": null,
         "transcription": "rəg",
         "lang": "en",
         "level": "starter",
@@ -1338,7 +1284,6 @@
             }
         ],
         "subtext": "related to household items",
-        "opposite": null,
         "transcription": "drɔr",
         "lang": "en",
         "level": "starter",
@@ -1362,7 +1307,6 @@
             }
         ],
         "subtext": "related to kitchen items",
-        "opposite": null,
         "transcription": "boʊl",
         "lang": "en",
         "level": "starter",
@@ -1386,7 +1330,6 @@
             }
         ],
         "subtext": "related to kitchen items",
-        "opposite": null,
         "transcription": "ˈkɛtəl",
         "lang": "en",
         "level": "starter",
@@ -1410,7 +1353,6 @@
             }
         ],
         "subtext": "related to kitchen items",
-        "opposite": null,
         "transcription": "pæn",
         "lang": "en",
         "level": "starter",
@@ -1434,7 +1376,6 @@
             }
         ],
         "subtext": "related to kitchen items",
-        "opposite": null,
         "transcription": "pɑt",
         "lang": "en",
         "level": "starter",
@@ -1458,7 +1399,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "rʊf",
         "lang": "en",
         "level": "starter",
@@ -1482,7 +1422,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "fɛns",
         "lang": "en",
         "level": "starter",
@@ -1506,7 +1445,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "geɪt",
         "lang": "en",
         "level": "starter",
@@ -1530,7 +1468,6 @@
             }
         ],
         "subtext": "related to household items",
-        "opposite": null,
         "transcription": "ˈwɑʃɪŋ məˈʃin",
         "lang": "en",
         "level": "starter",
@@ -1554,7 +1491,6 @@
             }
         ],
         "subtext": "related to household items",
-        "opposite": null,
         "transcription": "ˈtoʊstər",
         "lang": "en",
         "level": "starter",
@@ -1578,7 +1514,6 @@
             }
         ],
         "subtext": "related to household items",
-        "opposite": null,
         "transcription": "rɪˈmoʊt kənˈtroʊl",
         "lang": "en",
         "level": "starter",
@@ -1602,7 +1537,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "ˈlɪvɪŋ rum",
         "lang": "en",
         "level": "starter",
@@ -1626,7 +1560,6 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "opposite": null,
         "transcription": "ˈdaɪnɪŋ rum",
         "lang": "en",
         "level": "starter",
@@ -1651,7 +1584,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈfɜːnɪtʃə(r)",
         "lang": "en",
         "level": "starter",
@@ -1675,7 +1607,6 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "opposite": null,
         "transcription": "koʊm",
         "lang": "en",
         "level": "starter",
@@ -1702,7 +1633,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "əˈpɑrtmənt",
         "lang": "en",
         "level": "starter",
@@ -1820,8 +1750,6 @@
         "word": "put",
         "emoji": "📥",
         "subtext": "put on / put away / put the phone down / put money aside",
-        "opposite": "take",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -1841,7 +1769,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "take"
+        ]
     },
     {
         "id": "en_starter_household_tasks_003",
@@ -1862,12 +1793,14 @@
         "v2": "moved",
         "v3": "moved",
         "group": "regular",
-        "opposite": "stay",
         "transcription": "muv",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "stay"
+        ]
     },
     {
         "id": "en_starter_household_tasks_004",
@@ -1888,12 +1821,14 @@
         "v2": "cleaned",
         "v3": "cleaned",
         "group": "regular",
-        "opposite": "dirty",
         "transcription": "klin",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dirty"
+        ]
     },
     {
         "id": "en_starter_household_tasks_005",
@@ -1915,12 +1850,14 @@
         "v2": "washed",
         "v3": "washed",
         "group": "regular",
-        "opposite": "dirty",
         "transcription": "wɑʃ",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dirty"
+        ]
     },
     {
         "id": "en_starter_household_tasks_006",
@@ -1944,12 +1881,14 @@
         "v2": "fixed",
         "v3": "fixed",
         "group": "regular",
-        "opposite": "break",
         "transcription": "fɪks",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "break"
+        ]
     },
     {
         "id": "en_starter_household_tasks_007",
@@ -1970,19 +1909,19 @@
         "v2": "filled",
         "v3": "filled",
         "group": "regular",
-        "opposite": "empty",
         "transcription": "fɪl",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "empty"
+        ]
     },
     {
         "id": "en_starter_household_tasks_008",
         "word": "dirty",
         "form": "adjective",
-        "opposite": "clean",
-        "oppositeEmoji": "✨",
         "subtext": "dirty hands / dirty clothes / get dirty",
         "definitions": [
             {
@@ -1999,15 +1938,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "clean"
+        ]
     },
     {
         "id": "en_starter_furniture_059",
         "word": "comfortable",
         "emoji": "🛋️",
         "form": "adjective",
-        "opposite": null,
-        "oppositeEmoji": "🪑",
         "subtext": "a comfortable chair / feel comfortable",
         "synonyms": [
             "relaxed",
@@ -2034,8 +1974,6 @@
         "word": "uncomfortable",
         "emoji": "🪑",
         "form": "adjective",
-        "opposite": null,
-        "oppositeEmoji": "🛋️",
         "subtext": "feel uncomfortable / uncomfortable chair",
         "synonyms": [
             "awkward",

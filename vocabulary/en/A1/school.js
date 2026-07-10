@@ -8,8 +8,6 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "students",
-        "opposite": null,
-        "oppositeEmoji": "🧑‍🏫",
         "definitions": [
             {
                 "text": "A person who is studying at a school or university.",
@@ -47,7 +45,6 @@
             }
         ],
         "subtext": "related to learning studying",
-        "opposite": null,
         "transcription": "ˈklæsˌmeɪt",
         "lang": "en",
         "level": "starter",
@@ -71,7 +68,6 @@
             }
         ],
         "subtext": "related to types of education",
-        "opposite": null,
         "transcription": "ˈkɑlɪʤ",
         "lang": "en",
         "level": "starter",
@@ -95,7 +91,6 @@
             }
         ],
         "subtext": "related to classroom language",
-        "opposite": null,
         "transcription": "mæp",
         "lang": "en",
         "level": "starter",
@@ -119,7 +114,6 @@
             }
         ],
         "subtext": "related to classroom language",
-        "opposite": null,
         "transcription": "ˈrulər",
         "lang": "en",
         "level": "starter",
@@ -143,7 +137,6 @@
             }
         ],
         "subtext": "related to school subjects",
-        "opposite": null,
         "transcription": "ˈhɪstəri",
         "lang": "en",
         "level": "starter",
@@ -172,7 +165,6 @@
             }
         ],
         "subtext": "related to school subjects",
-        "opposite": null,
         "transcription": "saɪəns",
         "lang": "en",
         "level": "starter",
@@ -204,7 +196,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "mæθs",
         "lang": "en",
         "level": "starter",
@@ -233,7 +224,6 @@
             }
         ],
         "subtext": "related to school subjects",
-        "opposite": null,
         "transcription": "ʤiˈɑgrəfi",
         "lang": "en",
         "level": "starter",
@@ -262,7 +252,6 @@
             }
         ],
         "subtext": "related to learning studying",
-        "opposite": null,
         "transcription": "ˈlɛsən",
         "lang": "en",
         "level": "starter",
@@ -291,7 +280,6 @@
             }
         ],
         "subtext": "related to learning studying",
-        "opposite": null,
         "transcription": "ˈhoʊmˌwərk",
         "lang": "en",
         "level": "starter",
@@ -315,7 +303,6 @@
             }
         ],
         "subtext": "related to classroom language",
-        "opposite": null,
         "transcription": "ˈdɪkʃəˌnɛri",
         "lang": "en",
         "level": "starter",
@@ -343,7 +330,6 @@
             }
         ],
         "subtext": "related to classroom language",
-        "opposite": null,
         "transcription": "wərd",
         "lang": "en",
         "level": "starter",
@@ -368,7 +354,6 @@
             }
         ],
         "subtext": "related to school stationery",
-        "opposite": null,
         "transcription": "bɔrd",
         "lang": "en",
         "level": "starter",
@@ -395,7 +380,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ɪˈreɪsər",
         "lang": "en",
         "level": "starter",
@@ -419,7 +403,6 @@
             }
         ],
         "subtext": "related to school stationery",
-        "opposite": null,
         "transcription": "ˈpɛnsəl keɪs",
         "lang": "en",
         "level": "starter",
@@ -443,7 +426,6 @@
             }
         ],
         "subtext": "related to school stationery",
-        "opposite": null,
         "transcription": "ˈnoʊtˌbʊk",
         "lang": "en",
         "level": "starter",
@@ -467,7 +449,6 @@
             }
         ],
         "subtext": "related to school stationery",
-        "opposite": null,
         "transcription": "ˈtɛkstˌbʊk",
         "lang": "en",
         "level": "starter",
@@ -491,7 +472,6 @@
             }
         ],
         "subtext": "related to school stationery",
-        "opposite": null,
         "transcription": "ˈbækˌpæk",
         "lang": "en",
         "level": "starter",
@@ -515,7 +495,6 @@
             }
         ],
         "subtext": "related to classroom language",
-        "opposite": null,
         "transcription": "ˈpoʊstər",
         "lang": "en",
         "level": "starter",
@@ -539,7 +518,6 @@
             }
         ],
         "subtext": "related to classroom language",
-        "opposite": null,
         "transcription": "ˈsɛntəns",
         "lang": "en",
         "level": "starter",
@@ -563,7 +541,6 @@
             }
         ],
         "subtext": "related to classroom language",
-        "opposite": null,
         "transcription": "peɪʤ",
         "lang": "en",
         "level": "starter",
@@ -587,7 +564,6 @@
             }
         ],
         "subtext": "related to school stationery",
-        "opposite": null,
         "transcription": "ˈɛnvəˌloʊp",
         "lang": "en",
         "level": "starter",
@@ -611,7 +587,6 @@
             }
         ],
         "subtext": "related to school stationery",
-        "opposite": null,
         "transcription": "stæmp",
         "lang": "en",
         "level": "starter",
@@ -635,7 +610,6 @@
             }
         ],
         "subtext": "related to school stationery",
-        "opposite": null,
         "transcription": "ˈsteɪpələr",
         "lang": "en",
         "level": "starter",
@@ -659,7 +633,6 @@
             }
         ],
         "subtext": "related to school stationery",
-        "opposite": null,
         "transcription": "glu",
         "lang": "en",
         "level": "starter",
@@ -683,7 +656,6 @@
             }
         ],
         "subtext": "related to school stationery",
-        "opposite": null,
         "transcription": "ˈsɪzərz",
         "lang": "en",
         "level": "starter",
@@ -707,7 +679,6 @@
             }
         ],
         "subtext": "related to school stationery",
-        "opposite": null,
         "transcription": "ˈkælkjəˌleɪtər",
         "lang": "en",
         "level": "starter",
@@ -731,7 +702,6 @@
             }
         ],
         "subtext": "related to classroom language",
-        "opposite": null,
         "transcription": "gloʊb",
         "lang": "en",
         "level": "starter",
@@ -755,7 +725,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ɪgˈzæm",
         "lang": "en",
         "level": "starter",
@@ -779,7 +748,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ɪgˈzæmpəl",
         "lang": "en",
         "level": "starter",
@@ -803,7 +771,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "tɛst",
         "lang": "en",
         "level": "starter",
@@ -827,7 +794,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˌjunəˈvərsəti",
         "lang": "en",
         "level": "starter",
@@ -856,7 +822,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "skɪl",
         "lang": "en",
         "level": "starter",
@@ -880,7 +845,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "klæs",
         "lang": "en",
         "level": "starter",
@@ -904,7 +868,6 @@
             }
         ],
         "subtext": "related to classroom language",
-        "opposite": null,
         "transcription": "ˈklæsˌrum",
         "lang": "en",
         "level": "starter",
@@ -953,20 +916,20 @@
         "v2": "tried",
         "v3": "tried",
         "group": "regular",
-        "opposite": "give up",
         "transcription": "traɪ",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "give up"
+        ]
     },
     {
         "id": "en_starter_learning_studying_010",
         "word": "write",
         "emoji": "✍️",
         "subtext": "write to, write an email / write a report / write a letter / write notes",
-        "opposite": "read",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -986,16 +949,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "read"
+        ]
     },
     {
         "id": "en_starter_learning_studying_011",
         "word": "read",
-        "image": "images/vocabulary/actions/to read.png",
         "emoji": "📖",
         "subtext": "read a book / read the news / read a contract / read carefully",
-        "opposite": "write",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -1015,7 +978,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "write"
+        ]
     },
     {
         "id": "en_starter_learning_studying_012",
@@ -1037,12 +1003,14 @@
         "v2": "listened",
         "v3": "listened",
         "group": "regular",
-        "opposite": "say",
         "transcription": "ˈlɪsən",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "say"
+        ]
     },
     {
         "id": "en_starter_language_011",
@@ -1064,12 +1032,14 @@
         "v2": "repeated",
         "v3": "repeated",
         "group": "regular",
-        "opposite": "change",
         "transcription": "rɪˈpit",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "change"
+        ]
     },
     {
         "id": "en_starter_learning_studying_013",
@@ -1092,20 +1062,20 @@
         "v2": "knew",
         "v3": "known",
         "group": "irregular",
-        "opposite": "wonder",
         "transcription": "noʊ",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "wonder"
+        ]
     },
     {
         "id": "en_starter_learning_studying_014",
         "word": "remember",
         "emoji": "🧠",
         "subtext": "remember to do / remember a name / remember clearly",
-        "opposite": "forget",
-        "oppositeEmoji": "🤔",
         "form": "verb",
         "definitions": [
             {
@@ -1125,15 +1095,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "forget"
+        ]
     },
     {
         "id": "en_starter_learning_studying_015",
         "word": "forget",
         "emoji": "🤔",
         "subtext": "forget a name / forget to do / forget about / completely forget",
-        "opposite": "remember",
-        "oppositeEmoji": "🧠",
         "form": "verb",
         "definitions": [
             {
@@ -1153,15 +1124,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "remember"
+        ]
     },
     {
         "id": "en_starter_learning_studying_016",
         "word": "learn",
         "emoji": "📚",
         "subtext": "learn a language / learn a skill / learn from / learn how to",
-        "opposite": "teach",
-        "oppositeEmoji": "👨‍🏫",
         "form": "verb",
         "definitions": [
             {
@@ -1180,15 +1152,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "teach"
+        ]
     },
     {
         "id": "en_starter_learning_studying_017",
         "word": "pass",
         "emoji": "🏔️",
         "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
-        "opposite": "fail",
-        "oppositeEmoji": "❌",
         "form": "verb",
         "definitions": [
             {
@@ -1208,7 +1181,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "fail"
+        ]
     },
     {
         "id": "en_starter_learning_studying_018",
@@ -1229,12 +1205,14 @@
         "v2": "studied",
         "v3": "studied",
         "group": "regular",
-        "opposite": "play",
         "transcription": "ˈstədi",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "play"
+        ]
     },
     {
         "id": "en_starter_learning_studying_019",
@@ -1255,12 +1233,14 @@
         "v2": "taught",
         "v3": "taught",
         "group": "irregular",
-        "opposite": "learn",
         "transcription": "tiʧ",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "learn"
+        ]
     },
     {
         "id": "en_starter_learning_studying_020",
@@ -1281,12 +1261,14 @@
         "v2": "meant",
         "v3": "meant",
         "group": "irregular",
-        "opposite": "nonsense",
         "transcription": "min",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "nonsense"
+        ]
     },
     {
         "id": "en_starter_language_012",
@@ -1310,12 +1292,14 @@
         "v2": "spelled / spelt",
         "v3": "spelled / spelt",
         "group": "irregular",
-        "opposite": "misspell",
         "transcription": "spɛl",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "misspell"
+        ]
     },
     {
         "id": "en_starter_language_013",
@@ -1340,12 +1324,14 @@
         "v2": "pointed",
         "v3": "pointed",
         "group": "regular",
-        "opposite": "hide",
         "transcription": "pɔɪnt",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "hide"
+        ]
     },
     {
         "id": "en_starter_language_014",
@@ -1369,12 +1355,14 @@
         "v2": "shouted",
         "v3": "shouted",
         "group": "regular",
-        "opposite": "whisper",
         "transcription": "ʃaʊt",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "whisper"
+        ]
     },
     {
         "id": "en_starter_language_015",
@@ -1398,12 +1386,14 @@
         "v2": "ticked",
         "v3": "ticked",
         "group": "regular",
-        "opposite": "cross",
         "transcription": "tɪk",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "cross"
+        ]
     },
     {
         "id": "en_starter_language_016",
@@ -1427,12 +1417,14 @@
         "v2": "crossed",
         "v3": "crossed",
         "group": "regular",
-        "opposite": "tick",
         "transcription": "krɔs",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "tick"
+        ]
     },
     {
         "id": "en_starter_language_017",
@@ -1456,12 +1448,14 @@
         "v2": "coloured",
         "v3": "coloured",
         "group": "regular",
-        "opposite": "erase",
         "transcription": "ˈkələr",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "erase"
+        ]
     },
     {
         "id": "en_starter_language_018",
@@ -1486,12 +1480,14 @@
         "v2": "whispered",
         "v3": "whispered",
         "group": "regular",
-        "opposite": "shout",
         "transcription": "ˈwɪspər",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "shout"
+        ]
     },
     {
         "id": "en_starter_language_019",

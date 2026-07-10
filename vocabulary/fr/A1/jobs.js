@@ -1,8 +1,7 @@
 (function() {
     const data = [
-{
+    {
         "word": "médecin",
-        "image": "images/vocabulary/jobs/doctor.png",
         "level": "starter",
         "theme": "jobs",
         "article": "le",
@@ -10,7 +9,9 @@
         "numberPlural": "2 médecin",
         "answer": "deux médecins",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "me.dsɛ̃",
         "plural": "médecins",
         "subtext": "voir un médecin, médecin de famille",
@@ -22,16 +23,20 @@
                     "Je dois voir un médecin."
                 ]
             }
-        ]
+        ],
+        "id": "fr_starter_jobs_001",
+        "lang": "fr"
     },
-{
+    {
         "word": "professeur",
         "level": "starter",
         "theme": "jobs",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑‍🏫",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "pʁɔ.fɛ.sœʁ",
         "plural": "professeurs",
         "subtext": "professeur de français, professeur d'école",
@@ -43,15 +48,19 @@
                     "C'est un bon professeur."
                 ]
             }
-        ]
+        ],
+        "id": "fr_starter_jobs_002",
+        "lang": "fr"
     },
-{
+    {
         "word": "patron",
         "level": "starter",
         "theme": "work",
         "article": "le",
         "emoji": "👨‍💼",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "patrons",
         "definitions": [
             {
@@ -61,15 +70,19 @@
                 ]
             }
         ],
-        "transcription": "/pa.tʁɔ̃/"
+        "transcription": "pa.tʁɔ̃",
+        "id": "fr_starter_jobs_003",
+        "lang": "fr"
     },
-{
+    {
         "word": "collègue",
         "level": "starter",
         "theme": "work",
         "article": "le",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "collègues",
         "definitions": [
             {
@@ -79,15 +92,19 @@
                 ]
             }
         ],
-        "transcription": "/kɔ.lɛɡ/"
+        "transcription": "kɔ.lɛɡ",
+        "id": "fr_starter_jobs_004",
+        "lang": "fr"
     },
-{
+    {
         "word": "réunion",
         "level": "starter",
         "theme": "work",
         "article": "la",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "réunions",
         "subtext": "",
         "synonyms": [
@@ -102,15 +119,19 @@
                 ]
             }
         ],
-        "transcription": "/ʁe.y.njɔ̃/"
+        "transcription": "ʁe.y.njɔ̃",
+        "id": "fr_starter_jobs_005",
+        "lang": "fr"
     },
-{
+    {
         "word": "sommeil",
         "level": "starter",
         "theme": "work",
         "article": "le",
         "emoji": "😴",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sommeils",
         "definitions": [
             {
@@ -120,16 +141,20 @@
                 ]
             }
         ],
-        "transcription": "/sɔ.mɛj/"
+        "transcription": "sɔ.mɛj",
+        "id": "fr_starter_jobs_006",
+        "lang": "fr"
     },
-{
+    {
         "word": "infirmier",
         "level": "starter",
         "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "infirmiers",
         "definitions": [
             {
@@ -139,16 +164,20 @@
                 ]
             }
         ],
-        "transcription": "/ɛ̃.fiʁ.mje/"
+        "transcription": "ɛ̃.fiʁ.mje",
+        "id": "fr_starter_jobs_007",
+        "lang": "fr"
     },
-{
+    {
         "word": "conducteur",
         "level": "starter",
         "theme": "jobs",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "conducteurs",
         "definitions": [
             {
@@ -158,16 +187,20 @@
                 ]
             }
         ],
-        "transcription": "/kɔ̃.dyk.tœʁ/"
+        "transcription": "kɔ̃.dyk.tœʁ",
+        "id": "fr_starter_jobs_008",
+        "lang": "fr"
     },
-{
+    {
         "word": "chef",
         "level": "starter",
         "theme": "jobs",
         "article": "le",
         "gender": "masculine",
         "emoji": "👨‍🍳",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chefs",
         "definitions": [
             {
@@ -177,16 +210,20 @@
                 ]
             }
         ],
-        "transcription": "/ʃɛf/"
+        "transcription": "ʃɛf",
+        "id": "fr_starter_jobs_009",
+        "lang": "fr"
     },
-{
+    {
         "word": "directeur",
         "level": "starter",
         "theme": "jobs",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "directeurs",
         "definitions": [
             {
@@ -196,16 +233,20 @@
                 ]
             }
         ],
-        "transcription": "/di.ʁɛk.tœʁ/"
+        "transcription": "di.ʁɛk.tœʁ",
+        "id": "fr_starter_jobs_010",
+        "lang": "fr"
     },
-{
+    {
         "word": "acteur",
         "level": "starter",
         "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "acteurs",
         "definitions": [
             {
@@ -215,16 +256,20 @@
                 ]
             }
         ],
-        "transcription": "/ak.tœʁ/"
+        "transcription": "ak.tœʁ",
+        "id": "fr_starter_jobs_011",
+        "lang": "fr"
     },
-{
+    {
         "word": "artiste",
         "level": "starter",
         "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "artistes",
         "definitions": [
             {
@@ -234,16 +279,20 @@
                 ]
             }
         ],
-        "transcription": "/aʁ.tist/"
+        "transcription": "aʁ.tist",
+        "id": "fr_starter_jobs_012",
+        "lang": "fr"
     },
-{
+    {
         "word": "affaires",
         "level": "starter",
         "theme": "work",
         "article": "les",
         "gender": "feminine",
         "emoji": "💼",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "affaires",
         "definitions": [
             {
@@ -253,17 +302,20 @@
                 ]
             }
         ],
-        "transcription": "/a.fɛʁ/"
+        "transcription": "a.fɛʁ",
+        "id": "fr_starter_jobs_013",
+        "lang": "fr"
     },
-{
+    {
         "word": "travail",
-        "image": "images/vocabulary/actions/to go to work.png",
         "level": "starter",
         "theme": "work",
         "article": "le",
         "gender": "masculine",
         "emoji": "💼",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "travaux",
         "definitions": [
             {
@@ -273,16 +325,20 @@
                 ]
             }
         ],
-        "transcription": "/tʁa.vaj/"
+        "transcription": "tʁa.vaj",
+        "id": "fr_starter_jobs_014",
+        "lang": "fr"
     },
-{
+    {
         "word": "boulot",
         "level": "starter",
         "theme": "work",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛠️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "boulots",
         "definitions": [
             {
@@ -292,16 +348,20 @@
                 ]
             }
         ],
-        "transcription": "/bu.lo/"
+        "transcription": "bu.lo",
+        "id": "fr_starter_jobs_015",
+        "lang": "fr"
     },
-{
+    {
         "word": "métier",
         "level": "starter",
         "theme": "jobs",
         "article": "le",
         "gender": "masculine",
         "emoji": "👔",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "métiers",
         "definitions": [
             {
@@ -311,16 +371,20 @@
                 ]
             }
         ],
-        "transcription": "/me.tje/"
+        "transcription": "me.tje",
+        "id": "fr_starter_jobs_016",
+        "lang": "fr"
     },
-{
+    {
         "word": "entreprise",
         "level": "starter",
         "theme": "work",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "entreprises",
         "definitions": [
             {
@@ -330,16 +394,20 @@
                 ]
             }
         ],
-        "transcription": "/ɑ̃.tʁə.pʁiz/"
+        "transcription": "ɑ̃.tʁə.pʁiz",
+        "id": "fr_starter_jobs_017",
+        "lang": "fr"
     },
-{
+    {
         "word": "client",
         "level": "starter",
         "theme": "work",
         "article": "le",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "clients",
         "definitions": [
             {
@@ -349,16 +417,20 @@
                 ]
             }
         ],
-        "transcription": "/kli.jɑ̃/"
+        "transcription": "kli.jɑ̃",
+        "id": "fr_starter_jobs_018",
+        "lang": "fr"
     },
-{
+    {
         "word": "projet",
         "level": "starter",
         "theme": "work",
         "article": "le",
         "gender": "masculine",
         "emoji": "📊",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "projets",
         "definitions": [
             {
@@ -368,16 +440,20 @@
                 ]
             }
         ],
-        "transcription": "/pʁɔ.ʒɛ/"
+        "transcription": "pʁɔ.ʒɛ",
+        "id": "fr_starter_jobs_019",
+        "lang": "fr"
     },
-{
+    {
         "word": "réussite",
         "level": "starter",
         "theme": "work",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏆",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "réussites",
         "definitions": [
             {
@@ -387,16 +463,20 @@
                 ]
             }
         ],
-        "transcription": "/ʁe.y.sit/"
+        "transcription": "ʁe.y.sit",
+        "id": "fr_starter_jobs_020",
+        "lang": "fr"
     },
-{
+    {
         "word": "service",
         "level": "starter",
         "theme": "work",
         "article": "le",
         "gender": "masculine",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "services",
         "definitions": [
             {
@@ -406,16 +486,20 @@
                 ]
             }
         ],
-        "transcription": "/sɛʁ.vis/"
+        "transcription": "sɛʁ.vis",
+        "id": "fr_starter_jobs_021",
+        "lang": "fr"
     },
-{
+    {
         "word": "clientèle",
         "level": "starter",
         "theme": "work",
         "article": "la",
         "gender": "feminine",
         "emoji": "👥",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -425,14 +509,18 @@
                 ]
             }
         ],
-        "transcription": "/kli.jɑ̃.tɛl/"
+        "transcription": "kli.jɑ̃.tɛl",
+        "id": "fr_starter_jobs_022",
+        "lang": "fr"
     },
-{
+    {
         "word": "pilote",
         "level": "starter",
         "theme": "jobs",
         "emoji": "👨‍✈️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "pilotes",
@@ -445,14 +533,18 @@
                 ]
             }
         ],
-        "transcription": "pilɔt"
+        "transcription": "pilɔt",
+        "id": "fr_starter_jobs_023",
+        "lang": "fr"
     },
-{
+    {
         "word": "serveur",
         "level": "starter",
         "theme": "jobs",
         "emoji": "🤵",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "serveurs",
@@ -465,14 +557,18 @@
                 ]
             }
         ],
-        "transcription": "sɛʁvœʁ"
+        "transcription": "sɛʁvœʁ",
+        "id": "fr_starter_jobs_024",
+        "lang": "fr"
     },
-{
+    {
         "word": "dentiste",
         "level": "starter",
         "theme": "jobs",
         "emoji": "🦷",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "dentistes",
@@ -485,14 +581,18 @@
                 ]
             }
         ],
-        "transcription": "dɑ̃tist"
+        "transcription": "dɑ̃tist",
+        "id": "fr_starter_jobs_025",
+        "lang": "fr"
     },
-{
+    {
         "word": "policier",
         "level": "starter",
         "theme": "jobs",
         "emoji": "👮",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "policiers",
@@ -505,14 +605,18 @@
                 ]
             }
         ],
-        "transcription": "pɔlisje"
+        "transcription": "pɔlisje",
+        "id": "fr_starter_jobs_026",
+        "lang": "fr"
     },
-{
+    {
         "word": "pompier",
         "level": "starter",
         "theme": "jobs",
         "emoji": "👨‍🚒",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "pompiers",
@@ -525,14 +629,18 @@
                 ]
             }
         ],
-        "transcription": "pɔ̃pje"
+        "transcription": "pɔ̃pje",
+        "id": "fr_starter_jobs_027",
+        "lang": "fr"
     },
-{
+    {
         "word": "soldat",
         "level": "starter",
         "theme": "jobs",
         "emoji": "🪖",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "soldats",
@@ -545,14 +653,18 @@
                 ]
             }
         ],
-        "transcription": "sɔlda"
+        "transcription": "sɔlda",
+        "id": "fr_starter_jobs_028",
+        "lang": "fr"
     },
-{
+    {
         "word": "écrivain",
         "level": "starter",
         "theme": "jobs",
         "emoji": "✍️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "l'",
         "plural": "écrivains",
@@ -565,14 +677,18 @@
                 ]
             }
         ],
-        "transcription": "ekʁivɛ̃"
+        "transcription": "ekʁivɛ̃",
+        "id": "fr_starter_jobs_029",
+        "lang": "fr"
     },
-{
+    {
         "word": "ingénieur",
         "level": "starter",
         "theme": "jobs",
         "emoji": "👷",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "l'",
         "plural": "ingénieurs",
@@ -585,14 +701,18 @@
                 ]
             }
         ],
-        "transcription": "ɛ̃ʒenjœʁ"
+        "transcription": "ɛ̃ʒenjœʁ",
+        "id": "fr_starter_jobs_030",
+        "lang": "fr"
     },
-{
+    {
         "word": "secrétaire",
         "level": "starter",
         "theme": "jobs",
         "emoji": "⌨️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "secrétaires",
@@ -605,9 +725,11 @@
                 ]
             }
         ],
-        "transcription": "səkʁetɛʁ"
+        "transcription": "səkʁetɛʁ",
+        "id": "fr_starter_jobs_031",
+        "lang": "fr"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

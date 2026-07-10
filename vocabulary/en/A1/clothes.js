@@ -18,7 +18,6 @@
             }
         ],
         "subtext": "related to accessories",
-        "opposite": null,
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -42,7 +41,6 @@
             }
         ],
         "subtext": "related to accessories",
-        "opposite": null,
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -66,7 +64,6 @@
             }
         ],
         "subtext": "related to accessories",
-        "opposite": null,
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -90,7 +87,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -118,7 +114,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈdʒækɪt",
         "lang": "en",
         "level": "starter",
@@ -146,7 +141,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ʃɜːt",
         "lang": "en",
         "level": "starter",
@@ -174,7 +168,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈtiˌsərt",
         "lang": "en",
         "level": "starter",
@@ -201,7 +194,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "pænts",
         "lang": "en",
         "level": "starter",
@@ -230,7 +222,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ʃu",
         "lang": "en",
         "level": "starter",
@@ -258,7 +249,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "hæt",
         "lang": "en",
         "level": "starter",
@@ -282,7 +272,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "koʊt",
         "lang": "en",
         "level": "starter",
@@ -306,7 +295,6 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "opposite": null,
         "transcription": "sɑks",
         "lang": "en",
         "level": "starter",
@@ -333,7 +321,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "sˈwɛtər",
         "lang": "en",
         "level": "starter",
@@ -357,7 +344,6 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "opposite": null,
         "transcription": "drɛs",
         "lang": "en",
         "level": "starter",
@@ -381,7 +367,6 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "opposite": null,
         "transcription": "skərt",
         "lang": "en",
         "level": "starter",
@@ -405,7 +390,6 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "opposite": null,
         "transcription": "buts",
         "lang": "en",
         "level": "starter",
@@ -429,7 +413,6 @@
             }
         ],
         "subtext": "related to accessories",
-        "opposite": null,
         "transcription": "ˈglæsɪz",
         "lang": "en",
         "level": "starter",
@@ -453,7 +436,6 @@
             }
         ],
         "subtext": "related to accessories",
-        "opposite": null,
         "transcription": "wɔʧ",
         "lang": "en",
         "level": "starter",
@@ -477,7 +459,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ʤinz",
         "lang": "en",
         "level": "starter",
@@ -506,7 +487,6 @@
             }
         ],
         "subtext": "related to accessories",
-        "opposite": null,
         "transcription": "bɛlt",
         "lang": "en",
         "level": "starter",
@@ -530,7 +510,6 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "opposite": null,
         "transcription": "taɪ",
         "lang": "en",
         "level": "starter",
@@ -554,7 +533,6 @@
             }
         ],
         "subtext": "related to accessories",
-        "opposite": null,
         "transcription": "rɪŋ",
         "lang": "en",
         "level": "starter",
@@ -578,7 +556,6 @@
             }
         ],
         "subtext": "related to accessories",
-        "opposite": null,
         "transcription": "ˈnɛkləs",
         "lang": "en",
         "level": "starter",
@@ -602,7 +579,6 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "opposite": null,
         "transcription": "pəˈdʒɑːməz",
         "lang": "en",
         "level": "starter",
@@ -631,7 +607,6 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "opposite": null,
         "transcription": "ʃɔrts",
         "lang": "en",
         "level": "starter",
@@ -658,7 +633,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈtreɪnərz",
         "lang": "en",
         "level": "starter",
@@ -683,7 +657,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "🇬🇧 kləʊðz | 🇺🇸 kloʊðz",
         "lang": "en",
         "level": "starter",
@@ -707,7 +680,6 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "opposite": null,
         "transcription": "ˈpɑkət",
         "lang": "en",
         "level": "starter",
@@ -731,7 +703,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ʃuz",
         "lang": "en",
         "level": "starter",
@@ -755,7 +726,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈʤuəlri",
         "lang": "en",
         "level": "starter",
@@ -782,12 +752,14 @@
         "v2": "wore",
         "v3": "worn",
         "group": "irregular",
-        "opposite": "undress",
         "transcription": "wɛr",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "undress"
+        ]
     },
     {
         "id": "en_starter_items_of_clothing_023",
@@ -808,12 +780,14 @@
         "v2": "fitted",
         "v3": "fitted",
         "group": "regular",
-        "opposite": "unfit",
         "transcription": "fɪt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unfit"
+        ]
     }
 ];
     const lang = "en";

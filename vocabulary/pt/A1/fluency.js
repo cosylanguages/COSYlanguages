@@ -21,7 +21,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_people_001"
+        "id": "pt_starter_people_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Sua casa",
@@ -44,7 +46,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_furniture_005"
+        "id": "pt_starter_furniture_005",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Sua comida favorita",
@@ -67,7 +71,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_food_drink_009"
+        "id": "pt_starter_food_drink_009",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Sua rotina matinal",
@@ -90,7 +96,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_work_003"
+        "id": "pt_starter_work_003",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Seu animal de estimação ou um animal que você quer",
@@ -113,7 +121,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_animals_001"
+        "id": "pt_starter_animals_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Um esporte que você gosta",
@@ -136,7 +146,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_social_010"
+        "id": "pt_starter_social_010",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "O que você faz nos fins de semana",
@@ -159,7 +171,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_social_011"
+        "id": "pt_starter_social_011",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Sua estação favorita",
@@ -182,7 +196,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_nature_005"
+        "id": "pt_starter_nature_005",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Seu melhor amigo",
@@ -205,7 +221,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_people_002"
+        "id": "pt_starter_people_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Seu trabalho ou escola",
@@ -228,7 +246,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_jobs_001"
+        "id": "pt_starter_jobs_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Coisas que você gosta e não gosta",
@@ -251,7 +271,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_emotions_001"
+        "id": "pt_starter_emotions_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Sua cor favorita e por quê",
@@ -274,7 +296,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_colours_001"
+        "id": "pt_starter_colours_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Números na sua vida",
@@ -297,7 +321,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_numbers_001"
+        "id": "pt_starter_numbers_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Sua bebida favorita",
@@ -320,7 +346,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_food_drink_010"
+        "id": "pt_starter_food_drink_010",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Seu país",
@@ -343,7 +371,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_places_001"
+        "id": "pt_starter_places_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Coisas no seu quarto",
@@ -366,7 +396,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_furniture_006"
+        "id": "pt_starter_furniture_006",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Seu dia típico",
@@ -389,7 +421,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_work_004"
+        "id": "pt_starter_work_004",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Coisas que você pode ver da sua janela",
@@ -412,7 +446,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_furniture_007"
+        "id": "pt_starter_furniture_007",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Música que você gosta",
@@ -435,7 +471,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_music_001"
+        "id": "pt_starter_music_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Seu lugar favorito na sua cidade",
@@ -458,7 +496,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_places_002"
+        "id": "pt_starter_places_002",
+        "emoji": "✨",
+        "transcription": ""
     }
 ];
     const lang = "pt";

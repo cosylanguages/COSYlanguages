@@ -756,7 +756,9 @@
                 "text": "to be",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_describing_002",
@@ -875,7 +877,9 @@
                 "text": "to have",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_describing_003",
@@ -994,7 +998,9 @@
                 "text": "to work",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_describing_004",
@@ -1113,7 +1119,9 @@
                 "text": "to do",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_describing_005",
@@ -1232,7 +1240,9 @@
                 "text": "to go",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_describing_006",
@@ -1351,7 +1361,9 @@
                 "text": "to eat",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_describing_007",
@@ -1470,7 +1482,9 @@
                 "text": "to speak",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     }
 ]
     const lang = "en";

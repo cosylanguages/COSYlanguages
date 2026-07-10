@@ -23,7 +23,10 @@
         "v2": "էր/էին",
         "v3": "եղել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_001",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ունենալ",
@@ -46,7 +49,10 @@
         "v2": "ուներ",
         "v3": "ունեցել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_002",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "զգալ",
@@ -68,7 +74,10 @@
         "v2": "զգաց",
         "v3": "զգացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_003",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "տալ",
@@ -76,8 +85,6 @@
         "theme": "shopping",
         "emoji": "🎁",
         "subtext": "աշխատանք տալ / փող տալ / խորհուրդ տալ",
-        "opposite": "վերցնել",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -92,7 +99,13 @@
         "v2": "տվեց",
         "v3": "տվել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_004",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "վերցնել"
+        ]
     },
     {
         "word": "վերցնել",
@@ -104,8 +117,6 @@
             "ավտոբուս նստել",
             "տաքսի նստել"
         ],
-        "opposite": "տալ",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -120,7 +131,13 @@
         "v2": "վերցրեց",
         "v3": "վերցրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_005",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "տալ"
+        ]
     },
     {
         "word": "ստանալ",
@@ -142,7 +159,10 @@
         "v2": "ստացավ",
         "v3": "ստացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_006",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "դնել",
@@ -164,7 +184,10 @@
         "v2": "դրեց",
         "v3": "դրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_007",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "պատրաստել",
@@ -189,7 +212,10 @@
         "v2": "պատրաստեց",
         "v3": "պատրաստել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_008",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "անել",
@@ -211,7 +237,10 @@
         "v2": "արեց",
         "v3": "արել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_009",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "օգտագործել",
@@ -233,7 +262,10 @@
         "v2": "օգտագործեց",
         "v3": "օգտագործել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_010",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "բացել",
@@ -241,8 +273,6 @@
         "theme": "shopping",
         "emoji": "📖",
         "subtext": "դուռը բացել / գրասենյակը բացել / պատուհանը բացել",
-        "opposite": "փակել",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -257,7 +287,13 @@
         "v2": "բացեց",
         "v3": "բացել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_011",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "փակել"
+        ]
     },
     {
         "word": "փակել",
@@ -265,8 +301,6 @@
         "theme": "shopping",
         "emoji": "🔒",
         "subtext": "դուռը փակել / գրասենյակը փակել / աչքերը փակել",
-        "opposite": "բացել",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -281,7 +315,13 @@
         "v2": "փակեց",
         "v3": "փակել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_012",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "բացել"
+        ]
     },
     {
         "word": "սկսել",
@@ -289,8 +329,6 @@
         "theme": "work",
         "emoji": "▶️",
         "subtext": "աշխատանքը սկսել / դասը սկսել / օրը սկսել",
-        "opposite": "ավարտել",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -305,7 +343,13 @@
         "v2": "սկսեց",
         "v3": "սկսել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_013",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "ավարտել"
+        ]
     },
     {
         "word": "ավարտել",
@@ -313,8 +357,6 @@
         "theme": "work",
         "emoji": "🏁",
         "subtext": "աշխատանքը ավարտել / նախագիծը ավարտել",
-        "opposite": "սկսել",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -329,7 +371,13 @@
         "v2": "ավարտեց",
         "v3": "ավարտել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_014",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "սկսել"
+        ]
     },
     {
         "word": "օգնել",
@@ -351,7 +399,10 @@
         "v2": "օգնեց",
         "v3": "օգնել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_015",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "փորձել",
@@ -373,7 +424,10 @@
         "v2": "փորձեց",
         "v3": "փորձել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_016",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ցույց տալ",
@@ -395,7 +449,10 @@
         "v2": "ցույց տվեց",
         "v3": "ցույց տվել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_017",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "գտնել",
@@ -417,7 +474,10 @@
         "v2": "գտավ",
         "v3": "գտել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_018",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "պահել",
@@ -439,7 +499,10 @@
         "v2": "պահեց",
         "v3": "պահել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_019",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "կորցնել",
@@ -447,8 +510,6 @@
         "theme": "shopping",
         "emoji": "📉",
         "subtext": "բանալիները կորցնել / ժամանակ կորցնել",
-        "opposite": "հաղթել",
-        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -463,7 +524,13 @@
         "v2": "կորցրեց",
         "v3": "կորցրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_020",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "հաղթել"
+        ]
     },
     {
         "word": "կտրել",
@@ -485,7 +552,10 @@
         "v2": "կտրեց",
         "v3": "կտրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_021",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "պտտել",
@@ -511,7 +581,10 @@
         "v2": "turned",
         "v3": "պտտել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_022",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "բերել",
@@ -533,7 +606,10 @@
         "v2": "բերեց",
         "v3": "բերել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_023",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ասել",
@@ -555,7 +631,10 @@
         "v2": "ասաց",
         "v3": "ասել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_024",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "պատմել",
@@ -577,7 +656,10 @@
         "v2": "պատմեց",
         "v3": "պատմել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_025",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "հարցնել",
@@ -602,7 +684,10 @@
         "v2": "հարցրեց",
         "v3": "հարցրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_026",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "խոսել",
@@ -624,7 +709,10 @@
         "v2": "խոսեց",
         "v3": "խոսել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_027",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "զրուցել",
@@ -646,7 +734,10 @@
         "v2": "զրուցեց",
         "v3": "զրուցել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_028",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "զանգել",
@@ -668,7 +759,10 @@
         "v2": "called",
         "v3": "զանգել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_029",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "գրել",
@@ -676,8 +770,6 @@
         "theme": "school",
         "emoji": "✍️",
         "subtext": "նամակ գրել / անունը գրել",
-        "opposite": "կարդալ",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -692,7 +784,13 @@
         "v2": "գրեց",
         "v3": "գրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_030",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "կարդալ"
+        ]
     },
     {
         "word": "կարդալ",
@@ -700,8 +798,6 @@
         "theme": "school",
         "emoji": "📖",
         "subtext": "գիրք կարդալ / լուրեր կարդալ",
-        "opposite": "գրել",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -716,7 +812,13 @@
         "v2": "կարդաց",
         "v3": "կարդացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_031",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "գրել"
+        ]
     },
     {
         "word": "լսել",
@@ -738,7 +840,10 @@
         "v2": "լսեց",
         "v3": "լսել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_032",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "պատասխանել",
@@ -760,7 +865,10 @@
         "v2": "պատասխανեց",
         "v3": "պատասխանել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_033",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "կրկնել",
@@ -782,7 +890,10 @@
         "v2": "կրկնեց",
         "v3": "կրկնել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_034",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "գնալ",
@@ -804,7 +915,10 @@
         "v2": "գնաց",
         "v3": "գնացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_035",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "գալ",
@@ -812,8 +926,6 @@
         "theme": "travel",
         "emoji": "🏃‍♂️",
         "subtext": "տուն գալ / գրասենյակ գալ",
-        "opposite": "գնալ",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -828,7 +940,13 @@
         "v2": "եկավ",
         "v3": "եկել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_036",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "գնալ"
+        ]
     },
     {
         "word": "քայլել",
@@ -850,7 +968,10 @@
         "v2": "քայլեց",
         "v3": "քայլել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_037",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "վարել",
@@ -872,7 +993,10 @@
         "v2": "վարեց",
         "v3": "վարել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_038",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "թռչել",
@@ -894,7 +1018,10 @@
         "v2": "թռավ",
         "v3": "թռել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_039",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ժամանել",
@@ -916,7 +1043,10 @@
         "v2": "ժամանեց",
         "v3": "ժամանել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_040",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "հեռանալ",
@@ -941,7 +1071,10 @@
         "v2": "հեռացավ",
         "v3": "հեռացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_041",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "տեղափոխվել",
@@ -963,7 +1096,10 @@
         "v2": "տեղափոխվեց",
         "v3": "տեղափոխվել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_042",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "վերադառնալ",
@@ -985,7 +1121,10 @@
         "v2": "վերադարձավ",
         "v3": "վերադարձել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_043",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ճամփորդել",
@@ -1007,7 +1146,10 @@
         "v2": "ճամփորդեց",
         "v3": "ճամփորդել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_044",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ուտել",
@@ -1015,8 +1157,6 @@
         "theme": "food_drink",
         "emoji": "🍎",
         "subtext": "ճաշ ուտել / խնձոր ուտել",
-        "opposite": "խմել",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1031,7 +1171,13 @@
         "v2": "կերավ",
         "v3": "կերել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_045",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "խմել"
+        ]
     },
     {
         "word": "խմել",
@@ -1039,8 +1185,6 @@
         "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "ջուր խմել / սուրճ խմել / թեյ խմել",
-        "opposite": "ուտել",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1055,7 +1199,13 @@
         "v2": "խմեց",
         "v3": "խմել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_046",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "ուտել"
+        ]
     },
     {
         "word": "քնել",
@@ -1063,8 +1213,6 @@
         "theme": "time",
         "emoji": "😴",
         "subtext": "լավ քնել / ութ ժամ քնել",
-        "opposite": "արթնանալ",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1079,7 +1227,13 @@
         "v2": "քնեց",
         "v3": "քնել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_047",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "արթնանալ"
+        ]
     },
     {
         "word": "եփել",
@@ -1101,7 +1255,10 @@
         "v2": "եփեց",
         "v3": "եփել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_048",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "մաքրել",
@@ -1123,7 +1280,10 @@
         "v2": "մաքրեց",
         "v3": "մաքրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_049",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "հագնել",
@@ -1145,7 +1305,10 @@
         "v2": "հագավ",
         "v3": "հագել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_050",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "լվանալ",
@@ -1167,7 +1330,10 @@
         "v2": "լվաց",
         "v3": "լվացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_051",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "գնել",
@@ -1175,8 +1341,6 @@
         "theme": "shopping",
         "emoji": "🛒",
         "subtext": "սնունդ գնել / նվեր գնել",
-        "opposite": "վաճառել",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1191,7 +1355,13 @@
         "v2": "գնեց",
         "v3": "գնել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_052",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "վաճառել"
+        ]
     },
     {
         "word": "վճարել",
@@ -1213,7 +1383,10 @@
         "v2": "վճարեց",
         "v3": "վճարել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_053",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ծախսել",
@@ -1235,7 +1408,10 @@
         "v2": "ծախսեց",
         "v3": "ծախսել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_054",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "խնայել",
@@ -1243,8 +1419,6 @@
         "theme": "shopping",
         "emoji": "💰",
         "subtext": "փող խնայել / էներգիա խնայել",
-        "opposite": "ծախսել",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1259,7 +1433,13 @@
         "v2": "խնայեց",
         "v3": "խնայել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_055",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "ծախսել"
+        ]
     },
     {
         "word": "աշխատել",
@@ -1281,7 +1461,10 @@
         "v2": "աշխատեց",
         "v3": "աշխատել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_056",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ապրել",
@@ -1289,8 +1472,6 @@
         "theme": "places",
         "emoji": "🏠",
         "subtext": "Երևանում ապրել / բնակարանում ապրել",
-        "opposite": "մահանալ",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1305,7 +1486,13 @@
         "v2": "ապրեց",
         "v3": "ապրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_057",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "մահանալ"
+        ]
     },
     {
         "word": "մտածել",
@@ -1327,7 +1514,10 @@
         "v2": "մտածեց",
         "v3": "մտածել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_058",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "իմանալ",
@@ -1349,7 +1539,10 @@
         "v2": "knew",
         "v3": "իմացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_059",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ուզել",
@@ -1371,7 +1564,10 @@
         "v2": "wanted",
         "v3": "ուզել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_060",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "կարիք ունենալ",
@@ -1393,7 +1589,10 @@
         "v2": "կարիք ուներ",
         "v3": "կարիք ունեցել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_061",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "հավանել",
@@ -1415,7 +1614,10 @@
         "v2": "հավանեց",
         "v3": "հավանել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_062",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "սիրել",
@@ -1437,7 +1639,10 @@
         "v2": "սիրեց",
         "v3": "սիրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_063",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ատել",
@@ -1459,7 +1664,10 @@
         "v2": "ատեց",
         "v3": "ատել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_064",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "հուսալ",
@@ -1484,7 +1692,10 @@
         "v2": "հուսաց",
         "v3": "հուսացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_065",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "հիշել",
@@ -1506,7 +1717,10 @@
         "v2": "հիշեց",
         "v3": "հիշել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_066",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "մոռանալ",
@@ -1528,7 +1742,10 @@
         "v2": "մոռացավ",
         "v3": "մոռացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_067",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "հասկանալ",
@@ -1550,7 +1767,10 @@
         "v2": "հասկացավ",
         "v3": "հասկացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_068",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "որոշել",
@@ -1572,7 +1792,10 @@
         "v2": "որոշեց",
         "v3": "որոշել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_069",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "վայելել",
@@ -1594,7 +1817,10 @@
         "v2": "վայելեց",
         "v3": "վայելել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_070",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "տեսնել",
@@ -1616,7 +1842,10 @@
         "v2": "տեսավ",
         "v3": "տեսել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_071",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "լսել",
@@ -1638,7 +1867,10 @@
         "v2": "լսեց",
         "v3": "լսել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_072",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "արթնանալ",
@@ -1647,8 +1879,6 @@
         "emoji": "⏰",
         "form": "verb",
         "subtext": "վաղ արթնանալ / ժամը յոթին արթնանալ",
-        "opposite": "քնել",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Դադարել քնել:",
@@ -1662,7 +1892,13 @@
         "v2": "արթնացավ",
         "v3": "արթնացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_073",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "քնել"
+        ]
     },
     {
         "word": "դիտել",
@@ -1684,7 +1920,10 @@
         "v2": "դիտեց",
         "v3": "դիտել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_074",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "նայել",
@@ -1706,7 +1945,10 @@
         "v2": "նայեց",
         "v3": "նայել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_075",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "խաղալ",
@@ -1728,7 +1970,10 @@
         "v2": "խաղաց",
         "v3": "խաղացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_076",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "վազել",
@@ -1750,7 +1995,10 @@
         "v2": "վազեց",
         "v3": "վազել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_077",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "նստել",
@@ -1758,8 +2006,6 @@
         "theme": "work",
         "emoji": "🪑",
         "subtext": "աթոռին նստել / սեղանի մոտ նստել",
-        "opposite": "կանգնել",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -1774,7 +2020,13 @@
         "v2": "նստեց",
         "v3": "նստել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_078",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "կանգնել"
+        ]
     },
     {
         "word": "կանգնել",
@@ -1782,8 +2034,6 @@
         "theme": "work",
         "emoji": "🧍",
         "subtext": "դռան մոտ կանգնել / հերթում կանգնել",
-        "opposite": "նստել",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -1798,7 +2048,13 @@
         "v2": "կանգնեց",
         "v3": "կանգնել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_079",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "նստել"
+        ]
     },
     {
         "word": "հանդիպել",
@@ -1820,7 +2076,10 @@
         "v3": "հանդիպել",
         "subtext": "նոր մարդկանց հանդիպել / օդանավակայանում հանդիպել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_080",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "սովորել",
@@ -1842,7 +2101,10 @@
         "v2": "սովորեց",
         "v3": "սովորել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_081",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "փոխել",
@@ -1864,7 +2126,10 @@
         "v2": "փոխեց",
         "v3": "փոխել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_082",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "կանգնեցնել",
@@ -1889,7 +2154,10 @@
         "v2": "stopped",
         "v3": "կանգնեցրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_083",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ավելացնել",
@@ -1911,7 +2179,10 @@
         "v2": "ավելացրեց",
         "v3": "ավելացրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_084",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "հաղթել",
@@ -1919,8 +2190,6 @@
         "theme": "social",
         "emoji": "🏆",
         "subtext": "խաղը հաղթել / մրցանակ հաղթել",
-        "opposite": "կորցնել",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -1935,7 +2204,13 @@
         "v2": "հաղթեց",
         "v3": "հաղթել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_085",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "կորցնել"
+        ]
     },
     {
         "word": "սպասել",
@@ -1957,7 +2232,10 @@
         "v2": "սպասեց",
         "v3": "սպասել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_086",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "մահանալ",
@@ -1965,8 +2243,6 @@
         "theme": "health_medicine",
         "emoji": "⚰️",
         "subtext": "երիտասարդ մահանալ / ծարավից մահանալ",
-        "opposite": "ապրել",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -1981,7 +2257,13 @@
         "v2": "մահացավ",
         "v3": "մահացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_087",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "ապրել"
+        ]
     },
     {
         "word": "ուղարկել",
@@ -2003,7 +2285,10 @@
         "v3": "ուղարկել",
         "subtext": "նամակ ուղարկել / փաթեթ ուղարկել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_088",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "մնալ",
@@ -2025,7 +2310,10 @@
         "v2": "մնաց",
         "v3": "մնացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_089",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ընկնել",
@@ -2047,7 +2335,10 @@
         "v2": "ընկավ",
         "v3": "ընկել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_090",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "անցնել",
@@ -2069,7 +2360,10 @@
         "v2": "անցավ",
         "v3": "անցել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_091",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "վաճառել",
@@ -2077,8 +2371,6 @@
         "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "մեքենան վաճառել / տունը վաճառել",
-        "opposite": "գնել",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2093,7 +2385,13 @@
         "v2": "վաճառեց",
         "v3": "վաճառել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_092",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "գնել"
+        ]
     },
     {
         "word": "քաշել",
@@ -2101,8 +2399,6 @@
         "theme": "work",
         "emoji": "🚜",
         "subtext": "դուռը քաշել / պարանը քաշել",
-        "opposite": "հրել",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2117,7 +2413,13 @@
         "v2": "քաշեց",
         "v3": "քաշել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_093",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "հրել"
+        ]
     },
     {
         "word": "հրել",
@@ -2128,8 +2430,6 @@
         "synonyms": [
             "կոճակը սեղմել"
         ],
-        "opposite": "քաշել",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2144,7 +2444,13 @@
         "v2": "հրեց",
         "v3": "հրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_094",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "քաշել"
+        ]
     },
     {
         "word": "տանել",
@@ -2166,7 +2472,10 @@
         "v2": "carried",
         "v3": "տարել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_095",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "կոտրել",
@@ -2188,7 +2497,10 @@
         "v2": "կոտրեց",
         "v3": "կոտրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_096",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ստանալ",
@@ -2210,7 +2522,10 @@
         "v2": "ստացավ",
         "v3": "ստացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_097",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "համաձայնել",
@@ -2232,7 +2547,10 @@
         "v2": "համաձայնեց",
         "v3": "համաձայնել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_098",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "նկարել",
@@ -2257,7 +2575,10 @@
         "v2": "նկարեց",
         "v3": "նկարել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_099",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "կիսվել",
@@ -2283,7 +2604,10 @@
         "v2": "կիսվեց",
         "v3": "կիսվել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_100",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ժպտալ",
@@ -2291,8 +2615,6 @@
         "theme": "people",
         "emoji": "😊",
         "subtext": "երջանիկ ժպտալ / երեխային ժպտալ",
-        "opposite": "լաց լինել",
-        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2307,7 +2629,13 @@
         "v2": "ժպտաց",
         "v3": "ժպտացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_101",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "լաց լինել"
+        ]
     },
     {
         "word": "լաց լինել",
@@ -2315,8 +2643,6 @@
         "theme": "emotions",
         "emoji": "😢",
         "subtext": "տխրությունից լաց լինել / բարձր լաց լինել",
-        "opposite": "ժպտալ",
-        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2331,7 +2657,13 @@
         "v2": "լաց եղավ",
         "v3": "լաց եղել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_102",
+        "lang": "hy",
+        "transcription": "",
+        "antonyms": [
+            "ժպտալ"
+        ]
     },
     {
         "word": "պարել",
@@ -2353,7 +2685,10 @@
         "v2": "պարեց",
         "v3": "պարել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_103",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "երգել",
@@ -2375,7 +2710,10 @@
         "v2": "երգեց",
         "v3": "երգել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_104",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ցատկել",
@@ -2397,7 +2735,10 @@
         "v2": "ցատկեց",
         "v3": "ցատկել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_105",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "լողալ",
@@ -2419,7 +2760,10 @@
         "v2": "լողաց",
         "v3": "լողացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_106",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ուսումնասիրել",
@@ -2445,7 +2789,10 @@
         "v2": "ուսումնասիրեց",
         "v3": "ուսումնասիրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_107",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "դասավանդել",
@@ -2467,7 +2814,10 @@
         "v2": "դասավանդեց",
         "v3": "դասավանդել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_108",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "երթևեկել",
@@ -2489,7 +2839,10 @@
         "v2": "երթևեկեց",
         "v3": "երթևեկել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_109",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "վարձել",
@@ -2511,7 +2864,10 @@
         "v2": "վարձեց",
         "v3": "վարձել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_110",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "մարզվել",
@@ -2533,7 +2889,10 @@
         "v3": "մարզվել",
         "subtext": "ամեն օր մարզվել / մարզասրահում մարզվել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_111",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "արժենալ",
@@ -2555,7 +2914,10 @@
         "v3": "արժեցել",
         "subtext": "շատ արժենալ / քիչ արժենալ",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_112",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "հրավիրել",
@@ -2577,7 +2939,10 @@
         "v3": "հրավիրել",
         "subtext": "հյուրեր հրավիրել / խնջույքին հրավիրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_113",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "վեր կենալ",
@@ -2599,7 +2964,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_114",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "նախաճաշել",
@@ -2621,7 +2989,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_115",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "վերադառնալ",
@@ -2643,7 +3014,10 @@
         "level": "starter",
         "form": "verb",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_116",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "անկողին գնալ",
@@ -2665,7 +3039,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_117",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ստուգել",
@@ -2687,7 +3064,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_118",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "պատասխանել",
@@ -2709,7 +3089,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_119",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ներկայացնել",
@@ -2731,7 +3114,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_120",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "մասնակցել",
@@ -2753,7 +3139,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_121",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ղեկավարել",
@@ -2775,7 +3164,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_122",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "գանձել",
@@ -2797,7 +3189,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_123",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "թույլ տալ",
@@ -2819,7 +3214,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_124",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "պարտք լինել",
@@ -2841,7 +3239,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_125",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "վաստակել",
@@ -2863,7 +3264,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_126",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "այցելել",
@@ -2885,7 +3289,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_127",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "տոնել",
@@ -2907,7 +3314,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_128",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "խորհուրդ տալ",
@@ -2929,7 +3339,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_129",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ցավեցնել",
@@ -2954,7 +3367,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_130",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "հանգստանալ",
@@ -2976,7 +3392,10 @@
         "level": "starter",
         "form": "verb",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_131",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ապաքինվել",
@@ -2998,7 +3417,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_132",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ամրագրել",
@@ -3020,7 +3442,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_133",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "հավաքել",
@@ -3042,7 +3467,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_134",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "չեղարկել",
@@ -3064,7 +3492,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_135",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "բաց թողնել",
@@ -3086,7 +3517,10 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_136",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "պատվիրել",
@@ -3108,7 +3542,10 @@
         "v2": "պատվիրեց",
         "v3": "պատվիրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_137",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "բացատրել",
@@ -3130,7 +3567,10 @@
         "v2": "բացատրեց",
         "v3": "բացատրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_138",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "շնորհակալություն հայտնել",
@@ -3152,7 +3592,10 @@
         "v2": "շնորհակալություն հայտնեց",
         "v3": "շնորհակալություն հայտնել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_139",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ներկայացնել",
@@ -3174,7 +3617,10 @@
         "v2": "ներկայացրեց",
         "v3": "ներկայացրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_140",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "թուլանալ",
@@ -3196,7 +3642,10 @@
         "v2": "թուլացավ",
         "v3": "թուլացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_141",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "նորոգել",
@@ -3218,7 +3667,10 @@
         "v2": "repaired",
         "v3": "նորոգել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_142",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "պատահել",
@@ -3243,7 +3695,10 @@
         "v2": "պատահեց",
         "v3": "պատահել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_143",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "թվալ",
@@ -3265,7 +3720,10 @@
         "v2": "թվաց",
         "v3": "թվացել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_144",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "նշանակել",
@@ -3291,7 +3749,10 @@
         "v2": "նշանակեց",
         "v3": "նշանակել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_145",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "հետևել",
@@ -3313,7 +3774,10 @@
         "v2": "հետևեց",
         "v3": "հետևել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_146",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "շարունակել",
@@ -3335,7 +3799,10 @@
         "v2": "շարունակեց",
         "v3": "շարունակել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_147",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "աճել",
@@ -3357,7 +3824,10 @@
         "v2": "աճեց",
         "v3": "աճել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_148",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ներառել",
@@ -3379,7 +3849,10 @@
         "v2": "ներառեց",
         "v3": "ներառել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_149",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "դառնալ",
@@ -3401,7 +3874,10 @@
         "v2": "դարձավ",
         "v3": "դարձել",
         "group": "al",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_150",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "պատկանել",
@@ -3423,7 +3899,10 @@
         "v2": "պատկանեց",
         "v3": "պատկանել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_151",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "ընտրել",
@@ -3445,7 +3924,10 @@
         "v2": "ընտրեց",
         "v3": "ընտրել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_152",
+        "lang": "hy",
+        "transcription": ""
     },
     {
         "word": "կառուցել",
@@ -3467,7 +3949,10 @@
         "v2": "կառուցեց",
         "v3": "կառուցել",
         "group": "el",
-        "auxiliary": "եմ"
+        "auxiliary": "եմ",
+        "id": "hy_starter_verbs_153",
+        "lang": "hy",
+        "transcription": ""
     }
 ];
     const lang = "hy";

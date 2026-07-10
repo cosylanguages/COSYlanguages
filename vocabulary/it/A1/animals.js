@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "gatto",
         "level": "starter",
         "theme": "animals",
@@ -8,7 +8,9 @@
         "emoji": "🐈",
         "numberPlural": "2 gatto",
         "answer": "due gatti",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gatti",
         "gender": "masculine",
         "partitive": "del",
@@ -29,9 +31,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "cattus"
-        }
+        },
+        "id": "it_starter_animals_001",
+        "lang": "it"
     },
-{
+    {
         "word": "cane",
         "level": "starter",
         "theme": "animals",
@@ -39,7 +43,9 @@
         "emoji": "🐕",
         "numberPlural": "5 cane",
         "answer": "cinque cani",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cani",
         "gender": "masculine",
         "partitive": "del",
@@ -60,15 +66,19 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "canis"
-        }
+        },
+        "id": "it_starter_animals_002",
+        "lang": "it"
     },
-{
+    {
         "word": "uccello",
         "level": "starter",
         "theme": "animals",
         "article": "l'",
         "emoji": "🐦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "uccelli",
         "gender": "masculine",
         "partitive": "dell'",
@@ -87,16 +97,19 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "avicellus"
-        }
+        },
+        "id": "it_starter_animals_003",
+        "lang": "it"
     },
-{
+    {
         "word": "pesce",
-        "image": "images/vocabulary/nature/fish.png",
         "level": "starter",
         "theme": "animals",
         "article": "il",
         "emoji": "🐟",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pesci",
         "gender": "masculine",
         "partitive": "del",
@@ -115,16 +128,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "piscis"
-        }
+        },
+        "id": "it_starter_animals_004",
+        "lang": "it"
     },
-{
+    {
         "word": "coniglio",
         "level": "starter",
         "theme": "animals",
         "article": "il",
         "gender": "masculine",
         "emoji": "🐰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "conigli",
         "definitions": [
             {
@@ -138,16 +155,20 @@
         "transcription": "ˈconiglio",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_animals_005",
+        "lang": "it"
     },
-{
+    {
         "word": "cavallo",
         "level": "starter",
         "theme": "animals",
         "article": "il",
         "gender": "masculine",
         "emoji": "🐴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cavalli",
         "definitions": [
             {
@@ -165,16 +186,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "caballus"
-        }
+        },
+        "id": "it_starter_animals_006",
+        "lang": "it"
     },
-{
+    {
         "word": "mucca",
         "level": "starter",
         "theme": "animals",
         "article": "la",
         "gender": "feminine",
         "emoji": "🐮",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mucche",
         "definitions": [
             {
@@ -188,16 +213,20 @@
         "transcription": "ˈmucca",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_animals_007",
+        "lang": "it"
     },
-{
+    {
         "word": "pecora",
         "level": "starter",
         "theme": "animals",
         "article": "la",
         "gender": "feminine",
         "emoji": "🐑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pecore",
         "definitions": [
             {
@@ -211,16 +240,20 @@
         "transcription": "ˈpɛkora",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_animals_008",
+        "lang": "it"
     },
-{
+    {
         "word": "animale",
         "level": "starter",
         "theme": "animals",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🐾",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "animali",
         "transcription": "aniˈmale",
         "definitions": [
@@ -234,16 +267,20 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_animals_009",
+        "lang": "it"
     },
-{
+    {
         "word": "delfino",
         "level": "starter",
         "theme": "sea_animals",
         "article": "il",
         "gender": "masculine",
         "emoji": "🐬",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "delfini",
         "transcription": "delˈfino",
         "definitions": [
@@ -257,16 +294,20 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_animals_010",
+        "lang": "it"
     },
-{
+    {
         "word": "ape",
         "level": "starter",
         "theme": "insects",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🐝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "api",
         "transcription": "ˈape",
         "definitions": [
@@ -280,16 +321,20 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_animals_011",
+        "lang": "it"
     },
-{
+    {
         "word": "ragno",
         "level": "starter",
         "theme": "insects",
         "article": "il",
         "gender": "masculine",
         "emoji": "🕷️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ragni",
         "transcription": "ˈraɲɲo",
         "definitions": [
@@ -303,14 +348,18 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_animals_012",
+        "lang": "it"
     },
-{
+    {
         "word": "leone",
         "level": "starter",
         "theme": "animals",
         "emoji": "🦁",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "leoni",
@@ -325,14 +374,18 @@
         ],
         "transcription": "leˈone",
         "partitive": "del",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_animals_013",
+        "lang": "it"
     },
-{
+    {
         "word": "elefante",
         "level": "starter",
         "theme": "animals",
         "emoji": "🐘",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "l'",
         "plural": "elefanti",
@@ -347,14 +400,18 @@
         ],
         "transcription": "eleˈfante",
         "partitive": "dell'",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_animals_014",
+        "lang": "it"
     },
-{
+    {
         "word": "tigre",
         "level": "starter",
         "theme": "animals",
         "emoji": "🐅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "tigri",
@@ -369,14 +426,18 @@
         ],
         "transcription": "ˈtiɡre",
         "partitive": "della",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_animals_015",
+        "lang": "it"
     },
-{
+    {
         "word": "scimmia",
         "level": "starter",
         "theme": "animals",
         "emoji": "🐒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "scimmie",
@@ -391,14 +452,18 @@
         ],
         "transcription": "ˈʃimmja",
         "partitive": "della",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_animals_016",
+        "lang": "it"
     },
-{
+    {
         "word": "squalo",
         "level": "starter",
         "theme": "sea_animals",
         "emoji": "🦈",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "lo",
         "plural": "squali",
@@ -413,14 +478,18 @@
         ],
         "transcription": "ˈskwalo",
         "partitive": "dello",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_animals_017",
+        "lang": "it"
     },
-{
+    {
         "word": "balena",
         "level": "starter",
         "theme": "sea_animals",
         "emoji": "🐋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "balene",
@@ -435,9 +504,11 @@
         ],
         "transcription": "baˈlena",
         "partitive": "della",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_animals_018",
+        "lang": "it"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

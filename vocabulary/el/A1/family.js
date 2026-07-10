@@ -5,7 +5,6 @@
         "translation": "mom",
         "level": "starter",
         "theme": "family",
-        "language": "el",
         "emoji": "👩",
         "form": "noun",
         "definitions": [
@@ -16,14 +15,15 @@
                 ]
             }
         ],
-        "transcription": "/maˈma/"
+        "transcription": "maˈma",
+        "id": "el_starter_family_001",
+        "lang": "el"
     },
     {
         "word": "μπαμπάς",
         "translation": "dad",
         "level": "starter",
         "theme": "family",
-        "language": "el",
         "emoji": "👨",
         "form": "noun",
         "definitions": [
@@ -34,14 +34,15 @@
                 ]
             }
         ],
-        "transcription": "/baˈbas/"
+        "transcription": "baˈbas",
+        "id": "el_starter_family_002",
+        "lang": "el"
     },
     {
         "word": "αδελφός",
         "translation": "brother",
         "level": "starter",
         "theme": "family",
-        "language": "el",
         "emoji": "👦",
         "form": "noun",
         "definitions": [
@@ -52,14 +53,15 @@
                 ]
             }
         ],
-        "transcription": "/a.ðelˈfos/"
+        "transcription": "a.ðelˈfos",
+        "id": "el_starter_family_003",
+        "lang": "el"
     },
     {
         "word": "αδελφή",
         "translation": "sister",
         "level": "starter",
         "theme": "family",
-        "language": "el",
         "emoji": "👧",
         "form": "noun",
         "definitions": [
@@ -70,14 +72,15 @@
                 ]
             }
         ],
-        "transcription": "/a.ðelˈfi/"
+        "transcription": "a.ðelˈfi",
+        "id": "el_starter_family_004",
+        "lang": "el"
     },
     {
         "word": "οικογένεια",
         "translation": "family",
         "level": "starter",
         "theme": "family",
-        "language": "el",
         "emoji": "👪",
         "form": "noun",
         "definitions": [
@@ -88,9 +91,11 @@
                 ]
             }
         ],
-        "transcription": "/i.koˈʝe.ni.a/"
+        "transcription": "i.koˈʝe.ni.a",
+        "id": "el_starter_family_005",
+        "lang": "el"
     }
-    ];
+];
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

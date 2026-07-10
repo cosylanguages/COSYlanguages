@@ -7,7 +7,6 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "opposite": "evening",
         "subtext": "early morning, good morning",
         "definitions": [
             {
@@ -21,7 +20,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "evening"
+        ]
     },
     {
         "id": "en_starter_time_018",
@@ -30,7 +32,6 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "opposite": "morning",
         "subtext": "this evening, good evening",
         "definitions": [
             {
@@ -44,7 +45,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "morning"
+        ]
     },
     {
         "id": "en_starter_time_019",
@@ -54,7 +58,6 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "days",
-        "opposite": "night",
         "definitions": [
             {
                 "text": "A period of 24 hours.",
@@ -72,7 +75,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "dagaz"
-        }
+        },
+        "antonyms": [
+            "night"
+        ]
     },
     {
         "id": "en_starter_time_020",
@@ -91,7 +97,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "wik",
         "lang": "en",
         "level": "starter",
@@ -115,7 +120,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈwiˌkɪnd",
         "lang": "en",
         "level": "starter",
@@ -129,7 +133,6 @@
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
-        "opposite": "evening",
         "subtext": "this afternoon, good afternoon",
         "definitions": [
             {
@@ -143,7 +146,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "evening"
+        ]
     },
     {
         "id": "en_starter_time_023",
@@ -153,7 +159,6 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "nights",
-        "opposite": "day",
         "subtext": "good night, at night",
         "definitions": [
             {
@@ -171,7 +176,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "nahts"
-        }
+        },
+        "antonyms": [
+            "day"
+        ]
     },
     {
         "id": "en_starter_time_024",
@@ -190,7 +198,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "taɪm",
         "lang": "en",
         "level": "starter",
@@ -217,7 +224,6 @@
             }
         ],
         "subtext": "related to days week",
-        "opposite": null,
         "transcription": "ˈmənˌdeɪ",
         "lang": "en",
         "level": "starter",
@@ -240,7 +246,6 @@
             }
         ],
         "subtext": "related to days week",
-        "opposite": null,
         "transcription": "ˈtuzˌdeɪ",
         "lang": "en",
         "level": "starter",
@@ -263,7 +268,6 @@
             }
         ],
         "subtext": "related to days week",
-        "opposite": null,
         "transcription": "ˈwɛnzˌdeɪ",
         "lang": "en",
         "level": "starter",
@@ -286,7 +290,6 @@
             }
         ],
         "subtext": "related to days week",
-        "opposite": null,
         "transcription": "ˈθərzˌdeɪ",
         "lang": "en",
         "level": "starter",
@@ -309,7 +312,6 @@
             }
         ],
         "subtext": "related to days week",
-        "opposite": null,
         "transcription": "ˈfraɪˌdeɪ",
         "lang": "en",
         "level": "starter",
@@ -332,7 +334,6 @@
             }
         ],
         "subtext": "related to days week",
-        "opposite": null,
         "transcription": "ˈsæˌtɪˌdeɪ",
         "lang": "en",
         "level": "starter",
@@ -355,7 +356,6 @@
             }
         ],
         "subtext": "related to days week",
-        "opposite": null,
         "transcription": "ˈsənˌdi",
         "lang": "en",
         "level": "starter",
@@ -378,7 +378,6 @@
             }
         ],
         "subtext": "related to months year",
-        "opposite": null,
         "transcription": "ˈʤænjuˌɛri",
         "lang": "en",
         "level": "starter",
@@ -401,7 +400,6 @@
             }
         ],
         "subtext": "related to months year",
-        "opposite": null,
         "transcription": "ˈfɛbruˌɛri",
         "lang": "en",
         "level": "starter",
@@ -424,7 +422,6 @@
             }
         ],
         "subtext": "related to months year",
-        "opposite": null,
         "transcription": "mɑrʧ",
         "lang": "en",
         "level": "starter",
@@ -447,7 +444,6 @@
             }
         ],
         "subtext": "related to months year",
-        "opposite": null,
         "transcription": "ˈeɪprəl",
         "lang": "en",
         "level": "starter",
@@ -470,7 +466,6 @@
             }
         ],
         "subtext": "related to months year",
-        "opposite": null,
         "transcription": "meɪ",
         "lang": "en",
         "level": "starter",
@@ -493,7 +488,6 @@
             }
         ],
         "subtext": "related to months year",
-        "opposite": null,
         "transcription": "ʤun",
         "lang": "en",
         "level": "starter",
@@ -516,7 +510,6 @@
             }
         ],
         "subtext": "related to months year",
-        "opposite": null,
         "transcription": "ˌʤuˈlaɪ",
         "lang": "en",
         "level": "starter",
@@ -539,7 +532,6 @@
             }
         ],
         "subtext": "related to months year",
-        "opposite": null,
         "transcription": "ˈɔgəst",
         "lang": "en",
         "level": "starter",
@@ -562,7 +554,6 @@
             }
         ],
         "subtext": "related to months year",
-        "opposite": null,
         "transcription": "sɛpˈtɛmbər",
         "lang": "en",
         "level": "starter",
@@ -585,7 +576,6 @@
             }
         ],
         "subtext": "related to months year",
-        "opposite": null,
         "transcription": "ɑkˈtoʊbər",
         "lang": "en",
         "level": "starter",
@@ -608,7 +598,6 @@
             }
         ],
         "subtext": "related to months year",
-        "opposite": null,
         "transcription": "noʊˈvɛmbər",
         "lang": "en",
         "level": "starter",
@@ -631,7 +620,6 @@
             }
         ],
         "subtext": "related to months year",
-        "opposite": null,
         "transcription": "dɪˈsɛmbər",
         "lang": "en",
         "level": "starter",
@@ -652,7 +640,6 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "opposite": null,
         "transcription": "əˈgɛn",
         "lang": "en",
         "level": "starter",
@@ -673,7 +660,6 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null,
         "transcription": "əˈgoʊ",
         "lang": "en",
         "level": "starter",
@@ -693,7 +679,6 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "opposite": null,
         "emoji": "🎁",
         "transcription": "fər",
         "lang": "en",
@@ -706,7 +691,6 @@
         "word": "yesterday",
         "emoji": "📅",
         "form": "adverb",
-        "opposite": "tomorrow",
         "definitions": [
             {
                 "text": "On the day before today.",
@@ -720,7 +704,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "tomorrow"
+        ]
     },
     {
         "id": "en_starter_duration_expressions_002",
@@ -736,7 +723,6 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null,
         "transcription": "naʊ",
         "lang": "en",
         "level": "starter",
@@ -757,7 +743,6 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null,
         "transcription": "sun",
         "lang": "en",
         "level": "starter",
@@ -778,7 +763,6 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null,
         "transcription": "ˈleɪtər",
         "lang": "en",
         "level": "starter",
@@ -802,7 +786,6 @@
             }
         ],
         "subtext": "related to telling time",
-        "opposite": null,
         "transcription": "aʊər",
         "lang": "en",
         "level": "starter",
@@ -826,7 +809,6 @@
             }
         ],
         "subtext": "related to telling time",
-        "opposite": null,
         "transcription": "ˈmɪnət",
         "lang": "en",
         "level": "starter",
@@ -850,7 +832,6 @@
             }
         ],
         "subtext": "related to telling time",
-        "opposite": null,
         "transcription": "ˈsɛkənd",
         "lang": "en",
         "level": "starter",
@@ -874,7 +855,6 @@
             }
         ],
         "subtext": "related to dates years",
-        "opposite": null,
         "transcription": "jɪr",
         "lang": "en",
         "level": "starter",
@@ -895,7 +875,6 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null,
         "transcription": "ɔˈrɛdi",
         "lang": "en",
         "level": "starter",
@@ -916,7 +895,6 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null,
         "transcription": "stɪl",
         "lang": "en",
         "level": "starter",
@@ -937,7 +915,6 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "opposite": null,
         "transcription": "jɛt",
         "lang": "en",
         "level": "starter",
@@ -958,7 +935,6 @@
             }
         ],
         "subtext": "related to times day",
-        "opposite": null,
         "transcription": "təˈnaɪt",
         "lang": "en",
         "level": "starter",
@@ -982,7 +958,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "deɪt",
         "lang": "en",
         "level": "starter",
@@ -1006,7 +981,6 @@
             }
         ],
         "subtext": "related to dates years",
-        "opposite": null,
         "transcription": "mənθ",
         "lang": "en",
         "level": "starter",
@@ -1026,7 +1000,6 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "opposite": null,
         "emoji": "⌛",
         "transcription": "ˈdʊrɪŋ",
         "lang": "en",
@@ -1038,7 +1011,6 @@
         "id": "en_starter_time_032",
         "word": "before",
         "form": "preposition",
-        "opposite": "after",
         "definitions": [
             {
                 "text": "At an earlier time; in front of.",
@@ -1053,13 +1025,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "after"
+        ]
     },
     {
         "id": "en_starter_time_033",
         "word": "after",
         "form": "preposition",
-        "opposite": "before",
         "definitions": [
             {
                 "text": "At a later time; following.",
@@ -1074,14 +1048,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "before"
+        ]
     },
     {
         "id": "en_starter_time_034",
         "word": "last",
         "emoji": "🔚",
         "form": "adjective",
-        "opposite": "first",
         "comparative": null,
         "superlative": null,
         "definitions": [
@@ -1097,14 +1073,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "first"
+        ]
     },
     {
         "id": "en_starter_time_035",
         "word": "next",
         "emoji": "⏭️",
         "form": "adjective",
-        "opposite": "previous",
         "comparative": null,
         "superlative": null,
         "definitions": [
@@ -1120,7 +1098,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "previous"
+        ]
     },
     {
         "id": "en_starter_dates_years_004",
@@ -1151,11 +1132,8 @@
     {
         "id": "en_starter_time_036",
         "word": "sleep",
-        "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "emoji": "😴",
         "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
-        "opposite": "wake up",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1180,15 +1158,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "slēpan",
             "origin_meaning": "to sleep"
-        }
+        },
+        "antonyms": [
+            "wake up"
+        ]
     },
     {
         "id": "en_starter_time_037",
         "word": "early",
         "emoji": "🌅",
         "form": "adjective",
-        "opposite": "late",
-        "oppositeEmoji": "🌙",
         "subtext": "early morning / early riser",
         "synonyms": [
             "soon"
@@ -1207,15 +1186,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "late"
+        ]
     },
     {
         "id": "en_starter_time_038",
         "word": "late",
         "emoji": "🌙",
         "form": "adjective",
-        "opposite": "early",
-        "oppositeEmoji": "🌅",
         "subtext": "late night / too late",
         "synonyms": [
             "tardy"
@@ -1234,7 +1214,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "early"
+        ]
     },
     {
         "id": "en_starter_time_039",

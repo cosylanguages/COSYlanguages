@@ -13,10 +13,10 @@
                 "examples": []
             }
         ],
-        "image": "images/vocabulary/actions/to garden.png",
         "emoji": "🌳",
         "classification": "regular",
-        "countability": "countable"
+        "countability": "countable",
+        "transcription": ""
     },
     {
         "id": "ru_starter_jobs_002",
@@ -34,7 +34,6 @@
                 ]
             }
         ],
-        "image": "images/vocabulary/jobs/doctor.png",
         "gender": "masculine",
         "numberPlural": "2 врач",
         "answer": "два врача",
@@ -43,7 +42,7 @@
         "countability": "countable",
         "plural": "врачи",
         "subtext": "пойти к врачу, семейный врач",
-        "transcription": "/vratʃ/"
+        "transcription": "vratʃ"
     },
     {
         "id": "ru_starter_body_001",
@@ -66,7 +65,7 @@
         "countability": "countable",
         "plural": "руки",
         "subtext": "сломать руку, левая рука",
-        "transcription": "/ruˈka/",
+        "transcription": "ruˈka",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "rǫka"
@@ -94,7 +93,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "ноги",
-        "transcription": "/naˈɡa/",
+        "transcription": "naˈɡa",
         "subtext": "",
         "etymology": {
             "origin_lang": "Proto-Slavic",
@@ -121,7 +120,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "учителя",
-        "subtext": "учитель русского языка, школьный учитель"
+        "subtext": "учитель русского языка, школьный учитель",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_031",
@@ -134,33 +134,8 @@
             {
                 "text": "Круглый фрукт красного, зеленого или желтого цвета.",
                 "examples": []
-            },
-            {
-                "word": "рыба",
-                "image": "images/vocabulary/actions/to fish.png",
-                "level": "starter",
-                "theme": "food_drink",
-                "gender": "feminine",
-                "emoji": "🐟",
-                "form": "noun",
-                "classification": "regular",
-                "countability": "countable",
-                "definitions": [
-                    {
-                        "text": "Мясо рыбы, употребляемое в пищу.",
-                        "examples": [
-                            "Я люблю жареную рыбу на ужин."
-                        ]
-                    }
-                ],
-                "transcription": "/ˈrɨbə/",
-                "etymology": {
-                    "origin_lang": "Proto-Slavic",
-                    "origin_word": "ryba"
-                }
             }
         ],
-        "image": "images/vocabulary/food/apple.png",
         "gender": "neuter",
         "emoji": "🍎",
         "numberPlural": "4 яблоко",
@@ -168,7 +143,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "яблоки",
-        "transcription": "/ˈjabləkə/",
+        "transcription": "ˈjabləkə",
         "subtext": ""
     },
     {
@@ -195,7 +170,8 @@
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "xlěbъ"
-        }
+        },
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_033",
@@ -217,7 +193,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "яйца",
-        "subtext": "варёное яйцо, омлет"
+        "subtext": "варёное яйцо, омлет",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_034",
@@ -243,7 +220,8 @@
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "mleko"
-        }
+        },
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_035",
@@ -263,7 +241,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "пиццы",
-        "transcription": "/ˈpittsa/",
+        "transcription": "ˈpittsa",
         "subtext": ""
     },
     {
@@ -285,7 +263,7 @@
         "countability": "countable",
         "plural": null,
         "subtext": "белый рис, плов",
-        "transcription": "/ris/"
+        "transcription": "ris"
     },
     {
         "id": "ru_starter_food_drink_037",
@@ -306,7 +284,7 @@
         "countability": "countable",
         "plural": null,
         "subtext": "свежее мясо, говядина, курица",
-        "transcription": "/ˈmjasə/",
+        "transcription": "ˈmjasə",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "męso"
@@ -332,7 +310,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "еда",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_039",
@@ -355,7 +334,7 @@
         "countability": "countable",
         "plural": "фрукты",
         "subtext": "свежий фрукт, фруктовый сок",
-        "transcription": "/frukt/"
+        "transcription": "frukt"
     },
     {
         "id": "ru_starter_food_drink_040",
@@ -370,26 +349,6 @@
                 "examples": [
                     "Он ест овощи каждый день."
                 ]
-            },
-            {
-                "word": "перекус",
-                "image": "images/vocabulary/actions/to have a snack.png",
-                "level": "starter",
-                "theme": "food_drink",
-                "emoji": "🥨",
-                "form": "noun",
-                "classification": "regular",
-                "countability": "countable",
-                "gender": "masculine",
-                "definitions": [
-                    {
-                        "text": "Небольшое количество еды, съедаемое между основными приемами пищи.",
-                        "examples": [
-                            "Я люблю здоровые перекусы, например фрукты."
-                        ]
-                    }
-                ],
-                "transcription": "/pʲɪrʲɪˈkus/"
             }
         ],
         "gender": "masculine",
@@ -398,7 +357,7 @@
         "countability": "countable",
         "plural": "овощи",
         "subtext": "свежие овощи, зелёные овощи",
-        "transcription": "/ˈovəɕː/"
+        "transcription": "ˈovəɕː"
     },
     {
         "id": "ru_starter_food_drink_041",
@@ -420,7 +379,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": null,
-        "subtext": "чёрный кофе, чашка кофе"
+        "subtext": "чёрный кофе, чашка кофе",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_042",
@@ -442,7 +402,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": null,
-        "subtext": "зелёный чай, чашка чая"
+        "subtext": "зелёный чай, чашка чая",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_043",
@@ -464,7 +425,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": null,
-        "subtext": "апельсиновый сок, яблочный сок"
+        "subtext": "апельсиновый сок, яблочный сок",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_044",
@@ -490,7 +452,8 @@
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "voda"
-        }
+        },
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_045",
@@ -507,13 +470,13 @@
                 ]
             }
         ],
-        "image": "images/vocabulary/actions/to have breakfast.png",
         "gender": "masculine",
         "emoji": "🍳",
         "classification": "regular",
         "countability": "countable",
         "plural": "завтраки",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_046",
@@ -530,13 +493,13 @@
                 ]
             }
         ],
-        "image": "images/vocabulary/actions/to have dinner.png",
         "gender": "masculine",
         "emoji": "🍽️",
         "classification": "regular",
         "countability": "countable",
         "plural": "ужины",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_047",
@@ -553,13 +516,13 @@
                 ]
             }
         ],
-        "image": "images/vocabulary/actions/to have lunch.png",
         "gender": "masculine",
         "emoji": "🍱",
         "classification": "regular",
         "countability": "countable",
         "plural": "обеды",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_025",
@@ -581,7 +544,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "парки",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_026",
@@ -598,7 +562,6 @@
                 ]
             }
         ],
-        "image": "images/vocabulary/actions/to go to school.png",
         "gender": "feminine",
         "emoji": "🏫",
         "classification": "regular",
@@ -608,7 +571,8 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "schola"
-        }
+        },
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_027",
@@ -630,7 +594,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "магазины",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_clothes_001",
@@ -652,7 +617,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "футболки",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_clothes_002",
@@ -674,7 +640,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "брюки",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_clothes_003",
@@ -696,7 +663,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "обувь",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_clothes_004",
@@ -718,7 +686,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "шапки",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_028",
@@ -739,7 +708,7 @@
         "countability": "countable",
         "plural": "стулья",
         "subtext": "деревянный стул, сесть на стул",
-        "transcription": "/stul/",
+        "transcription": "stul",
         "etymology": {
             "origin_lang": "German",
             "origin_word": "Stuhl"
@@ -764,7 +733,7 @@
         "countability": "countable",
         "plural": "столы",
         "subtext": "кухонный стол, на столе",
-        "transcription": "/stol/",
+        "transcription": "stol",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "stolъ"
@@ -789,7 +758,7 @@
         "countability": "countable",
         "plural": "кровати",
         "subtext": "удобная кровать, лечь в кровать",
-        "transcription": "/kraˈvatʲ/",
+        "transcription": "kraˈvatʲ",
         "etymology": {
             "origin_lang": "Greek",
             "origin_word": "krabbatos"
@@ -815,7 +784,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "ключи",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_technology_006",
@@ -837,7 +807,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "телефоны",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_032",
@@ -859,7 +830,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "книги",
-        "transcription": "/ˈkniɡə/",
+        "transcription": "ˈkniɡə",
         "subtext": ""
     },
     {
@@ -882,7 +853,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "сумки",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_034",
@@ -904,7 +876,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "ручки",
-        "transcription": "/ˈrutʃkə/",
+        "transcription": "ˈrutʃkə",
         "subtext": ""
     },
     {
@@ -927,7 +899,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "коты",
-        "transcription": "/kot/",
+        "transcription": "kot",
         "subtext": ""
     },
     {
@@ -950,7 +922,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "собаки",
-        "transcription": "/saˈbakə/",
+        "transcription": "saˈbakə",
         "subtext": ""
     },
     {
@@ -973,7 +945,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "птицы",
-        "transcription": "/ˈptitsə/",
+        "transcription": "ˈptitsə",
         "subtext": "",
         "etymology": {
             "origin_lang": "Proto-Slavic",
@@ -995,13 +967,12 @@
                 ]
             }
         ],
-        "image": "images/vocabulary/nature/fish.png",
         "gender": "feminine",
         "emoji": "🐟",
         "classification": "regular",
         "countability": "countable",
         "plural": "рыбы",
-        "transcription": "/ˈrɨbə/",
+        "transcription": "ˈrɨbə",
         "subtext": "",
         "etymology": {
             "origin_lang": "Proto-Slavic",
@@ -1029,7 +1000,7 @@
         "countability": "countable",
         "plural": "головы",
         "subtext": "головная боль, кивать головой",
-        "transcription": "/ɡəlaˈva/",
+        "transcription": "ɡəlaˈva",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "golva"
@@ -1056,7 +1027,7 @@
         "countability": "countable",
         "plural": "глаза",
         "subtext": "голубые глаза, закрыть глаза",
-        "transcription": "/ɡlas/",
+        "transcription": "ɡlas",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "glazъ"
@@ -1082,7 +1053,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "носы",
-        "transcription": "/nos/",
+        "transcription": "nos",
         "subtext": "",
         "etymology": {
             "origin_lang": "Proto-Slavic",
@@ -1110,7 +1081,7 @@
         "countability": "countable",
         "plural": "рты",
         "subtext": "открыть рот, молчать",
-        "transcription": "/rot/",
+        "transcription": "rot",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "rъtъ"
@@ -1137,7 +1108,7 @@
         "countability": "countable",
         "plural": "уши",
         "subtext": "левое ухо, правое ухо, боль в ухе",
-        "transcription": "/ˈuxə/",
+        "transcription": "ˈuxə",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "uxo"
@@ -1163,7 +1134,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "спины",
-        "subtext": "боль в спине, лежать на спине"
+        "subtext": "боль в спине, лежать на спине",
+        "transcription": ""
     },
     {
         "id": "ru_starter_people_011",
@@ -1183,7 +1155,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "матери",
-        "transcription": "/matʲ/",
+        "transcription": "matʲ",
         "subtext": "",
         "etymology": {
             "origin_lang": "Proto-Slavic",
@@ -1208,7 +1180,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "отцы",
-        "transcription": "/aˈtjets/",
+        "transcription": "aˈtjets",
         "subtext": "",
         "etymology": {
             "origin_lang": "Proto-Slavic",
@@ -1233,7 +1205,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "семьи",
-        "transcription": "/sʲiˈmja/",
+        "transcription": "sʲiˈmja",
         "subtext": ""
     },
     {
@@ -1254,7 +1226,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "друзья",
-        "transcription": "/druk/",
+        "transcription": "druk",
         "subtext": ""
     },
     {
@@ -1275,7 +1247,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "партнёры",
-        "transcription": "/paʁtˈnʲor/",
+        "transcription": "paʁtˈnʲor",
         "subtext": ""
     },
     {
@@ -1298,7 +1270,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "мужчины",
-        "transcription": "/muˈɕːinə/",
+        "transcription": "muˈɕːinə",
         "subtext": ""
     },
     {
@@ -1312,26 +1284,6 @@
             {
                 "text": "Взрослый человек женского пола.",
                 "examples": []
-            },
-            {
-                "word": "щетина",
-                "image": "images/vocabulary/appearance/stubble.bristle.png",
-                "level": "starter",
-                "theme": "people",
-                "emoji": "🧔",
-                "form": "noun",
-                "classification": "regular",
-                "countability": "countable",
-                "gender": "feminine",
-                "definitions": [
-                    {
-                        "text": "Короткие жесткие волоски, отрастающие на лице мужчины, если он не брился несколько дней.",
-                        "examples": [
-                            "У него небольшая щетина."
-                        ]
-                    }
-                ],
-                "transcription": "/ɕːɪˈtʲinə/"
             }
         ],
         "gender": "feminine",
@@ -1341,7 +1293,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "женщины",
-        "transcription": "/ˈʐenɕːinə/",
+        "transcription": "ˈʐenɕːinə",
         "subtext": "",
         "etymology": {
             "origin_lang": "Proto-Slavic",
@@ -1361,7 +1313,6 @@
                 "examples": []
             }
         ],
-        "image": "images/vocabulary/actions/to go home.png",
         "gender": "masculine",
         "emoji": "🏡",
         "classification": "regular",
@@ -1372,7 +1323,7 @@
             "дома",
             "идти домой"
         ],
-        "transcription": "/dom/",
+        "transcription": "dom",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "domъ"
@@ -1399,7 +1350,7 @@
         "countability": "countable",
         "plural": "квартиры",
         "subtext": "квартира, жить в квартире",
-        "transcription": "/kvaʁˈtiʁə/"
+        "transcription": "kvaʁˈtiʁə"
     },
     {
         "id": "ru_starter_furniture_037",
@@ -1421,7 +1372,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "офисы",
-        "subtext": "место работы, большой офис"
+        "subtext": "место работы, большой офис",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_016",
@@ -1444,7 +1396,7 @@
         "countability": "countable",
         "plural": "машины",
         "subtext": "водить машину, быстрая машина",
-        "transcription": "/maˈʂɨnə/"
+        "transcription": "maˈʂɨnə"
     },
     {
         "id": "ru_starter_travel_017",
@@ -1466,7 +1418,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "автобусы",
-        "subtext": "ехать на автобусе, автобусная остановка"
+        "subtext": "ехать на автобусе, автобусная остановка",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_018",
@@ -1488,7 +1441,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "поезда",
-        "subtext": "ехать на поезде, на поезде, вокзал"
+        "subtext": "ехать на поезде, на поезде, вокзал",
+        "transcription": ""
     },
     {
         "id": "ru_starter_shopping_006",
@@ -1509,7 +1463,7 @@
         "countability": "countable",
         "plural": null,
         "subtext": "тратить деньги, копить деньги",
-        "transcription": "/ˈdʲenʲɡi/"
+        "transcription": "ˈdʲenʲɡi"
     },
     {
         "id": "ru_starter_time_012",
@@ -1529,7 +1483,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "утра",
-        "transcription": "/ˈutrə/",
+        "transcription": "ˈutrə",
         "subtext": ""
     },
     {
@@ -1550,7 +1504,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "вечера",
-        "transcription": "/ˈvjetʃʲiʁ/",
+        "transcription": "ˈvjetʃʲiʁ",
         "subtext": ""
     },
     {
@@ -1571,7 +1525,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "дни",
-        "transcription": "/djenʲ/",
+        "transcription": "djenʲ",
         "subtext": "",
         "etymology": {
             "origin_lang": "Proto-Slavic",
@@ -1596,7 +1550,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "недели",
-        "transcription": "/nʲiˈdʲelʲə/",
+        "transcription": "nʲiˈdʲelʲə",
         "subtext": ""
     },
     {
@@ -1622,7 +1576,8 @@
         "subtext": "",
         "synonyms": [
             "начальник"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_028",
@@ -1644,7 +1599,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "коллеги",
-        "transcription": "/kalˈlʲeɡə/",
+        "transcription": "kalˈlʲeɡə",
         "subtext": ""
     },
     {
@@ -1671,7 +1626,7 @@
         "synonyms": [
             "заработная плата"
         ],
-        "transcription": "/zaʁˈplatə/"
+        "transcription": "zaʁˈplatə"
     },
     {
         "id": "ru_starter_work_030",
@@ -1697,7 +1652,8 @@
         "synonyms": [
             "встреча",
             "совещание"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_019",
@@ -1718,7 +1674,8 @@
         "emoji": "🚆",
         "classification": "regular",
         "countability": "countable",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_031",
@@ -1739,7 +1696,7 @@
         "emoji": "😫",
         "classification": "regular",
         "countability": "countable",
-        "transcription": "/strɛs/",
+        "transcription": "strɛs",
         "subtext": ""
     },
     {
@@ -1761,7 +1718,7 @@
         "emoji": "🏠",
         "classification": "regular",
         "countability": "countable",
-        "transcription": "/aˈrʲendə/",
+        "transcription": "aˈrʲendə",
         "subtext": ""
     },
     {
@@ -1784,7 +1741,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "соседи",
-        "transcription": "/saˈsʲet/",
+        "transcription": "saˈsʲet",
         "subtext": ""
     },
     {
@@ -1807,7 +1764,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "комнаты",
-        "transcription": "/ˈkomnətə/",
+        "transcription": "ˈkomnətə",
         "subtext": ""
     },
     {
@@ -1830,7 +1787,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "кухни",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_032",
@@ -1851,7 +1809,7 @@
         "emoji": "😴",
         "classification": "regular",
         "countability": "countable",
-        "transcription": "/son/",
+        "transcription": "son",
         "subtext": ""
     },
     {
@@ -1874,7 +1832,7 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "упражнения",
-        "transcription": "/upʁaʐˈnʲenʲijə/",
+        "transcription": "upʁaʐˈnʲenʲijə",
         "subtext": ""
     },
     {
@@ -1897,7 +1855,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "цены",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_shopping_008",
@@ -1918,7 +1877,8 @@
         "emoji": "💰",
         "classification": "regular",
         "countability": "countable",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_people_016",
@@ -1943,7 +1903,7 @@
         "synonyms": [
             "связь"
         ],
-        "transcription": "/atnaˈʂenʲijə/"
+        "transcription": "atnaˈʂenʲijə"
     },
     {
         "id": "ru_starter_travel_021",
@@ -1968,7 +1928,8 @@
         "subtext": "",
         "synonyms": [
             "каникулы"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_022",
@@ -1990,7 +1951,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "путешествия",
-        "subtext": ""
+        "subtext": "",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_023",
@@ -2016,7 +1978,7 @@
         "synonyms": [
             "гостиница"
         ],
-        "transcription": "/aˈtɛlʲ/"
+        "transcription": "aˈtɛlʲ"
     },
     {
         "id": "ru_starter_time_016",
@@ -2041,7 +2003,7 @@
         "synonyms": [
             "уикенд"
         ],
-        "transcription": "/vɨxadˈnɨjə/"
+        "transcription": "vɨxadˈnɨjə"
     },
     {
         "id": "ru_starter_social_026",
@@ -2068,7 +2030,7 @@
             "досуг",
             "отдых"
         ],
-        "transcription": "/svaˈbodnəjə ˈvrʲemʲə/"
+        "transcription": "svaˈbodnəjə ˈvrʲemʲə"
     },
     {
         "id": "ru_starter_food_drink_048",
@@ -2091,7 +2053,7 @@
         "countability": "countable",
         "plural": null,
         "subtext": "холодное пиво, светлое пиво",
-        "transcription": "/ˈpʲivə/"
+        "transcription": "ˈpʲivə"
     },
     {
         "id": "ru_starter_food_drink_049",
@@ -2114,7 +2076,7 @@
         "countability": "countable",
         "plural": null,
         "subtext": "красное вино, белое вино, бокал вина",
-        "transcription": "/vʲiˈno/"
+        "transcription": "vʲiˈno"
     },
     {
         "id": "ru_starter_furniture_040",
@@ -2137,7 +2099,7 @@
         "countability": "countable",
         "plural": "двери",
         "subtext": "открыть дверь, входная дверь",
-        "transcription": "/dvʲeʁʲ/"
+        "transcription": "dvʲeʁʲ"
     },
     {
         "id": "ru_starter_furniture_041",
@@ -2152,26 +2114,6 @@
                 "examples": [
                     "Открой окно — жарко."
                 ]
-            },
-            {
-                "word": "портфель",
-                "image": "images/vocabulary/actions/to go to work.png",
-                "level": "starter",
-                "theme": "furniture_objects",
-                "emoji": "💼",
-                "form": "noun",
-                "classification": "regular",
-                "countability": "countable",
-                "gender": "masculine",
-                "definitions": [
-                    {
-                        "text": "Плоская сумка для переноски бумаг и документов.",
-                        "examples": [
-                            "Он носит свои документы в портфеле."
-                        ]
-                    }
-                ],
-                "transcription": "/pɐrtˈfʲelʲ/"
             }
         ],
         "gender": "neuter",
@@ -2180,7 +2122,7 @@
         "countability": "countable",
         "plural": "окна",
         "subtext": "открыть окно, подоконник",
-        "transcription": "/akˈno/"
+        "transcription": "akˈno"
     },
     {
         "id": "ru_starter_jobs_004",
@@ -2203,7 +2145,7 @@
         "countability": "countable",
         "plural": "медсёстры",
         "subtext": "медицинский брат, помощник врача",
-        "transcription": "/mʲitsʲisˈtra/"
+        "transcription": "mʲitsʲisˈtra"
     },
     {
         "id": "ru_starter_jobs_005",
@@ -2226,7 +2168,7 @@
         "countability": "countable",
         "plural": "водители",
         "subtext": "шофёр, водитель автобуса",
-        "transcription": "/vaˈdʲitʲilʲ/"
+        "transcription": "vaˈdʲitʲilʲ"
     },
     {
         "id": "ru_starter_jobs_006",
@@ -2249,7 +2191,7 @@
         "countability": "countable",
         "plural": "повара",
         "subtext": "шеф-повар, кулинар",
-        "transcription": "/ˈpovəʁ/"
+        "transcription": "ˈpovəʁ"
     },
     {
         "id": "ru_starter_jobs_007",
@@ -2276,7 +2218,7 @@
             "руководитель",
             "директор"
         ],
-        "transcription": "/ˈmɛnɨdʐɨʁ/"
+        "transcription": "ˈmɛnɨdʐɨʁ"
     },
     {
         "id": "ru_starter_travel_024",
@@ -2299,7 +2241,7 @@
         "countability": "countable",
         "plural": "самолёты",
         "subtext": "лететь на самолёте, рейс",
-        "transcription": "/samaˈlʲot/"
+        "transcription": "samaˈlʲot"
     },
     {
         "id": "ru_starter_travel_025",
@@ -2322,7 +2264,7 @@
         "countability": "countable",
         "plural": "велосипеды",
         "subtext": "велик, кататься на велосипеде",
-        "transcription": "/vʲilasʲiˈpʲet/"
+        "transcription": "vʲilasʲiˈpʲet"
     },
     {
         "id": "ru_starter_places_029",
@@ -2345,7 +2287,7 @@
         "countability": "countable",
         "plural": "больницы",
         "subtext": "госпиталь, лежать в больнице",
-        "transcription": "/balʲˈnʲitsə/"
+        "transcription": "balʲˈnʲitsə"
     },
     {
         "id": "ru_starter_places_030",
@@ -2368,7 +2310,7 @@
         "countability": "countable",
         "plural": "рестораны",
         "subtext": "итальянский ресторан, идти в ресторан",
-        "transcription": "/ʁʲistaˈran/"
+        "transcription": "ʁʲistaˈran"
     },
     {
         "id": "ru_starter_places_031",
@@ -2390,7 +2332,8 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "банки",
-        "subtext": "банковский счёт, пойти в банк"
+        "subtext": "банковский счёт, пойти в банк",
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_032",
@@ -2416,7 +2359,8 @@
         "synonyms": [
             "вокзал",
             "автобусная остановка"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_033",
@@ -2439,7 +2383,7 @@
         "countability": "countable",
         "plural": "супермаркеты",
         "subtext": "зайти в супермаркет",
-        "transcription": "/supʲiʁˈmaʁkʲit/"
+        "transcription": "supʲiʁˈmaʁkʲit"
     },
     {
         "id": "ru_starter_nature_021",
@@ -2462,7 +2406,7 @@
         "countability": "countable",
         "plural": null,
         "subtext": "яркое солнце, утреннее солнце",
-        "transcription": "/ˈsontsə/",
+        "transcription": "ˈsontsə",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "sъlnьce"
@@ -2489,7 +2433,7 @@
         "countability": "countable",
         "plural": null,
         "subtext": "сильный дождь, резиновые сапоги",
-        "transcription": "/doʃtʲ/",
+        "transcription": "doʃtʲ",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "dъždь"
@@ -2516,7 +2460,7 @@
         "countability": "countable",
         "plural": null,
         "subtext": "сильный ветер, холодный ветер",
-        "transcription": "/ˈvʲetʲiʁ/",
+        "transcription": "ˈvʲetʲiʁ",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "větrъ"
@@ -2547,7 +2491,7 @@
             "спокойной ночи",
             "ночью"
         ],
-        "transcription": "/notʃʲ/",
+        "transcription": "notʃʲ",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "noťь"
@@ -2570,7 +2514,7 @@
         ],
         "emoji": "⏭️",
         "subtext": "завтра утром, до завтра",
-        "transcription": "/ˈzaftrə/"
+        "transcription": "ˈzaftrə"
     },
     {
         "id": "ru_starter_people_017",
@@ -2592,13 +2536,12 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "мужья",
-        "oppositeEmoji": "👩",
         "subtext": "",
         "synonyms": [
             "супруг",
             "партнёр"
         ],
-        "transcription": "/muʂ/",
+        "transcription": "muʂ",
         "antonyms": [
             "жена"
         ]
@@ -2623,13 +2566,12 @@
         "classification": "regular",
         "countability": "countable",
         "plural": "жёны",
-        "oppositeEmoji": "👨",
         "subtext": "",
         "synonyms": [
             "супруга",
             "партнёрша"
         ],
-        "transcription": "/ʐɨˈna/",
+        "transcription": "ʐɨˈna",
         "antonyms": [
             "муж"
         ]
@@ -2659,7 +2601,7 @@
             "малыш",
             "дитя"
         ],
-        "transcription": "/rʲiˈbʲonək/"
+        "transcription": "rʲiˈbʲonək"
     },
     {
         "id": "ru_starter_people_020",
@@ -2685,7 +2627,7 @@
         "synonyms": [
             "мать или отец"
         ],
-        "transcription": "/raˈdʲitʲilʲ/"
+        "transcription": "raˈdʲitʲilʲ"
     }
 ];
     const lang = "ru";

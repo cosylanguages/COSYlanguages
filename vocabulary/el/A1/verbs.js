@@ -22,13 +22,22 @@ const data = [
         "aspect": "stative",
         "v3": "υπάρξει",
         "group": "1st_conj",
-        "transcription": "/ˈime/",
+        "transcription": "ˈime",
         "auxiliary": "έχω",
         "tenses": {
             "present_simple": {
-                "positive": ["είμαι", "είσαι", "είναι", "είμαστε", "είστε", "είναι"]
+                "positive": [
+                    "είμαι",
+                    "είσαι",
+                    "είναι",
+                    "είμαστε",
+                    "είστε",
+                    "είναι"
+                ]
             }
-        }
+        },
+        "id": "el_starter_verbs_001",
+        "lang": "el"
     },
     {
         "word": "έχω",
@@ -54,13 +63,22 @@ const data = [
         "aspect": "stative",
         "v3": "έχει",
         "group": "1st_conj",
-        "transcription": "/ˈexo/",
+        "transcription": "ˈexo",
         "auxiliary": "έχω",
         "tenses": {
             "present_simple": {
-                "positive": ["έχω", "έχεις", "έχει", "έχουμε", "έχετε", "έχουν"]
+                "positive": [
+                    "έχω",
+                    "έχεις",
+                    "έχει",
+                    "έχουμε",
+                    "έχετε",
+                    "έχουν"
+                ]
             }
-        }
+        },
+        "id": "el_starter_verbs_002",
+        "lang": "el"
     },
     {
         "word": "νιώθω",
@@ -83,7 +101,10 @@ const data = [
         "aspect": "both",
         "v3": "νιώσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_003",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "δίνω",
@@ -91,8 +112,6 @@ const data = [
         "theme": "shopping",
         "emoji": "🎁",
         "subtext": "δίνω συμβουλές / δίνω χρήματα / δίνω δώρο",
-        "opposite": "παίρνω",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -107,8 +126,13 @@ const data = [
         "aspect": "action",
         "v3": "δώσει",
         "group": "1st_conj",
-        "transcription": "/ˈðino/",
-        "auxiliary": "έχω"
+        "transcription": "ˈðino",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_004",
+        "lang": "el",
+        "antonyms": [
+            "παίρνω"
+        ]
     },
     {
         "word": "παίρνω",
@@ -119,8 +143,6 @@ const data = [
         "synonyms": [
             "κάνω διάλειμμα"
         ],
-        "opposite": "δίνω",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -135,8 +157,13 @@ const data = [
         "aspect": "action",
         "v3": "πάρει",
         "group": "1st_conj",
-        "transcription": "/ˈperno/",
-        "auxiliary": "έχω"
+        "transcription": "ˈperno",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_005",
+        "lang": "el",
+        "antonyms": [
+            "δίνω"
+        ]
     },
     {
         "word": "παίρνω",
@@ -164,8 +191,10 @@ const data = [
         "aspect": "action",
         "v3": "πάρει",
         "group": "1st_conj",
-        "transcription": "/ˈperno/",
-        "auxiliary": "έχω"
+        "transcription": "ˈperno",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_006",
+        "lang": "el"
     },
     {
         "word": "βάζω",
@@ -190,8 +219,10 @@ const data = [
         "aspect": "action",
         "v3": "βάλει",
         "group": "1st_conj",
-        "transcription": "/ˈvazo/",
-        "auxiliary": "έχω"
+        "transcription": "ˈvazo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_007",
+        "lang": "el"
     },
     {
         "word": "φτιάχνω",
@@ -217,7 +248,10 @@ const data = [
         "aspect": "action",
         "v3": "φτιάξει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_008",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "κάνω",
@@ -239,8 +273,10 @@ const data = [
         "aspect": "action",
         "v3": "κάνει",
         "group": "1st_conj",
-        "transcription": "/ˈkano/",
-        "auxiliary": "έχω"
+        "transcription": "ˈkano",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_009",
+        "lang": "el"
     },
     {
         "word": "χρησιμοποιώ",
@@ -262,8 +298,10 @@ const data = [
         "aspect": "action",
         "v3": "χρησιμοποιήσει",
         "group": "1st_conj",
-        "transcription": "/xrisimopiˈo/",
-        "auxiliary": "έχω"
+        "transcription": "xrisimopiˈo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_010",
+        "lang": "el"
     },
     {
         "word": "ανοίγω",
@@ -271,8 +309,6 @@ const data = [
         "theme": "shopping",
         "emoji": "📖",
         "subtext": "ανοίγω πόρτα / ανοίγω λογαριασμό / ανοίγω μαγαζί",
-        "opposite": "κλείνω",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -287,9 +323,14 @@ const data = [
         "aspect": "action",
         "v3": "ανοίξει",
         "group": "1st_conj",
-        "transcription": "/aˈniɣo/",
+        "transcription": "aˈniɣo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_011",
+        "lang": "el",
+        "antonyms": [
+            "κλείνω"
+        ]
     },
     {
         "word": "κλείνω",
@@ -297,8 +338,6 @@ const data = [
         "theme": "shopping",
         "emoji": "🔒",
         "subtext": "κλείνω πόρτα / κλείνω στις έξι / κλείνω λογαριασμό",
-        "opposite": "ανοίγω",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -313,9 +352,14 @@ const data = [
         "aspect": "action",
         "v3": "κλείσει",
         "group": "1st_conj",
-        "transcription": "/ˈklino/",
+        "transcription": "ˈklino",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_012",
+        "lang": "el",
+        "antonyms": [
+            "ανοίγω"
+        ]
     },
     {
         "word": "ξεκινώ",
@@ -323,8 +367,6 @@ const data = [
         "theme": "work",
         "emoji": "▶️",
         "subtext": "ξεκινώ δουλειά / ξεκινώ συνάντηση / ξεκινώ νέα δουλειά",
-        "opposite": "τελειώνω",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -339,7 +381,13 @@ const data = [
         "aspect": "action",
         "v3": "ξεκινήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_013",
+        "lang": "el",
+        "transcription": "",
+        "antonyms": [
+            "τελειώνω"
+        ]
     },
     {
         "word": "τελειώνω",
@@ -347,8 +395,6 @@ const data = [
         "theme": "work",
         "emoji": "🏁",
         "subtext": "τελειώνω δουλειά / τελειώνω έργο / τελειώνω νωρίς",
-        "opposite": "ξεκινώ",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -363,9 +409,14 @@ const data = [
         "aspect": "action",
         "v3": "τελειώσει",
         "group": "1st_conj",
-        "transcription": "/teliˈono/",
+        "transcription": "teliˈono",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_014",
+        "lang": "el",
+        "antonyms": [
+            "ξεκινώ"
+        ]
     },
     {
         "word": "βοηθώ",
@@ -390,8 +441,10 @@ const data = [
         "aspect": "action",
         "v3": "βοηθήσει",
         "group": "1st_conj",
-        "transcription": "/voiˈθo/",
-        "auxiliary": "έχω"
+        "transcription": "voiˈθo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_015",
+        "lang": "el"
     },
     {
         "word": "προσπαθώ",
@@ -416,7 +469,10 @@ const data = [
         "aspect": "action",
         "v3": "προσπαθήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_016",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "δείχνω",
@@ -438,8 +494,10 @@ const data = [
         "aspect": "action",
         "v3": "δείξει",
         "group": "1st_conj",
-        "transcription": "/ˈðixno/",
-        "auxiliary": "έχω"
+        "transcription": "ˈðixno",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_017",
+        "lang": "el"
     },
     {
         "word": "βρίσκω",
@@ -464,8 +522,10 @@ const data = [
         "aspect": "action",
         "v3": "βρει",
         "group": "1st_conj",
-        "transcription": "/ˈvrisko/",
-        "auxiliary": "έχω"
+        "transcription": "ˈvrisko",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_018",
+        "lang": "el"
     },
     {
         "word": "κρατώ",
@@ -491,7 +551,10 @@ const data = [
         "aspect": "both",
         "v3": "κρατήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_019",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "χάνω",
@@ -499,8 +562,6 @@ const data = [
         "theme": "shopping",
         "emoji": "📉",
         "subtext": "χάνω δουλειά / χάνω χρήματα / χάνω βάρος",
-        "opposite": "κερδίζω",
-        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -516,8 +577,13 @@ const data = [
         "aspect": "action",
         "v3": "χάσει",
         "group": "1st_conj",
-        "transcription": "/ˈxano/",
-        "auxiliary": "έχω"
+        "transcription": "ˈxano",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_020",
+        "lang": "el",
+        "antonyms": [
+            "κερδίζω"
+        ]
     },
     {
         "word": "κόβω",
@@ -542,8 +608,10 @@ const data = [
         "aspect": "action",
         "v3": "κόψει",
         "group": "1st_conj",
-        "transcription": "/ˈkovo/",
-        "auxiliary": "έχω"
+        "transcription": "ˈkovo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_021",
+        "lang": "el"
     },
     {
         "word": "στρίβω",
@@ -569,9 +637,11 @@ const data = [
         "aspect": "action",
         "v3": "στρίψει",
         "group": "1st_conj",
-        "transcription": "/ˈstrivo/",
+        "transcription": "ˈstrivo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_022",
+        "lang": "el"
     },
     {
         "word": "φέρνω",
@@ -593,8 +663,10 @@ const data = [
         "aspect": "action",
         "v3": "φέρει",
         "group": "1st_conj",
-        "transcription": "/ˈferno/",
-        "auxiliary": "έχω"
+        "transcription": "ˈferno",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_023",
+        "lang": "el"
     },
     {
         "word": "λέω",
@@ -616,8 +688,10 @@ const data = [
         "aspect": "action",
         "v3": "πει",
         "group": "1st_conj",
-        "transcription": "/ˈleo/",
-        "auxiliary": "έχω"
+        "transcription": "ˈleo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_024",
+        "lang": "el"
     },
     {
         "word": "λέω",
@@ -639,8 +713,10 @@ const data = [
         "aspect": "action",
         "v3": "πει",
         "group": "1st_conj",
-        "transcription": "/ˈleo/",
-        "auxiliary": "έχω"
+        "transcription": "ˈleo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_025",
+        "lang": "el"
     },
     {
         "word": "ρωτώ",
@@ -666,7 +742,10 @@ const data = [
         "aspect": "action",
         "v3": "ρωτήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_026",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "μιλώ",
@@ -688,7 +767,10 @@ const data = [
         "aspect": "action",
         "v3": "μιλήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_027",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "μιλάω",
@@ -715,9 +797,11 @@ const data = [
         "aspect": "action",
         "v3": "μιλήσει",
         "group": "1st_conj",
-        "transcription": "/miˈlao/",
+        "transcription": "miˈlao",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_028",
+        "lang": "el"
     },
     {
         "word": "καλώ",
@@ -742,7 +826,10 @@ const data = [
         "aspect": "action",
         "v3": "καλέσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_029",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "γράφω",
@@ -750,8 +837,6 @@ const data = [
         "theme": "school",
         "emoji": "✍️",
         "subtext": "γράφω email / γράφω αναφορά / γράφω γράμμα",
-        "opposite": "διαβάζω",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -766,8 +851,13 @@ const data = [
         "aspect": "action",
         "v3": "γράψει",
         "group": "1st_conj",
-        "transcription": "/ˈɣrafo/",
-        "auxiliary": "έχω"
+        "transcription": "ˈɣrafo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_030",
+        "lang": "el",
+        "antonyms": [
+            "διαβάζω"
+        ]
     },
     {
         "word": "διαβάζω",
@@ -775,8 +865,6 @@ const data = [
         "theme": "school",
         "emoji": "📖",
         "subtext": "διαβάζω βιβλίο / διαβάζω ειδήσεις / διαβάζω συμβόλαιο",
-        "opposite": "γράφω",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -791,8 +879,13 @@ const data = [
         "aspect": "action",
         "v3": "διαβάσει",
         "group": "1st_conj",
-        "transcription": "/ðiaˈvazo/",
-        "auxiliary": "έχω"
+        "transcription": "ðiaˈvazo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_031",
+        "lang": "el",
+        "antonyms": [
+            "γράφω"
+        ]
     },
     {
         "word": "ακούω",
@@ -814,9 +907,11 @@ const data = [
         "aspect": "action",
         "v3": "ακούσει",
         "group": "1st_conj",
-        "transcription": "/aˈkuo/",
+        "transcription": "aˈkuo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_032",
+        "lang": "el"
     },
     {
         "word": "απαντώ",
@@ -838,7 +933,10 @@ const data = [
         "aspect": "action",
         "v3": "απαντήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_033",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "επαναλαμβάνω",
@@ -863,9 +961,11 @@ const data = [
         "aspect": "action",
         "v3": "επαναλάβει",
         "group": "1st_conj",
-        "transcription": "/epanalavˈvano/",
+        "transcription": "epanalavˈvano",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_034",
+        "lang": "el"
     },
     {
         "word": "πηγαίνω",
@@ -890,8 +990,10 @@ const data = [
         "aspect": "action",
         "v3": "πάει",
         "group": "1st_conj",
-        "transcription": "/piˈʝeno/",
-        "auxiliary": "έχω"
+        "transcription": "piˈʝeno",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_035",
+        "lang": "el"
     },
     {
         "word": "έρχομαι",
@@ -902,8 +1004,6 @@ const data = [
         "synonyms": [
             "επιστρέφω"
         ],
-        "opposite": "πηγαίνω",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -918,8 +1018,13 @@ const data = [
         "aspect": "action",
         "v3": "έρθει",
         "group": "1st_conj",
-        "transcription": "/ˈerxome/",
-        "auxiliary": "έχω"
+        "transcription": "ˈerxome",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_036",
+        "lang": "el",
+        "antonyms": [
+            "πηγαίνω"
+        ]
     },
     {
         "word": "περπατώ",
@@ -941,7 +1046,10 @@ const data = [
         "aspect": "action",
         "v3": "περπατήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_037",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "οδηγώ",
@@ -963,8 +1071,10 @@ const data = [
         "aspect": "action",
         "v3": "οδηγήσει",
         "group": "1st_conj",
-        "transcription": "/oðiˈɣo/",
-        "auxiliary": "έχω"
+        "transcription": "oðiˈɣo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_038",
+        "lang": "el"
     },
     {
         "word": "πετώ",
@@ -986,7 +1096,10 @@ const data = [
         "aspect": "action",
         "v3": "πετάξει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_039",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "φτάνω",
@@ -1008,9 +1121,11 @@ const data = [
         "aspect": "action",
         "v3": "φτάσει",
         "group": "1st_conj",
-        "transcription": "/ˈftano/",
+        "transcription": "ˈftano",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_040",
+        "lang": "el"
     },
     {
         "word": "φεύγω",
@@ -1032,8 +1147,10 @@ const data = [
         "aspect": "action",
         "v3": "φύγει",
         "group": "1st_conj",
-        "transcription": "/ˈfefɣo/",
-        "auxiliary": "έχω"
+        "transcription": "ˈfefɣo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_041",
+        "lang": "el"
     },
     {
         "word": "μετακινούμαι",
@@ -1060,8 +1177,10 @@ const data = [
         "aspect": "action",
         "v3": "μετακινηθεί",
         "group": "1st_conj",
-        "transcription": "/metaciˈnume/",
-        "auxiliary": "έχω"
+        "transcription": "metaciˈnume",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_042",
+        "lang": "el"
     },
     {
         "word": "επιστρέφω",
@@ -1083,9 +1202,11 @@ const data = [
         "aspect": "action",
         "v3": "επιστρέψει",
         "group": "1st_conj",
-        "transcription": "/epiˈstrefo/",
+        "transcription": "epiˈstrefo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_043",
+        "lang": "el"
     },
     {
         "word": "ταξιδεύω",
@@ -1107,13 +1228,14 @@ const data = [
         "aspect": "action",
         "v3": "ταξιδέψει",
         "group": "1st_conj",
-        "transcription": "/taksiˈðevo/",
+        "transcription": "taksiˈðevo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_044",
+        "lang": "el"
     },
     {
         "word": "τρώω",
-        "image": "images/vocabulary/actions/to eat.png",
         "level": "starter",
         "theme": "food_drink",
         "emoji": "🍎",
@@ -1122,8 +1244,6 @@ const data = [
             "μεσημεριανό",
             "βραδινό"
         ],
-        "opposite": "πίνω",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1138,18 +1258,20 @@ const data = [
         "aspect": "action",
         "v3": "φάει",
         "group": "1st_conj",
-        "transcription": "/ˈtroo/",
-        "auxiliary": "έχω"
+        "transcription": "ˈtroo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_045",
+        "lang": "el",
+        "antonyms": [
+            "πίνω"
+        ]
     },
     {
         "word": "πίνω",
-        "image": "images/vocabulary/actions/to drink.png",
         "level": "starter",
         "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "πίνω καφέ / πίνω τσάι / πίνω νερό",
-        "opposite": "τρώω",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1164,18 +1286,20 @@ const data = [
         "aspect": "action",
         "v3": "πιει",
         "group": "1st_conj",
-        "transcription": "/ˈpino/",
-        "auxiliary": "έχω"
+        "transcription": "ˈpino",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_046",
+        "lang": "el",
+        "antonyms": [
+            "τρώω"
+        ]
     },
     {
         "word": "κοιμάμαι",
-        "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
         "theme": "time",
         "emoji": "😴",
         "subtext": "κοιμάμαι καλά / κοιμάμαι άσχημα / κοιμάμαι οκτώ ώρες",
-        "opposite": "ξυπνάω",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1190,12 +1314,16 @@ const data = [
         "aspect": "action",
         "v3": "κοιμηθεί",
         "group": "1st_conj",
-        "transcription": "/ciˈmame/",
-        "auxiliary": "έχω"
+        "transcription": "ciˈmame",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_047",
+        "lang": "el",
+        "antonyms": [
+            "ξυπνάω"
+        ]
     },
     {
         "word": "μαγειρεύω",
-        "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
         "theme": "cooking_methods",
         "emoji": "🍳",
@@ -1214,13 +1342,14 @@ const data = [
         "aspect": "action",
         "v3": "μαγειρέψει",
         "group": "1st_conj",
-        "transcription": "/maʝiˈrevo/",
+        "transcription": "maʝiˈrevo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_048",
+        "lang": "el"
     },
     {
         "word": "καθαρίζω",
-        "image": "images/vocabulary/actions/to clean. to sweep.png",
         "level": "starter",
         "theme": "furniture",
         "emoji": "🧹",
@@ -1239,9 +1368,11 @@ const data = [
         "aspect": "action",
         "v3": "καθαρίσει",
         "group": "1st_conj",
-        "transcription": "/kaθaˈrizo/",
+        "transcription": "kaθaˈrizo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_049",
+        "lang": "el"
     },
     {
         "word": "φοράω",
@@ -1263,12 +1394,13 @@ const data = [
         "aspect": "action",
         "v3": "φορέσει",
         "group": "1st_conj",
-        "transcription": "/foˈrao/",
-        "auxiliary": "έχω"
+        "transcription": "foˈrao",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_050",
+        "lang": "el"
     },
     {
         "word": "πλένω",
-        "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
         "level": "starter",
         "theme": "furniture",
         "emoji": "🧼",
@@ -1287,9 +1419,11 @@ const data = [
         "aspect": "action",
         "v3": "πλύνει",
         "group": "1st_conj",
-        "transcription": "/ˈpleno/",
+        "transcription": "ˈpleno",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_051",
+        "lang": "el"
     },
     {
         "word": "αγοράζω",
@@ -1297,8 +1431,6 @@ const data = [
         "theme": "shopping",
         "emoji": "🛒",
         "subtext": "αγοράζω φαγητό / αγοράζω εισιτήριο",
-        "opposite": "πουλώ",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1313,8 +1445,13 @@ const data = [
         "aspect": "action",
         "v3": "αγοράσει",
         "group": "1st_conj",
-        "transcription": "/aˈɣorazo/",
-        "auxiliary": "έχω"
+        "transcription": "aˈɣorazo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_052",
+        "lang": "el",
+        "antonyms": [
+            "πουλώ"
+        ]
     },
     {
         "word": "πληρώνω",
@@ -1339,8 +1476,10 @@ const data = [
         "aspect": "action",
         "v3": "πληρώσει",
         "group": "1st_conj",
-        "transcription": "/pliˈrono/",
-        "auxiliary": "έχω"
+        "transcription": "pliˈrono",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_053",
+        "lang": "el"
     },
     {
         "word": "ξοδεύω",
@@ -1362,8 +1501,10 @@ const data = [
         "aspect": "action",
         "v3": "ξοδέψει",
         "group": "1st_conj",
-        "transcription": "/ksoˈðevo/",
-        "auxiliary": "έχω"
+        "transcription": "ksoˈðevo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_054",
+        "lang": "el"
     },
     {
         "word": "αποταμιεύω",
@@ -1371,8 +1512,6 @@ const data = [
         "theme": "shopping",
         "emoji": "💰",
         "subtext": "αποταμιεύω χρήματα / αποταμιεύω για σπίτι",
-        "opposite": "ξοδεύω",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1387,9 +1526,14 @@ const data = [
         "aspect": "action",
         "v3": "αποταμιεύσει",
         "group": "1st_conj",
-        "transcription": "/apotamiˈevo/",
+        "transcription": "apotamiˈevo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_055",
+        "lang": "el",
+        "antonyms": [
+            "ξοδεύω"
+        ]
     },
     {
         "word": "δουλεύω",
@@ -1411,9 +1555,11 @@ const data = [
         "aspect": "action",
         "v3": "δουλέψει",
         "group": "1st_conj",
-        "transcription": "/ðuˈlevo/",
+        "transcription": "ðuˈlevo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_056",
+        "lang": "el"
     },
     {
         "word": "ζω",
@@ -1421,8 +1567,6 @@ const data = [
         "theme": "places",
         "emoji": "🏠",
         "subtext": "ζω σε διαμέρισμα / ζω μόνος / ζω με κάποιον",
-        "opposite": "πεθαίνω",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1437,9 +1581,14 @@ const data = [
         "aspect": "stative",
         "v3": "ζήσει",
         "group": "1st_conj",
-        "transcription": "/zo/",
+        "transcription": "zo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_057",
+        "lang": "el",
+        "antonyms": [
+            "πεθαίνω"
+        ]
     },
     {
         "word": "σκέφτομαι",
@@ -1464,7 +1613,10 @@ const data = [
         "aspect": "both",
         "v3": "σκεφτεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_058",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "ξέρω",
@@ -1489,8 +1641,10 @@ const data = [
         "aspect": "stative",
         "v3": "ξέρει",
         "group": "1st_conj",
-        "transcription": "/ˈksero/",
-        "auxiliary": "έχω"
+        "transcription": "ˈksero",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_059",
+        "lang": "el"
     },
     {
         "word": "θέλω",
@@ -1513,9 +1667,11 @@ const data = [
         "aspect": "stative",
         "v3": "θέλει",
         "group": "1st_conj",
-        "transcription": "/ˈθelo/",
+        "transcription": "ˈθelo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_060",
+        "lang": "el"
     },
     {
         "word": "χρειάζομαι",
@@ -1541,12 +1697,13 @@ const data = [
         "aspect": "stative",
         "v3": "χρειαστεί",
         "group": "1st_conj",
-        "transcription": "/xriˈazome/",
-        "auxiliary": "έχω"
+        "transcription": "xriˈazome",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_061",
+        "lang": "el"
     },
     {
         "word": "μου αρέσει",
-        "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
         "theme": "emotions",
         "emoji": "👍",
@@ -1566,8 +1723,10 @@ const data = [
         "aspect": "stative",
         "v3": "αρέσει",
         "group": "1st_conj",
-        "transcription": "/mu aˈresi/",
-        "auxiliary": "έχω"
+        "transcription": "mu aˈresi",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_062",
+        "lang": "el"
     },
     {
         "word": "αγαπώ",
@@ -1589,7 +1748,10 @@ const data = [
         "aspect": "stative",
         "v3": "αγαπήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_063",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "μισώ",
@@ -1611,8 +1773,10 @@ const data = [
         "aspect": "stative",
         "v3": "μισήσει",
         "group": "1st_conj",
-        "transcription": "/miˈso/",
-        "auxiliary": "έχω"
+        "transcription": "miˈso",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_064",
+        "lang": "el"
     },
     {
         "word": "ελπίζω",
@@ -1634,9 +1798,11 @@ const data = [
         "aspect": "stative",
         "v3": "ελπίσει",
         "group": "1st_conj",
-        "transcription": "/elˈpizo/",
+        "transcription": "elˈpizo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_065",
+        "lang": "el"
     },
     {
         "word": "θυμάμαι",
@@ -1658,8 +1824,10 @@ const data = [
         "aspect": "stative",
         "v3": "θυμηθεί",
         "group": "1st_conj",
-        "transcription": "/θiˈmame/",
-        "auxiliary": "έχω"
+        "transcription": "θiˈmame",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_066",
+        "lang": "el"
     },
     {
         "word": "ξεχνώ",
@@ -1681,7 +1849,10 @@ const data = [
         "aspect": "stative",
         "v3": "ξεχάσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_067",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "καταλαβαίνω",
@@ -1703,8 +1874,10 @@ const data = [
         "aspect": "stative",
         "v3": "καταλάβει",
         "group": "1st_conj",
-        "transcription": "/katalaveno/",
-        "auxiliary": "έχω"
+        "transcription": "katalaveno",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_068",
+        "lang": "el"
     },
     {
         "word": "αποφασίζω",
@@ -1729,9 +1902,11 @@ const data = [
         "aspect": "stative",
         "v3": "αποφασίσει",
         "group": "1st_conj",
-        "transcription": "/apofaˈsizo/",
+        "transcription": "apofaˈsizo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_069",
+        "lang": "el"
     },
     {
         "word": "απολαμβάνω",
@@ -1753,9 +1928,11 @@ const data = [
         "aspect": "stative",
         "v3": "απολαύσει",
         "group": "1st_conj",
-        "transcription": "/apolamˈvano/",
+        "transcription": "apolamˈvano",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_070",
+        "lang": "el"
     },
     {
         "word": "βλέπω",
@@ -1777,8 +1954,10 @@ const data = [
         "aspect": "both",
         "v3": "δει",
         "group": "1st_conj",
-        "transcription": "/ˈvlepo/",
-        "auxiliary": "έχω"
+        "transcription": "ˈvlepo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_071",
+        "lang": "el"
     },
     {
         "word": "ακούω",
@@ -1800,19 +1979,18 @@ const data = [
         "aspect": "both",
         "v3": "ακούσει",
         "group": "1st_conj",
-        "transcription": "/aˈkuo/",
-        "auxiliary": "έχω"
+        "transcription": "aˈkuo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_072",
+        "lang": "el"
     },
     {
         "word": "ξυπνάω",
-        "image": "images/vocabulary/actions/to wake up.png",
         "level": "starter",
         "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "ξυπνάω νωρίς / ξυπνάω στις 7 / ξυπνάω κουρασμένος",
-        "opposite": "κοιμάμαι",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Σταματώ να κοιμάμαι και ανοίγω τα μάτια.",
@@ -1826,8 +2004,13 @@ const data = [
         "aspect": "action",
         "v3": "ξυπνήσει",
         "group": "1st_conj",
-        "transcription": "/ksiˈpnao/",
-        "auxiliary": "έχω"
+        "transcription": "ksiˈpnao",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_073",
+        "lang": "el",
+        "antonyms": [
+            "κοιμάμαι"
+        ]
     },
     {
         "word": "βλέπω",
@@ -1849,9 +2032,11 @@ const data = [
         "aspect": "action",
         "v3": "δει",
         "group": "1st_conj",
-        "transcription": "/ˈvlepo/",
+        "transcription": "ˈvlepo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_074",
+        "lang": "el"
     },
     {
         "word": "κοιτάζω",
@@ -1878,7 +2063,10 @@ const data = [
         "v3": "κοιτάξει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_075",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "παίζω",
@@ -1900,9 +2088,11 @@ const data = [
         "aspect": "action",
         "v3": "παίξει",
         "group": "1st_conj",
-        "transcription": "/ˈpezo/",
+        "transcription": "ˈpezo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_076",
+        "lang": "el"
     },
     {
         "word": "τρέχω",
@@ -1927,8 +2117,10 @@ const data = [
         "aspect": "action",
         "v3": "τρέξει",
         "group": "1st_conj",
-        "transcription": "/ˈtrexo/",
-        "auxiliary": "έχω"
+        "transcription": "ˈtrexo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_077",
+        "lang": "el"
     },
     {
         "word": "κάθομαι",
@@ -1936,8 +2128,6 @@ const data = [
         "theme": "work",
         "emoji": "🪑",
         "subtext": "κάθομαι / κάθομαι στο γραφείο / κάθομαι σε συνάντηση",
-        "opposite": "στέκομαι",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -1952,8 +2142,13 @@ const data = [
         "aspect": "action",
         "v3": "καθίσει",
         "group": "1st_conj",
-        "transcription": "/ˈkaθome/",
-        "auxiliary": "έχω"
+        "transcription": "ˈkaθome",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_078",
+        "lang": "el",
+        "antonyms": [
+            "στέκομαι"
+        ]
     },
     {
         "word": "στέκομαι",
@@ -1964,8 +2159,6 @@ const data = [
         "synonyms": [
             "σηκώνομαι"
         ],
-        "opposite": "κάθομαι",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -1980,8 +2173,13 @@ const data = [
         "aspect": "action",
         "v3": "σταθεί",
         "group": "1st_conj",
-        "transcription": "/ˈstecome/",
-        "auxiliary": "έχω"
+        "transcription": "ˈstecome",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_079",
+        "lang": "el",
+        "antonyms": [
+            "κάθομαι"
+        ]
     },
     {
         "word": "συναντώ",
@@ -2006,7 +2204,10 @@ const data = [
             "συναντιόμαστε για μεσημεριανό"
         ],
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_080",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "μαθαίνω",
@@ -2028,8 +2229,10 @@ const data = [
         "aspect": "action",
         "v3": "μάθει",
         "group": "1st_conj",
-        "transcription": "/maˈθeno/",
-        "auxiliary": "έχω"
+        "transcription": "maˈθeno",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_081",
+        "lang": "el"
     },
     {
         "word": "αλλάζω",
@@ -2051,9 +2254,11 @@ const data = [
         "aspect": "action",
         "v3": "αλλάξει",
         "group": "1st_conj",
-        "transcription": "/aˈlazo/",
+        "transcription": "aˈlazo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_082",
+        "lang": "el"
     },
     {
         "word": "σταματώ",
@@ -2075,7 +2280,10 @@ const data = [
         "aspect": "action",
         "v3": "σταματήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_083",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "προσθέτω",
@@ -2097,9 +2305,11 @@ const data = [
         "aspect": "action",
         "v3": "προσθέσει",
         "group": "1st_conj",
-        "transcription": "/prosˈθeto/",
+        "transcription": "prosˈθeto",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_084",
+        "lang": "el"
     },
     {
         "word": "κερδίζω",
@@ -2107,8 +2317,6 @@ const data = [
         "theme": "social",
         "emoji": "🏆",
         "subtext": "κερδίζω / κερδίζω βραβείο / κερδίζω συμβόλαιο",
-        "opposite": "χάνω",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -2122,8 +2330,13 @@ const data = [
         "aspect": "action",
         "v3": "κερδίσει",
         "group": "1st_conj",
-        "transcription": "/cerˈðizo/",
-        "auxiliary": "έχω"
+        "transcription": "cerˈðizo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_085",
+        "lang": "el",
+        "antonyms": [
+            "χάνω"
+        ]
     },
     {
         "word": "περιμένω",
@@ -2145,9 +2358,11 @@ const data = [
         "aspect": "action",
         "v3": "περιμένει",
         "group": "1st_conj",
-        "transcription": "/periˈmeno/",
+        "transcription": "periˈmeno",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_086",
+        "lang": "el"
     },
     {
         "word": "πεθαίνω",
@@ -2158,8 +2373,6 @@ const data = [
         "synonyms": [
             "εξαφανίζομαι"
         ],
-        "opposite": "ζω",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -2173,9 +2386,14 @@ const data = [
         "aspect": "action",
         "v3": "πεθάνει",
         "group": "1st_conj",
-        "transcription": "/peˈθeno/",
+        "transcription": "peˈθeno",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_087",
+        "lang": "el",
+        "antonyms": [
+            "ζω"
+        ]
     },
     {
         "word": "στέλνω",
@@ -2197,8 +2415,10 @@ const data = [
         "v3": "στείλει",
         "subtext": "στέλνω / στέλνω email / στέλνω μήνυμα",
         "group": "1st_conj",
-        "transcription": "/ˈstelno/",
-        "auxiliary": "έχω"
+        "transcription": "ˈstelno",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_088",
+        "lang": "el"
     },
     {
         "word": "μένω",
@@ -2220,9 +2440,11 @@ const data = [
         "aspect": "action",
         "v3": "μείνει",
         "group": "1st_conj",
-        "transcription": "/ˈmeno/",
+        "transcription": "ˈmeno",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_089",
+        "lang": "el"
     },
     {
         "word": "πέφτω",
@@ -2247,8 +2469,10 @@ const data = [
         "aspect": "action",
         "v3": "πέσει",
         "group": "1st_conj",
-        "transcription": "/ˈpefto/",
-        "auxiliary": "έχω"
+        "transcription": "ˈpefto",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_090",
+        "lang": "el"
     },
     {
         "word": "περνώ",
@@ -2270,7 +2494,10 @@ const data = [
         "aspect": "action",
         "v3": "περάσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_091",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "πουλώ",
@@ -2278,8 +2505,6 @@ const data = [
         "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "πουλώ / πουλώ online / πουλώ στην αγορά",
-        "opposite": "αγοράζω",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2293,7 +2518,13 @@ const data = [
         "aspect": "action",
         "v3": "πουλήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_092",
+        "lang": "el",
+        "transcription": "",
+        "antonyms": [
+            "αγοράζω"
+        ]
     },
     {
         "word": "τραβώ",
@@ -2304,8 +2535,6 @@ const data = [
         "synonyms": [
             "απομακρύνομαι"
         ],
-        "opposite": "σπρώχνω",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2319,7 +2548,13 @@ const data = [
         "aspect": "action",
         "v3": "τραβήξει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_093",
+        "lang": "el",
+        "transcription": "",
+        "antonyms": [
+            "σπρώχνω"
+        ]
     },
     {
         "word": "σπρώχνω",
@@ -2330,8 +2565,6 @@ const data = [
         "synonyms": [
             "πατώ κουμπί"
         ],
-        "opposite": "τραβώ",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2346,9 +2579,14 @@ const data = [
         "aspect": "action",
         "v3": "σπρώξει",
         "group": "1st_conj",
-        "transcription": "/ˈsproxno/",
+        "transcription": "ˈsproxno",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_094",
+        "lang": "el",
+        "antonyms": [
+            "τραβώ"
+        ]
     },
     {
         "word": "κουβαλώ",
@@ -2370,7 +2608,10 @@ const data = [
         "aspect": "action",
         "v3": "κουβαλήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_095",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "σπάω",
@@ -2395,8 +2636,10 @@ const data = [
         "aspect": "action",
         "v3": "σπάσει",
         "group": "1st_conj",
-        "transcription": "/ˈspao/",
-        "auxiliary": "έχω"
+        "transcription": "ˈspao",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_096",
+        "lang": "el"
     },
     {
         "word": "λαμβάνω",
@@ -2419,11 +2662,13 @@ const data = [
         "v3": "λάβει",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_097",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "συμφωνώ",
-        "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
         "theme": "social",
         "emoji": "👍",
@@ -2442,12 +2687,13 @@ const data = [
         "aspect": "stative",
         "v3": "συμφωνήσει",
         "group": "1st_conj",
-        "transcription": "/simfoˈno/",
-        "auxiliary": "έχω"
+        "transcription": "simfoˈno",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_098",
+        "lang": "el"
     },
     {
         "word": "σχεδιάζω",
-        "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
         "theme": "cinema_film",
         "emoji": "🎨",
@@ -2466,8 +2712,10 @@ const data = [
         "aspect": "action",
         "v3": "σχεδιάσει",
         "group": "1st_conj",
-        "transcription": "/sçeˈðiazo/",
-        "auxiliary": "έχω"
+        "transcription": "sçeˈðiazo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_099",
+        "lang": "el"
     },
     {
         "word": "μοιράζομαι",
@@ -2489,8 +2737,10 @@ const data = [
         "aspect": "action",
         "v3": "μοιραστεί",
         "group": "1st_conj",
-        "transcription": "/miˈrazome/",
-        "auxiliary": "έχω"
+        "transcription": "miˈrazome",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_100",
+        "lang": "el"
     },
     {
         "word": "χαμογελώ",
@@ -2501,8 +2751,6 @@ const data = [
         "synonyms": [
             "πλατιά"
         ],
-        "opposite": "κλαίω",
-        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2517,7 +2765,13 @@ const data = [
         "aspect": "action",
         "v3": "χαμογελάσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_101",
+        "lang": "el",
+        "transcription": "",
+        "antonyms": [
+            "κλαίω"
+        ]
     },
     {
         "word": "κλαίω",
@@ -2525,8 +2779,6 @@ const data = [
         "theme": "emotions",
         "emoji": "😢",
         "subtext": "κλαίω / κλαίω για βοήθεια / κλαίω για κάτι",
-        "opposite": "χαμογελώ",
-        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2541,9 +2793,14 @@ const data = [
         "aspect": "action",
         "v3": "κλάψει",
         "group": "1st_conj",
-        "transcription": "/ˈkleo/",
+        "transcription": "ˈkleo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_102",
+        "lang": "el",
+        "antonyms": [
+            "χαμογελώ"
+        ]
     },
     {
         "word": "χορεύω",
@@ -2568,9 +2825,11 @@ const data = [
         "aspect": "action",
         "v3": "χορέψει",
         "group": "1st_conj",
-        "transcription": "/xoˈrevo/",
+        "transcription": "xoˈrevo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_103",
+        "lang": "el"
     },
     {
         "word": "τραγουδώ",
@@ -2595,7 +2854,10 @@ const data = [
         "aspect": "action",
         "v3": "τραγουδήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_104",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "πηδώ",
@@ -2617,7 +2879,10 @@ const data = [
         "aspect": "action",
         "v3": "πηδήξει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_105",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "κολυμπώ",
@@ -2642,7 +2907,10 @@ const data = [
         "aspect": "action",
         "v3": "κολυμπήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_106",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "σπουδάζω",
@@ -2668,9 +2936,11 @@ const data = [
         "aspect": "action",
         "v3": "σπουδάσει",
         "group": "1st_conj",
-        "transcription": "/spuˈðazo/",
+        "transcription": "spuˈðazo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_107",
+        "lang": "el"
     },
     {
         "word": "διδάσκω",
@@ -2695,8 +2965,10 @@ const data = [
         "aspect": "action",
         "v3": "διδάξει",
         "group": "1st_conj",
-        "transcription": "/ðiˈðasko/",
-        "auxiliary": "έχω"
+        "transcription": "ðiˈðasko",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_108",
+        "lang": "el"
     },
     {
         "word": "μετακινούμαι",
@@ -2721,8 +2993,10 @@ const data = [
         "aspect": "action",
         "v3": "μετακινηθεί",
         "group": "1st_conj",
-        "transcription": "/metaciˈnume/",
-        "auxiliary": "έχω"
+        "transcription": "metaciˈnume",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_109",
+        "lang": "el"
     },
     {
         "word": "νοικιάζω",
@@ -2743,9 +3017,11 @@ const data = [
         "aspect": "action",
         "v3": "νοικιάσει",
         "group": "1st_conj",
-        "transcription": "/niˈciazo/",
+        "transcription": "niˈciazo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_110",
+        "lang": "el"
     },
     {
         "word": "γυμνάζομαι",
@@ -2769,8 +3045,10 @@ const data = [
             "στο γυμναστήριο"
         ],
         "group": "1st_conj",
-        "transcription": "/ʝiˈmnazome/",
-        "auxiliary": "έχω"
+        "transcription": "ʝiˈmnazome",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_111",
+        "lang": "el"
     },
     {
         "word": "κοστίζω",
@@ -2795,8 +3073,10 @@ const data = [
             "κοστίζει χρήματα"
         ],
         "group": "1st_conj",
-        "transcription": "/koˈstizo/",
-        "auxiliary": "έχω"
+        "transcription": "koˈstizo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_112",
+        "lang": "el"
     },
     {
         "word": "προσκαλώ",
@@ -2820,12 +3100,13 @@ const data = [
             "καλώ κάποιον"
         ],
         "group": "1st_conj",
-        "transcription": "/proskaˈlo/",
-        "auxiliary": "έχω"
+        "transcription": "proskaˈlo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_113",
+        "lang": "el"
     },
     {
         "word": "σηκώνομαι",
-        "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
             {
                 "text": "Σηκώνομαι από το κρεβάτι αφού ξυπνήσω.",
@@ -2843,12 +3124,13 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/siˈconome/",
-        "auxiliary": "έχω"
+        "transcription": "siˈconome",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_114",
+        "lang": "el"
     },
     {
         "word": "τρώω πρωινό",
-        "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
             {
                 "text": "Παίρνω το πρωινό γεύμα.",
@@ -2870,8 +3152,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/ˈtroo proiˈno/",
-        "auxiliary": "έχω"
+        "transcription": "ˈtroo proiˈno",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_115",
+        "lang": "el"
     },
     {
         "word": "επιστρέφω",
@@ -2895,12 +3179,13 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/epiˈstrefo/",
-        "auxiliary": "έχω"
+        "transcription": "epiˈstrefo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_116",
+        "lang": "el"
     },
     {
         "word": "πέφτω για ύπνο",
-        "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
             {
                 "text": "Μπαίνω στο κρεβάτι για να κοιμηθώ.",
@@ -2922,7 +3207,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_117",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "ελέγχω",
@@ -2943,9 +3231,11 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/eˈleŋxo/",
+        "transcription": "eˈleŋxo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_118",
+        "lang": "el"
     },
     {
         "word": "απαντώ",
@@ -2969,7 +3259,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_119",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "παρουσιάζω",
@@ -2993,9 +3286,11 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/parusiˈazo/",
+        "transcription": "parusiˈazo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_120",
+        "lang": "el"
     },
     {
         "word": "παρευρίσκομαι",
@@ -3019,7 +3314,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_121",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "διαχειρίζομαι",
@@ -3043,8 +3341,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/ðiaçiriˈzome/",
-        "auxiliary": "έχω"
+        "transcription": "ðiaçiriˈzome",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_122",
+        "lang": "el"
     },
     {
         "word": "χρεώνω",
@@ -3065,9 +3365,11 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/çreˈono/",
+        "transcription": "çreˈono",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_123",
+        "lang": "el"
     },
     {
         "word": "έχω την οικονομική δυνατότητα",
@@ -3091,7 +3393,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_124",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "χρωστώ",
@@ -3112,7 +3417,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_125",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "κερδίζω",
@@ -3133,9 +3441,11 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/cerˈðizo/",
+        "transcription": "cerˈðizo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_126",
+        "lang": "el"
     },
     {
         "word": "επισκέπτομαι",
@@ -3160,8 +3470,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/epiˈsceptome/",
-        "auxiliary": "έχω"
+        "transcription": "epiˈsceptome",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_127",
+        "lang": "el"
     },
     {
         "word": "γιορτάζω",
@@ -3185,9 +3497,11 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/ʝiorˈtazo/",
+        "transcription": "ʝiorˈtazo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_128",
+        "lang": "el"
     },
     {
         "word": "συνιστώ",
@@ -3213,7 +3527,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_129",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "πονώ",
@@ -3238,7 +3555,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_130",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "ξεκουράζομαι",
@@ -3263,8 +3583,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/ksecuˈrazome/",
-        "auxiliary": "έχω"
+        "transcription": "ksecuˈrazome",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_131",
+        "lang": "el"
     },
     {
         "word": "αναρρώνω",
@@ -3290,7 +3612,10 @@ const data = [
         "form": "verb",
         "group": "1st_conj",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_132",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "κάνω κράτηση",
@@ -3315,8 +3640,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/ˈkano ˈkratisi/",
-        "auxiliary": "έχω"
+        "transcription": "ˈkano ˈkratisi",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_133",
+        "lang": "el"
     },
     {
         "word": "φτιάχνω βαλίτσα",
@@ -3341,7 +3668,10 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_134",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "ακυρώνω",
@@ -3362,9 +3692,11 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/aciˈrono/",
+        "transcription": "aciˈrono",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_135",
+        "lang": "el"
     },
     {
         "word": "χάνω",
@@ -3388,9 +3720,11 @@ const data = [
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/ˈxano/",
+        "transcription": "ˈxano",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_136",
+        "lang": "el"
     },
     {
         "word": "παραγγέλνω",
@@ -3414,9 +3748,11 @@ const data = [
         "aspect": "action",
         "v3": "παραγγείλει",
         "group": "1st_conj",
-        "transcription": "/paraˈŋɡelno/",
+        "transcription": "paraˈŋɡelno",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_137",
+        "lang": "el"
     },
     {
         "word": "εξηγώ",
@@ -3437,8 +3773,10 @@ const data = [
         "aspect": "action",
         "v3": "εξηγήσει",
         "group": "1st_conj",
-        "transcription": "/eksiˈɣo/",
-        "auxiliary": "έχω"
+        "transcription": "eksiˈɣo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_138",
+        "lang": "el"
     },
     {
         "word": "ευχαριστώ",
@@ -3462,8 +3800,10 @@ const data = [
         "aspect": "action",
         "v3": "ευχαριστήσει",
         "group": "1st_conj",
-        "transcription": "/efxariˈsto/",
-        "auxiliary": "έχω"
+        "transcription": "efxariˈsto",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_139",
+        "lang": "el"
     },
     {
         "word": "συστήνω",
@@ -3488,9 +3828,11 @@ const data = [
         "aspect": "action",
         "v3": "συστήσει",
         "group": "1st_conj",
-        "transcription": "/siˈstino/",
+        "transcription": "siˈstino",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_140",
+        "lang": "el"
     },
     {
         "word": "χαλαρώνω",
@@ -3515,9 +3857,11 @@ const data = [
         "aspect": "action",
         "v3": "χαλαρώσει",
         "group": "1st_conj",
-        "transcription": "/xalaˈrono/",
+        "transcription": "xalaˈrono",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_141",
+        "lang": "el"
     },
     {
         "word": "επισκευάζω",
@@ -3542,9 +3886,11 @@ const data = [
         "aspect": "action",
         "v3": "επισκευάσει",
         "group": "1st_conj",
-        "transcription": "/episcevˈazo/",
+        "transcription": "episcevˈazo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_142",
+        "lang": "el"
     },
     {
         "word": "συμβαίνει",
@@ -3568,8 +3914,10 @@ const data = [
         "aspect": "action",
         "v3": "συμβεί",
         "group": "1st_conj",
-        "transcription": "/simˈveni/",
-        "auxiliary": "έχω"
+        "transcription": "simˈveni",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_143",
+        "lang": "el"
     },
     {
         "word": "φαίνομαι",
@@ -3595,7 +3943,10 @@ const data = [
         "aspect": "stative",
         "v3": "φανεί",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_144",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "σημαίνω",
@@ -3620,7 +3971,10 @@ const data = [
         "aspect": "stative",
         "v3": "σημάνει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_145",
+        "lang": "el",
+        "transcription": ""
     },
     {
         "word": "ακολουθώ",
@@ -3644,8 +3998,10 @@ const data = [
         "aspect": "action",
         "v3": "ακολουθήσει",
         "group": "1st_conj",
-        "transcription": "/akoluˈθo/",
-        "auxiliary": "έχω"
+        "transcription": "akoluˈθo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_146",
+        "lang": "el"
     },
     {
         "word": "συνεχίζω",
@@ -3669,9 +4025,11 @@ const data = [
         "aspect": "action",
         "v3": "συνεχίσει",
         "group": "1st_conj",
-        "transcription": "/sineˈçizo/",
+        "transcription": "sineˈçizo",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_147",
+        "lang": "el"
     },
     {
         "word": "μεγαλώνω",
@@ -3696,8 +4054,10 @@ const data = [
         "aspect": "action",
         "v3": "μεγαλώσει",
         "group": "1st_conj",
-        "transcription": "/meɣaˈlono/",
-        "auxiliary": "έχω"
+        "transcription": "meɣaˈlono",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_148",
+        "lang": "el"
     },
     {
         "word": "περιλαμβάνω",
@@ -3722,9 +4082,11 @@ const data = [
         "aspect": "stative",
         "v3": "περιλάβει",
         "group": "1st_conj",
-        "transcription": "/perilamˈvano/",
+        "transcription": "perilamˈvano",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_149",
+        "lang": "el"
     },
     {
         "word": "γίνομαι",
@@ -3745,8 +4107,10 @@ const data = [
         "aspect": "action",
         "v3": "γίνει",
         "group": "1st_conj",
-        "transcription": "/ˈʝinome/",
-        "auxiliary": "έχω"
+        "transcription": "ˈʝinome",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_150",
+        "lang": "el"
     },
     {
         "word": "ανήκω",
@@ -3767,9 +4131,11 @@ const data = [
         "aspect": "stative",
         "v3": "ανήκει",
         "group": "1st_conj",
-        "transcription": "/aˈnico/",
+        "transcription": "aˈnico",
         "auxiliary": "έχω",
-        "v2": ""
+        "v2": "",
+        "id": "el_starter_verbs_151",
+        "lang": "el"
     },
     {
         "word": "επιλέγω",
@@ -3790,8 +4156,10 @@ const data = [
         "aspect": "action",
         "v3": "επιλέξει",
         "group": "1st_conj",
-        "transcription": "/epiˈleɣo/",
-        "auxiliary": "έχω"
+        "transcription": "epiˈleɣo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_152",
+        "lang": "el"
     },
     {
         "word": "χτίζω",
@@ -3812,8 +4180,10 @@ const data = [
         "aspect": "action",
         "v3": "χτίσει",
         "group": "1st_conj",
-        "transcription": "/ˈxtizo/",
-        "auxiliary": "έχω"
+        "transcription": "ˈxtizo",
+        "auxiliary": "έχω",
+        "id": "el_starter_verbs_153",
+        "lang": "el"
     }
 ];
     const lang = "el";

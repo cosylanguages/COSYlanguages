@@ -22,7 +22,10 @@
         ],
         "synonyms": [],
         "subtext": "lasagna al forno",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_dishes_001",
+        "lang": "it",
+        "emoji": "✨"
     }
 ];
     const lang = "it";

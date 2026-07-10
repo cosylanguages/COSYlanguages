@@ -1,15 +1,16 @@
 (function() {
     const data = [
-{
+    {
         "word": "medico",
-        "image": "images/vocabulary/jobs/doctor.png",
         "level": "starter",
         "theme": "jobs",
         "article": "il",
         "numberPlural": "2 medico",
         "answer": "due medici",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈmɛdiko",
         "plural": "medici",
         "definitions": [
@@ -25,15 +26,19 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_001",
+        "lang": "it"
     },
-{
+    {
         "word": "insegnante",
         "level": "starter",
         "theme": "jobs",
         "article": "l'",
         "emoji": "🧑‍🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "inseɲˈɲante",
         "plural": "insegnanti",
         "definitions": [
@@ -48,15 +53,19 @@
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_002",
+        "lang": "it"
     },
-{
+    {
         "word": "capo",
         "level": "starter",
         "theme": "work",
         "article": "il",
         "emoji": "👨‍💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "capi",
         "definitions": [
             {
@@ -71,15 +80,19 @@
         "transcription": "ˈkapo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_003",
+        "lang": "it"
     },
-{
+    {
         "word": "collega",
         "level": "starter",
         "theme": "work",
         "article": "il",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "colleghi",
         "definitions": [
             {
@@ -94,15 +107,19 @@
         "transcription": "kolˈlɛɡa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_004",
+        "lang": "it"
     },
-{
+    {
         "word": "stipendio",
         "level": "starter",
         "theme": "work",
         "article": "lo",
         "emoji": "💰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stipendi",
         "subtext": "",
         "synonyms": [
@@ -119,15 +136,19 @@
         "gender": "masculine",
         "partitive": "dello",
         "transcription": "stiˈpɛndjo",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_005",
+        "lang": "it"
     },
-{
+    {
         "word": "riunione",
         "level": "starter",
         "theme": "work",
         "article": "la",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "riunioni",
         "subtext": "",
         "synonyms": [
@@ -144,16 +165,20 @@
         "gender": "masculine",
         "partitive": "della",
         "transcription": "rjuˈnjone",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_006",
+        "lang": "it"
     },
-{
+    {
         "word": "stress",
         "level": "starter",
         "theme": "work",
         "article": "lo",
         "gender": "masculine",
         "emoji": "😫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -167,15 +192,19 @@
         "transcription": "ˈstrɛss",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_007",
+        "lang": "it"
     },
-{
+    {
         "word": "sonno",
         "level": "starter",
         "theme": "work",
         "article": "il",
         "emoji": "😴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -190,16 +219,20 @@
         "transcription": "ˈsɔnno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_008",
+        "lang": "it"
     },
-{
+    {
         "word": "infermiere",
         "level": "starter",
         "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "infermieri",
         "subtext": "",
         "synonyms": [
@@ -216,16 +249,20 @@
         ],
         "partitive": "dell'",
         "transcription": "inferˈmjɛre",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_009",
+        "lang": "it"
     },
-{
+    {
         "word": "conducente",
         "level": "starter",
         "theme": "jobs",
         "article": "il",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "conducenti",
         "subtext": "",
         "synonyms": [
@@ -242,16 +279,20 @@
         ],
         "partitive": "del",
         "transcription": "konduˈtʃɛnte",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_010",
+        "lang": "it"
     },
-{
+    {
         "word": "cuoco",
         "level": "starter",
         "theme": "jobs",
         "article": "il",
         "gender": "masculine",
         "emoji": "👨‍🍳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cuochi",
         "subtext": "",
         "synonyms": [
@@ -268,16 +309,20 @@
         ],
         "partitive": "del",
         "transcription": "ˈkwɔko",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_011",
+        "lang": "it"
     },
-{
+    {
         "word": "direttore",
         "level": "starter",
         "theme": "jobs",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "direttori",
         "subtext": "",
         "synonyms": [
@@ -294,16 +339,20 @@
         ],
         "partitive": "del",
         "transcription": "diretˈtore",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_012",
+        "lang": "it"
     },
-{
+    {
         "word": "autista",
         "level": "starter",
         "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "autisti",
         "definitions": [
             {
@@ -317,16 +366,20 @@
         "transcription": "auˈtista",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_013",
+        "lang": "it"
     },
-{
+    {
         "word": "chef",
         "level": "starter",
         "theme": "jobs",
         "article": "lo",
         "gender": "masculine",
         "emoji": "👨‍🍳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chef",
         "definitions": [
             {
@@ -340,16 +393,20 @@
         "transcription": "ˈʃɛf",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_014",
+        "lang": "it"
     },
-{
+    {
         "word": "attore",
         "level": "starter",
         "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "attori",
         "definitions": [
             {
@@ -363,16 +420,20 @@
         "transcription": "atˈtore",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_015",
+        "lang": "it"
     },
-{
+    {
         "word": "artista",
         "level": "starter",
         "theme": "jobs",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "artisti",
         "definitions": [
             {
@@ -386,16 +447,20 @@
         "transcription": "arˈtista",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_016",
+        "lang": "it"
     },
-{
+    {
         "word": "affari",
         "level": "starter",
         "theme": "work",
         "article": "gli",
         "gender": "masculine",
         "emoji": "💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "affari",
         "definitions": [
             {
@@ -409,16 +474,20 @@
         "transcription": "afˈfari",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_017",
+        "lang": "it"
     },
-{
+    {
         "word": "azienda",
         "level": "starter",
         "theme": "work",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "aziende",
         "definitions": [
             {
@@ -432,17 +501,20 @@
         "transcription": "adˈdzjɛnda",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_018",
+        "lang": "it"
     },
-{
+    {
         "word": "lavoro",
-        "image": "images/vocabulary/actions/to go to work.png",
         "level": "starter",
         "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lavori",
         "definitions": [
             {
@@ -456,16 +528,20 @@
         "transcription": "laˈvoro",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_019",
+        "lang": "it"
     },
-{
+    {
         "word": "impiego",
         "level": "starter",
         "theme": "work",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛠️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "impieghi",
         "definitions": [
             {
@@ -479,16 +555,20 @@
         "transcription": "imˈpjɛɡo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_020",
+        "lang": "it"
     },
-{
+    {
         "word": "mestiere",
         "level": "starter",
         "theme": "jobs",
         "article": "il",
         "gender": "masculine",
         "emoji": "👔",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mestieri",
         "definitions": [
             {
@@ -502,16 +582,20 @@
         "transcription": "mesˈtjɛre",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_021",
+        "lang": "it"
     },
-{
+    {
         "word": "cliente",
         "level": "starter",
         "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "clienti",
         "definitions": [
             {
@@ -525,16 +609,20 @@
         "transcription": "ˈcliente",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_022",
+        "lang": "it"
     },
-{
+    {
         "word": "piano",
         "level": "starter",
         "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "piani",
         "definitions": [
             {
@@ -548,16 +636,20 @@
         "transcription": "ˈpjano",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_023",
+        "lang": "it"
     },
-{
+    {
         "word": "progetto",
         "level": "starter",
         "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "📊",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "progetti",
         "definitions": [
             {
@@ -571,16 +663,20 @@
         "transcription": "proˈdʒɛtto",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_024",
+        "lang": "it"
     },
-{
+    {
         "word": "successo",
         "level": "starter",
         "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "🏆",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "successi",
         "definitions": [
             {
@@ -594,16 +690,20 @@
         "transcription": "sutˈtʃɛsso",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_025",
+        "lang": "it"
     },
-{
+    {
         "word": "servizio",
         "level": "starter",
         "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "servizi",
         "definitions": [
             {
@@ -617,16 +717,20 @@
         "transcription": "serˈvittsjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_026",
+        "lang": "it"
     },
-{
+    {
         "word": "clientela",
         "level": "starter",
         "theme": "work",
         "article": "la",
         "gender": "feminine",
         "emoji": "👥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "",
         "definitions": [
             {
@@ -640,11 +744,15 @@
         "transcription": "klijenˈtɛla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_027",
+        "lang": "it"
     },
-{
+    {
         "level": "starter",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "occupazione",
         "word": "occupazione",
         "theme": "jobs",
@@ -662,16 +770,21 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_028",
+        "lang": "it",
+        "emoji": "✨"
     },
-{
+    {
         "word": "rapporto",
         "level": "starter",
         "theme": "work",
         "article": "il",
         "gender": "masculine",
         "emoji": "📄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "rapporti",
         "transcription": "rapˈpɔrto",
         "definitions": [
@@ -687,14 +800,18 @@
             "relazione"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_jobs_029",
+        "lang": "it"
     },
-{
+    {
         "word": "contadino",
         "level": "starter",
         "theme": "jobs",
         "emoji": "👨‍🌾",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "contadini",
@@ -709,14 +826,18 @@
             }
         ],
         "transcription": "kontaˈdino",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_jobs_030",
+        "lang": "it"
     },
-{
+    {
         "word": "pilota",
         "level": "starter",
         "theme": "jobs",
         "emoji": "👨‍✈️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "piloti",
@@ -731,14 +852,18 @@
             }
         ],
         "transcription": "piˈlɔta",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_jobs_031",
+        "lang": "it"
     },
-{
+    {
         "word": "cameriere",
         "level": "starter",
         "theme": "jobs",
         "emoji": "🤵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "camerieri",
@@ -753,14 +878,18 @@
             }
         ],
         "transcription": "kameˈrjɛre",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_jobs_032",
+        "lang": "it"
     },
-{
+    {
         "word": "dentista",
         "level": "starter",
         "theme": "jobs",
         "emoji": "🦷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "dentisti",
@@ -775,14 +904,18 @@
             }
         ],
         "transcription": "denˈtista",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_jobs_033",
+        "lang": "it"
     },
-{
+    {
         "word": "poliziotto",
         "level": "starter",
         "theme": "jobs",
         "emoji": "👮",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "poliziotti",
@@ -797,14 +930,18 @@
             }
         ],
         "transcription": "politˈtsjɔtto",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_jobs_034",
+        "lang": "it"
     },
-{
+    {
         "word": "vigile del fuoco",
         "level": "starter",
         "theme": "jobs",
         "emoji": "👨‍🚒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "vigili del fuoco",
@@ -819,14 +956,18 @@
             }
         ],
         "transcription": "ˈvidʒile del ˈfwɔko",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_jobs_035",
+        "lang": "it"
     },
-{
+    {
         "word": "soldato",
         "level": "starter",
         "theme": "jobs",
         "emoji": "🪖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "soldati",
@@ -841,14 +982,18 @@
             }
         ],
         "transcription": "solˈdato",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_jobs_036",
+        "lang": "it"
     },
-{
+    {
         "word": "scrittore",
         "level": "starter",
         "theme": "jobs",
         "emoji": "✍️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "lo",
         "plural": "scrittori",
@@ -863,14 +1008,18 @@
             }
         ],
         "transcription": "skritˈtore",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_jobs_037",
+        "lang": "it"
     },
-{
+    {
         "word": "professore",
         "level": "starter",
         "theme": "jobs",
         "emoji": "👨‍🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "professori",
@@ -885,14 +1034,18 @@
             }
         ],
         "transcription": "profesˈsore",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_jobs_038",
+        "lang": "it"
     },
-{
+    {
         "word": "ingegnere",
         "level": "starter",
         "theme": "jobs",
         "emoji": "👷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "l'",
         "plural": "ingegneri",
@@ -907,14 +1060,18 @@
             }
         ],
         "transcription": "indʒeɲˈɲɛre",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_jobs_039",
+        "lang": "it"
     },
-{
+    {
         "word": "segretario",
         "level": "starter",
         "theme": "jobs",
         "emoji": "⌨️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "il",
         "plural": "segretari",
@@ -929,9 +1086,11 @@
             }
         ],
         "transcription": "segreˈtarjo",
-        "subtext": ""
+        "subtext": "",
+        "id": "it_starter_jobs_040",
+        "lang": "it"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

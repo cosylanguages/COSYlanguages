@@ -16,12 +16,11 @@
                 ]
             }
         ],
-        "image": "images/grammar/prepositions/in.png",
         "article": "",
         "gender": "",
-        "emoji": "",
+        "emoji": "✨",
         "plural": "",
-        "transcription": "/dɑ̃/"
+        "transcription": "dɑ̃"
     },
     {
         "id": "fr_starter_language_009",
@@ -39,12 +38,11 @@
                 ]
             }
         ],
-        "image": "images/grammar/prepositions/on.png",
         "article": "",
         "gender": "",
-        "emoji": "",
+        "emoji": "✨",
         "plural": "",
-        "transcription": "/syʁ/"
+        "transcription": "syʁ"
     },
     {
         "id": "fr_starter_language_010",
@@ -64,9 +62,9 @@
         ],
         "article": "",
         "gender": "",
-        "emoji": "",
+        "emoji": "✨",
         "plural": "",
-        "transcription": "/a/"
+        "transcription": "a"
     },
     {
         "id": "fr_starter_language_011",
@@ -86,9 +84,9 @@
         ],
         "article": "",
         "gender": "",
-        "emoji": "",
+        "emoji": "✨",
         "plural": "",
-        "transcription": "/su/"
+        "transcription": "su"
     },
     {
         "id": "fr_starter_language_012",
@@ -110,7 +108,7 @@
         "gender": "",
         "emoji": "♾️",
         "plural": "",
-        "transcription": "/tu.ʒuʁ/"
+        "transcription": "tu.ʒuʁ"
     },
     {
         "id": "fr_starter_language_013",
@@ -132,7 +130,7 @@
         "gender": "",
         "emoji": "🔄",
         "plural": "",
-        "transcription": "/a.bi.tɥɛl.mɑ̃/"
+        "transcription": "a.bi.tɥɛl.mɑ̃"
     },
     {
         "id": "fr_starter_language_014",
@@ -154,7 +152,7 @@
         "gender": "",
         "emoji": "🔁",
         "plural": "",
-        "transcription": "/su.vɑ̃/"
+        "transcription": "su.vɑ̃"
     },
     {
         "id": "fr_starter_language_015",
@@ -176,7 +174,7 @@
         "gender": "",
         "emoji": "⏱️",
         "plural": "",
-        "transcription": "/kɛl.kə.fwa/"
+        "transcription": "kɛl.kə.fwa"
     },
     {
         "id": "fr_starter_language_016",
@@ -198,7 +196,7 @@
         "gender": "",
         "emoji": "🚫",
         "plural": "",
-        "transcription": "/ʒa.mɛ/"
+        "transcription": "ʒa.mɛ"
     },
     {
         "id": "fr_starter_language_017",
@@ -220,7 +218,7 @@
         "gender": "",
         "emoji": "👤",
         "plural": "",
-        "transcription": "/ki/"
+        "transcription": "ki"
     },
     {
         "id": "fr_starter_language_018",
@@ -242,7 +240,7 @@
         "gender": "",
         "emoji": "❓",
         "plural": "",
-        "transcription": "/kwa/"
+        "transcription": "kwa"
     },
     {
         "id": "fr_starter_language_019",
@@ -264,7 +262,7 @@
         "gender": "",
         "emoji": "📍",
         "plural": "",
-        "transcription": "/u/"
+        "transcription": "u"
     },
     {
         "id": "fr_starter_language_020",
@@ -286,7 +284,7 @@
         "gender": "",
         "emoji": "⏰",
         "plural": "",
-        "transcription": "/kɑ̃/"
+        "transcription": "kɑ̃"
     },
     {
         "id": "fr_starter_language_021",
@@ -308,7 +306,7 @@
         "gender": "",
         "emoji": "❓",
         "plural": "",
-        "transcription": "/puʁ.kwa/"
+        "transcription": "puʁ.kwa"
     },
     {
         "id": "fr_starter_language_022",
@@ -330,7 +328,7 @@
         "gender": "",
         "emoji": "⚙️",
         "plural": "",
-        "transcription": "/kɔ.mɑ̃/"
+        "transcription": "kɔ.mɑ̃"
     },
     {
         "id": "fr_starter_language_023",
@@ -794,7 +792,6 @@
                 ]
             }
         ],
-        "image": "images/grammar/prepositions/in front of.png",
         "emoji": "🚪",
         "transcription": "dəvɑ̃"
     },
@@ -815,7 +812,6 @@
                 ]
             }
         ],
-        "image": "images/grammar/prepositions/behind.png",
         "emoji": "🚪",
         "transcription": "dɛʁjɛʁ"
     },

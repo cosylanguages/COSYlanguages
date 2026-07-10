@@ -1,14 +1,16 @@
 // TODO: verify level classification
 (function() {
     const data = [
-{
+    {
         "word": "problema",
         "level": "starter",
         "theme": "language",
         "article": "il",
         "gender": "masculine",
         "emoji": "❓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "problemi",
         "definitions": [
             {
@@ -22,9 +24,11 @@
         "transcription": "proˈblɛma",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_vocabulary_001",
+        "lang": "it"
     },
-{
+    {
         "word": "dove",
         "level": "starter",
         "theme": "language",
@@ -44,9 +48,11 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈdove"
+        "transcription": "ˈdove",
+        "id": "it_starter_vocabulary_002",
+        "lang": "it"
     },
-{
+    {
         "word": "quando",
         "level": "starter",
         "theme": "language",
@@ -66,9 +72,11 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈkwando"
+        "transcription": "ˈkwando",
+        "id": "it_starter_vocabulary_003",
+        "lang": "it"
     },
-{
+    {
         "word": "sì",
         "level": "starter",
         "theme": "language",
@@ -88,9 +96,11 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈsi"
+        "transcription": "ˈsi",
+        "id": "it_starter_vocabulary_004",
+        "lang": "it"
     },
-{
+    {
         "word": "no",
         "level": "starter",
         "theme": "language",
@@ -110,16 +120,20 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈnɔ"
+        "transcription": "ˈnɔ",
+        "id": "it_starter_vocabulary_005",
+        "lang": "it"
     },
-{
+    {
         "word": "conversazione",
         "level": "starter",
         "theme": "language",
         "article": "la",
         "gender": "feminine",
         "emoji": "💬",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "conversazioni",
         "definitions": [
             {
@@ -133,9 +147,11 @@
         "transcription": "konverzatˈtsjone",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_vocabulary_006",
+        "lang": "it"
     },
-{
+    {
         "word": "anche",
         "level": "starter",
         "theme": "conjunctions_connectors",
@@ -155,16 +171,20 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈanche"
+        "transcription": "ˈanche",
+        "id": "it_starter_vocabulary_007",
+        "lang": "it"
     },
-{
+    {
         "word": "domanda",
         "level": "starter",
         "theme": "language",
         "article": "la",
         "gender": "feminine",
         "emoji": "❓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "domande",
         "definitions": [
             {
@@ -178,16 +198,20 @@
         "transcription": "ˈdomanda",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_vocabulary_008",
+        "lang": "it"
     },
-{
+    {
         "word": "risposta",
         "level": "starter",
         "theme": "language",
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "risposte",
         "definitions": [
             {
@@ -201,9 +225,11 @@
         "transcription": "risˈpɔsta",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_vocabulary_009",
+        "lang": "it"
     },
-{
+    {
         "word": "quanto",
         "level": "starter",
         "theme": "language",
@@ -224,9 +250,11 @@
         ],
         "synonyms": [],
         "subtext": "aggettivo interrogativo",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_vocabulary_010",
+        "lang": "it"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

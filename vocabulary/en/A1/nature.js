@@ -17,7 +17,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "sən",
         "lang": "en",
         "level": "starter",
@@ -46,7 +45,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "reɪn",
         "lang": "en",
         "level": "starter",
@@ -74,7 +72,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "wɪnd",
         "lang": "en",
         "level": "starter",
@@ -101,7 +98,6 @@
             }
         ],
         "subtext": "related to seasons climate",
-        "opposite": null,
         "transcription": "spərɪŋ",
         "lang": "en",
         "level": "starter",
@@ -124,7 +120,6 @@
             }
         ],
         "subtext": "related to seasons climate",
-        "opposite": null,
         "transcription": "ˈsəmər",
         "lang": "en",
         "level": "starter",
@@ -150,7 +145,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈɔtəm",
         "lang": "en",
         "level": "starter",
@@ -173,7 +167,6 @@
             }
         ],
         "subtext": "related to seasons climate",
-        "opposite": null,
         "transcription": "ˈwɪntər",
         "lang": "en",
         "level": "starter",
@@ -197,7 +190,6 @@
             }
         ],
         "subtext": "related to weather",
-        "opposite": null,
         "transcription": "ˈəmˌbrɛlə",
         "lang": "en",
         "level": "starter",
@@ -222,7 +214,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈweðə(r)",
         "lang": "en",
         "level": "starter",
@@ -247,7 +238,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈtemprətʃə(r)",
         "lang": "en",
         "level": "starter",
@@ -272,7 +262,6 @@
             }
         ],
         "subtext": "related to weather",
-        "opposite": null,
         "transcription": "snoʊ",
         "lang": "en",
         "level": "starter",
@@ -298,7 +287,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "aɪs",
         "lang": "en",
         "level": "starter",
@@ -310,8 +298,6 @@
         "word": "fall",
         "emoji": "🍂",
         "subtext": "fall down / fall off / fall in love / fall asleep",
-        "opposite": "rise",
-        "oppositeEmoji": "🌅",
         "form": "verb",
         "synonyms": [
             "🇬🇧 autumn"
@@ -334,15 +320,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "rise"
+        ]
     },
     {
         "id": "en_starter_seasons_climate_009",
         "word": "rise",
         "emoji": "🌅",
         "subtext": "rise up / sun rise / price rise",
-        "opposite": "fall",
-        "oppositeEmoji": "🍂",
         "form": "verb",
         "definitions": [
             {
@@ -362,15 +349,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "fall"
+        ]
     },
     {
         "id": "en_starter_nature_058",
         "word": "sunny",
         "emoji": "☀️",
         "form": "adjective",
-        "opposite": "rainy",
-        "oppositeEmoji": "🌧️",
         "definitions": [
             {
                 "text": "Having a lot of light from the sun.",
@@ -391,15 +379,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "rainy"
+        ]
     },
     {
         "id": "en_starter_nature_059",
         "word": "rainy",
         "emoji": "🌧️",
         "form": "adjective",
-        "opposite": "sunny",
-        "oppositeEmoji": "☀️",
         "definitions": [
             {
                 "text": "Having a lot of rain.",
@@ -420,15 +409,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sunny"
+        ]
     },
     {
         "id": "en_starter_nature_060",
         "word": "hot",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "cold",
-        "oppositeEmoji": "❄️",
         "subtext": "very hot, hot weather / hot weather / a hot drink / too hot",
         "definitions": [
             {
@@ -446,15 +436,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "cold"
+        ]
     },
     {
         "id": "en_starter_nature_061",
         "word": "cold",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "hot",
-        "oppositeEmoji": "🔥",
         "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
         "definitions": [
             {
@@ -481,14 +472,15 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "kaldaz"
-        }
+        },
+        "antonyms": [
+            "hot"
+        ]
     },
     {
         "id": "en_starter_nature_062",
         "word": "warm",
         "form": "adjective",
-        "opposite": "cool",
-        "oppositeEmoji": "🧊",
         "subtext": "warm weather / a warm welcome / keep warm",
         "definitions": [
             {
@@ -505,14 +497,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "cool"
+        ]
     },
     {
         "id": "en_starter_nature_063",
         "word": "cool",
         "form": "adjective",
-        "opposite": "warm",
-        "oppositeEmoji": "☀️",
         "subtext": "cool weather / a cool drink / stay cool",
         "definitions": [
             {
@@ -529,14 +522,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "warm"
+        ]
     },
     {
         "id": "en_starter_nature_064",
         "word": "wet",
         "form": "adjective",
-        "opposite": "dry",
-        "oppositeEmoji": "🏜️",
         "subtext": "wet weather / wet clothes / get wet",
         "definitions": [
             {
@@ -553,14 +547,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "dry"
+        ]
     },
     {
         "id": "en_starter_nature_065",
         "word": "dry",
         "form": "adjective",
-        "opposite": "wet",
-        "oppositeEmoji": "🌧️",
         "subtext": "dry weather / dry skin / keep dry",
         "definitions": [
             {
@@ -577,15 +572,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "wet"
+        ]
     },
     {
         "id": "en_starter_nature_066",
         "word": "cloudy",
         "emoji": "☁️",
         "form": "adjective",
-        "opposite": "sunny",
-        "oppositeEmoji": "☀️",
         "subtext": "a cloudy sky / cloudy weather",
         "synonyms": [
             "overcast"
@@ -604,15 +600,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sunny"
+        ]
     },
     {
         "id": "en_starter_nature_067",
         "word": "windy",
         "emoji": "💨",
         "form": "adjective",
-        "opposite": "calm",
-        "oppositeEmoji": "😌",
         "subtext": "a windy day / very windy",
         "synonyms": [
             "breezy"
@@ -631,15 +628,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "calm"
+        ]
     },
     {
         "id": "en_starter_nature_068",
         "word": "snowy",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "sunny",
-        "oppositeEmoji": "☀️",
         "subtext": "snowy mountains / a snowy winter",
         "synonyms": [
             "covered in snow"
@@ -658,15 +656,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sunny"
+        ]
     },
     {
         "id": "en_starter_nature_069",
         "word": "foggy",
         "emoji": "🌫️",
         "form": "adjective",
-        "opposite": "clear",
-        "oppositeEmoji": "💎",
         "subtext": "foggy morning / very foggy",
         "synonyms": [
             "misty"
@@ -685,15 +684,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "clear"
+        ]
     },
     {
         "id": "en_starter_nature_070",
         "word": "stormy",
         "emoji": "⛈️",
         "form": "adjective",
-        "opposite": "calm",
-        "oppositeEmoji": "😌",
         "subtext": "stormy weather / a stormy night",
         "synonyms": [
             "rough"
@@ -712,7 +712,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "calm"
+        ]
     },
     {
         "id": "en_starter_seasons_climate_010",

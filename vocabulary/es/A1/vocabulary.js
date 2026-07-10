@@ -3,7 +3,6 @@
     const data = [
     {
         "word": "jardín",
-        "image": "images/vocabulary/places/garden.png",
         "level": "starter",
         "theme": "places",
         "emoji": "🌳",
@@ -18,7 +17,8 @@
         ],
         "lang": "es",
         "sub_theme": "city",
-        "id": "es_starter_places_074"
+        "id": "es_starter_places_074",
+        "transcription": ""
     },
     {
         "word": "médico",
@@ -1431,10 +1431,10 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "sol",
-            etymology: {
+            "etymology": {
                 "origin_lang": "Latin",
                 "origin_word": "sol",
-                etymology: {
+                "etymology": {
                     "origin_lang": "Latin",
                     "origin_word": "sol"
                 }

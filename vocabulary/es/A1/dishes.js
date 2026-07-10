@@ -19,7 +19,8 @@
         "gender": "feminine",
         "lang": "es",
         "sub_theme": "meals",
-        "id": "es_starter_food_drink_017"
+        "id": "es_starter_food_drink_017",
+        "transcription": ""
     },
     {
         "word": "tortilla",
@@ -39,7 +40,8 @@
         "gender": "feminine",
         "lang": "es",
         "sub_theme": "meals",
-        "id": "es_starter_food_drink_018"
+        "id": "es_starter_food_drink_018",
+        "transcription": ""
     },
     {
         "word": "gazpacho",
@@ -59,7 +61,8 @@
         "gender": "masculine",
         "lang": "es",
         "sub_theme": "meals",
-        "id": "es_starter_food_drink_019"
+        "id": "es_starter_food_drink_019",
+        "transcription": ""
     }
 ];
     const lang = "es";

@@ -38,7 +38,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "sijaną"
-        }
+        },
+        "id": "de_starter_verbs_001",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "haben",
@@ -81,7 +84,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "habjaną"
-        }
+        },
+        "id": "de_starter_verbs_002",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "fühlen",
@@ -103,7 +109,10 @@
         "v2": "fühlte",
         "v3": "gefühlt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_003",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "geben",
@@ -111,8 +120,6 @@
         "theme": "shopping",
         "emoji": "🎁",
         "subtext": "Ratschläge geben / Geld geben / ein Geschenk geben / Informationen geben",
-        "opposite": "nehmen",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -132,7 +139,13 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "gebaną"
-        }
+        },
+        "id": "de_starter_verbs_004",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "nehmen"
+        ]
     },
     {
         "word": "nehmen",
@@ -143,8 +156,6 @@
         "synonyms": [
             "eine Pause machen"
         ],
-        "opposite": "geben",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -164,7 +175,13 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "nemaną"
-        }
+        },
+        "id": "de_starter_verbs_005",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "geben"
+        ]
     },
     {
         "word": "bekommen",
@@ -193,7 +210,10 @@
         "v2": "bekam",
         "v3": "bekommen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_006",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "stellen",
@@ -221,7 +241,10 @@
         "v2": "stellte",
         "v3": "gestellt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_007",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "machen",
@@ -248,7 +271,10 @@
         "v2": "machte",
         "v3": "gemacht",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_008",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "tun",
@@ -288,7 +314,10 @@
                     "tun"
                 ]
             }
-        }
+        },
+        "id": "de_starter_verbs_009",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "benutzen",
@@ -315,7 +344,10 @@
         "v2": "benutzte",
         "v3": "benutzt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_010",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "öffnen",
@@ -327,8 +359,6 @@
             "ein Konto eröffnen",
             "ein Geschäft eröffnen"
         ],
-        "opposite": "schließen",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -344,7 +374,13 @@
         "v2": "öffnete",
         "v3": "geöffnet",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_011",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "schließen"
+        ]
     },
     {
         "word": "schließen",
@@ -355,8 +391,6 @@
         "synonyms": [
             "die Besprechung beenden"
         ],
-        "opposite": "öffnen",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -372,7 +406,13 @@
         "v2": "schloss",
         "v3": "geschlossen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_012",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "öffnen"
+        ]
     },
     {
         "word": "beginnen",
@@ -380,8 +420,6 @@
         "theme": "work",
         "emoji": "▶️",
         "subtext": "mit der Arbeit beginnen / eine Besprechung beginnen / eine neue Arbeit anfangen",
-        "opposite": "beenden",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -397,7 +435,13 @@
         "v2": "begann",
         "v3": "begonnen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_013",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "beenden"
+        ]
     },
     {
         "word": "beenden",
@@ -410,8 +454,6 @@
             "früh fertig sein",
             "spät fertig sein"
         ],
-        "opposite": "beginnen",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -427,7 +469,13 @@
         "v2": "beendete",
         "v3": "beendet",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_014",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "beginnen"
+        ]
     },
     {
         "word": "helfen",
@@ -453,7 +501,10 @@
         "v2": "half",
         "v3": "geholfen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_015",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "versuchen",
@@ -480,7 +531,10 @@
         "v2": "versuchte",
         "v3": "versucht",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_016",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "zeigen",
@@ -505,7 +559,10 @@
         "v2": "zeigte",
         "v3": "gezeigt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_017",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "finden",
@@ -531,7 +588,10 @@
         "v2": "fand",
         "v3": "gefunden",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_018",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "behalten",
@@ -560,7 +620,10 @@
         "v2": "behielt",
         "v3": "behalten",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_019",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "verlieren",
@@ -568,8 +631,6 @@
         "theme": "shopping",
         "emoji": "📉",
         "subtext": "eine Arbeit verlieren / Geld verlieren / Gewicht verlieren / Zeit verlieren",
-        "opposite": "gewinnen",
-        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -586,7 +647,13 @@
         "v2": "verlor",
         "v3": "verloren",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_020",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "gewinnen"
+        ]
     },
     {
         "word": "schneiden",
@@ -614,7 +681,10 @@
         "v2": "schnitt",
         "v3": "geschnitten",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_021",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "drehen",
@@ -643,7 +713,10 @@
         "v2": "drehte",
         "v3": "gedreht",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_022",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "bringen",
@@ -666,7 +739,10 @@
         "v2": "brachte",
         "v3": "gebracht",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_023",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "sagen",
@@ -689,7 +765,10 @@
         "v2": "sagte",
         "v3": "gesagt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_024",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "erzählen",
@@ -714,7 +793,10 @@
         "v2": "erzählte",
         "v3": "erzählt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_025",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "fragen",
@@ -740,7 +822,10 @@
         "v2": "fragte",
         "v3": "gefragt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_026",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "sprechen",
@@ -763,7 +848,10 @@
         "v2": "sprach",
         "v3": "gesprochen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_027",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "reden",
@@ -785,7 +873,10 @@
         "v2": "redete",
         "v3": "geredet",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_028",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "anrufen",
@@ -812,7 +903,10 @@
         "v2": "rief an",
         "v3": "angerufen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_029",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "schreiben",
@@ -820,8 +914,6 @@
         "theme": "school",
         "emoji": "✍️",
         "subtext": "eine E-Mail schreiben / einen Bericht schreiben / einen Brief schreiben / Notizen schreiben",
-        "opposite": "lesen",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -837,7 +929,13 @@
         "v2": "schrieb",
         "v3": "geschrieben",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_030",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "lesen"
+        ]
     },
     {
         "word": "lesen",
@@ -845,8 +943,6 @@
         "theme": "school",
         "emoji": "📖",
         "subtext": "ein Buch lesen / die Nachrichten lesen / einen Vertrag lesen / aufmerksam lesen",
-        "opposite": "schreiben",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -862,7 +958,13 @@
         "v2": "las",
         "v3": "gelesen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_031",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "schreiben"
+        ]
     },
     {
         "word": "hören",
@@ -892,7 +994,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "hauzjan"
-        }
+        },
+        "id": "de_starter_verbs_032",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "antworten",
@@ -919,7 +1024,10 @@
         "v2": "antwortete",
         "v3": "geantwortet",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_033",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "wiederholen",
@@ -942,7 +1050,10 @@
         "v2": "wiederholte",
         "v3": "wiederholt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_034",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "gehen",
@@ -972,7 +1083,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "ganganą"
-        }
+        },
+        "id": "de_starter_verbs_035",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "kommen",
@@ -983,8 +1097,6 @@
         "synonyms": [
             "zurückkommen"
         ],
-        "opposite": "gehen",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -1004,7 +1116,13 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "kwimaną"
-        }
+        },
+        "id": "de_starter_verbs_036",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "gehen"
+        ]
     },
     {
         "word": "laufen",
@@ -1027,7 +1145,10 @@
         "v2": "lief",
         "v3": "gelaufen",
         "group": "en",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "id": "de_starter_verbs_037",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "fahren",
@@ -1050,7 +1171,10 @@
         "v2": "fuhr",
         "v3": "gefahren",
         "group": "en",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "id": "de_starter_verbs_038",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "fliegen",
@@ -1073,7 +1197,10 @@
         "v2": "flog",
         "v3": "geflogen",
         "group": "en",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "id": "de_starter_verbs_039",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "ankommen",
@@ -1095,7 +1222,10 @@
         "v2": "kam an",
         "v3": "angekommen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_040",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "verlassen",
@@ -1121,7 +1251,10 @@
         "v2": "verließ",
         "v3": "verlassen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_041",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "umziehen",
@@ -1148,7 +1281,10 @@
         "v2": "zog um",
         "v3": "umgezogen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_042",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "zurückkehren",
@@ -1174,7 +1310,10 @@
         "v2": "kehrte zurück",
         "v3": "zurückgekehrt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_043",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "reisen",
@@ -1196,7 +1335,10 @@
         "v2": "reiste",
         "v3": "gereist",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_044",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "essen",
@@ -1207,8 +1349,6 @@
         "synonyms": [
             "frühstücken"
         ],
-        "opposite": "trinken",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1228,7 +1368,13 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "etaną"
-        }
+        },
+        "id": "de_starter_verbs_045",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "trinken"
+        ]
     },
     {
         "word": "trinken",
@@ -1236,8 +1382,6 @@
         "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "Kaffee trinken / Tee trinken / Wasser trinken / Bier trinken",
-        "opposite": "essen",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1257,7 +1401,13 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "drinkaną"
-        }
+        },
+        "id": "de_starter_verbs_046",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "essen"
+        ]
     },
     {
         "word": "schlafen",
@@ -1265,8 +1415,6 @@
         "theme": "time",
         "emoji": "😴",
         "subtext": "gut schlafen / schlecht schlafen / acht Stunden schlafen / lange schlafen",
-        "opposite": "aufwachen",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1286,7 +1434,13 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "slēpaną"
-        }
+        },
+        "id": "de_starter_verbs_047",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "aufwachen"
+        ]
     },
     {
         "word": "kochen",
@@ -1308,7 +1462,10 @@
         "v2": "kochte",
         "v3": "gekocht",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_048",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "reinigen",
@@ -1333,7 +1490,10 @@
         "v2": "reinigte",
         "v3": "gereinigt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_049",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "tragen",
@@ -1356,7 +1516,10 @@
         "v2": "trug",
         "v3": "getragen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_050",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "waschen",
@@ -1382,7 +1545,10 @@
         "v2": "wusch",
         "v3": "gewaschen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_051",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "kaufen",
@@ -1390,8 +1556,6 @@
         "theme": "shopping",
         "emoji": "🛒",
         "subtext": "Essen kaufen / ein Ticket kaufen / online kaufen / ein Haus kaufen",
-        "opposite": "verkaufen",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1407,7 +1571,13 @@
         "v2": "kaufte",
         "v3": "gekauft",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_052",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "verkaufen"
+        ]
     },
     {
         "word": "bezahlen",
@@ -1429,7 +1599,10 @@
         "v2": "bezahlte",
         "v3": "bezahlt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_053",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "ausgeben",
@@ -1451,7 +1624,10 @@
         "v2": "gab aus",
         "v3": "ausgegeben",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_054",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "sparen",
@@ -1459,8 +1635,6 @@
         "theme": "shopping",
         "emoji": "💰",
         "subtext": "Geld sparen / für einen Urlaub sparen / für ein Haus sparen",
-        "opposite": "ausgeben",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1475,7 +1649,13 @@
         "v2": "sparte",
         "v3": "gespart",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_055",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "ausgeben"
+        ]
     },
     {
         "word": "arbeiten",
@@ -1497,7 +1677,10 @@
         "v2": "arbeitete",
         "v3": "gearbeitete",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_056",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "leben",
@@ -1505,8 +1688,6 @@
         "theme": "places",
         "emoji": "🏠",
         "subtext": "in einer Wohnung leben / alleine leben / mit jemandem leben / im Ausland leben",
-        "opposite": "sterben",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1522,7 +1703,13 @@
         "v2": "lebte",
         "v3": "gelebt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_057",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "sterben"
+        ]
     },
     {
         "word": "denken",
@@ -1549,7 +1736,10 @@
         "v2": "dachte",
         "v3": "gedacht",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_058",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "wissen",
@@ -1589,7 +1779,10 @@
                     "wissen"
                 ]
             }
-        }
+        },
+        "id": "de_starter_verbs_059",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "wollen",
@@ -1625,7 +1818,10 @@
                     "wollen"
                 ]
             }
-        }
+        },
+        "id": "de_starter_verbs_060",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "brauchen",
@@ -1652,7 +1848,10 @@
         "v2": "brauchte",
         "v3": "gebraucht",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_061",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "mögen",
@@ -1679,7 +1878,10 @@
         "v2": "mochte",
         "v3": "gemocht",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_062",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "lieben",
@@ -1702,7 +1904,10 @@
         "v2": "liebte",
         "v3": "geliebt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_063",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "hassen",
@@ -1725,7 +1930,10 @@
         "v2": "hasste",
         "v3": "gehasst",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_064",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "hoffen",
@@ -1751,7 +1959,10 @@
         "v2": "hoffte",
         "v3": "gehofft",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_065",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "erinnern",
@@ -1774,7 +1985,10 @@
         "v2": "erinnerte",
         "v3": "erinnert",
         "group": "ern",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_066",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "vergessen",
@@ -1797,7 +2011,10 @@
         "v2": "vergaß",
         "v3": "vergessen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_067",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "verstehen",
@@ -1820,7 +2037,10 @@
         "v2": "verstand",
         "v3": "verstanden",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_068",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "entscheiden",
@@ -1846,7 +2066,10 @@
         "v2": "entschied",
         "v3": "entschieden",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_069",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "genießen",
@@ -1868,7 +2091,10 @@
         "v2": "genoss",
         "v3": "genossen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_070",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "sehen",
@@ -1895,7 +2121,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "sehwan"
-        }
+        },
+        "id": "de_starter_verbs_071",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "hören",
@@ -1922,7 +2151,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "hauzjan"
-        }
+        },
+        "id": "de_starter_verbs_072",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "aufwachen",
@@ -1931,8 +2163,6 @@
         "emoji": "⏰",
         "form": "verb",
         "subtext": "früh aufwachen / spät aufwachen / müde aufwachen",
-        "opposite": "schlafen",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Aufhören zu schlafen; nach dem Schlaf bei Bewusstsein werden.",
@@ -1946,7 +2176,13 @@
         "v2": "wachte auf",
         "v3": "aufgewacht",
         "group": "en",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "id": "de_starter_verbs_073",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "schlafen"
+        ]
     },
     {
         "word": "schauen",
@@ -1972,7 +2208,10 @@
         "v2": "schaute",
         "v3": "geschaut",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_074",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "sehen",
@@ -2005,7 +2244,10 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "sehwan"
-        }
+        },
+        "id": "de_starter_verbs_075",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "spielen",
@@ -2030,7 +2272,10 @@
         "v2": "spielte",
         "v3": "gespielt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_076",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "rennen",
@@ -2058,7 +2303,10 @@
         "v2": "rannte",
         "v3": "gerannt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_077",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "sitzen",
@@ -2070,8 +2318,6 @@
             "sich hinsetzen",
             "ruhig dasitzen"
         ],
-        "opposite": "stehen",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -2090,7 +2336,13 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "sitjaną"
-        }
+        },
+        "id": "de_starter_verbs_078",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "stehen"
+        ]
     },
     {
         "word": "stehen",
@@ -2102,8 +2354,6 @@
             "aufstehen",
             "herausstechen"
         ],
-        "opposite": "sitzen",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -2122,7 +2372,13 @@
         "etymology": {
             "origin_lang": "Proto-Germanic",
             "origin_word": "standaną"
-        }
+        },
+        "id": "de_starter_verbs_079",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "sitzen"
+        ]
     },
     {
         "word": "treffen",
@@ -2144,7 +2400,10 @@
         "v3": "getroffen",
         "subtext": "einen Kunden treffen / einen Kollegen treffen / sich zum Mittagessen treffen / sich online treffen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_080",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "lernen",
@@ -2166,7 +2425,10 @@
         "v2": "lernte",
         "v3": "gelernt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_081",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "ändern",
@@ -2191,7 +2453,10 @@
         "v2": "änderte",
         "v3": "geändert",
         "group": "ern",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_082",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "stoppen",
@@ -2218,7 +2483,10 @@
         "v2": "stoppte",
         "v3": "gestoppt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_083",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "hinzufügen",
@@ -2244,7 +2512,10 @@
         "v2": "fügte hinzu",
         "v3": "hinzugefügt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_084",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "gewinnen",
@@ -2252,8 +2523,6 @@
         "theme": "social",
         "emoji": "🏆",
         "subtext": "ein Spiel gewinnen / einen Preis gewinnen / eine Auszeichnung gewinnen / einen Auftrag gewinnen",
-        "opposite": "verlieren",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -2268,7 +2537,13 @@
         "v2": "gewann",
         "v3": "gewonnen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_085",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "verlieren"
+        ]
     },
     {
         "word": "warten",
@@ -2290,7 +2565,10 @@
         "v2": "wartete",
         "v3": "gewartet",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_086",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "sterben",
@@ -2301,8 +2579,6 @@
         "synonyms": [
             "aussterben"
         ],
-        "opposite": "leben",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -2317,7 +2593,13 @@
         "v2": "starb",
         "v3": "gestorben",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_087",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "leben"
+        ]
     },
     {
         "word": "senden",
@@ -2345,7 +2627,10 @@
             "send a file"
         ],
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_088",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "bleiben",
@@ -2371,7 +2656,10 @@
         "v2": "blieb",
         "v3": "geblieben",
         "group": "en",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "id": "de_starter_verbs_089",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "fallen",
@@ -2400,7 +2688,10 @@
         "v2": "fiel",
         "v3": "gefallen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_090",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "bestehen",
@@ -2427,7 +2718,10 @@
         "v2": "bestand",
         "v3": "bestanden",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_091",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "verkaufen",
@@ -2438,8 +2732,6 @@
         "synonyms": [
             "Bestseller"
         ],
-        "opposite": "kaufen",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2454,7 +2746,13 @@
         "v2": "verkaufte",
         "v3": "verkauft",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_092",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "kaufen"
+        ]
     },
     {
         "word": "ziehen",
@@ -2466,8 +2764,6 @@
             "anhalten",
             "wegfahren"
         ],
-        "opposite": "drücken",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2482,7 +2778,13 @@
         "v2": "zog",
         "v3": "gezogen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_093",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "drücken"
+        ]
     },
     {
         "word": "drücken",
@@ -2495,8 +2797,6 @@
             "wegdrücken",
             "sich durchsetzen"
         ],
-        "opposite": "ziehen",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2512,7 +2812,13 @@
         "v2": "gedrückte",
         "v3": "gedrückt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_094",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "ziehen"
+        ]
     },
     {
         "word": "tragen",
@@ -2538,7 +2844,10 @@
         "v2": "trug",
         "v3": "getragen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_095",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "brechen",
@@ -2566,7 +2875,10 @@
         "v2": "brach",
         "v3": "gebrochen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_096",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "empfangen",
@@ -2593,7 +2905,10 @@
         "v2": "empfing",
         "v3": "empfangen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_097",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "zustimmen",
@@ -2620,7 +2935,10 @@
         "v2": "stimmte zu",
         "v3": "zugestimmt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_098",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "zeichnen",
@@ -2648,7 +2966,10 @@
         "v2": "zeichnete",
         "v3": "gezeichnet",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_099",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "teilen",
@@ -2671,7 +2992,10 @@
         "v2": "teilte",
         "v3": "geteilt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_100",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "lächeln",
@@ -2682,8 +3006,6 @@
         "synonyms": [
             "jemanden anlächeln"
         ],
-        "opposite": "weinen",
-        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2699,7 +3021,13 @@
         "v2": "lächelte",
         "v3": "gelächelt",
         "group": "eln",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_101",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "weinen"
+        ]
     },
     {
         "word": "weinen",
@@ -2711,8 +3039,6 @@
             "um Hilfe rufen",
             "aufschreien"
         ],
-        "opposite": "lächeln",
-        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2728,7 +3054,13 @@
         "v2": "weinte",
         "v3": "geweint",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_102",
+        "lang": "de",
+        "transcription": "",
+        "antonyms": [
+            "lächeln"
+        ]
     },
     {
         "word": "tanzen",
@@ -2754,7 +3086,10 @@
         "v2": "tanzte",
         "v3": "getanzt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_103",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "singen",
@@ -2781,7 +3116,10 @@
         "v2": "sang",
         "v3": "gesungen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_104",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "springen",
@@ -2808,7 +3146,10 @@
         "v2": "sprang",
         "v3": "gesprungen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_105",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "schwimmen",
@@ -2834,7 +3175,10 @@
         "v2": "schwamm",
         "v3": "geschwommen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_106",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "studieren",
@@ -2860,7 +3204,10 @@
         "v2": "studierte",
         "v3": "studiert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_107",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "lehren",
@@ -2886,7 +3233,10 @@
         "v2": "lehrte",
         "v3": "gelehrt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_108",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "pendeln",
@@ -2911,7 +3261,10 @@
         "v2": "pendelte",
         "v3": "gependelt",
         "group": "eln",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_109",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "mieten",
@@ -2936,7 +3289,10 @@
         "v2": "mietete",
         "v3": "gemietet",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_110",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "trainieren",
@@ -2958,7 +3314,10 @@
         "v3": "trainiert",
         "subtext": "regelmäßig trainieren / im Fitnessstudio trainieren / im Freien trainieren",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_111",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "kosten",
@@ -2980,7 +3339,10 @@
         "v3": "gekostet",
         "subtext": "viel kosten / Geld kosten / zu viel kosten / weniger kosten",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_112",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "einladen",
@@ -3002,7 +3364,10 @@
         "v3": "eingeladen",
         "subtext": "jemanden einladen / zum Essen einladen / zu einer Party einladen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_113",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "aufstehen",
@@ -3024,7 +3389,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "id": "de_starter_verbs_114",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "frühstücken",
@@ -3046,7 +3414,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_115",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "zurückkommen",
@@ -3068,7 +3439,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_116",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "ins Bett gehen",
@@ -3090,7 +3464,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_117",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "prüfen",
@@ -3112,7 +3489,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_118",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "antworten",
@@ -3134,7 +3514,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_119",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "präsentieren",
@@ -3156,7 +3539,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_120",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "besuchen",
@@ -3178,7 +3564,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_121",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "leiten",
@@ -3204,7 +3593,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_122",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "berechnen",
@@ -3226,7 +3618,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_123",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "sich leisten",
@@ -3251,7 +3646,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_124",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "schulden",
@@ -3273,7 +3671,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_125",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "verdienen",
@@ -3295,7 +3696,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_126",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "besuchen",
@@ -3317,7 +3721,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_127",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "feiern",
@@ -3339,7 +3746,10 @@
         "level": "starter",
         "form": "verb",
         "group": "ern",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_128",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "empfehlen",
@@ -3361,7 +3771,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_129",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "weh tun",
@@ -3389,7 +3802,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_130",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "ruhen",
@@ -3416,7 +3832,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_131",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "erholen",
@@ -3438,7 +3857,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_132",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "buchen",
@@ -3463,7 +3885,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_133",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "packen",
@@ -3488,7 +3913,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_134",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "stornieren",
@@ -3513,7 +3941,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_135",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "verpassen",
@@ -3538,7 +3969,10 @@
         "level": "starter",
         "form": "verb",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_136",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "bestellen",
@@ -3560,7 +3994,10 @@
         "v2": "bestellte",
         "v3": "bestellt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_137",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "erklären",
@@ -3582,7 +4019,10 @@
         "v2": "erklärte",
         "v3": "erklärt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_138",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "danken",
@@ -3607,7 +4047,10 @@
         "v2": "dankte",
         "v3": "gedankt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_139",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "vorstellen",
@@ -3629,7 +4072,10 @@
         "v2": "stellte vor",
         "v3": "vorgestellt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_140",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "entspannen",
@@ -3651,7 +4097,10 @@
         "v2": "entspannte",
         "v3": "entspannt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_141",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "reparieren",
@@ -3678,7 +4127,10 @@
         "v2": "reparierte",
         "v3": "repariert",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_142",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "passieren",
@@ -3704,7 +4156,10 @@
         "v2": "passierte",
         "v3": "passiert",
         "group": "en",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "id": "de_starter_verbs_143",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "scheinen",
@@ -3731,7 +4186,10 @@
         "v2": "schien",
         "v3": "geschienen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_144",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "bedeuten",
@@ -3758,7 +4216,10 @@
         "v2": "bedeutete",
         "v3": "bedeutet",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_145",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "folgen",
@@ -3784,7 +4245,10 @@
         "v2": "folgte",
         "v3": "gefolgt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_146",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "fortsetzen",
@@ -3811,7 +4275,10 @@
         "v2": "fortgesetzt",
         "v3": "fortgesetzt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_147",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "wachsen",
@@ -3837,7 +4304,10 @@
         "v2": "wuchs",
         "v3": "gewachsen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_148",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "beinhalten",
@@ -3864,7 +4334,10 @@
         "v2": "beinhaltete",
         "v3": "beinhaltet",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_149",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "werden",
@@ -3898,7 +4371,10 @@
                     "werden"
                 ]
             }
-        }
+        },
+        "id": "de_starter_verbs_150",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "gehören",
@@ -3924,7 +4400,10 @@
         "v2": "gehörte",
         "v3": "gehört",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_151",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "wählen",
@@ -3946,7 +4425,10 @@
         "v2": "wählte",
         "v3": "gewählt",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_152",
+        "lang": "de",
+        "transcription": ""
     },
     {
         "word": "bauen",
@@ -3974,9 +4456,12 @@
         "v2": "baute",
         "v3": "gebaut",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "id": "de_starter_verbs_153",
+        "lang": "de",
+        "transcription": ""
     }
-    ];
+];
     const lang = "de";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

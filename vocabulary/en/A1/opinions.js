@@ -22,7 +22,9 @@
                 "text": "Cats are better than dogs.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_time_001",
@@ -46,7 +48,9 @@
                 "text": "Morning is the best time of day.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_social_002",
@@ -70,7 +74,9 @@
                 "text": "Tea is better than coffee.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_food_drink_001",
@@ -94,7 +100,9 @@
                 "text": "It is fun to cook.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_food_drink_002",
@@ -118,7 +126,9 @@
                 "text": "Cold weather is nice.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_social_003",
@@ -142,7 +152,9 @@
                 "text": "Monday is a bad day.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_social_004",
@@ -166,7 +178,9 @@
                 "text": "Chocolate is very good.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_places_001",
@@ -190,7 +204,9 @@
                 "text": "Small towns are better than big cities.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_people_001",
@@ -214,7 +230,9 @@
                 "text": "It is good to have a lot of friends.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_social_005",
@@ -238,7 +256,9 @@
                 "text": "Sleeping is the best activity.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_music_001",
@@ -262,7 +282,9 @@
                 "text": "Music is better than TV.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_food_drink_003",
@@ -286,7 +308,9 @@
                 "text": "It is important to eat breakfast.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_sports_001",
@@ -310,7 +334,9 @@
                 "text": "Swimming is fun.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_art_culture_001",
@@ -334,7 +360,9 @@
                 "text": "Old films are boring.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_food_drink_004",
@@ -358,7 +386,9 @@
                 "text": "Pineapple on pizza is a great idea.",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     }
 ];
     const lang = "en";

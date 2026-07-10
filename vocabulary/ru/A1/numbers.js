@@ -5,7 +5,6 @@
         "translation": "one",
         "level": "starter",
         "theme": "numbers",
-        "language": "ru",
         "emoji": "1️⃣",
         "form": "number",
         "definitions": [
@@ -16,14 +15,15 @@
                 ]
             }
         ],
-        "transcription": "/ɐˈdʲin/"
+        "transcription": "ɐˈdʲin",
+        "id": "ru_starter_numbers_001",
+        "lang": "ru"
     },
     {
         "word": "два",
         "translation": "two",
         "level": "starter",
         "theme": "numbers",
-        "language": "ru",
         "emoji": "2️⃣",
         "form": "number",
         "definitions": [
@@ -34,14 +34,19 @@
                 ]
             }
         ],
-        "transcription": "/dva/"
+        "transcription": "dva",
+        "id": "ru_starter_numbers_002",
+        "lang": "ru",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "dъva"
+        }
     },
     {
         "word": "три",
         "translation": "three",
         "level": "starter",
         "theme": "numbers",
-        "language": "ru",
         "emoji": "3️⃣",
         "form": "number",
         "definitions": [
@@ -52,14 +57,15 @@
                 ]
             }
         ],
-        "transcription": "/trʲi/"
+        "transcription": "trʲi",
+        "id": "ru_starter_numbers_003",
+        "lang": "ru"
     },
     {
         "word": "четыре",
         "translation": "four",
         "level": "starter",
         "theme": "numbers",
-        "language": "ru",
         "emoji": "4️⃣",
         "form": "number",
         "definitions": [
@@ -70,14 +76,15 @@
                 ]
             }
         ],
-        "transcription": "/tɕɪˈtɨrʲe/"
+        "transcription": "tɕɪˈtɨrʲe",
+        "id": "ru_starter_numbers_004",
+        "lang": "ru"
     },
     {
         "word": "пять",
         "translation": "five",
         "level": "starter",
         "theme": "numbers",
-        "language": "ru",
         "emoji": "5️⃣",
         "form": "number",
         "definitions": [
@@ -88,9 +95,11 @@
                 ]
             }
         ],
-        "transcription": "/pʲatʲ/"
+        "transcription": "pʲatʲ",
+        "id": "ru_starter_numbers_005",
+        "lang": "ru"
     }
-    ];
+];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

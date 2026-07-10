@@ -18,7 +18,10 @@
             }
         ],
         "countability": "countable",
-        "subtext": ""
+        "subtext": "",
+        "id": "el_starter_dishes_001",
+        "lang": "el",
+        "transcription": ""
     }
 ];
     const lang = "el";

@@ -21,7 +21,9 @@
                 "text": "Your family",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_furniture_001",
@@ -44,7 +46,9 @@
                 "text": "Your home",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_food_drink_001",
@@ -67,7 +71,9 @@
                 "text": "Your favourite food",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_work_001",
@@ -90,7 +96,9 @@
                 "text": "Your morning routine",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_animals_001",
@@ -113,7 +121,9 @@
                 "text": "Your pet or a pet you want",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_social_001",
@@ -136,7 +146,9 @@
                 "text": "A sport you like",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_social_002",
@@ -159,7 +171,9 @@
                 "text": "What you do on weekends",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_nature_001",
@@ -182,7 +196,9 @@
                 "text": "Your favourite season",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_people_002",
@@ -205,7 +221,9 @@
                 "text": "Your best friend",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_jobs_001",
@@ -228,7 +246,9 @@
                 "text": "Your job or school",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_emotions_001",
@@ -251,7 +271,9 @@
                 "text": "Things you like and don't like",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_colours_001",
@@ -274,7 +296,9 @@
                 "text": "Your favourite colour and why",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_numbers_001",
@@ -297,7 +321,9 @@
                 "text": "Numbers in your life",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_food_drink_002",
@@ -320,7 +346,9 @@
                 "text": "Your favourite drink",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_places_001",
@@ -343,7 +371,9 @@
                 "text": "Your country",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_furniture_002",
@@ -366,7 +396,9 @@
                 "text": "Things in your bedroom",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_work_002",
@@ -389,7 +421,9 @@
                 "text": "Your typical day",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_furniture_003",
@@ -412,7 +446,9 @@
                 "text": "Things you can see from your window",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_music_001",
@@ -435,7 +471,9 @@
                 "text": "Music you like",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "en_starter_places_002",
@@ -458,7 +496,9 @@
                 "text": "Your favourite place in your town",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     }
 ];
     const lang = "en";

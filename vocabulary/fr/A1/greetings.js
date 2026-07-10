@@ -5,7 +5,6 @@
         "translation": "hello",
         "level": "starter",
         "theme": "greetings",
-        "language": "fr",
         "emoji": "👋",
         "form": "interjection",
         "definitions": [
@@ -16,14 +15,15 @@
                 ]
             }
         ],
-        "transcription": "/bɔ̃.ʒuʁ/"
+        "transcription": "bɔ̃.ʒuʁ",
+        "id": "fr_starter_greetings_001",
+        "lang": "fr"
     },
     {
         "word": "au revoir",
         "translation": "goodbye",
         "level": "starter",
         "theme": "greetings",
-        "language": "fr",
         "emoji": "👋",
         "form": "phrase",
         "definitions": [
@@ -34,14 +34,15 @@
                 ]
             }
         ],
-        "transcription": "/o ʁə.vwaʁ/"
+        "transcription": "o ʁə.vwaʁ",
+        "id": "fr_starter_greetings_002",
+        "lang": "fr"
     },
     {
         "word": "s'il vous plaît",
         "translation": "please",
         "level": "starter",
         "theme": "greetings",
-        "language": "fr",
         "emoji": "🙏",
         "form": "phrase",
         "definitions": [
@@ -52,14 +53,15 @@
                 ]
             }
         ],
-        "transcription": "/s‿il vu plɛ/"
+        "transcription": "s‿il vu plɛ",
+        "id": "fr_starter_greetings_003",
+        "lang": "fr"
     },
     {
         "word": "merci",
         "translation": "thank you",
         "level": "starter",
         "theme": "greetings",
-        "language": "fr",
         "emoji": "😊",
         "form": "interjection",
         "definitions": [
@@ -70,14 +72,15 @@
                 ]
             }
         ],
-        "transcription": "/mɛʁ.si/"
+        "transcription": "mɛʁ.si",
+        "id": "fr_starter_greetings_004",
+        "lang": "fr"
     },
     {
         "word": "pardon",
         "translation": "sorry",
         "level": "starter",
         "theme": "greetings",
-        "language": "fr",
         "emoji": "🙇",
         "form": "interjection",
         "definitions": [
@@ -88,9 +91,11 @@
                 ]
             }
         ],
-        "transcription": "/paʁ.dɔ̃/"
+        "transcription": "paʁ.dɔ̃",
+        "id": "fr_starter_greetings_005",
+        "lang": "fr"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

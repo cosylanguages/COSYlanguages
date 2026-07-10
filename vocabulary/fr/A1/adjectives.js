@@ -31,9 +31,12 @@
         ],
         "comparative": "plus grand",
         "superlative": "le plus grand",
-        "opposite": "petit",
-        "oppositeEmoji": "🐭",
-        "transcription": "/ɡʁɑ̃/"
+        "transcription": "ɡʁɑ̃",
+        "id": "fr_starter_adjectives_001",
+        "lang": "fr",
+        "antonyms": [
+            "petit"
+        ]
     },
     {
         "word": "court",
@@ -62,9 +65,12 @@
         "subtext": "un court voyage / les cheveux courts / trop court",
         "comparative": "plus court",
         "superlative": "le plus court",
-        "opposite": "grand",
-        "oppositeEmoji": "🗼",
-        "transcription": "/kuʁ/"
+        "transcription": "kuʁ",
+        "id": "fr_starter_adjectives_002",
+        "lang": "fr",
+        "antonyms": [
+            "grand"
+        ]
     },
     {
         "level": "starter",
@@ -83,8 +89,6 @@
         ],
         "comparative": "plus jeune",
         "superlative": "le plus jeune",
-        "opposite": "vieux",
-        "oppositeEmoji": "👴",
         "subtext": "",
         "synonyms": [
             "jeune personne",
@@ -92,15 +96,19 @@
             "jeune de cœur"
         ],
         "word": "jeune",
-        "transcription": "/ʒœn/"
+        "transcription": "ʒœn",
+        "id": "fr_starter_adjectives_003",
+        "lang": "fr",
+        "emoji": "✨",
+        "antonyms": [
+            "vieux"
+        ]
     },
     {
         "word": "vieux",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "nouveau",
-        "oppositeEmoji": "✨",
         "definitions": [
             {
                 "text": "Qui a beaucoup d'années.",
@@ -120,7 +128,12 @@
         ],
         "comparative": "plus vieux",
         "superlative": "le plus vieux",
-        "transcription": "/vjø/"
+        "transcription": "vjø",
+        "id": "fr_starter_adjectives_004",
+        "lang": "fr",
+        "antonyms": [
+            "nouveau"
+        ]
     },
     {
         "word": "ensoleillé",
@@ -147,9 +160,12 @@
         "feminine": "ensoleillée",
         "plural": "ensoleillés",
         "femininePlural": "ensoleillées",
-        "opposite": "pluvieux",
-        "oppositeEmoji": "🌧️",
-        "transcription": "/ɑ̃.sɔ.lɛ.je/"
+        "transcription": "ɑ̃.sɔ.lɛ.je",
+        "id": "fr_starter_adjectives_005",
+        "lang": "fr",
+        "antonyms": [
+            "pluvieux"
+        ]
     },
     {
         "word": "pluvieux",
@@ -176,9 +192,12 @@
         "feminine": "pluvieuse",
         "plural": "pluvieux",
         "femininePlural": "pluvieuses",
-        "opposite": "ensoleillé",
-        "oppositeEmoji": "☀️",
-        "transcription": "/ply.vjø/"
+        "transcription": "ply.vjø",
+        "id": "fr_starter_adjectives_006",
+        "lang": "fr",
+        "antonyms": [
+            "ensoleillé"
+        ]
     },
     {
         "word": "chaud",
@@ -186,8 +205,6 @@
         "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
-        "opposite": "froid",
-        "oppositeEmoji": "❄️",
         "definitions": [
             {
                 "text": "Quand la température est élevée.",
@@ -205,7 +222,12 @@
         ],
         "comparative": "plus chaud",
         "superlative": "le plus chaud",
-        "transcription": "/ʃo/"
+        "transcription": "ʃo",
+        "id": "fr_starter_adjectives_007",
+        "lang": "fr",
+        "antonyms": [
+            "froid"
+        ]
     },
     {
         "word": "froid",
@@ -213,8 +235,6 @@
         "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
-        "opposite": "chaud",
-        "oppositeEmoji": "🔥",
         "definitions": [
             {
                 "text": "Quand la température est basse.",
@@ -233,19 +253,22 @@
         ],
         "comparative": "plus froid",
         "superlative": "le plus froid",
-        "transcription": "/fʁwa/",
+        "transcription": "fʁwa",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "frigidus"
-        }
+        },
+        "id": "fr_starter_adjectives_008",
+        "lang": "fr",
+        "antonyms": [
+            "chaud"
+        ]
     },
     {
         "word": "ordinaire",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "spécial",
-        "oppositeEmoji": "✨",
         "definitions": [
             {
                 "text": "Normal ou habituel ; pas spécial.",
@@ -260,7 +283,13 @@
         "feminine": "ordinaire",
         "plural": "ordinaires",
         "femininePlural": "ordinaires",
-        "transcription": "/ɔʁ.di.nɛʁ/"
+        "transcription": "ɔʁ.di.nɛʁ",
+        "id": "fr_starter_adjectives_009",
+        "lang": "fr",
+        "emoji": "✨",
+        "antonyms": [
+            "spécial"
+        ]
     },
     {
         "word": "bon marché",
@@ -268,8 +297,6 @@
         "theme": "shopping",
         "form": "adjective",
         "emoji": "🏷️",
-        "opposite": "cher",
-        "oppositeEmoji": "💎",
         "definitions": [
             {
                 "text": "Pas cher ; à bas prix.",
@@ -288,7 +315,12 @@
         ],
         "comparative": "plus bon marché",
         "superlative": "le plus bon marché",
-        "transcription": "/bɔ̃ maʁ.ʃe/"
+        "transcription": "bɔ̃ maʁ.ʃe",
+        "id": "fr_starter_adjectives_010",
+        "lang": "fr",
+        "antonyms": [
+            "cher"
+        ]
     },
     {
         "word": "cher",
@@ -296,8 +328,6 @@
         "theme": "shopping",
         "form": "adjective",
         "emoji": "💎",
-        "opposite": "bon marché",
-        "oppositeEmoji": "🏷️",
         "definitions": [
             {
                 "text": "Qui coûte beaucoup d'argent.",
@@ -317,7 +347,12 @@
         ],
         "comparative": "plus cher",
         "superlative": "le plus cher",
-        "transcription": "/ʃɛʁ/"
+        "transcription": "ʃɛʁ",
+        "id": "fr_starter_adjectives_011",
+        "lang": "fr",
+        "antonyms": [
+            "bon marché"
+        ]
     },
     {
         "word": "bon",
@@ -325,8 +360,6 @@
         "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
-        "opposite": "mauvais",
-        "oppositeEmoji": "👎",
         "definitions": [
             {
                 "text": "De haute qualité ou agréable.",
@@ -347,7 +380,12 @@
         ],
         "comparative": "meilleur",
         "superlative": "le meilleur",
-        "transcription": "/bɔ̃/"
+        "transcription": "bɔ̃",
+        "id": "fr_starter_adjectives_012",
+        "lang": "fr",
+        "antonyms": [
+            "mauvais"
+        ]
     },
     {
         "word": "mauvais",
@@ -355,8 +393,6 @@
         "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
-        "opposite": "bon",
-        "oppositeEmoji": "👍",
         "definitions": [
             {
                 "text": "Pas bon ; désagréable.",
@@ -378,15 +414,18 @@
         ],
         "comparative": "pire",
         "superlative": "le pire",
-        "transcription": "/mɔ.vɛ/"
+        "transcription": "mɔ.vɛ",
+        "id": "fr_starter_adjectives_013",
+        "lang": "fr",
+        "antonyms": [
+            "bon"
+        ]
     },
     {
         "word": "grand",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "petit",
-        "oppositeEmoji": "🐭",
         "definitions": [
             {
                 "text": "De grande taille.",
@@ -406,15 +445,18 @@
         ],
         "comparative": "plus grand",
         "superlative": "le plus grand",
-        "transcription": "/ɡʁɑ̃/"
+        "transcription": "ɡʁɑ̃",
+        "id": "fr_starter_adjectives_014",
+        "lang": "fr",
+        "antonyms": [
+            "petit"
+        ]
     },
     {
         "word": "petit",
         "level": "starter",
         "theme": "describing",
         "form": "adjective",
-        "opposite": "grand",
-        "oppositeEmoji": "🐘",
         "definitions": [
             {
                 "text": "De petite taille.",
@@ -429,7 +471,13 @@
         "femininePlural": "petites",
         "subtext": "petit, minuscule / un petit appartement / un petit salaire / trop petit",
         "comparative": "plus petit",
-        "superlative": "le plus petit"
+        "superlative": "le plus petit",
+        "id": "fr_starter_adjectives_015",
+        "lang": "fr",
+        "transcription": "",
+        "antonyms": [
+            "grand"
+        ]
     },
     {
         "word": "facile",
@@ -437,8 +485,6 @@
         "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
-        "opposite": "difficile",
-        "oppositeEmoji": "🧩",
         "definitions": [
             {
                 "text": "Pas difficile.",
@@ -456,7 +502,12 @@
         ],
         "comparative": "plus facile",
         "superlative": "le plus facile",
-        "transcription": "/fa.sil/"
+        "transcription": "fa.sil",
+        "id": "fr_starter_adjectives_016",
+        "lang": "fr",
+        "antonyms": [
+            "difficile"
+        ]
     },
     {
         "word": "difficile",
@@ -464,8 +515,6 @@
         "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
-        "opposite": "facile",
-        "oppositeEmoji": "✅",
         "definitions": [
             {
                 "text": "Dur à faire ou à comprendre.",
@@ -480,7 +529,12 @@
         "subtext": "difficile à faire / très difficile / trouver cela difficile",
         "comparative": "plus difficile",
         "superlative": "le plus difficile",
-        "transcription": "/di.fi.sil/"
+        "transcription": "di.fi.sil",
+        "id": "fr_starter_adjectives_017",
+        "lang": "fr",
+        "antonyms": [
+            "facile"
+        ]
     },
     {
         "word": "heureux",
@@ -502,9 +556,12 @@
         "subtext": "heureux, joyeux / se sentir heureux / content de quelque chose / un jour de bonheur",
         "comparative": "plus heureux",
         "superlative": "le plus heureux",
-        "opposite": "triste",
-        "oppositeEmoji": "😢",
-        "transcription": "/œ.ʁø/"
+        "transcription": "œ.ʁø",
+        "id": "fr_starter_adjectives_018",
+        "lang": "fr",
+        "antonyms": [
+            "triste"
+        ]
     },
     {
         "word": "fatigué",
@@ -530,9 +587,12 @@
         ],
         "comparative": "plus fatigué",
         "superlative": "le plus fatigué",
-        "opposite": "énergique",
-        "oppositeEmoji": "⚡",
-        "transcription": "/fa.ti.ɡe/"
+        "transcription": "fa.ti.ɡe",
+        "id": "fr_starter_adjectives_019",
+        "lang": "fr",
+        "antonyms": [
+            "énergique"
+        ]
     },
     {
         "word": "à plein temps",
@@ -540,8 +600,6 @@
         "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
-        "opposite": "à temps partiel",
-        "oppositeEmoji": "⏳",
         "definitions": [
             {
                 "text": "Travaillant le nombre complet d'heures d'une semaine de travail.",
@@ -556,7 +614,12 @@
         "feminine": "à plein temps",
         "plural": "à plein temps",
         "femininePlural": "à plein temps",
-        "transcription": "/a plɛ̃ tɑ̃/"
+        "transcription": "a plɛ̃ tɑ̃",
+        "id": "fr_starter_adjectives_020",
+        "lang": "fr",
+        "antonyms": [
+            "à temps partiel"
+        ]
     },
     {
         "word": "à temps partiel",
@@ -564,8 +627,6 @@
         "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
-        "opposite": "à plein temps",
-        "oppositeEmoji": "⏰",
         "definitions": [
             {
                 "text": "Travaillant moins d'heures qu'une semaine de travail standard.",
@@ -583,7 +644,12 @@
         "feminine": "à temps partiel",
         "plural": "à temps partiel",
         "femininePlural": "à temps partiel",
-        "transcription": "/a tɑ̃ paʁ.sjel/"
+        "transcription": "a tɑ̃ paʁ.sjel",
+        "id": "fr_starter_adjectives_021",
+        "lang": "fr",
+        "antonyms": [
+            "à plein temps"
+        ]
     },
     {
         "word": "propre",
@@ -591,8 +657,6 @@
         "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
-        "opposite": "sale",
-        "oppositeEmoji": "💩",
         "subtext": "",
         "synonyms": [
             "net",
@@ -611,7 +675,12 @@
         "femininePlural": "propres",
         "comparative": "plus propre",
         "superlative": "le plus propre",
-        "transcription": "/pʁɔpʁ/"
+        "transcription": "pʁɔpʁ",
+        "id": "fr_starter_adjectives_022",
+        "lang": "fr",
+        "antonyms": [
+            "sale"
+        ]
     },
     {
         "word": "sain",
@@ -636,9 +705,13 @@
         ],
         "comparative": "plus sain",
         "superlative": "le plus sain",
-        "opposite": "malsain",
-        "oppositeEmoji": "🍔",
-        "transcription": "/sɛ̃/"
+        "transcription": "sɛ̃",
+        "id": "fr_starter_adjectives_023",
+        "lang": "fr",
+        "emoji": "✨",
+        "antonyms": [
+            "malsain"
+        ]
     },
     {
         "word": "malade",
@@ -662,9 +735,13 @@
         ],
         "comparative": "plus malade",
         "superlative": "le plus malade",
-        "opposite": "well",
-        "oppositeEmoji": "💪",
-        "transcription": "/ma.lad/"
+        "transcription": "ma.lad",
+        "id": "fr_starter_adjectives_024",
+        "lang": "fr",
+        "emoji": "✨",
+        "antonyms": [
+            "well"
+        ]
     },
     {
         "word": "en ligne",
@@ -672,8 +749,6 @@
         "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
-        "opposite": "hors ligne",
-        "oppositeEmoji": "📴",
         "definitions": [
             {
                 "text": "Utilisant Internet.",
@@ -688,7 +763,12 @@
         "feminine": "en ligne",
         "plural": "en ligne",
         "femininePlural": "en ligne",
-        "transcription": "/ɑ̃ liɲ/"
+        "transcription": "ɑ̃ liɲ",
+        "id": "fr_starter_adjectives_025",
+        "lang": "fr",
+        "antonyms": [
+            "hors ligne"
+        ]
     },
     {
         "word": "seul",
@@ -696,8 +776,6 @@
         "theme": "social",
         "emoji": "👤",
         "form": "adjective",
-        "opposite": "together",
-        "oppositeEmoji": "👫",
         "definitions": [
             {
                 "text": "Sans autres personnes ; tout seul.",
@@ -712,7 +790,12 @@
         "feminine": "seule",
         "plural": "seuls",
         "femininePlural": "seules",
-        "transcription": "/sœl/"
+        "transcription": "sœl",
+        "id": "fr_starter_adjectives_026",
+        "lang": "fr",
+        "antonyms": [
+            "together"
+        ]
     },
     {
         "word": "détendu",
@@ -736,9 +819,13 @@
         ],
         "comparative": "plus détendu",
         "superlative": "le plus détendu",
-        "opposite": "stressé",
-        "oppositeEmoji": "😫",
-        "transcription": "/de.tɑ̃.dy/"
+        "transcription": "de.tɑ̃.dy",
+        "id": "fr_starter_adjectives_027",
+        "lang": "fr",
+        "emoji": "✨",
+        "antonyms": [
+            "stressé"
+        ]
     },
     {
         "word": "inquiet",
@@ -762,9 +849,13 @@
         ],
         "comparative": "plus inquiet",
         "superlative": "le plus inquiet",
-        "opposite": "calm",
-        "oppositeEmoji": "😌",
-        "transcription": "/ɛ̃.kjɛ/"
+        "transcription": "ɛ̃.kjɛ",
+        "id": "fr_starter_adjectives_028",
+        "lang": "fr",
+        "emoji": "✨",
+        "antonyms": [
+            "calm"
+        ]
     },
     {
         "word": "occupé",
@@ -789,9 +880,12 @@
         ],
         "comparative": "plus occupé",
         "superlative": "le plus occupé",
-        "opposite": "libre",
-        "oppositeEmoji": "🆓",
-        "transcription": "/ɔ.ky.pe/"
+        "transcription": "ɔ.ky.pe",
+        "id": "fr_starter_adjectives_029",
+        "lang": "fr",
+        "antonyms": [
+            "libre"
+        ]
     },
     {
         "word": "utile",
@@ -815,9 +909,13 @@
         ],
         "comparative": "plus utile",
         "superlative": "le plus utile",
-        "opposite": "inutile",
-        "oppositeEmoji": "🗑️",
-        "transcription": "/y.til/"
+        "transcription": "y.til",
+        "id": "fr_starter_adjectives_030",
+        "lang": "fr",
+        "emoji": "✨",
+        "antonyms": [
+            "inutile"
+        ]
     },
     {
         "word": "important",
@@ -842,9 +940,12 @@
         "femininePlural": "importantes",
         "comparative": "plus important",
         "superlative": "le plus important",
-        "opposite": "peu important",
-        "oppositeEmoji": "🍃",
-        "transcription": "/ɛ̃.pɔʁ.tɑ̃/"
+        "transcription": "ɛ̃.pɔʁ.tɑ̃",
+        "id": "fr_starter_adjectives_031",
+        "lang": "fr",
+        "antonyms": [
+            "peu important"
+        ]
     },
     {
         "word": "rouge",
@@ -866,12 +967,14 @@
         "femininePlural": "rouges",
         "comparative": "plus rouge",
         "superlative": "le plus rouge",
-        "transcription": "/ʁuʒ/",
+        "transcription": "ʁuʒ",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "rubeus",
             "origin_meaning": "red"
-        }
+        },
+        "id": "fr_starter_adjectives_032",
+        "lang": "fr"
     },
     {
         "word": "bleu",
@@ -893,11 +996,13 @@
         "femininePlural": "bleues",
         "comparative": "plus bleu",
         "superlative": "le plus bleu",
-        "transcription": "/blø/",
+        "transcription": "blø",
         "etymology": {
             "origin_lang": "Frankish",
             "origin_word": "blāu"
-        }
+        },
+        "id": "fr_starter_adjectives_033",
+        "lang": "fr"
     },
     {
         "word": "vert",
@@ -919,12 +1024,14 @@
         "femininePlural": "vertes",
         "comparative": "plus vert",
         "superlative": "le plus vert",
-        "transcription": "/vɛʁ/",
+        "transcription": "vɛʁ",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "viridis",
             "origin_meaning": "green"
-        }
+        },
+        "id": "fr_starter_adjectives_034",
+        "lang": "fr"
     },
     {
         "word": "blanc",
@@ -946,11 +1053,13 @@
         "femininePlural": "blanches",
         "comparative": "plus blanc",
         "superlative": "le plus blanc",
-        "transcription": "/blɑ̃/",
+        "transcription": "blɑ̃",
         "etymology": {
             "origin_lang": "Frankish",
             "origin_word": "blank"
-        }
+        },
+        "id": "fr_starter_adjectives_035",
+        "lang": "fr"
     },
     {
         "word": "noir",
@@ -972,12 +1081,14 @@
         "femininePlural": "noires",
         "comparative": "plus noir",
         "superlative": "le plus noir",
-        "transcription": "/nwaʁ/",
+        "transcription": "nwaʁ",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "niger",
             "origin_meaning": "black"
-        }
+        },
+        "id": "fr_starter_adjectives_036",
+        "lang": "fr"
     },
     {
         "word": "jaune",
@@ -999,12 +1110,14 @@
         "femininePlural": "jaunes",
         "comparative": "plus jaune",
         "superlative": "le plus jaune",
-        "transcription": "/ʒon/",
+        "transcription": "ʒon",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "galbinus",
             "origin_meaning": "yellow-green"
-        }
+        },
+        "id": "fr_starter_adjectives_037",
+        "lang": "fr"
     },
     {
         "word": "libre",
@@ -1030,9 +1143,12 @@
         "femininePlural": "libres",
         "comparative": "plus libre",
         "superlative": "le plus libre",
-        "opposite": "occupé",
-        "oppositeEmoji": "💼",
-        "transcription": "/libʁ/"
+        "transcription": "libʁ",
+        "id": "fr_starter_adjectives_038",
+        "lang": "fr",
+        "antonyms": [
+            "occupé"
+        ]
     },
     {
         "word": "ouvert",
@@ -1040,8 +1156,6 @@
         "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
-        "opposite": "fermé",
-        "oppositeEmoji": "🔒",
         "subtext": "",
         "synonyms": [
             "libre d'accès"
@@ -1059,7 +1173,12 @@
         "femininePlural": "ouvertes",
         "comparative": "plus ouvert",
         "superlative": "le plus ouvert",
-        "transcription": "/u.vɛʁ/"
+        "transcription": "u.vɛʁ",
+        "id": "fr_starter_adjectives_039",
+        "lang": "fr",
+        "antonyms": [
+            "fermé"
+        ]
     },
     {
         "word": "fermé",
@@ -1067,8 +1186,6 @@
         "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
-        "opposite": "ouvert",
-        "oppositeEmoji": "🔓",
         "subtext": "",
         "synonyms": [
             "clos",
@@ -1087,7 +1204,12 @@
         "femininePlural": "fermées",
         "comparative": "plus fermé",
         "superlative": "le plus fermé",
-        "transcription": "/fɛʁ.me/"
+        "transcription": "fɛʁ.me",
+        "id": "fr_starter_adjectives_040",
+        "lang": "fr",
+        "antonyms": [
+            "ouvert"
+        ]
     },
     {
         "word": "grand",
@@ -1114,7 +1236,9 @@
         ],
         "comparative": "plus grand",
         "superlative": "le plus grand",
-        "transcription": "/ɡʁɑ̃/"
+        "transcription": "ɡʁɑ̃",
+        "id": "fr_starter_adjectives_041",
+        "lang": "fr"
     },
     {
         "word": "petit",
@@ -1140,7 +1264,10 @@
             "too little"
         ],
         "comparative": "plus petit",
-        "superlative": "le plus petit"
+        "superlative": "le plus petit",
+        "id": "fr_starter_adjectives_042",
+        "lang": "fr",
+        "transcription": ""
     },
     {
         "word": "long",
@@ -1166,11 +1293,13 @@
         ],
         "comparative": "plus long",
         "superlative": "le plus long",
-        "transcription": "/lɔ̃/",
+        "transcription": "lɔ̃",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "longus"
-        }
+        },
+        "id": "fr_starter_adjectives_043",
+        "lang": "fr"
     },
     {
         "word": "haut",
@@ -1197,7 +1326,9 @@
         ],
         "comparative": "plus haut",
         "superlative": "le plus haut",
-        "transcription": "/o/"
+        "transcription": "o",
+        "id": "fr_starter_adjectives_044",
+        "lang": "fr"
     },
     {
         "word": "bas",
@@ -1224,7 +1355,9 @@
         ],
         "comparative": "plus bas",
         "superlative": "le plus bas",
-        "transcription": "/ba/"
+        "transcription": "ba",
+        "id": "fr_starter_adjectives_045",
+        "lang": "fr"
     },
     {
         "word": "plein",
@@ -1249,9 +1382,12 @@
         ],
         "comparative": "plus plein",
         "superlative": "le plus plein",
-        "opposite": "vide",
-        "oppositeEmoji": "🫙",
-        "transcription": "/plɛ̃/"
+        "transcription": "plɛ̃",
+        "id": "fr_starter_adjectives_046",
+        "lang": "fr",
+        "antonyms": [
+            "vide"
+        ]
     },
     {
         "word": "vide",
@@ -1273,9 +1409,12 @@
         "subtext": "un appartement vide / une pièce vide / presque vide",
         "comparative": "plus vide",
         "superlative": "le plus vide",
-        "opposite": "plein",
-        "oppositeEmoji": "🍷",
-        "transcription": "/vid/"
+        "transcription": "vid",
+        "id": "fr_starter_adjectives_047",
+        "lang": "fr",
+        "antonyms": [
+            "plein"
+        ]
     },
     {
         "word": "tiède",
@@ -1302,7 +1441,9 @@
         ],
         "comparative": "plus tiède",
         "superlative": "le plus tiède",
-        "transcription": "/tjɛd/"
+        "transcription": "tjɛd",
+        "id": "fr_starter_adjectives_048",
+        "lang": "fr"
     },
     {
         "word": "frais",
@@ -1329,7 +1470,9 @@
         ],
         "comparative": "plus frais",
         "superlative": "le plus frais",
-        "transcription": "/fʁɛ/"
+        "transcription": "fʁɛ",
+        "id": "fr_starter_adjectives_049",
+        "lang": "fr"
     },
     {
         "word": "mouillé",
@@ -1356,7 +1499,9 @@
         ],
         "comparative": "plus mouillé",
         "superlative": "le plus mouillé",
-        "transcription": "/mu.je/"
+        "transcription": "mu.je",
+        "id": "fr_starter_adjectives_050",
+        "lang": "fr"
     },
     {
         "word": "sec",
@@ -1383,7 +1528,9 @@
         ],
         "comparative": "plus sec",
         "superlative": "le plus sec",
-        "transcription": "/sɛk/"
+        "transcription": "sɛk",
+        "id": "fr_starter_adjectives_051",
+        "lang": "fr"
     },
     {
         "word": "sale",
@@ -1410,9 +1557,12 @@
         ],
         "comparative": "plus sale",
         "superlative": "le plus sale",
-        "opposite": "propre",
-        "oppositeEmoji": "✨",
-        "transcription": "/sal/"
+        "transcription": "sal",
+        "id": "fr_starter_adjectives_052",
+        "lang": "fr",
+        "antonyms": [
+            "propre"
+        ]
     },
     {
         "word": "dur",
@@ -1439,9 +1589,12 @@
         ],
         "comparative": "plus dur",
         "superlative": "le plus dur",
-        "opposite": "mou",
-        "oppositeEmoji": "🧸",
-        "transcription": "/dyʁ/"
+        "transcription": "dyʁ",
+        "id": "fr_starter_adjectives_053",
+        "lang": "fr",
+        "antonyms": [
+            "mou"
+        ]
     },
     {
         "word": "doux",
@@ -1468,7 +1621,9 @@
         ],
         "comparative": "plus doux",
         "superlative": "le plus doux",
-        "transcription": "/du/"
+        "transcription": "du",
+        "id": "fr_starter_adjectives_054",
+        "lang": "fr"
     },
     {
         "word": "lourd",
@@ -1495,9 +1650,12 @@
         ],
         "comparative": "plus lourd",
         "superlative": "le plus lourd",
-        "opposite": "clair",
-        "oppositeEmoji": "🪶",
-        "transcription": "/luʁ/"
+        "transcription": "luʁ",
+        "id": "fr_starter_adjectives_055",
+        "lang": "fr",
+        "antonyms": [
+            "clair"
+        ]
     },
     {
         "word": "léger",
@@ -1524,7 +1682,9 @@
         ],
         "comparative": "plus léger",
         "superlative": "le plus léger",
-        "transcription": "/le.ʒe/"
+        "transcription": "le.ʒe",
+        "id": "fr_starter_adjectives_056",
+        "lang": "fr"
     },
     {
         "word": "brun",
@@ -1551,7 +1711,9 @@
         ],
         "comparative": "plus brun",
         "superlative": "le plus brun",
-        "transcription": "/bʁœ̃/"
+        "transcription": "bʁœ̃",
+        "id": "fr_starter_adjectives_057",
+        "lang": "fr"
     },
     {
         "word": "gris",
@@ -1578,7 +1740,9 @@
         ],
         "comparative": "plus gris",
         "superlative": "le plus gris",
-        "transcription": "/ɡʁi/"
+        "transcription": "ɡʁi",
+        "id": "fr_starter_adjectives_058",
+        "lang": "fr"
     },
     {
         "word": "rose",
@@ -1605,7 +1769,9 @@
         ],
         "comparative": "plus rose",
         "superlative": "le plus rose",
-        "transcription": "/ʁoz/"
+        "transcription": "ʁoz",
+        "id": "fr_starter_adjectives_059",
+        "lang": "fr"
     },
     {
         "word": "orange",
@@ -1627,7 +1793,9 @@
         "subtext": "bright orange / dark orange / orange light",
         "comparative": "plus orange",
         "superlative": "le plus orange",
-        "transcription": "/ɔ.ʁɑ̃ʒ/"
+        "transcription": "ɔ.ʁɑ̃ʒ",
+        "id": "fr_starter_adjectives_060",
+        "lang": "fr"
     },
     {
         "word": "génial",
@@ -1654,7 +1822,9 @@
         ],
         "comparative": "plus génial",
         "superlative": "le plus génial",
-        "transcription": "/ʒe.njal/"
+        "transcription": "ʒe.njal",
+        "id": "fr_starter_adjectives_061",
+        "lang": "fr"
     },
     {
         "word": "sympa",
@@ -1680,7 +1850,9 @@
         ],
         "comparative": "plus sympa",
         "superlative": "le plus sympa",
-        "transcription": "/sɛ̃.pa/"
+        "transcription": "sɛ̃.pa",
+        "id": "fr_starter_adjectives_062",
+        "lang": "fr"
     },
     {
         "word": "merveilleux",
@@ -1705,7 +1877,9 @@
         ],
         "comparative": "plus merveilleux",
         "superlative": "le plus merveilleux",
-        "transcription": "/mɛʁ.vɛ.jø/"
+        "transcription": "mɛʁ.vɛ.jø",
+        "id": "fr_starter_adjectives_063",
+        "lang": "fr"
     },
     {
         "word": "terrible",
@@ -1727,7 +1901,9 @@
         "subtext": "terrible weather / a terrible mistake / terrible news",
         "comparative": "plus terrible",
         "superlative": "le plus terrible",
-        "transcription": "/tɛ.ʁibl/"
+        "transcription": "tɛ.ʁibl",
+        "id": "fr_starter_adjectives_064",
+        "lang": "fr"
     },
     {
         "word": "affreux",
@@ -1754,7 +1930,9 @@
         ],
         "comparative": "plus affreux",
         "superlative": "le plus affreux",
-        "transcription": "/a.fʁø/"
+        "transcription": "a.fʁø",
+        "id": "fr_starter_adjectives_065",
+        "lang": "fr"
     },
     {
         "word": "incroyable",
@@ -1781,7 +1959,9 @@
         ],
         "comparative": "plus incroyable",
         "superlative": "le plus incroyable",
-        "transcription": "/ɛ̃.kʁwa.jabl/"
+        "transcription": "ɛ̃.kʁwa.jabl",
+        "id": "fr_starter_adjectives_066",
+        "lang": "fr"
     },
     {
         "word": "fantastique",
@@ -1808,7 +1988,9 @@
         ],
         "comparative": "plus fantastique",
         "superlative": "le plus fantastique",
-        "transcription": "/fɑ̃.tas.tik/"
+        "transcription": "fɑ̃.tas.tik",
+        "id": "fr_starter_adjectives_067",
+        "lang": "fr"
     },
     {
         "word": "triste",
@@ -1830,9 +2012,12 @@
         "subtext": "se sentir triste / une situation triste / profondément triste",
         "comparative": "plus triste",
         "superlative": "le plus triste",
-        "opposite": "heureux",
-        "oppositeEmoji": "😊",
-        "transcription": "/tʁist/"
+        "transcription": "tʁist",
+        "id": "fr_starter_adjectives_068",
+        "lang": "fr",
+        "antonyms": [
+            "heureux"
+        ]
     },
     {
         "word": "affamé",
@@ -1858,7 +2043,9 @@
         ],
         "comparative": "plus affamé",
         "superlative": "le plus affamé",
-        "transcription": "/a.fa.me/"
+        "transcription": "a.fa.me",
+        "id": "fr_starter_adjectives_069",
+        "lang": "fr"
     },
     {
         "word": "fâché",
@@ -1883,7 +2070,9 @@
         ],
         "comparative": "plus fâché",
         "superlative": "le plus fâché",
-        "transcription": "/fa.ʃe/"
+        "transcription": "fa.ʃe",
+        "id": "fr_starter_adjectives_070",
+        "lang": "fr"
     },
     {
         "word": "ennuyé",
@@ -1910,7 +2099,9 @@
         ],
         "comparative": "plus ennuyé",
         "superlative": "le plus ennuyé",
-        "transcription": "/ɑ̃.nɥi.je/"
+        "transcription": "ɑ̃.nɥi.je",
+        "id": "fr_starter_adjectives_071",
+        "lang": "fr"
     },
     {
         "word": "excité",
@@ -1932,7 +2123,9 @@
         "subtext": "se sentir excité / excité par / très excité",
         "comparative": "plus excité",
         "superlative": "le plus excité",
-        "transcription": "/ɛk.si.te/"
+        "transcription": "ɛk.si.te",
+        "id": "fr_starter_adjectives_072",
+        "lang": "fr"
     },
     {
         "word": "effrayé",
@@ -1958,7 +2151,9 @@
         ],
         "comparative": "plus effrayé",
         "superlative": "le plus effrayé",
-        "transcription": "/e.fʁɛ.je/"
+        "transcription": "e.fʁɛ.je",
+        "id": "fr_starter_adjectives_073",
+        "lang": "fr"
     },
     {
         "word": "désolé",
@@ -1980,7 +2175,9 @@
         "subtext": "se sentir désolé / désolé pour / désolé de",
         "comparative": "plus désolé",
         "superlative": "le plus désolé",
-        "transcription": "/de.zɔ.le/"
+        "transcription": "de.zɔ.le",
+        "id": "fr_starter_adjectives_074",
+        "lang": "fr"
     },
     {
         "word": "correct",
@@ -2006,7 +2203,9 @@
         ],
         "comparative": "plus correct",
         "superlative": "le plus correct",
-        "transcription": "/kɔ.ʁɛkt/"
+        "transcription": "kɔ.ʁɛkt",
+        "id": "fr_starter_adjectives_075",
+        "lang": "fr"
     },
     {
         "word": "mauvais",
@@ -2033,7 +2232,9 @@
         ],
         "comparative": "pire",
         "superlative": "le pire",
-        "transcription": "/mɔ.vɛ/"
+        "transcription": "mɔ.vɛ",
+        "id": "fr_starter_adjectives_076",
+        "lang": "fr"
     },
     {
         "word": "nouveau",
@@ -2055,13 +2256,16 @@
         "subtext": "nouveau travail / tout nouveau / complètement nouveau",
         "comparative": "plus nouveau",
         "superlative": "le plus nouveau",
-        "opposite": "vieux",
-        "oppositeEmoji": "📦",
-        "transcription": "/nu.vo/",
+        "transcription": "nu.vo",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "novellus"
-        }
+        },
+        "id": "fr_starter_adjectives_077",
+        "lang": "fr",
+        "antonyms": [
+            "vieux"
+        ]
     },
     {
         "word": "différent",
@@ -2083,7 +2287,9 @@
         "subtext": "complètement différent / très différent / différent de",
         "comparative": "plus différent",
         "superlative": "le plus différent",
-        "transcription": "/di.fe.ʁɑ̃/"
+        "transcription": "di.fe.ʁɑ̃",
+        "id": "fr_starter_adjectives_078",
+        "lang": "fr"
     },
     {
         "word": "même",
@@ -2105,7 +2311,9 @@
         "subtext": "le même que / exactement le même / en même temps",
         "comparative": "plus même",
         "superlative": "le plus même",
-        "transcription": "/mɛm/"
+        "transcription": "mɛm",
+        "id": "fr_starter_adjectives_079",
+        "lang": "fr"
     },
     {
         "word": "rapide",
@@ -2127,9 +2335,12 @@
         "subtext": "restauration rapide / train rapide / très rapide",
         "comparative": "plus rapide",
         "superlative": "le plus rapide",
-        "opposite": "lent",
-        "oppositeEmoji": "🐢",
-        "transcription": "/ʁa.pid/"
+        "transcription": "ʁa.pid",
+        "id": "fr_starter_adjectives_080",
+        "lang": "fr",
+        "antonyms": [
+            "lent"
+        ]
     },
     {
         "word": "lent",
@@ -2151,9 +2362,12 @@
         "subtext": "progrès lents / internet lent / très lent",
         "comparative": "plus lent",
         "superlative": "le plus lent",
-        "opposite": "rapide",
-        "oppositeEmoji": "🏎️",
-        "transcription": "/lɑ̃/"
+        "transcription": "lɑ̃",
+        "id": "fr_starter_adjectives_081",
+        "lang": "fr",
+        "antonyms": [
+            "rapide"
+        ]
     },
     {
         "word": "calme",
@@ -2175,9 +2389,12 @@
         "subtext": "quartier calme / rester calme / bien calme",
         "comparative": "plus calme",
         "superlative": "le plus calme",
-        "opposite": "bruyant",
-        "oppositeEmoji": "📢",
-        "transcription": "/kalm/"
+        "transcription": "kalm",
+        "id": "fr_starter_adjectives_082",
+        "lang": "fr",
+        "antonyms": [
+            "bruyant"
+        ]
     },
     {
         "word": "bruyant",
@@ -2204,9 +2421,12 @@
         ],
         "comparative": "plus bruyant",
         "superlative": "le plus bruyant",
-        "opposite": "calme",
-        "oppositeEmoji": "🤫",
-        "transcription": "/bʁɥi.jɑ̃/"
+        "transcription": "bʁɥi.jɑ̃",
+        "id": "fr_starter_adjectives_083",
+        "lang": "fr",
+        "antonyms": [
+            "calme"
+        ]
     },
     {
         "word": "sûr",
@@ -2231,7 +2451,9 @@
         ],
         "comparative": "plus sûr",
         "superlative": "le plus sûr",
-        "transcription": "/syʁ/"
+        "transcription": "syʁ",
+        "id": "fr_starter_adjectives_084",
+        "lang": "fr"
     },
     {
         "word": "dangereux",
@@ -2256,7 +2478,9 @@
         ],
         "comparative": "plus dangereux",
         "superlative": "le plus dangereux",
-        "transcription": "/dɑ̃.ʒə.ʁø/"
+        "transcription": "dɑ̃.ʒə.ʁø",
+        "id": "fr_starter_adjectives_085",
+        "lang": "fr"
     },
     {
         "word": "malheureux",
@@ -2277,7 +2501,10 @@
         "subtext": "malheureux de quelque chose / profondément malheureux",
         "comparative": "plus malheureux",
         "superlative": "le plus malheureux",
-        "transcription": "/ma.lø.ʁø/"
+        "transcription": "ma.lø.ʁø",
+        "id": "fr_starter_adjectives_086",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "nerveux",
@@ -2298,7 +2525,10 @@
         "subtext": "nerveux avant un entretien / très nerveux",
         "comparative": "plus nerveux",
         "superlative": "le plus nerveux",
-        "transcription": "/nɛʁ.vø/"
+        "transcription": "nɛʁ.vø",
+        "id": "fr_starter_adjectives_087",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "stressé",
@@ -2319,9 +2549,13 @@
         "subtext": "se sentir stressé / très stressé / à bout de nerfs",
         "comparative": "plus stressé",
         "superlative": "le plus stressé",
-        "opposite": "détendu",
-        "oppositeEmoji": "😌",
-        "transcription": "/stʁⲉ.se/"
+        "transcription": "stʁⲉ.se",
+        "id": "fr_starter_adjectives_088",
+        "lang": "fr",
+        "emoji": "✨",
+        "antonyms": [
+            "détendu"
+        ]
     },
     {
         "word": "confiant",
@@ -2345,7 +2579,10 @@
         ],
         "comparative": "plus confiant",
         "superlative": "le plus confiant",
-        "transcription": "/kɔ̃.fjɑ̃/"
+        "transcription": "kɔ̃.fjɑ̃",
+        "id": "fr_starter_adjectives_089",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "fier",
@@ -2366,7 +2603,10 @@
         "subtext": "se sentir fier / très fier / fier de",
         "comparative": "plus fier",
         "superlative": "le plus fier",
-        "transcription": "/fjɛʁ/"
+        "transcription": "fjɛʁ",
+        "id": "fr_starter_adjectives_090",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "effrayé",
@@ -2391,7 +2631,10 @@
         ],
         "comparative": "plus effrayé",
         "superlative": "le plus effrayé",
-        "transcription": "/e.fʁɛ.je/"
+        "transcription": "e.fʁɛ.je",
+        "id": "fr_starter_adjectives_091",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "surpris",
@@ -2412,7 +2655,10 @@
         "subtext": "se sentir surpris / très surpris / agréablement surpris",
         "comparative": "plus surpris",
         "superlative": "le plus surpris",
-        "transcription": "/syʁ.pʁi/"
+        "transcription": "syʁ.pʁi",
+        "id": "fr_starter_adjectives_092",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "déçu",
@@ -2433,7 +2679,10 @@
         "subtext": "se sentir déçu / profondément déçu / déçu par",
         "comparative": "plus déçu",
         "superlative": "le plus déçu",
-        "transcription": "/de.sy/"
+        "transcription": "de.sy",
+        "id": "fr_starter_adjectives_093",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "beau",
@@ -2459,9 +2708,13 @@
         ],
         "comparative": "plus beau",
         "superlative": "le plus beau",
-        "opposite": "laid",
-        "oppositeEmoji": "👹",
-        "transcription": "/bo/"
+        "transcription": "bo",
+        "id": "fr_starter_adjectives_094",
+        "lang": "fr",
+        "emoji": "✨",
+        "antonyms": [
+            "laid"
+        ]
     },
     {
         "word": "joli",
@@ -2486,7 +2739,10 @@
         ],
         "comparative": "plus joli",
         "superlative": "le plus joli",
-        "transcription": "/ʒɔ.li/"
+        "transcription": "ʒɔ.li",
+        "id": "fr_starter_adjectives_095",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "fort",
@@ -2510,9 +2766,13 @@
         ],
         "comparative": "plus fort",
         "superlative": "le plus fort",
-        "opposite": "faible",
-        "oppositeEmoji": "🧣",
-        "transcription": "/fɔʁ/"
+        "transcription": "fɔʁ",
+        "id": "fr_starter_adjectives_096",
+        "lang": "fr",
+        "emoji": "✨",
+        "antonyms": [
+            "faible"
+        ]
     },
     {
         "word": "faible",
@@ -2533,9 +2793,13 @@
         "subtext": "connexion faible / un argument faible / très faible",
         "comparative": "plus faible",
         "superlative": "le plus faible",
-        "opposite": "fort",
-        "oppositeEmoji": "💪",
-        "transcription": "/fɛbl/"
+        "transcription": "fɛbl",
+        "id": "fr_starter_adjectives_097",
+        "lang": "fr",
+        "emoji": "✨",
+        "antonyms": [
+            "fort"
+        ]
     },
     {
         "word": "en forme",
@@ -2559,7 +2823,10 @@
         ],
         "comparative": "plus en forme",
         "superlative": "le plus en forme",
-        "transcription": "/ɑ̃ fɔʁm/"
+        "transcription": "ɑ̃ fɔʁm",
+        "id": "fr_starter_adjectives_098",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "excellent",
@@ -2580,7 +2847,10 @@
         "subtext": "excellent travail / excellents résultats / absolument excellent",
         "comparative": "plus excellent",
         "superlative": "le plus excellent",
-        "transcription": "/ɛk.sɛ.lɑ̃/"
+        "transcription": "ɛk.sɛ.lɑ̃",
+        "id": "fr_starter_adjectives_099",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "parfait",
@@ -2604,7 +2874,10 @@
         ],
         "comparative": "plus parfait",
         "superlative": "le plus parfait",
-        "transcription": "/paʁ.fɛ/"
+        "transcription": "paʁ.fɛ",
+        "id": "fr_starter_adjectives_100",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "inutile",
@@ -2625,7 +2898,10 @@
         "subtext": "complètement inutile / se révéler inutile / une idée inutile",
         "comparative": "plus inutile",
         "superlative": "le plus inutile",
-        "transcription": "/i.ny.til/"
+        "transcription": "i.ny.til",
+        "id": "fr_starter_adjectives_101",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "correct",
@@ -2650,7 +2926,10 @@
         ],
         "comparative": "plus correct",
         "superlative": "le plus correct",
-        "transcription": "/kɔ.ʁɛkt/"
+        "transcription": "kɔ.ʁɛkt",
+        "id": "fr_starter_adjectives_102",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "intéressant",
@@ -2674,7 +2953,10 @@
         ],
         "comparative": "plus intéressant",
         "superlative": "le plus intéressant",
-        "transcription": "/ɛ̃.te.ʁɛ.sɑ̃/"
+        "transcription": "ɛ̃.te.ʁɛ.sɑ̃",
+        "id": "fr_starter_adjectives_103",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "ennuyeux",
@@ -2698,7 +2980,10 @@
         ],
         "comparative": "plus ennuyeux",
         "superlative": "le plus ennuyeux",
-        "transcription": "/ɑ̃.nɥi.jø/"
+        "transcription": "ɑ̃.nɥi.jø",
+        "id": "fr_starter_adjectives_104",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "nécessaire",
@@ -2719,7 +3004,10 @@
         "subtext": "absolument nécessaire / si nécessaire / nécessaire de faire",
         "comparative": "plus nécessaire",
         "superlative": "le plus nécessaire",
-        "transcription": "/ne.se.sɛʁ/"
+        "transcription": "ne.se.sɛʁ",
+        "id": "fr_starter_adjectives_105",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "possible",
@@ -2740,7 +3028,10 @@
         "subtext": "dès que possible / c'est possible / rendre possible",
         "comparative": "plus possible",
         "superlative": "le plus possible",
-        "transcription": "/pɔ.sibl/"
+        "transcription": "pɔ.sibl",
+        "id": "fr_starter_adjectives_106",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "impossible",
@@ -2761,7 +3052,10 @@
         "subtext": "pratiquement impossible / rendre impossible / presque impossible",
         "comparative": "plus impossible",
         "superlative": "le plus impossible",
-        "transcription": "/ɛ̃.pɔ.sibl/"
+        "transcription": "ɛ̃.pɔ.sibl",
+        "id": "fr_starter_adjectives_107",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "spécial",
@@ -2786,7 +3080,10 @@
         ],
         "comparative": "plus spécial",
         "superlative": "le plus spécial",
-        "transcription": "/spe.sjal/"
+        "transcription": "spe.sjal",
+        "id": "fr_starter_adjectives_108",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "populaire",
@@ -2807,7 +3104,10 @@
         "subtext": "très populaire / choix populaire / le plus populaire",
         "comparative": "plus populaire",
         "superlative": "le plus populaire",
-        "transcription": "/pɔ.py.lɛʁ/"
+        "transcription": "pɔ.py.lɛʁ",
+        "id": "fr_starter_adjectives_109",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "similaire",
@@ -2831,7 +3131,10 @@
         ],
         "comparative": "plus similaire",
         "superlative": "le plus similaire",
-        "transcription": "/si.mi.lɛʁ/"
+        "transcription": "si.mi.lɛʁ",
+        "id": "fr_starter_adjectives_110",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "amical",
@@ -2855,7 +3158,10 @@
         ],
         "comparative": "plus amical",
         "superlative": "le plus amical",
-        "transcription": "/a.mi.kal/"
+        "transcription": "a.mi.kal",
+        "id": "fr_starter_adjectives_111",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "gentil",
@@ -2879,7 +3185,10 @@
         ],
         "comparative": "plus gentil",
         "superlative": "le plus gentil",
-        "transcription": "/ʒɑ̃.ti/"
+        "transcription": "ʒɑ̃.ti",
+        "id": "fr_starter_adjectives_112",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "drôle",
@@ -2900,7 +3209,10 @@
         "subtext": "très drôle / histoire drôle / trouver drôle",
         "comparative": "plus drôle",
         "superlative": "le plus drôle",
-        "transcription": "/dʁol/"
+        "transcription": "dʁol",
+        "id": "fr_starter_adjectives_113",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "intelligent",
@@ -2925,7 +3237,10 @@
         ],
         "comparative": "plus intelligent",
         "superlative": "le plus intelligent",
-        "transcription": "/ɛ̃.te.li.ʒɑ̃/"
+        "transcription": "ɛ̃.te.li.ʒɑ̃",
+        "id": "fr_starter_adjectives_114",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "poli",
@@ -2949,7 +3264,10 @@
         ],
         "comparative": "plus poli",
         "superlative": "le plus poli",
-        "transcription": "/pɔ.li/"
+        "transcription": "pɔ.li",
+        "id": "fr_starter_adjectives_115",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "impoli",
@@ -2970,7 +3288,10 @@
         "subtext": "très impoli / incroyablement impoli / délibérément impoli",
         "comparative": "plus impoli",
         "superlative": "le plus impoli",
-        "transcription": "/ɛ̃.pɔ.li/"
+        "transcription": "ɛ̃.pɔ.li",
+        "id": "fr_starter_adjectives_116",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "paresseux",
@@ -2994,7 +3315,10 @@
         ],
         "comparative": "plus paresseux",
         "superlative": "le plus paresseux",
-        "transcription": "/pa.ʁɛ.sø/"
+        "transcription": "pa.ʁɛ.sø",
+        "id": "fr_starter_adjectives_117",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "honnête",
@@ -3015,7 +3339,10 @@
         "subtext": "très honnête / brutalement honnête / tout à fait honnête",
         "comparative": "plus honnête",
         "superlative": "le plus honnête",
-        "transcription": "/ɔ.nɛt/"
+        "transcription": "ɔ.nɛt",
+        "id": "fr_starter_adjectives_118",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "bruyant",
@@ -3036,7 +3363,10 @@
         "subtext": "très bruyant / environnement bruyant / trop bruyant",
         "comparative": "plus bruyant",
         "superlative": "le plus bruyant",
-        "transcription": "/bʁɥi.jɑ̃/"
+        "transcription": "bʁɥi.jɑ̃",
+        "id": "fr_starter_adjectives_119",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "honnête",
@@ -3056,7 +3386,9 @@
         "subtext": "honnête",
         "comparative": "plus honnête",
         "superlative": "le plus honnête",
-        "transcription": "/ɔ.nɛt/"
+        "transcription": "ɔ.nɛt",
+        "id": "fr_starter_adjectives_120",
+        "lang": "fr"
     },
     {
         "word": "bruyant",
@@ -3076,7 +3408,9 @@
         "subtext": "bruyant",
         "comparative": "plus bruyant",
         "superlative": "le plus bruyant",
-        "transcription": "/bʁɥi.jɑ̃/"
+        "transcription": "bʁɥi.jɑ̃",
+        "id": "fr_starter_adjectives_121",
+        "lang": "fr"
     },
     {
         "word": "rond",
@@ -3096,7 +3430,9 @@
         "subtext": "rond",
         "comparative": "plus rond",
         "superlative": "le plus rond",
-        "transcription": "/ʁɔ̃/"
+        "transcription": "ʁɔ̃",
+        "id": "fr_starter_adjectives_122",
+        "lang": "fr"
     },
     {
         "word": "carré",
@@ -3116,7 +3452,9 @@
         "subtext": "carré",
         "comparative": "plus carré",
         "superlative": "le plus carré",
-        "transcription": "/ka.ʁe/"
+        "transcription": "ka.ʁe",
+        "id": "fr_starter_adjectives_123",
+        "lang": "fr"
     },
     {
         "word": "serviable",
@@ -3136,7 +3474,9 @@
         "subtext": "serviable",
         "comparative": "plus serviable",
         "superlative": "le plus serviable",
-        "transcription": "/sɛʁ.vjabl/"
+        "transcription": "sɛʁ.vjabl",
+        "id": "fr_starter_adjectives_124",
+        "lang": "fr"
     },
     {
         "word": "patient",
@@ -3156,7 +3496,9 @@
         "subtext": "patient",
         "comparative": "plus patient",
         "superlative": "le plus patient",
-        "transcription": "/pa.sjɑ̃/"
+        "transcription": "pa.sjɑ̃",
+        "id": "fr_starter_adjectives_125",
+        "lang": "fr"
     },
     {
         "word": "actif",
@@ -3176,7 +3518,9 @@
         "subtext": "actif",
         "comparative": "plus actif",
         "superlative": "le plus actif",
-        "transcription": "/ak.tif/"
+        "transcription": "ak.tif",
+        "id": "fr_starter_adjectives_126",
+        "lang": "fr"
     },
     {
         "word": "prudent",
@@ -3196,7 +3540,9 @@
         "subtext": "prudent",
         "comparative": "plus prudent",
         "superlative": "le plus prudent",
-        "transcription": "/pʁy.dɑ̃/"
+        "transcription": "pʁy.dɑ̃",
+        "id": "fr_starter_adjectives_127",
+        "lang": "fr"
     },
     {
         "word": "créatif",
@@ -3216,7 +3562,9 @@
         "subtext": "créatif",
         "comparative": "plus créatif",
         "superlative": "le plus créatif",
-        "transcription": "/kʁe.a.tif/"
+        "transcription": "kʁe.a.tif",
+        "id": "fr_starter_adjectives_128",
+        "lang": "fr"
     },
     {
         "word": "nuageux",
@@ -3236,7 +3584,9 @@
         "subtext": "nuageux",
         "comparative": "plus nuageux",
         "superlative": "le plus nuageux",
-        "transcription": "/nɥa.ʒø/"
+        "transcription": "nɥa.ʒø",
+        "id": "fr_starter_adjectives_129",
+        "lang": "fr"
     },
     {
         "word": "venteux",
@@ -3256,7 +3606,9 @@
         "subtext": "venteux",
         "comparative": "plus venteux",
         "superlative": "le plus venteux",
-        "transcription": "/vɑ̃.tø/"
+        "transcription": "vɑ̃.tø",
+        "id": "fr_starter_adjectives_130",
+        "lang": "fr"
     },
     {
         "word": "neigeux",
@@ -3276,7 +3628,9 @@
         "subtext": "neigeux",
         "comparative": "plus neigeux",
         "superlative": "le plus neigeux",
-        "transcription": "/nɛ.ʒø/"
+        "transcription": "nɛ.ʒø",
+        "id": "fr_starter_adjectives_131",
+        "lang": "fr"
     },
     {
         "word": "brumeux",
@@ -3296,7 +3650,9 @@
         "subtext": "brumeux",
         "comparative": "plus brumeux",
         "superlative": "le plus brumeux",
-        "transcription": "/bʁy.mø/"
+        "transcription": "bʁy.mø",
+        "id": "fr_starter_adjectives_132",
+        "lang": "fr"
     },
     {
         "word": "orageux",
@@ -3316,7 +3672,9 @@
         "subtext": "orageux",
         "comparative": "plus orageux",
         "superlative": "le plus orageux",
-        "transcription": "/ɔ.ʁa.ʒø/"
+        "transcription": "ɔ.ʁa.ʒø",
+        "id": "fr_starter_adjectives_133",
+        "lang": "fr"
     },
     {
         "word": "blond",
@@ -3336,7 +3694,9 @@
         "subtext": "blond",
         "comparative": "plus blond",
         "superlative": "le plus blond",
-        "transcription": "/blɔ̃/"
+        "transcription": "blɔ̃",
+        "id": "fr_starter_adjectives_134",
+        "lang": "fr"
     },
     {
         "word": "intelligent",
@@ -3356,7 +3716,9 @@
         "subtext": "intelligent",
         "comparative": "plus intelligent",
         "superlative": "le plus intelligent",
-        "transcription": "/ɛ̃.te.li.ʒɑ̃/"
+        "transcription": "ɛ̃.te.li.ʒɑ̃",
+        "id": "fr_starter_adjectives_135",
+        "lang": "fr"
     },
     {
         "word": "sérieux",
@@ -3376,7 +3738,9 @@
         "subtext": "sérieux",
         "comparative": "plus sérieux",
         "superlative": "le plus sérieux",
-        "transcription": "/se.ʁjø/"
+        "transcription": "se.ʁjø",
+        "id": "fr_starter_adjectives_136",
+        "lang": "fr"
     },
     {
         "word": "laid",
@@ -3396,9 +3760,12 @@
         "subtext": "laid",
         "comparative": "plus laid",
         "superlative": "le plus laid",
-        "opposite": "beau",
-        "oppositeEmoji": "🌸",
-        "transcription": "/lɛ/"
+        "transcription": "lɛ",
+        "id": "fr_starter_adjectives_137",
+        "lang": "fr",
+        "antonyms": [
+            "beau"
+        ]
     },
     {
         "word": "proche",
@@ -3418,9 +3785,12 @@
         "subtext": "proche",
         "comparative": "plus proche",
         "superlative": "le plus proche",
-        "opposite": "loin",
-        "oppositeEmoji": "🔭",
-        "transcription": "/pʁɔʃ/"
+        "transcription": "pʁɔʃ",
+        "id": "fr_starter_adjectives_138",
+        "lang": "fr",
+        "antonyms": [
+            "loin"
+        ]
     },
     {
         "word": "lointain",
@@ -3440,7 +3810,9 @@
         "subtext": "lointain",
         "comparative": "plus lointain",
         "superlative": "le plus lointain",
-        "transcription": "/lwɛ̃.tɛ̃/"
+        "transcription": "lwɛ̃.tɛ̃",
+        "id": "fr_starter_adjectives_139",
+        "lang": "fr"
     },
     {
         "word": "riche",
@@ -3460,9 +3832,12 @@
         "subtext": "riche",
         "comparative": "plus riche",
         "superlative": "le plus riche",
-        "opposite": "pauvre",
-        "oppositeEmoji": "💸",
-        "transcription": "/ʁiʃ/"
+        "transcription": "ʁiʃ",
+        "id": "fr_starter_adjectives_140",
+        "lang": "fr",
+        "antonyms": [
+            "pauvre"
+        ]
     },
     {
         "word": "pauvre",
@@ -3482,9 +3857,12 @@
         "subtext": "pauvre",
         "comparative": "plus pauvre",
         "superlative": "le plus pauvre",
-        "opposite": "riche",
-        "oppositeEmoji": "💰",
-        "transcription": "/povʁ/"
+        "transcription": "povʁ",
+        "id": "fr_starter_adjectives_141",
+        "lang": "fr",
+        "antonyms": [
+            "riche"
+        ]
     },
     {
         "word": "matinal",
@@ -3504,7 +3882,9 @@
         "subtext": "matinal",
         "comparative": "plus matinal",
         "superlative": "le plus matinal",
-        "transcription": "/ma.ti.nal/"
+        "transcription": "ma.ti.nal",
+        "id": "fr_starter_adjectives_142",
+        "lang": "fr"
     },
     {
         "word": "tardif",
@@ -3524,7 +3904,9 @@
         "subtext": "tardif",
         "comparative": "plus tardif",
         "superlative": "le plus tardif",
-        "transcription": "/taʁ.dif/"
+        "transcription": "taʁ.dif",
+        "id": "fr_starter_adjectives_143",
+        "lang": "fr"
     },
     {
         "word": "passionnant",
@@ -3544,7 +3926,9 @@
         "subtext": "passionnant",
         "comparative": "plus passionnant",
         "superlative": "le plus passionnant",
-        "transcription": "/pa.sjɔ.nɑ̃/"
+        "transcription": "pa.sjɔ.nɑ̃",
+        "id": "fr_starter_adjectives_144",
+        "lang": "fr"
     },
     {
         "word": "délicieux",
@@ -3564,7 +3948,9 @@
         "subtext": "délicieux",
         "comparative": "plus délicieux",
         "superlative": "le plus délicieux",
-        "transcription": "/de.li.sjø/"
+        "transcription": "de.li.sjø",
+        "id": "fr_starter_adjectives_145",
+        "lang": "fr"
     },
     {
         "word": "sucré",
@@ -3584,7 +3970,9 @@
         "subtext": "sucré",
         "comparative": "plus sucré",
         "superlative": "le plus sucré",
-        "transcription": "/sy.kʁe/"
+        "transcription": "sy.kʁe",
+        "id": "fr_starter_adjectives_146",
+        "lang": "fr"
     },
     {
         "word": "confortable",
@@ -3604,7 +3992,9 @@
         "subtext": "confortable",
         "comparative": "plus confortable",
         "superlative": "le plus confortable",
-        "transcription": "/kɔ̃.fɔʁ.tabl/"
+        "transcription": "kɔ̃.fɔʁ.tabl",
+        "id": "fr_starter_adjectives_147",
+        "lang": "fr"
     },
     {
         "word": "vrai",
@@ -3624,7 +4014,9 @@
         "subtext": "vrai",
         "comparative": "plus vrai",
         "superlative": "le plus vrai",
-        "transcription": "/vʁɛ/"
+        "transcription": "vʁɛ",
+        "id": "fr_starter_adjectives_148",
+        "lang": "fr"
     },
     {
         "word": "simple",
@@ -3644,7 +4036,9 @@
         "subtext": "simple",
         "comparative": "plus simple",
         "superlative": "le plus simple",
-        "transcription": "/sɛ̃pl/"
+        "transcription": "sɛ̃pl",
+        "id": "fr_starter_adjectives_149",
+        "lang": "fr"
     },
     {
         "word": "naturel",
@@ -3664,7 +4058,9 @@
         "subtext": "naturel",
         "comparative": "plus naturel",
         "superlative": "le plus naturel",
-        "transcription": "/na.ty.ʁɛl/"
+        "transcription": "na.ty.ʁɛl",
+        "id": "fr_starter_adjectives_150",
+        "lang": "fr"
     },
     {
         "word": "clair",
@@ -3684,9 +4080,12 @@
         "subtext": "clair",
         "comparative": "plus clair",
         "superlative": "le plus clair",
-        "opposite": "lourd",
-        "oppositeEmoji": "🏋️",
-        "transcription": "/klɛʁ/"
+        "transcription": "klɛʁ",
+        "id": "fr_starter_adjectives_151",
+        "lang": "fr",
+        "antonyms": [
+            "lourd"
+        ]
     },
     {
         "word": "commun",
@@ -3706,7 +4105,9 @@
         "subtext": "commun",
         "comparative": "plus commun",
         "superlative": "le plus commun",
-        "transcription": "/kɔ.mœ̃/"
+        "transcription": "kɔ.mœ̃",
+        "id": "fr_starter_adjectives_152",
+        "lang": "fr"
     },
     {
         "word": "célèbre",
@@ -3726,7 +4127,9 @@
         "subtext": "célèbre",
         "comparative": "plus célèbre",
         "superlative": "le plus célèbre",
-        "transcription": "/se.lɛbʁ/"
+        "transcription": "se.lɛbʁ",
+        "id": "fr_starter_adjectives_153",
+        "lang": "fr"
     },
     {
         "word": "salé",
@@ -3746,7 +4149,9 @@
         "subtext": "salé",
         "comparative": "plus salé",
         "superlative": "le plus salé",
-        "transcription": "/sa.le/"
+        "transcription": "sa.le",
+        "id": "fr_starter_adjectives_154",
+        "lang": "fr"
     },
     {
         "word": "acide",
@@ -3766,7 +4171,9 @@
         "subtext": "acide",
         "comparative": "plus acide",
         "superlative": "le plus acide",
-        "transcription": "/a.sid/"
+        "transcription": "a.sid",
+        "id": "fr_starter_adjectives_155",
+        "lang": "fr"
     },
     {
         "word": "amer",
@@ -3786,7 +4193,9 @@
         "subtext": "amer",
         "comparative": "plus amer",
         "superlative": "le plus amer",
-        "transcription": "/a.mɛʁ/"
+        "transcription": "a.mɛʁ",
+        "id": "fr_starter_adjectives_156",
+        "lang": "fr"
     },
     {
         "word": "gros",
@@ -3806,7 +4215,9 @@
         "subtext": "gros",
         "comparative": "plus gros",
         "superlative": "le plus gros",
-        "transcription": "/ɡʁo/"
+        "transcription": "ɡʁo",
+        "id": "fr_starter_adjectives_157",
+        "lang": "fr"
     },
     {
         "word": "mince",
@@ -3826,9 +4237,12 @@
         "subtext": "mince",
         "comparative": "plus mince",
         "superlative": "le plus mince",
-        "opposite": "épais",
-        "oppositeEmoji": "🍔",
-        "transcription": "/mɛ̃s/"
+        "transcription": "mɛ̃s",
+        "id": "fr_starter_adjectives_158",
+        "lang": "fr",
+        "antonyms": [
+            "épais"
+        ]
     },
     {
         "word": "bouclé",
@@ -3848,7 +4262,9 @@
         "subtext": "bouclé",
         "comparative": "plus bouclé",
         "superlative": "le plus bouclé",
-        "transcription": "/bu.kle/"
+        "transcription": "bu.kle",
+        "id": "fr_starter_adjectives_159",
+        "lang": "fr"
     },
     {
         "word": "droit",
@@ -3868,7 +4284,9 @@
         "subtext": "droit",
         "comparative": "plus droit",
         "superlative": "le plus droit",
-        "transcription": "/dʁwa/"
+        "transcription": "dʁwa",
+        "id": "fr_starter_adjectives_160",
+        "lang": "fr"
     },
     {
         "word": "triangulaire",
@@ -3888,7 +4306,9 @@
         "subtext": "triangulaire",
         "comparative": "plus triangulaire",
         "superlative": "le plus triangulaire",
-        "transcription": "/tʁi.jɑ̃.ɡy.lɛʁ/"
+        "transcription": "tʁi.jɑ̃.ɡy.lɛʁ",
+        "id": "fr_starter_adjectives_161",
+        "lang": "fr"
     },
     {
         "word": "rectangulaire",
@@ -3908,7 +4328,9 @@
         "subtext": "rectangulaire",
         "comparative": "plus rectangulaire",
         "superlative": "le plus rectangulaire",
-        "transcription": "/ʁɛk.tɑ̃.ɡy.lɛʁ/"
+        "transcription": "ʁɛk.tɑ̃.ɡy.lɛʁ",
+        "id": "fr_starter_adjectives_162",
+        "lang": "fr"
     },
     {
         "word": "ovale",
@@ -3928,7 +4350,9 @@
         "subtext": "ovale",
         "comparative": "plus ovale",
         "superlative": "le plus ovale",
-        "transcription": "/ɔ.val/"
+        "transcription": "ɔ.val",
+        "id": "fr_starter_adjectives_163",
+        "lang": "fr"
     },
     {
         "word": "préféré",
@@ -3948,7 +4372,9 @@
         "subtext": "préféré",
         "comparative": "plus préféré",
         "superlative": "le plus préféré",
-        "transcription": "/pʁe.fe.ʁe/"
+        "transcription": "pʁe.fe.ʁe",
+        "id": "fr_starter_adjectives_164",
+        "lang": "fr"
     },
     {
         "word": "sombre",
@@ -3968,9 +4394,12 @@
         "subtext": "sombre",
         "comparative": "plus sombre",
         "superlative": "le plus sombre",
-        "opposite": "clair",
-        "oppositeEmoji": "💡",
-        "transcription": "/sɔ̃bʁ/"
+        "transcription": "sɔ̃bʁ",
+        "id": "fr_starter_adjectives_165",
+        "lang": "fr",
+        "antonyms": [
+            "clair"
+        ]
     },
     {
         "word": "lumineux",
@@ -3990,7 +4419,9 @@
         "subtext": "lumineux",
         "comparative": "plus lumineux",
         "superlative": "le plus lumineux",
-        "transcription": "/ly.mi.nø/"
+        "transcription": "ly.mi.nø",
+        "id": "fr_starter_adjectives_166",
+        "lang": "fr"
     },
     {
         "word": "doré",
@@ -4010,7 +4441,9 @@
         "subtext": "doré",
         "comparative": "plus doré",
         "superlative": "le plus doré",
-        "transcription": "/dɔ.ʁe/"
+        "transcription": "dɔ.ʁe",
+        "id": "fr_starter_adjectives_167",
+        "lang": "fr"
     },
     {
         "word": "argenté",
@@ -4030,7 +4463,9 @@
         "subtext": "argenté",
         "comparative": "plus argenté",
         "superlative": "le plus argenté",
-        "transcription": "/aʁ.ʒɑ̃.te/"
+        "transcription": "aʁ.ʒɑ̃.te",
+        "id": "fr_starter_adjectives_168",
+        "lang": "fr"
     },
     {
         "word": "profond",
@@ -4050,7 +4485,9 @@
         "subtext": "profond",
         "comparative": "plus profond",
         "superlative": "le plus profond",
-        "transcription": "/pʁɔ.fɔ̃/"
+        "transcription": "pʁɔ.fɔ̃",
+        "id": "fr_starter_adjectives_169",
+        "lang": "fr"
     },
     {
         "word": "peu profond",
@@ -4070,7 +4507,9 @@
         "subtext": "peu profond",
         "comparative": "plus peu profond",
         "superlative": "le plus peu profond",
-        "transcription": "/pø pʁɔ.fɔ̃/"
+        "transcription": "pø pʁɔ.fɔ̃",
+        "id": "fr_starter_adjectives_170",
+        "lang": "fr"
     },
     {
         "word": "moderne",
@@ -4090,7 +4529,9 @@
         "subtext": "moderne",
         "comparative": "plus moderne",
         "superlative": "le plus moderne",
-        "transcription": "/mɔ.dɛʁ/"
+        "transcription": "mɔ.dɛʁ",
+        "id": "fr_starter_adjectives_171",
+        "lang": "fr"
     },
     {
         "word": "ancien",
@@ -4110,7 +4551,9 @@
         "subtext": "ancien",
         "comparative": "plus ancien",
         "superlative": "le plus ancien",
-        "transcription": "/ɑ̃.sjɛ̃/"
+        "transcription": "ɑ̃.sjɛ̃",
+        "id": "fr_starter_adjectives_172",
+        "lang": "fr"
     },
     {
         "word": "courageux",
@@ -4130,7 +4573,9 @@
         "subtext": "courageux",
         "comparative": "plus courageux",
         "superlative": "le plus courageux",
-        "transcription": "/ku.ʁa.ʒø/"
+        "transcription": "ku.ʁa.ʒø",
+        "id": "fr_starter_adjectives_173",
+        "lang": "fr"
     },
     {
         "word": "lâche",
@@ -4150,7 +4595,9 @@
         "subtext": "lâche",
         "comparative": "plus lâche",
         "superlative": "le plus lâche",
-        "transcription": "/lɑːʃ/"
+        "transcription": "lɑːʃ",
+        "id": "fr_starter_adjectives_174",
+        "lang": "fr"
     },
     {
         "word": "large",
@@ -4170,9 +4617,12 @@
         "subtext": "large",
         "comparative": "plus large",
         "superlative": "le plus large",
-        "opposite": "étroit",
-        "oppositeEmoji": "🤏",
-        "transcription": "/laʁʒ/"
+        "transcription": "laʁʒ",
+        "id": "fr_starter_adjectives_175",
+        "lang": "fr",
+        "antonyms": [
+            "étroit"
+        ]
     },
     {
         "word": "étroit",
@@ -4192,9 +4642,12 @@
         "subtext": "étroit",
         "comparative": "plus étroit",
         "superlative": "le plus étroit",
-        "opposite": "large",
-        "oppositeEmoji": "↔️",
-        "transcription": "/e.tʁwa/"
+        "transcription": "e.tʁwa",
+        "id": "fr_starter_adjectives_176",
+        "lang": "fr",
+        "antonyms": [
+            "large"
+        ]
     },
     {
         "word": "antipathique",
@@ -4214,7 +4667,9 @@
         "subtext": "antipathique",
         "comparative": "plus antipathique",
         "superlative": "le plus antipathique",
-        "transcription": "/ɑ̃.ti.pa.tik/"
+        "transcription": "ɑ̃.ti.pa.tik",
+        "id": "fr_starter_adjectives_177",
+        "lang": "fr"
     },
     {
         "word": "impatient",
@@ -4234,7 +4689,9 @@
         "subtext": "impatient",
         "comparative": "plus impatient",
         "superlative": "le plus impatient",
-        "transcription": "/ɛ̃.pa.sjɑ̃/"
+        "transcription": "ɛ̃.pa.sjɑ̃",
+        "id": "fr_starter_adjectives_178",
+        "lang": "fr"
     },
     {
         "word": "impoli",
@@ -4254,7 +4711,9 @@
         "subtext": "impoli",
         "comparative": "plus impoli",
         "superlative": "le plus impoli",
-        "transcription": "/ɛ̃.pɔ.li/"
+        "transcription": "ɛ̃.pɔ.li",
+        "id": "fr_starter_adjectives_179",
+        "lang": "fr"
     },
     {
         "word": "faux",
@@ -4274,9 +4733,12 @@
         "subtext": "faux",
         "comparative": "plus faux",
         "superlative": "le plus faux",
-        "opposite": "juste",
-        "oppositeEmoji": "✅",
-        "transcription": "/fo/"
+        "transcription": "fo",
+        "id": "fr_starter_adjectives_180",
+        "lang": "fr",
+        "antonyms": [
+            "juste"
+        ]
     },
     {
         "word": "malchanceux",
@@ -4296,7 +4758,9 @@
         "subtext": "malchanceux",
         "comparative": "plus malchanceux",
         "superlative": "le plus malchanceux",
-        "transcription": "/mal.ʃɑ̃.sø/"
+        "transcription": "mal.ʃɑ̃.sø",
+        "id": "fr_starter_adjectives_181",
+        "lang": "fr"
     },
     {
         "word": "violet",
@@ -4316,7 +4780,9 @@
                 ]
             }
         ],
-        "transcription": "vjɔ.lɛ"
+        "transcription": "vjɔ.lɛ",
+        "id": "fr_starter_adjectives_182",
+        "lang": "fr"
     },
     {
         "word": "marié",
@@ -4337,7 +4803,11 @@
             }
         ],
         "transcription": "ma.ʁje",
-        "opposite": "célibataire"
+        "id": "fr_starter_adjectives_183",
+        "lang": "fr",
+        "antonyms": [
+            "célibataire"
+        ]
     },
     {
         "word": "célibataire",
@@ -4358,7 +4828,11 @@
             }
         ],
         "transcription": "se.li.ba.tɛʁ",
-        "opposite": "marié"
+        "id": "fr_starter_adjectives_184",
+        "lang": "fr",
+        "antonyms": [
+            "marié"
+        ]
     },
     {
         "word": "rugueux",
@@ -4379,7 +4853,11 @@
             }
         ],
         "transcription": "ʁy.ɡø",
-        "opposite": "lisse"
+        "id": "fr_starter_adjectives_185",
+        "lang": "fr",
+        "antonyms": [
+            "lisse"
+        ]
     },
     {
         "word": "superficiel",
@@ -4400,7 +4878,11 @@
             }
         ],
         "transcription": "sy.pɛʁ.fi.sjɛl",
-        "opposite": "profond"
+        "id": "fr_starter_adjectives_186",
+        "lang": "fr",
+        "antonyms": [
+            "profond"
+        ]
     },
     {
         "word": "étrange",
@@ -4421,7 +4903,11 @@
             }
         ],
         "transcription": "e.tʁɑ̃ʒ",
-        "opposite": "normal"
+        "id": "fr_starter_adjectives_187",
+        "lang": "fr",
+        "antonyms": [
+            "normal"
+        ]
     },
     {
         "word": "normal",
@@ -4442,7 +4928,11 @@
             }
         ],
         "transcription": "nɔʁ.mal",
-        "opposite": "étrange"
+        "id": "fr_starter_adjectives_188",
+        "lang": "fr",
+        "antonyms": [
+            "étrange"
+        ]
     },
     {
         "word": "assoiffé",
@@ -4460,7 +4950,10 @@
                     "Après le sport, je suis assoiffé."
                 ]
             }
-        ]
+        ],
+        "id": "fr_starter_adjectives_189",
+        "lang": "fr",
+        "emoji": "✨"
     },
     {
         "word": "timide",
@@ -4478,7 +4971,10 @@
                     "Il est trop timide pour parler."
                 ]
             }
-        ]
+        ],
+        "id": "fr_starter_adjectives_190",
+        "lang": "fr",
+        "emoji": "✨"
     }
 ]
     const lang = "fr";

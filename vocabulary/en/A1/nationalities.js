@@ -17,13 +17,15 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "foreign"
+        ]
     },
     {
         "id": "en_starter_nationality_country_002",
@@ -41,13 +43,15 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "foreign"
+        ]
     },
     {
         "id": "en_starter_nationality_country_003",
@@ -65,13 +69,15 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "foreign"
+        ]
     },
     {
         "id": "en_starter_nationality_country_004",
@@ -89,13 +95,15 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "foreign"
+        ]
     },
     {
         "id": "en_starter_nationality_country_005",
@@ -113,13 +121,15 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "foreign"
+        ]
     },
     {
         "id": "en_starter_nationality_country_006",
@@ -137,13 +147,15 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "foreign"
+        ]
     },
     {
         "id": "en_starter_nationality_country_007",
@@ -161,13 +173,15 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "foreign"
+        ]
     },
     {
         "id": "en_starter_nationality_country_008",
@@ -185,13 +199,15 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "foreign"
+        ]
     },
     {
         "id": "en_starter_nationality_country_009",
@@ -209,13 +225,15 @@
             }
         ],
         "subtext": "nationality",
-        "opposite": "foreign",
         "comparative": null,
         "superlative": null,
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "foreign"
+        ]
     },
     {
         "id": "en_starter_personal_identity_020",

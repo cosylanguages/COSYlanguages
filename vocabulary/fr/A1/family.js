@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "mère",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mères",
         "subtext": "",
         "synonyms": [
@@ -21,21 +23,25 @@
                 ]
             }
         ],
-        "transcription": "/mɛʁ/",
+        "transcription": "mɛʁ",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "mater",
             "origin_meaning": "mother"
-        }
+        },
+        "id": "fr_starter_family_001",
+        "lang": "fr"
     },
-{
+    {
         "word": "père",
         "level": "starter",
         "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pères",
         "subtext": "",
         "synonyms": [
@@ -49,21 +55,25 @@
                 ]
             }
         ],
-        "transcription": "/pɛʁ/",
+        "transcription": "pɛʁ",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "pater",
             "origin_meaning": "father"
-        }
+        },
+        "id": "fr_starter_family_002",
+        "lang": "fr"
     },
-{
+    {
         "word": "famille",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👪",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "familles",
         "definitions": [
             {
@@ -73,16 +83,20 @@
                 ]
             }
         ],
-        "transcription": "/fa.mij/"
+        "transcription": "fa.mij",
+        "id": "fr_starter_family_003",
+        "lang": "fr"
     },
-{
+    {
         "word": "ami",
         "level": "starter",
         "theme": "people",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👫",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "amis",
         "definitions": [
             {
@@ -92,20 +106,24 @@
                 ]
             }
         ],
-        "transcription": "/a.mi/",
+        "transcription": "a.mi",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "amicus",
             "origin_meaning": "friend"
-        }
+        },
+        "id": "fr_starter_family_004",
+        "lang": "fr"
     },
-{
+    {
         "word": "relation",
         "level": "starter",
         "theme": "social",
         "article": "la",
         "emoji": "❤️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "relations",
         "subtext": "",
         "synonyms": [
@@ -120,16 +138,16 @@
                 ]
             }
         ],
-        "transcription": "/ʁə.la.sjɔ̃/"
+        "transcription": "ʁə.la.sjɔ̃",
+        "id": "fr_starter_family_005",
+        "lang": "fr"
     },
-{
+    {
         "word": "ensemble",
         "level": "starter",
         "theme": "social",
         "emoji": "👫",
         "form": "adverb",
-        "opposite": "seul",
-        "oppositeEmoji": "🧍",
         "definitions": [
             {
                 "text": "Avec une autre personne ou un groupe.",
@@ -138,16 +156,23 @@
                 ]
             }
         ],
-        "transcription": "/ɑ̃.sɑ̃bl/"
+        "transcription": "ɑ̃.sɑ̃bl",
+        "id": "fr_starter_family_006",
+        "lang": "fr",
+        "antonyms": [
+            "seul"
+        ]
     },
-{
+    {
         "word": "mari",
         "level": "starter",
         "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "maris",
         "definitions": [
             {
@@ -157,16 +182,20 @@
                 ]
             }
         ],
-        "transcription": "/ma.ʁi/"
+        "transcription": "ma.ʁi",
+        "id": "fr_starter_family_007",
+        "lang": "fr"
     },
-{
+    {
         "word": "femme",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "femmes",
         "definitions": [
             {
@@ -176,20 +205,24 @@
                 ]
             }
         ],
-        "transcription": "/fam/",
+        "transcription": "fam",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "femina"
-        }
+        },
+        "id": "fr_starter_family_008",
+        "lang": "fr"
     },
-{
+    {
         "word": "enfant",
         "level": "starter",
         "theme": "people",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👶",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "enfants",
         "definitions": [
             {
@@ -199,16 +232,20 @@
                 ]
             }
         ],
-        "transcription": "/ɑ̃.fɑ̃/"
+        "transcription": "ɑ̃.fɑ̃",
+        "id": "fr_starter_family_009",
+        "lang": "fr"
     },
-{
+    {
         "word": "parent",
         "level": "starter",
         "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👪",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "parents",
         "definitions": [
             {
@@ -218,16 +255,20 @@
                 ]
             }
         ],
-        "transcription": "/pa.ʁɑ̃/"
+        "transcription": "pa.ʁɑ̃",
+        "id": "fr_starter_family_010",
+        "lang": "fr"
     },
-{
+    {
         "word": "soeur",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "soeurs",
         "definitions": [
             {
@@ -237,21 +278,25 @@
                 ]
             }
         ],
-        "transcription": "/sœʁ/",
+        "transcription": "sœʁ",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "soror",
             "origin_meaning": "sister"
-        }
+        },
+        "id": "fr_starter_family_011",
+        "lang": "fr"
     },
-{
+    {
         "word": "frère",
         "level": "starter",
         "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "frères",
         "definitions": [
             {
@@ -261,21 +306,25 @@
                 ]
             }
         ],
-        "transcription": "/fʁɛʁ/",
+        "transcription": "fʁɛʁ",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "frater",
             "origin_meaning": "brother"
-        }
+        },
+        "id": "fr_starter_family_012",
+        "lang": "fr"
     },
-{
+    {
         "word": "fils",
         "level": "starter",
         "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fils",
         "definitions": [
             {
@@ -285,21 +334,25 @@
                 ]
             }
         ],
-        "transcription": "/fis/",
+        "transcription": "fis",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "filius",
             "origin_meaning": "son"
-        }
+        },
+        "id": "fr_starter_family_013",
+        "lang": "fr"
     },
-{
+    {
         "word": "grand-père",
         "level": "starter",
         "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👴",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "grands-pères",
         "definitions": [
             {
@@ -309,16 +362,20 @@
                 ]
             }
         ],
-        "transcription": "/ɡʁɑ̃.pɛʁ/"
+        "transcription": "ɡʁɑ̃.pɛʁ",
+        "id": "fr_starter_family_014",
+        "lang": "fr"
     },
-{
+    {
         "word": "grand-mère",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👵",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "grands-mères",
         "definitions": [
             {
@@ -328,16 +385,20 @@
                 ]
             }
         ],
-        "transcription": "/ɡʁɑ̃.mɛʁ/"
+        "transcription": "ɡʁɑ̃.mɛʁ",
+        "id": "fr_starter_family_015",
+        "lang": "fr"
     },
-{
+    {
         "word": "oncle",
         "level": "starter",
         "theme": "people",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "oncles",
         "definitions": [
             {
@@ -347,16 +408,20 @@
                 ]
             }
         ],
-        "transcription": "/ɔ̃kl/"
+        "transcription": "ɔ̃kl",
+        "id": "fr_starter_family_016",
+        "lang": "fr"
     },
-{
+    {
         "word": "tante",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tantes",
         "definitions": [
             {
@@ -366,16 +431,20 @@
                 ]
             }
         ],
-        "transcription": "/tɑ̃t/"
+        "transcription": "tɑ̃t",
+        "id": "fr_starter_family_017",
+        "lang": "fr"
     },
-{
+    {
         "word": "cousin",
         "level": "starter",
         "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cousins",
         "definitions": [
             {
@@ -385,16 +454,20 @@
                 ]
             }
         ],
-        "transcription": "/ku.zɛ̃/"
+        "transcription": "ku.zɛ̃",
+        "id": "fr_starter_family_018",
+        "lang": "fr"
     },
-{
+    {
         "word": "bébé",
         "level": "starter",
         "theme": "people",
         "article": "le",
         "gender": "masculine",
         "emoji": "👶",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bébés",
         "definitions": [
             {
@@ -404,16 +477,20 @@
                 ]
             }
         ],
-        "transcription": "/be.be/"
+        "transcription": "be.be",
+        "id": "fr_starter_family_019",
+        "lang": "fr"
     },
-{
+    {
         "word": "invité",
         "level": "starter",
         "theme": "social",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "invités",
         "definitions": [
             {
@@ -423,9 +500,11 @@
                 ]
             }
         ],
-        "transcription": "/ɛ̃.vi.te/"
+        "transcription": "ɛ̃.vi.te",
+        "id": "fr_starter_family_020",
+        "lang": "fr"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

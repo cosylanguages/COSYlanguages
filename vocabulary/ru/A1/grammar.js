@@ -126,7 +126,9 @@
                     "будут они"
                 ]
             }
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_002",
@@ -190,7 +192,9 @@
                     "они имеют"
                 ]
             }
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_003",
@@ -286,7 +290,9 @@
                     "будут они работать"
                 ]
             }
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_004",
@@ -414,7 +420,9 @@
                     "будут они делать"
                 ]
             }
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_005",
@@ -542,7 +550,9 @@
                     "будут они идти"
                 ]
             }
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_006",
@@ -606,7 +616,9 @@
                     "они едят"
                 ]
             }
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_007",
@@ -734,7 +746,9 @@
                     "будут они говорить"
                 ]
             }
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     }
 ];
     window.grammarData = window.grammarData || {};

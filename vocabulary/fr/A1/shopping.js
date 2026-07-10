@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "argent",
         "level": "starter",
         "theme": "shopping",
         "article": "l'",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": null,
         "subtext": "dépenser de l'argent, économiser de l'argent",
         "definitions": [
@@ -18,19 +20,23 @@
                 ]
             }
         ],
-        "transcription": "/aʁ.ʒɑ̃/",
+        "transcription": "aʁ.ʒɑ̃",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "argentum"
-        }
+        },
+        "id": "fr_starter_shopping_001",
+        "lang": "fr"
     },
-{
+    {
         "word": "salaire",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "emoji": "💰",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "salaires",
         "subtext": "",
         "synonyms": [
@@ -45,16 +51,20 @@
                 ]
             }
         ],
-        "transcription": "/sa.lɛʁ/"
+        "transcription": "sa.lɛʁ",
+        "id": "fr_starter_shopping_002",
+        "lang": "fr"
     },
-{
+    {
         "word": "ticket",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎟️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tickets",
         "definitions": [
             {
@@ -64,16 +74,20 @@
                 ]
             }
         ],
-        "transcription": "/ti.kɛ/"
+        "transcription": "ti.kɛ",
+        "id": "fr_starter_shopping_003",
+        "lang": "fr"
     },
-{
+    {
         "word": "reçu",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "📄",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "reçus",
         "definitions": [
             {
@@ -83,16 +97,20 @@
                 ]
             }
         ],
-        "transcription": "/ʁə.sy/"
+        "transcription": "ʁə.sy",
+        "id": "fr_starter_shopping_004",
+        "lang": "fr"
     },
-{
+    {
         "word": "facture",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "💳",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "factures",
         "definitions": [
             {
@@ -102,16 +120,20 @@
                 ]
             }
         ],
-        "transcription": "/fak.tyʁ/"
+        "transcription": "fak.tyʁ",
+        "id": "fr_starter_shopping_005",
+        "lang": "fr"
     },
-{
+    {
         "word": "carte bancaire",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "💳",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cartes bancaires",
         "definitions": [
             {
@@ -121,16 +143,20 @@
                 ]
             }
         ],
-        "transcription": "/kaʁt bɑ̃.kɛʁ/"
+        "transcription": "kaʁt bɑ̃.kɛʁ",
+        "id": "fr_starter_shopping_006",
+        "lang": "fr"
     },
-{
+    {
         "word": "espèces",
         "level": "starter",
         "theme": "shopping",
         "article": "les",
         "gender": "feminine",
         "emoji": "💵",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "espèces",
         "definitions": [
             {
@@ -140,16 +166,20 @@
                 ]
             }
         ],
-        "transcription": "/ɛs.pɛs/"
+        "transcription": "ɛs.pɛs",
+        "id": "fr_starter_shopping_007",
+        "lang": "fr"
     },
-{
+    {
         "word": "cadeau",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎁",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cadeaux",
         "definitions": [
             {
@@ -159,16 +189,20 @@
                 ]
             }
         ],
-        "transcription": "/ka.do/"
+        "transcription": "ka.do",
+        "id": "fr_starter_shopping_008",
+        "lang": "fr"
     },
-{
+    {
         "word": "prix",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "prix",
         "definitions": [
             {
@@ -178,16 +212,20 @@
                 ]
             }
         ],
-        "transcription": "/pʁi/"
+        "transcription": "pʁi",
+        "id": "fr_starter_shopping_009",
+        "lang": "fr"
     },
-{
+    {
         "word": "achat",
         "level": "starter",
         "theme": "shopping",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "achats",
         "definitions": [
             {
@@ -197,16 +235,20 @@
                 ]
             }
         ],
-        "transcription": "/a.ʃa/"
+        "transcription": "a.ʃa",
+        "id": "fr_starter_shopping_010",
+        "lang": "fr"
     },
-{
+    {
         "word": "magasin",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏪",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "magasins",
         "definitions": [
             {
@@ -216,16 +258,20 @@
                 ]
             }
         ],
-        "transcription": "/ma.ɡa.zɛ̃/"
+        "transcription": "ma.ɡa.zɛ̃",
+        "id": "fr_starter_shopping_011",
+        "lang": "fr"
     },
-{
+    {
         "word": "centre commercial",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏬",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "centres commerciaux",
         "definitions": [
             {
@@ -235,16 +281,20 @@
                 ]
             }
         ],
-        "transcription": "/sɑ̃.tʁə kɔ.mɛʁ.sjal/"
+        "transcription": "sɑ̃.tʁə kɔ.mɛʁ.sjal",
+        "id": "fr_starter_shopping_012",
+        "lang": "fr"
     },
-{
+    {
         "word": "monnaie",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪙",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -254,16 +304,20 @@
                 ]
             }
         ],
-        "transcription": "/mɔ.nɛ/"
+        "transcription": "mɔ.nɛ",
+        "id": "fr_starter_shopping_013",
+        "lang": "fr"
     },
-{
+    {
         "word": "compte",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏦",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "comptes",
         "definitions": [
             {
@@ -273,16 +327,20 @@
                 ]
             }
         ],
-        "transcription": "/kɔ̃t/"
+        "transcription": "kɔ̃t",
+        "id": "fr_starter_shopping_014",
+        "lang": "fr"
     },
-{
+    {
         "word": "banque",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "banques",
         "definitions": [
             {
@@ -292,16 +350,20 @@
                 ]
             }
         ],
-        "transcription": "/bɑ̃k/"
+        "transcription": "bɑ̃k",
+        "id": "fr_starter_shopping_015",
+        "lang": "fr"
     },
-{
+    {
         "word": "épargne",
         "level": "starter",
         "theme": "shopping",
         "article": "l'",
         "gender": "feminine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -311,16 +373,20 @@
                 ]
             }
         ],
-        "transcription": "/e.paʁɲ/"
+        "transcription": "e.paʁɲ",
+        "id": "fr_starter_shopping_016",
+        "lang": "fr"
     },
-{
+    {
         "word": "dépense",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "💸",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dépenses",
         "definitions": [
             {
@@ -330,16 +396,20 @@
                 ]
             }
         ],
-        "transcription": "/de.pɑ̃s/"
+        "transcription": "de.pɑ̃s",
+        "id": "fr_starter_shopping_017",
+        "lang": "fr"
     },
-{
+    {
         "word": "paiement",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "💳",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "paiements",
         "definitions": [
             {
@@ -349,16 +419,20 @@
                 ]
             }
         ],
-        "transcription": "/pɛ.mɑ̃/"
+        "transcription": "pɛ.mɑ̃",
+        "id": "fr_starter_shopping_018",
+        "lang": "fr"
     },
-{
+    {
         "word": "coût",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "coûts",
         "definitions": [
             {
@@ -368,16 +442,20 @@
                 ]
             }
         ],
-        "transcription": "/ku/"
+        "transcription": "ku",
+        "id": "fr_starter_shopping_019",
+        "lang": "fr"
     },
-{
+    {
         "word": "marché",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "marchés",
         "definitions": [
             {
@@ -387,16 +465,20 @@
                 ]
             }
         ],
-        "transcription": "/maʁ.ʃe/"
+        "transcription": "maʁ.ʃe",
+        "id": "fr_starter_shopping_020",
+        "lang": "fr"
     },
-{
+    {
         "word": "produit",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "produits",
         "definitions": [
             {
@@ -406,16 +488,20 @@
                 ]
             }
         ],
-        "transcription": "/pʁɔ.dɥi/"
+        "transcription": "pʁɔ.dɥi",
+        "id": "fr_starter_shopping_021",
+        "lang": "fr"
     },
-{
+    {
         "word": "offre",
         "level": "starter",
         "theme": "shopping",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "offres",
         "definitions": [
             {
@@ -425,16 +511,20 @@
                 ]
             }
         ],
-        "transcription": "/ɔfʁ/"
+        "transcription": "ɔfʁ",
+        "id": "fr_starter_shopping_022",
+        "lang": "fr"
     },
-{
+    {
         "word": "demande",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "❓",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "demandes",
         "definitions": [
             {
@@ -444,16 +534,20 @@
                 ]
             }
         ],
-        "transcription": "/də.mɑ̃d/"
+        "transcription": "də.mɑ̃d",
+        "id": "fr_starter_shopping_023",
+        "lang": "fr"
     },
-{
+    {
         "word": "livraison",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚚",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "livraisons",
         "definitions": [
             {
@@ -463,16 +557,20 @@
                 ]
             }
         ],
-        "transcription": "/li.vʁɛ.zɔ̃/"
+        "transcription": "li.vʁɛ.zɔ̃",
+        "id": "fr_starter_shopping_024",
+        "lang": "fr"
     },
-{
+    {
         "word": "commande",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "commandes",
         "definitions": [
             {
@@ -482,16 +580,20 @@
                 ]
             }
         ],
-        "transcription": "/kɔ.mɑ̃d/"
+        "transcription": "kɔ.mɑ̃d",
+        "id": "fr_starter_shopping_025",
+        "lang": "fr"
     },
-{
+    {
         "word": "vente",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ventes",
         "definitions": [
             {
@@ -501,16 +603,20 @@
                 ]
             }
         ],
-        "transcription": "/vɑ̃t/"
+        "transcription": "vɑ̃t",
+        "id": "fr_starter_shopping_026",
+        "lang": "fr"
     },
-{
+    {
         "word": "boutique",
         "level": "starter",
         "theme": "shopping",
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "boutiques",
         "definitions": [
             {
@@ -520,16 +626,20 @@
                 ]
             }
         ],
-        "transcription": "/bu.tik/"
+        "transcription": "bu.tik",
+        "id": "fr_starter_shopping_027",
+        "lang": "fr"
     },
-{
+    {
         "word": "portefeuille",
         "level": "starter",
         "theme": "shopping",
         "article": "le",
         "gender": "masculine",
         "emoji": "👛",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "portefeuilles",
         "definitions": [
             {
@@ -539,9 +649,11 @@
                 ]
             }
         ],
-        "transcription": "/pɔʁ.tə.fœj/"
+        "transcription": "pɔʁ.tə.fœj",
+        "id": "fr_starter_shopping_028",
+        "lang": "fr"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

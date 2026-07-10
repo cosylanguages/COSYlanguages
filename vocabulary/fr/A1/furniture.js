@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "table",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tables",
         "subtext": "table de cuisine, sur la table",
         "definitions": [
@@ -18,20 +20,24 @@
                 ]
             }
         ],
-        "transcription": "/tabl/",
+        "transcription": "tabl",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "tabula"
-        }
+        },
+        "id": "fr_starter_furniture_001",
+        "lang": "fr"
     },
-{
+    {
         "word": "livre",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "📖",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "livres",
         "definitions": [
             {
@@ -41,21 +47,25 @@
                 ]
             }
         ],
-        "transcription": "/livʁ/",
+        "transcription": "livʁ",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "liber",
             "origin_meaning": "book"
-        }
+        },
+        "id": "fr_starter_furniture_002",
+        "lang": "fr"
     },
-{
+    {
         "word": "stylo",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🖊️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stylos",
         "definitions": [
             {
@@ -65,17 +75,20 @@
                 ]
             }
         ],
-        "transcription": "/sti.lo/"
+        "transcription": "sti.lo",
+        "id": "fr_starter_furniture_003",
+        "lang": "fr"
     },
-{
+    {
         "word": "maison",
-        "image": "images/vocabulary/actions/to go home.png",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "maisons",
         "subtext": "grande maison, vivre dans une maison",
         "definitions": [
@@ -86,21 +99,25 @@
                 ]
             }
         ],
-        "transcription": "/mɛ.zɔ̃/",
+        "transcription": "mɛ.zɔ̃",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "mansio",
             "origin_meaning": "dwelling"
-        }
+        },
+        "id": "fr_starter_furniture_004",
+        "lang": "fr"
     },
-{
+    {
         "word": "appartement",
         "level": "starter",
         "theme": "furniture",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "appartements",
         "subtext": "flat, vivre dans un appartement",
         "definitions": [
@@ -111,16 +128,20 @@
                 ]
             }
         ],
-        "transcription": "/a.paʁ.tə.mɑ̃/"
+        "transcription": "a.paʁ.tə.mɑ̃",
+        "id": "fr_starter_furniture_005",
+        "lang": "fr"
     },
-{
+    {
         "word": "foyer",
         "level": "starter",
         "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "subtext": "à la maison, rentrer",
         "definitions": [
             {
@@ -130,15 +151,19 @@
                 ]
             }
         ],
-        "transcription": "/fwa.je/"
+        "transcription": "fwa.je",
+        "id": "fr_starter_furniture_006",
+        "lang": "fr"
     },
-{
+    {
         "word": "pièce",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pièces",
         "definitions": [
             {
@@ -148,16 +173,20 @@
                 ]
             }
         ],
-        "transcription": "/pjɛs/"
+        "transcription": "pjɛs",
+        "id": "fr_starter_furniture_007",
+        "lang": "fr"
     },
-{
+    {
         "word": "porte",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "portes",
         "definitions": [
             {
@@ -167,16 +196,20 @@
                 ]
             }
         ],
-        "transcription": "/pɔʁt/"
+        "transcription": "pɔʁt",
+        "id": "fr_starter_furniture_008",
+        "lang": "fr"
     },
-{
+    {
         "word": "fenêtre",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪟",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fenêtres",
         "definitions": [
             {
@@ -186,16 +219,20 @@
                 ]
             }
         ],
-        "transcription": "/fə.nɛtʁ/"
+        "transcription": "fə.nɛtʁ",
+        "id": "fr_starter_furniture_009",
+        "lang": "fr"
     },
-{
+    {
         "word": "assiette",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "assiettes",
         "definitions": [
             {
@@ -205,16 +242,20 @@
                 ]
             }
         ],
-        "transcription": "/a.sjɛt/"
+        "transcription": "a.sjɛt",
+        "id": "fr_starter_furniture_010",
+        "lang": "fr"
     },
-{
+    {
         "word": "tasse",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tasses",
         "definitions": [
             {
@@ -224,16 +265,20 @@
                 ]
             }
         ],
-        "transcription": "/tas/"
+        "transcription": "tas",
+        "id": "fr_starter_furniture_011",
+        "lang": "fr"
     },
-{
+    {
         "word": "verre",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "verres",
         "definitions": [
             {
@@ -243,16 +288,20 @@
                 ]
             }
         ],
-        "transcription": "/vɛʁ/"
+        "transcription": "vɛʁ",
+        "id": "fr_starter_furniture_012",
+        "lang": "fr"
     },
-{
+    {
         "word": "fourchette",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fourchettes",
         "definitions": [
             {
@@ -262,16 +311,20 @@
                 ]
             }
         ],
-        "transcription": "/fuʁ.ʃɛt/"
+        "transcription": "fuʁ.ʃɛt",
+        "id": "fr_starter_furniture_013",
+        "lang": "fr"
     },
-{
+    {
         "word": "cuillère",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🥄",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cuillères",
         "definitions": [
             {
@@ -281,16 +334,20 @@
                 ]
             }
         ],
-        "transcription": "/kɥi.jɛʁ/"
+        "transcription": "kɥi.jɛʁ",
+        "id": "fr_starter_furniture_014",
+        "lang": "fr"
     },
-{
+    {
         "word": "couteau",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🔪",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "couteaux",
         "definitions": [
             {
@@ -300,16 +357,20 @@
                 ]
             }
         ],
-        "transcription": "/ku.to/"
+        "transcription": "ku.to",
+        "id": "fr_starter_furniture_015",
+        "lang": "fr"
     },
-{
+    {
         "word": "horloge",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "l'",
         "gender": "feminine",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "horloges",
         "definitions": [
             {
@@ -319,16 +380,20 @@
                 ]
             }
         ],
-        "transcription": "/ɔʁ.lɔʒ/"
+        "transcription": "ɔʁ.lɔʒ",
+        "id": "fr_starter_furniture_016",
+        "lang": "fr"
     },
-{
+    {
         "word": "salle de bain",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚿",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "salles de bain",
         "definitions": [
             {
@@ -338,16 +403,20 @@
                 ]
             }
         ],
-        "transcription": "/sal də bɛ̃/"
+        "transcription": "sal də bɛ̃",
+        "id": "fr_starter_furniture_017",
+        "lang": "fr"
     },
-{
+    {
         "word": "chambre",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chambres",
         "definitions": [
             {
@@ -357,16 +426,20 @@
                 ]
             }
         ],
-        "transcription": "/ʃɑ̃bʁ/"
+        "transcription": "ʃɑ̃bʁ",
+        "id": "fr_starter_furniture_018",
+        "lang": "fr"
     },
-{
+    {
         "word": "bouteille",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍼",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bouteilles",
         "definitions": [
             {
@@ -376,16 +449,20 @@
                 ]
             }
         ],
-        "transcription": "/bu.tɛj/"
+        "transcription": "bu.tɛj",
+        "id": "fr_starter_furniture_019",
+        "lang": "fr"
     },
-{
+    {
         "word": "boîte",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "boîtes",
         "definitions": [
             {
@@ -395,17 +472,20 @@
                 ]
             }
         ],
-        "transcription": "/bwat/"
+        "transcription": "bwat",
+        "id": "fr_starter_furniture_020",
+        "lang": "fr"
     },
-{
+    {
         "word": "bain",
-        "image": "images/vocabulary/actions/to take. to have a bath.png",
         "level": "starter",
         "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛁",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bains",
         "definitions": [
             {
@@ -415,16 +495,20 @@
                 ]
             }
         ],
-        "transcription": "/bɛ̃/"
+        "transcription": "bɛ̃",
+        "id": "fr_starter_furniture_021",
+        "lang": "fr"
     },
-{
+    {
         "word": "crayon",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "✏️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "crayons",
         "definitions": [
             {
@@ -434,16 +518,20 @@
                 ]
             }
         ],
-        "transcription": "/kʁɛ.jɔ̃/"
+        "transcription": "kʁɛ.jɔ̃",
+        "id": "fr_starter_furniture_022",
+        "lang": "fr"
     },
-{
+    {
         "word": "papier",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "📄",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "papiers",
         "definitions": [
             {
@@ -453,16 +541,20 @@
                 ]
             }
         ],
-        "transcription": "/pa.pje/"
+        "transcription": "pa.pje",
+        "id": "fr_starter_furniture_023",
+        "lang": "fr"
     },
-{
+    {
         "word": "étage",
         "level": "starter",
         "theme": "furniture",
         "article": "l'",
         "gender": "masculine",
         "emoji": "📶",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "étages",
         "definitions": [
             {
@@ -472,16 +564,20 @@
                 ]
             }
         ],
-        "transcription": "/e.taʒ/"
+        "transcription": "e.taʒ",
+        "id": "fr_starter_furniture_024",
+        "lang": "fr"
     },
-{
+    {
         "word": "entrée",
         "level": "starter",
         "theme": "furniture",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "entrées",
         "definitions": [
             {
@@ -491,16 +587,20 @@
                 ]
             }
         ],
-        "transcription": "/ɑ̃.tʁe/"
+        "transcription": "ɑ̃.tʁe",
+        "id": "fr_starter_furniture_025",
+        "lang": "fr"
     },
-{
+    {
         "word": "sortie",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sorties",
         "definitions": [
             {
@@ -510,16 +610,20 @@
                 ]
             }
         ],
-        "transcription": "/sɔʁ.ti/"
+        "transcription": "sɔʁ.ti",
+        "id": "fr_starter_furniture_026",
+        "lang": "fr"
     },
-{
+    {
         "word": "escalier",
         "level": "starter",
         "theme": "furniture",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🪜",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "escaliers",
         "definitions": [
             {
@@ -529,16 +633,20 @@
                 ]
             }
         ],
-        "transcription": "/ɛs.ka.lje/"
+        "transcription": "ɛs.ka.lje",
+        "id": "fr_starter_furniture_027",
+        "lang": "fr"
     },
-{
+    {
         "word": "ascenseur",
         "level": "starter",
         "theme": "furniture",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛗",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ascenseurs",
         "definitions": [
             {
@@ -548,16 +656,20 @@
                 ]
             }
         ],
-        "transcription": "/a.sɑ̃.sœʁ/"
+        "transcription": "a.sɑ̃.sœʁ",
+        "id": "fr_starter_furniture_028",
+        "lang": "fr"
     },
-{
+    {
         "word": "couloir",
         "level": "starter",
         "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "👣",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "couloirs",
         "definitions": [
             {
@@ -567,16 +679,20 @@
                 ]
             }
         ],
-        "transcription": "/ku.lwaʁ/"
+        "transcription": "ku.lwaʁ",
+        "id": "fr_starter_furniture_029",
+        "lang": "fr"
     },
-{
+    {
         "word": "murs",
         "level": "starter",
         "theme": "furniture",
         "article": "les",
         "gender": "masculine",
         "emoji": "🧱",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "murs",
         "definitions": [
             {
@@ -586,16 +702,20 @@
                 ]
             }
         ],
-        "transcription": "/myʁ/"
+        "transcription": "myʁ",
+        "id": "fr_starter_furniture_030",
+        "lang": "fr"
     },
-{
+    {
         "word": "toit",
         "level": "starter",
         "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "toits",
         "definitions": [
             {
@@ -605,17 +725,20 @@
                 ]
             }
         ],
-        "transcription": "/twa/"
+        "transcription": "twa",
+        "id": "fr_starter_furniture_031",
+        "lang": "fr"
     },
-{
+    {
         "word": "jardin",
-        "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "jardins",
         "definitions": [
             {
@@ -625,16 +748,20 @@
                 ]
             }
         ],
-        "transcription": "/ʒaʁ.dɛ̃/"
+        "transcription": "ʒaʁ.dɛ̃",
+        "id": "fr_starter_furniture_032",
+        "lang": "fr"
     },
-{
+    {
         "word": "garage",
         "level": "starter",
         "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "garages",
         "definitions": [
             {
@@ -644,16 +771,20 @@
                 ]
             }
         ],
-        "transcription": "/ɡa.ʁaʒ/"
+        "transcription": "ɡa.ʁaʒ",
+        "id": "fr_starter_furniture_033",
+        "lang": "fr"
     },
-{
+    {
         "word": "salon",
         "level": "starter",
         "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "salons",
         "definitions": [
             {
@@ -663,16 +794,20 @@
                 ]
             }
         ],
-        "transcription": "/sa.lɔ̃/"
+        "transcription": "sa.lɔ̃",
+        "id": "fr_starter_furniture_034",
+        "lang": "fr"
     },
-{
+    {
         "word": "food_drink",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cuisines",
         "definitions": [
             {
@@ -682,16 +817,20 @@
                 ]
             }
         ],
-        "transcription": "/kɥi.zin/"
+        "transcription": "kɥi.zin",
+        "id": "fr_starter_furniture_035",
+        "lang": "fr"
     },
-{
+    {
         "word": "salle à manger",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "salles à manger",
         "definitions": [
             {
@@ -701,16 +840,20 @@
                 ]
             }
         ],
-        "transcription": "/sal a mɑ̃.ʒe/"
+        "transcription": "sal a mɑ̃.ʒe",
+        "id": "fr_starter_furniture_036",
+        "lang": "fr"
     },
-{
+    {
         "word": "toilette",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚽",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "toilettes",
         "definitions": [
             {
@@ -720,17 +863,20 @@
                 ]
             }
         ],
-        "transcription": "/twa.lɛt/"
+        "transcription": "twa.lɛt",
+        "id": "fr_starter_furniture_037",
+        "lang": "fr"
     },
-{
+    {
         "word": "douche",
-        "image": "images/vocabulary/actions/to take. to have a shower.png",
         "level": "starter",
         "theme": "furniture",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚿",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "douches",
         "definitions": [
             {
@@ -740,16 +886,20 @@
                 ]
             }
         ],
-        "transcription": "/duʃ/"
+        "transcription": "duʃ",
+        "id": "fr_starter_furniture_038",
+        "lang": "fr"
     },
-{
+    {
         "word": "robinet",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "robinets",
         "definitions": [
             {
@@ -759,16 +909,20 @@
                 ]
             }
         ],
-        "transcription": "/ʁɔ.bi.nɛ/"
+        "transcription": "ʁɔ.bi.nɛ",
+        "id": "fr_starter_furniture_039",
+        "lang": "fr"
     },
-{
+    {
         "word": "savon",
         "level": "starter",
         "theme": "furniture",
         "article": "le",
         "gender": "masculine",
         "emoji": "🧼",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "savons",
         "definitions": [
             {
@@ -778,16 +932,20 @@
                 ]
             }
         ],
-        "transcription": "/sa.vɔ̃/"
+        "transcription": "sa.vɔ̃",
+        "id": "fr_starter_furniture_040",
+        "lang": "fr"
     },
-{
+    {
         "word": "serviette",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧺",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "serviettes",
         "definitions": [
             {
@@ -797,16 +955,20 @@
                 ]
             }
         ],
-        "transcription": "/sɛʁ.vjɛt/"
+        "transcription": "sɛʁ.vjɛt",
+        "id": "fr_starter_furniture_041",
+        "lang": "fr"
     },
-{
+    {
         "word": "miroir",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🪞",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "miroirs",
         "definitions": [
             {
@@ -816,16 +978,20 @@
                 ]
             }
         ],
-        "transcription": "/mi.ʁwaʁ/"
+        "transcription": "mi.ʁwaʁ",
+        "id": "fr_starter_furniture_042",
+        "lang": "fr"
     },
-{
+    {
         "word": "lit",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lits",
         "definitions": [
             {
@@ -835,20 +1001,24 @@
                 ]
             }
         ],
-        "transcription": "/li/",
+        "transcription": "li",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "lectus"
-        }
+        },
+        "id": "fr_starter_furniture_043",
+        "lang": "fr"
     },
-{
+    {
         "word": "oreiller",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "l'",
         "gender": "masculine",
         "emoji": "☁️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "oreillers",
         "definitions": [
             {
@@ -858,16 +1028,20 @@
                 ]
             }
         ],
-        "transcription": "/ɔ.ʁɛ.je/"
+        "transcription": "ɔ.ʁɛ.je",
+        "id": "fr_starter_furniture_044",
+        "lang": "fr"
     },
-{
+    {
         "word": "couverture",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "couvertures",
         "definitions": [
             {
@@ -877,16 +1051,20 @@
                 ]
             }
         ],
-        "transcription": "/ku.vɛʁ.tyʁ/"
+        "transcription": "ku.vɛʁ.tyʁ",
+        "id": "fr_starter_furniture_045",
+        "lang": "fr"
     },
-{
+    {
         "word": "armoire",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "armoires",
         "definitions": [
             {
@@ -896,16 +1074,20 @@
                 ]
             }
         ],
-        "transcription": "/aʁ.mwaʁ/"
+        "transcription": "aʁ.mwaʁ",
+        "id": "fr_starter_furniture_046",
+        "lang": "fr"
     },
-{
+    {
         "word": "étagère",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "l'",
         "gender": "feminine",
         "emoji": "📶",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "étagères",
         "definitions": [
             {
@@ -915,16 +1097,20 @@
                 ]
             }
         ],
-        "transcription": "/e.ta.ʒɛʁ/"
+        "transcription": "e.ta.ʒɛʁ",
+        "id": "fr_starter_furniture_047",
+        "lang": "fr"
     },
-{
+    {
         "word": "bureau",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bureaux",
         "definitions": [
             {
@@ -934,16 +1120,20 @@
                 ]
             }
         ],
-        "transcription": "/by.ʁo/"
+        "transcription": "by.ʁo",
+        "id": "fr_starter_furniture_048",
+        "lang": "fr"
     },
-{
+    {
         "word": "chaise",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chaises",
         "definitions": [
             {
@@ -953,20 +1143,24 @@
                 ]
             }
         ],
-        "transcription": "/ʃɛz/",
+        "transcription": "ʃɛz",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "cathedra"
-        }
+        },
+        "id": "fr_starter_furniture_049",
+        "lang": "fr"
     },
-{
+    {
         "word": "fauteuil",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fauteuils",
         "definitions": [
             {
@@ -976,16 +1170,20 @@
                 ]
             }
         ],
-        "transcription": "/fo.tœj/"
+        "transcription": "fo.tœj",
+        "id": "fr_starter_furniture_050",
+        "lang": "fr"
     },
-{
+    {
         "word": "canapé",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "canapés",
         "definitions": [
             {
@@ -995,16 +1193,20 @@
                 ]
             }
         ],
-        "transcription": "/ka.na.pe/"
+        "transcription": "ka.na.pe",
+        "id": "fr_starter_furniture_051",
+        "lang": "fr"
     },
-{
+    {
         "word": "lampe",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lampes",
         "definitions": [
             {
@@ -1014,16 +1216,20 @@
                 ]
             }
         ],
-        "transcription": "/lɑ̃p/"
+        "transcription": "lɑ̃p",
+        "id": "fr_starter_furniture_052",
+        "lang": "fr"
     },
-{
+    {
         "word": "sac",
         "level": "starter",
         "theme": "furniture_objects",
         "article": "le",
         "gender": "masculine",
         "emoji": "👜",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sacs",
         "definitions": [
             {
@@ -1031,26 +1237,20 @@
                 "examples": [
                     "Un sac à main."
                 ]
-            },
-{
-        "word": "mallette",
-        "image": "images/vocabulary/actions/to go to work.png",
-        "level": "starter",
-        "theme": "furniture_objects",
-        "emoji": "💼",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "definitions": [{"text": "Un étui plat utilisé pour transporter des papiers et des documents.", "examples": ["Il transporte ses documents dans une mallette."]}],
-        "transcription": "/ma.lɛt/"
-    },
+            }
         ],
-        "transcription": "/sak/"
+        "transcription": "sak",
+        "id": "fr_starter_furniture_053",
+        "lang": "fr"
     },
-{
+    {
         "word": "grille-pain",
         "level": "starter",
         "theme": "household_items",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "grille-pains",
@@ -1063,14 +1263,18 @@
                 ]
             }
         ],
-        "transcription": "ɡʁij pɛ̃"
+        "transcription": "ɡʁij pɛ̃",
+        "id": "fr_starter_furniture_054",
+        "lang": "fr"
     },
-{
+    {
         "word": "four à micro-ondes",
         "level": "starter",
         "theme": "household_items",
         "emoji": "📟",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "fours à micro-ondes",
@@ -1083,9 +1287,11 @@
                 ]
             }
         ],
-        "transcription": "fuʁ a mikʁo ɔ̃d"
+        "transcription": "fuʁ a mikʁo ɔ̃d",
+        "id": "fr_starter_furniture_055",
+        "lang": "fr"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

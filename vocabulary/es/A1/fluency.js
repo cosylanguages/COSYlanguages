@@ -21,7 +21,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_people_001"
+        "id": "es_starter_people_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Tu casa",
@@ -44,7 +46,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_furniture_005"
+        "id": "es_starter_furniture_005",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Tu comida favorita",
@@ -67,7 +71,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_009"
+        "id": "es_starter_food_drink_009",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Tu rutina matutina",
@@ -90,7 +96,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_work_003"
+        "id": "es_starter_work_003",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Tu mascota o una mascota que quieras",
@@ -113,7 +121,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_animals_001"
+        "id": "es_starter_animals_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Un deporte que te guste",
@@ -136,7 +146,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_009"
+        "id": "es_starter_social_009",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Qué haces los fines de semana",
@@ -159,7 +171,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_010"
+        "id": "es_starter_social_010",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Tu estación favorita",
@@ -182,7 +196,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_nature_005"
+        "id": "es_starter_nature_005",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Tu mejor amigo",
@@ -205,7 +221,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_people_002"
+        "id": "es_starter_people_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Tu trabajo o escuela",
@@ -228,7 +246,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_jobs_001"
+        "id": "es_starter_jobs_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Cosas que te gustan y que no",
@@ -251,7 +271,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_emotions_002"
+        "id": "es_starter_emotions_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Tu color favorito y por qué",
@@ -274,7 +296,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_art_culture_001"
+        "id": "es_starter_art_culture_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Números en tu vida",
@@ -297,7 +321,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_maths_001"
+        "id": "es_starter_maths_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Tu bebida favorita",
@@ -320,7 +346,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_010"
+        "id": "es_starter_food_drink_010",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Tu país",
@@ -343,7 +371,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_places_001"
+        "id": "es_starter_places_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Cosas en tu habitación",
@@ -366,7 +396,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_furniture_006"
+        "id": "es_starter_furniture_006",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Tu día típico",
@@ -389,7 +421,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_work_004"
+        "id": "es_starter_work_004",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Cosas que puedes ver desde tu ventana",
@@ -412,7 +446,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_furniture_007"
+        "id": "es_starter_furniture_007",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Música que te gusta",
@@ -435,7 +471,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_art_culture_002"
+        "id": "es_starter_art_culture_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Tu lugar favorito en tu ciudad",
@@ -458,7 +496,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_places_002"
+        "id": "es_starter_places_002",
+        "emoji": "✨",
+        "transcription": ""
     }
 ];
     const lang = "es";

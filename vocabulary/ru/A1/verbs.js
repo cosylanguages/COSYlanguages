@@ -22,7 +22,7 @@
         "v2": "был",
         "v3": "была",
         "group": "ть",
-        "transcription": "/bɨtʲ/",
+        "transcription": "bɨtʲ",
         "auxiliary": "быть",
         "tenses": {
             "present_simple": {
@@ -49,7 +49,9 @@
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "byti"
-        }
+        },
+        "id": "ru_starter_verbs_001",
+        "lang": "ru"
     },
     {
         "word": "иметь",
@@ -76,8 +78,10 @@
         "v2": "имел",
         "v3": "имела",
         "group": "1st_conj",
-        "transcription": "/iˈmʲetʲ/",
-        "auxiliary": "быть"
+        "transcription": "iˈmʲetʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_002",
+        "lang": "ru"
     },
     {
         "word": "чувствовать",
@@ -101,8 +105,10 @@
         "v2": "чувствовал",
         "v3": "чувствовала",
         "group": "1st_conj",
-        "transcription": "/ˈtʃustvəvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈtʃustvəvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_003",
+        "lang": "ru"
     },
     {
         "word": "давать",
@@ -110,8 +116,6 @@
         "theme": "shopping",
         "emoji": "🎁",
         "subtext": "давать советы / давать деньги / давать подарок",
-        "opposite": "брать",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -127,8 +131,13 @@
         "v2": "давал",
         "v3": "давала",
         "group": "1st_conj",
-        "transcription": "/daˈvatʲ/",
-        "auxiliary": "быть"
+        "transcription": "daˈvatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_004",
+        "lang": "ru",
+        "antonyms": [
+            "брать"
+        ]
     },
     {
         "word": "брать",
@@ -140,8 +149,6 @@
             "садиться в автобус",
             "принимать лекарство"
         ],
-        "opposite": "давать",
-        "oppositeEmoji": "🎁",
         "form": "verb",
         "definitions": [
             {
@@ -157,8 +164,13 @@
         "v2": "брал",
         "v3": "брала",
         "group": "1st_conj",
-        "transcription": "/bratʲ/",
-        "auxiliary": "быть"
+        "transcription": "bratʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_005",
+        "lang": "ru",
+        "antonyms": [
+            "давать"
+        ]
     },
     {
         "word": "получать",
@@ -187,8 +199,10 @@
         "v2": "получал",
         "v3": "получала",
         "group": "1st_conj",
-        "transcription": "/paluˈtʃatʲ/",
-        "auxiliary": "быть"
+        "transcription": "paluˈtʃatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_006",
+        "lang": "ru"
     },
     {
         "word": "класть",
@@ -215,8 +229,10 @@
         "v2": "клал",
         "v3": "клала",
         "group": "1st_conj",
-        "transcription": "/klastʲ/",
-        "auxiliary": "быть"
+        "transcription": "klastʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_007",
+        "lang": "ru"
     },
     {
         "word": "делать",
@@ -243,12 +259,14 @@
         "v2": "делал",
         "v3": "делала",
         "group": "1st_conj",
-        "transcription": "/ˈdʲelətʲ/",
+        "transcription": "ˈdʲelətʲ",
         "auxiliary": "быть",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "dělati"
-        }
+        },
+        "id": "ru_starter_verbs_008",
+        "lang": "ru"
     },
     {
         "word": "делать",
@@ -271,12 +289,14 @@
         "v2": "делал",
         "v3": "делала",
         "group": "1st_conj",
-        "transcription": "/ˈdʲelətʲ/",
+        "transcription": "ˈdʲelətʲ",
         "auxiliary": "быть",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "dělati"
-        }
+        },
+        "id": "ru_starter_verbs_009",
+        "lang": "ru"
     },
     {
         "word": "использовать",
@@ -303,8 +323,10 @@
         "v2": "использовал",
         "v3": "использовала",
         "group": "1st_conj",
-        "transcription": "/iˈspolʲzəvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "iˈspolʲzəvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_010",
+        "lang": "ru"
     },
     {
         "word": "открывать",
@@ -312,8 +334,6 @@
         "theme": "shopping",
         "emoji": "📖",
         "subtext": "открывать дверь / открывать счет / открывать магазин",
-        "opposite": "закрывать",
-        "oppositeEmoji": "🔒",
         "form": "verb",
         "definitions": [
             {
@@ -329,8 +349,13 @@
         "v2": "открывал",
         "v3": "открывала",
         "group": "1st_conj",
-        "transcription": "/atkʁɨˈvatʲ/",
-        "auxiliary": "быть"
+        "transcription": "atkʁɨˈvatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_011",
+        "lang": "ru",
+        "antonyms": [
+            "закрывать"
+        ]
     },
     {
         "word": "закрывать",
@@ -341,8 +366,6 @@
         "synonyms": [
             "закрываться в шесть"
         ],
-        "opposite": "открывать",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -358,8 +381,13 @@
         "v2": "закрывал",
         "v3": "закрывала",
         "group": "1st_conj",
-        "transcription": "/zakʁɨˈvatʲ/",
-        "auxiliary": "быть"
+        "transcription": "zakʁɨˈvatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_012",
+        "lang": "ru",
+        "antonyms": [
+            "открывать"
+        ]
     },
     {
         "word": "начинать",
@@ -367,8 +395,6 @@
         "theme": "work",
         "emoji": "▶️",
         "subtext": "начинать работу / начинать встречу / начинать рано",
-        "opposite": "заканчивать",
-        "oppositeEmoji": "🏁",
         "form": "verb",
         "definitions": [
             {
@@ -384,8 +410,13 @@
         "v2": "начинал",
         "v3": "начинала",
         "group": "1st_conj",
-        "transcription": "/natʃʲiˈnatʲ/",
-        "auxiliary": "быть"
+        "transcription": "natʃʲiˈnatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_013",
+        "lang": "ru",
+        "antonyms": [
+            "заканчивать"
+        ]
     },
     {
         "word": "заканчивать",
@@ -393,8 +424,6 @@
         "theme": "work",
         "emoji": "🏁",
         "subtext": "заканчивать работу / заканчивать проект",
-        "opposite": "начинать",
-        "oppositeEmoji": "▶️",
         "form": "verb",
         "definitions": [
             {
@@ -410,8 +439,13 @@
         "v2": "заканчивал",
         "v3": "заканчивала",
         "group": "1st_conj",
-        "transcription": "/zaˈkantʃʲivətʲ/",
-        "auxiliary": "быть"
+        "transcription": "zaˈkantʃʲivətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_014",
+        "lang": "ru",
+        "antonyms": [
+            "начинать"
+        ]
     },
     {
         "word": "помогать",
@@ -437,8 +471,10 @@
         "v2": "помогал",
         "v3": "помогала",
         "group": "1st_conj",
-        "transcription": "/pamaˈɡatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pamaˈɡatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_015",
+        "lang": "ru"
     },
     {
         "word": "пробовать",
@@ -464,8 +500,10 @@
         "v2": "пробовал",
         "v3": "пробовала",
         "group": "1st_conj",
-        "transcription": "/ˈprobəvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈprobəvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_016",
+        "lang": "ru"
     },
     {
         "word": "показывать",
@@ -488,8 +526,10 @@
         "v2": "показывал",
         "v3": "показывала",
         "group": "1st_conj",
-        "transcription": "/paˈkazɨvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "paˈkazɨvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_017",
+        "lang": "ru"
     },
     {
         "word": "находить",
@@ -517,8 +557,10 @@
         "v2": "находил",
         "v3": "находила",
         "group": "2nd_conj",
-        "transcription": "/naxaˈdʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "naxaˈdʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_018",
+        "lang": "ru"
     },
     {
         "word": "хранить",
@@ -546,8 +588,10 @@
         "v2": "хранил",
         "v3": "хранила",
         "group": "2nd_conj",
-        "transcription": "/xraˈnʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "xraˈnʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_019",
+        "lang": "ru"
     },
     {
         "word": "терять",
@@ -558,8 +602,6 @@
         "synonyms": [
             "потерять работу"
         ],
-        "opposite": "побеждать",
-        "oppositeEmoji": "🏆",
         "form": "verb",
         "definitions": [
             {
@@ -576,8 +618,13 @@
         "v2": "терял",
         "v3": "теряла",
         "group": "1st_conj",
-        "transcription": "/tʲiˈrʲatʲ/",
-        "auxiliary": "быть"
+        "transcription": "tʲiˈrʲatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_020",
+        "lang": "ru",
+        "antonyms": [
+            "побеждать"
+        ]
     },
     {
         "word": "резать",
@@ -604,8 +651,10 @@
         "v2": "резал",
         "v3": "резала",
         "group": "1st_conj",
-        "transcription": "/ˈrʲezətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈrʲezətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_021",
+        "lang": "ru"
     },
     {
         "word": "поворачивать",
@@ -633,8 +682,10 @@
         "v2": "поворачивал",
         "v3": "поворачивала",
         "group": "1st_conj",
-        "transcription": "/pavaˈratʃʲivətʲ/",
-        "auxiliary": "быть"
+        "transcription": "pavaˈratʃʲivətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_022",
+        "lang": "ru"
     },
     {
         "word": "приносить",
@@ -660,8 +711,10 @@
         "v2": "приносил",
         "v3": "приносила",
         "group": "2nd_conj",
-        "transcription": "/pʁʲinaˈsʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "pʁʲinaˈsʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_023",
+        "lang": "ru"
     },
     {
         "word": "сказать",
@@ -684,8 +737,10 @@
         "v2": "сказал",
         "v3": "сказала",
         "group": "1st_conj",
-        "transcription": "/skaˈzatʲ/",
-        "auxiliary": "быть"
+        "transcription": "skaˈzatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_024",
+        "lang": "ru"
     },
     {
         "word": "рассказывать",
@@ -711,8 +766,10 @@
         "v2": "рассказывал",
         "v3": "рассказывала",
         "group": "1st_conj",
-        "transcription": "/rasˈkazɨvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "rasˈkazɨvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_025",
+        "lang": "ru"
     },
     {
         "word": "спрашивать",
@@ -739,8 +796,10 @@
         "v2": "спрашивал",
         "v3": "спрашивала",
         "group": "1st_conj",
-        "transcription": "/ˈspraʂɨvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈspraʂɨvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_026",
+        "lang": "ru"
     },
     {
         "word": "говорить",
@@ -763,12 +822,14 @@
         "v2": "говорил",
         "v3": "говорила",
         "group": "2nd_conj",
-        "transcription": "/ɡavaˈrʲitʲ/",
+        "transcription": "ɡavaˈrʲitʲ",
         "auxiliary": "быть",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "govoriti"
-        }
+        },
+        "id": "ru_starter_verbs_027",
+        "lang": "ru"
     },
     {
         "word": "разговаривать",
@@ -794,8 +855,10 @@
         "v2": "разговаривал",
         "v3": "разговаривала",
         "group": "1st_conj",
-        "transcription": "/razɡavaˈrʲivətʲ/",
-        "auxiliary": "быть"
+        "transcription": "razɡavaˈrʲivətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_028",
+        "lang": "ru"
     },
     {
         "word": "звонить",
@@ -822,8 +885,10 @@
         "v2": "звонил",
         "v3": "звонила",
         "group": "2nd_conj",
-        "transcription": "/zvaˈnʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "zvaˈnʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_029",
+        "lang": "ru"
     },
     {
         "word": "писать",
@@ -831,8 +896,6 @@
         "theme": "school",
         "emoji": "✍️",
         "subtext": "писать письмо / писать отчет / писать заметки",
-        "opposite": "читать",
-        "oppositeEmoji": "📖",
         "form": "verb",
         "definitions": [
             {
@@ -848,8 +911,13 @@
         "v2": "писал",
         "v3": "писала",
         "group": "1st_conj",
-        "transcription": "/pʲiˈsatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pʲiˈsatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_030",
+        "lang": "ru",
+        "antonyms": [
+            "читать"
+        ]
     },
     {
         "word": "читать",
@@ -857,8 +925,6 @@
         "theme": "school",
         "emoji": "📖",
         "subtext": "читать книгу / читать новости / читать внимательно",
-        "opposite": "писать",
-        "oppositeEmoji": "✍️",
         "form": "verb",
         "definitions": [
             {
@@ -874,8 +940,13 @@
         "v2": "читал",
         "v3": "читала",
         "group": "1st_conj",
-        "transcription": "/tʃʲiˈtatʲ/",
-        "auxiliary": "быть"
+        "transcription": "tʃʲiˈtatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_031",
+        "lang": "ru",
+        "antonyms": [
+            "писать"
+        ]
     },
     {
         "word": "слушать",
@@ -898,8 +969,10 @@
         "v2": "слушал",
         "v3": "слушала",
         "group": "1st_conj",
-        "transcription": "/ˈsluʂətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈsluʂətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_032",
+        "lang": "ru"
     },
     {
         "word": "отвечать",
@@ -925,8 +998,10 @@
         "v2": "отвечал",
         "v3": "отвечала",
         "group": "1st_conj",
-        "transcription": "/atvʲiˈtʃatʲ/",
-        "auxiliary": "быть"
+        "transcription": "atvʲiˈtʃatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_033",
+        "lang": "ru"
     },
     {
         "word": "повторять",
@@ -954,8 +1029,10 @@
         "v2": "повторял",
         "v3": "повторяла",
         "group": "1st_conj",
-        "transcription": "/paftaˈrʲatʲ/",
-        "auxiliary": "быть"
+        "transcription": "paftaˈrʲatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_034",
+        "lang": "ru"
     },
     {
         "word": "идти",
@@ -981,7 +1058,7 @@
         "v2": "шёл",
         "v3": "шёл",
         "group": "1st_conj",
-        "transcription": "/iˈtʲi/",
+        "transcription": "iˈtʲi",
         "auxiliary": "быть",
         "tenses": {
             "present_simple": {
@@ -994,7 +1071,9 @@
                     "идут"
                 ]
             }
-        }
+        },
+        "id": "ru_starter_verbs_035",
+        "lang": "ru"
     },
     {
         "word": "приходить",
@@ -1005,8 +1084,6 @@
         "synonyms": [
             "возвращаться"
         ],
-        "opposite": "идти",
-        "oppositeEmoji": "🚶",
         "form": "verb",
         "definitions": [
             {
@@ -1022,12 +1099,16 @@
         "v2": "приходил",
         "v3": "приходила",
         "group": "2nd_conj",
-        "transcription": "/pʁʲixaˈdʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "pʁʲixaˈdʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_036",
+        "lang": "ru",
+        "antonyms": [
+            "идти"
+        ]
     },
     {
         "word": "гулять",
-        "image": "images/vocabulary/actions/to walk. to hike.png",
         "level": "starter",
         "theme": "travel",
         "emoji": "🚶",
@@ -1050,8 +1131,10 @@
         "v2": "гулял",
         "v3": "гуляла",
         "group": "1st_conj",
-        "transcription": "/ɡuˈlʲatʲ/",
-        "auxiliary": "быть"
+        "transcription": "ɡuˈlʲatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_037",
+        "lang": "ru"
     },
     {
         "word": "водить",
@@ -1078,8 +1161,10 @@
         "v2": "водил",
         "v3": "водила",
         "group": "2nd_conj",
-        "transcription": "/vaˈdʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "vaˈdʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_038",
+        "lang": "ru"
     },
     {
         "word": "летать",
@@ -1106,8 +1191,10 @@
         "v2": "летал",
         "v3": "летала",
         "group": "1st_conj",
-        "transcription": "/lʲiˈtatʲ/",
-        "auxiliary": "быть"
+        "transcription": "lʲiˈtatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_039",
+        "lang": "ru"
     },
     {
         "word": "приезжать",
@@ -1133,8 +1220,10 @@
         "v2": "приезжал",
         "v3": "приезжала",
         "group": "1st_conj",
-        "transcription": "/pʁʲijezˈʐatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pʁʲijezˈʐatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_040",
+        "lang": "ru"
     },
     {
         "word": "уходить",
@@ -1160,8 +1249,10 @@
         "v2": "уходил",
         "v3": "уходила",
         "group": "2nd_conj",
-        "transcription": "/uxaˈdʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "uxaˈdʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_041",
+        "lang": "ru"
     },
     {
         "word": "двигаться",
@@ -1188,9 +1279,11 @@
         "v2": "двигался",
         "v3": "двигалась",
         "group": "1st_conj",
-        "transcription": "/ˈdvʲiɡətsə/",
+        "transcription": "ˈdvʲiɡətsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_042",
+        "lang": "ru"
     },
     {
         "word": "возвращаться",
@@ -1216,9 +1309,11 @@
         "v2": "возвращался",
         "v3": "возвращалась",
         "group": "1st_conj",
-        "transcription": "/vazvraˈɕːatsə/",
+        "transcription": "vazvraˈɕːatsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_043",
+        "lang": "ru"
     },
     {
         "word": "путешествовать",
@@ -1244,12 +1339,13 @@
         "v2": "путешествовал",
         "v3": "путешествовала",
         "group": "1st_conj",
-        "transcription": "/putʲiˈʂestvəvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "putʲiˈʂestvəvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_044",
+        "lang": "ru"
     },
     {
         "word": "есть",
-        "image": "images/vocabulary/actions/to eat.png",
         "level": "starter",
         "theme": "food_drink",
         "emoji": "🍎",
@@ -1259,8 +1355,6 @@
             "обедать",
             "ужинать"
         ],
-        "opposite": "пить",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1276,7 +1370,7 @@
         "v2": "ел",
         "v3": "ела",
         "group": "ть",
-        "transcription": "/jesʲtʲ/",
+        "transcription": "jesʲtʲ",
         "auxiliary": "быть",
         "tenses": {
             "present_simple": {
@@ -1293,17 +1387,19 @@
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "ěsti"
-        }
+        },
+        "id": "ru_starter_verbs_045",
+        "lang": "ru",
+        "antonyms": [
+            "пить"
+        ]
     },
     {
         "word": "пить",
-        "image": "images/vocabulary/actions/to drink.png",
         "level": "starter",
         "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "пить кофе / пить чай / пить воду",
-        "opposite": "есть",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1319,22 +1415,24 @@
         "v2": "пил",
         "v3": "пила",
         "group": "2nd_conj",
-        "transcription": "/pʲitʲ/",
+        "transcription": "pʲitʲ",
         "auxiliary": "быть",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "piti"
-        }
+        },
+        "id": "ru_starter_verbs_046",
+        "lang": "ru",
+        "antonyms": [
+            "есть"
+        ]
     },
     {
         "word": "спать",
-        "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
         "theme": "time",
         "emoji": "😴",
         "subtext": "хорошо спать / плохо спать / спать восемь часов",
-        "opposite": "просыпаться",
-        "oppositeEmoji": "⏰",
         "form": "verb",
         "definitions": [
             {
@@ -1350,16 +1448,20 @@
         "v2": "спал",
         "v3": "спала",
         "group": "1st_conj",
-        "transcription": "/spatʲ/",
+        "transcription": "spatʲ",
         "auxiliary": "быть",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "sъpati"
-        }
+        },
+        "id": "ru_starter_verbs_047",
+        "lang": "ru",
+        "antonyms": [
+            "просыпаться"
+        ]
     },
     {
         "word": "готовить",
-        "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
         "theme": "cooking_methods",
         "emoji": "🍳",
@@ -1379,12 +1481,13 @@
         "v2": "готовил",
         "v3": "готовила",
         "group": "2nd_conj",
-        "transcription": "/ɡaˈtovʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "ɡaˈtovʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_048",
+        "lang": "ru"
     },
     {
         "word": "чистить",
-        "image": "images/vocabulary/actions/to clean. to sweep.png",
         "level": "starter",
         "theme": "furniture",
         "emoji": "🧹",
@@ -1407,8 +1510,10 @@
         "v2": "чистил",
         "v3": "чистила",
         "group": "2nd_conj",
-        "transcription": "/ˈtʃistʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈtʃistʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_049",
+        "lang": "ru"
     },
     {
         "word": "носить",
@@ -1431,12 +1536,13 @@
         "v2": "носил",
         "v3": "носила",
         "group": "2nd_conj",
-        "transcription": "/naˈsʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "naˈsʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_050",
+        "lang": "ru"
     },
     {
         "word": "мыть",
-        "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
         "level": "starter",
         "theme": "furniture",
         "emoji": "🧼",
@@ -1459,8 +1565,10 @@
         "v2": "мыл",
         "v3": "мыла",
         "group": "1st_conj",
-        "transcription": "/mɨtʲ/",
-        "auxiliary": "быть"
+        "transcription": "mɨtʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_051",
+        "lang": "ru"
     },
     {
         "word": "покупать",
@@ -1468,8 +1576,6 @@
         "theme": "shopping",
         "emoji": "🛒",
         "subtext": "покупать еду / покупать билет",
-        "opposite": "продавать",
-        "oppositeEmoji": "🏷️",
         "form": "verb",
         "definitions": [
             {
@@ -1485,8 +1591,13 @@
         "v2": "покупал",
         "v3": "покупала",
         "group": "1st_conj",
-        "transcription": "/pakuˈpatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pakuˈpatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_052",
+        "lang": "ru",
+        "antonyms": [
+            "продавать"
+        ]
     },
     {
         "word": "платить",
@@ -1512,8 +1623,10 @@
         "v2": "платил",
         "v3": "платила",
         "group": "2nd_conj",
-        "transcription": "/plaˈtʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "plaˈtʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_053",
+        "lang": "ru"
     },
     {
         "word": "тратить",
@@ -1536,8 +1649,10 @@
         "v2": "тратил",
         "v3": "тратила",
         "group": "2nd_conj",
-        "transcription": "/ˈtratʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈtratʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_054",
+        "lang": "ru"
     },
     {
         "word": "сохранять",
@@ -1550,8 +1665,6 @@
             "копить на дом",
             "экономить время"
         ],
-        "opposite": "тратить",
-        "oppositeEmoji": "💸",
         "form": "verb",
         "definitions": [
             {
@@ -1567,8 +1680,13 @@
         "v2": "сохранял",
         "v3": "сохраняла",
         "group": "1st_conj",
-        "transcription": "/saxraˈnʲatʲ/",
-        "auxiliary": "быть"
+        "transcription": "saxraˈnʲatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_055",
+        "lang": "ru",
+        "antonyms": [
+            "тратить"
+        ]
     },
     {
         "word": "работать",
@@ -1591,12 +1709,14 @@
         "v2": "работал",
         "v3": "работала",
         "group": "1st_conj",
-        "transcription": "/raˈbotətʲ/",
+        "transcription": "raˈbotətʲ",
         "auxiliary": "быть",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "orbota"
-        }
+        },
+        "id": "ru_starter_verbs_056",
+        "lang": "ru"
     },
     {
         "word": "жить",
@@ -1604,8 +1724,6 @@
         "theme": "places",
         "emoji": "🏠",
         "subtext": "жить в квартире / жить одному / жить с кем-то",
-        "opposite": "умирать",
-        "oppositeEmoji": "⚰️",
         "form": "verb",
         "definitions": [
             {
@@ -1621,8 +1739,13 @@
         "v2": "жил",
         "v3": "жила",
         "group": "2nd_conj",
-        "transcription": "/ʐɨtʲ/",
-        "auxiliary": "быть"
+        "transcription": "ʐɨtʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_057",
+        "lang": "ru",
+        "antonyms": [
+            "умирать"
+        ]
     },
     {
         "word": "думать",
@@ -1648,8 +1771,10 @@
         "v2": "думал",
         "v3": "думала",
         "group": "1st_conj",
-        "transcription": "/ˈdumətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈdumətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_058",
+        "lang": "ru"
     },
     {
         "word": "знать",
@@ -1672,8 +1797,10 @@
         "v2": "знал",
         "v3": "знала",
         "group": "1st_conj",
-        "transcription": "/znatʲ/",
-        "auxiliary": "быть"
+        "transcription": "znatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_059",
+        "lang": "ru"
     },
     {
         "word": "хотеть",
@@ -1697,7 +1824,7 @@
         "v2": "хотел",
         "v3": "хотела",
         "group": "ть",
-        "transcription": "/xaˈtʲetʲ/",
+        "transcription": "xaˈtʲetʲ",
         "auxiliary": "быть",
         "tenses": {
             "present_simple": {
@@ -1710,7 +1837,9 @@
                     "хотят"
                 ]
             }
-        }
+        },
+        "id": "ru_starter_verbs_060",
+        "lang": "ru"
     },
     {
         "word": "нуждаться",
@@ -1737,13 +1866,14 @@
         "v2": "нуждался",
         "v3": "нуждалась",
         "group": "1st_conj",
-        "transcription": "/nuʐˈdatsə/",
+        "transcription": "nuʐˈdatsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_061",
+        "lang": "ru"
     },
     {
         "word": "нравиться",
-        "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
         "theme": "emotions",
         "emoji": "👍",
@@ -1769,9 +1899,11 @@
         "v2": "нравился",
         "v3": "нравилась",
         "group": "2nd_conj",
-        "transcription": "/ˈnravʲitsə/",
+        "transcription": "ˈnravʲitsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_062",
+        "lang": "ru"
     },
     {
         "word": "любить",
@@ -1794,8 +1926,10 @@
         "v2": "любил",
         "v3": "любила",
         "group": "2nd_conj",
-        "transcription": "/lʲuˈbʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "lʲuˈbʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_063",
+        "lang": "ru"
     },
     {
         "word": "ненавидеть",
@@ -1818,8 +1952,10 @@
         "v2": "ненавидел",
         "v3": "ненавидела",
         "group": "1st_conj",
-        "transcription": "/nʲinaˈvʲidʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "nʲinaˈvʲidʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_064",
+        "lang": "ru"
     },
     {
         "word": "надеяться",
@@ -1846,9 +1982,11 @@
         "v2": "надеялся",
         "v3": "надеялась",
         "group": "1st_conj",
-        "transcription": "/naˈdʲejətsə/",
+        "transcription": "naˈdʲejətsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_065",
+        "lang": "ru"
     },
     {
         "word": "помнить",
@@ -1871,8 +2009,10 @@
         "v2": "помнил",
         "v3": "помнила",
         "group": "2nd_conj",
-        "transcription": "/ˈpomnʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈpomnʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_066",
+        "lang": "ru"
     },
     {
         "word": "забывать",
@@ -1900,8 +2040,10 @@
         "v2": "забывал",
         "v3": "забывала",
         "group": "1st_conj",
-        "transcription": "/zabɨˈvatʲ/",
-        "auxiliary": "быть"
+        "transcription": "zabɨˈvatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_067",
+        "lang": "ru"
     },
     {
         "word": "понимать",
@@ -1924,8 +2066,10 @@
         "v2": "понимал",
         "v3": "понимала",
         "group": "1st_conj",
-        "transcription": "/panʲiˈmatʲ/",
-        "auxiliary": "быть"
+        "transcription": "panʲiˈmatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_068",
+        "lang": "ru"
     },
     {
         "word": "решать",
@@ -1951,8 +2095,10 @@
         "v2": "решал",
         "v3": "решала",
         "group": "1st_conj",
-        "transcription": "/rʲiˈʂatʲ/",
-        "auxiliary": "быть"
+        "transcription": "rʲiˈʂatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_069",
+        "lang": "ru"
     },
     {
         "word": "наслаждаться",
@@ -1978,9 +2124,11 @@
         "v2": "наслаждался",
         "v3": "наслаждалась",
         "group": "1st_conj",
-        "transcription": "/naslaʐˈdatsə/",
+        "transcription": "naslaʐˈdatsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_070",
+        "lang": "ru"
     },
     {
         "word": "видеть",
@@ -2003,12 +2151,14 @@
         "v2": "видел",
         "v3": "видела",
         "group": "1st_conj",
-        "transcription": "/ˈvʲidʲitʲ/",
+        "transcription": "ˈvʲidʲitʲ",
         "auxiliary": "быть",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "viděti"
-        }
+        },
+        "id": "ru_starter_verbs_071",
+        "lang": "ru"
     },
     {
         "word": "слышать",
@@ -2031,23 +2181,22 @@
         "v2": "слышал",
         "v3": "слышала",
         "group": "1st_conj",
-        "transcription": "/ˈslɨʂətʲ/",
+        "transcription": "ˈslɨʂətʲ",
         "auxiliary": "быть",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "slyšati"
-        }
+        },
+        "id": "ru_starter_verbs_072",
+        "lang": "ru"
     },
     {
         "word": "просыпаться",
-        "image": "images/vocabulary/actions/to wake up.png",
         "level": "starter",
         "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "рано просыпаться / просыпаться в 7 / просыпаться уставшим",
-        "opposite": "спать",
-        "oppositeEmoji": "😴",
         "definitions": [
             {
                 "text": "Переставать спать и открывать глаза.",
@@ -2062,9 +2211,14 @@
         "v2": "просыпался",
         "v3": "просыпалась",
         "group": "1st_conj",
-        "transcription": "/pʁasɨˈpatsə/",
+        "transcription": "pʁasɨˈpatsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_073",
+        "lang": "ru",
+        "antonyms": [
+            "спать"
+        ]
     },
     {
         "word": "смотреть",
@@ -2087,8 +2241,10 @@
         "v2": "смотрел",
         "v3": "смотрела",
         "group": "1st_conj",
-        "transcription": "/smaˈtrʲetʲ/",
-        "auxiliary": "быть"
+        "transcription": "smaˈtrʲetʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_074",
+        "lang": "ru"
     },
     {
         "word": "смотреть",
@@ -2115,8 +2271,10 @@
         "v2": "смотрел",
         "v3": "смотрела",
         "group": "1st_conj",
-        "transcription": "/smaˈtrʲetʲ/",
-        "auxiliary": "быть"
+        "transcription": "smaˈtrʲetʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_075",
+        "lang": "ru"
     },
     {
         "word": "играть",
@@ -2139,8 +2297,10 @@
         "v2": "играл",
         "v3": "играла",
         "group": "1st_conj",
-        "transcription": "/iˈɡratʲ/",
-        "auxiliary": "быть"
+        "transcription": "iˈɡratʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_076",
+        "lang": "ru"
     },
     {
         "word": "бегать",
@@ -2167,8 +2327,10 @@
         "v2": "бегал",
         "v3": "бегала",
         "group": "1st_conj",
-        "transcription": "/ˈbʲeɡətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈbʲeɡətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_077",
+        "lang": "ru"
     },
     {
         "word": "сидеть",
@@ -2176,8 +2338,6 @@
         "theme": "work",
         "emoji": "🪑",
         "subtext": "сидеть / сидеть за столом / сидеть на встрече",
-        "opposite": "стоять",
-        "oppositeEmoji": "🧍",
         "form": "verb",
         "definitions": [
             {
@@ -2193,12 +2353,17 @@
         "v2": "сидел",
         "v3": "сидела",
         "group": "1st_conj",
-        "transcription": "/sʲiˈdʲetʲ/",
+        "transcription": "sʲiˈdʲetʲ",
         "auxiliary": "быть",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "sěděti"
-        }
+        },
+        "id": "ru_starter_verbs_078",
+        "lang": "ru",
+        "antonyms": [
+            "стоять"
+        ]
     },
     {
         "word": "стоять",
@@ -2209,8 +2374,6 @@
         "synonyms": [
             "вставать"
         ],
-        "opposite": "сидеть",
-        "oppositeEmoji": "🪑",
         "form": "verb",
         "definitions": [
             {
@@ -2226,12 +2389,17 @@
         "v2": "стоял",
         "v3": "стояла",
         "group": "1st_conj",
-        "transcription": "/staˈjatʲ/",
+        "transcription": "staˈjatʲ",
         "auxiliary": "быть",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "stojati"
-        }
+        },
+        "id": "ru_starter_verbs_079",
+        "lang": "ru",
+        "antonyms": [
+            "сидеть"
+        ]
     },
     {
         "word": "встречать",
@@ -2257,8 +2425,10 @@
             "встретиться за обедом"
         ],
         "group": "1st_conj",
-        "transcription": "/vstrʲiˈtʃatʲ/",
-        "auxiliary": "быть"
+        "transcription": "vstrʲiˈtʃatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_080",
+        "lang": "ru"
     },
     {
         "word": "учить",
@@ -2284,8 +2454,10 @@
         "v2": "учил",
         "v3": "учила",
         "group": "2nd_conj",
-        "transcription": "/uˈtʃʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "uˈtʃʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_081",
+        "lang": "ru"
     },
     {
         "word": "менять",
@@ -2308,8 +2480,10 @@
         "v2": "менял",
         "v3": "меняла",
         "group": "1st_conj",
-        "transcription": "/mʲiˈnʲatʲ/",
-        "auxiliary": "быть"
+        "transcription": "mʲiˈnʲatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_082",
+        "lang": "ru"
     },
     {
         "word": "останавливать",
@@ -2336,8 +2510,10 @@
         "v2": "останавливал",
         "v3": "останавливала",
         "group": "1st_conj",
-        "transcription": "/astaˈnavlʲivətʲ/",
-        "auxiliary": "быть"
+        "transcription": "astaˈnavlʲivətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_083",
+        "lang": "ru"
     },
     {
         "word": "добавлять",
@@ -2364,8 +2540,10 @@
         "v2": "добавлял",
         "v3": "добавляла",
         "group": "1st_conj",
-        "transcription": "/dabavˈlʲatʲ/",
-        "auxiliary": "быть"
+        "transcription": "dabavˈlʲatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_084",
+        "lang": "ru"
     },
     {
         "word": "побеждать",
@@ -2377,8 +2555,6 @@
             "выиграть приз",
             "выиграть контракт"
         ],
-        "opposite": "терять",
-        "oppositeEmoji": "📉",
         "form": "verb",
         "definitions": [
             {
@@ -2393,8 +2569,13 @@
         "v2": "побеждал",
         "v3": "побеждала",
         "group": "1st_conj",
-        "transcription": "/pabʲiʐˈdatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pabʲiʐˈdatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_085",
+        "lang": "ru",
+        "antonyms": [
+            "терять"
+        ]
     },
     {
         "word": "ждать",
@@ -2420,8 +2601,10 @@
         "v2": "ждал",
         "v3": "ждала",
         "group": "1st_conj",
-        "transcription": "/ʐdatʲ/",
-        "auxiliary": "быть"
+        "transcription": "ʐdatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_086",
+        "lang": "ru"
     },
     {
         "word": "умирать",
@@ -2432,8 +2615,6 @@
         "synonyms": [
             "вымирать"
         ],
-        "opposite": "жить",
-        "oppositeEmoji": "🏠",
         "form": "verb",
         "definitions": [
             {
@@ -2448,8 +2629,13 @@
         "v2": "умирал",
         "v3": "умирала",
         "group": "1st_conj",
-        "transcription": "/umʲiˈratʲ/",
-        "auxiliary": "быть"
+        "transcription": "umʲiˈratʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_087",
+        "lang": "ru",
+        "antonyms": [
+            "жить"
+        ]
     },
     {
         "word": "посылать",
@@ -2476,8 +2662,10 @@
             "отправить сообщение"
         ],
         "group": "1st_conj",
-        "transcription": "/pasɨˈlatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pasɨˈlatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_088",
+        "lang": "ru"
     },
     {
         "word": "оставаться",
@@ -2503,9 +2691,11 @@
         "v2": "оставался",
         "v3": "оставалась",
         "group": "1st_conj",
-        "transcription": "/astaˈvatsə/",
+        "transcription": "astaˈvatsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_089",
+        "lang": "ru"
     },
     {
         "word": "падать",
@@ -2532,8 +2722,10 @@
         "v2": "падал",
         "v3": "падала",
         "group": "1st_conj",
-        "transcription": "/ˈpadətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈpadətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_090",
+        "lang": "ru"
     },
     {
         "word": "проходить",
@@ -2560,8 +2752,10 @@
         "v2": "проходил",
         "v3": "проходила",
         "group": "2nd_conj",
-        "transcription": "/pʁaxadʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "pʁaxadʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_091",
+        "lang": "ru"
     },
     {
         "word": "продавать",
@@ -2569,8 +2763,6 @@
         "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "продавать / продавать онлайн / продавать на рынке",
-        "opposite": "покупать",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2585,8 +2777,13 @@
         "v2": "продавал",
         "v3": "продавала",
         "group": "1st_conj",
-        "transcription": "/pradaˈvatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pradaˈvatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_092",
+        "lang": "ru",
+        "antonyms": [
+            "покупать"
+        ]
     },
     {
         "word": "тянуть",
@@ -2597,8 +2794,6 @@
         "synonyms": [
             "отъезжать"
         ],
-        "opposite": "толкать",
-        "oppositeEmoji": "🛒",
         "form": "verb",
         "definitions": [
             {
@@ -2613,8 +2808,13 @@
         "v2": "тянул",
         "v3": "тянула",
         "group": "1st_conj",
-        "transcription": "/tʲiˈnutʲ/",
-        "auxiliary": "быть"
+        "transcription": "tʲiˈnutʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_093",
+        "lang": "ru",
+        "antonyms": [
+            "толкать"
+        ]
     },
     {
         "word": "толкать",
@@ -2625,8 +2825,6 @@
         "synonyms": [
             "нажать кнопку"
         ],
-        "opposite": "тянуть",
-        "oppositeEmoji": "🚜",
         "form": "verb",
         "definitions": [
             {
@@ -2642,8 +2840,13 @@
         "v2": "толкал",
         "v3": "толкала",
         "group": "1st_conj",
-        "transcription": "/talˈkatʲ/",
-        "auxiliary": "быть"
+        "transcription": "talˈkatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_094",
+        "lang": "ru",
+        "antonyms": [
+            "тянуть"
+        ]
     },
     {
         "word": "нести",
@@ -2666,8 +2869,10 @@
         "v2": "нёс",
         "v3": "несла",
         "group": "1st_conj",
-        "transcription": "/nʲisʲˈtʲi/",
-        "auxiliary": "быть"
+        "transcription": "nʲisʲˈtʲi",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_095",
+        "lang": "ru"
     },
     {
         "word": "ломать",
@@ -2694,8 +2899,10 @@
         "v2": "ломал",
         "v3": "ломала",
         "group": "1st_conj",
-        "transcription": "/laˈmatʲ/",
-        "auxiliary": "быть"
+        "transcription": "laˈmatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_096",
+        "lang": "ru"
     },
     {
         "word": "получать",
@@ -2722,12 +2929,13 @@
         "v2": "получал",
         "v3": "получала",
         "group": "1st_conj",
-        "transcription": "/paluˈtʃatʲ/",
-        "auxiliary": "быть"
+        "transcription": "paluˈtʃatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_097",
+        "lang": "ru"
     },
     {
         "word": "соглашаться",
-        "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
         "theme": "social",
         "emoji": "👍",
@@ -2747,13 +2955,14 @@
         "v2": "соглашался",
         "v3": "соглашалась",
         "group": "1st_conj",
-        "transcription": "/saɡlaˈʂatsə/",
+        "transcription": "saɡlaˈʂatsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_098",
+        "lang": "ru"
     },
     {
         "word": "рисовать",
-        "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
         "theme": "cinema_film",
         "emoji": "🎨",
@@ -2773,8 +2982,10 @@
         "v2": "рисовал",
         "v3": "рисовала",
         "group": "1st_conj",
-        "transcription": "/ʁʲisaˈvatʲ/",
-        "auxiliary": "быть"
+        "transcription": "ʁʲisaˈvatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_099",
+        "lang": "ru"
     },
     {
         "word": "делиться",
@@ -2800,9 +3011,11 @@
         "v2": "делился",
         "v3": "делилась",
         "group": "2nd_conj",
-        "transcription": "/dʲiˈlʲitsə/",
+        "transcription": "dʲiˈlʲitsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_100",
+        "lang": "ru"
     },
     {
         "word": "улыбаться",
@@ -2810,8 +3023,6 @@
         "theme": "people",
         "emoji": "😊",
         "subtext": "улыбаться / улыбаться кому-то / широко улыбаться",
-        "opposite": "плакать",
-        "oppositeEmoji": "😢",
         "form": "verb",
         "definitions": [
             {
@@ -2827,9 +3038,14 @@
         "v2": "улыбался",
         "v3": "улыбалась",
         "group": "1st_conj",
-        "transcription": "/ulɨˈbatsə/",
+        "transcription": "ulɨˈbatsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_101",
+        "lang": "ru",
+        "antonyms": [
+            "плакать"
+        ]
     },
     {
         "word": "плакать",
@@ -2837,8 +3053,6 @@
         "theme": "emotions",
         "emoji": "😢",
         "subtext": "плакать / плакать о помощи / плакать из-за чего-то",
-        "opposite": "улыбаться",
-        "oppositeEmoji": "😊",
         "form": "verb",
         "definitions": [
             {
@@ -2854,8 +3068,13 @@
         "v2": "плакал",
         "v3": "плакала",
         "group": "1st_conj",
-        "transcription": "/ˈplakətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈplakətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_102",
+        "lang": "ru",
+        "antonyms": [
+            "улыбаться"
+        ]
     },
     {
         "word": "танцевать",
@@ -2878,8 +3097,10 @@
         "v2": "танцевал",
         "v3": "танцевала",
         "group": "1st_conj",
-        "transcription": "/tantsɨˈvatʲ/",
-        "auxiliary": "быть"
+        "transcription": "tantsɨˈvatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_103",
+        "lang": "ru"
     },
     {
         "word": "петь",
@@ -2905,8 +3126,10 @@
         "v2": "пел",
         "v3": "пела",
         "group": "1st_conj",
-        "transcription": "/pʲetʲ/",
-        "auxiliary": "быть"
+        "transcription": "pʲetʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_104",
+        "lang": "ru"
     },
     {
         "word": "прыгать",
@@ -2932,8 +3155,10 @@
         "v2": "прыгал",
         "v3": "прыгала",
         "group": "1st_conj",
-        "transcription": "/ˈprɨɡətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈprɨɡətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_105",
+        "lang": "ru"
     },
     {
         "word": "плавать",
@@ -2956,8 +3181,10 @@
         "v2": "плавал",
         "v3": "плавала",
         "group": "1st_conj",
-        "transcription": "/ˈplavətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈplavətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_106",
+        "lang": "ru"
     },
     {
         "word": "учиться",
@@ -2984,9 +3211,11 @@
         "v2": "учился",
         "v3": "училась",
         "group": "2nd_conj",
-        "transcription": "/uˈtʃʲitsə/",
+        "transcription": "uˈtʃʲitsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_107",
+        "lang": "ru"
     },
     {
         "word": "преподавать",
@@ -3012,8 +3241,10 @@
         "v2": "преподавал",
         "v3": "преподавала",
         "group": "1st_conj",
-        "transcription": "/pʁʲipadaˈvatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pʁʲipadaˈvatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_108",
+        "lang": "ru"
     },
     {
         "word": "ездить на работу",
@@ -3039,8 +3270,10 @@
         "v2": "ездил на работу",
         "v3": "ездила на работу",
         "group": "2nd_conj",
-        "transcription": "/ˈjezʲdʲitʲ na raˈbotu/",
-        "auxiliary": "быть"
+        "transcription": "ˈjezʲdʲitʲ na raˈbotu",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_109",
+        "lang": "ru"
     },
     {
         "word": "снимать",
@@ -3062,8 +3295,10 @@
         "v2": "снимал",
         "v3": "снимала",
         "group": "1st_conj",
-        "transcription": "/snʲiˈmatʲ/",
-        "auxiliary": "быть"
+        "transcription": "snʲiˈmatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_110",
+        "lang": "ru"
     },
     {
         "word": "тренироваться",
@@ -3088,9 +3323,11 @@
             "в зале"
         ],
         "group": "1st_conj",
-        "transcription": "/trʲinʲiraˈvatsə/",
+        "transcription": "trʲinʲiraˈvatsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_111",
+        "lang": "ru"
     },
     {
         "word": "стоить",
@@ -3112,8 +3349,10 @@
         "v3": "стоила",
         "subtext": "стоить / стоить дорого / стоить денег",
         "group": "2nd_conj",
-        "transcription": "/ˈstoitʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈstoitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_112",
+        "lang": "ru"
     },
     {
         "word": "приглашать",
@@ -3139,12 +3378,13 @@
             "пригласить на ужин"
         ],
         "group": "1st_conj",
-        "transcription": "/pʁʲiɡlaˈʂatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pʁʲiɡlaˈʂatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_113",
+        "lang": "ru"
     },
     {
         "word": "вставать",
-        "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
             {
                 "text": "Вставать с постели после пробуждения.",
@@ -3163,12 +3403,13 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/vstaˈvatʲ/",
-        "auxiliary": "быть"
+        "transcription": "vstaˈvatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_114",
+        "lang": "ru"
     },
     {
         "word": "завтракать",
-        "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
             {
                 "text": "Принимать утреннюю пищу.",
@@ -3191,8 +3432,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/ˈzaftrəkəvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈzaftrəkəvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_115",
+        "lang": "ru"
     },
     {
         "word": "возвращаться",
@@ -3217,13 +3460,14 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/vazvraˈɕːatsə/",
+        "transcription": "vazvraˈɕːatsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_116",
+        "lang": "ru"
     },
     {
         "word": "ложиться спать",
-        "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
             {
                 "text": "Ложиться в постель, чтобы заснуть.",
@@ -3246,8 +3490,10 @@
         "level": "starter",
         "form": "verb",
         "group": "2nd_conj",
-        "transcription": "/laˈʐɨtsə spatʲ/",
-        "auxiliary": "быть"
+        "transcription": "laˈʐɨtsə spatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_117",
+        "lang": "ru"
     },
     {
         "word": "проверять",
@@ -3269,8 +3515,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/pʁavʲiˈrʲatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pʁavʲiˈrʲatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_118",
+        "lang": "ru"
     },
     {
         "word": "отвечать",
@@ -3292,8 +3540,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/atvʲiˈtʃatʲ/",
-        "auxiliary": "быть"
+        "transcription": "atvʲiˈtʃatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_119",
+        "lang": "ru"
     },
     {
         "word": "презентовать",
@@ -3318,8 +3568,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/pʁʲizʲintaˈvatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pʁʲizʲintaˈvatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_120",
+        "lang": "ru"
     },
     {
         "word": "посещать",
@@ -3341,8 +3593,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/pasʲiˈɕːatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pasʲiˈɕːatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_121",
+        "lang": "ru"
     },
     {
         "word": "управлять",
@@ -3367,8 +3621,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/upravˈlʲatʲ/",
-        "auxiliary": "быть"
+        "transcription": "upravˈlʲatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_122",
+        "lang": "ru"
     },
     {
         "word": "взимать плату",
@@ -3395,8 +3651,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/vzʲiˈmatʲ ˈplatu/",
-        "auxiliary": "быть"
+        "transcription": "vzʲiˈmatʲ ˈplatu",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_123",
+        "lang": "ru"
     },
     {
         "word": "позволить себе",
@@ -3418,8 +3676,10 @@
         "level": "starter",
         "form": "verb",
         "group": "2nd_conj",
-        "transcription": "/paˈzvolʲitʲ sʲiˈbʲe/",
-        "auxiliary": "быть"
+        "transcription": "paˈzvolʲitʲ sʲiˈbʲe",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_124",
+        "lang": "ru"
     },
     {
         "word": "быть должным",
@@ -3444,8 +3704,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/bɨtʲ ˈdolʐnɨm/",
-        "auxiliary": "быть"
+        "transcription": "bɨtʲ ˈdolʐnɨm",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_125",
+        "lang": "ru"
     },
     {
         "word": "зарабатывать",
@@ -3470,8 +3732,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/zaˈrabatɨvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "zaˈrabatɨvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_126",
+        "lang": "ru"
     },
     {
         "word": "навещать",
@@ -3497,8 +3761,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/navʲiˈɕːatʲ/",
-        "auxiliary": "быть"
+        "transcription": "navʲiˈɕːatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_127",
+        "lang": "ru"
     },
     {
         "word": "праздновать",
@@ -3523,8 +3789,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/ˈprazdnəvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈprazdnəvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_128",
+        "lang": "ru"
     },
     {
         "word": "рекомендовать",
@@ -3549,8 +3817,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/rʲikəmʲindaˈvatʲ/",
-        "auxiliary": "быть"
+        "transcription": "rʲikəmʲindaˈvatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_129",
+        "lang": "ru"
     },
     {
         "word": "болеть",
@@ -3577,8 +3847,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/baˈlʲetʲ/",
-        "auxiliary": "быть"
+        "transcription": "baˈlʲetʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_130",
+        "lang": "ru"
     },
     {
         "word": "отдыхать",
@@ -3603,8 +3875,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/addɨˈxatʲ/",
-        "auxiliary": "быть"
+        "transcription": "addɨˈxatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_131",
+        "lang": "ru"
     },
     {
         "word": "выздоравливать",
@@ -3630,8 +3904,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/vɨzdaˈravlʲivətʲ/",
-        "auxiliary": "быть"
+        "transcription": "vɨzdaˈravlʲivətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_132",
+        "lang": "ru"
     },
     {
         "word": "бронировать",
@@ -3656,8 +3932,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/braˈnʲirəvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "braˈnʲirəvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_133",
+        "lang": "ru"
     },
     {
         "word": "собирать вещи",
@@ -3684,8 +3962,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/sabʲiˈratʲ ˈvʲeɕːi/",
-        "auxiliary": "быть"
+        "transcription": "sabʲiˈratʲ ˈvʲeɕːi",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_134",
+        "lang": "ru"
     },
     {
         "word": "отменять",
@@ -3712,8 +3992,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/atmʲiˈnʲatʲ/",
-        "auxiliary": "быть"
+        "transcription": "atmʲiˈnʲatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_135",
+        "lang": "ru"
     },
     {
         "word": "скучать",
@@ -3739,8 +4021,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/skuˈtʃatʲ/",
-        "auxiliary": "быть"
+        "transcription": "skuˈtʃatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_136",
+        "lang": "ru"
     },
     {
         "word": "заказывать",
@@ -3762,8 +4046,10 @@
         "v2": "заказывал",
         "v3": "заказывала",
         "group": "1st_conj",
-        "transcription": "/zaˈkazɨvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "zaˈkazɨvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_137",
+        "lang": "ru"
     },
     {
         "word": "объяснять",
@@ -3788,8 +4074,10 @@
         "v2": "объяснял",
         "v3": "объясняла",
         "group": "1st_conj",
-        "transcription": "/abjizˈnʲatʲ/",
-        "auxiliary": "быть"
+        "transcription": "abjizˈnʲatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_138",
+        "lang": "ru"
     },
     {
         "word": "благодарить",
@@ -3814,8 +4102,10 @@
         "v2": "благодарил",
         "v3": "благодарила",
         "group": "2nd_conj",
-        "transcription": "/blaɡadaˈrʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "blaɡadaˈrʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_139",
+        "lang": "ru"
     },
     {
         "word": "представлять",
@@ -3842,8 +4132,10 @@
         "v2": "представлял",
         "v3": "представляла",
         "group": "1st_conj",
-        "transcription": "/prʲidstavˈlʲatʲ/",
-        "auxiliary": "быть"
+        "transcription": "prʲidstavˈlʲatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_140",
+        "lang": "ru"
     },
     {
         "word": "расслабляться",
@@ -3869,9 +4161,11 @@
         "v2": "расслаблялся",
         "v3": "расслаблялась",
         "group": "1st_conj",
-        "transcription": "/raslaˈblʲatsə/",
+        "transcription": "raslaˈblʲatsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_141",
+        "lang": "ru"
     },
     {
         "word": "чинить",
@@ -3897,8 +4191,10 @@
         "v2": "чинил",
         "v3": "чинила",
         "group": "2nd_conj",
-        "transcription": "/tʃʲiˈnʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "tʃʲiˈnʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_142",
+        "lang": "ru"
     },
     {
         "word": "случаться",
@@ -3925,9 +4221,11 @@
         "v2": "случался",
         "v3": "случалась",
         "group": "1st_conj",
-        "transcription": "/sluˈtʃatsə/",
+        "transcription": "sluˈtʃatsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_143",
+        "lang": "ru"
     },
     {
         "word": "казаться",
@@ -3952,9 +4250,11 @@
         "v2": "казался",
         "v3": "казалась",
         "group": "1st_conj",
-        "transcription": "/kaˈzatsə/",
+        "transcription": "kaˈzatsə",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_144",
+        "lang": "ru"
     },
     {
         "word": "значить",
@@ -3980,8 +4280,10 @@
         "v2": "значил",
         "v3": "значила",
         "group": "2nd_conj",
-        "transcription": "/ˈznatʃʲitʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈznatʃʲitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_145",
+        "lang": "ru"
     },
     {
         "word": "следовать",
@@ -4006,8 +4308,10 @@
         "v2": "следовал",
         "v3": "следовала",
         "group": "1st_conj",
-        "transcription": "/ˈslʲedəvətʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈslʲedəvətʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_146",
+        "lang": "ru"
     },
     {
         "word": "продолжать",
@@ -4032,8 +4336,10 @@
         "v2": "продолжал",
         "v3": "продолжала",
         "group": "1st_conj",
-        "transcription": "/pradalˈʐatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pradalˈʐatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_147",
+        "lang": "ru"
     },
     {
         "word": "расти",
@@ -4059,8 +4365,10 @@
         "v2": "рос",
         "v3": "росла",
         "group": "1st_conj",
-        "transcription": "/rasˈtʲi/",
-        "auxiliary": "быть"
+        "transcription": "rasˈtʲi",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_148",
+        "lang": "ru"
     },
     {
         "word": "включать",
@@ -4085,8 +4393,10 @@
         "v2": "включал",
         "v3": "включала",
         "group": "1st_conj",
-        "transcription": "/fklʲuˈtʃatʲ/",
-        "auxiliary": "быть"
+        "transcription": "fklʲuˈtʃatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_149",
+        "lang": "ru"
     },
     {
         "word": "становиться",
@@ -4113,9 +4423,11 @@
         "v2": "становился",
         "v3": "становилась",
         "group": "2nd_conj",
-        "transcription": "/stanavʲitˈsʲa/",
+        "transcription": "stanavʲitˈsʲa",
         "auxiliary": "быть",
-        "reflexive": true
+        "reflexive": true,
+        "id": "ru_starter_verbs_150",
+        "lang": "ru"
     },
     {
         "word": "принадлежать",
@@ -4140,8 +4452,10 @@
         "v2": "принадлежал",
         "v3": "принадлежала",
         "group": "1st_conj",
-        "transcription": "/pʁʲinadlʲiˈʐatʲ/",
-        "auxiliary": "быть"
+        "transcription": "pʁʲinadlʲiˈʐatʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_151",
+        "lang": "ru"
     },
     {
         "word": "выбирать",
@@ -4163,8 +4477,10 @@
         "v2": "выбирал",
         "v3": "выбирала",
         "group": "1st_conj",
-        "transcription": "/vɨbʲiˈratʲ/",
-        "auxiliary": "быть"
+        "transcription": "vɨbʲiˈratʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_152",
+        "lang": "ru"
     },
     {
         "word": "строить",
@@ -4186,10 +4502,12 @@
         "v2": "строил",
         "v3": "строила",
         "group": "2nd_conj",
-        "transcription": "/ˈstroitʲ/",
-        "auxiliary": "быть"
+        "transcription": "ˈstroitʲ",
+        "auxiliary": "быть",
+        "id": "ru_starter_verbs_153",
+        "lang": "ru"
     }
-    ];
+];
     const lang = "ru";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];

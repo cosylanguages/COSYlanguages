@@ -18,7 +18,10 @@
                 ]
             }
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "id": "fr_starter_dishes_001",
+        "lang": "fr",
+        "emoji": "✨"
     }
 ];
     const lang = "fr";

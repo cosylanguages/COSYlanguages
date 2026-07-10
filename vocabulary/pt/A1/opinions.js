@@ -21,7 +21,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_animals_002"
+        "id": "pt_starter_animals_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "A manhã é a melhor hora do dia.",
@@ -44,7 +46,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_social_012"
+        "id": "pt_starter_social_012",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "O chá é melhor que o café.",
@@ -67,7 +71,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_food_drink_011"
+        "id": "pt_starter_food_drink_011",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Cozinhar é divertido.",
@@ -90,7 +96,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_food_drink_012"
+        "id": "pt_starter_food_drink_012",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "O tempo frio é agradável.",
@@ -113,7 +121,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_nature_006"
+        "id": "pt_starter_nature_006",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Segunda-feira é um dia ruim.",
@@ -136,7 +146,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_social_013"
+        "id": "pt_starter_social_013",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "O chocolate è muito bom.",
@@ -159,7 +171,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_food_drink_013"
+        "id": "pt_starter_food_drink_013",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Cidades pequenas são melhores que cidades grandes.",
@@ -182,7 +196,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_places_003"
+        "id": "pt_starter_places_003",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "É bom ter muitos amigos.",
@@ -205,7 +221,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_people_011"
+        "id": "pt_starter_people_011",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Dormir é a melhor atividade.",
@@ -228,7 +246,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_social_014"
+        "id": "pt_starter_social_014",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "A música é melhor que a TV.",
@@ -251,7 +271,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_social_015"
+        "id": "pt_starter_social_015",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "É importante tomar o café da manhã.",
@@ -274,7 +296,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_food_drink_014"
+        "id": "pt_starter_food_drink_014",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Nadar é divertido.",
@@ -297,7 +321,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_sports_001"
+        "id": "pt_starter_sports_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Filmes antigos são chatos.",
@@ -320,7 +346,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_art_culture_001"
+        "id": "pt_starter_art_culture_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Abacaxi na pizza é uma ótima ideia.",
@@ -343,7 +371,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_food_drink_015"
+        "id": "pt_starter_food_drink_015",
+        "emoji": "✨",
+        "transcription": ""
     }
 ];
     const lang = "pt";

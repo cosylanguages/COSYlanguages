@@ -5,7 +5,6 @@
         "translation": "bread",
         "level": "starter",
         "theme": "food",
-        "language": "el",
         "emoji": "🍞",
         "form": "noun",
         "definitions": [
@@ -16,14 +15,15 @@
                 ]
             }
         ],
-        "transcription": "/psoˈmi/"
+        "transcription": "psoˈmi",
+        "id": "el_starter_food_drink_001",
+        "lang": "el"
     },
     {
         "word": "νερό",
         "translation": "water",
         "level": "starter",
         "theme": "food",
-        "language": "el",
         "emoji": "💧",
         "form": "noun",
         "definitions": [
@@ -34,14 +34,15 @@
                 ]
             }
         ],
-        "transcription": "/neˈro/"
+        "transcription": "neˈro",
+        "id": "el_starter_food_drink_002",
+        "lang": "el"
     },
     {
         "word": "μήλο",
         "translation": "apple",
         "level": "starter",
         "theme": "food",
-        "language": "el",
         "emoji": "🍎",
         "form": "noun",
         "definitions": [
@@ -52,14 +53,15 @@
                 ]
             }
         ],
-        "transcription": "/ˈmi.lo/"
+        "transcription": "ˈmi.lo",
+        "id": "el_starter_food_drink_003",
+        "lang": "el"
     },
     {
         "word": "γάλα",
         "translation": "milk",
         "level": "starter",
         "theme": "food",
-        "language": "el",
         "emoji": "🥛",
         "form": "noun",
         "definitions": [
@@ -70,14 +72,15 @@
                 ]
             }
         ],
-        "transcription": "/ˈɣa.la/"
+        "transcription": "ˈɣa.la",
+        "id": "el_starter_food_drink_004",
+        "lang": "el"
     },
     {
         "word": "τσάι",
         "translation": "tea",
         "level": "starter",
         "theme": "food",
-        "language": "el",
         "emoji": "☕",
         "form": "noun",
         "definitions": [
@@ -88,9 +91,11 @@
                 ]
             }
         ],
-        "transcription": "/ˈtsa.i/"
+        "transcription": "ˈtsa.i",
+        "id": "el_starter_food_drink_005",
+        "lang": "el"
     }
-    ];
+];
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -20,7 +20,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "kæt",
         "lang": "en",
         "level": "starter",
@@ -51,7 +50,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "dɔg",
         "lang": "en",
         "level": "starter",
@@ -80,7 +78,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "bərd",
         "lang": "en",
         "level": "starter",
@@ -94,7 +91,6 @@
     {
         "id": "en_starter_animals_007",
         "word": "fish",
-        "image": "images/vocabulary/nature/fish.png",
         "emoji": "🐟",
         "form": "noun",
         "classification": "regular",
@@ -110,7 +106,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "fɪʃ",
         "lang": "en",
         "level": "starter",
@@ -138,7 +133,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "laɪən",
         "lang": "en",
         "level": "starter",
@@ -166,7 +160,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "ˈɛləfənt",
         "lang": "en",
         "level": "starter",
@@ -194,7 +187,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "ˈræbɪt",
         "lang": "en",
         "level": "starter",
@@ -223,7 +215,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "hɔrs",
         "lang": "en",
         "level": "starter",
@@ -251,7 +242,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "kaʊ",
         "lang": "en",
         "level": "starter",
@@ -279,7 +269,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "pɪg",
         "lang": "en",
         "level": "starter",
@@ -307,7 +296,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "ʃip",
         "lang": "en",
         "level": "starter",
@@ -333,7 +321,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "maʊs",
         "lang": "en",
         "level": "starter",
@@ -357,7 +344,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "sneɪk",
         "lang": "en",
         "level": "starter",
@@ -385,7 +371,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "ˈməŋki",
         "lang": "en",
         "level": "starter",
@@ -413,7 +398,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "ˈspaɪdər",
         "lang": "en",
         "level": "starter",
@@ -441,7 +425,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "bi",
         "lang": "en",
         "level": "starter",
@@ -469,7 +452,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "dək",
         "lang": "en",
         "level": "starter",
@@ -493,7 +475,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "bɛr",
         "lang": "en",
         "level": "starter",
@@ -517,7 +498,6 @@
             }
         ],
         "subtext": "related to pets",
-        "opposite": null,
         "transcription": "pɛt",
         "lang": "en",
         "level": "starter",
@@ -541,7 +521,6 @@
             }
         ],
         "subtext": "related to pets",
-        "opposite": null,
         "transcription": "ˈhæmstər",
         "lang": "en",
         "level": "starter",
@@ -565,7 +544,6 @@
             }
         ],
         "subtext": "related to pets",
-        "opposite": null,
         "transcription": "ˈlɪzərd",
         "lang": "en",
         "level": "starter",
@@ -589,7 +567,6 @@
             }
         ],
         "subtext": "related to pets",
-        "opposite": null,
         "transcription": "ˈtərtəl",
         "lang": "en",
         "level": "starter",
@@ -613,7 +590,6 @@
             }
         ],
         "subtext": "related to animals",
-        "opposite": null,
         "transcription": "ˈkrɑkəˌdaɪl",
         "lang": "en",
         "level": "starter",
@@ -637,7 +613,6 @@
             }
         ],
         "subtext": "related to sea animals",
-        "opposite": null,
         "transcription": "ʃɑrk",
         "lang": "en",
         "level": "starter",
@@ -661,7 +636,6 @@
             }
         ],
         "subtext": "related to sea animals",
-        "opposite": null,
         "transcription": "weɪl",
         "lang": "en",
         "level": "starter",
@@ -685,7 +659,6 @@
             }
         ],
         "subtext": "related to sea animals",
-        "opposite": null,
         "transcription": "ˈdɑlfən",
         "lang": "en",
         "level": "starter",
@@ -709,7 +682,6 @@
             }
         ],
         "subtext": "related to sea animals",
-        "opposite": null,
         "transcription": "ˈɑktəˌpʊs",
         "lang": "en",
         "level": "starter",
@@ -733,7 +705,6 @@
             }
         ],
         "subtext": "related to insects",
-        "opposite": null,
         "transcription": "ˈbətərˌflaɪ",
         "lang": "en",
         "level": "starter",
@@ -761,7 +732,6 @@
             }
         ],
         "subtext": "related to insects",
-        "opposite": null,
         "transcription": "ænt",
         "lang": "en",
         "level": "starter",
@@ -789,7 +759,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈænəməl",
         "lang": "en",
         "level": "starter",

@@ -134,7 +134,19 @@
                     "θα είναι αυτά"
                 ]
             }
-        }
+        },
+        "id": "el_starter_grammar_001",
+        "lang": "el",
+        "theme": "grammar",
+        "form": "noun",
+        "emoji": "✨",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "The word for 'undefined' in el.",
+                "examples": []
+            }
+        ]
     },
     {
         "verb": "έχω",
@@ -270,7 +282,19 @@
                     "θα έχουν αυτά"
                 ]
             }
-        }
+        },
+        "id": "el_starter_grammar_002",
+        "lang": "el",
+        "theme": "grammar",
+        "form": "noun",
+        "emoji": "✨",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "The word for 'undefined' in el.",
+                "examples": []
+            }
+        ]
     },
     {
         "verb": "δουλεύω",
@@ -406,7 +430,19 @@
                     "θα δουλεύουν αυτά"
                 ]
             }
-        }
+        },
+        "id": "el_starter_grammar_003",
+        "lang": "el",
+        "theme": "grammar",
+        "form": "noun",
+        "emoji": "✨",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "The word for 'undefined' in el.",
+                "examples": []
+            }
+        ]
     },
     {
         "verb": "κάνω",
@@ -542,7 +578,19 @@
                     "θα κάνουν αυτά"
                 ]
             }
-        }
+        },
+        "id": "el_starter_grammar_004",
+        "lang": "el",
+        "theme": "grammar",
+        "form": "noun",
+        "emoji": "✨",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "The word for 'undefined' in el.",
+                "examples": []
+            }
+        ]
     },
     {
         "verb": "πηγαίνω",
@@ -678,7 +726,19 @@
                     "θα πάνε αυτά"
                 ]
             }
-        }
+        },
+        "id": "el_starter_grammar_005",
+        "lang": "el",
+        "theme": "grammar",
+        "form": "noun",
+        "emoji": "✨",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "The word for 'undefined' in el.",
+                "examples": []
+            }
+        ]
     },
     {
         "verb": "μιλάω",
@@ -814,7 +874,19 @@
                     "θα μιλήσουν αυτά"
                 ]
             }
-        }
+        },
+        "id": "el_starter_grammar_006",
+        "lang": "el",
+        "theme": "grammar",
+        "form": "noun",
+        "emoji": "✨",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "The word for 'undefined' in el.",
+                "examples": []
+            }
+        ]
     },
     {
         "verb": "τρώω",
@@ -874,7 +946,19 @@
                     "τρώνε αυτά"
                 ]
             }
-        }
+        },
+        "id": "el_starter_grammar_007",
+        "lang": "el",
+        "theme": "grammar",
+        "form": "noun",
+        "emoji": "✨",
+        "transcription": "",
+        "definitions": [
+            {
+                "text": "The word for 'undefined' in el.",
+                "examples": []
+            }
+        ]
     }
 ]
     const lang = "el";

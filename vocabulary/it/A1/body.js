@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "piede",
         "level": "starter",
         "theme": "body",
@@ -8,7 +8,9 @@
         "numberPlural": "2 piede",
         "answer": "due piedi",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈpjɛde",
         "plural": "piedi",
         "gender": "masculine",
@@ -28,15 +30,19 @@
             "origin_lang": "Latin",
             "origin_word": "pes",
             "origin_meaning": "foot"
-        }
+        },
+        "id": "it_starter_body_001",
+        "lang": "it"
     },
-{
+    {
         "word": "testa",
         "level": "starter",
         "theme": "body",
         "article": "la",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "teste",
         "gender": "feminine",
         "partitive": "della",
@@ -56,23 +62,27 @@
             "origin_lang": "Latin",
             "origin_word": "testa",
             "origin_meaning": "pot, shell",
-            etymology: {
+            "etymology": {
                 "origin_lang": "Latin",
                 "origin_word": "testa",
-                etymology: {
+                "etymology": {
                     "origin_lang": "Latin",
                     "origin_word": "testa"
                 }
             }
-        }
+        },
+        "id": "it_starter_body_002",
+        "lang": "it"
     },
-{
+    {
         "word": "mano",
         "level": "starter",
         "theme": "body",
         "article": "la",
         "emoji": "✋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mani",
         "gender": "masculine",
         "partitive": "della",
@@ -92,15 +102,19 @@
             "origin_lang": "Latin",
             "origin_word": "manus",
             "origin_meaning": "hand"
-        }
+        },
+        "id": "it_starter_body_003",
+        "lang": "it"
     },
-{
+    {
         "word": "gamba",
         "level": "starter",
         "theme": "body",
         "article": "la",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gambe",
         "gender": "feminine",
         "partitive": "della",
@@ -120,15 +134,19 @@
             "origin_lang": "Latin",
             "origin_word": "gamba",
             "origin_meaning": "hoof"
-        }
+        },
+        "id": "it_starter_body_004",
+        "lang": "it"
     },
-{
+    {
         "word": "occhio",
         "level": "starter",
         "theme": "body",
         "article": "l'",
         "emoji": "👁️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "occhi",
         "gender": "masculine",
         "partitive": "dell'",
@@ -148,15 +166,19 @@
             "origin_lang": "Latin",
             "origin_word": "oculus",
             "origin_meaning": "eye"
-        }
+        },
+        "id": "it_starter_body_005",
+        "lang": "it"
     },
-{
+    {
         "word": "naso",
         "level": "starter",
         "theme": "body",
         "article": "il",
         "emoji": "👃",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nasi",
         "gender": "masculine",
         "partitive": "del",
@@ -176,15 +198,19 @@
             "origin_lang": "Latin",
             "origin_word": "nasus",
             "origin_meaning": "nose"
-        }
+        },
+        "id": "it_starter_body_006",
+        "lang": "it"
     },
-{
+    {
         "word": "bocca",
         "level": "starter",
         "theme": "body",
         "article": "la",
         "emoji": "👄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bocche",
         "gender": "feminine",
         "partitive": "della",
@@ -204,15 +230,19 @@
             "origin_lang": "Latin",
             "origin_word": "bucca",
             "origin_meaning": "cheek, mouth"
-        }
+        },
+        "id": "it_starter_body_007",
+        "lang": "it"
     },
-{
+    {
         "word": "orecchio",
         "level": "starter",
         "theme": "body",
         "article": "l'",
         "emoji": "👂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "orecchi",
         "gender": "masculine",
         "partitive": "dell'",
@@ -232,16 +262,20 @@
             "origin_lang": "Latin",
             "origin_word": "auricula",
             "origin_meaning": "ear"
-        }
+        },
+        "id": "it_starter_body_008",
+        "lang": "it"
     },
-{
+    {
         "word": "schiena",
         "level": "starter",
         "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "🚶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "schiene",
         "subtext": "mal di schiena, sdraiarsi sulla schiena",
         "definitions": [
@@ -255,16 +289,20 @@
         "partitive": "della",
         "transcription": "ˈskjɛna",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_body_009",
+        "lang": "it"
     },
-{
+    {
         "word": "braccio",
         "level": "starter",
         "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "💪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "braccia",
         "subtext": "braccio rotto, braccio sinistro",
         "definitions": [
@@ -283,16 +321,20 @@
             "origin_lang": "Latin",
             "origin_word": "bracchium",
             "origin_meaning": "arm"
-        }
+        },
+        "id": "it_starter_body_010",
+        "lang": "it"
     },
-{
+    {
         "word": "collo",
         "level": "starter",
         "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "🦒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "colli",
         "definitions": [
             {
@@ -306,16 +348,20 @@
         "transcription": "ˈkɔllo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_body_011",
+        "lang": "it"
     },
-{
+    {
         "word": "spalla",
         "level": "starter",
         "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "spalle",
         "definitions": [
             {
@@ -329,16 +375,20 @@
         "transcription": "ˈspalla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_body_012",
+        "lang": "it"
     },
-{
+    {
         "word": "dito",
         "level": "starter",
         "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "☝️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dita",
         "definitions": [
             {
@@ -352,16 +402,20 @@
         "transcription": "ˈdito",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_body_013",
+        "lang": "it"
     },
-{
+    {
         "word": "dito del piede",
         "level": "starter",
         "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dita dei piedi",
         "definitions": [
             {
@@ -375,16 +429,20 @@
         "transcription": "ˈdito del ˈpjɛde",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_body_014",
+        "lang": "it"
     },
-{
+    {
         "word": "stomaco",
         "level": "starter",
         "theme": "body",
         "article": "lo",
         "gender": "masculine",
         "emoji": "🤰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stomaci",
         "definitions": [
             {
@@ -398,16 +456,20 @@
         "transcription": "ˈstɔmako",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_body_015",
+        "lang": "it"
     },
-{
+    {
         "word": "ginocchio",
         "level": "starter",
         "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ginocchia",
         "definitions": [
             {
@@ -421,16 +483,20 @@
         "transcription": "dʒiˈnɔkkjo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_body_016",
+        "lang": "it"
     },
-{
+    {
         "word": "faccia",
         "level": "starter",
         "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "facce",
         "transcription": "ˈfattʃa",
         "definitions": [
@@ -447,16 +513,20 @@
             "volto"
         ],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_body_017",
+        "lang": "it"
     },
-{
+    {
         "word": "capelli",
         "level": "starter",
         "theme": "body",
         "article": "i",
         "gender": "masculine",
         "emoji": "💇",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "capelli",
         "transcription": "kaˈpelli",
         "definitions": [
@@ -470,16 +540,20 @@
         "partitive": "dei",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_body_018",
+        "lang": "it"
     },
-{
+    {
         "word": "dente",
         "level": "starter",
         "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "🦷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "denti",
         "transcription": "ˈdɛnte",
         "definitions": [
@@ -497,16 +571,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "dens"
-        }
+        },
+        "id": "it_starter_body_019",
+        "lang": "it"
     },
-{
+    {
         "word": "corpo",
         "level": "starter",
         "theme": "health_body",
         "article": "il",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "corpi",
         "transcription": "ˈkɔrpo",
         "definitions": [
@@ -520,16 +598,20 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_body_020",
+        "lang": "it"
     },
-{
+    {
         "word": "cuore",
         "level": "starter",
         "theme": "body",
         "article": "il",
         "gender": "masculine",
         "emoji": "❤️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cuori",
         "transcription": "ˈkwɔre",
         "definitions": [
@@ -547,9 +629,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "cor"
-        }
+        },
+        "id": "it_starter_body_021",
+        "lang": "it"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

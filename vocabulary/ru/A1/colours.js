@@ -5,7 +5,6 @@
         "translation": "red",
         "level": "starter",
         "theme": "colours",
-        "language": "ru",
         "emoji": "🔴",
         "form": "adjective",
         "definitions": [
@@ -16,14 +15,15 @@
                 ]
             }
         ],
-        "transcription": "/ˈkrasnɨj/"
+        "transcription": "ˈkrasnɨj",
+        "id": "ru_starter_colours_001",
+        "lang": "ru"
     },
     {
         "word": "синий",
         "translation": "blue",
         "level": "starter",
         "theme": "colours",
-        "language": "ru",
         "emoji": "🔵",
         "form": "adjective",
         "definitions": [
@@ -34,14 +34,19 @@
                 ]
             }
         ],
-        "transcription": "/ˈsʲinʲɪj/"
+        "transcription": "ˈsʲinʲɪj",
+        "id": "ru_starter_colours_002",
+        "lang": "ru",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "sinьjь"
+        }
     },
     {
         "word": "зелёный",
         "translation": "green",
         "level": "starter",
         "theme": "colours",
-        "language": "ru",
         "emoji": "🟢",
         "form": "adjective",
         "definitions": [
@@ -52,14 +57,15 @@
                 ]
             }
         ],
-        "transcription": "/zʲɪˈlʲonɨj/"
+        "transcription": "zʲɪˈlʲonɨj",
+        "id": "ru_starter_colours_003",
+        "lang": "ru"
     },
     {
         "word": "жёлтый",
         "translation": "yellow",
         "level": "starter",
         "theme": "colours",
-        "language": "ru",
         "emoji": "🟡",
         "form": "adjective",
         "definitions": [
@@ -70,14 +76,15 @@
                 ]
             }
         ],
-        "transcription": "/ˈʐoltɨj/"
+        "transcription": "ˈʐoltɨj",
+        "id": "ru_starter_colours_004",
+        "lang": "ru"
     },
     {
         "word": "белый",
         "translation": "white",
         "level": "starter",
         "theme": "colours",
-        "language": "ru",
         "emoji": "⚪",
         "form": "adjective",
         "definitions": [
@@ -88,9 +95,15 @@
                 ]
             }
         ],
-        "transcription": "/ˈbʲelɨj/"
+        "transcription": "ˈbʲelɨj",
+        "id": "ru_starter_colours_005",
+        "lang": "ru",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "bělъ"
+        }
     }
-    ];
+];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

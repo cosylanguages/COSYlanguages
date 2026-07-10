@@ -8,7 +8,7 @@
         "aspect": "stative",
         "past_participle": "sido",
         "level": "starter",
-        pronouns: [
+        "pronouns": [
             "eu",
             "tu",
             "ele",
@@ -67,7 +67,9 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "esse"
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "verb": "estar",
@@ -76,7 +78,7 @@
         "aspect": "stative",
         "past_participle": "estado",
         "level": "starter",
-        pronouns: [
+        "pronouns": [
             "eu",
             "tu",
             "ele",
@@ -135,7 +137,9 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "stare"
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "verb": "ter",
@@ -144,7 +148,7 @@
         "aspect": "stative",
         "past_participle": "tido",
         "level": "starter",
-        pronouns: [
+        "pronouns": [
             "eu",
             "tu",
             "ele",
@@ -203,7 +207,9 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "tenere"
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "verb": "trabalhar",
@@ -212,7 +218,7 @@
         "aspect": "action",
         "past_participle": "trabalhado",
         "level": "starter",
-        pronouns: [
+        "pronouns": [
             "eu",
             "tu",
             "ele",
@@ -267,7 +273,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_language_004"
+        "id": "pt_starter_language_004",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "verb": "fazer",
@@ -276,7 +284,7 @@
         "aspect": "action",
         "past_participle": "feito",
         "level": "starter",
-        pronouns: [
+        "pronouns": [
             "eu",
             "tu",
             "ele",
@@ -335,7 +343,9 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "facere"
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "verb": "ir",
@@ -344,7 +354,7 @@
         "aspect": "action",
         "past_participle": "ido",
         "level": "starter",
-        pronouns: [
+        "pronouns": [
             "eu",
             "tu",
             "ele",
@@ -399,7 +409,9 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_language_006"
+        "id": "pt_starter_language_006",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "verb": "comer",
@@ -408,7 +420,7 @@
         "aspect": "action",
         "past_participle": "comido",
         "level": "starter",
-        pronouns: [
+        "pronouns": [
             "eu",
             "tu",
             "ele",
@@ -467,7 +479,9 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "comedere"
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "verb": "falar",
@@ -476,7 +490,7 @@
         "aspect": "action",
         "past_participle": "falado",
         "level": "starter",
-        pronouns: [
+        "pronouns": [
             "eu",
             "tu",
             "ele",
@@ -535,9 +549,11 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "fabulari"
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     }
-    ];
+];
     const lang = "pt";
     window.grammarData = window.grammarData || {};
     window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];

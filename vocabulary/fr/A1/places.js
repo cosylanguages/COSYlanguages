@@ -1,22 +1,33 @@
 (function() {
     const data = [
-{
+    {
         "word": "jardin",
-        "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "places",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }]
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "Un jardin public ou un parc.",
+                "examples": []
+            }
+        ],
+        "id": "fr_starter_places_001",
+        "lang": "fr",
+        "transcription": ""
     },
-{
+    {
         "word": "parc",
         "level": "starter",
         "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "parcs",
         "definitions": [
             {
@@ -26,17 +37,20 @@
                 ]
             }
         ],
-        "transcription": "/paʁk/"
+        "transcription": "paʁk",
+        "id": "fr_starter_places_002",
+        "lang": "fr"
     },
-{
+    {
         "word": "école",
-        "image": "images/vocabulary/actions/to go to school.png",
         "level": "starter",
         "theme": "places",
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "écoles",
         "definitions": [
             {
@@ -46,19 +60,23 @@
                 ]
             }
         ],
-        "transcription": "/e.kɔl/",
+        "transcription": "e.kɔl",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "schola"
-        }
+        },
+        "id": "fr_starter_places_003",
+        "lang": "fr"
     },
-{
+    {
         "word": "loyer",
         "level": "starter",
         "theme": "travel",
         "article": "le",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "loyers",
         "definitions": [
             {
@@ -68,15 +86,19 @@
                 ]
             }
         ],
-        "transcription": "/lwa.je/"
+        "transcription": "lwa.je",
+        "id": "fr_starter_places_004",
+        "lang": "fr"
     },
-{
+    {
         "word": "voisin",
         "level": "starter",
         "theme": "places",
         "article": "le",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "voisins",
         "definitions": [
             {
@@ -86,16 +108,20 @@
                 ]
             }
         ],
-        "transcription": "/vwa.zɛ̃/"
+        "transcription": "vwa.zɛ̃",
+        "id": "fr_starter_places_005",
+        "lang": "fr"
     },
-{
+    {
         "word": "hôpital",
         "level": "starter",
         "theme": "places",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏥",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "hôpitaux",
         "definitions": [
             {
@@ -105,16 +131,20 @@
                 ]
             }
         ],
-        "transcription": "/o.pi.tal/"
+        "transcription": "o.pi.tal",
+        "id": "fr_starter_places_006",
+        "lang": "fr"
     },
-{
+    {
         "word": "restaurant",
         "level": "starter",
         "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "restaurants",
         "definitions": [
             {
@@ -124,16 +154,20 @@
                 ]
             }
         ],
-        "transcription": "/ʁɛs.tɔ.ʁɑ̃/"
+        "transcription": "ʁɛs.tɔ.ʁɑ̃",
+        "id": "fr_starter_places_007",
+        "lang": "fr"
     },
-{
+    {
         "word": "supermarché",
         "level": "starter",
         "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "supermarchés",
         "definitions": [
             {
@@ -143,16 +177,20 @@
                 ]
             }
         ],
-        "transcription": "/sy.pɛʁ.maʁ.ʃe/"
+        "transcription": "sy.pɛʁ.maʁ.ʃe",
+        "id": "fr_starter_places_008",
+        "lang": "fr"
     },
-{
+    {
         "word": "pharmacie",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "💊",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pharmacies",
         "definitions": [
             {
@@ -162,16 +200,20 @@
                 ]
             }
         ],
-        "transcription": "/faʁ.ma.si/"
+        "transcription": "faʁ.ma.si",
+        "id": "fr_starter_places_009",
+        "lang": "fr"
     },
-{
+    {
         "word": "immeuble",
         "level": "starter",
         "theme": "places",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "immeubles",
         "definitions": [
             {
@@ -181,16 +223,20 @@
                 ]
             }
         ],
-        "transcription": "/i.mœbl/"
+        "transcription": "i.mœbl",
+        "id": "fr_starter_places_010",
+        "lang": "fr"
     },
-{
+    {
         "word": "café",
         "level": "starter",
         "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "cafés",
         "definitions": [
             {
@@ -200,16 +246,20 @@
                 ]
             }
         ],
-        "transcription": "/ka.fe/"
+        "transcription": "ka.fe",
+        "id": "fr_starter_places_011",
+        "lang": "fr"
     },
-{
+    {
         "word": "centre",
         "level": "starter",
         "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "📍",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "centres",
         "definitions": [
             {
@@ -219,16 +269,20 @@
                 ]
             }
         ],
-        "transcription": "/sɑ̃tʁ/"
+        "transcription": "sɑ̃tʁ",
+        "id": "fr_starter_places_012",
+        "lang": "fr"
     },
-{
+    {
         "word": "quartier",
         "level": "starter",
         "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "📍",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "quartiers",
         "definitions": [
             {
@@ -238,9 +292,11 @@
                 ]
             }
         ],
-        "transcription": "/kaʁ.tje/"
+        "transcription": "kaʁ.tje",
+        "id": "fr_starter_places_013",
+        "lang": "fr"
     },
-{
+    {
         "word": "là",
         "level": "starter",
         "theme": "prepositions_place",
@@ -257,16 +313,20 @@
                 ]
             }
         ],
-        "transcription": "/la/"
+        "transcription": "la",
+        "id": "fr_starter_places_014",
+        "lang": "fr"
     },
-{
+    {
         "word": "ville",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "villes",
         "definitions": [
             {
@@ -276,20 +336,24 @@
                 ]
             }
         ],
-        "transcription": "/vil/",
+        "transcription": "vil",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "villa"
-        }
+        },
+        "id": "fr_starter_places_015",
+        "lang": "fr"
     },
-{
+    {
         "word": "pays",
         "level": "starter",
         "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pays",
         "definitions": [
             {
@@ -299,16 +363,20 @@
                 ]
             }
         ],
-        "transcription": "/pe.i/"
+        "transcription": "pe.i",
+        "id": "fr_starter_places_016",
+        "lang": "fr"
     },
-{
+    {
         "word": "cafétéria",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cafétérias",
         "definitions": [
             {
@@ -318,16 +386,20 @@
                 ]
             }
         ],
-        "transcription": "/ka.fe.te.ʁja/"
+        "transcription": "ka.fe.te.ʁja",
+        "id": "fr_starter_places_017",
+        "lang": "fr"
     },
-{
+    {
         "word": "rue",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "rues",
         "definitions": [
             {
@@ -337,16 +409,20 @@
                 ]
             }
         ],
-        "transcription": "/ʁy/"
+        "transcription": "ʁy",
+        "id": "fr_starter_places_018",
+        "lang": "fr"
     },
-{
+    {
         "word": "chemin",
         "level": "starter",
         "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "👣",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chemins",
         "definitions": [
             {
@@ -356,16 +432,20 @@
                 ]
             }
         ],
-        "transcription": "/ʃə.mɛ̃/"
+        "transcription": "ʃə.mɛ̃",
+        "id": "fr_starter_places_019",
+        "lang": "fr"
     },
-{
+    {
         "word": "route",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "routes",
         "definitions": [
             {
@@ -375,16 +455,20 @@
                 ]
             }
         ],
-        "transcription": "/ʁut/"
+        "transcription": "ʁut",
+        "id": "fr_starter_places_020",
+        "lang": "fr"
     },
-{
+    {
         "word": "place",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "places",
         "definitions": [
             {
@@ -394,16 +478,20 @@
                 ]
             }
         ],
-        "transcription": "/plas/"
+        "transcription": "plas",
+        "id": "fr_starter_places_021",
+        "lang": "fr"
     },
-{
+    {
         "word": "village",
         "level": "starter",
         "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏘️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "villages",
         "definitions": [
             {
@@ -413,9 +501,11 @@
                 ]
             }
         ],
-        "transcription": "/vi.laʒ/"
+        "transcription": "vi.laʒ",
+        "id": "fr_starter_places_022",
+        "lang": "fr"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

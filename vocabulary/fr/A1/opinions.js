@@ -20,7 +20,9 @@
             "Les chats sont-ils faciles ou difficiles ?",
             "Quel est un bon nom pour un animal de compagnie ?",
             "Tes amis ont-ils des animaux ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_027",
@@ -42,7 +44,9 @@
             "Te sens-tu bien le matin ?",
             "Le soir est-il mieux pour toi ?",
             "Que manges-tu le matin ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_028",
@@ -64,7 +68,9 @@
             "Bois-tu des boissons chaudes ou froides ?",
             "Que bois-tu le matin ?",
             "Quelle est la boisson populaire dans ton pays ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_029",
@@ -86,7 +92,9 @@
             "Est-ce facile ou difficile ?",
             "Qui cuisine dans ta famille ?",
             "Quelle est ta chose préférée à préparer ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_030",
@@ -108,7 +116,9 @@
             "Que portes-tu quand il fait froid ?",
             "Que fais-tu quand il fait froid ?",
             "Quelle est ta saison préférée ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_031",
@@ -130,7 +140,9 @@
             "Le week-end est-il trop court ?",
             "Que fais-tu le vendredi ?",
             "Aimes-tu ta routine hebdomadaire ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_032",
@@ -152,7 +164,9 @@
             "Manges-tu beaucoup de chocolat ?",
             "Le chocolat est-il bon pour la santé ?",
             "Que manges-tu quand tu es heureux ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_places_006",
@@ -174,7 +188,9 @@
             "Qu'est-ce qui est bien dans une grande ville ?",
             "Ta ville est-elle bruyante ?",
             "Où veux-tu habiter à l'avenir ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_people_004",
@@ -196,7 +212,9 @@
             "Un bon ami est-il mieux que beaucoup d'amis ?",
             "Où rencontres-tu tes amis ?",
             "Qu'est-ce qu'un bon ami ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_033",
@@ -218,7 +236,9 @@
             "À quelle heure vas-tu au lit ?",
             "Dors-tu l'après-midi ?",
             "Est-ce que dormir est ta chose préférée ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_034",
@@ -240,7 +260,9 @@
             "Combien d'heures de télé regardes-tu ?",
             "Quelle est ton émission préférée ?",
             "Que fais-tu le soir ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_035",
@@ -262,7 +284,9 @@
             "Le petit-déjeuner est-il un grand repas pour toi ?",
             "Prends-tu ton petit-déjeuner à la maison ?",
             "Quel est le petit-déjeuner typique dans ton pays ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_036",
@@ -284,7 +308,9 @@
             "Où nages-tu — à la piscine ou à la mer ?",
             "Quel sport aimes-tu ?",
             "Le sport est-il important pour toi ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_037",
@@ -306,7 +332,9 @@
             "Qui est ton acteur préféré ?",
             "Qu'est-ce qu'un bon film ?",
             "Où regardes-tu des films ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_038",
@@ -328,7 +356,9 @@
             "Mets-tu des fruits sur des plats salés ?",
             "Est-ce populaire dans ton pays ?",
             "Quelle est la pire garniture de pizza pour toi ?"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     }
 ];
     const lang = "fr";

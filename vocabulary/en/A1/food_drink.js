@@ -18,7 +18,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -47,7 +46,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -56,7 +54,10 @@
     {
         "id": "en_starter_food_drink_030",
         "word": "pizza",
-        "etymology": "Pizza → Pitta (Greek?)",
+        "etymology": {
+            "origin_lang": "Unknown",
+            "notes": "Pizza → Pitta (Greek?)"
+        },
         "numberPlural": "3 pizza",
         "answer": "three pizzas",
         "emoji": "🍕",
@@ -80,7 +81,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈpitsə",
         "lang": "en",
         "level": "starter",
@@ -111,7 +111,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈpɑstə",
         "lang": "en",
         "level": "starter",
@@ -138,7 +137,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈæpəl",
         "lang": "en",
         "level": "starter",
@@ -169,7 +167,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "brɛd",
         "lang": "en",
         "level": "starter",
@@ -205,7 +202,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ɛg",
         "lang": "en",
         "level": "starter",
@@ -236,7 +232,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "mɪlk",
         "lang": "en",
         "level": "starter",
@@ -272,7 +267,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "bəˈnænə",
         "lang": "en",
         "level": "starter",
@@ -287,7 +281,10 @@
     {
         "id": "en_starter_food_drink_037",
         "word": "coffee",
-        "etymology": "Coffee → Caffè (Italian) → Kahve (Turkish) → Qahwa (Arabic)",
+        "etymology": {
+            "origin_lang": "Min Chinese",
+            "origin_word": "te"
+        },
         "emoji": "☕",
         "form": "noun",
         "classification": "regular",
@@ -310,16 +307,11 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈkɔfi",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": "drinks",
-        "etymology": {
-            "origin_lang": "Min Chinese",
-            "origin_word": "te"
-        }
+        "sub_theme": "drinks"
     },
     {
         "id": "en_starter_food_drink_038",
@@ -346,7 +338,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ti",
         "lang": "en",
         "level": "starter",
@@ -377,7 +368,6 @@
             }
         ],
         "subtext": "related to drinks",
-        "opposite": null,
         "transcription": "ʤus",
         "lang": "en",
         "level": "starter",
@@ -403,7 +393,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈwɔtər",
         "lang": "en",
         "level": "starter",
@@ -431,7 +420,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "fud",
         "lang": "en",
         "level": "starter",
@@ -460,7 +448,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "raɪs",
         "lang": "en",
         "level": "starter",
@@ -488,7 +475,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "mit",
         "lang": "en",
         "level": "starter",
@@ -503,7 +489,6 @@
     {
         "id": "en_starter_meals_of_the_day_001",
         "word": "breakfast",
-        "image": "images/vocabulary/actions/to have breakfast.png",
         "emoji": "🍳",
         "form": "noun",
         "classification": "regular",
@@ -517,7 +502,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈbrɛkfəst",
         "lang": "en",
         "level": "starter",
@@ -527,7 +511,6 @@
     {
         "id": "en_starter_meals_of_the_day_002",
         "word": "dinner",
-        "image": "images/vocabulary/actions/to have dinner.png",
         "emoji": "🍽️",
         "form": "noun",
         "classification": "regular",
@@ -541,7 +524,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈdɪnər",
         "lang": "en",
         "level": "starter",
@@ -551,7 +533,6 @@
     {
         "id": "en_starter_meals_of_the_day_003",
         "word": "lunch",
-        "image": "images/vocabulary/actions/to have lunch.png",
         "emoji": "🍱",
         "form": "noun",
         "classification": "regular",
@@ -566,7 +547,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "lənʧ",
         "lang": "en",
         "level": "starter",
@@ -590,7 +570,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "frut",
         "lang": "en",
         "level": "starter",
@@ -614,7 +593,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈvɛʤtəbəl",
         "lang": "en",
         "level": "starter",
@@ -638,7 +616,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "bɪr",
         "lang": "en",
         "level": "starter",
@@ -662,7 +639,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "waɪn",
         "lang": "en",
         "level": "starter",
@@ -686,7 +662,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈʧɪkən",
         "lang": "en",
         "level": "starter",
@@ -710,7 +685,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈʃʊgər",
         "lang": "en",
         "level": "starter",
@@ -734,7 +708,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈsæləd",
         "lang": "en",
         "level": "starter",
@@ -758,7 +731,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "bif",
         "lang": "en",
         "level": "starter",
@@ -782,7 +754,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "pɔrk",
         "lang": "en",
         "level": "starter",
@@ -806,7 +777,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "pəˈteɪˌtoʊ",
         "lang": "en",
         "level": "starter",
@@ -830,7 +800,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "təˈmɑˌtoʊ",
         "lang": "en",
         "level": "starter",
@@ -855,7 +824,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈənjən",
         "lang": "en",
         "level": "starter",
@@ -879,7 +847,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈkɛrət",
         "lang": "en",
         "level": "starter",
@@ -903,7 +870,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "sup",
         "lang": "en",
         "level": "starter",
@@ -927,7 +893,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "keɪk",
         "lang": "en",
         "level": "starter",
@@ -951,7 +916,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈʧɔklət",
         "lang": "en",
         "level": "starter",
@@ -975,7 +939,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "aɪs krim",
         "lang": "en",
         "level": "starter",
@@ -999,7 +962,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈlɛmən",
         "lang": "en",
         "level": "starter",
@@ -1013,7 +975,6 @@
     {
         "id": "en_starter_food_drink_062",
         "word": "orange",
-        "image": "images/vocabulary/food/orange.png",
         "emoji": "🍊",
         "form": "noun",
         "classification": "regular",
@@ -1028,7 +989,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈɔrɪnʤ",
         "lang": "en",
         "level": "starter",
@@ -1057,7 +1017,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈstrɔˌbɛri",
         "lang": "en",
         "level": "starter",
@@ -1085,7 +1044,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "greɪp",
         "lang": "en",
         "level": "starter",
@@ -1114,7 +1072,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈgɑrlɪk",
         "lang": "en",
         "level": "starter",
@@ -1142,7 +1099,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈbətər",
         "lang": "en",
         "level": "starter",
@@ -1171,7 +1127,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ʧiz",
         "lang": "en",
         "level": "starter",
@@ -1195,7 +1150,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "sɔlt",
         "lang": "en",
         "level": "starter",
@@ -1205,7 +1159,6 @@
     {
         "id": "en_starter_food_drink_069",
         "word": "snack",
-        "image": "images/vocabulary/actions/to have a snack.png",
         "emoji": "🥨",
         "form": "noun",
         "classification": "regular",
@@ -1220,7 +1173,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "snæk",
         "lang": "en",
         "level": "starter",
@@ -1244,7 +1196,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "pɛr",
         "lang": "en",
         "level": "starter",
@@ -1268,7 +1219,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈkjukəmbər",
         "lang": "en",
         "level": "starter",
@@ -1292,7 +1242,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈlɛtəs",
         "lang": "en",
         "level": "starter",
@@ -1316,7 +1265,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈsænwɪʧ",
         "lang": "en",
         "level": "starter",
@@ -1340,7 +1288,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ɔɪl",
         "lang": "en",
         "level": "starter",
@@ -1364,7 +1311,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈpɛpər",
         "lang": "en",
         "level": "starter",
@@ -1391,7 +1337,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈkʊki",
         "lang": "en",
         "level": "starter",
@@ -1418,7 +1363,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ˈbɪskət",
         "lang": "en",
         "level": "starter",
@@ -1442,7 +1386,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈjoʊgərt",
         "lang": "en",
         "level": "starter",
@@ -1466,7 +1409,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "hæm",
         "lang": "en",
         "level": "starter",
@@ -1490,7 +1432,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈbeɪkən",
         "lang": "en",
         "level": "starter",
@@ -1514,7 +1455,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈsɔsɪʤ",
         "lang": "en",
         "level": "starter",
@@ -1537,7 +1477,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ˈhəni",
         "lang": "en",
         "level": "starter",
@@ -1560,7 +1499,6 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null,
         "transcription": "ʤæm",
         "lang": "en",
         "level": "starter",
@@ -1584,7 +1522,6 @@
             }
         ],
         "subtext": "related to fruits vegetables",
-        "opposite": null,
         "transcription": "ˈpaɪˌnæpəl",
         "lang": "en",
         "level": "starter",
@@ -1612,7 +1549,6 @@
             }
         ],
         "subtext": "related to fruits vegetables",
-        "opposite": null,
         "transcription": "ˈwɔtərˌmɛlən",
         "lang": "en",
         "level": "starter",
@@ -1641,7 +1577,6 @@
             }
         ],
         "subtext": "related to fruits vegetables",
-        "opposite": null,
         "transcription": "ˈməʃrum",
         "lang": "en",
         "level": "starter",
@@ -1664,7 +1599,6 @@
             }
         ],
         "subtext": "related to fruits vegetables",
-        "opposite": null,
         "transcription": "ˈbrɑkəli",
         "lang": "en",
         "level": "starter",
@@ -1688,7 +1622,6 @@
             }
         ],
         "subtext": "related to fruits vegetables",
-        "opposite": null,
         "transcription": "piz",
         "lang": "en",
         "level": "starter",
@@ -1712,7 +1645,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "mil",
         "lang": "en",
         "level": "starter",
@@ -1739,7 +1671,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "dɪˈzərt",
         "lang": "en",
         "level": "starter",
@@ -1767,7 +1698,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "ʧɪps",
         "lang": "en",
         "level": "starter",
@@ -1794,7 +1724,6 @@
                 ]
             }
         ],
-        "opposite": null,
         "transcription": "fraɪz",
         "lang": "en",
         "level": "starter",
@@ -1867,20 +1796,20 @@
         "v2": "cut",
         "v3": "cut",
         "group": "irregular",
-        "opposite": "join",
         "transcription": "kət",
         "lang": "en",
         "level": "starter",
         "theme": "cooking_methods",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "join"
+        ]
     },
     {
         "id": "en_starter_meals_of_the_day_006",
         "word": "bring",
         "emoji": "🎁",
         "subtext": "bring someone / bring food / bring a document / bring up",
-        "opposite": "take",
-        "oppositeEmoji": "👜",
         "form": "verb",
         "definitions": [
             {
@@ -1900,16 +1829,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "take"
+        ]
     },
     {
         "id": "en_starter_meals_of_the_day_007",
         "word": "eat",
-        "image": "images/vocabulary/actions/to eat.png",
         "emoji": "🍎",
         "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
-        "opposite": "drink",
-        "oppositeEmoji": "🥛",
         "form": "verb",
         "definitions": [
             {
@@ -1934,16 +1863,16 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "etan",
             "origin_meaning": "to eat"
-        }
+        },
+        "antonyms": [
+            "drink"
+        ]
     },
     {
         "id": "en_starter_food_drink_086",
         "word": "drink",
-        "image": "images/vocabulary/actions/to drink.png",
         "emoji": "🥛",
         "subtext": "drink coffee / drink tea / drink water / drink beer",
-        "opposite": "eat",
-        "oppositeEmoji": "🍎",
         "form": "verb",
         "definitions": [
             {
@@ -1968,12 +1897,14 @@
             "origin_lang": "Proto-Germanic",
             "origin_word": "drinkan",
             "origin_meaning": "to drink"
-        }
+        },
+        "antonyms": [
+            "eat"
+        ]
     },
     {
         "id": "en_starter_cooking_methods_002",
         "word": "cook",
-        "image": "images/vocabulary/actions/to cook.png",
         "emoji": "🍳",
         "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
         "form": "verb",
@@ -1990,12 +1921,14 @@
         "v2": "cooked",
         "v3": "cooked",
         "group": "regular",
-        "opposite": "eat",
         "transcription": "kʊk",
         "lang": "en",
         "level": "starter",
         "theme": "cooking_methods",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "eat"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_009",
@@ -2019,20 +1952,20 @@
         "v2": "tasted",
         "v3": "tasted",
         "group": "regular",
-        "opposite": "swallow",
         "transcription": "teɪst",
         "lang": "en",
         "level": "starter",
         "theme": "tastes_textures",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "swallow"
+        ]
     },
     {
         "id": "en_starter_food_drink_087",
         "word": "healthy",
         "emoji": "🥗",
         "form": "adjective",
-        "opposite": "unhealthy",
-        "oppositeEmoji": "🍔",
         "subtext": "well, fit, healthy diet",
         "definitions": [
             {
@@ -2048,15 +1981,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "unhealthy"
+        ]
     },
     {
         "id": "en_starter_food_drink_088",
         "word": "unhealthy",
         "emoji": "🍔",
         "form": "adjective",
-        "opposite": "healthy",
-        "oppositeEmoji": "🥗",
         "subtext": "unhealthy food / unhealthy lifestyle",
         "synonyms": [
             "ill",
@@ -2076,15 +2010,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "healthy"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_010",
         "word": "delicious",
         "emoji": "😋",
         "form": "adjective",
-        "opposite": "disgusting",
-        "oppositeEmoji": "🤢",
         "subtext": "delicious meal / smell delicious",
         "synonyms": [
             "tasty",
@@ -2104,15 +2039,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "tastes_textures",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "disgusting"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_011",
         "word": "sweet",
         "emoji": "🍬",
         "form": "adjective",
-        "opposite": "bitter",
-        "oppositeEmoji": "🍋",
         "subtext": "sweet fruit / sweet tooth / very sweet",
         "synonyms": [
             "sugary"
@@ -2131,15 +2067,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "tastes_textures",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "bitter"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_012",
         "word": "salty",
         "emoji": "🧂",
         "form": "adjective",
-        "opposite": null,
-        "oppositeEmoji": "🍬",
         "subtext": "salty snacks / too salty",
         "synonyms": [
             "tasting of salt"
@@ -2165,8 +2102,6 @@
         "word": "sour",
         "emoji": "🍋",
         "form": "adjective",
-        "opposite": "sweet",
-        "oppositeEmoji": "🍬",
         "subtext": "a sour taste / sour lemons",
         "synonyms": [
             "sharp-tasting"
@@ -2185,15 +2120,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "tastes_textures",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sweet"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_014",
         "word": "bitter",
         "emoji": "☕",
         "form": "adjective",
-        "opposite": "sweet",
-        "oppositeEmoji": "🍬",
         "subtext": "a bitter taste / bitter coffee",
         "synonyms": [
             "strong",
@@ -2213,14 +2149,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "tastes_textures",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "sweet"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_015",
         "word": "rough",
         "emoji": "🧱",
         "form": "adjective",
-        "opposite": "smooth",
         "definitions": [
             {
                 "text": "Not smooth.",
@@ -2239,14 +2177,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "tastes_textures",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "smooth"
+        ]
     },
     {
         "id": "en_starter_tastes_textures_016",
         "word": "sharp",
         "emoji": "🔪",
         "form": "adjective",
-        "opposite": null,
         "definitions": [
             {
                 "text": "Having a thin edge that is able to cut things or a fine point which is able to make a hole in things.",
@@ -2272,8 +2212,6 @@
         "word": "smooth",
         "emoji": "🧼",
         "form": "adjective",
-        "opposite": "rough",
-        "oppositeEmoji": "🧱",
         "subtext": "smooth skin / smooth surface",
         "synonyms": [
             "flat",
@@ -2293,7 +2231,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "tastes_textures",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "rough"
+        ]
     }
 ];
     const lang = "en";

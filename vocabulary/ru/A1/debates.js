@@ -23,7 +23,9 @@
         "ideasB": [
             "Здоровье",
             "Отдых"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_002",
@@ -48,7 +50,9 @@
         "ideasB": [
             "Это дешевле",
             "Это полезнее"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_003",
@@ -73,7 +77,9 @@
         "ideasB": [
             "Экономит время",
             "Я не голоден"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_004",
@@ -98,7 +104,9 @@
         "ideasB": [
             "Витамины",
             "Сладкая"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_005",
@@ -123,7 +131,9 @@
         "ideasB": [
             "Витамины",
             "Здоровье"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_001",
@@ -148,7 +158,9 @@
         "ideasB": [
             "Дешево",
             "Легче убирать"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_002",
@@ -173,7 +185,9 @@
         "ideasB": [
             "Тихо",
             "Воздух"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_001",
@@ -198,7 +212,9 @@
         "ideasB": [
             "Быстро",
             "Безопасно"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_002",
@@ -223,7 +239,9 @@
         "ideasB": [
             "Весело сейчас",
             "Магазины"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_003",
@@ -248,7 +266,9 @@
         "ideasB": [
             "Инвестиция",
             "Это ваше"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_004",
@@ -273,7 +293,9 @@
         "ideasB": [
             "Долго спать",
             "Тихое время"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_001",
@@ -298,7 +320,9 @@
         "ideasB": [
             "Дешево",
             "Общение"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_002",
@@ -323,7 +347,9 @@
         "ideasB": [
             "Без дождя",
             "Удобно"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_005",
@@ -348,7 +374,9 @@
         "ideasB": [
             "Не надо ехать",
             "Удобная одежда"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_003",
@@ -373,7 +401,9 @@
         "ideasB": [
             "Творческое время",
             "Нет шума"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_nature_001",
@@ -398,7 +428,9 @@
         "ideasB": [
             "Снег",
             "Лыжи"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_001",
@@ -423,7 +455,9 @@
         "ideasB": [
             "Больше отдыха",
             "Увидеть больше мест"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_technology_001",
@@ -448,7 +482,9 @@
         "ideasB": [
             "Подумать перед письмом",
             "Прочитать позже"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_004",
@@ -473,7 +509,9 @@
         "ideasB": [
             "Помогает расслабиться",
             "Чистая кровать"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_005",
@@ -498,7 +536,9 @@
         "ideasB": [
             "Выходные скоро",
             "Время праздника"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_nature_002",
@@ -523,7 +563,9 @@
         "ideasB": [
             "Нужно много одежды",
             "Мороз"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_002",
@@ -548,7 +590,9 @@
         "ideasB": [
             "Легко ходить",
             "Больше места"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_colours_001",
@@ -573,7 +617,9 @@
         "ideasB": [
             "Спокойный цвет",
             "Море и небо"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_colours_002",
@@ -598,7 +644,9 @@
         "ideasB": [
             "Цвет природы",
             "Как деревья"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_colours_003",
@@ -623,7 +671,9 @@
         "ideasB": [
             "Чистый",
             "Яркий"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_colours_004",
@@ -648,7 +698,9 @@
         "ideasB": [
             "Королевский цвет",
             "Вкусный фрукт"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_numbers_001",
@@ -673,7 +725,9 @@
         "ideasB": [
             "Легко учить",
             "Быстро"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_001",
@@ -698,7 +752,9 @@
         "ideasB": [
             "Рассказывать истории",
             "Украшение"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_006",
@@ -723,7 +779,9 @@
         "ideasB": [
             "Навсегда",
             "Чистое письмо"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_007",
@@ -748,7 +806,9 @@
         "ideasB": [
             "Быстро увидеть",
             "Красиво"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_006",
@@ -773,7 +833,9 @@
         "ideasB": [
             "Много места",
             "Отдых"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_animals_001",
@@ -798,7 +860,9 @@
         "ideasB": [
             "Верный друг",
             "Играть на улице"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_animals_002",
@@ -823,7 +887,9 @@
         "ideasB": [
             "Может петь",
             "Веселые звуки"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_animals_003",
@@ -848,7 +914,9 @@
         "ideasB": [
             "Милые",
             "Мало места"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_animals_004",
@@ -873,7 +941,9 @@
         "ideasB": [
             "Маленький",
             "Приятно смотреть"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_006",
@@ -898,7 +968,9 @@
         "ideasB": [
             "Легко чистить",
             "Мягкий"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_007",
@@ -923,7 +995,9 @@
         "ideasB": [
             "Полезно",
             "Хорошо с мясом"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_008",
@@ -948,7 +1022,9 @@
         "ideasB": [
             "Свежая",
             "Базовая"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_colours_005",
@@ -973,7 +1049,9 @@
         "ideasB": [
             "Яркий",
             "Как фрукт"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_007",
@@ -998,7 +1076,9 @@
         "ideasB": [
             "Очень мягко",
             "Смотреть ТВ"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_008",
@@ -1023,7 +1103,9 @@
         "ideasB": [
             "Для игрушек",
             "Защищает вещи"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_animals_005",
@@ -1048,7 +1130,9 @@
         "ideasB": [
             "Большие уши",
             "Очень умный"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_009",
@@ -1073,7 +1157,9 @@
         "ideasB": [
             "Для пасты",
             "Мясо"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_010",
@@ -1098,7 +1184,9 @@
         "ideasB": [
             "Защита ног",
             "Для прогулок"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_nature_003",
@@ -1123,7 +1211,9 @@
         "ideasB": [
             "Красиво",
             "Ночной свет"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_011",
@@ -1148,7 +1238,9 @@
         "ideasB": [
             "Прохладные ноги",
             "Лето"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_people_001",
@@ -1173,7 +1265,9 @@
         "ideasB": [
             "Покой",
             "Твои правила"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_002",
@@ -1198,7 +1292,9 @@
         "ideasB": [
             "Делиться секретами",
             "Добрая"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_003",
@@ -1223,7 +1319,9 @@
         "ideasB": [
             "Тихо",
             "Больше места"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_004",
@@ -1248,7 +1346,9 @@
         "ideasB": [
             "Помогают",
             "Расслаблен"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_005",
@@ -1273,7 +1373,9 @@
         "ideasB": [
             "Долго спать",
             "Тихое утро"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_006",
@@ -1298,7 +1400,9 @@
         "ideasB": [
             "Логика",
             "Числа"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_008",
@@ -1323,7 +1427,9 @@
         "ideasB": [
             "Расслаблен",
             "Не надо ехать"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_009",
@@ -1348,7 +1454,9 @@
         "ideasB": [
             "Больше игр",
             "Меньше стресса"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_010",
@@ -1373,7 +1481,9 @@
         "ideasB": [
             "Общие идеи",
             "Весело"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_technology_002",
@@ -1398,7 +1508,9 @@
         "ideasB": [
             "Быстро",
             "Исправляет ошибки"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_009",
@@ -1423,7 +1535,9 @@
         "ideasB": [
             "Время с семьей",
             "Много еды"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_010",
@@ -1448,7 +1562,9 @@
         "ideasB": [
             "Лето",
             "Салат"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_011",
@@ -1473,7 +1589,9 @@
         "ideasB": [
             "Настоящая еда",
             "Соль"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_012",
@@ -1498,7 +1616,9 @@
         "ideasB": [
             "Быстро",
             "Нет беспорядка"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_time_001",
@@ -1523,7 +1643,9 @@
         "ideasB": [
             "Творчество",
             "Долго спать"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_time_002",
@@ -1548,7 +1670,9 @@
         "ideasB": [
             "Отдых",
             "Кино"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_time_003",
@@ -1573,7 +1697,9 @@
         "ideasB": [
             "Весело",
             "Хобби"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_012",
@@ -1598,7 +1724,9 @@
         "ideasB": [
             "Большой ТВ",
             "Диван"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_007",
@@ -1623,7 +1751,9 @@
         "ideasB": [
             "Солнце",
             "Бег"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_008",
@@ -1648,7 +1778,9 @@
         "ideasB": [
             "Воображение",
             "Глубоко"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_009",
@@ -1673,7 +1805,9 @@
         "ideasB": [
             "Навыки",
             "История"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_010",
@@ -1698,7 +1832,9 @@
         "ideasB": [
             "Голос",
             "Музыка"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_011",
@@ -1723,7 +1859,9 @@
         "ideasB": [
             "Делиться",
             "Смеяться"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_health_medicine_001",
@@ -1748,7 +1886,9 @@
         "ideasB": [
             "Свежий воздух",
             "Просто"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_012",
@@ -1773,7 +1913,9 @@
         "ideasB": [
             "Активно",
             "Здоровье"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_animals_006",
@@ -1798,7 +1940,9 @@
         "ideasB": [
             "Джунгли",
             "Захватывающе"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_nature_004",
@@ -1823,7 +1967,9 @@
         "ideasB": [
             "Пляж",
             "Энергия"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_003",
@@ -1848,7 +1994,9 @@
         "ideasB": [
             "Походы",
             "Цветы"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_nature_005",
@@ -1873,7 +2021,9 @@
         "ideasB": [
             "Тень",
             "Кислород"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_004",
@@ -1898,7 +2048,9 @@
         "ideasB": [
             "Быстро",
             "Весело"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_003",
@@ -1923,7 +2075,9 @@
         "ideasB": [
             "Общее веселье",
             "Безопасно"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_013",
@@ -1948,7 +2102,9 @@
         "ideasB": [
             "Больше места",
             "Тихий дом"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_013",
@@ -1973,7 +2129,9 @@
         "ideasB": [
             "Лучшая пицца",
             "Новые рецепты"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_014",
@@ -1998,7 +2156,9 @@
         "ideasB": [
             "Цвета",
             "Рисование"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_technology_003",
@@ -2023,7 +2183,9 @@
         "ideasB": [
             "Быстро",
             "Бережем бумагу"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_nature_006",
@@ -2048,7 +2210,9 @@
         "ideasB": [
             "Песок",
             "Море"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_animals_007",
@@ -2073,7 +2237,9 @@
         "ideasB": [
             "Нет обуви",
             "Дорого"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_014",
@@ -2098,7 +2264,9 @@
         "ideasB": [
             "Быстро",
             "Настоящий способ"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_013",
@@ -2123,7 +2291,9 @@
         "ideasB": [
             "Свежая",
             "Удобно"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_011",
@@ -2148,7 +2318,9 @@
         "ideasB": [
             "Свободное время",
             "Меньше стресса"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_012",
@@ -2173,7 +2345,9 @@
         "ideasB": [
             "Дом",
             "Без проблем"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_004",
@@ -2198,7 +2372,9 @@
         "ideasB": [
             "Дружелюбно",
             "Тихо"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_015",
@@ -2223,7 +2399,9 @@
         "ideasB": [
             "Свободное время",
             "Путешествия"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_016",
@@ -2248,7 +2426,9 @@
         "ideasB": [
             "Восстановление",
             "Расслабление"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_014",
@@ -2273,7 +2453,9 @@
         "ideasB": [
             "Экономия денег",
             "Естественно"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_health_medicine_002",
@@ -2298,7 +2480,9 @@
         "ideasB": [
             "Больше работы",
             "Играть"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_015",
@@ -2323,7 +2507,9 @@
         "ideasB": [
             "Видеть товары",
             "Пробовать"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_016",
@@ -2348,7 +2534,9 @@
         "ideasB": [
             "Деньги",
             "Много вещей"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_017",
@@ -2373,7 +2561,9 @@
         "ideasB": [
             "Дешево",
             "Природа"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_005",
@@ -2398,7 +2588,9 @@
         "ideasB": [
             "Захватывающе",
             "Время праздника"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_005",
@@ -2423,7 +2615,9 @@
         "ideasB": [
             "Новая культура",
             "Приключение"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_013",
@@ -2448,7 +2642,9 @@
         "ideasB": [
             "Думать",
             "Без спешки"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_018",
@@ -2473,7 +2669,9 @@
         "ideasB": [
             "Отдых",
             "Потом"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_014",
@@ -2498,7 +2696,9 @@
         "ideasB": [
             "Невежливо",
             "Пропустить начало"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_015",
@@ -2523,7 +2723,9 @@
         "ideasB": [
             "Творчески",
             "Быстро"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_015",
@@ -2548,7 +2750,9 @@
         "ideasB": [
             "Отдых",
             "Время с семьей"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_016",
@@ -2573,7 +2777,9 @@
         "ideasB": [
             "Долго спать",
             "Тихое утро"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_016",
@@ -2598,7 +2804,9 @@
         "ideasB": [
             "Не нужно мыть",
             "Профессионалы"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_017",
@@ -2623,7 +2831,9 @@
         "ideasB": [
             "Много видов",
             "Вкусный соус"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_018",
@@ -2648,7 +2858,9 @@
         "ideasB": [
             "Теплый",
             "День рождения"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_nature_007",
@@ -2673,7 +2885,9 @@
         "ideasB": [
             "Больше солнца",
             "Играть outside"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_006",
@@ -2698,7 +2912,9 @@
         "ideasB": [
             "Природа",
             "Больше места"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_019",
@@ -2723,7 +2939,9 @@
         "ideasB": [
             "Экономит время",
             "Нет голода"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_time_004",
@@ -2748,7 +2966,9 @@
         "ideasB": [
             "Творчество",
             "Без шума"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_007",
@@ -2773,7 +2993,9 @@
         "ideasB": [
             "Больше отдыхать",
             "Увидеть больше"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_technology_004",
@@ -2798,7 +3020,9 @@
         "ideasB": [
             "Подумать перед",
             "Потом"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_time_005",
@@ -2823,7 +3047,9 @@
         "ideasB": [
             "Выходные",
             "Время праздника"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_nature_008",
@@ -2848,7 +3074,9 @@
         "ideasB": [
             "Одежда",
             "Мороз"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_008",
@@ -2873,7 +3101,9 @@
         "ideasB": [
             "Зарядка",
             "Больше места"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_017",
@@ -2898,7 +3128,9 @@
         "ideasB": [
             "Фокус",
             "Быстро"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_019",
@@ -2923,7 +3155,9 @@
         "ideasB": [
             "Дружелюбно",
             "Дешево"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_food_drink_020",
@@ -2948,7 +3182,9 @@
         "ideasB": [
             "Экономит время",
             "Без беспорядка"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_020",
@@ -2973,7 +3209,9 @@
         "ideasB": [
             "Инвестиция",
             "Больше места"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_health_medicine_003",
@@ -2998,7 +3236,9 @@
         "ideasB": [
             "Восстановление",
             "Отдых"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_health_medicine_004",
@@ -3023,7 +3263,9 @@
         "ideasB": [
             "Экономить деньги",
             "Натурально"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_009",
@@ -3048,7 +3290,9 @@
         "ideasB": [
             "Удобно",
             "Быстро"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_017",
@@ -3073,7 +3317,9 @@
         "ideasB": [
             "Друзья",
             "Новые места"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_010",
@@ -3098,7 +3344,9 @@
         "ideasB": [
             "Культура",
             "Приключения"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_018",
@@ -3123,7 +3371,9 @@
         "ideasB": [
             "Отдых",
             "Знания"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_social_019",
@@ -3148,7 +3398,9 @@
         "ideasB": [
             "Покой",
             "Хобби"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_018",
@@ -3173,7 +3425,9 @@
         "ideasB": [
             "Творчество",
             "Быстро"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_nature_009",
@@ -3198,7 +3452,9 @@
         "ideasB": [
             "Снег",
             "Можно на лыжи"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_nature_010",
@@ -3223,7 +3479,9 @@
         "ideasB": [
             "Больше солнца",
             "Игры на улице"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_011",
@@ -3248,7 +3506,9 @@
         "ideasB": [
             "Быстро",
             "Весело"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_time_006",
@@ -3273,7 +3533,9 @@
         "ideasB": [
             "Расслабляет",
             "Чистая кровать"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_012",
@@ -3298,7 +3560,9 @@
         "ideasB": [
             "Дешево",
             "Природа"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_013",
@@ -3323,7 +3587,9 @@
         "ideasB": [
             "Нет дождя",
             "Удобно"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_time_007",
@@ -3348,7 +3614,9 @@
         "ideasB": [
             "Расслабляет",
             "Чистая кровать"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_019",
@@ -3373,7 +3641,9 @@
         "ideasB": [
             "Удобно",
             "Не надо ехать"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_014",
@@ -3398,7 +3668,9 @@
         "ideasB": [
             "Музыка",
             "Чтение"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_021",
@@ -3423,7 +3695,9 @@
         "ideasB": [
             "Делить жизнь",
             "Помощь"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_travel_015",
@@ -3448,7 +3722,9 @@
         "ideasB": [
             "Удобно",
             "Быстро"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_020",
@@ -3473,7 +3749,9 @@
         "ideasB": [
             "Счастлив сегодня",
             "Воспоминания"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_022",
@@ -3498,7 +3776,9 @@
         "ideasB": [
             "Деньги",
             "Много вещей"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_021",
@@ -3523,7 +3803,9 @@
         "ideasB": [
             "Невежливо",
             "Пропустить старт"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     }
 ];
     const lang = "ru";

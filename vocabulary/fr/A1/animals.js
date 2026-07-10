@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "chat",
         "level": "starter",
         "theme": "animals",
@@ -9,7 +9,9 @@
         "emoji": "🐈",
         "numberPlural": "2 chat",
         "answer": "deux chats",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chats",
         "definitions": [
             {
@@ -19,13 +21,15 @@
                 ]
             }
         ],
-        "transcription": "/ʃa/",
+        "transcription": "ʃa",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "cattus"
-        }
+        },
+        "id": "fr_starter_animals_001",
+        "lang": "fr"
     },
-{
+    {
         "word": "chien",
         "level": "starter",
         "theme": "animals",
@@ -34,7 +38,9 @@
         "emoji": "🐕",
         "numberPlural": "5 chien",
         "answer": "cinq chiens",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chiens",
         "definitions": [
             {
@@ -44,19 +50,23 @@
                 ]
             }
         ],
-        "transcription": "/ʃjɛ̃/",
+        "transcription": "ʃjɛ̃",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "canis"
-        }
+        },
+        "id": "fr_starter_animals_002",
+        "lang": "fr"
     },
-{
+    {
         "word": "oiseau",
         "level": "starter",
         "theme": "animals",
         "article": "l'",
         "emoji": "🐦",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "oiseaux",
         "definitions": [
             {
@@ -66,20 +76,23 @@
                 ]
             }
         ],
-        "transcription": "/wa.zo/",
+        "transcription": "wa.zo",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "avicellus"
-        }
+        },
+        "id": "fr_starter_animals_003",
+        "lang": "fr"
     },
-{
+    {
         "word": "poisson",
-        "image": "images/vocabulary/nature/fish.png",
         "level": "starter",
         "theme": "animals",
         "article": "le",
         "emoji": "🐟",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "poissons",
         "definitions": [
             {
@@ -89,20 +102,24 @@
                 ]
             }
         ],
-        "transcription": "/pwa.sɔ̃/",
+        "transcription": "pwa.sɔ̃",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "piscis"
-        }
+        },
+        "id": "fr_starter_animals_004",
+        "lang": "fr"
     },
-{
+    {
         "word": "lion",
         "level": "starter",
         "theme": "animals",
         "article": "le",
         "gender": "masculine",
         "emoji": "🦁",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lions",
         "definitions": [
             {
@@ -112,16 +129,20 @@
                 ]
             }
         ],
-        "transcription": "/ljɔ̃/"
+        "transcription": "ljɔ̃",
+        "id": "fr_starter_animals_005",
+        "lang": "fr"
     },
-{
+    {
         "word": "éléphant",
         "level": "starter",
         "theme": "animals",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🐘",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "éléphants",
         "definitions": [
             {
@@ -131,16 +152,20 @@
                 ]
             }
         ],
-        "transcription": "/e.le.fɑ̃/"
+        "transcription": "e.le.fɑ̃",
+        "id": "fr_starter_animals_006",
+        "lang": "fr"
     },
-{
+    {
         "word": "lapin",
         "level": "starter",
         "theme": "animals",
         "article": "le",
         "gender": "masculine",
         "emoji": "🐰",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lapins",
         "definitions": [
             {
@@ -150,16 +175,20 @@
                 ]
             }
         ],
-        "transcription": "/la.pɛ̃/"
+        "transcription": "la.pɛ̃",
+        "id": "fr_starter_animals_007",
+        "lang": "fr"
     },
-{
+    {
         "word": "cheval",
         "level": "starter",
         "theme": "animals",
         "article": "le",
         "gender": "masculine",
         "emoji": "🐴",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chevaux",
         "definitions": [
             {
@@ -169,20 +198,24 @@
                 ]
             }
         ],
-        "transcription": "/ʃə.val/",
+        "transcription": "ʃə.val",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "caballus"
-        }
+        },
+        "id": "fr_starter_animals_008",
+        "lang": "fr"
     },
-{
+    {
         "word": "vache",
         "level": "starter",
         "theme": "animals",
         "article": "la",
         "gender": "feminine",
         "emoji": "🐮",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vaches",
         "definitions": [
             {
@@ -192,20 +225,24 @@
                 ]
             }
         ],
-        "transcription": "/vaʃ/",
+        "transcription": "vaʃ",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "vacca"
-        }
+        },
+        "id": "fr_starter_animals_009",
+        "lang": "fr"
     },
-{
+    {
         "word": "cochon",
         "level": "starter",
         "theme": "animals",
         "article": "le",
         "gender": "masculine",
         "emoji": "🐷",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cochons",
         "definitions": [
             {
@@ -215,16 +252,20 @@
                 ]
             }
         ],
-        "transcription": "/kɔ.ʃɔ̃/"
+        "transcription": "kɔ.ʃɔ̃",
+        "id": "fr_starter_animals_010",
+        "lang": "fr"
     },
-{
+    {
         "word": "mouton",
         "level": "starter",
         "theme": "animals",
         "article": "le",
         "gender": "masculine",
         "emoji": "🐑",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "moutons",
         "definitions": [
             {
@@ -234,14 +275,18 @@
                 ]
             }
         ],
-        "transcription": "/mu.tɔ̃/"
+        "transcription": "mu.tɔ̃",
+        "id": "fr_starter_animals_011",
+        "lang": "fr"
     },
-{
+    {
         "word": "tigre",
         "level": "starter",
         "theme": "animals",
         "emoji": "🐅",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "tigres",
@@ -254,14 +299,18 @@
                 ]
             }
         ],
-        "transcription": "tiɡʁ"
+        "transcription": "tiɡʁ",
+        "id": "fr_starter_animals_012",
+        "lang": "fr"
     },
-{
+    {
         "word": "singe",
         "level": "starter",
         "theme": "animals",
         "emoji": "🐒",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "singes",
@@ -274,14 +323,18 @@
                 ]
             }
         ],
-        "transcription": "sɛ̃ʒ"
+        "transcription": "sɛ̃ʒ",
+        "id": "fr_starter_animals_013",
+        "lang": "fr"
     },
-{
+    {
         "word": "baleine",
         "level": "starter",
         "theme": "sea_animals",
         "emoji": "🐋",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "baleines",
@@ -294,9 +347,11 @@
                 ]
             }
         ],
-        "transcription": "balɛn"
+        "transcription": "balɛn",
+        "id": "fr_starter_animals_014",
+        "lang": "fr"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

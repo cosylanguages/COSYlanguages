@@ -13,7 +13,9 @@
                 "text": "Mon souvenir d'enfance préféré",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_020",
@@ -28,7 +30,9 @@
                 "text": "Le métier de mes rêves et pourquoi",
                 "examples": []
             }
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     }
 ];
     const lang = "fr";

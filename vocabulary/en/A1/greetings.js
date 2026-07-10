@@ -6,7 +6,6 @@
         "translation": "hello",
         "level": "starter",
         "theme": "greetings",
-        "language": "en",
         "emoji": "👋",
         "form": "interjection",
         "definitions": [
@@ -17,7 +16,8 @@
                 ]
             }
         ],
-        "transcription": "həˈloʊ"
+        "transcription": "həˈloʊ",
+        "lang": "en"
     },
     {
         "id": "en_starter_greetings_002",
@@ -25,7 +25,6 @@
         "translation": "goodbye",
         "level": "starter",
         "theme": "greetings",
-        "language": "en",
         "emoji": "👋",
         "form": "interjection",
         "definitions": [
@@ -36,7 +35,8 @@
                 ]
             }
         ],
-        "transcription": "ɡʊdˈbaɪ"
+        "transcription": "ɡʊdˈbaɪ",
+        "lang": "en"
     },
     {
         "id": "en_starter_greetings_003",
@@ -44,7 +44,6 @@
         "translation": "please",
         "level": "starter",
         "theme": "greetings",
-        "language": "en",
         "emoji": "🙏",
         "form": "adverb",
         "definitions": [
@@ -55,7 +54,8 @@
                 ]
             }
         ],
-        "transcription": "pliz"
+        "transcription": "pliz",
+        "lang": "en"
     },
     {
         "id": "en_starter_greetings_004",
@@ -63,7 +63,6 @@
         "translation": "thank you",
         "level": "starter",
         "theme": "greetings",
-        "language": "en",
         "emoji": "😊",
         "form": "phrase",
         "definitions": [
@@ -74,7 +73,8 @@
                 ]
             }
         ],
-        "transcription": "θæŋk ju"
+        "transcription": "θæŋk ju",
+        "lang": "en"
     },
     {
         "id": "en_starter_greetings_005",
@@ -82,7 +82,6 @@
         "translation": "sorry",
         "level": "starter",
         "theme": "greetings",
-        "language": "en",
         "emoji": "🙇",
         "form": "adjective",
         "definitions": [
@@ -93,9 +92,10 @@
                 ]
             }
         ],
-        "transcription": "ˈsɑri"
+        "transcription": "ˈsɑri",
+        "lang": "en"
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

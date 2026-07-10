@@ -17,7 +17,6 @@
                 ]
             }
         ],
-        "oppositeEmoji": "📏",
         "feminine": "высокая",
         "emoji": "🦒",
         "neuter": "высокое",
@@ -28,7 +27,7 @@
         ],
         "comparative": "выше",
         "superlative": "самый высокий",
-        "transcription": "/vɨˈsokʲij/",
+        "transcription": "vɨˈsokʲij",
         "antonyms": [
             "короткий"
         ]
@@ -60,8 +59,7 @@
         ],
         "comparative": "короче",
         "superlative": "самый короткий",
-        "oppositeEmoji": "🗼",
-        "transcription": "/kaˈrotkʲij/",
+        "transcription": "kaˈrotkʲij",
         "antonyms": [
             "высокий"
         ]
@@ -86,17 +84,17 @@
         "plural": "молодые",
         "comparative": "моложе",
         "superlative": "самый молодой",
-        "oppositeEmoji": "👴",
         "subtext": "",
         "synonyms": [
             "молодой человек",
             "молодой специалист",
             "молод душой"
         ],
-        "transcription": "/malaˈdoj/",
+        "transcription": "malaˈdoj",
         "antonyms": [
             "старый"
-        ]
+        ],
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_011",
@@ -113,7 +111,6 @@
                 ]
             }
         ],
-        "oppositeEmoji": "👶",
         "feminine": "старая",
         "emoji": "👴",
         "neuter": "старое",
@@ -124,7 +121,7 @@
         ],
         "comparative": "старше",
         "superlative": "самый старый",
-        "transcription": "/ˈstarɨj/",
+        "transcription": "ˈstarɨj",
         "antonyms": [
             "молодой"
         ]
@@ -154,7 +151,7 @@
         "feminine": "солнечная",
         "neuter": "солнечное",
         "plural": "солнечные",
-        "transcription": "/ˈsolnʲitʃʲnɨj/"
+        "transcription": "ˈsolnʲitʃʲnɨj"
     },
     {
         "id": "ru_starter_nature_014",
@@ -182,7 +179,7 @@
         "feminine": "дождливая",
         "neuter": "дождливое",
         "plural": "дождливые",
-        "transcription": "/daʐˈdlʲivɨj/"
+        "transcription": "daʐˈdlʲivɨj"
     },
     {
         "id": "ru_starter_nature_015",
@@ -200,7 +197,6 @@
             }
         ],
         "emoji": "🔥",
-        "oppositeEmoji": "❄️",
         "subtext": "очень горячий / горячий напиток / слишком горячий",
         "synonyms": [
             "горячая погода"
@@ -210,7 +206,7 @@
         "plural": "горячие",
         "comparative": "горячее",
         "superlative": "самый горячий",
-        "transcription": "/ɡaˈrʲatʃʲij/",
+        "transcription": "ɡaˈrʲatʃʲij",
         "antonyms": [
             "холодный"
         ]
@@ -231,7 +227,6 @@
             }
         ],
         "emoji": "❄️",
-        "oppositeEmoji": "🔥",
         "subtext": "очень холодный / холодный напиток",
         "synonyms": [
             "холодное утро",
@@ -242,7 +237,7 @@
         "plural": "холодные",
         "comparative": "холоднее",
         "superlative": "самый холодный",
-        "transcription": "/xaˈlodnɨj/",
+        "transcription": "xaˈlodnɨj",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "xoldьnъ"
@@ -266,7 +261,6 @@
                 ]
             }
         ],
-        "oppositeEmoji": "✨",
         "subtext": "обычный день",
         "synonyms": [
             "обычная жизнь",
@@ -277,10 +271,11 @@
         "feminine": "обычная",
         "neuter": "обычное",
         "plural": "обычные",
-        "transcription": "/aˈbɨtʃʲnɨj/",
+        "transcription": "aˈbɨtʃʲnɨj",
         "antonyms": [
             "особенный"
-        ]
+        ],
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_shopping_001",
@@ -298,7 +293,6 @@
             }
         ],
         "emoji": "🏷️",
-        "oppositeEmoji": "💎",
         "feminine": "дешёвая",
         "neuter": "дешёвое",
         "plural": "дешёвые",
@@ -308,7 +302,7 @@
         ],
         "comparative": "дешевле",
         "superlative": "самый дешёвый",
-        "transcription": "/dʲiˈʂovɨj/",
+        "transcription": "dʲiˈʂovɨj",
         "antonyms": [
             "дорогой"
         ]
@@ -329,7 +323,6 @@
             }
         ],
         "emoji": "💎",
-        "oppositeEmoji": "🏷️",
         "feminine": "дорогая",
         "neuter": "дорогое",
         "plural": "дорогие",
@@ -339,7 +332,7 @@
         ],
         "comparative": "дороже",
         "superlative": "самый дорогой",
-        "transcription": "/daˈraɡoj/",
+        "transcription": "daˈraɡoj",
         "antonyms": [
             "дешёвый"
         ]
@@ -360,7 +353,6 @@
             }
         ],
         "emoji": "👍",
-        "oppositeEmoji": "👎",
         "feminine": "хорошая",
         "neuter": "хорощее",
         "plural": "хорошие",
@@ -371,7 +363,7 @@
         ],
         "comparative": "лучше",
         "superlative": "самый хороший",
-        "transcription": "/xaˈroʂɨj/",
+        "transcription": "xaˈroʂɨj",
         "antonyms": [
             "плохой"
         ]
@@ -392,7 +384,6 @@
             }
         ],
         "emoji": "👎",
-        "oppositeEmoji": "👍",
         "feminine": "плохая",
         "neuter": "плохое",
         "plural": "плохие",
@@ -404,7 +395,7 @@
         ],
         "comparative": "хуже",
         "superlative": "самый плохой",
-        "transcription": "/plaˈxoj/",
+        "transcription": "plaˈxoj",
         "antonyms": [
             "хороший"
         ]
@@ -425,7 +416,6 @@
             }
         ],
         "emoji": "🐘",
-        "oppositeEmoji": "🐭",
         "feminine": "большая",
         "neuter": "большое",
         "plural": "большие",
@@ -435,7 +425,7 @@
         ],
         "comparative": "больше",
         "superlative": "самый большой",
-        "transcription": "/balʲˈʂoj/",
+        "transcription": "balʲˈʂoj",
         "antonyms": [
             "маленький"
         ]
@@ -456,7 +446,6 @@
             }
         ],
         "emoji": "🐭",
-        "oppositeEmoji": "🐘",
         "feminine": "маленькая",
         "neuter": "маленькое",
         "plural": "маленькие",
@@ -467,7 +456,7 @@
         ],
         "comparative": "меньше",
         "superlative": "самый маленький",
-        "transcription": "/ˈmalʲinʲkʲij/",
+        "transcription": "ˈmalʲinʲkʲij",
         "antonyms": [
             "большой"
         ]
@@ -499,8 +488,7 @@
         ],
         "comparative": "легче",
         "superlative": "самый лёгкий",
-        "oppositeEmoji": "❌",
-        "transcription": "/ˈlʲoxkʲij/",
+        "transcription": "ˈlʲoxkʲij",
         "antonyms": [
             "трудный"
         ]
@@ -521,7 +509,6 @@
             }
         ],
         "emoji": "❌",
-        "oppositeEmoji": "✅",
         "feminine": "трудная",
         "neuter": "трудное",
         "plural": "трудные",
@@ -533,7 +520,7 @@
         ],
         "comparative": "труднее",
         "superlative": "самый трудный",
-        "transcription": "/ˈtrudnɨj/",
+        "transcription": "ˈtrudnɨj",
         "antonyms": [
             "лёгкий"
         ]
@@ -564,7 +551,7 @@
         ],
         "comparative": "счастливее",
         "superlative": "самый счастливый",
-        "transcription": "/ɕːasˈtlʲivɨj/"
+        "transcription": "ɕːasˈtlʲivɨj"
     },
     {
         "id": "ru_starter_emotions_003",
@@ -591,7 +578,8 @@
             "устать от чего-либо"
         ],
         "comparative": "усталее",
-        "superlative": "самый усталый"
+        "superlative": "самый усталый",
+        "transcription": ""
     },
     {
         "id": "ru_starter_work_024",
@@ -609,7 +597,6 @@
             }
         ],
         "emoji": "⏰",
-        "oppositeEmoji": "⏳",
         "subtext": "полный рабочий день / полный день",
         "synonyms": [
             "полон людей"
@@ -619,7 +606,7 @@
         "feminine": "полная",
         "neuter": "полное",
         "plural": "полные",
-        "transcription": "/ˈpolnɨj/",
+        "transcription": "ˈpolnɨj",
         "antonyms": [
             "неполный"
         ]
@@ -640,7 +627,6 @@
             }
         ],
         "emoji": "⏳",
-        "oppositeEmoji": "⏰",
         "subtext": "неполный рабочий день",
         "synonyms": [
             "работа на полставки",
@@ -653,7 +639,8 @@
         "plural": "неполные",
         "antonyms": [
             "полный"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_starter_furniture_026",
@@ -671,7 +658,6 @@
             }
         ],
         "emoji": "✨",
-        "oppositeEmoji": "💩",
         "subtext": "",
         "synonyms": [
             "чистая одежда",
@@ -683,7 +669,7 @@
         "plural": "чистые",
         "comparative": "чище",
         "superlative": "самый чистый",
-        "transcription": "/ˈtʃʲistɨj/",
+        "transcription": "ˈtʃʲistɨj",
         "antonyms": [
             "грязный"
         ]
@@ -712,11 +698,11 @@
         ],
         "comparative": "здоровее",
         "superlative": "самый здоровый",
-        "oppositeEmoji": "🍔",
-        "transcription": "/zdaˈrovɨj/",
+        "transcription": "zdaˈrovɨj",
         "antonyms": [
             "unhealthy"
-        ]
+        ],
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_illnesses_symptoms_001",
@@ -743,11 +729,11 @@
         ],
         "comparative": "более больной",
         "superlative": "самый больной",
-        "oppositeEmoji": "💪",
-        "transcription": "/balʲˈnoj/",
+        "transcription": "balʲˈnoj",
         "antonyms": [
             "well"
-        ]
+        ],
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_technology_005",
@@ -765,14 +751,13 @@
             }
         ],
         "emoji": "🌐",
-        "oppositeEmoji": "📴",
         "subtext": "онлайн-покупки / онлайн-курс / оставаться онлайн",
         "comparative": "более онлайн",
         "superlative": "самый онлайн",
         "feminine": "онлайн",
         "neuter": "онлайн",
         "plural": "онлайн",
-        "transcription": "/anˈlajn/",
+        "transcription": "anˈlajn",
         "antonyms": [
             "offline"
         ]
@@ -793,7 +778,6 @@
             }
         ],
         "emoji": "👤",
-        "oppositeEmoji": "👫",
         "subtext": "",
         "synonyms": [
             "жить одному",
@@ -807,7 +791,8 @@
         "plural": "одинокие",
         "antonyms": [
             "вместе"
-        ]
+        ],
+        "transcription": ""
     },
     {
         "id": "ru_starter_emotions_004",
@@ -834,11 +819,11 @@
         ],
         "comparative": "расслабленнее",
         "superlative": "самый расслабленный",
-        "oppositeEmoji": "😫",
-        "transcription": "/rasˈslablʲinnɨj/",
+        "transcription": "rasˈslablʲinnɨj",
         "antonyms": [
             "напряжённый"
-        ]
+        ],
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_emotions_005",
@@ -864,11 +849,11 @@
         ],
         "comparative": "обеспокоеннее",
         "superlative": "самый обеспокоенный",
-        "oppositeEmoji": "😌",
-        "transcription": "/abʲispakoˈjennɨj/",
+        "transcription": "abʲispakoˈjennɨj",
         "antonyms": [
             "calm"
-        ]
+        ],
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_work_026",
@@ -895,7 +880,8 @@
             "очень занят"
         ],
         "comparative": "более занятой",
-        "superlative": "самый занятой"
+        "superlative": "самый занятой",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_019",
@@ -918,11 +904,11 @@
         "subtext": "полезный совет / очень полезный",
         "comparative": "полезнее",
         "superlative": "самый полезный",
-        "oppositeEmoji": "🗑️",
-        "transcription": "/paˈlʲeznɨj/",
+        "transcription": "paˈlʲeznɨj",
         "antonyms": [
             "бесполезный"
-        ]
+        ],
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_020",
@@ -949,7 +935,7 @@
         "plural": "важные",
         "comparative": "важнее",
         "superlative": "самый важный",
-        "transcription": "/ˈvaʐnɨj/"
+        "transcription": "ˈvaʐnɨj"
     },
     {
         "id": "ru_starter_colours_007",
@@ -977,7 +963,7 @@
         "plural": "красные",
         "comparative": "краснее",
         "superlative": "самый красный",
-        "transcription": "/ˈkrasnɨj/",
+        "transcription": "ˈkrasnɨj",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "krasьnъ"
@@ -1008,7 +994,7 @@
         "plural": "синие",
         "comparative": "синее",
         "superlative": "самый синий",
-        "transcription": "/ˈsʲinʲij/",
+        "transcription": "ˈsʲinʲij",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "sinьjь"
@@ -1040,7 +1026,7 @@
         "plural": "зелёные",
         "comparative": "зелёнее",
         "superlative": "самый зелёный",
-        "transcription": "/zʲiˈlʲonɨj/"
+        "transcription": "zʲiˈlʲonɨj"
     },
     {
         "id": "ru_starter_colours_010",
@@ -1067,7 +1053,7 @@
         "plural": "белые",
         "comparative": "белее",
         "superlative": "самый белый",
-        "transcription": "/ˈbʲelɨj/",
+        "transcription": "ˈbʲelɨj",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "bělъ"
@@ -1095,7 +1081,7 @@
         "plural": "чёрные",
         "comparative": "чёрнее",
         "superlative": "самый чёрный",
-        "transcription": "/ˈtʃʲornɨj/"
+        "transcription": "ˈtʃʲornɨj"
     },
     {
         "id": "ru_starter_colours_012",
@@ -1119,7 +1105,7 @@
         "plural": "жёлтые",
         "comparative": "жёлтее",
         "superlative": "самый жёлтый",
-        "transcription": "/ˈʐoltɨj/"
+        "transcription": "ˈʐoltɨj"
     },
     {
         "id": "ru_starter_shopping_003",
@@ -1147,7 +1133,7 @@
         "plural": "свободные",
         "comparative": "свободнее",
         "superlative": "самый свободный",
-        "transcription": "/svaˈbodnɨj/"
+        "transcription": "svaˈbodnɨj"
     },
     {
         "id": "ru_starter_shopping_004",
@@ -1165,7 +1151,6 @@
             }
         ],
         "emoji": "📖",
-        "oppositeEmoji": "🔒",
         "subtext": "",
         "synonyms": [
             "открытая дверь",
@@ -1177,7 +1162,7 @@
         "plural": "открытые",
         "comparative": "открытее",
         "superlative": "самый открытый",
-        "transcription": "/atˈkrɨtɨj/",
+        "transcription": "atˈkrɨtɨj",
         "antonyms": [
             "закрытый"
         ]
@@ -1198,7 +1183,6 @@
             }
         ],
         "emoji": "🔒",
-        "oppositeEmoji": "📖",
         "subtext": "",
         "synonyms": [
             "закрыт на обед",
@@ -1210,7 +1194,7 @@
         "plural": "закрытые",
         "comparative": "закрытее",
         "superlative": "самый закрытый",
-        "transcription": "/zaˈkrɨtɨj/",
+        "transcription": "zaˈkrɨtɨj",
         "antonyms": [
             "открытый"
         ]
@@ -1240,7 +1224,8 @@
             "крупная сумма"
         ],
         "comparative": "крупнее",
-        "superlative": "самый крупный"
+        "superlative": "самый крупный",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_022",
@@ -1268,7 +1253,8 @@
             "слишком мало"
         ],
         "comparative": "более небольшой",
-        "superlative": "самый небольшой"
+        "superlative": "самый небольшой",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_023",
@@ -1296,7 +1282,7 @@
         ],
         "comparative": "длиннее",
         "superlative": "самый длинный",
-        "transcription": "/ˈdlʲinnɨj/",
+        "transcription": "ˈdlʲinnɨj",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "dĺ̥gъ"
@@ -1329,7 +1315,7 @@
         ],
         "comparative": "ниже",
         "superlative": "самый низкий",
-        "transcription": "/ˈnʲizkʲij/"
+        "transcription": "ˈnʲizkʲij"
     },
     {
         "id": "ru_starter_describing_025",
@@ -1357,7 +1343,7 @@
         ],
         "comparative": "более пустой",
         "superlative": "самый пустой",
-        "transcription": "/pusˈtoj/"
+        "transcription": "pusˈtoj"
     },
     {
         "id": "ru_starter_nature_017",
@@ -1385,7 +1371,7 @@
         ],
         "comparative": "тёплее",
         "superlative": "самый тёплый",
-        "transcription": "/ˈtʲoplɨj/"
+        "transcription": "ˈtʲoplɨj"
     },
     {
         "id": "ru_starter_nature_018",
@@ -1412,7 +1398,8 @@
             "сохранять прохладу"
         ],
         "comparative": "прохладнее",
-        "superlative": "самый прохладный"
+        "superlative": "самый прохладный",
+        "transcription": ""
     },
     {
         "id": "ru_starter_nature_019",
@@ -1441,7 +1428,7 @@
         ],
         "comparative": "мокрее",
         "superlative": "самый мокрый",
-        "transcription": "/ˈmokrɨj/"
+        "transcription": "ˈmokrɨj"
     },
     {
         "id": "ru_starter_nature_020",
@@ -1470,7 +1457,7 @@
         ],
         "comparative": "более сухой",
         "superlative": "самый сухой",
-        "transcription": "/suˈxoj/"
+        "transcription": "suˈxoj"
     },
     {
         "id": "ru_starter_furniture_027",
@@ -1499,7 +1486,7 @@
         ],
         "comparative": "грязнее",
         "superlative": "самый грязный",
-        "transcription": "/ˈɡrʲaznɨj/"
+        "transcription": "ˈɡrʲaznɨj"
     },
     {
         "id": "ru_starter_describing_026",
@@ -1528,7 +1515,7 @@
         ],
         "comparative": "твёрдее",
         "superlative": "самый твёрдый",
-        "transcription": "/ˈtvʲordɨj/"
+        "transcription": "ˈtvʲordɨj"
     },
     {
         "id": "ru_starter_describing_027",
@@ -1556,7 +1543,7 @@
         ],
         "comparative": "мягкее",
         "superlative": "самый мягкий",
-        "transcription": "/ˈmʲaxkʲij/"
+        "transcription": "ˈmʲaxkʲij"
     },
     {
         "id": "ru_starter_describing_028",
@@ -1585,7 +1572,7 @@
         ],
         "comparative": "тяжёлее",
         "superlative": "самый тяжёлый",
-        "transcription": "/tʲiˈʐolɨj/"
+        "transcription": "tʲiˈʐolɨj"
     },
     {
         "id": "ru_starter_colours_013",
@@ -1609,7 +1596,7 @@
         "subtext": "тёмно-коричневый / светло-коричневый / коричневый хлеб",
         "comparative": "коричневее",
         "superlative": "самый коричневый",
-        "transcription": "/kaˈrʲitʃʲnʲivɨj/"
+        "transcription": "kaˈrʲitʃʲnʲivɨj"
     },
     {
         "id": "ru_starter_colours_014",
@@ -1637,7 +1624,7 @@
         ],
         "comparative": "серее",
         "superlative": "самый серый",
-        "transcription": "/ˈsʲerɨj/"
+        "transcription": "ˈsʲerɨj"
     },
     {
         "id": "ru_starter_colours_015",
@@ -1661,7 +1648,7 @@
         "subtext": "светло-розовый / ярко-розовый / насыщенный розовый",
         "comparative": "розовее",
         "superlative": "самый розовый",
-        "transcription": "/ˈrozəvɨj/"
+        "transcription": "ˈrozəvɨj"
     },
     {
         "id": "ru_starter_colours_016",
@@ -1685,7 +1672,7 @@
         "subtext": "ярко-оранжевый / тёмно-оранжевый / оранжевый свет",
         "comparative": "оранжевее",
         "superlative": "самый оранжевый",
-        "transcription": "/aˈranʐɨvɨj/"
+        "transcription": "aˈranʐɨvɨj"
     },
     {
         "id": "ru_starter_describing_029",
@@ -1713,7 +1700,8 @@
             "высокая ценность"
         ],
         "comparative": "великолепнее",
-        "superlative": "самый великолепный"
+        "superlative": "самый великолепный",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_030",
@@ -1741,7 +1729,7 @@
         ],
         "comparative": "приятнее",
         "superlative": "самый приятный",
-        "transcription": "/pʁʲiˈjatnɨj/"
+        "transcription": "pʁʲiˈjatnɨj"
     },
     {
         "id": "ru_starter_describing_031",
@@ -1768,7 +1756,8 @@
             "замечательное время"
         ],
         "comparative": "замечательнее",
-        "superlative": "самый замечательный"
+        "superlative": "самый замечательный",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_032",
@@ -1797,7 +1786,7 @@
         ],
         "comparative": "ужаснее",
         "superlative": "самый ужасный",
-        "transcription": "/uˈʐasnɨj/"
+        "transcription": "uˈʐasnɨj"
     },
     {
         "id": "ru_starter_describing_033",
@@ -1826,7 +1815,7 @@
         ],
         "comparative": "отвратительнее",
         "superlative": "самый отвратительный",
-        "transcription": "/atvraˈtʲitʲilʲnɨj/"
+        "transcription": "atvraˈtʲitʲilʲnɨj"
     },
     {
         "id": "ru_starter_describing_034",
@@ -1854,7 +1843,7 @@
         ],
         "comparative": "удивительнее",
         "superlative": "самый удивительный",
-        "transcription": "/udʲiˈvʲitʲilʲnɨj/"
+        "transcription": "udʲiˈvʲitʲilʲnɨj"
     },
     {
         "id": "ru_starter_describing_035",
@@ -1882,7 +1871,7 @@
         ],
         "comparative": "фантастическее",
         "superlative": "самый фантастический",
-        "transcription": "/fantasˈtʲitʃʲiskʲij/"
+        "transcription": "fantasˈtʲitʃʲiskʲij"
     },
     {
         "id": "ru_starter_emotions_006",
@@ -1910,7 +1899,7 @@
         ],
         "comparative": "грустнее",
         "superlative": "самый грустный",
-        "transcription": "/ˈɡrustnɨj/"
+        "transcription": "ˈɡrustnɨj"
     },
     {
         "id": "ru_starter_emotions_007",
@@ -1937,7 +1926,7 @@
         ],
         "comparative": "голоднее",
         "superlative": "самый голодный",
-        "transcription": "/ɡaˈlodnɨj/"
+        "transcription": "ɡaˈlodnɨj"
     },
     {
         "id": "ru_starter_emotions_008",
@@ -1963,7 +1952,8 @@
             "злиться на кого-то"
         ],
         "comparative": "сердитее",
-        "superlative": "самый сердитый"
+        "superlative": "самый сердитый",
+        "transcription": ""
     },
     {
         "id": "ru_starter_emotions_009",
@@ -1991,7 +1981,7 @@
         ],
         "comparative": "скучающее",
         "superlative": "самый скучающий",
-        "transcription": "/skuˈtʃʲajʊɕːij/"
+        "transcription": "skuˈtʃʲajʊɕːij"
     },
     {
         "id": "ru_starter_emotions_010",
@@ -2019,7 +2009,7 @@
         ],
         "comparative": "взволнованнее",
         "superlative": "самый взволнованный",
-        "transcription": "/vzvalˈnovənnɨj/"
+        "transcription": "vzvalˈnovənnɨj"
     },
     {
         "id": "ru_starter_emotions_011",
@@ -2046,7 +2036,8 @@
             "глубоко испуган"
         ],
         "comparative": "испуганнее",
-        "superlative": "самый испуганный"
+        "superlative": "самый испуганный",
+        "transcription": ""
     },
     {
         "id": "ru_starter_emotions_012",
@@ -2074,7 +2065,8 @@
             "извиняться за"
         ],
         "comparative": "огорчённее",
-        "superlative": "самый огорчённый"
+        "superlative": "самый огорчённый",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_036",
@@ -2102,7 +2094,7 @@
         ],
         "comparative": "правильнее",
         "superlative": "самый правильный",
-        "transcription": "/ˈpravʲilʲnɨj/"
+        "transcription": "ˈpravʲilʲnɨj"
     },
     {
         "id": "ru_starter_describing_037",
@@ -2130,7 +2122,7 @@
         ],
         "comparative": "неправильнее",
         "superlative": "самый неправильный",
-        "transcription": "/nʲiˈpravʲilʲnɨj/"
+        "transcription": "nʲiˈpravʲilʲnɨj"
     },
     {
         "id": "ru_starter_describing_038",
@@ -2157,7 +2149,7 @@
         ],
         "comparative": "новее",
         "superlative": "самый новый",
-        "transcription": "/ˈnovɨj/",
+        "transcription": "ˈnovɨj",
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "novъ"
@@ -2189,7 +2181,7 @@
         ],
         "comparative": "более другой",
         "superlative": "самый другой",
-        "transcription": "/druˈɡoj/"
+        "transcription": "druˈɡoj"
     },
     {
         "id": "ru_starter_describing_040",
@@ -2217,7 +2209,8 @@
             "точно такой же"
         ],
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_041",
@@ -2245,7 +2238,7 @@
         ],
         "comparative": "быстрее",
         "superlative": "самый быстрый",
-        "transcription": "/ˈbɨstrɨj/"
+        "transcription": "ˈbɨstrɨj"
     },
     {
         "id": "ru_starter_describing_042",
@@ -2269,7 +2262,7 @@
         "subtext": "медленный прогресс / медленный интернет / очень медленный",
         "comparative": "медленнее",
         "superlative": "самый медленный",
-        "transcription": "/ˈmʲedlʲinnɨj/"
+        "transcription": "ˈmʲedlʲinnɨj"
     },
     {
         "id": "ru_starter_describing_043",
@@ -2297,7 +2290,7 @@
         ],
         "comparative": "тише",
         "superlative": "самый тихий",
-        "transcription": "/ˈtʲixʲij/"
+        "transcription": "ˈtʲixʲij"
     },
     {
         "id": "ru_starter_describing_044",
@@ -2323,7 +2316,8 @@
             "слишком громко"
         ],
         "comparative": "громче",
-        "superlative": "самый громкий"
+        "superlative": "самый громкий",
+        "transcription": ""
     },
     {
         "id": "ru_starter_places_009",
@@ -2350,7 +2344,7 @@
         ],
         "comparative": "безопаснее",
         "superlative": "самый безопасный",
-        "transcription": "/bʲizapaˈsnɨj/"
+        "transcription": "bʲizapaˈsnɨj"
     },
     {
         "id": "ru_starter_places_010",
@@ -2377,7 +2371,7 @@
         ],
         "comparative": "опаснее",
         "superlative": "самый опасный",
-        "transcription": "/aˈpasnɨj/"
+        "transcription": "aˈpasnɨj"
     },
     {
         "id": "ru_starter_emotions_013",
@@ -2403,7 +2397,8 @@
         ],
         "comparative": "несчастнее",
         "superlative": "самый несчастный",
-        "transcription": "/nʲiˈɕːastnɨj/"
+        "transcription": "nʲiˈɕːastnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_emotions_014",
@@ -2429,7 +2424,8 @@
         ],
         "comparative": "нервнее",
         "superlative": "самый нервный",
-        "transcription": "/ˈnʲervnɨj/"
+        "transcription": "ˈnʲervnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_emotions_015",
@@ -2456,7 +2452,8 @@
         ],
         "comparative": "напряжённее",
         "superlative": "самый напряжённый",
-        "transcription": "/naprʲiˈʐonnɨj/"
+        "transcription": "naprʲiˈʐonnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_045",
@@ -2482,7 +2479,8 @@
         ],
         "comparative": "увереннее",
         "superlative": "самый уверенный",
-        "transcription": "/uˈvʲerʲinnɨj/"
+        "transcription": "uˈvʲerʲinnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_046",
@@ -2509,7 +2507,8 @@
         ],
         "comparative": "гордее",
         "superlative": "самый гордый",
-        "transcription": "/ˈɡordɨj/"
+        "transcription": "ˈɡordɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_emotions_016",
@@ -2536,7 +2535,8 @@
         ],
         "comparative": "напуганнее",
         "superlative": "самый напуганный",
-        "transcription": "/naˈpuɡənnɨj/"
+        "transcription": "naˈpuɡənnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_emotions_017",
@@ -2562,7 +2562,9 @@
             "приятно удивлён"
         ],
         "comparative": "удивлённее",
-        "superlative": "самый удивлённый"
+        "superlative": "самый удивлённый",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_emotions_018",
@@ -2588,7 +2590,9 @@
             "разочарован чем-то"
         ],
         "comparative": "разочарованнее",
-        "superlative": "самый разочарованный"
+        "superlative": "самый разочарованный",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_047",
@@ -2611,7 +2615,8 @@
         "subtext": "красивый вид / красивый город / абсолютно красивый",
         "comparative": "красивее",
         "superlative": "самый красивый",
-        "transcription": "/kraˈsʲivɨj/"
+        "transcription": "kraˈsʲivɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_048",
@@ -2637,7 +2642,9 @@
             "симпатичное место"
         ],
         "comparative": "симпатичнее",
-        "superlative": "самый симпатичный"
+        "superlative": "самый симпатичный",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_049",
@@ -2664,7 +2671,8 @@
         ],
         "comparative": "сильнее",
         "superlative": "самый сильный",
-        "transcription": "/ˈsʲilʲnɨj/"
+        "transcription": "ˈsʲilʲnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_050",
@@ -2690,7 +2698,8 @@
         ],
         "comparative": "слабее",
         "superlative": "самый слабый",
-        "transcription": "/ˈslabɨj/"
+        "transcription": "ˈslabɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_illnesses_symptoms_002",
@@ -2717,7 +2726,9 @@
             "поддерживать форму"
         ],
         "comparative": "спортивнее",
-        "superlative": "самый спортивный"
+        "superlative": "самый спортивный",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_051",
@@ -2745,7 +2756,8 @@
         ],
         "comparative": "отличнее",
         "superlative": "самый отличный",
-        "transcription": "/atˈlʲitʃʲnɨj/"
+        "transcription": "atˈlʲitʃʲnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_052",
@@ -2773,7 +2785,8 @@
         ],
         "comparative": "идеальнее",
         "superlative": "самый идеальный",
-        "transcription": "/idʲiˈalʲnɨj/"
+        "transcription": "idʲiˈalʲnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_053",
@@ -2800,7 +2813,8 @@
         ],
         "comparative": "бесполезнее",
         "superlative": "самый бесполезный",
-        "transcription": "/bʲispaˈlʲeznɨj/"
+        "transcription": "bʲispaˈlʲeznɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_054",
@@ -2826,7 +2840,9 @@
             "совершенно верно"
         ],
         "comparative": "вернее",
-        "superlative": "самый верный"
+        "superlative": "самый верный",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_055",
@@ -2852,7 +2868,8 @@
         ],
         "comparative": "интереснее",
         "superlative": "самый интересный",
-        "transcription": "/intʲiˈrʲesnɨj/"
+        "transcription": "intʲiˈrʲesnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_056",
@@ -2878,7 +2895,8 @@
         ],
         "comparative": "скучнее",
         "superlative": "самый скучный",
-        "transcription": "/ˈskutʃʲnɨj/"
+        "transcription": "ˈskutʃʲnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_057",
@@ -2905,7 +2923,8 @@
         ],
         "comparative": "необходимее",
         "superlative": "самый необходимый",
-        "transcription": "/nʲiabxaˈdʲimɨj/"
+        "transcription": "nʲiabxaˈdʲimɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_058",
@@ -2933,7 +2952,8 @@
         ],
         "comparative": "возможнее",
         "superlative": "самый возможный",
-        "transcription": "/vazˈmoʐnɨj/"
+        "transcription": "vazˈmoʐnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_059",
@@ -2959,7 +2979,8 @@
         ],
         "comparative": "невозможнее",
         "superlative": "самый невозможный",
-        "transcription": "/nʲivazˈmoʐnɨj/"
+        "transcription": "nʲivazˈmoʐnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_060",
@@ -2985,7 +3006,9 @@
             "особый случай"
         ],
         "comparative": "особеннее",
-        "superlative": "самый особенный"
+        "superlative": "самый особенный",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "ru_starter_describing_061",
@@ -3008,7 +3031,8 @@
         "subtext": "очень популярный / популярный выбор / самый популярный",
         "comparative": "популярнее",
         "superlative": "самый популярный",
-        "transcription": "/papulʲˈarnɨj/"
+        "transcription": "papulʲˈarnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_062",
@@ -3035,7 +3059,8 @@
         ],
         "comparative": "похожее",
         "superlative": "самый похожий",
-        "transcription": "/paˈxoʐɨj/"
+        "transcription": "paˈxoʐɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_063",
@@ -3062,7 +3087,8 @@
         ],
         "comparative": "дружелюбнее",
         "superlative": "самый дружелюбный",
-        "transcription": "/druʐɨˈlʲubnɨj/"
+        "transcription": "druʐɨˈlʲubnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_064",
@@ -3085,7 +3111,8 @@
         "subtext": "очень добрый / любезно с вашей стороны / добрый человек",
         "comparative": "добрее",
         "superlative": "самый добрый",
-        "transcription": "/ˈdobrɨj/"
+        "transcription": "ˈdobrɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_065",
@@ -3111,7 +3138,8 @@
         ],
         "comparative": "более смешной",
         "superlative": "самый смешной",
-        "transcription": "/smʲiˈʂnoj/"
+        "transcription": "smʲiˈʂnoj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_066",
@@ -3137,7 +3165,8 @@
         ],
         "comparative": "умнее",
         "superlative": "самый умный",
-        "transcription": "/ˈumnɨj/"
+        "transcription": "ˈumnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_067",
@@ -3163,7 +3192,8 @@
         ],
         "comparative": "вежливее",
         "superlative": "самый вежливый",
-        "transcription": "/ˈvʲeʐlʲivɨj/"
+        "transcription": "ˈvʲeʐlʲivɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_068",
@@ -3186,7 +3216,8 @@
         "subtext": "очень грубый / невероятно грубый / намеренно грубый",
         "comparative": "грубее",
         "superlative": "самый грубый",
-        "transcription": "/ˈɡrubɨj/"
+        "transcription": "ˈɡrubɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_069",
@@ -3209,7 +3240,8 @@
         "subtext": "очень ленивый / ленивый подход / слишком ленивый",
         "comparative": "ленивее",
         "superlative": "самый ленивый",
-        "transcription": "/lʲiˈnʲivɨj/"
+        "transcription": "lʲiˈnʲivɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_070",
@@ -3232,7 +3264,8 @@
         "subtext": "очень честный / предельно честный / совершенно честный",
         "comparative": "честнее",
         "superlative": "самый честный",
-        "transcription": "/ˈtʃʲesnɨj/"
+        "transcription": "ˈtʃʲesnɨj",
+        "emoji": "✨"
     },
     {
         "id": "ru_starter_describing_071",
@@ -3258,7 +3291,8 @@
         ],
         "comparative": "шумнее",
         "superlative": "самый шумный",
-        "transcription": "/ˈʂumnɨj/"
+        "transcription": "ˈʂumnɨj",
+        "emoji": "✨"
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

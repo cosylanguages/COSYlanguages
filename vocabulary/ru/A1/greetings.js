@@ -5,7 +5,6 @@
         "translation": "hi",
         "level": "starter",
         "theme": "greetings",
-        "language": "ru",
         "emoji": "👋",
         "form": "interjection",
         "definitions": [
@@ -16,14 +15,15 @@
                 ]
             }
         ],
-        "transcription": "/prʲɪˈvʲet/"
+        "transcription": "prʲɪˈvʲet",
+        "id": "ru_starter_greetings_001",
+        "lang": "ru"
     },
     {
         "word": "пока",
         "translation": "bye",
         "level": "starter",
         "theme": "greetings",
-        "language": "ru",
         "emoji": "👋",
         "form": "interjection",
         "definitions": [
@@ -34,14 +34,15 @@
                 ]
             }
         ],
-        "transcription": "/pɐˈka/"
+        "transcription": "pɐˈka",
+        "id": "ru_starter_greetings_002",
+        "lang": "ru"
     },
     {
         "word": "пожалуйста",
         "translation": "please/you're welcome",
         "level": "starter",
         "theme": "greetings",
-        "language": "ru",
         "emoji": "🙏",
         "form": "particle",
         "definitions": [
@@ -52,14 +53,15 @@
                 ]
             }
         ],
-        "transcription": "/pɐˈʐalʊstə/"
+        "transcription": "pɐˈʐalʊstə",
+        "id": "ru_starter_greetings_003",
+        "lang": "ru"
     },
     {
         "word": "спасибо",
         "translation": "thank you",
         "level": "starter",
         "theme": "greetings",
-        "language": "ru",
         "emoji": "😊",
         "form": "interjection",
         "definitions": [
@@ -70,14 +72,15 @@
                 ]
             }
         ],
-        "transcription": "/spɐˈsʲibə/"
+        "transcription": "spɐˈsʲibə",
+        "id": "ru_starter_greetings_004",
+        "lang": "ru"
     },
     {
         "word": "извините",
         "translation": "sorry/excuse me",
         "level": "starter",
         "theme": "greetings",
-        "language": "ru",
         "emoji": "🙇",
         "form": "verb",
         "definitions": [
@@ -88,9 +91,11 @@
                 ]
             }
         ],
-        "transcription": "/ɪzvʲɪˈnʲitʲe/"
+        "transcription": "ɪzvʲɪˈnʲitʲe",
+        "id": "ru_starter_greetings_005",
+        "lang": "ru"
     }
-    ];
+];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

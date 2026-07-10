@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "pied",
         "level": "starter",
         "theme": "body",
@@ -9,7 +9,9 @@
         "numberPlural": "2 pied",
         "answer": "deux pieds",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "pje",
         "plural": "pieds",
         "definitions": [
@@ -25,16 +27,20 @@
             "origin_lang": "Latin",
             "origin_word": "pes",
             "origin_meaning": "foot"
-        }
+        },
+        "id": "fr_starter_body_001",
+        "lang": "fr"
     },
-{
+    {
         "word": "tête",
         "level": "starter",
         "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "têtes",
         "subtext": "mal de tête, secouer la tête",
         "definitions": [
@@ -45,21 +51,25 @@
                 ]
             }
         ],
-        "transcription": "/tɛt/",
+        "transcription": "tɛt",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "testa",
             "origin_meaning": "pot, shell"
-        }
+        },
+        "id": "fr_starter_body_002",
+        "lang": "fr"
     },
-{
+    {
         "word": "main",
         "level": "starter",
         "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "✋",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mains",
         "subtext": "main gauche, main droite, laver les mains",
         "definitions": [
@@ -70,21 +80,25 @@
                 ]
             }
         ],
-        "transcription": "/mɛ̃/",
+        "transcription": "mɛ̃",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "manus",
             "origin_meaning": "hand"
-        }
+        },
+        "id": "fr_starter_body_003",
+        "lang": "fr"
     },
-{
+    {
         "word": "jambe",
         "level": "starter",
         "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "jambes",
         "subtext": "jambe gauche, jambe droite, longues jambes",
         "definitions": [
@@ -95,21 +109,25 @@
                 ]
             }
         ],
-        "transcription": "/ʒɑ̃b/",
+        "transcription": "ʒɑ̃b",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "gamba",
             "origin_meaning": "hoof, leg"
-        }
+        },
+        "id": "fr_starter_body_004",
+        "lang": "fr"
     },
-{
+    {
         "word": "oeil",
         "level": "starter",
         "theme": "body",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👁️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "yeux",
         "subtext": "yeux bleus, fermer les yeux",
         "definitions": [
@@ -120,21 +138,25 @@
                 ]
             }
         ],
-        "transcription": "/œj/",
+        "transcription": "œj",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "oculus",
             "origin_meaning": "eye"
-        }
+        },
+        "id": "fr_starter_body_005",
+        "lang": "fr"
     },
-{
+    {
         "word": "nez",
         "level": "starter",
         "theme": "body",
         "article": "le",
         "gender": "masculine",
         "emoji": "👃",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nez",
         "definitions": [
             {
@@ -144,21 +166,25 @@
                 ]
             }
         ],
-        "transcription": "/ne/",
+        "transcription": "ne",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "nasus",
             "origin_meaning": "nose"
-        }
+        },
+        "id": "fr_starter_body_006",
+        "lang": "fr"
     },
-{
+    {
         "word": "bouche",
         "level": "starter",
         "theme": "body",
         "article": "la",
         "gender": "feminine",
         "emoji": "👄",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bouches",
         "subtext": "ouvrir la bouche, se taire",
         "definitions": [
@@ -169,21 +195,25 @@
                 ]
             }
         ],
-        "transcription": "/buʃ/",
+        "transcription": "buʃ",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "bucca",
             "origin_meaning": "cheek, mouth"
-        }
+        },
+        "id": "fr_starter_body_007",
+        "lang": "fr"
     },
-{
+    {
         "word": "oreille",
         "level": "starter",
         "theme": "body",
         "article": "l'",
         "gender": "feminine",
         "emoji": "👂",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "oreilles",
         "subtext": "oreille gauche, oreille droite, mal à l'oreille",
         "definitions": [
@@ -194,21 +224,25 @@
                 ]
             }
         ],
-        "transcription": "/ɔ.ʁɛj/",
+        "transcription": "ɔ.ʁɛj",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "auricula",
             "origin_meaning": "ear"
-        }
+        },
+        "id": "fr_starter_body_008",
+        "lang": "fr"
     },
-{
+    {
         "word": "dos",
         "level": "starter",
         "theme": "body",
         "article": "le",
         "gender": "masculine",
         "emoji": "🚶",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dos",
         "subtext": "mal de dos, s'allonger sur le dos",
         "definitions": [
@@ -219,16 +253,20 @@
                 ]
             }
         ],
-        "transcription": "/do/"
+        "transcription": "do",
+        "id": "fr_starter_body_009",
+        "lang": "fr"
     },
-{
+    {
         "word": "bras",
         "level": "starter",
         "theme": "body",
         "article": "le",
         "gender": "masculine",
         "emoji": "💪",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bras",
         "subtext": "bras cassé, bras gauche",
         "definitions": [
@@ -239,21 +277,25 @@
                 ]
             }
         ],
-        "transcription": "/bʁa/",
+        "transcription": "bʁa",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "bracchium",
             "origin_meaning": "arm"
-        }
+        },
+        "id": "fr_starter_body_010",
+        "lang": "fr"
     },
-{
+    {
         "word": "cou",
         "level": "starter",
         "theme": "body",
         "article": "le",
         "gender": "masculine",
         "emoji": "🦒",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cous",
         "definitions": [
             {
@@ -263,16 +305,20 @@
                 ]
             }
         ],
-        "transcription": "/ku/"
+        "transcription": "ku",
+        "id": "fr_starter_body_011",
+        "lang": "fr"
     },
-{
+    {
         "word": "épaule",
         "level": "starter",
         "theme": "body",
         "article": "l'",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "épaules",
         "definitions": [
             {
@@ -282,16 +328,20 @@
                 ]
             }
         ],
-        "transcription": "/e.pol/"
+        "transcription": "e.pol",
+        "id": "fr_starter_body_012",
+        "lang": "fr"
     },
-{
+    {
         "word": "doigt",
         "level": "starter",
         "theme": "body",
         "article": "le",
         "gender": "masculine",
         "emoji": "☝️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "doigts",
         "definitions": [
             {
@@ -301,16 +351,20 @@
                 ]
             }
         ],
-        "transcription": "/dwa/"
+        "transcription": "dwa",
+        "id": "fr_starter_body_013",
+        "lang": "fr"
     },
-{
+    {
         "word": "orteil",
         "level": "starter",
         "theme": "body",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "orteils",
         "definitions": [
             {
@@ -320,16 +374,20 @@
                 ]
             }
         ],
-        "transcription": "/ɔʁ.tɛj/"
+        "transcription": "ɔʁ.tɛj",
+        "id": "fr_starter_body_014",
+        "lang": "fr"
     },
-{
+    {
         "word": "estomac",
         "level": "starter",
         "theme": "body",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🤰",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "estomacs",
         "definitions": [
             {
@@ -339,16 +397,20 @@
                 ]
             }
         ],
-        "transcription": "/ɛs.tɔ.ma/"
+        "transcription": "ɛs.tɔ.ma",
+        "id": "fr_starter_body_015",
+        "lang": "fr"
     },
-{
+    {
         "word": "genou",
         "level": "starter",
         "theme": "body",
         "article": "le",
         "gender": "masculine",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "genoux",
         "definitions": [
             {
@@ -358,9 +420,11 @@
                 ]
             }
         ],
-        "transcription": "/ʒə.nu/"
+        "transcription": "ʒə.nu",
+        "id": "fr_starter_body_016",
+        "lang": "fr"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

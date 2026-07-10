@@ -3,7 +3,6 @@
     {
         "id": "en_starter_language_001",
         "word": "next to",
-        "image": "images/grammar/prepositions/next to. by.png",
         "form": "preposition",
         "subtext": "next to",
         "synonyms": [
@@ -17,18 +16,19 @@
                 ]
             }
         ],
-        "opposite": "far from",
         "emoji": "👫",
         "transcription": "nɛkst tɪ",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "far from"
+        ]
     },
     {
         "id": "en_starter_language_002",
         "word": "between",
-        "image": "images/grammar/prepositions/between.png",
         "form": "preposition",
         "definitions": [
             {
@@ -39,20 +39,20 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "opposite": "outside",
         "emoji": "🧘",
         "transcription": "bɪtˈwin",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "outside"
+        ]
     },
     {
         "id": "en_starter_language_003",
         "word": "behind",
-        "image": "images/grammar/prepositions/behind.png",
         "form": "preposition",
-        "opposite": "in front of",
         "definitions": [
             {
                 "text": "At or towards the back of someone or something.",
@@ -67,14 +67,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "in front of"
+        ]
     },
     {
         "id": "en_starter_language_004",
         "word": "in front of",
-        "image": "images/grammar/prepositions/in front of.png",
         "form": "preposition",
-        "opposite": "behind",
         "definitions": [
             {
                 "text": "Further forward than someone or something else.",
@@ -89,7 +90,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "behind"
+        ]
     },
     {
         "id": "en_starter_time_001",
@@ -105,7 +109,6 @@
             }
         ],
         "subtext": "related to times day",
-        "opposite": null,
         "transcription": "ˈɛvəri deɪ",
         "lang": "en",
         "level": "starter",
@@ -117,8 +120,6 @@
         "word": "together",
         "emoji": "👫",
         "form": "adverb",
-        "opposite": null,
-        "oppositeEmoji": "👤",
         "definitions": [
             {
                 "text": "With another person or group.",
@@ -143,7 +144,6 @@
         "word": "today",
         "emoji": "📅",
         "form": "adverb",
-        "opposite": "tomorrow",
         "subtext": "today's meeting, start today",
         "definitions": [
             {
@@ -157,14 +157,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "tomorrow"
+        ]
     },
     {
         "id": "en_starter_time_003",
         "word": "tomorrow",
         "emoji": "⏭️",
         "form": "adverb",
-        "opposite": "yesterday",
         "subtext": "tomorrow morning, see you tomorrow",
         "definitions": [
             {
@@ -178,12 +180,14 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "yesterday"
+        ]
     },
     {
         "id": "en_starter_language_005",
         "word": "in",
-        "image": "images/grammar/prepositions/in.png",
         "form": "preposition",
         "transcription": "ɪn",
         "definitions": [
@@ -205,17 +209,18 @@
             }
         ],
         "subtext": "in the box, in London, in a car",
-        "opposite": "out",
         "emoji": "📥",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "out"
+        ]
     },
     {
         "id": "en_starter_language_006",
         "word": "on",
-        "image": "images/grammar/prepositions/on.png",
         "form": "preposition",
         "transcription": "🇬🇧 ɒn | 🇺🇸 ɑːn",
         "definitions": [
@@ -236,12 +241,14 @@
             }
         ],
         "subtext": "on the floor, on a bus, on the phone",
-        "opposite": "off",
         "emoji": "🔛",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "off"
+        ]
     },
     {
         "id": "en_starter_language_007",
@@ -267,18 +274,19 @@
             }
         ],
         "subtext": "at work, at school, at the top",
-        "opposite": "away from",
         "emoji": "📍",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "away from"
+        ]
     },
     {
         "id": "en_starter_language_008",
         "word": "under",
         "form": "preposition",
-        "opposite": "above",
         "definitions": [
             {
                 "text": "Below or lower than something else.",
@@ -293,7 +301,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "above"
+        ]
     },
     {
         "id": "en_starter_language_009",
@@ -308,13 +319,15 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "opposite": "or",
         "emoji": "➕",
         "transcription": "ænd",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "or"
+        ]
     },
     {
         "id": "en_starter_language_010",
@@ -329,13 +342,15 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "opposite": "and",
         "emoji": "❓",
         "transcription": "bət",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "and"
+        ]
     },
     {
         "id": "en_starter_language_011",
@@ -350,13 +365,15 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "opposite": "so",
         "emoji": "💡",
         "transcription": "🇬🇧 bɪˈkɒz | 🇺🇸 bɪˈkɑːz",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "so"
+        ]
     },
     {
         "id": "en_starter_language_012",
@@ -372,12 +389,14 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "opposite": "never",
         "transcription": "ˈɔlˌweɪz",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "never"
+        ]
     },
     {
         "id": "en_starter_language_013",
@@ -393,7 +412,6 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "opposite": null,
         "transcription": "ˈjuʒəwəli",
         "lang": "en",
         "level": "starter",
@@ -414,7 +432,6 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "opposite": null,
         "transcription": "ˈɔfən",
         "lang": "en",
         "level": "starter",
@@ -435,7 +452,6 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "opposite": null,
         "transcription": "ˈsəmˌtaɪmz",
         "lang": "en",
         "level": "starter",
@@ -456,12 +472,14 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "opposite": "always",
         "transcription": "ˈnɛvər",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "always"
+        ]
     },
     {
         "id": "en_starter_language_017",
@@ -479,11 +497,13 @@
             }
         ],
         "subtext": "indefinite article",
-        "opposite": "the",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "the"
+        ]
     },
     {
         "id": "en_starter_language_018",
@@ -501,11 +521,13 @@
             }
         ],
         "subtext": "indefinite article",
-        "opposite": "the",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "the"
+        ]
     },
     {
         "id": "en_starter_language_019",
@@ -523,11 +545,13 @@
             }
         ],
         "subtext": "definite article",
-        "opposite": "a",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "a"
+        ]
     },
     {
         "id": "en_starter_language_020",
@@ -545,11 +569,13 @@
             }
         ],
         "subtext": "unspecified quantity",
-        "opposite": "any",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "any"
+        ]
     },
     {
         "id": "en_starter_language_021",
@@ -567,11 +593,13 @@
             }
         ],
         "subtext": "used in negatives and questions",
-        "opposite": "some",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "some"
+        ]
     },
     {
         "id": "en_starter_psychology_001",
@@ -631,11 +659,13 @@
             }
         ],
         "subtext": "subject pronoun",
-        "opposite": "she",
         "lang": "en",
         "level": "starter",
         "theme": "psychology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "she"
+        ]
     },
     {
         "id": "en_starter_psychology_004",
@@ -653,11 +683,13 @@
             }
         ],
         "subtext": "subject pronoun",
-        "opposite": "he",
         "lang": "en",
         "level": "starter",
         "theme": "psychology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "he"
+        ]
     },
     {
         "id": "en_starter_psychology_005",
@@ -696,11 +728,13 @@
             }
         ],
         "subtext": "subject pronoun",
-        "opposite": "they",
         "lang": "en",
         "level": "starter",
         "theme": "psychology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "they"
+        ]
     },
     {
         "id": "en_starter_psychology_007",
@@ -718,11 +752,13 @@
             }
         ],
         "subtext": "subject pronoun",
-        "opposite": "we",
         "lang": "en",
         "level": "starter",
         "theme": "psychology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "we"
+        ]
     },
     {
         "id": "en_starter_psychology_008",
@@ -761,11 +797,13 @@
             }
         ],
         "subtext": "object pronoun",
-        "opposite": "her",
         "lang": "en",
         "level": "starter",
         "theme": "psychology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "her"
+        ]
     },
     {
         "id": "en_starter_psychology_010",
@@ -783,11 +821,13 @@
             }
         ],
         "subtext": "object pronoun",
-        "opposite": "him",
         "lang": "en",
         "level": "starter",
         "theme": "psychology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "him"
+        ]
     },
     {
         "id": "en_starter_psychology_011",
@@ -805,11 +845,13 @@
             }
         ],
         "subtext": "object pronoun",
-        "opposite": "them",
         "lang": "en",
         "level": "starter",
         "theme": "psychology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "them"
+        ]
     },
     {
         "id": "en_starter_psychology_012",
@@ -827,11 +869,13 @@
             }
         ],
         "subtext": "object pronoun",
-        "opposite": "us",
         "lang": "en",
         "level": "starter",
         "theme": "psychology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "us"
+        ]
     },
     {
         "id": "en_starter_psychology_013",
@@ -891,11 +935,13 @@
             }
         ],
         "subtext": "possessive determiner",
-        "opposite": "her",
         "lang": "en",
         "level": "starter",
         "theme": "psychology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "her"
+        ]
     },
     {
         "id": "en_starter_psychology_016",
@@ -934,11 +980,13 @@
             }
         ],
         "subtext": "possessive determiner",
-        "opposite": "their",
         "lang": "en",
         "level": "starter",
         "theme": "psychology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "their"
+        ]
     },
     {
         "id": "en_starter_psychology_018",
@@ -956,11 +1004,13 @@
             }
         ],
         "subtext": "possessive determiner",
-        "opposite": "our",
         "lang": "en",
         "level": "starter",
         "theme": "psychology",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "our"
+        ]
     },
     {
         "id": "en_starter_language_022",
@@ -978,11 +1028,13 @@
             }
         ],
         "subtext": "singular, near",
-        "opposite": "that",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "that"
+        ]
     },
     {
         "id": "en_starter_language_023",
@@ -1000,11 +1052,13 @@
             }
         ],
         "subtext": "singular, far",
-        "opposite": "this",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "this"
+        ]
     },
     {
         "id": "en_starter_language_024",
@@ -1022,11 +1076,13 @@
             }
         ],
         "subtext": "plural, near",
-        "opposite": "those",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "those"
+        ]
     },
     {
         "id": "en_starter_language_025",
@@ -1044,11 +1100,13 @@
             }
         ],
         "subtext": "plural, far",
-        "opposite": "these",
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "these"
+        ]
     }
 ];
     const lang = "en";

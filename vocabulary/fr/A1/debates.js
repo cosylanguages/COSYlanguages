@@ -23,7 +23,9 @@
         "ideasB": [
             "Sain",
             "Détente"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_002",
@@ -48,7 +50,9 @@
         "ideasB": [
             "C'est moins cher",
             "C'est plus sain"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_003",
@@ -73,7 +77,9 @@
         "ideasB": [
             "Gagne du temps",
             "Je n'ai pas faim"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_004",
@@ -98,7 +104,9 @@
         "ideasB": [
             "Vitamines",
             "Sucré"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_005",
@@ -123,7 +131,9 @@
         "ideasB": [
             "Vitamines",
             "Sain"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_001",
@@ -148,7 +158,9 @@
         "ideasB": [
             "Moins cher",
             "Plus facile à nettoyer"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_places_001",
@@ -173,7 +185,9 @@
         "ideasB": [
             "Endroit calme",
             "Air pur"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_001",
@@ -198,7 +212,9 @@
         "ideasB": [
             "Rapide",
             "Sûr"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_002",
@@ -223,7 +239,9 @@
         "ideasB": [
             "Amusant maintenant",
             "Magasins"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_003",
@@ -248,7 +266,9 @@
         "ideasB": [
             "Investissement",
             "C'est à vous"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_time_001",
@@ -273,7 +293,9 @@
         "ideasB": [
             "Se reposer",
             "Regarder des films"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_travel_001",
@@ -298,7 +320,9 @@
         "ideasB": [
             "Moins cher",
             "Social"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_travel_002",
@@ -323,7 +347,9 @@
         "ideasB": [
             "Pas de pluie",
             "Confortable"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_004",
@@ -348,7 +374,9 @@
         "ideasB": [
             "Pas de trajets",
             "Habits confortables"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_002",
@@ -373,7 +401,9 @@
         "ideasB": [
             "Temps créatif",
             "Pas de bruit"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_time_002",
@@ -398,7 +428,9 @@
         "ideasB": [
             "Neige",
             "Faire du ski"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_places_002",
@@ -423,7 +455,9 @@
         "ideasB": [
             "Se détendre plus",
             "Voir plus d'endroits"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_001",
@@ -448,7 +482,9 @@
         "ideasB": [
             "Réfléchir avant d'écrire",
             "Lire plus tard"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_003",
@@ -473,7 +509,9 @@
         "ideasB": [
             "Week-end arrive",
             "Temps de fête"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_nature_001",
@@ -498,7 +536,9 @@
         "ideasB": [
             "Besoin de beaucoup d'habits",
             "On gèle"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_places_003",
@@ -523,7 +563,9 @@
         "ideasB": [
             "Facile de marcher",
             "Plus d'espace"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_002",
@@ -548,7 +590,9 @@
         "ideasB": [
             "Couleur calme",
             "Mer et ciel"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_003",
@@ -573,7 +617,9 @@
         "ideasB": [
             "Couleur de la nature",
             "Comme les arbres"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_004",
@@ -598,7 +644,9 @@
         "ideasB": [
             "Propre",
             "Brillant"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_005",
@@ -623,7 +671,9 @@
         "ideasB": [
             "Couleur royale",
             "Beau fruit"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_006",
@@ -648,7 +698,9 @@
         "ideasB": [
             "Facile à apprendre",
             "Rapide"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_007",
@@ -673,7 +725,9 @@
         "ideasB": [
             "Raconter des histoires",
             "Décoration"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_005",
@@ -698,7 +752,9 @@
         "ideasB": [
             "Permanent",
             "Écriture propre"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_006",
@@ -723,7 +779,9 @@
         "ideasB": [
             "Rapide à voir",
             "Beau"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_004",
@@ -748,7 +806,9 @@
         "ideasB": [
             "Beaucoup d'espace",
             "Relax"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_animals_001",
@@ -773,7 +833,9 @@
         "ideasB": [
             "Ami fidèle",
             "Jouer dehors"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_animals_002",
@@ -798,7 +860,9 @@
         "ideasB": [
             "Peut chanter",
             "Sons joyeux"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_animals_003",
@@ -823,7 +887,9 @@
         "ideasB": [
             "Mignons",
             "Petit espace"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_animals_004",
@@ -848,7 +914,9 @@
         "ideasB": [
             "Petit",
             "Beau à regarder"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_006",
@@ -873,7 +941,9 @@
         "ideasB": [
             "Facile à peler",
             "Mou"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_007",
@@ -898,7 +968,9 @@
         "ideasB": [
             "Sain",
             "Bon avec la viande"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_008",
@@ -923,7 +995,9 @@
         "ideasB": [
             "Frais",
             "Basique"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_008",
@@ -948,7 +1022,9 @@
         "ideasB": [
             "Brillant",
             "Comme le fruit"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_005",
@@ -973,7 +1049,9 @@
         "ideasB": [
             "Très mou",
             "Regarder la télé"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_006",
@@ -998,7 +1076,9 @@
         "ideasB": [
             "Pour les jouets",
             "Protège les choses"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_animals_005",
@@ -1023,7 +1103,9 @@
         "ideasB": [
             "Grandes oreilles",
             "Très intelligent"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_007",
@@ -1048,7 +1130,9 @@
         "ideasB": [
             "Pour les pâtes",
             "Viande"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_008",
@@ -1073,7 +1157,9 @@
         "ideasB": [
             "Protéger les pieds",
             "Pour marcher"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_nature_002",
@@ -1098,7 +1184,9 @@
         "ideasB": [
             "Magnifique",
             "Lumière de nuit"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_009",
@@ -1123,7 +1211,9 @@
         "ideasB": [
             "Pieds frais",
             "Été"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_people_001",
@@ -1148,7 +1238,9 @@
         "ideasB": [
             "Paix",
             "Tes règles"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_009",
@@ -1173,7 +1265,9 @@
         "ideasB": [
             "Partager des secrets",
             "Gentille"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_010",
@@ -1198,7 +1292,9 @@
         "ideasB": [
             "Calme",
             "Plus d'espace"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_011",
@@ -1223,7 +1319,9 @@
         "ideasB": [
             "Recevoir de l'aide",
             "Relaxé"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_007",
@@ -1248,7 +1346,9 @@
         "ideasB": [
             "Dormir tard",
             "Matin calme"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_012",
@@ -1273,7 +1373,9 @@
         "ideasB": [
             "Logique",
             "Nombres"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_008",
@@ -1298,7 +1400,9 @@
         "ideasB": [
             "Relaxé",
             "Pas de trajets"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_009",
@@ -1323,7 +1427,9 @@
         "ideasB": [
             "Plus de jeu",
             "Moins de stress"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_010",
@@ -1348,7 +1454,9 @@
         "ideasB": [
             "Idées partagées",
             "Amusant"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_013",
@@ -1373,7 +1481,9 @@
         "ideasB": [
             "Rapide",
             "Corrige l'orthographe"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_009",
@@ -1398,7 +1508,9 @@
         "ideasB": [
             "Temps en famille",
             "Gros repas"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_010",
@@ -1423,7 +1535,9 @@
         "ideasB": [
             "Summer",
             "Salad"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_011",
@@ -1448,7 +1562,9 @@
         "ideasB": [
             "Real food",
             "Salt"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_012",
@@ -1473,7 +1589,9 @@
         "ideasB": [
             "Rapide",
             "Pas de désordre"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_time_003",
@@ -1498,7 +1616,9 @@
         "ideasB": [
             "Créatif la nuit",
             "Dormir tard"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_time_004",
@@ -1523,7 +1643,9 @@
         "ideasB": [
             "Amusant",
             "Hobbies"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_010",
@@ -1548,7 +1670,9 @@
         "ideasB": [
             "Grande télé",
             "Canapé"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_014",
@@ -1573,7 +1697,9 @@
         "ideasB": [
             "Soleil",
             "Course"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_015",
@@ -1598,7 +1724,9 @@
         "ideasB": [
             "Imaginer",
             "Profond"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_016",
@@ -1623,7 +1751,9 @@
         "ideasB": [
             "Compétences",
             "Histoire"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_017",
@@ -1648,7 +1778,9 @@
         "ideasB": [
             "Utiliser sa voix",
             "Musique"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_018",
@@ -1673,7 +1805,9 @@
         "ideasB": [
             "Partager",
             "Rire"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_health_medicine_001",
@@ -1698,7 +1832,9 @@
         "ideasB": [
             "Fresh air",
             "Easy"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_019",
@@ -1723,7 +1859,9 @@
         "ideasB": [
             "Actif",
             "Santé"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_animals_006",
@@ -1748,7 +1886,9 @@
         "ideasB": [
             "Jungle",
             "Excitant"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_nature_003",
@@ -1773,7 +1913,9 @@
         "ideasB": [
             "Plage",
             "Énergie"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_travel_003",
@@ -1798,7 +1940,9 @@
         "ideasB": [
             "Randonnée",
             "Magnifique"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_nature_004",
@@ -1823,7 +1967,9 @@
         "ideasB": [
             "Ombre",
             "Oxygène"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_travel_004",
@@ -1848,7 +1994,9 @@
         "ideasB": [
             "Rapide",
             "Amusant"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_places_004",
@@ -1873,7 +2021,9 @@
         "ideasB": [
             "Amusement partagé",
             "Sûr"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_020",
@@ -1898,7 +2048,9 @@
         "ideasB": [
             "Plus d'espace",
             "Maison calme"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_013",
@@ -1923,7 +2075,9 @@
         "ideasB": [
             "Meilleure pizza",
             "Nouvelles recettes"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_021",
@@ -1948,7 +2102,9 @@
         "ideasB": [
             "Couleurs",
             "Peinture"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_technology_001",
@@ -1973,7 +2129,9 @@
         "ideasB": [
             "Rapide",
             "Économise le papier"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_nature_005",
@@ -1998,7 +2156,9 @@
         "ideasB": [
             "Sable",
             "Mer"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_animals_007",
@@ -2023,7 +2183,9 @@
         "ideasB": [
             "Pas de chaussures",
             "Cher"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_014",
@@ -2048,7 +2210,9 @@
         "ideasB": [
             "Rapide",
             "Vrai moyen"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_011",
@@ -2073,7 +2237,9 @@
         "ideasB": [
             "Frais",
             "À l'aise"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_011",
@@ -2098,7 +2264,9 @@
         "ideasB": [
             "Temps libre",
             "Moins de stress"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_012",
@@ -2123,7 +2291,9 @@
         "ideasB": [
             "Maison",
             "No problems"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_places_005",
@@ -2148,7 +2318,9 @@
         "ideasB": [
             "Amical",
             "Calme"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_people_002",
@@ -2173,7 +2345,9 @@
         "ideasB": [
             "Temps libre",
             "Voyager facile"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_health_medicine_002",
@@ -2198,7 +2372,9 @@
         "ideasB": [
             "Recovery",
             "Détente"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_health_medicine_003",
@@ -2223,7 +2399,9 @@
         "ideasB": [
             "Save money",
             "Naturel"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_health_medicine_004",
@@ -2248,7 +2426,9 @@
         "ideasB": [
             "More work",
             "Play"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_012",
@@ -2273,7 +2453,9 @@
         "ideasB": [
             "See items",
             "Try"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_022",
@@ -2298,7 +2480,9 @@
         "ideasB": [
             "Économiser argent",
             "Beaucoup d'objets"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_013",
@@ -2323,7 +2507,9 @@
         "ideasB": [
             "Moins cher",
             "Nature"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_travel_005",
@@ -2348,7 +2534,9 @@
         "ideasB": [
             "Excitant",
             "Fête"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_travel_006",
@@ -2373,7 +2561,9 @@
         "ideasB": [
             "Culture",
             "Adventure"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_013",
@@ -2398,7 +2588,9 @@
         "ideasB": [
             "Think",
             "Pas de rush"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_014",
@@ -2423,7 +2615,9 @@
         "ideasB": [
             "Détente",
             "Plus tard"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_014",
@@ -2448,7 +2642,9 @@
         "ideasB": [
             "Pas poli",
             "Rater le début"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_015",
@@ -2473,7 +2669,9 @@
         "ideasB": [
             "Créatif",
             "Rapide"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_015",
@@ -2498,7 +2696,9 @@
         "ideasB": [
             "Détente",
             "Temps en famille"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_016",
@@ -2523,7 +2723,9 @@
         "ideasB": [
             "Pas de vaisselle",
             "Chefs professionnels"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_017",
@@ -2548,7 +2750,9 @@
         "ideasB": [
             "Plusieurs types",
             "Sauce délicieuse"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_018",
@@ -2573,7 +2777,9 @@
         "ideasB": [
             "Chaud",
             "Anniversaire"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_nature_006",
@@ -2598,7 +2804,9 @@
         "ideasB": [
             "Plus de soleil",
             "Jouer dehors"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_travel_007",
@@ -2623,7 +2831,9 @@
         "ideasB": [
             "Nature",
             "Espace"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_019",
@@ -2648,7 +2858,9 @@
         "ideasB": [
             "Gagner du temps",
             "Pas faim"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_015",
@@ -2673,7 +2885,9 @@
         "ideasB": [
             "Calme",
             "Air pur"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_time_005",
@@ -2698,7 +2912,9 @@
         "ideasB": [
             "Créatif",
             "No noise"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_travel_008",
@@ -2723,7 +2939,9 @@
         "ideasB": [
             "Relax more",
             "Voir plus de lieux"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_technology_002",
@@ -2748,7 +2966,9 @@
         "ideasB": [
             "Réfléchir avant",
             "Plus tard"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_time_006",
@@ -2773,7 +2993,9 @@
         "ideasB": [
             "Week-end",
             "Fête"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_nature_007",
@@ -2798,7 +3020,9 @@
         "ideasB": [
             "Habits",
             "On gèle"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_travel_009",
@@ -2823,7 +3047,9 @@
         "ideasB": [
             "Marcher",
             "Espace"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_016",
@@ -2848,7 +3074,9 @@
         "ideasB": [
             "Concentration",
             "Rapide"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_016",
@@ -2873,7 +3101,9 @@
         "ideasB": [
             "Friendly",
             "Moins cher"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_020",
@@ -2898,7 +3128,9 @@
         "ideasB": [
             "Gagner du temps",
             "No mess"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_023",
@@ -2923,7 +3155,9 @@
         "ideasB": [
             "Temps libre",
             "Travel"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_017",
@@ -2948,7 +3182,9 @@
         "ideasB": [
             "Investissement",
             "Espace"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_travel_010",
@@ -2973,7 +3209,9 @@
         "ideasB": [
             "Confortable",
             "Rapide"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_017",
@@ -2998,7 +3236,9 @@
         "ideasB": [
             "Happy today",
             "Souvenirs"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_018",
@@ -3023,7 +3263,9 @@
         "ideasB": [
             "Money",
             "Many things"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_024",
@@ -3048,7 +3290,9 @@
         "ideasB": [
             "Amis",
             "New places"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_025",
@@ -3073,7 +3317,9 @@
         "ideasB": [
             "Détente",
             "Apprendre"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_social_026",
@@ -3098,7 +3344,9 @@
         "ideasB": [
             "Paix",
             "Hobbies"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_021",
@@ -3123,7 +3371,9 @@
         "ideasB": [
             "Été",
             "Salade"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_food_drink_022",
@@ -3148,7 +3398,9 @@
         "ideasB": [
             "Vraie nourriture",
             "Sel"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_health_medicine_005",
@@ -3173,7 +3425,9 @@
         "ideasB": [
             "Air frais",
             "Facile"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_time_007",
@@ -3198,7 +3452,9 @@
         "ideasB": [
             "Relaxant",
             "Lit propre"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_travel_011",
@@ -3223,7 +3479,9 @@
         "ideasB": [
             "Moins cher",
             "Nature"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_time_008",
@@ -3248,7 +3506,9 @@
         "ideasB": [
             "Relaxant",
             "Lit propre"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_018",
@@ -3273,7 +3533,9 @@
         "ideasB": [
             "Confortable",
             "Pas de trajets"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_travel_012",
@@ -3298,7 +3560,9 @@
         "ideasB": [
             "Musique",
             "Lecture"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_019",
@@ -3323,7 +3587,9 @@
         "ideasB": [
             "Share life",
             "Help"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_furniture_020",
@@ -3348,7 +3614,9 @@
         "ideasB": [
             "Argent",
             "Plus d'objets"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_work_019",
@@ -3373,7 +3641,9 @@
         "ideasB": [
             "Pas poli",
             "Rater le début"
-        ]
+        ],
+        "emoji": "✨",
+        "transcription": ""
     }
 ];
     const lang = "fr";

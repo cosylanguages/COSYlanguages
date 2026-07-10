@@ -5,7 +5,6 @@
         "translation": "one",
         "level": "starter",
         "theme": "numbers",
-        "language": "fr",
         "emoji": "1️⃣",
         "form": "number",
         "definitions": [
@@ -16,14 +15,19 @@
                 ]
             }
         ],
-        "transcription": "/œ̃/"
+        "transcription": "œ̃",
+        "id": "fr_starter_numbers_001",
+        "lang": "fr",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "unus"
+        }
     },
     {
         "word": "deux",
         "translation": "two",
         "level": "starter",
         "theme": "numbers",
-        "language": "fr",
         "emoji": "2️⃣",
         "form": "number",
         "definitions": [
@@ -34,14 +38,19 @@
                 ]
             }
         ],
-        "transcription": "/dø/"
+        "transcription": "dø",
+        "id": "fr_starter_numbers_002",
+        "lang": "fr",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "duo"
+        }
     },
     {
         "word": "trois",
         "translation": "three",
         "level": "starter",
         "theme": "numbers",
-        "language": "fr",
         "emoji": "3️⃣",
         "form": "number",
         "definitions": [
@@ -52,14 +61,19 @@
                 ]
             }
         ],
-        "transcription": "/tʁwa/"
+        "transcription": "tʁwa",
+        "id": "fr_starter_numbers_003",
+        "lang": "fr",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tres"
+        }
     },
     {
         "word": "quatre",
         "translation": "four",
         "level": "starter",
         "theme": "numbers",
-        "language": "fr",
         "emoji": "4️⃣",
         "form": "number",
         "definitions": [
@@ -70,14 +84,19 @@
                 ]
             }
         ],
-        "transcription": "/katʁ/"
+        "transcription": "katʁ",
+        "id": "fr_starter_numbers_004",
+        "lang": "fr",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "quattuor"
+        }
     },
     {
         "word": "cinq",
         "translation": "five",
         "level": "starter",
         "theme": "numbers",
-        "language": "fr",
         "emoji": "5️⃣",
         "form": "number",
         "definitions": [
@@ -88,9 +107,15 @@
                 ]
             }
         ],
-        "transcription": "/sɛ̃k/"
+        "transcription": "sɛ̃k",
+        "id": "fr_starter_numbers_005",
+        "lang": "fr",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "quinque"
+        }
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

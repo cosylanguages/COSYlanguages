@@ -130,7 +130,9 @@
             "origin_lang": "Latin",
             "origin_word": "esse",
             "origin_meaning": "to be"
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_language_002",
@@ -262,7 +264,9 @@
             "origin_lang": "Latin",
             "origin_word": "habere",
             "origin_meaning": "to have"
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_language_003",
@@ -389,7 +393,9 @@
                     "travailleront-elles"
                 ]
             }
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_language_004",
@@ -521,7 +527,9 @@
             "origin_lang": "Latin",
             "origin_word": "facere",
             "origin_meaning": "to do"
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_language_005",
@@ -653,7 +661,9 @@
             "origin_lang": "Latin",
             "origin_word": "manducare",
             "origin_meaning": "to chew, eat"
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_language_006",
@@ -784,7 +794,9 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "parabolare"
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "id": "fr_starter_language_007",
@@ -911,7 +923,9 @@
                     "iront-elles"
                 ]
             }
-        }
+        },
+        "emoji": "✨",
+        "transcription": ""
     }
 ]
     const lang = "fr";

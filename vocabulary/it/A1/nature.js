@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "sole",
         "level": "starter",
         "theme": "nature",
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "sole caldo, sole del mattino",
         "definitions": [
@@ -26,16 +28,20 @@
             "origin_lang": "Latin",
             "origin_word": "sol",
             "origin_meaning": "sun"
-        }
+        },
+        "id": "it_starter_nature_001",
+        "lang": "it"
     },
-{
+    {
         "word": "pioggia",
         "level": "starter",
         "theme": "nature",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "forte pioggia, stivali da pioggia",
         "definitions": [
@@ -53,16 +59,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "pluvia"
-        }
+        },
+        "id": "it_starter_nature_002",
+        "lang": "it"
     },
-{
+    {
         "word": "vento",
         "level": "starter",
         "theme": "nature",
         "article": "il",
         "gender": "masculine",
         "emoji": "💨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "vento forte, vento freddo",
         "definitions": [
@@ -80,16 +90,20 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "ventus"
-        }
+        },
+        "id": "it_starter_nature_003",
+        "lang": "it"
     },
-{
+    {
         "word": "primavera",
         "level": "starter",
         "theme": "nature",
         "article": "la",
         "gender": "feminine",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "primavere",
         "definitions": [
             {
@@ -103,16 +117,20 @@
         "transcription": "primaˈvɛra",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_nature_004",
+        "lang": "it"
     },
-{
+    {
         "word": "estate",
         "level": "starter",
         "theme": "nature",
         "article": "l'",
         "gender": "feminine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "estati",
         "definitions": [
             {
@@ -126,16 +144,20 @@
         "transcription": "esˈtate",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_nature_005",
+        "lang": "it"
     },
-{
+    {
         "word": "autunno",
         "level": "starter",
         "theme": "nature",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "autunni",
         "definitions": [
             {
@@ -149,16 +171,20 @@
         "transcription": "auˈtunno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_nature_006",
+        "lang": "it"
     },
-{
+    {
         "word": "inverno",
         "level": "starter",
         "theme": "nature",
         "article": "l'",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "inverni",
         "definitions": [
             {
@@ -172,16 +198,20 @@
         "transcription": "inˈvɛrno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_nature_007",
+        "lang": "it"
     },
-{
+    {
         "word": "ombrello",
         "level": "starter",
         "theme": "nature",
         "article": "l'",
         "gender": "masculine",
         "emoji": "☂️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ombrelli",
         "definitions": [
             {
@@ -195,11 +225,15 @@
         "transcription": "ˈombrello",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_nature_008",
+        "lang": "it"
     },
-{
+    {
         "level": "starter",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tempo meteorologici",
         "word": "tempo meteorologico",
         "theme": "nature",
@@ -217,11 +251,16 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_nature_009",
+        "lang": "it",
+        "emoji": "✨"
     },
-{
+    {
         "level": "starter",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "temperature",
         "word": "temperatura",
         "theme": "nature",
@@ -239,11 +278,16 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_nature_010",
+        "lang": "it",
+        "emoji": "✨"
     },
-{
+    {
         "level": "starter",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nevi",
         "word": "neve",
         "theme": "nature",
@@ -262,11 +306,16 @@
         ],
         "synonyms": [],
         "subtext": "palla di neve",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_nature_011",
+        "lang": "it",
+        "emoji": "✨"
     },
-{
+    {
         "level": "starter",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nebbie",
         "word": "nebbia",
         "theme": "nature",
@@ -285,16 +334,21 @@
         ],
         "synonyms": [],
         "subtext": "nebbia fitta",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_nature_012",
+        "lang": "it",
+        "emoji": "✨"
     },
-{
+    {
         "word": "stagione",
         "level": "starter",
         "theme": "nature",
         "article": "la",
         "gender": "feminine",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stagioni",
         "transcription": "staˈdʒone",
         "definitions": [
@@ -308,9 +362,11 @@
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_nature_013",
+        "lang": "it"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -1,12 +1,14 @@
 (function() {
     const data = [
-{
+    {
         "word": "exercice",
         "level": "starter",
         "theme": "social",
         "article": "l'",
         "emoji": "🏋️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "exercices",
         "definitions": [
             {
@@ -16,16 +18,20 @@
                 ]
             }
         ],
-        "transcription": "/eɡ.zɛʁ.sis/"
+        "transcription": "eɡ.zɛʁ.sis",
+        "id": "fr_starter_social_001",
+        "lang": "fr"
     },
-{
+    {
         "word": "temps libre",
         "level": "starter",
         "theme": "social",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": null,
         "subtext": "",
         "synonyms": [
@@ -40,16 +46,20 @@
                 ]
             }
         ],
-        "transcription": "/tɑ̃ libʁ/"
+        "transcription": "tɑ̃ libʁ",
+        "id": "fr_starter_social_002",
+        "lang": "fr"
     },
-{
+    {
         "word": "cinéma",
         "level": "starter",
         "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎬",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cinémas",
         "definitions": [
             {
@@ -59,16 +69,20 @@
                 ]
             }
         ],
-        "transcription": "/si.ne.ma/"
+        "transcription": "si.ne.ma",
+        "id": "fr_starter_social_003",
+        "lang": "fr"
     },
-{
+    {
         "word": "musée",
         "level": "starter",
         "theme": "places",
         "article": "le",
         "gender": "masculine",
         "emoji": "🏛️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "musées",
         "definitions": [
             {
@@ -78,16 +92,20 @@
                 ]
             }
         ],
-        "transcription": "/my.ze/"
+        "transcription": "my.ze",
+        "id": "fr_starter_social_004",
+        "lang": "fr"
     },
-{
+    {
         "word": "bibliothèque",
         "level": "starter",
         "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "📚",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bibliothèques",
         "definitions": [
             {
@@ -97,16 +115,20 @@
                 ]
             }
         ],
-        "transcription": "/bi.bli.jɔ.tɛk/"
+        "transcription": "bi.bli.jɔ.tɛk",
+        "id": "fr_starter_social_005",
+        "lang": "fr"
     },
-{
+    {
         "word": "ballon",
         "level": "starter",
         "theme": "sports_equipment",
         "article": "le",
         "gender": "masculine",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ballons",
         "definitions": [
             {
@@ -116,16 +138,20 @@
                 ]
             }
         ],
-        "transcription": "/ba.lɔ̃/"
+        "transcription": "ba.lɔ̃",
+        "id": "fr_starter_social_006",
+        "lang": "fr"
     },
-{
+    {
         "word": "art",
         "level": "starter",
         "theme": "places",
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "arts",
         "definitions": [
             {
@@ -135,16 +161,20 @@
                 ]
             }
         ],
-        "transcription": "/aʁ/"
+        "transcription": "aʁ",
+        "id": "fr_starter_social_007",
+        "lang": "fr"
     },
-{
+    {
         "word": "groupe",
         "level": "starter",
         "theme": "music",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎸",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "groupes",
         "definitions": [
             {
@@ -154,16 +184,20 @@
                 ]
             }
         ],
-        "transcription": "/ɡʁup/"
+        "transcription": "ɡʁup",
+        "id": "fr_starter_social_008",
+        "lang": "fr"
     },
-{
+    {
         "word": "concert",
         "level": "starter",
         "theme": "music",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎵",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "concerts",
         "definitions": [
             {
@@ -173,16 +207,20 @@
                 ]
             }
         ],
-        "transcription": "/kɔ̃.sɛʁ/"
+        "transcription": "kɔ̃.sɛʁ",
+        "id": "fr_starter_social_009",
+        "lang": "fr"
     },
-{
+    {
         "word": "musique",
         "level": "starter",
         "theme": "music",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎵",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "musiques",
         "definitions": [
             {
@@ -192,16 +230,20 @@
                 ]
             }
         ],
-        "transcription": "/my.zik/"
+        "transcription": "my.zik",
+        "id": "fr_starter_social_010",
+        "lang": "fr"
     },
-{
+    {
         "word": "chanson",
         "level": "starter",
         "theme": "music",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎤",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chansons",
         "definitions": [
             {
@@ -209,28 +251,22 @@
                 "examples": [
                     "C'est une belle chanson."
                 ]
-            },
-{
-        "word": "guitare",
-        "image": "images/vocabulary/actions/to play a musical instrument.png",
-        "level": "starter",
-        "theme": "music",
-        "emoji": "🎸",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "definitions": [{"text": "Un instrument de musique à cordes dont on joue avec les doigts.", "examples": ["Il joue de la guitare."]}],
-        "transcription": "/ɡi.taʁ/"
-    },
+            }
         ],
-        "transcription": "/ʃɑ̃.sɔ̃/"
+        "transcription": "ʃɑ̃.sɔ̃",
+        "id": "fr_starter_social_011",
+        "lang": "fr"
     },
-{
+    {
         "word": "film",
         "level": "starter",
         "theme": "cinema_film",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎞️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "films",
         "definitions": [
             {
@@ -240,16 +276,20 @@
                 ]
             }
         ],
-        "transcription": "/film/"
+        "transcription": "film",
+        "id": "fr_starter_social_012",
+        "lang": "fr"
     },
-{
+    {
         "word": "photo",
         "level": "starter",
         "theme": "hobbies_interests",
         "article": "la",
         "gender": "feminine",
         "emoji": "📷",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "photos",
         "definitions": [
             {
@@ -257,38 +297,22 @@
                 "examples": [
                     "Une photo de famille."
                 ]
-            },
-{
-        "word": "échecs",
-        "image": "images/vocabulary/actions/to play chess.png",
-        "level": "starter",
-        "theme": "hobbies_interests",
-        "emoji": "♟️",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "definitions": [{"text": "Un jeu pour deux personnes se jouant sur un plateau avec des cases noires et blanches.", "examples": ["Ils jouent aux échecs."]},
-{
-        "word": "jeu vidéo",
-        "image": "images/vocabulary/actions/to play video games.png",
-        "level": "starter",
-        "theme": "hobbies_interests",
-        "emoji": "🎮",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "definitions": [{"text": "Un jeu auquel on joue sur un ordinateur ou une console spéciale.", "examples": ["Il adore jouer aux jeux vidéo."]}],
-        "transcription": "/ʒø vi.de.o/"
-    },],
-        "transcription": "/e.ʃɛk/"
-    },
+            }
         ],
-        "transcription": "/fo.to/"
+        "transcription": "fo.to",
+        "id": "fr_starter_social_013",
+        "lang": "fr"
     },
-{
+    {
         "word": "sport",
         "level": "starter",
         "theme": "sports",
         "article": "le",
         "gender": "masculine",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sports",
         "definitions": [
             {
@@ -298,17 +322,20 @@
                 ]
             }
         ],
-        "transcription": "/spɔʁ/"
+        "transcription": "spɔʁ",
+        "id": "fr_starter_social_014",
+        "lang": "fr"
     },
-{
+    {
         "word": "football",
-        "image": "images/vocabulary/actions/to play sport.png",
         "level": "starter",
         "theme": "sports",
         "article": "le",
         "gender": "masculine",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -318,16 +345,20 @@
                 ]
             }
         ],
-        "transcription": "/fut.bal/"
+        "transcription": "fut.bal",
+        "id": "fr_starter_social_015",
+        "lang": "fr"
     },
-{
+    {
         "word": "tennis",
         "level": "starter",
         "theme": "sports",
         "article": "le",
         "gender": "masculine",
         "emoji": "🎾",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -337,16 +368,20 @@
                 ]
             }
         ],
-        "transcription": "/te.nis/"
+        "transcription": "te.nis",
+        "id": "fr_starter_social_016",
+        "lang": "fr"
     },
-{
+    {
         "word": "natation",
         "level": "starter",
         "theme": "sports",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏊",
-        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -356,16 +391,20 @@
                 ]
             }
         ],
-        "transcription": "/na.ta.sjɔ̃/"
+        "transcription": "na.ta.sjɔ̃",
+        "id": "fr_starter_social_017",
+        "lang": "fr"
     },
-{
+    {
         "word": "fête",
         "level": "starter",
         "theme": "social",
         "article": "la",
         "gender": "feminine",
         "emoji": "🎉",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fêtes",
         "definitions": [
             {
@@ -375,16 +414,20 @@
                 ]
             }
         ],
-        "transcription": "/fɛt/"
+        "transcription": "fɛt",
+        "id": "fr_starter_social_018",
+        "lang": "fr"
     },
-{
+    {
         "word": "vacances",
         "level": "starter",
         "theme": "social",
         "article": "les",
         "gender": "feminine",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vacances",
         "definitions": [
             {
@@ -394,9 +437,11 @@
                 ]
             }
         ],
-        "transcription": "/va.kɑ̃s/"
+        "transcription": "va.kɑ̃s",
+        "id": "fr_starter_social_019",
+        "lang": "fr"
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

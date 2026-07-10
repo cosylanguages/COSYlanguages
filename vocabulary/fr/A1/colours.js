@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "violet",
         "level": "starter",
         "theme": "colours",
         "article": "le",
         "gender": "masculine",
         "emoji": "🟣",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "violets",
         "definitions": [
             {
@@ -17,14 +19,18 @@
                 ]
             }
         ],
-        "transcription": "/vjɔ.lɛ/"
+        "transcription": "vjɔ.lɛ",
+        "id": "fr_starter_colours_001",
+        "lang": "fr"
     },
-{
+    {
         "word": "cercle",
         "level": "starter",
         "theme": "describing",
         "emoji": "⭕",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "cercles",
@@ -37,14 +43,18 @@
                 ]
             }
         ],
-        "transcription": "sɛʁkl"
+        "transcription": "sɛʁkl",
+        "id": "fr_starter_colours_002",
+        "lang": "fr"
     },
-{
+    {
         "word": "triangle",
         "level": "starter",
         "theme": "describing",
         "emoji": "🔺",
-        "form": "noun", "classification": "regular", "countability": "countable",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "triangles",
@@ -57,14 +67,15 @@
                 ]
             }
         ],
-        "transcription": "tʁijɑ̃ɡl"
+        "transcription": "tʁijɑ̃ɡl",
+        "id": "fr_starter_colours_003",
+        "lang": "fr"
     },
     {
         "word": "bleu",
         "translation": "blue",
         "level": "starter",
         "theme": "colours",
-        "language": "fr",
         "emoji": "🔵",
         "form": "adjective",
         "definitions": [
@@ -75,14 +86,19 @@
                 ]
             }
         ],
-        "transcription": "/blø/"
+        "transcription": "blø",
+        "id": "fr_starter_colours_004",
+        "lang": "fr",
+        "etymology": {
+            "origin_lang": "Frankish",
+            "origin_word": "blāu"
+        }
     },
     {
         "word": "rouge",
         "translation": "red",
         "level": "starter",
         "theme": "colours",
-        "language": "fr",
         "emoji": "🔴",
         "form": "adjective",
         "definitions": [
@@ -93,9 +109,15 @@
                 ]
             }
         ],
-        "transcription": "/ʁuʒ/"
+        "transcription": "ʁuʒ",
+        "id": "fr_starter_colours_005",
+        "lang": "fr",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "rubeus"
+        }
     }
-    ];
+];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -17,7 +17,6 @@
             }
         ],
         "subtext": "related to numbers 0 9",
-        "opposite": null,
         "transcription": "ˈnəmbər",
         "lang": "en",
         "level": "starter",
@@ -29,7 +28,6 @@
         "word": "first",
         "emoji": "1️⃣",
         "form": "adjective",
-        "opposite": "last",
         "comparative": null,
         "superlative": null,
         "definitions": [
@@ -45,15 +43,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "last"
+        ]
     },
     {
         "id": "en_starter_numbers_006",
         "word": "add",
         "emoji": "➕",
         "subtext": "add some sugar / add to / add up / add a comment",
-        "opposite": "subtract",
-        "oppositeEmoji": "➖",
         "form": "verb",
         "definitions": [
             {
@@ -73,7 +72,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "subtract"
+        ]
     },
     {
         "id": "en_starter_numbers_007",
@@ -83,8 +85,6 @@
         "synonyms": [
             "minus"
         ],
-        "opposite": "add",
-        "oppositeEmoji": "➕",
         "form": "verb",
         "definitions": [
             {
@@ -103,7 +103,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "add"
+        ]
     },
     {
         "id": "en_starter_numbers_008",
@@ -127,20 +130,20 @@
         "v2": "counted",
         "v3": "counted",
         "group": "regular",
-        "opposite": "estimate",
         "transcription": "kaʊnt",
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "estimate"
+        ]
     },
     {
         "id": "en_starter_numbers_009",
         "word": "many",
         "emoji": "🔢",
         "form": "adjective",
-        "opposite": "few",
-        "oppositeEmoji": "🤏",
         "subtext": "a lot of, numerous / many people / how many?",
         "definitions": [
             {
@@ -156,15 +159,16 @@
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "few"
+        ]
     },
     {
         "id": "en_starter_numbers_010",
         "word": "few",
         "emoji": "🤏",
         "form": "adjective",
-        "opposite": "many",
-        "oppositeEmoji": "🔢",
         "subtext": "a few / very few",
         "synonyms": [
             "not many"
@@ -183,7 +187,10 @@
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
-        "sub_theme": null
+        "sub_theme": null,
+        "antonyms": [
+            "many"
+        ]
     }
 ];
     const lang = "en";

@@ -21,7 +21,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_animals_002"
+        "id": "es_starter_animals_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "La mañana es el mejor momento del día.",
@@ -44,7 +46,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_019"
+        "id": "es_starter_social_019",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "El té es mejor que el café.",
@@ -67,7 +71,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_011"
+        "id": "es_starter_food_drink_011",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Es divertido cocinar.",
@@ -90,7 +96,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_012"
+        "id": "es_starter_food_drink_012",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "El clima frío es agradable.",
@@ -113,7 +121,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_nature_006"
+        "id": "es_starter_nature_006",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "El lunes es un mal día.",
@@ -136,7 +146,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_020"
+        "id": "es_starter_social_020",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "El chocolate es muy bueno.",
@@ -159,7 +171,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_013"
+        "id": "es_starter_food_drink_013",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Los pueblos pequeños son mejores que las ciudades grandes.",
@@ -182,7 +196,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_places_003"
+        "id": "es_starter_places_003",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Es bueno tener muchos amigos.",
@@ -205,7 +221,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_people_011"
+        "id": "es_starter_people_011",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Dormir es la mejor actividad.",
@@ -228,7 +246,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_021"
+        "id": "es_starter_social_021",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "La música es mejor que la tele.",
@@ -251,7 +271,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_022"
+        "id": "es_starter_social_022",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Es importante desayunar.",
@@ -274,7 +296,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_014"
+        "id": "es_starter_food_drink_014",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Nadar es divertido.",
@@ -297,7 +321,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_023"
+        "id": "es_starter_social_023",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "Las películas viejas son aburridas.",
@@ -320,7 +346,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_art_culture_003"
+        "id": "es_starter_art_culture_003",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "t": "La piña en la pizza es una gran idea.",
@@ -343,7 +371,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_015"
+        "id": "es_starter_food_drink_015",
+        "emoji": "✨",
+        "transcription": ""
     }
 ];
     const lang = "es";

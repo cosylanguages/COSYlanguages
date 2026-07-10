@@ -1,13 +1,15 @@
 (function() {
     const data = [
-{
+    {
         "word": "madre",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "madri",
         "subtext": "",
         "synonyms": [
@@ -28,16 +30,20 @@
             "origin_lang": "Latin",
             "origin_word": "mater",
             "origin_meaning": "mother"
-        }
+        },
+        "id": "it_starter_family_001",
+        "lang": "it"
     },
-{
+    {
         "word": "padre",
         "level": "starter",
         "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "padri",
         "subtext": "",
         "synonyms": [
@@ -58,16 +64,20 @@
             "origin_lang": "Latin",
             "origin_word": "pater",
             "origin_meaning": "father"
-        }
+        },
+        "id": "it_starter_family_002",
+        "lang": "it"
     },
-{
+    {
         "word": "famiglia",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "famiglie",
         "definitions": [
             {
@@ -81,16 +91,20 @@
         "transcription": "faˈmiʎʎa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_family_003",
+        "lang": "it"
     },
-{
+    {
         "word": "amico",
         "level": "starter",
         "theme": "people",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "amici",
         "definitions": [
             {
@@ -109,15 +123,19 @@
             "origin_lang": "Latin",
             "origin_word": "amicus",
             "origin_meaning": "friend"
-        }
+        },
+        "id": "it_starter_family_004",
+        "lang": "it"
     },
-{
+    {
         "word": "relazione",
         "level": "starter",
         "theme": "social",
         "article": "la",
         "emoji": "❤️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "relazioni",
         "subtext": "",
         "synonyms": [
@@ -135,16 +153,16 @@
         "gender": "masculine",
         "partitive": "della",
         "transcription": "relatˈtsjone",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_family_005",
+        "lang": "it"
     },
-{
+    {
         "word": "insieme",
         "level": "starter",
         "theme": "social",
         "emoji": "👫",
         "form": "adverb",
-        "opposite": "solo",
-        "oppositeEmoji": "🧍",
         "definitions": [
             {
                 "text": "Con un'altra persona o gruppo.",
@@ -155,20 +173,24 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": [],
-        "transcription": "ˈinsieme"
+        "antonyms": [
+            "solo"
+        ],
+        "transcription": "ˈinsieme",
+        "id": "it_starter_family_006",
+        "lang": "it"
     },
-{
+    {
         "word": "marito",
         "level": "starter",
         "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mariti",
-        "opposite": "moglie",
-        "oppositeEmoji": "👩",
         "subtext": "",
         "synonyms": [
             "sposo",
@@ -184,19 +206,23 @@
         ],
         "partitive": "del",
         "transcription": "maˈrito",
-        "antonyms": []
+        "antonyms": [
+            "moglie"
+        ],
+        "id": "it_starter_family_007",
+        "lang": "it"
     },
-{
+    {
         "word": "moglie",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mogli",
-        "opposite": "marito",
-        "oppositeEmoji": "👨",
         "subtext": "",
         "synonyms": [
             "sposa",
@@ -212,16 +238,22 @@
         ],
         "partitive": "della",
         "transcription": "ˈmɔʎʎe",
-        "antonyms": []
+        "antonyms": [
+            "marito"
+        ],
+        "id": "it_starter_family_008",
+        "lang": "it"
     },
-{
+    {
         "word": "bambino",
         "level": "starter",
         "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bambini",
         "subtext": "",
         "synonyms": [
@@ -238,16 +270,20 @@
         ],
         "partitive": "del",
         "transcription": "bamˈbino",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_family_009",
+        "lang": "it"
     },
-{
+    {
         "word": "genitore",
         "level": "starter",
         "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "genitori",
         "subtext": "",
         "synonyms": [
@@ -263,16 +299,20 @@
         ],
         "partitive": "del",
         "transcription": "dʒeniˈtore",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_family_010",
+        "lang": "it"
     },
-{
+    {
         "word": "sorella",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sorelle",
         "definitions": [
             {
@@ -291,16 +331,20 @@
             "origin_lang": "Latin",
             "origin_word": "sororcula",
             "origin_meaning": "little sister"
-        }
+        },
+        "id": "it_starter_family_011",
+        "lang": "it"
     },
-{
+    {
         "word": "fratello",
         "level": "starter",
         "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fratelli",
         "definitions": [
             {
@@ -319,16 +363,20 @@
             "origin_lang": "Latin",
             "origin_word": "fraterculus",
             "origin_meaning": "little brother"
-        }
+        },
+        "id": "it_starter_family_012",
+        "lang": "it"
     },
-{
+    {
         "word": "figlio",
         "level": "starter",
         "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "figli",
         "definitions": [
             {
@@ -347,16 +395,20 @@
             "origin_lang": "Latin",
             "origin_word": "filius",
             "origin_meaning": "son"
-        }
+        },
+        "id": "it_starter_family_013",
+        "lang": "it"
     },
-{
+    {
         "word": "figlia",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "figlie",
         "definitions": [
             {
@@ -375,16 +427,20 @@
             "origin_lang": "Latin",
             "origin_word": "filia",
             "origin_meaning": "daughter"
-        }
+        },
+        "id": "it_starter_family_014",
+        "lang": "it"
     },
-{
+    {
         "word": "nonno",
         "level": "starter",
         "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nonni",
         "definitions": [
             {
@@ -398,16 +454,20 @@
         "transcription": "ˈnɔnno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_family_015",
+        "lang": "it"
     },
-{
+    {
         "word": "nonna",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nonne",
         "definitions": [
             {
@@ -421,16 +481,20 @@
         "transcription": "ˈnɔnna",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_family_016",
+        "lang": "it"
     },
-{
+    {
         "word": "zio",
         "level": "starter",
         "theme": "people",
         "article": "lo",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "zii",
         "definitions": [
             {
@@ -444,16 +508,20 @@
         "transcription": "ˈtsio",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_family_017",
+        "lang": "it"
     },
-{
+    {
         "word": "zia",
         "level": "starter",
         "theme": "people",
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "zie",
         "definitions": [
             {
@@ -467,16 +535,20 @@
         "transcription": "ˈtsia",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_family_018",
+        "lang": "it"
     },
-{
+    {
         "word": "cugino",
         "level": "starter",
         "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cugini",
         "definitions": [
             {
@@ -490,16 +562,20 @@
         "transcription": "kuˈdʒino",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_family_019",
+        "lang": "it"
     },
-{
+    {
         "word": "neonato",
         "level": "starter",
         "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "👶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "neonati",
         "definitions": [
             {
@@ -513,16 +589,20 @@
         "transcription": "neoˈnato",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_family_020",
+        "lang": "it"
     },
-{
+    {
         "word": "ospite",
         "level": "starter",
         "theme": "social",
         "article": "l'",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ospiti",
         "definitions": [
             {
@@ -536,16 +616,20 @@
         "transcription": "ˈɔspite",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_family_021",
+        "lang": "it"
     },
-{
+    {
         "word": "nipote",
         "level": "starter",
         "theme": "people",
         "article": "il",
         "gender": "masculine",
         "emoji": "🧒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nipoti",
         "transcription": "niˈpote",
         "definitions": [
@@ -559,9 +643,11 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "id": "it_starter_family_022",
+        "lang": "it"
     }
-    ];
+];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

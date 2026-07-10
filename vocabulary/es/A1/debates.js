@@ -24,7 +24,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_001"
+        "id": "es_starter_food_drink_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Restaurante vs cocina en casa — ¿qué es mejor?",
@@ -50,7 +52,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_002"
+        "id": "es_starter_food_drink_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Verano vs invierno — ¿qué estación es mejor?",
@@ -76,7 +80,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_nature_001"
+        "id": "es_starter_nature_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Libro vs película — ¿qué es mejor?",
@@ -102,7 +108,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_001"
+        "id": "es_starter_social_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Bicicleta vs coche — ¿qué es mejor para la ciudad?",
@@ -128,7 +136,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_travel_001"
+        "id": "es_starter_travel_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Pizza vs hamburguesa — ¿qué es mejor?",
@@ -154,7 +164,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_003"
+        "id": "es_starter_food_drink_003",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Ciudad vs campo — ¿cuál es un lugar mejor para vivir?",
@@ -180,7 +192,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_furniture_001"
+        "id": "es_starter_furniture_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Mañana vs tarde — ¿qué parte del día es más bonita?",
@@ -206,7 +220,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_time_001"
+        "id": "es_starter_time_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Tren vs avión — ¿qué es mejor para viajar?",
@@ -232,7 +248,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_travel_002"
+        "id": "es_starter_travel_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Mar vs montañas — ¿qué es mejor para las vacaciones?",
@@ -258,7 +276,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_travel_003"
+        "id": "es_starter_travel_003",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Trabajo solo vs con compañero — ¿qué es mejor?",
@@ -284,7 +304,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_work_001"
+        "id": "es_starter_work_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Llamada vs mensaje de texto — ¿qué es mejor?",
@@ -310,7 +332,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_technology_001"
+        "id": "es_starter_technology_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Ropa cómoda vs ropa elegante — ¿qué es mejor?",
@@ -336,7 +360,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_clothes_001"
+        "id": "es_starter_clothes_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Azúcar vs sal — ¿qué es más importante?",
@@ -362,7 +388,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_004"
+        "id": "es_starter_food_drink_004",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Fiestas grandes vs cenas pequeñas — ¿qué es mejor?",
@@ -388,7 +416,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_002"
+        "id": "es_starter_social_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Casa vs piso — ¿qué es mejor para vivir?",
@@ -414,7 +444,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_furniture_002"
+        "id": "es_starter_furniture_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Dinero vs tiempo libre — ¿qué es más importante?",
@@ -440,7 +472,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_emotions_001"
+        "id": "es_starter_emotions_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Chocolate negro vs chocolate con leche — ¿qué es mejor?",
@@ -466,7 +500,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_005"
+        "id": "es_starter_food_drink_005",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Cine vs Netflix en casa — ¿qué es mejor?",
@@ -492,7 +528,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_003"
+        "id": "es_starter_social_003",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Viajar solo vs viajar con amigos — ¿qué es mejor?",
@@ -518,7 +556,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_travel_004"
+        "id": "es_starter_travel_004",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Podcasts vs música — ¿qué es mejor en el coche?",
@@ -544,7 +584,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_004"
+        "id": "es_starter_social_004",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Lluvia vs viento — ¿qué es peor?",
@@ -570,7 +612,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_nature_002"
+        "id": "es_starter_nature_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Regalo sorpresa vs elegir tu regalo — ¿qué es mejor?",
@@ -596,7 +640,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_005"
+        "id": "es_starter_social_005",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Escribir en papel vs escribir en tableta — ¿qué es mejor?",
@@ -622,7 +668,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_technology_002"
+        "id": "es_starter_technology_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Sándwich vs ensalada — ¿qué es mejor para el almuerzo?",
@@ -648,7 +696,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_006"
+        "id": "es_starter_food_drink_006",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Hotel vs camping — ¿qué es mejor para las vacaciones?",
@@ -674,7 +724,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_travel_005"
+        "id": "es_starter_travel_005",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Hablar vs escuchar — ¿qué es más importante?",
@@ -700,7 +752,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_work_002"
+        "id": "es_starter_work_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Primavera vs otoño — ¿qué es mejor?",
@@ -726,7 +780,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_nature_003"
+        "id": "es_starter_nature_003",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Fruta vs verduras — ¿qué es mejor?",
@@ -752,7 +808,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_007"
+        "id": "es_starter_food_drink_007",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Películas de acción vs comedias — ¿qué es mejor?",
@@ -778,7 +836,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_006"
+        "id": "es_starter_social_006",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Lavar platos vs pasar la aspiradora — ¿qué es mejor?",
@@ -804,7 +864,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_furniture_003"
+        "id": "es_starter_furniture_003",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Música pop vs música rock — ¿qué es mejor?",
@@ -830,7 +892,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_007"
+        "id": "es_starter_social_007",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Madrugador vs noctámbulo — ¿qué es mejor?",
@@ -856,7 +920,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_time_002"
+        "id": "es_starter_time_002",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Caminar vs correr — ¿qué es mejor?",
@@ -882,7 +948,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_health_medicine_001"
+        "id": "es_starter_health_medicine_001",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Portátil vs ordenador de sobremesa — ¿qué es mejor?",
@@ -908,7 +976,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_technology_003"
+        "id": "es_starter_technology_003",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Transporte público vs taxi — ¿qué es mejor?",
@@ -934,7 +1004,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_travel_006"
+        "id": "es_starter_travel_006",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Helado vs tarta — ¿qué es un postre mejor?",
@@ -960,7 +1032,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_food_drink_008"
+        "id": "es_starter_food_drink_008",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Email vs carta — ¿qué es mejor?",
@@ -986,7 +1060,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_technology_004"
+        "id": "es_starter_technology_004",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Playa vs parque — ¿qué es mejor?",
@@ -1012,7 +1088,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_nature_004"
+        "id": "es_starter_nature_004",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Cocinar vs limpiar — ¿qué es mejor?",
@@ -1038,7 +1116,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_furniture_004"
+        "id": "es_starter_furniture_004",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Vacaciones cortas vs vacaciones largas — ¿qué es mejor?",
@@ -1064,7 +1144,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_travel_007"
+        "id": "es_starter_travel_007",
+        "emoji": "✨",
+        "transcription": ""
     },
     {
         "topic": "Ficción vs no ficción — ¿qué es mejor?",
@@ -1090,7 +1172,9 @@
             }
         ],
         "form": "phrase",
-        "id": "es_starter_social_008"
+        "id": "es_starter_social_008",
+        "emoji": "✨",
+        "transcription": ""
     }
 ];
     const lang = "es";
