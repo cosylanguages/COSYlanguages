@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "fr";
     const data = [
     {
         "word": "France",
@@ -578,7 +579,6 @@
         "id": "fr_starter_places_064"
     }
 ];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

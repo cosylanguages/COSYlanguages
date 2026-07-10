@@ -1,4 +1,5 @@
 (function() {
+    const lang = "it";
     const data = [
     {
         "word": "negozio",
@@ -707,7 +708,6 @@
         "id": "it_starter_shopping_026"
     }
 ];
-    const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

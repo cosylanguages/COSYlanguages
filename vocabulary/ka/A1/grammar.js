@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ka";
     const pronouns = ["მე", "შენ", "ის", "ჩვენ", "თქვენ", "ისინი"];
     const data = [
         {
@@ -34,7 +35,6 @@
             }
         }
     ]
-    const lang = "ka";
     window.grammarData = window.grammarData || {};
     window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

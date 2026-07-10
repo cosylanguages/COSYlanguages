@@ -1,4 +1,5 @@
 (function() {
+    const lang = "pt";
     const data = [
     {
         "word": "ser",
@@ -4513,7 +4514,6 @@
         "id": "pt_starter_work_employment_002"
     }
 ];
-    const lang = "pt";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

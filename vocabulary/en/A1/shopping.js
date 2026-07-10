@@ -1,4 +1,5 @@
 (function() {
+    const lang = "en";
     const data = [
     {
         "id": "en_starter_money_payment_003",
@@ -817,7 +818,6 @@
         ]
     }
 ];
-    const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

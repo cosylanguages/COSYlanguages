@@ -1,4 +1,5 @@
 (function() {
+    const lang = "it";
     const data = [
     {
         "word": "giardino",
@@ -753,7 +754,6 @@
         "id": "it_starter_prepositions_place_003"
     }
 ];
-    const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

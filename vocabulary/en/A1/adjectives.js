@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "en";
     const data = [
     {
         "id": "en_starter_size_shape_001",

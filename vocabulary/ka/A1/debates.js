@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ka";
     const data = [
         {"topic": "ყავა თუ ჩაი — რომელია უკეთესი დილის სასმელი?", "sideA": "ყავა", "sideB": "ჩაი", "level": "starter", "theme": "food_drink", "ideasA": ["ენერგია", "კარგი სუნი"], "ideasB": ["ჯანსაღი", "დასვენება"]},
         {"topic": "რესტორანი თუ სახლში მომზადება — რომელია უკეთესი?", "sideA": "რესტორანი", "sideB": "სახლში მომზადება", "level": "starter", "theme": "food_drink", "ideasA": ["ჭურჭლის რეცხვა არ გჭირდება", "პროფესიონალი მზარეულები"], "ideasB": ["უფრო იაფია", "უფრო ჯანსაღია"]},
@@ -43,7 +44,6 @@
         {"topic": "მოკლე შვებულება თუ გრძელი — რომელია უკეთესი?", "sideA": "მოკლე", "sideB": "გრძელი", "level": "starter", "theme": "travel", "ideasA": ["მარტივი დაგეგმვა", "ბევრი მოგზაურობა"], "ideasB": ["მეტი დასვენება", "მეტის ნახვა"]},
         {"topic": "მხატვრული თუ დოკუმენტური ლიტერატურა — რომელია უკეთესი?", "sideA": "მხატვრული", "sideB": "არამხატვრული", "level": "starter", "theme": "social", "ideasA": ["საინტერესო ისტორიები", "გაქცევა რეალობიდან"], "ideasB": ["ფაქტების სწავლა", "ინფორმაცია რეალურ სამყაროზე"]}
     ];
-    const lang = "ka";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["debates"]) window.speakingData[lang]["debates"] = [];

@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "word": "один",
@@ -18,7 +19,11 @@
         ],
         "transcription": "/ɐˈdʲin/",
         "lang": "ru",
-        "id": "ru_starter_numbers_001"
+        "id": "ru_starter_numbers_001",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "edinъ"
+        }
     },
     {
         "word": "два",
@@ -38,7 +43,11 @@
         ],
         "transcription": "/dva/",
         "lang": "ru",
-        "id": "ru_starter_numbers_002"
+        "id": "ru_starter_numbers_002",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "dъva"
+        }
     },
     {
         "word": "три",
@@ -58,7 +67,11 @@
         ],
         "transcription": "/trʲi/",
         "lang": "ru",
-        "id": "ru_starter_numbers_003"
+        "id": "ru_starter_numbers_003",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "tri"
+        }
     },
     {
         "word": "четыре",
@@ -78,7 +91,11 @@
         ],
         "transcription": "/tɕɪˈtɨrʲe/",
         "lang": "ru",
-        "id": "ru_starter_numbers_004"
+        "id": "ru_starter_numbers_004",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "četyre"
+        }
     },
     {
         "word": "пять",
@@ -98,10 +115,13 @@
         ],
         "transcription": "/pʲatʲ/",
         "lang": "ru",
-        "id": "ru_starter_numbers_005"
+        "id": "ru_starter_numbers_005",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "pętь"
+        }
     }
 ];
-    const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

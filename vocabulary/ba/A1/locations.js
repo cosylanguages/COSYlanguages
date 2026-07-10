@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "ba";
     const data = [
     {
         "word": "Франция",
@@ -119,7 +120,6 @@
         "id": "ba_starter_places_013"
     }
 ];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

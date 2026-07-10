@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "word": "хлеб",
@@ -18,7 +19,11 @@
         ],
         "transcription": "/xlʲep/",
         "lang": "ru",
-        "id": "ru_starter_food_drink_001"
+        "id": "ru_starter_food_drink_001",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "xlěbъ"
+        }
     },
     {
         "word": "вода",
@@ -38,7 +43,11 @@
         ],
         "transcription": "/vɐˈda/",
         "lang": "ru",
-        "id": "ru_starter_food_drink_002"
+        "id": "ru_starter_food_drink_002",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "voda"
+        }
     },
     {
         "word": "яблоко",
@@ -78,7 +87,11 @@
         ],
         "transcription": "/məlɐˈko/",
         "lang": "ru",
-        "id": "ru_starter_food_drink_004"
+        "id": "ru_starter_food_drink_004",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "mleko"
+        }
     },
     {
         "word": "чай",
@@ -101,7 +114,6 @@
         "id": "ru_starter_food_drink_005"
     }
 ];
-    const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

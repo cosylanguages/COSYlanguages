@@ -1,4 +1,5 @@
 (function() {
+    const lang = "fr";
     const data = [
     {
         "id": "fr_starter_food_drink_001",
@@ -3376,7 +3377,6 @@
         ]
     }
 ];
-    const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["debates"]) window.speakingData[lang]["debates"] = [];

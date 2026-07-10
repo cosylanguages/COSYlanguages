@@ -1,4 +1,5 @@
 (function() {
+    const lang = "br";
     const data = [
     {
         "word": "me",
@@ -217,7 +218,6 @@
         "id": "br_starter_language_004"
     }
 ];
-    const lang = "br";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

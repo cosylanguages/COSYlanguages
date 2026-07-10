@@ -1,4 +1,5 @@
 (function() {
+    const lang = "es";
     const data = [
     {
         "t": "Los gatos son mejores que los perros.",
@@ -346,7 +347,6 @@
         "id": "es_starter_food_drink_015"
     }
 ];
-    const lang = "es";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["opinions"]) window.speakingData[lang]["opinions"] = [];

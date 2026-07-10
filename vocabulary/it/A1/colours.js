@@ -1,4 +1,5 @@
 (function() {
+    const lang = "it";
     const data = [
     {
         "word": "viola",
@@ -124,10 +125,13 @@
         ],
         "transcription": "/blu/",
         "lang": "it",
-        "id": "it_starter_colours_003"
+        "id": "it_starter_colours_003",
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "bleu"
+        }
     }
 ];
-    const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

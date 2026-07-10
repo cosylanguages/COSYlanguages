@@ -1,4 +1,5 @@
 (function() {
+    const lang = "it";
     const data = [
     {
         "word": "piede",
@@ -634,7 +635,6 @@
         "id": "it_starter_body_020"
     }
 ];
-    const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

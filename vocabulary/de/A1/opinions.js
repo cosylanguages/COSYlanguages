@@ -1,4 +1,5 @@
 (function() {
+    const lang = "de";
     const data = [
         {
                 "t": "Katzen sind besser als Hunde.",
@@ -466,7 +467,6 @@
                 "id": "de_starter_food_drink_015"
         }
 ];
-    const lang = "de";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["opinions"]) window.speakingData[lang]["opinions"] = [];

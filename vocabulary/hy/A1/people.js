@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "hy";
     const data = [
     {
         "word": "մարդ",
@@ -56,7 +57,6 @@
         "id": "hy_starter_people_003"
     }
 ];
-    const lang = "hy";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

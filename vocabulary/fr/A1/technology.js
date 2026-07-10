@@ -1,4 +1,5 @@
 (function() {
+    const lang = "fr";
     const data = [
     {
         "word": "ordinateur portable",
@@ -300,7 +301,6 @@
         "id": "fr_starter_technology_013"
     }
 ];
-    const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

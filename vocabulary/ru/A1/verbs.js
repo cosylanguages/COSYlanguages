@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "word": "быть",
@@ -4508,7 +4509,6 @@
         "id": "ru_starter_work_038"
     }
 ];
-    const lang = "ru";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

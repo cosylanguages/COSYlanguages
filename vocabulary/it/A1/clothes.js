@@ -1,4 +1,5 @@
 (function() {
+    const lang = "it";
     const data = [
     {
         "word": "pantaloni",
@@ -807,7 +808,6 @@
         "id": "it_starter_accessories_005"
     }
 ];
-    const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

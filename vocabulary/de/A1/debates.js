@@ -1,4 +1,5 @@
 (function() {
+    const lang = "de";
     const data = [
         {
                 "topic": "Kaffee vs. Tee — welches morgendliche Getränk ist besser?",
@@ -1345,7 +1346,6 @@
                 "id": "de_starter_social_009"
         }
 ];
-    const lang = "de";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["debates"]) window.speakingData[lang]["debates"] = [];

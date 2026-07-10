@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "ba";
     const data = [
     {
         "word": "бишбармаҡ",
@@ -56,7 +57,6 @@
         "id": "ba_starter_food_drink_003"
     }
 ];
-    const lang = "ba";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

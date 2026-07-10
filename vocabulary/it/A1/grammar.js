@@ -1,4 +1,5 @@
 (function() {
+    const lang = "it";
     const data = [
     {
         "verb": "essere",
@@ -865,4 +866,6 @@
         "emoji": "✨"
     }
 ];
+    window.grammarData = window.grammarData || {};
+    window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

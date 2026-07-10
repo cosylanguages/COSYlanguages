@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "ka";
     const data = [
     {
         "word": "ყოფნა",
@@ -4604,9 +4605,6 @@
         "id": "ka_starter_work_038"
     }
 ];
-    const lang = "ka";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

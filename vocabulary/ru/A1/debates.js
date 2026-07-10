@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "id": "ru_starter_food_drink_001",
@@ -3526,7 +3527,6 @@
         ]
     }
 ];
-    const lang = "ru";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["debates"]) window.speakingData[lang]["debates"] = [];

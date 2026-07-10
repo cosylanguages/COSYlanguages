@@ -1,4 +1,5 @@
 (function() {
+    const lang = "tt";
     const data = [
         {"topic": "Кофе яисә чәй — иртәнге кайсы эчемлек яхшырак?", "sideA": "Кофе", "sideB": "Чәй", "level": "starter", "theme": "food_drink", "ideasA": ["Энергия", "Яхшы ис"], "ideasB": ["Сәламәтлек", "Ял"]},
         {"topic": "Ресторан яисә өйдә пешерү — кайсысы яхшырак?", "sideA": "Ресторан", "sideB": "Өйдә пешерү", "level": "starter", "theme": "food_drink", "ideasA": ["Савыт-саба юасы юк", "Профессиональ пешекчеләр"], "ideasB": ["Арзанрак", "Сәламәтлек өчен яхшырак"]},
@@ -43,7 +44,6 @@
         {"topic": "Кыска ял яисә озын ял — кайсысы яхшырак?", "sideA": "Кыска", "sideB": "Озын", "level": "starter", "theme": "travel", "ideasA": ["Тиз планлаштыру", "Күп сәяхәт"], "ideasB": ["Күбрәк ял", "Күбрәк күрү"]},
         {"topic": "Хыялый яисә чынбарлык хикәяләр — кайсысы яхшырак?", "sideA": "Хыялый", "sideB": "Чынбарлык", "level": "starter", "theme": "social", "ideasA": ["Кызык хикәяләр", "Дөньядан качу"], "ideasB": ["Фактлар өйрәнү", "Чын дөнья"]}
     ];
-    const lang = "tt";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["debates"]) window.speakingData[lang]["debates"] = [];

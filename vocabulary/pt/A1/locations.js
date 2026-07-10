@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "pt";
     const data = [
     {
         "word": "Cidade do México",
@@ -1010,7 +1011,6 @@
         "id": "pt_starter_places_056"
     }
 ];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

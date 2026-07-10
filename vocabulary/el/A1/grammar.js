@@ -1,4 +1,5 @@
 (function() {
+    const lang = "el";
     const data = [
     {
         "verb": "είμαι",
@@ -905,4 +906,6 @@
         "id": "el_starter_vocabulary_007"
     }
 ];
+    window.grammarData = window.grammarData || {};
+    window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

@@ -1,4 +1,5 @@
 (function() {
+    const lang = "pt";
     const data = [
     {
         "word": "jardim",
@@ -2627,7 +2628,6 @@
         "id": "pt_starter_shopping_005"
     }
 ];
-    const lang = "pt";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

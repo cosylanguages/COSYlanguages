@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "el";
     const data = [
     {
         "word": "μουσακάς",
@@ -24,7 +25,6 @@
         "id": "el_starter_food_drink_001"
     }
 ];
-    const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

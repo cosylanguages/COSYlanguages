@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ka";
     const data = [
     {
         "word": "ბაღი",
@@ -1197,7 +1198,6 @@
         "id": "ka_starter_nature_002"
     }
 ];
-    const lang = "ka";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

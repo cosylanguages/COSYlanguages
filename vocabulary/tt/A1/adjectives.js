@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "tt";
     const data = [
     {
         "word": "биек",

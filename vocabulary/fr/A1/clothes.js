@@ -1,4 +1,5 @@
 (function() {
+    const lang = "fr";
     const data = [
     {
         "word": "vêtement",
@@ -586,7 +587,6 @@
         "id": "fr_starter_clothes_024"
     }
 ];
-    const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

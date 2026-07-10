@@ -1,4 +1,5 @@
 (function() {
+    const lang = "de";
     const data = [
     {
         "word": "groß",
@@ -3438,7 +3439,6 @@
         "id": "de_starter_describing_067"
     }
 ];
-    const lang = "de";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "el";
 const data = [
     {
         "word": "είμαι",
@@ -4186,8 +4187,6 @@ const data = [
         "id": "el_starter_work_038"
     }
 ];
-    const lang = "el";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

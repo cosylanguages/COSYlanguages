@@ -1,4 +1,5 @@
 (function() {
+    const lang = "fr";
     const data = [
     {
         "word": "chat",
@@ -352,7 +353,6 @@
         "id": "fr_starter_sea_animals_001"
     }
 ];
-    const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

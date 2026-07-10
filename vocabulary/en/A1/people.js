@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "en";
     const data = [
     {
         "id": "en_starter_places_067",
@@ -222,10 +223,6 @@
         "sub_theme": null
     }
 ]
-    const lang = "en";
-    window.peopleData = window.peopleData || {};
-    window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

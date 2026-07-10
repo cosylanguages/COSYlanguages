@@ -1,4 +1,5 @@
 (function() {
+    const lang = "fr";
     const data = [
     {
         "word": "étudiant",
@@ -309,7 +310,6 @@
         "id": "fr_starter_school_stationery_001"
     }
 ];
-    const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

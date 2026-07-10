@@ -1,4 +1,5 @@
 (function() {
+    const lang = "de";
     const data = [
     {
         "word": "sein",
@@ -4462,7 +4463,6 @@
         "id": "de_starter_work_038"
     }
 ];
-    const lang = "de";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

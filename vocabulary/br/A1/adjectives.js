@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "br";
     const data = [
     {
         "word": "uhel",

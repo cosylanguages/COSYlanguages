@@ -1,4 +1,5 @@
 (function() {
+    const lang = "tt";
     const data = [
     {
         "word": "мин",
@@ -199,7 +200,6 @@
         "id": "tt_starter_language_004"
     }
 ];
-    const lang = "tt";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -1,4 +1,5 @@
 (function() {
+    const lang = "hy";
     const data = [
         {"topic": "Սուրճ թե թեյ — ո՞ր առավոտյան ըմպելիքն է ավելի լավը:", "sideA": "Սուրճ", "sideB": "Թեյ", "level": "starter", "theme": "food_drink", "ideasA": ["Էներգիա", "Լավ հոտ"], "ideasB": ["Առողջարար", "Հանգիստ"]},
         {"topic": "Ռեստորան թե տնային կերակուր — ո՞րն է ավելի լավը:", "sideA": "Ռեստորան", "sideB": "Տնային կերակուր", "level": "starter", "theme": "food_drink", "ideasA": ["Սպասք լվանալ պետք չէ", "Պրոֆեսիոնալ խոհարարներ"], "ideasB": ["Ավելի էժան է", "Ավելի առողջարար է"]},
@@ -43,7 +44,6 @@
         {"topic": "Կարճ արձակուրդ թե երկար արձակուրդ — ո՞րն է ավելի լավը:", "sideA": "Կարճ", "sideB": "Երկար", "level": "starter", "theme": "travel", "ideasA": ["Հեշտ պլանավորում", "Շատ ուղևորություններ"], "ideasB": ["Ավելի շատ հանգստանալ", "Ավելի շատ տեսնել"]},
         {"topic": "Գեղարվեստական թե ոչ գեղարվեստական գրականություն — ո՞րն է ավելի լավը:", "sideA": "Գեղարվեստական", "sideB": "Ոչ գեղարվեստական", "level": "starter", "theme": "social", "ideasA": ["Հետաքրքիր պատմություններ", "Փախուստ իրականությունից"], "ideasB": ["Սովորել փաստեր", "Իրական աշխարհի տեղեկատվություն"]}
     ];
-    const lang = "hy";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["debates"]) window.speakingData[lang]["debates"] = [];

@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "id": "ru_starter_animals_009",
@@ -331,7 +332,6 @@
         ]
     }
 ];
-    const lang = "ru";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["opinions"]) window.speakingData[lang]["opinions"] = [];

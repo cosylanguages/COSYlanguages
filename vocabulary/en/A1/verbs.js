@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "en";
 const data = [
     {
         "id": "en_starter_name_greeting_009",
@@ -6750,8 +6751,6 @@ const data = [
         "sub_theme": null
     }
 ];
-    const lang = "en";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

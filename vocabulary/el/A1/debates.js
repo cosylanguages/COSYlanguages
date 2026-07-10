@@ -1,4 +1,5 @@
 (function() {
+    const lang = "el";
     const data = [
         {"topic": "Καφές εναντίον Τσάι — ποιο είναι καλύτερο πρωινό ρόφημα;", "sideA": "Καφές", "sideB": "Τσάι", "level": "starter", "theme": "food_drink", "ideasA": ["Ενέργεια", "Μυρίζει υπέροχα"], "ideasB": ["Υγιεινό", "Χαλάρωση"]},
         {"topic": "Εστιατόριο εναντίον σπιτικού φαγητού — τι είναι καλύτερο;", "sideA": "Εστιατόριο", "sideB": "Σπιτικό φαγητό", "level": "starter", "theme": "food_drink", "ideasA": ["Όχι πλύσιμο πιάτων", "Επαγγελματίες σεφ"], "ideasB": ["Είναι πιο φθηνό", "Είναι πιο υγιεινό"]},
@@ -137,7 +138,6 @@
         {"topic": "Ακριβό εναντίον Πιο φθηνό — τι αξίζει περισσότερο;", "sideA": "Ακριβό", "sideB": "Πιο φθηνό", "level": "starter", "theme": "furniture", "ideasA": ["Ποιότητα", "Κρατάνε καιρό"], "ideasB": ["Λεφτά", "Πολλά πράγματα"]},
         {"topic": "Νωρίς εναντίον Αργά — τι είναι χειρότερο στη δουλειά;", "sideA": "Νωρίς", "sideB": "Αργά", "level": "starter", "theme": "work", "ideasA": ["Περιμένεις πολύ", "Βαρετό"], "ideasB": ["Όχι ευγενικό", "Χάνεις την αρχή"]}
     ];
-    const lang = "el";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["debates"]) window.speakingData[lang]["debates"] = [];

@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "it";
     const data = [
     {
         "word": "problema",
@@ -255,7 +256,6 @@
         "id": "it_starter_language_010"
     }
 ];
-    const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

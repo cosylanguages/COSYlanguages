@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "de";
     const data = [
     {
         "word": "Mensch",
@@ -70,7 +71,6 @@
         "id": "de_starter_people_003"
     }
 ];
-    const lang = "de";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

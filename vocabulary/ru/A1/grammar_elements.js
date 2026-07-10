@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "id": "ru_starter_time_008",
@@ -80,7 +81,6 @@
         "transcription": "/sʲiˈvodnʲə/"
     }
 ];
-    const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

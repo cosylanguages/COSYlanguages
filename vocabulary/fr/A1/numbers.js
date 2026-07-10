@@ -1,4 +1,5 @@
 (function() {
+    const lang = "fr";
     const data = [
     {
         "word": "un",
@@ -18,7 +19,11 @@
         ],
         "transcription": "/œ̃/",
         "lang": "fr",
-        "id": "fr_starter_numbers_001"
+        "id": "fr_starter_numbers_001",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "unus"
+        }
     },
     {
         "word": "deux",
@@ -38,7 +43,11 @@
         ],
         "transcription": "/dø/",
         "lang": "fr",
-        "id": "fr_starter_numbers_002"
+        "id": "fr_starter_numbers_002",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "duo"
+        }
     },
     {
         "word": "trois",
@@ -58,7 +67,11 @@
         ],
         "transcription": "/tʁwa/",
         "lang": "fr",
-        "id": "fr_starter_numbers_003"
+        "id": "fr_starter_numbers_003",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tres"
+        }
     },
     {
         "word": "quatre",
@@ -78,7 +91,11 @@
         ],
         "transcription": "/katʁ/",
         "lang": "fr",
-        "id": "fr_starter_numbers_004"
+        "id": "fr_starter_numbers_004",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "quattuor"
+        }
     },
     {
         "word": "cinq",
@@ -98,10 +115,13 @@
         ],
         "transcription": "/sɛ̃k/",
         "lang": "fr",
-        "id": "fr_starter_numbers_005"
+        "id": "fr_starter_numbers_005",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "quinque"
+        }
     }
 ];
-    const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -1,4 +1,5 @@
 (function() {
+    const lang = "hy";
     const data = [
     {
         "word": "ես",
@@ -199,7 +200,6 @@
         "id": "hy_starter_language_004"
     }
 ];
-    const lang = "hy";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

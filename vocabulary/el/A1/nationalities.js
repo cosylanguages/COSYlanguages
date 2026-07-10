@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "el";
     const data = [
     {
         "word": "Έλληνας",
@@ -56,7 +57,6 @@
         "id": "el_starter_people_003"
     }
 ];
-    const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

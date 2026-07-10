@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "id": "ru_starter_places_024",
@@ -2714,7 +2715,6 @@
         "transcription": "/raˈdʲitʲilʲ/"
     }
 ];
-    const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

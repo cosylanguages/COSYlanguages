@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "pt";
     const data = [
     {
         "word": "bacalhau",
@@ -62,7 +63,6 @@
         "id": "pt_starter_food_drink_003"
     }
 ];
-    const lang = "pt";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

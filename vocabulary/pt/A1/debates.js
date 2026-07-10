@@ -1,4 +1,5 @@
 (function() {
+    const lang = "pt";
     const data = [
     {
         "topic": "Café vs chá — qual bebida da manhã é melhor?",
@@ -1093,7 +1094,6 @@
         "id": "pt_starter_social_009"
     }
 ];
-    const lang = "pt";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["debates"]) window.speakingData[lang]["debates"] = [];

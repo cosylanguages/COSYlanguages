@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "id": "ru_starter_describing_001",
@@ -128,7 +129,11 @@
             }
         },
         "transcription": "",
-        "emoji": "✨"
+        "emoji": "✨",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "byti"
+        }
     },
     {
         "id": "ru_starter_describing_002",
@@ -292,7 +297,11 @@
             }
         },
         "transcription": "",
-        "emoji": "✨"
+        "emoji": "✨",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "orbota"
+        }
     },
     {
         "id": "ru_starter_describing_004",
@@ -422,7 +431,11 @@
             }
         },
         "transcription": "",
-        "emoji": "✨"
+        "emoji": "✨",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "dělati"
+        }
     },
     {
         "id": "ru_starter_describing_005",
@@ -618,7 +631,11 @@
             }
         },
         "transcription": "",
-        "emoji": "✨"
+        "emoji": "✨",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "ěsti"
+        }
     },
     {
         "id": "ru_starter_describing_007",
@@ -748,9 +765,13 @@
             }
         },
         "transcription": "",
-        "emoji": "✨"
+        "emoji": "✨",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "govoriti"
+        }
     }
 ];
     window.grammarData = window.grammarData || {};
-    window.grammarData['ru'] = [...(window.grammarData['ru'] || []), ...data];
+    window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

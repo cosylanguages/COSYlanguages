@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "word": "красный",
@@ -18,7 +19,11 @@
         ],
         "transcription": "/ˈkrasnɨj/",
         "lang": "ru",
-        "id": "ru_starter_colours_001"
+        "id": "ru_starter_colours_001",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "krasьnъ"
+        }
     },
     {
         "word": "синий",
@@ -38,7 +43,11 @@
         ],
         "transcription": "/ˈsʲinʲɪj/",
         "lang": "ru",
-        "id": "ru_starter_colours_002"
+        "id": "ru_starter_colours_002",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "sinьjь"
+        }
     },
     {
         "word": "зелёный",
@@ -98,10 +107,13 @@
         ],
         "transcription": "/ˈbʲelɨj/",
         "lang": "ru",
-        "id": "ru_starter_colours_005"
+        "id": "ru_starter_colours_005",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "bělъ"
+        }
     }
 ];
-    const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

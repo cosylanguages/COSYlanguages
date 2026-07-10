@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "tt";
     const data = [
     {
         "word": "татар",
@@ -56,7 +57,6 @@
         "id": "tt_starter_people_003"
     }
 ];
-    const lang = "tt";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
