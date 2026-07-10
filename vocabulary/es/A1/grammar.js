@@ -1,4 +1,5 @@
 (function() {
+    const lang = "es";
     const pronouns = ["yo", "tú", "él", "ella", "nosotros", "vosotros", "ellos", "ellas"];
     const data = [
     {
@@ -554,7 +555,6 @@
         "emoji": "✨"
     }
 ];
-    const lang = "es";
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    window.grammarData = window.grammarData || {};
+    window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

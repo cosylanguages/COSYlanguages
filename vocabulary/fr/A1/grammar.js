@@ -1,4 +1,5 @@
 (function() {
+    const lang = "fr";
     const data = [
     {
         "id": "fr_starter_language_001",
@@ -928,4 +929,6 @@
         "emoji": "✨"
     }
 ];
+    window.grammarData = window.grammarData || {};
+    window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

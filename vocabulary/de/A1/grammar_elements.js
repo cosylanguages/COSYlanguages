@@ -1,4 +1,5 @@
 (function() {
+    const lang = "de";
     const data = [
     {
         "word": "ich",
@@ -210,7 +211,6 @@
         "transcription": ""
     }
 ];
-    const lang = "de";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

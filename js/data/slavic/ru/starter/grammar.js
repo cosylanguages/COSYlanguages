@@ -126,6 +126,10 @@
                     "будут они"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "byti"
         }
     },
     {
@@ -286,6 +290,10 @@
                     "будут они работать"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "orbota"
         }
     },
     {
@@ -414,6 +422,10 @@
                     "будут они делать"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "dělati"
         }
     },
     {
@@ -606,6 +618,10 @@
                     "они едят"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "ěsti"
         }
     },
     {
@@ -734,6 +750,10 @@
                     "будут они говорить"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "govoriti"
         }
     }
 ];

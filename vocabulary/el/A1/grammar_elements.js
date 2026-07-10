@@ -1,4 +1,5 @@
 (function() {
+    const lang = "el";
     const data = [
     {
         "word": "σήμερα",
@@ -85,7 +86,6 @@
         "id": "el_starter_time_004"
     }
 ];
-    const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

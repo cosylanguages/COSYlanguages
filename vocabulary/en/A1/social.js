@@ -1,4 +1,5 @@
 (function() {
+    const lang = "en";
     const data = [
     {
         "id": "en_starter_leisure_activities_003",
@@ -1752,7 +1753,6 @@
         ]
     }
 ];
-    const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

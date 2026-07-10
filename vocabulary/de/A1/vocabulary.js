@@ -1,4 +1,5 @@
 (function() {
+    const lang = "de";
     const data = [
     {
         "word": "Garten",
@@ -1411,7 +1412,6 @@
         "id": "de_starter_nature_002"
     }
 ];
-    const lang = "de";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

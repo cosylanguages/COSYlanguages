@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "br";
     const data = [
     {
         "word": "brezhon",
@@ -56,7 +57,6 @@
         "id": "br_starter_people_003"
     }
 ];
-    const lang = "br";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

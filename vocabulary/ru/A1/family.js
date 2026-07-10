@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ru";
     const data = [
     {
         "word": "мама",
@@ -58,7 +59,11 @@
         ],
         "transcription": "/brat/",
         "lang": "ru",
-        "id": "ru_starter_family_003"
+        "id": "ru_starter_family_003",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "bratrъ"
+        }
     },
     {
         "word": "сестра",
@@ -78,7 +83,11 @@
         ],
         "transcription": "/sʲɪˈstra/",
         "lang": "ru",
-        "id": "ru_starter_family_004"
+        "id": "ru_starter_family_004",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "sestra"
+        }
     },
     {
         "word": "семья",
@@ -101,7 +110,6 @@
         "id": "ru_starter_family_005"
     }
 ];
-    const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -1,4 +1,5 @@
 (function() {
+    const lang = "it";
     const data = [
         {
             "t": "I gatti sono meglio dei cani.",
@@ -451,7 +452,6 @@
             "id": "it_starter_social_034"
         }
     ];
-    const lang = "it";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["opinions"]) window.speakingData[lang]["opinions"] = [];

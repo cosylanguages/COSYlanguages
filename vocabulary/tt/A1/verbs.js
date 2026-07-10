@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "tt";
     const data = [
     {
         "word": "булу",
@@ -4549,9 +4550,6 @@
         "id": "tt_starter_work_038"
     }
 ];
-    const lang = "tt";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

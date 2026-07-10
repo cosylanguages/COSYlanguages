@@ -1,4 +1,5 @@
 (function() {
+    const lang = "fr";
     const data = [
     {
         "word": "violet",
@@ -89,7 +90,11 @@
         ],
         "transcription": "/blø/",
         "lang": "fr",
-        "id": "fr_starter_colours_002"
+        "id": "fr_starter_colours_002",
+        "etymology": {
+            "origin_lang": "Frankish",
+            "origin_word": "blāu"
+        }
     },
     {
         "word": "rouge",
@@ -109,10 +114,13 @@
         ],
         "transcription": "/ʁuʒ/",
         "lang": "fr",
-        "id": "fr_starter_colours_003"
+        "id": "fr_starter_colours_003",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "rubeus"
+        }
     }
 ];
-    const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

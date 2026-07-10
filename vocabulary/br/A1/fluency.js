@@ -1,4 +1,5 @@
 (function() {
+    const lang = "br";
     const data = [
         { t: "Ho tiegezh", h: ["Pet den a zo en ho tiegezh ?","Ha breudeur pe c'hoarezed hoc'h eus ?","Pelec'h emañ ho tiegezh o chom ?","Gant piv emaoc'h o chom ?","Petra a rit asambles evel tiegezh ?"], level: "starter", theme: "people" },
         { t: "Ho ti", h: ["Pet kambr a zo en ho ti ?","Peini eo ho kambr vuraout ?","Hag ho ti a zo bras pe bihan ?","Petra a welit dre ho prenestr ?","Ha plijout a ra ho ti deoc'h ?"], level: "starter", theme: "furniture" },
@@ -21,7 +22,6 @@
         { t: "Sonerezh a blij deoc'h", h: ["Peseurt sonerezh a selaouit ?","Piv eo ho kaner muiañ-karet ?","Pegoulz e selaouit sonerezh ?","Ha gallout a rit kanañ pe c'hoari gant ur benveg-seniñ ?","Peseurt sonenn a laka ac'hanoc'h da vezañ laouen ?"], level: "starter", theme: "music" },
         { t: "Ho lec'h muiañ-karet en ho kêr", h: ["Peini eo ho lec'h muiañ-karet ?","Pelec'h emañ ?","Perak e plij deoc'h ?","Ha mont a rit di alies ?","Gant piv e tait di ?"], level: "starter", theme: "places" }
     ];
-    const lang = "br";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["talkThatTalk"]) window.speakingData[lang]["talkThatTalk"] = [];

@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "ka";
     const data = [
     {
         "word": "საფრანგეთი",
@@ -119,7 +120,6 @@
         "id": "ka_starter_places_013"
     }
 ];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

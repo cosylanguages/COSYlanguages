@@ -1,4 +1,5 @@
 (function() {
+    const lang = "fr";
     const data = [
     {
         "id": "fr_starter_animals_008",
@@ -331,7 +332,6 @@
         ]
     }
 ];
-    const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["opinions"]) window.speakingData[lang]["opinions"] = [];

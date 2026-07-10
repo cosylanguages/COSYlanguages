@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "ru";
     const data = [
     {
         "id": "ru_starter_people_010",
@@ -18,7 +19,6 @@
         "emoji": "✨"
     }
 ];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

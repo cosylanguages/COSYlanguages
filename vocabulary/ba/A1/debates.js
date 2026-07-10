@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ba";
     const data = [
         {"topic": "Кофе йәки сәй — иртәнге ҡайһы эсемлек яҡшыраҡ?", "sideA": "Кофе", "sideB": "Сәй", "level": "starter", "theme": "food_drink", "ideasA": ["Энергия", "Яҡшы еҫ"], "ideasB": ["Сәләмәтлек", "Ял"]},
         {"topic": "Ресторан йәки өйҙә бешереү — ҡайһыһы яҡшыраҡ?", "sideA": "Ресторан", "sideB": "Өйҙә бешереү", "level": "starter", "theme": "food_drink", "ideasA": ["Һауыт-саба йыуаһы юҡ", "Профессиональ ашнасылар"], "ideasB": ["Арзаныраҡ", "Сәләмәтлек өсөн яҡшыраҡ"]},
@@ -43,7 +44,6 @@
         {"topic": "Ҡыҫҡа ял йәки оҙон ял — ҡайһыһы яҡшыраҡ?", "sideA": "Ҡыҫҡа", "sideB": "Оҙон", "level": "starter", "theme": "travel", "ideasA": ["Тиҙ планлаштырыу", "Күп сәйәхәт"], "ideasB": ["Күберәк ял", "Күбрәк күреү"]},
         {"topic": "Хыялый йәки чынбарлыҡ хикәйәләр — ҡайһыһы яҡшыраҡ?", "sideA": "Хыялый", "sideB": "Чынбарлыҡ", "level": "starter", "theme": "social", "ideasA": ["Ҡыҙыҡ хикәйәләр", "Дөньянан ҡасыу"], "ideasB": ["Факттар өйрәнеү", "Чын дөнья"]}
     ];
-    const lang = "ba";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["debates"]) window.speakingData[lang]["debates"] = [];

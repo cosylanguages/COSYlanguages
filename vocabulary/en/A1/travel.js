@@ -1,4 +1,5 @@
 (function() {
+    const lang = "en";
     const data = [
     {
         "id": "en_starter_modes_of_transport_001",
@@ -1146,7 +1147,6 @@
         "sub_theme": null
     }
 ];
-    const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "pt";
     const data = [
     {
         "word": "português",
@@ -56,7 +57,6 @@
         "id": "pt_starter_people_003"
     }
 ];
-    const lang = "pt";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

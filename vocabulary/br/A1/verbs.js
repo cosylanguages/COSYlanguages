@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "br";
     const data = [
     {
         "word": "bezañ",
@@ -4064,9 +4065,6 @@
         "id": "br_starter_work_038"
     }
 ];
-    const lang = "br";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

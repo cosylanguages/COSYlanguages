@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "ru";
     const data = [
     {
         "id": "ru_starter_describing_008",

@@ -1,4 +1,5 @@
 (function() {
+    const lang = "it";
     const data = [
         {
             "topic": "Caffè vs Tè — quale bevanda mattutina è migliore?",
@@ -3537,7 +3538,6 @@
             "id": "it_starter_work_019"
         }
     ];
-    const lang = "it";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["debates"]) window.speakingData[lang]["debates"] = [];

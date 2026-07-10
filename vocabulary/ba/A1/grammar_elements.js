@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ba";
     const data = [
     {
         "word": "мин",
@@ -199,7 +200,6 @@
         "id": "ba_starter_language_004"
     }
 ];
-    const lang = "ba";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

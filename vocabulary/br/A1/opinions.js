@@ -1,4 +1,5 @@
 (function() {
+    const lang = "br";
     const data = [
       { t:"Gwell eo ar kizhier eget ar chas.", tag:"Pets", h:["Ur c'hazh pe ur c'hi az peus?","Petra a garit er c'hizhier? Petra a garit er chas?","Hag-eñ eo aes pe diaes ar c'hizhier?","Petra eo un anv mat evit ul loen-ti?","Hag-eñ o deus da vignoned loened-ti?"] },
       { t:"Ar mintin eo an amzer wellañ eus an deiz.", tag:"Daily life", h:["Da bet eur e tihunit?","Petra a rit d'ar mintin?","Hag-eñ e santit mat d'ar mintin?","Hag-eñ eo gwelloc'h an abardaez evidoc'h?","Petra a zebrit d'ar mintin?"] },
@@ -16,7 +17,6 @@
       { t:"Lous eo ar filmoù kozh.", tag:"Entertainment", h:["Peseurt filmoù a garit?","Hag-eñ e sellit ouzh filmoù kozh pe nevez?","Piv eo ho c'hoarier karetañ?","Petra eo ur film mat?","Pelec'h e sellit ouzh filmoù?"] },
       { t:"Ur mennozh meur eo an ananaz war ar pizza.", tag:"Food", h:["Hag-eñ e karit ar pizza?","Petra eo ho kornad karetañ?","Hag-eñ e lakaoc'h frouezh war boued sall?","Hag-eñ eo brudet kement-mañ en ho pro?","Petra eo ar gornad pizza fallañ evidoc'h?"] }
     ];
-    const lang = "br";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["opinions"]) window.speakingData[lang]["opinions"] = [];

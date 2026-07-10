@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "fr";
 const data = [
     {
         "word": "être",
@@ -5631,8 +5632,6 @@ const data = [
         "id": "fr_starter_work_employment_002"
     }
 ];
-    const lang = "fr";
-    window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

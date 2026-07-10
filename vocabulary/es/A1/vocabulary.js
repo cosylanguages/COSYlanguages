@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "es";
     const data = [
     {
         "word": "jardín",
@@ -2723,8 +2724,6 @@
         "id": "es_starter_shopping_027"
     }
 ];
-
-    const lang = "es";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

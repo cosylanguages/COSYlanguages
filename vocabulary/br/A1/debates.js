@@ -1,4 +1,5 @@
 (function() {
+    const lang = "br";
     const data = [
         {"topic": "Kafe pe te — pezh evaj d'ar beure zo gwelloc'h?", "sideA": "Kafe", "sideB": "Te", "level": "starter", "theme": "food_drink", "ideasA": ["Energiezh", "C'hwezh mat"], "ideasB": ["Yac'h", "Diskuizh"]},
         {"topic": "Preti pe keginañ er gêr — pezh zo gwelloc'h?", "sideA": "Preti", "sideB": "Keginañ er gêr", "level": "starter", "theme": "food_drink", "ideasA": ["Lestri ebet da walc'hiñ", "Keginerien a-vicher"], "ideasB": ["Marc'hadmatoc'h", "Yac'hoc'h"]},
@@ -43,7 +44,6 @@
         {"topic": "Vakañsoù berr pe vakañsoù hir — pezh zo gwelloc'h?", "sideA": "Berr", "sideB": "Hir", "level": "starter", "theme": "travel", "ideasA": ["Aes da aozañ", "Kalz beajoù"], "ideasB": ["Diskuizhañ muioc'h", "Gwelet muioc'h"]},
         {"topic": "Faltazi pe get — pezh zo gwelloc'h?", "sideA": "Faltazi", "sideB": "Get", "level": "starter", "theme": "social", "ideasA": ["Istorioù dudius", "Tec'hel kuit"], "ideasB": ["Deskiñ traoù", "Keleier ar bed"]}
     ];
-    const lang = "br";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["debates"]) window.speakingData[lang]["debates"] = [];

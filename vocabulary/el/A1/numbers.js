@@ -1,4 +1,5 @@
 (function() {
+    const lang = "el";
     const data = [
     {
         "word": "ένα",
@@ -101,7 +102,6 @@
         "id": "el_starter_numbers_005"
     }
 ];
-    const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

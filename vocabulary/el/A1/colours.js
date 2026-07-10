@@ -1,4 +1,5 @@
 (function() {
+    const lang = "el";
     const data = [
     {
         "word": "κόκκινο",
@@ -101,7 +102,6 @@
         "id": "el_starter_colours_005"
     }
 ];
-    const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

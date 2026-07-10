@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ba";
     const data = [
     {
         "word": "баҡса",
@@ -1221,7 +1222,6 @@
         "id": "ba_starter_nature_002"
     }
 ];
-    const lang = "ba";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

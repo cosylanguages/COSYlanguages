@@ -1,4 +1,5 @@
 (function() {
+    const lang = "hy";
     const data = [
     {
         "word": "այգի",
@@ -1197,7 +1198,6 @@
         "id": "hy_starter_nature_002"
     }
 ];
-    const lang = "hy";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

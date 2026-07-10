@@ -1,4 +1,5 @@
 (function() {
+    const lang = "it";
     const data = [
     {
         "word": "uno",
@@ -18,7 +19,11 @@
         ],
         "transcription": "/ˈuno/",
         "lang": "it",
-        "id": "it_starter_numbers_001"
+        "id": "it_starter_numbers_001",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "unus"
+        }
     },
     {
         "word": "due",
@@ -38,7 +43,11 @@
         ],
         "transcription": "/ˈdue/",
         "lang": "it",
-        "id": "it_starter_numbers_002"
+        "id": "it_starter_numbers_002",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "duo"
+        }
     },
     {
         "word": "tre",
@@ -58,7 +67,11 @@
         ],
         "transcription": "/tre/",
         "lang": "it",
-        "id": "it_starter_numbers_003"
+        "id": "it_starter_numbers_003",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tres"
+        }
     },
     {
         "word": "quattro",
@@ -78,7 +91,11 @@
         ],
         "transcription": "/ˈkwattro/",
         "lang": "it",
-        "id": "it_starter_numbers_004"
+        "id": "it_starter_numbers_004",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "quattuor"
+        }
     },
     {
         "word": "cinque",
@@ -98,10 +115,13 @@
         ],
         "transcription": "/ˈtʃinkwe/",
         "lang": "it",
-        "id": "it_starter_numbers_005"
+        "id": "it_starter_numbers_005",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "quinque"
+        }
     }
 ];
-    const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

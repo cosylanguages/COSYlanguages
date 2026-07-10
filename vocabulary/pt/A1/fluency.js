@@ -1,4 +1,5 @@
 (function() {
+    const lang = "pt";
     const data = [
     {
         "t": "Sua família",
@@ -461,7 +462,6 @@
         "id": "pt_starter_places_002"
     }
 ];
-    const lang = "pt";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
     if (!window.speakingData[lang]["talkThatTalk"]) window.speakingData[lang]["talkThatTalk"] = [];

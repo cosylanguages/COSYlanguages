@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "ba";
     const data = [
     {
         "word": "кеше",
@@ -56,7 +57,6 @@
         "id": "ba_starter_people_003"
     }
 ];
-    const lang = "ba";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

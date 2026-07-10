@@ -1,4 +1,5 @@
 (function() {
+    const lang = "ka";
     const data = [
     {
         "word": "მე",
@@ -199,7 +200,6 @@
         "id": "ka_starter_language_004"
     }
 ];
-    const lang = "ka";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "pt";
     const data = [
     {
         "word": "Albert Einstein",
@@ -211,7 +212,6 @@
         "id": "pt_starter_places_011"
     }
 ];
-    if (window.vocabularyData) {
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-    }
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

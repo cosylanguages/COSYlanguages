@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "de";
     const data = [
     {
         "word": "Currywurst",
@@ -62,7 +63,6 @@
         "id": "de_starter_food_drink_003"
     }
 ];
-    const lang = "de";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
