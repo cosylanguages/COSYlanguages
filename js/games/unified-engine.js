@@ -1149,7 +1149,7 @@
                             ${story.length ? story.map(s => `<div style="margin-bottom:8px; border-bottom:1px solid var(--border); padding-bottom:4px;">${esc(s.sentence)} ${reveal ? `(<strong style="color:var(--gold)">${esc(s.word)}</strong>)` : ''}</div>`).join('') : 'No sentences yet…'}
                         </div>
                         <div class="input-row">
-                            <input class="game-input" id="sc-input" placeholder="Type your sentence…" autocomplete="off">
+                            <input class="game-input" id="sc-input" placeholder="Type your sentence…" autocomplete="off" onkeydown="if(event.key==='Enter') COSY_ENGINE.scAdd()">
                             <button class="btn-g-primary" onclick="COSY_ENGINE.scAdd()">Add sentence</button>
                         </div>
                         <div class="game-controls" style="margin-top:1rem">
