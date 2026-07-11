@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "fr";
     const data = [
     {
         "word": "beau",
@@ -1901,5 +1902,5 @@
     }
 ];
     window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData['fr'] = [...(window.adjectivesData['fr'] || []), ...data];
+    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
 })();

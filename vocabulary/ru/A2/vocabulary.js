@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "ru";
     const data = [
     {
         "word": "сад",
@@ -1250,5 +1251,5 @@
     }
 ];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData['ru'] = [...(window.vocabularyData['ru'] || []), ...data];
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

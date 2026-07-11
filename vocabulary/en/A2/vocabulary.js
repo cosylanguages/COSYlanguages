@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "en";
     const data = [
     {
         "word": "garden",
@@ -8324,4 +8325,6 @@
         "id": "en_elementary_language_009"
     }
 ];
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
