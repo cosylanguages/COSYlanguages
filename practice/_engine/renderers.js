@@ -9,14 +9,14 @@
 
     function taskTypeLabel(t) {
         const m = {
-            mc: 'Multiple choice',
-            tf: 'True / False',
-            type: 'Type the answer',
-            conv: 'Speaking task',
-            ls: 'Listen & select',
-            sc: 'Sentence Scramble',
-            op: 'Opposites',
-            np: 'Plurals'
+            mc: '📖 Choice',
+            tf: '✓ / ✗ True/False',
+            type: '✏️ Type',
+            conv: '🗣️ Speak',
+            ls: '🔊 Listen',
+            sc: '🧩 Scramble',
+            op: '≠ Antonym',
+            np: '👥 Plural'
         };
         return m[t] || t;
     }
@@ -31,7 +31,7 @@
             if (q.item && form !== 'sc') {
                 html += `<div style="text-align:center; margin: 1.5rem 0;">
                             <div style="font-size: 4rem;">${q.item.emoji || '💡'}</div>
-                            <div style="font-size: 1.5rem; font-family: 'Fraunces', serif; font-weight: 500; margin-bottom: 0.5rem;">${form === 'ls' ? '???' : (q.item.word || q.item.text || '')}</div>`;
+                            <div style="font-size: 1.5rem; font-family: 'Fraunces', serif; font-weight: 500; margin-bottom: 0.5rem;">${(form === 'ls' || form === 'type' || form === 'op' || form === 'np') ? '???' : (q.item.word || q.item.text || '')}</div>`;
 
                 if (q.item.transcription) {
                     html += `<div style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">${q.item.transcription}</div>`;

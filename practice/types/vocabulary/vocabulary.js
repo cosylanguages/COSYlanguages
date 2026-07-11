@@ -21,13 +21,13 @@
     const QUESTIONS = {
         EN: {
             Vocabulary: [
-                { type:'mc', q:'What does "sibling" mean?', opts:['A brother or sister','A parent','A cousin','A friend'], ans:0, level:'starter', theme:'Family' },
-                { type:'mc', q:'Which word means the opposite of "ancient"?', opts:['Modern','Old','Historic','Antique'], ans:0, level:'elementary', theme:'Arts & Culture' },
-                { type:'tf', q:'"Ubiquitous" means extremely rare.', ans:false, level:'advanced', theme:'Daily Life' },
+                { type:'mc', q:'"sibling" = ?', opts:['A brother or sister','A parent','A cousin','A friend'], ans:0, level:'starter', theme:'Family' },
+                { type:'mc', q:'"ancient" ≠ ?', opts:['Modern','Old','Historic','Antique'], ans:0, level:'elementary', theme:'Arts & Culture' },
+                { type:'tf', q:'"ubiquitous" = "extremely rare"', ans:false, level:'advanced', theme:'Daily Life' },
             ],
             Grammar: [
-                { type:'mc', q:'Choose the correct sentence:', opts:['She don\'t like coffee.','She doesn\'t like coffee.','She not like coffee.','She isn\'t like coffee.'], ans:1, level:'starter', theme:'Tenses' },
-                { type:'tf', q:'"I have been living here for 3 years" uses the present perfect continuous.', ans:true, level:'intermediate', theme:'Tenses' },
+                { type:'mc', q:'✓ ?', opts:['She doesn\'t like coffee.','She don\'t like coffee.','She not like coffee.','She isn\'t like coffee.'], ans:0, level:'starter', theme:'Tenses' },
+                { type:'tf', q:'"I have been living here for 3 years" = present perfect continuous', ans:true, level:'intermediate', theme:'Tenses' },
             ]
         }
     };
@@ -77,31 +77,62 @@
     }
 
     function buildMCQuestion(item, pool) {
-        const definition = item.definitions?.[0]?.text
-            || item.translation
-            || 'the correct meaning';
+        let matchType = 'definition';
 
-        // Pull 2 wrong definitions from other items at same level
-        const distractors = pool
-            .filter(p => p.id !== item.id && p.definitions?.[0]?.text)
-            .sort(() => Math.random() - 0.5)
-            .slice(0, 2)
-            .map(p => p.definitions[0].text);
+        const hasSynonyms = Array.isArray(item.synonyms) && item.synonyms.length > 0;
+        const hasAntonyms = (Array.isArray(item.antonyms) && item.antonyms.length > 0) || !!item.opposite;
 
-        // If fewer than 2 distractors found, use translation-based fallbacks
+        const choices = ['definition'];
+        if (hasSynonyms) choices.push('synonym');
+        if (hasAntonyms) choices.push('antonym');
+
+        matchType = choices[Math.floor(Math.random() * choices.length)];
+
+        let targetText = '';
+        let qText = '';
+
+        if (matchType === 'synonym') {
+            targetText = item.synonyms[0];
+            qText = `"${item.word}" ≈ ?`;
+        } else if (matchType === 'antonym') {
+            targetText = item.antonyms?.[0] || item.opposite;
+            qText = `"${item.word}" ≠ ?`;
+        } else {
+            targetText = item.definitions?.[0]?.text || item.definition || item.translation || item.word || '...';
+            qText = `"${item.word}" = ?`;
+        }
+
+        // Pull distractors
+        let distractors = [];
+        if (matchType === 'definition') {
+            distractors = pool
+                .filter(p => p.id !== item.id && p.definitions?.[0]?.text)
+                .sort(() => Math.random() - 0.5)
+                .map(p => p.definitions[0].text);
+        } else {
+            distractors = pool
+                .filter(p => p.id !== item.id && p.word)
+                .sort(() => Math.random() - 0.5)
+                .map(p => p.word);
+        }
+
+        distractors = [...new Set(distractors)].filter(d => d && d.toLowerCase() !== targetText.toLowerCase());
+        distractors = distractors.slice(0, 2);
+
         while (distractors.length < 2) {
             const fallback = pool
                 .filter(p => p.id !== item.id)
                 .sort(() => Math.random() - 0.5)[0];
-            distractors.push(fallback?.translation || 'none of the above');
+            const fallbackVal = matchType === 'definition' ? (fallback?.translation || 'none') : (fallback?.word || 'none');
+            if (fallbackVal && fallbackVal.toLowerCase() !== targetText.toLowerCase()) {
+                distractors.push(fallbackVal);
+            } else {
+                distractors.push('---');
+            }
         }
 
-        // Shuffle the correct answer into a random position
-        const allOpts = [definition, ...distractors]
-            .sort(() => Math.random() - 0.5);
-        const ans = allOpts.indexOf(definition);
-
-        const qText = `What does "${item.word}"${item.transcription ? ' /' + item.transcription + '/' : ''} mean?`;
+        const allOpts = [targetText, ...distractors].sort(() => Math.random() - 0.5);
+        const ans = allOpts.indexOf(targetText);
 
         return {
             type: 'mc',
@@ -249,7 +280,7 @@
             qs = pool.map(item => {
                 const isVocabOrGrammar = (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar' || cat === 'vocabulary');
                 if (isVocabOrGrammar) {
-                    let types = ['mc', 'tf', 'type', 'sc'];
+                    let types = ['mc', 'tf', 'type', 'sc', 'ls'];
                     let type = types[Math.floor(Math.random() * types.length)];
 
                     // FIX 3 — Guard against missing examples for scramble questions
@@ -261,7 +292,7 @@
                     if (type === 'type' && !item.word) type = 'mc';
 
                     let qText = '', ans = null, opts = null;
-                    const definition = item.definitions?.[0]?.text || item.definition || "the correct meaning";
+                    const definition = item.definitions?.[0]?.text || item.definition || item.translation || item.word || "...";
 
                     if (type === 'mc') {
                         const mcQ = buildMCQuestion(item, pool);
@@ -269,28 +300,48 @@
                         ans = mcQ.ans;
                         opts = mcQ.opts;
                     } else if (type === 'ls') {
-                        qText = 'Listen and select the correct word:';
-                        ans = 0;
-                        opts = [definition, 'Wrong option 1', 'Wrong option 2'];
+                        // Fully monolingual Listening Task: options are target words
+                        const otherWords = pool
+                            .filter(p => p.id !== item.id && p.word)
+                            .sort(() => Math.random() - 0.5)
+                            .map(p => p.word);
+                        let distractors = [...new Set(otherWords)].filter(w => w && w.toLowerCase() !== (item.word || '').toLowerCase()).slice(0, 2);
+                        while (distractors.length < 2) {
+                            distractors.push('---');
+                        }
+                        qText = '🔊 ?';
+                        opts = [item.word, ...distractors].sort(() => Math.random() - 0.5);
+                        ans = opts.indexOf(item.word);
                     } else if (type === 'tf') {
+                        // Fully monolingual True/False
                         const isTrue = Math.random() > 0.5;
-                        const displayDef = isTrue ? definition : "something else entirely";
-                        qText = `"${item.word}" means "${displayDef}".`;
+                        let displayDef = definition;
+                        if (!isTrue) {
+                            const otherItems = pool.filter(p => p.id !== item.id && (p.definitions?.[0]?.text || p.definition));
+                            if (otherItems.length > 0) {
+                                const randomOther = otherItems[Math.floor(Math.random() * otherItems.length)];
+                                displayDef = randomOther.definitions?.[0]?.text || randomOther.definition;
+                            } else {
+                                displayDef = "---";
+                            }
+                        }
+                        qText = `"${item.word}" = "${displayDef}"`;
                         ans = isTrue;
                     } else if (type === 'sc') {
+                        // Fully monolingual Sentence Scramble
                         const examplesArr = (item.examples && item.examples.length > 0) ? item.examples : (item.definitions?.[0]?.examples || []);
                         const ex = examplesArr[Math.floor(Math.random() * examplesArr.length)];
                         if (!ex?.text) {
                             type = 'type';
                         } else {
-                            qText = 'Arrange the words:';
+                            qText = `🧩 (${item.word})`;
                             ans = ex.text;
                         }
                     }
 
                     if (type === 'type') {
-                        qText = `${item.emoji || ''} ${definition || 'Type the word:'}`.trim();
-                        if (qText === item.emoji || !qText) qText = 'Type the word:';
+                        // Fully monolingual Typing task
+                        qText = `"${definition}" = ?`;
                         ans = item.word;
                     }
 
@@ -316,7 +367,7 @@
                     const correctIpa = item.ipa;
                     const distractors = ['/a/', '/i/', '/u/', '/e/', '/o/'].filter(i => i !== correctIpa).sort(() => Math.random() - 0.5).slice(0, 2);
                     const opts = [correctIpa, ...distractors].sort(() => Math.random() - 0.5);
-                    return { form: 'ls', q: 'Listen and select the correct IPA sound:', item: item, ans: opts.indexOf(correctIpa), opts: opts, theme: item.theme };
+                    return { form: 'ls', q: '🔊 ?', item: item, ans: opts.indexOf(correctIpa), opts: opts, theme: item.theme };
                 }
                 return item;
             });
