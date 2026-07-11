@@ -581,3 +581,133 @@
   .mc-options { grid-template-columns: 1fr; }
   .sum-stats { gap: 1rem; }
 }
+
+/* ── MONOLINGUAL FORMULA LAYOUTS ── */
+.pe-question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 2rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.pe-question .q-word {
+  font-weight: 600;
+  color: var(--teal);
+  background: var(--teal-light);
+  padding: 4px 14px;
+  border-radius: var(--r-md);
+  border: 1px dashed var(--teal);
+  font-size: 1.4rem;
+  display: inline-block;
+  box-shadow: 0 2px 6px rgba(45,125,111,0.06);
+}
+
+.pe-question .q-symbol {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--coral);
+  display: inline-block;
+  transform: scale(1.1);
+  padding: 0 4px;
+}
+
+.pe-question .q-target {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  color: var(--ink-faint);
+  background: rgba(28,25,23,0.04);
+  border: 2px dashed var(--border-hover);
+  padding: 4px 16px;
+  border-radius: var(--r-md);
+  font-size: 1.2rem;
+  min-width: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pe-question .q-definition {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--ink-muted);
+  max-width: 90%;
+  display: inline-block;
+}
+
+/* Styled Question Card */
+.pe-question-card {
+  text-align: center;
+  margin: 1.5rem auto 2rem;
+  padding: 1.5rem;
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 12px rgba(28,25,23,0.03);
+  border-radius: var(--r-lg);
+  max-width: 320px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.pe-question-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(28,25,23,0.08);
+}
+.pe-card-emoji {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  user-select: none;
+}
+.pe-card-word {
+  font-size: 1.6rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  color: var(--ink);
+}
+.pe-card-transcription {
+  font-size: 0.9rem;
+  color: var(--ink-faint);
+  margin-bottom: 0.8rem;
+  font-family: monospace;
+}
+.pe-card-speak-btn {
+  padding: 5px 14px !important;
+  font-size: 0.8rem !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Floating animation helper */
+.floating-score-pop {
+  position: absolute;
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  pointer-events: none;
+  animation: floatUpAndFade 1s cubic-bezier(0.18, 0.89, 0.32, 1.28) forwards;
+  z-index: 1000;
+}
+@keyframes floatUpAndFade {
+  0% { transform: translateY(0) scale(0.5); opacity: 0; }
+  20% { transform: translateY(-10px) scale(1.1); opacity: 1; }
+  100% { transform: translateY(-35px) scale(1); opacity: 0; }
+}
+
+/* MC Opts Enhancement */
+.mc-opt {
+  box-shadow: 0 2px 4px rgba(28,25,23,0.02);
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mc-opt:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(45,125,111,0.1);
+}
+.mc-opt:active:not(:disabled) {
+  transform: translateY(1px);
+}

@@ -7,6 +7,62 @@
 (function() {
     'use strict';
 
+    function formatQuestionText(q) {
+        const text = q.q || '';
+        const form = q.form || q.type;
+        const item = q.item;
+
+        if (item) {
+            if (form === 'mc' || form === 'ls') {
+                if (text.includes('≈')) {
+                    return `"<span class="q-word">${item.word}</span>" <span class="q-symbol">≈</span> <span class="q-target">?</span>`;
+                } else if (text.includes('≠')) {
+                    return `"<span class="q-word">${item.word}</span>" <span class="q-symbol">≠</span> <span class="q-target">?</span>`;
+                } else if (text.includes('=')) {
+                    return `"<span class="q-word">${item.word}</span>" <span class="q-symbol">=</span> <span class="q-target">?</span>`;
+                } else if (text.includes('🔊')) {
+                    return `<span class="q-symbol">🔊</span> <span class="q-target">?</span>`;
+                }
+            } else if (form === 'tf') {
+                const parts = text.split(' = ');
+                const defPart = parts[1] ? parts[1].replace(/"/g, '') : '...';
+                return `"<span class="q-word">${item.word}</span>" <span class="q-symbol">=</span> "<span class="q-definition">${defPart}</span>"`;
+            } else if (form === 'type') {
+                const definition = item.definitions?.[0]?.text || item.definition || item.translation || '...';
+                return `"<span class="q-definition">${definition}</span>" <span class="q-symbol">=</span> <span class="q-target">?</span>`;
+            } else if (form === 'sc') {
+                return `<span class="q-symbol">🧩</span> <span class="q-theme">(${item.word})</span>`;
+            } else if (form === 'op') {
+                return `"<span class="q-word">${item.word}</span>" <span class="q-symbol">≠</span> <span class="q-target">?</span>`;
+            } else if (form === 'np') {
+                return `"<span class="q-word">${item.word}</span>" <span class="q-symbol">+ 👥</span> <span class="q-target">?</span>`;
+            }
+        }
+
+        // Fallbacks
+        if (text.includes(' = ?')) {
+            const word = text.split(' = ?')[0].replace(/"/g, '');
+            return `"<span class="q-word">${word}</span>" <span class="q-symbol">=</span> <span class="q-target">?</span>`;
+        } else if (text.includes(' ≈ ?')) {
+            const word = text.split(' ≈ ?')[0].replace(/"/g, '');
+            return `"<span class="q-word">${word}</span>" <span class="q-symbol">≈</span> <span class="q-target">?</span>`;
+        } else if (text.includes(' ≠ ?')) {
+            const word = text.split(' ≠ ?')[0].replace(/"/g, '');
+            return `"<span class="q-word">${word}</span>" <span class="q-symbol">≠</span> <span class="q-target">?</span>`;
+        } else if (text.includes(' = "')) {
+            const parts = text.split(' = "');
+            const word = parts[0].replace(/"/g, '');
+            const def = parts[1] ? parts[1].slice(0, -1) : '';
+            return `"<span class="q-word">${word}</span>" <span class="q-symbol">=</span> "<span class="q-definition">${def}</span>"`;
+        } else if (text.includes('🧩')) {
+            return text;
+        } else if (text.includes('🔊')) {
+            return `<span class="q-symbol">🔊</span> <span class="q-target">?</span>`;
+        }
+
+        return text;
+    }
+
     function taskTypeLabel(t) {
         const m = {
             mc: '📖 Choice',
@@ -25,20 +81,20 @@
         renderQuestion(q, session, lang) {
             const form = q.form || q.type;
             let html = `<div class="pe-task-type">${taskTypeLabel(form)}</div>`;
-            html += `<div class="pe-question">${q.q || ''}</div>`;
+            html += `<div class="pe-question">${formatQuestionText(q)}</div>`;
 
             // Visual helper (Emoji/Word)
             if (q.item && form !== 'sc') {
-                html += `<div style="text-align:center; margin: 1.5rem 0;">
-                            <div style="font-size: 4rem;">${q.item.emoji || '💡'}</div>
-                            <div style="font-size: 1.5rem; font-family: 'Fraunces', serif; font-weight: 500; margin-bottom: 0.5rem;">${(form === 'ls' || form === 'type' || form === 'op' || form === 'np') ? '???' : (q.item.word || q.item.text || '')}</div>`;
+                html += `<div class="pe-question-card">
+                            <div class="pe-card-emoji">${q.item.emoji || '💡'}</div>
+                            <div class="pe-card-word">${(form === 'ls' || form === 'type' || form === 'op' || form === 'np') ? '???' : (q.item.word || q.item.text || '')}</div>`;
 
                 if (q.item.transcription) {
-                    html += `<div style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">${q.item.transcription}</div>`;
+                    html += `<div class="pe-card-transcription">${q.item.transcription}</div>`;
                 }
 
                 if (window.gameUtils && window.gameUtils.speak) {
-                    html += `<button class="btn-outline" style="padding: 4px 12px; font-size: 0.8rem;" onclick="window.gameUtils.speak('${q.item.word || q.item.text}', '${lang}')">🔊 Listen</button>`;
+                    html += `<button class="btn-outline pe-card-speak-btn" onclick="window.gameUtils.speak('${q.item.word || q.item.text}', '${lang}')">🔊 Listen</button>`;
                 }
                 html += `</div>`;
             }
