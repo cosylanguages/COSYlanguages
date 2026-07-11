@@ -200,49 +200,89 @@
             this.updateUI();
             this.populateRecentAndMistakes();
 
-            // Keyboard shortcuts for active practice
+            // Global interactive keyboard controls & shortcuts
             document.addEventListener('keydown', (e) => {
-                const sess = this.session;
-                if (!sess) return;
+                if (e.key !== 'Enter' && !['1', '2', '3', '4'].includes(e.key)) return;
 
-                const practiceSec = document.getElementById('practice-section');
-                if (!practiceSec || !practiceSec.classList.contains('active')) return;
-
-                // If currently typing in input, let normal keys type
-                if (document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA')) {
+                // 1. If Summary Modal is open, Enter closes it
+                const summaryModal = document.getElementById('summary-modal');
+                if (summaryModal && summaryModal.style.display === 'block') {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        window.cosyPractice.endSession();
+                    }
                     return;
                 }
 
-                const q = sess.sessionQueue[sess.currentIndex];
-                if (!q) return;
-                const form = q.form || q.type;
-
-                if (e.key === 'Enter') {
-                    const nextBtn = document.getElementById('pe-next');
-                    const isNextVisible = nextBtn && nextBtn.style.display !== 'none';
-                    if (isNextVisible) {
+                // 2. If Spinning Wheel is open, Enter spins it
+                const wheelContainer = document.getElementById('wheel-container');
+                if (wheelContainer && wheelContainer.style.display === 'block') {
+                    if (e.key === 'Enter') {
                         e.preventDefault();
-                        this.nextQuestion();
-                    }
-                } else if (['1', '2', '3', '4'].includes(e.key)) {
-                    if (form === 'mc' || form === 'ls') {
-                        const idx = parseInt(e.key) - 1;
-                        const buttons = document.querySelectorAll('.mc-opt');
-                        if (buttons[idx] && !buttons[idx].disabled) {
-                            e.preventDefault();
-                            buttons[idx].click();
-                        }
-                    } else if (form === 'tf') {
-                        if (e.key === '1') {
-                            e.preventDefault();
-                            const btn = document.querySelector('.tf-btn:first-child');
-                            if (btn && !btn.disabled) btn.click();
-                        } else if (e.key === '2') {
-                            e.preventDefault();
-                            const btn = document.querySelector('.tf-btn:last-child');
-                            if (btn && !btn.disabled) btn.click();
+                        const spinBtn = document.getElementById('spin-btn');
+                        if (spinBtn && !spinBtn.disabled) {
+                            spinBtn.click();
                         }
                     }
+                    return;
+                }
+
+                // 3. If Practice Section is active
+                const practiceSec = document.getElementById('practice-section');
+                const isPracticeActive = practiceSec && practiceSec.classList.contains('active');
+                if (isPracticeActive) {
+                    const sess = this.session;
+                    if (!sess) return;
+
+                    // If typing in input, let normal keys type
+                    if (document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA')) {
+                        return;
+                    }
+
+                    const q = sess.sessionQueue[sess.currentIndex];
+                    if (!q) return;
+                    const form = q.form || q.type;
+
+                    if (e.key === 'Enter') {
+                        const nextBtn = document.getElementById('pe-next');
+                        const isNextVisible = nextBtn && nextBtn.style.display !== 'none';
+                        if (isNextVisible) {
+                            e.preventDefault();
+                            this.nextQuestion();
+                        }
+                    } else if (['1', '2', '3', '4'].includes(e.key)) {
+                        if (form === 'mc' || form === 'ls') {
+                            const idx = parseInt(e.key) - 1;
+                            const buttons = document.querySelectorAll('.mc-opt');
+                            if (buttons[idx] && !buttons[idx].disabled) {
+                                e.preventDefault();
+                                buttons[idx].click();
+                            }
+                        } else if (form === 'tf') {
+                            if (e.key === '1') {
+                                e.preventDefault();
+                                const btn = document.querySelector('.tf-btn:first-child');
+                                if (btn && !btn.disabled) btn.click();
+                            } else if (e.key === '2') {
+                                e.preventDefault();
+                                const btn = document.querySelector('.tf-btn:last-child');
+                                if (btn && !btn.disabled) btn.click();
+                            }
+                        }
+                    }
+                    return;
+                }
+
+                // 4. If Setup panel is visible and active, Enter starts the practice
+                const setupSec = document.getElementById('setup-section');
+                const isSetupVisible = setupSec && setupSec.style.display !== 'none' && !setupSec.classList.contains('hidden');
+                if (isSetupVisible && e.key === 'Enter') {
+                    // Make sure we aren't focused on a select element, so Enter doesn't prevent select drop-downs
+                    if (document.activeElement && document.activeElement.tagName === 'SELECT') {
+                        return;
+                    }
+                    e.preventDefault();
+                    window.cosyPractice.startPractice();
                 }
             });
         },
