@@ -29,6 +29,46 @@
                 { type:'mc', q:'✓ ?', opts:['She doesn\'t like coffee.','She don\'t like coffee.','She not like coffee.','She isn\'t like coffee.'], ans:0, level:'starter', theme:'Tenses' },
                 { type:'tf', q:'"I have been living here for 3 years" = present perfect continuous', ans:true, level:'intermediate', theme:'Tenses' },
             ]
+        },
+        FR: {
+            Vocabulary: [
+                { type:'mc', q:'"frère" = ?', opts:['Le fils des mêmes parents','Un parent éloigné','Un ami d’enfance','Une sœur'], ans:0, level:'starter', theme:'Family' },
+                { type:'mc', q:'"ancien" ≠ ?', opts:['Moderne','Vieux','Historique','Antique'], ans:0, level:'elementary', theme:'Arts & Culture' },
+                { type:'tf', q:'"rapide" = "très lent"', ans:false, level:'starter', theme:'Daily Life' }
+            ],
+            Grammar: [
+                { type:'mc', q:'✓ ?', opts:['Elle n’aime pas le café.','Elle ne aime pas le café.','Elle pas aime le café.','Elle aime pas le café.'], ans:0, level:'starter', theme:'Tenses' }
+            ]
+        },
+        IT: {
+            Vocabulary: [
+                { type:'mc', q:'"fratello" = ?', opts:['Il figlio dei propri genitori','Un genitore','Un cugino','Un amico'], ans:0, level:'starter', theme:'Family' },
+                { type:'mc', q:'"antico" ≠ ?', opts:['Moderno','Vecchio','Storico','Antico'], ans:0, level:'elementary', theme:'Arts & Culture' },
+                { type:'tf', q:'"veloce" = "molto lento"', ans:false, level:'starter', theme:'Daily Life' }
+            ],
+            Grammar: [
+                { type:'mc', q:'✓ ?', opts:['A lei non piace il caffè.','Lei non piace il caffè.','Lei no piace il caffè.','A lei non piacciono il caffè.'], ans:0, level:'starter', theme:'Tenses' }
+            ]
+        },
+        RU: {
+            Vocabulary: [
+                { type:'mc', q:'"брат" = ?', opts:['Сын тех же родителей','Родитель','Двоюродный брат','Друг'], ans:0, level:'starter', theme:'Family' },
+                { type:'mc', q:'"древний" ≠ ?', opts:['Современный','Старый','Исторический','Античный'], ans:0, level:'elementary', theme:'Arts & Culture' },
+                { type:'tf', q:'"быстрый" = "очень медленный"', ans:false, level:'starter', theme:'Daily Life' }
+            ],
+            Grammar: [
+                { type:'mc', q:'✓ ?', opts:['Она не любит кофе.','Она нет любит кофе.','Она не любить кофе.','Она кофе не любит.'], ans:0, level:'starter', theme:'Tenses' }
+            ]
+        },
+        EL: {
+            Vocabulary: [
+                { type:'mc', q:'"αδελφός" = ?', opts:['Ο γιος των ίδιων γονέων','Ένας γονέας','Ένας ξάδελφος','Ένας φίλος'], ans:0, level:'starter', theme:'Family' },
+                { type:'mc', q:'"αρχαίος" ≠ ?', opts:['Σύγχρονος','Παλιός','Ιστορικός','Αντίκα'], ans:0, level:'elementary', theme:'Arts & Culture' },
+                { type:'tf', q:'"γρήγορος" = "πολύ αργός"', ans:false, level:'starter', theme:'Daily Life' }
+            ],
+            Grammar: [
+                { type:'mc', q:'✓ ?', opts:['Δεν της αρέσει ο καφές.','Δεν αρέσει ο καφές αυτής.','Δεν την αρέσει ο καφές.','Δεν της αρέσουν ο καφές.'], ans:0, level:'starter', theme:'Tenses' }
+            ]
         }
     };
 

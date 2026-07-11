@@ -74,14 +74,45 @@
         if (!parent) return;
 
         const el = document.createElement('div');
-        el.className = 'floating-score-pop';
+        el.className = 'floating-points-pop';
         el.textContent = text;
         el.style.color = isCorrect ? 'var(--teal)' : 'var(--coral)';
         parent.appendChild(el);
 
         setTimeout(() => {
             el.remove();
-        }, 1000);
+        }, 1200);
+    }
+
+    function showBottomFeedback(isCorrect, title, desc, autoAdvanceMs = null) {
+        const bar = document.getElementById('pe-bottom-bar');
+        const iconEl = document.getElementById('pe-bb-icon');
+        const titleEl = document.getElementById('pe-bb-title');
+        const descEl = document.getElementById('pe-bb-desc');
+
+        if (bar) {
+            bar.className = 'pe-bottom-bar active ' + (isCorrect ? 'correct' : 'incorrect');
+            if (iconEl) iconEl.textContent = isCorrect ? '🎉' : '❌';
+            if (titleEl) titleEl.textContent = title;
+            if (descEl) descEl.textContent = desc;
+            document.body.classList.add('has-active-bottom-bar');
+        }
+
+        // Apply visual bounce or shake to the question card
+        const card = document.querySelector('.pe-question-card');
+        if (card) {
+            card.classList.remove('pe-bounce', 'pe-shake');
+            // Trigger reflow to restart animation
+            void card.offsetWidth;
+            card.classList.add(isCorrect ? 'pe-bounce' : 'pe-shake');
+        }
+
+        if (autoAdvanceMs) {
+            if (engine.autoAdvanceTimeout) clearTimeout(engine.autoAdvanceTimeout);
+            engine.autoAdvanceTimeout = setTimeout(() => {
+                engine.nextQuestion();
+            }, autoAdvanceMs);
+        }
     }
 
     function triggerConfetti() {
@@ -362,8 +393,14 @@
                 if (this.session.combo > 1) {
                     comboCount.textContent = this.session.combo;
                     comboWrap.style.display = 'block';
+                    if (this.session.combo >= 3) {
+                        comboWrap.classList.add('pulsing-glow');
+                    } else {
+                        comboWrap.classList.remove('pulsing-glow');
+                    }
                 } else {
                     comboWrap.style.display = 'none';
+                    comboWrap.classList.remove('pulsing-glow');
                 }
             }
 
@@ -408,7 +445,10 @@
             if (this.session) {
                 this.session.combo = 0;
                 const comboWrap = document.getElementById('combo-wrap');
-                if (comboWrap) comboWrap.style.display = 'none';
+                if (comboWrap) {
+                    comboWrap.style.display = 'none';
+                    comboWrap.classList.remove('pulsing-glow');
+                }
 
                 // Play wrong sound and show floating effect
                 playPracticeSound('wrong');
@@ -480,6 +520,17 @@
         loadEntry(q) {
             if (!this.session || !q) return;
 
+            // Reset Duolingo-style bottom bar
+            const bar = document.getElementById('pe-bottom-bar');
+            if (bar) {
+                bar.classList.remove('active', 'correct', 'incorrect');
+            }
+            document.body.classList.remove('has-active-bottom-bar');
+            if (this.autoAdvanceTimeout) {
+                clearTimeout(this.autoAdvanceTimeout);
+                this.autoAdvanceTimeout = null;
+            }
+
             // Progress bar update
             const fill = document.getElementById('progress-fill');
             const total = this.session.sessionQueue.length;
@@ -519,6 +570,12 @@
 
         nextQuestion() {
             if (!this.session) return;
+
+            if (this.autoAdvanceTimeout) {
+                clearTimeout(this.autoAdvanceTimeout);
+                this.autoAdvanceTimeout = null;
+            }
+
             const q = this.session.sessionQueue[this.session.currentIndex];
             if (!q) {
                 this.showSummary();
@@ -527,7 +584,8 @@
 
             const form = q.form || q.type;
             const fb = document.getElementById('pe-fb');
-            const isAnswered = fb && fb.classList.contains('show');
+            const bar = document.getElementById('pe-bottom-bar');
+            const isAnswered = (fb && fb.classList.contains('show')) || (bar && bar.classList.contains('active'));
 
             if (!isAnswered && (form === 'type' || form === 'sc' || form === 'op' || form === 'np')) {
                 if (form === 'sc') window.checkScramble();
@@ -550,6 +608,16 @@
             const s = this.state;
             const sess = this.session;
             if (!sess) return;
+
+            const bar = document.getElementById('pe-bottom-bar');
+            if (bar) {
+                bar.classList.remove('active', 'correct', 'incorrect');
+            }
+            document.body.classList.remove('has-active-bottom-bar');
+            if (this.autoAdvanceTimeout) {
+                clearTimeout(this.autoAdvanceTimeout);
+                this.autoAdvanceTimeout = null;
+            }
 
             const practiceSection = document.getElementById('practice-section');
             if (practiceSection) {
@@ -590,6 +658,17 @@
 
         endSession() {
             this.session = null;
+
+            const bar = document.getElementById('pe-bottom-bar');
+            if (bar) {
+                bar.classList.remove('active', 'correct', 'incorrect');
+            }
+            document.body.classList.remove('has-active-bottom-bar');
+            if (this.autoAdvanceTimeout) {
+                clearTimeout(this.autoAdvanceTimeout);
+                this.autoAdvanceTimeout = null;
+            }
+
             document.getElementById('practice-section').classList.add('hidden');
             document.getElementById('practice-section').classList.remove('active');
 
@@ -663,14 +742,21 @@
 
         if (i === ans) {
             engine.awardPoints(10);
-            fb.className = 'pe-feedback show ok';
-            fb.innerHTML = '✅ Correct! +10 pts';
+            if (fb) {
+                fb.className = 'pe-feedback show ok';
+                fb.innerHTML = '✅ Correct! +10 pts';
+            }
+            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 600);
         } else {
             engine.recordMistake(q);
-            fb.className = 'pe-feedback show bad';
-            fb.innerHTML = '❌ Incorrect.';
+            if (fb) {
+                fb.className = 'pe-feedback show bad';
+                fb.innerHTML = '❌ Incorrect.';
+            }
+            const correctOpt = q.opts ? q.opts[ans] : '';
+            const desc = correctOpt ? `Correct answer: ${correctOpt}` : '';
+            showBottomFeedback(false, 'Incorrect', desc, 600);
         }
-        setTimeout(() => engine.nextQuestion(), 600);
     };
 
     window.checkTF = (val) => {
@@ -682,14 +768,19 @@
 
         if (val === q.ans) {
             engine.awardPoints(10);
-            fb.className = 'pe-feedback show ok';
-            fb.innerHTML = '✅ Correct! +10 pts';
+            if (fb) {
+                fb.className = 'pe-feedback show ok';
+                fb.innerHTML = '✅ Correct! +10 pts';
+            }
+            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 600);
         } else {
             engine.recordMistake(q);
-            fb.className = 'pe-feedback show bad';
-            fb.innerHTML = '❌ Incorrect.';
+            if (fb) {
+                fb.className = 'pe-feedback show bad';
+                fb.innerHTML = '❌ Incorrect.';
+            }
+            showBottomFeedback(false, 'Incorrect', `Correct answer: ${q.ans ? 'True' : 'False'}`, 600);
         }
-        setTimeout(() => engine.nextQuestion(), 600);
     };
 
     window.checkType = () => {
@@ -706,15 +797,20 @@
         if (userAnswer === correctAnswer) {
             engine.awardPoints(10);
             inp.classList.add('correct');
-            fb.className = 'pe-feedback show ok';
-            fb.innerHTML = '✅ Correct! +10 pts';
+            if (fb) {
+                fb.className = 'pe-feedback show ok';
+                fb.innerHTML = '✅ Correct! +10 pts';
+            }
+            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉');
         } else {
             engine.recordMistake(q);
             inp.classList.add('wrong');
-            fb.className = 'pe-feedback show bad';
-            fb.innerHTML = '❌ Answer: ' + correctAnswer;
+            if (fb) {
+                fb.className = 'pe-feedback show bad';
+                fb.innerHTML = '❌ Answer: ' + correctAnswer;
+            }
+            showBottomFeedback(false, 'Incorrect', `Correct answer: ${correctAnswer}`);
         }
-        setTimeout(() => engine.nextQuestion(), 600);
     };
 
     window.assembleWord = (btn) => {
@@ -743,14 +839,19 @@
 
         if (val.trim().toLowerCase() === q.ans.trim().toLowerCase()) {
             engine.awardPoints(10);
-            fb.className = 'pe-feedback show ok';
-            fb.innerHTML = '✅ Correct! +10 pts';
+            if (fb) {
+                fb.className = 'pe-feedback show ok';
+                fb.innerHTML = '✅ Correct! +10 pts';
+            }
+            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 600);
         } else {
             engine.recordMistake(q);
-            fb.className = 'pe-feedback show bad';
-            fb.innerHTML = '❌ Incorrect.';
+            if (fb) {
+                fb.className = 'pe-feedback show bad';
+                fb.innerHTML = '❌ Incorrect.';
+            }
+            showBottomFeedback(false, 'Incorrect', `Correct answer: ${q.ans}`, 600);
         }
-        setTimeout(() => engine.nextQuestion(), 600);
     };
 
     if (document.readyState === 'complete') engine.init();
