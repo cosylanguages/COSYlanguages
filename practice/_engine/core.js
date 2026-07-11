@@ -265,6 +265,15 @@
                     const sess = this.session;
                     if (!sess) return;
 
+                    const bar = document.getElementById('pe-bottom-bar');
+                    const isBarActive = bar && bar.classList.contains('active');
+
+                    if (e.key === 'Enter' && isBarActive) {
+                        e.preventDefault();
+                        this.nextQuestion();
+                        return;
+                    }
+
                     // If typing in input, let normal keys type
                     if (document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA')) {
                         return;

@@ -1584,7 +1584,43 @@
     /* ══════════════════════════════════════
        BOOT
     ══════════════════════════════════════ */
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') window.closeGame(); });
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+            window.closeGame();
+            return;
+        }
+
+        if (e.key === 'Enter') {
+            const overlay = document.getElementById('game-overlay');
+            if (overlay && overlay.classList.contains('open')) {
+                // If focused on an input or textarea, let it handle itself
+                const active = document.activeElement;
+                if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.isContentEditable)) {
+                    // But if it's crossword cell inputs, Enter should check/submit!
+                    if (active.classList.contains('cw-input')) {
+                        // Handled by crossword keydown
+                        return;
+                    }
+                    return;
+                }
+
+                // Find primary action buttons in order of priority
+                const priorities = [
+                    '#ff-btn', '#op-start', '#cc-btn', '#wl-next', '#et-next',
+                    '.btn-start-game', '.btn-g-primary', '#pe-bb-btn', '.pe-bb-action-btn'
+                ];
+
+                for (const selector of priorities) {
+                    const btn = overlay.querySelector(selector);
+                    if (btn && btn.offsetParent !== null && !btn.disabled) {
+                        e.preventDefault();
+                        btn.click();
+                        return;
+                    }
+                }
+            }
+        }
+    });
 
     window.addEventListener('load', () => {
         const params = new URLSearchParams(window.location.search);
