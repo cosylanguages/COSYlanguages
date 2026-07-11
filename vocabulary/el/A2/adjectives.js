@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "el";
     const data = [
     {
         "word": "όμορφος",
@@ -1722,5 +1723,5 @@
     }
 ];
     window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData['el'] = [...(window.adjectivesData['el'] || []), ...data];
+    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
 })();

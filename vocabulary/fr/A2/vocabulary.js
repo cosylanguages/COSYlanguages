@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "fr";
     const data = [
     {
         "word": "jardin",
@@ -1296,5 +1297,5 @@
     }
 ];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData['fr'] = [...(window.vocabularyData['fr'] || []), ...data];
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

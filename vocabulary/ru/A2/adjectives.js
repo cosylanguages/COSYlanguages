@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "ru";
     const data = [
     {
         "word": "красивый",
@@ -1557,5 +1558,5 @@
     }
 ];
     window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData['ru'] = [...(window.adjectivesData['ru'] || []), ...data];
+    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
 })();

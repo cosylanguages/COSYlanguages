@@ -33,6 +33,13 @@
         { word: 'Biology', options: ['Greek', 'Latin', 'French', 'Dutch'], answer: 'Greek', level: 'starter', path: 'Biology → Biologie (German/French) → Bios + Logia (Greek)', detail: 'From "bios" (life) + "logia" (study).' },
         { word: 'Hotel', options: ['French', 'Latin', 'Spanish', 'German'], answer: 'French', level: 'starter', path: 'Hotel → Hôtel (French) → Hostel (Old French) → Hospitale (Latin)', detail: 'Related to "hospitality".' },
 
+        { word: 'Salary', options: ['Latin', 'Greek', 'Arabic', 'French'], answer: 'Latin', level: 'elementary', path: 'Salary → Salaire (French) → Salarium (Latin)', detail: 'From "sal" (salt), originally salt money paid to Roman soldiers.' },
+        { word: 'Zero', options: ['Arabic', 'Sanskrit', 'Greek', 'Latin'], answer: 'Arabic', level: 'elementary', path: 'Zero → Zero (French/Italian) → Sifr (Arabic)', detail: 'From "sifr" (empty, cipher).' },
+        { word: 'Candidate', options: ['Latin', 'Greek', 'French', 'German'], answer: 'Latin', level: 'elementary', path: 'Candidate → Candidatus (Latin) → Candidus (shining white)', detail: 'Roman political office-seekers wore bright white togas.' },
+        { word: 'Paper', options: ['Greek', 'Latin', 'Egyptian', 'Chinese'], answer: 'Greek', level: 'elementary', path: 'Paper → Papier (Old French) → Papyrus (Latin) → Papyros (Greek)', detail: 'Named after the Cyperus papyrus plant used to make writing material.' },
+        { word: 'Avocado', options: ['Nahuatl', 'Spanish', 'Maya', 'Quechua'], answer: 'Nahuatl', level: 'elementary', path: 'Avocado → Aguacate (Spanish) → Āhuacatl (Nahuatl)', detail: 'From the Aztec word meaning "testicle" (due to its shape).' },
+        { word: 'Gym', options: ['Greek', 'Latin', 'German', 'French'], answer: 'Greek', level: 'elementary', path: 'Gym → Gymnasium (Latin) → Gymnasion (Greek)', detail: 'From "gymnos" (naked), as athletes in ancient Greece trained without clothes.' },
+
         { word: 'Algebra', options: ['Arabic', 'Greek', 'Latin', 'Persian'], answer: 'Arabic', level: 'intermediate', path: 'Algebra → Al-jabr (Arabic)', detail: 'Meaning "reunion of broken parts".' },
         { word: 'Safari', options: ['Arabic', 'Swahili', 'Hindi', 'Zulu'], answer: 'Arabic', level: 'intermediate', path: 'Safari → Safari (Swahili) → Safar (Arabic)', detail: 'From "safara" (to travel).' },
         { word: 'Robot', options: ['Czech', 'Russian', 'German', 'Polish'], answer: 'Czech', level: 'intermediate', path: 'Robot → Robota (Czech)', detail: 'Coined by Josef Čapek from "robota" (forced labour).' },
