@@ -7,6 +7,151 @@
 (function() {
     'use strict';
 
+    function playPracticeSound(type) {
+        try {
+            const AudioContext = window.AudioContext || window.webkitAudioContext;
+            if (!AudioContext) return;
+            const ctx = new AudioContext();
+
+            if (type === 'correct') {
+                const osc = ctx.createOscillator();
+                const gain = ctx.createGain();
+
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(523.25, ctx.currentTime);
+                osc.frequency.setValueAtTime(659.25, ctx.currentTime + 0.08);
+
+                gain.gain.setValueAtTime(0.12, ctx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.35);
+
+                osc.connect(gain);
+                gain.connect(ctx.destination);
+
+                osc.start();
+                osc.stop(ctx.currentTime + 0.35);
+            } else if (type === 'wrong') {
+                const osc = ctx.createOscillator();
+                const gain = ctx.createGain();
+
+                osc.type = 'triangle';
+                osc.frequency.setValueAtTime(150, ctx.currentTime);
+                osc.frequency.linearRampToValueAtTime(110, ctx.currentTime + 0.25);
+
+                gain.gain.setValueAtTime(0.18, ctx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.25);
+
+                osc.connect(gain);
+                gain.connect(ctx.destination);
+
+                osc.start();
+                osc.stop(ctx.currentTime + 0.25);
+            } else if (type === 'complete') {
+                const notes = [523.25, 659.25, 783.99, 1046.50];
+                notes.forEach((freq, i) => {
+                    const osc = ctx.createOscillator();
+                    const gain = ctx.createGain();
+
+                    osc.type = 'sine';
+                    osc.frequency.setValueAtTime(freq, ctx.currentTime + i * 0.08);
+
+                    gain.gain.setValueAtTime(0.1, ctx.currentTime + i * 0.08);
+                    gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + i * 0.08 + 0.4);
+
+                    osc.connect(gain);
+                    gain.connect(ctx.destination);
+
+                    osc.start(ctx.currentTime + i * 0.08);
+                    osc.stop(ctx.currentTime + i * 0.08 + 0.4);
+                });
+            }
+        } catch (e) {
+            console.warn("AudioContext not supported or blocked", e);
+        }
+    }
+
+    function showFloatingScoreEffect(text, isCorrect = true) {
+        const parent = document.querySelector('.pe-counters');
+        if (!parent) return;
+
+        const el = document.createElement('div');
+        el.className = 'floating-score-pop';
+        el.textContent = text;
+        el.style.color = isCorrect ? 'var(--teal)' : 'var(--coral)';
+        parent.appendChild(el);
+
+        setTimeout(() => {
+            el.remove();
+        }, 1000);
+    }
+
+    function triggerConfetti() {
+        const canvas = document.createElement('canvas');
+        canvas.id = 'confetti-canvas';
+        canvas.style.position = 'fixed';
+        canvas.style.top = '0';
+        canvas.style.left = '0';
+        canvas.style.width = '100vw';
+        canvas.style.height = '100vh';
+        canvas.style.pointerEvents = 'none';
+        canvas.style.zIndex = '9999';
+        document.body.appendChild(canvas);
+
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const colors = ['#2D7D6F', '#B07D2B', '#C4522A', '#2E5FA3', '#3A7A4A', '#6B3F7C'];
+        const particles = [];
+
+        for (let i = 0; i < 150; i++) {
+            particles.push({
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height - canvas.height,
+                r: Math.random() * 6 + 4,
+                d: Math.random() * canvas.height,
+                color: colors[Math.floor(Math.random() * colors.length)],
+                tilt: Math.random() * 10 - 5,
+                tiltAngleIncremental: Math.random() * 0.07 + 0.02,
+                tiltAngle: 0
+            });
+        }
+
+        let animationFrame;
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            let active = false;
+
+            particles.forEach((p) => {
+                p.tiltAngle += p.tiltAngleIncremental;
+                p.y += (Math.cos(p.d) + 3 + p.r / 2) / 2;
+                p.x += Math.sin(p.tiltAngle);
+                p.tilt = Math.sin(p.tiltAngle - p.r / 2) * 5;
+
+                if (p.y <= canvas.height) {
+                    active = true;
+                }
+
+                ctx.beginPath();
+                ctx.lineWidth = p.r;
+                ctx.strokeStyle = p.color;
+                ctx.moveTo(p.x + p.tilt + p.r / 2, p.y);
+                ctx.lineTo(p.x + p.tilt, p.y + p.tilt + p.r / 2);
+                ctx.stroke();
+            });
+
+            if (active) {
+                animationFrame = requestAnimationFrame(draw);
+            } else {
+                canvas.remove();
+            }
+        }
+        draw();
+        setTimeout(() => {
+            cancelAnimationFrame(animationFrame);
+            canvas.remove();
+        }, 4000);
+    }
+
     const KEY_STATE = 'cosy_practice';
     const KEY_TOTAL_PTS = 'cosy_total_points';
     const KEY_STREAK = 'practice_streak';
@@ -54,6 +199,52 @@
             this.save();
             this.updateUI();
             this.populateRecentAndMistakes();
+
+            // Keyboard shortcuts for active practice
+            document.addEventListener('keydown', (e) => {
+                const sess = this.session;
+                if (!sess) return;
+
+                const practiceSec = document.getElementById('practice-section');
+                if (!practiceSec || !practiceSec.classList.contains('active')) return;
+
+                // If currently typing in input, let normal keys type
+                if (document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA')) {
+                    return;
+                }
+
+                const q = sess.sessionQueue[sess.currentIndex];
+                if (!q) return;
+                const form = q.form || q.type;
+
+                if (e.key === 'Enter') {
+                    const nextBtn = document.getElementById('pe-next');
+                    const isNextVisible = nextBtn && nextBtn.style.display !== 'none';
+                    if (isNextVisible) {
+                        e.preventDefault();
+                        this.nextQuestion();
+                    }
+                } else if (['1', '2', '3', '4'].includes(e.key)) {
+                    if (form === 'mc' || form === 'ls') {
+                        const idx = parseInt(e.key) - 1;
+                        const buttons = document.querySelectorAll('.mc-opt');
+                        if (buttons[idx] && !buttons[idx].disabled) {
+                            e.preventDefault();
+                            buttons[idx].click();
+                        }
+                    } else if (form === 'tf') {
+                        if (e.key === '1') {
+                            e.preventDefault();
+                            const btn = document.querySelector('.tf-btn:first-child');
+                            if (btn && !btn.disabled) btn.click();
+                        } else if (e.key === '2') {
+                            e.preventDefault();
+                            const btn = document.querySelector('.tf-btn:last-child');
+                            if (btn && !btn.disabled) btn.click();
+                        }
+                    }
+                }
+            });
         },
 
         save() {
@@ -110,11 +301,36 @@
 
         awardPoints(pts) {
             if (!this.session) return;
-            this.session.sessionPoints += pts;
+
+            // Increment combo
+            this.session.combo = (this.session.combo || 0) + 1;
+
+            // Award points with combo bonus
+            const comboBonus = this.session.combo > 1 ? Math.min(this.session.combo * 2, 10) : 0;
+            const finalPts = pts + comboBonus;
+
+            this.session.sessionPoints += finalPts;
             this.session.correctCount++;
 
             const scoreCountEl = document.getElementById('score-count');
             if (scoreCountEl) scoreCountEl.textContent = this.session.sessionPoints;
+
+            // Update combo UI
+            const comboWrap = document.getElementById('combo-wrap');
+            const comboCount = document.getElementById('combo-count');
+            if (comboWrap && comboCount) {
+                if (this.session.combo > 1) {
+                    comboCount.textContent = this.session.combo;
+                    comboWrap.style.display = 'block';
+                } else {
+                    comboWrap.style.display = 'none';
+                }
+            }
+
+            // Play correct sound and show floating score pop
+            playPracticeSound('correct');
+            const floatingText = comboBonus > 0 ? `+${finalPts} PTS 🔥` : `+${pts} PTS`;
+            showFloatingScoreEffect(floatingText, true);
 
             const q = this.session.sessionQueue[this.session.currentIndex];
             if (q && q.item && window.COSY?.addToDict) {
@@ -149,6 +365,16 @@
         },
 
         recordMistake(q) {
+            if (this.session) {
+                this.session.combo = 0;
+                const comboWrap = document.getElementById('combo-wrap');
+                if (comboWrap) comboWrap.style.display = 'none';
+
+                // Play wrong sound and show floating effect
+                playPracticeSound('wrong');
+                showFloatingScoreEffect('0 PTS ❌', false);
+            }
+
             if (!q || !q.item) return;
             const s = this.state;
             const exists = s.mistakes.some(m => m.word === q.item.word && m.lang === (this.session?.lang || 'multi'));
@@ -183,8 +409,12 @@
                 currentIndex: 0,
                 sessionPoints: 0,
                 correctCount: 0,
-                sessionErrors: []
+                sessionErrors: [],
+                combo: 0
             };
+
+            const comboWrap = document.getElementById('combo-wrap');
+            if (comboWrap) comboWrap.style.display = 'none';
 
             document.getElementById('pe-session-title').textContent = `${lang.toUpperCase()} · ${cat}${level !== 'all' ? ' · ' + level : ''}`;
             document.getElementById('score-count').textContent = '0';
@@ -289,6 +519,10 @@
 
             const summaryModal = document.getElementById('summary-modal');
             if (summaryModal) summaryModal.style.display = 'block';
+
+            // Play complete fanfare and trigger confetti!
+            playPracticeSound('complete');
+            triggerConfetti();
 
             s.totalPts += sess.sessionPoints;
             s.todayCorrect += sess.correctCount;
