@@ -199,6 +199,15 @@
                     } else if (e.key.startsWith('Arrow')) {
                         this.handleArrowKey(e.key);
                         e.preventDefault();
+                    } else if (e.key === 'Enter') {
+                        const checkBtn = document.getElementById('crossword-check-btn');
+                        if (checkBtn && checkBtn.offsetParent !== null) {
+                            checkBtn.click();
+                        } else {
+                            const engineCheckBtn = document.querySelector('button[onclick*="cwCheck"]');
+                            if (engineCheckBtn) engineCheckBtn.click();
+                        }
+                        e.preventDefault();
                     }
                 });
             });
