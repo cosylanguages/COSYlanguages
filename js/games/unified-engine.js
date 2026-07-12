@@ -800,7 +800,8 @@
             if (pool.length < 5) {
                 // Fallback to legacy action data (already level-keyed in game_data.js)
                 const shortLvl = window.getLevelCode(level, 'short');
-                pool = (data.action && data.action[shortLvl]) ? data.action[shortLvl] : [];
+                const fullLvl = window.getLevelCode(level, 'id');
+                pool = (data.action && (data.action[fullLvl] || data.action[shortLvl])) ? (data.action[fullLvl] || data.action[shortLvl]) : [];
             }
 
             if (pool.length === 0 || (pool.length === 1 && pool[0] === '...')) {
@@ -1125,7 +1126,8 @@
             if (pool.length === 0 && vocab.length > 5) pool = vocab.map(v => v.word);
             if (pool.length === 0) {
                 const shortLvl = window.getLevelCode(level, 'short');
-                pool = (data.action && data.action[shortLvl]) ? data.action[shortLvl] : [];
+                const fullLvl = window.getLevelCode(level, 'id');
+                pool = (data.action && (data.action[fullLvl] || data.action[shortLvl])) ? (data.action[fullLvl] || data.action[shortLvl]) : [];
             }
 
             if (pool.length === 0) {

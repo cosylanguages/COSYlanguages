@@ -6,7 +6,7 @@
     {
       "id": "essere",
       "label": "Verbo ESSERE",
-      "level": "A1",
+      "level": "starter",
       "emoji": "👤",
       "rules": [
         "io sono",
@@ -34,7 +34,7 @@
     {
       "id": "avere",
       "label": "Verbo AVERE",
-      "level": "A1",
+      "level": "starter",
       "emoji": "🎒",
       "rules": [
         "io ho",

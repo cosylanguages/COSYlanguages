@@ -6,7 +6,7 @@
     {
       "id": "articles",
       "label": "Articles — A, AN, THE",
-      "level": "A1",
+      "level": "starter",
       "emoji": "🅰️",
       "rules": [
         "A: before consonant sounds (a book).",

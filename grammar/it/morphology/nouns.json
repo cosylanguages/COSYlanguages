@@ -6,7 +6,7 @@
     {
       "id": "plurali",
       "label": "I Plurali",
-      "level": "A1",
+      "level": "starter",
       "emoji": "🍎🍎",
       "rules": [
         "Maschile: -o -> -i (libro -> libri)",

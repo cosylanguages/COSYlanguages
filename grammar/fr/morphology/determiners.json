@@ -6,7 +6,7 @@
     {
       "id": "articles_definis_indefinis",
       "label": "Les Articles",
-      "level": "A1",
+      "level": "starter",
       "emoji": "🅰️",
       "rules": [
         "Définis (The) : Le, La, L', Les",
@@ -34,7 +34,7 @@
     {
       "id": "articles_partitifs",
       "label": "Les Articles Partitifs",
-      "level": "A2",
+      "level": "elementary",
       "emoji": "🍷",
       "rules": [
         "Du + Masculin",

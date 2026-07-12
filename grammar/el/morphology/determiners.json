@@ -6,7 +6,7 @@
     {
       "id": "definite_article",
       "label": "Οριστικό άρθρο",
-      "level": "A1",
+      "level": "starter",
       "emoji": "🅰️",
       "rules": [
         "Αρσενικό: ο",

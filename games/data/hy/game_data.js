@@ -5,12 +5,12 @@
       battle: [],
       critic: [],
       action: {
-        A1: [],
-        A2: [],
-        B1: [],
-        B2: [],
-        C1: [],
-        C2: []
+        starter: [],
+        elementary: [],
+        intermediate: [],
+        upper_intermediate: [],
+        advanced: [],
+        proficiency: []
       },
       identity: [],
       wordlinker: [],

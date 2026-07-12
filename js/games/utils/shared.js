@@ -651,7 +651,10 @@
             });
             if (ld.action) {
                 Object.keys(ld.action).forEach(lvl => {
-                    data.action[lvl] = [...(data.action[lvl] || []), ...(ld.action[lvl] || [])];
+                    const fullLvl = window.getLevelCode(lvl, 'id');
+                    const shortLvl = window.getLevelCode(lvl, 'short');
+                    data.action[fullLvl] = [...(data.action[fullLvl] || []), ...(ld.action[lvl] || [])];
+                    data.action[shortLvl] = [...(data.action[shortLvl] || []), ...(ld.action[lvl] || [])];
                 });
             }
         });
@@ -721,7 +724,9 @@
                 if (words.length > 0) {
                     if (!data.action) data.action = {};
                     const shortLvl = window.getLevelCode(lvl, 'short');
+                    const fullLvl = window.getLevelCode(lvl, 'id');
                     data.action[shortLvl] = [...(data.action[shortLvl] || []), ...words];
+                    data.action[fullLvl] = [...(data.action[fullLvl] || []), ...words];
                 }
             }
 
