@@ -6,7 +6,7 @@
     {
       "id": "etre",
       "label": "Verbe ÊTRE",
-      "level": "A1",
+      "level": "starter",
       "emoji": "👤",
       "rules": [
         "Je suis",
@@ -34,7 +34,7 @@
     {
       "id": "avoir",
       "label": "Verbe AVOIR",
-      "level": "A1",
+      "level": "starter",
       "emoji": "🎒",
       "rules": [
         "J'ai",
@@ -62,7 +62,7 @@
     {
       "id": "verbes_er",
       "label": "Verbes en -ER",
-      "level": "A1",
+      "level": "starter",
       "emoji": "🛠️",
       "rules": [
         "Terminaisons : -e, -es, -e, -ons, -ez, -ent",

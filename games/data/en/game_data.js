@@ -48,12 +48,12 @@
       ],
       critic: [],
       action: {
-        A1: ['Cat', 'Dog', 'House', 'Car', 'Book', 'Water', 'Sun', 'Moon', 'Tree', 'Phone', 'Door', 'Chair', 'Bed', 'Food', 'Fish'],
-        A2: ['Kitchen', 'Garden', 'Train', 'Doctor', 'Teacher', 'Music', 'Birthday', 'Swimming', 'Holiday', 'Shopping'],
-        B1: ['Museum', 'Interview', 'Architect', 'Journalist', 'Parliament', 'Orchestra', 'Marathon', 'Exhibition'],
-        B2: ['Philanthropy', 'Ambassador', 'Hypothesis', 'Entrepreneur', 'Archaeology', 'Telescope', 'Symposium'],
-        C1: [],
-        C2: []
+        starter: ['Cat', 'Dog', 'House', 'Car', 'Book', 'Water', 'Sun', 'Moon', 'Tree', 'Phone', 'Door', 'Chair', 'Bed', 'Food', 'Fish'],
+        elementary: ['Kitchen', 'Garden', 'Train', 'Doctor', 'Teacher', 'Music', 'Birthday', 'Swimming', 'Holiday', 'Shopping'],
+        intermediate: ['Museum', 'Interview', 'Architect', 'Journalist', 'Parliament', 'Orchestra', 'Marathon', 'Exhibition'],
+        upper_intermediate: ['Philanthropy', 'Ambassador', 'Hypothesis', 'Entrepreneur', 'Archaeology', 'Telescope', 'Symposium'],
+        advanced: [],
+        proficiency: []
       },
       identity: [
         { person: 'A firefighter', clue: 'They wear a helmet and fight with water.', level: 'elementary' },

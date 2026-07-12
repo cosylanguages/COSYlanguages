@@ -6,22 +6,30 @@
     {
       "id": "word_order_svo",
       "label": "Basic Word Order (SVO)",
-      "level": "A1",
+      "level": "starter",
       "definition": "TBD",
       "emoji": "➡️",
       "rules": [
         "Subject + Verb + Object"
       ],
       "examples": [
-        { "t": "I drink coffee.", "m": "S + V + O" },
-        { "t": "She speaks English.", "m": "S + V + O" }
+        {
+          "t": "I drink coffee.",
+          "m": "S + V + O"
+        },
+        {
+          "t": "She speaks English.",
+          "m": "S + V + O"
+        }
       ],
-      "practice_links": ["grammar/en-word-order.html"]
+      "practice_links": [
+        "grammar/en-word-order.html"
+      ]
     },
     {
       "id": "there_is_are",
       "label": "There is / There are",
-      "level": "A1",
+      "level": "starter",
       "definition": "TBD",
       "emoji": "📍",
       "rules": [
@@ -29,10 +37,18 @@
         "There are + plural noun."
       ],
       "examples": [
-        { "t": "There is a book on the table.", "m": "Singular" },
-        { "t": "There are three people here.", "m": "Plural" }
+        {
+          "t": "There is a book on the table.",
+          "m": "Singular"
+        },
+        {
+          "t": "There are three people here.",
+          "m": "Plural"
+        }
       ],
-      "practice_links": ["grammar/en-there-is.html"]
+      "practice_links": [
+        "grammar/en-there-is.html"
+      ]
     }
   ]
 }

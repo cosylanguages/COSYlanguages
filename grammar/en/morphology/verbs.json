@@ -6,7 +6,7 @@
     {
       "id": "be_present_simple",
       "label": "Verb TO BE — Present Simple",
-      "level": "A1",
+      "level": "starter",
       "definition": "TBD",
       "emoji": "👤",
       "rules": [
@@ -15,15 +15,23 @@
         "He / She / It is"
       ],
       "examples": [
-        { "t": "I am a student.", "m": "Example of first person singular" },
-        { "t": "She is happy.", "m": "Example of third person singular" }
+        {
+          "t": "I am a student.",
+          "m": "Example of first person singular"
+        },
+        {
+          "t": "She is happy.",
+          "m": "Example of third person singular"
+        }
       ],
-      "practice_links": ["grammar/en-be.html"]
+      "practice_links": [
+        "grammar/en-be.html"
+      ]
     },
     {
       "id": "present_simple",
       "label": "Present Simple",
-      "level": "A1",
+      "level": "starter",
       "definition": "TBD",
       "emoji": "🕐",
       "rules": [
@@ -33,16 +41,27 @@
         "Use Do/Does for questions."
       ],
       "examples": [
-        { "t": "I work every day.", "m": "Habit" },
-        { "t": "She works in Paris.", "m": "Third person -s" },
-        { "t": "He doesn't like coffee.", "m": "Negative" }
+        {
+          "t": "I work every day.",
+          "m": "Habit"
+        },
+        {
+          "t": "She works in Paris.",
+          "m": "Third person -s"
+        },
+        {
+          "t": "He doesn't like coffee.",
+          "m": "Negative"
+        }
       ],
-      "practice_links": ["grammar/en-present-simple.html"]
+      "practice_links": [
+        "grammar/en-present-simple.html"
+      ]
     },
     {
       "id": "past_simple",
       "label": "Past Simple",
-      "level": "A2",
+      "level": "elementary",
       "definition": "TBD",
       "emoji": "🕰️",
       "rules": [
@@ -51,15 +70,23 @@
         "Irregular verbs have unique forms (e.g., go -> went)."
       ],
       "examples": [
-        { "t": "Yesterday, I walked to the gym.", "m": "Regular verb" },
-        { "t": "I went to London last year.", "m": "Irregular verb" }
+        {
+          "t": "Yesterday, I walked to the gym.",
+          "m": "Regular verb"
+        },
+        {
+          "t": "I went to London last year.",
+          "m": "Irregular verb"
+        }
       ],
-      "practice_links": ["grammar/en-past-simple.html"]
+      "practice_links": [
+        "grammar/en-past-simple.html"
+      ]
     },
     {
       "id": "future_going_to",
       "label": "Future: Going to",
-      "level": "A2",
+      "level": "elementary",
       "definition": "TBD",
       "emoji": "🔮",
       "rules": [
@@ -67,10 +94,18 @@
         "Use for plans and intentions."
       ],
       "examples": [
-        { "t": "I am going to study tonight.", "m": "Plan" },
-        { "t": "They are going to visit us.", "m": "Intention" }
+        {
+          "t": "I am going to study tonight.",
+          "m": "Plan"
+        },
+        {
+          "t": "They are going to visit us.",
+          "m": "Intention"
+        }
       ],
-      "practice_links": ["grammar/en-future-going-to.html"]
+      "practice_links": [
+        "grammar/en-future-going-to.html"
+      ]
     }
   ]
 }

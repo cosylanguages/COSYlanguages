@@ -6,7 +6,7 @@
     {
       "id": "personal_pronouns",
       "label": "Personal Pronouns",
-      "level": "A1",
+      "level": "starter",
       "emoji": "👥",
       "rules": [
         "Subject: I, You, He, She, It, We, They",
@@ -30,7 +30,7 @@
     {
       "id": "possessive_adjectives",
       "label": "Possessive Adjectives",
-      "level": "A1",
+      "level": "starter",
       "emoji": "🏠",
       "rules": [
         "my, your, his, her, its, our, their"

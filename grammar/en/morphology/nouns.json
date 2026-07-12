@@ -6,7 +6,7 @@
     {
       "id": "plurals",
       "label": "Nouns & Plurals",
-      "level": "A1",
+      "level": "starter",
       "definition": "TBD",
       "emoji": "🍎🍎",
       "rules": [
@@ -15,10 +15,18 @@
         "Nouns ending in consonant + -y: change to -ies (city -> cities)."
       ],
       "examples": [
-        { "t": "One car, two cars.", "m": "Regular plural" },
-        { "t": "One box, two boxes.", "m": "Ending in -x" }
+        {
+          "t": "One car, two cars.",
+          "m": "Regular plural"
+        },
+        {
+          "t": "One box, two boxes.",
+          "m": "Ending in -x"
+        }
       ],
-      "practice_links": ["grammar/en-plurals.html"]
+      "practice_links": [
+        "grammar/en-plurals.html"
+      ]
     }
   ]
 }

@@ -42,7 +42,7 @@ This directory contains standardized templates for adding new languages or conte
 ## Standards & Compliance
 - **SCHEMA.md:** Always refer to the root `SCHEMA.md` for data field requirements.
 - **THEMES.md:** Use standardized theme slugs for vocabulary and curriculum.
-- **CEFR Levels:** Use standard codes: `A1`, `A2`, `B1`, `B2`, `C1`, `C2`.
+- **CEFR Levels:** Use normalized Level IDs: `starter`, `elementary`, `intermediate`, `upper_intermediate`, `advanced`, and `proficiency`. Short codes (like `A1`, `A2`, etc.) are reserved for directory structure and user-facing presentation.
 - **Naming Conventions:** Use lowercase with hyphens for filenames (`my-new-session.html`).
 - **Target Language:** Definitions, examples, and rules must be written in the target language (except for English-specific files).
 

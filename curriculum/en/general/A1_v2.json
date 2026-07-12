@@ -1,20 +1,35 @@
 {
   "language": "en",
   "course_type": "general",
-  "level": "A1",
+  "level": "starter",
   "units": [
     {
       "unit": 1,
       "emoji": "👋",
       "title": "Hello — Greetings, names & alphabet",
-      "tags": ["to be (I/you)", "names", "countries", "alphabet"],
+      "tags": [
+        "to be (I/you)",
+        "names",
+        "countries",
+        "alphabet"
+      ],
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
           "title": "Greetings, names & the alphabet",
           "recycled": null,
-          "vocabulary": ["Hello", "hi", "goodbye", "bye", "good morning", "good afternoon", "good evening", "good night", "Nice to meet you"],
+          "vocabulary": [
+            "Hello",
+            "hi",
+            "goodbye",
+            "bye",
+            "good morning",
+            "good afternoon",
+            "good evening",
+            "good night",
+            "Nice to meet you"
+          ],
           "teacher_notes": "desc: \"Hello, hi, goodbye, bye, good morning/afternoon/evening/night. My name is… / I'm… Nice to meet you. The English alphabet — spelling names aloud. Numbers 1–10.\""
         },
         {
@@ -22,7 +37,10 @@
           "type": "grammar",
           "title": "To be — I am, you are (positive & negative)",
           "recycled": null,
-          "grammar": ["To be — I am, you are", "Apostrophe for contractions"],
+          "grammar": [
+            "To be — I am, you are",
+            "Apostrophe for contractions"
+          ],
           "teacher_notes": "desc: \"I am / I'm · You are / You're · I am not / You are not. Questions: Are you…? Yes, I am / No, I'm not.\""
         },
         {
@@ -52,14 +70,33 @@
       "unit": 2,
       "emoji": "🌍",
       "title": "Where are you from? — Countries & nationalities",
-      "tags": ["to be (he/she/it)", "countries", "nationalities", "numbers 1–20"],
+      "tags": [
+        "to be (he/she/it)",
+        "countries",
+        "nationalities",
+        "numbers 1–20"
+      ],
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
           "title": "Countries, nationalities & languages",
           "recycled": "Numbers 1–10 from Unit 1 extended to 1–20.",
-          "vocabulary": ["France", "England", "Italy", "Russia", "Spain", "Germany", "the USA", "Greece", "China", "Japan", "French", "English", "Italian"],
+          "vocabulary": [
+            "France",
+            "England",
+            "Italy",
+            "Russia",
+            "Spain",
+            "Germany",
+            "the USA",
+            "Greece",
+            "China",
+            "Japan",
+            "French",
+            "English",
+            "Italian"
+          ],
           "teacher_notes": "desc: \"Countries, nationalities & languages. Numbers 11–20.\""
         },
         {
@@ -67,7 +104,10 @@
           "type": "grammar",
           "title": "To be — he/she/it is · They are · Questions",
           "recycled": "I am / You are from Unit 1.",
-          "grammar": ["To be — he/she/it/they", "Questions: Where is he from?"],
+          "grammar": [
+            "To be — he/she/it/they",
+            "Questions: Where is he from?"
+          ],
           "teacher_notes": "desc: \"He is / She is / It is + contractions. They are. Where is he from? Where are you from?\""
         },
         {
@@ -97,14 +137,34 @@
       "unit": 3,
       "emoji": "👨‍👩‍👧",
       "title": "My family — People & relationships",
-      "tags": ["possessive adjectives", "family vocabulary", "numbers 20–100", "ages"],
+      "tags": [
+        "possessive adjectives",
+        "family vocabulary",
+        "numbers 20–100",
+        "ages"
+      ],
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
           "title": "Family members & ages",
           "recycled": "Numbers 1–20 from Units 1–2 extended to 100.",
-          "vocabulary": ["mother", "father", "sister", "brother", "grandmother", "grandfather", "aunt", "uncle", "cousin", "friend", "husband", "wife", "son", "daughter"],
+          "vocabulary": [
+            "mother",
+            "father",
+            "sister",
+            "brother",
+            "grandmother",
+            "grandfather",
+            "aunt",
+            "uncle",
+            "cousin",
+            "friend",
+            "husband",
+            "wife",
+            "son",
+            "daughter"
+          ],
           "teacher_notes": "desc: \"Family members & ages. Numbers 20–100 for ages. Old/young, tall/short.\""
         },
         {
@@ -112,7 +172,10 @@
           "type": "grammar",
           "title": "Possessive adjectives — my, your, his, her, our, their",
           "recycled": "All to be forms (Units 1–2) appear in model sentences.",
-          "grammar": ["Possessive adjectives", "'s for possession"],
+          "grammar": [
+            "Possessive adjectives",
+            "'s for possession"
+          ],
           "teacher_notes": "desc: \"My mother, your brother, his sister, her husband, our family, their children. Introducing 's for possession.\""
         },
         {
@@ -142,14 +205,37 @@
       "unit": 4,
       "emoji": "🏠",
       "title": "My home — Rooms, furniture & location",
-      "tags": ["there is / there are", "prepositions of place", "home vocabulary"],
+      "tags": [
+        "there is / there are",
+        "prepositions of place",
+        "home vocabulary"
+      ],
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
           "title": "Rooms, furniture & prepositions of place",
           "recycled": "Big/small adjectives from Unit 3. Numbers for room count.",
-          "vocabulary": ["living room", "bedroom", "kitchen", "bathroom", "garden", "balcony", "sofa", "table", "chair", "bed", "wardrobe", "lamp", "television", "fridge", "in", "on", "under", "next to"],
+          "vocabulary": [
+            "living room",
+            "bedroom",
+            "kitchen",
+            "bathroom",
+            "garden",
+            "balcony",
+            "sofa",
+            "table",
+            "chair",
+            "bed",
+            "wardrobe",
+            "lamp",
+            "television",
+            "fridge",
+            "in",
+            "on",
+            "under",
+            "next to"
+          ],
           "teacher_notes": "desc: \"Rooms, furniture & prepositions: in, on, under, next to, in front of, behind, between.\""
         },
         {
@@ -157,7 +243,10 @@
           "type": "grammar",
           "title": "There is / there are — positive, negative, questions",
           "recycled": "Numbers (Units 1–3) for counting furniture. To be (Units 1–2). Adjectives (Unit 3).",
-          "grammar": ["There is / there are", "singular vs plural"],
+          "grammar": [
+            "There is / there are",
+            "singular vs plural"
+          ],
           "teacher_notes": "desc: \"There is a table. There are two chairs. Is there a garden? Yes, there is. / No, there isn't.\""
         },
         {
@@ -187,14 +276,30 @@
       "unit": 5,
       "emoji": "☀️",
       "title": "My day — Daily routine & time",
-      "tags": ["present simple (I)", "time expressions", "adverbs of frequency", "times of day"],
+      "tags": [
+        "present simple (I)",
+        "time expressions",
+        "adverbs of frequency",
+        "times of day"
+      ],
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
           "title": "Daily routine verbs & time expressions",
           "recycled": "Good morning/evening from Unit 1.",
-          "vocabulary": ["wake up", "get up", "have breakfast", "go to work", "have lunch", "come home", "watch TV", "go to bed", "o'clock", "half past"],
+          "vocabulary": [
+            "wake up",
+            "get up",
+            "have breakfast",
+            "go to work",
+            "have lunch",
+            "come home",
+            "watch TV",
+            "go to bed",
+            "o'clock",
+            "half past"
+          ],
           "teacher_notes": "desc: \"Routine verbs. Time: o'clock, half past, quarter past/to. In the morning/afternoon/evening.\""
         },
         {
@@ -202,7 +307,10 @@
           "type": "grammar",
           "title": "Present simple — I / you / we / they (affirmative, negative, questions)",
           "recycled": "To be (Units 1–2) contrasted with present simple for habits. Time vocabulary.",
-          "grammar": ["Present simple", "Frequency adverbs: always, usually, sometimes, never"],
+          "grammar": [
+            "Present simple",
+            "Frequency adverbs: always, usually, sometimes, never"
+          ],
           "teacher_notes": "desc: \"I wake up at 7. Do you go to work? Yes, I do. / No, I don't. Adverb position.\""
         },
         {
@@ -232,14 +340,34 @@
       "unit": 6,
       "emoji": "🍕",
       "title": "Food & drink — Eating, shopping & preferences",
-      "tags": ["present simple (he/she)", "countable/uncountable", "food vocabulary", "like/love/hate"],
+      "tags": [
+        "present simple (he/she)",
+        "countable/uncountable",
+        "food vocabulary",
+        "like/love/hate"
+      ],
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
           "title": "Food, drink & quantities",
           "recycled": "Numbers for quantities (Units 1–5). There is/are in the fridge (Unit 4).",
-          "vocabulary": ["fruit", "meat", "bread", "pasta", "cheese", "milk", "water", "coffee", "bottle of", "cup of", "like", "love", "hate", "prefer"],
+          "vocabulary": [
+            "fruit",
+            "meat",
+            "bread",
+            "pasta",
+            "cheese",
+            "milk",
+            "water",
+            "coffee",
+            "bottle of",
+            "cup of",
+            "like",
+            "love",
+            "hate",
+            "prefer"
+          ],
           "teacher_notes": "desc: \"Food, drink & quantities. Like, love, hate, don't mind, prefer.\""
         },
         {
@@ -247,7 +375,10 @@
           "type": "grammar",
           "title": "Present simple — he/she/it: the third person -s rule",
           "recycled": "Present simple I/you/they (Unit 5) now extended to 3rd person. Family members (Unit 3).",
-          "grammar": ["Present simple: 3rd person singular", "Spelling rules: -es, -ies"],
+          "grammar": [
+            "Present simple: 3rd person singular",
+            "Spelling rules: -es, -ies"
+          ],
           "teacher_notes": "desc: \"She likes coffee. He eats pasta every day. She doesn't eat meat. Does he drink wine?\""
         },
         {
@@ -277,14 +408,33 @@
       "unit": 7,
       "emoji": "💼",
       "title": "Work & study — Jobs, places & abilities",
-      "tags": ["can/can't", "jobs vocabulary", "present simple: questions", "work/study places"],
+      "tags": [
+        "can/can't",
+        "jobs vocabulary",
+        "present simple: questions",
+        "work/study places"
+      ],
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
           "title": "Jobs, workplaces & study",
           "recycled": "To be (Units 1–2). Numbers for work hours. Routine verbs (Unit 5).",
-          "vocabulary": ["teacher", "doctor", "engineer", "nurse", "student", "waiter", "hospital", "school", "office", "university", "busy", "tired", "interesting"],
+          "vocabulary": [
+            "teacher",
+            "doctor",
+            "engineer",
+            "nurse",
+            "student",
+            "waiter",
+            "hospital",
+            "school",
+            "office",
+            "university",
+            "busy",
+            "tired",
+            "interesting"
+          ],
           "teacher_notes": "desc: \"Jobs: teacher, doctor, etc. Workplaces: hospital, school. Adjectives: busy, interesting.\""
         },
         {
@@ -292,7 +442,9 @@
           "type": "grammar",
           "title": "Can / can't — ability and possibility",
           "recycled": "Languages (Unit 2), Family (Unit 3), Food (Unit 6), Routine (Unit 5).",
-          "grammar": ["Can / can't for ability"],
+          "grammar": [
+            "Can / can't for ability"
+          ],
           "teacher_notes": "desc: \"I can speak French. I can't drive. Can you cook? Yes, I can.\""
         },
         {
@@ -322,14 +474,34 @@
       "unit": 8,
       "emoji": "🌆",
       "title": "My city — Places, transport & directions",
-      "tags": ["imperatives", "prepositions of place", "transport vocabulary", "question words"],
+      "tags": [
+        "imperatives",
+        "prepositions of place",
+        "transport vocabulary",
+        "question words"
+      ],
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
           "title": "Places in a city & transport",
           "recycled": "Hospital/School (Unit 7), Cafe (Unit 6). Numbers for distances.",
-          "vocabulary": ["bank", "supermarket", "pharmacy", "station", "airport", "park", "museum", "street", "bus", "metro", "taxi", "train", "car", "on foot"],
+          "vocabulary": [
+            "bank",
+            "supermarket",
+            "pharmacy",
+            "station",
+            "airport",
+            "park",
+            "museum",
+            "street",
+            "bus",
+            "metro",
+            "taxi",
+            "train",
+            "car",
+            "on foot"
+          ],
           "teacher_notes": "desc: \"City places & Transport. Question words: where, how, how far, how long.\""
         },
         {
@@ -337,7 +509,10 @@
           "type": "grammar",
           "title": "Imperatives & directions + question words review",
           "recycled": "Prepositions of place (Unit 4). Transport vocabulary. Numbers.",
-          "grammar": ["Imperatives", "Question words: What/Where/Who/When/How..."],
+          "grammar": [
+            "Imperatives",
+            "Question words: What/Where/Who/When/How..."
+          ],
           "teacher_notes": "desc: \"Turn left/right, go straight. Positive/negative imperatives. Full question word review.\""
         },
         {
@@ -367,14 +542,31 @@
       "unit": 9,
       "emoji": "🎨",
       "title": "Free time — Hobbies, sports & opinions",
-      "tags": ["present continuous", "like/enjoy + -ing", "hobbies vocabulary", "opinions"],
+      "tags": [
+        "present continuous",
+        "like/enjoy + -ing",
+        "hobbies vocabulary",
+        "opinions"
+      ],
       "lessons": [
         {
           "lesson": 1,
           "type": "gv",
           "title": "Hobbies, sports & expressing opinions",
           "recycled": "Cooking (Unit 6), can (Unit 7) for swimming/running, Sport places (Unit 8).",
-          "vocabulary": ["reading", "cooking", "painting", "dancing", "travelling", "gaming", "swimming", "running", "cycling", "I think", "In my opinion"],
+          "vocabulary": [
+            "reading",
+            "cooking",
+            "painting",
+            "dancing",
+            "travelling",
+            "gaming",
+            "swimming",
+            "running",
+            "cycling",
+            "I think",
+            "In my opinion"
+          ],
           "teacher_notes": "desc: \"Hobbies & Opinions. Linking words: and, but, because.\""
         },
         {
@@ -382,7 +574,10 @@
           "type": "grammar",
           "title": "Present continuous — am/is/are + -ing",
           "recycled": "To be (Units 1–2) as auxiliary. Hobbies vocab. Family (Unit 3). Home (Unit 4).",
-          "grammar": ["Present continuous", "Present simple vs continuous contrast"],
+          "grammar": [
+            "Present continuous",
+            "Present simple vs continuous contrast"
+          ],
           "teacher_notes": "desc: \"I am reading. Contrast: I read every day vs I am reading now. Spelling: -ing rules.\""
         },
         {
@@ -412,14 +607,28 @@
       "unit": 10,
       "emoji": "📅",
       "title": "Past & plans — Revision, future & telling your story",
-      "tags": ["was/were", "going to", "time expressions", "A1 full revision"],
+      "tags": [
+        "was/were",
+        "going to",
+        "time expressions",
+        "A1 full revision"
+      ],
       "lessons": [
         {
           "lesson": 1,
           "type": "gv",
           "title": "Past time expressions & future plans vocabulary",
           "recycled": "To be (Units 1–2), All vocabulary from all units.",
-          "vocabulary": ["yesterday", "last week", "ago", "next week", "tomorrow", "in the future", "seasons", "months"],
+          "vocabulary": [
+            "yesterday",
+            "last week",
+            "ago",
+            "next week",
+            "tomorrow",
+            "in the future",
+            "seasons",
+            "months"
+          ],
           "teacher_notes": "desc: \"Past & Future time expressions. Was/were intro. Plans: going to, want to. Review all domains.\""
         },
         {
@@ -427,7 +636,10 @@
           "type": "grammar",
           "title": "Was / were (past of to be) + going to (future plans)",
           "recycled": "All to be forms (Units 1–2). Countries (Unit 2). Family (Unit 3). Home (Unit 4).",
-          "grammar": ["Was / were", "Going to for future plans"],
+          "grammar": [
+            "Was / were",
+            "Going to for future plans"
+          ],
           "teacher_notes": "desc: \"I was at home. Were you at work? I'm going to visit my family. Connect past to present to future.\""
         },
         {

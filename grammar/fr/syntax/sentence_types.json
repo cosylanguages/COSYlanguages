@@ -6,7 +6,7 @@
     {
       "id": "negation",
       "label": "La Négation",
-      "level": "A1",
+      "level": "starter",
       "emoji": "❌",
       "rules": [
         "NE + VERBE + PAS",
