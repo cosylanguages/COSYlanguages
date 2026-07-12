@@ -27,13 +27,14 @@
       ],
       critic: [], // Quotes for Critic's Corner: "Quote" — Author
       action: {
-        // Use short codes for levels
-        A1: ['Word1', 'Word2'],
-        A2: ['Word3'],
-        B1: [],
-        B2: [],
-        C1: [],
-        C2: []
+        // Descriptive Level IDs are preferred (starter, elementary, intermediate, upper_intermediate, advanced, proficiency).
+        // Note: The game engine supports Dual Level ID mapping and will fall back gracefully to CEFR codes (A1, A2, B1, B2, C1, C2).
+        starter: ['Word1', 'Word2'],
+        elementary: ['Word3'],
+        intermediate: [],
+        upper_intermediate: [],
+        advanced: [],
+        proficiency: []
       },
       identity: [
         { person: 'Role/Identity', clue: 'Description of the role.', level: 'starter' }
