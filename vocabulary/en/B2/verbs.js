@@ -564,7 +564,7 @@ const data = [
         "v4": "regulating",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -591,7 +591,7 @@ const data = [
         "v4": "implementing",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -618,7 +618,7 @@ const data = [
         "v4": "enforcing",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -645,7 +645,7 @@ const data = [
         "v4": "reforming",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -672,7 +672,7 @@ const data = [
         "v4": "allocating",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -699,7 +699,7 @@ const data = [
         "v4": "subsidising",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -726,7 +726,7 @@ const data = [
         "v4": "restricting",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -753,7 +753,7 @@ const data = [
         "v4": "baning",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -780,7 +780,7 @@ const data = [
         "v4": "introducing",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -1962,7 +1962,7 @@ const data = [
         "v4": "vetoing",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     }
     ];
@@ -1970,4 +1970,7 @@ const data = [
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
 
+
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

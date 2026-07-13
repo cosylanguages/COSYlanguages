@@ -44,7 +44,7 @@
         "word": "self-employed",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -68,7 +68,7 @@
         "word": "freelance",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective / adverb",
         "definitions": [
             {
@@ -112,7 +112,7 @@
         "word": "anxious",
         "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -133,7 +133,7 @@
         "word": "disappointed",
         "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -154,7 +154,7 @@
         "word": "embarrassed",
         "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -175,7 +175,7 @@
         "word": "enthusiastic",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -196,7 +196,7 @@
         "word": "frustrated",
         "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -217,7 +217,7 @@
         "word": "grateful",
         "lang": "en",
         "level": "intermediate",
-        "theme": "values_beliefs",
+        "theme": "psychology",
         "form": "adjective",
         "definitions": [
             {
@@ -238,7 +238,7 @@
         "word": "jealous",
         "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -259,7 +259,7 @@
         "word": "lonely",
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -280,7 +280,7 @@
         "word": "miserable",
         "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -301,7 +301,7 @@
         "word": "nervous",
         "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -322,7 +322,7 @@
         "word": "relieved",
         "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -343,7 +343,7 @@
         "word": "shocked",
         "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -364,7 +364,7 @@
         "word": "ambitious",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -385,7 +385,7 @@
         "word": "brave",
         "lang": "en",
         "level": "intermediate",
-        "theme": "values_beliefs",
+        "theme": "psychology",
         "form": "adjective",
         "definitions": [
             {
@@ -406,7 +406,7 @@
         "word": "calm",
         "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -427,7 +427,7 @@
         "word": "cheerful",
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -448,7 +448,7 @@
         "word": "determined",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -469,7 +469,7 @@
         "word": "generous",
         "lang": "en",
         "level": "intermediate",
-        "theme": "values_beliefs",
+        "theme": "psychology",
         "form": "adjective",
         "definitions": [
             {
@@ -490,7 +490,7 @@
         "word": "gentle",
         "lang": "en",
         "level": "intermediate",
-        "theme": "values_beliefs",
+        "theme": "psychology",
         "form": "adjective",
         "definitions": [
             {
@@ -511,7 +511,7 @@
         "word": "honest",
         "lang": "en",
         "level": "intermediate",
-        "theme": "values_beliefs",
+        "theme": "psychology",
         "form": "adjective",
         "definitions": [
             {
@@ -532,7 +532,7 @@
         "word": "humble",
         "lang": "en",
         "level": "intermediate",
-        "theme": "values_beliefs",
+        "theme": "psychology",
         "form": "adjective",
         "definitions": [
             {
@@ -553,7 +553,7 @@
         "word": "impatient",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -574,7 +574,7 @@
         "word": "motivated",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -596,7 +596,7 @@
         "word": "passionate",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -617,7 +617,7 @@
         "word": "patient",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -638,7 +638,7 @@
         "word": "sensible",
         "lang": "en",
         "level": "intermediate",
-        "theme": "values_beliefs",
+        "theme": "psychology",
         "form": "adjective",
         "definitions": [
             {
@@ -659,7 +659,7 @@
         "word": "adequate",
         "lang": "en",
         "level": "intermediate",
-        "theme": "structured_argument",
+        "theme": "language",
         "form": "adjective",
         "definitions": [
             {
@@ -680,7 +680,7 @@
         "word": "appropriate",
         "lang": "en",
         "level": "intermediate",
-        "theme": "structured_argument",
+        "theme": "language",
         "form": "adjective",
         "definitions": [
             {
@@ -743,7 +743,7 @@
         "word": "fair",
         "lang": "en",
         "level": "intermediate",
-        "theme": "equality_rights",
+        "theme": "people",
         "form": "adjective",
         "definitions": [
             {
@@ -785,7 +785,7 @@
         "word": "original",
         "lang": "en",
         "level": "intermediate",
-        "theme": "cultural_heritage",
+        "theme": "art_culture",
         "form": "adjective",
         "definitions": [
             {
@@ -806,7 +806,7 @@
         "word": "positive",
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -827,7 +827,7 @@
         "word": "negative",
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -848,7 +848,7 @@
         "word": "reasonable",
         "lang": "en",
         "level": "intermediate",
-        "theme": "structured_argument",
+        "theme": "language",
         "form": "adjective",
         "definitions": [
             {
@@ -869,7 +869,7 @@
         "word": "successful",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -890,7 +890,7 @@
         "word": "valuable",
         "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment",
+        "theme": "shopping",
         "form": "adjective",
         "definitions": [
             {
@@ -911,7 +911,7 @@
         "word": "equal",
         "lang": "en",
         "level": "intermediate",
-        "theme": "equality_rights",
+        "theme": "people",
         "form": "adjective",
         "definitions": [
             {
@@ -995,7 +995,7 @@
         "word": "political",
         "lang": "en",
         "level": "intermediate",
-        "theme": "equality_rights",
+        "theme": "people",
         "form": "adjective",
         "definitions": [
             {
@@ -1037,7 +1037,7 @@
         "word": "economic",
         "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment",
+        "theme": "shopping",
         "form": "adjective",
         "definitions": [
             {
@@ -1079,7 +1079,7 @@
         "word": "cultural",
         "lang": "en",
         "level": "intermediate",
-        "theme": "cultural_heritage",
+        "theme": "art_culture",
         "form": "adjective",
         "definitions": [
             {
@@ -1100,7 +1100,7 @@
         "word": "educational",
         "lang": "en",
         "level": "intermediate",
-        "theme": "higher_education",
+        "theme": "school",
         "form": "adjective",
         "definitions": [
             {
@@ -1121,7 +1121,7 @@
         "word": "mental",
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -1142,7 +1142,7 @@
         "word": "physical",
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -1163,7 +1163,7 @@
         "word": "chronic",
         "lang": "en",
         "level": "intermediate",
-        "theme": "healthcare_systems",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -1184,7 +1184,7 @@
         "word": "severe",
         "lang": "en",
         "level": "intermediate",
-        "theme": "healthcare_systems",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -1205,7 +1205,7 @@
         "word": "mild",
         "lang": "en",
         "level": "intermediate",
-        "theme": "healthcare_systems",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -1226,7 +1226,7 @@
         "word": "competitive",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -1268,7 +1268,7 @@
         "word": "dedicated",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -1289,7 +1289,7 @@
         "word": "skilled",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -1310,7 +1310,7 @@
         "word": "innovative",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -1394,7 +1394,7 @@
         "word": "logical",
         "lang": "en",
         "level": "intermediate",
-        "theme": "structured_argument",
+        "theme": "language",
         "form": "adjective",
         "definitions": [
             {
@@ -1415,7 +1415,7 @@
         "word": "obvious",
         "lang": "en",
         "level": "intermediate",
-        "theme": "structured_argument",
+        "theme": "language",
         "form": "adjective",
         "definitions": [
             {
@@ -1436,7 +1436,7 @@
         "word": "surprising",
         "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -1457,7 +1457,7 @@
         "word": "typical",
         "lang": "en",
         "level": "intermediate",
-        "theme": "spatial_description",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1478,7 +1478,7 @@
         "word": "unlikely",
         "lang": "en",
         "level": "intermediate",
-        "theme": "probability_certainty",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -1499,7 +1499,7 @@
         "word": "likely",
         "lang": "en",
         "level": "intermediate",
-        "theme": "probability_certainty",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {

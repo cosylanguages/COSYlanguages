@@ -741,7 +741,7 @@
             "article": "l'",
             "classification": "regular",
             "plural": "égalités",
-            "opposite": "inégalité"
+            "antonyms": ["inégalité"]
         }
     },
     {
@@ -788,7 +788,7 @@
             "article": "l'",
             "classification": "regular",
             "plural": "inégalités",
-            "opposite": "égalité"
+            "antonyms": ["égalité"]
         }
     },
     {

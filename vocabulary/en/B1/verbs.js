@@ -153,7 +153,7 @@ const data = [
         "word": "argue",
         "lang": "en",
         "level": "intermediate",
-        "theme": "structured_argument",
+        "theme": "language",
         "form": "verb",
         "definitions": [
             {
@@ -209,7 +209,7 @@ const data = [
         "word": "claim",
         "lang": "en",
         "level": "intermediate",
-        "theme": "structured_argument",
+        "theme": "language",
         "form": "verb",
         "definitions": [
             {
@@ -237,7 +237,7 @@ const data = [
         "word": "believe",
         "lang": "en",
         "level": "intermediate",
-        "theme": "values_beliefs",
+        "theme": "psychology",
         "form": "verb",
         "definitions": [
             {
@@ -293,7 +293,7 @@ const data = [
         "word": "consider",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "verb",
         "definitions": [
             {
@@ -405,7 +405,7 @@ const data = [
         "word": "doubt",
         "lang": "en",
         "level": "intermediate",
-        "theme": "probability_certainty",
+        "theme": "describing",
         "form": "verb",
         "definitions": [
             {
@@ -517,7 +517,7 @@ const data = [
         "word": "achieve",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "verb",
         "definitions": [
             {
@@ -601,7 +601,7 @@ const data = [
         "word": "adapt",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "verb",
         "definitions": [
             {
@@ -629,7 +629,7 @@ const data = [
         "word": "motivate",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "verb",
         "definitions": [
             {
@@ -713,7 +713,7 @@ const data = [
         "word": "develop",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "verb",
         "definitions": [
             {
@@ -741,7 +741,7 @@ const data = [
         "word": "increase",
         "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment",
+        "theme": "shopping",
         "form": "verb",
         "definitions": [
             {
@@ -769,7 +769,7 @@ const data = [
         "word": "reduce",
         "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment",
+        "theme": "shopping",
         "form": "verb",
         "definitions": [
             {
@@ -853,7 +853,7 @@ const data = [
         "word": "improve",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "verb",
         "definitions": [
             {
@@ -1189,7 +1189,7 @@ const data = [
         "word": "worry",
         "lang": "en",
         "level": "intermediate",
-        "theme": "stress_anxiety",
+        "theme": "emotions",
         "form": "verb",
         "definitions": [
             {
@@ -1217,7 +1217,7 @@ const data = [
         "word": "regret",
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
+        "theme": "health_medicine",
         "form": "verb",
         "definitions": [
             {
@@ -1245,7 +1245,7 @@ const data = [
         "word": "resent",
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
+        "theme": "health_medicine",
         "form": "verb",
         "definitions": [
             {
@@ -1492,7 +1492,7 @@ const data = [
         "word": "build up",
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
+        "theme": "work",
         "form": "verb",
         "definitions": [
             {
@@ -1519,7 +1519,7 @@ const data = [
         "word": "run out",
         "lang": "en",
         "level": "intermediate",
-        "theme": "finances_investment",
+        "theme": "shopping",
         "form": "verb",
         "definitions": [
             {
@@ -1573,4 +1573,7 @@ const data = [
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
 
+
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

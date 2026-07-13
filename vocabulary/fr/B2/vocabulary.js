@@ -26,7 +26,7 @@
 
         "transcription": "ʁɛspɔ̃sabilite",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "article": "la",
         "emoji": "📑",
         "form": "noun", "classification": "regular",
@@ -308,7 +308,7 @@
 
         "transcription": "ɛ̃fʁastʁyktyʁ",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "article": "l'",
         "emoji": "🏗️",
         "form": "noun", "classification": "regular",
@@ -329,7 +329,7 @@
 
         "transcription": "eta pʁɔvidɑ̃s",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "article": "l'",
         "emoji": "🛡️🏛️",
         "form": "noun phrase",
@@ -351,7 +351,7 @@
 
         "transcription": "pɔlaʁizasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "article": "la",
         "emoji": "↔️❌",
         "form": "noun", "classification": "regular",
@@ -393,7 +393,7 @@
 
         "transcription": "ɛɡzamɛ̃ apʁɔfɔ̃di",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "article": "l'",
         "emoji": "🔍",
         "form": "noun phrase",
@@ -437,7 +437,7 @@
 
         "transcription": "leʒislasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "article": "la",
         "emoji": "📜",
         "form": "noun", "classification": "regular",
@@ -525,7 +525,7 @@
 
         "transcription": "ʒystis",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "article": "la",
         "emoji": "⚖️",
         "form": "noun", "classification": "regular",
@@ -568,7 +568,7 @@
 
         "transcription": "tʁɑ̃spaʁɑ̃s",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "article": "la",
         "emoji": "🪟",
         "form": "noun", "classification": "regular",
