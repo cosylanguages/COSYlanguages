@@ -894,7 +894,7 @@
         "antonyms": ["authoritarian"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -940,7 +940,7 @@
         "antonyms": ["honest"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -986,7 +986,7 @@
         "antonyms": ["international"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -1009,7 +1009,7 @@
         "antonyms": ["conservative"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -1562,7 +1562,7 @@
         "antonyms": [],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -1586,7 +1586,7 @@
         "antonyms": ["acute"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "serious_illness_treatment",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -1610,7 +1610,7 @@
         "antonyms": [],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "serious_illness_treatment",
+        "theme": "health_medicine",
         "sub_theme": null
     },
     {
@@ -1634,7 +1634,7 @@
         "antonyms": ["immoral"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "ethical_dilemmas",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -1658,7 +1658,7 @@
         "antonyms": ["unethical"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "ethical_dilemmas",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -1681,7 +1681,7 @@
         "antonyms": ["voluntary"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
+        "theme": "people",
         "sub_theme": null
     }
     ];

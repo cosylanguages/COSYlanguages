@@ -40,7 +40,7 @@
         "transcription": "-",
         "emoji": "♻️",
         "_legacy": {
-            "opposite": "insoutenable"
+            "antonyms": ["insoutenable"]
         }
     }
 ];
