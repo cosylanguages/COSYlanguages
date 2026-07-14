@@ -159,9 +159,16 @@
     <h2 class="sec-h2">Find your favorite topic</h2>
     <p class="sec-p">From science to philosophy, our clubs cover the topics that matter to adults.</p>
 
+    <div class="club-filters">
+      <button class="filter-btn active" data-level="all">All Levels</button>
+      <button class="filter-btn" data-level="beginner">Beginner (A1-A2)</button>
+      <button class="filter-btn" data-level="intermediate">Intermediate (B1-B2)</button>
+      <button class="filter-btn" data-level="advanced">Advanced (C1-C2)</button>
+    </div>
+
     <div class="club-grid">
       <!-- 1. KEEPING UP WITH SCIENCE -->
-      <article class="club-card" style="background: linear-gradient(135deg, #0F6E56, #073b2d); color: white;">
+      <article class="club-card" data-levels="intermediate advanced" style="background: linear-gradient(135deg, #0F6E56, #073b2d); color: white;">
         <div class="club-card-inner">
           <span class="club-emoji"><img src="../images/keepingupwithscience.png" alt="Science logo" style="height: 50px;"></span>
           <h3 style="color: white;">Keeping Up with Science</h3>
@@ -175,7 +182,7 @@
       </article>
 
       <!-- 2. LET'S CELEBRATE -->
-      <article class="club-card" style="background: linear-gradient(135deg, #BA7517, #5c390b); color: white;">
+      <article class="club-card" data-levels="beginner intermediate advanced" style="background: linear-gradient(135deg, #BA7517, #5c390b); color: white;">
         <div class="club-card-inner">
           <span class="club-emoji"><img src="../images/letscelebrate.png" alt="Celebrate logo" style="height: 50px;"></span>
           <h3 style="color: white;">Let's Celebrate</h3>
@@ -189,7 +196,7 @@
       </article>
 
       <!-- 3. THE GREATEST QUOTES -->
-      <article class="club-card" style="background: linear-gradient(135deg, #534AB7, #2a255c); color: white;">
+      <article class="club-card" data-levels="beginner intermediate advanced" style="background: linear-gradient(135deg, #534AB7, #2a255c); color: white;">
         <div class="club-card-inner">
           <span class="club-emoji"><img src="../images/thegreatestquotes.png" alt="Quotes logo" style="height: 50px;"></span>
           <h3 style="color: white;">The Greatest Quotes</h3>
@@ -203,7 +210,7 @@
       </article>
 
       <!-- 4. MIND MATTERS -->
-      <article class="club-card" style="background: linear-gradient(135deg, #993556, #4d1a2b); color: white;">
+      <article class="club-card" data-levels="intermediate advanced" style="background: linear-gradient(135deg, #993556, #4d1a2b); color: white;">
         <div class="club-card-inner">
           <span class="club-emoji"><img src="../images/mindmatters.png" alt="Mind logo" style="height: 50px;"></span>
           <h3 style="color: white;">Mind Matters</h3>
@@ -217,7 +224,7 @@
       </article>
 
       <!-- 5. MY LIFE WITH & MY LIFE WITHOUT -->
-      <article class="club-card" style="background: linear-gradient(135deg, #3B6D11, #1d3608); color: white;">
+      <article class="club-card" data-levels="beginner intermediate advanced" style="background: linear-gradient(135deg, #3B6D11, #1d3608); color: white;">
         <div class="club-card-inner">
           <span class="club-emoji"><img src="../images/lifewithlifewithout.png" alt="Life logo" style="height: 50px;"></span>
           <h3 style="color: white;">My Life With &amp; Without</h3>
@@ -231,7 +238,7 @@
       </article>
 
       <!-- 6. DEBATABLE & RELATABLE -->
-      <article class="club-card" style="background: linear-gradient(135deg, #993C1D, #4d1e0f); color: white;">
+      <article class="club-card" data-levels="intermediate advanced" style="background: linear-gradient(135deg, #993C1D, #4d1e0f); color: white;">
         <div class="club-card-inner">
           <span class="club-emoji"><img src="../images/debatabeandrelatable.png" alt="Debate logo" style="height: 50px;"></span>
           <h3 style="color: white;">Debatable &amp; Relatable</h3>
@@ -353,5 +360,29 @@
 <script src="../js/core/ui.js"></script>
 <script src="../js/data/pricing.js"></script>
 <script src="../js/config.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.filter-btn');
+  const cards = document.querySelectorAll('.club-grid .club-card');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const level = btn.getAttribute('data-level');
+
+      cards.forEach(card => {
+        const levels = card.getAttribute('data-levels') || '';
+        if (level === 'all' || levels.includes(level)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script>
 </body>
 </html>
