@@ -20,6 +20,96 @@
   .club-hero { background: linear-gradient(135deg, #3F2B96, #1F104D); color: white; padding: 4rem 2rem; text-align: center; }
   .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
   .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
+
+  /* Carrie's Laptop Widget Styles */
+  .carrie-laptop {
+    background: #110d26;
+    border: 4px solid #3F2B96;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 8px 32px rgba(63, 43, 150, 0.25);
+    color: #a9a6e2;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+  }
+  .laptop-header {
+    border-bottom: 1px solid #3F2B96;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .screen-glowing {
+    background: #090614;
+    border-radius: 6px;
+    padding: 1rem;
+    min-height: 140px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.8);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    position: relative;
+    overflow-y: auto;
+  }
+  .carrie-cursor {
+    display: inline-block;
+    width: 8px;
+    height: 1.2rem;
+    background: #8b5cf6;
+    margin-left: 2px;
+    animation: carrie-blink 1s step-end infinite;
+    vertical-align: middle;
+  }
+  @keyframes carrie-blink {
+    from, to { background-color: transparent }
+    50% { background-color: #8b5cf6 }
+  }
+  .laptop-input-wrapper {
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+  }
+  .laptop-input {
+    flex-grow: 1;
+    background: #090614;
+    border: 1px solid #3F2B96;
+    border-radius: 6px;
+    color: #FFFEFB;
+    padding: 0.6rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+  }
+  .laptop-input:focus {
+    outline: none;
+    border-color: #8b5cf6;
+    box-shadow: 0 0 8px rgba(139, 92, 246, 0.4);
+  }
+  .laptop-btn {
+    background: #3F2B96;
+    color: #FFFEFB;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .laptop-btn:hover {
+    background: #8b5cf6;
+    transform: translateY(-1px);
+  }
+  .keyboard-hint {
+    font-size: 0.72rem;
+    color: #55508c;
+    margin-top: 0.5rem;
+    text-align: right;
+  }
 </style>
 </head>
 <body>
@@ -54,6 +144,22 @@
         <div style="display:flex;gap:10px;align-items:center;">
           <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20I%20Couldn't%20Help%20But%20Wonder.">💬 Register interest</a>
           <a href="../games/index.html?game=critic" class="btn-play-game" style="margin-top:4px;">Play Game 🎮</a>
+        </div>
+
+        <!-- CARRIE'S LAPTOP INTERACTIVE WIDGET -->
+        <div class="carrie-laptop" id="laptop-widget">
+          <div class="laptop-header">
+            <span>💾 Carrie's Laptop v1.0 — Column Draft</span>
+            <span>File: wonder_draft.txt</span>
+          </div>
+          <div class="screen-glowing" id="laptop-screen">
+            <span id="typewriter-text">As I sat at my window looking at the city, I couldn't help but wonder... What are you thinking about tonight? Type a question below to spec-wonder.</span><span class="carrie-cursor"></span>
+          </div>
+          <div class="laptop-input-wrapper">
+            <input type="text" class="laptop-input" id="laptop-input" placeholder="Type a word or question (e.g. love, copy, rain, city)..." maxlength="100">
+            <button class="laptop-btn" id="laptop-submit-btn">FILE DRAFT</button>
+          </div>
+          <div class="keyboard-hint">💡 Hint: Enable sound for a retro click-clack experience!</div>
         </div>
 
         <!-- HISTORY -->
@@ -129,5 +235,160 @@
 <script src="../js/core/ui.js"></script>
 <script src="../js/data/pricing.js"></script>
 <script src="../js/config.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const laptopInput = document.getElementById('laptop-input');
+  const submitBtn = document.getElementById('laptop-submit-btn');
+  const screenText = document.getElementById('typewriter-text');
+
+  // 1. Web Audio Synth
+  let audioCtx = null;
+
+  function initAudio() {
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === 'suspended') {
+      audioCtx.resume();
+    }
+  }
+
+  // Synthesis of typewriter key click sound
+  function playKeyClick() {
+    try {
+      initAudio();
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+
+      // Noise-like bandpass burst
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(2000 + Math.random() * 800, audioCtx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(100, audioCtx.currentTime + 0.05);
+
+      gain.gain.setValueAtTime(0.15, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.04);
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.05);
+    } catch (e) {
+      // Fallback if web audio is blocked
+    }
+  }
+
+  // Synthesis of retro typewriter carriage return bell chime
+  function playBellChime() {
+    try {
+      initAudio();
+      const osc1 = audioCtx.createOscillator();
+      const osc2 = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+
+      // High-pitched crystal bell frequencies
+      osc1.frequency.setValueAtTime(2100, audioCtx.currentTime);
+      osc2.frequency.setValueAtTime(2700, audioCtx.currentTime);
+
+      gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.8);
+
+      osc1.connect(gain);
+      osc2.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc1.start();
+      osc2.start();
+      osc1.stop(audioCtx.currentTime + 0.8);
+      osc2.stop(audioCtx.currentTime + 0.8);
+    } catch (e) {
+      // Fallback
+    }
+  }
+
+  // Key press listener on input
+  laptopInput.addEventListener('keydown', (e) => {
+    // Play typewriter click on visible characters and spaces
+    if (e.key.length === 1 || e.key === 'Backspace' || e.key === ' ') {
+      playKeyClick();
+    }
+  });
+
+  // 2. Introspective Keyword Metaphor Engine
+  const responses = [
+    {
+      keywords: ['copy', 'style', 'clone', 'mimic', 'preference', 'same', 'wear'],
+      text: "I couldn't help but wonder... In a city built on the myth of absolute individuality, are our tastes ever truly our own? Or is copycat behavior just an intimate, desperate way of saying: 'I want to be you, because I don't know who I am yet'?"
+    },
+    {
+      keywords: ['love', 'romance', 'dating', 'relationship', 'ex', 'boyfriend', 'husband'],
+      text: "I couldn't help but wonder... In a metropolis of eight million options, is looking for a soulmate like searching for a needle in an incredibly stylish, overpriced haystack? Or are we just hoping to find someone who enjoys the same obscure Italian cocktail?"
+    },
+    {
+      keywords: ['rain', 'weather', 'storm', 'snow', 'wind', 'deluge', 'clouds'],
+      text: "I couldn't help but wonder... When we look to the grey skies for mystical omens during a storm, are we actually looking for answers? Or is it just our desperate desire to believe that the universe cares enough about us to pick a fight?"
+    },
+    {
+      keywords: ['city', 'crowd', 'street', 'subway', 'manhattan', 'people'],
+      text: "I couldn't help but wonder... Can you truly find yourself in a crowd where everyone is busy playing the part of someone else? Or does the real spotlight only turn on when we stop performing and disappear into the beautiful urban anonymity?"
+    },
+    {
+      keywords: ['friend', 'friendship', 'bestie', 'girls'],
+      text: "I couldn't help but wonder... Are our friends our real chosen families, or just the mirror reflections we use to make sure our outfits and priorities are perfectly aligned? Or maybe, just maybe, they are the only ones who can see us when we are completely invisible."
+    }
+  ];
+
+  const defaultResponse = "I couldn't help but wonder... In a world constantly demanding us to be sure of everything, is it possible that our question marks—and not our answers—are what make us truly beautiful? Are we all just searching for the right question to ask?";
+
+  function getMetaphorResponse(query) {
+    const q = query.toLowerCase();
+    for (const r of responses) {
+      if (r.keywords.some(k => q.includes(k))) {
+        return r.text;
+      }
+    }
+    return defaultResponse;
+  }
+
+  // 3. Typewriter Effect Logic
+  let typeTimer = null;
+  function typeOutMessage(message) {
+    clearInterval(typeTimer);
+    screenText.innerHTML = '';
+    let index = 0;
+
+    typeTimer = setInterval(() => {
+      if (index < message.length) {
+        screenText.innerHTML += message.charAt(index);
+        index++;
+        // Play click sound at random intervals for a realistic typing cadence
+        if (Math.random() > 0.4) {
+          playKeyClick();
+        }
+      } else {
+        clearInterval(typeTimer);
+        playBellChime();
+      }
+    }, 45); // Typing speed
+  }
+
+  // Submission handler
+  submitBtn.addEventListener('click', () => {
+    const val = laptopInput.value.trim();
+    if (!val) return;
+
+    initAudio();
+    const response = getMetaphorResponse(val);
+    typeOutMessage(response);
+    laptopInput.value = '';
+  });
+
+  // Handle enter key press on input
+  laptopInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      submitBtn.click();
+    }
+  });
+});
+</script>
 </body>
 </html>
