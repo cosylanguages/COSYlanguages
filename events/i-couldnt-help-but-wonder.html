@@ -1,0 +1,105 @@
+<!-- DEVELOPER ALERT: Refer to templates/events/session-template.html (or corresponding active templates in events/sessions/) before creating new sessions in the future! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I Couldn't Help But Wonder 🌌 — COSYlanguages</title>
+<link rel="icon" href="../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/events.css">
+
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .club-hero { background: linear-gradient(135deg, #3F2B96, #1F104D); color: white; padding: 4rem 2rem; text-align: center; }
+  .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+  .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="club-hero">
+  <span style="font-size: clamp(3rem, 8vw, 4.5rem); margin-bottom: 1.5rem; display: block;">🌌</span>
+  <h1>I Couldn't Help But Wonder</h1>
+  <p>Random ideas where we speculate about various things, ask poetic questions, and develop deep philosophical reflection. A creative space for curious minds.</p>
+</header>
+
+<section class="container" style="padding: 2rem 1.5rem 5rem;">
+
+  <a href="index.html" class="back-link" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← All Speaking Clubs</a>
+
+  <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+
+    <div class="club-main">
+      <!-- STUDENT/TEACHER/ADMIN CONTENT -->
+      <div>
+        <div class="section-header" style="margin-bottom: 1.5rem;">
+          <h2 style="font-size: 1.5rem;">📅 Upcoming Sessions</h2>
+        </div>
+        <div class="session-info"><table>
+          <tr><td>Topic</td><td>Whether raindrops select the place where to fall</td></tr>
+          <tr><td>Description</td><td>Speculating about random natural patterns and developing philosophical reflection on how nature chooses its paths.</td></tr>
+          <tr><td>Schedule</td><td>Planned — TBC</td></tr>
+          <tr><td>Duration</td><td>60 min</td></tr>
+          <tr><td>Languages</td><td>🇬🇧</td></tr>
+        </table></div>
+        <div style="display:flex;gap:10px;align-items:center;">
+          <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20I%20Couldn't%20Help%20But%20Wonder.">💬 Register interest</a>
+          <a href="../games/index.html?game=critic" class="btn-play-game" style="margin-top:4px;">Play Game 🎮</a>
+        </div>
+
+        <!-- HISTORY -->
+        <div class="history-block" id="wonder-hist" style="margin-top: 2rem;">
+          <div class="section-header" style="margin-bottom: 1rem;">
+            <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
+          </div>
+          <div class="history-body" style="display: block; padding: 0; border: none;">
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Do Raindrops Select Where to Fall?</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">25 August 2026</span>
+              </div>
+              <a href="sessions/whether-raindrops-select-where-to-fall.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+          </div>
+        </div>
+      </div><!-- /logged-in content -->
+    </div><!-- /club-main -->
+
+    <div class="club-sidebar">
+      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
+        <h3 style="font-size: 1rem; margin-bottom: .5rem;">Speculative Thinking</h3>
+        <p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Expressing hypotheses about highly abstract, poetic, and unusual queries forces speakers to utilize rich conditionals, creative metaphors, and advanced philosophical vocabulary.</p>
+      </div>
+    </div>
+
+  </div><!-- /grid -->
+
+</section>
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/data/pricing.js"></script>
+<script src="../js/config.js"></script>
+</body>
+</html>
