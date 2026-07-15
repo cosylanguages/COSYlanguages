@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<!--
+  ========================================================================
+  DEVELOPER/CREATOR NOTICE:
+  While creating new sessions in the future, ALWAYS refer to this template
+  before starting. This ensures structural integrity, standard naming,
+  and proper pedagogical mapping across COSYlanguages!
+  ========================================================================
+-->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -28,16 +36,39 @@
     <span class="current">Session Title</span>
   </nav>
   <a href="../lets-celebrate.html" class="back-link">← Back to Club</a>
+
+  <!--
+    PEDAGOGICAL & LEVEL APPROPRIATENESS GUIDE:
+    - STARTER / ELEMENTARY (A1-A2): Use simple, high-frequency single word units (e.g., 'Pen', 'Fast'). Ensure simple, direct definitions and elementary example sentences. Avoid idioms or complex relative clauses in questions.
+    - INTERMEDIATE / ADVANCED (B1-C2): Extract a mixture of complex word units, set phrases, and useful collocations (e.g., 'Induce', 'Matriarchal', 'Take the lead', 'By leaps and bounds'). Use sophisticated vocabulary, nuanced definitions, and academic/stylistic examples.
+    - VIDEO vs ARTICLE SOURCES: Extract terms and collocations directly from the linked article or video source. Watch/read sources in full before selecting terms to align with classroom conversations.
+  -->
   <div class="session-meta-grid">
     <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
     <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇪🇸 🇮🇹 🇷🇺</p></div>
     <div class="meta-item"><h4>Level</h4><p>B1 – C2</p></div>
-    <div class="meta-item"><h4>Resources</h4><p><a href="#" target="_blank">Full Article 📖</a></p></div>
+    <div class="meta-item">
+      <h4>Resources</h4>
+      <p>
+        <a href="#" target="_blank" style="color:var(--teal); margin-right: 15px;">Full Article 📖</a>
+        <a href="#" target="_blank" style="color:var(--teal);">Watch Video 🎥</a>
+      </p>
+    </div>
   </div>
+
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Session Description (minimum 3 sentences required). Provide an engaging overview of the session theme. Highlight the primary debate or discussion point. Mention how the resources (article or video) support the topic.</p>
+  </div>
+
+  <!-- VOCABULARY SECTION (EXACTLY 10 UNITS REQUIRED) -->
   <section id="vocabulary">
     <h2 class="section-title">📖 Session Vocabulary</h2>
+    <!--
+      - Extract exactly 10 units of vocabulary (words, set phrases, or collocations).
+      - Ensure all definitions and examples end with a period.
+      - Never include the prefix 'Example: ' inside the .vocab-example inner text.
+    -->
     <div class="vocab-grid-10">
-      <!-- 10 units required. Format: Word – definition. Example: Sentence. -->
       <div class="vocab-card"><div class="vocab-word">Word 1</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 1', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
       <div class="vocab-card"><div class="vocab-word">Word 2</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 2', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
       <div class="vocab-card"><div class="vocab-word">Word 3</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 3', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
@@ -50,69 +81,78 @@
       <div class="vocab-card"><div class="vocab-word">Word 10</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 10', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
     </div>
   </section>
+
+  <!-- DISCUSSION STRUCTURE -->
   <section id="structure">
     <h2 class="section-title">🎙️ Discussion Structure</h2>
     <div class="rounds-container">
+      <!-- WARM-UP -->
       <div class="round-block warm-up open" id="s-warm">
         <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
           <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Historical or cultural context of the celebration.</div>
+          <div class="vim-instruction">Short introduction or interactive question.</div>
           <ul class="round-questions">
-            <li>Question 1?</li>
-            <li>Question 2?</li>
+            <li>Warm-up question 1?</li>
+            <li>Warm-up question 2?</li>
           </ul>
         </div>
       </div>
+
+      <!-- ROUND 1 (EXACTLY 10 QUESTIONS/ITEMS REQUIRED) -->
       <div class="round-block round-1 open" id="s-r1">
         <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — Cultural Trivia</span><span class="round-toggle">▲</span>
+          <span>🔵 Round 1 — Analysis</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Quiz / Discussion</div>
-          <div class="vim-instruction">10 items required. Use .round-item-main and .round-item-personal.</div>
-          <!-- 10 round items -->
-          <div class="round-item"><div class="round-item-main">Tradition 1?</div><div class="round-item-personal">★ Personal experience 1?</div></div>
-          <div class="round-item"><div class="round-item-main">Tradition 2?</div><div class="round-item-personal">★ Personal experience 2?</div></div>
-          <div class="round-item"><div class="round-item-main">Tradition 3?</div><div class="round-item-personal">★ Personal experience 3?</div></div>
-          <div class="round-item"><div class="round-item-main">Tradition 4?</div><div class="round-item-personal">★ Personal experience 4?</div></div>
-          <div class="round-item"><div class="round-item-main">Tradition 5?</div><div class="round-item-personal">★ Personal experience 5?</div></div>
-          <div class="round-item"><div class="round-item-main">Tradition 6?</div><div class="round-item-personal">★ Personal experience 6?</div></div>
-          <div class="round-item"><div class="round-item-main">Tradition 7?</div><div class="round-item-personal">★ Personal experience 7?</div></div>
-          <div class="round-item"><div class="round-item-main">Tradition 8?</div><div class="round-item-personal">★ Personal experience 8?</div></div>
-          <div class="round-item"><div class="round-item-main">Tradition 9?</div><div class="round-item-personal">★ Personal experience 9?</div></div>
-          <div class="round-item"><div class="round-item-main">Tradition 10?</div><div class="round-item-personal">★ Personal experience 10?</div></div>
+          <div class="round-type-badge">Questions</div>
+          <div class="vim-instruction">10 items required. Use .round-item-main and .round-item-personal. Avoid hardcoded numbering and Markdown '**' syntax.</div>
+          <div class="round-item"><div class="round-item-main">Question 1?</div><div class="round-item-personal">★ Personal angle 1?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 2?</div><div class="round-item-personal">★ Personal angle 2?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 3?</div><div class="round-item-personal">★ Personal angle 3?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 4?</div><div class="round-item-personal">★ Personal angle 4?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 5?</div><div class="round-item-personal">★ Personal angle 5?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 6?</div><div class="round-item-personal">★ Personal angle 6?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 7?</div><div class="round-item-personal">★ Personal angle 7?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 8?</div><div class="round-item-personal">★ Personal angle 8?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 9?</div><div class="round-item-personal">★ Personal angle 9?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 10?</div><div class="round-item-personal">★ Personal angle 10?</div></div>
         </div>
       </div>
+
+      <!-- LET'S SPEAK TOGETHER -->
       <div class="round-block lst open" id="s-lst">
         <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
           <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <p class="round-note">Visual showcase or "Design your own festival" activity.</p>
+          <p class="round-note">Visual or interactive discussion activity description.</p>
         </div>
       </div>
+
+      <!-- ROUND 2 (EXACTLY 10 ITEMS REQUIRED) -->
       <div class="round-block round-2 open" id="s-r2">
         <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Future of Traditions</span><span class="round-toggle">▲</span>
+          <span>🟢 Round 2 — Deep Dive / Future thinking</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Debate</div>
-          <div class="vim-instruction">10 items required. Discuss modern changes to the celebration.</div>
-          <!-- 10 round items -->
-          <div class="round-item"><div class="round-item-main">Modernization 1</div></div>
-          <div class="round-item"><div class="round-item-main">Modernization 2</div></div>
-          <div class="round-item"><div class="round-item-main">Modernization 3</div></div>
-          <div class="round-item"><div class="round-item-main">Modernization 4</div></div>
-          <div class="round-item"><div class="round-item-main">Modernization 5</div></div>
-          <div class="round-item"><div class="round-item-main">Modernization 6</div></div>
-          <div class="round-item"><div class="round-item-main">Modernization 7</div></div>
-          <div class="round-item"><div class="round-item-main">Modernization 8</div></div>
-          <div class="round-item"><div class="round-item-main">Modernization 9</div></div>
-          <div class="round-item"><div class="round-item-main">Modernization 10</div></div>
+          <div class="round-type-badge">Projections</div>
+          <div class="vim-instruction">10 items required. Focus on future predictions, dilemmas, or complex statements. Avoid hardcoded numbering.</div>
+          <div class="round-item"><div class="round-item-main">Item 1</div></div>
+          <div class="round-item"><div class="round-item-main">Item 2</div></div>
+          <div class="round-item"><div class="round-item-main">Item 3</div></div>
+          <div class="round-item"><div class="round-item-main">Item 4</div></div>
+          <div class="round-item"><div class="round-item-main">Item 5</div></div>
+          <div class="round-item"><div class="round-item-main">Item 6</div></div>
+          <div class="round-item"><div class="round-item-main">Item 7</div></div>
+          <div class="round-item"><div class="round-item-main">Item 8</div></div>
+          <div class="round-item"><div class="round-item-main">Item 9</div></div>
+          <div class="round-item"><div class="round-item-main">Item 10</div></div>
         </div>
       </div>
+
+      <!-- LINGUISTIC CORRECTIONS (3-5 mistake items required) -->
       <div class="mistake-block open" id="s-mistakes">
         <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
           <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
@@ -122,7 +162,19 @@
             <span class="mistake-wrong">wrong form</span>
             <span class="mistake-arrow">→</span>
             <span class="mistake-right">right form</span>
-            <span class="mistake-note-text">(note)</span>
+            <span class="mistake-note-text">(explanation)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">wrong form</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">right form</span>
+            <span class="mistake-note-text">(explanation)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">wrong form</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">right form</span>
+            <span class="mistake-note-text">(explanation)</span>
           </div>
         </div>
       </div>
