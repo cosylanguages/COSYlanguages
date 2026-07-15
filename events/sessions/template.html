@@ -1,123 +1,98 @@
 <!DOCTYPE html>
+<!--
+  ========================================================================
+  DEVELOPER/CREATOR NOTICE:
+  While creating new sessions in the future, ALWAYS refer to this template
+  before starting. This ensures structural integrity, standard naming,
+  and proper pedagogical mapping across COSYlanguages!
+  ========================================================================
+-->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Session Topic — COSYlanguages</title>
+<title>Session Title — COSYlanguages</title>
 <link rel="icon" href="../../images/logos/cosylanguages.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-
 <link rel="stylesheet" href="../../css/tokens.css">
 <link rel="stylesheet" href="../../css/base.css">
 <link rel="stylesheet" href="../../css/components.css">
 <link rel="stylesheet" href="../../css/layout.css">
 <link rel="stylesheet" href="../../css/events.css">
-
-<style>
-  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
-  .session-hero { padding: 4rem 2rem; text-align: center; color: white; margin-bottom: 2rem; }
-  .session-hero .club-tag { display: inline-block; padding: 0.3rem 0.8rem; border-radius: 20px; background: rgba(255,255,255,0.2); font-size: 0.8rem; font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
-  .session-hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 0.5rem; line-height: 1.1; }
-  .session-hero .session-date { font-size: 1.1rem; opacity: 0.8; font-weight: 300; }
-
-  .content-container { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem 5rem; }
-
-  .back-link { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; transition: color 0.2s; }
-  .back-link:hover { color: var(--ink); }
-
-  .session-meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; background: var(--warm-white); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); }
-  .meta-item h4 { font-size: 0.7rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.1em; margin-bottom: 0.3rem; }
-  .meta-item p { font-weight: 600; font-size: 1rem; }
-
-  /* 10 Units Vocabulary Grid */
-  .vocab-grid-10 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; margin-top: 1.5rem; }
-  .vocab-card { background: white; border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem; transition: transform 0.2s; }
-  .vocab-card:hover { transform: translateY(-2px); border-color: var(--teal-light); }
-
-  .section-title { font-size: 1.8rem; margin: 3rem 0 1.5rem; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
-</style>
 </head>
 <body>
-
 <nav id="cosy-nav"></nav>
-
-<header class="session-hero" style="background: linear-gradient(135deg, #0F6E56, #073b2d);">
-  <div class="club-tag">Keeping Up with Science</div>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A6B50, #2C3E2F);">
+  <div class="club-tag">Club Category</div>
   <h1>Session Title</h1>
-  <p class="session-date">12 May 2025</p>
+  <p class="session-date">DD Month YYYY</p>
 </header>
-
 <main class="content-container">
-
   <nav class="cosy-breadcrumbs">
     <a href="../../">Home</a> <span class="sep">/</span>
     <a href="../">Events</a> <span class="sep">/</span>
-    <a href="../keeping-up-with-science.html">Science Club</a> <span class="sep">/</span>
+    <a href="../club-index.html">Club Name</a> <span class="sep">/</span>
     <span class="current">Session Title</span>
   </nav>
+  <a href="../club-index.html" class="back-link">← Back to Club</a>
 
-  <a href="../keeping-up-with-science.html" class="back-link">← Back to Club</a>
-
+  <!--
+    PEDAGOGICAL & LEVEL APPROPRIATENESS GUIDE:
+    - STARTER / ELEMENTARY (A1-A2): Use simple, high-frequency single word units (e.g., 'Pen', 'Fast'). Ensure simple, direct definitions and elementary example sentences. Avoid idioms or complex relative clauses in questions.
+    - INTERMEDIATE / ADVANCED (B1-C2): Extract a mixture of complex word units, set phrases, and useful collocations (e.g., 'Induce', 'Matriarchal', 'Take the lead', 'By leaps and bounds'). Use sophisticated vocabulary, nuanced definitions, and academic/stylistic examples.
+    - VIDEO vs ARTICLE SOURCES: Extract terms and collocations directly from the linked article or video source. Watch/read sources in full before selecting terms to align with classroom conversations.
+  -->
   <div class="session-meta-grid">
-    <div class="meta-item">
-      <h4>Duration</h4>
-      <p>60 minutes</p>
-    </div>
-    <div class="meta-item">
-      <h4>Languages</h4>
-      <p>🇬🇧 🇫🇷 🇮🇹</p>
-    </div>
-    <div class="meta-item">
-      <h4>Level</h4>
-      <p>B1 – C2</p>
-    </div>
+    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇪🇸 🇮🇹 🇷🇺</p></div>
+    <div class="meta-item"><h4>Level</h4><p>B1 – C2</p></div>
     <div class="meta-item">
       <h4>Resources</h4>
-      <p><a href="#" style="color:var(--teal);">Read Article 📖</a></p>
+      <p>
+        <a href="#" target="_blank" style="color:var(--teal); margin-right: 15px;">Full Article 📖</a>
+        <a href="#" target="_blank" style="color:var(--teal);">Watch Video 🎥</a>
+      </p>
     </div>
   </div>
 
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Detailed 3-sentence description of the session goes here...</p>
+    <p>Session Description (minimum 3 sentences required). Provide an engaging overview of the session theme. Highlight the primary debate or discussion point. Mention how the resources (article or video) support the topic.</p>
   </div>
 
-  <!-- VOCABULARY SECTION -->
+  <!-- VOCABULARY SECTION (EXACTLY 10 UNITS REQUIRED) -->
   <section id="vocabulary">
     <h2 class="section-title">📖 Session Vocabulary</h2>
+    <!--
+      - Extract exactly 10 units of vocabulary (words, set phrases, or collocations).
+      - Ensure all definitions and examples end with a period.
+      - Never include the prefix 'Example: ' inside the .vocab-example inner text.
+    -->
     <div class="vocab-grid-10">
-      <!-- 1 -->
-      <div class="vocab-card">
-        <div class="vocab-word">Word 1</div>
-        <div class="vocab-def">definition here.</div>
-        <div class="vocab-example">sentence here.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 1', definition:'def', example:'ex'}, this)">+ Dictionary</button>
-      </div>
-      <!-- 2 -->
-      <div class="vocab-card">
-        <div class="vocab-word">Word 2</div>
-        <div class="vocab-def">definition here.</div>
-        <div class="vocab-example">sentence here.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 2', definition:'def', example:'ex'}, this)">+ Dictionary</button>
-      </div>
-      <!-- Repeat up to 10 -->
+      <div class="vocab-card"><div class="vocab-word">Word 1</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 1', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 2</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 2', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 3</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 3', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 4</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 4', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 5</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 5', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 6</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 6', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 7</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 7', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 8</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 8', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 9</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 9', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 10</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 10', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
     </div>
   </section>
 
-  <!-- THE 5-PART STRUCTURE -->
+  <!-- DISCUSSION STRUCTURE -->
   <section id="structure">
     <h2 class="section-title">🎙️ Discussion Structure</h2>
-
     <div class="rounds-container">
-
-      <!-- 1. WARM-UP -->
+      <!-- WARM-UP -->
       <div class="round-block warm-up open" id="s-warm">
         <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
           <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <vim-instruction>Introduction to the topic</vim-instruction>
-          <vim-blockquote>A short hook or quote to start the conversation.</vim-blockquote>
+          <div class="vim-instruction">Short introduction or interactive question.</div>
           <ul class="round-questions">
             <li>Warm-up question 1?</li>
             <li>Warm-up question 2?</li>
@@ -125,66 +100,87 @@
         </div>
       </div>
 
-      <!-- 2. ROUND 1 -->
+      <!-- ROUND 1 (EXACTLY 10 QUESTIONS/ITEMS REQUIRED) -->
       <div class="round-block round-1 open" id="s-r1">
         <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
           <span>🔵 Round 1 — Analysis</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Questions</div>
-          <div class="round-item"><div class="round-item-main">Question 1</div><div class="round-item-personal">★ Personal angle</div></div>
-          <div class="round-item"><div class="round-item-main">Question 2</div><div class="round-item-personal">★ Personal angle</div></div>
-          <!-- Repeat to 10 -->
+          <div class="vim-instruction">10 items required. Use .round-item-main and .round-item-personal. Avoid hardcoded numbering and Markdown '**' syntax.</div>
+          <div class="round-item"><div class="round-item-main">Question 1?</div><div class="round-item-personal">★ Personal angle 1?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 2?</div><div class="round-item-personal">★ Personal angle 2?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 3?</div><div class="round-item-personal">★ Personal angle 3?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 4?</div><div class="round-item-personal">★ Personal angle 4?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 5?</div><div class="round-item-personal">★ Personal angle 5?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 6?</div><div class="round-item-personal">★ Personal angle 6?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 7?</div><div class="round-item-personal">★ Personal angle 7?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 8?</div><div class="round-item-personal">★ Personal angle 8?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 9?</div><div class="round-item-personal">★ Personal angle 9?</div></div>
+          <div class="round-item"><div class="round-item-main">Question 10?</div><div class="round-item-personal">★ Personal angle 10?</div></div>
         </div>
       </div>
 
-      <!-- 3. LET'S SPEAK TOGETHER -->
+      <!-- LET'S SPEAK TOGETHER -->
       <div class="round-block lst open" id="s-lst">
         <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
           <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <p class="round-note">Visual/Interactive part</p>
-          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">Option A</span></div>
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">Option B</span></div>
-          </div>
+          <p class="round-note">Visual or interactive discussion activity description.</p>
         </div>
       </div>
 
-      <!-- 4. ROUND 2 -->
+      <!-- ROUND 2 (EXACTLY 10 ITEMS REQUIRED) -->
       <div class="round-block round-2 open" id="s-r2">
         <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Deep Dive</span><span class="round-toggle">▲</span>
+          <span>🟢 Round 2 — Deep Dive / Future thinking</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Debate / Dilemmas</div>
-          <div class="round-item"><div class="round-item-main">Statement 1</div></div>
-          <div class="round-item"><div class="round-item-main">Statement 2</div></div>
-          <!-- Repeat to 10 -->
+          <div class="round-type-badge">Projections</div>
+          <div class="vim-instruction">10 items required. Focus on future predictions, dilemmas, or complex statements. Avoid hardcoded numbering.</div>
+          <div class="round-item"><div class="round-item-main">Item 1</div></div>
+          <div class="round-item"><div class="round-item-main">Item 2</div></div>
+          <div class="round-item"><div class="round-item-main">Item 3</div></div>
+          <div class="round-item"><div class="round-item-main">Item 4</div></div>
+          <div class="round-item"><div class="round-item-main">Item 5</div></div>
+          <div class="round-item"><div class="round-item-main">Item 6</div></div>
+          <div class="round-item"><div class="round-item-main">Item 7</div></div>
+          <div class="round-item"><div class="round-item-main">Item 8</div></div>
+          <div class="round-item"><div class="round-item-main">Item 9</div></div>
+          <div class="round-item"><div class="round-item-main">Item 10</div></div>
         </div>
       </div>
 
-      <!-- 5. MISTAKES -->
+      <!-- LINGUISTIC CORRECTIONS (3-5 mistake items required) -->
       <div class="mistake-block open" id="s-mistakes">
         <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
           <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
         </div>
         <div class="mistake-body" style="display:block;">
           <div class="mistake-item">
-            <span class="mistake-wrong">Wrong form</span>
+            <span class="mistake-wrong">wrong form</span>
             <span class="mistake-arrow">→</span>
-            <span class="mistake-right">Right form</span>
-            <span class="mistake-note-text">(Note)</span>
+            <span class="mistake-right">right form</span>
+            <span class="mistake-note-text">(explanation)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">wrong form</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">right form</span>
+            <span class="mistake-note-text">(explanation)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">wrong form</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">right form</span>
+            <span class="mistake-note-text">(explanation)</span>
           </div>
         </div>
       </div>
-
     </div>
   </section>
-
 </main>
-
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
     <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
@@ -194,12 +190,7 @@
   </div>
   <p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
-
-<script src="../../js/data/languages.js"></script>
 <script src="../../js/core/engine.js"></script>
-<script src="../../js/core/i18n.js"></script>
 <script src="../../js/core/ui.js"></script>
-<script src="../../js/data/pricing.js"></script>
-<script src="../../js/config.js"></script>
 </body>
 </html>
