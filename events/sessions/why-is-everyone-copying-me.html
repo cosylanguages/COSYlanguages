@@ -49,6 +49,14 @@
 <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem; font-style: italic; border-left: 3px solid #3F2B96; padding-left: 1rem;">
 <p>As I watched my best friend order the exact same obscure Italian cocktail I had spent months discovering, I couldn't help but wonder about origin. In a metropolis built on the myth of individuality, why is it that as soon as we establish a unique outfit style, a signature drink, or a custom music playlist, everyone around us begins to mimic it? Is imitation really the highest form of flattery, or is it a quiet theft of our hard-won personal identity by those battling their own social insecurity?</p>
 </div>
+
+<!-- CARRIE'S DIARY INTERACTIVE METAPHOR CARD -->
+<div class="carrie-diary" style="background:#fffcf5; border: 2px dashed #9d81d9; border-radius:12px; padding:1.5rem; margin-bottom:2rem; box-shadow:var(--shadow-sm); font-family:var(--font-serif); font-style:italic; color:#4c3185;">
+  <h4 style="margin:0 0 0.5rem; font-family:var(--font-sans); font-size:0.75rem; text-transform:uppercase; letter-spacing:0.1em; color:#8b5cf6; font-style:normal;">📝 Carrie's Diary: Rhetorical Reflection</h4>
+  <p id="diary-quote" style="font-size:1.05rem; line-height:1.6; margin-bottom:1rem;">"When someone mimics your signature style or orders your exact Italian cocktail, is it the highest form of flattery? Or is it a quiet plagiarizing of the one thing we fight so hard to protect: our authentic identity?"</p>
+  <button class="btn-primary" id="diary-next-btn" style="background:#9d81d9; color:white; border:none; padding:0.4rem 0.8rem; border-radius:6px; font-size:0.8rem; font-family:var(--font-sans); font-style:normal; cursor:pointer; font-weight:700;">Flip to Next Page ✍️</button>
+</div>
+
 <section id="vocabulary">
 <h2 class="section-title">📖 Session Vocabulary</h2>
 <div class="vocab-grid-10">
@@ -260,5 +268,24 @@
 </footer>
 <script src="../../js/core/engine.js"></script>
 <script src="../../js/core/ui.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const quotes = [
+    '"When someone mimics your signature style or orders your exact Italian cocktail, is it the highest form of flattery? Or is it a quiet plagiarizing of the one thing we fight so hard to protect: our authentic identity?"',
+    '"Maybe we are all just trendsetters in our own little columns, searching for a copycat to prove that we actually exist."',
+    '"I couldn\'t help but wonder... In a world of carbon-copy clones and algorithmic preferences, is being unique a genuine superpower, or is it just the loneliest outfit in the room?"'
+  ];
+  let index = 0;
+  const quoteText = document.getElementById('diary-quote');
+  const nextBtn = document.getElementById('diary-next-btn');
+
+  if (nextBtn && quoteText) {
+    nextBtn.addEventListener('click', () => {
+      index = (index + 1) % quotes.length;
+      quoteText.innerText = quotes[index];
+    });
+  }
+});
+</script>
 </body>
 </html>

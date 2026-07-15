@@ -49,6 +49,14 @@
 <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem; font-style: italic; border-left: 3px solid #3F2B96; padding-left: 1rem;">
 <p>As I sat watching the raindrops splash against my apartment window, I couldn't help but wonder about the ultimate relationship exit strategy. When a sudden deluge hits the city, we seek the sanctuary of a chic coffee shop or a cozy apartment, but what about our tiny co-habitants? Do insects like ants and bees have an impenetrable shield of communal instinct that keeps them safe, or are they just as vulnerable and looking for a quick escape as the rest of us?</p>
 </div>
+
+<!-- CARRIE'S DIARY INTERACTIVE METAPHOR CARD -->
+<div class="carrie-diary" style="background:#fffcf5; border: 2px dashed #9d81d9; border-radius:12px; padding:1.5rem; margin-bottom:2rem; box-shadow:var(--shadow-sm); font-family:var(--font-serif); font-style:italic; color:#4c3185;">
+  <h4 style="margin:0 0 0.5rem; font-family:var(--font-sans); font-size:0.75rem; text-transform:uppercase; letter-spacing:0.1em; color:#8b5cf6; font-style:normal;">📝 Carrie's Diary: Rhetorical Reflection</h4>
+  <p id="diary-quote" style="font-size:1.05rem; line-height:1.6; margin-bottom:1rem;">"Are we all just building emotional, impenetrable fortresses like ants, only to realize that sometimes, a little vulnerability is exactly what washes away our dry spells?"</p>
+  <button class="btn-primary" id="diary-next-btn" style="background:#9d81d9; color:white; border:none; padding:0.4rem 0.8rem; border-radius:6px; font-size:0.8rem; font-family:var(--font-sans); font-style:normal; cursor:pointer; font-weight:700;">Flip to Next Page ✍️</button>
+</div>
+
 <section id="vocabulary">
 <h2 class="section-title">📖 Session Vocabulary</h2>
 <div class="vocab-grid-10">
@@ -252,5 +260,24 @@
 </footer>
 <script src="../../js/core/engine.js"></script>
 <script src="../../js/core/ui.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const quotes = [
+    '"Are we all just building emotional, impenetrable fortresses like ants, only to realize that sometimes, a little vulnerability is exactly what washes away our dry spells?"',
+    '"When a life deluge hits, seeking temporary shelter in a cozy relationship is tempting, but is it a genuine sanctuary or just a holding pattern?"',
+    '"I couldn\'t help but wonder... Do we run from emotional storms because we are afraid of getting wet, or because we\'re afraid of finding out who we are when our makeup runs?"'
+  ];
+  let index = 0;
+  const quoteText = document.getElementById('diary-quote');
+  const nextBtn = document.getElementById('diary-next-btn');
+
+  if (nextBtn && quoteText) {
+    nextBtn.addEventListener('click', () => {
+      index = (index + 1) % quotes.length;
+      quoteText.innerText = quotes[index];
+    });
+  }
+});
+</script>
 </body>
 </html>
