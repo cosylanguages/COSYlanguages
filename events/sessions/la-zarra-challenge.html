@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Zarra Challenge — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>La Zarra Challenge</h1>
+  <p class="session-date">Variété Québécoise &amp; Française • B2</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Accueil</a> <span class="sep">/</span>
+    <a href="../">Événements</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">La Zarra Challenge</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">← Retour au club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durée</h4><p>90 minutes</p></div>
+    <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
+    <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire (B2)</p></div>
+    <div class="meta-item"><h4>Thème</h4><p>Scène &amp; Départ amical</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Cette session spéciale rassemble deux grands succès de l'artiste La Zarra : l'hymne théâtral "Diva" et la ballade mélancolique "Tu t'en iras". Les étudiants exploreront le contraste entre la gloire publique sur scène et la solitude intime lors d'un départ ou d'une rupture amoureuse. Nous débattrons des masques que nous portons en société et de la résilience nécessaire pour tracer notre destin.</p>
+    <p style="margin-top: 1rem;"><strong>Chansons individuelles :</strong> Pour des sessions dédiées chanson par chanson, visitez <a href="diva.html" style="color: var(--teal); font-weight: 600;">Diva</a> et <a href="tu-ten-iras.html" style="color: var(--teal); font-weight: 600;">Tu t'en iras</a>.</p>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Vocabulaire de la session</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card"><div class="vocab-word">La diva</div><div class="vocab-def">chanteuse célèbre et talentueuse, souvent exigeante.</div><div class="vocab-example">La diva est entrée sur scène sous les projecteurs dorés.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La diva', definition:'chanteuse célèbre et talentueuse, souvent exigeante.', example:'La diva est entrée sur scène sous les projecteurs dorés.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La solitude</div><div class="vocab-def">état d'une personne qui est seule.</div><div class="vocab-example">Malgré sa grande célébrité, elle ressent une profonde solitude.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La solitude', definition:'état d'une personne qui est seule.', example:'Malgré sa grande célébrité, elle ressent une profonde solitude.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La gloire</div><div class="vocab-def">grande renommée acquise par des mérites exceptionnels.</div><div class="vocab-example">Il a cherché la gloire toute sa vie à travers son écriture.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La gloire', definition:'grande renommée acquise par des mérites exceptionnels.', example:'Il a cherché la gloire toute sa vie à travers son écriture.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">puissance supérieure qui semble régler le cours de la vie.</div><div class="vocab-example">Elle pense que son destin était d'être une artiste internationale.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance supérieure qui semble régler le cours de la vie.', example:'Elle pense que son destin était d'être une artiste internationale.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le masque</div><div class="vocab-def">faux visage pour dissimuler sa véritable apparence.</div><div class="vocab-example">Elle porte un masque joyeux pour cacher ses inquiétudes de vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le masque', definition:'faux visage pour dissimuler sa véritable apparence.', example:'Elle porte un masque joyeux pour cacher ses inquiétudes de vie.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le départ</div><div class="vocab-def">action de s'en aller d'un lieu.</div><div class="vocab-example">Le départ du train est prévu à huit heures précises.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le départ', definition:'action de s'en aller d'un lieu.', example:'Le départ du train est prévu à huit heures précises.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La rupture</div><div class="vocab-def">séparation amoureuse ou fin d'un accord.</div><div class="vocab-example">Ils ont annoncé leur rupture après trois ans de vie commune.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La rupture', definition:'séparation amoureuse ou fin d'un accord.', example:'Ils ont annoncé leur rupture après trois ans de vie commune.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le regret</div><div class="vocab-def">sentiment douloureux de perdre quelque chose ou d'avoir mal agi.</div><div class="vocab-example">Il éprouve un profond regret de ne pas avoir voyagé plus jeune.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le regret', definition:'sentiment douloureux de perdre quelque chose ou d'avoir mal agi.', example:'Il éprouve un profond regret de ne pas avoir voyagé plus jeune.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La valise</div><div class="vocab-def">bagage de forme rectangulaire pour transporter ses vêtements.</div><div class="vocab-example">Elle prépare sa valise la veille de son grand départ.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La valise', definition:'bagage de forme rectangulaire pour transporter ses vêtements.', example:'Elle prépare sa valise la veille de son grand départ.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La promesse</div><div class="vocab-def">engagement de faire ou de donner quelque chose.</div><div class="vocab-example">Il a fait la promesse de revenir avant la fin de l'été.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La promesse', definition:'engagement de faire ou de donner quelque chose.', example:'Il a fait la promesse de revenir avant la fin de l'été.'}, this)">Add to Dictionary</button></div>
+    </div>
+  </section>
+
+  <!-- LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" style="margin-top: 3rem;">
+    <h2 class="section-title">🎵 Exercice d'écoute &amp; Texte à trous</h2>
+    <div class="vim-instruction">
+      <strong>Tâche d'écoute active :</strong> Écoutez les deux chansons et remplissez les trous à l'aide des mots manquants du vocabulaire.
+    </div>
+
+    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">diva</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">solitude</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">départ</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">valise</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">promesse</span>
+      </div>
+    </div>
+
+    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Chanson 1 : Diva</h3>
+      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 2rem;">
+Elle entre dans la lumière, l'ombre s'efface,
+La grande [__________] prend sa place.
+Mais derrière le rideau et la scène,
+Elle cache sa profonde [__________] de reine déchue...
+      </p>
+
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Chanson 2 : Tu t'en iras</h3>
+      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
+Aujourd'hui c'est l'heure du grand [__________],
+Et de fermer la porte à notre histoire.
+Tu t'en iras, avec ta [__________] à la main,
+Sans un regard pour le chemin du lendemain.
+Il ne restera que le parfum de cette [__________]...
+      </p>
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Structure de discussion</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="vim-instruction">Partagez vos impressions sur la voix théâtrale de La Zarra et l'esthétique rétro-cabaret.</div>
+          <ul class="round-questions">
+            <li>Qu'est-ce qui caractérise le style dramatique de La Zarra ?</li>
+            <li>Préférez-vous les chansons de rupture rythmées ou plutôt lentes ?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Discussion des paroles</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="vim-instruction">Analysez les thèmes des deux chansons et parlez en utilisant le vocabulaire ciblé.</div>
+          <div class="round-item"><div class="round-item-main">Pourquoi le concept de la <strong>diva</strong> théâtrale attire-t-il autant les foules ?</div><div class="round-item-personal">★ Connaissez-vous d'autres artistes divas célèbres ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment les célébrités gèrent-elles la <strong>solitude</strong> malgré leur gloire publique ?</div><div class="round-item-personal">★ Aimez-vous passer du temps seul pour réfléchir ?</div></div>
+          <div class="round-item"><div class="round-item-main">Est-ce que courir après la <strong>gloire</strong> amène un bonheur sincère ?</div><div class="round-item-personal">★ Visez-vous la célébrité professionnelle ?</div></div>
+          <div class="round-item"><div class="round-item-main">Croyez-vous que notre <strong>destin</strong> est écrit d'avance ou que nous le créons ?</div><div class="round-item-personal">★ Pensez-vous que les coïncidences existent ?</div></div>
+          <div class="round-item"><div class="round-item-main">Pourquoi portons-nous parfois un <strong>masque</strong> souriant au bureau ?</div><div class="round-item-personal">★ Êtes-vous toujours authentique avec vos collègues ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment vous préparez-vous mentalement avant un grand <strong>départ</strong> ?</div><div class="round-item-personal">★ Aimez-vous déménager dans de nouvelles villes ?</div></div>
+          <div class="round-item"><div class="round-item-main">Qu'est-ce qui est le plus difficile à surmonter après une <strong>rupture</strong> amoureuse ?</div><div class="round-item-personal">★ Comment conseillez-vous un ami triste ?</div></div>
+          <div class="round-item"><div class="round-item-main">Quel est votre plus grand <strong>regret</strong> concernant vos projets passés ?</div><div class="round-item-personal">★ Changeriez-vous quelque chose à votre passé ?</div></div>
+          <div class="round-item"><div class="round-item-main">Qu'emporteriez-vous dans votre unique <strong>valise</strong> si vous deviez partir demain ?</div><div class="round-item-personal">★ Voyagez-vous léger ou lourd ?</div></div>
+          <div class="round-item"><div class="round-item-main">Pourquoi est-il si crucial de tenir une <strong>promesse</strong> importante ?</div><div class="round-item-personal">★ Prenez-vous les promesses des autres au sérieux ?</div></div>
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Visual contrast: Live Acoustic Cafe vs Electric Stage Lights.</p>
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Acoustic Performance</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Grand Arena Concert</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Analyse approfondie &amp; Débat</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="vim-instruction">Évaluez ces affirmations philosophiques inspirées par l'univers de La Zarra.</div>
+          <div class="round-item"><div class="round-item-main">Dans le futur, la figure de la <strong>diva</strong> théâtrale disparaîtra au profit d'avatars virtuels.</div></div>
+          <div class="round-item"><div class="round-item-main">La <strong>solitude</strong> est le prix inévitable à payer pour réussir une carrière d'exception.</div></div>
+          <div class="round-item"><div class="round-item-main">La <strong>gloire</strong> éphémère sur les réseaux sociaux détruit la santé des jeunes.</div></div>
+          <div class="round-item"><div class="round-item-main">Notre <strong>destin</strong> est entièrement contrôlé par notre origine sociale.</div></div>
+          <div class="round-item"><div class="round-item-main">Vivre sans porter aucun <strong>masque</strong> social est impossible aujourd'hui.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans le futur, le <strong>départ</strong> pour l'espace sera réservé aux plus fortunés.</div></div>
+          <div class="round-item"><div class="round-item-main">Une <strong>rupture</strong> amicale fait parfois plus de mal qu'une rupture amoureuse.</div></div>
+          <div class="round-item"><div class="round-item-main">Vivre avec le moindre <strong>regret</strong> est indispensable pour rester humble.</div></div>
+          <div class="round-item"><div class="round-item-main">Posséder plus de biens que ce qui rentre dans une seule <strong>valise</strong> est inutile.</div></div>
+          <div class="round-item"><div class="round-item-main">Une <strong>promesse</strong> non tenue devrait être sévèrement punie dans le commerce.</div></div>
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Elle monte sur <span class="mistake-highlight">le</span> scène</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Elle monte sur la scène</span>
+            <span class="mistake-note-text">(Le mot 'scène' est féminin : la scène.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">J'ai fait un beau voyage <span class="mistake-highlight">à l'</span>Italie</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">J'ai fait un beau voyage en Italie</span>
+            <span class="mistake-note-text">(Utilisez la préposition 'en' devant les pays féminins singuliers.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Elle est fière <span class="mistake-highlight">de son</span> gloire</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Elle est fière de sa gloire</span>
+            <span class="mistake-note-text">(Le mot 'gloire' est féminin : sa gloire.)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>
