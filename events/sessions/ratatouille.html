@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ratatouille — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #3D2B1F, #1F140D);">
+  <div class="club-tag">Cinema Club</div>
+  <h1>Ratatouille</h1>
+  <p class="session-date">Langue Française • A2</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Accueil</a> <span class="sep">/</span>
+    <a href="../">Événements</a> <span class="sep">/</span>
+    <a href="../cinema-club.html">Cinema Club</a> <span class="sep">/</span>
+    <span class="current">Ratatouille</span>
+  </nav>
+  <a href="../cinema-club.html" class="back-link">← Retour au club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durée</h4><p>90 minutes</p></div>
+    <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
+    <div class="meta-item"><h4>Niveau</h4><p>Débutant (A2)</p></div>
+    <div class="meta-item"><h4>Thème</h4><p>Gastronomie &amp; Cinéma</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Cette session est dédiée au magnifique film d'animation de Pixar, Ratatouille. Nous allons explorer le vocabulaire français de la cuisine, de la gastronomie et des restaurants parisiens. Les étudiants apprendront à exprimer leur passion et à décrire de délicieux plats simples.</p>
+  </div>
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card"><div class="vocab-word">Le chef</div><div class="vocab-def">la personne qui dirige la cuisine d'un restaurant.</div><div class="vocab-example">Le chef prépare un menu spécial pour ce soir.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le chef', definition:'la personne qui dirige la cuisine d\'un restaurant.', example:'Le chef prépare un menu spécial pour ce soir.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Gustatif</div><div class="vocab-def">qui se rapporte au goût ou aux saveurs.</div><div class="vocab-example">C'est un plaisir gustatif unique et délicieux.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Gustatif', definition:'qui se rapporte au goût ou aux saveurs.', example:'C\'est un plaisir gustatif unique et délicieux.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La soubrette</div><div class="vocab-def">un terme de service pour une employée de maison ou de cuisine.</div><div class="vocab-example">La soubrette nettoie la table du restaurant.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La soubrette', definition:'un terme de service pour une employée de maison ou de cuisine.', example:'La soubrette nettoie la table du restaurant.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le ragoût</div><div class="vocab-def">un plat traditionnel de viande et de légumes mijotés.</div><div class="vocab-example">Ma grand-mère prépare un délicieux ragoût de légumes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le ragoût', definition:'un plat traditionnel de viande et de légumes mijotés.', example:'Ma grand-mère prépare un délicieux ragoût de légumes.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La poubelle</div><div class="vocab-def">un récipient pour collecter les déchets et les ordures.</div><div class="vocab-example">Veuillez jeter ces restes dans la poubelle.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La poubelle', definition:'un récipient pour collecter les déchets et les ordures.', example:'Veuillez jeter ces restes dans la poubelle.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La passion</div><div class="vocab-def">un amour très fort et intense pour une activité.</div><div class="vocab-example">La cuisine est sa plus grande passion depuis l'enfance.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La passion', definition:'un amour très fort et intense pour une activité.', example:'La cuisine est sa plus grande passion depuis l\'enfance.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">L'ingrédient</div><div class="vocab-def">un élément nécessaire pour préparer un plat.</div><div class="vocab-example">Le sel est un ingrédient essentiel pour assaisonner.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'ingrédient', definition:'un élément nécessaire pour préparer un plat.', example:'Le sel est un ingrédient essentiel pour assaisonner.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Goûter</div><div class="vocab-def">tester la saveur d'un aliment en le mettant en bouche.</div><div class="vocab-example">Il veut goûter la soupe avant de la servir.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Goûter', definition:'tester la saveur d\'un aliment en le mettant en bouche.', example:'Il veut goûter la soupe avant de la servir.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le rat</div><div class="vocab-def">un petit rongeur intelligent avec une longue queue.</div><div class="vocab-example">Rémy est un rat exceptionnel qui adore cuisiner.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le rat', definition:'un petit rongeur intelligent avec une longue queue.', example:'Rémy est un rat exceptionnel qui adore cuisiner.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Nettoyer</div><div class="vocab-def">rendre propre en enlevant la saleté ou les déchets.</div><div class="vocab-example">Les cuisiniers doivent nettoyer le plan de travail.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Nettoyer', definition:'rendre propre en enlevant la saleté ou les déchets.', example:'Les cuisiniers doivent nettoyer le plan de travail.'}, this)">Add to Dictionary</button></div>
+    </div>
+  </section>
+  <section id="structure">
+    <h2 class="section-title">🎙️ Structure de Discussion</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="vim-instruction">Présentez brièvement vos goûts culinaires.</div>
+          <ul class="round-questions">
+            <li>Quel est votre plat préféré à préparer ou à manger ?</li>
+            <li>Aimez-vous regarder des films d'animation ou des dessins animés ?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Discussion Générale</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="vim-instruction">Discutez des thèmes du film, de la cuisine et de la passion.</div>
+          <div class="round-item"><div class="round-item-main">Quelles sont les responsabilités principales pour un grand <strong>chef</strong> dans un restaurant à Paris ?</div><div class="round-item-personal">★ Voulez-vous devenir un grand chef un jour ?</div></div>
+          <div class="round-item"><div class="round-item-main">Pourquoi est-il important de développer notre sens <strong>gustatif</strong> en mangeant des aliments variés ?</div><div class="round-item-personal">★ Avez-vous une expérience gustative mémorable à partager ?</div></div>
+          <div class="round-item"><div class="round-item-main">Pourquoi le travail d'une <strong>soubrette</strong> ou d'un commis de cuisine est-il essentiel mais fatiguant ?</div><div class="round-item-personal">★ Connaissez-vous des personnes qui travaillent dans le domaine du service ?</div></div>
+          <div class="round-item"><div class="round-item-main">Qu'est-ce qui rend un bon <strong>ragoût</strong> traditionnel si réconfortant pendant l'hiver ?</div><div class="round-item-personal">★ Préparez-vous souvent un ragoût chez vous ?</div></div>
+          <div class="round-item"><div class="round-item-main">Pourquoi est-il crucial de jeter immédiatement les restes de nourriture dans la <strong>poubelle</strong> ?</div><div class="round-item-personal">★ Triez-vous régulièrement vos déchets avant de les jeter à la poubelle ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment pouvons-nous transformer notre simple passe-temps en une véritable <strong>passion</strong> ?</div><div class="round-item-personal">★ Quelle est votre passion principale dans la vie ?</div></div>
+          <div class="round-item"><div class="round-item-main">Quel est l'<strong>ingrédient</strong> le plus important selon vous pour réussir une bonne ratatouille ?</div><div class="round-item-personal">★ Quel ingrédient utilisez-vous presque tous les jours ?</div></div>
+          <div class="round-item"><div class="round-item-main">Aimez-vous <strong>goûter</strong> de nouveaux plats étranges quand vous voyagez à l'étranger ?</div><div class="round-item-personal">★ Quel plat insolite avez-vous pu goûter récemment ?</div></div>
+          <div class="round-item"><div class="round-item-main">Pourquoi les gens ont-ils si peur de voir un petit <strong>rat</strong> dans un restaurant propre ?</div><div class="round-item-personal">★ Avez-vous trouvé le rat Rémy sympathique dans le film ?</div></div>
+          <div class="round-item"><div class="round-item-main">Pourquoi est-il nécessaire de <strong>nettoyer</strong> la cuisine avant de commencer la préparation d'un plat ?</div><div class="round-item-personal">★ Aimez-vous nettoyer après avoir cuisiné ?</div></div>
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Parlons Ensemble</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Comparaison visuelle : Cuisine de grand restaurant vs Cuisine de maison chaleureuse.</p>
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">👨‍🍳</span><div style="font-weight:600;">Cuisine Professionnelle</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🍳</span><div style="font-weight:600;">Cuisine de Maison</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Débat &amp; Prédictions futures</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Débat</div>
+          <div class="vim-instruction">Analysez ces déclarations audacieuses sur l'alimentation de demain.</div>
+          <div class="round-item"><div class="round-item-main">Dans le futur, chaque grand <strong>chef</strong> sera remplacé par un robot culinaire intelligent.</div></div>
+          <div class="round-item"><div class="round-item-main">Le plaisir <strong>gustatif</strong> de la nourriture synthétique sera supérieur à celui des produits biologiques.</div></div>
+          <div class="round-item"><div class="round-item-main">Le métier de <strong>soubrette</strong> et de serveur disparaîtra complètement avec la livraison automatisée.</div></div>
+          <div class="round-item"><div class="round-item-main">Un bon <strong>ragoût</strong> fait maison sera considéré comme un luxe rare dans les grandes villes.</div></div>
+          <div class="round-item"><div class="round-item-main">La <strong>poubelle</strong> ménagère n'existera plus grâce au recyclage instantané des déchets organiques.</div></div>
+          <div class="round-item"><div class="round-item-main">Travailler sans <strong>passion</strong> est le principal problème de la société de consommation moderne.</div></div>
+          <div class="round-item"><div class="round-item-main">L'<strong>ingrédient</strong> génétiquement modifié sera obligatoire pour nourrir toute la population mondiale.</div></div>
+          <div class="round-item"><div class="round-item-main">Nous devrions tous <strong>goûter</strong> des insectes pour réduire notre consommation de viande.</div></div>
+          <div class="round-item"><div class="round-item-main">Un <strong>rat</strong> de laboratoire aidera bientôt à détecter les maladies graves dans nos maisons.</div></div>
+          <div class="round-item"><div class="round-item-main">Il sera impossible de <strong>nettoyer</strong> complètement l'environnement sans interdire l'utilisation du plastique.</div></div>
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item"><span class="mistake-wrong">Je suis très passionné pour la cuisine française</span><span class="mistake-arrow">→</span><span class="mistake-right">Je suis très passionné par la cuisine française</span><span class="mistake-note-text">(On est passionné 'par' quelque chose en français)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">J'adore manger ragoût de légumes</span><span class="mistake-arrow">→</span><span class="mistake-right">J'adore manger du ragoût de légumes</span><span class="mistake-note-text">(N'oubliez pas d'utiliser l'article partitif 'du' devant un nom masculin singulier)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">Rémy est un rat qui préfère de cuisiner</span><span class="mistake-arrow">→</span><span class="mistake-right">Rémy est un rat qui préfère cuisiner</span><span class="mistake-note-text">(Le verbe 'préférer' ne prend pas de préposition avant un infinitif)</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Accueil</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Pratique</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Jeux</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Événements</a>
+  </div>
+  <p>© 2026 COSYlanguages — Tous droits réservés</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>

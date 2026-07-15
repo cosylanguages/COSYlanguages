@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cinema Club 🎬 — COSYlanguages</title>
+<link rel="icon" href="../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/events.css">
+
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .club-hero { background: linear-gradient(135deg, #3D2B1F, #1F140D); color: #FAF7F2; padding: 4rem 2rem; text-align: center; }
+  .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; color: #FAF7F2; }
+  .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="club-hero">
+  <span style="font-size: 3.5rem; display: block; margin-bottom: 1rem;">🎬</span>
+  <h1>Cinema Club</h1>
+  <p>Immerse yourself in original-language cinema. Watch authentic scenes, expand your natural slang vocabulary, and discuss powerful films and series with a native COSYlanguages teacher.</p>
+</header>
+
+<section class="container" style="padding: 2rem 1.5rem 5rem;">
+
+  <nav class="cosy-breadcrumbs">
+    <a href="../">Home</a> <span class="sep">/</span>
+    <a href="index.html">Events</a> <span class="sep">/</span>
+    <span class="current">Cinema Club</span>
+  </nav>
+
+  <a href="index.html" class="back-link" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← All Live Events</a>
+
+  <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+
+    <div class="club-main">
+      <!-- UPCOMING SESSIONS -->
+      <div>
+        <div class="section-header" style="margin-bottom: 1.5rem;">
+          <h2 style="font-size: 1.5rem;">📅 Next Live Session</h2>
+        </div>
+        <div class="session-info"><table>
+          <tr><td>Film</td><td>The Devil Wears Prada (American English)</td></tr>
+          <tr><td>Description</td><td>Analyze the high-stress workplace slang and corporate culture in NYC's fashion scene.</td></tr>
+          <tr><td>Focus</td><td>Business &amp; Fashion Slang</td></tr>
+          <tr><td>Schedule</td><td>Planned — TBC</td></tr>
+          <tr><td>Duration</td><td>90 min</td></tr>
+          <tr><td>Languages</td><td>🇬🇧 🇫🇷 🇮🇹 🇷🇺</td></tr>
+        </table></div>
+        <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Cinema%20Club." style="background: var(--teal); color: white;">💬 Register Interest</a>
+
+        <!-- HISTORY (PAST SESSIONS) -->
+        <div class="history-block" id="sc-hist" style="margin-top: 3.5rem;">
+          <div class="section-header" style="margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+            <h2 style="font-size: 1.5rem; margin: 0;">🕒 Past Sessions</h2>
+          </div>
+
+          <!-- LEVEL FILTERS -->
+          <div class="club-filters" style="justify-content: flex-start; margin-bottom: 2rem;">
+            <button class="filter-btn active" data-level="all">All Levels</button>
+            <button class="filter-btn" data-level="beginner">Beginner (A1-A2)</button>
+            <button class="filter-btn" data-level="intermediate">Intermediate (B1-B2)</button>
+            <button class="filter-btn" data-level="advanced">Advanced (C1-C2)</button>
+          </div>
+
+          <div class="history-body" style="display: block; padding: 0; border: none;">
+            <!-- 1. The Devil Wears Prada (Intermediate) -->
+            <div class="history-session" data-levels="intermediate" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:24px;overflow:hidden;background:#FAF7F2;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;">
+              <div style="flex: 1; min-width: 250px;">
+                <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
+                  <span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7;">B1–B2</span>
+                  <span class="club-tag" style="background:#FAF0E6; color:#8A4B08; border-color:#F5D6B3;">American English</span>
+                </div>
+                <h4 style="margin:0 0 0.5rem;font-size:1.2rem;font-family: 'Playfair Display', serif; font-weight:700;">The Devil Wears Prada</h4>
+                <p style="margin:0; font-size:0.88rem; color:var(--muted); line-height:1.5;">Dive into high-fashion corporate life. Master conversational workplace idioms and fast-paced Manhattan slang.</p>
+              </div>
+              <a href="sessions/the-devil-wears-prada.html" class="view-btn" style="background:#3D2B1F; color:#FAF7F2; border-radius:12px; font-weight:600; padding:0.6rem 1.2rem; text-decoration:none;">View Session →</a>
+            </div>
+
+            <!-- 2. Fleabag (Advanced) -->
+            <div class="history-session" data-levels="advanced" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:24px;overflow:hidden;background:#FAF7F2;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;">
+              <div style="flex: 1; min-width: 250px;">
+                <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
+                  <span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE;">C1–C2</span>
+                  <span class="club-tag" style="background:#FAF0E6; color:#8A4B08; border-color:#F5D6B3;">British English</span>
+                </div>
+                <h4 style="margin:0 0 0.5rem;font-size:1.2rem;font-family: 'Playfair Display', serif; font-weight:700;">Fleabag (Series)</h4>
+                <p style="margin:0; font-size:0.88rem; color:var(--muted); line-height:1.5;">Unpack modern British dark comedy, Fourth-Wall breaks, conversational colloquialisms, and dry humor.</p>
+              </div>
+              <a href="sessions/fleabag.html" class="view-btn" style="background:#3D2B1F; color:#FAF7F2; border-radius:12px; font-weight:600; padding:0.6rem 1.2rem; text-decoration:none;">View Session →</a>
+            </div>
+
+            <!-- 3. Breakfast at Tiffany's (Intermediate/B2) -->
+            <div class="history-session" data-levels="intermediate" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:24px;overflow:hidden;background:#FAF7F2;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;">
+              <div style="flex: 1; min-width: 250px;">
+                <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
+                  <span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7;">B2</span>
+                  <span class="club-tag" style="background:#FAF0E6; color:#8A4B08; border-color:#F5D6B3;">Mid-Atlantic English</span>
+                </div>
+                <h4 style="margin:0 0 0.5rem;font-size:1.2rem;font-family: 'Playfair Display', serif; font-weight:700;">Breakfast at Tiffany's</h4>
+                <p style="margin:0; font-size:0.88rem; color:var(--muted); line-height:1.5;">Explore Mid-Atlantic elegant English, classic NYC slang, and the themes of romance, independence, and social climbing.</p>
+              </div>
+              <a href="sessions/breakfast-at-tiffanys.html" class="view-btn" style="background:#3D2B1F; color:#FAF7F2; border-radius:12px; font-weight:600; padding:0.6rem 1.2rem; text-decoration:none;">View Session →</a>
+            </div>
+
+            <!-- 4. Serebryanye Konki (Intermediate/B1 Russian) -->
+            <div class="history-session" data-levels="intermediate" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:24px;overflow:hidden;background:#FAF7F2;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;">
+              <div style="flex: 1; min-width: 250px;">
+                <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
+                  <span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7;">B1</span>
+                  <span class="club-tag" style="background:#FAF0E6; color:#8A4B08; border-color:#F5D6B3;">Russian</span>
+                </div>
+                <h4 style="margin:0 0 0.5rem;font-size:1.2rem;font-family: 'Playfair Display', serif; font-weight:700;">Serebryanye Konki (Silver Skates)</h4>
+                <p style="margin:0; font-size:0.88rem; color:var(--muted); line-height:1.5;">Practice Russian winter and historical terms, exploring class divisions and societal shifts in beautiful pre-revolution Saint Petersburg.</p>
+              </div>
+              <a href="sessions/serebryanye-konki.html" class="view-btn" style="background:#3D2B1F; color:#FAF7F2; border-radius:12px; font-weight:600; padding:0.6rem 1.2rem; text-decoration:none;">View Session →</a>
+            </div>
+
+            <!-- 5. La Valla (Intermediate/B2 Spanish) -->
+            <div class="history-session" data-levels="intermediate" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:24px;overflow:hidden;background:#FAF7F2;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;">
+              <div style="flex: 1; min-width: 250px;">
+                <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
+                  <span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7;">B2</span>
+                  <span class="club-tag" style="background:#FAF0E6; color:#8A4B08; border-color:#F5D6B3;">Spanish</span>
+                </div>
+                <h4 style="margin:0 0 0.5rem;font-size:1.2rem;font-family: 'Playfair Display', serif; font-weight:700;">La Valla (The Barrier)</h4>
+                <p style="margin:0; font-size:0.88rem; color:var(--muted); line-height:1.5;">Analyze political survival, state boundaries, and resistance vocabulary in a highly acclaimed futuristic Spanish drama series.</p>
+              </div>
+              <a href="sessions/la-valla.html" class="view-btn" style="background:#3D2B1F; color:#FAF7F2; border-radius:12px; font-weight:600; padding:0.6rem 1.2rem; text-decoration:none;">View Session →</a>
+            </div>
+
+            <!-- 6. Ratatouille (Beginner) -->
+            <div class="history-session" data-levels="beginner" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:24px;overflow:hidden;background:#FAF7F2;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;">
+              <div style="flex: 1; min-width: 250px;">
+                <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
+                  <span class="club-tag" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7;">A2</span>
+                  <span class="club-tag" style="background:#FAF0E6; color:#8A4B08; border-color:#F5D6B3;">French</span>
+                </div>
+                <h4 style="margin:0 0 0.5rem;font-size:1.2rem;font-family: 'Playfair Display', serif; font-weight:700;">Ratatouille</h4>
+                <p style="margin:0; font-size:0.88rem; color:var(--muted); line-height:1.5;">A culinary Paris adventure. Learn fundamental food vocabulary, kitchen positions, and expressions of intense passion.</p>
+              </div>
+              <a href="sessions/ratatouille.html" class="view-btn" style="background:#3D2B1F; color:#FAF7F2; border-radius:12px; font-weight:600; padding:0.6rem 1.2rem; text-decoration:none;">View Session →</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="club-sidebar">
+      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-top: 0;">
+        <h3 style="font-size: 1rem; margin-bottom: .5rem; font-family: 'Playfair Display', serif;">Why Cinema?</h3>
+        <p style="font-size: .85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1rem;">Films and series capture spoken language exactly as it is used by native speakers: fast-paced, highly idiomatic, and layered with tone and culture.</p>
+        <p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Through carefully structured scene-by-scene analysis, we turn passive entertainment into active fluency.</p>
+      </div>
+    </div>
+
+  </div><!-- /grid -->
+
+</section>
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/data/pricing.js"></script>
+<script src="../js/config.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.filter-btn');
+  const sessions = document.querySelectorAll('.history-session');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const selectedLevel = btn.getAttribute('data-level');
+
+      sessions.forEach(sess => {
+        const levels = sess.getAttribute('data-levels') || '';
+        if (selectedLevel === 'all' || levels.includes(selectedLevel)) {
+          sess.style.display = 'flex';
+        } else {
+          sess.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script>
+</body>
+</html>
