@@ -49,6 +49,14 @@
 <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem; font-style: italic; border-left: 3px solid #3F2B96; padding-left: 1rem;">
 <p>As I stood waiting for the light to change on a bustling street corner, surrounded by hundreds of strangers, I couldn't help but wonder about the spotlight effect. In a city of eight million people, why is it that we often feel so conspicuous and self-conscious, as if every stranger in the crowd is actively scrutinizing our lives? Is this constant feeling of being watched a symptom of urban paranoia, or is it a beautiful delusion that keeps us from accepting our own absolute anonymity?</p>
 </div>
+
+<!-- CARRIE'S DIARY INTERACTIVE METAPHOR CARD -->
+<div class="carrie-diary" style="background:#fffcf5; border: 2px dashed #9d81d9; border-radius:12px; padding:1.5rem; margin-bottom:2rem; box-shadow:var(--shadow-sm); font-family:var(--font-serif); font-style:italic; color:#4c3185;">
+  <h4 style="margin:0 0 0.5rem; font-family:var(--font-sans); font-size:0.75rem; text-transform:uppercase; letter-spacing:0.1em; color:#8b5cf6; font-style:normal;">📝 Carrie's Diary: Rhetorical Reflection</h4>
+  <p id="diary-quote" style="font-size:1.05rem; line-height:1.6; margin-bottom:1rem;">"In a city of eight million observers, we obsess over our conspicuous flaws. But in a world where everyone is busy performance-arting their own lives, is anyone actually looking at us?"</p>
+  <button class="btn-primary" id="diary-next-btn" style="background:#9d81d9; color:white; border:none; padding:0.4rem 0.8rem; border-radius:6px; font-size:0.8rem; font-family:var(--font-sans); font-style:normal; cursor:pointer; font-weight:700;">Flip to Next Page ✍️</button>
+</div>
+
 <section id="vocabulary">
 <h2 class="section-title">📖 Session Vocabulary</h2>
 <div class="vocab-grid-10">
@@ -259,5 +267,24 @@
 </footer>
 <script src="../../js/core/engine.js"></script>
 <script src="../../js/core/ui.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const quotes = [
+    '"In a city of eight million observers, we obsess over our conspicuous flaws. But in a world where everyone is busy performance-arting their own lives, is anyone actually looking at us?"',
+    '"Is the spotlight effect a narcissistic delusion of grandeur, or is it a comforting barrier that protects us from the terrifying truth of our own absolute anonymity?"',
+    '"I couldn\'t help but wonder... Why do we feel more self-conscious walking down a crowded Manhattan avenue than we do standing raw and exposed before the person we love?"'
+  ];
+  let index = 0;
+  const quoteText = document.getElementById('diary-quote');
+  const nextBtn = document.getElementById('diary-next-btn');
+
+  if (nextBtn && quoteText) {
+    nextBtn.addEventListener('click', () => {
+      index = (index + 1) % quotes.length;
+      quoteText.innerText = quotes[index];
+    });
+  }
+});
+</script>
 </body>
 </html>
