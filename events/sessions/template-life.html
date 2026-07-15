@@ -18,7 +18,7 @@
 <header class="session-hero" style="background: linear-gradient(135deg, #FF9A8B, #FF6A88);">
   <div class="club-tag">My Life With & Without</div>
   <h1>Session Title</h1>
-  <p class="session-date">Date</p>
+  <p class="session-date">DD Month YYYY</p>
 </header>
 <main class="content-container">
   <nav class="cosy-breadcrumbs">
@@ -32,16 +32,36 @@
     <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
     <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇪🇸 🇮🇹 🇷🇺</p></div>
     <div class="meta-item"><h4>Level</h4><p>B1 – C2</p></div>
-    <div class="meta-item"><h4>Focus</h4><p>Topic focus here</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="#" target="_blank" style="color:var(--teal); margin-right: 12px;">Link to Article 📖</a>
+      <a href="#" target="_blank" style="color:var(--teal);">Link to Video 🎥</a>
+    </p></div>
   </div>
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Detailed 3-sentence description of the session goes here...</p>
+    <p>Detailed 3-sentence description of the session goes here. The description must introduce the core theme, set the atmosphere, and mention key themes that will be explored.</p>
   </div>
-
   <section id="vocabulary">
     <h2 class="section-title">📖 Session Vocabulary</h2>
+
+    <div class="vim-instruction">
+      <strong>Developer Vocabulary Guidelines:</strong><br>
+      1. <strong>Direct Extraction:</strong> All vocabulary, collocations, or set phrases must be extracted directly from targeted session sources (articles, videos, songs, films, series, etc.). Read or watch the source material completely before compiling.<br>
+      2. <strong>Diversified Types:</strong> Do not limit entries to single word units. Include relevant set phrases, collocations, idioms, or useful phrasal verbs that are highly applicable to the discussion.<br>
+      3. <strong>10-10-10 Rule:</strong> Exactly 10 units are required. Each entry must have a word, definition, and example ending with a period.
+    </div>
+
     <div class="vocab-grid-10">
-      <!-- Vocabulary Cards -->
+      <!-- 10 units required. Format: Word – definition. Example: Sentence. -->
+      <div class="vocab-card"><div class="vocab-word">Word 1</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 1', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 2</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 2', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 3</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 3', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 4</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 4', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 5</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 5', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 6</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 6', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 7</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 7', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 8</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 8', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 9</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 9', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Word 10</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 10', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
     </div>
   </section>
   <section id="structure">
@@ -52,16 +72,31 @@
           <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <!-- Warm-up Content -->
+          <div class="vim-instruction">Personal hook or anecdotal entry into the topic.</div>
+          <ul class="round-questions">
+            <li>Question 1?</li>
+            <li>Question 2?</li>
+          </ul>
         </div>
       </div>
       <div class="round-block round-1 open" id="s-r1">
         <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — My Life With</span><span class="round-toggle">▲</span>
+          <span>🔵 Round 1 — Personal Depth</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Narrative</div>
-          <!-- Round 1 Items -->
+          <div class="vim-instruction">10 items required. Use .round-item-main and .round-item-personal.</div>
+          <!-- 10 round items -->
+          <div class="round-item"><div class="round-item-main">Experience 1?</div><div class="round-item-personal">★ Personal application 1?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 2?</div><div class="round-item-personal">★ Personal application 2?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 3?</div><div class="round-item-personal">★ Personal application 3?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 4?</div><div class="round-item-personal">★ Personal application 4?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 5?</div><div class="round-item-personal">★ Personal application 5?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 6?</div><div class="round-item-personal">★ Personal application 6?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 7?</div><div class="round-item-personal">★ Personal application 7?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 8?</div><div class="round-item-personal">★ Personal application 8?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 9?</div><div class="round-item-personal">★ Personal application 9?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 10?</div><div class="round-item-personal">★ Personal application 10?</div></div>
         </div>
       </div>
       <div class="round-block lst open" id="s-lst">
@@ -69,16 +104,27 @@
           <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <!-- LST Content -->
+          <p class="round-note">Interactive comparison or "life swap" activity.</p>
         </div>
       </div>
       <div class="round-block round-2 open" id="s-r2">
         <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — My Life Without</span><span class="round-toggle">▲</span>
+          <span>🟢 Round 2 — Speculative Analysis</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Projections</div>
-          <!-- Round 2 Items -->
+          <div class="vim-instruction">10 items required. Imagine life WITHOUT the topic.</div>
+          <!-- 10 round items -->
+          <div class="round-item"><div class="round-item-main">Scenario 1</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 2</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 3</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 4</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 5</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 6</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 7</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 8</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 9</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 10</div></div>
         </div>
       </div>
       <div class="mistake-block open" id="s-mistakes">
@@ -86,7 +132,38 @@
           <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
         </div>
         <div class="mistake-body" style="display:block;">
-          <!-- Mistakes Content -->
+          <div class="vim-instruction">
+            <strong>Developer Correction & Feedback Guidelines:</strong><br>
+            1. <u>Do not cross out or strike through</u> the whole sentence or phrase. Instead, <strong>accentuate/highlight/underline</strong> the specific error (using &lt;u&gt; tags or background classes) so students see exactly where the grammatical or lexical break occurs.<br>
+            2. <strong>Level-Appropriate Diversification:</strong><br>
+               - <em>Starter/Elementary (A1-A2):</em> Direct grammatical corrections, spelling, and basic structural alignments (e.g., subject-verb agreement).<br>
+               - <em>Intermediate (B1-B2):</em> Word choice improvements, better alternatives, and common prepositional collocations.<br>
+               - <em>Advanced (C1-C2):</em> Sophisticated synonyms, more precise or specific lexical options, and stylistic/register adjustments.
+          </div>
+
+          <!-- Starter/Elementary Example -->
+          <div class="mistake-item">
+            <span class="mistake-wrong">He <u>have</u> went to Paris</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">He has gone to Paris</span>
+            <span class="mistake-note-text">(Underlined error: 'have' and auxiliary usage. Correction: Present perfect singular 'has' + past participle 'gone')</span>
+          </div>
+
+          <!-- Intermediate Example -->
+          <div class="mistake-item">
+            <span class="mistake-wrong">We discussed <u>about the problem</u></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">We discussed the problem / had a discussion <strong>about</strong> the problem</span>
+            <span class="mistake-note-text">(Underlined prepositional error. Better collocation: 'discuss' is transitive and takes no preposition, or use 'have a discussion about')</span>
+          </div>
+
+          <!-- Advanced Example -->
+          <div class="mistake-item">
+            <span class="mistake-wrong">His explanation was very <u>clear</u></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">His explanation was <strong>exceptionally lucid / crystal clear / coherent</strong></span>
+            <span class="mistake-note-text">(Elevating vocabulary with highly specific advanced options and sophisticated synonyms)</span>
+          </div>
         </div>
       </div>
     </div>

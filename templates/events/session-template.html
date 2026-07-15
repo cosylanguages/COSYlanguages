@@ -42,7 +42,7 @@
     </div>
     <div class="meta-item">
       <h4>Languages</h4>
-      <p>🇬🇧 🇫🇷 🇮🇹 🇷🇺 🇬🇷</p>
+      <p>🇬🇧 🇫🇷 🇪🇸 🇮🇹 🇷🇺</p>
     </div>
     <div class="meta-item">
       <h4>Level</h4>
@@ -50,13 +50,28 @@
     </div>
     <div class="meta-item">
       <h4>Resources</h4>
-      <p><a href="#" style="color:var(--teal);">Link to Article 📖</a></p>
+      <p>
+        <a href="#" target="_blank" style="color:var(--teal); margin-right: 12px;">Link to Article 📖</a>
+        <a href="#" target="_blank" style="color:var(--teal);">Link to Video 🎥</a>
+      </p>
     </div>
+  </div>
+
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Detailed 3-sentence description of the session goes here. The description must introduce the core theme, set the atmosphere, and mention key themes that will be explored.</p>
   </div>
 
   <!-- VOCABULARY SECTION (10 UNITS) -->
   <section id="vocabulary">
     <h2 class="section-title">📖 Session Vocabulary</h2>
+
+    <div class="vim-instruction">
+      <strong>Developer Vocabulary Guidelines:</strong><br>
+      1. <strong>Direct Extraction:</strong> All vocabulary, collocations, or set phrases must be extracted directly from targeted session sources (articles, videos, songs, films, series, etc.). Read or watch the source material completely before compiling.<br>
+      2. <strong>Diversified Types:</strong> Do not limit entries to single word units. Include relevant set phrases, collocations, idioms, or useful phrasal verbs that are highly applicable to the discussion.<br>
+      3. <strong>10-10-10 Rule:</strong> Exactly 10 units are required. Each entry must have a word, definition, and example ending with a period.
+    </div>
+
     <div class="vocab-grid-10">
       <!-- 10 units required. Format: Word – definition. Example: Sentence. -->
       <div class="vocab-card"><div class="vocab-word">Word 1</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 1', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
@@ -140,11 +155,37 @@
           <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
         </div>
         <div class="mistake-body" style="display:block;">
+          <div class="vim-instruction">
+            <strong>Developer Correction & Feedback Guidelines:</strong><br>
+            1. <u>Do not cross out or strike through</u> the whole sentence or phrase. Instead, <strong>accentuate/highlight/underline</strong> the specific error (using &lt;u&gt; tags or background classes) so students see exactly where the grammatical or lexical break occurs.<br>
+            2. <strong>Level-Appropriate Diversification:</strong><br>
+               - <em>Starter/Elementary (A1-A2):</em> Direct grammatical corrections, spelling, and basic structural alignments (e.g., subject-verb agreement).<br>
+               - <em>Intermediate (B1-B2):</em> Word choice improvements, better alternatives, and common prepositional collocations.<br>
+               - <em>Advanced (C1-C2):</em> Sophisticated synonyms, more precise or specific lexical options, and stylistic/register adjustments.
+          </div>
+
+          <!-- Starter/Elementary Example -->
           <div class="mistake-item">
-            <span class="mistake-wrong">wrong form</span>
+            <span class="mistake-wrong">He <u>have</u> went to Paris</span>
             <span class="mistake-arrow">→</span>
-            <span class="mistake-right">right form</span>
-            <span class="mistake-note-text">(explanation)</span>
+            <span class="mistake-right">He has gone to Paris</span>
+            <span class="mistake-note-text">(Underlined error: 'have' and auxiliary usage. Correction: Present perfect singular 'has' + past participle 'gone')</span>
+          </div>
+
+          <!-- Intermediate Example -->
+          <div class="mistake-item">
+            <span class="mistake-wrong">We discussed <u>about the problem</u></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">We discussed the problem / had a discussion <strong>about</strong> the problem</span>
+            <span class="mistake-note-text">(Underlined prepositional error. Better collocation: 'discuss' is transitive and takes no preposition, or use 'have a discussion about')</span>
+          </div>
+
+          <!-- Advanced Example -->
+          <div class="mistake-item">
+            <span class="mistake-wrong">His explanation was very <u>clear</u></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">His explanation was <strong>exceptionally lucid / crystal clear / coherent</strong></span>
+            <span class="mistake-note-text">(Elevating vocabulary with highly specific advanced options and sophisticated synonyms)</span>
           </div>
         </div>
       </div>
