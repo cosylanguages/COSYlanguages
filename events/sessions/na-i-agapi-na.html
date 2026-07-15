@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>na i agapi na — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>na i agapi na</h1>
+  <p class="session-date">Giannis Parios • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Αρχική</a> <span class="sep">/</span>
+    <a href="../">Εκδηλώσεις</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">na i agapi na</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">← Πίσω στο Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Διάρκεια</h4><p>60 λεπτά</p></div>
+    <div class="meta-item"><h4>Γλώσσα</h4><p>Ελληνικά</p></div>
+    <div class="meta-item"><h4>Επίπεδο</h4><p>Μεσαίο (B1)</p></div>
+    <div class="meta-item"><h4>Θέμα</h4><p>Αγάπη & Έρωτας</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Ανακαλύψτε το πανέμορφο τραγούδι 'na i agapi na' του καλλιτέχνη Giannis Parios στα Ελληνικά. Αυτή η συνεδρία εστιάζει στο λεξιλόγιο γύρω από το θέμα 'Αγάπη & Έρωτας' και στις βασικές γλωσσικές δομές των στίχων. Οι μαθητές θα εξασκηθούν στην ομιλία και τη συζήτηση.</p>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Λεξιλόγιο Συνεδρίας</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card"><div class="vocab-word">Η αγάπη</div><div class="vocab-def">βαθύ συναίσθημα στοργής και αφοσίωσης.</div><div class="vocab-example">Η αγάπη της μητέρας είναι το πιο δυνατό πράγμα στον κόσμο.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η αγάπη', definition:'βαθύ συναίσθημα στοργής και αφοσίωσης.', example:'Η αγάπη της μητέρας είναι το πιο δυνατό πράγμα στον κόσμο.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Το φιλί</div><div class="vocab-def">το άγγιγμα με τα χείλη σε ένδειξη αγάπης.</div><div class="vocab-example">Της έδωσε ένα γλυκό φιλί στο μάγουλο πριν φύγει.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Το φιλί', definition:'το άγγιγμα με τα χείλη σε ένδειξη αγάπης.', example:'Της έδωσε ένα γλυκό φιλί στο μάγουλο πριν φύγει.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Ο έρωτας</div><div class="vocab-def">το έντονο συναίσθημα έλξης για κάποιο πρόσωπο.</div><div class="vocab-example">Ο έρωτας μπορεί να αλλάξει ολόκληρη τη ζωή μας.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ο έρωτας', definition:'το έντονο συναίσθημα έλξης για κάποιο πρόσωπο.', example:'Ο έρωτας μπορεί να αλλάξει ολόκληρη τη ζωή μας.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Το δάκρυ</div><div class="vocab-def">σταγόνα υγρού που τρέχει από τα μάτια.</div><div class="vocab-example">Ένα δάκρυ συγκίνησης κύλησε στο πρόσωπό της.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Το δάκρυ', definition:'σταγόνα υγρού που τρέχει από τα μάτια.', example:'Ένα δάκρυ συγκίνησης κύλησε στο πρόσωπό της.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Ο χωρισμός</div><div class="vocab-def">η πράξη του να χωρίζει κανείς, το τέλος μιας σχέσης.</div><div class="vocab-example">Ο χωρισμός είναι πάντα μια δύσκολη και επίπονη διαδικασία.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ο χωρισμός', definition:'η πράξη του να χωρίζει κανείς, το τέλος μιας σχέσης.', example:'Ο χωρισμός είναι πάντα μια δύσκολη και επίπονη διαδικασία.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Η ελπίδα</div><div class="vocab-def">η προσδοκία για κάτι καλό στο μέλλον.</div><div class="vocab-example">Πρέπει πάντα να έχουμε ελπίδα για ένα καλύτερο αύριο.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η ελπίδα', definition:'η προσδοκία για κάτι καλό στο μέλλον.', example:'Πρέπει πάντα να έχουμε ελπίδα για ένα καλύτερο αύριο.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Το λιμάνι</div><div class="vocab-def">προστατευμένο μέρος για πλοία, μεταφορικά το καταφύγιο.</div><div class="vocab-example">Η οικογένειά του είναι το απάνεμο λιμάνι του.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Το λιμάνι', definition:'προστατευμένο μέρος για πλοία, μεταφορικά το καταφύγιο.', example:'Η οικογένειά του είναι το απάνεμο λιμάνι του.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Η αγκαλιά</div><div class="vocab-def">το άνοιγμα των χεριών γύρω από κάποιον.</div><div class="vocab-example">Μια ζεστή αγκαλιά μπορεί να απαλύνει κάθε πόνο.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η αγκαλιά', definition:'το άνοιγμα των χεριών γύρω από κάποιον.', example:'Μια ζεστή αγκαλιά μπορεί να απαλύνει κάθε πόνο.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Η υπόσχεση</div><div class="vocab-def">η δέσμευση ότι θα γίνει κάτι.</div><div class="vocab-example">Κράτησε την υπόσχεσή του και τηλεφώνησε αμέσως.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η υπόσχεση', definition:'η δέσμευση ότι θα γίνει κάτι.', example:'Κράτησε την υπόσχεσή του και τηλεφώνησε αμέσως.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Η ξενιτιά</div><div class="vocab-def">η διαμονή σε ξένη χώρα, μακριά από την πατρίδα.</div><div class="vocab-example">Η ξενιτιά έχει εμπνεύσει πολλά ελληνικά παραδοσιακά τραγούδια.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η ξενιτιά', definition:'η διαμονή σε ξένη χώρα, μακριά από την πατρίδα.', example:'Η ξενιτιά έχει εμπνεύσει πολλά ελληνικά παραδοσιακά τραγούδια.'}, this)">+ Dictionary</button></div>
+
+    </div>
+  </section>
+
+  <!-- LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" style="margin-top: 3rem;">
+    <h2 class="section-title">🎵 Άσκηση Ακρόασης & Συμπλήρωσης Κενών</h2>
+    <div class="vim-instruction">
+      <strong>Ενεργητική Ακρόαση:</strong> Ακούστε το τραγούδι χρησιμοποιώντας τον παραπάνω σύνδεσμο και συμπληρώστε τα κενά.
+    </div>
+
+    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Βοηθητικό Λεξιλόγιο / Λέξεις-Κλειδιά:</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">αγάπη</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">φιλί</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">έρωτας</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">ελπίδα</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">αγκαλιά</span>
+
+      </div>
+    </div>
+
+    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Πλήρεις στίχοι</h3>
+      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Να η αγάπη, να το φως της ζωής μας,<br>Που φωτίζει κάθε στιγμή μας.<br>Μια μεγάλη και ζεστή [__________],<br>Που διώχνει κάθε λύπη και στενοχώρια.<br><br>Μας ενώνει αυτός ο δυνατός [__________],<br>Σαν ένα γλυκό και τρυφερό [__________].<br>Κρατώντας ζωντανή την [__________] μας,<br>Σε αυτή την όμορφη διαδρομή μας...</p>
+    </div>
+  </section>
+
+  <!-- DISCUSSION STRUCTURE -->
+  <section id="structure">
+    <h2 class="section-title">🎙️ Δομή Συζήτησης</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Προθέρμανση</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="vim-instruction">Μοιραστείτε τις σκέψεις σας για το τραγούδι και τη μουσική.</div>
+          <ul class="round-questions">
+            <li>Έχετε ακούσει ποτέ το 'na i agapi na' πριν από αυτή τη συνεδρία;</li>
+            <li>Τι είδους συναισθήματα σας προκαλεί αυτή η μελωδία;</li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Γύρος 1 — Συζήτηση Στίχων</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="vim-instruction">Αναλύστε τους στίχους-κλειδιά και μιλήστε χρησιμοποιώντας το στοχευμένο λεξιλόγιο.</div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η αγάπη</strong> μέσα από τους στίχους του 'na i agapi na';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η αγάπη</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>το φιλί</strong> μέσα από τους στίχους του 'na i agapi na';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>το φιλί</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>ο έρωτας</strong> μέσα από τους στίχους του 'na i agapi na';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>ο έρωτας</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>το δάκρυ</strong> μέσα από τους στίχους του 'na i agapi na';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>το δάκρυ</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>ο χωρισμός</strong> μέσα από τους στίχους του 'na i agapi na';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>ο χωρισμός</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η ελπίδα</strong> μέσα από τους στίχους του 'na i agapi na';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η ελπίδα</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>το λιμάνι</strong> μέσα από τους στίχους του 'na i agapi na';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>το λιμάνι</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η αγκαλιά</strong> μέσα από τους στίχους του 'na i agapi na';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η αγκαλιά</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η υπόσχεση</strong> μέσα από τους στίχους του 'na i agapi na';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η υπόσχεση</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η ξενιτιά</strong> μέσα από τους στίχους του 'na i agapi na';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η ξενιτιά</strong> για εσάς;</div></div>
+
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Ας μιλήσουμε μαζί</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Οπτική αντίθεση μεταξύ ακουστικής ερμηνείας και μεγάλης συναυλίας.</p>
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Γύρος 2 — Ανάλυση & Αντιπαράθεση</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="vim-instruction">Αξιολογήστε αυτές τις φιλοσοφικές δηλώσεις σχετικά με τα θέματα του τραγουδιού.</div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η αγάπη</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>το φιλί</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>ο έρωτας</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>το δάκρυ</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>ο χωρισμός</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η ελπίδα</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>το λιμάνι</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η αγκαλιά</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η υπόσχεση</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η ξενιτιά</strong> είναι εξαιρετικά δύσκολη.</div></div>
+
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Σημειώσεις Καθηγητή (Γλωσσικές Διορθώσεις)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Είμαι ερωτευμένος <span class="mistake-highlight">από</span> την Ελλάδα</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Είμαι ερωτευμένος με την Ελλάδα</span>
+            <span class="mistake-note-text">(Χρησιμοποιήστε την πρόθεση 'με' για να εκφράσετε έλξη.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Η μουσική με κάνει να <span class="mistake-highlight">νιώθω καλά</span></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Η μουσική με κάνει να νιώθω όμορφα</span>
+            <span class="mistake-note-text">(Η λέξη 'όμορφα' είναι πιο φυσική σε αυτό το πλαίσιο.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Πονάω <span class="mistake-highlight">για</span> την καρδιά μου</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Πονάει η καρδιά μου</span>
+            <span class="mistake-note-text">(Στα ελληνικά λέμε 'πονάει η καρδιά μου'.)</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>
