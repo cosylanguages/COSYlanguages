@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tu t'en iras — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>Tu t'en iras</h1>
+  <p class="session-date">La Zarra • B2</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Accueil</a> <span class="sep">/</span>
+    <a href="../">Événements</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">Tu t'en iras</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">← Retour au club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durée</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
+    <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire (B2)</p></div>
+    <div class="meta-item"><h4>Thème</h4><p>Rupture &amp; Départ</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Dans cette session, nous analysons les paroles captivantes de "Tu t'en iras" de La Zarra. Nous étudierons le vocabulaire de la rupture amoureuse, des regrets et du départ vers l'horizon avec une valise. Les étudiants débattront des promesses brisées et des traces que laissent les relations passées dans notre destin.</p>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Vocabulaire de la session</h2>
+    <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Le départ</div><div class="vocab-def">action de s'en aller d'un lieu.</div><div class="vocab-example">Le départ du train est prévu à huit heures précises.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le départ', definition:'action de s\'en aller d\'un lieu.', example:'Le départ du train est prévu à huit heures précises.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La rupture</div><div class="vocab-def">séparation amoureuse ou fin d'un accord.</div><div class="vocab-example">Ils ont annoncé leur rupture après trois ans de vie commune.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La rupture', definition:'séparation amoureuse ou fin d\'un accord.', example:'Ils ont annoncé leur rupture après trois ans de vie commune.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le regret</div><div class="vocab-def">sentiment douloureux de perdre quelque chose ou d'avoir mal agi.</div><div class="vocab-example">Il éprouve un profond regret de ne pas avoir voyagé plus jeune.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le regret', definition:'sentiment douloureux de perdre quelque chose ou d\'avoir mal agi.', example:'Il éprouve un profond regret de ne pas avoir voyagé plus jeune.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le voyage</div><div class="vocab-def">déplacement dans un lieu lointain.</div><div class="vocab-example">Un voyage autour du monde ouvre l'esprit des jeunes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le voyage', definition:'déplacement dans un lieu lointain.', example:'Un voyage autour du monde ouvre l\'esprit des jeunes.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La valise</div><div class="vocab-def">bagage de forme rectangulaire pour transporter ses vêtements.</div><div class="vocab-example">Elle prépare sa valise la veille de son grand départ.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La valise', definition:'bagage de forme rectangulaire pour transporter ses vêtements.', example:'Elle prépare sa valise la veille de son grand départ.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">L'horizon</div><div class="vocab-def">ligne circulaire dont l'observateur est le centre.</div><div class="vocab-example">Le soleil couchant disparaît lentement à l'horizon de l'océan.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'horizon', definition:'ligne circulaire dont l\'observateur est le centre.', example:'Le soleil couchant disparaît lentement à l\'horizon de l\'océan.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">L'illusion</div><div class="vocab-def">interprétation erronée de la réalité.</div><div class="vocab-example">Croire qu'il va changer est une douce illusion romantique.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'illusion', definition:'interprétation erronée de la réalité.', example:'Croire qu\'il va changer est une douce illusion romantique.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La promesse</div><div class="vocab-def">engagement de faire ou de donner quelque chose.</div><div class="vocab-example">Il a fait la promesse de revenir avant la fin de l'été.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La promesse', definition:'engagement de faire ou de donner quelque chose.', example:'Il a fait la promesse de revenir avant la fin de l\'été.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La trace</div><div class="vocab-def">empreinte ou marque laissée par quelqu'un ou quelque chose.</div><div class="vocab-example">Le vent a effacé toute trace de pas sur la plage de sable.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La trace', definition:'empreinte ou marque laissée par quelqu\'un ou quelque chose.', example:'Le vent a effacé toute trace de pas sur la plage de sable.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">avenir ou cours des événements de la vie d'une personne.</div><div class="vocab-example">C'est son destin de parcourir le monde à la recherche d'aventures.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'avenir ou cours des événements de la vie d\'une personne.', example:'C\'est son destin de parcourir le monde à la recherche d\'aventures.'}, this)">+ Dictionary</button></div>
+
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Structure de discussion</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="vim-instruction">Discutez du thème universel des adieux et des départs dans la musique pop moderne.</div>
+          <ul class="round-questions">
+            <li>Avez-vous déjà vécu un grand départ pour un autre pays ?</li>
+            <li>Aimez-vous voyager avec très peu de bagages ?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Discussion des paroles</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="vim-instruction">Analyze the song's key verses and speak using the targeted vocabulary.</div>
+                    <div class="round-item"><div class="round-item-main">Comment vous préparez-vous mentalement avant un grand <strong>départ</strong> professionnel ?</div><div class="round-item-personal">★ Aimez-vous les changements radicaux ?</div></div>
+          <div class="round-item"><div class="round-item-main">Quels sont les facteurs principaux qui provoquent une <strong>rupture</strong> amoureuse à notre époque ?</div><div class="round-item-personal">★ Quelle est la chose la plus difficile à surmonter après une séparation ?</div></div>
+          <div class="round-item"><div class="round-item-main">Quel est votre plus grand <strong>regret</strong> concernant vos choix d'études passés ?</div><div class="round-item-personal">★ Changeriez-vous quelque chose si vous aviez vingt ans aujourd'hui ?</div></div>
+          <div class="round-item"><div class="round-item-main">Quel <strong>voyage</strong> lointain a eu le plus grand impact sur votre vision du monde ?</div><div class="round-item-personal">★ Préférez-vous la mer ou la montagne pour voyager ?</div></div>
+          <div class="round-item"><div class="round-item-main">Qu'emporteriez-vous dans votre unique <strong>valise</strong> si vous deviez déménager demain ?</div><div class="round-item-personal">★ Êtes-vous un voyageur léger ou encombré ?</div></div>
+          <div class="round-item"><div class="round-item-main">Pourquoi regarder l'<strong>horizon</strong> de la mer apporte-t-il un sentiment de calme immense ?</div><div class="round-item-personal">★ Habitez-vous près de la mer ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment distinguer un projet réaliste d'une simple <strong>illusion</strong> sans perdre son enthousiasme ?</div><div class="round-item-personal">★ Avez-vous déjà poursuivi une illusion ?</div></div>
+          <div class="round-item"><div class="round-item-main">Pourquoi est-il si difficile de tenir une <strong>promesse</strong> importante sur le long terme ?</div><div class="round-item-personal">★ Prenez-vous les promesses très au sérieux ?</div></div>
+          <div class="round-item"><div class="round-item-main">Quelle <strong>trace</strong> durable aimeriez-vous laisser dans votre domaine professionnel ?</div><div class="round-item-personal">★ Travaillez-vous sur un projet de longue durée ?</div></div>
+          <div class="round-item"><div class="round-item-main">Pensez-vous que croiser la route de certaines personnes fait partie de notre <strong>destin</strong> ?</div><div class="round-item-personal">★ Croyez-vous aux rencontres par hasard ?</div></div>
+
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Visual contrast: Live Acoustic Cafe vs Electric Stage Lights.</p>
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Acoustic Performance</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Grand Arena Concert</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Analyse approfondie &amp; Débat</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="vim-instruction">Evaluate these philosophical statements regarding the song's underlying cultural concepts.</div>
+                    <div class="round-item"><div class="round-item-main">Dans le futur, le <strong>départ</strong> pour coloniser de nouvelles planètes sera réservé aux plus riches.</div></div>
+          <div class="round-item"><div class="round-item-main">Une <strong>rupture</strong> amicale fait parfois plus de mal qu'une rupture amoureuse.</div></div>
+          <div class="round-item"><div class="round-item-main">Vivre avec le moindre <strong>regret</strong> est indispensable pour rester humble et lucide.</div></div>
+          <div class="round-item"><div class="round-item-main">Le <strong>voyage</strong> de masse moderne détruit la beauté des cultures locales.</div></div>
+          <div class="round-item"><div class="round-item-main">Posséder plus de biens que ce qui rentre dans une seule <strong>valise</strong> est inutile.</div></div>
+          <div class="round-item"><div class="round-item-main">L'être humain cherchera toujours à dépasser l'<strong>horizon</strong> connu, peu importe le coût.</div></div>
+          <div class="round-item"><div class="round-item-main">L'<strong>illusion</strong> romantique est nécessaire pour supporter la routine du quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Une <strong>promesse</strong> non tenue devrait être légalement punie dans les relations commerciales.</div></div>
+          <div class="round-item"><div class="round-item-main">La technologie moderne efface toute <strong>trace</strong> d'intimité dans notre vie privée.</div></div>
+          <div class="round-item"><div class="round-item-main">Le concept de <strong>destin</strong> est une invention des personnes qui ont peur de faire des choix.</div></div>
+
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+                    <div class="mistake-item"><span class="mistake-wrong">Elle est partie avec sa valise blanche</span><span class="mistake-arrow">→</span><span class="mistake-right">Elle est partie avec sa valise blanche</span><span class="mistake-note-text">(Correct. L'adjectif de couleur 'blanche' s'accorde avec le nom féminin 'valise'.)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">J'ai fait un beau voyage à l'Italie</span><span class="mistake-arrow">→</span><span class="mistake-right">J'ai fait un beau voyage en Italie</span><span class="mistake-note-text">(Utilisez la préposition 'en' devant les pays féminins singuliers comme l'Italie.)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">C'est une illusion de croire cela</span><span class="mistake-arrow">→</span><span class="mistake-right">C'est une illusion de croire cela</span><span class="mistake-note-text">(Correct. N'oubliez pas d'utiliser 'de' devant l'infinitif.)</span></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>

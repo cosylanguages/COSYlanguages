@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coming Around Again — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>Coming Around Again</h1>
+  <p class="session-date">Carly Simon • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Home</a> <span class="sep">/</span>
+    <a href="../">Events</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">Coming Around Again</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">← Back to Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Variety</h4><p>American English</p></div>
+    <div class="meta-item"><h4>Level</h4><p>Intermediate (B1)</p></div>
+    <div class="meta-item"><h4>Focus</h4><p>Domestic Life & Resilience</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>This session analyzes Carly Simon's soft-rock hit, "Coming Around Again". We will focus on household vocabulary, domestic life, and the predictable cycles of everyday routines. Students will discuss relationship struggles, personal breakdown, and the resilience needed to rebuild connection and comfort.</p>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary</h2>
+    <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Domestic</div><div class="vocab-def">relating to the running of a home or to family relations.</div><div class="vocab-example">They divided the domestic chores equally to keep the house clean.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Domestic', definition:'relating to the running of a home or to family relations.', example:'They divided the domestic chores equally to keep the house clean.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Resilience</div><div class="vocab-def">the capacity to recover quickly from difficulties; toughness.</div><div class="vocab-example">She showed amazing resilience after her business failed during the crisis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Resilience', definition:'the capacity to recover quickly from difficulties; toughness.', example:'She showed amazing resilience after her business failed during the crisis.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Routine</div><div class="vocab-def">a sequence of actions regularly followed.</div><div class="vocab-example">His morning routine always began with a hot cup of black coffee.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Routine', definition:'a sequence of actions regularly followed.', example:'His morning routine always began with a hot cup of black coffee.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Breakdown</div><div class="vocab-def">a mechanical failure, or a sudden collapse in mental health.</div><div class="vocab-example">The sudden breakdown of their car left them stranded on the highway.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Breakdown', definition:'a mechanical failure, or a sudden collapse in mental health.', example:'The sudden breakdown of their car left them stranded on the highway.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Optimism</div><div class="vocab-def">hopefulness and confidence about the future.</div><div class="vocab-example">His natural optimism kept everyone cheerful during the storm.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Optimism', definition:'hopefulness and confidence about the future.', example:'His natural optimism kept everyone cheerful during the storm.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Cycle</div><div class="vocab-def">a series of events that are regularly repeated in the same order.</div><div class="vocab-example">The natural cycle of seasons brings different challenges every year.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Cycle', definition:'a series of events that are regularly repeated in the same order.', example:'The natural cycle of seasons brings different challenges every year.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Predictable</div><div class="vocab-def">behaving or occurring in a way that is expected.</div><div class="vocab-example">The plot of the romance movie was highly predictable but still enjoyable.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Predictable', definition:'behaving or occurring in a way that is expected.', example:'The plot of the romance movie was highly predictable but still enjoyable.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Struggle</div><div class="vocab-def">make forceful efforts to get free of restraint or constriction.</div><div class="vocab-example">The small company had to struggle to survive the economic downturn.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Struggle', definition:'make forceful efforts to get free of restraint or constriction.', example:'The small company had to struggle to survive the economic downturn.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Connection</div><div class="vocab-def">a relationship in which a person or thing is linked with something else.</div><div class="vocab-example">Traveling helped her build a deep connection with nature.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Connection', definition:'a relationship in which a person or thing is linked with something else.', example:'Traveling helped her build a deep connection with nature.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Comfort</div><div class="vocab-def">a state of physical ease and freedom from pain or constraint.</div><div class="vocab-example">She found great comfort in reading her favorite childhood books.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Comfort', definition:'a state of physical ease and freedom from pain or constraint.', example:'She found great comfort in reading her favorite childhood books.'}, this)">+ Dictionary</button></div>
+
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="vim-instruction">Share your raw feelings about the artist and sing along to the introductory melodies.</div>
+          <ul class="round-questions">
+            <li>Have you ever heard this particular song before today's session?</li>
+            <li>What genres of music bring you the most comfort during a hectic week?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Lyric Discussion</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="vim-instruction">Dissect the core theme of the song and practice speaking using the highlighted lyrics.</div>
+                    <div class="round-item"><div class="round-item-main">How do you share <strong>domestic</strong> responsibilities fairly in your household?</div><div class="round-item-personal">★ Do you enjoy cooking or cleaning?</div></div>
+          <div class="round-item"><div class="round-item-main">What is the key to building emotional <strong>resilience</strong> against daily workplace pressure?</div><div class="round-item-personal">★ Have you ever faced a major setback?</div></div>
+          <div class="round-item"><div class="round-item-main">How does having a structured daily <strong>routine</strong> help your mental focus?</div><div class="round-item-personal">★ Do you wake up at the same time every day?</div></div>
+          <div class="round-item"><div class="round-item-main">How can a couple prevent a communication <strong>breakdown</strong> in a long relationship?</div><div class="round-item-personal">★ Are you a good listener in arguments?</div></div>
+          <div class="round-item"><div class="round-item-main">Where does your personal <strong>optimism</strong> come from when looking at global news?</div><div class="round-item-personal">★ Do you believe the world is getting better?</div></div>
+          <div class="round-item"><div class="round-item-main">How can we break a harmful <strong>cycle</strong> of bad habits in our daily lives?</div><div class="round-item-personal">★ What is a bad habit you successfully broke?</div></div>
+          <div class="round-item"><div class="round-item-main">Do you prefer a peaceful, <strong>predictable</strong> life or constant unexpected adventures?</div><div class="round-item-personal">★ Do you like spontaneous weekend trips?</div></div>
+          <div class="round-item"><div class="round-item-main">Why is the <strong>struggle</strong> to balance career and family so common today?</div><div class="round-item-personal">★ Do you have enough free time?</div></div>
+          <div class="round-item"><div class="round-item-main">How can we maintain a meaningful <strong>connection</strong> with distant family members?</div><div class="round-item-personal">★ Do you call your relatives regularly?</div></div>
+          <div class="round-item"><div class="round-item-main">What brings you the most physical and emotional <strong>comfort</strong> when you are sick?</div><div class="round-item-personal">★ Do you like hot soup or watching movies?</div></div>
+
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Visual contrast: Acoustic Concert vs Electronic Studio Performance.</p>
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Lyric Deep Dive &amp; Debate</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="vim-instruction">Evaluate these deep and controversial statements inspired by the song's philosophical themes.</div>
+                    <div class="round-item"><div class="round-item-main">In the future, all <strong>domestic</strong> tasks will be handled by smart household robots.</div></div>
+          <div class="round-item"><div class="round-item-main">Teaching mental <strong>resilience</strong> in schools is more important than academic subjects.</div></div>
+          <div class="round-item"><div class="round-item-main">A strict daily <strong>routine</strong> destroys human creativity and free thinking.</div></div>
+          <div class="round-item"><div class="round-item-main">A sudden mechanical or digital <strong>breakdown</strong> of the internet would cause global peace.</div></div>
+          <div class="round-item"><div class="round-item-main">Blind <strong>optimism</strong> is a dangerous trait that leads to poor financial decisions.</div></div>
+          <div class="round-item"><div class="round-item-main">Human history is just a repetitive <strong>cycle</strong> of similar mistakes and wars.</div></div>
+          <div class="round-item"><div class="round-item-main">A completely <strong>predictable</strong> partner makes for a boring and short relationship.</div></div>
+          <div class="round-item"><div class="round-item-main">We only appreciate our achievements if we have to <strong>struggle</strong> hard for them.</div></div>
+          <div class="round-item"><div class="round-item-main">The internet creates a fake sense of <strong>connection</strong> while isolating us in reality.</div></div>
+          <div class="round-item"><div class="round-item-main">To grow as a person, one must leave their zone of absolute <strong>comfort</strong>.</div></div>
+
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+                    <div class="mistake-item"><span class="mistake-wrong">She has a lot of domestic chores to do</span><span class="mistake-arrow">→</span><span class="mistake-right">She has many domestic chores to do</span><span class="mistake-note-text">(Use 'many' or 'a lot of' for countable nouns. While 'a lot of' is correct, 'many' sounds cleaner in professional discussions.)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">His routine is predictable than mine</span><span class="mistake-arrow">→</span><span class="mistake-right">His routine is more predictable than mine</span><span class="mistake-note-text">(Always use 'more' before multi-syllable adjectives when forming comparatives.)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">She struggled for complete the project</span><span class="mistake-arrow">→</span><span class="mistake-right">She struggled to complete the project</span><span class="mistake-note-text">(Use 'struggle to' followed by an infinitive verb.)</span></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>
