@@ -159,7 +159,7 @@
             <input type="text" class="laptop-input" id="laptop-input" placeholder="Type a word or question (e.g. love, copy, rain, city)..." maxlength="100">
             <button class="laptop-btn" id="laptop-submit-btn">FILE DRAFT</button>
           </div>
-          <div class="keyboard-hint">💡 Hint: Enable sound for a retro click-clack experience!</div>
+          <div class="keyboard-hint">💡 Hint: Enable sound for a realistic laptop keyboard experience!</div>
         </div>
 
         <!-- HISTORY -->
@@ -253,25 +253,26 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Synthesis of typewriter key click sound
+  // Synthesis of snappy laptop plastic keyboard key click sound
   function playKeyClick() {
     try {
       initAudio();
       const osc = audioCtx.createOscillator();
       const gain = audioCtx.createGain();
 
-      // Noise-like bandpass burst
-      osc.type = 'triangle';
-      osc.frequency.setValueAtTime(2000 + Math.random() * 800, audioCtx.currentTime);
-      osc.frequency.exponentialRampToValueAtTime(100, audioCtx.currentTime + 0.05);
+      // Real laptop chiclet key frequency signature (high frequency plastic click)
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(3200 + Math.random() * 400, audioCtx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(1500, audioCtx.currentTime + 0.015);
 
-      gain.gain.setValueAtTime(0.15, audioCtx.currentTime);
-      gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.04);
+      // Snappy laptop decay envelope (extremely short 12ms duration)
+      gain.gain.setValueAtTime(0.08, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.012);
 
       osc.connect(gain);
       gain.connect(audioCtx.destination);
       osc.start();
-      osc.stop(audioCtx.currentTime + 0.05);
+      osc.stop(audioCtx.currentTime + 0.015);
     } catch (e) {
       // Fallback if web audio is blocked
     }
