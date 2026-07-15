@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Серебряные коньки — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #3D2B1F, #1F140D);">
+  <div class="club-tag">Cinema Club</div>
+  <h1>Серебряные коньки</h1>
+  <p class="session-date">Русский Язык • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Главная</a> <span class="sep">/</span>
+    <a href="../">События</a> <span class="sep">/</span>
+    <a href="../cinema-club.html">Cinema Club</a> <span class="sep">/</span>
+    <span class="current">Серебряные коньки</span>
+  </nav>
+  <a href="../cinema-club.html" class="back-link">← Вернуться в клуб</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Длительность</h4><p>90 минут</p></div>
+    <div class="meta-item"><h4>Язык</h4><p>Русский</p></div>
+    <div class="meta-item"><h4>Уровень</h4><p>Средний (B1)</p></div>
+    <div class="meta-item"><h4>Тема</h4><p>История &amp; Романтика</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Эта сессия посвящена прекрасному историческому российскому фильму Серебряные коньки. Мы обсудим зимнюю атмосферу Санкт-Петербурга конца девятнадцатого века, разницу социальных классов и технологический прогресс. Студенты расширят свой словарный запас русскими зимними терминами и разговорными идиомами.</p>
+  </div>
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Лексика занятия</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card"><div class="vocab-word">Коньки</div><div class="vocab-def">обувь с прикрепленными металлическими лезвиями для катания по льду.</div><div class="vocab-example">Он надел свои серебряные коньки и побежал по замерзшей реке.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Коньки', definition:'обувь с прикрепленными металлическими лезвиями для катания по льду.', example:'Он надел свои серебряные коньки и побежал по замерзшей реке.'}, this)">В словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Карманник</div><div class="vocab-def">вор, который незаметно крадет вещи из карманов других людей.</div><div class="vocab-example">Молодой карманник быстро скрылся в толпе на ярмарке.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Карманник', definition:'вор, который незаметно крадет вещи из карманов других людей.', example:'Молодой карманник быстро скрылся в толпе на ярмарке.'}, this)">В словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Аристократия</div><div class="vocab-def">высший привилегированный слой общества, дворянство.</div><div class="vocab-example">Местная аристократия собралась на пышный зимний бал в дворце.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Аристократия', definition:'высший привилегированный слой общества, дворянство.', example:'Местная аристократия собралась на пышный зимний бал в дворце.'}, this)">В словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Прорубь</div><div class="vocab-def">отверстие, прорубленное в ледяном покрове реки или озера.</div><div class="vocab-example">Рыбаки сделали глубокую прорубь на замерзшей Неве.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Прорубь', definition:'отверстие, прорубленное в ледяном покрове реки или озера.', example:'Рыбаки сделали глубокую прорубь на замерзшей Неве.'}, this)">В словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Скользить</div><div class="vocab-def">плавно двигаться по гладкой поверхности льда или снега.</div><div class="vocab-example">Было приятно скользить на высокой скорости по каналам города.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Скользить', definition:'плавно двигаться по гладкой поверхности льда или снега.', example:'Было приятно скользить на высокой скорости по каналам города.'}, this)">В словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Банда</div><div class="vocab-def">организованная группа людей, занимающаяся незаконной деятельностью.</div><div class="vocab-example">Дерзкая банда совершила несколько ограблений в Петербурге.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Банда', definition:'организованная группа людей, занимающаяся незаконной деятельностью.', example:'Дерзкая банда совершила несколько ограблений в Петербурге.'}, this)">В словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Прогресс</div><div class="vocab-def">направление развития, характеризующееся переходом от низшего к высшему.</div><div class="vocab-example">В конце века технический прогресс изменил жизнь простых горожан.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Прогресс', definition:'направление развития, характеризующееся переходом от низшего к высшему.', example:'В конце века технический прогресс изменил жизнь простых горожан.'}, this)">В словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Любовь</div><div class="vocab-def">глубокое теплое чувство сильной личной привязанности.</div><div class="vocab-example">Их искренняя любовь смогла преодолеть все социальные барьеры.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Любовь', definition:'глубокое теплое чувство сильной личной привязанности.', example:'Их искренняя любовь смогла преодолеть все социальные барьеры.'}, this)">В словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Рождество</div><div class="vocab-def">великий христианский праздник в честь рождения Иисуса Христа.</div><div class="vocab-example">Весь город готовился весело праздновать Рождество.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Рождество', definition:'великий христианский праздник в честь рождения Иисуса Христа.', example:'Весь город готовился весело праздновать Рождество.'}, this)">В словарь</button></div>
+      <div class="vocab-card"><div class="vocab-word">Кража</div><div class="vocab-def">тайное хищение чужого имущества.</div><div class="vocab-example">Полиция расследовала эту крупную кражу в центре столицы.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Кража', definition:'тайное хищение чужого имущества.', example:'Полиция расследовала эту крупную кражу в центре столицы.'}, this)">В словарь</button></div>
+    </div>
+  </section>
+  <section id="structure">
+    <h2 class="section-title">🎙️ План обсуждения</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Разминка</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="vim-instruction">Кратко расскажите о вашей любви к зимним видам спорта.</div>
+          <ul class="round-questions">
+            <li>Умеете ли вы уверенно кататься на коньках?</li>
+            <li>Любите ли вы атмосферу заснеженных исторических городов?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Раунд 1 — Общее обсуждение</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Вопросы</div>
+          <div class="vim-instruction">Детальный анализ сюжета фильма, персонажей и исторических реалий.</div>
+          <div class="round-item"><div class="round-item-main">Почему серебряные <strong>коньки</strong> главного героя стали ключевым элементом его успеха в жизни?</div><div class="round-item-personal">★ Как часто вы берете коньки напрокат зимой?</div></div>
+          <div class="round-item"><div class="round-item-main">Какими методами молодой <strong>карманник</strong> завоевывает авторитет в криминальной банде?</div><div class="round-item-personal">★ Сталкивались ли вы с карманниками в общественном транспорте?</div></div>
+          <div class="round-item"><div class="round-item-main">Почему столичная <strong>аристократия</strong> отказывалась признавать прогрессивные научные идеи женщин?</div><div class="round-item-personal">★ Интересует ли вас история дворянства и аристократии девятнадцатого века?</div></div>
+          <div class="round-item"><div class="round-item-main">Какую опасность представляет собой скрытая под снегом зимняя <strong>прорубь</strong> на Неве?</div><div class="round-item-personal">★ Вы когда-нибудь видели, как люди купаются в ледяной проруби?</div></div>
+          <div class="round-item"><div class="round-item-main">Почему так приятно легко <strong>скользить</strong> по чистому льду замерзших петербургских каналов?</div><div class="round-item-personal">★ Любите ли вы быстро скользить по снежным склонам на лыжах?</div></div>
+          <div class="round-item"><div class="round-item-main">Какие идеалы объединяли членов этой необычной воровской группы, которую возглавляла <strong>банда</strong>?</div><div class="round-item-personal">★ Как вы думаете, может ли банда иметь благородные цели?</div></div>
+          <div class="round-item"><div class="round-item-main">Как технический <strong>прогресс</strong> повлиял на повседневную жизнь Петербурга на рубеже веков?</div><div class="round-item-personal">★ Какой научный прогресс за последние годы вас поразил больше всего?</div></div>
+          <div class="round-item"><div class="round-item-main">Почему сильная <strong>любовь</strong> способна разрушить любые жесткие классовые барьеры?</div><div class="round-item-personal">★ Верите ли вы, что настоящая любовь преодолевает любые трудности?</div></div>
+          <div class="round-item"><div class="round-item-main">Каковы были главные традиции празднования в <strong>Рождество</strong> в старом Петербурге?</div><div class="round-item-personal">★ Как ваша семья обычно празднует Рождество и Новый год?</div></div>
+          <div class="round-item"><div class="round-item-main">Какое суровое наказание ожидало воров, совершивших дерзкую <strong>кражу</strong> на глазах полиции?</div><div class="round-item-personal">★ Считаете ли вы, что любая кража заслуживает жесткого приговора?</div></div>
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Поговорим вместе</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Визуальное сравнение: Шумная замерзшая ярмарка на реке против Тихого дворянского салона.</p>
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎪</span><div style="font-weight:600;">Зимняя ярмарка на Неве</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🏛️</span><div style="font-weight:600;">Дворцовая библиотека аристократа</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Раунд 2 — Дебаты и прогнозы на будущее</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Дебаты</div>
+          <div class="vim-instruction">Оцените данные утверждения о развитии общества и технологиях.</div>
+          <div class="round-item"><div class="round-item-main">В будущем электронные <strong>коньки</strong> с моторным приводом заменят обычные спортивные коньки.</div></div>
+          <div class="round-item"><div class="round-item-main">Профессиональный уличный <strong>карманник</strong> скоро полностью исчезнет из-за безналичных расчетов.</div></div>
+          <div class="round-item"><div class="round-item-main">Новая цифровая <strong>аристократия</strong> заменит старую финансовую элиту в ближайшие десятилетия.</div></div>
+          <div class="round-item"><div class="round-item-main">Символическая зимняя <strong>прорубь</strong> станет популярным местом для туристов во всех крупных городах мира.</div></div>
+          <div class="round-item"><div class="round-item-main">Человечество будет бесконечно <strong>скользить</strong> к виртуальной реальности, забывая о физических прогулках.</div></div>
+          <div class="round-item"><div class="round-item-main">Любая виртуальная хакерская <strong>банда</strong> опаснее, чем классические грабители девятнадцатого века.</div></div>
+          <div class="round-item"><div class="round-item-main">Социальный и культурный <strong>прогресс</strong> невозможен без полного равенства в сфере высшего образования.</div></div>
+          <div class="round-item"><div class="round-item-main">Романтическая <strong>любовь</strong> перестанет быть главным мотивом для создания семьи в будущем.</div></div>
+          <div class="round-item"><div class="round-item-main">Праздник <strong>Рождество</strong> превратится в коммерческое событие, лишенное своего духовного значения.</div></div>
+          <div class="round-item"><div class="round-item-main">Любая компьютерная хакерская <strong>кража</strong> личных данных должна караться пожизненным сроком заключения.</div></div>
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Заметки преподавателя (Лингвистические исправления)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item"><span class="mistake-wrong">Я катаюсь на коньки очень хорошо</span><span class="mistake-arrow">→</span><span class="mistake-right">Я катаюсь на коньках очень хорошо</span><span class="mistake-note-text">(После предлога 'на' в значении катания используется предложный падеж множественного числа)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">Они влюбились друг в друга с первого взгляда</span><span class="mistake-arrow">→</span><span class="mistake-right">Они влюбились друг в друга с первого взгляда</span><span class="mistake-note-text">(Это верное выражение, но следите за правильным употреблением предлогов в словосочетании)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">Фильм учит нас о важности любви</span><span class="mistake-arrow">→</span><span class="mistake-right">Фильм учит нас важности любви</span><span class="mistake-note-text">(Глагол 'учить' требует дательного падежа без предлога 'о')</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Главная</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Практика</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Игры</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">События</a>
+  </div>
+  <p>© 2026 COSYlanguages — Все права защищены</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>
