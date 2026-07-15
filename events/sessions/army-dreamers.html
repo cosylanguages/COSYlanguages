@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Army Dreamers — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>Army Dreamers</h1>
+  <p class="session-date">Kate Bush • B2</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Home</a> <span class="sep">/</span>
+    <a href="../">Events</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">Army Dreamers</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">← Back to Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Variety</h4><p>British English</p></div>
+    <div class="meta-item"><h4>Level</h4><p>Intermediate (B2)</p></div>
+    <div class="meta-item"><h4>Focus</h4><p>Anti-War & Grief</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>This session delves into Kate Bush's hauntingly beautiful and socially conscious song, "Army Dreamers". Students will discuss military terminology, anti-war themes, and the tragic loss of young lives. We will practice expressing grief, solace, mourning, and the clash between family destiny and institutional expectations.</p>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary</h2>
+    <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Mourning</div><div class="vocab-def">the expression of deep sorrow for someone who has died.</div><div class="vocab-example">The entire nation was in mourning after the loss of their leader.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Mourning', definition:'the expression of deep sorrow for someone who has died.', example:'The entire nation was in mourning after the loss of their leader.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Consolation</div><div class="vocab-def">the comfort received by a person after a loss or disappointment.</div><div class="vocab-example">Knowing she did her best was her only consolation after the match.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Consolation', definition:'the comfort received by a person after a loss or disappointment.', example:'Knowing she did her best was her only consolation after the match.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Tragic</div><div class="vocab-def">causing or characterized by extreme distress or sorrow.</div><div class="vocab-example">The news of the sudden accident was deeply tragic.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Tragic', definition:'causing or characterized by extreme distress or sorrow.', example:'The news of the sudden accident was deeply tragic.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Sacrifice</div><div class="vocab-def">an act of giving up something valued for the sake of something else.</div><div class="vocab-example">Parents often make a huge sacrifice to educate their children.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sacrifice', definition:'an act of giving up something valued for the sake of something else.', example:'Parents often make a huge sacrifice to educate their children.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Soldier</div><div class="vocab-def">a person who serves in an army.</div><div class="vocab-example">The brave soldier returned home to his family after the deployment.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Soldier', definition:'a person who serves in an army.', example:'The brave soldier returned home to his family after the deployment.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Illusion</div><div class="vocab-def">a deceptive appearance or impression.</div><div class="vocab-example">The warm weather created the illusion that spring had arrived early.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Illusion', definition:'a deceptive appearance or impression.', example:'The warm weather created the illusion that spring had arrived early.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Destiny</div><div class="vocab-def">the events that will necessarily happen to a particular person.</div><div class="vocab-example">She believed it was her destiny to become a professional writer.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Destiny', definition:'the events that will necessarily happen to a particular person.', example:'She believed it was her destiny to become a professional writer.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Grief</div><div class="vocab-def">deep sorrow, especially that caused by someone's death.</div><div class="vocab-example">She was overwhelmed with grief after her pet passed away.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Grief', definition:'deep sorrow, especially that caused by someone\'s death.', example:'She was overwhelmed with grief after her pet passed away.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Sorrow</div><div class="vocab-def">a feeling of deep distress caused by loss or disappointment.</div><div class="vocab-example">His heart was filled with sorrow as he looked at the old house.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sorrow', definition:'a feeling of deep distress caused by loss or disappointment.', example:'His heart was filled with sorrow as he looked at the old house.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Patriotism</div><div class="vocab-def">devotion to and vigorous support for one's country.</div><div class="vocab-example">They showed their intense patriotism by flying the national flag.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Patriotism', definition:'devotion to and vigorous support for one\'s country.', example:'They showed their intense patriotism by flying the national flag.'}, this)">+ Dictionary</button></div>
+
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="vim-instruction">Share your raw feelings about the artist and sing along to the introductory melodies.</div>
+          <ul class="round-questions">
+            <li>Have you ever heard this particular song before today's session?</li>
+            <li>What genres of music bring you the most comfort during a hectic week?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Lyric Discussion</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="vim-instruction">Dissect the core theme of the song and practice speaking using the highlighted lyrics.</div>
+                    <div class="round-item"><div class="round-item-main">How do different cultures show respect during a period of public <strong>mourning</strong>?</div><div class="round-item-personal">★ Have you ever worn dark clothes to a memorial?</div></div>
+          <div class="round-item"><div class="round-item-main">What words of <strong>consolation</strong> can you offer to a friend who lost their job?</div><div class="round-item-personal">★ Are you good at comforting people?</div></div>
+          <div class="round-item"><div class="round-item-main">Why is the loss of youthful potential in war so deeply <strong>tragic</strong>?</div><div class="round-item-personal">★ Have you read any tragic history books?</div></div>
+          <div class="round-item"><div class="round-item-main">What is the biggest personal <strong>sacrifice</strong> you have made for your career?</div><div class="round-item-personal">★ Do you regret that sacrifice?</div></div>
+          <div class="round-item"><div class="round-item-main">How does the public perception of a <strong>soldier</strong> vary across different countries?</div><div class="round-item-personal">★ Do you have military members in your family?</div></div>
+          <div class="round-item"><div class="round-item-main">How do governments maintain the <strong>illusion</strong> of an easy victory during conflicts?</div><div class="round-item-personal">★ Do you follow political news closely?</div></div>
+          <div class="round-item"><div class="round-item-main">Do you believe we have total control over our personal <strong>destiny</strong>?</div><div class="round-item-personal">★ Do you believe in fate?</div></div>
+          <div class="round-item"><div class="round-item-main">What is the healthiest way to process deep <strong>grief</strong> without shutting out friends?</div><div class="round-item-personal">★ Do you prefer solitude when sad?</div></div>
+          <div class="round-item"><div class="round-item-main">How can a person transform their <strong>sorrow</strong> into something creative, like music?</div><div class="round-item-personal">★ Do you listen to sad music when you are down?</div></div>
+          <div class="round-item"><div class="round-item-main">Where is the line between healthy <strong>patriotism</strong> and dangerous nationalism?</div><div class="round-item-personal">★ What makes you proud of your country?</div></div>
+
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Visual contrast: Acoustic Concert vs Electronic Studio Performance.</p>
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Lyric Deep Dive &amp; Debate</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="vim-instruction">Evaluate these deep and controversial statements inspired by the song's philosophical themes.</div>
+                    <div class="round-item"><div class="round-item-main">In the future, public <strong>mourning</strong> will be conducted entirely in virtual spaces.</div></div>
+          <div class="round-item"><div class="round-item-main">The best <strong>consolation</strong> for a difficult life is the achievement of material wealth.</div></div>
+          <div class="round-item"><div class="round-item-main">All <strong>tragic</strong> events carry a hidden lesson that makes us stronger.</div></div>
+          <div class="round-item"><div class="round-item-main">No career goal is worth making a major personal <strong>sacrifice</strong> for.</div></div>
+          <div class="round-item"><div class="round-item-main">A professional <strong>soldier</strong> should be trained to exclude all emotions during duty.</div></div>
+          <div class="round-item"><div class="round-item-main">The idea of absolute security in the modern world is a complete <strong>illusion</strong>.</div></div>
+          <div class="round-item"><div class="round-item-main">Our <strong>destiny</strong> is predetermined by our biological genetics rather than our choices.</div></div>
+          <div class="round-item"><div class="round-item-main">Processing <strong>grief</strong> is a lifelong journey that never truly ends.</div></div>
+          <div class="round-item"><div class="round-item-main">To experience true joy, one must first feel deep <strong>sorrow</strong>.</div></div>
+          <div class="round-item"><div class="round-item-main">Teaching intense <strong>patriotism</strong> in schools is outdated and promotes division.</div></div>
+
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+                    <div class="mistake-item"><span class="mistake-wrong">She was in mourning of her grandmother</span><span class="mistake-arrow">→</span><span class="mistake-right">She was in mourning for her grandmother</span><span class="mistake-note-text">(The correct preposition is 'mourning for' someone.)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">His words were a big consolation of me</span><span class="mistake-arrow">→</span><span class="mistake-right">His words were a big consolation to me</span><span class="mistake-note-text">(Use 'consolation to' a person.)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">The soldier returned back to his country</span><span class="mistake-arrow">→</span><span class="mistake-right">The soldier returned to his country</span><span class="mistake-note-text">(Avoid redundancy; 'return' already means 'to go or come back'.)</span></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>

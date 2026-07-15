@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diva — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>Diva</h1>
+  <p class="session-date">La Zarra • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Accueil</a> <span class="sep">/</span>
+    <a href="../">Événements</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">Diva</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">← Retour au club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durée</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
+    <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire (B1)</p></div>
+    <div class="meta-item"><h4>Thème</h4><p>Glamour &amp; Solitude</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Cette session explore la chanson dramatique "Diva" de l'artiste canadienne La Zarra. Nous analyserons le vocabulaire de la scène, de la gloire théâtrale et du luxe. Les étudiants débattront du contraste entre l'image publique d'une diva portant un masque et sa solitude ou tristesse intérieure.</p>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Vocabulaire de la session</h2>
+    <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">La diva</div><div class="vocab-def">chanteuse célèbre et talentueuse, souvent exigeante.</div><div class="vocab-example">La diva est entrée sur scène sous les projecteurs dorés.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La diva', definition:'chanteuse célèbre et talentueuse, souvent exigeante.', example:'La diva est entrée sur scène sous les projecteurs dorés.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La solitude</div><div class="vocab-def">état d'une personne qui est seule.</div><div class="vocab-example">Malgré sa grande célébrité, elle ressent une profonde solitude.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La solitude', definition:'état d\'une personne qui est seule.', example:'Malgré sa grande célébrité, elle ressent une profonde solitude.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La gloire</div><div class="vocab-def">grande renommée acquise par des mérites exceptionnels.</div><div class="vocab-example">Il a cherché la gloire toute sa vie à travers son écriture.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La gloire', definition:'grande renommée acquise par des mérites exceptionnels.', example:'Il a cherché la gloire toute sa vie à travers son écriture.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">puissance supérieure qui semble régler le cours de la vie.</div><div class="vocab-example">Elle pense que son destin était d'être une artiste internationale.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance supérieure qui semble régler le cours de la vie.', example:'Elle pense que son destin était d\'être une artiste internationale.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La fierté</div><div class="vocab-def">sentiment de dignité et de haute estime de soi.</div><div class="vocab-example">C'est avec une grande fierté qu'elle présente sa nouvelle chanson.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fierté', definition:'sentiment de dignité et de haute estime de soi.', example:'C\'est avec une grande fierté qu\'elle présente sa nouvelle chanson.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le luxe</div><div class="vocab-def">caractère de ce qui est somptueux et très coûteux.</div><div class="vocab-example">Les stars de cinéma vivent souvent dans un luxe extravagant.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le luxe', definition:'caractère de ce qui est somptueux et très coûteux.', example:'Les stars de cinéma vivent souvent dans un luxe extravagant.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le masque</div><div class="vocab-def">faux visage pour dissimuler sa véritable apparence.</div><div class="vocab-example">Elle porte un masque joyeux pour cacher ses inquiétudes de vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le masque', definition:'faux visage pour dissimuler sa véritable apparence.', example:'Elle porte un masque joyeux pour cacher ses inquiétudes de vie.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La scène</div><div class="vocab-def">espace surélevé où se produisent les artistes de théâtre.</div><div class="vocab-example">Monter sur scène lui donne une incroyable décharge d'énergie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La scène', definition:'espace surélevé où se produisent les artistes de théâtre.', example:'Monter sur scène lui donne une incroyable décharge d\'énergie.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">L'applaudissement</div><div class="vocab-def">battement de mains exprimant l'approbation du public.</div><div class="vocab-example">La fin de la chanson a déclenché un applaudissement enthousiaste.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'applaudissement', definition:'battement de mains exprimant l\'approbation du public.', example:'La fin de la chanson a déclenché un applaudissement enthousiaste.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La tristesse</div><div class="vocab-def">état affectif douloureux caractérisé par le chagrin.</div><div class="vocab-example">Ses yeux brillaient d'une douce tristesse pendant le concert.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La tristesse', definition:'état affectif douloureux caractérisé par le chagrin.', example:'Ses yeux brillaient d\'une douce tristesse pendant le concert.'}, this)">+ Dictionary</button></div>
+
+    </div>
+  </section>
+
+  <section id="structure">
+    <h2 class="section-title">🎙️ Structure de discussion</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="vim-instruction">Exprimez vos sentiments sur l'esthétique du cabaret et l'attitude théâtrale des chanteuses de jazz.</div>
+          <ul class="round-questions">
+            <li>Quelles sont les qualités principales d'une diva selon vous ?</li>
+            <li>Aimez-vous les spectacles dramatiques de cabaret ?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Discussion des paroles</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="vim-instruction">Analyze the song's key verses and speak using the targeted vocabulary.</div>
+                    <div class="round-item"><div class="round-item-main">Pourquoi l'image de la <strong>diva</strong> fascine-t-elle autant le grand public ?</div><div class="round-item-personal">★ Avez-vous une chanteuse diva préférée ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment les artistes célèbres luttent-ils contre la <strong>solitude</strong> de la vie de tournée ?</div><div class="round-item-personal">★ Vous sentez-vous parfois seul dans une grande ville ?</div></div>
+          <div class="round-item"><div class="round-item-main">La recherche constante de la <strong>gloire</strong> est-elle une source de bonheur durable ?</div><div class="round-item-personal">★ Souhaitez-vous être célèbre un jour ?</div></div>
+          <div class="round-item"><div class="round-item-main">Croyez-vous que notre <strong>destin</strong> est écrit ou que nous le créons par nos choix ?</div><div class="round-item-personal">★ Croyez-vous au coup de foudre ou au destin ?</div></div>
+          <div class="round-item"><div class="round-item-main">Quelle est la différence entre une saine <strong>fierté</strong> personnelle et l'arrogance ?</div><div class="round-item-personal">★ De quelle réalisation êtes-vous le plus fier ?</div></div>
+          <div class="round-item"><div class="round-item-main">Le <strong>luxe</strong> matériel est-il nécessaire pour mener une vie confortable ?</div><div class="round-item-personal">★ Quel est votre plus grand luxe quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Pourquoi devons-nous parfois porter un <strong>masque</strong> souriant dans notre vie professionnelle ?</div><div class="round-item-personal">★ Portez-vous un masque au bureau ?</div></div>
+          <div class="round-item"><div class="round-item-main">Quelles émotions ressentez-vous lorsque vous devez parler devant un public sur <strong>scène</strong> ?</div><div class="round-item-personal">★ Avez-vous déjà pris la parole sur une scène ?</div></div>
+          <div class="round-item"><div class="round-item-main">Pourquoi le public offre-t-il un <strong>applaudissement</strong> chaleureux même à un artiste fatigué ?</div><div class="round-item-personal">★ Applaudissez-vous fort au théâtre ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment parvenez-vous à transformer votre <strong>tristesse</strong> passagère en ondes positives ?</div><div class="round-item-personal">★ Quelle musique écoutez-vous quand vous êtes triste ?</div></div>
+
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Visual contrast: Live Acoustic Cafe vs Electric Stage Lights.</p>
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Acoustic Performance</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Grand Arena Concert</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Analyse approfondie &amp; Débat</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="vim-instruction">Evaluate these philosophical statements regarding the song's underlying cultural concepts.</div>
+                    <div class="round-item"><div class="round-item-main">Dans le futur, la figure de la <strong>diva</strong> théâtrale disparaîtra au profit d'avatars virtuels neutres.</div></div>
+          <div class="round-item"><div class="round-item-main">La <strong>solitude</strong> est le prix inévitable à payer pour réussir une carrière d'exception.</div></div>
+          <div class="round-item"><div class="round-item-main">La <strong>gloire</strong> éphémère sur les réseaux sociaux détruit la santé mentale des jeunes.</div></div>
+          <div class="round-item"><div class="round-item-main">Notre <strong>destin</strong> est entièrement contrôlé par notre origine sociale et notre environnement.</div></div>
+          <div class="round-item"><div class="round-item-main">La <strong>fierté</strong> nationale est le principal obstacle à la paix mondiale.</div></div>
+          <div class="round-item"><div class="round-item-main">Taxer lourdement le <strong>luxe</strong> est la meilleure solution contre les inégalités sociales.</div></div>
+          <div class="round-item"><div class="round-item-main">Vivre sans porter aucun <strong>masque</strong> social est impossible dans une société civilisée.</div></div>
+          <div class="round-item"><div class="round-item-main">Travailler sur <strong>scène</strong> exige un niveau de sacrifice que peu de gens comprennent.</div></div>
+          <div class="round-item"><div class="round-item-main">L'<strong>applaudissement</strong> du public est une drogue dont les artistes ne peuvent plus se passer.</div></div>
+          <div class="round-item"><div class="round-item-main">La <strong>tristesse</strong> artistique produit des œuvres bien plus mémorables que la pure joie.</div></div>
+
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+                    <div class="mistake-item"><span class="mistake-wrong">Elle est fière de sa gloire</span><span class="mistake-arrow">→</span><span class="mistake-right">Elle est fière de sa gloire</span><span class="mistake-note-text">(Cette phrase est correcte, veillez à bien accorder l'adjectif 'fière' au féminin.)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">Il vit dans le luxe depuis cinq ans</span><span class="mistake-arrow">→</span><span class="mistake-right">Il vit dans le luxe depuis cinq ans</span><span class="mistake-note-text">(Correct. Rappelez-vous d'utiliser 'depuis' pour une action qui continue dans le présent.)</span></div>
+          <div class="mistake-item"><span class="mistake-wrong">Elle monte sur le scène</span><span class="mistake-arrow">→</span><span class="mistake-right">Elle monte sur la scène</span><span class="mistake-note-text">(Le mot 'scène' est un nom féminin, on dit 'la scène'.)</span></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>
