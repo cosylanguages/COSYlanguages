@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>l'aziza — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>l'aziza</h1>
+  <p class="session-date">Daniel Balavoine • B2</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Accueil</a> <span class="sep">/</span>
+    <a href="../">Événements</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">l'aziza</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">← Retour au club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durée</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
+    <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire Supérieur (B2)</p></div>
+    <div class="meta-item"><h4>Thème</h4><p>Tolérance & Diversité</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Explorez le magnifique titre 'l'aziza' de Daniel Balavoine en Français. Cette session se concentre sur le vocabulaire de 'Tolérance & Diversité' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Vocabulaire de la session</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card"><div class="vocab-word">La tolérance</div><div class="vocab-def">respect de la liberté d'autrui, de ses opinions.</div><div class="vocab-example">La tolérance est le fondement de la vie en société.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La tolérance', definition:'respect de la liberté d\'autrui, de ses opinions.', example:'La tolérance est le fondement de la vie en société.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La paix</div><div class="vocab-def">état d'absence de conflit, de tranquillité.</div><div class="vocab-example">Les négociations ont enfin ramené la paix dans la région.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La paix', definition:'état d\'absence de conflit, de tranquillité.', example:'Les négociations ont enfin ramené la paix dans la région.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La diversité</div><div class="vocab-def">caractère de ce qui est varié, divers.</div><div class="vocab-example">La diversité culturelle enrichit notre patrimoine.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La diversité', definition:'caractère de ce qui est varié, divers.', example:'La diversité culturelle enrichit notre patrimoine.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La dignité</div><div class="vocab-def">respect de soi-même, noblesse de comportement.</div><div class="vocab-example">Il a affronté cette situation difficile avec dignité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La dignité', definition:'respect de soi-même, noblesse de comportement.', example:'Il a affronté cette situation difficile avec dignité.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">L'harmonie</div><div class="vocab-def">accord entre les éléments d'un ensemble.</div><div class="vocab-example">Ils vivent en parfaite harmonie avec leur environnement.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'harmonie', definition:'accord entre les éléments d\'un ensemble.', example:'Ils vivent en parfaite harmonie avec leur environnement.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">S'unir</div><div class="vocab-def">se joindre pour agir ensemble, se marier.</div><div class="vocab-example">Les pays doivent s'unir pour protéger l'environnement.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'S'unir', definition:'se joindre pour agir ensemble, se marier.', example:'Les pays doivent s\'unir pour protéger l\'environnement.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le respect</div><div class="vocab-def">sentiment de considération envers quelqu'un.</div><div class="vocab-example">Le respect mutuel est essentiel au sein d'une équipe.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le respect', definition:'sentiment de considération envers quelqu\'un.', example:'Le respect mutuel est essentiel au sein d\'une équipe.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le combat</div><div class="vocab-def">action de combattre, lutte pour une cause.</div><div class="vocab-example">Le combat pour l'égalité des droits continue de progresser.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le combat', definition:'action de combattre, lutte pour une cause.', example:'Le combat pour l\'égalité des droits continue de progresser.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">L'espoir</div><div class="vocab-def">sentiment qui porte à espérer, à attendre avec confiance.</div><div class="vocab-example">Nous devons toujours garder l'espoir d'un avenir meilleur.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'espoir', definition:'sentiment qui porte à espérer, à attendre avec confiance.', example:'Nous devons toujours garder l\'espoir d\'un avenir meilleur.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Le partage</div><div class="vocab-def">diviser et distribuer, s'associer avec d'autres.</div><div class="vocab-example">Il est important de partager son repas avec les démunis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le partage', definition:'diviser et distribuer, s\'associer avec d\'autres.', example:'Il est important de partager son repas avec les démunis.'}, this)">+ Dictionary</button></div>
+
+    </div>
+  </section>
+
+  <!-- LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" style="margin-top: 3rem;">
+    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
+    <div class="vim-instruction">
+      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+    </div>
+
+    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">tolérance</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">paix</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">diversité</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">respect</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">espoir</span>
+
+      </div>
+    </div>
+
+    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">L'aziza, ton étoile brille sur nous,<br>Un symbole d'espoir face aux fous.<br>Une grande leçon de [__________],<br>Pour ramener enfin la [__________].<br><br>Célébrer la riche [__________] des cultures,<br>Dans un grand élan de [__________].<br>Garder l' [__________] d'une vie plus douce...</p>
+    </div>
+  </section>
+
+  <!-- DISCUSSION STRUCTURE -->
+  <section id="structure">
+    <h2 class="section-title">🎙️ Structure de discussion</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="vim-instruction">Présentez brièvement vos impressions sur la chanson et chantez avec les premières mélodies.</div>
+          <ul class="round-questions">
+            <li>Aviez-vous déjà écouté 'l'aziza' avant cette session ?</li>
+            <li>Quel type d'émotions cette musique vous inspire-t-elle ?</li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Discussion des paroles</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="vim-instruction">Analysez les couplets clés de la chanson et parlez en utilisant le vocabulaire ciblé.</div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la tolérance</strong> se manifeste-t-il dans les paroles de 'l'aziza' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la tolérance</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la paix</strong> se manifeste-t-il dans les paroles de 'l'aziza' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la paix</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la diversité</strong> se manifeste-t-il dans les paroles de 'l'aziza' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la diversité</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la dignité</strong> se manifeste-t-il dans les paroles de 'l'aziza' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la dignité</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'harmonie</strong> se manifeste-t-il dans les paroles de 'l'aziza' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'harmonie</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>s'unir</strong> se manifeste-t-il dans les paroles de 'l'aziza' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>s'unir</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le respect</strong> se manifeste-t-il dans les paroles de 'l'aziza' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le respect</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le combat</strong> se manifeste-t-il dans les paroles de 'l'aziza' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le combat</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'espoir</strong> se manifeste-t-il dans les paroles de 'l'aziza' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'espoir</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le partage</strong> se manifeste-t-il dans les paroles de 'l'aziza' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le partage</strong> joue un rôle important dans votre quotidien ?</div></div>
+
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Contraste visuel : Café acoustique intime vs Concert dans une grande arène électrique.</p>
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Analyse approfondie & Débat</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="vim-instruction">Évaluez ces énoncés philosophiques concernant les concepts culturels sous-jacents de la chanson.</div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la tolérance</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la paix</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la diversité</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la dignité</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'harmonie</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>s'unir</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le respect</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le combat</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'espoir</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le partage</strong> est devenu un défi quotidien.</div></div>
+
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Je suis d'accord <span class="mistake-highlight">pour</span> ta philosophie</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Je suis d'accord avec ta philosophie</span>
+            <span class="mistake-note-text">(Utilisez la préposition 'avec' après 'être d'accord'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Il a fait beaucoup <span class="mistake-highlight">des</span> sacrifices</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Il a fait beaucoup de sacrifices</span>
+            <span class="mistake-note-text">(Utilisez 'de' après l'adverbe de quantité 'beaucoup'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Ses paroles m'ont blessé <span class="mistake-highlight">beaucoup</span></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Ses paroles m'ont beaucoup blessé</span>
+            <span class="mistake-note-text">(En français, l'adverbe se place avant le participe passé.)</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>

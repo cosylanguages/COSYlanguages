@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>у мамы есть секрет — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>у мамы есть секрет</h1>
+  <p class="session-date">Монеточка • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Главная</a> <span class="sep">/</span>
+    <a href="../">События</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">у мамы есть секрет</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">← Вернуться в клуб</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Длительность</h4><p>60 минут</p></div>
+    <div class="meta-item"><h4>Язык</h4><p>Русский</p></div>
+    <div class="meta-item"><h4>Уровень</h4><p>Средний (B1)</p></div>
+    <div class="meta-item"><h4>Тема</h4><p>Секреты & Тайна</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Разберите прекрасную песню 'у мамы есть секрет' исполнителя Монеточка на Русский. Эта сессия посвящена изучению лексики по теме 'Секреты & Тайна' и ключевых грамматических структур. Студенты будут практиковать разговорную речь и обсуждать заложенный смысл.</p>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Словарь сессии</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card"><div class="vocab-word">Секрет (он)</div><div class="vocab-def">тайна, то, что скрывается от других.</div><div class="vocab-example">Она пообещала сохранить мой секрет в тайне.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Секрет (он)', definition:'тайна, то, что скрывается от других.', example:'Она пообещала сохранить мой секрет в тайне.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Мама (она)</div><div class="vocab-def">женщина по отношению к своим детям.</div><div class="vocab-example">Моя мама всегда поддерживает меня во всех начинаниях.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Мама (она)', definition:'женщина по отношению к своим детям.', example:'Моя мама всегда поддерживает меня во всех начинаниях.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Тайна (она)</div><div class="vocab-def">нечто скрываемое от других, неразгаданное.</div><div class="vocab-example">Эта старая легенда хранит в себе мрачную тайну.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Тайна (она)', definition:'нечто скрываемое от других, неразгаданное.', example:'Эта старая легенда хранит в себе мрачную тайну.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Улыбка (она)</div><div class="vocab-def">мимика лица, показывающая расположение.</div><div class="vocab-example">Ее теплая улыбка мгновенно подняла мне настроение.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Улыбка (она)', definition:'мимика лица, показывающая расположение.', example:'Ее теплая улыбка мгновенно подняла мне настроение.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Забота (она)</div><div class="vocab-def">внимание, уход, беспокойство о ком-то.</div><div class="vocab-example">Родительская забота очень важна для развития ребенка.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Забота (она)', definition:'внимание, уход, беспокойство о ком-то.', example:'Родительская забота очень важна для развития ребенка.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Любовь (она)</div><div class="vocab-def">глубокое чувство привязанности и симпатии.</div><div class="vocab-example">Их крепкая любовь выдержала испытание временем.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Любовь (она)', definition:'глубокое чувство привязанности и симпатии.', example:'Их крепкая любовь выдержала испытание временем.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Доверие (оно)</div><div class="vocab-def">уверенность в честности и верности.</div><div class="vocab-example">Взаимное доверие — это основа крепкой дружбы.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Доверие (оно)', definition:'уверенность в честности и верности.', example:'Взаимное доверие — это основа крепкой дружбы.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Шёпот (он)</div><div class="vocab-def">тихая речь без участия голосовых связок.</div><div class="vocab-example">Они переговаривались шёпотом, чтобы не шуметь в библиотеке.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Шёпот (он)', definition:'тихая речь без участия голосовых связок.', example:'Они переговаривались шёпотом, чтобы не шуметь в библиотеке.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Правда (она)</div><div class="vocab-def">то, что соответствует действительности.</div><div class="vocab-example">Всегда нужно говорить правду, какой бы сложной она ни была.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Правда (она)', definition:'то, что соответствует действительности.', example:'Всегда нужно говорить правду, какой бы сложной она ни была.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Детство (оно)</div><div class="vocab-def">период жизни человека от рождения до юности.</div><div class="vocab-example">Моё детство было очень счастливым и беззаботным.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Детство (оно)', definition:'период жизни человека от рождения до юности.', example:'Моё детство было очень счастливым и беззаботным.'}, this)">+ Dictionary</button></div>
+
+    </div>
+  </section>
+
+  <!-- LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" style="margin-top: 3rem;">
+    <h2 class="section-title">🎵 Упражнение на аудирование и заполнение пропусков</h2>
+    <div class="vim-instruction">
+      <strong>Активное аудирование:</strong> Слушайте песню, используя ссылку выше, и заполняйте пропуски. Пропущенные слова выбраны из ключевой лексики, словосочетаний и грамматических конструкций этой сессии.
+    </div>
+
+    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Вспомогательный банк слов:</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">секрет</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">мама</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">тайна</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">улыбка</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">любовь</span>
+
+      </div>
+    </div>
+
+    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Полный текст песни</h3>
+      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">У мамы есть секрет большой,<br>Она хранит его душой.<br>Этот маленький [__________] красивый,<br>Делает её жизнь счастливой.<br><br>Моя любимая [__________] улыбается,<br>Когда эта [__________] раскрывается.<br>Её нежная и тёплая [__________],<br>И материнская крепкая [__________]...</p>
+    </div>
+  </section>
+
+  <!-- DISCUSSION STRUCTURE -->
+  <section id="structure">
+    <h2 class="section-title">🎙️ Структура обсуждения</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Разминка</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="vim-instruction">Поделитесь вашими мыслями о творчестве исполнителя и настроении песни.</div>
+          <ul class="round-questions">
+            <li>Слушали ли вы когда-нибудь 'у мамы есть секрет' до этого дня?</li>
+            <li>Какие эмоции вызывает у вас эта музыкальная композиция?</li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Раунд 1 — Обсуждение лирики</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="vim-instruction">Проанализируйте ключевые строки песни и практикуйте разговорную речь с целевой лексикой.</div>
+          <div class="round-item"><div class="round-item-main">Как понятие <strong>секрет (он)</strong> отражается в сюжете и лирике 'у мамы есть секрет'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>секрет (он)</strong> в реальной жизни?</div></div>
+          <div class="round-item"><div class="round-item-main">Как понятие <strong>мама (она)</strong> отражается в сюжете и лирике 'у мамы есть секрет'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>мама (она)</strong> в реальной жизни?</div></div>
+          <div class="round-item"><div class="round-item-main">Как понятие <strong>тайна (она)</strong> отражается в сюжете и лирике 'у мамы есть секрет'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>тайна (она)</strong> в реальной жизни?</div></div>
+          <div class="round-item"><div class="round-item-main">Как понятие <strong>улыбка (она)</strong> отражается в сюжете и лирике 'у мамы есть секрет'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>улыбка (она)</strong> в реальной жизни?</div></div>
+          <div class="round-item"><div class="round-item-main">Как понятие <strong>забота (она)</strong> отражается в сюжете и лирике 'у мамы есть секрет'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>забота (она)</strong> в реальной жизни?</div></div>
+          <div class="round-item"><div class="round-item-main">Как понятие <strong>любовь (она)</strong> отражается в сюжете и лирике 'у мамы есть секрет'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>любовь (она)</strong> в реальной жизни?</div></div>
+          <div class="round-item"><div class="round-item-main">Как понятие <strong>доверие (оно)</strong> отражается в сюжете и лирике 'у мамы есть секрет'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>доверие (оно)</strong> в реальной жизни?</div></div>
+          <div class="round-item"><div class="round-item-main">Как понятие <strong>шёпот (он)</strong> отражается в сюжете и лирике 'у мамы есть секрет'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>шёпот (он)</strong> в реальной жизни?</div></div>
+          <div class="round-item"><div class="round-item-main">Как понятие <strong>правда (она)</strong> отражается в сюжете и лирике 'у мамы есть секрет'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>правда (она)</strong> в реальной жизни?</div></div>
+          <div class="round-item"><div class="round-item-main">Как понятие <strong>детство (оно)</strong> отражается в сюжете и лирике 'у мамы есть секрет'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>детство (оно)</strong> в реальной жизни?</div></div>
+
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Визуальный контраст: акустическое исполнение на гитаре против грандиозного стадионного концерта.</p>
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Раунд 2 — Глубокий анализ и дебаты</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="vim-instruction">Оцените эти философские утверждения, вдохновленные темами песни.</div>
+          <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>секрет (он)</strong> становится всё труднее.</div></div>
+          <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>мама (она)</strong> становится всё труднее.</div></div>
+          <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>тайна (она)</strong> становится всё труднее.</div></div>
+          <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>улыбка (она)</strong> становится всё труднее.</div></div>
+          <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>забота (она)</strong> становится всё труднее.</div></div>
+          <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>любовь (она)</strong> становится всё труднее.</div></div>
+          <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>доверие (оно)</strong> становится всё труднее.</div></div>
+          <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>шёпот (он)</strong> становится всё труднее.</div></div>
+          <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>правда (она)</strong> становится всё труднее.</div></div>
+          <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>детство (оно)</strong> становится всё труднее.</div></div>
+
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Заметки преподавателя (исправление ошибок)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Я скучаю <span class="mistake-highlight">за</span> своей родиной</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Я скучаю по своей родине</span>
+            <span class="mistake-note-text">(Используйте предлог 'по' с дательным падежом для выражения тоски.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Это делает меня <span class="mistake-highlight">грустить</span></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Это заставляет меня грустить</span>
+            <span class="mistake-note-text">(В русском языке глагол 'делать' не используется для принуждения.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Мы встретились <span class="mistake-highlight">в</span> прошлый понедельник</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Мы встретились в прошлый понедельник</span>
+            <span class="mistake-note-text">(Это правильно, но избегайте использования предлогов там, где они не нужны.)</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>

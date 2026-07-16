@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>due grosse lacrime bianche — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>due grosse lacrime bianche</h1>
+  <p class="session-date">Iva Zanicchi • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Home</a> <span class="sep">/</span>
+    <a href="../">Eventi</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">due grosse lacrime bianche</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">← Torna al club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durata</h4><p>60 minuti</p></div>
+    <div class="meta-item"><h4>Lingua</h4><p>Italiano</p></div>
+    <div class="meta-item"><h4>Livello</h4><p>Intermedio (B1)</p></div>
+    <div class="meta-item"><h4>Tema</h4><p>Dolore & Rimpatrio</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Esplora lo splendido brano 'due grosse lacrime bianche' di Iva Zanicchi in Italiano. Questa sessione si concentra sul vocabolario legato a 'Dolore & Rimpatrio' e sulle strutture linguistiche chiave del testo. Gli studenti faranno pratica di conversazione e dibattito su questi temi.</p>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Vocabolario della sessione</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card"><div class="vocab-word">La lacrima</div><div class="vocab-def">goccia di liquido prodotta dalle ghiandole lacrimali.</div><div class="vocab-example">Una singola lacrima le rigò il viso per la commozione.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La lacrima', definition:'goccia di liquido prodotta dalle ghiandole lacrimali.', example:'Una singola lacrima le rigò il viso per la commozione.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Il dolore</div><div class="vocab-def">sofferenza fisica o morale intensa.</div><div class="vocab-example">Il dolore della perdita si attenua lentamente con il tempo.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il dolore', definition:'sofferenza fisica o morale intensa.', example:'Il dolore della perdita si attenua lentamente con il tempo.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Il silenzio</div><div class="vocab-def">assenza di rumore o astensione dal parlare.</div><div class="vocab-example">Un grande silenzio è calato nella stanza d'esame.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il silenzio', definition:'assenza di rumore o astensione dal parlare.', example:'Un grande silenzio è calato nella stanza d\'esame.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">L'addio</div><div class="vocab-def">saluto definitivo o di lunga durata.</div><div class="vocab-example">Si sono scambiati un triste addio sulla banchina della stazione.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'addio', definition:'saluto definitivo o di lunga durata.', example:'Si sono scambiati un triste addio sulla banchina della stazione.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La solitudine</div><div class="vocab-def">stato di chi vive solo o si sente isolato.</div><div class="vocab-example">Apprezza la solitudine della montagna per concentrarsi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La solitudine', definition:'stato di chi vive solo o si sente isolato.', example:'Apprezza la solitudine della montagna per concentrarsi.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La fine</div><div class="vocab-def">conclusione o parte terminale di qualcosa.</div><div class="vocab-example">Tutti aspettavano con ansia la fine del lungo discorso.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fine', definition:'conclusione o parte terminale di qualcosa.', example:'Tutti aspettavano con ansia la fine del lungo discorso.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Il pianto</div><div class="vocab-def">azione di piangere, sfogo di dolore o gioia.</div><div class="vocab-example">Il pianto del bambino ha attirato l'attenzione della madre.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il pianto', definition:'azione di piangere, sfogo di dolore o gioia.', example:'Il pianto del bambino ha attirato l\'attenzione della madre.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Il rimpianto</div><div class="vocab-def">sentimento di rammarico per qualcosa che si è perso.</div><div class="vocab-example">Non ha alcun rimpianto per le scelte fatte in passato.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il rimpianto', definition:'sentimento di rammarico per qualcosa che si è perso.', example:'Non ha alcun rimpianto per le scelte fatte in passato.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">Soffrire</div><div class="vocab-def">provare dolore fisico o morale.</div><div class="vocab-example">Nessuno dovrebbe soffrire per l'indifferenza altrui.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Soffrire', definition:'provare dolore fisico o morale.', example:'Nessuno dovrebbe soffrire per l\'indifferenza altrui.'}, this)">+ Dictionary</button></div>
+      <div class="vocab-card"><div class="vocab-word">La speranza</div><div class="vocab-def">sentimento di fiduciosa attesa di un bene futuro.</div><div class="vocab-example">La speranza è l'ultima a morire nei momenti difficili.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La speranza', definition:'sentimento di fiduciosa attesa di un bene futuro.', example:'La speranza è l\'ultima a morire nei momenti difficili.'}, this)">+ Dictionary</button></div>
+
+    </div>
+  </section>
+
+  <!-- LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" style="margin-top: 3rem;">
+    <h2 class="section-title">🎵 Esercizio di ascolto e riempimento spazi</h2>
+    <div class="vim-instruction">
+      <strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.
+    </div>
+
+    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">lacrima</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">dolore</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">silenzio</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">addio</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">solitudine</span>
+
+      </div>
+    </div>
+
+    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Testo completo</h3>
+      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Due grosse lacrime bianche,<br>Sulle mie guance stanche.<br>Ogni singola [__________] che scende,<br>Rivela quanto il cuore si arrende.<br><br>Un immenso [__________] nel profondo,<br>In questo silenzioso mondo.<br>Avvolta in un grande [__________] di ghiaccio,<br>Prima del nostro triste [__________]...</p>
+    </div>
+  </section>
+
+  <!-- DISCUSSION STRUCTURE -->
+  <section id="structure">
+    <h2 class="section-title">🎙️ Struttura della discussione</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Riscaldamento</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="vim-instruction">Condividi le tue prime reazioni sulla melodia e il ritmo.</div>
+          <ul class="round-questions">
+            <li>Hai mai ascoltato 'due grosse lacrime bianche' prima di questa sessione?</li>
+            <li>Che tipo di emozioni ti trasmette questa melodia?</li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Discussione dei testi</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Questions</div>
+          <div class="vim-instruction">Analizza i versi della canzone e parla usando il vocabolario mirato.</div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la lacrima</strong> influisce sul testo di 'due grosse lacrime bianche'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la lacrima</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il dolore</strong> influisce sul testo di 'due grosse lacrime bianche'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il dolore</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il silenzio</strong> influisce sul testo di 'due grosse lacrime bianche'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il silenzio</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>l'addio</strong> influisce sul testo di 'due grosse lacrime bianche'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>l'addio</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la solitudine</strong> influisce sul testo di 'due grosse lacrime bianche'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la solitudine</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la fine</strong> influisce sul testo di 'due grosse lacrime bianche'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la fine</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il pianto</strong> influisce sul testo di 'due grosse lacrime bianche'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il pianto</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il rimpianto</strong> influisce sul testo di 'due grosse lacrime bianche'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il rimpianto</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>soffrire</strong> influisce sul testo di 'due grosse lacrime bianche'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>soffrire</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la speranza</strong> influisce sul testo di 'due grosse lacrime bianche'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la speranza</strong> nella tua vita?</div></div>
+
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Parliamo insieme</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Confronto visivo o acustico tra performance intima ed elettrica.</p>
+          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Analisi approfondita e dibattito</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-type-badge">Debate</div>
+          <div class="vim-instruction">Valuta queste affermazioni filosofiche basate sui temi della canzone.</div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la lacrima</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il dolore</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il silenzio</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>l'addio</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la solitudine</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la fine</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il pianto</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il rimpianto</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>soffrire</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la speranza</strong> è diventato quasi impossibile.</div></div>
+
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Note dell'Insegnante (Correzioni Linguistiche)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Sono d'accordo <span class="mistake-highlight">di</span> questa decisione</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Sono d'accordo con questa decisione</span>
+            <span class="mistake-note-text">(Usa la preposizione 'con' per esprimere accordo.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Ho fatto un viaggio <span class="mistake-highlight">per</span> Roma</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Ho fatto un viaggio a Roma</span>
+            <span class="mistake-note-text">(Usa la preposizione 'a' prima del nome di una città.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Mi piace ascoltare <span class="mistake-highlight">alla</span> musica</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Mi piace ascoltare la musica</span>
+            <span class="mistake-note-text">(Il verbo 'ascoltare' è transitivo e non richiede preposizione.)</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>
