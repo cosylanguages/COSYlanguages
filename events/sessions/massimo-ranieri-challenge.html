@@ -29,149 +29,151 @@
   </nav>
   <a href="../karaoke-club.html" class="back-link">← Torna al club</a>
   <div class="session-meta-grid">
-    <div class="meta-item"><h4>Durata</h4><p>60 minuti</p></div>
+    <div class="meta-item"><h4>Durata</h4><p>90 minutes</p></div>
     <div class="meta-item"><h4>Lingua</h4><p>Italiano</p></div>
     <div class="meta-item"><h4>Livello</h4><p>Intermedio (B1)</p></div>
     <div class="meta-item"><h4>Tema</h4><p>Destino & Amore</p></div>
-    <div class="meta-item"><h4>Resources</h4><p>
-      <a href="https://www.youtube.com/watch?v=rq8lpdP2JYg" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
-      <a href="https://www.youtube.com/watch?v=rq8lpdP2JYg" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
-    </p></div>
   </div>
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Esplora lo splendido brano 'Massimo Ranieri Challenge' di Canzone Italiana Special in Italiano. Questa sessione si concentra sul vocabolario legato a 'Destino & Amore' e sulle strutture linguistiche chiave del testo. Gli studenti faranno pratica di conversazione e dibattito su questi temi.</p>
+    <p>Completa questa speciale sfida di karaoke composta da 2 canzoni classiche: chi sarà con te, l'amore è un attimo. Esercitati e confronta il loro vocabolario, i testi e il significato culturale!</p>
   </div>
 
-  <!-- COLLAPSIBLE VOCABULARY SECTION -->
-  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
-    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
-      <span>📖 Vocabolario della sessione</span><span class="round-toggle">▲</span>
-    </div>
-    <div class="round-body" style="display:block; padding-top: 1.5rem;">
-      <div class="vocab-grid-10">
+  <vim-choice>
+    <vim-choice-option>
+      <vim-choice-option-title>chi sarà con te</vim-choice-option-title>
+      <vim-choice-option-content>
+        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: 1fr;">
+          <div class="meta-item"><h4>Resources</h4><p>
+            <a href="https://www.youtube.com/watch?v=rq8lpdP2JYg" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+            <a href="https://www.youtube.com/watch?v=rq8lpdP2JYg" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+          </p></div>
+        </div>
+
+        <!-- COLLAPSIBLE VOCABULARY SECTION -->
+        <section id="vocabulary-chi-sara-con-te" class="round-block open" style="margin-bottom: 2rem;">
+          <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-chi-sara-con-te')">
+            <span>📖 Vocabolario della sessione</span><span class="round-toggle">▲</span>
+          </div>
+          <div class="round-body" style="display:block; padding-top: 1.5rem;">
+            <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">La compagnia</div><div class="vocab-def">stato di chi è insieme ad altri.</div><div class="vocab-example">Preferisco viaggiare in compagnia dei miei migliori amici.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La compagnia', definition:'stato di chi è insieme ad altri.', example:'Preferisco viaggiare in compagnia dei miei migliori amici.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il futuro</div><div class="vocab-def">tempo che deve ancora venire.</div><div class="vocab-example">Nessuno può prevedere con certezza cosa riserverà il futuro.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il futuro', definition:'tempo che deve ancora venire.', example:'Nessuno può prevedere con certezza cosa riserverà il futuro.'}, this)">+ Dictionary</button></div>
             <div class="vocab-card"><div class="vocab-word">Il destino</div><div class="vocab-def">forza misteriosa che regola la vita umana.</div><div class="vocab-example">Ha deciso di prendere in mano le redini del proprio destino.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il destino', definition:'forza misteriosa che regola la vita umana.', example:'Ha deciso di prendere in mano le redini del proprio destino.'}, this)">+ Dictionary</button></div>
             <div class="vocab-card"><div class="vocab-word">La promessa</div><div class="vocab-def">impegno formale di fare o dare qualcosa.</div><div class="vocab-example">Ha mantenuto la promessa di scrivergli ogni settimana.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La promessa', definition:'impegno formale di fare o dare qualcosa.', example:'Ha mantenuto la promessa di scrivergli ogni settimana.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">L'amore</div><div class="vocab-def">profondo sentimento di affetto o attrazione.</div><div class="vocab-example">L'amore per l'arte lo accompagna da tutta la vita.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amore', definition:'profondo sentimento di affetto o attrazione.', example:'L\'amore per l\'arte lo accompagna da tutta la vita.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">L'attimo</div><div class="vocab-def">brevissimo spazio di tempo, istante.</div><div class="vocab-example">Cogli l'attimo prima che sia troppo tardi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attimo', definition:'brevissimo spazio di tempo, istante.', example:'Cogli l\'attimo prima che sia troppo tardi.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La speranza</div><div class="vocab-def">sentimento di fiduciosa attesa di un bene futuro.</div><div class="vocab-example">La speranza è l'ultima a morire nei momenti difficili.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La speranza', definition:'sentimento di fiduciosa attesa di un bene futuro.', example:'La speranza è l\'ultima a morire nei momenti difficili.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Proteggere</div><div class="vocab-def">difendere qualcuno o qualcosa da un pericolo.</div><div class="vocab-example">Dobbiamo proteggere la natura per le future generazioni.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Proteggere', definition:'difendere qualcuno o qualcosa da un pericolo.', example:'Dobbiamo proteggere la natura per le future generazioni.'}, this)">+ Dictionary</button></div>
             <div class="vocab-card"><div class="vocab-word">Il cammino</div><div class="vocab-def">strada o percorso da compiere, progresso.</div><div class="vocab-example">Il cammino verso l'uguaglianza è ancora lungo ma necessario.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il cammino', definition:'strada o percorso da compiere, progresso.', example:'Il cammino verso l\'uguaglianza è ancora lungo ma necessario.'}, this)">+ Dictionary</button></div>
             <div class="vocab-card"><div class="vocab-word">La fedeltà</div><div class="vocab-def">qualità di chi è fedele e costante.</div><div class="vocab-example">La fedeltà del suo amico è stata una grande consolazione.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fedeltà', definition:'qualità di chi è fedele e costante.', example:'La fedeltà del suo amico è stata una grande consolazione.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">La scintilla</div><div class="vocab-def">minuscolo frammento di materia incandescente.</div><div class="vocab-example">Una piccola scintilla può dare origine a un grande fuoco.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La scintilla', definition:'minuscolo frammento di materia incandescente.', example:'Una piccola scintilla può dare origine a un grande fuoco.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Svanire</div><div class="vocab-def">dileguarsi o scomparire rapidamente.</div><div class="vocab-example">I dubbi sono iniziati a svanire dopo le sue spiegazioni.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Svanire', definition:'dileguarsi o scomparire rapidamente.', example:'I dubbi sono iniziati a svanire dopo le sue spiegazioni.'}, this)">+ Dictionary</button></div>
             <div class="vocab-card"><div class="vocab-word">L'attesa</div><div class="vocab-def">l'atto di attendere l'arrivo di qualcuno o qualcosa.</div><div class="vocab-example">L'attesa dei risultati dell'esame è stata molto stressante.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attesa', definition:'l\'atto di attendere l\'arrivo di qualcuno o qualcosa.', example:'L\'attesa dei risultati dell\'esame è stata molto stressante.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Il ricordo</div><div class="vocab-def">immagine conservata nella memoria.</div><div class="vocab-example">Conservo un bellissimo ricordo della nostra infanzia insieme.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il ricordo', definition:'immagine conservata nella memoria.', example:'Conservo un bellissimo ricordo della nostra infanzia insieme.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'unione</div><div class="vocab-def">il congiungersi insieme, legame.</div><div class="vocab-example">L'unione fa la forza nei momenti di grande difficoltà.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'unione', definition:'il congiungersi insieme, legame.', example:'L\'unione fa la forza nei momenti di grande difficoltà.'}, this)">+ Dictionary</button></div>
 
-      </div>
-    </div>
-  </section>
+            </div>
+          </div>
+        </section>
 
-  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
-    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
-      <span>🎵 Esercizio di ascolto e riempimento spazi</span><span class="round-toggle">▲</span>
-    </div>
-    <div class="round-body" style="display:block; padding-top: 1.5rem;">
-      <div class="vim-instruction">
-        <strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.
-      </div>
+        <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+        <section id="listening-exercise-chi-sara-con-te" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+          <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-chi-sara-con-te')">
+            <span>🎵 Esercizio di ascolto e riempimento spazi</span><span class="round-toggle">▲</span>
+          </div>
+          <div class="round-body" style="display:block; padding-top: 1.5rem;">
+            <div class="vim-instruction">
+              <strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.
+            </div>
 
-      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
-        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+            <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+              <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">compagnia</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">futuro</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">destino</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">promessa</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">speranza</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">amore</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">attimo</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">scintilla</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">bacio</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">ricordo</span>
 
-        </div>
-      </div>
+              </div>
+            </div>
 
-      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Testo completo</h3>
-        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Canzone 1: chi sarà con te<br><br>Chi sarà con te nei momenti difficili ?<br>Chi raccoglierà i tuoi pensieri più fragili ?<br>Cerca sempre la dolce [__________]<br>Per affrontare la vita con gioia<br><br>Il nostro [__________] è ancora da scrivere<br>Guidati da un saggio [__________]<br>Mantenendo ogni sacra [__________]<br>Con una grande [__________] nel cuore<br><br>Canzone 2: l'amore è un attimo<br><br>L'amore è un attimo fuggente<br>Che travolge la mente<br>Un immenso [__________] sincero<br>In questo cielo così nero<br><br>Basta una piccola [__________] di fuoco<br>Per accendere questo grande gioco<br>Ci scambiamo un tenero [__________]<br>Che rimarrà come un dolce [__________]</p>
-      </div>
-    </div>
-  </section>
+            <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+              <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Testo completo</h3>
+              <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Chi sarà con te nei momenti difficili ?<br>Chi raccoglierà i tuoi pensieri più fragili ?<br>Cerca sempre la dolce [__________]<br>Per affrontare la vita con gioia<br><br>Il nostro [__________] è ancora da scrivere<br>Guidati da un saggio [__________]<br>Mantenendo ogni sacra [__________]<br>Con una grande [__________] nel cuore</p>
+            </div>
+          </div>
+        </section>
 
-  <!-- DISCUSSION STRUCTURE -->
-  <section id="structure">
-    <h2 class="section-title">🎙️ Struttura della discussione</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Riscaldamento</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Condividi le tue prime reazioni sulla melodia e il ritmo.</div>
-          <ul class="round-questions">
-            <li>Hai mai ascoltato 'Massimo Ranieri Challenge' prima di questa sessione?</li>
+        <!-- DISCUSSION STRUCTURE -->
+        <section id="structure-chi-sara-con-te">
+          <h2 class="section-title">🎙️ Struttura della discussione</h2>
+          <div class="rounds-container">
+            <div class="round-block warm-up open" id="s-warm-chi-sara-con-te">
+              <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm-chi-sara-con-te')">
+                <span>🟠 Riscaldamento</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="vim-instruction">Condividi le tue prime reazioni sulla melodia e il ritmo.</div>
+                <ul class="round-questions">
+            <li>Hai mai ascoltato 'chi sarà con te' prima di questa sessione?</li>
             <li>Che tipo di emozioni ti trasmette questa melodia?</li>
 
-          </ul>
-        </div>
-      </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — Discussione dei testi</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Questions</div>
-          <div class="vim-instruction">Analizza i versi della canzone e parla usando il vocabolario mirato.</div>
-          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il destino</strong> influisce sul testo di 'Massimo Ranieri Challenge'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il destino</strong> nella tua vita?</div></div>
-          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la promessa</strong> influisce sul testo di 'Massimo Ranieri Challenge'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la promessa</strong> nella tua vita?</div></div>
-          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>l'amore</strong> influisce sul testo di 'Massimo Ranieri Challenge'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>l'amore</strong> nella tua vita?</div></div>
-          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>l'attimo</strong> influisce sul testo di 'Massimo Ranieri Challenge'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>l'attimo</strong> nella tua vita?</div></div>
-          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il cammino</strong> influisce sul testo di 'Massimo Ranieri Challenge'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il cammino</strong> nella tua vita?</div></div>
-          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la fedeltà</strong> influisce sul testo di 'Massimo Ranieri Challenge'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la fedeltà</strong> nella tua vita?</div></div>
-          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la scintilla</strong> influisce sul testo di 'Massimo Ranieri Challenge'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la scintilla</strong> nella tua vita?</div></div>
-          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>svanire</strong> influisce sul testo di 'Massimo Ranieri Challenge'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>svanire</strong> nella tua vita?</div></div>
-          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>l'attesa</strong> influisce sul testo di 'Massimo Ranieri Challenge'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>l'attesa</strong> nella tua vita?</div></div>
-          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il ricordo</strong> influisce sul testo di 'Massimo Ranieri Challenge'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il ricordo</strong> nella tua vita?</div></div>
+                </ul>
+              </div>
+            </div>
+            <div class="round-block round-1 open" id="s-r1-chi-sara-con-te">
+              <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1-chi-sara-con-te')">
+                <span>🔵 Round 1 — Discussione dei testi</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="round-type-badge">Questions</div>
+                <div class="vim-instruction">Analizza i versi della canzone e parla usando il vocabolario mirato.</div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la compagnia</strong> influisce sul testo di 'chi sarà con te'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la compagnia</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il futuro</strong> influisce sul testo di 'chi sarà con te'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il futuro</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il destino</strong> influisce sul testo di 'chi sarà con te'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il destino</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la promessa</strong> influisce sul testo di 'chi sarà con te'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la promessa</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la speranza</strong> influisce sul testo di 'chi sarà con te'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la speranza</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>proteggere</strong> influisce sul testo di 'chi sarà con te'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>proteggere</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il cammino</strong> influisce sul testo di 'chi sarà con te'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il cammino</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la fedeltà</strong> influisce sul testo di 'chi sarà con te'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la fedeltà</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>l'attesa</strong> influisce sul testo di 'chi sarà con te'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>l'attesa</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>l'unione</strong> influisce sul testo di 'chi sarà con te'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>l'unione</strong> nella tua vita?</div></div>
 
-        </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Parliamo insieme</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Confronto visivo o acustico tra performance intima ed elettrica.</p>
-          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
-          </div>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Analisi approfondita e dibattito</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Debate</div>
-          <div class="vim-instruction">Valuta queste affermazioni filosofiche basate sui temi della canzone.</div>
+              </div>
+            </div>
+            <div class="round-block lst open" id="s-lst-chi-sara-con-te">
+              <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst-chi-sara-con-te')">
+                <span>🟣 Parliamo insieme</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <p class="round-note">Confronto visivo o acustico tra performance intima ed elettrica.</p>
+                <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
+                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
+                </div>
+              </div>
+            </div>
+            <div class="round-block round-2 open" id="s-r2-chi-sara-con-te">
+              <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2-chi-sara-con-te')">
+                <span>🟢 Round 2 — Analisi approfondita e dibattito</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="round-type-badge">Debate</div>
+                <div class="vim-instruction">Valuta queste affermazioni filosofiche basate sui temi della canzone.</div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la compagnia</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il futuro</strong> è diventato quasi impossibile.</div></div>
           <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il destino</strong> è diventato quasi impossibile.</div></div>
           <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la promessa</strong> è diventato quasi impossibile.</div></div>
-          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>l'amore</strong> è diventato quasi impossibile.</div></div>
-          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>l'attimo</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la speranza</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>proteggere</strong> è diventato quasi impossibile.</div></div>
           <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il cammino</strong> è diventato quasi impossibile.</div></div>
           <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la fedeltà</strong> è diventato quasi impossibile.</div></div>
-          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la scintilla</strong> è diventato quasi impossibile.</div></div>
-          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>svanire</strong> è diventato quasi impossibile.</div></div>
           <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>l'attesa</strong> è diventato quasi impossibile.</div></div>
-          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il ricordo</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>l'unione</strong> è diventato quasi impossibile.</div></div>
 
-        </div>
-      </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Note dell'Insegnante (Correzioni Linguistiche)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
+              </div>
+            </div>
+            <div class="mistake-block open" id="s-mistakes-chi-sara-con-te">
+              <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-chi-sara-con-te')">
+                <span>✏️ Note dell'Insegnante (Correzioni Linguistiche)</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="mistake-body" style="display:block;">
           <div class="mistake-item">
             <span class="mistake-wrong">Sono d'accordo <span class="mistake-highlight">di</span> questa decisione</span>
             <span class="mistake-arrow">→</span>
@@ -191,10 +193,175 @@
             <span class="mistake-note-text">(Il verbo 'ascoltare' è transitivo e non richiede preposizione.)</span>
           </div>
 
+              </div>
+            </div>
+          </div>
+        </section>
+      </vim-choice-option-content>
+    </vim-choice-option>
+    <vim-choice-option>
+      <vim-choice-option-title>l'amore è un attimo</vim-choice-option-title>
+      <vim-choice-option-content>
+        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: 1fr;">
+          <div class="meta-item"><h4>Resources</h4><p>
+            <a href="https://www.youtube.com/watch?v=Z-pMF6xaRtY" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+            <a href="https://www.youtube.com/watch?v=Z-pMF6xaRtY" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+          </p></div>
         </div>
-      </div>
-    </div>
-  </section>
+
+        <!-- COLLAPSIBLE VOCABULARY SECTION -->
+        <section id="vocabulary-lamore-e-un-attimo" class="round-block open" style="margin-bottom: 2rem;">
+          <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-lamore-e-un-attimo')">
+            <span>📖 Vocabolario della sessione</span><span class="round-toggle">▲</span>
+          </div>
+          <div class="round-body" style="display:block; padding-top: 1.5rem;">
+            <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">L'amore</div><div class="vocab-def">profondo sentimento di affetto o attrazione.</div><div class="vocab-example">L'amore per l'arte lo accompagna da tutta la vita.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amore', definition:'profondo sentimento di affetto o attrazione.', example:'L\'amore per l\'arte lo accompagna da tutta la vita.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'attimo</div><div class="vocab-def">brevissimo spazio di tempo, istante.</div><div class="vocab-example">Cogli l'attimo prima che sia troppo tardi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attimo', definition:'brevissimo spazio di tempo, istante.', example:'Cogli l\'attimo prima che sia troppo tardi.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La scintilla</div><div class="vocab-def">minuscolo frammento di materia incandescente.</div><div class="vocab-example">Una piccola scintilla può dare origine a un grande fuoco.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La scintilla', definition:'minuscolo frammento di materia incandescente.', example:'Una piccola scintilla può dare origine a un grande fuoco.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il bacio</div><div class="vocab-def">il toccare con le labbra in segno d'affetto.</div><div class="vocab-example">Si sono scambiati un tenero bacio prima di salutarsi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il bacio', definition:'il toccare con le labbra in segno d\'affetto.', example:'Si sono scambiati un tenero bacio prima di salutarsi.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il ricordo</div><div class="vocab-def">immagine conservata nella memoria.</div><div class="vocab-example">Conservo un bellissimo ricordo della nostra infanzia insieme.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il ricordo', definition:'immagine conservata nella memoria.', example:'Conservo un bellissimo ricordo della nostra infanzia insieme.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il battito</div><div class="vocab-def">colpo ritmico, battito del cuore.</div><div class="vocab-example">Sentiva il battito accelerato del cuore per l'emozione.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il battito', definition:'colpo ritmico, battito del cuore.', example:'Sentiva il battito accelerato del cuore per l\'emozione.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La passione</div><div class="vocab-def">forte sentimento di amore o entusiasmo.</div><div class="vocab-example">La musica classica è la sua più grande passione fin da bambina.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La passione', definition:'forte sentimento di amore o entusiasmo.', example:'La musica classica è la sua più grande passione fin da bambina.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il soffio</div><div class="vocab-def">leggera corrente d'aria prodotta dalla bocca.</div><div class="vocab-example">Un soffio di vento ha spento la candela sul tavolo.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il soffio', definition:'leggera corrente d\'aria prodotta dalla bocca.', example:'Un soffio di vento ha spento la candela sul tavolo.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Svanire</div><div class="vocab-def">dileguarsi o scomparire rapidamente.</div><div class="vocab-example">I dubbi sono iniziati a svanire dopo le sue spiegazioni.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Svanire', definition:'dileguarsi o scomparire rapidamente.', example:'I dubbi sono iniziati a svanire dopo le sue spiegazioni.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'infinito</div><div class="vocab-def">spazio o tempo senza limiti.</div><div class="vocab-example">Il cielo stellato ci fa percepire il senso dell'infinito.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'infinito', definition:'spazio o tempo senza limiti.', example:'Il cielo stellato ci fa percepire il senso dell\'infinito.'}, this)">+ Dictionary</button></div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+        <section id="listening-exercise-lamore-e-un-attimo" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+          <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-lamore-e-un-attimo')">
+            <span>🎵 Esercizio di ascolto e riempimento spazi</span><span class="round-toggle">▲</span>
+          </div>
+          <div class="round-body" style="display:block; padding-top: 1.5rem;">
+            <div class="vim-instruction">
+              <strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.
+            </div>
+
+            <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+              <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">amore</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">attimo</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">scintilla</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">bacio</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">ricordo</span>
+
+              </div>
+            </div>
+
+            <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+              <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Testo completo</h3>
+              <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">L'amore è un attimo fuggente<br>Che travolge la mente<br>Un immenso [__________] sincero<br>In questo cielo così nero<br><br>Basta una piccola [__________] di fuoco<br>Per accendere questo grande gioco<br>Ci scambiamo un tenero [__________]<br>Che rimarrà come un dolce [__________]</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- DISCUSSION STRUCTURE -->
+        <section id="structure-lamore-e-un-attimo">
+          <h2 class="section-title">🎙️ Struttura della discussione</h2>
+          <div class="rounds-container">
+            <div class="round-block warm-up open" id="s-warm-lamore-e-un-attimo">
+              <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm-lamore-e-un-attimo')">
+                <span>🟠 Riscaldamento</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="vim-instruction">Condividi le tue prime reazioni sulla melodia e il ritmo.</div>
+                <ul class="round-questions">
+            <li>Hai mai ascoltato 'l'amore è un attimo' prima di questa sessione?</li>
+            <li>Che tipo di emozioni ti trasmette questa melodia?</li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="round-block round-1 open" id="s-r1-lamore-e-un-attimo">
+              <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1-lamore-e-un-attimo')">
+                <span>🔵 Round 1 — Discussione dei testi</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="round-type-badge">Questions</div>
+                <div class="vim-instruction">Analizza i versi della canzone e parla usando il vocabolario mirato.</div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>l'amore</strong> influisce sul testo di 'l'amore è un attimo'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>l'amore</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>l'attimo</strong> influisce sul testo di 'l'amore è un attimo'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>l'attimo</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la scintilla</strong> influisce sul testo di 'l'amore è un attimo'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la scintilla</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il bacio</strong> influisce sul testo di 'l'amore è un attimo'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il bacio</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il ricordo</strong> influisce sul testo di 'l'amore è un attimo'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il ricordo</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il battito</strong> influisce sul testo di 'l'amore è un attimo'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il battito</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la passione</strong> influisce sul testo di 'l'amore è un attimo'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la passione</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il soffio</strong> influisce sul testo di 'l'amore è un attimo'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il soffio</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>svanire</strong> influisce sul testo di 'l'amore è un attimo'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>svanire</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>l'infinito</strong> influisce sul testo di 'l'amore è un attimo'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>l'infinito</strong> nella tua vita?</div></div>
+
+              </div>
+            </div>
+            <div class="round-block lst open" id="s-lst-lamore-e-un-attimo">
+              <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst-lamore-e-un-attimo')">
+                <span>🟣 Parliamo insieme</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <p class="round-note">Confronto visivo o acustico tra performance intima ed elettrica.</p>
+                <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
+                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
+                </div>
+              </div>
+            </div>
+            <div class="round-block round-2 open" id="s-r2-lamore-e-un-attimo">
+              <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2-lamore-e-un-attimo')">
+                <span>🟢 Round 2 — Analisi approfondita e dibattito</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="round-type-badge">Debate</div>
+                <div class="vim-instruction">Valuta queste affermazioni filosofiche basate sui temi della canzone.</div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>l'amore</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>l'attimo</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la scintilla</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il bacio</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il ricordo</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il battito</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la passione</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il soffio</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>svanire</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>l'infinito</strong> è diventato quasi impossibile.</div></div>
+
+              </div>
+            </div>
+            <div class="mistake-block open" id="s-mistakes-lamore-e-un-attimo">
+              <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-lamore-e-un-attimo')">
+                <span>✏️ Note dell'Insegnante (Correzioni Linguistiche)</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Sono d'accordo <span class="mistake-highlight">di</span> questa decisione</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Sono d'accordo con questa decisione</span>
+            <span class="mistake-note-text">(Usa la preposizione 'con' per esprimere accordo.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Ho fatto un viaggio <span class="mistake-highlight">per</span> Roma</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Ho fatto un viaggio a Roma</span>
+            <span class="mistake-note-text">(Usa la preposizione 'a' prima del nome di una città.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Mi piace ascoltare <span class="mistake-highlight">alla</span> musica</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Mi piace ascoltare la musica</span>
+            <span class="mistake-note-text">(Il verbo 'ascoltare' è transitivo e non richiede preposizione.)</span>
+          </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+      </vim-choice-option-content>
+    </vim-choice-option>
+
+  </vim-choice>
+
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">

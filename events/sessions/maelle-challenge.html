@@ -29,148 +29,151 @@
   </nav>
   <a href="../karaoke-club.html" class="back-link">← Retour au club</a>
   <div class="session-meta-grid">
-    <div class="meta-item"><h4>Durée</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Durée</h4><p>90 minutes</p></div>
     <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
     <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire (B1)</p></div>
     <div class="meta-item"><h4>Thème</h4><p>Résilience & Douceur</p></div>
-    <div class="meta-item"><h4>Resources</h4><p>
-      <a href="https://www.youtube.com/watch?v=UVz3xR1X9RU" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
-      <a href="https://www.youtube.com/watch?v=UVz3xR1X9RU" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
-    </p></div>
   </div>
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Explorez le magnifique titre 'Maëlle Challenge' de French Pop Special en Français. Cette session se concentre sur le vocabulaire de 'Résilience & Douceur' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
+    <p>Relevez ce défi karaoké spécial composé de 2 chansons classiques : Toutes les machines ont le cœur, je t'aime comme je t'aime. Pratiquez et comparez leur vocabulaire, leurs paroles et leur signification culturelle !</p>
   </div>
 
-  <!-- COLLAPSIBLE VOCABULARY SECTION -->
-  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
-    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
-      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
-    </div>
-    <div class="round-body" style="display:block; padding-top: 1.5rem;">
-      <div class="vocab-grid-10">
+  <vim-choice>
+    <vim-choice-option>
+      <vim-choice-option-title>Toutes les machines ont le cœur</vim-choice-option-title>
+      <vim-choice-option-content>
+        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: 1fr;">
+          <div class="meta-item"><h4>Resources</h4><p>
+            <a href="https://www.youtube.com/watch?v=UVz3xR1X9RU" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+            <a href="https://www.youtube.com/watch?v=UVz3xR1X9RU" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+          </p></div>
+        </div>
+
+        <!-- COLLAPSIBLE VOCABULARY SECTION -->
+        <section id="vocabulary-toutes-les-machines-ont-le-coeur" class="round-block open" style="margin-bottom: 2rem;">
+          <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-toutes-les-machines-ont-le-coeur')">
+            <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+          </div>
+          <div class="round-body" style="display:block; padding-top: 1.5rem;">
+            <div class="vocab-grid-10">
             <div class="vocab-card"><div class="vocab-word">La machine</div><div class="vocab-def">appareil ou ensemble d'appareils capables de transformer l'énergie.</div><div class="vocab-example">Cette usine utilise une machine très moderne pour trier.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La machine', definition:'appareil ou ensemble d\'appareils capables de transformer l\'énergie.', example:'Cette usine utilise une machine très moderne pour trier.'}, this)">+ Dictionary</button></div>
             <div class="vocab-card"><div class="vocab-word">Le cœur</div><div class="vocab-def">organe musculaire creux, symbole de la vie et des sentiments.</div><div class="vocab-example">Elle écoute toujours son cœur pour prendre des décisions.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le cœur', definition:'organe musculaire creux, symbole de la vie et des sentiments.', example:'Elle écoute toujours son cœur pour prendre des décisions.'}, this)">+ Dictionary</button></div>
             <div class="vocab-card"><div class="vocab-word">L'âme</div><div class="vocab-def">principe de vie, de pensée et de sensibilité chez l'être humain.</div><div class="vocab-example">La musique classique touche directement l'âme des auditeurs.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'âme', definition:'principe de vie, de pensée et de sensibilité chez l\'être humain.', example:'La musique classique touche directement l\'âme des auditeurs.'}, this)">+ Dictionary</button></div>
             <div class="vocab-card"><div class="vocab-word">La blessure</div><div class="vocab-def">lésion physique ou blessure morale causée par un événement.</div><div class="vocab-example">Sa blessure s'est refermée lentement après cette épreuve.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La blessure', definition:'lésion physique ou blessure morale causée par un événement.', example:'Sa blessure s\'est refermée lentement après cette épreuve.'}, this)">+ Dictionary</button></div>
             <div class="vocab-card"><div class="vocab-word">L'espoir</div><div class="vocab-def">sentiment qui porte à espérer, à attendre avec confiance.</div><div class="vocab-example">Nous devons toujours garder l'espoir d'un avenir meilleur.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'espoir', definition:'sentiment qui porte à espérer, à attendre avec confiance.', example:'Nous devons toujours garder l\'espoir d\'un avenir meilleur.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">L'amour</div><div class="vocab-def">sentiment d'affection, de tendresse et d'attirance.</div><div class="vocab-example">L'amour familial est un pilier indispensable de la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amour', definition:'sentiment d\'affection, de tendresse et d\'attirance.', example:'L\'amour familial est un pilier indispensable de la vie.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">La tendresse</div><div class="vocab-def">sentiment d'affection douce, de bienveillance attentive.</div><div class="vocab-example">Elle a accueilli le bébé avec une immense tendresse.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La tendresse', definition:'sentiment d\'affection douce, de bienveillance attentive.', example:'Elle a accueilli le bébé avec une immense tendresse.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Le silence</div><div class="vocab-def">absence de bruit, état de celui qui ne parle pas.</div><div class="vocab-example">Un grand silence s'est installé dans la bibliothèque.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le silence', definition:'absence de bruit, état de celui qui ne parle pas.', example:'Un grand silence s\'est installé dans la bibliothèque.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le regret</div><div class="vocab-def">sentiment douloureux d'avoir perdu quelque chose ou manqué d'agir.</div><div class="vocab-example">Il a exprimé un vif regret après son départ précipité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le regret', definition:'sentiment douloureux d\'avoir perdu quelque chose ou manqué d\'agir.', example:'Il a exprimé un vif regret après son départ précipité.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le rêve</div><div class="vocab-def">production de l'imagination, désir ou ambition.</div><div class="vocab-example">Réaliser son rêve d'enfant demande beaucoup de courage.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le rêve', definition:'production de l\'imagination, désir ou ambition.', example:'Réaliser son rêve d\'enfant demande beaucoup de courage.'}, this)">+ Dictionary</button></div>
             <div class="vocab-card"><div class="vocab-word">Guérir</div><div class="vocab-def">recouvrer la santé, faire disparaître une maladie ou une peine.</div><div class="vocab-example">Le temps finit toujours par guérir les peines d'amour.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Guérir', definition:'recouvrer la santé, faire disparaître une maladie ou une peine.', example:'Le temps finit toujours par guérir les peines d\'amour.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Chuchoter</div><div class="vocab-def">parler à voix très basse, sans vibrer les cordes vocales.</div><div class="vocab-example">Ils aiment chuchoter des secrets à la tombée de la nuit.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Chuchoter', definition:'parler à voix très basse, sans vibrer les cordes vocales.', example:'Ils aiment chuchoter des secrets à la tombée de la nuit.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Sentir</div><div class="vocab-def">percevoir par les sens, éprouver une ébauche d'émotion.</div><div class="vocab-example">Elle peut sentir la chaleur du soleil sur son visage.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sentir', definition:'percevoir par les sens, éprouver une ébauche d\'émotion.', example:'Elle peut sentir la chaleur du soleil sur son visage.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le secret</div><div class="vocab-def">chose qui doit être gardée cachée, connue de peu de personnes.</div><div class="vocab-example">Elle a promis de garder ce secret pour toujours.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le secret', definition:'chose qui doit être gardée cachée, connue de peu de personnes.', example:'Elle a promis de garder ce secret pour toujours.'}, this)">+ Dictionary</button></div>
 
-      </div>
-    </div>
-  </section>
+            </div>
+          </div>
+        </section>
 
-  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
-    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
-      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
-    </div>
-    <div class="round-body" style="display:block; padding-top: 1.5rem;">
-      <div class="vim-instruction">
-        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
-      </div>
+        <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+        <section id="listening-exercise-toutes-les-machines-ont-le-coeur" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+          <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-toutes-les-machines-ont-le-coeur')">
+            <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
+          </div>
+          <div class="round-body" style="display:block; padding-top: 1.5rem;">
+            <div class="vim-instruction">
+              <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+            </div>
 
-      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+            <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+              <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">machines</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">cœur</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">selfies</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">moteur</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">fragile</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">mots</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">peau</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">monde</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">aimer</span>
 
-        </div>
-      </div>
+              </div>
+            </div>
 
-      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Chanson 1: Toutes les machines ont le cœur<br><br>Toutes les [__________] ont un cœur, t'entends ?<br>Toutes les machines ont un [__________] dedans<br>Qui bat, qui bat, qui bat<br>Comme on se bat, maman<br>Comme on se bat pourtant<br>On n'avait pas prévu ça<br>D'avoir des doigts Messenger<br>Des pouces ordinateur<br>Sur les machines, on passe des heures<br>Sur les machines, on dessine un cœur<br>Qui bat, qui bat, qui bat<br>On tape nos vies dedans<br>Autant de likes et de leurres<br>De flammes, de [__________], de peurs<br>De smileys en couleur<br><br>Toutes les machines ont un cœur, t'entends ?<br>Toutes les machines ont un cœur dedans<br>Qui bat, qui bat, qui bat<br>Comme on se bat, maman<br>Comme on n'sait pas vraiment<br>Comment se sortir de là<br>Le monde la gueule qu'il a<br>Qui c'est qui lui a fait ça ?<br>C'est pas nous, c'est pas moi, t'entends ?<br>Le bruit des machines permanent<br>Qui bat, qui bat, qui bat<br>Battu pour le moment<br>Je suis tout juste capable<br>De voir le monde en grand<br>Tant que le monde est portable<br><br>Toutes les machines ont un cœur, t'entends ?<br>Toutes les machines ont un cœur dedans<br>Qui bat, qui bat, qui bat<br>Comme on se bat, maman<br>Comme on se bat pourtant<br>Tu dis : "À quoi ça sert ?<br>T'as rien de mieux à faire ?<br>Sais-tu le temps que tu perds ?"<br>Toutes les machines ont un cœur pourtant<br>Un monde meilleur caché dedans<br>Qui bat, qui bat, qui bat<br>Moi, des idées j'en ai mille<br>Tout au bout de mes doigts<br>Des étincelles et des îles<br>Des ailes que je déploie<br><br>Maman, maman, c'est moi<br>C'est moi, c'est moi le [__________], t'entends ?<br>Dans toutes les machines y a mon cœur dedans<br>Qui bat, qui bat, qui bat<br>Comme je me bats, maman<br>Si le monde est mon mobile<br>Mon cœur pour le moment<br>Est comme le monde, maman<br><br>Et le monde est fragile<br>Et le monde est [__________]<br>Et mon cœur est fragile<br>Et le monde est fragile<br>Et le monde est fragile<br>Toutes les machines ont un cœur, t'entends ?<br>Toutes les machines ont un cœur dedans<br>Et mon cœur est fragile<br><br>Chanson 2: je t'aime comme je t'aime<br><br>C'est pas pour te retenir<br>Que je te dis des [__________]<br>C'est pas pour t'appartenir<br>Que je te fais l'amour<br>C'est juste que sous ma [__________]<br>Y a ton cœur qui bat<br>Que le reste du [__________]<br>Ne me regarde pas<br><br>Je t'aime comme je t'aime<br>Sans artifice et sans dilemme<br>Je t'aime comme je t'aime<br>Avec ton [__________] et tes colères<br>Et s'il faut tout [__________]<br>Et s'il faut tout refaire<br>Je t'aime comme je t'aime<br>Loin du bruit de la terre</p>
-      </div>
-    </div>
-  </section>
+            <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+              <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+              <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Toutes les [__________] ont un cœur, t'entends ?<br>Toutes les machines ont un [__________] dedans<br>Qui bat, qui bat, qui bat<br>Comme on se bat, maman<br>Comme on se bat pourtant<br>On n'avait pas prévu ça<br>D'avoir des doigts Messenger<br>Des pouces ordinateur<br>Sur les machines, on passe des heures<br>Sur les machines, on dessine un cœur<br>Qui bat, qui bat, qui bat<br>On tape nos vies dedans<br>Autant de likes et de leurres<br>De flammes, de [__________], de peurs<br>De smileys en couleur<br><br>Toutes les machines ont un cœur, t'entends ?<br>Toutes les machines ont un cœur dedans<br>Qui bat, qui bat, qui bat<br>Comme on se bat, maman<br>Comme on n'sait pas vraiment<br>Comment se sortir de là<br>Le monde la gueule qu'il a<br>Qui c'est qui lui a fait ça ?<br>C'est pas nous, c'est pas moi, t'entends ?<br>Le bruit des machines permanent<br>Qui bat, qui bat, qui bat<br>Battu pour le moment<br>Je suis tout juste capable<br>De voir le monde en grand<br>Tant que le monde est portable<br><br>Toutes les machines ont un cœur, t'entends ?<br>Toutes les machines ont un cœur dedans<br>Qui bat, qui bat, qui bat<br>Comme on se bat, maman<br>Comme on se bat pourtant<br>Tu dis : "À quoi ça sert ?<br>T'as rien de mieux à faire ?<br>Sais-tu le temps que tu perds ?"<br>Toutes les machines ont un cœur pourtant<br>Un monde meilleur caché dedans<br>Qui bat, qui bat, qui bat<br>Moi, des idées j'en ai mille<br>Tout au bout de mes doigts<br>Des étincelles et des îles<br>Des ailes que je déploie<br><br>Maman, maman, c'est moi<br>C'est moi, c'est moi le [__________], t'entends ?<br>Dans toutes les machines y a mon cœur dedans<br>Qui bat, qui bat, qui bat<br>Comme je me bats, maman<br>Si le monde est mon mobile<br>Mon cœur pour le moment<br>Est comme le monde, maman<br><br>Et le monde est fragile<br>Et le monde est [__________]<br>Et mon cœur est fragile<br>Et le monde est fragile<br>Et le monde est fragile<br>Toutes les machines ont un cœur, t'entends ?<br>Toutes les machines ont un cœur dedans<br>Et mon cœur est fragile</p>
+            </div>
+          </div>
+        </section>
 
-  <!-- DISCUSSION STRUCTURE -->
-  <section id="structure">
-    <h2 class="section-title">🎙️ Structure de discussion</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Présentez brièvement vos impressions sur la chanson et chantez avec les premières mélodies.</div>
-          <ul class="round-questions">
-            <li>Aviez-vous déjà écouté 'Maëlle Challenge' avant cette session ?</li>
+        <!-- DISCUSSION STRUCTURE -->
+        <section id="structure-toutes-les-machines-ont-le-coeur">
+          <h2 class="section-title">🎙️ Structure de discussion</h2>
+          <div class="rounds-container">
+            <div class="round-block warm-up open" id="s-warm-toutes-les-machines-ont-le-coeur">
+              <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm-toutes-les-machines-ont-le-coeur')">
+                <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="vim-instruction">Présentez brièvement vos impressions sur la chanson et chantez avec les premières mélodies.</div>
+                <ul class="round-questions">
+            <li>Aviez-vous déjà écouté 'Toutes les machines ont le cœur' avant cette session ?</li>
             <li>Quel type d'émotions cette musique vous inspire-t-elle ?</li>
 
-          </ul>
-        </div>
-      </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — Discussion des paroles</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Questions</div>
-          <div class="vim-instruction">Analysez les couplets clés de la chanson et parlez en utilisant le vocabulaire ciblé.</div>
-          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la machine</strong> se manifeste-t-il dans les paroles de 'Maëlle Challenge' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la machine</strong> joue un rôle important dans votre quotidien ?</div></div>
-          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le cœur</strong> se manifeste-t-il dans les paroles de 'Maëlle Challenge' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le cœur</strong> joue un rôle important dans votre quotidien ?</div></div>
-          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'âme</strong> se manifeste-t-il dans les paroles de 'Maëlle Challenge' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'âme</strong> joue un rôle important dans votre quotidien ?</div></div>
-          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la blessure</strong> se manifeste-t-il dans les paroles de 'Maëlle Challenge' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la blessure</strong> joue un rôle important dans votre quotidien ?</div></div>
-          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'espoir</strong> se manifeste-t-il dans les paroles de 'Maëlle Challenge' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'espoir</strong> joue un rôle important dans votre quotidien ?</div></div>
-          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'amour</strong> se manifeste-t-il dans les paroles de 'Maëlle Challenge' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'amour</strong> joue un rôle important dans votre quotidien ?</div></div>
-          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la tendresse</strong> se manifeste-t-il dans les paroles de 'Maëlle Challenge' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la tendresse</strong> joue un rôle important dans votre quotidien ?</div></div>
-          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le silence</strong> se manifeste-t-il dans les paroles de 'Maëlle Challenge' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le silence</strong> joue un rôle important dans votre quotidien ?</div></div>
-          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>guérir</strong> se manifeste-t-il dans les paroles de 'Maëlle Challenge' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>guérir</strong> joue un rôle important dans votre quotidien ?</div></div>
-          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>chuchoter</strong> se manifeste-t-il dans les paroles de 'Maëlle Challenge' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>chuchoter</strong> joue un rôle important dans votre quotidien ?</div></div>
+                </ul>
+              </div>
+            </div>
+            <div class="round-block round-1 open" id="s-r1-toutes-les-machines-ont-le-coeur">
+              <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1-toutes-les-machines-ont-le-coeur')">
+                <span>🔵 Round 1 — Discussion des paroles</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="round-type-badge">Questions</div>
+                <div class="vim-instruction">Analysez les couplets clés de la chanson et parlez en utilisant le vocabulaire ciblé.</div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la machine</strong> se manifeste-t-il dans les paroles de 'Toutes les machines ont le cœur' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la machine</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le cœur</strong> se manifeste-t-il dans les paroles de 'Toutes les machines ont le cœur' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le cœur</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'âme</strong> se manifeste-t-il dans les paroles de 'Toutes les machines ont le cœur' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'âme</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la blessure</strong> se manifeste-t-il dans les paroles de 'Toutes les machines ont le cœur' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la blessure</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'espoir</strong> se manifeste-t-il dans les paroles de 'Toutes les machines ont le cœur' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'espoir</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le regret</strong> se manifeste-t-il dans les paroles de 'Toutes les machines ont le cœur' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le regret</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le rêve</strong> se manifeste-t-il dans les paroles de 'Toutes les machines ont le cœur' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le rêve</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>guérir</strong> se manifeste-t-il dans les paroles de 'Toutes les machines ont le cœur' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>guérir</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>sentir</strong> se manifeste-t-il dans les paroles de 'Toutes les machines ont le cœur' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>sentir</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le secret</strong> se manifeste-t-il dans les paroles de 'Toutes les machines ont le cœur' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le secret</strong> joue un rôle important dans votre quotidien ?</div></div>
 
-        </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Contraste visuel : Café acoustique intime vs Concert dans une grande arène électrique.</p>
-          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
-          </div>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Analyse approfondie & Débat</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Debate</div>
-          <div class="vim-instruction">Évaluez ces énoncés philosophiques concernant les concepts culturels sous-jacents de la chanson.</div>
+              </div>
+            </div>
+            <div class="round-block lst open" id="s-lst-toutes-les-machines-ont-le-coeur">
+              <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst-toutes-les-machines-ont-le-coeur')">
+                <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <p class="round-note">Contraste visuel : Café acoustique intime vs Concert dans une grande arène électrique.</p>
+                <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
+                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
+                </div>
+              </div>
+            </div>
+            <div class="round-block round-2 open" id="s-r2-toutes-les-machines-ont-le-coeur">
+              <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2-toutes-les-machines-ont-le-coeur')">
+                <span>🟢 Round 2 — Analyse approfondie & Débat</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="round-type-badge">Debate</div>
+                <div class="vim-instruction">Évaluez ces énoncés philosophiques concernant les concepts culturels sous-jacents de la chanson.</div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la machine</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le cœur</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'âme</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la blessure</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'espoir</strong> est devenu un défi quotidien.</div></div>
-          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'amour</strong> est devenu un défi quotidien.</div></div>
-          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la tendresse</strong> est devenu un défi quotidien.</div></div>
-          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le silence</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le regret</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le rêve</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>guérir</strong> est devenu un défi quotidien.</div></div>
-          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>chuchoter</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>sentir</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le secret</strong> est devenu un défi quotidien.</div></div>
 
-        </div>
-      </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
+              </div>
+            </div>
+            <div class="mistake-block open" id="s-mistakes-toutes-les-machines-ont-le-coeur">
+              <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-toutes-les-machines-ont-le-coeur')">
+                <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="mistake-body" style="display:block;">
           <div class="mistake-item">
             <span class="mistake-wrong">Je suis d'accord <span class="mistake-highlight">pour</span> ta philosophie</span>
             <span class="mistake-arrow">→</span>
@@ -190,10 +193,175 @@
             <span class="mistake-note-text">(En français, l'adverbe se place avant le participe passé.)</span>
           </div>
 
+              </div>
+            </div>
+          </div>
+        </section>
+      </vim-choice-option-content>
+    </vim-choice-option>
+    <vim-choice-option>
+      <vim-choice-option-title>je t'aime comme je t'aime</vim-choice-option-title>
+      <vim-choice-option-content>
+        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: 1fr;">
+          <div class="meta-item"><h4>Resources</h4><p>
+            <a href="https://www.youtube.com/watch?v=zu9HiCSVyAg" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+            <a href="https://www.youtube.com/watch?v=zu9HiCSVyAg" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+          </p></div>
         </div>
-      </div>
-    </div>
-  </section>
+
+        <!-- COLLAPSIBLE VOCABULARY SECTION -->
+        <section id="vocabulary-je-taime-comme-je-taime" class="round-block open" style="margin-bottom: 2rem;">
+          <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-je-taime-comme-je-taime')">
+            <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+          </div>
+          <div class="round-body" style="display:block; padding-top: 1.5rem;">
+            <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">L'amour</div><div class="vocab-def">sentiment d'affection, de tendresse et d'attirance.</div><div class="vocab-example">L'amour familial est un pilier indispensable de la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amour', definition:'sentiment d\'affection, de tendresse et d\'attirance.', example:'L\'amour familial est un pilier indispensable de la vie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La tendresse</div><div class="vocab-def">sentiment d'affection douce, de bienveillance attentive.</div><div class="vocab-example">Elle a accueilli le bébé avec une immense tendresse.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La tendresse', definition:'sentiment d\'affection douce, de bienveillance attentive.', example:'Elle a accueilli le bébé avec une immense tendresse.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le silence</div><div class="vocab-def">absence de bruit, état de celui qui ne parle pas.</div><div class="vocab-example">Un grand silence s'est installé dans la bibliothèque.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le silence', definition:'absence de bruit, état de celui qui ne parle pas.', example:'Un grand silence s\'est installé dans la bibliothèque.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le doute</div><div class="vocab-def">état de l'esprit qui hésite à se prononcer sur la vérité.</div><div class="vocab-example">Le doute s'est installé dans son esprit après cette réunion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le doute', definition:'état de l\'esprit qui hésite à se prononcer sur la vérité.', example:'Le doute s\'est installé dans son esprit après cette réunion.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La fidélité</div><div class="vocab-def">qualité de quelqu'un qui est fidèle, constant dans ses sentiments.</div><div class="vocab-example">La fidélité de son chien est un exemple pour tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fidélité', definition:'qualité de quelqu\'un qui est fidèle, constant dans ses sentiments.', example:'La fidélité de son chien est un exemple pour tous.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Chuchoter</div><div class="vocab-def">parler à voix très basse, sans vibrer les cordes vocales.</div><div class="vocab-example">Ils aiment chuchoter des secrets à la tombée de la nuit.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Chuchoter', definition:'parler à voix très basse, sans vibrer les cordes vocales.', example:'Ils aiment chuchoter des secrets à la tombée de la nuit.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Partager</div><div class="vocab-def">diviser et distribuer, s'associer avec d'autres.</div><div class="vocab-example">Il est important de partager son repas avec les démunis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Partager', definition:'diviser et distribuer, s\'associer avec d\'autres.', example:'Il est important de partager son repas avec les démunis.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La patience</div><div class="vocab-def">aptitude à attendre calmement, sans s'énerver.</div><div class="vocab-example">La patience est une vertu essentielle pour enseigner.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La patience', definition:'aptitude à attendre calmement, sans s\'énerver.', example:'La patience est une vertu essentielle pour enseigner.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le baiser</div><div class="vocab-def">action de toucher avec les lèvres en signe d'affection.</div><div class="vocab-example">Elle a donné un tendre baiser à son amie sur la joue.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le baiser', definition:'action de toucher avec les lèvres en signe d\'affection.', example:'Elle a donné un tendre baiser à son amie sur la joue.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le lien</div><div class="vocab-def">ce qui unit ou attache des personnes ou des choses.</div><div class="vocab-example">Ils partagent un lien d'amitié très fort et solide.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le lien', definition:'ce qui unit ou attache des personnes ou des choses.', example:'Ils partagent un lien d\'amitié très fort et solide.'}, this)">+ Dictionary</button></div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+        <section id="listening-exercise-je-taime-comme-je-taime" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+          <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-je-taime-comme-je-taime')">
+            <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
+          </div>
+          <div class="round-body" style="display:block; padding-top: 1.5rem;">
+            <div class="vim-instruction">
+              <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+            </div>
+
+            <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+              <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">mots</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">peau</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">monde</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">cœur</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">aimer</span>
+
+              </div>
+            </div>
+
+            <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+              <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+              <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">C'est pas pour te retenir<br>Que je te dis des [__________]<br>C'est pas pour t'appartenir<br>Que je te fais l'amour<br>C'est juste que sous ma [__________]<br>Y a ton cœur qui bat<br>Que le reste du [__________]<br>Ne me regarde pas<br><br>Je t'aime comme je t'aime<br>Sans artifice et sans dilemme<br>Je t'aime comme je t'aime<br>Avec ton [__________] et tes colères<br>Et s'il faut tout [__________]<br>Et s'il faut tout refaire<br>Je t'aime comme je t'aime<br>Loin du bruit de la terre</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- DISCUSSION STRUCTURE -->
+        <section id="structure-je-taime-comme-je-taime">
+          <h2 class="section-title">🎙️ Structure de discussion</h2>
+          <div class="rounds-container">
+            <div class="round-block warm-up open" id="s-warm-je-taime-comme-je-taime">
+              <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm-je-taime-comme-je-taime')">
+                <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="vim-instruction">Présentez brièvement vos impressions sur la chanson et chantez avec les premières mélodies.</div>
+                <ul class="round-questions">
+            <li>Aviez-vous déjà écouté 'je t'aime comme je t'aime' avant cette session ?</li>
+            <li>Quel type d'émotions cette musique vous inspire-t-elle ?</li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="round-block round-1 open" id="s-r1-je-taime-comme-je-taime">
+              <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1-je-taime-comme-je-taime')">
+                <span>🔵 Round 1 — Discussion des paroles</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="round-type-badge">Questions</div>
+                <div class="vim-instruction">Analysez les couplets clés de la chanson et parlez en utilisant le vocabulaire ciblé.</div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'amour</strong> se manifeste-t-il dans les paroles de 'je t'aime comme je t'aime' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'amour</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la tendresse</strong> se manifeste-t-il dans les paroles de 'je t'aime comme je t'aime' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la tendresse</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le silence</strong> se manifeste-t-il dans les paroles de 'je t'aime comme je t'aime' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le silence</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le doute</strong> se manifeste-t-il dans les paroles de 'je t'aime comme je t'aime' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le doute</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la fidélité</strong> se manifeste-t-il dans les paroles de 'je t'aime comme je t'aime' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la fidélité</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>chuchoter</strong> se manifeste-t-il dans les paroles de 'je t'aime comme je t'aime' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>chuchoter</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>partager</strong> se manifeste-t-il dans les paroles de 'je t'aime comme je t'aime' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>partager</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la patience</strong> se manifeste-t-il dans les paroles de 'je t'aime comme je t'aime' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la patience</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le baiser</strong> se manifeste-t-il dans les paroles de 'je t'aime comme je t'aime' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le baiser</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le lien</strong> se manifeste-t-il dans les paroles de 'je t'aime comme je t'aime' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le lien</strong> joue un rôle important dans votre quotidien ?</div></div>
+
+              </div>
+            </div>
+            <div class="round-block lst open" id="s-lst-je-taime-comme-je-taime">
+              <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst-je-taime-comme-je-taime')">
+                <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <p class="round-note">Contraste visuel : Café acoustique intime vs Concert dans une grande arène électrique.</p>
+                <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
+                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
+                </div>
+              </div>
+            </div>
+            <div class="round-block round-2 open" id="s-r2-je-taime-comme-je-taime">
+              <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2-je-taime-comme-je-taime')">
+                <span>🟢 Round 2 — Analyse approfondie & Débat</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="round-type-badge">Debate</div>
+                <div class="vim-instruction">Évaluez ces énoncés philosophiques concernant les concepts culturels sous-jacents de la chanson.</div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'amour</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la tendresse</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le silence</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le doute</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la fidélité</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>chuchoter</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>partager</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la patience</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le baiser</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le lien</strong> est devenu un défi quotidien.</div></div>
+
+              </div>
+            </div>
+            <div class="mistake-block open" id="s-mistakes-je-taime-comme-je-taime">
+              <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-je-taime-comme-je-taime')">
+                <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Je suis d'accord <span class="mistake-highlight">pour</span> ta philosophie</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Je suis d'accord avec ta philosophie</span>
+            <span class="mistake-note-text">(Utilisez la préposition 'avec' après 'être d'accord'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Il a fait beaucoup <span class="mistake-highlight">des</span> sacrifices</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Il a fait beaucoup de sacrifices</span>
+            <span class="mistake-note-text">(Utilisez 'de' après l'adverbe de quantité 'beaucoup'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Ses paroles m'ont blessé <span class="mistake-highlight">beaucoup</span></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Ses paroles m'ont beaucoup blessé</span>
+            <span class="mistake-note-text">(En français, l'adverbe se place avant le participe passé.)</span>
+          </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+      </vim-choice-option-content>
+    </vim-choice-option>
+
+  </vim-choice>
+
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">

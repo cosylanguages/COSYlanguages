@@ -368,6 +368,15 @@ VOCAB_DB = {
     "L'écoute": ("action d'écouter attentivement.", "La qualité d'écoute est essentielle dans une relation."),
 
     # English
+    "Kernels": ("small, soft, or edible parts of a nut, seed, or corn; metaphorically, tiny bits.", "He only threw her a few kernels of affection, keeping her wanting more."),
+    "Generalize": ("make a general or broad statement by inferring from specific cases.", "It is unfair to generalize about an entire group of people based on one person's actions."),
+    "Maternal": ("relating to a mother, especially during pregnancy or shortly after childbirth.", "She felt a strong maternal instinct to protect her young children."),
+    "Delusional": ("characterized by or holding idiosyncratic beliefs or impressions that are contradicted by reality.", "He was delusional to think he could win without practicing at all."),
+    "Overzealous": ("too zealous; having or showing excessive enthusiasm or intense devotion.", "The overzealous fan followed the band to every single city on their tour."),
+    "Insecurity": ("uncertainty or anxiety about oneself; lack of confidence.", "She worked hard to overcome her deep feeling of insecurity."),
+    "Satire": ("the use of humor, irony, exaggeration, or ridicule to expose and criticize people's stupidity.", "The show is a brilliant satire of modern television culture."),
+    "Condescending": ("having or showing a feeling of patronizing superiority.", "He spoke in a condescending tone that offended everyone in the room."),
+    "Compulsive": ("resulting from or relating to an irresistible urge, especially one that is against one's conscious wishes.", "Her compulsive shopping habits led to significant financial difficulties."),
     "Greatness": ("the quality of being great, distinguished, or eminent.", "She achieved greatness in her musical career."),
     "Haunting": ("poignant and evocative; difficult to forget.", "The haunting melody of the cello lingered in the room."),
     "Surrender": ("give up or hand over after a struggle.", "They decided to surrender their weapons and end the conflict."),
@@ -770,7 +779,176 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </body>
 </html>"""
 
-# STEP 1: Parse all 52 songs dynamically from their existing files
+CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
+<html lang="{lang}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title} — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>{title}</h1>
+  <p class="session-date">{artist} • {level_short}</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">{breadcrumbs_home}</a> <span class="sep">/</span>
+    <a href="../">{breadcrumbs_events}</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">{breadcrumbs_club}</a> <span class="sep">/</span>
+    <span class="current">{title}</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">{back_link}</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>{dur_label}</h4><p>{dur_val}</p></div>
+    <div class="meta-item"><h4>{lang_label}</h4><p>{variety_lang}</p></div>
+    <div class="meta-item"><h4>{level_label}</h4><p>{level_long}</p></div>
+    <div class="meta-item"><h4>{focus_label}</h4><p>{focus}</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>{description}</p>
+  </div>
+
+  <vim-choice>
+{tabs_html}
+  </vim-choice>
+
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>"""
+
+def generate_song_elements(song, loc, lang, sub_slug=None):
+    title = song["title"]
+    artist = song["artist"]
+    vocab_words = song["vocab"]
+    helpers = song["helpers"]
+    lyrics_text = song["lyrics"].replace("\n", "<br>")
+
+    # Build vocabulary cards html
+    vocab_cards_html = ""
+    for w in vocab_words:
+        norm_w = w.replace("L'", "").replace("La ", "").replace("Le ", "").replace("El ", "").replace("La ", "").replace("Il ", "").replace("La ", "").replace("Η ", "").replace("Το ", "").replace("Ο ", "")
+
+        definition, example = ("definition.", "Example sentence.")
+        found = False
+        for k, v in VOCAB_DB.items():
+            if k.lower() == w.lower() or k.lower().startswith(norm_w.lower()):
+                definition, example = v
+                found = True
+                break
+
+        if not found:
+            definition = f"Target vocabulary word meaning in '{title}'."
+            example = f"This is an elegant example of using '{w}'."
+
+        escaped_def = definition.replace("'", "\\'")
+        escaped_ex = example.replace("'", "\\'")
+        vocab_cards_html += f"""            <div class="vocab-card"><div class="vocab-word">{w}</div><div class="vocab-def">{definition}</div><div class="vocab-example">{example}</div><button class="btn-add-dict" onclick="COSY.addToDict({{word:'{w}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">+ Dictionary</button></div>\n"""
+
+    # Build word bank helpers
+    word_bank_html = ""
+    for helper in helpers:
+        word_bank_html += f'        <span class="club-tag" style="background: white; border-color: var(--border);">{helper}</span>\n'
+
+    # Build discussion questions (Warm-up, Round 1 & 2)
+    warmup_questions_html = ""
+    warmup_questions_html += f"            <li>Have you ever listened to '{title}' before?</li>\n"
+    warmup_questions_html += f"            <li>What kind of emotions does this style of music bring to you?</li>\n"
+
+    # French overrides for warmup
+    if lang == "fr":
+        warmup_questions_html = f"            <li>Aviez-vous déjà écouté '{title}' avant cette session ?</li>\n            <li>Quel type d'émotions cette musique vous inspire-t-elle ?</li>\n"
+    elif lang == "ru":
+        warmup_questions_html = f"            <li>Слушали ли вы когда-нибудь '{title}' до этого дня?</li>\n            <li>Какие эмоции вызывает у вас эта музыкальная композиция?</li>\n"
+    elif lang == "it":
+        warmup_questions_html = f"            <li>Hai mai ascoltato '{title}' prima di questa sessione?</li>\n            <li>Che tipo di emozioni ti trasmette questa melodia?</li>\n"
+    elif lang == "es":
+        warmup_questions_html = f"            <li>¿Habías escuchado alguna vez '{title}' antes de hoy?</li>\n            <li>¿Qué tipo de sensaciones te transmite este ritmo?</li>\n"
+    elif lang == "el":
+        warmup_questions_html = f"            <li>Έχετε ακούσει ποτέ το '{title}' πριν από αυτή τη συνεδρία;</li>\n            <li>Τι είδους συναισθήματα σας προκαλεί αυτή η μελωδία;</li>\n"
+
+    r1_questions_html = ""
+    for w in vocab_words:
+        q_main = f"How does <strong>{w.lower()}</strong> play a symbolic role in the storytelling of '{title}'?"
+        q_pers = f"★ Do you personally feel that <strong>{w.lower()}</strong> is important?"
+
+        if lang == "fr":
+            q_main = f"Comment le concept de <strong>{w.lower()}</strong> se manifeste-t-il dans les paroles de '{title}' ?"
+            q_pers = f"★ Pensez-vous que <strong>{w.lower()}</strong> joue un rôle important dans votre quotidien ?"
+        elif lang == "ru":
+            q_main = f"Как понятие <strong>{w.lower()}</strong> отражается в сюжете и лирике '{title}'?"
+            q_pers = f"★ Насколько для вас важно понятие <strong>{w.lower()}</strong> в реальной жизни?"
+        elif lang == "it":
+            q_main = f"In che modo il concetto di <strong>{w.lower()}</strong> influisce sul testo di '{title}'?"
+            q_pers = f"★ Quanto ritieni importante <strong>{w.lower()}</strong> nella tua vita?"
+        elif lang == "es":
+            q_main = f"¿De qué manera influye el concepto de <strong>{w.lower()}</strong> en la letra de '{title}'?"
+            q_pers = f"★ ¿Qué tan importante es <strong>{w.lower()}</strong> en tu vida diaria?"
+        elif lang == "el":
+            q_main = f"Πώς εκφράζεται η έννοια <strong>{w.lower()}</strong> μέσα από τους στίχους του '{title}';"
+            q_pers = f"★ Πόσο σημαντικό είναι το <strong>{w.lower()}</strong> για εσάς;"
+
+        r1_questions_html += f'          <div class="round-item"><div class="round-item-main">{q_main}</div><div class="round-item-personal">{q_pers}</div></div>\n'
+
+    r2_statements_html = ""
+    for w in vocab_words:
+        stmt = f"In our modern, high-tech world, maintaining a true sense of <strong>{w.lower()}</strong> is becoming nearly impossible."
+        if lang == "fr":
+            stmt = f"Dans notre société moderne et connectée, préserver <strong>{w.lower()}</strong> est devenu un défi quotidien."
+        elif lang == "ru":
+            stmt = f"В современном цифровом мире сохранить истинное значение <strong>{w.lower()}</strong> становится всё труднее."
+        elif lang == "it":
+            stmt = f"Nella società tecnologica odierna, difendere <strong>{w.lower()}</strong> è diventato quasi impossibile."
+        elif lang == "es":
+            stmt = f"En la sociedad tecnológica actual, proteger <strong>{w.lower()}</strong> se ha vuelto sumamente complejo."
+        elif lang == "el":
+            stmt = f"Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>{w.lower()}</strong> είναι εξαιρετικά δύσκολη."
+
+        r2_statements_html += f'          <div class="round-item"><div class="round-item-main">{stmt}</div></div>\n'
+
+    # Level-appropriate mistakes from MISTAKES_DB
+    mistakes_html = ""
+    m_list = MISTAKES_DB[lang] if lang in MISTAKES_DB else MISTAKES_DB["en"]
+    for wrong, right, explanation in m_list:
+        mistakes_html += f"""          <div class="mistake-item">
+            <span class="mistake-wrong">{wrong}</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">{right}</span>
+            <span class="mistake-note-text">({explanation})</span>
+          </div>\n"""
+
+    return {
+        "vocab_cards_html": vocab_cards_html,
+        "word_bank_html": word_bank_html,
+        "warmup_questions_html": warmup_questions_html,
+        "r1_questions_html": r1_questions_html,
+        "r2_statements_html": r2_statements_html,
+        "mistakes_html": mistakes_html,
+        "lyrics_text": lyrics_text
+    }
+
+# STEP 1: Parse all 56 songs dynamically from their existing files
 songs_list = []
 for slug in sorted(LYRICS_DATA.keys()):
     path = f"events/sessions/{slug}.html"
@@ -902,7 +1080,7 @@ for slug in sorted(CHALLENGE_MAP.keys()):
         "lyrics": combined_lyrics
     })
 
-# Merge lists for generation (52 individual songs + 11 challenges = 63 pages)
+# Merge lists for generation (56 individual songs + 11 challenges = 67 pages)
 all_karaoke_data = songs_list + challenges_list
 
 for song in all_karaoke_data:
@@ -931,163 +1109,229 @@ for song in all_karaoke_data:
     # Localization keys
     loc = LOCALIZATIONS[lang] if lang in LOCALIZATIONS else LOCALIZATIONS["en"]
 
-    # Look up link
-    song_link = SONG_LINKS.get(slug, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+{artist.replace(' ', '+')}")
-    if slug in CHALLENGE_MAP:
-        first_sub = CHALLENGE_MAP[slug][0]
-        song_link = SONG_LINKS.get(first_sub, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+{artist.replace(' ', '+')}")
-    song_link_backup = song_link
-
-    # Build vocabulary cards html
-    vocab_cards_html = ""
-    for w in song["vocab"]:
-        norm_w = w.replace("L'", "").replace("La ", "").replace("Le ", "").replace("El ", "").replace("La ", "").replace("Il ", "").replace("La ", "").replace("Η ", "").replace("Το ", "").replace("Ο ", "")
-
-        definition, example = ("definition.", "Example sentence.")
-        found = False
-        for k, v in VOCAB_DB.items():
-            if k.lower() == w.lower() or k.lower().startswith(norm_w.lower()):
-                definition, example = v
-                found = True
-                break
-
-        if not found:
-            definition = f"Target vocabulary word meaning in '{title}'."
-            example = f"This is an elegant example of using '{w}'."
-
-        escaped_def = definition.replace("'", "\\'")
-        escaped_ex = example.replace("'", "\\'")
-        vocab_cards_html += f"""            <div class="vocab-card"><div class="vocab-word">{w}</div><div class="vocab-def">{definition}</div><div class="vocab-example">{example}</div><button class="btn-add-dict" onclick="COSY.addToDict({{word:'{w}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">+ Dictionary</button></div>\n"""
-
-    # Build word bank helpers
-    word_bank_html = ""
-    for helper in song["helpers"]:
-        word_bank_html += f'        <span class="club-tag" style="background: white; border-color: var(--border);">{helper}</span>\n'
-
-    # Build discussion questions (Round 1 & 2)
-    warmup_questions_html = ""
-    warmup_questions_html += f"            <li>Have you ever listened to '{title}' before?</li>\n"
-    warmup_questions_html += f"            <li>What kind of emotions does this style of music bring to you?</li>\n"
-
-    # French overrides for warmup
-    if lang == "fr":
-        warmup_questions_html = f"            <li>Aviez-vous déjà écouté '{title}' avant cette session ?</li>\n            <li>Quel type d'émotions cette musique vous inspire-t-elle ?</li>\n"
-    elif lang == "ru":
-        warmup_questions_html = f"            <li>Слушали ли вы когда-нибудь '{title}' до этого дня?</li>\n            <li>Какие эмоции вызывает у вас эта музыкальная композиция?</li>\n"
-    elif lang == "it":
-        warmup_questions_html = f"            <li>Hai mai ascoltato '{title}' prima di questa sessione?</li>\n            <li>Che tipo di emozioni ti trasmette questa melodia?</li>\n"
-    elif lang == "es":
-        warmup_questions_html = f"            <li>¿Habías escuchado alguna vez '{title}' antes de hoy?</li>\n            <li>¿Qué tipo de sensaciones te transmite este ritmo?</li>\n"
-    elif lang == "el":
-        warmup_questions_html = f"            <li>Έχετε ακούσει ποτέ το '{title}' πριν από αυτή τη συνεδρία;</li>\n            <li>Τι είδους συναισθήματα σας προκαλεί αυτή η μελωδία;</li>\n"
-
-    r1_questions_html = ""
-    for w in song["vocab"]:
-        q_main = f"How does <strong>{w.lower()}</strong> play a symbolic role in the storytelling of '{title}'?"
-        q_pers = f"★ Do you personally feel that <strong>{w.lower()}</strong> is important?"
-
-        if lang == "fr":
-            q_main = f"Comment le concept de <strong>{w.lower()}</strong> se manifeste-t-il dans les paroles de '{title}' ?"
-            q_pers = f"★ Pensez-vous que <strong>{w.lower()}</strong> joue un rôle important dans votre quotidien ?"
-        elif lang == "ru":
-            q_main = f"Как понятие <strong>{w.lower()}</strong> отражается в сюжете и лирике '{title}'?"
-            q_pers = f"★ Насколько для вас важно понятие <strong>{w.lower()}</strong> в реальной жизни?"
-        elif lang == "it":
-            q_main = f"In che modo il concetto di <strong>{w.lower()}</strong> influisce sul testo di '{title}'?"
-            q_pers = f"★ Quanto ritieni importante <strong>{w.lower()}</strong> nella tua vita?"
-        elif lang == "es":
-            q_main = f"¿De qué manera influye el concepto de <strong>{w.lower()}</strong> en la letra de '{title}'?"
-            q_pers = f"★ ¿Qué tan importante es <strong>{w.lower()}</strong> en tu vida diaria?"
-        elif lang == "el":
-            q_main = f"Πώς εκφράζεται η έννοια <strong>{w.lower()}</strong> μέσα από τους στίχους του '{title}';"
-            q_pers = f"★ Πόσο σημαντικό είναι το <strong>{w.lower()}</strong> για εσάς;"
-
-        r1_questions_html += f'          <div class="round-item"><div class="round-item-main">{q_main}</div><div class="round-item-personal">{q_pers}</div></div>\n'
-
-    r2_statements_html = ""
-    for w in song["vocab"]:
-        stmt = f"In our modern, high-tech world, maintaining a true sense of <strong>{w.lower()}</strong> is becoming nearly impossible."
-        if lang == "fr":
-            stmt = f"Dans notre société moderne et connectée, préserver <strong>{w.lower()}</strong> est devenu un défi quotidien."
-        elif lang == "ru":
-            stmt = f"В современном цифровом мире сохранить истинное значение <strong>{w.lower()}</strong> становится всё труднее."
-        elif lang == "it":
-            stmt = f"Nella società tecnologica odierna, difendere <strong>{w.lower()}</strong> è diventato quasi impossibile."
-        elif lang == "es":
-            stmt = f"En la sociedad tecnológica actual, proteger <strong>{w.lower()}</strong> se ha vuelto sumamente complejo."
-        elif lang == "el":
-            stmt = f"Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>{w.lower()}</strong> είναι εξαιρετικά δύσκολη."
-
-        r2_statements_html += f'          <div class="round-item"><div class="round-item-main">{stmt}</div></div>\n'
-
-    # Level-appropriate mistakes from MISTAKES_DB
-    mistakes_html = ""
-    m_list = MISTAKES_DB[lang] if lang in MISTAKES_DB else MISTAKES_DB["en"]
-    for wrong, right, explanation in m_list:
-        mistakes_html += f"""          <div class="mistake-item">
-            <span class="mistake-wrong">{wrong}</span>
-            <span class="mistake-arrow">→</span>
-            <span class="mistake-right">{right}</span>
-            <span class="mistake-note-text">({explanation})</span>
-          </div>\n"""
-
-    # Generate complete description
-    desc = f"Explore the beautiful track '{title}' by {artist} in {variety_lang}. This session focuses on the vocabulary of {focus} and key linguistic structures of the lyrics. Students will practice speaking and debating about these themes."
-    if lang == "fr":
-        desc = f"Explorez le magnifique titre '{title}' de {artist} en {variety_lang}. Cette session se concentre sur le vocabulaire de '{focus}' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes."
-    elif lang == "ru":
-        desc = f"Разберите прекрасную песню '{title}' исполнителя {artist} на {variety_lang}. Эта сессия посвящена изучению лексики по теме '{focus}' и ключевых грамматических структур. Студенты будут практиковать разговорную речь и обсуждать заложенный смысл."
-    elif lang == "it":
-        desc = f"Esplora lo splendido brano '{title}' di {artist} in {variety_lang}. Questa sessione si concentra sul vocabolario legato a '{focus}' e sulle strutture linguistiche chiave del testo. Gli studenti faranno pratica di conversazione e dibattito su questi temi."
-    elif lang == "es":
-        desc = f"Explora la hermosa canción '{title}' de {artist} en {variety_lang}. Esta sesión se centra en el vocabulario de '{focus}' y en las estructuras lingüísticas clave de la letra. Los estudiantes practicarán la conversación y el debate sobre estos temas."
-    elif lang == "el":
-        desc = f"Ανακαλύψτε το πανέφορφο τραγούδι '{title}' του καλλιτέχνη {artist} στα {variety_lang}. Αυτή η συνεδρία εστιάζει στο λεξιλόγιο γύρω από το θέμα '{focus}' και στις βασικές γλωσσικές δομές των στίχων. Οι μαθητές θα εξασκηθούν στην ομιλία και τη συζήτηση."
-
     # Render and write HTML
-    formatted_html = HTML_TEMPLATE.format(
-        lang=lang,
-        title=title,
-        artist=artist,
-        level_short=level_short,
-        level_long=level_long,
-        breadcrumbs_home=loc["breadcrumbs_home"],
-        breadcrumbs_events=loc["breadcrumbs_events"],
-        breadcrumbs_club=loc["breadcrumbs_club"],
-        back_link=loc["back_link"],
-        dur_label=loc["dur_label"],
-        dur_val=loc["dur_val"],
-        lang_label=loc["lang_label"],
-        variety_lang=variety_lang,
-        level_label=loc["level_label"],
-        focus_label=loc["focus_label"],
-        focus=focus,
-        song_link=song_link,
-        song_link_backup=song_link_backup,
-        description=desc,
-        vocab_title=loc["vocab_title"],
-        vocab_cards_html=vocab_cards_html,
-        listening_title=loc["listening_title"],
-        listening_instruction=loc["listening_instruction"],
-        word_bank_title=loc["word_bank_title"],
-        word_bank_html=word_bank_html,
-        lyrics_title=loc["lyrics_title"],
-        lyrics_text=song["lyrics"].replace("\n", "<br>"),
-        structure_title=loc["structure_title"],
-        warmup_title=loc["warmup_title"],
-        warmup_instruction=loc["warmup_instruction"],
-        warmup_questions_html=warmup_questions_html,
-        r1_title=loc["r1_title"],
-        r1_instruction=loc["r1_instruction"],
-        r1_questions_html=r1_questions_html,
-        speak_together_title=loc["speak_together_title"],
-        speak_together_note=loc["speak_together_note"],
-        r2_title=loc["r2_title"],
-        r2_instruction=loc["r2_instruction"],
-        r2_statements_html=r2_statements_html,
-        teacher_note_title=loc["teacher_note_title"],
-        mistakes_html=mistakes_html
-    )
+    if slug in CHALLENGE_MAP:
+        # Challenge Page
+        dur_val = "90 minutes"  # Specific rule: challenges always last 90 minutes
+
+        # Build tabs content
+        tabs_html = ""
+        for sub_slug in CHALLENGE_MAP[slug]:
+            sub_song = next((s for s in songs_list if s["slug"] == sub_slug), None)
+            if not sub_song:
+                continue
+
+            sub_title = sub_song["title"]
+            sub_artist = sub_song["artist"]
+
+            # Use SONG_LINKS dictionary to get resource video link per song
+            sub_song_link = SONG_LINKS.get(sub_slug, f"https://www.youtube.com/results?search_query={sub_title.replace(' ', '+')}+{sub_artist.replace(' ', '+')}")
+            sub_song_link_backup = sub_song_link
+
+            sub_elements = generate_song_elements(sub_song, loc, lang, sub_slug=sub_slug)
+
+            tabs_html += f"""    <vim-choice-option>
+      <vim-choice-option-title>{sub_title}</vim-choice-option-title>
+      <vim-choice-option-content>
+        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: 1fr;">
+          <div class="meta-item"><h4>Resources</h4><p>
+            <a href="{sub_song_link}" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+            <a href="{sub_song_link_backup}" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+          </p></div>
+        </div>
+
+        <!-- COLLAPSIBLE VOCABULARY SECTION -->
+        <section id="vocabulary-{sub_slug}" class="round-block open" style="margin-bottom: 2rem;">
+          <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-{sub_slug}')">
+            <span>{loc["vocab_title"]}</span><span class="round-toggle">▲</span>
+          </div>
+          <div class="round-body" style="display:block; padding-top: 1.5rem;">
+            <div class="vocab-grid-10">
+{sub_elements["vocab_cards_html"]}
+            </div>
+          </div>
+        </section>
+
+        <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+        <section id="listening-exercise-{sub_slug}" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+          <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-{sub_slug}')">
+            <span>{loc["listening_title"]}</span><span class="round-toggle">▲</span>
+          </div>
+          <div class="round-body" style="display:block; padding-top: 1.5rem;">
+            <div class="vim-instruction">
+              {loc["listening_instruction"]}
+            </div>
+
+            <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+              <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">{loc["word_bank_title"]}</h3>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+{sub_elements["word_bank_html"]}
+              </div>
+            </div>
+
+            <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+              <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">{loc["lyrics_title"]}</h3>
+              <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">{sub_elements["lyrics_text"]}</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- DISCUSSION STRUCTURE -->
+        <section id="structure-{sub_slug}">
+          <h2 class="section-title">{loc["structure_title"]}</h2>
+          <div class="rounds-container">
+            <div class="round-block warm-up open" id="s-warm-{sub_slug}">
+              <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm-{sub_slug}')">
+                <span>{loc["warmup_title"]}</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="vim-instruction">{loc["warmup_instruction"]}</div>
+                <ul class="round-questions">
+{sub_elements["warmup_questions_html"]}
+                </ul>
+              </div>
+            </div>
+            <div class="round-block round-1 open" id="s-r1-{sub_slug}">
+              <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1-{sub_slug}')">
+                <span>{loc["r1_title"]}</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="round-type-badge">Questions</div>
+                <div class="vim-instruction">{loc["r1_instruction"]}</div>
+{sub_elements["r1_questions_html"]}
+              </div>
+            </div>
+            <div class="round-block lst open" id="s-lst-{sub_slug}">
+              <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst-{sub_slug}')">
+                <span>{loc["speak_together_title"]}</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <p class="round-note">{loc["speak_together_note"]}</p>
+                <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
+                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
+                </div>
+              </div>
+            </div>
+            <div class="round-block round-2 open" id="s-r2-{sub_slug}">
+              <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2-{sub_slug}')">
+                <span>{loc["r2_title"]}</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="round-body" style="display:block;">
+                <div class="round-type-badge">Debate</div>
+                <div class="vim-instruction">{loc["r2_instruction"]}</div>
+{sub_elements["r2_statements_html"]}
+              </div>
+            </div>
+            <div class="mistake-block open" id="s-mistakes-{sub_slug}">
+              <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-{sub_slug}')">
+                <span>{loc["teacher_note_title"]}</span><span class="round-toggle">▲</span>
+              </div>
+              <div class="mistake-body" style="display:block;">
+{sub_elements["mistakes_html"]}
+              </div>
+            </div>
+          </div>
+        </section>
+      </vim-choice-option-content>
+    </vim-choice-option>\n"""
+
+        desc = f"Complete this special Karaoke Challenge consisting of {len(CHALLENGE_MAP[slug])} classic songs: {', '.join(songs_list[s]['title'] if isinstance(s, int) else next((song['title'] for song in songs_list if song['slug'] == s), s.replace('-', ' ').title()) for s in CHALLENGE_MAP[slug])}. Practice and compare their vocabulary, lyrics, and cultural significance!"
+        if lang == "fr":
+            desc = f"Relevez ce défi karaoké spécial composé de {len(CHALLENGE_MAP[slug])} chansons classiques : {', '.join(s['title'] if isinstance(s, dict) else next((song['title'] for song in songs_list if song['slug'] == s), s.replace('-', ' ').title()) for s in CHALLENGE_MAP[slug])}. Pratiquez et comparez leur vocabulaire, leurs paroles et leur signification culturelle !"
+        elif lang == "it":
+            desc = f"Completa questa speciale sfida di karaoke composta da {len(CHALLENGE_MAP[slug])} canzoni classiche: {', '.join(s['title'] if isinstance(s, dict) else next((song['title'] for song in songs_list if song['slug'] == s), s.replace('-', ' ').title()) for s in CHALLENGE_MAP[slug])}. Esercitati e confronta il loro vocabolario, i testi e il significato culturale!"
+        elif lang == "es":
+            desc = f"Completa este desafío especial de karaoke que consta de {len(CHALLENGE_MAP[slug])} canciones clásicas: {', '.join(s['title'] if isinstance(s, dict) else next((song['title'] for song in songs_list if song['slug'] == s), s.replace('-', ' ').title()) for s in CHALLENGE_MAP[slug])}. ¡Practica y compara su vocabulario, letras y significado cultural!"
+        elif lang == "ru":
+            desc = f"Пройдите этот специальный караоке-челлендж, состоящий из {len(CHALLENGE_MAP[slug])} классических песен: {', '.join(s['title'] if isinstance(s, dict) else next((song['title'] for song in songs_list if song['slug'] == s), s.replace('-', ' ').title()) for s in CHALLENGE_MAP[slug])}. Практикуйте и сравнивайте их словарный запас, тексты и культурную значимость!"
+        elif lang == "el":
+            desc = f"Ολοκληρώστε αυτήν την ειδική πρόκληση καραόκε που αποτελείται από {len(CHALLENGE_MAP[slug])} κλασικά τραγούδια: {', '.join(s['title'] if isinstance(s, dict) else next((song['title'] for song in songs_list if song['slug'] == s), s.replace('-', ' ').title()) for s in CHALLENGE_MAP[slug])}. Εξασκηθείτε και συγκρίνετε το λεξιλόγιό τους, τους στίχους και την πολιτιστική τους σημασία!"
+
+        formatted_html = CHALLENGE_HTML_TEMPLATE.format(
+            lang=lang,
+            title=title,
+            artist=artist,
+            level_short=level_short,
+            level_long=level_long,
+            breadcrumbs_home=loc["breadcrumbs_home"],
+            breadcrumbs_events=loc["breadcrumbs_events"],
+            breadcrumbs_club=loc["breadcrumbs_club"],
+            back_link=loc["back_link"],
+            dur_label=loc["dur_label"],
+            dur_val=dur_val,
+            lang_label=loc["lang_label"],
+            variety_lang=variety_lang,
+            level_label=loc["level_label"],
+            focus_label=loc["focus_label"],
+            focus=focus,
+            description=desc,
+            tabs_html=tabs_html
+        )
+    else:
+        # Individual Song Page
+        dur_val = "60 minutes"
+        song_link = SONG_LINKS.get(slug, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+{artist.replace(' ', '+')}")
+        song_link_backup = song_link
+
+        elements = generate_song_elements(song, loc, lang)
+
+        # Generate complete description
+        desc = f"Explore the beautiful track '{title}' by {artist} in {variety_lang}. This session focuses on the vocabulary of {focus} and key linguistic structures of the lyrics. Students will practice speaking and debating about these themes."
+        if lang == "fr":
+            desc = f"Explorez le magnifique titre '{title}' de {artist} en {variety_lang}. Cette session se concentre sur le vocabulaire de '{focus}' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes."
+        elif lang == "ru":
+            desc = f"Разберите прекрасную песню '{title}' исполнителя {artist} на {variety_lang}. Эта сессия посвящена изучению лексики по теме '{focus}' и ключевых грамматических структур. Студенты будут практиковать разговорную речь и обсуждать заложенный смысл."
+        elif lang == "it":
+            desc = f"Esplora lo splendido brano '{title}' di {artist} in {variety_lang}. Questa sessione si concentra sul vocabolario legato a '{focus}' e sulle strutture linguistiche chiave del testo. Gli studenti faranno pratica di conversazione e dibattito su questi temi."
+        elif lang == "es":
+            desc = f"Explora la hermosa canción '{title}' de {artist} en {variety_lang}. Esta sesión se centra en el vocabulario de '{focus}' y en las estructuras lingüísticas clave de la letra. Los estudiantes practicarán la conversación y el debate sobre estos temas."
+        elif lang == "el":
+            desc = f"Ανακαλύψτε το πανέφορφο τραγούδι '{title}' του καλλιτέχνη {artist} στα {variety_lang}. Αυτή η συνεδρία εστιάζει στο λεξιλόγιο γύρω από το θέμα '{focus}' και στις βασικές γλωσσικές δομές των στίχων. Οι μαθητές θα εξασκηθούν στην ομιλία και τη συζήτηση."
+
+        formatted_html = HTML_TEMPLATE.format(
+            lang=lang,
+            title=title,
+            artist=artist,
+            level_short=level_short,
+            level_long=level_long,
+            breadcrumbs_home=loc["breadcrumbs_home"],
+            breadcrumbs_events=loc["breadcrumbs_events"],
+            breadcrumbs_club=loc["breadcrumbs_club"],
+            back_link=loc["back_link"],
+            dur_label=loc["dur_label"],
+            dur_val=dur_val,
+            lang_label=loc["lang_label"],
+            variety_lang=variety_lang,
+            level_label=loc["level_label"],
+            focus_label=loc["focus_label"],
+            focus=focus,
+            song_link=song_link,
+            song_link_backup=song_link_backup,
+            description=desc,
+            vocab_title=loc["vocab_title"],
+            vocab_cards_html=elements["vocab_cards_html"],
+            listening_title=loc["listening_title"],
+            listening_instruction=loc["listening_instruction"],
+            word_bank_title=loc["word_bank_title"],
+            word_bank_html=elements["word_bank_html"],
+            lyrics_title=loc["lyrics_title"],
+            lyrics_text=elements["lyrics_text"],
+            structure_title=loc["structure_title"],
+            warmup_title=loc["warmup_title"],
+            warmup_instruction=loc["warmup_instruction"],
+            warmup_questions_html=elements["warmup_questions_html"],
+            r1_title=loc["r1_title"],
+            r1_instruction=loc["r1_instruction"],
+            r1_questions_html=elements["r1_questions_html"],
+            speak_together_title=loc["speak_together_title"],
+            speak_together_note=loc["speak_together_note"],
+            r2_title=loc["r2_title"],
+            r2_instruction=loc["r2_instruction"],
+            r2_statements_html=elements["r2_statements_html"],
+            teacher_note_title=loc["teacher_note_title"],
+            mistakes_html=elements["mistakes_html"]
+        )
 
     filepath = os.path.join(OUTPUT_DIR, f"{slug}.html")
     with open(filepath, "w", encoding="utf-8") as fh:
