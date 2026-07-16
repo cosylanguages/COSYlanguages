@@ -59,7 +59,27 @@ SONG_LINKS = {
     "immobile": "https://www.youtube.com/watch?v=ADEc3L31tj8",
     "nos-ames-sont": "https://www.youtube.com/watch?v=JkAOWAvWtKI",
     "laziza": "https://www.youtube.com/watch?v=O4ACXQxCgc8",
-    "left-outside-alone": "https://www.youtube.com/watch?v=eV9cQqLg5n4"
+    "left-outside-alone": "https://www.youtube.com/watch?v=eV9cQqLg5n4",
+    "nuevo-verano": "https://www.youtube.com/watch?v=UQ9QvM2zt6Y",
+    "balance-ton-quoi": "https://www.youtube.com/watch?v=Hi7Rx3En7-k",
+    "oui-ou-non": "https://www.youtube.com/watch?v=XqAiGeEzctQ",
+    "te-alejas-mas-de-mi": "https://www.youtube.com/watch?v=sVdxA0rFN5c",
+    "amor-libre": "https://www.youtube.com/watch?v=1Hc9ekRxs0g",
+    "o-gatos": "https://www.youtube.com/watch?v=TvgeXAVhVdA",
+    "kapoies-nychtes": "https://www.youtube.com/watch?v=ZoBLe933nsM",
+    "lamore-e-un-attimo": "https://www.youtube.com/watch?v=Z-pMF6xaRtY",
+    "chi-sara-con-te": "https://www.youtube.com/watch?v=rq8lpdP2JYg",
+    "u-mamy-est-sekret": "https://www.youtube.com/watch?v=krt2AXyXHHE",
+    "mixed-up-world": "https://www.youtube.com/watch?v=jSTSgmZDspU",
+    "unatta-estate": "https://www.youtube.com/watch?v=D6TvAskGBx4",
+    "due-grosse-lacrime-bianche": "https://www.youtube.com/watch?v=uL1QLj1aRM8",
+    "luomo-che-amava-le-donne": "https://www.youtube.com/watch?v=HR4bB_Dw4Qs",
+    "toi-mon-amour": "https://www.youtube.com/watch?v=2m_hEmcHqOI",
+    "salut": "https://www.youtube.com/watch?v=CSh3MCOiiCs",
+    "angeleyes": "https://www.youtube.com/watch?v=GHddJnNo_BQ",
+    "me-and-i": "https://www.youtube.com/watch?v=CaoBiFYu-FI",
+    "je-taime-comme-je-taime": "https://www.youtube.com/watch?v=zu9HiCSVyAg",
+    "toutes-les-machines-ont-le-coeur": "https://www.youtube.com/watch?v=UVz3xR1X9RU"
 }
 
 # Translation / Localization resources for all 6 supported languages
