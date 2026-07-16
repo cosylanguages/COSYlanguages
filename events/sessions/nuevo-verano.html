@@ -38,46 +38,54 @@
     <p>Explora la hermosa canción 'nuevo verano' de Amaia en Español. Esta sesión se centra en el vocabulario de 'Verano & Nostalgia' y en las estructuras lingüísticas clave de la letra. Los estudiantes practicarán la conversación y el debate sobre estos temas.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulario de la sesión</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">El verano</div><div class="vocab-def">la estación más calurosa del año.</div><div class="vocab-example">En verano pasamos casi todo el día en la playa.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El verano', definition:'la estación más calurosa del año.', example:'En verano pasamos casi todo el día en la playa.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La nostalgia</div><div class="vocab-def">a sentimental longing or wistful affection.</div><div class="vocab-example">Listening to old records filled him with warm nostalgia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La nostalgia', definition:'a sentimental longing or wistful affection.', example:'Listening to old records filled him with warm nostalgia.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El sol</div><div class="vocab-def">the state or situation of being alone.</div><div class="vocab-example">He enjoyed the quiet solitude of his study room.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El sol', definition:'the state or situation of being alone.', example:'He enjoyed the quiet solitude of his study room.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La playa</div><div class="vocab-def">ribera arenosa del mar o de un río.</div><div class="vocab-example">La playa estaba desierta y pacífica a primera hora.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La playa', definition:'ribera arenosa del mar o de un río.', example:'La playa estaba desierta y pacífica a primera hora.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El amigo</div><div class="vocab-def">persona con la que se tiene amistad.</div><div class="vocab-example">Un amigo de verdad te apoya en los momentos más difíciles.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El amigo', definition:'persona con la que se tiene amistad.', example:'Un amigo de verdad te apoya en los momentos más difíciles.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La juventud</div><div class="vocab-def">período de la vida entre la infancia y la edad madura.</div><div class="vocab-example">La juventud es una etapa de aprendizaje y descubrimientos.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La juventud', definition:'período de la vida entre la infancia y la edad madura.', example:'La juventud es una etapa de aprendizaje y descubrimientos.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El cambio</div><div class="vocab-def">acción de cambiar o modificar algo.</div><div class="vocab-example">Este cambio de rutina le ha sentado muy bien a su salud.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El cambio', definition:'acción de cambiar o modificar algo.', example:'Este cambio de rutina le ha sentado muy bien a su salud.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Sonreír</div><div class="vocab-def">hacer el gesto de la sonrisa en señal de alegría.</div><div class="vocab-example">Es importante sonreír a pesar de las dificultades.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sonreír', definition:'hacer el gesto de la sonrisa en señal de alegría.', example:'Es importante sonreír a pesar de las dificultades.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El recuerdo</div><div class="vocab-def">imagen del pasado que se conserva en la memoria.</div><div class="vocab-example">Tengo un hermoso recuerdo de nuestras vacaciones juntos.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El recuerdo', definition:'imagen del pasado que se conserva en la memoria.', example:'Tengo un hermoso recuerdo de nuestras vacaciones juntos.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El futuro</div><div class="vocab-def">tiempo que está por venir.</div><div class="vocab-example">El futuro del planeta depende de nuestras acciones de hoy.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El futuro', definition:'tiempo que está por venir.', example:'El futuro del planeta depende de nuestras acciones de hoy.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulario de la sesión</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">El verano</div><div class="vocab-def">la estación más calurosa del año.</div><div class="vocab-example">En verano pasamos casi todo el día en la playa.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El verano', definition:'la estación más calurosa del año.', example:'En verano pasamos casi todo el día en la playa.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La nostalgia</div><div class="vocab-def">a sentimental longing or wistful affection.</div><div class="vocab-example">Listening to old records filled him with warm nostalgia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La nostalgia', definition:'a sentimental longing or wistful affection.', example:'Listening to old records filled him with warm nostalgia.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El sol</div><div class="vocab-def">the state or situation of being alone.</div><div class="vocab-example">He enjoyed the quiet solitude of his study room.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El sol', definition:'the state or situation of being alone.', example:'He enjoyed the quiet solitude of his study room.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La playa</div><div class="vocab-def">ribera arenosa del mar o de un río.</div><div class="vocab-example">La playa estaba desierta y pacífica a primera hora.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La playa', definition:'ribera arenosa del mar o de un río.', example:'La playa estaba desierta y pacífica a primera hora.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El amigo</div><div class="vocab-def">persona con la que se tiene amistad.</div><div class="vocab-example">Un amigo de verdad te apoya en los momentos más difíciles.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El amigo', definition:'persona con la que se tiene amistad.', example:'Un amigo de verdad te apoya en los momentos más difíciles.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La juventud</div><div class="vocab-def">período de la vida entre la infancia y la edad madura.</div><div class="vocab-example">La juventud es una etapa de aprendizaje y descubrimientos.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La juventud', definition:'período de la vida entre la infancia y la edad madura.', example:'La juventud es una etapa de aprendizaje y descubrimientos.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El cambio</div><div class="vocab-def">acción de cambiar o modificar algo.</div><div class="vocab-example">Este cambio de rutina le ha sentado muy bien a su salud.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El cambio', definition:'acción de cambiar o modificar algo.', example:'Este cambio de rutina le ha sentado muy bien a su salud.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Sonreír</div><div class="vocab-def">hacer el gesto de la sonrisa en señal de alegría.</div><div class="vocab-example">Es importante sonreír a pesar de las dificultades.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sonreír', definition:'hacer el gesto de la sonrisa en señal de alegría.', example:'Es importante sonreír a pesar de las dificultades.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El recuerdo</div><div class="vocab-def">imagen del pasado que se conserva en la memoria.</div><div class="vocab-example">Tengo un hermoso recuerdo de nuestras vacaciones juntos.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El recuerdo', definition:'imagen del pasado que se conserva en la memoria.', example:'Tengo un hermoso recuerdo de nuestras vacaciones juntos.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El futuro</div><div class="vocab-def">tiempo que está por venir.</div><div class="vocab-example">El futuro del planeta depende de nuestras acciones de hoy.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El futuro', definition:'tiempo que está por venir.', example:'El futuro del planeta depende de nuestras acciones de hoy.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Ejercicio de escucha y rellenar huecos</h2>
-    <div class="vim-instruction">
-      <strong>Escucha activa:</strong> Escucha la canción usando el enlace de arriba y completa los espacios en blanco.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Ejercicio de escucha y rellenar huecos</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Escucha activa:</strong> Escucha la canción usando el enlace de arriba y completa los espacios en blanco.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banco de palabras:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banco de palabras:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">verano</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">nostalgia</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">sol</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">playa</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">amigo</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Letra completa</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Un nuevo verano comienza hoy<br>Y recuerdo bien de dónde soy<br>La cálida brisa del [__________] costero<br>Me acompaña en este sendero<br><br>Siento una dulce [__________] al cantar<br>Frente al inmenso mar<br>Bajo el brillo del dorado [__________]<br>Caminando por la blanca [__________]
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Letra completa</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Un nuevo verano comienza hoy<br>Y recuerdo bien de dónde soy<br>La cálida brisa del [__________] costero<br>Me acompaña en este sendero<br><br>Siento una dulce [__________] al cantar<br>Frente al inmenso mar<br>Bajo el brillo del dorado [__________]<br>Caminando por la blanca [__________]</p>
+      </div>
     </div>
   </section>
 
@@ -159,7 +167,7 @@ Un nuevo verano comienza hoy<br>Y recuerdo bien de dónde soy<br>La cálida bris
             <span class="mistake-wrong">Estoy de acuerdo <span class="mistake-highlight">de</span> tu opinión</span>
             <span class="mistake-arrow">→</span>
             <span class="mistake-right">Estoy de acuerdo con tu opinión</span>
-            <span class="mistake-note-text">(Usa la preposizione 'con' para expresar acuerdo con algo.)</span>
+            <span class="mistake-note-text">(Usa la preposición 'con' para expresar acuerdo con algo.)</span>
           </div>
           <div class="mistake-item">
             <span class="mistake-wrong">He caminado <span class="mistake-highlight">por</span> tres horas</span>

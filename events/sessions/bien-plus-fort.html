@@ -38,46 +38,54 @@
     <p>Explorez le magnifique titre 'bien plus fort' de Tereza Kesovija en Français. Cette session se concentre sur le vocabulaire de 'Force & Passion' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">La force</div><div class="vocab-def">puissance physique ou morale.</div><div class="vocab-example">Elle a trouvé la force de surmonter cette rupture difficile.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La force', definition:'puissance physique ou morale.', example:'Elle a trouvé la force de surmonter cette rupture difficile.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La passion</div><div class="vocab-def">amour ou intérêt très vif pour quelque chose.</div><div class="vocab-example">Le chant choral est sa véritable passion depuis toujours.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La passion', definition:'amour ou intérêt très vif pour quelque chose.', example:'Le chant choral est sa véritable passion depuis toujours.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'intensité</div><div class="vocab-def">degré élevé de force, de puissance.</div><div class="vocab-example">L'intensité du spectacle a impressionné le public.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'intensité', definition:'degré élevé de force, de puissance.', example:'L\'intensité du spectacle a impressionné le public.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le triomphe</div><div class="vocab-def">grande victoire, succès retentissant.</div><div class="vocab-example">Le concert s'est terminé par un triomphe absolu.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le triomphe', definition:'grande victoire, succès retentissant.', example:'Le concert s\'est terminé par un triomphe absolu.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Surmonter</div><div class="vocab-def">vaincre un obstacle, surmonter ses craintes.</div><div class="vocab-example">Elle a réussi à surmonter sa timidité en public.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Surmonter', definition:'vaincre un obstacle, surmonter ses craintes.', example:'Elle a réussi à surmonter sa timidité en public.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le courage</div><div class="vocab-def">force morale pour affronter le danger ou la peine.</div><div class="vocab-example">Il a eu le courage de surmonter cette épreuve.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le courage', definition:'force morale pour affronter le danger ou la peine.', example:'Il a eu le courage de surmonter cette épreuve.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">puissance qui semble régler le cours de la vie.</div><div class="vocab-example">Elle croit fermement que son destin est entre ses mains.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance qui semble régler le cours de la vie.', example:'Elle croit fermement que son destin est entre ses mains.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le cœur</div><div class="vocab-def">organe musculaire creux, symbole de la vie et des sentiments.</div><div class="vocab-example">Elle écoute toujours son cœur pour prendre des décisions.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le cœur', definition:'organe musculaire creux, symbole de la vie et des sentiments.', example:'Elle écoute toujours son cœur pour prendre des décisions.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'amour</div><div class="vocab-def">sentiment d'affection, de tendresse et d'attirance.</div><div class="vocab-example">L'amour familial est un pilier indispensable de la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amour', definition:'sentiment d\'affection, de tendresse et d\'attirance.', example:'L\'amour familial est un pilier indispensable de la vie.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La fidélité</div><div class="vocab-def">qualité de quelqu'un qui est fidèle, constant dans ses sentiments.</div><div class="vocab-example">La fidélité de son chien est un exemple pour tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fidélité', definition:'qualité de quelqu\'un qui est fidèle, constant dans ses sentiments.', example:'La fidélité de son chien est un exemple pour tous.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">La force</div><div class="vocab-def">puissance physique ou morale.</div><div class="vocab-example">Elle a trouvé la force de surmonter cette rupture difficile.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La force', definition:'puissance physique ou morale.', example:'Elle a trouvé la force de surmonter cette rupture difficile.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La passion</div><div class="vocab-def">amour ou intérêt très vif pour quelque chose.</div><div class="vocab-example">Le chant choral est sa véritable passion depuis toujours.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La passion', definition:'amour ou intérêt très vif pour quelque chose.', example:'Le chant choral est sa véritable passion depuis toujours.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'intensité</div><div class="vocab-def">degré élevé de force, de puissance.</div><div class="vocab-example">L'intensité du spectacle a impressionné le public.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'intensité', definition:'degré élevé de force, de puissance.', example:'L\'intensité du spectacle a impressionné le public.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le triomphe</div><div class="vocab-def">grande victoire, succès retentissant.</div><div class="vocab-example">Le concert s'est terminé par un triomphe absolu.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le triomphe', definition:'grande victoire, succès retentissant.', example:'Le concert s\'est terminé par un triomphe absolu.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Surmonter</div><div class="vocab-def">vaincre un obstacle, surmonter ses craintes.</div><div class="vocab-example">Elle a réussi à surmonter sa timidité en public.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Surmonter', definition:'vaincre un obstacle, surmonter ses craintes.', example:'Elle a réussi à surmonter sa timidité en public.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le courage</div><div class="vocab-def">force morale pour affronter le danger ou la peine.</div><div class="vocab-example">Il a eu le courage de surmonter cette épreuve.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le courage', definition:'force morale pour affronter le danger ou la peine.', example:'Il a eu le courage de surmonter cette épreuve.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">puissance qui semble régler le cours de la vie.</div><div class="vocab-example">Elle croit fermement que son destin est entre ses mains.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance qui semble régler le cours de la vie.', example:'Elle croit fermement que son destin est entre ses mains.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le cœur</div><div class="vocab-def">organe musculaire creux, symbole de la vie et des sentiments.</div><div class="vocab-example">Elle écoute toujours son cœur pour prendre des décisions.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le cœur', definition:'organe musculaire creux, symbole de la vie et des sentiments.', example:'Elle écoute toujours son cœur pour prendre des décisions.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'amour</div><div class="vocab-def">sentiment d'affection, de tendresse et d'attirance.</div><div class="vocab-example">L'amour familial est un pilier indispensable de la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amour', definition:'sentiment d\'affection, de tendresse et d\'attirance.', example:'L\'amour familial est un pilier indispensable de la vie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La fidélité</div><div class="vocab-def">qualité de quelqu'un qui est fidèle, constant dans ses sentiments.</div><div class="vocab-example">La fidélité de son chien est un exemple pour tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fidélité', definition:'qualité de quelqu\'un qui est fidèle, constant dans ses sentiments.', example:'La fidélité de son chien est un exemple pour tous.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">force</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">passion</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">courage</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">cœur</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">amour</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Mon amour est bien plus fort<br>Que les tempêtes et la mort<br>Une immense [__________] de caractère<br>Animée par une grande [__________] entière<br><br>Il nous faut un immense [__________]<br>Pour faire battre notre [__________]<br>Célébrant ce bel [__________] éternel<br>Dans un monde de plus en plus réel
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Mon amour est bien plus fort<br>Que les tempêtes et la mort<br>Une immense [__________] de caractère<br>Animée par une grande [__________] entière<br><br>Il nous faut un immense [__________]<br>Pour faire battre notre [__________]<br>Célébrant ce bel [__________] éternel<br>Dans un monde de plus en plus réel</p>
+      </div>
     </div>
   </section>
 

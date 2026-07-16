@@ -38,46 +38,54 @@
     <p>Explorez le magnifique titre 'immobile' de Louane en Français. Cette session se concentre sur le vocabulaire de 'Attente & Solitude' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">L'immobilité</div><div class="vocab-def">état de ce qui est immobile, sans mouvement.</div><div class="vocab-example">L'immobilité de la statue a surpris les passants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'immobilité', definition:'état de ce qui est immobile, sans mouvement.', example:'L\'immobilité de la statue a surpris les passants.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'attente</div><div class="vocab-def">action d'attendre l'arrivée de quelqu'un ou d'un fait.</div><div class="vocab-example">L'attente des résultats d'examen a été très stressante.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attente', definition:'action d\'attendre l\'arrivée de quelqu\'un ou d\'un fait.', example:'L\'attente des résultats d\'examen a été très stressante.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le silence</div><div class="vocab-def">absence de bruit, état de celui qui ne parle pas.</div><div class="vocab-example">Un grand silence s'est installé dans la bibliothèque.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le silence', definition:'absence de bruit, état de celui qui ne parle pas.', example:'Un grand silence s\'est installé dans la bibliothèque.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La peur</div><div class="vocab-def">sentiment d'angoisse face à un danger réel ou imaginaire.</div><div class="vocab-example">Elle a surmonté sa peur du vide en faisant de l'escalade.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La peur', definition:'sentiment d\'angoisse face à un danger réel ou imaginaire.', example:'Elle a surmonté sa peur du vide en faisant de l\'escalade.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La solitude</div><div class="vocab-def">état de celui qui vit seul ou isolé.</div><div class="vocab-example">Il apprécie la solitude de la campagne pour écrire.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La solitude', definition:'état de celui qui vit seul ou isolé.', example:'Il apprécie la solitude de la campagne pour écrire.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Figer</div><div class="vocab-def">rendre immobile ou bloquer une situation.</div><div class="vocab-example">Le grand froid a fini par figer l'eau du lac.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Figer', definition:'rendre immobile ou bloquer une situation.', example:'Le grand froid a fini par figer l\'eau du lac.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le regard</div><div class="vocab-def">action de regarder, expression des yeux.</div><div class="vocab-example">Son regard bienveillant m'a immédiatement rassuré.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le regard', definition:'action de regarder, expression des yeux.', example:'Son regard bienveillant m\'a immédiatement rassuré.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le temps</div><div class="vocab-def">durée mesurable, météo.</div><div class="vocab-example">Le temps passe si vite quand on s'amuse ensemble.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le temps', definition:'durée mesurable, météo.', example:'Le temps passe si vite quand on s\'amuse ensemble.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La douceur</div><div class="vocab-def">qualité de ce qui est doux, agréable et paisible.</div><div class="vocab-example">La douceur du climat méditerranéen attire les touristes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La douceur', definition:'qualité de ce qui est doux, agréable et paisible.', example:'La douceur du climat méditerranéen attire les touristes.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le départ</div><div class="vocab-def">Target vocabulary word meaning in 'immobile'.</div><div class="vocab-example">This is an elegant example of using 'Le départ'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le départ', definition:'Target vocabulary word meaning in \'immobile\'.', example:'This is an elegant example of using \'Le départ\'.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">L'immobilité</div><div class="vocab-def">état de ce qui est immobile, sans mouvement.</div><div class="vocab-example">L'immobilité de la statue a surpris les passants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'immobilité', definition:'état de ce qui est immobile, sans mouvement.', example:'L\'immobilité de la statue a surpris les passants.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'attente</div><div class="vocab-def">action d'attendre l'arrivée de quelqu'un ou d'un fait.</div><div class="vocab-example">L'attente des résultats d'examen a été très stressante.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attente', definition:'action d\'attendre l\'arrivée de quelqu\'un ou d\'un fait.', example:'L\'attente des résultats d\'examen a été très stressante.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le silence</div><div class="vocab-def">absence de bruit, état de celui qui ne parle pas.</div><div class="vocab-example">Un grand silence s'est installé dans la bibliothèque.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le silence', definition:'absence de bruit, état de celui qui ne parle pas.', example:'Un grand silence s\'est installé dans la bibliothèque.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La peur</div><div class="vocab-def">sentiment d'angoisse face à un danger réel ou imaginaire.</div><div class="vocab-example">Elle a surmonté sa peur du vide en faisant de l'escalade.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La peur', definition:'sentiment d\'angoisse face à un danger réel ou imaginaire.', example:'Elle a surmonté sa peur du vide en faisant de l\'escalade.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La solitude</div><div class="vocab-def">état de celui qui vit seul ou isolé.</div><div class="vocab-example">Il apprécie la solitude de la campagne pour écrire.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La solitude', definition:'état de celui qui vit seul ou isolé.', example:'Il apprécie la solitude de la campagne pour écrire.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Figer</div><div class="vocab-def">rendre immobile ou bloquer une situation.</div><div class="vocab-example">Le grand froid a fini par figer l'eau du lac.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Figer', definition:'rendre immobile ou bloquer une situation.', example:'Le grand froid a fini par figer l\'eau du lac.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le regard</div><div class="vocab-def">action de regarder, expression des yeux.</div><div class="vocab-example">Son regard bienveillant m'a immédiatement rassuré.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le regard', definition:'action de regarder, expression des yeux.', example:'Son regard bienveillant m\'a immédiatement rassuré.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le temps</div><div class="vocab-def">durée mesurable, météo.</div><div class="vocab-example">Le temps passe si vite quand on s'amuse ensemble.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le temps', definition:'durée mesurable, météo.', example:'Le temps passe si vite quand on s\'amuse ensemble.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La douceur</div><div class="vocab-def">qualité de ce qui est doux, agréable et paisible.</div><div class="vocab-example">La douceur du climat méditerranéen attire les touristes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La douceur', definition:'qualité de ce qui est doux, agréable et paisible.', example:'La douceur du climat méditerranéen attire les touristes.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le départ</div><div class="vocab-def">Target vocabulary word meaning in 'immobile'.</div><div class="vocab-example">This is an elegant example of using 'Le départ'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le départ', definition:'Target vocabulary word meaning in \'immobile\'.', example:'This is an elegant example of using \'Le départ\'.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">immobilité</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">attente</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">silence</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">solitude</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">regard</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Je reste immobile ici<br>Pendant que le monde défile sans bruit<br>Dans cette étrange [__________] du corps<br>J'affronte une longue [__________] encore<br><br>Le lourd [__________] de la pièce<br>Amplifie ma grande [__________]<br>Sous ton [__________] lointain et froid<br>Je cherche un sens à tout cela
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Je reste immobile ici<br>Pendant que le monde défile sans bruit<br>Dans cette étrange [__________] du corps<br>J'affronte une longue [__________] encore<br><br>Le lourd [__________] de la pièce<br>Amplifie ma grande [__________]<br>Sous ton [__________] lointain et froid<br>Je cherche un sens à tout cela</p>
+      </div>
     </div>
   </section>
 

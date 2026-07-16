@@ -38,46 +38,54 @@
     <p>Explore the beautiful track 'angeleyes' by ABBA in British English. This session focuses on the vocabulary of Deception & Regret and key linguistic structures of the lyrics. Students will practice speaking and debating about these themes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Deceptive</div><div class="vocab-def">giving an appearance or impression different from the true one.</div><div class="vocab-example">The calm sea can be highly deceptive during a storm.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Deceptive', definition:'giving an appearance or impression different from the true one.', example:'The calm sea can be highly deceptive during a storm.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Gaze</div><div class="vocab-def">look steadily and intently.</div><div class="vocab-example">He would gaze at the stars for hours in the backyard.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Gaze', definition:'look steadily and intently.', example:'He would gaze at the stars for hours in the backyard.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Disguise</div><div class="vocab-def">give a new appearance to hide identity.</div><div class="vocab-example">She wore a wig as a clever disguise.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Disguise', definition:'give a new appearance to hide identity.', example:'She wore a wig as a clever disguise.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Regret</div><div class="vocab-def">feel sad, repentant, or disappointed over.</div><div class="vocab-example">He expressed deep regret for his past mistakes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Regret', definition:'feel sad, repentant, or disappointed over.', example:'He expressed deep regret for his past mistakes.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Warning</div><div class="vocab-def">a statement or event indicating possible danger.</div><div class="vocab-example">The loud siren served as a warning to evacuate.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Warning', definition:'a statement or event indicating possible danger.', example:'The loud siren served as a warning to evacuate.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Lure</div><div class="vocab-def">tempt a person or animal to do something.</div><div class="vocab-example">The sweet smell of pie would lure us into the kitchen.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Lure', definition:'tempt a person or animal to do something.', example:'The sweet smell of pie would lure us into the kitchen.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Painful</div><div class="vocab-def">causing physical or mental pain.</div><div class="vocab-example">It was a painful memory that she preferred to forget.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Painful', definition:'causing physical or mental pain.', example:'It was a painful memory that she preferred to forget.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Obsession</div><div class="vocab-def">an unhealthy preoccupation with someone or something.</div><div class="vocab-example">His obsession with cleanliness became a bit extreme.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Obsession', definition:'an unhealthy preoccupation with someone or something.', example:'His obsession with cleanliness became a bit extreme.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Illusion</div><div class="vocab-def">a thing that is likely to be wrongly perceived.</div><div class="vocab-example">The oasis in the desert was just an optical illusion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Illusion', definition:'a thing that is likely to be wrongly perceived.', example:'The oasis in the desert was just an optical illusion.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Trust</div><div class="vocab-def">firm belief in the reliability or truth.</div><div class="vocab-example">Trust is the foundation of any strong relationship.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Trust', definition:'firm belief in the reliability or truth.', example:'Trust is the foundation of any strong relationship.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Session Vocabulary</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Deceptive</div><div class="vocab-def">giving an appearance or impression different from the true one.</div><div class="vocab-example">The calm sea can be highly deceptive during a storm.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Deceptive', definition:'giving an appearance or impression different from the true one.', example:'The calm sea can be highly deceptive during a storm.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Gaze</div><div class="vocab-def">look steadily and intently.</div><div class="vocab-example">He would gaze at the stars for hours in the backyard.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Gaze', definition:'look steadily and intently.', example:'He would gaze at the stars for hours in the backyard.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Disguise</div><div class="vocab-def">give a new appearance to hide identity.</div><div class="vocab-example">She wore a wig as a clever disguise.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Disguise', definition:'give a new appearance to hide identity.', example:'She wore a wig as a clever disguise.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Regret</div><div class="vocab-def">feel sad, repentant, or disappointed over.</div><div class="vocab-example">He expressed deep regret for his past mistakes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Regret', definition:'feel sad, repentant, or disappointed over.', example:'He expressed deep regret for his past mistakes.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Warning</div><div class="vocab-def">a statement or event indicating possible danger.</div><div class="vocab-example">The loud siren served as a warning to evacuate.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Warning', definition:'a statement or event indicating possible danger.', example:'The loud siren served as a warning to evacuate.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Lure</div><div class="vocab-def">tempt a person or animal to do something.</div><div class="vocab-example">The sweet smell of pie would lure us into the kitchen.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Lure', definition:'tempt a person or animal to do something.', example:'The sweet smell of pie would lure us into the kitchen.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Painful</div><div class="vocab-def">causing physical or mental pain.</div><div class="vocab-example">It was a painful memory that she preferred to forget.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Painful', definition:'causing physical or mental pain.', example:'It was a painful memory that she preferred to forget.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Obsession</div><div class="vocab-def">an unhealthy preoccupation with someone or something.</div><div class="vocab-example">His obsession with cleanliness became a bit extreme.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Obsession', definition:'an unhealthy preoccupation with someone or something.', example:'His obsession with cleanliness became a bit extreme.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Illusion</div><div class="vocab-def">a thing that is likely to be wrongly perceived.</div><div class="vocab-example">The oasis in the desert was just an optical illusion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Illusion', definition:'a thing that is likely to be wrongly perceived.', example:'The oasis in the desert was just an optical illusion.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Trust</div><div class="vocab-def">firm belief in the reliability or truth.</div><div class="vocab-example">Trust is the foundation of any strong relationship.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Trust', definition:'firm belief in the reliability or truth.', example:'Trust is the foundation of any strong relationship.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Listening & Gap-Fill Exercise</h2>
-    <div class="vim-instruction">
-      <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Listening & Gap-Fill Exercise</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">Deceptive</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Gaze</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Regret</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Warning</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Trust</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Keep an eye on his angeleyes<br>They are just a beautiful disguise<br>His smile is highly [__________] and sweet<br>To everyone he meets on the street<br><br>Under his steady and hypnotic [__________]<br>Lies a daze of sorrow and daze<br>I write this as a friendly [__________] to you<br>Do not easily grant him your [__________]
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Keep an eye on his angeleyes<br>They are just a beautiful disguise<br>His smile is highly [__________] and sweet<br>To everyone he meets on the street<br><br>Under his steady and hypnotic [__________]<br>Lies a daze of sorrow and daze<br>I write this as a friendly [__________] to you<br>Do not easily grant him your [__________]</p>
+      </div>
     </div>
   </section>
 

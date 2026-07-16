@@ -38,45 +38,59 @@
     <p>Esplora lo splendido brano 'Massimo Ranieri Challenge' di Canzone Italiana Special in Italiano. Questa sessione si concentra sul vocabolario legato a 'Destino & Amore' e sulle strutture linguistiche chiave del testo. Gli studenti faranno pratica di conversazione e dibattito su questi temi.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabolario della sessione</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Il destino</div><div class="vocab-def">forza misteriosa che regola la vita umana.</div><div class="vocab-example">Ha deciso di prendere in mano le redini del proprio destino.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il destino', definition:'forza misteriosa che regola la vita umana.', example:'Ha deciso di prendere in mano le redini del proprio destino.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La promessa</div><div class="vocab-def">impegno formale di fare o dare qualcosa.</div><div class="vocab-example">Ha mantenuto la promessa di scrivergli ogni settimana.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La promessa', definition:'impegno formale di fare o dare qualcosa.', example:'Ha mantenuto la promessa di scrivergli ogni settimana.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'amore</div><div class="vocab-def">profondo sentimento di affetto o attrazione.</div><div class="vocab-example">L'amore per l'arte lo accompagna da tutta la vita.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amore', definition:'profondo sentimento di affetto o attrazione.', example:'L\'amore per l\'arte lo accompagna da tutta la vita.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'attimo</div><div class="vocab-def">brevissimo spazio di tempo, istante.</div><div class="vocab-example">Cogli l'attimo prima che sia troppo tardi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attimo', definition:'brevissimo spazio di tempo, istante.', example:'Cogli l\'attimo prima che sia troppo tardi.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il cammino</div><div class="vocab-def">strada o percorso da compiere, progresso.</div><div class="vocab-example">Il cammino verso l'uguaglianza è ancora lungo ma necessario.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il cammino', definition:'strada o percorso da compiere, progresso.', example:'Il cammino verso l\'uguaglianza è ancora lungo ma necessario.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La fedeltà</div><div class="vocab-def">qualità di chi è fedele e costante.</div><div class="vocab-example">La fedeltà del suo amico è stata una grande consolazione.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fedeltà', definition:'qualità di chi è fedele e costante.', example:'La fedeltà del suo amico è stata una grande consolazione.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La scintilla</div><div class="vocab-def">minuscolo frammento di materia incandescente.</div><div class="vocab-example">Una piccola scintilla può dare origine a un grande fuoco.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La scintilla', definition:'minuscolo frammento di materia incandescente.', example:'Una piccola scintilla può dare origine a un grande fuoco.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Svanire</div><div class="vocab-def">dileguarsi o scomparire rapidamente.</div><div class="vocab-example">I dubbi sono iniziati a svanire dopo le sue spiegazioni.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Svanire', definition:'dileguarsi o scomparire rapidamente.', example:'I dubbi sono iniziati a svanire dopo le sue spiegazioni.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'attesa</div><div class="vocab-def">l'atto di attendere l'arrivo di qualcuno o qualcosa.</div><div class="vocab-example">L'attesa dei risultati dell'esame è stata molto stressante.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attesa', definition:'l\'atto di attendere l\'arrivo di qualcuno o qualcosa.', example:'L\'attesa dei risultati dell\'esame è stata molto stressante.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il ricordo</div><div class="vocab-def">immagine conservata nella memoria.</div><div class="vocab-example">Conservo un bellissimo ricordo della nostra infanzia insieme.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il ricordo', definition:'immagine conservata nella memoria.', example:'Conservo un bellissimo ricordo della nostra infanzia insieme.'}, this)">+ Dictionary</button></div>
-
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabolario della sessione</span><span class="round-toggle">▲</span>
     </div>
-  </section>
-
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Esercizio di ascolto e riempimento spazi</h2>
-    <div class="vim-instruction">
-      <strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.
-    </div>
-
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
-        <span class="club-tag" style="background: white; border-color: var(--border);">destino</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">promessa</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">amore</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">attimo</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">ricordo</span>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Il destino</div><div class="vocab-def">forza misteriosa che regola la vita umana.</div><div class="vocab-example">Ha deciso di prendere in mano le redini del proprio destino.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il destino', definition:'forza misteriosa che regola la vita umana.', example:'Ha deciso di prendere in mano le redini del proprio destino.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La promessa</div><div class="vocab-def">impegno formale di fare o dare qualcosa.</div><div class="vocab-example">Ha mantenuto la promessa di scrivergli ogni settimana.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La promessa', definition:'impegno formale di fare o dare qualcosa.', example:'Ha mantenuto la promessa di scrivergli ogni settimana.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'amore</div><div class="vocab-def">profondo sentimento di affetto o attrazione.</div><div class="vocab-example">L'amore per l'arte lo accompagna da tutta la vita.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amore', definition:'profondo sentimento di affetto o attrazione.', example:'L\'amore per l\'arte lo accompagna da tutta la vita.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'attimo</div><div class="vocab-def">brevissimo spazio di tempo, istante.</div><div class="vocab-example">Cogli l'attimo prima che sia troppo tardi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attimo', definition:'brevissimo spazio di tempo, istante.', example:'Cogli l\'attimo prima che sia troppo tardi.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il cammino</div><div class="vocab-def">strada o percorso da compiere, progresso.</div><div class="vocab-example">Il cammino verso l'uguaglianza è ancora lungo ma necessario.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il cammino', definition:'strada o percorso da compiere, progresso.', example:'Il cammino verso l\'uguaglianza è ancora lungo ma necessario.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La fedeltà</div><div class="vocab-def">qualità di chi è fedele e costante.</div><div class="vocab-example">La fedeltà del suo amico è stata una grande consolazione.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fedeltà', definition:'qualità di chi è fedele e costante.', example:'La fedeltà del suo amico è stata una grande consolazione.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La scintilla</div><div class="vocab-def">minuscolo frammento di materia incandescente.</div><div class="vocab-example">Una piccola scintilla può dare origine a un grande fuoco.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La scintilla', definition:'minuscolo frammento di materia incandescente.', example:'Una piccola scintilla può dare origine a un grande fuoco.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Svanire</div><div class="vocab-def">dileguarsi o scomparire rapidamente.</div><div class="vocab-example">I dubbi sono iniziati a svanire dopo le sue spiegazioni.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Svanire', definition:'dileguarsi o scomparire rapidamente.', example:'I dubbi sono iniziati a svanire dopo le sue spiegazioni.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'attesa</div><div class="vocab-def">l'atto di attendere l'arrivo di qualcuno o qualcosa.</div><div class="vocab-example">L'attesa dei risultati dell'esame è stata molto stressante.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attesa', definition:'l\'atto di attendere l\'arrivo di qualcuno o qualcosa.', example:'L\'attesa dei risultati dell\'esame è stata molto stressante.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il ricordo</div><div class="vocab-def">immagine conservata nella memoria.</div><div class="vocab-example">Conservo un bellissimo ricordo della nostra infanzia insieme.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il ricordo', definition:'immagine conservata nella memoria.', example:'Conservo un bellissimo ricordo della nostra infanzia insieme.'}, this)">+ Dictionary</button></div>
 
       </div>
     </div>
+  </section>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Testo completo</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Song 1: chi sara con te<br>Il nostro [__________] è ancora da scrivere,<br>Mantenendo ogni sacra [__________]...<br><br>Song 2: l'amore e un attimo<br>L' [__________] è un [__________] fuggente,<br>Che rimarrà come un dolce [__________]...</p>
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Esercizio di ascolto e riempimento spazi</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.
+      </div>
+
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">compagnia</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">futuro</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">destino</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">promessa</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">speranza</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">amore</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">attimo</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">scintilla</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">bacio</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">ricordo</span>
+
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Testo completo</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Canzone 1: chi sarà con te<br><br>Chi sarà con te nei momenti difficili ?<br>Chi raccoglierà i tuoi pensieri più fragili ?<br>Cerca sempre la dolce [__________]<br>Per affrontare la vita con gioia<br><br>Il nostro [__________] è ancora da scrivere<br>Guidati da un saggio [__________]<br>Mantenendo ogni sacra [__________]<br>Con una grande [__________] nel cuore<br><br>Canzone 2: l'amore è un attimo<br><br>L'amore è un attimo fuggente<br>Che travolge la mente<br>Un immenso [__________] sincero<br>In questo cielo così nero<br><br>Basta una piccola [__________] di fuoco<br>Per accendere questo grande gioco<br>Ci scambiamo un tenero [__________]<br>Che rimarrà come un dolce [__________]</p>
+      </div>
     </div>
   </section>
 

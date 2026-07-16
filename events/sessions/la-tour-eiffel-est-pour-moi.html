@@ -38,45 +38,53 @@
     <p>Explorez le magnifique titre 'la tour eiffel est pour moi' de Angelina Wismes en Français. Cette session se concentre sur le vocabulaire de 'Paris & Liberté' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Paris</div><div class="vocab-def">la capitale de la France, ville lumière.</div><div class="vocab-example">Paris est célèbre pour ses monuments et sa gastronomie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Paris', definition:'la capitale de la France, ville lumière.', example:'Paris est célèbre pour ses monuments et sa gastronomie.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La liberté</div><div class="vocab-def">état d'une personne libre, indépendante.</div><div class="vocab-example">La liberté d'expression est un droit fondamental.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La liberté', definition:'état d\'une personne libre, indépendante.', example:'La liberté d\'expression est un droit fondamental.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La beauté</div><div class="vocab-def">qualité de ce qui plaît à l'œil ou à l'esprit.</div><div class="vocab-example">La beauté de ce paysage montagneux est incroyable.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La beauté', definition:'qualité de ce qui plaît à l\'œil ou à l\'esprit.', example:'La beauté de ce paysage montagneux est incroyable.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La fierté</div><div class="vocab-def">sentiment de dignité, de satisfaction de soi.</div><div class="vocab-example">C'est avec une grande fierté qu'elle a reçu son prix.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fierté', definition:'sentiment de dignité, de satisfaction de soi.', example:'C\'est avec une grande fierté qu\'elle a reçu son prix.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le monument</div><div class="vocab-def">ouvrage d'architecture ou de sculpture célèbre.</div><div class="vocab-example">La Tour Eiffel est le monument le plus visité de Paris.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le monument', definition:'ouvrage d\'architecture ou de sculpture célèbre.', example:'La Tour Eiffel est le monument le plus visité de Paris.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Se promener</div><div class="vocab-def">faire une promenade pour le plaisir.</div><div class="vocab-example">Elle aime se promener le long de la Seine le soir.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Se promener', definition:'faire une promenade pour le plaisir.', example:'Elle aime se promener le long de la Seine le soir.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le rêve</div><div class="vocab-def">production de l'imagination, désir ou ambition.</div><div class="vocab-example">Réaliser son rêve d'enfant demande beaucoup de courage.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le rêve', definition:'production de l\'imagination, désir ou ambition.', example:'Réaliser son rêve d\'enfant demande beaucoup de courage.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le ciel</div><div class="vocab-def">Target vocabulary word meaning in 'la tour eiffel est pour moi'.</div><div class="vocab-example">This is an elegant example of using 'Le ciel'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le ciel', definition:'Target vocabulary word meaning in \'la tour eiffel est pour moi\'.', example:'This is an elegant example of using \'Le ciel\'.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La joie</div><div class="vocab-def">émotion agréable et intense, bonheur.</div><div class="vocab-example">La naissance de sa fille a rempli sa vie de joie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La joie', definition:'émotion agréable et intense, bonheur.', example:'La naissance de sa fille a rempli sa vie de joie.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Paris</div><div class="vocab-def">la capitale de la France, ville lumière.</div><div class="vocab-example">Paris est célèbre pour ses monuments et sa gastronomie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Paris', definition:'la capitale de la France, ville lumière.', example:'Paris est célèbre pour ses monuments et sa gastronomie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La liberté</div><div class="vocab-def">état d'une personne libre, indépendante.</div><div class="vocab-example">La liberté d'expression est un droit fondamental.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La liberté', definition:'état d\'une personne libre, indépendante.', example:'La liberté d\'expression est un droit fondamental.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La beauté</div><div class="vocab-def">qualité de ce qui plaît à l'œil ou à l'esprit.</div><div class="vocab-example">La beauté de ce paysage montagneux est incroyable.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La beauté', definition:'qualité de ce qui plaît à l\'œil ou à l\'esprit.', example:'La beauté de ce paysage montagneux est incroyable.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La fierté</div><div class="vocab-def">sentiment de dignité, de satisfaction de soi.</div><div class="vocab-example">C'est avec une grande fierté qu'elle a reçu son prix.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fierté', definition:'sentiment de dignité, de satisfaction de soi.', example:'C\'est avec une grande fierté qu\'elle a reçu son prix.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le monument</div><div class="vocab-def">ouvrage d'architecture ou de sculpture célèbre.</div><div class="vocab-example">La Tour Eiffel est le monument le plus visité de Paris.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le monument', definition:'ouvrage d\'architecture ou de sculpture célèbre.', example:'La Tour Eiffel est le monument le plus visité de Paris.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Se promener</div><div class="vocab-def">faire une promenade pour le plaisir.</div><div class="vocab-example">Elle aime se promener le long de la Seine le soir.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Se promener', definition:'faire une promenade pour le plaisir.', example:'Elle aime se promener le long de la Seine le soir.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le rêve</div><div class="vocab-def">production de l'imagination, désir ou ambition.</div><div class="vocab-example">Réaliser son rêve d'enfant demande beaucoup de courage.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le rêve', definition:'production de l\'imagination, désir ou ambition.', example:'Réaliser son rêve d\'enfant demande beaucoup de courage.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le ciel</div><div class="vocab-def">Target vocabulary word meaning in 'la tour eiffel est pour moi'.</div><div class="vocab-example">This is an elegant example of using 'Le ciel'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le ciel', definition:'Target vocabulary word meaning in \'la tour eiffel est pour moi\'.', example:'This is an elegant example of using \'Le ciel\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La joie</div><div class="vocab-def">émotion agréable et intense, bonheur.</div><div class="vocab-example">La naissance de sa fille a rempli sa vie de joie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La joie', definition:'émotion agréable et intense, bonheur.', example:'La naissance de sa fille a rempli sa vie de joie.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">Paris</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">liberté</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">beauté</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">monument</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">ciel</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-La Tour Eiffel est pour moi<br>Un symbole de joie et d'émoi<br>Au cœur de ce magnifique [__________]<br>Je goûte à une immense [__________]<br><br>Admirant la grande [__________] de la ville<br>Depuis ce fier [__________] tranquille<br>Sous le bleu infini du [__________]<br>Mon esprit s'envole à tire-d'aile
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">La Tour Eiffel est pour moi<br>Un symbole de joie et d'émoi<br>Au cœur de ce magnifique [__________]<br>Je goûte à une immense [__________]<br><br>Admirant la grande [__________] de la ville<br>Depuis ce fier [__________] tranquille<br>Sous le bleu infini du [__________]<br>Mon esprit s'envole à tire-d'aile</p>
+      </div>
     </div>
   </section>
 

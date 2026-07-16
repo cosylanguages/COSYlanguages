@@ -38,46 +38,54 @@
     <p>Explorez le magnifique titre 'l'aziza' de Daniel Balavoine en Français. Cette session se concentre sur le vocabulaire de 'Tolérance & Diversité' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">La tolérance</div><div class="vocab-def">respect de la liberté d'autrui, de ses opinions.</div><div class="vocab-example">La tolérance est le fondement de la vie en société.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La tolérance', definition:'respect de la liberté d\'autrui, de ses opinions.', example:'La tolérance est le fondement de la vie en société.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La paix</div><div class="vocab-def">état d'absence de conflit, de tranquillité.</div><div class="vocab-example">Les négociations ont enfin ramené la paix dans la région.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La paix', definition:'état d\'absence de conflit, de tranquillité.', example:'Les négociations ont enfin ramené la paix dans la région.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La diversité</div><div class="vocab-def">caractère de ce qui est varié, divers.</div><div class="vocab-example">La diversité culturelle enrichit notre patrimoine.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La diversité', definition:'caractère de ce qui est varié, divers.', example:'La diversité culturelle enrichit notre patrimoine.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La dignité</div><div class="vocab-def">respect de soi-même, noblesse de comportement.</div><div class="vocab-example">Il a affronté cette situation difficile avec dignité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La dignité', definition:'respect de soi-même, noblesse de comportement.', example:'Il a affronté cette situation difficile avec dignité.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'harmonie</div><div class="vocab-def">accord entre les éléments d'un ensemble.</div><div class="vocab-example">Ils vivent en parfaite harmonie avec leur environnement.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'harmonie', definition:'accord entre les éléments d\'un ensemble.', example:'Ils vivent en parfaite harmonie avec leur environnement.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">S'unir</div><div class="vocab-def">se joindre pour agir ensemble, se marier.</div><div class="vocab-example">Les pays doivent s'unir pour protéger l'environnement.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'S'unir', definition:'se joindre pour agir ensemble, se marier.', example:'Les pays doivent s\'unir pour protéger l\'environnement.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le respect</div><div class="vocab-def">sentiment de considération envers quelqu'un.</div><div class="vocab-example">Le respect mutuel est essentiel au sein d'une équipe.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le respect', definition:'sentiment de considération envers quelqu\'un.', example:'Le respect mutuel est essentiel au sein d\'une équipe.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le combat</div><div class="vocab-def">action de combattre, lutte pour une cause.</div><div class="vocab-example">Le combat pour l'égalité des droits continue de progresser.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le combat', definition:'action de combattre, lutte pour une cause.', example:'Le combat pour l\'égalité des droits continue de progresser.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'espoir</div><div class="vocab-def">sentiment qui porte à espérer, à attendre avec confiance.</div><div class="vocab-example">Nous devons toujours garder l'espoir d'un avenir meilleur.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'espoir', definition:'sentiment qui porte à espérer, à attendre avec confiance.', example:'Nous devons toujours garder l\'espoir d\'un avenir meilleur.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le partage</div><div class="vocab-def">diviser et distribuer, s'associer avec d'autres.</div><div class="vocab-example">Il est important de partager son repas avec les démunis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le partage', definition:'diviser et distribuer, s\'associer avec d\'autres.', example:'Il est important de partager son repas avec les démunis.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">La tolérance</div><div class="vocab-def">respect de la liberté d'autrui, de ses opinions.</div><div class="vocab-example">La tolérance est le fondement de la vie en société.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La tolérance', definition:'respect de la liberté d\'autrui, de ses opinions.', example:'La tolérance est le fondement de la vie en société.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La paix</div><div class="vocab-def">état d'absence de conflit, de tranquillité.</div><div class="vocab-example">Les négociations ont enfin ramené la paix dans la région.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La paix', definition:'état d\'absence de conflit, de tranquillité.', example:'Les négociations ont enfin ramené la paix dans la région.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La diversité</div><div class="vocab-def">caractère de ce qui est varié, divers.</div><div class="vocab-example">La diversité culturelle enrichit notre patrimoine.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La diversité', definition:'caractère de ce qui est varié, divers.', example:'La diversité culturelle enrichit notre patrimoine.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La dignité</div><div class="vocab-def">respect de soi-même, noblesse de comportement.</div><div class="vocab-example">Il a affronté cette situation difficile avec dignité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La dignité', definition:'respect de soi-même, noblesse de comportement.', example:'Il a affronté cette situation difficile avec dignité.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'harmonie</div><div class="vocab-def">accord entre les éléments d'un ensemble.</div><div class="vocab-example">Ils vivent en parfaite harmonie avec leur environnement.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'harmonie', definition:'accord entre les éléments d\'un ensemble.', example:'Ils vivent en parfaite harmonie avec leur environnement.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">S'unir</div><div class="vocab-def">se joindre pour agir ensemble, se marier.</div><div class="vocab-example">Les pays doivent s'unir pour protéger l'environnement.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'S'unir', definition:'se joindre pour agir ensemble, se marier.', example:'Les pays doivent s\'unir pour protéger l\'environnement.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le respect</div><div class="vocab-def">sentiment de considération envers quelqu'un.</div><div class="vocab-example">Le respect mutuel est essentiel au sein d'une équipe.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le respect', definition:'sentiment de considération envers quelqu\'un.', example:'Le respect mutuel est essentiel au sein d\'une équipe.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le combat</div><div class="vocab-def">action de combattre, lutte pour une cause.</div><div class="vocab-example">Le combat pour l'égalité des droits continue de progresser.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le combat', definition:'action de combattre, lutte pour une cause.', example:'Le combat pour l\'égalité des droits continue de progresser.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'espoir</div><div class="vocab-def">sentiment qui porte à espérer, à attendre avec confiance.</div><div class="vocab-example">Nous devons toujours garder l'espoir d'un avenir meilleur.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'espoir', definition:'sentiment qui porte à espérer, à attendre avec confiance.', example:'Nous devons toujours garder l\'espoir d\'un avenir meilleur.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le partage</div><div class="vocab-def">diviser et distribuer, s'associer avec d'autres.</div><div class="vocab-example">Il est important de partager son repas avec les démunis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le partage', definition:'diviser et distribuer, s\'associer avec d\'autres.', example:'Il est important de partager son repas avec les démunis.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">tolérance</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">paix</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">diversité</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">respect</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">espoir</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-L'aziza, ton étoile brille sur nous<br>Un symbole d'espoir face aux fous<br>Une grande leçon de [__________]<br>Pour ramener enfin la [__________]<br><br>Célébrer la riche [__________] des cultures<br>Dans un grand élan de [__________]<br>Garder l'[__________] d'une vie plus douce<br>Quand le vent de la haine pousse
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">L'aziza, ton étoile brille sur nous<br>Un symbole d'espoir face aux fous<br>Une grande leçon de [__________]<br>Pour ramener enfin la [__________]<br><br>Célébrer la riche [__________] des cultures<br>Dans un grand élan de [__________]<br>Garder l'[__________] d'une vie plus douce<br>Quand le vent de la haine pousse</p>
+      </div>
     </div>
   </section>
 

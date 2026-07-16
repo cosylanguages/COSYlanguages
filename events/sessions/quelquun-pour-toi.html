@@ -38,46 +38,54 @@
     <p>Explorez le magnifique titre 'quelqu'un pour toi' de Madame Monsieur en Français. Cette session se concentre sur le vocabulaire de 'Rencontre & Destin' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">La rencontre</div><div class="vocab-def">fait de se trouver en présence de quelqu'un.</div><div class="vocab-example">Leur rencontre fortuite a changé le cours de leur vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La rencontre', definition:'fait de se trouver en présence de quelqu\'un.', example:'Leur rencontre fortuite a changé le cours de leur vie.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">puissance qui semble régler le cours de la vie.</div><div class="vocab-example">Elle croit fermement que son destin est entre ses mains.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance qui semble régler le cours de la vie.', example:'Elle croit fermement que son destin est entre ses mains.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La complicité</div><div class="vocab-def">entente profonde et spontanée entre des personnes.</div><div class="vocab-example">Leur complicité est évidente dès le premier regard.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La complicité', definition:'entente profonde et spontanée entre des personnes.', example:'Leur complicité est évidente dès le premier regard.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Soutenir</div><div class="vocab-def">maintenir, encourager ou aider quelqu'un.</div><div class="vocab-example">Il faut soutenir ses collègues dans les moments difficiles.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Soutenir', definition:'maintenir, encourager ou aider quelqu\'un.', example:'Il faut soutenir ses collègues dans les moments difficiles.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'amour</div><div class="vocab-def">sentiment d'affection, de tendresse et d'attirance.</div><div class="vocab-example">L'amour familial est un pilier indispensable de la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amour', definition:'sentiment d\'affection, de tendresse et d\'attirance.', example:'L\'amour familial est un pilier indispensable de la vie.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Partager</div><div class="vocab-def">diviser et distribuer, s'associer avec d'autres.</div><div class="vocab-example">Il est important de partager son repas avec les démunis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Partager', definition:'diviser et distribuer, s\'associer avec d\'autres.', example:'Il est important de partager son repas avec les démunis.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La présence</div><div class="vocab-def">fait d'être là, dans un lieu précis.</div><div class="vocab-example">Votre présence à cette cérémonie est très importante.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La présence', definition:'fait d\'être là, dans un lieu précis.', example:'Votre présence à cette cérémonie est très importante.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'espoir</div><div class="vocab-def">sentiment qui porte à espérer, à attendre avec confiance.</div><div class="vocab-example">Nous devons toujours garder l'espoir d'un avenir meilleur.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'espoir', definition:'sentiment qui porte à espérer, à attendre avec confiance.', example:'Nous devons toujours garder l\'espoir d\'un avenir meilleur.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le chemin</div><div class="vocab-def">voie de terre, parcours ou direction à suivre.</div><div class="vocab-example">Elle a choisi un chemin professionnel très original.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le chemin', definition:'voie de terre, parcours ou direction à suivre.', example:'Elle a choisi un chemin professionnel très original.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'éternité</div><div class="vocab-def">durée sans commencement ni fin, temps infini.</div><div class="vocab-example">Leurs œuvres d'art entreront dans l'éternité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'éternité', definition:'durée sans commencement ni fin, temps infini.', example:'Leurs œuvres d\'art entreront dans l\'éternité.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">La rencontre</div><div class="vocab-def">fait de se trouver en présence de quelqu'un.</div><div class="vocab-example">Leur rencontre fortuite a changé le cours de leur vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La rencontre', definition:'fait de se trouver en présence de quelqu\'un.', example:'Leur rencontre fortuite a changé le cours de leur vie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">puissance qui semble régler le cours de la vie.</div><div class="vocab-example">Elle croit fermement que son destin est entre ses mains.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance qui semble régler le cours de la vie.', example:'Elle croit fermement que son destin est entre ses mains.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La complicité</div><div class="vocab-def">entente profonde et spontanée entre des personnes.</div><div class="vocab-example">Leur complicité est évidente dès le premier regard.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La complicité', definition:'entente profonde et spontanée entre des personnes.', example:'Leur complicité est évidente dès le premier regard.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Soutenir</div><div class="vocab-def">maintenir, encourager ou aider quelqu'un.</div><div class="vocab-example">Il faut soutenir ses collègues dans les moments difficiles.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Soutenir', definition:'maintenir, encourager ou aider quelqu\'un.', example:'Il faut soutenir ses collègues dans les moments difficiles.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'amour</div><div class="vocab-def">sentiment d'affection, de tendresse et d'attirance.</div><div class="vocab-example">L'amour familial est un pilier indispensable de la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amour', definition:'sentiment d\'affection, de tendresse et d\'attirance.', example:'L\'amour familial est un pilier indispensable de la vie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Partager</div><div class="vocab-def">diviser et distribuer, s'associer avec d'autres.</div><div class="vocab-example">Il est important de partager son repas avec les démunis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Partager', definition:'diviser et distribuer, s\'associer avec d\'autres.', example:'Il est important de partager son repas avec les démunis.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La présence</div><div class="vocab-def">fait d'être là, dans un lieu précis.</div><div class="vocab-example">Votre présence à cette cérémonie est très importante.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La présence', definition:'fait d\'être là, dans un lieu précis.', example:'Votre présence à cette cérémonie est très importante.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'espoir</div><div class="vocab-def">sentiment qui porte à espérer, à attendre avec confiance.</div><div class="vocab-example">Nous devons toujours garder l'espoir d'un avenir meilleur.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'espoir', definition:'sentiment qui porte à espérer, à attendre avec confiance.', example:'Nous devons toujours garder l\'espoir d\'un avenir meilleur.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le chemin</div><div class="vocab-def">voie de terre, parcours ou direction à suivre.</div><div class="vocab-example">Elle a choisi un chemin professionnel très original.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le chemin', definition:'voie de terre, parcours ou direction à suivre.', example:'Elle a choisi un chemin professionnel très original.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'éternité</div><div class="vocab-def">durée sans commencement ni fin, temps infini.</div><div class="vocab-example">Leurs œuvres d'art entreront dans l'éternité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'éternité', definition:'durée sans commencement ni fin, temps infini.', example:'Leurs œuvres d\'art entreront dans l\'éternité.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">rencontre</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">destin</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">amour</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">présence</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">espoir</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Il y aura quelqu'un pour toi<br>Quelqu'un qui marchera sous ton toit<br>Une belle [__________] inattendue<br>Pour changer ton [__________] perdu<br><br>Un grand [__________] qui t'accompagne<br>La douce chaleur de sa [__________]<br>Redonnant un immense [__________] à ta vie<br>Loin de l'ombre et de l'ennui
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Il y aura quelqu'un pour toi<br>Quelqu'un qui marchera sous ton toit<br>Une belle [__________] inattendue<br>Pour changer ton [__________] perdu<br><br>Un grand [__________] qui t'accompagne<br>La douce chaleur de sa [__________]<br>Redonnant un immense [__________] à ta vie<br>Loin de l'ombre et de l'ennui</p>
+      </div>
     </div>
   </section>
 

@@ -38,46 +38,54 @@
     <p>Explore the beautiful track 'as it was' by Harry Styles in British English. This session focuses on the vocabulary of Change & Isolation and key linguistic structures of the lyrics. Students will practice speaking and debating about these themes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Change</div><div class="vocab-def">rendre différent, modifier profondément.</div><div class="vocab-example">Il a décidé de changer de carrière pour être plus heureux.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Change', definition:'rendre différent, modifier profondément.', example:'Il a décidé de changer de carrière pour être plus heureux.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Isolation</div><div class="vocab-def">the state of being separate from others.</div><div class="vocab-example">The remote cabin offered a perfect sense of isolation.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Isolation', definition:'the state of being separate from others.', example:'The remote cabin offered a perfect sense of isolation.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Nostalgia</div><div class="vocab-def">a sentimental longing or wistful affection.</div><div class="vocab-example">Listening to old records filled him with warm nostalgia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Nostalgia', definition:'a sentimental longing or wistful affection.', example:'Listening to old records filled him with warm nostalgia.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Suburban</div><div class="vocab-def">relating to or characteristic of a suburb.</div><div class="vocab-example">They lived in a quiet, peaceful suburban neighborhood.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Suburban', definition:'relating to or characteristic of a suburb.', example:'They lived in a quiet, peaceful suburban neighborhood.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Gravity</div><div class="vocab-def">the force that attracts a body toward the earth.</div><div class="vocab-example">Gravity keeps our feet firmly planted on the ground.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Gravity', definition:'the force that attracts a body toward the earth.', example:'Gravity keeps our feet firmly planted on the ground.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Disconnect</div><div class="vocab-def">an instance of breaking contact or connection.</div><div class="vocab-example">There was a temporary disconnect in our phone line.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Disconnect', definition:'an instance of breaking contact or connection.', example:'There was a temporary disconnect in our phone line.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Melancholy</div><div class="vocab-def">a feeling of pensive sadness.</div><div class="vocab-example">A gentle melancholy settled over the autumn garden.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Melancholy', definition:'a feeling of pensive sadness.', example:'A gentle melancholy settled over the autumn garden.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Expectation</div><div class="vocab-def">a strong belief that something will happen.</div><div class="vocab-example">They met every high expectation of their teachers.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Expectation', definition:'a strong belief that something will happen.', example:'They met every high expectation of their teachers.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Routine</div><div class="vocab-def">a sequence of actions regularly followed.</div><div class="vocab-example">Establishing a morning routine can boost your productivity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Routine', definition:'a sequence of actions regularly followed.', example:'Establishing a morning routine can boost your productivity.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Reflection</div><div class="vocab-def">the throwing back of light, heat, or sound.</div><div class="vocab-example">The quiet lake offered a beautiful reflection of the trees.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Reflection', definition:'the throwing back of light, heat, or sound.', example:'The quiet lake offered a beautiful reflection of the trees.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Session Vocabulary</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Change</div><div class="vocab-def">rendre différent, modifier profondément.</div><div class="vocab-example">Il a décidé de changer de carrière pour être plus heureux.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Change', definition:'rendre différent, modifier profondément.', example:'Il a décidé de changer de carrière pour être plus heureux.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Isolation</div><div class="vocab-def">the state of being separate from others.</div><div class="vocab-example">The remote cabin offered a perfect sense of isolation.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Isolation', definition:'the state of being separate from others.', example:'The remote cabin offered a perfect sense of isolation.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Nostalgia</div><div class="vocab-def">a sentimental longing or wistful affection.</div><div class="vocab-example">Listening to old records filled him with warm nostalgia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Nostalgia', definition:'a sentimental longing or wistful affection.', example:'Listening to old records filled him with warm nostalgia.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Suburban</div><div class="vocab-def">relating to or characteristic of a suburb.</div><div class="vocab-example">They lived in a quiet, peaceful suburban neighborhood.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Suburban', definition:'relating to or characteristic of a suburb.', example:'They lived in a quiet, peaceful suburban neighborhood.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Gravity</div><div class="vocab-def">the force that attracts a body toward the earth.</div><div class="vocab-example">Gravity keeps our feet firmly planted on the ground.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Gravity', definition:'the force that attracts a body toward the earth.', example:'Gravity keeps our feet firmly planted on the ground.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Disconnect</div><div class="vocab-def">an instance of breaking contact or connection.</div><div class="vocab-example">There was a temporary disconnect in our phone line.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Disconnect', definition:'an instance of breaking contact or connection.', example:'There was a temporary disconnect in our phone line.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Melancholy</div><div class="vocab-def">a feeling of pensive sadness.</div><div class="vocab-example">A gentle melancholy settled over the autumn garden.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Melancholy', definition:'a feeling of pensive sadness.', example:'A gentle melancholy settled over the autumn garden.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Expectation</div><div class="vocab-def">a strong belief that something will happen.</div><div class="vocab-example">They met every high expectation of their teachers.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Expectation', definition:'a strong belief that something will happen.', example:'They met every high expectation of their teachers.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Routine</div><div class="vocab-def">a sequence of actions regularly followed.</div><div class="vocab-example">Establishing a morning routine can boost your productivity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Routine', definition:'a sequence of actions regularly followed.', example:'Establishing a morning routine can boost your productivity.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Reflection</div><div class="vocab-def">the throwing back of light, heat, or sound.</div><div class="vocab-example">The quiet lake offered a beautiful reflection of the trees.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Reflection', definition:'the throwing back of light, heat, or sound.', example:'The quiet lake offered a beautiful reflection of the trees.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Listening & Gap-Fill Exercise</h2>
-    <div class="vim-instruction">
-      <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Listening & Gap-Fill Exercise</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">Change</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Isolation</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Nostalgia</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Routine</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Reflection</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Hold on, you know it's not the same<br>As we play this modern game<br>I feel a sudden [__________] in the air<br>As people rush without a care<br><br>Living in quiet [__________] and peace<br>In our neat suburban streets<br>Following our daily [__________] and style<br>Looking at our own [__________]
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Hold on, you know it's not the same<br>As we play this modern game<br>I feel a sudden [__________] in the air<br>As people rush without a care<br><br>Living in quiet [__________] and peace<br>In our neat suburban streets<br>Following our daily [__________] and style<br>Looking at our own [__________]</p>
+      </div>
     </div>
   </section>
 

@@ -31,57 +31,65 @@
   <div class="session-meta-grid">
     <div class="meta-item"><h4>Durée</h4><p>60 minutes</p></div>
     <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
-    <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire (B2)</p></div>
+    <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire Supérieur (B2)</p></div>
     <div class="meta-item"><h4>Thème</h4><p>Rupture &amp; Départ</p></div>
   </div>
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Dans cette session, nous analysons les paroles captivantes de "Tu t'en iras" de La Zarra. Nous étudierons le vocabulaire de la rupture amoureuse, des regrets et du départ vers l'horizon avec une valise. Les étudiants débattront des promesses brisées et des traces que laissent les relations passées dans notre destin.</p>
+    <p>Explorez le magnifique titre 'Tu t'en iras' de La Zarra en Français. Cette session se concentre sur le vocabulaire de 'Rupture &amp; Départ' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-            <div class="vocab-card"><div class="vocab-word">Le départ</div><div class="vocab-def">action de s'en aller d'un lieu.</div><div class="vocab-example">Le départ du train est prévu à huit heures précises.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le départ', definition:'action de s\'en aller d\'un lieu.', example:'Le départ du train est prévu à huit heures précises.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La rupture</div><div class="vocab-def">séparation amoureuse ou fin d'un accord.</div><div class="vocab-example">Ils ont annoncé leur rupture après trois ans de vie commune.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La rupture', definition:'séparation amoureuse ou fin d\'un accord.', example:'Ils ont annoncé leur rupture après trois ans de vie commune.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le regret</div><div class="vocab-def">sentiment douloureux de perdre quelque chose ou d'avoir mal agi.</div><div class="vocab-example">Il éprouve un profond regret de ne pas avoir voyagé plus jeune.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le regret', definition:'sentiment douloureux de perdre quelque chose ou d\'avoir mal agi.', example:'Il éprouve un profond regret de ne pas avoir voyagé plus jeune.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le voyage</div><div class="vocab-def">déplacement dans un lieu lointain.</div><div class="vocab-example">Un voyage autour du monde ouvre l'esprit des jeunes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le voyage', definition:'déplacement dans un lieu lointain.', example:'Un voyage autour du monde ouvre l\'esprit des jeunes.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La valise</div><div class="vocab-def">bagage de forme rectangulaire pour transporter ses vêtements.</div><div class="vocab-example">Elle prépare sa valise la veille de son grand départ.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La valise', definition:'bagage de forme rectangulaire pour transporter ses vêtements.', example:'Elle prépare sa valise la veille de son grand départ.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'horizon</div><div class="vocab-def">ligne circulaire dont l'observateur est le centre.</div><div class="vocab-example">Le soleil couchant disparaît lentement à l'horizon de l'océan.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'horizon', definition:'ligne circulaire dont l\'observateur est le centre.', example:'Le soleil couchant disparaît lentement à l\'horizon de l\'océan.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'illusion</div><div class="vocab-def">interprétation erronée de la réalité.</div><div class="vocab-example">Croire qu'il va changer est une douce illusion romantique.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'illusion', definition:'interprétation erronée de la réalité.', example:'Croire qu\'il va changer est une douce illusion romantique.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La promesse</div><div class="vocab-def">engagement de faire ou de donner quelque chose.</div><div class="vocab-example">Il a fait la promesse de revenir avant la fin de l'été.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La promesse', definition:'engagement de faire ou de donner quelque chose.', example:'Il a fait la promesse de revenir avant la fin de l\'été.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La trace</div><div class="vocab-def">empreinte ou marque laissée par quelqu'un ou quelque chose.</div><div class="vocab-example">Le vent a effacé toute trace de pas sur la plage de sable.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La trace', definition:'empreinte ou marque laissée par quelqu\'un ou quelque chose.', example:'Le vent a effacé toute trace de pas sur la plage de sable.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">avenir ou cours des événements de la vie d'une personne.</div><div class="vocab-example">C'est son destin de parcourir le monde à la recherche d'aventures.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'avenir ou cours des événements de la vie d\'une personne.', example:'C\'est son destin de parcourir le monde à la recherche d\'aventures.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Le départ</div><div class="vocab-def">Target vocabulary word meaning in 'Tu t'en iras'.</div><div class="vocab-example">This is an elegant example of using 'Le départ'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le départ', definition:'Target vocabulary word meaning in \'Tu t\'en iras\'.', example:'This is an elegant example of using \'Le départ\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La rupture</div><div class="vocab-def">Target vocabulary word meaning in 'Tu t'en iras'.</div><div class="vocab-example">This is an elegant example of using 'La rupture'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La rupture', definition:'Target vocabulary word meaning in \'Tu t\'en iras\'.', example:'This is an elegant example of using \'La rupture\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le regret</div><div class="vocab-def">sentiment douloureux d'avoir perdu quelque chose ou manqué d'agir.</div><div class="vocab-example">Il a exprimé un vif regret après son départ précipité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le regret', definition:'sentiment douloureux d\'avoir perdu quelque chose ou manqué d\'agir.', example:'Il a exprimé un vif regret après son départ précipité.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le voyage</div><div class="vocab-def">Target vocabulary word meaning in 'Tu t'en iras'.</div><div class="vocab-example">This is an elegant example of using 'Le voyage'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le voyage', definition:'Target vocabulary word meaning in \'Tu t\'en iras\'.', example:'This is an elegant example of using \'Le voyage\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La valise</div><div class="vocab-def">Target vocabulary word meaning in 'Tu t'en iras'.</div><div class="vocab-example">This is an elegant example of using 'La valise'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La valise', definition:'Target vocabulary word meaning in \'Tu t\'en iras\'.', example:'This is an elegant example of using \'La valise\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'horizon</div><div class="vocab-def">Target vocabulary word meaning in 'Tu t'en iras'.</div><div class="vocab-example">This is an elegant example of using 'L'horizon'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'horizon', definition:'Target vocabulary word meaning in \'Tu t\'en iras\'.', example:'This is an elegant example of using \'L\'horizon\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'illusion</div><div class="vocab-def">a thing that is likely to be wrongly perceived.</div><div class="vocab-example">The oasis in the desert was just an optical illusion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'illusion', definition:'a thing that is likely to be wrongly perceived.', example:'The oasis in the desert was just an optical illusion.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La promesse</div><div class="vocab-def">engagement de faire ou de donner quelque chose.</div><div class="vocab-example">Elle a tenu sa promesse de l'aider à déménager.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La promesse', definition:'engagement de faire ou de donner quelque chose.', example:'Elle a tenu sa promesse de l\'aider à déménager.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La trace</div><div class="vocab-def">Target vocabulary word meaning in 'Tu t'en iras'.</div><div class="vocab-example">This is an elegant example of using 'La trace'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La trace', definition:'Target vocabulary word meaning in \'Tu t\'en iras\'.', example:'This is an elegant example of using \'La trace\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">puissance qui semble régler le cours de la vie.</div><div class="vocab-example">Elle croit fermement que son destin est entre ses mains.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance qui semble régler le cours de la vie.', example:'Elle croit fermement que son destin est entre ses mains.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute &amp; Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">vide</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">armes</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">yeux</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">traces</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">promesses</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Tu t'en iras un jour ou l'autre,<br>Laissant mon cœur dans un grand [__________].<br>Tu poseras tes [__________] à terre,<br>Pour mettre fin à notre guerre.<br><br>Je verrai dans tes [__________] clairs,<br>Le reflet de nos hivers.<br>Sans laisser de [__________] de ton passage,<br>Comme un navire après l'orage.<br><br>Toutes tes belles [__________] d'autrefois,<br>S'envoleront loin de moi.
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Tu t'en iras un jour ou l'autre,<br>Laissant mon cœur dans un grand [__________].<br>Tu poseras tes [__________] à terre,<br>Pour mettre fin à notre guerre.<br><br>Je verrai dans tes [__________] clairs,<br>Le reflet de nos hivers.<br>Sans laisser de [__________] de ton passage,<br>Comme un navire après l'orage.<br><br>Toutes tes belles [__________] d'autrefois,<br>S'envoleront loin de moi.</p>
+      </div>
     </div>
   </section>
 
+  <!-- DISCUSSION STRUCTURE -->
   <section id="structure">
     <h2 class="section-title">🎙️ Structure de discussion</h2>
     <div class="rounds-container">
@@ -90,10 +98,11 @@ Tu t'en iras un jour ou l'autre,<br>Laissant mon cœur dans un grand [__________
           <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Discutez du thème universel des adieux et des départs dans la musique pop moderne.</div>
+          <div class="vim-instruction">Présentez brièvement vos impressions sur la chanson et chantez avec les premières mélodies.</div>
           <ul class="round-questions">
-            <li>Avez-vous déjà vécu un grand départ pour un autre pays ?</li>
-            <li>Aimez-vous voyager avec très peu de bagages ?</li>
+            <li>Aviez-vous déjà écouté 'Tu t'en iras' avant cette session ?</li>
+            <li>Quel type d'émotions cette musique vous inspire-t-elle ?</li>
+
           </ul>
         </div>
       </div>
@@ -103,17 +112,17 @@ Tu t'en iras un jour ou l'autre,<br>Laissant mon cœur dans un grand [__________
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Questions</div>
-          <div class="vim-instruction">Analyze the song's key verses and speak using the targeted vocabulary.</div>
-                    <div class="round-item"><div class="round-item-main">Comment vous préparez-vous mentalement avant un grand <strong>départ</strong> professionnel ?</div><div class="round-item-personal">★ Aimez-vous les changements radicaux ?</div></div>
-          <div class="round-item"><div class="round-item-main">Quels sont les facteurs principaux qui provoquent une <strong>rupture</strong> amoureuse à notre époque ?</div><div class="round-item-personal">★ Quelle est la chose la plus difficile à surmonter après une séparation ?</div></div>
-          <div class="round-item"><div class="round-item-main">Quel est votre plus grand <strong>regret</strong> concernant vos choix d'études passés ?</div><div class="round-item-personal">★ Changeriez-vous quelque chose si vous aviez vingt ans aujourd'hui ?</div></div>
-          <div class="round-item"><div class="round-item-main">Quel <strong>voyage</strong> lointain a eu le plus grand impact sur votre vision du monde ?</div><div class="round-item-personal">★ Préférez-vous la mer ou la montagne pour voyager ?</div></div>
-          <div class="round-item"><div class="round-item-main">Qu'emporteriez-vous dans votre unique <strong>valise</strong> si vous deviez déménager demain ?</div><div class="round-item-personal">★ Êtes-vous un voyageur léger ou encombré ?</div></div>
-          <div class="round-item"><div class="round-item-main">Pourquoi regarder l'<strong>horizon</strong> de la mer apporte-t-il un sentiment de calme immense ?</div><div class="round-item-personal">★ Habitez-vous près de la mer ?</div></div>
-          <div class="round-item"><div class="round-item-main">Comment distinguer un projet réaliste d'une simple <strong>illusion</strong> sans perdre son enthousiasme ?</div><div class="round-item-personal">★ Avez-vous déjà poursuivi une illusion ?</div></div>
-          <div class="round-item"><div class="round-item-main">Pourquoi est-il si difficile de tenir une <strong>promesse</strong> importante sur le long terme ?</div><div class="round-item-personal">★ Prenez-vous les promesses très au sérieux ?</div></div>
-          <div class="round-item"><div class="round-item-main">Quelle <strong>trace</strong> durable aimeriez-vous laisser dans votre domaine professionnel ?</div><div class="round-item-personal">★ Travaillez-vous sur un projet de longue durée ?</div></div>
-          <div class="round-item"><div class="round-item-main">Pensez-vous que croiser la route de certaines personnes fait partie de notre <strong>destin</strong> ?</div><div class="round-item-personal">★ Croyez-vous aux rencontres par hasard ?</div></div>
+          <div class="vim-instruction">Analysez les couplets clés de la chanson et parlez en utilisant le vocabulaire ciblé.</div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le départ</strong> se manifeste-t-il dans les paroles de 'Tu t'en iras' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le départ</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la rupture</strong> se manifeste-t-il dans les paroles de 'Tu t'en iras' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la rupture</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le regret</strong> se manifeste-t-il dans les paroles de 'Tu t'en iras' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le regret</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le voyage</strong> se manifeste-t-il dans les paroles de 'Tu t'en iras' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le voyage</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la valise</strong> se manifeste-t-il dans les paroles de 'Tu t'en iras' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la valise</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'horizon</strong> se manifeste-t-il dans les paroles de 'Tu t'en iras' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'horizon</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'illusion</strong> se manifeste-t-il dans les paroles de 'Tu t'en iras' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'illusion</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la promesse</strong> se manifeste-t-il dans les paroles de 'Tu t'en iras' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la promesse</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la trace</strong> se manifeste-t-il dans les paroles de 'Tu t'en iras' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la trace</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le destin</strong> se manifeste-t-il dans les paroles de 'Tu t'en iras' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le destin</strong> joue un rôle important dans votre quotidien ?</div></div>
 
         </div>
       </div>
@@ -122,30 +131,30 @@ Tu t'en iras un jour ou l'autre,<br>Laissant mon cœur dans un grand [__________
           <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <p class="round-note">Visual contrast: Live Acoustic Cafe vs Electric Stage Lights.</p>
+          <p class="round-note">Contraste visuel : Café acoustique intime vs Concert dans une grande arène électrique.</p>
           <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Acoustic Performance</div></div>
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Grand Arena Concert</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
+            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
           </div>
         </div>
       </div>
       <div class="round-block round-2 open" id="s-r2">
         <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Analyse approfondie &amp; Débat</span><span class="round-toggle">▲</span>
+          <span>🟢 Round 2 — Analyse approfondie & Débat</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Debate</div>
-          <div class="vim-instruction">Evaluate these philosophical statements regarding the song's underlying cultural concepts.</div>
-                    <div class="round-item"><div class="round-item-main">Dans le futur, le <strong>départ</strong> pour coloniser de nouvelles planètes sera réservé aux plus riches.</div></div>
-          <div class="round-item"><div class="round-item-main">Une <strong>rupture</strong> amicale fait parfois plus de mal qu'une rupture amoureuse.</div></div>
-          <div class="round-item"><div class="round-item-main">Vivre avec le moindre <strong>regret</strong> est indispensable pour rester humble et lucide.</div></div>
-          <div class="round-item"><div class="round-item-main">Le <strong>voyage</strong> de masse moderne détruit la beauté des cultures locales.</div></div>
-          <div class="round-item"><div class="round-item-main">Posséder plus de biens que ce qui rentre dans une seule <strong>valise</strong> est inutile.</div></div>
-          <div class="round-item"><div class="round-item-main">L'être humain cherchera toujours à dépasser l'<strong>horizon</strong> connu, peu importe le coût.</div></div>
-          <div class="round-item"><div class="round-item-main">L'<strong>illusion</strong> romantique est nécessaire pour supporter la routine du quotidien.</div></div>
-          <div class="round-item"><div class="round-item-main">Une <strong>promesse</strong> non tenue devrait être légalement punie dans les relations commerciales.</div></div>
-          <div class="round-item"><div class="round-item-main">La technologie moderne efface toute <strong>trace</strong> d'intimité dans notre vie privée.</div></div>
-          <div class="round-item"><div class="round-item-main">Le concept de <strong>destin</strong> est une invention des personnes qui ont peur de faire des choix.</div></div>
+          <div class="vim-instruction">Évaluez ces énoncés philosophiques concernant les concepts culturels sous-jacents de la chanson.</div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le départ</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la rupture</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le regret</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le voyage</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la valise</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'horizon</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'illusion</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la promesse</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la trace</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le destin</strong> est devenu un défi quotidien.</div></div>
 
         </div>
       </div>
@@ -154,9 +163,24 @@ Tu t'en iras un jour ou l'autre,<br>Laissant mon cœur dans un grand [__________
           <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
         </div>
         <div class="mistake-body" style="display:block;">
-                    <div class="mistake-item"><span class="mistake-wrong">Elle est partie avec sa valise blanche</span><span class="mistake-arrow">→</span><span class="mistake-right">Elle est partie avec sa valise blanche</span><span class="mistake-note-text">(Correct. L'adjectif de couleur 'blanche' s'accorde avec le nom féminin 'valise'.)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">J'ai fait un beau voyage à l'Italie</span><span class="mistake-arrow">→</span><span class="mistake-right">J'ai fait un beau voyage en Italie</span><span class="mistake-note-text">(Utilisez la préposition 'en' devant les pays féminins singuliers comme l'Italie.)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">C'est une illusion de croire cela</span><span class="mistake-arrow">→</span><span class="mistake-right">C'est une illusion de croire cela</span><span class="mistake-note-text">(Correct. N'oubliez pas d'utiliser 'de' devant l'infinitif.)</span></div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Je suis d'accord <span class="mistake-highlight">pour</span> ta philosophie</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Je suis d'accord avec ta philosophie</span>
+            <span class="mistake-note-text">(Utilisez la préposition 'avec' après 'être d'accord'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Il a fait beaucoup <span class="mistake-highlight">des</span> sacrifices</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Il a fait beaucoup de sacrifices</span>
+            <span class="mistake-note-text">(Utilisez 'de' après l'adverbe de quantité 'beaucoup'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Ses paroles m'ont blessé <span class="mistake-highlight">beaucoup</span></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Ses paroles m'ont beaucoup blessé</span>
+            <span class="mistake-note-text">(En français, l'adverbe se place avant le participe passé.)</span>
+          </div>
 
         </div>
       </div>

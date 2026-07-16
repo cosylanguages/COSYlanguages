@@ -38,46 +38,54 @@
     <p>Esplora lo splendido brano 'l'amore è un attimo' di Massimo Ranieri in Italiano. Questa sessione si concentra sul vocabolario legato a 'Amore & Passione' e sulle strutture linguistiche chiave del testo. Gli studenti faranno pratica di conversazione e dibattito su questi temi.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabolario della sessione</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">L'amore</div><div class="vocab-def">profondo sentimento di affetto o attrazione.</div><div class="vocab-example">L'amore per l'arte lo accompagna da tutta la vita.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amore', definition:'profondo sentimento di affetto o attrazione.', example:'L\'amore per l\'arte lo accompagna da tutta la vita.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'attimo</div><div class="vocab-def">brevissimo spazio di tempo, istante.</div><div class="vocab-example">Cogli l'attimo prima che sia troppo tardi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attimo', definition:'brevissimo spazio di tempo, istante.', example:'Cogli l\'attimo prima che sia troppo tardi.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La scintilla</div><div class="vocab-def">minuscolo frammento di materia incandescente.</div><div class="vocab-example">Una piccola scintilla può dare origine a un grande fuoco.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La scintilla', definition:'minuscolo frammento di materia incandescente.', example:'Una piccola scintilla può dare origine a un grande fuoco.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il bacio</div><div class="vocab-def">il toccare con le labbra in segno d'affetto.</div><div class="vocab-example">Si sono scambiati un tenero bacio prima di salutarsi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il bacio', definition:'il toccare con le labbra in segno d\'affetto.', example:'Si sono scambiati un tenero bacio prima di salutarsi.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il ricordo</div><div class="vocab-def">immagine conservata nella memoria.</div><div class="vocab-example">Conservo un bellissimo ricordo della nostra infanzia insieme.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il ricordo', definition:'immagine conservata nella memoria.', example:'Conservo un bellissimo ricordo della nostra infanzia insieme.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il battito</div><div class="vocab-def">colpo ritmico, battito del cuore.</div><div class="vocab-example">Sentiva il battito accelerato del cuore per l'emozione.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il battito', definition:'colpo ritmico, battito del cuore.', example:'Sentiva il battito accelerato del cuore per l\'emozione.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La passione</div><div class="vocab-def">forte sentimento di amore o entusiasmo.</div><div class="vocab-example">La musica classica è la sua più grande passione fin da bambina.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La passione', definition:'forte sentimento di amore o entusiasmo.', example:'La musica classica è la sua più grande passione fin da bambina.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il soffio</div><div class="vocab-def">leggera corrente d'aria prodotta dalla bocca.</div><div class="vocab-example">Un soffio di vento ha spento la candela sul tavolo.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il soffio', definition:'leggera corrente d\'aria prodotta dalla bocca.', example:'Un soffio di vento ha spento la candela sul tavolo.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Svanire</div><div class="vocab-def">dileguarsi o scomparire rapidamente.</div><div class="vocab-example">I dubbi sono iniziati a svanire dopo le sue spiegazioni.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Svanire', definition:'dileguarsi o scomparire rapidamente.', example:'I dubbi sono iniziati a svanire dopo le sue spiegazioni.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'infinito</div><div class="vocab-def">spazio o tempo senza limiti.</div><div class="vocab-example">Il cielo stellato ci fa percepire il senso dell'infinito.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'infinito', definition:'spazio o tempo senza limiti.', example:'Il cielo stellato ci fa percepire il senso dell\'infinito.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabolario della sessione</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">L'amore</div><div class="vocab-def">profondo sentimento di affetto o attrazione.</div><div class="vocab-example">L'amore per l'arte lo accompagna da tutta la vita.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amore', definition:'profondo sentimento di affetto o attrazione.', example:'L\'amore per l\'arte lo accompagna da tutta la vita.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'attimo</div><div class="vocab-def">brevissimo spazio di tempo, istante.</div><div class="vocab-example">Cogli l'attimo prima che sia troppo tardi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attimo', definition:'brevissimo spazio di tempo, istante.', example:'Cogli l\'attimo prima che sia troppo tardi.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La scintilla</div><div class="vocab-def">minuscolo frammento di materia incandescente.</div><div class="vocab-example">Una piccola scintilla può dare origine a un grande fuoco.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La scintilla', definition:'minuscolo frammento di materia incandescente.', example:'Una piccola scintilla può dare origine a un grande fuoco.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il bacio</div><div class="vocab-def">il toccare con le labbra in segno d'affetto.</div><div class="vocab-example">Si sono scambiati un tenero bacio prima di salutarsi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il bacio', definition:'il toccare con le labbra in segno d\'affetto.', example:'Si sono scambiati un tenero bacio prima di salutarsi.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il ricordo</div><div class="vocab-def">immagine conservata nella memoria.</div><div class="vocab-example">Conservo un bellissimo ricordo della nostra infanzia insieme.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il ricordo', definition:'immagine conservata nella memoria.', example:'Conservo un bellissimo ricordo della nostra infanzia insieme.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il battito</div><div class="vocab-def">colpo ritmico, battito del cuore.</div><div class="vocab-example">Sentiva il battito accelerato del cuore per l'emozione.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il battito', definition:'colpo ritmico, battito del cuore.', example:'Sentiva il battito accelerato del cuore per l\'emozione.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La passione</div><div class="vocab-def">forte sentimento di amore o entusiasmo.</div><div class="vocab-example">La musica classica è la sua più grande passione fin da bambina.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La passione', definition:'forte sentimento di amore o entusiasmo.', example:'La musica classica è la sua più grande passione fin da bambina.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il soffio</div><div class="vocab-def">leggera corrente d'aria prodotta dalla bocca.</div><div class="vocab-example">Un soffio di vento ha spento la candela sul tavolo.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il soffio', definition:'leggera corrente d\'aria prodotta dalla bocca.', example:'Un soffio di vento ha spento la candela sul tavolo.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Svanire</div><div class="vocab-def">dileguarsi o scomparire rapidamente.</div><div class="vocab-example">I dubbi sono iniziati a svanire dopo le sue spiegazioni.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Svanire', definition:'dileguarsi o scomparire rapidamente.', example:'I dubbi sono iniziati a svanire dopo le sue spiegazioni.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'infinito</div><div class="vocab-def">spazio o tempo senza limiti.</div><div class="vocab-example">Il cielo stellato ci fa percepire il senso dell'infinito.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'infinito', definition:'spazio o tempo senza limiti.', example:'Il cielo stellato ci fa percepire il senso dell\'infinito.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Esercizio di ascolto e riempimento spazi</h2>
-    <div class="vim-instruction">
-      <strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Esercizio di ascolto e riempimento spazi</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">amore</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">attimo</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">scintilla</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">bacio</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">ricordo</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Testo completo</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-L'amore è un attimo fuggente<br>Che travolge la mente<br>Un immenso [__________] sincero<br>In questo cielo così nero<br><br>Basta una piccola [__________] di fuoco<br>Per accendere questo grande gioco<br>Ci scambiamo un tenero [__________]<br>Che rimarrà come un dolce [__________]
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Testo completo</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">L'amore è un attimo fuggente<br>Che travolge la mente<br>Un immenso [__________] sincero<br>In questo cielo così nero<br><br>Basta una piccola [__________] di fuoco<br>Per accendere questo grande gioco<br>Ci scambiamo un tenero [__________]<br>Che rimarrà come un dolce [__________]</p>
+      </div>
     </div>
   </section>
 

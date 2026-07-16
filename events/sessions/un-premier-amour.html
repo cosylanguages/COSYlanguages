@@ -38,46 +38,54 @@
     <p>Explorez le magnifique titre 'un premier amour' de Isabelle Aubret en Français. Cette session se concentre sur le vocabulaire de 'Amour & Jeunesse' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">L'amour</div><div class="vocab-def">sentiment d'affection, de tendresse et d'attirance.</div><div class="vocab-example">L'amour familial est un pilier indispensable de la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amour', definition:'sentiment d\'affection, de tendresse et d\'attirance.', example:'L\'amour familial est un pilier indispensable de la vie.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La pureté</div><div class="vocab-def">qualité de ce qui est pur, sans mélange.</div><div class="vocab-example">La pureté de l'air de la montagne est remarquable.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La pureté', definition:'qualité de ce qui est pur, sans mélange.', example:'La pureté de l\'air de la montagne est remarquable.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La jeunesse</div><div class="vocab-def">période de la vie entre l'enfance et l'âge mûr.</div><div class="vocab-example">La jeunesse est une période d'apprentissage intense.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La jeunesse', definition:'période de la vie entre l\'enfance et l\'âge mûr.', example:'La jeunesse est une période d\'apprentissage intense.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le premier</div><div class="vocab-def">qui est avant tous les autres dans le temps.</div><div class="vocab-example">C'était son tout premier concert de musique classique.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le premier', definition:'qui est avant tous les autres dans le temps.', example:'C\'était son tout premier concert de musique classique.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le souvenir</div><div class="vocab-def">survivance d'une impression passée dans la mémoire.</div><div class="vocab-example">Ce voyage restera un magnifique souvenir pour nous tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le souvenir', definition:'survivance d\'une impression passée dans la mémoire.', example:'Ce voyage restera un magnifique souvenir pour nous tous.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'innocence</div><div class="vocab-def">état de quelqu'un qui n'est pas coupable, pureté.</div><div class="vocab-example">L'innocence des enfants est une chose précieuse.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'innocence', definition:'état de quelqu\'un qui n\'est pas coupable, pureté.', example:'L\'innocence des enfants est une chose précieuse.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Rêver</div><div class="vocab-def">faire des rêves pendant son sommeil ou imaginer.</div><div class="vocab-example">Elle aime rêver de voyages lointains et d'aventures.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Rêver', definition:'faire des rêves pendant son sommeil ou imaginer.', example:'Elle aime rêver de voyages lointains et d\'aventures.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le cœur</div><div class="vocab-def">organe musculaire creux, symbole de la vie et des sentiments.</div><div class="vocab-example">Elle écoute toujours son cœur pour prendre des décisions.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le cœur', definition:'organe musculaire creux, symbole de la vie et des sentiments.', example:'Elle écoute toujours son cœur pour prendre des décisions.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La douceur</div><div class="vocab-def">qualité de ce qui est doux, agréable et paisible.</div><div class="vocab-example">La douceur du climat méditerranéen attire les touristes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La douceur', definition:'qualité de ce qui est doux, agréable et paisible.', example:'La douceur du climat méditerranéen attire les touristes.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'éternité</div><div class="vocab-def">durée sans commencement ni fin, temps infini.</div><div class="vocab-example">Leurs œuvres d'art entreront dans l'éternité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'éternité', definition:'durée sans commencement ni fin, temps infini.', example:'Leurs œuvres d\'art entreront dans l\'éternité.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">L'amour</div><div class="vocab-def">sentiment d'affection, de tendresse et d'attirance.</div><div class="vocab-example">L'amour familial est un pilier indispensable de la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amour', definition:'sentiment d\'affection, de tendresse et d\'attirance.', example:'L\'amour familial est un pilier indispensable de la vie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La pureté</div><div class="vocab-def">qualité de ce qui est pur, sans mélange.</div><div class="vocab-example">La pureté de l'air de la montagne est remarquable.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La pureté', definition:'qualité de ce qui est pur, sans mélange.', example:'La pureté de l\'air de la montagne est remarquable.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La jeunesse</div><div class="vocab-def">période de la vie entre l'enfance et l'âge mûr.</div><div class="vocab-example">La jeunesse est une période d'apprentissage intense.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La jeunesse', definition:'période de la vie entre l\'enfance et l\'âge mûr.', example:'La jeunesse est une période d\'apprentissage intense.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le premier</div><div class="vocab-def">qui est avant tous les autres dans le temps.</div><div class="vocab-example">C'était son tout premier concert de musique classique.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le premier', definition:'qui est avant tous les autres dans le temps.', example:'C\'était son tout premier concert de musique classique.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le souvenir</div><div class="vocab-def">survivance d'une impression passée dans la mémoire.</div><div class="vocab-example">Ce voyage restera un magnifique souvenir pour nous tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le souvenir', definition:'survivance d\'une impression passée dans la mémoire.', example:'Ce voyage restera un magnifique souvenir pour nous tous.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'innocence</div><div class="vocab-def">état de quelqu'un qui n'est pas coupable, pureté.</div><div class="vocab-example">L'innocence des enfants est une chose précieuse.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'innocence', definition:'état de quelqu\'un qui n\'est pas coupable, pureté.', example:'L\'innocence des enfants est une chose précieuse.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Rêver</div><div class="vocab-def">faire des rêves pendant son sommeil ou imaginer.</div><div class="vocab-example">Elle aime rêver de voyages lointains et d'aventures.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Rêver', definition:'faire des rêves pendant son sommeil ou imaginer.', example:'Elle aime rêver de voyages lointains et d\'aventures.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le cœur</div><div class="vocab-def">organe musculaire creux, symbole de la vie et des sentiments.</div><div class="vocab-example">Elle écoute toujours son cœur pour prendre des décisions.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le cœur', definition:'organe musculaire creux, symbole de la vie et des sentiments.', example:'Elle écoute toujours son cœur pour prendre des décisions.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La douceur</div><div class="vocab-def">qualité de ce qui est doux, agréable et paisible.</div><div class="vocab-example">La douceur du climat méditerranéen attire les touristes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La douceur', definition:'qualité de ce qui est doux, agréable et paisible.', example:'La douceur du climat méditerranéen attire les touristes.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'éternité</div><div class="vocab-def">durée sans commencement ni fin, temps infini.</div><div class="vocab-example">Leurs œuvres d'art entreront dans l'éternité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'éternité', definition:'durée sans commencement ni fin, temps infini.', example:'Leurs œuvres d\'art entreront dans l\'éternité.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">amour</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">pureté</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">jeunesse</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">souvenir</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">cœur</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Un premier amour ne s'oublie jamais<br>Il reste gravé à tout jamais<br>Un bel [__________] plein d'espoir<br>Dans la douce clarté du soir<br><br>La magnifique [__________] des sentiments<br>De notre belle [__________] d'antan<br>Un tendre [__________] dans notre [__________]<br>Qui guérit nos peines pour toujours
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Un premier amour ne s'oublie jamais<br>Il reste gravé à tout jamais<br>Un bel [__________] plein d'espoir<br>Dans la douce clarté du soir<br><br>La magnifique [__________] des sentiments<br>De notre belle [__________] d'antan<br>Un tendre [__________] dans notre [__________]<br>Qui guérit nos peines pour toujours</p>
+      </div>
     </div>
   </section>
 

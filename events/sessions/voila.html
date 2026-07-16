@@ -38,46 +38,54 @@
     <p>Explorez le magnifique titre 'voila' de Barbara Pravi en Français. Cette session se concentre sur le vocabulaire de 'Authenticité & Scène' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">La présentation</div><div class="vocab-def">action de présenter quelqu'un ou quelque chose.</div><div class="vocab-example">La présentation du nouveau projet a été un grand succès.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La présentation', definition:'action de présenter quelqu\'un ou quelque chose.', example:'La présentation du nouveau projet a été un grand succès.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'authenticité</div><div class="vocab-def">qualité de ce qui est authentique, vrai.</div><div class="vocab-example">Le public apprécie l'authenticité de cet artiste.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'authenticité', definition:'qualité de ce qui est authentique, vrai.', example:'Le public apprécie l\'authenticité de cet artiste.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La voix</div><div class="vocab-def">ensemble des sons produits par les cordes vocales.</div><div class="vocab-example">Sa voix douce et mélodieuse calme immédiatement les enfants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La voix', definition:'ensemble des sons produits par les cordes vocales.', example:'Sa voix douce et mélodieuse calme immédiatement les enfants.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La vulnérabilité</div><div class="vocab-def">caractère de ce qui est vulnérable, fragile.</div><div class="vocab-example">Admettre sa vulnérabilité demande une grande force morale.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La vulnérabilité', definition:'caractère de ce qui est vulnérable, fragile.', example:'Admettre sa vulnérabilité demande une grande force morale.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le public</div><div class="vocab-def">ensemble des personnes qui assistent à un spectacle.</div><div class="vocab-example">Le public a applaudi chaleureusement la chanteuse.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le public', definition:'ensemble des personnes qui assistent à un spectacle.', example:'Le public a applaudi chaleureusement la chanteuse.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Se donner</div><div class="vocab-def">se consacrer entièrement à une tâche ou une cause.</div><div class="vocab-example">Il faut se donner à fond pour réussir ses examens.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Se donner', definition:'se consacrer entièrement à une tâche ou une cause.', example:'Il faut se donner à fond pour réussir ses examens.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La scène</div><div class="vocab-def">espace surélevé où se produisent les artistes.</div><div class="vocab-example">Elle est montée sur scène sous les applaudissements.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La scène', definition:'espace surélevé où se produisent les artistes.', example:'Elle est montée sur scène sous les applaudissements.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'artiste</div><div class="vocab-def">personne qui crée des œuvres d'art ou se produit.</div><div class="vocab-example">Cet artiste peintre expose ses toiles dans le monde entier.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'artiste', definition:'personne qui crée des œuvres d\'art ou se produit.', example:'Cet artiste peintre expose ses toiles dans le monde entier.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'écoute</div><div class="vocab-def">action d'écouter attentivement.</div><div class="vocab-example">La qualité d'écoute est essentielle dans une relation.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'écoute', definition:'action d\'écouter attentivement.', example:'La qualité d\'écoute est essentielle dans une relation.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">puissance qui semble régler le cours de la vie.</div><div class="vocab-example">Elle croit fermement que son destin est entre ses mains.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance qui semble régler le cours de la vie.', example:'Elle croit fermement que son destin est entre ses mains.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">La présentation</div><div class="vocab-def">action de présenter quelqu'un ou quelque chose.</div><div class="vocab-example">La présentation du nouveau projet a été un grand succès.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La présentation', definition:'action de présenter quelqu\'un ou quelque chose.', example:'La présentation du nouveau projet a été un grand succès.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'authenticité</div><div class="vocab-def">qualité de ce qui est authentique, vrai.</div><div class="vocab-example">Le public apprécie l'authenticité de cet artiste.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'authenticité', definition:'qualité de ce qui est authentique, vrai.', example:'Le public apprécie l\'authenticité de cet artiste.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La voix</div><div class="vocab-def">ensemble des sons produits par les cordes vocales.</div><div class="vocab-example">Sa voix douce et mélodieuse calme immédiatement les enfants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La voix', definition:'ensemble des sons produits par les cordes vocales.', example:'Sa voix douce et mélodieuse calme immédiatement les enfants.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La vulnérabilité</div><div class="vocab-def">caractère de ce qui est vulnérable, fragile.</div><div class="vocab-example">Admettre sa vulnérabilité demande une grande force morale.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La vulnérabilité', definition:'caractère de ce qui est vulnérable, fragile.', example:'Admettre sa vulnérabilité demande une grande force morale.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le public</div><div class="vocab-def">ensemble des personnes qui assistent à un spectacle.</div><div class="vocab-example">Le public a applaudi chaleureusement la chanteuse.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le public', definition:'ensemble des personnes qui assistent à un spectacle.', example:'Le public a applaudi chaleureusement la chanteuse.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Se donner</div><div class="vocab-def">se consacrer entièrement à une tâche ou une cause.</div><div class="vocab-example">Il faut se donner à fond pour réussir ses examens.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Se donner', definition:'se consacrer entièrement à une tâche ou une cause.', example:'Il faut se donner à fond pour réussir ses examens.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La scène</div><div class="vocab-def">espace surélevé où se produisent les artistes.</div><div class="vocab-example">Elle est montée sur scène sous les applaudissements.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La scène', definition:'espace surélevé où se produisent les artistes.', example:'Elle est montée sur scène sous les applaudissements.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'artiste</div><div class="vocab-def">personne qui crée des œuvres d'art ou se produit.</div><div class="vocab-example">Cet artiste peintre expose ses toiles dans le monde entier.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'artiste', definition:'personne qui crée des œuvres d\'art ou se produit.', example:'Cet artiste peintre expose ses toiles dans le monde entier.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'écoute</div><div class="vocab-def">action d'écouter attentivement.</div><div class="vocab-example">La qualité d'écoute est essentielle dans une relation.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'écoute', definition:'action d\'écouter attentivement.', example:'La qualité d\'écoute est essentielle dans une relation.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">puissance qui semble régler le cours de la vie.</div><div class="vocab-example">Elle croit fermement que son destin est entre ses mains.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance qui semble régler le cours de la vie.', example:'Elle croit fermement que son destin est entre ses mains.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">authenticité</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">voix</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">vulnérabilité</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">public</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">scène</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Voilà, regardez-moi<br>Ou du moins ce qu'il reste de moi<br>Une quête d'[__________] sincère<br>Portée par ma puissante [__________]<br><br>J'expose ma grande [__________] nue<br>Devant ce grand [__________] inconnu<br>Seule debout sur cette immense [__________]<br>Pour vous offrir ma plus belle âme
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Voilà, regardez-moi<br>Ou du moins ce qu'il reste de moi<br>Une quête d'[__________] sincère<br>Portée par ma puissante [__________]<br><br>J'expose ma grande [__________] nue<br>Devant ce grand [__________] inconnu<br>Seule debout sur cette immense [__________]<br>Pour vous offrir ma plus belle âme</p>
+      </div>
     </div>
   </section>
 

@@ -38,46 +38,54 @@
     <p>Explore the beautiful track 'casualties of war' by Gossip in American English. This session focuses on the vocabulary of Conflict & Survival and key linguistic structures of the lyrics. Students will practice speaking and debating about these themes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Casualty</div><div class="vocab-def">a person killed or injured in an accident.</div><div class="vocab-example">There was not a single casualty in the minor incident.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Casualty', definition:'a person killed or injured in an accident.', example:'There was not a single casualty in the minor incident.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Conflict</div><div class="vocab-def">a serious disagreement or argument.</div><div class="vocab-example">The story explores the conflict between duty and personal desire.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Conflict', definition:'a serious disagreement or argument.', example:'The story explores the conflict between duty and personal desire.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Scars</div><div class="vocab-def">a mark left on the skin or within a person's mind.</div><div class="vocab-example">The physical and mental scars of the war healed slowly.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Scars', definition:'a mark left on the skin or within a person\'s mind.', example:'The physical and mental scars of the war healed slowly.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Painful</div><div class="vocab-def">causing physical or mental pain.</div><div class="vocab-example">It was a painful memory that she preferred to forget.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Painful', definition:'causing physical or mental pain.', example:'It was a painful memory that she preferred to forget.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Aftermath</div><div class="vocab-def">the consequences or aftereffects of a significant event.</div><div class="vocab-example">They worked hard to rebuild the town in the aftermath of the storm.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Aftermath', definition:'the consequences or aftereffects of a significant event.', example:'They worked hard to rebuild the town in the aftermath of the storm.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Anger</div><div class="vocab-def">a strong feeling of annoyance or displeasure.</div><div class="vocab-example">He struggled to control his rising anger during the argument.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Anger', definition:'a strong feeling of annoyance or displeasure.', example:'He struggled to control his rising anger during the argument.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Betrayal</div><div class="vocab-def">the action of betraying trust or a person.</div><div class="vocab-example">The unexpected betrayal shattered their long friendship.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Betrayal', definition:'the action of betraying trust or a person.', example:'The unexpected betrayal shattered their long friendship.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Survival</div><div class="vocab-def">the state of continuing to live or exist.</div><div class="vocab-example">Survival in the desert requires careful water management.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Survival', definition:'the state of continuing to live or exist.', example:'Survival in the desert requires careful water management.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Devastation</div><div class="vocab-def">great destruction or damage.</div><div class="vocab-example">The hurricane left a trail of severe devastation.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Devastation', definition:'great destruction or damage.', example:'The hurricane left a trail of severe devastation.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Reconciliation</div><div class="vocab-def">the restoration of friendly relations.</div><div class="vocab-example">They reached a beautiful reconciliation after many years.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Reconciliation', definition:'the restoration of friendly relations.', example:'They reached a beautiful reconciliation after many years.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Session Vocabulary</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Casualty</div><div class="vocab-def">a person killed or injured in an accident.</div><div class="vocab-example">There was not a single casualty in the minor incident.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Casualty', definition:'a person killed or injured in an accident.', example:'There was not a single casualty in the minor incident.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Conflict</div><div class="vocab-def">a serious disagreement or argument.</div><div class="vocab-example">The story explores the conflict between duty and personal desire.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Conflict', definition:'a serious disagreement or argument.', example:'The story explores the conflict between duty and personal desire.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Scars</div><div class="vocab-def">a mark left on the skin or within a person's mind.</div><div class="vocab-example">The physical and mental scars of the war healed slowly.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Scars', definition:'a mark left on the skin or within a person\'s mind.', example:'The physical and mental scars of the war healed slowly.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Painful</div><div class="vocab-def">causing physical or mental pain.</div><div class="vocab-example">It was a painful memory that she preferred to forget.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Painful', definition:'causing physical or mental pain.', example:'It was a painful memory that she preferred to forget.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Aftermath</div><div class="vocab-def">the consequences or aftereffects of a significant event.</div><div class="vocab-example">They worked hard to rebuild the town in the aftermath of the storm.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Aftermath', definition:'the consequences or aftereffects of a significant event.', example:'They worked hard to rebuild the town in the aftermath of the storm.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Anger</div><div class="vocab-def">a strong feeling of annoyance or displeasure.</div><div class="vocab-example">He struggled to control his rising anger during the argument.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Anger', definition:'a strong feeling of annoyance or displeasure.', example:'He struggled to control his rising anger during the argument.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Betrayal</div><div class="vocab-def">the action of betraying trust or a person.</div><div class="vocab-example">The unexpected betrayal shattered their long friendship.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Betrayal', definition:'the action of betraying trust or a person.', example:'The unexpected betrayal shattered their long friendship.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Survival</div><div class="vocab-def">the state of continuing to live or exist.</div><div class="vocab-example">Survival in the desert requires careful water management.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Survival', definition:'the state of continuing to live or exist.', example:'Survival in the desert requires careful water management.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Devastation</div><div class="vocab-def">great destruction or damage.</div><div class="vocab-example">The hurricane left a trail of severe devastation.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Devastation', definition:'great destruction or damage.', example:'The hurricane left a trail of severe devastation.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Reconciliation</div><div class="vocab-def">the restoration of friendly relations.</div><div class="vocab-example">They reached a beautiful reconciliation after many years.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Reconciliation', definition:'the restoration of friendly relations.', example:'They reached a beautiful reconciliation after many years.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Listening & Gap-Fill Exercise</h2>
-    <div class="vim-instruction">
-      <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Listening & Gap-Fill Exercise</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">Casualty</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Conflict</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Scars</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Aftermath</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Survival</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-We are the casualties of war<br>Fighting for what we had before<br>Each person is a silent [__________] of pain<br>In this cold and endless rain<br><br>Our bitter [__________] has left deep marks<br>Like fire burning in the dark<br>And in the quiet [__________] we stand<br>Fighting for our own [__________]
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">We are the casualties of war<br>Fighting for what we had before<br>Each person is a silent [__________] of pain<br>In this cold and endless rain<br><br>Our bitter [__________] has left deep marks<br>Like fire burning in the dark<br>And in the quiet [__________] we stand<br>Fighting for our own [__________]</p>
+      </div>
     </div>
   </section>
 

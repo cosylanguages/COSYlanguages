@@ -30,58 +30,66 @@
   <a href="../karaoke-club.html" class="back-link">← Back to Club</a>
   <div class="session-meta-grid">
     <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
-    <div class="meta-item"><h4>Variety</h4><p>American English</p></div>
+    <div class="meta-item"><h4>Variety/Language</h4><p>American English</p></div>
     <div class="meta-item"><h4>Level</h4><p>Intermediate (B1)</p></div>
-    <div class="meta-item"><h4>Focus</h4><p>Thrift & Envy</p></div>
+    <div class="meta-item"><h4>Thematic Focus</h4><p>Thrift & Envy</p></div>
   </div>
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>This session explores Barbra Streisand's theatrical performance of the vintage classic, "Second Hand Rose". Students will learn NYC theatrical slang and mid-century conversational expressions related to secondhand lifestyle, thrift, and bargain hunting. We will discuss social comparison, family hand-me-downs, and peer envy.</p>
+    <p>Explore the beautiful track 'Second Hand Rose' by Barbra Streisand in American English. This session focuses on the vocabulary of Thrift & Envy and key linguistic structures of the lyrics. Students will practice speaking and debating about these themes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-            <div class="vocab-card"><div class="vocab-word">Secondhand</div><div class="vocab-def">having had a previous owner; not new.</div><div class="vocab-example">She bought a beautiful secondhand piano for her living room.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Secondhand', definition:'having had a previous owner; not new.', example:'She bought a beautiful secondhand piano for her living room.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Thrift</div><div class="vocab-def">the quality of using money and other resources carefully and not wastefully.</div><div class="vocab-example">Her grandmother taught her the value of thrift and saving money.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Thrift', definition:'the quality of using money and other resources carefully and not wastefully.', example:'Her grandmother taught her the value of thrift and saving money.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Envy</div><div class="vocab-def">a feeling of discontented or resentful longing aroused by someone else's possessions.</div><div class="vocab-example">She watched her classmate's brand-new car with a hint of envy.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Envy', definition:'a feeling of discontented or resentful longing aroused by someone else\'s possessions.', example:'She watched her classmate\'s brand-new car with a hint of envy.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Hand-me-down</div><div class="vocab-def">a garment or other item that has been passed on from another person.</div><div class="vocab-example">As the youngest child, he always wore his brother's old hand-me-down clothes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Hand-me-down', definition:'a garment or other item that has been passed on from another person.', example:'As the youngest child, he always wore his brother\'s old hand-me-down clothes.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Bargain</div><div class="vocab-def">a thing bought or offered for sale much more cheaply than is usual.</div><div class="vocab-example">Getting this antique table for fifty dollars was a real bargain.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Bargain', definition:'a thing bought or offered for sale much more cheaply than is usual.', example:'Getting this antique table for fifty dollars was a real bargain.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Luxury</div><div class="vocab-def">the state of great comfort and extravagant living.</div><div class="vocab-example">They spent their holiday in absolute luxury at a five-star resort.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Luxury', definition:'the state of great comfort and extravagant living.', example:'They spent their holiday in absolute luxury at a five-star resort.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Imitation</div><div class="vocab-def">a thing intended to copy something else, especially an expensive product.</div><div class="vocab-example">The cheap plastic bag was a poor imitation of the designer leather brand.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Imitation', definition:'a thing intended to copy something else, especially an expensive product.', example:'The cheap plastic bag was a poor imitation of the designer leather brand.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Antique</div><div class="vocab-def">a collectible object such as a piece of furniture or work of art that has high value because of its age.</div><div class="vocab-example">He loves to browse local shops for beautiful antique clocks.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Antique', definition:'a collectible object such as a piece of furniture or work of art that has high value because of its age.', example:'He loves to browse local shops for beautiful antique clocks.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Gossip</div><div class="vocab-def">casual or unconstrained conversation or reports about other people.</div><div class="vocab-example">She promised not to listen to silly workplace gossip anymore.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Gossip', definition:'casual or unconstrained conversation or reports about other people.', example:'She promised not to listen to silly workplace gossip anymore.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Pride</div><div class="vocab-def">a feeling of deep pleasure or satisfaction derived from one's own achievements.</div><div class="vocab-example">She took great pride in completing the marathon under four hours.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Pride', definition:'a feeling of deep pleasure or satisfaction derived from one\'s own achievements.', example:'She took great pride in completing the marathon under four hours.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Session Vocabulary</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Secondhand</div><div class="vocab-def">Target vocabulary word meaning in 'Second Hand Rose'.</div><div class="vocab-example">This is an elegant example of using 'Secondhand'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Secondhand', definition:'Target vocabulary word meaning in \'Second Hand Rose\'.', example:'This is an elegant example of using \'Secondhand\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Thrift</div><div class="vocab-def">Target vocabulary word meaning in 'Second Hand Rose'.</div><div class="vocab-example">This is an elegant example of using 'Thrift'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Thrift', definition:'Target vocabulary word meaning in \'Second Hand Rose\'.', example:'This is an elegant example of using \'Thrift\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Envy</div><div class="vocab-def">Target vocabulary word meaning in 'Second Hand Rose'.</div><div class="vocab-example">This is an elegant example of using 'Envy'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Envy', definition:'Target vocabulary word meaning in \'Second Hand Rose\'.', example:'This is an elegant example of using \'Envy\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Hand-me-down</div><div class="vocab-def">Target vocabulary word meaning in 'Second Hand Rose'.</div><div class="vocab-example">This is an elegant example of using 'Hand-me-down'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Hand-me-down', definition:'Target vocabulary word meaning in \'Second Hand Rose\'.', example:'This is an elegant example of using \'Hand-me-down\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Bargain</div><div class="vocab-def">Target vocabulary word meaning in 'Second Hand Rose'.</div><div class="vocab-example">This is an elegant example of using 'Bargain'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Bargain', definition:'Target vocabulary word meaning in \'Second Hand Rose\'.', example:'This is an elegant example of using \'Bargain\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Luxury</div><div class="vocab-def">Target vocabulary word meaning in 'Second Hand Rose'.</div><div class="vocab-example">This is an elegant example of using 'Luxury'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Luxury', definition:'Target vocabulary word meaning in \'Second Hand Rose\'.', example:'This is an elegant example of using \'Luxury\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Imitation</div><div class="vocab-def">Target vocabulary word meaning in 'Second Hand Rose'.</div><div class="vocab-example">This is an elegant example of using 'Imitation'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Imitation', definition:'Target vocabulary word meaning in \'Second Hand Rose\'.', example:'This is an elegant example of using \'Imitation\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Antique</div><div class="vocab-def">Target vocabulary word meaning in 'Second Hand Rose'.</div><div class="vocab-example">This is an elegant example of using 'Antique'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Antique', definition:'Target vocabulary word meaning in \'Second Hand Rose\'.', example:'This is an elegant example of using \'Antique\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Gossip</div><div class="vocab-def">Target vocabulary word meaning in 'Second Hand Rose'.</div><div class="vocab-example">This is an elegant example of using 'Gossip'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Gossip', definition:'Target vocabulary word meaning in \'Second Hand Rose\'.', example:'This is an elegant example of using \'Gossip\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Pride</div><div class="vocab-def">Target vocabulary word meaning in 'Second Hand Rose'.</div><div class="vocab-example">This is an elegant example of using 'Pride'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Pride', definition:'Target vocabulary word meaning in \'Second Hand Rose\'.', example:'This is an elegant example of using \'Pride\'.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Listening &amp; Gap-Fill Exercise</h2>
-    <div class="vim-instruction">
-      <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Listening & Gap-Fill Exercise</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">second-hand</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">grand</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">clothes</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">brand-new</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">coats</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Father's business is doing fine,<br>But all my things are second-hand line.<br>Wearing a [__________] dress to the ball,<br>Not looking very elegant at all.<br><br>Everyone else looks so [__________] and neat,<br>Walking down the busy street.<br>In my second-hand [__________] and shoes,<br>Singing the low-down blues.<br><br>While others buy [__________] things,<br>Like expensive diamond rings.<br>I wear old [__________] from last year,<br>Shedding a silent, lonely tear.
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Father's business is doing fine,<br>But all my things are second-hand line.<br>Wearing a [__________] dress to the ball,<br>Not looking very elegant at all.<br><br>Everyone else looks so [__________] and neat,<br>Walking down the busy street.<br>In my second-hand [__________] and shoes,<br>Singing the low-down blues.<br><br>While others buy [__________] things,<br>Like expensive diamond rings.<br>I wear old [__________] from last year,<br>Shedding a silent, lonely tear.</p>
+      </div>
     </div>
   </section>
 
+  <!-- DISCUSSION STRUCTURE -->
   <section id="structure">
     <h2 class="section-title">🎙️ Discussion Structure</h2>
     <div class="rounds-container">
@@ -90,10 +98,11 @@ Father's business is doing fine,<br>But all my things are second-hand line.<br>W
           <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Share your raw feelings about the artist and sing along to the introductory melodies.</div>
+          <div class="vim-instruction">Initial reactions to the melody, rhythm, and artist.</div>
           <ul class="round-questions">
-            <li>Have you ever heard this particular song before today's session?</li>
-            <li>What genres of music bring you the most comfort during a hectic week?</li>
+            <li>Have you ever listened to 'Second Hand Rose' before?</li>
+            <li>What kind of emotions does this style of music bring to you?</li>
+
           </ul>
         </div>
       </div>
@@ -103,17 +112,17 @@ Father's business is doing fine,<br>But all my things are second-hand line.<br>W
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Questions</div>
-          <div class="vim-instruction">Dissect the core theme of the song and practice speaking using the highlighted lyrics.</div>
-                    <div class="round-item"><div class="round-item-main">Do you enjoy buying <strong>secondhand</strong> books or furniture?</div><div class="round-item-personal">★ Have you ever bought something at a flea market?</div></div>
-          <div class="round-item"><div class="round-item-main">How did your parents teach you the concept of <strong>thrift</strong> when you were young?</div><div class="round-item-personal">★ Are you careful with your monthly budget?</div></div>
-          <div class="round-item"><div class="round-item-main">Why does social media encourage such an intense sense of peer <strong>envy</strong>?</div><div class="round-item-personal">★ Have you ever envied an influencer's lifestyle?</div></div>
-          <div class="round-item"><div class="round-item-main">What is your opinion on wearing a <strong>hand-me-down</strong> coat from a relative?</div><div class="round-item-personal">★ Did you wear hand-me-downs as a child?</div></div>
-          <div class="round-item"><div class="round-item-main">What is the best <strong>bargain</strong> you have ever found in a local shop?</div><div class="round-item-personal">★ Do you like negotiating prices?</div></div>
-          <div class="round-item"><div class="round-item-main">Is spending money on pure <strong>luxury</strong> items ever justified in a difficult economy?</div><div class="round-item-personal">★ What is your favorite luxury treat?</div></div>
-          <div class="round-item"><div class="round-item-main">Why are cheap <strong>imitation</strong> goods so popular despite their low quality?</div><div class="round-item-personal">★ Have you ever bought an imitation brand?</div></div>
-          <div class="round-item"><div class="round-item-main">How can you tell if a piece of wooden furniture is a genuine <strong>antique</strong>?</div><div class="round-item-personal">★ Do you have any antiques in your home?</div></div>
-          <div class="round-item"><div class="round-item-main">How does harmful office <strong>gossip</strong> affect team productivity?</div><div class="round-item-personal">★ Do people gossip a lot in your workplace?</div></div>
-          <div class="round-item"><div class="round-item-main">Why is it important to take <strong>pride</strong> in your daily professional work?</div><div class="round-item-personal">★ What achievement are you most proud of?</div></div>
+          <div class="vim-instruction">Analyze the song's key verses and speak using the targeted vocabulary.</div>
+          <div class="round-item"><div class="round-item-main">How does <strong>secondhand</strong> play a symbolic role in the storytelling of 'Second Hand Rose'?</div><div class="round-item-personal">★ Do you personally feel that <strong>secondhand</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>thrift</strong> play a symbolic role in the storytelling of 'Second Hand Rose'?</div><div class="round-item-personal">★ Do you personally feel that <strong>thrift</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>envy</strong> play a symbolic role in the storytelling of 'Second Hand Rose'?</div><div class="round-item-personal">★ Do you personally feel that <strong>envy</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>hand-me-down</strong> play a symbolic role in the storytelling of 'Second Hand Rose'?</div><div class="round-item-personal">★ Do you personally feel that <strong>hand-me-down</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>bargain</strong> play a symbolic role in the storytelling of 'Second Hand Rose'?</div><div class="round-item-personal">★ Do you personally feel that <strong>bargain</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>luxury</strong> play a symbolic role in the storytelling of 'Second Hand Rose'?</div><div class="round-item-personal">★ Do you personally feel that <strong>luxury</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>imitation</strong> play a symbolic role in the storytelling of 'Second Hand Rose'?</div><div class="round-item-personal">★ Do you personally feel that <strong>imitation</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>antique</strong> play a symbolic role in the storytelling of 'Second Hand Rose'?</div><div class="round-item-personal">★ Do you personally feel that <strong>antique</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>gossip</strong> play a symbolic role in the storytelling of 'Second Hand Rose'?</div><div class="round-item-personal">★ Do you personally feel that <strong>gossip</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>pride</strong> play a symbolic role in the storytelling of 'Second Hand Rose'?</div><div class="round-item-personal">★ Do you personally feel that <strong>pride</strong> is important?</div></div>
 
         </div>
       </div>
@@ -122,7 +131,7 @@ Father's business is doing fine,<br>But all my things are second-hand line.<br>W
           <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <p class="round-note">Visual contrast: Acoustic Concert vs Electronic Studio Performance.</p>
+          <p class="round-note">Visual contrast: Live Acoustic Cafe vs Electric Stage Lights.</p>
           <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
             <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
             <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
@@ -131,21 +140,21 @@ Father's business is doing fine,<br>But all my things are second-hand line.<br>W
       </div>
       <div class="round-block round-2 open" id="s-r2">
         <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Lyric Deep Dive &amp; Debate</span><span class="round-toggle">▲</span>
+          <span>🟢 Round 2 — Lyric Deep Dive & Debate</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Debate</div>
-          <div class="vim-instruction">Evaluate these deep and controversial statements inspired by the song's philosophical themes.</div>
-                    <div class="round-item"><div class="round-item-main">In the future, buying <strong>secondhand</strong> goods will be more fashionable than buying new ones.</div></div>
-          <div class="round-item"><div class="round-item-main">Teaching <strong>thrift</strong> is less important than teaching children how to make more money.</div></div>
-          <div class="round-item"><div class="round-item-main">Healthy <strong>envy</strong> is a powerful motivator that helps people achieve their goals.</div></div>
-          <div class="round-item"><div class="round-item-main">A <strong>hand-me-down</strong> lifestyle is psychologically damaging for young children.</div></div>
-          <div class="round-item"><div class="round-item-main">Looking for a cheap <strong>bargain</strong> is a waste of valuable time that could be spent working.</div></div>
-          <div class="round-item"><div class="round-item-main">True <strong>luxury</strong> is having free time rather than owning expensive physical items.</div></div>
-          <div class="round-item"><div class="round-item-main">An <strong>imitation</strong> of high art is just as valuable as the original piece.</div></div>
-          <div class="round-item"><div class="round-item-main">Modern furniture is much more practical and comfortable than a heavy <strong>antique</strong>.</div></div>
-          <div class="round-item"><div class="round-item-main">Some level of casual <strong>gossip</strong> is necessary for social bonding in any community.</div></div>
-          <div class="round-item"><div class="round-item-main">Too much <strong>pride</strong> in one's background is the primary cause of cultural conflicts.</div></div>
+          <div class="vim-instruction">Evaluate these philosophical statements regarding the song's underlying cultural concepts.</div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>secondhand</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>thrift</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>envy</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>hand-me-down</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>bargain</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>luxury</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>imitation</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>antique</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>gossip</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>pride</strong> is becoming nearly impossible.</div></div>
 
         </div>
       </div>
@@ -154,9 +163,24 @@ Father's business is doing fine,<br>But all my things are second-hand line.<br>W
           <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
         </div>
         <div class="mistake-body" style="display:block;">
-                    <div class="mistake-item"><span class="mistake-wrong">She bought a secondhand piano with a cheap price</span><span class="mistake-arrow">→</span><span class="mistake-right">She bought a secondhand piano at a cheap price</span><span class="mistake-note-text">(Use 'at a cheap price' or 'for a cheap price'.)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">He wears his brother's hand-me-downs clothes</span><span class="mistake-arrow">→</span><span class="mistake-right">He wears his brother's hand-me-down clothes</span><span class="mistake-note-text">(When used as an adjective before a noun, use the singular form 'hand-me-down'.)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">I have envy of his new luxury car</span><span class="mistake-arrow">→</span><span class="mistake-right">I envy his new luxury car</span><span class="mistake-note-text">(Use the verb 'envy' directly or say 'I feel envy towards...'.)</span></div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">There is a big improvement <span class="mistake-highlight">of</span> my English</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">There is a big improvement in my English</span>
+            <span class="mistake-note-text">(Use 'in' after 'improvement' to express domain.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">It was a great relief <span class="mistake-highlight">of</span> hearing the news</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">It was a great relief to hear the news</span>
+            <span class="mistake-note-text">(Use 'relief' + infinitive 'to hear'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">She is in the choir <span class="mistake-highlight">since</span> three years</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">She has been in the choir for three years</span>
+            <span class="mistake-note-text">(Use present perfect + 'for' to show duration of state.)</span>
+          </div>
 
         </div>
       </div>

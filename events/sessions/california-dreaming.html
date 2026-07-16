@@ -38,46 +38,54 @@
     <p>Explore the beautiful track 'California dreaming' by The Mamas and Papas in American English. This session focuses on the vocabulary of Dreaming & Winter and key linguistic structures of the lyrics. Students will practice speaking and debating about these themes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Dreaming</div><div class="vocab-def">indulging in daydreams or fantasies.</div><div class="vocab-example">He was dreaming of a warm sunny beach in California.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Dreaming', definition:'indulging in daydreams or fantasies.', example:'He was dreaming of a warm sunny beach in California.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Preacher</div><div class="vocab-def">a person who delivers sermons or religious discourses.</div><div class="vocab-example">The preacher delivered an inspiring sermon on Sunday morning.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Preacher', definition:'a person who delivers sermons or religious discourses.', example:'The preacher delivered an inspiring sermon on Sunday morning.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Winter</div><div class="vocab-def">the coldest season of the year.</div><div class="vocab-example">The cold winter winds chilled us to the bone.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Winter', definition:'the coldest season of the year.', example:'The cold winter winds chilled us to the bone.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Warm</div><div class="vocab-def">having or showing a moderate degree of heat.</div><div class="vocab-example">A warm bowl of soup is perfect for a cold day.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Warm', definition:'having or showing a moderate degree of heat.', example:'A warm bowl of soup is perfect for a cold day.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Safe</div><div class="vocab-def">protected from or not exposed to danger or risk.</div><div class="vocab-example">Keep your important documents in a safe place.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Safe', definition:'protected from or not exposed to danger or risk.', example:'Keep your important documents in a safe place.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Sky</div><div class="vocab-def">the region of the atmosphere visible from the earth.</div><div class="vocab-example">The blue sky was dotted with fluffy white clouds.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sky', definition:'the region of the atmosphere visible from the earth.', example:'The blue sky was dotted with fluffy white clouds.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Brown</div><div class="vocab-def">of a color produced by mixing red, yellow, and black.</div><div class="vocab-example">The autumn leaves turned a beautiful shade of brown.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Brown', definition:'of a color produced by mixing red, yellow, and black.', example:'The autumn leaves turned a beautiful shade of brown.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Leave</div><div class="vocab-def">go away from.</div><div class="vocab-example">They decided to leave the party before it got too late.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Leave', definition:'go away from.', example:'They decided to leave the party before it got too late.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Pray</div><div class="vocab-def">address a solemn request or expression of thanks.</div><div class="vocab-example">They gather to pray for peace and prosperity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Pray', definition:'address a solemn request or expression of thanks.', example:'They gather to pray for peace and prosperity.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Sensation</div><div class="vocab-def">a physical feeling or perception.</div><div class="vocab-example">The new roller coaster gives an exciting sensation of speed.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sensation', definition:'a physical feeling or perception.', example:'The new roller coaster gives an exciting sensation of speed.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Session Vocabulary</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Dreaming</div><div class="vocab-def">indulging in daydreams or fantasies.</div><div class="vocab-example">He was dreaming of a warm sunny beach in California.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Dreaming', definition:'indulging in daydreams or fantasies.', example:'He was dreaming of a warm sunny beach in California.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Preacher</div><div class="vocab-def">a person who delivers sermons or religious discourses.</div><div class="vocab-example">The preacher delivered an inspiring sermon on Sunday morning.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Preacher', definition:'a person who delivers sermons or religious discourses.', example:'The preacher delivered an inspiring sermon on Sunday morning.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Winter</div><div class="vocab-def">the coldest season of the year.</div><div class="vocab-example">The cold winter winds chilled us to the bone.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Winter', definition:'the coldest season of the year.', example:'The cold winter winds chilled us to the bone.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Warm</div><div class="vocab-def">having or showing a moderate degree of heat.</div><div class="vocab-example">A warm bowl of soup is perfect for a cold day.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Warm', definition:'having or showing a moderate degree of heat.', example:'A warm bowl of soup is perfect for a cold day.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Safe</div><div class="vocab-def">protected from or not exposed to danger or risk.</div><div class="vocab-example">Keep your important documents in a safe place.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Safe', definition:'protected from or not exposed to danger or risk.', example:'Keep your important documents in a safe place.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Sky</div><div class="vocab-def">the region of the atmosphere visible from the earth.</div><div class="vocab-example">The blue sky was dotted with fluffy white clouds.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sky', definition:'the region of the atmosphere visible from the earth.', example:'The blue sky was dotted with fluffy white clouds.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Brown</div><div class="vocab-def">of a color produced by mixing red, yellow, and black.</div><div class="vocab-example">The autumn leaves turned a beautiful shade of brown.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Brown', definition:'of a color produced by mixing red, yellow, and black.', example:'The autumn leaves turned a beautiful shade of brown.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Leave</div><div class="vocab-def">go away from.</div><div class="vocab-example">They decided to leave the party before it got too late.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Leave', definition:'go away from.', example:'They decided to leave the party before it got too late.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Pray</div><div class="vocab-def">address a solemn request or expression of thanks.</div><div class="vocab-example">They gather to pray for peace and prosperity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Pray', definition:'address a solemn request or expression of thanks.', example:'They gather to pray for peace and prosperity.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Sensation</div><div class="vocab-def">a physical feeling or perception.</div><div class="vocab-example">The new roller coaster gives an exciting sensation of speed.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sensation', definition:'a physical feeling or perception.', example:'The new roller coaster gives an exciting sensation of speed.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Listening & Gap-Fill Exercise</h2>
-    <div class="vim-instruction">
-      <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Listening & Gap-Fill Exercise</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">brown</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">sky</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">walk</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">winter</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">dreamin</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-All the leaves are [__________]<br>And the [__________] is gray<br>I've been for a [__________]<br>On a winter's day<br><br>I'd be safe and warm<br>If I was in L.A.<br>California [__________]<br>On such a [__________]'s day
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">All the leaves are [__________]<br>And the [__________] is gray<br>I've been for a [__________]<br>On a winter's day<br><br>I'd be safe and warm<br>If I was in L.A.<br>California [__________]<br>On such a [__________]'s day</p>
+      </div>
     </div>
   </section>
 
