@@ -21,7 +21,65 @@ CHALLENGE_MAP = {
     "cass-elliot-challenge": ("make-your-own-kind-of-music", "its-getting-better"),
     "la-zarra-challenge": ("diva", "tu-ten-iras"),
     "kate-bush-challenge": ("army-dreamers", "oh-to-be-in-love"),
-    "crazy-ex-girlfriend-challenge": ("unlikely-lovers", "where-is-my-husband"),
+    "crazy-ex-girlfriend-challenge": ("love-kernels", "lets-generalize-about-men", "so-maternal", "face-your-fears"),
+}
+
+SONG_LINKS = {
+    "unlikely-lovers": "https://www.youtube.com/watch?v=5OGNf3OuGhk",
+    "where-is-my-husband": "https://www.youtube.com/watch?v=rK5TyISxZ_M",
+    "love-kernels": "https://www.youtube.com/watch?v=bkAjUBtn_TM",
+    "lets-generalize-about-men": "https://www.youtube.com/watch?v=Oa_QtMf6alU",
+    "so-maternal": "https://www.youtube.com/watch?v=_kZHtfH4cYc",
+    "face-your-fears": "https://www.youtube.com/watch?v=brzZQBSVMX0",
+    "the-greatest": "https://www.youtube.com/watch?v=Ndo8r_Hg_lg",
+    "army-dreamers": "https://www.youtube.com/watch?v=QOZDKlpybZE",
+    "oh-to-be-in-love": "https://www.youtube.com/watch?v=AdKbloadwEA",
+    "jim-beam": "https://www.youtube.com/watch?v=HiMEsJ5jZnk",
+    "to-idio-to-theo": "https://www.youtube.com/watch?v=Xl42ihdAXVs",
+    "coming-around-again": "https://www.youtube.com/watch?v=c0A7jAVDPJU",
+    "second-hand-rose": "https://www.youtube.com/watch?v=E5yoZiT97Vw",
+    "tu-ten-iras": "https://www.youtube.com/watch?v=GfVpI8Sf-RQ",
+    "diva": "https://www.youtube.com/watch?v=m5AuYZriiU0",
+    "ma-philosophie": "https://www.youtube.com/watch?v=D38EUIll1pM",
+    "overprotected": "https://www.youtube.com/watch?v=PZYSiWHW8V0",
+    "make-your-own-kind-of-music": "https://www.youtube.com/watch?v=PEQxEJ5_5zA",
+    "its-getting-better": "https://www.youtube.com/watch?v=5i8Lir_ysis",
+    "na-i-agapi-na": "https://www.youtube.com/watch?v=gKUQsn6ohRo",
+    "california-dreaming": "https://www.youtube.com/watch?v=KOok1WzZbOY",
+    "as-it-was": "https://www.youtube.com/watch?v=H5v3kku4y6Q",
+    "vyshe-domov": "https://www.youtube.com/watch?v=8mlxM56hrjI",
+    "voila": "https://www.youtube.com/watch?v=VJuD7AnV-uw",
+    "un-premier-amour": "https://www.youtube.com/watch?v=k--jlvMf7QM",
+    "casualties-of-war": "https://www.youtube.com/watch?v=JfgNCxxwcXE",
+    "bien-plus-fort": "https://www.youtube.com/watch?v=vVG5OLn6s-Q",
+    "quelquun-pour-toi": "https://www.youtube.com/watch?v=eSVC1_swGzo",
+    "la-tour-eiffel-est-pour-moi": "https://www.youtube.com/watch?v=jAkgkrlMc8c",
+    "le-soleil-noir": "https://www.youtube.com/watch?v=6sDC0ytyJ18",
+    "la-nuit-nen-finit-plus": "https://www.youtube.com/watch?v=ymwY8Wnl_hk",
+    "immobile": "https://www.youtube.com/watch?v=ADEc3L31tj8",
+    "nos-ames-sont": "https://www.youtube.com/watch?v=JkAOWAvWtKI",
+    "laziza": "https://www.youtube.com/watch?v=O4ACXQxCgc8",
+    "left-outside-alone": "https://www.youtube.com/watch?v=eV9cQqLg5n4",
+    "nuevo-verano": "https://www.youtube.com/watch?v=UQ9QvM2zt6Y",
+    "balance-ton-quoi": "https://www.youtube.com/watch?v=Hi7Rx3En7-k",
+    "oui-ou-non": "https://www.youtube.com/watch?v=XqAiGeEzctQ",
+    "te-alejas-mas-de-mi": "https://www.youtube.com/watch?v=sVdxA0rFN5c",
+    "amor-libre": "https://www.youtube.com/watch?v=1Hc9ekRxs0g",
+    "o-gatos": "https://www.youtube.com/watch?v=TvgeXAVhVdA",
+    "kapoies-nychtes": "https://www.youtube.com/watch?v=ZoBLe933nsM",
+    "lamore-e-un-attimo": "https://www.youtube.com/watch?v=Z-pMF6xaRtY",
+    "chi-sara-con-te": "https://www.youtube.com/watch?v=rq8lpdP2JYg",
+    "u-mamy-est-sekret": "https://www.youtube.com/watch?v=krt2AXyXHHE",
+    "mixed-up-world": "https://www.youtube.com/watch?v=jSTSgmZDspU",
+    "unatta-estate": "https://www.youtube.com/watch?v=D6TvAskGBx4",
+    "due-grosse-lacrime-bianche": "https://www.youtube.com/watch?v=uL1QLj1aRM8",
+    "luomo-che-amava-le-donne": "https://www.youtube.com/watch?v=HR4bB_Dw4Qs",
+    "toi-mon-amour": "https://www.youtube.com/watch?v=2m_hEmcHqOI",
+    "salut": "https://www.youtube.com/watch?v=CSh3MCOiiCs",
+    "angeleyes": "https://www.youtube.com/watch?v=GHddJnNo_BQ",
+    "me-and-i": "https://www.youtube.com/watch?v=CaoBiFYu-FI",
+    "je-taime-comme-je-taime": "https://www.youtube.com/watch?v=zu9HiCSVyAg",
+    "toutes-les-machines-ont-le-coeur": "https://www.youtube.com/watch?v=UVz3xR1X9RU"
 }
 
 # Translation / Localization resources for all 6 supported languages
@@ -595,6 +653,10 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <div class="meta-item"><h4>{lang_label}</h4><p>{variety_lang}</p></div>
     <div class="meta-item"><h4>{level_label}</h4><p>{level_long}</p></div>
     <div class="meta-item"><h4>{focus_label}</h4><p>{focus}</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="{song_link}" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="{song_link_backup}" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
   </div>
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
     <p>{description}</p>
@@ -797,37 +859,35 @@ for slug in sorted(CHALLENGE_MAP.keys()):
     elif "C1" in level_raw:
         level_short = "C1"
 
-    # Merge full lyrics and helpers from the two constituent songs of this challenge
-    sub1_slug, sub2_slug = CHALLENGE_MAP[slug]
+    # Merge full lyrics and helpers from the constituent songs of this challenge
+    sub_slugs = CHALLENGE_MAP[slug]
 
-    # Locate title names of sub-songs
-    sub1_title = next((s["title"] for s in songs_list if s["slug"] == sub1_slug), sub1_slug.replace("-", " ").title())
-    sub2_title = next((s["title"] for s in songs_list if s["slug"] == sub2_slug), sub2_slug.replace("-", " ").title())
+    combined_lyrics_parts = []
+    combined_helpers = []
 
-    lyrics_1 = LYRICS_DATA[sub1_slug]["lyrics"]
-    lyrics_2 = LYRICS_DATA[sub2_slug]["lyrics"]
+    for i, sub_slug in enumerate(sub_slugs):
+        # Locate title names of sub-songs
+        sub_title = next((s["title"] for s in songs_list if s["slug"] == sub_slug), sub_slug.replace("-", " ").title())
+        lyrics_text = LYRICS_DATA[sub_slug]["lyrics"]
 
-    # Localized labels for "Song" / "Chanson" etc.
-    song_label = "Song 1"
-    song_label_2 = "Song 2"
-    if lang == "fr":
-        song_label = "Chanson 1"
-        song_label_2 = "Chanson 2"
-    elif lang == "it":
-        song_label = "Canzone 1"
-        song_label_2 = "Canzone 2"
-    elif lang == "es":
-        song_label = "Canción 1"
-        song_label_2 = "Canción 2"
-    elif lang == "ru":
-        song_label = "Песня 1"
-        song_label_2 = "Песня 2"
-    elif lang == "el":
-        song_label = "Τραγούδι 1"
-        song_label_2 = "Τραγούδι 2"
+        # Localized labels for "Song" / "Chanson" etc.
+        song_label = f"Song {i+1}"
+        if lang == "fr":
+            song_label = f"Chanson {i+1}"
+        elif lang == "it":
+            song_label = f"Canzone {i+1}"
+        elif lang == "es":
+            song_label = f"Canción {i+1}"
+        elif lang == "ru":
+            song_label = f"Песня {i+1}"
+        elif lang == "el":
+            song_label = f"Τραγούδι {i+1}"
 
-    combined_lyrics = f"{song_label}: {sub1_title}\n\n{lyrics_1}\n\n{song_label_2}: {sub2_title}\n\n{lyrics_2}"
-    combined_helpers = list(dict.fromkeys(LYRICS_DATA[sub1_slug]["helpers"] + LYRICS_DATA[sub2_slug]["helpers"]))
+        combined_lyrics_parts.append(f"{song_label}: {sub_title}\n\n{lyrics_text}")
+        combined_helpers.extend(LYRICS_DATA[sub_slug]["helpers"])
+
+    combined_lyrics = "\n\n".join(combined_lyrics_parts)
+    combined_helpers = list(dict.fromkeys(combined_helpers))
 
     challenges_list.append({
         "slug": slug,
@@ -870,6 +930,13 @@ for song in all_karaoke_data:
 
     # Localization keys
     loc = LOCALIZATIONS[lang] if lang in LOCALIZATIONS else LOCALIZATIONS["en"]
+
+    # Look up link
+    song_link = SONG_LINKS.get(slug, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+{artist.replace(' ', '+')}")
+    if slug in CHALLENGE_MAP:
+        first_sub = CHALLENGE_MAP[slug][0]
+        song_link = SONG_LINKS.get(first_sub, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+{artist.replace(' ', '+')}")
+    song_link_backup = song_link
 
     # Build vocabulary cards html
     vocab_cards_html = ""
@@ -995,6 +1062,8 @@ for song in all_karaoke_data:
         level_label=loc["level_label"],
         focus_label=loc["focus_label"],
         focus=focus,
+        song_link=song_link,
+        song_link_backup=song_link_backup,
         description=desc,
         vocab_title=loc["vocab_title"],
         vocab_cards_html=vocab_cards_html,
