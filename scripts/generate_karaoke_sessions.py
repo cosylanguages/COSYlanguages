@@ -24,6 +24,44 @@ CHALLENGE_MAP = {
     "crazy-ex-girlfriend-challenge": ("love-kernels", "lets-generalize-about-men", "so-maternal", "face-your-fears"),
 }
 
+SONG_LINKS = {
+    "unlikely-lovers": "https://www.youtube.com/watch?v=5OGNf3OuGhk",
+    "where-is-my-husband": "https://www.youtube.com/watch?v=rK5TyISxZ_M",
+    "love-kernels": "https://www.youtube.com/watch?v=bkAjUBtn_TM",
+    "lets-generalize-about-men": "https://www.youtube.com/watch?v=Oa_QtMf6alU",
+    "so-maternal": "https://www.youtube.com/watch?v=_kZHtfH4cYc",
+    "face-your-fears": "https://www.youtube.com/watch?v=brzZQBSVMX0",
+    "the-greatest": "https://www.youtube.com/watch?v=Ndo8r_Hg_lg",
+    "army-dreamers": "https://www.youtube.com/watch?v=QOZDKlpybZE",
+    "oh-to-be-in-love": "https://www.youtube.com/watch?v=AdKbloadwEA",
+    "jim-beam": "https://www.youtube.com/watch?v=HiMEsJ5jZnk",
+    "to-idio-to-theo": "https://www.youtube.com/watch?v=Xl42ihdAXVs",
+    "coming-around-again": "https://www.youtube.com/watch?v=c0A7jAVDPJU",
+    "second-hand-rose": "https://www.youtube.com/watch?v=E5yoZiT97Vw",
+    "tu-ten-iras": "https://www.youtube.com/watch?v=GfVpI8Sf-RQ",
+    "diva": "https://www.youtube.com/watch?v=m5AuYZriiU0",
+    "ma-philosophie": "https://www.youtube.com/watch?v=D38EUIll1pM",
+    "overprotected": "https://www.youtube.com/watch?v=PZYSiWHW8V0",
+    "make-your-own-kind-of-music": "https://www.youtube.com/watch?v=PEQxEJ5_5zA",
+    "its-getting-better": "https://www.youtube.com/watch?v=5i8Lir_ysis",
+    "na-i-agapi-na": "https://www.youtube.com/watch?v=gKUQsn6ohRo",
+    "california-dreaming": "https://www.youtube.com/watch?v=KOok1WzZbOY",
+    "as-it-was": "https://www.youtube.com/watch?v=H5v3kku4y6Q",
+    "vyshe-domov": "https://www.youtube.com/watch?v=8mlxM56hrjI",
+    "voila": "https://www.youtube.com/watch?v=VJuD7AnV-uw",
+    "un-premier-amour": "https://www.youtube.com/watch?v=k--jlvMf7QM",
+    "casualties-of-war": "https://www.youtube.com/watch?v=JfgNCxxwcXE",
+    "bien-plus-fort": "https://www.youtube.com/watch?v=vVG5OLn6s-Q",
+    "quelquun-pour-toi": "https://www.youtube.com/watch?v=eSVC1_swGzo",
+    "la-tour-eiffel-est-pour-moi": "https://www.youtube.com/watch?v=jAkgkrlMc8c",
+    "le-soleil-noir": "https://www.youtube.com/watch?v=6sDC0ytyJ18",
+    "la-nuit-nen-finit-plus": "https://www.youtube.com/watch?v=ymwY8Wnl_hk",
+    "immobile": "https://www.youtube.com/watch?v=ADEc3L31tj8",
+    "nos-ames-sont": "https://www.youtube.com/watch?v=JkAOWAvWtKI",
+    "laziza": "https://www.youtube.com/watch?v=O4ACXQxCgc8",
+    "left-outside-alone": "https://www.youtube.com/watch?v=eV9cQqLg5n4"
+}
+
 # Translation / Localization resources for all 6 supported languages
 LOCALIZATIONS = {
     "en": {
@@ -595,6 +633,10 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <div class="meta-item"><h4>{lang_label}</h4><p>{variety_lang}</p></div>
     <div class="meta-item"><h4>{level_label}</h4><p>{level_long}</p></div>
     <div class="meta-item"><h4>{focus_label}</h4><p>{focus}</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="{song_link}" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="{song_link_backup}" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
   </div>
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
     <p>{description}</p>
@@ -869,6 +911,13 @@ for song in all_karaoke_data:
     # Localization keys
     loc = LOCALIZATIONS[lang] if lang in LOCALIZATIONS else LOCALIZATIONS["en"]
 
+    # Look up link
+    song_link = SONG_LINKS.get(slug, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+{artist.replace(' ', '+')}")
+    if slug in CHALLENGE_MAP:
+        first_sub = CHALLENGE_MAP[slug][0]
+        song_link = SONG_LINKS.get(first_sub, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+{artist.replace(' ', '+')}")
+    song_link_backup = song_link
+
     # Build vocabulary cards html
     vocab_cards_html = ""
     for w in song["vocab"]:
@@ -993,6 +1042,8 @@ for song in all_karaoke_data:
         level_label=loc["level_label"],
         focus_label=loc["focus_label"],
         focus=focus,
+        song_link=song_link,
+        song_link_backup=song_link_backup,
         description=desc,
         vocab_title=loc["vocab_title"],
         vocab_cards_html=vocab_cards_html,
