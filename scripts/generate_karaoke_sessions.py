@@ -21,7 +21,7 @@ CHALLENGE_MAP = {
     "cass-elliot-challenge": ("make-your-own-kind-of-music", "its-getting-better"),
     "la-zarra-challenge": ("diva", "tu-ten-iras"),
     "kate-bush-challenge": ("army-dreamers", "oh-to-be-in-love"),
-    "crazy-ex-girlfriend-challenge": ("unlikely-lovers", "where-is-my-husband"),
+    "crazy-ex-girlfriend-challenge": ("love-kernels", "lets-generalize-about-men", "so-maternal", "face-your-fears"),
 }
 
 # Translation / Localization resources for all 6 supported languages
@@ -797,37 +797,35 @@ for slug in sorted(CHALLENGE_MAP.keys()):
     elif "C1" in level_raw:
         level_short = "C1"
 
-    # Merge full lyrics and helpers from the two constituent songs of this challenge
-    sub1_slug, sub2_slug = CHALLENGE_MAP[slug]
+    # Merge full lyrics and helpers from the constituent songs of this challenge
+    sub_slugs = CHALLENGE_MAP[slug]
 
-    # Locate title names of sub-songs
-    sub1_title = next((s["title"] for s in songs_list if s["slug"] == sub1_slug), sub1_slug.replace("-", " ").title())
-    sub2_title = next((s["title"] for s in songs_list if s["slug"] == sub2_slug), sub2_slug.replace("-", " ").title())
+    combined_lyrics_parts = []
+    combined_helpers = []
 
-    lyrics_1 = LYRICS_DATA[sub1_slug]["lyrics"]
-    lyrics_2 = LYRICS_DATA[sub2_slug]["lyrics"]
+    for i, sub_slug in enumerate(sub_slugs):
+        # Locate title names of sub-songs
+        sub_title = next((s["title"] for s in songs_list if s["slug"] == sub_slug), sub_slug.replace("-", " ").title())
+        lyrics_text = LYRICS_DATA[sub_slug]["lyrics"]
 
-    # Localized labels for "Song" / "Chanson" etc.
-    song_label = "Song 1"
-    song_label_2 = "Song 2"
-    if lang == "fr":
-        song_label = "Chanson 1"
-        song_label_2 = "Chanson 2"
-    elif lang == "it":
-        song_label = "Canzone 1"
-        song_label_2 = "Canzone 2"
-    elif lang == "es":
-        song_label = "Canción 1"
-        song_label_2 = "Canción 2"
-    elif lang == "ru":
-        song_label = "Песня 1"
-        song_label_2 = "Песня 2"
-    elif lang == "el":
-        song_label = "Τραγούδι 1"
-        song_label_2 = "Τραγούδι 2"
+        # Localized labels for "Song" / "Chanson" etc.
+        song_label = f"Song {i+1}"
+        if lang == "fr":
+            song_label = f"Chanson {i+1}"
+        elif lang == "it":
+            song_label = f"Canzone {i+1}"
+        elif lang == "es":
+            song_label = f"Canción {i+1}"
+        elif lang == "ru":
+            song_label = f"Песня {i+1}"
+        elif lang == "el":
+            song_label = f"Τραγούδι {i+1}"
 
-    combined_lyrics = f"{song_label}: {sub1_title}\n\n{lyrics_1}\n\n{song_label_2}: {sub2_title}\n\n{lyrics_2}"
-    combined_helpers = list(dict.fromkeys(LYRICS_DATA[sub1_slug]["helpers"] + LYRICS_DATA[sub2_slug]["helpers"]))
+        combined_lyrics_parts.append(f"{song_label}: {sub_title}\n\n{lyrics_text}")
+        combined_helpers.extend(LYRICS_DATA[sub_slug]["helpers"])
+
+    combined_lyrics = "\n\n".join(combined_lyrics_parts)
+    combined_helpers = list(dict.fromkeys(combined_helpers))
 
     challenges_list.append({
         "slug": slug,

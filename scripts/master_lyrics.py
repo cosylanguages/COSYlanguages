@@ -796,5 +796,90 @@ S'envoleront loin de moi."""
 И ничего не вернуть уже.
 Мы уходим в эту холодную [__________],
 Где не важна никакая верность."""
+    },
+    "love-kernels": {
+        "helpers": ["stockpile", "cactus", "drought", "symbolism", "kernels"],
+        "lyrics": """How do I know he loves me? It's the little things.
+Little compliments here and there that I secretly [__________] in my woman-brain.
+I can live for days of a single "You really listen to me."
+I'm like a sexy fashion-[__________].
+Livin' from compliment to compliment. Hint to hint.
+Storin' them in my body through long periods of [__________].
+I may look dry, but if you cut me open, you'll find only water inside.
+Incidentally that is also a useful fact for how to survive in the desert.
+But how do I know he loves me?
+I guess the only way to prove it is with abstract [__________].
+
+He gives me love [__________].
+Each little crumb another tasty clue.
+Love kernels.
+'Cause if you read between the lines he's sayin' "I love you."
+Love kernels.
+Save those kernels up to make a bowl of popcorn.
+Love kernels.
+A handful is the proper serving anyway."""
+    },
+    "lets-generalize-about-men": {
+        "helpers": ["opposite", "distinguish", "blanket", "generalize", "conflate"],
+        "lyrics": """Right now, we're angry and sad.
+It's our right to get righteously mad.
+At every member of the [__________] sex.
+Oh God, we hate them!
+Let's not [__________] between them at all.
+Let's just drink a lot more alcohol!
+And then high-five each other as we make a bunch of [__________] statements.
+
+Let's [__________] about men!
+Let's generalize about men!
+Let's take one bad thing about one man.
+And then apply it to all of them.
+Let's [__________] all the guys.
+Let's generalize. About men!
+
+All men are completely repressed!
+All men only want to have sex!
+There are no exceptions!
+All three billion men are like this!"""
+    },
+    "so-maternal": {
+        "helpers": ["harrowing", "matriarch", "expectations", "instinctual", "maternal"],
+        "lyrics": """Parenting ain't [__________], demanding or dramatic!
+Let's face facts, moms say that when they're not this good at it!
+Step aside ladies, give your babies to a Carol Brady-level [__________].
+The only hard part of it is, how hard I'll hit this when I knock it out of the park!
+
+Your hands [Raise 'em up]
+Your glass [Raise it up]
+Low [__________] [Raise 'em up]
+Your children, I'm gonna raise 'em up!
+
+It's [__________], I'm a natural, I am tireless multitasktical.
+My mom gave the flame and it'll burn eternal.
+Damn I'm so [__________]!
+So maternal! So maternal! So maternal!"""
+    },
+    "face-your-fears": {
+        "helpers": ["tiptoe", "frightened", "stare", "scary", "fears"],
+        "lyrics": """I used to be afraid.
+Of so much in this world.
+I'd [__________] through each day, like some
+[__________] little girl.
+Then one day I realized I can't just
+Run and hide from life.
+Now if someone pulls a gun on me
+I pull out my knife!
+
+[__________] them down.
+Don't be scared.
+Stand your ground.
+'Cause nothing is as [__________]
+As it appears.
+All you gotta do
+Is face your [__________].
+
+If a bear runs at you in the woods,
+Don't run away.
+Look it deep in the eyes,
+Put your hand on its chest, and say “Bear, I'm not afraid!”"""
     }
 }
