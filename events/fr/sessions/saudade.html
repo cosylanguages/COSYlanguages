@@ -33,7 +33,15 @@
 <section id="description" style="margin-bottom:3rem;">
 <p>Le désir intraduisible pour ce qui est perdu. Nous analyserons la profondeur émotionnelle du mot 'saudade' et comment il exprime la nostalgie poétique et l'amour mélancolique. Comment d'autres cultures traduisent-elles ce sentiment unique ?</p>
 </section>
-<section id="vocabulary">
+
+  <!-- PHILOSOPHERS' LEDGER INTERACTIVE CARD -->
+  <div class="philosophers-ledger" style="background: #FFFDF9; border: 2px solid #5D4037; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: var(--shadow-sm); font-family: 'Playfair Display', serif; font-style: italic; color: #3E2723;">
+    <h4 style="margin: 0 0 0.5rem; font-family: 'DM Sans', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #5D4037; font-style: normal; font-weight: 700;">☕ The Philosophers' Ledger: Café Debates</h4>
+    <p id="ledger-quote" style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1rem;">"Let us see how many interpretations exist! There is never only one correct answer to any profound human question." — Oscar Wilde</p>
+    <button class="btn-primary" id="ledger-next-btn" style="background: #5D4037; color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.8rem; font-family: 'DM Sans', sans-serif; font-style: normal; cursor: pointer; font-weight: 700; transition: background 0.2s;">Next Page in Ledger 📖</button>
+  </div>
+
+  <section id="vocabulary">
 <h2 class="section-title">📖 Vocabulaire de la session</h2>
 <div class="vocab-grid-10">
 <div class="vocab-card"><div class="vocab-word">Empathie</div><div class="vocab-def">compréhension des sentiments d'autrui.</div><div class="vocab-example">L'empathie est cruciale.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Empathie', definition:'compréhension des sentiments d'autrui.', example:'L'empathie est cruciale.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Conscient</div><div class="vocab-def">conscient de son environnement.</div><div class="vocab-example">Il était conscient du changement.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Conscient', definition:'conscient de son environnement.', example:'Il était conscient du changement.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Détachement</div><div class="vocab-def">état d'être objectif.</div><div class="vocab-example">Je ressens un certain détachement.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Détachement', definition:'état d'être objectif.', example:'Je ressens un certain détachement.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Vulnérabilité</div><div class="vocab-def">être exposé aux blessures.</div><div class="vocab-example">La vulnérabilité est une force.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Vulnérabilité', definition:'être exposé aux blessures.', example:'La vulnérabilité est une force.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Projection</div><div class="vocab-def">attribuer des traits aux autres.</div><div class="vocab-example">C'était une projection psychologique.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Projection', definition:'attribuer des traits aux autres.', example:'C'était une projection psychologique.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Subconscient</div><div class="vocab-def">partie de l'esprit non consciente.</div><div class="vocab-example">Le rêve venait du subconscient.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Subconscient', definition:'partie de l'esprit non consciente.', example:'Le rêve venait du subconscient.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">État d'esprit</div><div class="vocab-def">ensemble d'attitudes.</div><div class="vocab-example">Gardez un bon état d'esprit.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'État d'esprit', definition:'ensemble d'attitudes.', example:'Gardez un bon état d'esprit.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Biais</div><div class="vocab-def">préjugé en faveur de quelque chose.</div><div class="vocab-example">Vérifiez vos biais internes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Biais', definition:'préjugé en faveur de quelque chose.', example:'Vérifiez vos biais internes.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Intuition</div><div class="vocab-def">capacité à comprendre instinctivement.</div><div class="vocab-example">Faites confiance à votre intuition.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Intuition', definition:'capacité à comprendre instinctivement.', example:'Faites confiance à votre intuition.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Cognitif</div><div class="vocab-def">relatif aux processus mentaux.</div><div class="vocab-example">La charge cognitive est élevée.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Cognitif', definition:'relatif aux processus mentaux.', example:'La charge cognitive est élevée.'}, this)">Ajouter au dictionnaire</button></div>
@@ -104,5 +112,27 @@
 </footer>
 <script src="../../../js/core/engine.js"></script>
 <script src="../../../js/core/ui.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const quotes = [
+    '"Let us see how many interpretations exist! There is never only one correct answer." — Oscar Wilde',
+    '"To live is the rarest thing in the world. Most people exist, that is all." — Oscar Wilde',
+    '"The mystery of life is not a problem to be solved, but a reality to be experienced." — Alan Watts',
+    '"You have power over your mind - not outside events. Realize this, and you will find strength." — Marcus Aurelius'
+  ];
+  let index = 0;
+  const quoteText = document.getElementById('ledger-quote');
+  const nextBtn = document.getElementById('ledger-next-btn');
+
+  if (nextBtn && quoteText) {
+    nextBtn.addEventListener('click', () => {
+      index = (index + 1) % quotes.length;
+      quoteText.innerText = quotes[index];
+    });
+  }
+});
+</script>
+
 </body>
 </html>

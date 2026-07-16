@@ -17,7 +17,7 @@
 
 <style>
   .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
-  .club-hero { background: linear-gradient(135deg, #534AB7, #2a255c); color: white; padding: 4rem 2rem; text-align: center; }
+  .club-hero { background: linear-gradient(135deg, #5D4037, #3E2723); color: white; padding: 4rem 2rem; text-align: center; }
   .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
   .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
 </style>
@@ -29,7 +29,7 @@
 <header class="club-hero">
   <img src="../images/thegreatestquotes.png" alt="Quotes logo" style="height: 100px; width: auto; margin-bottom: 1.5rem;">
   <h1>The Greatest Quotes</h1>
-  <p>One quote. Deep unpacking. What did they mean — and what does it mean to you?</p>
+  <p>One quote. Deep unpacking. Let's see how many interpretations exist! Imagine Oscar Wilde, Alan Watts, and Marcus Aurelius sitting in a cozy café discussing the depth of human thought. Never one correct answer.</p>
 </header>
 
 <section class="container" style="padding: 2rem 1.5rem 5rem;">
@@ -55,6 +55,118 @@
         <div style="display:flex;gap:10px;align-items:center;">
           <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20The%20Greatest%20Quotes.">💬 Register interest</a>
           <a href="../games/index.html?game=critic" class="btn-play-game" style="margin-top:4px;">Play Game 🎮</a>
+        </div>
+
+        <!-- PHILOSOPHY CAFE INTERACTIVE WIDGET -->
+        <style>
+          .cafe-ledger {
+            background: #FAF5EF;
+            border: 4px double #5D4037;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            box-shadow: 0 8px 24px rgba(93, 64, 55, 0.15);
+            color: #3E2723;
+            font-family: 'Playfair Display', serif;
+            text-align: left;
+          }
+          .ledger-header {
+            border-bottom: 2px solid #5D4037;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8rem;
+            font-family: 'DM Sans', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #5D4037;
+            font-weight: 700;
+          }
+          .ledger-screen {
+            background: #FFFDF9;
+            border: 1px solid #D7CCC8;
+            border-radius: 6px;
+            padding: 1.2rem;
+            min-height: 160px;
+            box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);
+            font-size: 1rem;
+            line-height: 1.6;
+            position: relative;
+            overflow-y: auto;
+          }
+          .ledger-cursor {
+            display: inline-block;
+            width: 8px;
+            height: 1.2rem;
+            background: #5D4037;
+            margin-left: 2px;
+            animation: ledger-blink 1s step-end infinite;
+            vertical-align: middle;
+          }
+          @keyframes ledger-blink {
+            from, to { background-color: transparent }
+            50% { background-color: #5D4037 }
+          }
+          .ledger-input-wrapper {
+            margin-top: 1rem;
+            display: flex;
+            gap: 10px;
+          }
+          .ledger-input {
+            flex-grow: 1;
+            background: #FFF;
+            border: 1px solid #5D4037;
+            border-radius: 6px;
+            color: #3E2723;
+            padding: 0.6rem;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.9rem;
+          }
+          .ledger-input:focus {
+            outline: none;
+            border-color: #8D6E63;
+            box-shadow: 0 0 8px rgba(141, 110, 99, 0.4);
+          }
+          .ledger-btn {
+            background: #5D4037;
+            color: #FFFEFB;
+            border: none;
+            border-radius: 6px;
+            padding: 0.6rem 1.2rem;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+          }
+          .ledger-btn:hover {
+            background: #8D6E63;
+            transform: translateY(-1px);
+          }
+          .ledger-hint {
+            font-size: 0.72rem;
+            font-family: 'DM Sans', sans-serif;
+            color: #8D6E63;
+            margin-top: 0.5rem;
+            text-align: right;
+          }
+        </style>
+
+        <div class="cafe-ledger" id="ledger-widget">
+          <div class="ledger-header">
+            <span>☕ Philosophy Café — Dialogue Ledger</span>
+            <span>Table: Wilde, Watts, & Aurelius</span>
+          </div>
+          <div class="ledger-screen" id="ledger-screen">
+            <span id="ledger-typewriter-text">Oscar Wilde, Alan Watts, and Marcus Aurelius are sitting at a corner table, smelling of dark roasted coffee. "What shall we debate today?" Oscar asks, polishing his spectacles. Type a topic or keyword (e.g. success, ignorance, art, death, love) below to start our philosophical espresso table.</span><span class="ledger-cursor"></span>
+          </div>
+          <div class="ledger-input-wrapper">
+            <input type="text" class="ledger-input" id="ledger-input" placeholder="Type a topic (e.g. success, ignorance, art, death, love)..." maxlength="100">
+            <button class="ledger-btn" id="ledger-submit-btn">DISCUSS</button>
+          </div>
+          <div class="ledger-hint">💡 Hint: Type anything to see how many wild interpretations we can spark!</div>
         </div>
 
         <!-- HISTORY -->
@@ -264,5 +376,195 @@
 <script src="../js/core/ui.js"></script>
 <script src="../js/data/pricing.js"></script>
 <script src="../js/config.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const ledgerInput = document.getElementById('ledger-input');
+  const submitBtn = document.getElementById('ledger-submit-btn');
+  const screenText = document.getElementById('ledger-typewriter-text');
+
+  // 1. Web Audio Synth for cozy key clicks and café bell chime
+  let audioCtx = null;
+
+  function initAudio() {
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === 'suspended') {
+      audioCtx.resume();
+    }
+  }
+
+  function playKeyClick() {
+    try {
+      initAudio();
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(2800 + Math.random() * 300, audioCtx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(1200, audioCtx.currentTime + 0.012);
+
+      gain.gain.setValueAtTime(0.05, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.010);
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.012);
+    } catch (e) {
+      // Fallback
+    }
+  }
+
+  function playBellChime() {
+    try {
+      initAudio();
+      const osc1 = audioCtx.createOscillator();
+      const osc2 = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+
+      osc1.frequency.setValueAtTime(1800, audioCtx.currentTime);
+      osc2.frequency.setValueAtTime(2400, audioCtx.currentTime);
+
+      gain.gain.setValueAtTime(0.15, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.6);
+
+      osc1.connect(gain);
+      osc2.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc1.start();
+      osc2.start();
+      osc1.stop(audioCtx.currentTime + 0.6);
+      osc2.stop(audioCtx.currentTime + 0.6);
+    } catch (e) {
+      // Fallback
+    }
+  }
+
+  ledgerInput.addEventListener('keydown', (e) => {
+    if (e.key.length === 1 || e.key === 'Backspace' || e.key === ' ') {
+      playKeyClick();
+    }
+  });
+
+  // 2. Philosophical Dialogue Metaphor Engine
+  const responses = [
+    {
+      keywords: ['success', 'ambition', 'goal', 'win', 'wealth', 'money'],
+      text: "<strong>Marcus Aurelius:</strong> 'True success is doing your duty with a tranquil mind. External praise is nothing.'<br><strong>Oscar Wilde:</strong> 'Oh, dear Marcus, success is a public misunderstanding! I prefer scandals—they are so much more authentic.'<br><strong>Alan Watts:</strong> 'Why run after success? You are trying to catch a wave that you are already part of. Let go and enjoy the cup of coffee!'"
+    },
+    {
+      keywords: ['ignorance', 'knowing', 'wisdom', 'knowledge', 'nothing', 'socrates'],
+      text: "<strong>Marcus Aurelius:</strong> 'We must constantly examine our ignorance to avoid being ruled by false opinions.'<br><strong>Alan Watts:</strong> 'Exactly! The mystery of life is not a problem to be solved, but a reality to be experienced. When you know nothing, you know everything.'<br><strong>Oscar Wilde:</strong> 'Personally, I love ignorance. It's like a delicate exotic fruit; touch it and the bloom is gone.'"
+    },
+    {
+      keywords: ['art', 'ai', 'painting', 'song', 'music', 'creative', 'beauty'],
+      text: "<strong>Oscar Wilde:</strong> 'Art is the only serious thing in the world, and the artist is the only person who is never serious.'<br><strong>Marcus Aurelius:</strong> 'Is beauty not self-contained? An emerald is no less beautiful if no one praises it. Neither is art.'<br><strong>Alan Watts:</strong> 'The universe is playing a creative game, and art is just us waking up to that play. There is no formula for a dance!'"
+    },
+    {
+      keywords: ['death', 'die', 'end', 'life', 'mortal'],
+      text: "<strong>Marcus Aurelius:</strong> 'Do not fear death; it is merely a natural process, like leaves falling in autumn.'<br><strong>Oscar Wilde:</strong> 'I find death far too predictable. I'd much rather die beyond my means.'<br><strong>Alan Watts:</strong> 'If you are afraid of death, you are afraid of life itself. You cannot have a solid without empty space around it. They are one!'"
+    },
+    {
+      keywords: ['love', 'romance', 'friendship', 'heart'],
+      text: "<strong>Oscar Wilde:</strong> 'To love oneself is the beginning of a lifelong romance. Others are far too difficult to keep up with!'<br><strong>Marcus Aurelius:</strong> 'We are made for cooperation, like feet, like hands. To love is to serve the common good of humanity.'<br><strong>Alan Watts:</strong> 'Indeed, but you cannot force love. It is like water; if you squeeze it in your hand, it slips away. Just let it flow.'"
+    }
+  ];
+
+  const defaultResponse = "<strong>Oscar Wilde:</strong> 'How delightfully absurd! Let us find five different interpretations of that over our next espresso.'<br><strong>Marcus Aurelius:</strong> 'Whatever the topic, let us examine it with absolute reason and cosmic perspective.'<br><strong>Alan Watts:</strong> 'It is all part of the great cosmic joke. There is no right answer, only the joy of wondering!'";
+
+  function getPhilosophicalResponse(query) {
+    const q = query.toLowerCase();
+    for (const r of responses) {
+      if (r.keywords.some(k => q.includes(k))) {
+        return r.text;
+      }
+    }
+    return defaultResponse;
+  }
+
+  // 3. Typewriter Effect Logic
+  let typeTimer = null;
+  function typeOutMessage(message) {
+    clearInterval(typeTimer);
+    screenText.innerHTML = '';
+    let index = 0;
+
+    // To parse HTML tags like <strong> and <br> while typing, we convert to a temporary container or process token-by-token.
+    // For a simpler approach, we'll split by tag or just render plain text or directly update innerHTML incrementally.
+    // Let's implement an HTML-friendly typewriter!
+    const tokens = [];
+    let currentToken = '';
+    let inTag = false;
+
+    for (let i = 0; i < message.length; i++) {
+      const char = message.charAt(i);
+      if (char === '<') {
+        if (currentToken) {
+          tokens.push({ type: 'text', value: currentToken });
+          currentToken = '';
+        }
+        inTag = true;
+        currentToken += char;
+      } else if (char === '>') {
+        currentToken += char;
+        tokens.push({ type: 'tag', value: currentToken });
+        currentToken = '';
+        inTag = false;
+      } else {
+        currentToken += char;
+      }
+    }
+    if (currentToken) {
+      tokens.push({ type: inTag ? 'tag' : 'text', value: currentToken });
+    }
+
+    let tokenIndex = 0;
+    let charIndex = 0;
+
+    typeTimer = setInterval(() => {
+      if (tokenIndex < tokens.length) {
+        const token = tokens[tokenIndex];
+        if (token.type === 'tag') {
+          screenText.innerHTML += token.value;
+          tokenIndex++;
+        } else {
+          // It's a text token, type it out char-by-char
+          if (charIndex < token.value.length) {
+            screenText.innerHTML += token.value.charAt(charIndex);
+            charIndex++;
+            if (Math.random() > 0.4) {
+              playKeyClick();
+            }
+          } else {
+            tokenIndex++;
+            charIndex = 0;
+          }
+        }
+      } else {
+        clearInterval(typeTimer);
+        playBellChime();
+      }
+    }, 25);
+  }
+
+  submitBtn.addEventListener('click', () => {
+    const val = ledgerInput.value.trim();
+    if (!val) return;
+
+    initAudio();
+    const response = getPhilosophicalResponse(val);
+    typeOutMessage(response);
+    ledgerInput.value = '';
+  });
+
+  ledgerInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      submitBtn.click();
+    }
+  });
+});
+</script>
 </body>
 </html>

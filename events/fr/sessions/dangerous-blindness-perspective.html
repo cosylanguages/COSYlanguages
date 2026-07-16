@@ -33,7 +33,15 @@
 <section id="description" style="margin-bottom:3rem;">
 <p>Un défi philosophique à la réalité subjective et à l'étroitesse d'esprit. Nous explorerons les dangers des biais cognitifs et de l'aveuglement sélectif dans notre prise de décision. Comment élargir notre perspective pour éviter les pièges du conformisme intellectuel ?</p>
 </section>
-<section id="vocabulary">
+
+  <!-- PHILOSOPHERS' LEDGER INTERACTIVE CARD -->
+  <div class="philosophers-ledger" style="background: #FFFDF9; border: 2px solid #5D4037; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: var(--shadow-sm); font-family: 'Playfair Display', serif; font-style: italic; color: #3E2723;">
+    <h4 style="margin: 0 0 0.5rem; font-family: 'DM Sans', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #5D4037; font-style: normal; font-weight: 700;">☕ The Philosophers' Ledger: Café Debates</h4>
+    <p id="ledger-quote" style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1rem;">"Let us see how many interpretations exist! There is never only one correct answer to any profound human question." — Oscar Wilde</p>
+    <button class="btn-primary" id="ledger-next-btn" style="background: #5D4037; color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.8rem; font-family: 'DM Sans', sans-serif; font-style: normal; cursor: pointer; font-weight: 700; transition: background 0.2s;">Next Page in Ledger 📖</button>
+  </div>
+
+  <section id="vocabulary">
 <h2 class="section-title">📖 Vocabulaire de la session</h2>
 <div class="vocab-grid-10">
 <div class="vocab-card"><div class="vocab-word">Nostalgie</div><div class="vocab-def">désir pour le passé.</div><div class="vocab-example">Je ressens de la nostalgie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Nostalgie', definition:'désir pour le passé.', example:'Je ressens de la nostalgie.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Ambiguïté</div><div class="vocab-def">plusieurs interprétations.</div><div class="vocab-example">La citation est ambiguë.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ambiguïté', definition:'plusieurs interprétations.', example:'La citation est ambiguë.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Perspective</div><div class="vocab-def">point de vue.</div><div class="vocab-example">Ma perspective est différente.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'point de vue.', example:'Ma perspective est différente.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Résonner</div><div class="vocab-def">évoquer un sentiment.</div><div class="vocab-example">Cela résonne en moi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Résonner', definition:'évoquer un sentiment.', example:'Cela résonne en moi.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Paradoxe</div><div class="vocab-def">auto-contradiction.</div><div class="vocab-example">C'est un paradoxe.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Paradoxe', definition:'auto-contradiction.', example:'C'est un paradoxe.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Authenticité</div><div class="vocab-def">être authentique.</div><div class="vocab-example">Je valorise l'authenticité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Authenticité', definition:'être authentique.', example:'Je valorise l'authenticité.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Aperçu</div><div class="vocab-def">compréhension profonde.</div><div class="vocab-example">Il m'a donné un aperçu.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Aperçu', definition:'compréhension profonde.', example:'Il m'a donné un aperçu.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Abstrait</div><div class="vocab-def">non concret.</div><div class="vocab-example">L'idée est abstraite.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Abstrait', definition:'non concret.', example:'L'idée est abstraite.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Sagesse</div><div class="vocab-def">expérience et savoir.</div><div class="vocab-example">Elle a une grande sagesse.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sagesse', definition:'expérience et savoir.', example:'Elle a une grande sagesse.'}, this)">Ajouter au dictionnaire</button></div><div class="vocab-card"><div class="vocab-word">Réflexion</div><div class="vocab-def">pensée sérieuse.</div><div class="vocab-example">J'ai besoin de réflexion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Réflexion', definition:'pensée sérieuse.', example:'J'ai besoin de réflexion.'}, this)">Ajouter au dictionnaire</button></div>
@@ -104,5 +112,27 @@
 </footer>
 <script src="../../../js/core/engine.js"></script>
 <script src="../../../js/core/ui.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const quotes = [
+    '"Let us see how many interpretations exist! There is never only one correct answer." — Oscar Wilde',
+    '"To live is the rarest thing in the world. Most people exist, that is all." — Oscar Wilde',
+    '"The mystery of life is not a problem to be solved, but a reality to be experienced." — Alan Watts',
+    '"You have power over your mind - not outside events. Realize this, and you will find strength." — Marcus Aurelius'
+  ];
+  let index = 0;
+  const quoteText = document.getElementById('ledger-quote');
+  const nextBtn = document.getElementById('ledger-next-btn');
+
+  if (nextBtn && quoteText) {
+    nextBtn.addEventListener('click', () => {
+      index = (index + 1) % quotes.length;
+      quoteText.innerText = quotes[index];
+    });
+  }
+});
+</script>
+
 </body>
 </html>

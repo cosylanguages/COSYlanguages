@@ -32,6 +32,14 @@
   <section id="description" style="margin-bottom:3rem;">
     <p>Analyse de la vision spirituelle et tragique de Wilde sur les rôles familiaux.</p>
   </section>
+
+  <!-- PHILOSOPHERS' LEDGER INTERACTIVE CARD -->
+  <div class="philosophers-ledger" style="background: #FFFDF9; border: 2px solid #5D4037; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: var(--shadow-sm); font-family: 'Playfair Display', serif; font-style: italic; color: #3E2723;">
+    <h4 style="margin: 0 0 0.5rem; font-family: 'DM Sans', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #5D4037; font-style: normal; font-weight: 700;">☕ The Philosophers' Ledger: Café Debates</h4>
+    <p id="ledger-quote" style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1rem;">"Let us see how many interpretations exist! There is never only one correct answer to any profound human question." — Oscar Wilde</p>
+    <button class="btn-primary" id="ledger-next-btn" style="background: #5D4037; color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.8rem; font-family: 'DM Sans', sans-serif; font-style: normal; cursor: pointer; font-weight: 700; transition: background 0.2s;">Next Page in Ledger 📖</button>
+  </div>
+
   <section id="vocabulary">
     <h2 class="section-title">📖 Vocabulaire de la session</h2>
     <div class="vocab-grid-10">
@@ -103,5 +111,27 @@
 </footer>
 <script src="../../../js/core/engine.js"></script>
 <script src="../../../js/core/ui.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const quotes = [
+    '"Let us see how many interpretations exist! There is never only one correct answer." — Oscar Wilde',
+    '"To live is the rarest thing in the world. Most people exist, that is all." — Oscar Wilde',
+    '"The mystery of life is not a problem to be solved, but a reality to be experienced." — Alan Watts',
+    '"You have power over your mind - not outside events. Realize this, and you will find strength." — Marcus Aurelius'
+  ];
+  let index = 0;
+  const quoteText = document.getElementById('ledger-quote');
+  const nextBtn = document.getElementById('ledger-next-btn');
+
+  if (nextBtn && quoteText) {
+    nextBtn.addEventListener('click', () => {
+      index = (index + 1) % quotes.length;
+      quoteText.innerText = quotes[index];
+    });
+  }
+});
+</script>
+
 </body>
 </html>
