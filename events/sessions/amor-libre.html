@@ -38,46 +38,54 @@
     <p>Explora la hermosa canción 'amor libre' de Esteman en Español. Esta sesión se centra en el vocabulario de 'Libertad & Aceptación' y en las estructuras lingüísticas clave de la letra. Los estudiantes practicarán la conversación y el debate sobre estos temas.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulario de la sesión</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">La libertad</div><div class="vocab-def">estado o facultad del que es libre y no está sometido.</div><div class="vocab-example">La libertad es el valor más preciado de la humanidad.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La libertad', definition:'estado o facultad del que es libre y no está sometido.', example:'La libertad es el valor más preciado de la humanidad.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El amor</div><div class="vocab-def">sentimiento de afecto y atracción hacia alguien.</div><div class="vocab-example">El amor de una madre es incondicional y eterno.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El amor', definition:'sentimiento de afecto y atracción hacia alguien.', example:'El amor de una madre es incondicional y eterno.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El orgullo</div><div class="vocab-def">sentimiento de satisfacción y dignidad propia.</div><div class="vocab-example">Sintió un gran orgullo al recibir su título universitario.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El orgullo', definition:'sentimiento de satisfacción y dignidad propia.', example:'Sintió un gran orgullo al recibir su título universitario.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La aceptación</div><div class="vocab-def">acción de aceptar o admitir algo.</div><div class="vocab-example">La aceptación de uno mismo es el primer paso para la felicidad.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La aceptación', definition:'acción de aceptar o admitir algo.', example:'La aceptación de uno mismo es el primer paso para la felicidad.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El respeto</div><div class="vocab-def">consideración acompañada de admiración por alguien.</div><div class="vocab-example">El respeto mutuo es la base de cualquier relación sana.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El respeto', definition:'consideración acompañada de admiración por alguien.', example:'El respeto mutuo es la base de cualquier relación sana.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Sin prejuicios</div><div class="vocab-def">libre de opiniones preconcebidas.</div><div class="vocab-example">Debemos juzgar a las personas por sus actos, sin prejuicios.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sin prejuicios', definition:'libre de opiniones preconcebidas.', example:'Debemos juzgar a las personas por sus actos, sin prejuicios.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Caminar</div><div class="vocab-def">andar de un lugar a otro dando pasos.</div><div class="vocab-example">Le encanta caminar por el parque todas las mañanas.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Caminar', definition:'andar de un lugar a otro dando pasos.', example:'Le encanta caminar por el parque todas las mañanas.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La valentía</div><div class="vocab-def">esfuerzo, decisión y valor para afrontar peligros.</div><div class="vocab-example">Demostró una gran valentía al defender sus principios.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La valentía', definition:'esfuerzo, decisión y valor para afrontar peligros.', example:'Demostró una gran valentía al defender sus principios.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El corazón</div><div class="vocab-def">órgano vital, símbolo de los sentimientos.</div><div class="vocab-example">Siempre debemos escuchar lo que nos dicta el corazón.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El corazón', definition:'órgano vital, símbolo de los sentimientos.', example:'Siempre debemos escuchar lo que nos dicta el corazón.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La diversidad</div><div class="vocab-def">variedad o abundancia de cosas distintas.</div><div class="vocab-example">La diversidad cultural enriquece a nuestra sociedad.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La diversidad', definition:'variedad o abundancia de cosas distintas.', example:'La diversidad cultural enriquece a nuestra sociedad.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulario de la sesión</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">La libertad</div><div class="vocab-def">estado o facultad del que es libre y no está sometido.</div><div class="vocab-example">La libertad es el valor más preciado de la humanidad.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La libertad', definition:'estado o facultad del que es libre y no está sometido.', example:'La libertad es el valor más preciado de la humanidad.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El amor</div><div class="vocab-def">sentimiento de afecto y atracción hacia alguien.</div><div class="vocab-example">El amor de una madre es incondicional y eterno.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El amor', definition:'sentimiento de afecto y atracción hacia alguien.', example:'El amor de una madre es incondicional y eterno.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El orgullo</div><div class="vocab-def">sentimiento de satisfacción y dignidad propia.</div><div class="vocab-example">Sintió un gran orgullo al recibir su título universitario.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El orgullo', definition:'sentimiento de satisfacción y dignidad propia.', example:'Sintió un gran orgullo al recibir su título universitario.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La aceptación</div><div class="vocab-def">acción de aceptar o admitir algo.</div><div class="vocab-example">La aceptación de uno mismo es el primer paso para la felicidad.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La aceptación', definition:'acción de aceptar o admitir algo.', example:'La aceptación de uno mismo es el primer paso para la felicidad.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El respeto</div><div class="vocab-def">consideración acompañada de admiración por alguien.</div><div class="vocab-example">El respeto mutuo es la base de cualquier relación sana.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El respeto', definition:'consideración acompañada de admiración por alguien.', example:'El respeto mutuo es la base de cualquier relación sana.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Sin prejuicios</div><div class="vocab-def">libre de opiniones preconcebidas.</div><div class="vocab-example">Debemos juzgar a las personas por sus actos, sin prejuicios.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sin prejuicios', definition:'libre de opiniones preconcebidas.', example:'Debemos juzgar a las personas por sus actos, sin prejuicios.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Caminar</div><div class="vocab-def">andar de un lugar a otro dando pasos.</div><div class="vocab-example">Le encanta caminar por el parque todas las mañanas.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Caminar', definition:'andar de un lugar a otro dando pasos.', example:'Le encanta caminar por el parque todas las mañanas.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La valentía</div><div class="vocab-def">esfuerzo, decisión y valor para afrontar peligros.</div><div class="vocab-example">Demostró una gran valentía al defender sus principios.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La valentía', definition:'esfuerzo, decisión y valor para afrontar peligros.', example:'Demostró una gran valentía al defender sus principios.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El corazón</div><div class="vocab-def">órgano vital, símbolo de los sentimientos.</div><div class="vocab-example">Siempre debemos escuchar lo que nos dicta el corazón.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El corazón', definition:'órgano vital, símbolo de los sentimientos.', example:'Siempre debemos escuchar lo que nos dicta el corazón.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La diversidad</div><div class="vocab-def">variedad o abundancia de cosas distintas.</div><div class="vocab-example">La diversidad cultural enriquece a nuestra sociedad.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La diversidad', definition:'variedad o abundancia de cosas distintas.', example:'La diversidad cultural enriquece a nuestra sociedad.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Ejercicio de escucha y rellenar huecos</h2>
-    <div class="vim-instruction">
-      <strong>Escucha activa:</strong> Escucha la canción usando el enlace de arriba y completa los espacios en blanco.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Ejercicio de escucha y rellenar huecos</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Escucha activa:</strong> Escucha la canción usando el enlace de arriba y completa los espacios en blanco.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banco de palabras:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banco de palabras:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">libertad</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">amor</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">orgullo</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">aceptación</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">respeto</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Letra completa</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Amor libre, sin barreras<br>Bajo nuestras propias banderas<br>Reclamamos una absoluta [__________]<br>Para vivre a nuestra manera<br><br>Sintiendo un gran [__________] sincero<br>Por este gran [__________] verdadero<br>Buscando la plena [__________] social<br>Con un profundo [__________] mutuo
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Letra completa</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Amor libre, sin barreras<br>Bajo nuestras propias banderas<br>Reclamamos una absoluta [__________]<br>Para vivre a nuestra manera<br><br>Sintiendo un gran [__________] sincero<br>Por este gran [__________] verdadero<br>Buscando la plena [__________] social<br>Con un profundo [__________] mutuo</p>
+      </div>
     </div>
   </section>
 
@@ -159,7 +167,7 @@ Amor libre, sin barreras<br>Bajo nuestras propias banderas<br>Reclamamos una abs
             <span class="mistake-wrong">Estoy de acuerdo <span class="mistake-highlight">de</span> tu opinión</span>
             <span class="mistake-arrow">→</span>
             <span class="mistake-right">Estoy de acuerdo con tu opinión</span>
-            <span class="mistake-note-text">(Usa la preposizione 'con' para expresar acuerdo con algo.)</span>
+            <span class="mistake-note-text">(Usa la preposición 'con' para expresar acuerdo con algo.)</span>
           </div>
           <div class="mistake-item">
             <span class="mistake-wrong">He caminado <span class="mistake-highlight">por</span> tres horas</span>

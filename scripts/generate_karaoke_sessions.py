@@ -1,8 +1,28 @@
 import os
 import re
+import sys
 
 OUTPUT_DIR = "events/sessions"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Add current scripts directory to sys.path to load master_lyrics safely
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from master_lyrics import LYRICS_DATA
+
+# Challenge map defining which individual songs constitute each challenge
+CHALLENGE_MAP = {
+    "maelle-challenge": ("toutes-les-machines-ont-le-coeur", "je-taime-comme-je-taime"),
+    "abba-challenge": ("me-and-i", "angeleyes"),
+    "arletta-challenge": ("kapoies-nychtes", "o-gatos"),
+    "esteman-challenge": ("amor-libre", "te-alejas-mas-de-mi"),
+    "angele-challenge": ("oui-ou-non", "balance-ton-quoi"),
+    "massimo-ranieri-challenge": ("chi-sara-con-te", "lamore-e-un-attimo"),
+    "angelina-wismes-challenge": ("le-soleil-noir", "la-tour-eiffel-est-pour-moi"),
+    "cass-elliot-challenge": ("make-your-own-kind-of-music", "its-getting-better"),
+    "la-zarra-challenge": ("diva", "tu-ten-iras"),
+    "kate-bush-challenge": ("army-dreamers", "oh-to-be-in-love"),
+    "crazy-ex-girlfriend-challenge": ("unlikely-lovers", "where-is-my-husband"),
+}
 
 # Translation / Localization resources for all 6 supported languages
 LOCALIZATIONS = {
@@ -66,7 +86,7 @@ LOCALIZATIONS = {
         "breadcrumbs_club": "Karaoke Club",
         "back_link": "← Вернуться в клуб",
         "dur_label": "Длительность",
-        "dur_val": "60 минут",
+        "dur_val": "60 minutes",
         "lang_label": "Язык",
         "level_label": "Уровень",
         "focus_label": "Тема",
@@ -208,7 +228,7 @@ VOCAB_DB = {
     "Le chemin": ("voie de terre, parcours ou direction à suivre.", "Elle a choisi un chemin professionnel très original."),
     "La voix": ("ensemble des sons produits par les cordes vocales.", "Sa voix douce et mélodieuse calme immédiatement les enfants."),
     "S'unir": ("se joindre pour agir ensemble, se marier.", "Les pays doivent s'unir pour protéger l'environnement."),
-    "Briller": ("émettre de la lumière, se distinguer par son éclat.", "Les étoiles commencent à briller dans le ciel noucturne."),
+    "Briller": ("émettre de la lumière, se distinguer par son éclat.", "Les étoiles commencent à briller dans le ciel nocturne."),
     "La douceur": ("qualité de ce qui est doux, agréable et paisible.", "La douceur du climat méditerranéen attire les touristes."),
     "La promesse": ("engagement de faire ou de donner quelque chose.", "Elle a tenu sa promesse de l'aider à déménager."),
     "L'éternité": ("durée sans commencement ni fin, temps infini.", "Leurs œuvres d'art entreront dans l'éternité."),
@@ -255,7 +275,7 @@ VOCAB_DB = {
     "Le matin": ("première partie de la journée, lever du jour.", "Elle adore courir dans le parc tôt le matin."),
     "L'insomnie": ("manque habituel ou accidentel de sommeil.", "Prendre une tisane chaude aide à lutter contre l'insomnie."),
     "Le soleil": ("étoile qui éclaire et réchauffe la Terre.", "Le soleil brille intensément au-dessus de la plage."),
-    "La mélancolie": ("tristesse vague et douce, état d'esprit pensive.", "La musique douce favorise souvent la mélancolie."),
+    "La mélancolie": ("tristesse vague et douce, état d'esprit pensif.", "La musique douce favorise souvent la mélancolie."),
     "La perte": ("fait de perdre un objet, un avantage ou un proche.", "La perte de ses clés l'a mis très en retard."),
     "Le chagrin": ("douleur morale, tristesse profonde.", "Elle a surmonté son grand chagrin grâce à ses amis."),
     "Brûler": ("consommer par le feu, détruire ou réchauffer.", "Le feu commence à brûler dans la cheminée du salon."),
@@ -334,7 +354,7 @@ VOCAB_DB = {
     "Optimism": ("hopefulness and confidence about the future.", "Her natural optimism kept her going through tough times."),
     "Recovery": ("a return to a normal state of health.", "We wish him a speedy recovery after his surgery."),
     "Anxiety": ("a feeling of worry, nervousness, or unease.", "He felt a bit of anxiety before his big presentation."),
-    "Survive": ("continue to live or exist in spite of dander.", "They had to adapt quickly to survive in the wild."),
+    "Survive": ("continue to live or exist in spite of danger.", "They had to adapt quickly to survive in the wild."),
     "Connection": ("a relationship in which ideas are linked.", "There is a strong connection between music and memory."),
     "Sanity": ("the ability to think and behave in a rational manner.", "Taking long walks helped her preserve her mental sanity."),
     "Hope": ("a feeling of expectation and desire for a certain thing.", "We must never lose hope for a better future."),
@@ -344,7 +364,7 @@ VOCAB_DB = {
     "Desperation": ("a state of despair, resulting in rash behavior.", "In her desperation, she decided to seek professional help."),
     "Coldness": ("the quality of being cold or unfriendly.", "His sudden coldness made her feel very uncomfortable."),
     "Exclusion": ("the process of excluding or being excluded.", "The strict rules resulted in the exclusion of several players."),
-    "Longing": ("a yearning desire.", "She felt a ddep longing for her hometown."),
+    "Longing": ("a yearning desire.", "She felt a deep longing for her hometown."),
     "Betrayal": ("the action of betraying trust or a person.", "The unexpected betrayal shattered their long friendship."),
     "Casualty": ("a person killed or injured in an accident.", "There was not a single casualty in the minor incident."),
     "Scars": ("a mark left on the skin or within a person's mind.", "The physical and mental scars of the war healed slowly."),
@@ -413,7 +433,7 @@ VOCAB_DB = {
     "Il sole": ("la stella che illumina e riscalda la Terra.", "Il sole brilla alto nel cielo estivo."),
     "Il viaggio": ("il trasferirsi da un luogo a un altro per diporto.", "Il viaggio in treno attraverso l'Europa è stato stupendo."),
     "Il vento": ("movimento d'aria nell'atmosfera.", "Un vento fresco soffiava tra i rami degli alberi."),
-    "La libertà": ("stato di chi è libero e indipendente.", "La libertà di stampa è un dritto fondamentale in democrazia."),
+    "La libertà": ("stato di chi è libero e indipendente.", "La libertà di stampa è un diritto fondamentale in democrazia."),
     "Ricominciare": ("cominciare di nuovo una cosa.", "Non è mai troppo tardi per ricominciare un nuovo percorso."),
     "Il calore": ("temperatura elevata, calore affettivo.", "Il calore della sua famiglia lo ha aiutato a guarire."),
     "L'orizzonte": ("linea circolare in cui il cielo sembra toccare la terra.", "Il sole è scomparso lentamente dietro l'orizzonte."),
@@ -425,7 +445,7 @@ VOCAB_DB = {
     "Il cammino": ("strada o percorso da compiere, progresso.", "Il cammino verso l'uguaglianza è ancora lungo ma necessario."),
     "La fedeltà": ("qualità di chi è fedele e costante.", "La fedeltà del suo amico è stata una grande consolazione."),
     "L'attesa": ("l'atto di attendere l'arrivo di qualcuno o qualcosa.", "L'attesa dei risultati dell'esame è stata molto stressante."),
-    "L'unione": ("il congiungersi insieme, legame.", "L'unione fa la forza nei modi di grande difficoltà."),
+    "L'unione": ("il congiungersi insieme, legame.", "L'unione fa la forza nei momenti di grande difficoltà."),
     "L'amore": ("profondo sentimento di affetto o attrazione.", "L'amore per l'arte lo accompagna da tutta la vita."),
     "L'attimo": ("brevissimo spazio di tempo, istante.", "Cogli l'attimo prima che sia troppo tardi."),
     "La scintilla": ("minuscolo frammento di materia incandescente.", "Una piccola scintilla può dare origine a un grande fuoco."),
@@ -503,7 +523,7 @@ VOCAB_DB = {
     "Ο δρόμος": ("η οδός, το πέρασμα.", "Περπατούσε στον έρημο δρόμο σκεπτικός."),
     "Το νιαούρισμα": ("η φωνή της γάτας.", "Το νιαούρισμα της γάτας ακουγόταν έξω από την πόρτα."),
     "Το κυνήγι": ("η δράση του να κυνηγά κανείς ζώα ή στόχους.", "Οι γάτες λατρεύουν το κυνήγι των ποντικιών."),
-    "Η αυλή": ("ο ανοιχτός χώρος γύρω από το σπίτι.", "Παίζαμε πάντα στην αυλή του σπιτιού μας.")
+    "Η αυλή": ("ο ανοιχτός χώρος γύρω από το σπίτι.", "Παίζαμε πάντα στην αυλή του σпиτιού μας.")
 }
 
 # Standard catalog of common localized mistakes & corrections per language
@@ -529,7 +549,7 @@ MISTAKES_DB = {
         ("Mi piace ascoltare <span class=\"mistake-highlight\">alla</span> musica", "Mi piace ascoltare la musica", "Il verbo 'ascoltare' è transitivo e non richiede preposizione.")
     ],
     "es": [
-        ("Estoy de acuerdo <span class=\"mistake-highlight\">de</span> tu opinión", "Estoy de acuerdo con tu opinión", "Usa la preposizione 'con' para expresar acuerdo con algo."),
+        ("Estoy de acuerdo <span class=\"mistake-highlight\">de</span> tu opinión", "Estoy de acuerdo con tu opinión", "Usa la preposición 'con' para expresar acuerdo con algo."),
         ("He caminado <span class=\"mistake-highlight\">por</span> tres horas", "He caminado durante tres horas", "Usa 'durante' para indicar duración de tiempo."),
         ("El sol brilla <span class=\"mistake-highlight\">muy</span> fuerte", "El sol brilla con mucha fuerza", "Es más natural decir 'con mucha fuerza' para describir el brillo.")
     ],
@@ -580,30 +600,39 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <p>{description}</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">{vocab_title}</h2>
-    <div class="vocab-grid-10">
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>{vocab_title}</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
 {vocab_cards_html}
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">{listening_title}</h2>
-    <div class="vim-instruction">
-      {listening_instruction}
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>{listening_title}</span><span class="round-toggle">▲</span>
     </div>
-
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">{word_bank_title}</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
-{word_bank_html}
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        {listening_instruction}
       </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">{lyrics_title}</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">{lyrics_text}</p>
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">{word_bank_title}</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+{word_bank_html}
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">{lyrics_title}</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">{lyrics_text}</p>
+      </div>
     </div>
   </section>
 
@@ -679,72 +708,142 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </body>
 </html>"""
 
-# List of all 38 songs to generate
-songs_list = [
-    # French
-    {"slug": "toutes-les-machines-ont-le-coeur", "title": "Toutes les machines ont le cœur", "artist": "Maëlle", "level": "B1", "lang": "fr", "variety": "Français", "focus": "Résilience & Technologie", "vocab": ["La machine", "Le cœur", "L'âme", "La blessure", "L'espoir", "Le regret", "Le rêve", "Guérir", "Sentir", "Le secret"], "helpers": ["machine", "cœur", "âme", "blessure", "espoir"], "lyrics": "Toutes les [__________] ont un cœur,\nMais elles cachent bien leur douleur.\nUne petite [__________] de métal,\nQui cherche l'amour idéal.\n\nDans chaque [__________] qui s'éveille,\nIl y a une lueur sans pareille.\nUne douce [__________] du passé,\nEt un grand [__________] d'exister..."},
-    {"slug": "je-taime-comme-je-taime", "title": "je t'aime comme je t'aime", "artist": "Maëlle", "level": "B1", "lang": "fr", "variety": "Français", "focus": "Amour & Complicité", "vocab": ["L'amour", "La tendresse", "Le silence", "Le doute", "La fidélité", "Chuchoter", "Partager", "La patience", "Le baiser", "Le lien"], "helpers": ["amour", "tendresse", "silence", "doute", "lien"], "lyrics": "Je t'aime comme je t'aime,\nSans artifice et sans dilemme.\nUn immense [__________] sincère,\nQui éclaire tout mon univers.\n\nDans la douceur de notre [__________],\nJe trouve un calme légendaire.\nLoin du bruit et de la [__________],\nSous le ciel de notre [__________]..."},
-    {"slug": "salut", "title": "salut", "artist": "Joe Dassin", "level": "A2", "lang": "fr", "variety": "Français", "focus": "Retrouvailles & Nostalgie", "vocab": ["Le salut", "Le retour", "La nostalgie", "Le temps", "Le café", "Retrouver", "Changer", "Le souvenir", "L'ami", "La gare"], "helpers": ["salut", "retour", "nostalgie", "temps", "souvenir"], "lyrics": "Salut, c'est encore moi,\nLe temps a passé si vite parfois.\nUn doux [__________] chaleureux,\nPour ce grand [__________] heureux.\n\nUne pointe de [__________] dans les yeux,\nEn voyant ce [__________] si vieux.\nChaque [__________] gravé dans mon esprit..."},
-    {"slug": "toi-mon-amour", "title": "toi mon amour", "artist": "Marc Lavoine & Clara Luciani", "level": "B1", "lang": "fr", "variety": "Français", "focus": "Destin & Douceur", "vocab": ["L'amour", "Le destin", "La complicité", "Le chemin", "La voix", "S'unir", "Briller", "La douceur", "La promesse", "L'éternité"], "helpers": ["amour", "destin", "chemin", "voix", "douceur"], "lyrics": "Toi mon [__________], mon compagnon de route,\nCelui qui dissipe chaque doute.\nNotre [__________] était tracé d'avance,\nSur ce long [__________] d'espérance.\n\nLa douceur de ta [__________] m'appelle,\nComme une mélodie éternelle.\nDans la [__________] de chaque nuit..."},
-    {"slug": "oui-ou-non", "title": "oui ou non", "artist": "Angèle", "level": "B1", "lang": "fr", "variety": "Français", "focus": "Incertitude & Réponse", "vocab": ["Le doute", "L'hésitation", "La réponse", "Le message", "Attendre", "La frustration", "Le choix", "La clarté", "Jouer", "L'incertitude"], "helpers": ["doute", "réponse", "message", "choix", "incertitude"], "lyrics": "C'est oui ou c'est non ?\nTu joues avec mes sentiments et mon nom.\nDans ce grand [__________] qui m'opprime,\nJ'attends ta [__________] légitime.\n\nJe regarde mon écran sans cesse,\nPour voir un [__________] de tendresse.\nMais cette [__________] me pèse tant..."},
-    {"slug": "balance-ton-quoi", "title": "balance ton quoi", "artist": "Angèle", "level": "B1", "lang": "fr", "variety": "Français", "focus": "Égalité & Respect", "vocab": ["Le respect", "Le sexisme", "La dénonciation", "La liberté", "L'égalité", "Parler", "Le courage", "Le changement", "L'attitude", "La voix"], "helpers": ["respect", "sexisme", "liberté", "égalité", "voix"], "lyrics": "Balance ton quoi,\nPour qu'on respecte enfin mes droits.\nUn peu de [__________] dans ce monde,\nPour effacer ce [__________] immonde.\n\nNous voulons vivre en toute [__________],\nDans une parfaite [__________].\nFaire entendre notre [__________] forte..."},
-    {"slug": "laziza", "title": "l'aziza", "artist": "Daniel Balavoine", "level": "B2", "lang": "fr", "variety": "Français", "focus": "Tolérance & Diversité", "vocab": ["La tolérance", "La paix", "La diversité", "La dignité", "L'harmonie", "S'unir", "Le respect", "Le combat", "L'espoir", "Le partage"], "helpers": ["tolérance", "paix", "diversité", "respect", "espoir"], "lyrics": "L'aziza, ton étoile brille sur nous,\nUn symbole d'espoir face aux fous.\nUne grande leçon de [__________],\nPour ramener enfin la [__________].\n\nCélébrer la riche [__________] des cultures,\nDans un grand élan de [__________].\nGarder l' [__________] d'une vie plus douce..."},
-    {"slug": "nos-ames-sont", "title": "nos âmes sont", "artist": "Zazie", "level": "B2", "lang": "fr", "variety": "Français", "focus": "Sensibilité & Profondeur", "vocab": ["L'âme", "La connexion", "La profondeur", "Le mystère", "La douleur", "S'élever", "La sensibilité", "Le lien", "La vérité", "L'invisible"], "helpers": ["âme", "connexion", "mystère", "sensibilité", "lien"], "lyrics": "Nos âmes sont liées par le temps,\nComme des navires portés par le vent.\nChaque [__________] cherche sa lumière,\nDans une magnifique [__________] de terre.\n\nLe grand [__________] de l'existence,\nÉveille notre [__________] en silence.\nUnissant notre [__________] éternel..."},
-    {"slug": "immobile", "title": "immobile", "artist": "Louane", "level": "B1", "lang": "fr", "variety": "Français", "focus": "Attente & Solitude", "vocab": ["L'immobilité", "L'attente", "Le silence", "La peur", "La solitude", "Figer", "Le regard", "Le temps", "La douceur", "Le départ"], "helpers": ["immobilité", "attente", "silence", "solitude", "regard"], "lyrics": "Je reste immobile ici,\nPendant que le monde défile sans bruit.\nDans cette étrange [__________] du corps,\nJ'affronte une longue [__________] encore.\n\nLe lourd [__________] de la pièce,\nAmplifie ma grande [__________].\nSous ton [__________] lointain et froid..."},
-    {"slug": "la-nuit-nen-finit-plus", "title": "la nuit n'en finit plus", "artist": "Petula Clark", "level": "B1", "lang": "fr", "variety": "Français", "focus": "Nuit & Insomnie", "vocab": ["La nuit", "La solitude", "L'obscurité", "La tristesse", "Attendre", "Le matin", "L'insomnie", "Le rêve", "Le silence", "L'espoir"], "helpers": ["nuit", "solitude", "obscurité", "matin", "espoir"], "lyrics": "La nuit n'en finit plus de couler,\nEt je reste seule à pleurer.\nDans le calme de la [__________] froide,\nJ'affronte ma triste [__________].\n\nPerdue dans cette lointaine [__________],\nJ'attends que revienne le [__________].\nGardant un mince [__________] de lumière..."},
-    {"slug": "le-soleil-noir", "title": "le soleil noir", "artist": "Angelina Wismes", "level": "B1", "lang": "fr", "variety": "Français", "focus": "Mélancolie & Perte", "vocab": ["Le soleil", "L'obscurité", "La mélancolie", "La perte", "Le chagrin", "Brûler", "L'ombre", "La solitude", "Le vide", "Le souvenir"], "helpers": ["soleil", "obscurité", "mélancolie", "chagrin", "vide"], "lyrics": "Sous le soleil noir de ma peine,\nJe marche le long de la Seine.\nCe [__________] qui ne réchauffe plus,\nLaisse place à l' [__________] absolue.\n\nUne profonde [__________] s'installe,\nPour soigner mon grand [__________].\nFace à ce grand [__________] intérieur..."},
-    {"slug": "la-tour-eiffel-est-pour-moi", "title": "la tour eiffel est pour moi", "artist": "Angelina Wismes", "level": "B1", "lang": "fr", "variety": "Français", "focus": "Paris & Liberté", "vocab": ["Paris", "La liberté", "La beauté", "La fierté", "Le monument", "Se promener", "Le rêve", "Le ciel", "La joie"], "helpers": ["Paris", "liberté", "beauté", "monument", "ciel"], "lyrics": "La Tour Eiffel est pour moi,\nUn symbole de joie et d'émoi.\nAu cœur de ce magnifique [__________],\nJe goûte à une immense [__________].\n\nAdmirant la grande [__________] de la ville,\nDepuis ce fier [__________] tranquille.\nSous le bleu infini du [__________]..."},
-    {"slug": "quelquun-pour-toi", "title": "quelqu'un pour toi", "artist": "Madame Monsieur", "level": "B1", "lang": "fr", "variety": "Français", "focus": "Rencontre & Destin", "vocab": ["La rencontre", "Le destin", "La complicité", "Soutenir", "L'amour", "Partager", "La présence", "L'espoir", "Le chemin", "L'éternité"], "helpers": ["rencontre", "destin", "amour", "présence", "espoir"], "lyrics": "Il y aura quelqu'un pour toi,\nQuelqu'un qui marchera sous ton toit.\nUne belle [__________] inattendue,\nPour changer ton [__________] perdu.\n\nUn grand [__________] qui t'accompagne,\nLa douce chaleur de sa [__________].\nRedonnant un immense [__________] à ta vie..."},
-    {"slug": "bien-plus-fort", "title": "bien plus fort", "artist": "Tereza Kesovija", "level": "B1", "lang": "fr", "variety": "Français", "focus": "Force & Passion", "vocab": ["La force", "La passion", "L'intensité", "Le triomphe", "Surmonter", "Le courage", "Le destin", "Le cœur", "L'amour", "La fidélité"], "helpers": ["force", "passion", "courage", "cœur", "amour"], "lyrics": "Mon amour est bien plus fort,\nQue les tempêtes et la mort.\nUne immense [__________] de caractère,\nAnimée par une grande [__________] entière.\n\nIl nous faut un immense [__________],\nPour faire battre notre [__________].\nCélébrant ce bel [__________] éternel..."},
-    {"slug": "un-premier-amour", "title": "un premier amour", "artist": "Isabelle Aubret", "level": "B1", "lang": "fr", "variety": "Français", "focus": "Amour & Jeunesse", "vocab": ["L'amour", "La pureté", "La jeunesse", "Le premier", "Le souvenir", "L'innocence", "Rêver", "Le cœur", "La douceur", "L'éternité"], "helpers": ["amour", "pureté", "jeunesse", "souvenir", "cœur"], "lyrics": "Un premier amour ne s'oublie jamais,\nIl reste gravé à tout jamais.\nUn bel [__________] plein d'espoir,\nDans la douce clarté du soir.\n\nLa magnifique [__________] des sentiments,\nDe notre belle [__________] d'antan.\nUn tendre [__________] dans notre [__________]..."},
-    {"slug": "voila", "title": "voila", "artist": "Barbara Pravi", "level": "B2", "lang": "fr", "variety": "Français", "focus": "Authenticité & Scène", "vocab": ["La présentation", "L'authenticité", "La voix", "La vulnérabilité", "Le public", "Se donner", "La scène", "L'artiste", "L'écoute", "Le destin"], "helpers": ["authenticité", "voix", "vulnérabilité", "public", "scène"], "lyrics": "Voilà, regardez-moi,\nOu du moins ce qu'il reste de moi.\nUne quête d' [__________] sincère,\nPortée par ma puissante [__________].\n\nJ'expose ma grande [__________] nue,\nDevant ce grand [__________] inconnu.\nSeule debout sur cette immense [__________]..."},
+# STEP 1: Parse all 52 songs dynamically from their existing files
+songs_list = []
+for slug in sorted(LYRICS_DATA.keys()):
+    path = f"events/sessions/{slug}.html"
+    if not os.path.exists(path):
+        continue
+    with open(path, "r", encoding="utf-8") as f:
+        html = f.read()
 
-    # English
-    {"slug": "one-of-the-greats", "title": "one of the greats", "artist": "Florence & The Machine", "level": "B2", "lang": "en", "variety": "British English", "focus": "Greatness & Legacy", "vocab": ["Greatness", "Haunting", "Surrender", "Struggle", "Release", "Echo", "Wilderness", "Triumph", "Legacy", "Grace"], "helpers": ["Greatness", "Haunting", "Surrender", "Struggle", "Legacy"], "lyrics": "She was one of the greats, they say,\nWalking down her own unique way.\nAn aura of absolute [__________] around her,\nWith a beautiful and [__________] melody.\n\nShe refused to [__________] to defeat,\nDespite the intense [__________] on the street.\nLeaving a powerful and lasting [__________]..."},
-    {"slug": "california-dreaming", "title": "California dreaming", "artist": "The Mamas and Papas", "level": "A2", "lang": "en", "variety": "American English", "focus": "Dreaming & Winter", "vocab": ["Dreaming", "Preacher", "Winter", "Warm", "Safe", "Sky", "Brown", "Leave", "Pray", "Sensation"], "helpers": ["Dreaming", "Winter", "Warm", "Sky", "Leave"], "lyrics": "All the leaves are brown,\nAnd the sky is gray.\nI've been for a walk,\nOn a winter's day.\n\nI'd be safe and [__________],\nIf I was in L.A.\nCalifornia [__________],\nOn such a [__________]'s day.\n\nPassed by a church,\nI wrote down a song..."},
-    {"slug": "me-and-i", "title": "me & I", "artist": "ABBA", "level": "B1", "lang": "en", "variety": "British English", "focus": "Dual Personality", "vocab": ["Dual", "Conflict", "Reflect", "Personality", "Mirror", "Opposite", "Dialogue", "In harmony", "Acceptance"], "helpers": ["Dual", "Conflict", "Personality", "Mirror", "Acceptance"], "lyrics": "Sometimes I feel there are two of me,\nFighting for absolute supremacy.\nA strange [__________] nature indeed,\nFilled with conflicting ideas and breed.\n\nThis inner [__________] never ends,\nAs my complex [__________] bends.\nI look in the [__________] to see,\nAnd search for self-[__________] and peace..."},
-    {"slug": "angeleyes", "title": "angeleyes", "artist": "ABBA", "level": "B1", "lang": "en", "variety": "British English", "focus": "Deception & Regret", "vocab": ["Deceptive", "Gaze", "Disguise", "Regret", "Warning", "Lure", "Painful", "Obsession", "Illusion", "Trust"], "helpers": ["Deceptive", "Gaze", "Regret", "Warning", "Trust"], "lyrics": "Keep an eye on his angeleyes,\nThey are just a beautiful disguise.\nHis smile is highly [__________] and sweet,\nTo everyone he meets on the street.\n\nUnder his steady and hypnotic [__________],\nLies a daze of sorrow and daze.\nI write this as a friendly [__________] to you,\nDo not easily grant him your [__________]..."},
-    {"slug": "mixed-up-world", "title": "mixed up world", "artist": "Sophie Ellis-Bextor", "level": "B1", "lang": "en", "variety": "British English", "focus": "Confusion & Optimism", "vocab": ["Confusion", "Chaotic", "Optimism", "Struggle", "Recovery", "Anxiety", "Survive", "Connection", "Sanity", "Hope"], "helpers": ["Confusion", "Chaotic", "Optimism", "Anxiety", "Hope"], "lyrics": "It's a mixed up world we live in,\nBut we must never stop giving.\nThrough all the [__________] and noise,\nWe search for our inner voice.\n\nIn this [__________] environment of speed,\nWe maintain our bright [__________] indeed.\nReducing our daily mental [__________],\nKeeping our steady [__________] alive..."},
-    {"slug": "left-outside-alone", "title": "left outside alone", "artist": "Anastacia", "level": "B2", "lang": "en", "variety": "American English", "focus": "Abandonment & Solitude", "vocab": ["Abandonment", "Solitude", "Deception", "Desperation", "Coldness", "Exclusion", "Longing", "Struggle", "Insecurity", "Betrayal"], "helpers": ["Abandonment", "Solitude", "Coldness", "Longing", "Betrayal"], "lyrics": "My body is cold, my heart is torn,\nLeft outside in the freezing storm.\nA feeling of absolute [__________] tonight,\nUnderneath the dim street light.\n\nI wander in complete and quiet [__________],\nWondering how we came to this place.\nSensing your sudden [__________] and pride,\nWith a deep [__________] inside..."},
-    {"slug": "casualties-of-war", "title": "casualties of war", "artist": "Gossip", "level": "B2", "lang": "en", "variety": "American English", "focus": "Conflict & Survival", "vocab": ["Casualty", "Conflict", "Scars", "Painful", "Aftermath", "Anger", "Betrayal", "Survival", "Devastation", "Reconciliation"], "helpers": ["Casualty", "Conflict", "Scars", "Aftermath", "Survival"], "lyrics": "We are the casualties of war,\nFighting for what we had before.\nEach person is a silent [__________] of pain,\nIn this cold and endless rain.\n\nOur bitter [__________] has left deep marks,\nLike fire burning in the dark.\nAnd in the quiet [__________] we stand,\nFighting for our own [__________]..."},
-    {"slug": "as-it-was", "title": "as it was", "artist": "Harry Styles", "level": "A2", "lang": "en", "variety": "British English", "focus": "Change & Isolation", "vocab": ["Change", "Isolation", "Nostalgia", "Suburban", "Gravity", "Disconnect", "Melancholy", "Expectation", "Routine", "Reflection"], "helpers": ["Change", "Isolation", "Nostalgia", "Routine", "Reflection"], "lyrics": "Hold on, you know it's not the same,\nAs we play this modern game.\nI feel a sudden [__________] in the air,\nAs people rush without a care.\n\nLiving in quiet [__________] and peace,\nIn our neat [__________] streets.\nFollowing our daily [__________] and style,\nLooking at our own [__________]..."},
+    # Extract metadata using robust regex
+    title_m = re.search(r"<h1>(.*?)</h1>", html)
+    title = title_m.group(1).strip() if title_m else slug.replace("-", " ").title()
 
-    # Italian
-    {"slug": "luomo-che-amava-le-donne", "title": "l'uomo che amava le donne", "artist": "Nina Zilli", "level": "B1", "lang": "it", "variety_lang": "Italiano", "focus": "Passione & Seduzione", "vocab": ["L'uomo", "La passione", "Il fascino", "Il cuore", "Il sorriso", "Il gioco", "Amare", "Il segreto", "La bellezza", "La seduzione"], "helpers": ["uomo", "passione", "fascino", "cuore", "sorriso"], "lyrics": "L'uomo che amava le donne,\nSotto la luce delle stelle e delle gonne.\nUn [__________] dal destino misterioso,\nChe vive con animo coraggioso.\n\nUna forte [__________] lo guida ogni giorno,\nCon un grande [__________] tutto intorno.\nConquista ogni anima e ogni [__________],\nRegalando un dolce [__________]..."},
-    {"slug": "due-grosse-lacrime-bianche", "title": "due grosse lacrime bianche", "artist": "Iva Zanicchi", "level": "B1", "lang": "it", "variety_lang": "Italiano", "focus": "Dolore & Rimpatrio", "vocab": ["La lacrima", "Il dolore", "Il silenzio", "L'addio", "La solitudine", "La fine", "Il pianto", "Il rimpianto", "Soffrire", "La speranza"], "helpers": ["lacrima", "dolore", "silenzio", "addio", "solitudine"], "lyrics": "Due grosse lacrime bianche,\nSulle mie guance stanche.\nOgni singola [__________] che scende,\nRivela quanto il cuore si arrende.\n\nUn immenso [__________] nel profondo,\nIn questo silenzioso mondo.\nAvvolta in un grande [__________] di ghiaccio,\nPrima del nostro triste [__________]..."},
-    {"slug": "unatta-estate", "title": "un'altra estate", "artist": "Diodato", "level": "B1", "lang": "it", "variety_lang": "Italiano", "focus": "Estate & Libertà", "vocab": ["L'estate", "La spiaggia", "Il mare", "Il sole", "La libertà", "Il viaggio", "Il vento", "Ricominciare", "Il calore", "L'orizzonte"], "helpers": ["estate", "spiaggia", "mare", "sole", "libertà"], "lyrics": "Un'altra estate è arrivata,\nSulla costa dorata.\nLa calda atmosfera dell' [__________],\nCi regala una giornata fatata.\n\nCamminiamo sulla [__________] dorata,\nBagnati dal profondo [__________].\nSotto la luce del grande [__________],\nAssaporando questa dolce [__________]..."},
-    {"slug": "chi-sara-con-te", "title": "chi sarà con te", "artist": "Massimo Ranieri", "level": "B1", "lang": "it", "variety_lang": "Italiano", "focus": "Compagnia & Destino", "vocab": ["La compagnia", "Il futuro", "Il destino", "La promessa", "La speranza", "Proteggere", "Il cammino", "La fedeltà", "L'attesa", "L'unione"], "helpers": ["compagnia", "futuro", "destino", "promessa", "speranza"], "lyrics": "Chi sarà con te nei momenti difficili ?\nChi raccoglierà i tuoi pensieri più fragili ?\nCerca sempre la dolce [__________],\nPer affrontare la vita con gioia.\n\nIl nostro [__________] è ancora da scrivere,\nGuidati da un saggio [__________].\nMantenendo ogni sacra [__________],\nCon una grande [__________] nel cuore..."},
-    {"slug": "un-raggio-di-sole", "title": "un raggio di sole", "artist": "Jovanotti", "level": "B1", "lang": "it", "variety_lang": "Italiano", "focus": "Gioia & Natura", "vocab": ["Il raggio", "Il sole", "La luce", "La gioia", "La natura", "La speranza", "Riscaldare", "La felicità", "Il mattino", "La bellezza"], "helpers": ["raggio", "sole", "luce", "gioia", "natura"], "lyrics": "Un raggio di sole per te,\nChe illumina tutto intorno a me.\nUn piccolo [__________] dorato,\nIn questo cielo stellato.\n\nSotto la calda luce del [__________],\nIl mio cuore si è risvegliato.\nUna grande [__________] ci accompagna,\nAttraverso questa bella [__________]..."},
-    {"slug": "lamore-e-un-attimo", "title": "l'amore è un attimo", "artist": "Massimo Ranieri", "level": "B1", "lang": "it", "variety_lang": "Italiano", "focus": "Amore & Passione", "vocab": ["L'amore", "L'attimo", "La scintilla", "Il bacio", "Il ricordo", "Il battito", "La passione", "Il soffio", "Svanire", "L'infinito"], "helpers": ["amore", "attimo", "scintilla", "bacio", "ricordo"], "lyrics": "L'amore è un attimo fuggente,\nChe travolge la mente.\nUn immenso [__________] sincero,\nIn questo cielo così nero.\n\nBasta una piccola [__________] di fuoco,\nPer accendere questo grande gioco.\nCi scambiamo un tenero [__________],\nChe rimarrà come un dolce [__________]..."},
+    date_m = re.search(r'<p class="session-date">(.*?) • (.*?)</p>', html)
+    artist = date_m.group(1).strip() if date_m else ""
+    level_raw = date_m.group(2).strip() if date_m else "B1"
 
-    # Spanish
-    {"slug": "amor-libre", "title": "amor libre", "artist": "Esteman", "level": "B1", "lang": "es", "variety_lang": "Español", "focus": "Libertad & Aceptación", "vocab": ["La libertad", "El amor", "El orgullo", "La aceptación", "El respeto", "Sin prejuicios", "Caminar", "La valentía", "El corazón", "La diversidad"], "helpers": ["libertad", "amor", "orgullo", "aceptación", "respeto"], "lyrics": "Amor libre, sin barreras,\nBajo nuestras propias banderas.\nReclamamos una absoluta [__________],\nPara vivir a nuestra manera.\n\nSintiendo un gran [__________] sincero,\nPor este gran [__________] verdadero.\nBuscando la plena [__________] social,\nCon un prohundo [__________] mutuo..."},
-    {"slug": "te-alejas-mas-de-mi", "title": "te alejas mas de mi", "artist": "Esteman", "level": "B1", "lang": "es", "variety_lang": "Español", "focus": "Distancia & Ausencia", "vocab": ["La distancia", "El olvido", "La ausencia", "El dolor", "El silencio", "Alejarse", "El recuerdo", "La tristeza", "El frío", "La despedida"], "helpers": ["distancia", "olvido", "ausencia", "dolor", "silencio"], "lyrics": "Te alejas más de mí cada día,\nY se apaga nuestra alegría.\nEsta lúgubre [__________] de ti,\nLlena de sombras mi camino aquí.\n\nUn inmenso [__________] en mi alma,\nQue perturba mi calma.\nCaemos en un lento [__________] cruel,\nEn medio de este lúgubre [__________]..."},
-    {"slug": "nuevo-verano", "title": "nuevo verano", "artist": "Amaia", "level": "B1", "lang": "es", "variety_lang": "Español", "focus": "Verano & Nostalgia", "vocab": ["El verano", "La nostalgia", "El sol", "La playa", "El amigo", "La juventud", "El cambio", "Sonreír", "El recuerdo", "El futuro"], "helpers": ["verano", "nostalgia", "sol", "playa", "amigo"], "lyrics": "Un nuevo verano comienza hoy,\nY recuerdo bien de dónde soy.\nLa cálida brisa del [__________] costero,\nMe acompaña en este sendero.\n\nSiento una dulce [__________] al cantar,\nFrente al inmenso mar.\nBajo el brillo del dorado [__________],\nCaminando por la blanca [__________]..."},
+    lang_m = re.search(r'<html lang="(.*?)">', html)
+    lang = lang_m.group(1).strip() if lang_m else "en"
 
-    # Russian
-    {"slug": "u-mamy-est-sekret", "title": "у мамы есть секрет", "artist": "Монеточка", "level": "B1", "lang": "ru", "variety_lang": "Русский", "focus": "Секреты & Тайна", "vocab": ["Секрет (он)", "Мама (она)", "Тайна (она)", "Улыбка (она)", "Забота (она)", "Любовь (она)", "Доверие (оно)", "Шёпот (он)", "Правда (она)", "Детство (оно)"], "helpers": ["секрет", "мама", "тайна", "улыбка", "любовь"], "lyrics": "У мамы есть секрет большой,\nОна хранит его душой.\nЭтот маленький [__________] красивый,\nДелает её жизнь счастливой.\n\nМоя любимая [__________] улыбается,\nКогда эта [__________] раскрывается.\nЕё нежная и тёплая [__________],\nИ материнская крепкая [__________]..."},
-    {"slug": "vyshe-domov", "title": "выше домов", "artist": "Сироткин", "level": "B1", "lang": "ru", "variety_lang": "Русский", "focus": "Высота & Полёт", "vocab": ["Высота (она)", "Дом (он)", "Полёт (он)", "Мечта (она)", "Свобода (она)", "Юность (она)", "Ветер (он)", "Город (он)", "Небо (оно)", "Взгляд (он)"], "helpers": ["высота", "дом", "полёт", "мечта", "свобода"], "lyrics": "Выше домов мы летим над землёй,\nОставляя весь мир за собой.\nНас манит эта [__________] ночная,\nИ простор без конца и края.\n\nКаждый [__________] внизу светится огнями,\nПока совершается наш [__________] с вами.\nСбывается наша заветная [__________],\nДарящая нам полную [__________]..."},
+    variety_m = re.search(r"<h4>(?:Variety/Language|Language|Langue|Язык|Lingua|Idioma|Γλώσσα|Variety)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
+    variety = variety_m.group(1).strip() if variety_m else "English"
 
-    # Greek
-    {"slug": "na-i-agapi-na", "title": "na i agapi na", "artist": "Giannis Parios", "level": "B1", "lang": "el", "variety_lang": "Ελληνικά", "focus": "Αγάπη & Έρωτας", "vocab": ["Η αγάπη", "Το φιλί", "Ο έρωτας", "Το δάκρυ", "Ο χωρισμός", "Η ελπίδα", "Το λιμάνι", "Η αγκαλιά", "Η υπόσχεση", "Η ξενιτιά"], "helpers": ["αγάπη", "φιλί", "έρωτας", "ελπίδα", "αγκαλιά"], "lyrics": "Να η αγάπη, να το φως της ζωής μας,\nΠου φωτίζει κάθε στιγμή μας.\nΜια μεγάλη και ζεστή [__________],\nΠου διώχνει κάθε λύπη και στενοχώρια.\n\nΜας ενώνει αυτός ο δυνατός [__________],\nΣαν ένα γλυκό και τρυφερό [__________].\nΚρατώντας ζωντανή την [__________] μας,\nΣε αυτή την όμορφη διαδρομή μας..."},
-    {"slug": "kapoies-nychtes", "title": "kapoies nychtes", "artist": "Arletta", "level": "B1", "lang": "el", "variety_lang": "Ελληνικά", "focus": "Νύχτα & Μοναξιά", "vocab": ["Η νύχτα", "Το φεγγάρι", "Η μοναξιά", "Το όνειρο", "Η σιωπή", "Η μελαγχολία", "Το τραγούδι", "Το σκοτάδι", "Η θύμηση", "Η παρέα"], "helpers": ["νύχτα", "φεγγάρι", "μοναξιά", "όνειρο", "σιωπή"], "lyrics": "Κάποιες νύχτες μελαγχολικές,\nΓεμάτες σκέψεις και σιωπές.\nΌταν απλώνεται η σκοτεινή [__________],\nΚαι η καρδιά αναζητά μια διέξοδο.\n\nΚοιτάζω το ολόγιομο [__________] ψηλά,\nΝα φωτίζει τα πέτρινα σκαλιά.\nΝιώθοντας τη βαθιά [__________] της ψυχής,\nΣαν ένα χαμένο [__________] της αυγής..."},
-    {"slug": "o-gatos", "title": "o gatos", "artist": "Arletta", "level": "A2", "lang": "el", "variety_lang": "Ελληνικά", "focus": "Ελευθερία & Περιπέτεια", "vocab": ["Ο γάτος", "Η κεραμίδα", "Η περιπέτεια", "Η ελευθερία", "Ο δρόμος", "Το νιαούρισμα", "Το κυνήγι", "Η νύχτα", "Η παρέα", "Η αυλή"], "helpers": ["γάτος", "κεραμίδα", "περιπέτεια", "ελευθερία", "δρόμος"], "lyrics": "Ο γάτος της γειτονιάς μας,\nΟ πιο πιστός μας φίλος.\nΈνας πονηρός και όμορφος [__________],\nΠου περπατάει πάνω στην [__________].\n\nΑναζητά μια νέα [__________] τη νύχτα,\nΓεμάτος ενέργεια και ζωντάνια.\nΑγαπάει την απόλυτη [__________] του,\nΤρέχοντας στον έρημο [__________]..."}
-]
+    focus_m = re.search(r"<h4>(?:Thematic Focus|Focus|Thème|Тема|Tema|Θέμα)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
+    focus = focus_m.group(1).strip() if focus_m else ""
 
-# Challenges array
-CHALLENGES_DATA = [
-    {"slug": "maelle-challenge", "title": "Maëlle Challenge", "artist": "French Pop Special", "level": "B1", "lang": "fr", "variety_lang": "Français", "focus": "Résilience & Douceur", "vocab": ["La machine", "Le cœur", "L'âme", "La blessure", "L'espoir", "L'amour", "La tendresse", "Le silence", "Guérir", "Chuchoter"], "helpers": ["machine", "cœur", "âme", "blessure", "espoir"], "lyrics": "Song 1: Toutes les machines ont le cœur\nToutes les [__________] ont un cœur,\nMais elles cachent bien leur douleur.\n\nSong 2: je t'aime comme je t'aime\nUn immense [__________] sincère,\nQui éclaire tout mon univers.\nDans la douceur de notre [__________],\nJe trouve un calme légendaire..."},
-    {"slug": "abba-challenge", "title": "ABBA Challenge", "artist": "Pop Classics Special", "level": "B1", "lang": "en", "variety_lang": "British English", "focus": "Dual Personality & Trust", "vocab": ["Dual", "Deceptive", "Warning", "Conflict", "Mirror", "Gaze", "Lure", "Opposite", "Trust", "Reflect"], "helpers": ["Dual", "Conflict", "Deceptive", "Warning", "Trust"], "lyrics": "Song 1: me & I\nA strange [__________] nature indeed,\nFilled with conflicting ideas and breed.\nThis inner [__________] never ends...\n\nSong 2: angeleyes\nHis smile is highly [__________] and sweet,\nI write this as a friendly [__________] to you,\nDo not easily grant him your [__________]..."},
-    {"slug": "arletta-challenge", "title": "Arletta Challenge", "artist": "Greek Folk-Pop Special", "level": "B1", "lang": "el", "variety_lang": "Ελληνικά", "focus": "Νύχτα & Ελευθερία", "vocab": ["Η νύχτα", "Το φεγγάρι", "Η μοναξιά", "Ο γάτος", "Η ελευθερία", "Το όνειρο", "Η μελαγχολία", "Η σιωπή", "Ο δρόμος", "Η παρέα"], "helpers": ["νύχτα", "φεγγάρι", "μοναξιά", "γάτος", "ελευθερία"], "lyrics": "Song 1: κάποιες νύχτες\nΌταν απλώνεται η σκοτεινή [__________],\nΚοιτάζω το ολόγιομο [__________] ψηλά,\nΝιώθοντας τη βαθιά [__________] της ψυχής...\n\nSong 2: ο γάτος\nΈνας πονηρός και όμορφος [__________],\nΑγαπάει την απόλυτη [__________] του..."},
-    {"slug": "esteman-challenge", "title": "Esteman Challenge", "artist": "Spanish Indie-Pop Special", "level": "B1", "lang": "es", "variety_lang": "Español", "focus": "Libertad & Distancia", "vocab": ["La libertad", "El amor", "El orgullo", "La distancia", "El olvido", "Alejarse", "La aceptación", "El respeto", "La despedida", "El silencio"], "helpers": ["libertad", "amor", "orgullo", "distancia", "olvido"], "lyrics": "Song 1: amor libre\nReclamamos una absoluta [__________],\nSintiendo un gran [__________] sincero,\nPor este gran [__________] verdadero...\n\nSong 2: te alejas mas de mi\nEsta lúgubre [__________] de ti,\nCaemos en un lento [__________] cruel..."},
-    {"slug": "angele-challenge", "title": "Angèle Challenge", "artist": "Belgian Pop Special", "level": "B1", "lang": "fr", "variety_lang": "Français", "focus": "Incertitude & Respect", "vocab": ["Le doute", "La réponse", "Le respect", "La liberté", "L'égalité", "Attendre", "Le message", "Parler", "Jouer", "La voix"], "helpers": ["doute", "réponse", "respect", "liberté", "égalité"], "lyrics": "Song 1: oui ou non\nDans ce grand [__________] qui m'opprime,\nJ'attends ta [__________] légitime...\n\nSong 2: balance ton quoi\nUn peu de [__________] dans ce monde,\nNous voulons vivre en toute [__________],\nDans une parfaite [__________]..."},
-    {"slug": "massimo-ranieri-challenge", "title": "Massimo Ranieri Challenge", "artist": "Canzone Italiana Special", "level": "B1", "lang": "it", "variety_lang": "Italiano", "focus": "Destino & Amore", "vocab": ["Il destino", "La promessa", "L'amore", "L'attimo", "Il cammino", "La fedeltà", "La scintilla", "Svanire", "L'attesa", "Il ricordo"], "helpers": ["destino", "promessa", "amore", "attimo", "ricordo"], "lyrics": "Song 1: chi sara con te\nIl nostro [__________] è ancora da scrivere,\nMantenendo ogni sacra [__________]...\n\nSong 2: l'amore e un attimo\nL' [__________] è un [__________] fuggente,\nChe rimarrà come un dolce [__________]..."},
-    {"slug": "angelina-wismes-challenge", "title": "Angelina Wismes Challenge", "artist": "Parisian Chanson Special", "level": "B1", "lang": "fr", "variety_lang": "Français", "focus": "Mélancolie & Paris", "vocab": ["Le soleil", "L'obscurité", "La mélancolie", "Paris", "La liberté", "La solitude", "Le souvenir", "La beauté", "Le rêve", "Le ciel"], "helpers": ["soleil", "obscurité", "mélancolie", "Paris", "liberté"], "lyrics": "Song 1: le soleil noir\nCe [__________] qui ne réchauffe plus,\nLaisse place à l' [__________] absolue.\nUne profonde [__________] s'installe...\n\nSong 2: la tour eiffel est pour moi\nAu cœur de ce magnifique [__________],\nJe goûte à une immense [__________]..."}
-]
+    vocab = re.findall(r'<div class="vocab-word">(.*?)</div>', html)
+    vocab = [v.strip() for v in vocab]
 
-# Merge lists for generation
-all_karaoke_data = songs_list + CHALLENGES_DATA
+    # Map level raw to short code
+    level_short = "B1"
+    if any(k in level_raw for k in ["A2", "Débutant", "Στοιχειώδες", "Beginner"]):
+        level_short = "A2"
+    elif any(k in level_raw for k in ["B2", "Upper Intermediate", "Intermédiaire Supérieur"]):
+        level_short = "B2"
+    elif "C1" in level_raw:
+        level_short = "C1"
+
+    songs_list.append({
+        "slug": slug,
+        "title": title,
+        "artist": artist,
+        "level": level_short,
+        "lang": lang,
+        "variety": variety,
+        "focus": focus,
+        "vocab": vocab,
+        "helpers": LYRICS_DATA[slug]["helpers"],
+        "lyrics": LYRICS_DATA[slug]["lyrics"]
+    })
+
+# STEP 2: Parse all 11 challenges dynamically from their existing files
+challenges_list = []
+for slug in sorted(CHALLENGE_MAP.keys()):
+    path = f"events/sessions/{slug}.html"
+    if not os.path.exists(path):
+        continue
+    with open(path, "r", encoding="utf-8") as f:
+        html = f.read()
+
+    # Extract metadata using robust regex
+    title_m = re.search(r"<h1>(.*?)</h1>", html)
+    title = title_m.group(1).strip() if title_m else slug.replace("-", " ").title()
+
+    date_m = re.search(r'<p class="session-date">(.*?) • (.*?)</p>', html)
+    artist = date_m.group(1).strip() if date_m else ""
+    level_raw = date_m.group(2).strip() if date_m else "B1"
+
+    lang_m = re.search(r'<html lang="(.*?)">', html)
+    lang = lang_m.group(1).strip() if lang_m else "en"
+
+    variety_m = re.search(r"<h4>(?:Variety/Language|Language|Langue|Язык|Lingua|Idioma|Γλώσσα|Variety)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
+    variety = variety_m.group(1).strip() if variety_m else "English"
+
+    focus_m = re.search(r"<h4>(?:Thematic Focus|Focus|Thème|Тема|Tema|Θέμα)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
+    focus = focus_m.group(1).strip() if focus_m else ""
+
+    vocab = re.findall(r'<div class="vocab-word">(.*?)</div>', html)
+    vocab = [v.strip() for v in vocab]
+
+    # Map level raw to short code
+    level_short = "B1"
+    if any(k in level_raw for k in ["A2", "Débutant", "Στοιχειώδες", "Beginner"]):
+        level_short = "A2"
+    elif any(k in level_raw for k in ["B2", "Upper Intermediate", "Intermédiaire Supérieur"]):
+        level_short = "B2"
+    elif "C1" in level_raw:
+        level_short = "C1"
+
+    # Merge full lyrics and helpers from the two constituent songs of this challenge
+    sub1_slug, sub2_slug = CHALLENGE_MAP[slug]
+
+    # Locate title names of sub-songs
+    sub1_title = next((s["title"] for s in songs_list if s["slug"] == sub1_slug), sub1_slug.replace("-", " ").title())
+    sub2_title = next((s["title"] for s in songs_list if s["slug"] == sub2_slug), sub2_slug.replace("-", " ").title())
+
+    lyrics_1 = LYRICS_DATA[sub1_slug]["lyrics"]
+    lyrics_2 = LYRICS_DATA[sub2_slug]["lyrics"]
+
+    # Localized labels for "Song" / "Chanson" etc.
+    song_label = "Song 1"
+    song_label_2 = "Song 2"
+    if lang == "fr":
+        song_label = "Chanson 1"
+        song_label_2 = "Chanson 2"
+    elif lang == "it":
+        song_label = "Canzone 1"
+        song_label_2 = "Canzone 2"
+    elif lang == "es":
+        song_label = "Canción 1"
+        song_label_2 = "Canción 2"
+    elif lang == "ru":
+        song_label = "Песня 1"
+        song_label_2 = "Песня 2"
+    elif lang == "el":
+        song_label = "Τραγούδι 1"
+        song_label_2 = "Τραγούδι 2"
+
+    combined_lyrics = f"{song_label}: {sub1_title}\n\n{lyrics_1}\n\n{song_label_2}: {sub2_title}\n\n{lyrics_2}"
+    combined_helpers = list(dict.fromkeys(LYRICS_DATA[sub1_slug]["helpers"] + LYRICS_DATA[sub2_slug]["helpers"]))
+
+    challenges_list.append({
+        "slug": slug,
+        "title": title,
+        "artist": artist,
+        "level": level_short,
+        "lang": lang,
+        "variety_lang": variety,
+        "focus": focus,
+        "vocab": vocab,
+        "helpers": combined_helpers,
+        "lyrics": combined_lyrics
+    })
+
+# Merge lists for generation (52 individual songs + 11 challenges = 63 pages)
+all_karaoke_data = songs_list + challenges_list
 
 for song in all_karaoke_data:
     slug = song["slug"]
@@ -753,7 +852,7 @@ for song in all_karaoke_data:
     level_short = song["level"]
     level_long = "Intermediate (B1)" if level_short == "B1" else ("Beginner (A2)" if level_short == "A2" else ("Upper Intermediate (B2)" if level_short == "B2" else "Advanced (C1)"))
 
-    # Specific lang overrides
+    # Specific lang overrides for full level description
     if song["lang"] == "fr":
         level_long = "Intermédiaire (B1)" if level_short == "B1" else ("Débutant (A2)" if level_short == "A2" else "Intermédiaire Supérieur (B2)")
     elif song["lang"] == "ru":
@@ -775,11 +874,8 @@ for song in all_karaoke_data:
     # Build vocabulary cards html
     vocab_cards_html = ""
     for w in song["vocab"]:
-        # Lookup word details
-        # Standardize matching without case/accent sensitivity where possible
         norm_w = w.replace("L'", "").replace("La ", "").replace("Le ", "").replace("El ", "").replace("La ", "").replace("Il ", "").replace("La ", "").replace("Η ", "").replace("Το ", "").replace("Ο ", "")
 
-        # Exact match lookup
         definition, example = ("definition.", "Example sentence.")
         found = False
         for k, v in VOCAB_DB.items():
@@ -789,13 +885,12 @@ for song in all_karaoke_data:
                 break
 
         if not found:
-            # Fallback
             definition = f"Target vocabulary word meaning in '{title}'."
             example = f"This is an elegant example of using '{w}'."
 
         escaped_def = definition.replace("'", "\\'")
         escaped_ex = example.replace("'", "\\'")
-        vocab_cards_html += f"""      <div class="vocab-card"><div class="vocab-word">{w}</div><div class="vocab-def">{definition}</div><div class="vocab-example">{example}</div><button class="btn-add-dict" onclick="COSY.addToDict({{word:'{w}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">+ Dictionary</button></div>\n"""
+        vocab_cards_html += f"""            <div class="vocab-card"><div class="vocab-word">{w}</div><div class="vocab-def">{definition}</div><div class="vocab-example">{example}</div><button class="btn-add-dict" onclick="COSY.addToDict({{word:'{w}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">+ Dictionary</button></div>\n"""
 
     # Build word bank helpers
     word_bank_html = ""
@@ -880,7 +975,7 @@ for song in all_karaoke_data:
     elif lang == "es":
         desc = f"Explora la hermosa canción '{title}' de {artist} en {variety_lang}. Esta sesión se centra en el vocabulario de '{focus}' y en las estructuras lingüísticas clave de la letra. Los estudiantes practicarán la conversación y el debate sobre estos temas."
     elif lang == "el":
-        desc = f"Ανακαλύψτε το πανέμορφο τραγούδι '{title}' του καλλιτέχνη {artist} στα {variety_lang}. Αυτή η συνεδρία εστιάζει στο λεξιλόγιο γύρω από το θέμα '{focus}' και στις βασικές γλωσσικές δομές των στίχων. Οι μαθητές θα εξασκηθούν στην ομιλία και τη συζήτηση."
+        desc = f"Ανακαλύψτε το πανέφορφο τραγούδι '{title}' του καλλιτέχνη {artist} στα {variety_lang}. Αυτή η συνεδρία εστιάζει στο λεξιλόγιο γύρω από το θέμα '{focus}' και στις βασικές γλωσσικές δομές των στίχων. Οι μαθητές θα εξασκηθούν στην ομιλία και τη συζήτηση."
 
     # Render and write HTML
     formatted_html = HTML_TEMPLATE.format(
@@ -908,7 +1003,6 @@ for song in all_karaoke_data:
         word_bank_title=loc["word_bank_title"],
         word_bank_html=word_bank_html,
         lyrics_title=loc["lyrics_title"],
-        lyrics_text_html=song["lyrics"].replace("\n", "<br>"),
         lyrics_text=song["lyrics"].replace("\n", "<br>"),
         structure_title=loc["structure_title"],
         warmup_title=loc["warmup_title"],
@@ -930,4 +1024,4 @@ for song in all_karaoke_data:
     with open(filepath, "w", encoding="utf-8") as fh:
         fh.write(formatted_html)
 
-print("Generated all 45 Karaoke session HTML pages successfully!")
+print(f"Generated all {len(all_karaoke_data)} Karaoke session HTML pages successfully with full authentic lyrics and collapsible layout!")

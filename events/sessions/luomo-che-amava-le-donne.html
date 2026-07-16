@@ -38,46 +38,54 @@
     <p>Esplora lo splendido brano 'l'uomo che amava le donne' di Nina Zilli in Italiano. Questa sessione si concentra sul vocabolario legato a 'Passione & Seduzione' e sulle strutture linguistiche chiave del testo. Gli studenti faranno pratica di conversazione e dibattito su questi temi.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabolario della sessione</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">L'uomo</div><div class="vocab-def">essere umano di sesso maschile o umanità.</div><div class="vocab-example">L'uomo ha sempre cercato di comprendere i misteri della natura.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'uomo', definition:'essere umano di sesso maschile o umanità.', example:'L\'uomo ha sempre cercato di comprendere i misteri della natura.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La passione</div><div class="vocab-def">forte sentimento di amore o entusiasmo.</div><div class="vocab-example">La musica classica è la sua più grande passione fin da bambina.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La passione', definition:'forte sentimento di amore o entusiasmo.', example:'La musica classica è la sua più grande passione fin da bambina.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il fascino</div><div class="vocab-def">qualità che attrae e seduce irresistibilmente.</div><div class="vocab-example">Venezia è una città ricca di fascino e di storia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il fascino', definition:'qualità che attrae e seduce irresistibilmente.', example:'Venezia è una città ricca di fascino e di storia.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il cuore</div><div class="vocab-def">organo del corpo, simbolo dei sentimenti.</div><div class="vocab-example">Ascolta sempre il tuo cuore quando devi fare una scelta difficile.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il cuore', definition:'organo del corpo, simbolo dei sentimenti.', example:'Ascolta sempre il tuo cuore quando devi fare una scelta difficile.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il sorriso</div><div class="vocab-def">espressione del viso che mostra gioia o affetto.</div><div class="vocab-example">Accoglie sempre i suoi ospiti con un sorriso caloroso.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il sorriso', definition:'espressione del viso che mostra gioia o affetto.', example:'Accoglie sempre i suoi ospiti con un sorriso caloroso.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il gioco</div><div class="vocab-def">attività di svago, scherzo o divertimento.</div><div class="vocab-example">Il calcio è il gioco di squadra più amato in Italia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il gioco', definition:'attività di svago, scherzo o divertimento.', example:'Il calcio è il gioco di squadra più amato in Italia.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Amare</div><div class="vocab-def">provare un profondo sentimento di affetto o attrazione.</div><div class="vocab-example">Amare significa rispettare la libertà dell'altra persona.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Amare', definition:'provare un profondo sentimento di affetto o attrazione.', example:'Amare significa rispettare la libertà dell\'altra persona.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il segreto</div><div class="vocab-def">cosa che non deve essere rivelata ad altri.</div><div class="vocab-example">Ha promesso di custodire questo segreto per tutta la vita.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il segreto', definition:'cosa che non deve essere rivelata ad altri.', example:'Ha promesso di custodire questo segreto per tutta la vita.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La bellezza</div><div class="vocab-def">qualità di ciò che è bello e piacevole da vedere.</div><div class="vocab-example">La bellezza del tramonto sul mare ci ha lasciati senza parole.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La bellezza', definition:'qualità di ciò che è bello e piacevole da vedere.', example:'La bellezza del tramonto sul mare ci ha lasciati senza parole.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La seduzione</div><div class="vocab-def">l'azione di sedurre, attrarre con eleganza.</div><div class="vocab-example">Il cinema italiano ha sempre usato la seduzione come tema forte.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La seduzione', definition:'l\'azione di sedurre, attrarre con eleganza.', example:'Il cinema italiano ha sempre usato la seduzione come tema forte.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabolario della sessione</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">L'uomo</div><div class="vocab-def">essere umano di sesso maschile o umanità.</div><div class="vocab-example">L'uomo ha sempre cercato di comprendere i misteri della natura.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'uomo', definition:'essere umano di sesso maschile o umanità.', example:'L\'uomo ha sempre cercato di comprendere i misteri della natura.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La passione</div><div class="vocab-def">forte sentimento di amore o entusiasmo.</div><div class="vocab-example">La musica classica è la sua più grande passione fin da bambina.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La passione', definition:'forte sentimento di amore o entusiasmo.', example:'La musica classica è la sua più grande passione fin da bambina.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il fascino</div><div class="vocab-def">qualità che attrae e seduce irresistibilmente.</div><div class="vocab-example">Venezia è una città ricca di fascino e di storia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il fascino', definition:'qualità che attrae e seduce irresistibilmente.', example:'Venezia è una città ricca di fascino e di storia.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il cuore</div><div class="vocab-def">organo del corpo, simbolo dei sentimenti.</div><div class="vocab-example">Ascolta sempre il tuo cuore quando devi fare una scelta difficile.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il cuore', definition:'organo del corpo, simbolo dei sentimenti.', example:'Ascolta sempre il tuo cuore quando devi fare una scelta difficile.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il sorriso</div><div class="vocab-def">espressione del viso che mostra gioia o affetto.</div><div class="vocab-example">Accoglie sempre i suoi ospiti con un sorriso caloroso.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il sorriso', definition:'espressione del viso che mostra gioia o affetto.', example:'Accoglie sempre i suoi ospiti con un sorriso caloroso.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il gioco</div><div class="vocab-def">attività di svago, scherzo o divertimento.</div><div class="vocab-example">Il calcio è il gioco di squadra più amato in Italia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il gioco', definition:'attività di svago, scherzo o divertimento.', example:'Il calcio è il gioco di squadra più amato in Italia.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Amare</div><div class="vocab-def">provare un profondo sentimento di affetto o attrazione.</div><div class="vocab-example">Amare significa rispettare la libertà dell'altra persona.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Amare', definition:'provare un profondo sentimento di affetto o attrazione.', example:'Amare significa rispettare la libertà dell\'altra persona.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il segreto</div><div class="vocab-def">cosa che non deve essere rivelata ad altri.</div><div class="vocab-example">Ha promesso di custodire questo segreto per tutta la vita.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il segreto', definition:'cosa che non deve essere rivelata ad altri.', example:'Ha promesso di custodire questo segreto per tutta la vita.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La bellezza</div><div class="vocab-def">qualità di ciò che è bello e piacevole da vedere.</div><div class="vocab-example">La bellezza del tramonto sul mare ci ha lasciati senza parole.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La bellezza', definition:'qualità di ciò che è bello e piacevole da vedere.', example:'La bellezza del tramonto sul mare ci ha lasciati senza parole.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La seduzione</div><div class="vocab-def">l'azione di sedurre, attrarre con eleganza.</div><div class="vocab-example">Il cinema italiano ha sempre usato la seduzione come tema forte.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La seduzione', definition:'l\'azione di sedurre, attrarre con eleganza.', example:'Il cinema italiano ha sempre usato la seduzione come tema forte.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Esercizio di ascolto e riempimento spazi</h2>
-    <div class="vim-instruction">
-      <strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Esercizio di ascolto e riempimento spazi</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">uomo</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">passione</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">fascino</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">cuore</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">sorriso</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Testo completo</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-L'uomo che amava le donne<br>Sotto la luce delle stelle e delle gonne<br>Un [__________] dal destino misterioso<br>Che vive con animo coraggioso<br><br>Una forte [__________] lo guida ogni giorno<br>Con un grande [__________] tutto intorno<br>Conquista ogni anima e ogni [__________]<br>Regalando un dolce [__________]
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Testo completo</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">L'uomo che amava le donne<br>Sotto la luce delle stelle e delle gonne<br>Un [__________] dal destino misterioso<br>Che vive con animo coraggioso<br><br>Una forte [__________] lo guida ogni giorno<br>Con un grande [__________] tutto intorno<br>Conquista ogni anima e ogni [__________]<br>Regalando un dolce [__________]</p>
+      </div>
     </div>
   </section>
 

@@ -38,46 +38,54 @@
     <p>Explorez le magnifique titre 'je t'aime comme je t'aime' de Maëlle en Français. Cette session se concentre sur le vocabulaire de 'Amour & Complicité' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">L'amour</div><div class="vocab-def">sentiment d'affection, de tendresse et d'attirance.</div><div class="vocab-example">L'amour familial est un pilier indispensable de la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amour', definition:'sentiment d\'affection, de tendresse et d\'attirance.', example:'L\'amour familial est un pilier indispensable de la vie.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La tendresse</div><div class="vocab-def">sentiment d'affection douce, de bienveillance attentive.</div><div class="vocab-example">Elle a accueilli le bébé avec une immense tendresse.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La tendresse', definition:'sentiment d\'affection douce, de bienveillance attentive.', example:'Elle a accueilli le bébé avec une immense tendresse.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le silence</div><div class="vocab-def">absence de bruit, état de celui qui ne parle pas.</div><div class="vocab-example">Un grand silence s'est installé dans la bibliothèque.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le silence', definition:'absence de bruit, état de celui qui ne parle pas.', example:'Un grand silence s\'est installé dans la bibliothèque.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le doute</div><div class="vocab-def">état de l'esprit qui hésite à se prononcer sur la vérité.</div><div class="vocab-example">Le doute s'est installé dans son esprit après cette réunion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le doute', definition:'état de l\'esprit qui hésite à se prononcer sur la vérité.', example:'Le doute s\'est installé dans son esprit après cette réunion.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La fidélité</div><div class="vocab-def">qualité de quelqu'un qui est fidèle, constant dans ses sentiments.</div><div class="vocab-example">La fidélité de son chien est un exemple pour tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fidélité', definition:'qualité de quelqu\'un qui est fidèle, constant dans ses sentiments.', example:'La fidélité de son chien est un exemple pour tous.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Chuchoter</div><div class="vocab-def">parler à voix très basse, sans vibrer les cordes vocales.</div><div class="vocab-example">Ils aiment chuchoter des secrets à la tombée de la nuit.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Chuchoter', definition:'parler à voix très basse, sans vibrer les cordes vocales.', example:'Ils aiment chuchoter des secrets à la tombée de la nuit.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Partager</div><div class="vocab-def">diviser et distribuer, s'associer avec d'autres.</div><div class="vocab-example">Il est important de partager son repas avec les démunis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Partager', definition:'diviser et distribuer, s\'associer avec d\'autres.', example:'Il est important de partager son repas avec les démunis.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La patience</div><div class="vocab-def">aptitude à attendre calmement, sans s'énerver.</div><div class="vocab-example">La patience est une vertu essentielle pour enseigner.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La patience', definition:'aptitude à attendre calmement, sans s\'énerver.', example:'La patience est une vertu essentielle pour enseigner.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le baiser</div><div class="vocab-def">action de toucher avec les lèvres en signe d'affection.</div><div class="vocab-example">Elle a donné un tendre baiser à son amie sur la joue.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le baiser', definition:'action de toucher avec les lèvres en signe d\'affection.', example:'Elle a donné un tendre baiser à son amie sur la joue.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le lien</div><div class="vocab-def">ce qui unit ou attache des personnes ou des choses.</div><div class="vocab-example">Ils partagent un lien d'amitié très fort et solide.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le lien', definition:'ce qui unit ou attache des personnes ou des choses.', example:'Ils partagent un lien d\'amitié très fort et solide.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">L'amour</div><div class="vocab-def">sentiment d'affection, de tendresse et d'attirance.</div><div class="vocab-example">L'amour familial est un pilier indispensable de la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amour', definition:'sentiment d\'affection, de tendresse et d\'attirance.', example:'L\'amour familial est un pilier indispensable de la vie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La tendresse</div><div class="vocab-def">sentiment d'affection douce, de bienveillance attentive.</div><div class="vocab-example">Elle a accueilli le bébé avec une immense tendresse.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La tendresse', definition:'sentiment d\'affection douce, de bienveillance attentive.', example:'Elle a accueilli le bébé avec une immense tendresse.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le silence</div><div class="vocab-def">absence de bruit, état de celui qui ne parle pas.</div><div class="vocab-example">Un grand silence s'est installé dans la bibliothèque.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le silence', definition:'absence de bruit, état de celui qui ne parle pas.', example:'Un grand silence s\'est installé dans la bibliothèque.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le doute</div><div class="vocab-def">état de l'esprit qui hésite à se prononcer sur la vérité.</div><div class="vocab-example">Le doute s'est installé dans son esprit après cette réunion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le doute', definition:'état de l\'esprit qui hésite à se prononcer sur la vérité.', example:'Le doute s\'est installé dans son esprit après cette réunion.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La fidélité</div><div class="vocab-def">qualité de quelqu'un qui est fidèle, constant dans ses sentiments.</div><div class="vocab-example">La fidélité de son chien est un exemple pour tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fidélité', definition:'qualité de quelqu\'un qui est fidèle, constant dans ses sentiments.', example:'La fidélité de son chien est un exemple pour tous.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Chuchoter</div><div class="vocab-def">parler à voix très basse, sans vibrer les cordes vocales.</div><div class="vocab-example">Ils aiment chuchoter des secrets à la tombée de la nuit.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Chuchoter', definition:'parler à voix très basse, sans vibrer les cordes vocales.', example:'Ils aiment chuchoter des secrets à la tombée de la nuit.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Partager</div><div class="vocab-def">diviser et distribuer, s'associer avec d'autres.</div><div class="vocab-example">Il est important de partager son repas avec les démunis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Partager', definition:'diviser et distribuer, s\'associer avec d\'autres.', example:'Il est important de partager son repas avec les démunis.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La patience</div><div class="vocab-def">aptitude à attendre calmement, sans s'énerver.</div><div class="vocab-example">La patience est une vertu essentielle pour enseigner.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La patience', definition:'aptitude à attendre calmement, sans s\'énerver.', example:'La patience est une vertu essentielle pour enseigner.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le baiser</div><div class="vocab-def">action de toucher avec les lèvres en signe d'affection.</div><div class="vocab-example">Elle a donné un tendre baiser à son amie sur la joue.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le baiser', definition:'action de toucher avec les lèvres en signe d\'affection.', example:'Elle a donné un tendre baiser à son amie sur la joue.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le lien</div><div class="vocab-def">ce qui unit ou attache des personnes ou des choses.</div><div class="vocab-example">Ils partagent un lien d'amitié très fort et solide.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le lien', definition:'ce qui unit ou attache des personnes ou des choses.', example:'Ils partagent un lien d\'amitié très fort et solide.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">mots</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">peau</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">monde</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">cœur</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">aimer</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-C'est pas pour te retenir<br>Que je te dis des [__________]<br>C'est pas pour t'appartenir<br>Que je te fais l'amour<br>C'est juste que sous ma [__________]<br>Y a ton cœur qui bat<br>Que le reste du [__________]<br>Ne me regarde pas<br><br>Je t'aime comme je t'aime<br>Sans artifice et sans dilemme<br>Je t'aime comme je t'aime<br>Avec ton [__________] et tes colères<br>Et s'il faut tout [__________]<br>Et s'il faut tout refaire<br>Je t'aime comme je t'aime<br>Loin du bruit de la terre
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">C'est pas pour te retenir<br>Que je te dis des [__________]<br>C'est pas pour t'appartenir<br>Que je te fais l'amour<br>C'est juste que sous ma [__________]<br>Y a ton cœur qui bat<br>Que le reste du [__________]<br>Ne me regarde pas<br><br>Je t'aime comme je t'aime<br>Sans artifice et sans dilemme<br>Je t'aime comme je t'aime<br>Avec ton [__________] et tes colères<br>Et s'il faut tout [__________]<br>Et s'il faut tout refaire<br>Je t'aime comme je t'aime<br>Loin du bruit de la terre</p>
+      </div>
     </div>
   </section>
 

@@ -29,7 +29,7 @@
   </nav>
   <a href="../karaoke-club.html" class="back-link">← Вернуться в клуб</a>
   <div class="session-meta-grid">
-    <div class="meta-item"><h4>Длительность</h4><p>60 минут</p></div>
+    <div class="meta-item"><h4>Длительность</h4><p>60 minutes</p></div>
     <div class="meta-item"><h4>Язык</h4><p>Русский</p></div>
     <div class="meta-item"><h4>Уровень</h4><p>Средний (B1)</p></div>
     <div class="meta-item"><h4>Тема</h4><p>Высота & Полёт</p></div>
@@ -38,46 +38,54 @@
     <p>Разберите прекрасную песню 'выше домов' исполнителя Сироткин на Русский. Эта сессия посвящена изучению лексики по теме 'Высота & Полёт' и ключевых грамматических структур. Студенты будут практиковать разговорную речь и обсуждать заложенный смысл.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Словарь сессии</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Высота (она)</div><div class="vocab-def">пространство, находящееся высоко над землей.</div><div class="vocab-example">Самолёт набрал огромную высоту за несколько минут.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Высота (она)', definition:'пространство, находящееся высоко над землей.', example:'Самолёт набрал огромную высоту за несколько минут.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Дом (он)</div><div class="vocab-def">здание, жилое помещение, семейный очаг.</div><div class="vocab-example">Мы вернулись в наш уютный загородный дом вечером.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Дом (он)', definition:'здание, жилое помещение, семейный очаг.', example:'Мы вернулись в наш уютный загородный дом вечером.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Полёт (он)</div><div class="vocab-def">процесс движения в воздухе.</div><div class="vocab-example">Полёт птицы в ясном небе выглядел очень грациозно.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Полёт (он)', definition:'процесс движения в воздухе.', example:'Полёт птицы в ясном небе выглядел очень грациозно.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Мечта (она)</div><div class="vocab-def">заветное желание, предмет стремлений.</div><div class="vocab-example">Его главная мечта — поехать в кругосветное путешествие.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Мечта (она)', definition:'заветное желание, предмет стремлений.', example:'Его главная мечта — поехать в кругосветное путешествие.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Свобода (она)</div><div class="vocab-def">независимость, отсутствие ограничений.</div><div class="vocab-example">Каждый человек имеет право на личную свободу.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Свобода (она)', definition:'независимость, отсутствие ограничений.', example:'Каждый человек имеет право на личную свободу.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Юность (она)</div><div class="vocab-def">период жизни между детством и зрелостью.</div><div class="vocab-example">В юности мы совершаем много безумных и ярких поступков.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Юность (она)', definition:'период жизни между детством и зрелостью.', example:'В юности мы совершаем много безумных и ярких поступков.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Ветер (он)</div><div class="vocab-def">движение воздуха в горизонтальном направлении.</div><div class="vocab-example">Холодный ветер с моря дул нам прямо в лицо.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ветер (он)', definition:'движение воздуха в горизонтальном направлении.', example:'Холодный ветер с моря дул нам прямо в лицо.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Город (он)</div><div class="vocab-def">крупный населенный пункт.</div><div class="vocab-example">Этот старинный европейский город очаровал нас сразу.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Город (он)', definition:'крупный населенный пункт.', example:'Этот старинный европейский город очаровал нас сразу.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Небо (оно)</div><div class="vocab-def">пространство над землей, атмосфера.</div><div class="vocab-example">Ночное небо было усыпано миллионами ярких звёзд.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Небо (оно)', definition:'пространство над землей, атмосфера.', example:'Ночное небо было усыпано миллионами ярких звёзд.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Взгляд (он)</div><div class="vocab-def">направление глаз, выражение глаз.</div><div class="vocab-example">Ее добрый взгляд сразу внушил мне доверие.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Взгляд (он)', definition:'направление глаз, выражение глаз.', example:'Ее добрый взгляд сразу внушил мне доверие.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Словарь сессии</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Высота (она)</div><div class="vocab-def">пространство, находящееся высоко над землей.</div><div class="vocab-example">Самолёт набрал огромную высоту за несколько минут.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Высота (она)', definition:'пространство, находящееся высоко над землей.', example:'Самолёт набрал огромную высоту за несколько минут.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Дом (он)</div><div class="vocab-def">здание, жилое помещение, семейный очаг.</div><div class="vocab-example">Мы вернулись в наш уютный загородный дом вечером.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Дом (он)', definition:'здание, жилое помещение, семейный очаг.', example:'Мы вернулись в наш уютный загородный дом вечером.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Полёт (он)</div><div class="vocab-def">процесс движения в воздухе.</div><div class="vocab-example">Полёт птицы в ясном небе выглядел очень грациозно.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Полёт (он)', definition:'процесс движения в воздухе.', example:'Полёт птицы в ясном небе выглядел очень грациозно.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Мечта (она)</div><div class="vocab-def">заветное желание, предмет стремлений.</div><div class="vocab-example">Его главная мечта — поехать в кругосветное путешествие.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Мечта (она)', definition:'заветное желание, предмет стремлений.', example:'Его главная мечта — поехать в кругосветное путешествие.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Свобода (она)</div><div class="vocab-def">независимость, отсутствие ограничений.</div><div class="vocab-example">Каждый человек имеет право на личную свободу.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Свобода (она)', definition:'независимость, отсутствие ограничений.', example:'Каждый человек имеет право на личную свободу.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Юность (она)</div><div class="vocab-def">период жизни между детством и зрелостью.</div><div class="vocab-example">В юности мы совершаем много безумных и ярких поступков.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Юность (она)', definition:'период жизни между детством и зрелостью.', example:'В юности мы совершаем много безумных и ярких поступков.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Ветер (он)</div><div class="vocab-def">движение воздуха в горизонтальном направлении.</div><div class="vocab-example">Холодный ветер с моря дул нам прямо в лицо.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ветер (он)', definition:'движение воздуха в горизонтальном направлении.', example:'Холодный ветер с моря дул нам прямо в лицо.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Город (он)</div><div class="vocab-def">крупный населенный пункт.</div><div class="vocab-example">Этот старинный европейский город очаровал нас сразу.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Город (он)', definition:'крупный населенный пункт.', example:'Этот старинный европейский город очаровал нас сразу.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Небо (оно)</div><div class="vocab-def">пространство над землей, атмосфера.</div><div class="vocab-example">Ночное небо было усыпано миллионами ярких звёзд.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Небо (оно)', definition:'пространство над землей, атмосфера.', example:'Ночное небо было усыпано миллионами ярких звёзд.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Взгляд (он)</div><div class="vocab-def">направление глаз, выражение глаз.</div><div class="vocab-example">Ее добрый взгляд сразу внушил мне доверие.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Взгляд (он)', definition:'направление глаз, выражение глаз.', example:'Ее добрый взгляд сразу внушил мне доверие.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Упражнение на аудирование и заполнение пропусков</h2>
-    <div class="vim-instruction">
-      <strong>Активное аудирование:</strong> Слушайте песню, используя ссылку выше, и заполняйте пропуски. Пропущенные слова выбраны из ключевой лексики, словосочетаний и грамматических конструкций этой сессии.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Упражнение на аудирование и заполнение пропусков</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Активное аудирование:</strong> Слушайте песню, используя ссылку выше, и заполняйте пропуски. Пропущенные слова выбраны из ключевой лексики, словосочетаний и грамматических конструкций этой сессии.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Вспомогательный банк слов:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Вспомогательный банк слов:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">высота</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">дом</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">полёт</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">мечта</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">свобода</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Полный текст песни</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Выше домов мы летим над землёй<br>Оставляя весь мир за собой<br>Нас манит эта [__________] ночная<br>И простор без конца и края<br><br>Каждый [__________] внизу светится огнями<br>Пока совершается наш [__________] с вами<br>Сбывается наша заветная [__________]<br>Дарящая нам полную [__________]
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Полный текст песни</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Выше домов мы летим над землёй<br>Оставляя весь мир за собой<br>Нас манит эта [__________] ночная<br>И простор без конца и края<br><br>Каждый [__________] внизу светится огнями<br>Пока совершается наш [__________] с вами<br>Сбывается наша заветная [__________]<br>Дарящая нам полную [__________]</p>
+      </div>
     </div>
   </section>
 

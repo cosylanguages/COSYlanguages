@@ -38,46 +38,54 @@
     <p>Esplora lo splendido brano 'due grosse lacrime bianche' di Iva Zanicchi in Italiano. Questa sessione si concentra sul vocabolario legato a 'Dolore & Rimpatrio' e sulle strutture linguistiche chiave del testo. Gli studenti faranno pratica di conversazione e dibattito su questi temi.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabolario della sessione</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">La lacrima</div><div class="vocab-def">goccia di liquido prodotta dalle ghiandole lacrimali.</div><div class="vocab-example">Una singola lacrima le rigò il viso per la commozione.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La lacrima', definition:'goccia di liquido prodotta dalle ghiandole lacrimali.', example:'Una singola lacrima le rigò il viso per la commozione.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il dolore</div><div class="vocab-def">sofferenza fisica o morale intensa.</div><div class="vocab-example">Il dolore della perdita si attenua lentamente con il tempo.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il dolore', definition:'sofferenza fisica o morale intensa.', example:'Il dolore della perdita si attenua lentamente con il tempo.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il silenzio</div><div class="vocab-def">assenza di rumore o astensione dal parlare.</div><div class="vocab-example">Un grande silenzio è calato nella stanza d'esame.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il silenzio', definition:'assenza di rumore o astensione dal parlare.', example:'Un grande silenzio è calato nella stanza d\'esame.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'addio</div><div class="vocab-def">saluto definitivo o di lunga durata.</div><div class="vocab-example">Si sono scambiati un triste addio sulla banchina della stazione.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'addio', definition:'saluto definitivo o di lunga durata.', example:'Si sono scambiati un triste addio sulla banchina della stazione.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La solitudine</div><div class="vocab-def">stato di chi vive solo o si sente isolato.</div><div class="vocab-example">Apprezza la solitudine della montagna per concentrarsi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La solitudine', definition:'stato di chi vive solo o si sente isolato.', example:'Apprezza la solitudine della montagna per concentrarsi.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La fine</div><div class="vocab-def">conclusione o parte terminale di qualcosa.</div><div class="vocab-example">Tutti aspettavano con ansia la fine del lungo discorso.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fine', definition:'conclusione o parte terminale di qualcosa.', example:'Tutti aspettavano con ansia la fine del lungo discorso.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il pianto</div><div class="vocab-def">azione di piangere, sfogo di dolore o gioia.</div><div class="vocab-example">Il pianto del bambino ha attirato l'attenzione della madre.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il pianto', definition:'azione di piangere, sfogo di dolore o gioia.', example:'Il pianto del bambino ha attirato l\'attenzione della madre.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Il rimpianto</div><div class="vocab-def">sentimento di rammarico per qualcosa che si è perso.</div><div class="vocab-example">Non ha alcun rimpianto per le scelte fatte in passato.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il rimpianto', definition:'sentimento di rammarico per qualcosa che si è perso.', example:'Non ha alcun rimpianto per le scelte fatte in passato.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Soffrire</div><div class="vocab-def">provare dolore fisico o morale.</div><div class="vocab-example">Nessuno dovrebbe soffrire per l'indifferenza altrui.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Soffrire', definition:'provare dolore fisico o morale.', example:'Nessuno dovrebbe soffrire per l\'indifferenza altrui.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La speranza</div><div class="vocab-def">sentimento di fiduciosa attesa di un bene futuro.</div><div class="vocab-example">La speranza è l'ultima a morire nei momenti difficili.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La speranza', definition:'sentimento di fiduciosa attesa di un bene futuro.', example:'La speranza è l\'ultima a morire nei momenti difficili.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabolario della sessione</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">La lacrima</div><div class="vocab-def">goccia di liquido prodotta dalle ghiandole lacrimali.</div><div class="vocab-example">Una singola lacrima le rigò il viso per la commozione.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La lacrima', definition:'goccia di liquido prodotta dalle ghiandole lacrimali.', example:'Una singola lacrima le rigò il viso per la commozione.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il dolore</div><div class="vocab-def">sofferenza fisica o morale intensa.</div><div class="vocab-example">Il dolore della perdita si attenua lentamente con il tempo.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il dolore', definition:'sofferenza fisica o morale intensa.', example:'Il dolore della perdita si attenua lentamente con il tempo.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il silenzio</div><div class="vocab-def">assenza di rumore o astensione dal parlare.</div><div class="vocab-example">Un grande silenzio è calato nella stanza d'esame.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il silenzio', definition:'assenza di rumore o astensione dal parlare.', example:'Un grande silenzio è calato nella stanza d\'esame.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'addio</div><div class="vocab-def">saluto definitivo o di lunga durata.</div><div class="vocab-example">Si sono scambiati un triste addio sulla banchina della stazione.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'addio', definition:'saluto definitivo o di lunga durata.', example:'Si sono scambiati un triste addio sulla banchina della stazione.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La solitudine</div><div class="vocab-def">stato di chi vive solo o si sente isolato.</div><div class="vocab-example">Apprezza la solitudine della montagna per concentrarsi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La solitudine', definition:'stato di chi vive solo o si sente isolato.', example:'Apprezza la solitudine della montagna per concentrarsi.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La fine</div><div class="vocab-def">conclusione o parte terminale di qualcosa.</div><div class="vocab-example">Tutti aspettavano con ansia la fine del lungo discorso.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La fine', definition:'conclusione o parte terminale di qualcosa.', example:'Tutti aspettavano con ansia la fine del lungo discorso.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il pianto</div><div class="vocab-def">azione di piangere, sfogo di dolore o gioia.</div><div class="vocab-example">Il pianto del bambino ha attirato l'attenzione della madre.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il pianto', definition:'azione di piangere, sfogo di dolore o gioia.', example:'Il pianto del bambino ha attirato l\'attenzione della madre.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Il rimpianto</div><div class="vocab-def">sentimento di rammarico per qualcosa che si è perso.</div><div class="vocab-example">Non ha alcun rimpianto per le scelte fatte in passato.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il rimpianto', definition:'sentimento di rammarico per qualcosa che si è perso.', example:'Non ha alcun rimpianto per le scelte fatte in passato.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Soffrire</div><div class="vocab-def">provare dolore fisico o morale.</div><div class="vocab-example">Nessuno dovrebbe soffrire per l'indifferenza altrui.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Soffrire', definition:'provare dolore fisico o morale.', example:'Nessuno dovrebbe soffrire per l\'indifferenza altrui.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La speranza</div><div class="vocab-def">sentimento di fiduciosa attesa di un bene futuro.</div><div class="vocab-example">La speranza è l'ultima a morire nei momenti difficili.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La speranza', definition:'sentimento di fiduciosa attesa di un bene futuro.', example:'La speranza è l\'ultima a morire nei momenti difficili.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Esercizio di ascolto e riempimento spazi</h2>
-    <div class="vim-instruction">
-      <strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Esercizio di ascolto e riempimento spazi</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">lacrima</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">dolore</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">silenzio</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">addio</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">solitudine</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Testo completo</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Due grosse lacrime bianche<br>Sulle mie guance stanche<br>Ogni singola [__________] che scende<br>Rivela quanto il cuore si arrende<br><br>Un immenso [__________] nel profondo<br>In questo silenzioso mondo<br>Avvolta in un grande [__________] di ghiaccio<br>Prima del nostro triste [__________]
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Testo completo</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Due grosse lacrime bianche<br>Sulle mie guance stanche<br>Ogni singola [__________] che scende<br>Rivela quanto il cuore si arrende<br><br>Un immenso [__________] nel profondo<br>In questo silenzioso mondo<br>Avvolta in un grande [__________] di ghiaccio<br>Prima del nostro triste [__________]</p>
+      </div>
     </div>
   </section>
 

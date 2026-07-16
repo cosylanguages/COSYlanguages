@@ -38,46 +38,54 @@
     <p>Explora la hermosa canción 'te alejas mas de mi' de Esteman en Español. Esta sesión se centra en el vocabulario de 'Distancia & Ausencia' y en las estructuras lingüísticas clave de la letra. Los estudiantes practicarán la conversación y el debate sobre estos temas.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulario de la sesión</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">La distancia</div><div class="vocab-def">espacio o intervalo de lugar o de tiempo.</div><div class="vocab-example">La distancia no es un obstáculo para la verdadera amistad.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La distancia', definition:'espacio o intervalo de lugar o de tiempo.', example:'La distancia no es un obstáculo para la verdadera amistad.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El olvido</div><div class="vocab-def">pérdida de memoria o cese del recuerdo.</div><div class="vocab-example">Sus palabras cayeron en el olvido con el paso del tiempo.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El olvido', definition:'pérdida de memoria o cese del recuerdo.', example:'Sus palabras cayeron en el olvido con el paso del tiempo.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La ausencia</div><div class="vocab-def">falta de presencia de alguien en un lugar.</div><div class="vocab-example">Su ausencia se hizo notar durante la reunión familiar.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La ausencia', definition:'falta de presencia de alguien en un lugar.', example:'Su ausencia se hizo notar durante la reunión familiar.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El dolor</div><div class="vocab-def">sufrimiento físico o moral.</div><div class="vocab-example">El dolor de la pérdida se cura lentamente con paciencia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El dolor', definition:'sufrimiento físico o moral.', example:'El dolor de la pérdida se cura lentamente con paciencia.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El silencio</div><div class="vocab-def">ausencia de ruido o de habla.</div><div class="vocab-example">Un gran silencio inundó la sala de exposiciones.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El silencio', definition:'ausencia de ruido o de habla.', example:'Un gran silencio inundó la sala de exposiciones.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Alejarse</div><div class="vocab-def">distanciar o poner lejos a alguien.</div><div class="vocab-example">Decidió alejarse de las redes sociales para descansar.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Alejarse', definition:'distanciar o poner lejos a alguien.', example:'Decidió alejarse de las redes sociales para descansar.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El recuerdo</div><div class="vocab-def">imagen del pasado que se conserva en la memoria.</div><div class="vocab-example">Tengo un hermoso recuerdo de nuestras vacaciones juntos.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El recuerdo', definition:'imagen del pasado que se conserva en la memoria.', example:'Tengo un hermoso recuerdo de nuestras vacaciones juntos.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La tristeza</div><div class="vocab-def">estado de ánimo melancólico y afectuoso.</div><div class="vocab-example">Sentía una profunda tristeza al despedirse de sus amigos.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La tristeza', definition:'estado de ánimo melancólico y afectuoso.', example:'Sentía una profunda tristeza al despedirse de sus amigos.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">El frío</div><div class="vocab-def">temperatura baja, falta de calidez.</div><div class="vocab-example">El frío del invierno nos obliga a abrigarnos bien.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El frío', definition:'temperatura baja, falta de calidez.', example:'El frío del invierno nos obliga a abrigarnos bien.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La despedida</div><div class="vocab-def">palabras o gestos con que se dice adiós.</div><div class="vocab-example">La despedida en el aeropuerto fue muy emotiva.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La despedida', definition:'palabras o gestos con que se dice adiós.', example:'La despedida en el aeropuerto fue muy emotiva.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulario de la sesión</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">La distancia</div><div class="vocab-def">espacio o intervalo de lugar o de tiempo.</div><div class="vocab-example">La distancia no es un obstáculo para la verdadera amistad.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La distancia', definition:'espacio o intervalo de lugar o de tiempo.', example:'La distancia no es un obstáculo para la verdadera amistad.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El olvido</div><div class="vocab-def">pérdida de memoria o cese del recuerdo.</div><div class="vocab-example">Sus palabras cayeron en el olvido con el paso del tiempo.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El olvido', definition:'pérdida de memoria o cese del recuerdo.', example:'Sus palabras cayeron en el olvido con el paso del tiempo.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La ausencia</div><div class="vocab-def">falta de presencia de alguien en un lugar.</div><div class="vocab-example">Su ausencia se hizo notar durante la reunión familiar.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La ausencia', definition:'falta de presencia de alguien en un lugar.', example:'Su ausencia se hizo notar durante la reunión familiar.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El dolor</div><div class="vocab-def">sufrimiento físico o moral.</div><div class="vocab-example">El dolor de la pérdida se cura lentamente con paciencia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El dolor', definition:'sufrimiento físico o moral.', example:'El dolor de la pérdida se cura lentamente con paciencia.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El silencio</div><div class="vocab-def">ausencia de ruido o de habla.</div><div class="vocab-example">Un gran silencio inundó la sala de exposiciones.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El silencio', definition:'ausencia de ruido o de habla.', example:'Un gran silencio inundó la sala de exposiciones.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Alejarse</div><div class="vocab-def">distanciar o poner lejos a alguien.</div><div class="vocab-example">Decidió alejarse de las redes sociales para descansar.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Alejarse', definition:'distanciar o poner lejos a alguien.', example:'Decidió alejarse de las redes sociales para descansar.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El recuerdo</div><div class="vocab-def">imagen del pasado que se conserva en la memoria.</div><div class="vocab-example">Tengo un hermoso recuerdo de nuestras vacaciones juntos.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El recuerdo', definition:'imagen del pasado que se conserva en la memoria.', example:'Tengo un hermoso recuerdo de nuestras vacaciones juntos.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La tristeza</div><div class="vocab-def">estado de ánimo melancólico y afectuoso.</div><div class="vocab-example">Sentía una profunda tristeza al despedirse de sus amigos.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La tristeza', definition:'estado de ánimo melancólico y afectuoso.', example:'Sentía una profunda tristeza al despedirse de sus amigos.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">El frío</div><div class="vocab-def">temperatura baja, falta de calidez.</div><div class="vocab-example">El frío del invierno nos obliga a abrigarnos bien.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El frío', definition:'temperatura baja, falta de calidez.', example:'El frío del invierno nos obliga a abrigarnos bien.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La despedida</div><div class="vocab-def">palabras o gestos con que se dice adiós.</div><div class="vocab-example">La despedida en el aeropuerto fue muy emotiva.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La despedida', definition:'palabras o gestos con que se dice adiós.', example:'La despedida en el aeropuerto fue muy emotiva.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Ejercicio de escucha y rellenar huecos</h2>
-    <div class="vim-instruction">
-      <strong>Escucha activa:</strong> Escucha la canción usando el enlace de arriba y completa los espacios en blanco.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Ejercicio de escucha y rellenar huecos</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Escucha activa:</strong> Escucha la canción usando el enlace de arriba y completa los espacios en blanco.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banco de palabras:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banco de palabras:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">distancia</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">olvido</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">ausencia</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">dolor</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">silencio</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Letra completa</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Te alejas más de mí cada día<br>Y se apaga nuestra alegría<br>Esta lúgubre [__________] de ti<br>Llena de sombras mi camino aquí<br><br>Un inmenso [__________] en mi alma<br>Que perturba mi calma<br>Caemos en un lento [__________] cruel<br>En medio de este lúgubre [__________]
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Letra completa</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Te alejas más de mí cada día<br>Y se apaga nuestra alegría<br>Esta lúgubre [__________] de ti<br>Llena de sombras mi camino aquí<br><br>Un inmenso [__________] en mi alma<br>Que perturba mi calma<br>Caemos en un lento [__________] cruel<br>En medio de este lúgubre [__________]</p>
+      </div>
     </div>
   </section>
 
@@ -159,7 +167,7 @@ Te alejas más de mí cada día<br>Y se apaga nuestra alegría<br>Esta lúgubre 
             <span class="mistake-wrong">Estoy de acuerdo <span class="mistake-highlight">de</span> tu opinión</span>
             <span class="mistake-arrow">→</span>
             <span class="mistake-right">Estoy de acuerdo con tu opinión</span>
-            <span class="mistake-note-text">(Usa la preposizione 'con' para expresar acuerdo con algo.)</span>
+            <span class="mistake-note-text">(Usa la preposición 'con' para expresar acuerdo con algo.)</span>
           </div>
           <div class="mistake-item">
             <span class="mistake-wrong">He caminado <span class="mistake-highlight">por</span> tres horas</span>

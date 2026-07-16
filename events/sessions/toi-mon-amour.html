@@ -38,46 +38,54 @@
     <p>Explorez le magnifique titre 'toi mon amour' de Marc Lavoine & Clara Luciani en Français. Cette session se concentre sur le vocabulaire de 'Destin & Douceur' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">L'amour</div><div class="vocab-def">sentiment d'affection, de tendresse et d'attirance.</div><div class="vocab-example">L'amour familial est un pilier indispensable de la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amour', definition:'sentiment d\'affection, de tendresse et d\'attirance.', example:'L\'amour familial est un pilier indispensable de la vie.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">puissance qui semble régler le cours de la vie.</div><div class="vocab-example">Elle croit fermement que son destin est entre ses mains.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance qui semble régler le cours de la vie.', example:'Elle croit fermement que son destin est entre ses mains.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La complicité</div><div class="vocab-def">entente profonde et spontanée entre des personnes.</div><div class="vocab-example">Leur complicité est évidente dès le premier regard.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La complicité', definition:'entente profonde et spontanée entre des personnes.', example:'Leur complicité est évidente dès le premier regard.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le chemin</div><div class="vocab-def">voie de terre, parcours ou direction à suivre.</div><div class="vocab-example">Elle a choisi un chemin professionnel très original.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le chemin', definition:'voie de terre, parcours ou direction à suivre.', example:'Elle a choisi un chemin professionnel très original.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La voix</div><div class="vocab-def">ensemble des sons produits par les cordes vocales.</div><div class="vocab-example">Sa voix douce et mélodieuse calme immédiatement les enfants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La voix', definition:'ensemble des sons produits par les cordes vocales.', example:'Sa voix douce et mélodieuse calme immédiatement les enfants.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">S'unir</div><div class="vocab-def">se joindre pour agir ensemble, se marier.</div><div class="vocab-example">Les pays doivent s'unir pour protéger l'environnement.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'S'unir', definition:'se joindre pour agir ensemble, se marier.', example:'Les pays doivent s\'unir pour protéger l\'environnement.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Briller</div><div class="vocab-def">émettre de la lumière, se distinguer par son éclat.</div><div class="vocab-example">Les étoiles commencent à briller dans le ciel noucturne.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Briller', definition:'émettre de la lumière, se distinguer par son éclat.', example:'Les étoiles commencent à briller dans le ciel noucturne.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La douceur</div><div class="vocab-def">qualité de ce qui est doux, agréable et paisible.</div><div class="vocab-example">La douceur du climat méditerranéen attire les touristes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La douceur', definition:'qualité de ce qui est doux, agréable et paisible.', example:'La douceur du climat méditerranéen attire les touristes.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La promesse</div><div class="vocab-def">engagement de faire ou de donner quelque chose.</div><div class="vocab-example">Elle a tenu sa promesse de l'aider à déménager.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La promesse', definition:'engagement de faire ou de donner quelque chose.', example:'Elle a tenu sa promesse de l\'aider à déménager.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'éternité</div><div class="vocab-def">durée sans commencement ni fin, temps infini.</div><div class="vocab-example">Leurs œuvres d'art entreront dans l'éternité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'éternité', definition:'durée sans commencement ni fin, temps infini.', example:'Leurs œuvres d\'art entreront dans l\'éternité.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">L'amour</div><div class="vocab-def">sentiment d'affection, de tendresse et d'attirance.</div><div class="vocab-example">L'amour familial est un pilier indispensable de la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'amour', definition:'sentiment d\'affection, de tendresse et d\'attirance.', example:'L\'amour familial est un pilier indispensable de la vie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le destin</div><div class="vocab-def">puissance qui semble régler le cours de la vie.</div><div class="vocab-example">Elle croit fermement que son destin est entre ses mains.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance qui semble régler le cours de la vie.', example:'Elle croit fermement que son destin est entre ses mains.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La complicité</div><div class="vocab-def">entente profonde et spontanée entre des personnes.</div><div class="vocab-example">Leur complicité est évidente dès le premier regard.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La complicité', definition:'entente profonde et spontanée entre des personnes.', example:'Leur complicité est évidente dès le premier regard.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le chemin</div><div class="vocab-def">voie de terre, parcours ou direction à suivre.</div><div class="vocab-example">Elle a choisi un chemin professionnel très original.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le chemin', definition:'voie de terre, parcours ou direction à suivre.', example:'Elle a choisi un chemin professionnel très original.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La voix</div><div class="vocab-def">ensemble des sons produits par les cordes vocales.</div><div class="vocab-example">Sa voix douce et mélodieuse calme immédiatement les enfants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La voix', definition:'ensemble des sons produits par les cordes vocales.', example:'Sa voix douce et mélodieuse calme immédiatement les enfants.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">S'unir</div><div class="vocab-def">se joindre pour agir ensemble, se marier.</div><div class="vocab-example">Les pays doivent s'unir pour protéger l'environnement.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'S'unir', definition:'se joindre pour agir ensemble, se marier.', example:'Les pays doivent s\'unir pour protéger l\'environnement.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Briller</div><div class="vocab-def">émettre de la lumière, se distinguer par son éclat.</div><div class="vocab-example">Les étoiles commencent à briller dans le ciel nocturne.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Briller', definition:'émettre de la lumière, se distinguer par son éclat.', example:'Les étoiles commencent à briller dans le ciel nocturne.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La douceur</div><div class="vocab-def">qualité de ce qui est doux, agréable et paisible.</div><div class="vocab-example">La douceur du climat méditerranéen attire les touristes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La douceur', definition:'qualité de ce qui est doux, agréable et paisible.', example:'La douceur du climat méditerranéen attire les touristes.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La promesse</div><div class="vocab-def">engagement de faire ou de donner quelque chose.</div><div class="vocab-example">Elle a tenu sa promesse de l'aider à déménager.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La promesse', definition:'engagement de faire ou de donner quelque chose.', example:'Elle a tenu sa promesse de l\'aider à déménager.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'éternité</div><div class="vocab-def">durée sans commencement ni fin, temps infini.</div><div class="vocab-example">Leurs œuvres d'art entreront dans l'éternité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'éternité', definition:'durée sans commencement ni fin, temps infini.', example:'Leurs œuvres d\'art entreront dans l\'éternité.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">amour</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">destin</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">chemin</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">voix</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">douceur</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Toi mon [__________], mon compagnon de route<br>Celui qui dissipe chaque doute<br>Notre [__________] était tracé d'avance<br>Sur ce long [__________] d'espérance<br><br>La douceur de ta [__________] m'appelle<br>Comme une mélodie éternelle<br>Dans la [__________] de chaque nuit<br>Tu es mon port et mon abri
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Toi mon [__________], mon compagnon de route<br>Celui qui dissipe chaque doute<br>Notre [__________] était tracé d'avance<br>Sur ce long [__________] d'espérance<br><br>La douceur de ta [__________] m'appelle<br>Comme une mélodie éternelle<br>Dans la [__________] de chaque nuit<br>Tu es mon port et mon abri</p>
+      </div>
     </div>
   </section>
 

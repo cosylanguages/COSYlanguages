@@ -38,45 +38,59 @@
     <p>Explorez le magnifique titre 'Angèle Challenge' de Belgian Pop Special en Français. Cette session se concentre sur le vocabulaire de 'Incertitude & Respect' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Le doute</div><div class="vocab-def">état de l'esprit qui hésite à se prononcer sur la vérité.</div><div class="vocab-example">Le doute s'est installé dans son esprit après cette réunion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le doute', definition:'état de l\'esprit qui hésite à se prononcer sur la vérité.', example:'Le doute s\'est installé dans son esprit après cette réunion.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La réponse</div><div class="vocab-def">parole ou écrit par lequel on répond.</div><div class="vocab-example">Elle a envoyé sa réponse définitive par courriel.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La réponse', definition:'parole ou écrit par lequel on répond.', example:'Elle a envoyé sa réponse définitive par courriel.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le respect</div><div class="vocab-def">sentiment de considération envers quelqu'un.</div><div class="vocab-example">Le respect mutuel est essentiel au sein d'une équipe.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le respect', definition:'sentiment de considération envers quelqu\'un.', example:'Le respect mutuel est essentiel au sein d\'une équipe.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La liberté</div><div class="vocab-def">état d'une personne libre, indépendante.</div><div class="vocab-example">La liberté d'expression est un droit fondamental.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La liberté', definition:'état d\'une personne libre, indépendante.', example:'La liberté d\'expression est un droit fondamental.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'égalité</div><div class="vocab-def">rapport entre personnes ayant les mêmes droits.</div><div class="vocab-example">L'égalité des chances doit être garantie à tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'égalité', definition:'rapport entre personnes ayant les mêmes droits.', example:'L\'égalité des chances doit être garantie à tous.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Attendre</div><div class="vocab-def">rester en un lieu jusqu'à ce que quelqu'un arrive.</div><div class="vocab-example">Ils doivent attendre le bus sous un abri de pluie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Attendre', definition:'rester en un lieu jusqu\'à ce que quelqu\'un arrive.', example:'Ils doivent attendre le bus sous un abri de pluie.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le message</div><div class="vocab-def">communication écrite ou orale transmise à quelqu'un.</div><div class="vocab-example">Il a reçu un message important de son collaborateur.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le message', definition:'communication écrite ou orale transmise à quelqu\'un.', example:'Il a reçu un message important de son collaborateur.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Parler</div><div class="vocab-def">s'exprimer par la parole, communiquer.</div><div class="vocab-example">Il est important de parler ouvertement de ses soucis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Parler', definition:'s\'exprimer par la parole, communiquer.', example:'Il est important de parler ouvertement de ses soucis.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Jouer</div><div class="vocab-def">se divertir, s'amuser à un jeu ou un instrument.</div><div class="vocab-example">Les enfants aiment jouer au football dans le parc.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Jouer', definition:'se divertir, s\'amuser à un jeu ou un instrument.', example:'Les enfants aiment jouer au football dans le parc.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La voix</div><div class="vocab-def">ensemble des sons produits par les cordes vocales.</div><div class="vocab-example">Sa voix douce et mélodieuse calme immédiatement les enfants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La voix', definition:'ensemble des sons produits par les cordes vocales.', example:'Sa voix douce et mélodieuse calme immédiatement les enfants.'}, this)">+ Dictionary</button></div>
-
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
     </div>
-  </section>
-
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
-    </div>
-
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
-        <span class="club-tag" style="background: white; border-color: var(--border);">doute</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">réponse</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">respect</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">liberté</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">égalité</span>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Le doute</div><div class="vocab-def">état de l'esprit qui hésite à se prononcer sur la vérité.</div><div class="vocab-example">Le doute s'est installé dans son esprit après cette réunion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le doute', definition:'état de l\'esprit qui hésite à se prononcer sur la vérité.', example:'Le doute s\'est installé dans son esprit après cette réunion.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La réponse</div><div class="vocab-def">parole ou écrit par lequel on répond.</div><div class="vocab-example">Elle a envoyé sa réponse définitive par courriel.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La réponse', definition:'parole ou écrit par lequel on répond.', example:'Elle a envoyé sa réponse définitive par courriel.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le respect</div><div class="vocab-def">sentiment de considération envers quelqu'un.</div><div class="vocab-example">Le respect mutuel est essentiel au sein d'une équipe.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le respect', definition:'sentiment de considération envers quelqu\'un.', example:'Le respect mutuel est essentiel au sein d\'une équipe.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La liberté</div><div class="vocab-def">état d'une personne libre, indépendante.</div><div class="vocab-example">La liberté d'expression est un droit fondamental.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La liberté', definition:'état d\'une personne libre, indépendante.', example:'La liberté d\'expression est un droit fondamental.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'égalité</div><div class="vocab-def">rapport entre personnes ayant les mêmes droits.</div><div class="vocab-example">L'égalité des chances doit être garantie à tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'égalité', definition:'rapport entre personnes ayant les mêmes droits.', example:'L\'égalité des chances doit être garantie à tous.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Attendre</div><div class="vocab-def">rester en un lieu jusqu'à ce que quelqu'un arrive.</div><div class="vocab-example">Ils doivent attendre le bus sous un abri de pluie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Attendre', definition:'rester en un lieu jusqu\'à ce que quelqu\'un arrive.', example:'Ils doivent attendre le bus sous un abri de pluie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le message</div><div class="vocab-def">communication écrite ou orale transmise à quelqu'un.</div><div class="vocab-example">Il a reçu un message important de son collaborateur.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le message', definition:'communication écrite ou orale transmise à quelqu\'un.', example:'Il a reçu un message important de son collaborateur.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Parler</div><div class="vocab-def">s'exprimer par la parole, communiquer.</div><div class="vocab-example">Il est important de parler ouvertement de ses soucis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Parler', definition:'s\'exprimer par la parole, communiquer.', example:'Il est important de parler ouvertement de ses soucis.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Jouer</div><div class="vocab-def">se divertir, s'amuser à un jeu ou un instrument.</div><div class="vocab-example">Les enfants aiment jouer au football dans le parc.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Jouer', definition:'se divertir, s\'amuser à un jeu ou un instrument.', example:'Les enfants aiment jouer au football dans le parc.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La voix</div><div class="vocab-def">ensemble des sons produits par les cordes vocales.</div><div class="vocab-example">Sa voix douce et mélodieuse calme immédiatement les enfants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La voix', definition:'ensemble des sons produits par les cordes vocales.', example:'Sa voix douce et mélodieuse calme immédiatement les enfants.'}, this)">+ Dictionary</button></div>
 
       </div>
     </div>
+  </section>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Song 1: oui ou non<br>Dans ce grand [__________] qui m'opprime,<br>J'attends ta [__________] légitime...<br><br>Song 2: balance ton quoi<br>Un peu de [__________] dans ce monde,<br>Nous voulons vivre en toute [__________],<br>Dans une parfaite [__________]...</p>
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
+
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">doute</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">réponse</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">message</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">choix</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">incertitude</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">respect</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">sexisme</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">liberté</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">égalité</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">voix</span>
+
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Chanson 1: oui ou non<br><br>C'est oui ou c'est non ?<br>Tu joues avec mes sentiments et mon nom<br>Dans ce grand [__________] qui m'opprime<br>J'attends ta [__________] légitime<br><br>Je regarde mon écran sans cesse<br>Pour voir un [__________] de tendresse<br>Mais cette [__________] me pèse tant<br>Quel sera mon [__________] à présent ?<br><br>Chanson 2: balance ton quoi<br><br>Balance ton quoi<br>Pour qu'on respecte enfin mes droits<br>Un peu de [__________] dans ce monde<br>Pour effacer ce [__________] immonde<br><br>Nous voulons vivre en toute [__________]<br>Dans une parfaite [__________]<br>Faire entendre notre [__________] forte<br>Pour que les vieilles mentalités meurent</p>
+      </div>
     </div>
   </section>
 

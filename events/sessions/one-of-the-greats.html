@@ -38,46 +38,54 @@
     <p>Explore the beautiful track 'one of the greats' by Florence & The Machine in British English. This session focuses on the vocabulary of Greatness & Legacy and key linguistic structures of the lyrics. Students will practice speaking and debating about these themes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Session Vocabulary</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Greatness</div><div class="vocab-def">the quality of being great, distinguished, or eminent.</div><div class="vocab-example">She achieved greatness in her musical career.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Greatness', definition:'the quality of being great, distinguished, or eminent.', example:'She achieved greatness in her musical career.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Haunting</div><div class="vocab-def">poignant and evocative; difficult to forget.</div><div class="vocab-example">The haunting melody of the cello lingered in the room.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Haunting', definition:'poignant and evocative; difficult to forget.', example:'The haunting melody of the cello lingered in the room.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Surrender</div><div class="vocab-def">give up or hand over after a struggle.</div><div class="vocab-example">They decided to surrender their weapons and end the conflict.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Surrender', definition:'give up or hand over after a struggle.', example:'They decided to surrender their weapons and end the conflict.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Struggle</div><div class="vocab-def">make forceful efforts to get free of restraint.</div><div class="vocab-example">He had to struggle to make his voice heard in the crowd.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Struggle', definition:'make forceful efforts to get free of restraint.', example:'He had to struggle to make his voice heard in the crowd.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Release</div><div class="vocab-def">allow or enable to escape from confinement.</div><div class="vocab-example">The band will release their new single next Friday.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Release', definition:'allow or enable to escape from confinement.', example:'The band will release their new single next Friday.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Echo</div><div class="vocab-def">a sound or series of sounds caused by reflection.</div><div class="vocab-example">Her words had a strange echo in the empty hallway.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Echo', definition:'a sound or series of sounds caused by reflection.', example:'Her words had a strange echo in the empty hallway.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Wilderness</div><div class="vocab-def">an uncultivated, uninhabited, and inhospitable region.</div><div class="vocab-example">They went hiking in the beautiful mountain wilderness.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Wilderness', definition:'an uncultivated, uninhabited, and inhospitable region.', example:'They went hiking in the beautiful mountain wilderness.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Triumph</div><div class="vocab-def">a great victory or achievement.</div><div class="vocab-example">Her performance was a major triumph for the opera house.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Triumph', definition:'a great victory or achievement.', example:'Her performance was a major triumph for the opera house.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Legacy</div><div class="vocab-def">something left or handed down by a predecessor.</div><div class="vocab-example">The famous artist left a lasting artistic legacy.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Legacy', definition:'something left or handed down by a predecessor.', example:'The famous artist left a lasting artistic legacy.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Grace</div><div class="vocab-def">simple elegance or refinement of movement.</div><div class="vocab-example">She danced with incredible grace and poise.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Grace', definition:'simple elegance or refinement of movement.', example:'She danced with incredible grace and poise.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Session Vocabulary</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Greatness</div><div class="vocab-def">the quality of being great, distinguished, or eminent.</div><div class="vocab-example">She achieved greatness in her musical career.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Greatness', definition:'the quality of being great, distinguished, or eminent.', example:'She achieved greatness in her musical career.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Haunting</div><div class="vocab-def">poignant and evocative; difficult to forget.</div><div class="vocab-example">The haunting melody of the cello lingered in the room.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Haunting', definition:'poignant and evocative; difficult to forget.', example:'The haunting melody of the cello lingered in the room.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Surrender</div><div class="vocab-def">give up or hand over after a struggle.</div><div class="vocab-example">They decided to surrender their weapons and end the conflict.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Surrender', definition:'give up or hand over after a struggle.', example:'They decided to surrender their weapons and end the conflict.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Struggle</div><div class="vocab-def">make forceful efforts to get free of restraint.</div><div class="vocab-example">He had to struggle to make his voice heard in the crowd.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Struggle', definition:'make forceful efforts to get free of restraint.', example:'He had to struggle to make his voice heard in the crowd.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Release</div><div class="vocab-def">allow or enable to escape from confinement.</div><div class="vocab-example">The band will release their new single next Friday.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Release', definition:'allow or enable to escape from confinement.', example:'The band will release their new single next Friday.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Echo</div><div class="vocab-def">a sound or series of sounds caused by reflection.</div><div class="vocab-example">Her words had a strange echo in the empty hallway.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Echo', definition:'a sound or series of sounds caused by reflection.', example:'Her words had a strange echo in the empty hallway.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Wilderness</div><div class="vocab-def">an uncultivated, uninhabited, and inhospitable region.</div><div class="vocab-example">They went hiking in the beautiful mountain wilderness.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Wilderness', definition:'an uncultivated, uninhabited, and inhospitable region.', example:'They went hiking in the beautiful mountain wilderness.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Triumph</div><div class="vocab-def">a great victory or achievement.</div><div class="vocab-example">Her performance was a major triumph for the opera house.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Triumph', definition:'a great victory or achievement.', example:'Her performance was a major triumph for the opera house.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Legacy</div><div class="vocab-def">something left or handed down by a predecessor.</div><div class="vocab-example">The famous artist left a lasting artistic legacy.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Legacy', definition:'something left or handed down by a predecessor.', example:'The famous artist left a lasting artistic legacy.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Grace</div><div class="vocab-def">simple elegance or refinement of movement.</div><div class="vocab-example">She danced with incredible grace and poise.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Grace', definition:'simple elegance or refinement of movement.', example:'She danced with incredible grace and poise.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Listening & Gap-Fill Exercise</h2>
-    <div class="vim-instruction">
-      <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Listening & Gap-Fill Exercise</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">Greatness</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Haunting</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Surrender</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Struggle</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">Legacy</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-She was one of the greats, they say<br>Walking down her own unique way<br>An aura of absolute [__________] around her<br>With a beautiful and [__________] melody<br><br>She refused to [__________] to defeat<br>Despite the intense [__________] on the street<br>Leaving a powerful and lasting [__________]<br>For generations to come and see
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">She was one of the greats, they say<br>Walking down her own unique way<br>An aura of absolute [__________] around her<br>With a beautiful and [__________] melody<br><br>She refused to [__________] to defeat<br>Despite the intense [__________] on the street<br>Leaving a powerful and lasting [__________]<br>For generations to come and see</p>
+      </div>
     </div>
   </section>
 

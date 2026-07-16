@@ -38,46 +38,54 @@
     <p>Explorez le magnifique titre 'oui ou non' de Angèle en Français. Cette session se concentre sur le vocabulaire de 'Incertitude & Réponse' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">Le doute</div><div class="vocab-def">état de l'esprit qui hésite à se prononcer sur la vérité.</div><div class="vocab-example">Le doute s'est installé dans son esprit après cette réunion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le doute', definition:'état de l\'esprit qui hésite à se prononcer sur la vérité.', example:'Le doute s\'est installé dans son esprit après cette réunion.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'hésitation</div><div class="vocab-def">action d'hésiter, manque d'assurance.</div><div class="vocab-example">Son hésitation pendant le discours a montré son doute.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'hésitation', definition:'action d\'hésiter, manque d\'assurance.', example:'Son hésitation pendant le discours a montré son doute.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La réponse</div><div class="vocab-def">parole ou écrit par lequel on répond.</div><div class="vocab-example">Elle a envoyé sa réponse définitive par courriel.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La réponse', definition:'parole ou écrit par lequel on répond.', example:'Elle a envoyé sa réponse définitive par courriel.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le message</div><div class="vocab-def">communication écrite ou orale transmise à quelqu'un.</div><div class="vocab-example">Il a reçu un message important de son collaborateur.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le message', definition:'communication écrite ou orale transmise à quelqu\'un.', example:'Il a reçu un message important de son collaborateur.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Attendre</div><div class="vocab-def">rester en un lieu jusqu'à ce que quelqu'un arrive.</div><div class="vocab-example">Ils doivent attendre le bus sous un abri de pluie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Attendre', definition:'rester en un lieu jusqu\'à ce que quelqu\'un arrive.', example:'Ils doivent attendre le bus sous un abri de pluie.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La frustration</div><div class="vocab-def">état de déception causé par un désir non satisfait.</div><div class="vocab-example">La panne d'internet a causé une grande frustration.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La frustration', definition:'état de déception causé par un désir non satisfait.', example:'La panne d\'internet a causé une grande frustration.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le choix</div><div class="vocab-def">action de choisir entre plusieurs possibilités.</div><div class="vocab-example">Faire un bon choix de vie demande de la réflexion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le choix', definition:'action de choisir entre plusieurs possibilités.', example:'Faire un bon choix de vie demande de la réflexion.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La clarté</div><div class="vocab-def">qualité de ce qui est clair, facile à comprendre.</div><div class="vocab-example">La clarté de ses explications a été très appréciée.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La clarté', definition:'qualité de ce qui est clair, facile à comprendre.', example:'La clarté de ses explications a été très appréciée.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Jouer</div><div class="vocab-def">se divertir, s'amuser à un jeu ou un instrument.</div><div class="vocab-example">Les enfants aiment jouer au football dans le parc.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Jouer', definition:'se divertir, s\'amuser à un jeu ou un instrument.', example:'Les enfants aiment jouer au football dans le parc.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'incertitude</div><div class="vocab-def">état de ce qui n'est pas sûr, manque de certitude.</div><div class="vocab-example">L'incertitude économique inquiète les entrepreneurs.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'incertitude', definition:'état de ce qui n\'est pas sûr, manque de certitude.', example:'L\'incertitude économique inquiète les entrepreneurs.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">Le doute</div><div class="vocab-def">état de l'esprit qui hésite à se prononcer sur la vérité.</div><div class="vocab-example">Le doute s'est installé dans son esprit après cette réunion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le doute', definition:'état de l\'esprit qui hésite à se prononcer sur la vérité.', example:'Le doute s\'est installé dans son esprit après cette réunion.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'hésitation</div><div class="vocab-def">action d'hésiter, manque d'assurance.</div><div class="vocab-example">Son hésitation pendant le discours a montré son doute.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'hésitation', definition:'action d\'hésiter, manque d\'assurance.', example:'Son hésitation pendant le discours a montré son doute.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La réponse</div><div class="vocab-def">parole ou écrit par lequel on répond.</div><div class="vocab-example">Elle a envoyé sa réponse définitive par courriel.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La réponse', definition:'parole ou écrit par lequel on répond.', example:'Elle a envoyé sa réponse définitive par courriel.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le message</div><div class="vocab-def">communication écrite ou orale transmise à quelqu'un.</div><div class="vocab-example">Il a reçu un message important de son collaborateur.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le message', definition:'communication écrite ou orale transmise à quelqu\'un.', example:'Il a reçu un message important de son collaborateur.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Attendre</div><div class="vocab-def">rester en un lieu jusqu'à ce que quelqu'un arrive.</div><div class="vocab-example">Ils doivent attendre le bus sous un abri de pluie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Attendre', definition:'rester en un lieu jusqu\'à ce que quelqu\'un arrive.', example:'Ils doivent attendre le bus sous un abri de pluie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La frustration</div><div class="vocab-def">état de déception causé par un désir non satisfait.</div><div class="vocab-example">La panne d'internet a causé une grande frustration.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La frustration', definition:'état de déception causé par un désir non satisfait.', example:'La panne d\'internet a causé une grande frustration.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le choix</div><div class="vocab-def">action de choisir entre plusieurs possibilités.</div><div class="vocab-example">Faire un bon choix de vie demande de la réflexion.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le choix', definition:'action de choisir entre plusieurs possibilités.', example:'Faire un bon choix de vie demande de la réflexion.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La clarté</div><div class="vocab-def">qualité de ce qui est clair, facile à comprendre.</div><div class="vocab-example">La clarté de ses explications a été très appréciée.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La clarté', definition:'qualité de ce qui est clair, facile à comprendre.', example:'La clarté de ses explications a été très appréciée.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Jouer</div><div class="vocab-def">se divertir, s'amuser à un jeu ou un instrument.</div><div class="vocab-example">Les enfants aiment jouer au football dans le parc.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Jouer', definition:'se divertir, s\'amuser à un jeu ou un instrument.', example:'Les enfants aiment jouer au football dans le parc.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'incertitude</div><div class="vocab-def">état de ce qui n'est pas sûr, manque de certitude.</div><div class="vocab-example">L'incertitude économique inquiète les entrepreneurs.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'incertitude', definition:'état de ce qui n\'est pas sûr, manque de certitude.', example:'L\'incertitude économique inquiète les entrepreneurs.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">doute</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">réponse</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">message</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">choix</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">incertitude</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-C'est oui ou c'est non ?<br>Tu joues avec mes sentiments et mon nom<br>Dans ce grand [__________] qui m'opprime<br>J'attends ta [__________] légitime<br><br>Je regarde mon écran sans cesse<br>Pour voir un [__________] de tendresse<br>Mais cette [__________] me pèse tant<br>Quel sera mon [__________] à présent ?
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">C'est oui ou c'est non ?<br>Tu joues avec mes sentiments et mon nom<br>Dans ce grand [__________] qui m'opprime<br>J'attends ta [__________] légitime<br><br>Je regarde mon écran sans cesse<br>Pour voir un [__________] de tendresse<br>Mais cette [__________] me pèse tant<br>Quel sera mon [__________] à présent ?</p>
+      </div>
     </div>
   </section>
 

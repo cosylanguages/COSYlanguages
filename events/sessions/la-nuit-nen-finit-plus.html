@@ -38,46 +38,54 @@
     <p>Explorez le magnifique titre 'la nuit n'en finit plus' de Petula Clark en Français. Cette session se concentre sur le vocabulaire de 'Nuit & Insomnie' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">La nuit</div><div class="vocab-def">temps qui s'écoule du coucher au lever du soleil.</div><div class="vocab-example">La nuit était particulièrement claire et étoilée.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La nuit', definition:'temps qui s\'écoule du coucher au lever du soleil.', example:'La nuit était particulièrement claire et étoilée.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La solitude</div><div class="vocab-def">état de celui qui vit seul ou isolé.</div><div class="vocab-example">Il apprécie la solitude de la campagne pour écrire.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La solitude', definition:'état de celui qui vit seul ou isolé.', example:'Il apprécie la solitude de la campagne pour écrire.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'obscurité</div><div class="vocab-def">absence de lumière, obscurité totale.</div><div class="vocab-example">Il a allumé une bougie pour éclairer l'obscurité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'obscurité', definition:'absence de lumière, obscurité totale.', example:'Il a allumé une bougie pour éclairer l\'obscurité.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La tristesse</div><div class="vocab-def">état de chagrin, de mélancolie.</div><div class="vocab-example">Une profonde tristesse se lisait sur son visage fatigué.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La tristesse', definition:'état de chagrin, de mélancolie.', example:'Une profonde tristesse se lisait sur son visage fatigué.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Attendre</div><div class="vocab-def">rester en un lieu jusqu'à ce que quelqu'un arrive.</div><div class="vocab-example">Ils doivent attendre le bus sous un abri de pluie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Attendre', definition:'rester en un lieu jusqu\'à ce que quelqu\'un arrive.', example:'Ils doivent attendre le bus sous un abri de pluie.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le matin</div><div class="vocab-def">première partie de la journée, lever du jour.</div><div class="vocab-example">Elle adore courir dans le parc tôt le matin.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le matin', definition:'première partie de la journée, lever du jour.', example:'Elle adore courir dans le parc tôt le matin.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'insomnie</div><div class="vocab-def">manque habituel ou accidentel de sommeil.</div><div class="vocab-example">Prendre une tisane chaude aide à lutter contre l'insomnie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'insomnie', definition:'manque habituel ou accidentel de sommeil.', example:'Prendre une tisane chaude aide à lutter contre l\'insomnie.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le rêve</div><div class="vocab-def">production de l'imagination, désir ou ambition.</div><div class="vocab-example">Réaliser son rêve d'enfant demande beaucoup de courage.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le rêve', definition:'production de l\'imagination, désir ou ambition.', example:'Réaliser son rêve d\'enfant demande beaucoup de courage.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le silence</div><div class="vocab-def">absence de bruit, état de celui qui ne parle pas.</div><div class="vocab-example">Un grand silence s'est installé dans la bibliothèque.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le silence', definition:'absence de bruit, état de celui qui ne parle pas.', example:'Un grand silence s\'est installé dans la bibliothèque.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'espoir</div><div class="vocab-def">sentiment qui porte à espérer, à attendre avec confiance.</div><div class="vocab-example">Nous devons toujours garder l'espoir d'un avenir meilleur.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'espoir', definition:'sentiment qui porte à espérer, à attendre avec confiance.', example:'Nous devons toujours garder l\'espoir d\'un avenir meilleur.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">La nuit</div><div class="vocab-def">temps qui s'écoule du coucher au lever du soleil.</div><div class="vocab-example">La nuit était particulièrement claire et étoilée.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La nuit', definition:'temps qui s\'écoule du coucher au lever du soleil.', example:'La nuit était particulièrement claire et étoilée.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La solitude</div><div class="vocab-def">état de celui qui vit seul ou isolé.</div><div class="vocab-example">Il apprécie la solitude de la campagne pour écrire.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La solitude', definition:'état de celui qui vit seul ou isolé.', example:'Il apprécie la solitude de la campagne pour écrire.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'obscurité</div><div class="vocab-def">absence de lumière, obscurité totale.</div><div class="vocab-example">Il a allumé une bougie pour éclairer l'obscurité.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'obscurité', definition:'absence de lumière, obscurité totale.', example:'Il a allumé une bougie pour éclairer l\'obscurité.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La tristesse</div><div class="vocab-def">état de chagrin, de mélancolie.</div><div class="vocab-example">Une profonde tristesse se lisait sur son visage fatigué.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La tristesse', definition:'état de chagrin, de mélancolie.', example:'Une profonde tristesse se lisait sur son visage fatigué.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Attendre</div><div class="vocab-def">rester en un lieu jusqu'à ce que quelqu'un arrive.</div><div class="vocab-example">Ils doivent attendre le bus sous un abri de pluie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Attendre', definition:'rester en un lieu jusqu\'à ce que quelqu\'un arrive.', example:'Ils doivent attendre le bus sous un abri de pluie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le matin</div><div class="vocab-def">première partie de la journée, lever du jour.</div><div class="vocab-example">Elle adore courir dans le parc tôt le matin.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le matin', definition:'première partie de la journée, lever du jour.', example:'Elle adore courir dans le parc tôt le matin.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'insomnie</div><div class="vocab-def">manque habituel ou accidentel de sommeil.</div><div class="vocab-example">Prendre une tisane chaude aide à lutter contre l'insomnie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'insomnie', definition:'manque habituel ou accidentel de sommeil.', example:'Prendre une tisane chaude aide à lutter contre l\'insomnie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le rêve</div><div class="vocab-def">production de l'imagination, désir ou ambition.</div><div class="vocab-example">Réaliser son rêve d'enfant demande beaucoup de courage.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le rêve', definition:'production de l\'imagination, désir ou ambition.', example:'Réaliser son rêve d\'enfant demande beaucoup de courage.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le silence</div><div class="vocab-def">absence de bruit, état de celui qui ne parle pas.</div><div class="vocab-example">Un grand silence s'est installé dans la bibliothèque.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le silence', definition:'absence de bruit, état de celui qui ne parle pas.', example:'Un grand silence s\'est installé dans la bibliothèque.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'espoir</div><div class="vocab-def">sentiment qui porte à espérer, à attendre avec confiance.</div><div class="vocab-example">Nous devons toujours garder l'espoir d'un avenir meilleur.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'espoir', definition:'sentiment qui porte à espérer, à attendre avec confiance.', example:'Nous devons toujours garder l\'espoir d\'un avenir meilleur.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">nuit</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">solitude</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">obscurité</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">matin</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">espoir</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-La nuit n'en finit plus de couler<br>Et je reste seule à pleurer<br>Dans le calme de la [__________] froide<br>J'affronte ma triste [__________]<br><br>Perdue dans cette lointaine [__________]<br>J'attends que revienne le [__________]<br>Gardant un mince [__________] de lumière<br>Pour guider ma route entière
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">La nuit n'en finit plus de couler<br>Et je reste seule à pleurer<br>Dans le calme de la [__________] froide<br>J'affronte ma triste [__________]<br><br>Perdue dans cette lointaine [__________]<br>J'attends que revienne le [__________]<br>Gardant un mince [__________] de lumière<br>Pour guider ma route entière</p>
+      </div>
     </div>
   </section>
 

@@ -38,46 +38,54 @@
     <p>Explorez le magnifique titre 'nos âmes sont' de Zazie en Français. Cette session se concentre sur le vocabulaire de 'Sensibilité & Profondeur' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card"><div class="vocab-word">L'âme</div><div class="vocab-def">principe de vie, de pensée et de sensibilité chez l'être humain.</div><div class="vocab-example">La musique classique touche directement l'âme des auditeurs.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'âme', definition:'principe de vie, de pensée et de sensibilité chez l\'être humain.', example:'La musique classique touche directement l\'âme des auditeurs.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La connexion</div><div class="vocab-def">Target vocabulary word meaning in 'nos âmes sont'.</div><div class="vocab-example">This is an elegant example of using 'La connexion'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La connexion', definition:'Target vocabulary word meaning in \'nos âmes sont\'.', example:'This is an elegant example of using \'La connexion\'.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La profondeur</div><div class="vocab-def">caractère de ce qui est profond, sérieux.</div><div class="vocab-example">La profondeur de ses écrits impressionne les critiques.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La profondeur', definition:'caractère de ce qui est profond, sérieux.', example:'La profondeur de ses écrits impressionne les critiques.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le mystère</div><div class="vocab-def">ce qui est caché, incompréhensible.</div><div class="vocab-example">L'origine d'un mystère reste inexpliqué.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le mystère', definition:'ce qui est caché, incompréhensible.', example:'L\'origine d\'un mystère reste inexpliqué.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La douleur</div><div class="vocab-def">souffrance physique ou morale intense.</div><div class="vocab-example">Il a ressenti une vive douleur après sa chute brutale.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La douleur', definition:'souffrance physique ou morale intense.', example:'Il a ressenti une vive douleur après sa chute brutale.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">S'élever</div><div class="vocab-def">monter plus haut, progresser moralement.</div><div class="vocab-example">Il cherche toujours à s'élever au-dessus des conflits.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'S'élever', definition:'monter plus haut, progresser moralement.', example:'Il cherche toujours à s\'élever au-dessus des conflits.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La sensibilité</div><div class="vocab-def">aptitude à ressentir des impressions, des émotions.</div><div class="vocab-example">Sa grande sensibilité artistique se voit dans ses toiles.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La sensibilité', definition:'aptitude à ressentir des impressions, des émotions.', example:'Sa grande sensibilité artistique se voit dans ses toiles.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Le lien</div><div class="vocab-def">ce qui unit ou attache des personnes ou des choses.</div><div class="vocab-example">Ils partagent un lien d'amitié très fort et solide.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le lien', definition:'ce qui unit ou attache des personnes ou des choses.', example:'Ils partagent un lien d\'amitié très fort et solide.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">La vérité</div><div class="vocab-def">qualité de ce qui est vrai, conforme à la réalité.</div><div class="vocab-example">Dire la vérité est essentiel pour bâtir la confiance.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La vérité', definition:'qualité de ce qui est vrai, conforme à la réalité.', example:'Dire la vérité est essentiel pour bâtir la confiance.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">L'invisible</div><div class="vocab-def">ce qui ne peut pas être vu par les yeux.</div><div class="vocab-example">L'air que nous respirons est un élément invisible.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'invisible', definition:'ce qui ne peut pas être vu par les yeux.', example:'L\'air que nous respirons est un élément invisible.'}, this)">+ Dictionary</button></div>
+  <!-- COLLAPSIBLE VOCABULARY SECTION -->
+  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
+    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
+    </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vocab-grid-10">
+            <div class="vocab-card"><div class="vocab-word">L'âme</div><div class="vocab-def">principe de vie, de pensée et de sensibilité chez l'être humain.</div><div class="vocab-example">La musique classique touche directement l'âme des auditeurs.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'âme', definition:'principe de vie, de pensée et de sensibilité chez l\'être humain.', example:'La musique classique touche directement l\'âme des auditeurs.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La connexion</div><div class="vocab-def">Target vocabulary word meaning in 'nos âmes sont'.</div><div class="vocab-example">This is an elegant example of using 'La connexion'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La connexion', definition:'Target vocabulary word meaning in \'nos âmes sont\'.', example:'This is an elegant example of using \'La connexion\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La profondeur</div><div class="vocab-def">caractère de ce qui est profond, sérieux.</div><div class="vocab-example">La profondeur de ses écrits impressionne les critiques.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La profondeur', definition:'caractère de ce qui est profond, sérieux.', example:'La profondeur de ses écrits impressionne les critiques.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le mystère</div><div class="vocab-def">ce qui est caché, incompréhensible.</div><div class="vocab-example">L'origine d'un mystère reste inexpliqué.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le mystère', definition:'ce qui est caché, incompréhensible.', example:'L\'origine d\'un mystère reste inexpliqué.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La douleur</div><div class="vocab-def">souffrance physique ou morale intense.</div><div class="vocab-example">Il a ressenti une vive douleur après sa chute brutale.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La douleur', definition:'souffrance physique ou morale intense.', example:'Il a ressenti une vive douleur après sa chute brutale.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">S'élever</div><div class="vocab-def">monter plus haut, progresser moralement.</div><div class="vocab-example">Il cherche toujours à s'élever au-dessus des conflits.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'S'élever', definition:'monter plus haut, progresser moralement.', example:'Il cherche toujours à s\'élever au-dessus des conflits.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La sensibilité</div><div class="vocab-def">aptitude à ressentir des impressions, des émotions.</div><div class="vocab-example">Sa grande sensibilité artistique se voit dans ses toiles.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La sensibilité', definition:'aptitude à ressentir des impressions, des émotions.', example:'Sa grande sensibilité artistique se voit dans ses toiles.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">Le lien</div><div class="vocab-def">ce qui unit ou attache des personnes ou des choses.</div><div class="vocab-example">Ils partagent un lien d'amitié très fort et solide.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le lien', definition:'ce qui unit ou attache des personnes ou des choses.', example:'Ils partagent un lien d\'amitié très fort et solide.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">La vérité</div><div class="vocab-def">qualité de ce qui est vrai, conforme à la réalité.</div><div class="vocab-example">Dire la vérité est essentiel pour bâtir la confiance.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La vérité', definition:'qualité de ce qui est vrai, conforme à la réalité.', example:'Dire la vérité est essentiel pour bâtir la confiance.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word">L'invisible</div><div class="vocab-def">ce qui ne peut pas être vu par les yeux.</div><div class="vocab-example">L'air que nous respirons est un élément invisible.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'invisible', definition:'ce qui ne peut pas être vu par les yeux.', example:'L\'air que nous respirons est un élément invisible.'}, this)">+ Dictionary</button></div>
 
+      </div>
     </div>
   </section>
 
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Exercice d'écoute & Texte à trous</h2>
-    <div class="vim-instruction">
-      <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
+  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
     </div>
+    <div class="round-body" style="display:block; padding-top: 1.5rem;">
+      <div class="vim-instruction">
+        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+      </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">âme</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">connexion</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">mystère</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">sensibilité</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">lien</span>
-      </div>
-    </div>
 
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Nos âmes sont liées par le temps<br>Comme des navires portés par le vent<br>Chaque [__________] cherche sa lumière<br>Dans une magnifique [__________] de terre<br><br>Le grand [__________] de l'existence<br>Éveille notre [__________] en silence<br>Unissant notre [__________] éternel<br>Sous l'immensité du ciel
-      </p>
+        </div>
+      </div>
+
+      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Nos âmes sont liées par le temps<br>Comme des navires portés par le vent<br>Chaque [__________] cherche sa lumière<br>Dans une magnifique [__________] de terre<br><br>Le grand [__________] de l'existence<br>Éveille notre [__________] en silence<br>Unissant notre [__________] éternel<br>Sous l'immensité du ciel</p>
+      </div>
     </div>
   </section>
 
