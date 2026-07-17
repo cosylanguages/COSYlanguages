@@ -109,7 +109,8 @@ LOCALIZATIONS = {
         "r2_title": "🟢 Round 2 — Lyric Deep Dive & Debate",
         "r2_instruction": "Evaluate these philosophical statements regarding the song's underlying cultural concepts.",
         "teacher_note_title": "✏️ Teacher's Note (Linguistic Corrections)",
-        "teacher_note_instruction": ""
+        "teacher_note_instruction": "",
+        "disclaimer": "Lyrics extracted from Genius platform and used strictly for educational purposes."
     },
     "fr": {
         "breadcrumbs_home": "Accueil",
@@ -136,7 +137,8 @@ LOCALIZATIONS = {
         "r2_title": "🟢 Round 2 — Analyse approfondie & Débat",
         "r2_instruction": "Évaluez ces énoncés philosophiques concernant les concepts culturels sous-jacents de la chanson.",
         "teacher_note_title": "✏️ Notes du Professeur (Corrections Linguistiques)",
-        "teacher_note_instruction": ""
+        "teacher_note_instruction": "",
+        "disclaimer": "Paroles extraites de la plateforme Genius et utilisées strictement à des fins éducatives."
     },
     "ru": {
         "breadcrumbs_home": "Главная",
@@ -163,7 +165,8 @@ LOCALIZATIONS = {
         "r2_title": "🟢 Раунд 2 — Глубокий анализ и дебаты",
         "r2_instruction": "Оцените эти философские утверждения, вдохновленные темами песни.",
         "teacher_note_title": "✏️ Заметки преподавателя (исправление ошибок)",
-        "teacher_note_instruction": ""
+        "teacher_note_instruction": "",
+        "disclaimer": "Текст песни взят с платформы Genius и используется исключительно в образовательных целях."
     },
     "it": {
         "breadcrumbs_home": "Home",
@@ -190,7 +193,8 @@ LOCALIZATIONS = {
         "r2_title": "🟢 Round 2 — Analisi approfondita e dibattito",
         "r2_instruction": "Valuta queste affermazioni filosofiche basate sui temi della canzone.",
         "teacher_note_title": "✏️ Note dell'Insegnante (Correzioni Linguistiche)",
-        "teacher_note_instruction": ""
+        "teacher_note_instruction": "",
+        "disclaimer": "Testi estratti dalla piattaforma Genius e utilizzati esclusivamente a scopo didattico."
     },
     "es": {
         "breadcrumbs_home": "Inicio",
@@ -217,7 +221,8 @@ LOCALIZATIONS = {
         "r2_title": "🟢 Ronda 2 — Análisis profundo y debate",
         "r2_instruction": "Evalúa estas declaraciones filosóficas basadas en los temas de la canción.",
         "teacher_note_title": "✏️ Nota del Profesor (Correcciones Lingüísticas)",
-        "teacher_note_instruction": ""
+        "teacher_note_instruction": "",
+        "disclaimer": "Letras extraídas de la plataforma Genius y utilizadas estrictamente con fines educativos."
     },
     "el": {
         "breadcrumbs_home": "Αρχική",
@@ -244,7 +249,8 @@ LOCALIZATIONS = {
         "r2_title": "🟢 Γύρος 2 — Ανάλυση & Αντιπαράθεση",
         "r2_instruction": "Αξιολογήστε αυτές τις φιλοσοφικές δηλώσεις σχετικά με τα θέματα του τραγουδιού.",
         "teacher_note_title": "✏️ Σημειώσεις Καθηγητή (Γλωσσικές Διορθώσεις)",
-        "teacher_note_instruction": ""
+        "teacher_note_instruction": "",
+        "disclaimer": "Οι στίχοι προέρχονται από την πλατφόρμα Genius και χρησιμοποιούνται αποκλειστικά για εκπαιδευτικούς σκοπούς."
     }
 }
 
@@ -702,7 +708,10 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
       <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
         <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">{lyrics_title}</h3>
-        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">{lyrics_text}</p>
+        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 1.5rem;">{lyrics_text}</p>
+        <div class="lyrics-disclaimer" style="font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.5rem; margin-top: 1.5rem; font-style: normal;">
+          {disclaimer}
+        </div>
       </div>
     </div>
   </section>
@@ -1171,7 +1180,10 @@ for song in all_karaoke_data:
 
             <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
               <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">{loc["lyrics_title"]}</h3>
-              <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">{sub_elements["lyrics_text"]}</p>
+              <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 1.5rem;">{sub_elements["lyrics_text"]}</p>
+              <div class="lyrics-disclaimer" style="font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.5rem; margin-top: 1.5rem; font-style: normal;">
+                {loc["disclaimer"]}
+              </div>
             </div>
           </div>
         </section>
@@ -1317,6 +1329,7 @@ for song in all_karaoke_data:
             word_bank_html=elements["word_bank_html"],
             lyrics_title=loc["lyrics_title"],
             lyrics_text=elements["lyrics_text"],
+            disclaimer=loc["disclaimer"],
             structure_title=loc["structure_title"],
             warmup_title=loc["warmup_title"],
             warmup_instruction=loc["warmup_instruction"],
