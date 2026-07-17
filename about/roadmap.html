@@ -7,7 +7,7 @@
     <link rel="icon" href="../images/logos/cosylanguages.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -34,12 +34,14 @@
             margin-bottom: 2rem;
             padding-bottom: 0.5rem;
             border-bottom: 2px solid var(--border);
+            font-family: 'Lora', serif;
         }
         .roadmap-table-wrap {
             overflow-x: auto;
             background: #fff;
             border-radius: 15px;
             border: 1px solid var(--border);
+            margin-bottom: 1rem;
         }
         table {
             width: 100%;
@@ -57,6 +59,7 @@
             text-transform: uppercase;
             font-size: 0.75rem;
             letter-spacing: 0.05em;
+            color: var(--ink-faint);
         }
         tr:last-child td {
             border-bottom: none;
@@ -64,6 +67,7 @@
         .priority-high { color: var(--coral); font-weight: 700; }
         .priority-medium { color: var(--honey-dark); font-weight: 700; }
         .priority-low { color: var(--sage-dark); font-weight: 700; }
+        .shipped-label { color: #2e7d32; font-weight: 700; }
     </style>
 </head>
 <body>
@@ -71,52 +75,52 @@
 <nav id="cosy-nav"></nav>
 
 <header class="roadmap-hero">
-    <h1>Project Roadmap 🗺️</h1>
-    <p class="hero-sub">Tracking the features and improvements that will shape the future of COSYlanguages.</p>
+    <h1 style="font-family: 'Lora', serif;">Project Roadmap 🗺️</h1>
+    <p class="hero-sub">Tracking physical office spaces, offline tooling, and pedagogical features shaping the future of COSYlanguages.</p>
 </header>
 
 <main class="roadmap-content">
     <section class="roadmap-section">
-        <h2 class="priority-high">🔥 High Priority</h2>
+        <h2 class="priority-high">🔥 High Priority (The Slow-Tech & Office Era)</h2>
         <div class="roadmap-table-wrap">
             <table>
                 <thead>
                     <tr>
-                        <th>Feature</th>
+                        <th>Feature / Goal</th>
                         <th>Area</th>
                         <th>Notes</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Student progress tracking</td>
-                        <td>Portal</td>
-                        <td>Track completed lessons, scores, streaks per language and level</td>
+                        <td><strong>Physical Project Office 🏡</strong></td>
+                        <td>In-Person Space</td>
+                        <td>Open a brick-and-mortar COSY languages workspace: an amiable, welcoming community space for quiet studying, a monolingual library, and screen-free face-to-face meetups.</td>
                     </tr>
                     <tr>
-                        <td>Teacher assignment system</td>
-                        <td>Portal</td>
-                        <td>Teacher assigns practice/homework to specific students</td>
+                        <td><strong>COSYlanguages Book Series 📖</strong></td>
+                        <td>Physical Print</td>
+                        <td>Developing comprehensive manuals for English, French, Italian, Russian, and Greek: <em>Grammar Manual</em>, <em>Exercises for Grammar</em>, <em>Vocabulary Manual</em>, and <em>Spoken for Vocabulary</em> workbooks.</td>
                     </tr>
                     <tr>
-                        <td>Placement quiz</td>
-                        <td>Onboarding</td>
-                        <td>10-15 question quiz so new students know their level</td>
+                        <td><strong>COSYlanguages Board Game 🏆</strong></td>
+                        <td>Tabletop Games</td>
+                        <td>A custom, premium physical tabletop board game designed to package conversational drills, speaking prompts, and letter-card chains in a social game box.</td>
                     </tr>
                     <tr>
-                        <td>Printable grammar tables</td>
-                        <td>Grammar</td>
-                        <td>PDF/print download of grammar tables per language</td>
+                        <td>Printable Leitner Flashcards</td>
+                        <td>"Paper Web" Studio</td>
+                        <td>A generator allowing users to print 3x5 double-sided vocabulary flashcards straight from their Personal Notebook for offline Leitner box study.</td>
                     </tr>
                     <tr>
-                        <td>Audio pronunciation</td>
-                        <td>Vocab+Grammar</td>
-                        <td>Native speaker audio per word and grammar form</td>
+                        <td>Print-and-Play Board Games</td>
+                        <td>Games & Tabletop</td>
+                        <td>Printable card decks, game mats, and rulebooks to adapt our digital gaming suite (e.g., Battle of Wits, Action Hero) into tabletop card games.</td>
                     </tr>
                     <tr>
-                        <td>COSY-branded 404 page</td>
-                        <td>Site-wide</td>
-                        <td>Friendly multilingual 404 with small game</td>
+                        <td>Audio pronunciation integration</td>
+                        <td>Practice & Games</td>
+                        <td>Browser-synthesized offline Web Audio native speech support for target vocabulary.</td>
                     </tr>
                 </tbody>
             </table>
@@ -124,41 +128,78 @@
     </section>
 
     <section class="roadmap-section">
-        <h2 class="priority-medium">⚡ Medium Priority</h2>
+        <h2 class="priority-medium">⚡ Medium Priority (Offline & Desktop Tools)</h2>
         <div class="roadmap-table-wrap">
             <table>
                 <thead>
                     <tr>
-                        <th>Feature</th>
+                        <th>Feature / Goal</th>
                         <th>Area</th>
                         <th>Notes</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Dark mode</td>
-                        <td>Global</td>
-                        <td>Toggle in header/settings, saved to localStorage</td>
+                        <td>Mini-Zine folded brochure prints</td>
+                        <td>"Paper Web" Studio</td>
+                        <td>Turn any 10-unit vocabulary grid or session topic into a printable, single-sheet A4 page that folds into an 8-page pocket glossary.</td>
                     </tr>
                     <tr>
-                        <td>Offline mode</td>
-                        <td>PWA</td>
-                        <td>Full offline practice using cached data</td>
+                        <td>Local Multi-User Profiles</td>
+                        <td>PWA Storage</td>
+                        <td>Support independent local dictionary logs, point tallies, and mistake reviews for families sharing the same offline tablet or PC.</td>
                     </tr>
                     <tr>
-                        <td>Vocabulary notebook</td>
-                        <td>Portal</td>
-                        <td>Personal saved word list, exportable</td>
+                        <td>Dark Mode theme support</td>
+                        <td>Global Layout</td>
+                        <td>Toggle a comfortable dark background (preserving warm sand/sage undertones), saved entirely offline in LocalStorage.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="roadmap-section">
+        <h2 class="shipped-label">✅ Completed & Shipped (Recent Upgrades)</h2>
+        <div class="roadmap-table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature / Goal</th>
+                        <th>Area</th>
+                        <th>Shipped Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Student progress tracking</td>
+                        <td>Personal Portal</td>
+                        <td>Track completed lessons, scores, streaks per language and level via Local Personal Notebook.</td>
                     </tr>
                     <tr>
-                        <td>Course progress bar</td>
-                        <td>Course</td>
-                        <td>Visual level completion tracker per student</td>
+                        <td>Vocabulary Notebook 📓</td>
+                        <td>Personal Portal</td>
+                        <td>Implemented a comprehensive personal notebook with custom vocabulary savers, export tools, and review stats.</td>
                     </tr>
                     <tr>
-                        <td>Sample lesson preview</td>
-                        <td>Course</td>
-                        <td>Free preview of first lesson for non-logged-in users</td>
+                        <td>Monolingual Symbolic Practice 🧩</td>
+                        <td>Practice Hub</td>
+                        <td>Transitioned practice structures into fully monolingual layouts utilizing symbolic operators (=, ≈, ≠, 🧩, 🔊) with zero English leakage.</td>
+                    </tr>
+                    <tr>
+                        <td>Dynamic Print-CSS Stylesheets</td>
+                        <td>Linguistics</td>
+                        <td>Completed print-friendly styling rules across morphology tables to let users print beautiful reference guides on physical paper.</td>
+                    </tr>
+                    <tr>
+                        <td>Interactive Gamification Audio</td>
+                        <td>Language Games</td>
+                        <td>Wired native Web Audio Synth sound chimes, buzzes, fanfares, and combo multipliers.</td>
+                    </tr>
+                    <tr>
+                        <td>Progressive Web App Offline Caching</td>
+                        <td>PWA Foundation</td>
+                        <td>Implemented a Service Worker caching foundation (`sw.js`) to load static application codes, icons, stylesheets, and core components without network.</td>
                     </tr>
                 </tbody>
             </table>
@@ -166,7 +207,7 @@
     </section>
 
     <p style="text-align: center; color: var(--ink-soft); font-size: 0.85rem;">
-        View the full tracking documentation in our <a href="https://github.com/cosylanguages/COSYlanguages/tree/main/_planned">GitHub Repository</a>.
+        Check our open source repository for direct contributions: <a href="https://github.com/cosylanguages/COSYlanguages">GitHub Repository</a>.
     </p>
 </main>
 
