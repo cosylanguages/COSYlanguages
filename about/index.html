@@ -7,7 +7,7 @@
     <link rel="icon" href="../images/logos/cosylanguages.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -20,13 +20,48 @@
             text-align: center;
         }
         .about-content {
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
             padding: 4rem 2rem;
         }
+        .about-section {
+            margin-bottom: 4rem;
+        }
+        .about-section h2 {
+            font-family: 'Lora', serif;
+            color: var(--sage-deep);
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+        .about-section p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: var(--ink-muted);
+            margin-bottom: 1.5rem;
+        }
+        .highlight-box {
+            background: var(--cream);
+            border-left: 4px solid var(--sage-dark);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2.5rem 0;
+        }
+        .highlight-box h3 {
+            font-family: 'Fraunces', serif;
+            color: var(--sage-dark);
+            font-size: 1.4rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .highlight-box p {
+            margin-bottom: 0;
+            font-size: 0.95rem;
+        }
         .about-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
@@ -37,7 +72,7 @@
             border: 1px solid var(--border);
             text-decoration: none;
             color: inherit;
-            transition: transform 0.2s;
+            transition: transform 0.2s, border-color 0.2s;
         }
         .about-card:hover {
             transform: translateY(-5px);
@@ -48,6 +83,40 @@
             display: flex;
             align-items: center;
             gap: 0.5rem;
+            font-size: 1.25rem;
+        }
+        .office-teaser {
+            background: linear-gradient(135deg, var(--sage-deep), #2a3a2d);
+            color: white;
+            border-radius: 24px;
+            padding: 3rem;
+            margin: 4rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .office-teaser h2 {
+            color: #fff;
+            font-family: 'Lora', serif;
+            font-size: 2.2rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+        .office-teaser p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+        .office-badge {
+            background: var(--honey-dark);
+            color: #000;
+            font-weight: 800;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            padding: 4px 12px;
+            border-radius: 100px;
+            display: inline-block;
+            margin-bottom: 1.5rem;
         }
     </style>
 </head>
@@ -57,33 +126,50 @@
 
 <header class="about-hero">
     <h1 data-translate-key="about_h1">The COSYlanguages Project</h1>
-    <p class="hero-sub">A cosy, immersive language learning platform built with love and open-source principles.</p>
+    <p class="hero-sub">A warm, slow-tech, visitor-first platform for deep monolingual language immersion.</p>
 </header>
 
 <main class="about-content">
-    <section>
+    <section class="about-section">
         <h2>Our Mission</h2>
-        <p>COSYlanguages was born from a simple idea: language learning should be human, speaking-first, and accessible. We are building a platform that focuses on genuine learning over monetisation, providing tools for both independent learners and teachers.</p>
+        <p>COSYlanguages was born as an alternative to typical gamified apps that monetize your attention through continuous notifications, ads, and addictive screen loops. We believe that learning a language is a deeply human, cognitive, and communicative journey.</p>
+        <p>Our project is built upon a simple, uncompromising core principle: <strong>No translation fallback.</strong> If you study Greek, you immerse in Greek. Emojis, context, music, and symbolic indicators guide you. Navigation is aided by tactile prompts, allowing your brain to form direct connections without the friction of secondary language filtering.</p>
+    </section>
+
+    <div class="highlight-box">
+        <h3>🌱 The "Analog" & Offline-First Shift</h3>
+        <p>In a screen-saturated world, COSYlanguages is pioneering a major strategic shift toward tactile, offline learning. By leveraging powerful Progressive Web App (PWA) local-caching, our entire platform — including interactive games and speaking rules — is designed to load completely offline. We are actively expanding this vision into physical media: printable spaced-repetition Leitner flashcards, folding pocket-sized glossaries (mini-zines), and physical "Print-and-Play" tabletop board games. We want you to close your laptop, put down your phone, and learn with paper, pencil, and real presence.</p>
+    </div>
+
+    <section class="about-section">
+        <h2>Zero-Database Privacy</h2>
+        <p>We do not store your data on cloud servers, require accounts, or track your behavior. The student notebook, points system, streak trackers, and custom dictionary lists are held completely client-side in your own browser's local storage. You have absolute data sovereignty, with the freedom to export and backup your vocabulary logs locally whenever you wish.</p>
+    </section>
+
+    <div class="office-teaser">
+        <div class="office-badge">🏡 The Ultimate Milestone</div>
+        <h2>Opening the COSY Language Learning Project Office</h2>
+        <p>We are thrilled to announce our ultimate master plan: <strong>establishing a physical, brick-and-mortar COSY Language Learning Project Office</strong>. Designed as a sanctuary for quiet study and slow-tech learning, this cozy physical lab will feature a curated monolingual library, custom print-and-play board game stations, offline lesson cards, and hot coffee. It will serve as an offline community hub where students and native tutors can gather for face-to-face Speaking Clubs, original language cinema nights, and genuine, uninterrupted human conversations. No screens, no notifications — just real connection.</p>
+    </div>
+
+    <section class="about-section">
+        <h2>Open Source & Community</h2>
+        <p>This project is hosted on GitHub Pages and runs entirely on client-side vanilla JavaScript. Whether you are a developer, an educator, or an language learner, we welcome contributions, creative ideas, and curriculum designs to help expand this offline-first ecosystem.</p>
 
         <div class="about-grid">
             <a href="https://github.com/cosylanguages/COSYlanguages" class="about-card">
                 <h3>🛠️ GitHub Repository</h3>
-                <p>Explore the source code, contribute to the project, or report issues on our official GitHub repo.</p>
+                <p>Explore our vanilla source code, contribute content, or check our open-source architecture.</p>
             </a>
             <a href="roadmap.html" class="about-card">
                 <h3>🗺️ Project Roadmap</h3>
-                <p>See what we're currently working on and what features are planned for the future.</p>
+                <p>Track our active milestones, completed deliverables, and physical office development.</p>
             </a>
             <a href="changelog.html" class="about-card">
                 <h3>📜 Changelog</h3>
-                <p>A detailed history of all the major updates and improvements we've made to the platform.</p>
+                <p>A complete chronological history of features and platform refactoring.</p>
             </a>
         </div>
-    </section>
-
-    <section style="margin-top: 4rem;">
-        <h2>Open Source & Community</h2>
-        <p>This project is hosted on GitHub Pages and utilizes a modular architecture that allows for easy expansion to new languages. Whether you're a developer, a linguist, or a teacher, there's a place for you in the COSY community.</p>
     </section>
 </main>
 
