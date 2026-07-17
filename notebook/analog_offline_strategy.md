@@ -78,6 +78,13 @@ Extend our print layout (`css/print.css`) to generate customized worksheets:
 - **Gap-Fill Lyric Sheets:** For Karaoke club songs, print a lyric sheet with gaps `[__________]` so users can fill them out with a real pencil while listening to the music on a local cassette, CD, or record player.
 - **Linguistic Correction Cards:** Print "Teacher's Notes" sheets where mistakes are highlighted on one side and corrections are listed on the reverse, ideal for parent-student offline review.
 
+### D. Physical Book Series (In Active Development) 📖
+To support high-quality, sensory learning away from devices, we are currently developing an extensive physical book series for five target languages: **English, French, Italian, Russian, and Greek**. Each language receives a suite of four dedicated physical books:
+1. **Grammar Manual:** A complete theoretical guide outlining morphological patterns, syntax structures, and core declensions, explained cleanly with ample contextual modeling.
+2. **Exercises for Grammar:** A comprehensive workbook designed for physical pencil-to-paper practice, filled with conjugation grids, translation drills, and structure-building puzzles.
+3. **Vocabulary Manual:** An immersive, theme-focused lexicon guide presenting curated terminology lists, examples, etymology guides, and collocations.
+4. **Spoken for Vocabulary:** An active-recall oral workbook designed to move passive vocabulary into active speech, filled with speaking drills, role-play dialogues, and discussion roadmaps.
+
 ---
 
 ## 5. Physical "Offline Board Games"
@@ -92,11 +99,9 @@ COSYlanguages' interactive game collection (under `games/`) can easily be modifi
 | **Hot Seat** | *Taboo / Hot Seat* | Headband or card holder, timer. | One player sits with a printed card on their forehead; others describe the target word using clues. |
 | **Last Letter** | *Card Chain* | Small letter-grid sheets. | Players place letter cards on a table, chaining nouns where the last letter must start the next word. |
 
-### Designing a "Print-and-Play" (PnP) Game Kit
-To support this, the games hub can feature a **Print-and-Play (PnP) Portal**. Users click a button to generate a single high-quality PDF containing:
-1. **The Game Board:** Minimalist, beautifully designed playing mats or progress trackers.
-2. **Card Sheets:** Printable grids of game cards (Action, Topic, or Word cards) mapped to active CEFR levels (Starter to Advanced).
-3. **Instruction Manual:** Localized rule sheets detailing offline group mechanics, tie-breakers, and grading criteria.
+### The Official COSYlanguages Board Game 🏆
+Beyond simple print-and-play templates, we are currently designing and developing **The Official COSYlanguages Board Game**.
+This is a high-tactile, beautifully crafted physical tabletop board game. It packages our rich conversational mechanics into a gorgeous wooden board layout, including high-quality card decks, custom letter tokens, speaking prompt dice, and scoreboard components. Designed to be played with a teacher or as a multiplayer group activity, it fosters direct, lively social interaction and provides a warm, fun environment for learners to practice their languages together.
 
 ---
 
@@ -126,12 +131,14 @@ To roll out the COSY Analog and Offline-First Strategy smoothly, we recommend a 
 - Test offline performance systematically to ensure 100% of the platform functions under complete network isolation.
 - Refactor the Personal Notebook (`notebook/index.html`) to support complete client-side **JSON Import/Export** to facilitate absolute data portability.
 
-### Phase 2: The Print-and-Play Studio (Short-Term)
+### Phase 2: The Print-and-Play Studio & Physical Book Releases (Short-Term)
 - Implement `print-flashcards.html` to allow direct, customizable physical card printing from standard vocabulary datasets and the personal notebook.
 - Integrate zine-folding generators that turn vocabulary grids into physical pocket glossaries.
 - Expand existing print-stylesheets (`css/print.css`) across all speaking sessions, cinema clubs, and grammar roadmaps.
+- Complete the print-ready layouts and draft editing for our **Grammar, Exercises, Vocabulary, and Spoken physical books**.
 
 ### Phase 3: The Board Game Suite (Medium-Term)
+- Print, play-test, and release **The Official COSYlanguages Board Game** box set.
 - Create printable PDF decks for the top 5 games (`Battle of Wits`, `Action Hero`, `Word Linker`, `Hot Seat`, `Lucky Numbers`).
 - Draft a cohesive PDF "Cosy Board Game Kit" containing a unified physical board mat, rulebook, and printable cards.
 - Release localized physical learning logs, journaling guides, and Leitner box construction designs.

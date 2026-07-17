@@ -59,6 +59,32 @@
             margin-bottom: 0;
             font-size: 0.95rem;
         }
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .book-item-card {
+            background: var(--cream);
+            padding: 1.5rem;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            text-align: center;
+        }
+        .book-item-card h4 {
+            font-family: 'Fraunces', serif;
+            color: var(--sage-deep);
+            font-size: 1.1rem;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+        .book-item-card p {
+            font-size: 0.8rem;
+            line-height: 1.4;
+            color: var(--ink-muted);
+            margin-bottom: 0;
+        }
         .about-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -141,6 +167,31 @@
         <p>In a screen-saturated world, COSYlanguages is pioneering a major strategic shift toward tactile, offline learning. By leveraging powerful Progressive Web App (PWA) local-caching, our entire platform — including interactive games and speaking rules — is designed to load completely offline. We are actively expanding this vision into physical media: printable spaced-repetition Leitner flashcards, folding pocket-sized glossaries (mini-zines), and physical "Print-and-Play" tabletop board games. We want you to close your laptop, put down your phone, and learn with paper, pencil, and real presence.</p>
     </div>
 
+    <!-- Section: Physical Books Development -->
+    <section class="about-section">
+        <h2>Physical Book Series — Currently in Development 📖</h2>
+        <p>To support high-quality, screen-free learning, we are currently developing an extensive series of physical books for five languages: <strong>English, French, Italian, Russian, and Greek</strong>. For each language, we are crafting a complete set of four complementary manuals designed to guide you from theoretical fundamentals to natural, active speech:</p>
+
+        <div class="books-grid">
+            <div class="book-item-card">
+                <h4>Grammar Manual 📘</h4>
+                <p>A comprehensive theoretical guide on morphology, syntax, and declensions.</p>
+            </div>
+            <div class="book-item-card">
+                <h4>Exercises for Grammar ✏️</h4>
+                <p>A pencil-and-paper workbook packed with conjugation grids and translation drills.</p>
+            </div>
+            <div class="book-item-card">
+                <h4>Vocabulary Manual 📙</h4>
+                <p>A structured thematic lexicon containing examples, collocations, and etymologies.</p>
+            </div>
+            <div class="book-item-card">
+                <h4>Spoken for Vocabulary 🗣️</h4>
+                <p>An active-recall conversational workbook filled with oral drills and roleplay pathing.</p>
+            </div>
+        </div>
+    </section>
+
     <section class="about-section">
         <h2>Zero-Database Privacy</h2>
         <p>We do not store your data on cloud servers, require accounts, or track your behavior. The student notebook, points system, streak trackers, and custom dictionary lists are held completely client-side in your own browser's local storage. You have absolute data sovereignty, with the freedom to export and backup your vocabulary logs locally whenever you wish.</p>
@@ -149,7 +200,8 @@
     <div class="office-teaser">
         <div class="office-badge">🏡 The Ultimate Milestone</div>
         <h2>Opening the COSY Language Learning Project Office</h2>
-        <p>We are thrilled to announce our ultimate master plan: <strong>establishing a physical, brick-and-mortar COSY Language Learning Project Office</strong>. Designed as a sanctuary for quiet study and slow-tech learning, this cozy physical lab will feature a curated monolingual library, custom print-and-play board game stations, offline lesson cards, and hot coffee. It will serve as an offline community hub where students and native tutors can gather for face-to-face Speaking Clubs, original language cinema nights, and genuine, uninterrupted human conversations. No screens, no notifications — just real connection.</p>
+        <p>COSYlanguages is, above all, a **teacher-led, human-first project**. We are thrilled to announce our ultimate master plan: <strong>establishing a physical, brick-and-mortar COSY Language Learning Project Office</strong>.</p>
+        <p>Our vision is to build an <strong>amiable, welcoming place</strong> where people may meet, form communities, practice their languages, and engage in diverse language-related activities (such as original-language movie nights, interactive board game sessions, and local cultural exchanges). Designed as a sanctuary for quiet study and tactile, screen-free learning, this cozy physical office will feature a beautifully curated monolingual library, custom tabletop card game hubs (featuring the official **COSYlanguages Board Game**), and always fresh coffee. It's a space for real human connection, without laptops or online notifications.</p>
     </div>
 
     <section class="about-section">
