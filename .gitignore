@@ -9,3 +9,6 @@ failure-*.png
 Thumbs.db
 .env
 js/config.js
+node_modules/
+package-lock.json
+test-results/
