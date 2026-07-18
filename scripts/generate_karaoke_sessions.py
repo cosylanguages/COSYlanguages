@@ -9,6 +9,238 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from master_lyrics import LYRICS_DATA
 
+# Proposed overarching themes mapped by song slug and language
+SONG_THEMES = {
+    "toutes-les-machines-ont-le-coeur": {
+        "en": "Technology & Humanity",
+        "fr": "Technologie & Humanité"
+    },
+    "ma-philosophie": {
+        "en": "Building Your Own Philosophy of Life",
+        "fr": "Construire sa propre philosophie de vie"
+    },
+    "je-taime-comme-je-taime": {
+        "en": "Unconditional Love",
+        "fr": "Amour inconditionnel"
+    },
+    "salut": {
+        "en": "Reconnecting with the Past",
+        "fr": "Retrouver le passé"
+    },
+    "toi-mon-amour": {
+        "en": "Soulmates & Destiny",
+        "fr": "Âmes sœurs & Destin"
+    },
+    "oui-ou-non": {
+        "en": "Mixed Signals in Modern Dating",
+        "fr": "Signaux contradictoires dans le couple"
+    },
+    "balance-ton-quoi": {
+        "en": "Equality & Respect",
+        "fr": "Égalité & Respect"
+    },
+    "laziza": {
+        "en": "Diversity & Acceptance",
+        "fr": "Diversité & Acceptation"
+    },
+    "nos-ames-sont": {
+        "en": "Human Connection Beyond Words",
+        "fr": "Connexion humaine au-delà des mots"
+    },
+    "immobile": {
+        "en": "When Life Stands Still",
+        "fr": "Quand la vie s'arrête"
+    },
+    "la-nuit-nen-finit-plus": {
+        "en": "Sleepless Nights & Longing",
+        "fr": "Nuits blanches & Désir"
+    },
+    "le-soleil-noir": {
+        "en": "Living Through Loss",
+        "fr": "Vivre après la perte"
+    },
+    "la-tour-eiffel-est-pour-moi": {
+        "en": "Dreaming of Paris",
+        "fr": "Rêver de Paris"
+    },
+    "quelquun-pour-toi": {
+        "en": "Finding the Right Person",
+        "fr": "Trouver la bonne personne"
+    },
+    "bien-plus-fort": {
+        "en": "Inner Strength",
+        "fr": "Force intérieure"
+    },
+    "un-premier-amour": {
+        "en": "The Magic of First Love",
+        "fr": "La magie du premier amour"
+    },
+    "voila": {
+        "en": "Authenticity & Self-Expression",
+        "fr": "Authenticité & Expression de soi"
+    },
+    "one-of-the-greats": {
+        "en": "Greatness & Legacy",
+        "fr": "Grandeur & Héritage"
+    },
+    "california-dreaming": {
+        "en": "Dreams & Escapism",
+        "fr": "Rêves & Échappatoire"
+    },
+    "me-and-i": {
+        "en": "Identity & Self-Discovery",
+        "fr": "Identité & Découverte de soi"
+    },
+    "angeleyes": {
+        "en": "Appearances Can Be Deceiving",
+        "fr": "Les apparences sont trompeuses"
+    },
+    "mixed-up-world": {
+        "en": "Finding Your Way in a Chaotic World",
+        "fr": "Trouver sa voie dans un monde chaotique"
+    },
+    "left-outside-alone": {
+        "en": "Rejection & Emotional Survival",
+        "fr": "Rejet & Survie émotionnelle"
+    },
+    "casualties-of-war": {
+        "en": "The Battles We Carry Inside",
+        "fr": "Les combats que nous portons en nous"
+    },
+    "as-it-was": {
+        "en": "Life After Change",
+        "fr": "La vie après le changement"
+    },
+    "luomo-che-amava-le-donne": {
+        "en": "Love, Flirting & Attraction",
+        "it": "Amore, corteggiamento & attrazione"
+    },
+    "due-grosse-lacrime-bianche": {
+        "en": "Heartbreak & Letting Go",
+        "it": "Cuore spezzato & lasciarsi andare"
+    },
+    "unatta-estate": {
+        "en": "Summer Freedom",
+        "it": "Libertà estiva"
+    },
+    "chi-sara-con-te": {
+        "en": "Lifelong Companionship",
+        "it": "Compagnia per la vita"
+    },
+    "un-raggio-di-sole": {
+        "en": "Joy & Nature",
+        "it": "Gioia & Natura"
+    },
+    "lamore-e-un-attimo": {
+        "en": "The Fleeting Nature of Love",
+        "it": "La natura fugace dell'amore"
+    },
+    "amor-libre": {
+        "en": "Love Without Labels",
+        "es": "Amor sin etiquetas"
+    },
+    "te-alejas-mas-de-mi": {
+        "en": "Growing Apart",
+        "es": "Distanciamiento"
+    },
+    "nuevo-verano": {
+        "en": "The Summers That Shape Us",
+        "es": "Los veranos que nos marcan"
+    },
+    "u-mamy-est-sekret": {
+        "en": "Childhood & Family Secrets",
+        "ru": "Детство & семейные секреты"
+    },
+    "vyshe-domov": {
+        "en": "Dreaming Beyond Limits",
+        "ru": "Мечтать за пределами возможного"
+    },
+    "na-i-agapi-na": {
+        "en": "Simple Joys of Love",
+        "el": "Απλές χαρές της αγάπης"
+    },
+    "kapoies-nychtes": {
+        "en": "Night Thoughts & Solitude",
+        "el": "Νυχτερινές σκέψεις & μοναξιά"
+    },
+    "o-gatos": {
+        "en": "Freedom Through Everyday Adventures",
+        "el": "Ελευθερία μέσα από καθημερινές περιπέτειες"
+    },
+    "army-dreamers": {
+        "en": "The Human Cost of War",
+        "fr": "Le coût humain de la guerre"
+    },
+    "coming-around-again": {
+        "en": "Healing",
+        "fr": "Guérison"
+    },
+    "diva": {
+        "en": "Confidence & Self-Worth",
+        "fr": "Confiance & Estime de soi"
+    },
+    "its-getting-better": {
+        "en": "Hope After Hard Times",
+        "fr": "L'espoir après des temps difficiles"
+    },
+    "make-your-own-kind-of-music": {
+        "en": "Being Unapologetically Yourself",
+        "fr": "Être soi-même sans s'excuser"
+    },
+    "oh-to-be-in-love": {
+        "en": "The Joy of Falling in Love",
+        "fr": "La joie de tomber amoureux"
+    },
+    "overprotected": {
+        "en": "Independence & Personal Freedom",
+        "fr": "Indépendance & Liberté personnelle"
+    },
+    "second-hand-rose": {
+        "en": "Thrift",
+        "fr": "Faire de son mieux avec ce qu'on a"
+    },
+    "the-greatest": {
+        "en": "Nostalgia & Cultural Change",
+        "fr": "Nostalgie & Changement culturel"
+    },
+    "unlikely-lovers": {
+        "en": "Love in Difficult Times",
+        "fr": "L'amour dans les moments difficiles"
+    },
+    "where-is-my-husband": {
+        "en": "Escaping Loneliness",
+        "fr": "Échapper à la solitude"
+    },
+    "tu-ten-iras": {
+        "en": "Accepting Endings",
+        "fr": "Accepter les fins"
+    },
+    "jim-beam": {
+        "en": "Escaping Reality",
+        "ru": "Побeг от реальности"
+    },
+    "love-kernels": {
+        "en": "Satire & Infatuation",
+        "fr": "Satire & Infatuation"
+    },
+    "lets-generalize-about-men": {
+        "en": "Generalizations & Satire",
+        "fr": "Généralisations & Satire"
+    },
+    "so-maternal": {
+        "en": "Parenting & Overachieving",
+        "fr": "Maternité & Surperformance"
+    },
+    "face-your-fears": {
+        "en": "Fear & Absurd Advice",
+        "fr": "Peur & Conseils absurdes"
+    },
+    "to-idio-to-theo": {
+        "en": "When Love Becomes Obsession",
+        "el": "Όταν η αγάπη γίνεται εμμονή"
+    }
+}
+
 # Challenge map defining which individual songs constitute each challenge
 CHALLENGE_MAP = {
     "maelle-challenge": ("toutes-les-machines-ont-le-coeur", "je-taime-comme-je-taime"),
@@ -79,7 +311,9 @@ SONG_LINKS = {
     "angeleyes": "https://www.youtube.com/watch?v=GHddJnNo_BQ",
     "me-and-i": "https://www.youtube.com/watch?v=CaoBiFYu-FI",
     "je-taime-comme-je-taime": "https://www.youtube.com/watch?v=zu9HiCSVyAg",
-    "toutes-les-machines-ont-le-coeur": "https://www.youtube.com/watch?v=UVz3xR1X9RU"
+    "toutes-les-machines-ont-le-coeur": "https://www.youtube.com/watch?v=UVz3xR1X9RU",
+    "one-of-the-greats": "https://www.youtube.com/results?search_query=one+of+the+greats+Florence+&+The+Machine",
+    "un-raggio-di-sole": "https://www.youtube.com/results?search_query=un+raggio+di+sole+Jovanotti"
 }
 
 # Translation / Localization resources for all 6 supported languages
@@ -279,10 +513,10 @@ VOCAB_DB = {
     "Retrouver": ("revenir en possession de ce qu'on avait perdu.", "Elle est ravie de retrouver ses anciens camarades."),
     "Changer": ("rendre différent, modifier profondément.", "Il a décidé de changer de carrière pour être plus heureux."),
     "Le souvenir": ("survivance d'une impression passée dans la mémoire.", "Ce voyage restera un magnifique souvenir pour nous tous."),
-    "L'ami": ("personne avec qui l'on est lié par l'amitié.", "Un ami fidèle est un trésor précieux dans la vie."),
+    "L'ami": ("personne with whom l'on est lié par l'amitié.", "Un ami fidèle est un trésor précieux dans la vie."),
     "La gare": ("lieu d'arrêt des trains pour les voyageurs.", "Elle l'attend patiemment sur le quai de la gare."),
     "Le destin": ("puissance qui semble régler le cours de la vie.", "Elle croit fermement que son destin est entre ses mains."),
-    "La complicité": ("entente profonde et spontanée entre des personnes.", "Leur complicité est évidente dès le premier regard."),
+    "La complicité": ("entente profonde et spontanée entre des personnes.", "Leur complicité is évidente dès le premier regard."),
     "Le chemin": ("voie de terre, parcours ou direction à suivre.", "Elle a choisi un chemin professionnel très original."),
     "La voix": ("ensemble des sons produits par les cordes vocales.", "Sa voix douce et mélodieuse calme immédiatement les enfants."),
     "S'unir": ("se joindre pour agir ensemble, se marier.", "Les pays doivent s'unir pour protéger l'environnement."),
@@ -302,8 +536,8 @@ VOCAB_DB = {
     "Le respect": ("sentiment de considération envers quelqu'un.", "Le respect mutuel est essentiel au sein d'une équipe."),
     "Le sexisme": ("attitude de discrimination basée sur le sexe.", "La loi combat activement le sexisme au travail."),
     "La dénonciation": ("action de dénoncer un fait ou un coupable.", "La dénonciation des abus a permis de changer les règles."),
-    "La liberté": ("état d'une personne libre, indépendante.", "La liberté d'expression est un droit fondamental."),
-    "L'égalité": ("rapport entre personnes ayant les mêmes droits.", "L'égalité des chances doit être garantie à tous."),
+    "La liberté": ("état d'une personne libre, indépendante.", "La liberté d'expression is un droit fondamental."),
+    "L'égalité": ("rapport entre personnes ayant les mêmes droits.", "La loi garantit l'égalité des chances pour tous."),
     "Parler": ("s'exprimer par la parole, communiquer.", "Il est important de parler ouvertement de ses soucis."),
     "Le courage": ("force morale pour affronter le danger ou la peine.", "Il a eu le courage de surmonter cette épreuve."),
     "Le changement": ("action de changer, modification profonde.", "Ce changement de direction a relancé l'entreprise."),
@@ -322,8 +556,6 @@ VOCAB_DB = {
     "La vérité": ("qualité de ce qui est vrai, conforme à la réalité.", "Dire la vérité est essentiel pour bâtir la confiance."),
     "L'invisible": ("ce qui ne peut pas être vu par les yeux.", "L'air que nous respirons est un élément invisible."),
     "L'immobilité": ("état de ce qui est immobile, sans mouvement.", "L'immobilité de la statue a surpris les passants."),
-    "L'attente": ("action d'attendre l'arrivée de quelqu'un ou d'un fait.", "L'attente des résultats d'examen a été très stressante."),
-    "La peur": ("sentiment d'angoisse face à un danger réel ou imaginaire.", "Elle a surmonté sa peur du vide en faisant de l'escalade."),
     "La solitude": ("état de celui qui vit seul ou isolé.", "Il apprécie la solitude de la campagne pour écrire."),
     "Figer": ("rendre immobile ou bloquer une situation.", "Le grand froid a fini par figer l'eau du lac."),
     "Le regard": ("action de regarder, expression des yeux.", "Son regard bienveillant m'a immédiatement rassuré."),
@@ -350,22 +582,22 @@ VOCAB_DB = {
     "La présence": ("fait d'être là, dans un lieu précis.", "Votre présence à cette cérémonie est très importante."),
     "La force": ("puissance physique ou morale.", "Elle a trouvé la force de surmonter cette rupture difficile."),
     "La passion": ("amour ou intérêt très vif pour quelque chose.", "Le chant choral est sa véritable passion depuis toujours."),
-    "L'intensité": ("degré élevé de force, de puissance.", "L'intensité du spectacle a impressionné le public."),
+    "L'intensite": ("degré élevé de force, de puissance.", "L'intensité du spectacle a impressionné le public."),
     "Le triomphe": ("grande victoire, succès retentissant.", "Le concert s'est terminé par un triomphe absolu."),
     "Surmonter": ("vaincre un obstacle, surmonter ses craintes.", "Elle a réussi à surmonter sa timidité en public."),
-    "La pureté": ("qualité de ce qui est pur, sans mélange.", "La pureté de l'air de la montagne est remarquable."),
+    "La purete": ("qualité de ce qui est pur, sans mélange.", "La pureté de l'air de la montagne est remarquable."),
     "La jeunesse": ("période de la vie entre l'enfance et l'âge mûr.", "La jeunesse est une période d'apprentissage intense."),
     "Le premier": ("qui est avant tous les autres dans le temps.", "C'était son tout premier concert de musique classique."),
     "L'innocence": ("état de quelqu'un qui n'est pas coupable, pureté.", "L'innocence des enfants est une chose précieuse."),
     "Rêver": ("faire des rêves pendant son sommeil ou imaginer.", "Elle aime rêver de voyages lointains et d'aventures."),
-    "La présentation": ("action de présenter quelqu'un ou quelque chose.", "La présentation du nouveau projet a été un grand succès."),
-    "L'authenticité": ("qualité de ce qui est authentique, vrai.", "Le public apprécie l'authenticité de cet artiste."),
-    "La vulnérabilité": ("caractère de ce qui est vulnérable, fragile.", "Admettre sa vulnérabilité demande une grande force morale."),
+    "La presentation": ("action de présenter quelqu'un ou quelque chose.", "La présentation du nouveau projet a été un grand succès."),
+    "L'authenticite": ("qualité de ce qui est authentique, vrai.", "Le public apprécie l'authenticité de cet artiste."),
+    "La vulnerabilite": ("caractère de ce qui est vulnérable, fragile.", "Admettre sa vulnérabilité demande une grande force morale."),
     "Le public": ("ensemble des personnes qui assistent à un spectacle.", "Le public a applaudi chaleureusement la chanteuse."),
     "Se donner": ("se consacrer entièrement à une tâche ou une cause.", "Il faut se donner à fond pour réussir ses examens."),
-    "La scène": ("espace surélevé où se produisent les artistes.", "Elle est montée sur scène sous les applaudissements."),
+    "La scene": ("espace surélevé où se produisent les artistes.", "Elle est montée sur scène sous les applaudissements."),
     "L'artiste": ("personne qui crée des œuvres d'art ou se produit.", "Cet artiste peintre expose ses toiles dans le monde entier."),
-    "L'écoute": ("action d'écouter attentivement.", "La qualité d'écoute est essentielle dans une relation."),
+    "L'ecoute": ("action d'écouter attentivement.", "La qualité d'écoute est essentielle dans une relation."),
 
     # English
     "Kernels": ("small, soft, or edible parts of a nut, seed, or corn; metaphorically, tiny bits.", "He only threw her a few kernels of affection, keeping her wanting more."),
@@ -460,7 +692,7 @@ VOCAB_DB = {
     "Юность (она)": ("период жизни между детством и зрелостью.", "В юности мы совершаем много безумных и ярких поступков."),
     "Ветер (он)": ("движение воздуха в горизонтальном направлении.", "Холодный ветер с моря дул нам прямо в лицо."),
     "Город (он)": ("крупный населенный пункт.", "Этот старинный европейский город очаровал нас сразу."),
-    "Небо (оно)": ("пространство над землей, атмосфера.", "Ночное небо было усыпано миллионами ярких звёзд."),
+    "Небо (оνο)": ("пространство над землей, атмосфера.", "Ночное небо было усыпано миллионами ярких звёзд."),
     "Взгляд (он)": ("направление глаз, выражение глаз.", "Ее добрый взгляд сразу внушил мне доверие."),
     "Секрет (он)": ("тайна, то, что скрывается от других.", "Она пообещала сохранить мой секрет в тайне."),
     "Мама (она)": ("женщина по отношению к своим детям.", "Моя мама всегда поддерживает меня во всех начинаниях."),
@@ -514,7 +746,6 @@ VOCAB_DB = {
     "L'attesa": ("l'atto di attendere l'arrivo di qualcuno o qualcosa.", "L'attesa dei risultati dell'esame è stata molto stressante."),
     "L'unione": ("il congiungersi insieme, legame.", "L'unione fa la forza nei momenti di grande difficoltà."),
     "L'amore": ("profondo sentimento di affetto o attrazione.", "L'amore per l'arte lo accompagna da tutta la vita."),
-    "L'attimo": ("brevissimo spazio di tempo, istante.", "Cogli l'attimo prima che sia troppo tardi."),
     "La scintilla": ("minuscolo frammento di materia incandescente.", "Una piccola scintilla può dare origine a un grande fuoco."),
     "Il bacio": ("il toccare con le labbra in segno d'affetto.", "Si sono scambiati un tenero bacio prima di salutarsi."),
     "Il battito": ("colpo ritmico, battito del cuore.", "Sentiva il battito accelerato del cuore per l'emozione."),
@@ -555,7 +786,7 @@ VOCAB_DB = {
     "El verano": ("la estación más calurosa del año.", "En verano pasamos casi todo el día en la playa."),
     "La juventud": ("período de la vida entre la infancia y la edad madura.", "La juventud es una etapa de aprendizaje y descubrimientos."),
     "La nostalgia": ("sentimiento de pena por la lejanía o pérdida.", "La música antigua me llena de una agradable nostalgia."),
-    "El cambio": ("acción de cambiar o modificar algo.", "Este cambio de rutina le ha sentado muy bien a su salud."),
+    "El cambio": ("action de cambiar o modificar algo.", "Este cambio de rutina le ha sentado muy bien a su salud."),
     "El sol": ("la estrella que ilumina nuestro sistema planetario.", "El sol brilla con fuerza sobre el campo de trigo."),
     "La playa": ("ribera arenosa del mar o de un río.", "La playa estaba desierta y pacífica a primera hora."),
     "El amigo": ("persona con la que se tiene amistad.", "Un amigo de verdad te apoya en los momentos más difíciles."),
@@ -590,7 +821,7 @@ VOCAB_DB = {
     "Ο δρόμος": ("η οδός, το πέρασμα.", "Περπατούσε στον έρημο δρόμο σκεπτικός."),
     "Το νιαούρισμα": ("η φωνή της γάτας.", "Το νιαούρισμα της γάτας ακουγόταν έξω από την πόρτα."),
     "Το κυνήγι": ("η δράση του να κυνηγά κανείς ζώα ή στόχους.", "Οι γάτες λατρεύουν το κυνήγι των ποντικιών."),
-    "Η αυλή": ("ο ανοιχτός χώρος γύρω από το σπίτι.", "Παίζαμε πάντα στην αυλή του σпиτιού μας.")
+    "Η αυλή": ("ο ανοιχτός χώρος γύρω από το σπίτι.", "Παίζαμε πάντα στην αυλή του σπιτιού μας.")
 }
 
 # Standard catalog of common localized mistakes & corrections per language
@@ -838,7 +1069,20 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 </body>
 </html>"""
 
-def generate_song_elements(song, loc, lang, sub_slug=None):
+def parse_existing_vocab(slug):
+    path = f"events/sessions/{slug}.html"
+    vocab_data = {}
+    if not os.path.exists(path):
+        return vocab_data
+    with open(path, "r", encoding="utf-8") as f:
+        html = f.read()
+    # Find all vocab cards using a flexible regex that accounts for potential formatting discrepancies
+    cards = re.findall(r'<div class="vocab-card"><div class="vocab-word">(.*?)</div><div class="vocab-def">(.*?)</div><div class="vocab-example">(.*?)</div>', html)
+    for w, d, e in cards:
+        vocab_data[w.strip()] = (d.strip(), e.strip())
+    return vocab_data
+
+def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     title = song["title"]
     artist = song["artist"]
     vocab_words = song["vocab"]
@@ -850,13 +1094,18 @@ def generate_song_elements(song, loc, lang, sub_slug=None):
     for w in vocab_words:
         norm_w = w.replace("L'", "").replace("La ", "").replace("Le ", "").replace("El ", "").replace("La ", "").replace("Il ", "").replace("La ", "").replace("Η ", "").replace("Το ", "").replace("Ο ", "")
 
-        definition, example = ("definition.", "Example sentence.")
-        found = False
-        for k, v in VOCAB_DB.items():
-            if k.lower() == w.lower() or k.lower().startswith(norm_w.lower()):
-                definition, example = v
-                found = True
-                break
+        # Use parsed definitions/examples to avoid placeholder defaults
+        if existing_vocab and w in existing_vocab:
+            definition, example = existing_vocab[w]
+            found = True
+        else:
+            definition, example = ("definition.", "Example sentence.")
+            found = False
+            for k, v in VOCAB_DB.items():
+                if k.lower() == w.lower() or k.lower().startswith(norm_w.lower()):
+                    definition, example = v
+                    found = True
+                    break
 
         if not found:
             definition = f"Target vocabulary word meaning in '{title}'."
@@ -971,8 +1220,14 @@ for slug in sorted(LYRICS_DATA.keys()):
     variety_m = re.search(r"<h4>(?:Variety/Language|Language|Langue|Язык|Lingua|Idioma|Γλώσσα|Variety)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
     variety = variety_m.group(1).strip() if variety_m else "English"
 
+    # Pre-parse theme first. We will override it if defined in SONG_THEMES
     focus_m = re.search(r"<h4>(?:Thematic Focus|Focus|Thème|Тема|Tema|Θέμα)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
     focus = focus_m.group(1).strip() if focus_m else ""
+
+    # Override theme if defined in master taxonomy SONG_THEMES
+    if slug in SONG_THEMES:
+        # Fallback to English translation if target lang is missing
+        focus = SONG_THEMES[slug].get(lang, SONG_THEMES[slug].get("en", focus))
 
     vocab = re.findall(r'<div class="vocab-word">(.*?)</div>', html)
     vocab = [v.strip() for v in vocab]
@@ -1024,6 +1279,10 @@ for slug in sorted(CHALLENGE_MAP.keys()):
 
     focus_m = re.search(r"<h4>(?:Thematic Focus|Focus|Thème|Тема|Tema|Θέμα)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
     focus = focus_m.group(1).strip() if focus_m else ""
+
+    # Override theme if defined in master taxonomy SONG_THEMES
+    if slug in SONG_THEMES:
+        focus = SONG_THEMES[slug].get(lang, SONG_THEMES[slug].get("en", focus))
 
     vocab = re.findall(r'<div class="vocab-word">(.*?)</div>', html)
     vocab = [v.strip() for v in vocab]
@@ -1109,6 +1368,9 @@ for song in all_karaoke_data:
     # Localization keys
     loc = LOCALIZATIONS[lang] if lang in LOCALIZATIONS else LOCALIZATIONS["en"]
 
+    # Pre-parse the existing vocabulary from the file to preserve accurate definitions & examples
+    existing_vocab = parse_existing_vocab(slug)
+
     # Render and write HTML
     if slug in CHALLENGE_MAP:
         # Challenge Page
@@ -1128,7 +1390,10 @@ for song in all_karaoke_data:
             sub_song_link = SONG_LINKS.get(sub_slug, f"https://www.youtube.com/results?search_query={sub_title.replace(' ', '+')}+{sub_artist.replace(' ', '+')}")
             sub_song_link_backup = sub_song_link
 
-            sub_elements = generate_song_elements(sub_song, loc, lang, sub_slug=sub_slug)
+            # Pre-parse the constituent song vocabulary too
+            sub_existing_vocab = parse_existing_vocab(sub_slug)
+
+            sub_elements = generate_song_elements(sub_song, loc, lang, sub_slug=sub_slug, existing_vocab=sub_existing_vocab)
 
             tabs_html += f"""    <vim-choice-option>
       <vim-choice-option-title>{sub_title}</vim-choice-option-title>
@@ -1274,10 +1539,10 @@ for song in all_karaoke_data:
         song_link = SONG_LINKS.get(slug, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+{artist.replace(' ', '+')}")
         song_link_backup = song_link
 
-        elements = generate_song_elements(song, loc, lang)
+        elements = generate_song_elements(song, loc, lang, existing_vocab=existing_vocab)
 
         # Generate complete description
-        desc = f"Explore the beautiful track '{title}' by {artist} in {variety_lang}. This session focuses on the vocabulary of {focus} and key linguistic structures of the lyrics. Students will practice speaking and debating about these themes."
+        desc = f"Explore the beautiful track '{title}' by {artist} in {variety_lang}. This session focuses on the vocabulary of '{focus}' and key linguistic structures of the lyrics. Students will practice speaking and debating about these themes."
         if lang == "fr":
             desc = f"Explorez le magnifique titre '{title}' de {artist} en {variety_lang}. Cette session se concentre sur le vocabulaire de '{focus}' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes."
         elif lang == "ru":
