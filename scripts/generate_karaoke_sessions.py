@@ -1559,8 +1559,8 @@ def parse_existing_vocab(slug):
         return vocab_data
     with open(path, "r", encoding="utf-8") as f:
         html = f.read()
-    # Find all vocab cards using a flexible regex
-    cards = re.findall(r'<div class="vocab-card"><div class="vocab-word">(.*?)</div><div class="vocab-def">(.*?)</div><div class="vocab-example">(.*?)</div>', html)
+    # Find all vocab cards using a flexible regex that supports attributes like class or style
+    cards = re.findall(r'<div class="vocab-card"><div class="vocab-word"[^>]*>(.*?)</div><div class="vocab-def"[^>]*>(.*?)</div><div class="vocab-example"[^>]*>(.*?)</div>', html)
     for w, d, e in cards:
         vocab_data[w.strip()] = (d.strip(), e.strip())
     return vocab_data
@@ -1654,8 +1654,49 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     artist = song["artist"]
     vocab_words = song["vocab"]
     helpers = song["helpers"]
-    lyrics_text = song["lyrics"].replace("\n", "<br>")
     slug = sub_slug or song["slug"]
+
+    # Determine lyrics source platform
+    source = "Genius"
+    if slug in ["o-gatos", "to-idio-to-theo"]:
+        source = "kithara.to"
+    elif slug == "quelquun-pour-toi":
+        source = "paroles.net"
+    elif slug == "na-i-agapi-na":
+        source = "greeklyrics.gr"
+    elif slug in ["love-kernels", "lets-generalize-about-men", "so-maternal", "face-your-fears"]:
+        source = "azlyrics.com"
+    elif slug == "la-tour-eiffel-est-pour-moi":
+        source = "our language learning project"
+
+    # Map localized templates
+    disclaimer_templates = {
+        "en": "Lyrics extracted from {source} and are used only for educational purposes.",
+        "fr": "Paroles extraites de {source} et utilisées uniquement à des fins éducatives.",
+        "ru": "Текст песни взят из источника {source} и используется исключительно в образовательных целях.",
+        "it": "Testi estratti da {source} e utilizzati solo a scopo didattico.",
+        "es": "Letras extraídas de {source} y utilizadas únicamente con fines educativos.",
+        "el": "Οι στίχοι προέρχονται από το {source} και χρησιμοποιούνται αποκλειστικά για εκπαιδευτικούς σκοπούς."
+    }
+
+    disclaimer_template = disclaimer_templates.get(lang, disclaimer_templates["en"])
+    disclaimer = disclaimer_template.format(source=source)
+
+    if source == "our language learning project":
+        if lang == "fr":
+            disclaimer = "Paroles créées par notre projet d'apprentissage des langues et utilisées uniquement à des fins éducatives."
+        elif lang == "ru":
+            disclaimer = "Текст песни создан нашим проектом по изучению языков и используется исключительно в образовательных целях."
+        elif lang == "it":
+            disclaimer = "Testi creati dal nostro progetto di apprendimento linguistico e utilizzati solo a scopo didattico."
+        elif lang == "es":
+            disclaimer = "Letras creadas por nuestro proyecto de aprendizaje de idiomas y utilizadas únicamente con fines educativos."
+        elif lang == "el":
+            disclaimer = "Οι στίχοι δημιουργήθηκαν από το έργο μας εκμάθησης γλωσσών και χρησιμοποιούνται αποκλειστικά για εκπαιδευτικούς σκοπούς."
+        else:
+            disclaimer = "Lyrics created by our language learning project and are used only for educational purposes."
+
+    lyrics_text = song["lyrics"].replace("\n", "<br>") + f'<br><br><em style="font-size: 0.85rem; color: var(--muted); display: block; border-top: 1px solid var(--border); padding-top: 0.5rem; margin-top: 1rem;">{disclaimer}</em>'
 
     # Vocabulary grouping into two themed buckets (5 words each)
     vocab_cards_html = ""
@@ -1858,7 +1899,7 @@ for slug in sorted(LYRICS_DATA.keys()):
     if slug in SONG_THEMES:
         focus = SONG_THEMES[slug].get(lang, SONG_THEMES[slug].get("en", focus))
 
-    vocab = re.findall(r'<div class="vocab-word">(.*?)</div>', html)
+    vocab = re.findall(r'<div class="vocab-word"[^>]*>(.*?)</div>', html)
     vocab_cleaned = []
     for v in vocab:
         v_stripped = v.strip()
@@ -1917,7 +1958,7 @@ for slug in sorted(CHALLENGE_MAP.keys()):
     if slug in SONG_THEMES:
         focus = SONG_THEMES[slug].get(lang, SONG_THEMES[slug].get("en", focus))
 
-    vocab = re.findall(r'<div class="vocab-word">(.*?)</div>', html)
+    vocab = re.findall(r'<div class="vocab-word"[^>]*>(.*?)</div>', html)
     vocab_cleaned = []
     for v in vocab:
         v_stripped = v.strip()
