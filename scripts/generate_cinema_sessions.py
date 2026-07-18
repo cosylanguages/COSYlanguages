@@ -110,6 +110,160 @@ MISTAKES_CATALOG = [
     ("He gave to her a beautiful book", "He gave her a beautiful book", "Direct object doesn't require 'to' after 'give' in English.")
 ]
 
+EMOJI_MAP = {
+    "love": "❤️", "relationship": "❤️", "friendship": "🤝", "wedding": "💍", "motherhood": "👩",
+    "family": "👨", "identity": "👤", "self-discovery": "👤", "self-awareness": "👤",
+    "work": "💼", "career": "💼", "success": "🏆", "ambition": "💼", "perfectionism": "🏆",
+    "competition": "💪", "strategy": "♟", "chess": "♟", "addiction": "🧠", "recovery": "🧠",
+    "grief": "🧠", "loneliness": "🧠", "women": "♀️", "fashion": "👠", "leadership": "⚖️",
+    "new york": "🏙️", "paris": "🏙️", "technology": "🤖", "human nature": "🤖", "ethics": "⚖️",
+    "digital": "📱", "social media": "📱", "privacy": "🔒", "future": "🔮", "dystopia": "🔮",
+    "science": "🔬", "politics": "⚔️", "media": "📰", "climate": "🌱", "opinion": "📢",
+    "fake news": "📰", "satire": "🎭", "denial": "🎭", "humor": "🎭", "religion": "⛪",
+    "dreams": "✨", "independence": "🕊️", "reinvention": "✨", "freedom": "🕊️",
+    "social status": "💎", "romance": "❤️", "social class": "🌍", "history": "📜",
+    "revolution": "⚔️", "justice": "⚖️", "oppression": "⚖️", "resistance": "🛡️",
+    "government": "🏢", "survival": "🧪", "passion": "✨", "creativity": "✨",
+    "food": "🍴", "teamwork": "🤝", "nature": "🌲", "art": "🎨", "music": "🎵"
+}
+
+def get_theme_dna(slug, focus):
+    # Flagship Handcrafted Theme DNA
+    FLAGSHIPS = {
+        "the-queens-gambit": {
+            "primary": ("Ambition & Perfectionism", "🏆"),
+            "secondary": [
+                ("Identity & Self-Discovery", "👤"),
+                ("Addiction & Recovery", "🧠"),
+                ("Women Breaking Barriers", "♀️"),
+                ("Competition & Strategy", "♟")
+            ]
+        },
+        "black-mirror": {
+            "primary": ("Technology & Human Nature", "🤖"),
+            "secondary": [
+                ("Ethics", "⚖️"),
+                ("Digital Society", "📱"),
+                ("Privacy", "🔒"),
+                ("The Future", "🔮")
+            ]
+        },
+        "mamma-mia": {
+            "primary": ("Family & Relationships", "❤️"),
+            "secondary": [
+                ("Weddings", "💍"),
+                ("Friendship", "🤝"),
+                ("Motherhood", "👩"),
+                ("Identity", "👤")
+            ]
+        },
+        "dont-look-up": {
+            "primary": ("Science, Politics & Media", "🌍"),
+            "secondary": [
+                ("Climate Change", "🌱"),
+                ("Public Opinion", "📢"),
+                ("Fake News", "📰"),
+                ("Satire", "🎭")
+            ]
+        },
+        "the-devil-wears-prada": {
+            "primary": ("Work, Success & Identity", "💼"),
+            "secondary": [
+                ("Identity", "👤"),
+                ("Fashion", "👠"),
+                ("Leadership", "⚖️"),
+                ("New York", "🏙️")
+            ]
+        },
+        "fleabag": {
+            "primary": ("Modern Relationships & Emotional Honesty", "❤️"),
+            "secondary": [
+                ("Grief & Loneliness", "🧠"),
+                ("Family Dynamics", "👨"),
+                ("Religion & Humor", "⛪"),
+                ("Self-Awareness", "👤")
+            ]
+        },
+        "breakfast-at-tiffanys": {
+            "primary": ("Dreams, Independence & Reinvention", "✨"),
+            "secondary": [
+                ("New York", "🏙️"),
+                ("Identity", "👤"),
+                ("Social Status & Romance", "💎"),
+                ("Freedom", "🕊️")
+            ]
+        },
+        "serebryanye-konki": {
+            "primary": ("Social Class & Freedom", "🌍"),
+            "secondary": [
+                ("History & Revolution", "📜"),
+                ("Family Dynamics", "👨"),
+                ("Love", "❤️"),
+                ("Justice", "⚖️")
+            ]
+        },
+        "la-valla": {
+            "primary": ("Freedom Under Oppression", "⚖️"),
+            "secondary": [
+                ("Resistance & Government", "🛡️"),
+                ("Family Dynamics", "👨"),
+                ("Survival & Ethics", "🧪"),
+                ("Dystopia", "🔮")
+            ]
+        },
+        "ratatouille": {
+            "primary": ("Passion & Creativity", "✨"),
+            "secondary": [
+                ("Food", "🍴"),
+                ("Paris", "🏙️"),
+                ("Teamwork", "🤝"),
+                ("Following Your Dreams", "🌱")
+            ]
+        }
+    }
+
+    if slug in FLAGSHIPS:
+        return FLAGSHIPS[slug]
+
+    # For fallback films, parse the focus string
+    parts = [p.strip() for p in re.split(r'[,;.]', focus) if p.strip()]
+
+    def get_emoji_for_text(text):
+        text_lower = text.lower()
+        for kw, emo in EMOJI_MAP.items():
+            if kw.lower() in text_lower:
+                return emo
+        defaults = ["✨", "🎬", "🎭", "🍿", "🌟", "🎥"]
+        return defaults[hash(text) % len(defaults)]
+
+    themes = []
+    for p in parts:
+        theme_title = p.capitalize()
+        theme_title = re.sub(r'[\s]+', ' ', theme_title)
+        themes.append((theme_title, get_emoji_for_text(theme_title)))
+
+    # Ensure we have exactly 5 themes
+    while len(themes) < 5:
+        fallbacks = [
+            ("Cinema Spotlight", "🎬"),
+            ("Dialogue Analysis", "🗣️"),
+            ("Screenplay Study", "📖"),
+            ("Directing & Artistry", "🎥"),
+            ("Character Study", "👤")
+        ]
+        for f_title, f_emo in fallbacks:
+            if not any(t[0] == f_title for t in themes):
+                themes.append((f_title, f_emo))
+                if len(themes) == 5:
+                    break
+
+    primary = themes[0]
+    secondary = themes[1:5]
+    return {
+        "primary": primary,
+        "secondary": secondary
+    }
+
 def clean_word(w):
     return w.strip(" *.\"'“”").lower()
 
@@ -171,7 +325,7 @@ with open(MD_PATH, "r", encoding="utf-8") as f:
     text = f.read()
 
 # Regular expression matching the brainstorm table rows perfectly
-rows = re.findall(r'\|\s*(\d+)\s*\|\s*\*\*([^*]+)\*\*\s*\|\s*\*\*([^*]+)\*\*[^(]*\(([^)]+)\)\s*\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|', text)
+rows = re.findall(r'\|\s*(\d+)\s*\|\s*\*\*([^*]+)\*\*\s*\|\s*\*\*([^*]+)\*[^(]*\(([^)]+)\)\s*\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|', text)
 
 print(f"Parsed {len(rows)} films from markdown successfully.")
 
@@ -205,13 +359,17 @@ SESSION_TEMPLATE = """<!DOCTYPE html>
     <a href="../cinema-club.html">Cinema Club</a> <span class="sep">/</span>
     <span class="current">{title}</span>
   </nav>
-  <a href="../cinema-club.html" class="back-link">← Back to Club</a>
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
+    <a href="../cinema-club.html" class="back-link" style="margin-bottom: 0;">← Back to Club</a>
+    <button onclick="window.print()" class="btn-print-pdf no-print" style="background: var(--teal); color: white; border: none; padding: 0.6rem 1.2rem; border-radius: 50px; font-weight: 600; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s ease;">📥 Print / Save as PDF</button>
+  </div>
   <div class="session-meta-grid">
     <div class="meta-item"><h4>Duration</h4><p>90 minutes</p></div>
     <div class="meta-item"><h4>Variety</h4><p>{variety}</p></div>
     <div class="meta-item"><h4>Level</h4><p>{level_label}</p></div>
     <div class="meta-item"><h4>Thematic Focus</h4><p>{focus}</p></div>
   </div>
+  {theme_snapshot_html}
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
     <p>Welcome to our specialized Cinema Club session. This session is designed to explore the deep screen adaptation, cinematic storytelling, and screenplays of <strong>{title}</strong>. Perfect your target language comprehension by analyzing character dialogs, tone markers, and core cinematic motifs.</p>
   </div>
@@ -342,6 +500,30 @@ for idx, r in enumerate(rows):
 
     generic_vocab, authentic_vocab = get_definitions_for_movie(title, focus, slang_raw, idx)
 
+    # Theme DNA Snapshot generation
+    theme_dna = get_theme_dna(slug, focus)
+    primary_theme, primary_emoji = theme_dna["primary"]
+
+    secondary_themes_html = ""
+    for sec_theme, sec_emoji in theme_dna["secondary"]:
+        secondary_themes_html += f"""      <div style="font-size: 0.88rem; display: flex; align-items: center; gap: 6px;">
+        <span style="font-size: 1.1rem;">{sec_emoji}</span>
+        <span style="font-weight: 600;">{sec_theme}</span>
+      </div>\n"""
+
+    theme_snapshot_html = f"""  <div class="theme-snapshot-card" style="margin-top: 1.5rem; margin-bottom: 2rem; padding: 1.5rem; background: #FAF7F2; border: 1px solid #3D2B1F; border-radius: 24px; box-shadow: var(--shadow-sm); break-inside: avoid;">
+    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.25rem; color: #3D2B1F; margin: 0 0 1rem 0; display: flex; align-items: center; gap: 8px;">🎬 Themes Snapshot (Theme DNA)</h3>
+    <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+      <div style="font-size: 0.95rem; font-weight: 700; display: flex; align-items: center; gap: 8px;">
+        <span style="font-size: 1.2rem;">{primary_emoji}</span>
+        <span style="text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; color: var(--muted); margin-right: 4px;">Primary:</span>
+        <span>{primary_theme}</span>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 0.2rem; padding-top: 0.8rem; border-top: 1px dashed var(--border);">
+{secondary_themes_html}      </div>
+    </div>
+  </div>"""
+
     vocab_generic_html = ""
     for word, definition, example in generic_vocab:
         escaped_def = definition.replace("'", "\\'")
@@ -394,6 +576,7 @@ for idx, r in enumerate(rows):
             level_short=level_short,
             level_label=level_label,
             focus=focus,
+            theme_snapshot_html=theme_snapshot_html,
             vocab_generic_html=vocab_generic_html,
             vocab_authentic_html=vocab_authentic_html,
             round1_html=round1_html,
@@ -401,4 +584,4 @@ for idx, r in enumerate(rows):
             mistakes_html=mistakes_html
         ))
 
-print("Successfully generated all 91 Cinema Club sessions with 100% unique cinema-specific vocabulary and discussion structure!")
+print("Successfully generated all 91 Cinema Club sessions with 100% unique cinema-specific vocabulary, Theme DNA Snapshots, and discussion structure!")

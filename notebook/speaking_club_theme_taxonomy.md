@@ -78,3 +78,39 @@ This taxonomy bridges the Karaoke Club event topics and songs to filesystem-comp
 ## 3. Benefits of Centralized Taxonomy
 1.  **Monolingual Dynamic Scaling:** Allows interactive vocabulary/fluency games to query exact related items from standard databases dynamically using `primary_theme` or `sub_theme` keys.
 2.  **Cross-Club Connections:** Suggests highly relevant spoken materials to students (e.g. connecting a discussion about "Technology & Humanity" in Karaoke Club to "AI & Art" in Cinema Club).
+
+---
+
+## 4. Cinema Club Theme Taxonomy & DNA
+
+To capture the multi-faceted nature of films and series, COSYlanguages utilizes a **Theme DNA** model for each cinema session: one Primary Theme supported by four Secondary Themes. This ensures thematic consistency across our film catalogue while enabling deep, visual connection snapshots.
+
+### Handcrafted Catalog Flagships (Top 10)
+
+| Film / Series | Slug | Primary Theme | Secondary Theme 1 | Secondary Theme 2 | Secondary Theme 3 | Secondary Theme 4 |
+|---|---|---|---|---|---|---|
+| **The Queen's Gambit** | `the-queens-gambit` | 🏆 Ambition & Perfectionism | 👤 Identity & Self-Discovery | 🧠 Addiction & Recovery | ♀️ Women Breaking Barriers | ♟ Competition & Strategy |
+| **Black Mirror** | `black-mirror` | 🤖 Technology & Human Nature | ⚖️ Ethics | 📱 Digital Society | 🔒 Privacy | 🔮 The Future |
+| **Mamma Mia!** | `mamma-mia` | ❤️ Family & Relationships | 💍 Weddings | 🤝 Friendship | 👩 Motherhood | 👤 Identity |
+| **Don't Look Up** | `dont-look-up` | 🌍 Science, Politics & Media | 🌱 Climate Change | 📢 Public Opinion | 📰 Fake News | 🎭 Satire |
+| **The Devil Wears Prada** | `the-devil-wears-prada` | 💼 Work, Success & Identity | 👤 Identity | 👠 Fashion | ⚖️ Leadership | 🏙️ New York |
+| **Fleabag** | `fleabag` | ❤️ Modern Relationships & Emotional Honesty | 🧠 Grief & Loneliness | 👨 Family Dynamics | ⛪ Religion & Humor | 👤 Self-Awareness |
+| **Breakfast at Tiffany's** | `breakfast-at-tiffanys` | ✨ Dreams, Independence & Reinvention | 🏙️ New York | 👤 Identity | 💎 Social Status & Romance | 🕊️ Freedom |
+| **Silver Skates** | `serebryanye-konki` | 🌍 Social Class & Freedom | 📜 History & Revolution | 👨 Family Dynamics | ❤️ Love | ⚖️ Justice |
+| **La Valla** | `la-valla` | ⚖️ Freedom Under Oppression | 🛡️ Resistance & Government | 👨 Family Dynamics | 🧪 Survival & Ethics | 🔮 Dystopia |
+| **Ratatouille** | `ratatouille` | ✨ Passion & Creativity | 🍴 Food | 🏙️ Paris | 🤝 Teamwork | 🌱 Following Your Dreams |
+
+---
+
+## 5. Official COSYlanguages Theme Families
+
+Our curriculum maps all vocabulary and discussion events to **8 Official Theme Families**. This unifies our content across clubs (Speaking, Karaoke, Cinema) and creates an interconnected, highly structured monolingual learning taxonomy.
+
+1.  **❤️ Human Relationships:** Love, Family, Friendship, Parenthood, Marriage
+2.  **👤 Identity:** Self-discovery, Confidence, Belonging, Authenticity
+3.  **💪 Growth:** Resilience, Ambition, Success, Failure, Dreams
+4.  **🌍 Society:** Equality, Diversity, Politics, Class, Culture
+5.  **🤖 Modern World:** Technology, AI, Media, Consumerism, Digital Life
+6.  **⚖️ Values:** Ethics, Justice, Responsibility, Freedom
+7.  **🎨 Lifestyle:** Food, Fashion, Travel, Art, Music
+8.  **🧠 Psychology:** Grief, Addiction, Loneliness, Fear, Happiness

@@ -309,7 +309,25 @@
 
         window.updateMobileNav();
         window.updateDailyDose();
+        setupPrintButton();
         if (window.COSY && window.COSY.renderDict) window.COSY.renderDict();
+    };
+
+    const setupPrintButton = () => {
+        if (!window.location.pathname.includes('/sessions/')) return;
+        if (document.getElementById('btn-print-pdf-dynamic')) return;
+        if (document.querySelector('.btn-print-pdf')) return;
+
+        const backLink = document.querySelector('.back-link');
+        if (backLink && backLink.parentNode) {
+            const btn = document.createElement('button');
+            btn.id = 'btn-print-pdf-dynamic';
+            btn.className = 'btn-print-pdf no-print';
+            btn.style.cssText = "background: var(--teal); color: white; border: none; padding: 0.6rem 1.2rem; border-radius: 50px; font-weight: 600; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s ease; margin-bottom: 2rem; margin-left: 1rem; vertical-align: middle;";
+            btn.innerHTML = '📥 Print / Save as PDF';
+            btn.onclick = () => window.print();
+            backLink.parentNode.insertBefore(btn, backLink.nextSibling);
+        }
     };
 
     window.updateDailyDose = function() {

@@ -25,6 +25,15 @@ OPPOSITES_MAP = {
     "warm": ("Warm ≠ Cold", "having or showing a moderate degree of heat ≠ of or at a low or relatively low temperature.", "The warm fireplace offered a beautiful sanctuary from the freezing cold winter winds outside."),
     "winter": ("Winter ≠ Summer", "the coldest season of the year ≠ the warmest season of the year.", "She loves the quiet snow of winter, whereas he prefers the bright sunshine of summer."),
     "maternal": ("Maternal ≠ Paternal", "relating to a mother ≠ relating to a father.", "She showed a deeply protective maternal instinct, which beautifully complemented his strong paternal guidance."),
+    "survival": ("Survival ≠ Extinction", "continuing to live or exist ≠ the state or process of being or becoming extinct.", "Their struggle for survival was a fight against absolute extinction."),
+    "diversity": ("Diversity ≠ Uniformity", "including people from a range of backgrounds ≠ the state of being uniform or identical.", "The workplace celebrates cultural diversity instead of enforcing strict corporate uniformity."),
+    "illness": ("Illness ≠ Wellness", "a disease or period of sickness affecting the body or mind ≠ the state of being in good health.", "The clinic focuses on healing chronic illness and promoting lifelong wellness."),
+    "immortality": ("Immortality ≠ Mortality", "the ability to live forever ≠ the state of being subject to death.", "The vampire enjoys the gift of immortality, while lamenting the mortality of his human friends."),
+    "isolation": ("Isolation ≠ Companionship", "the state of being separate or alone ≠ the sharing of life with others.", "She preferred the quiet of isolation, but eventually craved the warmth of companionship."),
+    "humility": ("Humility ≠ Pride", "a modest view of one's own importance ≠ a feeling of deep pleasure or satisfaction derived from one's achievements.", "Her genuine humility endeared her to everyone, unlike his boastful pride."),
+    "generosity": ("Generosity ≠ Stinginess", "the quality of being kind and sharing ≠ a lack of generosity or unwillingness to share.", "The community was saved by his immense generosity, contrasting with the stinginess of the local merchants."),
+    "autonomy": ("Autonomy ≠ Dependence", "the right or condition of self-government; independence ≠ the state of relying on or being controlled by someone else.", "The colony fought for local autonomy to escape their absolute dependence on the mainland."),
+    "empathy": ("Empathy ≠ Apathy", "the ability to understand and share the feelings of another ≠ lack of interest, enthusiasm, or concern.", "Showing active empathy builds bridges, whereas cold apathy tears communities apart."),
 
     # French (Français)
     "liberté": ("La liberté ≠ L'esclavage", "état d'une personne libre, non soumise à un maître ≠ état de celui qui est sous la domination absolue d'un autre.", "Ils se sont battus courageusement pour défendre leur liberté et fuir l'esclavage."),

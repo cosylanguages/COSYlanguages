@@ -27,12 +27,43 @@
     <a href="../cinema-club.html">Cinema Club</a> <span class="sep">/</span>
     <span class="current">Incendies</span>
   </nav>
-  <a href="../cinema-club.html" class="back-link">← Back to Club</a>
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
+    <a href="../cinema-club.html" class="back-link" style="margin-bottom: 0;">← Back to Club</a>
+    <button onclick="window.print()" class="btn-print-pdf no-print" style="background: var(--teal); color: white; border: none; padding: 0.6rem 1.2rem; border-radius: 50px; font-weight: 600; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s ease;">📥 Print / Save as PDF</button>
+  </div>
   <div class="session-meta-grid">
     <div class="meta-item"><h4>Duration</h4><p>90 minutes</p></div>
     <div class="meta-item"><h4>Variety</h4><p>French / Arabic</p></div>
     <div class="meta-item"><h4>Level</h4><p>Upper-Intermediate</p></div>
     <div class="meta-item"><h4>Thematic Focus</h4><p>Family trauma, political war history, unbreakable bonds.</p></div>
+  </div>
+    <div class="theme-snapshot-card" style="margin-top: 1.5rem; margin-bottom: 2rem; padding: 1.5rem; background: #FAF7F2; border: 1px solid #3D2B1F; border-radius: 24px; box-shadow: var(--shadow-sm); break-inside: avoid;">
+    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.25rem; color: #3D2B1F; margin: 0 0 1rem 0; display: flex; align-items: center; gap: 8px;">🎬 Themes Snapshot (Theme DNA)</h3>
+    <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+      <div style="font-size: 0.95rem; font-weight: 700; display: flex; align-items: center; gap: 8px;">
+        <span style="font-size: 1.2rem;">👨</span>
+        <span style="text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; color: var(--muted); margin-right: 4px;">Primary:</span>
+        <span>Family trauma</span>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 0.2rem; padding-top: 0.8rem; border-top: 1px dashed var(--border);">
+      <div style="font-size: 0.88rem; display: flex; align-items: center; gap: 6px;">
+        <span style="font-size: 1.1rem;">📜</span>
+        <span style="font-weight: 600;">Political war history</span>
+      </div>
+      <div style="font-size: 0.88rem; display: flex; align-items: center; gap: 6px;">
+        <span style="font-size: 1.1rem;">🎬</span>
+        <span style="font-weight: 600;">Unbreakable bonds</span>
+      </div>
+      <div style="font-size: 0.88rem; display: flex; align-items: center; gap: 6px;">
+        <span style="font-size: 1.1rem;">🎬</span>
+        <span style="font-weight: 600;">Cinema Spotlight</span>
+      </div>
+      <div style="font-size: 0.88rem; display: flex; align-items: center; gap: 6px;">
+        <span style="font-size: 1.1rem;">🗣️</span>
+        <span style="font-weight: 600;">Dialogue Analysis</span>
+      </div>
+      </div>
+    </div>
   </div>
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
     <p>Welcome to our specialized Cinema Club session. This session is designed to explore the deep screen adaptation, cinematic storytelling, and screenplays of <strong>Incendies</strong>. Perfect your target language comprehension by analyzing character dialogs, tone markers, and core cinematic motifs.</p>
@@ -68,10 +99,10 @@
         <button class="btn-add-dict" onclick="COSY.addToDict({word:'Surveillance', definition:'close observation, especially of a suspected person or group.', example:'The characters live under constant, high-tech state surveillance.'}, this)">Add to Dictionary</button>
       </div>
       <div class="vocab-card">
-        <div class="vocab-word">Survival</div>
-        <div class="vocab-def">the state or fact of continuing to live or exist, especially in spite of difficult conditions.</div>
-        <div class="vocab-example">Survival in this dystopian future requires absolute secrecy and courage.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Survival', definition:'the state or fact of continuing to live or exist, especially in spite of difficult conditions.', example:'Survival in this dystopian future requires absolute secrecy and courage.'}, this)">Add to Dictionary</button>
+        <div class="vocab-word">Survival ≠ Extinction</div>
+        <div class="vocab-def">continuing to live or exist ≠ the state or process of being or becoming extinct.</div>
+        <div class="vocab-example">Their struggle for survival was a fight against absolute extinction.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Survival ≠ Extinction', definition:'continuing to live or exist ≠ the state or process of being or becoming extinct.', example:'Their struggle for survival was a fight against absolute extinction.'}, this)">Add to Dictionary</button>
       </div>
 
     </div>

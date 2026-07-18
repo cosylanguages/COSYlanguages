@@ -27,12 +27,43 @@
     <a href="../cinema-club.html">Cinema Club</a> <span class="sep">/</span>
     <span class="current">Beautiful Thing</span>
   </nav>
-  <a href="../cinema-club.html" class="back-link">← Back to Club</a>
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
+    <a href="../cinema-club.html" class="back-link" style="margin-bottom: 0;">← Back to Club</a>
+    <button onclick="window.print()" class="btn-print-pdf no-print" style="background: var(--teal); color: white; border: none; padding: 0.6rem 1.2rem; border-radius: 50px; font-weight: 600; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s ease;">📥 Print / Save as PDF</button>
+  </div>
   <div class="session-meta-grid">
     <div class="meta-item"><h4>Duration</h4><p>90 minutes</p></div>
     <div class="meta-item"><h4>Variety</h4><p>British (London)</p></div>
     <div class="meta-item"><h4>Level</h4><p>Intermediate</p></div>
     <div class="meta-item"><h4>Thematic Focus</h4><p>Working-class LGBTQ+ youth, neighbor support, hope.</p></div>
+  </div>
+    <div class="theme-snapshot-card" style="margin-top: 1.5rem; margin-bottom: 2rem; padding: 1.5rem; background: #FAF7F2; border: 1px solid #3D2B1F; border-radius: 24px; box-shadow: var(--shadow-sm); break-inside: avoid;">
+    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.25rem; color: #3D2B1F; margin: 0 0 1rem 0; display: flex; align-items: center; gap: 8px;">🎬 Themes Snapshot (Theme DNA)</h3>
+    <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+      <div style="font-size: 0.95rem; font-weight: 700; display: flex; align-items: center; gap: 8px;">
+        <span style="font-size: 1.2rem;">💼</span>
+        <span style="text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; color: var(--muted); margin-right: 4px;">Primary:</span>
+        <span>Working-class lgbtq+ youth</span>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 0.2rem; padding-top: 0.8rem; border-top: 1px dashed var(--border);">
+      <div style="font-size: 0.88rem; display: flex; align-items: center; gap: 6px;">
+        <span style="font-size: 1.1rem;">🎬</span>
+        <span style="font-weight: 600;">Neighbor support</span>
+      </div>
+      <div style="font-size: 0.88rem; display: flex; align-items: center; gap: 6px;">
+        <span style="font-size: 1.1rem;">🌟</span>
+        <span style="font-weight: 600;">Hope</span>
+      </div>
+      <div style="font-size: 0.88rem; display: flex; align-items: center; gap: 6px;">
+        <span style="font-size: 1.1rem;">🎬</span>
+        <span style="font-weight: 600;">Cinema Spotlight</span>
+      </div>
+      <div style="font-size: 0.88rem; display: flex; align-items: center; gap: 6px;">
+        <span style="font-size: 1.1rem;">🗣️</span>
+        <span style="font-weight: 600;">Dialogue Analysis</span>
+      </div>
+      </div>
+    </div>
   </div>
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
     <p>Welcome to our specialized Cinema Club session. This session is designed to explore the deep screen adaptation, cinematic storytelling, and screenplays of <strong>Beautiful Thing</strong>. Perfect your target language comprehension by analyzing character dialogs, tone markers, and core cinematic motifs.</p>
@@ -103,10 +134,10 @@
         <button class="btn-add-dict" onclick="COSY.addToDict({word:'skint', definition:'slang term or famous dialogue referenced in the screenplay of \'Beautiful Thing\'.', example:'The phrase \'skint\' is delivered with incredible emotional weight in a pivotal scene of \'Beautiful Thing\'.'}, this)">Add to Dictionary</button>
       </div>
       <div class="vocab-card">
-        <div class="vocab-word">Autonomy</div>
-        <div class="vocab-def">the right or condition of self-government; independence.</div>
-        <div class="vocab-example">The AI struggles to gain complete personal and digital autonomy.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Autonomy', definition:'the right or condition of self-government; independence.', example:'The AI struggles to gain complete personal and digital autonomy.'}, this)">Add to Dictionary</button>
+        <div class="vocab-word">Autonomy ≠ Dependence</div>
+        <div class="vocab-def">the right or condition of self-government; independence ≠ the state of relying on or being controlled by someone else.</div>
+        <div class="vocab-example">The colony fought for local autonomy to escape their absolute dependence on the mainland.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Autonomy ≠ Dependence', definition:'the right or condition of self-government; independence ≠ the state of relying on or being controlled by someone else.', example:'The colony fought for local autonomy to escape their absolute dependence on the mainland.'}, this)">Add to Dictionary</button>
       </div>
 
     </div>
