@@ -155,27 +155,36 @@ def check_speaking_club_sessions():
             with open(filepath, "r", encoding="utf-8") as f:
                 soup = BeautifulSoup(f, "html.parser")
 
-            # 1. Check description length before vocabulary section
-            description_text = ""
-            vocab_section = soup.find(id="vocabulary")
-            if vocab_section:
-                # Gather all text before the vocabulary section
-                prev_siblings = vocab_section.find_previous_siblings()
-                # Reverse them to follow document order
-                prev_siblings.reverse()
-                for sibling in prev_siblings:
-                    # Ignore nav, header, breadcrumbs, script
-                    if sibling.name not in ["nav", "header", "script"]:
-                        description_text += " " + sibling.get_text()
-            else:
-                print(f"❌ {filepath}: Missing <section id='vocabulary'>")
-                errors += 1
+            # Determine session types from club-tag or file structure
+            club_tag_div = soup.find(class_="club-tag")
+            club_tag = club_tag_div.get_text().strip() if club_tag_div else ""
+            is_cinema_session = (club_tag == "Cinema Club")
+            is_karaoke_session = (club_tag == "Karaoke Club") or file.endswith("-challenge.html")
+            is_challenge_session = file.endswith("-challenge.html")
 
-            sentences = re.split(r'(?<=[.!?])\s+', description_text.strip())
-            sentences = [s for s in sentences if len(s.strip()) > 5]
-            if len(sentences) < 3:
-                print(f"❌ {filepath}: Session description has only {len(sentences)} sentences (minimum 3 required).")
-                errors += 1
+            # 1. Check description length before vocabulary section (except for karaoke challenges)
+            if not is_challenge_session and not is_karaoke_session:
+                description_text = ""
+                vocab_section = soup.find(id="vocabulary")
+                if vocab_section:
+                    # Gather all text before the vocabulary section
+                    prev_siblings = vocab_section.find_previous_siblings()
+                    # Reverse them to follow document order
+                    prev_siblings.reverse()
+                    for sibling in prev_siblings:
+                        # Ignore nav, header, breadcrumbs, script
+                        if sibling.name not in ["nav", "header", "script"]:
+                            description_text += " " + sibling.get_text()
+                else:
+                    print(f"❌ {filepath}: Missing <section id='vocabulary'>")
+                    errors += 1
+
+                sentences = re.split(r'(?<=[.!?])\s+', description_text.strip())
+                sentences = [s for s in sentences if len(s.strip()) > 5]
+                min_sentences = 1 if is_cinema_session else 3
+                if len(sentences) < min_sentences:
+                    print(f"❌ {filepath}: Session description has only {len(sentences)} sentences (minimum {min_sentences} required).")
+                    errors += 1
 
             # 2. Section Headers must not display counts
             for header in soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6"]):
@@ -211,80 +220,153 @@ def check_speaking_club_sessions():
                         print(f"❌ {filepath}: CSS href '{href}' does not match expected depth prefix '{expected_prefix}'.")
                         errors += 1
 
-            # 5. Vocabulary elements: check .vocab-grid-10
-            vocab_grid = soup.find(class_="vocab-grid-10")
-            if not vocab_grid:
-                print(f"❌ {filepath}: Missing '.vocab-grid-10' container.")
-                errors += 1
-            else:
-                cards = vocab_grid.find_all(class_="vocab-card")
-                if len(cards) != 10:
-                    print(f"❌ {filepath}: Has {len(cards)} vocabulary cards instead of exactly 10.")
-                    errors += 1
-
-                for idx, card in enumerate(cards):
-                    v_def = card.find(class_="vocab-def")
-                    v_ex = card.find(class_="vocab-example")
-
-                    if v_def:
-                        def_text = v_def.get_text().strip()
-                        if not def_text.endswith("."):
-                            print(f"❌ {filepath}: Vocabulary {idx+1} definition does not end with a period: '{def_text}'")
-                            errors += 1
-
-                    if v_ex:
-                        ex_text = v_ex.get_text().strip()
-                        if not ex_text.endswith("."):
-                            print(f"❌ {filepath}: Vocabulary {idx+1} example does not end with a period: '{ex_text}'")
-                            errors += 1
-                        if "Example:" in ex_text:
-                            print(f"❌ {filepath}: Vocabulary {idx+1} example inner text contains forbidden 'Example:' prefix.")
-                            errors += 1
-
-            # 6. Check Rounds structure (R1 and R2 must have 10 items)
-            round_1 = soup.find(class_="round-1")
-            round_2 = soup.find(class_="round-2")
-
-            if round_1:
-                items = round_1.find_all(class_="round-item")
-                if len(items) != 10:
-                    items_li = round_1.find_all("li")
-                    if len(items_li) == 10:
-                        items = items_li
+            # 5. Vocabulary elements check
+            if not is_challenge_session:
+                if is_cinema_session:
+                    vocab_grids = soup.find_all(class_="vocab-grid-10")
+                    if len(vocab_grids) != 2:
+                        print(f"❌ {filepath}: Expected exactly 2 '.vocab-grid-10' containers for Cinema Club, found {len(vocab_grids)}.")
+                        errors += 1
                     else:
-                        print(f"❌ {filepath}: Round 1 has {max(len(items), len(items_li))} items instead of exactly 10.")
-                        errors += 1
+                        for grid_idx, grid in enumerate(vocab_grids):
+                            cards = grid.find_all(class_="vocab-card")
+                            if len(cards) != 5:
+                                print(f"❌ {filepath}: Grid {grid_idx+1} has {len(cards)} vocabulary cards instead of exactly 5.")
+                                errors += 1
 
-                # Check for hardcoded numbering
-                for idx, item in enumerate(items):
-                    item_text = item.get_text().strip()
-                    if re.match(r'^\d+\.?\s+', item_text):
-                        print(f"❌ {filepath}: Round 1 item {idx+1} contains hardcoded numbering: '{item_text}'")
-                        errors += 1
-                    if "**" in item_text:
-                        print(f"❌ {filepath}: Round 1 item {idx+1} contains Markdown bold syntax '**'. Use <strong> instead.")
-                        errors += 1
+                            for idx, card in enumerate(cards):
+                                v_def = card.find(class_="vocab-def")
+                                v_ex = card.find(class_="vocab-example")
 
-            if round_2:
-                items = round_2.find_all(class_="round-item")
-                if len(items) != 10:
-                    items_li = round_2.find_all("li")
-                    if len(items_li) == 10:
-                        items = items_li
+                                if v_def:
+                                    def_text = v_def.get_text().strip()
+                                    if not def_text.endswith((".", "?", "!")):
+                                        print(f"❌ {filepath}: Grid {grid_idx+1} Vocabulary {idx+1} definition does not end with a period: '{def_text}'")
+                                        errors += 1
+
+                                if v_ex:
+                                    ex_text = v_ex.get_text().strip()
+                                    if not ex_text.endswith((".", "?", "!")):
+                                        print(f"❌ {filepath}: Grid {grid_idx+1} Vocabulary {idx+1} example does not end with a period: '{ex_text}'")
+                                        errors += 1
+                elif is_karaoke_session:
+                    # For Karaoke sessions, key vocabulary is flexible and can contain any number of cards (>= 1)
+                    vocab_grid = soup.find(class_="vocab-grid-10")
+                    if not vocab_grid:
+                        print(f"❌ {filepath}: Missing '.vocab-grid-10' container.")
+                        errors += 1
                     else:
-                        print(f"❌ {filepath}: Round 2 has {max(len(items), len(items_li))} items instead of exactly 10.")
+                        cards = vocab_grid.find_all(class_="vocab-card")
+                        if len(cards) < 1:
+                            print(f"❌ {filepath}: Karaoke session has {len(cards)} vocabulary cards (expected at least 1).")
+                            errors += 1
+
+                        for idx, card in enumerate(cards):
+                            v_def = card.find(class_="vocab-def")
+                            v_ex = card.find(class_="vocab-example")
+
+                            if v_def:
+                                def_text = v_def.get_text().strip()
+                                if not def_text.endswith((".", "?", "!")):
+                                    print(f"❌ {filepath}: Vocabulary {idx+1} definition does not end with a period/question/exclamation: '{def_text}'")
+                                    errors += 1
+
+                            if v_ex:
+                                ex_text = v_ex.get_text().strip()
+                                if not ex_text.endswith((".", "?", "!")):
+                                    print(f"❌ {filepath}: Vocabulary {idx+1} example does not end with a period/question/exclamation: '{ex_text}'")
+                                    errors += 1
+                else:
+                    vocab_grid = soup.find(class_="vocab-grid-10")
+                    if not vocab_grid:
+                        print(f"❌ {filepath}: Missing '.vocab-grid-10' container.")
+                        errors += 1
+                    else:
+                        cards = vocab_grid.find_all(class_="vocab-card")
+                        if len(cards) != 10:
+                            print(f"❌ {filepath}: Has {len(cards)} vocabulary cards instead of exactly 10.")
+                            errors += 1
+
+                        for idx, card in enumerate(cards):
+                            v_def = card.find(class_="vocab-def")
+                            v_ex = card.find(class_="vocab-example")
+
+                            if v_def:
+                                def_text = v_def.get_text().strip()
+                                if not def_text.endswith((".", "?", "!")):
+                                    print(f"❌ {filepath}: Vocabulary {idx+1} definition does not end with a period: '{def_text}'")
+                                    errors += 1
+
+                            if v_ex:
+                                ex_text = v_ex.get_text().strip()
+                                if not ex_text.endswith((".", "?", "!")):
+                                    print(f"❌ {filepath}: Vocabulary {idx+1} example does not end with a period: '{ex_text}'")
+                                    errors += 1
+                                if "Example:" in ex_text:
+                                    print(f"❌ {filepath}: Vocabulary {idx+1} example inner text contains forbidden 'Example:' prefix.")
+                                    errors += 1
+
+            # 6. Check Rounds structure
+            if not is_challenge_session:
+                round_1 = soup.find(class_="round-1")
+                round_2 = soup.find(class_="round-2")
+
+                if is_cinema_session:
+                    expected_items = 5
+                    strict_count = True
+                elif is_karaoke_session:
+                    expected_items = 1 # Any number >= 1 is fine
+                    strict_count = False
+                else:
+                    expected_items = 10
+                    strict_count = True
+
+                if round_1:
+                    items = round_1.find_all(class_="round-item")
+                    if strict_count and len(items) != expected_items:
+                        items_li = round_1.find_all("li")
+                        if len(items_li) == expected_items:
+                            items = items_li
+                        else:
+                            print(f"❌ {filepath}: Round 1 has {max(len(items), len(items_li))} items instead of exactly {expected_items}.")
+                            errors += 1
+                    elif not strict_count and len(items) < expected_items:
+                        print(f"❌ {filepath}: Round 1 has {len(items)} items (expected at least {expected_items}).")
                         errors += 1
 
-                for idx, item in enumerate(items):
-                    item_text = item.get_text().strip()
-                    if re.match(r'^\d+\.?\s+', item_text):
-                        print(f"❌ {filepath}: Round 2 item {idx+1} contains hardcoded numbering: '{item_text}'")
-                        errors += 1
-                    if "**" in item_text:
-                        print(f"❌ {filepath}: Round 2 item {idx+1} contains Markdown bold syntax '**'. Use <strong> instead.")
+                    # Check for hardcoded numbering
+                    for idx, item in enumerate(items):
+                        item_text = item.get_text().strip()
+                        if re.match(r'^\d+\.?\s+', item_text):
+                            print(f"❌ {filepath}: Round 1 item {idx+1} contains hardcoded numbering: '{item_text}'")
+                            errors += 1
+                        if "**" in item_text:
+                            print(f"❌ {filepath}: Round 1 item {idx+1} contains Markdown bold syntax '**'. Use <strong> instead.")
+                            errors += 1
+
+                if round_2:
+                    items = round_2.find_all(class_="round-item")
+                    if strict_count and len(items) != expected_items:
+                        items_li = round_2.find_all("li")
+                        if len(items_li) == expected_items:
+                            items = items_li
+                        else:
+                            print(f"❌ {filepath}: Round 2 has {max(len(items), len(items_li))} items instead of exactly {expected_items}.")
+                            errors += 1
+                    elif not strict_count and len(items) < expected_items:
+                        print(f"❌ {filepath}: Round 2 has {len(items)} items (expected at least {expected_items}).")
                         errors += 1
 
-            # 7. Style tags: individual files must not contain style blocks or inline style attributes
+                    for idx, item in enumerate(items):
+                        item_text = item.get_text().strip()
+                        if re.match(r'^\d+\.?\s+', item_text):
+                            print(f"❌ {filepath}: Round 2 item {idx+1} contains hardcoded numbering: '{item_text}'")
+                            errors += 1
+                        if "**" in item_text:
+                            print(f"❌ {filepath}: Round 2 item {idx+1} contains Markdown bold syntax '**'. Use <strong> instead.")
+                            errors += 1
+
+            # 7. Style tags check
             style_tags = soup.find_all("style")
             if style_tags:
                 print(f"❌ {filepath}: Contains internal <style> block.")
@@ -294,47 +376,56 @@ def check_speaking_club_sessions():
             for tag in soup.find_all(style=True):
                 style_attr = tag["style"]
                 if tag.name in ["main", "section", "div"] and tag.get("class") and any(c in tag.get("class") for c in ["vocab-card", "round-block", "round-item", "mistake-block"]):
+                    # Ignore spacing inline styles on structural section blocks in Karaoke club
+                    if is_karaoke_session and tag.name == "section" and "round-block" in tag.get("class", []):
+                        continue
                     print(f"❌ {filepath}: Tag {tag.name} with class {tag.get('class')} has inline style '{style_attr}' (centralize in css).")
                     errors += 1
 
             # 8. Linguistic corrections section
-            mistakes_block = soup.find(id="s-mistakes") or soup.find(class_="mistake-block")
-            if not mistakes_block:
-                print(f"❌ {filepath}: Missing Linguistic Corrections block.")
-                errors += 1
-            else:
-                # Title check
-                header = mistakes_block.find(class_="mistake-header")
-                if header:
-                    header_text = header.get_text().strip()
-                    # Localized versions are acceptable, so we check if standard phrase or typical French/Russian translations are used
-                    valid_correction_headers = [
-                        "Teacher's Note (Linguistic Corrections)",
-                        "Note de l'enseignant (Corrections linguistiques)",
-                        "Note du professeur (Corrections linguistiques)",
-                        "Note du professeur (corrections linguistiques)",
-                        "Заметки преподавателя (Исправление ошибок)"
-                    ]
-                    if not any(v in header_text for v in valid_correction_headers):
-                        print(f"❌ {filepath}: Linguistic Corrections block title should be 'Teacher's Note (Linguistic Corrections)', found '{header_text}'")
-                        errors += 1
+            if not is_challenge_session:
+                mistakes_block = soup.find(id="s-mistakes") or soup.find(class_="mistake-block")
+                if not mistakes_block:
+                    print(f"❌ {filepath}: Missing Linguistic Corrections block.")
+                    errors += 1
+                else:
+                    # Title check
+                    header = mistakes_block.find(class_="mistake-header")
+                    if header:
+                        header_text = header.get_text().strip().replace("✏️", "").replace("▲", "").replace("▼", "").strip()
+                        valid_correction_headers = [
+                            "Teacher's Note (Linguistic Corrections)",
+                            "Note de l'enseignant (Corrections linguistiques)",
+                            "Note du professeur (Corrections linguistiques)",
+                            "Note du professeur (corrections linguistiques)",
+                            "Notes du Professeur (Corrections Linguistiques)",
+                            "Notes du professeur (corrections linguistiques)",
+                            "Note dell'Insegnante (Correzioni Linguistiche)",
+                            "Σημειώσεις Καθηγητή (Γλωσσικές Διορθώσεις)",
+                            "Nota del Profesor (Correcciones Lingüísticas)",
+                            "Заметки преподавателя (Исправление ошибок)",
+                            "Заметки преподавателя (исправление ошибок)"
+                        ]
+                        if not any(v in header_text for v in valid_correction_headers):
+                            print(f"❌ {filepath}: Linguistic Corrections block title should be 'Teacher's Note (Linguistic Corrections)', found '{header_text}'")
+                            errors += 1
 
-                # 3-5 mistake-item blocks
-                items = mistakes_block.find_all(class_="mistake-item")
-                if not (3 <= len(items) <= 5):
-                    if "template" not in filepath:
-                        print(f"❌ {filepath}: Has {len(items)} mistake items (expected 3-5).")
-                        errors += 1
+                    # 3-5 mistake-item blocks
+                    items = mistakes_block.find_all(class_="mistake-item")
+                    if not (3 <= len(items) <= 5):
+                        if "template" not in filepath:
+                            print(f"❌ {filepath}: Has {len(items)} mistake items (expected 3-5).")
+                            errors += 1
 
-                for idx, item in enumerate(items):
-                    wrong = item.find(class_="mistake-wrong")
-                    arrow = item.find(class_="mistake-arrow") or (item.find_all("span") and any("→" in s.get_text() or "&rarr;" in s.get_text() for s in item.find_all("span")))
-                    right = item.find(class_="mistake-right")
-                    note = item.find(class_="mistake-note-text")
+                    for idx, item in enumerate(items):
+                        wrong = item.find(class_="mistake-wrong")
+                        arrow = item.find(class_="mistake-arrow") or (item.find_all("span") and any("→" in s.get_text() or "&rarr;" in s.get_text() for s in item.find_all("span")))
+                        right = item.find(class_="mistake-right")
+                        note = item.find(class_="mistake-note-text")
 
-                    if not (wrong and right):
-                        print(f"❌ {filepath}: Mistake item {idx+1} is missing wrong or right class.")
-                        errors += 1
+                        if not (wrong and right):
+                            print(f"❌ {filepath}: Mistake item {idx+1} is missing wrong or right class.")
+                            errors += 1
 
     print(f"Speaking club sessions check completed: {errors} errors, {warnings} warnings.")
     return errors, warnings

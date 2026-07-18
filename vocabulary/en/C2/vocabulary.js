@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "en";
     const data = [
     {
         "id": "en_proficiency_psychology_001",
@@ -1049,5 +1050,5 @@
     }
 ];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData['en'] = [...(window.vocabularyData['en'] || []), ...data];
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

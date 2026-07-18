@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "it";
     const data = [
     {
         "id": "it_intermediate_places_013",
@@ -1247,7 +1248,7 @@
         "word": "elefante",
         "lang": "it",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "environment",
         "form": "noun",
         "definitions": [
             {
@@ -1270,7 +1271,7 @@
         "word": "scimmia",
         "lang": "it",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "environment",
         "form": "noun",
         "definitions": [
             {
@@ -1300,5 +1301,5 @@
     }
 ];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData['it'] = [...(window.vocabularyData['it'] || []), ...data];
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

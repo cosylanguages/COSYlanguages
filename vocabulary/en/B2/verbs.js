@@ -24,7 +24,7 @@ const data = [
         "v4": "analysing",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -51,7 +51,7 @@ const data = [
         "v4": "assessing",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -78,7 +78,7 @@ const data = [
         "v4": "examining",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -105,7 +105,7 @@ const data = [
         "v4": "evaluating",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -132,7 +132,7 @@ const data = [
         "v4": "investigating",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -159,7 +159,7 @@ const data = [
         "v4": "interpreting",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -186,7 +186,7 @@ const data = [
         "v4": "measuring",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -213,7 +213,7 @@ const data = [
         "v4": "determining",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -240,7 +240,7 @@ const data = [
         "v4": "identifying",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -267,7 +267,7 @@ const data = [
         "v4": "distinguishing",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -807,7 +807,7 @@ const data = [
         "v4": "generating",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
+        "theme": "work",
         "sub_theme": null
     },
     {
@@ -834,7 +834,7 @@ const data = [
         "v4": "redistributing",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
+        "theme": "work",
         "sub_theme": null
     },
     {
@@ -861,7 +861,7 @@ const data = [
         "v4": "fluctuating",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
+        "theme": "work",
         "sub_theme": null
     },
     {
@@ -888,7 +888,7 @@ const data = [
         "v4": "stimulating",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
+        "theme": "work",
         "sub_theme": null
     },
     {
@@ -915,7 +915,7 @@ const data = [
         "v4": "investing",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
+        "theme": "work",
         "sub_theme": null
     },
     {
@@ -942,7 +942,7 @@ const data = [
         "v4": "acquiring",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
+        "theme": "work",
         "sub_theme": null
     },
     {
@@ -969,7 +969,7 @@ const data = [
         "v4": "depreciating",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
+        "theme": "work",
         "sub_theme": null
     },
     {
@@ -996,7 +996,7 @@ const data = [
         "v4": "diversifying",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
+        "theme": "work",
         "sub_theme": null
     },
     {

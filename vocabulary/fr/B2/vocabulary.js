@@ -6,7 +6,7 @@
 
         "transcription": "psikɔlɔɡ",
         "level": "upper_intermediate",
-        "theme": "health_society",
+        "theme": "health_medicine",
         "article": "le",
         "emoji": "🧠",
         "form": "noun", "classification": "regular",
@@ -47,7 +47,7 @@
 
         "transcription": "ɛ̃sitasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
+        "theme": "work",
         "article": "l'",
         "emoji": "🥕",
         "form": "noun", "classification": "regular",
@@ -68,7 +68,7 @@
 
         "transcription": "otɔnɔmi",
         "level": "upper_intermediate",
-        "theme": "employment_law_rights",
+        "theme": "work",
         "article": "l'",
         "emoji": "🔓",
         "form": "noun", "classification": "regular",
@@ -91,7 +91,7 @@
 
         "transcription": "pʁekaʁite",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
+        "theme": "work",
         "article": "la",
         "emoji": "🧗",
         "form": "noun", "classification": "regular",
@@ -113,7 +113,7 @@
 
         "transcription": "ekaʁ də ʁemyneʁasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "gender_equality",
+        "theme": "people",
         "article": "l'",
         "emoji": "⚖️📉",
         "form": "noun phrase",
@@ -134,7 +134,7 @@
 
         "transcription": "pʁim də lisɑ̃sijmɑ̃",
         "level": "upper_intermediate",
-        "theme": "employment_law_rights",
+        "theme": "work",
         "article": "la",
         "emoji": "📦",
         "form": "noun phrase",
@@ -156,7 +156,7 @@
 
         "transcription": "ɑ̃tʁəpʁənəʁija",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
+        "theme": "work",
         "article": "l'",
         "emoji": "💡",
         "form": "noun", "classification": "regular",
@@ -177,7 +177,7 @@
 
         "transcription": "pʁɔdyktivite",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
+        "theme": "work",
         "article": "la",
         "emoji": "⚡",
         "form": "noun", "classification": "regular",
@@ -199,7 +199,7 @@
 
         "transcription": "ɛkstɛʁnalizasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "globalisation_trade",
+        "theme": "work",
         "article": "l'",
         "emoji": "🌐",
         "form": "noun", "classification": "regular",
@@ -221,7 +221,7 @@
 
         "transcription": "ɔtɔmatizasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "applied_sciences_engineering",
+        "theme": "technology",
         "article": "l'",
         "emoji": "🤖",
         "form": "noun", "classification": "regular",
@@ -242,7 +242,7 @@
 
         "transcription": "dʒɛntʁifikasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "housing_society",
+        "theme": "furniture",
         "article": "la",
         "emoji": "🏘️📈",
         "form": "noun", "classification": "regular",
@@ -264,7 +264,7 @@
 
         "transcription": "lɔʒmɑ̃ abɔʁdabl",
         "level": "upper_intermediate",
-        "theme": "housing_society",
+        "theme": "furniture",
         "article": "le",
         "emoji": "🏠💰",
         "form": "noun phrase",
@@ -286,7 +286,7 @@
 
         "transcription": "etalmɑ̃ yʁbɛ̃",
         "level": "upper_intermediate",
-        "theme": "housing_society",
+        "theme": "furniture",
         "article": "l'",
         "emoji": "🏙️↔️",
         "form": "noun phrase",
@@ -482,7 +482,7 @@
 
         "transcription": "ɔbezite",
         "level": "upper_intermediate",
-        "theme": "health_society",
+        "theme": "health_medicine",
         "article": "l'",
         "emoji": "⚖️⬆️",
         "form": "noun", "classification": "regular",
@@ -504,7 +504,7 @@
 
         "transcription": "ɛspeʁɑ̃s də vi",
         "level": "upper_intermediate",
-        "theme": "health_society",
+        "theme": "health_medicine",
         "article": "l'",
         "emoji": "⏳👴",
         "form": "noun phrase",
@@ -547,7 +547,7 @@
 
         "transcription": "ʁeɛ̃sɛʁsjɔ̃",
         "level": "upper_intermediate",
-        "theme": "crime_punishment",
+        "theme": "social",
         "article": "la",
         "emoji": "🔄🏢",
         "form": "noun", "classification": "regular",
@@ -590,7 +590,7 @@
 
         "transcription": "alɡɔʁitm",
         "level": "upper_intermediate",
-        "theme": "technology_privacy",
+        "theme": "technology",
         "article": "l'",
         "emoji": "💻",
         "form": "noun", "classification": "regular",
@@ -611,7 +611,7 @@
 
         "transcription": "kɔ̃fidɑ̃sijalite de dɔne",
         "level": "upper_intermediate",
-        "theme": "technology_privacy",
+        "theme": "technology",
         "article": "la",
         "emoji": "🔒",
         "form": "noun phrase",
@@ -633,7 +633,7 @@
 
         "transcription": "dezɛ̃fɔʁmasjɔ̃",
         "level": "upper_intermediate",
-        "theme": "media_misinformation",
+        "theme": "technology",
         "article": "la",
         "emoji": "🤥",
         "form": "noun", "classification": "regular",
@@ -654,7 +654,7 @@
 
         "transcription": "syʁvɛjɑ̃s",
         "level": "upper_intermediate",
-        "theme": "technology_privacy",
+        "theme": "technology",
         "article": "la",
         "emoji": "📹",
         "form": "noun", "classification": "regular",
@@ -753,7 +753,7 @@
 
         "transcription": "ɛ̃tɛliʒɑ̃s aʁtifisjɛl",
         "level": "upper_intermediate",
-        "theme": "technology_privacy",
+        "theme": "technology",
         "article": "l'",
         "emoji": "🤖",
         "form": "noun phrase",

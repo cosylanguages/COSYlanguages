@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "fr";
     const data = [
     {
         "id": "fr_intermediate_places_013",
@@ -1198,7 +1199,7 @@
         "word": "éléphant",
         "lang": "fr",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "environment",
         "form": "noun",
         "definitions": [
             {
@@ -1221,7 +1222,7 @@
         "word": "singe",
         "lang": "fr",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "environment",
         "form": "noun",
         "definitions": [
             {
@@ -1244,7 +1245,7 @@
         "word": "algorithme",
         "lang": "fr",
         "level": "intermediate",
-        "theme": "science_tech",
+        "theme": "technology",
         "form": "noun",
         "definitions": [
             {
@@ -1274,5 +1275,5 @@
     }
 ];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData['fr'] = [...(window.vocabularyData['fr'] || []), ...data];
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

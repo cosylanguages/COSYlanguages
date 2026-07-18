@@ -20,7 +20,7 @@
         "antonyms": ["inaccurate"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -89,7 +89,7 @@
         "antonyms": ["trivial"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -227,7 +227,7 @@
         "antonyms": ["pointless"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -250,7 +250,7 @@
         "antonyms": ["sensible"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -273,7 +273,7 @@
         "antonyms": ["sensible"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -411,7 +411,7 @@
         "antonyms": ["doubtful"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
@@ -687,7 +687,7 @@
         "antonyms": ["timid"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "identity_self_concept",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -710,7 +710,7 @@
         "antonyms": ["incapable"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "identity_self_concept",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -756,7 +756,7 @@
         "antonyms": ["honest"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "identity_self_concept",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -779,7 +779,7 @@
         "antonyms": ["arrogant"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "identity_self_concept",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -802,7 +802,7 @@
         "antonyms": ["flexible"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "identity_self_concept",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -825,7 +825,7 @@
         "antonyms": ["selfless"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "identity_self_concept",
+        "theme": "people",
         "sub_theme": null
     },
     {
@@ -1262,7 +1262,7 @@
         "antonyms": ["irrational"],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "critical_thinking",
+        "theme": "psychology",
         "sub_theme": null
     },
     {
