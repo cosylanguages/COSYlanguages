@@ -29,7 +29,7 @@
   </nav>
   <a href="../karaoke-club.html" class="back-link">← Вернуться в клуб</a>
   <div class="session-meta-grid">
-    <div class="meta-item"><h4>Длительность</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Длительность</h4><p>90–120 minutes</p></div>
     <div class="meta-item"><h4>Язык</h4><p>Русский</p></div>
     <div class="meta-item"><h4>Уровень</h4><p>Средний (B1)</p></div>
     <div class="meta-item"><h4>Тема</h4><p>Мечтать за пределами возможного</p></div>
@@ -37,86 +37,117 @@
       <a href="https://www.youtube.com/watch?v=8mlxM56hrjI" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
       <a href="https://www.youtube.com/watch?v=8mlxM56hrjI" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
     </p></div>
-  </div>
-  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Разберите прекрасную песню 'выше домов' исполнителя Сироткин на Русский. Эта сессия посвящена изучению лексики по теме 'Мечтать за пределами возможного' и ключевых грамматических структур. Студенты будут практиковать разговорную речь и обсуждать заложенный смысл.</p>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
   </div>
 
-  <!-- COLLAPSIBLE VOCABULARY SECTION -->
-  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
-    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
-      <span>📖 Словарь сессии</span><span class="round-toggle">▲</span>
-    </div>
-    <div class="round-body" style="display:block; padding-top: 1.5rem;">
-      <div class="vocab-grid-10">
-            <div class="vocab-card"><div class="vocab-word">Высота (она)</div><div class="vocab-def">пространство, находящееся высоко над землей.</div><div class="vocab-example">Самолёт набрал огромную высоту за несколько минут.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Высота (она)', definition:'пространство, находящееся высоко над землей.', example:'Самолёт набрал огромную высоту за несколько минут.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Дом (он)</div><div class="vocab-def">здание, жилое помещение, семейный очаг.</div><div class="vocab-example">Мы вернулись в наш уютный загородный дом вечером.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Дом (он)', definition:'здание, жилое помещение, семейный очаг.', example:'Мы вернулись в наш уютный загородный дом вечером.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Полёт (он)</div><div class="vocab-def">процесс движения в воздухе.</div><div class="vocab-example">Полёт птицы в ясном небе выглядел очень грациозно.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Полёт (он)', definition:'процесс движения в воздухе.', example:'Полёт птицы в ясном небе выглядел очень грациозно.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Мечта (она)</div><div class="vocab-def">заветное желание, предмет стремлений.</div><div class="vocab-example">Его главная мечта — поехать в кругосветное путешествие.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Мечта (она)', definition:'заветное желание, предмет стремлений.', example:'Его главная мечта — поехать в кругосветное путешествие.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Свобода (она)</div><div class="vocab-def">независимость, отсутствие ограничений.</div><div class="vocab-example">Каждый человек имеет право на личную свободу.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Свобода (она)', definition:'независимость, отсутствие ограничений.', example:'Каждый человек имеет право на личную свободу.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Юность (она)</div><div class="vocab-def">период жизни между детством и зрелостью.</div><div class="vocab-example">В юности мы совершаем много безумных и ярких поступков.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Юность (она)', definition:'период жизни между детством и зрелостью.', example:'В юности мы совершаем много безумных и ярких поступков.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Ветер (он)</div><div class="vocab-def">движение воздуха в горизонтальном направлении.</div><div class="vocab-example">Холодный ветер с моря дул нам прямо в лицо.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ветер (он)', definition:'движение воздуха в горизонтальном направлении.', example:'Холодный ветер с моря дул нам прямо в лицо.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Город (он)</div><div class="vocab-def">крупный населенный пункт.</div><div class="vocab-example">Этот старинный европейский город очаровал нас сразу.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Город (он)', definition:'крупный населенный пункт.', example:'Этот старинный европейский город очаровал нас сразу.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Небо (оно)</div><div class="vocab-def">пространство над землей, атмосфера.</div><div class="vocab-example">Ночное небо было усыпано миллионами ярких звёзд.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Небо (оно)', definition:'пространство над землей, атмосфера.', example:'Ночное небо было усыпано миллионами ярких звёзд.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Взгляд (он)</div><div class="vocab-def">направление глаз, выражение глаз.</div><div class="vocab-example">Ее добрый взгляд сразу внушил мне доверие.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Взгляд (он)', definition:'направление глаз, выражение глаз.', example:'Ее добрый взгляд сразу внушил мне доверие.'}, this)">+ Dictionary</button></div>
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Тема: Мечтать за пределами возможного</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Мы обсудим:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Высота (она)</li>
+      <li>Дом (он)</li>
+      <li>Полёт (он)</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
 
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (20%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (10%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Этап 1: Разминка</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>Насколько важна тема этого обсуждения в вашей повседневной жизни?</li>
+            <li>Посмотрите на название 'выше домов' и исполнителя 'Сироткин'. Как вы думаете, о чем будет эта песня? (Вопрос-предсказание)</li>
+            <li>Какие эмоции вызывает у вас такой стиль музыки?</li>
+        </ul>
       </div>
     </div>
-  </section>
 
-  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
-    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
-      <span>🎵 Упражнение на аудирование и заполнение пропусков</span><span class="round-toggle">▲</span>
-    </div>
-    <div class="round-body" style="display:block; padding-top: 1.5rem;">
-      <div class="vim-instruction">
-        <strong>Активное аудирование:</strong> Слушайте песню, используя ссылку выше, и заполняйте пропуски. Пропущенные слова выбраны из ключевой лексики, словосочетаний и грамматических конструкций этой сессии.
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Этап 2: Словарь</span><span class="round-toggle">▲</span>
       </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Ключевые понятия и чувства</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Высота (она)</div><div class="vocab-def">пространство, находящееся высоко над землей.</div><div class="vocab-example">Самолёт набрал огромную высоту за несколько минут.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Антоним :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Низменность (она)</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Высота (она)', definition:'пространство, находящееся высоко над землей.', example:'Самолёт набрал огромную высоту за несколько минут.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Дом (он)</div><div class="vocab-def">здание, жилое помещение, семейный очаг.</div><div class="vocab-example">Мы вернулись в наш уютный загородный дом вечером.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Антоним :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Чужбина (она)</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Дом (он)', definition:'здание, жилое помещение, семейный очаг.', example:'Мы вернулись в наш уютный загородный дом вечером.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Полёт (он)</div><div class="vocab-def">процесс движения в воздухе.</div><div class="vocab-example">Полёт птицы в ясном небе выглядел очень грациозно.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Антоним :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Падение (оно)</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Полёт (он)', definition:'процесс движения в воздухе.', example:'Полёт птицы в ясном небе выглядел очень грациозно.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Мечта (она)</div><div class="vocab-def">заветное желание, предмет стремлений.</div><div class="vocab-example">Его главная мечта — поехать в кругосветное путешествие.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Антоним :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Реальность (она)</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Мечта (она)', definition:'заветное желание, предмет стремлений.', example:'Его главная мечта — поехать в кругосветное путешествие.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Свобода (она)</div><div class="vocab-def">независимость, отсутствие ограничений.</div><div class="vocab-example">Каждый человек имеет право на личную свободу.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Антоним :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Зависимость (она)</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Свобода (она)', definition:'независимость, отсутствие ограничений.', example:'Каждый человек имеет право на личную свободу.'}, this)">+ Dictionary</button></div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Жизнь, действия и связи</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Юность (она)</div><div class="vocab-def">период жизни между детством и зрелостью.</div><div class="vocab-example">В юности мы совершаем много безумных и ярких поступков.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Антоним :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Старость (она)</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Юность (она)', definition:'период жизни между детством и зрелостью.', example:'В юности мы совершаем много безумных и ярких поступков.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Ветер (он)</div><div class="vocab-def">движение воздуха в горизонтальном направлении.</div><div class="vocab-example">Холодный ветер с моря дул нам прямо в лицо.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Антоним :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Штиль (он)</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ветер (он)', definition:'движение воздуха в горизонтальном направлении.', example:'Холодный ветер с моря дул нам прямо в лицо.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Город (он)</div><div class="vocab-def">крупный населенный пункт.</div><div class="vocab-example">Этот старинный европейский город очаровал нас сразу.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Антоним :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Деревня (она)</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Город (он)', definition:'крупный населенный пункт.', example:'Этот старинный европейский город очаровал нас сразу.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Небо (оно)</div><div class="vocab-def">пространство над землей, атмосфера.</div><div class="vocab-example">Ночное небо было усыпано миллионами ярких звёзд.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Небо (оно)', definition:'пространство над землей, атмосфера.', example:'Ночное небо было усыпано миллионами ярких звёзд.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Взгляд (он)</div><div class="vocab-def">направление глаз, выражение глаз.</div><div class="vocab-example">Ее добрый взгляд сразу внушил мне доверие.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Антоним :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Слепота (она)</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Взгляд (он)', definition:'направление глаз, выражение глаз.', example:'Ее добрый взгляд сразу внушил мне доверие.'}, this)">+ Dictionary</button></div>
+        </div>
+      </div>
+    </div>
 
-      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Вспомогательный банк слов:</h3>
-        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Этап 3: Аудирование</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Вспомогательный банк слов:</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">высота</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">дом</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">полёт</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">мечта</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">свобода</span>
-
+          </div>
         </div>
-      </div>
 
-      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Полный текст песни</h3>
-        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Выше домов мы летим над землёй<br>Оставляя весь мир за собой<br>Нас манит эта [__________] ночная<br>И простор без конца и края<br><br>Каждый [__________] внизу светится огнями<br>Пока совершается наш [__________] с вами<br>Сбывается наша заветная [__________]<br>Дарящая нам полную [__________]</p>
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Выше домов мы летим над землёй<br>Оставляя весь мир за собой<br>Нас манит эта [__________] ночная<br>И простор без конца и края<br><br>Каждый [__________] внизу светится огнями<br>Пока совершается наш [__________] с вами<br>Сбывается наша заветная [__________]<br>Дарящая нам полную [__________]</p>
+        </div>
       </div>
     </div>
-  </section>
 
-  <!-- DISCUSSION STRUCTURE -->
-  <section id="structure">
-    <h2 class="section-title">🎙️ Структура обсуждения</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Разминка</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Поделитесь вашими мыслями о творчестве исполнителя и настроении песни.</div>
-          <ul class="round-questions">
-            <li>Слушали ли вы когда-нибудь 'выше домов' до этого дня?</li>
-            <li>Какие эмоции вызывает у вас эта музыкальная композиция?</li>
-
-          </ul>
-        </div>
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Этап 4: Обсуждение</span><span class="round-toggle">▲</span>
       </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Раунд 1 — Обсуждение лирики</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Questions</div>
-          <div class="vim-instruction">Проанализируйте ключевые строки песни и практикуйте разговорную речь с целевой лексикой.</div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
           <div class="round-item"><div class="round-item-main">Как понятие <strong>высота (она)</strong> отражается в сюжете и лирике 'выше домов'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>высота (она)</strong> в реальной жизни?</div></div>
           <div class="round-item"><div class="round-item-main">Как понятие <strong>дом (он)</strong> отражается в сюжете и лирике 'выше домов'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>дом (он)</strong> в реальной жизни?</div></div>
           <div class="round-item"><div class="round-item-main">Как понятие <strong>полёт (он)</strong> отражается в сюжете и лирике 'выше домов'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>полёт (он)</strong> в реальной жизни?</div></div>
@@ -127,28 +158,9 @@
           <div class="round-item"><div class="round-item-main">Как понятие <strong>город (он)</strong> отражается в сюжете и лирике 'выше домов'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>город (он)</strong> в реальной жизни?</div></div>
           <div class="round-item"><div class="round-item-main">Как понятие <strong>небо (оно)</strong> отражается в сюжете и лирике 'выше домов'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>небо (оно)</strong> в реальной жизни?</div></div>
           <div class="round-item"><div class="round-item-main">Как понятие <strong>взгляд (он)</strong> отражается в сюжете и лирике 'выше домов'?</div><div class="round-item-personal">★ Насколько для вас важно понятие <strong>взгляд (он)</strong> в реальной жизни?</div></div>
-
         </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Визуальный контраст: акустическое исполнение на гитаре против грандиозного стадионного концерта.</p>
-          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
-          </div>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Раунд 2 — Глубокий анализ и дебаты</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Debate</div>
-          <div class="vim-instruction">Оцените эти философские утверждения, вдохновленные темами песни.</div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
           <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>высота (она)</strong> становится всё труднее.</div></div>
           <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>дом (он)</strong> становится всё труднее.</div></div>
           <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>полёт (он)</strong> становится всё труднее.</div></div>
@@ -159,14 +171,49 @@
           <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>город (он)</strong> становится всё труднее.</div></div>
           <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>небо (оно)</strong> становится всё труднее.</div></div>
           <div class="round-item"><div class="round-item-main">В современном цифровом мире сохранить истинное значение <strong>взгляд (он)</strong> становится всё труднее.</div></div>
-
         </div>
       </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Заметки преподавателя (исправление ошибок)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Этап 5: Языковой фокус</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Глаголы направления и движения</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Глаголы движения, такие как 'лететь' и 'идти', используются для описания физического или метафорического пути.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Мы летим над ночным городом навстречу мечте.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Она идет по тихой улице, вспоминая детство.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Ветер дует прямо в лицо, но мы продолжаем полет.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Этап 6: Финальный вызов</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Представьте продолжение этой песни: разыграйте по ролям разговор между главными героями 5 лет спустя.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Заметки преподавателя (исправление ошибок)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
           <div class="mistake-item">
             <span class="mistake-wrong">Я скучаю <span class="mistake-highlight">за</span> своей родиной</span>
             <span class="mistake-arrow">→</span>
@@ -185,11 +232,9 @@
             <span class="mistake-right">Мы встретились в прошлый понедельник</span>
             <span class="mistake-note-text">(Это правильно, но избегайте использования предлогов там, где они не нужны.)</span>
           </div>
-
-        </div>
       </div>
     </div>
-  </section>
+  </div>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">

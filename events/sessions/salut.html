@@ -29,7 +29,7 @@
   </nav>
   <a href="../karaoke-club.html" class="back-link">← Retour au club</a>
   <div class="session-meta-grid">
-    <div class="meta-item"><h4>Durée</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Durée</h4><p>90–120 minutes</p></div>
     <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
     <div class="meta-item"><h4>Niveau</h4><p>Débutant (A2)</p></div>
     <div class="meta-item"><h4>Thème</h4><p>Retrouver le passé</p></div>
@@ -37,86 +37,110 @@
       <a href="https://www.youtube.com/watch?v=CSh3MCOiiCs" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
       <a href="https://www.youtube.com/watch?v=CSh3MCOiiCs" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
     </p></div>
-  </div>
-  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Explorez le magnifique titre 'salut' de Joe Dassin en Français. Cette session se concentre sur le vocabulaire de 'Retrouver le passé' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
   </div>
 
-  <!-- COLLAPSIBLE VOCABULARY SECTION -->
-  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
-    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
-      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
-    </div>
-    <div class="round-body" style="display:block; padding-top: 1.5rem;">
-      <div class="vocab-grid-10">
-            <div class="vocab-card"><div class="vocab-word">Le salut</div><div class="vocab-def">action de saluer, de dire bonjour ou adieu.</div><div class="vocab-example">Il a fait un geste de salut de la main avant de partir.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le salut', definition:'action de saluer, de dire bonjour ou adieu.', example:'Il a fait un geste de salut de la main avant de partir.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Le retour</div><div class="vocab-def">action de revenir à son point de départ.</div><div class="vocab-example">Son retour au pays a été célébré par toute sa famille.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le retour', definition:'action de revenir à son point de départ.', example:'Son retour au pays a été célébré par toute sa famille.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">La nostalgie</div><div class="vocab-def">regret mélancolique d'un état ou d'un pays perdu.</div><div class="vocab-example">La nostalgie de son enfance l'inspire dans son écriture.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La nostalgie', definition:'regret mélancolique d\'un état ou d\'un pays perdu.', example:'La nostalgie de son enfance l\'inspire dans son écriture.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Le temps</div><div class="vocab-def">durée mesurable, météo.</div><div class="vocab-example">Le temps passe si vite quand on s'amuse ensemble.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le temps', definition:'durée mesurable, météo.', example:'Le temps passe si vite quand on s\'amuse ensemble.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Le café</div><div class="vocab-def">boisson chaude ou établissement où l'on boit.</div><div class="vocab-example">Prendre un bon café le matin est son rituel quotidien.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le café', definition:'boisson chaude ou établissement où l\'on boit.', example:'Prendre un bon café le matin est son rituel quotidien.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Retrouver</div><div class="vocab-def">revenir en possession de ce qu'on avait perdu.</div><div class="vocab-example">Elle est ravie de retrouver ses anciens camarades.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Retrouver', definition:'revenir en possession de ce qu\'on avait perdu.', example:'Elle est ravie de retrouver ses anciens camarades.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Changer</div><div class="vocab-def">rendre différent, modifier profondément.</div><div class="vocab-example">Il a décidé de changer de carrière pour être plus heureux.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Changer', definition:'rendre différent, modifier profondément.', example:'Il a décidé de changer de carrière pour être plus heureux.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Le souvenir</div><div class="vocab-def">survivance d'une impression passée dans la mémoire.</div><div class="vocab-example">Ce voyage restera un magnifique souvenir pour nous tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le souvenir', definition:'survivance d\'une impression passée dans la mémoire.', example:'Ce voyage restera un magnifique souvenir pour nous tous.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">L'ami</div><div class="vocab-def">personne avec qui l'on est lié par l'amitié.</div><div class="vocab-example">Un ami fidèle est un trésor précieux dans la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'ami', definition:'personne avec qui l\'on est lié par l\'amitié.', example:'Un ami fidèle est un trésor précieux dans la vie.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">La gare</div><div class="vocab-def">lieu d'arrêt des trains pour les voyageurs.</div><div class="vocab-example">Elle l'attend patiemment sur le quai de la gare.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La gare', definition:'lieu d\'arrêt des trains pour les voyageurs.', example:'Elle l\'attend patiemment sur le quai de la gare.'}, this)">+ Dictionary</button></div>
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Thème: Retrouver le passé</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Nous allons discuter de:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Salut</li>
+      <li>Retour</li>
+      <li>Nostalgie</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
 
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (20%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (10%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Étape 1 : Échauffement</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>Quelle est l'importance de ce thème de discussion dans votre vie quotidienne ?</li>
+            <li>Regardez le titre 'salut' et l'artiste 'Joe Dassin'. Selon vous, de quoi parle cette chanson ? (Question de prédiction)</li>
+            <li>Quelles émotions ou quels sentiments ce style de musique vous inspire-t-il ?</li>
+        </ul>
       </div>
     </div>
-  </section>
 
-  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
-    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
-      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
-    </div>
-    <div class="round-body" style="display:block; padding-top: 1.5rem;">
-      <div class="vim-instruction">
-        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Étape 2 : Vocabulaire</span><span class="round-toggle">▲</span>
       </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concepts clés & Émotions</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le salut</div><div class="vocab-def">action de saluer, de dire bonjour ou adieu.</div><div class="vocab-example">Il a fait un geste de salut de la main avant de partir.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le salut', definition:'action de saluer, de dire bonjour ou adieu.', example:'Il a fait un geste de salut de la main avant de partir.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le retour</div><div class="vocab-def">action de revenir à son point de départ.</div><div class="vocab-example">Son retour au pays a été célébré par toute sa famille.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le retour', definition:'action de revenir à son point de départ.', example:'Son retour au pays a été célébré par toute sa famille.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La nostalgie</div><div class="vocab-def">regret mélancolique d'un état ou d'un pays perdu.</div><div class="vocab-example">La nostalgie de son enfance l'inspire dans son écriture.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La nostalgie', definition:'regret mélancolique d\'un état ou d\'un pays perdu.', example:'La nostalgie de son enfance l\'inspire dans son écriture.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le temps</div><div class="vocab-def">durée mesurable, météo.</div><div class="vocab-example">Le temps passe si vite quand on s'amuse ensemble.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le temps', definition:'durée mesurable, météo.', example:'Le temps passe si vite quand on s\'amuse ensemble.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le café</div><div class="vocab-def">boisson chaude ou établissement où l'on boit.</div><div class="vocab-example">Prendre un bon café le matin est son rituel quotidien.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le café', definition:'boisson chaude ou établissement où l\'on boit.', example:'Prendre un bon café le matin est son rituel quotidien.'}, this)">+ Dictionary</button></div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vie, Actions & Connexion</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Retrouver</div><div class="vocab-def">revenir en possession de ce qu'on avait perdu.</div><div class="vocab-example">Elle est ravie de retrouver ses anciens camarades.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contraire :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Perdre</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Retrouver', definition:'revenir en possession de ce qu\'on avait perdu.', example:'Elle est ravie de retrouver ses anciens camarades.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Changer</div><div class="vocab-def">rendre différent, modifier profondément.</div><div class="vocab-example">Il a décidé de changer de carrière pour être plus heureux.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contraire :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Conserver</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Changer', definition:'rendre différent, modifier profondément.', example:'Il a décidé de changer de carrière pour être plus heureux.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le souvenir</div><div class="vocab-def">survivance d'une impression passée dans la mémoire.</div><div class="vocab-example">Ce voyage restera un magnifique souvenir pour nous tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le souvenir', definition:'survivance d\'une impression passée dans la mémoire.', example:'Ce voyage restera un magnifique souvenir pour nous tous.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'ami</div><div class="vocab-def">personne avec qui l'on est lié par l'amitié.</div><div class="vocab-example">Un ami fidèle est un trésor précieux dans la vie.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'ami', definition:'personne avec qui l\'on est lié par l\'amitié.', example:'Un ami fidèle est un trésor précieux dans la vie.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La gare</div><div class="vocab-def">lieu d'arrêt des trains pour les voyageurs.</div><div class="vocab-example">Elle l'attend patiemment sur le quai de la gare.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La gare', definition:'lieu d\'arrêt des trains pour les voyageurs.', example:'Elle l\'attend patiemment sur le quai de la gare.'}, this)">+ Dictionary</button></div>
+        </div>
+      </div>
+    </div>
 
-      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Étape 3 : Écoute</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">salut</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">café</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">souvenir</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">changer</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">gare</span>
-
+          </div>
         </div>
-      </div>
 
-      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Salut, c'est encore moi<br>Salut, comment tu vas ?<br>Le temps m'a paru très long<br>Loin de la maison<br><br>Je t'apporte un vieux [__________]<br>Pour fêter le retour<br>On va prendre un bon [__________]<br>Et parler d'amour<br><br>Rien n'a l'air d'avoir [__________]<br>Dans ce petit quartier<br>La vieille dame de la [__________]<br>Continue de chanter<br><br>Un petit bonjour, un [__________]<br>Pour oublier les larmes<br>C'est un beau [__________] d'amitié<br>Qui réchauffe les âmes</p>
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Salut, c'est encore moi<br>Salut, comment tu vas ?<br>Le temps m'a paru très long<br>Loin de la maison<br><br>Je t'apporte un vieux [__________]<br>Pour fêter le retour<br>On va prendre un bon [__________]<br>Et parler d'amour<br><br>Rien n'a l'air d'avoir [__________]<br>Dans ce petit quartier<br>La vieille dame de la [__________]<br>Continue de chanter<br><br>Un petit bonjour, un [__________]<br>Pour oublier les larmes<br>C'est un beau [__________] d'amitié<br>Qui réchauffe les âmes</p>
+        </div>
       </div>
     </div>
-  </section>
 
-  <!-- DISCUSSION STRUCTURE -->
-  <section id="structure">
-    <h2 class="section-title">🎙️ Structure de discussion</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Présentez brièvement vos impressions sur la chanson et chantez avec les premières mélodies.</div>
-          <ul class="round-questions">
-            <li>Aviez-vous déjà écouté 'salut' avant cette session ?</li>
-            <li>Quel type d'émotions cette musique vous inspire-t-elle ?</li>
-
-          </ul>
-        </div>
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Étape 4 : Discussion</span><span class="round-toggle">▲</span>
       </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — Discussion des paroles</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Questions</div>
-          <div class="vim-instruction">Analysez les couplets clés de la chanson et parlez en utilisant le vocabulaire ciblé.</div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
           <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le salut</strong> se manifeste-t-il dans les paroles de 'salut' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le salut</strong> joue un rôle important dans votre quotidien ?</div></div>
           <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le retour</strong> se manifeste-t-il dans les paroles de 'salut' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le retour</strong> joue un rôle important dans votre quotidien ?</div></div>
           <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la nostalgie</strong> se manifeste-t-il dans les paroles de 'salut' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la nostalgie</strong> joue un rôle important dans votre quotidien ?</div></div>
@@ -127,28 +151,9 @@
           <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le souvenir</strong> se manifeste-t-il dans les paroles de 'salut' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le souvenir</strong> joue un rôle important dans votre quotidien ?</div></div>
           <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'ami</strong> se manifeste-t-il dans les paroles de 'salut' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'ami</strong> joue un rôle important dans votre quotidien ?</div></div>
           <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la gare</strong> se manifeste-t-il dans les paroles de 'salut' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la gare</strong> joue un rôle important dans votre quotidien ?</div></div>
-
         </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Contraste visuel : Café acoustique intime vs Concert dans une grande arène électrique.</p>
-          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
-          </div>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Analyse approfondie & Débat</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Debate</div>
-          <div class="vim-instruction">Évaluez ces énoncés philosophiques concernant les concepts culturels sous-jacents de la chanson.</div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le salut</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le retour</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la nostalgie</strong> est devenu un défi quotidien.</div></div>
@@ -159,14 +164,49 @@
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le souvenir</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'ami</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la gare</strong> est devenu un défi quotidien.</div></div>
-
         </div>
       </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Étape 5 : Point de langue</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Le Présent et le Passé Composé pour les retrouvailles</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Joe Dassin chante 'Salut, c'est encore moi'. Apprenez à utiliser le présent de reprise et le passé composé pour marquer des retrouvailles.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Salut, c'est encore moi après tant d'années !</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Je suis ravi de te retrouver dans ce vieux café.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Rien n'a changé dans notre quartier d'enfance.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Étape 6 : Défi final</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Jouez des retrouvailles avec un ami que vous n'avez pas vu depuis 10 ans dans un café de gare. Exprimez votre nostalgie.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
           <div class="mistake-item">
             <span class="mistake-wrong">Je suis d'accord <span class="mistake-highlight">pour</span> ta philosophie</span>
             <span class="mistake-arrow">→</span>
@@ -185,11 +225,9 @@
             <span class="mistake-right">Ses paroles m'ont beaucoup blessé</span>
             <span class="mistake-note-text">(En français, l'adverbe se place avant le participe passé.)</span>
           </div>
-
-        </div>
       </div>
     </div>
-  </section>
+  </div>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">

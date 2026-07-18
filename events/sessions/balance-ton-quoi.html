@@ -29,7 +29,7 @@
   </nav>
   <a href="../karaoke-club.html" class="back-link">← Retour au club</a>
   <div class="session-meta-grid">
-    <div class="meta-item"><h4>Durée</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Durée</h4><p>90–120 minutes</p></div>
     <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
     <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire (B1)</p></div>
     <div class="meta-item"><h4>Thème</h4><p>Égalité & Respect</p></div>
@@ -37,86 +37,108 @@
       <a href="https://www.youtube.com/watch?v=Hi7Rx3En7-k" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
       <a href="https://www.youtube.com/watch?v=Hi7Rx3En7-k" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
     </p></div>
-  </div>
-  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Explorez le magnifique titre 'balance ton quoi' de Angèle en Français. Cette session se concentre sur le vocabulaire de 'Égalité & Respect' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes.</p>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
   </div>
 
-  <!-- COLLAPSIBLE VOCABULARY SECTION -->
-  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
-    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
-      <span>📖 Vocabulaire de la session</span><span class="round-toggle">▲</span>
-    </div>
-    <div class="round-body" style="display:block; padding-top: 1.5rem;">
-      <div class="vocab-grid-10">
-            <div class="vocab-card"><div class="vocab-word">Le respect</div><div class="vocab-def">sentiment de considération envers quelqu'un.</div><div class="vocab-example">Le respect mutuel est essentiel au sein d'une équipe.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le respect', definition:'sentiment de considération envers quelqu\'un.', example:'Le respect mutuel est essentiel au sein d\'une équipe.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Le sexisme</div><div class="vocab-def">attitude de discrimination basée sur le sexe.</div><div class="vocab-example">La loi combat activement le sexisme au travail.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le sexisme', definition:'attitude de discrimination basée sur le sexe.', example:'La loi combat activement le sexisme au travail.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">La dénonciation</div><div class="vocab-def">action de dénoncer un fait ou un coupable.</div><div class="vocab-example">La dénonciation des abus a permis de changer les règles.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La dénonciation', definition:'action de dénoncer un fait ou un coupable.', example:'La dénonciation des abus a permis de changer les règles.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">La liberté</div><div class="vocab-def">état d'une personne libre, indépendante.</div><div class="vocab-example">La liberté d'expression est un droit fondamental.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La liberté', definition:'état d\'une personne libre, indépendante.', example:'La liberté d\'expression est un droit fondamental.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">L'égalité</div><div class="vocab-def">rapport entre personnes ayant les mêmes droits.</div><div class="vocab-example">L'égalité des chances doit être garantie à tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'égalité', definition:'rapport entre personnes ayant les mêmes droits.', example:'L\'égalité des chances doit être garantie à tous.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Parler</div><div class="vocab-def">s'exprimer par la parole, communiquer.</div><div class="vocab-example">Il est important de parler ouvertement de ses soucis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Parler', definition:'s\'exprimer par la parole, communiquer.', example:'Il est important de parler ouvertement de ses soucis.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Le courage ≠ La lâcheté</div><div class="vocab-def">force morale pour affronter le danger ou la douleur ≠ manque de courage, recul devant le devoir ou le danger.</div><div class="vocab-example">Il a eu le courage de dire la vérité en public, refusant de céder à la lâcheté du silence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le courage ≠ La lâcheté', definition:'force morale pour affronter le danger ou la douleur ≠ manque de courage, recul devant le devoir ou le danger.', example:'Il a eu le courage de dire la vérité en public, refusant de céder à la lâcheté du silence.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Le changement</div><div class="vocab-def">action de changer, modification profonde.</div><div class="vocab-example">Ce changement de direction a relancé l'entreprise.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le changement', definition:'action de changer, modification profonde.', example:'Ce changement de direction a relancé l\'entreprise.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">L'attitude</div><div class="vocab-def">pose du corps ou comportement de quelqu'un.</div><div class="vocab-example">Son attitude positive a encouragé toute l'équipe.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attitude', definition:'pose du corps ou comportement de quelqu\'un.', example:'Son attitude positive a encouragé toute l\'équipe.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">La voix</div><div class="vocab-def">ensemble des sons produits par les cordes vocales.</div><div class="vocab-example">Sa voix douce et mélodieuse calme immédiatement les enfants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La voix', definition:'ensemble des sons produits par les cordes vocales.', example:'Sa voix douce et mélodieuse calme immédiatement les enfants.'}, this)">+ Dictionary</button></div>
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Thème: Égalité & Respect</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Nous allons discuter de:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Respect</li>
+      <li>Sexisme</li>
+      <li>Dénonciation</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
 
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (20%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (10%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Étape 1 : Échauffement</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>Quelle est l'importance de ce thème de discussion dans votre vie quotidienne ?</li>
+            <li>Regardez le titre 'balance ton quoi' et l'artiste 'Angèle'. Selon vous, de quoi parle cette chanson ? (Question de prédiction)</li>
+            <li>Quelles émotions ou quels sentiments ce style de musique vous inspire-t-il ?</li>
+        </ul>
       </div>
     </div>
-  </section>
 
-  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
-    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
-      <span>🎵 Exercice d'écoute & Texte à trous</span><span class="round-toggle">▲</span>
-    </div>
-    <div class="round-body" style="display:block; padding-top: 1.5rem;">
-      <div class="vim-instruction">
-        <strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Étape 2 : Vocabulaire</span><span class="round-toggle">▲</span>
       </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concepts clés & Émotions</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le respect</div><div class="vocab-def">sentiment de considération envers quelqu'un.</div><div class="vocab-example">Le respect mutuel est essentiel au sein d'une équipe.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le respect', definition:'sentiment de considération envers quelqu\'un.', example:'Le respect mutuel est essentiel au sein d\'une équipe.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le sexisme</div><div class="vocab-def">attitude de discrimination basée sur le sexe.</div><div class="vocab-example">La loi combat activement le sexisme au travail.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le sexisme', definition:'attitude de discrimination basée sur le sexe.', example:'La loi combat activement le sexisme au travail.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La dénonciation</div><div class="vocab-def">action de dénoncer un fait ou un coupable.</div><div class="vocab-example">La dénonciation des abus a permis de changer les règles.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La dénonciation', definition:'action de dénoncer un fait ou un coupable.', example:'La dénonciation des abus a permis de changer les règles.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La liberté</div><div class="vocab-def">état d'une personne libre, indépendante.</div><div class="vocab-example">La liberté d'expression est un droit fondamental.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La liberté', definition:'état d\'une personne libre, indépendante.', example:'La liberté d\'expression est un droit fondamental.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'égalité</div><div class="vocab-def">rapport entre personnes ayant les mêmes droits.</div><div class="vocab-example">L'égalité des chances doit être garantie à tous.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'égalité', definition:'rapport entre personnes ayant les mêmes droits.', example:'L\'égalité des chances doit être garantie à tous.'}, this)">+ Dictionary</button></div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vie, Actions & Connexion</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Parler</div><div class="vocab-def">s'exprimer par la parole, communiquer.</div><div class="vocab-example">Il est important de parler ouvertement de ses soucis.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Parler', definition:'s\'exprimer par la parole, communiquer.', example:'Il est important de parler ouvertement de ses soucis.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le courage ≠ La lâcheté</div><div class="vocab-def">force morale pour affronter le danger ou la douleur ≠ manque de courage, recul devant le devoir ou le danger.</div><div class="vocab-example">Il a eu le courage de dire la vérité en public, refusant de céder à la lâcheté du silence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le courage ≠ La lâcheté', definition:'force morale pour affronter le danger ou la douleur ≠ manque de courage, recul devant le devoir ou le danger.', example:'Il a eu le courage de dire la vérité en public, refusant de céder à la lâcheté du silence.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le changement</div><div class="vocab-def">action de changer, modification profonde.</div><div class="vocab-example">Ce changement de direction a relancé l'entreprise.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le changement', definition:'action de changer, modification profonde.', example:'Ce changement de direction a relancé l\'entreprise.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'attitude</div><div class="vocab-def">pose du corps ou comportement de quelqu'un.</div><div class="vocab-example">Son attitude positive a encouragé toute l'équipe.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'attitude', definition:'pose du corps ou comportement de quelqu\'un.', example:'Son attitude positive a encouragé toute l\'équipe.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La voix</div><div class="vocab-def">ensemble des sons produits par les cordes vocales.</div><div class="vocab-example">Sa voix douce et mélodieuse calme immédiatement les enfants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La voix', definition:'ensemble des sons produits par les cordes vocales.', example:'Sa voix douce et mélodieuse calme immédiatement les enfants.'}, this)">+ Dictionary</button></div>
+        </div>
+      </div>
+    </div>
 
-      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
-        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Étape 3 : Écoute</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">respect</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">sexisme</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">liberté</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">égalité</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">voix</span>
-
+          </div>
         </div>
-      </div>
 
-      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Paroles complètes</h3>
-        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Balance ton quoi<br>Pour qu'on respecte enfin mes droits<br>Un peu de [__________] dans ce monde<br>Pour effacer ce [__________] immonde<br><br>Nous voulons vivre en toute [__________]<br>Dans une parfaite [__________]<br>Faire entendre notre [__________] forte<br>Pour que les vieilles mentalités meurent</p>
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Balance ton quoi<br>Pour qu'on respecte enfin mes droits<br>Un peu de [__________] dans ce monde<br>Pour effacer ce [__________] immonde<br><br>Nous voulons vivre en toute [__________]<br>Dans une parfaite [__________]<br>Faire entendre notre [__________] forte<br>Pour que les vieilles mentalités meurent</p>
+        </div>
       </div>
     </div>
-  </section>
 
-  <!-- DISCUSSION STRUCTURE -->
-  <section id="structure">
-    <h2 class="section-title">🎙️ Structure de discussion</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Présentez brièvement vos impressions sur la chanson et chantez avec les premières mélodies.</div>
-          <ul class="round-questions">
-            <li>Aviez-vous déjà écouté 'balance ton quoi' avant cette session ?</li>
-            <li>Quel type d'émotions cette musique vous inspire-t-elle ?</li>
-
-          </ul>
-        </div>
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Étape 4 : Discussion</span><span class="round-toggle">▲</span>
       </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — Discussion des paroles</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Questions</div>
-          <div class="vim-instruction">Analysez les couplets clés de la chanson et parlez en utilisant le vocabulaire ciblé.</div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
           <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le respect</strong> se manifeste-t-il dans les paroles de 'balance ton quoi' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le respect</strong> joue un rôle important dans votre quotidien ?</div></div>
           <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le sexisme</strong> se manifeste-t-il dans les paroles de 'balance ton quoi' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le sexisme</strong> joue un rôle important dans votre quotidien ?</div></div>
           <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la dénonciation</strong> se manifeste-t-il dans les paroles de 'balance ton quoi' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la dénonciation</strong> joue un rôle important dans votre quotidien ?</div></div>
@@ -127,28 +149,9 @@
           <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le changement</strong> se manifeste-t-il dans les paroles de 'balance ton quoi' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le changement</strong> joue un rôle important dans votre quotidien ?</div></div>
           <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'attitude</strong> se manifeste-t-il dans les paroles de 'balance ton quoi' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'attitude</strong> joue un rôle important dans votre quotidien ?</div></div>
           <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la voix</strong> se manifeste-t-il dans les paroles de 'balance ton quoi' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la voix</strong> joue un rôle important dans votre quotidien ?</div></div>
-
         </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Contraste visuel : Café acoustique intime vs Concert dans une grande arène électrique.</p>
-          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
-          </div>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Analyse approfondie & Débat</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Debate</div>
-          <div class="vim-instruction">Évaluez ces énoncés philosophiques concernant les concepts culturels sous-jacents de la chanson.</div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le respect</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le sexisme</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la dénonciation</strong> est devenu un défi quotidien.</div></div>
@@ -159,14 +162,49 @@
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le changement</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'attitude</strong> est devenu un défi quotidien.</div></div>
           <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la voix</strong> est devenu un défi quotidien.</div></div>
-
         </div>
       </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Étape 5 : Point de langue</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">L'expression de la condition avec 'Si'</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Pour exprimer une hypothèse réelle ou imaginaire, on utilise 'si' suivi du présent ou de l'imparfait.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Si tu écoutes attentivement, tu comprendras les paroles.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Si j'avais le temps, je chanterais tous les jours.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Si nous partageons notre passion, nous progresserons ensemble.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Étape 6 : Défi final</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Imaginez la suite de cette chanson : jouez une conversation entre les personnages principaux 5 ans plus tard.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
           <div class="mistake-item">
             <span class="mistake-wrong">Je suis d'accord <span class="mistake-highlight">pour</span> ta philosophie</span>
             <span class="mistake-arrow">→</span>
@@ -185,11 +223,9 @@
             <span class="mistake-right">Ses paroles m'ont beaucoup blessé</span>
             <span class="mistake-note-text">(En français, l'adverbe se place avant le participe passé.)</span>
           </div>
-
-        </div>
       </div>
     </div>
-  </section>
+  </div>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">

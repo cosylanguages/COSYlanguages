@@ -317,33 +317,30 @@ SONG_LINKS = {
 }
 
 # Translation / Localization resources for all 6 supported languages
-LOCALIZATIONS = {
+
+# Enhanced Localizations dictionary covering all 6 supported languages
+LOCALIZATIONS_NEW = {
     "en": {
         "breadcrumbs_home": "Home",
         "breadcrumbs_events": "Events",
         "breadcrumbs_club": "Karaoke Club",
         "back_link": "← Back to Club",
         "dur_label": "Duration",
-        "dur_val": "60 minutes",
+        "dur_val": "90–120 minutes",
         "lang_label": "Variety/Language",
         "level_label": "Level",
         "focus_label": "Thematic Focus",
-        "vocab_title": "📖 Session Vocabulary",
-        "listening_title": "🎵 Listening & Gap-Fill Exercise",
-        "listening_instruction": "<strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.",
-        "word_bank_title": "Word Bank / Helpers:",
-        "lyrics_title": "Full Lyrics",
-        "structure_title": "🎙️ Discussion Structure",
-        "warmup_title": "🟠 Warm-up",
-        "warmup_instruction": "Initial reactions to the melody, rhythm, and artist.",
-        "r1_title": "🔵 Round 1 — Lyric Discussion",
-        "r1_instruction": "Analyze the song's key verses and speak using the targeted vocabulary.",
-        "speak_together_title": "🟣 Let's Speak Together",
-        "speak_together_note": "Visual contrast: Live Acoustic Cafe vs Electric Stage Lights.",
-        "r2_title": "🟢 Round 2 — Lyric Deep Dive & Debate",
-        "r2_instruction": "Evaluate these philosophical statements regarding the song's underlying cultural concepts.",
+        "theme_label": "Theme",
+        "discuss_label": "We'll discuss",
+        "warmup_title": "🎵 Stage 1: Warm-up",
+        "vocab_title": "📚 Stage 2: Vocabulary",
+        "listening_title": "🎧 Stage 3: Listening",
+        "discussion_title": "💬 Stage 4: Discussion",
+        "lang_focus_title": "✨ Stage 5: Language Focus",
+        "final_challenge_title": "🎭 Stage 6: Final Challenge",
+        "opp_label": "Opposite:",
         "teacher_note_title": "✏️ Teacher's Note (Linguistic Corrections)",
-        "teacher_note_instruction": ""
+        "word_bank_title": "Word Bank / Helpers:"
     },
     "fr": {
         "breadcrumbs_home": "Accueil",
@@ -351,26 +348,21 @@ LOCALIZATIONS = {
         "breadcrumbs_club": "Karaoke Club",
         "back_link": "← Retour au club",
         "dur_label": "Durée",
-        "dur_val": "60 minutes",
+        "dur_val": "90–120 minutes",
         "lang_label": "Langue",
         "level_label": "Niveau",
         "focus_label": "Thème",
-        "vocab_title": "📖 Vocabulaire de la session",
-        "listening_title": "🎵 Exercice d'écoute & Texte à trous",
-        "listening_instruction": "<strong>Tâche d'écoute active :</strong> Écoutez la chanson à l'aide du lien de ressource ci-dessus et remplissez les trous. Les mots manquants sont choisis parmi le vocabulaire cible, les collocations et les marqueurs grammaticaux abordés dans cette session.",
-        "word_bank_title": "Banque de mots / Aide :",
-        "lyrics_title": "Paroles complètes",
-        "structure_title": "🎙️ Structure de discussion",
-        "warmup_title": "🟠 Échauffement",
-        "warmup_instruction": "Présentez brièvement vos impressions sur la chanson et chantez avec les premières mélodies.",
-        "r1_title": "🔵 Round 1 — Discussion des paroles",
-        "r1_instruction": "Analysez les couplets clés de la chanson et parlez en utilisant le vocabulaire ciblé.",
-        "speak_together_title": "🟣 Let's Speak Together",
-        "speak_together_note": "Contraste visuel : Café acoustique intime vs Concert dans une grande arène électrique.",
-        "r2_title": "🟢 Round 2 — Analyse approfondie & Débat",
-        "r2_instruction": "Évaluez ces énoncés philosophiques concernant les concepts culturels sous-jacents de la chanson.",
+        "theme_label": "Thème",
+        "discuss_label": "Nous allons discuter de",
+        "warmup_title": "🎵 Étape 1 : Échauffement",
+        "vocab_title": "📚 Étape 2 : Vocabulaire",
+        "listening_title": "🎧 Étape 3 : Écoute",
+        "discussion_title": "💬 Étape 4 : Discussion",
+        "lang_focus_title": "✨ Étape 5 : Point de langue",
+        "final_challenge_title": "🎭 Étape 6 : Défi final",
+        "opp_label": "Contraire :",
         "teacher_note_title": "✏️ Notes du Professeur (Corrections Linguistiques)",
-        "teacher_note_instruction": ""
+        "word_bank_title": "Banque de mots / Aide :"
     },
     "ru": {
         "breadcrumbs_home": "Главная",
@@ -378,26 +370,21 @@ LOCALIZATIONS = {
         "breadcrumbs_club": "Karaoke Club",
         "back_link": "← Вернуться в клуб",
         "dur_label": "Длительность",
-        "dur_val": "60 minutes",
+        "dur_val": "90–120 минут",
         "lang_label": "Язык",
         "level_label": "Уровень",
         "focus_label": "Тема",
-        "vocab_title": "📖 Словарь сессии",
-        "listening_title": "🎵 Упражнение на аудирование и заполнение пропусков",
-        "listening_instruction": "<strong>Активное аудирование:</strong> Слушайте песню, используя ссылку выше, и заполняйте пропуски. Пропущенные слова выбраны из ключевой лексики, словосочетаний и грамматических конструкций этой сессии.",
-        "word_bank_title": "Вспомогательный банк слов:",
-        "lyrics_title": "Полный текст песни",
-        "structure_title": "🎙️ Структура обсуждения",
-        "warmup_title": "🟠 Разминка",
-        "warmup_instruction": "Поделитесь вашими мыслями о творчестве исполнителя и настроении песни.",
-        "r1_title": "🔵 Раунд 1 — Обсуждение лирики",
-        "r1_instruction": "Проанализируйте ключевые строки песни и практикуйте разговорную речь с целевой лексикой.",
-        "speak_together_title": "🟣 Let's Speak Together",
-        "speak_together_note": "Визуальный контраст: акустическое исполнение на гитаре против грандиозного стадионного концерта.",
-        "r2_title": "🟢 Раунд 2 — Глубокий анализ и дебаты",
-        "r2_instruction": "Оцените эти философские утверждения, вдохновленные темами песни.",
+        "theme_label": "Тема",
+        "discuss_label": "Мы обсудим",
+        "warmup_title": "🎵 Этап 1: Разминка",
+        "vocab_title": "📚 Этап 2: Словарь",
+        "listening_title": "🎧 Этап 3: Аудирование",
+        "discussion_title": "💬 Этап 4: Обсуждение",
+        "lang_focus_title": "✨ Этап 5: Языковой фокус",
+        "final_challenge_title": "🎭 Этап 6: Финальный вызов",
+        "opp_label": "Антоним :",
         "teacher_note_title": "✏️ Заметки преподавателя (исправление ошибок)",
-        "teacher_note_instruction": ""
+        "word_bank_title": "Вспомогательный банк слов:"
     },
     "it": {
         "breadcrumbs_home": "Home",
@@ -405,26 +392,21 @@ LOCALIZATIONS = {
         "breadcrumbs_club": "Karaoke Club",
         "back_link": "← Torna al club",
         "dur_label": "Durata",
-        "dur_val": "60 minuti",
+        "dur_val": "90–120 minuti",
         "lang_label": "Lingua",
         "level_label": "Livello",
         "focus_label": "Tema",
-        "vocab_title": "📖 Vocabolario della sessione",
-        "listening_title": "🎵 Esercizio di ascolto e riempimento spazi",
-        "listening_instruction": "<strong>Ascolto attivo:</strong> Ascolta la canzone usando il link sopra e riempi gli spazi vuoti con le parole target del vocabolario.",
-        "word_bank_title": "Banca delle parole:",
-        "lyrics_title": "Testo completo",
-        "structure_title": "🎙️ Struttura della discussione",
-        "warmup_title": "🟠 Riscaldamento",
-        "warmup_instruction": "Condividi le tue prime reazioni sulla melodia e il ritmo.",
-        "r1_title": "🔵 Round 1 — Discussione dei testi",
-        "r1_instruction": "Analizza i versi della canzone e parla usando il vocabolario mirato.",
-        "speak_together_title": "🟣 Parliamo insieme",
-        "speak_together_note": "Confronto visivo o acustico tra performance intima ed elettrica.",
-        "r2_title": "🟢 Round 2 — Analisi approfondita e dibattito",
-        "r2_instruction": "Valuta queste affermazioni filosofiche basate sui temi della canzone.",
+        "theme_label": "Tema",
+        "discuss_label": "Discuteremo di",
+        "warmup_title": "🎵 Fase 1: Riscaldamento",
+        "vocab_title": "📚 Fase 2: Vocabolario",
+        "listening_title": "🎧 Fase 3: Ascolto",
+        "discussion_title": "💬 Fase 4: Discussione",
+        "lang_focus_title": "✨ Fase 5: Focus linguistico",
+        "final_challenge_title": "🎭 Fase 6: Sfida finale",
+        "opp_label": "Contrario :",
         "teacher_note_title": "✏️ Note dell'Insegnante (Correzioni Linguistiche)",
-        "teacher_note_instruction": ""
+        "word_bank_title": "Banca delle parole:"
     },
     "es": {
         "breadcrumbs_home": "Inicio",
@@ -432,26 +414,21 @@ LOCALIZATIONS = {
         "breadcrumbs_club": "Karaoke Club",
         "back_link": "← Volver al club",
         "dur_label": "Duración",
-        "dur_val": "60 minutos",
+        "dur_val": "90–120 minutos",
         "lang_label": "Idioma",
         "level_label": "Nivel",
         "focus_label": "Tema",
-        "vocab_title": "📖 Vocabulario de la sesión",
-        "listening_title": "🎵 Ejercicio de escucha y rellenar huecos",
-        "listening_instruction": "<strong>Escucha activa:</strong> Escucha la canción usando el enlace de arriba y completa los espacios en blanco.",
-        "word_bank_title": "Banco de palabras:",
-        "lyrics_title": "Letra completa",
-        "structure_title": "🎙️ Estructura de la discusión",
-        "warmup_title": "🟠 Calentamiento",
-        "warmup_instruction": "Comparte tus primeras reacciones sobre la melodía y el ritmo.",
-        "r1_title": "🔵 Ronda 1 — Discusión de la letra",
-        "r1_instruction": "Analiza los versos de la canción y habla usando el vocabulario objetivo.",
-        "speak_together_title": "🟣 Hablemos juntos",
-        "speak_together_note": "Comparación visual y acústica entre versión desenchufada y estudio.",
-        "r2_title": "🟢 Ronda 2 — Análisis profundo y debate",
-        "r2_instruction": "Evalúa estas declaraciones filosóficas basadas en los temas de la canción.",
+        "theme_label": "Tema",
+        "discuss_label": "Discutiremos sobre",
+        "warmup_title": "🎵 Etapa 1: Calentamiento",
+        "vocab_title": "📚 Etapa 2: Vocabulario",
+        "listening_title": "🎧 Etapa 3: Escucha",
+        "discussion_title": "💬 Etapa 4: Discusión",
+        "lang_focus_title": "✨ Etapa 5: Enfoque de idioma",
+        "final_challenge_title": "🎭 Etapa 6: Desafío final",
+        "opp_label": "Opuesto :",
         "teacher_note_title": "✏️ Nota del Profesor (Correcciones Lingüísticas)",
-        "teacher_note_instruction": ""
+        "word_bank_title": "Banco de palabras:"
     },
     "el": {
         "breadcrumbs_home": "Αρχική",
@@ -459,30 +436,535 @@ LOCALIZATIONS = {
         "breadcrumbs_club": "Karaoke Club",
         "back_link": "← Πίσω στο Club",
         "dur_label": "Διάρκεια",
-        "dur_val": "60 λεπτά",
+        "dur_val": "90–120 λεπτά",
         "lang_label": "Γλώσσα",
         "level_label": "Επίπεδο",
         "focus_label": "Θέμα",
-        "vocab_title": "📖 Λεξιλόγιο Συνεδρίας",
-        "listening_title": "🎵 Άσκηση Ακρόασης & Συμπλήρωσης Κενών",
-        "listening_instruction": "<strong>Ενεργητική Ακρόαση:</strong> Ακούστε το τραγούδι χρησιμοποιώντας τον παραπάνω σύνδεσμο και συμπληρώστε τα κενά.",
-        "word_bank_title": "Βοηθητικό Λεξιλόγιο / Λέξεις-Κλειδιά:",
-        "lyrics_title": "Πλήρεις στίχοι",
-        "structure_title": "🎙️ Δομή Συζήτησης",
-        "warmup_title": "🟠 Προθέρμανση",
-        "warmup_instruction": "Μοιραστείτε τις σκέψεις σας για το τραγούδι και τη μουσική.",
-        "r1_title": "🔵 Γύρος 1 — Συζήτηση Στίχων",
-        "r1_instruction": "Αναλύστε τους στίχους-κλειδιά και μιλήστε χρησιμοποιώντας το στοχευμένο λεξιλόγιο.",
-        "speak_together_title": "🟣 Ας μιλήσουμε μαζί",
-        "speak_together_note": "Οπτική αντίθεση μεταξύ ακουστικής ερμηνείας και μεγάλης συναυλίας.",
-        "r2_title": "🟢 Γύρος 2 — Ανάλυση & Αντιπαράθεση",
-        "r2_instruction": "Αξιολογήστε αυτές τις φιλοσοφικές δηλώσεις σχετικά με τα θέματα του τραγουδιού.",
+        "theme_label": "Θέμα",
+        "discuss_label": "Θα συζητήσουμε",
+        "warmup_title": "🎵 Στάδιο 1: Προθέρμανση",
+        "vocab_title": "📚 Στάδιο 2: Λεξιλόγιο",
+        "listening_title": "🎧 Στάδιο 3: Ακρόαση",
+        "discussion_title": "💬 Στάδιο 4: Συζήτηση",
+        "lang_focus_title": "✨ Στάδιο 5: Γλωσσική εστίαση",
+        "final_challenge_title": "🎭 Στάδιο 6: Τελική πρόκληση",
+        "opp_label": "Αντίθετο :",
         "teacher_note_title": "✏️ Σημειώσεις Καθηγητή (Γλωσσικές Διορθώσεις)",
-        "teacher_note_instruction": ""
+        "word_bank_title": "Βοηθητικό Λεξιλόγιο / Λέξεις-Κλειδιά:"
     }
 }
 
-# Vocabulary items database
+# Standardized opposites database
+OPPOSITES_MAP = {
+    # French
+    "Le cœur": "La raison",
+    "La machine": "L'être humain",
+    "L'âme": "Le corps",
+    "La blessing": "La guérison",
+    "L'espoir": "Le désespoir",
+    "Le regret": "La satisfaction",
+    "Le rêve": "La réalité",
+    "Guérir": "Blesser",
+    "Le secret": "L'évidence",
+    "L'amour": "La haine",
+    "La tendresse": "La dureté",
+    "Le silence": "Le bruit",
+    "Le doute": "La certitude",
+    "La fidélité": "L'infidélité",
+    "Partager": "Garder pour soi",
+    "La patience": "L'impatience",
+    "Le baiser": "La gifle",
+    "Le lien": "La séparation",
+    "Le retour": "Le départ",
+    "La nostalgie": "L'indifférence",
+    "Retrouver": "Perdre",
+    "Changer": "Conserver",
+    "Le souvenir": "L'oubli",
+    "L'ami": "L'ennemi",
+    "La douceur": "La rudesse",
+    "Le destin": "Le hasard",
+    "La complicité": "L'hostilité",
+    "La voix": "Le silence",
+    "S'unir": "Se séparer",
+    "Briller": "S'éteindre",
+    "La clarté": "L'obscurité",
+    "L'incertitude": "La certitude",
+    "Le respect": "Le mépris",
+    "Le sexisme": "L'égalité",
+    "La liberté": "L'esclavage",
+    "L'égalité": "L'inégalité",
+    "La tolérance": "L'intolérance",
+    "La paix": "La guerre",
+    "La diversité": "L'uniformité",
+    "La dignité": "L'indignité",
+    "L'harmonie": "Le chaos",
+    "La douleur": "Le plaisir",
+    "S'élever": "S'abaisser",
+    "La vérité": "Le mensonge",
+    "L'invisible": "Le visible",
+    "L'immobilité": "Le mouvement",
+    "La solitude": "La compagnie",
+    "Figer": "Animer",
+    "La nuit": "Le jour",
+    "L'obscurité": "La lumière",
+    "La tristesse": "La joie",
+    "Le matin": "Le soir",
+    "L'insomnie": "Le sommeil",
+    "Le soleil": "La lune",
+    "La mélancolie": "L'allégresse",
+    "La perte": "Le gain",
+    "Le chagrin": "La joie",
+    "Brûler": "Éteindre",
+    "L'ombre": "La lumière",
+    "Le vide": "Le plein",
+    "La beauté": "La laideur",
+    "La fierté": "La honte",
+    "Se promener": "Rester immobile",
+    "La joie": "La tristesse",
+    "La rencontre": "La séparation",
+    "Soutenir": "Abandonner",
+    "La présence": "L'absence",
+    "La force": "La faiblesse",
+    "La passion": "L'indifférence",
+    "L'intensite": "La modération",
+    "Le triomphe": "L'échec",
+    "Surmonter": "Échouer",
+    "La pureté": "L'impureté",
+    "La jeunesse": "La vieillesse",
+    "L'innocence": "La culpabilité",
+    "Rêver": "Faire face à la réalité",
+    "L'authenticité": "La fausseté",
+    "La vulnérabilité": "L'invulnérabilité",
+    "Le public": "L'intimité",
+    "Se donner": "Se retenir",
+    "L'artiste": "Le spectateur",
+
+    # English
+    "Kernels": "Bulk",
+    "Generalize": "Specialize",
+    "Maternal": "Paternal",
+    "Delusional": "Realistic",
+    "Overzealous": "Indifferent",
+    "Insecurity": "Security",
+    "Satire": "Solemnity",
+    "Condescending": "Humble",
+    "Compulsive": "Deliberate",
+    "Greatness": "Mediocrity",
+    "Haunting": "Pleasant",
+    "Surrender": "Resist",
+    "Struggle": "Ease",
+    "Release": "Hold",
+    "Echo": "Silence",
+    "Wilderness": "Civilization",
+    "Triumph": "Defeat",
+    "Legacy": "Oblivion",
+    "Grace": "Clumsiness",
+    "Dreaming": "Waking",
+    "Winter": "Summer",
+    "Warm": "Cold",
+    "Safe": "Dangerous",
+    "Sky": "Earth",
+    "Brown": "Green",
+    "Leave": "Arrive",
+    "Pray": "Curse",
+    "Sensation": "Numbness",
+    "Dual": "Single",
+    "Conflict": "Harmony",
+    "Reflect": "Absorb",
+    "Personality": "Anonymity",
+    "Mirror": "Original",
+    "Opposite": "Same",
+    "Dialogue": "Monologue",
+    "In harmony": "In conflict",
+    "Acceptance": "Rejection",
+    "Deceptive": "Honest",
+    "Gaze": "Glance",
+    "Disguise": "Reveal",
+    "Regret": "Satisfaction",
+    "Warning": "Encouragement",
+    "Lure": "Repel",
+    "Painful": "Painless",
+    "Obsession": "Indifference",
+    "Illusion": "Reality",
+    "Trust": "Distrust",
+    "Confusion": "Clarity",
+    "Chaotic": "Orderly",
+    "Optimism": "Pessimism",
+    "Recovery": "Relapse",
+    "Anxiety": "Calmness",
+    "Survive": "Perish",
+    "Connection": "Separation",
+    "Sanity": "Insanity",
+    "Hope": "Despair",
+    "Abandonment": "Adoption",
+    "Solitude": "Company",
+    "Deception": "Honesty",
+    "Desperation": "Confidence",
+    "Coldness": "Warmth",
+    "Exclusion": "Inclusion",
+    "Longing": "Apathy",
+    "Betrayal": "Loyalty",
+    "Casualty": "Survivor",
+    "Scars": "Smooth skin",
+    "Aftermath": "Preparation",
+    "Anger": "Calmness",
+    "Survival": "Death",
+    "Devastation": "Construction",
+    "Reconciliation": "Estrangement",
+    "Change": "Stability",
+    "Isolation": "Integration",
+    "Nostalgia": "Futurism",
+    "Suburban": "Urban",
+    "Gravity": "Levity",
+    "Disconnect": "Connect",
+    "Melancholy": "Cheerfulness",
+    "Expectation": "Surprise",
+    "Routine": "Novelty",
+    "Reflection": "Absorption",
+
+    # Russian
+    "Высота (она)": "Низменность (она)",
+    "Дом (он)": "Чужбина (она)",
+    "Полёт (он)": "Падение (оно)",
+    "Мечта (она)": "Реальность (она)",
+    "Свобода (она)": "Зависимость (она)",
+    "Юность (она)": "Старость (она)",
+    "Ветер (он)": "Штиль (он)",
+    "Город (он)": "Деревня (она)",
+    "Небо (оνο)": "Земля (она)",
+    "Взгляд (он)": "Слепота (она)",
+    "Секрет (он)": "Очевидность (она)",
+    "Мама (она)": "Папа (он)",
+    "Тайна (она)": "Правда (она)",
+    "Улыбка (она)": "Гримаса (она)",
+    "Забота (она)": "Пренебрежение (оно)",
+    "Любовь (она)": "Ненависть (она)",
+    "Доверие (оно)": "Подозрение (оно)",
+    "Шёпот (он)": "Крик (он)",
+    "Правда (она)": "Ложь (она)",
+    "Детство (оно)": "Зрелость (она)",
+
+    # Italian
+    "L'uomo": "La donna",
+    "La passione": "L'indifferenza",
+    "Il fascino": "La repulsione",
+    "La seduzione": "Il aiuto",
+    "Il cuore": "La mente",
+    "Amare": "Odiare",
+    "Il segreto": "La notizia pubblica",
+    "La bellezza": "La bruttezza",
+    "Il gioco": "Il lavoro",
+    "Il sorriso": "Il pianto",
+    "La lacrima": "Il sorriso",
+    "Il pianto": "Il riso",
+    "Il dolore": "Il piacere",
+    "Il rimpianto": "La soddisfazione",
+    "Il silenzio": "Il rumore",
+    "Soffrire": "Gioire",
+    "L'addio": "Il benvenuto",
+    "La speranza": "La disperazione",
+    "La fine": "L'inizio",
+    "La solitudine": "La compagnia",
+    "L'estate": "L'inverno",
+    "La spiaggia": "La città",
+    "Il mare": "La terraferma",
+    "Il sole": "La lune",
+    "Il viaggio": "La sosta",
+    "Il vento": "La calma",
+    "La libertà": "La schiavitù",
+    "Ricominciare": "Finire",
+    "Il calore": "Il freddo",
+    "L'orizzonte": "La vicinanza",
+    "La compagnia": "L'isolamento",
+    "Il futuro": "Il passato",
+    "Il destino": "Il caso",
+    "La promessa": "Il tradimento",
+    "Proteggere": "Attaccare",
+    "Il cammino": "La fermata",
+    "La fedeltà": "L'infideltà",
+    "L'attesa": "L'arrivo",
+    "L'unione": "La divisione",
+    "L'amore": "L'odio",
+    "La scintilla": "L'estinzione",
+    "Il bacio": "Lo schiaffo",
+    "Il battito": "L'arresto",
+    "Il soffio": "La tempesta",
+    "Svanire": "Apparire",
+    "Il ricordo": "L'oblio",
+    "L'infinito": "Il limite",
+    "Il raggio": "L'ombra",
+    "La luce": "L'oscurità",
+    "La gioia": "La tristezza",
+    "Riscaldare": "Raffreddare",
+    "La java": "La noia",
+    "La felicità": "L'infelicità",
+    "La natura": "La tecnologia",
+    "Il mattino": "La sera",
+
+    # Spanish
+    "La libertad": "La opresión",
+    "El amor": "El odio",
+    "El orgullo": "La humildad",
+    "La aceptación": "El rechazo",
+    "Sin prejuicios": "Con prejuicios",
+    "Caminar": "Parar",
+    "La valentía": "La cobardía",
+    "El corazón": "La mente",
+    "El respeto": "El desprecio",
+    "La diversidad": "La homogeneidad",
+    "La distancia": "La cercanía",
+    "El olvido": "El recuerdo",
+    "La ausencia": "La presencia",
+    "El dolor": "El alivio",
+    "Alejarse": "Acercarse",
+    "El recuerdo": "El olvido",
+    "La tristeza": "La alegría",
+    "El silencio": "El ruido",
+    "El frío": "El calor",
+    "La despedida": "La bienvenida",
+    "El verano": "El invierno",
+    "La juventud": "La vejez",
+    "La nostalgia": "La indiferencia",
+    "El cambio": "La permanencia",
+    "El sol": "La luna",
+    "La playa": "La montaña",
+    "El amigo": "El enemigo",
+    "Sonreír": "Llorar",
+    "El futuro": "El pasado",
+
+    # Greek
+    "Η αγάπη": "Το μίσος",
+    "Το φιλί": "Το χαστούκι",
+    "Ο έρωτας": "Η απάθεια",
+    "Το δάκρυ": "Το γέλιο",
+    "Ο χωρισμός": "Η ένωση",
+    "Η ελπίδα": "Η απελπισία",
+    "Το λιμάνι": "Η ανοιχτή θάλασσα",
+    "Η αγκαλιά": "Η απώθηση",
+    "Η υπόσχεση": "Η προδοσία",
+    "Η ξενιτιά": "Η πατρίδα",
+    "Η νύχτα": "Η μέρα",
+    "Το φεγγάρι": "Ο ήλιος",
+    "Η μοναξιά": "Η συντροφιά",
+    "Το όνειρο": "Η πραγματικότητα",
+    "Η μελαγχολία": "Η ευθυμία",
+    "Το τραγούδι": "Η σιωπή",
+    "Το σκοτάδι": "Το φως",
+    "Η θύμηση": "Η λήθη",
+    "Η σιωπή": "Ο θόρυβος",
+    "Η παρέα": "Η απομόνωση",
+    "Ο γάτος": "Ο σκύλος",
+    "Η κεραμίδα": "Το πάτωμα",
+    "Η περιπέτεια": "Η ρουτίνα",
+    "Η ελευθερία": "Η σκλαβιά",
+    "Ο δρόμος": "Το αδιέξοδο",
+    "Το νιαούρισμα": "Το γάβγισμα",
+    "Το κυνήγι": "Η φυγή",
+    "Η αυλή": "Το δωμάτιο"
+}
+
+# Standardized Language Focus points
+LANGUAGE_FOCUS_DB = {
+    "toutes-les-machines-ont-le-coeur": {
+        "en": {
+            "title": "Verbe irrégulier 'battre' au présent",
+            "explanation": "The verb 'battre' (to beat) follows an irregular conjugation pattern in French where the letter 't' is lost in singular forms.",
+            "examples": [
+                "Mon cœur bat très vite quand je t'écoute.",
+                "Les machines battent au rythme de l'usine.",
+                "Nous battons nos propres records chaque jour."
+            ]
+        },
+        "fr": {
+            "title": "Le Présent de l'Indicatif (Verbe irrégulier 'battre')",
+            "explanation": "Le verbe 'battre' est très utilisé dans cette chanson ('mon cœur qui bat'). Il suit une conjugaison irrégulière au singulier où l'on perd un 't'.",
+            "examples": [
+                "Mon cœur bat la chamade quand je t'écoute.",
+                "Les machines battent la mesure en arrière-plan.",
+                "Nous battons le fer tant qu'il est chaud."
+            ]
+        }
+    },
+    "ma-philosophie": {
+        "en": {
+            "title": "The Simple Future (expressing determination)",
+            "explanation": "In French, the futur simple is used to express firm intentions or predictions about future actions.",
+            "examples": [
+                "Je lèverai le poing même si c'est difficile.",
+                "Nous réussirons à surmonter les obstacles.",
+                "Tu verras que tout s'arrangera bientôt."
+            ]
+        },
+        "fr": {
+            "title": "Le Futur Simple pour exprimer la détermination",
+            "explanation": "Amel Bent chante 'je lèverai le poing' pour exprimer un projet ferme et résolu dans l'avenir.",
+            "examples": [
+                "Je resterai debout malgré toutes les difficultés.",
+                "Nous réussirons grâce à notre persévérance.",
+                "Tu verras que les efforts finissent par payer."
+            ]
+        }
+    },
+    "je-taime-comme-je-taime": {
+        "en": {
+            "title": "The restrictive structure 'Ne... que'",
+            "explanation": "Using 'ne... que' limits the action of the verb to only one object or action (equivalent to 'only').",
+            "examples": [
+                "Je ne t'aime que pour ce que tu es.",
+                "Il ne chante que des ballades romantiques.",
+                "Nous ne voulons que ton bonheur."
+            ]
+        },
+        "fr": {
+            "title": "La restriction avec 'Ne... que'",
+            "explanation": "Utilisé pour limiter l'action à une seule chose, équivalent de 'seulement'. Dans la chanson : 'Ne me regarde pas'.",
+            "examples": [
+                "Je ne t'aime que pour ce que tu es.",
+                "Il ne chante que des ballades romantiques.",
+                "Nous ne voulons que ton bonheur."
+            ]
+        }
+    },
+    "salut": {
+        "en": {
+            "title": "The Present Perfect of return ('salut')",
+            "explanation": "Joe Dassin sings 'Salut, c'est encore moi'. Learn to use the present perfect or present of state when reconnecting.",
+            "examples": [
+                "Salut, c'est encore moi après tant d'années !",
+                "Je suis ravi de te retrouver dans ce vieux café.",
+                "Rien n'a changé dans notre quartier d'enfance."
+            ]
+        },
+        "fr": {
+            "title": "Le Présent et le Passé Composé pour les retrouvailles",
+            "explanation": "Joe Dassin chante 'Salut, c'est encore moi'. Apprenez à utiliser le présent de reprise et le passé composé pour marquer des retrouvailles.",
+            "examples": [
+                "Salut, c'est encore moi après tant d'années !",
+                "Je suis ravi de te retrouver dans ce vieux café.",
+                "Rien n'a changé dans notre quartier d'enfance."
+            ]
+        }
+    },
+    "unlikely-lovers": {
+        "en": {
+            "title": "The Conjunction 'No matter how'",
+            "explanation": "Used to express that something is true or will happen regardless of the degree or intensity of something else.",
+            "examples": [
+                "No matter how bad the weather gets, we will stand together.",
+                "No matter how difficult the song is, she sings it beautifully.",
+                "No matter how far you go, I will remember our time."
+            ]
+        }
+    },
+    "california-dreaming": {
+        "en": {
+            "title": "The Second Conditional ('would')",
+            "explanation": "Used to talk about hypothetical situations in the present or future. In the song: 'I'd be safe and warm if I was in L.A.'",
+            "examples": [
+                "I would travel to California if I had enough money.",
+                "If the weather were warmer, we would walk in the park.",
+                "She would sing along if she knew the full lyrics."
+            ]
+        }
+    },
+    "me-and-i": {
+        "en": {
+            "title": "Present Simple of State & Reflection",
+            "explanation": "Using verbs of perception and state to describe internal conflicts and dual personalities.",
+            "examples": [
+                "Sometimes I feel there are two different people inside me.",
+                "I look in the mirror and analyze my own expressions.",
+                "She accepts her flaws and learns to live with them."
+            ]
+        }
+    },
+    "where-is-my-husband": {
+        "en": {
+            "title": "Present Continuous for search and waiting",
+            "explanation": "The present continuous is used to describe actions happening right now or ongoing processes.",
+            "examples": [
+                "I am waiting for your phone call tonight.",
+                "She is searching for a place to settle down.",
+                "We are looking through dating applications all day."
+            ]
+        }
+    },
+    "lets-generalize-about-men": {
+        "en": {
+            "title": "Generalization quantifiers ('all', 'every')",
+            "explanation": "Learn to use absolute quantifiers to make sweeping, humorous generalizations.",
+            "examples": [
+                "Let's generalize about every member of that group.",
+                "All three billion men are completely repressed.",
+                "Every single person has some secrets to keep."
+            ]
+        }
+    },
+    "so-maternal": {
+        "en": {
+            "title": "Intensifiers ('so', 'such')",
+            "explanation": "Used to give extra force or emphasis to a descriptive adjective or noun.",
+            "examples": [
+                "Damn, I am so maternal and tireless !",
+                "She is such a great parent and mentor.",
+                "They gave us such beautiful memories."
+            ]
+        }
+    },
+    "face-your-fears": {
+        "en": {
+            "title": "Imperatives for giving brave advice",
+            "explanation": "Use direct, bold imperative verbs to guide and motivate someone to act.",
+            "examples": [
+                "Face your fears and stand your ground !",
+                "Look the bear deep in the eyes and stay calm.",
+                "Do not run away when situations get scary."
+            ]
+        }
+    }
+}
+
+# Standardized Final Challenges
+FINAL_CHALLENGE_DB = {
+    "toutes-les-machines-ont-le-coeur": {
+        "en": "Write a short 3-sentence message to a robot explaining what makes the human heart fragile yet strong.",
+        "fr": "Écrivez un court message de 3 phrases à un robot pour lui expliquer ce qui rend le cœur humain fragile mais fort."
+    },
+    "ma-philosophie": {
+        "en": "Role-play a short dialogue where you explain your own personal 'philosophy of life' to a friend who is feeling discouraged.",
+        "fr": "Jouez un court dialogue dans lequel vous expliquez votre propre 'philosophie de vie' à un ami découragé."
+    },
+    "je-taime-comme-je-taime": {
+        "en": "Imagine a continuation of the story: Write a short postcard to your lover explaining why you chose to stay together 'away from the noise of the earth'.",
+        "fr": "Imaginez la suite de l'histoire : écrivez une courte carte postale à votre partenaire pour lui expliquer pourquoi vous avez choisi de rester ensemble 'loin du bruit de la terre'."
+    },
+    "salut": {
+        "en": "Role-play reuniting with an old friend you haven't seen in 10 years at a train station café. Express your surprise and nostagia.",
+        "fr": "Jouez des retrouvailles avec un ami que vous n'avez pas vu depuis 10 ans dans un café de gare. Exprimez votre nostalgie."
+    },
+    "unlikely-lovers": {
+        "en": "Give verbal advice to unlikely lovers who are facing social pressure. What should they prioritize?",
+        "fr": "Donnez des conseils verbaux à des amants improbables qui font face à la pression sociale. Que devraient-ils prioriser ?"
+    },
+    "where-is-my-husband": {
+        "en": "Continue the story: Write a creative message to a husband who has been missing for a week, explaining your feelings.",
+        "fr": "Continuez l'histoire : écrivez un message créatif к мужу, который пропал на неделю, объясняя свои чувства."
+    },
+    "lets-generalize-about-men": {
+        "en": "Conduct a short 3-minute debate on whether generalizations ever help in social discussions.",
+        "fr": "Menez un court débat de 3 minutes sur la question de savoir si les généralisations sont utiles dans les discussions sociales."
+    },
+    "so-maternal": {
+        "en": "Give playful advice to an overachieving parent on how to relax for a day.",
+        "fr": "Donnez des conseils ludiques à un parent ultra-performant sur la façon de se détendre pour une journée."
+    },
+    "face-your-fears": {
+        "en": "Role-play giving absurd but hilarious advice to someone who is terrified of public speaking.",
+        "fr": "Jouez à donner des conseils absurdes mais hilarants à quelqu'un qui a le trac de parler en public."
+    }
+}
+
+
 VOCAB_DB = {
     # French
     "Le cœur": ("organe musculaire creux, symbole de la vie et des sentiments.", "Elle écoute toujours son cœur pour prendre des décisions."),
@@ -1069,6 +1551,7 @@ CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
 </body>
 </html>"""
 
+
 def parse_existing_vocab(slug):
     path = f"events/sessions/{slug}.html"
     vocab_data = {}
@@ -1076,11 +1559,95 @@ def parse_existing_vocab(slug):
         return vocab_data
     with open(path, "r", encoding="utf-8") as f:
         html = f.read()
-    # Find all vocab cards using a flexible regex that accounts for potential formatting discrepancies
+    # Find all vocab cards using a flexible regex
     cards = re.findall(r'<div class="vocab-card"><div class="vocab-word">(.*?)</div><div class="vocab-def">(.*?)</div><div class="vocab-example">(.*?)</div>', html)
     for w, d, e in cards:
         vocab_data[w.strip()] = (d.strip(), e.strip())
     return vocab_data
+
+def get_language_focus(slug, lang):
+    if slug in LANGUAGE_FOCUS_DB:
+        entry = LANGUAGE_FOCUS_DB[slug]
+        if lang in entry:
+            return entry[lang]
+        if "en" in entry:
+            return entry["en"]
+
+    fallbacks = {
+        "fr": {
+            "title": "L'expression de la condition avec 'Si'",
+            "explanation": "Pour exprimer une hypothèse réelle ou imaginaire, on utilise 'si' suivi du présent ou de l'imparfait.",
+            "examples": [
+                "Si tu écoutes attentivement, tu comprendras les paroles.",
+                "Si j'avais le temps, je chanterais tous les jours.",
+                "Si nous partageons notre passion, nous progresserons ensemble."
+            ]
+        },
+        "en": {
+            "title": "The Modal Verb 'Must' for Obligation and Deduction",
+            "explanation": "We use 'must' to express a strong obligation or a logical deduction directly from the lyrics.",
+            "examples": [
+                "We must dare to make our own music.",
+                "The song is so beautiful, she must be a great artist.",
+                "You must listen carefully to fill in the missing gaps."
+            ]
+        },
+        "it": {
+            "title": "L'espressione del Futuro Semplice",
+            "explanation": "Il futuro semplice si usa per esprimere azioni che avverranno nel futuro o per fare promesse.",
+            "examples": [
+                "Domani ascolteremo questa bellissima canzone insieme.",
+                "Chi sarà con te quando il cammino si farà difficile?",
+                "Il sole riscalderà la spiaggia durante l'estate."
+            ]
+        },
+        "es": {
+            "title": "El uso de 'Para' + Infinitivo",
+            "explanation": "Se utiliza para expresar el propósito o la finalidad de una acción realizada.",
+            "examples": [
+                "Caminamos por la playa para sentir la brisa del mar.",
+                "Necesitamos tolerancia para construir una paz duradera.",
+                "Canto esta canción para expresar mi orgullo y felicidad."
+            ]
+        },
+        "ru": {
+            "title": "Глаголы направления и движения",
+            "explanation": "Глаголы движения, такие как 'лететь' и 'идти', используются для описания физического или метафорического пути.",
+            "examples": [
+                "Мы летим над ночным городом навстречу мечте.",
+                "Она идет по тихой улице, вспоминая детство.",
+                "Ветер дует прямо в лицо, но мы продолжаем полет."
+            ]
+        },
+        "el": {
+            "title": "Η χρήση του 'να' με Υποτακτική",
+            "explanation": "Η υποτακτική έγκλιση χρησιμοποιείται για να εκφράσουμε επιθυμία, προτροπή ή ανάγκη.",
+            "examples": [
+                "Θέλω να ακούσω αυτό το τραγούδι ξανά.",
+                "Ας μιλήσουμε μαζί για την αγάπη και την ελπίδα.",
+                "Πρέπει να κρατήσουμε την υπόσχεσή μας για πάντα."
+            ]
+        }
+    }
+    return fallbacks.get(lang, fallbacks["en"])
+
+def get_final_challenge(slug, lang):
+    if slug in FINAL_CHALLENGE_DB:
+        entry = FINAL_CHALLENGE_DB[slug]
+        if lang in entry:
+            return entry[lang]
+        if "en" in entry:
+            return entry["en"]
+
+    fallbacks = {
+        "en": "Imagine the sequel of this song: Role-play a conversation between the main characters 5 years later.",
+        "fr": "Imaginez la suite de cette chanson : jouez une conversation entre les personnages principaux 5 ans plus tard.",
+        "it": "Immagina il seguito di questa canzone: fai un gioco di ruolo di una conversazione tra i personaggi principali 5 anni dopo.",
+        "es": "Imagina la secuela de esta canción: haz un juego de rol de una conversación entre los personajes principales 5 años después.",
+        "ru": "Представьте продолжение этой песни: разыграйте по ролям разговор между главными героями 5 лет спустя.",
+        "el": "Φανταστείτε τη συνέχεια αυτού του τραγουδιού: παίξτε ένα παιχνίδι ρόλων μεταξύ των κύριων χαρακτήρων 5 χρόνια αργότερα."
+    }
+    return fallbacks.get(lang, fallbacks["en"])
 
 def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     title = song["title"]
@@ -1088,54 +1655,94 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     vocab_words = song["vocab"]
     helpers = song["helpers"]
     lyrics_text = song["lyrics"].replace("\n", "<br>")
+    slug = sub_slug or song["slug"]
 
-    # Build vocabulary cards html
+    # Vocabulary grouping into two themed buckets (5 words each)
     vocab_cards_html = ""
-    for w in vocab_words:
-        norm_w = w.replace("L'", "").replace("La ", "").replace("Le ", "").replace("El ", "").replace("La ", "").replace("Il ", "").replace("La ", "").replace("Η ", "").replace("Το ", "").replace("Ο ", "")
 
-        # Use parsed definitions/examples to avoid placeholder defaults
-        if existing_vocab and w in existing_vocab:
-            definition, example = existing_vocab[w]
-            found = True
-        else:
-            definition, example = ("definition.", "Example sentence.")
-            found = False
-            for k, v in VOCAB_DB.items():
-                if k.lower() == w.lower() or k.lower().startswith(norm_w.lower()):
-                    definition, example = v
-                    found = True
-                    break
+    headers_dict = {
+        "en": ("❤️ Core Concepts & Feelings", "🗣️ Life, Actions & Connection"),
+        "fr": ("❤️ Concepts clés & Émotions", "🗣️ Vie, Actions & Connexion"),
+        "it": ("❤️ Concetti chiave & Emozioni", "🗣️ Vita, Azioni & Connessione"),
+        "es": ("❤️ Conceptos clave & Emociones", "🗣️ Vida, Acciones & Conexión"),
+        "ru": ("❤️ Ключевые понятия и чувства", "🗣️ Жизнь, действия и связи"),
+        "el": ("❤️ Βασικές Έννοιες & Συναισθήματα", "🗣️ Ζωή, Δράσεις & Σύνδεση")
+    }
+    cat1_hdr, cat2_hdr = headers_dict.get(lang, headers_dict["en"])
 
-        if not found:
-            definition = f"Target vocabulary word meaning in '{title}'."
-            example = f"This is an elegant example of using '{w}'."
+    part1 = vocab_words[:5]
+    part2 = vocab_words[5:]
 
-        escaped_def = definition.replace("'", "\\'")
-        escaped_ex = example.replace("'", "\\'")
-        vocab_cards_html += f"""            <div class="vocab-card"><div class="vocab-word">{w}</div><div class="vocab-def">{definition}</div><div class="vocab-example">{example}</div><button class="btn-add-dict" onclick="COSY.addToDict({{word:'{w}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">+ Dictionary</button></div>\n"""
+    def build_cards_block(words_list, cat_header):
+        html_block = '        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo);">' + cat_header + '</h3>\n'
+        for w in words_list:
+            norm_w = w.replace("L\'", "").replace("La ", "").replace("Le ", "").replace("El ", "").replace("La ", "").replace("Il ", "").replace("La ", "").replace("Η ", "").replace("Το ", "").replace("Ο ", "")
 
-    # Build word bank helpers
+            if existing_vocab and w in existing_vocab:
+                definition, example = existing_vocab[w]
+                found = True
+            else:
+                definition, example = ("definition.", "Example sentence.")
+                found = False
+                for k, v in VOCAB_DB.items():
+                    if k.lower() == w.lower() or k.lower().startswith(norm_w.lower()):
+                        definition, example = v
+                        found = True
+                        break
+
+            if not found:
+                definition = f"Target vocabulary word meaning in '{title}'."
+                example = f"This is an elegant example of using '{w}'."
+
+            if not definition.endswith((".", "?", "!")):
+                definition += "."
+            if not example.endswith((".", "?", "!")):
+                example += "."
+
+            opp_html = ""
+            if norm_w in OPPOSITES_MAP:
+                opp_word = OPPOSITES_MAP[norm_w]
+                opp_label = loc["opp_label"]
+                opp_html = f'\n            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>{opp_label}</strong> <span class="vocab-opp-word" style="font-weight: 600;">{opp_word}</span></div>'
+
+            escaped_def = definition.replace("'", "\\'")
+            escaped_ex = example.replace("'", "\\'")
+            html_block += f"""            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">{w}</div><div class="vocab-def">{definition}</div><div class="vocab-example">{example}</div>{opp_html}<button class="btn-add-dict" onclick="COSY.addToDict({{word:\'{w}\', definition:\'{escaped_def}\', example:\'{escaped_ex}\'}}, this)">+ Dictionary</button></div>\n"""
+        return html_block
+
+    vocab_cards_html += build_cards_block(part1, cat1_hdr)
+    if part2:
+        vocab_cards_html += build_cards_block(part2, cat2_hdr)
+
     word_bank_html = ""
     for helper in helpers:
         word_bank_html += f'        <span class="club-tag" style="background: white; border-color: var(--border);">{helper}</span>\n'
 
-    # Build discussion questions (Warm-up, Round 1 & 2)
     warmup_questions_html = ""
-    warmup_questions_html += f"            <li>Have you ever listened to '{title}' before?</li>\n"
-    warmup_questions_html += f"            <li>What kind of emotions does this style of music bring to you?</li>\n"
-
-    # French overrides for warmup
     if lang == "fr":
-        warmup_questions_html = f"            <li>Aviez-vous déjà écouté '{title}' avant cette session ?</li>\n            <li>Quel type d'émotions cette musique vous inspire-t-elle ?</li>\n"
+        warmup_questions_html += f"            <li>Quelle est l'importance de ce thème de discussion dans votre vie quotidienne ?</li>\n"
+        warmup_questions_html += f"            <li>Regardez le titre '{title}' et l'artiste '{artist}'. Selon vous, de quoi parle cette chanson ? (Question de prédiction)</li>\n"
+        warmup_questions_html += f"            <li>Quelles émotions ou quels sentiments ce style de musique vous inspire-t-il ?</li>\n"
     elif lang == "ru":
-        warmup_questions_html = f"            <li>Слушали ли вы когда-нибудь '{title}' до этого дня?</li>\n            <li>Какие эмоции вызывает у вас эта музыкальная композиция?</li>\n"
+        warmup_questions_html += f"            <li>Насколько важна тема этого обсуждения в вашей повседневной жизни?</li>\n"
+        warmup_questions_html += f"            <li>Посмотрите на название '{title}' и исполнителя '{artist}'. Как вы думаете, о чем будет эта песня? (Вопрос-предсказание)</li>\n"
+        warmup_questions_html += f"            <li>Какие эмоции вызывает у вас такой стиль музыки?</li>\n"
     elif lang == "it":
-        warmup_questions_html = f"            <li>Hai mai ascoltato '{title}' prima di questa sessione?</li>\n            <li>Che tipo di emozioni ti trasmette questa melodia?</li>\n"
+        warmup_questions_html += f"            <li>Quanto ritieni importante questo tema di discussione nella tua vita quotidiana?</li>\n"
+        warmup_questions_html += f"            <li>Guarda il titolo '{title}' e l'artista '{artist}'. Secondo te, di cosa parlerà questa canzone? (Domanda di predizione)</li>\n"
+        warmup_questions_html += f"            <li>Quali emozioni ti trasmette questo stile di musica?</li>\n"
     elif lang == "es":
-        warmup_questions_html = f"            <li>¿Habías escuchado alguna vez '{title}' antes de hoy?</li>\n            <li>¿Qué tipo de sensaciones te transmite este ritmo?</li>\n"
+        warmup_questions_html += f"            <li>¿Qué tan importante es este tema de discusión en tu vida diaria?</li>\n"
+        warmup_questions_html += f"            <li>Mira el título '{title}' y el artista '{artist}'. En tu opinión, ¿de qué tratará esta canción? (Pregunta de predicción)</li>\n"
+        warmup_questions_html += f"            <li>¿Qué tipo de sensaciones te transmite este estilo de música?</li>\n"
     elif lang == "el":
-        warmup_questions_html = f"            <li>Έχετε ακούσει ποτέ το '{title}' πριν από αυτή τη συνεδρία;</li>\n            <li>Τι είδους συναισθήματα σας προκαλεί αυτή η μελωδία;</li>\n"
+        warmup_questions_html += f"            <li>Πόσο σημαντικό είναι αυτό το θέμα συζήτησης στην καθημερινή σας ζωή;</li>\n"
+        warmup_questions_html += f"            <li>Κοιτάξτε τον τίτλο '{title}' και τον καλλιτέχνη '{artist}'. Τι προβλέπετε ότι αφορά αυτό το τραγούδι; (Ερώτηση πρόβλεψης)</li>\n"
+        warmup_questions_html += f"            <li>Τι συναισθήματα σας προκαλεί αυτό το είδος μουσικής;</li>\n"
+    else: # English
+        warmup_questions_html += f"            <li>How important is this discussion theme in your daily life?</li>\n"
+        warmup_questions_html += f"            <li>Look at the title '{title}' and the artist '{artist}'. What do you predict this song is about? (Prediction question)</li>\n"
+        warmup_questions_html += f"            <li>What kind of emotions does this style of music bring to you?</li>\n"
 
     r1_questions_html = ""
     for w in vocab_words:
@@ -1176,7 +1783,6 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
 
         r2_statements_html += f'          <div class="round-item"><div class="round-item-main">{stmt}</div></div>\n'
 
-    # Level-appropriate mistakes from MISTAKES_DB
     mistakes_html = ""
     m_list = MISTAKES_DB[lang] if lang in MISTAKES_DB else MISTAKES_DB["en"]
     for wrong, right, explanation in m_list:
@@ -1187,6 +1793,31 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
             <span class="mistake-note-text">({explanation})</span>
           </div>\n"""
 
+    lf = get_language_focus(slug, lang)
+    examples_html = ""
+    for ex in lf["examples"]:
+        examples_html += f'        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">{ex}</li>\n'
+
+    lang_focus_html = f"""
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">{lf["title"]}</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">{lf["explanation"]}</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+{examples_html}      </ul>
+    </div>
+    """
+
+    fc_text = get_final_challenge(slug, lang)
+    final_challenge_html = f"""
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">{fc_text}</p>
+      </div>
+    </div>
+    """
+
     return {
         "vocab_cards_html": vocab_cards_html,
         "word_bank_html": word_bank_html,
@@ -1194,7 +1825,9 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
         "r1_questions_html": r1_questions_html,
         "r2_statements_html": r2_statements_html,
         "mistakes_html": mistakes_html,
-        "lyrics_text": lyrics_text
+        "lyrics_text": lyrics_text,
+        "lang_focus_html": lang_focus_html,
+        "final_challenge_html": final_challenge_html
     }
 
 # STEP 1: Parse all 56 songs dynamically from their existing files
@@ -1206,7 +1839,6 @@ for slug in sorted(LYRICS_DATA.keys()):
     with open(path, "r", encoding="utf-8") as f:
         html = f.read()
 
-    # Extract metadata using robust regex
     title_m = re.search(r"<h1>(.*?)</h1>", html)
     title = title_m.group(1).strip() if title_m else slug.replace("-", " ").title()
 
@@ -1220,19 +1852,22 @@ for slug in sorted(LYRICS_DATA.keys()):
     variety_m = re.search(r"<h4>(?:Variety/Language|Language|Langue|Язык|Lingua|Idioma|Γλώσσα|Variety)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
     variety = variety_m.group(1).strip() if variety_m else "English"
 
-    # Pre-parse theme first. We will override it if defined in SONG_THEMES
     focus_m = re.search(r"<h4>(?:Thematic Focus|Focus|Thème|Тема|Tema|Θέμα)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
     focus = focus_m.group(1).strip() if focus_m else ""
 
-    # Override theme if defined in master taxonomy SONG_THEMES
     if slug in SONG_THEMES:
-        # Fallback to English translation if target lang is missing
         focus = SONG_THEMES[slug].get(lang, SONG_THEMES[slug].get("en", focus))
 
     vocab = re.findall(r'<div class="vocab-word">(.*?)</div>', html)
-    vocab = [v.strip() for v in vocab]
+    vocab_cleaned = []
+    for v in vocab:
+        v_stripped = v.strip()
+        if "style=" in v_stripped:
+            sub_m = re.search(r'>(.*?)<', v_stripped)
+            if sub_m:
+                v_stripped = sub_m.group(1).strip()
+        vocab_cleaned.append(v_stripped)
 
-    # Map level raw to short code
     level_short = "B1"
     if any(k in level_raw for k in ["A2", "Débutant", "Στοιχειώδες", "Beginner"]):
         level_short = "A2"
@@ -1249,7 +1884,7 @@ for slug in sorted(LYRICS_DATA.keys()):
         "lang": lang,
         "variety": variety,
         "focus": focus,
-        "vocab": vocab,
+        "vocab": vocab_cleaned,
         "helpers": LYRICS_DATA[slug]["helpers"],
         "lyrics": LYRICS_DATA[slug]["lyrics"]
     })
@@ -1263,7 +1898,6 @@ for slug in sorted(CHALLENGE_MAP.keys()):
     with open(path, "r", encoding="utf-8") as f:
         html = f.read()
 
-    # Extract metadata using robust regex
     title_m = re.search(r"<h1>(.*?)</h1>", html)
     title = title_m.group(1).strip() if title_m else slug.replace("-", " ").title()
 
@@ -1280,14 +1914,19 @@ for slug in sorted(CHALLENGE_MAP.keys()):
     focus_m = re.search(r"<h4>(?:Thematic Focus|Focus|Thème|Тема|Tema|Θέμα)</h4>\s*<p>(.*?)</p>", html, re.DOTALL)
     focus = focus_m.group(1).strip() if focus_m else ""
 
-    # Override theme if defined in master taxonomy SONG_THEMES
     if slug in SONG_THEMES:
         focus = SONG_THEMES[slug].get(lang, SONG_THEMES[slug].get("en", focus))
 
     vocab = re.findall(r'<div class="vocab-word">(.*?)</div>', html)
-    vocab = [v.strip() for v in vocab]
+    vocab_cleaned = []
+    for v in vocab:
+        v_stripped = v.strip()
+        if "style=" in v_stripped:
+            sub_m = re.search(r'>(.*?)<', v_stripped)
+            if sub_m:
+                v_stripped = sub_m.group(1).strip()
+        vocab_cleaned.append(v_stripped)
 
-    # Map level raw to short code
     level_short = "B1"
     if any(k in level_raw for k in ["A2", "Débutant", "Στοιχειώδες", "Beginner"]):
         level_short = "A2"
@@ -1296,18 +1935,15 @@ for slug in sorted(CHALLENGE_MAP.keys()):
     elif "C1" in level_raw:
         level_short = "C1"
 
-    # Merge full lyrics and helpers from the constituent songs of this challenge
     sub_slugs = CHALLENGE_MAP[slug]
 
     combined_lyrics_parts = []
     combined_helpers = []
 
     for i, sub_slug in enumerate(sub_slugs):
-        # Locate title names of sub-songs
         sub_title = next((s["title"] for s in songs_list if s["slug"] == sub_slug), sub_slug.replace("-", " ").title())
         lyrics_text = LYRICS_DATA[sub_slug]["lyrics"]
 
-        # Localized labels for "Song" / "Chanson" etc.
         song_label = f"Song {i+1}"
         if lang == "fr":
             song_label = f"Chanson {i+1}"
@@ -1334,13 +1970,234 @@ for slug in sorted(CHALLENGE_MAP.keys()):
         "lang": lang,
         "variety_lang": variety,
         "focus": focus,
-        "vocab": vocab,
+        "vocab": vocab_cleaned,
         "helpers": combined_helpers,
         "lyrics": combined_lyrics
     })
 
-# Merge lists for generation (56 individual songs + 11 challenges = 67 pages)
 all_karaoke_data = songs_list + challenges_list
+
+HTML_TEMPLATE = """<!DOCTYPE html>
+<html lang="{lang}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title} — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>{title}</h1>
+  <p class="session-date">{artist} • {level_short}</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">{breadcrumbs_home}</a> <span class="sep">/</span>
+    <a href="../">{breadcrumbs_events}</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">{breadcrumbs_club}</a> <span class="sep">/</span>
+    <span class="current">{title}</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">{back_link}</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>{dur_label}</h4><p>{dur_val}</p></div>
+    <div class="meta-item"><h4>{lang_label}</h4><p>{variety_lang}</p></div>
+    <div class="meta-item"><h4>{level_label}</h4><p>{level_long}</p></div>
+    <div class="meta-item"><h4>{focus_label}</h4><p>{focus}</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="{song_link}" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="{song_link_backup}" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo);">❤️ {theme_label}: {focus}</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">{discuss_label}:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+      {theme_bullet_points}    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (20%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (10%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound(\'s-warm\')">
+        <span>{warmup_title}</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+{warmup_questions_html}        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound(\'vocabulary\')">
+        <span>{vocab_title}</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+{vocab_cards_html}        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound(\'listening-exercise\')">
+        <span>{listening_title}</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">{word_bank_title}</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: \'Nunito\', sans-serif;">
+{word_bank_html}          </div>
+        </div>
+
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: \'DM Sans\', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">{lyrics_text}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound(\'discussion\')">
+        <span>{discussion_title}</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+{r1_questions_html}        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+{r2_statements_html}        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound(\'lang-focus\')">
+        <span>{lang_focus_title}</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+{lang_focus_html}      </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound(\'final-challenge\')">
+        <span>{final_challenge_title}</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+{final_challenge_html}      </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock(\'s-mistakes\')">
+        <span>{teacher_note_title}</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+{mistakes_html}      </div>
+    </div>
+  </div>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>"""
+
+CHALLENGE_HTML_TEMPLATE = """<!DOCTYPE html>
+<html lang="{lang}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title} — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>{title}</h1>
+  <p class="session-date">{artist} • {level_short}</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">{breadcrumbs_home}</a> <span class="sep">/</span>
+    <a href="../">{breadcrumbs_events}</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">{breadcrumbs_club}</a> <span class="sep">/</span>
+    <span class="current">{title}</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">{back_link}</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>{dur_label}</h4><p>{dur_val}</p></div>
+    <div class="meta-item"><h4>{lang_label}</h4><p>{variety_lang}</p></div>
+    <div class="meta-item"><h4>{level_label}</h4><p>{level_long}</p></div>
+    <div class="meta-item"><h4>{focus_label}</h4><p>{focus}</p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>{description}</p>
+  </div>
+
+  <vim-choice>
+{tabs_html}  </vim-choice>
+
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>"""
 
 for song in all_karaoke_data:
     slug = song["slug"]
@@ -1349,7 +2206,6 @@ for song in all_karaoke_data:
     level_short = song["level"]
     level_long = "Intermediate (B1)" if level_short == "B1" else ("Beginner (A2)" if level_short == "A2" else ("Upper Intermediate (B2)" if level_short == "B2" else "Advanced (C1)"))
 
-    # Specific lang overrides for full level description
     if song["lang"] == "fr":
         level_long = "Intermédiaire (B1)" if level_short == "B1" else ("Débutant (A2)" if level_short == "A2" else "Intermédiaire Supérieur (B2)")
     elif song["lang"] == "ru":
@@ -1365,18 +2221,28 @@ for song in all_karaoke_data:
     variety_lang = song["variety_lang"] if "variety_lang" in song else song.get("variety", "English")
     focus = song["focus"]
 
-    # Localization keys
-    loc = LOCALIZATIONS[lang] if lang in LOCALIZATIONS else LOCALIZATIONS["en"]
+    loc = LOCALIZATIONS_NEW[lang] if lang in LOCALIZATIONS_NEW else LOCALIZATIONS_NEW["en"]
 
-    # Pre-parse the existing vocabulary from the file to preserve accurate definitions & examples
     existing_vocab = parse_existing_vocab(slug)
 
-    # Render and write HTML
-    if slug in CHALLENGE_MAP:
-        # Challenge Page
-        dur_val = "90 minutes"  # Specific rule: challenges always last 90 minutes
+    theme_bullet_points = ""
+    custom_bullet_points = {
+        "toutes-les-machines-ont-le-coeur": ["human connection", "digital age", "technological impact", "emotional fragility"],
+        "ma-philosophie": ["personal philosophy", "determination & strength", "diversity & pride", "individual choices"],
+        "je-taime-comme-je-taime": ["unconditional love", "relationships", "emotional intimacy", "peace of mind"],
+        "unlikely-lovers": ["unlikely relationships", "hope & devotion", "adversity & support", "solace in crisis"]
+    }
+    if slug in custom_bullet_points:
+        points = custom_bullet_points[slug]
+    else:
+        points = [v.replace("Le ", "").replace("La ", "").replace("L'", "").capitalize() for v in song["vocab"][:3]] + ["Personal reflection"]
 
-        # Build tabs content
+    for pt in points:
+        theme_bullet_points += f"      <li>{pt}</li>\n"
+
+    if slug in CHALLENGE_MAP:
+        dur_val = "90 minutes"
+
         tabs_html = ""
         for sub_slug in CHALLENGE_MAP[slug]:
             sub_song = next((s for s in songs_list if s["slug"] == sub_slug), None)
@@ -1386,120 +2252,139 @@ for song in all_karaoke_data:
             sub_title = sub_song["title"]
             sub_artist = sub_song["artist"]
 
-            # Use SONG_LINKS dictionary to get resource video link per song
             sub_song_link = SONG_LINKS.get(sub_slug, f"https://www.youtube.com/results?search_query={sub_title.replace(' ', '+')}+{sub_artist.replace(' ', '+')}")
             sub_song_link_backup = sub_song_link
 
-            # Pre-parse the constituent song vocabulary too
             sub_existing_vocab = parse_existing_vocab(sub_slug)
 
             sub_elements = generate_song_elements(sub_song, loc, lang, sub_slug=sub_slug, existing_vocab=sub_existing_vocab)
 
+            sub_theme_bullet_points = ""
+            if sub_slug in custom_bullet_points:
+                sub_points = custom_bullet_points[sub_slug]
+            else:
+                sub_points = [v.replace("Le ", "").replace("La ", "").replace("L'", "").capitalize() for v in sub_song["vocab"][:3]] + ["Personal reflection"]
+            for pt in sub_points:
+                sub_theme_bullet_points += f"      <li>{pt}</li>\n"
+
             tabs_html += f"""    <vim-choice-option>
       <vim-choice-option-title>{sub_title}</vim-choice-option-title>
       <vim-choice-option-content>
-        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: 1fr;">
+        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
           <div class="meta-item"><h4>Resources</h4><p>
             <a href="{sub_song_link}" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
             <a href="{sub_song_link_backup}" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
           </p></div>
         </div>
 
-        <!-- COLLAPSIBLE VOCABULARY SECTION -->
-        <section id="vocabulary-{sub_slug}" class="round-block open" style="margin-bottom: 2rem;">
-          <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-{sub_slug}')">
-            <span>{loc["vocab_title"]}</span><span class="round-toggle">▲</span>
-          </div>
-          <div class="round-body" style="display:block; padding-top: 1.5rem;">
-            <div class="vocab-grid-10">
-{sub_elements["vocab_cards_html"]}
-            </div>
-          </div>
-        </section>
+        <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+          <h3 style="margin-top:0; font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo);">❤️ {loc["theme_label"]}: {sub_song["focus"]}</h3>
+          <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">{loc["discuss_label"]}:</p>
+          <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            {sub_theme_bullet_points}          </ul>
+        </div>
 
-        <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
-        <section id="listening-exercise-{sub_slug}" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
-          <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-{sub_slug}')">
-            <span>{loc["listening_title"]}</span><span class="round-toggle">▲</span>
+        <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+          <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+            <span>🗣️ Speaking Time Gauge</span>
+            <span>90-120 min Session</span>
           </div>
-          <div class="round-body" style="display:block; padding-top: 1.5rem;">
-            <div class="vim-instruction">
-              {loc["listening_instruction"]}
-            </div>
+          <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+            <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+            <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+            <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+            <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+            <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+            <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+            <span>{loc["warmup_title"]} (10%)</span>
+            <span>{loc["vocab_title"]} (15%)</span>
+            <span>{loc["listening_title"]} (20%)</span>
+            <span>{loc["discussion_title"]} (45%)</span>
+            <span>{loc["lang_focus_title"]} (10%)</span>
+            <span>{loc["final_challenge_title"]} (10%)</span>
+          </div>
+        </div>
 
-            <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-              <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">{loc["word_bank_title"]}</h3>
-              <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
-{sub_elements["word_bank_html"]}
-              </div>
+        <div class="rounds-container">
+          <div class="round-block warm-up open" id="s-warm-{sub_slug}">
+            <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound(\'s-warm-{sub_slug}\')">
+              <span>{loc["warmup_title"]}</span><span class="round-toggle">▲</span>
             </div>
-
-            <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-              <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">{loc["lyrics_title"]}</h3>
-              <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">{sub_elements["lyrics_text"]}</p>
+            <div class="round-body" style="display:block;">
+              <ul class="round-questions">
+{sub_elements["warmup_questions_html"]}              </ul>
             </div>
           </div>
-        </section>
 
-        <!-- DISCUSSION STRUCTURE -->
-        <section id="structure-{sub_slug}">
-          <h2 class="section-title">{loc["structure_title"]}</h2>
-          <div class="rounds-container">
-            <div class="round-block warm-up open" id="s-warm-{sub_slug}">
-              <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm-{sub_slug}')">
-                <span>{loc["warmup_title"]}</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="vim-instruction">{loc["warmup_instruction"]}</div>
-                <ul class="round-questions">
-{sub_elements["warmup_questions_html"]}
-                </ul>
-              </div>
+          <div class="round-block open" id="vocabulary-{sub_slug}">
+            <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound(\'vocabulary-{sub_slug}\')">
+              <span>{loc["vocab_title"]}</span><span class="round-toggle">▲</span>
             </div>
-            <div class="round-block round-1 open" id="s-r1-{sub_slug}">
-              <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1-{sub_slug}')">
-                <span>{loc["r1_title"]}</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="round-type-badge">Questions</div>
-                <div class="vim-instruction">{loc["r1_instruction"]}</div>
-{sub_elements["r1_questions_html"]}
-              </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div class="vocab-grid-10">
+{sub_elements["vocab_cards_html"]}              </div>
             </div>
-            <div class="round-block lst open" id="s-lst-{sub_slug}">
-              <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst-{sub_slug}')">
-                <span>{loc["speak_together_title"]}</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <p class="round-note">{loc["speak_together_note"]}</p>
-                <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
-                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
-                </div>
-              </div>
+          </div>
+
+          <div class="round-block open" id="listening-exercise-{sub_slug}">
+            <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound(\'listening-exercise-{sub_slug}\')">
+              <span>{loc["listening_title"]}</span><span class="round-toggle">▲</span>
             </div>
-            <div class="round-block round-2 open" id="s-r2-{sub_slug}">
-              <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2-{sub_slug}')">
-                <span>{loc["r2_title"]}</span><span class="round-toggle">▲</span>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+                <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">{loc["word_bank_title"]}</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: \'Nunito\', sans-serif;">
+{sub_elements["word_bank_html"]}                </div>
               </div>
-              <div class="round-body" style="display:block;">
-                <div class="round-type-badge">Debate</div>
-                <div class="vim-instruction">{loc["r2_instruction"]}</div>
-{sub_elements["r2_statements_html"]}
-              </div>
-            </div>
-            <div class="mistake-block open" id="s-mistakes-{sub_slug}">
-              <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-{sub_slug}')">
-                <span>{loc["teacher_note_title"]}</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="mistake-body" style="display:block;">
-{sub_elements["mistakes_html"]}
+
+              <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: \'DM Sans\', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+                <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">{sub_elements["lyrics_text"]}</p>
               </div>
             </div>
           </div>
-        </section>
+
+          <div class="round-block open" id="discussion-{sub_slug}">
+            <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound(\'discussion-{sub_slug}\')">
+              <span>{loc["discussion_title"]}</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div class="round-1" style="margin-bottom: 2rem;">
+                <h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+{sub_elements["r1_questions_html"]}              </div>
+              <div class="round-2" style="margin-top: 2rem;">
+                <h3 style="font-family:\'Playfair Display\', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+{sub_elements["r2_statements_html"]}              </div>
+            </div>
+          </div>
+
+          <div class="round-block open" id="lang-focus-{sub_slug}">
+            <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound(\'lang-focus-{sub_slug}\')">
+              <span>{loc["lang_focus_title"]}</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+{sub_elements["lang_focus_html"]}            </div>
+          </div>
+
+          <div class="round-block open" id="final-challenge-{sub_slug}">
+            <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound(\'final-challenge-{sub_slug}\')">
+              <span>{loc["final_challenge_title"]}</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+{sub_elements["final_challenge_html"]}            </div>
+          </div>
+
+          <div class="mistake-block open" id="s-mistakes-{sub_slug}">
+            <div class="mistake-header" onclick="COSY.toggleBlock(\'s-mistakes-{sub_slug}\')">
+              <span>{loc["teacher_note_title"]}</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="mistake-body" style="display:block;">
+{sub_elements["mistakes_html"]}            </div>
+          </div>
+        </div>
       </vim-choice-option-content>
-    </vim-choice-option>\n"""
+    </vim-choice-option>"""
 
         desc = f"Complete this special Karaoke Challenge consisting of {len(CHALLENGE_MAP[slug])} classic songs: {', '.join(songs_list[s]['title'] if isinstance(s, int) else next((song['title'] for song in songs_list if song['slug'] == s), s.replace('-', ' ').title()) for s in CHALLENGE_MAP[slug])}. Practice and compare their vocabulary, lyrics, and cultural significance!"
         if lang == "fr":
@@ -1534,14 +2419,12 @@ for song in all_karaoke_data:
             tabs_html=tabs_html
         )
     else:
-        # Individual Song Page
-        dur_val = "60 minutes"
+        dur_val = "90–120 minutes"
         song_link = SONG_LINKS.get(slug, f"https://www.youtube.com/results?search_query={title.replace(' ', '+')}+{artist.replace(' ', '+')}")
         song_link_backup = song_link
 
         elements = generate_song_elements(song, loc, lang, existing_vocab=existing_vocab)
 
-        # Generate complete description
         desc = f"Explore the beautiful track '{title}' by {artist} in {variety_lang}. This session focuses on the vocabulary of '{focus}' and key linguistic structures of the lyrics. Students will practice speaking and debating about these themes."
         if lang == "fr":
             desc = f"Explorez le magnifique titre '{title}' de {artist} en {variety_lang}. Cette session se concentre sur le vocabulaire de '{focus}' et les structures linguistiques clés des paroles. Les étudiants s'exerceront à s'exprimer et à débattre de ces thèmes."
@@ -1574,32 +2457,30 @@ for song in all_karaoke_data:
             song_link=song_link,
             song_link_backup=song_link_backup,
             description=desc,
+            theme_label=loc["theme_label"],
+            discuss_label=loc["discuss_label"],
+            theme_bullet_points=theme_bullet_points,
             vocab_title=loc["vocab_title"],
             vocab_cards_html=elements["vocab_cards_html"],
             listening_title=loc["listening_title"],
-            listening_instruction=loc["listening_instruction"],
             word_bank_title=loc["word_bank_title"],
             word_bank_html=elements["word_bank_html"],
-            lyrics_title=loc["lyrics_title"],
             lyrics_text=elements["lyrics_text"],
-            structure_title=loc["structure_title"],
             warmup_title=loc["warmup_title"],
-            warmup_instruction=loc["warmup_instruction"],
             warmup_questions_html=elements["warmup_questions_html"],
-            r1_title=loc["r1_title"],
-            r1_instruction=loc["r1_instruction"],
             r1_questions_html=elements["r1_questions_html"],
-            speak_together_title=loc["speak_together_title"],
-            speak_together_note=loc["speak_together_note"],
-            r2_title=loc["r2_title"],
-            r2_instruction=loc["r2_instruction"],
             r2_statements_html=elements["r2_statements_html"],
             teacher_note_title=loc["teacher_note_title"],
-            mistakes_html=elements["mistakes_html"]
+            mistakes_html=elements["mistakes_html"],
+            discussion_title=loc["discussion_title"],
+            lang_focus_title=loc["lang_focus_title"],
+            lang_focus_html=elements["lang_focus_html"],
+            final_challenge_title=loc["final_challenge_title"],
+            final_challenge_html=elements["final_challenge_html"]
         )
 
     filepath = os.path.join(OUTPUT_DIR, f"{slug}.html")
     with open(filepath, "w", encoding="utf-8") as fh:
         fh.write(formatted_html)
 
-print(f"Generated all {len(all_karaoke_data)} Karaoke session HTML pages successfully with full authentic lyrics and collapsible layout!")
+print(f"Generated all {len(all_karaoke_data)} Karaoke session HTML pages successfully with full authentic lyrics, collapsible 6-stage layout, opposites, Theme Box, Speaking Time Progress, and PDF download button!")
