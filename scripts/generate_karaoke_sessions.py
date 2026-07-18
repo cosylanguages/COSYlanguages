@@ -1559,10 +1559,11 @@ def parse_existing_vocab(slug):
         return vocab_data
     with open(path, "r", encoding="utf-8") as f:
         html = f.read()
-    # Find all vocab cards using a flexible regex
-    cards = re.findall(r'<div class="vocab-card"><div class="vocab-word">(.*?)</div><div class="vocab-def">(.*?)</div><div class="vocab-example">(.*?)</div>', html)
+    # Find all vocab cards using a flexible regex that matches optional attributes and spacing
+    cards = re.findall(r'<div class="vocab-card[^>]*>\s*<div class="vocab-word[^>]*>(.*?)</div>\s*<div class="vocab-def[^>]*>(.*?)</div>\s*<div class="vocab-example[^>]*>(.*?)</div>', html, re.DOTALL)
     for w, d, e in cards:
-        vocab_data[w.strip()] = (d.strip(), e.strip())
+        w_clean = re.sub(r'<[^>]*>', '', w).strip()
+        vocab_data[w_clean] = (d.strip(), e.strip())
     return vocab_data
 
 def get_language_focus(slug, lang):
@@ -1648,6 +1649,1176 @@ def get_final_challenge(slug, lang):
         "el": "Φανταστείτε τη συνέχεια αυτού του τραγουδιού: παίξτε ένα παιχνίδι ρόλων μεταξύ των κύριων χαρακτήρων 5 χρόνια αργότερα."
     }
     return fallbacks.get(lang, fallbacks["en"])
+
+
+SLUG_CATEGORIES = {
+    "toutes-les-machines-ont-le-coeur": "society_modern_life",
+    "balance-ton-quoi": "society_modern_life",
+    "laziza": "society_modern_life",
+    "overprotected": "society_modern_life",
+    "the-greatest": "society_modern_life",
+    "where-is-my-husband": "society_modern_life",
+    "ma-philosophie": "identity_expression",
+    "voila": "identity_expression",
+    "me-and-i": "identity_expression",
+    "mixed-up-world": "identity_expression",
+    "make-your-own-kind-of-music": "identity_expression",
+    "diva": "identity_expression",
+    "one-of-the-greats": "identity_expression",
+    "je-taime-comme-je-taime": "relationships_love",
+    "toi-mon-amour": "relationships_love",
+    "oui-ou-non": "relationships_love",
+    "quelquun-pour-toi": "relationships_love",
+    "un-premier-amour": "relationships_love",
+    "luomo-che-amava-le-donne": "relationships_love",
+    "chi-sara-con-te": "relationships_love",
+    "lamore-e-un-attimo": "relationships_love",
+    "amor-libre": "relationships_love",
+    "te-alejas-mas-de-mi": "relationships_love",
+    "na-i-agapi-na": "relationships_love",
+    "oh-to-be-in-love": "relationships_love",
+    "unlikely-lovers": "relationships_love",
+    "to-idio-to-theo": "relationships_love",
+    "coming-around-again": "relationships_love",
+    "nos-ames-sont": "relationships_love",
+    "due-grosse-lacrime-bianche": "relationships_love",
+    "immobile": "solitude_emotions",
+    "la-nuit-nen-finit-plus": "solitude_emotions",
+    "angeleyes": "solitude_emotions",
+    "left-outside-alone": "solitude_emotions",
+    "kapoies-nychtes": "solitude_emotions",
+    "o-gatos": "solitude_emotions",
+    "un-raggio-di-sole": "solitude_emotions",
+    "salut": "nostalgia_time",
+    "la-tour-eiffel-est-pour-moi": "nostalgia_time",
+    "as-it-was": "nostalgia_time",
+    "unatta-estate": "nostalgia_time",
+    "nuevo-verano": "nostalgia_time",
+    "u-mamy-est-sekret": "nostalgia_time",
+    "vyshe-domov": "nostalgia_time",
+    "california-dreaming": "nostalgia_time",
+    "love-kernels": "satire_humor",
+    "lets-generalize-about-men": "satire_humor",
+    "so-maternal": "satire_humor",
+    "face-your-fears": "satire_humor",
+    "le-soleil-noir": "hardship_survival",
+    "bien-plus-fort": "hardship_survival",
+    "casualties-of-war": "hardship_survival",
+    "army-dreamers": "hardship_survival",
+    "its-getting-better": "hardship_survival",
+    "second-hand-rose": "hardship_survival",
+    "tu-ten-iras": "hardship_survival",
+    "jim-beam": "hardship_survival"
+}
+
+QUESTIONS_TEMPLATES = {
+    "relationships_love": {
+        "en": [
+            {
+                "main": "What are the main dynamics between the characters in '{title}'? Who is speaking, and how do they perceive their partner?",
+                "personal": "How do you usually handle mixed signals or differing perspectives in a close relationship?"
+            },
+            {
+                "main": "What is the core message of this song regarding love? Is it depicted as a source of joy, pain, or obsession?",
+                "personal": "Do you agree that love should be 'unconditional', or should there always be healthy boundaries?"
+            },
+            {
+                "main": "What complex emotions (such as longing, security, or vulnerability) are conveyed in {artist}'s performance?",
+                "personal": "How do you connect with these specific emotions when listening to romantic music?"
+            },
+            {
+                "main": "How has the concept of romantic relationships evolved in the modern era? What are the biggest challenges couples face today?",
+                "personal": "In what ways do you think dating apps and social networks have affected the way people meet and bond?"
+            },
+            {
+                "main": "To what extent should we be willing to sacrifice our personal goals or identity for the sake of a relationship?",
+                "personal": "What is the fine line between loving someone and completely losing oneself in them?"
+            },
+            {
+                "main": "Why is open communication often so difficult to achieve in relationships, and how can we build deeper trust?",
+                "personal": "What strategies do you find most effective when discussing difficult subjects with a partner?"
+            }
+        ],
+        "fr": [
+            {
+                "main": "Quelles sont les dynamiques principales entre les personnages dans '{title}' ? Qui s'exprime, et comment perçoit-il son partenaire ?",
+                "personal": "Comment gérez-vous habituellement les signaux contradictoires ou les opinions divergentes dans une relation ?"
+            },
+            {
+                "main": "Quel est le message central de cette chanson concernant l'amour ? Est-il dépeint comme une source de joie, de souffrance ou d'obsession ?",
+                "personal": "Êtes-vous d'accord pour dire que l'amour doit être 'inconditionnel', ou doit-il toujours y avoir des limites saines ?"
+            },
+            {
+                "main": "Quelles émotions complexes (comme le désir, la sécurité ou la vulnérabilité) sont transmises par la performance de {artist} ?",
+                "personal": "Comment ressentez-vous ces émotions particulières lorsque vous écoutez des chansons d'amour ?"
+            },
+            {
+                "main": "Comment le concept de relation amoureuse a-t-il évolué à l'époque moderne ? Quels sont les plus grands défis auxquels les couples font face aujourd'hui ?",
+                "personal": "De quelles manières pensez-vous que les applications de rencontre et les réseaux sociaux ont affecté les relations ?"
+            },
+            {
+                "main": "Dans quelle mesure devrions-nous être prêts à sacrifier nos objectifs personnels ou notre identité pour le bien d'une relation ?",
+                "personal": "Quelle est la limite entre aimer quelqu'un et se perdre complètement dans la relation ?"
+            },
+            {
+                "main": "Pourquoi la communication ouverte est-elle souvent si difficile à établir dans un couple, et comment peut-on bâtir une confiance plus profonde ?",
+                "personal": "Quelles sont selon vous les meilleures façons d'aborder des sujets difficiles avec un partenaire ?"
+            }
+        ],
+        "ru": [
+            {
+                "main": "Какова основная динамика отношений между героями в песне '{title}'? Кто обращается к слушателю и как он воспринимает своего партнера?",
+                "personal": "Как вы обычно справляетесь с противоречивыми сигналами или разными точками зрения в близких отношениях?"
+            },
+            {
+                "main": "В чем заключается главный посыл этой песни о любви? Описывается ли любовь как источник радости, боли или одержимости?",
+                "personal": "Согласны ли вы с тем, что любовь должна быть «безусловной», или всегда должны существовать здоровые границы?"
+            },
+            {
+                "main": "Какие сложные эмоции (такие как тоска, безопасность или уязвимость) передает исполнение {artist}?",
+                "personal": "Какие из этих чувств вам ближе всего, когда вы слушаете романтическую музыку?"
+            },
+            {
+                "main": "Как изменилось представление о романтических отношениях в современную эпоху? С какими самыми большими трудностями сталкиваются пары сегодня?",
+                "personal": "Как, по вашему мнению, приложения для знакомств и социальные сети повлияли на то, как люди общаются?"
+            },
+            {
+                "main": "В какой степени мы должны быть готовы жертвовать своими личными целями или индивидуальностью ради отношений?",
+                "personal": "Где проходит грань между любовью к человеку и полной потерей себя в этих отношениях?"
+            },
+            {
+                "main": "Почему открытое общение часто так трудно дается в отношениях и как мы можем построить более глубокое доверие?",
+                "personal": "Какие стратегии вы считаете наиболее эффективными при обсуждении сложных тем с партнером?"
+            }
+        ],
+        "it": [
+            {
+                "main": "Quali sono le dinamiche principali tra i personaggi in '{title}'? Chi parla e come percepisce il proprio partner?",
+                "personal": "Come gestisci di solito i segnali contrastanti o le diverse prospettive in una relazione stretta?"
+            },
+            {
+                "main": "Qual è il messaggio centrale di questa canzone sull'amore? Viene dipinto come una fonte di gioia, dolore o ossessione?",
+                "personal": "Sei d'accordo sul fatto che l'amore dovrebbe essere 'incondizionato' o dovrebbero esserci sempre dei limiti sani?"
+            },
+            {
+                "main": "Quali emozioni complesse (come il desiderio, la sicurezza o la vulnerabilità) vengono trasmesse dall'interpretazione di {artist}?",
+                "personal": "Come ti immedesimi in queste specifiche emozioni quando ascolti musica romantica?"
+            },
+            {
+                "main": "Come si è evoluto il concetto di relazione romantica nell'era moderna? Quali sono le sfide più grandi che le coppie affrontano oggi?",
+                "personal": "In quali modi pensi che le app di incontri e i social abbiano influenzato il modo in cui le persone si conoscono?"
+            },
+            {
+                "main": "Fino a che punto dovremmo essere disposti a sacrificare i nostri obiettivi personali o la nostra identità per il bene di una relazione?",
+                "personal": "Qual è il confine sottile tra l'amare qualcuno e il perdere completamente se stessi in lui?"
+            },
+            {
+                "main": "Perché la comunicazione aperta è spesso così difficile da raggiungere nelle relazioni e come possiamo costruire una fiducia più profonda?",
+                "personal": "Quali strategie ritieni più efficaci quando parli di argomenti difficili con un partner?"
+            }
+        ],
+        "es": [
+            {
+                "main": "¿Cuáles son las dinámicas principales entre los personajes en '{title}'? ¿Quién habla y cómo percibe a su pareja?",
+                "personal": "¿Cómo sueles manejar las señales mixtas o las diferentes perspectivas en una relación cercana?"
+            },
+            {
+                "main": "¿Cuál es el mensaje central de esta canción sobre el amor? ¿Se describe como una fuente de alegría, dolor u obsesión?",
+                "personal": "¿Estás de acuerdo en que el amor debe ser 'incondicional', o siempre debe haber límites saludables?"
+            },
+            {
+                "main": "¿Qué emociones complejas (como el anhelo, la seguridad o la vulnerabilidad) se transmiten a través de la interpretación de {artist}?",
+                "personal": "¿Cómo conectas con estas emociones específicas cuando escuchas música romántica?"
+            },
+            {
+                "main": "¿Cómo ha evolucionado el concepto de las relaciones románticas en la era moderna? ¿Cuáles son los mayores desafíos que enfrentan las parejas hoy en día?",
+                "personal": "¿De qué manera crees que las aplicaciones de citas y las redes sociales han afectado el cortejo?"
+            },
+            {
+                "main": "¿Hasta qué punto deberíamos estar dispuestos a sacrificar nuestras metas personales o identidad por el bien de una relación?",
+                "personal": "¿Cuál es la delgada línea entre amar a alguien y perderse por completo en la otra persona?"
+            },
+            {
+                "main": "¿Por qué suele ser tan difícil lograr una comunicación abierta en las relaciones y cómo podemos construir una confianza más profunda?",
+                "personal": "¿Qué estrategias te resultan más efectivas al discutir temas difíciles con tu pareja?"
+            }
+        ],
+        "el": [
+            {
+                "main": "Ποια είναι η κύρια δυναμική μεταξύ των χαρακτήρων στο '{title}'; Ποιος μιλάει και πώς αντιλαμβάνεται τον σύντροφό του;",
+                "personal": "Πώς διαχειρίζεστε συνήθως τα μπερδεμένα μηνύματα ή τις διαφορετικές απόψεις σε μια στενή σχέση;"
+            },
+            {
+                "main": "Ποιο είναι το κεντρικό μήνυμα αυτού του τραγουδιού για την αγάπη; Παρουσιάζεται ως πηγή χαράς, πόνου ή εμμονής;",
+                "personal": "Συμφωνείτε ότι η αγάπη πρέπει να είναι «άνευ όρων» ή πρέπει πάντα να υπάρχουν υγιή όρια;"
+            },
+            {
+                "main": "Ποια σύνθετα συναισθήματα (όπως η λαχτάρα, η ασφάλεια ή η ευπάθεια) μεταφέρει η ερμηνεία του/της {artist};",
+                "personal": "Πώς συνδέεστε με αυτά τα συγκεκριμένα συναισθήματα όταν ακούτε ρομαντική μουσική;"
+            },
+            {
+                "main": "Πώς έχει εξελιχθεί η έννοια των ρομαντικών σχέσεων στη σύγχρονη εποχή; Ποιες είναι οι μεγαλύτερες προκλήσεις που αντιμετωπίζουν τα ζευγάρια σήμερα;",
+                "personal": "Με ποιους τρόπους πιστεύετε ότι οι εφαρμογές γνωριμιών και τα κοινωνικά δίκτυα έχουν επηρεάσει τις σχέσεις;"
+            },
+            {
+                "main": "Σε ποιο βαθμό θα πρέπει να είμαστε πρόθυμοι να θυσιάσουμε τους προσωπικούς μας στόχους ή την ταυτότητά μας για χάρη μιας σχέσης;",
+                "personal": "Πού βρίσκεται η λεπτή γραμμή ανάμεσα στο να αγαπάς κάποιον και να χάνεις εντελώς τον εαυτό σου;"
+            },
+            {
+                "main": "Γιατί η ανοιχτή επικοινωνία είναι συχνά τόσο δύσκολη στις σχέσεις και πώς μπορούμε να οικοδομήσουμε βαθύτερη εμπιστοσύνη;",
+                "personal": "Ποιες στρατηγικές θεωρείτε πιο αποτελεσματικές όταν συζητάτε δύσκολα θέματα με έναν σύντροφο;"
+            }
+        ]
+    },
+    "identity_expression": {
+        "en": [
+            {
+                "main": "How does the narrator in '{title}' view themselves? What internal conflicts or aspirations do they reveal?",
+                "personal": "When was the last time you felt a conflict between how you feel inside and how you must act?"
+            },
+            {
+                "main": "What is the main message of '{title}' about authenticity and self-expression? What does it teach us about standing up for ourselves?",
+                "personal": "How easy or difficult is it for you to speak up and defend your opinions in a crowd?"
+            },
+            {
+                "main": "What feelings of determination, pride, or vulnerability are emphasized in {artist}'s vocal delivery?",
+                "personal": "Which of these emotions do you find most powerful and inspiring in art or music?"
+            },
+            {
+                "main": "In a world that often demands conformity, how can we successfully discover and maintain our true identity?",
+                "personal": "Have you ever had to change your behavior or look to fit into a particular social group?"
+            },
+            {
+                "main": "How should we define success and self-worth? Is it determined by external approval or internal satisfaction?",
+                "personal": "To what extent does your professional or educational success define your personal self-worth?"
+            },
+            {
+                "main": "What are the best ways to cope with expectations from family, friends, or society while remaining true to oneself?",
+                "personal": "How do you handle pressure from loved ones when your goals differ from their expectations?"
+            }
+        ],
+        "fr": [
+            {
+                "main": "Comment le narrateur dans '{title}' se perçoit-il ? Quels conflits internes ou aspirations révèle-t-il ?",
+                "personal": "À quand remonte la dernière fois où vous avez ressenti un conflit entre vos sentiments internes et votre comportement ?"
+            },
+            {
+                "main": "Quel est le message principal de '{title}' concernant l'authenticité et l'expression de soi ? Que nous apprend-elle sur l'affirmation de soi ?",
+                "personal": "Est-il facile ou difficile pour vous de prendre la parole pour défendre vos opinions en public ?"
+            },
+            {
+                "main": "Quels sentiments de détermination, de fierté ou de vulnérabilité sont mis en valeur par la voix de {artist} ?",
+                "personal": "Laquelle de ces émotions trouvez-vous la plus inspirante ou puissante dans l'art ou la musique ?"
+            },
+            {
+                "main": "Dans un monde qui exige souvent la conformité, comment pouvons-nous découvrir et maintenir notre véritable identité ?",
+                "personal": "Avez-vous déjà dû modifier votre comportement ou votre apparence pour vous intégrer à un groupe ?"
+            },
+            {
+                "main": "Comment devrions-nous définir la réussite et l'estime de soi ? Sont-elles déterminées par l'approbation externe ou la satisfaction interne ?",
+                "personal": "Dans quelle mesure votre réussite professionnelle ou académique définit-elle votre estime de soi ?"
+            },
+            {
+                "main": "Quels sont les meilleurs moyens de faire face aux attentes de la famille, des amis ou de la société tout en restant fidèle à soi-même ?",
+                "personal": "Comment gérez-vous la pression de vos proches lorsque vos objectifs divergent de leurs attentes ?"
+            }
+        ],
+        "ru": [
+            {
+                "main": "Как повествователь в песне '{title}' воспринимает себя? Какие внутренние конфликты или стремления он раскрывает?",
+                "personal": "Когда в последний раз вы чувствовали конфликт между вашим внутренним состоянием и тем, как нужно себя вести?"
+            },
+            {
+                "main": "Каков главный посыл песни '{title}' в отношении подлинности и самовыражения? Чему она учит нас в плане отстаивания своих прав?",
+                "personal": "Насколько легко или трудно вам высказывать и отстаивать свое мнение в группе людей?"
+            },
+            {
+                "main": "Какие чувства решимости, гордости или уязвимости подчеркиваются в вокале {artist}?",
+                "personal": "Какая из этих эмоций кажется вам наиболее сильной и вдохновляющей в искусстве или музыке?"
+            },
+            {
+                "main": "В мире, который часто требует конформизма, как мы можем успешно открыть и сохранить свою истинную идентичность?",
+                "personal": "Приходилось ли вам когда-либо менять свое поведение или внешний вид, чтобы вписаться в коллектив?"
+            },
+            {
+                "main": "Как мы должны определять успех и самооценку? Определяется ли это внешним одобрением или внутренним удовлетворением?",
+                "personal": "В какой степени ваши профессиональные или учебные успехи определяют вашу личную самооценку?"
+            },
+            {
+                "main": "Каковы наилучшие способы справляться с ожиданиями семьи, друзей или общества, оставаясь при этом верным себе?",
+                "personal": "Как вы справляетесь с давлением близких, если ваши цели расходятся с их ожиданиями?"
+            }
+        ],
+        "it": [
+            {
+                "main": "In che modo il narratore in '{title}' vede se stesso? Quali conflitti interiori o aspirazioni rivela?",
+                "personal": "Quando è stata l'ultima volta che hai provato un conflitto tra come ti sentivi dentro e come dovevi agire?"
+            },
+            {
+                "main": "Qual è il messaggio principale di '{title}' sull'autenticità e l'espressione di sé? Cosa ci insegna sul difendere ciò in cui crediamo?",
+                "personal": "Quanto è facile o difficile per te esprimere e difendere le tue opinioni in pubblico?"
+            },
+            {
+                "main": "Quali sentimenti di determinazione, orgoglio o vulnerabilità sono enfatizzati dall'interpretazione vocale di {artist}?",
+                "personal": "Quale di queste emozioni trovi più potente e stimolante nell'arte o nella musica?"
+            },
+            {
+                "main": "In un mondo che spesso richiede conformismo, come possiamo scoprire e mantenere con successo la nostra vera identità?",
+                "personal": "Hai mai dovuto cambiare il tuo comportamento o il tuo look per inserirti in un particolare gruppo sociale?"
+            },
+            {
+                "main": "Come dovremmo definire il successo e l'autostima? Sono determinati dall'approvazione esterna o dalla soddisfazione interiore?",
+                "personal": "In che misura il tuo successo professionale o scolastico definisce la tua autostima personale?"
+            },
+            {
+                "main": "Quali sono i modi migliori per gestire le aspettative della famiglia, degli amici o della società rimanendo fedeli a se stessi?",
+                "personal": "Come gestisci la pressione dei tuoi cari quando i tuoi obiettivi differiscono dalle loro aspettative?"
+            }
+        ],
+        "es": [
+            {
+                "main": "¿Cómo se percibe a sí mismo el narrador en '{title}'? ¿Qué conflictos internos o aspiraciones revela?",
+                "personal": "¿Cuándo fue la última vez que sentiste un conflicto entre cómo te sentías por dentro y cómo debías actuar?"
+            },
+            {
+                "main": "¿Cuál es el mensaje principal de '{title}' sobre la autenticidad y la expresión personal? ¿Qué nos enseña sobre defendernos a nosotros mismos?",
+                "personal": "¿Qué tan fácil o difícil es para ti hablar y defender tus opiniones frente a un grupo?"
+            },
+            {
+                "main": "¿Qué sentimientos de determinación, orgullo o vulnerabilidad se enfatizan en la entrega vocal de {artist}?",
+                "personal": "¿Cuál de estas emociones te resulta más poderosa e inspiradora en el arte o la música?"
+            },
+            {
+                "main": "En un mundo que a menudo exige conformidad, ¿cómo podemos descubrir y mantener con éxito nuestra verdadera identidad?",
+                "personal": "¿Alguna vez has tenido que cambiar tu comportamiento o apariencia para encajar en un grupo social?"
+            },
+            {
+                "main": "¿Cómo deberíamos definir el éxito y la autoestima? ¿Se determina por la aprobación externa o la satisfacción interna?",
+                "personal": "¿Hasta qué punto define tu éxito profesional o educativo tu autoestima personal?"
+            },
+            {
+                "main": "¿Cuáles son las mejores maneras de lidiar con las expectativas de la familia, los amigos o la sociedad mientras permanecemos fieles a nosotros mismos?",
+                "personal": "¿Cómo manejas la presión de tus seres queridos cuando tus metas difieren de sus expectativas?"
+            }
+        ],
+        "el": [
+            {
+                "main": "Πώς βλέπει τον εαυτό του ο αφηγητής στο '{title}'; Ποιες εσωτερικές συγκρούσεις ή φιλοδοξίες αποκαλύπτει;",
+                "personal": "Πότε ήταν η τελευταία φορά που νιώσατε σύγκρουση ανάμεσα σε αυτό που αισθάνεστε μέσα σας και στο πώς πρέπει να ενεργήσετε;"
+            },
+            {
+                "main": "Ποιο είναι το κύριο μήνυμα του '{title}' σχετικά με την αυθεντικότητα και την αυτοέκφραση; Τι μας διδάσκει για το να υποστηρίζουμε τον εαυτό μας;",
+                "personal": "Πόσο εύκολο ή δύσκολο είναι για εσάς να μιλήσετε και να υπερασπιστείτε τις απόψεις σας μπροστά σε κόσμο;"
+            },
+            {
+                "main": "Ποια συναισθήματα αποφασιστικότητας, περηφάνιας ή ευπάθειας τονίζονται στην ερμηνεία του/της {artist};",
+                "personal": "Ποιο από αυτά τα συναισθήματα βρίσκετε πιο ισχυρό και εμπνευσμένο στην τέχνη ή τη μουσική;"
+            },
+            {
+                "main": "Σε έναν κόσμο που συχνά απαιτεί συμμόρφωση, πώς μπορούμε να ανακαλύψουμε και να διατηρήσουμε με επιτυχία την πραγματική μας ταυτότητα;",
+                "personal": "Χρειάστηκε ποτέ να αλλάξετε τη συμπεριφορά ή την εμφάνισή σας για να ταιριάξετε σε μια συγκεκριμένη κοινωνική ομάδα;"
+            },
+            {
+                "main": "Πώς πρέπει να ορίζουμε την επιτυχία και την αυτοεκτίμηση; Καθορίζεται από την εξωτερική έγκριση ή την εσωτερική ικανοποίηση;",
+                "personal": "Σε ποιο βαθμό η επαγγελματική ή εκπαιδευτική σας επιτυχία καθορίζει την προσωπική σας αυτοεκτίμηση;"
+            },
+            {
+                "main": "Ποιοι είναι οι καλύτεροι τρόποι για να αντιμετωπίσουμε τις προσδοκίες της οικογένειας, των φίλων ή της κοινωνίας, παραμένοντας πιστοί στον εαυτό μας;",
+                "personal": "Πώς αντιμετωπίζετε την πίεση από αγαπημένα πρόσωπα όταν οι στόχοι σας διαφέρουν από τις προσδοκίες τους;"
+            }
+        ]
+    },
+    "solitude_emotions": {
+        "en": [
+            {
+                "main": "What kind of environment is the narrator in '{title}' experiencing? How does it reflect their inner state of mind?",
+                "personal": "How does your physical surroundings usually affect your emotions and creativity?"
+            },
+            {
+                "main": "What is the song's perspective on loneliness and emotional distress? Is there any comfort or hope offered?",
+                "personal": "Where do you go or what do you do to find comfort when you are feeling low?"
+            },
+            {
+                "main": "How do the melody and {artist}'s delivery capture the weight of grief, longing, or stillness?",
+                "personal": "Do you prefer listening to sad music or happy music when you are going through a difficult time?"
+            },
+            {
+                "main": "In our hyper-connected digital world, why is the feeling of loneliness and isolation actually increasing?",
+                "personal": "Do you feel that online interactions can fully replace the value of physically meeting people?"
+            },
+            {
+                "main": "How can individuals cope with moments of intense emotional hardship or feeling 'stuck' in life?",
+                "personal": "What is the best advice you have ever received on how to overcome a personal crisis?"
+            },
+            {
+                "main": "Why does society sometimes view expressing sadness or vulnerability as a weakness, and how can we change this?",
+                "personal": "How comfortable are you showing your vulnerability or crying in front of other people?"
+            }
+        ],
+        "fr": [
+            {
+                "main": "Quel type d'environnement le narrateur de '{title}' traverse-t-il ? Comment cela reflète-t-il son état d'esprit intérieur ?",
+                "personal": "Comment votre environnement physique affecte-t-il habituellement vos émotions et votre créativité ?"
+            },
+            {
+                "main": "Quelle est la perspective de la chanson sur la solitude et la détresse émotionnelle ? Offre-t-elle du réconfort ou de l'espoir ?",
+                "personal": "Où allez-vous ou que faites-vous pour trouver du réconfort quand vous n'avez pas le moral ?"
+            },
+            {
+                "main": "Comment la mélodie et l'interprétation de {artist} capturent-elles le poids du chagrin, du désir ou de l'immobilité ?",
+                "personal": "Préférez-vous écouter de la musique triste ou joyeuse lorsque vous traversez une période difficile ?"
+            },
+            {
+                "main": "Dans notre monde numérique hyper-connecté, pourquoi le sentiment de solitude et d'isolement est-il en réalité en train d'augmenter ?",
+                "personal": "Pensez-vous que les interactions en ligne peuvent remplacer la valeur des rencontres physiques ?"
+            },
+            {
+                "main": "Comment peut-on faire face aux moments de détresse émotionnelle intense ou au sentiment d'être 'bloqué' dans la vie ?",
+                "personal": "Quel est le meilleur conseil que vous ayez reçu pour surmonter une crise personnelle ?"
+            },
+            {
+                "main": "Pourquoi la société considère-t-elle parfois l'expression de la tristesse ou de la vulnérabilité comme une faiblesse, et comment changer cela ?",
+                "personal": "Dans quelle mesure êtes-vous à l'aise pour montrer votre vulnérabilité ou pleurer devant les autres ?"
+            }
+        ],
+        "ru": [
+            {
+                "main": "Какую атмосферу переживает повествователь в песне '{title}'? Как это отражает его внутреннее душевное состояние?",
+                "personal": "Как окружающая обстановка обычно влияет на ваши эмоции и творческий настрой?"
+            },
+            {
+                "main": "Каков взгляд этой песни на одиночество и душевную боль? Предлагается ли здесь какое-то утешение или надежда?",
+                "personal": "Куда вы идете или что делаете, чтобы найти утешение, когда вам грустно?"
+            },
+            {
+                "main": "Как мелодия и исполнение {artist} передают тяжесть горя, тоски или неподвижности?",
+                "personal": "Вы предпочитаете слушать грустную или веселую музыку, когда переживаете трудные времена?"
+            },
+            {
+                "main": "В нашем гиперинформационном цифровом мире почему чувство одиночества и изоляции на самом деле возрастает?",
+                "personal": "Считаете ли вы, что онлайн-общение может полностью заменить ценность личных встреч?"
+            },
+            {
+                "main": "Как люди могут справляться с моментами глубоких эмоциональных трудностей или ощущения «тупика» в жизни?",
+                "personal": "Какой лучший совет вы когда-либо получали о том, как преодолеть личный кризис?"
+            },
+            {
+                "main": "Почему общество иногда рассматривает выражение грусти или уязвимости как слабость, и как мы можем это изменить?",
+                "personal": "Насколько комфортно вам проявлять свою уязвимость или плакать в присутствии других людей?"
+            }
+        ],
+        "it": [
+            {
+                "main": "Che tipo di ambiente sta vivendo il narratore in '{title}'? In che modo riflette il suo stato d'animo interiore?",
+                "personal": "In che modo l'ambiente fisico che ti circonda influisce sulle tue emozioni e sulla tua creatività?"
+            },
+            {
+                "main": "Qual è la prospettiva della canzone sulla solitudine e sul disagio emotivo? Viene offerto un qualche conforto o speranza?",
+                "personal": "Dove vai o cosa fai per trovare conforto quando ti senti giù di morale?"
+            },
+            {
+                "main": "In che modo la melodia e l'interpretazione di {artist} catturano il peso del dolore, del desiderio o dell'immobilità?",
+                "personal": "Preferisci ascoltare musica triste o allegra quando stai attraversando un periodo difficile?"
+            },
+            {
+                "main": "Nel nostro mondo digitale iper-connesso, perché la sensazione di solitudine e isolamento sta effettivamente aumentando?",
+                "personal": "Pensi che le interazioni online possano sostituire completamente il valore dell'incontro fisico?"
+            },
+            {
+                "main": "In che modo le persone possono affrontare momenti di intensa difficoltà emotiva o la sensazione di essere 'bloccati' nella vita?",
+                "personal": "Qual è il miglior consiglio che hai mai ricevuto su come superare una crisi personale?"
+            },
+            {
+                "main": "Perché la società a volte vede l'espressione della tristezza o della vulnerabilità come una debolezza, e come possiamo cambiare questo?",
+                "personal": "Quanto ti senti a tuo agio nel mostrare la tua vulnerabilità o nel piangere davanti ad altre persone?"
+            }
+        ],
+        "es": [
+            {
+                "main": "¿Qué tipo de entorno está experimentando el narrador en '{title}'? ¿Cómo refleja esto su estado de ánimo interno?",
+                "personal": "¿Cómo afecta tu entorno físico a tus emociones y a tu creatividad?"
+            },
+            {
+                "main": "¿Cuál es la perspectiva de la canción sobre la soledad y la angustia emocional? ¿Se ofrece algún consuelo o esperanza?",
+                "personal": "¿A dónde vas o qué haces para encontrar consuelo cuando te sientes desanimado?"
+            },
+            {
+                "main": "¿Cómo capturan la melodía y la interpretación de {artist} el peso del dolor, el anhelo o la quietud?",
+                "personal": "¿Prefieres escuchar música triste o alegre cuando estás pasando por un momento difícil?"
+            },
+            {
+                "main": "En nuestro mundo digital hiperconectado, ¿por qué está aumentando realmente el sentimiento de soledad y aislamiento?",
+                "personal": "¿Sientes que las interacciones en línea pueden reemplazar el valor de conocer a la gente en persona?"
+            },
+            {
+                "main": "¿Cómo pueden las personas afrontar momentos de intensa dificultad emocional o el sentimiento de estar 'atascados' en la vida?",
+                "personal": "¿Cuál es el mejor consejo que has recibido sobre cómo superar una crisis personal?"
+            },
+            {
+                "main": "¿Por qué la sociedad a veces ve la expresión de tristeza o vulnerabilidad como una debilidad, y cómo podemos cambiar esto?",
+                "personal": "¿Qué tan cómodo te sientes mostrando tu vulnerabilidad o llorando frente a otras personas?"
+            }
+        ],
+        "el": [
+            {
+                "main": "Τι είδους περιβάλλον βιώνει ο αφηγητής στο '{title}'; Πώς αντανακλά την εσωτερική του ψυχική κατάσταση;",
+                "personal": "Πώς επηρεάζει συνήθως το φυσικό σας περιβάλλον τα συναισθήματα και τη δημιουργικότητά σας;"
+            },
+            {
+                "main": "Ποια είναι η οπτική του τραγουδιού για τη μοναξιά και τη συναισθηματική δυσφορία; Προσφέρεται κάποια παρηγοριά ή ελπίδα;",
+                "personal": "Πού πηγαίνετε ή τι κάνετε για να βρείτε παρηγοριά όταν νιώθετε πεσμένοι;"
+            },
+            {
+                "main": "Πώς η μελωδία και η ερμηνεία του/της {artist} αποτυπώνουν το βάρος της θλίψης, της λαχτάρας ή της ακινησίας;",
+                "personal": "Προτιμάτε να ακούτε λυπητερή ή χαρούμενη μουσική όταν περνάτε μια δύσκολη φάση;"
+            },
+            {
+                "main": "Στον υπερσυνδεδεμένο ψηφιακό κόσμο μας, γιατί το αίσθημα της μοναξιάς και της απομόνωσης στην πραγματικότητα αυξάνεται;",
+                "personal": "Πιστεύετε ότι οι διαδικτυακές αλληλεπιδράσεις μπορούν να αντικαταστήσουν πλήρως την αξία της προσωπικής επαφής;"
+            },
+            {
+                "main": "Πώς μπορούν οι άνθρωποι να αντιμετωπίζουν στιγμές έντονης συναισθηματικής δυσκολίας ή το αίσθημα ότι είναι 'κολλημένοι' στη ζωή;",
+                "personal": "Ποια είναι η καλύτερη συμβουλή που έχετε λάβει ποτέ για το πώς να ξεπεράσετε μια προσωπική κρίση;"
+            },
+            {
+                "main": "Γιατί η κοινωνία θεωρεί μερικές φορές την έκφραση της θλίψης ή της ευπάθειας ως αδυναμία και πώς μπορούμε να το αλλάξουμε αυτό;",
+                "personal": "Πόσο άνετα νιώθετε να δείχνετε την ευπάθειά σας ή να κλαίτε μπροστά σε άλλους;"
+            }
+        ]
+    },
+    "society_modern_life": {
+        "en": [
+            {
+                "main": "What modern societal conflict is the narrator addressing in '{title}'? Who represents the status quo, and who is challenging it?",
+                "personal": "Have you ever felt compelled to challenge a rule, expectation, or norm in your work or study environment?"
+            },
+            {
+                "main": "What warning or critique does '{title}' present concerning technology, inequality, or prejudice?",
+                "personal": "Which aspect of modern society (e.g., gender roles, wealth gap, tech addiction) concerns you the most?"
+            },
+            {
+                "main": "How does {artist}'s delivery reflect feelings of frustration, hope, or urgency about the state of the world?",
+                "personal": "Do you feel optimistic or pessimistic about the social progress of the next decade?"
+            },
+            {
+                "main": "How is rapid technological advancement affecting human empathy and our ability to connect face-to-face?",
+                "personal": "How do you try to balance your screen time with high-quality real-world interactions?"
+            },
+            {
+                "main": "What are the most critical steps we can take in our communities to foster true equality and combat discrimination?",
+                "personal": "What minor changes in your daily behavior can help make those around you feel more included and respected?"
+            },
+            {
+                "main": "In what ways do modern media and social networks shape our perceptions of justice and community responsibility?",
+                "personal": "How do you distinguish between authentic news and biased social media outrage in your life?"
+            }
+        ],
+        "fr": [
+            {
+                "main": "Quel conflit sociétal moderne le narrateur aborde-t-il dans '{title}' ? Qui représente le statu quo, et qui le remet en question ?",
+                "personal": "Avez-vous déjà ressenti le besoin de contester une règle ou une norme dans votre environnement ?"
+            },
+            {
+                "main": "Quel avertissement ou critique '{title}' présente-t-elle concernant la technologie, les inégalités ou les préjugés ?",
+                "personal": "Quel aspect de la société moderne (rôles de genre, inégalités, dépendance à la technologie) vous préoccupe le plus ?"
+            },
+            {
+                "main": "Comment l'interprétation de {artist} reflète-t-elle la frustration, l'espoir ou l'urgence face à l'état du monde ?",
+                "personal": "Êtes-vous optimiste ou pessimiste quant aux progrès sociaux de la prochaine décennie ?"
+            },
+            {
+                "main": "Comment les progrès technologiques rapides affectent-ils l'empathie humaine et notre capacité à nous connecter face à face ?",
+                "personal": "Comment essayez-vous d'équilibrer votre temps d'écran avec des interactions réelles de qualité ?"
+            },
+            {
+                "main": "Quelles sont les étapes les plus importantes à franchir dans nos communautés pour favoriser une véritable égalité et lutter contre la discrimination ?",
+                "personal": "Quels petits changements quotidiens peuvent aider les personnes autour de vous à se sentir respectées ?"
+            },
+            {
+                "main": "De quelles manières les médias modernes et les réseaux sociaux façonnent-ils notre perception de la justice et de la responsabilité collective ?",
+                "personal": "Comment faites-vous la différence entre des informations fiables et l'indignation sur les réseaux sociaux ?"
+            }
+        ],
+        "ru": [
+            {
+                "main": "Какой современный общественный конфликт затрагивает повествователь в песне '{title}'? Кто представляет статус-кво, а кто бросает ему вызов?",
+                "personal": "Приходилось ли вам когда-либо идти против правил или ожиданий в вашей работе или учебе?"
+            },
+            {
+                "main": "Какое предупреждение или критику содержит песня '{title}' в отношении технологий, неравенства или предрассудков?",
+                "personal": "Какой аспект современного общества (например, гендерные роли, неравенство, зависимость от гаджетов) вас беспокоит больше всего?"
+            },
+            {
+                "main": "Как исполнение {artist} отражает чувство разочарования, надежды или безотлагательности в отношении состояния мира?",
+                "personal": "Вы настроены оптимистично или пессимистично относительно социального прогресса в ближайшие 10 лет?"
+            },
+            {
+                "main": "Как стремительный технический прогресс влияет на человеческое сопереживание и нашу способность общаться лицом к лицу?",
+                "personal": "Как вы стараетесь сбалансировать экранное время с качественным личным общением?"
+            },
+            {
+                "main": "Каковы наиболее важные шаги, которые мы можем предпринять в наших сообществах для обеспечения истинного равенства и борьбы с дискриминацией?",
+                "personal": "Какие небольшие изменения в повседневном поведении могут помочь окружающим почувствовать себя более защищенными?"
+            },
+            {
+                "main": "Каким образом современные СМИ и социальные сети формируют наше восприятие справедливости и коллективной ответственности?",
+                "personal": "Как вы отличаете достоверные новости от предвзятого мнения в социальных сетях?"
+            }
+        ],
+        "it": [
+            {
+                "main": "Quale conflitto sociale moderno affronta il narratore in '{title}'? Chi rappresenta lo status quo e chi lo sta sfidando?",
+                "personal": "Ti sei mai sentito costretto a sfidare una regola o una norma nel tuo ambiente di lavoro o di studio?"
+            },
+            {
+                "main": "Quale avvertimento o critica presenta '{title}' riguardo alla tecnologia, all'uguaglianza o al pregiudizio?",
+                "personal": "Quale aspetto della società moderna (es. ruoli di genere, divario di ricchezza, dipendenza tecnologica) ti preoccupa di più?"
+            },
+            {
+                "main": "In che modo l'interpretazione di {artist} riflette sentimenti di frustrazione, speranza o urgenza sullo stato del mondo?",
+                "personal": "Ti senti ottimista o pessimista riguardo al progresso sociale del prossimo decennio?"
+            },
+            {
+                "main": "In che modo il rapido progresso tecnologico influisce sull'empatia umana e sulla nostra capacità di connetterci faccia a faccia?",
+                "personal": "Come cerchi di bilanciare il tempo davanti allo schermo con interazioni di alta qualità nel mondo reale?"
+            },
+            {
+                "main": "Quali sono i passi più importanti che possiamo compiere nelle nostre comunità per favorire la vera uguaglianza e combattere la discriminazione?",
+                "personal": "Quali piccoli cambiamenti nel tuo comportamento quotidiano possono aiutare chi ti circonda a sentirsi più incluso?"
+            },
+            {
+                "main": "In quali modi i media moderni e i social network influenzano la nostra percezione della giustizia e della responsabilità comunitaria?",
+                "personal": "Come distingui tra notizie autentiche e indignazione faziosa sui social media?"
+            }
+        ],
+        "es": [
+            {
+                "main": "¿Qué conflicto social moderno aborda el narrador en '{title}'? ¿Quién representa el statu quo y quién lo desafía?",
+                "personal": "¿Alguna vez te has sentido obligado a desafiar una regla o norma en tu entorno laboral o de estudio?"
+            },
+            {
+                "main": "¿Qué advertencia o crítica presenta '{title}' con respecto a la tecnología, la desigualdad o el prejuicio?",
+                "personal": "¿Qué aspecto de la sociedad moderna (por ejemplo, roles de género, brecha de riqueza, adicción a la tecnología) te preocupa más?"
+            },
+            {
+                "main": "¿Cómo refleja la interpretación de {artist} los sentimientos de frustración, esperanza o urgencia sobre el estado del mundo?",
+                "personal": "¿Te sientes optimista o pesimista sobre el progreso social de la próxima década?"
+            },
+            {
+                "main": "¿Cómo está afectando el rápido avance tecnológico a la empatía humana y a nuestra capacidad para conectarnos cara a cara?",
+                "personal": "¿Cómo intentas equilibrar el tiempo de pantalla con interacciones reales de calidad?"
+            },
+            {
+                "main": "¿Cuáles son los pasos más críticos que podemos tomar en nuestras comunidades para fomentar la verdadera igualdad y combatir la discriminación?",
+                "personal": "¿Qué pequeños cambios en tu comportamiento diario pueden ayudar a que los que te rodean se sientan más incluidos?"
+            },
+            {
+                "main": "¿De qué manera los medios modernos y las redes sociales moldean nuestras percepciones de la justicia y la responsabilidad comunitaria?",
+                "personal": "¿Cómo distingues entre noticias auténticas e indignación sesgada en las noticias?"
+            }
+        ],
+        "el": [
+            {
+                "main": "Ποια σύγχρονη κοινωνική σύγκρουση αντιμετωπίζει ο αφηγητής στο '{title}'; Ποιος αντιπροσωπεύει το κατεστημένο και ποιος το αμφισβητεί;",
+                "personal": "Νιώσατε ποτέ την ανάγκη να αμφισβητήσετε έναν κανόνα ή ένα κοινωνικό πρότυπο στο περιβάλλον σας;"
+            },
+            {
+                "main": "Ποια προειδοποίηση ή κριτική παρουσιάζει το '{title}' σχετικά με την τεχνολογία, την ανισότητα ή την προκατάληψη;",
+                "personal": "Ποια πτυχή της σύγχρονης κοινωνίας (π.χ. έμφυλοι ρόλοι, τεχνολογικός εθισμός) σας ανησυχεί περισσότερο;"
+            },
+            {
+                "main": "Πώς η ερμηνεία του/της {artist} αντανακλά συναισθήματα απογοήτευσης, ελπίδας ή επείγοντος για την κατάσταση του κόσμου;",
+                "personal": "Αισθάνεστε αισιόδοξοι ή απαισιόδοξοι για την κοινωνική πρόοδο της επόμενης δεκαετίας;"
+            },
+            {
+                "main": "Πώς επηρεάζει η ραγδαία τεχνολογική πρόοδος την ανθρώπινη ενσυναίσθηση και την ικανότητά μας να συνδεόμαστε πρόσωπο με πρόσωπο;",
+                "personal": "Πώς προσπαθείτε να ισορροπήσετε τον χρόνο στις οθόνες με ποιοτικές αλληλεπιδράσεις στον πραγματικό κόσμο;"
+            },
+            {
+                "main": "Ποια είναι τα πιο κρίσιμα βήματα που μπορούμε να κάνουμε στις κοινότητές μας για να προωθήσουμε την πραγματική ισότητα και να καταπολεμήσουμε τις διακρίσεις;",
+                "personal": "Ποιες μικρές αλλαγές στην καθημερινή σας συμπεριφορά μπορούν να βοηθήσουν τους γύρω σας να νιώσουν μεγαλύτερο σεβασμό;"
+            },
+            {
+                "main": "Με ποιους τρόπους τα σύγχρονα μέσα ενημέρωσης και τα κοινωνικά δίκτυα διαμορφώνουν τις αντιλήψεις μας για τη δικαιοσύνη και την κοινοτική ευθύνη;",
+                "personal": "Πώς ξεχωρίζετε τις έγκυρες ειδήσεις από τις προκατειλημμένες αντιδράσεις στα μέσα κοινωνικής δικτύωσης;"
+            }
+        ]
+    },
+    "nostalgia_time": {
+        "en": [
+            {
+                "main": "Who is the narrator looking back on or trying to reconnect with in '{title}'? What has changed since their past encounter?",
+                "personal": "Have you ever reconnected with someone from your distant past? How did it feel?"
+            },
+            {
+                "main": "What does the song suggest about the passage of time? Is nostalgia portrayed as a comfort or a painful weight?",
+                "personal": "Do you find yourself thinking about 'the good old days' often, or do you prefer to focus solely on the future?"
+            },
+            {
+                "main": "What feelings of warmth, regret, or longing are expressed through {artist}'s storytelling?",
+                "personal": "Which particular season or place brings back the most powerful memories of your youth?"
+            },
+            {
+                "main": "Why do humans have such a strong tendency to romanticize the past? Is nostalgia always a positive emotion?",
+                "personal": "What is one thing from your past that you tend to remember as being much better than it actually was?"
+            },
+            {
+                "main": "In what ways do our childhood environments and family secrets shape the adults we eventually become?",
+                "personal": "How much of your current personality do you attribute to your upbringing and family background?"
+            },
+            {
+                "main": "How does the way we remember past experiences change as we grow older? Can we truly rely on our memories?",
+                "personal": "Have you ever discovered that a memory you held for years was actually incorrect or exaggerated?"
+            }
+        ],
+        "fr": [
+            {
+                "main": "Vers qui le narrateur se tourne-t-il ou essaie-t-il de se reconnecter dans '{title}' ? Qu'est-ce qui a changé depuis leur dernière rencontre ?",
+                "personal": "Avez-vous déjà repris contact avec quelqu'un de votre passé ? Qu'avez-vous ressenti ?"
+            },
+            {
+                "main": "Que suggère la chanson sur le passage du temps ? La nostalgie est-elle dépeinte comme un réconfort ou un poids douloureux ?",
+                "personal": "Pensez-vous souvent au 'bon vieux temps' ou préférez-vous vous concentrer uniquement sur l'avenir ?"
+            },
+            {
+                "main": "Quels sentiments de chaleur, de regret ou de désir sont exprimés à travers l'histoire de {artist} ?",
+                "personal": "Quelle saison ou quel endroit particulier vous rappelle les souvenirs les plus forts de votre jeunesse ?"
+            },
+            {
+                "main": "Pourquoi les humains ont-ils une si forte tendance à romantiser le passé ? La nostalgie est-elle toujours une émotion positive ?",
+                "personal": "Quelle est la chose de votre passé dont vous vous souvenez comme bien meilleure qu'elle ne l'était en réalité ?"
+            },
+            {
+                "main": "De quelle manière notre environnement d'enfance et les secrets de famille façonnent-ils les adultes que nous devenons ?",
+                "personal": "Quelle part de votre personnalité actuelle attribuez-vous à votre éducation et à votre milieu familial ?"
+            },
+            {
+                "main": "Comment notre perception des expériences passées évolue-t-elle avec l'âge ? Pouvons-nous vraiment faire confiance à nos souvenirs ?",
+                "personal": "Avez-vous déjà découvert qu'un souvenir d'enfance était en réalité faux ou déformé ?"
+            }
+        ],
+        "ru": [
+            {
+                "main": "О ком вспоминает или с кем пытается восстановить связь повествователь в песне '{title}'? Что изменилось с момента их прошлой встречи?",
+                "personal": "Общались ли вы когда-нибудь с кем-то из вашего далекого прошлого? Каковы были ваши ощущения?"
+            },
+            {
+                "main": "Что песня говорит о быстротечности времени? Представлена ли ностальгия как утешение или как болезненное бремя?",
+                "personal": "Часто ли вы ловите себя на мыслях о «старых добрых временах» или предпочитаете думать только о будущем?"
+            },
+            {
+                "main": "Какие чувства тепла, сожаления или тоски выражаются в повествовании {artist}?",
+                "personal": "Какое именно время года или место вызывает у вас самые яркие воспоминания о юности?"
+            },
+            {
+                "main": "Почему люди так склонны романтизировать прошлое? Всегда ли ностальгия является положительной эмоцией?",
+                "personal": "О каком событии или вещи из прошлого вы вспоминаете с гораздо большим восторгом, чем они того заслуживали?"
+            },
+            {
+                "main": "Каким образом наше детское окружение и семейные секреты формируют из нас тех взрослых, которыми мы в итоге становимся?",
+                "personal": "Какую часть своего нынешнего характера вы связываете именно со своим воспитанием и семьей?"
+            },
+            {
+                "main": "Как меняется отношение к прошлому опыту по мере того, как мы становимся старше? Можем ли мы доверять своим воспоминаниям?",
+                "personal": "Выясняли ли вы когда-нибудь, что воспоминание, которое вы хранили годами, было ошибочным или приукрашенным?"
+            }
+        ],
+        "it": [
+            {
+                "main": "A chi guarda indietro o con chi cerca di riconnettersi il narratore in '{title}'? Cosa è cambiato dal loro incontro passato?",
+                "personal": "Ti sei mai riconnesso con qualcuno del tuo lontano passato? Come ti sei sentito?"
+            },
+            {
+                "main": "Cosa suggerisce la canzone sullo scorrere del tempo? La nostalgia è ritratta come un conforto o un peso doloroso?",
+                "personal": "Ti ritrovi spesso a pensare ai 'bei vecchi tempi' o preferisci concentrarti esclusivamente sul futuro?"
+            },
+            {
+                "main": "Quali sentimenti di calore, rimpianto o desiderio sono espressi attraverso la narrazione di {artist}?",
+                "personal": "Quale particolare stagione o luogo ti riporta alla mente i ricordi più intensi della tua giovinezza?"
+            },
+            {
+                "main": "Perce gli esseri umani hanno una così forte tendenza a romanticizzare il passato? La nostalgia è sempre un'emozione positiva?",
+                "personal": "Qual è una cosa del tuo passato che tendi a ricordare come molto migliore di quanto non fosse in realtà?"
+            },
+            {
+                "main": "In che modo i nostri ambienti d'infanzia e i segreti di famiglia influenzano gli adulti che alla fine diventiamo?",
+                "personal": "Quanto della tua attuale personalità attribuisci alla tua educazione e al tuo background familiare?"
+            },
+            {
+                "main": "Come cambia il modo in cui ricordiamo le esperienze passate man mano che invecchiamo? Possiamo davvero fidarci dei nostri ricordi?",
+                "personal": "Hai mai scoperto che un ricordo che hai conservato per anni era in realtà errato o esagerato?"
+            }
+        ],
+        "es": [
+            {
+                "main": "¿Hacia quién mira atrás o intenta reconectarse el narrador en '{title}'? ¿Qué ha cambiado desde su encuentro pasado?",
+                "personal": "¿Alguna vez te has vuelto a conectar con alguien de tu pasado lejano? ¿Cómo te sentiste?"
+            },
+            {
+                "main": "¿Qué sugiere la canción sobre el paso del tiempo? ¿Se retrata la nostalgia como un consuelo o como un peso doloroso?",
+                "personal": "¿Sueles pensar a menudo en 'los viejos tiempos' o prefieres concentrarte únicamente en el futuro?"
+            },
+            {
+                "main": "¿Qué sentimientos de calidez, arrepentimiento o anhelo se expresan a través de la narración de {artist}?",
+                "personal": "¿Qué estación o lugar en particular te trae los recuerdos más poderosos de tu juventud?"
+            },
+            {
+                "main": "¿Por qué los seres humanos tienen una tendencia tan fuerte a romantizar el pasado? ¿Es la nostalgia siempre una emoción positiva?",
+                "personal": "¿Qué cosa de tu pasado tiendes a recordar como mucho mejor de lo que realmente fue?"
+            },
+            {
+                "main": "¿De qué manera nuestro entorno infantil y los secretos familiares moldean a los adultos en los que nos convertimos eventualmente?",
+                "personal": "¿Qué parte de tu personalidad actual atribuyes a tu crianza y entorno familiar?"
+            },
+            {
+                "main": "¿Cómo cambia la forma en que recordamos las experiencias pasadas a medida que envejecemos? ¿Podemos confiar realmente en nuestros recuerdos?",
+                "personal": "¿Alguna vez has descubierto que un recuerdo que guardaste durante años era en realidad incorrecto o exagerado?"
+            }
+        ],
+        "el": [
+            {
+                "main": "Ποιον κοιτάζει πίσω ή προσπαθεί να επανασυνδεθεί ο αφηγητής στο '{title}'; Τι έχει αλλάξει από την προηγούμενη συνάντησή τους;",
+                "personal": "Έχετε επανασυνδεθεί ποτέ με κάποιον από το μακρινό σας παρελθόν; Πώς νιώσατε;"
+            },
+            {
+                "main": "Τι υποδηλώνει το τραγούδι για το πέρασμα του χρόνου; Η νοσταλγία παρουσιάζεται ως παρηγοριά ή ως επώδυνο βάρος;",
+                "personal": "Σκέφτεστε συχνά 'τα παλιά καλά χρόνια' ή προτιμάτε να εστιάζετε αποκλειστικά στο μέλλον;"
+            },
+            {
+                "main": "Ποια συναισθήματα ζεστασιάς, μεταμέλειας ή λαχτάρας εκφράζονται μέσα από την αφήγηση του/της {artist};",
+                "personal": "Ποια συγκεκριμένη εποχή ή μέρος σάς φέρνει τις πιο έντονες αναμνήσεις της νιότης σας;"
+            },
+            {
+                "main": "Γιατί οι άνθρωποι έχουν τόσο έντονη τάση να εξιδανικεύουν το παρελθόν; Είναι η νοσταλγία πάντα ένα θετικό συναίσθημα;",
+                "personal": "Ποιο είναι ένα πράγμα από το παρελθόν σας που τείνετε να θυμάστε πολύ καλύτερο απ' ό,τι ήταν στην πραγματικότητα;"
+            },
+            {
+                "main": "Με ποιους τρόπους το περιβάλλον των παιδικών μας χρόνων και τα οικογενειακά μυστικά διαμορφώνουν τους ενήλικες που τελικά γινόμαστε;",
+                "personal": "Πόσο από την τρέχουσα προσωπικότητά σας αποδίδετε στην ανατροφή και το οικογενειακό σας υπόβαθρο;"
+            },
+            {
+                "main": "Πώς αλλάζει ο τρόπος με τον οποίο θυμόμαστε τις περασμένες εμπειρίες καθώς μεγαλώνουμε; Μπορούμε πραγματικά να βασιστούμε στις αναμνήσεις μας;",
+                "personal": "Έχετε ανακαλύψει ποτέ ότι μια ανάμνηση που κρατούσατε για χρόνια ήταν στην πραγματικότητα λανθασμένη ή υπερβολική;"
+            }
+        ]
+    },
+    "satire_humor": {
+        "en": [
+            {
+                "main": "How does the protagonist's personality in '{title}' create comedic tension? Who are they trying to convince or impress?",
+                "personal": "When was the last time you found yourself trying too hard to impress someone? What happened?"
+            },
+            {
+                "main": "What modern obsession, social stereotype, or behavior is '{title}' satirizing? What is the serious truth behind the humor?",
+                "personal": "Which stereotypes or clichés in TV shows do you find most annoying or humorous?"
+            },
+            {
+                "main": "How do the theatrical performance and vocal style of {artist} reinforce the satirical nature of the song?",
+                "personal": "Do you enjoy performance-driven or satirical musical genres, or do you prefer more traditional styles?"
+            },
+            {
+                "main": "In what ways can humor and satire be more effective than serious arguments when addressing complex social issues?",
+                "personal": "Can you think of a situation where making a joke helped diffuse a serious argument or tension?"
+            },
+            {
+                "main": "Why is there so much societal pressure today to be 'perfect' overachievers in career, relationships, or parenting?",
+                "personal": "How do you protect your peace of mind from expectations of perfection at work or home?"
+            },
+            {
+                "main": "Why do people sometimes fall for confident yet absurd or dangerous advice, and how can we develop better critical thinking?",
+                "personal": "What is the funniest or most absurd advice you have ever been given by a friend or family member?"
+            }
+        ],
+        "fr": [
+            {
+                "main": "Comment la personnalité du protagoniste dans '{title}' crée-t-elle une tension comique ? Qui essaie-t-il de convaincre ou d'impressionner ?",
+                "personal": "À quand remonte la dernière fois où vous avez trop essayé d'impressionner quelqu'un ? Que s'est-il passé ?"
+            },
+            {
+                "main": "Quelle obsession moderne, stéréotype social ou comportement '{title}' satirise-t-elle ? Quelle est la vérité sérieuse derrière cet humour ?",
+                "personal": "Quels stéréotypes ou clichés dans les émissions de télévision trouvez-vous les plus agaçants ou amusants ?"
+            },
+            {
+                "main": "Comment la performance théâtrale et le style vocal de {artist} renforcent-ils la nature satirique de la chanson ?",
+                "personal": "Appréciez-vous les genres musicaux théâtraux ou satiriques, ou préférez-vous des styles plus traditionnels ?"
+            },
+            {
+                "main": "En quoi l'humour et la satire peuvent-ils être plus efficaces que des arguments sérieux pour aborder des problèmes sociaux complexes ?",
+                "personal": "Pouvez-vous penser à une situation où faire une plaisanterie a aidé à désamorcer une tension ?"
+            },
+            {
+                "main": "Pourquoi y a-t-il tant de pression sociale aujourd'hui pour être des perfectionnistes ultra-performants dans le travail, le couple ou la parentalité ?",
+                "personal": "Comment protégez-vous votre tranquillité d'esprit face aux exigences de perfection au travail ou chez vous ?"
+            },
+            {
+                "main": "Pourquoi les gens se laissent-ils parfois séduire par des conseils absurdes mais pleins d'assurance, et comment développer son esprit critique ?",
+                "personal": "Quel est le conseil le plus absurde qu'un ami ou un membre de votre famille vous ait donné ?"
+            }
+        ],
+        "ru": [
+            {
+                "main": "Как личность главного героя в песне '{title}' создает комическое напряжение? Кого он пытается убедить или впечатлить?",
+                "personal": "Когда вы в последний раз ловили себя на том, что слишком стараетесь произвести впечатление на кого-то?"
+            },
+            {
+                "main": "Какую современную одержимость, социальный стереотип или поведение высмеивает песня '{title}'? Какая серьезная правда скрывается за юмором?",
+                "personal": "Какие стереотипы или клише в телешоу кажутся вам наиболее раздражающими или забавными?"
+            },
+            {
+                "main": "Как театральное представление и вокальный стиль {artist} подчеркивают сатирический характер песни?",
+                "personal": "Нравятся ли вам театральные или сатирические музыкальные жанры, или вы предпочитаете более традиционные стили?"
+            },
+            {
+                "main": "Каким образом юмор и сатира могут быть более эффективными, чем серьезные аргументы, при рассмотрении сложных социальных проблем?",
+                "personal": "Можете ли вы вспомнить ситуацию, когда шутка помогла разрядить серьезную обстановку?"
+            },
+            {
+                "main": "Почему сегодня существует такое сильное давление общества с требованием быть «идеальными» отличниками в карьере, отношениях или воспитании детей?",
+                "personal": "Как вы защищаете свое душевное спокойствие от требований идеальности на работе или дома?"
+            },
+            {
+                "main": "Почему люди иногда ведутся на уверенные, но абсурдные или опасные советы, и как мы можем развить критическое мышление?",
+                "personal": "Какую самую смешную или абсурдную рекомендацию вам когда-либо давал друг или член семьи?"
+            }
+        ],
+        "it": [
+            {
+                "main": "In che modo la personalità del protagonista in '{title}' crea tensione comica? Chi sta cercando di convincere o impressionare?",
+                "personal": "Quando è stata l'ultima volta che hai cercato con troppa insistenza di impressionare qualcuno? Cos'è successo?"
+            },
+            {
+                "main": "Quale ossessione moderna, stereotipo sociale o comportamento sta satirizzando '{title}'? Qual è la seria verità dietro l'umorismo?",
+                "personal": "Quali stereotipi o cliché negli show televisivi trovi più irritanti o divertenti?"
+            },
+            {
+                "main": "In che modo l'interpretazione teatrale e lo stile vocale di {artist} rafforzano la natura satirica della canzone?",
+                "personal": "Ti piacciono i generi musicali teatrali o satirici o preferisci stili più tradizionali?"
+            },
+            {
+                "main": "In quali modi l'umorismo e la satira possono essere più efficaci di argomenti seri quando si affrontano questioni sociali complesse?",
+                "personal": "Riesci a pensare a una situazione in cui fare una battuta ha aiutato a stemperare una tensione seria?"
+            },
+            {
+                "main": "Perché oggi c'è così tanta pressione sociale per essere perfezionisti di successo nella carriera, nelle relazioni o nella genitorialità?",
+                "personal": "Come proteggi la tua tranquillità mentale dalle aspettative di perfezione al lavoro o a casa?"
+            },
+            {
+                "main": "Perché le persone a volte cadono in consigli sicuri ma assurdi o pericolosi, e come possiamo sviluppare un migliore pensiero critico?",
+                "personal": "Qual è il consiglio più divertente o assurdo che ti sia mai stato dato da un amico o da un familiare?"
+            }
+        ],
+        "es": [
+            {
+                "main": "¿Cómo crea tensión cómica la personalidad del protagonista en '{title}'? ¿A quién intenta convencer o impresionar?",
+                "personal": "¿Cuándo fue la última vez que te esforzaste demasiado por impresionar a alguien? ¿Qué pasó?"
+            },
+            {
+                "main": "¿Qué obsesión moderna, estereotipo social o comportamiento está satirizando '{title}'? ¿Cuál es la verdad seria detrás del humor?",
+                "personal": "¿Qué estereotipos o clichés en los programas de televisión te resultan más molestos o graciosos?"
+            },
+            {
+                "main": "¿Cómo refuerzan la interpretación de {artist} el carácter satírico de la canción?",
+                "personal": "¿Te gustan los géneros musicales teatrales o satíricos, o prefieres estilos más tradicionales?"
+            },
+            {
+                "main": "¿De qué manera pueden el humor y la sátira ser más efectivos que los argumentos serios al abordar problemas sociales complejos?",
+                "personal": "¿Se te ocurre alguna situación en la que contar un chiste ayudara a suavizar una discusión seria?"
+            },
+            {
+                "main": "¿Por qué hay tanta presión social hoy en día para ser perfeccionistas sobresalientes en la carrera, las relaciones o la crianza de los hijos?",
+                "personal": "¿Cómo proteges tu paz mental de las expectativas de perfección en el trabajo o el hogar?"
+            },
+            {
+                "main": "¿Por qué la gente a veces cae en consejos confiados pero absurdos o peligrosos, y cómo podemos desarrollar un mejor pensamiento crítico?",
+                "personal": "¿Cuál es el consejo más divertido o absurdo que te ha dado un amigo o un de su familia?"
+            }
+        ],
+        "el": [
+            {
+                "main": "Πώς η προσωπικότητα του πρωταγωνιστή στο '{title}' δημιουργεί κωμική ένταση; Ποιον προσπαθεί να πείσει ή να εντυπωσιάσει;",
+                "personal": "Πότε ήταν η τελευταία φορά που προσπαθήσατε υπερβολικά να εντυπωσιάσετε κάποιον; Τι συνέβη;"
+            },
+            {
+                "main": "Ποια σύγχρονη εμμονή, κοινωνικό στερεότυπο ή συμπεριφορά σατιρίζει το '{title}'; Ποια είναι η σοβαρή αλήθεια πίσω από το χιούμορ;",
+                "personal": "Ποια στερεότυπα ή κλισέ σε τηλεοπτικές εκπομπές βρίσκετε πιο ενοχλητικά ή αστεία;"
+            },
+            {
+                "main": "Πώς η θεατρική ερμηνεία και το φωνητικό στυλ του/της {artist} ενισχύουν τη σατιρική φύση του τραγουδιού;",
+                "personal": "Σας αρέσουν τα θεατρικά ή σατιρικά μουσικά είδη ή προτιμάτε πιο παραδοσιακά στυλ;"
+            },
+            {
+                "main": "Με ποιους τρόπους το χιούμορ και η σάτιρα μπορούν να είναι πιο αποτελεσματικά από τα σοβαρά επιχειρήματα κατά την αντιμετώπιση σύνθετων κοινωνικών ζητημάτων;",
+                "personal": "Μπορείτε να σκεφτείτε μια κατάσταση όπου ένα αστείο βοήθησε να εκτονωθεί μια σοβαρή ένταση;"
+            },
+            {
+                "main": "Γιατί υπάρχει τόση κοινωνική πίεση σήμερα να είμαστε «τέλειοι» σε καριέρα, σχέσεις ή ανατροφή παιδιών;",
+                "personal": "Πώς προστατεύετε την ψυχική σας ηρεμία από τις προσδοκίες για τελειότητα στη δουλειά ή στο σπίτι;"
+            },
+            {
+                "main": "Γιατί οι άνθρωποι μερικές φορές πιστεύουν σίγουρες αλλά παράλογες ή επικίνδυνες συμβουλές και πώς μπορούμε να αναπτύξουμε καλύτερη κριτική σκέψη;",
+                "personal": "Ποια είναι η πιο αστεία ή παράλογη συμβουλή που σας έχει δώσει ποτέ φίλος ή μέλος της οικογένειας;"
+            }
+        ]
+    },
+    "hardship_survival": {
+        "en": [
+            {
+                "main": "What kind of crisis or tragedy are the characters in '{title}' facing? How are they attempting to survive?",
+                "personal": "How do you usually respond to unexpected major challenges or sudden changes in your life?"
+            },
+            {
+                "main": "What is the main message of '{title}' regarding the human cost of conflict, pain, or loss?",
+                "personal": "How do you process feelings of sadness or distress when looking at world news?"
+            },
+            {
+                "main": "How do the dark melody and {artist}'s performance convey deep sadness, anger, or a desperate search for hope?",
+                "personal": "Is there a specific song or piece of art that has helped you process a personal loss?"
+            },
+            {
+                "main": "What are the long-term emotional and psychological consequences of war, conflict, or severe trauma on individuals and families?",
+                "personal": "How can families preserve their unity and mental health when going through severe economic or social stress?"
+            },
+            {
+                "main": "What are the most effective ways for individuals and communities to support each other and heal in the aftermath of a crisis?",
+                "personal": "Have you ever participated in or witnessed a beautiful community effort to help someone in need?"
+            },
+            {
+                "main": "Why do people sometimes turn to dangerous coping mechanisms or illusions to escape harsh realities, and how can they find real support?",
+                "personal": "What healthy ways have you developed to escape daily stress or recharge your energy?"
+            }
+        ],
+        "fr": [
+            {
+                "main": "À quel type de crise ou de tragédie les personnages de '{title}' font-ils face ? Comment essaient-ils de survivre ?",
+                "personal": "Comment réagissez-vous généralement aux imprévus majeurs ou aux changements soudains dans votre vie ?"
+            },
+            {
+                "main": "Quel est le message principal de '{title}' concernant le coût humain des conflits, de la souffrance ou de la perte ?",
+                "personal": "Comment gérez-vous la tristesse ou l'inquiétude face aux actualités internationales ?"
+            },
+            {
+                "main": "Comment la mélodie sombre et l'interprétation de {artist} expriment-elles une profonde tristesse, de la colère ou une recherche désespérée d'espoir ?",
+                "personal": "Y a-t-il une œuvre d'art ou une chanson qui vous a aidé à traverser une épreuve personnelle ?"
+            },
+            {
+                "main": "Quelles sont les conséquences psychologiques et émotionnelles à long terme des guerres, des conflits ou des traumatismes graves sur les individus et les familles ?",
+                "personal": "Comment les familles peuvent-elles préserver leur unité et leur santé mentale face à de graves crises ?"
+            },
+            {
+                "main": "Quels sont les moyens les plus efficaces pour les individus et les communautés de se soutenir mutuellement et de guérir après une crise ?",
+                "personal": "Avez-vous déjà participé à un élan de solidarité au sein de votre communauté ?"
+            },
+            {
+                "main": "Pourquoi les gens se tournent-ils parfois vers des mécanismes d'évitement ou des illusions pour échapper à la réalité, et comment trouver un soutien réel ?",
+                "personal": "Quelles méthodes saines avez-vous développées pour échapper au stress quotidien ?"
+            }
+        ],
+        "ru": [
+            {
+                "main": "С каким кризисом или трагедией сталкиваются герои песни '{title}'? Как они пытаются выжить?",
+                "personal": "Как вы обычно реагируете на неожиданные трудности или внезапные изменения в вашей жизни?"
+            },
+            {
+                "main": "Каков главный посыл песни '{title}' относительно человеческих потерь в результате конфликтов, боли или утраты?",
+                "personal": "Как вы справляетесь с чувствами грусти или тревоги при просмотре мировых новостей?"
+            },
+            {
+                "main": "Как мрачная мелодия и исполнение {artist} передают глубокую грусть, гнев или отчаянный поиск надежды?",
+                "personal": "Есть ли песня или произведение искусства, которые помогли вам пережить личную потерю?"
+            },
+            {
+                "main": "Каковы долгосрочные эмоциональные и психологические последствия войн, конфликтов или тяжелых травм для отдельных людей и семей?",
+                "personal": "Как семьи могут сохранить единство и психическое здоровье во время тяжелых экономических или социальных трудностей?"
+            },
+            {
+                "main": "Каковы наиболее эффективные способы поддержки друг друга и восстановления для людей и сообществ после кризиса?",
+                "personal": "Участвовали ли вы когда-либо в благотворительных или общественных акциях помощи нуждающимся?"
+            },
+            {
+                "main": "Почему люди иногда прибегают к опасным иллюзиям или механизмам ухода от реальности, чтобы сбежать от суровых будней, и как найти реальную помощь?",
+                "personal": "Какие здоровые способы борьбы со стрессом вы выработали для себя?"
+            }
+        ],
+        "it": [
+            {
+                "main": "Che tipo di crisi o tragedia stanno affrontando i personaggi in '{title}'? In che modo cercano di sopravvivere?",
+                "personal": "Come rispondi di solito alle principali sfide impreviste o ai cambiamenti improvvisi nella tua vita?"
+            },
+            {
+                "main": "Qual è il messaggio principale di '{title}' riguardo al costo umano del conflitto, del dolore o della perdita?",
+                "personal": "Come gestisci le sensazioni di tristezza o ansia quando guardi i notiziari internazionali?"
+            },
+            {
+                "main": "In che modo la melodia cupa e l'interpretazione di {artist} trasmettono profonda tristezza, rabbia o una disperata ricerca di speranza?",
+                "personal": "C'è una canzone o un'opera d'arte specifica che ti ha aiutato a elaborare una perdita personale?"
+            },
+            {
+                "main": "Quali sono le conseguenze emotive e psicologiche a lungo termine della guerra, del conflitto o di gravi traumi su individui e famiglie?",
+                "personal": "Come possono le famiglie preservare la loro unità e salute mentale durante gravi difficoltà economiche o sociali?"
+            },
+            {
+                "main": "Quali sono i modi più efficaci per individui e comunità per sostenersi a vicenda e guarire all'indomani di una crisi?",
+                "personal": "Hai mai partecipato o assistito a un bello sforzo della comunità per aiutare qualcuno in difficoltà?"
+            },
+            {
+                "main": "Perché le persone a volte ricorrono a meccanismi di difesa pericolosi o illusioni per sfuggire a realtà difficili, e come possono trovare un vero supporto?",
+                "personal": "Quali modi sani hai sviluppato per sfuggire allo stress quotidiano o ricaricare le tue energie?"
+            }
+        ],
+        "es": [
+            {
+                "main": "¿A qué tipo de crisis o tragedia se enfrentan los personajes en '{title}'? ¿Cómo intentan sobrevivir?",
+                "personal": "¿Cómo sueles responder ante desafíos imprevistos o cambios repentinos en tu vida?"
+            },
+            {
+                "main": "¿Cuál es el mensaje principal de '{title}' con respecto al costo humano del conflicto, el dolor o la pérdida?",
+                "personal": "¿Cómo procesas los sentimientos de tristeza o de angustia al ver las noticias del mundo?"
+            },
+            {
+                "main": "¿Cómo transmiten la melodía oscura y la interpretación de {artist} una profunda tristeza, ira o una búsqueda desesperada de esperanza?",
+                "personal": "¿Hay alguna canción o obra de arte específica que te haya ayudado a superar una pérdida personal?"
+            },
+            {
+                "main": "¿Cuáles son las consecuencias emocionales y psicológicas a largo plazo de la guerra, el conflicto o el trauma grave en las personas y las familias?",
+                "personal": "¿Cómo pueden las familias preservar su unión y salud mental bajo graves dificultades económicas o sociales?"
+            },
+            {
+                "main": "¿Cuáles son las formas más efectivas para que las personas y las comunidades se apoyen mutuamente y sanen después de una crisis?",
+                "personal": "¿Alguna vez has participado o presenciado un esfuerzo comunitario para ayudar a alguien necesitado?"
+            },
+            {
+                "main": "¿Por qué las personas a veces recurren a mecanismos de evasión peligrosos o ilusiones para escapar de realidades duras, y cómo pueden encontrar un apoyo real?",
+                "personal": "¿Qué métodos saludables has desarrollado para escapar del estrés diario o recargar energías?"
+            }
+        ],
+        "el": [
+            {
+                "main": "Τι είδους κρίση ή τραγωδία αντιμετωπίζουν οι χαρακτήρες στο '{title}'; Πώς προσπαθούν να επιβιώσουν;",
+                "personal": "Πώς αντιδράτε συνήθως σε απροσδόκητες μεγάλες προκλήσεις ή ξαφνικές αλλαγές στη ζωή σας;"
+            },
+            {
+                "main": "Ποιο είναι το κύριο μήνυμα του '{title}' σχετικά με το ανθρώπινο κόστος της σύγκρουσης, του πόνου ή της απώλειας;",
+                "personal": "Πώς διαχειρίζεστε τα συναισθήματα θλίψης ή ανησυχίας όταν παρακολουθείτε τις παγκόσμιες ειδήσεις;"
+            },
+            {
+                "main": "Πώς η σκοτεινή μελωδία και η ερμηνεία του/της {artist} μεταφέρουν βαθιά θλίψη, θυμό ή μια απελπισμένη αναζήτηση ελπίδας;",
+                "personal": "Υπάρχει κάποιο συγκεκριμένο τραγούδι ή έργο τέχνης που σας βοήθησε να ξεπεράσετε μια προσωπική απώλεια;"
+            },
+            {
+                "main": "Ποιες είναι οι μακροπρόθεσμες συναισθηματικές και ψυχολογικές συνέπειες του πολέμου, της σύγκρουσης ή του σοβαρού τραύματος στα άτομα και τις οικογένειες;",
+                "personal": "Πώς μπορούν οι οικογένειες να διατηρήσουν την ενότητα και την ψυχική τους υγεία σε περιόδους έντονου οικονομικού ή κοινωνικού στρες;"
+            },
+            {
+                "main": "Ποιοι είναι οι πιο αποτελεσματικοί τρόποι για τα άτομα και τις κοινότητες να υποστηρίξουν ο ένας τον άλλον και να θεραπευτούν μετά από μια κρίση;",
+                "personal": "Έχετε συμμετάσχει ποτέ ή έχετε δει μια όμορφη συλλογική προσπάθεια για να βοηθηθεί κάποιος που έχει ανάγκη;"
+            },
+            {
+                "main": "Γιατί οι άνθρωποι στρέφονται μερικές φορές σε επικίνδυνους μηχανισμούς αντιμετώπισης ή ψευδαισθήσεις για να ξεφύγουν από τη σκληρή πραγματικότητα και πώς μπορούν να βρουν πραγματική υποστήριξη;",
+                "personal": "Ποιους υγιείς τρόπους έχετε αναπτύξει για να ξεφεύγετε από το καθημερινό στρες ή να γεμίζετε τις μπαταρίες σας;"
+            }
+        ]
+    }
+}
 
 def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     title = song["title"]
@@ -1744,43 +2915,20 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
         warmup_questions_html += f"            <li>Look at the title '{title}' and the artist '{artist}'. What do you predict this song is about? (Prediction question)</li>\n"
         warmup_questions_html += f"            <li>What kind of emotions does this style of music bring to you?</li>\n"
 
+    # Category thematic discussion logic
+    category = SLUG_CATEGORIES.get(slug, "relationships_love")
+    templates = QUESTIONS_TEMPLATES.get(category, QUESTIONS_TEMPLATES["relationships_love"])
+    lang_templates = templates.get(lang, templates.get("en", templates["en"]))
+
     r1_questions_html = ""
-    for w in vocab_words:
-        q_main = f"How does <strong>{w.lower()}</strong> play a symbolic role in the storytelling of '{title}'?"
-        q_pers = f"★ Do you personally feel that <strong>{w.lower()}</strong> is important?"
-
-        if lang == "fr":
-            q_main = f"Comment le concept de <strong>{w.lower()}</strong> se manifeste-t-il dans les paroles de '{title}' ?"
-            q_pers = f"★ Pensez-vous que <strong>{w.lower()}</strong> joue un rôle important dans votre quotidien ?"
-        elif lang == "ru":
-            q_main = f"Как понятие <strong>{w.lower()}</strong> отражается в сюжете и лирике '{title}'?"
-            q_pers = f"★ Насколько для вас важно понятие <strong>{w.lower()}</strong> в реальной жизни?"
-        elif lang == "it":
-            q_main = f"In che modo il concetto di <strong>{w.lower()}</strong> influisce sul testo di '{title}'?"
-            q_pers = f"★ Quanto ritieni importante <strong>{w.lower()}</strong> nella tua vita?"
-        elif lang == "es":
-            q_main = f"¿De qué manera influye el concepto de <strong>{w.lower()}</strong> en la letra de '{title}'?"
-            q_pers = f"★ ¿Qué tan importante es <strong>{w.lower()}</strong> en tu vida diaria?"
-        elif lang == "el":
-            q_main = f"Πώς εκφράζεται η έννοια <strong>{w.lower()}</strong> μέσα από τους στίχους του '{title}';"
-            q_pers = f"★ Πόσο σημαντικό είναι το <strong>{w.lower()}</strong> για εσάς;"
-
-        r1_questions_html += f'          <div class="round-item"><div class="round-item-main">{q_main}</div><div class="round-item-personal">{q_pers}</div></div>\n'
+    for item in lang_templates[:3]:
+        q_main = item["main"].format(title=title, artist=artist)
+        q_pers = item["personal"].format(title=title, artist=artist)
+        r1_questions_html += f'          <div class="round-item"><div class="round-item-main">{q_main}</div><div class="round-item-personal">★ {q_pers}</div></div>\n'
 
     r2_statements_html = ""
-    for w in vocab_words:
-        stmt = f"In our modern, high-tech world, maintaining a true sense of <strong>{w.lower()}</strong> is becoming nearly impossible."
-        if lang == "fr":
-            stmt = f"Dans notre société moderne et connectée, préserver <strong>{w.lower()}</strong> est devenu un défi quotidien."
-        elif lang == "ru":
-            stmt = f"В современном цифровом мире сохранить истинное значение <strong>{w.lower()}</strong> становится всё труднее."
-        elif lang == "it":
-            stmt = f"Nella società tecnologica odierna, difendere <strong>{w.lower()}</strong> è diventato quasi impossibile."
-        elif lang == "es":
-            stmt = f"En la sociedad tecnológica actual, proteger <strong>{w.lower()}</strong> se ha vuelto sumamente complejo."
-        elif lang == "el":
-            stmt = f"Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>{w.lower()}</strong> είναι εξαιρετικά δύσκολη."
-
+    for item in lang_templates[3:6]:
+        stmt = item["main"].format(title=title, artist=artist)
         r2_statements_html += f'          <div class="round-item"><div class="round-item-main">{stmt}</div></div>\n'
 
     mistakes_html = ""
@@ -1858,14 +3006,10 @@ for slug in sorted(LYRICS_DATA.keys()):
     if slug in SONG_THEMES:
         focus = SONG_THEMES[slug].get(lang, SONG_THEMES[slug].get("en", focus))
 
-    vocab = re.findall(r'<div class="vocab-word">(.*?)</div>', html)
+    vocab = re.findall(r'<div class="vocab-word[^>]*>(.*?)</div>', html, re.DOTALL)
     vocab_cleaned = []
     for v in vocab:
-        v_stripped = v.strip()
-        if "style=" in v_stripped:
-            sub_m = re.search(r'>(.*?)<', v_stripped)
-            if sub_m:
-                v_stripped = sub_m.group(1).strip()
+        v_stripped = re.sub(r'<[^>]*>', '', v).strip()
         vocab_cleaned.append(v_stripped)
 
     level_short = "B1"
@@ -1917,14 +3061,10 @@ for slug in sorted(CHALLENGE_MAP.keys()):
     if slug in SONG_THEMES:
         focus = SONG_THEMES[slug].get(lang, SONG_THEMES[slug].get("en", focus))
 
-    vocab = re.findall(r'<div class="vocab-word">(.*?)</div>', html)
+    vocab = re.findall(r'<div class="vocab-word[^>]*>(.*?)</div>', html, re.DOTALL)
     vocab_cleaned = []
     for v in vocab:
-        v_stripped = v.strip()
-        if "style=" in v_stripped:
-            sub_m = re.search(r'>(.*?)<', v_stripped)
-            if sub_m:
-                v_stripped = sub_m.group(1).strip()
+        v_stripped = re.sub(r'<[^>]*>', '', v).strip()
         vocab_cleaned.append(v_stripped)
 
     level_short = "B1"
