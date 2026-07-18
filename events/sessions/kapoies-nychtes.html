@@ -29,7 +29,7 @@
   </nav>
   <a href="../karaoke-club.html" class="back-link">← Πίσω στο Club</a>
   <div class="session-meta-grid">
-    <div class="meta-item"><h4>Διάρκεια</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Διάρκεια</h4><p>90–120 minutes</p></div>
     <div class="meta-item"><h4>Γλώσσα</h4><p>Ελληνικά</p></div>
     <div class="meta-item"><h4>Επίπεδο</h4><p>Μεσαίο (B1)</p></div>
     <div class="meta-item"><h4>Θέμα</h4><p>Νυχτερινές σκέψεις & μοναξιά</p></div>
@@ -37,86 +37,108 @@
       <a href="https://www.youtube.com/watch?v=ZoBLe933nsM" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
       <a href="https://www.youtube.com/watch?v=ZoBLe933nsM" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
     </p></div>
-  </div>
-  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Ανακαλύψτε το πανέφορφο τραγούδι 'kapoies nychtes' του καλλιτέχνη Arletta στα Ελληνικά. Αυτή η συνεδρία εστιάζει στο λεξιλόγιο γύρω από το θέμα 'Νυχτερινές σκέψεις & μοναξιά' και στις βασικές γλωσσικές δομές των στίχων. Οι μαθητές θα εξασκηθούν στην ομιλία και τη συζήτηση.</p>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
   </div>
 
-  <!-- COLLAPSIBLE VOCABULARY SECTION -->
-  <section id="vocabulary" class="round-block open" style="margin-bottom: 2rem;">
-    <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
-      <span>📖 Λεξιλόγιο Συνεδρίας</span><span class="round-toggle">▲</span>
-    </div>
-    <div class="round-body" style="display:block; padding-top: 1.5rem;">
-      <div class="vocab-grid-10">
-            <div class="vocab-card"><div class="vocab-word">Η νύχτα</div><div class="vocab-def">το διάστημα από τη δύση ως την ανατολή του ήλιου.</div><div class="vocab-example">Η νύχτα ήταν ήσυχη και ο ουρανός γεμάτος αστέρια.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η νύχτα', definition:'το διάστημα από τη δύση ως την ανατολή του ήλιου.', example:'Η νύχτα ήταν ήσυχη και ο ουρανός γεμάτος αστέρια.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Το φεγγάρι</div><div class="vocab-def">ο φυσικός δορυφόρος της Γης, η σελήνη.</div><div class="vocab-example">Το ολόγιομο φεγγάρι φώτιζε τη θάλασσα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Το φεγγάρι', definition:'ο φυσικός δορυφόρος της Γης, η σελήνη.', example:'Το ολόγιομο φεγγάρι φώτιζε τη θάλασσα.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Η μοναξιά</div><div class="vocab-def">η κατάσταση του να είναι κανείς μόνος.</div><div class="vocab-example">Απολαμβάνει τη μοναξιά του για να διαβάζει βιβλία.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η μοναξιά', definition:'η κατάσταση του να είναι κανείς μόνος.', example:'Απολαμβάνει τη μοναξιά του για να διαβάζει βιβλία.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Το όνειρο</div><div class="vocab-def">εικόνες που βλέπουμε στον ύπνο, επιθυμία.</div><div class="vocab-example">Το μεγάλο του όνειρο είναι να γίνει γιατρός.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Το όνειρο', definition:'εικόνες που βλέπουμε στον ύπνο, επιθυμία.', example:'Το μεγάλο του όνειρο είναι να γίνει γιατρός.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Η σιωπή</div><div class="vocab-def">η απουσία ομιλίας ή θορύβου.</div><div class="vocab-example">Μια απόλυτη σιωπή επικράτησε στην αίθουσα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η σιωπή', definition:'η απουσία ομιλίας ή θορύβου.', example:'Μια απόλυτη σιωπή επικράτησε στην αίθουσα.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Η μελαγχολία</div><div class="vocab-def">κατάσταση θλίψης και στενοχώριας.</div><div class="vocab-example">Το φθινόπωρο φέρνει πάντα μια γλυκιά μελαγχολία.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η μελαγχολία', definition:'κατάσταση θλίψης και στενοχώριας.', example:'Το φθινόπωρο φέρνει πάντα μια γλυκιά μελαγχολία.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Το τραγούδι</div><div class="vocab-def">μουσική σύνθεση με στίχους.</div><div class="vocab-example">Αυτό το τραγούδι μου θυμίζει τα παιδικά μου χρόνια.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Το τραγούδι', definition:'μουσική σύνθεση με στίχους.', example:'Αυτό το τραγούδι μου θυμίζει τα παιδικά μου χρόνια.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Το σκοτάδι</div><div class="vocab-def">η απουσία φωτός, το έρεβος.</div><div class="vocab-example">Άναψε ένα κερί για να νικήσει το σκοτάδι.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Το σκοτάδι', definition:'η απουσία φωτός, το έρεβος.', example:'Άναψε ένα κερί για να νικήσει το σκοτάδι.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Η θύμηση</div><div class="vocab-def">η ανάμνηση, η επαναφορά στη μνήμη.</div><div class="vocab-example">Η θύμηση των παλιών φίλων τον συγκινεί πάντα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η θύμηση', definition:'η ανάμνηση, η επαναφορά στη μνήμη.', example:'Η θύμηση των παλιών φίλων τον συγκινεί πάντα.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Η παρέα</div><div class="vocab-def">σύνολο ανθρώπων που κάνουν συντροφιά.</div><div class="vocab-example">Περνάει τις διακοπές του με καλή παρέα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η παρέα', definition:'σύνολο ανθρώπων που κάνουν συντροφιά.', example:'Περνάει τις διακοπές του με καλή παρέα.'}, this)">+ Dictionary</button></div>
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Θέμα: Νυχτερινές σκέψεις & μοναξιά</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Θα συζητήσουμε:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Η νύχτα</li>
+      <li>Το φεγγάρι</li>
+      <li>Η μοναξιά</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
 
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (20%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (10%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Στάδιο 1: Προθέρμανση</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>Πόσο σημαντικό είναι αυτό το θέμα συζήτησης στην καθημερινή σας ζωή;</li>
+            <li>Κοιτάξτε τον τίτλο 'kapoies nychtes' και τον καλλιτέχνη 'Arletta'. Τι προβλέπετε ότι αφορά αυτό το τραγούδι; (Ερώτηση πρόβλεψης)</li>
+            <li>Τι συναισθήματα σας προκαλεί αυτό το είδος μουσικής;</li>
+        </ul>
       </div>
     </div>
-  </section>
 
-  <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
-    <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
-      <span>🎵 Άσκηση Ακρόασης & Συμπλήρωσης Κενών</span><span class="round-toggle">▲</span>
-    </div>
-    <div class="round-body" style="display:block; padding-top: 1.5rem;">
-      <div class="vim-instruction">
-        <strong>Ενεργητική Ακρόαση:</strong> Ακούστε το τραγούδι χρησιμοποιώντας τον παραπάνω σύνδεσμο και συμπληρώστε τα κενά.
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Στάδιο 2: Λεξιλόγιο</span><span class="round-toggle">▲</span>
       </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Βασικές Έννοιες & Συναισθήματα</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η νύχτα</div><div class="vocab-def">το διάστημα από τη δύση ως την ανατολή του ήλιου.</div><div class="vocab-example">Η νύχτα ήταν ήσυχη και ο ουρανός γεμάτος αστέρια.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η νύχτα', definition:'το διάστημα από τη δύση ως την ανατολή του ήλιου.', example:'Η νύχτα ήταν ήσυχη και ο ουρανός γεμάτος αστέρια.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Το φεγγάρι</div><div class="vocab-def">ο φυσικός δορυφόρος της Γης, η σελήνη.</div><div class="vocab-example">Το ολόγιομο φεγγάρι φώτιζε τη θάλασσα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Το φεγγάρι', definition:'ο φυσικός δορυφόρος της Γης, η σελήνη.', example:'Το ολόγιομο φεγγάρι φώτιζε τη θάλασσα.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η μοναξιά</div><div class="vocab-def">η κατάσταση του να είναι κανείς μόνος.</div><div class="vocab-example">Απολαμβάνει τη μοναξιά του για να διαβάζει βιβλία.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η μοναξιά', definition:'η κατάσταση του να είναι κανείς μόνος.', example:'Απολαμβάνει τη μοναξιά του για να διαβάζει βιβλία.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Το όνειρο</div><div class="vocab-def">εικόνες που βλέπουμε στον ύπνο, επιθυμία.</div><div class="vocab-example">Το μεγάλο του όνειρο είναι να γίνει γιατρός.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Το όνειρο', definition:'εικόνες που βλέπουμε στον ύπνο, επιθυμία.', example:'Το μεγάλο του όνειρο είναι να γίνει γιατρός.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η σιωπή</div><div class="vocab-def">η απουσία ομιλίας ή θορύβου.</div><div class="vocab-example">Μια απόλυτη σιωπή επικράτησε στην αίθουσα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η σιωπή', definition:'η απουσία ομιλίας ή θορύβου.', example:'Μια απόλυτη σιωπή επικράτησε στην αίθουσα.'}, this)">+ Dictionary</button></div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Ζωή, Δράσεις & Σύνδεση</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η μελαγχολία</div><div class="vocab-def">κατάσταση θλίψης και στενοχώριας.</div><div class="vocab-example">Το φθινόπωρο φέρνει πάντα μια γλυκιά μελαγχολία.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η μελαγχολία', definition:'κατάσταση θλίψης και στενοχώριας.', example:'Το φθινόπωρο φέρνει πάντα μια γλυκιά μελαγχολία.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Το τραγούδι</div><div class="vocab-def">μουσική σύνθεση με στίχους.</div><div class="vocab-example">Αυτό το τραγούδι μου θυμίζει τα παιδικά μου χρόνια.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Το τραγούδι', definition:'μουσική σύνθεση με στίχους.', example:'Αυτό το τραγούδι μου θυμίζει τα παιδικά μου χρόνια.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Το σκοτάδι</div><div class="vocab-def">η απουσία φωτός, το έρεβος.</div><div class="vocab-example">Άναψε ένα κερί για να νικήσει το σκοτάδι.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Το σκοτάδι', definition:'η απουσία φωτός, το έρεβος.', example:'Άναψε ένα κερί για να νικήσει το σκοτάδι.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η θύμηση</div><div class="vocab-def">η ανάμνηση, η επαναφορά στη μνήμη.</div><div class="vocab-example">Η θύμηση των παλιών φίλων τον συγκινεί πάντα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η θύμηση', definition:'η ανάμνηση, η επαναφορά στη μνήμη.', example:'Η θύμηση των παλιών φίλων τον συγκινεί πάντα.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η παρέα</div><div class="vocab-def">σύνολο ανθρώπων που κάνουν συντροφιά.</div><div class="vocab-example">Περνάει τις διακοπές του με καλή παρέα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η παρέα', definition:'σύνολο ανθρώπων που κάνουν συντροφιά.', example:'Περνάει τις διακοπές του με καλή παρέα.'}, this)">+ Dictionary</button></div>
+        </div>
+      </div>
+    </div>
 
-      <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-        <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Βοηθητικό Λεξιλόγιο / Λέξεις-Κλειδιά:</h3>
-        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Στάδιο 3: Ακρόαση</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Βοηθητικό Λεξιλόγιο / Λέξεις-Κλειδιά:</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">νύχτα</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">φεγγάρι</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">μοναξιά</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">όνειρο</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">σιωπή</span>
-
+          </div>
         </div>
-      </div>
 
-      <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-        <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Πλήρεις στίχοι</h3>
-        <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Κάποιες νύχτες μελαγχολικές<br>Γεμάτες σκέψεις και σιωπές<br>Όταν απλώνεται η σκοτεινή [__________]<br>Και η καρδιά αναζητά μια διέξοδο<br><br>Κοιτάζω το ολόγιομο [__________] ψηλά<br>Να φωτίζει τα πέτρινα σκαλιά<br>Νιώθοντας τη βαθιά [__________] της ψυχής<br>Σαν ένα χαμένο [__________] της αυγής</p>
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Κάποιες νύχτες μελαγχολικές<br>Γεμάτες σκέψεις και σιωπές<br>Όταν απλώνεται η σκοτεινή [__________]<br>Και η καρδιά αναζητά μια διέξοδο<br><br>Κοιτάζω το ολόγιομο [__________] ψηλά<br>Να φωτίζει τα πέτρινα σκαλιά<br>Νιώθοντας τη βαθιά [__________] της ψυχής<br>Σαν ένα χαμένο [__________] της αυγής</p>
+        </div>
       </div>
     </div>
-  </section>
 
-  <!-- DISCUSSION STRUCTURE -->
-  <section id="structure">
-    <h2 class="section-title">🎙️ Δομή Συζήτησης</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Προθέρμανση</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Μοιραστείτε τις σκέψεις σας για το τραγούδι και τη μουσική.</div>
-          <ul class="round-questions">
-            <li>Έχετε ακούσει ποτέ το 'kapoies nychtes' πριν από αυτή τη συνεδρία;</li>
-            <li>Τι είδους συναισθήματα σας προκαλεί αυτή η μελωδία;</li>
-
-          </ul>
-        </div>
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Στάδιο 4: Συζήτηση</span><span class="round-toggle">▲</span>
       </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Γύρος 1 — Συζήτηση Στίχων</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Questions</div>
-          <div class="vim-instruction">Αναλύστε τους στίχους-κλειδιά και μιλήστε χρησιμοποιώντας το στοχευμένο λεξιλόγιο.</div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
           <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η νύχτα</strong> μέσα από τους στίχους του 'kapoies nychtes';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η νύχτα</strong> για εσάς;</div></div>
           <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>το φεγγάρι</strong> μέσα από τους στίχους του 'kapoies nychtes';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>το φεγγάρι</strong> για εσάς;</div></div>
           <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η μοναξιά</strong> μέσα από τους στίχους του 'kapoies nychtes';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η μοναξιά</strong> για εσάς;</div></div>
@@ -127,28 +149,9 @@
           <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>το σκοτάδι</strong> μέσα από τους στίχους του 'kapoies nychtes';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>το σκοτάδι</strong> για εσάς;</div></div>
           <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η θύμηση</strong> μέσα από τους στίχους του 'kapoies nychtes';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η θύμηση</strong> για εσάς;</div></div>
           <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η παρέα</strong> μέσα από τους στίχους του 'kapoies nychtes';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η παρέα</strong> για εσάς;</div></div>
-
         </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Ας μιλήσουμε μαζί</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Οπτική αντίθεση μεταξύ ακουστικής ερμηνείας και μεγάλης συναυλίας.</p>
-          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
-          </div>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Γύρος 2 — Ανάλυση & Αντιπαράθεση</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Debate</div>
-          <div class="vim-instruction">Αξιολογήστε αυτές τις φιλοσοφικές δηλώσεις σχετικά με τα θέματα του τραγουδιού.</div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
           <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η νύχτα</strong> είναι εξαιρετικά δύσκολη.</div></div>
           <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>το φεγγάρι</strong> είναι εξαιρετικά δύσκολη.</div></div>
           <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η μοναξιά</strong> είναι εξαιρετικά δύσκολη.</div></div>
@@ -159,14 +162,49 @@
           <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>το σκοτάδι</strong> είναι εξαιρετικά δύσκολη.</div></div>
           <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η θύμηση</strong> είναι εξαιρετικά δύσκολη.</div></div>
           <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η παρέα</strong> είναι εξαιρετικά δύσκολη.</div></div>
-
         </div>
       </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Σημειώσεις Καθηγητή (Γλωσσικές Διορθώσεις)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Στάδιο 5: Γλωσσική εστίαση</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Η χρήση του 'να' με Υποτακτική</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Η υποτακτική έγκλιση χρησιμοποιείται για να εκφράσουμε επιθυμία, προτροπή ή ανάγκη.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Θέλω να ακούσω αυτό το τραγούδι ξανά.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Ας μιλήσουμε μαζί για την αγάπη και την ελπίδα.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Πρέπει να κρατήσουμε την υπόσχεσή μας για πάντα.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Στάδιο 6: Τελική πρόκληση</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Φανταστείτε τη συνέχεια αυτού του τραγουδιού: παίξτε ένα παιχνίδι ρόλων μεταξύ των κύριων χαρακτήρων 5 χρόνια αργότερα.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Σημειώσεις Καθηγητή (Γλωσσικές Διορθώσεις)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
           <div class="mistake-item">
             <span class="mistake-wrong">Είμαι ερωτευμένος <span class="mistake-highlight">από</span> την Ελλάδα</span>
             <span class="mistake-arrow">→</span>
@@ -185,11 +223,9 @@
             <span class="mistake-right">Πονάει η καρδιά μου</span>
             <span class="mistake-note-text">(Στα ελληνικά λέμε 'πονάει η καρδιά μου'.)</span>
           </div>
-
-        </div>
       </div>
     </div>
-  </section>
+  </div>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">

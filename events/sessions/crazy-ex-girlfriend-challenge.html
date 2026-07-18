@@ -33,6 +33,7 @@
     <div class="meta-item"><h4>Variety/Language</h4><p>American English</p></div>
     <div class="meta-item"><h4>Level</h4><p>Upper Intermediate (B2)</p></div>
     <div class="meta-item"><h4>Thematic Focus</h4><p>Satire, Humor &amp; Irony</p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
   </div>
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
     <p>Complete this special Karaoke Challenge consisting of 4 classic songs: Love Kernels, Let's Generalize About Men, So Maternal, Face Your Fears. Practice and compare their vocabulary, lyrics, and cultural significance!</p>
@@ -42,117 +43,158 @@
     <vim-choice-option>
       <vim-choice-option-title>Love Kernels</vim-choice-option-title>
       <vim-choice-option-content>
-        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: 1fr;">
+        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
           <div class="meta-item"><h4>Resources</h4><p>
             <a href="https://www.youtube.com/watch?v=bkAjUBtn_TM" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
             <a href="https://www.youtube.com/watch?v=bkAjUBtn_TM" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
           </p></div>
         </div>
 
-        <!-- COLLAPSIBLE VOCABULARY SECTION -->
-        <section id="vocabulary-love-kernels" class="round-block open" style="margin-bottom: 2rem;">
-          <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-love-kernels')">
-            <span>📖 Session Vocabulary</span><span class="round-toggle">▲</span>
-          </div>
-          <div class="round-body" style="display:block; padding-top: 1.5rem;">
-            <div class="vocab-grid-10">
-            <div class="vocab-card"><div class="vocab-word">Kernels</div><div class="vocab-def">small, soft, or edible parts of a nut, seed, or corn; metaphorically, tiny bits.</div><div class="vocab-example">He only threw her a few kernels of affection, keeping her wanting more.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Kernels', definition:'small, soft, or edible parts of a nut, seed, or corn; metaphorically, tiny bits.', example:'He only threw her a few kernels of affection, keeping her wanting more.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Delusional</div><div class="vocab-def">characterized by or holding idiosyncratic beliefs or impressions that are contradicted by reality.</div><div class="vocab-example">He was delusional to think he could win without practicing at all.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Delusional', definition:'characterized by or holding idiosyncratic beliefs or impressions that are contradicted by reality.', example:'He was delusional to think he could win without practicing at all.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Obsession ≠ Indifference</div><div class="vocab-def">state of being obsessed with someone or something ≠ lack of interest, concern, or sympathy.</div><div class="vocab-example">Her passionate devotion bordered on obsession, while his attitude was one of complete indifference.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Obsession ≠ Indifference', definition:'state of being obsessed with someone or something ≠ lack of interest, concern, or sympathy.', example:'Her passionate devotion bordered on obsession, while his attitude was one of complete indifference.'}, this)">+ Dictionary</button></div>
+        <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+          <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Theme: Satire & Infatuation</h3>
+          <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">We'll discuss:</p>
+          <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+                  <li>Kernels</li>
+      <li>Delusional</li>
+      <li>Obsession ≠ indifference</li>
+      <li>Personal reflection</li>
+          </ul>
+        </div>
 
+        <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+          <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+            <span>🗣️ Speaking Time Gauge</span>
+            <span>90-120 min Session</span>
+          </div>
+          <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+            <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+            <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+            <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+            <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+            <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+            <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+            <span>🎵 Stage 1: Warm-up (10%)</span>
+            <span>📚 Stage 2: Vocabulary (15%)</span>
+            <span>🎧 Stage 3: Listening (20%)</span>
+            <span>💬 Stage 4: Discussion (45%)</span>
+            <span>✨ Stage 5: Language Focus (10%)</span>
+            <span>🎭 Stage 6: Final Challenge (10%)</span>
+          </div>
+        </div>
+
+        <div class="rounds-container">
+          <div class="round-block warm-up open" id="s-warm-love-kernels">
+            <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm-love-kernels')">
+              <span>🎵 Stage 1: Warm-up</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block;">
+              <ul class="round-questions">
+            <li>How important is this discussion theme in your daily life?</li>
+            <li>Look at the title 'Love Kernels' and the artist 'Rachel Bloom'. What do you predict this song is about? (Prediction question)</li>
+            <li>What kind of emotions does this style of music bring to you?</li>
+              </ul>
             </div>
           </div>
-        </section>
 
-        <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
-        <section id="listening-exercise-love-kernels" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
-          <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-love-kernels')">
-            <span>🎵 Listening & Gap-Fill Exercise</span><span class="round-toggle">▲</span>
-          </div>
-          <div class="round-body" style="display:block; padding-top: 1.5rem;">
-            <div class="vim-instruction">
-              <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+          <div class="round-block open" id="vocabulary-love-kernels">
+            <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-love-kernels')">
+              <span>📚 Stage 2: Vocabulary</span><span class="round-toggle">▲</span>
             </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Core Concepts & Feelings</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Kernels</div><div class="vocab-def">small, soft, or edible parts of a nut, seed, or corn; metaphorically, tiny bits.</div><div class="vocab-example">He only threw her a few kernels of affection, keeping her wanting more.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Bulk</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Kernels', definition:'small, soft, or edible parts of a nut, seed, or corn; metaphorically, tiny bits.', example:'He only threw her a few kernels of affection, keeping her wanting more.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Delusional</div><div class="vocab-def">characterized by or holding idiosyncratic beliefs or impressions that are contradicted by reality.</div><div class="vocab-example">He was delusional to think he could win without practicing at all.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Realistic</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Delusional', definition:'characterized by or holding idiosyncratic beliefs or impressions that are contradicted by reality.', example:'He was delusional to think he could win without practicing at all.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Obsession ≠ Indifference</div><div class="vocab-def">Target vocabulary word meaning in 'Love Kernels'.</div><div class="vocab-example">This is an elegant example of using 'Obsession ≠ Indifference'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Obsession ≠ Indifference', definition:'Target vocabulary word meaning in \'Love Kernels\'.', example:'This is an elegant example of using \'Obsession ≠ Indifference\'.'}, this)">+ Dictionary</button></div>
+              </div>
+            </div>
+          </div>
 
-            <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-              <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
-              <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+          <div class="round-block open" id="listening-exercise-love-kernels">
+            <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-love-kernels')">
+              <span>🎧 Stage 3: Listening</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+                <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">stockpile</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">cactus</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">drought</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">symbolism</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">kernels</span>
-
+                </div>
               </div>
-            </div>
 
-            <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-              <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
-              <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">How do I know he loves me? It's the little things.<br>Little compliments here and there that I secretly [__________] in my woman-brain.<br>I can live for days of a single "You really listen to me."<br>I'm like a sexy fashion-[__________].<br>Livin' from compliment to compliment. Hint to hint.<br>Storin' them in my body through long periods of [__________].<br>I may look dry, but if you cut me open, you'll find only water inside.<br>Incidentally that is also a useful fact for how to survive in the desert.<br>But how do I know he loves me?<br>I guess the only way to prove it is with abstract [__________].<br><br>He gives me love [__________].<br>Each little crumb another tasty clue.<br>Love kernels.<br>'Cause if you read between the lines he's sayin' "I love you."<br>Love kernels.<br>Save those kernels up to make a bowl of popcorn.<br>Love kernels.<br>A handful is the proper serving anyway.</p>
+              <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+                <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">How do I know he loves me? It's the little things.<br>Little compliments here and there that I secretly [__________] in my woman-brain.<br>I can live for days of a single "You really listen to me."<br>I'm like a sexy fashion-[__________].<br>Livin' from compliment to compliment. Hint to hint.<br>Storin' them in my body through long periods of [__________].<br>I may look dry, but if you cut me open, you'll find only water inside.<br>Incidentally that is also a useful fact for how to survive in the desert.<br>But how do I know he loves me?<br>I guess the only way to prove it is with abstract [__________].<br><br>He gives me love [__________].<br>Each little crumb another tasty clue.<br>Love kernels.<br>'Cause if you read between the lines he's sayin' "I love you."<br>Love kernels.<br>Save those kernels up to make a bowl of popcorn.<br>Love kernels.<br>A handful is the proper serving anyway.</p>
+              </div>
             </div>
           </div>
-        </section>
 
-        <!-- DISCUSSION STRUCTURE -->
-        <section id="structure-love-kernels">
-          <h2 class="section-title">🎙️ Discussion Structure</h2>
-          <div class="rounds-container">
-            <div class="round-block warm-up open" id="s-warm-love-kernels">
-              <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm-love-kernels')">
-                <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="vim-instruction">Initial reactions to the melody, rhythm, and artist.</div>
-                <ul class="round-questions">
-            <li>Have you ever listened to 'Love Kernels' before?</li>
-            <li>What kind of emotions does this style of music bring to you?</li>
-
-                </ul>
-              </div>
+          <div class="round-block open" id="discussion-love-kernels">
+            <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion-love-kernels')">
+              <span>💬 Stage 4: Discussion</span><span class="round-toggle">▲</span>
             </div>
-            <div class="round-block round-1 open" id="s-r1-love-kernels">
-              <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1-love-kernels')">
-                <span>🔵 Round 1 — Lyric Discussion</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="round-type-badge">Questions</div>
-                <div class="vim-instruction">Analyze the song's key verses and speak using the targeted vocabulary.</div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div class="round-1" style="margin-bottom: 2rem;">
+                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
           <div class="round-item"><div class="round-item-main">How does <strong>kernels</strong> play a symbolic role in the storytelling of 'Love Kernels'?</div><div class="round-item-personal">★ Do you personally feel that <strong>kernels</strong> is important?</div></div>
           <div class="round-item"><div class="round-item-main">How does <strong>delusional</strong> play a symbolic role in the storytelling of 'Love Kernels'?</div><div class="round-item-personal">★ Do you personally feel that <strong>delusional</strong> is important?</div></div>
           <div class="round-item"><div class="round-item-main">How does <strong>obsession ≠ indifference</strong> play a symbolic role in the storytelling of 'Love Kernels'?</div><div class="round-item-personal">★ Do you personally feel that <strong>obsession ≠ indifference</strong> is important?</div></div>
-
               </div>
-            </div>
-            <div class="round-block lst open" id="s-lst-love-kernels">
-              <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst-love-kernels')">
-                <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <p class="round-note">Visual contrast: Live Acoustic Cafe vs Electric Stage Lights.</p>
-                <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
-                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
-                </div>
-              </div>
-            </div>
-            <div class="round-block round-2 open" id="s-r2-love-kernels">
-              <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2-love-kernels')">
-                <span>🟢 Round 2 — Lyric Deep Dive & Debate</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="round-type-badge">Debate</div>
-                <div class="vim-instruction">Evaluate these philosophical statements regarding the song's underlying cultural concepts.</div>
+              <div class="round-2" style="margin-top: 2rem;">
+                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
           <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>kernels</strong> is becoming nearly impossible.</div></div>
           <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>delusional</strong> is becoming nearly impossible.</div></div>
           <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>obsession ≠ indifference</strong> is becoming nearly impossible.</div></div>
-
               </div>
             </div>
-            <div class="mistake-block open" id="s-mistakes-love-kernels">
-              <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-love-kernels')">
-                <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="mistake-body" style="display:block;">
+          </div>
+
+          <div class="round-block open" id="lang-focus-love-kernels">
+            <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus-love-kernels')">
+              <span>✨ Stage 5: Language Focus</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">The Modal Verb 'Must' for Obligation and Deduction</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">We use 'must' to express a strong obligation or a logical deduction directly from the lyrics.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">We must dare to make our own music.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">The song is so beautiful, she must be a great artist.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">You must listen carefully to fill in the missing gaps.</li>
+      </ul>
+    </div>
+                </div>
+          </div>
+
+          <div class="round-block open" id="final-challenge-love-kernels">
+            <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge-love-kernels')">
+              <span>🎭 Stage 6: Final Challenge</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Imagine the sequel of this song: Role-play a conversation between the main characters 5 years later.</p>
+      </div>
+    </div>
+                </div>
+          </div>
+
+          <div class="mistake-block open" id="s-mistakes-love-kernels">
+            <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-love-kernels')">
+              <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="mistake-body" style="display:block;">
           <div class="mistake-item">
             <span class="mistake-wrong">There is a big improvement <span class="mistake-highlight">of</span> my English</span>
             <span class="mistake-arrow">→</span>
@@ -171,127 +213,166 @@
             <span class="mistake-right">She has been in the choir for three years</span>
             <span class="mistake-note-text">(Use present perfect + 'for' to show duration of state.)</span>
           </div>
-
-              </div>
             </div>
           </div>
-        </section>
+        </div>
       </vim-choice-option-content>
-    </vim-choice-option>
-    <vim-choice-option>
+    </vim-choice-option>    <vim-choice-option>
       <vim-choice-option-title>Let's Generalize About Men</vim-choice-option-title>
       <vim-choice-option-content>
-        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: 1fr;">
+        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
           <div class="meta-item"><h4>Resources</h4><p>
             <a href="https://www.youtube.com/watch?v=Oa_QtMf6alU" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
             <a href="https://www.youtube.com/watch?v=Oa_QtMf6alU" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
           </p></div>
         </div>
 
-        <!-- COLLAPSIBLE VOCABULARY SECTION -->
-        <section id="vocabulary-lets-generalize-about-men" class="round-block open" style="margin-bottom: 2rem;">
-          <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-lets-generalize-about-men')">
-            <span>📖 Session Vocabulary</span><span class="round-toggle">▲</span>
-          </div>
-          <div class="round-body" style="display:block; padding-top: 1.5rem;">
-            <div class="vocab-grid-10">
-            <div class="vocab-card"><div class="vocab-word">Generalize</div><div class="vocab-def">make a general or broad statement by inferring from specific cases.</div><div class="vocab-example">It is unfair to generalize about an entire group of people based on one person's actions.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Generalize', definition:'make a general or broad statement by inferring from specific cases.', example:'It is unfair to generalize about an entire group of people based on one person\'s actions.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Satire</div><div class="vocab-def">the use of humor, irony, exaggeration, or ridicule to expose and criticize people's stupidity.</div><div class="vocab-example">The show is a brilliant satire of modern television culture.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Satire', definition:'the use of humor, irony, exaggeration, or ridicule to expose and criticize people\'s stupidity.', example:'The show is a brilliant satire of modern television culture.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Condescending</div><div class="vocab-def">having or showing a feeling of patronizing superiority.</div><div class="vocab-example">He spoke in a condescending tone that offended everyone in the room.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Condescending', definition:'having or showing a feeling of patronizing superiority.', example:'He spoke in a condescending tone that offended everyone in the room.'}, this)">+ Dictionary</button></div>
+        <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+          <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Theme: Generalizations & Satire</h3>
+          <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">We'll discuss:</p>
+          <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+                  <li>Generalize</li>
+      <li>Satire</li>
+      <li>Condescending</li>
+      <li>Personal reflection</li>
+          </ul>
+        </div>
 
+        <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+          <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+            <span>🗣️ Speaking Time Gauge</span>
+            <span>90-120 min Session</span>
+          </div>
+          <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+            <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+            <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+            <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+            <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+            <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+            <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+            <span>🎵 Stage 1: Warm-up (10%)</span>
+            <span>📚 Stage 2: Vocabulary (15%)</span>
+            <span>🎧 Stage 3: Listening (20%)</span>
+            <span>💬 Stage 4: Discussion (45%)</span>
+            <span>✨ Stage 5: Language Focus (10%)</span>
+            <span>🎭 Stage 6: Final Challenge (10%)</span>
+          </div>
+        </div>
+
+        <div class="rounds-container">
+          <div class="round-block warm-up open" id="s-warm-lets-generalize-about-men">
+            <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm-lets-generalize-about-men')">
+              <span>🎵 Stage 1: Warm-up</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block;">
+              <ul class="round-questions">
+            <li>How important is this discussion theme in your daily life?</li>
+            <li>Look at the title 'Let's Generalize About Men' and the artist 'Rachel Bloom'. What do you predict this song is about? (Prediction question)</li>
+            <li>What kind of emotions does this style of music bring to you?</li>
+              </ul>
             </div>
           </div>
-        </section>
 
-        <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
-        <section id="listening-exercise-lets-generalize-about-men" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
-          <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-lets-generalize-about-men')">
-            <span>🎵 Listening & Gap-Fill Exercise</span><span class="round-toggle">▲</span>
-          </div>
-          <div class="round-body" style="display:block; padding-top: 1.5rem;">
-            <div class="vim-instruction">
-              <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+          <div class="round-block open" id="vocabulary-lets-generalize-about-men">
+            <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-lets-generalize-about-men')">
+              <span>📚 Stage 2: Vocabulary</span><span class="round-toggle">▲</span>
             </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Core Concepts & Feelings</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Generalize</div><div class="vocab-def">make a general or broad statement by inferring from specific cases.</div><div class="vocab-example">It is unfair to generalize about an entire group of people based on one person's actions.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Specialize</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Generalize', definition:'make a general or broad statement by inferring from specific cases.', example:'It is unfair to generalize about an entire group of people based on one person\'s actions.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Satire</div><div class="vocab-def">the use of humor, irony, exaggeration, or ridicule to expose and criticize people's stupidity.</div><div class="vocab-example">The show is a brilliant satire of modern television culture.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Solemnity</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Satire', definition:'the use of humor, irony, exaggeration, or ridicule to expose and criticize people\'s stupidity.', example:'The show is a brilliant satire of modern television culture.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Condescending</div><div class="vocab-def">having or showing a feeling of patronizing superiority.</div><div class="vocab-example">He spoke in a condescending tone that offended everyone in the room.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Humble</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Condescending', definition:'having or showing a feeling of patronizing superiority.', example:'He spoke in a condescending tone that offended everyone in the room.'}, this)">+ Dictionary</button></div>
+              </div>
+            </div>
+          </div>
 
-            <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-              <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
-              <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+          <div class="round-block open" id="listening-exercise-lets-generalize-about-men">
+            <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-lets-generalize-about-men')">
+              <span>🎧 Stage 3: Listening</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+                <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">opposite</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">distinguish</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">blanket</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">generalize</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">conflate</span>
-
+                </div>
               </div>
-            </div>
 
-            <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-              <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
-              <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Right now, we're angry and sad.<br>It's our right to get righteously mad.<br>At every member of the [__________] sex.<br>Oh God, we hate them!<br>Let's not [__________] between them at all.<br>Let's just drink a lot more alcohol!<br>And then high-five each other as we make a bunch of [__________] statements.<br><br>Let's [__________] about men!<br>Let's generalize about men!<br>Let's take one bad thing about one man.<br>And then apply it to all of them.<br>Let's [__________] all the guys.<br>Let's generalize. About men!<br><br>All men are completely repressed!<br>All men only want to have sex!<br>There are no exceptions!<br>All three billion men are like this!</p>
+              <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+                <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Right now, we're angry and sad.<br>It's our right to get righteously mad.<br>At every member of the [__________] sex.<br>Oh God, we hate them!<br>Let's not [__________] between them at all.<br>Let's just drink a lot more alcohol!<br>And then high-five each other as we make a bunch of [__________] statements.<br><br>Let's [__________] about men!<br>Let's generalize about men!<br>Let's take one bad thing about one man.<br>And then apply it to all of them.<br>Let's [__________] all the guys.<br>Let's generalize. About men!<br><br>All men are completely repressed!<br>All men only want to have sex!<br>There are no exceptions!<br>All three billion men are like this!</p>
+              </div>
             </div>
           </div>
-        </section>
 
-        <!-- DISCUSSION STRUCTURE -->
-        <section id="structure-lets-generalize-about-men">
-          <h2 class="section-title">🎙️ Discussion Structure</h2>
-          <div class="rounds-container">
-            <div class="round-block warm-up open" id="s-warm-lets-generalize-about-men">
-              <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm-lets-generalize-about-men')">
-                <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="vim-instruction">Initial reactions to the melody, rhythm, and artist.</div>
-                <ul class="round-questions">
-            <li>Have you ever listened to 'Let's Generalize About Men' before?</li>
-            <li>What kind of emotions does this style of music bring to you?</li>
-
-                </ul>
-              </div>
+          <div class="round-block open" id="discussion-lets-generalize-about-men">
+            <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion-lets-generalize-about-men')">
+              <span>💬 Stage 4: Discussion</span><span class="round-toggle">▲</span>
             </div>
-            <div class="round-block round-1 open" id="s-r1-lets-generalize-about-men">
-              <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1-lets-generalize-about-men')">
-                <span>🔵 Round 1 — Lyric Discussion</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="round-type-badge">Questions</div>
-                <div class="vim-instruction">Analyze the song's key verses and speak using the targeted vocabulary.</div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div class="round-1" style="margin-bottom: 2rem;">
+                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
           <div class="round-item"><div class="round-item-main">How does <strong>generalize</strong> play a symbolic role in the storytelling of 'Let's Generalize About Men'?</div><div class="round-item-personal">★ Do you personally feel that <strong>generalize</strong> is important?</div></div>
           <div class="round-item"><div class="round-item-main">How does <strong>satire</strong> play a symbolic role in the storytelling of 'Let's Generalize About Men'?</div><div class="round-item-personal">★ Do you personally feel that <strong>satire</strong> is important?</div></div>
           <div class="round-item"><div class="round-item-main">How does <strong>condescending</strong> play a symbolic role in the storytelling of 'Let's Generalize About Men'?</div><div class="round-item-personal">★ Do you personally feel that <strong>condescending</strong> is important?</div></div>
-
               </div>
-            </div>
-            <div class="round-block lst open" id="s-lst-lets-generalize-about-men">
-              <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst-lets-generalize-about-men')">
-                <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <p class="round-note">Visual contrast: Live Acoustic Cafe vs Electric Stage Lights.</p>
-                <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
-                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
-                </div>
-              </div>
-            </div>
-            <div class="round-block round-2 open" id="s-r2-lets-generalize-about-men">
-              <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2-lets-generalize-about-men')">
-                <span>🟢 Round 2 — Lyric Deep Dive & Debate</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="round-type-badge">Debate</div>
-                <div class="vim-instruction">Evaluate these philosophical statements regarding the song's underlying cultural concepts.</div>
+              <div class="round-2" style="margin-top: 2rem;">
+                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
           <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>generalize</strong> is becoming nearly impossible.</div></div>
           <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>satire</strong> is becoming nearly impossible.</div></div>
           <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>condescending</strong> is becoming nearly impossible.</div></div>
-
               </div>
             </div>
-            <div class="mistake-block open" id="s-mistakes-lets-generalize-about-men">
-              <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-lets-generalize-about-men')">
-                <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="mistake-body" style="display:block;">
+          </div>
+
+          <div class="round-block open" id="lang-focus-lets-generalize-about-men">
+            <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus-lets-generalize-about-men')">
+              <span>✨ Stage 5: Language Focus</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Generalization quantifiers ('all', 'every')</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Learn to use absolute quantifiers to make sweeping, humorous generalizations.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Let's generalize about every member of that group.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">All three billion men are completely repressed.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Every single person has some secrets to keep.</li>
+      </ul>
+    </div>
+                </div>
+          </div>
+
+          <div class="round-block open" id="final-challenge-lets-generalize-about-men">
+            <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge-lets-generalize-about-men')">
+              <span>🎭 Stage 6: Final Challenge</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Conduct a short 3-minute debate on whether generalizations ever help in social discussions.</p>
+      </div>
+    </div>
+                </div>
+          </div>
+
+          <div class="mistake-block open" id="s-mistakes-lets-generalize-about-men">
+            <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-lets-generalize-about-men')">
+              <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="mistake-body" style="display:block;">
           <div class="mistake-item">
             <span class="mistake-wrong">There is a big improvement <span class="mistake-highlight">of</span> my English</span>
             <span class="mistake-arrow">→</span>
@@ -310,127 +391,165 @@
             <span class="mistake-right">She has been in the choir for three years</span>
             <span class="mistake-note-text">(Use present perfect + 'for' to show duration of state.)</span>
           </div>
-
-              </div>
             </div>
           </div>
-        </section>
+        </div>
       </vim-choice-option-content>
-    </vim-choice-option>
-    <vim-choice-option>
+    </vim-choice-option>    <vim-choice-option>
       <vim-choice-option-title>So Maternal</vim-choice-option-title>
       <vim-choice-option-content>
-        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: 1fr;">
+        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
           <div class="meta-item"><h4>Resources</h4><p>
             <a href="https://www.youtube.com/watch?v=_kZHtfH4cYc" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
             <a href="https://www.youtube.com/watch?v=_kZHtfH4cYc" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
           </p></div>
         </div>
 
-        <!-- COLLAPSIBLE VOCABULARY SECTION -->
-        <section id="vocabulary-so-maternal" class="round-block open" style="margin-bottom: 2rem;">
-          <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-so-maternal')">
-            <span>📖 Session Vocabulary</span><span class="round-toggle">▲</span>
-          </div>
-          <div class="round-body" style="display:block; padding-top: 1.5rem;">
-            <div class="vocab-grid-10">
-            <div class="vocab-card"><div class="vocab-word">Maternal ≠ Paternal</div><div class="vocab-def">relating to a mother ≠ relating to a father.</div><div class="vocab-example">She showed a deeply protective maternal instinct, which beautifully complemented his strong paternal guidance.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Maternal ≠ Paternal', definition:'relating to a mother ≠ relating to a father.', example:'She showed a deeply protective maternal instinct, which beautifully complemented his strong paternal guidance.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Overzealous</div><div class="vocab-def">too zealous; having or showing excessive enthusiasm or intense devotion.</div><div class="vocab-example">The overzealous fan followed the band to every single city on their tour.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Overzealous', definition:'too zealous; having or showing excessive enthusiasm or intense devotion.', example:'The overzealous fan followed the band to every single city on their tour.'}, this)">+ Dictionary</button></div>
-            <div class="vocab-card"><div class="vocab-word">Compulsive</div><div class="vocab-def">resulting from or relating to an irresistible urge, especially one that is against one's conscious wishes.</div><div class="vocab-example">Her compulsive shopping habits led to significant financial difficulties.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Compulsive', definition:'resulting from or relating to an irresistible urge, especially one that is against one\'s conscious wishes.', example:'Her compulsive shopping habits led to significant financial difficulties.'}, this)">+ Dictionary</button></div>
+        <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+          <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Theme: Parenting & Overachieving</h3>
+          <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">We'll discuss:</p>
+          <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+                  <li>Maternal ≠ paternal</li>
+      <li>Overzealous</li>
+      <li>Compulsive</li>
+      <li>Personal reflection</li>
+          </ul>
+        </div>
 
+        <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+          <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+            <span>🗣️ Speaking Time Gauge</span>
+            <span>90-120 min Session</span>
+          </div>
+          <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+            <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+            <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+            <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+            <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+            <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+            <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+            <span>🎵 Stage 1: Warm-up (10%)</span>
+            <span>📚 Stage 2: Vocabulary (15%)</span>
+            <span>🎧 Stage 3: Listening (20%)</span>
+            <span>💬 Stage 4: Discussion (45%)</span>
+            <span>✨ Stage 5: Language Focus (10%)</span>
+            <span>🎭 Stage 6: Final Challenge (10%)</span>
+          </div>
+        </div>
+
+        <div class="rounds-container">
+          <div class="round-block warm-up open" id="s-warm-so-maternal">
+            <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm-so-maternal')">
+              <span>🎵 Stage 1: Warm-up</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block;">
+              <ul class="round-questions">
+            <li>How important is this discussion theme in your daily life?</li>
+            <li>Look at the title 'So Maternal' and the artist 'Rachel Bloom'. What do you predict this song is about? (Prediction question)</li>
+            <li>What kind of emotions does this style of music bring to you?</li>
+              </ul>
             </div>
           </div>
-        </section>
 
-        <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
-        <section id="listening-exercise-so-maternal" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
-          <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-so-maternal')">
-            <span>🎵 Listening & Gap-Fill Exercise</span><span class="round-toggle">▲</span>
-          </div>
-          <div class="round-body" style="display:block; padding-top: 1.5rem;">
-            <div class="vim-instruction">
-              <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+          <div class="round-block open" id="vocabulary-so-maternal">
+            <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-so-maternal')">
+              <span>📚 Stage 2: Vocabulary</span><span class="round-toggle">▲</span>
             </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Core Concepts & Feelings</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Maternal ≠ Paternal</div><div class="vocab-def">Target vocabulary word meaning in 'So Maternal'.</div><div class="vocab-example">This is an elegant example of using 'Maternal ≠ Paternal'.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Maternal ≠ Paternal', definition:'Target vocabulary word meaning in \'So Maternal\'.', example:'This is an elegant example of using \'Maternal ≠ Paternal\'.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Overzealous</div><div class="vocab-def">too zealous; having or showing excessive enthusiasm or intense devotion.</div><div class="vocab-example">The overzealous fan followed the band to every single city on their tour.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Indifferent</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Overzealous', definition:'too zealous; having or showing excessive enthusiasm or intense devotion.', example:'The overzealous fan followed the band to every single city on their tour.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Compulsive</div><div class="vocab-def">resulting from or relating to an irresistible urge, especially one that is against one's conscious wishes.</div><div class="vocab-example">Her compulsive shopping habits led to significant financial difficulties.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Deliberate</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Compulsive', definition:'resulting from or relating to an irresistible urge, especially one that is against one\'s conscious wishes.', example:'Her compulsive shopping habits led to significant financial difficulties.'}, this)">+ Dictionary</button></div>
+              </div>
+            </div>
+          </div>
 
-            <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-              <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
-              <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+          <div class="round-block open" id="listening-exercise-so-maternal">
+            <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-so-maternal')">
+              <span>🎧 Stage 3: Listening</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+                <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">harrowing</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">matriarch</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">expectations</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">instinctual</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">maternal</span>
-
+                </div>
               </div>
-            </div>
 
-            <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-              <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
-              <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Parenting ain't [__________], demanding or dramatic!<br>Let's face facts, moms say that when they're not this good at it!<br>Step aside ladies, give your babies to a Carol Brady-level [__________].<br>The only hard part of it is, how hard I'll hit this when I knock it out of the park!<br><br>Your hands [Raise 'em up]<br>Your glass [Raise it up]<br>Low [__________] [Raise 'em up]<br>Your children, I'm gonna raise 'em up!<br><br>It's [__________], I'm a natural, I am tireless multitasktical.<br>My mom gave the flame and it'll burn eternal.<br>Damn I'm so [__________]!<br>So maternal! So maternal! So maternal!</p>
+              <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+                <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Parenting ain't [__________], demanding or dramatic!<br>Let's face facts, moms say that when they're not this good at it!<br>Step aside ladies, give your babies to a Carol Brady-level [__________].<br>The only hard part of it is, how hard I'll hit this when I knock it out of the park!<br><br>Your hands [Raise 'em up]<br>Your glass [Raise it up]<br>Low [__________] [Raise 'em up]<br>Your children, I'm gonna raise 'em up!<br><br>It's [__________], I'm a natural, I am tireless multitasktical.<br>My mom gave the flame and it'll burn eternal.<br>Damn I'm so [__________]!<br>So maternal! So maternal! So maternal!</p>
+              </div>
             </div>
           </div>
-        </section>
 
-        <!-- DISCUSSION STRUCTURE -->
-        <section id="structure-so-maternal">
-          <h2 class="section-title">🎙️ Discussion Structure</h2>
-          <div class="rounds-container">
-            <div class="round-block warm-up open" id="s-warm-so-maternal">
-              <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm-so-maternal')">
-                <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="vim-instruction">Initial reactions to the melody, rhythm, and artist.</div>
-                <ul class="round-questions">
-            <li>Have you ever listened to 'So Maternal' before?</li>
-            <li>What kind of emotions does this style of music bring to you?</li>
-
-                </ul>
-              </div>
+          <div class="round-block open" id="discussion-so-maternal">
+            <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion-so-maternal')">
+              <span>💬 Stage 4: Discussion</span><span class="round-toggle">▲</span>
             </div>
-            <div class="round-block round-1 open" id="s-r1-so-maternal">
-              <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1-so-maternal')">
-                <span>🔵 Round 1 — Lyric Discussion</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="round-type-badge">Questions</div>
-                <div class="vim-instruction">Analyze the song's key verses and speak using the targeted vocabulary.</div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div class="round-1" style="margin-bottom: 2rem;">
+                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
           <div class="round-item"><div class="round-item-main">How does <strong>maternal ≠ paternal</strong> play a symbolic role in the storytelling of 'So Maternal'?</div><div class="round-item-personal">★ Do you personally feel that <strong>maternal ≠ paternal</strong> is important?</div></div>
           <div class="round-item"><div class="round-item-main">How does <strong>overzealous</strong> play a symbolic role in the storytelling of 'So Maternal'?</div><div class="round-item-personal">★ Do you personally feel that <strong>overzealous</strong> is important?</div></div>
           <div class="round-item"><div class="round-item-main">How does <strong>compulsive</strong> play a symbolic role in the storytelling of 'So Maternal'?</div><div class="round-item-personal">★ Do you personally feel that <strong>compulsive</strong> is important?</div></div>
-
               </div>
-            </div>
-            <div class="round-block lst open" id="s-lst-so-maternal">
-              <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst-so-maternal')">
-                <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <p class="round-note">Visual contrast: Live Acoustic Cafe vs Electric Stage Lights.</p>
-                <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
-                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
-                </div>
-              </div>
-            </div>
-            <div class="round-block round-2 open" id="s-r2-so-maternal">
-              <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2-so-maternal')">
-                <span>🟢 Round 2 — Lyric Deep Dive & Debate</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="round-type-badge">Debate</div>
-                <div class="vim-instruction">Evaluate these philosophical statements regarding the song's underlying cultural concepts.</div>
+              <div class="round-2" style="margin-top: 2rem;">
+                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
           <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>maternal ≠ paternal</strong> is becoming nearly impossible.</div></div>
           <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>overzealous</strong> is becoming nearly impossible.</div></div>
           <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>compulsive</strong> is becoming nearly impossible.</div></div>
-
               </div>
             </div>
-            <div class="mistake-block open" id="s-mistakes-so-maternal">
-              <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-so-maternal')">
-                <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="mistake-body" style="display:block;">
+          </div>
+
+          <div class="round-block open" id="lang-focus-so-maternal">
+            <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus-so-maternal')">
+              <span>✨ Stage 5: Language Focus</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Intensifiers ('so', 'such')</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Used to give extra force or emphasis to a descriptive adjective or noun.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Damn, I am so maternal and tireless !</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">She is such a great parent and mentor.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">They gave us such beautiful memories.</li>
+      </ul>
+    </div>
+                </div>
+          </div>
+
+          <div class="round-block open" id="final-challenge-so-maternal">
+            <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge-so-maternal')">
+              <span>🎭 Stage 6: Final Challenge</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Give playful advice to an overachieving parent on how to relax for a day.</p>
+      </div>
+    </div>
+                </div>
+          </div>
+
+          <div class="mistake-block open" id="s-mistakes-so-maternal">
+            <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-so-maternal')">
+              <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="mistake-body" style="display:block;">
           <div class="mistake-item">
             <span class="mistake-wrong">There is a big improvement <span class="mistake-highlight">of</span> my English</span>
             <span class="mistake-arrow">→</span>
@@ -449,121 +568,156 @@
             <span class="mistake-right">She has been in the choir for three years</span>
             <span class="mistake-note-text">(Use present perfect + 'for' to show duration of state.)</span>
           </div>
-
-              </div>
             </div>
           </div>
-        </section>
+        </div>
       </vim-choice-option-content>
-    </vim-choice-option>
-    <vim-choice-option>
+    </vim-choice-option>    <vim-choice-option>
       <vim-choice-option-title>Face Your Fears</vim-choice-option-title>
       <vim-choice-option-content>
-        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: 1fr;">
+        <div class="session-meta-grid" style="margin-top: 0; margin-bottom: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
           <div class="meta-item"><h4>Resources</h4><p>
             <a href="https://www.youtube.com/watch?v=brzZQBSVMX0" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
             <a href="https://www.youtube.com/watch?v=brzZQBSVMX0" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
           </p></div>
         </div>
 
-        <!-- COLLAPSIBLE VOCABULARY SECTION -->
-        <section id="vocabulary-face-your-fears" class="round-block open" style="margin-bottom: 2rem;">
-          <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-face-your-fears')">
-            <span>📖 Session Vocabulary</span><span class="round-toggle">▲</span>
-          </div>
-          <div class="round-body" style="display:block; padding-top: 1.5rem;">
-            <div class="vocab-grid-10">
-            <div class="vocab-card"><div class="vocab-word">Insecurity</div><div class="vocab-def">uncertainty or anxiety about oneself; lack of confidence.</div><div class="vocab-example">She worked hard to overcome her deep feeling of insecurity.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Insecurity', definition:'uncertainty or anxiety about oneself; lack of confidence.', example:'She worked hard to overcome her deep feeling of insecurity.'}, this)">+ Dictionary</button></div>
+        <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+          <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Theme: Fear & Absurd Advice</h3>
+          <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">We'll discuss:</p>
+          <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+                  <li>Insecurity</li>
+      <li>Personal reflection</li>
+          </ul>
+        </div>
 
+        <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+          <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+            <span>🗣️ Speaking Time Gauge</span>
+            <span>90-120 min Session</span>
+          </div>
+          <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+            <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+            <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+            <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+            <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+            <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+            <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+            <span>🎵 Stage 1: Warm-up (10%)</span>
+            <span>📚 Stage 2: Vocabulary (15%)</span>
+            <span>🎧 Stage 3: Listening (20%)</span>
+            <span>💬 Stage 4: Discussion (45%)</span>
+            <span>✨ Stage 5: Language Focus (10%)</span>
+            <span>🎭 Stage 6: Final Challenge (10%)</span>
+          </div>
+        </div>
+
+        <div class="rounds-container">
+          <div class="round-block warm-up open" id="s-warm-face-your-fears">
+            <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm-face-your-fears')">
+              <span>🎵 Stage 1: Warm-up</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block;">
+              <ul class="round-questions">
+            <li>How important is this discussion theme in your daily life?</li>
+            <li>Look at the title 'Face Your Fears' and the artist 'Rachel Bloom'. What do you predict this song is about? (Prediction question)</li>
+            <li>What kind of emotions does this style of music bring to you?</li>
+              </ul>
             </div>
           </div>
-        </section>
 
-        <!-- COLLAPSIBLE LISTENING & GAP-FILL EXERCISE -->
-        <section id="listening-exercise-face-your-fears" class="round-block open" style="margin-top: 3rem; margin-bottom: 3rem;">
-          <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-face-your-fears')">
-            <span>🎵 Listening & Gap-Fill Exercise</span><span class="round-toggle">▲</span>
-          </div>
-          <div class="round-body" style="display:block; padding-top: 1.5rem;">
-            <div class="vim-instruction">
-              <strong>Active Listening Task:</strong> Listen to the song using the resource link above, and fill in the missing gaps. The missing words are chosen from the key target vocabulary, collocations, and grammatical markers discussed in this session.
+          <div class="round-block open" id="vocabulary-face-your-fears">
+            <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary-face-your-fears')">
+              <span>📚 Stage 2: Vocabulary</span><span class="round-toggle">▲</span>
             </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Core Concepts & Feelings</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Insecurity</div><div class="vocab-def">uncertainty or anxiety about oneself; lack of confidence.</div><div class="vocab-example">She worked hard to overcome her deep feeling of insecurity.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opposite:</strong> <span class="vocab-opp-word" style="font-weight: 600;">Security</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Insecurity', definition:'uncertainty or anxiety about oneself; lack of confidence.', example:'She worked hard to overcome her deep feeling of insecurity.'}, this)">+ Dictionary</button></div>
+              </div>
+            </div>
+          </div>
 
-            <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-              <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
-              <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+          <div class="round-block open" id="listening-exercise-face-your-fears">
+            <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise-face-your-fears')">
+              <span>🎧 Stage 3: Listening</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+                <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">tiptoe</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">frightened</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">stare</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">scary</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">fears</span>
-
-              </div>
-            </div>
-
-            <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-              <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
-              <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">I used to be afraid.<br>Of so much in this world.<br>I'd [__________] through each day, like some<br>[__________] little girl.<br>Then one day I realized I can't just<br>Run and hide from life.<br>Now if someone pulls a gun on me<br>I pull out my knife!<br><br>[__________] them down.<br>Don't be scared.<br>Stand your ground.<br>'Cause nothing is as [__________]<br>As it appears.<br>All you gotta do<br>Is face your [__________].<br><br>If a bear runs at you in the woods,<br>Don't run away.<br>Look it deep in the eyes,<br>Put your hand on its chest, and say “Bear, I'm not afraid!”</p>
-            </div>
-          </div>
-        </section>
-
-        <!-- DISCUSSION STRUCTURE -->
-        <section id="structure-face-your-fears">
-          <h2 class="section-title">🎙️ Discussion Structure</h2>
-          <div class="rounds-container">
-            <div class="round-block warm-up open" id="s-warm-face-your-fears">
-              <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm-face-your-fears')">
-                <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="vim-instruction">Initial reactions to the melody, rhythm, and artist.</div>
-                <ul class="round-questions">
-            <li>Have you ever listened to 'Face Your Fears' before?</li>
-            <li>What kind of emotions does this style of music bring to you?</li>
-
-                </ul>
-              </div>
-            </div>
-            <div class="round-block round-1 open" id="s-r1-face-your-fears">
-              <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1-face-your-fears')">
-                <span>🔵 Round 1 — Lyric Discussion</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="round-type-badge">Questions</div>
-                <div class="vim-instruction">Analyze the song's key verses and speak using the targeted vocabulary.</div>
-          <div class="round-item"><div class="round-item-main">How does <strong>insecurity</strong> play a symbolic role in the storytelling of 'Face Your Fears'?</div><div class="round-item-personal">★ Do you personally feel that <strong>insecurity</strong> is important?</div></div>
-
-              </div>
-            </div>
-            <div class="round-block lst open" id="s-lst-face-your-fears">
-              <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst-face-your-fears')">
-                <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <p class="round-note">Visual contrast: Live Acoustic Cafe vs Electric Stage Lights.</p>
-                <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Unplugged Acoustic</div></div>
-                  <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Studio Production</div></div>
                 </div>
               </div>
-            </div>
-            <div class="round-block round-2 open" id="s-r2-face-your-fears">
-              <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2-face-your-fears')">
-                <span>🟢 Round 2 — Lyric Deep Dive & Debate</span><span class="round-toggle">▲</span>
-              </div>
-              <div class="round-body" style="display:block;">
-                <div class="round-type-badge">Debate</div>
-                <div class="vim-instruction">Evaluate these philosophical statements regarding the song's underlying cultural concepts.</div>
-          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>insecurity</strong> is becoming nearly impossible.</div></div>
 
+              <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+                <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">I used to be afraid.<br>Of so much in this world.<br>I'd [__________] through each day, like some<br>[__________] little girl.<br>Then one day I realized I can't just<br>Run and hide from life.<br>Now if someone pulls a gun on me<br>I pull out my knife!<br><br>[__________] them down.<br>Don't be scared.<br>Stand your ground.<br>'Cause nothing is as [__________]<br>As it appears.<br>All you gotta do<br>Is face your [__________].<br><br>If a bear runs at you in the woods,<br>Don't run away.<br>Look it deep in the eyes,<br>Put your hand on its chest, and say “Bear, I'm not afraid!”</p>
               </div>
             </div>
-            <div class="mistake-block open" id="s-mistakes-face-your-fears">
-              <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-face-your-fears')">
-                <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+          </div>
+
+          <div class="round-block open" id="discussion-face-your-fears">
+            <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion-face-your-fears')">
+              <span>💬 Stage 4: Discussion</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+              <div class="round-1" style="margin-bottom: 2rem;">
+                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+          <div class="round-item"><div class="round-item-main">How does <strong>insecurity</strong> play a symbolic role in the storytelling of 'Face Your Fears'?</div><div class="round-item-personal">★ Do you personally feel that <strong>insecurity</strong> is important?</div></div>
               </div>
-              <div class="mistake-body" style="display:block;">
+              <div class="round-2" style="margin-top: 2rem;">
+                <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>insecurity</strong> is becoming nearly impossible.</div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="round-block open" id="lang-focus-face-your-fears">
+            <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus-face-your-fears')">
+              <span>✨ Stage 5: Language Focus</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Imperatives for giving brave advice</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Use direct, bold imperative verbs to guide and motivate someone to act.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Face your fears and stand your ground !</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Look the bear deep in the eyes and stay calm.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Do not run away when situations get scary.</li>
+      </ul>
+    </div>
+                </div>
+          </div>
+
+          <div class="round-block open" id="final-challenge-face-your-fears">
+            <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge-face-your-fears')">
+              <span>🎭 Stage 6: Final Challenge</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Role-play giving absurd but hilarious advice to someone who is terrified of public speaking.</p>
+      </div>
+    </div>
+                </div>
+          </div>
+
+          <div class="mistake-block open" id="s-mistakes-face-your-fears">
+            <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes-face-your-fears')">
+              <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+            </div>
+            <div class="mistake-body" style="display:block;">
           <div class="mistake-item">
             <span class="mistake-wrong">There is a big improvement <span class="mistake-highlight">of</span> my English</span>
             <span class="mistake-arrow">→</span>
@@ -582,15 +736,11 @@
             <span class="mistake-right">She has been in the choir for three years</span>
             <span class="mistake-note-text">(Use present perfect + 'for' to show duration of state.)</span>
           </div>
-
-              </div>
             </div>
           </div>
-        </section>
+        </div>
       </vim-choice-option-content>
-    </vim-choice-option>
-
-  </vim-choice>
+    </vim-choice-option>  </vim-choice>
 
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">

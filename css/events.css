@@ -232,3 +232,130 @@ vim-choice { margin-bottom: 1.5rem; }
   border-color: var(--teal);
   color: white;
 }
+
+/* ── Print/PDF Styles ── */
+@media print {
+  /* Hide interactive elements and navigation/footer */
+  nav, #cosy-nav, footer, .back-link, .cosy-breadcrumbs, .btn-add-dict, .btn-print, .round-toggle, .club-filters, .filter-btn, .vim-instruction, .btn-play-game {
+    display: none !important;
+  }
+
+  /* Reset background and text colors to be print-friendly */
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt !important;
+  }
+
+  /* Force all collapsible blocks/details to be completely open and visible */
+  .round-body, .mistake-body, .vocab-body {
+    display: block !important;
+  }
+
+  /* Layout adjustments for printing */
+  .content-container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .session-hero {
+    background: none !important;
+    color: black !important;
+    padding: 1rem 0 !important;
+    border-bottom: 2px solid black !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .session-hero h1 {
+    color: black !important;
+    font-size: 24pt !important;
+  }
+
+  .session-hero .club-tag {
+    color: black !important;
+    border: 1px solid black !important;
+    background: none !important;
+    padding: 0.2rem 0.5rem !important;
+  }
+
+  .session-meta-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem !important;
+    background: none !important;
+    border: 1px solid #ccc !important;
+    padding: 1rem !important;
+    box-shadow: none !important;
+  }
+
+  /* Theme Box */
+  .theme-box {
+    background: none !important;
+    border: 1px dashed black !important;
+    padding: 1rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* Vocabulary layout */
+  .vocab-grid-10 {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  .vocab-card {
+    background: white !important;
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    padding: 1rem !important;
+  }
+
+  /* Discussion sections */
+  .round-block {
+    background: white !important;
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .round-header {
+    background: #f0f0f0 !important;
+    color: black !important;
+    border-bottom: 1px solid #ccc !important;
+    font-size: 12pt !important;
+    font-weight: bold !important;
+  }
+
+  /* Mistakes section */
+  .mistake-block {
+    background: white !important;
+    border: 1px dashed #777 !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .mistake-header {
+    background: #f9f9f9 !important;
+    color: black !important;
+    border-bottom: 1px dashed #777 !important;
+  }
+
+  .mistake-wrong {
+    text-decoration: underline wavy #C0392B !important;
+    background: #FDF2F2 !important;
+  }
+
+  .mistake-right {
+    font-weight: bold !important;
+    color: #1A7A4A !important;
+  }
+
+  /* Page break rules */
+  h1, h2, h3, .section-title {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+}
