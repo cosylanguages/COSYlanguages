@@ -29,154 +29,203 @@
   </nav>
   <a href="../karaoke-club.html" class="back-link">← Πίσω στο Club</a>
   <div class="session-meta-grid">
-    <div class="meta-item"><h4>Διάρκεια</h4><p>60 λεπτά</p></div>
+    <div class="meta-item"><h4>Διάρκεια</h4><p>90–120 minutes</p></div>
     <div class="meta-item"><h4>Γλώσσα</h4><p>Ελληνικά</p></div>
-    <div class="meta-item"><h4>Επίπεδο</h4><p>Μεσαίο (B2)</p></div>
-    <div class="meta-item"><h4>Θέμα</h4><p>Πάθος &amp; Λατρεία</p></div>
+    <div class="meta-item"><h4>Επίπεδο</h4><p>Στοιχειώδες (A2)</p></div>
+    <div class="meta-item"><h4>Θέμα</h4><p>Όταν η αγάπη γίνεται εμμονή</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/watch?v=Xl42ihdAXVs" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/watch?v=Xl42ihdAXVs" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
   </div>
-  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Αυτή η συνεδρία είναι αφιερωμένη στο εμβληματικό τραγούδι της Καίτης Γαρμπή "Το Ίδιο Το Θεό". Θα αναλύσουμε το λεξιλόγιο της απόλυτης λατρείας, του έρωτα, της ψυχής και της θυσίας. Οι μαθητές θα συζητήσουν για τη μοίρα, τον πόνο και τη φωτιά των έντονων συναισθημάτων στα ελληνικά.</p>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Θέμα: Όταν η αγάπη γίνεται εμμονή</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Θα συζητήσουμε:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Ο θεός</li>
+      <li>Ο έρωτας</li>
+      <li>Η ψυχή</li>
+      <li>Personal reflection</li>
+    </ul>
   </div>
 
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Λεξιλόγιο Συνεδρίας</h2>
-    <div class="vocab-grid-10">
-            <div class="vocab-card"><div class="vocab-word">Ο θεός</div><div class="vocab-def">η ανώτατη πνευματική δύναμη που κυβερνά το σύμπαν.</div><div class="vocab-example">Πολλοί άνθρωποι στρέφονται στον θεό για να βρουν εσωτερική ειρήνη.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ο θεός', definition:'η ανώτατη πνευματική δύναμη που κυβερνά το σύμπαν.', example:'Πολλοί άνθρωποι στρέφονται στον θεό για να βρουν εσωτερική ειρήνη.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Ο έρωτας</div><div class="vocab-def">το έντονο συναίσθημα έλξης και αγάπης για ένα πρόσωπο.</div><div class="vocab-example">Ο έρωτας με την πρώτη ματιά είναι ένα μαγικό συναίσθημα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ο έρωτας', definition:'το έντονο συναίσθημα έλξης και αγάπης για ένα πρόσωπο.', example:'Ο έρωτας με την πρώτη ματιά είναι ένα μαγικό συναίσθημα.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Η ψυχή</div><div class="vocab-def">ο εσωτερικός κόσμος, το πνευματικό κομμάτι του ανθρώπου.</div><div class="vocab-example">Η μουσική αγγίζει τα βάθη της ανθρώπινης ψυχής.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η ψυχή', definition:'ο εσωτερικός κόσμος, το πνευματικό κομμάτι του ανθρώπου.', example:'Η μουσική αγγίζει τα βάθη της ανθρώπινης ψυχής.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Η λατρεία</div><div class="vocab-def">η απόλυτη αγάπη και ο σεβασμός προς κάποιον.</div><div class="vocab-example">Έχει μεγάλη λατρεία για τα κλασικά ελληνικά τραγούδια.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η λατρεία', definition:'η απόλυτη αγάπη και ο σεβασμός προς κάποιον.', example:'Έχει μεγάλη λατρεία για τα κλασικά ελληνικά τραγούδια.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Η τρέλα</div><div class="vocab-def">η κατάσταση ψυχικής διαταραχής ή παράφορης συμπεριφοράς.</div><div class="vocab-example">Κάνει πολλές τρέλες όταν είναι ερωτευμένος.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η τρέλα', definition:'η κατάσταση ψυχικής διαταραχής ή παράφορης συμπεριφοράς.', example:'Κάνει πολλές τρέλες όταν είναι ερωτευμένος.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Η καρδιά</div><div class="vocab-def">το όργανο του σώματος, μεταφορικά το κέντρο των συναισθημάτων.</div><div class="vocab-example">Η καρδιά της χτυπούσε δυνατά από τη συγκίνηση.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η καρδιά', definition:'το όργανο του σώματος, μεταφορικά το κέντρο των συναισθημάτων.', example:'Η καρδιά της χτυπούσε δυνατά από τη συγκίνηση.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Η θυσία</div><div class="vocab-def">η προσφορά ή η στέρηση για έναν ανώτερο σκοπό.</div><div class="vocab-example">Η μητέρα έκανε κάθε θυσία για να σπουδάσει το παιδί της.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η θυσία', definition:'η προσφορά ή η στέρηση για έναν ανώτερο σκοπό.', example:'Η μητέρα έκανε κάθε θυσία για να σπουδάσει το παιδί της.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Ο πόνος</div><div class="vocab-def">η σωματική ή ψυχική υποφέρουσα κατάσταση.</div><div class="vocab-example">Ο πόνος του χωρισμού είναι δύσκολο να ξεπεραστεί γρήγορα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ο πόνος', definition:'η σωματική ή ψυχική υποφέρουσα κατάσταση.', example:'Ο πόνος του χωρισμού είναι δύσκολο να ξεπεραστεί γρήγορα.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Η μοίρα</div><div class="vocab-def">η προκαθορισμένη πορεία της ζωής ενός ανθρώπου.</div><div class="vocab-example">Πιστεύει ότι η μοίρα τον έφερε σε αυτή την όμορφη χώρα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η μοίρα', definition:'η προκαθορισμένη πορεία της ζωής ενός ανθρώπου.', example:'Πιστεύει ότι η μοίρα τον έφερε σε αυτή την όμορφη χώρα.'}, this)">+ Dictionary</button></div>
-      <div class="vocab-card"><div class="vocab-word">Η φωτιά</div><div class="vocab-def">η καύση, μεταφορικά το έντονο πάθος.</div><div class="vocab-example">Η φωτιά του έρωτα έκαιγε στα μάτια τους.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η φωτιά', definition:'η καύση, μεταφορικά το έντονο πάθος.', example:'Η φωτιά του έρωτα έκαιγε στα μάτια τους.'}, this)">+ Dictionary</button></div>
-
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
     </div>
-  </section>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (20%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (10%)</span>
+    </div>
+  </div>
 
-
-  <!-- LISTENING & GAP-FILL EXERCISE -->
-  <section id="listening-exercise" style="margin-top: 3rem;">
-    <h2 class="section-title">🎵 Άσκηση Ακρόασης &amp; Συμπλήρωσης Κενών</h2>
-    <div class="vim-instruction">
-      <strong>Ενεργητική Ακρόαση:</strong> Ακούστε το τραγούδι χρησιμοποιώντας τον παραπάνω σύνδεσμο και συμπληρώστε τα κενά. Οι λέξεις που λείπουν προέρχονται από το βασικό λεξιλόγιο, τις εκφράσεις και τους γραμματικούς κανόνες αυτής της συνεδρίας.
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Στάδιο 1: Προθέρμανση</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>Πόσο σημαντικό είναι αυτό το θέμα συζήτησης στην καθημερινή σας ζωή;</li>
+            <li>Κοιτάξτε τον τίτλο 'To Idio To Theo' και τον καλλιτέχνη 'Kaiti Garbi'. Τι προβλέπετε ότι αφορά αυτό το τραγούδι; (Ερώτηση πρόβλεψης)</li>
+            <li>Τι συναισθήματα σας προκαλεί αυτό το είδος μουσικής;</li>
+        </ul>
+      </div>
     </div>
 
-    <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
-      <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Βοηθητικό Λεξιλόγιο / Λέξεις-Κλειδιά:</h3>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Στάδιο 2: Λεξιλόγιο</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Βασικές Έννοιες & Συναισθήματα</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Ο θεός</div><div class="vocab-def">η ανώτατη πνευματική δύναμη που κυβερνά το σύμπαν.</div><div class="vocab-example">Πολλοί άνθρωποι στρέφονται στον θεό για να βρουν εσωτερική ειρήνη.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ο θεός', definition:'η ανώτατη πνευματική δύναμη που κυβερνά το σύμπαν.', example:'Πολλοί άνθρωποι στρέφονται στον θεό για να βρουν εσωτερική ειρήνη.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Ο έρωτας</div><div class="vocab-def">το έντονο συναίσθημα έλξης και αγάπης για ένα πρόσωπο.</div><div class="vocab-example">Ο έρωτας με την πρώτη ματιά είναι ένα μαγικό συναίσθημα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ο έρωτας', definition:'το έντονο συναίσθημα έλξης και αγάπης για ένα πρόσωπο.', example:'Ο έρωτας με την πρώτη ματιά είναι ένα μαγικό συναίσθημα.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η ψυχή</div><div class="vocab-def">ο εσωτερικός κόσμος, το πνευματικό κομμάτι του ανθρώπου.</div><div class="vocab-example">Η μουσική αγγίζει τα βάθη της ανθρώπινης ψυχής.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η ψυχή', definition:'ο εσωτερικός κόσμος, το πνευματικό κομμάτι του ανθρώπου.', example:'Η μουσική αγγίζει τα βάθη της ανθρώπινης ψυχής.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η λατρεία</div><div class="vocab-def">η απόλυτη αγάπη και ο σεβασμός προς κάποιον.</div><div class="vocab-example">Έχει μεγάλη λατρεία για τα κλασικά ελληνικά τραγούδια.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η λατρεία', definition:'η απόλυτη αγάπη και ο σεβασμός προς κάποιον.', example:'Έχει μεγάλη λατρεία για τα κλασικά ελληνικά τραγούδια.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η τρέλα</div><div class="vocab-def">η κατάσταση ψυχικής διαταραχής ή παράφορης συμπεριφοράς.</div><div class="vocab-example">Κάνει πολλές τρέλες όταν είναι ερωτευμένος.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η τρέλα', definition:'η κατάσταση ψυχικής διαταραχής ή παράφορης συμπεριφοράς.', example:'Κάνει πολλές τρέλες όταν είναι ερωτευμένος.'}, this)">+ Dictionary</button></div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Ζωή, Δράσεις & Σύνδεση</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η καρδιά</div><div class="vocab-def">το όργανο του σώματος, μεταφορικά το κέντρο των συναισθημάτων.</div><div class="vocab-example">Η καρδιά της χτυπούσε δυνατά από τη συγκίνηση.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η καρδιά', definition:'το όργανο του σώματος, μεταφορικά το κέντρο των συναισθημάτων.', example:'Η καρδιά της χτυπούσε δυνατά από τη συγκίνηση.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η θυσία</div><div class="vocab-def">η προσφορά ή η στέρηση για έναν ανώτερο σκοπό.</div><div class="vocab-example">Η μητέρα έκανε κάθε θυσία για να σπουδάσει το παιδί της.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η θυσία', definition:'η προσφορά ή η στέρηση για έναν ανώτερο σκοπό.', example:'Η μητέρα έκανε κάθε θυσία για να σπουδάσει το παιδί της.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Ο πόνος</div><div class="vocab-def">η σωματική ή ψυχική υποφέρουσα κατάσταση.</div><div class="vocab-example">Ο πόνος του χωρισμού είναι δύσκολο να ξεπεραστεί γρήγορα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ο πόνος', definition:'η σωματική ή ψυχική υποφέρουσα κατάσταση.', example:'Ο πόνος του χωρισμού είναι δύσκολο να ξεπεραστεί γρήγορα.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η μοίρα</div><div class="vocab-def">η προκαθορισμένη πορεία της ζωής ενός ανθρώπου.</div><div class="vocab-example">Πιστεύει ότι η μοίρα τον έφερε σε αυτή την όμορφη χώρα.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η μοίρα', definition:'η προκαθορισμένη πορεία της ζωής ενός ανθρώπου.', example:'Πιστεύει ότι η μοίρα τον έφερε σε αυτή την όμορφη χώρα.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Η φωτιά</div><div class="vocab-def">η καύση, μεταφορικά το έντονο πάθος.</div><div class="vocab-example">Η φωτιά του έρωτα έκαιγε στα μάτια τους.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Η φωτιά', definition:'η καύση, μεταφορικά το έντονο πάθος.', example:'Η φωτιά του έρωτα έκαιγε στα μάτια τους.'}, this)">+ Dictionary</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Στάδιο 3: Ακρόαση</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Βοηθητικό Λεξιλόγιο / Λέξεις-Κλειδιά:</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
         <span class="club-tag" style="background: white; border-color: var(--border);">Θεό</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">αγάπη</span>
         <span class="club-tag" style="background: white; border-color: var(--border);">ζωή</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">εαυτό</span>
-        <span class="club-tag" style="background: white; border-color: var(--border);">θυσιάσω</span>
-      </div>
-    </div>
-
-    <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
-      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Full Lyrics</h3>
-      <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">
-Μου ζητάς να κάνω πίσω, να ξεχάσω, να σβήσω,
-Όσα ζήσαμε μαζί να τα γκρεμίσω.
-Μου ζητάς να μην πονάω, να μη σε ζητάω,
-Μα εγώ ακόμα πιο πολύ σε αγαπάω.
-
-Σε λατρεύω, σ' αγαπάω
-σαν τον ίδιο τον [__________]
-για τη δική σου την [__________]
-τη [__________] μου τη μισή
-κι όλο μου τον [__________]
-θα [__________], θα το δεις
-δεν μπορώ χωρίς εσένα
-ούτε λεπτό να κρατηθώ
-
-Σε λατρεύω, σ' αγαπάω
-σαν τον ίδιο τον Θεό...
-      </p>
-    </div>
-  </section>
-
-  <section id="structure">
-    <h2 class="section-title">🎙️ Δομή Συζήτησης</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Προθέρμανση</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="vim-instruction">Μοιραστείτε τις σκέψεις σας για την ελληνική λαϊκή μουσική και τον ρομαντικό στίχο.</div>
-          <ul class="round-questions">
-            <li>Έχετε ακούσει ξανά αυτό το διάσημο ελληνικό τραγούδι;</li>
-            <li>Ποια ελληνικά τραγούδια σας αρέσουν περισσότερο;</li>
-          </ul>
-        </div>
-      </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Γύρος 1 — Συζήτηση Στίχων</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Questions</div>
-          <div class="vim-instruction">Analyze the song's key verses and speak using the targeted vocabulary.</div>
-                    <div class="round-item"><div class="round-item-main">Γιατί οι άνθρωποι παρομοιάζουν τον σύντροφό τους με τον <strong>θεό</strong> στα ρομαντικά τραγούδια;</div><div class="round-item-personal">★ Πιστεύετε στη δύναμη των ρομαντικών στίχων;</div></div>
-          <div class="round-item"><div class="round-item-main">Πώς αλλάζει ο <strong>έρωτας</strong> τη συμπεριφορά ενός ανθρώπου στην καθημερινή ζωή;</div><div class="round-item-personal">★ Θυμάστε τον πρώτο σας έρωτα;</div></div>
-          <div class="round-item"><div class="round-item-main">Ποια δραστηριότητα γεμίζει την <strong>ψυχή</strong> σας με πραγματική γαλήνη;</div><div class="round-item-personal">★ Σας αρέσει να περπατάτε στη φύση ή να ακούτε μουσική;</div></div>
-          <div class="round-item"><div class="round-item-main">Είναι η υπερβολική <strong>λατρεία</strong> προς ένα πρόσωπο υγιής για μια σχέση;</div><div class="round-item-personal">★ Έχετε νιώσει ποτέ απόλυτη λατρεία για έναν καλλιτέχνη;</div></div>
-          <div class="round-item"><div class="round-item-main">Ποια είναι η μεγαλύτερη <strong>τρέλα</strong> που έχετε κάνει για τα μάτια κάποιου;</div><div class="round-item-personal">★ Σας αρέσουν οι αυθόρμητες αποφάσεις στη ζωή;</div></div>
-          <div class="round-item"><div class="round-item-main">Πώς μπορούμε να προστατεύσουμε την <strong>καρδιά</strong> μας από τις ερωτικές απογοητεύσεις;</div><div class="round-item-personal">★ Ακούτε περισσότερο τη λογική ή την καρδιά σας;</div></div>
-          <div class="round-item"><div class="round-item-main">Αξίζει να κάνει κανείς μια μεγάλη προσωπική <strong>θυσία</strong> για την επαγγελματική του επιτυχία;</div><div class="round-item-personal">★ Έχετε θυσιάσει ελεύθερο χρόνο για τη δουλειά σας;</div></div>
-          <div class="round-item"><div class="round-item-main">Ποιος είναι ο καλύτερος τρόπος να απαλύνει κανείς τον ψυχικό <strong>πόνο</strong>;</div><div class="round-item-personal">★ Σας βοηθάει να μιλάτε με φίλους όταν πονάτε;</div></div>
-          <div class="round-item"><div class="round-item-main">Πιστεύετε ότι ο καθένας ορίζει τη <strong>μοίρα</strong> του ή ότι όλα είναι γραμμένα;</div><div class="round-item-personal">★ Πιστεύετε στο πεπρωμένο;</div></div>
-          <div class="round-item"><div class="round-item-main">Πώς μπορούμε να κρατήσουμε τη <strong>φωτιά</strong> του πάθους ζωντανή μετά από πολλά χρόνια σχέσης;</div><div class="round-item-personal">★ Είναι σημαντικό να κάνετε εκπλήξεις στη σχέση σας;</div></div>
-
-        </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <p class="round-note">Visual contrast: Live Acoustic Cafe vs Electric Stage Lights.</p>
-          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎸</span><div style="font-weight:600;">Acoustic Performance</div></div>
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🎙️</span><div style="font-weight:600;">Grand Arena Concert</div></div>
+        <span class="club-tag" style="background: white; border-color: var(--border);">αγκαλιά</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">κόλαση</span>
           </div>
         </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Γύρος 2 — Ανάλυση &amp; Αντιπαράθεση</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Debate</div>
-          <div class="vim-instruction">Evaluate these philosophical statements regarding the song's underlying cultural concepts.</div>
-                    <div class="round-item"><div class="round-item-main">Στο μέλλον, η επιστήμη θα μπορεί να ελέγχει τον <strong>έρωτα</strong> με ειδικά φάρμακα.</div></div>
-          <div class="round-item"><div class="round-item-main">Η ανθρώπινη <strong>ψυχή</strong> είναι απλώς μια χημική αντίδραση του εγκεφάλου μας.</div></div>
-          <div class="round-item"><div class="round-item-main">Η απόλυτη <strong>λατρεία</strong> ενός ηγέτη είναι πάντα επικίνδυνη για μια δημοκρατική κοινωνία.</div></div>
-          <div class="round-item"><div class="round-item-main">Η <strong>τρέλα</strong> της νιότης είναι απαραίτητη για να αποκτήσει κανείς σοφία στα γεράματα.</div></div>
-          <div class="round-item"><div class="round-item-main">Η <strong>καρδιά</strong> είναι πιο αξιόπιστος οδηγός από τη λογική για τις μεγάλες αποφάσεις.</div></div>
-          <div class="round-item"><div class="round-item-main">Καμία επαγγελματική <strong>θυσία</strong> δεν αξίζει αν χάσεις την προσωπική σου ευτυχία.</div></div>
-          <div class="round-item"><div class="round-item-main">Ο ψυχικός <strong>πόνος</strong> είναι ο μόνος τρόπος για να ωριμάσει πραγματικά ένας άνθρωπος.</div></div>
-          <div class="round-item"><div class="round-item-main">Η <strong>μοίρα</strong> μας καθορίζεται από τη γέννησή μας και δεν μπορούμε να την αλλάξουμε.</div></div>
-          <div class="round-item"><div class="round-item-main">Η <strong>φωτιά</strong> του πάθους είναι αδύνατο να κρατήσει για πάντα σε μια καθημερινή ρουτίνα.</div></div>
-          <div class="round-item"><div class="round-item-main">Η πίστη στον <strong>θεό</strong> θα αντικατασταθεί πλήρως από την επιστήμη τα επόμενα χρόνια.</div></div>
 
-        </div>
-      </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Σημειώσεις Καθηγητή (Γλωσσικές Διορθώσεις)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
-                    <div class="mistake-item"><span class="mistake-wrong">Είμαι ερωτευμένος με την ελληνική γλώσσα</span><span class="mistake-arrow">→</span><span class="mistake-right">Είμαι ερωτευμένος με την ελληνική γλώσσα</span><span class="mistake-note-text">(Σωστό. Η πρόθεση 'με' συντάσσεται πάντα με αιτιατική πτώση.)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">Η μουσική κάνει την ψυχή μου να νιώθει καλά</span><span class="mistake-arrow">→</span><span class="mistake-right">Η μουσική κάνει την ψυχή μου να νιώθει όμορφα</span><span class="mistake-note-text">(Το επίρρημα 'όμορφα' ακούγεται πιο φυσικό σε αυτή τη φράση.)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">Πονάω για την καρδιά μου</span><span class="mistake-arrow">→</span><span class="mistake-right">Πονάει η καρδιά μου</span><span class="mistake-note-text">(Στα ελληνικά λέμε 'πονάει η καρδιά μου' και όχι 'πονάω για την καρδιά μου'.)</span></div>
-
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Πάνω σου η γη ξυπνάει ήλιος μπαίνει από παντού κάθομαι και σε κοιτάζω μη με φοβάσαι<br><br>Dm Είσαι ακόμα από τον ύπνο Am τ' όνειρο έχει εξατμιστεί Μάρτιο θυμίζεις πώς να σε προβλέψω<br><br>Dm Ένα απ' όλα τα βιβλία που έχω μέσα μου βαθιά του έρωτα φεγγάρια μαύρα το φωτίζουν<br><br>Τίποτα δεν έχει μείνει κι όμως όλα είναι εδώ άφησέ με να αγγίξω τα μαλλιά σου<br><br>Τον ίδιο το [__________] να είχα απέναντί μου σου λέω προτιμώ στην [__________] μαζί σου<br><br>Μια φωνή [__________] ρωτάει τόση ομορφιά από που βρέχει ο ουρανός ρουμπίνια κι απαντάει<br><br>Μόνο η [__________] ξέρει τώρα έμαθα κι εγώ πόσο ανάγκη έχω από την [__________] σου<br><br>Τον ίδιο το Θεό να είχα απέναντί μου σου λέω προτιμώ στην κόλαση μαζί σου<br><br>Τίποτα άλλο εκτός από εσένα στο φως τίποτα άλλο που να με σκοτώνει γλυκά<br><br>Τον ίδιο το Θεό να είχα απέναντί μου σου λέω προτιμώ στην κόλαση μαζί σου<br><br>Τον ίδιο το Θεό<br><br><em style="font-size: 0.85rem; color: var(--muted); display: block; border-top: 1px solid var(--border); padding-top: 0.5rem; margin-top: 1rem;">Οι στίχοι προέρχονται από το kithara.to και χρησιμοποιούνται αποκλειστικά για εκπαιδευτικούς σκοπούς.</em></p>
         </div>
       </div>
     </div>
-  </section>
+
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Στάδιο 4: Συζήτηση</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>ο θεός</strong> μέσα από τους στίχους του 'To Idio To Theo';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>ο θεός</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>ο έρωτας</strong> μέσα από τους στίχους του 'To Idio To Theo';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>ο έρωτας</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η ψυχή</strong> μέσα από τους στίχους του 'To Idio To Theo';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η ψυχή</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η λατρεία</strong> μέσα από τους στίχους του 'To Idio To Theo';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η λατρεία</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η τρέλα</strong> μέσα από τους στίχους του 'To Idio To Theo';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η τρέλα</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η καρδιά</strong> μέσα από τους στίχους του 'To Idio To Theo';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η καρδιά</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η θυσία</strong> μέσα από τους στίχους του 'To Idio To Theo';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η θυσία</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>ο πόνος</strong> μέσα από τους στίχους του 'To Idio To Theo';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>ο πόνος</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η μοίρα</strong> μέσα από τους στίχους του 'To Idio To Theo';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η μοίρα</strong> για εσάς;</div></div>
+          <div class="round-item"><div class="round-item-main">Πώς εκφράζεται η έννοια <strong>η φωτιά</strong> μέσα από τους στίχους του 'To Idio To Theo';</div><div class="round-item-personal">★ Πόσο σημαντικό είναι το <strong>η φωτιά</strong> για εσάς;</div></div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>ο θεός</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>ο έρωτας</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η ψυχή</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η λατρεία</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η τρέλα</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η καρδιά</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η θυσία</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>ο πόνος</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η μοίρα</strong> είναι εξαιρετικά δύσκολη.</div></div>
+          <div class="round-item"><div class="round-item-main">Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>η φωτιά</strong> είναι εξαιρετικά δύσκολη.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Στάδιο 5: Γλωσσική εστίαση</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">Η χρήση του 'να' με Υποτακτική</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Η υποτακτική έγκλιση χρησιμοποιείται για να εκφράσουμε επιθυμία, προτροπή ή ανάγκη.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Θέλω να ακούσω αυτό το τραγούδι ξανά.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Ας μιλήσουμε μαζί για την αγάπη και την ελπίδα.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Πρέπει να κρατήσουμε την υπόσχεσή μας για πάντα.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Στάδιο 6: Τελική πρόκληση</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Φανταστείτε τη συνέχεια αυτού του τραγουδιού: παίξτε ένα παιχνίδι ρόλων μεταξύ των κύριων χαρακτήρων 5 χρόνια αργότερα.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Σημειώσεις Καθηγητή (Γλωσσικές Διορθώσεις)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Είμαι ερωτευμένος <span class="mistake-highlight">από</span> την Ελλάδα</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Είμαι ερωτευμένος με την Ελλάδα</span>
+            <span class="mistake-note-text">(Χρησιμοποιήστε την πρόθεση 'με' για να εκφράσετε έλξη.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Η μουσική με κάνει να <span class="mistake-highlight">νιώθω καλά</span></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Η μουσική με κάνει να νιώθω όμορφα</span>
+            <span class="mistake-note-text">(Η λέξη 'όμορφα' είναι πιο φυσική σε αυτό το πλαίσιο.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Πονάω <span class="mistake-highlight">για</span> την καρδιά μου</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Πονάει η καρδιά μου</span>
+            <span class="mistake-note-text">(Στα ελληνικά λέμε 'πονάει η καρδιά μου'.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
