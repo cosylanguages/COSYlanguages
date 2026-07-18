@@ -49,7 +49,7 @@
         "word": "Счастье — это выбор, а обстоятельства — всего лишь оправдания.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "form": "phrase",
         "definitions": [
             {
@@ -71,7 +71,7 @@
         "word": "Люди, которые говорят, что ненавидят драму, обычно сами являются ее источником.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "form": "phrase",
         "definitions": [
             {
@@ -93,7 +93,7 @@
         "word": "Скука — это признак отсутствия воображения, а не отсутствия стимулов.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "form": "phrase",
         "definitions": [
             {
@@ -115,7 +115,7 @@
         "word": "Эмпатия без границ — это просто угождение людям с хорошим пиаром.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "form": "phrase",
         "definitions": [
             {
@@ -137,7 +137,7 @@
         "word": "Самые опасные мнения — это те, которые звучат совершенно разумно.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "form": "phrase",
         "definitions": [
             {
@@ -225,7 +225,7 @@
         "word": "Стремление к определенности — корень большинства человеческих жестокостей.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "form": "phrase",
         "definitions": [
             {
@@ -357,7 +357,7 @@
         "word": "Люди, утверждающие, что ни о чем не жалеют, либо недостаточно жили, либо недостаточно размышляли.",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "form": "phrase",
         "definitions": [
             {

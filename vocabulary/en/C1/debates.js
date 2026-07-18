@@ -613,7 +613,7 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
         "word": "Telling your therapist everything vs telling your hairdresser everything — which professional relationship is more therapeutically effective?",
         "form": "other",

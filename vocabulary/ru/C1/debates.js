@@ -580,7 +580,7 @@
         "word": "Рассказывать все своему психологу против того, чтобы рассказывать все своему парикмахеру — какие отношения эффективнее терапевтически?",
         "lang": "ru",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "form": "phrase",
         "definitions": [
             {

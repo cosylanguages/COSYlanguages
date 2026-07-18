@@ -57,7 +57,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": "cognitive_processes",
         "word": "La felicidad es una elección; las circunstancias son solo excusas.",
         "definitions": [
@@ -103,7 +103,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
         "word": "El aburrimiento es un signo de falta de imaginación, no de falta de estimulación.",
         "definitions": [
@@ -126,7 +126,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
         "word": "La empatía sin límites es solo complacencia con buenas relaciones públicas.",
         "definitions": [
@@ -149,7 +149,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": "cognitive_processes",
         "word": "Las opiniones más peligrosas son las que suenan completamente razonables.",
         "definitions": [
@@ -241,7 +241,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": "cognitive_processes",
         "word": "El deseo de certeza es la raíz de la mayor parte de la crueldad humana.",
         "definitions": [
@@ -264,7 +264,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": "behavior",
         "word": "Los valores de la mayoría de las personas solo se mantienen cuando no cuesta nada tenerlos.",
         "definitions": [
@@ -379,7 +379,7 @@
         ],
         "lang": "es",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": "cognitive_processes",
         "word": "Las personas que afirman no tener remordimientos o no han vivido lo suficiente o no han reflexionado lo suficiente.",
         "definitions": [

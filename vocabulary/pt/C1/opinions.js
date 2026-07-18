@@ -58,7 +58,7 @@
         "word": "A felicidade é uma escolha — as circunstâncias são apenas desculpas.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -81,7 +81,7 @@
         "word": "As pessoas que dizem odiar dramas são geralmente a fonte deles.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -104,7 +104,7 @@
         "word": "O tédio é um sinal de falta de imaginação, não de falta de estimulação.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": "behavior",
         "form": "phrase",
         "definitions": [
@@ -127,7 +127,7 @@
         "word": "Empatia sem limites é apenas condescendência com boas relações públicas.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": "behavior",
         "form": "phrase",
         "definitions": [
@@ -150,7 +150,7 @@
         "word": "As opiniões mais perigosas são aquelas que parecem completamente razoáveis.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -196,7 +196,7 @@
         "word": "O perdão é, em última análise, algo que você faz por si mesmo, não pela outra pessoa.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": "relationships",
         "form": "phrase",
         "definitions": [
@@ -242,7 +242,7 @@
         "word": "O desejo de certeza é a raiz da maior parte da crueldade humana.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -265,7 +265,7 @@
         "word": "Os valores da maioria das pessoas só se mantêm quando não custa nada tê-los.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [
@@ -380,7 +380,7 @@
         "word": "Pessoas que afirmam não ter arrependimentos ou não viveram o suficiente ou não refletiram o suficiente.",
         "lang": "pt",
         "level": "advanced",
-        "theme": "psychological_concepts_c1",
+        "theme": "psychology",
         "sub_theme": null,
         "form": "phrase",
         "definitions": [

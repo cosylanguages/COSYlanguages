@@ -5,7 +5,7 @@
         "lang": "it",
         "word": "Sophia Loren",
         "level": "upper_intermediate",
-        "theme": "identity_self",
+        "theme": "people",
         "transcription": "",
         "emoji": "✨"
     }

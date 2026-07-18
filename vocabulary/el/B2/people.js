@@ -5,7 +5,7 @@
         "lang": "el",
         "word": "Μαρία Κάλλας",
         "level": "upper_intermediate",
-        "theme": "identity_self",
+        "theme": "people",
         "transcription": "",
         "emoji": "✨"
     },
@@ -14,7 +14,7 @@
         "lang": "el",
         "word": "Οδυσσέας Ελύτης",
         "level": "upper_intermediate",
-        "theme": "identity_self",
+        "theme": "people",
         "transcription": "",
         "emoji": "✨"
     }

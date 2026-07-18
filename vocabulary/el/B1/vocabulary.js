@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "el";
     const data = [
     {
         "id": "el_intermediate_places_018",
@@ -1187,7 +1188,7 @@
         "word": "ελέφαντας",
         "lang": "el",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "environment",
         "form": "noun",
         "definitions": [
             {
@@ -1210,7 +1211,7 @@
         "word": "μαϊμού",
         "lang": "el",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "environment",
         "form": "noun",
         "definitions": [
             {
@@ -1240,5 +1241,5 @@
     }
 ];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData['el'] = [...(window.vocabularyData['el'] || []), ...data];
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

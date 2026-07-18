@@ -6,7 +6,7 @@
         "word": "Victor Hugo",
         "lang": "fr",
         "level": "intermediate",
-        "theme": "identity_self_c1",
+        "theme": "people",
         "form": "phrase",
         "definitions": [],
         "transcription": "-",

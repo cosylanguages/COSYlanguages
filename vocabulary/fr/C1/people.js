@@ -3,7 +3,7 @@
     {
         "word": "Claude Monet",
         "level": "advanced",
-        "theme": "identity_self_c1",
+        "theme": "people",
         "lang": "fr",
         "id": "fr_advanced_identity_self_c1_misc_claude_monet",
         "transcription": "",
@@ -12,7 +12,7 @@
     {
         "word": "Jean-Paul Sartre",
         "level": "advanced",
-        "theme": "identity_self_c1",
+        "theme": "people",
         "lang": "fr",
         "id": "fr_advanced_identity_self_c1_misc_jean-paul_sartre",
         "transcription": "",

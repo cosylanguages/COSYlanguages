@@ -5,7 +5,7 @@
         "lang": "fr",
         "word": "Edith Piaf",
         "level": "upper_intermediate",
-        "theme": "identity_self",
+        "theme": "people",
         "transcription": "",
         "emoji": "✨"
     },
@@ -14,7 +14,7 @@
         "lang": "fr",
         "word": "Simone de Beauvoir",
         "level": "upper_intermediate",
-        "theme": "identity_self",
+        "theme": "people",
         "transcription": "",
         "emoji": "✨"
     }

@@ -1,5 +1,6 @@
 // TODO: verify level classification
 (function() {
+    const lang = "ru";
     const data = [
     {
         "id": "ru_intermediate_places_014",
@@ -1216,7 +1217,7 @@
         "word": "слон",
         "lang": "ru",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "environment",
         "form": "noun",
         "definitions": [
             {
@@ -1239,7 +1240,7 @@
         "word": "обезьяна",
         "lang": "ru",
         "level": "intermediate",
-        "theme": "environment_nature",
+        "theme": "environment",
         "form": "noun",
         "definitions": [
             {
@@ -1269,5 +1270,5 @@
     }
 ];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData['ru'] = [...(window.vocabularyData['ru'] || []), ...data];
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
