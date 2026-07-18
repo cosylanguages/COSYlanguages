@@ -9,11 +9,39 @@ if not os.path.exists(filepath):
 with open(filepath, "r", encoding="utf-8") as f:
     html = f.read()
 
-# Let's extract all session blocks using a robust regex.
-# A session block starts with <!-- \d+\. ... -->, then <div class="history-session", then has some content, and ends with </div>
-pattern = r'(<!--\s*\d+\.\s*.*?\s*-->\s*<div class="history-session"[^>]*>.*?</div>)'
-sessions = re.findall(pattern, html, re.DOTALL)
+def extract_sessions(content_html):
+    blocks = []
+    matches = list(re.finditer(r'(<!--\s*\d+\..*?-->)', content_html))
+    for match in matches:
+        start_comment = match.start()
+        end_comment = match.end()
+        div_start_match = re.search(r'<div\b[^>]*class="history-session"[^>]*>', content_html[end_comment:])
+        if not div_start_match:
+            continue
 
+        div_start_idx = end_comment + div_start_match.start()
+        depth = 0
+        idx = div_start_idx
+        tag_pattern = re.compile(r'<(/?div\b[^>]*)>')
+        while True:
+            tag_match = tag_pattern.search(content_html, idx)
+            if not tag_match:
+                break
+            tag_text = tag_match.group(1)
+            if tag_text.startswith('/'):
+                depth -= 1
+            else:
+                if not tag_text.endswith('/'):
+                    depth += 1
+
+            idx = tag_match.end()
+            if depth == 0:
+                session_block = content_html[start_comment:idx]
+                blocks.append(session_block)
+                break
+    return blocks
+
+sessions = extract_sessions(html)
 print(f"Parsed {len(sessions)} sessions.")
 
 challenges = []
@@ -44,33 +72,40 @@ pinned_html = """          <!-- 📌 PINNED ARTIST CHALLENGES -->
           </h3>
 """ + "\n".join(standalone)
 
-# Now, we want to replace the old history-body content with our pinned and standalone sections.
-# Find the start of the <div class="history-body"...> and replace all of its children up to before the closing </div> of history-body.
-start_idx = html.find('<div class="history-body" style="display: block; padding: 0; border: none;">')
+# Find start of history-body div
+start_tag = '<div class="history-body" style="display: block; padding: 0; border: none;">'
+start_idx = html.find(start_tag)
 if start_idx == -1:
     print("Error: history-body div not found.")
     exit(1)
 
-# Find the end tag of history-body by finding the matching closing </div>
-# The list of sessions was directly inside <div class="history-body">...</div>.
-# Let's search for the last </a>\s*</div> of the last session, and then the next </div> is the closing </div> of history-body.
-last_session = sessions[-1]
-last_session_idx = html.find(last_session)
-if last_session_idx == -1:
-    print("Error: last session not found in HTML.")
-    exit(1)
+# Find matching closing </div> for history-body
+depth = 1
+idx = start_idx + len(start_tag)
+tag_pattern = re.compile(r'<(/?div\b[^>]*)>')
+closing_div_idx = -1
+while True:
+    tag_match = tag_pattern.search(html, idx)
+    if not tag_match:
+        break
+    tag_text = tag_match.group(1)
+    if tag_text.startswith('/'):
+        depth -= 1
+    else:
+        if not tag_text.endswith('/'):
+            depth += 1
 
-end_of_sessions = last_session_idx + len(last_session)
-# Find the closing </div> for history-body immediately after end_of_sessions
-closing_div_match = re.search(r'\s*</div>', html[end_of_sessions:])
-if not closing_div_match:
+    idx = tag_match.end()
+    if depth == 0:
+        closing_div_idx = tag_match.start()
+        break
+
+if closing_div_idx == -1:
     print("Error: closing div of history-body not found.")
     exit(1)
 
-closing_div_idx = end_of_sessions + closing_div_match.end()
-
 # Rebuild the file content
-new_html = html[:start_idx + len('<div class="history-body" style="display: block; padding: 0; border: none;">\n')] + pinned_html + html[closing_div_idx - 6:]
+new_html = html[:start_idx + len(start_tag)] + "\n" + pinned_html + "\n          " + html[closing_div_idx:]
 
 with open(filepath, "w", encoding="utf-8") as f:
     f.write(new_html)
