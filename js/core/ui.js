@@ -332,11 +332,26 @@
         window.speechSynthesis.speak(utterance);
     };
 
+    const setupOfflineAccessDownload = () => {
+        const metaGrid = document.querySelector('.session-meta-grid');
+        if (!metaGrid) return;
+
+        // Check if there's already a download button or Offline Access element
+        if (metaGrid.querySelector('.btn-print') || metaGrid.textContent.includes('Offline Access')) return;
+
+        // Create the download block
+        const metaItem = document.createElement('div');
+        metaItem.className = 'meta-item';
+        metaItem.innerHTML = '<h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p>';
+        metaGrid.appendChild(metaItem);
+    };
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         setupHeaderShrink();
         setupBackToTop();
         setupScrollReveal();
+        setupOfflineAccessDownload();
         if (window.COSY && window.COSY.updateNavActiveState) window.COSY.updateNavActiveState();
 
         // FAQ Toggle
