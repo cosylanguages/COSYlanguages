@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sonder — COSYlanguages</title>
+<link href="../../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../../css/tokens.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/components.css" rel="stylesheet"/>
+<link href="../../../css/layout.css" rel="stylesheet"/>
+<link href="../../../css/events.css" rel="stylesheet"/>
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #5D4037, #3E2723);">
+<div class="club-tag">The Greatest Quotes</div>
+<h1>Sonder — The Lives of Others</h1>
+<p class="session-date">12 October 2025</p>
+</header>
+<main class="content-container">
+<nav class="cosy-breadcrumbs">
+<a href="../../../">Home</a> <span class="sep">/</span>
+<a href="../../">Events</a> <span class="sep">/</span>
+<a href="../../the-greatest-quotes.html">The Greatest Quotes</a> <span class="sep">/</span>
+<span class="current">Sonder</span>
+</nav>
+<a class="back-link" href="../../the-greatest-quotes.html">← Back to Club</a>
+<div class="session-meta-grid">
+<div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+<div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇷🇺</p></div>
+<div class="meta-item"><h4>Level</h4><p>Advanced (C1)</p></div>
+<div class="meta-item"><h4>Topic</h4><p>Empathy, Connection, and Hidden Lives</p></div>
+</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+<p>Sonder is the realization that each random passerby is living a life as vivid and complex as your own. This session explores the profound impact of this realization on our capacity for empathy and social connection. We will discuss how recognizing the hidden depth in everyone we meet can transform our daily interactions and our understanding of the world.</p>
+</div>
+
+  <!-- PHILOSOPHERS' LEDGER INTERACTIVE CARD -->
+  <div class="philosophers-ledger" style="background: #FFFDF9; border: 2px solid #5D4037; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: var(--shadow-sm); font-family: 'Playfair Display', serif; font-style: italic; color: #3E2723;">
+    <h4 style="margin: 0 0 0.5rem; font-family: 'DM Sans', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #5D4037; font-style: normal; font-weight: 700;">☕ The Philosophers' Ledger: Café Debates</h4>
+    <p id="ledger-quote" style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1rem;">"Let us see how many interpretations exist! There is never only one correct answer to any profound human question." — Oscar Wilde</p>
+    <button class="btn-primary" id="ledger-next-btn" style="background: #5D4037; color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.8rem; font-family: 'DM Sans', sans-serif; font-style: normal; cursor: pointer; font-weight: 700; transition: background 0.2s;">Next Page in Ledger 📖</button>
+  </div>
+
+  <section id="vocabulary">
+<h2 class="section-title">📖 Session Vocabulary</h2>
+<div class="vocab-grid-10">
+<div class="vocab-card">
+<div class="vocab-word">Sonder</div>
+<div class="vocab-def">the profound feeling of realizing that everyone has a complex life.</div>
+<div class="vocab-example">Walking through the crowded station, he was struck by a sudden sense of sonder.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Sonder', definition:'realizing others have complex lives', example:'Walking through the crowded station, he was struck by a sudden sense of sonder.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Passerby</div>
+<div class="vocab-def">a person who happens to be going past something or someone.</div>
+<div class="vocab-example">The street musician played his violin as every passerby ignored him.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Passerby', definition:'person going past', example:'The street musician played his violin as every passerby ignored him.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Vivid</div>
+<div class="vocab-def">producing powerful feelings or strong, clear images in the mind.</div>
+<div class="vocab-example">He had a vivid memory of his first day at school.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Vivid', definition:'strong and clear mental images', example:'He had a vivid memory of his first day at school.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Intricate</div>
+<div class="vocab-def">very complicated or detailed.</div>
+<div class="vocab-example">The novel's plot was so intricate that I had to read it twice.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Intricate', definition:'complicated or detailed', example:'The novel\'s plot was so intricate that I had to read it twice.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Anonymity</div>
+<div class="vocab-def">the condition of being anonymous or unknown.</div>
+<div class="vocab-example">The artist preferred anonymity and never showed his face in public.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Anonymity', definition:'being unknown', example:'The artist preferred anonymity and never showed his face in public.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Ephemeral</div>
+<div class="vocab-def">lasting for a very short time.</div>
+<div class="vocab-example">Our interaction was ephemeral, but it left a lasting impression on me.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Ephemeral', definition:'lasting a short time', example:'Our interaction was ephemeral, but it left a lasting impression on me.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Internalize</div>
+<div class="vocab-def">make (attitudes or behavior) part of one's nature by learning or unconscious assimilation.</div>
+<div class="vocab-example">It takes time to internalize the values of a new culture.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Internalize', definition:'make part of one\'s nature', example:'It takes time to internalize the values of a new culture.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Multifaceted</div>
+<div class="vocab-def">having many sides or aspects.</div>
+<div class="vocab-example">The problem is multifaceted and cannot be solved with a simple answer.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Multifaceted', definition:'having many aspects', example:'The problem is multifaceted and cannot be solved with a simple answer.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Subconscious</div>
+<div class="vocab-def">concerning the part of the mind of which one is not fully aware.</div>
+<div class="vocab-example">Our subconscious fears often influence our daily decisions.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Subconscious', definition:'part of mind not fully aware', example:'Our subconscious fears often influence our daily decisions.'}, this)">Add to Dictionary</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Perspective</div>
+<div class="vocab-def">a particular way of regarding something; a point of view.</div>
+<div class="vocab-example">Traveling to different countries gives you a much broader perspective on life.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'point of view', example:'Traveling to different countries gives you a much broader perspective on life.'}, this)">Add to Dictionary</button>
+</div>
+</div>
+</section>
+<section id="structure">
+<h2 class="section-title">🎙️ Discussion Structure</h2>
+<div class="rounds-container">
+<div class="round-block warm-up open" id="s-warm">
+<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
+<span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="vim-instruction">Analyze the concept: "Everyone has a story you know nothing about."</div>
+<ul class="round-questions">
+<li>When was the last time you were surprised by the hidden depth of a stranger?</li>
+<li>Do you find the idea of billions of complex lives overwhelming or beautiful?</li>
+</ul>
+</div>
+</div>
+<div class="round-block round-1 open" id="s-r1">
+<div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;">
+<span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Questions</div>
+<div class="round-item">
+<div class="round-item-main">How often do you experience a sense of <strong>sonder</strong> while commuting or walking in a crowded city?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Do you ever wonder about the destination and purpose of a random <strong>passerby</strong> you see on the street?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Can you describe a <strong>vivid</strong> moment when you realized you were just a background character in someone else's story?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Why is it so easy to forget the <strong>intricate</strong> details of other people's lives when we are stressed?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Does the <strong>anonymity</strong> of a large city make it easier or harder to feel empathy for others?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How do <strong>ephemeral</strong> interactions with strangers sometimes leave the deepest impact on our mood?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">Is it possible to truly <strong>internalize</strong> the idea that every single person is as important as you are?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">In what ways are the personalities of your closest friends more <strong>multifaceted</strong> than they first appeared?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How does our <strong>subconscious</strong> bias affect how we judge people we only see for a few seconds?</div>
+</div>
+<div class="round-item">
+<div class="round-item-main">How can changing your <strong>perspective</strong> to include the lives of others reduce your own personal anxieties?</div>
+</div>
+</div>
+</div>
+<div class="round-block lst open" id="s-lst">
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
+<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">👥</span><div style="font-weight:600;">The Crowd</div></div>
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">👤</span><div style="font-weight:600;">The Individual</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center;">Which perspective helps you feel more connected to humanity?</p>
+</div>
+</div>
+<div class="round-block round-2 open" id="s-r2">
+<div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;">
+<span>🟢 Round 2 — The Future: Agree or Disagree?</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Debate</div>
+<div class="round-item"><div class="round-item-main">True <strong>sonder</strong> is impossible because we can never truly understand another person's mind.</div></div>
+<div class="round-item"><div class="round-item-main">If we spoke to every <strong>passerby</strong>, we would eventually realize that we are all the same.</div></div>
+<div class="round-item"><div class="round-item-main">A <strong>vivid</strong> imagination is more important for empathy than actual life experience.</div></div>
+<div class="round-item"><div class="round-item-main">Modern social media has made our lives less <strong>intricate</strong> by reducing us to simple profiles.</div></div>
+<div class="round-item"><div class="round-item-main">The <strong>anonymity</strong> of the internet is the biggest obstacle to global empathy.</div></div>
+<div class="round-item"><div class="round-item-main">Most human connections are <strong>ephemeral</strong> and therefore not worth pursuing deeply.</div></div>
+<div class="round-item"><div class="round-item-main">We should <strong>internalize</strong> the stories of others to become better world citizens.</div></div>
+<div class="round-item"><div class="round-item-main">Every single human conflict is <strong>multifaceted</strong> and can never be solved by force.</div></div>
+<div class="round-item"><div class="round-item-main">Our <strong>subconscious</strong> mind is actually more empathetic than our conscious logical mind.</div></div>
+<div class="round-item"><div class="round-item-main">A global <strong>perspective</strong> is the only way to ensure the survival of the human race.</div></div>
+</div>
+</div>
+<div class="mistake-block open" id="s-mistakes">
+<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+<span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+</div>
+<div class="mistake-body" style="display:block;">
+<div class="mistake-item"><span class="mistake-wrong">Every people has a life</span><span class="mistake-arrow">→</span><span class="mistake-right">Every person has a life / All people have lives</span><span class="mistake-note-text">(Subject-verb agreement)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">It makes me to think about others</span><span class="mistake-arrow">→</span><span class="mistake-right">It makes me think about others</span><span class="mistake-note-text">(Make + object + bare infinitive)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I am interesting in their stories</span><span class="mistake-arrow">→</span><span class="mistake-right">I am interested in their stories</span><span class="mistake-note-text">(-ed vs -ing)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I am agree with you</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree with you</span><span class="mistake-note-text">(Verb agreement)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">It is depend on you</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends on you</span><span class="mistake-note-text">(Verb vs Adjective)</span></div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../../../js/core/engine.js"></script>
+
+<script src="../../../js/core/ui.js"></script>
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const quotes = [
+    '"Let us see how many interpretations exist! There is never only one correct answer." — Oscar Wilde',
+    '"To live is the rarest thing in the world. Most people exist, that is all." — Oscar Wilde',
+    '"The mystery of life is not a problem to be solved, but a reality to be experienced." — Alan Watts',
+    '"You have power over your mind - not outside events. Realize this, and you will find strength." — Marcus Aurelius'
+  ];
+  let index = 0;
+  const quoteText = document.getElementById('ledger-quote');
+  const nextBtn = document.getElementById('ledger-next-btn');
+
+  if (nextBtn && quoteText) {
+    nextBtn.addEventListener('click', () => {
+      index = (index + 1) % quotes.length;
+      quoteText.innerText = quotes[index];
+    });
+  }
+});
+</script>
+
+</body>
+</html>
