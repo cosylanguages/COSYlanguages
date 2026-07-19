@@ -78,6 +78,84 @@
                 br: { word: "disheol", article: "an", gender: "masculine" }
             },
             explanation: "Latin 'umbra' (f) gave feminine words to Romance languages. Russian 'тень' and Greek 'σκιά' are also feminine. But German 'Schatten' is masculine from Proto-Germanic '*skadwaz'. Breton 'disheol' (literally 'un-sun') is masculine."
+        },
+        {
+            concept: "World",
+            translations: {
+                fr: { word: "monde", article: "le", gender: "masculine" },
+                es: { word: "mundo", article: "el", gender: "masculine" },
+                it: { word: "mondo", article: "il", gender: "masculine" },
+                de: { word: "Welt", article: "die", gender: "feminine" },
+                ru: { word: "мир", article: "", gender: "masculine" },
+                el: { word: "κόσμος", article: "ο", gender: "masculine" },
+                br: { word: "bed", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'mundus' (clean, orderly, universe) was masculine, preserving masculine gender in French, Spanish, and Italian. Greek 'κόσμος' has the same meaning (order/ornament) and is masculine. Russian 'мир' is masculine. German 'Welt' is feminine, from Old High German 'weralt' (literally 'age of man' or 'man-era')."
+        },
+        {
+            concept: "Dream",
+            translations: {
+                fr: { word: "rêve", article: "le", gender: "masculine" },
+                es: { word: "sueño", article: "el", gender: "masculine" },
+                it: { word: "sogno", article: "il", gender: "masculine" },
+                de: { word: "Traum", article: "der", gender: "masculine" },
+                ru: { word: "мечта", article: "", gender: "feminine" },
+                el: { word: "όνειρο", article: "το", gender: "neuter" },
+                br: { word: "huñvre", article: "an", gender: "masculine" }
+            },
+            explanation: "Latin 'somnium' (dream) was neuter, shifting to masculine 'sueño' and 'sogno' in Spanish and Italian. French 'rêve' (from 'rêver', to wander/rave) is masculine. German 'Traum' is masculine, from Proto-Germanic '*draumaz'. Greek 'όνειρο' is neuter. Russian 'мечта' (hopeful dream) is feminine, though 'сон' (sleep/sleep-dream) is masculine."
+        },
+        {
+            concept: "Memory",
+            translations: {
+                fr: { word: "mémoire", article: "la", gender: "feminine" },
+                es: { word: "memoria", article: "la", gender: "feminine" },
+                it: { word: "memoria", article: "la", gender: "feminine" },
+                de: { word: "Gedächtnis", article: "das", gender: "neuter" },
+                ru: { word: "память", article: "", gender: "feminine" },
+                el: { word: "μνήμη", article: "η", gender: "feminine" },
+                br: { word: "eñvor", article: "an", gender: "masculine" }
+            },
+            explanation: "Abstract capacity for recollection is widely feminine! Latin 'memoria' (f), Russian 'память' (f, 3rd declension), and Greek 'μνήμη' (f) are feminine. German 'Gedächtnis' is neuter due to the prefix 'Ge-' and suffix '-nis'."
+        },
+        {
+            concept: "Journey",
+            translations: {
+                fr: { word: "voyage", article: "le", gender: "masculine" },
+                es: { word: "viaje", article: "el", gender: "masculine" },
+                it: { word: "viaggio", article: "il", gender: "masculine" },
+                de: { word: "Reise", article: "die", gender: "feminine" },
+                ru: { word: "путешествие", article: "", gender: "neuter" },
+                el: { word: "ταξίδι", article: "το", gender: "neuter" },
+                br: { word: "veaj", article: "ar", gender: "feminine" }
+            },
+            explanation: "Romance words like 'voyage' come from Latin 'viaticum' (travel provisions), which was neuter and shifted to masculine. German 'Reise' is feminine. Russian 'путешествие' is neuter ending in '-ие'. Greek 'ταξίδι' is neuter, coming from Byzantine Greek 'taxidion' (military campaign/order)."
+        },
+        {
+            concept: "Light",
+            translations: {
+                fr: { word: "lumière", article: "la", gender: "feminine" },
+                es: { word: "luz", article: "la", gender: "feminine" },
+                it: { word: "luce", article: "la", gender: "feminine" },
+                de: { word: "Licht", article: "das", gender: "neuter" },
+                ru: { word: "свет", article: "", gender: "masculine" },
+                el: { word: "φως", article: "το", gender: "neuter" },
+                br: { word: "gouloù", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'lux' was feminine, preserving feminine gender in French, Spanish, and Italian. German 'Licht' and Greek 'φως' are neuter. Russian 'свет' is masculine by phonetic ending."
+        },
+        {
+            concept: "Mind / Spirit",
+            translations: {
+                fr: { word: "esprit", article: "l'", gender: "masculine" },
+                es: { word: "espíritu", article: "el", gender: "masculine" },
+                it: { word: "spirito", article: "lo", gender: "masculine" },
+                de: { word: "Geist", article: "der", gender: "masculine" },
+                ru: { word: "дух", article: "", gender: "masculine" },
+                el: { word: "πνεύμα", article: "το", gender: "neuter" },
+                br: { word: "spered", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'spiritus' was masculine, preserving masculine gender in Romance. German 'Geist' and Russian 'дух' are masculine. Greek 'πνεύμα' is neuter due to the '-μα' suffix."
         }
     ];
     window.genderGameData = window.genderGameData || {};

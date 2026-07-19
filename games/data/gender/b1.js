@@ -78,6 +78,84 @@
                 br: { word: "kudenn", article: "ar", gender: "feminine" }
             },
             explanation: "Originally Greek 'próblēma' (neuter), meaning 'something thrown forward'. German and Greek keep the neuter. Because French, Italian, and Spanish lack neuter genders, they treated it as masculine (giving 'el problema' in Spanish, an exception to the '-a' feminine rule!). Russian, however, transformed it into a feminine noun ('проблема') due to the '-а' ending."
+        },
+        {
+            concept: "Sky",
+            translations: {
+                fr: { word: "ciel", article: "le", gender: "masculine" },
+                es: { word: "cielo", article: "el", gender: "masculine" },
+                it: { word: "cielo", article: "il", gender: "masculine" },
+                de: { word: "Himmel", article: "der", gender: "masculine" },
+                ru: { word: "небо", article: "", gender: "neuter" },
+                el: { word: "ουρανός", article: "ο", gender: "masculine" },
+                br: { word: "neñv", article: "an", gender: "masculine" }
+            },
+            explanation: "Latin 'caelum' was neuter, but shifted to masculine in Romance languages. German 'Himmel' is masculine, from Proto-Germanic '*himinaz'. Russian 'небо' is neuter due to the '-о' ending. Greek 'ουρανός' is masculine (historically personified as Ouranos, god of the sky)."
+        },
+        {
+            concept: "Earth",
+            translations: {
+                fr: { word: "terre", article: "la", gender: "feminine" },
+                es: { word: "tierra", article: "la", gender: "feminine" },
+                it: { word: "terra", article: "la", gender: "feminine" },
+                de: { word: "Erde", article: "die", gender: "feminine" },
+                ru: { word: "земля", article: "", gender: "feminine" },
+                el: { word: "γη", article: "η", gender: "feminine" },
+                br: { word: "douar", article: "an", gender: "masculine" }
+            },
+            explanation: "Linguistic personification of Earth as a mother deity makes this concept overwhelmingly feminine across many families! Latin 'terra', German 'Erde', Russian 'земля', and Greek 'γη' are all feminine. Breton 'douar' is an exception, being masculine."
+        },
+        {
+            concept: "Book",
+            translations: {
+                fr: { word: "livre", article: "le", gender: "masculine" },
+                es: { word: "libro", article: "el", gender: "masculine" },
+                it: { word: "libro", article: "il", gender: "masculine" },
+                de: { word: "Buch", article: "das", gender: "neuter" },
+                ru: { word: "книга", article: "", gender: "feminine" },
+                el: { word: "βιβλίο", article: "το", gender: "neuter" },
+                br: { word: "levr", article: "al", gender: "masculine" }
+            },
+            explanation: "Latin 'liber' was masculine, so the Romance languages have masculine words. German 'Buch' is neuter, coming from the wood of the beech tree on which runes were carved. Russian 'книга' is feminine, borrowed from ancient Turkic/Bulgar roots. Greek 'βιβλίο' is neuter (originally a diminutive of 'byblos', papyrus)."
+        },
+        {
+            concept: "House",
+            translations: {
+                fr: { word: "maison", article: "la", gender: "feminine" },
+                es: { word: "casa", article: "la", gender: "feminine" },
+                it: { word: "casa", article: "la", gender: "feminine" },
+                de: { word: "Haus", article: "das", gender: "neuter" },
+                ru: { word: "дом", article: "le", gender: "masculine" },
+                el: { word: "σπίτι", article: "το", gender: "neuter" },
+                br: { word: "ti", article: "an", gender: "masculine" }
+            },
+            explanation: "Latin 'mansio' (stay, dwelling) and 'casa' (hut) were feminine, hence feminine Romance words. German 'Haus' is neuter. Russian 'дом' is masculine due to its consonant ending. Greek 'σπίτι' is neuter, derived from Latin 'hospitium' (hospitality/guest quarters)."
+        },
+        {
+            concept: "River",
+            translations: {
+                fr: { word: "rivière", article: "la", gender: "feminine" },
+                es: { word: "río", article: "el", gender: "masculine" },
+                it: { word: "fiume", article: "il", gender: "masculine" },
+                de: { word: "Fluss", article: "der", gender: "masculine" },
+                ru: { word: "река", article: "", gender: "feminine" },
+                el: { word: "ποτάμι", article: "το", gender: "neuter" },
+                br: { word: "stêr", article: "ar", gender: "feminine" }
+            },
+            explanation: "Latin 'flumen' was neuter, shifting to masculine 'fiume' in Italian and 'río' in Spanish. French 'rivière' (bank/riparian) became feminine. German 'Fluss' is masculine. Russian 'река' is feminine. Greek 'ποτάμι' is neuter, from ancient 'potamos' (masculine)."
+        },
+        {
+            concept: "Star",
+            translations: {
+                fr: { word: "étoile", article: "l'", gender: "feminine" },
+                es: { word: "estrella", article: "la", gender: "feminine" },
+                it: { word: "stella", article: "l'", gender: "feminine" },
+                de: { word: "Stern", article: "der", gender: "masculine" },
+                ru: { word: "звезда", article: "", gender: "feminine" },
+                el: { word: "αστέρι", article: "το", gender: "neuter" },
+                br: { word: "steredenn", article: "ar", gender: "feminine" }
+            },
+            explanation: "Latin 'stella' was feminine, preserving feminine gender in Romance languages. German 'Stern' is masculine from Proto-Germanic '*sternō'. Russian 'звезда' is feminine. Greek 'αστέρι' is neuter. Breton 'steredenn' is feminine."
         }
     ];
     window.genderGameData = window.genderGameData || {};
