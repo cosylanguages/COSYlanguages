@@ -1684,12 +1684,16 @@
 
                 body.innerHTML = `
                   <div class="score-bar">
-                    <div class="sb-item"><div class="sb-val" id="gender-score">${sessionScore}</div><div class="sb-lbl">Score</div></div>
-                    <div class="sb-item"><div class="sb-val">${questionCount}/${maxRounds}</div><div class="sb-lbl">Round</div></div>
+                    <div class="sb-item"><div class="sb-val" id="gender-score">${sessionScore}</div><div class="sb-lbl">⭐</div></div>
+                    <div class="sb-item"><div class="sb-val">${questionCount}/${maxRounds}</div><div class="sb-lbl">🧩</div></div>
                   </div>
-                  <div class="game-card">
-                    <div class="game-label">What is the gender of this word in <strong>${targetLangName}</strong>?</div>
-                    <div class="concept-title" style="font-size: .85rem; color: var(--ink-muted); margin-top: .5rem; text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em;">Concept: ${conceptObj.concept}</div>
+                  <div class="game-card" style="text-align: center;">
+                    <div class="game-label" style="font-size: 1.25rem; font-weight: 700; color: var(--teal); margin-bottom: 0.5rem;">
+                        <strong>${targetLangName}</strong> 🌐 ➔ ♂️ / ♀️ / ⚧️ ?
+                    </div>
+                    <div class="concept-emoji" style="font-size: 4rem; margin: 1.5rem 0 0.5rem 0;">
+                        ${conceptObj.emoji || '🧩'}
+                    </div>
                     <div class="gender-word" style="font-size: 2.2rem; font-weight: 800; color: var(--ink); margin: .75rem 0; font-family: 'Fraunces', serif; text-align: center;">
                         ${trans.article ? `<span style="font-size: 1.2rem; color: var(--ink-faint); font-weight: 400; font-family: 'DM Sans', sans-serif; margin-right: 6px;">(${trans.article})</span>` : ''}${trans.word}
                     </div>
@@ -1704,6 +1708,7 @@
 
                     <!-- Explanations & Reveals (initially hidden) -->
                     <div id="reveal-area" style="display:none; text-align:left;">
+                        <div style="font-size: 1.1rem; font-weight: 700; color: var(--ink-muted); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em;">Concept: ${conceptObj.concept}</div>
                         <div class="why-container" style="background:#f7fafc; border-left:4px solid var(--teal); padding:10px; border-radius:4px; margin-top:1rem;">
                             <div class="why-title" style="font-size:.75rem; font-weight:800; text-transform:uppercase; color:var(--teal); margin-bottom:4px; letter-spacing:.05em;">💡 Why? (Historical & Linguistic Context)</div>
                             <div class="why-text" style="font-size:.85rem; line-height:1.4; color:var(--ink);">${conceptObj.explanation}</div>
@@ -1725,7 +1730,7 @@
                                     <div class="reveal-lang-card" style="background:var(--tan-light); border:1px solid var(--border); padding:6px; border-radius:6px; font-size:.75rem; text-align:center;">
                                         <div class="reveal-lang-name" style="font-weight:700; font-size:.65rem; color:var(--ink-muted); margin-bottom:2px;">${lEmoji} ${lName}</div>
                                         <div class="reveal-lang-word" style="font-family:'Fraunces',serif; font-weight:600; font-size:.85rem; color:var(--ink);">${info.article ? info.article + ' ' : ''}${info.word}</div>
-                                        <div class="reveal-lang-gender" style="font-size:.65rem; font-weight:700; margin-top:2px; padding:1px 4px; border-radius:8px; display:inline-block; ${tagClass}">${info.gender}</div>
+                                        <div class="reveal-lang-gender" style="font-size:.65rem; font-weight:700; margin-top:2px; padding:1px 4px; border-radius:8px; display:inline-block; ${tagClass}">${info.gender === 'masculine' ? '♂️' : info.gender === 'feminine' ? '♀️' : info.gender === 'neuter' ? '⚧️' : '⚖️ both'} ${info.gender}</div>
                                     </div>
                                 `;
                             }).join('')}
@@ -1775,7 +1780,7 @@
                             btn.classList.add('correct-choice');
                             if (fb) {
                                 fb.className = 'feedback-bar show ok';
-                                fb.innerHTML = `✓ <strong>Correct!</strong> It is grammatically <strong>${trans.gender}</strong>.`;
+                                fb.innerHTML = `✓ <strong>${trans.word}</strong> ➔ <strong>${trans.gender === 'masculine' ? '♂️' : trans.gender === 'feminine' ? '♀️' : '⚧️'}</strong>`;
                             }
                             sessionScore += 10;
                             document.getElementById('gender-score').textContent = sessionScore;
@@ -1788,7 +1793,7 @@
                             });
                             if (fb) {
                                 fb.className = 'feedback-bar show bad';
-                                fb.innerHTML = `✗ <strong>Incorrect.</strong> It is grammatically <strong>${trans.gender}</strong>.`;
+                                fb.innerHTML = `✗ <strong>${trans.word}</strong> ➔ <strong>${trans.gender === 'masculine' ? '♂️' : trans.gender === 'feminine' ? '♀️' : '⚧️'}</strong>`;
                             }
                         }
                     });

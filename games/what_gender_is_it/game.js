@@ -112,13 +112,17 @@
 
                 body.innerHTML = `
                   <div class="score-bar">
-                    <div class="sb-item"><div class="sb-val" id="gender-score">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
-                    <div class="sb-item"><div class="sb-val">${questionCount}/${COSYGame.maxRounds}</div><div class="sb-lbl">Round</div></div>
+                    <div class="sb-item"><div class="sb-val" id="gender-score">${COSYGame.score}</div><div class="sb-lbl">⭐</div></div>
+                    <div class="sb-item"><div class="sb-val">${questionCount}/${COSYGame.maxRounds}</div><div class="sb-lbl">🧩</div></div>
                   </div>
-                  <div class="game-card">
-                    <div class="game-label">What is the gender of this word in <strong>${targetLangName}</strong>?</div>
-                    <div class="concept-title" style="font-size: 1.1rem; color: var(--ink-muted); margin-top: 1rem; text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em;">Concept: ${conceptObj.concept}</div>
-                    <div class="gender-word" style="font-size: 3rem; font-weight: 800; color: var(--ink); margin: 1rem 0; font-family: 'Fraunces', serif;">
+                  <div class="game-card" style="text-align: center;">
+                    <div class="game-label" style="font-size: 1.25rem; font-weight: 700; color: var(--teal); margin-bottom: 0.5rem;">
+                        <strong>${targetLangName}</strong> 🌐 ➔ ♂️ / ♀️ / ⚧️ ?
+                    </div>
+                    <div class="concept-emoji" style="font-size: 4rem; margin: 1.5rem 0 0.5rem 0;">
+                        ${conceptObj.emoji || '🧩'}
+                    </div>
+                    <div class="gender-word" style="font-size: 3rem; font-weight: 800; color: var(--ink); margin: 0.5rem 0 1.5rem 0; font-family: 'Fraunces', serif;">
                         ${trans.article ? `<span style="font-size: 1.5rem; color: var(--ink-faint); font-weight: 400; font-family: 'DM Sans', sans-serif; margin-right: 8px;">(${trans.article})</span>` : ''}${trans.word}
                     </div>
 
@@ -131,7 +135,8 @@
                     <div class="feedback-bar" id="gender-fb"></div>
 
                     <!-- Explanations & Reveals (initially hidden) -->
-                    <div id="reveal-area" style="display:none;">
+                    <div id="reveal-area" style="display:none; text-align: left;">
+                        <div style="font-size: 1.1rem; font-weight: 700; color: var(--ink-muted); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em;">Concept: ${conceptObj.concept}</div>
                         <div class="why-container">
                             <div class="why-title">💡 Why? (Historical & Linguistic Context)</div>
                             <div class="why-text">${conceptObj.explanation}</div>
@@ -147,7 +152,7 @@
                                     <div class="reveal-lang-card">
                                         <div class="reveal-lang-name">${lEmoji} ${lName}</div>
                                         <div class="reveal-lang-word">${info.article ? info.article + ' ' : ''}${info.word}</div>
-                                        <div class="reveal-lang-gender gender-tag-${info.gender}">${info.gender}</div>
+                                        <div class="reveal-lang-gender gender-tag-${info.gender}">${info.gender === 'masculine' ? '♂️' : info.gender === 'feminine' ? '♀️' : info.gender === 'neuter' ? '⚧️' : '⚖️ both'} ${info.gender}</div>
                                     </div>
                                 `;
                             }).join('')}
@@ -191,7 +196,7 @@
                     clickedBtn.classList.add('correct-choice');
                     if (fb) {
                         fb.className = 'feedback-bar show ok';
-                        fb.innerHTML = `✓ <strong>Correct!</strong> It is grammatically <strong>${correctGender}</strong>.`;
+                        fb.innerHTML = `✓ <strong>${trans.word}</strong> ➔ <strong>${correctGender === 'masculine' ? '♂️' : correctGender === 'feminine' ? '♀️' : '⚧️'}</strong>`;
                     }
                     COSYGame.score += 10;
                     document.getElementById('gender-score').textContent = COSYGame.score;
@@ -204,7 +209,7 @@
                     });
                     if (fb) {
                         fb.className = 'feedback-bar show bad';
-                        fb.innerHTML = `✗ <strong>Incorrect.</strong> It is grammatically <strong>${correctGender}</strong>.`;
+                        fb.innerHTML = `✗ <strong>${trans.word}</strong> ➔ <strong>${correctGender === 'masculine' ? '♂️' : correctGender === 'feminine' ? '♀️' : '⚧️'}</strong>`;
                     }
                 }
             };
