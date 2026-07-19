@@ -3,6 +3,7 @@
     const data = [
         {
             concept: "Destiny / Fate",
+            emoji: "🔮",
             translations: {
                 fr: { word: "destin", article: "le", gender: "masculine" },
                 es: { word: "destino", article: "el", gender: "masculine" },
@@ -16,6 +17,7 @@
         },
         {
             concept: "Chaos",
+            emoji: "🌀",
             translations: {
                 fr: { word: "chaos", article: "le", gender: "masculine" },
                 es: { word: "caos", article: "el", gender: "masculine" },
@@ -29,6 +31,7 @@
         },
         {
             concept: "Immortality",
+            emoji: "🧬",
             translations: {
                 fr: { word: "immortalité", article: "l'", gender: "feminine" },
                 es: { word: "inmortalidad", article: "la", gender: "feminine" },
@@ -42,6 +45,7 @@
         },
         {
             concept: "Wisdom",
+            emoji: "🦉",
             translations: {
                 fr: { word: "sagesse", article: "la", gender: "feminine" },
                 es: { word: "sabiduría", article: "la", gender: "feminine" },
@@ -55,6 +59,7 @@
         },
         {
             concept: "Abyss",
+            emoji: "🕳️",
             translations: {
                 fr: { word: "abîme", article: "l'", gender: "masculine" },
                 es: { word: "abismo", article: "el", gender: "masculine" },
@@ -68,6 +73,7 @@
         },
         {
             concept: "Soul",
+            emoji: "✨",
             translations: {
                 fr: { word: "âme", article: "l'", gender: "feminine" },
                 es: { word: "alma", article: "el/la", gender: "feminine" },
@@ -81,6 +87,7 @@
         },
         {
             concept: "Nothingness",
+            emoji: "⚫",
             translations: {
                 fr: { word: "néant", article: "le", gender: "masculine" },
                 es: { word: "nada", article: "la", gender: "feminine" },
@@ -94,6 +101,7 @@
         },
         {
             concept: "Eternity",
+            emoji: "♾️",
             translations: {
                 fr: { word: "éternité", article: "la", gender: "feminine" },
                 es: { word: "eternidad", article: "la", gender: "feminine" },
@@ -107,6 +115,7 @@
         },
         {
             concept: "Infinity",
+            emoji: "🔁",
             translations: {
                 fr: { word: "infini", article: "l'", gender: "masculine" },
                 es: { word: "infinito", article: "el", gender: "masculine" },
@@ -120,6 +129,7 @@
         },
         {
             concept: "Consciousness",
+            emoji: "🧘",
             translations: {
                 fr: { word: "conscience", article: "la", gender: "feminine" },
                 es: { word: "conciencia", article: "la", gender: "feminine" },
@@ -129,11 +139,11 @@
                 el: { word: "συνείδηση", article: "η", gender: "feminine" },
                 br: { word: "emskiant", article: "ar", gender: "masculine" }
             },
-            explanation: "Latin 'conscientia' (f) gave feminine words to Romance languages. Greek 'συνείδηση' (f) is feminine. Russian 'сознание' ends in '-ие' and is neuter. German 'Bewusstsein' is neuter, substantivized from the " +
-                "infinitive 'sein'."
+            explanation: "Latin 'conscientia' (f) gave feminine words to Romance languages. Greek 'συνείδηση' (f) is feminine. Russian 'сознание' ends in '-ие' and is neuter. German 'Bewusstsein' is neuter, substantivized from the infinitive 'sein'."
         },
         {
             concept: "Illusion",
+            emoji: "🎭",
             translations: {
                 fr: { word: "illusion", article: "la", gender: "feminine" },
                 es: { word: "ilusión", article: "la", gender: "feminine" },
@@ -147,6 +157,7 @@
         },
         {
             concept: "Existence",
+            emoji: "🌱",
             translations: {
                 fr: { word: "existence", article: "la", gender: "feminine" },
                 es: { word: "existencia", article: "la", gender: "feminine" },
@@ -157,6 +168,90 @@
                 br: { word: "bezoud", article: "an", gender: "masculine" }
             },
             explanation: "Latin 'existentia' (f) gave feminine words to Romance languages. German 'Existenz' and Greek 'ύπαρξη' (f) are feminine. Russian 'существование' is neuter ending in '-ие'."
+        },
+        {
+            concept: "Cosmos",
+            emoji: "🌌",
+            translations: {
+                fr: { word: "cosmos", article: "le", gender: "masculine" },
+                es: { word: "cosmos", article: "el", gender: "masculine" },
+                it: { word: "cosmo", article: "il", gender: "masculine" },
+                de: { word: "Kosmos", article: "der", gender: "masculine" },
+                ru: { word: "космос", article: "", gender: "masculine" },
+                el: { word: "κόσμος", article: "ο", gender: "masculine" },
+                br: { word: "hollved", article: "ar", gender: "masculine" }
+            },
+            explanation: "From Ancient Greek 'kosmos' (m), meaning order/beauty/universe, which was preserved as masculine across French, Spanish, Italian ('cosmo'), German, Russian, Greek, and Breton!"
+        },
+        {
+            concept: "Zenith",
+            emoji: "⬆️",
+            translations: {
+                fr: { word: "zénith", article: "le", gender: "masculine" },
+                es: { word: "cénit", article: "el", gender: "masculine" },
+                it: { word: "zenit", article: "lo", gender: "masculine" },
+                de: { word: "Zenit", article: "der", gender: "masculine" },
+                ru: { word: "зенит", article: "", gender: "masculine" },
+                el: { word: "ζενίθ", article: "το", gender: "neuter" },
+                br: { word: "zenit", article: "ar", gender: "masculine" }
+            },
+            explanation: "Borrowed from Arabic 'samt' (path/direction), medieval scribes misread 'm' as 'ni', creating 'zenit'. It is treated as masculine in French, Spanish, Italian, German, Russian, and Breton. Greek treats it as an indeclinable neuter noun."
+        },
+        {
+            concept: "Nadir",
+            emoji: "⬇️",
+            translations: {
+                fr: { word: "nadir", article: "le", gender: "masculine" },
+                es: { word: "nadir", article: "el", gender: "masculine" },
+                it: { word: "nadir", article: "il", gender: "masculine" },
+                de: { word: "Nadir", article: "der", gender: "masculine" },
+                ru: { word: "надир", article: "", gender: "masculine" },
+                el: { word: "ναδίρ", article: "το", gender: "neuter" },
+                br: { word: "nadir", article: "ar", gender: "masculine" }
+            },
+            explanation: "Opposite of Zenith, also borrowed from Arabic 'nazir' (opposite). Like Zenith, it became masculine in Romance, Germanic, Slavic, and Breton, while Greek treats it as indeclinable neuter."
+        },
+        {
+            concept: "Apocalypse",
+            emoji: "☄️",
+            translations: {
+                fr: { word: "apocalypse", article: "l'", gender: "feminine" },
+                es: { word: "apocalipsis", article: "el", gender: "masculine" },
+                it: { word: "apocalisse", article: "l'", gender: "feminine" },
+                de: { word: "Apokalypse", article: "die", gender: "feminine" },
+                ru: { word: "апокалипсис", article: "", gender: "masculine" },
+                el: { word: "αποκάλυψη", article: "η", gender: "feminine" },
+                br: { word: "apokalips", article: "an", gender: "feminine" }
+            },
+            explanation: "Greek 'apokalupsis' (unveiling/revelation) was feminine, preserving feminine gender in French, Italian, German, Greek, and Breton. Spanish 'apocalipsis' shifted to masculine, as did Russian 'апокалипсис' due to its consonant ending."
+        },
+        {
+            concept: "Genesis",
+            emoji: "🥚",
+            translations: {
+                fr: { word: "genèse", article: "la", gender: "feminine" },
+                es: { word: "génesis", article: "el", gender: "masculine" },
+                it: { word: "genesi", article: "la", gender: "feminine" },
+                de: { word: "Genesis", article: "die", gender: "feminine" },
+                ru: { word: "генезис", article: "", gender: "masculine" },
+                el: { word: "γένεση", article: "η", gender: "feminine" },
+                br: { word: "genesiz", article: "ar", gender: "feminine" }
+            },
+            explanation: "Greek 'genesis' (birth/origin) was feminine. This is preserved in French ('genèse'), Italian, German, Greek, and Breton. Spanish ('génesis') and Russian ('генезис') shifted to masculine."
+        },
+        {
+            concept: "Void",
+            emoji: "⬛",
+            translations: {
+                fr: { word: "vide", article: "le", gender: "masculine" },
+                es: { word: "vacío", article: "el", gender: "masculine" },
+                it: { word: "vuoto", article: "il", gender: "masculine" },
+                de: { word: "Leere", article: "die", gender: "feminine" },
+                ru: { word: "пустота", article: "", gender: "feminine" },
+                el: { word: "κενό", article: "το", gender: "neuter" },
+                br: { word: "goullo", article: "ar", gender: "masculine" }
+            },
+            explanation: "Adjective-derived abstract nouns! Latin 'vocivus/vacuus' gave masculine 'vide/vacío/vuoto' in Romance. German 'Leere' (f) and Russian 'пустота' (f) are feminine. Greek 'κενό' is neuter."
         }
     ];
     window.genderGameData = window.genderGameData || {};

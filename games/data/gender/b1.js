@@ -3,6 +3,7 @@
     const data = [
         {
             concept: "City",
+            emoji: "🏙️",
             translations: {
                 fr: { word: "ville", article: "la", gender: "feminine" },
                 es: { word: "ciudad", article: "la", gender: "feminine" },
@@ -16,6 +17,7 @@
         },
         {
             concept: "Language / Tongue",
+            emoji: "🗣️",
             translations: {
                 fr: { word: "langue", article: "la", gender: "feminine" },
                 es: { word: "lengua", article: "la", gender: "feminine" },
@@ -29,6 +31,7 @@
         },
         {
             concept: "Bridge",
+            emoji: "🌉",
             translations: {
                 fr: { word: "pont", article: "le", gender: "masculine" },
                 es: { word: "puente", article: "el", gender: "masculine" },
@@ -42,6 +45,7 @@
         },
         {
             concept: "Heart",
+            emoji: "❤️",
             translations: {
                 fr: { word: "cœur", article: "le", gender: "masculine" },
                 es: { word: "corazón", article: "el", gender: "masculine" },
@@ -55,6 +59,7 @@
         },
         {
             concept: "Truth",
+            emoji: "⚖️",
             translations: {
                 fr: { word: "vérité", article: "la", gender: "feminine" },
                 es: { word: "verdad", article: "la", gender: "feminine" },
@@ -68,6 +73,7 @@
         },
         {
             concept: "Problem",
+            emoji: "🧩",
             translations: {
                 fr: { word: "problème", article: "le", gender: "masculine" },
                 es: { word: "problema", article: "el", gender: "masculine" },
@@ -81,6 +87,7 @@
         },
         {
             concept: "Sky",
+            emoji: "🌌",
             translations: {
                 fr: { word: "ciel", article: "le", gender: "masculine" },
                 es: { word: "cielo", article: "el", gender: "masculine" },
@@ -94,6 +101,7 @@
         },
         {
             concept: "Earth",
+            emoji: "🌍",
             translations: {
                 fr: { word: "terre", article: "la", gender: "feminine" },
                 es: { word: "tierra", article: "la", gender: "feminine" },
@@ -107,6 +115,7 @@
         },
         {
             concept: "Book",
+            emoji: "📖",
             translations: {
                 fr: { word: "livre", article: "le", gender: "masculine" },
                 es: { word: "libro", article: "el", gender: "masculine" },
@@ -120,6 +129,7 @@
         },
         {
             concept: "House",
+            emoji: "🏠",
             translations: {
                 fr: { word: "maison", article: "la", gender: "feminine" },
                 es: { word: "casa", article: "la", gender: "feminine" },
@@ -133,6 +143,7 @@
         },
         {
             concept: "River",
+            emoji: "🏞️",
             translations: {
                 fr: { word: "rivière", article: "la", gender: "feminine" },
                 es: { word: "río", article: "el", gender: "masculine" },
@@ -146,6 +157,7 @@
         },
         {
             concept: "Star",
+            emoji: "⭐",
             translations: {
                 fr: { word: "étoile", article: "l'", gender: "feminine" },
                 es: { word: "estrella", article: "la", gender: "feminine" },
@@ -156,6 +168,90 @@
                 br: { word: "steredenn", article: "ar", gender: "feminine" }
             },
             explanation: "Latin 'stella' was feminine, preserving feminine gender in Romance languages. German 'Stern' is masculine from Proto-Germanic '*sternō'. Russian 'звезда' is feminine. Greek 'αστέρι' is neuter. Breton 'steredenn' is feminine."
+        },
+        {
+            concept: "Silver",
+            emoji: "🥈",
+            translations: {
+                fr: { word: "argent", article: "l'", gender: "masculine" },
+                es: { word: "plata", article: "la", gender: "feminine" },
+                it: { word: "argento", article: "l'", gender: "masculine" },
+                de: { word: "Silber", article: "das", gender: "neuter" },
+                ru: { word: "серебро", article: "", gender: "neuter" },
+                el: { word: "ασήμι", article: "το", gender: "neuter" },
+                br: { word: "arc'hant", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'argentum' (silver) was neuter. Romance languages like French ('argent') and Italian ('argento') shifted it to masculine. Spanish 'plata' (derived from Vulgar Latin platea, 'sheet of metal') became feminine. German 'Silber' (n), Russian 'серебро' (n), and Greek 'ασήμι' (n) are neuter."
+        },
+        {
+            concept: "Gold",
+            emoji: "🪙",
+            translations: {
+                fr: { word: "or", article: "l'", gender: "masculine" },
+                es: { word: "oro", article: "el", gender: "masculine" },
+                it: { word: "oro", article: "l'", gender: "masculine" },
+                de: { word: "Gold", article: "das", gender: "neuter" },
+                ru: { word: "золото", article: "", gender: "neuter" },
+                el: { word: "χρυσός", article: "ο", gender: "masculine" },
+                br: { word: "aour", article: "an", gender: "masculine" }
+            },
+            explanation: "Latin 'aurum' was neuter, shifting to masculine 'or/oro' in Romance. German 'Gold' and Russian 'золото' are neuter. Greek 'χρυσός' is masculine."
+        },
+        {
+            concept: "Iron",
+            emoji: "⚙️",
+            translations: {
+                fr: { word: "fer", article: "le", gender: "masculine" },
+                es: { word: "hierro", article: "el", gender: "masculine" },
+                it: { word: "ferro", article: "il", gender: "masculine" },
+                de: { word: "Eisen", article: "das", gender: "neuter" },
+                ru: { word: "железо", article: "", gender: "neuter" },
+                el: { word: "σίδερο", article: "το", gender: "neuter" },
+                br: { word: "houarn", article: "an", gender: "masculine" }
+            },
+            explanation: "Latin 'ferrum' (iron) was neuter, becoming masculine 'fer/hierro/ferro' in Romance. German 'Eisen', Russian 'железо', and Greek 'σίδερο' are neuter."
+        },
+        {
+            concept: "Window",
+            emoji: "🪟",
+            translations: {
+                fr: { word: "fenêtre", article: "la", gender: "feminine" },
+                es: { word: "ventana", article: "la", gender: "feminine" },
+                it: { word: "finestra", article: "la", gender: "feminine" },
+                de: { word: "Fenster", article: "das", gender: "neuter" },
+                ru: { word: "окно", article: "", gender: "neuter" },
+                el: { word: "παράθυρο", article: "το", gender: "neuter" },
+                br: { word: "prenestr", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'fenestra' was feminine, preserving feminine gender in Romance. German 'Fenster' is neuter (borrowed from Latin). Russian 'окно' and Greek 'παράθυρο' are neuter."
+        },
+        {
+            concept: "Door",
+            emoji: "🚪",
+            translations: {
+                fr: { word: "porte", article: "la", gender: "feminine" },
+                es: { word: "puerta", article: "la", gender: "feminine" },
+                it: { word: "porta", article: "la", gender: "feminine" },
+                de: { word: "Tür", article: "die", gender: "feminine" },
+                ru: { word: "дверь", article: "", gender: "feminine" },
+                el: { word: "πόρτα", article: "η", gender: "feminine" },
+                br: { word: "dor", article: "an", gender: "feminine" }
+            },
+            explanation: "Consistently feminine! Latin 'porta', German 'Tür', Russian 'дверь', Greek 'πόρτα', and Breton 'dor' are all feminine, showing incredibly high stability for this household threshold concept."
+        },
+        {
+            concept: "Key",
+            emoji: "🔑",
+            translations: {
+                fr: { word: "clé", article: "la", gender: "feminine" },
+                es: { word: "llave", article: "la", gender: "feminine" },
+                it: { word: "chiave", article: "la", gender: "feminine" },
+                de: { word: "Schlüssel", article: "der", gender: "masculine" },
+                ru: { word: "ключ", article: "", gender: "masculine" },
+                el: { word: "κλειδί", article: "το", gender: "neuter" },
+                br: { word: "alc'hwez", article: "an", gender: "masculine" }
+            },
+            explanation: "Latin 'clavis' was feminine, so Romance kept it feminine (French, Spanish, Italian). German 'Schlüssel' (m) and Russian 'ключ' (m) are masculine. Greek 'κλειδί' is neuter."
         }
     ];
     window.genderGameData = window.genderGameData || {};

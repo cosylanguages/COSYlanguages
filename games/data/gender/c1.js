@@ -3,6 +3,7 @@
     const data = [
         {
             concept: "Source / Origin",
+            emoji: "⛲",
             translations: {
                 fr: { word: "source", article: "la", gender: "feminine" },
                 es: { word: "origen", article: "el", gender: "masculine" },
@@ -16,6 +17,7 @@
         },
         {
             concept: "Art",
+            emoji: "🎨",
             translations: {
                 fr: { word: "art", article: "l'", gender: "masculine" },
                 es: { word: "arte", article: "el/la", gender: "both" },
@@ -29,6 +31,7 @@
         },
         {
             concept: "Nature",
+            emoji: "🌿",
             translations: {
                 fr: { word: "nature", article: "la", gender: "feminine" },
                 es: { word: "naturaleza", article: "la", gender: "feminine" },
@@ -42,6 +45,7 @@
         },
         {
             concept: "System",
+            emoji: "⚙️",
             translations: {
                 fr: { word: "système", article: "le", gender: "masculine" },
                 es: { word: "sistema", article: "el", gender: "masculine" },
@@ -55,6 +59,7 @@
         },
         {
             concept: "Space",
+            emoji: "🌌",
             translations: {
                 fr: { word: "espace", article: "l'", gender: "masculine" },
                 es: { word: "espacio", article: "el", gender: "masculine" },
@@ -68,6 +73,7 @@
         },
         {
             concept: "Voice",
+            emoji: "🗣️",
             translations: {
                 fr: { word: "voix", article: "la", gender: "feminine" },
                 es: { word: "voz", article: "la", gender: "feminine" },
@@ -81,6 +87,7 @@
         },
         {
             concept: "Age",
+            emoji: "⏳",
             translations: {
                 fr: { word: "âge", article: "l'", gender: "masculine" },
                 es: { word: "edad", article: "la", gender: "feminine" },
@@ -94,6 +101,7 @@
         },
         {
             concept: "Justice",
+            emoji: "⚖️",
             translations: {
                 fr: { word: "justice", article: "la", gender: "feminine" },
                 es: { word: "justicia", article: "la", gender: "feminine" },
@@ -107,6 +115,7 @@
         },
         {
             concept: "Reason",
+            emoji: "🧠",
             translations: {
                 fr: { word: "raison", article: "la", gender: "feminine" },
                 es: { word: "razón", article: "la", gender: "feminine" },
@@ -120,6 +129,7 @@
         },
         {
             concept: "Science",
+            emoji: "🔬",
             translations: {
                 fr: { word: "science", article: "la", gender: "feminine" },
                 es: { word: "ciencia", article: "la", gender: "feminine" },
@@ -133,6 +143,7 @@
         },
         {
             concept: "Music",
+            emoji: "🎵",
             translations: {
                 fr: { word: "musique", article: "la", gender: "feminine" },
                 es: { word: "música", article: "la", gender: "feminine" },
@@ -146,6 +157,7 @@
         },
         {
             concept: "Universe",
+            emoji: "🪐",
             translations: {
                 fr: { word: "univers", article: "l'", gender: "masculine" },
                 es: { word: "universo", article: "el", gender: "masculine" },
@@ -156,6 +168,90 @@
                 br: { word: "hollved", article: "an", gender: "masculine" }
             },
             explanation: "Latin 'universum' (neuter) became masculine 'univers/universo' in Romance. German keeps 'Universum' neuter. Greek 'σύμπαν' (literally 'all-together') is neuter. Russian 'вселенная' is feminine because it is historically a substantivized feminine adjective meaning 'the inhabited (world)'."
+        },
+        {
+            concept: "Liberty",
+            emoji: "🗽",
+            translations: {
+                fr: { word: "liberté", article: "la", gender: "feminine" },
+                es: { word: "libertad", article: "la", gender: "feminine" },
+                it: { word: "libertà", article: "la", gender: "feminine" },
+                de: { word: "Freiheit", article: "die", gender: "feminine" },
+                ru: { word: "свобода", article: "", gender: "feminine" },
+                el: { word: "ελευθερία", article: "η", gender: "feminine" },
+                br: { word: "frankiz", article: "ar", gender: "feminine" }
+            },
+            explanation: "Abstract concept of Liberty, personified as a goddess (Libertas), is universally feminine! Latin 'libertas' (f), German 'Freiheit' (f), Russian 'свобода' (f), Greek 'ελευθερία' (f), and Breton 'frankiz' (f) are all feminine."
+        },
+        {
+            concept: "Empire",
+            emoji: "👑",
+            translations: {
+                fr: { word: "empire", article: "l'", gender: "masculine" },
+                es: { word: "imperio", article: "el", gender: "masculine" },
+                it: { word: "impero", article: "l'", gender: "masculine" },
+                de: { word: "Reich", article: "das", gender: "neuter" },
+                ru: { word: "империя", article: "", gender: "feminine" },
+                el: { word: "αυτοκρατορία", article: "η", gender: "feminine" },
+                br: { word: "impalaeriezh", article: "an", gender: "feminine" }
+            },
+            explanation: "Latin 'imperium' was neuter, shifting to masculine in French, Spanish, and Italian. German 'Reich' is neuter. Russian 'империя' is feminine, as is Greek 'αυτοκρατορία' and Breton 'impalaeriezh' (due to its feminine abstract suffix)."
+        },
+        {
+            concept: "Republic",
+            emoji: "🏛️",
+            translations: {
+                fr: { word: "république", article: "la", gender: "feminine" },
+                es: { word: "república", article: "la", gender: "feminine" },
+                it: { word: "repubblica", article: "la", gender: "feminine" },
+                de: { word: "Republik", article: "die", gender: "feminine" },
+                ru: { word: "республика", article: "", gender: "feminine" },
+                el: { word: "δημοκρατία", article: "η", gender: "feminine" },
+                br: { word: "republik", article: "ar", gender: "feminine" }
+            },
+            explanation: "Latin 'res publica' (public affair) was feminine, so the word is consistently and beautifully feminine across all Romance languages, German, Russian, Greek ('δημοκρατία'), and Breton!"
+        },
+        {
+            concept: "Colony",
+            emoji: "🏝️",
+            translations: {
+                fr: { word: "colonie", article: "la", gender: "feminine" },
+                es: { word: "colonia", article: "la", gender: "feminine" },
+                it: { word: "colonia", article: "la", gender: "feminine" },
+                de: { word: "Kolonie", article: "die", gender: "feminine" },
+                ru: { word: "колония", article: "", gender: "feminine" },
+                el: { word: "αποικία", article: "η", gender: "feminine" },
+                br: { word: "trevadenn", article: "an", gender: "feminine" }
+            },
+            explanation: "Latin 'colonia' (f) preserves its feminine gender across all standard European families, including German 'Kolonie' (f), Russian 'колония' (f), Greek 'αποικία' (f), and Breton 'trevadenn' (f)."
+        },
+        {
+            concept: "Territory",
+            emoji: "🗺️",
+            translations: {
+                fr: { word: "territoire", article: "le", gender: "masculine" },
+                es: { word: "territorio", article: "el", gender: "masculine" },
+                it: { word: "territorio", article: "il", gender: "masculine" },
+                de: { word: "Territorium", article: "das", gender: "neuter" },
+                ru: { word: "территория", article: "", gender: "feminine" },
+                el: { word: "επικράτεια", article: "η", gender: "feminine" },
+                br: { word: "tiriad", article: "an", gender: "masculine" }
+            },
+            explanation: "Latin 'territorium' was neuter, shifting to masculine 'territoire/territorio' in Romance languages and 'tiriad' in Breton. German 'Territorium' is neuter. Russian 'территория' and Greek 'επικράτεια' (or 'έδαφος', which is neuter) are feminine."
+        },
+        {
+            concept: "Authority",
+            emoji: "🦁",
+            translations: {
+                fr: { word: "autorité", article: "l'", gender: "feminine" },
+                es: { word: "autoridad", article: "la", gender: "feminine" },
+                it: { word: "autorità", article: "l'", gender: "feminine" },
+                de: { word: "Autorität", article: "die", gender: "feminine" },
+                ru: { word: "авторитет", article: "", gender: "masculine" },
+                el: { word: "εξουσία", article: "η", gender: "feminine" },
+                br: { word: "aotrouniezh", article: "an", gender: "feminine" }
+            },
+            explanation: "Latin 'auctoritas' was feminine, giving feminine abstract nouns to French, Spanish, Italian, and German ('Autorität', f). Greek 'εξουσία' (f) and Breton 'aotrouniezh' (f) are also feminine. Russian 'авторитет' is masculine by phonetic consonant ending."
         }
     ];
     window.genderGameData = window.genderGameData || {};

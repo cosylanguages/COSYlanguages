@@ -3,6 +3,7 @@
     const data = [
         {
             concept: "Sea",
+            emoji: "🌊",
             translations: {
                 fr: { word: "mer", article: "la", gender: "feminine" },
                 es: { word: "mar", article: "el/la", gender: "both" },
@@ -16,6 +17,7 @@
         },
         {
             concept: "Wind",
+            emoji: "💨",
             translations: {
                 fr: { word: "vent", article: "le", gender: "masculine" },
                 es: { word: "viento", article: "el", gender: "masculine" },
@@ -29,6 +31,7 @@
         },
         {
             concept: "Bread",
+            emoji: "🍞",
             translations: {
                 fr: { word: "pain", article: "le", gender: "masculine" },
                 es: { word: "pan", article: "el", gender: "masculine" },
@@ -42,6 +45,7 @@
         },
         {
             concept: "Time",
+            emoji: "⏳",
             translations: {
                 fr: { word: "temps", article: "le", gender: "masculine" },
                 es: { word: "tiempo", article: "el", gender: "masculine" },
@@ -55,6 +59,7 @@
         },
         {
             concept: "Day",
+            emoji: "☀️",
             translations: {
                 fr: { word: "jour", article: "le", gender: "masculine" },
                 es: { word: "día", article: "el", gender: "masculine" },
@@ -68,6 +73,7 @@
         },
         {
             concept: "Night",
+            emoji: "🌙",
             translations: {
                 fr: { word: "nuit", article: "la", gender: "feminine" },
                 es: { word: "noche", article: "la", gender: "feminine" },
@@ -81,6 +87,7 @@
         },
         {
             concept: "Sun",
+            emoji: "🌟",
             translations: {
                 fr: { word: "soleil", article: "le", gender: "masculine" },
                 es: { word: "sol", article: "el", gender: "masculine" },
@@ -94,6 +101,7 @@
         },
         {
             concept: "Moon",
+            emoji: "🌒",
             translations: {
                 fr: { word: "lune", article: "la", gender: "feminine" },
                 es: { word: "luna", article: "la", gender: "feminine" },
@@ -107,6 +115,7 @@
         },
         {
             concept: "Fire",
+            emoji: "🔥",
             translations: {
                 fr: { word: "feu", article: "le", gender: "masculine" },
                 es: { word: "fuego", article: "el", gender: "masculine" },
@@ -120,6 +129,7 @@
         },
         {
             concept: "Water",
+            emoji: "💧",
             translations: {
                 fr: { word: "eau", article: "l'", gender: "feminine" },
                 es: { word: "agua", article: "el/la", gender: "feminine" },
@@ -133,6 +143,7 @@
         },
         {
             concept: "Tree",
+            emoji: "🌳",
             translations: {
                 fr: { word: "arbre", article: "l'", gender: "masculine" },
                 es: { word: "árbol", article: "el", gender: "masculine" },
@@ -146,6 +157,7 @@
         },
         {
             concept: "Mountain",
+            emoji: "⛰️",
             translations: {
                 fr: { word: "montagne", article: "la", gender: "feminine" },
                 es: { word: "montaña", article: "la", gender: "feminine" },
@@ -156,6 +168,90 @@
                 br: { word: "menez", article: "ar", gender: "masculine" }
             },
             explanation: "Vulgar Latin 'montanea' (mountainous region) was feminine, leading to feminine 'montagne', 'montaña', and 'montagna' in Romance languages. German 'Berg' is masculine from Proto-Germanic '*bergaz'. Russian 'гора' is feminine. Greek 'βουνό' is neuter. Breton 'menez' is masculine."
+        },
+        {
+            concept: "Stone",
+            emoji: "🪨",
+            translations: {
+                fr: { word: "pierre", article: "la", gender: "feminine" },
+                es: { word: "piedra", article: "la", gender: "feminine" },
+                it: { word: "pietra", article: "la", gender: "feminine" },
+                de: { word: "Stein", article: "der", gender: "masculine" },
+                ru: { word: "камень", article: "", gender: "masculine" },
+                el: { word: "πέτρα", article: "η", gender: "feminine" },
+                br: { word: "maen", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'petra' was feminine, preserving feminine gender in Romance languages. German 'Stein' is masculine from Proto-Germanic '*stainaz'. Russian 'камень' is masculine. Greek 'πέτρα' has been feminine since ancient times."
+        },
+        {
+            concept: "Dog",
+            emoji: "🐕",
+            translations: {
+                fr: { word: "chien", article: "le", gender: "masculine" },
+                es: { word: "perro", article: "el", gender: "masculine" },
+                it: { word: "cane", article: "il", gender: "masculine" },
+                de: { word: "Hund", article: "der", gender: "masculine" },
+                ru: { word: "собака", article: "", gender: "feminine" },
+                el: { word: "σκύλος", article: "ο", gender: "masculine" },
+                br: { word: "ki", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'canis' was masculine/feminine, but standard Romance words default to masculine. German 'Hund' is masculine from Proto-Germanic '*hundaz'. Russian 'собака' is feminine. Greek 'σκύλος' is masculine."
+        },
+        {
+            concept: "Cat",
+            emoji: "🐈",
+            translations: {
+                fr: { word: "chat", article: "le", gender: "masculine" },
+                es: { word: "gato", article: "el", gender: "masculine" },
+                it: { word: "gatto", article: "il", gender: "masculine" },
+                de: { word: "Katze", article: "die", gender: "feminine" },
+                ru: { word: "кошка", article: "", gender: "feminine" },
+                el: { word: "γάτα", article: "η", gender: "feminine" },
+                br: { word: "kazh", article: "ar", gender: "masculine" }
+            },
+            explanation: "Late Latin 'catus' (m) gave masculine words to French, Spanish, Italian, and Breton. However, German 'Katze', Russian 'кошка' and Greek 'γάτα' default to the feminine form for the general species, showing interesting split biological defaults!"
+        },
+        {
+            concept: "Horse",
+            emoji: "🐎",
+            translations: {
+                fr: { word: "cheval", article: "le", gender: "masculine" },
+                es: { word: "caballo", article: "el", gender: "masculine" },
+                it: { word: "cavallo", article: "il", gender: "masculine" },
+                de: { word: "Pferd", article: "das", gender: "neuter" },
+                ru: { word: "лошадь", article: "", gender: "feminine" },
+                el: { word: "άλογο", article: "το", gender: "neuter" },
+                br: { word: "marc'h", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'caballus' (pack-horse) was masculine, preserving masculine gender in Romance. German 'Pferd' is neuter from Latin 'paraveredus' (post-horse). Russian 'лошадь' is feminine (third declension). Greek 'άλογο' is neuter (meaning 'unreasonable/mute animal')."
+        },
+        {
+            concept: "Flower",
+            emoji: "🌸",
+            translations: {
+                fr: { word: "fleur", article: "la", gender: "feminine" },
+                es: { word: "flor", article: "la", gender: "feminine" },
+                it: { word: "fiore", article: "il", gender: "masculine" },
+                de: { word: "Blume", article: "die", gender: "feminine" },
+                ru: { word: "цветок", article: "", gender: "masculine" },
+                el: { word: "λουλούδι", article: "το", gender: "neuter" },
+                br: { word: "bleunienn", article: "ar", gender: "feminine" }
+            },
+            explanation: "Latin 'flos' was masculine, which Italian preserved as 'fiore' (m). French 'fleur' and Spanish 'flor' shifted to feminine. German 'Blume' is feminine from Proto-Germanic '*blōmô'. Russian 'цветок' is masculine. Greek 'λουλούδι' is neuter."
+        },
+        {
+            concept: "Rain",
+            emoji: "🌧️",
+            translations: {
+                fr: { word: "pluie", article: "la", gender: "feminine" },
+                es: { word: "lluvia", article: "la", gender: "feminine" },
+                it: { word: "pioggia", article: "la", gender: "feminine" },
+                de: { word: "Regen", article: "der", gender: "masculine" },
+                ru: { word: "дождь", article: "", gender: "masculine" },
+                el: { word: "βροχή", article: "η", gender: "feminine" },
+                br: { word: "glav", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'pluvia' was feminine, preserving feminine gender in Romance. German 'Regen' and Russian 'дождь' are masculine. Greek 'βροχή' is feminine."
         }
     ];
     window.genderGameData = window.genderGameData || {};

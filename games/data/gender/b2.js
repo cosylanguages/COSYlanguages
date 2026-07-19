@@ -3,6 +3,7 @@
     const data = [
         {
             concept: "Death",
+            emoji: "💀",
             translations: {
                 fr: { word: "mort", article: "la", gender: "feminine" },
                 es: { word: "muerte", article: "la", gender: "feminine" },
@@ -16,6 +17,7 @@
         },
         {
             concept: "Freedom",
+            emoji: "🗽",
             translations: {
                 fr: { word: "liberté", article: "la", gender: "feminine" },
                 es: { word: "libertad", article: "la", gender: "feminine" },
@@ -29,6 +31,7 @@
         },
         {
             concept: "Love",
+            emoji: "💖",
             translations: {
                 fr: { word: "amour", article: "l'", gender: "masculine" },
                 es: { word: "amor", article: "el", gender: "masculine" },
@@ -42,6 +45,7 @@
         },
         {
             concept: "Peace",
+            emoji: "🕊️",
             translations: {
                 fr: { word: "paix", article: "la", gender: "feminine" },
                 es: { word: "paz", article: "la", gender: "feminine" },
@@ -55,6 +59,7 @@
         },
         {
             concept: "Law",
+            emoji: "⚖️",
             translations: {
                 fr: { word: "loi", article: "la", gender: "feminine" },
                 es: { word: "ley", article: "la", gender: "feminine" },
@@ -68,6 +73,7 @@
         },
         {
             concept: "Shadow",
+            emoji: "👤",
             translations: {
                 fr: { word: "ombre", article: "l'", gender: "feminine" },
                 es: { word: "sombra", article: "la", gender: "feminine" },
@@ -81,6 +87,7 @@
         },
         {
             concept: "World",
+            emoji: "🌍",
             translations: {
                 fr: { word: "monde", article: "le", gender: "masculine" },
                 es: { word: "mundo", article: "el", gender: "masculine" },
@@ -94,6 +101,7 @@
         },
         {
             concept: "Dream",
+            emoji: "💭",
             translations: {
                 fr: { word: "rêve", article: "le", gender: "masculine" },
                 es: { word: "sueño", article: "el", gender: "masculine" },
@@ -107,6 +115,7 @@
         },
         {
             concept: "Memory",
+            emoji: "🧠",
             translations: {
                 fr: { word: "mémoire", article: "la", gender: "feminine" },
                 es: { word: "memoria", article: "la", gender: "feminine" },
@@ -120,6 +129,7 @@
         },
         {
             concept: "Journey",
+            emoji: "🧳",
             translations: {
                 fr: { word: "voyage", article: "le", gender: "masculine" },
                 es: { word: "viaje", article: "el", gender: "masculine" },
@@ -133,6 +143,7 @@
         },
         {
             concept: "Light",
+            emoji: "💡",
             translations: {
                 fr: { word: "lumière", article: "la", gender: "feminine" },
                 es: { word: "luz", article: "la", gender: "feminine" },
@@ -146,6 +157,7 @@
         },
         {
             concept: "Mind / Spirit",
+            emoji: "👻",
             translations: {
                 fr: { word: "esprit", article: "l'", gender: "masculine" },
                 es: { word: "espíritu", article: "el", gender: "masculine" },
@@ -156,6 +168,90 @@
                 br: { word: "spered", article: "ar", gender: "masculine" }
             },
             explanation: "Latin 'spiritus' was masculine, preserving masculine gender in Romance. German 'Geist' and Russian 'дух' are masculine. Greek 'πνεύμα' is neuter due to the '-μα' suffix."
+        },
+        {
+            concept: "Mirror",
+            emoji: "🪞",
+            translations: {
+                fr: { word: "miroir", article: "le", gender: "masculine" },
+                es: { word: "espejo", article: "el", gender: "masculine" },
+                it: { word: "specchio", article: "lo", gender: "masculine" },
+                de: { word: "Spiegel", article: "der", gender: "masculine" },
+                ru: { word: "зеркало", article: "", gender: "neuter" },
+                el: { word: "καθρέφτης", article: "ο", gender: "masculine" },
+                br: { word: "melezour", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'speculum' was neuter, shifting to masculine in Romance ('miroir', 'espejo', 'specchio'). German 'Spiegel' is masculine. Russian 'зеркало' is neuter. Greek 'καθρέφτης' is masculine."
+        },
+        {
+            concept: "Secret",
+            emoji: "🤫",
+            translations: {
+                fr: { word: "secret", article: "le", gender: "masculine" },
+                es: { word: "secreto", article: "el", gender: "masculine" },
+                it: { word: "segreto", article: "il", gender: "masculine" },
+                de: { word: "Geheimnis", article: "das", gender: "neuter" },
+                ru: { word: "секрет", article: "", gender: "masculine" },
+                el: { word: "μυστικό", article: "το", gender: "neuter" },
+                br: { word: "sekred", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'secretum' was neuter, shifting to masculine in French, Spanish, Italian, Russian, and Breton. German 'Geheimnis' is neuter due to the '-nis' suffix. Greek 'μυστικό' is neuter."
+        },
+        {
+            concept: "Ocean",
+            emoji: "🌊",
+            translations: {
+                fr: { word: "océan", article: "l'", gender: "masculine" },
+                es: { word: "océano", article: "el", gender: "masculine" },
+                it: { word: "oceano", article: "l'", gender: "masculine" },
+                de: { word: "Ozean", article: "der", gender: "masculine" },
+                ru: { word: "океан", article: "", gender: "masculine" },
+                el: { word: "ωκεανός", article: "ο", gender: "masculine" },
+                br: { word: "meurvor", article: "ar", gender: "masculine" }
+            },
+            explanation: "Historically personified as the titan Oceanus in Greek mythology, the word 'ωκεανός' has always been masculine, which is perfectly preserved across French, Spanish, Italian, German, Russian, Greek, and Breton!"
+        },
+        {
+            concept: "Forest",
+            emoji: "🌲",
+            translations: {
+                fr: { word: "forêt", article: "la", gender: "feminine" },
+                es: { word: "bosque", article: "el", gender: "masculine" },
+                it: { word: "foresta", article: "la", gender: "feminine" },
+                de: { word: "Wald", article: "der", gender: "masculine" },
+                ru: { word: "лес", article: "", gender: "masculine" },
+                el: { word: "δάσος", article: "το", gender: "neuter" },
+                br: { word: "koad", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'forestis' (silva) shifted to feminine in French ('forêt') and Italian ('foresta'). Spanish 'bosque' (m), German 'Wald' (m), Russian 'лес' (m), and Breton 'koad' (m) are masculine. Greek 'δάσος' is neuter."
+        },
+        {
+            concept: "Ice",
+            emoji: "❄️",
+            translations: {
+                fr: { word: "glace", article: "la", gender: "feminine" },
+                es: { word: "hielo", article: "el", gender: "masculine" },
+                it: { word: "ghiaccio", article: "il", gender: "masculine" },
+                de: { word: "Eis", article: "das", gender: "neuter" },
+                ru: { word: "лёд", article: "", gender: "masculine" },
+                el: { word: "πάγος", article: "ο", gender: "masculine" },
+                br: { word: "skorn", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'glacies' (f) gave feminine 'glace' to French. Spanish 'hielo' and Italian 'ghiaccio' shifted to masculine. German 'Eis' is neuter. Russian 'лёд', Greek 'πάγος', and Breton 'skorn' are masculine."
+        },
+        {
+            concept: "Winter",
+            emoji: "☃️",
+            translations: {
+                fr: { word: "hiver", article: "l'", gender: "masculine" },
+                es: { word: "invierno", article: "el", gender: "masculine" },
+                it: { word: "inverno", article: "l'", gender: "masculine" },
+                de: { word: "Winter", article: "der", gender: "masculine" },
+                ru: { word: "зима", article: "", gender: "feminine" },
+                el: { word: "χειμώνας", article: "ο", gender: "masculine" },
+                br: { word: "goañv", article: "ar", gender: "masculine" }
+            },
+            explanation: "Latin 'hibernum' was neuter, shifting to masculine 'hiver/invierno/inverno' in Romance. German 'Winter', Greek 'χειμώνας', and Breton 'goañv' are masculine. Russian 'зима' is feminine."
         }
     ];
     window.genderGameData = window.genderGameData || {};
