@@ -205,9 +205,9 @@ def process_file(filepath):
 
 # List of files to process
 files_to_process = (
-    glob.glob('events/sessions/*.html') +
-    glob.glob('events/fr/sessions/*.html') +
-    glob.glob('events/ru/sessions/*.html') +
+    glob.glob('events/sessions/**/*.html', recursive=True) +
+    glob.glob('events/fr/sessions/**/*.html', recursive=True) +
+    glob.glob('events/ru/sessions/**/*.html', recursive=True) +
     glob.glob('templates/events/*.html')
 )
 

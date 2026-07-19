@@ -4,34 +4,34 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Session Title — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
 </head>
 <body>
 <nav id="cosy-nav"></nav>
-<header class="session-hero" style="background: linear-gradient(135deg, #BA7517, #5c390b);">
-  <div class="club-tag">Let's Celebrate</div>
+<header class="session-hero" style="background: linear-gradient(135deg, #FF9A8B, #FF6A88);">
+  <div class="club-tag">My Life With & Without</div>
   <h1>Session Title</h1>
-  <p class="session-date">Date</p>
+  <p class="session-date">DD Month YYYY</p>
 </header>
 <main class="content-container">
   <nav class="cosy-breadcrumbs">
-    <a href="../../">Home</a> <span class="sep">/</span>
-    <a href="../">Events</a> <span class="sep">/</span>
-    <a href="../lets-celebrate.html">Let's Celebrate</a> <span class="sep">/</span>
+    <a href="../../../">Home</a> <span class="sep">/</span>
+    <a href="../../">Events</a> <span class="sep">/</span>
+    <a href="../../my-life-with-without.html">My Life With/Without</a> <span class="sep">/</span>
     <span class="current">Session Title</span>
   </nav>
-  <a href="../lets-celebrate.html" class="back-link">← Back to Club</a>
+  <a href="../../my-life-with-without.html" class="back-link">← Back to Club</a>
   <div class="session-meta-grid">
     <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
     <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇪🇸 🇮🇹 🇷🇺</p></div>
-    <div class="meta-item"><h4>Level</h4><p>A1 – C2</p></div>
+    <div class="meta-item"><h4>Level</h4><p>B1 – C2</p></div>
     <div class="meta-item"><h4>Resources</h4><p>
       <a href="#" target="_blank" style="color:var(--teal); margin-right: 12px;">Link to Article 📖</a>
       <a href="#" target="_blank" style="color:var(--teal);">Link to Video 🎥</a>
@@ -40,7 +40,6 @@
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
     <p>Detailed 3-sentence description of the session goes here. The description must introduce the core theme, set the atmosphere, and mention key themes that will be explored.</p>
   </div>
-
   <section id="vocabulary">
     <h2 class="section-title">📖 Session Vocabulary</h2>
 
@@ -52,7 +51,7 @@
     </div>
 
     <div class="vocab-grid-10">
-      <!-- Vocabulary Cards placeholder -->
+      <!-- 10 units required. Format: Word – definition. Example: Sentence. -->
       <div class="vocab-card"><div class="vocab-word">Word 1</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 1', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
       <div class="vocab-card"><div class="vocab-word">Word 2</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 2', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
       <div class="vocab-card"><div class="vocab-word">Word 3</div><div class="vocab-def">definition.</div><div class="vocab-example">Example sentence.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Word 3', definition:'definition.', example:'Example sentence.'}, this)">Add to Dictionary</button></div>
@@ -73,16 +72,31 @@
           <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <!-- Warm-up Content -->
+          <div class="vim-instruction">Personal hook or anecdotal entry into the topic.</div>
+          <ul class="round-questions">
+            <li>Question 1?</li>
+            <li>Question 2?</li>
+          </ul>
         </div>
       </div>
       <div class="round-block round-1 open" id="s-r1">
         <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
+          <span>🔵 Round 1 — Personal Depth</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Quiz / Discussion</div>
-          <!-- Round 1 Items -->
+          <div class="round-type-badge">Narrative</div>
+          <div class="vim-instruction">10 items required. Use .round-item-main and .round-item-personal.</div>
+          <!-- 10 round items -->
+          <div class="round-item"><div class="round-item-main">Experience 1?</div><div class="round-item-personal">★ Personal application 1?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 2?</div><div class="round-item-personal">★ Personal application 2?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 3?</div><div class="round-item-personal">★ Personal application 3?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 4?</div><div class="round-item-personal">★ Personal application 4?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 5?</div><div class="round-item-personal">★ Personal application 5?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 6?</div><div class="round-item-personal">★ Personal application 6?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 7?</div><div class="round-item-personal">★ Personal application 7?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 8?</div><div class="round-item-personal">★ Personal application 8?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 9?</div><div class="round-item-personal">★ Personal application 9?</div></div>
+          <div class="round-item"><div class="round-item-main">Experience 10?</div><div class="round-item-personal">★ Personal application 10?</div></div>
         </div>
       </div>
       <div class="round-block lst open" id="s-lst">
@@ -90,16 +104,27 @@
           <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <!-- LST Content -->
+          <p class="round-note">Interactive comparison or "life swap" activity.</p>
         </div>
       </div>
       <div class="round-block round-2 open" id="s-r2">
         <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Agree or Disagree: The Future</span><span class="round-toggle">▲</span>
+          <span>🟢 Round 2 — Speculative Analysis</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Debate</div>
-          <!-- Round 2 Items -->
+          <div class="round-type-badge">Projections</div>
+          <div class="vim-instruction">10 items required. Imagine life WITHOUT the topic.</div>
+          <!-- 10 round items -->
+          <div class="round-item"><div class="round-item-main">Scenario 1</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 2</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 3</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 4</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 5</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 6</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 7</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 8</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 9</div></div>
+          <div class="round-item"><div class="round-item-main">Scenario 10</div></div>
         </div>
       </div>
       <div class="mistake-block open" id="s-mistakes">
@@ -146,18 +171,18 @@
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
   </div>
   <p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
-<script src="../../js/data/languages.js"></script>
-<script src="../../js/core/engine.js"></script>
-<script src="../../js/core/i18n.js"></script>
-<script src="../../js/core/ui.js"></script>
-<script src="../../js/data/pricing.js"></script>
-<script src="../../js/config.js"></script>
+<script src="../../../js/data/languages.js"></script>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/i18n.js"></script>
+<script src="../../../js/core/ui.js"></script>
+<script src="../../../js/data/pricing.js"></script>
+<script src="../../../js/config.js"></script>
 </body>
 </html>

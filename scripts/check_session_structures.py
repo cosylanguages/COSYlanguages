@@ -6,25 +6,26 @@ def check_sessions():
     session_dir = 'events/sessions'
     results = []
 
-    for filename in os.listdir(session_dir):
-        if not filename.endswith('.html') or filename.startswith('template'):
-            continue
+    for root, dirs, files in os.walk(session_dir):
+        for filename in files:
+            if not filename.endswith('.html') or filename.startswith('template'):
+                continue
 
-        filepath = os.path.join(session_dir, filename)
-        with open(filepath, 'r', encoding='utf-8') as f:
-            soup = BeautifulSoup(f, 'html.parser')
+            filepath = os.path.join(root, filename)
+            with open(filepath, 'r', encoding='utf-8') as f:
+                soup = BeautifulSoup(f, 'html.parser')
 
-            club_tag_div = soup.find('div', class_='club-tag')
-            club_tag = club_tag_div.get_text(strip=True) if club_tag_div else "MISSING"
+                club_tag_div = soup.find('div', class_='club-tag')
+                club_tag = club_tag_div.get_text(strip=True) if club_tag_div else "MISSING"
 
-            round_headers = soup.find_all('div', class_='round-header')
-            headers_text = [h.get_text(strip=True).replace('▲', '').replace('▼', '').strip() for h in round_headers]
+                round_headers = soup.find_all('div', class_='round-header')
+                headers_text = [h.get_text(strip=True).replace('▲', '').replace('▼', '').strip() for h in round_headers]
 
-            results.append({
-                'file': filename,
-                'tag': club_tag,
-                'headers': headers_text
-            })
+                results.append({
+                    'file': os.path.relpath(filepath, session_dir),
+                    'tag': club_tag,
+                    'headers': headers_text
+                })
 
     # Sort by tag then filename
     results.sort(key=lambda x: (x['tag'], x['file']))
