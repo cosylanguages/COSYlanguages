@@ -36,6 +36,7 @@
       crossword:  { title:'Cosy Crossword 🧩',  meta:'Vocabulary · Solo' },
       bingo:      { title:'Lucky Numbers 🔢',   meta:'Puzzles · Solo or group' },
       etymology:  { title:'Etymology Explorer 📜', meta:'Vocabulary · History' },
+      gender:     { title:'What Gender Is It? ♀️♂️', meta:'Grammar & Etymology · Solo' },
     };
 
     /* ══════════════════════════════════════
@@ -418,6 +419,29 @@
                 <select class="styled-sel" id="s-lang" onchange="COSY_ENGINE.updateSetupState()">${LANG_OPTS}</select>
               </div>
               <button class="btn-start-game" onclick="COSY_ENGINE.startEtymology()">▶ Start game</button>
+            </div>`;
+        }
+        else if (id === 'gender') {
+          body.innerHTML = `
+            <div class="setup-screen">
+              <h2>What Gender Is It? ♀️♂️</h2>
+              <p>Practice grammatical genders in our gendered languages (French, Spanish, Italian, German, Russian, Greek, Breton) and learn the fascinating historical/linguistic reasons why they have them!</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level" onchange="COSY_ENGINE.updateSetupState()">${LEVEL_OPTS_ALL}</select>
+              </div>
+              <div class="setup-field"><label>Language</label>
+                <select class="styled-sel" id="s-lang">
+                  <option value="all">All Genders Mode 🌀</option>
+                  <option value="fr">French 🇫🇷</option>
+                  <option value="es">Spanish 🇪🇸</option>
+                  <option value="it">Italian 🇮🇹</option>
+                  <option value="de">German 🇩🇪</option>
+                  <option value="ru">Russian 🇷🇺</option>
+                  <option value="el">Greek 🇬🇷</option>
+                  <option value="br">Breton ⛵</option>
+                </select>
+              </div>
+              <button class="btn-start-game" onclick="COSY_ENGINE.startGender()">▶ Start game</button>
             </div>`;
         }
     }
@@ -1578,6 +1602,228 @@
             };
 
             showEtym();
+        },
+
+        async loadGenderData(level) {
+            const map = {
+                starter: 'a1',
+                elementary: 'a2',
+                intermediate: 'b1',
+                upper_intermediate: 'b2',
+                advanced: 'c1',
+                proficiency: 'c2'
+            };
+            const file = map[level] || 'a1';
+            if (window.genderGameData && window.genderGameData[level]) {
+                return window.genderGameData[level];
+            }
+            return new Promise((resolve) => {
+                const script = document.createElement('script');
+                const prefix = window.location.pathname.includes('/what_gender_is_it/') ? '../' : '';
+                script.src = `${prefix}data/gender/${file}.js`;
+                script.onload = () => {
+                    resolve(window.genderGameData ? window.genderGameData[level] : []);
+                };
+                script.onerror = () => {
+                    console.error("Failed to load gender data file:", script.src);
+                    resolve([]);
+                };
+                document.head.appendChild(script);
+            });
+        },
+
+        async startGender() {
+            const level = getLevelCode(document.getElementById('s-level')?.value);
+            const langVal = document.getElementById('s-lang')?.value || 'all';
+
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
+            const dataset = await COSY_ENGINE.loadGenderData(level);
+            if (!dataset || dataset.length === 0) {
+                renderNoContent('gender', langVal, level);
+                return;
+            }
+
+            body = document.getElementById('go-body');
+            const maxRounds = Math.min(10, dataset.length);
+            let questionCount = 0;
+            let sessionScore = 0;
+            const shuffledConcepts = shuffle(dataset);
+
+            const GENDER_LANGUAGES = [
+                { code: 'fr', native: 'French 🇫🇷' },
+                { code: 'es', native: 'Spanish 🇪🇸' },
+                { code: 'it', native: 'Italian 🇮🇹' },
+                { code: 'de', native: 'German 🇩🇪' },
+                { code: 'ru', native: 'Russian 🇷🇺' },
+                { code: 'el', native: 'Greek 🇬🇷' },
+                { code: 'br', native: 'Breton ⛵' }
+            ];
+            const NEUTER_LANGUAGES = ['de', 'ru', 'el'];
+
+            const showQuestion = () => {
+                if (questionCount >= maxRounds) {
+                    showEnd();
+                    return;
+                }
+
+                const conceptObj = shuffledConcepts[questionCount];
+                questionCount++;
+
+                let targetLangCode = langVal;
+                if (langVal === 'all') {
+                    const availableLangs = Object.keys(conceptObj.translations);
+                    targetLangCode = availableLangs[Math.floor(Math.random() * availableLangs.length)];
+                }
+
+                const trans = conceptObj.translations[targetLangCode];
+                const hasNeuter = NEUTER_LANGUAGES.includes(targetLangCode);
+                const targetLangObj = GENDER_LANGUAGES.find(l => l.code === targetLangCode);
+                const targetLangName = targetLangObj ? targetLangObj.native : targetLangCode.toUpperCase();
+
+                body.innerHTML = `
+                  <div class="score-bar">
+                    <div class="sb-item"><div class="sb-val" id="gender-score">${sessionScore}</div><div class="sb-lbl">Score</div></div>
+                    <div class="sb-item"><div class="sb-val">${questionCount}/${maxRounds}</div><div class="sb-lbl">Round</div></div>
+                  </div>
+                  <div class="game-card">
+                    <div class="game-label">What is the gender of this word in <strong>${targetLangName}</strong>?</div>
+                    <div class="concept-title" style="font-size: .85rem; color: var(--ink-muted); margin-top: .5rem; text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em;">Concept: ${conceptObj.concept}</div>
+                    <div class="gender-word" style="font-size: 2.2rem; font-weight: 800; color: var(--ink); margin: .75rem 0; font-family: 'Fraunces', serif; text-align: center;">
+                        ${trans.article ? `<span style="font-size: 1.2rem; color: var(--ink-faint); font-weight: 400; font-family: 'DM Sans', sans-serif; margin-right: 6px;">(${trans.article})</span>` : ''}${trans.word}
+                    </div>
+
+                    <div class="gender-options" style="display:flex; gap:10px; justify-content:center; margin:1rem 0;">
+                        <button class="btn-gender masculine-btn" data-gender="masculine" style="padding:10px 20px; font-weight:700; border-radius:20px; cursor:pointer; border:2px solid var(--border); background:white;">Masculine ♂️</button>
+                        <button class="btn-gender feminine-btn" data-gender="feminine" style="padding:10px 20px; font-weight:700; border-radius:20px; cursor:pointer; border:2px solid var(--border); background:white;">Feminine ♀️</button>
+                        ${hasNeuter ? `<button class="btn-gender neuter-btn" data-gender="neuter" style="padding:10px 20px; font-weight:700; border-radius:20px; cursor:pointer; border:2px solid var(--border); background:white;">Neuter ⚧️</button>` : ''}
+                    </div>
+
+                    <div class="feedback-bar" id="gender-fb"></div>
+
+                    <!-- Explanations & Reveals (initially hidden) -->
+                    <div id="reveal-area" style="display:none; text-align:left;">
+                        <div class="why-container" style="background:#f7fafc; border-left:4px solid var(--teal); padding:10px; border-radius:4px; margin-top:1rem;">
+                            <div class="why-title" style="font-size:.75rem; font-weight:800; text-transform:uppercase; color:var(--teal); margin-bottom:4px; letter-spacing:.05em;">💡 Why? (Historical & Linguistic Context)</div>
+                            <div class="why-text" style="font-size:.85rem; line-height:1.4; color:var(--ink);">${conceptObj.explanation}</div>
+                        </div>
+
+                        <div style="font-size: .75rem; font-weight: 800; text-transform: uppercase; color: var(--ink-muted); margin-top: 1rem; text-align: left; letter-spacing: 0.05em;">Genders in other languages:</div>
+                        <div class="gender-grid-reveal" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px; margin-top: 8px; border-top: 1px dashed var(--border); padding-top: 8px;">
+                            ${Object.entries(conceptObj.translations).map(([lang, info]) => {
+                                const lObj = GENDER_LANGUAGES.find(l => l.code === lang);
+                                const lName = lObj ? lObj.native.split(' ')[0] : lang.toUpperCase();
+                                const lEmoji = lObj ? lObj.native.split(' ').slice(-1)[0] : '🌐';
+                                let tagClass = '';
+                                if (info.gender === 'masculine') tagClass = 'background:#ebf8ff; color:#2b6cb0;';
+                                else if (info.gender === 'feminine') tagClass = 'background:#fff5f7; color:#b83280;';
+                                else if (info.gender === 'neuter') tagClass = 'background:#fffaf0; color:#c05621;';
+                                else tagClass = 'background:#f0fff4; color:#22543d;';
+
+                                return `
+                                    <div class="reveal-lang-card" style="background:var(--tan-light); border:1px solid var(--border); padding:6px; border-radius:6px; font-size:.75rem; text-align:center;">
+                                        <div class="reveal-lang-name" style="font-weight:700; font-size:.65rem; color:var(--ink-muted); margin-bottom:2px;">${lEmoji} ${lName}</div>
+                                        <div class="reveal-lang-word" style="font-family:'Fraunces',serif; font-weight:600; font-size:.85rem; color:var(--ink);">${info.article ? info.article + ' ' : ''}${info.word}</div>
+                                        <div class="reveal-lang-gender" style="font-size:.65rem; font-weight:700; margin-top:2px; padding:1px 4px; border-radius:8px; display:inline-block; ${tagClass}">${info.gender}</div>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+
+                    <div class="game-controls" style="margin-top: 1rem; display:flex; gap:10px; justify-content:center;">
+                      <button class="btn-g-primary" id="gender-next" style="display:none">Next Concept →</button>
+                      <button class="btn-g-danger" id="gender-reset">⬅ Exit</button>
+                    </div>
+                  </div>`;
+
+                // Add styling details dynamically for inline styles to avoid breaking layout
+                const styleEl = document.createElement('style');
+                styleEl.innerHTML = `
+                    .masculine-btn { border-color: #3182ce !important; color: #2b6cb0 !important; }
+                    .masculine-btn:hover:not(:disabled) { background: #ebf8ff !important; }
+                    .masculine-btn.correct-choice { background: #3182ce !important; color: white !important; border-color: #2b6cb0 !important; }
+
+                    .feminine-btn { border-color: #d53f8c !important; color: #b83280 !important; }
+                    .feminine-btn:hover:not(:disabled) { background: #fff5f7 !important; }
+                    .feminine-btn.correct-choice { background: #d53f8c !important; color: white !important; border-color: #b83280 !important; }
+
+                    .neuter-btn { border-color: #dd6b20 !important; color: #c05621 !important; }
+                    .neuter-btn:hover:not(:disabled) { background: #fffaf0 !important; }
+                    .neuter-btn.correct-choice { background: #dd6b20 !important; color: white !important; border-color: #c05621 !important; }
+
+                    .wrong-choice { background: #feb2b2 !important; border-color: #e53e3e !important; color: #9b2c2c !important; text-decoration: line-through !important; }
+                `;
+                body.appendChild(styleEl);
+
+                const optButtons = body.querySelectorAll('.btn-gender');
+                optButtons.forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        optButtons.forEach(b => b.disabled = true);
+                        const clickedGender = btn.dataset.gender;
+                        const isCorrect = (clickedGender === trans.gender) || (trans.gender === 'both');
+
+                        const fb = document.getElementById('gender-fb');
+                        const nextBtn = document.getElementById('gender-next');
+                        const revealArea = document.getElementById('reveal-area');
+
+                        if (nextBtn) nextBtn.style.display = 'inline-block';
+                        if (revealArea) revealArea.style.display = 'block';
+
+                        if (isCorrect) {
+                            btn.classList.add('correct-choice');
+                            if (fb) {
+                                fb.className = 'feedback-bar show ok';
+                                fb.innerHTML = `✓ <strong>Correct!</strong> It is grammatically <strong>${trans.gender}</strong>.`;
+                            }
+                            sessionScore += 10;
+                            document.getElementById('gender-score').textContent = sessionScore;
+                        } else {
+                            btn.classList.add('wrong-choice');
+                            optButtons.forEach(b => {
+                                if (b.dataset.gender === trans.gender) {
+                                    b.classList.add('correct-choice');
+                                }
+                            });
+                            if (fb) {
+                                fb.className = 'feedback-bar show bad';
+                                fb.innerHTML = `✗ <strong>Incorrect.</strong> It is grammatically <strong>${trans.gender}</strong>.`;
+                            }
+                        }
+                    });
+                });
+
+                document.getElementById('gender-next').onclick = showQuestion;
+                document.getElementById('gender-reset').onclick = () => {
+                    COSY_ENGINE.renderSetup('gender');
+                };
+            };
+
+            const showEnd = () => {
+                let rankTitle = "Gender Novice 🌱";
+                if (sessionScore >= 90) {
+                    rankTitle = "Linguistic Scholar 🧠🎓";
+                } else if (sessionScore >= 70) {
+                    rankTitle = "Grammar Champion 🏆";
+                } else if (sessionScore >= 40) {
+                    rankTitle = "Gender Adept ⚖️";
+                }
+
+                body.innerHTML = `
+                    <div class="setup-screen" style="text-align:center;">
+                      <h2>Gender Study Complete! 🎓</h2>
+                      <div class="final-score" style="font-size: 2.5rem; font-weight: 800; color: var(--teal); margin: 0.5rem 0;">${sessionScore} / ${maxRounds * 10}</div>
+                      <div style="font-size: 1.1rem; font-weight: 700; color: var(--coral); margin-bottom: 1.5rem;">Rank: ${rankTitle}</div>
+                      <p style="font-size:.85rem; line-height:1.4; color:var(--ink-muted); max-width:400px; margin:0 auto 1.5rem;">Fascinating, isn't it? Knowing grammatical gender helps with agreements and reveals deep historical links across languages.</p>
+                      <div style="display:flex; gap:10px; justify-content:center;">
+                        <button class="btn-g-primary" onclick="COSY_ENGINE.startGender()">Play Again ↺</button>
+                        <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('gender')">Setup ⬅</button>
+                      </div>
+                    </div>`;
+            };
+
+            showQuestion();
         },
 
         renderSetup: renderSetup
