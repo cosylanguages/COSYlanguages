@@ -35,7 +35,7 @@ test.describe('Karaoke Club Challenge Tabbed layout Verification', () => {
     await expect(page.locator('#vocabulary-je-taime-comme-je-taime')).toBeVisible();
   });
 
-  test('Crazy Ex-Girlfriend Challenge page should load with 4 tabs', async ({ page }) => {
+  test('Crazy Ex-Girlfriend Challenge page should load with 26 tabs', async ({ page }) => {
     await page.goto('http://localhost:8080/events/sessions/crazy-ex-girlfriend-challenge.html');
     await expect(page.locator('h1')).toContainText('Crazy Ex-Girlfriend Challenge');
 
@@ -43,11 +43,13 @@ test.describe('Karaoke Club Challenge Tabbed layout Verification', () => {
     await expect(page.locator('.session-meta-grid').first()).toContainText('90 minutes');
 
     const tabBtns = page.locator('.vim-tab-btn');
-    await expect(tabBtns).toHaveCount(4);
+    await expect(tabBtns).toHaveCount(26);
     await expect(tabBtns.nth(0)).toContainText('Love Kernels');
     await expect(tabBtns.nth(1)).toContainText("Let's Generalize About Men");
     await expect(tabBtns.nth(2)).toContainText('So Maternal');
     await expect(tabBtns.nth(3)).toContainText('Face Your Fears');
+    await expect(tabBtns.nth(4)).toContainText('Sexy Getting Ready Song');
+    await expect(tabBtns.nth(25)).toContainText("Eleven O'Clock");
 
     // Click on the 3rd tab (So Maternal)
     await tabBtns.nth(2).click();
