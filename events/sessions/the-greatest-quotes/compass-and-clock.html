@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Compass and the Clock — COSYlanguages</title>
+<link href="../../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../../css/tokens.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/components.css" rel="stylesheet"/>
+<link href="../../../css/layout.css" rel="stylesheet"/>
+<link href="../../../css/events.css" rel="stylesheet"/>
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #5D4037, #3E2723);">
+<div class="club-tag">The Greatest Quotes</div>
+<h1>The Compass and the Clock</h1>
+<p class="session-date">25 June 2025</p>
+</header>
+<main class="content-container">
+<nav class="cosy-breadcrumbs">
+<a href="../../../">Home</a> <span class="sep">/</span>
+<a href="../../">Events</a> <span class="sep">/</span>
+<a href="../../the-greatest-quotes.html">Quotes Club</a> <span class="sep">/</span>
+<span class="current">Compass &amp; Clock</span>
+</nav>
+<a class="back-link" href="../../the-greatest-quotes.html">← Back to Club</a>
+<div class="session-meta-grid">
+<div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+<div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇫🇷 🇪🇸 🇮🇹 🇷🇺</p></div>
+<div class="meta-item"><h4>Level</h4><p>Intermediate (B1)</p></div>
+<div class="meta-item"><h4>Quote</h4><p>“The compass was invented before the clock because direction was more important than how long it took to get there.”</p></div>
+</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+<p>This session explores the powerful metaphor of the compass versus the clock, prioritizing purpose and direction over speed and efficiency. We will discuss the psychological impact of living in an increasingly fast-paced world where we often lose sight of our long-term goals. We will analyze how to regain a sense of direction in our personal and professional lives, even when the "clock" is constantly ticking.</p>
+</div>
+
+  <!-- PHILOSOPHERS' LEDGER INTERACTIVE CARD -->
+  <div class="philosophers-ledger" style="background: #FFFDF9; border: 2px solid #5D4037; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: var(--shadow-sm); font-family: 'Playfair Display', serif; font-style: italic; color: #3E2723;">
+    <h4 style="margin: 0 0 0.5rem; font-family: 'DM Sans', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #5D4037; font-style: normal; font-weight: 700;">☕ The Philosophers' Ledger: Café Debates</h4>
+    <p id="ledger-quote" style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1rem;">"Let us see how many interpretations exist! There is never only one correct answer to any profound human question." — Oscar Wilde</p>
+    <button class="btn-primary" id="ledger-next-btn" style="background: #5D4037; color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.8rem; font-family: 'DM Sans', sans-serif; font-style: normal; cursor: pointer; font-weight: 700; transition: background 0.2s;">Next Page in Ledger 📖</button>
+  </div>
+
+  <section id="vocabulary">
+<h2 class="section-title">📖 Session Vocabulary</h2>
+<div class="vocab-grid-10">
+<div class="vocab-card"><div class="vocab-word">Direction</div><div class="vocab-def">the path or course someone chooses to follow.</div><div class="vocab-example">Finding the right direction in life is often difficult.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Direction', definition:'the path or course someone chooses to follow.', example:'Finding the right direction in life is often difficult.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Destination</div><div class="vocab-def">the place where someone wants to arrive.</div><div class="vocab-example">Success may not be the final destination.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Destination', definition:'the place where someone wants to arrive.', example:'Success may not be the final destination.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Journey</div><div class="vocab-def">the process of traveling from one place to another.</div><div class="vocab-example">Personal growth is often a long journey.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Journey', definition:'the process of traveling from one place to another.', example:'Personal growth is often a long journey.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Purpose</div><div class="vocab-def">the reason for doing something.</div><div class="vocab-example">Having a clear purpose can motivate people.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Purpose', definition:'the reason for doing something.', example:'Having a clear purpose can motivate people.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Goal</div><div class="vocab-def">something a person wants to achieve.</div><div class="vocab-example">She worked hard to reach her goal.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Goal', definition:'something a person wants to achieve.', example:'She worked hard to reach her goal.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Progress</div><div class="vocab-def">movement toward a better situation or result.</div><div class="vocab-example">Small daily actions can lead to great progress.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Progress', definition:'movement toward a better situation or result.', example:'Small daily actions can lead to great progress.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Priority</div><div class="vocab-def">something considered more important than other things.</div><div class="vocab-example">Family is a priority for many people.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Priority', definition:'something considered more important than other things.', example:'Family is a priority for many people.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Meaningful</div><div class="vocab-def">important and valuable in a personal way.</div><div class="vocab-example">Many people want meaningful work.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Meaningful', definition:'important and valuable in a personal way.', example:'Many people want meaningful work.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Fulfillment</div><div class="vocab-def">a feeling of satisfaction from achieving something important.</div><div class="vocab-example">Helping others can bring fulfillment.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Fulfillment', definition:'a feeling of satisfaction from achieving something important.', example:'Helping others can bring fulfillment.'}, this)">Add to Dictionary</button></div>
+<div class="vocab-card"><div class="vocab-word">Path</div><div class="vocab-def">a way of living or developing.</div><div class="vocab-example">Everyone follows a different path in life.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Path', definition:'a way of living or developing.', example:'Everyone follows a different path in life.'}, this)">Add to Dictionary</button></div>
+</div>
+</section>
+<section id="structure">
+<h2 class="section-title">🎙️ Discussion Structure</h2>
+<div class="rounds-container">
+<div class="round-block warm-up open" id="s-warm">
+<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
+<span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="vim-instruction">Direction vs Speed</div>
+<ul class="round-questions">
+<li>What do you think was the inventor's main point with this quote?</li>
+<li>In your daily life, are you more focused on the "clock" (time/efficiency) or the "compass" (direction/purpose)?</li>
+</ul>
+</div>
+</div>
+<div class="round-block round-1 open" id="s-r1">
+<div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;">
+<span>🔵 Round 1 — General Discussion</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Interpretations</div>
+<div class="round-item"><div class="round-item-main">Is choosing the right direction in life more important than reaching success quickly?</div><div class="round-item-personal">★ Have you ever changed direction even though it meant delaying your goal?</div></div>
+<div class="round-item"><div class="round-item-main">Can a person enjoy the journey even if they never reach their original destination?</div><div class="round-item-personal">★ Has an unexpected change ever led you somewhere better than you planned?</div></div>
+<div class="round-item"><div class="round-item-main">Should adults regularly reconsider their purpose, or should they stay committed to one life path? (Consider the role of <strong>Journey</strong> here.)</div><div class="round-item-personal">★ Has your sense of purpose changed over the years?</div></div>
+<div class="round-item"><div class="round-item-main">Which deserves more attention: making continuous progress or achieving one major goal? (Consider the role of <strong>Purpose</strong> here.)</div><div class="round-item-personal">★ Are you someone who celebrates small progress or only big achievements?</div></div>
+<div class="round-item"><div class="round-item-main">Can someone have a successful career without finding fulfillment? (Consider the role of <strong>Goal</strong> here.)</div><div class="round-item-personal">★ What brings you more fulfillment: your work, your hobbies, or your relationships?</div></div>
+<div class="round-item"><div class="round-item-main">Should financial security always be the top priority, or can other priorities be more important? (Consider the role of <strong>Progress</strong> here.)</div><div class="round-item-personal">★ If you had complete financial freedom, what would become your biggest priority?</div></div>
+<div class="round-item"><div class="round-item-main">Is following your own path more difficult today because of social media and other people's expectations? (Consider the role of <strong>Priority</strong> here.)</div><div class="round-item-personal">★ Have you ever felt pressure to follow someone else's path instead of your own?</div></div>
+<div class="round-item"><div class="round-item-main">Is a meaningful life created by careful planning or by unexpected opportunities?</div><div class="round-item-personal">★ What unexpected opportunity has had the biggest impact on your life?</div></div>
+<div class="round-item"><div class="round-item-main">Does knowing your destination always help us make better decisions? (Consider the role of <strong>Fulfillment</strong> here.)</div><div class="round-item-personal">★ Do you usually plan several years ahead, or do you prefer adapting as life changes?</div></div>
+<div class="round-item"><div class="round-item-main">If you had to choose only one, would you rather always know the right direction or always know how much time it will take to reach your goal? (Consider the role of <strong>Path</strong> here.)</div><div class="round-item-personal">★ Which would reduce stress in your life more?</div></div>
+</div>
+</div>
+<div class="round-block lst open" id="s-lst">
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
+<span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<p class="round-note">Debate the following statement as a group:</p>
+<blockquote class="speak-quote" style="background:var(--bg); border-left:4px solid var(--indigo); padding:1rem; margin:1rem 0; font-style:italic;">"It is better to be lost on a beautiful path than to arrive at a destination that has no meaning."</blockquote>
+</div>
+</div>
+<div class="round-block round-2 open" id="s-r2">
+<div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;">
+<span>🟢 Round 2 — The Future: Agree or Disagree?</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="round-type-badge">Debate / Deep Dive</div>
+<div class="round-item"><div class="round-item-main">As AI becomes better at planning our lives, people will only focus on efficiency and stop asking about direction.</div></div>
+<div class="round-item"><div class="round-item-main">Future generations will reach more goals but experience less fulfillment because they didn't choose them. (How does <strong>Destination</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main">Society will eventually judge success solely by the speed of progress, regardless of purpose. (How does <strong>Journey</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main">Changing your life's path several times will be considered wiser than following one fixed direction forever. (How does <strong>Purpose</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main">Technology will tell us the fastest route but never answer where we should actually go. (How does <strong>Goal</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main">Choosing the right priority will become more difficult than solving practical problems as life becomes more comfortable. (How does <strong>Progress</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main">Endless progress without a clear purpose creates fundamentally unhappy people. (How does <strong>Priority</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main">Many people will realize too late that they climbed the wrong ladder because they never questioned their destination. (How does <strong>Meaningful</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main">The greatest achievement of the future will be helping people find a more meaningful direction in life. (How does <strong>Fulfillment</strong> affect this statement?)</div></div>
+<div class="round-item"><div class="round-item-main">A hundred years from now, the wisdom of the "compass" will be even more important than it is today. (How does <strong>Path</strong> affect this statement?)</div></div>
+</div>
+</div>
+<div class="mistake-block open" id="s-mistakes">
+<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+<span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+</div>
+<div class="mistake-body" style="display:block;">
+<div class="mistake-item"><span class="mistake-wrong">Finding a direction is a hard work</span><span class="mistake-arrow">→</span><span class="mistake-right">Finding a direction is hard work</span><span class="mistake-note-text">(Uncountable work)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">He give good advices</span><span class="mistake-arrow">→</span><span class="mistake-right">He gives good advice</span><span class="mistake-note-text">(Uncountable advice)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">If I will go there, I will be happy</span><span class="mistake-arrow">→</span><span class="mistake-right">If I go there, I will be happy</span><span class="mistake-note-text">(First conditional structure)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I prefer the compass than the clock</span><span class="mistake-arrow">→</span><span class="mistake-right">I prefer the compass to the clock</span><span class="mistake-note-text">(Prefer A to B)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">I am agree with you</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree with you</span><span class="mistake-note-text">(Verb agreement)</span></div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../../../js/core/engine.js"></script>
+
+<script src="../../../js/core/ui.js"></script>
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const quotes = [
+    '"Let us see how many interpretations exist! There is never only one correct answer." — Oscar Wilde',
+    '"To live is the rarest thing in the world. Most people exist, that is all." — Oscar Wilde',
+    '"The mystery of life is not a problem to be solved, but a reality to be experienced." — Alan Watts',
+    '"You have power over your mind - not outside events. Realize this, and you will find strength." — Marcus Aurelius'
+  ];
+  let index = 0;
+  const quoteText = document.getElementById('ledger-quote');
+  const nextBtn = document.getElementById('ledger-next-btn');
+
+  if (nextBtn && quoteText) {
+    nextBtn.addEventListener('click', () => {
+      index = (index + 1) % quotes.length;
+      quoteText.innerText = quotes[index];
+    });
+  }
+});
+</script>
+
+</body>
+</html>

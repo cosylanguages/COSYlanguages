@@ -60,7 +60,7 @@ test('vocabulary pronunciation button injection and playback', async ({ page }) 
 
 test('vocabulary pronunciation clean text formatting with oppositions and gender', async ({ page }) => {
   // Load a French session page with opposites ("≠") and gender markers
-  const filePath = `file://${path.resolve('events/fr/sessions/saudade.html')}`;
+  const filePath = `file://${path.resolve('events/fr/sessions/the-greatest-quotes/saudade.html')}`;
 
   await page.addInitScript(() => {
     window.speechSynthesisMockCalls = [];
