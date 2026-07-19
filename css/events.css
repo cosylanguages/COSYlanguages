@@ -125,6 +125,31 @@ vim-choice { margin-bottom: 1.5rem; }
 .btn-add-dict { background: none; border: 1px solid var(--border); border-radius: 6px; padding: 2px 8px; font-size: .7rem; cursor: pointer; color: var(--muted); margin-top: 5px; transition: all .2s; }
 .btn-add-dict:hover { background: var(--cream); border-color: var(--teal); color: var(--teal); }
 
+.btn-pronounce {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: var(--muted);
+  margin-left: 8px;
+  transition: all 0.2s ease;
+  vertical-align: middle;
+  padding: 0;
+  line-height: 1;
+}
+.btn-pronounce:hover {
+  background: var(--cream);
+  border-color: var(--teal);
+  color: var(--teal);
+  transform: scale(1.1);
+}
+
 /* ── Modular Session Pages ──────────────────────── */
 .session-hero { padding: 5rem 2rem; text-align: center; color: white; margin-bottom: 2rem; position: relative; overflow: hidden; }
 .session-hero::after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"); opacity: 0.05; pointer-events: none; }
@@ -236,7 +261,7 @@ vim-choice { margin-bottom: 1.5rem; }
 /* ── Print/PDF Styles ── */
 @media print {
   /* Hide interactive elements and navigation/footer */
-  nav, #cosy-nav, footer, .back-link, .cosy-breadcrumbs, .btn-add-dict, .btn-print, .round-toggle, .club-filters, .filter-btn, .vim-instruction, .btn-play-game {
+  nav, #cosy-nav, footer, .back-link, .cosy-breadcrumbs, .btn-add-dict, .btn-pronounce, .btn-print, .round-toggle, .club-filters, .filter-btn, .vim-instruction, .btn-play-game {
     display: none !important;
   }
 

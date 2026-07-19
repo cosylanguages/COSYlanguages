@@ -277,6 +277,61 @@
     customElements.define('vim-blockquote', VimBlockquote);
     customElements.define('vim-image', VimImage);
 
+    /* ─── VOCABULARY PRONUNCIATION ──────────────────────────────── */
+    const setupVocabPronunciation = () => {
+        const vocabWords = document.querySelectorAll('.vocab-word');
+        if (vocabWords.length === 0) return;
+
+        const docLang = document.documentElement.lang || 'en';
+        const langMap = {
+            'en': 'en-GB', 'fr': 'fr-FR', 'it': 'it-IT', 'ru': 'ru-RU', 'el': 'el-GR',
+            'es': 'es-ES', 'de': 'de-DE', 'pt': 'pt-PT', 'hy': 'hy-AM', 'ka': 'ka-GE',
+            'tt': 'ru-RU', 'ba': 'ru-RU', 'br': 'fr-FR'
+        };
+        const targetLang = langMap[docLang.toLowerCase()] || docLang || 'en-GB';
+
+        vocabWords.forEach(wordEl => {
+            if (wordEl.querySelector('.btn-pronounce')) return;
+
+            const originalText = wordEl.textContent.trim();
+            if (!originalText) return;
+
+            const btn = document.createElement('button');
+            btn.className = 'btn-pronounce';
+            btn.innerHTML = '🔊';
+            btn.title = 'Listen Pronunciation';
+            btn.setAttribute('aria-label', `Listen pronunciation of ${originalText}`);
+
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                speakVocab(originalText, targetLang);
+            });
+
+            wordEl.appendChild(btn);
+        });
+    };
+
+    const speakVocab = (text, langCode) => {
+        if (!window.speechSynthesis) return;
+        window.speechSynthesis.cancel();
+
+        // Clean up formatting indicators or brackets for clearer pronunciation
+        let cleanText = text.replace(/\((он|она|оно|они|м|ж|ср|м\/ж)\)/gi, '').trim();
+        cleanText = cleanText.replace(/\s*≠\s*/g, ', ').trim();
+
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        utterance.lang = langCode;
+
+        if (window.speechSynthesis.getVoices) {
+            const voices = window.speechSynthesis.getVoices();
+            let voice = voices.find(v => v.lang === langCode);
+            if (!voice) voice = voices.find(v => v.lang.startsWith(langCode.split('-')[0]));
+            if (voice) utterance.voice = voice;
+        }
+
+        window.speechSynthesis.speak(utterance);
+    };
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         setupHeaderShrink();
@@ -310,6 +365,7 @@
         window.updateMobileNav();
         window.updateDailyDose();
         if (window.COSY && window.COSY.renderDict) window.COSY.renderDict();
+        setupVocabPronunciation();
     };
 
     window.updateDailyDose = function() {
