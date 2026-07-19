@@ -881,5 +881,236 @@ If a bear runs at you in the woods,
 Don't run away.
 Look it deep in the eyes,
 Put your hand on its chest, and say “Bear, I'm not afraid!”"""
+    },
+    "im-afraid-of-americans": {
+        "helpers": ["America", "grocery", "stage", "cage", "plan"],
+        "lyrics": """Johnny's in [__________]
+Johnny wants to buy a car
+Johnny wants to buy a dog
+Johnny wants to buy a star
+Johnny's in America
+
+Johnny's in America
+Johnny's in a [__________] store
+Johnny's on a [__________]
+Johnny's got a brand new [__________]
+Johnny's in America
+
+I'm afraid of Americans
+I'm afraid of the world
+I'm afraid I can't help it
+I'm afraid of Americans
+I'm afraid of the world
+I'm afraid I can't help it
+I'm afraid of Americans
+
+God is an American
+
+Johnny's in America
+Johnny wants to be a man
+Johnny wants to be a god
+Johnny's got a [__________]
+Johnny's in America"""
+    },
+    "sexy-getting-ready-song": {
+        "helpers": ["ready", "crime", "shaving", "painful", "beautiful"],
+        "lyrics": """It's the sexy getting [__________] song
+Got to get ready for the night
+We're gonna do it right
+But look at the bathroom, it's a [__________] scene
+Waxing and plucking and [__________] my legs
+Gotta put on those [__________] spanx
+All this work just to look [__________]"""
+    },
+    "sex-with-a-stranger": {
+        "helpers": ["stranger", "dangerous", "game", "hotel", "alone"],
+        "lyrics": """Sex with a [__________]
+Is it hot or is it [__________]?
+I don't know your name
+But we're playing this [__________]
+In a [__________] room, far from home
+Hoping that I'm not entirely [__________]
+Underneath the flashing lights"""
+    },
+    "settle-for-me": {
+        "helpers": ["settle", "nice", "stable", "true", "search"],
+        "lyrics": """Yes, Greg is okay, but I am here
+Don't settle for him, [__________] for me
+I'm a [__________] guy, can't you see?
+My love is [__________], my heart is [__________]
+I will do anything for you
+So quit your [__________] and settle for me"""
+    },
+    "im-a-good-person": {
+        "helpers": ["person", "donate", "poor", "friendly", "nicest"],
+        "lyrics": """I'm a good [__________], yes it's true
+I do nice things for people like you
+I [__________] money and I help the [__________]
+I never lock my [__________] door
+I'm a good person, don't you forget
+The [__________] person you've ever met!"""
+    },
+    "whatll-it-be": {
+        "helpers": ["Covina", "lonely", "lies", "leave", "find"],
+        "lyrics": """What'll it be, what'll it be?
+Just another night in West [__________] for me
+Pouring drinks for [__________] guys
+Listening to their boring [__________]
+I want to [__________] this small town behind
+And [__________] the things I need to find"""
+    },
+    "sexy-french-depression": {
+        "helpers": ["depression", "melancholy", "wine", "stone", "crying"],
+        "lyrics": """In this sexy French [__________]
+I lie in bed with [__________] expression
+Eating croissants and drinking [__________]
+Pretending that everything is fine
+But my heart is heavy like a [__________]
+And I am [__________] here all alone"""
+    },
+    "wheres-the-bathroom": {
+        "helpers": ["bathroom", "dirty", "apartment", "pictures", "wash"],
+        "lyrics": """Where's the [__________], where's the door?
+I've never seen such a [__________] floor!
+Why is your [__________] so extremely small?
+There are no [__________] on the wall!
+I need to [__________] my hands right now
+Show me where to go and how"""
+    },
+    "women-gotta-stick-together": {
+        "helpers": ["together", "support", "journey", "rivalry", "unity"],
+        "lyrics": """Women gotta stick [__________], side by side
+Through every storm and rising tide
+We must [__________] each other's dreams
+No matter how hard the [__________] seems
+Forget the competition and the [__________]
+We are stronger in [__________]"""
+    },
+    "you-stupid-bitch": {
+        "helpers": ["ruined", "ring", "mess", "strife", "dying"],
+        "lyrics": """You stupid bitch, you [__________] everything
+You lost the love and the golden [__________]
+You made a [__________] of your simple life
+And caused so much unnecessary [__________]
+Now you are sitting in the dark and crying
+While your last hopes are slowly [__________]"""
+    },
+    "group-hang": {
+        "helpers": ["hang", "pressure", "dates", "conversations", "restaurant"],
+        "lyrics": """Let's go on a group [__________] tonight
+Just a bunch of friends, everything's right
+No romantic [__________], no awkward [__________]
+Just some good [__________] with our mates
+But we ended up at a Mexican [__________]
+Eating food we didn't really want"""
+    },
+    "im-the-villain-in-my-own-story": {
+        "helpers": ["villain", "glory", "witch", "castle", "abusing"],
+        "lyrics": """I'm the [__________] in my own story
+There is no triumph, there is no [__________]
+I am the [__________] who poisons the apple
+Standing inside this dark [__________]
+I thought I was the princess in the tower
+But I am the one [__________] the power"""
+    },
+    "oh-my-god-i-think-i-like-you": {
+        "helpers": ["feeling", "supposed", "number", "beating", "hide"],
+        "lyrics": """Oh my god, I think I like you
+This is a [__________] completely new
+We were just [__________] to have some fun
+But now you are my [__________] one
+My heart is [__________] so fast inside
+And there is nowhere left to [__________]"""
+    },
+    "after-everything-ive-done-for-you": {
+        "helpers": ["done", "direction", "affection", "face", "place"],
+        "lyrics": """After everything I've [__________] for you
+You treat me like I'm completely through?
+I helped you find your true [__________]
+And gave you all my warm [__________]
+But you throw it all back in my [__________]
+Leaving me in this lonely [__________]"""
+    },
+    "whos-the-new-guy": {
+        "helpers": ["office", "mysterious", "tribe", "investigate", "trouble"],
+        "lyrics": """Who's the new guy in our [__________] today?
+What is his name and what does he say?
+He has a strange and [__________] vibe
+That doesn't match our friendly [__________]
+Let's [__________] his past and career
+Before he causes any [__________] here"""
+    },
+    "a-diagnosis": {
+        "helpers": ["diagnosis", "neurosis", "label", "free", "supposed"],
+        "lyrics": """I just want a clear [__________]
+To explain all my mental [__________]
+Give me a [__________], give me a name
+So I can finally stop this game
+A diagnosis will set me [__________]
+And show me who I'm [__________] to be"""
+    },
+    "fit-hot-guys-have-problems-too": {
+        "helpers": ["problems", "perfect", "screen", "insecurities", "tears"],
+        "lyrics": """Fit hot guys have [__________] too
+We get sad just like you
+Our lives are not a [__________] dream
+Even if we look good on the [__________]
+We have [__________] and deep fears
+And sometimes we shed silent [__________]"""
+    },
+    "without-love-you-can-save-the-world": {
+        "helpers": ["love", "focus", "drama", "explore", "door"],
+        "lyrics": """Without [__________], you can save the world
+Keep your [__________] on the flag unfurled
+No romantic [__________], no broken hearts
+No crying in public in shopping carts
+You have so much free time to [__________]
+And open every single closed [__________]"""
+    },
+    "dont-be-a-lawyer": {
+        "helpers": ["lawyer", "greedy", "stress", "ceiling", "guidance"],
+        "lyrics": """Don't be a [__________], it's a terrible job
+You'll just work for a [__________] mob
+The hours are long, the [__________] is high
+You'll stare at the [__________] and ask why
+So follow your passion and do what you love
+And find your [__________] from above"""
+    },
+    "i-hate-everything-but-you": {
+        "helpers": ["crowded", "politician", "smiling", "place", "everything"],
+        "lyrics": """I hate the traffic, I hate the rain
+I hate the people on the [__________] train
+I hate the news, I hate the news feed
+And every greedy [__________]'s greed
+But when I look at your [__________] face
+I feel like I'm in a beautiful [__________]
+I hate [__________] but you"""
+    },
+    "antidepressants-are-so-not-a-big-deal": {
+        "helpers": ["deal", "heal", "day", "shame", "better"],
+        "lyrics": """Antidepressants are so not a big [__________]
+They just help your brain to [__________]
+A lot of people take them every [__________]
+To chase the gloomy shadows away
+There's no [__________] in getting some help
+To feel much [__________] about yourself"""
+    },
+    "slow-motion": {
+        "helpers": ["motion", "cool", "hair", "care", "heroes"],
+        "lyrics": """We're walking in slow [__________] now
+Looking extremely [__________] somehow
+The wind is blowing in our [__________]
+As we walk past without a [__________]
+In slow motion, we look so grand
+Like the coolest [__________] in the land"""
+    },
+    "eleven-oclock": {
+        "helpers": ["awake", "mistake", "decision", "fight", "answers"],
+        "lyrics": """It's eleven o'clock and I'm still [__________]
+Thinking about every single [__________]
+I need to make a [__________] tonight
+To put an end to this painful [__________]
+But my mind is spinning around and around
+And no clear [__________] can be found"""
     }
 }

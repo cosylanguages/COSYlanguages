@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Don't Be a Lawyer — COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>Don't Be a Lawyer</h1>
+  <p class="session-date">Rachel Bloom • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../">Home</a> <span class="sep">/</span>
+    <a href="../">Events</a> <span class="sep">/</span>
+    <a href="../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">Don't Be a Lawyer</span>
+  </nav>
+  <a href="../karaoke-club.html" class="back-link">← Back to Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>90–120 minutes</p></div>
+    <div class="meta-item"><h4>Variety/Language</h4><p>American English</p></div>
+    <div class="meta-item"><h4>Level</h4><p>Intermediate (B1)</p></div>
+    <div class="meta-item"><h4>Thematic Focus</h4><p>Career Advice & Pursuing Passion</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/watch?v=Xs-UEqJ85KE" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/watch?v=Xs-UEqJ85KE" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Theme: Career Advice & Pursuing Passion</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">We'll discuss:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Lawyer</li>
+      <li>Greedy</li>
+      <li>Stress</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (20%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (10%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Stage 1: Warm-up</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>How important is this discussion theme in your daily life?</li>
+            <li>Look at the title 'Don't Be a Lawyer' and the artist 'Rachel Bloom'. What do you predict this song is about? (Prediction question)</li>
+            <li>What kind of emotions does this style of music bring to you?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Stage 2: Vocabulary</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Core Concepts & Feelings</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">lawyer</div><div class="vocab-def">a person who practices or studies law; an attorney.</div><div class="vocab-example">The experienced lawyer gave them excellent advice on their business contract.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'lawyer', definition:'a person who practices or studies law; an attorney.', example:'The experienced lawyer gave them excellent advice on their business contract.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">greedy</div><div class="vocab-def">having or showing an intense and selfish desire for something, especially wealth or power.</div><div class="vocab-example">The greedy corporation prioritizes short-term profits over safety.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'greedy', definition:'having or showing an intense and selfish desire for something, especially wealth or power.', example:'The greedy corporation prioritizes short-term profits over safety.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">stress</div><div class="vocab-def">a state of mental or emotional strain or tension resulting from adverse or demanding circumstances.</div><div class="vocab-example">Learning breathing techniques can help you manage daily stress.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'stress', definition:'a state of mental or emotional strain or tension resulting from adverse or demanding circumstances.', example:'Learning breathing techniques can help you manage daily stress.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">ceiling</div><div class="vocab-def">the upper interior surface of a room or other similar compartment.</div><div class="vocab-example">The old church featured a magnificent ceiling decorated with frescoes.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'ceiling', definition:'the upper interior surface of a room or other similar compartment.', example:'The old church featured a magnificent ceiling decorated with frescoes.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">guidance</div><div class="vocab-def">advice or information aimed at resolving a problem or difficulty, especially as given by someone in authority.</div><div class="vocab-example">The young students benefited greatly from their mentor's wise guidance.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'guidance', definition:'advice or information aimed at resolving a problem or difficulty, especially as given by someone in authority.', example:'The young students benefited greatly from their mentor\'s wise guidance.'}, this)">+ Dictionary</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Stage 3: Listening</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Word Bank / Helpers:</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">lawyer</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">greedy</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">stress</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">ceiling</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">guidance</span>
+          </div>
+        </div>
+
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Don't be a [__________], it's a terrible job<br>You'll just work for a [__________] mob<br>The hours are long, the [__________] is high<br>You'll stare at the [__________] and ask why<br>So follow your passion and do what you love<br>And find your [__________] from above</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Stage 4: Discussion</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+          <div class="round-item"><div class="round-item-main">How does <strong>lawyer</strong> play a symbolic role in the storytelling of 'Don't Be a Lawyer'?</div><div class="round-item-personal">★ Do you personally feel that <strong>lawyer</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>greedy</strong> play a symbolic role in the storytelling of 'Don't Be a Lawyer'?</div><div class="round-item-personal">★ Do you personally feel that <strong>greedy</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>stress</strong> play a symbolic role in the storytelling of 'Don't Be a Lawyer'?</div><div class="round-item-personal">★ Do you personally feel that <strong>stress</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>ceiling</strong> play a symbolic role in the storytelling of 'Don't Be a Lawyer'?</div><div class="round-item-personal">★ Do you personally feel that <strong>ceiling</strong> is important?</div></div>
+          <div class="round-item"><div class="round-item-main">How does <strong>guidance</strong> play a symbolic role in the storytelling of 'Don't Be a Lawyer'?</div><div class="round-item-personal">★ Do you personally feel that <strong>guidance</strong> is important?</div></div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>lawyer</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>greedy</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>stress</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>ceiling</strong> is becoming nearly impossible.</div></div>
+          <div class="round-item"><div class="round-item-main">In our modern, high-tech world, maintaining a true sense of <strong>guidance</strong> is becoming nearly impossible.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Stage 5: Language Focus</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">The Modal Verb 'Must' for Obligation and Deduction</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">We use 'must' to express a strong obligation or a logical deduction directly from the lyrics.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">We must dare to make our own music.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">The song is so beautiful, she must be a great artist.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">You must listen carefully to fill in the missing gaps.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Stage 6: Final Challenge</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Imagine the sequel of this song: Role-play a conversation between the main characters 5 years later.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">There is a big improvement <span class="mistake-highlight">of</span> my English</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">There is a big improvement in my English</span>
+            <span class="mistake-note-text">(Use 'in' after 'improvement' to express domain.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">It was a great relief <span class="mistake-highlight">of</span> hearing the news</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">It was a great relief to hear the news</span>
+            <span class="mistake-note-text">(Use 'relief' + infinitive 'to hear'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">She is in the choir <span class="mistake-highlight">since</span> three years</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">She has been in the choir for three years</span>
+            <span class="mistake-note-text">(Use present perfect + 'for' to show duration of state.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>

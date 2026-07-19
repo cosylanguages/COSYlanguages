@@ -238,6 +238,98 @@ SONG_THEMES = {
     "to-idio-to-theo": {
         "en": "When Love Becomes Obsession",
         "el": "Όταν η αγάπη γίνεται εμμονή"
+    },
+    "im-afraid-of-americans": {
+        "en": "Cultural Assimilation & Anxiety",
+        "fr": "Assimilation culturelle & Anxiété"
+    },
+    "sexy-getting-ready-song": {
+        "en": "Social Expectations of Beauty",
+        "fr": "Attentes sociales de la beauté"
+    },
+    "sex-with-a-stranger": {
+        "en": "Intimacy & Safe Dating",
+        "fr": "Intimité & Rencontres sécurisées"
+    },
+    "settle-for-me": {
+        "en": "High Standards & Compromise",
+        "fr": "Normes élevées & Compromis"
+    },
+    "im-a-good-person": {
+        "en": "The Need for Social Approval",
+        "fr": "Le besoin d'approbation sociale"
+    },
+    "whatll-it-be": {
+        "en": "Escaping the Small Town Mentality",
+        "fr": "Échapper à la mentalité de province"
+    },
+    "sexy-french-depression": {
+        "en": "Emotional Melancholy & Escapism",
+        "fr": "Mélancolie émotionnelle & Échappatoire"
+    },
+    "wheres-the-bathroom": {
+        "en": "Parental Expectations & Boundaries",
+        "fr": "Attentes parentales & Limites"
+    },
+    "women-gotta-stick-together": {
+        "en": "Female Solidarity vs Rivalry",
+        "fr": "Solidarité féminine vs Rivalité"
+    },
+    "you-stupid-bitch": {
+        "en": "Self-Sabotage & Regret",
+        "fr": "Auto-sabotage & Regret"
+    },
+    "group-hang": {
+        "en": "The Awkwardness of Modern Socializing",
+        "fr": "La maladresse de la socialisation moderne"
+    },
+    "im-the-villain-in-my-own-story": {
+        "en": "Self-Perception & Moral Responsibility",
+        "fr": "Perception de soi & Responsabilité morale"
+    },
+    "oh-my-god-i-think-i-like-you": {
+        "en": "Vulnerability in New Relationships",
+        "fr": "Vulnérabilité dans les nouvelles relations"
+    },
+    "after-everything-ive-done-for-you": {
+        "en": "Unconditional Love & Hidden Agendas",
+        "fr": "Amour inconditionnel & Intentions cachées"
+    },
+    "whos-the-new-guy": {
+        "en": "Dealing with Sudden Change at Work",
+        "fr": "Faire face au changement soudain au travail"
+    },
+    "a-diagnosis": {
+        "en": "The Relief of Mental Health Labels",
+        "fr": "Le soulagement des étiquettes de santé mentale"
+    },
+    "fit-hot-guys-have-problems-too": {
+        "en": "Insecurity Behind the Perfect Image",
+        "fr": "L'insécurité derrière l'image parfaite"
+    },
+    "without-love-you-can-save-the-world": {
+        "en": "Romantic Isolation vs Global Impact",
+        "fr": "Isolation romantique vs Impact mondial"
+    },
+    "dont-be-a-lawyer": {
+        "en": "Career Advice & Pursuing Passion",
+        "fr": "Conseils de carrière & Poursuite de la passion"
+    },
+    "i-hate-everything-but-you": {
+        "en": "Coping with Modern Cynicism",
+        "fr": "Faire face au cynisme moderne"
+    },
+    "antidepressants-are-so-not-a-big-deal": {
+        "en": "Stigma & Mental Well-being",
+        "fr": "Stigmatisation & Bien-être mental"
+    },
+    "slow-motion": {
+        "en": "The Illusion of Confidence",
+        "fr": "L'illusion de la confiance"
+    },
+    "eleven-oclock": {
+        "en": "Overthinking & Decisive Moments",
+        "fr": "Surréflexion & Moments décisifs"
     }
 }
 
@@ -253,7 +345,15 @@ CHALLENGE_MAP = {
     "cass-elliot-challenge": ("make-your-own-kind-of-music", "its-getting-better"),
     "la-zarra-challenge": ("diva", "tu-ten-iras"),
     "kate-bush-challenge": ("army-dreamers", "oh-to-be-in-love"),
-    "crazy-ex-girlfriend-challenge": ("love-kernels", "lets-generalize-about-men", "so-maternal", "face-your-fears"),
+    "crazy-ex-girlfriend-challenge": (
+        "love-kernels", "lets-generalize-about-men", "so-maternal", "face-your-fears",
+        "sexy-getting-ready-song", "sex-with-a-stranger", "settle-for-me", "im-a-good-person",
+        "whatll-it-be", "sexy-french-depression", "wheres-the-bathroom", "women-gotta-stick-together",
+        "you-stupid-bitch", "group-hang", "im-the-villain-in-my-own-story", "oh-my-god-i-think-i-like-you",
+        "after-everything-ive-done-for-you", "whos-the-new-guy", "a-diagnosis", "fit-hot-guys-have-problems-too",
+        "without-love-you-can-save-the-world", "dont-be-a-lawyer", "i-hate-everything-but-you",
+        "antidepressants-are-so-not-a-big-deal", "slow-motion", "eleven-oclock"
+    ),
 }
 
 SONG_LINKS = {
@@ -313,7 +413,30 @@ SONG_LINKS = {
     "je-taime-comme-je-taime": "https://www.youtube.com/watch?v=zu9HiCSVyAg",
     "toutes-les-machines-ont-le-coeur": "https://www.youtube.com/watch?v=UVz3xR1X9RU",
     "one-of-the-greats": "https://www.youtube.com/results?search_query=one+of+the+greats+Florence+&+The+Machine",
-    "un-raggio-di-sole": "https://www.youtube.com/results?search_query=un+raggio+di+sole+Jovanotti"
+    "un-raggio-di-sole": "https://www.youtube.com/results?search_query=un+raggio+di+sole+Jovanotti",
+    "im-afraid-of-americans": "https://www.youtube.com/watch?v=u7APmRkatEU",
+    "sexy-getting-ready-song": "https://www.youtube.com/watch?v=ky-BYK-f154",
+    "sex-with-a-stranger": "https://www.youtube.com/watch?v=iH3FPrI_Cuw",
+    "settle-for-me": "https://www.youtube.com/watch?v=wmbLB4OIuao",
+    "im-a-good-person": "https://www.youtube.com/watch?v=O4hh1YhDfbA",
+    "whatll-it-be": "https://www.youtube.com/watch?v=HayIkHCXTBM",
+    "sexy-french-depression": "https://www.youtube.com/watch?v=H1DCoGCVUxY",
+    "wheres-the-bathroom": "https://www.youtube.com/watch?v=VJg1zRgkbno",
+    "women-gotta-stick-together": "https://www.youtube.com/watch?v=P6B-r3QQw9M",
+    "you-stupid-bitch": "https://www.youtube.com/watch?v=zgUKQCVieWM",
+    "group-hang": "https://www.youtube.com/watch?v=w7FC_EK44Rw",
+    "im-the-villain-in-my-own-story": "https://www.youtube.com/watch?v=UhzN7SfnNeY",
+    "oh-my-god-i-think-i-like-you": "https://www.youtube.com/watch?v=eeb0pFdwTBg",
+    "after-everything-ive-done-for-you": "https://www.youtube.com/watch?v=xtKtmXzeyqs",
+    "whos-the-new-guy": "https://www.youtube.com/watch?v=s638IMetB9I",
+    "a-diagnosis": "https://www.youtube.com/watch?v=uic_3vlI5BE",
+    "fit-hot-guys-have-problems-too": "https://www.youtube.com/watch?v=Dep0Fq6XnWQ",
+    "without-love-you-can-save-the-world": "https://www.youtube.com/watch?v=bc8R7fgXDN8",
+    "dont-be-a-lawyer": "https://www.youtube.com/watch?v=Xs-UEqJ85KE",
+    "i-hate-everything-but-you": "https://www.youtube.com/watch?v=6g8ajNob9z8",
+    "antidepressants-are-so-not-a-big-deal": "https://www.youtube.com/watch?v=OG6HZMMDEYA",
+    "slow-motion": "https://www.youtube.com/watch?v=tAC-J65S8dY",
+    "eleven-oclock": "https://www.youtube.com/watch?v=fH_8w7WAIyk"
 }
 
 # Translation / Localization resources for all 6 supported languages
@@ -621,6 +744,120 @@ OPPOSITES_MAP = {
     "Expectation": "Surprise",
     "Routine": "Novelty",
     "Reflection": "Absorption",
+
+    # New opposites for added songs
+    "America": "Foreign land",
+    "Grocery": "Restaurant",
+    "Stage": "Audience",
+    "Cage": "Wilderness",
+    "Plan": "Improvisation",
+    "Ready": "Unprepared",
+    "Crime": "Virtue",
+    "Shaving": "Growing hair",
+    "Beautiful": "Ugly",
+    "Stranger": "Friend",
+    "Dangerous": "Safe",
+    "Game": "Reality",
+    "Hotel": "Home",
+    "Alone": "Accompanied",
+    "Settle": "Rebel",
+    "Nice": "Mean",
+    "Stable": "Unstable",
+    "True": "False",
+    "Search": "Discovery",
+    "Person": "Object",
+    "Donate": "Hoard",
+    "Poor": "Wealthy",
+    "Friendly": "Hostile",
+    "Nicest": "Meanest",
+    "Covina": "Metropolis",
+    "Lonely": "Sociable",
+    "Lies": "Truth",
+    "Leave": "Arrive",
+    "Find": "Lose",
+    "Depression": "Elation",
+    "Melancholy": "Cheerfulness",
+    "Wine": "Water",
+    "Stone": "Cloud",
+    "Crying": "Laughing",
+    "Bathroom": "Living room",
+    "Dirty": "Clean",
+    "Apartment": "Mansion",
+    "Pictures": "Blank canvas",
+    "Wash": "Soil",
+    "Together": "Apart",
+    "Support": "Oppose",
+    "Journey": "Stagnation",
+    "Rivalry": "Collaboration",
+    "Unity": "Division",
+    "Ruined": "Restored",
+    "Ring": "Chain",
+    "Mess": "Order",
+    "Strife": "Harmony",
+    "Dying": "Living",
+    "Hang": "Isolate",
+    "Pressure": "Relaxation",
+    "Dates": "Singlehood",
+    "Conversations": "Silences",
+    "Restaurant": "Kitchen",
+    "Villain": "Hero",
+    "Glory": "Shame",
+    "Witch": "Fairy",
+    "Castle": "Shack",
+    "Abusing": "Protecting",
+    "Feeling": "Numbness",
+    "Supposed": "Forbidden",
+    "Number": "Infinity",
+    "Beating": "Stillness",
+    "Hide": "Reveal",
+    "Done": "Incomplete",
+    "Direction": "Confusion",
+    "Affection": "Apathy",
+    "Face": "Avoid",
+    "Place": "No-man's land",
+    "Office": "Home",
+    "Mysterious": "Obvious",
+    "Tribe": "Individual",
+    "Investigate": "Ignore",
+    "Trouble": "Peace",
+    "Diagnosis": "Mystery",
+    "Neurosis": "Sanity",
+    "Label": "Uncategorized",
+    "Free": "Restricted",
+    "Problems": "Solutions",
+    "Perfect": "Flawed",
+    "Screen": "Paper",
+    "Insecurities": "Confidence",
+    "Tears": "Smiles",
+    "Love": "Hate",
+    "Focus": "Distraction",
+    "Drama": "Tranquility",
+    "Explore": "Settle",
+    "Door": "Wall",
+    "Lawyer": "Client",
+    "Greedy": "Generous",
+    "Stress": "Calm",
+    "Ceiling": "Floor",
+    "Guidance": "Misdirection",
+    "Crowded": "Empty",
+    "Politician": "Citizen",
+    "Smiling": "Frowning",
+    "Everything": "Nothing",
+    "Deal": "Reluctance",
+    "Heal": "Injure",
+    "Day": "Night",
+    "Shame": "Pride",
+    "Better": "Worse",
+    "Motion": "Stillness",
+    "Cool": "Unfashionable",
+    "Hair": "Baldness",
+    "Care": "Neglect",
+    "Heroes": "Villains",
+    "Awake": "Asleep",
+    "Mistake": "Success",
+    "Decision": "Hesitation",
+    "Fight": "Surrender",
+    "Answers": "Questions",
 
     # Russian
     "Высота (она)": "Низменность (она)",
@@ -1165,6 +1402,119 @@ VOCAB_DB = {
     "Routine": ("a sequence of actions regularly followed.", "Establishing a morning routine can boost your productivity."),
     "Reflection": ("the throwing back of light, heat, or sound.", "The quiet lake offered a beautiful reflection of the trees."),
 
+    # New vocabulary definitions and examples for added songs
+    "America": ("a major country in North America representing wealth, influence, and consumer culture.", "He decided to travel across America to experience its vast landscapes."),
+    "grocery": ("relating to the store that sells food and household supplies.", "She bought fresh vegetables and bread at the local grocery store."),
+    "stage": ("a raised platform where actors, singers, or speakers perform.", "The young actor was thrilled to step onto the grand stage for the first time."),
+    "cage": ("a structure of bars or wires in which birds or animals are confined, or any restrictive space.", "The majestic lion paced back and forth inside its secure cage."),
+    "plan": ("a detailed proposal for doing or achieving something.", "They formulated a strategic plan to launch their new eco-friendly product."),
+    "ready": ("fully prepared or in a fit state for an activity or action.", "After weeks of hard work, they were finally ready to present their project."),
+    "crime": ("an action or activity that is considered extremely wrong, harmful, or illegal.", "Leaving all that garbage in the pristine forest is an absolute crime."),
+    "shaving": ("the act of cutting hair from the skin using a razor.", "His daily morning routine always included shaving and drinking coffee."),
+    "beautiful": ("pleasing the senses or mind aesthetically.", "The sunset over the mountain was one of the most beautiful sights she had ever seen."),
+    "stranger": ("a person whom one does not know or is unfamiliar with.", "It is wise to be cautious when speaking with a complete stranger."),
+    "dangerous": ("able or likely to cause harm or injury.", "Exploring the old, abandoned mine without safety gear is highly dangerous."),
+    "game": ("an activity that one engages in for amusement, strategy, or fun.", "Chess is a classic game of skill, patience, and deep foresight."),
+    "hotel": ("an establishment providing accommodation, meals, and other services for travelers.", "They booked a cozy room at a historic hotel near the city center."),
+    "alone": ("having no anyone else present; on one's own.", "She preferred to walk alone in the quiet forest to clear her mind."),
+    "settle": ("resolve or reach an agreement about, or compromise on something.", "They decided to settle their minor differences and work together as a team."),
+    "nice": ("pleasant, agreeable, or satisfactory.", "It was a nice and warm afternoon, perfect for a walk in the park."),
+    "stable": ("not likely to change, fail, or give way; firmly established.", "After months of volatility, the economic situation has finally become stable."),
+    "true": ("in accordance with fact or reality; loyal and faithful.", "A true friend will always support you through difficult times."),
+    "search": ("an act of searching for someone or something.", "The rescue team conducted a thorough search for the lost hikers."),
+    "person": ("a human being regarded as an individual.", "She is a very kind and generous person who loves helping others."),
+    "donate": ("give money or goods for a good cause, for example to a charity.", "They decided to donate a portion of their monthly income to the local shelter."),
+    "poor": ("lacking sufficient money to live at a standard considered comfortable or normal.", "The community organized a food drive to support poor families in the area."),
+    "friendly": ("kind and pleasant; behaving in a helpful or supporting way.", "The new neighbors gave us a very warm and friendly welcome."),
+    "nicest": ("the most pleasant, kind, or agreeable.", "That was the nicest compliment she had received in a very long time."),
+    "Covina": ("a city in California, used here as a symbol of suburban life.", "He spent his childhood years living in the quiet suburbs of Covina."),
+    "lonely": ("sad because one has no friends or company.", "She felt a bit lonely living in the giant, unfamiliar city."),
+    "lies": ("false statements made with the intent to deceive.", "Basing a friendship on lies will eventually lead to disappointment."),
+    "leave": ("go away from a place or person.", "They had to leave the cozy restaurant because it was closing."),
+    "find": ("discover or perceive by chance or after deliberate search.", "It takes time to find a career path that truly inspires you."),
+    "depression": ("a state of feeling sad, down, or lacking motivation.", "Regular physical exercise can help alleviate mild symptoms of depression."),
+    "wine": ("an alcoholic drink made from fermented grape juice.", "They enjoyed a glass of red wine with their delicious dinner."),
+    "stone": ("a hard, solid, nonmetallic mineral matter of which rock is made.", "The ancient castle was built entirely of heavy, grey stone."),
+    "crying": ("shedding tears, especially as an expression of distress or pain.", "The crying child was quickly comforted by her mother."),
+    "bathroom": ("a room containing a toilet and sink, and typically also a bathtub or shower.", "He asked for directions to the nearest bathroom in the museum."),
+    "dirty": ("not clean; covered or marked with an unclean substance.", "The dirty dishes were piled high in the kitchen sink."),
+    "apartment": ("a suite of rooms forming one residence, typically in a building.", "They recently moved into a spacious apartment on the fifth floor."),
+    "pictures": ("paintings, drawings, or photographs on a wall or screen.", "The walls of her office were decorated with beautiful pictures of nature."),
+    "wash": ("clean with water and, typically, soap or detergent.", "It is important to wash your hands thoroughly before preparing food."),
+    "together": ("with or in proximity to another person or people.", "They worked together to complete the challenging puzzle."),
+    "support": ("give assistance, approval, or comfort to someone.", "We must always support our friends when they face difficult challenges."),
+    "journey": ("an act of traveling from one place to another.", "Learning a new language is a beautiful and rewarding journey."),
+    "rivalry": ("competition for the same objective or for superiority in the same field.", "There was a friendly rivalry between the two talented musicians."),
+    "unity": ("the state of being united or joined as a whole.", "The community demonstrated incredible unity during the crisis."),
+    "ruined": ("completely spoiled, damaged, or destroyed.", "Our outdoor picnic plans were ruined by the sudden, heavy downpour."),
+    "ring": ("a small circular band, typically of precious metal, worn on a finger.", "He gave her a beautiful silver ring as a symbol of their friendship."),
+    "mess": ("a dirty or untidy state of things or of a place.", "The children left a huge mess of toys in the living room."),
+    "strife": ("angry or bitter disagreement over fundamental issues.", "The continuous internal strife within the organization led to its collapse."),
+    "dying": ("gradually ceasing to exist, function, or live.", "The dying embers of the campfire cast a warm, orange glow."),
+    "hang": ("spend time relaxing or socializing with friends.", "They loved to hang out at the local café after their classes."),
+    "pressure": ("continuous physical or mental force or influence.", "She felt a lot of pressure to perform well in her final exams."),
+    "dates": ("social or romantic appointments or engagements.", "They went on several pleasant dates before deciding to be exclusive."),
+    "conversations": ("talks, especially informal ones, between two or more people.", "They had many interesting conversations about philosophy and art."),
+    "restaurant": ("a place where people pay to sit and eat meals that are cooked on the premises.", "They celebrated their anniversary at an elegant Italian restaurant."),
+    "villain": ("a character whose evil actions or motives are important to the plot.", "He played the role of the dramatic villain in the school play."),
+    "glory": ("high renown or honor won by notable achievements.", "The victorious athletes returned home to share in the glory."),
+    "witch": ("a woman thought to have magic powers, especially evil ones.", "The legend tells of a mysterious witch who lived in the deep dark woods."),
+    "castle": ("a large building, typically of the medieval period, fortified against attack.", "The historic castle stood proudly on top of the steep hill."),
+    "abusing": ("using something or some power to bad effect or for a bad purpose.", "Abusing your authority will quickly lose you the respect of your peers."),
+    "feeling": ("an emotional state or reaction.", "A warm feeling of relief washed over him when he heard the news."),
+    "supposed": ("generally assumed or expected to be or do something.", "We are supposed to submit our assignments by Friday evening."),
+    "number": ("an arithmetical value, or representing position.", "Seven has always been her absolute favorite lucky number."),
+    "beating": ("pulsing, throbbing, or striking repeatedly.", "He could feel his heart beating fast as he stepped on stage."),
+    "hide": ("put or keep out of sight; prevent from being seen.", "It is difficult to hide your true emotions from those who know you well."),
+    "done": ("finished or completed.", "Once the research is done, we can begin drafting the final report."),
+    "direction": ("a course along which someone or something moves, or guidance.", "The signposts provided clear direction through the complex maze."),
+    "affection": ("a gentle feeling of liking or liking someone or something.", "The loyal dog showed immense affection toward its friendly owner."),
+    "face": ("the front part of a person's head, or to confront.", "We must face our greatest challenges with courage and determination."),
+    "place": ("a particular position, point, or area.", "The quiet park near her house is her favorite place to read books."),
+    "office": ("a room or building where people work.", "Their modern office features large windows and open workspaces."),
+    "mysterious": ("difficult or impossible to understand, explain, or identify.", "A mysterious envelope was left on his desk early this morning."),
+    "tribe": ("a social division or close-knit group of people.", "They felt like a united tribe, supporting each other unconditionally."),
+    "investigate": ("carry out a systematic or formal inquiry to discover facts.", "The detectives were assigned to investigate the mysterious occurrence."),
+    "trouble": ("difficulty or problems.", "They ran into some unexpected engine trouble during their road trip."),
+    "diagnosis": ("the identification of the nature of an illness or other problem by examination of the symptoms.", "The doctor provided a clear diagnosis after reviewing the test results."),
+    "neurosis": ("a relatively mild mental illness that is not caused by organic disease, involving symptoms of stress.", "He suffered from a mild neurosis that made him overly anxious about cleanliness."),
+    "label": ("a classifying phrase or name applied to a person or thing.", "She refused to let any simple label define her complex personality."),
+    "free": ("able to act or be done as one wishes; not under the control of another.", "They felt completely free as they hiked through the wide open fields."),
+    "problems": ("matters or situations regarded as unwelcome or harmful and needing to be dealt with.", "Working together is the best way to solve complex societal problems."),
+    "perfect": ("having all the required or desirable elements, qualities, or characteristics; as good as it is possible to be.", "The spring weather was absolutely perfect for an outdoor picnic."),
+    "screen": ("a flat panel on an electronic device on which images or data are displayed.", "She spent hours staring at the computer screen, writing code."),
+    "insecurities": ("feelings of uncertainty or anxiety about oneself; lack of confidence.", "We all carry some personal insecurities that we work to overcome."),
+    "tears": ("drops of clear salty liquid secreted from the eyes when crying.", "Tears of joy streamed down her face when she won the championship."),
+    "love": ("an intense feeling of deep affection.", "Their shared love for classical music brought them together."),
+    "focus": ("the center of interest or activity.", "Our primary focus should be on delivering high-quality education."),
+    "drama": ("an exciting, emotional, or unexpected series of events or set of circumstances.", "They wanted a peaceful life, completely free of any unnecessary drama."),
+    "explore": ("travel in or through an unfamiliar area in order to learn about it.", "They plan to explore the beautiful historic towns of Italy this summer."),
+    "door": ("a hinged, sliding, or revolving barrier at the entrance to a room or building.", "She knocked gently on the wooden door before entering the office."),
+    "lawyer": ("a person who practices or studies law; an attorney.", "The experienced lawyer gave them excellent advice on their business contract."),
+    "greedy": ("having or showing an intense and selfish desire for something, especially wealth or power.", "The greedy corporation prioritizes short-term profits over safety."),
+    "stress": ("a state of mental or emotional strain or tension resulting from adverse or demanding circumstances.", "Learning breathing techniques can help you manage daily stress."),
+    "ceiling": ("the upper interior surface of a room or other similar compartment.", "The old church featured a magnificent ceiling decorated with frescoes."),
+    "guidance": ("advice or information aimed at resolving a problem or difficulty, especially as given by someone in authority.", "The young students benefited greatly from their mentor's wise guidance."),
+    "crowded": ("full of people, leaving little or no room.", "The popular beach was very crowded on the warm summer weekend."),
+    "politician": ("a person who is professionally involved in politics, especially as a holder of an elected office.", "The local politician promised to improve public parks and libraries."),
+    "smiling": ("having a smile on one's face, showing pleasure or affection.", "The smiling teacher greeted her new class with immense enthusiasm."),
+    "everything": ("all things, or all things of a particular class.", "They lost everything in the fire but were grateful to be safe."),
+    "deal": ("an agreement entered into by two or more parties for their mutual benefit, or a situation.", "Finding a nice apartment in this city for a reasonable price is a great deal."),
+    "heal": ("become sound or healthy again.", "Proper rest and nutrition will help your body heal much faster."),
+    "day": ("a period of twenty-four hours, or the time of light.", "It was a beautiful day to spend outdoors in the countryside."),
+    "shame": ("a painful feeling of humiliation or distress caused by the consciousness of wrong or foolish behavior.", "There is absolutely no shame in asking for help when you need it."),
+    "better": ("of a more excellent or effective type or quality.", "She was feeling much better after taking a short, peaceful nap."),
+    "motion": ("the action or process of moving or being moved.", "The steady, rhythmic motion of the train put the baby to sleep."),
+    "cool": ("of or at a fairly low temperature, or fashionably attractive.", "He wore a very cool leather jacket that suited him perfectly."),
+    "hair": ("any of the fine threadlike strands that grow from the skin.", "The gentle spring breeze blew softly through her long hair."),
+    "care": ("the provision of what is necessary for the health, welfare, maintenance, and protection.", "The rare plants require specialized care and attention to thrive."),
+    "heroes": ("people admired for their courage, outstanding achievements, or noble qualities.", "The brave firefighters were celebrated as national heroes."),
+    "awake": ("not asleep.", "He was still wide awake at midnight, listening to the gentle rain."),
+    "mistake": ("an action or judgment that is misguided or wrong.", "It is completely normal to make a mistake when learning something new."),
+    "decision": ("a conclusion or resolution reached after consideration.", "Making an important life decision requires careful thought."),
+    "fight": ("a struggle or confrontation, or to strive.", "They decided to fight for their rights and clean environment."),
+    "answers": ("solutions to a problem, or replies to questions.", "The physics professor provided clear answers to our complex questions."),
+
     # Russian
     "Высота (она)": ("пространство, находящееся высоко над землей.", "Самолёт набрал огромную высоту за несколько минут."),
     "Дом (он)": ("здание, жилое помещение, семейный очаг.", "Мы вернулись в наш уютный загородный дом вечером."),
@@ -1560,7 +1910,7 @@ def parse_existing_vocab(slug):
     with open(path, "r", encoding="utf-8") as f:
         html = f.read()
     # Find all vocab cards using a flexible regex
-    cards = re.findall(r'<div class="vocab-card"><div class="vocab-word">(.*?)</div><div class="vocab-def">(.*?)</div><div class="vocab-example">(.*?)</div>', html)
+    cards = re.findall(r'<div class="vocab-card"[^>]*><div class="vocab-word"[^>]*>(.*?)</div><div class="vocab-def"[^>]*>(.*?)</div><div class="vocab-example"[^>]*>(.*?)</div>', html)
     for w, d, e in cards:
         vocab_data[w.strip()] = (d.strip(), e.strip())
     return vocab_data
@@ -1830,11 +2180,235 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
         "final_challenge_html": final_challenge_html
     }
 
-# STEP 1: Parse all 56 songs dynamically from their existing files
+NEW_SONGS_METADATA = {
+    "im-afraid-of-americans": {
+        "title": "I'm Afraid of Americans",
+        "artist": "David Bowie",
+        "level": "B1",
+        "lang": "en",
+        "variety": "British English",
+        "focus": "Cultural Assimilation & Anxiety",
+        "vocab": ["America", "grocery", "stage", "cage", "plan"]
+    },
+    "sexy-getting-ready-song": {
+        "title": "Sexy Getting Ready Song",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Social Expectations of Beauty",
+        "vocab": ["ready", "crime", "shaving", "painful", "beautiful"]
+    },
+    "sex-with-a-stranger": {
+        "title": "Sex with a Stranger",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Intimacy & Safe Dating",
+        "vocab": ["stranger", "dangerous", "game", "hotel", "alone"]
+    },
+    "settle-for-me": {
+        "title": "Settle for Me",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "High Standards & Compromise",
+        "vocab": ["settle", "nice", "stable", "true", "search"]
+    },
+    "im-a-good-person": {
+        "title": "I'm a Good Person",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "The Need for Social Approval",
+        "vocab": ["person", "donate", "poor", "friendly", "nicest"]
+    },
+    "whatll-it-be": {
+        "title": "What'll It Be",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Escaping the Small Town Mentality",
+        "vocab": ["Covina", "lonely", "lies", "leave", "find"]
+    },
+    "sexy-french-depression": {
+        "title": "Sexy French Depression",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Emotional Melancholy & Escapism",
+        "vocab": ["depression", "melancholy", "wine", "stone", "crying"]
+    },
+    "wheres-the-bathroom": {
+        "title": "Where's the Bathroom",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Parental Expectations & Boundaries",
+        "vocab": ["bathroom", "dirty", "apartment", "pictures", "wash"]
+    },
+    "women-gotta-stick-together": {
+        "title": "Women Gotta Stick Together",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Female Solidarity vs Rivalry",
+        "vocab": ["together", "support", "journey", "rivalry", "unity"]
+    },
+    "you-stupid-bitch": {
+        "title": "You Stupid Bitch",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Self-Sabotage & Regret",
+        "vocab": ["ruined", "ring", "mess", "strife", "dying"]
+    },
+    "group-hang": {
+        "title": "Group Hang",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "The Awkwardness of Modern Socializing",
+        "vocab": ["hang", "pressure", "dates", "conversations", "restaurant"]
+    },
+    "im-the-villain-in-my-own-story": {
+        "title": "I'm the Villain in My Own Story",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Self-Perception & Moral Responsibility",
+        "vocab": ["villain", "glory", "witch", "castle", "abusing"]
+    },
+    "oh-my-god-i-think-i-like-you": {
+        "title": "Oh My God I Think I Like You",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Vulnerability in New Relationships",
+        "vocab": ["feeling", "supposed", "number", "beating", "hide"]
+    },
+    "after-everything-ive-done-for-you": {
+        "title": "After Everything I've Done for You",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Unconditional Love & Hidden Agendas",
+        "vocab": ["done", "direction", "affection", "face", "place"]
+    },
+    "whos-the-new-guy": {
+        "title": "Who's the New Guy",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Dealing with Sudden Change at Work",
+        "vocab": ["office", "mysterious", "tribe", "investigate", "trouble"]
+    },
+    "a-diagnosis": {
+        "title": "A Diagnosis",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "The Relief of Mental Health Labels",
+        "vocab": ["diagnosis", "neurosis", "label", "free", "supposed"]
+    },
+    "fit-hot-guys-have-problems-too": {
+        "title": "Fit Hot Guys Have Problems Too",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Insecurity Behind the Perfect Image",
+        "vocab": ["problems", "perfect", "screen", "insecurities", "tears"]
+    },
+    "without-love-you-can-save-the-world": {
+        "title": "Without Love You Can Save the World",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Romantic Isolation vs Global Impact",
+        "vocab": ["love", "focus", "drama", "explore", "door"]
+    },
+    "dont-be-a-lawyer": {
+        "title": "Don't Be a Lawyer",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Career Advice & Pursuing Passion",
+        "vocab": ["lawyer", "greedy", "stress", "ceiling", "guidance"]
+    },
+    "i-hate-everything-but-you": {
+        "title": "I Hate Everything But You",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Coping with Modern Cynicism",
+        "vocab": ["crowded", "politician", "smiling", "place", "everything"]
+    },
+    "antidepressants-are-so-not-a-big-deal": {
+        "title": "Antidepressants Are So Not a Big Deal",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Stigma & Mental Well-being",
+        "vocab": ["deal", "heal", "day", "shame", "better"]
+    },
+    "slow-motion": {
+        "title": "Slow Motion",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "The Illusion of Confidence",
+        "vocab": ["motion", "cool", "hair", "care", "heroes"]
+    },
+    "eleven-oclock": {
+        "title": "Eleven O'Clock",
+        "artist": "Rachel Bloom",
+        "level": "B1",
+        "lang": "en",
+        "variety": "American English",
+        "focus": "Overthinking & Decisive Moments",
+        "vocab": ["awake", "mistake", "decision", "fight", "answers"]
+    }
+}
+
+# STEP 1: Parse all songs dynamically from their existing files
 songs_list = []
 for slug in sorted(LYRICS_DATA.keys()):
     path = f"events/sessions/{slug}.html"
     if not os.path.exists(path):
+        if slug in NEW_SONGS_METADATA:
+            meta = NEW_SONGS_METADATA[slug]
+            songs_list.append({
+                "slug": slug,
+                "title": meta["title"],
+                "artist": meta["artist"],
+                "level": meta["level"],
+                "lang": meta["lang"],
+                "variety": meta["variety"],
+                "focus": meta["focus"],
+                "vocab": meta["vocab"],
+                "helpers": LYRICS_DATA[slug]["helpers"],
+                "lyrics": LYRICS_DATA[slug]["lyrics"]
+            })
         continue
     with open(path, "r", encoding="utf-8") as f:
         html = f.read()
@@ -1858,7 +2432,7 @@ for slug in sorted(LYRICS_DATA.keys()):
     if slug in SONG_THEMES:
         focus = SONG_THEMES[slug].get(lang, SONG_THEMES[slug].get("en", focus))
 
-    vocab = re.findall(r'<div class="vocab-word">(.*?)</div>', html)
+    vocab = re.findall(r'<div class="vocab-word"[^>]*>(.*?)</div>', html)
     vocab_cleaned = []
     for v in vocab:
         v_stripped = v.strip()
@@ -1917,7 +2491,7 @@ for slug in sorted(CHALLENGE_MAP.keys()):
     if slug in SONG_THEMES:
         focus = SONG_THEMES[slug].get(lang, SONG_THEMES[slug].get("en", focus))
 
-    vocab = re.findall(r'<div class="vocab-word">(.*?)</div>', html)
+    vocab = re.findall(r'<div class="vocab-word"[^>]*>(.*?)</div>', html)
     vocab_cleaned = []
     for v in vocab:
         v_stripped = v.strip()
