@@ -383,4 +383,51 @@ vim-choice { margin-bottom: 1.5rem; }
     page-break-after: avoid;
     break-after: avoid;
   }
+
+  /* Exclude video player from prints */
+  .cosy-video-wrapper {
+    display: none !important;
+  }
+}
+
+/* ── Responsive Video Player & Disclaimer ── */
+.cosy-video-wrapper {
+  margin: 1.5rem 0 2rem 0;
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 1rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.cosy-video-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  background: #000;
+}
+.cosy-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.cosy-video-disclaimer {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.4;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.cosy-video-disclaimer strong {
+  color: var(--ink-soft);
 }
