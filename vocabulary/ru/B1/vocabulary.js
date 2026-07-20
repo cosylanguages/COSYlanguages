@@ -1,1274 +1,1635 @@
-// TODO: verify level classification
 (function() {
     const lang = "ru";
     const data = [
     {
-        "id": "ru_intermediate_places_014",
-        "word": "сад",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "places",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Общественный сад или парк.",
-                "examples": []
+            "id": "ru_intermediate_places_014",
+            "word": "сад",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "places",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Общественный сад или парк.",
+                            "examples": []
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🌳",
+            "_legacy": {
+                    "image": "images/vocabulary/places/garden.png",
+                    "classification": "regular",
+                    "countability": "countable"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🌳",
-        "_legacy": {
-            "image": "images/vocabulary/places/garden.png",
-            "classification": "regular",
-            "countability": "countable"
-        }
     },
     {
-        "id": "ru_intermediate_work_027",
-        "word": "инженер",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Человек, который проектирует или строит машины, двигатели или сооружения.",
-                "examples": [
-                    "Инженер работает над новым мостом.",
-                    "Он хочет стать инженером-строителем."
-                ]
+            "id": "ru_intermediate_work_027",
+            "word": "инженер",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Человек, который проектирует или строит машины, двигатели или сооружения.",
+                            "examples": [
+                                    "Инженер работает над новым мостом.",
+                                    "Он хочет стать инженером-строителем."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "👷",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "инженеры"
             }
-        ],
-        "transcription": "-",
-        "emoji": "👷",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "инженеры"
-        }
     },
     {
-        "id": "ru_intermediate_work_028",
-        "word": "пилот",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Человек, который управляет самолетом или вертолетом.",
-                "examples": [
-                    "Пилот находится в кабине.",
-                    "Он хочет стать пилотом."
-                ]
+            "id": "ru_intermediate_work_028",
+            "word": "пилот",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Человек, который управляет самолетом или вертолетом.",
+                            "examples": [
+                                    "Пилот находится в кабине.",
+                                    "Он хочет стать пилотом."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🧑‍✈️",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "пилоты"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🧑‍✈️",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "пилоты"
-        }
     },
     {
-        "id": "ru_intermediate_work_029",
-        "word": "разработчик ПО",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Человек, который пишет компьютерные программы.",
-                "examples": [
-                    "Разработчик создает новое приложение."
-                ]
+            "id": "ru_intermediate_work_029",
+            "word": "разработчик ПО",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Человек, который пишет компьютерные программы.",
+                            "examples": [
+                                    "Разработчик создает новое приложение."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "💻",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "разработчики ПО"
             }
-        ],
-        "transcription": "-",
-        "emoji": "💻",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "разработчики ПО"
-        }
     },
     {
-        "id": "ru_intermediate_work_030",
-        "word": "карьера",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Ряд должностей, которые человек занимает в течение своей трудовой жизни.",
-                "examples": [
-                    "Она сделала успешную карьеру в финансах."
-                ]
+            "id": "ru_intermediate_work_030",
+            "word": "карьера",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Ряд должностей, которые человек занимает в течение своей трудовой жизни.",
+                            "examples": [
+                                    "Она сделала успешную карьеру в финансах."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "📈",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "карьеры"
             }
-        ],
-        "transcription": "-",
-        "emoji": "📈",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "карьеры"
-        }
     },
     {
-        "id": "ru_intermediate_work_031",
-        "word": "сокращение",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Потеря работы из-за того, что работодатель больше не нуждается в данной должности.",
-                "examples": [
-                    "В прошлом году он попал под сокращение."
-                ]
+            "id": "ru_intermediate_work_031",
+            "word": "сокращение",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Потеря работы из-за того, что работодатель больше не нуждается в данной должности.",
+                            "examples": [
+                                    "В прошлом году он попал под сокращение."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "📉",
+            "_legacy": {
+                    "gender": "neuter",
+                    "classification": "regular",
+                    "plural": "сокращения",
+                    "subtext": "увольнение по сокращению штата"
             }
-        ],
-        "transcription": "-",
-        "emoji": "📉",
-        "_legacy": {
-            "gender": "neuter",
-            "classification": "regular",
-            "plural": "сокращения",
-            "subtext": "увольнение по сокращению штата"
-        }
     },
     {
-        "id": "ru_intermediate_work_032",
-        "word": "гибкий график",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Соглашение, позволяющее сотрудникам изменять время или место работы.",
-                "examples": [
-                    "Компания предлагает гибкий график работы из дома."
-                ]
+            "id": "ru_intermediate_work_032",
+            "word": "гибкий график",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Соглашение, позволяющее сотрудникам изменять время или место работы.",
+                            "examples": [
+                                    "Компания предлагает гибкий график работы из дома."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🏠",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "гибкие графики"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🏠",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "гибкие графики"
-        }
     },
     {
-        "id": "ru_intermediate_work_033",
-        "word": "нетворкинг",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Установление профессиональных связей для развития карьеры.",
-                "examples": [
-                    "Нетворкинг необходим в этой индустрии."
-                ]
+            "id": "ru_intermediate_work_033",
+            "word": "нетворкинг",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Установление профессиональных связей для развития карьеры.",
+                            "examples": [
+                                    "Нетворкинг необходим в этой индустрии."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🤝",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "нетворкинги"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🤝",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "нетворкинги"
-        }
     },
     {
-        "id": "ru_intermediate_work_034",
-        "word": "нагрузка",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Количество работы, которое должен выполнить человек.",
-                "examples": [
-                    "В этом месяце её рабочая нагрузка сильно увеличилась."
-                ]
+            "id": "ru_intermediate_work_034",
+            "word": "нагрузка",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Количество работы, которое должен выполнить человек.",
+                            "examples": [
+                                    "В этом месяце её рабочая нагрузка сильно увеличилась."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "📚",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "нагрузки",
+                    "subtext": ""
             }
-        ],
-        "transcription": "-",
-        "emoji": "📚",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "нагрузки",
-            "subtext": ""
-        }
     },
     {
-        "id": "ru_intermediate_work_035",
-        "word": "командная работа",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Эффективная совместная работа с другими людьми.",
-                "examples": [
-                    "Хорошая командная работа обеспечила успех проекта."
-                ]
+            "id": "ru_intermediate_work_035",
+            "word": "командная работа",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Эффективная совместная работа с другими людьми.",
+                            "examples": [
+                                    "Хорошая командная работа обеспечила успех проекта."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "👥",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "командные работы"
             }
-        ],
-        "transcription": "-",
-        "emoji": "👥",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "командные работы"
-        }
     },
     {
-        "id": "ru_intermediate_work_036",
-        "word": "амбиция",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Сильное желание достичь чего-либо.",
-                "examples": [
-                    "Его амбиция — стать менеджером."
-                ]
+            "id": "ru_intermediate_work_036",
+            "word": "амбиция",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Сильное желание достичь чего-либо.",
+                            "examples": [
+                                    "Его амбиция — стать менеджером."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🚀",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "амбиции"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🚀",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "амбиции"
-        }
     },
     {
-        "id": "ru_intermediate_work_037",
-        "word": "навык",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Способность делать что-то хорошо, обычно полученная в результате практики.",
-                "examples": [
-                    "Навыки общения очень важны в работе."
-                ]
+            "id": "ru_intermediate_work_037",
+            "word": "навык",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Способность делать что-то хорошо, обычно полученная в результате практики.",
+                            "examples": [
+                                    "Навыки общения очень важны в работе."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🛠️",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "навыки",
+                    "subtext": ""
             }
-        ],
-        "transcription": "-",
-        "emoji": "🛠️",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "навыки",
-            "subtext": ""
-        }
     },
     {
-        "id": "ru_intermediate_work_038",
-        "word": "декретный отпуск",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Оплачиваемый отпуск, предоставляемый матери после рождения ребенка.",
-                "examples": [
-                    "Она взяла декретный отпуск на шесть месяцев."
-                ]
+            "id": "ru_intermediate_work_038",
+            "word": "декретный отпуск",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Оплачиваемый отпуск, предоставляемый матери после рождения ребенка.",
+                            "examples": [
+                                    "Она взяла декретный отпуск на шесть месяцев."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "👶",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "декретные отпуска"
             }
-        ],
-        "transcription": "-",
-        "emoji": "👶",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "декретные отпуска"
-        }
     },
     {
-        "id": "ru_intermediate_work_039",
-        "word": "пенсия",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Деньги, регулярно выплачиваемые человеку после его выхода на пенсию.",
-                "examples": [
-                    "Он каждый месяц делает отчисления на свою пенсию."
-                ]
+            "id": "ru_intermediate_work_039",
+            "word": "пенсия",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Деньги, регулярно выплачиваемые человеку после его выхода на пенсию.",
+                            "examples": [
+                                    "Он каждый месяц делает отчисления на свою пенсию."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "👴",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "пенсии"
             }
-        ],
-        "transcription": "-",
-        "emoji": "👴",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "пенсии"
-        }
     },
     {
-        "id": "ru_intermediate_work_040",
-        "word": "инвестиция",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Деньги, вложенные во что-либо с целью получения прибыли в будущем.",
-                "examples": [
-                    "Недвижимость — популярная инвестиция."
-                ]
+            "id": "ru_intermediate_work_040",
+            "word": "инвестиция",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Деньги, вложенные во что-либо с целью получения прибыли в будущем.",
+                            "examples": [
+                                    "Недвижимость — популярная инвестиция."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "💰",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "инвестиции"
             }
-        ],
-        "transcription": "-",
-        "emoji": "💰",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "инвестиции"
-        }
     },
     {
-        "id": "ru_intermediate_work_041",
-        "word": "процентная ставка",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Процент, взимаемый за заимствование денег или начисляемый на сбережения.",
-                "examples": [
-                    "Процентная ставка по ипотеке составляет три процента."
-                ]
+            "id": "ru_intermediate_work_041",
+            "word": "процентная ставка",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Процент, взимаемый за заимствование денег или начисляемый на сбережения.",
+                            "examples": [
+                                    "Процентная ставка по ипотеке составляет три процента."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "📊",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "процентные ставки"
             }
-        ],
-        "transcription": "-",
-        "emoji": "📊",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "процентные ставки"
-        }
     },
     {
-        "id": "ru_intermediate_work_042",
-        "word": "доход",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Деньги, полученные от работы или других источников.",
-                "examples": [
-                    "Их семейный доход позволяет жить комфортно."
-                ]
+            "id": "ru_intermediate_work_042",
+            "word": "доход",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Деньги, полученные от работы или других источников.",
+                            "examples": [
+                                    "Их семейный доход позволяет жить комфортно."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "💸",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "доходы"
             }
-        ],
-        "transcription": "-",
-        "emoji": "💸",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "доходы"
-        }
     },
     {
-        "id": "ru_intermediate_work_043",
-        "word": "страховка",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Договор, по которому вы регулярно платите, чтобы быть защищенным от убытков или ущерба.",
-                "examples": [
-                    "Медицинская страховка в некоторых странах стоит дорого."
-                ]
+            "id": "ru_intermediate_work_043",
+            "word": "страховка",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Договор, по которому вы регулярно платите, чтобы быть защищенным от убытков или ущерба.",
+                            "examples": [
+                                    "Медицинская страховка в некоторых странах стоит дорого."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🛡️",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "страховки"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🛡️",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "страховки"
-        }
     },
     {
-        "id": "ru_intermediate_work_044",
-        "word": "налог",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Деньги, выплачиваемые государству на основе доходов или покупок.",
-                "examples": [
-                    "Она платит большой подоходный налог."
-                ]
+            "id": "ru_intermediate_work_044",
+            "word": "налог",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "work",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Деньги, выплачиваемые государству на основе доходов или покупок.",
+                            "examples": [
+                                    "Она платит большой подоходный налог."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🏦",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "налоги"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🏦",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "налоги"
-        }
     },
     {
-        "id": "ru_intermediate_health_medicine_013",
-        "word": "благополучие",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "health_medicine",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Общее ощущение комфорта, здоровья и счастья.",
-                "examples": [
-                    "Физические упражнения важны для ментального благополучия."
-                ]
+            "id": "ru_intermediate_health_medicine_013",
+            "word": "благополучие",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "health_medicine",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Общее ощущение комфорта, здоровья и счастья.",
+                            "examples": [
+                                    "Физические упражнения важны для ментального благополучия."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🧘",
+            "_legacy": {
+                    "gender": "neuter",
+                    "classification": "regular",
+                    "subtext": ""
             }
-        ],
-        "transcription": "-",
-        "emoji": "🧘",
-        "_legacy": {
-            "gender": "neuter",
-            "classification": "regular",
-            "subtext": ""
-        }
     },
     {
-        "id": "ru_intermediate_health_medicine_014",
-        "word": "ментальное здоровье",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "health_medicine",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Психологическое и эмоциональное состояние человека.",
-                "examples": [
-                    "Компании стали серьезнее относиться к ментальному здоровью сотрудников."
-                ]
+            "id": "ru_intermediate_health_medicine_014",
+            "word": "ментальное здоровье",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "health_medicine",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Психологическое и эмоциональное состояние человека.",
+                            "examples": [
+                                    "Компании стали серьезнее относиться к ментальному здоровью сотрудников."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🧠",
+            "_legacy": {
+                    "gender": "neuter",
+                    "classification": "regular",
+                    "plural": null
             }
-        ],
-        "transcription": "-",
-        "emoji": "🧠",
-        "_legacy": {
-            "gender": "neuter",
-            "classification": "regular",
-            "plural": null
-        }
     },
     {
-        "id": "ru_intermediate_health_medicine_015",
-        "word": "выгорание",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "health_medicine",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Состояние истощения, вызванное чрезмерным стрессом в течение длительного времени.",
-                "examples": [
-                    "Она столкнулась с выгоранием после долгой работы без отпуска."
-                ]
+            "id": "ru_intermediate_health_medicine_015",
+            "word": "выгорание",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "health_medicine",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Состояние истощения, вызванное чрезмерным стрессом в течение длительного времени.",
+                            "examples": [
+                                    "Она столкнулась с выгоранием после долгой работы без отпуска."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🔥",
+            "_legacy": {
+                    "gender": "neuter",
+                    "classification": "regular",
+                    "plural": null,
+                    "subtext": "профессиональное выгорание"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🔥",
-        "_legacy": {
-            "gender": "neuter",
-            "classification": "regular",
-            "plural": null,
-            "subtext": "профессиональное выгорание"
-        }
     },
     {
-        "id": "ru_intermediate_health_medicine_016",
-        "word": "профилактика",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "health_medicine",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Действия, предпринятые для того, чтобы остановить что-то плохое.",
-                "examples": [
-                    "Профилактика лучше, чем лечение."
-                ]
+            "id": "ru_intermediate_health_medicine_016",
+            "word": "профилактика",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "health_medicine",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Действия, предпринятые для того, чтобы остановить что-то плохое.",
+                            "examples": [
+                                    "Профилактика лучше, чем лечение."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🛡️",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "профилактики",
+                    "subtext": ""
             }
-        ],
-        "transcription": "-",
-        "emoji": "🛡️",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "профилактики",
-            "subtext": ""
-        }
     },
     {
-        "id": "ru_intermediate_health_medicine_017",
-        "word": "симптом",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "health_medicine",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Признаки, указывающие на наличие у человека определенной болезни.",
-                "examples": [
-                    "Симптомы появились на прошлой неделе."
-                ]
+            "id": "ru_intermediate_health_medicine_017",
+            "word": "симптом",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "health_medicine",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Признаки, указывающие на наличие у человека определенной болезни.",
+                            "examples": [
+                                    "Симптомы появились на прошлой неделе."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🤒",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "симптомы"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🤒",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "симптомы"
-        }
     },
     {
-        "id": "ru_intermediate_health_medicine_018",
-        "word": "терапия",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "health_medicine",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Лечение психических или физических проблем, часто посредством бесед.",
-                "examples": [
-                    "Он ходит на терапию раз в неделю."
-                ]
+            "id": "ru_intermediate_health_medicine_018",
+            "word": "терапия",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "health_medicine",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Лечение психических или физических проблем, часто посредством бесед.",
+                            "examples": [
+                                    "Он ходит на терапию раз в неделю."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🛋️",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "терапии"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🛋️",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "терапии"
-        }
     },
     {
-        "id": "ru_intermediate_people_010",
-        "word": "доверие",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "people",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Твердая вера в честность и надежность кого-либо.",
-                "examples": [
-                    "Доверие — основа хороших отношений."
-                ]
+            "id": "ru_intermediate_people_010",
+            "word": "доверие",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "people",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Твердая вера в честность и надежность кого-либо.",
+                            "examples": [
+                                    "Доверие — основа хороших отношений."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🤝",
+            "_legacy": {
+                    "gender": "neuter",
+                    "classification": "regular"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🤝",
-        "_legacy": {
-            "gender": "neuter",
-            "classification": "regular"
-        }
     },
     {
-        "id": "ru_intermediate_people_011",
-        "word": "конфликт",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "people",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Серьезное разногласие или спор.",
-                "examples": [
-                    "У них возник конфликт из-за денег."
-                ]
+            "id": "ru_intermediate_people_011",
+            "word": "конфликт",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "people",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Серьезное разногласие или спор.",
+                            "examples": [
+                                    "У них возник конфликт из-за денег."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "⚔️",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "конфликты"
             }
-        ],
-        "transcription": "-",
-        "emoji": "⚔️",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "конфликты"
-        }
     },
     {
-        "id": "ru_intermediate_people_012",
-        "word": "ответственность",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "people",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Обязанность заботиться о ком-то или о чем-то.",
-                "examples": [
-                    "Родители несут ответственность за своих детей."
-                ]
+            "id": "ru_intermediate_people_012",
+            "word": "ответственность",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "people",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Обязанность заботиться о ком-то или о чем-то.",
+                            "examples": [
+                                    "Родители несут ответственность за своих детей."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "⚖️",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular"
             }
-        ],
-        "transcription": "-",
-        "emoji": "⚖️",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular"
-        }
     },
     {
-        "id": "ru_intermediate_people_013",
-        "word": "ожидание",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "people",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Убеждение в том, что произойдет или должно произойти.",
-                "examples": [
-                    "У неё высокие ожидания от своего партнера."
-                ]
+            "id": "ru_intermediate_people_013",
+            "word": "ожидание",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "people",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Убеждение в том, что произойдет или должно произойти.",
+                            "examples": [
+                                    "У неё высокие ожидания от своего партнера."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "⏳",
+            "_legacy": {
+                    "gender": "neuter",
+                    "classification": "regular",
+                    "plural": "ожидания"
             }
-        ],
-        "transcription": "-",
-        "emoji": "⏳",
-        "_legacy": {
-            "gender": "neuter",
-            "classification": "regular",
-            "plural": "ожидания"
-        }
     },
     {
-        "id": "ru_intermediate_people_014",
-        "word": "граница",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "people",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Предел того, что вы готовы принять в отношениях.",
-                "examples": [
-                    "Полезно устанавливать четкие границы."
-                ]
+            "id": "ru_intermediate_people_014",
+            "word": "граница",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "people",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Предел того, что вы готовы принять в отношениях.",
+                            "examples": [
+                                    "Полезно устанавливать четкие границы."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🚧",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "границы",
+                    "subtext": ""
             }
-        ],
-        "transcription": "-",
-        "emoji": "🚧",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "границы",
-            "subtext": ""
-        }
     },
     {
-        "id": "ru_intermediate_people_015",
-        "word": "развод",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "people",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Юридическое прекращение брака.",
-                "examples": [
-                    "В последние десятилетия уровень разводов вырос."
-                ]
+            "id": "ru_intermediate_people_015",
+            "word": "развод",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "people",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Юридическое прекращение брака.",
+                            "examples": [
+                                    "В последние десятилетия уровень разводов вырос."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "💔",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "разводы"
             }
-        ],
-        "transcription": "-",
-        "emoji": "💔",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "разводы"
-        }
     },
     {
-        "id": "ru_intermediate_social_035",
-        "word": "равенство",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Состояние равенства в правах и возможностях.",
-                "examples": [
-                    "Они борются за гендерное равенство на работе."
-                ]
+            "id": "ru_intermediate_social_035",
+            "word": "равенство",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Состояние равенства в правах и возможностях.",
+                            "examples": [
+                                    "Они борются за гендерное равенство на работе."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "⚖️",
+            "_legacy": {
+                    "gender": "neuter",
+                    "classification": "regular",
+                    "opposite": "неравенство"
             }
-        ],
-        "transcription": "-",
-        "emoji": "⚖️",
-        "_legacy": {
-            "gender": "neuter",
-            "classification": "regular",
-            "opposite": "неравенство"
-        }
     },
     {
-        "id": "ru_intermediate_social_036",
-        "word": "свобода",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Право действовать и думать без ограничений.",
-                "examples": [
-                    "Свобода слова очень важна."
-                ]
+            "id": "ru_intermediate_social_036",
+            "word": "свобода",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Право действовать и думать без ограничений.",
+                            "examples": [
+                                    "Свобода слова очень важна."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🗽",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "свободы"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🗽",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "свободы"
-        }
     },
     {
-        "id": "ru_intermediate_social_037",
-        "word": "неравенство",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Несправедливая ситуация, в которой у одних людей больше, чем у других.",
-                "examples": [
-                    "Неравенство доходов растет во многих странах."
-                ]
+            "id": "ru_intermediate_social_037",
+            "word": "неравенство",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Несправедливая ситуация, в которой у одних людей больше, чем у других.",
+                            "examples": [
+                                    "Неравенство доходов растет во многих странах."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "⚖️",
+            "_legacy": {
+                    "gender": "neuter",
+                    "classification": "regular",
+                    "opposite": "равенство"
             }
-        ],
-        "transcription": "-",
-        "emoji": "⚖️",
-        "_legacy": {
-            "gender": "neuter",
-            "classification": "regular",
-            "opposite": "равенство"
-        }
     },
     {
-        "id": "ru_intermediate_social_038",
-        "word": "волонтёр",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Человек, который предлагает что-то сделать без оплаты.",
-                "examples": [
-                    "Она работает волонтёром в местном банке еды."
-                ]
+            "id": "ru_intermediate_social_038",
+            "word": "волонтёр",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Человек, который предлагает что-то сделать без оплаты.",
+                            "examples": [
+                                    "Она работает волонтёром в местном банке еды."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🙋",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "волонтёры"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🙋",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "волонтёры"
-        }
     },
     {
-        "id": "ru_intermediate_social_039",
-        "word": "сообщество",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Группа людей, имеющих общее место жительства, идентичность или интересы.",
-                "examples": [
-                    "Он очень активен в своем местном сообществе."
-                ]
+            "id": "ru_intermediate_social_039",
+            "word": "сообщество",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Группа людей, имеющих общее место жительства, идентичность или интересы.",
+                            "examples": [
+                                    "Он очень активен в своем местном сообществе."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🏘️",
+            "_legacy": {
+                    "gender": "neuter",
+                    "classification": "regular",
+                    "plural": "сообщества",
+                    "subtext": ""
             }
-        ],
-        "transcription": "-",
-        "emoji": "🏘️",
-        "_legacy": {
-            "gender": "neuter",
-            "classification": "regular",
-            "plural": "сообщества",
-            "subtext": ""
-        }
     },
     {
-        "id": "ru_intermediate_social_040",
-        "word": "поколение",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Все люди одного возраста в обществе.",
-                "examples": [
-                    "Каждое поколение сталкивается с разными вызовами."
-                ]
+            "id": "ru_intermediate_social_040",
+            "word": "поколение",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Все люди одного возраста в обществе.",
+                            "examples": [
+                                    "Каждое поколение сталкивается с разными вызовами."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "👥",
+            "_legacy": {
+                    "gender": "neuter",
+                    "classification": "regular",
+                    "plural": "поколения"
             }
-        ],
-        "transcription": "-",
-        "emoji": "👥",
-        "_legacy": {
-            "gender": "neuter",
-            "classification": "regular",
-            "plural": "поколения"
-        }
     },
     {
-        "id": "ru_intermediate_environment_008",
-        "word": "изменение климата",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "environment",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Долгосрочные изменения глобальных температур и погодных условий.",
-                "examples": [
-                    "Изменение климата — самый большой вызов нашего времени."
-                ]
+            "id": "ru_intermediate_environment_008",
+            "word": "изменение климата",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "environment",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Долгосрочные изменения глобальных температур и погодных условий.",
+                            "examples": [
+                                    "Изменение климата — самый большой вызов нашего времени."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🌍",
+            "_legacy": {
+                    "gender": "neuter",
+                    "classification": "regular",
+                    "plural": null
             }
-        ],
-        "transcription": "-",
-        "emoji": "🌍",
-        "_legacy": {
-            "gender": "neuter",
-            "classification": "regular",
-            "plural": null
-        }
     },
     {
-        "id": "ru_intermediate_environment_009",
-        "word": "возобновляемая энергия",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "environment",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Энергия из природных источников, которые не исчерпываются, таких как ветер или солнце.",
-                "examples": [
-                    "Компания перешла на возобновляемую энергию."
-                ]
+            "id": "ru_intermediate_environment_009",
+            "word": "возобновляемая энергия",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "environment",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Энергия из природных источников, которые не исчерпываются, таких как ветер или солнце.",
+                            "examples": [
+                                    "Компания перешла на возобновляемую энергию."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "☀️",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": null
             }
-        ],
-        "transcription": "-",
-        "emoji": "☀️",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": null
-        }
     },
     {
-        "id": "ru_intermediate_environment_010",
-        "word": "углеродный след",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "environment",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Общее количество парниковых газов, производимых деятельностью человека.",
-                "examples": [
-                    "Полеты на самолете увеличивают ваш углеродный след."
-                ]
+            "id": "ru_intermediate_environment_010",
+            "word": "углеродный след",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "environment",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Общее количество парниковых газов, производимых деятельностью человека.",
+                            "examples": [
+                                    "Полеты на самолете увеличивают ваш углеродный след."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "👣",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "углеродные следы"
             }
-        ],
-        "transcription": "-",
-        "emoji": "👣",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "углеродные следы"
-        }
     },
     {
-        "id": "ru_intermediate_environment_011",
-        "word": "отходы",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "environment",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Материал, который больше не нужен и выбрасывается.",
-                "examples": [
-                    "Нам нужно сократить пищевые отходы."
-                ]
+            "id": "ru_intermediate_environment_011",
+            "word": "отходы",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "environment",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Материал, который больше не нужен и выбрасывается.",
+                            "examples": [
+                                    "Нам нужно сократить пищевые отходы."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🗑️",
+            "_legacy": {
+                    "gender": "plural",
+                    "classification": "regular",
+                    "plural": "отходы",
+                    "subtext": ""
             }
-        ],
-        "transcription": "-",
-        "emoji": "🗑️",
-        "_legacy": {
-            "gender": "plural",
-            "classification": "regular",
-            "plural": "отходы",
-            "subtext": ""
-        }
     },
     {
-        "id": "ru_intermediate_language_002",
-        "word": "однако",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "language",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Используется для введения контрастной или противоположной идеи.",
-                "examples": [
-                    "Мне нравится город. Однако, здесь очень дорого."
-                ]
+            "id": "ru_intermediate_language_002",
+            "word": "однако",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "language",
+            "form": "adverb",
+            "definitions": [
+                    {
+                            "text": "Используется для введения контрастной или противоположной идеи.",
+                            "examples": [
+                                    "Мне нравится город. Однако, здесь очень дорого."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🔄",
+            "_legacy": {
+                    "subtext": ""
             }
-        ],
-        "transcription": "-",
-        "emoji": "🔄",
-        "_legacy": {
-            "subtext": ""
-        }
     },
     {
-        "id": "ru_intermediate_language_003",
-        "word": "хотя",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "language",
-        "form": "conjunction",
-        "definitions": [
-            {
-                "text": "Несмотря на тот факт, что.",
-                "examples": [
-                    "Хотя она устала, она идет в спортзал."
-                ]
+            "id": "ru_intermediate_language_003",
+            "word": "хотя",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "language",
+            "form": "conjunction",
+            "definitions": [
+                    {
+                            "text": "Несмотря на тот факт, что.",
+                            "examples": [
+                                    "Хотя она устала, она идет в спортзал."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🔗",
+            "_legacy": {
+                    "subtext": "несмотря на то что"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🔗",
-        "_legacy": {
-            "subtext": "несмотря на то что"
-        }
     },
     {
-        "id": "ru_intermediate_language_004",
-        "word": "с другой стороны",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "language",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Используется для введения контрастного момента.",
-                "examples": [
-                    "Жизнь в городе захватывающая. С другой стороны, она полна стресса."
-                ]
-            }
-        ],
-        "transcription": "-",
-        "emoji": "⚖️"
+            "id": "ru_intermediate_language_004",
+            "word": "с другой стороны",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "language",
+            "form": "adverb",
+            "definitions": [
+                    {
+                            "text": "Используется для введения контрастного момента.",
+                            "examples": [
+                                    "Жизнь в городе захватывающая. С другой стороны, она полна стресса."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "⚖️"
     },
     {
-        "id": "ru_intermediate_social_041",
-        "word": "по моему мнению",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Используется для введения вашей личной точки зрения.",
-                "examples": [
-                    "По моему мнению, удаленная работа более продуктивна."
-                ]
+            "id": "ru_intermediate_social_041",
+            "word": "по моему мнению",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "adverb",
+            "definitions": [
+                    {
+                            "text": "Используется для введения вашей личной точки зрения.",
+                            "examples": [
+                                    "По моему мнению, удаленная работа более продуктивна."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🗣️",
+            "_legacy": {
+                    "subtext": ""
             }
-        ],
-        "transcription": "-",
-        "emoji": "🗣️",
-        "_legacy": {
-            "subtext": ""
-        }
     },
     {
-        "id": "ru_intermediate_language_005",
-        "word": "в результате",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "language",
-        "form": "adverb",
-        "definitions": [
-            {
-                "text": "Из-за этого; следовательно.",
-                "examples": [
-                    "Он много работал. В результате он получил повышение."
-                ]
+            "id": "ru_intermediate_language_005",
+            "word": "в результате",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "language",
+            "form": "adverb",
+            "definitions": [
+                    {
+                            "text": "Из-за этого; следовательно.",
+                            "examples": [
+                                    "Он много работал. В результате он получил повышение."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "➡️",
+            "_legacy": {
+                    "subtext": ""
             }
-        ],
-        "transcription": "-",
-        "emoji": "➡️",
-        "_legacy": {
-            "subtext": ""
-        }
     },
     {
-        "id": "ru_intermediate_food_drink_001",
-        "word": "пельмени",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "food_drink",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Традиционное русское блюдо из теста с мясным фаршем.",
-                "examples": [
-                    "Я люблю пельмени со сметаной."
-                ]
+            "id": "ru_intermediate_food_drink_001",
+            "word": "пельмени",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "food_drink",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Традиционное русское блюдо из теста с мясным фаршем.",
+                            "examples": [
+                                    "Я люблю пельмени со сметаной."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🥟",
+            "_legacy": {
+                    "gender": "plural",
+                    "classification": "regular"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🥟",
-        "_legacy": {
-            "gender": "plural",
-            "classification": "regular"
-        }
     },
     {
-        "id": "ru_intermediate_food_drink_002",
-        "word": "шашлык",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "food_drink",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Мясо, жаренное на шампурах над углями.",
-                "examples": [
-                    "Мы готовим шашлык на даче."
-                ]
+            "id": "ru_intermediate_food_drink_002",
+            "word": "шашлык",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "food_drink",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Мясо, жаренное на шампурах над углями.",
+                            "examples": [
+                                    "Мы готовим шашлык на даче."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🍢",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "шашлыки"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🍢",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "шашлыки"
-        }
     },
     {
-        "id": "ru_intermediate_food_drink_003",
-        "word": "квас",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "food_drink",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Традиционный русский напиток из хлеба.",
-                "examples": [
-                    "Из кваса делают окрошку."
-                ]
+            "id": "ru_intermediate_food_drink_003",
+            "word": "квас",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "food_drink",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Традиционный русский напиток из хлеба.",
+                            "examples": [
+                                    "Из кваса делают окрошку."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🍺",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🍺",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular"
-        }
     },
     {
-        "id": "ru_intermediate_travel_005",
-        "word": "библиотека",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "travel",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Место, где много книг, которые можно читать или брать домой.",
-                "examples": [
-                    "Я иду в библиотеку."
-                ]
+            "id": "ru_intermediate_travel_005",
+            "word": "библиотека",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "travel",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Место, где много книг, которые можно читать или брать домой.",
+                            "examples": [
+                                    "Я иду в библиотеку."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "📚",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "библиотеки"
             }
-        ],
-        "transcription": "-",
-        "emoji": "📚",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "библиотеки"
-        }
     },
     {
-        "id": "ru_intermediate_travel_006",
-        "word": "музей",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "travel",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Здание, где можно посмотреть на важные предметы из прошлого.",
-                "examples": [
-                    "Мы посетили Эрмитаж."
-                ]
+            "id": "ru_intermediate_travel_006",
+            "word": "музей",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "travel",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Здание, где можно посмотреть на важные предметы из прошлого.",
+                            "examples": [
+                                    "Мы посетили Эрмитаж."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🏛️",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "музеи"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🏛️",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "музеи"
-        }
     },
     {
-        "id": "ru_intermediate_travel_007",
-        "word": "аэропорт",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "travel",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Место, где самолеты взлетают и приземляются.",
-                "examples": [
-                    "Мы приехали в аэропорт."
-                ]
+            "id": "ru_intermediate_travel_007",
+            "word": "аэропорт",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "travel",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Место, где самолеты взлетают и приземляются.",
+                            "examples": [
+                                    "Мы приехали в аэропорт."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "✈️",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "аэропорты"
             }
-        ],
-        "transcription": "-",
-        "emoji": "✈️",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "аэропорты"
-        }
     },
     {
-        "id": "ru_intermediate_home_living_001",
-        "word": "шкаф",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "furniture",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Мебель для хранения одежды или книг.",
-                "examples": [
-                    "Моя одежда висит в шкафу."
-                ]
+            "id": "ru_intermediate_home_living_001",
+            "word": "шкаф",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "furniture",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Мебель для хранения одежды или книг.",
+                            "examples": [
+                                    "Моя одежда висит в шкафу."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "👗",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "шкафы"
             }
-        ],
-        "transcription": "-",
-        "emoji": "👗",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "шкафы"
-        }
     },
     {
-        "id": "ru_intermediate_environment_nature_001",
-        "word": "слон",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "environment",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Очень большое серое животное с хоботом.",
-                "examples": [
-                    "Слон живет в Африке."
-                ]
+            "id": "ru_intermediate_environment_nature_001",
+            "word": "слон",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "environment",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Очень большое серое животное с хоботом.",
+                            "examples": [
+                                    "Слон живет в Африке."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🐘",
+            "_legacy": {
+                    "gender": "masculine",
+                    "classification": "regular",
+                    "plural": "слоны"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🐘",
-        "_legacy": {
-            "gender": "masculine",
-            "classification": "regular",
-            "plural": "слоны"
-        }
     },
     {
-        "id": "ru_intermediate_environment_nature_002",
-        "word": "обезьяна",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "environment",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Животное, которое лазает по деревьям и похоже на человека.",
-                "examples": [
-                    "Обезьяна ест банан."
-                ]
+            "id": "ru_intermediate_environment_nature_002",
+            "word": "обезьяна",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "environment",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Животное, которое лазает по деревьям и похоже на человека.",
+                            "examples": [
+                                    "Обезьяна ест банан."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "🐒",
+            "_legacy": {
+                    "gender": "feminine",
+                    "classification": "regular",
+                    "plural": "обезьяны"
             }
-        ],
-        "transcription": "-",
-        "emoji": "🐒",
-        "_legacy": {
-            "gender": "feminine",
-            "classification": "regular",
-            "plural": "обезьяны"
-        }
     },
     {
-        "id": "ru_intermediate_social_042",
-        "lang": "ru",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "noun",
-        "definitions": [],
-        "transcription": "-",
-        "emoji": "❓"
+            "id": "ru_intermediate_social_042",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_social_043",
+            "word": "выгорание (оно)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Состояние физического и психического истощения из-за работы.",
+                            "examples": [
+                                    "Четырехдневная неделя может помочь предотвратить профессиональное выгорание."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_social_044",
+            "word": "продуктивность (она)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Эффективность выполнения работы за определенное время.",
+                            "examples": [
+                                    "Исследования показывают, что продуктивность часто растет при сокращении рабочих часов."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_social_045",
+            "word": "благополучие (оно)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Состояние комфорта, здоровья и счастья.",
+                            "examples": [
+                                    "Баланс между работой и личной жизнью критически важен для благополучия."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_social_046",
+            "word": "удержание кадров (оно)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Способность компании сохранять своих сотрудников.",
+                            "examples": [
+                                    "Гибкий график — отличный инструмент для удержания кадров."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_social_047",
+            "word": "доход (он)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Деньги, получаемые компанией или человеком.",
+                            "examples": [
+                                    "Доход бизнеса может измениться при переходе на четырехдневную рабочую неделю."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_social_048",
+            "word": "нагрузка (она)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Объем работы, которую нужно выполнить.",
+                            "examples": [
+                                    "Нагрузка в оставшиеся четыре дня может стать слишком высокой."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_social_049",
+            "word": "подход (он)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Способ решения задачи или отношение к чему-либо.",
+                            "examples": [
+                                    "Нам нужен инновационный подход к организации труда."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_social_050",
+            "word": "конкурентоспособность (она)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Способность успешно соперничать на рынке.",
+                            "examples": [
+                                    "Это решение может повысить конкурентоспособность нашей страны."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_social_051",
+            "word": "затраты (они)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Расходы ресурсов (денег, времени) на что-либо.",
+                            "examples": [
+                                    "Многие опасаются роста затрат на оплату сверхурочных."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_social_052",
+            "word": "сверхурочные (они)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "social",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Работа сверх установленного рабочего времени.",
+                            "examples": [
+                                    "Сотрудники не должны работать сверхурочные в свой новый выходной."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_psychology_001",
+            "word": "исправление (оно)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "psychology",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "действие по устранению ошибок, замечание с целью сделать речь правильной.",
+                            "examples": [
+                                    "Постоянное исправление ошибок ребенка во время разговора может вызвать у него страх речи."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_psychology_002",
+            "word": "снобизм (он)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "psychology",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "высокомерное отношение к тем, кого считают ниже себя по уровню культуры.",
+                            "examples": [
+                                    "Интеллектуальный снобизм часто проявляется в публичном высмеивании чужой неграмотности."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_psychology_003",
+            "word": "диалект (он)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "psychology",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "разновидность языка, употребляемая ограниченным числом людей.",
+                            "examples": [
+                                    "Многие слова, которые кажутся нам неправильными, являются частью южного диалекта."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_psychology_004",
+            "word": "норма (она)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "psychology",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "общепринятое, узаконенное правило использования языковых средств.",
+                            "examples": [
+                                    "Литературная норма русского языка постоянно меняется под давлением разговорной речи."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_psychology_005",
+            "word": "грамотность (она)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "psychology",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "умение правильно писать и говорить в соответствии с правилами.",
+                            "examples": [
+                                    "Фундаментальная грамотность остается важным требованием при приеме на престижную работу."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_psychology_006",
+            "word": "высокомерие (оно)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "psychology",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "надменное отношение к окружающим, вера в собственное превосходство.",
+                            "examples": [
+                                    "Речевое высокомерие отталкивает людей и мешает свободному обмену мнениями."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_psychology_007",
+            "word": "развитие (оно)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "psychology",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "процесс постепенного изменения и совершенствования языка.",
+                            "examples": [
+                                    "Естественное развитие разговорной речи невозможно остановить никакими законами."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_psychology_008",
+            "word": "упрощение (оно)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "psychology",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "облегчение структуры или правил языка для удобства общения.",
+                            "examples": [
+                                    "Упрощение падежных окончаний — это общий тренд для многих европейских языков."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_psychology_009",
+            "word": "отношение (оно)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "psychology",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "мысленное или эмоциональное положение, позиция к чему-либо.",
+                            "examples": [
+                                    "Ваше теплое отношение к собеседнику важнее, чем его идеальное произношение."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
+    },
+    {
+            "id": "ru_intermediate_psychology_010",
+            "word": "замечание (оно)",
+            "lang": "ru",
+            "level": "intermediate",
+            "theme": "psychology",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "краткое суждение, выговор или указание на ошибку собеседника.",
+                            "examples": [
+                                    "Обидное замечание о чужом акценте может навсегда лишить человека желания учиться."
+                            ]
+                    }
+            ],
+            "transcription": "-",
+            "emoji": "❓"
     }
-];
+    ];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    window.adjectivesData = window.adjectivesData || {};
+    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data.filter(x => x.form === "adjective")];
 })();
