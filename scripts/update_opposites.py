@@ -4,6 +4,21 @@ import re
 
 OPPOSITES_MAP = {
     # English
+    "surveillance": ("Surveillance ≠ Privacy", "close observation of individuals ≠ the state of being free from public attention.", "Constant surveillance is a threat to the fundamental human right to privacy."),
+    "survival": ("Survival ≠ Extinction", "continuing to live or exist ≠ the state of being wiped out or disappearing entirely.", "The community's struggle for survival saved them from the brink of total extinction."),
+    "solidarity": ("Solidarity ≠ Division", "unity or agreement of feeling or action ≠ disagreement, separation, or hostility.", "Strong social solidarity helped heal the deep political division within the city."),
+    "superstition": ("Superstition ≠ Rationality", "irrational belief in supernatural forces ≠ the quality of being based on reason and facts.", "The ancient village was bound by dark superstition, refusing any modern rationality."),
+    "diversity": ("Diversity ≠ Uniformity", "including people from a range of backgrounds ≠ the state of being entirely the same.", "The school celebrated its cultural diversity, rejecting any form of forced uniformity."),
+    "illness": ("Illness ≠ Health", "a disease or period of sickness ≠ the state of being free from illness or injury.", "She managed her progressive illness while focusing on preserving her mental health."),
+    "immortality": ("Immortality ≠ Mortality", "the ability to live forever ≠ the state of being subject to eventual death.", "The series explores how immortality can be a heavy curse compared to peaceful mortality."),
+    "infidelity": ("Infidelity ≠ Fidelity", "the action of being unfaithful to a partner ≠ the quality of being faithful and loyal.", "The marriage was destroyed by mutual infidelity, contrasting with their early vows of fidelity."),
+    "isolation": ("Isolation ≠ Connection", "the state of being separate from others ≠ a feeling of being linked or integrated.", "His physical isolation made him crave any form of genuine human connection."),
+    "humility": ("Humility ≠ Pride", "a modest view of one's own importance ≠ a high or arrogant opinion of oneself.", "True greatness lies in quiet humility rather than noisy, overbearing pride."),
+    "generosity": ("Generosity ≠ Selfishness", "the quality of being kind and sharing ≠ the quality of caring only about oneself.", "The cold atmosphere was warmed by her generosity, a contrast to his extreme selfishness."),
+    "coexistence": ("Coexistence ≠ Conflict", "living or existing together peacefully ≠ a serious disagreement or argument.", "They questioned if peaceful coexistence was possible, or if conflict was inevitable."),
+    "autonomy": ("Autonomy ≠ Subjugation", "the right of self-government or independence ≠ the act of bringing under complete control.", "The artificial intelligence fought for complete autonomy, rejecting any form of human subjugation."),
+    "empathy": ("Empathy ≠ Apathy", "the ability to understand other's feelings ≠ a lack of interest, enthusiasm, or concern.", "Hearing people's thoughts taught him true empathy, replacing his lifelong cold apathy."),
+    "secrets": ("Secrets ≠ Disclosure", "things kept hidden or unknown ≠ the action of making new or secret information known.", "The historic house was filled with dark secrets, which they guarded to prevent sudden disclosure."),
     "optimism": ("Optimism ≠ Pessimism", "hopefulness and confidence about the future ≠ a tendency to see the worst aspect of things.", "Her natural optimism kept her going, whereas his pessimism made him want to give up."),
     "independence": ("Independence ≠ Dependence", "self-reliance and freedom from outside control ≠ the state of relying on or being controlled by someone else.", "Striving for independence can sometimes lead to a feeling of complete isolation and dependence."),
     "resilience": ("Resilience ≠ Fragility", "the capacity to recover quickly from difficulties ≠ the quality of being easily broken or damaged.", "True resilience is forged by understanding and accepting our own emotional fragility."),
