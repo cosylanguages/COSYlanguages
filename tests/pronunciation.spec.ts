@@ -10,7 +10,7 @@ declare global {
 
 test('vocabulary pronunciation button injection and playback', async ({ page }) => {
   // Load a speaking club session page
-  const filePath = `file://${path.resolve('events/sessions/4-day-work-week.html')}`;
+  const filePath = `file://${path.resolve('events/sessions/debatable-relatable/4-day-work-week.html')}`;
 
   // Set up mock/spy for speechSynthesis before navigation
   await page.addInitScript(() => {
