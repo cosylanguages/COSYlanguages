@@ -332,6 +332,97 @@
         window.speechSynthesis.speak(utterance);
     };
 
+    /* ─── VIDEO PLAYER & DISCLAIMER INJECTION ────────────────────── */
+    const setupEmbeddedVideoPlayers = () => {
+        // Prevent duplicate setups
+        if (document.querySelector('.cosy-video-wrapper')) return;
+
+        // Find all links to YouTube on the page
+        const links = Array.from(document.querySelectorAll('a'));
+        const youtubeLinks = links.filter(link => {
+            const href = link.getAttribute('href') || '';
+            return href.includes('youtube.com/') || href.includes('youtu.be/');
+        });
+
+        if (youtubeLinks.length === 0) return;
+
+        const getYouTubeId = (url) => {
+            if (!url) return null;
+            const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+            const match = url.match(regExp);
+            return (match && match[2].length === 11) ? match[2] : null;
+        };
+
+        const docLang = document.documentElement.lang || 'en';
+        const disclaimers = {
+            'en': 'Source: YouTube. This material is used strictly for educational purposes only.',
+            'fr': 'Source : YouTube. Ce matériel est utilisé uniquement à des fins éducatives.',
+            'ru': 'Источник: YouTube. Данный материал используется исключительно в образовательных целях.',
+            'es': 'Fuente: YouTube. Este material se utiliza únicamente con fines educativos.',
+            'it': 'Fonte: YouTube. Questo materiale viene utilizzato esclusivamente a scopo didattico.',
+            'el': 'Πηγή: YouTube. Αυτό το υλικό χρησιμοποιείται αποκλειστικά για εκπαιδευτικούς σκοπούς.'
+        };
+        const disclaimerText = disclaimers[docLang.toLowerCase()] || disclaimers['en'];
+
+        // Find any .lyrics-container (Karaoke Club Pages)
+        const lyricContainers = Array.from(document.querySelectorAll('.lyrics-container'));
+
+        if (lyricContainers.length > 0) {
+            lyricContainers.forEach(container => {
+                // Find nearest YouTube link for this lyrics block (inside the same vim-choice-option if exists)
+                const choiceParent = container.closest('vim-choice-option-content') || container.closest('vim-choice-option');
+                let targetLink = null;
+                if (choiceParent) {
+                    const parentLinks = Array.from(choiceParent.querySelectorAll('a'));
+                    targetLink = parentLinks.find(link => {
+                        const href = link.getAttribute('href') || '';
+                        return href.includes('youtube.com/') || href.includes('youtu.be/');
+                    });
+                }
+                if (!targetLink) {
+                    // Fallback to first available YouTube link on the page that has a valid ID
+                    targetLink = youtubeLinks.find(link => getYouTubeId(link.getAttribute('href')));
+                }
+
+                const videoId = getYouTubeId(targetLink?.getAttribute('href'));
+                if (videoId) {
+                    const playerWrapper = document.createElement('div');
+                    playerWrapper.className = 'cosy-video-wrapper';
+                    playerWrapper.innerHTML = `
+                        <div class="cosy-video-container">
+                            <iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
+                        </div>
+                        <div class="cosy-video-disclaimer">
+                            <span>ℹ️ ${disclaimerText}</span>
+                        </div>
+                    `;
+                    container.parentNode.insertBefore(playerWrapper, container);
+                }
+            });
+        } else {
+            // For other pages (like Speaking Club pages with a single YouTube source), find the meta grid
+            const metaGrid = document.querySelector('.session-meta-grid');
+            if (metaGrid) {
+                // Find the first YouTube link on the page that has a valid ID
+                const targetLink = youtubeLinks.find(link => getYouTubeId(link.getAttribute('href')));
+                const videoId = getYouTubeId(targetLink?.getAttribute('href'));
+                if (videoId) {
+                    const playerWrapper = document.createElement('div');
+                    playerWrapper.className = 'cosy-video-wrapper';
+                    playerWrapper.innerHTML = `
+                        <div class="cosy-video-container">
+                            <iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
+                        </div>
+                        <div class="cosy-video-disclaimer">
+                            <span>ℹ️ ${disclaimerText}</span>
+                        </div>
+                    `;
+                    metaGrid.parentNode.insertBefore(playerWrapper, metaGrid.nextSibling);
+                }
+            }
+        }
+    };
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         setupHeaderShrink();
@@ -366,6 +457,7 @@
         window.updateDailyDose();
         if (window.COSY && window.COSY.renderDict) window.COSY.renderDict();
         setupVocabPronunciation();
+        setupEmbeddedVideoPlayers();
     };
 
     window.updateDailyDose = function() {
