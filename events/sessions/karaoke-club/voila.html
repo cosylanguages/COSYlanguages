@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>voila — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>voila</h1>
+  <p class="session-date">Barbara Pravi • B2</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../">Accueil</a> <span class="sep">/</span>
+    <a href="../../">Événements</a> <span class="sep">/</span>
+    <a href="../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">voila</span>
+  </nav>
+  <a href="../../karaoke-club.html" class="back-link">← Retour au club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durée</h4><p>90–120 minutes</p></div>
+    <div class="meta-item"><h4>Langue</h4><p>Français</p></div>
+    <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire Supérieur (B2)</p></div>
+    <div class="meta-item"><h4>Thème</h4><p>Authenticité & Expression de soi</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/watch?v=VJuD7AnV-uw" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/watch?v=VJuD7AnV-uw" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Thème: Authenticité & Expression de soi</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Nous allons discuter de:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Présentation</li>
+      <li>Authenticité</li>
+      <li>Voix</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (20%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (10%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Étape 1 : Échauffement</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>Quelle est l'importance de ce thème de discussion dans votre vie quotidienne ?</li>
+            <li>Regardez le titre 'voila' et l'artiste 'Barbara Pravi'. Selon vous, de quoi parle cette chanson ? (Question de prédiction)</li>
+            <li>Quelles émotions ou quels sentiments ce style de musique vous inspire-t-il ?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Étape 2 : Vocabulaire</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concepts clés & Émotions</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La présentation</div><div class="vocab-def">action de présenter quelqu'un ou quelque chose.</div><div class="vocab-example">La présentation du nouveau projet a été un grand succès.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La présentation', definition:'action de présenter quelqu\'un ou quelque chose.', example:'La présentation du nouveau projet a été un grand succès.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'authenticité</div><div class="vocab-def">qualité de ce qui est authentique, vrai.</div><div class="vocab-example">Le public apprécie l'authenticité de cet artiste.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'authenticité', definition:'qualité de ce qui est authentique, vrai.', example:'Le public apprécie l\'authenticité de cet artiste.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La voix</div><div class="vocab-def">ensemble des sons produits par les cordes vocales.</div><div class="vocab-example">Sa voix douce et mélodieuse calme immédiatement les enfants.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La voix', definition:'ensemble des sons produits par les cordes vocales.', example:'Sa voix douce et mélodieuse calme immédiatement les enfants.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La vulnérabilité</div><div class="vocab-def">caractère de ce qui est vulnérable, fragile.</div><div class="vocab-example">Admettre sa vulnérabilité demande une grande force morale.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La vulnérabilité', definition:'caractère de ce qui est vulnérable, fragile.', example:'Admettre sa vulnérabilité demande une grande force morale.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le public</div><div class="vocab-def">ensemble des personnes qui assistent à un spectacle.</div><div class="vocab-example">Le public a applaudi chaleureusement la chanteuse.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le public', definition:'ensemble des personnes qui assistent à un spectacle.', example:'Le public a applaudi chaleureusement la chanteuse.'}, this)">+ Dictionary</button></div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vie, Actions & Connexion</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Se donner</div><div class="vocab-def">se consacrer entièrement à une tâche ou une cause.</div><div class="vocab-example">Il faut se donner à fond pour réussir ses examens.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contraire :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Se retenir</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Se donner', definition:'se consacrer entièrement à une tâche ou une cause.', example:'Il faut se donner à fond pour réussir ses examens.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La scène</div><div class="vocab-def">espace surélevé où se produisent les artistes.</div><div class="vocab-example">Elle est montée sur scène sous les applaudissements.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La scène', definition:'espace surélevé où se produisent les artistes.', example:'Elle est montée sur scène sous les applaudissements.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'artiste</div><div class="vocab-def">personne qui crée des œuvres d'art ou se produit.</div><div class="vocab-example">Cet artiste peintre expose ses toiles dans le monde entier.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'artiste', definition:'personne qui crée des œuvres d\'art ou se produit.', example:'Cet artiste peintre expose ses toiles dans le monde entier.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'écoute</div><div class="vocab-def">action d'écouter attentivement.</div><div class="vocab-example">La qualité d'écoute est essentielle dans une relation.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'écoute', definition:'action d\'écouter attentivement.', example:'La qualité d\'écoute est essentielle dans une relation.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Le destin</div><div class="vocab-def">puissance qui semble régler le cours de la vie.</div><div class="vocab-example">Elle croit fermement que son destin est entre ses mains.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Le destin', definition:'puissance qui semble régler le cours de la vie.', example:'Elle croit fermement que son destin est entre ses mains.'}, this)">+ Dictionary</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Étape 3 : Écoute</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banque de mots / Aide :</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">authenticité</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">voix</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">vulnérabilité</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">public</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">scène</span>
+          </div>
+        </div>
+
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Voilà, regardez-moi<br>Ou du moins ce qu'il reste de moi<br>Une quête d'[__________] sincère<br>Portée par ma puissante [__________]<br><br>J'expose ma grande [__________] nue<br>Devant ce grand [__________] inconnu<br>Seule debout sur cette immense [__________]<br>Pour vous offrir ma plus belle âme</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Étape 4 : Discussion</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la présentation</strong> se manifeste-t-il dans les paroles de 'voila' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la présentation</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'authenticité</strong> se manifeste-t-il dans les paroles de 'voila' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'authenticité</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la voix</strong> se manifeste-t-il dans les paroles de 'voila' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la voix</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la vulnérabilité</strong> se manifeste-t-il dans les paroles de 'voila' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la vulnérabilité</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le public</strong> se manifeste-t-il dans les paroles de 'voila' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le public</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>se donner</strong> se manifeste-t-il dans les paroles de 'voila' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>se donner</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>la scène</strong> se manifeste-t-il dans les paroles de 'voila' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>la scène</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'artiste</strong> se manifeste-t-il dans les paroles de 'voila' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'artiste</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>l'écoute</strong> se manifeste-t-il dans les paroles de 'voila' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>l'écoute</strong> joue un rôle important dans votre quotidien ?</div></div>
+          <div class="round-item"><div class="round-item-main">Comment le concept de <strong>le destin</strong> se manifeste-t-il dans les paroles de 'voila' ?</div><div class="round-item-personal">★ Pensez-vous que <strong>le destin</strong> joue un rôle important dans votre quotidien ?</div></div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la présentation</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'authenticité</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la voix</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la vulnérabilité</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le public</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>se donner</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>la scène</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'artiste</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>l'écoute</strong> est devenu un défi quotidien.</div></div>
+          <div class="round-item"><div class="round-item-main">Dans notre société moderne et connectée, préserver <strong>le destin</strong> est devenu un défi quotidien.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Étape 5 : Point de langue</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">L'expression de la condition avec 'Si'</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Pour exprimer une hypothèse réelle ou imaginaire, on utilise 'si' suivi du présent ou de l'imparfait.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Si tu écoutes attentivement, tu comprendras les paroles.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Si j'avais le temps, je chanterais tous les jours.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Si nous partageons notre passion, nous progresserons ensemble.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Étape 6 : Défi final</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Imaginez la suite de cette chanson : jouez une conversation entre les personnages principaux 5 ans plus tard.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Notes du Professeur (Corrections Linguistiques)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Je suis d'accord <span class="mistake-highlight">pour</span> ta philosophie</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Je suis d'accord avec ta philosophie</span>
+            <span class="mistake-note-text">(Utilisez la préposition 'avec' après 'être d'accord'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Il a fait beaucoup <span class="mistake-highlight">des</span> sacrifices</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Il a fait beaucoup de sacrifices</span>
+            <span class="mistake-note-text">(Utilisez 'de' après l'adverbe de quantité 'beaucoup'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Ses paroles m'ont blessé <span class="mistake-highlight">beaucoup</span></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Ses paroles m'ont beaucoup blessé</span>
+            <span class="mistake-note-text">(En français, l'adverbe se place avant le participe passé.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>

@@ -4,7 +4,7 @@ import os
 import re
 
 MD_PATH = "notebook/cinema_club_brainstorm.md"
-OUTPUT_DIR = "events/sessions"
+OUTPUT_DIR = "events/sessions/cinema-club"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Curated high-fidelity dictionary of definitions and film-oriented examples
@@ -182,14 +182,14 @@ SESSION_TEMPLATE = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
 </head>
 <body>
 <nav id="cosy-nav"></nav>
@@ -200,12 +200,12 @@ SESSION_TEMPLATE = """<!DOCTYPE html>
 </header>
 <main class="content-container">
   <nav class="cosy-breadcrumbs">
-    <a href="../../">Home</a> <span class="sep">/</span>
-    <a href="../">Events</a> <span class="sep">/</span>
-    <a href="../cinema-club.html">Cinema Club</a> <span class="sep">/</span>
+    <a href="../../../">Home</a> <span class="sep">/</span>
+    <a href="../../">Events</a> <span class="sep">/</span>
+    <a href="../../cinema-club.html">Cinema Club</a> <span class="sep">/</span>
     <span class="current">{title}</span>
   </nav>
-  <a href="../cinema-club.html" class="back-link">← Back to Club</a>
+  <a href="../../cinema-club.html" class="back-link">← Back to Club</a>
   <div class="session-meta-grid">
     <div class="meta-item"><h4>Duration</h4><p>90 minutes</p></div>
     <div class="meta-item"><h4>Variety</h4><p>{variety}</p></div>
@@ -301,15 +301,15 @@ SESSION_TEMPLATE = """<!DOCTYPE html>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
   <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
   </div>
   <p>© 2026 COSYlanguages — All rights reserved.</p>
 </footer>
-<script src="../../js/core/engine.js"></script>
-<script src="../../js/core/ui.js"></script>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
 </body>
 </html>"""
 
