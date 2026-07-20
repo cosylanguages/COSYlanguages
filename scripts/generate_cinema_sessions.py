@@ -338,7 +338,14 @@ for idx, r in enumerate(rows):
     elif "queens" in slug:
         slug = "the-queens-gambit"
 
-    lang = "fr" if "french" in variety.lower() else ("ru" if "russian" in variety.lower() else ("es" if "spanish" in variety.lower() else "en"))
+    if "french language" in variety.lower() or "french / arabic" in variety.lower():
+        lang = "fr"
+    elif "russian language" in variety.lower():
+        lang = "ru"
+    elif "spanish language" in variety.lower():
+        lang = "es"
+    else:
+        lang = "en"
 
     generic_vocab, authentic_vocab = get_definitions_for_movie(title, focus, slang_raw, idx)
 
