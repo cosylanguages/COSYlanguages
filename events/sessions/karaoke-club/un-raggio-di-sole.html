@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>un raggio di sole — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>un raggio di sole</h1>
+  <p class="session-date">Jovanotti • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../">Home</a> <span class="sep">/</span>
+    <a href="../../">Eventi</a> <span class="sep">/</span>
+    <a href="../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">un raggio di sole</span>
+  </nav>
+  <a href="../../karaoke-club.html" class="back-link">← Torna al club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durata</h4><p>90–120 minutes</p></div>
+    <div class="meta-item"><h4>Lingua</h4><p>Italiano</p></div>
+    <div class="meta-item"><h4>Livello</h4><p>Intermedio (B1)</p></div>
+    <div class="meta-item"><h4>Tema</h4><p>Gioia & Natura</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/results?search_query=un+raggio+di+sole+Jovanotti" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/results?search_query=un+raggio+di+sole+Jovanotti" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Tema: Gioia & Natura</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Discuteremo di:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Il raggio</li>
+      <li>Il sole</li>
+      <li>Luce ≠ oscurità</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (20%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (10%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Fase 1: Riscaldamento</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>Quanto ritieni importante questo tema di discussione nella tua vita quotidiana?</li>
+            <li>Guarda il titolo 'un raggio di sole' e l'artista 'Jovanotti'. Secondo te, di cosa parlerà questa canzone? (Domanda di predizione)</li>
+            <li>Quali emozioni ti trasmette questo stile di musica?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Fase 2: Vocabolario</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concetti chiave & Emozioni</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il raggio</div><div class="vocab-def">fascio sottile di luce.</div><div class="vocab-example">Un raggio di sole è penetrato attraverso la finestra.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il raggio', definition:'fascio sottile di luce.', example:'Un raggio di sole è penetrato attraverso la finestra.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il sole</div><div class="vocab-def">la stella che illumina e riscalda la Terra.</div><div class="vocab-example">Il sole brilla alto nel cielo estivo.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il sole', definition:'la stella che illumina e riscalda la Terra.', example:'Il sole brilla alto nel cielo estivo.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La luce ≠ L'oscurità</div><div class="vocab-def">radiazione che rende visibili gli oggetti ≠ assenza di luce, buio fitto.</div><div class="vocab-example">Una piccola candela è sufficiente per portare la luce e sconfiggere l'oscurità della stanza.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La luce ≠ L'oscurità', definition:'radiazione che rende visibili gli oggetti ≠ assenza di luce, buio fitto.', example:'Una piccola candela è sufficiente per portare la luce e sconfiggere l\'oscurità della stanza.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La gioia ≠ La tristezza</div><div class="vocab-def">intensa emozione di felicità e allegria ≠ stato d'animo malinconico e doloroso.</div><div class="vocab-example">La gioia di stare insieme ha cancellato in un attimo la tristezza dei mesi di lontananza.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La gioia ≠ La tristezza', definition:'intensa emozione di felicità e allegria ≠ stato d\'animo malinconico e doloroso.', example:'La gioia di stare insieme ha cancellato in un attimo la tristezza dei mesi di lontananza.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La natura</div><div class="vocab-def">il mondo fisico con tutti i suoi esseri.</div><div class="vocab-example">Dobbiamo imparare a vivere in armonia con la natura.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La natura', definition:'il mondo fisico con tutti i suoi esseri.', example:'Dobbiamo imparare a vivere in armonia con la natura.'}, this)">+ Dictionary</button></div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vita, Azioni & Connessione</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La speranza</div><div class="vocab-def">sentimento di fiduciosa attesa di un bene futuro.</div><div class="vocab-example">La speranza è l'ultima a morire nei momenti difficili.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La speranza', definition:'sentimento di fiduciosa attesa di un bene futuro.', example:'La speranza è l\'ultima a morire nei momenti difficili.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Riscaldare</div><div class="vocab-def">rendere caldo o tiepido.</div><div class="vocab-example">Una tazza di tè caldo aiuta a riscaldare il corpo d'inverno.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contrario :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Raffreddare</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Riscaldare', definition:'rendere caldo o tiepido.', example:'Una tazza di tè caldo aiuta a riscaldare il corpo d\'inverno.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La felicità</div><div class="vocab-def">stato di totale benessere e soddisfazione.</div><div class="vocab-example">La felicità risiede spesso nelle cose semplici della vita.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La felicità', definition:'stato di totale benessere e soddisfazione.', example:'La felicità risiede spesso nelle cose semplici della vita.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il mattino</div><div class="vocab-def">la prima parte del giorno.</div><div class="vocab-example">Il mattino ha l'oro in bocca, dice un vecchio proverbio.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il mattino', definition:'la prima parte del giorno.', example:'Il mattino ha l\'oro in bocca, dice un vecchio proverbio.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La bellezza</div><div class="vocab-def">qualità di ciò che è bello e piacevole da vedere.</div><div class="vocab-example">La bellezza del tramonto sul mare ci ha lasciati senza parole.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La bellezza', definition:'qualità di ciò che è bello e piacevole da vedere.', example:'La bellezza del tramonto sul mare ci ha lasciati senza parole.'}, this)">+ Dictionary</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Fase 3: Ascolto</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">raggio</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">sole</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">luce</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">gioia</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">natura</span>
+          </div>
+        </div>
+
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Un raggio di sole per te<br>Che illumina tutto intorno a me<br>Un piccolo [__________] dorato<br>In questo cielo stellato<br><br>Sotto la calda luce del [__________]<br>Il mio cuore si è risvegliato<br>Una grande [__________] ci accompagna<br>Attraverso questa bella [__________]</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Fase 4: Discussione</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il raggio</strong> influisce sul testo di 'un raggio di sole'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il raggio</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il sole</strong> influisce sul testo di 'un raggio di sole'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il sole</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la luce ≠ l'oscurità</strong> influisce sul testo di 'un raggio di sole'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la luce ≠ l'oscurità</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la gioia ≠ la tristezza</strong> influisce sul testo di 'un raggio di sole'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la gioia ≠ la tristezza</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la natura</strong> influisce sul testo di 'un raggio di sole'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la natura</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la speranza</strong> influisce sul testo di 'un raggio di sole'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la speranza</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>riscaldare</strong> influisce sul testo di 'un raggio di sole'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>riscaldare</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la felicità</strong> influisce sul testo di 'un raggio di sole'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la felicità</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il mattino</strong> influisce sul testo di 'un raggio di sole'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il mattino</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la bellezza</strong> influisce sul testo di 'un raggio di sole'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la bellezza</strong> nella tua vita?</div></div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il raggio</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il sole</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la luce ≠ l'oscurità</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la gioia ≠ la tristezza</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la natura</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la speranza</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>riscaldare</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la felicità</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il mattino</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la bellezza</strong> è diventato quasi impossibile.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Fase 5: Focus linguistico</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">L'espressione del Futuro Semplice</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Il futuro semplice si usa per esprimere azioni che avverranno nel futuro o per fare promesse.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Domani ascolteremo questa bellissima canzone insieme.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Chi sarà con te quando il cammino si farà difficile?</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Il sole riscalderà la spiaggia durante l'estate.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Fase 6: Sfida finale</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Immagina il seguito di questa canzone: fai un gioco di ruolo di una conversazione tra i personaggi principali 5 anni dopo.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Note dell'Insegnante (Correzioni Linguistiche)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Sono d'accordo <span class="mistake-highlight">di</span> questa decisione</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Sono d'accordo con questa decisione</span>
+            <span class="mistake-note-text">(Usa la preposizione 'con' per esprimere accordo.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Ho fatto un viaggio <span class="mistake-highlight">per</span> Roma</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Ho fatto un viaggio a Roma</span>
+            <span class="mistake-note-text">(Usa la preposizione 'a' prima del nome di una città.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Mi piace ascoltare <span class="mistake-highlight">alla</span> musica</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Mi piace ascoltare la musica</span>
+            <span class="mistake-note-text">(Il verbo 'ascoltare' è transitivo e non richiede preposizione.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>

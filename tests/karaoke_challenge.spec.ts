@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Karaoke Club Challenge Tabbed layout Verification', () => {
   test('Maëlle Challenge page should load with correct metadata and tab layout', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/sessions/maelle-challenge.html');
+    await page.goto('http://localhost:8080/events/sessions/karaoke-club/maelle-challenge.html');
     await expect(page.locator('h1')).toContainText('Maëlle Challenge');
 
     // 1. Duration should be exactly 90 minutes
@@ -36,7 +36,7 @@ test.describe('Karaoke Club Challenge Tabbed layout Verification', () => {
   });
 
   test('Crazy Ex-Girlfriend Challenge page should load with 26 tabs', async ({ page }) => {
-    await page.goto('http://localhost:8080/events/sessions/crazy-ex-girlfriend-challenge.html');
+    await page.goto('http://localhost:8080/events/sessions/karaoke-club/crazy-ex-girlfriend-challenge.html');
     await expect(page.locator('h1')).toContainText('Crazy Ex-Girlfriend Challenge');
 
     // Duration should be exactly 90 minutes

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>nuevo verano — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>nuevo verano</h1>
+  <p class="session-date">Amaia • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../">Inicio</a> <span class="sep">/</span>
+    <a href="../../">Eventos</a> <span class="sep">/</span>
+    <a href="../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">nuevo verano</span>
+  </nav>
+  <a href="../../karaoke-club.html" class="back-link">← Volver al club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duración</h4><p>90–120 minutes</p></div>
+    <div class="meta-item"><h4>Idioma</h4><p>Español</p></div>
+    <div class="meta-item"><h4>Nivel</h4><p>Intermedio (B1)</p></div>
+    <div class="meta-item"><h4>Tema</h4><p>Los veranos que nos marcan</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/watch?v=UQ9QvM2zt6Y" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/watch?v=UQ9QvM2zt6Y" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Tema: Los veranos que nos marcan</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Discutiremos sobre:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>El verano ≠ el invierno</li>
+      <li>Nostalgia ≠ modernidad</li>
+      <li>El sol</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (20%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (10%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Etapa 1: Calentamiento</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>¿Qué tan importante es este tema de discusión en tu vida diaria?</li>
+            <li>Mira el título 'nuevo verano' y el artista 'Amaia'. En tu opinión, ¿de qué tratará esta canción? (Pregunta de predicción)</li>
+            <li>¿Qué tipo de sensaciones te transmite este estilo de música?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Etapa 2: Vocabulario</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Conceptos clave & Emociones</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">El verano ≠ El invierno</div><div class="vocab-def">la estación más calurosa del año ≠ la estación más fría del año.</div><div class="vocab-example">Durante el verano adoran nadar en el mar, mientras que en invierno prefieren esquiar en la montaña.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El verano ≠ El invierno', definition:'la estación más calurosa del año ≠ la estación más fría del año.', example:'Durante el verano adoran nadar en el mar, mientras que en invierno prefieren esquiar en la montaña.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La nostalgia ≠ La modernidad</div><div class="vocab-def">sentimiento de pena por la lejanía o el tiempo pasado ≠ cualidad de lo moderno o actual.</div><div class="vocab-example">Sintió una profunda nostalgia por el pueblo antiguo, un contraste total con la fría modernidad.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La nostalgia ≠ La modernidad', definition:'sentimiento de pena por la lejanía o el tiempo pasado ≠ cualidad de lo moderno o actual.', example:'Sintió una profunda nostalgia por el pueblo antiguo, un contraste total con la fría modernidad.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">El sol</div><div class="vocab-def">the state or situation of being alone.</div><div class="vocab-example">He enjoyed the quiet solitude of his study room.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El sol', definition:'the state or situation of being alone.', example:'He enjoyed the quiet solitude of his study room.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La playa</div><div class="vocab-def">ribera arenosa del mar o de un río.</div><div class="vocab-example">La playa estaba desierta y pacífica a primera hora.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La playa', definition:'ribera arenosa del mar o de un río.', example:'La playa estaba desierta y pacífica a primera hora.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">El amigo ≠ El enemigo</div><div class="vocab-def">persona que tiene una relación de amistad con otra ≠ persona que tiene una actitud de hostilidad o antipatía.</div><div class="vocab-example">Un verdadero amigo te apoyará siempre, defendiéndote de los ataques de cualquier enemigo.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El amigo ≠ El enemigo', definition:'persona que tiene una relación de amistad con otra ≠ persona que tiene una actitud de hostilidad o antipatía.', example:'Un verdadero amigo te apoyará siempre, defendiéndote de los ataques de cualquier enemigo.'}, this)">+ Dictionary</button></div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vida, Acciones & Conexión</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La juventud</div><div class="vocab-def">período de la vida entre la infancia y la edad madura.</div><div class="vocab-example">La juventud es una etapa de aprendizaje y descubrimientos.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La juventud', definition:'período de la vida entre la infancia y la edad madura.', example:'La juventud es una etapa de aprendizaje y descubrimientos.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">El cambio</div><div class="vocab-def">acción de cambiar o modificar algo.</div><div class="vocab-example">Este cambio de rutina le ha sentado muy bien a su salud.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El cambio', definition:'acción de cambiar o modificar algo.', example:'Este cambio de rutina le ha sentado muy bien a su salud.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Sonreír</div><div class="vocab-def">hacer el gesto de la sonrisa en señal de alegría.</div><div class="vocab-example">Es importante sonreír a pesar de las dificultades.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opuesto :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Llorar</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sonreír', definition:'hacer el gesto de la sonrisa en señal de alegría.', example:'Es importante sonreír a pesar de las dificultades.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">El recuerdo</div><div class="vocab-def">imagen del pasado que se conserva en la memoria.</div><div class="vocab-example">Tengo un hermoso recuerdo de nuestras vacaciones juntos.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El recuerdo', definition:'imagen del pasado que se conserva en la memoria.', example:'Tengo un hermoso recuerdo de nuestras vacaciones juntos.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">El futuro</div><div class="vocab-def">tiempo que está por venir.</div><div class="vocab-example">El futuro del planeta depende de nuestras acciones de hoy.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El futuro', definition:'tiempo que está por venir.', example:'El futuro del planeta depende de nuestras acciones de hoy.'}, this)">+ Dictionary</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Etapa 3: Escucha</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banco de palabras:</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">verano</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">nostalgia</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">sol</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">playa</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">amigo</span>
+          </div>
+        </div>
+
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Un nuevo verano comienza hoy<br>Y recuerdo bien de dónde soy<br>La cálida brisa del [__________] costero<br>Me acompaña en este sendero<br><br>Siento una dulce [__________] al cantar<br>Frente al inmenso mar<br>Bajo el brillo del dorado [__________]<br>Caminando por la blanca [__________]</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Etapa 4: Discusión</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>el verano ≠ el invierno</strong> en la letra de 'nuevo verano'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>el verano ≠ el invierno</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>la nostalgia ≠ la modernidad</strong> en la letra de 'nuevo verano'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>la nostalgia ≠ la modernidad</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>el sol</strong> en la letra de 'nuevo verano'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>el sol</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>la playa</strong> en la letra de 'nuevo verano'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>la playa</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>el amigo ≠ el enemigo</strong> en la letra de 'nuevo verano'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>el amigo ≠ el enemigo</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>la juventud</strong> en la letra de 'nuevo verano'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>la juventud</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>el cambio</strong> en la letra de 'nuevo verano'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>el cambio</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>sonreír</strong> en la letra de 'nuevo verano'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>sonreír</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>el recuerdo</strong> en la letra de 'nuevo verano'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>el recuerdo</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>el futuro</strong> en la letra de 'nuevo verano'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>el futuro</strong> en tu vida diaria?</div></div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>el verano ≠ el invierno</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>la nostalgia ≠ la modernidad</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>el sol</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>la playa</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>el amigo ≠ el enemigo</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>la juventud</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>el cambio</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>sonreír</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>el recuerdo</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>el futuro</strong> se ha vuelto sumamente complejo.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Etapa 5: Enfoque de idioma</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">El uso de 'Para' + Infinitivo</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Se utiliza para expresar el propósito o la finalidad de una acción realizada.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Caminamos por la playa para sentir la brisa del mar.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Necesitamos tolerancia para construir una paz duradera.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Canto esta canción para expresar mi orgullo y felicidad.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Etapa 6: Desafío final</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Imagina la secuela de esta canción: haz un juego de rol de una conversación entre los personajes principales 5 años después.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Nota del Profesor (Correcciones Lingüísticas)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Estoy de acuerdo <span class="mistake-highlight">de</span> tu opinión</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Estoy de acuerdo con tu opinión</span>
+            <span class="mistake-note-text">(Usa la preposición 'con' para expresar acuerdo con algo.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">He caminado <span class="mistake-highlight">por</span> tres horas</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">He caminado durante tres horas</span>
+            <span class="mistake-note-text">(Usa 'durante' para indicar duración de tiempo.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">El sol brilla <span class="mistake-highlight">muy</span> fuerte</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">El sol brilla con mucha fuerza</span>
+            <span class="mistake-note-text">(Es más natural decir 'con mucha fuerza' para describir el brillo.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>

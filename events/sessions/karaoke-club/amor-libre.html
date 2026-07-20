@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>amor libre — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>amor libre</h1>
+  <p class="session-date">Esteman • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../">Inicio</a> <span class="sep">/</span>
+    <a href="../../">Eventos</a> <span class="sep">/</span>
+    <a href="../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">amor libre</span>
+  </nav>
+  <a href="../../karaoke-club.html" class="back-link">← Volver al club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duración</h4><p>90–120 minutes</p></div>
+    <div class="meta-item"><h4>Idioma</h4><p>Español</p></div>
+    <div class="meta-item"><h4>Nivel</h4><p>Intermedio (B1)</p></div>
+    <div class="meta-item"><h4>Tema</h4><p>Amor sin etiquetas</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/watch?v=1Hc9ekRxs0g" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/watch?v=1Hc9ekRxs0g" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Tema: Amor sin etiquetas</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Discutiremos sobre:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Libertad</li>
+      <li>El amor</li>
+      <li>El orgullo</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (20%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (10%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Etapa 1: Calentamiento</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>¿Qué tan importante es este tema de discusión en tu vida diaria?</li>
+            <li>Mira el título 'amor libre' y el artista 'Esteman'. En tu opinión, ¿de qué tratará esta canción? (Pregunta de predicción)</li>
+            <li>¿Qué tipo de sensaciones te transmite este estilo de música?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Etapa 2: Vocabulario</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Conceptos clave & Emociones</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La libertad</div><div class="vocab-def">estado o facultad del que es libre y no está sometido.</div><div class="vocab-example">La libertad es el valor más preciado de la humanidad.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La libertad', definition:'estado o facultad del que es libre y no está sometido.', example:'La libertad es el valor más preciado de la humanidad.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">El amor</div><div class="vocab-def">sentimiento de afecto y atracción hacia alguien.</div><div class="vocab-example">El amor de una madre es incondicional y eterno.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El amor', definition:'sentimiento de afecto y atracción hacia alguien.', example:'El amor de una madre es incondicional y eterno.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">El orgullo</div><div class="vocab-def">sentimiento de satisfacción y dignidad propia.</div><div class="vocab-example">Sintió un gran orgullo al recibir su título universitario.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El orgullo', definition:'sentimiento de satisfacción y dignidad propia.', example:'Sintió un gran orgullo al recibir su título universitario.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La aceptación ≠ El rechazo</div><div class="vocab-def">acción y efecto de aceptar o admitirse ≠ acción y efecto de rechazar o no admitir.</div><div class="vocab-example">La aceptación de la diversidad es fundamental para evitar el rechazo social.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La aceptación ≠ El rechazo', definition:'acción y efecto de aceptar o admitirse ≠ acción y efecto de rechazar o no admitir.', example:'La aceptación de la diversidad es fundamental para evitar el rechazo social.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">El respeto</div><div class="vocab-def">consideración acompañada de admiración por alguien.</div><div class="vocab-example">El respeto mutuo es la base de cualquier relación sana.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El respeto', definition:'consideración acompañada de admiración por alguien.', example:'El respeto mutuo es la base de cualquier relación sana.'}, this)">+ Dictionary</button></div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vida, Acciones & Conexión</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Sin prejuicios</div><div class="vocab-def">libre de opiniones preconcebidas.</div><div class="vocab-example">Debemos juzgar a las personas por sus actos, sin prejuicios.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opuesto :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Con prejuicios</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Sin prejuicios', definition:'libre de opiniones preconcebidas.', example:'Debemos juzgar a las personas por sus actos, sin prejuicios.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Caminar</div><div class="vocab-def">andar de un lugar a otro dando pasos.</div><div class="vocab-example">Le encanta caminar por el parque todas las mañanas.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Opuesto :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Parar</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Caminar', definition:'andar de un lugar a otro dando pasos.', example:'Le encanta caminar por el parque todas las mañanas.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La valentía ≠ La cobardía</div><div class="vocab-def">determinación para enfrentarse a situaciones difíciles o peligrosas ≠ falta de valor y pusilanimidad ante el peligro.</div><div class="vocab-example">Demostró una gran valentía al defender sus derechos frente a la cobardía de los demás.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La valentía ≠ La cobardía', definition:'determinación para enfrentarse a situaciones difíciles o peligrosas ≠ falta de valor y pusilanimidad ante el peligro.', example:'Demostró una gran valentía al defender sus derechos frente a la cobardía de los demás.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">El corazón</div><div class="vocab-def">órgano vital, símbolo de los sentimientos.</div><div class="vocab-example">Siempre debemos escuchar lo que nos dicta el corazón.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'El corazón', definition:'órgano vital, símbolo de los sentimientos.', example:'Siempre debemos escuchar lo que nos dicta el corazón.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La diversidad</div><div class="vocab-def">variedad o abundancia de cosas distintas.</div><div class="vocab-example">La diversidad cultural enriquece a nuestra sociedad.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La diversidad', definition:'variedad o abundancia de cosas distintas.', example:'La diversidad cultural enriquece a nuestra sociedad.'}, this)">+ Dictionary</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Etapa 3: Escucha</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banco de palabras:</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">libertad</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">amor</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">orgullo</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">aceptación</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">respeto</span>
+          </div>
+        </div>
+
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Amor libre, sin barreras<br>Bajo nuestras propias banderas<br>Reclamamos una absoluta [__________]<br>Para vivre a nuestra manera<br><br>Sintiendo un gran [__________] sincero<br>Por este gran [__________] verdadero<br>Buscando la plena [__________] social<br>Con un profundo [__________] mutuo</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Etapa 4: Discusión</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>la libertad</strong> en la letra de 'amor libre'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>la libertad</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>el amor</strong> en la letra de 'amor libre'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>el amor</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>el orgullo</strong> en la letra de 'amor libre'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>el orgullo</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>la aceptación ≠ el rechazo</strong> en la letra de 'amor libre'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>la aceptación ≠ el rechazo</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>el respeto</strong> en la letra de 'amor libre'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>el respeto</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>sin prejuicios</strong> en la letra de 'amor libre'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>sin prejuicios</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>caminar</strong> en la letra de 'amor libre'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>caminar</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>la valentía ≠ la cobardía</strong> en la letra de 'amor libre'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>la valentía ≠ la cobardía</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>el corazón</strong> en la letra de 'amor libre'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>el corazón</strong> en tu vida diaria?</div></div>
+          <div class="round-item"><div class="round-item-main">¿De qué manera influye el concepto de <strong>la diversidad</strong> en la letra de 'amor libre'?</div><div class="round-item-personal">★ ¿Qué tan importante es <strong>la diversidad</strong> en tu vida diaria?</div></div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>la libertad</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>el amor</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>el orgullo</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>la aceptación ≠ el rechazo</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>el respeto</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>sin prejuicios</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>caminar</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>la valentía ≠ la cobardía</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>el corazón</strong> se ha vuelto sumamente complejo.</div></div>
+          <div class="round-item"><div class="round-item-main">En la sociedad tecnológica actual, proteger <strong>la diversidad</strong> se ha vuelto sumamente complejo.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Etapa 5: Enfoque de idioma</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">El uso de 'Para' + Infinitivo</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Se utiliza para expresar el propósito o la finalidad de una acción realizada.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Caminamos por la playa para sentir la brisa del mar.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Necesitamos tolerancia para construir una paz duradera.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Canto esta canción para expresar mi orgullo y felicidad.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Etapa 6: Desafío final</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Imagina la secuela de esta canción: haz un juego de rol de una conversación entre los personajes principales 5 años después.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Nota del Profesor (Correcciones Lingüísticas)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Estoy de acuerdo <span class="mistake-highlight">de</span> tu opinión</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Estoy de acuerdo con tu opinión</span>
+            <span class="mistake-note-text">(Usa la preposición 'con' para expresar acuerdo con algo.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">He caminado <span class="mistake-highlight">por</span> tres horas</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">He caminado durante tres horas</span>
+            <span class="mistake-note-text">(Usa 'durante' para indicar duración de tiempo.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">El sol brilla <span class="mistake-highlight">muy</span> fuerte</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">El sol brilla con mucha fuerza</span>
+            <span class="mistake-note-text">(Es más natural decir 'con mucha fuerza' para describir el brillo.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>

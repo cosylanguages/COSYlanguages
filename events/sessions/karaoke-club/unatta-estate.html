@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>un'altra estate — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #4A154B, #2A0A35);">
+  <div class="club-tag">Karaoke Club</div>
+  <h1>un'altra estate</h1>
+  <p class="session-date">Diodato • B1</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../">Home</a> <span class="sep">/</span>
+    <a href="../../">Eventi</a> <span class="sep">/</span>
+    <a href="../../karaoke-club.html">Karaoke Club</a> <span class="sep">/</span>
+    <span class="current">un'altra estate</span>
+  </nav>
+  <a href="../../karaoke-club.html" class="back-link">← Torna al club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Durata</h4><p>90–120 minutes</p></div>
+    <div class="meta-item"><h4>Lingua</h4><p>Italiano</p></div>
+    <div class="meta-item"><h4>Livello</h4><p>Intermedio (B1)</p></div>
+    <div class="meta-item"><h4>Tema</h4><p>Libertà estiva</p></div>
+    <div class="meta-item"><h4>Resources</h4><p>
+      <a href="https://www.youtube.com/watch?v=D6TvAskGBx4" target="_blank" style="color:var(--teal); margin-right: 12px;">Music Video 🎥</a>
+      <a href="https://www.youtube.com/watch?v=D6TvAskGBx4" target="_blank" style="color:var(--teal);">Song Link (Backup) 🎵</a>
+    </p></div>
+    <div class="meta-item"><h4>Offline Access</h4><p><button onclick="window.print()" class="btn-print" style="background: var(--indigo); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s;"><span style="font-size: 1rem;">📄</span> Download PDF</button></p></div>
+  </div>
+
+  <div class="theme-box" style="background: var(--cream); border-radius: 16px; padding: 1.5rem; margin-bottom: 2rem; border: 1px dashed var(--border);">
+    <h3 style="margin-top:0; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Tema: Libertà estiva</h3>
+    <p style="margin-bottom:0.5rem; font-size:0.9rem; color:var(--ink-soft);">Discuteremo di:</p>
+    <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem; color:var(--ink-soft);">
+            <li>Estate ≠ inverno</li>
+      <li>Spiaggia</li>
+      <li>Il mare ≠ terra</li>
+      <li>Personal reflection</li>
+    </ul>
+  </div>
+
+  <div class="speaking-time-gauge" style="background: var(--warm-white); border-radius: 12px; padding: 1rem; margin-bottom: 3rem; border: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.5rem;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: bold; color: var(--muted);">
+      <span>🗣️ Speaking Time Gauge</span>
+      <span>90-120 min Session</span>
+    </div>
+    <div class="gauge-bar" style="display: flex; height: 12px; border-radius: 6px; overflow: hidden;">
+      <div style="width: 10%; background: #E67E22;" title="Warm-up (10%)"></div>
+      <div style="width: 15%; background: #3498DB;" title="Vocabulary (15%)"></div>
+      <div style="width: 20%; background: #9B59B6;" title="Listening (20%)"></div>
+      <div style="width: 45%; background: #2ECC71;" title="Discussion (45%)"></div>
+      <div style="width: 5%; background: #F1C40F;" title="Language Focus (5%)"></div>
+      <div style="width: 5%; background: #E74C3C;" title="Final Challenge (5%)"></div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem;">
+      <span>🎵 Warm-up (10%)</span>
+      <span>📚 Vocabulary (15%)</span>
+      <span>🎧 Listening (20%)</span>
+      <span>💬 Discussion (45%)</span>
+      <span>✨ Language Focus (10%)</span>
+      <span>🎭 Final Challenge (10%)</span>
+    </div>
+  </div>
+
+  <div class="rounds-container">
+    <div class="round-block warm-up open" id="s-warm">
+      <div class="round-header" style="background:#FAEEE8; cursor:pointer;" onclick="COSY.toggleRound('s-warm')">
+        <span>🎵 Fase 1: Riscaldamento</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block;">
+        <ul class="round-questions">
+            <li>Quanto ritieni importante questo tema di discussione nella tua vita quotidiana?</li>
+            <li>Guarda il titolo 'un'altra estate' e l'artista 'Diodato'. Secondo te, di cosa parlerà questa canzone? (Domanda di predizione)</li>
+            <li>Quali emozioni ti trasmette questo stile di musica?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="round-block open" id="vocabulary">
+      <div class="round-header" style="background:#E1F5EE; cursor:pointer;" onclick="COSY.toggleRound('vocabulary')">
+        <span>📚 Fase 2: Vocabolario</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="vocab-grid-10">
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">❤️ Concetti chiave & Emozioni</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'estate ≠ L'inverno</div><div class="vocab-def">la stagione più calda dell'anno ≠ la stagione più fredda dell'anno.</div><div class="vocab-example">In estate adoro nuotare nel mare azzurro, mentre in inverno preferisco guardare la neve che cade.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'estate ≠ L'inverno', definition:'la stagione più calda dell\'anno ≠ la stagione più fredda dell\'anno.', example:'In estate adoro nuotare nel mare azzurro, mentre in inverno preferisco guardare la neve che cade.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La spiaggia</div><div class="vocab-def">riva sabbiosa del mare o di un lago.</div><div class="vocab-example">La spiaggia era deserta e silenziosa all'alba.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La spiaggia', definition:'riva sabbiosa del mare o di un lago.', example:'La spiaggia era deserta e silenziosa all\'alba.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il mare ≠ La terra</div><div class="vocab-def">grande distesa di acqua salata ≠ la terraferma o suolo.</div><div class="vocab-example">Il mare d'inverno ha un fascino malinconico unico, un forte contrasto con la calda terra estiva.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il mare ≠ La terra', definition:'grande distesa di acqua salata ≠ la terraferma o suolo.', example:'Il mare d\'inverno ha un fascino malinconico unico, un forte contrasto con la calda terra estiva.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il sole</div><div class="vocab-def">la stella che illumina e riscalda la Terra.</div><div class="vocab-example">Il sole brilla alto nel cielo estivo.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il sole', definition:'la stella che illumina e riscalda la Terra.', example:'Il sole brilla alto nel cielo estivo.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">La libertà</div><div class="vocab-def">stato di chi è libero e indipendente.</div><div class="vocab-example">La libertà di stampa è un diritto fondamentale in democrazia.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'La libertà', definition:'stato di chi è libero e indipendente.', example:'La libertà di stampa è un diritto fondamentale in democrazia.'}, this)">+ Dictionary</button></div>
+        <h3 style="grid-column: 1 / -1; margin-top: 1rem; margin-bottom: 0.5rem; font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo);">🗣️ Vita, Azioni & Connessione</h3>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il viaggio</div><div class="vocab-def">il trasferirsi da un luogo a un altro per diporto.</div><div class="vocab-example">Il viaggio in treno attraverso l'Europa è stato stupendo.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il viaggio', definition:'il trasferirsi da un luogo a un altro per diporto.', example:'Il viaggio in treno attraverso l\'Europa è stato stupendo.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il vento</div><div class="vocab-def">movimento d'aria nell'atmosfera.</div><div class="vocab-example">Un vento fresco soffiava tra i rami degli alberi.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il vento', definition:'movimento d\'aria nell\'atmosfera.', example:'Un vento fresco soffiava tra i rami degli alberi.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Ricominciare</div><div class="vocab-def">cominciare di nuovo una cosa.</div><div class="vocab-example">Non è mai troppo tardi per ricominciare un nuovo percorso.</div>
+            <div class="vocab-opposite" style="margin-top: 6px; font-size: 0.8rem; color: var(--muted); border-top: 1px dashed var(--border); padding-top: 4px;"><strong>Contrario :</strong> <span class="vocab-opp-word" style="font-weight: 600;">Finire</span></div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Ricominciare', definition:'cominciare di nuovo una cosa.', example:'Non è mai troppo tardi per ricominciare un nuovo percorso.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">Il calore</div><div class="vocab-def">temperatura elevata, calore affettivo.</div><div class="vocab-example">Il calore della sua famiglia lo ha aiutato a guarire.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'Il calore', definition:'temperatura elevata, calore affettivo.', example:'Il calore della sua famiglia lo ha aiutato a guarire.'}, this)">+ Dictionary</button></div>
+            <div class="vocab-card"><div class="vocab-word" style="font-size: 1.1rem; font-weight: bold; color: var(--indigo); margin-bottom: 0.25rem;">L'orizzonte</div><div class="vocab-def">linea circolare in cui il cielo sembra toccare la terra.</div><div class="vocab-example">Il sole è scomparso lentamente dietro l'orizzonte.</div><button class="btn-add-dict" onclick="COSY.addToDict({word:'L'orizzonte', definition:'linea circolare in cui il cielo sembra toccare la terra.', example:'Il sole è scomparso lentamente dietro l\'orizzonte.'}, this)">+ Dictionary</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="listening-exercise">
+      <div class="round-header" style="background:#FAF0E6; cursor:pointer;" onclick="COSY.toggleRound('listening-exercise')">
+        <span>🎧 Fase 3: Ascolto</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-bottom: 2rem;">
+          <h3 style="font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem;">Banca delle parole:</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: 'Nunito', sans-serif;">
+        <span class="club-tag" style="background: white; border-color: var(--border);">estate</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">spiaggia</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">mare</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">sole</span>
+        <span class="club-tag" style="background: white; border-color: var(--border);">libertà</span>
+          </div>
+        </div>
+
+        <div class="lyrics-container" style="background: #fafafa; border: 1px solid var(--border); border-radius: 24px; padding: 2rem; font-family: 'DM Sans', sans-serif; line-height: 1.8; color: var(--ink-soft); max-height: 500px; overflow-y: auto;">
+          <p style="white-space: pre-wrap; font-style: italic; margin-bottom: 0;">Un'altra estate è arrivata<br>Sulla costa dorata<br>La calda atmosfera dell'[__________]<br>Ci regala una giornata fatata<br><br>Camminiamo sulla [__________] dorata<br>Bagnati dal profondo [__________]<br>Sotto la luce del grande [__________]<br>Assaporando questa dolce [__________]</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="discussion">
+      <div class="round-header" style="background:#EEEDFE; cursor:pointer;" onclick="COSY.toggleRound('discussion')">
+        <span>💬 Fase 4: Discussione</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+        <div class="round-1" style="margin-bottom: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🔵 Round 1 — Lyric Analysis &amp; Discussion</h3>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>l'estate ≠ l'inverno</strong> influisce sul testo di 'un'altra estate'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>l'estate ≠ l'inverno</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la spiaggia</strong> influisce sul testo di 'un'altra estate'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la spiaggia</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il mare ≠ la terra</strong> influisce sul testo di 'un'altra estate'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il mare ≠ la terra</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il sole</strong> influisce sul testo di 'un'altra estate'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il sole</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>la libertà</strong> influisce sul testo di 'un'altra estate'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>la libertà</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il viaggio</strong> influisce sul testo di 'un'altra estate'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il viaggio</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il vento</strong> influisce sul testo di 'un'altra estate'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il vento</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>ricominciare</strong> influisce sul testo di 'un'altra estate'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>ricominciare</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>il calore</strong> influisce sul testo di 'un'altra estate'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>il calore</strong> nella tua vita?</div></div>
+          <div class="round-item"><div class="round-item-main">In che modo il concetto di <strong>l'orizzonte</strong> influisce sul testo di 'un'altra estate'?</div><div class="round-item-personal">★ Quanto ritieni importante <strong>l'orizzonte</strong> nella tua vita?</div></div>
+        </div>
+        <div class="round-2" style="margin-top: 2rem;">
+          <h3 style="font-family:'Playfair Display', serif; font-size:1.1rem; color:var(--indigo); margin-bottom: 1rem;">🟢 Round 2 — Broad Themes &amp; Philosophy Debate</h3>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>l'estate ≠ l'inverno</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la spiaggia</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il mare ≠ la terra</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il sole</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>la libertà</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il viaggio</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il vento</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>ricominciare</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>il calore</strong> è diventato quasi impossibile.</div></div>
+          <div class="round-item"><div class="round-item-main">Nella società tecnologica odierna, difendere <strong>l'orizzonte</strong> è diventato quasi impossibile.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="round-block open" id="lang-focus">
+      <div class="round-header" style="background:#FFF9E6; cursor:pointer;" onclick="COSY.toggleRound('lang-focus')">
+        <span>✨ Fase 5: Focus linguistico</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border-left: 4px solid var(--indigo); padding: 1.5rem; border-radius: 0 16px 16px 0; margin-bottom: 1.5rem;">
+      <h3 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--indigo);">L'espressione del Futuro Semplice</h3>
+      <p style="font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft); margin-bottom: 1rem;">Il futuro semplice si usa per esprimere azioni che avverranno nel futuro o per fare promesse.</p>
+      <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Let's Practise — Three Examples:</strong>
+      <ul style="margin: 0; padding-left: 1.2rem; color: var(--indigo);">
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Domani ascolteremo questa bellissima canzone insieme.</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Chi sarà con te quando il cammino si farà difficile?</li>
+        <li style="margin-bottom: 0.5rem; font-size: 0.9rem;">Il sole riscalderà la spiaggia durante l'estate.</li>
+      </ul>
+    </div>
+          </div>
+    </div>
+
+    <div class="round-block open" id="final-challenge">
+      <div class="round-header" style="background:#FEEAEA; cursor:pointer;" onclick="COSY.toggleRound('final-challenge')">
+        <span>🎭 Fase 6: Sfida finale</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="round-body" style="display:block; padding-top: 1.5rem;">
+
+    <div style="background: var(--cream); border: 2px dashed var(--indigo); padding: 1.5rem; border-radius: 16px; display: flex; align-items: flex-start; gap: 1rem;">
+      <span style="font-size: 2rem;">🎭</span>
+      <div>
+        <p style="margin-top: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); font-weight: 500;">Immagina il seguito di questa canzone: fai un gioco di ruolo di una conversazione tra i personaggi principali 5 anni dopo.</p>
+      </div>
+    </div>
+          </div>
+    </div>
+
+    <div class="mistake-block open" id="s-mistakes">
+      <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+        <span>✏️ Note dell'Insegnante (Correzioni Linguistiche)</span><span class="round-toggle">▲</span>
+      </div>
+      <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Sono d'accordo <span class="mistake-highlight">di</span> questa decisione</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Sono d'accordo con questa decisione</span>
+            <span class="mistake-note-text">(Usa la preposizione 'con' per esprimere accordo.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Ho fatto un viaggio <span class="mistake-highlight">per</span> Roma</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Ho fatto un viaggio a Roma</span>
+            <span class="mistake-note-text">(Usa la preposizione 'a' prima del nome di una città.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Mi piace ascoltare <span class="mistake-highlight">alla</span> musica</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Mi piace ascoltare la musica</span>
+            <span class="mistake-note-text">(Il verbo 'ascoltare' è transitivo e non richiede preposizione.)</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>
