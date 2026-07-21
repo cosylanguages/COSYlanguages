@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tactile Leitner Box Folding Blueprint — COSYlanguages</title>
+    <link rel="icon" href="images/logos/cosylanguages.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/print.css">
+
+    <style>
+        body {
+            background-color: var(--sage-light, #FAF7F2);
+            color: var(--black, #222);
+            font-family: var(--font-sans, 'Nunito', sans-serif);
+        }
+
+        .print-controls {
+            position: sticky;
+            top: 0;
+            background: #ffffff;
+            padding: 1.5rem;
+            border-bottom: 2px solid var(--sage-deep, #3d5a45);
+            z-index: 1100;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        @media print {
+            .print-controls {
+                display: none !important;
+            }
+            body {
+                background: white !important;
+            }
+            .print-container {
+                box-shadow: none !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+        }
+
+        .print-container {
+            background: #fff;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2.5rem;
+            box-shadow: 0 0 30px rgba(0,0,0,0.05);
+            border-radius: 12px;
+        }
+
+        .blueprint-title {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .blueprint-title h1 {
+            font-family: 'Lora', serif;
+            color: var(--sage-deep, #3d5a45);
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        .instructions {
+            background: #f7fafc;
+            border-left: 4px solid var(--sage-deep, #3d5a45);
+            padding: 1rem;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .svg-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        svg {
+            border: 1px solid #ccc;
+            background: #fff;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .btn-print {
+            background: var(--sage-deep, #3d5a45);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn-print:hover {
+            background: var(--sage-dark, #2b3e30);
+        }
+    </style>
+</head>
+<body class="print-preview">
+
+<div class="print-controls">
+    <button onclick="window.print()" class="btn-print">🖨️ Print Spaced Repetition Box Template</button>
+</div>
+
+<main class="print-container">
+    <div class="blueprint-title">
+        <h1>Cardboard Leitner Box Blueprint 📦</h1>
+        <p style="color: #666; font-size: 1.1rem; margin-top: 0.25rem;">Assemble your physical Leitner System spaced-repetition box at home.</p>
+    </div>
+
+    <div class="instructions">
+        <strong>✂️ Assembly & Spaced Repetition Instructions:</strong>
+        <ol style="margin-top: 0.5rem; margin-bottom: 0; padding-left: 1.2rem;">
+            <li>Print this sheet on heavy A4 paper, cardstock, or glue the printed paper to a thin cereal/cardboard box.</li>
+            <li>Cut along the solid thick black lines (including the horizontal card compartment slots).</li>
+            <li>Score and fold along all dashed lines.</li>
+            <li>Fold up the sides and glue the outer flaps to form an elongated study organizer.</li>
+            <li>Insert the 5 labeled dividers into the numbered compartment slots to form 5 compartments (Boxes 1-5).</li>
+            <li><strong>How to play:</strong> All new Leitner flashcards start in Box 1. Study them daily: correct answers move up a box (e.g. 1 &rarr; 2), incorrect answers fall back to Box 1 immediately. Box 1 studied daily, Box 2 every other day, Box 3 weekly, Box 4 bi-weekly, Box 5 monthly. Reach master fluency!</li>
+        </ol>
+    </div>
+
+    <div class="svg-container">
+        <!-- SVG Fold Blueprint -->
+        <svg width="750" height="500" viewBox="0 0 750 500">
+            <!-- Box Main Chassis -->
+            <g id="main-chassis" stroke="#333" stroke-width="2" fill="none">
+                <!-- Outer Base Rect -->
+                <rect x="150" y="100" width="450" height="250" rx="10" />
+
+                <!-- Back Side Flap -->
+                <path d="M 150 100 L 50 150 L 50 300 L 150 350 Z" />
+                <text x="80" y="230" font-weight="bold" fill="#666" transform="rotate(-90 80 230)">GLUE FLAP (BACK)</text>
+
+                <!-- Front Side Flap -->
+                <path d="M 600 100 L 700 150 L 700 300 L 600 350 Z" />
+                <text x="660" y="230" font-weight="bold" fill="#666" transform="rotate(90 660 230)">GLUE FLAP (FRONT)</text>
+
+                <!-- Labeled Main Dividers Lines (Dashed fold lines) -->
+                <line x1="240" y1="100" x2="240" y2="350" stroke-dasharray="5,5" />
+                <line x1="330" y1="100" x2="330" y2="350" stroke-dasharray="5,5" />
+                <line x1="420" y1="100" x2="420" y2="350" stroke-dasharray="5,5" />
+                <line x1="510" y1="100" x2="510" y2="350" stroke-dasharray="5,5" />
+            </g>
+
+            <!-- Labeled Compartments Inside the Main Chassis -->
+            <g id="box-labels" font-family="sans-serif" font-weight="bold" font-size="16" fill="var(--sage-deep, #3d5a45)" text-anchor="middle">
+                <text x="195" y="225">BOX 1</text>
+                <text x="195" y="250" font-size="11" fill="#666">Every Day</text>
+
+                <text x="285" y="225">BOX 2</text>
+                <text x="285" y="250" font-size="11" fill="#666">Every 2 Days</text>
+
+                <text x="375" y="225">BOX 3</text>
+                <text x="375" y="250" font-size="11" fill="#666">Every Week</text>
+
+                <text x="465" y="225">BOX 4</text>
+                <text x="465" y="250" font-size="11" fill="#666">Every 2 Weeks</text>
+
+                <text x="555" y="225">BOX 5</text>
+                <text x="555" y="250" font-size="11" fill="#666">Every Month</text>
+            </g>
+
+            <!-- Card slot indicator line markers -->
+            <g stroke="#999" stroke-width="1">
+                <line x1="165" y1="120" x2="225" y2="120" stroke-dasharray="2,2" />
+                <line x1="255" y1="120" x2="315" y2="120" stroke-dasharray="2,2" />
+                <line x1="345" y1="120" x2="405" y2="120" stroke-dasharray="2,2" />
+                <line x1="435" y1="120" x2="495" y2="120" stroke-dasharray="2,2" />
+                <line x1="525" y1="120" x2="585" y2="120" stroke-dasharray="2,2" />
+            </g>
+
+            <g stroke="#333" stroke-width="1.5" fill="none">
+                <!-- Folding blueprint indicators on bottom margin -->
+                <path d="M 200 400 L 250 400 M 225 385 L 225 415" stroke-dasharray="5,5" />
+                <text x="260" y="405" font-size="12" fill="#333" font-family="sans-serif">Dashed: FOLD LINE</text>
+
+                <line x1="450" y1="400" x2="500" y2="400" />
+                <text x="510" y="405" font-size="12" fill="#333" font-family="sans-serif">Solid: CUT LINE</text>
+            </g>
+        </svg>
+    </div>
+</main>
+
+<script src="js/data/languages.js"></script>
+<script src="js/core/engine.js"></script>
+<script src="js/core/i18n.js"></script>
+<script src="js/core/ui.js"></script>
+</body>
+</html>

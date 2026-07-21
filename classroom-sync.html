@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSY Classroom Synchronizer — COSYlanguages</title>
+    <link rel="icon" href="images/logos/cosylanguages.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/portal.css">
+
+    <!-- PeerJS for zero-database WebRTC peer-to-peer live sync -->
+    <script src="https://unpkg.com/peerjs@1.5.2/dist/peerjs.min.js"></script>
+
+    <style>
+        body {
+            background-color: var(--sage-light, #FAF7F2);
+            color: var(--black, #222);
+            font-family: var(--font-sans, 'Nunito', sans-serif);
+        }
+
+        .sync-container {
+            max-width: 1100px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border-top: 8px solid var(--sage-deep, #3d5a45);
+        }
+
+        .header-title {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .header-title h1 {
+            font-family: 'Lora', serif;
+            color: var(--sage-dark, #2b3e30);
+            font-size: 2.2rem;
+            margin: 0 0 0.5rem;
+        }
+
+        .setup-box {
+            background: var(--sage-light, #FAF7F2);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(0,0,0,0.05);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .setup-box {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .setup-col {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .setup-col h3 {
+            font-family: 'Lora', serif;
+            color: var(--sage-deep, #3d5a45);
+            margin: 0;
+            font-size: 1.25rem;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .input-text {
+            flex-grow: 1;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            border: 2px solid #ccc;
+            font-weight: bold;
+        }
+
+        .btn-action {
+            padding: 0.5rem 1.2rem;
+            background: var(--sage-deep, #3d5a45);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .btn-action:hover {
+            background: var(--sage-dark, #2b3e30);
+        }
+
+        .btn-secondary {
+            background: #fff;
+            color: var(--sage-deep, #3d5a45);
+            border: 2px solid var(--sage-deep, #3d5a45);
+        }
+
+        .connection-status {
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #718096;
+            margin-top: 0.25rem;
+        }
+
+        /* Simulator Panels (Dual View for verification and local classrooms) */
+        .sync-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        @media (max-width: 900px) {
+            .sync-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .role-panel {
+            background: #fff;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .role-panel.teacher {
+            border-top: 6px solid var(--sage-deep, #3d5a45);
+        }
+
+        .role-panel.student {
+            border-top: 6px solid var(--honey-dark, #b7791f);
+        }
+
+        .panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #edf2f7;
+            padding-bottom: 0.75rem;
+        }
+
+        .panel-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .teacher .panel-badge {
+            background: var(--sage-light, #FAF7F2);
+            color: var(--sage-deep, #3d5a45);
+        }
+
+        .student .panel-badge {
+            background: #fffdf5;
+            color: var(--honey-dark, #b7791f);
+        }
+
+        /* Active Lesson Slide Content */
+        .lesson-card {
+            background: var(--sage-light, #FAF7F2);
+            border-radius: 8px;
+            padding: 1rem;
+            border-left: 4px solid var(--sage-deep, #3d5a45);
+        }
+
+        .lesson-question {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            padding: 0.25rem;
+            border-radius: 4px;
+        }
+
+        .lesson-question:hover {
+            background: rgba(0,0,0,0.03);
+        }
+
+        .lesson-question.active-highlight {
+            background: #fffdf5;
+            border: 1px solid var(--honey-dark, #b7791f);
+        }
+
+        .vocab-word {
+            display: inline-block;
+            background: #fff;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-weight: bold;
+            cursor: pointer;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .vocab-word.revealed {
+            background: #edfdf1;
+            color: #2f855a;
+            border-color: #48bb78;
+        }
+
+        /* ORAL TIMER COMPONENT */
+        .timer-box {
+            background: #f7fafc;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            border: 1px solid #edf2f7;
+        }
+
+        .timer-display {
+            font-size: 2.5rem;
+            font-weight: 900;
+            font-family: monospace;
+            color: var(--sage-deep, #3d5a45);
+            margin: 0.5rem 0;
+        }
+
+        .timer-controls {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .btn-timer {
+            padding: 0.25rem 0.75rem;
+            font-size: 0.85rem;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            background: #fff;
+        }
+
+        .btn-timer:hover {
+            background: #edf2f7;
+        }
+    </style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<main class="page">
+    <div class="sync-container">
+        <div class="header-title">
+            <h1>COSY Classroom Synchronizer 🤝</h1>
+            <p style="color: #666; font-size: 1.1rem;">Zero-Database, Account-Free Live Lesson Coordinator & Speaking Timers.</p>
+        </div>
+
+        <!-- Setup Connection Panel -->
+        <div class="setup-box">
+            <div class="setup-col">
+                <h3>Host a Live Lesson (Teacher)</h3>
+                <div class="input-group">
+                    <input type="text" id="teacher-room" class="input-text" placeholder="Enter Room Name (e.g. Room101)">
+                    <button class="btn-action" onclick="hostRoom()">Create Room 🎓</button>
+                </div>
+                <div id="host-status" class="connection-status">Status: Offline</div>
+            </div>
+
+            <div class="setup-col">
+                <h3>Join a Live Lesson (Student)</h3>
+                <div class="input-group">
+                    <input type="text" id="student-room" class="input-text" placeholder="Enter Room Name to Join">
+                    <button class="btn-action btn-secondary" onclick="joinRoom()">Join Room ✏️</button>
+                </div>
+                <div id="join-status" class="connection-status">Status: Offline</div>
+            </div>
+        </div>
+
+        <!-- Synchronizer Lesson Panel Dashboard -->
+        <div class="sync-grid">
+            <!-- Left Side: Teacher Control Panel -->
+            <div class="role-panel teacher">
+                <div class="panel-header">
+                    <div class="panel-badge">Teacher Controls</div>
+                    <span style="font-size:1.5rem;">🎓</span>
+                </div>
+
+                <div class="timer-box">
+                    <div class="timer-display" id="teacher-timer">00:30</div>
+                    <div class="timer-controls">
+                        <button class="btn-timer" onclick="setTimerSec(15)">15s</button>
+                        <button class="btn-timer" onclick="setTimerSec(30)">30s</button>
+                        <button class="btn-timer" onclick="setTimerSec(60)">60s</button>
+                        <button class="btn-timer" style="background:#edfdf1; color:#2f855a;" onclick="toggleTimer()">Start / Pause</button>
+                        <button class="btn-timer" style="background:#fff5f5; color:#c53030;" onclick="resetTimer()">Reset</button>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 style="margin: 0 0 0.5rem; font-family:'Lora', serif;">Synchronized Interactive Content</h4>
+                    <p style="font-size: 0.85rem; color:#666; margin: 0 0 1rem;">Click questions to highlight them, or click vocabulary cards to reveal/hide them on the student's screen in real-time.</p>
+
+                    <div class="lesson-card">
+                        <div class="lesson-question active-highlight" id="t-q1" onclick="teacherClickQuestion(1)">Round 1: Talk about your favorite movie. 🎬</div>
+                        <div class="lesson-question" id="t-q2" onclick="teacherClickQuestion(2)">Round 2: What will cinema look like in 50 years? 🚀</div>
+
+                        <div style="margin-top: 1rem;">
+                            <div class="vocab-word" id="t-v1" onclick="teacherClickVocab(1)">Nostalgia 🧠</div>
+                            <div class="vocab-word" id="t-v2" onclick="teacherClickVocab(2)">Masterpiece 🌟</div>
+                            <div class="vocab-word" id="t-v3" onclick="teacherClickVocab(3)">Screenplay 📜</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Student Live Dashboard -->
+            <div class="role-panel student">
+                <div class="panel-header">
+                    <div class="panel-badge">Student View</div>
+                    <span style="font-size:1.5rem;">✏️</span>
+                </div>
+
+                <div class="timer-box" style="background: #fffdf5; border-color: #fbd38d;">
+                    <div class="timer-display" id="student-timer" style="color: var(--honey-dark, #b7791f);">00:30</div>
+                    <div style="font-size:0.8rem; color:#718096; font-weight:bold;">Controlled by Teacher</div>
+                </div>
+
+                <div>
+                    <h4 style="margin: 0 0 0.5rem; font-family:'Lora', serif;">Active Slide</h4>
+                    <p style="font-size: 0.85rem; color:#666; margin: 0 0 1rem;">This screen responds instantly to your teacher's pointer highlights and card reveal commands.</p>
+
+                    <div class="lesson-card" style="border-left-color: var(--honey-dark, #b7791f);">
+                        <div class="lesson-question active-highlight" id="s-q1">Round 1: Talk about your favorite movie. 🎬</div>
+                        <div class="lesson-question" id="s-q2">Round 2: What will cinema look like in 50 years? 🚀</div>
+
+                        <div style="margin-top: 1rem;">
+                            <div class="vocab-word" id="s-v1">Hidden Card 🔒</div>
+                            <div class="vocab-word" id="s-v2">Hidden Card 🔒</div>
+                            <div class="vocab-word" id="s-v3">Hidden Card 🔒</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    // ─────────────── P2P COMMUNICATION & SIMULATION LOGIC ───────────────
+    let peer = null;
+    let conn = null;
+    let timerInterval = null;
+    let timerSeconds = 30;
+    let timerRunning = false;
+
+    // Simulation/Local Sync Callback Fallback (Always active out-of-the-box!)
+    function broadcastState(state) {
+        if (conn && conn.open) {
+            conn.send(state);
+        }
+        // Apply to student panel immediately locally (perfect Simulator mode!)
+        applyStateToStudent(state);
+    }
+
+    function applyStateToStudent(state) {
+        if (state.timerSeconds !== undefined) {
+            timerSeconds = state.timerSeconds;
+            updateTimerDisplays();
+        }
+        if (state.timerRunning !== undefined) {
+            timerRunning = state.timerRunning;
+            if (timerRunning) {
+                startTimerInterval();
+            } else {
+                clearInterval(timerInterval);
+            }
+        }
+        if (state.activeQuestion !== undefined) {
+            document.querySelectorAll('.student .lesson-question').forEach(el => el.classList.remove('active-highlight'));
+            const qEl = document.getElementById(`s-q${state.activeQuestion}`);
+            if (qEl) qEl.classList.add('active-highlight');
+        }
+        if (state.revealedVocab !== undefined) {
+            const index = state.revealedVocab;
+            const revealed = state.isRevealed;
+            const vocabMap = { 1: "Nostalgia 🧠", 2: "Masterpiece 🌟", 3: "Screenplay 📜" };
+
+            const vEl = document.getElementById(`s-v${index}`);
+            if (vEl) {
+                if (revealed) {
+                    vEl.textContent = vocabMap[index];
+                    vEl.classList.add('revealed');
+                } else {
+                    vEl.textContent = "Hidden Card 🔒";
+                    vEl.classList.remove('revealed');
+                }
+            }
+        }
+    }
+
+    // Teacher Interaction Triggers
+    function teacherClickQuestion(idx) {
+        document.querySelectorAll('.teacher .lesson-question').forEach(el => el.classList.remove('active-highlight'));
+        document.getElementById(`t-q${idx}`).classList.add('active-highlight');
+        broadcastState({ activeQuestion: idx });
+    }
+
+    function teacherClickVocab(idx) {
+        const vEl = document.getElementById(`t-v${idx}`);
+        vEl.classList.toggle('revealed');
+        const isRevealed = vEl.classList.contains('revealed');
+        broadcastState({ revealedVocab: idx, isRevealed: isRevealed });
+    }
+
+    // Active Speaking Round Timers
+    function setTimerSec(sec) {
+        timerSeconds = sec;
+        timerRunning = false;
+        clearInterval(timerInterval);
+        updateTimerDisplays();
+        broadcastState({ timerSeconds: sec, timerRunning: false });
+    }
+
+    function toggleTimer() {
+        timerRunning = !timerRunning;
+        if (timerRunning) {
+            startTimerInterval();
+        } else {
+            clearInterval(timerInterval);
+        }
+        broadcastState({ timerRunning: timerRunning });
+    }
+
+    function resetTimer() {
+        timerSeconds = 30;
+        timerRunning = false;
+        clearInterval(timerInterval);
+        updateTimerDisplays();
+        broadcastState({ timerSeconds: 30, timerRunning: false });
+    }
+
+    function startTimerInterval() {
+        clearInterval(timerInterval);
+        timerInterval = setInterval(() => {
+            if (timerSeconds > 0) {
+                timerSeconds--;
+                updateTimerDisplays();
+                if (timerSeconds === 0) {
+                    timerRunning = false;
+                    clearInterval(timerInterval);
+                    alert("⏱️ Speaking Round Time is up!");
+                }
+            }
+        }, 1000);
+    }
+
+    function updateTimerDisplays() {
+        const min = Math.floor(timerSeconds / 60);
+        const sec = timerSeconds % 60;
+        const formatted = `${min.toString().padStart(2, '0')}:${sec.toString().padStart(2, '0')}`;
+
+        document.getElementById('teacher-timer').textContent = formatted;
+        document.getElementById('student-timer').textContent = formatted;
+    }
+
+    // ─────────────── PeerJS WebRTC Rooms Implementation ───────────────
+    function hostRoom() {
+        const room = document.getElementById('teacher-room').value.trim();
+        if (!room) {
+            alert("Please enter a room name.");
+            return;
+        }
+        document.getElementById('host-status').textContent = "Creating peer room...";
+
+        peer = new Peer(`cosy-room-${room}`);
+
+        peer.on('open', (id) => {
+            document.getElementById('host-status').textContent = `Room created! Invite student to join room: ${room}`;
+            document.getElementById('host-status').style.color = "#2f855a";
+        });
+
+        peer.on('connection', (connection) => {
+            conn = connection;
+            document.getElementById('host-status').textContent = "Student connected to live classroom!";
+            document.getElementById('host-status').style.color = "#2f855a";
+
+            conn.on('data', (data) => {
+                // Future expansions can receive student input/answers
+            });
+        });
+
+        peer.on('error', (err) => {
+            console.error(err);
+            document.getElementById('host-status').textContent = "Connection failed. Please use custom room name.";
+            document.getElementById('host-status').style.color = "#c53030";
+        });
+    }
+
+    function joinRoom() {
+        const room = document.getElementById('student-room').value.trim();
+        if (!room) {
+            alert("Please enter room name.");
+            return;
+        }
+        document.getElementById('join-status').textContent = "Connecting to room...";
+
+        // Join requires a unique student peer id
+        peer = new Peer();
+
+        peer.on('open', (id) => {
+            conn = peer.connect(`cosy-room-${room}`);
+
+            conn.on('open', () => {
+                document.getElementById('join-status').textContent = `Connected to room: ${room}!`;
+                document.getElementById('join-status').style.color = "#2f855a";
+            });
+
+            conn.on('data', (data) => {
+                applyStateToStudent(data);
+            });
+        });
+
+        peer.on('error', (err) => {
+            console.error(err);
+            document.getElementById('join-status').textContent = "Could not find hosted room.";
+            document.getElementById('join-status').style.color = "#c53030";
+        });
+    }
+</script>
+
+<script src="js/data/languages.js"></script>
+<script src="js/core/engine.js"></script>
+<script src="js/core/i18n.js"></script>
+<script src="js/core/ui.js"></script>
+</body>
+</html>
