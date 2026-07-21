@@ -184,10 +184,10 @@
 
 .sec-tag {
     font-size: .75rem;
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: .1em;
-    color: var(--ink-muted);
+    letter-spacing: .12em;
+    color: var(--sage-deep);
     margin-bottom: .6rem;
     display: block;
     text-align: center;
