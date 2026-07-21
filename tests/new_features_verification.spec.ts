@@ -48,8 +48,8 @@ test.describe('New Features Verification', () => {
     // Verify Explorer section is visible
     await expect(page.locator('#explorer-section')).toBeVisible();
 
-    // Verify tag cloud has the buttons
-    const chessBtn = page.locator('button.cloud-tag-btn[data-tag="chess"]');
+    // Verify tag cloud has the buttons (using .first() due to advanced collapsible duplication)
+    const chessBtn = page.locator('button.cloud-tag-btn[data-tag="chess"]').first();
     await expect(chessBtn).toBeVisible();
 
     // Verify there are 8 cards by default
