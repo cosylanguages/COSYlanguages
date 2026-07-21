@@ -89,6 +89,49 @@
         text-underline-offset: 3px;
       }
       .club-link:hover { color: var(--sage-deep); }
+
+      /* Explorer Tag Button Styles */
+      .cloud-tag-btn {
+        background: #FAF7F2;
+        color: var(--ink-soft);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 0.35rem 0.8rem;
+        font-size: 0.8rem;
+        font-family: var(--font-sans);
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+      .cloud-tag-btn:hover {
+        background: var(--sage-mist);
+        border-color: var(--sage-deep);
+        color: var(--sage-deep);
+      }
+      .cloud-tag-btn.active {
+        background: var(--indigo);
+        color: white;
+        border-color: var(--indigo);
+        font-weight: 700;
+        box-shadow: var(--shadow-sm);
+      }
+      .esc-tag-btn {
+        background: #FAF7F2;
+        color: var(--indigo);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 0.15rem 0.4rem;
+        font-size: 0.72rem;
+        font-family: var(--font-sans);
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.15s ease;
+      }
+      .esc-tag-btn:hover {
+        background: var(--indigo);
+        color: white;
+        border-color: var(--indigo);
+      }
     </style>
 </head>
 <body>
@@ -308,6 +351,312 @@
     </div>
   </section>
 
+  <!-- Section: Interactive Session Explorer -->
+  <section id="explorer-section" style="margin-top: 5rem; background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 3rem 2rem;">
+    <span class="sec-tag">✨ Session Explorer</span>
+    <h2 class="sec-h2" style="font-family: var(--font-serif); margin-bottom: 0.5rem;">Browse Sessions by Idea</h2>
+    <p class="sec-p" style="margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto;">Our sessions are designed around 4 fundamental questions. Click on any core idea below to immediately filter and explore matching live sessions & speaking clubs.</p>
+
+    <!-- Interactive Tag Cloud categorized by the 4 Questions -->
+    <div class="tag-cloud-container" style="background: white; border: 1px solid var(--border); border-radius: var(--r-lg); padding: 2rem; margin-bottom: 2.5rem; text-align: left; box-shadow: var(--shadow-sm);">
+      <h3 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--ink); margin-top: 0; margin-bottom: 1.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span>🔍</span> Filter Cloud: 4 Core Questions
+      </h3>
+
+      <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+        <div>
+          <div style="font-size: 0.8rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.4rem;">
+            <span>📖</span> <span>What is the article/source about?</span>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <button class="cloud-tag-btn" data-tag="assisted-dying">#assisted-dying</button>
+            <button class="cloud-tag-btn" data-tag="chess">#chess</button>
+            <button class="cloud-tag-btn" data-tag="technology">#technology</button>
+            <button class="cloud-tag-btn" data-tag="evolution">#evolution</button>
+            <button class="cloud-tag-btn" data-tag="art-criticism">#art-criticism</button>
+            <button class="cloud-tag-btn" data-tag="success">#success</button>
+            <button class="cloud-tag-btn" data-tag="urban-living">#urban-living</button>
+            <button class="cloud-tag-btn" data-tag="minimalism">#minimalism</button>
+          </div>
+        </div>
+
+        <div>
+          <div style="font-size: 0.8rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.4rem;">
+            <span>🎨</span> <span>What does the cover represent?</span>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <button class="cloud-tag-btn" data-tag="compassionate-care">#compassionate-care</button>
+            <button class="cloud-tag-btn" data-tag="strategic-board">#strategic-board</button>
+            <button class="cloud-tag-btn" data-tag="heart-in-machine">#heart-in-machine</button>
+            <button class="cloud-tag-btn" data-tag="family-generations">#family-generations</button>
+            <button class="cloud-tag-btn" data-tag="brush-vs-algorithm">#brush-vs-algorithm</button>
+            <button class="cloud-tag-btn" data-tag="beginners-mind">#beginners-mind</button>
+            <button class="cloud-tag-btn" data-tag="pedestrian-streets">#pedestrian-streets</button>
+            <button class="cloud-tag-btn" data-tag="cozy-cabin">#cozy-cabin</button>
+          </div>
+        </div>
+
+        <div>
+          <div style="font-size: 0.8rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.4rem;">
+            <span>💡</span> <span>What is the main idea of the source?</span>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <button class="cloud-tag-btn" data-tag="personal-autonomy">#personal-autonomy</button>
+            <button class="cloud-tag-btn" data-tag="cost-of-obsession">#cost-of-obsession</button>
+            <button class="cloud-tag-btn" data-tag="humanity-and-ai">#humanity-and-ai</button>
+            <button class="cloud-tag-btn" data-tag="grandparent-role">#grandparent-role</button>
+            <button class="cloud-tag-btn" data-tag="ai-vs-human-art">#ai-vs-human-art</button>
+            <button class="cloud-tag-btn" data-tag="curiosity">#curiosity</button>
+            <button class="cloud-tag-btn" data-tag="car-free-benefits">#car-free-benefits</button>
+            <button class="cloud-tag-btn" data-tag="mindful-living">#mindful-living</button>
+          </div>
+        </div>
+
+        <div>
+          <div style="font-size: 0.8rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.4rem;">
+            <span>🔗</span> <span>What are the secondary ideas?</span>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <button class="cloud-tag-btn" data-tag="medical-ethics">#medical-ethics</button>
+            <button class="cloud-tag-btn" data-tag="legislation">#legislation</button>
+            <button class="cloud-tag-btn" data-tag="addiction">#addiction</button>
+            <button class="cloud-tag-btn" data-tag="gender-barriers">#gender-barriers</button>
+            <button class="cloud-tag-btn" data-tag="social-media">#social-media</button>
+            <button class="cloud-tag-btn" data-tag="resilience">#resilience</button>
+            <button class="cloud-tag-btn" data-tag="longevity">#longevity</button>
+            <button class="cloud-tag-btn" data-tag="genetics">#genetics</button>
+            <button class="cloud-tag-btn" data-tag="creativity">#creativity</button>
+            <button class="cloud-tag-btn" data-tag="authenticity">#authenticity</button>
+            <button class="cloud-tag-btn" data-tag="risk-taking">#risk-taking</button>
+            <button class="cloud-tag-btn" data-tag="growth">#growth</button>
+            <button class="cloud-tag-btn" data-tag="environment">#environment</button>
+            <button class="cloud-tag-btn" data-tag="community">#community</button>
+            <button class="cloud-tag-btn" data-tag="nature">#nature</button>
+            <button class="cloud-tag-btn" data-tag="slow-life">#slow-life</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="filter-status-bar" style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: none; justify-content: space-between; align-items: center; font-size: 0.9rem; font-weight: bold; color: var(--indigo);">
+        <span id="filter-status-text">Active Filter: #assisted-dying (1 session found)</span>
+        <button id="clear-filter-btn" style="background: var(--crimson); color: white; border: none; padding: 0.3rem 0.8rem; border-radius: 6px; font-size: 0.8rem; font-weight: 700; cursor: pointer; transition: opacity 0.2s;">Clear Filter ✕</button>
+      </div>
+    </div>
+
+    <!-- Sessions Grid -->
+    <div id="explorer-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+
+      <!-- Card 1. Assisted Dying -->
+      <article class="explorer-session-card" data-tags="assisted-dying compassionate-care personal-autonomy medical-ethics legislation" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #993C1D, #4d1e0f);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(153,60,29,0.1); color: #993C1D; border-color: rgba(153,60,29,0.3);">🔥 Debate Club</span>
+            <span class="club-tag" style="background: #EEEDFE; color: #534AB7; border-color: #D2CFFE;">C1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">Assisted Dying: Yes or No</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Explore active assistance in dying. Debating the moral boundaries of autonomy vs. safeguards.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.8rem;">
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the source about?">📖</span> <button class="esc-tag-btn" data-tag="assisted-dying">#assisted-dying</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What does the cover represent?">🎨</span> <button class="esc-tag-btn" data-tag="compassionate-care">#compassionate-care</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the main idea?">💡</span> <button class="esc-tag-btn" data-tag="personal-autonomy">#personal-autonomy</button></div>
+            <div style="display: flex; align-items: flex-start; gap: 0.4rem; flex-wrap: wrap;"><span title="What are the secondary ideas?">🔗</span>
+              <button class="esc-tag-btn" data-tag="medical-ethics">#medical-ethics</button>
+              <button class="esc-tag-btn" data-tag="legislation">#legislation</button>
+            </div>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/debatable-relatable/assisted-dying.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2. The Queen's Gambit -->
+      <article class="explorer-session-card" data-tags="chess strategic-board cost-of-obsession addiction gender-barriers" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #3D2B1F, #1F140D);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(61,43,31,0.1); color: #3D2B1F; border-color: rgba(61,43,31,0.3);">🎬 Cinema Club</span>
+            <span class="club-tag" style="background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7;">B2</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">The Queen's Gambit</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Master strategic chess terminology and mid-century slang. Discuss ambition, perfectionism, and personal boundaries.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.8rem;">
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the source about?">📖</span> <button class="esc-tag-btn" data-tag="chess">#chess</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What does the cover represent?">🎨</span> <button class="esc-tag-btn" data-tag="strategic-board">#strategic-board</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the main idea?">💡</span> <button class="esc-tag-btn" data-tag="cost-of-obsession">#cost-of-obsession</button></div>
+            <div style="display: flex; align-items: flex-start; gap: 0.4rem; flex-wrap: wrap;"><span title="What are the secondary ideas?">🔗</span>
+              <button class="esc-tag-btn" data-tag="addiction">#addiction</button>
+              <button class="esc-tag-btn" data-tag="gender-barriers">#gender-barriers</button>
+            </div>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/cinema-club/the-queens-gambit.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3. Toutes les machines -->
+      <article class="explorer-session-card" data-tags="technology heart-in-machine humanity-and-ai social-media resilience" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #4A154B, #2A0A35);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(74,21,75,0.1); color: #4A154B; border-color: rgba(74,21,75,0.3);">🎤 Karaoke Club</span>
+            <span class="club-tag" style="background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7;">B1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">Toutes les machines ont le cœur</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Analyze the fragile connection between our emotions and modern digital lives under technological pressure.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.8rem;">
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the source about?">📖</span> <button class="esc-tag-btn" data-tag="technology">#technology</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What does the cover represent?">🎨</span> <button class="esc-tag-btn" data-tag="heart-in-machine">#heart-in-machine</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the main idea?">💡</span> <button class="esc-tag-btn" data-tag="humanity-and-ai">#humanity-and-ai</button></div>
+            <div style="display: flex; align-items: flex-start; gap: 0.4rem; flex-wrap: wrap;"><span title="What are the secondary ideas?">🔗</span>
+              <button class="esc-tag-btn" data-tag="social-media">#social-media</button>
+              <button class="esc-tag-btn" data-tag="resilience">#resilience</button>
+            </div>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/karaoke-club/toutes-les-machines-ont-le-coeur.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 4. Evolutionary Mystery -->
+      <article class="explorer-session-card" data-tags="evolution family-generations grandparent-role longevity genetics" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #0F6E56, #073b2d);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(15,110,86,0.1); color: #0F6E56; border-color: rgba(15,110,86,0.3);">🔬 Science Club</span>
+            <span class="club-tag" style="background: #EEEDFE; color: #534AB7; border-color: #D2CFFE;">C1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">Why Your Grandmother Is an Evolutionary Mystery</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Analyze the grandmother hypothesis. Discover the anthropological and biological impact of family support.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.8rem;">
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the source about?">📖</span> <button class="esc-tag-btn" data-tag="evolution">#evolution</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What does the cover represent?">🎨</span> <button class="esc-tag-btn" data-tag="family-generations">#family-generations</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the main idea?">💡</span> <button class="esc-tag-btn" data-tag="grandparent-role">#grandparent-role</button></div>
+            <div style="display: flex; align-items: flex-start; gap: 0.4rem; flex-wrap: wrap;"><span title="What are the secondary ideas?">🔗</span>
+              <button class="esc-tag-btn" data-tag="longevity">#longevity</button>
+              <button class="esc-tag-btn" data-tag="genetics">#genetics</button>
+            </div>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/keeping-up-with-science/grandmother-evolutionary-mystery.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 5. Madonna AI Art Quote -->
+      <article class="explorer-session-card" data-tags="art-criticism brush-vs-algorithm ai-vs-human-art creativity authenticity" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #5D4037, #3E2723);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(93,64,55,0.1); color: #5D4037; border-color: rgba(93,64,55,0.3);">💬 Quotes Club</span>
+            <span class="club-tag" style="background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7;">B1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">Madonna AI Art Quote</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Debate Madonna's sharp philosophical take on generative AI copycats vs human art's authenticity.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.8rem;">
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the source about?">📖</span> <button class="esc-tag-btn" data-tag="art-criticism">#art-criticism</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What does the cover represent?">🎨</span> <button class="esc-tag-btn" data-tag="brush-vs-algorithm">#brush-vs-algorithm</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the main idea?">💡</span> <button class="esc-tag-btn" data-tag="ai-vs-human-art">#ai-vs-human-art</button></div>
+            <div style="display: flex; align-items: flex-start; gap: 0.4rem; flex-wrap: wrap;"><span title="What are the secondary ideas?">🔗</span>
+              <button class="esc-tag-btn" data-tag="creativity">#creativity</button>
+              <button class="esc-tag-btn" data-tag="authenticity">#authenticity</button>
+            </div>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/the-greatest-quotes/madonna-ai-art-quote-intermediate.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 6. Steve Jobs Quote -->
+      <article class="explorer-session-card" data-tags="success beginners-mind curiosity risk-taking growth" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #5D4037, #3E2723);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(93,64,55,0.1); color: #5D4037; border-color: rgba(93,64,55,0.3);">💬 Quotes Club</span>
+            <span class="club-tag" style="background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7;">B1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">Steve Jobs Quote</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Deconstruct "Stay hungry, stay foolish". Examine lifelong curiosity and non-conformity.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.8rem;">
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the source about?">📖</span> <button class="esc-tag-btn" data-tag="success">#success</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What does the cover represent?">🎨</span> <button class="esc-tag-btn" data-tag="beginners-mind">#beginners-mind</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the main idea?">💡</span> <button class="esc-tag-btn" data-tag="curiosity">#curiosity</button></div>
+            <div style="display: flex; align-items: flex-start; gap: 0.4rem; flex-wrap: wrap;"><span title="What are the secondary ideas?">🔗</span>
+              <button class="esc-tag-btn" data-tag="risk-taking">#risk-taking</button>
+              <button class="esc-tag-btn" data-tag="growth">#growth</button>
+            </div>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/the-greatest-quotes/steve-jobs-quote.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 7. My Life Without Private Cars -->
+      <article class="explorer-session-card" data-tags="urban-living pedestrian-streets car-free-benefits environment community" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #3B6D11, #1d3608);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(59,109,17,0.1); color: #3B6D11; border-color: rgba(59,109,17,0.3);">🌿 Life Club</span>
+            <span class="club-tag" style="background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7;">B1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">My Life Without Private Cars</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Imagine pedestrian-friendly city layouts. Discuss environmental habits and urban community growth.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.8rem;">
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the source about?">📖</span> <button class="esc-tag-btn" data-tag="urban-living">#urban-living</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What does the cover represent?">🎨</span> <button class="esc-tag-btn" data-tag="pedestrian-streets">#pedestrian-streets</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the main idea?">💡</span> <button class="esc-tag-btn" data-tag="car-free-benefits">#car-free-benefits</button></div>
+            <div style="display: flex; align-items: flex-start; gap: 0.4rem; flex-wrap: wrap;"><span title="What are the secondary ideas?">🔗</span>
+              <button class="esc-tag-btn" data-tag="environment">#environment</button>
+              <button class="esc-tag-btn" data-tag="community">#community</button>
+            </div>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/my-life-with-without/private-cars.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 8. National Simplicity Day -->
+      <article class="explorer-session-card" data-tags="minimalism cozy-cabin mindful-living nature slow-life" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #BA7517, #5c390b);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(186,117,23,0.1); color: #BA7517; border-color: rgba(186,117,23,0.3);">🎉 Celebrate Club</span>
+            <span class="club-tag" style="background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7;">B1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">National Simplicity Day</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Explore the minimalism of Henry David Thoreau. Discover mindfulness, nature, and slower lifestyles.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.8rem;">
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the source about?">📖</span> <button class="esc-tag-btn" data-tag="minimalism">#minimalism</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What does the cover represent?">🎨</span> <button class="esc-tag-btn" data-tag="cozy-cabin">#cozy-cabin</button></div>
+            <div style="display: flex; align-items: center; gap: 0.4rem;"><span title="What is the main idea?">💡</span> <button class="esc-tag-btn" data-tag="mindful-living">#mindful-living</button></div>
+            <div style="display: flex; align-items: flex-start; gap: 0.4rem; flex-wrap: wrap;"><span title="What are the secondary ideas?">🔗</span>
+              <button class="esc-tag-btn" data-tag="nature">#nature</button>
+              <button class="esc-tag-btn" data-tag="slow-life">#slow-life</button>
+            </div>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/lets-celebrate/national-simplicity-day.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
   <!-- Section 4: Upcoming Events -->
   <section id="upcoming">
     <div class="upcoming-section">
@@ -417,6 +766,7 @@
 <script src="../js/config.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
+  // --- 1. Main Live Club Filtering Logic ---
   const buttons = document.querySelectorAll('.filter-btn');
   const cards = document.querySelectorAll('.club-grid .club-card');
 
@@ -437,6 +787,97 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+
+  // --- 2. Session Explorer Interactive Filtering Engine ---
+  const cloudTags = document.querySelectorAll('.cloud-tag-btn');
+  const escTags = document.querySelectorAll('.esc-tag-btn');
+  const sessionCards = document.querySelectorAll('.explorer-session-card');
+  const filterStatusBar = document.getElementById('filter-status-bar');
+  const filterStatusText = document.getElementById('filter-status-text');
+  const clearFilterBtn = document.getElementById('clear-filter-btn');
+
+  let activeFilterTag = null;
+
+  function applyTagFilter(tag) {
+    if (activeFilterTag === tag) {
+      // Toggle off if clicking active tag again
+      clearFilter();
+      return;
+    }
+
+    activeFilterTag = tag;
+
+    // Update cloud tags active state
+    cloudTags.forEach(btn => {
+      if (btn.getAttribute('data-tag') === tag) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+
+    // Filter session cards
+    let visibleCount = 0;
+    sessionCards.forEach(card => {
+      const cardTags = card.getAttribute('data-tags') || '';
+      if (cardTags.split(' ').includes(tag)) {
+        card.style.display = 'flex';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    // Show status bar
+    filterStatusText.textContent = `Active Filter: #${tag} (${visibleCount} ${visibleCount === 1 ? 'session' : 'sessions'} found)`;
+    filterStatusBar.style.display = 'flex';
+
+    // Smooth scroll to the explorer section
+    const explorerSec = document.getElementById('explorer-section');
+    if (explorerSec) {
+      explorerSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  function clearFilter() {
+    activeFilterTag = null;
+
+    // Reset cloud tag active classes
+    cloudTags.forEach(btn => btn.classList.remove('active'));
+
+    // Show all cards
+    sessionCards.forEach(card => {
+      card.style.display = 'flex';
+    });
+
+    // Hide status bar
+    filterStatusBar.style.display = 'none';
+  }
+
+  // Bind cloud tag buttons click handlers
+  cloudTags.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tag = btn.getAttribute('data-tag');
+      if (tag) applyTagFilter(tag);
+    });
+  });
+
+  // Bind inline card tag buttons click handlers
+  escTags.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const tag = btn.getAttribute('data-tag');
+      if (tag) applyTagFilter(tag);
+    });
+  });
+
+  // Bind clear filter button
+  if (clearFilterBtn) {
+    clearFilterBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      clearFilter();
+    });
+  }
 });
 </script>
 </body>

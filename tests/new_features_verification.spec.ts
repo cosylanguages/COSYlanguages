@@ -41,4 +41,39 @@ test.describe('New Features Verification', () => {
     await expect(page.getByRole('cell', { name: 'Description', exact: true })).toBeVisible();
     await expect(page.locator('a:has-text("Read Article")')).toBeVisible();
   });
+
+  test('Session Explorer keywords filter works correctly', async ({ page }) => {
+    await page.goto('http://localhost:8080/events/index.html');
+
+    // Verify Explorer section is visible
+    await expect(page.locator('#explorer-section')).toBeVisible();
+
+    // Verify tag cloud has the buttons
+    const chessBtn = page.locator('button.cloud-tag-btn[data-tag="chess"]');
+    await expect(chessBtn).toBeVisible();
+
+    // Verify there are 8 cards by default
+    const cards = page.locator('.explorer-session-card');
+    await expect(cards).toHaveCount(8);
+
+    // Click on "#chess" tag
+    await chessBtn.click();
+
+    // Verify active filter status bar is shown and shows correct text
+    const statusBar = page.locator('#filter-status-bar');
+    await expect(statusBar).toBeVisible();
+    await expect(statusBar).toContainText('#chess');
+
+    // Only matching cards should remain visible
+    const visibleCards = page.locator('.explorer-session-card:visible');
+    await expect(visibleCards).toHaveCount(1);
+    await expect(visibleCards.locator('h4')).toContainText("The Queen's Gambit");
+
+    // Click "Clear Filter"
+    await page.locator('#clear-filter-btn').click();
+
+    // Verify status bar is hidden and all 8 cards are shown again
+    await expect(statusBar).not.toBeVisible();
+    await expect(cards).toHaveCount(8);
+  });
 });
