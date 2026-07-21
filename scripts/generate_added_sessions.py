@@ -316,6 +316,75 @@ def make_session_html(lang, title, heading, date, meta_info, desc, vocab_list, w
             <span class="mistake-note-text">({note})</span>
           </div>\n"""
 
+    # Multi-language Original Connection Links
+    multilingual_links = {
+        "dolto-difficult-child-quote": {
+            "origin_lang": "fr",
+            "en": {"label": "English Translation", "path": "sessions/the-greatest-quotes/dolto-difficult-child-quote.html"},
+            "fr": {"label": "Version Originale (Français)", "path": "fr/sessions/the-greatest-quotes/dolto-difficult-child-quote.html"},
+            "ru": {"label": "Русский перевод", "path": "ru/sessions/the-greatest-quotes/dolto-difficult-child-quote.html"}
+        },
+        "neufeld-resistance-quote": {
+            "origin_lang": "en",
+            "en": {"label": "Original Version (English)", "path": "sessions/the-greatest-quotes/neufeld-resistance-quote.html"},
+            "ru": {"label": "Русский перевод", "path": "ru/sessions/the-greatest-quotes/neufeld-resistance-quote.html"}
+        },
+        "langle-suppressed-child-quote": {
+            "origin_lang": "en",
+            "en": {"label": "Original Version (English)", "path": "sessions/the-greatest-quotes/langle-suppressed-child-quote.html"},
+            "ru": {"label": "Русский перевод", "path": "ru/sessions/the-greatest-quotes/langle-suppressed-child-quote.html"}
+        },
+        "voltaire-read-dance-quote": {
+            "origin_lang": "fr",
+            "en": {"label": "English Translation", "path": "sessions/the-greatest-quotes/voltaire-read-dance-quote.html"},
+            "fr": {"label": "Version Originale (Français)", "path": "fr/sessions/the-greatest-quotes/voltaire-read-dance-quote.html"}
+        },
+        "dostoevsky-loving-power-quote": {
+            "origin_lang": "ru",
+            "en": {"label": "English Translation", "path": "sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html"},
+            "ru": {"label": "Оригинальная версия (Русский)", "path": "ru/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html"}
+        },
+        "dostoevsky-politics-religion-quote": {
+            "origin_lang": "ru",
+            "en": {"label": "English Translation", "path": "sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html"},
+            "ru": {"label": "Оригинальная версия (Русский)", "path": "ru/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html"}
+        }
+    }
+
+    slug_key = meta_info.get("slug_key", "")
+    connection_html = ""
+    if slug_key in multilingual_links:
+        conn = multilingual_links[slug_key]
+        origin = conn["origin_lang"]
+
+        # Translate descriptions
+        if lang == "fr":
+            intro_text = f"🌎 <strong>Connexion multilingue :</strong> Cette citation a été écrite à l'origine en <strong>{ 'Français' if origin == 'fr' else ('Anglais' if origin == 'en' else 'Russe') }</strong>."
+        elif lang == "ru":
+            intro_text = f"🌎 <strong>Мультиязычная связь:</strong> Эта цитата изначально написана на <strong>{ 'французском' if origin == 'fr' else ('английском' if origin == 'en' else 'русском') }</strong>."
+        else:
+            intro_text = f"🌎 <strong>Multilingual Connection:</strong> This quote was originally written in <strong>{ 'French' if origin == 'fr' else ('English' if origin == 'en' else 'Russian') }</strong>."
+
+        links_buttons = []
+        for l_code, l_info in conn.items():
+            if l_code == "origin_lang":
+                continue
+            # Generate correct relative paths
+            rel_path = f"{depth_prefix}events/{l_info['path']}"
+            is_current = (l_code == lang)
+            btn_style = "background: var(--teal); color: white;" if is_current else "background: white; color: var(--muted); border: 1px solid var(--border);"
+            links_buttons.append(f'<a href="{rel_path}" class="filter-btn" style="{btn_style} padding: 4px 10px; font-size: 0.75rem; border-radius: 20px; text-decoration: none; display: inline-block;">{l_info["label"]}</a>')
+
+        connection_html = f"""
+  <!-- MULTILINGUAL SWITCHER BOX -->
+  <div class="multilingual-switcher-box" style="background: var(--warm-white); border: 1px solid var(--border); border-radius: 16px; padding: 1.25rem; margin-bottom: 2rem; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; gap: 0.75rem;">
+    <div style="font-size: 0.88rem; color: var(--ink-soft); line-height: 1.5;">{intro_text}</div>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      {" ".join(links_buttons)}
+    </div>
+  </div>
+"""
+
     # Optional Ledger Card (Only for Greatest Quotes)
     ledger_html = ""
     if not is_mind_matters:
@@ -365,6 +434,8 @@ def make_session_html(lang, title, heading, date, meta_info, desc, vocab_list, w
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
     <p>{desc}</p>
   </div>
+
+{connection_html}
 
 {ledger_html}
 
@@ -1009,13 +1080,17 @@ def generate_sessions():
         # Construct rounds items
         round_1_items, round_2_items = get_discussion_rounds(lang, vocab_list)
 
+        # Build meta info and append slug_key
+        meta_info = dict(s["meta_info"])
+        meta_info["slug_key"] = slug
+
         # Build complete HTML
         html = make_session_html(
             lang=lang,
             title=s["title"],
             heading=f"\"{s['heading']}\" — {s['author']}" if not is_mind_matters else s["heading"],
             date=s["date"],
-            meta_info=s["meta_info"],
+            meta_info=meta_info,
             desc=s["desc"],
             vocab_list=vocab_list,
             warm_up_questions=s["warm_up_questions"],
