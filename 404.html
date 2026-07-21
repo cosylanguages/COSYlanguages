@@ -6,21 +6,599 @@
 <title>Page Not Found — COSYlanguages</title>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Lora:wght@700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/tokens.css">
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/components.css">
-<link rel="stylesheet" href="css/layout.css">
+<script>
+    // Meticulous dynamic prefixing for 404 assets to support any subdirectory nesting
+    (function() {
+        const path = window.location.pathname;
+        let prefix = "";
+        if (path.includes("/COSYlanguages/")) {
+            const relativePart = path.split("/COSYlanguages/")[1] || "";
+            const depth = (relativePart.match(/\//g) || []).length;
+            prefix = "../".repeat(depth);
+        } else {
+            const depth = (path.match(/\//g) || []).length - 1;
+            prefix = depth > 0 ? "../".repeat(depth) : "";
+        }
+        window.COSY_PREFIX = prefix;
+    })();
+</script>
+
+<link rel="stylesheet" id="css-tokens" href="">
+<link rel="stylesheet" id="css-base" href="">
+<link rel="stylesheet" id="css-components" href="">
+<link rel="stylesheet" id="css-layout" href="">
+
+<script>
+    document.getElementById('css-tokens').href = window.COSY_PREFIX + 'css/tokens.css';
+    document.getElementById('css-base').href = window.COSY_PREFIX + 'css/base.css';
+    document.getElementById('css-components').href = window.COSY_PREFIX + 'css/components.css';
+    document.getElementById('css-layout').href = window.COSY_PREFIX + 'css/layout.css';
+</script>
+
+<style>
+  body {
+    background-color: var(--sage-light, #FAF7F2);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    font-family: var(--font-sans, 'Nunito', sans-serif);
+    color: var(--black, #222);
+  }
+
+  .cosy-404-container {
+    max-width: 800px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 3rem 2rem;
+    text-align: center;
+    border-top: 8px solid var(--sage-deep, #3d5a45);
+    margin-bottom: 2rem;
+  }
+
+  .logo-img {
+    height: 70px;
+    width: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-size: 6rem;
+    font-family: var(--font-serif, 'Lora', serif);
+    color: var(--sage-dark, #2b3e30);
+    margin: 0;
+    line-height: 1;
+  }
+
+  h2 {
+    font-family: var(--font-serif, 'Lora', serif);
+    color: var(--sage-deep, #3d5a45);
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+
+  p.desc {
+    font-size: 1.15rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+  }
+
+  /* Language Selector */
+  .lang-selector {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+  }
+
+  .lang-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 2px solid #e2e8f0;
+    background: #fff;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: all 0.2s ease;
+  }
+
+  .lang-btn:hover {
+    border-color: var(--sage-deep, #3d5a45);
+    background: #f7fafc;
+  }
+
+  .lang-btn.active {
+    background: var(--sage-deep, #3d5a45);
+    color: #fff;
+    border-color: var(--sage-deep, #3d5a45);
+  }
+
+  /* Game Section */
+  .game-container {
+    background: var(--sage-light, #FAF7F2);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border: 1px solid rgba(0,0,0,0.05);
+    text-align: left;
+  }
+
+  .game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(0,0,0,0.05);
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .game-title {
+    font-family: var(--font-serif, 'Lora', serif);
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--sage-deep, #3d5a45);
+    margin: 0;
+  }
+
+  .game-instructions {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+
+  .game-columns {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 600px) {
+    .game-columns {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .match-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .match-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    user-select: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  }
+
+  .match-card:hover {
+    border-color: var(--sage-deep, #3d5a45);
+    transform: translateY(-2px);
+  }
+
+  .match-card.selected {
+    border-color: var(--honey-dark, #b7791f);
+    background: #fffdf5;
+  }
+
+  .match-card.matched {
+    background: #edfdf1;
+    border-color: #48bb78;
+    color: #2f855a;
+    cursor: default;
+    transform: none;
+    pointer-events: none;
+    opacity: 0.8;
+  }
+
+  .match-card.wrong {
+    background: #fff5f5;
+    border-color: #f56565;
+    color: #c53030;
+    animation: shake 0.5s ease-in-out;
+  }
+
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+  }
+
+  #win-message {
+    text-align: center;
+    background: #edfdf1;
+    border: 2px solid #48bb78;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    display: none;
+    animation: popIn 0.3s ease;
+  }
+
+  @keyframes popIn {
+    0% { transform: scale(0.9); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  #win-message p {
+    font-weight: bold;
+    color: #2f855a;
+    font-size: 1.2rem;
+    margin: 0 0 1rem;
+  }
+
+  .btn-win-again {
+    background: #48bb78;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+  }
+
+  .btn-win-again:hover {
+    background: #38a169;
+  }
+
+  /* Return Flows */
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    background: var(--sage-deep, #3d5a45);
+    color: #fff !important;
+  }
+
+  .btn-primary:hover {
+    background: var(--sage-dark, #2b3e30);
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    background: #fff;
+    color: var(--sage-deep, #3d5a45) !important;
+    border: 2px solid var(--sage-deep, #3d5a45);
+  }
+
+  .btn-secondary:hover {
+    background: var(--sage-light, #FAF7F2);
+    transform: translateY(-1px);
+  }
+</style>
 </head>
 <body>
-<div class="container">
-  <h1>404</h1>
-  <h2>Oops! You've wandered off the path.</h2>
-  <p>We couldn't find the page you're looking for. Let's get you back to learning!</p>
+
+<div class="cosy-404-container">
+  <img id="logo-img" src="" alt="COSYlanguages Logo" class="logo-img">
+  <script>
+    document.getElementById('logo-img').src = window.COSY_PREFIX + 'images/logos/cosylanguages.png';
+  </script>
+
+  <h1 id="error-code">404</h1>
+  <h2 id="error-title">Page Not Found</h2>
+  <p id="error-desc" class="desc">We couldn't find the page you're looking for. Let's get you back to learning!</p>
+
+  <!-- Language Switcher to match dynamic game content -->
+  <div class="lang-selector">
+    <button class="lang-btn active" data-lang="en" onclick="selectLanguage('en')">🇬🇧 English</button>
+    <button class="lang-btn" data-lang="fr" onclick="selectLanguage('fr')">🇫🇷 Français</button>
+    <button class="lang-btn" data-lang="it" onclick="selectLanguage('it')">🇮🇹 Italiano</button>
+    <button class="lang-btn" data-lang="ru" onclick="selectLanguage('ru')">🇷🇺 Русский</button>
+    <button class="lang-btn" data-lang="el" onclick="selectLanguage('el')">🇬🇷 Ελληνικά</button>
+  </div>
+
+  <!-- Interactive Mini-game -->
+  <div class="game-container">
+    <div class="game-header">
+      <div id="game-title" class="game-title">Monolingual Word Matcher 🧠</div>
+    </div>
+    <div id="game-instructions" class="game-instructions">Match each target-language word to its definition to find your way back!</div>
+
+    <div class="game-columns" id="game-area">
+      <div class="match-column" id="words-container">
+        <!-- Word Cards will be loaded dynamically -->
+      </div>
+      <div class="match-column" id="defs-container">
+        <!-- Definition Cards will be loaded dynamically -->
+      </div>
+    </div>
+
+    <div id="win-message">
+      <p id="win-text">🎉 Excellent! You matched all words perfectly!</p>
+      <button id="btn-again" class="btn-win-again" onclick="restartGame()">Play Again 🔄</button>
+    </div>
+  </div>
+
+  <!-- Return Flows -->
   <div class="links">
-    <a href="index.html" class="btn btn-primary">Go to Homepage 🏡</a>
-    <a href="practice/index.html" class="btn">Practice Languages 💡</a>
-    <a href="games/index.html" class="btn">Play Games 🎉</a>
+    <a id="btn-home" href="index.html" class="btn btn-primary">Go to Homepage 🏡</a>
+    <a id="btn-practice" href="practice/index.html" class="btn btn-secondary">Practice Languages 💡</a>
+    <a id="btn-games" href="games/index.html" class="btn btn-secondary">Play Games 🎉</a>
   </div>
 </div>
+
+<script>
+  // Set accurate link paths relative to base folder
+  document.getElementById('btn-home').href = window.COSY_PREFIX + 'index.html';
+  document.getElementById('btn-practice').href = window.COSY_PREFIX + 'practice/index.html';
+  document.getElementById('btn-games').href = window.COSY_PREFIX + 'games/index.html';
+
+  const UI_TEXT = {
+    en: {
+        title: "404 — Lost in Translation?",
+        desc: "We couldn't find the page you're looking for. But don't worry, you're still in the learning zone!",
+        game_title: "Monolingual Word Matcher 🧠",
+        game_instructions: "Match each target-language word to its definition to find your way back!",
+        win: "🎉 Excellent! You matched all words perfectly!",
+        play_again: "Play Again 🔄",
+        btn_home: "Go to Homepage 🏡",
+        btn_practice: "Practice Languages 💡",
+        btn_games: "Play Games 🎉"
+    },
+    fr: {
+        title: "404 — Perdu dans la traduction ?",
+        desc: "Nous n'avons pas trouvé la page que vous cherchez. Mais ne vous inquiétez pas, vous êtes toujours dans la zone d'apprentissage !",
+        game_title: "Associer les mots 🧠",
+        game_instructions: "Associez chaque mot de la langue cible à sa définition pour retrouver votre chemin !",
+        win: "🎉 Excellent ! Vous avez parfaitement associé tous les mots !",
+        play_again: "Rejouer 🔄",
+        btn_home: "Aller à l'accueil 🏡",
+        btn_practice: "Pratiquer les langues 💡",
+        btn_games: "Jouer aux jeux 🎉"
+    },
+    it: {
+        title: "404 — Perso nella traduzione?",
+        desc: "Non siamo riusciti a trovare la pagina che stai cercando. Ma non preoccuparti, sei ancora nella zona di apprendimento!",
+        game_title: "Abbinamento Parole 🧠",
+        game_instructions: "Abbina ogni parola della lingua d'arrivo alla sua definizione per ritrovare la strada!",
+        win: "🎉 Eccellente! Hai abbinato tutte le parole perfettamente!",
+        play_again: "Gioca ancora 🔄",
+        btn_home: "Vai alla Homepage 🏡",
+        btn_practice: "Pratica le lingue 💡",
+        btn_games: "Gioca ai giochi 🎉"
+    },
+    ru: {
+        title: "404 — Трудности перевода?",
+        desc: "Мы не смогли найти страницу, которую вы ищете. Но не волнуйтесь, вы всё еще на территории знаний!",
+        game_title: "Подбери значение слов 🧠",
+        game_instructions: "Сопоставьте слово целевого языка с его определением, чтобы найти дорогу обратно!",
+        win: "🎉 Отлично! Вы идеально подобрали все значения слов!",
+        play_again: "Играть снова 🔄",
+        btn_home: "На главную 🏡",
+        btn_practice: "Практика языков 💡",
+        btn_games: "Играть в игры 🎉"
+    },
+    el: {
+        title: "404 — Χαθήκατε στη μετάφραση;",
+        desc: "Δεν μπορέσαμε να βρούμε τη σελίδα που ψάχνετε. Αλλά μην ανησυχείτε, είστε ακόμα στον χώρο της μάθησης!",
+        game_title: "Ταίριασμα Λέξεων 🧠",
+        game_instructions: "Ταιριάξτε κάθε λέξη-στόχο με τον ορισμό της για να βρείτε τον δρόμο της επιστροφής!",
+        win: "🎉 Εξαιρετικά! Ταιριάξατε όλες τις λέξεις τέλεια!",
+        play_again: "Παίξτε Ξανά 🔄",
+        btn_home: "Αρχική Σελίδα 🏡",
+        btn_practice: "Εξάσκηση Γλωσσών 💡",
+        btn_games: "Παίξτε Παιχνίδια 🎉"
+    }
+  };
+
+  let activeLang = 'en';
+
+  function selectLanguage(lang) {
+      activeLang = lang;
+
+      // Toggle button states
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+
+      // Update UI texts
+      const text = UI_TEXT[lang];
+      document.getElementById('error-title').textContent = text.title;
+      document.getElementById('error-desc').textContent = text.desc;
+      document.getElementById('game-title').textContent = text.game_title;
+      document.getElementById('game-instructions').textContent = text.game_instructions;
+      document.getElementById('win-text').textContent = text.win;
+      document.getElementById('btn-again').textContent = text.play_again;
+      document.getElementById('btn-home').textContent = text.btn_home;
+      document.getElementById('btn-practice').textContent = text.btn_practice;
+      document.getElementById('btn-games').textContent = text.btn_games;
+
+      loadVocabAndStartGame(lang);
+  }
+
+  function loadVocabAndStartGame(lang) {
+      const scriptId = `vocab-script-${lang}`;
+      if (document.getElementById(scriptId)) {
+          initGame(lang);
+          return;
+      }
+      const script = document.createElement('script');
+      script.id = scriptId;
+      script.src = `${window.COSY_PREFIX}vocabulary/${lang}/A1/adjectives.js`;
+      script.onload = () => {
+          initGame(lang);
+      };
+      script.onerror = () => {
+          document.getElementById('game-area').innerHTML = `<p style="grid-column: 1/-1; text-align:center; color:red;">Failed to load vocabulary data for ${lang.toUpperCase()}</p>`;
+      };
+      document.head.appendChild(script);
+  }
+
+  let selectedWordEl = null;
+  let selectedDefEl = null;
+  let matchedCount = 0;
+
+  function initGame(lang) {
+      const list = window.vocabularyData ? window.vocabularyData[lang] : null;
+      if (!list || list.length === 0) {
+          document.getElementById('game-area').innerHTML = "<p style='grid-column: 1/-1; text-align:center;'>Loading vocabulary data...</p>";
+          return;
+      }
+
+      // Filter out words that don't have definitions
+      const validWords = list.filter(item => item && item.word && item.definitions && item.definitions.length > 0);
+      if (validWords.length < 5) {
+          document.getElementById('game-area').innerHTML = "<p style='grid-column: 1/-1; text-align:center;'>Not enough data to start game.</p>";
+          return;
+      }
+
+      // Pick 5 random words
+      const shuffled = [...validWords].sort(() => 0.5 - Math.random());
+      const gameItems = shuffled.slice(0, 5);
+
+      // Reset selections
+      selectedWordEl = null;
+      selectedDefEl = null;
+      matchedCount = 0;
+
+      const wordsContainer = document.getElementById('words-container');
+      const defsContainer = document.getElementById('defs-container');
+      const winMessage = document.getElementById('win-message');
+
+      wordsContainer.innerHTML = '';
+      defsContainer.innerHTML = '';
+      winMessage.style.display = 'none';
+
+      // Render words
+      const wordsList = gameItems.map(item => ({ word: item.word, matchId: item.word }));
+      const shuffledWords = [...wordsList].sort(() => 0.5 - Math.random());
+      shuffledWords.forEach(w => {
+          const div = document.createElement('div');
+          div.className = 'match-card';
+          div.textContent = w.word;
+          div.dataset.id = w.matchId;
+          div.onclick = () => selectWord(div);
+          wordsContainer.appendChild(div);
+      });
+
+      // Render definitions (or emojis)
+      const defsList = gameItems.map(item => ({
+          text: (item.emoji ? item.emoji + ' ' : '') + item.definitions[0].text,
+          matchId: item.word
+      }));
+      const shuffledDefs = [...defsList].sort(() => 0.5 - Math.random());
+      shuffledDefs.forEach(d => {
+          const div = document.createElement('div');
+          div.className = 'match-card';
+          div.textContent = d.text;
+          div.dataset.id = d.id;
+          div.onclick = () => selectDefinition(div);
+          defsContainer.appendChild(div);
+      });
+  }
+
+  function selectWord(el) {
+      if (el.classList.contains('matched')) return;
+      if (selectedWordEl) {
+          selectedWordEl.classList.remove('selected');
+      }
+      selectedWordEl = el;
+      selectedWordEl.classList.add('selected');
+      checkMatch();
+  }
+
+  function selectDefinition(el) {
+      if (el.classList.contains('matched')) return;
+      if (selectedDefEl) {
+          selectedDefEl.classList.remove('selected');
+      }
+      selectedDefEl = el;
+      selectedDefEl.classList.add('selected');
+      checkMatch();
+  }
+
+  function checkMatch() {
+      if (selectedWordEl && selectedDefEl) {
+          const wordId = selectedWordEl.dataset.id;
+          const defId = selectedDefEl.dataset.id;
+
+          if (wordId === defId) {
+              selectedWordEl.classList.remove('selected');
+              selectedDefEl.classList.remove('selected');
+              selectedWordEl.classList.add('matched');
+              selectedDefEl.classList.add('matched');
+
+              selectedWordEl = null;
+              selectedDefEl = null;
+              matchedCount++;
+
+              if (matchedCount === 5) {
+                  document.getElementById('win-message').style.display = 'block';
+                  // Dispatch score points locally if supported
+                  try {
+                      if (localStorage.getItem('cosy_streak')) {
+                          let points = parseInt(localStorage.getItem('cosy_points') || '0');
+                          points += 15;
+                          localStorage.setItem('cosy_points', points.toString());
+                      }
+                  } catch (e) {
+                      console.error(e);
+                  }
+              }
+          } else {
+              const w = selectedWordEl;
+              const d = selectedDefEl;
+              w.classList.add('wrong');
+              d.classList.add('wrong');
+              setTimeout(() => {
+                  w.classList.remove('wrong');
+                  d.classList.remove('wrong');
+                  w.classList.remove('selected');
+                  d.classList.remove('selected');
+              }, 800);
+              selectedWordEl = null;
+              selectedDefEl = null;
+          }
+      }
+  }
+
+  function restartGame() {
+      initGame(activeLang);
+  }
+
+  // Auto-initialize with English
+  window.onload = () => {
+      selectLanguage('en');
+  };
+</script>
+
 </body>
 </html>

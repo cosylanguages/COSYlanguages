@@ -14,13 +14,184 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/print.css">
 
+    <script src="js/data/curriculum_data.js"></script>
+    <script src="js/data/grammar_config.js"></script>
+    <script src="js/core/morphology.js"></script>
+    <script src="js/core/linguistics.js"></script>
+    <script src="js/core/i18n.js"></script>
     <script src="js/core/engine.js"></script>
+
+    <style>
+        /* Interactive controls, hidden from actual printing output */
+        @media print {
+            .print-controls {
+                display: none !important;
+            }
+            body {
+                background: #fff !important;
+            }
+            .print-container {
+                box-shadow: none !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            .card {
+                break-inside: avoid !important;
+                page-break-inside: avoid !important;
+                border: 1px solid #ccc !important;
+                margin-bottom: 2rem !important;
+            }
+        }
+
+        .print-controls {
+            position: sticky;
+            top: 0;
+            background: #ffffff;
+            padding: 1rem;
+            border-bottom: 2px solid var(--sage-deep, #3d5a45);
+            z-index: 1100;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .print-controls select {
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            border: 2px solid #ccc;
+            font-weight: bold;
+            font-family: inherit;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            padding: 1.5rem;
+        }
+
+        .card-title {
+            font-family: 'Lora', serif;
+            font-size: 1.5rem;
+            color: var(--sage-dark, #2b3e30);
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            border-bottom: 2px solid var(--sage-light, #FAF7F2);
+            padding-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+
+        .card-meta {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .meta-badge {
+            background: var(--sage-light, #FAF7F2);
+            color: var(--sage-deep, #3d5a45);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        .gtable {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .gtable th, .gtable td {
+            border: 1px solid #e2e8f0;
+            padding: 0.5rem;
+            text-align: left;
+        }
+
+        .gtable th {
+            background: var(--sage-light, #FAF7F2);
+            color: var(--sage-deep, #3d5a45);
+        }
+
+        .row-label {
+            font-weight: bold;
+            color: #666;
+            background: #fafafa;
+        }
+
+        .key-verb {
+            font-weight: bold;
+            color: var(--sage-deep, #3d5a45);
+        }
+
+        .key-neg {
+            color: var(--coral, #dd6b20);
+        }
+
+        .tense-container {
+            margin-bottom: 1.5rem;
+        }
+
+        .tense-header {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            color: var(--honey-dark, #b7791f);
+            margin-bottom: 0.25rem;
+        }
+    </style>
 </head>
 <body class="print-preview">
 
 <div class="print-controls">
+    <select id="sel-lang" onchange="onSelectorChange()">
+        <option value="en">🇬🇧 English</option>
+        <option value="fr">🇫🇷 Français</option>
+        <option value="it">🇮🇹 Italiano</option>
+        <option value="ru">🇷🇺 Русский</option>
+        <option value="el">🇬🇷 Ελληνικά</option>
+        <option value="es">🇪🇸 Español</option>
+        <option value="de">🇩🇪 Deutsch</option>
+        <option value="pt">🇵🇹 Português</option>
+        <option value="hy">🇦🇲 Armenian</option>
+        <option value="ka">🇬🇪 Georgian</option>
+        <option value="tt">🇷🇺 Tatar</option>
+        <option value="ba">🇷🇺 Bashkir</option>
+        <option value="br">🇫🇷 Breton</option>
+    </select>
+
+    <select id="sel-level" onchange="onSelectorChange()">
+        <option value="starter">A1 Starter</option>
+        <option value="elementary">A2 Elementary</option>
+        <option value="intermediate">B1 Intermediate</option>
+        <option value="upper_intermediate">B2 Upper-Intermediate</option>
+        <option value="advanced">C1 Advanced</option>
+        <option value="proficiency">C2 Proficiency</option>
+    </select>
+
+    <select id="sel-type" onchange="onSelectorChange()">
+        <option value="verbs">Verbs</option>
+        <option value="nouns">Nouns</option>
+        <option value="adjectives">Adjectives</option>
+    </select>
+
     <button onclick="window.print()" class="btn-print">🖨️ Print to PDF / Paper</button>
-    <div style="margin-top:10px; font-size:0.8rem; color:#666;">Tip: In print settings, enable "Background Graphics" for best results.</div>
 </div>
 
 <main class="print-container">
@@ -31,71 +202,292 @@
     </div>
 </main>
 
-<script src="js/data/grammar_config.js"></script>
-<script src="js/core/i18n.js"></script>
-<script src="js/core/morphology.js"></script>
-<script src="js/core/linguistics.js"></script>
-
 <script>
+const FAMILIES = {
+    "en": "germanic/en",
+    "fr": "romance/fr",
+    "it": "romance/it",
+    "ru": "slavic/ru",
+    "el": "hellenic/el",
+    "es": "romance/es",
+    "de": "germanic/de",
+    "pt": "romance/pt",
+    "hy": "armenian/hy",
+    "ka": "kartvelian/ka",
+    "tt": "turkic/tt",
+    "ba": "turkic/ba",
+    "br": "celtic/br"
+};
+
+const levelToDir = {
+    "starter": "A1",
+    "elementary": "A2",
+    "intermediate": "B1",
+    "upper_intermediate": "B2",
+    "advanced": "C1",
+    "proficiency": "C2"
+};
+
+const TENSE_LABELS = {
+    'present_simple': { en: 'Present Simple', fr: 'Présent', it: 'Presente', ru: 'Настоящее время', es: 'Presente', de: 'Präsens', el: 'Ενεστώτας', ka: 'აწμყო' },
+    'past_simple': { en: 'Past Simple', fr: 'Passé Simple', it: 'Passato Remoto', ru: 'Прошедшее время', es: 'Pretérito Indefinido', de: 'Präteritum', el: 'Αόριστος', ka: 'წყვეτιλι' },
+    'imperfect': { en: 'Imperfect', fr: 'Imparfait', it: 'Imperfetto', es: 'Pretérito Imperfecto', el: 'Παρατατικός', ka: 'უსრული' },
+    'future_simple': { en: 'Future Simple', fr: 'Futur Simple', it: 'Futuro Semplice', ru: 'Будущее время', es: 'Futuro Próximo', de: 'Futur I', el: 'Μέλλοντας', ka: 'მომავალი' },
+    'conditional_present': { en: 'Conditional', fr: 'Conditionnel Présent', it: 'Condizionale Presente', es: 'Condicional', pt: 'Condicional' },
+    'subjunctive_present': { en: 'Subjunctive', fr: 'Subjonctif Présent', it: 'Congiuntivo Presente', es: 'Subjuntivo', pt: 'Subjuntivo' },
+    'passe_compose': { fr: 'Passé Composé' },
+    'passato_prossimo': { it: 'Passato Prossimo' },
+    'pret_perfecto': { es: 'Pretérito Perfecto' },
+    'perfekt': { de: 'Perfekt' },
+    'conditional': { ru: 'Условное наклонение', br: 'Doare-divizout' },
+    'future_indefinite': { tt: 'Киләчәк заман', ba: 'Киләсәк заман' },
+    'subjunctive_2': { de: 'Konjunktiv II' },
+    'present_continuous': { en: 'Present Continuous' }
+};
+
+function getTenseLabel(tense, lang) {
+    if (TENSE_LABELS[tense] && TENSE_LABELS[tense][lang]) return TENSE_LABELS[tense][lang];
+    if (TENSE_LABELS[tense] && TENSE_LABELS[tense]['en']) return TENSE_LABELS[tense]['en'];
+    return tense.replace(/_/g, ' ');
+}
+
+async function loadGrammarData(lang, level) {
+  const family = FAMILIES[lang];
+  if (!family) return;
+  const dir = levelToDir[level];
+  if (!dir) return;
+
+  await new Promise((resolve) => {
+    const s = document.createElement("script");
+    s.src = `vocabulary/${lang}/${dir}/verbs.js`;
+    s.onload = () => resolve();
+    s.onerror = () => {
+        const s2 = document.createElement("script");
+        s2.src = `js/data/${family}/${level}/verbs.js`;
+        s2.onload = () => resolve();
+        s2.onerror = () => resolve();
+        document.head.appendChild(s2);
+    };
+    document.head.appendChild(s);
+  });
+}
+
+async function loadNounData(lang, level) {
+  const family = FAMILIES[lang];
+  if (!family) return;
+  const dir = levelToDir[level];
+  if (!dir) return;
+
+  const files = ["vocabulary.js", "adjectives.js"];
+  const promises = files.map(f => {
+    return new Promise((resolve) => {
+      const s = document.createElement("script");
+      s.src = `vocabulary/${lang}/${dir}/${f}`;
+      s.onload = () => resolve();
+      s.onerror = () => {
+          const s2 = document.createElement("script");
+          s2.src = `js/data/${family}/${level}/${f}`;
+          s2.onload = () => resolve();
+          s2.onerror = () => resolve();
+          document.head.appendChild(s2);
+      };
+      document.head.appendChild(s);
+    });
+  });
+  await Promise.all(promises);
+}
+
+function onSelectorChange() {
+    const lang = document.getElementById('sel-lang').value;
+    const level = document.getElementById('sel-level').value;
+    const type = document.getElementById('sel-type').value;
+
+    const newUrl = `${window.location.pathname}?lang=${lang}&level=${level}&type=${type}`;
+    window.history.pushState({path: newUrl}, '', newUrl);
+
+    loadPrintData();
+}
+
 async function loadPrintData() {
     const params = new URLSearchParams(window.location.search);
     const lang = params.get('lang') || 'en';
     const level = params.get('level') || 'starter';
-    const type = params.get('type') || 'verbs'; // verbs, nouns, adjectives
+    const type = params.get('type') || 'verbs';
+
+    document.getElementById('sel-lang').value = lang;
+    document.getElementById('sel-level').value = level;
+    document.getElementById('sel-type').value = type;
 
     document.getElementById('print-content').innerHTML = `
-        <div style="text-align:center; margin-bottom: 3rem;">
-            <img src="images/logos/cosylanguages.png" alt="COSYlanguages" style="height: 60px; margin-bottom: 1rem;">
-            <h1 style="font-family: 'Lora', serif; color: var(--sage-deep); font-size: 2.5rem; margin-bottom: 0.5rem;">${lang.toUpperCase()} Grammar Reference</h1>
-            <div style="font-weight: 800; text-transform: uppercase; color: var(--honey-dark); letter-spacing: 2px;">Level: ${level.toUpperCase()}</div>
+        <div style="text-align:center; padding: 2rem;">
+            <h2>Loading dynamic grammar & morphology databases...</h2>
         </div>
-        <div id="main-data">Loading linguistic data...</div>
     `;
 
-    // Integration logic similar to grammar-reference.html but optimized for print
-    const layer = (type === 'verbs' || type === 'nouns' || type === 'adjectives') ? 'morphology' : 'syntax';
-    const dataPath = `grammar/${lang}/${layer}/${type}.json`;
+    // Clear previous data
+    window.verbsData = {};
+    window.vocabularyData = {};
 
-    try {
-        const response = await fetch(dataPath);
-        if (!response.ok) throw new Error(`Could not load ${dataPath}`);
-        const data = await response.json();
-        renderPrintData(data, type);
-    } catch (err) {
-        document.getElementById('main-data').innerHTML = `<div style="color:red;">Error loading data: ${err.message}</div>`;
+    if (type === 'verbs') {
+        await loadGrammarData(lang, level);
+    } else {
+        await loadNounData(lang, level);
     }
+
+    renderPrintPage(lang, level, type);
 }
 
-function renderPrintData(data, type) {
-    let html = '';
-    if (data.groups) {
-        data.groups.forEach(group => {
-            html += `
-                <div style="margin-bottom: 2rem; page-break-inside: avoid; border: 1px solid #eee; padding: 1.5rem; border-radius: 8px;">
-                    <h2 style="font-family: 'Lora', serif; color: var(--sage-dark); margin-top: 0;">${group.emoji || ''} ${group.label}</h2>
-                    <p><strong>Definition:</strong> ${group.definition}</p>
-                    <div style="margin: 1rem 0;">
-                        <strong>Rules:</strong>
-                        <ul style="margin-top: 0.5rem;">
-                            ${group.rules.map(rule => `<li>${rule}</li>`).join('')}
-                        </ul>
-                    </div>
-                    <div>
-                        <strong>Examples:</strong>
-                        <div style="margin-top: 0.5rem; display: grid; gap: 0.5rem;">
-                            ${group.examples.map(ex => `
-                                <div style="background: #f9f9f9; padding: 0.75rem; border-left: 4px solid var(--honey-dark);">
-                                    <div style="font-weight: bold;">${ex.t}</div>
-                                    <div style="font-size: 0.9rem; color: #666;">${ex.m}</div>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                </div>
-            `;
-        });
+function renderPrintPage(lang, level, type) {
+    let headerHtml = `
+        <div style="text-align:center; margin-bottom: 2rem; border-bottom: 3px double var(--sage-deep); padding-bottom: 1.5rem;">
+            <img src="images/logos/cosylanguages.png" alt="COSYlanguages" style="height: 50px; margin-bottom: 0.5rem;">
+            <h1 style="font-family: 'Lora', serif; color: var(--sage-deep); font-size: 2.2rem; margin: 0;">${lang.toUpperCase()} Grammar Guide</h1>
+            <div style="font-weight: 800; text-transform: uppercase; color: var(--honey-dark); letter-spacing: 2px; margin-top: 0.5rem;">Level: ${level.toUpperCase()} — Category: ${type.toUpperCase()}</div>
+        </div>
+    `;
+
+    let dataHtml = '';
+
+    if (type === 'verbs') {
+        const loadedVerbs = window.verbsData?.[lang] || [];
+        const vocabVerbs = (window.vocabularyData?.[lang] || []).filter(v => v && v.word && v.form === 'verb');
+        const verbs = [...loadedVerbs, ...vocabVerbs];
+        const filtered = verbs.filter(v => v && v.word && (v.level === level || (!v.level && level === 'starter')));
+        if (filtered.length === 0) {
+            dataHtml = `<div style="text-align:center; color:#666; padding: 2rem;">No verb conjugation datasets found for this level.</div>`;
+        } else {
+            dataHtml = `<div class="cards-grid">` + filtered.map(v => renderVerbCard(v, lang)).join('') + `</div>`;
+        }
+    } else if (type === 'nouns') {
+        const vocab = window.vocabularyData?.[lang] || [];
+        const nouns = vocab.filter(v => v && v.word && v.form === 'noun' && (v.level === level || (!v.level && level === 'starter')));
+        if (nouns.length === 0) {
+            dataHtml = `<div style="text-align:center; color:#666; padding: 2rem;">No noun declension datasets found for this level.</div>`;
+        } else {
+            dataHtml = `<div class="cards-grid">` + nouns.map(n => renderNounCard(n, lang)).join('') + `</div>`;
+        }
+    } else if (type === 'adjectives') {
+        const vocab = window.vocabularyData?.[lang] || [];
+        const adjectives = vocab.filter(v => v && v.word && v.form === 'adjective' && (v.level === level || (!v.level && level === 'starter')));
+        if (adjectives.length === 0) {
+            dataHtml = `<div style="text-align:center; color:#666; padding: 2rem;">No adjective inflection datasets found for this level.</div>`;
+        } else {
+            dataHtml = `<div class="cards-grid">` + adjectives.map(a => renderAdjectiveCard(a, lang)).join('') + `</div>`;
+        }
     }
-    document.getElementById('main-data').innerHTML = html;
+
+    document.getElementById('print-content').innerHTML = headerHtml + `<div id="main-data">${dataHtml}</div>`;
+}
+
+function renderVerbCard(v, lang) {
+  const config = GRAMMAR_CONFIG[lang];
+  if (!config) return "";
+  const tenses = Object.keys(config.verbs.regular_rules).concat(Object.keys(config.verbs.compound_tenses || {}));
+
+  const tables = tenses.map(t => {
+    const conj = Linguistics.conjugate(lang, v, t);
+    if (!conj) return "";
+    return `
+      <div class="tense-container">
+        <div class="tense-header">${getTenseLabel(t, lang)}</div>
+        <table class="gtable">
+          ${config.pronouns.map((p, i) => `
+            <tr>
+              <td class="row-label" style="width: 30%;">${p}</td>
+              <td><span class="key-verb">${conj.positive[i] || "-"}</span></td>
+              <td><span class="key-neg">${conj.negative[i] || "-"}</span></td>
+            </tr>
+          `).join('')}
+        </table>
+      </div>`;
+  }).join('');
+
+  return `
+    <div class="card">
+      <div class="card-title">${v.word.toUpperCase()}</div>
+      <div class="card-meta">
+          <span class="meta-badge">${v.classification}</span>
+          <span class="meta-badge">Group: ${v.group}</span>
+          ${v.auxiliary ? `<span class="meta-badge">Aux: ${v.auxiliary}</span>` : ""}
+      </div>
+      <div class="tense-grid">${tables}</div>
+    </div>`;
+}
+
+function renderNounCard(n, lang) {
+  const config = GRAMMAR_CONFIG[lang]?.nouns;
+  if (!config) return "";
+
+  const cases = config.cases || ['nominative'];
+  const numbers = config.numbers || ['singular', 'plural'];
+  const artTypes = config.article_types || ['definite', 'indefinite'];
+
+  let tables = "";
+  numbers.forEach(num => {
+      tables += `
+        <div class="tense-container">
+          <div class="tense-header">${num.toUpperCase()}</div>
+          <table class="gtable">
+            <tr><th class="row-label">Case</th><th>Article</th><th>Noun</th></tr>
+            ${cases.map(c => {
+                const inflected = Linguistics.inflectNoun(lang, n, num, c);
+                const arts = artTypes.map(at => Linguistics.getArticle(lang, n, at, c, num)).filter(a => a).join(' / ');
+                return `
+                  <tr>
+                    <td class="row-label">${c}</td>
+                    <td><span class="key-neg">${arts || "-"}</span></td>
+                    <td><span class="key-verb">${inflected}</span></td>
+                  </tr>`;
+            }).join('')}
+          </table>
+        </div>`;
+  });
+
+  return `
+    <div class="card">
+      <div class="card-title">${n.word.toUpperCase()}</div>
+      <div class="card-meta">
+          <span class="meta-badge">${n.gender || "neutral"}</span>
+          ${n.countability ? `<span class="meta-badge">${n.countability}</span>` : ""}
+      </div>
+      <div>${tables}</div>
+    </div>`;
+}
+
+function renderAdjectiveCard(a, lang) {
+  const config = GRAMMAR_CONFIG[lang]?.adjectives;
+  if (!config) return "";
+
+  const genders = GRAMMAR_CONFIG[lang]?.nouns?.genders || ['masculine', 'feminine'];
+  const numbers = ['singular', 'plural'];
+  const cases = GRAMMAR_CONFIG[lang]?.nouns?.cases || ['nominative'];
+
+  let tables = "";
+  numbers.forEach(num => {
+      tables += `
+        <div class="tense-container">
+          <div class="tense-header">${num.toUpperCase()}</div>
+          <table class="gtable">
+            <tr><th class="row-label">Case</th>${genders.map(g => `<th>${g.slice(0,3)}</th>`).join('')}</tr>
+            ${cases.map(c => {
+                return `<tr>
+                  <td class="row-label">${c}</td>
+                  ${genders.map(g => `<td><span class="key-verb">${Linguistics.inflectAdjective(lang, a, g, num, c)}</span></td>`).join('')}
+                </tr>`;
+            }).join('')}
+          </table>
+        </div>`;
+  });
+
+  return `
+    <div class="card">
+      <div class="card-title">${a.word.toUpperCase()}</div>
+      <div class="card-meta">
+          <span class="meta-badge">${Linguistics.getAdjectivePosition(lang, a)}</span>
+          ${a.theme ? `<span class="meta-badge">${a.theme}</span>` : ""}
+      </div>
+      <div>${tables}</div>
+    </div>`;
 }
 
 window.onload = loadPrintData;

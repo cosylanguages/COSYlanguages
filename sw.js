@@ -2,6 +2,12 @@ const CACHE_NAME = 'cosy-v5';
 const STATIC_ASSETS = [
   './',
   './index.html',
+  './placement-quiz.html',
+  './print-grammar.html',
+  './print-cards.html',
+  './print-zine.html',
+  './print-box.html',
+  './classroom-sync.html',
   './practice/index.html',
   './events/index.html',
   './css/base.css',

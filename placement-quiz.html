@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline Placement Quiz — COSYlanguages</title>
+    <link rel="icon" href="images/logos/cosylanguages.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/portal.css">
+
+    <style>
+        body {
+            background-color: var(--sage-light, #FAF7F2);
+            color: var(--black, #222);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-container {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border-top: 8px solid var(--sage-deep, #3d5a45);
+            width: 90%;
+        }
+
+        h1 {
+            font-family: 'Lora', serif;
+            color: var(--sage-dark, #2b3e30);
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .quiz-intro {
+            text-align: center;
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+        }
+
+        /* Language Choice */
+        .lang-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .lang-option {
+            background: #fff;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+            cursor: pointer;
+            font-weight: 800;
+            transition: all 0.2s ease;
+            font-size: 1.1rem;
+        }
+
+        .lang-option:hover {
+            border-color: var(--sage-deep, #3d5a45);
+            transform: translateY(-2px);
+        }
+
+        .lang-option.selected {
+            border-color: var(--sage-deep, #3d5a45);
+            background: var(--sage-deep, #3d5a45);
+            color: white;
+        }
+
+        /* Question Layout */
+        .quiz-progress {
+            font-weight: bold;
+            color: var(--sage-deep, #3d5a45);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            height: 6px;
+            background: #edf2f7;
+            border-radius: 3px;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: var(--honey-dark, #b7791f);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .question-card {
+            display: none;
+            animation: fadeIn 0.4s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .question-text {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--sage-dark, #2b3e30);
+            line-height: 1.5;
+        }
+
+        .option-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .option-btn {
+            background: #fff;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: left;
+            font-weight: bold;
+            font-size: 1.05rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            color: var(--black, #222);
+        }
+
+        .option-btn:hover {
+            border-color: var(--sage-deep, #3d5a45);
+            background: #f7fafc;
+        }
+
+        .option-btn.selected {
+            border-color: var(--sage-deep, #3d5a45);
+            background: #edfdf1;
+            color: var(--sage-deep, #3d5a45);
+        }
+
+        /* Results Screen */
+        .results-card {
+            display: none;
+            text-align: center;
+            animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        @keyframes popIn {
+            0% { transform: scale(0.9); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        .results-emoji {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .results-score {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
+        .results-level {
+            font-size: 2.5rem;
+            font-family: 'Lora', serif;
+            color: var(--sage-deep, #3d5a45);
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+
+        .results-desc {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            color: #4a5568;
+            max-width: 600px;
+            margin: 0 auto 2.5rem;
+        }
+
+        .results-actions {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            border-radius: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            font-size: 1rem;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--sage-deep, #3d5a45);
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background: var(--sage-dark, #2b3e30);
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background: #fff;
+            color: var(--sage-deep, #3d5a45);
+            border: 2px solid var(--sage-deep, #3d5a45);
+        }
+
+        .btn-secondary:hover {
+            background: var(--sage-light, #FAF7F2);
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<main class="page">
+    <div class="main-container">
+        <h1>COSY Placement Quiz 📝</h1>
+        <p class="quiz-intro" id="quiz-intro-text">Find your recommended CEFR level (A1 to C2) through our 15-question interactive monolingual quiz. Choose a language to start!</p>
+
+        <!-- Step 1: Language Choice -->
+        <div id="step-lang">
+            <div class="lang-grid">
+                <div class="lang-option" onclick="startQuiz('en')">🇬🇧 English</div>
+                <div class="lang-option" onclick="startQuiz('fr')">🇫🇷 Français</div>
+                <div class="lang-option" onclick="startQuiz('it')">🇮🇹 Italiano</div>
+                <div class="lang-option" onclick="startQuiz('ru')">🇷🇺 Русский</div>
+                <div class="lang-option" onclick="startQuiz('el')">🇬🇷 Ελληνικά</div>
+            </div>
+        </div>
+
+        <!-- Step 2: Quiz Game -->
+        <div id="step-quiz" style="display: none;">
+            <div class="quiz-progress" id="quiz-progress-text">Question 1 of 15</div>
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="progress-bar"></div>
+            </div>
+
+            <div id="question-container">
+                <!-- Current question will be loaded here dynamically -->
+            </div>
+        </div>
+
+        <!-- Step 3: Results -->
+        <div id="step-results" class="results-card">
+            <div class="results-emoji">🏆</div>
+            <div class="results-score" id="results-score-text">Score: 12 / 15</div>
+            <div class="results-level" id="results-level-text">Intermediate (B1)</div>
+            <p class="results-desc" id="results-desc-text">You can handle everyday conversations. Let's work on fluency and confidence!</p>
+
+            <div class="results-actions">
+                <a href="index.html" class="btn btn-primary">Go to Homepage 🏡</a>
+                <a href="practice/index.html" class="btn btn-secondary">Try Free Practice 💡</a>
+                <button onclick="resetQuiz()" class="btn btn-secondary">Retake Quiz 🔄</button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    // 15 high-quality progressive monolingual questions per language (A1 -> C2)
+    const QUESTIONS = {
+        en: [
+            // A1
+            { q: "Hello! My name is John. I ___ from London.", a: ["am", "is", "are"], c: 0 },
+            { q: "Where is the cat? It is ___ the chair. 🪑", a: ["on", "at", "to"], c: 0 },
+            { q: "Which of these is a fruit? 🍎", a: ["apple", "table", "blue"], c: 0 },
+            // A2
+            { q: "Yesterday, we ___ a great film at the cinema.", a: ["watched", "watch", "watching"], c: 0 },
+            { q: "I think this book is ___ than the other one.", a: ["more interesting", "most interesting", "interestinger"], c: 0 },
+            { q: "She usually ___ to work by bicycle.", a: ["goes", "go", "going"], c: 0 },
+            // B1
+            { q: "If it rains tomorrow, we ___ the picnic.", a: ["will cancel", "cancel", "would cancel"], c: 0 },
+            { q: "I have been living in Paris ___ three years.", a: ["for", "since", "during"], c: 0 },
+            { q: "Which word means 'extremely tired'?", a: ["exhausted", "relaxed", "excited"], c: 0 },
+            // B2
+            { q: "By the time the train arrived, we ___ for over an hour.", a: ["had been waiting", "waited", "have been waiting"], c: 0 },
+            { q: "You ___ have told me about the meeting! I missed it completely.", a: ["should", "must", "would"], c: 0 },
+            { q: "He spoke so quickly that I could barely ___ what he was saying.", a: ["make out", "make up", "make over"], c: 0 },
+            // C1
+            { q: "Despite ___ numerous setbacks, the team successfully completed the project.", a: ["facing", "face", "faced"], c: 0 },
+            { q: "Which of these expressions represents a 'complete and sudden change of mind/heart'?", a: ["a turn of phrase", "a change of pace", "a change of heart"], c: 2 },
+            // C2
+            { q: "The company's decision was ___ with the new government regulations.", a: ["in alignment", "at odds", "in keeping"], c: 1 }
+        ],
+        fr: [
+            // A1
+            { q: "Bonjour ! Je ___ un étudiant français.", a: ["suis", "es", "est"], c: 0 },
+            { q: "Où est le livre ? Il est ___ la table. 📄", a: ["sur", "sous", "dans"], c: 0 },
+            { q: "Laquelle de ces options est un animal ? 🐱", a: ["chat", "livre", "vert"], c: 0 },
+            // A2
+            { q: "Hier, j'___ un bon repas au restaurant.", a: ["ai mangé", "mangeais", "mangerai"], c: 0 },
+            { q: "Ma maison est plus ___ que la tienne.", a: ["grande", "grand", "grandes"], c: 0 },
+            { q: "Nous ___ souvent au parc le week-end.", a: ["allons", "vont", "allez"], c: 0 },
+            // B1
+            { q: "Si j'avais le temps, je ___ plus souvent.", a: ["voyagerais", "voyageais", "voyagerai"], c: 0 },
+            { q: "Je travaille ici ___ cinq ans.", a: ["depuis", "pendant", "pour"], c: 0 },
+            { q: "Quel mot signifie 'très fatigué' ?", a: ["épuisé", "détendu", "excité"], c: 0 },
+            // B2
+            { q: "Bien que ce projet ___ difficile, nous le finirons à temps.", a: ["soit", "est", "sera"], c: 0 },
+            { q: "Tu ___ m'appeler avant de venir !", a: ["aurais dû", "dois", "devrais"], c: 0 },
+            { q: "Il s'est ___ rendu compte de son erreur un peu tard.", a: ["finalement", "brusquement", "tellement"], c: 0 },
+            // C1
+            { q: "Il est indispensable que vous ___ toutes les options avant de décider.", a: ["preniez", "prenez", "prendrez"], c: 0 },
+            { q: "Que signifie l'expression 'avoir le cœur sur la main' ?", a: ["être très généreux", "être amoureux", "être malade"], c: 0 },
+            // C2
+            { q: "Le directeur a ___ l'importance de cette réforme lors de son discours.", a: ["mis en exergue", "mis à l'écart", "mis au point"], c: 0 }
+        ],
+        it: [
+            // A1
+            { q: "Ciao! Io ___ italiano.", a: ["sono", "sei", "è"], c: 0 },
+            { q: "La mela è ___ tavolo. 🍎", a: ["sul", "nel", "al"], c: 0 },
+            { q: "Quale di questi è un colore? 🎨", a: ["rosso", "sedia", "gatto"], c: 0 },
+            // A2
+            { q: "Ieri ___ una bella canzone.", a: ["ho ascoltato", "ascolto", "ascoltavo"], c: 0 },
+            { q: "Questo libro è più ___ di quello.", a: ["interessante", "interessanti", "interessatissimo"], c: 0 },
+            { q: "Loro ___ sempre la pizza il sabato.", a: ["mangiano", "mangia", "mangiate"], c: 0 },
+            // B1
+            { q: "Se io ___ più ricco, viaggerei di più.", a: ["fossi", "ero", "sarei"], c: 0 },
+            { q: "Studio l'italiano ___ tre anni.", a: ["da", "per", "fa"], c: 0 },
+            { q: "Quale parola significa 'molto stanco'?", a: ["esausto", "rilassato", "felice"], c: 0 },
+            // B2
+            { q: "Sebbene ___ difficile, dobbiamo provarci.", a: ["sia", "è", "sarà"], c: 0 },
+            { q: "Avresti ___ dirmelo prima!", a: ["dovuto", "deve", "dovuto"], c: 0 },
+            { q: "Non riesco proprio a ___ questa situazione.", a: ["sopportare", "supportare", "portare"], c: 0 },
+            // C1
+            { q: "A patto che tutti ___ d'accordo, possiamo procedere.", a: ["siano", "sono", "sarete"], c: 0 },
+            { q: "Cosa significa l'espressione 'prendere due piccioni con una fava'?", a: ["ottenere due risultati con un solo sforzo", "fare confusione", "andare a caccia"], c: 0 },
+            // C2
+            { q: "L'intervento del relatore ha ___ l'attenzione del pubblico su temi cruciali.", a: ["catalizzato", "sminuito", "allontanato"], c: 0 }
+        ],
+        ru: [
+            // A1
+            { q: "Привет! Как тебя ___?", a: ["зовут", "звать", "назвали"], c: 0 },
+            { q: "Где книга? Она лежит ___ столе. 📕", a: ["на", "в", "к"], c: 0 },
+            { q: "Что из этого является едой? 🍕", a: ["пицца", "карандаш", "синий"], c: 0 },
+            // A2
+            { q: "Вчера мы ___ новый фильм.", a: ["смотрели", "смотрим", "посмотреть"], c: 0 },
+            { q: "Этот дом ___ другого.", a: ["больше", "большой", "самым большим"], c: 0 },
+            { q: "Обычно он ___ на работу пешком.", a: ["ходит", "идет", "ходил"], c: 0 },
+            // B1
+            { q: "Если бы у меня было время, я ___ эту книгу.", a: ["прочитал бы", "прочитаю", "читаю"], c: 0 },
+            { q: "Я изучаю русский язык ___ два года.", a: ["уже", "за", "в течение"], c: 0 },
+            { q: "Какое слово означает «очень устал»?", a: ["устал как собака", "бодр", "весел"], c: 0 },
+            // B2
+            { q: "Несмотря на ___ погоду, мы пошли гулять.", a: ["плохую", "плохая", "плохой"], c: 0 },
+            { q: "Тебе ___ было предупредить меня заранее!", a: ["следовало", "должен", "надо"], c: 0 },
+            { q: "Он так увлечен работой, что не замечает ничего ___.", a: ["вокруг", "рядом", "около"], c: 0 },
+            // C1
+            { q: "Какое выражение означает «делать что-то очень тщательно»?", a: ["не покладая рук", "спустя рукава", "до мозга костей"], c: 0 },
+            { q: "Едва ли этот вопрос ___ решить без его участия.", a: ["удастся", "удавалось", "удалился"], c: 0 },
+            // C2
+            { q: "Решение руководства было принято ___ с новыми правилами безопасности.", a: ["в соответствии", "вразрез", "вопреки"], c: 0 }
+        ],
+        el: [
+            // A1
+            { q: "Γεια σας! Εγώ ___ ο Γιάννης.", a: ["είμαι", "είσαι", "είναι"], c: 0 },
+            { q: "Το βιβλίο είναι ___ στο τραπέζι. 📘", a: ["πάνω", "κάτω", "μέσα"], c: 0 },
+            { q: "Ποιο από αυτά είναι ζώο; 🐶", a: ["σκύλος", "σπίτι", "πράσινο"], c: 0 },
+            // A2
+            { q: "Χθες ___ ένα ωραίο τραγούδι.", a: ["άκουσα", "ακούω", "άκουγα"], c: 0 },
+            { q: "Αυτό το σπίτι είναι ___ από το άλλο.", a: ["μεγαλύτερο", "μεγάλο", "μέγιστο"], c: 0 },
+            { q: "Εμείς ___ κάθε μέρα στο σχολείο.", a: ["πηγαίνουμε", "πηγαίνει", "πηγαίνουν"], c: 0 },
+            // B1
+            { q: "Αν ___ χρόνο, θα διάβαζα περισσότερο.", a: ["είχα", "έχω", "θα έχω"], c: 0 },
+            { q: "Μαθαίνω ελληνικά ___ δύο χρόνια.", a: ["εδώ και", "από", "για"], c: 0 },
+            { q: "Ποια λέξη σημαίνει 'πολύ κουρασμένος';", a: ["εξαντλημένος", "χαλαρός", "χαρούμενος"], c: 0 },
+            // B2
+            { q: "Παρόλο που ___ δύσκολο, τα κατάφερε.", a: ["ήταν", "είναι", "θα είναι"], c: 0 },
+            { q: "Θα ___ να με είχες πάρει τηλέφωνο!", a: ["έπρεπε", "πρέπει", "μπορούσες"], c: 0 },
+            { q: "Δεν μπορώ να ___ αυτή τη θορυβώδη κατάσταση.", a: ["ανεχτώ", "αντέχω", "κάνω"], c: 0 },
+            // C1
+            { q: "Υπό την προϋπόθεση ότι όλοι ___ σύμφωνοι, ξεκινάμε.", a: ["είναι", "θα είναι", "ήταν"], c: 0 },
+            { q: "Τι σημαίνει η έκφραση 'κάνω μια τρύπα στο νερό';", a: ["κάνω μια άσκοπη προσπάθεια", "κολυμπάω", "πλένω τα χέρια μου"], c: 0 },
+            // C2
+            { q: "Η απόφαση της κυβέρνησης ___ τις αντιδράσεις της κοινής γνώμης.", a: ["πυροδότησε", "κατεύνασε", "αγνόησε"], c: 0 }
+        ]
+    };
+
+    const LEVEL_EXPLANATIONS = {
+        en: {
+            a1: { name: "Beginner (A1)", desc: "Recommended Level: Beginner (A1). You are starting your journey! Let's build a strong foundation together." },
+            a2: { name: "Elementary (A2)", desc: "Recommended Level: Elementary (A2). You know basic structures and vocabulary. Let's start speaking more!" },
+            b1: { name: "Intermediate (B1)", desc: "Recommended Level: Intermediate (B1). You can handle everyday conversations. Let's work on fluency and confidence!" },
+            b2: { name: "Upper-Intermediate (B2)", desc: "Recommended Level: Upper-Intermediate (B2). You express complex thoughts. Let's polish your vocabulary and master deep discussions!" },
+            c1: { name: "Advanced (C1)", desc: "Recommended Level: Advanced (C1). You speak fluently and understand subtle nuances. Let's refine your style!" },
+            c2: { name: "Proficiency (C2)", desc: "Recommended Level: Proficiency (C2). Outstanding! You have near-native control of the language." }
+        },
+        fr: {
+            a1: { name: "Débutant (A1)", desc: "Niveau recommandé : Débutant (A1). Vous commencez votre voyage ! Construisons ensemble des bases solides." },
+            a2: { name: "Élémentaire (A2)", desc: "Niveau recommandé : Élémentaire (A2). Vous connaissez les structures et le vocabulaire de base. Commençons à parler davantage !" },
+            b1: { name: "Intermédiaire (B1)", desc: "Niveau recommandé : Intermédiaire (B1). Vous pouvez gérer les conversations de la vie quotidienne. Travaillons votre fluidité !" },
+            b2: { name: "Intermédiaire supérieur (B2)", desc: "Niveau recommandé : Intermédiaire supérieur (B2). Vous exprimez des pensées complexes. Peaufinons votre vocabulaire !" },
+            c1: { name: "Avancé (C1)", desc: "Niveau recommandé : Avancé (C1). Vous parlez couramment et comprenez les nuances subtiles. Affinons votre style !" },
+            c2: { name: "Maîtrise (C2)", desc: "Niveau recommandé : Maîtrise (C2). Exceptionnel ! Vous maîtrisez la langue presque comme un locuteur natif." }
+        },
+        it: {
+            a1: { name: "Principiante (A1)", desc: "Livello consigliato: Principiante (A1). Stai iniziando il tuo viaggio! Costruiamo insieme delle fondamenta solide." },
+            a2: { name: "Elementare (A2)", desc: "Livello consigliato: Elementare (A2). Conosci le strutture e il vocabolario di base. Iniziamo a parlare di più!" },
+            b1: { name: "Intermedio (B1)", desc: "Livello consigliato: Intermedio (B1). Puoi gestire le conversazioni di tutti i giorni. Lavoriamo sulla fluidità e sulla sicurezza!" },
+            b2: { name: "Intermedio Superiore (B2)", desc: "Livello consigliato: Intermedio Superiore (B2). Esprimi pensieri complessi. Perfezioniamo il tuo vocabolario!" },
+            c1: { name: "Avanzato (C1)", desc: "Livello consigliato: Avanzato (C1). Parli fluentemente e comprendi sfumature sottili. Affiniamo il tuo stile!" },
+            c2: { name: "Padronanza (C2)", desc: "Livello consigliato: Padronanza (C2). Eccezionale! Hai un controllo della lingua quasi pari a un madrelingua." }
+        },
+        ru: {
+            a1: { name: "Начинающий (A1)", desc: "Рекомендуемый уровень: Начинающий (A1). Вы начинаете свой путь! Давайте вместе построим прочный фундамент." },
+            a2: { name: "Элементарный (A2)", desc: "Рекомендуемый уровень: Элементарный (A2). Вы знаете базовые структуры и лексику. Давайте начнем говорить больше!" },
+            b1: { name: "Средний (B1)", desc: "Рекомендуемый уровень: Средний (B1). Вы можете вести повседневные разговоры. Давайте поработаем над беглостью речи!" },
+            b2: { name: "Выше среднего (B2)", desc: "Рекомендуемый уровень: Выше среднего (B2). Вы выражаете сложные мысли. Давайте отшлифуем ваш словарный запас!" },
+            c1: { name: "Продвинутый (C1)", desc: "Рекомендуемый уровень: Продвинутый (C1). Вы свободно говорите и понимаете тонкие нюансы. Давайте усовершенствуем ваш стиль!" },
+            c2: { name: "В совершенстве (C2)", desc: "Рекомендуемый уровень: В совершенстве (C2). Превосходно! Вы владеете языком практически на уровне носителя." }
+        },
+        el: {
+            a1: { name: "Αρχάριος (A1)", desc: "Προτεινόμενο Επίπεδο: Αρχάριος (A1). Ξεκινάτε το ταξίδι σας! Ας χτίσουμε μαζί γερά θεμέλια." },
+            a2: { name: "Στοιχειώδες (A2)", desc: "Προτεινόμενο Επίπεδο: Στοιχειώδες (A2). Γνωρίζετε βασικές δομές και λεξιλόγιο. Ας αρχίσουμε να μιλάμε περισσότερο!" },
+            b1: { name: "Μέσο (B1)", desc: "Προτεινόμενο Επίπεδο: Μέσο (B1). Μπορείτε να ανταπεξέλθετε σε καθημερινές συζητήσεις. Ας εργαστούμε για την ευχέρειά σας!" },
+            b2: { name: "Ανώτερο-Μέσο (B2)", desc: "Προτεινόμενο Επίπεδο: Ανώτερο-Μέσο (B2). Εκφράζετε σύνθετες σκέψεις. Ας τελειοποιήσουμε το λεξιλόγιό σας!" },
+            c1: { name: "Προχωρημένο (C1)", desc: "Προτεινόμενο Επίπεδο: Προχωρημένο (C1). Μιλάτε με ευχέρεια και κατανοείτε λεπτές αποχρώσεις. Ας βελτιώσουμε το στυλ σας!" },
+            c2: { name: "Άριστη Γνώση (C2)", desc: "Προτεινόμενο Επίπεδο: Άριστη Γνώση (C2). Εξαιρετικό! Έχετε σχεδόν μητρικό έλεγχο της γλώσσας." }
+        }
+    };
+
+    let selectedLang = '';
+    let currentQuestionIdx = 0;
+    let score = 0;
+
+    function startQuiz(lang) {
+        selectedLang = lang;
+        currentQuestionIdx = 0;
+        score = 0;
+
+        document.getElementById('step-lang').style.display = 'none';
+        document.getElementById('quiz-intro-text').style.display = 'none';
+        document.getElementById('step-quiz').style.display = 'block';
+
+        showQuestion();
+    }
+
+    function showQuestion() {
+        const questions = QUESTIONS[selectedLang];
+        const progressText = `Question ${currentQuestionIdx + 1} of 15`;
+        document.getElementById('quiz-progress-text').textContent = progressText;
+
+        const percent = ((currentQuestionIdx) / 15) * 100;
+        document.getElementById('progress-bar').style.width = `${percent}%`;
+
+        const q = questions[currentQuestionIdx];
+        const qHtml = `
+            <div class="question-card" style="display: block;">
+                <div class="question-text">${q.q}</div>
+                <div class="option-list">
+                    ${q.a.map((opt, idx) => `
+                        <button class="option-btn" onclick="selectAnswer(${idx})">${opt}</button>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+        document.getElementById('question-container').innerHTML = qHtml;
+    }
+
+    function selectAnswer(ansIdx) {
+        const questions = QUESTIONS[selectedLang];
+        const q = questions[currentQuestionIdx];
+
+        if (ansIdx === q.c) {
+            score++;
+        }
+
+        currentQuestionIdx++;
+
+        if (currentQuestionIdx < 15) {
+            showQuestion();
+        } else {
+            showResults();
+        }
+    }
+
+    function showResults() {
+        document.getElementById('step-quiz').style.display = 'none';
+        document.getElementById('step-results').style.display = 'block';
+
+        let levelCode = 'a1';
+        if (score >= 15) levelCode = 'c2';
+        else if (score >= 13) levelCode = 'c1';
+        else if (score >= 10) levelCode = 'b2';
+        else if (score >= 7) levelCode = 'b1';
+        else if (score >= 4) levelCode = 'a2';
+
+        const exp = LEVEL_EXPLANATIONS[selectedLang][levelCode];
+        document.getElementById('results-score-text').textContent = `Score: ${score} / 15`;
+        document.getElementById('results-level-text').textContent = exp.name;
+        document.getElementById('results-desc-text').textContent = exp.desc;
+
+        // Save to browser localStorage
+        try {
+            const results = JSON.parse(localStorage.getItem('cosy_placement_results') || '{}');
+            results[selectedLang] = {
+                score: score,
+                level: levelCode.toUpperCase(),
+                date: new Date().toLocaleDateString()
+            };
+            localStorage.setItem('cosy_placement_results', JSON.stringify(results));
+        } catch (e) {
+            console.error("Local storage not accessible: ", e);
+        }
+    }
+
+    function resetQuiz() {
+        document.getElementById('step-results').style.display = 'none';
+        document.getElementById('step-lang').style.display = 'block';
+        document.getElementById('quiz-intro-text').style.display = 'block';
+    }
+</script>
+
+<script src="js/data/languages.js"></script>
+<script src="js/core/engine.js"></script>
+<script src="js/core/i18n.js"></script>
+<script src="js/core/ui.js"></script>
+</body>
+</html>

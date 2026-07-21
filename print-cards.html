@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printable Leitner Cards Generator — COSYlanguages</title>
+    <link rel="icon" href="images/logos/cosylanguages.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/print.css">
+
+    <script src="js/data/languages.js"></script>
+    <script src="js/core/engine.js"></script>
+    <script src="js/core/i18n.js"></script>
+    <script src="js/core/ui.js"></script>
+
+    <style>
+        body {
+            background-color: var(--sage-light, #FAF7F2);
+            color: var(--black, #222);
+            font-family: var(--font-sans, 'Nunito', sans-serif);
+        }
+
+        .print-controls {
+            position: sticky;
+            top: 0;
+            background: #ffffff;
+            padding: 1.5rem;
+            border-bottom: 2px solid var(--sage-deep, #3d5a45);
+            z-index: 1100;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        @media print {
+            .print-controls {
+                display: none !important;
+            }
+            body {
+                background: white !important;
+            }
+            .print-container {
+                box-shadow: none !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            .page-break {
+                page-break-after: always;
+                break-after: always;
+            }
+        }
+
+        .print-container {
+            background: #fff;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            box-shadow: 0 0 30px rgba(0,0,0,0.05);
+            min-height: 297mm;
+            border-radius: 12px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5cm;
+            margin-top: 1rem;
+        }
+
+        .leitner-card-front, .leitner-card-back {
+            border: 2px dashed #999;
+            border-radius: 10px;
+            height: 7.5cm; /* Standard 3x5 ratio scaled */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1.5rem;
+            box-sizing: border-box;
+            background: #fff;
+            text-align: center;
+            position: relative;
+        }
+
+        .leitner-emoji {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .leitner-word {
+            font-family: 'Lora', serif;
+            font-size: 1.8rem;
+            color: var(--sage-deep, #3d5a45);
+            font-weight: bold;
+        }
+
+        .leitner-def {
+            font-size: 1rem;
+            color: #444;
+            line-height: 1.4;
+            margin-bottom: 0.75rem;
+        }
+
+        .leitner-ex {
+            font-size: 0.85rem;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 0.25rem;
+        }
+
+        .leitner-footer-logo {
+            position: absolute;
+            bottom: 0.5rem;
+            font-size: 0.7rem;
+            color: #ccc;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        .btn-action {
+            padding: 0.5rem 1rem;
+            background: var(--sage-deep, #3d5a45);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn-action:hover {
+            background: var(--sage-dark, #2b3e30);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 1rem;
+        }
+
+        .section-header h2 {
+            font-family: 'Lora', serif;
+            color: var(--sage-deep, #3d5a45);
+            margin: 0;
+        }
+    </style>
+</head>
+<body class="print-preview">
+
+<div class="print-controls">
+    <select id="sel-lang" onchange="loadCategoryData()">
+        <option value="en">🇬🇧 English</option>
+        <option value="fr">🇫🇷 Français</option>
+        <option value="it">🇮🇹 Italiano</option>
+        <option value="ru">🇷🇺 Русский</option>
+        <option value="el">🇬🇷 Ελληνικά</option>
+    </select>
+
+    <button onclick="document.getElementById('file-input').click()" class="btn-action">📂 Load Notebook JSON</button>
+    <input type="file" id="file-input" style="display: none;" onchange="handleFileUpload(event)">
+
+    <button onclick="window.print()" class="btn-action" style="background-color: var(--honey-dark, #b7791f);">🖨️ Print study cards</button>
+</div>
+
+<main class="print-container">
+    <!-- FRONT OF CARDS -->
+    <div class="page-break">
+        <div class="section-header">
+            <h2>PAGE 1: CARD FRONTS</h2>
+            <p>Cut along the dashed lines. When printing double-sided, align with Page 2.</p>
+        </div>
+        <div class="card-grid" id="fronts-grid">
+            <!-- Fronts loaded dynamically -->
+        </div>
+    </div>
+
+    <!-- BACK OF CARDS -->
+    <div>
+        <div class="section-header">
+            <h2>PAGE 2: CARD BACKS (REVERSED COLUMNS)</h2>
+            <p>Reversed column order so front and back line up perfectly on double-sided print.</p>
+        </div>
+        <div class="card-grid" id="backs-grid">
+            <!-- Backs loaded dynamically -->
+        </div>
+    </div>
+</main>
+
+<script>
+    // Standard adjectives loaded as a fallback
+    window.vocabularyData = window.vocabularyData || {};
+
+    let currentCards = [
+        { word: "tall", emoji: "🦒", definitions: [{ text: "Of greater than average height.", examples: ["He is very tall."] }] },
+        { word: "short", emoji: "📏", definitions: [{ text: "Of less than average height or length.", examples: ["The pencil is short."] }] },
+        { word: "young", emoji: "👶", definitions: [{ text: "Having lived or existed for only a short time.", examples: ["He is a young man."] }] },
+        { word: "old", emoji: "👴", definitions: [{ text: "Having lived or existed for a long time.", examples: ["This is an old book."] }] },
+        { word: "sunny", emoji: "☀️", definitions: [{ text: "Having a lot of light from the sun.", examples: ["It is a sunny day."] }] },
+        { word: "rainy", emoji: "🌧️", definitions: [{ text: "Having a lot of rain.", examples: ["It is a rainy day."] }] }
+    ];
+
+    function handleFileUpload(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            try {
+                const data = JSON.parse(e.target.result);
+                // Parse Notebook format (saved vocabulary list)
+                if (Array.isArray(data)) {
+                    currentCards = data.slice(0, 6); // Renders up to 6 cards on standard sheet
+                } else if (data.saved_words) {
+                    currentCards = data.saved_words.slice(0, 6);
+                }
+                renderCards();
+            } catch (err) {
+                alert("Error parsing Notebook JSON!");
+            }
+        };
+        reader.readAsText(file);
+    }
+
+    function loadCategoryData() {
+        const lang = document.getElementById('sel-lang').value;
+        const scriptId = 'adjectives-script';
+
+        // Remove previous script if any
+        const oldScript = document.getElementById(scriptId);
+        if (oldScript) oldScript.remove();
+
+        const script = document.createElement('script');
+        script.id = scriptId;
+        script.src = `vocabulary/${lang}/A1/adjectives.js`;
+        script.onload = () => {
+            const list = window.vocabularyData[lang] || [];
+            if (list.length > 0) {
+                currentCards = list.slice(0, 6);
+            }
+            renderCards();
+        };
+        document.head.appendChild(script);
+    }
+
+    function renderCards() {
+        const frontsGrid = document.getElementById('fronts-grid');
+        const backsGrid = document.getElementById('backs-grid');
+
+        frontsGrid.innerHTML = '';
+        backsGrid.innerHTML = '';
+
+        // If less than 6 cards, pad with empty cards for grid alignment
+        const cardsToRender = [...currentCards];
+        while (cardsToRender.length < 6) {
+            cardsToRender.push({ word: "", emoji: "", definitions: [] });
+        }
+
+        // We only render 6 cards per page for perfect layout
+        const pageSet = cardsToRender.slice(0, 6);
+
+        // Render Fronts (Row-by-Row, Left to Right)
+        pageSet.forEach(card => {
+            if (!card.word) {
+                frontsGrid.innerHTML += `<div class="leitner-card-front" style="border:1px dashed #eee;"></div>`;
+                return;
+            }
+            frontsGrid.innerHTML += `
+                <div class="leitner-card-front">
+                    <div class="leitner-emoji">${card.emoji || '📖'}</div>
+                    <div class="leitner-word">${card.word}</div>
+                    <div class="leitner-footer-logo">COSYlanguages</div>
+                </div>
+            `;
+        });
+
+        // Render Backs (COLUMN REVERSED per row so they match fronts when printed double sided)
+        // Row 1: cards 0, 1 -> reversed: 1, 0
+        // Row 2: cards 2, 3 -> reversed: 3, 2
+        // Row 3: cards 4, 5 -> reversed: 5, 4
+        const reversedIndices = [1, 0, 3, 2, 5, 4];
+        reversedIndices.forEach(idx => {
+            const card = pageSet[idx];
+            if (!card || !card.word) {
+                backsGrid.innerHTML += `<div class="leitner-card-back" style="border:1px dashed #eee;"></div>`;
+                return;
+            }
+            const defText = card.definitions && card.definitions[0] ? card.definitions[0].text : '';
+            const examples = card.definitions && card.definitions[0] && card.definitions[0].examples ? card.definitions[0].examples : [];
+
+            backsGrid.innerHTML += `
+                <div class="leitner-card-back">
+                    <div class="leitner-def"><strong>Def:</strong> ${defText}</div>
+                    <div class="leitner-examples">
+                        ${examples.map(ex => `<div class="leitner-ex">"${ex}"</div>`).join('')}
+                    </div>
+                    <div class="leitner-footer-logo">COSYlanguages</div>
+                </div>
+            `;
+        });
+    }
+
+    window.onload = () => {
+        renderCards();
+    };
+</script>
+
+</body>
+</html>

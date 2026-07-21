@@ -24,8 +24,11 @@
 
 <nav id="cosy-nav"></nav>
 
-<div class="page-header">
-  <div><h1>Grammar Reference 📐</h1></div>
+<div class="page-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+  <div>
+    <h1>Grammar Reference 📐</h1>
+    <a id="btn-go-print" href="../print-grammar.html?lang=en&level=starter&type=verbs" class="btn btn-secondary" style="margin-top: 0.5rem; display: inline-flex; font-size: 0.85rem; padding: 0.4rem 1.2rem; align-items: center; gap: 0.4rem; font-weight: bold; border-radius: 20px;">🖨️ Printable Version</a>
+  </div>
   <div class="lang-tabs" id="ref-lang-tabs">
     <button class="lang-tab" data-lang="en" onclick="setLang('en')">🇬🇧 EN</button>
     <button class="lang-tab" data-lang="fr" onclick="setLang('fr')">🇫🇷 FR</button>
@@ -152,7 +155,15 @@ async function setLang(lang) {
   window.lang = lang;
   document.querySelectorAll('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === lang));
 
-  const verbs = window.verbsData?.[lang] || [];
+  const printBtn = document.getElementById('btn-go-print');
+  if (printBtn) {
+      printBtn.href = `../print-grammar.html?lang=${lang}&level=starter&type=verbs`;
+  }
+
+  const loadedVerbs = window.verbsData?.[lang] || [];
+  const vocabVerbs = (window.vocabularyData?.[lang] || []).filter(v => v && v.word && v.form === 'verb');
+  const verbs = [...loadedVerbs, ...vocabVerbs];
+
   const nouns = (window.vocabularyData?.[lang] || []).filter(v => v && v.word && v.form === 'noun');
   const adjectives = (window.vocabularyData?.[lang] || []).filter(v => v && v.word && v.form === 'adjective');
 
