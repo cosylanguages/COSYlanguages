@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disappear with Art — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #5D4037, #3E2723);">
+  <div class="club-tag">The Greatest Quotes</div>
+  <h1>"The older you get the more you understand why people disappear with art, music, books and quiet living." — Anonymous</h1>
+  <p class="session-date">22 December 2026</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../index.html">Home</a> <span class="sep">/</span>
+    <a href="../../../events/index.html">Events</a> <span class="sep">/</span>
+    <a href="../the-greatest-quotes.html">The Greatest Quotes</a> <span class="sep">/</span>
+    <span class="current">Disappear with Art</span>
+  </nav>
+  <a href="../the-greatest-quotes.html" class="back-link">← Back to Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 English</p></div>
+    <div class="meta-item"><h4>Level</h4><p>Upper-Intermediate (B2)</p></div>
+    <div class="meta-item"><h4>Theme</h4><p>Quiet Living & Aging</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>We discuss the natural transition toward quiet living and artistic immersion as we age. This session explores the value of slowing down, social media detachment, and finding deep satisfaction in solitude. We will debate whether societal ambition is eventually replaced by a quest for quiet peace.</p>
+  </div>
+
+  <!-- PHILOSOPHERS' LEDGER INTERACTIVE CARD -->
+  <div class="philosophers-ledger" style="background: #FFFDF9; border: 2px solid #5D4037; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: var(--shadow-sm); font-family: 'Playfair Display', serif; font-style: italic; color: #3E2723;">
+    <h4 style="margin: 0 0 0.5rem; font-family: 'DM Sans', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #5D4037; font-style: normal; font-weight: 700;">☕ The Philosophers' Ledger: Café Debates</h4>
+    <p id="ledger-quote" style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1rem;">"Let us see how many interpretations exist! There is never only one correct answer to any profound human question." — Oscar Wilde</p>
+    <button class="btn-primary" id="ledger-next-btn" style="background: #5D4037; color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.8rem; font-family: 'DM Sans', sans-serif; font-style: normal; cursor: pointer; font-weight: 700; transition: background 0.2s;">Next Page in Ledger 📖</button>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Artistry</div>
+        <div class="vocab-def">creative skill or ability in a fine art or literature.</div>
+        <div class="vocab-example">The novel is praised for its exceptional prose and delicate artistry.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Artistry', definition:'creative skill or ability in a fine art or literature.', example:'The novel is praised for its exceptional prose and delicate artistry.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Interpretation</div>
+        <div class="vocab-def">the action of explaining the meaning of something.</div>
+        <div class="vocab-example">There are many different interpretations of this complex, symbolic painting.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Interpretation', definition:'the action of explaining the meaning of something.', example:'There are many different interpretations of this complex, symbolic painting.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Aesthetics</div>
+        <div class="vocab-def">a set of principles concerned with the nature and appreciation of beauty.</div>
+        <div class="vocab-example">The cafe's minimalist aesthetics created a calm, relaxing atmosphere.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Aesthetics', definition:'a set of principles concerned with the nature and appreciation of beauty.', example:'The cafe\'s minimalist aesthetics created a calm, relaxing atmosphere.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Inspiration</div>
+        <div class="vocab-def">the process of being mentally stimulated to do or feel something creative.</div>
+        <div class="vocab-example">Nature has always been the primary source of inspiration for poets.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Inspiration', definition:'the process of being mentally stimulated to do or feel something creative.', example:'Nature has always been the primary source of inspiration for poets.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Expression</div>
+        <div class="vocab-def">the action of making known one's thoughts or feelings.</div>
+        <div class="vocab-example">Music is a powerful form of self-expression for people of all ages.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Expression', definition:'the action of making known one\'s thoughts or feelings.', example:'Music is a powerful form of self-expression for people of all ages.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Imagination</div>
+        <div class="vocab-def">the faculty or action of forming new ideas, or images of external objects.</div>
+        <div class="vocab-example">Children possess a vivid imagination that should never be suppressed.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Imagination', definition:'the faculty or action of forming new ideas, or images of external objects.', example:'Children possess a vivid imagination that should never be suppressed.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Paraphrase</div>
+        <div class="vocab-def">express the meaning of something using different words.</div>
+        <div class="vocab-example">To check your understanding, try to paraphrase the author's main argument.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Paraphrase', definition:'express the meaning of something using different words.', example:'To check your understanding, try to paraphrase the author\'s main argument.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Sincerity</div>
+        <div class="vocab-def">the quality of being free from pretense, deceit, or hypocrisy.</div>
+        <div class="vocab-example">The absolute sincerity of his work made it deeply moving for readers.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Sincerity', definition:'the quality of being free from pretense, deceit, or hypocrisy.', example:'The absolute sincerity of his work made it deeply moving for readers.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Ambiguity</div>
+        <div class="vocab-def">the quality of being open to more than one interpretation.</div>
+        <div class="vocab-example">The poem's rich ambiguity allows each reader to find their own meaning.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Ambiguity', definition:'the quality of being open to more than one interpretation.', example:'The poem\'s rich ambiguity allows each reader to find their own meaning.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Originality</div>
+        <div class="vocab-def">the ability to think independently and creatively.</div>
+        <div class="vocab-example">The artist was celebrated for the fresh originality of her style.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Originality', definition:'the ability to think independently and creatively.', example:'The artist was celebrated for the fresh originality of her style.'}, this)">Add to Dictionary</button>
+      </div>
+
+    </div>
+  </section>
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <ul class="round-questions">
+            <li>Do you prefer quiet, solitary hobbies or busy social gatherings?</li>
+            <li>How has your preference for social noise changed over the past five years?</li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Analysis</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>artistry</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>artistry</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>interpretation</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>interpretation</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>aesthetics</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>aesthetics</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>inspiration</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>inspiration</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>expression</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>expression</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>imagination</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>imagination</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>paraphrase</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>paraphrase</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>sincerity</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>sincerity</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>ambiguity</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>ambiguity</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>originality</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>originality</strong> played a critical role?</div>
+          </div>
+
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">A comparative reflection on our habits and self-perceptions.</p>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Philosophical Application</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>artistry</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>interpretation</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>aesthetics</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>inspiration</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>expression</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>imagination</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>paraphrase</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>sincerity</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>ambiguity</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>originality</strong> will undergo a profound cultural shift.</div>
+          </div>
+
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">He <u>have</u> went to Paris</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">He has gone to Paris</span>
+            <span class="mistake-note-text">(Present perfect third-person singular 'has' + past participle 'gone'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">We discussed <u>about the problem</u></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">We discussed the problem / had a discussion <strong>about</strong> the problem</span>
+            <span class="mistake-note-text">('Discuss' is transitive and takes no preposition, or use 'have a discussion about'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">I am <u>agree</u> with you</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">I agree with you</span>
+            <span class="mistake-note-text">(Use 'agree' directly as a verb rather than using it with the auxiliary 'am'.)</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../../events/index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+<script>document.addEventListener("DOMContentLoaded", () => { const quotes = ["\"The older you get the more you understand why people disappear with art, music, books and quiet living.\" — Anonymous"]; let index = 0; const quoteText = document.getElementById("ledger-quote"); if (quoteText) quoteText.innerText = quotes[0]; });</script>
+</body>
+</html>

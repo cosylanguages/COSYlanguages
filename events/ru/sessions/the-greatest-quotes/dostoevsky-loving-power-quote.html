@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Любовь и доверие — COSYlanguages</title>
+<link rel="icon" href="../../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../css/tokens.css">
+<link rel="stylesheet" href="../../../../css/base.css">
+<link rel="stylesheet" href="../../../../css/components.css">
+<link rel="stylesheet" href="../../../../css/layout.css">
+<link rel="stylesheet" href="../../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #5D4037, #3E2723);">
+  <div class="club-tag">The Greatest Quotes</div>
+  <h1>"Любить — значит давать кому-то силу уничтожить тебя, но верить, что он этого не сделает." — Федор Достоевский</h1>
+  <p class="session-date">25 November 2026</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../../index.html">Главная</a> <span class="sep">/</span>
+    <a href="../../../../events/index.html">События</a> <span class="sep">/</span>
+    <a href="../the-greatest-quotes.html">Великие цитаты</a> <span class="sep">/</span>
+    <span class="current">Любовь и доверие</span>
+  </nav>
+  <a href="../the-greatest-quotes.html" class="back-link">← Вернуться в клуб</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Продолжительность</h4><p>60 минут</p></div>
+    <div class="meta-item"><h4>Языки</h4><p>🇬🇧 🇷🇺</p></div>
+    <div class="meta-item"><h4>Уровень</h4><p>Выше среднего (B2)</p></div>
+    <div class="meta-item"><h4>Тема</h4><p>Отношения & Доверие</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>Разбираем эмоционально сильное суждение Достоевского о природе любви. Мы обсудим неизбежность уязвимости в глубоких человеческих отношениях. Будем дискутировать на тему того, возможно ли настоящее чувство без полного открытия себя перед партнером.</p>
+  </div>
+
+  <!-- PHILOSOPHERS' LEDGER INTERACTIVE CARD -->
+  <div class="philosophers-ledger" style="background: #FFFDF9; border: 2px solid #5D4037; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: var(--shadow-sm); font-family: 'Playfair Display', serif; font-style: italic; color: #3E2723;">
+    <h4 style="margin: 0 0 0.5rem; font-family: 'DM Sans', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #5D4037; font-style: normal; font-weight: 700;">☕ The Philosophers' Ledger: Café Debates</h4>
+    <p id="ledger-quote" style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1rem;">"Let us see how many interpretations exist! There is never only one correct answer to any profound human question." — Oscar Wilde</p>
+    <button class="btn-primary" id="ledger-next-btn" style="background: #5D4037; color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.8rem; font-family: 'DM Sans', sans-serif; font-style: normal; cursor: pointer; font-weight: 700; transition: background 0.2s;">Next Page in Ledger 📖</button>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Словарь сессии</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Принятие (оно)</div>
+        <div class="vocab-def">согласие принять человека или ситуацию без осуждения.</div>
+        <div class="vocab-example">Истинное принятие в семье критически важно для личностного роста.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Принятие (оно)', definition:'согласие принять человека или ситуацию без осуждения.', example:'Истинное принятие в семье критически важно для личностного роста.'}, this)">Добавить в словарь</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Эмпатия ≠ Апатия (она)</div>
+        <div class="vocab-def">способность понимать чувства других ≠ полное отсутствие интереса и участия.</div>
+        <div class="vocab-example">Изучение психологии научило его эмпатии, вытеснив многолетнюю апатию.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Эмпатия ≠ Апатия (она)', definition:'способность понимать чувства других ≠ полное отсутствие интереса и участия.', example:'Изучение психологии научило его эмпатии, вытеснив многолетнюю апатию.'}, this)">Добавить в словарь</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Одобрение (оно)</div>
+        <div class="vocab-def">признание ценности чьих-либо чувств или поступков.</div>
+        <div class="vocab-example">Поиск одобрения со стороны близких — естественная потребность каждого человека.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Одобрение (оно)', definition:'признание ценности чьих-либо чувств или поступков.', example:'Поиск одобрения со стороны близких — естественная потребность каждого человека.'}, this)">Добавить в словарь</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Уязвимость (она)</div>
+        <div class="vocab-def">способность открыто проявлять свои слабости и страхи.</div>
+        <div class="vocab-example">Проявление уязвимости требует огромного мужества и доверия.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Уязвимость (она)', definition:'способность открыто проявлять свои слабости и страхи.', example:'Проявление уязвимости требует огромного мужества и доверия.'}, this)">Добавить в словарь</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Обман (он)</div>
+        <div class="vocab-def">действие, направленное на введение в заблуждение.</div>
+        <div class="vocab-example">Их отношения разрушились из-за постоянного взаимного обмана.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Обман (он)', definition:'действие, направленное на введение в заблуждение.', example:'Их отношения разрушились из-за постоянного взаимного обмана.'}, this)">Добавить в словарь</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Верность (она)</div>
+        <div class="vocab-def">стойкость и неизменность в своих чувствах и обязательствах.</div>
+        <div class="vocab-example">История подчеркивает верность друзей детства друг другу.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Верность (она)', definition:'стойкость и неизменность в своих чувствах и обязательствах.', example:'История подчеркивает верность друзей детства друг другу.'}, this)">Добавить в словарь</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Сострадание (оно)</div>
+        <div class="vocab-def">жалость и сочувствие к чужому несчастью.</div>
+        <div class="vocab-example">Она проявила глубокое сострадание к бездомным людям.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Сострадание (оно)', definition:'жалость и сочувствие к чужому несчастью.', example:'Она проявила глубокое сострадание к бездомным людям.'}, this)">Добавить в словарь</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Близость (она)</div>
+        <div class="vocab-def">глубокая душевная связь между людьми.</div>
+        <div class="vocab-example">Истинная близость невозможна без полной честности перед партнером.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Близость (она)', definition:'глубокая душевная связь между людьми.', example:'Истинная близость невозможна без полной честности перед партнером.'}, this)">Добавить в словарь</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Столкновение (оно)</div>
+        <div class="vocab-def">состояние конфликта между противоположными силами или идеями.</div>
+        <div class="vocab-example">Столкновение интересов привело к затяжному спору в команде.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Столкновение (оно)', definition:'состояние конфликта между противоположными силами или идеями.', example:'Столкновение интересов привело к затяжному спору в команде.'}, this)">Добавить в словарь</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Искренность (она)</div>
+        <div class="vocab-def">выражение истинных чувств и мыслей без притворства.</div>
+        <div class="vocab-example">Искренность в ее голосе сразу расположила к ней собеседников.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Искренность (она)', definition:'выражение истинных чувств и мыслей без притворства.', example:'Искренность в ее голосе сразу расположила к ней собеседников.'}, this)">Добавить в словарь</button>
+      </div>
+
+    </div>
+  </section>
+  <section id="structure">
+    <h2 class="section-title">🎙️ Обсуждение</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Разминка</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <ul class="round-questions">
+            <li>Согласны ли вы, что любовь и уязвимость неразделимы?</li>
+            <li>Является ли доверие более важным фактором в отношениях, чем любовь?</li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Раунд 1 — Анализ</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-item">
+            <div class="round-item-main">Как понятие <strong>принятие</strong> связано с психологической свободой и пониманием себя в современном обществе?</div>
+            <div class="round-item-personal">★ Расскажите о случае из вашей жизни, когда вам пришлось проявить <strong>принятие</strong>.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Как понятие <strong>эмпатия</strong> связано с психологической свободой и пониманием себя в современном обществе?</div>
+            <div class="round-item-personal">★ Расскажите о случае из вашей жизни, когда вам пришлось проявить <strong>эмпатия</strong>.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Как понятие <strong>одобрение</strong> связано с психологической свободой и пониманием себя в современном обществе?</div>
+            <div class="round-item-personal">★ Расскажите о случае из вашей жизни, когда вам пришлось проявить <strong>одобрение</strong>.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Как понятие <strong>уязвимость</strong> связано с психологической свободой и пониманием себя в современном обществе?</div>
+            <div class="round-item-personal">★ Расскажите о случае из вашей жизни, когда вам пришлось проявить <strong>уязвимость</strong>.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Как понятие <strong>обман</strong> связано с психологической свободой и пониманием себя в современном обществе?</div>
+            <div class="round-item-personal">★ Расскажите о случае из вашей жизни, когда вам пришлось проявить <strong>обман</strong>.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Как понятие <strong>верность</strong> связано с психологической свободой и пониманием себя в современном обществе?</div>
+            <div class="round-item-personal">★ Расскажите о случае из вашей жизни, когда вам пришлось проявить <strong>верность</strong>.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Как понятие <strong>сострадание</strong> связано с психологической свободой и пониманием себя в современном обществе?</div>
+            <div class="round-item-personal">★ Расскажите о случае из вашей жизни, когда вам пришлось проявить <strong>сострадание</strong>.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Как понятие <strong>близость</strong> связано с психологической свободой и пониманием себя в современном обществе?</div>
+            <div class="round-item-personal">★ Расскажите о случае из вашей жизни, когда вам пришлось проявить <strong>близость</strong>.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Как понятие <strong>столкновение</strong> связано с психологической свободой и пониманием себя в современном обществе?</div>
+            <div class="round-item-personal">★ Расскажите о случае из вашей жизни, когда вам пришлось проявить <strong>столкновение</strong>.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">Как понятие <strong>искренность</strong> связано с психологической свободой и пониманием себя в современном обществе?</div>
+            <div class="round-item-personal">★ Расскажите о случае из вашей жизни, когда вам пришлось проявить <strong>искренность</strong>.</div>
+          </div>
+
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Обсудим вместе</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">Сравнительный анализ наших привычек и восприятия себя.</p>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Раунд 2 — Философское применение</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-item">
+            <div class="round-item-main">В будущем общество будет ценить <strong>принятие</strong> гораздо больше, чем материальный успех.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">В будущем общество будет ценить <strong>эмпатия</strong> гораздо больше, чем материальный успех.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">В будущем общество будет ценить <strong>одобрение</strong> гораздо больше, чем материальный успех.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">В будущем общество будет ценить <strong>уязвимость</strong> гораздо больше, чем материальный успех.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">В будущем общество будет ценить <strong>обман</strong> гораздо больше, чем материальный успех.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">В будущем общество будет ценить <strong>верность</strong> гораздо больше, чем материальный успех.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">В будущем общество будет ценить <strong>сострадание</strong> гораздо больше, чем материальный успех.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">В будущем общество будет ценить <strong>близость</strong> гораздо больше, чем материальный успех.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">В будущем общество будет ценить <strong>столкновение</strong> гораздо больше, чем материальный успех.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">В будущем общество будет ценить <strong>искренность</strong> гораздо больше, чем материальный успех.</div>
+          </div>
+
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Заметки преподавателя (Исправление ошибок)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">Я согласен <u>с вами</u></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Я согласен с вами / разделяю ваше мнение</span>
+            <span class="mistake-note-text">(Для большего разнообразия речи используйте выражение «я разделяю ваше мнение».)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Это делает меня <u>более счастливый</u></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Это делает меня более счастливым</span>
+            <span class="mistake-note-text">(После глагола «делать» требуется творительный падеж («счастливым»).)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">Люди опасаются <u>о будущем</u></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">Люди опасаются будущего</span>
+            <span class="mistake-note-text">(Глагол «опасаться» управляет родительным падежом без предлога.)</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../../index.html" style="color:var(--muted);text-decoration:none;">Главная</a>
+    <a href="../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Практика</a>
+    <a href="../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Игры</a>
+    <a href="../../../../events/index.html" style="color:var(--muted);text-decoration:none;">События</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../../js/core/engine.js"></script>
+<script src="../../../../js/core/ui.js"></script>
+<script>document.addEventListener("DOMContentLoaded", () => { const quotes = ["\"Любить — значит давать кому-то силу уничтожить тебя, но верить, что он этого не сделает.\" — Федор Достоевский"]; let index = 0; const quoteText = document.getElementById("ledger-quote"); if (quoteText) quoteText.innerText = quotes[0]; });</script>
+</body>
+</html>

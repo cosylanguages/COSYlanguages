@@ -1,20 +1,19 @@
 <!-- DEVELOPER ALERT: Refer to templates/events/quotes-session-template.html (or corresponding active templates in events/sessions/) before creating new sessions in the future! -->
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>The Greatest Quotes 🖋️ — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
-
+<link href="../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../css/tokens.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/components.css" rel="stylesheet"/>
+<link href="../../css/layout.css" rel="stylesheet"/>
+<link href="../../css/events.css" rel="stylesheet"/>
 <style>
   .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
   .club-hero { background: linear-gradient(135deg, #534AB7, #2a255c); color: white; padding: 4rem 2rem; text-align: center; }
@@ -23,158 +22,158 @@
 </style>
 </head>
 <body>
-
 <nav id="cosy-nav"></nav>
-
 <header class="club-hero">
-  <img src="../../images/thegreatestquotes.png" alt="Quotes logo" style="height: 100px; width: auto; margin-bottom: 1.5rem;">
-  <h1>The Greatest Quotes</h1>
-  <p>Une citation. Une analyse profonde. Qu'est-ce qu'ils voulaient dire — et qu'est-ce que cela signifie pour vous ? Une exploration philosophique du langage.</p>
+<img alt="Quotes logo" src="../../images/thegreatestquotes.png" style="height: 100px; width: auto; margin-bottom: 1.5rem;"/>
+<h1>The Greatest Quotes</h1>
+<p>Une citation. Une analyse profonde. Qu'est-ce qu'ils voulaient dire — et qu'est-ce que cela signifie pour vous ? Une exploration philosophique du langage.</p>
 </header>
-
 <section class="container" style="padding: 2rem 1.5rem 5rem;">
+<a class="back-link" href="index.html" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← Tous les clubs de conversation</a>
+<div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+<div class="club-main">
+<div>
+<div class="section-header" style="margin-bottom: 1.5rem;">
+<h2 style="font-size: 1.5rem;">📅 Sessions à venir</h2>
+</div>
+<div class="session-info"><table>
+<tr><td>Citation</td><td>"Une vie sans examen ne vaut pas la peine d'être vécue" — Socrate</td></tr>
+<tr><td>Description</td><td>Exploration de la conscience de soi et de la réflexion critique.</td></tr>
+<tr><td>Lien</td><td><a href="https://fr.wikipedia.org/wiki/Socrate" style="color:var(--cosy-green);" target="_blank">À propos de Socrate 📖</a></td></tr>
+<tr><td>Calendrier</td><td>Planifié — À confirmer</td></tr>
+<tr><td>Durée</td><td>60 min</td></tr>
+<tr><td>Langues</td><td>🇫🇷</td></tr>
+</table></div>
+<a class="join-btn" href="https://wa.me/330766784195?text=Bonjour!%20Je%20souhaite%20rejoindre%20le%20club%20The%20Greatest%20Quotes.">💬 S'inscrire</a>
+<!-- HISTORY -->
+<div class="history-block" id="gq-hist" style="margin-top: 2rem;">
+<div class="section-header" style="margin-bottom: 1rem;">
+<h2 style="font-size: 1.5rem;">🕒 Sessions passées</h2>
+</div>
+<div class="history-body" style="display: block; padding: 0; border: none;"><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">L'enfant difficile</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">20 October 2026</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/dolto-difficult-child-quote.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Lire et danser</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">15 December 2026</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/voltaire-read-dance-quote.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div>
+<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">La sagesse de Socrate</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">15 Septembre 2025</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/la-sagesse-de-socrate.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div>
+<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Si vous n'acceptez pas un enfant gay...</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/accept-gay-child.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div>
+<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">L'IA est l'opposé de la prise de risque...</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/ai-opposite-of-art.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div>
+<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Sonder</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/sonder.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div>
+<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Toutes les femmes deviennent comme leur mère...</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/women-mothers-tragedy.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div>
+<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Les gens ont de belles choses à dire sur vous...</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/must-die-first.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div>
+<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Le foyer n'est pas un lieu - c'est un temps</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/home-is-a-time.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div>
+<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Certains de vos jours préférés...</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/favorite-days-not-happened.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div>
+<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Saudade</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/saudade.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div>
+<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">La forme la plus dangereuse de cécité...</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/dangerous-blindness-perspective.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div>
+<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Vous n'avez pas d'âme. Vous êtes une âme.</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/you-are-a-soul.html" style="background:var(--indigo);">Voir la session complète →</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-  <a href="index.html" class="back-link" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← Tous les clubs de conversation</a>
 
-  <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
 
-    <div class="club-main">
-      <div>
-        <div class="section-header" style="margin-bottom: 1.5rem;">
-          <h2 style="font-size: 1.5rem;">📅 Sessions à venir</h2>
-        </div>
-        <div class="session-info"><table>
-          <tr><td>Citation</td><td>"Une vie sans examen ne vaut pas la peine d'être vécue" — Socrate</td></tr>
-          <tr><td>Description</td><td>Exploration de la conscience de soi et de la réflexion critique.</td></tr>
-          <tr><td>Lien</td><td><a href="https://fr.wikipedia.org/wiki/Socrate" target="_blank" style="color:var(--cosy-green);">À propos de Socrate 📖</a></td></tr>
-          <tr><td>Calendrier</td><td>Planifié — À confirmer</td></tr>
-          <tr><td>Durée</td><td>60 min</td></tr>
-          <tr><td>Langues</td><td>🇫🇷</td></tr>
-        </table></div>
-        <a class="join-btn" href="https://wa.me/330766784195?text=Bonjour!%20Je%20souhaite%20rejoindre%20le%20club%20The%20Greatest%20Quotes.">💬 S'inscrire</a>
 
-        <!-- HISTORY -->
-        <div class="history-block" id="gq-hist" style="margin-top: 2rem;">
-          <div class="section-header" style="margin-bottom: 1rem;">
-            <h2 style="font-size: 1.5rem;">🕒 Sessions passées</h2>
-          </div>
-          <div class="history-body" style="display: block; padding: 0; border: none;">
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">La sagesse de Socrate</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 Septembre 2025</span>
-              </div>
-              <a href="sessions/the-greatest-quotes/la-sagesse-de-socrate.html" class="view-btn" style="background:var(--indigo);">Voir la session complète →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">Si vous n'acceptez pas un enfant gay...</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
-              </div>
-              <a href="sessions/the-greatest-quotes/accept-gay-child.html" class="view-btn" style="background:var(--indigo);">Voir la session complète →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">L'IA est l'opposé de la prise de risque...</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
-              </div>
-              <a href="sessions/the-greatest-quotes/ai-opposite-of-art.html" class="view-btn" style="background:var(--indigo);">Voir la session complète →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">Sonder</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
-              </div>
-              <a href="sessions/the-greatest-quotes/sonder.html" class="view-btn" style="background:var(--indigo);">Voir la session complète →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">Toutes les femmes deviennent comme leur mère...</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
-              </div>
-              <a href="sessions/the-greatest-quotes/women-mothers-tragedy.html" class="view-btn" style="background:var(--indigo);">Voir la session complète →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">Les gens ont de belles choses à dire sur vous...</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
-              </div>
-              <a href="sessions/the-greatest-quotes/must-die-first.html" class="view-btn" style="background:var(--indigo);">Voir la session complète →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">Le foyer n'est pas un lieu - c'est un temps</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
-              </div>
-              <a href="sessions/the-greatest-quotes/home-is-a-time.html" class="view-btn" style="background:var(--indigo);">Voir la session complète →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">Certains de vos jours préférés...</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
-              </div>
-              <a href="sessions/the-greatest-quotes/favorite-days-not-happened.html" class="view-btn" style="background:var(--indigo);">Voir la session complète →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">Saudade</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
-              </div>
-              <a href="sessions/the-greatest-quotes/saudade.html" class="view-btn" style="background:var(--indigo);">Voir la session complète →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">La forme la plus dangereuse de cécité...</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
-              </div>
-              <a href="sessions/the-greatest-quotes/dangerous-blindness-perspective.html" class="view-btn" style="background:var(--indigo);">Voir la session complète →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">Vous n'avez pas d'âme. Vous êtes une âme.</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 January 2025</span>
-              </div>
-              <a href="sessions/the-greatest-quotes/you-are-a-soul.html" class="view-btn" style="background:var(--indigo);">Voir la session complète →</a>
-            </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="club-sidebar">
-      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
-        <h3 style="font-size: 1rem; margin-bottom: .5rem;">Philosophie et Langage</h3>
-        <p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Les citations célèbres sont des capsules de sagesse qui permettent de discuter de concepts abstraits et complexes avec des mots simples.</p>
-      </div>
-    </div>
 
-  </div>
+
+
+
+
+
+
+<div class="club-sidebar">
+<div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
+<h3 style="font-size: 1rem; margin-bottom: .5rem;">Philosophie et Langage</h3>
+<p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Les citations célèbres sont des capsules de sagesse qui permettent de discuter de concepts abstraits et complexes avec des mots simples.</p>
+</div>
+</div>
 
 </section>
-
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Accueil</a>
-    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Pratique</a>
-    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Jeux</a>
-    <a href="index.html" style="color:var(--muted);text-decoration:none;">Événements</a>
-  </div>
-  <p>© 2026 COSYlanguages — Tous droits réservés</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Accueil</a>
+<a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Pratique</a>
+<a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Jeux</a>
+<a href="index.html" style="color:var(--muted);text-decoration:none;">Événements</a>
+</div>
+<p>© 2026 COSYlanguages — Tous droits réservés</p>
 </footer>
-
 <script src="../../js/data/languages.js"></script>
 <script src="../../js/core/engine.js"></script>
 <script src="../../js/core/i18n.js"></script>
