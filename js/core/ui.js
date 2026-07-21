@@ -341,16 +341,21 @@
         const links = Array.from(document.querySelectorAll('a'));
         const youtubeLinks = links.filter(link => {
             const href = link.getAttribute('href') || '';
-            return href.includes('youtube.com/') || href.includes('youtu.be/');
+            return href.includes('youtube.com') || href.includes('youtu.be') || href.includes('youtube-nocookie.com');
         });
 
         if (youtubeLinks.length === 0) return;
 
         const getYouTubeId = (url) => {
             if (!url) return null;
-            const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
-            const match = url.match(regExp);
-            return (match && match[2].length === 11) ? match[2] : null;
+            try {
+                const regExp = /(?:https?:)?\/\/(?:[0-9A-Z-]+\.)?(?:youtube|youtu|youtube-nocookie)\.(?:com|be)\/(?:watch\?v=|embed\/|v\/|shorts\/|ytscreeningroom\?v=|v=|\/)?([0-9A-Za-z_-]{11})/i;
+                const match = url.match(regExp);
+                if (match && match[1]) {
+                    return match[1];
+                }
+            } catch (e) {}
+            return null;
         };
 
         const docLang = document.documentElement.lang || 'en';
@@ -370,14 +375,11 @@
         if (lyricContainers.length > 0) {
             lyricContainers.forEach(container => {
                 // Find nearest YouTube link for this lyrics block (inside the same vim-choice-option if exists)
-                const choiceParent = container.closest('vim-choice-option-content') || container.closest('vim-choice-option');
+                const choiceParent = container.closest('.vim-tab-pane') || container.closest('vim-choice-option-content') || container.closest('vim-choice-option');
                 let targetLink = null;
                 if (choiceParent) {
                     const parentLinks = Array.from(choiceParent.querySelectorAll('a'));
-                    targetLink = parentLinks.find(link => {
-                        const href = link.getAttribute('href') || '';
-                        return href.includes('youtube.com/') || href.includes('youtu.be/');
-                    });
+                    targetLink = parentLinks.find(link => getYouTubeId(link.getAttribute('href')));
                 }
                 if (!targetLink) {
                     // Fallback to first available YouTube link on the page that has a valid ID

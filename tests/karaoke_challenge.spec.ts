@@ -33,6 +33,12 @@ test.describe('Karaoke Club Challenge Tabbed layout Verification', () => {
 
     // 7. Verify unique elements inside the second tab are now visible
     await expect(page.locator('#vocabulary-je-taime-comme-je-taime')).toBeVisible();
+
+    // 8. Verify correct, distinct video players are rendered in each tab (tab isolation)
+    const videoIframes = page.locator('.cosy-video-wrapper iframe');
+    await expect(videoIframes).toHaveCount(2);
+    await expect(videoIframes.nth(0)).toHaveAttribute('src', 'https://www.youtube.com/embed/UVz3xR1X9RU');
+    await expect(videoIframes.nth(1)).toHaveAttribute('src', 'https://www.youtube.com/embed/zu9HiCSVyAg');
   });
 
   test('Crazy Ex-Girlfriend Challenge page should load with 26 tabs', async ({ page }) => {
