@@ -80,7 +80,29 @@
       .club-card h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; line-height: 1.3; font-family: var(--font-serif); }
       .club-meta { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
       .club-tag { font-size: 0.7rem; padding: 0.2rem 0.5rem; border-radius: 6px; font-weight: 700; border: 1px solid; text-transform: uppercase; letter-spacing: 0.03em; }
-      .club-desc { font-size: 0.88rem; color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem; flex-grow: 1; }
+      .club-desc { font-size: 0.88rem; color: var(--muted); line-height: 1.6; margin-bottom: 1rem; flex-grow: 1; }
+
+      /* Keyword tags */
+      .keyword-tag {
+        background: rgba(255,255,255,0.12);
+        color: white;
+        padding: 0.2rem 0.45rem;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 0.72rem;
+        transition: all 0.2s;
+        border: 1px solid rgba(255,255,255,0.08);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        margin-bottom: 0.3rem;
+        margin-right: 0.15rem;
+      }
+      .keyword-tag:hover {
+        background: rgba(255,255,255,0.28) !important;
+        transform: translateY(-1.5px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      }
       .club-link {
         font-size: 0.85rem;
         font-weight: 700;
@@ -190,6 +212,15 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Science</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Real science news, made discussable. Each session unpacks a recent discovery or trend.</p>
+
+          <div style="margin-top: auto; margin-bottom: 1.2rem; padding-top: 0.8rem; border-top: 1px solid rgba(255,255,255,0.15); font-size: 0.75rem; line-height: 1.5;">
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">📖 Source Topic:</span> <span class="keyword-tag" data-keyword="Recent Discoveries">Recent Discoveries</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🖼️ Cover Symbol:</span> <span class="keyword-tag" data-keyword="Microscope">Microscope</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">💡 Main Idea:</span> <span class="keyword-tag" data-keyword="AI & Human Learning">AI & Human Learning</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">✨ Secondary Ideas:</span> <span class="keyword-tag" data-keyword="Longevity">Longevity</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🔑 Grammar Focus:</span> <span class="keyword-tag" data-keyword="Conditionals">Conditionals</span></div>
+          </div>
+
           <a href="keeping-up-with-science.html" class="club-link" style="color: white;">View Club & History →</a>
         </div>
       </article>
@@ -204,6 +235,15 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Culture</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Festivals, traditions, and the rituals that bring people together.</p>
+
+          <div style="margin-top: auto; margin-bottom: 1.2rem; padding-top: 0.8rem; border-top: 1px solid rgba(255,255,255,0.15); font-size: 0.75rem; line-height: 1.5;">
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">📖 Source Topic:</span> <span class="keyword-tag" data-keyword="Global Festivals">Global Festivals</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🖼️ Cover Symbol:</span> <span class="keyword-tag" data-keyword="Confetti">Confetti</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">💡 Main Idea:</span> <span class="keyword-tag" data-keyword="Cultural Rituals">Cultural Rituals</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">✨ Secondary Ideas:</span> <span class="keyword-tag" data-keyword="Nostalgia">Nostalgia</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🔑 Grammar Focus:</span> <span class="keyword-tag" data-keyword="Time Clauses">Time Clauses</span></div>
+          </div>
+
           <a href="lets-celebrate.html" class="club-link" style="color: white;">View Club & History →</a>
         </div>
       </article>
@@ -218,6 +258,15 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Philosophy</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">One quote. Multi-faceted café debate. Join Marcus Aurelius, Alan Watts, and Oscar Wilde over espresso to unpack endless interpretations.</p>
+
+          <div style="margin-top: auto; margin-bottom: 1.2rem; padding-top: 0.8rem; border-top: 1px solid rgba(255,255,255,0.15); font-size: 0.75rem; line-height: 1.5;">
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">📖 Source Topic:</span> <span class="keyword-tag" data-keyword="Philosophical Quotes">Philosophical Quotes</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🖼️ Cover Symbol:</span> <span class="keyword-tag" data-keyword="Coffee Cup">Coffee Cup</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">💡 Main Idea:</span> <span class="keyword-tag" data-keyword="Embracing Ignorance">Embracing Ignorance</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">✨ Secondary Ideas:</span> <span class="keyword-tag" data-keyword="Critical Thinking">Critical Thinking</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🔑 Grammar Focus:</span> <span class="keyword-tag" data-keyword="Reported Speech">Reported Speech</span></div>
+          </div>
+
           <a href="the-greatest-quotes.html" class="club-link" style="color: white;">View Club & History →</a>
         </div>
       </article>
@@ -232,6 +281,15 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Psychology</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Perhaps our minds are not puzzles to be solved, but landscapes to be gently wandered through. Welcome to a sanctuary of quiet reflection where we unravel our habits, our vulnerabilities, and our silent thoughts.</p>
+
+          <div style="margin-top: auto; margin-bottom: 1.2rem; padding-top: 0.8rem; border-top: 1px solid rgba(255,255,255,0.15); font-size: 0.75rem; line-height: 1.5;">
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">📖 Source Topic:</span> <span class="keyword-tag" data-keyword="Habits">Habits</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🖼️ Cover Symbol:</span> <span class="keyword-tag" data-keyword="Mirror">Mirror</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">💡 Main Idea:</span> <span class="keyword-tag" data-keyword="Brain Networks">Brain Networks</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">✨ Secondary Ideas:</span> <span class="keyword-tag" data-keyword="Self-Healing">Self-Healing</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🔑 Grammar Focus:</span> <span class="keyword-tag" data-keyword="Gerunds">Gerunds</span></div>
+          </div>
+
           <a href="mind-matters.html" class="club-link" style="color: white;">View Club & History →</a>
         </div>
       </article>
@@ -246,6 +304,15 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Personal</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Each session explores life before and after one thing — a habit, a person, a city, a decision.</p>
+
+          <div style="margin-top: auto; margin-bottom: 1.2rem; padding-top: 0.8rem; border-top: 1px solid rgba(255,255,255,0.15); font-size: 0.75rem; line-height: 1.5;">
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">📖 Source Topic:</span> <span class="keyword-tag" data-keyword="Life Decisions">Life Decisions</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🖼️ Cover Symbol:</span> <span class="keyword-tag" data-keyword="Empty Suitcase">Empty Suitcase</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">💡 Main Idea:</span> <span class="keyword-tag" data-keyword="Personal Transformations">Personal Transformations</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">✨ Secondary Ideas:</span> <span class="keyword-tag" data-keyword="Independence">Independence</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🔑 Grammar Focus:</span> <span class="keyword-tag" data-keyword="Present Perfect">Present Perfect</span></div>
+          </div>
+
           <a href="my-life-with-without.html" class="club-link" style="color: white;">View Club & History →</a>
         </div>
       </article>
@@ -260,6 +327,15 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Debate</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Hot takes and genuine dilemmas. Each session presents a statement you'll passionately agree with.</p>
+
+          <div style="margin-top: auto; margin-bottom: 1.2rem; padding-top: 0.8rem; border-top: 1px solid rgba(255,255,255,0.15); font-size: 0.75rem; line-height: 1.5;">
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">📖 Source Topic:</span> <span class="keyword-tag" data-keyword="Modern Dilemmas">Modern Dilemmas</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🖼️ Cover Symbol:</span> <span class="keyword-tag" data-keyword="Scales">Scales</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">💡 Main Idea:</span> <span class="keyword-tag" data-keyword="Technology vs Tradition">Technology vs Tradition</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">✨ Secondary Ideas:</span> <span class="keyword-tag" data-keyword="Human Identity">Human Identity</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🔑 Grammar Focus:</span> <span class="keyword-tag" data-keyword="Agreement structures">Agreement structures</span></div>
+          </div>
+
           <a href="debatable-relatable.html" class="club-link" style="color: white;">View Club & History →</a>
         </div>
       </article>
@@ -274,6 +350,15 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Cinema</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Speak original-language. Watch outstanding scenes, analyze rich regional slangs, and discuss powerful storyboards.</p>
+
+          <div style="margin-top: auto; margin-bottom: 1.2rem; padding-top: 0.8rem; border-top: 1px solid rgba(255,255,255,0.15); font-size: 0.75rem; line-height: 1.5;">
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">📖 Source Topic:</span> <span class="keyword-tag" data-keyword="Screenplays">Screenplays</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🖼️ Cover Symbol:</span> <span class="keyword-tag" data-keyword="Film Reel">Film Reel</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">💡 Main Idea:</span> <span class="keyword-tag" data-keyword="Character Motivation">Character Motivation</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">✨ Secondary Ideas:</span> <span class="keyword-tag" data-keyword="Cinematic Pacing">Cinematic Pacing</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🔑 Grammar Focus:</span> <span class="keyword-tag" data-keyword="Narrative Tenses">Narrative Tenses</span></div>
+          </div>
+
           <a href="cinema-club.html" class="club-link" style="color: white;">View Club & History →</a>
         </div>
       </article>
@@ -288,6 +373,15 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Music</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Sing your way to fluency! Analyze conversational song lyrics, master natural pronunciations, and unpack rich cultural contexts.</p>
+
+          <div style="margin-top: auto; margin-bottom: 1.2rem; padding-top: 0.8rem; border-top: 1px solid rgba(255,255,255,0.15); font-size: 0.75rem; line-height: 1.5;">
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">📖 Source Topic:</span> <span class="keyword-tag" data-keyword="Song Lyrics">Song Lyrics</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🖼️ Cover Symbol:</span> <span class="keyword-tag" data-keyword="Microphone">Microphone</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">💡 Main Idea:</span> <span class="keyword-tag" data-keyword="Personal Expression">Personal Expression</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">✨ Secondary Ideas:</span> <span class="keyword-tag" data-keyword="Rhythm & Rhymes">Rhythm & Rhymes</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🔑 Grammar Focus:</span> <span class="keyword-tag" data-keyword="Gap Fills">Gap Fills</span></div>
+          </div>
+
           <a href="karaoke-club.html" class="club-link" style="color: white;">View Club & History →</a>
         </div>
       </article>
@@ -302,9 +396,53 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Philosophy</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Random ideas where we speculate about various things, ask poetic questions, and develop deep philosophical reflection.</p>
+
+          <div style="margin-top: auto; margin-bottom: 1.2rem; padding-top: 0.8rem; border-top: 1px solid rgba(255,255,255,0.15); font-size: 0.75rem; line-height: 1.5;">
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">📖 Source Topic:</span> <span class="keyword-tag" data-keyword="Speculations">Speculations</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🖼️ Cover Symbol:</span> <span class="keyword-tag" data-keyword="Starry Sky">Starry Sky</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">💡 Main Idea:</span> <span class="keyword-tag" data-keyword="Existential Curiosity">Existential Curiosity</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">✨ Secondary Ideas:</span> <span class="keyword-tag" data-keyword="Aesthetic Appreciation">Aesthetic Appreciation</span></div>
+            <div style="margin-bottom: 0.35rem;"><span style="opacity: 0.7;">🔑 Grammar Focus:</span> <span class="keyword-tag" data-keyword="Wish Structures">Wish Structures</span></div>
+          </div>
+
           <a href="i-couldnt-help-but-wonder.html" class="club-link" style="color: white;">View Club & History →</a>
         </div>
       </article>
+    </div>
+  </section>
+
+  <!-- Interactive Session Explorer -->
+  <section id="session-explorer-section" style="background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 3rem 2rem; margin-top: 3rem; margin-bottom: 3rem; scroll-margin-top: 2rem;">
+    <span class="sec-tag">🔎 Dynamic Search</span>
+    <h2 class="sec-h2" style="margin-bottom: 0.5rem; font-family: var(--font-serif);">Interactive Session Explorer</h2>
+    <p class="sec-p" style="margin-bottom: 2rem; max-width: 650px; margin-left: 0; text-align: left;">
+      Click on any pedagogical keyword from the club cards above, or use the search bar below to instantly discover speaking sessions, films, and songs related to specific topics, visual symbols, concepts, or grammar rules.
+    </p>
+
+    <!-- Controls Row -->
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-bottom: 2rem;">
+      <div style="flex-grow: 1; min-width: 280px; position: relative;">
+        <input type="text" id="explorer-search-input" placeholder="Type a keyword, topic, grammar topic, or title (e.g. AI, love, conditionals)..."
+               style="width: 100%; padding: 0.8rem 1.2rem; border-radius: 12px; border: 1px solid var(--border); font-family: var(--font-sans); font-size: 0.95rem; box-shadow: var(--shadow-sm); transition: border-color 0.2s;" />
+      </div>
+      <button id="explorer-clear-btn" class="view-btn" style="background: var(--ink-soft); display: none; border: none; cursor: pointer;">
+        Clear Filters ✕
+      </button>
+    </div>
+
+    <!-- Active Filters Feedback -->
+    <div id="explorer-active-filter-bar" style="display: none; align-items: center; gap: 0.5rem; margin-bottom: 1.5rem; font-size: 0.9rem; font-weight: 500; color: var(--ink-muted);">
+      Active Filter: <span id="explorer-active-filter-badge" style="background: var(--sage-pale); color: var(--sage-deep); padding: 0.3rem 0.8rem; border-radius: 20px; font-weight: 700; border: 1px solid var(--border-hover); display: inline-flex; align-items: center; gap: 0.4rem;"></span>
+    </div>
+
+    <!-- Results Count -->
+    <div id="explorer-results-count" style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-faint); margin-bottom: 1rem;">
+      Showing all sessions
+    </div>
+
+    <!-- Results Container -->
+    <div id="explorer-results-grid" class="club-grid">
+      <!-- Dynamically filled by JS -->
     </div>
   </section>
 
@@ -417,19 +555,20 @@
 <script src="../js/config.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  const buttons = document.querySelectorAll('.filter-btn');
-  const cards = document.querySelectorAll('.club-grid .club-card');
+  // --- 1. Main Club Level Filtering (Preserving existing logic) ---
+  const levelButtons = document.querySelectorAll('.filter-btn');
+  const clubCards = document.querySelectorAll('.club-grid:not(#explorer-results-grid) .club-card');
 
-  buttons.forEach(btn => {
+  levelButtons.forEach(btn => {
     btn.addEventListener('click', () => {
-      buttons.forEach(b => b.classList.remove('active'));
+      levelButtons.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
-      const level = btn.getAttribute('data-level');
+      const selectedLevel = btn.getAttribute('data-level');
 
-      cards.forEach(card => {
+      clubCards.forEach(card => {
         const levels = card.getAttribute('data-levels') || '';
-        if (level === 'all' || levels.includes(level)) {
+        if (selectedLevel === 'all' || levels.includes(selectedLevel)) {
           card.style.display = 'flex';
         } else {
           card.style.display = 'none';
@@ -437,6 +576,412 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+
+  // --- 2. Interactive Session Explorer Database ---
+  const SESSIONS_DB = [
+    {
+      title: "Why Your Grandmother Is an Evolutionary Mystery",
+      club: "Keeping Up with Science",
+      clubSlug: "science",
+      level: "B2",
+      url: "sessions/keeping-up-with-science/grandmother-evolutionary-mystery.html",
+      color: "linear-gradient(135deg, #0F6E56, #073b2d)",
+      keywords: ["Recent Discoveries", "Microscope", "AI & Human Learning", "Longevity", "Conditionals"]
+    },
+    {
+      title: "We Are Living in the Most Creative Time Ever",
+      club: "Keeping Up with Science",
+      clubSlug: "science",
+      level: "B1",
+      url: "sessions/keeping-up-with-science/living-most-creative-time.html",
+      color: "linear-gradient(135deg, #0F6E56, #073b2d)",
+      keywords: ["Recent Discoveries", "Microscope", "AI & Human Learning", "Longevity", "Conditionals"]
+    },
+    {
+      title: "Nervous System Networks & Pain",
+      club: "Keeping Up with Science",
+      clubSlug: "science",
+      level: "B2",
+      url: "sessions/keeping-up-with-science/sensory-system-pain-disease.html",
+      color: "linear-gradient(135deg, #0F6E56, #073b2d)",
+      keywords: ["Recent Discoveries", "Microscope", "AI & Human Learning", "Longevity", "Conditionals"]
+    },
+    {
+      title: "Ozempic & the Obesity Revolution",
+      club: "Keeping Up with Science",
+      clubSlug: "science",
+      level: "B2",
+      url: "sessions/keeping-up-with-science/ozempic-obesity-revolution.html",
+      color: "linear-gradient(135deg, #0F6E56, #073b2d)",
+      keywords: ["Recent Discoveries", "Microscope", "AI & Human Learning", "Longevity", "Conditionals"]
+    },
+    {
+      title: "National Simplicity Day",
+      club: "Let's Celebrate",
+      clubSlug: "celebrate",
+      level: "A2",
+      url: "sessions/lets-celebrate/national-simplicity-day.html",
+      color: "linear-gradient(135deg, #BA7517, #5c390b)",
+      keywords: ["Global Festivals", "Confetti", "Cultural Rituals", "Nostalgia", "Time Clauses"]
+    },
+    {
+      title: "Lunar New Year",
+      club: "Let's Celebrate",
+      clubSlug: "celebrate",
+      level: "B1",
+      url: "sessions/lets-celebrate/lunar-new-year.html",
+      color: "linear-gradient(135deg, #BA7517, #5c390b)",
+      keywords: ["Global Festivals", "Confetti", "Cultural Rituals", "Nostalgia", "Time Clauses"]
+    },
+    {
+      title: "Diwali Festival",
+      club: "Let's Celebrate",
+      clubSlug: "celebrate",
+      level: "B1",
+      url: "sessions/lets-celebrate/diwali-festival.html",
+      color: "linear-gradient(135deg, #BA7517, #5c390b)",
+      keywords: ["Global Festivals", "Confetti", "Cultural Rituals", "Nostalgia", "Time Clauses"]
+    },
+    {
+      title: "The Wisdom of Socrates",
+      club: "The Greatest Quotes",
+      clubSlug: "quotes",
+      level: "B1",
+      url: "sessions/the-greatest-quotes/wisdom-of-socrates.html",
+      color: "linear-gradient(135deg, #5D4037, #3E2723)",
+      keywords: ["Philosophical Quotes", "Coffee Cup", "Embracing Ignorance", "Critical Thinking", "Reported Speech"]
+    },
+    {
+      title: "No Shame in Not Knowing",
+      club: "The Greatest Quotes",
+      clubSlug: "quotes",
+      level: "B2",
+      url: "sessions/the-greatest-quotes/feynman-no-shame-knowing-quote.html",
+      color: "linear-gradient(135deg, #5D4037, #3E2723)",
+      keywords: ["Philosophical Quotes", "Coffee Cup", "Embracing Ignorance", "Critical Thinking", "Reported Speech"]
+    },
+    {
+      title: "Loving Means Power",
+      club: "The Greatest Quotes",
+      clubSlug: "quotes",
+      level: "B2",
+      url: "sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html",
+      color: "linear-gradient(135deg, #5D4037, #3E2723)",
+      keywords: ["Philosophical Quotes", "Coffee Cup", "Embracing Ignorance", "Critical Thinking", "Reported Speech"]
+    },
+    {
+      title: "The Power of Habits",
+      club: "Mind Matters",
+      clubSlug: "mind",
+      level: "B1",
+      url: "sessions/mind-matters/power-of-habits.html",
+      color: "linear-gradient(135deg, #993556, #4d1a2b)",
+      keywords: ["Habits", "Mirror", "Brain Networks", "Self-Healing", "Gerunds"]
+    },
+    {
+      title: "The Science of Sleep",
+      club: "Mind Matters",
+      clubSlug: "mind",
+      level: "B2",
+      url: "sessions/mind-matters/science-of-sleep.html",
+      color: "linear-gradient(135deg, #993556, #4d1a2b)",
+      keywords: ["Habits", "Mirror", "Brain Networks", "Self-Healing", "Gerunds"]
+    },
+    {
+      title: "How to Love Your Work",
+      club: "Mind Matters",
+      clubSlug: "mind",
+      level: "B1",
+      url: "sessions/mind-matters/how-to-love-your-work.html",
+      color: "linear-gradient(135deg, #993556, #4d1a2b)",
+      keywords: ["Habits", "Mirror", "Brain Networks", "Self-Healing", "Gerunds"]
+    },
+    {
+      title: "My Life With & Without Private Cars",
+      club: "My Life With & Without",
+      clubSlug: "life",
+      level: "A2",
+      url: "sessions/my-life-with-without/car-life.html",
+      color: "linear-gradient(135deg, #3B6D11, #1d3608)",
+      keywords: ["Life Decisions", "Empty Suitcase", "Personal Transformations", "Independence", "Present Perfect"]
+    },
+    {
+      title: "My Life With & Without Social Media",
+      club: "My Life With & Without",
+      clubSlug: "life",
+      level: "B1",
+      url: "sessions/my-life-with-without/social-media-life.html",
+      color: "linear-gradient(135deg, #3B6D11, #1d3608)",
+      keywords: ["Life Decisions", "Empty Suitcase", "Personal Transformations", "Independence", "Present Perfect"]
+    },
+    {
+      title: "My Life With & Without Pets",
+      club: "My Life With & Without",
+      clubSlug: "life",
+      level: "B1",
+      url: "sessions/my-life-with-without/pets-life.html",
+      color: "linear-gradient(135deg, #3B6D11, #1d3608)",
+      keywords: ["Life Decisions", "Empty Suitcase", "Personal Transformations", "Independence", "Present Perfect"]
+    },
+    {
+      title: "The 4-Day Work Week",
+      club: "Debatable & Relatable",
+      clubSlug: "debate",
+      level: "B2",
+      url: "sessions/debatable-relatable/4-day-work-week.html",
+      color: "linear-gradient(135deg, #993C1D, #4d1e0f)",
+      keywords: ["Modern Dilemmas", "Scales", "Technology vs Tradition", "Human Identity", "Agreement structures"]
+    },
+    {
+      title: "AI and Art",
+      club: "Debatable & Relatable",
+      clubSlug: "debate",
+      level: "B2",
+      url: "sessions/debatable-relatable/ai-and-art.html",
+      color: "linear-gradient(135deg, #993C1D, #4d1e0f)",
+      keywords: ["Modern Dilemmas", "Scales", "Technology vs Tradition", "Human Identity", "Agreement structures"]
+    },
+    {
+      title: "Human Cloning",
+      club: "Debatable & Relatable",
+      clubSlug: "debate",
+      level: "B2",
+      url: "sessions/debatable-relatable/human-cloning.html",
+      color: "linear-gradient(135deg, #993C1D, #4d1e0f)",
+      keywords: ["Modern Dilemmas", "Scales", "Technology vs Tradition", "Human Identity", "Agreement structures"]
+    },
+    {
+      title: "The Queen's Gambit",
+      club: "Cinema Club",
+      clubSlug: "cinema",
+      level: "B2",
+      url: "sessions/cinema-club/the-queens-gambit.html",
+      color: "linear-gradient(135deg, #3D2B1F, #1F140D)",
+      keywords: ["Screenplays", "Film Reel", "Character Motivation", "Cinematic Pacing", "Narrative Tenses"]
+    },
+    {
+      title: "Black Mirror",
+      club: "Cinema Club",
+      clubSlug: "cinema",
+      level: "C1",
+      url: "sessions/cinema-club/black-mirror.html",
+      color: "linear-gradient(135deg, #3D2B1F, #1F140D)",
+      keywords: ["Screenplays", "Film Reel", "Character Motivation", "Cinematic Pacing", "Narrative Tenses"]
+    },
+    {
+      title: "Mamma Mia!",
+      club: "Cinema Club",
+      clubSlug: "cinema",
+      level: "B1",
+      url: "sessions/cinema-club/mamma-mia.html",
+      color: "linear-gradient(135deg, #3D2B1F, #1F140D)",
+      keywords: ["Screenplays", "Film Reel", "Character Motivation", "Cinematic Pacing", "Narrative Tenses"]
+    },
+    {
+      title: "Fleabag",
+      club: "Cinema Club",
+      clubSlug: "cinema",
+      level: "C1",
+      url: "sessions/cinema-club/fleabag.html",
+      color: "linear-gradient(135deg, #3D2B1F, #1F140D)",
+      keywords: ["Screenplays", "Film Reel", "Character Motivation", "Cinematic Pacing", "Narrative Tenses"]
+    },
+    {
+      title: "California Dreaming",
+      club: "Karaoke Club",
+      clubSlug: "karaoke",
+      level: "A2",
+      url: "sessions/karaoke-club/california-dreaming.html",
+      color: "linear-gradient(135deg, #4A154B, #2A0A35)",
+      keywords: ["Song Lyrics", "Microphone", "Personal Expression", "Rhythm & Rhymes", "Gap Fills"]
+    },
+    {
+      title: "You Stupid Bitch",
+      club: "Karaoke Club",
+      clubSlug: "karaoke",
+      level: "B1",
+      url: "sessions/karaoke-club/you-stupid-bitch.html",
+      color: "linear-gradient(135deg, #4A154B, #2A0A35)",
+      keywords: ["Song Lyrics", "Microphone", "Personal Expression", "Rhythm & Rhymes", "Gap Fills"]
+    },
+    {
+      title: "Voilà",
+      club: "Karaoke Club",
+      clubSlug: "karaoke",
+      level: "B2",
+      url: "sessions/karaoke-club/voila.html",
+      color: "linear-gradient(135deg, #4A154B, #2A0A35)",
+      keywords: ["Song Lyrics", "Microphone", "Personal Expression", "Rhythm & Rhymes", "Gap Fills"]
+    },
+    {
+      title: "Always Watched in a Crowd",
+      club: "I Couldn't Help But Wonder",
+      clubSlug: "wonder",
+      level: "B2",
+      url: "sessions/i-couldnt-help-but-wonder/always-watched-in-a-crowd.html",
+      color: "linear-gradient(135deg, #3F2B96, #1F104D)",
+      keywords: ["Speculations", "Starry Sky", "Existential Curiosity", "Aesthetic Appreciation", "Wish Structures"]
+    },
+    {
+      title: "Whether Raindrops Select Where to Fall",
+      club: "I Couldn't Help But Wonder",
+      clubSlug: "wonder",
+      level: "B2",
+      url: "sessions/i-couldnt-help-but-wonder/whether-raindrops-select-where-to-fall.html",
+      color: "linear-gradient(135deg, #3F2B96, #1F104D)",
+      keywords: ["Speculations", "Starry Sky", "Existential Curiosity", "Aesthetic Appreciation", "Wish Structures"]
+    },
+    {
+      title: "Feeling Empty After a Series Ends",
+      club: "I Couldn't Help But Wonder",
+      clubSlug: "wonder",
+      level: "B1",
+      url: "sessions/i-couldnt-help-but-wonder/feeling-empty-after-series.html",
+      color: "linear-gradient(135deg, #3F2B96, #1F104D)",
+      keywords: ["Speculations", "Starry Sky", "Existential Curiosity", "Aesthetic Appreciation", "Wish Structures"]
+    }
+  ];
+
+  // --- 3. Search and Filtering States ---
+  let activeKeyword = null;
+  let activeSearchText = "";
+
+  const searchInput = document.getElementById('explorer-search-input');
+  const clearBtn = document.getElementById('explorer-clear-btn');
+  const activeFilterBar = document.getElementById('explorer-active-filter-bar');
+  const activeFilterBadge = document.getElementById('explorer-active-filter-badge');
+  const resultsCount = document.getElementById('explorer-results-count');
+  const resultsGrid = document.getElementById('explorer-results-grid');
+
+  function renderExplorer() {
+    resultsGrid.innerHTML = "";
+
+    const filtered = SESSIONS_DB.filter(session => {
+      // Keyword filter
+      if (activeKeyword && !session.keywords.includes(activeKeyword)) {
+        return false;
+      }
+      // Text search filter
+      if (activeSearchText) {
+        const query = activeSearchText.toLowerCase();
+        const matchesTitle = session.title.toLowerCase().includes(query);
+        const matchesClub = session.club.toLowerCase().includes(query);
+        const matchesLevel = session.level.toLowerCase().includes(query);
+        const matchesKeywords = session.keywords.some(k => k.toLowerCase().includes(query));
+        if (!matchesTitle && !matchesClub && !matchesLevel && !matchesKeywords) {
+          return false;
+        }
+      }
+      return true;
+    });
+
+    // Update results summary count
+    if (activeKeyword || activeSearchText) {
+      resultsCount.innerText = `Found ${filtered.length} matching session(s)`;
+      clearBtn.style.display = "inline-block";
+    } else {
+      resultsCount.innerText = `Showing all ${filtered.length} sessions`;
+      clearBtn.style.display = "none";
+    }
+
+    // Render active keyword badge
+    if (activeKeyword) {
+      activeFilterBar.style.display = "flex";
+      activeFilterBadge.innerHTML = `${activeKeyword} <span style="font-weight: 400; margin-left: 0.25rem; opacity: 0.7; cursor: pointer;">✕</span>`;
+    } else {
+      activeFilterBar.style.display = "none";
+    }
+
+    if (filtered.length === 0) {
+      resultsGrid.innerHTML = `
+        <div style="grid-column: 1 / -1; text-align: center; padding: 3rem; background: var(--sage-pale); border-radius: 12px; border: 1px dashed var(--border-hover);">
+          <span style="font-size: 2.5rem; display: block; margin-bottom: 1rem;">🔍</span>
+          <h4 style="margin: 0 0 0.5rem; color: var(--sage-deep);">No Sessions Found</h4>
+          <p style="margin: 0; font-size: 0.9rem; color: var(--ink-muted);">Try clearing your active filters or searching for something else!</p>
+        </div>
+      `;
+      return;
+    }
+
+    // Build cards
+    filtered.forEach(session => {
+      const card = document.createElement('article');
+      card.className = "club-card";
+      card.style.background = session.color;
+      card.style.color = "white";
+
+      card.innerHTML = `
+        <div class="club-card-inner">
+          <h4 style="margin: 0 0 0.5rem; font-size: 1.15rem; font-family: var(--font-serif); color: white;">${session.title}</h4>
+          <div class="club-meta" style="margin-bottom: 0.8rem;">
+            <span class="club-tag" style="background: rgba(255,255,255,0.15); color: white; border-color: rgba(255,255,255,0.3); font-size: 0.65rem;">${session.level}</span>
+            <span class="club-tag" style="background: rgba(255,255,255,0.15); color: white; border-color: rgba(255,255,255,0.3); font-size: 0.65rem;">${session.club}</span>
+          </div>
+          <div style="margin-bottom: 1.2rem; display: flex; flex-wrap: wrap; gap: 0.2rem;">
+            ${session.keywords.map(k => {
+              const isActive = (k === activeKeyword);
+              return `<span class="keyword-tag" data-keyword="${k}" style="background: ${isActive ? 'rgba(255,255,255,0.35)' : 'rgba(255,255,255,0.12)'}; padding: 0.15rem 0.35rem; font-size: 0.68rem; border-radius: 4px;">${k}</span>`;
+            }).join('')}
+          </div>
+          <a href="${session.url}" class="club-link" style="color: white; font-weight: 700; text-decoration: underline; font-size: 0.85rem; margin-top: auto;">View Session →</a>
+        </div>
+      `;
+      resultsGrid.appendChild(card);
+    });
+
+    // Attach click listeners to tags within results grid
+    resultsGrid.querySelectorAll('.keyword-tag').forEach(tag => {
+      tag.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const kw = tag.getAttribute('data-keyword');
+        setKeywordFilter(kw);
+      });
+    });
+  }
+
+  function setKeywordFilter(kw) {
+    if (activeKeyword === kw) {
+      activeKeyword = null; // Toggle off if clicked again
+    } else {
+      activeKeyword = kw;
+    }
+    renderExplorer();
+    // Scroll smoothly to explorer
+    document.getElementById('session-explorer-section').scrollIntoView({ behavior: 'smooth' });
+  }
+
+  // Bind click listeners on main club cards tags
+  document.querySelectorAll('.club-grid:not(#explorer-results-grid) .keyword-tag').forEach(tag => {
+    tag.addEventListener('click', (e) => {
+      e.stopPropagation();
+      e.preventDefault();
+      const kw = tag.getAttribute('data-keyword');
+      setKeywordFilter(kw);
+    });
+  });
+
+  // Bind search text input
+  searchInput.addEventListener('input', (e) => {
+    activeSearchText = e.target.value;
+    renderExplorer();
+  });
+
+  // Clear filters button
+  clearBtn.addEventListener('click', () => {
+    activeKeyword = null;
+    activeSearchText = "";
+    searchInput.value = "";
+    renderExplorer();
+  });
+
+  // Active filter badge remove click
+  activeFilterBadge.addEventListener('click', () => {
+    activeKeyword = null;
+    renderExplorer();
+  });
+
+  // Initial render
+  renderExplorer();
 });
 </script>
 </body>
