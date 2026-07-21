@@ -425,6 +425,105 @@
         }
     };
 
+    /* ─── ARTICLE READER & DISCLAIMER INJECTION ──────────────────── */
+    const setupEmbeddedArticles = () => {
+        // Prevent duplicate setups
+        if (document.querySelector('.cosy-article-wrapper')) return;
+
+        // Find all links on the page
+        const links = Array.from(document.querySelectorAll('a'));
+        const articleLinks = links.filter(link => {
+            const href = link.getAttribute('href') || '';
+            const text = (link.textContent || '').toLowerCase();
+            const isExternal = href.startsWith('http://') || href.startsWith('https://');
+            const isVideo = href.includes('youtube.com') || href.includes('youtu.be') || href.includes('youtube-nocookie.com');
+            const isMedia = href.match(/\.(png|jpg|jpeg|gif|pdf|mp3|mp4|webm)$/i);
+
+            // Check if link matches keywords (article, text, read, reading)
+            const matchesKeyword = text.includes('article') || text.includes('text') || text.includes('read') || text.includes('reading');
+
+            return isExternal && !isVideo && !isMedia && matchesKeyword;
+        });
+
+        if (articleLinks.length === 0) return;
+
+        const docLang = document.documentElement.lang || 'en';
+        const disclaimers = {
+            'en': 'Source: External Article. This material is used strictly for educational purposes only.',
+            'fr': 'Source : Article externe. Ce matériel est utilisé uniquement à des fins éducatives.',
+            'ru': 'Источник: Внешняя статья. Данный материал используется исключительно в образовательных целях.',
+            'es': 'Fuente: Artículo externo. Este material se utiliza únicamente con fines educativos.',
+            'it': 'Fonte: Articolo esterno. Questo materiale viene utilizzato esclusivamente a scopo didattico.',
+            'el': 'Πηγή: Εξωτερικό άρθρο. Αυτό το υλικό χρησιμοποιείται αποκλειστικά για εκπαιδευτικούς σκοπούς.'
+        };
+        const disclaimerText = disclaimers[docLang.toLowerCase()] || disclaimers['en'];
+
+        articleLinks.forEach(link => {
+            const articleUrl = link.getAttribute('href');
+            if (!articleUrl) return;
+
+            const playerWrapper = document.createElement('div');
+            playerWrapper.className = 'cosy-article-wrapper';
+            playerWrapper.style.margin = '2rem 0';
+            playerWrapper.innerHTML = `
+                <div class="cosy-article-header" style="background: var(--cream); border: 1px solid var(--border); border-bottom: none; border-radius: 12px 12px 0 0; padding: 0.75rem 1rem; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box;">
+                    <span style="font-weight: 600; font-family: 'Playfair Display', serif; color: var(--indigo); font-size: 1rem;">📖 Embedded Reader</span>
+                    <a href="${articleUrl}" target="_blank" style="background: var(--indigo); color: white; border: none; padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: bold; cursor: pointer; font-size: 0.8rem; text-decoration: none;">Open in New Tab ↗</a>
+                </div>
+                <div class="cosy-article-container" style="position: relative; width: 100%; height: 500px; border: 1px solid var(--border); border-radius: 0 0 12px 12px; overflow: hidden; background: #fff; box-sizing: border-box;">
+                    <iframe src="${articleUrl}" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+                </div>
+                <div class="cosy-article-disclaimer" style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--muted); display: flex; align-items: center; gap: 0.25rem;">
+                    <span>ℹ️ ${disclaimerText}</span>
+                </div>
+            `;
+
+            // Inject the wrapper after the meta grid
+            const metaGrid = document.querySelector('.session-meta-grid');
+            if (metaGrid) {
+                metaGrid.parentNode.insertBefore(playerWrapper, metaGrid.nextSibling);
+            } else {
+                // Fallback: insert before the link's parent container or paragraph
+                const parent = link.closest('p') || link.closest('div') || link;
+                parent.parentNode.insertBefore(playerWrapper, parent.nextSibling);
+            }
+        });
+    };
+
+    /* ─── LYRICS DISCLAIMER INJECTION ────────────────────────── */
+    const setupLyricsDisclaimers = () => {
+        // Find all .lyrics-container
+        const lyricContainers = Array.from(document.querySelectorAll('.lyrics-container'));
+        if (lyricContainers.length === 0) return;
+
+        const docLang = document.documentElement.lang || 'en';
+        const disclaimers = {
+            'en': 'Disclaimer: These song lyrics are used strictly for educational purposes only.',
+            'fr': 'Avertissement : Les paroles de ces chansons sont utilisées uniquement à des fins éducatives.',
+            'ru': 'Предупреждение: Текст этой песни используется исключительно в образовательных целях.',
+            'es': 'Descargo de responsabilidad: Las letras de estas canciones se utilizan únicamente con fines educativos.',
+            'it': 'Dichiarazione di non responsabilità: I testi di queste canzoni sono utilizzati esclusivamente a scopo didattico.',
+            'el': 'Αποποίηση ευθύνης: Οι στίχοι αυτών των τραγουδιών χρησιμοποιούνται αποκλειστικά για εκπαιδευτικούς σκοπούς.'
+        };
+        const disclaimerText = disclaimers[docLang.toLowerCase()] || disclaimers['en'];
+
+        lyricContainers.forEach(container => {
+            // Prevent duplicate disclaimers
+            if (container.querySelector('.cosy-lyrics-disclaimer')) return;
+
+            const disclaimerDiv = document.createElement('div');
+            disclaimerDiv.className = 'cosy-lyrics-disclaimer';
+            disclaimerDiv.style.marginTop = '1.5rem';
+            disclaimerDiv.style.paddingTop = '1rem';
+            disclaimerDiv.style.borderTop = '1px dashed var(--border)';
+            disclaimerDiv.style.fontSize = '0.8rem';
+            disclaimerDiv.style.color = 'var(--muted)';
+            disclaimerDiv.style.fontStyle = 'italic';
+            disclaimerDiv.innerHTML = `ℹ️ ${disclaimerText}`;
+            container.appendChild(disclaimerDiv);
+        });
+    };
+
     /* ─── DOUBLE-CLICK VOCABULARY HARVESTING ──────────────────────── */
     const setupDoubleClickHarvesting = () => {
         document.addEventListener('dblclick', (e) => {
@@ -541,6 +640,8 @@
         if (window.COSY && window.COSY.renderDict) window.COSY.renderDict();
         setupVocabPronunciation();
         setupEmbeddedVideoPlayers();
+        setupEmbeddedArticles();
+        setupLyricsDisclaimers();
         setupDoubleClickHarvesting();
     };
 
