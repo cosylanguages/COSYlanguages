@@ -425,6 +425,87 @@
         }
     };
 
+    /* ─── DOUBLE-CLICK VOCABULARY HARVESTING ──────────────────────── */
+    const setupDoubleClickHarvesting = () => {
+        document.addEventListener('dblclick', (e) => {
+            // Avoid inputs, links, buttons, select boxes
+            const target = e.target;
+            if (target.closest('input, textarea, button, select, a, option, .btn-add-dict, .btn-pronounce, .cosy-harvest-card')) {
+                return;
+            }
+
+            const selection = window.getSelection();
+            const text = selection.toString().trim();
+            if (!text || text.length < 2 || text.length > 50 || text.split(/\s+/).length > 6) {
+                return;
+            }
+
+            // Remove existing harvest card if any
+            const existing = document.getElementById('cosy-harvest-card');
+            if (existing) existing.remove();
+
+            // Create beautiful floating card
+            const range = selection.getRangeAt(0);
+            const rect = range.getBoundingClientRect();
+
+            const card = document.createElement('div');
+            card.id = 'cosy-harvest-card';
+            card.className = 'cosy-harvest-card';
+
+            // Position card above or below selection
+            const topPos = rect.top + window.scrollY - 105;
+            const leftPos = rect.left + window.scrollX + (rect.width / 2) - 125; // center 250px wide card
+
+            card.style.top = `${Math.max(10, topPos)}px`;
+            card.style.left = `${Math.max(10, Math.min(window.innerWidth - 270, leftPos))}px`;
+
+            card.innerHTML = `
+                <div class="chc-header">
+                    <span>✨ Harvest Word</span>
+                    <button class="chc-close" onclick="this.closest('.cosy-harvest-card').remove()">×</button>
+                </div>
+                <div class="chc-body">
+                    <div class="chc-word">${text}</div>
+                    <div class="chc-actions">
+                        <button class="chc-add-btn">Add to Notebook 📓</button>
+                    </div>
+                </div>
+            `;
+
+            document.body.appendChild(card);
+
+            // Bind click event to add to dictionary
+            const addBtn = card.querySelector('.chc-add-btn');
+            addBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (window.COSY && typeof window.COSY.addToDict === 'function') {
+                    window.COSY.addToDict({
+                        word: text,
+                        definition: 'Harvested via double-click reader.',
+                        example: 'Added from current page context.'
+                    }, addBtn);
+
+                    addBtn.textContent = 'Saved! ✅';
+                    addBtn.style.background = 'var(--sage-dark)';
+                    addBtn.disabled = true;
+                    setTimeout(() => {
+                        card.remove();
+                    }, 1000);
+                } else {
+                    alert('Dictionary engine not loaded.');
+                }
+            });
+        });
+
+        // Remove card when clicking outside
+        document.addEventListener('click', (e) => {
+            const card = document.getElementById('cosy-harvest-card');
+            if (card && !card.contains(e.target) && !window.getSelection().toString().trim()) {
+                card.remove();
+            }
+        });
+    };
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         setupHeaderShrink();
@@ -460,6 +541,7 @@
         if (window.COSY && window.COSY.renderDict) window.COSY.renderDict();
         setupVocabPronunciation();
         setupEmbeddedVideoPlayers();
+        setupDoubleClickHarvesting();
     };
 
     window.updateDailyDose = function() {
