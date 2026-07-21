@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Who Told You to Think So? — COSYlanguages</title>
+<link rel="icon" href="../../../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/events.css">
+</head>
+<body>
+<nav id="cosy-nav"></nav>
+<header class="session-hero" style="background: linear-gradient(135deg, #5D4037, #3E2723);">
+  <div class="club-tag">The Greatest Quotes</div>
+  <h1>"Do you think so, or were you told to think so?" — Anonymous</h1>
+  <p class="session-date">15 November 2026</p>
+</header>
+<main class="content-container">
+  <nav class="cosy-breadcrumbs">
+    <a href="../../../index.html">Home</a> <span class="sep">/</span>
+    <a href="../../../events/index.html">Events</a> <span class="sep">/</span>
+    <a href="../the-greatest-quotes.html">The Greatest Quotes</a> <span class="sep">/</span>
+    <span class="current">Who Told You to Think So?</span>
+  </nav>
+  <a href="../the-greatest-quotes.html" class="back-link">← Back to Club</a>
+  <div class="session-meta-grid">
+    <div class="meta-item"><h4>Duration</h4><p>60 minutes</p></div>
+    <div class="meta-item"><h4>Languages</h4><p>🇬🇧 🇷🇺</p></div>
+    <div class="meta-item"><h4>Level</h4><p>Intermediate (B1)</p></div>
+    <div class="meta-item"><h4>Theme</h4><p>Independent Thought</p></div>
+  </div>
+  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+    <p>This session questions the authenticity of our modern opinions and beliefs. We explore how social media, upbringing, and political propaganda shape our mental landscape without our conscious realization. We will discuss how to cultivate true critical thinking.</p>
+  </div>
+
+  <!-- PHILOSOPHERS' LEDGER INTERACTIVE CARD -->
+  <div class="philosophers-ledger" style="background: #FFFDF9; border: 2px solid #5D4037; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: var(--shadow-sm); font-family: 'Playfair Display', serif; font-style: italic; color: #3E2723;">
+    <h4 style="margin: 0 0 0.5rem; font-family: 'DM Sans', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #5D4037; font-style: normal; font-weight: 700;">☕ The Philosophers' Ledger: Café Debates</h4>
+    <p id="ledger-quote" style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1rem;">"Let us see how many interpretations exist! There is never only one correct answer to any profound human question." — Oscar Wilde</p>
+    <button class="btn-primary" id="ledger-next-btn" style="background: #5D4037; color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.8rem; font-family: 'DM Sans', sans-serif; font-style: normal; cursor: pointer; font-weight: 700; transition: background 0.2s;">Next Page in Ledger 📖</button>
+  </div>
+
+  <section id="vocabulary">
+    <h2 class="section-title">📖 Session Vocabulary</h2>
+    <div class="vocab-grid-10">
+      <div class="vocab-card">
+        <div class="vocab-word">Curiosity</div>
+        <div class="vocab-def">a strong desire to know or learn something new.</div>
+        <div class="vocab-example">Childhood curiosity should be nurtured and encouraged by every teacher.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Curiosity', definition:'a strong desire to know or learn something new.', example:'Childhood curiosity should be nurtured and encouraged by every teacher.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Ignorance</div>
+        <div class="vocab-def">lack of knowledge, education, or awareness about something.</div>
+        <div class="vocab-example">Admitting your own ignorance is the first step toward true wisdom.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Ignorance', definition:'lack of knowledge, education, or awareness about something.', example:'Admitting your own ignorance is the first step toward true wisdom.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Perception</div>
+        <div class="vocab-def">the ability to see, hear, or become aware of something through the senses.</div>
+        <div class="vocab-example">Her perception of the situation was influenced by her past experiences.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Perception', definition:'the ability to see, hear, or become aware of something through the senses.', example:'Her perception of the situation was influenced by her past experiences.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Awareness</div>
+        <div class="vocab-def">knowledge or perception of a situation or fact.</div>
+        <div class="vocab-example">The campaign aims to raise public awareness about mental health issues.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Awareness', definition:'knowledge or perception of a situation or fact.', example:'The campaign aims to raise public awareness about mental health issues.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Humility</div>
+        <div class="vocab-def">a modest or low view of one's own importance; humbleness.</div>
+        <div class="vocab-example">The great scientist accepted his mistakes with admirable humility.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Humility', definition:'a modest or low view of one\'s own importance; humbleness.', example:'The great scientist accepted his mistakes with admirable humility.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Insight</div>
+        <div class="vocab-def">a deep, intuitive understanding of a person or a complex thing.</div>
+        <div class="vocab-example">The article provides valuable insight into the causes of economic crises.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Insight', definition:'a deep, intuitive understanding of a person or a complex thing.', example:'The article provides valuable insight into the causes of economic crises.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Skepticism</div>
+        <div class="vocab-def">a skeptical attitude; doubt as to the truth of something.</div>
+        <div class="vocab-example">Healthy skepticism is necessary when reading unverified news online.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Skepticism', definition:'a skeptical attitude; doubt as to the truth of something.', example:'Healthy skepticism is necessary when reading unverified news online.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Intellect</div>
+        <div class="vocab-def">the faculty of reasoning and understanding objectively.</div>
+        <div class="vocab-example">She possessed a brilliant intellect and a sharp, analytical mind.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Intellect', definition:'the faculty of reasoning and understanding objectively.', example:'She possessed a brilliant intellect and a sharp, analytical mind.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Perspective</div>
+        <div class="vocab-def">a particular attitude toward or way of regarding something.</div>
+        <div class="vocab-example">Traveling abroad gives you a completely new perspective on your own culture.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Perspective', definition:'a particular attitude toward or way of regarding something.', example:'Traveling abroad gives you a completely new perspective on your own culture.'}, this)">Add to Dictionary</button>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">Illusion</div>
+        <div class="vocab-def">a false idea or belief; a deceptive appearance or impression.</div>
+        <div class="vocab-example">He clung to the sweet illusion that everything would return to normal.</div>
+        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Illusion', definition:'a false idea or belief; a deceptive appearance or impression.', example:'He clung to the sweet illusion that everything would return to normal.'}, this)">Add to Dictionary</button>
+      </div>
+
+    </div>
+  </section>
+  <section id="structure">
+    <h2 class="section-title">🎙️ Discussion Structure</h2>
+    <div class="rounds-container">
+      <div class="round-block warm-up open" id="s-warm">
+        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
+          <span>🟠 Warm-up</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <ul class="round-questions">
+            <li>How often do you question the source of your opinions?</li>
+            <li>Is it possible to have a completely independent thought in the digital age?</li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="round-block round-1 open" id="s-r1">
+        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
+          <span>🔵 Round 1 — Analysis</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>curiosity</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>curiosity</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>ignorance</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>ignorance</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>perception</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>perception</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>awareness</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>awareness</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>humility</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>humility</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>insight</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>insight</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>skepticism</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>skepticism</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>intellect</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>intellect</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>perspective</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>perspective</strong> played a critical role?</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">How does the concept of <strong>illusion</strong> help us navigate modern societal expectations and personal integrity?</div>
+            <div class="round-item-personal">★ Can you think of a situation in your own life where <strong>illusion</strong> played a critical role?</div>
+          </div>
+
+        </div>
+      </div>
+      <div class="round-block lst open" id="s-lst">
+        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
+          <span>🟣 Let's Speak Together</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <p class="round-note">A comparative reflection on our habits and self-perceptions.</p>
+        </div>
+      </div>
+      <div class="round-block round-2 open" id="s-r2">
+        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
+          <span>🟢 Round 2 — Philosophical Application</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="round-body" style="display:block;">
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>curiosity</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>ignorance</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>perception</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>awareness</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>humility</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>insight</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>skepticism</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>intellect</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>perspective</strong> will undergo a profound cultural shift.</div>
+          </div>
+          <div class="round-item">
+            <div class="round-item-main">In the future, the global understanding of <strong>illusion</strong> will undergo a profound cultural shift.</div>
+          </div>
+
+        </div>
+      </div>
+      <div class="mistake-block open" id="s-mistakes">
+        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+          <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▲</span>
+        </div>
+        <div class="mistake-body" style="display:block;">
+          <div class="mistake-item">
+            <span class="mistake-wrong">He <u>have</u> went to Paris</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">He has gone to Paris</span>
+            <span class="mistake-note-text">(Present perfect third-person singular 'has' + past participle 'gone'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">We discussed <u>about the problem</u></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">We discussed the problem / had a discussion <strong>about</strong> the problem</span>
+            <span class="mistake-note-text">('Discuss' is transitive and takes no preposition, or use 'have a discussion about'.)</span>
+          </div>
+          <div class="mistake-item">
+            <span class="mistake-wrong">I am <u>agree</u> with you</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">I agree with you</span>
+            <span class="mistake-note-text">(Use 'agree' directly as a verb rather than using it with the auxiliary 'am'.)</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../../../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../../../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="../../../events/index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/ui.js"></script>
+<script>document.addEventListener("DOMContentLoaded", () => { const quotes = ["\"Do you think so, or were you told to think so?\" — Anonymous"]; let index = 0; const quoteText = document.getElementById("ledger-quote"); if (quoteText) quoteText.innerText = quotes[0]; });</script>
+</body>
+</html>

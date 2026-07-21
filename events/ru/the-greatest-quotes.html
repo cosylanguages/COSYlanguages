@@ -1,20 +1,19 @@
 <!-- DEVELOPER ALERT: Refer to templates/events/quotes-session-template.html (or corresponding active templates in events/sessions/) before creating new sessions in the future! -->
 <!DOCTYPE html>
+
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>The Greatest Quotes 🖋️ — COSYlanguages</title>
-<link rel="icon" href="../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="../../css/tokens.css">
-<link rel="stylesheet" href="../../css/base.css">
-<link rel="stylesheet" href="../../css/components.css">
-<link rel="stylesheet" href="../../css/layout.css">
-<link rel="stylesheet" href="../../css/events.css">
-
+<link href="../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../css/tokens.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/components.css" rel="stylesheet"/>
+<link href="../../css/layout.css" rel="stylesheet"/>
+<link href="../../css/events.css" rel="stylesheet"/>
 <style>
   .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
   .club-hero { background: linear-gradient(135deg, #1D7E99, #0f414d); color: white; padding: 4rem 2rem; text-align: center; }
@@ -23,68 +22,104 @@
 </style>
 </head>
 <body>
-
 <nav id="cosy-nav"></nav>
-
 <header class="club-hero">
-  <img src="../../images/greatestquotes.png" alt="Quotes logo" style="height: 100px; width: auto; margin-bottom: 1.5rem;">
-  <h1>The Greatest Quotes</h1>
-  <p>Короткие фразы, глубокий смысл. Мы берем слова величайших мыслителей истории и используем их как искру для разговора о жизни, любви и смысле.</p>
+<img alt="Quotes logo" src="../../images/greatestquotes.png" style="height: 100px; width: auto; margin-bottom: 1.5rem;"/>
+<h1>The Greatest Quotes</h1>
+<p>Короткие фразы, глубокий смысл. Мы берем слова величайших мыслителей истории и используем их как искру для разговора о жизни, любви и смысле.</p>
 </header>
-
 <section class="container" style="padding: 2rem 1.5rem 5rem;">
+<a class="back-link" href="index.html" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← Все разговорные клубы</a>
+<div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+<div class="club-main">
+<div>
+<div class="section-header" style="margin-bottom: 1.5rem;">
+<h2 style="font-size: 1.5rem;">📅 Предстоящие сессии</h2>
+</div>
+<div class="session-info"><table>
+<tr><td>Цитата</td><td>«То, что нас не убивает, делает нас сильнее» — Фридрих Ницше</td></tr>
+<tr><td>Описание</td><td>Обсуждаем стойкость, травмы и личностный рост.</td></tr>
+<tr><td>Расписание</td><td>Запланировано — Дата уточняется</td></tr>
+<tr><td>Длительность</td><td>60 min</td></tr>
+<tr><td>Языки</td><td>🇷🇺</td></tr>
+</table></div>
+<a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20The%20Greatest%20Quotes.">💬 Записаться</a>
+<!-- HISTORY -->
+<div class="history-block" id="q-hist" style="margin-top: 2rem;">
+<div class="section-header" style="margin-bottom: 1rem;">
+<h2 style="font-size: 1.5rem;">🕒 Прошедшие сессии</h2>
+</div>
+<div class="history-body" style="display: block; padding: 0; border: none;"><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Привычка подчиняться</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">10 October 2026</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/sukhomlinsky-obedience-quote.html" style="background:var(--indigo);">Полная сессия →</a>
+</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Удобные люди</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">15 October 2026</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/prishvin-convenient-people-quote.html" style="background:var(--indigo);">Полная сессия →</a>
+</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Право быть трудным</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">20 October 2026</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/dolto-difficult-child-quote.html" style="background:var(--indigo);">Полная сессия →</a>
+</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Когда ребенок перестает сопротивляться</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">25 October 2026</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/neufeld-resistance-quote.html" style="background:var(--indigo);">Полная сессия →</a>
+</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Удобный ребенок</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">28 October 2026</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/langle-suppressed-child-quote.html" style="background:var(--indigo);">Полная сессия →</a>
+</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Ты так думаешь?</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">15 November 2026</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/think-for-yourself-quote.html" style="background:var(--indigo);">Полная сессия →</a>
+</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Любовь и доверие</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">25 November 2026</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html" style="background:var(--indigo);">Полная сессия →</a>
+</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div>
+<h4 style="margin:0;font-size:1rem;">Политика и религия</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">30 December 2026</span>
+</div>
+<a class="view-btn" href="sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html" style="background:var(--indigo);">Полная сессия →</a>
+</div>
 
-  <a href="index.html" class="back-link" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← Все разговорные клубы</a>
-
-  <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
-
-    <div class="club-main">
-      <div>
-        <div class="section-header" style="margin-bottom: 1.5rem;">
-          <h2 style="font-size: 1.5rem;">📅 Предстоящие сессии</h2>
-        </div>
-        <div class="session-info"><table>
-          <tr><td>Цитата</td><td>«То, что нас не убивает, делает нас сильнее» — Фридрих Ницше</td></tr>
-          <tr><td>Описание</td><td>Обсуждаем стойкость, травмы и личностный рост.</td></tr>
-          <tr><td>Расписание</td><td>Запланировано — Дата уточняется</td></tr>
-          <tr><td>Длительность</td><td>60 min</td></tr>
-          <tr><td>Языки</td><td>🇷🇺</td></tr>
-        </table></div>
-        <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20The%20Greatest%20Quotes.">💬 Записаться</a>
-
-        <!-- HISTORY -->
-        <div class="history-block" id="q-hist" style="margin-top: 2rem;">
-          <div class="section-header" style="margin-bottom: 1rem;">
-            <h2 style="font-size: 1.5rem;">🕒 Прошедшие сессии</h2>
-          </div>
-          <div class="history-body" style="display: block; padding: 0; border: none;">
-            <p style="color: var(--muted); font-style: italic;">История сессий скоро появится.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="club-sidebar">
-      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-top: 0;">
-        <h3 style="font-size: 1rem; margin-bottom: .5rem;">Сила лаконичности</h3>
-        <p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Умение объяснить сложную философскую идею простыми словами — это высшее проявление мастерства владения языком.</p>
-      </div>
-    </div>
-
-  </div>
-
+</div>
+</div>
+</div>
+</div>
+<div class="club-sidebar">
+<div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-top: 0;">
+<h3 style="font-size: 1rem; margin-bottom: .5rem;">Сила лаконичности</h3>
+<p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Умение объяснить сложную философскую идею простыми словами — это высшее проявление мастерства владения языком.</p>
+</div>
+</div>
+</div>
 </section>
-
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../index.html" style="color:var(--muted);text-decoration:none;">Главная</a>
-    <a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Практика</a>
-    <a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Игры</a>
-    <a href="index.html" style="color:var(--muted);text-decoration:none;">События</a>
-  </div>
-  <p>© 2026 COSYlanguages — Все права защищены</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../index.html" style="color:var(--muted);text-decoration:none;">Главная</a>
+<a href="../../practice/index.html" style="color:var(--muted);text-decoration:none;">Практика</a>
+<a href="../../games/index.html" style="color:var(--muted);text-decoration:none;">Игры</a>
+<a href="index.html" style="color:var(--muted);text-decoration:none;">События</a>
+</div>
+<p>© 2026 COSYlanguages — Все права защищены</p>
 </footer>
-
 <script src="../../js/data/languages.js"></script>
 <script src="../../js/core/engine.js"></script>
 <script src="../../js/core/i18n.js"></script>
