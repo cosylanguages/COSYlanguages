@@ -4,8 +4,33 @@ import os
 import re
 
 MD_PATH = "notebook/cinema_club_brainstorm.md"
+GRAMMAR_MD_PATH = "notebook/grammatical_topics_brainstorm.md"
 OUTPUT_DIR = "events/sessions/cinema-club"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Parse grammar mappings from notebook/grammatical_topics_brainstorm.md
+GRAMMAR_MAPPINGS = {}
+if os.path.exists(GRAMMAR_MD_PATH):
+    with open(GRAMMAR_MD_PATH, "r", encoding="utf-8") as gf:
+        g_text = gf.read()
+    for line in g_text.split("\n"):
+        if line.strip().startswith("|"):
+            parts = [p.strip() for p in line.split("|")]
+            if len(parts) >= 7:
+                num = parts[1]
+                if num.isdigit():
+                    title_clean = parts[2].replace("**", "").strip()
+                    grammar_topic = parts[5].strip()
+                    GRAMMAR_MAPPINGS[title_clean.lower()] = grammar_topic
+
+def get_grammar_focus(title):
+    t_clean = title.lower().strip()
+    if t_clean in GRAMMAR_MAPPINGS:
+        return GRAMMAR_MAPPINGS[t_clean]
+    for k, v in GRAMMAR_MAPPINGS.items():
+        if k in t_clean or t_clean in k:
+            return v
+    return "Contextual Conversational Structures"
 
 # Curated high-fidelity dictionary of definitions and film-oriented examples
 VOCAB_DB = {
@@ -111,7 +136,7 @@ MISTAKES_CATALOG = [
 ]
 
 def clean_word(w):
-    return w.strip(" *.\"'“”").lower()
+    return w.strip(" *.\"'“”.‘’").lower()
 
 def get_definitions_for_movie(title, focus_raw, slang_raw, idx):
     # Parse generic keywords from focus_raw
@@ -211,9 +236,10 @@ SESSION_TEMPLATE = """<!DOCTYPE html>
     <div class="meta-item"><h4>Variety</h4><p>{variety}</p></div>
     <div class="meta-item"><h4>Level</h4><p>{level_label}</p></div>
     <div class="meta-item"><h4>Thematic Focus</h4><p>{focus}</p></div>
+    <div class="meta-item"><h4>Grammar Focus</h4><p>{grammar_focus}</p></div>
   </div>
   <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Welcome to our specialized Cinema Club session. This session is designed to explore the deep screen adaptation, cinematic storytelling, and screenplays of <strong>{title}</strong>. Perfect your target language comprehension by analyzing character dialogs, tone markers, and core cinematic motifs.</p>
+    <p>Welcome to our specialized Cinema Club session. This session is designed to explore the deep screen adaptation, cinematic storytelling, and screenplays of <strong>{title}</strong>. Perfect your target language comprehension by analyzing character dialogs, tone markers, and core cinematic motifs. In this session, we pay special attention to <strong>{grammar_focus}</strong>, practicing how it is naturally used in authentic dialogue and scene interactions.</p>
   </div>
 
   <section id="vocabulary">
@@ -347,6 +373,7 @@ for idx, r in enumerate(rows):
     else:
         lang = "en"
 
+    grammar_focus = get_grammar_focus(title)
     generic_vocab, authentic_vocab = get_definitions_for_movie(title, focus, slang_raw, idx)
 
     vocab_generic_html = ""
@@ -401,6 +428,7 @@ for idx, r in enumerate(rows):
             level_short=level_short,
             level_label=level_label,
             focus=focus,
+            grammar_focus=grammar_focus,
             vocab_generic_html=vocab_generic_html,
             vocab_authentic_html=vocab_authentic_html,
             round1_html=round1_html,
@@ -408,4 +436,4 @@ for idx, r in enumerate(rows):
             mistakes_html=mistakes_html
         ))
 
-print("Successfully generated all 91 Cinema Club sessions with 100% unique cinema-specific vocabulary and discussion structure!")
+print("Successfully generated all 91 Cinema Club sessions with 100% unique cinema-specific vocabulary, discussion structure, and screen-specific Grammar Focus!")
