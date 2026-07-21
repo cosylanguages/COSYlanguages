@@ -506,6 +506,237 @@
         });
     };
 
+    /* ─── ACCESSIBILITY & COMFORT TOOLBAR ────────────────────────── */
+    const setupAccessibilitySettings = () => {
+        // Ensure main element has id="main-content" and prepend skip-link
+        const mainEl = document.querySelector('main');
+        if (mainEl) {
+            if (!mainEl.id) {
+                mainEl.id = 'main-content';
+            }
+            if (!document.querySelector('.skip-link')) {
+                const skipLink = document.createElement('a');
+                skipLink.className = 'skip-link';
+                skipLink.href = '#main-content';
+                skipLink.textContent = 'Skip to Content';
+                document.body.insertBefore(skipLink, document.body.firstChild);
+            }
+        }
+
+        // Load settings from localStorage
+        let settings = {
+            theme: 'default',
+            font: 'default',
+            size: 'normal',
+            screenReader: 'off'
+        };
+
+        try {
+            const saved = localStorage.getItem('cosy_accessibility_settings');
+            if (saved) {
+                settings = Object.assign(settings, JSON.parse(saved));
+            }
+        } catch (e) {
+            console.error('Failed to load accessibility settings', e);
+        }
+
+        // Apply settings to document
+        const applySettings = () => {
+            const body = document.body;
+            const html = document.documentElement;
+
+            // 1. Theme
+            body.classList.remove('theme-paper', 'theme-contrast');
+            if (settings.theme === 'paper') body.classList.add('theme-paper');
+            if (settings.theme === 'contrast') body.classList.add('theme-contrast');
+
+            // 2. Font
+            body.classList.remove('theme-dyslexic');
+            if (settings.font === 'dyslexic') body.classList.add('theme-dyslexic');
+
+            // 3. Text Sizing
+            html.classList.remove('text-size-large', 'text-size-xlarge');
+            if (settings.size === 'large') html.classList.add('text-size-large');
+            if (settings.size === 'xlarge') html.classList.add('text-size-xlarge');
+
+            // Save settings to localStorage
+            try {
+                localStorage.setItem('cosy_accessibility_settings', JSON.stringify(settings));
+            } catch (e) {}
+
+            // Update UI buttons state
+            updatePanelUI();
+        };
+
+        // Screen Reader Logic
+        const handleSpeak = (e) => {
+            if (settings.screenReader !== 'on') return;
+            const text = e.currentTarget.textContent || e.currentTarget.innerText || '';
+            const cleaned = text.replace(/🔊/g, '').replace(/\s*≠\s*/g, ', ').trim();
+            if (!cleaned) return;
+
+            if (window.speechSynthesis) {
+                window.speechSynthesis.cancel();
+                const docLang = document.documentElement.lang || 'en';
+                const langMap = {
+                    'en': 'en-GB', 'fr': 'fr-FR', 'it': 'it-IT', 'ru': 'ru-RU', 'el': 'el-GR',
+                    'es': 'es-ES', 'de': 'de-DE', 'pt': 'pt-PT', 'hy': 'hy-AM', 'ka': 'ka-GE',
+                    'tt': 'ru-RU', 'ba': 'ru-RU', 'br': 'fr-FR'
+                };
+                const langCode = langMap[docLang.toLowerCase()] || docLang || 'en-GB';
+
+                const utterance = new SpeechSynthesisUtterance(cleaned);
+                utterance.lang = langCode;
+
+                if (window.speechSynthesis.getVoices) {
+                    const voices = window.speechSynthesis.getVoices();
+                    let voice = voices.find(v => v.lang === langCode);
+                    if (!voice) voice = voices.find(v => v.lang.startsWith(langCode.split('-')[0]));
+                    if (voice) utterance.voice = voice;
+                }
+
+                window.speechSynthesis.speak(utterance);
+            }
+        };
+
+        const handleStopSpeak = () => {
+            if (window.speechSynthesis) {
+                window.speechSynthesis.cancel();
+            }
+        };
+
+        const speakableSelector = 'h1, h2, h3, h4, h5, h6, p, a, button, li, .vocab-word, .vocab-def, .vocab-example';
+
+        const enableScreenReaderListeners = () => {
+            document.querySelectorAll(speakableSelector).forEach(el => {
+                el.addEventListener('mouseenter', handleSpeak);
+                el.addEventListener('focusin', handleSpeak);
+                el.addEventListener('mouseleave', handleStopSpeak);
+                el.addEventListener('focusout', handleStopSpeak);
+            });
+        };
+
+        const disableScreenReaderListeners = () => {
+            handleStopSpeak();
+            document.querySelectorAll(speakableSelector).forEach(el => {
+                el.removeEventListener('mouseenter', handleSpeak);
+                el.removeEventListener('focusin', handleSpeak);
+                el.removeEventListener('mouseleave', handleStopSpeak);
+                el.removeEventListener('focusout', handleStopSpeak);
+            });
+        };
+
+        const updateScreenReader = () => {
+            if (settings.screenReader === 'on') {
+                enableScreenReaderListeners();
+            } else {
+                disableScreenReaderListeners();
+            }
+        };
+
+        // UI Builder & Event Binding
+        if (document.getElementById('accessibility-fab')) return;
+
+        const fab = document.createElement('button');
+        fab.id = 'accessibility-fab';
+        fab.innerHTML = '♿ <span>Accessibility</span>';
+        fab.setAttribute('aria-label', 'Open accessibility panel');
+        document.body.appendChild(fab);
+
+        const panel = document.createElement('div');
+        panel.id = 'accessibility-panel';
+        panel.innerHTML = `
+            <div class="ap-header">
+                <span class="ap-title">♿ Accessibility</span>
+                <button class="ap-close" id="ap-close-btn" aria-label="Close panel">✕</button>
+            </div>
+            <div class="ap-option-group">
+                <span class="ap-option-label">Theme Contrast</span>
+                <div class="ap-btn-row">
+                    <button class="ap-btn" data-type="theme" data-value="default">Default</button>
+                    <button class="ap-btn" data-type="theme" data-value="paper">Warm Paper</button>
+                    <button class="ap-btn" data-type="theme" data-value="contrast">High Contrast</button>
+                </div>
+            </div>
+            <div class="ap-option-group">
+                <span class="ap-option-label">Dyslexia Font</span>
+                <div class="ap-btn-row">
+                    <button class="ap-btn" data-type="font" data-value="default">Standard</button>
+                    <button class="ap-btn" data-type="font" data-value="dyslexic">Dyslexic</button>
+                </div>
+            </div>
+            <div class="ap-option-group">
+                <span class="ap-option-label">Text Sizing</span>
+                <div class="ap-btn-row">
+                    <button class="ap-btn" data-type="size" data-value="normal">100%</button>
+                    <button class="ap-btn" data-type="size" data-value="large">115%</button>
+                    <button class="ap-btn" data-type="size" data-value="xlarge">130%</button>
+                </div>
+            </div>
+            <div class="ap-option-group">
+                <span class="ap-option-label">Hover Screen Reader</span>
+                <div class="ap-btn-row">
+                    <button class="ap-btn" data-type="reader" data-value="off">Off</button>
+                    <button class="ap-btn" data-type="reader" data-value="on">On (Hover/Focus)</button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(panel);
+
+        const updatePanelUI = () => {
+            panel.querySelectorAll('.ap-btn').forEach(btn => {
+                const type = btn.dataset.type;
+                const val = btn.dataset.value;
+                let isActive = false;
+
+                if (type === 'theme') isActive = (settings.theme === val);
+                if (type === 'font') isActive = (settings.font === val);
+                if (type === 'size') isActive = (settings.size === val);
+                if (type === 'reader') isActive = (settings.screenReader === val);
+
+                btn.classList.toggle('active', isActive);
+            });
+        };
+
+        // Bind panel buttons
+        panel.querySelectorAll('.ap-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const type = btn.dataset.type;
+                const val = btn.dataset.value;
+
+                if (type === 'theme') settings.theme = val;
+                if (type === 'font') settings.font = val;
+                if (type === 'size') settings.size = val;
+                if (type === 'reader') {
+                    settings.screenReader = val;
+                    updateScreenReader();
+                }
+
+                applySettings();
+            });
+        });
+
+        // Toggle panel
+        fab.addEventListener('click', () => {
+            panel.classList.toggle('open');
+        });
+
+        document.getElementById('ap-close-btn').addEventListener('click', () => {
+            panel.classList.remove('open');
+        });
+
+        // Click outside closes panel
+        document.addEventListener('click', (e) => {
+            if (!panel.contains(e.target) && !fab.contains(e.target)) {
+                panel.classList.remove('open');
+            }
+        });
+
+        // Apply settings immediately on initialization
+        applySettings();
+        updateScreenReader();
+    };
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         setupHeaderShrink();
@@ -542,6 +773,7 @@
         setupVocabPronunciation();
         setupEmbeddedVideoPlayers();
         setupDoubleClickHarvesting();
+        setupAccessibilitySettings();
     };
 
     window.updateDailyDose = function() {

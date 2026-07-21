@@ -37,15 +37,103 @@ p {
     margin: 0;
 }
 
-/* ── Theme Overrides ────────────────────────────────── */
-body.theme-paper {
-    background: var(--paper-bg);
-    color: var(--paper-txt);
+/* Skip Link Style */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 1rem;
+    background: #2a2a2a;
+    color: #fff !important;
+    padding: 10px 20px;
+    z-index: 10000;
+    border-radius: 0 0 8px 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: top 0.2s ease;
+}
+.skip-link:focus {
+    top: 0;
+    outline: 2px solid #e8a838;
 }
 
-body.theme-contrast {
-    background: var(--contrast-bg);
-    color: var(--contrast-txt);
+/* ── Theme Overrides ────────────────────────────────── */
+body.theme-paper, .theme-paper body {
+    background-color: #f7f1e3 !important;
+    background: #f7f1e3 !important;
+    color: #2c1d11 !important;
+}
+body.theme-paper .vocab-card, .theme-paper .vocab-card,
+body.theme-paper .round-block, .theme-paper .round-block,
+body.theme-paper .mistake-block, .theme-paper .mistake-block,
+body.theme-paper #dict-panel, .theme-paper #dict-panel,
+body.theme-paper #accessibility-panel, .theme-paper #accessibility-panel {
+    background-color: #fcf8f2 !important;
+    background: #fcf8f2 !important;
+    border: 1px solid #dcd3c4 !important;
+    color: #2c1d11 !important;
+}
+body.theme-paper h1, .theme-paper h1,
+body.theme-paper h2, .theme-paper h2,
+body.theme-paper h3, .theme-paper h3,
+body.theme-paper h4, .theme-paper h4,
+body.theme-paper p, .theme-paper p,
+body.theme-paper span, .theme-paper span,
+body.theme-paper div, .theme-paper div {
+    color: #2c1d11 !important;
+}
+
+body.theme-contrast, .theme-contrast body {
+    background-color: #000000 !important;
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+body.theme-contrast a, .theme-contrast a {
+    color: #38bdf8 !important;
+    text-decoration: underline !important;
+}
+body.theme-contrast button, .theme-contrast button,
+body.theme-contrast .btn-primary, .theme-contrast .btn-primary,
+body.theme-contrast .btn-secondary, .theme-contrast .btn-secondary {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 2px solid #ffffff !important;
+    box-shadow: none !important;
+}
+body.theme-contrast .vocab-card, .theme-contrast .vocab-card,
+body.theme-contrast .round-block, .theme-contrast .round-block,
+body.theme-contrast .mistake-block, .theme-contrast .mistake-block,
+body.theme-contrast .dict-panel, .theme-contrast #dict-panel,
+body.theme-contrast #accessibility-panel, .theme-contrast #accessibility-panel {
+    background-color: #111111 !important;
+    background: #111111 !important;
+    border: 2px solid #ffffff !important;
+    color: #ffffff !important;
+}
+body.theme-contrast h1, .theme-contrast h1,
+body.theme-contrast h2, .theme-contrast h2,
+body.theme-contrast h3, .theme-contrast h3,
+body.theme-contrast h4, .theme-contrast h4,
+body.theme-contrast p, .theme-contrast p,
+body.theme-contrast span, .theme-contrast span,
+body.theme-contrast div, .theme-contrast div {
+    color: #ffffff !important;
+}
+
+/* Dyslexia-Friendly Theme */
+body.theme-dyslexic, body.theme-dyslexic *,
+.theme-dyslexic body, .theme-dyslexic body * {
+    font-family: 'Comic Sans MS', 'Comic Sans', 'Arial', sans-serif !important;
+    word-spacing: 0.15em !important;
+    letter-spacing: 0.05em !important;
+    line-height: 1.8 !important;
+}
+
+/* Text Sizing Classes */
+html.text-size-large, html.text-size-large body {
+    font-size: 19px !important;
+}
+html.text-size-xlarge, html.text-size-xlarge body {
+    font-size: 22px !important;
 }
 
 /* Utility visibility classes */

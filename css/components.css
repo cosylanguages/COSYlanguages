@@ -521,3 +521,138 @@
   transform: none;
   box-shadow: none;
 }
+
+/* ── Accessibility Tooling ──────────────────────── */
+#accessibility-fab {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  z-index: 1999;
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-weight: 800;
+  font-size: 0.82rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#accessibility-fab:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+#accessibility-panel {
+  position: fixed;
+  bottom: 6rem;
+  left: 2rem;
+  width: 320px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow);
+  z-index: 1999;
+  display: none;
+  flex-direction: column;
+  padding: 1.5rem;
+  max-width: calc(100vw - 4rem);
+}
+
+#accessibility-panel.open {
+  display: flex;
+}
+
+.ap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.ap-title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.ap-close {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+  transition: color 0.15s;
+}
+
+.ap-close:hover {
+  color: #ef4444;
+}
+
+.ap-option-group {
+  margin-bottom: 1rem;
+}
+
+.ap-option-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+
+.ap-btn-row {
+  display: flex;
+  gap: 6px;
+}
+
+.ap-btn {
+  flex: 1;
+  padding: 8px 12px;
+  background: var(--sage-mist);
+  color: var(--ink-soft);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-align: center;
+}
+
+.ap-btn:hover {
+  background: var(--sage-pale);
+}
+
+.ap-btn.active {
+  background: #3b82f6 !important;
+  color: #fff !important;
+  border-color: #3b82f6 !important;
+}
+
+@media (max-width: 600px) {
+  #accessibility-fab {
+    bottom: 1rem;
+    left: 1rem;
+    padding: 10px 18px;
+    font-size: 0.75rem;
+  }
+  #accessibility-panel {
+    bottom: 4.5rem;
+    left: 1rem;
+    width: calc(100vw - 2rem);
+    max-width: none;
+  }
+}
