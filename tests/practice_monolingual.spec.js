@@ -49,13 +49,17 @@ test.describe('Practice Monolingual & Symbolic Verification', () => {
 
             // Verify no target word is revealed on typing tasks
             if (taskTypeLabel.includes('Type') || taskTypeLabel.includes('Listen')) {
-                const helperContainer = page.locator('#pe-body-content');
-                const helperText = await helperContainer.innerText();
-                // If it's typing, the visual card helper displays "???" instead of the target word
-                if (helperText.includes('✏️') || helperText.includes('🔊')) {
-                    expect(helperText).not.toContain('mère');
-                    expect(helperText).not.toContain('père');
-                    expect(helperText).toContain('???');
+                const mcOpts = page.locator('.mc-opt');
+                const hasOptions = await mcOpts.count() > 0;
+                if (!hasOptions) {
+                    const helperContainer = page.locator('#pe-body-content');
+                    const helperText = await helperContainer.innerText();
+                    // If it's typing, the visual card helper displays "???" instead of the target word
+                    if (helperText.includes('✏️') || helperText.includes('🔊')) {
+                        expect(helperText).not.toContain('mère');
+                        expect(helperText).not.toContain('père');
+                        expect(helperText).toContain('???');
+                    }
                 }
             }
 

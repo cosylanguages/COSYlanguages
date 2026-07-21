@@ -1,19 +1,20 @@
 <!-- DEVELOPER ALERT: Refer to templates/events/mind-session-template.html (or corresponding active templates in events/sessions/) before creating new sessions in the future! -->
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mind Matters 🧠 — COSYlanguages</title>
-<link href="../images/logos/cosylanguages.png" rel="icon"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
-<link href="../css/tokens.css" rel="stylesheet"/>
-<link href="../css/base.css" rel="stylesheet"/>
-<link href="../css/components.css" rel="stylesheet"/>
-<link href="../css/layout.css" rel="stylesheet"/>
-<link href="../css/events.css" rel="stylesheet"/>
+<link rel="icon" href="../images/logos/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/events.css">
+
 <style>
   .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
   .club-hero { background: linear-gradient(135deg, #993556, #4d1a2b); color: white; padding: 4rem 2rem; text-align: center; }
@@ -22,326 +23,322 @@
 </style>
 </head>
 <body>
+
 <nav id="cosy-nav"></nav>
+
 <header class="club-hero">
-<img alt="Mind logo" src="../images/mindmatters.png" style="height: 100px; width: auto; margin-bottom: 1.5rem;"/>
-<h1>Mind Matters</h1>
-<p>Perhaps our minds are not puzzles to be solved, but landscapes to be gently wandered through. Welcome to a sanctuary of quiet reflection where we unravel our habits, our vulnerabilities, and the silent thoughts we rarely speak aloud. Slow down, breathe, and let us explore together the quiet architecture of human behaviour — with a voice that is gentle, psychological, and deeply reflective.</p>
+  <img src="../images/mindmatters.png" alt="Mind logo" style="height: 100px; width: auto; margin-bottom: 1.5rem;">
+  <h1>Mind Matters</h1>
+  <p>Perhaps our minds are not puzzles to be solved, but landscapes to be gently wandered through. Welcome to a sanctuary of quiet reflection where we unravel our habits, our vulnerabilities, and the silent thoughts we rarely speak aloud. Slow down, breathe, and let us explore together the quiet architecture of human behaviour — with a voice that is gentle, psychological, and deeply reflective.</p>
 </header>
+
 <section class="container" style="padding: 2rem 1.5rem 5rem;">
-<a class="back-link" href="index.html" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← All Speaking Clubs</a>
-<div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
-<div class="club-main">
-<!-- CLUB CONTENT -->
-<div>
-<div class="section-header" style="margin-bottom: 1.5rem;">
-<h2 style="font-size: 1.5rem;">📅 Upcoming Sessions</h2>
-</div>
-<div class="session-info"><table>
-<tr><td>Article</td><td>The Maze of Biases</td></tr>
-<tr><td>Description</td><td>How our brains trick us and how to recognize these patterns.</td></tr>
-<tr><td>Link</td><td><a href="https://www.psychologytoday.com/intl/basics/bias" style="color:var(--cosy-green);" target="_blank">Read Article 📖</a></td></tr>
-<tr><td>Schedule</td><td>Every Tuesday, 9pm</td></tr>
-<tr><td>Duration</td><td>60 min</td></tr>
-<tr><td>Languages</td><td>🇬🇧 🇫🇷</td></tr>
-</table></div>
-<a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Mind%20Matters.">💬 Register interest</a>
-<!-- HISTORY -->
-<div class="history-block" id="mm-hist" style="margin-top: 2rem;">
-<div class="section-header" style="margin-bottom: 1rem;">
-<h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
-</div>
-<div class="history-body" style="display: block; padding: 0; border: none;"><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Mind and Great Literature</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">10 January 2027</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/mind-great-literature.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Georg Simmel: Objective Freedom</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">15 January 2027</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/simmel-objective-freedom.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Moving and the True Self</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">20 January 2027</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/moving-new-city-true-self.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Bluewashing: The Corporate Shield of Global Pacts</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">13 October 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/bluewashing.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Redwashing: The Illusion of Solidarity</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">06 October 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/redwashing.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Sportswashing: Prestige, Power, and Play</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">29 September 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/sportswashing.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Purple Washing: The Instrumentalisation of Feminism</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">22 September 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/purple-washing.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Whitewashing: The Sanitization of History</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">15 September 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/whitewashing.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Pinkwashing: The Commodification of Diversity</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">08 September 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/pinkwashing.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Brainwashing: The Architecture of Coercive Persuasion</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">01 September 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/brainwashing.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Jane Elliott's "Blue Eyes - Brown Eyes" Experiment</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">20 August 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/blue-eyes-brown-eyes-experiment.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">How to Trick Your Brain Into Liking Discipline</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">15 August 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/brain-discipline-dopamine.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">The Guilt of Moving Abroad</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">05 August 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/guilt-moving-abroad.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Why Experts Defend Language Mistakes</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">25 July 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/expert-defend-language-mistakes.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">How to Love Your Work</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">20 July 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/how-to-love-your-work.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Nazi Race Propaganda — Would you survive?</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">10 July 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/nazi-race-propaganda.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">The Benjamin Franklin Effect</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">05 July 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/benjamin-franklin-effect.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Bounded Rationality &amp; Decisions</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">10 June 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/bounded-rationality.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Aspiration vs. Inspiration</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">08 June 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/aspiration-vs-inspiration.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">The Maze of Biases</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">27 May 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/maze-of-biases.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Finding the Right Person</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">25 January 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/finding-the-right-person.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">The Fear of Love</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">18 January 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/fear-of-love-control.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Depersonalization</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">04 January 2026</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/depersonalization.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Broken Children</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">21 December 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/broken-children-grown-bodies.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Anticipatory Grief</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">14 December 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/anticipatory-grief.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Law of Attraction</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">07 December 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/law-of-attraction.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Impersonation</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">23 November 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/impersonation.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Limerence</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">19 October 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/limerence.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Kidlin's Law</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">25 September 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/kidlins-law.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Murphy's Law</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">22 September 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/murphys-law.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Wilson's Law</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">18 September 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/wilsons-law.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">Gilbert's Law</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">15 September 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/gilberts-law.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">The Science of Sleep</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">05 August 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/science-of-sleep.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">The Psychology of Smiles</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">12 July 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/psychology-of-smiles.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">The Conversations People Avoid</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">08 July 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/conversations-avoid-enjoy.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">The Psychology of Action Bias</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">15 June 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/psychology-of-action-bias.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
-<h4 style="margin:0;font-size:1rem;">The Power of Habits</h4>
-<span class="history-date" style="font-size:.8rem;color:var(--muted);">20 May 2025</span>
-</div>
-<a class="view-btn" href="sessions/mind-matters/power-of-habits.html" style="background:var(--indigo);">View Full Session →</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 
+  <a href="index.html" class="back-link" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← All Speaking Clubs</a>
 
+  <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
 
+    <div class="club-main">
+      <!-- CLUB CONTENT -->
+      <div>
+        <div class="section-header" style="margin-bottom: 1.5rem;">
+          <h2 style="font-size: 1.5rem;">📅 Upcoming Sessions</h2>
+        </div>
+        <div class="session-info"><table>
+          <tr><td>Article</td><td>The Maze of Biases</td></tr>
+          <tr><td>Description</td><td>How our brains trick us and how to recognize these patterns.</td></tr>
+          <tr><td>Link</td><td><a href="https://www.psychologytoday.com/intl/basics/bias" target="_blank" style="color:var(--cosy-green);">Read Article 📖</a></td></tr>
+          <tr><td>Schedule</td><td>Every Tuesday, 9pm</td></tr>
+          <tr><td>Duration</td><td>60 min</td></tr>
+          <tr><td>Languages</td><td>🇬🇧 🇫🇷</td></tr>
+        </table></div>
+        <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Mind%20Matters.">💬 Register interest</a>
 
+        <!-- HISTORY -->
+        <div class="history-block" id="mm-hist" style="margin-top: 2rem;">
+          <div class="section-header" style="margin-bottom: 1rem;">
+            <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
+          </div>
+          <div class="history-body" style="display: block; padding: 0; border: none;">
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Bluewashing: The Corporate Shield of Global Pacts</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">13 October 2026</span>
+              </div>
+              <a href="sessions/mind-matters/bluewashing.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Redwashing: The Illusion of Solidarity</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">06 October 2026</span>
+              </div>
+              <a href="sessions/mind-matters/redwashing.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Sportswashing: Prestige, Power, and Play</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">29 September 2026</span>
+              </div>
+              <a href="sessions/mind-matters/sportswashing.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Purple Washing: The Instrumentalisation of Feminism</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">22 September 2026</span>
+              </div>
+              <a href="sessions/mind-matters/purple-washing.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Whitewashing: The Sanitization of History</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 September 2026</span>
+              </div>
+              <a href="sessions/mind-matters/whitewashing.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Pinkwashing: The Commodification of Diversity</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">08 September 2026</span>
+              </div>
+              <a href="sessions/mind-matters/pinkwashing.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Brainwashing: The Architecture of Coercive Persuasion</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 September 2026</span>
+              </div>
+              <a href="sessions/mind-matters/brainwashing.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Jane Elliott's "Blue Eyes - Brown Eyes" Experiment</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">20 August 2026</span>
+              </div>
+              <a href="sessions/mind-matters/blue-eyes-brown-eyes-experiment.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">How to Trick Your Brain Into Liking Discipline</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 August 2026</span>
+              </div>
+              <a href="sessions/mind-matters/brain-discipline-dopamine.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">The Guilt of Moving Abroad</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">05 August 2026</span>
+              </div>
+              <a href="sessions/mind-matters/guilt-moving-abroad.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Why Experts Defend Language Mistakes</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">25 July 2026</span>
+              </div>
+              <a href="sessions/mind-matters/expert-defend-language-mistakes.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">How to Love Your Work</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">20 July 2026</span>
+              </div>
+              <a href="sessions/mind-matters/how-to-love-your-work.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Nazi Race Propaganda — Would you survive?</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">10 July 2026</span>
+              </div>
+              <a href="sessions/mind-matters/nazi-race-propaganda.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">The Benjamin Franklin Effect</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">05 July 2026</span>
+              </div>
+              <a href="sessions/mind-matters/benjamin-franklin-effect.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Bounded Rationality &amp; Decisions</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">10 June 2026</span>
+              </div>
+              <a href="sessions/mind-matters/bounded-rationality.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Aspiration vs. Inspiration</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">08 June 2026</span>
+              </div>
+              <a href="sessions/mind-matters/aspiration-vs-inspiration.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">The Maze of Biases</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">27 May 2026</span>
+              </div>
+              <a href="sessions/mind-matters/maze-of-biases.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Finding the Right Person</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">25 January 2026</span>
+              </div>
+              <a href="sessions/mind-matters/finding-the-right-person.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">The Fear of Love</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">18 January 2026</span>
+              </div>
+              <a href="sessions/mind-matters/fear-of-love-control.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Depersonalization</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">04 January 2026</span>
+              </div>
+              <a href="sessions/mind-matters/depersonalization.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Broken Children</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">21 December 2025</span>
+              </div>
+              <a href="sessions/mind-matters/broken-children-grown-bodies.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Anticipatory Grief</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">14 December 2025</span>
+              </div>
+              <a href="sessions/mind-matters/anticipatory-grief.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Law of Attraction</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">07 December 2025</span>
+              </div>
+              <a href="sessions/mind-matters/law-of-attraction.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Impersonation</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">23 November 2025</span>
+              </div>
+              <a href="sessions/mind-matters/impersonation.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Limerence</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">19 October 2025</span>
+              </div>
+              <a href="sessions/mind-matters/limerence.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Kidlin's Law</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">25 September 2025</span>
+              </div>
+              <a href="sessions/mind-matters/kidlins-law.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Murphy's Law</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">22 September 2025</span>
+              </div>
+              <a href="sessions/mind-matters/murphys-law.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Wilson's Law</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">18 September 2025</span>
+              </div>
+              <a href="sessions/mind-matters/wilsons-law.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">Gilbert's Law</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 September 2025</span>
+              </div>
+              <a href="sessions/mind-matters/gilberts-law.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">The Science of Sleep</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">05 August 2025</span>
+              </div>
+              <a href="sessions/mind-matters/science-of-sleep.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">The Psychology of Smiles</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">12 July 2025</span>
+              </div>
+              <a href="sessions/mind-matters/psychology-of-smiles.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">The Conversations People Avoid</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">08 July 2025</span>
+              </div>
+              <a href="sessions/mind-matters/conversations-avoid-enjoy.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">The Psychology of Action Bias</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 June 2025</span>
+              </div>
+              <a href="sessions/mind-matters/psychology-of-action-bias.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+              <div>
+                <h4 style="margin:0;font-size:1rem;">The Power of Habits</h4>
+                <span class="history-date" style="font-size:.8rem;color:var(--muted);">20 May 2025</span>
+              </div>
+              <a href="sessions/mind-matters/power-of-habits.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
+            </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div><!-- /logged-in content -->
+    </div><!-- /club-main -->
 
+    <div class="club-sidebar">
+      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
+        <h3 style="font-size: 1rem; margin-bottom: .5rem;">Self-Discovery</h3>
+        <p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Discussing psychology allows for highly personal and emotive language practice, helping you express your true self.</p>
+      </div>
+    </div>
 
+  </div><!-- /grid -->
 
-
-
-
-<!-- /logged-in content -->
-<!-- /club-main -->
-<div class="club-sidebar">
-<div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
-<h3 style="font-size: 1rem; margin-bottom: .5rem;">Self-Discovery</h3>
-<p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Discussing psychology allows for highly personal and emotive language practice, helping you express your true self.</p>
-</div>
-</div>
-<!-- /grid -->
 </section>
+
+
+
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-<a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-<a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-<a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-<a href="index.html" style="color:var(--muted);text-decoration:none;">Events</a>
-</div>
-<p>© 2026 COSYlanguages — All rights reserved</p>
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
+
 <script src="../js/data/languages.js"></script>
 <script src="../js/core/engine.js"></script>
 <script src="../js/core/i18n.js"></script>
