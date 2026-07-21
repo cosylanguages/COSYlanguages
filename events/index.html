@@ -89,6 +89,72 @@
         text-underline-offset: 3px;
       }
       .club-link:hover { color: var(--sage-deep); }
+
+      /* Clickable Card Keyword Badges */
+      .card-kw-badge {
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.12);
+        color: rgba(255, 255, 255, 0.95);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 4px;
+        padding: 0.1rem 0.35rem;
+        cursor: pointer;
+        transition: all 0.2s;
+        margin: 0.1rem 0.1rem;
+        font-weight: 500;
+        font-family: var(--font-sans);
+      }
+      .card-kw-badge:hover {
+        background: var(--teal);
+        color: white;
+        border-color: var(--teal);
+        transform: scale(1.05);
+      }
+
+      /* Explorer Tag Cloud */
+      .explorer-tag {
+        display: inline-block;
+        background: white;
+        color: var(--sage-dark);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 0.35rem 0.8rem;
+        font-size: 0.82rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+        box-shadow: var(--shadow-sm);
+      }
+      .explorer-tag:hover {
+        background: var(--sage-mist);
+        border-color: var(--sage-dark);
+        color: var(--sage-deep);
+        transform: translateY(-1px);
+      }
+      .explorer-tag.active {
+        background: var(--teal);
+        color: white;
+        border-color: var(--teal);
+        font-weight: 700;
+        box-shadow: 0 4px 10px rgba(13,148,136,0.3);
+      }
+
+      /* Explorer Matching Sessions Grid */
+      .explorer-session-card {
+        background: var(--warm-white);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1rem;
+        transition: all 0.2s;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      .explorer-session-card:hover {
+        transform: translateY(-2px);
+        border-color: var(--teal);
+        box-shadow: var(--shadow-md);
+      }
     </style>
 </head>
 <body>
@@ -166,6 +232,127 @@
     </div>
   </section>
 
+  <!-- Section: Interactive Session Explorer -->
+  <section id="session-explorer" style="background: var(--cream); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem; margin-top: 3rem; margin-bottom: 3rem;">
+    <span class="sec-tag">🔍 Interactive</span>
+    <h2 class="sec-h2" style="margin-bottom: 0.5rem;">Interactive Session Explorer</h2>
+    <p class="sec-p" style="margin-bottom: 2rem;">Discover clubs and specific session materials instantly by selecting pedagogical tags. They systematically answer our core syllabus queries:</p>
+
+    <!-- Tag Cloud Panels -->
+    <div class="explorer-filter-group" style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom: 2rem;">
+
+      <!-- 1. Source Topic -->
+      <div>
+        <strong style="display: block; font-size: 0.85rem; text-transform: uppercase; color: var(--sage-deep); margin-bottom: 0.5rem; letter-spacing: 0.03em;">📖 What is the source (Article/Song/Video) about? (Topic)</strong>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          <span class="explorer-tag" data-kw="technology">Technology 📱</span>
+          <span class="explorer-tag" data-kw="discoveries">Discoveries 🔬</span>
+          <span class="explorer-tag" data-kw="culture">Culture 🌍</span>
+          <span class="explorer-tag" data-kw="traditions">Traditions 🏮</span>
+          <span class="explorer-tag" data-kw="philosophy">Philosophy 🏛️</span>
+          <span class="explorer-tag" data-kw="quotes">Quotes ✍️</span>
+          <span class="explorer-tag" data-kw="psychology">Psychology 🧠</span>
+          <span class="explorer-tag" data-kw="mental_health">Mental Health ❤️</span>
+          <span class="explorer-tag" data-kw="lifestyle">Lifestyle 🏡</span>
+          <span class="explorer-tag" data-kw="relationships">Relationships 👥</span>
+          <span class="explorer-tag" data-kw="debates">Debates 🗣️</span>
+          <span class="explorer-tag" data-kw="societal_issues">Societal Issues ⚖️</span>
+          <span class="explorer-tag" data-kw="screenplays">Screenplays 🎞️</span>
+          <span class="explorer-tag" data-kw="cinematography">Cinematography 🎥</span>
+          <span class="explorer-tag" data-kw="music_lyrics">Music Lyrics 🎵</span>
+          <span class="explorer-tag" data-kw="songs">Songs 🎤</span>
+          <span class="explorer-tag" data-kw="speculative_ideas">Speculative Ideas 🌌</span>
+          <span class="explorer-tag" data-kw="universe">Universe 🪐</span>
+        </div>
+      </div>
+
+      <!-- 2. Cover Symbol -->
+      <div>
+        <strong style="display: block; font-size: 0.85rem; text-transform: uppercase; color: var(--sage-deep); margin-bottom: 0.5rem; letter-spacing: 0.03em;">🎨 What does the cover show? (Cover Symbol)</strong>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          <span class="explorer-tag" data-kw="laboratory">Laboratory 🥼</span>
+          <span class="explorer-tag" data-kw="fireworks">Fireworks 🎆</span>
+          <span class="explorer-tag" data-kw="parchment">Parchment 📜</span>
+          <span class="explorer-tag" data-kw="willpower_gauge">Willpower Gauge 🔋</span>
+          <span class="explorer-tag" data-kw="smartphone">Smartphone 📲</span>
+          <span class="explorer-tag" data-kw="scales_of_justice">Scales of Justice ⚖️</span>
+          <span class="explorer-tag" data-kw="clapperboard">Clapperboard 🎬</span>
+          <span class="explorer-tag" data-kw="microphone">Microphone 🎤</span>
+          <span class="explorer-tag" data-kw="sparkling_stars">Sparkling Stars ✨</span>
+        </div>
+      </div>
+
+      <!-- 3. Main Idea -->
+      <div>
+        <strong style="display: block; font-size: 0.85rem; text-transform: uppercase; color: var(--sage-deep); margin-bottom: 0.5rem; letter-spacing: 0.03em;">🎯 What is the main idea of the source? (Core Concept)</strong>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          <span class="explorer-tag" data-kw="scientific_rationality">Scientific Rationality 🧪</span>
+          <span class="explorer-tag" data-kw="communal_solidarity">Communal Solidarity 🤝</span>
+          <span class="explorer-tag" data-kw="critical_thinking">Critical Thinking 💡</span>
+          <span class="explorer-tag" data-kw="emotional_awareness">Emotional Awareness 💓</span>
+          <span class="explorer-tag" data-kw="personal_growth">Personal Growth 🌱</span>
+          <span class="explorer-tag" data-kw="ethical_choices">Ethical Choices ⚖️</span>
+          <span class="explorer-tag" data-kw="character_arcs">Character Arcs 🎭</span>
+          <span class="explorer-tag" data-kw="emotional_survival">Emotional Survival 💪</span>
+          <span class="explorer-tag" data-kw="existential_reflection">Existential Reflection 🪐</span>
+        </div>
+      </div>
+
+      <!-- 4. Secondary Ideas -->
+      <div>
+        <strong style="display: block; font-size: 0.85rem; text-transform: uppercase; color: var(--sage-deep); margin-bottom: 0.5rem; letter-spacing: 0.03em;">🌿 What are the secondary ideas of the source? (Secondary Concepts)</strong>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          <span class="explorer-tag" data-kw="ethics">Ethics ⚖️</span>
+          <span class="explorer-tag" data-kw="innovation">Innovation 💡</span>
+          <span class="explorer-tag" data-kw="mythology">Mythology 🏛️</span>
+          <span class="explorer-tag" data-kw="nostalgia">Nostalgia 🕰️</span>
+          <span class="explorer-tag" data-kw="wisdom_vs_knowledge">Wisdom vs Knowledge 📖</span>
+          <span class="explorer-tag" data-kw="mortality">Mortality ⚰️</span>
+          <span class="explorer-tag" data-kw="cognitive_biases">Cognitive Biases 🧠</span>
+          <span class="explorer-tag" data-kw="coping_mechanisms">Coping Mechanisms 🛡️</span>
+          <span class="explorer-tag" data-kw="digital_detox">Digital Detox 📴</span>
+          <span class="explorer-tag" data-kw="relocation_guilt">Relocation Guilt 🏡</span>
+          <span class="explorer-tag" data-kw="work_life_balance">Work-Life Balance ⏳</span>
+          <span class="explorer-tag" data-kw="alternative_economics">Alternative Economics 💸</span>
+          <span class="explorer-tag" data-kw="regional_slangs">Regional Slangs 💬</span>
+          <span class="explorer-tag" data-kw="cinematic_motifs">Cinematic Motifs 🎞️</span>
+          <span class="explorer-tag" data-kw="conversational_idioms">Conversational Idioms 🗣️</span>
+          <span class="explorer-tag" data-kw="cultural_contexts">Cultural Contexts 🗺️</span>
+          <span class="explorer-tag" data-kw="destiny_vs_coincidence">Destiny vs Coincidence 🎲</span>
+          <span class="explorer-tag" data-kw="urban_solitude">Urban Solitude 🏙️</span>
+        </div>
+      </div>
+
+      <!-- 5. Grammar Focus -->
+      <div>
+        <strong style="display: block; font-size: 0.85rem; text-transform: uppercase; color: var(--sage-deep); margin-bottom: 0.5rem; letter-spacing: 0.03em;">✨ Grammar Keywords (Syntax Focus)</strong>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          <span class="explorer-tag" data-kw="passive_voice">Passive Voice 🔗</span>
+          <span class="explorer-tag" data-kw="past_habits">Past Habits ⏳</span>
+          <span class="explorer-tag" data-kw="past_modals">Past Modals ❓</span>
+          <span class="explorer-tag" data-kw="gerunds_as_subjects">Gerunds as Subjects 📝</span>
+          <span class="explorer-tag" data-kw="used_to_and_would">Used to & Would 🕰️</span>
+          <span class="explorer-tag" data-kw="hedging_language">Hedging Language 🛡️</span>
+          <span class="explorer-tag" data-kw="subjunctive_mood">Subjunctive Mood ✨</span>
+          <span class="explorer-tag" data-kw="relative_pronouns">Relative Pronouns 🗣️</span>
+          <span class="explorer-tag" data-kw="indirect_questions">Indirect Questions 🙋</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Active Filter Status & Matching Sessions Output -->
+    <div id="explorer-active-filter" style="display: none; background: white; border: 1px solid var(--border); border-radius: var(--r-md); padding: 1.5rem; margin-top: 1.5rem; box-shadow: var(--shadow-sm);">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+        <span style="font-size: 1.05rem; color: var(--sage-deep); font-weight: bold;">Filtered Sessions for: <span id="active-tag-name" style="color: var(--teal); text-transform: uppercase;"></span></span>
+        <button onclick="COSY_EXPLORER.clearFilter()" class="view-btn" style="padding: 0.35rem 0.8rem; font-size: 0.8rem; cursor: pointer; border-radius: 6px; background: var(--sage-deep); color: white;">Clear Filter ❌</button>
+      </div>
+      <div id="explorer-sessions-list" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem;">
+        <!-- Clickable matching sessions go here -->
+      </div>
+    </div>
+  </section>
+
   <!-- Section 3: Browse Clubs -->
   <section id="clubs">
     <span class="sec-tag">🎙️ Browse our clubs</span>
@@ -190,7 +377,27 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Science</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Real science news, made discussable. Each session unpacks a recent discovery or trend.</p>
-          <a href="keeping-up-with-science.html" class="club-link" style="color: white;">View Club & History →</a>
+
+          <!-- Pedagogical Keywords -->
+          <div class="card-keywords" style="margin-top: 1.2rem; border-top: 1px dashed rgba(255,255,255,0.15); padding-top: 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.78rem; line-height: 1.4;">
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Topic:</span>
+              <span class="card-kw-badge" data-kw="technology">technology</span>, <span class="card-kw-badge" data-kw="discoveries">discoveries</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Cover Symbol:</span>
+              <span class="card-kw-badge" data-kw="laboratory">laboratory</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Main Idea:</span>
+              <span class="card-kw-badge" data-kw="scientific_rationality">scientific rationality</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Secondary Ideas:</span>
+              <span class="card-kw-badge" data-kw="ethics">ethics</span>, <span class="card-kw-badge" data-kw="innovation">innovation</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Grammar:</span>
+              <span class="card-kw-badge" data-kw="passive_voice">passive voice</span>
+            </div>
+          </div>
+
+          <a href="keeping-up-with-science.html" class="club-link" style="color: white; margin-top: 1rem;">View Club & History →</a>
         </div>
       </article>
 
@@ -204,7 +411,27 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Culture</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Festivals, traditions, and the rituals that bring people together.</p>
-          <a href="lets-celebrate.html" class="club-link" style="color: white;">View Club & History →</a>
+
+          <!-- Pedagogical Keywords -->
+          <div class="card-keywords" style="margin-top: 1.2rem; border-top: 1px dashed rgba(255,255,255,0.15); padding-top: 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.78rem; line-height: 1.4;">
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Topic:</span>
+              <span class="card-kw-badge" data-kw="culture">culture</span>, <span class="card-kw-badge" data-kw="traditions">traditions</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Cover Symbol:</span>
+              <span class="card-kw-badge" data-kw="fireworks">fireworks</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Main Idea:</span>
+              <span class="card-kw-badge" data-kw="communal_solidarity">communal solidarity</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Secondary Ideas:</span>
+              <span class="card-kw-badge" data-kw="mythology">mythology</span>, <span class="card-kw-badge" data-kw="nostalgia">nostalgia</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Grammar:</span>
+              <span class="card-kw-badge" data-kw="past_habits">past habits</span>
+            </div>
+          </div>
+
+          <a href="lets-celebrate.html" class="club-link" style="color: white; margin-top: 1rem;">View Club & History →</a>
         </div>
       </article>
 
@@ -218,7 +445,27 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Philosophy</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">One quote. Multi-faceted café debate. Join Marcus Aurelius, Alan Watts, and Oscar Wilde over espresso to unpack endless interpretations.</p>
-          <a href="the-greatest-quotes.html" class="club-link" style="color: white;">View Club & History →</a>
+
+          <!-- Pedagogical Keywords -->
+          <div class="card-keywords" style="margin-top: 1.2rem; border-top: 1px dashed rgba(255,255,255,0.15); padding-top: 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.78rem; line-height: 1.4;">
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Topic:</span>
+              <span class="card-kw-badge" data-kw="philosophy">philosophy</span>, <span class="card-kw-badge" data-kw="quotes">quotes</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Cover Symbol:</span>
+              <span class="card-kw-badge" data-kw="parchment">parchment</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Main Idea:</span>
+              <span class="card-kw-badge" data-kw="critical_thinking">critical thinking</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Secondary Ideas:</span>
+              <span class="card-kw-badge" data-kw="wisdom_vs_knowledge">wisdom vs knowledge</span>, <span class="card-kw-badge" data-kw="mortality">mortality</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Grammar:</span>
+              <span class="card-kw-badge" data-kw="past_modals">past modals</span>
+            </div>
+          </div>
+
+          <a href="the-greatest-quotes.html" class="club-link" style="color: white; margin-top: 1rem;">View Club & History →</a>
         </div>
       </article>
 
@@ -232,7 +479,27 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Psychology</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Perhaps our minds are not puzzles to be solved, but landscapes to be gently wandered through. Welcome to a sanctuary of quiet reflection where we unravel our habits, our vulnerabilities, and our silent thoughts.</p>
-          <a href="mind-matters.html" class="club-link" style="color: white;">View Club & History →</a>
+
+          <!-- Pedagogical Keywords -->
+          <div class="card-keywords" style="margin-top: 1.2rem; border-top: 1px dashed rgba(255,255,255,0.15); padding-top: 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.78rem; line-height: 1.4;">
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Topic:</span>
+              <span class="card-kw-badge" data-kw="psychology">psychology</span>, <span class="card-kw-badge" data-kw="mental_health">mental health</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Cover Symbol:</span>
+              <span class="card-kw-badge" data-kw="willpower_gauge">willpower gauge</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Main Idea:</span>
+              <span class="card-kw-badge" data-kw="emotional_awareness">emotional awareness</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Secondary Ideas:</span>
+              <span class="card-kw-badge" data-kw="cognitive_biases">cognitive biases</span>, <span class="card-kw-badge" data-kw="coping_mechanisms">coping mechanisms</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Grammar:</span>
+              <span class="card-kw-badge" data-kw="gerunds_as_subjects">gerunds as subjects</span>
+            </div>
+          </div>
+
+          <a href="mind-matters.html" class="club-link" style="color: white; margin-top: 1rem;">View Club & History →</a>
         </div>
       </article>
 
@@ -246,7 +513,27 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Personal</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Each session explores life before and after one thing — a habit, a person, a city, a decision.</p>
-          <a href="my-life-with-without.html" class="club-link" style="color: white;">View Club & History →</a>
+
+          <!-- Pedagogical Keywords -->
+          <div class="card-keywords" style="margin-top: 1.2rem; border-top: 1px dashed rgba(255,255,255,0.15); padding-top: 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.78rem; line-height: 1.4;">
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Topic:</span>
+              <span class="card-kw-badge" data-kw="lifestyle">lifestyle</span>, <span class="card-kw-badge" data-kw="relationships">relationships</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Cover Symbol:</span>
+              <span class="card-kw-badge" data-kw="smartphone">smartphone</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Main Idea:</span>
+              <span class="card-kw-badge" data-kw="personal_growth">personal growth</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Secondary Ideas:</span>
+              <span class="card-kw-badge" data-kw="digital_detox">digital detox</span>, <span class="card-kw-badge" data-kw="relocation_guilt">relocation guilt</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Grammar:</span>
+              <span class="card-kw-badge" data-kw="used_to_and_would">used to and would</span>
+            </div>
+          </div>
+
+          <a href="my-life-with-without.html" class="club-link" style="color: white; margin-top: 1rem;">View Club & History →</a>
         </div>
       </article>
 
@@ -260,7 +547,27 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Debate</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Hot takes and genuine dilemmas. Each session presents a statement you'll passionately agree with.</p>
-          <a href="debatable-relatable.html" class="club-link" style="color: white;">View Club & History →</a>
+
+          <!-- Pedagogical Keywords -->
+          <div class="card-keywords" style="margin-top: 1.2rem; border-top: 1px dashed rgba(255,255,255,0.15); padding-top: 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.78rem; line-height: 1.4;">
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Topic:</span>
+              <span class="card-kw-badge" data-kw="debates">debates</span>, <span class="card-kw-badge" data-kw="societal_issues">societal issues</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Cover Symbol:</span>
+              <span class="card-kw-badge" data-kw="scales_of_justice">scales of justice</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Main Idea:</span>
+              <span class="card-kw-badge" data-kw="ethical_choices">ethical choices</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Secondary Ideas:</span>
+              <span class="card-kw-badge" data-kw="work_life_balance">work life balance</span>, <span class="card-kw-badge" data-kw="alternative_economics">alternative economics</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Grammar:</span>
+              <span class="card-kw-badge" data-kw="hedging_language">hedging language</span>
+            </div>
+          </div>
+
+          <a href="debatable-relatable.html" class="club-link" style="color: white; margin-top: 1rem;">View Club & History →</a>
         </div>
       </article>
 
@@ -274,7 +581,27 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Cinema</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Speak original-language. Watch outstanding scenes, analyze rich regional slangs, and discuss powerful storyboards.</p>
-          <a href="cinema-club.html" class="club-link" style="color: white;">View Club & History →</a>
+
+          <!-- Pedagogical Keywords -->
+          <div class="card-keywords" style="margin-top: 1.2rem; border-top: 1px dashed rgba(255,255,255,0.15); padding-top: 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.78rem; line-height: 1.4;">
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Topic:</span>
+              <span class="card-kw-badge" data-kw="screenplays">screenplays</span>, <span class="card-kw-badge" data-kw="cinematography">cinematography</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Cover Symbol:</span>
+              <span class="card-kw-badge" data-kw="clapperboard">clapperboard</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Main Idea:</span>
+              <span class="card-kw-badge" data-kw="character_arcs">character arcs</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Secondary Ideas:</span>
+              <span class="card-kw-badge" data-kw="regional_slangs">regional slangs</span>, <span class="card-kw-badge" data-kw="cinematic_motifs">cinematic motifs</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Grammar:</span>
+              <span class="card-kw-badge" data-kw="subjunctive_mood">subjunctive mood</span>
+            </div>
+          </div>
+
+          <a href="cinema-club.html" class="club-link" style="color: white; margin-top: 1rem;">View Club & History →</a>
         </div>
       </article>
 
@@ -288,7 +615,27 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Music</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Sing your way to fluency! Analyze conversational song lyrics, master natural pronunciations, and unpack rich cultural contexts.</p>
-          <a href="karaoke-club.html" class="club-link" style="color: white;">View Club & History →</a>
+
+          <!-- Pedagogical Keywords -->
+          <div class="card-keywords" style="margin-top: 1.2rem; border-top: 1px dashed rgba(255,255,255,0.15); padding-top: 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.78rem; line-height: 1.4;">
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Topic:</span>
+              <span class="card-kw-badge" data-kw="music_lyrics">music lyrics</span>, <span class="card-kw-badge" data-kw="songs">songs</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Cover Symbol:</span>
+              <span class="card-kw-badge" data-kw="microphone">microphone</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Main Idea:</span>
+              <span class="card-kw-badge" data-kw="emotional_survival">emotional survival</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Secondary Ideas:</span>
+              <span class="card-kw-badge" data-kw="conversational_idioms">conversational idioms</span>, <span class="card-kw-badge" data-kw="cultural_contexts">cultural contexts</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Grammar:</span>
+              <span class="card-kw-badge" data-kw="relative_pronouns">relative pronouns</span>
+            </div>
+          </div>
+
+          <a href="karaoke-club.html" class="club-link" style="color: white; margin-top: 1rem;">View Club & History →</a>
         </div>
       </article>
 
@@ -302,7 +649,27 @@
             <span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Philosophy</span>
           </div>
           <p class="club-desc" style="color: rgba(255,255,255,0.85);">Random ideas where we speculate about various things, ask poetic questions, and develop deep philosophical reflection.</p>
-          <a href="i-couldnt-help-but-wonder.html" class="club-link" style="color: white;">View Club & History →</a>
+
+          <!-- Pedagogical Keywords -->
+          <div class="card-keywords" style="margin-top: 1.2rem; border-top: 1px dashed rgba(255,255,255,0.15); padding-top: 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.78rem; line-height: 1.4;">
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Topic:</span>
+              <span class="card-kw-badge" data-kw="speculative_ideas">speculative ideas</span>, <span class="card-kw-badge" data-kw="universe">universe</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Cover Symbol:</span>
+              <span class="card-kw-badge" data-kw="sparkling_stars">sparkling stars</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Main Idea:</span>
+              <span class="card-kw-badge" data-kw="existential_reflection">existential reflection</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Secondary Ideas:</span>
+              <span class="card-kw-badge" data-kw="destiny_vs_coincidence">destiny vs coincidence</span>, <span class="card-kw-badge" data-kw="urban_solitude">urban solitude</span>
+            </div>
+            <div><span style="opacity: 0.7; font-weight: bold; text-transform: uppercase; font-size: 0.65rem; display: block; margin-bottom: 0.1rem;">Grammar:</span>
+              <span class="card-kw-badge" data-kw="indirect_questions">indirect questions</span>
+            </div>
+          </div>
+
+          <a href="i-couldnt-help-but-wonder.html" class="club-link" style="color: white; margin-top: 1rem;">View Club & History →</a>
         </div>
       </article>
     </div>
@@ -416,7 +783,177 @@
 <script src="../js/data/pricing.js"></script>
 <script src="../js/config.js"></script>
 <script>
+// Explorer and Keywords State-Driven Filter Engine
+const SESSIONS_DATABASE = [
+  // Keeping Up with Science
+  { title: "The Future of AI in Daily Life", url: "sessions/keeping-up-with-science/ai-in-workplace.html", club: "Keeping Up with Science", kws: ["technology", "discoveries", "laboratory", "scientific_rationality", "innovation", "passive_voice"] },
+  { title: "Quantum Physics Discoveries", url: "sessions/keeping-up-with-science/quantum.html", club: "Keeping Up with Science", kws: ["discoveries", "laboratory", "scientific_rationality", "ethics", "passive_voice"] },
+
+  // Let's Celebrate
+  { title: "New Year Traditions Around the World", url: "sessions/lets-celebrate/new-year.html", club: "Let's Celebrate", kws: ["culture", "traditions", "fireworks", "communal_solidarity", "nostalgia", "past_habits"] },
+  { title: "Solstice Rituals", url: "sessions/lets-celebrate/solstice.html", club: "Let's Celebrate", kws: ["culture", "traditions", "fireworks", "communal_solidarity", "mythology", "past_habits"] },
+
+  // Greatest Quotes
+  { title: "Socrates: The Unexamined Life", url: "sessions/the-greatest-quotes/unexamined-life-socrates.html", club: "The Greatest Quotes", kws: ["philosophy", "quotes", "parchment", "critical_thinking", "wisdom_vs_knowledge", "past_modals"] },
+  { title: "Marcus Aurelius: Stoic Wisdom", url: "sessions/the-greatest-quotes/marcus-aurelius.html", club: "The Greatest Quotes", kws: ["philosophy", "quotes", "parchment", "critical_thinking", "mortality", "past_modals"] },
+
+  // Mind Matters
+  { title: "The Habit Loop and Willpower", url: "sessions/mind-matters/power-of-habits.html", club: "Mind Matters", kws: ["psychology", "mental_health", "willpower_gauge", "emotional_awareness", "cognitive_biases", "gerunds_as_subjects"] },
+  { title: "Coping with Social Anxiety", url: "sessions/mind-matters/social-anxiety.html", club: "Mind Matters", kws: ["psychology", "mental_health", "willpower_gauge", "emotional_awareness", "coping_mechanisms", "gerunds_as_subjects"] },
+
+  // My Life With & Without
+  { title: "A Day Without My Phone", url: "sessions/my-life-with-without/day-without-phone.html", club: "My Life With & Without", kws: ["lifestyle", "relationships", "smartphone", "personal_growth", "digital_detox", "used_to_and_would"] },
+  { title: "Living as an Expat: Relocation Guilt", url: "sessions/my-life-with-without/expat-relocation.html", club: "My Life With & Without", kws: ["lifestyle", "relationships", "smartphone", "personal_growth", "relocation_guilt", "used_to_and_would"] },
+
+  // Debatable & Relatable
+  { title: "The 4-Day Work Week", url: "sessions/debatable-relatable/4-day-work-week.html", club: "Debatable & Relatable", kws: ["debates", "societal_issues", "scales_of_justice", "ethical_choices", "work_life_balance", "hedging_language"] },
+  { title: "Universal Basic Income", url: "sessions/debatable-relatable/universal-basic-income.html", club: "Debatable & Relatable", kws: ["debates", "societal_issues", "scales_of_justice", "ethical_choices", "alternative_economics", "hedging_language"] },
+
+  // Cinema Club
+  { title: "The Devil Wears Prada: Ambition & Subjunctive", url: "sessions/cinema-club/the-devil-wears-prada.html", club: "Cinema Club", kws: ["screenplays", "cinematography", "clapperboard", "character_arcs", "regional_slangs", "subjunctive_mood"] },
+  { title: "Fleabag: Ellipsis and Dry Humor", url: "sessions/cinema-club/fleabag.html", club: "Cinema Club", kws: ["screenplays", "cinematography", "clapperboard", "character_arcs", "cinematic_motifs", "subjunctive_mood"] },
+
+  // Karaoke Club
+  { title: "Toutes les machines ont le cœur (Qui rel.)", url: "sessions/karaoke-club/toutes-les-machines-ont-le-coeur.html", club: "Karaoke Club", kws: ["music_lyrics", "songs", "microphone", "emotional_survival", "conversational_idioms", "relative_pronouns"] },
+  { title: "as it was ( harry styles )", url: "sessions/karaoke-club/as-it-was.html", club: "Karaoke Club", kws: ["music_lyrics", "songs", "microphone", "emotional_survival", "cultural_contexts", "relative_pronouns"] },
+
+  // I Couldn't Help But Wonder
+  { title: "Always Watched in a Crowd", url: "sessions/i-couldnt-help-but-wonder/always-watched-in-crowd.html", club: "I Couldn't Help But Wonder", kws: ["speculative_ideas", "universe", "sparkling_stars", "existential_reflection", "urban_solitude", "indirect_questions"] },
+  { title: "Whether Raindrops Select Where to Fall", url: "sessions/i-couldnt-help-but-wonder/raindrops-select-fall.html", club: "I Couldn't Help But Wonder", kws: ["speculative_ideas", "universe", "sparkling_stars", "existential_reflection", "destiny_vs_coincidence", "indirect_questions"] }
+];
+
+const COSY_EXPLORER = {
+  activeKeyword: null,
+
+  init() {
+    // Attach click events to card keywords
+    document.querySelectorAll('.card-kw-badge').forEach(badge => {
+      badge.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const kw = badge.getAttribute('data-kw');
+        this.filterByKeyword(kw);
+      });
+    });
+
+    // Attach click events to explorer tags
+    document.querySelectorAll('.explorer-tag').forEach(tag => {
+      tag.addEventListener('click', () => {
+        const kw = tag.getAttribute('data-kw');
+        this.filterByKeyword(kw);
+      });
+    });
+  },
+
+  filterByKeyword(kw) {
+    this.activeKeyword = kw;
+
+    // Visual feedback: Highlight active explorer tags and card tags
+    document.querySelectorAll('.explorer-tag').forEach(tag => {
+      if (tag.getAttribute('data-kw') === kw) {
+        tag.classList.add('active');
+      } else {
+        tag.classList.remove('active');
+      }
+    });
+
+    document.querySelectorAll('.card-kw-badge').forEach(badge => {
+      if (badge.getAttribute('data-kw') === kw) {
+        badge.style.background = 'var(--teal)';
+        badge.style.borderColor = 'var(--teal)';
+      } else {
+        badge.style.background = '';
+        badge.style.borderColor = '';
+      }
+    });
+
+    // Filter main club cards
+    const clubCards = document.querySelectorAll('.club-grid .club-card');
+    clubCards.forEach(card => {
+      const cardKeywords = Array.from(card.querySelectorAll('.card-kw-badge')).map(b => b.getAttribute('data-kw'));
+      if (cardKeywords.includes(kw)) {
+        card.style.display = 'flex';
+        card.style.opacity = '1';
+        card.style.transform = 'scale(1.02)';
+      } else {
+        card.style.display = 'none';
+        card.style.opacity = '0';
+      }
+    });
+
+    // Show filtered sessions panel
+    const filterWrap = document.getElementById('explorer-active-filter');
+    const tagNameSpan = document.getElementById('active-tag-name');
+    const sessionsList = document.getElementById('explorer-sessions-list');
+
+    if (filterWrap && tagNameSpan && sessionsList) {
+      tagNameSpan.textContent = kw.replace(/_/g, ' ');
+      filterWrap.style.display = 'block';
+
+      // Find matching sessions
+      const matches = SESSIONS_DATABASE.filter(s => s.kws.includes(kw));
+      if (matches.length > 0) {
+        sessionsList.innerHTML = matches.map(s => `
+          <div class="explorer-session-card">
+            <span style="font-size:0.7rem; text-transform:uppercase; font-weight:700; color:var(--teal);">${s.club}</span>
+            <strong style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">${s.title}</strong>
+            <a href="${s.url}" class="club-link" style="font-size:0.8rem; margin-top:0.5rem; text-decoration:none;">Open Session Material 📖 →</a>
+          </div>
+        `).join('');
+      } else {
+        sessionsList.innerHTML = `
+          <div style="grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 2rem;">
+            <p>We are currently designing live sessions for this specific idea. Stay tuned! 🚀</p>
+          </div>
+        `;
+      }
+
+      // Smooth scroll to the filtered sessions list
+      filterWrap.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  },
+
+  clearFilter() {
+    this.activeKeyword = null;
+
+    // Reset visual classes
+    document.querySelectorAll('.explorer-tag').forEach(tag => tag.classList.remove('active'));
+    document.querySelectorAll('.card-kw-badge').forEach(badge => {
+      badge.style.background = '';
+      badge.style.borderColor = '';
+    });
+
+    // Restore all club cards
+    const clubCards = document.querySelectorAll('.club-grid .club-card');
+    clubCards.forEach(card => {
+      card.style.display = 'flex';
+      card.style.opacity = '1';
+      card.style.transform = '';
+    });
+
+    // Hide filtered sessions panel
+    const filterWrap = document.getElementById('explorer-active-filter');
+    if (filterWrap) filterWrap.style.display = 'none';
+
+    // Respect level filters if any are active
+    const activeLevelBtn = document.querySelector('.filter-btn.active');
+    if (activeLevelBtn) {
+      const level = activeLevelBtn.getAttribute('data-level');
+      clubCards.forEach(card => {
+        const levels = card.getAttribute('data-levels') || '';
+        if (level === 'all' || levels.includes(level)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  }
+};
+
 document.addEventListener('DOMContentLoaded', () => {
+  // Initialize explorer filter engine
+  COSY_EXPLORER.init();
+
   const buttons = document.querySelectorAll('.filter-btn');
   const cards = document.querySelectorAll('.club-grid .club-card');
 
@@ -426,6 +963,9 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.classList.add('active');
 
       const level = btn.getAttribute('data-level');
+
+      // Clear explorer keyword filter first to avoid logic collision
+      COSY_EXPLORER.clearFilter();
 
       cards.forEach(card => {
         const levels = card.getAttribute('data-levels') || '';
