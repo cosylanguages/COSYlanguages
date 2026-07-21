@@ -89,6 +89,49 @@
         text-underline-offset: 3px;
       }
       .club-link:hover { color: var(--sage-deep); }
+
+      /* Explorer Tag Button Styles */
+      .cloud-tag-btn {
+        background: #FAF7F2;
+        color: var(--ink-soft);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 0.35rem 0.8rem;
+        font-size: 0.8rem;
+        font-family: var(--font-sans);
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+      .cloud-tag-btn:hover {
+        background: var(--sage-mist);
+        border-color: var(--sage-deep);
+        color: var(--sage-deep);
+      }
+      .cloud-tag-btn.active {
+        background: var(--indigo);
+        color: white;
+        border-color: var(--indigo);
+        font-weight: 700;
+        box-shadow: var(--shadow-sm);
+      }
+      .esc-tag-btn {
+        background: #FAF7F2;
+        color: var(--indigo);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 0.15rem 0.4rem;
+        font-size: 0.72rem;
+        font-family: var(--font-sans);
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.15s ease;
+      }
+      .esc-tag-btn:hover {
+        background: var(--indigo);
+        color: white;
+        border-color: var(--indigo);
+      }
     </style>
 </head>
 <body>
@@ -308,6 +351,318 @@
     </div>
   </section>
 
+  <!-- Section: Interactive Session Explorer -->
+  <section id="explorer-section" style="margin-top: 5rem; background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 3rem 2rem;">
+    <span class="sec-tag">✨ Session Explorer</span>
+    <h2 class="sec-h2" style="font-family: var(--font-serif); margin-bottom: 0.5rem;">Browse Sessions by Idea</h2>
+    <p class="sec-p" style="margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto;">Our sessions are designed around 4 fundamental questions. Click on any core idea below to immediately filter and explore matching live sessions & speaking clubs.</p>
+
+    <!-- Interactive Sleek Tag Cloud -->
+    <div class="tag-cloud-container" style="background: white; border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1.5rem; margin-bottom: 2.5rem; text-align: left; box-shadow: var(--shadow-sm);">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
+        <h3 style="font-family: var(--font-serif); font-size: 1.1rem; color: var(--ink); margin: 0; display: flex; align-items: center; gap: 0.5rem;">
+          <span>🔍</span> Filter Sessions by Idea
+        </h3>
+        <span style="font-size: 0.75rem; color: var(--muted); font-weight: 500;">Select an idea to start filtering</span>
+      </div>
+
+      <!-- Compact Row of Top-Tier Popular Tags -->
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+        <button class="cloud-tag-btn" data-tag="assisted-dying">#assisted-dying</button>
+        <button class="cloud-tag-btn" data-tag="chess">#chess</button>
+        <button class="cloud-tag-btn" data-tag="technology">#technology</button>
+        <button class="cloud-tag-btn" data-tag="evolution">#evolution</button>
+        <button class="cloud-tag-btn" data-tag="art-criticism">#art-criticism</button>
+        <button class="cloud-tag-btn" data-tag="success">#success</button>
+        <button class="cloud-tag-btn" data-tag="urban-living">#urban-living</button>
+        <button class="cloud-tag-btn" data-tag="minimalism">#minimalism</button>
+      </div>
+
+      <!-- Collapsible panel for advanced categorizations (Hidden by default to save height) -->
+      <details style="border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 1rem; transition: all 0.3s ease;">
+        <summary style="font-size: 0.82rem; font-weight: 700; color: var(--indigo); cursor: pointer; outline: none; display: flex; align-items: center; gap: 0.3rem; user-select: none;">
+          <span>✨</span> Filter by 4 Core Pedagogical Questions...
+        </summary>
+
+        <div style="display: flex; flex-direction: column; gap: 1.25rem; margin-top: 1.25rem; padding-left: 0.5rem; border-left: 2px solid var(--sage-mist);">
+          <div>
+            <div style="font-size: 0.78rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.4rem;">
+              <span>📖</span> <span>What is the article/source about?</span>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+              <button class="cloud-tag-btn" data-tag="assisted-dying">#assisted-dying</button>
+              <button class="cloud-tag-btn" data-tag="chess">#chess</button>
+              <button class="cloud-tag-btn" data-tag="technology">#technology</button>
+              <button class="cloud-tag-btn" data-tag="evolution">#evolution</button>
+              <button class="cloud-tag-btn" data-tag="art-criticism">#art-criticism</button>
+              <button class="cloud-tag-btn" data-tag="success">#success</button>
+              <button class="cloud-tag-btn" data-tag="urban-living">#urban-living</button>
+              <button class="cloud-tag-btn" data-tag="minimalism">#minimalism</button>
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size: 0.78rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.4rem;">
+              <span>🎨</span> <span>What does the cover represent?</span>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+              <button class="cloud-tag-btn" data-tag="compassionate-care">#compassionate-care</button>
+              <button class="cloud-tag-btn" data-tag="strategic-board">#strategic-board</button>
+              <button class="cloud-tag-btn" data-tag="heart-in-machine">#heart-in-machine</button>
+              <button class="cloud-tag-btn" data-tag="family-generations">#family-generations</button>
+              <button class="cloud-tag-btn" data-tag="brush-vs-algorithm">#brush-vs-algorithm</button>
+              <button class="cloud-tag-btn" data-tag="beginners-mind">#beginners-mind</button>
+              <button class="cloud-tag-btn" data-tag="pedestrian-streets">#pedestrian-streets</button>
+              <button class="cloud-tag-btn" data-tag="cozy-cabin">#cozy-cabin</button>
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size: 0.78rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.4rem;">
+              <span>💡</span> <span>What is the main idea of the source?</span>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+              <button class="cloud-tag-btn" data-tag="personal-autonomy">#personal-autonomy</button>
+              <button class="cloud-tag-btn" data-tag="cost-of-obsession">#cost-of-obsession</button>
+              <button class="cloud-tag-btn" data-tag="humanity-and-ai">#humanity-and-ai</button>
+              <button class="cloud-tag-btn" data-tag="grandparent-role">#grandparent-role</button>
+              <button class="cloud-tag-btn" data-tag="ai-vs-human-art">#ai-vs-human-art</button>
+              <button class="cloud-tag-btn" data-tag="curiosity">#curiosity</button>
+              <button class="cloud-tag-btn" data-tag="car-free-benefits">#car-free-benefits</button>
+              <button class="cloud-tag-btn" data-tag="mindful-living">#mindful-living</button>
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size: 0.78rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.4rem;">
+              <span>🔗</span> <span>What are the secondary ideas?</span>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+              <button class="cloud-tag-btn" data-tag="medical-ethics">#medical-ethics</button>
+              <button class="cloud-tag-btn" data-tag="legislation">#legislation</button>
+              <button class="cloud-tag-btn" data-tag="addiction">#addiction</button>
+              <button class="cloud-tag-btn" data-tag="gender-barriers">#gender-barriers</button>
+              <button class="cloud-tag-btn" data-tag="social-media">#social-media</button>
+              <button class="cloud-tag-btn" data-tag="resilience">#resilience</button>
+              <button class="cloud-tag-btn" data-tag="longevity">#longevity</button>
+              <button class="cloud-tag-btn" data-tag="genetics">#genetics</button>
+              <button class="cloud-tag-btn" data-tag="creativity">#creativity</button>
+              <button class="cloud-tag-btn" data-tag="authenticity">#authenticity</button>
+              <button class="cloud-tag-btn" data-tag="risk-taking">#risk-taking</button>
+              <button class="cloud-tag-btn" data-tag="growth">#growth</button>
+              <button class="cloud-tag-btn" data-tag="environment">#environment</button>
+              <button class="cloud-tag-btn" data-tag="community">#community</button>
+              <button class="cloud-tag-btn" data-tag="nature">#nature</button>
+              <button class="cloud-tag-btn" data-tag="slow-life">#slow-life</button>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <div id="filter-status-bar" style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: none; justify-content: space-between; align-items: center; font-size: 0.9rem; font-weight: bold; color: var(--indigo);">
+        <span id="filter-status-text">Active Filter: #assisted-dying (1 session found)</span>
+        <button id="clear-filter-btn" style="background: var(--crimson); color: white; border: none; padding: 0.3rem 0.8rem; border-radius: 6px; font-size: 0.8rem; font-weight: 700; cursor: pointer; transition: opacity 0.2s;">Clear Filter ✕</button>
+      </div>
+    </div>
+
+    <!-- Sessions Grid -->
+    <div id="explorer-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+
+      <!-- Card 1. Assisted Dying -->
+      <article class="explorer-session-card" data-tags="assisted-dying compassionate-care personal-autonomy medical-ethics legislation" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #993C1D, #4d1e0f);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(153,60,29,0.1); color: #993C1D; border-color: rgba(153,60,29,0.3);">🔥 Debate Club</span>
+            <span class="club-tag" style="background: #EEEDFE; color: #534AB7; border-color: #D2CFFE;">C1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">Assisted Dying: Yes or No</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Explore active assistance in dying. Debating the moral boundaries of autonomy vs. safeguards.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+            <button class="esc-tag-btn" data-tag="assisted-dying" style="background:#FFEBEA; color:#A73A3A; border-color:#F5C2C2;" title="About the source">#assisted-dying</button>
+            <button class="esc-tag-btn" data-tag="compassionate-care" style="background:#FFF9E6; color:#8C6D1A; border-color:#F5E2B3;" title="Represented by the cover">#compassionate-care</button>
+            <button class="esc-tag-btn" data-tag="personal-autonomy" style="background:#E1F5EE; color:#167543; border-color:#B3EAD1;" title="Main idea">#personal-autonomy</button>
+            <button class="esc-tag-btn" data-tag="medical-ethics" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#medical-ethics</button>
+            <button class="esc-tag-btn" data-tag="legislation" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#legislation</button>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/debatable-relatable/assisted-dying.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2. The Queen's Gambit -->
+      <article class="explorer-session-card" data-tags="chess strategic-board cost-of-obsession addiction gender-barriers" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #3D2B1F, #1F140D);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(61,43,31,0.1); color: #3D2B1F; border-color: rgba(61,43,31,0.3);">🎬 Cinema Club</span>
+            <span class="club-tag" style="background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7;">B2</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">The Queen's Gambit</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Master strategic chess terminology and mid-century slang. Discuss ambition, perfectionism, and personal boundaries.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+            <button class="esc-tag-btn" data-tag="chess" style="background:#FFEBEA; color:#A73A3A; border-color:#F5C2C2;" title="About the source">#chess</button>
+            <button class="esc-tag-btn" data-tag="strategic-board" style="background:#FFF9E6; color:#8C6D1A; border-color:#F5E2B3;" title="Represented by the cover">#strategic-board</button>
+            <button class="esc-tag-btn" data-tag="cost-of-obsession" style="background:#E1F5EE; color:#167543; border-color:#B3EAD1;" title="Main idea">#cost-of-obsession</button>
+            <button class="esc-tag-btn" data-tag="addiction" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#addiction</button>
+            <button class="esc-tag-btn" data-tag="gender-barriers" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#gender-barriers</button>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/cinema-club/the-queens-gambit.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3. Toutes les machines -->
+      <article class="explorer-session-card" data-tags="technology heart-in-machine humanity-and-ai social-media resilience" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #4A154B, #2A0A35);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(74,21,75,0.1); color: #4A154B; border-color: rgba(74,21,75,0.3);">🎤 Karaoke Club</span>
+            <span class="club-tag" style="background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7;">B1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">Toutes les machines ont le cœur</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Analyze the fragile connection between our emotions and modern digital lives under technological pressure.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+            <button class="esc-tag-btn" data-tag="technology" style="background:#FFEBEA; color:#A73A3A; border-color:#F5C2C2;" title="About the source">#technology</button>
+            <button class="esc-tag-btn" data-tag="heart-in-machine" style="background:#FFF9E6; color:#8C6D1A; border-color:#F5E2B3;" title="Represented by the cover">#heart-in-machine</button>
+            <button class="esc-tag-btn" data-tag="humanity-and-ai" style="background:#E1F5EE; color:#167543; border-color:#B3EAD1;" title="Main idea">#humanity-and-ai</button>
+            <button class="esc-tag-btn" data-tag="social-media" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#social-media</button>
+            <button class="esc-tag-btn" data-tag="resilience" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#resilience</button>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/karaoke-club/toutes-les-machines-ont-le-coeur.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 4. Evolutionary Mystery -->
+      <article class="explorer-session-card" data-tags="evolution family-generations grandparent-role longevity genetics" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #0F6E56, #073b2d);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(15,110,86,0.1); color: #0F6E56; border-color: rgba(15,110,86,0.3);">🔬 Science Club</span>
+            <span class="club-tag" style="background: #EEEDFE; color: #534AB7; border-color: #D2CFFE;">C1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">Why Your Grandmother Is an Evolutionary Mystery</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Analyze the grandmother hypothesis. Discover the anthropological and biological impact of family support.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+            <button class="esc-tag-btn" data-tag="evolution" style="background:#FFEBEA; color:#A73A3A; border-color:#F5C2C2;" title="About the source">#evolution</button>
+            <button class="esc-tag-btn" data-tag="family-generations" style="background:#FFF9E6; color:#8C6D1A; border-color:#F5E2B3;" title="Represented by the cover">#family-generations</button>
+            <button class="esc-tag-btn" data-tag="grandparent-role" style="background:#E1F5EE; color:#167543; border-color:#B3EAD1;" title="Main idea">#grandparent-role</button>
+            <button class="esc-tag-btn" data-tag="longevity" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#longevity</button>
+            <button class="esc-tag-btn" data-tag="genetics" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#genetics</button>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/keeping-up-with-science/grandmother-evolutionary-mystery.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 5. Madonna AI Art Quote -->
+      <article class="explorer-session-card" data-tags="art-criticism brush-vs-algorithm ai-vs-human-art creativity authenticity" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #5D4037, #3E2723);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(93,64,55,0.1); color: #5D4037; border-color: rgba(93,64,55,0.3);">💬 Quotes Club</span>
+            <span class="club-tag" style="background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7;">B1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">Madonna AI Art Quote</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Debate Madonna's sharp philosophical take on generative AI copycats vs human art's authenticity.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+            <button class="esc-tag-btn" data-tag="art-criticism" style="background:#FFEBEA; color:#A73A3A; border-color:#F5C2C2;" title="About the source">#art-criticism</button>
+            <button class="esc-tag-btn" data-tag="brush-vs-algorithm" style="background:#FFF9E6; color:#8C6D1A; border-color:#F5E2B3;" title="Represented by the cover">#brush-vs-algorithm</button>
+            <button class="esc-tag-btn" data-tag="ai-vs-human-art" style="background:#E1F5EE; color:#167543; border-color:#B3EAD1;" title="Main idea">#ai-vs-human-art</button>
+            <button class="esc-tag-btn" data-tag="creativity" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#creativity</button>
+            <button class="esc-tag-btn" data-tag="authenticity" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#authenticity</button>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/the-greatest-quotes/madonna-ai-art-quote-intermediate.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 6. Steve Jobs Quote -->
+      <article class="explorer-session-card" data-tags="success beginners-mind curiosity risk-taking growth" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #5D4037, #3E2723);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(93,64,55,0.1); color: #5D4037; border-color: rgba(93,64,55,0.3);">💬 Quotes Club</span>
+            <span class="club-tag" style="background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7;">B1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">Steve Jobs Quote</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Deconstruct "Stay hungry, stay foolish". Examine lifelong curiosity and non-conformity.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+            <button class="esc-tag-btn" data-tag="success" style="background:#FFEBEA; color:#A73A3A; border-color:#F5C2C2;" title="About the source">#success</button>
+            <button class="esc-tag-btn" data-tag="beginners-mind" style="background:#FFF9E6; color:#8C6D1A; border-color:#F5E2B3;" title="Represented by the cover">#beginners-mind</button>
+            <button class="esc-tag-btn" data-tag="curiosity" style="background:#E1F5EE; color:#167543; border-color:#B3EAD1;" title="Main idea">#curiosity</button>
+            <button class="esc-tag-btn" data-tag="risk-taking" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#risk-taking</button>
+            <button class="esc-tag-btn" data-tag="growth" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#growth</button>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/the-greatest-quotes/steve-jobs-quote.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 7. My Life Without Private Cars -->
+      <article class="explorer-session-card" data-tags="urban-living pedestrian-streets car-free-benefits environment community" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #3B6D11, #1d3608);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(59,109,17,0.1); color: #3B6D11; border-color: rgba(59,109,17,0.3);">🌿 Life Club</span>
+            <span class="club-tag" style="background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7;">B1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">My Life Without Private Cars</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Imagine pedestrian-friendly city layouts. Discuss environmental habits and urban community growth.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+            <button class="esc-tag-btn" data-tag="urban-living" style="background:#FFEBEA; color:#A73A3A; border-color:#F5C2C2;" title="About the source">#urban-living</button>
+            <button class="esc-tag-btn" data-tag="pedestrian-streets" style="background:#FFF9E6; color:#8C6D1A; border-color:#F5E2B3;" title="Represented by the cover">#pedestrian-streets</button>
+            <button class="esc-tag-btn" data-tag="car-free-benefits" style="background:#E1F5EE; color:#167543; border-color:#B3EAD1;" title="Main idea">#car-free-benefits</button>
+            <button class="esc-tag-btn" data-tag="environment" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#environment</button>
+            <button class="esc-tag-btn" data-tag="community" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#community</button>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/my-life-with-without/private-cars.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 8. National Simplicity Day -->
+      <article class="explorer-session-card" data-tags="minimalism cozy-cabin mindful-living nature slow-life" style="background: white; border: 1px solid var(--border); border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; text-align: left;">
+        <div style="height: 5px; background: linear-gradient(135deg, #BA7517, #5c390b);"></div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; flex-wrap: wrap; gap: 0.3rem;">
+            <span class="club-tag" style="background: rgba(186,117,23,0.1); color: #BA7517; border-color: rgba(186,117,23,0.3);">🎉 Celebrate Club</span>
+            <span class="club-tag" style="background: #E1F5EE; color: #1A7A4A; border-color: #A3E4D7;">B1</span>
+          </div>
+          <h4 style="font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; font-family: var(--font-serif); line-height: 1.3;">National Simplicity Day</h4>
+          <p style="font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1;">Explore the minimalism of Henry David Thoreau. Discover mindfulness, nature, and slower lifestyles.</p>
+
+          <div class="esc-tags-wrapper" style="border-top: 1px dashed var(--border); padding-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+            <button class="esc-tag-btn" data-tag="minimalism" style="background:#FFEBEA; color:#A73A3A; border-color:#F5C2C2;" title="About the source">#minimalism</button>
+            <button class="esc-tag-btn" data-tag="cozy-cabin" style="background:#FFF9E6; color:#8C6D1A; border-color:#F5E2B3;" title="Represented by the cover">#cozy-cabin</button>
+            <button class="esc-tag-btn" data-tag="mindful-living" style="background:#E1F5EE; color:#167543; border-color:#B3EAD1;" title="Main idea">#mindful-living</button>
+            <button class="esc-tag-btn" data-tag="nature" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#nature</button>
+            <button class="esc-tag-btn" data-tag="slow-life" style="background:#EEEDFE; color:#3F3AA7; border-color:#C2C0F5;" title="Secondary idea">#slow-life</button>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: flex-end;">
+            <a href="sessions/lets-celebrate/national-simplicity-day.html" style="font-size: 0.82rem; font-weight: 700; color: var(--teal); text-decoration: underline;">View Session →</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
   <!-- Section 4: Upcoming Events -->
   <section id="upcoming">
     <div class="upcoming-section">
@@ -348,6 +703,341 @@
       </div>
 
       <p class="upcoming-note">Dates confirmed via WhatsApp — message us to be added to the list.</p>
+    </div>
+  </section>
+
+  <!-- Section: Comprehensive Master Session Directory -->
+  <section id="master-session-directory" class="directory-section">
+    <span class="sec-tag">📊 Comprehensive Live Events Archive</span>
+    <h2 class="sec-h2">Master Session Directory</h2>
+    <p class="sec-p">Explore every past session, study sheet, speaking prompt list, and original-language debate topic across all 9 clubs. Filter below to search instantly.</p>
+
+    <!-- Search Box -->
+    <div class="dir-search-box">
+      <input type="text" id="dir-search" class="dir-search-input" placeholder="Type to search all past sessions (e.g., AI, Dostoevsky, French, Chess)...">
+    </div>
+
+    <!-- Accordion Panels -->
+    <div class="dir-accordions">
+
+      <!-- 1. The Greatest Quotes -->
+      <div class="dir-panel" data-club="quotes">
+        <div class="dir-header" onclick="toggleDirPanel(this)">
+          <span>💬 The Greatest Quotes Club</span>
+          <span class="dir-arrow">▼</span>
+        </div>
+        <div class="dir-body">
+          <div class="dir-links-grid">
+            <a href="sessions/the-greatest-quotes/ability-to-notice-beauty-quote.html" class="dir-link"><span class="dir-link-dot"></span>Ability to Notice Beauty</a>
+            <a href="sessions/the-greatest-quotes/accept-gay-child.html" class="dir-link"><span class="dir-link-dot"></span>Accepting a Gay Child</a>
+            <a href="sessions/the-greatest-quotes/ai-opposite-of-art.html" class="dir-link"><span class="dir-link-dot"></span>AI is the Opposite of Art</a>
+            <a href="sessions/the-greatest-quotes/amish-tripathi-quote.html" class="dir-link"><span class="dir-link-dot"></span>Amish Tripathi Quote</a>
+            <a href="sessions/the-greatest-quotes/barbra-streisand-quote.html" class="dir-link"><span class="dir-link-dot"></span>Barbra Streisand Quote</a>
+            <a href="sessions/the-greatest-quotes/brianna-pastor-proud-quote.html" class="dir-link"><span class="dir-link-dot"></span>Brianna Pastor Proud Quote</a>
+            <a href="sessions/the-greatest-quotes/compass-and-clock.html" class="dir-link"><span class="dir-link-dot"></span>The Compass and the Clock</a>
+            <a href="sessions/the-greatest-quotes/dangerous-blindness-perspective.html" class="dir-link"><span class="dir-link-dot"></span>Dangerous Blindness Perspective</a>
+            <a href="sessions/the-greatest-quotes/disappear-with-art-quote.html" class="dir-link"><span class="dir-link-dot"></span>Disappear with Art</a>
+            <a href="sessions/the-greatest-quotes/dolto-difficult-child-quote.html" class="dir-link"><span class="dir-link-dot"></span>Françoise Dolto: Difficult Children</a>
+            <a href="sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html" class="dir-link"><span class="dir-link-dot"></span>Dostoevsky: Loving Means Power</a>
+            <a href="sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html" class="dir-link"><span class="dir-link-dot"></span>Dostoevsky: Politics &amp; Religion</a>
+            <a href="sessions/the-greatest-quotes/einstein-passionately-curious-quote.html" class="dir-link"><span class="dir-link-dot"></span>Einstein: Passionately Curious</a>
+            <a href="sessions/the-greatest-quotes/favorite-days-not-happened.html" class="dir-link"><span class="dir-link-dot"></span>Favorite Days Not Happened</a>
+            <a href="sessions/the-greatest-quotes/feynman-education-quote.html" class="dir-link"><span class="dir-link-dot"></span>Feynman Education Quote</a>
+            <a href="sessions/the-greatest-quotes/feynman-knowledge-isnt-free-elementary.html" class="dir-link"><span class="dir-link-dot"></span>Feynman: Knowledge Isn't Free (Elem)</a>
+            <a href="sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html" class="dir-link"><span class="dir-link-dot"></span>Feynman: Knowledge Isn't Free (Interm)</a>
+            <a href="sessions/the-greatest-quotes/feynman-no-shame-knowing-quote.html" class="dir-link"><span class="dir-link-dot"></span>Feynman: No Shame in Not Knowing</a>
+            <a href="sessions/the-greatest-quotes/feynman-study-hard.html" class="dir-link"><span class="dir-link-dot"></span>Feynman: Study Hard</a>
+            <a href="sessions/the-greatest-quotes/home-is-a-time.html" class="dir-link"><span class="dir-link-dot"></span>Home is a Time</a>
+            <a href="sessions/the-greatest-quotes/jim-kwik-quote.html" class="dir-link"><span class="dir-link-dot"></span>Jim Kwik Quote</a>
+            <a href="sessions/the-greatest-quotes/langle-suppressed-child-quote.html" class="dir-link"><span class="dir-link-dot"></span>Längle: Suppressed Child</a>
+            <a href="sessions/the-greatest-quotes/madonna-ai-art-quote-elementary.html" class="dir-link"><span class="dir-link-dot"></span>Madonna AI Art (Elem)</a>
+            <a href="sessions/the-greatest-quotes/madonna-ai-art-quote-intermediate.html" class="dir-link"><span class="dir-link-dot"></span>Madonna AI Art (Interm)</a>
+            <a href="sessions/the-greatest-quotes/memory-cards-storage-quote.html" class="dir-link"><span class="dir-link-dot"></span>Memory Cards Storage</a>
+            <a href="sessions/the-greatest-quotes/must-die-first.html" class="dir-link"><span class="dir-link-dot"></span>You Must Die First</a>
+            <a href="sessions/the-greatest-quotes/neufeld-resistance-quote.html" class="dir-link"><span class="dir-link-dot"></span>Neufeld: Resistance Quote</a>
+            <a href="sessions/the-greatest-quotes/rain-seller-umbrella-quote.html" class="dir-link"><span class="dir-link-dot"></span>Rain Seller Umbrella Proverb</a>
+            <a href="sessions/the-greatest-quotes/robin-williams-quote.html" class="dir-link"><span class="dir-link-dot"></span>Robin Williams Quote</a>
+            <a href="sessions/the-greatest-quotes/sadia-hakim-humanity-quote.html" class="dir-link"><span class="dir-link-dot"></span>Sadia Hakim Humanity Quote</a>
+            <a href="sessions/the-greatest-quotes/saudade.html" class="dir-link"><span class="dir-link-dot"></span>Saudade</a>
+            <a href="sessions/the-greatest-quotes/sonder.html" class="dir-link"><span class="dir-link-dot"></span>Sonder</a>
+            <a href="sessions/the-greatest-quotes/stay-free-quote.html" class="dir-link"><span class="dir-link-dot"></span>Stay Free Quote</a>
+            <a href="sessions/the-greatest-quotes/steve-jobs-quote.html" class="dir-link"><span class="dir-link-dot"></span>Steve Jobs Quote</a>
+            <a href="sessions/the-greatest-quotes/think-for-yourself-quote.html" class="dir-link"><span class="dir-link-dot"></span>Think for Yourself</a>
+            <a href="sessions/the-greatest-quotes/turn-off-ai-quote.html" class="dir-link"><span class="dir-link-dot"></span>Turn Off AI</a>
+            <a href="sessions/the-greatest-quotes/underpaid-politicians-teachers-quote.html" class="dir-link"><span class="dir-link-dot"></span>Underpaid Politicians &amp; Teachers</a>
+            <a href="sessions/the-greatest-quotes/virginia-woolf-trigger-quote.html" class="dir-link"><span class="dir-link-dot"></span>Virginia Woolf Trigger Quote</a>
+            <a href="sessions/the-greatest-quotes/voltaire-read-dance-quote.html" class="dir-link"><span class="dir-link-dot"></span>Voltaire: Read and Dance</a>
+            <a href="sessions/the-greatest-quotes/weird-people-dreams-quote.html" class="dir-link"><span class="dir-link-dot"></span>Weird People with Big Dreams</a>
+            <a href="sessions/the-greatest-quotes/wisdom-of-socrates.html" class="dir-link"><span class="dir-link-dot"></span>The Wisdom of Socrates</a>
+            <a href="sessions/the-greatest-quotes/women-mothers-tragedy.html" class="dir-link"><span class="dir-link-dot"></span>The Tragedy of Women</a>
+            <a href="sessions/the-greatest-quotes/you-are-a-soul.html" class="dir-link"><span class="dir-link-dot"></span>You Are a Soul</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Cinema Club -->
+      <div class="dir-panel" data-club="cinema">
+        <div class="dir-header" onclick="toggleDirPanel(this)">
+          <span>🎬 Cinema Club</span>
+          <span class="dir-arrow">▼</span>
+        </div>
+        <div class="dir-body">
+          <div class="dir-links-grid">
+            <a href="sessions/cinema-club/101-and-102-dalmatians.html" class="dir-link"><span class="dir-link-dot"></span>101 &amp; 102 Dalmatians</a>
+            <a href="sessions/cinema-club/16-wishes.html" class="dir-link"><span class="dir-link-dot"></span>16 Wishes</a>
+            <a href="sessions/cinema-club/a-quiet-place.html" class="dir-link"><span class="dir-link-dot"></span>A Quiet Place</a>
+            <a href="sessions/cinema-club/about-time.html" class="dir-link"><span class="dir-link-dot"></span>About Time</a>
+            <a href="sessions/cinema-club/adolescence.html" class="dir-link"><span class="dir-link-dot"></span>Adolescence</a>
+            <a href="sessions/cinema-club/angels-and-demons.html" class="dir-link"><span class="dir-link-dot"></span>Angels and Demons</a>
+            <a href="sessions/cinema-club/beautiful-thing.html" class="dir-link"><span class="dir-link-dot"></span>Beautiful Thing</a>
+            <a href="sessions/cinema-club/bird-box.html" class="dir-link"><span class="dir-link-dot"></span>Bird Box</a>
+            <a href="sessions/cinema-club/black-mirror.html" class="dir-link"><span class="dir-link-dot"></span>Black Mirror</a>
+            <a href="sessions/cinema-club/bohemian-rhapsody.html" class="dir-link"><span class="dir-link-dot"></span>Bohemian Rhapsody</a>
+            <a href="sessions/cinema-club/breakfast-at-tiffanys.html" class="dir-link"><span class="dir-link-dot"></span>Breakfast at Tiffany's</a>
+            <a href="sessions/cinema-club/call-me-by-your-name.html" class="dir-link"><span class="dir-link-dot"></span>Call Me By Your Name</a>
+            <a href="sessions/cinema-club/charade.html" class="dir-link"><span class="dir-link-dot"></span>Charade</a>
+            <a href="sessions/cinema-club/cloud-atlas.html" class="dir-link"><span class="dir-link-dot"></span>Cloud Atlas</a>
+            <a href="sessions/cinema-club/coda.html" class="dir-link"><span class="dir-link-dot"></span>Coda</a>
+            <a href="sessions/cinema-club/countdown.html" class="dir-link"><span class="dir-link-dot"></span>Countdown</a>
+            <a href="sessions/cinema-club/crazy-ex-girlfriend.html" class="dir-link"><span class="dir-link-dot"></span>Crazy Ex-Girlfriend</a>
+            <a href="sessions/cinema-club/death-becomes-her.html" class="dir-link"><span class="dir-link-dot"></span>Death Becomes Her</a>
+            <a href="sessions/cinema-club/dont-look-up.html" class="dir-link"><span class="dir-link-dot"></span>Don't Look Up</a>
+            <a href="sessions/cinema-club/dont-worry-darling.html" class="dir-link"><span class="dir-link-dot"></span>Don't Worry Darling</a>
+            <a href="sessions/cinema-club/equals.html" class="dir-link"><span class="dir-link-dot"></span>Equals</a>
+            <a href="sessions/cinema-club/fleabag.html" class="dir-link"><span class="dir-link-dot"></span>Fleabag</a>
+            <a href="sessions/cinema-club/free-guy.html" class="dir-link"><span class="dir-link-dot"></span>Free Guy</a>
+            <a href="sessions/cinema-club/funny-girl.html" class="dir-link"><span class="dir-link-dot"></span>Funny Girl</a>
+            <a href="sessions/cinema-club/glee.html" class="dir-link"><span class="dir-link-dot"></span>Glee</a>
+            <a href="sessions/cinema-club/gone-girl.html" class="dir-link"><span class="dir-link-dot"></span>Gone Girl</a>
+            <a href="sessions/cinema-club/heathers-the-musical.html" class="dir-link"><span class="dir-link-dot"></span>Heathers the Musical</a>
+            <a href="sessions/cinema-club/hello-dolly.html" class="dir-link"><span class="dir-link-dot"></span>Hello Dolly</a>
+            <a href="sessions/cinema-club/hereditary.html" class="dir-link"><span class="dir-link-dot"></span>Hereditary</a>
+            <a href="sessions/cinema-club/homeward-bound.html" class="dir-link"><span class="dir-link-dot"></span>Homeward Bound</a>
+            <a href="sessions/cinema-club/how-i-live-now.html" class="dir-link"><span class="dir-link-dot"></span>How I Live Now</a>
+            <a href="sessions/cinema-club/how-to-be-single.html" class="dir-link"><span class="dir-link-dot"></span>How to Be Single</a>
+            <a href="sessions/cinema-club/incendies.html" class="dir-link"><span class="dir-link-dot"></span>Incendies</a>
+            <a href="sessions/cinema-club/its-complicated.html" class="dir-link"><span class="dir-link-dot"></span>It's Complicated</a>
+            <a href="sessions/cinema-club/julie-and-julia.html" class="dir-link"><span class="dir-link-dot"></span>Julie &amp; Julia</a>
+            <a href="sessions/cinema-club/just-my-luck.html" class="dir-link"><span class="dir-link-dot"></span>Just My Luck</a>
+            <a href="sessions/cinema-club/kill-bill.html" class="dir-link"><span class="dir-link-dot"></span>Kill Bill</a>
+            <a href="sessions/cinema-club/killing-eve.html" class="dir-link"><span class="dir-link-dot"></span>Killing Eve</a>
+            <a href="sessions/cinema-club/kinky-boots.html" class="dir-link"><span class="dir-link-dot"></span>Kinky Boots</a>
+            <a href="sessions/cinema-club/la-valla.html" class="dir-link"><span class="dir-link-dot"></span>La Valla (The Barrier)</a>
+            <a href="sessions/cinema-club/leave-the-world-behind.html" class="dir-link"><span class="dir-link-dot"></span>Leave the World Behind</a>
+            <a href="sessions/cinema-club/lost.html" class="dir-link"><span class="dir-link-dot"></span>Lost</a>
+            <a href="sessions/cinema-club/love-and-other-drugs.html" class="dir-link"><span class="dir-link-dot"></span>Love and Other Drugs</a>
+            <a href="sessions/cinema-club/luck.html" class="dir-link"><span class="dir-link-dot"></span>Luck</a>
+            <a href="sessions/cinema-club/lucy.html" class="dir-link"><span class="dir-link-dot"></span>Lucy</a>
+            <a href="sessions/cinema-club/mamma-mia.html" class="dir-link"><span class="dir-link-dot"></span>Mamma Mia!</a>
+            <a href="sessions/cinema-club/midsommar.html" class="dir-link"><span class="dir-link-dot"></span>Midsommar</a>
+            <a href="sessions/cinema-club/miss-you-already.html" class="dir-link"><span class="dir-link-dot"></span>Miss You Already</a>
+            <a href="sessions/cinema-club/missing-searching.html" class="dir-link"><span class="dir-link-dot"></span>Missing &amp; Searching</a>
+            <a href="sessions/cinema-club/mrs.-harris-goes-to-paris.html" class="dir-link"><span class="dir-link-dot"></span>Mrs. Harris Goes to Paris</a>
+            <a href="sessions/cinema-club/now-you-see-me.html" class="dir-link"><span class="dir-link-dot"></span>Now You See Me</a>
+            <a href="sessions/cinema-club/nuts.html" class="dir-link"><span class="dir-link-dot"></span>Nuts</a>
+            <a href="sessions/cinema-club/odd-thomas.html" class="dir-link"><span class="dir-link-dot"></span>Odd Thomas</a>
+            <a href="sessions/cinema-club/on-a-clear-day-you-can-see....html" class="dir-link"><span class="dir-link-dot"></span>On a Clear Day You Can See...</a>
+            <a href="sessions/cinema-club/personal-shopper.html" class="dir-link"><span class="dir-link-dot"></span>Personal Shopper</a>
+            <a href="sessions/cinema-club/queendom.html" class="dir-link"><span class="dir-link-dot"></span>Queendom</a>
+            <a href="sessions/cinema-club/radin.html" class="dir-link"><span class="dir-link-dot"></span>Radin!</a>
+            <a href="sessions/cinema-club/ratatouille.html" class="dir-link"><span class="dir-link-dot"></span>Ratatouille</a>
+            <a href="sessions/cinema-club/roman-holiday.html" class="dir-link"><span class="dir-link-dot"></span>Roman Holiday</a>
+            <a href="sessions/cinema-club/run.html" class="dir-link"><span class="dir-link-dot"></span>Run</a>
+            <a href="sessions/cinema-club/serebryanye-konki.html" class="dir-link"><span class="dir-link-dot"></span>Serebryanye Konki (Silver Skates)</a>
+            <a href="sessions/cinema-club/sex-and-the-city.html" class="dir-link"><span class="dir-link-dot"></span>Sex and the City</a>
+            <a href="sessions/cinema-club/shes-the-man.html" class="dir-link"><span class="dir-link-dot"></span>She's the Man</a>
+            <a href="sessions/cinema-club/spoiler-alert.html" class="dir-link"><span class="dir-link-dot"></span>Spoiler Alert</a>
+            <a href="sessions/cinema-club/stepmom.html" class="dir-link"><span class="dir-link-dot"></span>Stepmom</a>
+            <a href="sessions/cinema-club/still-alice.html" class="dir-link"><span class="dir-link-dot"></span>Still Alice</a>
+            <a href="sessions/cinema-club/suspiria-2018.html" class="dir-link"><span class="dir-link-dot"></span>Suspiria</a>
+            <a href="sessions/cinema-club/the-act.html" class="dir-link"><span class="dir-link-dot"></span>The Act</a>
+            <a href="sessions/cinema-club/the-age-of-adaline.html" class="dir-link"><span class="dir-link-dot"></span>The Age of Adaline</a>
+            <a href="sessions/cinema-club/the-call.html" class="dir-link"><span class="dir-link-dot"></span>The Call</a>
+            <a href="sessions/cinema-club/the-da-vinci-code.html" class="dir-link"><span class="dir-link-dot"></span>The Da Vinci Code</a>
+            <a href="sessions/cinema-club/the-devil-wears-prada.html" class="dir-link"><span class="dir-link-dot"></span>The Devil Wears Prada</a>
+            <a href="sessions/cinema-club/the-first-wives-club.html" class="dir-link"><span class="dir-link-dot"></span>The First Wives Club</a>
+            <a href="sessions/cinema-club/the-hunger-games.html" class="dir-link"><span class="dir-link-dot"></span>The Hunger Games</a>
+            <a href="sessions/cinema-club/the-invasion.html" class="dir-link"><span class="dir-link-dot"></span>The Invasion</a>
+            <a href="sessions/cinema-club/the-iron-lady.html" class="dir-link"><span class="dir-link-dot"></span>The Iron Lady</a>
+            <a href="sessions/cinema-club/the-mirror-has-two-faces.html" class="dir-link"><span class="dir-link-dot"></span>The Mirror Has Two Faces</a>
+            <a href="sessions/cinema-club/the-mummy.html" class="dir-link"><span class="dir-link-dot"></span>The Mummy</a>
+            <a href="sessions/cinema-club/the-notebook.html" class="dir-link"><span class="dir-link-dot"></span>The Notebook</a>
+            <a href="sessions/cinema-club/the-others.html" class="dir-link"><span class="dir-link-dot"></span>The Others</a>
+            <a href="sessions/cinema-club/the-owl-and-the-pussycat.html" class="dir-link"><span class="dir-link-dot"></span>The Owl and the Pussycat</a>
+            <a href="sessions/cinema-club/the-pianist.html" class="dir-link"><span class="dir-link-dot"></span>The Pianist</a>
+            <a href="sessions/cinema-club/the-queens-gambit.html" class="dir-link"><span class="dir-link-dot"></span>The Queen's Gambit</a>
+            <a href="sessions/cinema-club/the-regime.html" class="dir-link"><span class="dir-link-dot"></span>The Regime</a>
+            <a href="sessions/cinema-club/the-shape-of-water.html" class="dir-link"><span class="dir-link-dot"></span>The Shape of Water</a>
+            <a href="sessions/cinema-club/the-substance.html" class="dir-link"><span class="dir-link-dot"></span>The Substance</a>
+            <a href="sessions/cinema-club/the-swan-princess.html" class="dir-link"><span class="dir-link-dot"></span>The Swan Princess</a>
+            <a href="sessions/cinema-club/v-for-vendetta.html" class="dir-link"><span class="dir-link-dot"></span>V for Vendetta</a>
+            <a href="sessions/cinema-club/what-women-want.html" class="dir-link"><span class="dir-link-dot"></span>What Women Want</a>
+            <a href="sessions/cinema-club/why-women-kill.html" class="dir-link"><span class="dir-link-dot"></span>Why Women Kill</a>
+            <a href="sessions/cinema-club/yentl.html" class="dir-link"><span class="dir-link-dot"></span>Yentl</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Karaoke Club -->
+      <div class="dir-panel" data-club="karaoke">
+        <div class="dir-header" onclick="toggleDirPanel(this)">
+          <span>🎤 Karaoke Club</span>
+          <span class="dir-arrow">▼</span>
+        </div>
+        <div class="dir-body">
+          <div style="margin-bottom:1.5rem; font-size:0.88rem; color:var(--muted); line-height:1.5; background:rgba(74, 21, 75, 0.03); border:1px solid #4A154B; border-radius:10px; padding:1rem;">
+            🎶 **Note:** Karaoke Club features over **90 high-energy song challenges**. Below is a featured selection. Visit the <a href="karaoke-club.html" style="color:#4A154B; font-weight:700; text-decoration:underline;">Complete Karaoke Club Hub</a> to access all active tracks, vocabulary grids, and full lyrics!
+          </div>
+          <div class="dir-links-grid">
+            <a href="sessions/karaoke-club/toutes-les-machines-ont-le-coeur.html" class="dir-link"><span class="dir-link-dot"></span>Toutes les machines ont le cœur (French)</a>
+            <a href="sessions/karaoke-club/je-taime-comme-je-taime.html" class="dir-link"><span class="dir-link-dot"></span>Je t'aime comme je t'aime (French)</a>
+            <a href="sessions/karaoke-club/me-and-i.html" class="dir-link"><span class="dir-link-dot"></span>me &amp; I (English)</a>
+            <a href="sessions/karaoke-club/angeleyes.html" class="dir-link"><span class="dir-link-dot"></span>angeleyes (English)</a>
+            <a href="sessions/karaoke-club/salut.html" class="dir-link"><span class="dir-link-dot"></span>salut (French)</a>
+            <a href="sessions/karaoke-club/toi-mon-amour.html" class="dir-link"><span class="dir-link-dot"></span>Toi Mon Amour (French)</a>
+            <a href="sessions/karaoke-club/luomo-che-amava-le-donne.html" class="dir-link"><span class="dir-link-dot"></span>L'uomo che amava le donne (Italian)</a>
+            <a href="sessions/karaoke-club/unatta-estate.html" class="dir-link"><span class="dir-link-dot"></span>Un'altra estate (Italian)</a>
+            <a href="sessions/karaoke-club/mixed-up-world.html" class="dir-link"><span class="dir-link-dot"></span>Mixed Up World (English)</a>
+            <a href="sessions/karaoke-club/u-mamy-est-sekret.html" class="dir-link"><span class="dir-link-dot"></span>Childhood Secret (Russian)</a>
+            <a href="sessions/karaoke-club/amor-libre.html" class="dir-link"><span class="dir-link-dot"></span>Amor Libre (Spanish)</a>
+            <a href="sessions/karaoke-club/te-alejas-mas-de-mi.html" class="dir-link"><span class="dir-link-dot"></span>Te alejas más de mí (Spanish)</a>
+            <a href="sessions/karaoke-club/oui-ou-non.html" class="dir-link"><span class="dir-link-dot"></span>Oui ou Non (French)</a>
+            <a href="sessions/karaoke-club/balance-ton-quoi.html" class="dir-link"><span class="dir-link-dot"></span>Balance ton quoi (French)</a>
+            <a href="sessions/karaoke-club/nuevo-verano.html" class="dir-link"><span class="dir-link-dot"></span>Nuevo Verano (Spanish)</a>
+            <a href="sessions/karaoke-club/nos-ames-sont.html" class="dir-link"><span class="dir-link-dot"></span>Nos âmes sont (French)</a>
+            <a href="sessions/karaoke-club/left-outside-alone.html" class="dir-link"><span class="dir-link-dot"></span>Left Outside Alone (English)</a>
+            <a href="sessions/karaoke-club/quelquun-pour-toi.html" class="dir-link"><span class="dir-link-dot"></span>Quelqu'un pour toi (French)</a>
+            <a href="sessions/karaoke-club/voila.html" class="dir-link"><span class="dir-link-dot"></span>Voilà (French)</a>
+            <a href="sessions/karaoke-club/vyshe-domov.html" class="dir-link"><span class="dir-link-dot"></span>Vyshe Domov (Russian)</a>
+            <a href="sessions/karaoke-club/as-it-was.html" class="dir-link"><span class="dir-link-dot"></span>As It Was (English)</a>
+            <a href="sessions/karaoke-club/make-your-own-kind-of-music.html" class="dir-link"><span class="dir-link-dot"></span>Make Your Own Kind of Music</a>
+            <a href="sessions/karaoke-club/overprotected.html" class="dir-link"><span class="dir-link-dot"></span>Overprotected (English)</a>
+            <a href="sessions/karaoke-club/ma-philosophie.html" class="dir-link"><span class="dir-link-dot"></span>Ma Philosophie (French)</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Mind Matters -->
+      <div class="dir-panel" data-club="mind">
+        <div class="dir-header" onclick="toggleDirPanel(this)">
+          <span>🧠 Mind Matters Club</span>
+          <span class="dir-arrow">▼</span>
+        </div>
+        <div class="dir-body">
+          <div class="dir-links-grid">
+            <a href="sessions/mind-matters/anticipatory-grief.html" class="dir-link"><span class="dir-link-dot"></span>Anticipatory Grief</a>
+            <a href="sessions/mind-matters/aspiration-vs-inspiration.html" class="dir-link"><span class="dir-link-dot"></span>Aspiration vs Inspiration</a>
+            <a href="sessions/mind-matters/benjamin-franklin-effect.html" class="dir-link"><span class="dir-link-dot"></span>Benjamin Franklin Effect</a>
+            <a href="sessions/mind-matters/blue-eyes-brown-eyes-experiment.html" class="dir-link"><span class="dir-link-dot"></span>Blue Eyes Brown Eyes</a>
+            <a href="sessions/mind-matters/bluewashing.html" class="dir-link"><span class="dir-link-dot"></span>Bluewashing</a>
+            <a href="sessions/mind-matters/bounded-rationality.html" class="dir-link"><span class="dir-link-dot"></span>Bounded Rationality</a>
+            <a href="sessions/mind-matters/brain-discipline-dopamine.html" class="dir-link"><span class="dir-link-dot"></span>Brain Discipline &amp; Dopamine</a>
+            <a href="sessions/mind-matters/brainwashing.html" class="dir-link"><span class="dir-link-dot"></span>Brainwashing</a>
+            <a href="sessions/mind-matters/broken-children-grown-bodies.html" class="dir-link"><span class="dir-link-dot"></span>Broken Children, Grown Bodies</a>
+            <a href="sessions/mind-matters/conversations-avoid-enjoy.html" class="dir-link"><span class="dir-link-dot"></span>Conversations to Avoid/Enjoy</a>
+            <a href="sessions/mind-matters/depersonalization.html" class="dir-link"><span class="dir-link-dot"></span>Depersonalization</a>
+            <a href="sessions/mind-matters/expert-defend-language-mistakes.html" class="dir-link"><span class="dir-link-dot"></span>Expert Defends Language Mistakes</a>
+            <a href="sessions/mind-matters/fear-of-love-control.html" class="dir-link"><span class="dir-link-dot"></span>Fear of Love Control</a>
+            <a href="sessions/mind-matters/finding-the-right-person.html" class="dir-link"><span class="dir-link-dot"></span>Finding the Right Person</a>
+            <a href="sessions/mind-matters/gilberts-law.html" class="dir-link"><span class="dir-link-dot"></span>Gilbert's Law</a>
+            <a href="sessions/mind-matters/guilt-moving-abroad.html" class="dir-link"><span class="dir-link-dot"></span>Guilt of Moving Abroad</a>
+            <a href="sessions/mind-matters/how-to-love-your-work.html" class="dir-link"><span class="dir-link-dot"></span>How to Love Your Work</a>
+            <a href="sessions/mind-matters/impersonation.html" class="dir-link"><span class="dir-link-dot"></span>Impersonation</a>
+            <a href="sessions/mind-matters/kidlins-law.html" class="dir-link"><span class="dir-link-dot"></span>Kidlin's Law</a>
+            <a href="sessions/mind-matters/law-of-attraction.html" class="dir-link"><span class="dir-link-dot"></span>Law of Attraction</a>
+            <a href="sessions/mind-matters/limerence.html" class="dir-link"><span class="dir-link-dot"></span>Limerence</a>
+            <a href="sessions/mind-matters/maze-of-biases.html" class="dir-link"><span class="dir-link-dot"></span>Maze of Biases</a>
+            <a href="sessions/mind-matters/mind-great-literature.html" class="dir-link"><span class="dir-link-dot"></span>Mind &amp; Great Literature</a>
+            <a href="sessions/mind-matters/moving-new-city-true-self.html" class="dir-link"><span class="dir-link-dot"></span>Moving to New City &amp; True Self</a>
+            <a href="sessions/mind-matters/murphys-law.html" class="dir-link"><span class="dir-link-dot"></span>Murphy's Law</a>
+            <a href="sessions/mind-matters/nazi-race-propaganda.html" class="dir-link"><span class="dir-link-dot"></span>Nazi Race Propaganda</a>
+            <a href="sessions/mind-matters/pinkwashing.html" class="dir-link"><span class="dir-link-dot"></span>Pinkwashing</a>
+            <a href="sessions/mind-matters/power-of-habits.html" class="dir-link"><span class="dir-link-dot"></span>Power of Habits</a>
+            <a href="sessions/mind-matters/psychology-of-action-bias.html" class="dir-link"><span class="dir-link-dot"></span>Psychology of Action Bias</a>
+            <a href="sessions/mind-matters/psychology-of-smiles.html" class="dir-link"><span class="dir-link-dot"></span>Psychology of Smiles</a>
+            <a href="sessions/mind-matters/purple-washing.html" class="dir-link"><span class="dir-link-dot"></span>Purple Washing</a>
+            <a href="sessions/mind-matters/redwashing.html" class="dir-link"><span class="dir-link-dot"></span>Redwashing</a>
+            <a href="sessions/mind-matters/science-of-sleep.html" class="dir-link"><span class="dir-link-dot"></span>Science of Sleep</a>
+            <a href="sessions/mind-matters/simmel-objective-freedom.html" class="dir-link"><span class="dir-link-dot"></span>Simmel: Objective Freedom</a>
+            <a href="sessions/mind-matters/sportswashing.html" class="dir-link"><span class="dir-link-dot"></span>Sportswashing</a>
+            <a href="sessions/mind-matters/whitewashing.html" class="dir-link"><span class="dir-link-dot"></span>Whitewashing</a>
+            <a href="sessions/mind-matters/wilsons-law.html" class="dir-link"><span class="dir-link-dot"></span>Wilson's Law</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Keeping Up with Science -->
+      <div class="dir-panel" data-club="science">
+        <div class="dir-header" onclick="toggleDirPanel(this)">
+          <span>🔬 Keeping Up with Science</span>
+          <span class="dir-arrow">▼</span>
+        </div>
+        <div class="dir-body">
+          <div class="dir-links-grid">
+            <a href="sessions/keeping-up-with-science/ai-and-the-brain.html" class="dir-link"><span class="dir-link-dot"></span>AI and the Brain</a>
+            <a href="sessions/keeping-up-with-science/ai-reality-delusion.html" class="dir-link"><span class="dir-link-dot"></span>AI Reality Delusion</a>
+            <a href="sessions/keeping-up-with-science/animal-cooperation-language.html" class="dir-link"><span class="dir-link-dot"></span>Animal Cooperation &amp; Language</a>
+            <a href="sessions/keeping-up-with-science/ape-laughter-speech-origin-elementary.html" class="dir-link"><span class="dir-link-dot"></span>Ape Laughter (Elementary)</a>
+            <a href="sessions/keeping-up-with-science/ape-laughter-speech-origin-intermediate.html" class="dir-link"><span class="dir-link-dot"></span>Ape Laughter (Intermediate)</a>
+            <a href="sessions/keeping-up-with-science/brain-improving-in-90s.html" class="dir-link"><span class="dir-link-dot"></span>Brain Improving in 90s</a>
+            <a href="sessions/keeping-up-with-science/climate-scientist-warming-report.html" class="dir-link"><span class="dir-link-dot"></span>Climate Scientist Report</a>
+            <a href="sessions/keeping-up-with-science/football-beats-shamrock.html" class="dir-link"><span class="dir-link-dot"></span>Football Beats Shamrock</a>
+            <a href="sessions/keeping-up-with-science/fusion-energy.html" class="dir-link"><span class="dir-link-dot"></span>Fusion Energy</a>
+            <a href="sessions/keeping-up-with-science/grandmother-evolutionary-mystery.html" class="dir-link"><span class="dir-link-dot"></span>Grandmother Evolutionary Mystery</a>
+            <a href="sessions/keeping-up-with-science/grandparents-mental-health.html" class="dir-link"><span class="dir-link-dot"></span>Grandparents Mental Health</a>
+            <a href="sessions/keeping-up-with-science/hidden-regenerative-powers.html" class="dir-link"><span class="dir-link-dot"></span>Hidden Regenerative Powers</a>
+            <a href="sessions/keeping-up-with-science/impersonation-accounts.html" class="dir-link"><span class="dir-link-dot"></span>Impersonation Accounts</a>
+            <a href="sessions/keeping-up-with-science/living-most-creative-time.html" class="dir-link"><span class="dir-link-dot"></span>Living Most Creative Time</a>
+            <a href="sessions/keeping-up-with-science/losing-spoken-words.html" class="dir-link"><span class="dir-link-dot"></span>Losing Spoken Words</a>
+            <a href="sessions/keeping-up-with-science/mendelian-laws-broken.html" class="dir-link"><span class="dir-link-dot"></span>Mendelian Laws Broken</a>
+            <a href="sessions/keeping-up-with-science/ozempic-obesity-revolution.html" class="dir-link"><span class="dir-link-dot"></span>Ozempic Obesity Revolution</a>
+            <a href="sessions/keeping-up-with-science/right-handedness.html" class="dir-link"><span class="dir-link-dot"></span>Right Handedness</a>
+            <a href="sessions/keeping-up-with-science/sensory-system-pain-disease.html" class="dir-link"><span class="dir-link-dot"></span>Sensory System, Pain &amp; Disease</a>
+            <a href="sessions/keeping-up-with-science/social-decisions-brain.html" class="dir-link"><span class="dir-link-dot"></span>Social Decisions Brain</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. My Life With & Without -->
+      <div class="dir-panel" data-club="life">
+        <div class="dir-header" onclick="toggleDirPanel(this)">
+          <span>🏡 My Life With &amp; Without</span>
+          <span class="dir-arrow">▼</span>
+        </div>
+        <div class="dir-body">
+          <div class="dir-links-grid">
+            <a href="sessions/my-life-with-without/car-life.html" class="dir-link"><span class="dir-link-dot"></span>Car Life</a>
+            <a href="sessions/my-life-with-without/celebrity-life.html" class="dir-link"><span class="dir-link-dot"></span>Celebrity Life</a>
+            <a href="sessions/my-life-with-without/diversity-life.html" class="dir-link"><span class="dir-link-dot"></span>Diversity Life</a>
+            <a href="sessions/my-life-with-without/fridge-life.html" class="dir-link"><span class="dir-link-dot"></span>Fridge Life</a>
+            <a href="sessions/my-life-with-without/high-rise-skyscrapers.html" class="dir-link"><span class="dir-link-dot"></span>High Rise Skyscrapers</a>
+            <a href="sessions/my-life-with-without/italian-gestures.html" class="dir-link"><span class="dir-link-dot"></span>Italian Gestures</a>
+            <a href="sessions/my-life-with-without/pets-life.html" class="dir-link"><span class="dir-link-dot"></span>Pets Life</a>
+            <a href="sessions/my-life-with-without/private-cars.html" class="dir-link"><span class="dir-link-dot"></span>Private Cars</a>
+            <a href="sessions/my-life-with-without/social-media-life.html" class="dir-link"><span class="dir-link-dot"></span>Social Media Life</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. Let's Celebrate -->
+      <div class="dir-panel" data-club="celebrate">
+        <div class="dir-header" onclick="toggleDirPanel(this)">
+          <span>🥳 Let's Celebrate Club</span>
+          <span class="dir-arrow">▼</span>
+        </div>
+        <div class="dir-body">
+          <div class="dir-links-grid">
+            <a href="sessions/lets-celebrate/diwali-festival.html" class="dir-link"><span class="dir-link-dot"></span>Diwali Festival</a>
+            <a href="sessions/lets-celebrate/family-remittances-day.html" class="dir-link"><span class="dir-link-dot"></span>Family Remittances Day</a>
+            <a href="sessions/lets-celebrate/international-asteroid-day.html" class="dir-link"><span class="dir-link-dot"></span>International Asteroid Day</a>
+            <a href="sessions/lets-celebrate/international-peace-love-day.html" class="dir-link"><span class="dir-link-dot"></span>International Peace Love Day</a>
+            <a href="sessions/lets-celebrate/lunar-new-year.html" class="dir-link"><span class="dir-link-dot"></span>Lunar New Year</a>
+            <a href="sessions/lets-celebrate/national-simplicity-day.html" class="dir-link"><span class="dir-link-dot"></span>National Simplicity Day</a>
+            <a href="sessions/lets-celebrate/national-workaholics-day.html" class="dir-link"><span class="dir-link-dot"></span>National Workaholics Day</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -417,6 +1107,7 @@
 <script src="../js/config.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
+  // --- 1. Main Live Club Filtering Logic ---
   const buttons = document.querySelectorAll('.filter-btn');
   const cards = document.querySelectorAll('.club-grid .club-card');
 
@@ -437,6 +1128,151 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+
+  // --- 2. Session Explorer Interactive Filtering Engine ---
+  const cloudTags = document.querySelectorAll('.cloud-tag-btn');
+  const escTags = document.querySelectorAll('.esc-tag-btn');
+  const sessionCards = document.querySelectorAll('.explorer-session-card');
+  const filterStatusBar = document.getElementById('filter-status-bar');
+  const filterStatusText = document.getElementById('filter-status-text');
+  const clearFilterBtn = document.getElementById('clear-filter-btn');
+
+  let activeFilterTag = null;
+
+  function applyTagFilter(tag) {
+    if (activeFilterTag === tag) {
+      // Toggle off if clicking active tag again
+      clearFilter();
+      return;
+    }
+
+    activeFilterTag = tag;
+
+    // Update cloud tags active state
+    cloudTags.forEach(btn => {
+      if (btn.getAttribute('data-tag') === tag) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+
+    // Filter session cards
+    let visibleCount = 0;
+    sessionCards.forEach(card => {
+      const cardTags = card.getAttribute('data-tags') || '';
+      if (cardTags.split(' ').includes(tag)) {
+        card.style.display = 'flex';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    // Show status bar
+    filterStatusText.textContent = `Active Filter: #${tag} (${visibleCount} ${visibleCount === 1 ? 'session' : 'sessions'} found)`;
+    filterStatusBar.style.display = 'flex';
+
+    // Smooth scroll to the explorer section
+    const explorerSec = document.getElementById('explorer-section');
+    if (explorerSec) {
+      explorerSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  function clearFilter() {
+    activeFilterTag = null;
+
+    // Reset cloud tag active classes
+    cloudTags.forEach(btn => btn.classList.remove('active'));
+
+    // Show all cards
+    sessionCards.forEach(card => {
+      card.style.display = 'flex';
+    });
+
+    // Hide status bar
+    filterStatusBar.style.display = 'none';
+  }
+
+  // Bind cloud tag buttons click handlers
+  cloudTags.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tag = btn.getAttribute('data-tag');
+      if (tag) applyTagFilter(tag);
+    });
+  });
+
+  // Bind inline card tag buttons click handlers
+  escTags.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const tag = btn.getAttribute('data-tag');
+      if (tag) applyTagFilter(tag);
+    });
+  });
+
+  // Bind clear filter button
+  if (clearFilterBtn) {
+    clearFilterBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      clearFilter();
+    });
+  }
+
+  // --- 3. Master Session Directory Accordions & Real-time Search ---
+  window.toggleDirPanel = function(headerEl) {
+    const panel = headerEl.closest('.dir-panel');
+    if (!panel) return;
+    panel.classList.toggle('open');
+  };
+
+  const dirSearchInput = document.getElementById('dir-search');
+  const dirPanels = document.querySelectorAll('.dir-panel');
+  const dirLinks = document.querySelectorAll('.dir-link');
+
+  if (dirSearchInput) {
+    dirSearchInput.addEventListener('input', () => {
+      const query = dirSearchInput.value.trim().toLowerCase();
+
+      if (!query) {
+        // Search is empty - show everything and collapse all panels
+        dirLinks.forEach(link => {
+          link.style.display = 'flex';
+        });
+        dirPanels.forEach(panel => {
+          panel.classList.remove('open');
+          panel.style.display = 'block';
+        });
+        return;
+      }
+
+      // Filter each link, tracking visibility inside panels
+      dirPanels.forEach(panel => {
+        const panelLinks = panel.querySelectorAll('.dir-link');
+        let hasVisibleLink = false;
+
+        panelLinks.forEach(link => {
+          const text = link.textContent.toLowerCase();
+          const href = link.getAttribute('href').toLowerCase();
+          if (text.includes(query) || href.includes(query)) {
+            link.style.display = 'flex';
+            hasVisibleLink = true;
+          } else {
+            link.style.display = 'none';
+          }
+        });
+
+        if (hasVisibleLink) {
+          panel.style.display = 'block';
+          panel.classList.add('open'); // Auto-expand panel to reveal matching results
+        } else {
+          panel.style.display = 'none';
+          panel.classList.remove('open');
+        }
+      });
+    });
+  }
 });
 </script>
 </body>
