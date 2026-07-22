@@ -13,6 +13,165 @@ os.makedirs(QUOTES_DIR_FR, exist_ok=True)
 os.makedirs(QUOTES_DIR_RU, exist_ok=True)
 os.makedirs(MIND_DIR_EN, exist_ok=True)
 
+# Templates for English
+EN_R1_MAIN = [
+    "How does the pursuit of <strong>{word}</strong> influence our perception of success and failure in modern life?",
+    "Is it possible to find true balance when <strong>{word}</strong> is either completely absent or excessive?",
+    "Why do we often struggle to cultivate <strong>{word}</strong> even when we know it is beneficial?",
+    "How does <strong>{word}</strong> reshape our emotional landscape during times of intense change?",
+    "Can <strong>{word}</strong> act as a silent shield against the demands of social conformity?",
+    "How do our childhood experiences shape our relationship with <strong>{word}</strong> as adults?",
+    "In what ways does <strong>{word}</strong> challenge the rigid boundaries of logical thinking?",
+    "How does embracing <strong>{word}</strong> change the way we handle interpersonal conflict?",
+    "Is <strong>{word}</strong> a quality of quiet solitude, or does it thrive in noisy communities?",
+    "What is the most profound lesson that <strong>{word}</strong> can teach us about our own nature?"
+]
+
+EN_R1_PERS = [
+    "★ When was the last time you had to confront <strong>{word}</strong> in your own personal journey?",
+    "★ How comfortable are you with allowing <strong>{word}</strong> to guide your daily decisions?",
+    "★ Have you ever felt a deep sense of conflict regarding <strong>{word}</strong> in a relationship?",
+    "★ Can you share a moment from your childhood where <strong>{word}</strong> felt completely natural?",
+    "★ How do you personally nurture <strong>{word}</strong> when you feel emotionally exhausted?",
+    "★ Have you ever had to choose between social conformity and personal <strong>{word}</strong>?",
+    "★ Who in your life best embodies the essence of <strong>{word}</strong>, and what have they taught you?",
+    "★ In what area of your life do you feel <strong>{word}</strong> is most desperately needed right now?",
+    "★ How has your personal understanding of <strong>{word}</strong> shifted over the last five years?",
+    "★ If you had to describe your personal experience with <strong>{word}</strong> in one word, what would it be?"
+]
+
+EN_R2_MAIN = [
+    "In the future, technology will enable us to digitize and share our experience of <strong>{word}</strong> directly. — Do you agree or disagree?",
+    "The rapid speed of modern society will eventually make <strong>{word}</strong> an obsolete concept. — Do you agree or disagree?",
+    "Future educational systems will prioritize the cultivation of <strong>{word}</strong> over traditional academic skills. — Do you agree or disagree?",
+    "As artificial intelligence advances, machines will exhibit a superior capacity for <strong>{word}</strong> compared to humans. — Do you agree or disagree?",
+    "In the coming decades, <strong>{word}</strong> will become a highly commercialized luxury commodity. — Do you agree or disagree?",
+    "The survival of human civilization will depend on our collective ability to practice <strong>{word}</strong>. — Do you agree or disagree?",
+    "Future generations will look back at our current understanding of <strong>{word}</strong> with deep skepticism. — Do you agree or disagree?",
+    "Global digital connectivity will make true <strong>{word}</strong> incredibly difficult to maintain in the future. — Do you agree or disagree?",
+    "In the future, social status will be determined by a person's capacity for <strong>{word}</strong> rather than wealth. — Do you agree or disagree?",
+    "A world fully governed by logic will have no space left for the mystery of <strong>{word}</strong>. — Do you agree or disagree?"
+]
+
+EN_R2_PERS = [
+    "★ How would you personally adapt if <strong>{word}</strong> became entirely obsolete in tomorrow's world?",
+    "★ Would you be willing to use technology to artificially boost your capacity for <strong>{word}</strong>?",
+    "★ How do you want future generations of your family to remember your relationship with <strong>{word}</strong>?",
+    "★ If you could design a futuristic school, how would you teach the value of <strong>{word}</strong> to children?",
+    "★ Do you fear a future where <strong>{word}</strong> is fully managed or monitored by digital algorithms?",
+    "★ How do you personally prepare for a future where <strong>{word}</strong> is increasingly rare?",
+    "★ If you could send a single message about <strong>{word}</strong> to people living 100 years in the future, what would it be?",
+    "★ Would you choose to live in a futuristic utopia that completely guarantees <strong>{word}</strong> at the cost of your freedom?",
+    "★ What role do you hope <strong>{word}</strong> will play in your own personal future over the next decade?",
+    "★ If a machine could perfectly replicate your experience of <strong>{word}</strong>, would you still value it?"
+]
+
+# Templates for French
+FR_R1_MAIN = [
+    "Comment la quête de <strong>{word}</strong> influence-t-elle notre perception de la réussite dans la vie moderne ?",
+    "Est-il possible de trouver un équilibre lorsque <strong>{word}</strong> est complètement absent ou excessif ?",
+    "Pourquoi avons-nous souvent du mal à cultiver <strong>{word}</strong> même lorsque nous savons que c'est bénéfique ?",
+    "Comment <strong>{word}</strong> transforme-t-il notre paysage paysage émotionnel en période de grand changement ?",
+    "<strong>{word}</strong> peut-il agir comme un bouclier silencieux contre les exigences du conformisme social ?",
+    "Comment nos expériences d'enfance façonnent-elles notre relation avec <strong>{word}</strong> à l'âge adulte ?",
+    "De quelles manières <strong>{word}</strong> remet-il en question les frontières rigides de la pensée logique ?",
+    "Comment le fait d'embrasser <strong>{word}</strong> change-t-il notre façon de gérer les conflits interpersonnels ?",
+    "<strong>{word}</strong> est-il une qualité de solitude tranquille, ou s'épanouit-il dans les communautés bruyantes ?",
+    "Quelle est la leçon la plus profonde que <strong>{word}</strong> peut nous enseigner sur notre propre nature ?"
+]
+
+FR_R1_PERS = [
+    "★ Quand avez-vous dû faire face à <strong>{word}</strong> pour la dernière fois dans votre propre parcours ?",
+    "★ Dans quelle mesure êtes-vous à l'aise pour laisser <strong>{word}</strong> guider vos décisions quotidiennes ?",
+    "★ Avez-vous déjà ressenti un profond conflit concernant <strong>{word}</strong> dans une relation ?",
+    "★ Pouvez-vous partager un moment de votre enfance où <strong>{word}</strong> vous semblait tout à fait naturel ?",
+    "★ Comment nourrissez-vous personnellement <strong>{word}</strong> lorsque vous vous sentez épuisé émotionnellement ?",
+    "★ Avez-vous déjà dû choisir entre le conformisme social et votre propre <strong>{word}</strong> ?",
+    "★ Qui dans votre vie incarne le mieux l'essence de <strong>{word}</strong>, et qu'est-ce que cela vous a appris ?",
+    "★ Dans quel domaine de votre vie pensez-vous que <strong>{word}</strong> est le plus désespérément nécessaire en ce moment ?",
+    "★ Comment votre compréhension personnelle de <strong>{word}</strong> a-t-elle évolué au cours des cinq dernières années ?",
+    "★ Si vous deviez décrire votre expérience personnelle de <strong>{word}</strong> en un mot, quel serait-il ?"
+]
+
+FR_R2_MAIN = [
+    "À l'avenir, la technologie nous permettra de numériser et de partager directement notre expérience de <strong>{word}</strong>. — Êtes-vous d'accord ou pas d'accord ?",
+    "Le rythme rapide de la société moderne finira par faire de <strong>{word}</strong> un concept obsolète. — Êtes-vous d'accord ou pas d'accord ?",
+    "Les futurs systèmes éducatifs donneront la priorité à la culture de <strong>{word}</strong> plutôt qu'aux compétences académiques. — Êtes-vous d'accord ou pas d'accord ?",
+    "Avec les progrès de l'intelligence artificielle, les machines feront preuve d'une capacité supérieure de <strong>{word}</strong> par rapport aux humains. — Êtes-vous d'accord ou pas d'accord ?",
+    "Dans les décennies à venir, <strong>{word}</strong> deviendra un produit de luxe hautement commercialisé. — Êtes-vous d'accord ou pas d'accord ?",
+    "La survie de la civilisation humaine dépendra de notre capacité collective à pratiquer <strong>{word}</strong>. — Êtes-vous d'accord ou pas d'accord ?",
+    "Les générations futures regarderont notre compréhension actuelle de <strong>{word}</strong> avec un profond scepticisme. — Êtes-vous d'accord ou pas d'accord ?",
+    "La connectivité numérique mondiale rendra le véritable <strong>{word}</strong> incredibly difficile à maintenir à l'avenir. — Êtes-vous d'accord ou pas d'accord ?",
+    "À l'avenir, le statut social sera déterminé par la capacité d'une personne à exprimer <strong>{word}</strong> plutôt que par sa richesse. — Êtes-vous d'accord ou pas d'accord ?",
+    "Un monde entièrement régi par la logique ne laissera plus de place au mystère de <strong>{word}</strong>. — Êtes-vous d'accord ou pas d'accord ?"
+]
+
+FR_R2_PERS = [
+    "★ Comment vous adapteriez-vous personnellement si <strong>{word}</strong> devenait totalement obsolète dans le monde de demain ?",
+    "★ Seriez-vous prêt à utiliser la technologie pour stimuler artificiellement votre capacité de <strong>{word}</strong> ?",
+    "★ Comment voulez-vous que les futures générations de votre famille se souviennent de votre relation avec <strong>{word}</strong> ?",
+    "★ Si vous deviez concevoir une école du futur, comment enseigneriez-vous la valeur de <strong>{word}</strong> aux enfants ?",
+    "★ Craignez-vous un avenir où <strong>{word}</strong> serait entièrement géré ou surveillé par des algorithmes numériques ?",
+    "★ Comment vous préparez-vous personnellement à un avenir où <strong>{word}</strong> se fera de plus en plus rare ?",
+    "★ Si vous pouviez envoyer un message unique concernant <strong>{word}</strong> aux personnes vivant dans 100 ans, quel serait-il ?",
+    "★ Choisiriez-vous de vivre dans une utopie futuriste qui garantit pleinement <strong>{word}</strong> au détriment de votre liberté ?",
+    "★ Quel rôle espérez-vous que <strong>{word}</strong> jouera dans votre propre avenir au cours de la prochaine décennie ?",
+    "★ Si une machine pouvait reproduire parfaitement votre expérience de <strong>{word}</strong>, y accorderiez-vous toujours de la valeur ?"
+]
+
+# Templates for Russian
+RU_R1_MAIN = [
+    "Как стремление к <strong>{word}</strong> влияет на наше восприятие успеха и неудач в современной жизни?",
+    "Возможно ли найти истинный баланс, если <strong>{word}</strong> полностью отсутствует или проявляется в избытке?",
+    "Почему мы часто изо всех сил пытаемся развивать в себе <strong>{word}</strong>, даже когда знаем, что это полезно?",
+    "Как <strong>{word}</strong> меняет наш эмоциональный ландшафт в периоды серьезных жизненных перемен?",
+    "Может ли <strong>{word}</strong> выступать в роли невидимого щита против требований социального конформизма?",
+    "Как наши детские переживания формируют наше отношение к <strong>{word}</strong> во взрослом возрасте?",
+    "Каким образом <strong>{word}</strong> бросает вызов жестким границам логического мышления?",
+    "Как принятие <strong>{word}</strong> меняет то, как мы справляемся с межличностными конфликтами?",
+    "Является ли <strong>{word}</strong> качеством тихого уединения или оно лучше всего расцветает в шумном обществе?",
+    "Какой самый глубокий урок <strong>{word}</strong> может преподать нам о нашей собственной природе?"
+]
+
+RU_R1_PERS = [
+    "★ Когда в последний раз вам приходилось сталкиваться с <strong>{word}</strong> на своем жизненном пути?",
+    "★ Насколько вам комфортно позволять <strong>{word}</strong> направлять ваши повседневные решения?",
+    "★ Чувствовали ли вы когда-нибудь глубокий внутренний конфликт из-за <strong>{word}</strong> в отношениях?",
+    "★ Можете ли вы вспомнить момент из детства, когда <strong>{word}</strong> казалось чем-то совершенно естественным?",
+    "★ Как вы лично восстанавливаете в себе <strong>{word}</strong>, когда чувствуете эмоциональное истощение?",
+    "★ Приходилось ли вам когда-нибудь выбирать между общественным одобрением и личным <strong>{word}</strong>?",
+    "★ Кто в вашей жизни лучше всего воплощает суть <strong>{word}</strong>, и чему вы у него научились?",
+    "★ В какой сфере вашей жизни, по вашему мнению, <strong>{word}</strong> больше всего необходимо прямо сейчас?",
+    "★ Как изменилось ваше личное понимание <strong>{word}</strong> за последние пять лет?",
+    "★ Если бы вам пришлось описать свой личный опыт общения с <strong>{word}</strong> одним словом, какое бы это было слово?"
+]
+
+RU_R2_MAIN = [
+    "В будущем технологии позволят нам оцифровывать и передавать свой опыт <strong>{word}</strong> напрямую другим. — Вы согласны или не согласны?",
+    "Стремительный темп современного общества со временем превратит <strong>{word}</strong> в устаревшее понятие. — Вы согласны или не согласны?",
+    "Будущие образовательные системы будут уделять приоритетное внимание развитию <strong>{word}</strong>, а не стандартным академическим навыкам. — Вы согласны или не согласны?",
+    "По мере развития искусственного интеллекта машины продемонстрируют превосходную способность к <strong>{word}</strong> по сравнению с людьми. — Вы согласны или не согласны?",
+    "В ближайшие десятилетия <strong>{word}</strong> превратится в коммерциализированный предмет роскоши. — Вы согласны или не согласны?",
+    "Выживание человеческой цивилизации будет зависеть от нашей коллективной способности проявлять <strong>{word}</strong>. — Вы согласны или не согласны?",
+    "Будущие поколения будут смотреть на наше нынешнее понимание <strong>{word}</strong> с глубоким скептицизмом. — Вы согласны или не согласны?",
+    "Глобальная цифровая связь сделает истинное сохранение <strong>{word}</strong> невероятно сложной задачей в будущем. — Вы согласны или не согласны?",
+    "В будущем социальный статус человека будет определяться его способностью к <strong>{word}</strong>, а не богатством. — Вы согласны или не согласны?",
+    "В мире, полностью управляемом логикой, не останется места для тайны <strong>{word}</strong>. — Вы согласны или не согласны?"
+]
+
+RU_R2_PERS = [
+    "★ Как бы вы лично приспособились, если бы <strong>{word}</strong> полностью исчезло в завтрашнем мире?",
+    "★ Согласились бы вы использовать технологии для искусственного повышения вашей способности к <strong>{word}</strong>?",
+    "★ Каким бы вы хотели, чтобы будущие поколения вашей семьи помнили ваше отношение к <strong>{word}</strong>?",
+    "★ Если бы вы могли спроектировать футуристическую школу, как бы вы обучали детей ценности <strong>{word}</strong>?",
+    "★ Боитесь ли вы будущего, в котором <strong>{word}</strong> будет полностью управляться или контролироваться цифровыми алгоритмами?",
+    "★ Как вы лично готовитесь к будущему, в котором <strong>{word}</strong> становится все большей редкостью?",
+    "★ Если бы вы могли отправить одно послание о важности <strong>{word}</strong> людям, живущим через 100 лет, что бы вы им сказали?",
+    "★ Выбрали ли бы вы жизнь в футуристической утопии, которая гарантирует <strong>{word}</strong> ценой вашей личной свободы?",
+    "★ Какую роль, по вашему мнению, <strong>{word}</strong> сыграет в вашей личной жизни в течение следующего десятилетия?",
+    "★ Если бы машина могла идеально воспроизвести ваш опыт переживания <strong>{word}</strong>, стали бы вы по-прежнему ценить его?"
+]
+
 # Vocab templates by theme family to ensure exactly 10 cards, all ending in periods.
 VOCAB_TEMPLATES = {
     "relationships": [
@@ -224,8 +383,52 @@ MISTAKES_CATALOG_FR = [
     ("C'est une <u>bonne</u> question", "C'est une question pertinente / intéressante", "Évitez l'adjectif générique 'bon' et utilisez des qualificatifs plus précis.")
 ]
 
+def clean_vocab_word(word, lang):
+    clean = word.split("≠")[0].strip()
+    clean = clean.replace(" (f)", "").replace(" (он)", "").replace(" (она)", "").replace(" (оно)", "").replace(" (они)", "").replace(" (м)", "").replace(" (ж)", "")
+    if lang == 'fr':
+        if clean.lower().startswith("l'"):
+            clean = clean[2:]
+        elif clean.lower().startswith("l’"):
+            clean = clean[2:]
+        elif clean.lower().startswith("la "):
+            clean = clean[3:]
+        elif clean.lower().startswith("le "):
+            clean = clean[3:]
+        elif clean.lower().startswith("les "):
+            clean = clean[4:]
+    return clean.strip()
+
+def get_discussion_rounds(lang, vocab_list):
+    if lang == "fr":
+        r1_main_tpl = FR_R1_MAIN
+        r1_pers_tpl = FR_R1_PERS
+        r2_main_tpl = FR_R2_MAIN
+        r2_pers_tpl = FR_R2_PERS
+    elif lang == "ru":
+        r1_main_tpl = RU_R1_MAIN
+        r1_pers_tpl = RU_R1_PERS
+        r2_main_tpl = RU_R2_MAIN
+        r2_pers_tpl = RU_R2_PERS
+    else:
+        r1_main_tpl = EN_R1_MAIN
+        r1_pers_tpl = EN_R1_PERS
+        r2_main_tpl = EN_R2_MAIN
+        r2_pers_tpl = EN_R2_PERS
+
+    round_1 = []
+    round_2 = []
+    for i, (word, _, _) in enumerate(vocab_list):
+        clean_word = clean_vocab_word(word, lang)
+        main_q = r1_main_tpl[i % len(r1_main_tpl)].format(word=clean_word)
+        pers_q = r1_pers_tpl[i % len(r1_pers_tpl)].format(word=clean_word)
+        r2_main = r2_main_tpl[i % len(r2_main_tpl)].format(word=clean_word)
+        r2_pers = r2_pers_tpl[i % len(r2_pers_tpl)].format(word=clean_word)
+        round_1.append((main_q, pers_q))
+        round_2.append((r2_main, r2_pers))
+    return round_1, round_2
+
 def make_session_html(lang, title, heading, date, meta_info, desc, vocab_list, warm_up_questions, round_1_items, lst_text, round_2_items, mistakes, depth_prefix, is_mind_matters=False):
-    # Determine club variables
     club_tag = "Mind Matters" if is_mind_matters else "The Greatest Quotes"
     club_link = "../mind-matters.html" if is_mind_matters else "../the-greatest-quotes.html"
     if lang == "fr":
@@ -273,7 +476,6 @@ def make_session_html(lang, title, heading, date, meta_info, desc, vocab_list, w
         mistake_header = "✏️ Teacher's Note (Linguistic Corrections)"
         add_dict_label = "Add to Dictionary"
 
-    # Build vocab cards (Exactly 10)
     vocab_html = ""
     for w, d, ex in vocab_list:
         escaped_w = w.replace("'", "\\'")
@@ -286,12 +488,10 @@ def make_session_html(lang, title, heading, date, meta_info, desc, vocab_list, w
         <button class="btn-add-dict" onclick="COSY.addToDict({{word:'{escaped_w}', definition:'{escaped_d}', example:'{escaped_ex}'}}, this)">{add_dict_label}</button>
       </div>\n"""
 
-    # Warm-up questions (Exactly 2)
     warmup_html = ""
     for q in warm_up_questions:
         warmup_html += f"            <li>{q}</li>\n"
 
-    # Round 1 items (Exactly 10, with .round-item-main and .round-item-personal)
     r1_html = ""
     for main_item, pers_item in round_1_items:
         r1_html += f"""          <div class="round-item">
@@ -299,14 +499,13 @@ def make_session_html(lang, title, heading, date, meta_info, desc, vocab_list, w
             <div class="round-item-personal">{pers_item}</div>
           </div>\n"""
 
-    # Round 2 items (Exactly 10)
     r2_html = ""
-    for main_item in round_2_items:
+    for main_item, pers_item in round_2_items:
         r2_html += f"""          <div class="round-item">
             <div class="round-item-main">{main_item}</div>
+            <div class="round-item-personal">{pers_item}</div>
           </div>\n"""
 
-    # Mistakes (Exactly 3)
     mistakes_html = ""
     for wrong, right, note in mistakes:
         mistakes_html += f"""          <div class="mistake-item">
@@ -316,7 +515,6 @@ def make_session_html(lang, title, heading, date, meta_info, desc, vocab_list, w
             <span class="mistake-note-text">({note})</span>
           </div>\n"""
 
-    # Optional Ledger Card (Only for Greatest Quotes)
     ledger_html = ""
     if not is_mind_matters:
         ledger_html = """  <!-- PHILOSOPHERS' LEDGER INTERACTIVE CARD -->
@@ -326,7 +524,6 @@ def make_session_html(lang, title, heading, date, meta_info, desc, vocab_list, w
     <button class="btn-primary" id="ledger-next-btn" style="background: #5D4037; color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.8rem; font-family: 'DM Sans', sans-serif; font-style: normal; cursor: pointer; font-weight: 700; transition: background 0.2s;">Next Page in Ledger 📖</button>
   </div>"""
 
-    # Core HTML Template
     hero_bg = "linear-gradient(135deg, #993556, #4d1a2b)" if is_mind_matters else "linear-gradient(135deg, #5D4037, #3E2723)"
 
     html = f"""<!DOCTYPE html>
@@ -437,27 +634,6 @@ def make_session_html(lang, title, heading, date, meta_info, desc, vocab_list, w
 </body>
 </html>"""
     return html
-
-def get_discussion_rounds(lang, vocab_list):
-    round_1 = []
-    round_2 = []
-    for word, _, _ in vocab_list:
-        clean_word = word.split("≠")[0].strip().replace(" (f)", "").replace(" (он)", "").replace(" (она)", "").replace(" (оно)", "").replace(" (они)", "").lower()
-        if lang == "fr":
-            main_q = f"Comment le concept de <strong>{clean_word}</strong> influence-t-il nos choix quotidiens et notre développement personnel ?"
-            pers_q = f"★ Pouvez-vous donner un exemple où vous avez ressenti ou exprimé de <strong>{clean_word}</strong> récemment ?"
-            r2_s = f"À l'avenir, l'importance de <strong>{clean_word}</strong> dans l'éducation et les relations humaines changera radicalement."
-        elif lang == "ru":
-            main_q = f"Как понятие <strong>{clean_word}</strong> связано с психологической свободой и пониманием себя в современном обществе?"
-            pers_q = f"★ Расскажите о случае из вашей жизни, когда вам пришлось проявить <strong>{clean_word}</strong>."
-            r2_s = f"В будущем общество будет ценить <strong>{clean_word}</strong> гораздо больше, чем материальный успех."
-        else: # en
-            main_q = f"How does the concept of <strong>{clean_word}</strong> help us navigate modern societal expectations and personal integrity?"
-            pers_q = f"★ Can you think of a situation in your own life where <strong>{clean_word}</strong> played a critical role?"
-            r2_s = f"In the future, the global understanding of <strong>{clean_word}</strong> will undergo a profound cultural shift."
-        round_1.append((main_q, pers_q))
-        round_2.append(r2_s)
-    return round_1, round_2
 
 # Database of sessions to generate
 SESSIONS = [
@@ -1072,8 +1248,6 @@ def update_index_page(filepath, lang, is_mind_matters):
                     break
 
     # Re-insert the target sessions in chronological order (newest at the top)
-    # We populated SESSIONS from oldest to newest in chronological progression (October -> January),
-    # so reversed(target_sessions) will insert the newest first (at index 0).
     for s in reversed(target_sessions):
         href = f"sessions/mind-matters/{s['slug']}.html" if is_mind_matters else f"sessions/the-greatest-quotes/{s['slug']}.html"
         if lang == "fr":
@@ -1093,11 +1267,8 @@ def update_index_page(filepath, lang, is_mind_matters):
         new_tag = BeautifulSoup(new_item_html, "html.parser").div
         history_body.insert(0, new_tag)
 
-    # Convert to string and preserve clean formatting
-    html_out = str(soup)
-    # Correct any parsed html entities/spacing if desired
     with open(filepath, "w", encoding="utf-8") as f:
-        f.write(html_out)
+        f.write(str(soup))
     print(f"Updated index page: {filepath}")
 
 if __name__ == "__main__":
