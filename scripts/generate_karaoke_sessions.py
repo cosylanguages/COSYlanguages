@@ -1203,6 +1203,11 @@ FINAL_CHALLENGE_DB = {
 
 
 VOCAB_DB = {
+    "sexy": ("sexually attractive or appealing.", "She picked out a sexy dress for her weekend date."),
+    "waxing": ("the process of removing hair from the skin using wax.", "Waxing can be a highly painful beauty procedure."),
+    "plucking": ("pulling out hair or feathers with fingers or tweezers.", "Plucking eyebrows requires a steady hand and patience."),
+    "spanx": ("tight-fitting undergarments designed to shape the body.", "She wore spanx underneath her elegant evening gown."),
+    "work": ("activity involving mental or physical effort done in order to achieve a purpose or result.", "All that hard work finally paid off with a promotion."),
     # French
     "Le cœur": ("organe musculaire creux, symbole de la vie et des sentiments.", "Elle écoute toujours son cœur pour prendre des décisions."),
     "La machine": ("appareil ou ensemble d'appareils capables de transformer l'énergie.", "Cette usine utilise une machine très moderne pour trier."),
@@ -2186,42 +2191,251 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
         warmup_questions_html += f"            <li>Look at the title '{title}' and the artist '{artist}'. What do you predict this song is about? (Prediction question)</li>\n"
         warmup_questions_html += f"            <li>What kind of emotions does this style of music bring to you?</li>\n"
 
-    r1_questions_html = ""
-    for w in vocab_words:
-        q_main = f"How does <strong>{w.lower()}</strong> play a symbolic role in the storytelling of '{title}'?"
-        q_pers = f"★ Do you personally feel that <strong>{w.lower()}</strong> is important?"
 
-        if lang == "fr":
-            q_main = f"Comment le concept de <strong>{w.lower()}</strong> se manifeste-t-il dans les paroles de '{title}' ?"
-            q_pers = f"★ Pensez-vous que <strong>{w.lower()}</strong> joue un rôle important dans votre quotidien ?"
-        elif lang == "ru":
-            q_main = f"Как понятие <strong>{w.lower()}</strong> отражается в сюжете и лирике '{title}'?"
-            q_pers = f"★ Насколько для вас важно понятие <strong>{w.lower()}</strong> в реальной жизни?"
-        elif lang == "it":
-            q_main = f"In che modo il concetto di <strong>{w.lower()}</strong> influisce sul testo di '{title}'?"
-            q_pers = f"★ Quanto ritieni importante <strong>{w.lower()}</strong> nella tua vita?"
-        elif lang == "es":
-            q_main = f"¿De qué manera influye el concepto de <strong>{w.lower()}</strong> en la letra de '{title}'?"
-            q_pers = f"★ ¿Qué tan importante es <strong>{w.lower()}</strong> en tu vida diaria?"
-        elif lang == "el":
-            q_main = f"Πώς εκφράζεται η έννοια <strong>{w.lower()}</strong> μέσα από τους στίχους του '{title}';"
-            q_pers = f"★ Πόσο σημαντικό είναι το <strong>{w.lower()}</strong> για εσάς;"
+    TEMPLATES_R1 = {
+        "en": [
+            "In '{title}', how does the concept of <strong>{w_lower}</strong> contribute to the overall mood created by {artist}?",
+            "Analyze how the lyric's use of <strong>{w_lower}</strong> reflects the central message of '{title}'.",
+            "How does the musical style of '{title}' enhance the emotional impact of <strong>{w_lower}</strong>?",
+            "In what way is <strong>{w_lower}</strong> connected to the main character's journey in this song?",
+            "Does the repetition of <strong>{w_lower}</strong> in the lyrics make the song more memorable or more intense?",
+            "How does {artist} use <strong>{w_lower}</strong> to create contrast with other themes in '{title}'?",
+            "If you were to translate '{title}' into another language, would <strong>{w_lower}</strong> retain its poetic depth?",
+            "What specific imagery in '{title}' helps visualize the feeling of <strong>{w_lower}</strong>?",
+            "How does the vocal delivery of {artist} emphasize the theme of <strong>{w_lower}</strong>?",
+            "In your opinion, is <strong>{w_lower}</strong> presented as a source of strength or a vulnerability in '{title}'?"
+        ],
+        "fr": [
+            "Dans '{title}', comment le concept de <strong>{w_lower}</strong> contribue-t-il à l'atmosphère générale créée par {artist} ?",
+            "Analysez comment l'utilisation de <strong>{w_lower}</strong> dans les paroles reflète le message central de '{title}'.",
+            "Comment le style musical de '{title}' renforce-t-il l'impact émotionnel de <strong>{w_lower}</strong> ?",
+            "De quelle manière <strong>{w_lower}</strong> est-il lié au parcours du personnage principal dans cette chanson ?",
+            "Est-ce que la répétition de <strong>{w_lower}</strong> dans les paroles rend la chanson plus mémorable ou plus intense ?",
+            "Comment {artist} utilise-t-il <strong>{w_lower}</strong> pour créer un contraste avec d'autres thèmes dans '{title}' ?",
+            "Si vous deviez traduire '{title}' dans une autre langue, <strong>{w_lower}</strong> conserverait-il sa profondeur poétique ?",
+            "Quelles images spécifiques dans '{title}' aident à visualiser le sentiment de <strong>{w_lower}</strong> ?",
+            "Comment l'interprétation vocale de {artist} met-elle en valeur le thème de <strong>{w_lower}</strong> ?",
+            "À votre avis, <strong>{w_lower}</strong> est-il présenté comme une source de force ou une vulnérabilité dans '{title}' ?"
+        ],
+        "it": [
+            "In '{title}', in che modo il concetto di <strong>{w_lower}</strong> contribuisce all'atmosfera creata da {artist}?",
+            "Analizza come l'uso di <strong>{w_lower}</strong> nel testo rifletta il messaggio centrale di '{title}'.",
+            "Come lo stile musical di '{title}' migliora l'impatto emotivo di <strong>{w_lower}</strong>?",
+            "In che modo <strong>{w_lower}</strong> è collegato al viaggio del protagonista in questa canzone?",
+            "La ripetizione di <strong>{w_lower}</strong> rende la canzone più memorabile?",
+            "Come {artist} usa <strong>{w_lower}</strong> per creare contrasto con altri temi in '{title}'?",
+            "Se dovessi tradurre '{title}', <strong>{w_lower}</strong> manterrebbe la sua profondità?",
+            "Quali immagini in '{title}' aiutano a visualizzare la sensazione di <strong>{w_lower}</strong>?",
+            "In che modo la voce di {artist} enfatizza il tema di <strong>{w_lower}</strong>?",
+            "Secondo te, <strong>{w_lower}</strong> è una forza o una vulnerabilità in '{title}'?"
+        ],
+        "es": [
+            "En '{title}', ¿cómo contribuye el concepto de <strong>{w_lower}</strong> a la atmósfera creada por {artist}?",
+            "Analiza cómo el uso de <strong>{w_lower}</strong> en la letra refleja el mensaje central de '{title}'.",
+            "¿Cómo mejora el estilo musical de '{title}' el impacto emocional de <strong>{w_lower}</strong>?",
+            "¿De qué manera está conectado <strong>{w_lower}</strong> con el viaje del personaje principal en esta canción?",
+            "¿La repetición de <strong>{w_lower}</strong> en la letra hace que la canción sea más memorable?",
+            "¿Cómo utiliza {artist} <strong>{w_lower}</strong> para crear contraste con otros temas en '{title}'?",
+            "Si tradujeras '{title}' a otro idioma, ¿conservaría <strong>{w_lower}</strong> su profundidad poética?",
+            "¿Qué imágenes específicas en '{title}' ayudan a visualizar el sentimiento de <strong>{w_lower}</strong>?",
+            "¿Cómo enfatiza la entrega vocal de {artist} el tema de <strong>{w_lower}</strong>?",
+            "En tu opinión, ¿se presenta <strong>{w_lower}</strong> como una fuente de fortaleza o de vulnerabilidad en '{title}'?"
+        ],
+        "ru": [
+            "Как концепт <strong>{w_lower}</strong> в песне '{title}' влияет на общую атмосферу, созданную {artist}?",
+            "Проанализируйте, как использование слова <strong>{w_lower}</strong> в тексте отражает главный посыл '{title}'.",
+            "Как музыкальный стиль песни '{title}' усиливает эмоциональное воздействие слова <strong>{w_lower}</strong>?",
+            "Каким образом <strong>{w_lower}</strong> связано с путем главного героя в этой песне?",
+            "Делает ли повторение слова <strong>{w_lower}</strong> песню более запоминающейся или интенсивной?",
+            "Как {artist} использует <strong>{w_lower}</strong> для контраста с другими темами в '{title}'?",
+            "Если бы вы перевели '{title}' на другой язык, сохранило бы слово <strong>{w_lower}</strong> свою поэтическую глубину?",
+            "Какие образы в '{title}' помогают наглядно представить чувство <strong>{w_lower}</strong>?",
+            "Как вокал {artist} подчеркивает значимость темы <strong>{w_lower}</strong>?",
+            "По вашему мнению, <strong>{w_lower}</strong> представлено в '{title}' как источник силы или как уязвимость?"
+        ],
+        "el": [
+            "Στο '{title}', πώς η έννοια <strong>{w_lower}</strong> συμβάλλει στη συνολική ατμόσφαιρα που δημιουργεί ο {artist};",
+            "Αναλύστε πώς η χρήση του <strong>{w_lower}</strong> στους στίχους αντανακλά το κεντρικό μήνυμα του '{title}'.",
+            "Πώς το μουσικό ύφος του '{title}' ενισχύει τη συναισθηματική επίδραση του <strong>{w_lower}</strong>;",
+            "Με ποιον τρόπο συνδέεται το <strong>{w_lower}</strong> με το ταξίδι του κύριου χαρακτήρα σε αυτό το τραγούδι;",
+            "Η επανάληψη του <strong>{w_lower}</strong> στους στίχους κάνει το τραγούδι πιο αξιομνημόνευτο;",
+            "Πώς χρησιμοποιεί ο {artist} το <strong>{w_lower}</strong> για να δημιουργήσει αντίθεση με άλλα θέματα στο '{title}';",
+            "Αν μεταφράζατε το '{title}', θα διατηρούσε το <strong>{w_lower}</strong> το ποιητικό του βάθος;",
+            "Ποια συγκεκριμένη εικόνα στο '{title}' βοηθά στην οπτικοποίηση του συναισθήματος του <strong>{w_lower}</strong>;",
+            "Πώς η ερμηνεία του {artist} τονίζει το θέμα του <strong>{w_lower}</strong>;",
+            "Κατά τη γνώμη σας, το <strong>{w_lower}</strong> παρουσιάζεται ως πηγή δύναμης ή αδυναμίας στο '{title}';"
+        ]
+    }
+
+    TEMPLATES_PERSONAL = {
+        "en": [
+            "★ Can you share a personal experience where <strong>{w_lower}</strong> played a key role?",
+            "★ On a scale of 1-10, how much do you value <strong>{w_lower}</strong> in your own life?",
+            "★ Do you find it easy or difficult to express <strong>{w_lower}</strong> to others?",
+            "★ Has your understanding of <strong>{w_lower}</strong> changed as you've grown older?",
+            "★ In what situations do you think <strong>{w_lower}</strong> is most difficult to maintain?",
+            "★ Who is the person in your life that best represents the idea of <strong>{w_lower}</strong>?",
+            "★ If you could gift more <strong>{w_lower}</strong> to someone you care about, who would it be?",
+            "★ Do you think modern social media makes <strong>{w_lower}</strong> easier or harder to experience?",
+            "★ When was the last time you felt a strong sense of <strong>{w_lower}</strong>?",
+            "★ What daily habit or practice helps you cultivate <strong>{w_lower}</strong>?"
+        ],
+        "fr": [
+            "★ Pouvez-vous partager une expérience personnelle où <strong>{w_lower}</strong> a joué un rôle clé ?",
+            "★ Sur une échelle de 1 à 10, quelle importance accordez-vous à <strong>{w_lower}</strong> dans votre vie ?",
+            "★ Trouvez-vous facile ou difficile d'exprimer <strong>{w_lower}</strong> aux autres ?",
+            "★ Votre compréhension de <strong>{w_lower}</strong> a-t-elle changé en grandissant ?",
+            "★ Dans quelles situations pensez-vous que <strong>{w_lower}</strong> est le plus difficile à maintenir ?",
+            "★ Quelle personne dans votre vie représente le mieux l'idée de <strong>{w_lower}</strong> ?",
+            "★ Si vous pouviez offrir plus de <strong>{w_lower}</strong> à un proche, à qui serait-ce ?",
+            "★ Pensez-vous que les réseaux sociaux facilitent ou compliquent l'expérience de <strong>{w_lower}</strong> ?",
+            "★ À quand remonte la dernière fois que vous avez ressenti un fort sentiment de <strong>{w_lower}</strong> ?",
+            "★ Quelle habitude ou pratique quotidienne vous aide à cultiver <strong>{w_lower}</strong> ?"
+        ],
+        "it": [
+            "★ Puoi condividere un'esperienza personale in cui <strong>{w_lower}</strong> ha avuto un ruolo chiave?",
+            "★ Da 1 a 10, quanto dai valore a <strong>{w_lower}</strong> nella tua vita?",
+            "★ Trovi facile o difficile esprimere <strong>{w_lower}</strong> agli altri?",
+            "★ La tua comprensione di <strong>{w_lower}</strong> è cambiata crescendo?",
+            "★ In quali situazioni pensi che <strong>{w_lower}</strong> sia più difficile da mantenere?",
+            "★ Chi è la persona nella tua vita che rappresenta meglio l'idea di <strong>{w_lower}</strong>?",
+            "★ Se potessi donare più <strong>{w_lower}</strong> a qualcuno a te caro, a chi lo daresti?",
+            "★ Pensi che i social media rendano <strong>{w_lower}</strong> più facile o più difficile da vivere?",
+            "★ Quando è stata l'ultima volta che hai provato un forte senso di <strong>{w_lower}</strong>?",
+            "★ Quale pratica quotidiana ti aiuta a coltivare <strong>{w_lower}</strong>?"
+        ],
+        "es": [
+            "★ ¿Puedes compartir una experiencia personal donde <strong>{w_lower}</strong> haya jugado un papel clave?",
+            "★ En una escala del 1 al 10, ¿cuánto valoras <strong>{w_lower}</strong> en tu propia vida?",
+            "★ ¿Te resulta fácil o difícil expresar <strong>{w_lower}</strong> a los demás?",
+            "★ ¿Ha cambiado tu comprensión de <strong>{w_lower}</strong> a medida que has crecido?",
+            "★ ¿En qué situaciones crees que <strong>{w_lower}</strong> es más difícil de mantener?",
+            "★ ¿Quién es la persona en tu vida que mejor representa la idea de <strong>{w_lower}</strong>?",
+            "★ Si pudieras regalar más <strong>{w_lower}</strong> a alguien que te importa, ¿a quién sería?",
+            "★ ¿Crees que las redes sociales hacen que <strong>{w_lower}</strong> sea más fácil o más difícil de experimentar?",
+            "★ ¿Cuándo fue la última vez que sentiste un fuerte sentido de <strong>{w_lower}</strong>?",
+            "★ ¿Qué hábito o práctica diaria te ayuda a cultivar <strong>{w_lower}</strong>?"
+        ],
+        "ru": [
+            "★ Можете ли вы поделиться личным опытом, когда <strong>{w_lower}</strong> сыграло ключевую роль?",
+            "★ По шкале от 1 до 10, насколько сильно вы цените <strong>{w_lower}</strong> в своей жизни?",
+            "★ Вам легко или трудно выражать <strong>{w_lower}</strong> по отношению к другим?",
+            "★ Изменилось ли ваше понимание слова <strong>{w_lower}</strong> с возрастом?",
+            "★ В каких ситуациях, по вашему мнению, труднее всего сохранить <strong>{w_lower}</strong>?",
+            "★ Кто в вашей жизни лучше всего олицетворяет концепт <strong>{w_lower}</strong>?",
+            "★ Если бы вы могли подарить больше <strong>{w_lower}</strong> близкому человеку, кто бы это был?",
+            "★ Как вы думаете, социальные сети облегчают или усложняют проявление <strong>{w_lower}</strong>?",
+            "★ Когда в последний раз вы испытывали сильное чувство <strong>{w_lower}</strong>?",
+            "★ Какая ежедневная привычка помогает вам развивать в себе <strong>{w_lower}</strong>?"
+        ],
+        "el": [
+            "★ Μπορείτε να μοιραστείτε μια προσωπική εμπειρία όπου το <strong>{w_lower}</strong> έπαιξε καθοριστικό ρόλο;",
+            "★ Σε μια κλίμακα από το 1 έως το 10, πόσο εκτιμάτε το <strong>{w_lower}</strong> στη ζωή σας;",
+            "★ Σας είναι εύκολο ή δύσκολο να εκφράσετε το <strong>{w_lower}</strong> στους άλλους;",
+            "★ Έχει αλλάξει η κατανόησή σας για το <strong>{w_lower}</strong> καθώς μεγαλώνετε;",
+            "★ Σε ποιες καταστάσεις πιστεύετε ότι είναι πιο δύσκολο να διατηρηθεί το <strong>{w_lower}</strong>;",
+            "★ Ποιος είναι ο άνθρωπος στη ζωή σας που αντιπροσωπεύει καλύτερα την ιδέα του <strong>{w_lower}</strong>;",
+            "★ Αν μπορούσατε να χαρίσετε περισσότερο <strong>{w_lower}</strong> σε κάποιον, ποιος θα ήταν αυτός;",
+            "★ Πιστεύετε ότι τα μέσα κοινωνικής δικτύωσης κάνουν το <strong>{w_lower}</strong> πιο εύκολο ή πιο δύσκολο;",
+            "★ Πότε ήταν η τελευταία φορά που νιώσατε έντονα το <strong>{w_lower}</strong>;",
+            "★ Ποια καθημερινή συνήθεια σας βοηθά να καλλιεργήσετε το <strong>{w_lower}</strong>;"
+        ]
+    }
+
+    TEMPLATES_R2 = {
+        "en": [
+            "In today's fast-paced world, is the pursuit of <strong>{w_lower}</strong> as seen in '{title}' still relevant?",
+            "Do you agree with the philosophical stance on <strong>{w_lower}</strong> that '{title}' presents?",
+            "How does {artist}'s portrayal of {focus} redefine our understanding of <strong>{w_lower}</strong>?",
+            "Is <strong>{w_lower}</strong> something we must actively work to achieve, or does it happen naturally as '{title}' suggests?",
+            "Some believe that '{title}' warns us against the dangers of <strong>{w_lower}</strong>. To what extent do you agree?",
+            "How has society's perception of <strong>{w_lower}</strong> changed since {artist} first released '{title}'?",
+            "Can true <strong>{w_lower}</strong> exist in isolation, or does it require a community, as explored in '{title}'?",
+            "If you had to live your life guided entirely by the theme of <strong>{w_lower}</strong> in '{title}', what would change?",
+            "How does the ending of '{title}' affect your perspective on <strong>{w_lower}</strong>?",
+            "In what ways can we apply the lessons of <strong>{w_lower}</strong> from '{title}' to improve our modern daily lives?"
+        ],
+        "fr": [
+            "Dans notre monde moderne, la recherche de <strong>{w_lower}</strong> telle qu'elle est présentée dans '{title}' est-elle toujours pertinente ?",
+            "Êtes-vous d'accord avec la vision philosophique de <strong>{w_lower}</strong> que propose '{title}' ?",
+            "Comment la description de '{focus}' par {artist} redéfinit-elle notre compréhension de <strong>{w_lower}</strong> ?",
+            "Est-ce que <strong>{w_lower}</strong> est quelque chose que nous devons activement cultiver, ou arrive-t-il naturellement comme le suggère '{title}' ?",
+            "Certains pensent que '{title}' nous met en garde contre les dangers de <strong>{w_lower}</strong>. Dans quelle mesure êtes-vous d'accord ?",
+            "Comment la perception sociétale de <strong>{w_lower}</strong> a-t-elle évolué depuis la sortie de '{title}' par {artist} ?",
+            "La véritable <strong>{w_lower}</strong> peut-elle exister dans l'isolement, ou nécessite-t-elle une communauté, comme l'explore '{title}' ?",
+            "Si vous deviez vivre votre vie entièrement guidé par le thème de <strong>{w_lower}</strong> dans '{title}', que changeriez-vous ?",
+            "Comment la fin de '{title}' influence-t-elle votre point de vue sur <strong>{w_lower}</strong> ?",
+            "De quelles manières pouvons-nous appliquer les leçons de <strong>{w_lower}</strong> tirées de '{title}' pour améliorer notre quotidien ?"
+        ],
+        "it": [
+            "La ricerca di <strong>{w_lower}</strong> come in '{title}' è ancora rilevante oggi?",
+            "Sei d'accordo con la posizione filosofica su <strong>{w_lower}</strong> presentata in '{title}'?",
+            "In che modo la rappresentazione di '{focus}' ridefinisce la nostra comprensione di <strong>{w_lower}</strong>?",
+            "<strong>{w_lower}</strong> è qualcosa che dobbiamo costruire o avviene naturalmente?",
+            "Fino a che punto sei d'accordo che '{title}' avverta dei pericoli di <strong>{w_lower}</strong>?",
+            "Come è cambiata la percezione di <strong>{w_lower}</strong> dalla pubblicazione di '{title}'?",
+            "Può esistere una vera <strong>{w_lower}</strong> in isolamento come esplorato in '{title}'?",
+            "Se vivessi la tua vita guidato dal tema di <strong>{w_lower}</strong> in '{title}', cosa cambierebbe?",
+            "Come influisce il finale di '{title}' sulla tua prospettiva di <strong>{w_lower}</strong>?",
+            "In quali modi possiamo applicare le lezioni di <strong>{w_lower}</strong> di '{title}' nella vita quotidiana?"
+        ],
+        "es": [
+            "En el mundo actual, ¿sigue siendo relevante la búsqueda de <strong>{w_lower}</strong> como se ve en '{title}'?",
+            "¿Estás de acuerdo con la postura filosófica sobre <strong>{w_lower}</strong> que presenta '{title}'?",
+            "¿Cómo redefine la representación de '{focus}' de {artist} nuestra comprensión de <strong>{w_lower}</strong>?",
+            "¿Es <strong>{w_lower}</strong> algo en lo que debemos trabajar activamente o sucede de forma natural como sugiere '{title}'?",
+            "Algunos creen que '{title}' nos advierte contra los peligros de <strong>{w_lower}</strong>. ¿Hasta qué punto estás de acuerdo?",
+            "¿Cómo ha cambiado la percepción de la sociedad sobre <strong>{w_lower}</strong> desde que se lanzó '{title}'?",
+            "¿Puede existir el verdadero <strong>{w_lower}</strong> en aislamiento o requiere una comunidad, como se explora en '{title}'?",
+            "Si tuvieras que vivir tu vida guiado por el tema de <strong>{w_lower}</strong> en '{title}', ¿qué cambiaría?",
+            "¿Cómo afecta el final de '{title}' a tu perspectiva sobre <strong>{w_lower}</strong>?",
+            "¿De qué manera podemos aplicar las lecciones de <strong>{w_lower}</strong> de '{title}' para mejorar nuestra vida diaria?"
+        ],
+        "ru": [
+            "Актуален ли сегодня поиск <strong>{w_lower}</strong> в том виде, в каком он показан в '{title}'?",
+            "Согласны ли вы с философским взглядом на <strong>{w_lower}</strong>, представленным в '{title}'?",
+            "Как изображение темы '{focus}' артистом {artist} меняет наше понимание <strong>{w_lower}</strong>?",
+            "Является ли <strong>{w_lower}</strong> тем, над чем нужно активно работать, или это происходит естественно, как предполагает '{title}'?",
+            "Некоторые считают, что '{title}' предостерегает нас об опасностях <strong>{w_lower}</strong>. В какой степени вы согласны?",
+            "Как изменилось отношение общества к <strong>{w_lower}</strong> с момента выпуска песни '{title}'?",
+            "Может ли истинное <strong>{w_lower}</strong> существовать в изоляции или для этого нужно сообщество, как в '{title}'?",
+            "Если бы вы жили, руководствуясь исключительно темой <strong>{w_lower}</strong> из '{title}', что бы изменилось?",
+            "Как финал песни '{title}' влияет на ваше отношение к <strong>{w_lower}</strong>?",
+            "Как мы можем применить уроки <strong>{w_lower}</strong> из песни '{title}' для улучшения нашей повседневной жизни?"
+        ],
+        "el": [
+            "Στον σημερινό κόσμο, είναι ακόμα επίκαιρη η αναζήτηση του <strong>{w_lower}</strong> όπως παρουσιάζεται στο '{title}';",
+            "Συμφωνείτε με τη φιλοσοφική στάση για το <strong>{w_lower}</strong> που παρουσιάζει το '{title}';",
+            "Πώς η απεικόνιση του '{focus}' από τον {artist} επαναπροσδιορίζει την κατανόησή μας για το <strong>{w_lower}</strong>;",
+            "Είναι το <strong>{w_lower}</strong> κάτι για το οποίο πρέπει να εργαστούμε ενεργά ή προκύπτει φυσικά όπως υποδηλώνει το '{title}';",
+            "Ορισμένοι πιστεύουν ότι το '{title}' μας προειδοποιεί για τους κινδύνους του <strong>{w_lower}</strong>. Σε ποιο βαθμό συμφωνείτε;",
+            "Πώς έχει αλλάξει η αντίληψη της κοινωνίας για το <strong>{w_lower}</strong> από τότε που κυκλοποιήθηκε το '{title}';",
+            "Μπορεί να υπάρξει αληθινό <strong>{w_lower}</strong> σε απομόνωση ή απαιτεί μια κοινότητα, όπως διερευνάται στο '{title}';",
+            "Αν έπρεπε να ζήσετε τη ζωή σας με οδηγό το θέμα του <strong>{w_lower}</strong> στο '{title}', τι θα άλλαζε;",
+            "Πώς επηρεάζει το τέλος του '{title}' την προοπτική σας για το <strong>{w_lower}</strong>;",
+            "Με ποιους τρόπους μπορούμε να εφαρμόσουμε τα μαθήματα του <strong>{w_lower}</strong> από το '{title}' για να βελτιώσουμε την καθημερινή μας ζωή;"
+        ]
+    }
+
+    r1_questions_html = ""
+    for idx, w in enumerate(vocab_words):
+        t_idx = idx % 10
+        cur_lang = lang if lang in TEMPLATES_R1 else "en"
+        q_main_tpl = TEMPLATES_R1[cur_lang][t_idx]
+        q_pers_tpl = TEMPLATES_PERSONAL[cur_lang][t_idx]
+
+        q_main = q_main_tpl.format(title=title, artist=artist, w_lower=w.lower())
+        q_pers = q_pers_tpl.format(w_lower=w.lower())
 
         r1_questions_html += f'          <div class="round-item"><div class="round-item-main">{q_main}</div><div class="round-item-personal">{q_pers}</div></div>\n'
 
     r2_statements_html = ""
-    for w in vocab_words:
-        stmt = f"In our modern, high-tech world, maintaining a true sense of <strong>{w.lower()}</strong> is becoming nearly impossible."
-        if lang == "fr":
-            stmt = f"Dans notre société moderne et connectée, préserver <strong>{w.lower()}</strong> est devenu un défi quotidien."
-        elif lang == "ru":
-            stmt = f"В современном цифровом мире сохранить истинное значение <strong>{w.lower()}</strong> становится всё труднее."
-        elif lang == "it":
-            stmt = f"Nella società tecnologica odierna, difendere <strong>{w.lower()}</strong> è diventato quasi impossibile."
-        elif lang == "es":
-            stmt = f"En la sociedad tecnológica actual, proteger <strong>{w.lower()}</strong> se ha vuelto sumamente complejo."
-        elif lang == "el":
-            stmt = f"Στη σύγχρονη τεχνολογική εποχή, η διατήρηση του <strong>{w.lower()}</strong> είναι εξαιρετικά δύσκολη."
+    for idx, w in enumerate(vocab_words):
+        t_idx = idx % 10
+        cur_lang = lang if lang in TEMPLATES_R2 else "en"
+        stmt_tpl = TEMPLATES_R2[cur_lang][t_idx]
+
+        stmt = stmt_tpl.format(title=title, artist=artist, focus=focus, w_lower=w.lower())
 
         r2_statements_html += f'          <div class="round-item"><div class="round-item-main">{stmt}</div></div>\n'
 
@@ -2483,6 +2697,39 @@ NEW_SONGS_METADATA = {
 }
 
 # STEP 1: Parse all songs dynamically from their existing files
+
+COMPLETE_SONG_VOCAB = {
+    "me-and-i": ["Dual", "Conflict", "Reflect", "Personality", "Mirror", "Opposite", "Dialogue", "In harmony", "Acceptance", "Regret"],
+    "la-tour-eiffel-est-pour-moi": ["Paris", "La liberté", "La beauté", "La fierté", "Le monument", "Se promener", "Le rêve", "Le ciel", "La joie", "Le souvenir"],
+    "a-diagnosis": ["diagnosis", "neurosis", "label", "free", "supposed", "relief", "clarity", "mental", "illness", "name"],
+    "after-everything-ive-done-for-you": ["done", "direction", "affection", "face", "place", "support", "treat", "help", "anger", "lonely"],
+    "antidepressants-are-so-not-a-big-deal": ["deal", "heal", "day", "shame", "better", "antidepressants", "brain", "shadow", "help", "therapy"],
+    "dont-be-a-lawyer": ["lawyer", "greedy", "stress", "ceiling", "guidance", "job", "hours", "passion", "money", "follow"],
+    "eleven-oclock": ["awake", "mistake", "decision", "fight", "answers", "eleven", "thinking", "painful", "spinning", "resolution"],
+    "face-your-fears": ["Insecurity", "fear", "tiptoe", "frightened", "stare", "scary", "courage", "scared", "brave", "run"],
+    "fit-hot-guys-have-problems-too": ["problems", "perfect", "screen", "insecurities", "tears", "sad", "dream", "fears", "silent", "guys"],
+    "group-hang": ["hang", "pressure", "dates", "conversations", "restaurant", "awkward", "friends", "socializing", "mates", "food"],
+    "i-hate-everything-but-you": ["crowded", "politician", "smiling", "place", "everything", "traffic", "rain", "hate", "greedy", "beautiful"],
+    "im-a-good-person": ["person", "donate", "poor", "friendly", "nicest", "good", "humble", "approval", "validation", "door"],
+    "im-afraid-of-americans": ["America", "grocery", "stage", "cage", "plan", "afraid", "buy", "star", "friend", "world"],
+    "im-the-villain-in-my-own-story": ["villain", "glory", "witch", "castle", "abusing", "story", "triumph", "princess", "tower", "guilt"],
+    "lets-generalize-about-men": ["Generalize", "Satire", "Condescending", "repressed", "anger", "blanket", "conflate", "exception", "distinguish", "opposite"],
+    "love-kernels": ["Kernels", "Delusional", "Obsession", "cactus", "drought", "symbolism", "stockpile", "compliment", "scarcity", "patience"],
+    "oh-my-god-i-think-i-like-you": ["feeling", "supposed", "number", "beating", "hide", "vulnerability", "fun", "heart", "fast", "liking"],
+    "settle-for-me": ["settle", "nice", "stable", "true", "search", "compromise", "choice", "quit", "love", "okay"],
+    "sex-with-a-stranger": ["stranger", "dangerous", "game", "hotel", "alone", "excitement", "safe", "intimacy", "haze", "night"],
+    "sexy-french-depression": ["depression", "melancholy", "wine", "stone", "crying", "sexy", "french", "bed", "heavy", "alone"],
+    "sexy-getting-ready-song": ["ready", "crime", "shaving", "painful", "beautiful", "sexy", "waxing", "plucking", "work", "spanx"],
+    "slow-motion": ["motion", "cool", "hair", "care", "heroes", "walking", "wind", "swagger", "grand", "coolest"],
+    "so-maternal": ["Maternal", "Overzealous", "Compulsive", "harrowing", "matriarch", "expectations", "instinctual", "tireless", "raising", "perfect"],
+    "whatll-it-be": ["Covina", "lonely", "lies", "leave", "find", "escaping", "drinks", "boring", "boundary", "night"],
+    "wheres-the-bathroom": ["bathroom", "dirty", "apartment", "pictures", "wash", "door", "floor", "small", "parent", "expectations"],
+    "whos-the-new-guy": ["office", "mysterious", "tribe", "investigate", "trouble", "new", "career", "curiosity", "change", "welcome"],
+    "without-love-you-can-save-the-world": ["love", "focus", "drama", "explore", "door", "save", "world", "free", "crying", "public"],
+    "women-gotta-stick-together": ["together", "support", "journey", "rivalry", "unity", "stick", "storm", "rivals", "stronger", "friendship"],
+    "you-stupid-bitch": ["ruined", "ring", "mess", "strife", "dying", "stupid", "lose", "crying", "regret", "dark"]
+}
+
 songs_list = []
 for slug in sorted(LYRICS_DATA.keys()):
     path = f"events/sessions/karaoke-club/{slug}.html"
@@ -2491,6 +2738,7 @@ for slug in sorted(LYRICS_DATA.keys()):
     if not os.path.exists(path):
         if slug in NEW_SONGS_METADATA:
             meta = NEW_SONGS_METADATA[slug]
+            vocab_to_use = COMPLETE_SONG_VOCAB.get(slug, meta["vocab"])
             songs_list.append({
                 "slug": slug,
                 "title": meta["title"],
@@ -2499,7 +2747,7 @@ for slug in sorted(LYRICS_DATA.keys()):
                 "lang": meta["lang"],
                 "variety": meta["variety"],
                 "focus": meta["focus"],
-                "vocab": meta["vocab"],
+                "vocab": vocab_to_use,
                 "helpers": LYRICS_DATA[slug]["helpers"],
                 "lyrics": LYRICS_DATA[slug]["lyrics"]
             })
@@ -2535,6 +2783,8 @@ for slug in sorted(LYRICS_DATA.keys()):
             if sub_m:
                 v_stripped = sub_m.group(1).strip()
         vocab_cleaned.append(v_stripped)
+    if slug in COMPLETE_SONG_VOCAB:
+        vocab_cleaned = COMPLETE_SONG_VOCAB[slug]
 
     level_short = "B1"
     if any(k in level_raw for k in ["A2", "Débutant", "Στοιχειώδες", "Beginner"]):
@@ -2596,6 +2846,8 @@ for slug in sorted(CHALLENGE_MAP.keys()):
             if sub_m:
                 v_stripped = sub_m.group(1).strip()
         vocab_cleaned.append(v_stripped)
+    if slug in COMPLETE_SONG_VOCAB:
+        vocab_cleaned = COMPLETE_SONG_VOCAB[slug]
 
     level_short = "B1"
     if any(k in level_raw for k in ["A2", "Débutant", "Στοιχειώδες", "Beginner"]):
