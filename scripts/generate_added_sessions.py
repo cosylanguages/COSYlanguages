@@ -172,6 +172,46 @@ RU_R2_PERS = [
     "★ Если бы машина могла идеально воспроизвести ваш опыт переживания <strong>{word}</strong>, стали бы вы по-прежнему ценить его?"
 ]
 
+# High-quality conditional templates for Mind Matters Round 2
+MIND_R2_EN = [
+    "If a society could guarantee complete cognitive liberty, would <strong>{word}</strong> still hold any power over our choices?",
+    "If you had to choose between a life of constant, safe comfort or one driven by intense, unpredictable <strong>{word}</strong>, which would you select?",
+    "If we could artificially enhance our capacity for <strong>{word}</strong> using neural implants, would humanity lose its core authenticity?",
+    "If you were forced to live in a world where <strong>{word}</strong> was entirely prohibited, what would you miss the most?",
+    "If future generations of your family forgot the true meaning of <strong>{word}</strong>, how would their relationships change?",
+    "If a machine could perfectly simulate human <strong>{word}</strong>, would you treat it as an equal conscious being?",
+    "If we could erase all past memories associated with painful <strong>{word}</strong>, would our current personality still remain the same?",
+    "If you were given the power to mandate the teaching of <strong>{word}</strong> in all schools, what would be the first rule you would establish?",
+    "If our social obsession with <strong>{word}</strong> suddenly vanished, how would we spend our excess mental energy?",
+    "If we lived in a futuristic utopia that achieved absolute balance, would <strong>{word}</strong> still have a purpose?"
+]
+
+MIND_R2_FR = [
+    "Si une société pouvait garantir une liberté cognitive totale, le concept de <strong>{word}</strong> conserverait-il son pouvoir sur nos choix ?",
+    "Si vous deviez choisir entre une vie de confort absolu et sécurisé ou une vie guidée par un(e) <strong>{word}</strong> intense et imprévisible, que choisiriez-vous ?",
+    "Si nous pouvions améliorer artificiellement notre capacité de <strong>{word}</strong> à l'aide d'implants neuronaux, l'humanité perdrait-elle son authenticité ?",
+    "Si vous étiez contraint de vivre dans un monde où toute forme de <strong>{word}</strong> était strictement interdite, qu'est-ce qui vous manquerait le plus ?",
+    "Si les générations futures de votre famille oubliaient le sens véritable de <strong>{word}</strong>, comment leurs relations changeraient-elles ?",
+    "Si une machine pouvait simuler parfaitement le/la <strong>{word}</strong> humain(e), la traiteriez-vous comme un être conscient égal ?",
+    "Si nous pouvions effacer tous les souvenirs douloureux liés à notre <strong>{word}</strong>, notre personnalité actuelle resterait-elle la même ?",
+    "Si vous aviez le pouvoir d'imposer l'enseignement de <strong>{word}</strong> dans toutes les écoles, quelle serait la première règle que vous établiriez ?",
+    "Si notre obsession sociale pour <strong>{word}</strong> disparaissait soudainement, comment dépenserions-nous notre surplus d'énergie mentale ?",
+    "Si nous vivions dans une utopie futuriste ayant atteint un équilibre parfait, <strong>{word}</strong> aurait-il encore sa place ?"
+]
+
+MIND_R2_RU = [
+    "Если бы общество могло гарантировать полную свободу мышления, сохранил(а) бы <strong>{word}</strong> власть над нашим выбором?",
+    "Если бы вам пришлось выбирать между стабильным, безопасным комфортом и жизнью, полной непредсказуемой(го) <strong>{word}</strong>, что бы вы выбрали?",
+    "Если бы мы могли искусственно усилить способность к <strong>{word}</strong> с помощью чипов, потеряло бы человечество свою истинную суть?",
+    "Если бы вы были вынуждены жить в мире, где полностью запрещен(а) <strong>{word}</strong>, по чему бы вы скучали больше всего?",
+    "Если бы будущие поколения вашей семьи навсегда забыли истинный смысл <strong>{word}</strong>, как бы изменились их отношения?",
+    "Если бы машина могла идеально симулировать человеческий(ую) <strong>{word}</strong>, относились бы вы к ней как к равному живому существу?",
+    "Если бы мы могли стереть все болезненные воспоминания, связанные с <strong>{word}</strong>, осталась бы наша личность прежней?",
+    "Если бы вам дали власть сделать изучение <strong>{word}</strong> обязательным во всех школах, какое первое правило вы бы ввели?",
+    "Если бы наша социальная одержимость <strong>{word}</strong> внезапно исчезла, на что бы мы тратили избыточную ментальную энергию?",
+    "Если бы мы жили в футуристической утопии с абсолютным балансом, имел(а) бы <strong>{word}</strong> хоть какой-то смысл?"
+]
+
 # Vocab templates by theme family to ensure exactly 10 cards, all ending in periods.
 VOCAB_TEMPLATES = {
     "relationships": [
@@ -399,21 +439,21 @@ def clean_vocab_word(word, lang):
             clean = clean[4:]
     return clean.strip()
 
-def get_discussion_rounds(lang, vocab_list):
+def get_discussion_rounds(lang, vocab_list, is_mind_matters=False):
     if lang == "fr":
         r1_main_tpl = FR_R1_MAIN
         r1_pers_tpl = FR_R1_PERS
-        r2_main_tpl = FR_R2_MAIN
+        r2_main_tpl = FR_R2_MAIN if not is_mind_matters else MIND_R2_FR
         r2_pers_tpl = FR_R2_PERS
     elif lang == "ru":
         r1_main_tpl = RU_R1_MAIN
         r1_pers_tpl = RU_R1_PERS
-        r2_main_tpl = RU_R2_MAIN
+        r2_main_tpl = RU_R2_MAIN if not is_mind_matters else MIND_R2_RU
         r2_pers_tpl = RU_R2_PERS
     else:
         r1_main_tpl = EN_R1_MAIN
         r1_pers_tpl = EN_R1_PERS
-        r2_main_tpl = EN_R2_MAIN
+        r2_main_tpl = EN_R2_MAIN if not is_mind_matters else MIND_R2_EN
         r2_pers_tpl = EN_R2_PERS
 
     round_1 = []
@@ -423,7 +463,7 @@ def get_discussion_rounds(lang, vocab_list):
         main_q = r1_main_tpl[i % len(r1_main_tpl)].format(word=clean_word)
         pers_q = r1_pers_tpl[i % len(r1_pers_tpl)].format(word=clean_word)
         r2_main = r2_main_tpl[i % len(r2_main_tpl)].format(word=clean_word)
-        r2_pers = r2_pers_tpl[i % len(r2_pers_tpl)].format(word=clean_word)
+        r2_pers = r2_pers_tpl[i % len(r2_pers_tpl)].format(word=clean_word) if not is_mind_matters else ""
         round_1.append((main_q, pers_q))
         round_2.append((r2_main, r2_pers))
     return round_1, round_2
@@ -501,7 +541,12 @@ def make_session_html(lang, title, heading, date, meta_info, desc, vocab_list, w
 
     r2_html = ""
     for main_item, pers_item in round_2_items:
-        r2_html += f"""          <div class="round-item">
+        if is_mind_matters:
+            r2_html += f"""          <div class="round-item">
+            <div class="round-item-main">{main_item}</div>
+          </div>\n"""
+        else:
+            r2_html += f"""          <div class="round-item">
             <div class="round-item-main">{main_item}</div>
             <div class="round-item-personal">{pers_item}</div>
           </div>\n"""
@@ -1183,7 +1228,7 @@ def generate_sessions():
             depth_prefix = "../../../"
 
         # Construct rounds items
-        round_1_items, round_2_items = get_discussion_rounds(lang, vocab_list)
+        round_1_items, round_2_items = get_discussion_rounds(lang, vocab_list, is_mind_matters)
 
         # Build complete HTML
         html = make_session_html(
