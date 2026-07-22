@@ -628,6 +628,44 @@ FILM_DETAILS = {
     }
 }
 
+SENSITIVE_FILMS = {
+    "Fleabag": "mature relationships, trauma, grief, and adult humor",
+    "Crazy Ex-Girlfriend": "mental health struggles, obsession, and self-destruction",
+    "The Others": "profound grief, death, and supernatural isolation",
+    "Don't Worry Darling": "psychological manipulation, control, and patriarchal themes",
+    "How I Live Now": "wartime survival and physical/psychological trauma",
+    "Love & Other Drugs": "adult relationships, chronic illness, and medical ethics",
+    "The Queen's Gambit": "substance abuse, addiction, and intense mental obsession",
+    "Queendom": "political prosecution, LGBTQ+ rights, and performance activism",
+    "Heathers: The Musical": "dark high school themes, teenage suicide, and violence",
+    "Incendies": "war atrocities, profound family trauma, and devastating secrets",
+    "Countdown": "fatalistic themes, death anxiety, and intense scares",
+    "Run": "physical captivity, abuse, and medical gaslighting",
+    "Black Mirror": "dark dystopian scenarios, technology obsession, and existential dread",
+    "Leave the World Behind": "global collapse, high-stakes panic, and societal breakdown",
+    "Nuts": "legal sanity, manslaughter, and childhood sexual abuse",
+    "Yentl": "religious gender barriers and personal identity struggles",
+    "Gone Girl": "intense marital toxicity, psychological framing, and manipulation",
+    "Midsommar": "cult indoctrination, extreme violence, and profound grief",
+    "Kill Bill": "high-stakes violence, absolute betrayal, and revenge",
+    "Hereditary": "extreme family horror, generational trauma, and devastating grief",
+    "Suspiria (2018)": "dark witchcraft, extreme physical violence, and body horror",
+    "Sex and the City": "mature metropolitan dating, sexuality, and relationships",
+    "Death Becomes Her": "extreme body modification anxieties, mortality, and rivalries",
+    "The Act": "extreme physical abuse, Munchausen syndrome by proxy, and murder",
+    "The Regime": "political paranoia, autocratic delusions, and authoritarian rule",
+    "The Hunger Games": "state-sponsored violence, survival under oppression, and child tribute battles",
+    "Spoiler Alert": "terminal illness, end-of-life care, and devastating grief",
+    "Miss You Already": "terminal cancer, chronic suffering, and emotional coping",
+    "Killing Eve": "violent assassinations, psychological obsession, and espionage",
+    "Why Women Kill": "infidelity, domestic secrets, and plotting homicide",
+    "The Substance": "extreme body horror, severe self-image issues, and physical degradation",
+    "Beautiful Thing": "working-class LGBTQ+ youth struggles and societal pressure",
+    "The Pianist": "extreme wartime tragedy, Holocaust, and survival",
+    "V for Vendetta": "fascist regime, political violence, and extreme control",
+    "Cloud Atlas": "reincarnation, clone rebellion, slavery, and survival"
+}
+
 MISTAKES_CATALOG = [
     ("She works very hard for achieve success", "She works very hard to achieve success", "Use 'to' + infinitive to express purpose in English."),
     ("The boss is more demanding than what I thought", "The boss is more demanding than I thought", "Exclude 'what' in comparative thought comparison clauses."),
@@ -739,45 +777,56 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx):
 
     return vocab_items
 
-# Beautiful, 100% unique discussion angles for Round 1
-R1_TEMPLATES = [
-    "Analyze the intense psychological pressures on {protagonist} in the high-stakes environment of {setting}. How do their <strong>{word}</strong> shape their reactions to {key_figures}? Try using **{grammar_focus}** to formulate a piece of advice or warning you would give them.",
-    "Does {protagonist}'s approach to <strong>{word}</strong> raise significant moral or ethical questions in their pursuit of {conflict}? How would you express an ethical judgment about this using **{grammar_focus}**?",
-    "How does the depiction of <strong>{word}</strong> in {setting} serve as a mirror or critique of real-world societal structures? Can you construct a sharp critique using **{grammar_focus}**?",
-    "Discuss the complex, mature relational dynamics between {protagonist} and {key_figures}. In what ways does the struggle over <strong>{word}</strong> create an irreconcilable rift, and how does **{grammar_focus}** manifest in their dialogue?",
-    "Identify a crucial turning point in <em>{title}</em> where <strong>{word}</strong> completely alters the course of {conflict}. How would you describe the shift using **{grammar_focus}**?",
-    "How does the director use the visual atmosphere of {setting} to symbolize the abstract concept of <strong>{word}</strong>? Describe the cinematic style and how it emphasizes **{grammar_focus}**.",
-    "Evaluate the subtle power plays between {protagonist} and {key_figures}. Who holds the real autonomy regarding <strong>{word}</strong>, and how do they assert control using **{grammar_focus}**?",
-    "In the face of {conflict}, is <strong>{word}</strong> a healthy coping mechanism or a self-destructive shield for {protagonist}? How can we frame their emotional defense mechanism utilizing **{grammar_focus}**?",
-    "How does the specific cultural setting of {setting} influence how characters express <strong>{word}</strong>? What linguistic nuances or **{grammar_focus}** patterns did you observe in their verbal exchanges?",
-    "Reflecting on the ending of <em>{title}</em>, does {protagonist}'s final realization about <strong>{word}</strong> suggest hope or resignation? Formulate your philosophical conclusion using **{grammar_focus}**."
+# Theme-based templates for words 0-4
+R1_THEME_TEMPLATES = [
+    "Analyze the intense psychological pressures on {protagonist} in the high-stakes environment of {setting}. How does their <strong>{word}</strong> shape their reactions to {key_figures}? Try using <strong>{grammar_focus}</strong> to formulate a piece of advice or warning you would give them.",
+    "Does {protagonist}'s approach to <strong>{word}</strong> raise significant moral or ethical questions in their pursuit of {conflict}? How would you express an ethical judgment about this using <strong>{grammar_focus}</strong>?",
+    "How does the depiction of <strong>{word}</strong> in {setting} serve as a mirror or critique of real-world societal structures? Can you construct a sharp critique using <strong>{grammar_focus}</strong>?",
+    "Discuss the complex, mature relational dynamics between {protagonist} and {key_figures}. In what ways does the struggle over <strong>{word}</strong> create an irreconcilable rift, and how does <strong>{grammar_focus}</strong> manifest in their dialogue?",
+    "Identify a crucial turning point in <em>{title}</em> where <strong>{word}</strong> completely alters the course of {conflict}. How would you describe the shift using <strong>{grammar_focus}</strong>?"
 ]
 
-R1_PERSONAL_TEMPLATES = [
+R1_THEME_PERSONAL_TEMPLATES = [
     "★ If you found yourself in {setting}, how would you personally protect your own values against <strong>{word}</strong>?",
     "★ Have you ever faced a high-stakes dilemma where you had to prioritize <strong>{word}</strong> over your relationship with someone like {key_figures}?",
     "★ How does the portrayal of <strong>{word}</strong> in the film align with your personal views on modern societal values?",
     "★ If you had to resolve a clash about <strong>{word}</strong> with {key_figures}, what strategy would you adopt?",
-    "★ Can you recall a major turning point in your own life where <strong>{word}</strong> redefined your personal goals?",
-    "★ What visual environments or atmospheres in your life symbolize comfort or tension for you, similar to the role of <strong>{word}</strong> in the film?",
-    "★ How do you assert your personal autonomy when faced with overbearing authorities or high <strong>{word}</strong> demands?",
-    "★ In moments of personal crisis, do you rely on <strong>{word}</strong> as a strength, or do you view it as a vulnerability?",
-    "★ How does your own cultural background shape the way you communicate about sensitive themes like <strong>{word}</strong>?",
-    "★ Looking back at your decisions, did they lead to a resolution of <strong>{word}</strong> that brought you peace or further questions?"
+    "★ Can you recall a major turning point in your own life where <strong>{word}</strong> redefined your personal goals?"
 ]
 
-# Beautiful, 100% unique statement templates for Round 2
-R2_STATEMENT_TEMPLATES = [
-    "'{protagonist}'s ultimate pursuit of <strong>{word}</strong> is a tragic delusion rather than a noble quest, and they should have surrendered to {key_figures}.' Analyze this statement using **{grammar_focus}**.",
-    "'The director's aesthetic choices in {setting} glamorize the harsh reality of <strong>{word}</strong> instead of depicting its true personal cost.' Debate this using **{grammar_focus}**.",
-    "'{protagonist} is fundamentally an unsympathetic character whose reliance on <strong>{word}</strong> brings down everyone around them.' Argue your stance using **{grammar_focus}**.",
-    "'As a piece of adult cinema, <em>{title}</em> relies too heavily on predictable tropes of <strong>{word}</strong> instead of exploring more nuanced psychological territories.' Evaluate using **{grammar_focus}**.",
-    "'The central conflict of {conflict} is never truly resolved because the characters are trapped by their own ideological obsession with <strong>{word}</strong>.' Prove or disprove this using **{grammar_focus}**.",
-    "'The film would have had a much more profound impact if {protagonist} had completely rejected <strong>{word}</strong> in the final act.' Propose an alternative screenplay path using **{grammar_focus}**.",
-    "'The relationship between {protagonist} and {key_figures} was doomed from the start due to their incompatible definitions of <strong>{word}</strong>.' Critically assess this using **{grammar_focus}**.",
-    "'The screenplay's structural pacing is weakened by overemphasizing <strong>{word}</strong>, which detracts from the main tension of {conflict}.' Formulate your analysis using **{grammar_focus}**.",
-    "'In the grand scheme of <em>{title}</em>, <strong>{word}</strong> is presented not as a unique plot device but as an inevitable condition of human existence.' Discuss this philosophical angle using **{grammar_focus}**.",
-    "'For a modern adult-teen audience, the film's message regarding <strong>{word}</strong> is outdated and lacks relevance to contemporary struggles.' Defend or oppose this using **{grammar_focus}**."
+# Slang-based templates for words 5-9
+R1_SLANG_TEMPLATES = [
+    "During a crucial conversation in {setting}, the screenplay of <em>{title}</em> features the expression/slang <strong>'{word}'</strong>. In what context do the characters use it to express their feelings towards {key_figures}? Integrate <strong>{grammar_focus}</strong> in your response.",
+    "How does the use of authentic dialogue like <strong>'{word}'</strong> help the director establish character depth and the unique atmosphere of {setting}? Discuss using <strong>{grammar_focus}</strong>.",
+    "In <em>{title}</em>, the phrase <strong>'{word}'</strong> highlights a moment of tension or humor between {protagonist} and {key_figures}. How does the tone of this scene shift, and how would you describe it utilizing <strong>{grammar_focus}</strong>?",
+    "The characters use the expression <strong>'{word}'</strong> to convey subtext that they might not want to say directly during {conflict}. What are they hiding, and how can we describe their motive using <strong>{grammar_focus}</strong>?",
+    "Analyzing dialogue containing <strong>'{word}'</strong> provides insights into the film's social context. What other linguistic nuances or <strong>{grammar_focus}</strong> patterns did you observe in these verbal exchanges?"
+]
+
+R1_SLANG_PERSONAL_TEMPLATES = [
+    "★ Have you or your friends ever used a similar colloquial expression like <strong>'{word}'</strong> in a real-life conversation? Describe the scenario using <strong>{grammar_focus}</strong>.",
+    "★ Do you enjoy learning authentic slang like <strong>'{word}'</strong>, or do you prefer focusing on formal language registers? Share your thoughts using <strong>{grammar_focus}</strong>.",
+    "★ Can you think of an equivalent slang expression in your native language for <strong>'{word}'</strong>? How does it compare in terms of cultural nuance?",
+    "★ When you want to convey a hidden meaning, do you use local idioms/slang like <strong>'{word}'</strong> or do you rely on direct, formal communication?",
+    "★ Have you ever had a misunderstanding when using a regional expression or slang word like <strong>'{word}'</strong>? Describe the experience."
+]
+
+# Debate statements for words 0-4
+R2_THEME_STATEMENT_TEMPLATES = [
+    "'{protagonist}'s ultimate pursuit of <strong>{word}</strong> is a tragic delusion rather than a noble quest, and they should have surrendered to {key_figures}.' Analyze this statement using <strong>{grammar_focus}</strong>.",
+    "'The director's aesthetic choices in {setting} glamorize the harsh reality of <strong>{word}</strong> instead of depicting its true personal cost.' Debate this using <strong>{grammar_focus}</strong>.",
+    "'{protagonist} is fundamentally an unsympathetic character whose reliance on <strong>{word}</strong> brings down everyone around them.' Argue your stance using <strong>{grammar_focus}</strong>.",
+    "'As a piece of mature cinema, <em>{title}</em> relies too heavily on predictable tropes of <strong>{word}</strong> instead of exploring more nuanced psychological territories.' Evaluate using <strong>{grammar_focus}</strong>.",
+    "'The central conflict of {conflict} is never truly resolved because the characters are trapped by their own ideological obsession with <strong>{word}</strong>.' Prove or disprove this using <strong>{grammar_focus}</strong>."
+]
+
+# General artistry/directing debate statements (indices 5-9)
+R2_CINEMATIC_STATEMENT_TEMPLATES = [
+    "'The screenplay of <em>{title}</em> would have had a much more profound impact if the director had chosen a more ambiguous ending for {protagonist}.' Propose an alternative screenplay path using <strong>{grammar_focus}</strong>.",
+    "'The relationship between {protagonist} and {key_figures} is the only redeeming quality of the screenplay, as the rest of the plot feels secondary.' Critically assess this using <strong>{grammar_focus}</strong>.",
+    "'The cinematography and visual directing in {setting} are far more effective at conveying the story's emotional weight than the actual written dialogue.' Formulate your analysis using <strong>{grammar_focus}</strong>.",
+    "'In the grand scheme of cinema history, <em>{title}</em> serves as an essential cultural touchstone that perfectly encapsulates its generation's anxieties.' Discuss this philosophical angle using <strong>{grammar_focus}</strong>.",
+    "'For a modern audience, the character development and pacing in <em>{title}</em> are too slow-paced and fail to hold the attention of younger viewers.' Defend or oppose this using <strong>{grammar_focus}</strong>."
 ]
 
 # Parse all 91 films from the markdown file
@@ -831,6 +880,8 @@ SESSION_TEMPLATE = """<!DOCTYPE html>
     <p>Welcome to our specialized Cinema Club session. This session is designed to explore the deep screen adaptation, cinematic storytelling, and screenplays of <strong>{title}</strong>. Perfect your target language comprehension by analyzing character dialogs, tone markers, and core cinematic motifs. In this session, we pay special attention to <strong>{grammar_focus}</strong>, practicing how it is naturally used in authentic dialogue and scene interactions.</p>
   </div>
 
+  {sensitive_html}
+
   <section id="vocabulary">
     <h2 class="section-title">🎬 Session Vocabulary</h2>
 
@@ -870,7 +921,7 @@ SESSION_TEMPLATE = """<!DOCTYPE html>
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Screenplay Discussion</div>
-          <div class="vim-instruction">Deconstruct the character conversations and thematic developments. Actively practice these target terms and integrate the grammar focus **{grammar_focus}** into your responses.</div>
+          <div class="vim-instruction">Deconstruct the character conversations and thematic developments. Actively practice these target terms and integrate the grammar focus <strong>{grammar_focus}</strong> into your responses.</div>
 {round1_html}
         </div>
       </div>
@@ -896,7 +947,7 @@ SESSION_TEMPLATE = """<!DOCTYPE html>
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Artistic Analysis</div>
-          <div class="vim-instruction">Analyze the cinematography, motifs, director choices, and alternative narrative endings. Actively practice these target terms and integrate the grammar focus **{grammar_focus}** into your responses.</div>
+          <div class="vim-instruction">Analyze the cinematography, motifs, director choices, and alternative narrative endings. Actively practice these target terms and integrate the grammar focus <strong>{grammar_focus}</strong> into your responses.</div>
 {round2_html}
         </div>
       </div>
@@ -998,44 +1049,88 @@ for idx, r in enumerate(rows):
         "conflict": "the central conflict"
     })
 
+    # Sensitive/18+ warning injection
+    sensitive_html = ""
+    if title in SENSITIVE_FILMS:
+        theme_details = SENSITIVE_FILMS[title]
+        sensitive_html = f"""  <!-- SENSITIVE TOPIC / 18+ NOTE -->
+  <div class="sensitive-topic-warning" style="margin-bottom: 2rem; padding: 1.25rem; background: rgba(229, 62, 62, 0.05); border-left: 4px solid #E53E3E; border-radius: 12px; font-size: 0.92rem; line-height: 1.5; color: #9B2C2C; display: flex; align-items: flex-start; gap: 12px; box-shadow: var(--shadow-sm);">
+    <span style="font-size: 1.4rem; line-height: 1;">🔞</span>
+    <div>
+      <strong style="color: #9B2C2C;">Adult Content / Sensitive Topic Note:</strong> This session focuses on <strong>{theme_details}</strong>. Discussion is intended for mature or adult audiences as it explores complex or sensitive psychological and societal themes.
+    </div>
+  </div>"""
+
     # Generate 10 items for Round 1, each using one of the 10 vocab words
     round1_html = ""
     for r1_idx, (word, _, _) in enumerate(vocab_items):
-        r1_main = R1_TEMPLATES[r1_idx].format(
-            word=word,
-            title=title,
-            protagonist=details["protagonist"],
-            key_figures=details["key_figures"],
-            setting=details["setting"],
-            conflict=details["conflict"],
-            grammar_focus=grammar_focus
-        )
-        r1_personal = R1_PERSONAL_TEMPLATES[r1_idx].format(
-            word=word,
-            title=title,
-            protagonist=details["protagonist"],
-            key_figures=details["key_figures"],
-            setting=details["setting"],
-            conflict=details["conflict"],
-            grammar_focus=grammar_focus
-        )
+        word_lower = word.lower()
+        if r1_idx < 5:
+            r1_main = R1_THEME_TEMPLATES[r1_idx].format(
+                word=word_lower,
+                title=title,
+                protagonist=details["protagonist"],
+                key_figures=details["key_figures"],
+                setting=details["setting"],
+                conflict=details["conflict"],
+                grammar_focus=grammar_focus
+            )
+            r1_personal = R1_THEME_PERSONAL_TEMPLATES[r1_idx].format(
+                word=word_lower,
+                title=title,
+                protagonist=details["protagonist"],
+                key_figures=details["key_figures"],
+                setting=details["setting"],
+                conflict=details["conflict"],
+                grammar_focus=grammar_focus
+            )
+        else:
+            r1_main = R1_SLANG_TEMPLATES[r1_idx - 5].format(
+                word=word,
+                title=title,
+                protagonist=details["protagonist"],
+                key_figures=details["key_figures"],
+                setting=details["setting"],
+                conflict=details["conflict"],
+                grammar_focus=grammar_focus
+            )
+            r1_personal = R1_SLANG_PERSONAL_TEMPLATES[r1_idx - 5].format(
+                word=word,
+                title=title,
+                protagonist=details["protagonist"],
+                key_figures=details["key_figures"],
+                setting=details["setting"],
+                conflict=details["conflict"],
+                grammar_focus=grammar_focus
+            )
         round1_html += f"""          <div class="round-item">
             <div class="round-item-main">{r1_main}</div>
             <div class="round-item-personal">{r1_personal}</div>
           </div>\n"""
 
-    # Generate 10 items for Round 2, each using one of the 10 vocab words
+    # Generate 10 items for Round 2, using themes for 0-4 and general cinematic debate for 5-9
     round2_html = ""
     for r2_idx, (word, _, _) in enumerate(vocab_items):
-        r2_main = R2_STATEMENT_TEMPLATES[r2_idx].format(
-            word=word,
-            title=title,
-            protagonist=details["protagonist"],
-            key_figures=details["key_figures"],
-            setting=details["setting"],
-            conflict=details["conflict"],
-            grammar_focus=grammar_focus
-        )
+        word_lower = word.lower()
+        if r2_idx < 5:
+            r2_main = R2_THEME_STATEMENT_TEMPLATES[r2_idx].format(
+                word=word_lower,
+                title=title,
+                protagonist=details["protagonist"],
+                key_figures=details["key_figures"],
+                setting=details["setting"],
+                conflict=details["conflict"],
+                grammar_focus=grammar_focus
+            )
+        else:
+            r2_main = R2_CINEMATIC_STATEMENT_TEMPLATES[r2_idx - 5].format(
+                title=title,
+                protagonist=details["protagonist"],
+                key_figures=details["key_figures"],
+                setting=details["setting"],
+                conflict=details["conflict"],
+                grammar_focus=grammar_focus
+            )
         round2_html += f"""          <div class="round-item">
             <div class="round-item-main">{r2_main}</div>
           </div>\n"""
@@ -1060,6 +1155,7 @@ for idx, r in enumerate(rows):
             grammar_focus=grammar_focus,
             vocab_generic_html=vocab_generic_html,
             vocab_authentic_html=vocab_authentic_html,
+            sensitive_html=sensitive_html,
             round1_html=round1_html,
             round2_html=round2_html,
             mistakes_html=mistakes_html
