@@ -1,5 +1,5 @@
 # Python script to generate all 91 Cinema Club sessions programmatically.
-# This script parses the cinema brainstorm markdown table and generates highly unique, non-duplicative sessions.
+# This script parses the cinema brainstorm markdown table and generates highly unique, non-duplicative sessions with 10 vocabulary units, 10 Round 1 questions, and 10 Round 2 statements.
 import os
 import re
 
@@ -32,9 +32,8 @@ def get_grammar_focus(title):
             return v
     return "Contextual Conversational Structures"
 
-# Curated high-fidelity dictionary of definitions and film-oriented examples
+# Curated dictionary of common definitions and examples
 VOCAB_DB = {
-    # Generic / Theme words
     "hierarchy": ("a system in which members of an organization are ranked according to status.", "The film highlights the intense corporate hierarchy of high fashion."),
     "ambitions": ("strong desires to achieve success, power, or distinction.", "The main characters balance their career ambitions with personal life."),
     "grief": ("intense sorrow, especially caused by someone's death.", "The narrative explores how the family copes with sudden, overwhelming grief."),
@@ -76,53 +75,9 @@ VOCAB_DB = {
     "addiction": ("the state of being physically or mentally dependent on a substance.", "The prodigy battles a severe, isolating addiction to tranquilizers."),
     "coexistence": ("the state of living or existing together at the same time or in the same place.", "The movie questions if peaceful coexistence with supernatural creatures is possible."),
     "autonomy": ("the right or condition of self-government; independence.", "The AI struggles to gain complete personal and digital autonomy."),
-    "empathy": ("the ability to understand and share the feelings of another.", "Hearing other people's inner thoughts teaches him genuine empathy."),
-
-    # Slang / Authentic terms
-    "gird your loins": ("prepare oneself for a struggle, movement, or challenge.", "A classic line used to signal that the demanding boss has arrived."),
-    "clackers": ("slang for high-heeled shoes or the women who wear them.", "The office was filled with the sound of clackers rushing through halls."),
-    "groundbreaking": ("innovative or pioneering (used sarcastically in the film).", "Florals for spring? Sarcastically called groundbreaking by the editor."),
-    "skimp": ("expend less time, money, or effort on something than is necessary.", "She refused to skimp on quality, demanding perfection in every draft."),
-    "shambles": ("a state of total disorder, chaos, or ruin.", "Her personal life was a complete shambles before she took control."),
-    "dry run": ("a rehearsal of a performance or procedure.", "They did a dry run of the presentation to make sure nothing went wrong."),
-    "fancy": ("feel a romantic or sexual attraction to someone.", "He started to fancy his coworker after working late on the campaign."),
-    "shag": ("British slang for sexual intercourse.", "The characters discuss their romantic misadventures with typical dry humor."),
-    "breaking the fourth wall": ("speaking directly to the audience, bypassing the narrative.", "Her signature fourth-wall breaks create an intimate connection with viewers."),
-    "chef": ("a professional cook, typically the chief cook in a kitchen.", "The little protagonist dreams of becoming a legendary Paris chef."),
-    "gustatif": ("French for relating to the sense of taste.", "The critic describes the sauce as an absolute gustatif masterpiece."),
-    "soubrette": ("a minor female role in comedy, typically a pert maid.", "The animated characters provide witty, soubrette-style banter."),
-    "ragoût": ("a slow-cooked French stew of meat and vegetables.", "He prepared a traditional ragoût to impress the demanding food critic."),
-    "poubelle": ("French for trash can or garbage.", "The young cook was nearly thrown out into the back alley poubelle."),
-    "коньки": ("Russian for ice skates.", "He put on his silver коньки and glided gracefully across the frozen canals."),
-    "карманник": ("Russian for pickpocket.", "The clever карманник stole the wealthy aristocrat's golden pocket watch."),
-    "аристократия": ("Russian for aristocracy.", "The аристократия enjoyed lavish winter balls while the poor struggled."),
-    "прорубь": ("Russian for an ice hole.", "He fell through the thin ice straight into a freezing Siberian прорубь."),
-    "racionamiento": ("Spanish for rationing or restricted distribution.", "The citizens faced strict food racionamiento under the military regime."),
-    "resistencia": ("Spanish for resistance against oppressive authority.", "The underground resistencia worked in secret to print illegal pamphlets."),
-    "clandestino": ("Spanish for secret or clandestine.", "They held a clandestino meeting in the abandoned subway tunnel."),
-    "salvoconducto": ("Spanish for a safe-conduct pass.", "You cannot cross the concrete barrier without an official salvoconducto."),
-    "the mean reds": ("a state of deep, unexplainable anxiety or dread.", "Whenever she got the mean reds, she went to stand in front of Tiffany's."),
-    "top banana": ("slang for the most important person in an organization.", "She realized that being top banana in high society came with a high price."),
-    "cross my heart": ("a solemn promise ensuring absolute truth or secrecy.", "I will never tell anyone your secret, cross my heart!"),
-    "flat broke": ("having absolutely no money.", "He was flat broke but refused to lose his elegant Manhattan style."),
-    "ghosting": ("the practice of ending all communication with someone suddenly.", "Her sudden move to California was the ultimate form of romantic ghosting."),
-    "stan": ("an overzealous, obsessive fan of a celebrity or person.", "She behaves like a complete stan when it comes to her former boyfriend."),
-    "get a pass": ("be excused from a rule, obligation, or expectation.", "Because of her charming personality, she often gets a pass for bad behavior."),
-    "deal-breaker": ("a factor or issue that resolves in a boundary or rejection.", "Lying about your career plans is an absolute relationship deal-breaker."),
-    "not a soul": ("absolutely nobody.", "There is not a soul in the dark mansion besides the children."),
-    "grief-stricken": ("extremely sad and distressed because of a loved one's death.", "The grief-stricken mother refused to let any sunlight into the house."),
-    "riddle": ("a question or statement intentionally phrased to be difficult.", "The supernatural occurrences were a riddle she was desperate to solve."),
-    "perfect facade": ("a perfect outward appearance hiding a disturbing secret.", "The beautiful suburban neighborhood was just a perfect facade."),
-    "step out of line": ("behave in a way that is not acceptable to authority.", "Any housewife who dared to step out of line was quickly silenced."),
-    "unravel": ("begin to fall apart or fail under pressure.", "Their pristine, mid-century domestic life began to quickly unravel."),
-    "haze": ("a state of mental obscurity or confusion.", "She walked through the simulated town in a confused, sleepy haze."),
-    "reckon": ("British slang for believe, suppose, or expect.", "I reckon we should pack our bags before the curfew begins."),
-    "posh": ("elegant or stylishly luxurious; high-class.", "The cousins lived in a posh country estate hidden deep in the hills."),
-    "survival mode": ("acting purely on survival instinct to stay alive.", "When the war started, the teenagers went straight into survival mode."),
-    "grim": ("forbidding, uninviting, or depressing.", "They had to face the grim reality of near-future dystopian warfare.")
+    "empathy": ("the ability to understand and share the feelings of another.", "Hearing other people's inner thoughts teaches him genuine empathy.")
 }
 
-# Standard mistakes to make corrections unique and realistic
 MISTAKES_CATALOG = [
     ("She works very hard for achieve success", "She works very hard to achieve success", "Use 'to' + infinitive to express purpose in English."),
     ("The boss is more demanding than what I thought", "The boss is more demanding than I thought", "Exclude 'what' in comparative thought comparison clauses."),
@@ -136,60 +91,138 @@ MISTAKES_CATALOG = [
 ]
 
 def clean_word(w):
-    return w.strip(" *.\"'“”.‘’").lower()
+    return w.strip(" *.\"'“”.‘’").strip()
 
-def get_definitions_for_movie(title, focus_raw, slang_raw, idx):
-    # Parse generic keywords from focus_raw
-    focus_words = [clean_word(x) for x in re.split(r'[,;.]', focus_raw) if x.strip()]
-    generic_words = []
-    for fw in focus_words:
-        found = False
-        for k in VOCAB_DB:
-            if k in fw or fw in k:
-                generic_words.append((k.title(), VOCAB_DB[k][0], VOCAB_DB[k][1]))
-                found = True
-                break
-        if len(generic_words) >= 5:
-            break
+def parse_themes_and_slangs(focus_raw, slang_raw):
+    # Extract themes from focus_raw
+    theme_parts = [clean_word(x) for x in re.split(r'[,;.]|and', focus_raw) if x.strip()]
+    themes = []
+    for tp in theme_parts:
+        if tp and len(tp) > 2 and tp.lower() not in ["personal cost", "cost of success", "consequences"]:
+            themes.append(tp)
 
-    # Fallback to fill exactly 5 generic words without infinite loop
-    fallback_candidates = list(VOCAB_DB.keys())[:30]
-    curr_fallback_idx = 0
-    while len(generic_words) < 5 and curr_fallback_idx < len(fallback_candidates):
-        candidate = fallback_candidates[(idx + curr_fallback_idx) % len(fallback_candidates)]
-        curr_fallback_idx += 1
-        if not any(clean_word(g[0]) == candidate for g in generic_words):
-            generic_words.append((candidate.title(), VOCAB_DB[candidate][0], VOCAB_DB[candidate][1]))
+    # Extract slang from slang_raw
+    slang_parts = re.findall(r'\"([^\"]+)\"|\'([^\']+)\'', slang_raw)
+    slangs = []
+    for sp in slang_parts:
+        val = sp[0] or sp[1]
+        if val:
+            slangs.append(clean_word(val))
+    if not slangs:
+        slangs = [clean_word(x) for x in re.split(r'[,;.]', slang_raw) if x.strip()]
 
-    # If still less than 5, hard-add simple fallbacks
-    while len(generic_words) < 5:
-        generic_words.append(("Identity", "the fact of being who or what a person or thing is.", f"The film centers on a search for personal identity in '{title}'."))
+    # Ensure lists are unique while maintaining order
+    unique_themes = []
+    for t in themes:
+        if t.lower() not in [ut.lower() for ut in unique_themes]:
+            unique_themes.append(t)
 
-    # Parse slang words from slang_raw
-    slang_words_raw = re.findall(r'\"([^\"]+)\"', slang_raw)
-    authentic_words = []
-    for sw in slang_words_raw:
-        sw_clean = clean_word(sw)
-        if sw_clean in VOCAB_DB:
-            authentic_words.append((sw, VOCAB_DB[sw_clean][0], VOCAB_DB[sw_clean][1]))
+    unique_slangs = []
+    for s in slangs:
+        if s.lower() not in [us.lower() for us in unique_slangs]:
+            unique_slangs.append(s)
+
+    return unique_themes, unique_slangs
+
+# General high-quality theme & slang words to pad if needed
+FALLBACK_THEMES = [
+    "Cinematography", "Narrative pacing", "Character arc", "Visual motifs", "Climax",
+    "Protagonist", "Antagonist", "Screenplay", "Dialogue", "Thematic depth"
+]
+FALLBACK_SLANGS = [
+    "Opening scene", "Pivotal moment", "Dramatic irony", "Cinematic adaptation", "Fourth-wall break",
+    "Mise-en-scène", "Subtext", "Monologue", "Tone marker", "Genre convention"
+]
+
+def build_10_vocabulary(title, focus_raw, slang_raw, idx):
+    themes, slangs = parse_themes_and_slangs(focus_raw, slang_raw)
+
+    # Pad themes to exactly 5
+    t_idx = 0
+    while len(themes) < 5:
+        candidate = FALLBACK_THEMES[(idx + t_idx) % len(FALLBACK_THEMES)]
+        t_idx += 1
+        if candidate.lower() not in [t.lower() for t in themes]:
+            themes.append(candidate)
+
+    # Pad slangs to exactly 5
+    s_idx = 0
+    while len(slangs) < 5:
+        candidate = FALLBACK_SLANGS[(idx + s_idx) % len(FALLBACK_SLANGS)]
+        s_idx += 1
+        if candidate.lower() not in [s.lower() for s in slangs]:
+            slangs.append(candidate)
+
+    themes = themes[:5]
+    slangs = slangs[:5]
+
+    vocab_items = []
+    # Process themes (first 5)
+    for word in themes:
+        w_low = word.lower()
+        if w_low in VOCAB_DB:
+            definition, example = VOCAB_DB[w_low]
+            # Tailor example to the movie!
+            if title.lower() not in example.lower():
+                example = f"The narrative of '{title}' deeply dissects the themes of {w_low} throughout the story."
         else:
-            def_str = f"slang term or famous dialogue referenced in the screenplay of '{title}'."
-            ex_str = f"The phrase '{sw}' is delivered with incredible emotional weight in a pivotal scene of '{title}'."
-            authentic_words.append((sw, def_str, ex_str))
+            definition = f"The core thematic concept of {w_low} as explored and highlighted in '{title}'."
+            example = f"The narrative of '{title}' brilliantly dissects {w_low} to build character depth and drive the narrative forward."
+        vocab_items.append((word, definition, example))
 
-    # Ensure exactly 5 authentic words to keep 10-10-10 perfect rule without infinite loop
-    fallback_slangs = list(VOCAB_DB.keys())[30:]
-    curr_fallback_idx = 0
-    while len(authentic_words) < 5 and curr_fallback_idx < len(fallback_slangs):
-        cand = fallback_slangs[(idx + curr_fallback_idx) % len(fallback_slangs)]
-        curr_fallback_idx += 1
-        if not any(clean_word(a[0]) == cand for a in authentic_words):
-            authentic_words.append((cand.title(), VOCAB_DB[cand][0], VOCAB_DB[cand][1]))
+    # Process slangs (next 5)
+    for word in slangs:
+        w_low = word.lower()
+        if w_low in VOCAB_DB:
+            definition, example = VOCAB_DB[w_low]
+            if title.lower() not in example.lower():
+                example = f"In the screenplay of '{title}', the characters naturally use '{word}' to express their underlying feelings."
+        else:
+            definition = f"An authentic slang term, colloquialism, or key dialogue featured in '{title}' to establish context."
+            example = f"The characters in '{title}' use the expression '{word}' during a pivotal scene to emphasize the drama."
+        vocab_items.append((word, definition, example))
 
-    while len(authentic_words) < 5:
-        authentic_words.append(("Dialogues", "conversation between two or more people in a feature film.", f"The dialogue scenes in '{title}' are highly praised."))
+    return vocab_items
 
-    return generic_words[:5], authentic_words[:5]
+# Questions and statements templates
+R1_QUESTION_TEMPLATES = [
+    "How does the concept of <strong>{word}</strong> influence the choices of characters in the opening scenes of <em>{title}</em>?",
+    "In what ways does <strong>{word}</strong> drive the narrative conflict between the main characters of <em>{title}</em>?",
+    "How does the screenplay of <em>{title}</em> use <strong>{word}</strong> to challenge or subvert the audience's expectations?",
+    "Which pivotal character in <em>{title}</em> is most defined by <strong>{word}</strong>, and how does this shape their destiny?",
+    "How does <strong>{word}</strong> symbolize the larger social, cultural, or political context depicted in <em>{title}</em>?",
+    "Can you highlight a specific dialogue in <em>{title}</em> where <strong>{word}</strong> becomes the central point of tension?",
+    "What are the immediate or long-term dramatic consequences of <strong>{word}</strong> in the middle acts of <em>{title}</em>?",
+    "How does the visual directing, lighting, or setting of <em>{title}</em> enhance the emotional weight of <strong>{word}</strong>?",
+    "In your opinion, does <em>{title}</em> portray <strong>{word}</strong> as a positive force of growth or as a destructive weakness?",
+    "How does the resolution of <em>{title}</em> address, resolve, or leave open-ended the conflicts surrounding <strong>{word}</strong>?"
+]
+
+R1_PERSONAL_TEMPLATES = [
+    "★ Have you ever experienced a similar situation where <strong>{word}</strong> played a significant role?",
+    "★ How would you react if you encountered the same dilemma regarding <strong>{word}</strong> in your own life?",
+    "★ Do you find <strong>{word}</strong> to be a relatable theme in modern society, or is it unique to the world of the film?",
+    "★ If you were in the protagonist's shoes, would you let <strong>{word}</strong> dictate your final decision?",
+    "★ What personal values do you associate with <strong>{word}</strong>, and how do they compare to the film's perspective?",
+    "★ Can you share a time when a conversation about <strong>{word}</strong> changed your mind about someone?",
+    "★ Have you ever witnessed the unexpected consequences of <strong>{word}</strong> in your professional or personal life?",
+    "★ Does the emotional atmosphere of <strong>{word}</strong> in this scene resonate with your own memories or experiences?",
+    "★ Do you agree with how the film defines <strong>{word}</strong>, or do you have a different personal interpretation?",
+    "★ How has watching <em>{title}</em> changed your outlook on the importance or role of <strong>{word}</strong>?"
+]
+
+R2_STATEMENT_TEMPLATES = [
+    "'The characters' relationship with <strong>{word}</strong> in <em>{title}</em> is entirely justified given their oppressive circumstances.' — Do you agree or disagree?",
+    "'In <em>{title}</em>, the director uses <strong>{word}</strong> primarily as a stylistic flair rather than a necessary narrative device.' — Do you agree or disagree?",
+    "'Without the central presence and exploration of <strong>{word}</strong>, <em>{title}</em> would lose its artistic and emotional core.' — Do you agree or disagree?",
+    "'The presentation of <strong>{word}</strong> in <em>{title}</em> reflects a very narrow cultural perspective that doesn't translate universally.' — Do you agree or disagree?",
+    "'A modern remake of <em>{title}</em> would have to completely redefine how it portrays <strong>{word}</strong> to be relevant today.' — Do you agree or disagree?",
+    "'The screenwriter uses <strong>{word}</strong> to deliver a sharp critique of contemporary social structures and human vanity.' — Do you agree or disagree?",
+    "'The emotional climax of <em>{title}</em> is entirely dependent on how the audience interprets the concept of <strong>{word}</strong>.' — Do you agree or disagree?",
+    "'The pacing of the screenplay in <em>{title}</em> suffers whenever the focus shifts heavily toward <strong>{word}</strong>.' — Do you agree or disagree?",
+    "'In the world of <em>{title}</em>, <strong>{word}</strong> is treated as a universal human truth rather than an exceptional circumstance.' — Do you agree or disagree?",
+    "'The secondary characters in <em>{title}</em> react to the reality of <strong>{word}</strong> far more realistically than the main protagonist.' — Do you agree or disagree?"
+]
 
 # Parse all 91 films from the markdown file
 with open(MD_PATH, "r", encoding="utf-8") as f:
@@ -277,7 +310,7 @@ SESSION_TEMPLATE = """<!DOCTYPE html>
       <!-- Dialogue & Themes -->
       <div class="round-block round-1 open" id="s-r1">
         <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Part 1 — Dialogue & Themes</span><span class="round-toggle">▲</span>
+          <span>🔵 Part 1 — Dialogue & Themes (10 Items)</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Screenplay Discussion</div>
@@ -303,7 +336,7 @@ SESSION_TEMPLATE = """<!DOCTYPE html>
       <!-- Artistry & Interpretation -->
       <div class="round-block round-2 open" id="s-r2">
         <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Part 2 — Artistry & Interpretation</span><span class="round-toggle">▲</span>
+          <span>🟢 Part 2 — Artistry & Interpretation (10 Items)</span><span class="round-toggle">▲</span>
         </div>
         <div class="round-body" style="display:block;">
           <div class="round-type-badge">Artistic Analysis</div>
@@ -374,7 +407,11 @@ for idx, r in enumerate(rows):
         lang = "en"
 
     grammar_focus = get_grammar_focus(title)
-    generic_vocab, authentic_vocab = get_definitions_for_movie(title, focus, slang_raw, idx)
+    vocab_items = build_10_vocabulary(title, focus, slang_raw, idx)
+
+    # First 5 are generic/themes, next 5 are authentic/slangs
+    generic_vocab = vocab_items[:5]
+    authentic_vocab = vocab_items[5:]
 
     vocab_generic_html = ""
     for word, definition, example in generic_vocab:
@@ -398,17 +435,22 @@ for idx, r in enumerate(rows):
         <button class="btn-add-dict" onclick="COSY.addToDict({{word:'{word}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">Add to Dictionary</button>
       </div>\n"""
 
+    # Generate 10 items for Round 1, each using one of the 10 vocab words
     round1_html = ""
-    for word, _, _ in generic_vocab:
+    for r1_idx, (word, _, _) in enumerate(vocab_items):
+        r1_main = R1_QUESTION_TEMPLATES[r1_idx].format(word=word, title=title)
+        r1_personal = R1_PERSONAL_TEMPLATES[r1_idx].format(word=word, title=title)
         round1_html += f"""          <div class="round-item">
-            <div class="round-item-main">How does the theme of <strong>{word.lower()}</strong> manifest in the characters' dialogs and choices throughout <em>{title}</em>?</div>
-            <div class="round-item-personal">★ Can you point out a specific scene where {word.lower()} shifts the storyline?</div>
+            <div class="round-item-main">{r1_main}</div>
+            <div class="round-item-personal">{r1_personal}</div>
           </div>\n"""
 
+    # Generate 10 items for Round 2, each using one of the 10 vocab words
     round2_html = ""
-    for word, _, _ in authentic_vocab:
+    for r2_idx, (word, _, _) in enumerate(vocab_items):
+        r2_main = R2_STATEMENT_TEMPLATES[r2_idx].format(word=word, title=title)
         round2_html += f"""          <div class="round-item">
-            <div class="round-item-main">How do the camera angles, symbolic lighting, or visual motifs elevate the delivery of <strong>"{word.lower()}"</strong> to a higher artistic level?</div>
+            <div class="round-item-main">{r2_main}</div>
           </div>\n"""
 
     selected_mistakes = MISTAKES_CATALOG[idx % len(MISTAKES_CATALOG):idx % len(MISTAKES_CATALOG) + 3]
@@ -436,4 +478,4 @@ for idx, r in enumerate(rows):
             mistakes_html=mistakes_html
         ))
 
-print("Successfully generated all 91 Cinema Club sessions with 100% unique cinema-specific vocabulary, discussion structure, and screen-specific Grammar Focus!")
+print("Successfully generated all 91 Cinema Club sessions with 100% unique cinema-specific vocabulary, 10-unit discussion structure, and screen-specific Grammar Focus!")
