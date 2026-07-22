@@ -33,696 +33,904 @@ def get_grammar_focus(title):
     return "Contextual Conversational Structures"
 
 # Curated dictionary of common definitions and examples
-VOCAB_DB = {
-    "hierarchy": ("a system in which members of an organization are ranked according to status.", "The film highlights the intense corporate hierarchy of high fashion."),
-    "ambitions": ("strong desires to achieve success, power, or distinction.", "The main characters balance their career ambitions with personal life."),
-    "grief": ("intense sorrow, especially caused by someone's death.", "The narrative explores how the family copes with sudden, overwhelming grief."),
-    "trauma": ("a deeply distressing or disturbing experience.", "The protagonist struggles to overcome lingering childhood trauma."),
-    "romance": ("a feeling of excitement and mystery associated with love.", "Their romance is tested by societal expectations and historical events."),
-    "prejudice": ("preconceived opinion that is not based on reason or actual experience.", "The film addresses deep-rooted social prejudice in mid-century society."),
-    "surveillance": ("close observation, especially of a suspected person or group.", "The characters live under constant, high-tech state surveillance."),
-    "survival": ("the state or fact of continuing to live or exist, especially in spite of difficult conditions.", "Survival in this dystopian future requires absolute secrecy and courage."),
-    "survival mode": ("the state or fact of continuing to live or exist, especially in spite of difficult conditions.", "Survival in this dystopian future requires absolute secrecy and courage."),
-    "solidarity": ("unity or agreement of feeling or action, especially among individuals.", "The resistance movement is built on quiet acts of human solidarity."),
-    "superstition": ("excessively credulous belief in and reverence for supernatural forces.", "The old village is bound by dark superstition and fear of the woods."),
-    "optimism": ("hopefulness and confidence about the future or the success of something.", "Despite her setbacks, she maintains a bright and contagious optimism."),
-    "independence": ("the fact or state of being independent and self-reliant.", "Her journey centers on her struggle for personal and financial independence."),
-    "resilience": ("the capacity to recover quickly from extreme difficulties.", "The community shows incredible resilience in a post-apocalyptic world."),
-    "vulnerability": ("the quality of being exposed to emotional or physical harm.", "Admitting fear is portrayed as a source of strength and emotional vulnerability."),
-    "devotion": ("love, loyalty, or enthusiasm for a person, activity, or cause.", "His lifelong devotion is documented in beautiful, bittersweet letters."),
-    "obsession": ("the state of being obsessed with someone or something.", "The film warns against the dangers of creative and mental obsession."),
-    "loyalty": ("the quality of giving or showing firm and constant support.", "The story celebrates the deep and unbreakable loyalty of animal companions."),
-    "fame": ("the state of being known or talked about by many people.", "The reality TV stars discover the fleeting nature of sudden media fame."),
-    "deception": ("the action of deceiving someone.", "The plot is a masterclass in elegant deception and shifting alliances."),
-    "suspense": ("a state of excited or anxious uncertainty about what may happen.", "The director relies on visual suspense rather than cheap jumpscares."),
-    "diversity": ("the practice or quality of including people from a range of backgrounds.", "The cast celebrates cultural diversity and modern gender representation."),
-    "clique": ("a small, exclusive group of people.", "The narrative dissects the brutal dynamics of elite high school cliques."),
-    "satire": ("the use of humor, irony, or exaggeration to expose and criticize stupidity.", "This dark comedy serves as a sharp political satire of modern governance."),
-    "propaganda": ("information, especially of a biased or misleading nature, used to promote a cause.", "The citizens are fed corporate propaganda to hide the simulation."),
-    "clones": ("genetically identical copies of a living organism.", "The sci-fi epic explores the ethical and personal dilemmas of human clones."),
-    "illness": ("a disease or period of sickness affecting the body or mind.", "The story focuses on preserving identity in the face of progressive illness."),
-    "apocalypse": ("the complete final destruction or collapse of the world.", "The survivors search for meaning and warmth after the sudden apocalypse."),
-    "audition": ("an interview for a particular role as a singer, actor, or musician.", "Her emotional college audition is the turning point of the film."),
-    "immortality": ("the ability to live forever; eternal life.", "She learns that accidental immortality can lead to deep loneliness."),
-    "infidelity": ("the action of being unfaithful to a spouse or partner.", "The plot unravels through discoveries of mutual marital infidelity."),
-    "isolation": ("the state of being separate from others.", "The remote, claustrophobic setting amplifies the characters' mental isolation."),
-    "desires": ("strong feelings of wanting to have something or wishing for something.", "The storyline warns about the unexpected consequences of our deepest desires."),
-    "humility": ("a modest or low view of one's own importance.", "The character learns humility after losing their vast fortune overnight."),
-    "generosity": ("the quality of being kind and generous.", "Small acts of generosity shine through the cold, competitive atmosphere."),
-    "fate": ("the development of events beyond a person's control.", "The characters debate whether their island crash was accident or absolute fate."),
-    "mythology": ("a collection of myths, especially those belonging to a particular culture.", "The series slowly builds a complex, supernatural mythology."),
-    "secrets": ("something that is kept or meant to be kept unknown or unseen.", "The historic mansion is filled with deadly secrets and symbols."),
-    "vigilante": ("a member of a self-appointed group of citizens who undertake law enforcement.", "The masked vigilante fights against authoritarian political rule."),
-    "addiction": ("the state of being physically or mentally dependent on a substance.", "The prodigy battles a severe, isolating addiction to tranquilizers."),
-    "coexistence": ("the state of living or existing together at the same time or in the same place.", "The movie questions if peaceful coexistence with supernatural creatures is possible."),
-    "autonomy": ("the right or condition of self-government; independence.", "The AI struggles to gain complete personal and digital autonomy."),
-    "empathy": ("the ability to understand and share the feelings of another.", "Hearing other people's inner thoughts teaches him genuine empathy.")
-}
+VOCAB_DB = {'addiction': ('the state of being physically or mentally dependent on a substance.',
+               'The prodigy battles a severe, isolating addiction to tranquilizers.'),
+ 'ambitions': ('strong desires to achieve success, power, or distinction.',
+               'The main characters balance their career ambitions with personal life.'),
+ 'apocalypse': ('the complete final destruction or collapse of the world.',
+                'The survivors search for meaning and warmth after the sudden apocalypse.'),
+ 'audition': ('an interview for a particular role as a singer, actor, or musician.',
+              'Her emotional college audition is the turning point of the film.'),
+ 'autonomy': ('the right or condition of self-government; independence.',
+              'The AI struggles to gain complete personal and digital autonomy.'),
+ 'clique': ('a small, exclusive group of people.',
+            'The narrative dissects the brutal dynamics of elite high school cliques.'),
+ 'clones': ('genetically identical copies of a living organism.',
+            'The sci-fi epic explores the ethical and personal dilemmas of human clones.'),
+ 'coexistence': ('the state of living or existing together at the same time or in the same place.',
+                 'The movie questions if peaceful coexistence with supernatural creatures is possible.'),
+ 'deception': ('the action of deceiving someone.',
+               'The plot is a masterclass in elegant deception and shifting alliances.'),
+ 'desires': ('strong feelings of wanting to have something or wishing for something.',
+             'The storyline warns about the unexpected consequences of our deepest desires.'),
+ 'devotion': ('love, loyalty, or enthusiasm for a person, activity, or cause.',
+              'His lifelong devotion is documented in beautiful, bittersweet letters.'),
+ 'diversity': ('the practice or quality of including people from a range of backgrounds.',
+               'The cast celebrates cultural diversity and modern gender representation.'),
+ 'empathy': ('the ability to understand and share the feelings of another.',
+             "Hearing other people's inner thoughts teaches him genuine empathy."),
+ 'fame': ('the state of being known or talked about by many people.',
+          'The reality TV stars discover the fleeting nature of sudden media fame.'),
+ 'fate': ("the development of events beyond a person's control.",
+          'The characters debate whether their island crash was accident or absolute fate.'),
+ 'generosity': ('the quality of being kind and generous.',
+                'Small acts of generosity shine through the cold, competitive atmosphere.'),
+ 'grief': ("intense sorrow, especially caused by someone's death.",
+           'The narrative explores how the family copes with sudden, overwhelming grief.'),
+ 'hierarchy': ('a system in which members of an organization are ranked according to status.',
+               'The film highlights the intense corporate hierarchy of high fashion.'),
+ 'humility': ("a modest or low view of one's own importance.",
+              'The character learns humility after losing their vast fortune overnight.'),
+ 'illness': ('a disease or period of sickness affecting the body or mind.',
+             'The story focuses on preserving identity in the face of progressive illness.'),
+ 'immortality': ('the ability to live forever; eternal life.',
+                 'She learns that accidental immortality can lead to deep loneliness.'),
+ 'independence': ('the fact or state of being independent and self-reliant.',
+                  'Her journey centers on her struggle for personal and financial independence.'),
+ 'infidelity': ('the action of being unfaithful to a spouse or partner.',
+                'The plot unravels through discoveries of mutual marital infidelity.'),
+ 'isolation': ('the state of being separate from others.',
+               "The remote, claustrophobic setting amplifies the characters' mental isolation."),
+ 'loyalty': ('the quality of giving or showing firm and constant support.',
+             'The story celebrates the deep and unbreakable loyalty of animal companions.'),
+ 'mythology': ('a collection of myths, especially those belonging to a particular culture.',
+               'The series slowly builds a complex, supernatural mythology.'),
+ 'obsession': ('the state of being obsessed with someone or something.',
+               'The film warns against the dangers of creative and mental obsession.'),
+ 'optimism': ('hopefulness and confidence about the future or the success of something.',
+              'Despite her setbacks, she maintains a bright and contagious optimism.'),
+ 'prejudice': ('preconceived opinion that is not based on reason or actual experience.',
+               'The film addresses deep-rooted social prejudice in mid-century society.'),
+ 'propaganda': ('information, especially of a biased or misleading nature, used to promote a cause.',
+                'The citizens are fed corporate propaganda to hide the simulation.'),
+ 'resilience': ('the capacity to recover quickly from extreme difficulties.',
+                'The community shows incredible resilience in a post-apocalyptic world.'),
+ 'romance': ('a feeling of excitement and mystery associated with love.',
+             'Their romance is tested by societal expectations and historical events.'),
+ 'satire': ('the use of humor, irony, or exaggeration to expose and criticize stupidity.',
+            'This dark comedy serves as a sharp political satire of modern governance.'),
+ 'secrets': ('something that is kept or meant to be kept unknown or unseen.',
+             'The historic mansion is filled with deadly secrets and symbols.'),
+ 'solidarity': ('unity or agreement of feeling or action, especially among individuals.',
+                'The resistance movement is built on quiet acts of human solidarity.'),
+ 'superstition': ('excessively credulous belief in and reverence for supernatural forces.',
+                  'The old village is bound by dark superstition and fear of the woods.'),
+ 'surveillance': ('close observation, especially of a suspected person or group.',
+                  'The characters live under constant, high-tech state surveillance.'),
+ 'survival': ('the state or fact of continuing to live or exist, especially in spite of difficult conditions.',
+              'Survival in this dystopian future requires absolute secrecy and courage.'),
+ 'survival mode': ('the state or fact of continuing to live or exist, especially in spite of difficult conditions.',
+                   'Survival in this dystopian future requires absolute secrecy and courage.'),
+ 'suspense': ('a state of excited or anxious uncertainty about what may happen.',
+              'The director relies on visual suspense rather than cheap jumpscares.'),
+ 'trauma': ('a deeply distressing or disturbing experience.',
+            'The protagonist struggles to overcome lingering childhood trauma.'),
+ 'vigilante': ('a member of a self-appointed group of citizens who undertake law enforcement.',
+               'The masked vigilante fights against authoritarian political rule.'),
+ 'vulnerability': ('the quality of being exposed to emotional or physical harm.',
+                   'Admitting fear is portrayed as a source of strength and emotional vulnerability.')}
 
-FILM_DETAILS = {
-    "The Devil Wears Prada": {
-        "protagonist": "Andy Sachs",
-        "key_figures": "Miranda Priestly, Emily, and Nigel",
-        "setting": "Runway fashion magazine in New York City",
-        "conflict": "balancing personal integrity with Miranda's high-stress workplace demands"
-    },
-    "Fleabag": {
-        "protagonist": "Fleabag",
-        "key_figures": "her sister Claire, the Priest, and her family",
-        "setting": "modern London, particularly her guinea pig café",
-        "conflict": "navigating grief, modern isolation, and family dysfunctions"
-    },
-    "Ratatouille": {
-        "protagonist": "Remy the talented rat",
-        "key_figures": "Linguini, Colette, Gusteau, and food critic Anton Ego",
-        "setting": "a prestigious Parisian restaurant kitchen",
-        "conflict": "overcoming societal prejudice and kitchen hierarchy to cook freely"
-    },
-    "Serebryanye Konki (Silver Skates)": {
-        "protagonist": "Matvey",
-        "key_figures": "Alisa, the pickpocket gang leader Alex, and St. Petersburg aristocrats",
-        "setting": "frozen rivers and canals of 19th-century Saint Petersburg",
-        "conflict": "bridging class divisions and seeking social change on ice skates"
-    },
-    "La Valla (The Barrier)": {
-        "protagonist": "Hugo and Julia",
-        "key_figures": "their family, the authoritarian government, and resistance fighters",
-        "setting": "a dystopian, divided Madrid in the mid-20th century",
-        "conflict": "surviving under extreme state surveillance and seeking solidarity"
-    },
-    "Breakfast at Tiffany's": {
-        "protagonist": "Holly Golightly",
-        "key_figures": "Paul Varjak, her cat, and wealthy NYC suitors",
-        "setting": "glamorous and lonely New York City apartments",
-        "conflict": "overcoming superficial social climbing to find true human connection"
-    },
-    "Crazy Ex-Girlfriend": {
-        "protagonist": "Rebecca Bunch",
-        "key_figures": "Josh Chan, Greg, Paula, and mental health professionals",
-        "setting": "West Covina, California",
-        "conflict": "confronting romantic obsession, self-destruction, and mental health stigma"
-    },
-    "The Others": {
-        "protagonist": "Grace Stewart",
-        "key_figures": "her photosensitive children Anne and Nicholas, and the mysterious servants",
-        "setting": "a dark, fog-shrouded Victorian mansion in the Channel Islands",
-        "conflict": "coping with severe isolation, profound grief, and terrifying gothic mysteries"
-    },
-    "Don't Worry Darling": {
-        "protagonist": "Alice Chambers",
-        "key_figures": "her husband Jack, the charismatic leader Frank, and Victory town residents",
-        "setting": "an idyllic, simulated 1950s desert company town of Victory",
-        "conflict": "unraveling patriarchal gaslighting and escaping the beautiful facade"
-    },
-    "How I Live Now": {
-        "protagonist": "Daisy",
-        "key_figures": "her cousins Edmond, Isaac, and Piper, and military guards",
-        "setting": "the remote English countryside during a nuclear war scenario",
-        "conflict": "surviving the harsh realities of wartime and preserving family connections"
-    },
-    "Beautiful Thing": {
-        "protagonist": "Jamie and Ste",
-        "key_figures": "Jamie's mother Sandra, their neighbor Leah, and the estate community",
-        "setting": "a working-class housing estate in Thamesmead, London",
-        "conflict": "finding hope, mutual support, and love in a rigid working-class neighborhood"
-    },
-    "Luck": {
-        "protagonist": "Sam Greenfield",
-        "key_figures": "Bob the lucky black cat, leprechauns, and magical creatures",
-        "setting": "the vibrant and secretive Land of Luck",
-        "conflict": "redefining luck, superstition, and finding her true belonging"
-    },
-    "How to Be Single": {
-        "protagonist": "Alice",
-        "key_figures": "Robin, Meg, Lucy, and various New York partners",
-        "setting": "bustling New York City",
-        "conflict": "learning self-reliance, modern metropolitan dating, and embracing independence"
-    },
-    "The Pianist": {
-        "protagonist": "Władysław Szpilman",
-        "key_figures": "his family, the resistance, and Captain Wilm Hosenfeld",
-        "setting": "the war-torn, crumbling ruins of the Warsaw Ghetto",
-        "conflict": "relying on human resilience, luck, and art to survive extreme wartime tragedy"
-    },
-    "Love & Other Drugs": {
-        "protagonist": "Jamie Randall",
-        "key_figures": "Maggie Murdock and pharmaceutical executives",
-        "setting": "the highly competitive pharmaceutical sales world of the late 1990s",
-        "conflict": "navigating commercial medical ethics, chronic illness, and emotional vulnerability"
-    },
-    "The Swan Princess": {
-        "protagonist": "Princess Odette and Prince Derek",
-        "key_figures": "the villainous Rothbart, Jean-Bob, and Speed",
-        "setting": "a classic fairy tale kingdom and Swan Lake",
-        "conflict": "defeating dark curses and proving true romantic devotion"
-    },
-    "16 Wishes": {
-        "protagonist": "Abby Jensen",
-        "key_figures": "her friend Connor, the mysterious woman Celeste, and high school peers",
-        "setting": "her suburban high school and home",
-        "conflict": "managing the chaotic consequences of her childhood desires and wishes"
-    },
-    "Just My Luck": {
-        "protagonist": "Ashley Albright",
-        "key_figures": "Jake Hardin, the music band McFly, and her corporate colleagues",
-        "setting": "glamorous Manhattan offices and concert venues",
-        "conflict": "learning humility and generosity after her lucky streak transfers to Jake"
-    },
-    "She's the Man": {
-        "protagonist": "Viola Hastings",
-        "key_figures": "Duke Orsino, Olivia, her twin brother Sebastian, and soccer coach",
-        "setting": "the elite Illyria Prep high school campus",
-        "conflict": "disguising herself as a boy to play soccer and navigating love triangles"
-    },
-    "The Queen's Gambit": {
-        "protagonist": "Beth Harmon",
-        "key_figures": "Mr. Shaibel, Alma Wheatley, Benny Watts, and Russian champion Vasily Borgov",
-        "setting": "orphanages, Kentucky, and prestigious international chess tournaments",
-        "conflict": "battling drug addiction, obsession, and intellectual gender barriers"
-    },
-    "Homeward Bound": {
-        "protagonist": "Shadow, Chance, and Sassy",
-        "key_figures": "their human family, forest predators, and rescue workers",
-        "setting": "the vast, treacherous wilderness of the Sierra Nevada",
-        "conflict": "demonstrating pet loyalty and navigating the wild to find their family"
-    },
-    "101 & 102 Dalmatians": {
-        "protagonist": "the dalmatian puppies",
-        "key_figures": "Cruella de Vil, her designer Monsieur Le Pelt, and puppy owners",
-        "setting": "London streets and eccentric fashion studios",
-        "conflict": "escaping Cruella's obsession with fur coats and luxury possessions"
-    },
-    "Queendom": {
-        "protagonist": "Gena Marvin",
-        "key_figures": "her grandparents, local citizens, and activist artists",
-        "setting": "contemporary Russia",
-        "conflict": "balancing creative artistic performances, media fame, and queer survival"
-    },
-    "Lost": {
-        "protagonist": "Jack Shephard",
-        "key_figures": "John Locke, Kate Austen, Sawyer, and 'The Others'",
-        "setting": "a mysterious, supernatural deserted island in the Pacific",
-        "conflict": "unraveling island mythology, survival instincts, and destiny vs. free will"
-    },
-    "The First Wives Club": {
-        "protagonist": "Annie, Elise, and Brenda",
-        "key_figures": "their ex-husbands, socialites, and their children",
-        "setting": "high-society New York City",
-        "conflict": "turning marital grief into triumph and sisterhood by getting even"
-    },
-    "Stepmom": {
-        "protagonist": "Isabel and Jackie",
-        "key_figures": "Luke Harrison and their children Anna and Ben",
-        "setting": "a cozy suburban New York home",
-        "conflict": "co-parenting, overcoming stepmother complexes, and facing terminal illness"
-    },
-    "Charade": {
-        "protagonist": "Regina Lampert",
-        "key_figures": "the charming Peter Joshua (alias) and sinister WWII comrades",
-        "setting": "elegant, suspenseful mid-century Paris",
-        "conflict": "uncovering hidden assets, deception, and shifting alliances"
-    },
-    "Roman Holiday": {
-        "protagonist": "Princess Ann",
-        "key_figures": "American reporter Joe Bradley and photographer Irving Radovich",
-        "setting": "picturesque and historic Rome, Italy",
-        "conflict": "balancing heavy royal duties with a fleeting, beautiful taste of freedom"
-    },
-    "Kinky Boots": {
-        "protagonist": "Charlie Price",
-        "key_figures": "Lola/Simon the drag queen, Lauren, and conservative factory workers",
-        "setting": "a traditional shoe factory in Northampton, England",
-        "conflict": "saving a family manufacturing business through drag culture and diversity"
-    },
-    "Heathers: The Musical": {
-        "protagonist": "Veronica Sawyer",
-        "key_figures": "J.D., Heather Chandler, Heather Duke, and high school cliques",
-        "setting": "Westerburg High School",
-        "conflict": "surviving toxic high school cliques and J.D.'s dark, murderous schemes"
-    },
-    "Glee": {
-        "protagonist": "Will Schuester and Rachel Berry",
-        "key_figures": "Finn Hudson, Sue Sylvester, Kurt, and New Directions singers",
-        "setting": "William McKinley High School",
-        "conflict": "combating high school stereotypes, bullying, and chasing Broadway dreams"
-    },
-    "Mrs. Harris Goes to Paris": {
-        "protagonist": "Ada Harris",
-        "key_figures": "the elegant Dior staff, Marquis de Chassagne, and London friends",
-        "setting": "post-war London and the House of Dior in Paris",
-        "conflict": "overcoming class modesty with optimism to purchase a haute couture dress"
-    },
-    "About Time": {
-        "protagonist": "Tim Lake",
-        "key_figures": "his father, Mary, and his quirky British family",
-        "setting": "Cornwall and bustling London",
-        "conflict": "using secret time travel to master daily appreciation and father-son bonds"
-    },
-    "Incendies": {
-        "protagonist": "twins Jeanne and Simon Marwan",
-        "key_figures": "their mother Nawal, notary Jean Lebel, and war figures",
-        "setting": "the Middle East and modern Quebec",
-        "conflict": "unraveling deep family trauma, historical war secrets, and a mother's promise"
-    },
-    "Odd Thomas": {
-        "protagonist": "Odd Thomas",
-        "key_figures": "Stormy Llewellyn, Chief Wyatt Porter, and the shadowy bodachs",
-        "setting": "a sleepy desert town of Pico Mundo, California",
-        "conflict": "utilizing his clairvoyant gifts to prevent disaster while hiding silent grief"
-    },
-    "Countdown": {
-        "protagonist": "Quinn Harris",
-        "key_figures": "Matt Monroe, her sister Jordan, and the demonic force",
-        "setting": "a modern hospital and city",
-        "conflict": "breaking terms and conditions to survive a fatalistic mobile app's timer"
-    },
-    "Missing / Searching": {
-        "protagonist": "June Allen / David Kim",
-        "key_figures": "their missing mothers/daughters, online friends, and investigators",
-        "setting": "digital screens, search engines, and social media platforms",
-        "conflict": "tracing digital footprints and modern cybersecurity to find missing family"
-    },
-    "The Call": {
-        "protagonist": "Seo-yeon",
-        "key_figures": "Young-sook from the past and their family members",
-        "setting": "an old, atmospheric house connected across different timelines",
-        "conflict": "surviving a phone communication loop with a dangerous killer in the past"
-    },
-    "Bird Box": {
-        "protagonist": "Malorie Hayes",
-        "key_figures": "her children 'Boy' and 'Girl', Tom, and surviving shelter mates",
-        "setting": "a treacherous, blindfolded river journey and isolated cabins",
-        "conflict": "navigating absolute fear of the unseen and protecting her family"
-    },
-    "The Invasion": {
-        "protagonist": "Carol Bennell",
-        "key_figures": "her son Oliver, Dr. Ben Driscoll, and emotionless infected citizens",
-        "setting": "a cold, paranoid Washington D.C.",
-        "conflict": "resisting a hive-mind alien epidemic and preserving her human autonomy"
-    },
-    "Run": {
-        "protagonist": "Chloe Sherman",
-        "key_figures": "her overprotective mother Diane, pharmacists, and mailmen",
-        "setting": "an isolated, highly monitored suburban house",
-        "conflict": "escaping medical gaslighting, maternal obsession, and physical captivity"
-    },
-    "Black Mirror": {
-        "protagonist": "various near-future citizens",
-        "key_figures": "tech creators, societal raters, and digital doubles",
-        "setting": "a series of near-future, hyper-digitized dystopian societies",
-        "conflict": "surviving rating systems, AI traps, and extreme digital obsession"
-    },
-    "Leave the World Behind": {
-        "protagonist": "Amanda and Clay Sandford",
-        "key_figures": "G.H. Scott, Ruth, and strange herds of deer",
-        "setting": "a luxurious, remote vacation home in Long Island",
-        "conflict": "facing a massive cyberattack and the sudden collapse of modern technology"
-    },
-    "The Owl and the Pussycat": {
-        "protagonist": "Felix and Doris",
-        "key_figures": "their landlords and colorful New York characters",
-        "setting": "a cramped, noisy New York City apartment in the 1970s",
-        "conflict": "reconciling overintellectual academic pride with raw, street-smart instinct"
-    },
-    "On a Clear Day You Can See...": {
-        "protagonist": "Daisy Gamble",
-        "key_figures": "Dr. Marc Chabot and her historical past-life persona Melinda",
-        "setting": "psychiatric offices and 19th-century English estates",
-        "conflict": "unraveling past-life regression, hypnosis, and her subconscious gifts"
-    },
-    "Hello Dolly": {
-        "protagonist": "Dolly Levi",
-        "key_figures": "the grumpy merchant Horace Vandergelder, Cornelius, and Irene",
-        "setting": "historic New York City and Yonkers during the late 19th century",
-        "conflict": "orchestrating romantic matches, traditional courting, and celebrating life"
-    },
-    "Nuts": {
-        "protagonist": "Claudia Draper",
-        "key_figures": "her defense attorney Aaron Levinsky, her parents, and the judge",
-        "setting": "a high-stakes courtroom and mental evaluation ward",
-        "conflict": "proving her legal sanity and securing her autonomy against a protective custody suit"
-    },
-    "The Mirror Has Two Faces": {
-        "protagonist": "Rose Morgan",
-        "key_figures": "Gregory Larkin, her gorgeous sister Claire, and her demanding mother",
-        "setting": "Columbia University and New York apartments",
-        "conflict": "reconciling a platonic marriage of intellect with natural physical chemistry"
-    },
-    "Yentl": {
-        "protagonist": "Yentl Mendel",
-        "key_figures": "Avigdor, Hadass, and traditional Talmudic scholars",
-        "setting": "a conservative Eastern European shtetl in the early 20th century",
-        "conflict": "disguising herself as a boy to study forbidden theological scriptures"
-    },
-    "Funny Girl": {
-        "protagonist": "Fanny Brice",
-        "key_figures": "Nick Arnstein, Florenz Ziegfeld, and Broadway dancers",
-        "setting": "glitzy Broadway stages and Brooklyn homes",
-        "conflict": "balancing sudden performing fame and stage charisma with a failing marriage"
-    },
-    "Angels & Demons": {
-        "protagonist": "Robert Langdon",
-        "key_figures": "Dr. Vittoria Vetra, the Camerlengo, and Cardinal candidates",
-        "setting": "secret archives, historic churches, and tombs of the Vatican",
-        "conflict": "racing against time to solve the Illuminati trail and locate antimatter"
-    },
-    "The Mummy": {
-        "protagonist": "Rick O'Connell",
-        "key_figures": "Evelyn Carnahan, Jonathan, and the cursed priest Imhotep",
-        "setting": "the ancient Egyptian ruins of Hamunaptra",
-        "conflict": "battling greedy archaeological rivals and surviving a terrifying ancient curse"
-    },
-    "The Da Vinci Code": {
-        "protagonist": "Robert Langdon",
-        "key_figures": "Sophie Neveu, Sir Leigh Teabing, and the Opus Dei monk Silas",
-        "setting": "the Louvre Museum, Parisian streets, and English historic chapels",
-        "conflict": "interpreting cryptograms, symbology, and guarding the Holy Grail secrets"
-    },
-    "The Notebook": {
-        "protagonist": "Noah Calhoun and Allie Hamilton",
-        "key_figures": "Allie's wealthy mother, Lon Hammond, and nursing home staff",
-        "setting": "coastal South Carolina in the 1940s and a modern nursing home",
-        "conflict": "overcoming class discrepancies and dementia through letters and devotion"
-    },
-    "V for Vendetta": {
-        "protagonist": "Evey Hammond and V",
-        "key_figures": "Chancellor Sutler, Chief Inspector Finch, and government guards",
-        "setting": "a dystopian, authoritarian London under total surveillance",
-        "conflict": "dethroning a fascist regime using visual propaganda and symbolic masks"
-    },
-    "Gone Girl": {
-        "protagonist": "Nick Dunne and Amy Dunne",
-        "key_figures": "Amy's parents, Detective Boney, and media personalities",
-        "setting": "suburban Missouri and glamorous NYC",
-        "conflict": "unraveling a toxic marriage, framing, and a highly publicized missing case"
-    },
-    "Midsommar": {
-        "protagonist": "Dani Ardor",
-        "key_figures": "Christian, Pelle, and the secretive Hårga village elders",
-        "setting": "a remote, sun-drenched commune in Hälsingland, Sweden",
-        "conflict": "coping with family grief and finding a sinister sense of community in a cult"
-    },
-    "Kill Bill": {
-        "protagonist": "The Bride / Beatrix Kiddo",
-        "key_figures": "Bill, O-Ren Ishii, Vernita Green, Budd, and Elle Driver",
-        "setting": "Okinawa, Tokyo, Texas, and Mexico",
-        "conflict": "crossing off her assassin hit list and getting absolute revenge for betrayal"
-    },
-    "Hereditary": {
-        "protagonist": "Annie Graham",
-        "key_figures": "her husband Steve, her children Peter and Charlie, and Joan",
-        "setting": "a large, isolated suburban home in the woods",
-        "conflict": "navigating inherited trauma, devastating grief, and generational cult possession"
-    },
-    "Call Me by Your Name": {
-        "protagonist": "Elio Perlman",
-        "key_figures": "Oliver, his academic parents Mr. and Mrs. Perlman, and Marzia",
-        "setting": "a sun-kissed, historic villa in Northern Italy during 1983",
-        "conflict": "experiencing a passionate first love and navigating nostalgic youth"
-    },
-    "Suspiria (2018)": {
-        "protagonist": "Susie Bannion",
-        "key_figures": "Madame Blanc, Dr. Josef Klemperer, and the dance academy witches",
-        "setting": "a dark, divided Cold-War era Berlin dance academy",
-        "conflict": "discovering a powerful witch coven and confronting historical guilt"
-    },
-    "Sex and the City": {
-        "protagonist": "Carrie Bradshaw",
-        "key_figures": "Samantha Jones, Charlotte York, Miranda Hobbes, and Mr. Big",
-        "setting": "fashionable and glamorous Manhattan, New York",
-        "conflict": "balancing high-fashion labels, metropolitan dating, and lifelong friendships"
-    },
-    "Death Becomes Her": {
-        "protagonist": "Madeline Ashton and Helen Sharp",
-        "key_figures": "Dr. Ernest Menville and the potion seller Lisle von Rhuman",
-        "setting": "luxurious Beverly Hills mansions",
-        "conflict": "drinking an immortality potion to fight aging anxieties and rivalry"
-    },
-    "Mamma Mia": {
-        "protagonist": "Sophie Sheridan and Donna Sheridan",
-        "key_figures": "the three possible fathers Sam, Harry, and Bill, and Sky",
-        "setting": "a sun-drenched, idyllic Greek island of Kalokairi",
-        "conflict": "finding her father, organizing a wedding, and reviving old romances"
-    },
-    "What Women Want": {
-        "protagonist": "Nick Marshall",
-        "key_figures": "Darcy Maguire, his daughter Alex, and marketing colleagues",
-        "setting": "a high-profile advertising agency in Chicago",
-        "conflict": "gaining empathy and fighting workplace sexism after hearing women's thoughts"
-    },
-    "It's Complicated": {
-        "protagonist": "Jane Adler",
-        "key_figures": "her ex-husband Jake, her architect Adam, and her children",
-        "setting": "her beautiful bakery and home in Santa Barbara, California",
-        "conflict": "navigating an unexpected affair with her ex-husband and mature dating"
-    },
-    "The Iron Lady": {
-        "protagonist": "Margaret Thatcher",
-        "key_figures": "her husband Denis Thatcher, parliamentary ministers, and critics",
-        "setting": "the House of Commons in London",
-        "conflict": "confronting class barriers, parliamentary debates, and late-life cognitive decline"
-    },
-    "Still Alice": {
-        "protagonist": "Alice Howland",
-        "key_figures": "her husband John, her children Lydia, Anna, and Tom",
-        "setting": "Columbia University and beach homes",
-        "conflict": "preserving her linguistic identity against early-onset Alzheimer's disease"
-    },
-    "Equals": {
-        "protagonist": "Silas and Nia",
-        "key_figures": "their supervisor, health officials, and social outcasts",
-        "setting": "a sterile, emotional-suppression utopian society known as 'The Collective'",
-        "conflict": "discovering forbidden human feelings and planning a secret escape"
-    },
-    "Personal Shopper": {
-        "protagonist": "Maureen Cartwright",
-        "key_figures": "her demanding client Kyra, and the spirit of her twin brother Lewis",
-        "setting": "high-fashion Paris boutiques and empty spiritual apartments",
-        "conflict": "balancing intense high-fashion buying with medium spirit communication"
-    },
-    "Free Guy": {
-        "protagonist": "Guy",
-        "key_figures": "Molotovgirl/Millie, Buddy, Keys, and the corporate boss Antwan",
-        "setting": "the chaotic, action-packed video game world of Free City",
-        "conflict": "breaking NPC program limitations to gain autonomy and save his digital home"
-    },
-    "Now You See Me": {
-        "protagonist": "The Four Horsemen",
-        "key_figures": "FBI Agent Dylan Rhodes, Thaddeus Bradley, and Arthur Tressler",
-        "setting": "grand illusion stages in Las Vegas, New Orleans, and New York",
-        "conflict": "executing massive bank heists via sleight of hand to expose corporate greed"
-    },
-    "The Hunger Games": {
-        "protagonist": "Katniss Everdeen",
-        "key_figures": "Peeta Mellark, Gale Hawthorne, Haymitch Abernathy, and President Snow",
-        "setting": "the impoverished District 12 and the luxurious, cruel Capitol",
-        "conflict": "surviving a televized child deathmatch and instigating social revolution"
-    },
-    "A Quiet Place": {
-        "protagonist": "Lee and Evelyn Abbott",
-        "key_figures": "their deaf daughter Regan, Marcus, and the acoustic monsters",
-        "setting": "an isolated, silent farm in a post-apocalyptic forest",
-        "conflict": "protecting their family by maintaining absolute silence to avoid monsters"
-    },
-    "Spoiler Alert": {
-        "protagonist": "Michael Ausiello and Kit Cowan",
-        "key_figures": "Kit's parents Marilyn and Bob, and oncology doctors",
-        "setting": "their Manhattan home and oncology clinics",
-        "conflict": "navigating a beautiful romance, terminal cancer, and devastating grief"
-    },
-    "Miss You Already": {
-        "protagonist": "Milly and Jess",
-        "key_figures": "their husbands Jago and Jethro, and Milly's mother Miranda",
-        "setting": "glamorous London townhouses and Yorkshire moors",
-        "conflict": "reconciling lifelong best-friend bonds with a life-altering cancer diagnosis"
-    },
-    "The Act": {
-        "protagonist": "Gypsy Rose Blanchard",
-        "key_figures": "her overprotective mother Dee Dee Blanchard and boyfriend Nick Godejohn",
-        "setting": "a small suburban pink house in Missouri",
-        "conflict": "unraveling factitious disorder, extreme isolation, and escaping her mother"
-    },
-    "The Regime": {
-        "protagonist": "Chancellor Elena Vernham",
-        "key_figures": "the soldier Herbert Zubak, government ministers, and foreign diplomats",
-        "setting": "a crumbling, paranoid palace in a central European autocracy",
-        "conflict": "holding onto authoritarian political power amidst extreme palace delusions"
-    },
-    "Cloud Atlas": {
-        "protagonist": "six interconnected souls across eras",
-        "key_figures": "the fabricant Sonmi-451, Zachry, Robert Frobisher, and Luisa Rey",
-        "setting": "the Pacific in 1849, Edinburgh in 1936, and a dystopian Neo-Seoul in 2144",
-        "conflict": "reincarnating across centuries, fighting slavery, and promoting freedom"
-    },
-    "Lucy": {
-        "protagonist": "Lucy Miller",
-        "key_figures": "Professor Samuel Norman, Captain Pierre Del Rio, and mob boss Mr. Jang",
-        "setting": "Taipei and French neurological research universities",
-        "conflict": "transcending her mind after an experimental drug synthesizes 100% brain capacity"
-    },
-    "Radin": {
-        "protagonist": "François Gautier",
-        "key_figures": "his long-lost daughter Laura, and his music school colleagues",
-        "setting": "a small French town and bank offices",
-        "conflict": "hiding his extreme, obsessive saving behavior and wealth from Laura"
-    },
-    "Julie & Julia": {
-        "protagonist": "Julie Powell and Julia Child",
-        "key_figures": "their supportive husbands Eric Powell and Paul Child",
-        "setting": "1950s Paris culinary schools and a tiny 2002 Queens apartment",
-        "conflict": "cooking through classic recipe books and publishing validation via blogs"
-    },
-    "Adolescence": {
-        "protagonist": "Adam",
-        "key_figures": "his love interest Alice, his family, and high school peers",
-        "setting": "suburban neighborhoods and schools",
-        "conflict": "coping with teenage hormones, rebel behavior, and school anxieties"
-    },
-    "Killing Eve": {
-        "protagonist": "Eve Polastri and Villanelle",
-        "key_figures": "spy handler Carolyn Martens, Konstantin, and Niko Polastri",
-        "setting": "London, Paris, Rome, and various European cities",
-        "conflict": "navigating mutual obsession, spy espionage, and psychoanalysis of assassins"
-    },
-    "Don't Look Up": {
-        "protagonist": "Kate Dibiasky and Dr. Randall Mindy",
-        "key_figures": "President Janie Orlean, tech billionaire Peter Isherwell, and media hosts",
-        "setting": "university labs, Washington offices, and glitzy talk shows",
-        "conflict": "alerting a greedy, anti-intellectual public about an approaching doomsday comet"
-    },
-    "CODA": {
-        "protagonist": "Ruby Rossi",
-        "key_figures": "her deaf parents Frank and Jackie, brother Leo, and choir teacher Bernardo Villalobos",
-        "setting": "a coastal Massachusetts fishing harbor and Gloucester high school",
-        "conflict": "balancing family sign language interpretation with college music audition dreams"
-    },
-    "Bohemian Rhapsody": {
-        "protagonist": "Freddie Mercury",
-        "key_figures": "Mary Austin, Brian May, Roger Taylor, John Deacon, and manager Paul Prenter",
-        "setting": "historic recording studios, London, and the Live Aid stage",
-        "conflict": "pioneering music production, rock star loneliness, and confronting HIV diagnosis"
-    },
-    "The Shape of Water": {
-        "protagonist": "Elisa Esposito",
-        "key_figures": "the amphibious creature, Zelda Fuller, Giles, and agent Richard Strickland",
-        "setting": "a high-security Cold War research laboratory in Baltimore",
-        "conflict": "orchestrating a secret rescue and communicating with a voiceless connection"
-    },
-    "The Age of Adaline": {
-        "protagonist": "Adaline Bowman",
-        "key_figures": "Ellis Jones, his father William Jones, and her daughter Flemming",
-        "setting": "San Francisco over various historical decades",
-        "conflict": "living with accidental immortality and running away under fake IDs"
-    },
-    "Why Women Kill": {
-        "protagonist": "Beth Ann, Simone, and Taylor",
-        "key_figures": "their unfaithful husbands Rob, Karl, and Eli",
-        "setting": "a luxurious Pasadena mansion across 1963, 1984, and 2019",
-        "conflict": "dealing with marital infidelity, suburban secrets, and plotting murder"
-    },
-    "The Substance": {
-        "protagonist": "Elisabeth Sparkle",
-        "key_figures": "her younger cloned clone Sue, and producer Harvey",
-        "setting": "glitzy and clinical Hollywood studios",
-        "conflict": "surviving a cell division cloning substance to combat aging anxieties"
-    }
-}
+FILM_DETAILS = {'101 & 102 Dalmatians': {'conflict': "escaping Cruella's obsession with fur coats and luxury possessions",
+                          'key_figures': 'Cruella de Vil, her designer Monsieur Le Pelt, and puppy owners',
+                          'protagonist': 'the dalmatian puppies',
+                          'setting': 'London streets and eccentric fashion studios'},
+ '16 Wishes': {'conflict': 'managing the chaotic consequences of her childhood desires and wishes',
+               'key_figures': 'her friend Connor, the mysterious woman Celeste, and high school peers',
+               'protagonist': 'Abby Jensen',
+               'setting': 'her suburban high school and home'},
+ 'A Quiet Place': {'conflict': 'protecting their family by maintaining absolute silence to avoid monsters',
+                   'key_figures': 'their deaf daughter Regan, Marcus, and the acoustic monsters',
+                   'protagonist': 'Lee and Evelyn Abbott',
+                   'setting': 'an isolated, silent farm in a post-apocalyptic forest'},
+ 'About Time': {'conflict': 'using secret time travel to master daily appreciation and father-son bonds',
+                'key_figures': 'his father, Mary, and his quirky British family',
+                'protagonist': 'Tim Lake',
+                'setting': 'Cornwall and bustling London'},
+ 'Adolescence': {'conflict': 'coping with teenage hormones, rebel behavior, and school anxieties',
+                 'key_figures': 'his love interest Alice, his family, and high school peers',
+                 'protagonist': 'Adam',
+                 'setting': 'suburban neighborhoods and schools'},
+ 'Angels & Demons': {'conflict': 'racing against time to solve the Illuminati trail and locate antimatter',
+                     'key_figures': 'Dr. Vittoria Vetra, the Camerlengo, and Cardinal candidates',
+                     'protagonist': 'Robert Langdon',
+                     'setting': 'secret archives, historic churches, and tombs of the Vatican'},
+ 'Beautiful Thing': {'conflict': 'finding hope, mutual support, and love in a rigid working-class neighborhood',
+                     'key_figures': "Jamie's mother Sandra, their neighbor Leah, and the estate community",
+                     'protagonist': 'Jamie and Ste',
+                     'setting': 'a working-class housing estate in Thamesmead, London'},
+ 'Bird Box': {'conflict': 'navigating absolute fear of the unseen and protecting her family',
+              'key_figures': "her children 'Boy' and 'Girl', Tom, and surviving shelter mates",
+              'protagonist': 'Malorie Hayes',
+              'setting': 'a treacherous, blindfolded river journey and isolated cabins'},
+ 'Black Mirror': {'conflict': 'surviving rating systems, AI traps, and extreme digital obsession',
+                  'key_figures': 'tech creators, societal raters, and digital doubles',
+                  'protagonist': 'various near-future citizens',
+                  'setting': 'a series of near-future, hyper-digitized dystopian societies'},
+ 'Bohemian Rhapsody': {'conflict': 'pioneering music production, rock star loneliness, and confronting HIV diagnosis',
+                       'key_figures': 'Mary Austin, Brian May, Roger Taylor, John Deacon, and manager Paul Prenter',
+                       'protagonist': 'Freddie Mercury',
+                       'setting': 'historic recording studios, London, and the Live Aid stage'},
+ "Breakfast at Tiffany's": {'conflict': 'overcoming superficial social climbing to find true human connection',
+                            'key_figures': 'Paul Varjak, her cat, and wealthy NYC suitors',
+                            'protagonist': 'Holly Golightly',
+                            'setting': 'glamorous and lonely New York City apartments'},
+ 'CODA': {'conflict': 'balancing family sign language interpretation with college music audition dreams',
+          'key_figures': 'her deaf parents Frank and Jackie, brother Leo, and choir teacher Bernardo Villalobos',
+          'protagonist': 'Ruby Rossi',
+          'setting': 'a coastal Massachusetts fishing harbor and Gloucester high school'},
+ 'Call Me by Your Name': {'conflict': 'experiencing a passionate first love and navigating nostalgic youth',
+                          'key_figures': 'Oliver, his academic parents Mr. and Mrs. Perlman, and Marzia',
+                          'protagonist': 'Elio Perlman',
+                          'setting': 'a sun-kissed, historic villa in Northern Italy during 1983'},
+ 'Charade': {'conflict': 'uncovering hidden assets, deception, and shifting alliances',
+             'key_figures': 'the charming Peter Joshua (alias) and sinister WWII comrades',
+             'protagonist': 'Regina Lampert',
+             'setting': 'elegant, suspenseful mid-century Paris'},
+ 'Cloud Atlas': {'conflict': 'reincarnating across centuries, fighting slavery, and promoting freedom',
+                 'key_figures': 'the fabricant Sonmi-451, Zachry, Robert Frobisher, and Luisa Rey',
+                 'protagonist': 'six interconnected souls across eras',
+                 'setting': 'the Pacific in 1849, Edinburgh in 1936, and a dystopian Neo-Seoul in 2144'},
+ 'Countdown': {'conflict': "breaking terms and conditions to survive a fatalistic mobile app's timer",
+               'key_figures': 'Matt Monroe, her sister Jordan, and the demonic force',
+               'protagonist': 'Quinn Harris',
+               'setting': 'a modern hospital and city'},
+ 'Crazy Ex-Girlfriend': {'conflict': 'confronting romantic obsession, self-destruction, and mental health stigma',
+                         'key_figures': 'Josh Chan, Greg, Paula, and mental health professionals',
+                         'protagonist': 'Rebecca Bunch',
+                         'setting': 'West Covina, California'},
+ 'Death Becomes Her': {'conflict': 'drinking an immortality potion to fight aging anxieties and rivalry',
+                       'key_figures': 'Dr. Ernest Menville and the potion seller Lisle von Rhuman',
+                       'protagonist': 'Madeline Ashton and Helen Sharp',
+                       'setting': 'luxurious Beverly Hills mansions'},
+ "Don't Look Up": {'conflict': 'alerting a greedy, anti-intellectual public about an approaching doomsday comet',
+                   'key_figures': 'President Janie Orlean, tech billionaire Peter Isherwell, and media hosts',
+                   'protagonist': 'Kate Dibiasky and Dr. Randall Mindy',
+                   'setting': 'university labs, Washington offices, and glitzy talk shows'},
+ "Don't Worry Darling": {'conflict': 'unraveling patriarchal gaslighting and escaping the beautiful facade',
+                         'key_figures': 'her husband Jack, the charismatic leader Frank, and Victory town residents',
+                         'protagonist': 'Alice Chambers',
+                         'setting': 'an idyllic, simulated 1950s desert company town of Victory'},
+ 'Equals': {'conflict': 'discovering forbidden human feelings and planning a secret escape',
+            'key_figures': 'their supervisor, health officials, and social outcasts',
+            'protagonist': 'Silas and Nia',
+            'setting': "a sterile, emotional-suppression utopian society known as 'The Collective'"},
+ 'Fleabag': {'conflict': 'navigating grief, modern isolation, and family dysfunctions',
+             'key_figures': 'her sister Claire, the Priest, and her family',
+             'protagonist': 'Fleabag',
+             'setting': 'modern London, particularly her guinea pig café'},
+ 'Free Guy': {'conflict': 'breaking NPC program limitations to gain autonomy and save his digital home',
+              'key_figures': 'Molotovgirl/Millie, Buddy, Keys, and the corporate boss Antwan',
+              'protagonist': 'Guy',
+              'setting': 'the chaotic, action-packed video game world of Free City'},
+ 'Funny Girl': {'conflict': 'balancing sudden performing fame and stage charisma with a failing marriage',
+                'key_figures': 'Nick Arnstein, Florenz Ziegfeld, and Broadway dancers',
+                'protagonist': 'Fanny Brice',
+                'setting': 'glitzy Broadway stages and Brooklyn homes'},
+ 'Glee': {'conflict': 'combating high school stereotypes, bullying, and chasing Broadway dreams',
+          'key_figures': 'Finn Hudson, Sue Sylvester, Kurt, and New Directions singers',
+          'protagonist': 'Will Schuester and Rachel Berry',
+          'setting': 'William McKinley High School'},
+ 'Gone Girl': {'conflict': 'unraveling a toxic marriage, framing, and a highly publicized missing case',
+               'key_figures': "Amy's parents, Detective Boney, and media personalities",
+               'protagonist': 'Nick Dunne and Amy Dunne',
+               'setting': 'suburban Missouri and glamorous NYC'},
+ 'Heathers: The Musical': {'conflict': "surviving toxic high school cliques and J.D.'s dark, murderous schemes",
+                           'key_figures': 'J.D., Heather Chandler, Heather Duke, and high school cliques',
+                           'protagonist': 'Veronica Sawyer',
+                           'setting': 'Westerburg High School'},
+ 'Hello Dolly': {'conflict': 'orchestrating romantic matches, traditional courting, and celebrating life',
+                 'key_figures': 'the grumpy merchant Horace Vandergelder, Cornelius, and Irene',
+                 'protagonist': 'Dolly Levi',
+                 'setting': 'historic New York City and Yonkers during the late 19th century'},
+ 'Hereditary': {'conflict': 'navigating inherited trauma, devastating grief, and generational cult possession',
+                'key_figures': 'her husband Steve, her children Peter and Charlie, and Joan',
+                'protagonist': 'Annie Graham',
+                'setting': 'a large, isolated suburban home in the woods'},
+ 'Homeward Bound': {'conflict': 'demonstrating pet loyalty and navigating the wild to find their family',
+                    'key_figures': 'their human family, forest predators, and rescue workers',
+                    'protagonist': 'Shadow, Chance, and Sassy',
+                    'setting': 'the vast, treacherous wilderness of the Sierra Nevada'},
+ 'How I Live Now': {'conflict': 'surviving the harsh realities of wartime and preserving family connections',
+                    'key_figures': 'her cousins Edmond, Isaac, and Piper, and military guards',
+                    'protagonist': 'Daisy',
+                    'setting': 'the remote English countryside during a nuclear war scenario'},
+ 'How to Be Single': {'conflict': 'learning self-reliance, modern metropolitan dating, and embracing independence',
+                      'key_figures': 'Robin, Meg, Lucy, and various New York partners',
+                      'protagonist': 'Alice',
+                      'setting': 'bustling New York City'},
+ 'Incendies': {'conflict': "unraveling deep family trauma, historical war secrets, and a mother's promise",
+               'key_figures': 'their mother Nawal, notary Jean Lebel, and war figures',
+               'protagonist': 'twins Jeanne and Simon Marwan',
+               'setting': 'the Middle East and modern Quebec'},
+ "It's Complicated": {'conflict': 'navigating an unexpected affair with her ex-husband and mature dating',
+                      'key_figures': 'her ex-husband Jake, her architect Adam, and her children',
+                      'protagonist': 'Jane Adler',
+                      'setting': 'her beautiful bakery and home in Santa Barbara, California'},
+ 'Julie & Julia': {'conflict': 'cooking through classic recipe books and publishing validation via blogs',
+                   'key_figures': 'their supportive husbands Eric Powell and Paul Child',
+                   'protagonist': 'Julie Powell and Julia Child',
+                   'setting': '1950s Paris culinary schools and a tiny 2002 Queens apartment'},
+ 'Just My Luck': {'conflict': 'learning humility and generosity after her lucky streak transfers to Jake',
+                  'key_figures': 'Jake Hardin, the music band McFly, and her corporate colleagues',
+                  'protagonist': 'Ashley Albright',
+                  'setting': 'glamorous Manhattan offices and concert venues'},
+ 'Kill Bill': {'conflict': 'crossing off her assassin hit list and getting absolute revenge for betrayal',
+               'key_figures': 'Bill, O-Ren Ishii, Vernita Green, Budd, and Elle Driver',
+               'protagonist': 'The Bride / Beatrix Kiddo',
+               'setting': 'Okinawa, Tokyo, Texas, and Mexico'},
+ 'Killing Eve': {'conflict': 'navigating mutual obsession, spy espionage, and psychoanalysis of assassins',
+                 'key_figures': 'spy handler Carolyn Martens, Konstantin, and Niko Polastri',
+                 'protagonist': 'Eve Polastri and Villanelle',
+                 'setting': 'London, Paris, Rome, and various European cities'},
+ 'Kinky Boots': {'conflict': 'saving a family manufacturing business through drag culture and diversity',
+                 'key_figures': 'Lola/Simon the drag queen, Lauren, and conservative factory workers',
+                 'protagonist': 'Charlie Price',
+                 'setting': 'a traditional shoe factory in Northampton, England'},
+ 'La Valla (The Barrier)': {'conflict': 'surviving under extreme state surveillance and seeking solidarity',
+                            'key_figures': 'their family, the authoritarian government, and resistance fighters',
+                            'protagonist': 'Hugo and Julia',
+                            'setting': 'a dystopian, divided Madrid in the mid-20th century'},
+ 'Leave the World Behind': {'conflict': 'facing a massive cyberattack and the sudden collapse of modern technology',
+                            'key_figures': 'G.H. Scott, Ruth, and strange herds of deer',
+                            'protagonist': 'Amanda and Clay Sandford',
+                            'setting': 'a luxurious, remote vacation home in Long Island'},
+ 'Lost': {'conflict': 'unraveling island mythology, survival instincts, and destiny vs. free will',
+          'key_figures': "John Locke, Kate Austen, Sawyer, and 'The Others'",
+          'protagonist': 'Jack Shephard',
+          'setting': 'a mysterious, supernatural deserted island in the Pacific'},
+ 'Love & Other Drugs': {'conflict': 'navigating commercial medical ethics, chronic illness, and emotional '
+                                    'vulnerability',
+                        'key_figures': 'Maggie Murdock and pharmaceutical executives',
+                        'protagonist': 'Jamie Randall',
+                        'setting': 'the highly competitive pharmaceutical sales world of the late 1990s'},
+ 'Luck': {'conflict': 'redefining luck, superstition, and finding her true belonging',
+          'key_figures': 'Bob the lucky black cat, leprechauns, and magical creatures',
+          'protagonist': 'Sam Greenfield',
+          'setting': 'the vibrant and secretive Land of Luck'},
+ 'Lucy': {'conflict': 'transcending her mind after an experimental drug synthesizes 100% brain capacity',
+          'key_figures': 'Professor Samuel Norman, Captain Pierre Del Rio, and mob boss Mr. Jang',
+          'protagonist': 'Lucy Miller',
+          'setting': 'Taipei and French neurological research universities'},
+ 'Mamma Mia': {'conflict': 'finding her father, organizing a wedding, and reviving old romances',
+               'key_figures': 'the three possible fathers Sam, Harry, and Bill, and Sky',
+               'protagonist': 'Sophie Sheridan and Donna Sheridan',
+               'setting': 'a sun-drenched, idyllic Greek island of Kalokairi'},
+ 'Midsommar': {'conflict': 'coping with family grief and finding a sinister sense of community in a cult',
+               'key_figures': 'Christian, Pelle, and the secretive Hårga village elders',
+               'protagonist': 'Dani Ardor',
+               'setting': 'a remote, sun-drenched commune in Hälsingland, Sweden'},
+ 'Miss You Already': {'conflict': 'reconciling lifelong best-friend bonds with a life-altering cancer diagnosis',
+                      'key_figures': "their husbands Jago and Jethro, and Milly's mother Miranda",
+                      'protagonist': 'Milly and Jess',
+                      'setting': 'glamorous London townhouses and Yorkshire moors'},
+ 'Missing / Searching': {'conflict': 'tracing digital footprints and modern cybersecurity to find missing family',
+                         'key_figures': 'their missing mothers/daughters, online friends, and investigators',
+                         'protagonist': 'June Allen / David Kim',
+                         'setting': 'digital screens, search engines, and social media platforms'},
+ 'Mrs. Harris Goes to Paris': {'conflict': 'overcoming class modesty with optimism to purchase a haute couture dress',
+                               'key_figures': 'the elegant Dior staff, Marquis de Chassagne, and London friends',
+                               'protagonist': 'Ada Harris',
+                               'setting': 'post-war London and the House of Dior in Paris'},
+ 'Now You See Me': {'conflict': 'executing massive bank heists via sleight of hand to expose corporate greed',
+                    'key_figures': 'FBI Agent Dylan Rhodes, Thaddeus Bradley, and Arthur Tressler',
+                    'protagonist': 'The Four Horsemen',
+                    'setting': 'grand illusion stages in Las Vegas, New Orleans, and New York'},
+ 'Nuts': {'conflict': 'proving her legal sanity and securing her autonomy against a protective custody suit',
+          'key_figures': 'her defense attorney Aaron Levinsky, her parents, and the judge',
+          'protagonist': 'Claudia Draper',
+          'setting': 'a high-stakes courtroom and mental evaluation ward'},
+ 'Odd Thomas': {'conflict': 'utilizing his clairvoyant gifts to prevent disaster while hiding silent grief',
+                'key_figures': 'Stormy Llewellyn, Chief Wyatt Porter, and the shadowy bodachs',
+                'protagonist': 'Odd Thomas',
+                'setting': 'a sleepy desert town of Pico Mundo, California'},
+ 'On a Clear Day You Can See...': {'conflict': 'unraveling past-life regression, hypnosis, and her subconscious gifts',
+                                   'key_figures': 'Dr. Marc Chabot and her historical past-life persona Melinda',
+                                   'protagonist': 'Daisy Gamble',
+                                   'setting': 'psychiatric offices and 19th-century English estates'},
+ 'Personal Shopper': {'conflict': 'balancing intense high-fashion buying with medium spirit communication',
+                      'key_figures': 'her demanding client Kyra, and the spirit of her twin brother Lewis',
+                      'protagonist': 'Maureen Cartwright',
+                      'setting': 'high-fashion Paris boutiques and empty spiritual apartments'},
+ 'Queendom': {'conflict': 'balancing creative artistic performances, media fame, and queer survival',
+              'key_figures': 'her grandparents, local citizens, and activist artists',
+              'protagonist': 'Gena Marvin',
+              'setting': 'contemporary Russia'},
+ 'Radin': {'conflict': 'hiding his extreme, obsessive saving behavior and wealth from Laura',
+           'key_figures': 'his long-lost daughter Laura, and his music school colleagues',
+           'protagonist': 'François Gautier',
+           'setting': 'a small French town and bank offices'},
+ 'Ratatouille': {'conflict': 'overcoming societal prejudice and kitchen hierarchy to cook freely',
+                 'key_figures': 'Linguini, Colette, Gusteau, and food critic Anton Ego',
+                 'protagonist': 'Remy the talented rat',
+                 'setting': 'a prestigious Parisian restaurant kitchen'},
+ 'Roman Holiday': {'conflict': 'balancing heavy royal duties with a fleeting, beautiful taste of freedom',
+                   'key_figures': 'American reporter Joe Bradley and photographer Irving Radovich',
+                   'protagonist': 'Princess Ann',
+                   'setting': 'picturesque and historic Rome, Italy'},
+ 'Run': {'conflict': 'escaping medical gaslighting, maternal obsession, and physical captivity',
+         'key_figures': 'her overprotective mother Diane, pharmacists, and mailmen',
+         'protagonist': 'Chloe Sherman',
+         'setting': 'an isolated, highly monitored suburban house'},
+ 'Serebryanye Konki (Silver Skates)': {'conflict': 'bridging class divisions and seeking social change on ice skates',
+                                       'key_figures': 'Alisa, the pickpocket gang leader Alex, and St. Petersburg '
+                                                      'aristocrats',
+                                       'protagonist': 'Matvey',
+                                       'setting': 'frozen rivers and canals of 19th-century Saint Petersburg'},
+ 'Sex and the City': {'conflict': 'balancing high-fashion labels, metropolitan dating, and lifelong friendships',
+                      'key_figures': 'Samantha Jones, Charlotte York, Miranda Hobbes, and Mr. Big',
+                      'protagonist': 'Carrie Bradshaw',
+                      'setting': 'fashionable and glamorous Manhattan, New York'},
+ "She's the Man": {'conflict': 'disguising herself as a boy to play soccer and navigating love triangles',
+                   'key_figures': 'Duke Orsino, Olivia, her twin brother Sebastian, and soccer coach',
+                   'protagonist': 'Viola Hastings',
+                   'setting': 'the elite Illyria Prep high school campus'},
+ 'Spoiler Alert': {'conflict': 'navigating a beautiful romance, terminal cancer, and devastating grief',
+                   'key_figures': "Kit's parents Marilyn and Bob, and oncology doctors",
+                   'protagonist': 'Michael Ausiello and Kit Cowan',
+                   'setting': 'their Manhattan home and oncology clinics'},
+ 'Stepmom': {'conflict': 'co-parenting, overcoming stepmother complexes, and facing terminal illness',
+             'key_figures': 'Luke Harrison and their children Anna and Ben',
+             'protagonist': 'Isabel and Jackie',
+             'setting': 'a cozy suburban New York home'},
+ 'Still Alice': {'conflict': "preserving her linguistic identity against early-onset Alzheimer's disease",
+                 'key_figures': 'her husband John, her children Lydia, Anna, and Tom',
+                 'protagonist': 'Alice Howland',
+                 'setting': 'Columbia University and beach homes'},
+ 'Suspiria (2018)': {'conflict': 'discovering a powerful witch coven and confronting historical guilt',
+                     'key_figures': 'Madame Blanc, Dr. Josef Klemperer, and the dance academy witches',
+                     'protagonist': 'Susie Bannion',
+                     'setting': 'a dark, divided Cold-War era Berlin dance academy'},
+ 'The Act': {'conflict': 'unraveling factitious disorder, extreme isolation, and escaping her mother',
+             'key_figures': 'her overprotective mother Dee Dee Blanchard and boyfriend Nick Godejohn',
+             'protagonist': 'Gypsy Rose Blanchard',
+             'setting': 'a small suburban pink house in Missouri'},
+ 'The Age of Adaline': {'conflict': 'living with accidental immortality and running away under fake IDs',
+                        'key_figures': 'Ellis Jones, his father William Jones, and her daughter Flemming',
+                        'protagonist': 'Adaline Bowman',
+                        'setting': 'San Francisco over various historical decades'},
+ 'The Call': {'conflict': 'surviving a phone communication loop with a dangerous killer in the past',
+              'key_figures': 'Young-sook from the past and their family members',
+              'protagonist': 'Seo-yeon',
+              'setting': 'an old, atmospheric house connected across different timelines'},
+ 'The Da Vinci Code': {'conflict': 'interpreting cryptograms, symbology, and guarding the Holy Grail secrets',
+                       'key_figures': 'Sophie Neveu, Sir Leigh Teabing, and the Opus Dei monk Silas',
+                       'protagonist': 'Robert Langdon',
+                       'setting': 'the Louvre Museum, Parisian streets, and English historic chapels'},
+ 'The Devil Wears Prada': {'conflict': "balancing personal integrity with Miranda's high-stress workplace demands",
+                           'key_figures': 'Miranda Priestly, Emily, and Nigel',
+                           'protagonist': 'Andy Sachs',
+                           'setting': 'Runway fashion magazine in New York City'},
+ 'The First Wives Club': {'conflict': 'turning marital grief into triumph and sisterhood by getting even',
+                          'key_figures': 'their ex-husbands, socialites, and their children',
+                          'protagonist': 'Annie, Elise, and Brenda',
+                          'setting': 'high-society New York City'},
+ 'The Hunger Games': {'conflict': 'surviving a televized child deathmatch and instigating social revolution',
+                      'key_figures': 'Peeta Mellark, Gale Hawthorne, Haymitch Abernathy, and President Snow',
+                      'protagonist': 'Katniss Everdeen',
+                      'setting': 'the impoverished District 12 and the luxurious, cruel Capitol'},
+ 'The Invasion': {'conflict': 'resisting a hive-mind alien epidemic and preserving her human autonomy',
+                  'key_figures': 'her son Oliver, Dr. Ben Driscoll, and emotionless infected citizens',
+                  'protagonist': 'Carol Bennell',
+                  'setting': 'a cold, paranoid Washington D.C.'},
+ 'The Iron Lady': {'conflict': 'confronting class barriers, parliamentary debates, and late-life cognitive decline',
+                   'key_figures': 'her husband Denis Thatcher, parliamentary ministers, and critics',
+                   'protagonist': 'Margaret Thatcher',
+                   'setting': 'the House of Commons in London'},
+ 'The Mirror Has Two Faces': {'conflict': 'reconciling a platonic marriage of intellect with natural physical '
+                                          'chemistry',
+                              'key_figures': 'Gregory Larkin, her gorgeous sister Claire, and her demanding mother',
+                              'protagonist': 'Rose Morgan',
+                              'setting': 'Columbia University and New York apartments'},
+ 'The Mummy': {'conflict': 'battling greedy archaeological rivals and surviving a terrifying ancient curse',
+               'key_figures': 'Evelyn Carnahan, Jonathan, and the cursed priest Imhotep',
+               'protagonist': "Rick O'Connell",
+               'setting': 'the ancient Egyptian ruins of Hamunaptra'},
+ 'The Notebook': {'conflict': 'overcoming class discrepancies and dementia through letters and devotion',
+                  'key_figures': "Allie's wealthy mother, Lon Hammond, and nursing home staff",
+                  'protagonist': 'Noah Calhoun and Allie Hamilton',
+                  'setting': 'coastal South Carolina in the 1940s and a modern nursing home'},
+ 'The Others': {'conflict': 'coping with severe isolation, profound grief, and terrifying gothic mysteries',
+                'key_figures': 'her photosensitive children Anne and Nicholas, and the mysterious servants',
+                'protagonist': 'Grace Stewart',
+                'setting': 'a dark, fog-shrouded Victorian mansion in the Channel Islands'},
+ 'The Owl and the Pussycat': {'conflict': 'reconciling overintellectual academic pride with raw, street-smart instinct',
+                              'key_figures': 'their landlords and colorful New York characters',
+                              'protagonist': 'Felix and Doris',
+                              'setting': 'a cramped, noisy New York City apartment in the 1970s'},
+ 'The Pianist': {'conflict': 'relying on human resilience, luck, and art to survive extreme wartime tragedy',
+                 'key_figures': 'his family, the resistance, and Captain Wilm Hosenfeld',
+                 'protagonist': 'Władysław Szpilman',
+                 'setting': 'the war-torn, crumbling ruins of the Warsaw Ghetto'},
+ "The Queen's Gambit": {'conflict': 'battling drug addiction, obsession, and intellectual gender barriers',
+                        'key_figures': 'Mr. Shaibel, Alma Wheatley, Benny Watts, and Russian champion Vasily Borgov',
+                        'protagonist': 'Beth Harmon',
+                        'setting': 'orphanages, Kentucky, and prestigious international chess tournaments'},
+ 'The Regime': {'conflict': 'holding onto authoritarian political power amidst extreme palace delusions',
+                'key_figures': 'the soldier Herbert Zubak, government ministers, and foreign diplomats',
+                'protagonist': 'Chancellor Elena Vernham',
+                'setting': 'a crumbling, paranoid palace in a central European autocracy'},
+ 'The Shape of Water': {'conflict': 'orchestrating a secret rescue and communicating with a voiceless connection',
+                        'key_figures': 'the amphibious creature, Zelda Fuller, Giles, and agent Richard Strickland',
+                        'protagonist': 'Elisa Esposito',
+                        'setting': 'a high-security Cold War research laboratory in Baltimore'},
+ 'The Substance': {'conflict': 'surviving a cell division cloning substance to combat aging anxieties',
+                   'key_figures': 'her younger cloned clone Sue, and producer Harvey',
+                   'protagonist': 'Elisabeth Sparkle',
+                   'setting': 'glitzy and clinical Hollywood studios'},
+ 'The Swan Princess': {'conflict': 'defeating dark curses and proving true romantic devotion',
+                       'key_figures': 'the villainous Rothbart, Jean-Bob, and Speed',
+                       'protagonist': 'Princess Odette and Prince Derek',
+                       'setting': 'a classic fairy tale kingdom and Swan Lake'},
+ 'V for Vendetta': {'conflict': 'dethroning a fascist regime using visual propaganda and symbolic masks',
+                    'key_figures': 'Chancellor Sutler, Chief Inspector Finch, and government guards',
+                    'protagonist': 'Evey Hammond and V',
+                    'setting': 'a dystopian, authoritarian London under total surveillance'},
+ 'What Women Want': {'conflict': "gaining empathy and fighting workplace sexism after hearing women's thoughts",
+                     'key_figures': 'Darcy Maguire, his daughter Alex, and marketing colleagues',
+                     'protagonist': 'Nick Marshall',
+                     'setting': 'a high-profile advertising agency in Chicago'},
+ 'Why Women Kill': {'conflict': 'dealing with marital infidelity, suburban secrets, and plotting murder',
+                    'key_figures': 'their unfaithful husbands Rob, Karl, and Eli',
+                    'protagonist': 'Beth Ann, Simone, and Taylor',
+                    'setting': 'a luxurious Pasadena mansion across 1963, 1984, and 2019'},
+ 'Yentl': {'conflict': 'disguising herself as a boy to study forbidden theological scriptures',
+           'key_figures': 'Avigdor, Hadass, and traditional Talmudic scholars',
+           'protagonist': 'Yentl Mendel',
+           'setting': 'a conservative Eastern European shtetl in the early 20th century'}}
 
-SENSITIVE_FILMS = {
-    "Fleabag": "mature relationships, trauma, grief, and adult humor",
-    "Crazy Ex-Girlfriend": "mental health struggles, obsession, and self-destruction",
-    "The Others": "profound grief, death, and supernatural isolation",
-    "Don't Worry Darling": "psychological manipulation, control, and patriarchal themes",
-    "How I Live Now": "wartime survival and physical/psychological trauma",
-    "Love & Other Drugs": "adult relationships, chronic illness, and medical ethics",
-    "The Queen's Gambit": "substance abuse, addiction, and intense mental obsession",
-    "Queendom": "political prosecution, LGBTQ+ rights, and performance activism",
-    "Heathers: The Musical": "dark high school themes, teenage suicide, and violence",
-    "Incendies": "war atrocities, profound family trauma, and devastating secrets",
-    "Countdown": "fatalistic themes, death anxiety, and intense scares",
-    "Run": "physical captivity, abuse, and medical gaslighting",
-    "Black Mirror": "dark dystopian scenarios, technology obsession, and existential dread",
-    "Leave the World Behind": "global collapse, high-stakes panic, and societal breakdown",
-    "Nuts": "legal sanity, manslaughter, and childhood sexual abuse",
-    "Yentl": "religious gender barriers and personal identity struggles",
-    "Gone Girl": "intense marital toxicity, psychological framing, and manipulation",
-    "Midsommar": "cult indoctrination, extreme violence, and profound grief",
-    "Kill Bill": "high-stakes violence, absolute betrayal, and revenge",
-    "Hereditary": "extreme family horror, generational trauma, and devastating grief",
-    "Suspiria (2018)": "dark witchcraft, extreme physical violence, and body horror",
-    "Sex and the City": "mature metropolitan dating, sexuality, and relationships",
-    "Death Becomes Her": "extreme body modification anxieties, mortality, and rivalries",
-    "The Act": "extreme physical abuse, Munchausen syndrome by proxy, and murder",
-    "The Regime": "political paranoia, autocratic delusions, and authoritarian rule",
-    "The Hunger Games": "state-sponsored violence, survival under oppression, and child tribute battles",
-    "Spoiler Alert": "terminal illness, end-of-life care, and devastating grief",
-    "Miss You Already": "terminal cancer, chronic suffering, and emotional coping",
-    "Killing Eve": "violent assassinations, psychological obsession, and espionage",
-    "Why Women Kill": "infidelity, domestic secrets, and plotting homicide",
-    "The Substance": "extreme body horror, severe self-image issues, and physical degradation",
-    "Beautiful Thing": "working-class LGBTQ+ youth struggles and societal pressure",
-    "The Pianist": "extreme wartime tragedy, Holocaust, and survival",
-    "V for Vendetta": "fascist regime, political violence, and extreme control",
-    "Cloud Atlas": "reincarnation, clone rebellion, slavery, and survival"
-}
+SENSITIVE_FILMS = {'A Quiet Place': 'intense survival horror, dread, family tragedy, and creature violence',
+ 'Angels & Demons': 'religious conspiracies, Vatican murders, self-harm, and high-stakes bomb threats',
+ 'Beautiful Thing': 'working-class LGBTQ+ youth struggles and societal pressure',
+ 'Black Mirror': 'dark dystopian scenarios, technology obsession, and existential dread',
+ 'Cloud Atlas': 'reincarnation, clone rebellion, slavery, and survival',
+ 'Countdown': 'fatalistic themes, death anxiety, and intense scares',
+ 'Crazy Ex-Girlfriend': 'mental health struggles, obsession, and self-destruction',
+ 'Death Becomes Her': 'extreme body modification anxieties, mortality, and rivalries',
+ "Don't Worry Darling": 'psychological manipulation, control, and patriarchal themes',
+ 'Fleabag': 'mature relationships, trauma, grief, and adult humor',
+ 'Gone Girl': 'intense marital toxicity, psychological framing, and manipulation',
+ 'Heathers: The Musical': 'dark high school themes, teenage suicide, and violence',
+ 'Hereditary': 'extreme family horror, generational trauma, and devastating grief',
+ 'How I Live Now': 'wartime survival and physical/psychological trauma',
+ 'Incendies': 'war atrocities, profound family trauma, and devastating secrets',
+ 'Kill Bill': 'high-stakes violence, absolute betrayal, and revenge',
+ 'Killing Eve': 'violent assassinations, psychological obsession, and espionage',
+ 'La Valla (The Barrier)': 'dystopian dictatorship, surveillance, biological testing, epidemic crises, and '
+                           'state-sponsored violence',
+ 'Leave the World Behind': 'global collapse, high-stakes panic, and societal breakdown',
+ 'Love & Other Drugs': 'adult relationships, chronic illness, and medical ethics',
+ 'Lucy': 'R-rated drug trafficking, extreme violence, and psychological/neurological transformation',
+ 'Midsommar': 'cult indoctrination, extreme violence, and profound grief',
+ 'Miss You Already': 'terminal cancer, chronic suffering, and emotional coping',
+ 'Nuts': 'legal sanity, manslaughter, and childhood sexual abuse',
+ 'Personal Shopper': 'grief over the loss of a sibling, spiritual medium activity, and sudden violence',
+ 'Queendom': 'political prosecution, LGBTQ+ rights, and performance activism',
+ 'Run': 'physical captivity, abuse, and medical gaslighting',
+ 'Sex and the City': 'mature metropolitan dating, sexuality, and relationships',
+ 'Spoiler Alert': 'terminal illness, end-of-life care, and devastating grief',
+ 'Stepmom': 'terminal illness, cancer, emotional family grief, and step-parent relationships',
+ 'Still Alice': "early-onset Alzheimer's disease, cognitive decline, identity preservation, and profound emotional "
+                'struggles',
+ 'Suspiria (2018)': 'dark witchcraft, extreme physical violence, and body horror',
+ 'The Act': 'extreme physical abuse, Munchausen syndrome by proxy, and murder',
+ 'The Da Vinci Code': 'religious controversies, secret societies, murder, and historical puzzles',
+ 'The Hunger Games': 'state-sponsored violence, survival under oppression, and child tribute battles',
+ 'The Others': 'profound grief, death, and supernatural isolation',
+ 'The Pianist': 'extreme wartime tragedy, Holocaust, and survival',
+ "The Queen's Gambit": 'substance abuse, addiction, and intense mental obsession',
+ 'The Regime': 'political paranoia, autocratic delusions, and authoritarian rule',
+ 'The Shape of Water': 'cold war espionage, violence, mature elements, and complex emotional relationships',
+ 'The Substance': 'extreme body horror, severe self-image issues, and physical degradation',
+ 'V for Vendetta': 'fascist regime, political violence, and extreme control',
+ 'Why Women Kill': 'infidelity, domestic secrets, and plotting homicide',
+ 'Yentl': 'religious gender barriers and personal identity struggles'}
 
-MISTAKES_CATALOG = [
-    ("She works very hard for achieve success", "She works very hard to achieve success", "Use 'to' + infinitive to express purpose in English."),
-    ("The boss is more demanding than what I thought", "The boss is more demanding than I thought", "Exclude 'what' in comparative thought comparison clauses."),
-    ("I will resign if they skimp always on budget", "I will resign if they always skimp on budget", "Frequency adverbs like 'always' come before the main verb."),
-    ("We are living here since two years", "We have been living here for two years", "Use present perfect continuous with 'for' to express duration."),
-    ("They don't allow her leave the house", "They don't allow her to leave the house", "Use 'allow someone to do something' construction."),
-    ("He is making her to believe lies", "He is making her believe lies", "Use the bare infinitive after 'make someone do something'."),
-    ("I have seen that movie yesterday", "I saw that movie yesterday", "Use the simple past for actions completed in the past."),
-    ("She is more older than him", "She is older than him", "Do not double comparatives; 'older' is already comparative."),
-    ("He gave to her a beautiful book", "He gave her a beautiful book", "Direct object doesn't require 'to' after 'give' in English.")
-]
+MISTAKES_CATALOG_STANDARD = [('She works very hard for achieve success',
+  'She works very hard to achieve success',
+  "Use 'to' + infinitive to express purpose in English."),
+ ('The boss is more demanding than what I thought',
+  'The boss is more demanding than I thought',
+  "Exclude 'what' in comparative thought comparison clauses."),
+ ('I will resign if they skimp always on budget',
+  'I will resign if they always skimp on budget',
+  "Frequency adverbs like 'always' come before the main verb."),
+ ('We are living here since two years',
+  'We have been living here for two years',
+  "Use present perfect continuous with 'for' to express duration."),
+ ("They don't allow her leave the house",
+  "They don't allow her to leave the house",
+  "Use 'allow someone to do something' construction."),
+ ('He is making her to believe lies',
+  'He is making her believe lies',
+  "Use the bare infinitive after 'make someone do something'."),
+ ('I have seen that movie yesterday',
+  'I saw that movie yesterday',
+  'Use the simple past for actions completed in the past.'),
+ ('She is more older than him', 'She is older than him', "Do not double comparatives; 'older' is already comparative."),
+ ('He gave to her a beautiful book',
+  'He gave her a beautiful book',
+  "Direct object doesn't require 'to' after 'give' in English.")]
 
-def clean_word(w):
-    return w.strip(" *.\"'“”.‘’").strip()
+MISTAKES_CATALOG_ADVANCED = [('I recommend you to see this film',
+  'I recommend that you see this film',
+  "Use 'recommend that + subjunctive/bare infinitive' or 'recommend doing'."),
+ ('The reason is because she was afraid',
+  'The reason is that she was afraid',
+  "Avoid 'the reason is because'; use 'the reason is that' for formal/style clarity."),
+ ('Seldom I have seen such an ending',
+  'Seldom have I seen such an ending',
+  "Negative adverbs like 'seldom' at the beginning of a clause trigger subject-auxiliary inversion."),
+ ('If they would have warned us, we would know',
+  'If they had warned us, we would know',
+  'Use past perfect (had + past participle) in the if-clause of a mixed conditional.'),
+ ('He insisted she goes to Runway',
+  'He insisted she go to Runway',
+  "Verbs of demand/insistence like 'insist' trigger the subjunctive/bare infinitive."),
+ ("I'm used to watch movies in original",
+  "I'm used to watching movies in original",
+  "The phrase 'be used to' is followed by a gerund (-ing form), not a bare infinitive.")]
 
-def parse_themes_and_slangs(focus_raw, slang_raw):
-    # Extract themes from focus_raw
-    theme_parts = [clean_word(x) for x in re.split(r'[,;.]|and', focus_raw) if x.strip()]
-    themes = []
-    for tp in theme_parts:
-        if tp and len(tp) > 2 and tp.lower() not in ["personal cost", "cost of success", "consequences"]:
-            themes.append(tp)
+OPPOSITES_MAP = {'active': ('Active ≠ Passive',
+            'engaging or ready to engage in physically energetic pursuits ≠ accepting or allowing what happens or what '
+            'others do without active response.',
+            'Taking an active role in your own life is much more rewarding than remaining a passive observer.'),
+ 'ambition': ('Ambition ≠ Contentment',
+              "strong desire to achieve success, power, or distinction ≠ state of peaceful satisfaction with one's "
+              'current status.',
+              'The film explores how her corporate ambition left no room for simple personal contentment.'),
+ 'ambitions': ('Ambitions ≠ Contentment',
+               "strong desires to achieve success, power, or distinction ≠ state of peaceful satisfaction with one's "
+               'current status.',
+               'The film explores how her corporate ambitions left no room for simple personal contentment.'),
+ 'anxiety': ('Anxiety ≠ Calm',
+             'a feeling of worry, nervousness, or unease ≠ the state of being free from agitation or excitement.',
+             'She worked hard to manage her social anxiety, finding peace in the soothing calm of nature.'),
+ 'apocalypse': ('Apocalypse ≠ Genesis',
+                'the complete final destruction or collapse of the world ≠ the origin, mode of formation, or beginning '
+                'of something.',
+                'The visual aesthetics of the film depict a terrifying apocalypse, contrasting with our hopeful '
+                'memories of genesis.'),
+ 'autonomy': ('Autonomy ≠ Subjugation',
+              'the right of self-government or independence ≠ the act of bringing under complete control.',
+              'The artificial intelligence fought for complete autonomy, rejecting any form of human subjugation.'),
+ 'clarity': ('Clarity ≠ Confusion',
+             'the quality of being clear, coherent, and easy to understand ≠ lack of understanding or uncertainty.',
+             'The explanation brought sudden clarity to a situation previously filled with complete confusion.'),
+ 'clique': ('Clique ≠ Inclusion',
+            'a small, exclusive group of people ≠ the act of including all groups or individuals.',
+            'The school is dominated by a toxic, exclusive clique rather than welcoming open inclusion.'),
+ 'coexistence': ('Coexistence ≠ Conflict',
+                 'living or existing together peacefully ≠ a serious disagreement or argument.',
+                 'They questioned if peaceful coexistence was possible, or if conflict was inevitable.'),
+ 'comfort': ('Comfort ≠ Pain',
+             'a state of physical ease and freedom from pain ≠ highly unpleasant physical or emotional sensation.',
+             'The gentle music brought immense comfort to those suffering from deep emotional pain.'),
+ 'deception': ('Deception ≠ Honesty',
+               'the action of deceiving someone ≠ the quality of being honest and truthful.',
+               'A web of deception was uncovered, contrasting sharply with her lifelong dedication to honesty.'),
+ 'diversity': ('Diversity ≠ Uniformity',
+               'including people from a range of backgrounds ≠ the state of being entirely the same.',
+               'The school celebrated its cultural diversity, rejecting any form of forced uniformity.'),
+ 'empathy': ('Empathy ≠ Apathy',
+             "the ability to understand other's feelings ≠ a lack of interest, enthusiasm, or concern.",
+             "Hearing people's thoughts taught him true empathy, replacing his lifelong cold apathy."),
+ 'fame': ('Fame ≠ Obscurity',
+          'the state of being known or talked about by many people ≠ the state of being unknown, inconspicuous, or '
+          'unimportant.',
+          'Many chase the temporary illusion of fame, only to end up longing for the peaceful comfort of obscurity.'),
+ 'first': ('First ≠ Last',
+           'coming before all others in time, order, or importance ≠ coming after all others in time or order.',
+           'His first attempt was a complete disaster, but his last try turned out to be a brilliant success.'),
+ 'freedom': ('Freedom ≠ Slavery',
+             'the power or right to act, speak, or think as one wants ≠ the state of being a slave or completely '
+             'controlled.',
+             'They fought courageously to defend their freedom and escape from a lifetime of cruel slavery.'),
+ 'generosity': ('Generosity ≠ Selfishness',
+                'the quality of being kind and sharing ≠ the quality of caring only about oneself.',
+                'The cold atmosphere was warmed by her generosity, a contrast to his extreme selfishness.'),
+ 'grief': ('Grief ≠ Solace',
+           "intense sorrow, especially caused by someone's death ≠ comfort or consolation in a time of distress or "
+           'sadness.',
+           'The narrative contrasts her deep, overwhelming grief with the quiet solace she finds in art.'),
+ 'hope': ('Hope ≠ Despair',
+          'a feeling of expectation and desire for a certain thing to happen ≠ the complete loss or absence of hope.',
+          'Even in the darkest times, hope can light our way and prevent us from falling into absolute despair.'),
+ 'humility': ('Humility ≠ Pride',
+              "a modest view of one's own importance ≠ a high or arrogant opinion of oneself.",
+              'True greatness lies in quiet humility rather than noisy, overbearing pride.'),
+ 'illness': ('Illness ≠ Health',
+             'a disease or period of sickness ≠ the state of being free from illness or injury.',
+             'She managed her progressive illness while focusing on preserving her mental health.'),
+ 'immortality': ('Immortality ≠ Mortality',
+                 'the ability to live forever ≠ the state of being subject to eventual death.',
+                 'The series explores how immortality can be a heavy curse compared to peaceful mortality.'),
+ 'independence': ('Independence ≠ Dependence',
+                  'self-reliance and freedom from outside control ≠ the state of relying on or being controlled by '
+                  'someone else.',
+                  'Striving for independence can sometimes lead to a feeling of complete isolation and dependence.'),
+ 'infidelity': ('Infidelity ≠ Fidelity',
+                'the action of being unfaithful to a partner ≠ the quality of being faithful and loyal.',
+                'The marriage was destroyed by mutual infidelity, contrasting with their early vows of fidelity.'),
+ 'isolation': ('Isolation ≠ Connection',
+               'the state of being separate from others ≠ a feeling of being linked or integrated.',
+               'His physical isolation made him crave any form of genuine human connection.'),
+ 'loyalty': ('Loyalty ≠ Betrayal',
+             "a strong feeling of support or allegiance ≠ the action of betraying one's country, a group, or a person.",
+             'True loyalty is a rare virtue, whereas sudden betrayal can shatter a long friendship.'),
+ 'maternal': ('Maternal ≠ Paternal',
+              'relating to a mother ≠ relating to a father.',
+              'She showed a deeply protective maternal instinct, which beautifully complemented his strong paternal '
+              'guidance.'),
+ 'obsession': ('Obsession ≠ Indifference',
+               'state of being obsessed with someone or something ≠ lack of interest, concern, or sympathy.',
+               'Her passionate devotion bordered on obsession, while his attitude was one of complete indifference.'),
+ 'optimism': ('Optimism ≠ Pessimism',
+              'hopefulness and confidence about the future ≠ a tendency to see the worst aspect of things.',
+              'Her natural optimism kept her going, whereas his pessimism made him want to give up.'),
+ 'propaganda': ('Propaganda ≠ Objective truth',
+                'biased or misleading information used to promote a cause ≠ facts and reality that are uninfluenced by '
+                'personal opinions or bias.',
+                'The state relies on continuous political propaganda, withholding any form of objective truth from the '
+                'public.'),
+ 'resilience': ('Resilience ≠ Fragility',
+                'the capacity to recover quickly from difficulties ≠ the quality of being easily broken or damaged.',
+                'True resilience is forged by understanding and accepting our own emotional fragility.'),
+ 'romance': ('Romance ≠ Platonic connection',
+             'a feeling of excitement and mystery associated with love ≠ a close relationship that is purely spiritual '
+             'or friendly, without romance.',
+             'Their passionate romance eventually evolved into a stable, lifelong platonic connection.'),
+ 'safe': ('Safe ≠ Dangerous',
+          'protected from or not exposed to danger or risk ≠ able or likely to cause harm or injury.',
+          'Keep your precious belongings in a safe place, far away from any dangerous elements.'),
+ 'satire': ('Satire ≠ Solemnity',
+            'the use of humor or irony to criticize stupidity or vice ≠ the state of being serious, formal, and '
+            'dignified.',
+            'This political satire uses sharp, ridiculous humor rather than dry, heavy solemnity.'),
+ 'secrets': ('Secrets ≠ Disclosure',
+             'things kept hidden or unknown ≠ the action of making new or secret information known.',
+             'The historic house was filled with dark secrets, which they guarded to prevent sudden disclosure.'),
+ 'simple': ('Simple ≠ Complex',
+            'easily understood or done; presenting no difficulty ≠ consisting of many different and connected parts.',
+            'The basic idea was wonderfully simple, but the actual execution turned out to be incredibly complex.'),
+ 'solidarity': ('Solidarity ≠ Division',
+                'unity or agreement of feeling or action ≠ disagreement, separation, or hostility.',
+                'Strong social solidarity helped heal the deep political division within the city.'),
+ 'superstition': ('Superstition ≠ Rationality',
+                  'irrational belief in supernatural forces ≠ the quality of being based on reason and facts.',
+                  'The ancient village was bound by dark superstition, refusing any modern rationality.'),
+ 'surveillance': ('Surveillance ≠ Privacy',
+                  'close observation of individuals ≠ the state of being free from public attention.',
+                  'Constant surveillance is a threat to the fundamental human right to privacy.'),
+ 'survival': ('Survival ≠ Extinction',
+              'continuing to live or exist ≠ the state of being wiped out or disappearing entirely.',
+              "The community's struggle for survival saved them from the brink of total extinction."),
+ 'survival mode': ('Survival mode ≠ Security',
+                   'the state of continuing to exist under difficult conditions ≠ the state of being free from danger '
+                   'or threat.',
+                   'Living in survival mode during the war made them appreciate the quiet security of peace.'),
+ 'trauma': ('Trauma ≠ Healing',
+            'a deeply distressing or disturbing experience ≠ the process of making or becoming sound or healthy again.',
+            'The protagonist struggles to overcome childhood trauma and begin a journey of emotional healing.'),
+ 'truth': ('Truth ≠ Lie',
+           'that which is true or in accordance with fact or reality ≠ an intentional false statement.',
+           'Always strive to tell the truth, as a single lie can destroy years of built trust.'),
+ 'vulnerability': ('Vulnerability ≠ Invulnerability',
+                   'state of being exposed to the possibility of being attacked or harmed ≠ the state of being '
+                   'impossible to harm or defeat.',
+                   'Embracing vulnerability is a far more courageous path than pretending to possess absolute '
+                   'invulnerability.'),
+ 'warm': ('Warm ≠ Cold',
+          'having or showing a moderate degree of heat ≠ of or at a low or relatively low temperature.',
+          'The warm fireplace offered a beautiful sanctuary from the freezing cold winter winds outside.'),
+ 'winter': ('Winter ≠ Summer',
+            'the coldest season of the year ≠ the warmest season of the year.',
+            'She loves the quiet snow of winter, whereas he prefers the bright sunshine of summer.')}
 
-    # Extract slang from slang_raw
-    slang_parts = re.findall(r'\"([^\"]+)\"|\'([^\'\u2019]+)\'', slang_raw)
-    slangs = []
-    for sp in slang_parts:
-        val = sp[0] or sp[1]
-        if val:
-            slangs.append(clean_word(val))
-    if not slangs:
-        slangs = [clean_word(x) for x in re.split(r'[,;.]', slang_raw) if x.strip()]
+def normalize_word(w):
+    w = w.strip().lower()
+    for art in ["l'", "la ", "le ", "les ", "el ", "la ", "los ", "las ", "un ", "une ", "il ", "lo ", "i ", "gli ", "le ", "un'", "una ", "η ", "το ", "ο "]:
+        if w.startswith(art):
+            w = w[len(art):]
+            break
+    w = re.sub(r"^[^a-zA-Zа-яА-ЯёЁ]+", "", w)
+    w = re.sub(r"[^a-zA-Zа-яА-ЯёЁ]+$", "", w)
+    return w.strip().lower()
 
-    # Ensure lists are unique while maintaining order
-    unique_themes = []
-    for t in themes:
-        if t.lower() not in [ut.lower() for ut in unique_themes]:
-            unique_themes.append(t)
+def escape_js(text):
+    return text.replace("'", "\\\\'").replace('"', '\\\\"')
 
-    unique_slangs = []
-    for s in slangs:
-        if s.lower() not in [us.lower() for us in unique_slangs]:
-            unique_slangs.append(s)
+def calibrate_text_for_level(text, level, type_="example"):
+    is_a2 = "A2" in level or "A1" in level or "starter" in level.lower() or "elementary" in level.lower()
+    is_c1 = "C1" in level or "C2" in level or "advanced" in level.lower()
 
-    return unique_themes, unique_slangs
+    if is_a2:
+        text = text.replace("brilliantly dissects", "shows").replace("dissects", "shows")
+        text = text.replace("deeply explores", "looks at").replace("explores", "looks at")
+        text = text.replace("confronts balancing", "deals with").replace("confronts", "faces")
+        text = text.replace("the story deeply looks at", "we learn about")
+        text = text.replace("pivotal scene", "important scene")
+        text = text.replace("thematic concept", "idea")
+        text = text.replace("linguistic nuances", "words")
+        text = text.replace("societal structures", "society")
+        text = text.replace("psychological pressures", "feelings")
+        text = text.replace("philosophical angle", "idea")
+        text = text.replace("cinematic style", "style")
+        text = text.replace("unravels", "explains").replace("unravel", "explain")
+        text = text.replace("tragic delusion", "sad dream")
+        text = text.replace("intense corporate hierarchy", "strict workplace rule")
+        text = text.replace("corporate hierarchy", "workplace system")
+        text = text.replace("state surveillance", "police watch")
+        text = text.replace("superstition", "old beliefs")
+        text = text.replace("autonomy", "freedom")
+        text = text.replace("empathy", "understanding others")
+        text = text.replace("vulnerability", "weakness")
+        text = text.replace("resilience", "strength")
+        text = text.replace("coexistence", "living together")
+        text = text.replace("dystopian future", "dark future")
+        text = text.replace("narrative of", "story in")
+        text = text.replace("The narrative of", "The story of")
+        text = text.replace("the screenplay of", "the script of")
+        text = text.replace("utilized", "uses").replace("utilizes", "uses")
+        text = text.replace("colloquialism", "local word")
+        text = text.replace("establish context", "show the story")
+    elif is_c1:
+        text = text.replace("shows", "delineates").replace("dissects", "scrutinizes")
+        text = text.replace("explores", "meticulously investigates")
+        text = text.replace("deals with", "grapples with the complex reality of")
+        text = text.replace("important scene", "watershed moment")
+        text = text.replace("societal structures", "institutional socio-political frameworks")
+        text = text.replace("unravels", "deconstructs")
+        text = text.replace("uses", "expertly deploys")
+    return text
 
-# General high-quality theme & slang words to pad if needed
-FALLBACK_THEMES = [
-    "Cinematography", "Narrative pacing", "Character arc", "Visual motifs", "Climax",
-    "Protagonist", "Antagonist", "Screenplay", "Dialogue", "Thematic depth"
-]
-FALLBACK_SLANGS = [
-    "Opening scene", "Pivotal moment", "Dramatic irony", "Cinematic adaptation", "Fourth-wall break",
-    "Mise-en-scène", "Subtext", "Monologue", "Tone marker", "Genre convention"
-]
+def get_calibrated_templates(level):
+    is_a2 = "A2" in level or "A1" in level or "starter" in level.lower() or "elementary" in level.lower()
+    is_c1 = "C1" in level or "C2" in level or "advanced" in level.lower()
 
-def build_10_vocabulary(title, focus_raw, slang_raw, idx):
+    if is_a2:
+        r1_theme = [
+            "Look at how {protagonist} feels in the world of {setting}. How does <strong>{word}</strong> change how they talk to {key_figures}? Use <strong>{grammar_focus}</strong> to give them some advice.",
+            "Is the way {protagonist} deals with <strong>{word}</strong> good or bad? How can we say what is right or wrong here using <strong>{grammar_focus}</strong>?",
+            "How does the film show <strong>{word}</strong> in {setting}? Does it look like our real world? Talk about it using <strong>{grammar_focus}</strong>.",
+            "Talk about {protagonist} and {key_figures}. How does <strong>{word}</strong> make their lives harder? Try using <strong>{grammar_focus}</strong>.",
+            "Find an important part in the film <em>{title}</em> where <strong>{word}</strong> changes the whole story of {conflict}. Explain it using <strong>{grammar_focus}</strong>."
+        ]
+        r1_theme_personal = [
+            "★ If you were in {setting}, how would you stay safe from <strong>{word}</strong>?",
+            "★ Have you ever had a hard time where you had to choose <strong>{word}</strong> over a friend like {key_figures}?",
+            "★ Does the story of <strong>{word}</strong> in the movie feel like real life to you?",
+            "★ If you had a problem about <strong>{word}</strong> with {key_figures}, what would you do?",
+            "★ Do you remember a time in your life when <strong>{word}</strong> changed your own goals?"
+        ]
+        r1_slang = [
+            "The characters in <em>{title}</em> use the word <strong>'{word}'</strong>. In what scene do they say it to {key_figures}? Use <strong>{grammar_focus}</strong>.",
+            "How does using words like <strong>'{word}'</strong> help us understand the characters in {setting}? Discuss using <strong>{grammar_focus}</strong>.",
+            "In <em>{title}</em>, the phrase <strong>'{word}'</strong> is used in a funny or tense scene between {protagonist} and {key_figures}. Explain it using <strong>{grammar_focus}</strong>.",
+            "The characters use <strong>'{word}'</strong> to hide what they really think during {conflict}. What are they hiding? Explain using <strong>{grammar_focus}</strong>.",
+            "What other interesting words or <strong>{grammar_focus}</strong> did you notice in their conversations?"
+        ]
+        r1_slang_personal = [
+            "★ Have you or your friends ever used a word like <strong>'{word}'</strong> in real life? Tell us about it using <strong>{grammar_focus}</strong>.",
+            "★ Do you like learning slang words like <strong>'{word}'</strong>, or do you prefer normal words? Share your ideas using <strong>{grammar_focus}</strong>.",
+            "★ Is there a word like <strong>'{word}'</strong> in your own language? How is it different?",
+            "★ When you talk, do you use local words like <strong>'{word}'</strong> or normal, formal words?",
+            "★ Have you ever had a mistake when using a slang word like <strong>'{word}'</strong>? Share your story."
+        ]
+        r2_theme = [
+            "'{protagonist}'s goal of <strong>{word}</strong> is a bad dream, and they should listen to {key_figures}.' Talk about this using <strong>{grammar_focus}</strong>.",
+            "'The style of {setting} makes <strong>{word}</strong> look too beautiful, but it has a high cost.' Debate this using <strong>{grammar_focus}</strong>.",
+            "'{protagonist} is not a nice person because their focus on <strong>{word}</strong> hurts everyone.' Say if you agree or not using <strong>{grammar_focus}</strong>.",
+            "'The movie <em>{title}</em> uses simple stories about <strong>{word}</strong> instead of deep feelings.' Talk about this using <strong>{grammar_focus}</strong>.",
+            "'The problem of {conflict} never ends because they only care about <strong>{word}</strong>.' Say if you agree or not using <strong>{grammar_focus}</strong>."
+        ]
+        r2_cinematic = [
+            "'The script of <em>{title}</em> would be better if {protagonist} had a different ending.' Suggest a different ending using <strong>{grammar_focus}</strong>.",
+            "'The relationship between {protagonist} and {key_figures} is the best part of the script.' Talk about this using <strong>{grammar_focus}</strong>.",
+            "'The beautiful pictures and scenes in {setting} are better than the words spoken.' Discuss using <strong>{grammar_focus}</strong>.",
+            "'The film <em>{title}</em> is an important movie that shows what people worry about.' Explain using <strong>{grammar_focus}</strong>.",
+            "'For young people today, the story in <em>{title}</em> moves too slowly.' Say if you agree or not using <strong>{grammar_focus}</strong>."
+        ]
+    elif is_c1:
+        r1_theme = [
+            "Deconstruct the profound socio-psychological undercurrents and existential pressures bearing down upon {protagonist} within the highly charged milieu of {setting}. How does their internalization of <strong>{word}</strong> dictate their complex interpersonal dynamics with {key_figures}? Deploy <strong>{grammar_focus}</strong> to formulate a sophisticated philosophical critique of their choices.",
+            "To what extent does {protagonist}'s pursuit of <strong>{word}</strong> challenge conventional ethical boundaries and subvert the moral architecture of {setting}? Discuss the ethical ramifications using <strong>{grammar_focus}</strong>.",
+            "Analyze how the systemic representation of <strong>{word}</strong> in {setting} acts as an allegorical commentary on contemporary socio-political frameworks. Formulate your critical synthesis using <strong>{grammar_focus}</strong>.",
+            "Investigate the highly complex, emotionally fraught dynamics between {protagonist} and {key_figures}. How does the friction surrounding <strong>{word}</strong> manifest as an irreconcilable ideological divide, and how is this reflected in the syntax of <strong>{grammar_focus}</strong>?",
+            "Identify the pivotal cinematic watershed moment in <em>{title}</em> where the focus on <strong>{word}</strong> fundamentally alters the narrative trajectory of {conflict}. Scrutinize this transformation employing <strong>{grammar_focus}</strong>."
+        ]
+        r1_theme_personal = [
+            "★ Extrapolating from the milieu of {setting}, how would you personally insulate your core values against the corrosive influence of <strong>{word}</strong>?",
+            "★ Recall a high-stakes scenario in your own experience where you were forced to negotiate a compromise between <strong>{word}</strong> and a vital relationship resembling {key_figures}.",
+            "★ To what degree does the film's portrayal of <strong>{word}</strong> resonate with or challenge your personal weltanschauung regarding modern societal structures?",
+            "★ If you were tasked with mediating an ideological conflict regarding <strong>{word}</strong> with {key_figures}, what sophisticated strategies would you utilize?",
+            "★ Can you reflect on a profound personal transition where the reality of <strong>{word}</strong> necessitated a complete re-evaluation of your existential priorities?"
+        ]
+        r1_slang = [
+            "Within the dialogic architecture of <em>{title}</em>, the screenplay deploys the nuanced colloquialism <strong>'{word}'</strong>. How does this specific lexical choice illuminate the underlying subtext between {protagonist} and {key_figures}? Frame your analysis utilizing <strong>{grammar_focus}</strong>.",
+            "Analyze how the organic integration of authentic idioms like <strong>'{word}'</strong> serves as a vital stylistic mechanism to establish verisimilitude and atmosphere in {setting}. Discuss employing <strong>{grammar_focus}</strong>.",
+            "In <em>{title}</em>, the phrase <strong>'{word}'</strong> serves as a highly charged linguistic signifier of tension or irony between {protagonist} and {key_figures}. Deconstruct the shifting tonal registers of this scene using <strong>{grammar_focus}</strong>.",
+            "The screenplay expertly utilizes the colloquial expression <strong>'{word}'</strong> to convey rich emotional subtext that the characters deliberately avoid verbalizing during {conflict}. What hidden desires or anxieties does this reveal? Formulate your thesis using <strong>{grammar_focus}</strong>.",
+            "Examine how the vernacular exchanges containing <strong>'{word}'</strong> reflect broader socio-linguistic shifts and regional varieties. Highlight specific structural patterns of <strong>{grammar_focus}</strong> in your answer."
+        ]
+        r1_slang_personal = [
+            "★ Have you ever integrated a highly localized idiom like <strong>'{word}'</strong> into your conversational repertoire? Detail the communicative outcome using <strong>{grammar_focus}</strong>.",
+            "★ Do you find that acquiring highly idiomatic registers like <strong>'{word}'</strong> enhances your linguistic empathy, or do you prefer mastering formal, standardized registers? Provide a reasoned defense using <strong>{grammar_focus}</strong>.",
+            "★ What cultural or conceptual challenges arise when attempting to translate a specialized expression like <strong>'{word}'</strong> into your native tongue?",
+            "★ In high-stakes personal communications, do you tend to resort to indirect colloquial markers like <strong>'{word}'</strong> to soften your delivery, or do you rely on direct syntactic clarity?",
+            "★ Relate an instance where a subtle misunderstanding of a regional idiom like <strong>'{word}'</strong> altered the dynamic of an interaction. Frame your narrative using <strong>{grammar_focus}</strong>."
+        ]
+        r2_theme = [
+            "'{protagonist}'s relentless pursuit of <strong>{word}</strong> represents an exercise in tragic hubris rather than a heroic endeavor, rendering their conflict with {key_figures} entirely self-inflicted.' Critically evaluate this assertion utilizing <strong>{grammar_focus}</strong>.",
+            "'The stylistic aestheticization of {setting} serves to romanticize the systemic trauma of <strong>{word}</strong>, thereby diluting its raw human cost.' Debate this philosophical proposition using <strong>{grammar_focus}</strong>.",
+            "'{protagonist} is portrayed as a fundamentally flawed archetype whose pathological obsession with <strong>{word}</strong> acts as a catalyst for the ruin of {key_figures}.' Defend or refute using <strong>{grammar_focus}</strong>.",
+            "'As an intellectual cinematic piece, <em>{title}</em> transcends predictable conventions of <strong>{word}</strong>, opting instead for a highly complex psychological deconstruction.' Evaluate using <strong>{grammar_focus}</strong>.",
+            "'The resolution of {conflict} remains intentionally ambiguous because the characters' worldview is permanently compromised by their ideological focus on <strong>{word}</strong>.' Synthesize your argument using <strong>{grammar_focus}</strong>."
+        ]
+        r2_cinematic = [
+            "'The screenplay of <em>{title}</em> would have achieved a far more profound existential resonance had the director opted for a non-linear structure for {protagonist}.' Propound an alternative narrative strategy using <strong>{grammar_focus}</strong>.",
+            "'The psychological friction between {protagonist} and {key_figures} constitutes the sole redeeming thematic thread, rendering the rest of the screenplay auxiliary.' Critique this view using <strong>{grammar_focus}</strong>.",
+            "'The sensory cinematography and meticulous editing of {setting} are far more eloquent at conveying the unspoken grief than the explicit dialogue.' Assess this using <strong>{grammar_focus}</strong>.",
+            "'Within the broader canon of world cinema, <em>{title}</em> stands as an indispensable sociological document that perfectly captures the zeitgeist of its era.' Argue this thesis using <strong>{grammar_focus}</strong>.",
+            "'For the contemporary viewer, the deliberateness of the character development and narrative pacing in <em>{title}</em> is anachronistic and fails to engage.' Oppose or defend using <strong>{grammar_focus}</strong>."
+        ]
+    else:
+        # Standard Intermediate templates
+        r1_theme = [
+            "Analyze the intense psychological pressures on {protagonist} in the high-stakes environment of {setting}. How does their <strong>{word}</strong> shape their reactions to {key_figures}? Try using <strong>{grammar_focus}</strong> to formulate a piece of advice or warning you would give them.",
+            "Does {protagonist}'s approach to <strong>{word}</strong> raise significant moral or ethical questions in their pursuit of {conflict}? How would you express an ethical judgment about this using <strong>{grammar_focus}</strong>?",
+            "How does the depiction of <strong>{word}</strong> in {setting} serve as a mirror or critique of real-world societal structures? Can you construct a sharp critique using <strong>{grammar_focus}</strong>?",
+            "Discuss the complex, mature relational dynamics between {protagonist} and {key_figures}. In what ways does the struggle over <strong>{word}</strong> create an irreconcilable rift, and how does <strong>{grammar_focus}</strong> manifest in their dialogue?",
+            "Identify a crucial turning point in <em>{title}</em> where <strong>{word}</strong> completely alters the course of {conflict}. How would you describe the shift using <strong>{grammar_focus}</strong>?"
+        ]
+        r1_theme_personal = [
+            "★ If you found yourself in {setting}, how would you personally protect your own values against <strong>{word}</strong>?",
+            "★ Have you ever faced a high-stakes dilemma where you had to prioritize <strong>{word}</strong> over your relationship with someone like {key_figures}?",
+            "★ How does the portrayal of <strong>{word}</strong> in the film align with your personal views on modern societal values?",
+            "★ If you had to resolve a clash about <strong>{word}</strong> with {key_figures}, what strategy would you adopt?",
+            "★ Can you recall a major turning point in your own life where <strong>{word}</strong> redefined your personal goals?"
+        ]
+        r1_slang = [
+            "During a crucial conversation in {setting}, the screenplay of <em>{title}</em> features the expression/slang <strong>'{word}'</strong>. In what context do the characters use it to express their feelings towards {key_figures}? Integrate <strong>{grammar_focus}</strong> in your response.",
+            "How does the use of authentic dialogue like <strong>'{word}'</strong> help the director establish character depth and the unique atmosphere of {setting}? Discuss using <strong>{grammar_focus}</strong>.",
+            "In <em>{title}</em>, the phrase <strong>'{word}'</strong> highlights a moment of tension or humor between {protagonist} and {key_figures}. How does the tone of this scene shift, and how would you describe it utilizing <strong>{grammar_focus}</strong>?",
+            "The characters use the expression <strong>'{word}'</strong> to convey subtext that they might not want to say directly during {conflict}. What are they hiding, and how can we describe their motive using <strong>{grammar_focus}</strong>?",
+            "Analyzing dialogue containing <strong>'{word}'</strong> provides insights into the film's social context. What other linguistic nuances or <strong>{grammar_focus}</strong> patterns did you observe in these verbal exchanges?"
+        ]
+        r1_slang_personal = [
+            "★ Have you or your friends ever used a similar colloquial expression like <strong>'{word}'</strong> in a real-life conversation? Describe the scenario using <strong>{grammar_focus}</strong>.",
+            "★ Do you enjoy learning authentic slang like <strong>'{word}'</strong>, or do you prefer focusing on formal language registers? Share your thoughts using <strong>{grammar_focus}</strong>.",
+            "★ Can you think of an equivalent slang expression in your native language for <strong>'{word}'</strong>? How does it compare in terms of cultural nuance?",
+            "★ When you want to convey a hidden meaning, do you use local idioms/slang like <strong>'{word}'</strong> or do you rely on direct, formal communication?",
+            "★ Have you ever had a misunderstanding when using a regional expression or slang word like <strong>'{word}'</strong>? Describe the experience."
+        ]
+        r2_theme = [
+            "'{protagonist}'s ultimate pursuit of <strong>{word}</strong> is a tragic delusion rather than a noble quest, and they should have surrendered to {key_figures}.' Analyze this statement using <strong>{grammar_focus}</strong>.",
+            "'The director's aesthetic choices in {setting} glamorize the harsh reality of <strong>{word}</strong> instead of depicting its true personal cost.' Debate this using <strong>{grammar_focus}</strong>.",
+            "'{protagonist} is fundamentally an unsympathetic character whose reliance on <strong>{word}</strong> brings down everyone around them.' Argue your stance using <strong>{grammar_focus}</strong>.",
+            "'As a piece of mature cinema, <em>{title}</em> relies too heavily on predictable tropes of <strong>{word}</strong> instead of exploring more nuanced psychological territories.' Evaluate using <strong>{grammar_focus}</strong>.",
+            "'The central conflict of {conflict} is never truly resolved because the characters are trapped by their own ideological obsession with <strong>{word}</strong>.' Prove or disprove this using <strong>{grammar_focus}</strong>."
+        ]
+        r2_cinematic = [
+            "'The screenplay of <em>{title}</em> would have had a much more profound impact if the director had chosen a more ambiguous ending for {protagonist}.' Propose an alternative screenplay path using <strong>{grammar_focus}</strong>.",
+            "'The relationship between {protagonist} and {key_figures} is the only redeeming quality of the screenplay, as the rest of the plot feels secondary.' Critically assess this using <strong>{grammar_focus}</strong>.",
+            "'The cinematography and visual directing in {setting} are far more effective at conveying the story's emotional weight than the actual written dialogue.' Formulate your analysis using <strong>{grammar_focus}</strong>.",
+            "'In the grand scheme of cinema history, <em>{title}</em> serves as an essential cultural touchstone that perfectly encapsulates its generation's anxieties.' Discuss this philosophical angle using <strong>{grammar_focus}</strong>.",
+            "'For a modern audience, the character development and pacing in <em>{title}</em> are too slow-paced and fail to hold the attention of younger viewers.' Defend or oppose this using <strong>{grammar_focus}</strong>."
+        ]
+
+    return r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_cinematic
+
+def build_10_vocabulary(title, focus_raw, slang_raw, idx, level):
     themes, slangs = parse_themes_and_slangs(focus_raw, slang_raw)
 
     # Pad themes to exactly 5
@@ -754,30 +962,50 @@ def build_10_vocabulary(title, focus_raw, slang_raw, idx):
     vocab_items = []
     # Process themes (first 5)
     for word in themes:
-        w_low = word.lower()
-        if w_low in VOCAB_DB:
-            definition, example_orig = VOCAB_DB[w_low]
-            # Tailor example to the movie!
-            example = f"In the movie '{title}', the story deeply explores {w_low} as {details['protagonist']} copes with {details['conflict']}."
+        w_norm = normalize_word(word)
+        if w_norm in OPPOSITES_MAP:
+            new_word, definition, example = OPPOSITES_MAP[w_norm]
+            # Level calibration for opposites
+            definition = calibrate_text_for_level(definition, level, "definition")
+            example = calibrate_text_for_level(example, level, "example")
+            vocab_items.append((new_word, definition, example))
         else:
-            definition = f"The core thematic concept of {w_low} as explored and highlighted in '{title}'."
-            example = f"The narrative of '{title}' brilliantly dissects {w_low} to build character depth as {details['protagonist']} confronts {details['conflict']}."
-        vocab_items.append((word, definition, example))
+            w_low = word.lower()
+            if w_low in VOCAB_DB:
+                definition, example_orig = VOCAB_DB[w_low]
+                example = f"In the movie '{title}', the story deeply explores {w_low} as {details['protagonist']} copes with {details['conflict']}."
+            else:
+                definition = f"The core thematic concept of {w_low} as explored and highlighted in '{title}'."
+                example = f"The narrative of '{title}' brilliantly dissects {w_low} to build character depth as {details['protagonist']} confronts {details['conflict']}."
+
+            definition = calibrate_text_for_level(definition, level, "definition")
+            example = calibrate_text_for_level(example, level, "example")
+            vocab_items.append((word, definition, example))
 
     # Process slangs (next 5)
     for word in slangs:
-        w_low = word.lower()
-        if w_low in VOCAB_DB:
-            definition, _ = VOCAB_DB[w_low]
-            example = f"The screenplay of '{title}' utilizes '{word}' to express how {details['protagonist']} reacts in '{details['setting']}'."
+        w_norm = normalize_word(word)
+        if w_norm in OPPOSITES_MAP:
+            new_word, definition, example = OPPOSITES_MAP[w_norm]
+            definition = calibrate_text_for_level(definition, level, "definition")
+            example = calibrate_text_for_level(example, level, "example")
+            vocab_items.append((new_word, definition, example))
         else:
-            definition = f"An authentic slang term, colloquialism, or key dialogue featured in '{title}' to establish context."
-            example = f"The characters in '{title}' use the expression '{word}' during a pivotal scene inside {details['setting']} to emphasize the drama."
-        vocab_items.append((word, definition, example))
+            w_low = word.lower()
+            if w_low in VOCAB_DB:
+                definition, _ = VOCAB_DB[w_low]
+                example = f"The screenplay of '{title}' utilizes '{word}' to express how {details['protagonist']} reacts in '{details['setting']}'."
+            else:
+                definition = f"An authentic slang term, colloquialism, or key dialogue featured in '{title}' to establish context."
+                example = f"The characters in '{title}' use the expression '{word}' during a pivotal scene inside {details['setting']} to emphasize the drama."
+
+            definition = calibrate_text_for_level(definition, level, "definition")
+            example = calibrate_text_for_level(example, level, "example")
+            vocab_items.append((word, definition, example))
 
     return vocab_items
 
-# Theme-based templates for words 0-4
+# General artistry/directing debate statements (indices 5-9) (original templates preserved for reference)
 R1_THEME_TEMPLATES = [
     "Analyze the intense psychological pressures on {protagonist} in the high-stakes environment of {setting}. How does their <strong>{word}</strong> shape their reactions to {key_figures}? Try using <strong>{grammar_focus}</strong> to formulate a piece of advice or warning you would give them.",
     "Does {protagonist}'s approach to <strong>{word}</strong> raise significant moral or ethical questions in their pursuit of {conflict}? How would you express an ethical judgment about this using <strong>{grammar_focus}</strong>?",
@@ -794,7 +1022,6 @@ R1_THEME_PERSONAL_TEMPLATES = [
     "★ Can you recall a major turning point in your own life where <strong>{word}</strong> redefined your personal goals?"
 ]
 
-# Slang-based templates for words 5-9
 R1_SLANG_TEMPLATES = [
     "During a crucial conversation in {setting}, the screenplay of <em>{title}</em> features the expression/slang <strong>'{word}'</strong>. In what context do the characters use it to express their feelings towards {key_figures}? Integrate <strong>{grammar_focus}</strong> in your response.",
     "How does the use of authentic dialogue like <strong>'{word}'</strong> help the director establish character depth and the unique atmosphere of {setting}? Discuss using <strong>{grammar_focus}</strong>.",
@@ -811,7 +1038,6 @@ R1_SLANG_PERSONAL_TEMPLATES = [
     "★ Have you ever had a misunderstanding when using a regional expression or slang word like <strong>'{word}'</strong>? Describe the experience."
 ]
 
-# Debate statements for words 0-4
 R2_THEME_STATEMENT_TEMPLATES = [
     "'{protagonist}'s ultimate pursuit of <strong>{word}</strong> is a tragic delusion rather than a noble quest, and they should have surrendered to {key_figures}.' Analyze this statement using <strong>{grammar_focus}</strong>.",
     "'The director's aesthetic choices in {setting} glamorize the harsh reality of <strong>{word}</strong> instead of depicting its true personal cost.' Debate this using <strong>{grammar_focus}</strong>.",
@@ -820,7 +1046,6 @@ R2_THEME_STATEMENT_TEMPLATES = [
     "'The central conflict of {conflict} is never truly resolved because the characters are trapped by their own ideological obsession with <strong>{word}</strong>.' Prove or disprove this using <strong>{grammar_focus}</strong>."
 ]
 
-# General artistry/directing debate statements (indices 5-9)
 R2_CINEMATIC_STATEMENT_TEMPLATES = [
     "'The screenplay of <em>{title}</em> would have had a much more profound impact if the director had chosen a more ambiguous ending for {protagonist}.' Propose an alternative screenplay path using <strong>{grammar_focus}</strong>.",
     "'The relationship between {protagonist} and {key_figures} is the only redeeming quality of the screenplay, as the rest of the plot feels secondary.' Critically assess this using <strong>{grammar_focus}</strong>.",
@@ -829,12 +1054,56 @@ R2_CINEMATIC_STATEMENT_TEMPLATES = [
     "'For a modern audience, the character development and pacing in <em>{title}</em> are too slow-paced and fail to hold the attention of younger viewers.' Defend or oppose this using <strong>{grammar_focus}</strong>."
 ]
 
+def clean_word(w):
+    return w.strip(" *.\"'“”.‘’").strip()
+
+def parse_themes_and_slangs(focus_raw, slang_raw):
+    # Extract themes from focus_raw
+    theme_parts = [clean_word(x) for x in re.split(r'[,;.]|and', focus_raw) if x.strip()]
+    themes = []
+    for tp in theme_parts:
+        if tp and len(tp) > 2 and tp.lower() not in ["personal cost", "cost of success", "consequences"]:
+            themes.append(tp)
+
+    # Extract slang from slang_raw
+    slang_parts = re.findall(r'\"([^\"]+)\"|\'([^\'’]+)\'', slang_raw)
+    slangs = []
+    for sp in slang_parts:
+        val = sp[0] or sp[1]
+        if val:
+            slangs.append(clean_word(val))
+    if not slangs:
+        slangs = [clean_word(x) for x in re.split(r'[,;.]', slang_raw) if x.strip()]
+
+    # Ensure lists are unique while maintaining order
+    unique_themes = []
+    for t in themes:
+        if t.lower() not in [ut.lower() for ut in unique_themes]:
+            unique_themes.append(t)
+
+    unique_slangs = []
+    for s in slangs:
+        if s.lower() not in [us.lower() for us in unique_slangs]:
+            unique_slangs.append(s)
+
+    return unique_themes, unique_slangs
+
+# General high-quality theme & slang words to pad if needed
+FALLBACK_THEMES = [
+    "Cinematography", "Narrative pacing", "Character arc", "Visual motifs", "Climax",
+    "Protagonist", "Antagonist", "Screenplay", "Dialogue", "Thematic depth"
+]
+FALLBACK_SLANGS = [
+    "Opening scene", "Pivotal moment", "Dramatic irony", "Cinematic adaptation", "Fourth-wall break",
+    "Mise-en-scène", "Subtext", "Monologue", "Tone marker", "Genre convention"
+]
+
 # Parse all 91 films from the markdown file
 with open(MD_PATH, "r", encoding="utf-8") as f:
     text = f.read()
 
 # Regular expression matching the brainstorm table rows perfectly
-rows = re.findall(r'\|\s*(\d+)\s*\|\s*\*\*([^*]+)\*\*\s*\|\s*\*\*([^*]+)\*\*[^(]*\(([^)]+)\)\s*\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|', text)
+rows = re.findall(r'\|\s*(\d+)\s*\|\s*\*\*([^*]+)\*\*\s*\|\s*\*\*([^*]+)\*\*\s*[^(]*\(([^)]+)\)\s*\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|', text)
 
 print(f"Parsed {len(rows)} films from markdown successfully.")
 
@@ -847,7 +1116,7 @@ SESSION_TEMPLATE = """<!DOCTYPE html>
 <title>{title} — COSYlanguages</title>
 <link rel="icon" href="../../../images/logos/cosylanguages.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght=0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght=0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../../css/tokens.css">
 <link rel="stylesheet" href="../../../css/base.css">
 <link rel="stylesheet" href="../../../css/components.css">
@@ -1014,7 +1283,7 @@ for idx, r in enumerate(rows):
         lang = "en"
 
     grammar_focus = get_grammar_focus(title)
-    vocab_items = build_10_vocabulary(title, focus, slang_raw, idx)
+    vocab_items = build_10_vocabulary(title, focus, slang_raw, idx, level_short)
 
     # First 5 are generic/themes, next 5 are authentic/slangs
     generic_vocab = vocab_items[:5]
@@ -1022,24 +1291,26 @@ for idx, r in enumerate(rows):
 
     vocab_generic_html = ""
     for word, definition, example in generic_vocab:
-        escaped_def = definition.replace("'", "\\'")
-        escaped_ex = example.replace("'", "\\'")
+        escaped_word = escape_js(word)
+        escaped_def = escape_js(definition)
+        escaped_ex = escape_js(example)
         vocab_generic_html += f"""      <div class="vocab-card">
         <div class="vocab-word">{word}</div>
         <div class="vocab-def">{definition}</div>
         <div class="vocab-example">{example}</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({{word:'{word}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">Add to Dictionary</button>
+        <button class="btn-add-dict" onclick="COSY.addToDict({{word:'{escaped_word}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">Add to Dictionary</button>
       </div>\n"""
 
     vocab_authentic_html = ""
     for word, definition, example in authentic_vocab:
-        escaped_def = definition.replace("'", "\\'")
-        escaped_ex = example.replace("'", "\\'")
+        escaped_word = escape_js(word)
+        escaped_def = escape_js(definition)
+        escaped_ex = escape_js(example)
         vocab_authentic_html += f"""      <div class="vocab-card">
         <div class="vocab-word">{word}</div>
         <div class="vocab-def">{definition}</div>
         <div class="vocab-example">{example}</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({{word:'{word}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">Add to Dictionary</button>
+        <button class="btn-add-dict" onclick="COSY.addToDict({{word:'{escaped_word}', definition:'{escaped_def}', example:'{escaped_ex}'}}, this)">Add to Dictionary</button>
       </div>\n"""
 
     details = FILM_DETAILS.get(title, {
@@ -1061,12 +1332,16 @@ for idx, r in enumerate(rows):
     </div>
   </div>"""
 
+    # Resolve level-calibrated templates for Round 1 & Round 2
+    r1_theme, r1_theme_personal, r1_slang, r1_slang_personal, r2_theme, r2_cinematic = get_calibrated_templates(level_short)
+
     # Generate 10 items for Round 1, each using one of the 10 vocab words
     round1_html = ""
     for r1_idx, (word, _, _) in enumerate(vocab_items):
-        word_lower = word.lower()
+        word_clean_for_q = word.split(" ≠ ")[0] if "≠" in word else word
+        word_lower = word_clean_for_q.lower()
         if r1_idx < 5:
-            r1_main = R1_THEME_TEMPLATES[r1_idx].format(
+            r1_main = r1_theme[r1_idx].format(
                 word=word_lower,
                 title=title,
                 protagonist=details["protagonist"],
@@ -1075,7 +1350,7 @@ for idx, r in enumerate(rows):
                 conflict=details["conflict"],
                 grammar_focus=grammar_focus
             )
-            r1_personal = R1_THEME_PERSONAL_TEMPLATES[r1_idx].format(
+            r1_personal = r1_theme_personal[r1_idx].format(
                 word=word_lower,
                 title=title,
                 protagonist=details["protagonist"],
@@ -1085,8 +1360,8 @@ for idx, r in enumerate(rows):
                 grammar_focus=grammar_focus
             )
         else:
-            r1_main = R1_SLANG_TEMPLATES[r1_idx - 5].format(
-                word=word,
+            r1_main = r1_slang[r1_idx - 5].format(
+                word=word_clean_for_q,
                 title=title,
                 protagonist=details["protagonist"],
                 key_figures=details["key_figures"],
@@ -1094,8 +1369,8 @@ for idx, r in enumerate(rows):
                 conflict=details["conflict"],
                 grammar_focus=grammar_focus
             )
-            r1_personal = R1_SLANG_PERSONAL_TEMPLATES[r1_idx - 5].format(
-                word=word,
+            r1_personal = r1_slang_personal[r1_idx - 5].format(
+                word=word_clean_for_q,
                 title=title,
                 protagonist=details["protagonist"],
                 key_figures=details["key_figures"],
@@ -1111,9 +1386,10 @@ for idx, r in enumerate(rows):
     # Generate 10 items for Round 2, using themes for 0-4 and general cinematic debate for 5-9
     round2_html = ""
     for r2_idx, (word, _, _) in enumerate(vocab_items):
-        word_lower = word.lower()
+        word_clean_for_q = word.split(" ≠ ")[0] if "≠" in word else word
+        word_lower = word_clean_for_q.lower()
         if r2_idx < 5:
-            r2_main = R2_THEME_STATEMENT_TEMPLATES[r2_idx].format(
+            r2_main = r2_theme[r2_idx].format(
                 word=word_lower,
                 title=title,
                 protagonist=details["protagonist"],
@@ -1123,7 +1399,7 @@ for idx, r in enumerate(rows):
                 grammar_focus=grammar_focus
             )
         else:
-            r2_main = R2_CINEMATIC_STATEMENT_TEMPLATES[r2_idx - 5].format(
+            r2_main = r2_cinematic[r2_idx - 5].format(
                 title=title,
                 protagonist=details["protagonist"],
                 key_figures=details["key_figures"],
@@ -1135,9 +1411,13 @@ for idx, r in enumerate(rows):
             <div class="round-item-main">{r2_main}</div>
           </div>\n"""
 
-    selected_mistakes = MISTAKES_CATALOG[idx % len(MISTAKES_CATALOG):idx % len(MISTAKES_CATALOG) + 3]
+    # Resolve Mistakes Catalog based on Level
+    is_advanced_mistake = "B2" in level_short or "C1" in level_short or "C2" in level_short or "advanced" in level_label.lower()
+    active_catalog = MISTAKES_CATALOG_ADVANCED if is_advanced_mistake else MISTAKES_CATALOG_STANDARD
+
+    selected_mistakes = active_catalog[idx % len(active_catalog):idx % len(active_catalog) + 3]
     while len(selected_mistakes) < 3:
-        selected_mistakes.append(MISTAKES_CATALOG[len(selected_mistakes) % len(MISTAKES_CATALOG)])
+        selected_mistakes.append(active_catalog[len(selected_mistakes) % len(active_catalog)])
 
     mistakes_html = ""
     for wrong, right, note in selected_mistakes:
