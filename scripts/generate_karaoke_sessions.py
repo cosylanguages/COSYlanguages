@@ -2101,8 +2101,36 @@ def generate_song_elements(song, loc, lang, sub_slug=None, existing_vocab=None):
     artist = song["artist"]
     vocab_words = song["vocab"]
     helpers = song["helpers"]
-    lyrics_text = song["lyrics"].replace("\n", "<br>")
     slug = sub_slug or song["slug"]
+
+    # Process lyrics to perform case-insensitive and accent-insensitive replacement of helpers with [__________]
+    raw_lyrics = song["lyrics"]
+
+    # Custom gap-fill logic
+    sorted_helpers = sorted(helpers, key=len, reverse=True)
+    for h in sorted_helpers:
+        escaped_h = re.escape(h)
+        # Match case-insensitively using unicode boundary lookahead/lookbehind
+        pattern = re.compile(rf'(?i)(?<![a-zA-Z0-9\u00c0-\u00ff\u0400-\u04ff\u0370-\u03ff]){escaped_h}(?![a-zA-Z0-9\u00c0-\u00ff\u0400-\u04ff\u0370-\u03ff])')
+        raw_lyrics = pattern.sub('[__________]', raw_lyrics)
+
+    lyrics_text = raw_lyrics.replace("\n", "<br>")
+
+    # Inject disclaimer at the bottom
+    source_dict = {
+        "o-gatos": "kithara.to",
+        "quelquun-pour-toi": "paroles.net",
+        "na-i-agapi-na": "greeklyrics.gr",
+        "to-idio-to-theo": "kithara.to",
+        "love-kernels": "azlyrics.com",
+        "lets-generalize-about-men": "azlyrics.com",
+        "so-maternal": "azlyrics.com",
+        "face-your-fears": "azlyrics.com",
+        "la-tour-eiffel-est-pour-moi": "our language learning project"
+    }
+    source = source_dict.get(slug, "Genius platform")
+    disclaimer = f'<span class="lyrics-disclaimer" style="display: block; margin-top: 1.5rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 0.75rem; font-family: \'Nunito\', sans-serif; font-style: normal;">Lyrics extracted from <strong>{source}</strong> and used only for educational purposes.</span>'
+    lyrics_text = lyrics_text + "<br>" + disclaimer
 
     # Vocabulary grouping into two themed buckets (5 words each)
     vocab_cards_html = ""
