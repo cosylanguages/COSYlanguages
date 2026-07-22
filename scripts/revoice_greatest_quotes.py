@@ -77,7 +77,7 @@ FR_R1_PERS = [
     "★ Avez-vous déjà dû choisir entre le conformisme social et votre propre <strong>{word}</strong> ?",
     "★ Qui dans votre vie incarne le mieux l'essence de <strong>{word}</strong>, et qu'est-ce que cela vous a appris ?",
     "★ Dans quel domaine de votre vie pensez-vous que <strong>{word}</strong> est le plus désespérément nécessaire en ce moment ?",
-    "★ Comment votre compréhension personnelle de <strong>{word}</strong> a-t-elle évolué au cours des cinq dernières années ?",
+    "★ Comment votre compréhension personnelle de <strong>{word}</strong> a-t-elle évolué au cours des fins de cinq dernières années ?",
     "★ Si vous deviez décrire votre expérience personnelle de <strong>{word}</strong> en un mot, quel serait-il ?"
 ]
 
@@ -89,7 +89,7 @@ FR_R2_MAIN = [
     "Dans les décennies à venir, <strong>{word}</strong> deviendra un produit de luxe hautement commercialisé. — Êtes-vous d'accord ou pas d'accord ?",
     "La survie de la civilisation humaine dépendra de notre capacité collective à pratiquer <strong>{word}</strong>. — Êtes-vous d'accord ou pas d'accord ?",
     "Les générations futures regarderont notre compréhension actuelle de <strong>{word}</strong> avec un profond scepticisme. — Êtes-vous d'accord ou pas d'accord ?",
-    "La connectivité numérique mondiale rendra le véritable <strong>{word}</strong> incredibly difficile à maintenir à l'avenir. — Êtes-vous d'accord ou pas d'accord ?",
+    "La connectivité numérique mondiale rendra le véritable <strong>{word}</strong> incroyablement difficile à maintenir à l'avenir. — Êtes-vous d'accord ou pas d'accord ?",
     "À l'avenir, le statut social sera déterminé par la capacité d'une personne à exprimer <strong>{word}</strong> plutôt que par sa richesse. — Êtes-vous d'accord ou pas d'accord ?",
     "Un monde entièrement régi par la logique ne laissera plus de place au mystère de <strong>{word}</strong>. — Êtes-vous d'accord ou pas d'accord ?"
 ]
@@ -163,7 +163,6 @@ RU_R2_PERS = [
 def clean_vocab_word(word, lang):
     clean = word.split("≠")[0].strip()
     clean = clean.replace(" (f)", "").replace(" (он)", "").replace(" (она)", "").replace(" (оно)", "").replace(" (они)", "").replace(" (м)", "").replace(" (ж)", "")
-    # Remove articles like "L'","La ","Le ","L’" for French
     if lang == 'fr':
         if clean.lower().startswith("l'"):
             clean = clean[2:]
@@ -229,12 +228,9 @@ def process_file(filepath, lang):
     if r1_block:
         r1_body = r1_block.find('div', class_='round-body')
         if r1_body:
-            # We want to replace existing round-items or wrap them beautifully
             existing_items = r1_body.find_all('div', class_='round-item')
 
             if is_generated or not existing_items:
-                # Completely regenerate the 10 items
-                # Remove any existing round-item tags
                 for item in existing_items:
                     item.decompose()
 
@@ -252,19 +248,15 @@ def process_file(filepath, lang):
                     new_item = BeautifulSoup(new_item_html, 'html.parser')
                     r1_body.append(new_item)
             else:
-                # Hand-written file: wrap and ensure personal question
                 for i, item in enumerate(existing_items):
-                    # Check if it has round-item-main
                     main_div = item.find('div', class_='round-item-main')
                     if not main_div:
-                        # Wrap all children or text in round-item-main
                         inner_html = "".join([str(c) for c in item.contents])
                         item.clear()
                         main_div = soup.new_tag('div', attrs={'class': 'round-item-main'})
                         main_div.append(BeautifulSoup(inner_html, 'html.parser'))
                         item.append(main_div)
 
-                    # Ensure personal question
                     pers_div = item.find('div', class_='round-item-personal')
                     if not pers_div:
                         word_idx = i % len(cleaned_words)
@@ -281,50 +273,26 @@ def process_file(filepath, lang):
         if r2_body:
             existing_items = r2_body.find_all('div', class_='round-item')
 
-            if is_generated or not existing_items:
-                # Completely regenerate the 10 items
-                for item in existing_items:
-                    item.decompose()
+            # To absolutely guarantee that 100% of the files have Round 2 main statements
+            # that are future-focused and in agree/disagree format, we always replace Round 2
+            # with our beautiful future-focused speculative templates.
+            for item in existing_items:
+                item.decompose()
 
-                # Append 10 new items
-                for i in range(10):
-                    word_idx = i % len(cleaned_words)
-                    word = cleaned_words[word_idx]
-                    main_text = r2_main_tpl[i % len(r2_main_tpl)].format(word=word)
-                    pers_text = r2_pers_tpl[i % len(r2_pers_tpl)].format(word=word)
+            # Append 10 new items
+            for i in range(10):
+                word_idx = i % len(cleaned_words)
+                word = cleaned_words[word_idx]
+                main_text = r2_main_tpl[i % len(r2_main_tpl)].format(word=word)
+                pers_text = r2_pers_tpl[i % len(r2_pers_tpl)].format(word=word)
 
-                    new_item_html = f"""          <div class="round-item">
+                new_item_html = f"""          <div class="round-item">
             <div class="round-item-main">{main_text}</div>
             <div class="round-item-personal">{pers_text}</div>
           </div>"""
-                    new_item = BeautifulSoup(new_item_html, 'html.parser')
-                    r2_body.append(new_item)
-            else:
-                # Hand-written file: wrap and ensure personal question
-                for i, item in enumerate(existing_items):
-                    # Check if it has round-item-main
-                    main_div = item.find('div', class_='round-item-main')
-                    if not main_div:
-                        # Wrap all children or text in round-item-main
-                        inner_html = "".join([str(c) for c in item.contents])
-                        item.clear()
-                        main_div = soup.new_tag('div', attrs={'class': 'round-item-main'})
-                        main_div.append(BeautifulSoup(inner_html, 'html.parser'))
-                        item.append(main_div)
+                new_item = BeautifulSoup(new_item_html, 'html.parser')
+                r2_body.append(new_item)
 
-                    # Ensure personal question
-                    pers_div = item.find('div', class_='round-item-personal')
-                    if not pers_div:
-                        word_idx = i % len(cleaned_words)
-                        word = cleaned_words[word_idx]
-                        pers_text = r2_pers_tpl[i % len(r2_pers_tpl)].format(word=word)
-                        new_pers_div = soup.new_tag('div', attrs={'class': 'round-item-personal'})
-                        new_pers_div.append(BeautifulSoup(pers_text, 'html.parser'))
-                        item.append(new_pers_div)
-
-    # Save the updated BeautifulSoup string back to file
-    # To avoid ugly whitespace added by soup.prettify(), we just convert soup to string
-    # and write it.
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(str(soup))
     print(f"Successfully processed {filepath} ({'generated' if is_generated else 'hand-written'})")
