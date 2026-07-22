@@ -1,209 +1,224 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>La semaine de 4 jours — COSYlanguages</title>
-<link rel="icon" href="../../../../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../../../css/tokens.css">
-<link rel="stylesheet" href="../../../../css/base.css">
-<link rel="stylesheet" href="../../../../css/components.css">
-<link rel="stylesheet" href="../../../../css/layout.css">
-<link rel="stylesheet" href="../../../../css/events.css">
+<link href="../../../../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../../../../css/tokens.css" rel="stylesheet"/>
+<link href="../../../../css/base.css" rel="stylesheet"/>
+<link href="../../../../css/components.css" rel="stylesheet"/>
+<link href="../../../../css/layout.css" rel="stylesheet"/>
+<link href="../../../../css/events.css" rel="stylesheet"/>
 </head>
 <body>
 <nav id="cosy-nav"></nav>
 <header class="session-hero" style="background: linear-gradient(135deg, #993C1D, #4d1e0f);">
-  <div class="club-tag">Debatable & Relatable</div>
-  <h1>La semaine de 4 jours — Productivité vs Tradition</h1>
-  <p class="session-date">20 août 2025</p>
+<div class="club-tag">Debatable &amp; Relatable</div>
+<h1>La semaine de 4 jours — Productivité vs Tradition</h1>
+<p class="session-date">20 août 2025</p>
 </header>
 <main class="content-container">
-  <a href="../../debatable-relatable.html" class="back-link">← Retour au Club</a>
-  <div class="session-meta-grid">
-    <div class="meta-item"><h4>Durée</h4><p>60 minutes</p></div>
-    <div class="meta-item"><h4>Langues</h4><p>🇫🇷</p></div>
-    <div class="meta-item"><h4>Niveau</h4><p>Intermédiaire (B1)</p></div>
-    <div class="meta-item"><h4>Sujet</h4><p>Équilibre vie pro-vie privée / Productivité</p></div>
-  </div>
-
-  <div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
-    <p>Le concept de la semaine de quatre jours gagne du terrain dans le monde entier, car les entreprises cherchent à concilier productivité et bien-être des employés. Cette session explore le passage potentiel du modèle traditionnel de cinq jours à un emploi du temps plus flexible et axé sur les résultats. Nous verrons si ce changement est une évolution naturelle du lieu de travail moderne ou une expérience risquée pour l'économie mondiale.</p>
-  </div>
-
-  <section id="vocabulary">
-    <h2 class="section-title">📖 Vocabulaire de la session</h2>
-    <div class="vocab-grid-10">
-      <div class="vocab-card">
-        <div class="vocab-word">Le surmenage</div>
-        <div class="vocab-def">effondrement physique ou mental causé par un excès de travail ou de stress.</div>
-        <div class="vocab-example">De nombreux employés souffrent de surmenage à cause des longues heures de travail.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Le surmenage', definition:'effondrement par excès de travail', example:'De nombreux employés souffrent de surmenage à cause des longues heures de travail.'}, this)">Ajouter au dictionnaire</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">La productivité</div>
-        <div class="vocab-def">l'efficacité de l'effort productif, mesurée par le taux de production par unité de ressources.</div>
-        <div class="vocab-example">Des études montrent que des semaines plus courtes peuvent réellement augmenter la productivité.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'La productivité', definition:'efficacité de l\'effort', example:'Des études montrent que des semaines plus courtes peuvent réellement augmenter la productivité.'}, this)">Ajouter au dictionnaire</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Le bien-être</div>
-        <div class="vocab-def">l'état d'être à l'aise, en bonne santé ou heureux.</div>
-        <div class="vocab-example">Le bien-être des employés devrait être une priorité pour chaque entreprise.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Le bien-être', definition:'état de santé et de bonheur', example:'Le bien-être des employés devrait être une priorité pour chaque entreprise.'}, this)">Ajouter au dictionnaire</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">La rétention</div>
-        <div class="vocab-def">la capacité d'une entreprise à conserver ses employés.</div>
-        <div class="vocab-example">Une semaine de 4 jours peut améliorer considérablement la rétention du personnel.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'La rétention', definition:'capacité à garder les employés', example:'Une semaine de 4 jours peut améliorer considérablement la rétention du personnel.'}, this)">Ajouter au dictionnaire</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Les frais généraux</div>
-        <div class="vocab-def">les coûts réguliers de fonctionnement d'une entreprise (loyer, électricité, etc.).</div>
-        <div class="vocab-example">Fermer le bureau un jour de plus peut réduire les frais généraux.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Les frais généraux', definition:'coûts de fonctionnement', example:'Fermer le bureau un jour de plus peut réduire les frais généraux.'}, this)">Ajouter au dictionnaire</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">La flexibilité</div>
-        <div class="vocab-def">la qualité de s'adapter facilement ou d'être facilement modifié.</div>
-        <div class="vocab-example">Les travailleurs modernes apprécient la flexibilité plus qu'un salaire élevé.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'La flexibilité', definition:'capacité d\'adaptation', example:'Les travailleurs modernes apprécient la flexibilité plus qu\'un salaire élevé.'}, this)">Ajouter au dictionnaire</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">L'essai</div>
-        <div class="vocab-def">un test formel de quelque chose, généralement sur un lieu de travail.</div>
-        <div class="vocab-example">Le gouvernement lance un essai national de la semaine de 4 jours.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'essai', definition:'test formel', example:'Le gouvernement lance un essai national de la semaine de 4 jours.'}, this)">Ajouter au dictionnaire</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Le rendement</div>
-        <div class="vocab-def">la quantité de quelque chose produite par une personne, une machine ou une industrie.</div>
-        <div class="vocab-example">Les managers devraient se concentrer sur le rendement plutôt que sur les heures passées au bureau.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Le rendement', definition:'quantité produite', example:'Les managers devraient se concentrer sur le rendement plutôt que sur les heures passées au bureau.'}, this)">Ajouter au dictionnaire</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">Le trajet</div>
-        <div class="vocab-def">le voyage entre la maison et le travail.</div>
-        <div class="vocab-example">Une semaine de travail plus courte signifie un jour de moins de trajets stressants.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'Le trajet', definition:'voyage domicile-travail', example:'Une semaine de travail plus courte signifie un jour de moins de trajets stressants.'}, this)">Ajouter au dictionnaire</button>
-      </div>
-      <div class="vocab-card">
-        <div class="vocab-word">La mise en œuvre</div>
-        <div class="vocab-def">le processus de mise en pratique d'une décision ou d'un plan.</div>
-        <div class="vocab-example">La mise en œuvre du nouvel emploi du temps a pris plusieurs mois.</div>
-        <button class="btn-add-dict" onclick="COSY.addToDict({word:'La mise en œuvre', definition:'processus d\'application d\'un plan', example:'La mise en œuvre du nouvel emploi du temps a pris plusieurs mois.'}, this)">Ajouter au dictionnaire</button>
-      </div>
-    </div>
-  </section>
-  <section id="structure">
-    <h2 class="section-title">🎙️ Structure de la discussion</h2>
-    <div class="rounds-container">
-      <div class="round-block warm-up open" id="s-warm">
-        <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('s-warm')">
-          <span>🟠 Échauffement</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <vim-instruction>Le 5ème jour</vim-instruction>
-          <ul class="round-questions">
-            <li>Si vous aviez un jour de congé supplémentaire chaque semaine, que feriez-vous ?</li>
-            <li>Pensez-vous être plus productif le matin ou l'après-midi ?</li>
-          </ul>
-        </div>
-      </div>
-      <div class="round-block round-1 open" id="s-r1">
-        <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('s-r1')">
-          <span>🔵 Round 1 — Avantages (Idées A/B)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Débat</div>
-          <div class="round-item">
-            <div class="round-item-main"><strong>A:</strong> Une semaine de 4 jours réduit considérablement le surmenage et améliore la santé mentale. <br><strong>B:</strong> La pression supplémentaire pour terminer le travail en 4 jours pourrait augmenter le stress.</div>
-          </div>
-          <div class="round-item">
-            <div class="round-item-main"><strong>A:</strong> Des semaines plus courtes augmentent la productivité car les gens perdent moins de temps en "brassage d'air". <br><strong>B:</strong> Certaines industries (comme la santé ou la vente au détail) ne peuvent pas se permettre de perdre un jour de travail.</div>
-          </div>
-          <div class="round-item">
-            <div class="round-item-main"><strong>A:</strong> Les entreprises proposant la semaine de 4 jours attirent et retiennent plus facilement les talents. <br><strong>B:</strong> Les petites entreprises pourraient avoir du mal à payer des salaires complets pour 20% de travail en moins. (Considérez le rôle du <strong>Bien-être</strong> ici.)</div>
-          </div>
-          <div class="round-item">
-            <div class="round-item-main"><strong>A:</strong> Réduire les trajets de 20% est une victoire majeure pour l'environnement. <br><strong>B:</strong> Des horaires de bureau réguliers rendent la planification des transports publics plus efficace pour tous. (Considérez le rôle de la <strong>Rétention</strong> ici.)</div>
-          </div>
-          <div class="round-item">
-            <div class="round-item-main"><strong>A:</strong> Un jour de plus permet une meilleure gestion de la vie quotidienne (rendez-vous médicaux, courses). <br><strong>B:</strong> Une semaine de 5 jours maintient une société synchronisée où tout est toujours accessible. (Considérez le rôle des <strong>Frais généraux</strong> ici.)</div>
-          </div>
-          <div class="round-item">
-            <div class="round-item-main"><strong>A:</strong> Plus de temps libre encourage les gens à faire du sport et à manger plus sainement. <br><strong>B:</strong> Une routine standard aide les gens à maintenir un mode de vie discipliné et structuré. (Considérez le rôle de la <strong>Flexibilité</strong> ici.)</div>
-          </div>
-          <div class="round-item">
-            <div class="round-item-main"><strong>A:</strong> Les parents peuvent passer plus de temps avec leurs enfants, réduisant les frais de garde. <br><strong>B:</strong> Les systèmes éducatifs et de garde actuels sont parfaitement alignés sur le modèle de 5 jours. (Considérez le rôle de l'<strong>Essai</strong> ici.)</div>
-          </div>
-          <div class="round-item">
-            <div class="round-item-main"><strong>A:</strong> Cela oblige les managers à se concentrer sur les résultats plutôt que sur les "heures au bureau". <br><strong>B:</strong> Être au bureau 5 jours maximise les opportunités de collaboration spontanée et de mentorat. (Considérez le rôle du <strong>Rendement</strong> ici.)</div>
-          </div>
-          <div class="round-item">
-            <div class="round-item-main"><strong>A:</strong> La semaine de 4 jours est l'évolution naturelle du travail, comme l'a été la semaine de 5 jours. <br><strong>B:</strong> La semaine de 5 jours est une norme mondiale éprouvée qui assure la stabilité économique. (Considérez le rôle du <strong>Trajet</strong> ici.)</div>
-          </div>
-          <div class="round-item">
-            <div class="round-item-main"><strong>A:</strong> Elle favorise l'égalité des sexes car les hommes ont plus de temps pour les tâches domestiques. <br><strong>B:</strong> Des horaires constants permettent une répartition plus équitable du travail dans tous les secteurs. (Considérez le rôle de la <strong>Mise en œuvre</strong> ici.)</div>
-          </div>
-        </div>
-      </div>
-      <div class="round-block lst open" id="s-lst">
-        <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('s-lst')">
-          <span>🟣 Parlons ensemble</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🗓️</span><div style="font-weight:600;">Standard 5 jours</div></div>
-            <div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">⚡</span><div style="font-weight:600;">Compressé 4 jours</div></div>
-          </div>
-          <p style="margin-top:1rem; text-align:center;">Quel modèle est le plus durable pour la prochaine génération ?</p>
-        </div>
-      </div>
-      <div class="round-block round-2 open" id="s-r2">
-        <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('s-r2')">
-          <span>🟢 Round 2 — Inconvénients (Idées A/B)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="round-body" style="display:block;">
-          <div class="round-type-badge">Débat</div>
-          <div class="round-item"><div class="round-item-main"><strong>A:</strong> Passer à 4 jours pourrait mener à une "spirale de paresse" permanente où la productivité ne se rétablit jamais. <br><strong>B:</strong> S'en tenir à 5 jours risque de créer une main-d'œuvre épuisée et sans inspiration. (Quel est l'impact du <strong>Surmenage</strong> ici ?)</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>A:</strong> Les horaires de 4 jours compressés peuvent causer une fatigue dangereuse dans les rôles à enjeux élevés. <br><strong>B:</strong> Les horaires de 5 jours causent du "présentéisme" où les gens sont au bureau mais ne font rien d'utile. (Quel est l'impact de la <strong>Productivité</strong> ici ?)</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>A:</strong> Le modèle de 4 jours pourrait détruire l'équilibre vie pro-vie privée pour ceux qui prennent un second emploi. <br><strong>B:</strong> Le modèle de 5 jours ne laisse que deux jours pour le repos, les corvées et la famille. (Quel est l'impact du <strong>Bien-être</strong> ici ?)</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>A:</strong> Les services essentiels comme les écoles feront face à des crises de personnel massives. <br><strong>B:</strong> Les services essentiels perdront leurs meilleurs éléments s'ils refusent de moderniser la semaine de 5 jours. (Quel est l'impact de la <strong>Rétention</strong> ici ?)</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>A:</strong> Réduire le temps de bureau pourrait entraîner un déclin du mentorat professionnel et du transfert de compétences. <br><strong>B:</strong> Maintenir la culture de bureau de 5 jours augmente les frais généraux et la bureaucratie inutile. (Quel est l'impact des <strong>Frais généraux</strong> ici ?)</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>A:</strong> Le manque de disponibilité le vendredi pourrait frustrer les clients mondiaux et ralentir le commerce. <br><strong>B:</strong> La rigidité de la semaine de 5 jours empêche l'économie de s'adapter aux urgences personnelles. (Quel est l'impact de la <strong>Flexibilité</strong> ici ?)</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>A:</strong> Un mandat de 4 jours pourrait forcer les petites entreprises à la faillite en raison des coûts de main-d'œuvre. <br><strong>B:</strong> Un mandat de 5 jours empêche la naissance d'entreprises agiles qui veulent expérimenter de nouveaux modèles. (Quel est l'impact de l'<strong>Essai</strong> ici ?)</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>A:</strong> Mesurer le rendement par les "résultats" pourrait forcer les gens à travailler 60 heures en 4 jours. <br><strong>B:</strong> Mesurer par les "heures" encourage le travail lent et récompense les employés les moins efficaces. (Quel est l'impact du <strong>Rendement</strong> ici ?)</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>A:</strong> Le jour de congé supplémentaire pourrait augmenter l'empreinte carbone si les gens consomment plus. <br><strong>B:</strong> Faire le trajet 5 jours par semaine est l'un des plus gros contributeurs à la pollution urbaine. (Quel est l'impact du <strong>Trajet</strong> ici ?)</div></div>
-          <div class="round-item"><div class="round-item-main"><strong>A:</strong> La transition vers 4 jours sera si chaotique qu'elle pourrait déclencher une récession temporaire. <br><strong>B:</strong> Ne pas mettre en œuvre la semaine de 4 jours nous fera perdre nos jeunes travailleurs les plus créatifs. (Quel est l'impact de la <strong>Mise en œuvre</strong> ici ?)</div></div>
-        </div>
-      </div>
-      <div class="mistake-block open" id="s-mistakes">
-        <div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
-          <span>✏️ Note de l'enseignant (Corrections linguistiques)</span><span class="round-toggle">▲</span>
-        </div>
-        <div class="mistake-body" style="display:block;">
-          <div class="mistake-item"><span class="mistake-wrong">J'ai travaillé ici depuis 2010</span><span class="mistake-arrow">&rarr;</span><span class="mistake-right">Je travaille ici depuis 2010</span><span class="mistake-note-text">(Utilisez le présent avec 'depuis' pour une action continue)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">Je suggère à réduire les heures</span><span class="mistake-arrow">&rarr;</span><span class="mistake-right">Je suggère de réduire les heures</span><span class="mistake-note-text">(Suggérer de + infinitif)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">C'est dépend de le secteur</span><span class="mistake-arrow">&rarr;</span><span class="mistake-right">Ça dépend du secteur</span><span class="mistake-note-text">(Dépendre de + article contracté)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">La plupart d'employés aiment ça</span><span class="mistake-arrow">&rarr;</span><span class="mistake-right">La plupart des employés aiment ça</span><span class="mistake-note-text">(La plupart + des)</span></div>
-          <div class="mistake-item"><span class="mistake-wrong">Je suis d'accord à toi</span><span class="mistake-arrow">&rarr;</span><span class="mistake-right">Je suis d'accord avec toi</span><span class="mistake-note-text">(Être d'accord avec quelqu'un)</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
+<a class="back-link" href="../../debatable-relatable.html">← Retour au Club</a>
+<div class="session-meta-grid">
+<div class="meta-item"><h4>Durée</h4><p>60 minutes</p></div>
+<div class="meta-item"><h4>Langues</h4><p>🇫🇷</p></div>
+<div class="meta-item"><h4>Niveau</h4><p>Intermédiaire (B1)</p></div>
+<div class="meta-item"><h4>Sujet</h4><p>Équilibre vie pro-vie privée / Productivité</p></div>
+</div>
+<div style="margin-bottom: 2rem; line-height: 1.6; color: var(--ink-soft); font-size: 0.95rem;">
+<p>Le concept de la semaine de quatre jours gagne du terrain dans le monde entier, car les entreprises cherchent à concilier productivité et bien-être des employés. Cette session explore le passage potentiel du modèle traditionnel de cinq jours à un emploi du temps plus flexible et axé sur les résultats. Nous verrons si ce changement est une évolution naturelle du lieu de travail moderne ou une expérience risquée pour l'économie mondiale.</p>
+</div>
+<section id="vocabulary">
+<h2 class="section-title">📖 Vocabulaire de la session</h2>
+<div class="vocab-grid-10">
+<div class="vocab-card">
+<div class="vocab-word">Le surmenage</div>
+<div class="vocab-def">effondrement physique ou mental causé par un excès de travail ou de stress.</div>
+<div class="vocab-example">De nombreux employés souffrent de surmenage à cause des longues heures de travail.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le surmenage', definition:'effondrement par excès de travail', example:'De nombreux employés souffrent de surmenage à cause des longues heures de travail.'}, this)">Ajouter au dictionnaire</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">La productivité</div>
+<div class="vocab-def">l'efficacité de l'effort productif, mesurée par le taux de production par unité de ressources.</div>
+<div class="vocab-example">Des études montrent que des semaines plus courtes peuvent réellement augmenter la productivité.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La productivité', definition:'efficacité de l\'effort', example:'Des études montrent que des semaines plus courtes peuvent réellement augmenter la productivité.'}, this)">Ajouter au dictionnaire</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Le bien-être</div>
+<div class="vocab-def">l'état d'être à l'aise, en bonne santé ou heureux.</div>
+<div class="vocab-example">Le bien-être des employés devrait être une priorité pour chaque entreprise.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le bien-être', definition:'état de santé et de bonheur', example:'Le bien-être des employés devrait être une priorité pour chaque entreprise.'}, this)">Ajouter au dictionnaire</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">La rétention</div>
+<div class="vocab-def">la capacité d'une entreprise à conserver ses employés.</div>
+<div class="vocab-example">Une semaine de 4 jours peut améliorer considérablement la rétention du personnel.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La rétention', definition:'capacité à garder les employés', example:'Une semaine de 4 jours peut améliorer considérablement la rétention du personnel.'}, this)">Ajouter au dictionnaire</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Les frais généraux</div>
+<div class="vocab-def">les coûts réguliers de fonctionnement d'une entreprise (loyer, électricité, etc.).</div>
+<div class="vocab-example">Fermer le bureau un jour de plus peut réduire les frais généraux.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Les frais généraux', definition:'coûts de fonctionnement', example:'Fermer le bureau un jour de plus peut réduire les frais généraux.'}, this)">Ajouter au dictionnaire</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">La flexibilité</div>
+<div class="vocab-def">la qualité de s'adapter facilement ou d'être facilement modifié.</div>
+<div class="vocab-example">Les travailleurs modernes apprécient la flexibilité plus qu'un salaire élevé.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La flexibilité', definition:'capacité d\'adaptation', example:'Les travailleurs modernes apprécient la flexibilité plus qu\'un salaire élevé.'}, this)">Ajouter au dictionnaire</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">L'essai</div>
+<div class="vocab-def">un test formel de quelque chose, généralement sur un lieu de travail.</div>
+<div class="vocab-example">Le gouvernement lance un essai national de la semaine de 4 jours.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'L\'essai', definition:'test formel', example:'Le gouvernement lance un essai national de la semaine de 4 jours.'}, this)">Ajouter au dictionnaire</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Le rendement</div>
+<div class="vocab-def">la quantité de quelque chose produite par une personne, une machine ou une industrie.</div>
+<div class="vocab-example">Les managers devraient se concentrer sur le rendement plutôt que sur les heures passées au bureau.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le rendement', definition:'quantité produite', example:'Les managers devraient se concentrer sur le rendement plutôt que sur les heures passées au bureau.'}, this)">Ajouter au dictionnaire</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">Le trajet</div>
+<div class="vocab-def">le voyage entre la maison et le travail.</div>
+<div class="vocab-example">Une semaine de travail plus courte signifie un jour de moins de trajets stressants.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'Le trajet', definition:'voyage domicile-travail', example:'Une semaine de travail plus courte signifie un jour de moins de trajets stressants.'}, this)">Ajouter au dictionnaire</button>
+</div>
+<div class="vocab-card">
+<div class="vocab-word">La mise en œuvre</div>
+<div class="vocab-def">le processus de mise en pratique d'une décision ou d'un plan.</div>
+<div class="vocab-example">La mise en œuvre du nouvel emploi du temps a pris plusieurs mois.</div>
+<button class="btn-add-dict" onclick="COSY.addToDict({word:'La mise en œuvre', definition:'processus d\'application d\'un plan', example:'La mise en œuvre du nouvel emploi du temps a pris plusieurs mois.'}, this)">Ajouter au dictionnaire</button>
+</div>
+</div>
+</section>
+<section id="structure">
+<h2 class="section-title">🎙️ Structure de la discussion</h2>
+<div class="rounds-container">
+<div class="round-block warm-up open" id="s-warm">
+<div class="round-header" onclick="COSY.toggleRound('s-warm')" style="background:#FAEEE8;">
+<span>🟠 Échauffement</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<vim-instruction>Le 5ème jour</vim-instruction>
+<ul class="round-questions">
+<li>Si vous aviez un jour de congé supplémentaire chaque semaine, que feriez-vous ?</li>
+<li>Pensez-vous être plus productif le matin ou l'après-midi ?</li>
+</ul>
+</div>
+</div>
+<div class="round-block round-1 open" id="s-r1">
+<div class="round-header" onclick="COSY.toggleRound('s-r1')" style="background:#E1F5EE;">
+<span>🔵 Round 1 — Avantages (Idées A/B)</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;"><div class="round-type-badge">Débat</div><div class="vim-instruction">Analysez les avantages des deux perspectives.</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Une semaine de 4 jours réduit considérablement le surmenage et améliore la santé mentale. <br/><strong>B:</strong> Une semaine de 5 jours offre un rythme quotidien plus détendu et évite l'épuisement immédiat d'horaires compressés.</div>
+<div class="round-item-personal">★ Avez-vous déjà souffert de surmenage professionnel, et comment vous en êtes-vous remis ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Des semaines de travail plus courtes augmentent la productivité globale car les employés perdent moins de temps sur des tâches inutiles. <br/><strong>B:</strong> Une semaine de 5 jours garantit une disponibilité constante et une fiabilité pour les services publics essentiels et les clients internationaux.</div>
+<div class="round-item-personal">★ Vous sentez-vous plus productif sous la pression de délais serrés ou lorsque vous disposez de plus de temps ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Les entreprises proposant la semaine de 4 jours attirent et retiennent plus facilement les meilleurs talents (amélioration de la rétention). <br/><strong>B:</strong> Les horaires traditionnels offrent une planification prévisible et une stabilité pour la croissance des petites entreprises.</div>
+<div class="round-item-personal">★ Choisiriez-vous un emploi moins bien payé s'il vous garantissait un week-end de 3 jours ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Réduire les trajets domicile-travail de 20 % est une victoire écologique majeure et économise l'énergie personnelle. <br/><strong>B:</strong> Des horaires de bureau réguliers rendent la planification des transports publics plus efficace pour toute la ville.</div>
+<div class="round-item-personal">★ Combien de temps et d'énergie consacrez-vous chaque jour à votre trajet domicile-travail ou études ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Un jour de congé supplémentaire permet de mieux gérer la vie quotidienne (rendez-vous médicaux, courses, tâches ménagères). <br/><strong>B:</strong> Une semaine de 5 jours maintient une société synchronisée où les banques, les commerces et les bureaux sont toujours accessibles.</div>
+<div class="round-item-personal">★ Quel jour de la semaine vous sentez-vous généralement le plus débordé par vos corvées personnelles ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Plus de temps libre encourage les gens à faire du sport, à préparer des repas sains et à se concentrer sur leur santé physique. <br/><strong>B:</strong> Une routine standard de 5 jours aide les gens à maintenir un mode de vie discipliné et structuré tout au long de la semaine.</div>
+<div class="round-item-personal">★ Trouvez-vous plus facile de rester discipliné lorsque votre emploi du temps est strictement structuré ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Les parents peuvent passer plus de temps de qualité avec leurs enfants, réduisant ainsi le coût élevé de la garde d'enfants. <br/><strong>B:</strong> Les systèmes éducatifs et de garde actuels sont parfaitement alignés sur le modèle standard de 5 jours.</div>
+<div class="round-item-personal">★ Comment vos parents conciliaient-ils leurs horaires de travail et votre éducation quand vous étiez enfant ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Cela oblige les managers à se concentrer sur les résultats et le rendement plutôt que sur les « heures passées au bureau ». <br/><strong>B:</strong> Être présent au bureau pendant 5 jours maximise les opportunités de collaboration spontanée et de mentorat.</div>
+<div class="round-item-personal">★ Avez-vous déjà eu une excellente idée lors d'une conversation informelle et imprévue avec un collègue ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> La semaine de 4 jours est l'évolution naturelle du travail, tout comme la transition historique de 6 à 5 jours l'a été. <br/><strong>B:</strong> La semaine de 5 jours est une norme mondiale éprouvée qui assure la stabilité psychologique et économique.</div>
+<div class="round-item-personal">★ Pensez-vous que notre société actuelle est trop obsédée par le travail constant et la productivité ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Elle favorise l'égalité des sexes en permettant aux partenaires de partager les tâches domestiques plus équitablement. <br/><strong>B:</strong> Des horaires constants permettent une répartition plus équitable du travail dans tous les secteurs, y compris le travail manuel.</div>
+<div class="round-item-personal">★ Comment les tâches ménagères sont-elles réparties chez vous, et trouvez-vous cela équitable ?</div>
+</div></div>
+</div>
+<div class="round-block lst open" id="s-lst">
+<div class="round-header" onclick="COSY.toggleRound('s-lst')" style="background:#EEEDFE;">
+<span>🟣 Parlons ensemble</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;">
+<div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">🗓️</span><div style="font-weight:600;">Standard 5 jours</div></div>
+<div class="lst-item" style="text-align:center;"><span style="font-size:2.5rem;">⚡</span><div style="font-weight:600;">Compressé 4 jours</div></div>
+</div>
+<p style="margin-top:1rem; text-align:center;">Quel modèle est le plus durable pour la prochaine génération ?</p>
+</div>
+</div>
+<div class="round-block round-2 open" id="s-r2">
+<div class="round-header" onclick="COSY.toggleRound('s-r2')" style="background:#EAF3DE;">
+<span>🟢 Round 2 — Inconvénients (Idées A/B)</span><span class="round-toggle">▲</span>
+</div>
+<div class="round-body" style="display:block;"><div class="round-type-badge">Débat</div><div class="vim-instruction">Analysez les inconvénients des deux perspectives.</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Passer à 4 jours pourrait mener à une « spirale de paresse » permanente où la productivité ne se rétablit jamais. <br/><strong>B:</strong> S'en tenir à 5 jours risque de créer une main-d'œuvre épuisée et sans inspiration.</div>
+<div class="round-item-personal">★ Comment gérez-vous les jours où vous vous sentez absolument sans inspiration pour travailler ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Les horaires de 4 jours compressés peuvent causer une fatigue dangereuse dans les rôles à enjeux élevés (comme la chirurgie ou la conduite). <br/><strong>B:</strong> Les horaires de 5 jours causent du « présentéisme » où les gens sont au bureau mais ne font rien d'utile.</div>
+<div class="round-item-personal">★ Avez-vous déjà dû travailler en ressentant une fatigue physique extrême ? Comment avez-vous fait ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Le modèle de 4 jours pourrait détruire l'équilibre vie pro-vie privée pour ceux qui prennent un second emploi pour survivre. <br/><strong>B:</strong> Le modèle de 5 jours ne laisse que deux jours pour le repos, les corvées et la famille.</div>
+<div class="round-item-personal">★ Si vous aviez un week-end de 3 jours, l'utiliseriez-vous pour vous reposer ou pour gagner un revenu supplémentaire ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Les services essentiels comme les écoles feront face à des crises de personnel massives s'ils tentent de passer à 4 jours. <br/><strong>B:</strong> Les services essentiels perdront leurs meilleurs éléments au profit de « postes de bureau » s'ils refusent d'évoluer.</div>
+<div class="round-item-personal">★ Quel est, selon vous, le service public de votre ville qui a le plus désespérément besoin d'être modernisé ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Réduire le temps de bureau de 20 % pourrait entraîner un déclin du mentorat professionnel et du transfert de compétences. <br/><strong>B:</strong> Maintenir la culture de bureau de 5 jours augmente les frais généraux et la bureaucratie d'entreprise inutile.</div>
+<div class="round-item-personal">★ Qui a été le mentor professionnel le plus influent dans votre vie jusqu'à présent ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Le manque de disponibilité le vendredi pourrait frustrer les clients mondiaux et ralentir le commerce international. <br/><strong>B:</strong> La rigidité de la semaine de 5 jours empêche l'économie de s'adapter aux urgences personnelles soudaines.</div>
+<div class="round-item-personal">★ Comment votre lieu de travail actuel gère-t-il les urgences personnelles soudaines ou les changements d'emploi du temps ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Un mandat de 4 jours pourrait forcer les petites entreprises à la faillite en raison des coûts de main-d'œuvre horaire accrus. <br/><strong>B:</strong> Un mandat de 5 jours empêche la naissance d'entreprises agiles qui veulent expérimenter de nouveaux modèles de travail.</div>
+<div class="round-item-personal">★ Avez-vous déjà rêvé de lancer votre propre entreprise ? Quel type de semaine de travail mettriez-vous en place ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Mesurer le rendement par les « résultats » uniquement pourrait forcer les gens à travailler 60 heures en 4 jours pour atteindre leurs quotas. <br/><strong>B:</strong> Mesurer le rendement par les « heures » encourage le travail lent et récompense les employés les moins efficaces.</div>
+<div class="round-item-personal">★ Travaillez-vous plus vite lorsque vous êtes évalué sur vos résultats plutôt que sur vos heures passées ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> Le jour de congé supplémentaire pourrait augmenter l'empreinte carbone si les gens conduisent et consomment plus pendant leur temps libre. <br/><strong>B:</strong> Faire le trajet 5 jours par semaine est l'un des plus gros contributeurs à la pollution urbaine et au stress mental.</div>
+<div class="round-item-personal">★ Quelle est votre activité écologique préférée à pratiquer pendant votre temps libre ?</div>
+</div><div class="round-item">
+<div class="round-item-main"><strong>A:</strong> La transition vers 4 jours sera si chaotique qu'elle pourrait déclencher une récession temporaire. <br/><strong>B:</strong> Ne pas mettre en œuvre la semaine de 4 jours nous fera perdre nos jeunes travailleurs les plus créatifs et dynamiques.</div>
+<div class="round-item-personal">★ Pensez-vous que les jeunes d'aujourd'hui ont une vision du travail fondamentalement différente de celle des générations précédentes ?</div>
+</div></div>
+</div>
+<div class="mistake-block open" id="s-mistakes">
+<div class="mistake-header" onclick="COSY.toggleBlock('s-mistakes')">
+<span>✏️ Note de l'enseignant (Corrections linguistiques)</span><span class="round-toggle">▲</span>
+</div>
+<div class="mistake-body" style="display:block;">
+<div class="mistake-item"><span class="mistake-wrong">J'ai travaillé ici depuis 2010</span><span class="mistake-arrow">→</span><span class="mistake-right">Je travaille ici depuis 2010</span><span class="mistake-note-text">(Utilisez le présent avec 'depuis' pour une action continue)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">Je suggère à réduire les heures</span><span class="mistake-arrow">→</span><span class="mistake-right">Je suggère de réduire les heures</span><span class="mistake-note-text">(Suggérer de + infinitif)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">C'est dépend de le secteur</span><span class="mistake-arrow">→</span><span class="mistake-right">Ça dépend du secteur</span><span class="mistake-note-text">(Dépendre de + article contracté)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">La plupart d'employés aiment ça</span><span class="mistake-arrow">→</span><span class="mistake-right">La plupart des employés aiment ça</span><span class="mistake-note-text">(La plupart + des)</span></div>
+<div class="mistake-item"><span class="mistake-wrong">Je suis d'accord à toi</span><span class="mistake-arrow">→</span><span class="mistake-right">Je suis d'accord avec toi</span><span class="mistake-note-text">(Être d'accord avec quelqu'un)</span></div>
+</div>
+</div>
+</div>
+</section>
 </main>
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../../../../index.html" style="color:var(--muted);text-decoration:none;">Accueil</a>
-    <a href="../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Pratique</a>
-    <a href="../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Jeux</a>
-    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Événements</a>
-  </div>
-  <p>© 2026 COSYlanguages — Tous droits réservés</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../../../../index.html" style="color:var(--muted);text-decoration:none;">Accueil</a>
+<a href="../../../../practice/index.html" style="color:var(--muted);text-decoration:none;">Pratique</a>
+<a href="../../../../games/index.html" style="color:var(--muted);text-decoration:none;">Jeux</a>
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Événements</a>
+</div>
+<p>© 2026 COSYlanguages — Tous droits réservés</p>
 </footer>
 <script src="../../../../js/data/languages.js"></script>
 <script src="../../../../js/core/engine.js"></script>
