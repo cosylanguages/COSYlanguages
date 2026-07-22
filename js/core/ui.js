@@ -316,7 +316,7 @@
         window.speechSynthesis.cancel();
 
         // Clean up formatting indicators or brackets for clearer pronunciation
-        let cleanText = text.replace(/\((он|она|оно|они|м|ж|ср|м\/ж)\)/gi, '').trim();
+        let cleanText = text.replace(/\((он|она|оно|они|м|ж|ср|м\/ж|f|m)\)/gi, '').trim();
         cleanText = cleanText.replace(/\s*≠\s*/g, ', ').trim();
 
         const utterance = new SpeechSynthesisUtterance(cleanText);
