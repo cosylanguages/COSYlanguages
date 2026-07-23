@@ -1,181 +1,198 @@
 <!-- DEVELOPER ALERT: Refer to templates/events/celebrate-session-template.html (or corresponding active templates in events/sessions/) before creating new sessions in the future! -->
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Let's Celebrate 🎉 — COSYlanguages</title>
-<link rel="icon" href="../images/logos/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="../css/tokens.css">
-<link rel="stylesheet" href="../css/base.css">
-<link rel="stylesheet" href="../css/components.css">
-<link rel="stylesheet" href="../css/layout.css">
-<link rel="stylesheet" href="../css/events.css">
-
+<link href="../images/logos/cosylanguages.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="../css/tokens.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/components.css" rel="stylesheet"/>
+<link href="../css/layout.css" rel="stylesheet"/>
+<link href="../css/events.css" rel="stylesheet"/>
 <style>
   .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
   .club-hero { background: linear-gradient(135deg, #BA7517, #5c390b); color: white; padding: 4rem 2rem; text-align: center; }
   .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
   .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
 </style>
-</head>
+<style>
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--cream, #FAF7F2);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+  .filter-btn:hover {
+    background: var(--border);
+  }
+  .filter-btn.active {
+    background: #C0392B;
+    color: white;
+    border-color: #C0392B;
+  }
+</style></head>
 <body>
-
 <nav id="cosy-nav"></nav>
-
 <header class="club-hero">
-  <img src="../images/letscelebrate.png" alt="Celebrate logo" style="height: 100px; width: auto; margin-bottom: 1.5rem;">
-  <h1>Let's Celebrate</h1>
-  <p>Festivals, traditions, and the rituals that bring people together. Every session zooms in on a celebration from around the world.</p>
+<img alt="Celebrate logo" src="../images/letscelebrate.png" style="height: 100px; width: auto; margin-bottom: 1.5rem;"/>
+<h1>Let's Celebrate</h1>
+<p>Festivals, traditions, and the rituals that bring people together. Every session zooms in on a celebration from around the world.</p>
 </header>
-
 <section class="container" style="padding: 2rem 1.5rem 5rem;">
-
-  <a href="index.html" class="back-link" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← All Speaking Clubs</a>
-
-  <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
-
-    <div class="club-main">
-      <!-- STUDENT/TEACHER/ADMIN CONTENT -->
-      <div>
-        <div class="section-header" style="margin-bottom: 1.5rem;">
-          <h2 style="font-size: 1.5rem;">📅 Upcoming Sessions</h2>
-        </div>
-        <div class="session-info"><table>
-          <tr><td>Article</td><td>Lunar New Year — Traditions & Red Envelopes</td></tr>
-          <tr><td>Description</td><td>A deep dive into the most important festival in many Asian cultures.</td></tr>
-          <tr><td>Link</td><td><a href="https://www.britannica.com/topic/Lunar-New-Year" target="_blank" style="color:var(--cosy-green);">Read Article 📖</a></td></tr>
-          <tr><td>Schedule</td><td>Planned — TBC</td></tr>
-          <tr><td>Duration</td><td>60 min</td></tr>
-          <tr><td>Languages</td><td>🇬🇧 🇫🇷 🇮🇹 🇷🇺 🇬🇷</td></tr>
-        </table></div>
-        <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Let%27s%20Celebrate.">💬 Register interest</a>
-
-        <!-- HISTORY -->
-        <div class="history-block" id="lc-hist" style="margin-top: 2rem;">
-          <div class="section-header" style="margin-bottom: 1rem;">
-            <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
-          </div>
-          <div class="history-body" style="display: block; padding: 0; border: none;">
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">Urban Beekeeping Day</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">16 July 2026</span>
-              </div>
-              <a href="sessions/lets-celebrate/urban-beekeeping-day.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">National Someone Day</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 July 2026</span>
-              </div>
-              <a href="sessions/lets-celebrate/national-someone-day.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">Pandemonium Day</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">14 July 2026</span>
-              </div>
-              <a href="sessions/lets-celebrate/pandemonium-day.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">National Simplicity Day</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">12 July 2026</span>
-              </div>
-              <a href="sessions/lets-celebrate/national-simplicity-day.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">International Peace &amp; Love Day</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">07 July 2026</span>
-              </div>
-              <a href="sessions/lets-celebrate/international-peace-love-day.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">National Workaholics Day</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">05 July 2026</span>
-              </div>
-              <a href="sessions/lets-celebrate/national-workaholics-day.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">Diwali — The Festival of Lights</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 November 2025</span>
-              </div>
-              <a href="sessions/lets-celebrate/diwali-festival.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">International Asteroid Day</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">30 June 2025</span>
-              </div>
-              <a href="sessions/lets-celebrate/international-asteroid-day.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">International Day of Family Remittances</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">16 June 2025</span>
-              </div>
-              <a href="sessions/lets-celebrate/family-remittances-day.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
-            </div>
-            <div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-              <div>
-                <h4 style="margin:0;font-size:1rem;">Lunar New Year</h4>
-                <span class="history-date" style="font-size:.8rem;color:var(--muted);">10 February 2025</span>
-              </div>
-              <a href="sessions/lets-celebrate/lunar-new-year.html" class="view-btn" style="background:var(--indigo);">View Full Session →</a>
-            </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-        </div>
-      </div><!-- /logged-in content -->
-    </div><!-- /club-main -->
-
-    <div class="club-sidebar">
-      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
-        <h3 style="font-size: 1rem; margin-bottom: .5rem;">Global Culture</h3>
-        <p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Understanding how people celebrate is the fastest way to understand their language and values.</p>
-      </div>
-    </div>
-
-  </div><!-- /grid -->
-
+<a class="back-link" href="index.html" style="margin-bottom: 2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--muted); font-size: 0.9rem;">← All Speaking Clubs</a>
+<div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+<div class="club-main">
+<!-- STUDENT/TEACHER/ADMIN CONTENT -->
+<div>
+<div class="section-header" style="margin-bottom: 1.5rem;">
+<h2 style="font-size: 1.5rem;">📅 Upcoming Sessions</h2>
+</div>
+<div class="session-info"><table>
+<tr><td>Article</td><td>Lunar New Year — Traditions &amp; Red Envelopes</td></tr>
+<tr><td>Description</td><td>A deep dive into the most important festival in many Asian cultures.</td></tr>
+<tr><td>Link</td><td><a href="https://www.britannica.com/topic/Lunar-New-Year" style="color:var(--cosy-green);" target="_blank">Read Article 📖</a></td></tr>
+<tr><td>Schedule</td><td>Planned — TBC</td></tr>
+<tr><td>Duration</td><td>60 min</td></tr>
+<tr><td>Languages</td><td>🇬🇧 🇫🇷 🇮🇹 🇷🇺 🇬🇷</td></tr>
+</table></div>
+<a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Let%27s%20Celebrate.">💬 Register interest</a>
+<!-- HISTORY -->
+<div class="history-block" id="lc-hist" style="margin-top: 2rem;">
+<div class="section-header" style="margin-bottom: 1rem;">
+<h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
+</div><div class="club-filters" style="justify-content: flex-start; margin-bottom: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap;"><button class="filter-btn active" data-level="all">All Levels</button><button class="filter-btn" data-level="a1">A1</button><button class="filter-btn" data-level="a2">A2</button><button class="filter-btn" data-level="b1">B1</button><button class="filter-btn" data-level="b2">B2</button><button class="filter-btn" data-level="c1">C1</button><button class="filter-btn" data-level="c2">C2</button></div>
+<div class="history-body" style="display: block; padding: 0; border: none;">
+<div class="history-session" data-level="a1 a2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#FFF5F5; color:#E53E3E; border-color:#FED7D7; border:1px solid #FED7D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A1</span><span class="club-tag" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7; border:1px solid #F5CBA7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A2</span></div>
+<h4 style="margin:0;font-size:1rem;">Urban Beekeeping Day</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">16 July 2026</span>
+</div>
+<a class="view-btn" href="sessions/lets-celebrate/urban-beekeeping-day.html" style="background:var(--indigo);">View Full Session →</a>
+</div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
+<h4 style="margin:0;font-size:1rem;">National Someone Day</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">15 July 2026</span>
+</div>
+<a class="view-btn" href="sessions/lets-celebrate/national-someone-day.html" style="background:var(--indigo);">View Full Session →</a>
+</div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
+<h4 style="margin:0;font-size:1rem;">Pandemonium Day</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">14 July 2026</span>
+</div>
+<a class="view-btn" href="sessions/lets-celebrate/pandemonium-day.html" style="background:var(--indigo);">View Full Session →</a>
+</div>
+<div class="history-session" data-level="a1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#FFF5F5; color:#E53E3E; border-color:#FED7D7; border:1px solid #FED7D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A1</span></div>
+<h4 style="margin:0;font-size:1rem;">National Simplicity Day</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">12 July 2026</span>
+</div>
+<a class="view-btn" href="sessions/lets-celebrate/national-simplicity-day.html" style="background:var(--indigo);">View Full Session →</a>
+</div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
+<h4 style="margin:0;font-size:1rem;">International Peace &amp; Love Day</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">07 July 2026</span>
+</div>
+<a class="view-btn" href="sessions/lets-celebrate/international-peace-love-day.html" style="background:var(--indigo);">View Full Session →</a>
+</div>
+<div class="history-session" data-level="a1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#FFF5F5; color:#E53E3E; border-color:#FED7D7; border:1px solid #FED7D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A1</span></div>
+<h4 style="margin:0;font-size:1rem;">National Workaholics Day</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">05 July 2026</span>
+</div>
+<a class="view-btn" href="sessions/lets-celebrate/national-workaholics-day.html" style="background:var(--indigo);">View Full Session →</a>
+</div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
+<h4 style="margin:0;font-size:1rem;">Diwali — The Festival of Lights</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">01 November 2025</span>
+</div>
+<a class="view-btn" href="sessions/lets-celebrate/diwali-festival.html" style="background:var(--indigo);">View Full Session →</a>
+</div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
+<h4 style="margin:0;font-size:1rem;">International Asteroid Day</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">30 June 2025</span>
+</div>
+<a class="view-btn" href="sessions/lets-celebrate/international-asteroid-day.html" style="background:var(--indigo);">View Full Session →</a>
+</div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
+<h4 style="margin:0;font-size:1rem;">International Day of Family Remittances</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">16 June 2025</span>
+</div>
+<a class="view-btn" href="sessions/lets-celebrate/family-remittances-day.html" style="background:var(--indigo);">View Full Session →</a>
+</div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
+<h4 style="margin:0;font-size:1rem;">Lunar New Year</h4>
+<span class="history-date" style="font-size:.8rem;color:var(--muted);">10 February 2025</span>
+</div>
+<a class="view-btn" href="sessions/lets-celebrate/lunar-new-year.html" style="background:var(--indigo);">View Full Session →</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- /logged-in content -->
+<!-- /club-main -->
+<div class="club-sidebar">
+<div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
+<h3 style="font-size: 1rem; margin-bottom: .5rem;">Global Culture</h3>
+<p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Understanding how people celebrate is the fastest way to understand their language and values.</p>
+</div>
+</div>
+<!-- /grid -->
 </section>
-
-
-
 <footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-    <a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-    <a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-    <a href="index.html" style="color:var(--muted);text-decoration:none;">Events</a>
-  </div>
-  <p>© 2026 COSYlanguages — All rights reserved</p>
+<div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+<a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+<a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+<a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+<a href="index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+</div>
+<p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
-
 <script src="../js/data/languages.js"></script>
 <script src="../js/core/engine.js"></script>
 <script src="../js/core/i18n.js"></script>
 <script src="../js/core/ui.js"></script>
 <script src="../js/data/pricing.js"></script>
 <script src="../js/config.js"></script>
-</body>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.filter-btn');
+  const sessions = document.querySelectorAll('.history-session');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const selectedLevel = btn.getAttribute('data-level');
+
+      sessions.forEach(sess => {
+        const levels = (sess.getAttribute('data-level') || '').split(' ');
+        if (selectedLevel === 'all' || levels.includes(selectedLevel)) {
+          sess.style.display = 'flex';
+        } else {
+          sess.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script></body>
 </html>

@@ -20,7 +20,26 @@
   .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
   .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
 </style>
-</head>
+<style>
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--cream, #FAF7F2);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+  .filter-btn:hover {
+    background: var(--border);
+  }
+  .filter-btn.active {
+    background: #5D4037;
+    color: white;
+    border-color: #5D4037;
+  }
+</style></head>
 <body>
 <nav id="cosy-nav"></nav>
 <header class="club-hero">
@@ -163,7 +182,7 @@
 <div class="history-block" id="tq-hist" style="margin-top: 2rem;">
 <div class="section-header" style="margin-bottom: 1.5rem;">
 <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
-</div>
+</div><div class="club-filters" style="justify-content: flex-start; margin-bottom: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap;"><button class="filter-btn active" data-level="all">All Levels</button><button class="filter-btn" data-level="a1">A1</button><button class="filter-btn" data-level="a2">A2</button><button class="filter-btn" data-level="b1">B1</button><button class="filter-btn" data-level="b2">B2</button><button class="filter-btn" data-level="c1">C1</button><button class="filter-btn" data-level="c2">C2</button></div>
 <!-- 📌 PINNED AUTHOR CHALLENGES -->
 <div class="pinned-challenges-section" style="margin-bottom: 3.5rem; background: rgba(93, 64, 55, 0.03); border: 2px dashed #5D4037; border-radius: 28px; padding: 2rem;">
 <h3 style="margin-top: 0; margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.5rem; display: flex; align-items: center; gap: 0.75rem; color: #5D4037;">
@@ -171,12 +190,9 @@
             </h3>
 <div style="display: grid; grid-template-columns: 1fr; gap: 1rem;">
 <!-- 1. Richard Feynman Challenge -->
-<div class="history-session" style="margin-bottom:0;border:1px solid var(--border);border-radius:20px;overflow:hidden;background:#FFFDF9;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;">
+<div class="history-session" data-level="a2 b1 b2 c1" style="margin-bottom:0;border:1px solid var(--border);border-radius:20px;overflow:hidden;background:#FFFDF9;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;">
 <div style="flex: 1; min-width: 250px;">
-<div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
-<span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE;">B2–C1</span>
-<span class="club-tag" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7;">4 Parts</span>
-</div>
+<div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;"><span class="club-tag" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7; border:1px solid #F5CBA7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A2</span><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0 0 0.5rem;font-size:1.2rem;font-family: 'Playfair Display', serif; font-weight:700;">Richard Feynman: The Art of Knowing</h4>
 <p style="margin:0; font-size:0.88rem; color:var(--muted); line-height:1.5;">Unify the brilliant mind of Richard Feynman. Master vocabulary of curiosity, mental discipline, and absolute honesty across 4 deep-dive sessions: <em>Study Hard</em>, <em>Education vs Intelligence</em>, <em>Knowledge Isn't Free</em>, and <em>No Shame in Not Knowing</em>.</p>
 </div>
@@ -189,12 +205,9 @@
 </div>
 </div>
 <!-- 2. Socrates Challenge -->
-<div class="history-session" style="margin-bottom:0;border:1px solid var(--border);border-radius:20px;overflow:hidden;background:#FFFDF9;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;">
+<div class="history-session" data-level="b1 b2" style="margin-bottom:0;border:1px solid var(--border);border-radius:20px;overflow:hidden;background:#FFFDF9;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;">
 <div style="flex: 1; min-width: 250px;">
-<div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
-<span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7;">B1–B2</span>
-<span class="club-tag" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7;">2 Parts</span>
-</div>
+<div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0 0 0.5rem;font-size:1.2rem;font-family: 'Playfair Display', serif; font-weight:700;">Socrates: The Examined Life</h4>
 <p style="margin:0; font-size:0.88rem; color:var(--muted); line-height:1.5;">Master socratic irony and questioning techniques. Grouping <em>The Wisdom of Socrates</em> and our upcoming seminar <em>The Dialogues on Consciousness</em>.</p>
 </div>
@@ -204,12 +217,9 @@
 </div>
 </div>
 <!-- 3. Fyodor Dostoevsky Challenge -->
-<div class="history-session" style="margin-bottom:0;border:1px solid var(--border);border-radius:20px;overflow:hidden;background:#FFFDF9;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;">
+<div class="history-session" data-level="b2 c2" style="margin-bottom:0;border:1px solid var(--border);border-radius:20px;overflow:hidden;background:#FFFDF9;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;">
 <div style="flex: 1; min-width: 250px;">
-<div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
-<span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE;">B2–C2</span>
-<span class="club-tag" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7;">2 Parts</span>
-</div>
+<div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;"><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span><span class="club-tag" style="background:#FAF5FF; color:#6B46C1; border-color:#E9D8FD; border:1px solid #E9D8FD; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C2</span></div>
 <h4 style="margin:0 0 0.5rem;font-size:1.2rem;font-family: 'Playfair Display', serif; font-weight:700;">Dostoevsky: Light &amp; Darkness</h4>
 <p style="margin:0; font-size:0.88rem; color:var(--muted); line-height:1.5;">Delve into Russian psychological depth. Grouping Dostoevsky's timeless explorations on passion, morality, and social struggles: <em>Loving Means Power</em> and <em>Politics &amp; Religion</em>.</p>
 </div>
@@ -220,277 +230,277 @@
 </div>
 </div>
 </div>
-<div class="history-body" style="display: block; padding: 0; border: none;"><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-body" style="display: block; padding: 0; border: none;"><div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Pay Attention</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">05 October 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/brianna-pastor-proud-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Difficult Children</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">20 October 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/dolto-difficult-child-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">When Kids Stop Resisting</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">25 October 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/neufeld-resistance-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">The Convenient Child</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">28 October 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/langle-suppressed-child-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Ocean of People</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 November 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/sadia-hakim-humanity-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="a2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7; border:1px solid #F5CBA7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A2</span></div>
 <h4 style="margin:0;font-size:1rem;">Passionately Curious</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">05 November 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/einstein-passionately-curious-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">The Same Rain</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">10 November 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/rain-seller-umbrella-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Who Told You to Think So?</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 November 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/think-for-yourself-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Ability to Notice Beauty</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">25 November 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/ability-to-notice-beauty-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Loving Means Power</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">01 December 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Pay for Storage</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">05 December 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/memory-cards-storage-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Pen or Paintbrush</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">10 December 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/virginia-woolf-trigger-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Turn Off AI</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">12 December 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/turn-off-ai-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Read and Dance</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 December 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/voltaire-read-dance-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Disappear with Art</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">22 December 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/disappear-with-art-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Weird People with Big Dreams</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">28 December 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/weird-people-dreams-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Politics and Religion</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">30 December 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Politicians and Teachers</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">30 December 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/underpaid-politicians-teachers-quote.html" style="background:var(--indigo);">View Full Session →</a>
-</div><div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+</div><div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">No Shame in Not Knowing</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">31 December 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/feynman-no-shame-knowing-quote.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Madonna AI Art Quote</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">30 June 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/madonna-ai-art-quote-intermediate.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Richard Feynman: Knowledge Isn't Free</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">22 June 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/feynman-knowledge-isnt-free-intermediate.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Robin Williams Quote</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">21 June 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/robin-williams-quote.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Richard Feynman: Study Hard (Intermediate)</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">18 June 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/feynman-study-hard-intermediate.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="a2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#FAEEE8; color:#C0392B; border-color:#F5CBA7; border:1px solid #F5CBA7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">A2</span></div>
 <h4 style="margin:0;font-size:1rem;">Richard Feynman: Study Hard (Elementary)</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">18 June 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/feynman-study-hard.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Favorite Days That Never Happened</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">11 January 2026</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/favorite-days-not-happened.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Dangerous Blindness</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">28 December 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/dangerous-blindness-perspective.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span><span class="club-tag" style="background:#FFF5F5; color:#E53E3E; border-color:#FED7D7; border:1px solid #FED7D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px;">🔞 18+ / Sensitive</span></div>
 <h4 style="margin:0;font-size:1rem;">Accepting a Gay Child</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">30 November 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/accept-gay-child.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1 b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">AI is the Opposite of Art</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">23 November 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/ai-opposite-of-art.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">You Are a Soul</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">16 November 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/you-are-a-soul.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">The Tragedy of Women</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">09 November 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/women-mothers-tragedy.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">You Must Die First</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">02 November 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/must-die-first.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Home is a Time</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">26 October 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/home-is-a-time.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Sonder</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">12 October 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/sonder.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">Saudade</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">05 October 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/saudade.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Steve Jobs Quote</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">20 August 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/steve-jobs-quote.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Education vs Intelligence</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 July 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/feynman-education-quote.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EBF8FF; color:#2B6CB0; border-color:#BEE3F8; border:1px solid #BEE3F8; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B2</span></div>
 <h4 style="margin:0;font-size:1rem;">Amish Tripathi Quote</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">12 July 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/amish-tripathi-quote.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Barbra Streisand Quote</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">10 July 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/barbra-streisand-quote.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">The Compass and the Clock</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">25 June 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/compass-and-clock.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Jim Kwik Quote</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">22 June 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/jim-kwik-quote.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="b1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#E1F5EE; color:#1A7A4A; border-color:#A3E4D7; border:1px solid #A3E4D7; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">B1</span></div>
 <h4 style="margin:0;font-size:1rem;">Stay Free</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">20 June 2025</span>
 </div>
 <a class="view-btn" href="sessions/the-greatest-quotes/stay-free-quote.html" style="background:var(--indigo);">View Full Session →</a>
 </div>
-<div class="history-session" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
-<div>
+<div class="history-session" data-level="c1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#FAF7F2;padding:1rem;display:flex;justify-content:space-between;align-items:center;">
+<div><div class="club-tag-container" style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;"><span class="club-tag" style="background:#EEEDFE; color:#534AB7; border-color:#D2CFFE; border:1px solid #D2CFFE; font-weight:600; font-size:0.75rem; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">C1</span></div>
 <h4 style="margin:0;font-size:1rem;">The Wisdom of Socrates</h4>
 <span class="history-date" style="font-size:.8rem;color:var(--muted);">15 June 2025</span>
 </div>
@@ -716,5 +726,28 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 </script>
-</body>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.filter-btn');
+  const sessions = document.querySelectorAll('.history-session');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const selectedLevel = btn.getAttribute('data-level');
+
+      sessions.forEach(sess => {
+        const levels = (sess.getAttribute('data-level') || '').split(' ');
+        if (selectedLevel === 'all' || levels.includes(selectedLevel)) {
+          sess.style.display = 'flex';
+        } else {
+          sess.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script></body>
 </html>
