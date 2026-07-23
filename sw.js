@@ -9,6 +9,7 @@ const STATIC_ASSETS = [
   './print-box.html',
   './classroom-sync.html',
   './practice/index.html',
+  './practice/cognitive-immersion.html',
   './events/index.html',
   './css/base.css',
   './css/components.css',
