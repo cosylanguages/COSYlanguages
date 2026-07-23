@@ -91,6 +91,6 @@ When a textbook's speaking section is too dry, replace it with a corresponding C
 ## 3. How Teachers Navigate the COSY Speaking Library
 
 To find the perfect speaking session matching your ProgressMe syllabus:
-1.  **Speaking Club Sessions Finder**: Visit `events/search.html` (or access via the Speaking Clubs hub).
-2.  **Filter by Theme**: Select one of the 10 overarching themes (e.g., *Art, Culture & Entertainment*, *Work, Career & Education*, *Travel & Nature*) and match with your textbook unit's core vocabulary.
+1.  **Speaking Club Sessions Finder**: Visit the **Interactive Session Explorer** directly on the **[Events Hub](https://cosylanguages.github.io/COSYlanguages/events/index.html#session-explorer-section)**.
+2.  **Filter by Theme & Keyword**: Select or click on any pedagogical keyword (e.g., *AI & Human Learning*, *Habits*, *Cultural Rituals*) or type in the search bar to instantly discover matching sessions, films, and songs.
 3.  **Select Level**: Align with the target student CEFR profile (A2, B1/B2, C1) to ensure vocabulary difficulty and Teacher's Note (Linguistic Corrections) are calibrated perfectly.
