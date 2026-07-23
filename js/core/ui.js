@@ -606,65 +606,339 @@
     };
 
     /* ─── COSY TOUR GUIDE & NAV HELP SYSTEM ───────────────────────── */
+    const TOUR_TRANSLATIONS = {
+        en: {
+            guide: "Guide",
+            skip: "Skip",
+            back: "← Back",
+            next: "Next →",
+            finish: "Finish 🎉",
+            close: "Close",
+            help_title: "🧭 COSY Navigation Help & Guide",
+            help_intro: "Welcome! Need help finding your way around COSYlanguages? Here is a quick guide to our main sections: ✨",
+            home_title: "Home Page",
+            home_desc: "Our main gateway. Explore our courses, transparent pricing calculator, and meet our active languages grid.",
+            practice_title: "Free Practice Hub",
+            practice_desc: "Interactive self-paced exercises for grammar, vocabulary, and daily speaking habits.",
+            games_title: "Language Games",
+            games_desc: "Play 14 interactive multiplayer & solo games like Action Hero or Fluency Flow to build speaking confidence.",
+            events_title: "Live Events & Clubs",
+            events_desc: "Speaking clubs and foreign-language film nights with native-level teachers.",
+            dict_title: "Double-Click Reader",
+            dict_desc: "Double-click *any word* on *any page* on our site to immediately harvest it to your personal Vocabulary Notebook!",
+            btn_take_tour: "🏡 Take Interactive Homepage Tour →",
+            step: "Step",
+            of: "of",
+            tour_completed: "Tour completed! Enjoy learning! 🎉",
+
+            // Custom contextual guides
+            games_intro_title: "How to Play Language Games 🎮",
+            games_intro_desc: "Welcome to the Games Arena! Challenge yourself or play with friends. Choose a game, pick a theme, and practice your speaking naturally. No pressure, just pure fun! 🚀",
+            practice_intro_title: "How to Use the Practice Hub 💡",
+            practice_intro_desc: "Hone your grammar, vocabulary, and daily listening habits. Accumulate points, hit daily targets, maintain your streak, and boost your memory using our Cognitive & Immersion Accelerator! 🧠",
+            events_intro_title: "Our Speaking Club Format 🎉",
+            events_intro_desc: "Join conversations about daily life, cinema, science, and philosophy! Every session runs a structured format with 10 key vocabulary cards, 10 discussion questions, and 10 agree/disagree speculative future statements. Double-click any word to save it! 🗣️",
+
+            // Steps
+            step1_title: 'Main Navigation 🧭',
+            step1_desc: 'Explore all major sections of COSYlanguages from here: Free Practice, Games, Events, and more! ☝️',
+            step2_title: 'Start Your Journey 📝',
+            step2_desc: 'Chat with us directly on WhatsApp, take our quick Placement Quiz to find your level, or pin the app to your Home Screen! 👇',
+            step3_title: 'Free Practice Hub 💡',
+            step3_desc: 'Master vocabulary, grammar, and speaking exercises at your own pace. Keep up your streak and earn COSY points! 👈',
+            step4_title: 'Interactive Language Games 🎮',
+            step4_desc: 'Boost your fluency with 14 interactive multiplayer and solo games like Action Hero, Fluency Flow, and Word Linker! 👉',
+            step5_title: 'Live Speaking Clubs & Cinema 🎉',
+            step5_desc: 'Join live conversational speaking clubs and original language movie nights led by real native and expert teachers! ☝️',
+            step6_title: 'Learn 5+ Beautiful Languages 🌍',
+            step6_desc: 'Explore English, French, Italian, Russian, Greek, and upcoming languages, along with free learning materials for each! 👇',
+            step7_title: 'Transparent Pricing Calculator 🧮',
+            step7_desc: 'See exactly what you will pay. Customise your language, course type, lesson duration, package size, and currency. No hidden fees! 👇',
+            step8_title: 'Interactive Dictionary Harvesting 📖',
+            step8_desc: 'See any word you do not know? Just **double-click** it anywhere on any page on our site to harvest it into your dictionary! 💡',
+            step9_title: 'Always Here to Help! ✨',
+            step9_desc: 'Whenever you want to retake this tour or need general navigation help on other pages, just click this friendly compass! 🧭'
+        },
+        fr: {
+            guide: "Guide",
+            skip: "Passer",
+            back: "← Retour",
+            next: "Suivant →",
+            finish: "Terminer 🎉",
+            close: "Fermer",
+            help_title: "🧭 Aide à la navigation COSY",
+            help_intro: "Bienvenue ! Besoin d'aide pour naviguer sur COSYlanguages ? Voici un guide rapide de nos sections principales : ✨",
+            home_title: "Page d'accueil",
+            home_desc: "Notre portail principal. Découvrez nos cours, notre calculateur de tarifs transparents et notre grille de langues actives.",
+            practice_title: "Espace d'entraînement",
+            practice_desc: "Des exercices interactifs en autonomie pour la grammaire, le vocabulaire et la pratique orale quotidienne.",
+            games_title: "Jeux linguistiques",
+            games_desc: "Jouez à 14 jeux interactifs en solo ou à plusieurs, comme Action Hero ou Fluency Flow, pour renforcer votre aisance.",
+            events_title: "Événements en direct & clubs",
+            events_desc: "Clubs de conversation et soirées cinéma en version originale animés par des enseignants natifs.",
+            dict_title: "Lecteur double-clic",
+            dict_desc: "Double-cliquez sur *n'importe quel mot* de *n'importe quelle page* pour l'ajouter directement à votre carnet de vocabulaire !",
+            btn_take_tour: "🏡 Faire la visite guidée de l'accueil →",
+            step: "Étape",
+            of: "sur",
+            tour_completed: "Visite terminée ! Bon apprentissage ! 🎉",
+
+            games_intro_title: "Comment jouer aux jeux linguistiques 🎮",
+            games_intro_desc: "Bienvenue dans l'arène des jeux ! Relevez des défis seul ou jouez avec des amis. Choisissez un jeu, un thème et pratiquez la langue naturellement. Pas de pression, juste du plaisir ! 🚀",
+            practice_intro_title: "Comment utiliser l'espace d'entraînement 💡",
+            practice_intro_desc: "Perfectionnez votre grammaire, votre vocabulaire et vos habitudes d'écoute. Cumulez des points, atteignez vos objectifs, maintenez votre série et stimulez votre mémoire avec notre accélérateur cognitif d'immersion ! 🧠",
+            events_intro_title: "Format de nos clubs de conversation 🎉",
+            events_intro_desc: "Participez à des discussions sur la vie quotidienne, le cinéma, la science et la philosophie ! Chaque session suit un format structuré avec 10 cartes de vocabulaire, 10 questions de discussion et 10 affirmations spéculatives sur le futur. Double-cliquez sur un mot pour le sauvegarder ! 🗣️",
+
+            step1_title: 'Navigation principale 🧭',
+            step1_desc: 'Découvrez toutes les sections majeures de COSYlanguages d\'ici : Entraînement gratuit, Jeux, Événements, et bien plus encore ! ☝️',
+            step2_title: 'Commencez votre voyage 📝',
+            step2_desc: 'Discutez directement avec nous sur WhatsApp, passez notre test de niveau rapide ou épinglez l\'application sur votre écran d\'accueil ! 👇',
+            step3_title: 'Espace d\'entraînement 💡',
+            step3_desc: 'Maîtrisez le vocabulaire, la grammaire et la prononciation à votre propre rythme. Maintenez votre série quotidienne et gagnez des points ! 👈',
+            step4_title: 'Jeux linguistiques interactifs 🎮',
+            step4_desc: 'Améliorez votre aisance grâce à 14 jeux interactifs en solo et en équipe comme Action Hero, Fluency Flow ou Word Linker ! 👉',
+            step5_title: 'Clubs de conversation & Cinéma 🎉',
+            step5_desc: 'Rejoignez des clubs de conversation conviviaux et des soirées cinéma en langue originale animés par des professeurs natifs ! ☝️',
+            step6_title: 'Apprenez plus de 5 langues 🌍',
+            step6_desc: 'Explorez l\'anglais, le français, l\'italien, le russe, le grec et les langues à venir, avec des ressources gratuites pour chacune ! 👇',
+            step7_title: 'Calculateur de tarifs 🧮',
+            step7_desc: 'Visualisez exactement votre budget. Personnalisez la langue, le type de cours, la durée, le volume de cours et la devise. Sans frais cachés ! 👇',
+            step8_title: 'Dictionnaire interactif double-clic 📖',
+            step8_desc: 'Un mot inconnu ? Double-cliquez dessus sur n\'importe quelle page du site pour l\'ajouter instantanément à votre dictionnaire personnel ! 💡',
+            step9_title: 'Toujours là pour vous aider ! ✨',
+            step9_desc: 'Pour refaire cette visite guidée ou obtenir de l\'aide sur d\'autres pages, cliquez simplement sur cette boussole amicale ! 🧭'
+        },
+        it: {
+            guide: "Guida",
+            skip: "Salta",
+            back: "← Indietro",
+            next: "Avanti →",
+            finish: "Fine 🎉",
+            close: "Chiudi",
+            help_title: "🧭 Guida alla navigazione COSY",
+            help_intro: "Benvenuto! Hai bisogno di aiuto per orientarti su COSYlanguages? Ecco una guida rapida alle nostre sezioni principali: ✨",
+            home_title: "Pagina iniziale",
+            home_desc: "Il nostro portale principale. Esplora i nostri corsi, il calcolatore di prezzi trasparente e scopri le nostre lingue attive.",
+            practice_title: "Area di pratica",
+            practice_desc: "Esercizi interattivi indipendenti per grammatica, vocabolario e abitudini di conversazione quotidiane.",
+            games_title: "Giochi linguistici",
+            games_desc: "Gioca a 14 giochi interattivi in modalità singola o multiplayer, come Action Hero o Fluency Flow, per migliorare l'affidabilità parlata.",
+            events_title: "Eventi dal vivo e club",
+            events_desc: "Club di conversazione e serate cinema in lingua originale guidati da insegnanti madrelingua.",
+            dict_title: "Lettore con doppio clic",
+            dict_desc: "Fai doppio clic su *qualsiasi parola* su *qualsiasi pagina* per aggiungerla immediatamente al tuo quaderno dei vocaboli!",
+            btn_take_tour: "🏡 Fai il tour guidato dell'homepage →",
+            step: "Passo",
+            of: "di",
+            tour_completed: "Tour completato! Buon apprendimento! 🎉",
+
+            games_intro_title: "Come giocare ai giochi linguistici 🎮",
+            games_intro_desc: "Benvenuto nell'arena dei giochi! Mettiti alla prova o gioca con gli amici. Scegli un gioco, seleziona un tema e fai pratica parlando in modo naturale. Nessuna pressione, solo puro divertimento! 🚀",
+            practice_intro_title: "Come usare l'area di pratica 💡",
+            practice_intro_desc: "Perfeziona la tua grammatica, il tuo vocabolario e le tue abitudini di ascolto. Accumula punti, raggiungi i tuoi obiettivi quotidiani, mantieni la tua serie e stimola la tua memoria con il nostro acceleratore di immersione cognitiva! 🧠",
+            events_intro_title: "Il nostro formato Speaking Club 🎉",
+            events_intro_desc: "Partecipa a conversazioni su vita quotidiana, cinema, scienza e filosofia! Ogni sessione segue un formato strutturato con 10 schede di vocaboli, 10 domande di discussione e 10 affermazioni future. Fai doppio clic su qualsiasi parola per salvarla! 🗣️",
+
+            step1_title: 'Navigazione principale 🧭',
+            step1_desc: 'Esplora tutte le sezioni principali di COSYlanguages da qui: Pratica gratuita, Giochi, Eventi e molto altro! ☝️',
+            step2_title: 'Inizia il tuo viaggio 📝',
+            step2_desc: 'Chatta direttamente con noi su WhatsApp, fai il nostro quiz di livello rapido o aggiungi l\'app alla tua schermata principale! 👇',
+            step3_title: 'Area di pratica gratuita 💡',
+            step3_desc: 'Impara vocaboli, grammatica ed esercizi di conversazione al tuo ritmo. Mantieni la tua serie giornaliera e ottieni punti COSY! 👈',
+            step4_title: 'Giochi di lingua interattivi 🎮',
+            step4_desc: 'Migliora la tua fluidità con 14 giochi interattivi da solo o con amici come Action Hero, Fluency Flow e Word Linker! 👉',
+            step5_title: 'Conversazione dal vivo e cinema 🎉',
+            step5_desc: 'Partecipa a club di conversazione stimolanti e serate di cinema in lingua originale con insegnanti esperti! ☝️',
+            step6_title: 'Impara più di 5 lingue 🌍',
+            step6_desc: 'Esplora inglese, francese, italiano, russo, greco e altre lingue in arrivo, con materiali gratuiti per ognuna! 👇',
+            step7_title: 'Calcolatore dei prezzi 🧮',
+            step7_desc: 'Scopri esattamente quanto pagherai. Personalizza lingua, tipo di corso, durata della lezione, pacchetto e valuta. Nessun costo nascosto! 👇',
+            step8_title: 'Raccolta vocaboli con doppio clic 📖',
+            step8_desc: 'Vedi una parola che non conosci? Fai doppio clic su di essa in qualsiasi pagina per aggiungerla al tuo dizionario personale! 💡',
+            step9_title: 'Sempre qui per aiutarti! ✨',
+            step9_desc: 'Se vuoi rifare questo tour o hai bisogno di aiuto per navigare in altre pagine, fai clic su questa simpatica bussola! 🧭'
+        },
+        ru: {
+            guide: "Гид",
+            skip: "Пропустить",
+            back: "← Назад",
+            next: "Далее →",
+            finish: "Готово 🎉",
+            close: "Закрыть",
+            help_title: "🧭 Помощник по навигации COSY",
+            help_intro: "Добро пожаловать! Нужна помощь в навигации по COSYlanguages? Вот краткое руководство по нашим основным разделам: ✨",
+            home_title: "Главная страница",
+            home_desc: "Наш главный портал. Ознакомьтесь с курсами, прозрачным калькулятором цен и сеткой активных языков.",
+            practice_title: "Бесплатная практика",
+            practice_desc: "Интерактивные упражнения для самостоятельного изучения грамматики, лексики и разговорных привычек.",
+            games_title: "Языковые игры",
+            games_desc: "14 интерактивных игр для одного или компании, включая Action Hero и Fluency Flow, для уверенности в общении.",
+            events_title: "Мероприятия и клубы",
+            events_desc: "Разговорные клубы и кинопоказы на языке оригинала с профессиональными преподавателями.",
+            dict_title: "Чтение с двойным кликом",
+            dict_desc: "Дважды кликните по *любому слову* на *любой странице*, чтобы мгновенно добавить его в личный словарь!",
+            btn_take_tour: "🏡 Начать интерактивный гид по главной →",
+            step: "Шаг",
+            of: "из",
+            tour_completed: "Тур завершен! Приятного обучения! 🎉",
+
+            games_intro_title: "Как играть в языковые игры 🎮",
+            games_intro_desc: "Добро пожаловать на Игровую Арену! Тренируйтесь в одиночку или соревнуйтесь с друзьями. Выберите игру, выберите тему и практикуйте речь в естественной и непринужденной форме! 🚀",
+            practice_intro_title: "Как использовать центр практики 💡",
+            practice_intro_desc: "Оттачивайте грамматику, пополняйте словарный запас и тренируйте аудирование. Копите очки, достигайте дневных целей, держите ударную серию и улучшайте память с помощью нашего когнитивного акселератора погружения! 🧠",
+            events_intro_title: "Формат наших разговорных клубов 🎉",
+            events_intro_desc: "Присоединяйтесь к беседам о жизни, кино, науке и философии! Каждая встреча проходит в структурированном формате: 10 тематических слов, 10 разговорных вопросов и 10 дискуссионных утверждений о будущем. Дважды кликните по слову, чтобы сохранить! 🗣️",
+
+            step1_title: 'Главное меню 🧭',
+            step1_desc: 'Отсюда вы можете перейти во все основные разделы COSYlanguages: Практика, Игры, Клубы и многое другое! ☝️',
+            step2_title: 'Начните ваше путешествие 📝',
+            step2_desc: 'Напишите нам напрямую в WhatsApp, пройдите быстрый языковой тест или добавьте приложение на главный экран! 👇',
+            step3_title: 'Центр бесплатной практики 💡',
+            step3_desc: 'Учите слова, тренируйте грамматику и говорение в своем темпе. Держите ежедневную серию и зарабатывайте очки! 👈',
+            step4_title: 'Интерактивные языковые игры 🎮',
+            step4_desc: 'Развивайте беглость речи в 14 играх соло или с друзьями, таких как Action Hero, Fluency Flow и Word Linker! 👉',
+            step5_title: 'Разговорные клубы и кино 🎉',
+            step5_desc: 'Присоединяйтесь к увлекательным разговорным сессиям и кинопоказам с носителями языка и опытными преподавателями! ☝️',
+            step6_title: 'Изучайте более 5 языков 🌍',
+            step6_desc: 'Откройте для себя английский, французский, итальянский, русский, греческий и другие языки с бесплатными материалами! 👇',
+            step7_title: 'Прозрачный калькулятор цен 🧮',
+            step7_desc: 'Узнайте точную стоимость занятий. Настройте язык, тип курса, длительность, размер пакета и валюту. Никаких скрытых комиссий! 👇',
+            step8_title: 'Интерактивный перевод по двойному клику 📖',
+            step8_desc: 'Встретили незнакомое слово? Просто кликните по нему дважды в любом месте сайта, чтобы добавить в личный словарь! 💡',
+            step9_title: 'Всегда готовы помочь! ✨',
+            step9_desc: 'Если захотите повторить этот тур или понадобится помощь на других страницах, просто нажмите на этот компас! 🧭'
+        },
+        el: {
+            guide: "Οδηγός",
+            skip: "Παράλειψη",
+            back: "← Πίσω",
+            next: "Επόμενο →",
+            finish: "Τέλος 🎉",
+            close: "Κλείσιμο",
+            help_title: "🧭 Βοήθεια Πλοήγησης COSY",
+            help_intro: "Καλώς ορίσατε! Χρειάζεστε βοήθεια για να βρείτε τον δρόμο σας στο COSYlanguages; Δείτε έναν γρήγορο οδηγό για τις κύριες ενότητες μας: ✨",
+            home_title: "Αρχική Σελίδα",
+            home_desc: "Η κύρια πύλη μας. Εξερευνήστε τα μαθήματά μας, τον διαφανή υπολογιστή τιμών και γνωρίστε τον πίνακα γλωσσών.",
+            practice_title: "Δωρεάν Εξάσκηση",
+            practice_desc: "Διαδραστικές ασκήσεις γραμματικής, λεξιλογίου και καθημερινής ομιλίας με τον δικό σας ρυθμό.",
+            games_title: "Γλωσσικά Παιχνίδια",
+            games_desc: "Παίξτε 14 διαδραστικά παιχνίδια (ατομικά ή με παρέα), όπως το Action Hero ή το Fluency Flow, για να αποκτήσετε αυτοπεποίθηση.",
+            events_title: "Ζωντανές Εκδηλώσεις & Λέσχες",
+            events_desc: "Λέσχες συζήτησης και βραδιές κινηματογράφου με καθηγητές που είναι φυσικοί ομιλητές της γλώσσας.",
+            dict_title: "Ανάγνωση με Διπλό Κλικ",
+            dict_desc: "Κάντε διπλό κλικ σε *οποιαδήποτε λέξη* σε *οποιαδήποτε σελίδα* για να την προσθέσετε αμέσως στο προσωπικό σας Λεξιλόγιο!",
+            btn_take_tour: "🏡 Ξεκινήστε τον Διαδραστικό Οδηγό της Αρχικής →",
+            step: "Βήμα",
+            of: "από",
+            tour_completed: "Ο οδηγός ολοκληρώθηκε! Καλή εκμάθηση! 🎉",
+
+            games_intro_title: "Πώς να παίξετε Γλωσσικά Παιχνίδια 🎮",
+            games_intro_desc: "Καλώς ορίσατε στην Αρένα Παιχνιδιών! Προκαλέστε τον εαυτό σας ή παίξτε με φίλους. Διαλέξτε παιχνίδι και θέμα, και εξασκηθείτε στην ομιλία με απόλυτα φυσικό τρόπο! 🚀",
+            practice_intro_title: "Πώς να χρησιμοποιήσετε το Κέντρο Εξάσκησης 💡",
+            practice_intro_desc: "Βελτιώστε τη γραμματική, το λεξιλόγιο και την ακρόαση. Συγκεντρώστε πόντους, πετύχετε καθημερινούς στόχους, διατηρήστε το σερί σας και ενισχύστε τη μνήμη σας με τον Επιταχυντή Γνωστικής Εμβύθισης! 🧠",
+            events_intro_title: "Η δομή των Λεσχών Συζήτησης 🎉",
+            events_intro_desc: "Συμμετάσχετε σε συζητήσεις για την καθημερινότητα, το σινεμά, την επιστήμη και τη φιλοσοφία! Κάθε συνεδρία ακολουθεί μια δομημένη μορφή: 10 κάρτες λεξιλογίου, 10 ερωτήσεις συζήτησης και 10 υποθετικές προτάσεις για το μέλλον. Κάντε διπλό κλικ σε οποιαδήποτε λέξη για αποθήκευση! 🗣️",
+
+            step1_title: 'Κύρια Πλοήγηση 🧭',
+            step1_desc: 'Εξερευνήστε όλες τις σημαντικές ενότητες του COSYlanguages από εδώ: Δωρεάν Εξάσκηση, Παιχνίδια, Εκδηλώσεις και άλλα! ☝️',
+            step2_title: 'Ξεκινήστε το Ταξίδι σας 📝',
+            step2_desc: 'Συνομιλήστε μαζί μας απευθείας στο WhatsApp, κάντε το γρήγορο τεστ κατάταξης ή καρφιτσώστε την εφαρμογή στην Αρχική Σελίδα σας! 👇',
+            step3_title: 'Κέντρο Δωρεάν Εξάσκησης 💡',
+            step3_desc: 'Μάθετε λεξιλόγιο, γραμματική και ομιλία με τον δικό σας ρυθμό. Διατηρήστε το καθημερινό σας σερί και κερδίστε πόντους! 👈',
+            step4_title: 'Διαδραστικά Γλωσσικά Παιχνίδια 🎮',
+            step4_desc: 'Βελτιώστε την ευχέρειά σας με 14 διαδραστικά παιχνίδια όπως Action Hero, Fluency Flow και Word Linker! 👉',
+            step5_title: 'Λέσχες Συζήτησης & Κινηματογράφος 🎉',
+            step5_desc: 'Συμμετάσχετε σε ζωντανές λέσχες συζήτησης και βραδιές ξενόγλωσσου κινηματογράφου με έμπειρους καθηγητές! ☝️',
+            step6_title: 'Μάθετε 5+ Πανέμορφες Γλώσσες 🌍',
+            step6_desc: 'Εξερευνήστε Αγγλικά, Γαλλικά, Ιταλικά, Ρωσικά, Ελληνικά και άλλες γλώσσες, με δωρεάν υλικό για κάθε μία! 👇',
+            step7_title: 'Υπολογιστής Τιμών 🧮',
+            step7_desc: 'Δείτε ακριβώς τι θα πληρώσετε. Προσαρμόστε γλώσσα, τύπο μαθήματος, διάρκεια, πακέτο και νόμισμα. Χαρακτηριστικά χωρίς κρυφές χρεώσεις! 👇',
+            step8_title: 'Διπλό Κλικ για Συλλογή Λεξιλογίου 📖',
+            step8_desc: 'Βλέπετε μια άγνωστη λέξη; Κάντε διπλό κλικ πάνω της σε οποιαδήποτε σελίδα για να την προσθέσετε στο λεξικό σας! 💡',
+            step9_title: 'Πάντα εδώ για να βοηθήσουμε! ✨',
+            step9_desc: 'Αν θέλετε να επαναλάβετε αυτόν τον οδηγό ή χρειάζεστε βοήθεια πλοήγησης σε άλλες σελίδες, κάντε κλικ σε αυτήν την πυξίδα! 🧭'
+        }
+    };
+
     const TOUR_STEPS = [
         {
             target: '#cosy-nav',
-            title: 'Main Navigation 🧭',
-            desc: 'Explore all major sections of COSYlanguages from here: Free Practice, Games, Events, and more! ☝️',
+            titleKey: 'step1_title',
+            descKey: 'step1_desc',
             position: 'bottom'
         },
         {
             target: '.hero-ctas',
-            title: 'Start Your Journey 📝',
-            desc: 'Chat with us directly on WhatsApp, take our quick Placement Quiz to find your level, or pin the app to your Home Screen! 👇',
+            titleKey: 'step2_title',
+            descKey: 'step2_desc',
             position: 'bottom'
         },
         {
             target: '#tools .tool-card:nth-child(1) .tool-link',
-            title: 'Free Practice Hub 💡',
-            desc: 'Master vocabulary, grammar, and speaking exercises at your own pace. Keep up your streak and earn COSY points! 👈',
+            titleKey: 'step3_title',
+            descKey: 'step3_desc',
             position: 'top'
         },
         {
             target: '#tools .tool-card:nth-child(2) .tool-link',
-            title: 'Interactive Language Games 🎮',
-            desc: 'Boost your fluency with 14 interactive multiplayer and solo games like Action Hero, Fluency Flow, and Word Linker! 👉',
+            titleKey: 'step4_title',
+            descKey: 'step4_desc',
             position: 'top'
         },
         {
             target: '.events-row',
-            title: 'Live Speaking Clubs & Cinema 🎉',
-            desc: 'Join live conversational speaking clubs and original language movie nights led by real native and expert teachers! ☝️',
+            titleKey: 'step5_title',
+            descKey: 'step5_desc',
             position: 'top'
         },
         {
             target: '#languages',
-            title: 'Learn 5+ Beautiful Languages 🌍',
-            desc: 'Explore English, French, Italian, Russian, Greek, and upcoming languages, along with free learning materials for each! 👇',
+            titleKey: 'step6_title',
+            descKey: 'step6_desc',
             position: 'top'
         },
         {
             target: '#calculator',
-            title: 'Transparent Pricing Calculator 🧮',
-            desc: 'See exactly what you will pay. Customise your language, course type, lesson duration, package size, and currency. No hidden fees! 👇',
+            titleKey: 'step7_title',
+            descKey: 'step7_desc',
             position: 'top'
         },
         {
             target: '#dict-fab',
-            title: 'Interactive Dictionary Harvesting 📖',
-            desc: 'See any word you do not know? Just **double-click** it anywhere on any page on our site to harvest it into your dictionary! 💡',
+            titleKey: 'step8_title',
+            descKey: 'step8_desc',
             position: 'top'
         },
         {
             target: '#cosy-tour-fab',
-            title: 'Always Here to Help! ✨',
-            desc: 'Whenever you want to retake this tour or need general navigation help on other pages, just click this friendly compass! 🧭',
+            titleKey: 'step9_title',
+            descKey: 'step9_desc',
             position: 'top'
         }
     ];
 
     let currentTourStep = 0;
     let activeHighlightedEl = null;
+
+    const getActiveLang = () => {
+        let lang = document.documentElement.lang || 'en';
+        lang = lang.toLowerCase();
+        if (['en', 'fr', 'it', 'ru', 'el'].includes(lang)) {
+            return lang;
+        }
+        const local = localStorage.getItem('cosy_user_lang') || localStorage.getItem('cosy_last_language');
+        if (local && ['en', 'fr', 'it', 'ru', 'el'].includes(local.toLowerCase())) {
+            return local.toLowerCase();
+        }
+        return 'en';
+    };
+
+    const getTourText = (key) => {
+        const lang = getActiveLang();
+        const set = TOUR_TRANSLATIONS[lang] || TOUR_TRANSLATIONS['en'];
+        return set[key] || TOUR_TRANSLATIONS['en'][key] || '';
+    };
 
     const positionTooltip = (targetEl, position) => {
         const rect = targetEl.getBoundingClientRect();
@@ -813,7 +1087,7 @@
         } else {
             window.endHomepageTour();
             if (window.COSY && typeof window.COSY.showToast === 'function') {
-                window.COSY.showToast('Tour completed! Enjoy learning! 🎉');
+                window.COSY.showToast(getTourText('tour_completed'));
             }
         }
     };
@@ -859,16 +1133,16 @@
 
             tooltip.innerHTML = `
                 <div class="ctb-header">
-                    <span class="ctb-step-tag">✨ Step ${index + 1} of ${TOUR_STEPS.length}</span>
+                    <span class="ctb-step-tag">✨ ${getTourText('step')} ${index + 1} ${getTourText('of')} ${TOUR_STEPS.length}</span>
                     <button class="ctb-close" onclick="window.endHomepageTour()">✕</button>
                 </div>
-                <h4 class="ctb-title">${step.title}</h4>
-                <p class="ctb-desc">${step.desc}</p>
+                <h4 class="ctb-title">${getTourText(step.titleKey)}</h4>
+                <p class="ctb-desc">${getTourText(step.descKey)}</p>
                 <div class="ctb-actions">
-                    <button class="ctb-btn-skip" onclick="window.endHomepageTour()">Skip</button>
+                    <button class="ctb-btn-skip" onclick="window.endHomepageTour()">${getTourText('skip')}</button>
                     <div style="display:flex; gap: 8px;">
-                        ${index > 0 ? `<button class="ctb-btn-back" onclick="window.prevTourStep()">← Back</button>` : ''}
-                        <button class="ctb-btn-next" onclick="window.nextTourStep()">${index === TOUR_STEPS.length - 1 ? 'Finish 🎉' : 'Next →'}</button>
+                        ${index > 0 ? `<button class="ctb-btn-back" onclick="window.prevTourStep()">${getTourText('back')}</button>` : ''}
+                        <button class="ctb-btn-next" onclick="window.nextTourStep()">${index === TOUR_STEPS.length - 1 ? getTourText('finish') : getTourText('next')}</button>
                     </div>
                 </div>
             `;
@@ -880,67 +1154,105 @@
 
     window.showNavigationHelpModal = function() {
         let modal = document.getElementById('cosy-nav-help-modal');
-        if (!modal) {
-            modal = document.createElement('div');
-            modal.id = 'cosy-nav-help-modal';
-            modal.className = 'cosy-tour-modal-overlay';
+        if (modal) {
+            modal.remove(); // Re-create to pick up current localized strings & contextual settings dynamically!
+        }
 
-            const p = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '/';
+        modal = document.createElement('div');
+        modal.id = 'cosy-nav-help-modal';
+        modal.className = 'cosy-tour-modal-overlay';
 
-            modal.innerHTML = `
-                <div class="cosy-tour-modal">
-                    <div class="ctm-header">
-                        <h3>🧭 COSY Navigation Help & Guide</h3>
-                        <button class="ctm-close-btn" onclick="document.getElementById('cosy-nav-help-modal').style.display='none'">×</button>
-                    </div>
-                    <div class="ctm-body">
-                        <p class="ctm-intro">Welcome! Need help finding your way around COSYlanguages? Here is a quick guide to our main sections: ✨</p>
-                        <div class="ctm-map">
-                            <div class="ctm-map-item">
-                                <span class="cmi-icon">🏡</span>
-                                <div class="cmi-content">
-                                    <strong><a href="${p}index.html">Home Page</a></strong>
-                                    <p>Our main gateway. Explore our courses, transparent pricing calculator, and meet our active languages grid.</p>
-                                </div>
+        const p = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '/';
+
+        // Detect Context: games, practice, events, or general
+        const pathname = window.location.pathname.toLowerCase();
+        let context = 'general';
+        if (pathname.includes('/games/')) {
+            context = 'games';
+        } else if (pathname.includes('/practice/')) {
+            context = 'practice';
+        } else if (pathname.includes('/events/')) {
+            context = 'events';
+        }
+
+        let contextIntroHtml = '';
+        if (context === 'games') {
+            contextIntroHtml = `
+                <div style="background: rgba(46,74,51,0.05); padding: 15px; border-radius: 12px; border-left: 4px solid var(--sage-dark); margin-bottom: 20px;">
+                    <h4 style="margin:0 0 5px 0; font-family:'Fraunces', serif; font-size:1.05rem; color:var(--sage-dark);">${getTourText('games_intro_title')}</h4>
+                    <p style="margin:0; font-size:0.85rem; line-height:1.4; color:#3f4e41;">${getTourText('games_intro_desc')}</p>
+                </div>
+            `;
+        } else if (context === 'practice') {
+            contextIntroHtml = `
+                <div style="background: rgba(46,74,51,0.05); padding: 15px; border-radius: 12px; border-left: 4px solid var(--sage-dark); margin-bottom: 20px;">
+                    <h4 style="margin:0 0 5px 0; font-family:'Fraunces', serif; font-size:1.05rem; color:var(--sage-dark);">${getTourText('practice_intro_title')}</h4>
+                    <p style="margin:0; font-size:0.85rem; line-height:1.4; color:#3f4e41;">${getTourText('practice_intro_desc')}</p>
+                </div>
+            `;
+        } else if (context === 'events') {
+            contextIntroHtml = `
+                <div style="background: rgba(46,74,51,0.05); padding: 15px; border-radius: 12px; border-left: 4px solid var(--sage-dark); margin-bottom: 20px;">
+                    <h4 style="margin:0 0 5px 0; font-family:'Fraunces', serif; font-size:1.05rem; color:var(--sage-dark);">${getTourText('events_intro_title')}</h4>
+                    <p style="margin:0; font-size:0.85rem; line-height:1.4; color:#3f4e41;">${getTourText('events_intro_desc')}</p>
+                </div>
+            `;
+        }
+
+        modal.innerHTML = `
+            <div class="cosy-tour-modal">
+                <div class="ctm-header">
+                    <h3>${getTourText('help_title')}</h3>
+                    <button class="ctm-close-btn" onclick="document.getElementById('cosy-nav-help-modal').style.display='none'">×</button>
+                </div>
+                <div class="ctm-body">
+                    ${contextIntroHtml}
+                    <p class="ctm-intro">${getTourText('help_intro')}</p>
+                    <div class="ctm-map">
+                        <div class="ctm-map-item">
+                            <span class="cmi-icon">🏡</span>
+                            <div class="cmi-content">
+                                <strong><a href="${p}index.html">${getTourText('home_title')}</a></strong>
+                                <p>${getTourText('home_desc')}</p>
                             </div>
-                            <div class="ctm-map-item">
-                                <span class="cmi-icon">💡</span>
-                                <div class="cmi-content">
-                                    <strong><a href="${p}practice/index.html">Free Practice Hub</a></strong>
-                                    <p>Interactive self-paced exercises for grammar, vocabulary, and daily speaking habits.</p>
-                                </div>
+                        </div>
+                        <div class="ctm-map-item">
+                            <span class="cmi-icon">💡</span>
+                            <div class="cmi-content">
+                                <strong><a href="${p}practice/index.html">${getTourText('practice_title')}</a></strong>
+                                <p>${getTourText('practice_desc')}</p>
                             </div>
-                            <div class="ctm-map-item">
-                                <span class="cmi-icon">🎮</span>
-                                <div class="cmi-content">
-                                    <strong><a href="${p}games/index.html">Language Games</a></strong>
-                                    <p>Play 14 interactive multiplayer & solo games like Action Hero or Fluency Flow to build speaking confidence.</p>
-                                </div>
+                        </div>
+                        <div class="ctm-map-item">
+                            <span class="cmi-icon">🎮</span>
+                            <div class="cmi-content">
+                                <strong><a href="${p}games/index.html">${getTourText('games_title')}</a></strong>
+                                <p>${getTourText('games_desc')}</p>
                             </div>
-                            <div class="ctm-map-item">
-                                <span class="cmi-icon">🎉</span>
-                                <div class="cmi-content">
-                                    <strong><a href="${p}events/index.html">Live Events & Clubs</a></strong>
-                                    <p>Speaking clubs and foreign-language film nights with native-level teachers.</p>
-                                </div>
+                        </div>
+                        <div class="ctm-map-item">
+                            <span class="cmi-icon">🎉</span>
+                            <div class="cmi-content">
+                                <strong><a href="${p}events/index.html">${getTourText('events_title')}</a></strong>
+                                <p>${getTourText('events_desc')}</p>
                             </div>
-                            <div class="ctm-map-item">
-                                <span class="cmi-icon">📖</span>
-                                <div class="cmi-content">
-                                    <strong>Double-Click Reader</strong>
-                                    <p>Double-click *any word* on *any page* on our site to immediately harvest it to your personal Vocabulary Notebook!</p>
-                                </div>
+                        </div>
+                        <div class="ctm-map-item">
+                            <span class="cmi-icon">📖</span>
+                            <div class="cmi-content">
+                                <strong>${getTourText('dict_title')}</strong>
+                                <p>${getTourText('dict_desc')}</p>
                             </div>
                         </div>
                     </div>
-                    <div class="ctm-footer">
-                        <button class="btn-secondary" onclick="document.getElementById('cosy-nav-help-modal').style.display='none'">Close</button>
-                        <a href="${p}index.html?startTour=true" class="btn-primary" style="text-decoration:none;">🏡 Take Interactive Homepage Tour →</a>
-                    </div>
                 </div>
-            `;
-            document.body.appendChild(modal);
-        }
+                <div class="ctm-footer">
+                    <button class="btn-secondary" onclick="document.getElementById('cosy-nav-help-modal').style.display='none'">${getTourText('close')}</button>
+                    <a href="${p}index.html?startTour=true" class="btn-primary" style="text-decoration:none;">${getTourText('btn_take_tour')}</a>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
         modal.style.display = 'flex';
     };
 
@@ -1013,7 +1325,8 @@
             btn.id = 'cosy-tour-fab';
             btn.className = 'cosy-tour-fab';
             btn.title = 'Take a site tour! 🧭';
-            btn.innerHTML = '<span class="ct-fab-icon">🧭</span> Guide';
+            const labelText = getTourText('guide') || 'Guide';
+            btn.innerHTML = `<span class="ct-fab-icon">🧭</span> ${labelText}`;
             document.body.appendChild(btn);
 
             btn.addEventListener('click', () => {
