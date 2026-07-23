@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print-and-Play Tabletop Board Game — COSYlanguages</title>
+    <link rel="icon" href="images/logos/cosylanguages.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/print.css">
+
+    <style>
+        body {
+            background-color: var(--sage-light, #FAF7F2);
+            color: var(--black, #222);
+            font-family: var(--font-sans, 'Nunito', sans-serif);
+        }
+
+        .print-controls {
+            position: sticky;
+            top: 0;
+            background: #ffffff;
+            padding: 1.5rem;
+            border-bottom: 2px solid var(--sage-deep, #3d5a45);
+            z-index: 1100;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        @media print {
+            .print-controls {
+                display: none !important;
+            }
+            body {
+                background: white !important;
+            }
+            .print-container {
+                box-shadow: none !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            .page-break {
+                page-break-after: always;
+                break-after: always;
+            }
+        }
+
+        .print-container {
+            background: #fff;
+            max-width: 950px;
+            margin: 2rem auto;
+            padding: 2.5rem;
+            box-shadow: 0 0 30px rgba(0,0,0,0.05);
+            border-radius: 12px;
+        }
+
+        .boardgame-title {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .boardgame-title h1 {
+            font-family: 'Lora', serif;
+            color: var(--sage-deep, #3d5a45);
+            margin: 0;
+            font-size: 2.4rem;
+        }
+
+        .instructions {
+            background: #f7fafc;
+            border-left: 4px solid var(--sage-deep, #3d5a45);
+            padding: 1rem;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .board-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        svg {
+            border: 2px solid #333;
+            background: #fff;
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .card-deck-header {
+            text-align: center;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 0.5rem;
+        }
+
+        .card-deck-header h2 {
+            font-family: 'Lora', serif;
+            color: var(--sage-deep, #3d5a45);
+            margin: 0;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .playing-card {
+            border: 2px dashed #999;
+            border-radius: 10px;
+            height: 6cm;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 1rem;
+            box-sizing: border-box;
+            background: #fff;
+            text-align: center;
+            position: relative;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .pc-emoji {
+            font-size: 2rem;
+        }
+
+        .pc-word {
+            font-family: 'Lora', serif;
+            font-size: 1.3rem;
+            color: var(--sage-deep, #3d5a45);
+            font-weight: bold;
+        }
+
+        .pc-def {
+            font-size: 0.8rem;
+            color: #444;
+            line-height: 1.3;
+        }
+
+        .pc-footer {
+            font-size: 0.65rem;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        .btn-print {
+            background: var(--sage-deep, #3d5a45);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn-print:hover {
+            background: var(--sage-dark, #2b3e30);
+        }
+    </style>
+</head>
+<body class="print-preview">
+
+<div class="print-controls">
+    <select id="sel-lang" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+        <option value="en">🇬🇧 English</option>
+        <option value="fr">🇫🇷 Français</option>
+        <option value="it">🇮🇹 Italiano</option>
+        <option value="ru">🇷🇺 Русский</option>
+        <option value="el">🇬🇷 Ελληνικά</option>
+    </select>
+
+    <select id="sel-level" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+        <option value="A1">Starter (A1)</option>
+        <option value="A2">Elementary (A2)</option>
+        <option value="B1">Intermediate (B1)</option>
+        <option value="B2">Upper-Intermediate (B2)</option>
+        <option value="C1">Advanced (C1)</option>
+        <option value="C2">Proficiency (C2)</option>
+    </select>
+
+    <select id="sel-topic" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+        <option value="adjectives">🏷️ Adjectives</option>
+        <option value="verbs">🏃 Verbs</option>
+        <option value="vocabulary">📖 General Vocab</option>
+        <option value="locations">🗺️ Locations</option>
+        <option value="people">👥 People</option>
+        <option value="dishes">🍕 Dishes &amp; Food</option>
+        <option value="notebook_dict" style="color: var(--sage-dark); font-weight: bold;">⚡ Load My Notebook</option>
+    </select>
+
+    <button onclick="window.print()" class="btn-print" style="background-color: var(--honey-dark, #b7791f); height: 36px;">🖨️ Print Board Game Set</button>
+</div>
+
+<main class="print-container">
+    <div class="boardgame-title">
+        <h1>COSYlanguages Tabletop Board Game 🎲</h1>
+        <p style="color: #666; font-size: 1.1rem; margin-top: 0.25rem;">A custom, print-and-play conversational board game to master language fluency offline.</p>
+    </div>
+
+    <div class="instructions">
+        <strong>🎲 How to play:</strong>
+        <ol style="margin-top: 0.5rem; margin-bottom: 0; padding-left: 1.2rem;">
+            <li>Print this page (Board Game + challenge cards deck) on thick cardstock or heavy paper. Cut out the 12 playing cards below.</li>
+            <li>Each player needs a token (e.g. a coin or button). Place them on the <strong>🏠 START</strong> space.</li>
+            <li>Take turns rolling a die or flipping a coin to move forward 1-3 spaces on the winding track.</li>
+            <li>When you land on a track space, draw a card from the deck and perform the action based on the space:
+                <ul>
+                    <li><strong>🎭 Action Hero:</strong> Act out or draw the card's word without speaking, other players must guess it!</li>
+                    <li><strong>🗣️ Fluency Flow:</strong> Speak continuously for 30 seconds incorporating the card's word!</li>
+                    <li><strong>⚖️ Battle of Wits:</strong> Describe the antonym/opposite of the card's word and form a sentence!</li>
+                    <li><strong>🧠 Cognitive Accelerator:</strong> Wait exactly 3 seconds, then define/translate the card's word fluently!</li>
+                </ul>
+            </li>
+            <li>First player to reach the <strong>🏁 FINISH</strong> space with a correct final challenge wins the game!</li>
+        </ol>
+    </div>
+
+    <!-- Landscape Board Game SVG -->
+    <div class="board-container">
+        <svg width="850" height="400" viewBox="0 0 850 400">
+            <!-- Winding Path Background -->
+            <path d="M 50 200 C 150 50, 300 50, 425 200 C 550 350, 700 350, 800 200" fill="none" stroke="#e8f0e9" stroke-width="80" stroke-linecap="round" stroke-linejoin="round" opacity="0.5" />
+
+            <!-- Path Outlines -->
+            <path d="M 50 200 C 150 50, 300 50, 425 200 C 550 350, 700 350, 800 200" fill="none" stroke="#2e4a33" stroke-width="84" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M 50 200 C 150 50, 300 50, 425 200 C 550 350, 700 350, 800 200" fill="none" stroke="#fff" stroke-width="80" stroke-linecap="round" stroke-linejoin="round" />
+
+            <!-- Individual Segment Dividers -->
+            <!-- Space 1: Start -->
+            <g transform="translate(50, 200)">
+                <circle cx="0" cy="0" r="38" fill="var(--sage)" stroke="#2e4a33" stroke-width="2" />
+                <text x="0" y="-10" font-weight="900" font-size="12" fill="#fff" text-anchor="middle" font-family="sans-serif">🏠</text>
+                <text x="0" y="10" font-weight="900" font-size="11" fill="#fff" text-anchor="middle" font-family="sans-serif">START</text>
+            </g>
+
+            <!-- Space 2: Action Hero -->
+            <g transform="translate(130, 130)">
+                <circle cx="0" cy="0" r="35" fill="#fcebeb" stroke="#2e4a33" stroke-width="1.5" />
+                <text x="0" y="-8" font-weight="900" font-size="12" fill="#a32d2d" text-anchor="middle" font-family="sans-serif">🎭</text>
+                <text x="0" y="8" font-weight="900" font-size="9" fill="#a32d2d" text-anchor="middle" font-family="sans-serif">ACTION HERO</text>
+            </g>
+
+            <!-- Space 3: Fluency Flow -->
+            <g transform="translate(225, 95)">
+                <circle cx="0" cy="0" r="35" fill="var(--teal-light)" stroke="#2e4a33" stroke-width="1.5" />
+                <text x="0" y="-8" font-weight="900" font-size="12" fill="var(--sage-dark)" text-anchor="middle" font-family="sans-serif">🗣️</text>
+                <text x="0" y="8" font-weight="900" font-size="9" fill="var(--sage-dark)" text-anchor="middle" font-family="sans-serif">FLUENCY FLOW</text>
+            </g>
+
+            <!-- Space 4: Battle of Wits -->
+            <g transform="translate(325, 110)">
+                <circle cx="0" cy="0" r="35" fill="#fff8e7" stroke="#2e4a33" stroke-width="1.5" />
+                <text x="0" y="-8" font-weight="900" font-size="12" fill="var(--honey-dark)" text-anchor="middle" font-family="sans-serif">⚖️</text>
+                <text x="0" y="8" font-weight="900" font-size="9" fill="var(--honey-dark)" text-anchor="middle" font-family="sans-serif">BATTLE/WITS</text>
+            </g>
+
+            <!-- Space 5: Cognitive Accelerator -->
+            <g transform="translate(425, 200)">
+                <circle cx="0" cy="0" r="35" fill="#eef1fb" stroke="#2e4a33" stroke-width="1.5" />
+                <text x="0" y="-8" font-weight="900" font-size="12" fill="var(--blue)" text-anchor="middle" font-family="sans-serif">🧠</text>
+                <text x="0" y="8" font-weight="900" font-size="9" fill="var(--blue)" text-anchor="middle" font-family="sans-serif">ACCELERATOR</text>
+            </g>
+
+            <!-- Space 6: Action Hero -->
+            <g transform="translate(525, 290)">
+                <circle cx="0" cy="0" r="35" fill="#fcebeb" stroke="#2e4a33" stroke-width="1.5" />
+                <text x="0" y="-8" font-weight="900" font-size="12" fill="#a32d2d" text-anchor="middle" font-family="sans-serif">🎭</text>
+                <text x="0" y="8" font-weight="900" font-size="9" fill="#a32d2d" text-anchor="middle" font-family="sans-serif">ACTION HERO</text>
+            </g>
+
+            <!-- Space 7: Fluency Flow -->
+            <g transform="translate(625, 305)">
+                <circle cx="0" cy="0" r="35" fill="var(--teal-light)" stroke="#2e4a33" stroke-width="1.5" />
+                <text x="0" y="-8" font-weight="900" font-size="12" fill="var(--sage-dark)" text-anchor="middle" font-family="sans-serif">🗣️</text>
+                <text x="0" y="8" font-weight="900" font-size="9" fill="var(--sage-dark)" text-anchor="middle" font-family="sans-serif">FLUENCY FLOW</text>
+            </g>
+
+            <!-- Space 8: Battle of Wits -->
+            <g transform="translate(710, 260)">
+                <circle cx="0" cy="0" r="35" fill="#fff8e7" stroke="#2e4a33" stroke-width="1.5" />
+                <text x="0" y="-8" font-weight="900" font-size="12" fill="var(--honey-dark)" text-anchor="middle" font-family="sans-serif">⚖️</text>
+                <text x="0" y="8" font-weight="900" font-size="9" fill="var(--honey-dark)" text-anchor="middle" font-family="sans-serif">BATTLE/WITS</text>
+            </g>
+
+            <!-- Space 9: Finish -->
+            <g transform="translate(800, 200)">
+                <circle cx="0" cy="0" r="38" fill="var(--honey)" stroke="#2e4a33" stroke-width="2" />
+                <text x="0" y="-10" font-weight="900" font-size="12" fill="#fff" text-anchor="middle" font-family="sans-serif">🏁</text>
+                <text x="0" y="10" font-weight="900" font-size="11" fill="#fff" text-anchor="middle" font-family="sans-serif">FINISH</text>
+            </g>
+        </svg>
+    </div>
+
+    <!-- Challenge Cards Deck Container -->
+    <div class="page-break">
+        <div class="card-deck-header">
+            <h2>PRINTABLE CHALLENGE CARDS</h2>
+            <p>Cut along the dotted lines. Draw from this deck whenever you land on a track space.</p>
+        </div>
+
+        <div class="cards-grid" id="cards-grid">
+            <!-- Rendered dynamically -->
+        </div>
+    </div>
+</main>
+
+<script>
+    window.vocabularyData = window.vocabularyData || {};
+
+    let currentCards = [
+        { word: "tall", emoji: "🦒", definitions: [{ text: "Of greater than average height.", examples: ["He is very tall."] }] },
+        { word: "short", emoji: "📏", definitions: [{ text: "Of less than average height or length.", examples: ["The pencil is short."] }] },
+        { word: "young", emoji: "👶", definitions: [{ text: "Having lived or existed for only a short time.", examples: ["He is a young man."] }] },
+        { word: "old", emoji: "👴", definitions: [{ text: "Having lived or existed for a long time.", examples: ["This is an old book."] }] },
+        { word: "sunny", emoji: "☀️", definitions: [{ text: "Having a lot of light from the sun.", examples: ["It is a sunny day."] }] },
+        { word: "rainy", emoji: "🌧️", definitions: [{ text: "Having a lot of rain.", examples: ["It is a rainy day."] }] },
+        { word: "happy", emoji: "😊", definitions: [{ text: "Feeling or showing pleasure or contentment.", examples: ["I am happy."] }] },
+        { word: "sad", emoji: "😢", definitions: [{ text: "Feeling or showing sorrow; unhappy.", examples: ["She is sad."] }] },
+        { word: "hot", emoji: "🔥", definitions: [{ text: "Having a high temperature.", examples: ["The tea is hot."] }] },
+        { word: "cold", emoji: "❄️", definitions: [{ text: "Having a low temperature.", examples: ["The snow is cold."] }] },
+        { word: "big", emoji: "🐘", definitions: [{ text: "Of considerable size or extent.", examples: ["An elephant is big."] }] },
+        { word: "small", emoji: "🐭", definitions: [{ text: "Of a size that is less than normal.", examples: ["A mouse is small."] }] }
+    ];
+
+    function loadCategoryData() {
+        const lang = document.getElementById('sel-lang').value;
+        const level = document.getElementById('sel-level').value;
+        const topic = document.getElementById('sel-topic').value;
+        const scriptId = 'boardgame-vocab-script';
+
+        if (topic === 'notebook_dict') {
+            const saved = localStorage.getItem('cosy_dict_free_guest');
+            const dict = saved ? JSON.parse(saved) : {};
+            const list = Object.values(dict);
+            if (list.length > 0) {
+                currentCards = list.slice(0, 12);
+            } else {
+                currentCards = [
+                    { word: "My Notebook", emoji: "📓", definitions: [{ text: "Harvest words from speaking clubs by double-clicking them!" }] }
+                ];
+            }
+            renderCards();
+            return;
+        }
+
+        const oldScript = document.getElementById(scriptId);
+        if (oldScript) oldScript.remove();
+
+        const script = document.createElement('script');
+        script.id = scriptId;
+        script.src = `vocabulary/${lang}/${level}/${topic}.js`;
+        script.onload = () => {
+            const list = window.vocabularyData[lang] || [];
+            if (list.length > 0) {
+                currentCards = list.slice(0, 12);
+            } else {
+                currentCards = [
+                    { word: "Category not found", emoji: "⚠️", definitions: [{ text: "This language/level doesn't have this category yet." }] }
+                ];
+            }
+            renderCards();
+        };
+        script.onerror = () => {
+            currentCards = [
+                { word: "Data not available", emoji: "⚠️", definitions: [{ text: "This category/level is not available in this language." }] }
+            ];
+            renderCards();
+        };
+        document.head.appendChild(script);
+    }
+
+    function renderCards() {
+        const grid = document.getElementById('cards-grid');
+        if (!grid) return;
+        grid.innerHTML = '';
+
+        const cardsToRender = [...currentCards];
+        while (cardsToRender.length < 12) {
+            cardsToRender.push({ word: "---", emoji: "🎲", definitions: [{ text: "Print custom words!" }] });
+        }
+
+        const pageSet = cardsToRender.slice(0, 12);
+
+        pageSet.forEach((card, idx) => {
+            const wordText = card.word || '---';
+            const defText = card.definition || (card.definitions && card.definitions[0] ? card.definitions[0].text : '');
+            const exText = card.example || (card.definitions && card.definitions[0] && card.definitions[0].examples && card.definitions[0].examples[0] ? card.definitions[0].examples[0] : '');
+
+            grid.innerHTML += `
+                <div class="playing-card">
+                    <div class="pc-emoji">${card.emoji || '📖'}</div>
+                    <div class="pc-word">${wordText}</div>
+                    <div class="pc-def">${defText}</div>
+                    ${exText ? `<div class="leitner-ex" style="font-size:0.7rem; font-style:italic; color:#777; margin-top:0.25rem;">"${exText}"</div>` : ''}
+                    <div class="pc-footer">COSY BOARDGAME • CARD ${idx + 1}</div>
+                </div>
+            `;
+        });
+    }
+
+    window.onload = () => {
+        loadCategoryData();
+    };
+</script>
+
+</body>
+</html>
