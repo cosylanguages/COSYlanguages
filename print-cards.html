@@ -159,7 +159,7 @@
 <body class="print-preview">
 
 <div class="print-controls">
-    <select id="sel-lang" onchange="loadCategoryData()">
+    <select id="sel-lang" onchange="loadCategoryData()" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
         <option value="en">🇬🇧 English</option>
         <option value="fr">🇫🇷 Français</option>
         <option value="it">🇮🇹 Italiano</option>
@@ -167,10 +167,29 @@
         <option value="el">🇬🇷 Ελληνικά</option>
     </select>
 
-    <button onclick="document.getElementById('file-input').click()" class="btn-action">📂 Load Notebook JSON</button>
+    <select id="sel-level" onchange="loadCategoryData()" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+        <option value="A1">Starter (A1)</option>
+        <option value="A2">Elementary (A2)</option>
+        <option value="B1">Intermediate (B1)</option>
+        <option value="B2">Upper-Intermediate (B2)</option>
+        <option value="C1">Advanced (C1)</option>
+        <option value="C2">Proficiency (C2)</option>
+    </select>
+
+    <select id="sel-topic" onchange="loadCategoryData()" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+        <option value="adjectives">🏷️ Adjectives</option>
+        <option value="verbs">🏃 Verbs</option>
+        <option value="vocabulary">📖 General Vocab</option>
+        <option value="locations">🗺️ Locations</option>
+        <option value="people">👥 People</option>
+        <option value="dishes">🍕 Dishes &amp; Food</option>
+        <option value="notebook_dict" style="color: var(--sage-dark); font-weight: bold;">⚡ Load My Notebook</option>
+    </select>
+
+    <button onclick="document.getElementById('file-input').click()" class="btn-action" style="height: 36px;">📂 Load JSON File</button>
     <input type="file" id="file-input" style="display: none;" onchange="handleFileUpload(event)">
 
-    <button onclick="window.print()" class="btn-action" style="background-color: var(--honey-dark, #b7791f);">🖨️ Print study cards</button>
+    <button onclick="window.print()" class="btn-action" style="background-color: var(--honey-dark, #b7791f); height: 36px;">🖨️ Print study cards</button>
 </div>
 
 <main class="print-container">
@@ -198,7 +217,6 @@
 </main>
 
 <script>
-    // Standard adjectives loaded as a fallback
     window.vocabularyData = window.vocabularyData || {};
 
     let currentCards = [
@@ -218,9 +236,8 @@
         reader.onload = function(e) {
             try {
                 const data = JSON.parse(e.target.result);
-                // Parse Notebook format (saved vocabulary list)
                 if (Array.isArray(data)) {
-                    currentCards = data.slice(0, 6); // Renders up to 6 cards on standard sheet
+                    currentCards = data.slice(0, 6);
                 } else if (data.saved_words) {
                     currentCards = data.saved_words.slice(0, 6);
                 }
@@ -234,20 +251,46 @@
 
     function loadCategoryData() {
         const lang = document.getElementById('sel-lang').value;
-        const scriptId = 'adjectives-script';
+        const level = document.getElementById('sel-level').value;
+        const topic = document.getElementById('sel-topic').value;
+        const scriptId = 'cards-vocab-script';
 
-        // Remove previous script if any
+        if (topic === 'notebook_dict') {
+            const saved = localStorage.getItem('cosy_dict_free_guest');
+            const dict = saved ? JSON.parse(saved) : {};
+            const list = Object.values(dict);
+            if (list.length > 0) {
+                currentCards = list.slice(0, 6);
+            } else {
+                currentCards = [
+                    { word: "My Notebook", emoji: "📓", definitions: [{ text: "Harvest words from speaking clubs by double-clicking them!" }] }
+                ];
+            }
+            renderCards();
+            return;
+        }
+
         const oldScript = document.getElementById(scriptId);
         if (oldScript) oldScript.remove();
 
         const script = document.createElement('script');
         script.id = scriptId;
-        script.src = `vocabulary/${lang}/A1/adjectives.js`;
+        script.src = `vocabulary/${lang}/${level}/${topic}.js`;
         script.onload = () => {
             const list = window.vocabularyData[lang] || [];
             if (list.length > 0) {
                 currentCards = list.slice(0, 6);
+            } else {
+                currentCards = [
+                    { word: "Category not found", emoji: "⚠️", definitions: [{ text: "This language/level doesn't have this category yet." }] }
+                ];
             }
+            renderCards();
+        };
+        script.onerror = () => {
+            currentCards = [
+                { word: "Data not available", emoji: "⚠️", definitions: [{ text: "This category/level is not available in this language." }] }
+            ];
             renderCards();
         };
         document.head.appendChild(script);
@@ -257,16 +300,16 @@
         const frontsGrid = document.getElementById('fronts-grid');
         const backsGrid = document.getElementById('backs-grid');
 
+        if (!frontsGrid || !backsGrid) return;
+
         frontsGrid.innerHTML = '';
         backsGrid.innerHTML = '';
 
-        // If less than 6 cards, pad with empty cards for grid alignment
         const cardsToRender = [...currentCards];
         while (cardsToRender.length < 6) {
             cardsToRender.push({ word: "", emoji: "", definitions: [] });
         }
 
-        // We only render 6 cards per page for perfect layout
         const pageSet = cardsToRender.slice(0, 6);
 
         // Render Fronts (Row-by-Row, Left to Right)
@@ -285,9 +328,6 @@
         });
 
         // Render Backs (COLUMN REVERSED per row so they match fronts when printed double sided)
-        // Row 1: cards 0, 1 -> reversed: 1, 0
-        // Row 2: cards 2, 3 -> reversed: 3, 2
-        // Row 3: cards 4, 5 -> reversed: 5, 4
         const reversedIndices = [1, 0, 3, 2, 5, 4];
         reversedIndices.forEach(idx => {
             const card = pageSet[idx];
@@ -295,8 +335,8 @@
                 backsGrid.innerHTML += `<div class="leitner-card-back" style="border:1px dashed #eee;"></div>`;
                 return;
             }
-            const defText = card.definitions && card.definitions[0] ? card.definitions[0].text : '';
-            const examples = card.definitions && card.definitions[0] && card.definitions[0].examples ? card.definitions[0].examples : [];
+            const defText = card.definition || (card.definitions && card.definitions[0] ? card.definitions[0].text : '');
+            const examples = card.example ? [card.example] : (card.definitions && card.definitions[0] && card.definitions[0].examples ? card.definitions[0].examples : []);
 
             backsGrid.innerHTML += `
                 <div class="leitner-card-back">
@@ -311,7 +351,7 @@
     }
 
     window.onload = () => {
-        renderCards();
+        loadCategoryData();
     };
 </script>
 
